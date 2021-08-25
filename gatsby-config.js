@@ -1,10 +1,29 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.thecodingtrain.com",
     title: "The Coding Train",
   },
   plugins: [
-    "gatsby-plugin-postcss",
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        cssLoaderOptions: {
+          localIdentName: "[name]-[local]-[hash:base64:3]",
+        },
+        postCssPlugins: [
+          require(`postcss-import`),
+          require("postcss-normalize"),
+          require("postcss-nesting"),
+          require("postcss-custom-properties")({
+            importFrom: "./src/styles/variables.css",
+          }),
+          require("postcss-calc")(),
+          require("postcss-custom-media")({
+            importFrom: "./src/styles/variables.css",
+          }),
+        ],
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",

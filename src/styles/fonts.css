@@ -1,0 +1,31 @@
+/*
+ * TODO: These files should change when we buy the real font files
+ */
+
+@font-face {
+  font-family: "GT Maru";
+  src: url("../fonts/GT-Maru-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GT Maru";
+  src: url("../fonts/GT-Maru-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GT Maru";
+  src: url("../fonts/GT-Maru-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "GT Maru Mega";
+  src: url("../fonts/GT-Maru-Mega.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GT Maru Mono";
+  src: url("../fonts/GT-Maru-Mono.woff2") format("woff2");
+}

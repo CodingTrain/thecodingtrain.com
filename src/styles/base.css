@@ -1,0 +1,25 @@
+@import-sanitize;
+
+body {
+  font-family: var(--maru);
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-appearance: none;
+  border: none;
+  background-color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: var(--maru-mega);
+  font-weight: normal;
+}

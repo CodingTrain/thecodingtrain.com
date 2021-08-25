@@ -1,0 +1,20 @@
+@custom-media --small (max-width: 600px);
+@custom-media --reduced (max-width: 960px);
+@custom-media --medium (max-width: 1280px);
+@custom-media --large (max-width: 1440px);
+
+:root {
+  --maru: "GT Maru", sans-serif;
+  --maru-mega: "GT Maru Mega", sans-serif;
+  --maru-mono: "GT Maru Mono", monospace;
+}
+
+@media (--reduced) {
+  :root {
+  }
+}
+
+@media (--small) {
+  :root {
+  }
+}
