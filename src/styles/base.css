@@ -1,5 +1,10 @@
 @import-sanitize;
 
+html,
+body {
+  padding: 0;
+}
+
 body {
   font-family: var(--maru);
 }

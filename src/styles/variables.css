@@ -7,14 +7,30 @@
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
+
+  --gray-dark: #3c3c3c;
+  --gray-mid: #666666;
+  --gray-light: #ededed;
+
+  --cyan: #2dc5f4;
+  --pink: #f063a4;
+  --orange: #f89e4f;
+  --purple: #9253a1;
+  --red: #f16164;
+  --red-light: #fffcfc;
+
+  --container-max-width: 1600px;
+  --container-spacing-horizontal: 50px;
 }
 
 @media (--reduced) {
   :root {
+    --container-spacing-horizontal: 30px;
   }
 }
 
 @media (--small) {
   :root {
+    --container-spacing-horizontal: 5px;
   }
 }

@@ -1,11 +1,22 @@
 import React from "react";
+import Head from "./Head";
 
 import "../styles/base.css";
 import "../styles/variables.css";
 import "../styles/fonts.css";
 
-const Layout = ({ children, className }) => {
-  return <div className={className}>{children}</div>;
+import * as css from "./Layout.module.css";
+
+const Layout = ({ children, title }) => {
+  return (
+    <div className={css.outer}>
+      <Head title={title} />
+      <div className={css.inner}>
+        <header>MENU HERE</header>
+        {children}
+      </div>
+    </div>
+  );
 };
 
 export default Layout;

@@ -1,0 +1,13 @@
+.outer {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-spacing-horizontal) 0
+    var(--container-spacing-horizontal);
+}
+
+.inner {
+  background-color: var(--red-light);
+  border-right: 1px solid var(--gray-mid);
+  border-left: 1px solid var(--gray-mid);
+  min-height: 100vh;
+}
