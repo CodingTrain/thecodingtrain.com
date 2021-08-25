@@ -3,6 +3,9 @@ module.exports = {
     siteUrl: "https://www.thecodingtrain.com",
     title: "The Coding Train",
   },
+  flags: {
+    DEV_SSR: true,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-postcss`,
