@@ -1,0 +1,10 @@
+.root {
+  padding: var(--box-padding);
+
+  & h1 {
+    color: var(--red);
+    line-height: calc(var(--baseline) * 3);
+    margin: 0;
+    font-size: 140px;
+  }
+}

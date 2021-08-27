@@ -10,4 +10,7 @@
   border-right: 1px solid var(--gray-mid);
   border-left: 1px solid var(--gray-mid);
   min-height: 100vh;
+  /* For debugging */
+  background-image: linear-gradient(rgba(255, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 100% 50px;
 }

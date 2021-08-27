@@ -11,10 +11,7 @@ const Layout = ({ children, title }) => {
   return (
     <div className={css.outer}>
       <Head title={title} />
-      <div className={css.inner}>
-        <header>MENU HERE</header>
-        {children}
-      </div>
+      <div className={css.inner}>{children}</div>
     </div>
   );
 };

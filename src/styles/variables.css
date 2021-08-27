@@ -19,6 +19,9 @@
   --red: #f16164;
   --red-light: #fffcfc;
 
+  --baseline: 50px;
+  --box-padding: 0 25px;
+
   --container-max-width: 1600px;
   --container-spacing-horizontal: 50px;
 }
