@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import cn from "classnames";
 
 import * as css from "./Breadcrumbs.module.css";
-import { box } from "../styles/grid.module.css";
+import { box } from "../styles/box.module.css";
 
 const Breadcrumbs = ({ breadcrumbs }) => {
   return (

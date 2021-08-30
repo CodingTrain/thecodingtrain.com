@@ -17,6 +17,9 @@
 
 .title {
   line-height: var(--baseline);
-  margin: 0;
   padding-left: var(--box-padding);
+
+  & h3 {
+    margin: 0;
+  }
 }
