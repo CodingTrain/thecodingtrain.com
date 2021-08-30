@@ -8,8 +8,12 @@
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
 
-  --font-small: 12px;
   --font-medium: 16px;
+
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+  --spacing-xlarge: 80px;
 
   --gray-dark: #3c3c3c;
   --gray-mid: #666666;
@@ -33,5 +37,7 @@
   :root {
     --baseline: 30px;
     --container-spacing-horizontal: 5px;
+
+    --font-small: 12px;
   }
 }

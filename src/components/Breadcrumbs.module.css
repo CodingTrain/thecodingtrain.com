@@ -9,14 +9,5 @@
 }
 
 .arrow {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-@media (--small) {
-  .root {
-    font-size: var(--font-small);
-    line-height: 20px;
-    padding: 0 10px;
-  }
+  padding: 0 var(--spacing-small);
 }

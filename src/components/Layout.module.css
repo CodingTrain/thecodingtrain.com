@@ -12,5 +12,5 @@
   min-height: 100vh;
   /* For debugging */
   background-image: linear-gradient(rgba(255, 0, 0, 0.1) 1px, transparent 1px);
-  background-size: 100% 50px;
+  background-size: 100% var(--baseline);
 }
