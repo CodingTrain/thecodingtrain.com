@@ -1,15 +1,19 @@
 @custom-media --small (max-width: 600px);
-@custom-media --reduced (max-width: 960px);
-@custom-media --medium (max-width: 1280px);
-@custom-media --large (max-width: 1440px);
+@custom-media --medium (max-width: 960px);
+@custom-media --large (max-width: 1150px);
+@custom-media --xlarge (max-width: 1440px);
 
 :root {
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
 
-  --font-small: 12px;
   --font-medium: 16px;
+
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+  --spacing-xlarge: 80px;
 
   --gray-dark: #3c3c3c;
   --gray-mid: #666666;
@@ -29,14 +33,11 @@
   --container-spacing-horizontal: 50px;
 }
 
-@media (--reduced) {
-  :root {
-    --container-spacing-horizontal: 30px;
-  }
-}
-
 @media (--small) {
   :root {
+    --baseline: 30px;
     --container-spacing-horizontal: 5px;
+
+    --font-small: 12px;
   }
 }
