@@ -1,0 +1,22 @@
+.root {
+	display: flex;
+	flex-wrap: wrap;
+	padding: var(--box-padding);
+	font-family: var(--maru-mono);
+	color: var(--red);
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.arrow {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media (--small) {
+	.root {
+		font-size: 12px;
+		line-height: 20px;
+		padding: 0 10px;
+	}
+}
