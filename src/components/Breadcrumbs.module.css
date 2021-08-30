@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-wrap: wrap;
-  padding: var(--box-padding);
+  padding: 0 var(--box-padding);
   font-family: var(--maru-mono);
   color: var(--red);
   font-size: var(--font-medium);
