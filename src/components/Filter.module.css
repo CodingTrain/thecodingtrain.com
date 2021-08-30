@@ -1,0 +1,22 @@
+.root {
+  color: var(--gray-mid);
+  display: flex;
+}
+
+.left {
+  flex: 0 0 var(--baseline);
+}
+
+.right {
+  flex: 1;
+}
+
+.icon {
+  line-height: var(--baseline);
+}
+
+.title {
+  line-height: var(--baseline);
+  margin: 0;
+  padding-left: var(--box-padding);
+}
