@@ -8,6 +8,9 @@
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
 
+  --font-small: 12px;
+  --font-medium: 16px;
+
   --gray-dark: #3c3c3c;
   --gray-mid: #666666;
   --gray-light: #ededed;

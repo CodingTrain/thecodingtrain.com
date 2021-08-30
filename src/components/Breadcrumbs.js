@@ -11,7 +11,9 @@ const Breadcrumbs = ({ breadcrumbs }) => {
         return (
           <span key={i} className={css.crumb}>
             {breadcrumb.name}
-             {i < breadcrumbs.length - 1 && <span className={css.arrow}>&gt;</span>} 
+            {i < breadcrumbs.length - 1 && (
+              <span className={css.arrow}>&gt;</span>
+            )}
           </span>
         );
       })}

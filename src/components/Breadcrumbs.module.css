@@ -1,22 +1,22 @@
 .root {
-	display: flex;
-	flex-wrap: wrap;
-	padding: var(--box-padding);
-	font-family: var(--maru-mono);
-	color: var(--red);
-	font-size: 16px;
-	line-height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--box-padding);
+  font-family: var(--maru-mono);
+  color: var(--red);
+  font-size: var(--font-medium);
+  line-height: var(--baseline);
 }
 
 .arrow {
-	padding-left: 10px;
-	padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @media (--small) {
-	.root {
-		font-size: 12px;
-		line-height: 20px;
-		padding: 0 10px;
-	}
+  .root {
+    font-size: var(--font-small);
+    line-height: 20px;
+    padding: 0 10px;
+  }
 }
