@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Layout from "../components/Layout";
 import Heading from "../components/Heading";
 import Breadcrumb from "../components/Breadcrumbs";
+import TopBar from "../components/TopBar";
 import Filter from "../components/Filter";
 import cn from "classnames";
 
@@ -13,6 +14,7 @@ const ComponentsPage = () => {
 
   return (
     <Layout>
+      <TopBar />
       <Heading>This is a heading</Heading>
       <Breadcrumb
         breadcrumbs={[

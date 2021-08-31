@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--gray-light);
+}
+
+.logo {
+  line-height: var(--baseline);
+  padding: 0 var(--box-padding);
+}
+
+.clock {
+  line-height: var(--baseline);
+  padding: 0 var(--box-padding);
+}
+
+.date {
+  line-height: var(--baseline);
+  flex: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (--large) {
+  .date {
+    display: none;
+  }
+
+  .clock {
+    display: none;
+  }
+}
