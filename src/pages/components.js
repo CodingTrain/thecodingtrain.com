@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Heading from "../components/Heading";
 import Breadcrumb from "../components/Breadcrumbs";
 import Filter from "../components/Filter";
+import ButtonPanel from "../components/ButtonPanel";
 import cn from "classnames";
 
 import * as css from "../styles/pages/components.module.css";
@@ -39,16 +40,17 @@ const ComponentsPage = () => {
       </div>
       <div className={cn(box, css.box)}>
         <div className={cols}>
-          <div className={cn(box, col, css.box)}>Nested 1</div>
+          <div className={cn(box, col, css.box)}><ButtonPanel text={"We've created a sample guide to help you get started"} buttonText={"Go to our guide"} buttonLink={""} variant={"red"}/></div>
           <div className={cn(box, col, css.box)}>Nested 2</div>
         </div>
         <div className={cols}>
-          <div className={cn(box, col, css.box)}>Nested 4</div>
+          <div className={cn(box, col, css.box)}><ButtonPanel text={"Sounds interesting"} buttonText={"Go to track"} buttonLink={""} variant={"orange"}/></div>
           <div className={cn(box, col, css.box)}>Nested 5</div>
           <div className={cn(box, col, css.box)}>Nested 6</div>
         </div>
       </div>
       <div className={cn(box, css.box)}>Box 8</div>
+      <ButtonPanel text={"Sounds interesting"} buttonText={"Go to track"} buttonLink={""} variant={"purple"}/>
     </Layout>
   );
 };

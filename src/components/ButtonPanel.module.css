@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  line-height: var(--baseline);
+  justify-content: space-around;
+  align-items: center;
+
+  & p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+  }
+}

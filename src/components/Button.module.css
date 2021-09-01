@@ -1,0 +1,47 @@
+.root {
+  color: var(--gray-dark);
+  border-radius: 40px;
+  height: calc(var(--baseline)-10px);
+  padding: 0 var(--box-padding);
+  text-transform: uppercase;
+  font-size: var(--font-medium);
+}
+
+a {
+  text-decoration: none;
+}
+
+.root:hover {
+}
+
+/* Variants */
+
+.red {
+  background-color: var(--red);
+  border: 1px solid var(--gray-mid);
+}
+
+.red:hover {
+  background-color: white;
+  border: 1px solid var(--red);
+}
+
+.orange {
+  background-color: var(--orange);
+  border: 1px solid var(--gray-mid);
+}
+
+.orange:hover {
+  background-color: white;
+  border: 1px solid var(--orange);
+}
+
+.purple {
+  background-color: var(--purple);
+  border: 1px solid var(--gray-mid);
+}
+
+.purple:hover {
+  background-color: white;
+  border: 1px solid var(--purple);
+}
