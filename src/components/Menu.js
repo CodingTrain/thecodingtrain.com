@@ -36,7 +36,7 @@ const Menu = () => {
   return (
     <div className={cn(box, css.root)}>
       <button className={css.menuToggle} onClick={() => setExpanded(!expanded)}>
-        {expanded ? <AiOutlineClose size={40} /> : <AiOutlineMenu size={40} />}
+        {expanded ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </button>
       <ul className={cn(css.menu, { [css.expanded]: expanded })}>
         {items.map((item, i) => (
@@ -51,7 +51,7 @@ const Menu = () => {
                 <button>{item.name}</button>
                 <ul className={css.submenu}>
                   {item.children.map((subitem, j) => (
-                    <li className={cn(box, css.subitem)} key={j}>
+                    <li className={css.subitem} key={j}>
                       <Link to={subitem.href}>{subitem.name}</Link>
                     </li>
                   ))}
