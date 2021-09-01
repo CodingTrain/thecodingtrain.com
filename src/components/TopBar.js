@@ -12,7 +12,7 @@ const TopBar = () => {
   return (
     <div className={cn(box, css.root)}>
       <div className={cn(box, css.logo)}>
-        <Logo />
+        <Logo width={250} />
       </div>
       <div className={cn(box, css.clock)}>
         <Clock />
