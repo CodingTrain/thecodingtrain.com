@@ -10,6 +10,7 @@
 
   --font-medium: 16px;
 
+  --spacing-xsmall: 5px;
   --spacing-small: 10px;
   --spacing-medium: 20px;
   --spacing-large: 40px;
@@ -19,14 +20,14 @@
   --gray-mid: #666666;
   --gray-light: #ededed;
 
-  --border: 1px solid var(--gray-mid);
-
   --cyan: #2dc5f4;
   --pink: #f063a4;
   --orange: #f89e4f;
   --purple: #9253a1;
   --red: #f16164;
   --red-light: #fffcfc;
+
+  --border: 1px solid var(--gray-mid);
 
   --baseline: 50px;
   --box-padding: 25px;
@@ -40,6 +41,6 @@
     --baseline: 30px;
     --container-spacing-horizontal: 5px;
 
-    --font-small: 12px;
+    --font-medium: 12px;
   }
 }
