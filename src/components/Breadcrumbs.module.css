@@ -5,7 +5,7 @@
   font-family: var(--maru-mono);
   color: var(--red);
   font-size: var(--font-medium);
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
 }
 
 .arrow {

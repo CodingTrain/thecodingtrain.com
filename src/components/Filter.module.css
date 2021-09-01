@@ -1,10 +1,11 @@
 .root {
   color: var(--gray-mid);
   display: flex;
+  font-size: var(--font-medium);
 }
 
 .left {
-  flex: 0 0 var(--baseline);
+  flex: 0 0 var(--baseline-box);
 }
 
 .right {
@@ -12,14 +13,41 @@
 }
 
 .icon {
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
+  text-align: center;
 }
 
 .title {
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
   padding-left: var(--box-padding);
 
   & h3 {
     margin: 0;
   }
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  & button {
+    width: 100%;
+    cursor: pointer;
+    padding: 0 var(--spacing-xsmall);
+    line-height: var(--baseline-box);
+    font-family: var(--maru-mono);
+    font-size: var(--medium);
+    color: var(--gray-mid);
+    white-space: nowrap;
+  }
+}
+
+.item.selected button {
+  background-color: var(--pink);
+  color: var(--gray-dark);
 }

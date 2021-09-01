@@ -1,16 +1,17 @@
-import React, { useState } from "react";
-import Layout from "../components/Layout";
-import Heading from "../components/Heading";
-import Breadcrumb from "../components/Breadcrumbs";
-import TopBar from "../components/TopBar";
-import Filter from "../components/Filter";
-import cn from "classnames";
+import React, { useState } from 'react';
+import Layout from '../components/Layout';
+import Heading from '../components/Heading';
+import Breadcrumb from '../components/Breadcrumbs';
+import TopBar from '../components/TopBar';
+import Filter from '../components/Filter';
+import cn from 'classnames';
 
-import * as css from "../styles/pages/components.module.css";
-import { box, cols, col } from "../styles/box.module.css";
+import * as css from '../styles/pages/components.module.css';
+import { box, cols, col } from '../styles/box.module.css';
 
 const ComponentsPage = () => {
-  const [filters, setFilters] = useState();
+  const [filters1, setFilters1] = useState();
+  const [filters2, setFilters2] = useState();
 
   return (
     <Layout>
@@ -18,14 +19,42 @@ const ComponentsPage = () => {
       <Heading>This is a heading</Heading>
       <Breadcrumb
         breadcrumbs={[
-          { name: "Videos Overview", link: "" },
-          { name: "Tracks", link: "" },
-          { name: "The Nature of Code", link: "" },
+          { name: 'Videos Overview', link: '' },
+          { name: 'Tracks', link: '' },
+          { name: 'The Nature of Code', link: '' }
         ]}
       />
       <div className={cols}>
-        <Filter title="Filter by Language" items={filters} className={col} />
-        <Filter title="Filter by Language" items={filters} className={col} />
+        <Filter
+          title="Filter by Language"
+          items={[
+            'P5.js',
+            'Processing',
+            'JavaScript',
+            'Java',
+            'React',
+            'Mechanic',
+            'Lisp'
+          ]}
+          selected={filters1}
+          onChange={setFilters1}
+          className={col}
+        />
+        <Filter
+          title="Filter by Language"
+          items={[
+            'P5.js',
+            'Processing',
+            'JavaScript',
+            'Java',
+            'React',
+            'Mechanic',
+            'Lisp'
+          ]}
+          selected={filters2}
+          onChange={setFilters2}
+          className={col}
+        />
       </div>
       <Heading>Box Test</Heading>
       <div className={cn(box, css.box)}>Box 1</div>
