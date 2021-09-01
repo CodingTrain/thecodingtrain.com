@@ -1,16 +1,16 @@
-import React from "react";
-import cn from "classnames";
-import Menu from "./Menu";
+import React from 'react';
+import cn from 'classnames';
+import Menu from './Menu';
 
-import * as css from "./TopBar.module.css";
-import { box } from "../styles/box.module.css";
+import * as css from './TopBar.module.css';
+import { box } from '../styles/box.module.css';
 
-import Logo from "../images/logo.svg";
-import Clock from "../images/clock.svg";
+import Logo from '../images/logo.svg';
+import Clock from '../images/clock.svg';
 
 const TopBar = () => {
   return (
-    <div className={cn(box, css.root)}>
+    <div className={css.root}>
       <div className={cn(box, css.logo)}>
         <Logo width={250} />
       </div>

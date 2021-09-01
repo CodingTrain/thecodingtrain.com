@@ -13,7 +13,7 @@
     boxes would overlap and therefore cover the top line with background color, etc.
   */
   --baseline-box: calc(var(--baseline) - 1px);
-  --baseline-box-3x: calc(var(--baseline) * 2 + var(--baseline));
+  --baseline-box-3x: calc(var(--baseline) * 2 + var(--baseline-box));
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
