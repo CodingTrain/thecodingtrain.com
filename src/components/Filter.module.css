@@ -5,10 +5,7 @@
 }
 
 .left {
-  flex: 0 0 var(--baseline);
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  flex: 0 0 var(--baseline-box);
 }
 
 .right {
@@ -16,12 +13,12 @@
 }
 
 .icon {
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
   text-align: center;
 }
 
 .title {
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
   padding-left: var(--box-padding);
 
   & h3 {
@@ -42,7 +39,7 @@
     width: 100%;
     cursor: pointer;
     padding: 0 var(--spacing-xsmall);
-    line-height: var(--baseline);
+    line-height: var(--baseline-box);
     font-family: var(--maru-mono);
     font-size: var(--medium);
     color: var(--gray-mid);

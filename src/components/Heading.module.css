@@ -3,7 +3,7 @@
 
   & h1 {
     color: var(--red);
-    line-height: calc(var(--baseline) * 3);
+    line-height: var(--baseline-box-3x);
     margin: 0;
     font-size: 140px;
   }
