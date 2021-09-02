@@ -6,6 +6,8 @@
 
 .left {
   flex: 0 0 var(--baseline-box);
+  display: flex;
+  flex-direction: column;
 }
 
 .right {
@@ -15,6 +17,10 @@
 .icon {
   line-height: var(--baseline-box);
   text-align: center;
+}
+
+.spacer {
+  flex: 1;
 }
 
 .title {
