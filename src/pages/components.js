@@ -24,6 +24,15 @@ const ComponentsPage = () => {
           { name: 'Tracks', link: '' },
           { name: 'The Nature of Code', link: '' }
         ]}
+        variant={"red"}
+      />
+      <Breadcrumbs
+        breadcrumbs={[
+          { name: 'Videos Overview', link: '' },
+          { name: 'Tracks', link: '' },
+          { name: 'The Nature of Code', link: '' }
+        ]}
+        variant={"purple"}
       />
       <div className={cols}>
         <Filter

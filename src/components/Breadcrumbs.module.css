@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   padding: 0 var(--box-padding);
   font-family: var(--maru-mono);
-  color: var(--red);
   font-size: var(--font-medium);
   line-height: var(--baseline-box);
 }
@@ -15,6 +14,22 @@
 .crumb {
   & a {
     text-decoration: none;
+  }
+}
+
+/* Variants */
+
+.red {
+  color: var(--red);
+  & a {
     color: var(--red);
   }
 }
+
+.purple {
+  color: var(--purple);
+  & a {
+    color: var(--purple);
+  }
+}
+
