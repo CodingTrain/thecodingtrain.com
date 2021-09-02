@@ -1,23 +1,23 @@
 import React from "react";
+import { Link } from "gatsby";
 import classnames from "classnames";
 import * as css from "./Button.module.css";
 
 export const Button = ({
   className,
-  href,
+  to,
   variant,
   onClick,
   children,
   disabled,
 }) => {
-  const classes = classnames(css.root, {
-    [className]: className,
+  const classes = classnames(css.root, className, {
     [css[variant]]: css[variant],
   });
 
-  return href ? (
+  return to ? (
     <button className={classes}>
-      <a href={href}>{children}</a>
+      <Link to={to}>{children}</Link>
     </button>
   ) : (
     <button className={classes} onClick={onClick} disabled={disabled}>

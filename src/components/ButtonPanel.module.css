@@ -1,13 +1,16 @@
 .root {
   display: flex;
   line-height: var(--baseline);
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 var(--box-padding);
 
   & p {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }

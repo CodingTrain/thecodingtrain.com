@@ -10,7 +10,7 @@ const ButtonPanel = ({ text, buttonText, buttonLink, variant }) => {
   return (
     <div className={cn(box, css.root)}>
       <p>{text}</p>
-      <Button variant={variant} href={buttonLink}>
+      <Button variant={variant} to={buttonLink}>
         {buttonText}
       </Button>
     </div>

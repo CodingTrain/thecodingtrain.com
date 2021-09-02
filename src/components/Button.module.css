@@ -5,6 +5,7 @@
   padding: 0 var(--box-padding);
   text-transform: uppercase;
   font-size: var(--font-medium);
+  white-space: nowrap;
 }
 
 a {
