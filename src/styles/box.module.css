@@ -22,3 +22,9 @@
 .col {
   flex: 1 0 33%;
 }
+
+@media (--small) {
+  .col {
+    flex-basis: 100%;
+  }
+}
