@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: var(--gray-light);
+}
+
+.logo {
+  line-height: var(--baseline-box);
+  padding: 0 var(--box-padding);
+}
+
+.clock {
+  line-height: var(--baseline-box);
+  padding: 0 var(--box-padding);
+}
+
+.date {
+  line-height: var(--baseline-box);
+  flex: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--gray-dark);
+}
+
+@media only screen and (max-width: 1340px) {
+  .clock {
+    display: none;
+  }
+}
+
+@media (--large) {
+  .date {
+    display: none;
+  }
+}

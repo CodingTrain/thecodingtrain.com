@@ -11,3 +11,10 @@
 .arrow {
   padding: 0 var(--spacing-small);
 }
+
+.crumb {
+  & a {
+    text-decoration: none;
+    color: var(--red);
+  }
+}

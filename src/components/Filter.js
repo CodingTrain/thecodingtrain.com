@@ -27,8 +27,9 @@ const Filter = ({
 
   return (
     <div className={cn(css.root, className)}>
-      <div className={cn(box, css.left)}>
+      <div className={css.left}>
         <div className={cn(box, css.icon)}>Ⴤ</div>
+        <div className={cn(box, css.spacer)} />
       </div>
       <div className={css.right}>
         <div className={cn(box, css.title)}>

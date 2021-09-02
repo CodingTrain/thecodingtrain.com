@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Layout from '../components/Layout';
 import Heading from '../components/Heading';
-import Breadcrumb from '../components/Breadcrumbs';
+import Breadcrumbs from '../components/Breadcrumbs';
+import TopBar from '../components/TopBar';
 import Filter from '../components/Filter';
 import cn from 'classnames';
 
@@ -14,8 +15,9 @@ const ComponentsPage = () => {
 
   return (
     <Layout>
+      <TopBar />
       <Heading>This is a heading</Heading>
-      <Breadcrumb
+      <Breadcrumbs
         breadcrumbs={[
           { name: 'Videos Overview', link: '' },
           { name: 'Tracks', link: '' },
@@ -66,16 +68,14 @@ const ComponentsPage = () => {
         <div className={cn(box, col, css.box)}>Box 6</div>
         <div className={cn(box, col, css.box)}>Box 7</div>
       </div>
-      <div className={cn(box, css.box)}>
-        <div className={cols}>
-          <div className={cn(box, col, css.box)}>Nested 1</div>
-          <div className={cn(box, col, css.box)}>Nested 2</div>
-        </div>
-        <div className={cols}>
-          <div className={cn(box, col, css.box)}>Nested 4</div>
-          <div className={cn(box, col, css.box)}>Nested 5</div>
-          <div className={cn(box, col, css.box)}>Nested 6</div>
-        </div>
+      <div className={cols}>
+        <div className={cn(box, col, css.box)}>Nested 1</div>
+        <div className={cn(box, col, css.box)}>Nested 2</div>
+      </div>
+      <div className={cols}>
+        <div className={cn(box, col, css.box)}>Nested 4</div>
+        <div className={cn(box, col, css.box)}>Nested 5</div>
+        <div className={cn(box, col, css.box)}>Nested 6</div>
       </div>
       <div className={cn(box, css.box)}>Box 8</div>
     </Layout>

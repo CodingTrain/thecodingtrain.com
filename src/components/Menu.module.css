@@ -1,0 +1,141 @@
+.root {
+  font-family: var(--maru);
+  font-size: var(--font-medium);
+  text-transform: uppercase;
+  color: var(--gray-dark);
+
+  & li:hover {
+    background-color: #cfcfcf;
+  }
+}
+
+.menuToggle {
+  display: none;
+  padding: 0 var(--box-padding);
+  cursor: pointer;
+  line-height: var(--baseline-box);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  height: var(--baseline);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  & button {
+    padding: 0;
+    line-height: var(--baseline-box);
+    color: var(--gray-dark);
+  }
+}
+
+.root button {
+  text-transform: uppercase;
+}
+
+.item {
+  position: relative;
+}
+
+.item,
+.subitem {
+  white-space: nowrap;
+  padding: 0 var(--box-padding);
+  background-color: var(--gray-light);
+  & a {
+    text-decoration: none;
+    color: var(--gray-dark);
+    line-height: var(--baseline-box);
+  }
+}
+
+.submenu {
+  position: absolute;
+  z-index: 1;
+  left: -1px;
+  top: var(--baseline);
+  list-style: none;
+  display: none;
+  padding: 0;
+}
+
+.item.hasSubmenu:hover {
+  & .submenu {
+    display: block;
+  }
+}
+
+@media (--large) {
+  .menuToggle {
+    display: block;
+    transition: margin-top 0.15s ease-in-out;
+  }
+
+  .menu {
+    overflow: hidden;
+    height: 0;
+    transition: height 2s ease;
+  }
+
+  .menu.expanded {
+    display: block;
+    height: auto;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: var(--baseline);
+    top: var(--baseline);
+
+    background-color: var(--gray-light);
+
+    & > .item {
+      display: block;
+      border: var(--border);
+    }
+
+    & > .item:first-child {
+      margin-left: 0;
+    }
+
+    & > .subitem {
+      display: block;
+    }
+  }
+
+  .subitem {
+    border-right: none;
+    padding-left: 50px;
+  }
+
+  .subitem:first-child {
+    border-top: var(--border);
+  }
+
+  .subitem:last-child {
+    border-bottom: none;
+  }
+
+  .submenu {
+    display: block;
+  }
+
+  .hasSubmenu {
+    padding-right: 0;
+  }
+}
+
+@media (--small) {
+  .menu.expanded {
+    width: 100%;
+    left: 0;
+    top: 30px;
+    border-bottom: var(--border);
+  }
+
+  .subitem {
+    display: block;
+    border-right: none;
+  }
+}
