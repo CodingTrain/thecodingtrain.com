@@ -4,12 +4,24 @@
 @custom-media --xlarge (max-width: 1440px);
 
 :root {
+  /* This is the real baseline from top to bottom */
+  --baseline: 50px;
+
+  /*
+    This is the baseline that content inside boxes should rely on.
+    We chose to do this instead of a negative margin on .box because
+    boxes would overlap and therefore cover the top line with background color, etc.
+  */
+  --baseline-box: calc(var(--baseline) - 1px);
+  --baseline-box-3x: calc(var(--baseline) * 2 + var(--baseline-box));
+
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
 
   --font-medium: 16px;
 
+  --spacing-xsmall: 5px;
   --spacing-small: 10px;
   --spacing-medium: 20px;
   --spacing-large: 40px;
@@ -19,8 +31,6 @@
   --gray-mid: #666666;
   --gray-light: #ededed;
 
-  --border: 1px solid var(--gray-mid);
-
   --cyan: #2dc5f4;
   --pink: #f063a4;
   --orange: #f89e4f;
@@ -28,7 +38,7 @@
   --red: #f16164;
   --red-light: #fffcfc;
 
-  --baseline: 50px;
+  --border: 1px solid var(--gray-mid);
   --box-padding: 25px;
 
   --container-max-width: 1600px;
@@ -40,6 +50,6 @@
     --baseline: 30px;
     --container-spacing-horizontal: 5px;
 
-    --font-small: 12px;
+    --font-medium: 12px;
   }
 }

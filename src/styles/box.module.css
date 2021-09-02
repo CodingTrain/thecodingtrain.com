@@ -1,23 +1,14 @@
 /*
   These classes help streamline the creation of layout boxes across the site.
   Boxes can be next to each other and nested under each other, and they will
-  still only show a single, collapsed border to each other. The only rule is
-  that is you nest boxes, there cannot be a child that doesn't have the .box
-  class. It must be boxes all the way down.
+  still only show a single, collapsed border to each other.
+  .box cannot be nested under .box
 */
+
 .box {
   border: var(--border);
   border-top: none;
-  margin-bottom: -1px;
   margin-right: -1px;
-}
-
-.box .box {
-  margin-left: -1px;
-}
-
-.box .box + .box {
-  margin-left: 0;
 }
 
 /* A few classes to help split the container */

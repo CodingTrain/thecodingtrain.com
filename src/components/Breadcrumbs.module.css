@@ -5,9 +5,16 @@
   font-family: var(--maru-mono);
   color: var(--red);
   font-size: var(--font-medium);
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
 }
 
 .arrow {
   padding: 0 var(--spacing-small);
+}
+
+.crumb {
+  & a {
+    text-decoration: none;
+    color: var(--red);
+  }
 }
