@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '../components/Layout';
 import Heading from '../components/Heading';
-import Breadcrumb from '../components/Breadcrumbs';
+import Breadcrumbs from '../components/Breadcrumbs';
 import TopBar from '../components/TopBar';
 import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
