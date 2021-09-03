@@ -3,6 +3,10 @@
 @custom-media --large (max-width: 1150px);
 @custom-media --xlarge (max-width: 1440px);
 
+/* Some very custom breakpoints for specific things */
+@custom-media --hide-clock (max-width: 1340px);
+@custom-media --hide-date (max-width: 1265px);
+
 :root {
   /* This is the real baseline from top to bottom */
   --baseline: 50px;
@@ -23,13 +27,15 @@
 
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
-  --spacing-medium: 20px;
-  --spacing-large: 40px;
+  --spacing-normal: 15px;
+  --spacing-medium: 30px;
+  --spacing-large: 50px;
   --spacing-xlarge: 80px;
 
   --gray-dark: #3c3c3c;
   --gray-mid: #666666;
   --gray-light: #ededed;
+  --gray-light-hover: #cfcfcf;
 
   --cyan: #2dc5f4;
   --pink: #f063a4;

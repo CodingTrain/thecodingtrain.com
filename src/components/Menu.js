@@ -44,12 +44,14 @@ const Menu = () => {
         {items.map((item, i) => (
           <li
             key={i}
-            className={cn(box, css.item, { [css.hasSubmenu]: item.children })}>
+            className={cn(css.item, { [css.hasSubmenu]: item.children })}>
             {item.href ? (
-              <Link to={item.href}>{item.name}</Link>
+              <Link className={box} to={item.href}>
+                {item.name}
+              </Link>
             ) : (
               <>
-                <button>{item.name}</button>
+                <span className={box}>{item.name}</span>
                 <ul className={css.submenu}>
                   {item.children.map((subitem, j) => (
                     <li className={cn(box, css.subitem)} key={j}>

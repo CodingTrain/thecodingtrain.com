@@ -1,9 +1,9 @@
 .root {
+  font-family: var(--maru-mono);
   display: flex;
   position: relative;
   justify-content: space-between;
   background-color: var(--gray-light);
-  line-height: var(--baseline);
 }
 
 .logo {
@@ -13,29 +13,31 @@
 
 .clock {
   line-height: var(--baseline-box);
-  padding: 0 var(--box-padding);
+  padding: 0 var(--spacing-normal);
 }
 
 .date {
   line-height: var(--baseline-box);
   flex: 1;
-  text-align: center;
+  padding: 0 var(--box-padding);
   text-transform: uppercase;
   color: var(--gray-dark);
 }
 
-@media only screen and (max-width: 1340px) {
+@media (--hide-clock) {
   .clock {
     display: none;
   }
 }
 
-@media (--large) {
-  .root {
-    border-bottom: var(--border);
-  }
-
+@media (--hide-date) {
   .date {
     display: none;
+  }
+}
+
+@media (--medium) {
+  .logo {
+    border: none;
   }
 }
