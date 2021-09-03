@@ -3,6 +3,7 @@
   position: relative;
   justify-content: space-between;
   background-color: var(--gray-light);
+  line-height: var(--baseline);
 }
 
 .logo {
@@ -30,6 +31,10 @@
 }
 
 @media (--large) {
+  .root {
+    border-bottom: var(--border);
+  }
+
   .date {
     display: none;
   }

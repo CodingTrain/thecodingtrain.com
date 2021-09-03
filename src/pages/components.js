@@ -24,7 +24,7 @@ const ComponentsPage = () => {
           { name: 'Tracks', link: '' },
           { name: 'The Nature of Code', link: '' }
         ]}
-        variant={"red"}
+        variant={'red'}
       />
       <Breadcrumbs
         breadcrumbs={[
@@ -32,7 +32,7 @@ const ComponentsPage = () => {
           { name: 'Tracks', link: '' },
           { name: 'The Nature of Code', link: '' }
         ]}
-        variant={"purple"}
+        variant={'purple'}
       />
       <div className={cols}>
         <Filter
@@ -82,7 +82,7 @@ const ComponentsPage = () => {
       <div className={cols}>
         <div className={cn(box, col, css.box)}>
           <ButtonPanel
-            text={"We've created a sample guide to help you get started"}
+            text={"We've created"}
             buttonText={'Go to our guide'}
             buttonLink={''}
             variant={'red'}

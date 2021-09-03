@@ -71,18 +71,11 @@
 @media (--large) {
   .menuToggle {
     display: block;
-    transition: margin-top 0.15s ease-in-out;
-  }
-
-  .menu {
-    overflow: hidden;
-    height: 0;
-    transition: height 2s ease;
+    position: absolute;
   }
 
   .menu.expanded {
     display: block;
-    height: auto;
     flex-wrap: nowrap;
     position: absolute;
     right: var(--baseline);
@@ -105,20 +98,16 @@
   }
 
   .subitem {
-    border-right: none;
-    padding-left: 50px;
-  }
-
-  .subitem:first-child {
-    border-top: var(--border);
+    margin-left: -25px;
   }
 
   .subitem:last-child {
-    border-bottom: none;
+    border-bottom: var(--border);
   }
 
   .submenu {
     display: block;
+    position: initial;
   }
 
   .hasSubmenu {
@@ -126,16 +115,27 @@
   }
 }
 
-@media (--small) {
+@media (--medium) {
+  .menu {
+    display: none;
+  }
+
   .menu.expanded {
     width: 100%;
     left: 0;
-    top: 30px;
+    top: var(--baseline);
     border-bottom: var(--border);
+
+    & > .item {
+      display: block;
+      border-top: none;
+    }
   }
 
   .subitem {
     display: block;
-    border-right: none;
+    border-right: var(--border);
+    border-left: none;
+    margin-left: -25px;
   }
 }
