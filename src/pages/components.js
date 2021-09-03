@@ -16,8 +16,9 @@ const ComponentsPage = () => {
 
   return (
     <Layout>
-      <TopBar />
-      <Heading>This is a heading</Heading>
+      <Heading>New to coding</Heading>
+      <Heading>Challenges</Heading>
+      <Heading>The Nature of Code 2.0</Heading>
       <Breadcrumbs
         breadcrumbs={[
           { name: 'Videos Overview', link: '' },

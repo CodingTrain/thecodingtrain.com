@@ -1,7 +1,7 @@
 @custom-media --small (max-width: 600px);
-@custom-media --medium (max-width: 960px);
-@custom-media --large (max-width: 1150px);
-@custom-media --xlarge (max-width: 1440px);
+@custom-media --medium (max-width: 1025px);
+@custom-media --large (max-width: 1440px);
+@custom-media --container (max-width: 1600px);
 
 /* Some very custom breakpoints for specific things */
 @custom-media --hide-clock (max-width: 1340px);
@@ -17,13 +17,15 @@
     boxes would overlap and therefore cover the top line with background color, etc.
   */
   --baseline-box: calc(var(--baseline) - 1px);
-  --baseline-box-3x: calc(var(--baseline) * 2 + var(--baseline-box));
+  --baseline-box-2x: calc(var(--baseline) * 2 - 1px);
+  --baseline-box-3x: calc(var(--baseline) * 3 - 1px);
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
 
-  --font-medium: 16px;
+  --font-medium: 15px;
+  --font-xlarge: 93px;
 
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
@@ -51,11 +53,22 @@
   --container-spacing-horizontal: 50px;
 }
 
+@media (--medium) {
+  :root {
+    --font-medium: 14px;
+    --font-xlarge: 45px;
+
+    --box-padding: 13px;
+  }
+}
+
 @media (--small) {
   :root {
-    --baseline: 30px;
+    --baseline: 40px;
     --container-spacing-horizontal: 5px;
 
-    --font-medium: 12px;
+    --box-padding: 10px;
+    --font-medium: 13px;
+    --font-xlarge: 32px;
   }
 }

@@ -29,6 +29,7 @@
 
   & h3 {
     margin: 0;
+    font-size: var(--font-medium);
   }
 }
 
@@ -47,7 +48,7 @@
     padding: 0 var(--spacing-xsmall);
     line-height: var(--baseline-box);
     font-family: var(--maru-mono);
-    font-size: var(--medium);
+    font-size: var(--font-medium);
     color: var(--gray-mid);
     white-space: nowrap;
   }
