@@ -1,5 +1,4 @@
 import React from 'react';
-import cn from 'classnames';
 import Menu from './Menu';
 
 import * as css from './TopBar.module.css';
