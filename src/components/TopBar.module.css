@@ -52,7 +52,7 @@
 
   .logo {
     flex-basis: 100%;
-    padding-top: var(--spacing-large);
+    padding-top: var(--baseline2x);
   }
 
   .clock,

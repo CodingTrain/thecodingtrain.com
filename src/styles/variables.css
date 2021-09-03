@@ -11,6 +11,7 @@
 :root {
   /* This is the real baseline from top to bottom */
   --baseline: 50px;
+  --baseline2x: calc(var(--baseline) * 2);
 
   /*
     This is the baseline that content inside boxes should rely on.
