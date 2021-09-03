@@ -1,14 +1,13 @@
-import React, { memo } from "react";
-import cn from "classnames";
+import React, { memo } from 'react';
+import cn from 'classnames';
 
-import Button from "./Button";
+import Button from './Button';
 
-import * as css from "./ButtonPanel.module.css";
-import { box } from "../styles/box.module.css";
+import * as css from './ButtonPanel.module.css';
 
-const ButtonPanel = ({ text, buttonText, buttonLink, variant }) => {
+const ButtonPanel = ({ text, buttonText, buttonLink, variant, className }) => {
   return (
-    <div className={cn(box, css.root)}>
+    <div className={cn(css.root, className)}>
       <p>{text}</p>
       <Button variant={variant} to={buttonLink}>
         {buttonText}

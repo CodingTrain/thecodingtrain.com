@@ -1,4 +1,6 @@
 .root {
+  border-left: var(--border);
+  border-bottom: var(--border);
   padding: 0 var(--box-padding);
   text-transform: uppercase;
 

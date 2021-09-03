@@ -1,12 +1,10 @@
-import React, { memo } from "react";
-import cn from "classnames";
+import React, { memo } from 'react';
 
-import * as css from "./Heading.module.css";
-import { box } from "../styles/box.module.css";
+import * as css from './Heading.module.css';
 
 const Heading = ({ children }) => {
   return (
-    <div className={cn(box, css.root)}>
+    <div className={css.root}>
       <h1>{children}</h1>
     </div>
   );

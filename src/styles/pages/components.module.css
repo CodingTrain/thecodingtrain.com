@@ -1,3 +1,5 @@
 .box {
+  border-left: var(--border);
+  border-bottom: var(--border);
   line-height: var(--baseline-box);
 }
