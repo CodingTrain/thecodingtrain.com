@@ -14,6 +14,14 @@
   flex: 1;
 }
 
+.icon,
+.spacer,
+.title,
+.item {
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
 .icon {
   line-height: var(--baseline-box);
   text-align: center;

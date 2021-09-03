@@ -1,9 +1,7 @@
 import React from 'react';
-import cn from 'classnames';
 import Menu from './Menu';
 
 import * as css from './TopBar.module.css';
-import { box } from '../styles/box.module.css';
 
 import Logo from '../images/logo.svg';
 import Clock from '../images/clock.svg';
@@ -11,13 +9,16 @@ import Clock from '../images/clock.svg';
 const TopBar = () => {
   return (
     <div className={css.root}>
-      <div className={cn(box, css.logo)}>
+      <div className={css.logo}>
         <Logo width={250} />
       </div>
-      <div className={cn(box, css.clock)}>
+      <div className={css.clock}>
         <Clock />
       </div>
-      <div className={cn(box, css.date)}>Sunday / Feb 7th, 2021</div>
+      <div className={css.date}>
+        <span className={css.longDate}>Sunday / Feb 7th, 2021</span>
+        <span className={css.shortDate}>09/07/2021</span>
+      </div>
       <Menu />
     </div>
   );
