@@ -1,4 +1,6 @@
 .root {
+  border-left: var(--border);
+  border-bottom: var(--border);
   display: flex;
   flex-wrap: wrap;
   padding: 0 var(--box-padding);
@@ -32,4 +34,3 @@
     color: var(--purple);
   }
 }
-

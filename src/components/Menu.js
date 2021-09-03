@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import cn from 'classnames';
 
 import * as css from './Menu.module.css';
-import { box } from '../styles/box.module.css';
 
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -35,24 +34,22 @@ const Menu = () => {
 
   return (
     <div className={css.root}>
-      <button
-        className={cn(box, css.menuToggle)}
-        onClick={() => setExpanded(!expanded)}>
+      <button className={css.menuToggle} onClick={() => setExpanded(!expanded)}>
         {expanded ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </button>
       <ul className={cn(css.menu, { [css.expanded]: expanded })}>
         {items.map((item, i) => (
           <li
             key={i}
-            className={cn(box, css.item, { [css.hasSubmenu]: item.children })}>
+            className={cn(css.item, { [css.hasSubmenu]: item.children })}>
             {item.href ? (
               <Link to={item.href}>{item.name}</Link>
             ) : (
               <>
-                <button>{item.name}</button>
+                <span>{item.name}</span>
                 <ul className={css.submenu}>
                   {item.children.map((subitem, j) => (
-                    <li className={cn(box, css.subitem)} key={j}>
+                    <li className={css.subitem} key={j}>
                       <Link to={subitem.href}>{subitem.name}</Link>
                     </li>
                   ))}

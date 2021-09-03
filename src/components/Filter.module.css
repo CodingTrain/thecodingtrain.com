@@ -14,6 +14,14 @@
   flex: 1;
 }
 
+.icon,
+.spacer,
+.title,
+.item {
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
 .icon {
   line-height: var(--baseline-box);
   text-align: center;
@@ -29,6 +37,7 @@
 
   & h3 {
     margin: 0;
+    font-size: var(--font-medium);
   }
 }
 
@@ -47,7 +56,7 @@
     padding: 0 var(--spacing-xsmall);
     line-height: var(--baseline-box);
     font-family: var(--maru-mono);
-    font-size: var(--medium);
+    font-size: var(--font-medium);
     color: var(--gray-mid);
     white-space: nowrap;
   }

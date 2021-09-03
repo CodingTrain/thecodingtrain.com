@@ -2,7 +2,6 @@ import React, { memo } from 'react';
 import cn from 'classnames';
 
 import * as css from './Filter.module.css';
-import { box } from '../styles/box.module.css';
 
 const Filter = ({
   title,
@@ -28,18 +27,18 @@ const Filter = ({
   return (
     <div className={cn(css.root, className)}>
       <div className={css.left}>
-        <div className={cn(box, css.icon)}>Ⴤ</div>
-        <div className={cn(box, css.spacer)} />
+        <div className={css.icon}>Ⴤ</div>
+        <div className={css.spacer} />
       </div>
       <div className={css.right}>
-        <div className={cn(box, css.title)}>
+        <div className={css.title}>
           <h3>{title}</h3>
         </div>
         <div className={css.items}>
           {items.map((item) => (
             <div
               key={item}
-              className={cn(box, css.item, {
+              className={cn(css.item, {
                 [css.selected]: selected.includes(item)
               })}>
               <button onClick={() => onClick(item)}>{item}</button>
@@ -50,12 +49,5 @@ const Filter = ({
     </div>
   );
 };
-
-//
-// <div className={cn(box, css.left)} />
-// <div className={cn(box, css.right)}>
-//   This is something!
-//   <button onClick={() => {}}>{seeMore}</button>
-// </div>
 
 export default memo(Filter);

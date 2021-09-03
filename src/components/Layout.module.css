@@ -8,7 +8,10 @@
 .inner {
   background-color: var(--red-light);
   min-height: 100vh;
+  border-right: var(--border);
   /* For debugging */
   background-image: linear-gradient(rgba(255, 0, 0, 0.1) 1px, transparent 1px);
   background-size: 100% var(--baseline);
+  /* There is no border top so make sure baseline moves up 1px */
+  background-position: 0px -1px;
 }

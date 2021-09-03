@@ -1,14 +1,15 @@
 /*
   These classes help streamline the creation of layout boxes across the site.
-  Boxes can be next to each other and nested under each other, and they will
-  still only show a single, collapsed border to each other.
-  .box cannot be nested under .box
+  It basically
 */
 
 .box {
-  border: var(--border);
+  border-left: var(--border);
+  border-bottom: var(--border);
+  /* border: var(--border);
   border-top: none;
-  margin-right: -1px;
+  border-right: none; */
+  /* margin-right: -1px; */
 }
 
 /* A few classes to help split the container */
@@ -21,4 +22,10 @@
 
 .col {
   flex: 1 0 33%;
+}
+
+@media (--small) {
+  .col {
+    flex-basis: 100%;
+  }
 }

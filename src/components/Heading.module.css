@@ -1,16 +1,19 @@
 .root {
+  border-left: var(--border);
+  border-bottom: var(--border);
   padding: 0 var(--box-padding);
+  text-transform: uppercase;
 
   & h1 {
     color: var(--red);
-    line-height: var(--baseline-box-3x);
+    line-height: var(--baseline-box-2x);
     margin: 0;
-    font-size: 140px;
+    font-size: var(--font-xlarge);
   }
 }
 
-@media (--small) {
+@media (--medium) {
   .root h1 {
-    font-size: 100px;
+    line-height: var(--baseline-box);
   }
 }
