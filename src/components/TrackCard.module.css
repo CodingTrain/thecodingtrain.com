@@ -13,12 +13,16 @@
 
 .icon,
 .trackType,
-.numVideos {
+.numVideos,
+.image,
+.tagHeading,
+.tag {
   border-left: var(--border);
   border-bottom: var(--border);
 }
 
 .details {
+  font-size: var(--font-medium);
   display: flex;
   line-height: var(--baseline-box);
 }
@@ -34,5 +38,40 @@
 }
 
 .trackType {
+  text-transform: uppercase;
   flex: 1;
+}
+
+.image {
+  height: var(--baseline-5x);
+}
+
+/**
+  Tags
+**/
+
+.tags {
+  line-height: var(--baseline-box);
+  display: flex;
+}
+
+.tagHeading,
+.tag {
+  font-size: var(--font-medium);
+  text-align: center;
+  padding: 0 var(--spacing-normal);
+  /* Show dots if text doesnt fit */
+  min-width: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.tagHeading {
+  flex-basis: 30%;
+}
+
+.tag {
+  font-family: var(--maru-mono);
+  flex-grow: 1;
 }

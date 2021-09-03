@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { graphql } from 'gatsby';
+import { getImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
@@ -12,7 +14,7 @@ import cn from 'classnames';
 import * as css from '../styles/pages/components.module.css';
 import { cols, col, pattern } from '../styles/styles.module.css';
 
-const ComponentsPage = () => {
+const ComponentsPage = ({ data }) => {
   const [filters1, setFilters1] = useState();
   const [filters2, setFilters2] = useState();
 
@@ -74,7 +76,18 @@ const ComponentsPage = () => {
         />
       </div>
       <Spacer label="Track Card" />
-      <TrackCard numVideos={36} />
+      <TrackCard
+        numVideos={36}
+        image={getImage(data.placeholder)}
+        topics={[
+          'Beginner-Friendly',
+          'Machine Learning',
+          'Algorithms',
+          'Fun Times',
+          'Funky Times by the Computer'
+        ]}
+        languages={['p5.js', 'JavaScript']}
+      />
       <Spacer label="Button panel" />
       <div className={cols}>
         <ButtonPanel
@@ -103,5 +116,18 @@ const ComponentsPage = () => {
     </Layout>
   );
 };
+
+export const query = graphql`
+  query {
+    placeholder: file(
+      sourceInstanceName: { eq: "images" }
+      name: { eq: "track-placeholder" }
+    ) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+  }
+`;
 
 export default ComponentsPage;

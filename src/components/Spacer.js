@@ -6,4 +6,4 @@ const Spacer = ({ label }) => {
   return <div className={css.root}>{label}</div>;
 };
 
-export default Spacer;
+export default memo(Spacer);

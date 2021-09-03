@@ -11,16 +11,21 @@
 :root {
   /* This is the real baseline from top to bottom */
   --baseline: 50px;
-  --baseline2x: calc(var(--baseline) * 2);
+  --baseline-2x: calc(var(--baseline) * 2);
+  --baseline-3x: calc(var(--baseline) * 3);
+  --baseline-4x: calc(var(--baseline) * 4);
+  --baseline-5x: calc(var(--baseline) * 5);
 
   /*
-    This is the baseline that content inside boxes should rely on.
-    We chose to do this instead of a negative margin on .box because
-    boxes would overlap and therefore cover the top line with background color, etc.
+    This is the baseline that content inside boxes can rely on.
+    Text that flows on multiple lines should use --baseline and
+    offset with a margin-top: -1px.
   */
   --baseline-box: calc(var(--baseline) - 1px);
   --baseline-box-2x: calc(var(--baseline) * 2 - 1px);
   --baseline-box-3x: calc(var(--baseline) * 3 - 1px);
+  --baseline-box-4x: calc(var(--baseline) * 4 - 1px);
+  --baseline-box-5x: calc(var(--baseline) * 5 - 1px);
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;

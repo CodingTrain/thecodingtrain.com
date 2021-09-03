@@ -1,7 +1,6 @@
 .root {
   border-left: var(--border);
   border-bottom: var(--border);
-  height: var(--baseline-box);
   line-height: var(--baseline-box);
   /* This is just used for debugging */
   padding: 0 var(--box-padding);

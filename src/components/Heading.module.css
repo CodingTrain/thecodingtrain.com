@@ -1,4 +1,10 @@
+/*
+  Since text can flow on multiple lines, the line-height needs to be `--baseline`,
+  so we offset with a margin-top of -1px. See variables.css for explanation.
+ */
+
 .root {
+  margin-top: -1px;
   border-left: var(--border);
   border-bottom: var(--border);
   padding: 0 var(--box-padding);
@@ -6,14 +12,13 @@
 
   & h1 {
     color: var(--red);
-    line-height: var(--baseline-box-2x);
-    margin: 0;
+    line-height: var(--baseline-2x);
     font-size: var(--font-xlarge);
   }
 }
 
 @media (--medium) {
   .root h1 {
-    line-height: var(--baseline-box);
+    line-height: var(--baseline);
   }
 }
