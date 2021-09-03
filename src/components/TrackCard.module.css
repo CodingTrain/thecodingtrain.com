@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  color: var(--gray-mid);
+}
+
+.left {
+  flex-basis: 40%;
+}
+
+.right {
+  flex-basis: 60%;
+}
+
+.icon,
+.trackType,
+.numVideos {
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
+.details {
+  display: flex;
+  line-height: var(--baseline-box);
+}
+
+.icon {
+  flex-basis: var(--baseline-box);
+  text-align: center;
+}
+
+.trackType,
+.numVideos {
+  padding: 0 var(--spacing-normal);
+}
+
+.trackType {
+  flex: 1;
+}

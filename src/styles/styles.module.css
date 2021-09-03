@@ -1,0 +1,25 @@
+.pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='43' height='8' viewBox='0 0 43 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.1' d='M0 4C6.93333 1.33333 13.8667 1.33333 20.8 4C27.7333 6.66667 34.6667 6.66667 41.6 4C48.5333 1.33333 55.4667 1.33333 62.4 4' fill='none' stroke='%23666666'/%3E%3C/svg%3E");
+  background-size: 43px 8px;
+  background-position: 0px 1px;
+}
+
+/**
+  Simple grid system based on percentages
+**/
+
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+}
+
+.col {
+  flex: 1 0 33%;
+}
+
+@media (--small) {
+  .col {
+    flex-basis: 100%;
+  }
+}
