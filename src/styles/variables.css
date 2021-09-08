@@ -16,6 +16,10 @@
   --baseline-4x: calc(var(--baseline) * 4);
   --baseline-5x: calc(var(--baseline) * 5);
 
+  --baseline-1of2: calc(var(--baseline) / 2);
+  --baseline-1of3: calc(var(--baseline) / 3);
+  --baseline-2of3: calc(var(--baseline) / 3 * 2);
+
   /*
     This is the baseline that content inside boxes can rely on.
     Text that flows on multiple lines should use --baseline and
@@ -32,6 +36,7 @@
   --maru-mono: "GT Maru Mono", monospace;
 
   --font-medium: 15px;
+  --font-large: 22px;
   --font-xlarge: 93px;
 
   --spacing-xsmall: 5px;

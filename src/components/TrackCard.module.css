@@ -4,13 +4,16 @@
 }
 
 .left {
-  flex-basis: 40%;
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
 }
 
 .right {
-  flex-basis: 60%;
+  flex-basis: 55%;
 }
 
+.text,
 .icon,
 .trackType,
 .numVideos,
@@ -19,6 +22,24 @@
 .tag {
   border-left: var(--border);
   border-bottom: var(--border);
+}
+
+.text {
+  padding: 0 var(--box-padding);
+  flex: 1;
+
+  & h3 {
+    margin-top: var(--baseline-1of2);
+    line-height: var(--baseline-2of3);
+    font-size: var(--font-large);
+  }
+
+  & p {
+    margin: var(--baseline-1of3) 0 0 0;
+    line-height: var(--baseline-1of2);
+    font-family: var(--maru-mono);
+    font-size: var(--font-medium);
+  }
 }
 
 .details {

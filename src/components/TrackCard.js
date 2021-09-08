@@ -2,11 +2,16 @@ import React, { memo } from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import cn from 'classnames';
 
+import ButtonPanel from './ButtonPanel';
+
 import * as css from './TrackCard.module.css';
 import { pattern } from '../styles/styles.module.css';
 
 const TrackCard = ({
+  title,
+  description,
   image,
+  path,
   numVideos,
   trackType = 'Main track',
   topics,
@@ -14,7 +19,18 @@ const TrackCard = ({
 }) => {
   return (
     <div className={css.root}>
-      <div className={css.left}>Left</div>
+      <div className={css.left}>
+        <div className={css.text}>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+        <ButtonPanel
+          text="Ready to start?"
+          buttonText="Go to track"
+          buttonLink={path}
+          variant="red"
+        />
+      </div>
       <div className={css.right}>
         <div className={cn(pattern, css.details)}>
           <div className={css.icon}>O</div>
