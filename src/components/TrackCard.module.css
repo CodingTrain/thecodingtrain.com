@@ -1,16 +1,17 @@
 .root {
   display: flex;
   color: var(--gray-mid);
+  background-color: white;
 }
 
 .left {
-  flex-basis: 45%;
+  flex-basis: 40%;
   display: flex;
   flex-direction: column;
 }
 
 .right {
-  flex-basis: 55%;
+  flex-basis: 60%;
 }
 
 .text,
@@ -38,12 +39,12 @@
     margin: var(--baseline-1of3) 0 0 0;
     line-height: var(--baseline-1of2);
     font-family: var(--maru-mono);
-    font-size: var(--font-medium);
+    font-size: var(--font-small);
   }
 }
 
 .details {
-  font-size: var(--font-medium);
+  font-size: var(--font-reduced);
   display: flex;
   line-height: var(--baseline-box);
 }
@@ -82,10 +83,10 @@
   text-align: center;
   padding: 0 var(--spacing-normal);
   /* Show dots if text doesnt fit */
-  min-width: 0;
+  /* min-width: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 .tagHeading {

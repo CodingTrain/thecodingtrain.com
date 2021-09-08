@@ -53,7 +53,9 @@ const Tags = memo(({ heading, items }) => {
     <div className={css.tags}>
       <h3 className={css.tagHeading}>{heading}</h3>
       {visibleItems.map((tag) => (
-        <span className={css.tag}>{tag}</span>
+        <span className={css.tag} key={tag}>
+          {tag}
+        </span>
       ))}
     </div>
   );
