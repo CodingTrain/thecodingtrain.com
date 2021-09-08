@@ -83,7 +83,9 @@ const ComponentsPage = () => {
 
       <div className={cols}>
         <ButtonPanel
-          text={"We've created"}
+          text={
+            "We've created We've created We've created We've created We've created"
+          }
           buttonText={'Go to our guide'}
           buttonLink={''}
           variant={'red'}

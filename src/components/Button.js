@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "gatsby";
-import classnames from "classnames";
-import * as css from "./Button.module.css";
+import React from 'react';
+import { Link } from 'gatsby';
+import classnames from 'classnames';
+import * as css from './Button.module.css';
 
 export const Button = ({
   className,
@@ -9,10 +9,10 @@ export const Button = ({
   variant,
   onClick,
   children,
-  disabled,
+  disabled
 }) => {
   const classes = classnames(css.root, className, {
-    [css[variant]]: css[variant],
+    [css[variant]]: css[variant]
   });
 
   return to ? (

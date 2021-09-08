@@ -48,11 +48,11 @@
 @media (--medium) {
   .root {
     flex-wrap: wrap;
+    position: fixed;
   }
 
   .logo {
     flex-basis: 100%;
-    padding-top: var(--baseline2x);
   }
 
   .clock,

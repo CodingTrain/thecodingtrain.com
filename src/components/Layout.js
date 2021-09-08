@@ -1,11 +1,11 @@
-import React from "react";
-import Head from "./Head";
+import React from 'react';
+import Head from './Head';
 
-import "../styles/base.css";
-import "../styles/variables.css";
-import "../styles/fonts.css";
+import '../styles/base.css';
+import '../styles/variables.css';
+import '../styles/fonts.css';
 
-import * as css from "./Layout.module.css";
+import * as css from './Layout.module.css';
 
 const Layout = ({ children, title }) => {
   return (
