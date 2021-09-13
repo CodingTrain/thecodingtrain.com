@@ -1,4 +1,5 @@
 .root {
+  font-size: var(--font-medium);
   border-left: var(--border);
   border-bottom: var(--border);
   display: flex;

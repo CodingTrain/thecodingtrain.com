@@ -16,14 +16,15 @@ const TrackCard = ({
   trackType = 'Main track',
   topics,
   languages,
+  variant,
   className
 }) => {
   return (
-    <div className={cn(css.root, className)}>
+    <div className={cn(css.root, className, { [css[variant]]: variant })}>
       <div className={css.left}>
         <div className={css.text}>
-          <h3>{title}</h3>
-          <p>{description}</p>
+          <h3 className={css.title}>{title}</h3>
+          <p className={css.description}>{description}</p>
           <div className={css.fadeText} />
         </div>
         <ButtonPanel
@@ -35,11 +36,16 @@ const TrackCard = ({
       </div>
       <div className={css.right}>
         <div className={cn(pattern, css.details)}>
+          <h3 className={css.smallTitle}>{title}</h3>
           <div className={css.icon}>O</div>
           <div className={css.trackType}>{trackType}</div>
           <div className={css.numVideos}>{numVideos} videos</div>
         </div>
-        <Image image={image} className={css.image} />
+        <Image
+          image={image}
+          pictureClassName={css.picture}
+          imgClassName={css.image}
+        />
         <Tags heading="Topics" items={topics} />
         <Tags heading="Languages" items={languages} />
       </div>

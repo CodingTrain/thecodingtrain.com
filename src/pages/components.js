@@ -32,7 +32,7 @@ const ComponentsPage = ({ data }) => {
           { name: 'Tracks', link: '' },
           { name: 'The Nature of Code', link: '' }
         ]}
-        variant={'red'}
+        variant="red"
       />
       <Breadcrumbs
         breadcrumbs={[
@@ -40,7 +40,7 @@ const ComponentsPage = ({ data }) => {
           { name: 'Tracks', link: '' },
           { name: 'The Nature of Code', link: '' }
         ]}
-        variant={'purple'}
+        variant="purple"
       />
       <Spacer label="Filter" />
       <div className={cols}>
@@ -75,7 +75,24 @@ const ComponentsPage = ({ data }) => {
           className={col}
         />
       </div>
-      <Spacer label="Track Card" />
+      <Spacer label="Track Card (slim)" />
+      <TrackCard
+        variant="slim"
+        title="Code! Programming with p5.js"
+        description="This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices."
+        numVideos={36}
+        image={getImage(data.placeholder)}
+        path="/tracks/code-programming-with-p5-js"
+        topics={[
+          'Beginner-Friendly',
+          'Machine Learning',
+          'Algorithms',
+          'Fun Times',
+          'Funky Times by the Computer'
+        ]}
+        languages={['p5.js', 'JavaScript']}
+      />
+      <Spacer label="Track Card (full)" />
       <TrackCard
         title="Code! Programming with p5.js"
         description="This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices."
