@@ -1,11 +1,12 @@
 .root {
+  font-size: var(--font-medium);
   border-left: var(--border);
   border-bottom: var(--border);
   display: flex;
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
   justify-content: space-between;
   align-items: center;
-  padding: 0 var(--box-padding);
+  padding: 0 var(--spacing-xsmall) 0 var(--box-padding);
   overflow: hidden;
 
   & p {

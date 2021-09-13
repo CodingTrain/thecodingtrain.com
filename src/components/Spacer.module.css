@@ -1,0 +1,11 @@
+.root {
+  border-left: var(--border);
+  border-bottom: var(--border);
+  line-height: var(--baseline-box);
+  /* This is just used for debugging */
+  padding: 0 var(--box-padding);
+  font-family: var(--maru-mono);
+  font-size: 13px;
+  color: #eec1c1;
+  text-transform: uppercase;
+}

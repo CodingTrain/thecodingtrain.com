@@ -1,7 +1,7 @@
 .root {
   color: var(--gray-dark);
   border-radius: 40px;
-  height: calc(var(--baseline)-10px);
+  height: calc(var(--baseline)- Var(--spacing-small));
   padding: 0 var(--box-padding);
   text-transform: uppercase;
   font-size: var(--font-medium);
@@ -10,6 +10,7 @@
 
 a {
   text-decoration: none;
+  color: var(--gray-dark);
 }
 
 .root:hover {
