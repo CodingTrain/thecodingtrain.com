@@ -15,9 +15,3 @@
   /* There is no border top so make sure baseline moves up 1px */
   background-position: 0px -1px;
 }
-
-@media (--small) {
-  .outer {
-    padding: 0;
-  }
-}
