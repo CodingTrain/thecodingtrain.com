@@ -48,7 +48,6 @@
 @media (--medium) {
   .root {
     flex-wrap: wrap;
-    position: fixed;
   }
 
   .logo {
@@ -58,6 +57,12 @@
   .clock,
   .date {
     display: block;
+  }
+}
+
+@media (--small) {
+  .root {
+    position: fixed;
   }
 }
 

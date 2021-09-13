@@ -146,18 +146,18 @@
     width: 100%;
     left: 0;
     top: var(--baseline);
-    border-bottom: var(--border);
 
     & > .item {
       display: block;
       border-top: none;
-      padding-left: 55px;
+      margin-left: 50px;
+      margin-right: 50px;
+      border-right: var(--border);
 
       & a,
       & span {
         text-align: left;
         border-left: var(--border);
-        padding-left: 8px;
       }
     }
   }
@@ -189,4 +189,12 @@
 }
 
 @media (--small) {
+  .menu.expanded {
+    & > .item {
+      padding-left: 55px;
+      margin-left: 0;
+      margin-right: 0;
+      border-right: none;
+    }
+  }
 }
