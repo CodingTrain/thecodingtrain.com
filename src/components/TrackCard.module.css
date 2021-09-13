@@ -2,16 +2,24 @@
   display: flex;
   color: var(--gray-mid);
   background-color: white;
+  height: var(--baseline-8x);
 }
+
+/**
+  Skeleton
+**/
 
 .left {
   flex-basis: 40%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .right {
   flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .text,
@@ -25,8 +33,14 @@
   border-bottom: var(--border);
 }
 
+/**
+  Left
+**/
+
 .text {
+  position: relative;
   padding: 0 var(--box-padding);
+  overflow: hidden;
   flex: 1;
 
   & h3 {
@@ -42,6 +56,23 @@
     font-size: var(--font-small);
   }
 }
+
+.fadeText {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--baseline-box);
+}
+
+/**
+  Right
+**/
 
 .details {
   font-size: var(--font-reduced);
@@ -65,7 +96,13 @@
 }
 
 .image {
-  height: var(--baseline-5x);
+  overflow: hidden;
+  flex: 1;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /**

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
-import { GatsbyImage } from 'gatsby-plugin-image';
 import cn from 'classnames';
 
+import Image from './Image';
 import ButtonPanel from './ButtonPanel';
 
 import * as css from './TrackCard.module.css';
@@ -15,14 +15,16 @@ const TrackCard = ({
   numVideos,
   trackType = 'Main track',
   topics,
-  languages
+  languages,
+  className
 }) => {
   return (
-    <div className={css.root}>
+    <div className={cn(css.root, className)}>
       <div className={css.left}>
         <div className={css.text}>
           <h3>{title}</h3>
           <p>{description}</p>
+          <div className={css.fadeText} />
         </div>
         <ButtonPanel
           text="Ready to start?"
@@ -37,7 +39,7 @@ const TrackCard = ({
           <div className={css.trackType}>{trackType}</div>
           <div className={css.numVideos}>{numVideos} videos</div>
         </div>
-        <GatsbyImage image={image} alt="" className={css.image} />
+        <Image image={image} className={css.image} />
         <Tags heading="Topics" items={topics} />
         <Tags heading="Languages" items={languages} />
       </div>
