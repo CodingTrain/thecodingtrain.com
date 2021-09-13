@@ -69,5 +69,7 @@
     --box-padding: 10px;
     --font-medium: 13px;
     --font-xlarge: 32px;
+
+    --container-spacing-horizontal: 0px;
   }
 }
