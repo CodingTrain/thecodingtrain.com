@@ -6,19 +6,25 @@ import * as css from './Filter.module.css';
 const Filter = ({
   title,
   items = [],
-  selected = [],
+  selected,
+  multiple = false,
   seeMore = 'See more',
   onChange,
   className
 }) => {
   const onClick = (item) => {
-    let newSelected = selected.slice();
-    const idx = selected.indexOf(item);
+    let newSelected;
 
-    if (idx > -1) {
-      newSelected.splice(idx, 1);
+    if (multiple) {
+      newSelected = selected.slice();
+      const idx = selected.indexOf(item);
+      if (idx > -1) {
+        newSelected.splice(idx, 1);
+      } else {
+        newSelected.push(item);
+      }
     } else {
-      newSelected.push(item);
+      newSelected = item;
     }
 
     onChange(newSelected);
@@ -39,7 +45,9 @@ const Filter = ({
             <div
               key={item}
               className={cn(css.item, {
-                [css.selected]: selected.includes(item)
+                [css.selected]:
+                  selected &&
+                  (multiple ? selected.includes(item) : item === selected)
               })}>
               <button onClick={() => onClick(item)}>{item}</button>
             </div>
