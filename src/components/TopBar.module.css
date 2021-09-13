@@ -52,12 +52,17 @@
 
   .logo {
     flex-basis: 100%;
-    padding-top: var(--baseline2x);
   }
 
   .clock,
   .date {
     display: block;
+  }
+}
+
+@media (--small) {
+  .root {
+    position: fixed;
   }
 }
 

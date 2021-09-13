@@ -85,5 +85,6 @@
     --font-xlarge: 32px;
 
     --box-padding: 10px;
+    --container-spacing-horizontal: 0px;
   }
 }
