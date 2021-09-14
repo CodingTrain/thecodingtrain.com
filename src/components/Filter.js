@@ -10,6 +10,9 @@ const Filter = ({
   selected,
   multiple = false,
   seeMore = 'See more',
+  seeLess = 'See less',
+  expanded,
+  onExpand,
   onChange,
   className
 }) => {
@@ -45,7 +48,7 @@ const Filter = ({
         <div className={css.title}>
           <h3>{title}</h3>
         </div>
-        <div className={css.items}>
+        <div className={cn(css.items, { [css.expanded]: expanded })}>
           {items.map((item) => (
             <div
               key={item}
@@ -58,6 +61,9 @@ const Filter = ({
             </div>
           ))}
         </div>
+        <button className={css.seeMore} onClick={onExpand}>
+          {expanded ? seeLess : seeMore}
+        </button>
       </div>
     </div>
   );

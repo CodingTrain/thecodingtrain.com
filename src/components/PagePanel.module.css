@@ -8,8 +8,8 @@
   justify-content: space-between;
 }
 
-.text {
-  padding: var(--baseline-2of3) 0 0 var(--box-padding);
+.description {
+  padding: var(--baseline-2of3) var(--spacing-normal) 0 var(--box-padding);
   flex-basis: 600px;
 
   & p {
@@ -23,4 +23,21 @@
   margin-top: var(--baseline-box);
   margin-bottom: var(--baseline-box);
   background-color: var(--gray-light);
+}
+
+@media (--reduced) {
+  .root {
+    flex-direction: column;
+    justify-content: space-between;
+    height: var(--baseline-4x);
+  }
+
+  .cta {
+    margin: 0;
+  }
+
+  .buttonPanel {
+    border-left: none;
+    border-bottom: none;
+  }
 }
