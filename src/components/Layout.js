@@ -11,14 +11,12 @@ import * as css from './Layout.module.css';
 
 const Layout = ({ children, title }) => {
   return (
-    <div className={css.root}>
-      <div className={css.container}>
-        <Head title={title} />
-        <div className={css.content}>
-          <TopBar />
-          {children}
-          <Footer />
-        </div>
+    <div className={css.container}>
+      <Head title={title} />
+      <div className={css.content}>
+        <TopBar />
+        {children}
+        <Footer />
       </div>
     </div>
   );

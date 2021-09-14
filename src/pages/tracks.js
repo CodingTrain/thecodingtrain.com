@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
-import ButtonPanel from '../components/ButtonPanel';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
@@ -92,7 +91,6 @@ const TracksPage = ({ data }) => {
           <Fragment key={track.slug}>
             <TrackCard
               {...track}
-              numVideos={36}
               image={images[track.slug] || images.placeholder}
               path="/tracks/code-programming-with-p5-js"
               topics={[
@@ -119,6 +117,8 @@ export const query = graphql`
         title
         slug
         description
+        numVideos
+        type
         chapters {
           title
           videos {
