@@ -93,11 +93,11 @@
   font-family: var(--maru-emoji);
   flex-basis: var(--baseline-box);
   line-height: 1em;
-  font-size: var(--font-large);
+  font-size: var(--font-emoji);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: calc(var(--baseline-box) / 10);
+  padding-bottom: calc(var(--baseline-box) / 15);
 }
 
 .trackType,

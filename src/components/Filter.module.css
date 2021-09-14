@@ -24,7 +24,9 @@
 
 .icon {
   line-height: var(--baseline-box);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-emoji);
 }
 
 .spacer {

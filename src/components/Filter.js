@@ -6,6 +6,7 @@ import * as css from './Filter.module.css';
 const Filter = ({
   title,
   items = [],
+  icon = '☆',
   selected,
   multiple = false,
   seeMore = 'See more',
@@ -24,7 +25,11 @@ const Filter = ({
         newSelected.push(item);
       }
     } else {
-      newSelected = item;
+      if (selected === item) {
+        newSelected = null;
+      } else {
+        newSelected = item;
+      }
     }
 
     onChange(newSelected);
@@ -33,7 +38,7 @@ const Filter = ({
   return (
     <div className={cn(css.root, className)}>
       <div className={css.left}>
-        <div className={css.icon}>Ⴤ</div>
+        <div className={css.icon}>{icon}</div>
         <div className={css.spacer} />
       </div>
       <div className={css.right}>

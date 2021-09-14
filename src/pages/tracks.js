@@ -1,22 +1,21 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { graphql } from 'gatsby';
-import { getImage } from 'gatsby-plugin-image';
-import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
+import ButtonPanel from '../components/ButtonPanel';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import TopBar from '../components/TopBar';
 import Filter from '../components/Filter';
 import TrackCard from '../components/TrackCard';
+import PageDescription from '../components/PageDescription';
 
 import { useImages } from '../hooks';
 
 import * as css from '../styles/pages/tracks.module.css';
-import { cols, col, pattern } from '../styles/styles.module.css';
 
-const ComponentsPage = ({ data }) => {
+const TracksPage = ({ data }) => {
   const [selectedLanguage, setSelectedLanguage] = useState();
   const [selectedTopic, setSelectedTopic] = useState();
 
@@ -34,9 +33,18 @@ const ComponentsPage = ({ data }) => {
         variant="red"
       />
       <Heading>Tracks</Heading>
-      <div className={cols}>
+      <PageDescription text="Get started with any of our series below or choose the topic you are most in learning more about.">
+        <ButtonPanel
+          text="New to coding?"
+          buttonText="Start here"
+          buttonLink="#"
+          variant="red"
+        />
+      </PageDescription>
+      <div className={css.filters}>
         <Filter
           title="Filter by Language"
+          icon="⌥"
           items={[
             'P5.js',
             'Processing',
@@ -48,10 +56,11 @@ const ComponentsPage = ({ data }) => {
           ]}
           selected={selectedLanguage}
           onChange={setSelectedLanguage}
-          className={col}
+          className={css.filter}
         />
         <Filter
           title="Filter by Topic"
+          icon="☆"
           items={[
             'Machine learning',
             'Beginner-friendly',
@@ -64,15 +73,14 @@ const ComponentsPage = ({ data }) => {
           ]}
           selected={selectedTopic}
           onChange={setSelectedTopic}
-          className={col}
+          className={css.filter}
         />
       </div>
       <Spacer />
       {tracks.map((track) => {
         return (
-          <>
+          <Fragment key={track.slug}>
             <TrackCard
-              key={track.slug}
               {...track}
               numVideos={36}
               image={images[track.slug] || images.placeholder}
@@ -87,7 +95,7 @@ const ComponentsPage = ({ data }) => {
               languages={['p5.js', 'JavaScript']}
             />
             <Spacer />
-          </>
+          </Fragment>
         );
       })}
     </Layout>
@@ -125,4 +133,4 @@ export const query = graphql`
   }
 `;
 
-export default ComponentsPage;
+export default TracksPage;
