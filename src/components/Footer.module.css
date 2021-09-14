@@ -1,0 +1,264 @@
+.root {
+  color: var(--gray-mid);
+  background-color: var(--gray-light);
+  & ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+
+    & li {
+      line-height: var(--baseline);
+    }
+  }
+
+  & a {
+    padding-left: 0;
+    text-decoration: none;
+    color: var(--gray-mid);
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 20%;
+  border-left: var(--border);
+  border-bottom: var(--border);
+  line-height: var(--baseline-box);
+
+  & h3 {
+    font-family: var(--maru-mono);
+    font-weight: 900;
+    font-size: var(--font-medium);
+    text-transform: uppercase;
+    margin: 0;
+    border-bottom: var(--border);
+    padding-left: var(--box-padding);
+
+    & a {
+      display: block;
+    }
+  }
+
+  & p {
+    font-family: var(--maru-mono);
+    font-size: var(--font-medium);
+    line-height: 24px;
+    padding: var(--box-padding);
+    height: var(--baseline-box-3x);
+    margin: 0;
+  }
+}
+
+.action {
+  & a {
+    text-align: bottom;
+    padding-left: var(--box-padding);
+    text-decoration: underline;
+    height: var(--baseline-box);
+  }
+}
+
+.logo {
+  border-bottom: var(--border);
+  line-height: var(--baseline-box);
+  padding: 0 var(--box-padding);
+}
+
+.logoMobile {
+  display: none;
+}
+
+.train {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+
+  & svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  border-left: var(--border);
+  border-bottom: var(--border);
+  padding: var(--baseline-1of3) 75px var(--baseline-1of3) var(--box-padding);
+
+  & span {
+    line-height: var(--baseline);
+    display: block;
+    font-weight: 600;
+  }
+}
+
+.socials {
+  & span {
+    padding-left: var(--box-padding);
+    display: inline;
+    font-weight: 400;
+  }
+}
+
+.socials {
+  & ul {
+    & li {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.logos,
+.copyright {
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
+.logos {
+  display: flex;
+  height: var(--baseline-box-3x);
+  text-transform: uppercase;
+
+  & > div:first-child {
+    font-weight: 900;
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+    border-right: var(--border);
+    padding: var(--box-padding);
+  }
+
+  & > div:last-child {
+    border-right: none;
+    flex: 30%;
+  }
+
+  & p {
+    padding-left: var(--box-padding);
+  }
+}
+
+.image {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: var(--baseline-box-2x);
+  padding-left: var(--box-padding);
+  padding-right: var(--box-padding);
+}
+
+.socialsMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1320px) {
+  .box {
+    & p {
+      height: var(--baseline-box-4x);
+    }
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .logoMobile {
+    display: block;
+    border-bottom: var(--border);
+    border-left: var(--border);
+    text-align: center;
+    padding: var(--box-padding);
+  }
+
+  .logo {
+    height: var(--baseline);
+
+    & svg {
+      display: none;
+    }
+  }
+
+  .train {
+    height: 80%;
+    padding-left: var(--box-padding);
+    padding-right: var(--box-padding);
+  }
+
+  .topbox {
+    order: 4;
+  }
+
+  .actions > div {
+    flex: 50%;
+  }
+
+  .logos {
+    height: auto;
+    flex-direction: column;
+
+    & > div {
+      border-right: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media (--reduced) {
+  .links {
+    display: none;
+  }
+
+  .socialsMobile {
+    display: flex;
+    padding: var(--box-padding);
+    justify-content: center;
+    border-bottom: var(--border);
+    border-left: var(--border);
+  }
+}
+
+@media (--small) {
+  .box {
+    border-bottom: none;
+  }
+
+  .actions > div {
+    flex: 100%;
+  }
+
+  .train {
+    border-top: none;
+    border-bottom: var(--border);
+    margin-top: var(--baseline);
+    text-align: center;
+
+    & svg {
+      width: 80%;
+      display: block;
+      margin: auto;
+    }
+  }
+
+  .box > h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .action {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
