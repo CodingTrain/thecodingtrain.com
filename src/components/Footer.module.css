@@ -132,6 +132,7 @@
 
 .image {
   max-width: 200px;
+  max-height: 100px;
 }
 
 .copyright {
@@ -142,6 +143,10 @@
   height: var(--baseline-box-2x);
   padding-left: var(--box-padding);
   padding-right: var(--box-padding);
+}
+
+.socialsMobile {
+  display: none;
 }
 
 @media only screen and (max-width: 1320px) {
@@ -199,6 +204,14 @@
 @media (--reduced) {
   .links {
     display: none;
+  }
+
+  .socialsMobile {
+    display: flex;
+    padding: var(--box-padding);
+    justify-content: center;
+    border-bottom: var(--border);
+    border-left: var(--border);
   }
 }
 

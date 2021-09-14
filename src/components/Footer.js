@@ -149,6 +149,12 @@ const Footer = () => {
           />
         </div>
       </div>
+      <div className={css.socialsMobile}>
+        <Github width={50} />
+        <Discord width={50} />
+        <Youtube width={50} />
+        <Instagram width={50} />
+      </div>
       <div className={css.copyright}>
         2021 The Coding Train. All rights reserved.
       </div>
