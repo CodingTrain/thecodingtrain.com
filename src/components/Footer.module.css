@@ -10,6 +10,12 @@
       line-height: var(--baseline);
     }
   }
+
+  & a {
+    padding-left: 0;
+    text-decoration: none;
+    color: var(--gray-mid);
+  }
 }
 
 .box {
@@ -28,6 +34,10 @@
     margin: 0;
     border-bottom: var(--border);
     padding-left: var(--box-padding);
+
+    & a {
+      display: block;
+    }
   }
 
   & p {
@@ -38,7 +48,9 @@
     height: var(--baseline-box-3x);
     margin: 0;
   }
+}
 
+.action {
   & a {
     text-align: bottom;
     padding-left: var(--box-padding);
