@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import TopBar from '../components/TopBar';
 import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
+import Footer from '../components/Footer';
 import TrackCard from '../components/TrackCard';
 import cn from 'classnames';
 
@@ -135,6 +136,7 @@ const ComponentsPage = ({ data }) => {
       />
       <Spacer label="Pattern" />
       <div className={cn(pattern, css.pattern)} />
+      <Footer />
     </Layout>
   );
 };

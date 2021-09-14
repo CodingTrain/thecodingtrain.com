@@ -16,9 +16,9 @@ export const Button = ({
   });
 
   return to ? (
-    <button className={classes}>
-      <Link to={to}>{children}</Link>
-    </button>
+    <Link to={to} className={classes}>
+      {children}
+    </Link>
   ) : (
     <button className={classes} onClick={onClick} disabled={disabled}>
       {children}

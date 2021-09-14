@@ -3,6 +3,7 @@
   font-size: var(--font-medium);
   text-transform: uppercase;
   color: var(--gray-dark);
+  z-index: 100;
 }
 
 .menuToggle {
@@ -76,46 +77,6 @@
   .item {
     flex-grow: 1;
   }
-}
-
-@media (--large) {
-  /*
-
-  .menu.expanded {
-
-
-    background-color: var(--gray-light);
-
-    & > .item {
-      display: block;
-      border: var(--border);
-    }
-
-    & > .item:first-child {
-      margin-left: 0;
-    }
-
-    & > .subitem {
-      display: block;
-    }
-  }
-
-  .subitem {
-    margin-left: -25px;
-  }
-
-  .subitem:last-child {
-    border-bottom: var(--border);
-  }
-
-  .submenu {
-    display: block;
-    position: initial;
-  }
-
-  .hasSubmenu {
-    padding-right: 0;
-  } */
 }
 
 @media (--medium) {
