@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import TopBar from '../components/TopBar';
 import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
+import Footer from '../components/Footer';
 import cn from 'classnames';
 
 import * as css from '../styles/pages/components.module.css';
@@ -109,6 +110,7 @@ const ComponentsPage = () => {
         buttonLink={''}
         variant={'purple'}
       />
+      <Footer />
     </Layout>
   );
 };
