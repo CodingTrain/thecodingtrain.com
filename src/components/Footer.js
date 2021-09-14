@@ -16,6 +16,9 @@ import { cols, col } from '../styles/styles.module.css';
 const Footer = () => {
   return (
     <div className={css.root}>
+      <div className={css.logoMobile}>
+        <Logo width={250} />
+      </div>
       <div className={cn(cols, css.actions)}>
         <div className={cn(css.box, css.topbox)}>
           <div className={css.logo}>
@@ -123,8 +126,8 @@ const Footer = () => {
           <StaticImage
             src="../images/nyu.png"
             alt=""
-            width={200}
-            height={100}
+            objectFit="contain"
+            className={css.image}
           />
           <p>NYU creative grant 2018-present</p>
         </div>
@@ -132,8 +135,8 @@ const Footer = () => {
           <StaticImage
             src="../images/itp.png"
             alt=""
-            width={200}
-            height={100}
+            objectFit="contain"
+            className={css.image}
           />
           <p>ITP research fellowship mentorship</p>
         </div>
@@ -141,8 +144,8 @@ const Footer = () => {
           <StaticImage
             src="../images/google.png"
             alt=""
-            width={200}
-            height={100}
+            objectFit="contain"
+            className={css.image}
           />
         </div>
       </div>
