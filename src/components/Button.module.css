@@ -1,7 +1,7 @@
 .root {
   color: var(--gray-dark);
   border-radius: 40px;
-  line-height: calc(var(--baseline)- Var(--spacing-small));
+  line-height: calc(var(--baseline)- var(--spacing-small));
   padding: 0 var(--box-padding);
   text-transform: uppercase;
   font-size: var(--font-medium);
