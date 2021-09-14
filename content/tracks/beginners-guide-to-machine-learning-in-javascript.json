@@ -1,0 +1,10 @@
+{
+  "title": "Beginners Guide to Machine Learning in JavaScript",
+  "description": "This track provides an introduction to developing creative coding projects with machine learning. The theory and application of machine learning algorithms is demonstrated in JavaScript using the p5.js and ml5.js libraries.",
+  "chapters": [
+    {
+      "title": "Introduction to P5.js",
+      "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
+    }
+  ]
+}
