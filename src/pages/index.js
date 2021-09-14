@@ -5,7 +5,14 @@ import Layout from '../components/Layout';
 const IndexPage = () => {
   return (
     <Layout>
-      <Link to="/components">Go to components overview</Link>
+      <ul>
+        <li>
+          <Link to="/components">Go to components overview</Link>
+        </li>
+        <li>
+          <Link to="/tracks">Go to tracks page</Link>
+        </li>
+      </ul>
     </Layout>
   );
 };

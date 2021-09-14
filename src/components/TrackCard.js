@@ -37,7 +37,7 @@ const TrackCard = ({
       <div className={css.right}>
         <div className={cn(pattern, css.details)}>
           <h3 className={css.smallTitle}>{title}</h3>
-          <div className={css.icon}>O</div>
+          <div className={css.icon}>👁</div>
           <div className={css.trackType}>{trackType}</div>
           <div className={css.numVideos}>{numVideos} videos</div>
         </div>

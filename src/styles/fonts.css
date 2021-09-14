@@ -29,3 +29,14 @@
   font-family: "GT Maru Mono";
   src: url("../fonts/GT-Maru-Mono.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "GT Maru Mono";
+  src: url("../fonts/GT-Maru-Mono-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "GT Maru Emoji";
+  src: url("../fonts/GT-Maru-Emoji-Black-and-White.woff2") format("woff2");
+}
