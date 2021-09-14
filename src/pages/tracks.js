@@ -23,8 +23,6 @@ const ComponentsPage = ({ data }) => {
   const tracks = data.tracks.nodes;
   const images = useImages(data.images.nodes);
 
-  console.log(tracks);
-
   return (
     <Layout>
       <TopBar />
@@ -72,21 +70,24 @@ const ComponentsPage = ({ data }) => {
       <Spacer />
       {tracks.map((track) => {
         return (
-          <TrackCard
-            key={track.slug}
-            {...track}
-            numVideos={36}
-            image={images[track.slug]}
-            path="/tracks/code-programming-with-p5-js"
-            topics={[
-              'Beginner-Friendly',
-              'Machine Learning',
-              'Algorithms',
-              'Fun Times',
-              'Funky Times by the Computer'
-            ]}
-            languages={['p5.js', 'JavaScript']}
-          />
+          <>
+            <TrackCard
+              key={track.slug}
+              {...track}
+              numVideos={36}
+              image={images[track.slug] || images.placeholder}
+              path="/tracks/code-programming-with-p5-js"
+              topics={[
+                'Beginner-Friendly',
+                'Machine Learning',
+                'Algorithms',
+                'Fun Times',
+                'Funky Times by the Computer'
+              ]}
+              languages={['p5.js', 'JavaScript']}
+            />
+            <Spacer />
+          </>
         );
       })}
     </Layout>

@@ -90,8 +90,14 @@
 }
 
 .icon {
+  font-family: var(--maru-emoji);
   flex-basis: var(--baseline-box);
-  text-align: center;
+  line-height: 1em;
+  font-size: var(--font-large);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: calc(var(--baseline-box) / 10);
 }
 
 .trackType,

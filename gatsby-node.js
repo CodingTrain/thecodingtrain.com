@@ -6,6 +6,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
     type Track implements Node {
       title: String!
       slug: String!
+      description: String!
       chapters: [Chapter] @link
     }
 
@@ -17,6 +18,8 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
 
     type Video implements Node {
       title: String!
+      topics: [String]
+      languages: [String]
     }
   `);
 };
