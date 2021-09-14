@@ -13,7 +13,7 @@ import NYU from '../images/nyu.svg';
 import ITP from '../images/itp.svg';
 import Google from '../images/google.svg';
 
-import { cols, col } from '../styles/grid.module.css';
+import { cols, col } from '../styles/styles.module.css';
 
 const Footer = () => {
   return (
