@@ -40,6 +40,7 @@
 
 .text {
   position: relative;
+  z-index: 1;
   padding: 0 var(--box-padding);
   overflow: hidden;
   flex: 1;
@@ -93,11 +94,11 @@
   font-family: var(--maru-emoji);
   flex-basis: var(--baseline-box);
   line-height: 1em;
-  font-size: var(--font-large);
+  font-size: var(--font-emoji);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: calc(var(--baseline-box) / 10);
+  padding-bottom: calc(var(--baseline-box) / 15);
 }
 
 .trackType,
@@ -161,8 +162,15 @@
 
   .left {
     flex-basis: 100%;
-    height: var(--baseline-8x);
+    height: var(--baseline-5x);
     order: 2;
+  }
+
+  .right {
+    flex-basis: 100%;
+    max-width: 100%;
+    order: 1;
+    display: block;
   }
 
   .smallTitle {
@@ -182,12 +190,6 @@
     display: none;
   }
 
-  .right {
-    flex-basis: 100%;
-    order: 1;
-    display: block;
-  }
-
   .slim .text {
     display: none;
   }
@@ -198,7 +200,7 @@
 }
 
 @media (--small) {
-  .smallVideo {
+  .smallTitle {
     font-size: var(--font-medium);
   }
 

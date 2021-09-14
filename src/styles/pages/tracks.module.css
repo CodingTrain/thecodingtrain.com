@@ -1,0 +1,17 @@
+.filters {
+  display: flex;
+}
+
+.filter {
+  flex-basis: 50%;
+}
+
+@media (--medium) {
+  .filters {
+    flex-wrap: wrap;
+  }
+
+  .filter {
+    flex-basis: 100%;
+  }
+}

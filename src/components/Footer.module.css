@@ -1,6 +1,7 @@
 .root {
   color: var(--gray-mid);
   background-color: var(--gray-light);
+
   & ul {
     list-style: none;
     padding-left: 0;
@@ -33,16 +34,16 @@
     text-transform: uppercase;
     margin: 0;
     border-bottom: var(--border);
-    padding-left: var(--box-padding);
 
     & a {
+      padding-left: var(--box-padding);
       display: block;
     }
   }
 
   & p {
     font-family: var(--maru-mono);
-    font-size: var(--font-medium);
+    font-size: var(--font-small);
     line-height: 24px;
     padding: var(--box-padding);
     height: var(--baseline-box-3x);
@@ -52,6 +53,8 @@
 
 .action {
   & a {
+    font-family: var(--maru-mono);
+    font-size: var(--font-small);
     text-align: bottom;
     padding-left: var(--box-padding);
     text-decoration: underline;
@@ -233,7 +236,7 @@
   }
 
   .actions > div {
-    flex: 100%;
+    flex-basis: 100%;
   }
 
   .train {
@@ -250,7 +253,7 @@
   }
 
   .box > h3 {
-    width: 100%;
+    font-size: var(--font-reduced);
     text-align: center;
   }
 

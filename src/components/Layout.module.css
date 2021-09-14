@@ -1,11 +1,11 @@
-.outer {
+.container {
   max-width: var(--container-max-width);
   margin: 0 auto;
   padding: 0 var(--container-spacing-horizontal) 0
     var(--container-spacing-horizontal);
 }
 
-.inner {
+.content {
   background-color: var(--red-light);
   min-height: 100vh;
   border-right: var(--border);

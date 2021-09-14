@@ -17,14 +17,17 @@
 .icon,
 .spacer,
 .title,
-.item {
+.item,
+.seeMore {
   border-left: var(--border);
   border-bottom: var(--border);
 }
 
 .icon {
   line-height: var(--baseline-box);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-emoji);
 }
 
 .spacer {
@@ -44,9 +47,16 @@
 .items {
   display: flex;
   flex-wrap: wrap;
+  height: var(--baseline-2x);
+  overflow: hidden;
+}
+
+.items.expanded {
+  height: auto;
 }
 
 .item {
+  flex-basis: 33%;
   flex-grow: 1;
   flex-shrink: 0;
 
@@ -65,4 +75,16 @@
 .item.selected button {
   background-color: var(--pink);
   color: var(--gray-dark);
+}
+
+.seeMore {
+  cursor: pointer;
+  font-family: var(--maru-mono);
+  color: var(--red);
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0 var(--box-padding);
+  line-height: var(--baseline-box);
+  font-size: var(--font-xsmall);
 }

@@ -1,31 +1,32 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { graphql } from 'gatsby';
-import { getImage } from 'gatsby-plugin-image';
-import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
-import TopBar from '../components/TopBar';
 import Filter from '../components/Filter';
 import TrackCard from '../components/TrackCard';
+import PagePanel from '../components/PagePanel';
 
 import { useImages } from '../hooks';
 
 import * as css from '../styles/pages/tracks.module.css';
-import { cols, col, pattern } from '../styles/styles.module.css';
 
-const ComponentsPage = ({ data }) => {
+const TracksPage = ({ data }) => {
   const [selectedLanguage, setSelectedLanguage] = useState();
   const [selectedTopic, setSelectedTopic] = useState();
+  const [expanded, setExpanded] = useState(false);
 
   const tracks = data.tracks.nodes;
   const images = useImages(data.images.nodes);
 
+  const onExpand = () => {
+    setExpanded(!expanded);
+  };
+
   return (
     <Layout>
-      <TopBar />
       <Breadcrumbs
         breadcrumbs={[
           { name: 'Videos Overview', link: '#' },
@@ -34,9 +35,17 @@ const ComponentsPage = ({ data }) => {
         variant="red"
       />
       <Heading>Tracks</Heading>
-      <div className={cols}>
+      <PagePanel
+        description="Get started with any of our series below or choose the topic you are most in learning more about."
+        text="New to coding?"
+        buttonText="Start here"
+        buttonLink="#"
+        variant="red"
+      />
+      <div className={css.filters}>
         <Filter
           title="Filter by Language"
+          icon="⌥"
           items={[
             'P5.js',
             'Processing',
@@ -46,12 +55,17 @@ const ComponentsPage = ({ data }) => {
             'Mechanic',
             'Lisp'
           ]}
+          seeMore="See more languages >"
+          seeLess="< See less languages"
           selected={selectedLanguage}
           onChange={setSelectedLanguage}
-          className={col}
+          expanded={expanded}
+          onExpand={onExpand}
+          className={css.filter}
         />
         <Filter
           title="Filter by Topic"
+          icon="☆"
           items={[
             'Machine learning',
             'Beginner-friendly',
@@ -62,19 +76,21 @@ const ComponentsPage = ({ data }) => {
             'Computer Vision',
             'Simulation'
           ]}
+          seeMore="See more topics >"
+          seeLess="< See less topics"
           selected={selectedTopic}
           onChange={setSelectedTopic}
-          className={col}
+          expanded={expanded}
+          onExpand={onExpand}
+          className={css.filter}
         />
       </div>
       <Spacer />
       {tracks.map((track) => {
         return (
-          <>
+          <Fragment key={track.slug}>
             <TrackCard
-              key={track.slug}
               {...track}
-              numVideos={36}
               image={images[track.slug] || images.placeholder}
               path="/tracks/code-programming-with-p5-js"
               topics={[
@@ -87,7 +103,7 @@ const ComponentsPage = ({ data }) => {
               languages={['p5.js', 'JavaScript']}
             />
             <Spacer />
-          </>
+          </Fragment>
         );
       })}
     </Layout>
@@ -101,6 +117,8 @@ export const query = graphql`
         title
         slug
         description
+        numVideos
+        type
         chapters {
           title
           videos {
@@ -125,4 +143,4 @@ export const query = graphql`
   }
 `;
 
-export default ComponentsPage;
+export default TracksPage;

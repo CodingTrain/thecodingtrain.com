@@ -13,12 +13,14 @@ const TrackCard = ({
   image,
   path,
   numVideos,
-  trackType = 'Main track',
+  type,
   topics,
   languages,
   variant,
   className
 }) => {
+  const trackType = type === 'main' ? 'Main Track' : 'Side Track';
+
   return (
     <div className={cn(css.root, className, { [css[variant]]: variant })}>
       <div className={css.left}>
@@ -56,7 +58,6 @@ const TrackCard = ({
 const Tags = memo(({ heading, items }) => {
   const visibleItems = items.slice(0, 2);
   // const hiddenItems = items.slice(2);
-
   return (
     <div className={css.tags}>
       <h3 className={css.tagHeading}>{heading}</h3>

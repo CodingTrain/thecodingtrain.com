@@ -41,9 +41,11 @@
   --maru-mono: "GT Maru Mono", monospace;
   --maru-emoji: "GT Maru Emoji";
 
+  --font-xsmall: 12px;
   --font-small: 14px;
   --font-medium: 15px;
   --font-reduced: 16px;
+  --font-emoji: 18px;
   --font-large: 22px;
   --font-xlarge: 93px;
 
@@ -75,6 +77,7 @@
     --font-small: 13px;
     --font-medium: 14px;
     --font-reduced: 15px;
+    --font-emoji: 17px;
     --font-xlarge: 45px;
 
     --box-padding: 13px;
@@ -96,6 +99,7 @@
     --font-small: 12px;
     --font-medium: 13px;
     --font-reduced: 14px;
+    --font-emoji: 16px;
     --font-xlarge: 32px;
 
     --box-padding: 10px;

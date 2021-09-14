@@ -12,7 +12,7 @@ import Discord from '../images/discord.svg';
 import Youtube from '../images/youtube.svg';
 import Instagram from '../images/instagram.svg';
 
-import { cols, col } from '../styles/styles.module.css';
+import { cols } from '../styles/styles.module.css';
 
 const Footer = () => {
   return (
@@ -30,7 +30,9 @@ const Footer = () => {
           </div>
         </div>
         <div className={cn(css.box)}>
-          <h3><Link to="#">Become a member</Link></h3>
+          <h3>
+            <Link to="#">Become a member</Link>
+          </h3>
           <div className={css.action}>
             <p>
               Support the Coding Train and get access to a number of perks like
@@ -40,7 +42,9 @@ const Footer = () => {
           </div>
         </div>
         <div className={cn(css.box)}>
-          <h3><Link to="#">Join the community</Link></h3>
+          <h3>
+            <Link to="#">Join the community</Link>
+          </h3>
           <div className={css.action}>
             <p>
               Join our channel on Discord to find answers to your questions and
@@ -50,7 +54,9 @@ const Footer = () => {
           </div>
         </div>
         <div className={cn(css.box)}>
-          <h3><Link to="#">Shop</Link></h3>
+          <h3>
+            <Link to="#">Shop</Link>
+          </h3>
           <div className={css.action}>
             <p>
               Visit the Coding Train store with a small selection of high
@@ -92,32 +98,54 @@ const Footer = () => {
         <div>
           <span>Get started</span>
           <ul>
-            <li><Link to="#">Getting started guide</Link></li>
+            <li>
+              <Link to="#">Getting started guide</Link>
+            </li>
           </ul>
         </div>
         <div>
           <span>Videos</span>
           <ul>
-            <li><Link to="#">Tracks</Link></li>
-            <li><Link to="#">Challenges</Link></li>
-            <li><Link to="#">FAQ</Link></li>
-            <li><Link to="#">Archive</Link></li>
+            <li>
+              <Link to="#">Tracks</Link>
+            </li>
+            <li>
+              <Link to="#">Challenges</Link>
+            </li>
+            <li>
+              <Link to="#">FAQ</Link>
+            </li>
+            <li>
+              <Link to="#">Archive</Link>
+            </li>
           </ul>
         </div>
         <div>
           <span>Community</span>
           <ul>
-            <li><a href="https://discord.com/invite/hPuGy2g">Discord</a></li>
-            <li><Link to="#">Gallery</Link></li>
-            <li><Link to="#">Contribute</Link></li>
-            <li><a href="https://github.com/CodingTrain">Github</a></li>
+            <li>
+              <a href="https://discord.com/invite/hPuGy2g">Discord</a>
+            </li>
+            <li>
+              <Link to="#">Gallery</Link>
+            </li>
+            <li>
+              <Link to="#">Contribute</Link>
+            </li>
+            <li>
+              <a href="https://github.com/CodingTrain">Github</a>
+            </li>
           </ul>
         </div>
         <div>
           <span>About</span>
           <ul>
-            <li><Link to="#">Talks</Link></li>
-            <li><Link to="#">Shop</Link></li>
+            <li>
+              <Link to="#">Talks</Link>
+            </li>
+            <li>
+              <Link to="#">Shop</Link>
+            </li>
           </ul>
         </div>
       </div>

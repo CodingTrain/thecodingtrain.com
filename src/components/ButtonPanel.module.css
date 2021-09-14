@@ -10,8 +10,8 @@
   overflow: hidden;
 
   & p {
-    margin-top: 0;
-    margin-bottom: 0;
+    color: var(--gray-mid);
+    margin: 0 var(--spacing-normal) 0 0;
     text-transform: uppercase;
     text-overflow: ellipsis;
     white-space: nowrap;

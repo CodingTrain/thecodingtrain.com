@@ -2,12 +2,17 @@ const omit = require('lodash/omit');
 
 exports.createSchemaCustomization = ({ actions, schema }) => {
   const { createTypes } = actions;
+
+  // We don't necessarily need to add every field here, since
+  // Gatsby will auto-generate the fields when created. This is
+  // just to make sure that certain fields are set to certain types.
   createTypes(`
     type Track implements Node {
       title: String!
       slug: String!
       description: String!
       chapters: [Chapter] @link
+      numVideos: Int!
     }
 
     type Chapter implements Node {
@@ -41,6 +46,7 @@ exports.onCreateNode = ({
     const parent = getNode(node.parent);
     const slug = parent.name;
     const id = createNodeId(slug);
+    let numVideos = 0;
 
     // Make Chapter nodes
     const chapters = [];
@@ -58,6 +64,7 @@ exports.onCreateNode = ({
           }
         });
         chapters.push(newNode);
+        numVideos += chapter.videos.length;
       }
     }
 
@@ -67,6 +74,7 @@ exports.onCreateNode = ({
       id,
       slug,
       chapters: chapters.map((ch) => ch.id),
+      numVideos,
       internal: {
         type: `Track`,
         contentDigest: createContentDigest(data)
