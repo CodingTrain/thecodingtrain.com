@@ -1,5 +1,6 @@
 @custom-media --xsmall (max-width: 400px);
 @custom-media --small (max-width: 600px);
+@custom-media --reduced (max-width: 900px);
 @custom-media --medium (max-width: 1025px);
 @custom-media --large (max-width: 1440px);
 @custom-media --container (max-width: 1600px);
@@ -11,23 +12,37 @@
 :root {
   /* This is the real baseline from top to bottom */
   --baseline: 50px;
-  --baseline2x: calc(var(--baseline) * 2);
+  --baseline-2x: calc(var(--baseline) * 2);
+  --baseline-3x: calc(var(--baseline) * 3);
+  --baseline-4x: calc(var(--baseline) * 4);
+  --baseline-5x: calc(var(--baseline) * 5);
+  --baseline-6x: calc(var(--baseline) * 6);
+  --baseline-7x: calc(var(--baseline) * 7);
+  --baseline-8x: calc(var(--baseline) * 8);
+
+  --baseline-1of2: calc(var(--baseline) / 2);
+  --baseline-1of3: calc(var(--baseline) / 3);
+  --baseline-2of3: calc(var(--baseline) / 3 * 2);
 
   /*
-    This is the baseline that content inside boxes should rely on.
-    We chose to do this instead of a negative margin on .box because
-    boxes would overlap and therefore cover the top line with background color, etc.
+    This is the baseline that content inside boxes can rely on.
+    Text that flows on multiple lines should use --baseline and
+    offset with a margin-top: -1px.
   */
   --baseline-box: calc(var(--baseline) - 1px);
   --baseline-box-2x: calc(var(--baseline) * 2 - 1px);
   --baseline-box-3x: calc(var(--baseline) * 3 - 1px);
   --baseline-box-4x: calc(var(--baseline) * 4 - 1px);
+  --baseline-box-5x: calc(var(--baseline) * 5 - 1px);
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
 
+  --font-small: 14px;
   --font-medium: 15px;
+  --font-reduced: 16px;
+  --font-large: 22px;
   --font-xlarge: 93px;
 
   --spacing-xsmall: 5px;
@@ -55,10 +70,19 @@
 
 @media (--medium) {
   :root {
+    --font-small: 13px;
     --font-medium: 14px;
+    --font-reduced: 15px;
     --font-xlarge: 45px;
 
     --box-padding: 13px;
+    --container-spacing-horizontal: 30px;
+  }
+}
+
+@media (--reduced) {
+  :root {
+    --container-spacing-horizontal: 20px;
   }
 }
 
@@ -67,8 +91,12 @@
     --baseline: 40px;
     --container-spacing-horizontal: 5px;
 
-    --box-padding: 10px;
+    --font-small: 12px;
     --font-medium: 13px;
+    --font-reduced: 14px;
     --font-xlarge: 32px;
+
+    --box-padding: 10px;
+    --container-spacing-horizontal: 0px;
   }
 }
