@@ -134,9 +134,9 @@ const ComponentsPage = ({ data }) => {
         buttonLink={''}
         variant={'purple'}
       />
-      <Footer />
       <Spacer label="Pattern" />
       <div className={cn(pattern, css.pattern)} />
+      <Footer />
     </Layout>
   );
 };

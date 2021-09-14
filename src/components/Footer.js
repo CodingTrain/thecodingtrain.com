@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import cn from 'classnames';
 
 import * as css from './Footer.module.css';
@@ -9,9 +10,6 @@ import Github from '../images/github.svg';
 import Discord from '../images/discord.svg';
 import Youtube from '../images/youtube.svg';
 import Instagram from '../images/instagram.svg';
-import NYU from '../images/nyu.svg';
-import ITP from '../images/itp.svg';
-import Google from '../images/google.svg';
 
 import { cols, col } from '../styles/styles.module.css';
 
@@ -19,17 +17,17 @@ const Footer = () => {
   return (
     <div className={css.root}>
       <div className={cn(cols, css.actions)}>
-        <div className={cn(css.box)}>
+        <div className={cn(css.box, css.topbox)}>
           <div className={css.logo}>
             <Logo width={250} />
           </div>
           <div className={css.train}>
-            <Train width={250} />
+            <Train />
           </div>
         </div>
         <div className={cn(css.box)}>
           <h3>Become a member</h3>
-          <div>
+          <div className={css.action}>
             <p>
               Support the Coding Train and get access to a number of perks like
               stickers and member-only livestreams.
@@ -39,7 +37,7 @@ const Footer = () => {
         </div>
         <div className={cn(css.box)}>
           <h3>Join the community</h3>
-          <div>
+          <div className={css.action}>
             <p>
               Join our channel on Discord to find answers to your questions and
               take part in our inclusive community.
@@ -49,7 +47,7 @@ const Footer = () => {
         </div>
         <div className={cn(css.box)}>
           <h3>Shop</h3>
-          <div>
+          <div className={css.action}>
             <p>
               Visit the Coding Train store with a small selection of high
               quality items.
@@ -62,20 +60,28 @@ const Footer = () => {
         <div className={css.socials}>
           <ul>
             <li>
-              <Github width={30} />
-              Github
+              <a href="https://github.com/CodingTrain">
+                <Github width={30} />
+                <span>Github</span>
+              </a>
             </li>
             <li>
-              <Discord width={30} />
-              Discord
+              <a href="https://discord.com/invite/hPuGy2g">
+                <Discord width={30} />
+                <span>Discord</span>
+              </a>
             </li>
             <li>
-              <Youtube width={30} />
-              Youtube
+              <a href="https://www.youtube.com/c/TheCodingTrain/">
+                <Youtube width={30} />
+                <span>Youtube</span>
+              </a>
             </li>
             <li>
-              <Instagram width={30} />
-              Instagram
+              <a href="https://www.instagram.com/the.coding.train">
+                <Instagram width={30} />
+                <span>Instagram</span>
+              </a>
             </li>
           </ul>
         </div>
@@ -112,9 +118,33 @@ const Footer = () => {
         </div>
       </div>
       <div className={css.logos}>
-        <NYU />
-        <ITP />
-        <Google />
+        <div>The coding train contributors:</div>
+        <div>
+          <StaticImage
+            src="../images/nyu.png"
+            alt=""
+            width={200}
+            height={100}
+          />
+          <p>NYU creative grant 2018-present</p>
+        </div>
+        <div>
+          <StaticImage
+            src="../images/itp.png"
+            alt=""
+            width={200}
+            height={100}
+          />
+          <p>ITP research fellowship mentorship</p>
+        </div>
+        <div>
+          <StaticImage
+            src="../images/google.png"
+            alt=""
+            width={200}
+            height={100}
+          />
+        </div>
       </div>
       <div className={css.copyright}>
         2021 The Coding Train. All rights reserved.

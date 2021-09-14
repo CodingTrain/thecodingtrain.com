@@ -1,5 +1,6 @@
 .root {
   color: var(--gray-mid);
+  background-color: var(--gray-light);
   & ul {
     list-style: none;
     padding-left: 0;
@@ -14,13 +15,14 @@
 .box {
   display: flex;
   flex-direction: column;
-  flex: 1 0 25%;
+  flex: 1 0 20%;
   border-left: var(--border);
   border-bottom: var(--border);
   line-height: var(--baseline-box);
 
   & h3 {
     font-family: var(--maru-mono);
+    font-weight: 900;
     font-size: var(--font-medium);
     text-transform: uppercase;
     margin: 0;
@@ -52,7 +54,14 @@
 }
 
 .train {
-  line-height: var(--baseline-box-4x);
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+
+  & svg {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .links {
@@ -60,12 +69,18 @@
   justify-content: space-between;
   border-left: var(--border);
   border-bottom: var(--border);
-  padding: var(--box-padding);
-  margin-right: var(--baseline);
+  padding: var(--baseline-1of3) 75px var(--baseline-1of3) var(--box-padding);
 
   & span {
     line-height: var(--baseline);
     display: block;
+  }
+}
+
+.socials {
+  & span {
+    padding-left: var(--box-padding);
+    display: inline;
   }
 }
 
@@ -84,7 +99,25 @@
 }
 
 .logos {
+  display: flex;
   height: var(--baseline-box-3x);
+  text-transform: uppercase;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    border-right: var(--border);
+    padding: var(--box-padding);
+  }
+
+  & > div:last-child {
+    border-right: none;
+    flex: 30%;
+  }
+
+  & p {
+    padding-left: var(--box-padding);
+  }
 }
 
 .copyright {
@@ -93,4 +126,48 @@
   align-items: center;
   text-align: center;
   height: var(--baseline-box-2x);
+}
+
+@media only screen and (max-width: 1320px) {
+}
+
+@media (--medium) {
+  .topbox {
+    order: 4;
+  }
+
+  .actions > div {
+    flex: 50%;
+  }
+
+  .logos {
+    height: auto;
+    flex-direction: column;
+
+    & > div {
+      border-right: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media (--small) {
+  .actions > div {
+    flex: 100%;
+  }
+
+  .box > h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .action {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
 }
