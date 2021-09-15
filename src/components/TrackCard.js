@@ -26,6 +26,8 @@ const TrackCard = ({
       <div className={css.left}>
         <div className={css.text}>
           <h3 className={css.title}>{title}</h3>
+          <Tags heading="Topics" items={topics} />
+          <Tags heading="Languages" items={languages} />
           <p className={css.description}>{description}</p>
         </div>
         <div className={css.fadeText} />
@@ -48,8 +50,6 @@ const TrackCard = ({
           pictureClassName={css.picture}
           imgClassName={css.image}
         />
-        <Tags heading="Topics" items={topics} />
-        <Tags heading="Languages" items={languages} />
       </div>
     </div>
   );
@@ -60,7 +60,7 @@ const Tags = memo(({ heading, items }) => {
   // const hiddenItems = items.slice(2);
   return (
     <div className={css.tags}>
-      <h3 className={css.tagHeading}>{heading}</h3>
+      <h4 className={css.tagHeading}>{heading}</h4>
       {visibleItems.map((tag) => (
         <span className={css.tag} key={tag}>
           {tag}

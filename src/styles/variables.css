@@ -23,6 +23,7 @@
   --baseline-1of2: calc(var(--baseline) / 2);
   --baseline-1of3: calc(var(--baseline) / 3);
   --baseline-2of3: calc(var(--baseline) / 3 * 2);
+  --baseline-1of4: calc(var(--baseline) / 4);
 
   /*
     This is the baseline that content inside boxes can rely on.
@@ -41,6 +42,7 @@
   --maru-mono: "GT Maru Mono", monospace;
   --maru-emoji: "GT Maru Emoji";
 
+  --font-xsmall: 11px;
   --font-small: 12px;
   --font-normal: 14px;
   --font-medium: 15px;
@@ -78,6 +80,8 @@
 
 @media (--medium) {
   :root {
+    --font-xsmall: 10px;
+    --font-small: 11px;
     --font-normal: 13px;
     --font-medium: 14px;
     --font-reduced: 15px;
@@ -100,6 +104,8 @@
     --baseline: 40px;
     --container-spacing-horizontal: 5px;
 
+    --font-xsmall: 9px;
+    --font-small: 10px;
     --font-normal: 12px;
     --font-medium: 13px;
     --font-reduced: 14px;

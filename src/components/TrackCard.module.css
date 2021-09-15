@@ -28,9 +28,7 @@
 .trackType,
 .numVideos,
 .image,
-.smallTitle,
-.tagHeading,
-.tag {
+.smallTitle {
   border-left: var(--border);
   border-bottom: var(--border);
 }
@@ -48,6 +46,7 @@
 
 .title {
   margin-top: var(--baseline-1of2);
+  margin-bottom: var(--baseline-1of4);
   line-height: var(--baseline-2of3);
   font-size: var(--font-large);
 }
@@ -127,28 +126,21 @@
 **/
 
 .tags {
-  line-height: var(--baseline-box);
-  display: flex;
-  display: none;
+  line-height: var(--baseline-1of3);
 }
 
 .tagHeading,
 .tag {
-  font-size: var(--font-medium);
+  display: inline-block;
+  font-size: var(--font-xsmall);
   text-align: center;
-  padding: 0 var(--spacing-normal);
-}
-
-.tagHeading {
-  flex-basis: 30%;
+  margin: 0;
+  padding: 0;
+  margin-right: var(--spacing-small);
 }
 
 .tag {
   font-family: var(--maru-mono);
-  flex-grow: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /**
