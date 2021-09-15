@@ -6,6 +6,7 @@
   text-transform: uppercase;
   font-size: var(--font-medium);
   white-space: nowrap;
+  border: none;
 }
 
 a {
@@ -14,36 +15,22 @@ a {
 }
 
 .root:hover {
+  transition: background-color 0.2s;
 }
 
 /* Variants */
 
 .red {
+  color: white;
   background-color: var(--red);
-  border: 1px solid var(--gray-mid);
-}
-
-.red:hover {
-  background-color: white;
-  border: 1px solid var(--red);
 }
 
 .orange {
+  color: white;
   background-color: var(--orange);
-  border: 1px solid var(--gray-mid);
-}
-
-.orange:hover {
-  background-color: white;
-  border: 1px solid var(--orange);
 }
 
 .purple {
+  color: white;
   background-color: var(--purple);
-  border: 1px solid var(--gray-mid);
-}
-
-.purple:hover {
-  background-color: white;
-  border: 1px solid var(--purple);
 }

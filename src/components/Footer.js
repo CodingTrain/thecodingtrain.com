@@ -155,6 +155,7 @@ const Footer = () => {
           <StaticImage
             src="../images/nyu.png"
             alt=""
+            width={150}
             objectFit="contain"
             className={css.image}
           />
@@ -165,6 +166,7 @@ const Footer = () => {
             src="../images/itp.png"
             alt=""
             objectFit="contain"
+            width={150}
             className={css.image}
           />
           <p>ITP research fellowship mentorship</p>
@@ -173,6 +175,7 @@ const Footer = () => {
           <StaticImage
             src="../images/google.png"
             alt=""
+            width={150}
             objectFit="contain"
             className={css.image}
           />

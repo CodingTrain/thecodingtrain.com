@@ -1,8 +1,8 @@
 .root {
   font-size: var(--font-reduced);
-  color: var(--gray-mid);
   border-left: var(--border);
   border-bottom: var(--border);
+  color: var(--gray-mid);
   display: flex;
   height: var(--baseline-3x);
   justify-content: space-between;
@@ -25,19 +25,30 @@
   background-color: var(--gray-light);
 }
 
+/* Variants */
+
+.purple .cta {
+  border-color: var(--purple);
+}
+
+/* Bottom line colors */
+
+.bbred {
+  border-bottom-color: var(--red);
+}
+
 @media (--reduced) {
   .root {
     flex-direction: column;
     justify-content: space-between;
-    height: var(--baseline-4x);
+    height: var(--baseline-5x);
   }
 
   .cta {
-    margin: 0;
+    margin: 0 0 var(--baseline-box) 0;
   }
 
   .buttonPanel {
     border-left: none;
-    border-bottom: none;
   }
 }

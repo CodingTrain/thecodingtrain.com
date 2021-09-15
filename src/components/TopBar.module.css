@@ -4,6 +4,7 @@
   position: relative;
   justify-content: space-between;
   background-color: var(--gray-light);
+  color: var(--gray-mid);
 }
 
 .logo,
@@ -19,6 +20,8 @@
 }
 
 .clock {
+  font-family: var(--maru-emoji);
+  font-size: var(--font-emoji);
   padding: 0 var(--spacing-normal);
 }
 
@@ -26,7 +29,6 @@
   flex: 1;
   padding: 0 var(--box-padding);
   text-transform: uppercase;
-  color: var(--gray-dark);
 }
 
 .shortDate {
@@ -57,6 +59,10 @@
   .clock,
   .date {
     display: block;
+  }
+
+  .date {
+    font-size: var(--font-normal);
   }
 }
 

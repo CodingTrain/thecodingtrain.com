@@ -32,6 +32,12 @@
 
 @font-face {
   font-family: "GT Maru Mono";
+  src: url("../fonts/GT-Maru-Mono-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GT Maru Mono";
   src: url("../fonts/GT-Maru-Mono-Black.woff2") format("woff2");
   font-weight: 900;
 }

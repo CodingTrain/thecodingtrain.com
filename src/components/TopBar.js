@@ -13,9 +13,7 @@ const TopBar = () => {
         <div className={css.logo}>
           <Logo width={250} />
         </div>
-        <div className={css.clock}>
-          <Clock />
-        </div>
+        <div className={css.clock}>🕛</div>
         <div className={css.date}>
           <span className={css.longDate}>Sunday / Feb 7th, 2021</span>
           <span className={css.shortDate}>09/07/2021</span>

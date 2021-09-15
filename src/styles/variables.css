@@ -23,6 +23,7 @@
   --baseline-1of2: calc(var(--baseline) / 2);
   --baseline-1of3: calc(var(--baseline) / 3);
   --baseline-2of3: calc(var(--baseline) / 3 * 2);
+  --baseline-1of4: calc(var(--baseline) / 4);
 
   /*
     This is the baseline that content inside boxes can rely on.
@@ -41,8 +42,9 @@
   --maru-mono: "GT Maru Mono", monospace;
   --maru-emoji: "GT Maru Emoji";
 
-  --font-xsmall: 12px;
-  --font-small: 14px;
+  --font-xsmall: 11px;
+  --font-small: 12px;
+  --font-normal: 14px;
   --font-medium: 15px;
   --font-reduced: 16px;
   --font-emoji: 18px;
@@ -52,6 +54,7 @@
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
   --spacing-normal: 15px;
+  --spacing-xlarge: 100px;
 
   --gray-dark: #3c3c3c;
   --gray-mid: #666666;
@@ -61,9 +64,12 @@
   --cyan: #2dc5f4;
   --pink: #f063a4;
   --orange: #f89e4f;
+  --orange-light: #fce8d7;
   --purple: #9253a1;
+  --purple-light: #f0e1f3;
   --red: #f16164;
-  --red-light: #fffcfc;
+  --red-light: #fff3f3;
+  --red-lightest: #fffcfc;
 
   --border: 1px solid var(--gray-mid);
   --box-padding: 25px;
@@ -74,7 +80,9 @@
 
 @media (--medium) {
   :root {
-    --font-small: 13px;
+    --font-xsmall: 10px;
+    --font-small: 11px;
+    --font-normal: 13px;
     --font-medium: 14px;
     --font-reduced: 15px;
     --font-emoji: 17px;
@@ -96,7 +104,9 @@
     --baseline: 40px;
     --container-spacing-horizontal: 5px;
 
-    --font-small: 12px;
+    --font-xsmall: 9px;
+    --font-small: 10px;
+    --font-normal: 12px;
     --font-medium: 13px;
     --font-reduced: 14px;
     --font-emoji: 16px;

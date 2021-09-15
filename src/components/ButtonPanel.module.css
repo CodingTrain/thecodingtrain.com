@@ -18,3 +18,20 @@
     overflow: hidden;
   }
 }
+
+/* Variants */
+
+.red {
+  background-color: var(--red-light);
+  border-color: var(--red);
+}
+
+.purple {
+  background-color: var(--purple-light);
+  border-color: var(--purple);
+}
+
+.orange {
+  background-color: var(--orange-light);
+  border-color: var(--orange);
+}

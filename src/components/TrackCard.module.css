@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 }
 
 .right {
@@ -27,9 +28,7 @@
 .trackType,
 .numVideos,
 .image,
-.smallTitle,
-.tagHeading,
-.tag {
+.smallTitle {
   border-left: var(--border);
   border-bottom: var(--border);
 }
@@ -39,15 +38,15 @@
 **/
 
 .text {
-  position: relative;
-  z-index: 1;
   padding: 0 var(--box-padding);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   flex: 1;
 }
 
 .title {
   margin-top: var(--baseline-1of2);
+  margin-bottom: var(--baseline-1of4);
   line-height: var(--baseline-2of3);
   font-size: var(--font-large);
 }
@@ -56,7 +55,7 @@
   margin: var(--baseline-1of3) 0 0 0;
   line-height: var(--baseline-1of2);
   font-family: var(--maru-mono);
-  font-size: var(--font-small);
+  font-size: var(--font-normal);
 }
 
 .fadeText {
@@ -66,9 +65,9 @@
     rgba(255, 255, 255, 0) 100%
   );
   position: absolute;
-  left: 0;
+  left: 1px;
   right: 0;
-  bottom: 0;
+  bottom: calc(var(--baseline) + 1px);
   height: var(--baseline-box);
 }
 
@@ -127,27 +126,29 @@
 **/
 
 .tags {
-  line-height: var(--baseline-box);
-  display: flex;
+  line-height: var(--baseline-1of3);
 }
 
 .tagHeading,
 .tag {
-  font-size: var(--font-medium);
+  display: inline-block;
+  font-size: var(--font-xsmall);
   text-align: center;
-  padding: 0 var(--spacing-normal);
-}
-
-.tagHeading {
-  flex-basis: 30%;
+  margin: 0;
+  padding: 0;
+  margin-right: var(--spacing-small);
 }
 
 .tag {
   font-family: var(--maru-mono);
-  flex-grow: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+/**
+  Variants
+**/
+
+.red .text {
+  border-bottom-color: var(--red);
 }
 
 @media (--reduced) {

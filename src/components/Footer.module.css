@@ -43,7 +43,7 @@
 
   & p {
     font-family: var(--maru-mono);
-    font-size: var(--font-small);
+    font-size: var(--font-normal);
     line-height: 24px;
     padding: var(--box-padding);
     height: var(--baseline-box-3x);
@@ -54,7 +54,7 @@
 .action {
   & a {
     font-family: var(--maru-mono);
-    font-size: var(--font-small);
+    font-size: var(--font-normal);
     text-align: bottom;
     padding-left: var(--box-padding);
     text-decoration: underline;
@@ -85,10 +85,13 @@
 
 .links {
   display: flex;
+  font-size: var(--font-medium);
+  font-family: var(--maru-mono);
   justify-content: space-between;
   border-left: var(--border);
   border-bottom: var(--border);
-  padding: var(--baseline-1of3) 75px var(--baseline-1of3) var(--box-padding);
+  padding: var(--baseline-1of3) var(--spacing-xlarge) var(--baseline-1of3)
+    var(--box-padding);
 
   & span {
     line-height: var(--baseline);
@@ -120,6 +123,8 @@
 }
 
 .logos {
+  font-size: var(--font-normal);
+  font-family: var(--maru-mono);
   display: flex;
   height: var(--baseline-box-3x);
   text-transform: uppercase;
@@ -131,6 +136,7 @@
   & > div {
     display: flex;
     align-items: center;
+    justify-content: center;
     border-right: var(--border);
     padding: var(--box-padding);
   }
@@ -146,11 +152,12 @@
 }
 
 .image {
-  max-width: 200px;
-  max-height: 100px;
+  opacity: 0.75;
 }
 
 .copyright {
+  font-family: var(--maru-mono);
+  font-size: var(--font-small);
   display: flex;
   justify-content: center;
   align-items: center;

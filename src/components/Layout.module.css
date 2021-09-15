@@ -6,7 +6,7 @@
 }
 
 .content {
-  background-color: var(--red-light);
+  background-color: var(--red-lightest);
   min-height: 100vh;
   border-right: var(--border);
   /* For debugging */
