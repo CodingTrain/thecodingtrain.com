@@ -10,6 +10,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
     type Track implements Node {
       title: String!
       slug: String!
+      type: String!
       description: String!
       chapters: [Chapter] @link
       numVideos: Int!
