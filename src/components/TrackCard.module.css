@@ -56,7 +56,7 @@
   margin: var(--baseline-1of3) 0 0 0;
   line-height: var(--baseline-1of2);
   font-family: var(--maru-mono);
-  font-size: var(--font-small);
+  font-size: var(--font-normal);
 }
 
 .fadeText {
@@ -129,6 +129,7 @@
 .tags {
   line-height: var(--baseline-box);
   display: flex;
+  display: none;
 }
 
 .tagHeading,

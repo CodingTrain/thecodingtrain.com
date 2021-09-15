@@ -28,6 +28,7 @@ const TracksPage = ({ data }) => {
   return (
     <Layout>
       <Breadcrumbs
+        className={css.breadcrumbs}
         breadcrumbs={[
           { name: 'Videos Overview', link: '#' },
           { name: 'Tracks', link: '#' }
@@ -36,7 +37,7 @@ const TracksPage = ({ data }) => {
       />
       <Heading>Tracks</Heading>
       <PagePanel
-        description="Get started with any of our series below or choose the topic you are most in learning more about."
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
         buttonText="Start here"
         buttonLink="#"

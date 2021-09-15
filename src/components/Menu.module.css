@@ -2,7 +2,6 @@
   font-family: var(--maru-mono);
   font-size: var(--font-medium);
   text-transform: uppercase;
-  color: var(--gray-dark);
   z-index: 100;
 }
 
@@ -29,13 +28,13 @@
 
   & a,
   & span {
+    color: var(--gray-dark);
     border-left: var(--border);
     border-bottom: var(--border);
     display: block;
     text-align: center;
     text-decoration: none;
     padding: 0 var(--box-padding);
-    color: var(--gray-dark);
     line-height: var(--baseline-box);
   }
 

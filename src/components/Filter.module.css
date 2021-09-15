@@ -1,7 +1,7 @@
 .root {
-  color: var(--gray-mid);
+  color: var(--red);
   display: flex;
-  font-size: var(--font-medium);
+  background-color: #fff3f3;
 }
 
 .left {
@@ -19,8 +19,8 @@
 .title,
 .item,
 .seeMore {
-  border-left: var(--border);
-  border-bottom: var(--border);
+  border-left: 1px solid var(--red);
+  border-bottom: 1px solid var(--red);
 }
 
 .icon {
@@ -40,14 +40,14 @@
 
   & h3 {
     margin: 0;
-    font-size: var(--font-medium);
+    font-size: var(--font-reduced);
   }
 }
 
 .items {
   display: flex;
   flex-wrap: wrap;
-  height: var(--baseline-2x);
+  height: var(--baseline);
   overflow: hidden;
 }
 
@@ -66,15 +66,15 @@
     padding: 0 var(--spacing-xsmall);
     line-height: var(--baseline-box);
     font-family: var(--maru-mono);
-    font-size: var(--font-medium);
-    color: var(--gray-mid);
+    font-size: var(--font-normal);
+    color: var(--red);
     white-space: nowrap;
   }
 }
 
 .item.selected button {
-  background-color: var(--pink);
-  color: var(--gray-dark);
+  background-color: var(--red);
+  color: white;
 }
 
 .seeMore {
@@ -86,5 +86,5 @@
   text-align: left;
   padding: 0 var(--box-padding);
   line-height: var(--baseline-box);
-  font-size: var(--font-xsmall);
+  font-size: var(--font-small);
 }

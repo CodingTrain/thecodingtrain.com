@@ -41,8 +41,8 @@
   --maru-mono: "GT Maru Mono", monospace;
   --maru-emoji: "GT Maru Emoji";
 
-  --font-xsmall: 12px;
-  --font-small: 14px;
+  --font-small: 12px;
+  --font-normal: 14px;
   --font-medium: 15px;
   --font-reduced: 16px;
   --font-emoji: 18px;
@@ -52,6 +52,7 @@
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
   --spacing-normal: 15px;
+  --spacing-xlarge: 100px;
 
   --gray-dark: #3c3c3c;
   --gray-mid: #666666;
@@ -74,7 +75,7 @@
 
 @media (--medium) {
   :root {
-    --font-small: 13px;
+    --font-normal: 13px;
     --font-medium: 14px;
     --font-reduced: 15px;
     --font-emoji: 17px;
@@ -96,7 +97,7 @@
     --baseline: 40px;
     --container-spacing-horizontal: 5px;
 
-    --font-small: 12px;
+    --font-normal: 12px;
     --font-medium: 13px;
     --font-reduced: 14px;
     --font-emoji: 16px;

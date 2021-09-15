@@ -4,9 +4,9 @@ import cn from 'classnames';
 
 import * as css from './Breadcrumbs.module.css';
 
-const Breadcrumbs = ({ breadcrumbs, variant }) => {
+const Breadcrumbs = ({ breadcrumbs, variant, className }) => {
   return (
-    <div className={cn(css.root, { [css[variant]]: css[variant] })}>
+    <div className={cn(css.root, { [css[variant]]: css[variant] }, className)}>
       {breadcrumbs.map((breadcrumb, i) => {
         const isString = typeof item === 'string';
         return (

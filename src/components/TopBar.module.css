@@ -4,6 +4,7 @@
   position: relative;
   justify-content: space-between;
   background-color: var(--gray-light);
+  color: var(--gray-mid);
 }
 
 .logo,
@@ -26,7 +27,6 @@
   flex: 1;
   padding: 0 var(--box-padding);
   text-transform: uppercase;
-  color: var(--gray-dark);
 }
 
 .shortDate {
