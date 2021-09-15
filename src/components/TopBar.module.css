@@ -20,6 +20,8 @@
 }
 
 .clock {
+  font-family: var(--maru-emoji);
+  font-size: var(--font-emoji);
   padding: 0 var(--spacing-normal);
 }
 
@@ -57,6 +59,10 @@
   .clock,
   .date {
     display: block;
+  }
+
+  .date {
+    font-size: var(--font-normal);
   }
 }
 
