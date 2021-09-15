@@ -4,7 +4,6 @@ import Menu from './Menu';
 import * as css from './TopBar.module.css';
 
 import Logo from '../images/logo.svg';
-import Clock from '../images/clock.svg';
 
 const TopBar = () => {
   return (
