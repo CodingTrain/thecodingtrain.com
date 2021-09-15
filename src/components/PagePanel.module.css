@@ -41,15 +41,14 @@
   .root {
     flex-direction: column;
     justify-content: space-between;
-    height: var(--baseline-4x);
+    height: var(--baseline-5x);
   }
 
   .cta {
-    margin: 0;
+    margin: 0 0 var(--baseline-box) 0;
   }
 
   .buttonPanel {
     border-left: none;
-    border-bottom: none;
   }
 }

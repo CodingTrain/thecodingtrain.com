@@ -27,8 +27,8 @@ const TrackCard = ({
         <div className={css.text}>
           <h3 className={css.title}>{title}</h3>
           <p className={css.description}>{description}</p>
-          <div className={css.fadeText} />
         </div>
+        <div className={css.fadeText} />
         <ButtonPanel
           text="Ready to start?"
           buttonText="Go to track"

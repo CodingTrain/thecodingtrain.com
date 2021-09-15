@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 }
 
 .right {
@@ -39,10 +40,9 @@
 **/
 
 .text {
-  position: relative;
-  z-index: 1;
   padding: 0 var(--box-padding);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   flex: 1;
 }
 
@@ -66,9 +66,9 @@
     rgba(255, 255, 255, 0) 100%
   );
   position: absolute;
-  left: 0;
+  left: 1px;
   right: 0;
-  bottom: 0;
+  bottom: calc(var(--baseline) + 1px);
   height: var(--baseline-box);
 }
 
