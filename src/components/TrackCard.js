@@ -33,7 +33,7 @@ const TrackCard = ({
           text="Ready to start?"
           buttonText="Go to track"
           buttonLink={path}
-          variant="red"
+          variant={variant}
         />
       </div>
       <div className={css.right}>

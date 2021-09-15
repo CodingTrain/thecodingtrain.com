@@ -1,8 +1,8 @@
 .root {
   font-size: var(--font-reduced);
-  color: var(--gray-mid);
   border-left: var(--border);
   border-bottom: var(--border);
+  color: var(--gray-mid);
   display: flex;
   height: var(--baseline-3x);
   justify-content: space-between;
@@ -23,6 +23,18 @@
   margin-top: var(--baseline-box);
   margin-bottom: var(--baseline-box);
   background-color: var(--gray-light);
+}
+
+/* Variants */
+
+.purple .cta {
+  border-color: var(--purple);
+}
+
+/* Bottom line colors */
+
+.bbred {
+  border-bottom-color: var(--red);
 }
 
 @media (--reduced) {

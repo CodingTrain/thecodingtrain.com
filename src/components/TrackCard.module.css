@@ -151,6 +151,14 @@
   text-overflow: ellipsis;
 }
 
+/**
+  Variants
+**/
+
+.red .text {
+  border-bottom-color: var(--red);
+}
+
 @media (--reduced) {
   .root {
     flex-wrap: wrap;

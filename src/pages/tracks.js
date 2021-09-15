@@ -41,7 +41,8 @@ const TracksPage = ({ data }) => {
         text="New to coding?"
         buttonText="Start here"
         buttonLink="#"
-        variant="red"
+        variant="purple"
+        bbColor="red"
       />
       <div className={css.filters}>
         <Filter
@@ -102,6 +103,7 @@ const TracksPage = ({ data }) => {
                 'Funky Times by the Computer'
               ]}
               languages={['p5.js', 'JavaScript']}
+              variant="red"
             />
             <Spacer />
           </Fragment>
