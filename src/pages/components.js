@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
 import TrackCard from '../components/TrackCard';
+import Tabs from '../components/Tabs';
 import cn from 'classnames';
 
 import * as css from '../styles/pages/components.module.css';
@@ -40,6 +41,12 @@ const ComponentsPage = ({ data }) => {
         ]}
         variant="purple"
       />
+      <Tabs
+        labels={['First Component', 'Second Component', 'Third Component']}>
+        <Heading>Test</Heading>
+        <Heading>Best</Heading>
+        <Heading>Nest</Heading>
+      </Tabs>
       <Spacer label="Filter" />
       <div className={cols}>
         <Filter
