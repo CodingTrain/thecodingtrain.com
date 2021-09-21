@@ -94,7 +94,7 @@ const TracksPage = ({ data }) => {
             <TrackCard
               {...track}
               image={images[track.slug] || images.placeholder}
-              path="/tracks/code-programming-with-p5-js"
+              path={`/tracks/${track.slug}`}
               topics={[
                 'Beginner-Friendly',
                 'Machine Learning',
