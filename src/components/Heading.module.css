@@ -13,7 +13,7 @@
   & h1 {
     color: var(--red);
     line-height: var(--baseline-2x);
-    font-size: var(--font-xlarge);
+    font-size: var(--font-huge);
   }
 }
 
