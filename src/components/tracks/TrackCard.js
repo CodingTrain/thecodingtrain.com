@@ -1,11 +1,12 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
-import Image from './Image';
-import ButtonPanel from './ButtonPanel';
+import Image from '../Image';
+import ButtonPanel from '../ButtonPanel';
+import Tags from './Tags';
 
 import * as css from './TrackCard.module.css';
-import { pattern } from '../styles/styles.module.css';
+import { pattern } from '../../styles/styles.module.css';
 
 const TrackCard = ({
   title,
@@ -54,20 +55,5 @@ const TrackCard = ({
     </div>
   );
 };
-
-const Tags = memo(({ heading, items }) => {
-  const visibleItems = items.slice(0, 2);
-  // const hiddenItems = items.slice(2);
-  return (
-    <div className={css.tags}>
-      <h4 className={css.tagHeading}>{heading}</h4>
-      {visibleItems.map((tag) => (
-        <span className={css.tag} key={tag}>
-          {tag}
-        </span>
-      ))}
-    </div>
-  );
-});
 
 export default TrackCard;

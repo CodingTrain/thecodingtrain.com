@@ -1,0 +1,81 @@
+.root {
+}
+
+/*
+  Since text can flow on multiple lines, the line-height needs to be `--baseline`,
+  so we offset with a margin-top of -1px. See variables.css for explanation.
+ */
+.title {
+  padding: 0 var(--box-padding);
+  color: var(--red);
+  margin-top: -1px;
+  text-transform: uppercase;
+  line-height: var(--baseline-2x);
+  font-size: var(--font-xlarge);
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
+.info {
+  display: flex;
+  color: var(--gray-mid);
+  background-color: white;
+  border-left: var(--border);
+  border-bottom: var(--border);
+  font-family: var(--maru-mono);
+}
+
+.description {
+  height: var(--baseline-5x);
+  flex-basis: 75%;
+  padding: var(--box-padding);
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: var(--font-normal);
+  margin: 0;
+
+  & p {
+    margin: 0;
+  }
+}
+
+.tags {
+  height: var(--baseline-5x);
+  flex-basis: 25%;
+  padding: var(--box-padding);
+}
+
+.tags {
+  font-size: 13px;
+
+  & span {
+    margin-right: 1em;
+  }
+
+  & .label {
+    font-weight: 900;
+  }
+
+  & span + .label {
+    margin-left: 1em;
+  }
+}
+
+@media (--reduced) {
+  .root .title {
+    line-height: var(--baseline);
+  }
+
+  .info {
+    flex-wrap: wrap;
+  }
+
+  .description {
+    flex-basis: 100%;
+    height: var(--baseline-3x);
+  }
+
+  .tags {
+    display: none;
+  }
+}

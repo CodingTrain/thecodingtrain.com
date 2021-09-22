@@ -6,7 +6,7 @@ import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
-import TrackCard from '../components/TrackCard';
+import TrackCard from '../components/tracks/TrackCard';
 import PagePanel from '../components/PagePanel';
 
 import { useImages } from '../hooks';
@@ -27,14 +27,11 @@ const TracksPage = ({ data }) => {
 
   return (
     <Layout>
-      <Breadcrumbs
+      {/* <Breadcrumbs
         className={css.breadcrumbs}
-        breadcrumbs={[
-          { name: 'Videos Overview', link: '#' },
-          { name: 'Tracks', link: '#' }
-        ]}
+        breadcrumbs={[{ name: 'Tracks', link: '#' }]}
         variant="red"
-      />
+      /> */}
       <Heading>Tracks</Heading>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."

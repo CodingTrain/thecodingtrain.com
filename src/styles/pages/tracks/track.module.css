@@ -1,3 +1,9 @@
+.pattern {
+  border-left: var(--border);
+  border-bottom: var(--border);
+  height: var(--baseline-box);
+}
+
 @media (--small) {
   .breadcrumbs {
     display: none;

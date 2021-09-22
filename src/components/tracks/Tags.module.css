@@ -1,0 +1,36 @@
+.tags {
+  line-height: var(--baseline-1of3);
+}
+
+.tags + .tags {
+  margin-top: 1em;
+}
+
+.tagHeading,
+.tag {
+  font-size: var(--font-xsmall);
+  margin: 0;
+  padding: 0;
+  margin-right: var(--spacing-small);
+}
+
+.tag {
+  font-family: var(--maru-mono);
+}
+
+.singleLine {
+  & .tagHeading {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+.tags.singleLine {
+  margin-top: 0;
+}
+
+@media (--reduced) {
+  .tags {
+    display: none;
+  }
+}

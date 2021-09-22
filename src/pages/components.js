@@ -7,7 +7,7 @@ import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
-import TrackCard from '../components/TrackCard';
+import TrackCard from '../components/tracks/TrackCard';
 import Tabs from '../components/Tabs';
 import cn from 'classnames';
 
@@ -41,8 +41,7 @@ const ComponentsPage = ({ data }) => {
         ]}
         variant="purple"
       />
-      <Tabs
-        labels={['First Component', 'Second Component', 'Third Component']}>
+      <Tabs labels={['First Component', 'Second Component', 'Third Component']}>
         <Heading>Test</Heading>
         <Heading>Best</Heading>
         <Heading>Nest</Heading>

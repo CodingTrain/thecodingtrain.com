@@ -122,28 +122,6 @@
 }
 
 /**
-  Tags
-**/
-
-.tags {
-  line-height: var(--baseline-1of3);
-}
-
-.tagHeading,
-.tag {
-  display: inline-block;
-  font-size: var(--font-xsmall);
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  margin-right: var(--spacing-small);
-}
-
-.tag {
-  font-family: var(--maru-mono);
-}
-
-/**
   Variants
 **/
 
@@ -155,10 +133,6 @@
   .root {
     flex-wrap: wrap;
     height: auto;
-  }
-
-  .tags {
-    display: none;
   }
 
   .left {

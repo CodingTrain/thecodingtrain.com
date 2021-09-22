@@ -1,0 +1,11 @@
+/*
+  Since text can flow on multiple lines, the line-height needs to be `--baseline`,
+  so we offset with a margin-top of -1px. See variables.css for explanation.
+ */
+
+.root {
+  border-left: var(--border);
+  border-bottom: var(--border);
+  padding: 0 var(--box-padding);
+  color: var(--red);
+}
