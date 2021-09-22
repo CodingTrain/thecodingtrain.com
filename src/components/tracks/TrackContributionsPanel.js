@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import * as css from './TrackContributionsPanel.module.css';
 
-const TrackContributionsPanel = ({ track }) => {
+const TrackContributionsPanel = ({ video }) => {
   return <div className={css.root}></div>;
 };
 

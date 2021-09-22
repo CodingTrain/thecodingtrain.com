@@ -3,19 +3,19 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../../components/Layout';
+import Breadcrumbs from '../../components/Breadcrumbs';
 import TrackChallengesPanel from '../../components/tracks/TrackChallengesPanel';
 import TrackContributionsPanel from '../../components/tracks/TrackContributionsPanel';
 import TrackHeader from '../../components/tracks/TrackHeader';
 import TrackVideoPlayer from '../../components/tracks/TrackVideoPlayer';
-import Breadcrumbs from '../../components/Breadcrumbs';
 
-import { pattern } from '../../styles/styles.module.css';
 import * as css from '../../styles/pages/tracks/track.module.css';
+import { pattern } from '../../styles/styles.module.css';
 
 const Track = (props) => {
-  console.log({ props });
-  const { track } = props.data;
-  console.log({ track });
+  const { pageContext, data } = props;
+  const track = pageContext.track ?? data.track;
+  const video = pageContext.video ?? data.track.chapters[0].videos[0];
   return (
     <Layout>
       <Breadcrumbs
@@ -26,12 +26,12 @@ const Track = (props) => {
         ]}
         variant="red"
       />
-      <TrackHeader track={track} />
-      <TrackVideoPlayer chapters={track.chapters} />
+      {!pageContext.video && <TrackHeader track={track} />}
+      <TrackVideoPlayer track={track} video={video} />
       <div className={cn(pattern, css.pattern)} />
-      <TrackContributionsPanel track={track} />
+      <TrackContributionsPanel video={video} />
       <div className={cn(pattern, css.pattern)} />
-      <TrackChallengesPanel track={track} />
+      <TrackChallengesPanel video={video} />
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );

@@ -108,6 +108,44 @@ exports.onCreateNode = ({
   }
 };
 
+exports.createPages = async function ({ actions, graphql }) {
+  const { createPage } = actions;
+  const { data } = await graphql(`
+    query {
+      tracks: allTrack {
+        nodes {
+          title
+          slug
+          description
+          numVideos
+          type
+          chapters {
+            title
+            videos {
+              title
+              slug
+              languages
+              topics
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  data.tracks.nodes.forEach((track) => {
+    track.chapters.forEach((chapter) => {
+      chapter.videos.forEach((video) => {
+        createPage({
+          path: `tracks/${track.slug}/${video.slug}`,
+          component: require.resolve(`./src/pages/tracks/{Track.slug}.js`),
+          context: { track, video }
+        });
+      });
+    });
+  });
+};
+
 const getJson = (node) => {
   return omit(node, ['id', 'children', 'parent', 'internal']);
 };

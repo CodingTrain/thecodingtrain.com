@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import * as css from './TrackChallengesPanel.module.css';
 
-const TrackChallengesPanel = ({ track }) => {
+const TrackChallengesPanel = ({ video }) => {
   return <div className={css.root}></div>;
 };
 

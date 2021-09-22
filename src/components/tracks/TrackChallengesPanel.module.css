@@ -2,5 +2,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   padding: 0 var(--box-padding);
-  color: var(--red);
+  color: var(--cyan);
+  height: var(--baseline-7x);
+  background-color: var(--cyan-light);
 }

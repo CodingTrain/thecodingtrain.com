@@ -56,4 +56,4 @@ const TrackCard = ({
   );
 };
 
-export default TrackCard;
+export default memo(TrackCard);

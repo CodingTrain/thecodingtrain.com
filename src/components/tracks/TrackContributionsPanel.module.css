@@ -7,38 +7,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   padding: 0 var(--box-padding);
-  color: var(--red);
-}
-
-.title {
-  margin-top: -1px;
-  text-transform: uppercase;
-  line-height: var(--baseline-2x);
-  font-size: var(--font-xlarge);
-}
-
-.tags {
-  height: var(--baseline);
-  line-height: var(--baseline-box);
-  /* This is just used for debugging */
-  font-family: var(--maru-mono);
-  font-size: 13px;
-
-  & span {
-    margin-right: 1em;
-  }
-
-  & .label {
-    font-weight: 900;
-  }
-
-  & span + .label {
-    margin-left: 1em;
-  }
-}
-
-@media (--medium) {
-  .root .title {
-    line-height: var(--baseline);
-  }
+  color: var(--purple);
+  height: var(--baseline-7x);
+  background-color: var(--purple-light);
 }
