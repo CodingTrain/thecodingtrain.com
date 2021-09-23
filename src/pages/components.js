@@ -120,7 +120,7 @@ const ComponentsPage = ({ data }) => {
             "We've created We've created We've created We've created We've created"
           }
           buttonText={'Go to our guide'}
-          buttonLink={''}
+          buttonLink={'#'}
           variant={'red'}
           className={cn(col, css.box)}
         />
@@ -137,6 +137,12 @@ const ComponentsPage = ({ data }) => {
         buttonText={'Go to track'}
         buttonLink={''}
         variant={'purple'}
+      />
+      <ButtonPanel
+        text={'Sounds interesting'}
+        buttonText={'Go to track'}
+        buttonLink={''}
+        variant={'pink'}
       />
       <Spacer label="Pattern" />
       <div className={cn(pattern, css.pattern)} />
