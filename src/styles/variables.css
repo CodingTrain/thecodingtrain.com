@@ -19,6 +19,7 @@
   --baseline-6x: calc(var(--baseline) * 6);
   --baseline-7x: calc(var(--baseline) * 7);
   --baseline-8x: calc(var(--baseline) * 8);
+  --baseline-12x: calc(var(--baseline) * 12);
 
   --baseline-1of2: calc(var(--baseline) / 2);
   --baseline-1of3: calc(var(--baseline) / 3);
@@ -74,6 +75,7 @@
   --red-lightest: #fffcfc;
 
   --border: 1px solid var(--gray-mid);
+  --border-red: 1px solid var(--red);
   --box-padding: 25px;
 
   --container-max-width: 1600px;

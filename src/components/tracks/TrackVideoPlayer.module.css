@@ -1,8 +1,113 @@
 .root {
+}
+
+/* Heading */
+
+.subheading {
+  margin-top: -1px;
   border-left: var(--border);
-  border-bottom: var(--border);
+  border-bottom: var(--border-red);
+  padding: 0 var(--box-padding);
+  text-transform: uppercase;
+  & h2 {
+    color: var(--red);
+    line-height: var(--baseline);
+    font-size: 35px;
+  }
+}
+
+/* Video section */
+
+.videoPlayer {
+  display: flex;
+}
+
+/* Left video section */
+
+.left {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  border-left: var(--border);
+  border-bottom: var(--border-red);
+  height: var(--baseline-2x);
+  font-size: 30px;
   padding: 0 var(--box-padding);
   color: var(--red);
-  height: var(--baseline-8x);
+}
+
+.tags {
+  font-size: var(--font-normal);
+  margin-top: var(--baseline-2of3);
+  line-height: var(--baseline-1of3);
+}
+
+.tags + .tags {
+  margin-top: var(--baseline-1of4);
+}
+
+.video {
+  border-left: var(--border);
+  border-bottom: var(--border-red);
+  height: var(--baseline-12x);
+}
+
+/* Right video section */
+
+.right {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+
+  & button {
+    width: 100%;
+    height: var(--baseline-box-2x);
+    cursor: pointer;
+    padding: 0 var(--spacing-normal);
+    /* line-height: var(--baseline-box); */
+    font-family: var(--maru-mono);
+    font-size: var(--font-reduced);
+    color: var(--red);
+    text-align: left;
+    /* white-space: nowrap; */
+    text-transform: uppercase;
+  }
+}
+
+.selected button {
   background-color: var(--red-light);
+  font-weight: 900;
+}
+
+.timeline {
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+  height: var(--baseline-12x);
+}
+
+/* Bottom of video section */
+
+.sep {
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+  height: var(--baseline);
+}
+
+.about {
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+  height: var(--baseline-4x);
 }

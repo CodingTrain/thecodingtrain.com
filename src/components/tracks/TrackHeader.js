@@ -16,17 +16,29 @@ const TrackHeader = ({ track }) => {
         <div className={css.description}>
           <p>{track.description}</p>
         </div>
-        <div className={css.tags}>
-          <Tags heading="Languages" items={languages} singleLine={false} />
-          <Tags heading="Topics" items={topics} singleLine={false} />
+        <div className={css.tagsContainer}>
           <Tags
+            className={css.tags}
+            heading="Languages"
+            items={languages}
+            singleLine={false}
+          />
+          <Tags
+            className={css.tags}
+            heading="Topics"
+            items={topics}
+            singleLine={false}
+          />
+          <Tags
+            className={css.tags}
             heading={`${track.chapters.length} chapters`}
             items={[
               `${track.chapters.reduce(
                 (curr, acc) => curr + acc.videos.length,
                 0
-              )}' '
-            video lessons ()`
+              )} 
+            video lessons`,
+              `()`
             ]}
             singleLine={false}
           />
