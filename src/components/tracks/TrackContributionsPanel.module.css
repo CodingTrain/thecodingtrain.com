@@ -6,8 +6,71 @@
 .root {
   border-left: var(--border);
   border-bottom: var(--border);
-  padding: 0 var(--box-padding);
+  border-color: var(--purple);
   color: var(--purple);
   height: var(--baseline-7x);
   background-color: var(--purple-light);
+}
+
+.titleBox {
+  display: flex;
+  border-bottom: var(--border);
+  border-color: var(--purple);
+  padding: 0 var(--box-padding);
+  line-height: var(--baseline);
+  text-transform: uppercase;
+
+  & h4 {
+    color: var(--purple);
+    font-size: var(--maru-mono);
+    font-weight: 600;
+  }
+
+  & p {
+    padding: 0 var(--box-padding);
+    margin: 0;
+  }
+}
+
+.contributions {
+  display: flex;
+  border-bottom: var(--border);
+  border-color: var(--purple);
+}
+
+.contrib {
+  display: flex;
+  flex: 1 0 20%;
+  flex-direction: column;
+  border-right: var(--border);
+  border-left: var(--border);
+  border-color: var(--purple);
+  margin-left: var(--box-padding);
+
+  & span {
+    line-height: var(--baseline);
+    padding: 0 var(--box-padding);
+  }
+
+  & p {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.contrib:first-child {
+  margin-left: 0;
+  border-left: none;
+}
+
+.contrib:last-child {
+  border-right: none;
+}
+
+.contribsPanel {
+  border-left: none;
+
+  & p {
+    color: var(--purple);
+  }
 }
