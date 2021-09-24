@@ -8,20 +8,20 @@ import PlayButton from '../../images/playbutton.svg';
 //dummy content
 const contributions = [
   {
-    title: "Grab any spring particle",
-    author: "galiton"
+    title: 'Grab any spring particle',
+    author: 'Galiton'
   },
   {
-    title: "Grab any spring particle",
-    author: "galiton"
+    title: 'Grab any spring particle',
+    author: 'Galiton'
   },
   {
-    title: "Grab any spring particle",
-    author: "galiton"
+    title: 'Grab any spring particle',
+    author: 'Galiton'
   },
   {
-    title: "Grab any spring particle",
-    author: "galiton"
+    title: 'Grab any spring particle',
+    author: 'Galiton'
   }
 ];
 
@@ -34,11 +34,12 @@ const TrackContributionsPanel = ({ video }) => {
       </div>
       <div className={css.contributions}>
         {contributions.map((contrib, key) => (
-          <div className={css.contrib}>
-            <span>{contrib.title}</span>
+          <div className={css.contrib} key={key}>
+            <span className={css.title}>{contrib.title}</span>
+            <div className={css.imagePlaceholder}></div>
             <p>
-            <span>{contrib.author}</span>
-            <PlayButton />
+              <span className={css.author}>{contrib.author}</span>
+              <PlayButton width={30} />
             </p>
           </div>
         ))}

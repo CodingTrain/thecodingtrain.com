@@ -7,9 +7,8 @@
   border-left: var(--border);
   border-bottom: var(--border);
   border-color: var(--purple);
-  color: var(--purple);
   height: var(--baseline-7x);
-  background-color: var(--purple-light);
+  font-family: var(--maru-mono);
 }
 
 .titleBox {
@@ -17,18 +16,22 @@
   border-bottom: var(--border);
   border-color: var(--purple);
   padding: 0 var(--box-padding);
-  line-height: var(--baseline);
+  line-height: var(--baseline-box);
   text-transform: uppercase;
+  font-family: var(--maru-mono);
+  background-color: var(--purple-light);
 
   & h4 {
     color: var(--purple);
-    font-size: var(--maru-mono);
+    font-size: var(--font-medium);
     font-weight: 600;
   }
 
   & p {
     padding: 0 var(--box-padding);
     margin: 0;
+    font-size: var(--font-medium);
+    color: var(--purple);
   }
 }
 
@@ -46,6 +49,8 @@
   border-left: var(--border);
   border-color: var(--purple);
   margin-left: var(--box-padding);
+  font-family: var(--maru-mono);
+  font-size: var(--font-medium);
 
   & span {
     line-height: var(--baseline);
@@ -55,6 +60,9 @@
   & p {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-right: var(--box-padding);
   }
 }
 
@@ -73,4 +81,18 @@
   & p {
     color: var(--purple);
   }
+}
+
+.title {
+  color: var(--gray-mid);
+  text-transform: uppercase;
+}
+
+.author {
+  color: var(--purple);
+}
+
+.imagePlaceholder {
+  height: var(--baseline-box-3x);
+  background-color: var(--gray-light);
 }
