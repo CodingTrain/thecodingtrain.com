@@ -121,6 +121,13 @@
   object-fit: cover;
 }
 
+/* Tags */
+
+.tags {
+  line-height: var(--baseline-1of3);
+  font-size: var(--font-xsmall);
+}
+
 /**
   Variants
 **/

@@ -124,6 +124,7 @@ exports.createPages = async function ({ actions, graphql }) {
             videos {
               title
               slug
+              description
               languages
               topics
             }

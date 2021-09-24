@@ -27,8 +27,8 @@ const TrackCard = ({
       <div className={css.left}>
         <div className={css.text}>
           <h3 className={css.title}>{title}</h3>
-          <Tags heading="Topics" items={topics} />
-          <Tags heading="Languages" items={languages} />
+          <Tags className={css.tags} heading="Topics" items={topics} />
+          <Tags className={css.tags} heading="Languages" items={languages} />
           <p className={css.description}>{description}</p>
         </div>
         <div className={css.fadeText} />

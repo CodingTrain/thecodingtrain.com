@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
+import cn from 'classnames';
+
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
-import ButtonPanel from '../components/ButtonPanel';
-import TrackCard from '../components/tracks/TrackCard';
 import Tabs from '../components/Tabs';
-import cn from 'classnames';
+import TrackCard from '../components/tracks/TrackCard';
+import ButtonPanel from '../components/ButtonPanel';
 
 import * as css from '../styles/pages/components.module.css';
 import { cols, col, pattern } from '../styles/styles.module.css';

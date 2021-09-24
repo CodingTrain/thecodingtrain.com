@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import classnames from 'classnames';
+import cn from 'classnames';
 
 import Button from './Button';
 import * as css from './Tabs.module.css';
 
 import ShareIcon from '../images/share.svg';
 
-export const Tabs = ({ labels, children }) => {
+export const Tabs = ({ variant, labels, children, shareLink }) => {
   const [active, setActive] = useState(0);
 
   const onClick = (value) => {
@@ -14,13 +14,13 @@ export const Tabs = ({ labels, children }) => {
   };
 
   return (
-    <div className={css.root}>
+    <div className={cn(css.root, { [css[variant]]: variant })}>
       <div className={css.tabs}>
         <ul>
           {labels.map((label, key) => (
             <li key={key}>
               <Button
-                className={classnames(css.tab, {
+                className={cn(css.tab, {
                   [css.active]: key === active
                 })}
                 onClick={() => onClick(key)}
@@ -37,11 +37,11 @@ export const Tabs = ({ labels, children }) => {
       </div>
       {children.map((child, key) => (
         <div
-          className={classnames(css.component, {
+          className={cn(css.component, {
             [css.activeComponent]: key === active
           })}
           key={key}>
-            {child}
+          {child}
         </div>
       ))}
     </div>

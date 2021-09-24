@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: var(--baseline-box-2x);
+  flex-wrap: wrap;
   border-left: var(--border);
   border-bottom: var(--border);
 
@@ -23,11 +23,13 @@
   display: flex;
   align-items: center;
   border-radius: 0px;
-  padding: var(--box-padding);
+  height: var(--baseline-box);
+  padding: 0 var(--box-padding);
   color: var(--gray-mid);
   text-transform: none;
   font-family: var(--maru-mono);
-  cursor: pointer
+  cursor: pointer;
+  border-right: var(--border);
 }
 
 .tab:hover,
@@ -37,7 +39,9 @@
 
 .share {
   cursor: pointer;
-  padding: var(--box-padding);
+  padding: 0 var(--box-padding);
+  height: var(--baseline-box);
+  line-height: var(--baseline);
 
   & svg {
     stroke: var(--gray-mid);
@@ -60,4 +64,58 @@
 
 .activeComponent {
   display: block;
+}
+
+/* Variant */
+
+.red {
+  & .tabs {
+    border-left: var(--border-red);
+    border-bottom: var(--border-red);
+  }
+
+  & .tab {
+    color: var(--red);
+    border-right: var(--border-red);
+  }
+
+  & .tab:hover,
+  & .active {
+    background-color: var(--red-light);
+  }
+
+  & .share {
+    & svg {
+      & path {
+        stroke: var(--red);
+      }
+      & path + path {
+        fill: var(--red);
+      }
+    }
+
+    & span {
+      color: var(--red);
+    }
+  }
+}
+
+@media (--small) {
+  .tabs,
+  .red .tabs {
+    border: none;
+  }
+
+  .tab {
+    height: var(--baseline);
+    border-bottom: var(--border);
+  }
+
+  .share {
+    height: var(--baseline);
+  }
+
+  .red .tab {
+    border-bottom: var(--border-red);
+  }
 }
