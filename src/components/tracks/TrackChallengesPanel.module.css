@@ -15,11 +15,11 @@
   line-height: var(--baseline-box);
   color: var(--cyan);
   text-transform: uppercase;
+  font-family: var(--maru-mono);
+  font-size: var(--font-medium);
   background-color: var(--cyan-light);
 
   & h4 {
-    font-family: var(--maru-mono);
-    color: var(--cyan);
     font-weight: 600;
   }
 
@@ -36,6 +36,7 @@
 }
 
 .challenge {
+  width: 40%;
   display: flex;
   flex: 1 0 40%;
   flex-direction: column;
@@ -48,6 +49,9 @@
     line-height: var(--baseline);
     padding: 0 var(--box-padding);
     color: var(--gray-mid);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   & p {

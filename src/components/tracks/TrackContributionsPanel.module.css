@@ -5,6 +5,7 @@
 
 .root {
   border-left: var(--border);
+  border-left-color: var(--gray-mid);
   border-bottom: var(--border);
   border-color: var(--purple);
   height: var(--baseline-7x);
@@ -19,11 +20,11 @@
   line-height: var(--baseline-box);
   text-transform: uppercase;
   font-family: var(--maru-mono);
+  font-size: var(--font-medium);
+  color: var(--purple);
   background-color: var(--purple-light);
 
   & h4 {
-    color: var(--purple);
-    font-size: var(--font-medium);
     font-weight: 600;
   }
 
@@ -31,7 +32,6 @@
     padding: 0 var(--box-padding);
     margin: 0;
     font-size: var(--font-medium);
-    color: var(--purple);
   }
 }
 
@@ -55,6 +55,9 @@
   & span {
     line-height: var(--baseline);
     padding: 0 var(--box-padding);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   & p {

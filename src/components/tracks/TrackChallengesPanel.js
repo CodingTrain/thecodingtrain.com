@@ -7,7 +7,8 @@ import PlayButton from '../../images/playbutton.svg';
 //dummy content
 const challenges = [
   {
-    title: "Estimating π from Random Numbers with Euclid's Algo...",
+    title:
+      "Estimating π from Random Numbers with Euclid's Algorithms and somethings",
     description:
       'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate ...',
     year: '2017'
