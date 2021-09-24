@@ -103,7 +103,7 @@
 @media (--small) {
   .tabs,
   .red .tabs {
-    border: none;
+    border-bottom: none;
   }
 
   .tab {

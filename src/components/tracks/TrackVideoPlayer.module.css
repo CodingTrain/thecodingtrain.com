@@ -168,16 +168,17 @@
 
 .description {
   display: flex;
+  flex-direction: column;
   height: var(--baseline-3x);
+  overflow-y: auto;
   border-left: var(--border-red);
   border-bottom: var(--border-red);
   font-size: var(--font-reduced);
   color: var(--gray-mid);
-  padding: 0 var(--box-padding);
   & p {
     width: 70%;
-    margin: 0;
-    margin-top: var(--baseline-1of2);
+    padding: 0 var(--box-padding);
+    margin: var(--baseline-1of2) 0;
     line-height: var(--baseline-1of2);
   }
 }
