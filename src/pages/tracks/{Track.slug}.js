@@ -4,10 +4,10 @@ import cn from 'classnames';
 
 import Layout from '../../components/Layout';
 import Breadcrumbs from '../../components/Breadcrumbs';
+import TrackVideoPlayer from '../../components/tracks/TrackVideoPlayer';
+import TrackHeader from '../../components/tracks/TrackHeader';
 import TrackChallengesPanel from '../../components/tracks/TrackChallengesPanel';
 import TrackContributionsPanel from '../../components/tracks/TrackContributionsPanel';
-import TrackHeader from '../../components/tracks/TrackHeader';
-import TrackVideoPlayer from '../../components/tracks/TrackVideoPlayer';
 
 import * as css from '../../styles/pages/tracks/track.module.css';
 import { pattern } from '../../styles/styles.module.css';
@@ -50,6 +50,7 @@ export const query = graphql`
         videos {
           title
           slug
+          description
           languages
           topics
         }

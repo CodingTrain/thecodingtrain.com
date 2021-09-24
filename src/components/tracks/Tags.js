@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
+
 import * as css from './Tags.module.css';
 
 const Tags = memo(({ className, heading, items, singleLine = true }) => {

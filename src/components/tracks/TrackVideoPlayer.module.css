@@ -22,12 +22,24 @@
   display: flex;
 }
 
+@media (--reduced) {
+  .videoPlayer {
+    flex-wrap: wrap;
+  }
+}
+
 /* Left video section */
 
 .left {
   flex-basis: 70%;
   display: flex;
   flex-direction: column;
+}
+
+@media (--reduced) {
+  .left {
+    flex-basis: 100%;
+  }
 }
 
 .details {
@@ -37,6 +49,12 @@
   font-size: 30px;
   padding: 0 var(--box-padding);
   color: var(--red);
+}
+
+@media (--reduced) {
+  .details {
+    display: none;
+  }
 }
 
 .tags {
@@ -52,7 +70,13 @@
 .video {
   border-left: var(--border);
   border-bottom: var(--border-red);
-  height: var(--baseline-12x);
+  height: var(--baseline-10x);
+}
+
+@media (--reduced) {
+  .video {
+    height: var(--baseline-8x);
+  }
 }
 
 /* Right video section */
@@ -61,6 +85,12 @@
   flex-basis: 30%;
   display: flex;
   flex-direction: column;
+}
+
+@media (--reduced) {
+  .right {
+    flex-basis: 100%;
+  }
 }
 
 .tabs {
@@ -77,13 +107,23 @@
     height: var(--baseline-box-2x);
     cursor: pointer;
     padding: 0 var(--spacing-normal);
-    /* line-height: var(--baseline-box); */
     font-family: var(--maru-mono);
     font-size: var(--font-reduced);
     color: var(--red);
     text-align: left;
-    /* white-space: nowrap; */
     text-transform: uppercase;
+  }
+
+  & button:hover {
+    background-color: var(--red-light);
+    font-weight: 900;
+  }
+}
+
+@media (--reduced) {
+  .tab button {
+    height: var(--baseline-box);
+    text-align: center;
   }
 }
 
@@ -95,7 +135,24 @@
 .timeline {
   border-left: var(--border-red);
   border-bottom: var(--border-red);
-  height: var(--baseline-12x);
+  height: var(--baseline-10x);
+  color: var(--red);
+  font-size: var(--font-small);
+  font-family: var(--maru-mono);
+}
+
+.chapterList {
+  padding: 0 var(--spacing-small);
+}
+
+.chapterTitle {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.videoItem {
+  list-style: none;
+  font-family: var(--maru-mono);
 }
 
 /* Bottom of video section */
@@ -107,7 +164,26 @@
 }
 
 .about {
+}
+
+.description {
+  display: flex;
+  height: var(--baseline-3x);
   border-left: var(--border-red);
   border-bottom: var(--border-red);
-  height: var(--baseline-4x);
+  font-size: var(--font-reduced);
+  color: var(--gray-mid);
+  padding: 0 var(--box-padding);
+  & p {
+    width: 70%;
+    margin: 0;
+    margin-top: var(--baseline-1of2);
+    line-height: var(--baseline-1of2);
+  }
+}
+
+@media (--reduced) {
+  .description p {
+    width: 100%;
+  }
 }

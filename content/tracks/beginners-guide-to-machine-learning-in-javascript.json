@@ -6,6 +6,14 @@
     {
       "title": "Introduction to P5.js",
       "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
+    },
+    {
+      "title": "Introduction to P5.js 2",
+      "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
+    },
+    {
+      "title": "Introduction to P5.js 3",
+      "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
     }
   ]
 }

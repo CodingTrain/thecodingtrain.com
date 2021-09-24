@@ -2,6 +2,7 @@ import React, { memo, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
+import Tabs from '../Tabs';
 import Tags from './Tags';
 
 import * as css from './TrackVideoPlayer.module.css';
@@ -38,24 +39,52 @@ const TrackVideoPlayer = ({ track, video }) => {
             </div>
           </div>
           <div className={css.timeline}>
-            {chapters.map((chapter) => (
-              <ul key={chapter.title}>
-                {chapter.videos.map((video) => (
-                  <li key={video.slug}>
-                    <Link to={`/tracks/${track.slug}/${video.slug}`}>
-                      {video.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            ))}
+            {showTimestamps ? (
+              <VideoTimestampsTimeline />
+            ) : (
+              <TrackOverViewTimeline
+                chapters={chapters}
+                track={track}
+                video={video}
+              />
+            )}
           </div>
         </div>
       </div>
       <div className={css.sep}></div>
-      <div className={css.about}></div>
+      <div className={css.about}>
+        <Tabs
+          variant="red"
+          labels={['OVERVIEW', 'CODE EXAMPLES', 'LINKS DISCUSSED']}>
+          <div className={css.description}>
+            <p>{video.description}</p>
+          </div>
+          <div></div>
+          <div></div>
+        </Tabs>
+      </div>
     </div>
   );
 };
+
+const TrackOverViewTimeline = ({ chapters, track, video }) => {
+  return (
+    <>
+      {chapters.map((chapter) => (
+        <ul className={css.chapterList} key={chapter.title}>
+          <h5 className={css.chapterTitle}>{chapter.title}</h5>
+          {chapter.videos.map((video) => (
+            <li key={video.slug} className={css.videoItem}>
+              <Link to={`/tracks/${track.slug}/${video.slug}`}>
+                {video.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      ))}
+    </>
+  );
+};
+const VideoTimestampsTimeline = () => null;
 
 export default memo(TrackVideoPlayer);
