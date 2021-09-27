@@ -132,14 +132,30 @@
   font-weight: 900;
 }
 
+/* Timeline section */
+
 .timeline {
-  border-left: var(--border-red);
-  border-bottom: var(--border-red);
-  height: var(--baseline-10x);
   color: var(--red);
   font-size: var(--font-small);
   font-family: var(--maru-mono);
+}
+
+.trackTimelineContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.trackTimeline {
+  /* flex-grow: 0; */
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+  height: var(--baseline-9x);
   overflow-y: auto;
+}
+
+.trackNavigation {
+  height: var(--baseline);
+  display: flex;
 }
 
 .chapterList {
@@ -155,6 +171,7 @@
   font-size: var(--font-small);
   padding-left: calc(var(--spacing-small) * 2 + var(--spacing-large));
   position: relative;
+  cursor: pointer;
 
   &::before {
     content: " ";
@@ -165,13 +182,26 @@
     top: calc(var(--baseline-1of4) - 1px);
   }
 
-  &.notCollapsed::after {
+  &.notCollapsed.hasSeen::after {
     content: " ";
     position: absolute;
-    height: var(--baseline-1of4);
+    height: calc(100% - var(--baseline-1of4));
     border: 1px solid var(--red);
     left: calc(var(--spacing-large) / 3);
     top: var(--baseline-1of4);
+  }
+}
+
+@media (--reduced) {
+  .chapterTitle {
+    font-size: var(--font-reduced);
+    line-height: var(--baseline-2of3);
+    &::before {
+      top: calc(var(--baseline-1of3) - 1px);
+    }
+    &.notCollapsed.hasSeen::after {
+      top: var(--baseline-1of3);
+    }
   }
 }
 
@@ -186,31 +216,50 @@
     content: " ";
     cursor: pointer;
     position: absolute;
-    width: var(--spacing-small);
-    height: var(--spacing-small);
+    width: var(--spacing-normal);
+    height: var(--spacing-normal);
     border-radius: 50%;
     border: 1px solid var(--gray-mid);
-    left: 0;
-    top: 0;
+    background-color: white;
+    left: calc(var(--spacing-large) / 3 - var(--spacing-normal) / 2 + 1px);
+    top: calc(50% - var(--spacing-normal) / 2);
+  }
+}
+
+@media (--reduced) {
+  .videoItem {
+    font-size: var(--font-normal);
+    line-height: var(--baseline-2of3);
+  }
+}
+
+.videoItem.seen,
+.videoItem:hover {
+  & a {
+    color: var(--red);
+    font-weight: bold;
+  }
+}
+
+.seen {
+  & a::before {
+    border: 1px solid var(--red);
+    background-color: var(--red);
   }
 
   & a::after {
     content: " ";
     position: absolute;
-    height: var(--baseline-1of2);
+    height: 100%;
     border: 1px solid var(--red);
     left: calc(var(--spacing-large) / 3);
     top: 0;
   }
 }
 
-.previous {
-  & a {
-    color: var(--red);
-    font-weight: bold;
-  }
-  & a::before {
-    border: 1px solid var(--red);
+.last {
+  & a::after {
+    height: 50%;
   }
 }
 

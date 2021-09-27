@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react';
+import React, { memo, useMemo, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -11,7 +11,6 @@ const TrackVideoPlayer = ({ track, video, trackPosition }) => {
   const { chapters } = track;
   const [showTimestamps, setShowTimestamps] = useState(false);
   const { topics, languages } = video;
-  console.log({ chapters, video, trackPosition });
   return (
     <div className={css.root}>
       <div className={css.subheading}>
@@ -68,23 +67,71 @@ const TrackVideoPlayer = ({ track, video, trackPosition }) => {
 };
 
 const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
+  const nextVideoPath = useMemo(() => {
+    if (
+      trackPosition.chapterIndex === chapters.length - 1 &&
+      trackPosition.videoIndex ===
+        chapters[chapters.length - 1].videos.length - 1
+    )
+      return '';
+    if (
+      trackPosition.videoIndex ===
+      chapters[trackPosition.chapterIndex].videos.length - 1
+    ) {
+      const video = chapters[trackPosition.chapterIndex + 1].videos[0];
+      return `/tracks/${track.slug}/${video.slug}`;
+    }
+    const video =
+      chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex + 1];
+    return `/tracks/${track.slug}/${video.slug}`;
+  }, []);
+  const previousVideoPath = useMemo(() => {
+    if (trackPosition.chapterIndex === 0 && trackPosition.videoIndex === 0)
+      return '';
+    if (trackPosition.videoIndex === 0) {
+      const video =
+        chapters[trackPosition.chapterIndex - 1].videos[
+          chapters[trackPosition.chapterIndex - 1].videos.length - 1
+        ];
+      return `/tracks/${track.slug}/${video.slug}`;
+    }
+    const video =
+      chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex - 1];
+    return `/tracks/${track.slug}/${video.slug}`;
+  }, []);
+
   return (
-    <>
-      {chapters.map((chapter, index) => (
-        <ChapterSection
-          key={chapter.title}
-          chapter={chapter}
-          chapterIndex={index}
-          track={track}
-          trackPosition={trackPosition}
-        />
-      ))}
-    </>
+    <div className={css.trackTimelineContainer}>
+      <div className={css.trackTimeline}>
+        {chapters.map((chapter, index) => (
+          <ChapterSection
+            key={chapter.title}
+            chapter={chapter}
+            chapterIndex={index}
+            track={track}
+            trackPosition={trackPosition}
+            startsCollapsed={trackPosition.chapterIndex < index}
+          />
+        ))}
+      </div>
+      <div className={css.trackNavigation}>
+        <Link
+          className={cn({ [css.disabled]: previousVideoPath !== '' })}
+          to={previousVideoPath}>
+          Previous
+        </Link>
+        <Link
+          className={cn({ [css.disabled]: nextVideoPath !== '' })}
+          to={nextVideoPath}>
+          Next
+        </Link>
+      </div>
+    </div>
   );
 };
 
 const ChapterSection = ({
-  startsCollapsed = false,
+  startsCollapsed = true,
   chapter,
   chapterIndex,
   track,
@@ -94,7 +141,11 @@ const ChapterSection = ({
   return (
     <ul className={css.chapterList} key={chapter.title}>
       <h5
-        className={cn(css.chapterTitle, { [css.notCollapsed]: !collapsed })}
+        className={cn(
+          css.chapterTitle,
+          { [css.notCollapsed]: !collapsed },
+          { [css.hasSeen]: chapterIndex <= trackPosition.chapterIndex }
+        )}
         onClick={() => setCollapsed((c) => !c)}>
         {chapter.title}
       </h5>
@@ -103,10 +154,15 @@ const ChapterSection = ({
           <li
             key={video.slug}
             className={cn(css.videoItem, {
-              [css.previous]:
+              [css.seen]:
                 chapterIndex < trackPosition.chapterIndex ||
                 (chapterIndex === trackPosition.chapterIndex &&
-                  index <= trackPosition.videoIndex)
+                  index <= trackPosition.videoIndex),
+              [css.last]:
+                (chapterIndex < trackPosition.chapterIndex &&
+                  index === track.chapters[chapterIndex].videos.length - 1) ||
+                (chapterIndex === trackPosition.chapterIndex &&
+                  index === trackPosition.videoIndex)
             })}>
             <Link to={`/tracks/${track.slug}/${video.slug}`}>
               {video.title}
