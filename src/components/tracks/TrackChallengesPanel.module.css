@@ -1,8 +1,105 @@
 .root {
   border-left: var(--border);
+  border-left-color: var(--gray-mid);
   border-bottom: var(--border);
-  padding: 0 var(--box-padding);
-  color: var(--cyan);
+  border-bottom-color: var(--cyan);
   height: var(--baseline-7x);
+  font-family: var(--maru-mono);
+}
+
+.titleBox {
+  display: flex;
+  border-bottom: var(--border);
+  border-color: var(--cyan);
+  padding: 0 var(--box-padding);
+  line-height: var(--baseline-box);
+  color: var(--cyan);
+  text-transform: uppercase;
+  font-family: var(--maru-mono);
+  font-size: var(--font-medium);
   background-color: var(--cyan-light);
+
+  & h4 {
+    font-weight: 600;
+  }
+
+  & p {
+    padding: 0 var(--box-padding);
+    margin: 0;
+  }
+}
+
+.challenges {
+  display: flex;
+  border-bottom: var(--border);
+  border-color: var(--cyan);
+}
+
+.challenge {
+  width: 40%;
+  display: flex;
+  flex: 1 0 40%;
+  flex-direction: column;
+  border-right: var(--border);
+  border-color: var(--cyan);
+  font-family: var(--maru-mono);
+  font-size: var(--font-medium);
+
+  & span {
+    line-height: var(--baseline);
+    padding: 0 var(--box-padding);
+    border-bottom: var(--border);
+    border-color: var(--cyan);
+    color: var(--gray-mid);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  & p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-right: var(--box-padding);
+    color: var(--gray-mid);
+  }
+}
+
+.challenge:last-child {
+  border-left: var(--border);
+  border-right: none;
+  border-color: var(--cyan);
+  margin-left: 50px;
+}
+
+.thumb {
+  display: flex;
+}
+
+.description {
+  height: var(--baseline-box-3x);
+  border-bottom: var(--border);
+  border-color: var(--cyan);
+  padding-left: var(--box-padding);
+}
+
+.year {
+  color: var(--cyan);
+  background-color: var(--cyan-light);
+
+  & span {
+    color: var(--cyan);
+    border-bottom: none;
+  }
+
+  & svg {
+    fill: var(--cyan);
+  }
+}
+
+.imagePlaceholder {
+  width: 300px;
+  height: 100%;
+  background-color: var(--gray-light);
 }
