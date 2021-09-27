@@ -116,12 +116,16 @@ const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
       </div>
       <div className={css.trackNavigation}>
         <Link
-          className={cn({ [css.disabled]: previousVideoPath !== '' })}
+          className={cn(css.navButton, {
+            [css.disabled]: previousVideoPath !== ''
+          })}
           to={previousVideoPath}>
           Previous
         </Link>
         <Link
-          className={cn({ [css.disabled]: nextVideoPath !== '' })}
+          className={cn(css.navButton, {
+            [css.disabled]: nextVideoPath !== ''
+          })}
           to={nextVideoPath}>
           Next
         </Link>

@@ -146,7 +146,6 @@
 }
 
 .trackTimeline {
-  /* flex-grow: 0; */
   border-left: var(--border-red);
   border-bottom: var(--border-red);
   height: var(--baseline-9x);
@@ -156,6 +155,23 @@
 .trackNavigation {
   height: var(--baseline);
   display: flex;
+}
+
+.navButton {
+  flex: 1;
+  color: var(--gray-dark);
+  line-height: calc(var(--baseline));
+  font-size: var(--font-medium);
+  white-space: nowrap;
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+  text-align: center;
+  color: var(--red);
+}
+
+.navButton:hover {
+  color: white;
+  background-color: var(--red);
 }
 
 .chapterList {
