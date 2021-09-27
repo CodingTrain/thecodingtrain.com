@@ -3,13 +3,10 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../../components/Layout';
-
 import Breadcrumbs from '../../components/Breadcrumbs';
 import TrackContributionsPanel from '../../components/tracks/TrackContributionsPanel';
-
 import TrackVideoPlayer from '../../components/tracks/TrackVideoPlayer';
 import TrackHeader from '../../components/tracks/TrackHeader';
-
 import TrackChallengesPanel from '../../components/tracks/TrackChallengesPanel';
 
 import * as css from '../../styles/pages/tracks/track.module.css';

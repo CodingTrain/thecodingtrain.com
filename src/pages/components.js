@@ -8,6 +8,7 @@ import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
+import TrackContributionsPanel from '../components/tracks/TrackContributionsPanel';
 import Tabs from '../components/Tabs';
 import TrackCard from '../components/tracks/TrackCard';
 import ButtonPanel from '../components/ButtonPanel';
@@ -140,6 +141,7 @@ const ComponentsPage = ({ data }) => {
       />
       <Spacer label="Pattern" />
       <div className={cn(pattern, css.pattern)} />
+      <TrackContributionsPanel />
     </Layout>
   );
 };
