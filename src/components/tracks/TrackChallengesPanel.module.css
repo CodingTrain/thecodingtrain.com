@@ -48,6 +48,8 @@
   & span {
     line-height: var(--baseline);
     padding: 0 var(--box-padding);
+    border-bottom: var(--border);
+    border-color: var(--cyan);
     color: var(--gray-mid);
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -78,7 +80,6 @@
 .description {
   height: var(--baseline-box-3x);
   border-bottom: var(--border);
-  border-top: var(--border);
   border-color: var(--cyan);
   padding-left: var(--box-padding);
 }
@@ -89,6 +90,7 @@
 
   & span {
     color: var(--cyan);
+    border-bottom: none;
   }
 
   & svg {

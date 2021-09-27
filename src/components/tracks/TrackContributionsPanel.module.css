@@ -42,6 +42,7 @@
 }
 
 .contrib {
+  width: 20%;
   display: flex;
   flex: 1 0 20%;
   flex-direction: column;
