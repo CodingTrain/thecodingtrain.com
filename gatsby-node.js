@@ -135,12 +135,12 @@ exports.createPages = async function ({ actions, graphql }) {
   `);
 
   data.tracks.nodes.forEach((track) => {
-    track.chapters.forEach((chapter) => {
-      chapter.videos.forEach((video) => {
+    track.chapters.forEach((chapter, chapterIndex) => {
+      chapter.videos.forEach((video, videoIndex) => {
         createPage({
           path: `tracks/${track.slug}/${video.slug}`,
           component: require.resolve(`./src/pages/tracks/{Track.slug}.js`),
-          context: { track, video }
+          context: { track, video, trackPosition: { chapterIndex, videoIndex } }
         });
       });
     });

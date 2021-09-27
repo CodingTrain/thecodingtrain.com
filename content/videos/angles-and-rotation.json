@@ -1,0 +1,7 @@
+{
+  "title": "3.1 Angles and Rotation ",
+  "description": "Welcome to Chapter 3 of The Nature of Code: Oscillating Motion! I begin in this video by explaining angles, the different units of measurements for angles: degrees and radians, and how to rotate shapes in p5.js.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "link": "https://youtu.be/DMg-WRfNB60"
+}

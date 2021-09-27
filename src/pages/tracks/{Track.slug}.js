@@ -16,6 +16,10 @@ const Track = (props) => {
   const { pageContext, data } = props;
   const track = pageContext.track ?? data.track;
   const video = pageContext.video ?? data.track.chapters[0].videos[0];
+  const trackPosition = pageContext.trackPosition ?? {
+    chapterIndex: 0,
+    videoIndex: 0
+  };
   return (
     <Layout>
       <Breadcrumbs
@@ -27,7 +31,11 @@ const Track = (props) => {
         variant="red"
       />
       {!pageContext.video && <TrackHeader track={track} />}
-      <TrackVideoPlayer track={track} video={video} />
+      <TrackVideoPlayer
+        track={track}
+        video={video}
+        trackPosition={trackPosition}
+      />
       <div className={cn(pattern, css.pattern)} />
       <TrackContributionsPanel video={video} />
       <div className={cn(pattern, css.pattern)} />

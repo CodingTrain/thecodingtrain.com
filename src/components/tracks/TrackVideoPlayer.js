@@ -7,11 +7,11 @@ import Tags from './Tags';
 
 import * as css from './TrackVideoPlayer.module.css';
 
-const TrackVideoPlayer = ({ track, video }) => {
+const TrackVideoPlayer = ({ track, video, trackPosition }) => {
   const { chapters } = track;
   const [showTimestamps, setShowTimestamps] = useState(false);
   const { topics, languages } = video;
-  console.log({ chapters, video });
+  console.log({ chapters, video, trackPosition });
   return (
     <div className={css.root}>
       <div className={css.subheading}>
@@ -45,7 +45,7 @@ const TrackVideoPlayer = ({ track, video }) => {
               <TrackOverViewTimeline
                 chapters={chapters}
                 track={track}
-                video={video}
+                trackPosition={trackPosition}
               />
             )}
           </div>
@@ -67,24 +67,56 @@ const TrackVideoPlayer = ({ track, video }) => {
   );
 };
 
-const TrackOverViewTimeline = ({ chapters, track, video }) => {
+const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
   return (
     <>
-      {chapters.map((chapter) => (
-        <ul className={css.chapterList} key={chapter.title}>
-          <h5 className={css.chapterTitle}>{chapter.title}</h5>
-          {chapter.videos.map((video) => (
-            <li key={video.slug} className={css.videoItem}>
-              <Link to={`/tracks/${track.slug}/${video.slug}`}>
-                {video.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
+      {chapters.map((chapter, index) => (
+        <ChapterSection
+          key={chapter.title}
+          chapter={chapter}
+          chapterIndex={index}
+          track={track}
+          trackPosition={trackPosition}
+        />
       ))}
     </>
   );
 };
+
+const ChapterSection = ({
+  startsCollapsed = false,
+  chapter,
+  chapterIndex,
+  track,
+  trackPosition
+}) => {
+  const [collapsed, setCollapsed] = useState(startsCollapsed);
+  return (
+    <ul className={css.chapterList} key={chapter.title}>
+      <h5
+        className={cn(css.chapterTitle, { [css.notCollapsed]: !collapsed })}
+        onClick={() => setCollapsed((c) => !c)}>
+        {chapter.title}
+      </h5>
+      {!collapsed &&
+        chapter.videos.map((video, index) => (
+          <li
+            key={video.slug}
+            className={cn(css.videoItem, {
+              [css.previous]:
+                chapterIndex < trackPosition.chapterIndex ||
+                (chapterIndex === trackPosition.chapterIndex &&
+                  index <= trackPosition.videoIndex)
+            })}>
+            <Link to={`/tracks/${track.slug}/${video.slug}`}>
+              {video.title}
+            </Link>
+          </li>
+        ))}
+    </ul>
+  );
+};
+
 const VideoTimestampsTimeline = () => null;
 
 export default memo(TrackVideoPlayer);
