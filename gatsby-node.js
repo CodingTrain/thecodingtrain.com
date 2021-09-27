@@ -26,6 +26,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
       title: String!
       topics: [String]
       languages: [String]
+      link: String!
     }
   `);
 };
@@ -124,6 +125,7 @@ exports.createPages = async function ({ actions, graphql }) {
             videos {
               title
               slug
+              link
               description
               languages
               topics
