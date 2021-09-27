@@ -159,7 +159,7 @@
 
 .navButton {
   flex: 1;
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   line-height: calc(var(--baseline));
   font-size: var(--font-medium);
   white-space: nowrap;
@@ -167,11 +167,20 @@
   border-bottom: var(--border-red);
   text-align: center;
   color: var(--red);
+  &:hover {
+    color: white;
+    background-color: var(--red);
+  }
 }
 
-.navButton:hover {
-  color: white;
-  background-color: var(--red);
+.disabled {
+  background-color: var(--gray-light);
+  color: var(--gray-mid);
+  cursor: initial;
+  &:hover {
+    background-color: var(--gray-light);
+    color: var(--gray-mid);
+  }
 }
 
 .chapterList {
@@ -183,6 +192,7 @@
 .chapterTitle {
   text-transform: uppercase;
   font-weight: 900;
+  color: var(--red);
   line-height: var(--baseline-1of2);
   font-size: var(--font-small);
   padding-left: calc(var(--spacing-small) * 2 + var(--spacing-large));

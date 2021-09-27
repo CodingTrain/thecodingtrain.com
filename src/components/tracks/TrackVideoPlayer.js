@@ -1,4 +1,4 @@
-import React, { memo, useMemo, useState } from 'react';
+import React, { memo, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -11,6 +11,7 @@ const TrackVideoPlayer = ({ track, video, trackPosition }) => {
   const { chapters } = track;
   const [showTimestamps, setShowTimestamps] = useState(false);
   const { topics, languages } = video;
+  console.log('link', video.link);
   return (
     <div className={css.root}>
       <div className={css.subheading}>
@@ -22,7 +23,9 @@ const TrackVideoPlayer = ({ track, video, trackPosition }) => {
             <Tags className={css.tags} heading="Languages" items={languages} />
             <Tags className={css.tags} heading="Topics" items={topics} />
           </div>
-          <div className={css.video}></div>
+          <div className={css.video}>
+            <Video />
+          </div>
         </div>
         <div className={css.right}>
           <div className={css.tabs}>
@@ -66,14 +69,20 @@ const TrackVideoPlayer = ({ track, video, trackPosition }) => {
   );
 };
 
+const Video = ({ link }) => {
+  // https://developers.google.com/youtube/iframe_api_reference#Loading_a_Video_Player
+  // https://developers.google.com/youtube/v3/guides/auth/client-side-web-apps#callinganapi
+  return null;
+};
+
 const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
-  const nextVideoPath = useMemo(() => {
+  const nextVideoPath = (() => {
     if (
       trackPosition.chapterIndex === chapters.length - 1 &&
       trackPosition.videoIndex ===
         chapters[chapters.length - 1].videos.length - 1
     )
-      return '';
+      return null;
     if (
       trackPosition.videoIndex ===
       chapters[trackPosition.chapterIndex].videos.length - 1
@@ -84,10 +93,10 @@ const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
     const video =
       chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex + 1];
     return `/tracks/${track.slug}/${video.slug}`;
-  }, []);
-  const previousVideoPath = useMemo(() => {
+  })();
+  const previousVideoPath = (() => {
     if (trackPosition.chapterIndex === 0 && trackPosition.videoIndex === 0)
-      return '';
+      return null;
     if (trackPosition.videoIndex === 0) {
       const video =
         chapters[trackPosition.chapterIndex - 1].videos[
@@ -98,7 +107,7 @@ const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
     const video =
       chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex - 1];
     return `/tracks/${track.slug}/${video.slug}`;
-  }, []);
+  })();
 
   return (
     <div className={css.trackTimelineContainer}>
@@ -115,20 +124,28 @@ const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
         ))}
       </div>
       <div className={css.trackNavigation}>
-        <Link
-          className={cn(css.navButton, {
-            [css.disabled]: previousVideoPath !== ''
-          })}
-          to={previousVideoPath}>
-          Previous
-        </Link>
-        <Link
-          className={cn(css.navButton, {
-            [css.disabled]: nextVideoPath !== ''
-          })}
-          to={nextVideoPath}>
-          Next
-        </Link>
+        {previousVideoPath === null ? (
+          <div className={cn(css.navButton, css.disabled)}>Previous</div>
+        ) : (
+          <Link
+            className={cn(css.navButton, {
+              [css.disabled]: previousVideoPath === null
+            })}
+            to={previousVideoPath}>
+            Previous
+          </Link>
+        )}
+        {nextVideoPath === null ? (
+          <div className={cn(css.navButton, css.disabled)}>Next</div>
+        ) : (
+          <Link
+            className={cn(css.navButton, {
+              [css.disabled]: nextVideoPath === null
+            })}
+            to={nextVideoPath}>
+            Next
+          </Link>
+        )}
       </div>
     </div>
   );
@@ -144,15 +161,15 @@ const ChapterSection = ({
   const [collapsed, setCollapsed] = useState(startsCollapsed);
   return (
     <ul className={css.chapterList} key={chapter.title}>
-      <h5
+      <button
         className={cn(
           css.chapterTitle,
           { [css.notCollapsed]: !collapsed },
           { [css.hasSeen]: chapterIndex <= trackPosition.chapterIndex }
         )}
         onClick={() => setCollapsed((c) => !c)}>
-        {chapter.title}
-      </h5>
+        <h5>{chapter.title}</h5>
+      </button>
       {!collapsed &&
         chapter.videos.map((video, index) => (
           <li
