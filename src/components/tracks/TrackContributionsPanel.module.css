@@ -1,102 +1,115 @@
-/*
-  Since text can flow on multiple lines, the line-height needs to be `--baseline`,
-  so we offset with a margin-top of -1px. See variables.css for explanation.
- */
-
 .root {
-  border-left: var(--border);
-  border-left-color: var(--gray-mid);
-  border-bottom: var(--border);
-  border-color: var(--purple);
-  height: var(--baseline-7x);
   font-family: var(--maru-mono);
 }
 
 .titleBox {
+  margin-top: -2px;
+  border-top: var(--border-purple);
   display: flex;
-  border-bottom: var(--border);
-  border-color: var(--purple);
-  padding: 0 var(--box-padding);
-  line-height: var(--baseline-box);
+  flex-wrap: wrap;
+  border-left: var(--border-purple);
+  border-bottom: var(--border-purple);
   text-transform: uppercase;
-  font-family: var(--maru-mono);
-  font-size: var(--font-medium);
   color: var(--purple);
   background-color: var(--purple-light);
+
+  & * {
+    padding: 0 var(--box-padding);
+    line-height: var(--baseline);
+    font-family: var(--maru-mono);
+    font-size: var(--font-medium);
+  }
 
   & h4 {
     font-weight: 600;
   }
 
   & p {
-    padding: 0 var(--box-padding);
     margin: 0;
-    font-size: var(--font-medium);
   }
 }
 
 .contributions {
   display: flex;
-  border-bottom: var(--border);
-  border-color: var(--purple);
+  flex-wrap: wrap;
 }
 
 .contrib {
-  width: 20%;
+  width: 23%;
   display: flex;
-  flex: 1 0 20%;
+  flex-basis: 23%;
   flex-direction: column;
-  border-right: var(--border);
-  border-left: var(--border);
-  border-color: var(--purple);
-  margin-left: var(--box-padding);
   font-family: var(--maru-mono);
   font-size: var(--font-medium);
+}
 
-  & span {
-    line-height: var(--baseline);
-    padding: 0 var(--box-padding);
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  & p {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding-right: var(--box-padding);
+@media (--reduced) {
+  .contrib {
+    width: 45%;
+    flex: 0 0 45%;
+    margin-left: 0;
   }
 }
 
-.contrib:first-child {
-  margin-left: 0;
-  border-left: none;
+.spacer {
+  flex-grow: 1;
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
 }
 
-.contrib:last-child {
-  border-right: none;
-}
-
-.contribsPanel {
-  border-left: none;
-
-  & p {
-    color: var(--purple);
+@media (--reduced) {
+  .spacer:nth-child(4n) {
+    flex: 0 0 0;
+    border: none;
   }
+}
+
+.contribsPanel p {
+  color: var(--purple);
 }
 
 .title {
   color: var(--gray-mid);
   text-transform: uppercase;
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  line-height: var(--baseline-box);
+  padding: 0 calc(var(--box-padding) / 2);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .author {
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  line-height: var(--baseline-box);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 calc(var(--box-padding) / 2);
+}
+
+.authorName {
   color: var(--purple);
 }
 
 .imagePlaceholder {
-  height: var(--baseline-box-3x);
+  height: var(--baseline-3x);
   background-color: var(--gray-light);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+@media (--medium) {
+  .imagePlaceholder {
+    height: var(--baseline-box-2x);
+  }
+}
+
+@media (--reduced) {
+  .imagePlaceholder {
+    height: var(--baseline-3x);
+  }
 }

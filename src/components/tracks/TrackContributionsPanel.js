@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { Fragment, memo } from 'react';
 
 import ButtonPanel from '../ButtonPanel';
 
@@ -35,14 +35,20 @@ const TrackContributionsPanel = ({ video }) => {
       </div>
       <div className={css.contributions}>
         {contributions.map((contrib, key) => (
-          <div className={css.contrib} key={key}>
-            <span className={css.title}>{contrib.title}</span>
-            <div className={css.imagePlaceholder}></div>
-            <p>
-              <span className={css.author}>{contrib.author}</span>
-              <PlayButton width={30} />
-            </p>
-          </div>
+          <Fragment key={key}>
+            <div className={css.contrib}>
+              <span className={css.title}>{contrib.title}</span>
+              {/* <h5 className={css.title}>{contrib.title}</h5> */}
+              <div className={css.imagePlaceholder}></div>
+              <p className={css.author}>
+                <span className={css.authorName}>{contrib.author}</span>
+                <PlayButton width={30} />
+              </p>
+            </div>
+            {key !== contributions.length - 1 && (
+              <div className={css.spacer}></div>
+            )}
+          </Fragment>
         ))}
       </div>
       <ButtonPanel

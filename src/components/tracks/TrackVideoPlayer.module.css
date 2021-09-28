@@ -218,6 +218,14 @@
   }
 }
 
+/* @media (--medium) {
+  .chapterTitle {
+    &::before {
+      width: var(--spacing-normal);
+    }
+  }
+} */
+
 @media (--reduced) {
   .chapterTitle {
     font-size: var(--font-reduced);

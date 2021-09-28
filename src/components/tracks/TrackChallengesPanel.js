@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { Fragment, memo } from 'react';
 
 import * as css from './TrackChallengesPanel.module.css';
 
@@ -10,13 +10,13 @@ const challenges = [
     title:
       "Estimating π from Random Numbers with Euclid's Algorithms and somethings",
     description:
-      'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate ...',
+      'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate',
     year: '2017'
   },
   {
     title: "Estimating π from Random Numbers with Euclid's Algo...",
     description:
-      'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate ...',
+      'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate',
     year: '2017'
   }
 ];
@@ -30,19 +30,30 @@ const TrackChallengesPanel = ({ video }) => {
       </div>
       <div className={css.challenges}>
         {challenges.map((challenge, key) => (
-          <div className={css.challenge} key={key}>
-            <span>{challenge.title}</span>
-            <div className={css.thumb}>
-              <div className={css.imagePlaceholder}></div>
-              <div>
-                <p className={css.description}>{challenge.description}</p>
-                <p className={css.year}>
-                  <span>{challenge.year}</span>
-                  <PlayButton width={30} />
-                </p>
+          <Fragment key={key}>
+            <div className={css.challenge}>
+              <div className={css.titleContainer}>
+                <div className={css.icon}>👁</div>
+                <span className={css.title}>{challenge.title}</span>
+                {/* <h5 className={css.title}>{challenge.title}</h5> */}
+              </div>
+              <div className={css.thumb}>
+                <div className={css.imagePlaceholder}></div>
+                <div>
+                  <div className={css.description}>
+                    <p>{challenge.description}</p>
+                  </div>
+                  <p className={css.year}>
+                    <span>{challenge.year}</span>
+                    <PlayButton width={30} />
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+            {key !== challenges.length - 1 && (
+              <div className={css.spacer}></div>
+            )}
+          </Fragment>
         ))}
       </div>
     </div>

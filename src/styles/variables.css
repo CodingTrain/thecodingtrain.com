@@ -79,6 +79,8 @@
 
   --border: 1px solid var(--gray-mid);
   --border-red: 1px solid var(--red);
+  --border-purple: 1px solid var(--purple);
+  --border-cyan: 1px solid var(--cyan);
   --box-padding: 25px;
 
   --container-max-width: 1600px;
