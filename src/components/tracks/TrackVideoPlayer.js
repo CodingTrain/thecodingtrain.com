@@ -59,7 +59,14 @@ const TrackVideoPlayer = ({ track, video, trackPosition }) => {
           variant="red"
           labels={['OVERVIEW', 'CODE EXAMPLES', 'LINKS DISCUSSED']}>
           <div className={css.description}>
-            <p>{video.description}</p>
+            <p>
+              {video.description}
+              {video.description}
+              {video.description}
+              {video.description}
+              {video.description}
+              {video.description}
+            </p>
           </div>
           <div></div>
           <div></div>

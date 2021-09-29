@@ -49,6 +49,9 @@
   font-size: 30px;
   padding: 0 var(--box-padding);
   color: var(--red);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (--reduced) {
@@ -59,12 +62,7 @@
 
 .tags {
   font-size: var(--font-normal);
-  margin-top: var(--baseline-2of3);
-  line-height: var(--baseline-1of3);
-}
-
-.tags + .tags {
-  margin-top: var(--baseline-1of4);
+  line-height: var(--baseline-1of2);
 }
 
 .video {
@@ -309,12 +307,13 @@
   overflow-y: auto;
   border-left: var(--border-red);
   border-bottom: var(--border-red);
-  font-size: var(--font-reduced);
+  font-size: var(--font-medium);
+  font-family: var(--maru-mono);
   color: var(--gray-mid);
   & p {
     width: 70%;
     padding: 0 var(--box-padding);
-    margin: var(--baseline-1of2) 0;
+    margin: var(--baseline-3of5) 0 var(--baseline-2of5) 0;
     line-height: var(--baseline-1of2);
   }
 }
