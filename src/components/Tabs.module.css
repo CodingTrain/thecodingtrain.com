@@ -34,7 +34,7 @@
 
 .tab:hover,
 .active {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .share {
@@ -54,7 +54,7 @@
 }
 
 .share:hover {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .component {

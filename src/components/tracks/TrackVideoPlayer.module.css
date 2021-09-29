@@ -110,13 +110,14 @@
     font-family: var(--maru-mono);
     font-size: var(--font-reduced);
     color: var(--red);
+    background-color: white;
     text-align: left;
     text-transform: uppercase;
   }
 
   & button:hover {
     background-color: var(--red-light);
-    font-weight: 900;
+    font-weight: 600;
   }
 }
 
@@ -129,7 +130,7 @@
 
 .selected button {
   background-color: var(--red-light);
-  font-weight: 900;
+  font-weight: 600;
 }
 
 /* Timeline section */

@@ -68,6 +68,10 @@
   color: var(--purple);
 }
 
+.contribsPanel button {
+  flex-basis: 50%;
+}
+
 .title {
   color: var(--gray-mid);
   text-transform: uppercase;

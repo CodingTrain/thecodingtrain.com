@@ -30,7 +30,7 @@ const TrackContributionsPanel = ({ video }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
-        <h4>Comunity contributions</h4>
+        <h4>Community contributions</h4>
         <p>What our community has done based on this video</p>
       </div>
       <div className={css.contributions}>

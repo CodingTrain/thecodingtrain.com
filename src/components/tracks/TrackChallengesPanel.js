@@ -9,8 +9,7 @@ const challenges = [
   {
     title:
       "Estimating π from Random Numbers with Euclid's Algorithms and somethings",
-    description:
-      'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate',
+    description: 'Happy Pi Day 2021! ',
     year: '2017'
   },
   {
@@ -38,8 +37,8 @@ const TrackChallengesPanel = ({ video }) => {
                 {/* <h5 className={css.title}>{challenge.title}</h5> */}
               </div>
               <div className={css.thumb}>
-                <div className={css.imagePlaceholder}></div>
-                <div>
+                <div className={css.left}></div>
+                <div className={css.right}>
                   <div className={css.description}>
                     <p>{challenge.description}</p>
                   </div>
