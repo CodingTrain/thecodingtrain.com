@@ -195,14 +195,15 @@
   color: var(--red);
   line-height: var(--baseline-1of2);
   font-size: var(--font-small);
-  padding-left: calc(var(--spacing-small) * 2 + var(--spacing-large));
+  padding-left: calc(var(--timeline-padding) + var(--timeline-heading-mark));
+  text-align: left;
   position: relative;
   cursor: pointer;
 
   &::before {
     content: " ";
     position: absolute;
-    width: var(--spacing-large);
+    width: var(--timeline-heading-mark);
     border: 1px solid var(--red);
     left: 0;
     top: calc(var(--baseline-1of4) - 1px);
@@ -213,18 +214,10 @@
     position: absolute;
     height: calc(100% - var(--baseline-1of4));
     border: 1px solid var(--red);
-    left: calc(var(--spacing-large) / 3);
+    left: var(--timeline-spacing);
     top: var(--baseline-1of4);
   }
 }
-
-/* @media (--medium) {
-  .chapterTitle {
-    &::before {
-      width: var(--spacing-normal);
-    }
-  }
-} */
 
 @media (--reduced) {
   .chapterTitle {
@@ -243,20 +236,20 @@
   list-style: none;
   line-height: var(--baseline-1of2);
   font-size: var(--font-xsmall);
-  padding-left: calc(var(--spacing-large) * 2 / 3);
+  padding-left: calc(var(--timeline-padding) + var(--timeline-spacing));
   position: relative;
 
   & a::before {
     content: " ";
     cursor: pointer;
     position: absolute;
-    width: var(--spacing-normal);
-    height: var(--spacing-normal);
+    width: var(--timeline-dot);
+    height: var(--timeline-dot);
     border-radius: 50%;
     border: 1px solid var(--gray-mid);
     background-color: white;
-    left: calc(var(--spacing-large) / 3 - var(--spacing-normal) / 2 + 1px);
-    top: calc(50% - var(--spacing-normal) / 2);
+    left: calc(var(--timeline-spacing) - var(--timeline-dot) / 2 + 1px);
+    top: calc(50% - var(--timeline-dot) / 2);
   }
 }
 
@@ -286,7 +279,7 @@
     position: absolute;
     height: 100%;
     border: 1px solid var(--red);
-    left: calc(var(--spacing-large) / 3);
+    left: var(--timeline-spacing);
     top: 0;
   }
 }

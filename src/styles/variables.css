@@ -85,6 +85,11 @@
 
   --container-max-width: 1600px;
   --container-spacing-horizontal: 50px;
+
+  --timeline-heading-mark: 60px;
+  --timeline-padding: 20px;
+  --timeline-spacing: 20px;
+  --timeline-dot: 15px;
 }
 
 @media (--medium) {
@@ -100,12 +105,22 @@
 
     --box-padding: 13px;
     --container-spacing-horizontal: 30px;
+
+    --timeline-heading-mark: 30px;
+    --timeline-padding: 15px;
+    --timeline-spacing: 10px;
+    --timeline-dot: 12px;
   }
 }
 
 @media (--reduced) {
   :root {
     --container-spacing-horizontal: 20px;
+
+    --timeline-heading-mark: 70px;
+    --timeline-padding: 25px;
+    --timeline-spacing: 40px;
+    --timeline-dot: 15px;
   }
 }
 
@@ -125,5 +140,10 @@
 
     --box-padding: 10px;
     --container-spacing-horizontal: 0px;
+
+    --timeline-heading-mark: 30px;
+    --timeline-padding: 15px;
+    --timeline-spacing: 10px;
+    --timeline-dot: 12px;
   }
 }
