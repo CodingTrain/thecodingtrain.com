@@ -59,12 +59,6 @@
   border-left: var(--border-cyan);
 }
 
-/* @media (--reduced) {
-  .spacer {
-    display: none;
-  }
-} */
-
 .icon {
   font-family: var(--maru-emoji);
   flex-basis: var(--baseline-box);
