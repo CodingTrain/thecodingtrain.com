@@ -34,7 +34,7 @@
   margin: 0;
 
   & p {
-    margin: var(--baseline-3of5) 0 var(--baseline-2of5) 0;
+    margin: var(--baseline-3of5) 0 calc(var(--baseline-2of5)-1px) 0;
     line-height: var(--baseline-1of2);
   }
 }
