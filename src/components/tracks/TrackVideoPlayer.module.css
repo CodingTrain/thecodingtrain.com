@@ -189,15 +189,18 @@
 
 .chapterTitle {
   text-transform: uppercase;
-  font-weight: 900;
   color: var(--red);
   height: var(--baseline);
   line-height: var(--baseline-1of3);
-  font-size: var(--font-normal);
   padding-left: calc(var(--timeline-padding) + var(--timeline-heading-mark));
   text-align: left;
   position: relative;
   cursor: pointer;
+
+  & h5 {
+    font-weight: 900;
+    font-size: var(--font-normal);
+  }
 
   &::before {
     content: " ";
@@ -215,6 +218,12 @@
     border: 1px solid var(--red);
     left: var(--timeline-spacing);
     top: var(--baseline-1of2);
+  }
+}
+
+@media (--reduced) {
+  .chapterTitle h5 {
+    font-size: var(--font-reduced);
   }
 }
 
@@ -240,6 +249,12 @@
     background-color: white;
     left: calc(var(--timeline-spacing) - var(--timeline-dot) / 2 + 1px);
     top: calc(50% - var(--timeline-dot) / 2);
+  }
+}
+
+@media (--reduced) {
+  .videoItem {
+    font-size: var(--font-medium);
   }
 }
 
