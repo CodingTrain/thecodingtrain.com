@@ -1,0 +1,62 @@
+.root {
+  margin: 0;
+  padding: 0;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+  color: var(--red);
+  background-color: var(--red-light);
+
+  & a {
+    text-decoration: underline;
+    text-transform: lowercase;
+    color: var(--red);
+    flex: 0 0 150px;
+    white-space: nowrap;
+  }
+
+  & span,
+  & a {
+    height: var(--baseline-box);
+    line-height: var(--baseline-box);
+    padding: 0 var(--spacing-normal);
+    font-size: var(--font-reduced);
+  }
+}
+
+.icon {
+  flex: 0 0 var(--baseline-1of2);
+  height: var(--baseline-1of2);
+  width: calc(var(--baseline-2of3) + 2 * var(--spacing-normal));
+
+  & svg {
+    height: var(--baseline-2of3);
+    width: var(--baseline-2of3);
+  }
+}
+
+.name {
+  flex: 0 0 380px;
+  max-width: 380px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media (--medium) {
+  .name {
+    flex-basis: calc(100% - (var(--baseline-2of3) + 2 * var(--spacing-normal)));
+    max-width: calc(100% - (var(--baseline-2of3) + 2 * var(--spacing-normal)));
+  }
+
+  span.name {
+    height: var(--baseline);
+    line-height: var(--baseline);
+  }
+}

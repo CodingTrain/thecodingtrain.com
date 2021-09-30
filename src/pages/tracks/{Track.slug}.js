@@ -5,7 +5,7 @@ import cn from 'classnames';
 import Layout from '../../components/Layout';
 import Breadcrumbs from '../../components/Breadcrumbs';
 import TrackContributionsPanel from '../../components/tracks/TrackContributionsPanel';
-import TrackVideoPlayer from '../../components/tracks/TrackVideoPlayer';
+import TrackVideoSection from '../../components/tracks/TrackVideoSection';
 import TrackHeader from '../../components/tracks/TrackHeader';
 import TrackChallengesPanel from '../../components/tracks/TrackChallengesPanel';
 
@@ -31,7 +31,7 @@ const Track = (props) => {
         variant="red"
       />
       {!pageContext.video && <TrackHeader track={track} />}
-      <TrackVideoPlayer
+      <TrackVideoSection
         track={track}
         video={video}
         trackPosition={trackPosition}

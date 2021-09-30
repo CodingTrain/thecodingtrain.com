@@ -206,7 +206,7 @@
     content: " ";
     position: absolute;
     width: var(--timeline-heading-mark);
-    border: 1px solid var(--red);
+    border: var(--border-red);
     left: 0;
     top: calc(var(--baseline-1of2) - 1px);
   }
@@ -215,7 +215,7 @@
     content: " ";
     position: absolute;
     height: calc(100% - var(--baseline-1of2));
-    border: 1px solid var(--red);
+    border: var(--border-red);
     left: var(--timeline-spacing);
     top: var(--baseline-1of2);
   }
@@ -268,7 +268,7 @@
 
 .seen {
   & a::before {
-    border: 1px solid var(--red);
+    border: var(--border-red);
     background-color: var(--red);
   }
 
@@ -276,7 +276,7 @@
     content: " ";
     position: absolute;
     height: 100%;
-    border: 1px solid var(--red);
+    border: var(--border-red);
     left: var(--timeline-spacing);
     top: 0;
   }
@@ -312,7 +312,7 @@
   & p {
     width: 70%;
     padding: 0 var(--box-padding);
-    margin: var(--baseline-3of5) 0 var(--baseline-2of5) 0;
+    margin: var(--baseline-3of5) 0 calc(var(--baseline-2of5) - 1px) 0;
     line-height: var(--baseline-1of2);
   }
 }

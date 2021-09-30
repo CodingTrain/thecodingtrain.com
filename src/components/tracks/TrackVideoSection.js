@@ -4,10 +4,11 @@ import cn from 'classnames';
 
 import Tabs from '../Tabs';
 import Tags from './Tags';
+import VideoCodeExamples from './VideoCodeExamples';
 
-import * as css from './TrackVideoPlayer.module.css';
+import * as css from './TrackVideoSection.module.css';
 
-const TrackVideoPlayer = ({ track, video, trackPosition }) => {
+const TrackVideoSection = ({ track, video, trackPosition }) => {
   const { chapters } = track;
   const [showTimestamps, setShowTimestamps] = useState(false);
   const { topics, languages } = video;
@@ -61,7 +62,9 @@ const TrackVideoPlayer = ({ track, video, trackPosition }) => {
           <div className={css.description}>
             <p>{video.description}</p>
           </div>
-          <div></div>
+          <div>
+            <VideoCodeExamples />
+          </div>
           <div></div>
         </Tabs>
       </div>
@@ -204,4 +207,4 @@ const ChapterSection = ({
 
 const VideoTimestampsTimeline = () => null;
 
-export default memo(TrackVideoPlayer);
+export default memo(TrackVideoSection);
