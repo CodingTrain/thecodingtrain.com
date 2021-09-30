@@ -106,9 +106,14 @@
     border-bottom: none;
   }
 
+  .tabs {
+    /* flex-wrap: wrap; */
+  }
+
   .tab {
     height: var(--baseline);
     border-bottom: var(--border);
+    /* flex-basis: 50%; */
   }
 
   .share {

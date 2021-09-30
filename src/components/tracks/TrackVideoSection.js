@@ -76,13 +76,14 @@ const Video = ({ link }) => {
   // https://developers.google.com/youtube/iframe_api_reference#Loading_a_Video_Player
   // https://developers.google.com/youtube/v3/guides/auth/client-side-web-apps#callinganapi
   return (
-    <iframe
-      id="player"
-      type="text/html"
-      width="640"
-      height="390"
-      src={link}
-      frameBorder="0"></iframe>
+    <div></div>
+    // <iframe
+    //   id="player"
+    //   type="text/html"
+    //   width="640"
+    //   height="390"
+    //   src={link}
+    //   frameBorder="0"></iframe>
   );
 };
 

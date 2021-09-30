@@ -17,20 +17,9 @@ const TrackHeader = ({ track }) => {
           <p>{track.description}</p>
         </div>
         <div className={css.tagsContainer}>
+          <Tags heading="Languages" items={languages} singleLine={false} />
+          <Tags heading="Topics" items={topics} singleLine={false} />
           <Tags
-            className={css.tags}
-            heading="Languages"
-            items={languages}
-            singleLine={false}
-          />
-          <Tags
-            className={css.tags}
-            heading="Topics"
-            items={topics}
-            singleLine={false}
-          />
-          <Tags
-            className={css.tags}
             heading={`${track.chapters.length} chapters`}
             items={[
               `${track.chapters.reduce(

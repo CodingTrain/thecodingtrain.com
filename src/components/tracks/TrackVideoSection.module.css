@@ -77,6 +77,12 @@
   }
 }
 
+@media (--xsmall) {
+  .video {
+    height: var(--baseline-5x);
+  }
+}
+
 /* Right video section */
 
 .right {
@@ -149,6 +155,12 @@
   border-bottom: var(--border-red);
   height: var(--baseline-9x);
   overflow-y: auto;
+}
+
+@media (--xsmall) {
+  .trackTimeline {
+    height: var(--baseline-6x);
+  }
 }
 
 .trackNavigation {
@@ -320,5 +332,11 @@
 @media (--reduced) {
   .description p {
     width: 100%;
+  }
+}
+
+@media (--xsmall) {
+  .description {
+    height: var(--baseline-4x);
   }
 }

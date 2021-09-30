@@ -70,6 +70,7 @@
   /* In order to keep the content below the menu */
   .outer {
     height: var(--baseline-2x);
+    /* width: 100%; */
   }
 
   .root {

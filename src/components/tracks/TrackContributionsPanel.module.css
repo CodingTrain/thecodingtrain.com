@@ -108,7 +108,7 @@
 
 @media (--medium) {
   .imagePlaceholder {
-    height: var(--baseline-box-2x);
+    height: var(--baseline-2x);
   }
 }
 

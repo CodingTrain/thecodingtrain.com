@@ -82,15 +82,9 @@ const VideoCodeExamples = memo(({ className }) => {
               <Icon />
             </span>
             <span className={css.name}>{example.name}</span>
-            <a className={css.webEditor} href={example.webEditorLink}>
-              Web Editor
-            </a>
-            <a className={css.viewCode} href={example.viewCodeLink}>
-              View Code
-            </a>
-            <a className={css.downloadCode} href={example.downloadCodeLink}>
-              Download Code
-            </a>
+            <a href={example.webEditorLink}>Web Editor</a>
+            <a href={example.viewCodeLink}>View Code</a>
+            <a href={example.downloadCodeLink}>Download Code</a>
           </li>
         );
       })}
