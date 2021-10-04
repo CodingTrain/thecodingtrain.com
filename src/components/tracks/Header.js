@@ -2,9 +2,9 @@ import React, { memo } from 'react';
 
 import Tags from './Tags';
 
-import * as css from './TrackHeader.module.css';
+import * as css from './Header.module.css';
 
-const TrackHeader = ({ track }) => {
+const Header = ({ track }) => {
   // TODO: Obtain languages and topics related to track
   const languages = ['JavaScript', 'Processing'];
   const topics = ['Machine Learning', 'Physics'];
@@ -37,4 +37,4 @@ const TrackHeader = ({ track }) => {
   );
 };
 
-export default memo(TrackHeader);
+export default memo(Header);

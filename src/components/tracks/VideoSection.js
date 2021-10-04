@@ -6,9 +6,9 @@ import Tabs from '../Tabs';
 import Tags from './Tags';
 import VideoCodeExamples from './VideoCodeExamples';
 
-import * as css from './TrackVideoSection.module.css';
+import * as css from './VideoSection.module.css';
 
-const TrackVideoSection = ({ track, video, trackPosition }) => {
+const VideoSection = ({ track, video, trackPosition }) => {
   const { chapters } = track;
   const [showTimestamps, setShowTimestamps] = useState(false);
   const { topics, languages } = video;
@@ -208,4 +208,4 @@ const ChapterSection = ({
 
 const VideoTimestampsTimeline = () => null;
 
-export default memo(TrackVideoSection);
+export default memo(VideoSection);

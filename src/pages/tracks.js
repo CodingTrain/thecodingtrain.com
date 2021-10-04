@@ -6,7 +6,7 @@ import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
-import TrackCard from '../components/tracks/TrackCard';
+import TrackCard from '../components/tracks/Card';
 import PagePanel from '../components/PagePanel';
 
 import { useImages } from '../hooks';

@@ -5,10 +5,10 @@ import Image from '../Image';
 import ButtonPanel from '../ButtonPanel';
 import Tags from './Tags';
 
-import * as css from './TrackCard.module.css';
+import * as css from './Card.module.css';
 import { pattern } from '../../styles/styles.module.css';
 
-const TrackCard = ({
+const Card = ({
   title,
   description,
   image,
@@ -56,4 +56,4 @@ const TrackCard = ({
   );
 };
 
-export default memo(TrackCard);
+export default memo(Card);

@@ -4,10 +4,10 @@ import cn from 'classnames';
 
 import Layout from '../../components/Layout';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import TrackContributionsPanel from '../../components/tracks/TrackContributionsPanel';
-import TrackVideoSection from '../../components/tracks/TrackVideoSection';
-import TrackHeader from '../../components/tracks/TrackHeader';
-import TrackChallengesPanel from '../../components/tracks/TrackChallengesPanel';
+import TrackContributionsPanel from '../../components/tracks/ContributionsPanel';
+import TrackVideoSection from '../../components/tracks/VideoSection';
+import TrackHeader from '../../components/tracks/Header';
+import TrackChallengesPanel from '../../components/tracks/ChallengesPanel';
 
 import * as css from '../../styles/pages/tracks/track.module.css';
 import { pattern } from '../../styles/styles.module.css';

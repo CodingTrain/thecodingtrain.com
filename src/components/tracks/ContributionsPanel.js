@@ -2,7 +2,7 @@ import React, { Fragment, memo } from 'react';
 
 import ButtonPanel from '../ButtonPanel';
 
-import * as css from './TrackContributionsPanel.module.css';
+import * as css from './ContributionsPanel.module.css';
 
 import PlayButton from '../../images/playbutton.svg';
 
@@ -26,7 +26,7 @@ const contributions = [
   }
 ];
 
-const TrackContributionsPanel = ({ video }) => {
+const ContributionsPanel = ({ video }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
@@ -62,4 +62,4 @@ const TrackContributionsPanel = ({ video }) => {
   );
 };
 
-export default memo(TrackContributionsPanel);
+export default memo(ContributionsPanel);

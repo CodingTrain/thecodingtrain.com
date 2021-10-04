@@ -8,9 +8,9 @@ import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
-import TrackContributionsPanel from '../components/tracks/TrackContributionsPanel';
+import TrackContributionsPanel from '../components/tracks/ContributionsPanel';
 import Tabs from '../components/Tabs';
-import TrackCard from '../components/tracks/TrackCard';
+import TrackCard from '../components/tracks/Card';
 import ButtonPanel from '../components/ButtonPanel';
 
 import * as css from '../styles/pages/components.module.css';
