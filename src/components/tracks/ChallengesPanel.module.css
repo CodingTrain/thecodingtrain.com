@@ -51,10 +51,23 @@
   }
 }
 
+@media (--xsmall) {
+  .challenge {
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
+
 .spacer {
   flex-grow: 1;
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
+}
+
+@media (--xsmall) {
+  .spacer {
+    height: var(--baseline);
+  }
 }
 
 .icon {

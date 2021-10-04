@@ -51,6 +51,13 @@
   }
 }
 
+@media (--xsmall) {
+  .contrib {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
 .spacer {
   flex-grow: 1;
   border-bottom: var(--border-purple);
@@ -64,12 +71,24 @@
   }
 }
 
+@media (--xsmall) {
+  .spacer,
+  .spacer:nth-child(4n) {
+    width: 100%;
+    flex: 0 0 100%;
+    height: var(--baseline);
+    border-bottom: var(--border-purple);
+    border-left: var(--border-purple);
+  }
+}
+
 .contribsPanel p {
   color: var(--purple);
 }
 
 .contribsPanel button {
   flex-basis: 50%;
+  cursor: pointer;
 }
 
 .title {
@@ -115,5 +134,11 @@
 @media (--reduced) {
   .imagePlaceholder {
     height: var(--baseline-3x);
+  }
+}
+
+@media (--xsmall) {
+  .imagePlaceholder {
+    height: var(--baseline-4x);
   }
 }

@@ -278,7 +278,6 @@
 .videoItem:hover {
   & a {
     color: var(--red);
-    font-weight: bold;
   }
 }
 
