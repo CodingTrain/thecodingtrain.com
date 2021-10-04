@@ -150,6 +150,10 @@
   flex-direction: column;
 }
 
+.trackTimelineContainer.hide {
+  display: none;
+}
+
 .trackTimeline {
   border-left: var(--border-red);
   border-bottom: var(--border-red);

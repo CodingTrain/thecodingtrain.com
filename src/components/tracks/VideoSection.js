@@ -42,15 +42,15 @@ const VideoSection = ({ track, video, trackPosition }) => {
             </div>
           </div>
           <div className={css.timeline}>
-            {showTimestamps ? (
-              <VideoTimestampsTimeline />
-            ) : (
-              <TrackOverViewTimeline
-                chapters={chapters}
-                track={track}
-                trackPosition={trackPosition}
-              />
-            )}
+            <VideoTimestampsTimeline
+              className={cn({ [css.hide]: !showTimestamps })}
+            />
+            <TrackOverViewTimeline
+              className={cn({ [css.hide]: showTimestamps })}
+              chapters={chapters}
+              track={track}
+              trackPosition={trackPosition}
+            />
           </div>
         </div>
       </div>
@@ -87,7 +87,12 @@ const Video = ({ link }) => {
   );
 };
 
-const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
+const TrackOverViewTimeline = ({
+  className,
+  chapters,
+  track,
+  trackPosition
+}) => {
   const nextVideoPath = (() => {
     if (
       trackPosition.chapterIndex === chapters.length - 1 &&
@@ -122,7 +127,7 @@ const TrackOverViewTimeline = ({ chapters, track, trackPosition }) => {
   })();
 
   return (
-    <div className={css.trackTimelineContainer}>
+    <div className={cn(css.trackTimelineContainer, className)}>
       <div className={css.trackTimeline}>
         {chapters.map((chapter, index) => (
           <ChapterSection
@@ -206,6 +211,8 @@ const ChapterSection = ({
   );
 };
 
-const VideoTimestampsTimeline = () => null;
+const VideoTimestampsTimeline = ({ className }) => (
+  <div className={cn(className)}> </div>
+);
 
 export default memo(VideoSection);
