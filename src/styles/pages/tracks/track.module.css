@@ -1,14 +1,7 @@
 .pattern {
   border-left: var(--border);
+  border-bottom: var(--border);
   height: var(--baseline);
-}
-
-.preContributions {
-  border-bottom: var(--border-purple);
-}
-
-.preChallenges {
-  border-bottom: var(--border-cyan);
 }
 
 @media (--small) {

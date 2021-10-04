@@ -3,6 +3,8 @@
 }
 
 .titleBox {
+  margin-top: -2px;
+  border-top: var(--border-cyan);
   display: flex;
   flex-wrap: wrap;
   border-left: var(--border-cyan);
@@ -13,7 +15,7 @@
 
   & * {
     padding: 0 var(--box-padding);
-    line-height: var(--baseline-box);
+    line-height: var(--baseline);
     font-family: var(--maru-mono);
     font-size: var(--font-medium);
   }
