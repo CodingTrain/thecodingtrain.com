@@ -41,6 +41,8 @@
   --baseline-box-4x: calc(var(--baseline) * 4 - 1px);
   --baseline-box-5x: calc(var(--baseline) * 5 - 1px);
   --baseline-box-6x: calc(var(--baseline) * 6 - 1px);
+  --baseline-box-8x: calc(var(--baseline) * 8 - 1px);
+  --baseline-box-10x: calc(var(--baseline) * 10 - 1px);
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;

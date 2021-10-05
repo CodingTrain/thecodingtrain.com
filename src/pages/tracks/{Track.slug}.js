@@ -36,9 +36,9 @@ const Track = (props) => {
         video={video}
         trackPosition={trackPosition}
       />
-      <div className={cn(pattern, css.pattern, css.preContributions)} />
+      <div className={cn(pattern, css.pattern)} />
       <TrackContributionsPanel video={video} />
-      <div className={cn(pattern, css.pattern, css.preChallenges)} />
+      <div className={cn(pattern, css.pattern)} />
       <TrackChallengesPanel video={video} />
       <div className={cn(pattern, css.pattern)} />
     </Layout>

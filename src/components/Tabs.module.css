@@ -113,6 +113,9 @@
   .tab {
     height: var(--baseline);
     border-bottom: var(--border);
+    padding: 0 calc(var(--box-padding) / 2);
+    font-size: 10px;
+    flex-grow: 1;
     /* flex-basis: 50%; */
   }
 

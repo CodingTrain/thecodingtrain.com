@@ -68,19 +68,30 @@
 .video {
   border-left: var(--border);
   border-bottom: var(--border-red);
-  height: var(--baseline-10x);
+}
+
+.videoWrapper {
+  padding-bottom: var(--baseline-box-10x);
 }
 
 @media (--reduced) {
-  .video {
-    height: var(--baseline-8x);
+  .videoWrapper {
+    padding-bottom: var(--baseline-box-8x);
   }
 }
 
 @media (--xsmall) {
-  .video {
-    height: var(--baseline-5x);
+  .videoWrapper {
+    padding-bottom: var(--baseline-box-5x);
   }
+}
+
+.youtube {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Right video section */
@@ -150,8 +161,24 @@
   flex-direction: column;
 }
 
-.trackTimelineContainer.hide {
+.trackTimelineContainer.hide,
+.timestampsTimeline.hide {
   display: none;
+}
+
+.timestampsTimeline {
+  display: flex;
+  flex-direction: column;
+  border-left: var(--border-red);
+  border-bottom: var(--border-red);
+  height: var(--baseline-10x);
+  overflow-y: auto;
+
+  & button {
+    height: var(--baseline);
+    text-align: left;
+    cursor: pointer;
+  }
 }
 
 .trackTimeline {

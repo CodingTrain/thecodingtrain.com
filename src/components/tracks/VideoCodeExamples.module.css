@@ -7,7 +7,9 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: -2px;
   border-left: var(--border-red);
+  border-top: var(--border-red);
   border-bottom: var(--border-red);
   color: var(--red);
   background-color: var(--red-light);
@@ -22,8 +24,8 @@
 
   & span,
   & a {
-    height: var(--baseline-box);
-    line-height: var(--baseline-box);
+    height: var(--baseline);
+    line-height: var(--baseline);
     padding: 0 var(--spacing-normal);
     font-size: var(--font-reduced);
   }
@@ -53,10 +55,5 @@
   .name {
     flex-basis: calc(100% - (var(--baseline-2of3) + 2 * var(--spacing-normal)));
     max-width: calc(100% - (var(--baseline-2of3) + 2 * var(--spacing-normal)));
-  }
-
-  span.name {
-    height: var(--baseline);
-    line-height: var(--baseline);
   }
 }
