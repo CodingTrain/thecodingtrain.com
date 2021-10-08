@@ -6,37 +6,29 @@
   so we offset with a margin-top of -1px. See variables.css for explanation.
  */
 .title {
-  padding: 0 var(--box-padding);
-  color: var(--red);
   margin-top: -1px;
-  text-transform: uppercase;
-  line-height: var(--baseline-2x);
-  font-size: var(--font-xlarge);
   border-left: var(--border);
   border-bottom: var(--border);
+  padding: 0 var(--box-padding);
+  font-size: var(--font-xlarge);
+  line-height: var(--baseline-2x);
+  text-transform: uppercase;
+  color: var(--red);
 }
 
 .info {
   display: flex;
-  color: var(--gray-mid);
   border-left: var(--border);
   border-bottom: var(--border-red);
   font-family: var(--maru-mono);
-}
-
-.showButton {
-  color: var(--red);
-  cursor: pointer;
+  color: var(--gray-mid);
 }
 
 .description {
-  height: var(--baseline-box-5x);
   flex-basis: 70%;
+  height: var(--baseline-box-5x);
   padding: 0 7% 0 var(--box-padding);
-  overflow-x: hidden;
-  overflow-y: auto;
   font-size: var(--font-medium);
-  margin: 0;
 
   & p {
     margin: var(--baseline-3of5) 0 calc(var(--baseline-2of5)-1px) 0;
@@ -49,12 +41,11 @@
 }
 
 .tagsContainer {
-  height: var(--baseline-box-4x);
+  flex-basis: 30%;
   margin-top: var(--baseline-3of5);
   margin-bottom: var(--baseline-2of5);
-  flex-basis: 30%;
+  height: var(--baseline-box-4x);
   padding: 0 var(--box-padding);
-
   font-size: var(--font-medium);
   line-height: var(--baseline-1of2);
 }

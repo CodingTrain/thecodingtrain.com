@@ -8,72 +8,15 @@ import P5Icon from '../images/p5js-icon.svg';
 import ProcessingLogo from '../images/processing-icon.svg';
 
 const icons = {
-  p5js: P5Icon,
-  node: NodeIcon,
-  processing: ProcessingLogo
+  p5js: () => <P5Icon className={css.p5} />,
+  node: () => <NodeIcon className={css.node} />,
+  processing: () => <ProcessingLogo className={css.processing} />
 };
 
-const codeExamples = [
-  {
-    icon: 'p5js',
-    name: 'Walker',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'node',
-    name: 'Gravitational Attraction Attraction Attraction Attraction',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'p5js',
-    name: 'Rectangle Acceleration',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'node',
-    name: 'Rectangle Grab Exercise',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'processing',
-    name: 'Rectangle Grab Exercise',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: '',
-    name: 'Rectangle Grab Exercise',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  }
-];
-
-const CodeExampleList = memo(({ className, variant }) => {
+const CodeExampleList = memo(({ className, variant, examples }) => {
   return (
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
-      {codeExamples.map((example, key) => {
+      {examples.map((example, key) => {
         const Icon =
           example.icon in icons ? icons[example.icon] : () => <svg></svg>;
         return (

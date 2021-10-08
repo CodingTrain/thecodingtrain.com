@@ -64,6 +64,16 @@
       color: var(--red);
     }
   }
+  & .p5 path {
+    fill: var(--red);
+  }
+
+  & .node {
+  }
+
+  & .processing path {
+    stroke: var(--red);
+  }
 }
 
 .cyan {
@@ -76,6 +86,17 @@
     & a {
       color: var(--cyan);
     }
+  }
+
+  & .p5 path {
+    fill: var(--cyan);
+  }
+
+  & .node {
+  }
+
+  & .processing path {
+    stroke: var(--cyan);
   }
 }
 

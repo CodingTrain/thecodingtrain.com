@@ -1,0 +1,19 @@
+.root {
+  overflow-y: auto;
+  margin: 0;
+}
+
+.showButton {
+  cursor: pointer;
+  color: var(--mid-gray);
+}
+
+/* Variant */
+
+.red .showButton {
+  color: var(--red);
+}
+
+.cyan .showButton {
+  color: var(--cyan);
+}
