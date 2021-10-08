@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react';
+import React, { memo, useCallback, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -19,8 +19,14 @@ const VideoSection = ({ track, video, trackPosition }) => {
     { time: 40, label: 'Hey 4!' }
   ];
 
+  const [showTimeline, setShowTimeline] = useState(false);
   const [showTimestamps, setShowTimestamps] = useState(false);
   const [timestamp, setTimestamp] = useState();
+
+  const updateTimestamp = useCallback((value) => {
+    setTimestamp(value);
+    setShowTimeline(false);
+  }, []);
 
   return (
     <div className={css.root}>
@@ -41,37 +47,48 @@ const VideoSection = ({ track, video, trackPosition }) => {
             />
           </div>
         </div>
-        <div className={css.right}>
-          <div className={css.tabs}>
-            <div className={cn(css.tab, { [css.selected]: !showTimestamps })}>
-              <button onClick={() => setShowTimestamps(false)}>
-                Track overview
-              </button>
+        <div className={cn(css.right, { [css.unCollapsed]: showTimeline })}>
+          <div
+            className={css.timelinesToggle}
+            onClick={() => setShowTimeline((v) => !v)}
+            onKeyPress={(e) => e.key === 'Enter' && setShowTimeline((v) => !v)}
+            role="button"
+            tabIndex="0"
+            aria-label="Toggle timeline"
+          />
+          <div className={css.timelinesContent}>
+            <div className={css.tabs}>
+              <div className={cn(css.tab, { [css.selected]: !showTimestamps })}>
+                <button onClick={() => setShowTimestamps(false)}>
+                  Track overview
+                </button>
+              </div>
+              <div className={cn(css.tab, { [css.selected]: showTimestamps })}>
+                <button onClick={() => setShowTimestamps(true)}>
+                  Video timestamps
+                </button>
+              </div>
             </div>
-            <div className={cn(css.tab, { [css.selected]: showTimestamps })}>
-              <button onClick={() => setShowTimestamps(true)}>
-                Video timestamps
-              </button>
+            <div className={css.timeline}>
+              <VideoTimestampsTimeline
+                className={cn({ [css.hide]: !showTimestamps })}
+                timestamps={timestamps}
+                updateTimestamp={updateTimestamp}
+              />
+              <TrackOverViewTimeline
+                className={cn({ [css.hide]: showTimestamps })}
+                chapters={chapters}
+                track={track}
+                trackPosition={trackPosition}
+              />
             </div>
-          </div>
-          <div className={css.timeline}>
-            <VideoTimestampsTimeline
-              className={cn({ [css.hide]: !showTimestamps })}
-              timestamps={timestamps}
-              updateTimestamp={setTimestamp}
-            />
-            <TrackOverViewTimeline
-              className={cn({ [css.hide]: showTimestamps })}
-              chapters={chapters}
-              track={track}
-              trackPosition={trackPosition}
-            />
           </div>
         </div>
       </div>
       <div className={css.sep}></div>
       <div className={css.about}>
         <Tabs
+          className={css.aboutTabs}
           variant="red"
           labels={['OVERVIEW', 'CODE EXAMPLES', 'LINKS DISCUSSED']}>
           <div className={css.description}>

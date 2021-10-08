@@ -6,7 +6,7 @@ import * as css from './Tabs.module.css';
 
 import ShareIcon from '../images/share.svg';
 
-export const Tabs = ({ variant, labels, children, shareLink }) => {
+export const Tabs = ({ className, variant, labels, children, shareLink }) => {
   const [active, setActive] = useState(0);
 
   const onClick = (value) => {
@@ -14,7 +14,7 @@ export const Tabs = ({ variant, labels, children, shareLink }) => {
   };
 
   return (
-    <div className={cn(css.root, { [css[variant]]: variant })}>
+    <div className={cn(css.root, className, { [css[variant]]: variant })}>
       <div className={css.tabs}>
         <ul>
           {labels.map((label, key) => (
@@ -30,10 +30,10 @@ export const Tabs = ({ variant, labels, children, shareLink }) => {
             </li>
           ))}
         </ul>
-        <div className={css.share}>
+        <Button className={css.share}>
           <ShareIcon />
           <span>Share</span>
-        </div>
+        </Button>
       </div>
       {children.map((child, key) => (
         <div

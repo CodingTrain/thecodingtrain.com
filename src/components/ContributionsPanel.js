@@ -1,10 +1,10 @@
 import React, { Fragment, memo } from 'react';
 
-import ButtonPanel from '../ButtonPanel';
+import ButtonPanel from './ButtonPanel';
 
 import * as css from './ContributionsPanel.module.css';
 
-import PlayButton from '../../images/playbutton.svg';
+import PlayButton from '../images/playbutton.svg';
 
 //dummy content
 const contributions = [

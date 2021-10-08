@@ -70,13 +70,13 @@
   /* In order to keep the content below the menu */
   .outer {
     height: var(--baseline-2x);
-    /* width: 100%; */
   }
 
   .root {
     position: fixed;
     z-index: 100;
     border-right: var(--border);
+    width: 100%;
   }
 }
 

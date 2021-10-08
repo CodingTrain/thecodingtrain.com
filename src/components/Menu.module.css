@@ -12,6 +12,7 @@
   line-height: var(--baseline-box);
   border-left: var(--border);
   border-bottom: var(--border);
+  background-color: var(--gray-light);
 }
 
 .menu {

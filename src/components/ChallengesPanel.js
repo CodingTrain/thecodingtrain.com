@@ -2,7 +2,7 @@ import React, { Fragment, memo } from 'react';
 
 import * as css from './ChallengesPanel.module.css';
 
-import PlayButton from '../../images/playbutton.svg';
+import PlayButton from '../images/playbutton.svg';
 
 //dummy content
 const challenges = [
