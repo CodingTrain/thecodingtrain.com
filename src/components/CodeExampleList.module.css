@@ -8,25 +8,25 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: -2px;
-  border-left: var(--border-red);
-  border-top: var(--border-red);
-  border-bottom: var(--border-red);
-  color: var(--red);
-  background-color: var(--red-light);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  border-left: var(--border);
+  background-color: white;
+  color: var(--gray-mid);
 
   & a {
+    flex: 0 0 150px;
     text-decoration: underline;
     text-transform: lowercase;
-    color: var(--red);
-    flex: 0 0 150px;
     white-space: nowrap;
+    color: var(--gray-mid);
   }
 
   & span,
   & a {
     height: var(--baseline);
-    line-height: var(--baseline);
     padding: 0 var(--spacing-normal);
+    line-height: var(--baseline);
     font-size: var(--font-reduced);
   }
 }
@@ -44,11 +44,39 @@
 
 .name {
   flex: 0 0 380px;
+  overflow: hidden;
   max-width: 380px;
   font-weight: bold;
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden;
+}
+
+/* Variants */
+
+.red {
+  & .example {
+    border-top: var(--border-red);
+    border-bottom: var(--border-red);
+    border-left: var(--border-red);
+    background-color: var(--red-light);
+    color: var(--red);
+    & a {
+      color: var(--red);
+    }
+  }
+}
+
+.cyan {
+  & .example {
+    border-top: var(--border-cyan);
+    border-bottom: var(--border-cyan);
+    border-left: var(--border-cyan);
+    background-color: var(--cyan-light);
+    color: var(--cyan);
+    & a {
+      color: var(--cyan);
+    }
+  }
 }
 
 @media (--medium) {

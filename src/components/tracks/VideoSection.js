@@ -4,7 +4,7 @@ import cn from 'classnames';
 
 import Tabs from '../Tabs';
 import Tags from './Tags';
-import VideoCodeExamples from './VideoCodeExamples';
+import CodeExampleList from '../CodeExampleList';
 import YouTubeVideo from '../YouTubeVideo';
 
 import * as css from './VideoSection.module.css';
@@ -95,7 +95,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
             <p>{video.description}</p>
           </div>
           <div>
-            <VideoCodeExamples />
+            <CodeExampleList variant="red" />
           </div>
           <div></div>
         </Tabs>

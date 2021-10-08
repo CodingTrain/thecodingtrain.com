@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
-import * as css from './VideoCodeExamples.module.css';
+import * as css from './CodeExampleList.module.css';
 
-import NodeIcon from '../../images/node-icon.svg';
-import P5Icon from '../../images/p5js-icon.svg';
-import ProcessingLogo from '../../images/processing-icon.svg';
+import NodeIcon from '../images/node-icon.svg';
+import P5Icon from '../images/p5js-icon.svg';
+import ProcessingLogo from '../images/processing-icon.svg';
 
 const icons = {
   p5js: P5Icon,
@@ -70,9 +70,9 @@ const codeExamples = [
   }
 ];
 
-const VideoCodeExamples = memo(({ className }) => {
+const CodeExampleList = memo(({ className, variant }) => {
   return (
-    <ul className={cn(css.root, className)}>
+    <ul className={cn(css.root, className, { [css[variant]]: variant })}>
       {codeExamples.map((example, key) => {
         const Icon =
           example.icon in icons ? icons[example.icon] : () => <svg></svg>;
@@ -92,4 +92,4 @@ const VideoCodeExamples = memo(({ className }) => {
   );
 });
 
-export default VideoCodeExamples;
+export default CodeExampleList;
