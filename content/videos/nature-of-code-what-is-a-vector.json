@@ -3,5 +3,11 @@
   "description": "Welcome to Nature of Code Chapter 1: Vectors! What is a vector? How do they work in p5.js? These questions will all be answered in this first section of this series on p5.Vector.",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
-  "link": "https://youtu.be/bKEaK7WNLzM"
+  "link": "https://youtu.be/bKEaK7WNLzM",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
 }

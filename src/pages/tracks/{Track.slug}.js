@@ -62,6 +62,26 @@ export const query = graphql`
           description
           languages
           topics
+          timestamps {
+            title
+            time
+            seconds
+          }
+          codeExamples {
+            title
+            type
+            codeURL
+            githubURL
+            editorURL
+          }
+          groupLinks {
+            title
+            links {
+              title
+              url
+              author
+            }
+          }
         }
       }
     }

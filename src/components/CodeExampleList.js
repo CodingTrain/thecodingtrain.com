@@ -18,16 +18,16 @@ const CodeExampleList = memo(({ className, variant, examples }) => {
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
       {examples.map((example, key) => {
         const Icon =
-          example.icon in icons ? icons[example.icon] : () => <svg></svg>;
+          example.type in icons ? icons[example.type] : () => <svg></svg>;
         return (
           <li className={css.example} key={key}>
             <span className={css.icon}>
               <Icon />
             </span>
-            <span className={css.name}>{example.name}</span>
-            <a href={example.webEditorLink}>Web Editor</a>
-            <a href={example.viewCodeLink}>View Code</a>
-            <a href={example.downloadCodeLink}>Download Code</a>
+            <span className={css.name}>{example.title}</span>
+            <a href={example.editorURL}>Web Editor</a>
+            <a href={example.githubURL}>View Code</a>
+            <a href={example.codeURL}>Download Code</a>
           </li>
         );
       })}

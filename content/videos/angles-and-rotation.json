@@ -5,9 +5,92 @@
   "topics": ["For beginners"],
   "link": "https://youtu.be/DMg-WRfNB60",
   "timestamps": [
-    { "time": "0:00", "label": "Happy Pi Day!" },
-    { "time": "1:26", "label": "Explain! What does co-prime mean?" },
-    { "time": "4:21", "label": "Explain! Euclid's Algorithm" },
-    { "time": "8:40", "label": "Example! Finding the greatest common divisor." }
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "codeExamples": [
+    {
+      "title": "Walker",
+      "type": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
+    },
+    {
+      "title": "Gravitational Attraction Attraction Attraction Attraction",
+      "type": "node",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
+    },
+    {
+      "title": "Rectangle Acceleration",
+      "type": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
+    },
+    {
+      "title": "Rectangle Grab Exercise",
+      "type": "node",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
+    },
+    {
+      "title": "Rectangle Grab Exercise",
+      "type": "processing",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
+    },
+    {
+      "title": "Rectangle Grab Exercise",
+      "type": "",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
+      "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Links discussed",
+      "links": [
+        {
+          "title": "#SupportP5 2020",
+          "url": "https://donorbox.org/supportp52020"
+        },
+        {
+          "title": "bezier() - p5.js Reference",
+          "url": "https://p5js.org/reference/#/p5/bezier",
+          "author": "p5js"
+        },
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "author": "The Coding Train",
+          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+        }
+      ]
+    },
+    {
+      "title": "Links discussed 2",
+      "links": [
+        {
+          "title": "#SupportP5 2020",
+          "url": "https://donorbox.org/supportp52020"
+        },
+        {
+          "title": "bezier() - p5.js Reference",
+          "url": "https://p5js.org/reference/#/p5/bezier",
+          "author": "p5js"
+        },
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "author": "The Coding Train",
+          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+        }
+      ]
+    }
   ]
 }

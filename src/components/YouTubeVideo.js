@@ -13,14 +13,11 @@ const YouTubeVideo = ({ containerClassName, className, link, timestamp }) => {
 
   useEffect(() => {
     const jumpToTimestamp = async () => {
-      if (timestamp === undefined || !timestamp.time) return;
-      const { time } = timestamp;
+      if (timestamp === undefined || timestamp.seconds === undefined) return;
+      const { seconds } = timestamp;
       const player = youTubeVideo.current.getInternalPlayer();
-      const state = await player.getPlayerState();
-      if (!(time === 0 && (state === -1 || state === 5))) {
-        player.seekTo(time);
-        player.playVideo();
-      }
+      player.seekTo(seconds);
+      player.playVideo();
     };
     jumpToTimestamp();
   }, [timestamp]);

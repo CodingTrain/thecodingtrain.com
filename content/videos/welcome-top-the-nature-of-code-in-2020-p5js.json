@@ -3,5 +3,11 @@
   "description": "Welcome to the Nature of Code 2.0 ! In this video, I go over the playlist and introduce the content to come. ",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
-  "link": "https://youtu.be/70MQ-FugwbI"
+  "link": "https://youtu.be/70MQ-FugwbI",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
 }

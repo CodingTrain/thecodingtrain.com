@@ -11,73 +11,6 @@ import OverviewTimeline from './OverviewTimeline';
 
 import * as css from './VideoSection.module.css';
 
-const codeExamples = [
-  {
-    icon: 'p5js',
-    name: 'Walker',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'node',
-    name: 'Gravitational Attraction Attraction Attraction Attraction',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'p5js',
-    name: 'Rectangle Acceleration',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'node',
-    name: 'Rectangle Grab Exercise',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: 'processing',
-    name: 'Rectangle Grab Exercise',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  },
-  {
-    icon: '',
-    name: 'Rectangle Grab Exercise',
-    webEditorLink: 'https://editor.p5js.org/codingtrain/sketches/FiOG6uajS',
-    viewCodeLink:
-      'https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random',
-    downloadCodeLink:
-      'https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random'
-  }
-];
-
-const timestamps = [
-  { time: 10, label: 'Hey!' },
-  { time: 20, label: 'Hey 2!' },
-  {
-    time: 30,
-    label: "Code! gcd() function with Euclid's Algorithm. "
-  },
-  { time: 40, label: 'Hey 4!' }
-];
-
 const VideoSection = ({ track, video, trackPosition }) => {
   const { chapters } = track;
   const { topics, languages } = video;
@@ -138,7 +71,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
                   [css.hide]: !showTimestamps
                 })}
                 variant="red"
-                timestamps={timestamps}
+                timestamps={video.timestamps}
                 updateTimestamp={updateTimestamp}
               />
               <OverviewTimeline
@@ -158,7 +91,11 @@ const VideoSection = ({ track, video, trackPosition }) => {
         <Tabs
           className={css.aboutTabs}
           variant="red"
-          labels={['OVERVIEW', 'CODE EXAMPLES', 'LINKS DISCUSSED']}>
+          labels={[
+            'OVERVIEW',
+            'CODE EXAMPLES',
+            ...video.groupLinks.map((g) => g.title.toUpperCase())
+          ]}>
           <CollapsableDescription
             className={css.description}
             expandedClassName={css.descriptionExpanded}
@@ -166,9 +103,12 @@ const VideoSection = ({ track, video, trackPosition }) => {
             content={video.description}
           />
           <div>
-            <CodeExampleList examples={codeExamples} variant="red" />
+            <CodeExampleList examples={video.codeExamples} variant="red" />
           </div>
-          <div></div>
+
+          {video.groupLinks.map((g, index) => (
+            <div key={index}> {g.title} </div>
+          ))}
         </Tabs>
       </div>
     </div>

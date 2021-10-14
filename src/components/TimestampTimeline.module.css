@@ -35,7 +35,7 @@
   font-weight: 600;
 }
 
-.description {
+.title {
   flex-grow: 1;
   line-height: var(--baseline-1of4);
   text-align: left;
@@ -85,7 +85,7 @@
     }
   }
 
-  .description {
+  .title {
     line-height: var(--baseline-1of3);
   }
 }

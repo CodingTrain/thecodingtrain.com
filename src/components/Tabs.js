@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Children, useState } from 'react';
 import cn from 'classnames';
 
 import Button from './Button';
@@ -35,7 +35,7 @@ export const Tabs = ({ className, variant, labels, children, shareLink }) => {
           <span>Share</span>
         </Button>
       </div>
-      {children.map((child, key) => (
+      {Children.toArray(children).map((child, key) => (
         <div
           className={cn(css.component, {
             [css.activeComponent]: key === active

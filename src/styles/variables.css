@@ -58,7 +58,7 @@
   --font-reduced: 16px;
   --font-emoji: 18px;
   --font-large: 22px;
-  --font-xlarge: 60px;
+  --font-xlarge: 55px;
   --font-huge: 93px;
 
   --spacing-xsmall: 5px;
@@ -84,6 +84,7 @@
   --red-lightest: #fffcfc;
 
   --border: 1px solid var(--gray-mid);
+  --border-red-light: 1px solid rgba(255, 0, 0, 0.1);
   --border-red: 1px solid var(--red);
   --border-purple: 1px solid var(--purple);
   --border-cyan: 1px solid var(--cyan);
@@ -106,7 +107,7 @@
     --font-medium: 14px;
     --font-reduced: 15px;
     --font-emoji: 17px;
-    --font-xlarge: 30px;
+    /* --font-xlarge: 30px; */
     --font-huge: 45px;
 
     --box-padding: 13px;
@@ -141,7 +142,7 @@
     --font-medium: 13px;
     --font-reduced: 14px;
     --font-emoji: 16px;
-    --font-xlarge: 30px;
+    --font-xlarge: 25px;
     --font-huge: 32px;
 
     --box-padding: 10px;

@@ -3,5 +3,11 @@
   "description": "In this video of Chapter 3, I explain how to apply the concepts of motion from the previous chapter to angles. Then I demonstrate how to use angular motion in a sketch in p5.js.",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
-  "link": "https://youtu.be/i2ROE_mAhU0"
+  "link": "https://youtu.be/i2ROE_mAhU0",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
 }

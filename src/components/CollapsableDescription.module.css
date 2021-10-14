@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+.showMore {
+}
+
 .showButton {
   cursor: pointer;
   color: var(--mid-gray);
