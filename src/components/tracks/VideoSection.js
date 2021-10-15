@@ -8,7 +8,6 @@ import YouTubeVideo from '../YouTubeVideo';
 import CollapsableDescription from '../CollapsableDescription';
 import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
-
 import * as css from './VideoSection.module.css';
 
 const VideoSection = ({ track, video, trackPosition }) => {
@@ -101,6 +100,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
             expandedClassName={css.descriptionExpanded}
             variant="red"
             content={video.description}
+            charLimit={150}
           />
           <div>
             <CodeExampleList examples={video.codeExamples} variant="red" />

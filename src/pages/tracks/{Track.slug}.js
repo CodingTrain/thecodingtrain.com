@@ -8,6 +8,7 @@ import TrackContributionsPanel from '../../components/ContributionsPanel';
 import TrackVideoSection from '../../components/tracks/VideoSection';
 import TrackHeader from '../../components/tracks/Header';
 import TrackChallengesPanel from '../../components/ChallengesPanel';
+import CharacterSpacer from '../../components/CharacterSpacer';
 
 import * as css from '../../styles/pages/tracks/track.module.css';
 import { pattern } from '../../styles/styles.module.css';
@@ -36,9 +37,15 @@ const Track = (props) => {
         video={video}
         trackPosition={trackPosition}
       />
-      <div className={cn(pattern, css.pattern)} />
+      <CharacterSpacer
+        variant="purple"
+        size="x2"
+        side="left"
+        offset={0.5}
+        characterSize={0.7}
+      />
       <TrackContributionsPanel video={video} />
-      <div className={cn(pattern, css.pattern)} />
+      <CharacterSpacer variant="cyan" size="x3" side="right" offset={0.7} />
       <TrackChallengesPanel video={video} />
       <div className={cn(pattern, css.pattern)} />
     </Layout>

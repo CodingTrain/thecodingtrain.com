@@ -1,0 +1,64 @@
+.root {
+  position: relative;
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
+.x1 {
+  height: var(--baseline);
+}
+
+.x2 {
+  height: var(--baseline-2x);
+}
+
+.x3 {
+  height: var(--baseline-3x);
+}
+
+.character {
+  position: absolute;
+  bottom: 2px;
+  z-index: 2;
+}
+
+.left {
+  transform: scale(-1, 1);
+}
+
+.border {
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+  border-bottom: 4px solid var(--gray-mid);
+}
+
+.red {
+  & .border {
+    border-bottom: 4px solid var(--red);
+  }
+
+  & .character {
+    fill: var(--red);
+  }
+}
+
+.purple {
+  & .border {
+    border-bottom: 4px solid var(--purple);
+  }
+
+  & .character {
+    fill: var(--purple);
+  }
+}
+
+.cyan {
+  & .border {
+    border-bottom: 4px solid var(--cyan);
+  }
+
+  & .character {
+    fill: var(--cyan);
+  }
+}

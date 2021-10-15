@@ -3,10 +3,9 @@
 
 .sep {
   display: none;
-  height: var(--baseline);
   border-left: var(--border);
   border-bottom: var(--border-red);
-  background: white;
+  /* background: white; */
 }
 
 /*
