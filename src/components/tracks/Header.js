@@ -12,6 +12,7 @@ const Header = ({ track }) => {
 
   return (
     <div className={css.root}>
+      <div className={css.sep} />
       <h1 className={css.title}>{track.title}</h1>
       <div className={css.info}>
         <CollapsableDescription
@@ -37,6 +38,7 @@ const Header = ({ track }) => {
           />
         </div>
       </div>
+      <div className={css.sep} />
     </div>
   );
 };

@@ -8,15 +8,15 @@ const CollapsableDescription = ({
   expandedClassName,
   variant,
   content,
-  wordLimit = 45
+  charLimit = 350
 }) => {
   const [showMore, setShowMore] = useState(false);
   const splittedContent = content.split(' ');
-  const isCollapsable = splittedContent.length > wordLimit;
+  const isCollapsable = content.length > charLimit;
   const text =
     showMore || !isCollapsable
       ? content
-      : splittedContent.slice(0, wordLimit - 1).join(' ') + ' ...';
+      : content.substring(0, charLimit - 1) + ' ...';
   return (
     <div
       className={cn(css.root, className, {
@@ -30,7 +30,7 @@ const CollapsableDescription = ({
           <button
             className={css.showButton}
             onClick={() => setShowMore((v) => !v)}>
-            show {showMore ? 'less' : 'more'}
+            Read {showMore ? 'less' : 'more'}
           </button>
         )}
       </p>

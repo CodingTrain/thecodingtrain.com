@@ -59,7 +59,7 @@
   --font-emoji: 18px;
   --font-large: 22px;
   --font-xlarge: 55px;
-  --font-huge: 93px;
+  --font-huge: 140px;
 
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
@@ -108,7 +108,7 @@
     --font-reduced: 15px;
     --font-emoji: 17px;
     /* --font-xlarge: 30px; */
-    --font-huge: 45px;
+    --font-huge: 100px;
 
     --box-padding: 13px;
     --container-spacing-horizontal: 30px;
@@ -143,7 +143,7 @@
     --font-reduced: 14px;
     --font-emoji: 16px;
     --font-xlarge: 25px;
-    --font-huge: 32px;
+    --font-huge: 80px;
 
     --box-padding: 10px;
     --container-spacing-horizontal: 0px;

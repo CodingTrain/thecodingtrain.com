@@ -1,17 +1,30 @@
 .root {
 }
 
+.sep {
+  display: none;
+  height: var(--baseline);
+  border-left: var(--border);
+  border-bottom: var(--border-red);
+  background: white;
+}
+
 /*
   Since text can flow on multiple lines, the line-height needs to be `--baseline`,
   so we offset with a margin-top of -1px. See variables.css for explanation.
  */
 .title {
-  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+  min-height: calc(var(--baseline-2x) + 2px);
+  border-top: var(--border);
   border-left: var(--border);
   border-bottom: var(--border);
   padding: 0 var(--box-padding);
-  font-size: var(--font-xlarge);
-  line-height: var(--baseline-2x);
+  background: white;
+  font-size: 52px;
+  line-height: var(--baseline);
   text-transform: uppercase;
   color: var(--red);
 }
@@ -28,6 +41,7 @@
   flex-basis: 70%;
   height: var(--baseline-box-5x);
   padding: 0 7% 0 var(--box-padding);
+  background: white;
   font-size: var(--font-medium);
 
   & p {
@@ -46,14 +60,14 @@
   margin-bottom: var(--baseline-2of5);
   height: var(--baseline-box-4x);
   padding: 0 var(--box-padding);
+  background: white;
   font-size: var(--font-medium);
   line-height: var(--baseline-1of2);
 }
 
 @media (--medium) {
-  .root .title {
-    line-height: var(--baseline);
-    letter-spacing: 0.05em;
+  .title {
+    letter-spacing: 0.01em;
   }
 
   .description {
@@ -82,11 +96,24 @@
 }
 
 @media (--small) {
+  .sep {
+    display: block;
+  }
+
+  .title {
+    border-bottom: var(--border-red-light);
+    font-size: 42px;
+    letter-spacing: 0.01em;
+  }
   .description {
     height: var(--baseline-box-6x);
   }
   .description.showMore {
     height: var(--baseline-box-8x);
+  }
+
+  .info {
+    border-bottom: var(--border-red-light);
   }
 }
 
