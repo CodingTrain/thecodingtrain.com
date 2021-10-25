@@ -57,6 +57,7 @@ const ContributionsPanel = ({ video }) => {
         buttonLink={''}
         variant={'purple'}
         className={css.contribsPanel}
+        smallWrap={true}
       />
     </div>
   );

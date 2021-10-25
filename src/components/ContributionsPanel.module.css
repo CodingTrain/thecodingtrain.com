@@ -33,55 +33,22 @@
 
 .contributions {
   display: flex;
-  flex-wrap: wrap;
+  overflow-x: auto;
 }
 
 .contrib {
-  width: 23%;
+  width: 27%;
+  flex: 0 0 27%;
   display: flex;
-  flex-basis: 23%;
   flex-direction: column;
   font-family: var(--maru-mono);
   font-size: var(--font-medium);
 }
 
-@media (--reduced) {
-  .contrib {
-    width: 47%;
-    flex: 0 0 47%;
-    margin-left: 0;
-  }
-}
-
-@media (--xsmall) {
-  .contrib {
-    width: 100%;
-    flex: 0 0 100%;
-  }
-}
-
 .spacer {
-  flex-grow: 1;
+  flex: 0 0 var(--box-padding);
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
-}
-
-@media (--reduced) {
-  .spacer:nth-child(4n) {
-    flex: 0 0 0;
-    border: none;
-  }
-}
-
-@media (--xsmall) {
-  .spacer,
-  .spacer:nth-child(4n) {
-    width: 100%;
-    flex: 0 0 100%;
-    height: var(--baseline);
-    border-bottom: var(--border-purple);
-    border-left: var(--border-purple);
-  }
 }
 
 .contribsPanel p {
@@ -118,6 +85,9 @@
 
 .authorName {
   color: var(--purple);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .imagePlaceholder {
@@ -127,19 +97,25 @@
   border-left: var(--border-purple);
 }
 
-@media (--medium) {
-  .imagePlaceholder {
-    height: var(--baseline-2x);
+@media (--reduced) {
+  .contrib {
+    width: 40%;
+    flex: 0 0 40%;
   }
 }
 
-@media (--reduced) {
-  .imagePlaceholder {
-    height: var(--baseline-3x);
+@media (--small) {
+  .titleBox p {
+    display: none;
   }
 }
 
 @media (--xsmall) {
+  .contrib {
+    width: 300px;
+    flex: 0 0 300px;
+  }
+
   .imagePlaceholder {
     height: var(--baseline-4x);
   }
