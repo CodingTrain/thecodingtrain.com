@@ -1,7 +1,6 @@
 import React, { memo } from 'react';
 
 import CollapsableDescription from '../CollapsableDescription';
-import CharacterSpacer from '../CharacterSpacer';
 import Tags from '../Tags';
 
 import * as css from './Header.module.css';
@@ -39,13 +38,6 @@ const Header = ({ track }) => {
           />
         </div>
       </div>
-      <CharacterSpacer
-        className={css.sep}
-        variant="red"
-        size="x1"
-        side="right"
-        offset={0.1}
-      />
     </div>
   );
 };

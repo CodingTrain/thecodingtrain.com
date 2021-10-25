@@ -1,13 +1,6 @@
 .root {
 }
 
-.sep {
-  display: none;
-  border-left: var(--border);
-  border-bottom: var(--border-red);
-  /* background: white; */
-}
-
 /*
   Since text can flow on multiple lines, the line-height needs to be `--baseline`,
   so we offset with a margin-top of -1px. See variables.css for explanation.
@@ -95,10 +88,6 @@
 }
 
 @media (--small) {
-  .sep {
-    display: block;
-  }
-
   .title {
     border-bottom: var(--border-red-light);
     font-size: 42px;

@@ -32,12 +32,22 @@ const Track = (props) => {
         variant="red"
       />
       {!pageContext.video && <TrackHeader track={track} />}
+      {!pageContext.video && (
+        <CharacterSpacer
+          className={css.sep}
+          variant="red"
+          size="x1"
+          side="right"
+          offset={0.1}
+        />
+      )}
       <TrackVideoSection
         track={track}
         video={video}
         trackPosition={trackPosition}
       />
       <CharacterSpacer
+        className={css.sep}
         variant="purple"
         size="x2"
         side="left"
@@ -45,7 +55,13 @@ const Track = (props) => {
         characterSize={0.7}
       />
       <TrackContributionsPanel video={video} />
-      <CharacterSpacer variant="cyan" size="x3" side="right" offset={0.7} />
+      <CharacterSpacer
+        className={css.sep}
+        variant="cyan"
+        size="x3"
+        side="right"
+        offset={0.7}
+      />
       <TrackChallengesPanel video={video} />
       <div className={cn(pattern, css.pattern)} />
     </Layout>

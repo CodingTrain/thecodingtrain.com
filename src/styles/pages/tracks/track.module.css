@@ -6,16 +6,14 @@
 
 .sep {
   display: none;
-  border-left: var(--border);
-  border-bottom: var(--border-red);
 }
 
 @media (--small) {
   .breadcrumbs {
     display: none;
   }
+
   .sep {
     display: block;
-    height: var(--baseline);
   }
 }

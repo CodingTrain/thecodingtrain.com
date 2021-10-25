@@ -3,6 +3,8 @@
 }
 
 .titleBox {
+  position: relative;
+  z-index: 1;
   margin-top: -2px;
   border-top: var(--border-purple);
   display: flex;
