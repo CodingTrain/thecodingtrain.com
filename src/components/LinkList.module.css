@@ -1,0 +1,102 @@
+.root {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -2px;
+  border-top: var(--border);
+  border-bottom: var(--border);
+  border-left: var(--border);
+  color: var(--gray-mid);
+
+  & span,
+  & a {
+    height: var(--baseline);
+    padding: 0 var(--spacing-normal);
+    line-height: var(--baseline);
+    font-size: var(--font-reduced);
+  }
+}
+
+.url {
+  flex: 0 0 400px;
+  overflow: hidden;
+  max-width: 400px;
+  text-decoration: underline;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--gray-mid);
+}
+
+/* Variants */
+
+.red {
+  & .link {
+    border-color: var(--red);
+    background-color: var(--red-light);
+    color: var(--red);
+    & a {
+      color: var(--red);
+    }
+  }
+  & .p5 path {
+    fill: var(--red);
+  }
+
+  & .node {
+  }
+
+  & .processing path {
+    stroke: var(--red);
+  }
+}
+
+.cyan {
+  & .link {
+    border-color: var(--cyan);
+    background-color: var(--cyan-light);
+    color: var(--cyan);
+    & a {
+      color: var(--cyan);
+    }
+  }
+
+  & .p5 path {
+    fill: var(--cyan);
+  }
+
+  & .node {
+  }
+
+  & .processing path {
+    stroke: var(--cyan);
+  }
+}
+
+@media (--small) {
+  .link {
+    align-items: center;
+    flex-wrap: wrap;
+
+    & > * {
+      width: 100%;
+    }
+
+    & a {
+      flex: initial;
+    }
+  }
+
+  .red .link,
+  .cyan .link {
+    background-color: white;
+  }
+
+  span.url {
+    white-space: initial;
+    text-overflow: initial;
+  }
+}

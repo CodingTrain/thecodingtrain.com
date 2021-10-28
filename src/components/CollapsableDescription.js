@@ -11,7 +11,6 @@ const CollapsableDescription = ({
   charLimit = 350
 }) => {
   const [showMore, setShowMore] = useState(false);
-  const splittedContent = content.split(' ');
   const isCollapsable = content.length > charLimit;
   const text =
     showMore || !isCollapsable

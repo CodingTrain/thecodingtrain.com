@@ -46,6 +46,7 @@ const Track = (props) => {
         video={video}
         trackPosition={trackPosition}
       />
+      <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}
         variant="purple"
@@ -55,6 +56,7 @@ const Track = (props) => {
         characterSize={0.7}
       />
       <TrackContributionsPanel video={video} />
+      <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}
         variant="cyan"

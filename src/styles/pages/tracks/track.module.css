@@ -8,6 +8,13 @@
   display: none;
 }
 
+.blankSep {
+  height: var(--baseline);
+  border-left: var(--border);
+  border-bottom: var(--border-red);
+  background: white;
+}
+
 @media (--small) {
   .breadcrumbs {
     display: none;
@@ -15,5 +22,9 @@
 
   .sep {
     display: block;
+  }
+
+  .blankSep {
+    display: none;
   }
 }

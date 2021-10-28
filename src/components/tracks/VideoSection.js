@@ -4,6 +4,7 @@ import cn from 'classnames';
 import Tabs from '../Tabs';
 import Tags from '../Tags';
 import CodeExampleList from '../CodeExampleList';
+import LinkList from '../LinkList';
 import YouTubeVideo from '../YouTubeVideo';
 import CollapsableDescription from '../CollapsableDescription';
 import TimestampTimeline from '../TimestampTimeline';
@@ -107,7 +108,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
           </div>
 
           {video.groupLinks.map((g, index) => (
-            <div key={index}> {g.title} </div>
+            <LinkList links={g.links} variant="red" key={index} />
           ))}
         </Tabs>
       </div>

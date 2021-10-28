@@ -21,13 +21,17 @@ const CodeExampleList = memo(({ className, variant, examples }) => {
           example.type in icons ? icons[example.type] : () => <svg></svg>;
         return (
           <li className={css.example} key={key}>
-            <span className={css.icon}>
-              <Icon />
-            </span>
-            <span className={css.name}>{example.title}</span>
-            <a href={example.editorURL}>Web Editor</a>
-            <a href={example.githubURL}>View Code</a>
-            <a href={example.codeURL}>Download Code</a>
+            <div className={css.description}>
+              <span className={css.icon}>
+                <Icon />
+              </span>
+              <span className={css.name}>{example.title}</span>
+            </div>
+            <div className={css.links}>
+              <a href={example.editorURL}>Web Editor</a>
+              <a href={example.githubURL}>View Code</a>
+              <a href={example.codeURL}>Download Code</a>
+            </div>
           </li>
         );
       })}
