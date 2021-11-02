@@ -76,7 +76,7 @@
   }
 }
 
-@media (--small) {
+@media (--reduced) {
   .link {
     align-items: center;
     flex-wrap: wrap;

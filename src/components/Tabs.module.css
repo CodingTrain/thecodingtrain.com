@@ -71,7 +71,6 @@
   width: 0;
   overflow: hidden;
   max-height: 0;
-  /* transition: max-height 1s ease-out; */
 }
 
 .activeComponent {
@@ -186,22 +185,16 @@
     order: 2;
   }
 
-  .componentTab.activeComponentTab {
+  .componentTab {
     width: 100%;
     order: 1;
+    max-height: 0;
+  }
+
+  .componentTab.activeComponentTab {
     max-height: 1000vh;
     transition: max-height 3s ease-in-out;
   }
-
-  /* .tabs ul {
-    flex-grow: 1;
-    & li {
-      flex: 1 0 33%;
-      & button {
-        width: 100%;
-      }
-    }
-  } */
 
   .share {
     display: none;
