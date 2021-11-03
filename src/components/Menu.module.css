@@ -13,6 +13,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   background-color: var(--gray-light);
+  color: var(--gray-dark);
 }
 
 .menu {

@@ -6,6 +6,7 @@ import Layout from '../../components/Layout';
 import Breadcrumbs from '../../components/Breadcrumbs';
 import TrackContributionsPanel from '../../components/ContributionsPanel';
 import TrackVideoSection from '../../components/tracks/VideoSection';
+import TrackVideoInfo from '../../components/tracks/VideoInfo';
 import TrackHeader from '../../components/tracks/Header';
 import TrackChallengesPanel from '../../components/ChallengesPanel';
 import CharacterSpacer from '../../components/CharacterSpacer';
@@ -46,6 +47,8 @@ const Track = (props) => {
         video={video}
         trackPosition={trackPosition}
       />
+      <div className={css.blankSep} />
+      <TrackVideoInfo video={video} />
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}

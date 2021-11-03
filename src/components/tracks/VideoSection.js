@@ -1,19 +1,33 @@
-import React, { memo, useCallback, useState } from 'react';
+import React, { memo, useCallback, useState, useEffect } from 'react';
 import cn from 'classnames';
 
-import Tabs from '../Tabs';
 import Tags from '../Tags';
-import CodeExampleList from '../CodeExampleList';
-import LinkList from '../LinkList';
 import YouTubeVideo from '../YouTubeVideo';
-import CollapsableDescription from '../CollapsableDescription';
 import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
 import * as css from './VideoSection.module.css';
 
+const getOverallPositionInTrack = (trackPosition, track) => {
+  let videoIndex = 0;
+  let trackTotal = 0;
+  for (let chapter = 0; chapter < track.chapters.length; chapter++) {
+    trackTotal += track.chapters[chapter].videos.length;
+    if (trackPosition.chapterIndex > chapter) {
+      videoIndex += track.chapters[chapter].videos.length;
+    } else if (trackPosition.chapterIndex === chapter) {
+      videoIndex += trackPosition.videoIndex;
+    }
+  }
+  return [videoIndex + 1, trackTotal];
+};
+
 const VideoSection = ({ track, video, trackPosition }) => {
   const { chapters } = track;
   const { topics, languages } = video;
+  const [videoIndex, trackTotal] = getOverallPositionInTrack(
+    trackPosition,
+    track
+  );
 
   const [showTimeline, setShowTimeline] = useState(false);
   const [showTimestamps, setShowTimestamps] = useState(false);
@@ -24,11 +38,16 @@ const VideoSection = ({ track, video, trackPosition }) => {
     setShowTimeline(false);
   }, []);
 
-  let labels = ['OVERVIEW'];
-  if (video.codeExamples && video.codeExamples.length > 0) {
-    labels.push('CODE EXAMPLES');
-  }
-  labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
+  useEffect(() => {
+    if (showTimeline) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [showTimeline]);
 
   return (
     <div className={css.root}>
@@ -56,8 +75,12 @@ const VideoSection = ({ track, video, trackPosition }) => {
             onKeyPress={(e) => e.key === 'Enter' && setShowTimeline((v) => !v)}
             role="button"
             tabIndex="0"
-            aria-label="Toggle timeline"
-          />
+            aria-label="Toggle timeline">
+            <span className={css.arrow}> </span>
+            <span>
+              {videoIndex} / {trackTotal}{' '}
+            </span>
+          </div>
           <div className={css.timelinesContent}>
             <div className={css.tabs}>
               <div className={cn(css.tab, { [css.selected]: !showTimestamps })}>
@@ -91,26 +114,6 @@ const VideoSection = ({ track, video, trackPosition }) => {
             </div>
           </div>
         </div>
-      </div>
-      <div className={css.sep}></div>
-      <div>
-        <Tabs className={css.aboutTabs} variant="red" labels={labels}>
-          <CollapsableDescription
-            className={css.description}
-            expandedClassName={css.descriptionExpanded}
-            variant="red"
-            content={video.description}
-            charLimit={150}
-          />
-          {video.codeExamples && video.codeExamples.length > 0 && (
-            <div>
-              <CodeExampleList examples={video.codeExamples} variant="red" />
-            </div>
-          )}
-          {video.groupLinks.map((g, index) => (
-            <LinkList links={g.links} variant="red" key={index} />
-          ))}
-        </Tabs>
       </div>
     </div>
   );

@@ -137,9 +137,3 @@
     font-size: var(--font-medium);
   }
 }
-
-@media (--small) {
-  .overviewTimeline {
-    height: var(--baseline-5x);
-  }
-}

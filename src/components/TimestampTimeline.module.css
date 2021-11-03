@@ -36,9 +36,11 @@
 }
 
 .title {
+  height: var(--baseline);
   flex-grow: 1;
   line-height: var(--baseline-1of4);
   text-align: left;
+  color: var(--gray-mid);
 }
 
 /* Variants */
@@ -75,7 +77,7 @@
 
 @media (--reduced) {
   .root {
-    height: var(--baseline-8x);
+    height: var(--baseline-9x);
   }
 
   .timestamp {
@@ -87,11 +89,5 @@
 
   .title {
     line-height: var(--baseline-1of3);
-  }
-}
-
-@media (--small) {
-  .root {
-    height: var(--baseline-5x);
   }
 }
