@@ -4,18 +4,20 @@
 /* Heading */
 
 .subheading {
-  margin-top: -1px;
-  border-left: var(--border);
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+  min-height: calc(var(--baseline) + 2px);
+  border-top: var(--border-red);
   border-bottom: var(--border-red);
+  border-left: var(--border);
   padding: 0 var(--box-padding);
-
-  & h2 {
-    color: var(--red);
-    line-height: var(--baseline);
-    font-size: 24px;
-    font-family: var(--maru);
-    font-weight: 600;
-  }
+  background: white;
+  font-family: var(--maru);
+  font-size: 24px;
+  line-height: var(--baseline-2of3);
+  color: var(--red);
+  font-weight: 600;
 }
 
 /* Video section */
@@ -130,7 +132,8 @@
 }
 
 @media (--medium) {
-  .subheading h2 {
+  .subheading {
+    min-height: calc(var(--baseline-2x) + 2px);
     font-size: 20px;
   }
 }

@@ -38,7 +38,6 @@ const ContributionsPanel = ({ video }) => {
           <Fragment key={key}>
             <div className={css.contrib}>
               <span className={css.title}>{contrib.title}</span>
-              {/* <h5 className={css.title}>{contrib.title}</h5> */}
               <div className={css.imagePlaceholder}></div>
               <p className={css.author}>
                 <span className={css.authorName}>{contrib.author}</span>

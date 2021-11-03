@@ -51,9 +51,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
 
   return (
     <div className={css.root}>
-      <div className={css.subheading}>
-        <h2>{video.title}</h2>
-      </div>
+      <h2 className={css.subheading}>{video.title}</h2>
       <div className={css.videoPlayer}>
         <div className={css.left}>
           <div className={css.details}>
