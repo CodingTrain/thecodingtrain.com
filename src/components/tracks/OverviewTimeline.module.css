@@ -126,7 +126,7 @@
 
 @media (--reduced) {
   .overviewTimeline {
-    height: var(--baseline-8x);
+    height: calc(100vh - var(--baseline-3x));
   }
 
   .chapterTitle h5 {

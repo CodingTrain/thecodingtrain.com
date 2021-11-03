@@ -37,7 +37,7 @@ const Track = (props) => {
         <CharacterSpacer
           className={css.sep}
           variant="red"
-          size="x1"
+          size="x2"
           side="right"
           offset={0.1}
         />
