@@ -3,16 +3,17 @@ import { graphql } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
-import Heading from '../components/Heading';
+import { Heading1, Heading2, Heading3, Heading4 } from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
+import Title from '../components/Title';
 import TrackCard from '../components/TrackCard';
 import Tabs from '../components/Tabs';
 import cn from 'classnames';
 
 import * as css from '../styles/pages/components.module.css';
-import { cols, col, pattern } from '../styles/styles.module.css';
+import { cols, col } from '../styles/styles.module.css';
 
 const ComponentsPage = ({ data }) => {
   const [filters1, setFilters1] = useState();
@@ -20,11 +21,15 @@ const ComponentsPage = ({ data }) => {
 
   return (
     <Layout>
-      <Spacer label="Heading" />
-      <Heading>New to coding</Heading>
-      <Heading>Challenges</Heading>
-      <Heading>The Nature of Code 2.0</Heading>
-      <Spacer label="Breadcrumbs" />
+      <Title>Heading</Title>
+      <Heading1 variant="red">New to coding</Heading1>
+      <Heading2 variant="purple">Challenges</Heading2>
+      <Heading3 variant="orange">The Nature of Code 2.0</Heading3>
+      <Heading4 variant="purple" fill>
+        Check out my talks
+      </Heading4>
+
+      <Title>Breadcrumbs</Title>
       <Breadcrumbs
         breadcrumbs={[
           { name: 'Videos Overview', link: '' },
@@ -41,13 +46,12 @@ const ComponentsPage = ({ data }) => {
         ]}
         variant="purple"
       />
-      <Tabs
-        labels={['First Component', 'Second Component', 'Third Component']}>
-        <Heading>Test</Heading>
-        <Heading>Best</Heading>
-        <Heading>Nest</Heading>
+      <Tabs labels={['First Component', 'Second Component', 'Third Component']}>
+        <Heading2>Test</Heading2>
+        <Heading2>Best</Heading2>
+        <Heading2>Nest</Heading2>
       </Tabs>
-      <Spacer label="Filter" />
+      <Title>Filter</Title>
       <div className={cols}>
         <Filter
           title="Filter by Language"
@@ -80,7 +84,7 @@ const ComponentsPage = ({ data }) => {
           className={col}
         />
       </div>
-      <Spacer label="Track Card (slim)" />
+      <Title>Track Card (slim)</Title>
       <TrackCard
         variant="slim"
         title="Code! Programming with p5.js"
@@ -97,7 +101,7 @@ const ComponentsPage = ({ data }) => {
         ]}
         languages={['p5.js', 'JavaScript']}
       />
-      <Spacer label="Track Card (full)" />
+      <Title>Track Card (full)</Title>
       <TrackCard
         title="Code! Programming with p5.js"
         description="This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices."
@@ -113,7 +117,7 @@ const ComponentsPage = ({ data }) => {
         ]}
         languages={['p5.js', 'JavaScript']}
       />
-      <Spacer label="Button panel" />
+      <Title>Button panel</Title>
       <div className={cols}>
         <ButtonPanel
           text={
@@ -138,8 +142,8 @@ const ComponentsPage = ({ data }) => {
         buttonLink={''}
         variant={'purple'}
       />
-      <Spacer label="Pattern" />
-      <div className={cn(pattern, css.pattern)} />
+      <Title>Pattern</Title>
+      <Spacer pattern />
     </Layout>
   );
 };

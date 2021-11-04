@@ -51,6 +51,17 @@
   --font-large: 22px;
   --font-xlarge: 93px;
 
+  --heading-1: 140px;
+  --heading-1-line-height: calc(var(--baseline) * 3);
+  --heading-2: 70px;
+  --heading-2-line-height: calc(var(--baseline) * 2);
+  --heading-3: 70px;
+  --heading-3-line-height: calc(var(--baseline) * 2);
+  --heading-3: 35px;
+  --heading-3-line-height: var(--baseline);
+  --heading-4: 24px;
+  --heading-4-line-height: var(--baseline);
+
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
   --spacing-normal: 15px;
@@ -72,6 +83,7 @@
   --red-lightest: #fffcfc;
 
   --border: 1px solid var(--gray-mid);
+  --border-purple: 1px solid var(--purple);
   --box-padding: 25px;
 
   --container-max-width: 1600px;
@@ -87,6 +99,7 @@
     --font-reduced: 15px;
     --font-emoji: 17px;
     --font-xlarge: 45px;
+    --font-xxlarge: 105px;
 
     --box-padding: 13px;
     --container-spacing-horizontal: 30px;

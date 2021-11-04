@@ -37,3 +37,12 @@ h2 {
   font-family: var(--maru-mega);
   font-weight: normal;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}

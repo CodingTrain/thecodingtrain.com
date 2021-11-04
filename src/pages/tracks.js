@@ -2,12 +2,13 @@ import React, { Fragment, useState } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Spacer from '../components/Spacer';
-import Heading from '../components/Heading';
+
 import Breadcrumbs from '../components/Breadcrumbs';
+import { Heading1 } from '../components/Heading';
 import Filter from '../components/Filter';
-import TrackCard from '../components/TrackCard';
 import PagePanel from '../components/PagePanel';
+import Spacer from '../components/Spacer';
+import TrackCard from '../components/TrackCard';
 
 import { useImages } from '../hooks';
 
@@ -35,7 +36,7 @@ const TracksPage = ({ data }) => {
         ]}
         variant="red"
       />
-      <Heading>Tracks</Heading>
+      <Heading1 variant="red">Tracks</Heading1>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"

@@ -72,6 +72,14 @@ module.exports = {
       __key: 'videos'
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'talks',
+        path: './content/talks'
+      },
+      __key: 'talks'
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rules: {

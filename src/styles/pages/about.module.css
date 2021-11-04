@@ -1,0 +1,87 @@
+.row {
+  display: flex;
+}
+.mainHeading {
+  flex-grow: 1;
+}
+.train {
+  border-left: var(--border);
+  border-bottom: var(--border);
+  padding: var(--spacing-small) var(--spacing-normal);
+  height: var(--baseline-3x);
+}
+
+.aboutBlock {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  border-left: var(--border);
+}
+
+.danIntro {
+  font-family: var(--maru-mono);
+  flex-grow: 1;
+  padding: var(--spacing-normal) var(--box-padding);
+}
+
+.links {
+  background-color: var(--purple-light);
+  border-top: var(--border-purple);
+  color: var(--purple);
+}
+
+.socialRow,
+.websiteRow {
+  display: flex;
+  border-bottom: var(--border-purple);
+}
+
+.socialLink {
+  flex-grow: 1;
+  padding: var(--spacing-small);
+  display: flex;
+  align-items: center;
+  &:not(:first-child) {
+    border-left: var(--border-purple);
+  }
+}
+
+.socialIcon {
+  margin-right: var(--spacing-normal);
+  & path {
+    fill: var(--purple);
+  }
+}
+
+.websiteButton {
+  margin: var(--spacing-xsmall);
+  flex-grow: 1;
+}
+
+.photoBlock {
+  border-left: var(--border);
+  border-bottom: var(--border);
+  flex-grow: 1;
+  height: calc(var(--baseline) * 10 - 1px);
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.acknowledgements {
+}
+
+.acknowledgementsText {
+}
+
+.acknowledgementsList {
+}
+
+.acknowledgementsTeam {
+}
+
+.acknowledgementsContributors {
+}

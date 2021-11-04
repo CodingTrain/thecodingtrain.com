@@ -14,9 +14,9 @@ const items = [
   {
     name: 'Videos',
     children: [
-      { name: 'Videos1', href: '' },
-      { name: 'Videos2', href: '' },
-      { name: 'Videos3', href: '' }
+      { name: 'Videos1', href: '/' },
+      { name: 'Videos2', href: '/' },
+      { name: 'Videos3', href: '/' }
     ]
   },
   {
@@ -25,7 +25,7 @@ const items = [
   },
   {
     name: 'About',
-    href: '/'
+    href: '/about'
   }
 ];
 
