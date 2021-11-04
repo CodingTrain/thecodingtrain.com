@@ -58,8 +58,8 @@ a {
 
 .purple {
   color: white;
-  background: linear-gradient(to right, #2dc5f4, #f89e4f, #f16164, #F063A4, #9253a1);
-  background-size: 1000%;
+  background: linear-gradient(to right, #2dc5f4, #f89e4f, #f16164, #F063A4, #9253a1, #2dc5f4);
+  background-size: 4000%;
 }
 
 .purple:hover {
