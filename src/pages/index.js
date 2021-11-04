@@ -12,6 +12,9 @@ const IndexPage = () => {
         <li>
           <Link to="/tracks">Go to tracks page</Link>
         </li>
+        <li>
+          <Link to="/faq">Go to FAQ page</Link>
+        </li>
       </ul>
     </Layout>
   );

@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: var(--baseline);
+  padding: 0 var(--box-padding);
+  border-left: var(--border);
+  border-bottom: var(--border);
+  font-family: var(--maru-mono);
+  color: var(--gray-mid);
+  cursor: pointer;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  height: var(--baseline);
+
+  & p {
+    font-size: var(--font-reduced);
+    padding: 0 var(--box-padding);
+  }
+}
+
+.icon {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.rotateIcon {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
+.content {
+  padding: var(--box-padding) 0;
+}
+
+/* variants */
+.pink {
+  background-color: var(--pink-tint);
+  border-bottom-color: var(--pink);
+}
+
+.opened {
+  height: auto;
+  background-color: white;
+}
