@@ -12,9 +12,7 @@ const LinkList = memo(({ className, variant, links }) => {
             <a className={css.url} href={link.url}>
               {link.title}
             </a>
-            {link.author && (
-              <span className={css.author}>By {link.author}</span>
-            )}
+            {link.author && <span>By {link.author}</span>}
           </li>
         );
       })}

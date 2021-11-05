@@ -3,5 +3,31 @@
   "description": "Welcome again to Nature of Code! Here, I give a quick overview of the \"Introduction\" section of The Nature of Code. ",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
-  "link": "https://youtu.be/3slqsMHKLng"
+  "link": "https://youtu.be/3slqsMHKLng",
+  "canContribute": true,
+  "contributions": [
+    {
+      "title": "#1.3 random vectors",
+      "author": {
+        "name": "Sundar Singh",
+        "url": "https://eesur.com"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
+    },
+    {
+      "title": "#1.3 random vectors crazy good like",
+      "author": {
+        "name": "Sundar Singh"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
+    },
+    {
+      "title": "#1.3 random vectors crazy good like",
+      "author": {
+        "name": "Sundar Singh",
+        "url": "https://eesur.com"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
+    }
+  ]
 }

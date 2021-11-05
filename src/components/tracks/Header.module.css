@@ -25,6 +25,7 @@
   display: flex;
   border-left: var(--border);
   border-bottom: var(--border-red);
+  background: white;
   font-family: var(--maru-mono);
   color: var(--gray-mid);
 }
@@ -89,6 +90,12 @@
 }
 
 @media (--small) {
+  .sep {
+    height: var(--baseline);
+    border-bottom: var(--border);
+    border-left: var(--border);
+  }
+
   .title {
     border-bottom: var(--border-red-light);
     font-size: 42px;

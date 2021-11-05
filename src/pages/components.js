@@ -8,9 +8,9 @@ import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
-import TrackContributionsPanel from '../components/ContributionsPanel';
-import Tabs from '../components/Tabs';
+import ContributionsPanel from '../components/ContributionsPanel';
 import TrackCard from '../components/tracks/Card';
+import Tabs from '../components/Tabs';
 import ButtonPanel from '../components/ButtonPanel';
 
 import * as css from '../styles/pages/components.module.css';
@@ -141,7 +141,48 @@ const ComponentsPage = ({ data }) => {
       />
       <Spacer label="Pattern" />
       <div className={cn(pattern, css.pattern)} />
-      <TrackContributionsPanel />
+      <ContributionsPanel
+        contributions={[
+          {
+            title: '#1.3 random vectors',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          }
+        ]}
+      />
     </Layout>
   );
 };

@@ -82,12 +82,14 @@ exports.onCreateNode = ({
       timestamps,
       codeExamples: data.codeExamples ?? [],
       groupLinks: data.groupLinks ?? [],
+      canContribute: data.canContribute ?? false,
+      contributions: data.contributions ?? [],
       internal: {
         type: `Video`,
         contentDigest: createContentDigest(data)
       }
     });
-    // console.log({ newNode });
+    console.log({ newNode });
     createNode(newNode);
   }
 };
@@ -130,6 +132,15 @@ exports.createPages = async function ({ actions, graphql }) {
                   title
                   url
                   author
+                }
+              }
+              canContribute
+              contributions {
+                title
+                url
+                author {
+                  name
+                  url
                 }
               }
             }

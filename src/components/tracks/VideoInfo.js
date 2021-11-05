@@ -1,5 +1,4 @@
 import React, { memo } from 'react';
-import cn from 'classnames';
 
 import Tabs from '../Tabs';
 import CodeExampleList from '../CodeExampleList';

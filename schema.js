@@ -25,6 +25,8 @@ type Video implements Node {
   timestamps: [Timestamp!]
   groupLinks: [GroupLink!] 
   codeExamples: [CodeExample!] 
+  canContribute: Boolean!
+  contributions: [Contribution!]
 }
 
 type Timestamp implements Node {
@@ -50,5 +52,16 @@ type CodeExample implements Node {
   codeURL: String!
   githubURL: String!
   editorURL: String
+}
+
+type Contribution implements Node {
+  title: String!
+  url: String!
+  author: Author!
+}
+
+type Author implements Node {
+  name: String
+  url: String
 }
 `;

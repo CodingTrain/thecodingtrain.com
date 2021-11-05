@@ -49,16 +49,20 @@ const Track = (props) => {
       />
       <div className={css.blankSep} />
       <TrackVideoInfo video={video} />
-      <div className={css.blankSep} />
-      <CharacterSpacer
-        className={css.sep}
-        variant="purple"
-        size="x2"
-        side="left"
-        offset={0.5}
-        characterSize={0.7}
-      />
-      <TrackContributionsPanel video={video} />
+      {video.canContribute && (
+        <>
+          <div className={css.blankSep} />
+          <CharacterSpacer
+            className={css.sep}
+            variant="purple"
+            size="x2"
+            side="left"
+            offset={0.5}
+            characterSize={0.7}
+          />
+          <TrackContributionsPanel contributions={video.contributions} />
+        </>
+      )}
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}
@@ -108,6 +112,15 @@ export const query = graphql`
               title
               url
               author
+            }
+          }
+          canContribute
+          contributions {
+            title
+            url
+            author {
+              name
+              url
             }
           }
         }

@@ -31,8 +31,7 @@ const Header = ({ track }) => {
                 (curr, acc) => curr + acc.videos.length,
                 0
               )} 
-            video lessons`,
-              `()`
+            video lessons`
             ]}
             singleLine={false}
           />

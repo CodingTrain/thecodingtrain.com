@@ -6,32 +6,16 @@ import * as css from './ContributionsPanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-//dummy content
-const contributions = [
-  {
-    title: 'Grab any spring particle',
-    author: 'Galiton'
-  },
-  {
-    title: 'Grab any spring particle',
-    author: 'Galiton'
-  },
-  {
-    title: 'Grab any spring particle',
-    author: 'Galiton'
-  },
-  {
-    title: 'Grab any spring particle',
-    author: 'Galiton'
-  }
-];
-
-const ContributionsPanel = ({ video }) => {
+const ContributionsPanel = ({ contributions }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
         <h4>Community contributions</h4>
-        <p>What our community has done based on this video</p>
+        <p>
+          {contributions.length > 0
+            ? 'What our community has done based on this video'
+            : 'No contributions done yet!'}
+        </p>
       </div>
       <div className={css.contributions}>
         {contributions.map((contrib, key) => (
@@ -40,13 +24,23 @@ const ContributionsPanel = ({ video }) => {
               <span className={css.title}>{contrib.title}</span>
               <div className={css.imagePlaceholder}></div>
               <p className={css.author}>
-                <span className={css.authorName}>{contrib.author}</span>
-                <PlayButton width={30} />
+                {contrib.author.url ? (
+                  <a
+                    href={contrib.author.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={css.authorName}>
+                    {contrib.author.name}
+                  </a>
+                ) : (
+                  <span className={css.authorName}>{contrib.author.name}</span>
+                )}
+                <a href={contrib.url} target="_blank" rel="noreferrer">
+                  <PlayButton width={30} />
+                </a>
               </p>
             </div>
-            {key !== contributions.length - 1 && (
-              <div className={css.spacer}></div>
-            )}
+            <div className={css.spacer}></div>
           </Fragment>
         ))}
       </div>

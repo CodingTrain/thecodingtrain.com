@@ -51,6 +51,10 @@
   border-left: var(--border-purple);
 }
 
+.spacer:last-child {
+  flex: 1 1 var(--box-padding);
+}
+
 .contribsPanel p {
   color: var(--purple);
 }
@@ -90,6 +94,10 @@
   overflow: hidden;
 }
 
+a.authorName {
+  text-decoration: underline;
+}
+
 .imagePlaceholder {
   height: var(--baseline-3x);
   background-color: var(--gray-light);
@@ -97,7 +105,7 @@
   border-left: var(--border-purple);
 }
 
-@media (--reduced) {
+@media (--medium) {
   .contrib {
     width: 40%;
     flex: 0 0 40%;
@@ -108,14 +116,10 @@
   .titleBox p {
     display: none;
   }
-}
-
-@media (--xsmall) {
   .contrib {
     width: 300px;
     flex: 0 0 300px;
   }
-
   .imagePlaceholder {
     height: var(--baseline-4x);
   }
