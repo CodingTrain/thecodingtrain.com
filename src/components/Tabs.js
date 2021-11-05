@@ -54,7 +54,7 @@ export const Tabs = ({ className, variant, labels, children, shareLink }) => {
             </li>
           ))}
         </ul>
-        <ShareButton className={css.share} variant="red" />
+        <ShareButton className={css.share} variant={variant} />
       </div>
       {Children.toArray(children).map((child, key) => (
         <div

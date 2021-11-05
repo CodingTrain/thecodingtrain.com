@@ -72,6 +72,14 @@ module.exports = {
       __key: 'videos'
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'challenges',
+        path: './content/challenges'
+      },
+      __key: 'challenges'
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rules: {

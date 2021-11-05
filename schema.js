@@ -29,6 +29,17 @@ type Video implements Node {
   contributions: [Contribution!]
 }
 
+type Challenge implements Node {
+  title: String!
+  topics: [String!]
+  languages: [String!]
+  link: String!
+  timestamps: [Timestamp!]
+  groupLinks: [GroupLink!] 
+  codeExamples: [CodeExample!] 
+  contributions: [Contribution!]
+}
+
 type Timestamp implements Node {
   title: String!
   time: String!

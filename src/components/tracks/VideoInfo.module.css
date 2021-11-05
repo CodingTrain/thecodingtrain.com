@@ -8,8 +8,8 @@
   display: flex;
   flex-direction: column;
   height: var(--baseline-3x);
-  border-left: var(--border-red);
-  border-bottom: var(--border-red);
+  border-left: var(--border);
+  border-bottom: var(--border);
   font-size: var(--font-medium);
   font-family: var(--maru-mono);
   color: var(--gray-mid);
@@ -23,6 +23,19 @@
 
 .descriptionExpanded {
   height: var(--baseline-5x);
+}
+
+/* Variant */
+.red {
+  & .description {
+    border-color: var(--red);
+  }
+}
+
+.cyan {
+  & .description {
+    border-color: var(--cyan);
+  }
 }
 
 @media (--reduced) {

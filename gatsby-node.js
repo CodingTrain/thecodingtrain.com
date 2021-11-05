@@ -92,6 +92,34 @@ exports.onCreateNode = ({
     // console.log({ newNode });
     createNode(newNode);
   }
+
+  /**
+    Turn video json files into Video nodes
+  **/
+  if (node.internal.type === 'ChallengesJson') {
+    const parent = getNode(node.parent);
+    const slug = parent.name;
+    const data = getJson(node);
+    const timestamps = (data.timestamps ?? []).map((timestamp) => ({
+      ...timestamp,
+      seconds: parseTimestamp(timestamp.time)
+    }));
+
+    const newNode = Object.assign({}, data, {
+      id: createNodeId(slug),
+      slug,
+      timestamps,
+      codeExamples: data.codeExamples ?? [],
+      groupLinks: data.groupLinks ?? [],
+      contributions: data.contributions ?? [],
+      internal: {
+        type: `Challenge`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+    // console.log({ newNode });
+    createNode(newNode);
+  }
 };
 
 exports.createPages = async function ({ actions, graphql }) {

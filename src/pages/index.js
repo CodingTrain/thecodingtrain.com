@@ -21,6 +21,18 @@ const IndexPage = ({ data }) => {
             ))}
           </ul>
         </li>
+        <li>
+          <Link to="/challenges">Go to challenges page</Link>
+          <ul>
+            {data.challenges.nodes.map((challenge, i) => (
+              <li key={i}>
+                <Link to={`/challenges/${challenge.slug}`}>
+                  {challenge.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </li>
       </ul>
     </Layout>
   );
@@ -29,6 +41,12 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
   query {
     tracks: allTrack {
+      nodes {
+        title
+        slug
+      }
+    }
+    challenges: allChallenge {
       nodes {
         title
         slug

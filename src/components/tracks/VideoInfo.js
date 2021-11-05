@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import cn from 'classnames';
 
 import Tabs from '../Tabs';
 import CodeExampleList from '../CodeExampleList';
@@ -6,7 +7,7 @@ import LinkList from '../LinkList';
 import CollapsableDescription from '../CollapsableDescription';
 import * as css from './VideoInfo.module.css';
 
-const VideoInfo = ({ video }) => {
+const VideoInfo = ({ video, variant }) => {
   let labels = ['OVERVIEW'];
   if (video.codeExamples && video.codeExamples.length > 0) {
     labels.push('CODE EXAMPLES');
@@ -14,22 +15,22 @@ const VideoInfo = ({ video }) => {
   labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
 
   return (
-    <div className={css.root}>
-      <Tabs className={css.aboutTabs} variant="red" labels={labels}>
+    <div className={cn(css.root, { [css[variant]]: variant })}>
+      <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
         <CollapsableDescription
           className={css.description}
           expandedClassName={css.descriptionExpanded}
-          variant="red"
+          variant={variant}
           content={video.description}
           charLimit={150}
         />
         {video.codeExamples && video.codeExamples.length > 0 && (
           <div>
-            <CodeExampleList examples={video.codeExamples} variant="red" />
+            <CodeExampleList examples={video.codeExamples} variant={variant} />
           </div>
         )}
         {video.groupLinks.map((g, index) => (
-          <LinkList links={g.links} variant="red" key={index} />
+          <LinkList links={g.links} variant={variant} key={index} />
         ))}
       </Tabs>
     </div>
