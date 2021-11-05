@@ -45,3 +45,19 @@
   height: auto;
   background-color: white;
 }
+
+@media (--small) {
+  .icon {
+    width: 28px;
+  }
+
+  .summary {
+    & p {
+      font-size: var(--font-normal);
+    }
+  }
+
+  .content {
+    font-size: var(--font-normal);
+  }
+}
