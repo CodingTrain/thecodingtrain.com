@@ -76,8 +76,9 @@ const VideoSection = ({ track, video, trackPosition }) => {
             role="button"
             tabIndex="0"
             aria-label="Toggle timeline">
+            <span className={css.back}>Back</span>
             <span className={css.arrow}> </span>
-            <span>
+            <span className={css.progress}>
               {videoIndex} / {trackTotal}{' '}
             </span>
           </div>

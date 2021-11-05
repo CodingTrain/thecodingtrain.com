@@ -216,9 +216,13 @@
   .arrow {
     display: block;
     position: relative;
+    margin: 0 var(--box-padding) 0 0;
     width: 15px;
     height: 15px;
-    margin-right: var(--box-padding);
+  }
+
+  .back {
+    display: none;
   }
 
   .arrow:before {
@@ -242,9 +246,21 @@
     font-size: var(--font-normal);
   }
 
+  .unCollapsed .back {
+    display: inline;
+  }
+
+  .unCollapsed .arrow {
+    margin: 0 0 0 var(--box-padding);
+  }
+
   .unCollapsed .arrow:before {
     transform: rotate(135deg);
     top: calc(50% - 3px);
+  }
+
+  .unCollapsed .progress {
+    display: none;
   }
 
   .unCollapsed .tabs,
