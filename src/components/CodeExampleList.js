@@ -28,9 +28,15 @@ const CodeExampleList = memo(({ className, variant, examples }) => {
               <span className={css.name}>{example.title}</span>
             </div>
             <div className={css.links}>
-              <a href={example.editorURL}>Web Editor</a>
-              <a href={example.githubURL}>View Code</a>
-              <a href={example.codeURL}>Download Code</a>
+              <a href={example.editorURL} target="_blank" rel="noreferrer">
+                Web Editor
+              </a>
+              <a href={example.githubURL} target="_blank" rel="noreferrer">
+                View Code
+              </a>
+              <a href={example.codeURL} target="_blank" rel="noreferrer">
+                Download Code
+              </a>
             </div>
           </li>
         );

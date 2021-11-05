@@ -9,7 +9,11 @@ const LinkList = memo(({ className, variant, links }) => {
       {links.map((link, key) => {
         return (
           <li className={css.link} key={key}>
-            <a className={css.url} href={link.url}>
+            <a
+              className={css.url}
+              href={link.url}
+              target="_blank"
+              rel="noreferrer">
               {link.title}
             </a>
             {link.author && <span>By {link.author}</span>}
