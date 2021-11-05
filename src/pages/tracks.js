@@ -4,8 +4,8 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 
 import Breadcrumbs from '../components/Breadcrumbs';
-import { Heading1 } from '../components/Heading';
 import Filter from '../components/Filter';
+import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/TrackCard';

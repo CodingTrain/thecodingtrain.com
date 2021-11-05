@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
+import cn from 'classnames';
+
 import Layout from '../components/Layout';
 
-import { Heading1, Heading2, Heading3, Heading4 } from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
-import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
+import Filter from '../components/Filter';
+import { Heading1, Heading2, Heading3, Heading4 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Tabs from '../components/Tabs';
 import TrackCard from '../components/TrackCard';
-import cn from 'classnames';
 
 import * as css from '../styles/pages/components.module.css';
 import { cols, col } from '../styles/styles.module.css';
