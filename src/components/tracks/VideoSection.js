@@ -2,6 +2,7 @@ import React, { memo, useCallback, useState, useEffect } from 'react';
 import cn from 'classnames';
 
 import Tags from '../Tags';
+import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
@@ -57,6 +58,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
           <div className={css.details}>
             <Tags className={css.tags} heading="Languages" items={languages} />
             <Tags className={css.tags} heading="Topics" items={topics} />
+            <ShareButton className={css.share} variant="red" />
           </div>
           <div className={css.video}>
             <YouTubeVideo

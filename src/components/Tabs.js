@@ -2,9 +2,8 @@ import React, { Children, useState, useEffect, useRef } from 'react';
 import cn from 'classnames';
 
 import Button from './Button';
+import ShareButton from './ShareButton';
 import * as css from './Tabs.module.css';
-
-import ShareIcon from '../images/share.svg';
 
 export const Tabs = ({ className, variant, labels, children, shareLink }) => {
   const [active, setActive] = useState(0);
@@ -55,10 +54,7 @@ export const Tabs = ({ className, variant, labels, children, shareLink }) => {
             </li>
           ))}
         </ul>
-        <Button className={css.share}>
-          <ShareIcon />
-          <span>Share</span>
-        </Button>
+        <ShareButton className={css.share} variant="red" />
       </div>
       {Children.toArray(children).map((child, key) => (
         <div

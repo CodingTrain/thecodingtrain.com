@@ -52,6 +52,10 @@
   line-height: var(--baseline-1of2);
 }
 
+.share {
+  display: none;
+}
+
 .video {
   border-left: var(--border);
   border-bottom: var(--border-red);
@@ -148,10 +152,16 @@
   }
 
   .details {
+    align-items: flex-start;
     height: var(--baseline);
+    background: white;
     & > div {
       display: none;
     }
+  }
+
+  .share {
+    display: block;
   }
 
   .videoWrapper {

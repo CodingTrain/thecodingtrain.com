@@ -37,31 +37,6 @@
   font-weight: 600;
 }
 
-.share {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px;
-  height: var(--baseline-box);
-  padding: 0 var(--box-padding);
-  cursor: pointer;
-  line-height: var(--baseline);
-
-  & svg {
-    stroke: var(--gray-mid);
-  }
-
-  & span {
-    padding-left: 10px;
-    text-transform: none;
-    color: var(--gray-mid);
-  }
-}
-
-.share:hover {
-  font-weight: 600;
-}
-
 .component {
   position: relative;
   display: none;
@@ -94,21 +69,6 @@
   & .active {
     background-color: var(--red-light);
   }
-
-  & .share {
-    & svg {
-      & path {
-        stroke: var(--red);
-      }
-      & path + path {
-        fill: var(--red);
-      }
-    }
-
-    & span {
-      color: var(--red);
-    }
-  }
 }
 
 .cyan {
@@ -125,21 +85,6 @@
   & .tab:hover,
   & .active {
     background-color: var(--cyan-light);
-  }
-
-  & .share {
-    & svg {
-      & path {
-        stroke: var(--cyan);
-      }
-      & path + path {
-        fill: var(--cyan);
-      }
-    }
-
-    & span {
-      color: var(--cyan);
-    }
   }
 }
 
