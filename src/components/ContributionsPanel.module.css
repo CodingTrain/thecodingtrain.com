@@ -94,6 +94,10 @@
   overflow: hidden;
 }
 
+.playButton {
+  height: var(--baseline-box);
+}
+
 a.authorName {
   text-decoration: underline;
 }

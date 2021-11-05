@@ -35,7 +35,11 @@ const ContributionsPanel = ({ contributions }) => {
                 ) : (
                   <span className={css.authorName}>{contrib.author.name}</span>
                 )}
-                <a href={contrib.url} target="_blank" rel="noreferrer">
+                <a
+                  href={contrib.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={css.playButton}>
                   <PlayButton width={30} />
                 </a>
               </p>

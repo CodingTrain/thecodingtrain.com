@@ -89,7 +89,7 @@ exports.onCreateNode = ({
         contentDigest: createContentDigest(data)
       }
     });
-    console.log({ newNode });
+    // console.log({ newNode });
     createNode(newNode);
   }
 };
