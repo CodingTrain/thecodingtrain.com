@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
-import Spacer from '../components/Spacer';
+
 import { Heading1, Heading2, Heading3, Heading4 } from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
 import ButtonPanel from '../components/ButtonPanel';
-import Title from '../components/Title';
-import TrackCard from '../components/TrackCard';
+import Spacer from '../components/Spacer';
 import Tabs from '../components/Tabs';
+import TrackCard from '../components/TrackCard';
 import cn from 'classnames';
 
 import * as css from '../styles/pages/components.module.css';
@@ -21,7 +21,7 @@ const ComponentsPage = ({ data }) => {
 
   return (
     <Layout>
-      <Title>Heading</Title>
+      <Spacer>Heading</Spacer>
       <Heading1 variant="red">New to coding</Heading1>
       <Heading2 variant="purple">Challenges</Heading2>
       <Heading3 variant="orange">The Nature of Code 2.0</Heading3>
@@ -29,7 +29,7 @@ const ComponentsPage = ({ data }) => {
         Check out my talks
       </Heading4>
 
-      <Title>Breadcrumbs</Title>
+      <Spacer>Breadcrumbs</Spacer>
       <Breadcrumbs
         breadcrumbs={[
           { name: 'Videos Overview', link: '' },
@@ -51,7 +51,7 @@ const ComponentsPage = ({ data }) => {
         <Heading2>Best</Heading2>
         <Heading2>Nest</Heading2>
       </Tabs>
-      <Title>Filter</Title>
+      <Spacer>Filter</Spacer>
       <div className={cols}>
         <Filter
           title="Filter by Language"
@@ -84,7 +84,7 @@ const ComponentsPage = ({ data }) => {
           className={col}
         />
       </div>
-      <Title>Track Card (slim)</Title>
+      <Spacer>Track Card (slim)</Spacer>
       <TrackCard
         variant="slim"
         title="Code! Programming with p5.js"
@@ -101,7 +101,7 @@ const ComponentsPage = ({ data }) => {
         ]}
         languages={['p5.js', 'JavaScript']}
       />
-      <Title>Track Card (full)</Title>
+      <Spacer>Track Card (full)</Spacer>
       <TrackCard
         title="Code! Programming with p5.js"
         description="This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices."
@@ -117,7 +117,7 @@ const ComponentsPage = ({ data }) => {
         ]}
         languages={['p5.js', 'JavaScript']}
       />
-      <Title>Button panel</Title>
+      <Spacer>Button panel</Spacer>
       <div className={cols}>
         <ButtonPanel
           text={
@@ -142,7 +142,7 @@ const ComponentsPage = ({ data }) => {
         buttonLink={''}
         variant={'purple'}
       />
-      <Title>Pattern</Title>
+      <Spacer>Pattern</Spacer>
       <Spacer pattern />
     </Layout>
   );
