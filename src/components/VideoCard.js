@@ -2,10 +2,7 @@ import React, { memo } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
-import Button from './Button';
 import Image from './Image';
-import Spacer from './Spacer';
-
 import Play from '../images/play.svg';
 
 import * as css from './VideoCard.module.css';

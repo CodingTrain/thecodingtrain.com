@@ -118,7 +118,7 @@ const AboutPage = () => {
         </VideoCardList>
         <div className={css.talksCta}>
           <p>want to see more of my talks?</p>
-          <Button variant="purple" to="/talks">
+          <Button variant="purple" to="/talks" className={css.talksButton}>
             View Talks
           </Button>
         </div>

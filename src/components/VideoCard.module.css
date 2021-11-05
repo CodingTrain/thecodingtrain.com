@@ -106,8 +106,14 @@
 }
 .description {
   margin: 0;
-  padding: var(--spacing-normal);
+  font-family: var(--maru-mono);
+  font-size: var(--font-normal);
+  padding: var(--spacing-small) var(--spacing-small) var(--spacing-small)
+    var(--spacing-normal);
   flex-grow: 1;
+  max-height: var(--baseline-box-4x);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .meta {
   margin-top: 0;
