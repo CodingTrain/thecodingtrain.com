@@ -6,7 +6,6 @@
 .root {
   margin-top: -1px;
   border-left: var(--border);
-  border-bottom: var(--border);
   padding: 0 var(--box-padding);
 
   & h1 {
@@ -30,6 +29,10 @@
     font-size: var(--heading-4);
     line-height: var(--heading-4-line-height);
   }
+}
+
+.root.borderBottom {
+  border-bottom: var(--border);
 }
 
 .root.red {

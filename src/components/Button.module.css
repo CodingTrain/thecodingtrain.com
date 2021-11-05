@@ -6,6 +6,7 @@
   text-transform: uppercase;
   text-align: center;
   font-size: var(--font-medium);
+  font-weight: normal;
   white-space: nowrap;
   border: none;
   transition: background-color 0.2s;

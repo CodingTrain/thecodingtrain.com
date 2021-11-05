@@ -73,6 +73,7 @@
   --gray-light-hover: #cfcfcf;
 
   --cyan: #2dc5f4;
+  --cyan-light: #f8fdff;
   --pink: #f063a4;
   --orange: #f89e4f;
   --orange-light: #fce8d7;
@@ -84,6 +85,9 @@
 
   --border: 1px solid var(--gray-mid);
   --border-purple: 1px solid var(--purple);
+  --border-red: 1px solid var(--red);
+  --border-orange: 1px solid var(--orange);
+  --border-cyan: 1px solid var(--cyan);
   --box-padding: 25px;
 
   --container-max-width: 1600px;

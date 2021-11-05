@@ -62,7 +62,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   flex-grow: 1;
-  height: calc(var(--baseline) * 10 - 1px);
+  height: calc(var(--baseline) * 10);
 
   & img {
     width: 100%;

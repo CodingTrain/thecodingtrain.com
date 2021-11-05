@@ -3,11 +3,21 @@ import cn from 'classnames';
 
 import * as css from './Heading.module.css';
 
-const Heading = ({ children, variant = 'red', fill, level = 1, className }) => {
+const Heading = ({
+  children,
+  variant = 'red',
+  borderBottom = true,
+  fill,
+  level = 1,
+  className
+}) => {
   const Tag = `h${level}`;
   return (
     <div
-      className={cn(css.root, className, css[variant], { [css.fill]: fill })}>
+      className={cn(css.root, className, css[variant], {
+        [css.borderBottom]: borderBottom,
+        [css.fill]: fill
+      })}>
       <Tag>{children}</Tag>
     </div>
   );

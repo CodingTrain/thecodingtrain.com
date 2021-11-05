@@ -1,8 +1,0 @@
-.root {
-  border-left: var(--border);
-  border-bottom: var(--border);
-  padding: var(--spacing-normal);
-  height: var(--baseline-5x);
-}
-.meta {
-}

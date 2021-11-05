@@ -1,5 +1,7 @@
 {
   "title": "Codeland - Creative Coding: An art and code showcase",
-  "meta": "NYC 2017",
+  "event": "Codeland",
+  "year": "2017",
+  "location": "NYC",
   "description": "Let's explore the beautiful, artisitic world of creative coding. This art and code showcase will highlight incredible projects from NYU ITP, the Processing Foundation, and more. Get ready to be inspired."
 }
