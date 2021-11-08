@@ -7,37 +7,37 @@
   "description": "Have you ever wanted to know more about bézier curves in p5.js? Thanks to a generous donation from Jason Oswald, I do a deep dive exploring the bézier curve function and the math behind the algorithm?  ",
   "codeExamples": [
     {
-      "name": "Basic",
+      "title": "Basic",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier",
       "web_editor": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ"
     },
     {
-      "name": "Editor by Simon Tiger",
+      "title": "Editor by Simon Tiger",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor",
       "web_editor": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA"
     },
     {
-      "name": "bezierVertex",
+      "title": "bezierVertex",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex",
       "web_editor": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw"
     },
     {
-      "name": "Time Table Cardioid with Bezier",
+      "title": "Time Table Cardioid with Bezier",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier",
       "web_editor": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg"
     },
     {
-      "name": "Quadratic",
+      "title": "Quadratic",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic",
       "web_editor": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE"
     },
     {
-      "name": "Cubic",
+      "title": "Cubic",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic",
       "web_editor": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1"
