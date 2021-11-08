@@ -5,7 +5,7 @@ import cn from 'classnames';
 import Layout from '../../components/Layout';
 import Breadcrumbs from '../../components/Breadcrumbs';
 import ContributionsPanel from '../../components/ContributionsPanel';
-// import TrackVideoSection from '../../components/tracks/VideoSection';
+import ChallengeVideoSection from '../../components/challenges/VideoSection';
 import VideoInfo from '../../components/tracks/VideoInfo';
 import ChallengesPanel from '../../components/ChallengesPanel';
 import CharacterSpacer from '../../components/CharacterSpacer';
@@ -26,7 +26,8 @@ const Track = (props) => {
         ]}
         variant="cyan"
       />
-      {props.data.challenge.title}
+      <ChallengeVideoSection challenge={challenge} />
+      <div className={css.blankSep} />
       <VideoInfo video={challenge} variant="cyan" />
       <div className={css.blankSep} />
       <CharacterSpacer

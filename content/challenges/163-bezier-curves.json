@@ -10,43 +10,50 @@
       "title": "Basic",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier",
-      "web_editor": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ"
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ"
     },
     {
       "title": "Editor by Simon Tiger",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor",
-      "web_editor": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA"
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA"
     },
     {
       "title": "bezierVertex",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex",
-      "web_editor": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw"
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw"
     },
     {
       "title": "Time Table Cardioid with Bezier",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier",
-      "web_editor": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg"
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg"
     },
     {
       "title": "Quadratic",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic",
-      "web_editor": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE"
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE"
     },
     {
       "title": "Cubic",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic",
-      "web_editor": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1"
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1"
     },
     {
       "name": "Bezier with Formula",
       "lang": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula",
-      "web_editor": "https://editor.p5js.org/codingtrain/sketches/0XOLNHbvC"
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/0XOLNHbvC"
     }
   ],
   "groupLinks": [

@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
