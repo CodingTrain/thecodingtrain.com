@@ -23,3 +23,39 @@
     flex-basis: 100%;
   }
 }
+
+.textLarge {
+  font-family: var(--maru-mono);
+  font-size: var(--maru-large);
+  line-height: var(--maru-large-line-height);
+}
+
+.textMedium {
+  font-family: var(--maru-mono);
+  font-size: var(--maru-medium);
+  line-height: var(--maru-medium-line-height);
+}
+
+.textNormal {
+  font-family: var(--maru-mono);
+  font-size: var(--maru-normal);
+  line-height: var(--maru-normal-line-height);
+}
+
+.textSmall {
+  font-family: var(--maru-mono);
+  font-size: var(--maru-small);
+  line-height: var(--maru-small-line-height);
+}
+
+.textXsmall {
+  font-family: var(--maru-mono);
+  font-size: var(--maru-xsmall);
+  line-height: var(--maru-xsmall-line-height);
+}
+
+.textTiny {
+  font-family: var(--maru-mono);
+  font-size: var(--maru-tiny);
+  line-height: var(--maru-tiny-line-height);
+}

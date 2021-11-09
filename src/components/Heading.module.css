@@ -8,26 +8,52 @@
   border-left: var(--border);
   padding: 0 var(--box-padding);
 
-  & h1 {
-    font-size: var(--heading-1);
-    line-height: var(--heading-1-line-height);
+  &.h1 {
+    font-family: var(--maru-mega);
+    font-size: var(--maru-mega-large);
+    line-height: var(--baseline-3x);
     text-transform: uppercase;
   }
-  & h2 {
-    font-size: var(--heading-2);
-    line-height: var(--heading-2-line-height);
-    text-transform: uppercase;
-  }
-
-  & h3 {
-    font-size: var(--heading-3);
-    line-height: var(--heading-3-line-height);
+  &.h2 {
+    font-family: var(--maru-mega);
+    font-size: var(--maru-mega-medium);
+    line-height: var(--maru-mega-medium-line-height);
     text-transform: uppercase;
   }
 
-  & h4 {
-    font-size: var(--heading-4);
-    line-height: var(--heading-4-line-height);
+  &.h3 {
+    font-family: var(--maru-mega);
+    font-size: var(--maru-mega-small);
+    line-height: var(--maru-mega-small-line-height);
+    text-transform: uppercase;
+  }
+
+  &.h4 {
+    font-size: var(--maru-xlarge);
+    font-weight: bold;
+    line-height: var(--maru-xlarge-line-height);
+  }
+
+  &.h5 {
+    font-size: var(--maru-large);
+    font-weight: bold;
+    line-height: var(--maru-large-line-height);
+  }
+
+  &.h6 {
+    font-size: var(--maru-medium);
+    font-weight: bold;
+    line-height: var(--maru-medium-line-height);
+  }
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
   }
 }
 
@@ -59,8 +85,18 @@
   }
 }
 
-@media (--medium) {
-  .root h1 {
-    line-height: var(--baseline);
+.root.cyan {
+  color: var(--cyan);
+
+  &.fill {
+    background-color: var(--cyan-light);
+  }
+}
+
+.root.pink {
+  color: var(--pink);
+
+  &.fill {
+    background-color: var(--pink-light);
   }
 }

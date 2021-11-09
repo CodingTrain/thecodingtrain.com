@@ -8,13 +8,29 @@ import Layout from '../components/Layout';
 import Breadcrumbs from '../components/Breadcrumbs';
 import ButtonPanel from '../components/ButtonPanel';
 import Filter from '../components/Filter';
-import { Heading1, Heading2, Heading3, Heading4 } from '../components/Heading';
+import {
+  Heading1,
+  Heading2,
+  Heading3,
+  Heading4,
+  Heading5,
+  Heading6
+} from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Tabs from '../components/Tabs';
 import TrackCard from '../components/TrackCard';
 
 import * as css from '../styles/pages/components.module.css';
-import { cols, col } from '../styles/styles.module.css';
+import {
+  cols,
+  col,
+  textLarge,
+  textMedium,
+  textNormal,
+  textSmall,
+  textXsmall,
+  textTiny
+} from '../styles/styles.module.css';
 
 const ComponentsPage = ({ data }) => {
   const [filters1, setFilters1] = useState();
@@ -29,7 +45,40 @@ const ComponentsPage = ({ data }) => {
       <Heading4 variant="purple" fill>
         Check out my talks
       </Heading4>
+      <Heading5 variant="cyan">Welcome to the coding rainbow</Heading5>
+      <Heading6 variant="pink" fill>
+        Choo choo
+      </Heading6>
 
+      <Spacer>Text</Spacer>
+      <div className={cn(css.box, css.spacing)}>
+        <p className={textMedium}>
+          <strong>Text Medium</strong> Can the unpredictable evolutionary and
+          emergent properties of nature be captured insoftware?
+        </p>
+        <p className={textNormal}>
+          <strong>Text Normal</strong> Can understanding the mathematical
+          principles behind the physical world world help to create digital
+          worlds?{' '}
+        </p>
+        <p className={textSmall}>
+          <strong>Text Small</strong> This learning playlist focuses on the
+          programming strategies and techniques behind computer simulations of
+          natural systems.
+        </p>
+
+        <p className={textXsmall}>
+          <strong>Text X-Small</strong> This online course focuses on the
+          fundamentals of computer programming (variables, conditionals,
+          iteration, functions & objects) using JavaScript.
+        </p>
+        <p className={textTiny}>
+          <strong>Text Tiny</strong> In particular it leverages the p5.js
+          creative computing environment which is oriented towards visual
+          displays on desktops, laptops, tablets or smartphones. The course is
+          designed for computer programming novices.{' '}
+        </p>
+      </div>
       <Spacer>Breadcrumbs</Spacer>
       <Breadcrumbs
         breadcrumbs={[

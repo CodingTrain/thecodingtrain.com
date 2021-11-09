@@ -42,6 +42,30 @@
   --maru-mono: "GT Maru Mono", monospace;
   --maru-emoji: "GT Maru Emoji";
 
+  --maru-mega-large: 140px;
+  --maru-mega-large-line-height: var(--baseline-3x);
+  --maru-mega-medium: 70px;
+  --maru-mega-medium-line-height: var(--baseline-2x);
+  --maru-mega-small: 49px;
+  --maru-mega-small-line-height: var(--baseline);
+
+  --maru-xlarge: 35px;
+  --maru-xlarge-line-height: var(--baseline);
+  --maru-large: 24px; /* 22px?  */
+  --maru-large-line-height: var(--baseline);
+  --maru-medium: 16px;
+  --maru-medium-line-height: var(--baseline-1of2);
+  --maru-normal: 15px;
+  --maru-normal-line-height: var(--baseline-1of2);
+  --maru-small: 14px;
+  --maru-small-line-height: var(--baseline-1of2);
+  --maru-xsmall: 12px;
+  --maru-xsmall-line-height: var(--baseline-1of2);
+  --maru-tiny: 11px;
+  --maru-tiny-line-height: var(--baseline-1of2);
+
+  --maru-emoji-normal: 18px;
+
   --font-xsmall: 11px;
   --font-small: 12px;
   --font-normal: 14px;
@@ -49,18 +73,6 @@
   --font-reduced: 16px;
   --font-emoji: 18px;
   --font-large: 22px;
-  --font-xlarge: 93px;
-
-  --heading-1: 140px;
-  --heading-1-line-height: calc(var(--baseline) * 3);
-  --heading-2: 70px;
-  --heading-2-line-height: calc(var(--baseline) * 2);
-  --heading-3: 70px;
-  --heading-3-line-height: calc(var(--baseline) * 2);
-  --heading-3: 35px;
-  --heading-3-line-height: var(--baseline);
-  --heading-4: 24px;
-  --heading-4-line-height: var(--baseline);
 
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
@@ -127,7 +139,6 @@
     --font-medium: 13px;
     --font-reduced: 14px;
     --font-emoji: 16px;
-    --font-xlarge: 32px;
 
     --box-padding: 10px;
     --container-spacing-horizontal: 0px;
