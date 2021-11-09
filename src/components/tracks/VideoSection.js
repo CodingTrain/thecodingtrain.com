@@ -1,4 +1,4 @@
-import React, { memo, useCallback, useState, useEffect } from 'react';
+import React, { memo, useCallback, useState, useEffect, useRef } from 'react';
 import cn from 'classnames';
 
 import Tags from '../Tags';
@@ -31,6 +31,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
   );
 
   const [showTimeline, setShowTimeline] = useState(false);
+  const timelineHasBeenClosed = useRef(false);
   const [showTimestamps, setShowTimestamps] = useState(false);
   const [timestamp, setTimestamp] = useState();
 
@@ -44,6 +45,11 @@ const VideoSection = ({ track, video, trackPosition }) => {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
+      if (timelineHasBeenClosed.current) {
+        const toggleElement = document.getElementById(`timeline-toggle`);
+        toggleElement.scrollIntoView();
+      }
+      if (!timelineHasBeenClosed.current) timelineHasBeenClosed.current = true;
     }
     return () => {
       document.body.style.overflow = 'unset';
@@ -60,7 +66,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
             <Tags className={css.tags} heading="Topics" items={topics} />
             <ShareButton className={css.share} variant="red" />
           </div>
-          <div className={css.video}>
+          <div id="timeline-toggle" className={css.video}>
             <YouTubeVideo
               containerClassName={css.videoWrapper}
               link={video.link}
