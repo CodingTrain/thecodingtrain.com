@@ -1,4 +1,4 @@
-import React, { memo, useCallback, useState, useEffect } from 'react';
+import React, { memo, useCallback, useState, useEffect, useRef } from 'react';
 import cn from 'classnames';
 
 import Tags from '../Tags';
@@ -10,6 +10,7 @@ import * as css from './VideoSection.module.css';
 const VideoSection = ({ challenge }) => {
   const { topics, languages } = challenge;
 
+  const youTubeVideoRef = useRef();
   const [showTimeline, setShowTimeline] = useState(false);
   const [showTimestamps, setShowTimestamps] = useState(true);
   const [timestamp, setTimestamp] = useState();
@@ -22,6 +23,7 @@ const VideoSection = ({ challenge }) => {
   useEffect(() => {
     if (showTimeline) {
       document.body.style.overflow = 'hidden';
+      youTubeVideoRef.current.scrollIntoView();
     } else {
       document.body.style.overflow = 'unset';
     }
@@ -40,7 +42,7 @@ const VideoSection = ({ challenge }) => {
             <Tags className={css.tags} heading="Topics" items={topics} />
             <ShareButton className={css.share} variant="cyan" />
           </div>
-          <div className={css.video}>
+          <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
               containerClassName={css.videoWrapper}
               link={challenge.link}
@@ -72,7 +74,7 @@ const VideoSection = ({ challenge }) => {
                 className={cn(css.timestampsTimeline, {
                   [css.hide]: !showTimestamps
                 })}
-                variant="red"
+                variant="cyan"
                 timestamps={challenge.timestamps}
                 updateTimestamp={updateTimestamp}
               />

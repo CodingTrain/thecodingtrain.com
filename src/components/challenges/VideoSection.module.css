@@ -8,15 +8,15 @@
   align-items: center;
   margin-top: -2px;
   min-height: calc(var(--baseline) + 2px);
-  border-top: var(--border-red);
-  border-bottom: var(--border-red);
+  border-top: var(--border-cyan);
+  border-bottom: var(--border-cyan);
   border-left: var(--border);
   padding: 0 var(--box-padding);
   background: white;
   font-family: var(--maru);
   font-size: 24px;
   line-height: var(--baseline-2of3);
-  color: var(--red);
+  color: var(--cyan);
   font-weight: 600;
 }
 
@@ -37,11 +37,11 @@
 
 .details {
   border-left: var(--border);
-  border-bottom: var(--border-red);
+  border-bottom: var(--border-cyan);
   height: var(--baseline-2x);
   font-size: 30px;
   padding: 0 var(--box-padding);
-  color: var(--red);
+  color: var(--cyan);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,7 +58,7 @@
 
 .video {
   border-left: var(--border);
-  border-bottom: var(--border-red);
+  border-bottom: var(--border-cyan);
 }
 
 .videoWrapper {
@@ -95,8 +95,8 @@
 
 .tab {
   flex: 1;
-  border-left: var(--border-red);
-  border-bottom: var(--border-red);
+  border-left: var(--border-cyan);
+  border-bottom: var(--border-cyan);
 
   & button {
     width: 100%;
@@ -105,27 +105,27 @@
     padding: 0 var(--spacing-normal);
     font-family: var(--maru-mono);
     font-size: var(--font-medium);
-    color: var(--red);
+    color: var(--cyan);
     background-color: white;
     text-align: left;
     text-transform: uppercase;
   }
 
   & button:hover {
-    background-color: var(--red-light);
+    background-color: var(--cyan-light);
     font-weight: 600;
   }
 }
 
 .selected button {
-  background-color: var(--red-light);
+  background-color: var(--cyan-light);
   font-weight: 600;
 }
 
 /* Timeline section */
 
 .timeline {
-  color: var(--red);
+  color: var(--cyan);
   font-size: var(--font-small);
   font-family: var(--maru-mono);
 }
@@ -201,12 +201,12 @@
     position: relative;
     height: var(--baseline);
     padding: 0 var(--box-padding);
-    border-left: var(--border-red);
-    border-bottom: var(--border-red);
-    background: var(--red-light);
+    border-left: var(--border-cyan);
+    border-bottom: var(--border-cyan);
+    background: var(--cyan-light);
     cursor: pointer;
     font-size: var(--font-small);
-    color: var(--red);
+    color: var(--cyan);
   }
 
   .timelinesToggle:hover {
@@ -231,8 +231,8 @@
     transform: rotate(-45deg);
     width: 10px;
     height: 10px;
-    border-left: 1.5px solid var(--red);
-    border-bottom: 1.5px solid var(--red);
+    border-left: 1.5px solid var(--cyan);
+    border-bottom: 1.5px solid var(--cyan);
   }
 
   .unCollapsed .timelinesToggle {
@@ -241,7 +241,7 @@
     left: 0;
     margin: 0 var(--container-spacing-horizontal);
     width: calc(100% - 2 * var(--container-spacing-horizontal));
-    border-right: var(--border-red);
+    border-right: var(--border-cyan);
     z-index: 100;
     font-size: var(--font-normal);
   }
@@ -265,7 +265,7 @@
 
   .unCollapsed .tabs,
   .unCollapsed .timeline {
-    border-right: var(--border-red);
+    border-right: var(--border-cyan);
   }
 
   .tab button {

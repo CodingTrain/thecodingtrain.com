@@ -10,7 +10,7 @@ import VideoInfo from '../../components/tracks/VideoInfo';
 import ChallengesPanel from '../../components/ChallengesPanel';
 import CharacterSpacer from '../../components/CharacterSpacer';
 
-import * as css from '../../styles/pages/tracks/track.module.css';
+import * as css from '../../styles/pages/challenges/challenge.module.css';
 import { pattern } from '../../styles/styles.module.css';
 
 const Track = (props) => {
