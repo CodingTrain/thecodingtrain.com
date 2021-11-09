@@ -43,6 +43,15 @@
   color: var(--gray-mid);
 }
 
+.message {
+  display: flex;
+  justify-content: center;
+  height: var(--baseline);
+  flex-grow: 1;
+  line-height: var(--baseline-1of4);
+  color: var(--gray-mid);
+}
+
 /* Variants */
 
 .red {
