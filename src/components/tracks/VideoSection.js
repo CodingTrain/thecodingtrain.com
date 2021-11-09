@@ -1,4 +1,4 @@
-import React, { memo, useCallback, useState, useEffect } from 'react';
+import React, { memo, useCallback, useState, useEffect, useRef } from 'react';
 import cn from 'classnames';
 
 import Tags from '../Tags';
@@ -24,13 +24,14 @@ const getOverallPositionInTrack = (trackPosition, track) => {
 
 const VideoSection = ({ track, video, trackPosition }) => {
   const { chapters } = track;
-  const { topics, languages } = video;
+  const { title, link, topics, languages, timestamps } = video;
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
     trackPosition,
     track
   );
 
   const [showTimeline, setShowTimeline] = useState(false);
+  const youTubeVideoRef = useRef();
   const [showTimestamps, setShowTimestamps] = useState(false);
   const [timestamp, setTimestamp] = useState();
 
@@ -42,6 +43,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
   useEffect(() => {
     if (showTimeline) {
       document.body.style.overflow = 'hidden';
+      youTubeVideoRef.current.scrollIntoView();
     } else {
       document.body.style.overflow = 'unset';
     }
@@ -52,7 +54,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
 
   return (
     <div className={css.root}>
-      <h2 className={css.subheading}>{video.title}</h2>
+      <h2 className={css.subheading}>{title}</h2>
       <div className={css.videoPlayer}>
         <div className={css.left}>
           <div className={css.details}>
@@ -60,10 +62,10 @@ const VideoSection = ({ track, video, trackPosition }) => {
             <Tags className={css.tags} heading="Topics" items={topics} />
             <ShareButton className={css.share} variant="red" />
           </div>
-          <div className={css.video}>
+          <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
               containerClassName={css.videoWrapper}
-              link={video.link}
+              link={link}
               timestamp={timestamp}
             />
           </div>
@@ -101,7 +103,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
                   [css.hide]: !showTimestamps
                 })}
                 variant="red"
-                timestamps={video.timestamps}
+                timestamps={timestamps}
                 updateTimestamp={updateTimestamp}
               />
               <OverviewTimeline
