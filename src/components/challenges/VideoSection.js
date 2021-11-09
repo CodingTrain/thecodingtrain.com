@@ -12,7 +12,6 @@ const VideoSection = ({ challenge }) => {
 
   const youTubeVideoRef = useRef();
   const [showTimeline, setShowTimeline] = useState(false);
-  const [showTimestamps, setShowTimestamps] = useState(true);
   const [timestamp, setTimestamp] = useState();
 
   const updateTimestamp = useCallback((value) => {
@@ -63,17 +62,11 @@ const VideoSection = ({ challenge }) => {
           </div>
           <div className={css.timelinesContent}>
             <div className={css.tabs}>
-              <div className={cn(css.tab, { [css.selected]: showTimestamps })}>
-                <button onClick={() => setShowTimestamps(true)}>
-                  Video timestamps
-                </button>
-              </div>
+              <div className={css.tab}>Video timestamps</div>
             </div>
             <div className={css.timeline}>
               <TimestampTimeline
-                className={cn(css.timestampsTimeline, {
-                  [css.hide]: !showTimestamps
-                })}
+                className={css.timestampsTimeline}
                 variant="cyan"
                 timestamps={challenge.timestamps}
                 updateTimestamp={updateTimestamp}

@@ -96,31 +96,18 @@
 
 .tab {
   flex: 1;
+  display: flex;
+  align-items: center;
   border-left: var(--border-cyan);
   border-bottom: var(--border-cyan);
-
-  & button {
-    width: 100%;
-    height: var(--baseline-box-2x);
-    cursor: pointer;
-    padding: 0 var(--spacing-normal);
-    font-family: var(--maru-mono);
-    font-size: var(--font-medium);
-    color: var(--cyan);
-    background-color: white;
-    text-align: left;
-    text-transform: uppercase;
-  }
-
-  & button:hover {
-    background-color: var(--cyan-light);
-    font-weight: 600;
-  }
-}
-
-.selected button {
-  background-color: var(--cyan-light);
-  font-weight: 600;
+  height: var(--baseline-box-2x);
+  padding: 0 var(--spacing-normal);
+  font-family: var(--maru-mono);
+  font-size: var(--font-medium);
+  color: var(--cyan);
+  background-color: white;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 /* Timeline section */
@@ -129,11 +116,6 @@
   color: var(--cyan);
   font-size: var(--font-small);
   font-family: var(--maru-mono);
-}
-
-.overviewTimeline.hide,
-.timestampsTimeline.hide {
-  display: none;
 }
 
 @media (--medium) {
@@ -269,9 +251,9 @@
     border-right: var(--border-cyan);
   }
 
-  .tab button {
+  .tab {
+    justify-content: center;
     height: var(--baseline-box);
-    text-align: center;
   }
 }
 
