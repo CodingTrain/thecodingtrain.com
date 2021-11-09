@@ -8,7 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
 import PagePanel from '../components/PagePanel';
 
-import * as css from '../styles/pages/tracks.module.css';
+import * as css from '../styles/pages/challenges.module.css';
 
 const TracksPage = ({ data }) => {
   const [selectedLanguage, setSelectedLanguage] = useState();
@@ -55,6 +55,7 @@ const TracksPage = ({ data }) => {
           expanded={expanded}
           onExpand={onExpand}
           className={css.filter}
+          variant="cyan"
         />
         <Filter
           title="Filter by Topic"
@@ -76,6 +77,7 @@ const TracksPage = ({ data }) => {
           expanded={expanded}
           onExpand={onExpand}
           className={css.filter}
+          variant="cyan"
         />
       </div>
       <Spacer />
