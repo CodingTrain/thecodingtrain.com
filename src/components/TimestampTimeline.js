@@ -23,7 +23,7 @@ const TimestampTimeline = memo(
           </button>
         );
       })}
-      {timestamps.length == 0 && (
+      {timestamps.length === 0 && (
         <div className={css.timestamp}>
           <span className={css.message}>No timestamps for this video</span>
         </div>

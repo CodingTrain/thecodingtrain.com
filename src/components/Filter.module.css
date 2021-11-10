@@ -119,7 +119,7 @@
 
 .cyan {
   &.root {
-    ccolor: var(--cyan);
+    color: var(--cyan);
     background-color: var(--cyan-light);
   }
 
