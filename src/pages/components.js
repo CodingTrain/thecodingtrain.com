@@ -19,7 +19,7 @@ import {
 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Tabs from '../components/Tabs';
-import TrackCard from '../components/TrackCard';
+import TrackCard from '../components/tracks/Card';
 
 import * as css from '../styles/pages/components.module.css';
 import {

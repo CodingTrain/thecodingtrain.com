@@ -8,7 +8,7 @@ import Filter from '../components/Filter';
 import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
 import Spacer from '../components/Spacer';
-import TrackCard from '../components/TrackCard';
+import TrackCard from '../components/tracks/Card';
 
 import { useImages } from '../hooks';
 
