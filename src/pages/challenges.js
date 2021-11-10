@@ -10,7 +10,8 @@ import PagePanel from '../components/PagePanel';
 
 import * as css from '../styles/pages/challenges.module.css';
 
-const TracksPage = ({ data }) => {
+const ChallengesPage = ({ data }) => {
+  console.log({ data });
   const [selectedLanguage, setSelectedLanguage] = useState();
   const [selectedTopic, setSelectedTopic] = useState();
   const [expanded, setExpanded] = useState(false);
@@ -33,7 +34,7 @@ const TracksPage = ({ data }) => {
         buttonText="Start here"
         buttonLink="#"
         variant="purple"
-        bbColor="red"
+        bbColor="cyan"
       />
       <div className={css.filters}>
         <Filter
@@ -87,24 +88,17 @@ const TracksPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    tracks: allTrack {
+    tracks: allChallenge {
       nodes {
         title
         slug
-        description
-        numVideos
-        type
-        chapters {
-          title
-          videos {
-            title
-          }
-        }
+        topics
+        languages
       }
     }
     images: allFile(
       filter: {
-        sourceInstanceName: { eq: "tracks" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
       }
     ) {
@@ -118,4 +112,4 @@ export const query = graphql`
   }
 `;
 
-export default TracksPage;
+export default ChallengesPage;

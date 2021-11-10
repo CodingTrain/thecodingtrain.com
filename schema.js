@@ -31,6 +31,8 @@ type Video implements Node {
 
 type Challenge implements Node {
   title: String!
+  slug: String!
+  description: String!
   topics: [String!]
   languages: [String!]
   link: String!
