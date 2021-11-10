@@ -8,7 +8,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   padding: var(--spacing-small) var(--spacing-normal);
-  height: var(--baseline-3x);
+  /* height: var(--baseline-3x); */
 }
 
 .aboutBlock {

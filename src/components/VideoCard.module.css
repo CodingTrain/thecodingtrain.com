@@ -19,6 +19,15 @@
     flex-basis: 100%;
   }
 }
+
+.root:nth-child(odd):last-child {
+  width: 100%;
+  flex-basis: 100%;
+  & .gap {
+    border: none !important;
+  }
+}
+
 /* variants */
 .root.purple {
   --color: var(--purple);

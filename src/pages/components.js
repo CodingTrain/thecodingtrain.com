@@ -25,7 +25,6 @@ import * as css from '../styles/pages/components.module.css';
 import {
   cols,
   col,
-  textLarge,
   textMedium,
   textNormal,
   textSmall,

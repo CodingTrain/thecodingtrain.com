@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -12,36 +13,18 @@ import Train from '../images/train.svg';
 import Github from '../images/github.svg';
 import Twitter from '../images/twitter.svg';
 
+import { useImages } from '../hooks';
+
 import * as css from '../styles/pages/about.module.css';
 
 // data
 import collaborators from '../../content/collaborators.json';
 
-// this would come from actual data
-import codelandImg from '../../content/talks/codeland-creative-coding.png';
-const codeland = {
-  title:
-    'Codeland - Creative Coding: An art and code showcase lal lala lal ala lal la',
-  slug: 'codeland-creative-coding',
-  meta: 'NYC, 2017',
-  description:
-    "Let's explore the beautiful, artisitic world of creative coding. This art and code showcase will highlight incredible projects from NYU ITP, the Processing Foundation, and more. Get ready to be inspired.",
-  image: {
-    images: {
-      sources: [
-        {
-          src: codelandImg,
-          type: 'png'
-        }
-      ],
-      fallback: { src: codelandImg }
-    }
-  }
-};
+const AboutPage = ({ data }) => {
+  const talks = data.talks.nodes;
+  const hasMoreTalks = data.talks.hasNextPage;
+  const images = useImages(data.images.nodes);
 
-const talks = [codeland, codeland, codeland, codeland];
-
-const AboutPage = () => {
   return (
     <Layout>
       <div className={css.row}>
@@ -113,15 +96,22 @@ const AboutPage = () => {
         </Heading4>
         <VideoCardList>
           {talks.map((talk, index) => (
-            <VideoCard key={index} variant="purple" {...talk} />
+            <VideoCard
+              key={index}
+              variant="purple"
+              {...talk}
+              image={images[talk.slug]}
+            />
           ))}
         </VideoCardList>
-        <div className={css.talksCta}>
-          <p>want to see more of my talks?</p>
-          <Button variant="purple" to="/talks" className={css.talksButton}>
-            View Talks
-          </Button>
-        </div>
+        {hasMoreTalks && (
+          <div className={css.talksCta}>
+            <p>want to see more of my talks?</p>
+            <Button variant="purple" to="/talks" className={css.talksButton}>
+              View Talks
+            </Button>
+          </div>
+        )}
       </div>
       <Spacer pattern />
       <div id="acknowledgements">
@@ -162,5 +152,35 @@ const AboutPage = () => {
     </Layout>
   );
 };
+
+export const query = graphql`
+  query {
+    talks: allTalk(limit: 4) {
+      pageInfo {
+        hasNextPage
+      }
+      nodes {
+        title
+        slug
+        description
+        meta
+        link
+      }
+    }
+    images: allFile(
+      filter: {
+        sourceInstanceName: { eq: "talks" }
+        extension: { in: ["jpg", "png"] }
+      }
+    ) {
+      nodes {
+        name
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+  }
+`;
 
 export default AboutPage;

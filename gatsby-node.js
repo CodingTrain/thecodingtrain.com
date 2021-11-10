@@ -92,6 +92,26 @@ exports.onCreateNode = ({
     // console.log({ newNode });
     createNode(newNode);
   }
+
+  /**
+    Turn talk json files into Talk nodes
+  **/
+  if (node.internal.type === 'TalksJson') {
+    const parent = getNode(node.parent);
+    const slug = parent.name;
+    const data = getJson(node);
+
+    const newNode = Object.assign({}, data, {
+      id: createNodeId(slug),
+      slug,
+      internal: {
+        type: `Talk`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+    // console.log({ newNode });
+    createNode(newNode);
+  }
 };
 
 exports.createPages = async function ({ actions, graphql }) {

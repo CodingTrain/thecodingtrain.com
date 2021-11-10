@@ -23,8 +23,8 @@ type Video implements Node {
   languages: [String!]
   link: String!
   timestamps: [Timestamp!]
-  groupLinks: [GroupLink!] 
-  codeExamples: [CodeExample!] 
+  groupLinks: [GroupLink!]
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!]
 }
@@ -63,5 +63,13 @@ type Contribution implements Node {
 type Author implements Node {
   name: String
   url: String
+}
+
+type Talk implements Node {
+  name: String!
+  description: String!
+  meta: String!
+  link: String
+
 }
 `;

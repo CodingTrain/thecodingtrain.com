@@ -5,6 +5,7 @@
   padding: 0 var(--box-padding);
   text-transform: uppercase;
   text-align: center;
+  font-family: var(--maru-mono);
   font-size: var(--font-medium);
   font-weight: normal;
   white-space: nowrap;
