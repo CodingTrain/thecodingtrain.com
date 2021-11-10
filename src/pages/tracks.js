@@ -6,7 +6,7 @@ import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
-import TrackCard from '../components/TrackCard';
+import TrackCard from '../components/tracks/Card';
 import PagePanel from '../components/PagePanel';
 
 import { useImages } from '../hooks';
@@ -29,10 +29,7 @@ const TracksPage = ({ data }) => {
     <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
-        breadcrumbs={[
-          { name: 'Videos Overview', link: '#' },
-          { name: 'Tracks', link: '#' }
-        ]}
+        breadcrumbs={[{ name: 'Tracks', link: '#' }]}
         variant="red"
       />
       <Heading>Tracks</Heading>
@@ -94,7 +91,7 @@ const TracksPage = ({ data }) => {
             <TrackCard
               {...track}
               image={images[track.slug] || images.placeholder}
-              path="/tracks/code-programming-with-p5-js"
+              path={`/tracks/${track.slug}`}
               topics={[
                 'Beginner-Friendly',
                 'Machine Learning',

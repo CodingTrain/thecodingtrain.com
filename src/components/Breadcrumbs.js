@@ -8,7 +8,7 @@ const Breadcrumbs = ({ breadcrumbs, variant, className }) => {
   return (
     <div className={cn(css.root, { [css[variant]]: css[variant] }, className)}>
       {breadcrumbs.map((breadcrumb, i) => {
-        const isString = typeof item === 'string';
+        const isString = typeof breadcrumb.link !== 'string';
         return (
           <span key={i} className={css.crumb}>
             {isString ? (

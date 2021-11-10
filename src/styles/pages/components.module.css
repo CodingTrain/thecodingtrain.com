@@ -7,5 +7,5 @@
 .pattern {
   border-left: var(--border);
   border-bottom: var(--border);
-  height: var(--baseline-box);
+  height: var(--baseline);
 }

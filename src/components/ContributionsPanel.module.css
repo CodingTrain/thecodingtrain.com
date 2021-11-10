@@ -1,0 +1,130 @@
+.root {
+  font-family: var(--maru-mono);
+}
+
+.titleBox {
+  position: relative;
+  z-index: 1;
+  margin-top: -2px;
+  border-top: var(--border-purple);
+  display: flex;
+  flex-wrap: wrap;
+  border-left: var(--border-purple);
+  border-bottom: var(--border-purple);
+  text-transform: uppercase;
+  color: var(--purple);
+  background-color: var(--purple-light);
+
+  & * {
+    padding: 0 var(--box-padding);
+    line-height: var(--baseline);
+    font-family: var(--maru-mono);
+    font-size: var(--font-medium);
+  }
+
+  & h4 {
+    font-weight: 600;
+  }
+
+  & p {
+    margin: 0;
+  }
+}
+
+.contributions {
+  display: flex;
+  overflow-x: auto;
+}
+
+.contrib {
+  width: 27%;
+  flex: 0 0 27%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--maru-mono);
+  font-size: var(--font-medium);
+}
+
+.spacer {
+  flex: 0 0 var(--box-padding);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+.spacer:last-child {
+  flex: 1 1 var(--box-padding);
+}
+
+.contribsPanel p {
+  color: var(--purple);
+}
+
+.contribsPanel button {
+  flex-basis: 50%;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--gray-mid);
+  text-transform: uppercase;
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  line-height: var(--baseline-box);
+  padding: 0 calc(var(--box-padding) / 2);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.author {
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  line-height: var(--baseline-box);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 calc(var(--box-padding) / 2);
+}
+
+.authorName {
+  color: var(--purple);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.playButton {
+  height: var(--baseline-box);
+}
+
+a.authorName {
+  text-decoration: underline;
+}
+
+.imagePlaceholder {
+  height: var(--baseline-3x);
+  background-color: var(--gray-light);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+@media (--medium) {
+  .contrib {
+    width: 40%;
+    flex: 0 0 40%;
+  }
+}
+
+@media (--small) {
+  .titleBox p {
+    display: none;
+  }
+  .contrib {
+    width: 300px;
+    flex: 0 0 300px;
+  }
+  .imagePlaceholder {
+    height: var(--baseline-4x);
+  }
+}

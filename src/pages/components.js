@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
+import cn from 'classnames';
+
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
 import Heading from '../components/Heading';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Filter from '../components/Filter';
-import ButtonPanel from '../components/ButtonPanel';
-import TrackCard from '../components/TrackCard';
+import ContributionsPanel from '../components/ContributionsPanel';
+import TrackCard from '../components/tracks/Card';
 import Tabs from '../components/Tabs';
-import cn from 'classnames';
+import ButtonPanel from '../components/ButtonPanel';
 
 import * as css from '../styles/pages/components.module.css';
 import { cols, col, pattern } from '../styles/styles.module.css';
@@ -41,8 +43,7 @@ const ComponentsPage = ({ data }) => {
         ]}
         variant="purple"
       />
-      <Tabs
-        labels={['First Component', 'Second Component', 'Third Component']}>
+      <Tabs labels={['First Component', 'Second Component', 'Third Component']}>
         <Heading>Test</Heading>
         <Heading>Best</Heading>
         <Heading>Nest</Heading>
@@ -140,6 +141,48 @@ const ComponentsPage = ({ data }) => {
       />
       <Spacer label="Pattern" />
       <div className={cn(pattern, css.pattern)} />
+      <ContributionsPanel
+        contributions={[
+          {
+            title: '#1.3 random vectors',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          }
+        ]}
+      />
     </Layout>
   );
 };

@@ -76,6 +76,7 @@
     position: fixed;
     z-index: 100;
     border-right: var(--border);
+    width: 100%;
   }
 }
 

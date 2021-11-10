@@ -1,8 +1,10 @@
 import * as React from 'react';
+import { graphql } from 'gatsby';
 import { Link } from 'gatsby';
+
 import Layout from '../components/Layout';
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
   return (
     <Layout>
       <ul>
@@ -11,10 +13,28 @@ const IndexPage = () => {
         </li>
         <li>
           <Link to="/tracks">Go to tracks page</Link>
+          <ul>
+            {data.tracks.nodes.map((track, i) => (
+              <li key={i}>
+                <Link to={`/tracks/${track.slug}`}>{track.title}</Link>
+              </li>
+            ))}
+          </ul>
         </li>
       </ul>
     </Layout>
   );
 };
+
+export const query = graphql`
+  query {
+    tracks: allTrack {
+      nodes {
+        title
+        slug
+      }
+    }
+  }
+`;
 
 export default IndexPage;

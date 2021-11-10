@@ -19,11 +19,16 @@
   --baseline-6x: calc(var(--baseline) * 6);
   --baseline-7x: calc(var(--baseline) * 7);
   --baseline-8x: calc(var(--baseline) * 8);
+  --baseline-9x: calc(var(--baseline) * 9);
+  --baseline-10x: calc(var(--baseline) * 10);
+  --baseline-12x: calc(var(--baseline) * 12);
 
   --baseline-1of2: calc(var(--baseline) / 2);
   --baseline-1of3: calc(var(--baseline) / 3);
   --baseline-2of3: calc(var(--baseline) / 3 * 2);
   --baseline-1of4: calc(var(--baseline) / 4);
+  --baseline-2of5: calc(var(--baseline) / 5 * 2);
+  --baseline-3of5: calc(var(--baseline) / 5 * 3);
 
   /*
     This is the baseline that content inside boxes can rely on.
@@ -36,6 +41,10 @@
   --baseline-box-4x: calc(var(--baseline) * 4 - 1px);
   --baseline-box-5x: calc(var(--baseline) * 5 - 1px);
   --baseline-box-6x: calc(var(--baseline) * 6 - 1px);
+  --baseline-box-7x: calc(var(--baseline) * 7 - 1px);
+  --baseline-box-8x: calc(var(--baseline) * 8 - 1px);
+  --baseline-box-9x: calc(var(--baseline) * 9 - 1px);
+  --baseline-box-10x: calc(var(--baseline) * 10 - 1px);
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
@@ -49,11 +58,13 @@
   --font-reduced: 16px;
   --font-emoji: 18px;
   --font-large: 22px;
-  --font-xlarge: 93px;
+  --font-xlarge: 55px;
+  --font-huge: 140px;
 
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
   --spacing-normal: 15px;
+  --spacing-large: 60px;
   --spacing-xlarge: 100px;
 
   --gray-dark: #3c3c3c;
@@ -62,6 +73,7 @@
   --gray-light-hover: #cfcfcf;
 
   --cyan: #2dc5f4;
+  --cyan-light: #eefbff;
   --pink: #f063a4;
   --orange: #f89e4f;
   --orange-light: #fce8d7;
@@ -72,10 +84,19 @@
   --red-lightest: #fffcfc;
 
   --border: 1px solid var(--gray-mid);
+  --border-red-light: 1px solid rgba(255, 0, 0, 0.1);
+  --border-red: 1px solid var(--red);
+  --border-purple: 1px solid var(--purple);
+  --border-cyan: 1px solid var(--cyan);
   --box-padding: 25px;
 
   --container-max-width: 1600px;
   --container-spacing-horizontal: 50px;
+
+  --timeline-heading-mark: 60px;
+  --timeline-padding: 20px;
+  --timeline-spacing: 20px;
+  --timeline-dot: 15px;
 }
 
 @media (--medium) {
@@ -86,16 +107,27 @@
     --font-medium: 14px;
     --font-reduced: 15px;
     --font-emoji: 17px;
-    --font-xlarge: 45px;
+    /* --font-xlarge: 30px; */
+    --font-huge: 100px;
 
     --box-padding: 13px;
     --container-spacing-horizontal: 30px;
+
+    --timeline-heading-mark: 30px;
+    --timeline-padding: 15px;
+    --timeline-spacing: 10px;
+    --timeline-dot: 12px;
   }
 }
 
 @media (--reduced) {
   :root {
     --container-spacing-horizontal: 20px;
+
+    --timeline-heading-mark: 70px;
+    --timeline-padding: 25px;
+    --timeline-spacing: 40px;
+    --timeline-dot: 15px;
   }
 }
 
@@ -110,9 +142,15 @@
     --font-medium: 13px;
     --font-reduced: 14px;
     --font-emoji: 16px;
-    --font-xlarge: 32px;
+    --font-xlarge: 25px;
+    --font-huge: 80px;
 
     --box-padding: 10px;
     --container-spacing-horizontal: 0px;
+
+    --timeline-heading-mark: 30px;
+    --timeline-padding: 15px;
+    --timeline-spacing: 10px;
+    --timeline-dot: 12px;
   }
 }
