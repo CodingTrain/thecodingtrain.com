@@ -1,0 +1,123 @@
+.root {
+}
+
+/*
+  Since text can flow on multiple lines, the line-height needs to be `--baseline`,
+  so we offset with a margin-top of -1px. See variables.css for explanation.
+ */
+.title {
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+  min-height: calc(var(--baseline-2x) + 2px);
+  border-top: var(--border);
+  border-left: var(--border);
+  border-bottom: var(--border);
+  padding: 0 var(--box-padding);
+  background: white;
+  font-size: 52px;
+  line-height: var(--baseline);
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.info {
+  display: flex;
+  border-left: var(--border);
+  border-bottom: var(--border-red);
+  background: white;
+  font-family: var(--maru-mono);
+  color: var(--gray-mid);
+}
+
+.description {
+  flex-basis: 70%;
+  border-bottom: var(--border-red);
+  height: var(--baseline-box-5x);
+  padding: 0 7% 0 var(--box-padding);
+  background: white;
+  font-size: var(--font-medium);
+
+  & p {
+    margin: var(--baseline-3of5) 0 calc(var(--baseline-2of5)-1px) 0;
+    line-height: var(--baseline-1of2);
+  }
+}
+
+.showMore {
+  height: var(--baseline-box-8x);
+}
+
+.tagsContainer {
+  flex-basis: 30%;
+  margin-top: var(--baseline-3of5);
+  margin-bottom: var(--baseline-2of5);
+  height: var(--baseline-box-4x);
+  padding: 0 var(--box-padding);
+  background: white;
+  font-size: var(--font-medium);
+  line-height: var(--baseline-1of2);
+}
+
+@media (--medium) {
+  .title {
+    letter-spacing: 0.01em;
+  }
+
+  .description {
+    padding: 0 var(--box-padding);
+  }
+}
+
+@media (--reduced) {
+  .info {
+    flex-wrap: wrap;
+  }
+
+  .description {
+    flex-basis: 100%;
+    height: var(--baseline-box-5x);
+    padding: 0 var(--box-padding);
+  }
+
+  .description.showMore {
+    height: var(--baseline-box-6x);
+  }
+
+  .tagsContainer {
+    display: none;
+  }
+}
+
+@media (--small) {
+  .sep {
+    height: var(--baseline);
+    border-bottom: var(--border);
+    border-left: var(--border);
+  }
+
+  .title {
+    border-bottom: var(--border-red-light);
+    font-size: 42px;
+    letter-spacing: 0.01em;
+  }
+  .description {
+    height: var(--baseline-box-6x);
+  }
+  .description.showMore {
+    height: var(--baseline-box-8x);
+  }
+
+  .info {
+    border-bottom: var(--border-red-light);
+  }
+}
+
+@media (--xsmall) {
+  .description {
+    height: var(--baseline-box-7x);
+  }
+  .description.showMore {
+    height: var(--baseline-box-9x);
+  }
+}

@@ -1,13 +1,14 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
-import Image from './Image';
-import ButtonPanel from './ButtonPanel';
+import Image from '../Image';
+import ButtonPanel from '../ButtonPanel';
+import Tags from '../Tags';
 
-import * as css from './TrackCard.module.css';
-import { pattern } from '../styles/styles.module.css';
+import * as css from './Card.module.css';
+import { pattern } from '../../styles/styles.module.css';
 
-const TrackCard = ({
+const Card = ({
   title,
   description,
   image,
@@ -26,8 +27,8 @@ const TrackCard = ({
       <div className={css.left}>
         <div className={css.text}>
           <h3 className={css.title}>{title}</h3>
-          <Tags heading="Topics" items={topics} />
-          <Tags heading="Languages" items={languages} />
+          <Tags className={css.tags} heading="Topics" items={topics} />
+          <Tags className={css.tags} heading="Languages" items={languages} />
           <p className={css.description}>{description}</p>
         </div>
         <div className={css.fadeText} />
@@ -55,19 +56,4 @@ const TrackCard = ({
   );
 };
 
-const Tags = memo(({ heading, items }) => {
-  const visibleItems = items.slice(0, 2);
-  // const hiddenItems = items.slice(2);
-  return (
-    <div className={css.tags}>
-      <h4 className={css.tagHeading}>{heading}</h4>
-      {visibleItems.map((tag) => (
-        <span className={css.tag} key={tag}>
-          {tag}
-        </span>
-      ))}
-    </div>
-  );
-});
-
-export default TrackCard;
+export default memo(Card);

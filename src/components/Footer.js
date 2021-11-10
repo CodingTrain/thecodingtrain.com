@@ -43,14 +43,14 @@ const Footer = () => {
         </div>
         <div className={cn(css.box)}>
           <h3>
-            <Link to="#">Join the community</Link>
+            <a href="https://discord.com/invite/hPuGy2g">Join the community</a>
           </h3>
           <div className={css.action}>
             <p>
               Join our channel on Discord to find answers to your questions and
               take part in our inclusive community.
             </p>
-            <a href="#">Join now</a>
+            <a href="https://discord.com/invite/hPuGy2g">Join now</a>
           </div>
         </div>
         <div className={cn(css.box)}>

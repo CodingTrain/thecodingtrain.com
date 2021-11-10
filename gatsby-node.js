@@ -1,34 +1,8 @@
 const omit = require('lodash/omit');
+const { schema } = require('./schema');
 
-exports.createSchemaCustomization = ({ actions, schema }) => {
-  const { createTypes } = actions;
-
-  // We don't necessarily need to add every field here, since
-  // Gatsby will auto-generate the fields when created. This is
-  // just to make sure that certain fields are set to certain types.
-  createTypes(`
-    type Track implements Node {
-      title: String!
-      slug: String!
-      type: String!
-      description: String!
-      chapters: [Chapter] @link
-      numVideos: Int!
-    }
-
-    type Chapter implements Node {
-      title: String
-      track: Track! @link
-      videos: [Video] @link
-    }
-
-    type Video implements Node {
-      title: String!
-      topics: [String]
-      languages: [String]
-    }
-  `);
-};
+exports.createSchemaCustomization = ({ actions }) =>
+  actions.createTypes(schema);
 
 exports.onCreateNode = ({
   node,
@@ -81,6 +55,7 @@ exports.onCreateNode = ({
         contentDigest: createContentDigest(data)
       }
     });
+    // console.log({ newNode });
     createNode(newNode);
 
     // Create Chapter nodes
@@ -96,18 +71,112 @@ exports.onCreateNode = ({
     const parent = getNode(node.parent);
     const slug = parent.name;
     const data = getJson(node);
+    const timestamps = (data.timestamps ?? []).map((timestamp) => ({
+      ...timestamp,
+      seconds: parseTimestamp(timestamp.time)
+    }));
+
     const newNode = Object.assign({}, data, {
       id: createNodeId(slug),
       slug,
+      timestamps,
+      codeExamples: data.codeExamples ?? [],
+      groupLinks: data.groupLinks ?? [],
+      canContribute: data.canContribute ?? false,
+      contributions: data.contributions ?? [],
       internal: {
         type: `Video`,
         contentDigest: createContentDigest(data)
       }
     });
+    // console.log({ newNode });
     createNode(newNode);
   }
 };
 
+exports.createPages = async function ({ actions, graphql }) {
+  const { createPage } = actions;
+  const { data } = await graphql(`
+    query {
+      tracks: allTrack {
+        nodes {
+          title
+          slug
+          description
+          numVideos
+          type
+          chapters {
+            title
+            videos {
+              title
+              slug
+              link
+              description
+              languages
+              topics
+              timestamps {
+                title
+                time
+                seconds
+              }
+              codeExamples {
+                title
+                type
+                codeURL
+                githubURL
+                editorURL
+              }
+              groupLinks {
+                title
+                links {
+                  title
+                  url
+                  author
+                }
+              }
+              canContribute
+              contributions {
+                title
+                url
+                author {
+                  name
+                  url
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  data.tracks.nodes.forEach((track) => {
+    // console.log({ track });
+    track.chapters.forEach((chapter, chapterIndex) => {
+      // console.log({ chapter });
+      chapter.videos.forEach((video, videoIndex) => {
+        // console.log({ video });
+        createPage({
+          path: `tracks/${track.slug}/${video.slug}`,
+          component: require.resolve(`./src/pages/tracks/{Track.slug}.js`),
+          context: { track, video, trackPosition: { chapterIndex, videoIndex } }
+        });
+      });
+    });
+  });
+};
+
 const getJson = (node) => {
   return omit(node, ['id', 'children', 'parent', 'internal']);
+};
+
+const parseTimestamp = (timeString) => {
+  const splitted = timeString.split(':');
+  let secondTotal = 0;
+  for (let index = splitted.length - 1; index >= 0; index--) {
+    const number =
+      parseInt(splitted[index]) * Math.pow(60, splitted.length - 1 - index);
+    secondTotal += number;
+  }
+  return secondTotal;
 };

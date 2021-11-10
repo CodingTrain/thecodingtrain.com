@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 
 import Breadcrumbs from '../components/Breadcrumbs';
 import ButtonPanel from '../components/ButtonPanel';
+import ContributionsPanel from '../components/ContributionsPanel';
 import Filter from '../components/Filter';
 import {
   Heading1,
@@ -192,8 +193,51 @@ const ComponentsPage = ({ data }) => {
         buttonLink={''}
         variant={'purple'}
       />
+
       <Spacer>Pattern</Spacer>
       <Spacer pattern />
+      <ContributionsPanel
+        contributions={[
+          {
+            title: '#1.3 random vectors',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          },
+          {
+            title: '#1.3 random vectors crazy good like',
+            author: {
+              name: 'Sundar Singh',
+              url: 'https://eesur.com'
+            },
+            url: 'https://observablehq.com/@eesur/a-random-vector'
+          }
+        ]}
+      />
     </Layout>
   );
 };

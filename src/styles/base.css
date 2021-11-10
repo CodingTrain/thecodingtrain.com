@@ -3,6 +3,7 @@
 html,
 body {
   padding: 0;
+  scroll-padding-top: calc(3 * var(--baseline));
 }
 
 body {

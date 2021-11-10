@@ -30,10 +30,7 @@ const TracksPage = ({ data }) => {
     <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
-        breadcrumbs={[
-          { name: 'Videos Overview', link: '#' },
-          { name: 'Tracks', link: '#' }
-        ]}
+        breadcrumbs={[{ name: 'Tracks', link: '#' }]}
         variant="red"
       />
       <Heading1 variant="red">Tracks</Heading1>
@@ -95,7 +92,7 @@ const TracksPage = ({ data }) => {
             <TrackCard
               {...track}
               image={images[track.slug] || images.placeholder}
-              path="/tracks/code-programming-with-p5-js"
+              path={`/tracks/${track.slug}`}
               topics={[
                 'Beginner-Friendly',
                 'Machine Learning',

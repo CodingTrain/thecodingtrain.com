@@ -1,0 +1,13 @@
+{
+  "title": "I.4: Graphing 1D Perlin Noise",
+  "description": "In Part I.4 of my Perlin Noise Tutorial, I graph the values of one-dimensional perlin noise and compare to randomness.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "link": "https://youtu.be/y7sgcFhk6ZM",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

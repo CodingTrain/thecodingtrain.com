@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  height: var(--baseline-box);
+  padding: 0 var(--box-padding);
+  cursor: pointer;
+  line-height: var(--baseline);
+
+  & svg {
+    stroke: var(--gray-mid);
+  }
+
+  & span {
+    padding-left: 10px;
+    text-transform: none;
+    color: var(--gray-mid);
+  }
+}
+
+.root:hover {
+  font-weight: 600;
+}
+
+/* Variants */
+
+.red {
+  & svg {
+    & path {
+      stroke: var(--red);
+    }
+    & path + path {
+      fill: var(--red);
+    }
+  }
+
+  & span {
+    color: var(--red);
+  }
+}
+
+.cyan {
+  & svg {
+    & path {
+      stroke: var(--cyan);
+    }
+    & path + path {
+      fill: var(--cyan);
+    }
+  }
+
+  & span {
+    color: var(--cyan);
+  }
+}

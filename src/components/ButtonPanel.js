@@ -5,13 +5,26 @@ import Button from './Button';
 
 import * as css from './ButtonPanel.module.css';
 
-const ButtonPanel = ({ text, buttonText, buttonLink, variant, className }) => {
+const ButtonPanel = ({
+  text,
+  buttonText,
+  buttonLink,
+  variant,
+  className,
+  smallWrap
+}) => {
   return (
-    <div className={cn(css.root, className, { [css[variant]]: variant })}>
+    <div
+      className={cn(css.root, className, {
+        [css[variant]]: variant,
+        [css.smallWrap]: smallWrap
+      })}>
       {text && <p>{text}</p>}
-      <Button variant={variant} to={buttonLink}>
-        {buttonText}
-      </Button>
+      <div className={css.buttonContainer}>
+        <Button variant={variant} to={buttonLink}>
+          {buttonText}
+        </Button>
+      </div>
     </div>
   );
 };

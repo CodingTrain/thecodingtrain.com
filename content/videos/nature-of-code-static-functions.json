@@ -1,0 +1,39 @@
+{
+  "title": "1.4 Static Functions ",
+  "description": "In this video, I discuss the difference between static and instance functions in JavaScript and how they are used in the p5.Vector class.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "link": "https://youtu.be/YN8Q-QEmQ8Y",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "canContribute": true,
+  "contributions": [
+    {
+      "title": "#1.3 random vectors",
+      "author": {
+        "name": "Sundar Singh",
+        "url": "https://eesur.com"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
+    },
+    {
+      "title": "#1.3 random vectors crazy good like",
+      "author": {
+        "name": "Sundar Singh"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
+    },
+    {
+      "title": "#1.3 random vectors crazy good like",
+      "author": {
+        "name": "Sundar Singh",
+        "url": "https://eesur.com"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
+    }
+  ]
+}
