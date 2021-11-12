@@ -44,7 +44,7 @@ const VideoSection = ({ challenge }) => {
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
               containerClassName={css.videoWrapper}
-              link={challenge.link}
+              videoId={challenge.videoId}
               timestamp={timestamp}
             />
           </div>
@@ -66,7 +66,6 @@ const VideoSection = ({ challenge }) => {
             </div>
             <div className={css.timeline}>
               <TimestampTimeline
-                className={css.timestampsTimeline}
                 variant="cyan"
                 timestamps={challenge.timestamps}
                 updateTimestamp={updateTimestamp}

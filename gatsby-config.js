@@ -49,29 +49,37 @@ module.exports = {
       },
       __key: 'pages'
     },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'tracks',
+    //     path: './content/tracks'
+    //   },
+    //   __key: 'tracks'
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'tracks',
-        path: './content/tracks'
+        name: 'lessons',
+        path: './content/videos/lessons'
       },
-      __key: 'tracks'
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'videos',
-        path: './content/videos'
-      },
-      __key: 'videos'
+      __key: 'lessons'
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'challenges',
-        path: './content/challenges'
+        path: './content/videos/challenges'
       },
       __key: 'challenges'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'guides',
+        path: './content/guides'
+      },
+      __key: 'guides'
     },
     {
       resolve: 'gatsby-plugin-react-svg',

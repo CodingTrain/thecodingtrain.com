@@ -90,7 +90,7 @@ export const query = graphql`
         videos {
           title
           slug
-          link
+          videoId
           description
           languages
           topics
@@ -101,7 +101,7 @@ export const query = graphql`
           }
           codeExamples {
             title
-            type
+            language
             codeURL
             githubURL
             editorURL

@@ -4,6 +4,8 @@ const { schema } = require('./schema');
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
 
+let contributionIds = {};
+
 exports.onCreateNode = ({
   node,
   actions,
@@ -13,10 +15,90 @@ exports.onCreateNode = ({
 }) => {
   const { createNode } = actions;
 
+  // if (
+  //   node.internal.type === 'File' &&
+  //   node.sourceInstanceName === 'challenges'
+  // ) {
+  //   console.log('File - Challenge');
+  //   console.log(node.relativePath);
+  //   console.log(node);
+
+  //   console.log(getNode(node.parent).name);
+  // }
+
+  if (
+    node.internal.owner === 'gatsby-transformer-json' &&
+    getNode(node.parent).sourceInstanceName === 'challenges'
+  ) {
+    // console.log(node.relativePath);
+    // console.log(node);
+    // console.log(getNode(node.parent).relativePath);
+    // console.log(getNode(node.parent).sourceInstanceName);
+    // console.log(getNode(node.parent));
+
+    if (getNode(node.parent).relativePath.includes('/contributions/')) {
+      // console.log('CONTRIBUTIONS');
+      // console.log(node);
+      if (getNode(node.parent).relativePath in contributionIds) {
+        contributionIds[getNode(node.parent).relativePath] += 1;
+      } else {
+        contributionIds[getNode(node.parent).relativePath] = 1;
+      }
+      // console.log(getNode(node.parent).relativePath);
+      const data = getJson(node);
+      const slug = getNode(node.parent).relativePath.replace(
+        '/contributions/index.json',
+        ''
+      );
+      const index = contributionIds[getNode(node.parent).relativePath];
+      const newNode = Object.assign({}, data, {
+        id: createNodeId(`${slug}-${index}`),
+        internal: {
+          type: `Contribution`,
+          contentDigest: createContentDigest(data)
+        }
+      });
+      // console.log({ newNode });
+      createNode(newNode);
+    } else {
+      // console.log('CHALLENGE');
+
+      const parent = getNode(node.parent);
+
+      const slug = parent.relativeDirectory;
+      const contributions = require(`${parent.dir}/contributions/index.json`);
+      // console.log({ contributions });
+      const data = getJson(node);
+      const timestamps = (data.timestamps ?? []).map((timestamp) => ({
+        ...timestamp,
+        seconds: parseTimestamp(timestamp.time)
+      }));
+
+      const newNode = Object.assign({}, data, {
+        id: createNodeId(slug),
+        slug,
+        timestamps,
+        contributionsPath: parent.relativeDirectory + '/contributions',
+        codeExamples: data.codeExamples ?? [],
+        groupLinks: data.groupLinks ?? [],
+        contributions: contributions
+          ? contributions.map((_, index) => createNodeId(`${slug}-${index}`))
+          : [],
+        internal: {
+          type: `Challenge`,
+          contentDigest: createContentDigest(data)
+        }
+      });
+      // console.log({ newNode });
+      createNode(newNode);
+    }
+  }
+
   /**
     Turn track json files into Track and Chapter nodes
   **/
   if (node.internal.type === 'TracksJson') {
+    console.log('TracksJson');
     // Make basic info for track
     const parent = getNode(node.parent);
     const slug = parent.name;
@@ -68,6 +150,7 @@ exports.onCreateNode = ({
     Turn video json files into Video nodes
   **/
   if (node.internal.type === 'VideosJson') {
+    console.log('VideosJson');
     const parent = getNode(node.parent);
     const slug = parent.name;
     const data = getJson(node);
@@ -96,30 +179,31 @@ exports.onCreateNode = ({
   /**
     Turn video json files into Video nodes
   **/
-  if (node.internal.type === 'ChallengesJson') {
-    const parent = getNode(node.parent);
-    const slug = parent.name;
-    const data = getJson(node);
-    const timestamps = (data.timestamps ?? []).map((timestamp) => ({
-      ...timestamp,
-      seconds: parseTimestamp(timestamp.time)
-    }));
+  // if (node.internal.type === 'ChallengesJson') {
+  //   console.log('ChallengesJson');
+  //   const parent = getNode(node.parent);
+  //   const slug = parent.name;
+  //   const data = getJson(node);
+  //   const timestamps = (data.timestamps ?? []).map((timestamp) => ({
+  //     ...timestamp,
+  //     seconds: parseTimestamp(timestamp.time)
+  //   }));
 
-    const newNode = Object.assign({}, data, {
-      id: createNodeId(slug),
-      slug,
-      timestamps,
-      codeExamples: data.codeExamples ?? [],
-      groupLinks: data.groupLinks ?? [],
-      contributions: data.contributions ?? [],
-      internal: {
-        type: `Challenge`,
-        contentDigest: createContentDigest(data)
-      }
-    });
-    // console.log({ newNode });
-    createNode(newNode);
-  }
+  //   const newNode = Object.assign({}, data, {
+  //     id: createNodeId(slug),
+  //     slug,
+  //     timestamps,
+  //     codeExamples: data.codeExamples ?? [],
+  //     groupLinks: data.groupLinks ?? [],
+  //     contributions: data.contributions ?? [],
+  //     internal: {
+  //       type: `Challenge`,
+  //       contentDigest: createContentDigest(data)
+  //     }
+  //   });
+  //   // console.log({ newNode });
+  //   createNode(newNode);
+  // }
 };
 
 exports.createPages = async function ({ actions, graphql }) {
@@ -138,7 +222,7 @@ exports.createPages = async function ({ actions, graphql }) {
             videos {
               title
               slug
-              link
+              videoId
               description
               languages
               topics
@@ -149,7 +233,7 @@ exports.createPages = async function ({ actions, graphql }) {
               }
               codeExamples {
                 title
-                type
+                language
                 codeURL
                 githubURL
                 editorURL
@@ -179,7 +263,7 @@ exports.createPages = async function ({ actions, graphql }) {
   `);
 
   data.tracks.nodes.forEach((track) => {
-    // console.log({ track });
+    console.log({ track });
     track.chapters.forEach((chapter, chapterIndex) => {
       // console.log({ chapter });
       chapter.videos.forEach((video, videoIndex) => {
@@ -190,6 +274,30 @@ exports.createPages = async function ({ actions, graphql }) {
           context: { track, video, trackPosition: { chapterIndex, videoIndex } }
         });
       });
+    });
+  });
+
+  const { data: cData } = await graphql(`
+    query {
+      challenges: allChallenge {
+        nodes {
+          id
+          slug
+          contributionsPath
+        }
+      }
+    }
+  `);
+
+  cData.challenges.nodes.forEach((challenge) => {
+    createPage({
+      path: `challenges/${challenge.slug}`,
+      component: require.resolve(`./src/templates/challenge.js`),
+      context: {
+        id: challenge.id,
+        contributionsPath: challenge.contributionsPath,
+        slug: challenge.slug
+      }
     });
   });
 };

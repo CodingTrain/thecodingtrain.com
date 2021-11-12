@@ -12,6 +12,7 @@ import * as css from '../styles/pages/challenges.module.css';
 
 const ChallengesPage = ({ data }) => {
   console.log({ data });
+  const challenges = data.challenges.nodes;
   const [selectedLanguage, setSelectedLanguage] = useState();
   const [selectedTopic, setSelectedTopic] = useState();
   const [expanded, setExpanded] = useState(false);
@@ -82,13 +83,18 @@ const ChallengesPage = ({ data }) => {
         />
       </div>
       <Spacer />
+      <ul>
+        {challenges.map((c, index) => (
+          <li key={index}>{c.title}</li>
+        ))}
+      </ul>
     </Layout>
   );
 };
 
 export const query = graphql`
   query {
-    tracks: allChallenge {
+    challenges: allChallenge {
       nodes {
         title
         slug
@@ -103,7 +109,7 @@ export const query = graphql`
       }
     ) {
       nodes {
-        name
+        base
         childImageSharp {
           gatsbyImageData
         }
