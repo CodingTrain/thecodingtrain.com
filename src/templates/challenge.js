@@ -12,7 +12,7 @@ import CharacterSpacer from '../components/CharacterSpacer';
 
 import { useImages } from '../hooks';
 
-import * as css from '../styles/pages/challenges/challenge.module.css';
+import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
 
 const Challenge = (props) => {
