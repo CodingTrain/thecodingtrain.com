@@ -1,5 +1,9 @@
 const omit = require('lodash/omit');
-const { schema } = require('./schema');
+const { schema } = require('./node-scripts/schema');
+const {
+  createTrackVideoPages,
+  createChallengePages
+} = require('./node-scripts/page-generation');
 
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
@@ -208,98 +212,8 @@ exports.onCreateNode = ({
 
 exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
-  const { data } = await graphql(`
-    query {
-      tracks: allTrack {
-        nodes {
-          title
-          slug
-          description
-          numVideos
-          type
-          chapters {
-            title
-            videos {
-              title
-              slug
-              videoId
-              description
-              languages
-              topics
-              timestamps {
-                title
-                time
-                seconds
-              }
-              codeExamples {
-                title
-                language
-                codeURL
-                githubURL
-                editorURL
-              }
-              groupLinks {
-                title
-                links {
-                  title
-                  url
-                  author
-                }
-              }
-              canContribute
-              contributions {
-                title
-                url
-                author {
-                  name
-                  url
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  data.tracks.nodes.forEach((track) => {
-    console.log({ track });
-    track.chapters.forEach((chapter, chapterIndex) => {
-      // console.log({ chapter });
-      chapter.videos.forEach((video, videoIndex) => {
-        // console.log({ video });
-        createPage({
-          path: `tracks/${track.slug}/${video.slug}`,
-          component: require.resolve(`./src/pages/tracks/{Track.slug}.js`),
-          context: { track, video, trackPosition: { chapterIndex, videoIndex } }
-        });
-      });
-    });
-  });
-
-  const { data: cData } = await graphql(`
-    query {
-      challenges: allChallenge {
-        nodes {
-          id
-          slug
-          contributionsPath
-        }
-      }
-    }
-  `);
-
-  cData.challenges.nodes.forEach((challenge) => {
-    createPage({
-      path: `challenges/${challenge.slug}`,
-      component: require.resolve(`./src/templates/challenge.js`),
-      context: {
-        id: challenge.id,
-        contributionsPath: challenge.contributionsPath,
-        slug: challenge.slug
-      }
-    });
-  });
+  await createTrackVideoPages(graphql, createPage);
+  await createChallengePages(graphql, createPage);
 };
 
 const getJson = (node) => {
