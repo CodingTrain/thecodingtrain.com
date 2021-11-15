@@ -16,19 +16,20 @@ const parseTimestamp = (timeString) => {
   return secondTotal;
 };
 
-exports.createChallengeRelatedNode = (
+const createVideoRelatedNode = (
   createNode,
   createNodeId,
   createContentDigest,
   node,
-  parent
+  parent,
+  type
 ) => {
   if (parent.relativePath.includes('/contributions/')) {
     const data = getJson(node);
-    const slug = parent.name;
+    const name = parent.name;
     const newNode = Object.assign({}, data, {
-      id: createNodeId(slug),
-      slug,
+      id: createNodeId(`${type}s/${parent.relativePath}`),
+      name,
       internal: {
         type: `Contribution`,
         contentDigest: createContentDigest(data)
@@ -37,31 +38,69 @@ exports.createChallengeRelatedNode = (
     createNode(newNode);
   } else {
     const slug = parent.relativeDirectory;
-    const contributions = fs
-      .readdirSync(`${parent.dir}/contributions`)
-      .filter((file) => file.includes('.json'))
-      .map((file) => file.replace('.json', ''));
     const data = getJson(node);
+    const contributions = fs.existsSync(`${parent.dir}/contributions`)
+      ? fs
+          .readdirSync(`${parent.dir}/contributions`)
+          .filter((file) => file.includes('.json'))
+          .map(
+            (file) =>
+              `${type}s/${parent.relativeDirectory}/contributions/${file}`
+          )
+      : [];
     const timestamps = (data.timestamps ?? []).map((timestamp) => ({
       ...timestamp,
       seconds: parseTimestamp(timestamp.time)
     }));
 
     const newNode = Object.assign({}, data, {
-      id: createNodeId(slug),
+      id: createNodeId(`${type}s/${slug}`),
       slug,
+      contributionsPath: `${slug}/contributions`,
       timestamps,
-      contributionsPath: `${parent.relativeDirectory}/contributions`,
       codeExamples: data.codeExamples ?? [],
       groupLinks: data.groupLinks ?? [],
-      contributions: contributions
-        ? contributions.map((file) => createNodeId(file))
-        : [],
+      canContribute: data.canContribute ?? false,
+      contributions: contributions.map((file) => createNodeId(file)),
       internal: {
-        type: `Challenge`,
+        type,
         contentDigest: createContentDigest(data)
       }
     });
     createNode(newNode);
   }
 };
+
+exports.createChallengeRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) =>
+  createVideoRelatedNode(
+    createNode,
+    createNodeId,
+    createContentDigest,
+    node,
+    parent,
+    'Challenge'
+  );
+
+exports.createLessonRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) =>
+  createVideoRelatedNode(
+    createNode,
+    createNodeId,
+    createContentDigest,
+    node,
+    parent,
+    'Lesson'
+  );
+
+exports.createTrackRelatedNode = () => {};

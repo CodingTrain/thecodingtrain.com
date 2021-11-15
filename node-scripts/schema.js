@@ -17,7 +17,7 @@ interface Video implements Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
-  contributions: [Contribution!]
+  contributions: [Contribution!] @link
   groupLinks: [GroupLink!]
 }
 
@@ -35,7 +35,7 @@ type Lesson implements Video & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
-  contributions: [Contribution!]
+  contributions: [Contribution!] @link
   groupLinks: [GroupLink!]
 }
 
@@ -71,7 +71,7 @@ type GuestTutorial implements Video & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
-  contributions: [Contribution!]
+  contributions: [Contribution!] @link
   groupLinks: [GroupLink!]
 }
 
@@ -89,7 +89,7 @@ type Streams implements Video & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
-  contributions: [Contribution!]
+  contributions: [Contribution!] @link
   groupLinks: [GroupLink!]
 }
 
@@ -111,7 +111,7 @@ type Track implements Node {
 
 type Contribution implements Node {
   title: String!
-  slug: String!
+  name: String!
   author: Author!
   url: String
   videoId: String

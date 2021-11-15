@@ -57,14 +57,14 @@ module.exports = {
     //   },
     //   __key: 'tracks'
     // },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'lessons',
-    //     path: './content/videos/lessons'
-    //   },
-    //   __key: 'lessons'
-    // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'lessons',
+        path: './content/videos/lessons'
+      },
+      __key: 'lessons'
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

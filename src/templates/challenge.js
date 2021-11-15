@@ -88,7 +88,7 @@ export const query = graphql`
       }
       contributions {
         title
-        slug
+        name
         url
         author {
           name

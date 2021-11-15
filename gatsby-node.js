@@ -1,6 +1,8 @@
 const { schema } = require('./node-scripts/schema');
 const {
-  createChallengeRelatedNode
+  createLessonRelatedNode,
+  createChallengeRelatedNode,
+  createTrackRelatedNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
@@ -37,38 +39,21 @@ exports.onCreateNode = ({
     );
   }
 
-  // /**
-  //   Turn lesson json files into Lesson nodes
-  // **/
-  // if (
-  //   owner === 'gatsby-transformer-json' &&
-  //   parent.sourceInstanceName === 'lessons'
-  // ) {
-  //   console.log('LessonsJson');
-  //   const parent = getNode(node.parent);
-  //   const slug = parent.name;
-  //   const data = getJson(node);
-  //   const timestamps = (data.timestamps ?? []).map((timestamp) => ({
-  //     ...timestamp,
-  //     seconds: parseTimestamp(timestamp.time)
-  //   }));
-
-  //   const newNode = Object.assign({}, data, {
-  //     id: createNodeId(slug),
-  //     slug,
-  //     timestamps,
-  //     codeExamples: data.codeExamples ?? [],
-  //     groupLinks: data.groupLinks ?? [],
-  //     canContribute: data.canContribute ?? false,
-  //     contributions: data.contributions ?? [],
-  //     internal: {
-  //       type: `Lesson`,
-  //       contentDigest: createContentDigest(data)
-  //     }
-  //   });
-  //   console.log({ newNode });
-  //   createNode(newNode);
-  // }
+  /**
+    Turn lesson json files into Lesson nodes
+  **/
+  if (
+    owner === 'gatsby-transformer-json' &&
+    parent.sourceInstanceName === 'lessons'
+  ) {
+    createLessonRelatedNode(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
+  }
 
   // /**
   //   Turn track json files into Track and Chapter nodes

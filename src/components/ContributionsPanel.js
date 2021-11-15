@@ -28,7 +28,7 @@ const ContributionsPanel = ({ contributions, images }) => {
               </span>
               {images ? (
                 <Image
-                  image={images[contrib.slug] ?? images['_placeholder']}
+                  image={images[contrib.name] ?? images['_placeholder']}
                   pictureClassName={css.picture}
                   imgClassName={css.image}
                 />
