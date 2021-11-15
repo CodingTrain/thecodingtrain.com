@@ -18,7 +18,7 @@ import { pattern } from '../styles/styles.module.css';
 const Challenge = (props) => {
   const challenge = props.data.challenge;
   const images = {
-    ...useImages(props.data.contributionImages.nodes, 'base'),
+    ...useImages(props.data.contributionImages.nodes),
     _placeholder:
       props.data.challengeImage.nodes[0].childImageSharp.gatsbyImageData
   };
@@ -88,8 +88,8 @@ export const query = graphql`
       }
       contributions {
         title
+        slug
         url
-        image
         author {
           name
           url
@@ -104,7 +104,7 @@ export const query = graphql`
       }
     ) {
       nodes {
-        base
+        name
         relativeDirectory
         childImageSharp {
           gatsbyImageData

@@ -80,8 +80,8 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
   `);
 
   data.tracks.nodes.forEach((track) => {
-    console.log({ track });
     track.chapters.forEach((chapter, chapterIndex) => {
+      console.log(track.title, chapter.videos);
       chapter.videos.forEach((video, videoIndex) => {
         createPage({
           path: `tracks/${track.slug}/${video.slug}`,

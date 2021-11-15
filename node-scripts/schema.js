@@ -7,6 +7,7 @@ interface Video implements Node {
   id: ID!
   title: String!
   slug: String!
+  contributionsPath: String!
   videoId: String!
   description: String!
   date: String
@@ -25,6 +26,7 @@ type Lesson implements Video & Node {
   title: String!
   slug: String!
   videoId: String!
+  contributionsPath: String!
   description: String!
   date: String
   repository: String
@@ -59,6 +61,7 @@ type GuestTutorial implements Video & Node {
   id: ID!
   title: String!
   slug: String!
+  contributionsPath: String!
   videoId: String!
   description: String!
   date: String
@@ -76,6 +79,7 @@ type Streams implements Video & Node {
   id: ID!
   title: String!
   slug: String!
+  contributionsPath: String!
   videoId: String!
   description: String!
   date: String
@@ -107,11 +111,11 @@ type Track implements Node {
 
 type Contribution implements Node {
   title: String!
+  slug: String!
   author: Author!
   url: String
   videoId: String
   source: String
-  image: String
   notes: [String]
   video: Video @link
 }

@@ -57,14 +57,14 @@ module.exports = {
     //   },
     //   __key: 'tracks'
     // },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'lessons',
-        path: './content/videos/lessons'
-      },
-      __key: 'lessons'
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'lessons',
+    //     path: './content/videos/lessons'
+    //   },
+    //   __key: 'lessons'
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -73,14 +73,14 @@ module.exports = {
       },
       __key: 'challenges'
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'guides',
-        path: './content/guides'
-      },
-      __key: 'guides'
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'guides',
+    //     path: './content/guides'
+    //   },
+    //   __key: 'guides'
+    // },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {

@@ -32,7 +32,7 @@ const Track = (props) => {
         ]}
         variant="red"
       />
-      {!pageContext.video && <TrackHeader track={track} />}
+      {/* {!pageContext.video && <TrackHeader track={track} />}
       {!pageContext.video && (
         <CharacterSpacer
           className={css.sep}
@@ -41,15 +41,15 @@ const Track = (props) => {
           side="right"
           offset={0.1}
         />
-      )}
-      <TrackVideoSection
+      )} */}
+      {/* <TrackVideoSection
         track={track}
         video={video}
         trackPosition={trackPosition}
-      />
+      /> */}
       <div className={css.blankSep} />
-      <VideoInfo video={video} variant="red" />
-      {video.canContribute && (
+      {/* <VideoInfo video={video} variant="red" /> */}
+      {/* {video.canContribute && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -62,7 +62,7 @@ const Track = (props) => {
           />
           <TrackContributionsPanel contributions={video.contributions} />
         </>
-      )}
+      )} */}
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}
@@ -71,7 +71,7 @@ const Track = (props) => {
         side="right"
         offset={0.7}
       />
-      <TrackChallengesPanel video={video} />
+      {/* <TrackChallengesPanel video={video} /> */}
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );
