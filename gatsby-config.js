@@ -49,14 +49,6 @@ module.exports = {
       },
       __key: 'pages'
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'tracks',
-    //     path: './content/tracks'
-    //   },
-    //   __key: 'tracks'
-    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -72,6 +64,22 @@ module.exports = {
         path: './content/videos/challenges'
       },
       __key: 'challenges'
+    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'guest-tutorials',
+    //     path: './content/videos/guest-tutorials'
+    //   },
+    //   __key: 'guest-tutorials'
+    // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'tracks',
+        path: './content/tracks'
+      },
+      __key: 'tracks'
     },
     // {
     //   resolve: 'gatsby-source-filesystem',

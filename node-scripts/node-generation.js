@@ -22,14 +22,18 @@ const createVideoRelatedNode = (
   createContentDigest,
   node,
   parent,
-  type
+  schemaType
 ) => {
+  const type = schemaType.toLowerCase();
   if (parent.relativePath.includes('/contributions/')) {
     const data = getJson(node);
     const name = parent.name;
     const newNode = Object.assign({}, data, {
       id: createNodeId(`${type}s/${parent.relativePath}`),
       name,
+      video: createNodeId(
+        `${type}s/${parent.relativeDirectory.replace('/contributions', '')}`
+      ),
       internal: {
         type: `Contribution`,
         contentDigest: createContentDigest(data)
@@ -60,10 +64,10 @@ const createVideoRelatedNode = (
       timestamps,
       codeExamples: data.codeExamples ?? [],
       groupLinks: data.groupLinks ?? [],
-      canContribute: data.canContribute ?? false,
+      canContribute: data.canContribute ?? schemaType === 'Challenge',
       contributions: contributions.map((file) => createNodeId(file)),
       internal: {
-        type,
+        type: schemaType,
         contentDigest: createContentDigest(data)
       }
     });
@@ -103,4 +107,70 @@ exports.createLessonRelatedNode = (
     'Lesson'
   );
 
-exports.createTrackRelatedNode = () => {};
+exports.createTrackRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const slug = parent.name;
+  const id = createNodeId(`tracks/${slug}`);
+  const data = getJson(node);
+  const { type } = data;
+  let numVideos = 0;
+
+  if (type === 'main') {
+    // Make Chapter nodes
+    const chapters = [];
+    if (node.chapters) {
+      for (let i = 0; i < node.chapters.length; i++) {
+        const chapter = node.chapters[i];
+        const data = omit(chapter, ['lessons']);
+        const newNode = Object.assign({}, data, {
+          id: createNodeId(`${slug}/${data.title}`),
+          track: id,
+          lessons: chapter.lessons.map((lessonSlug) =>
+            createNodeId(`lessons/${lessonSlug}`)
+          ),
+          internal: {
+            type: `Chapter`,
+            contentDigest: createContentDigest(data)
+          }
+        });
+        chapters.push(newNode);
+        numVideos += chapter.lessons.length;
+      }
+    }
+
+    const newNode = Object.assign({}, data, {
+      id,
+      slug,
+      chapters: chapters.map((ch) => ch.id),
+      numVideos,
+      internal: {
+        type: `Track`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+    createNode(newNode);
+
+    // Create Chapter nodes
+    for (let i = 0; i < chapters.length; i++) {
+      createNode(chapters[i]);
+    }
+  } else if (type === 'side') {
+    numVideos += data.videos.length;
+    const newNode = Object.assign({}, data, {
+      id,
+      slug,
+      videos: data.videos.map((videoSlug) => createNodeId(videoSlug)),
+      numVideos,
+      internal: {
+        type: `Track`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+    createNode(newNode);
+  }
+};

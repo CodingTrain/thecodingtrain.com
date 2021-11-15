@@ -75,40 +75,6 @@ type GuestTutorial implements Video & Node {
   groupLinks: [GroupLink!]
 }
 
-type Streams implements Video & Node {
-  id: ID!
-  title: String!
-  slug: String!
-  contributionsPath: String!
-  videoId: String!
-  description: String!
-  date: String
-  repository: String
-  topics: [String!]
-  languages: [String!]
-  timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
-  canContribute: Boolean!
-  contributions: [Contribution!] @link
-  groupLinks: [GroupLink!]
-}
-
-type Chapter implements Node {
-  title: String
-  track: Track! @link
-  videos: [Lesson] @link
-}
-
-type Track implements Node {
-  title: String!
-  slug: String!
-  type: String!
-  description: String!
-  chapters: [Chapter] @link
-  videos: [Lesson] @link
-  numVideos: Int!
-}
-
 type Contribution implements Node {
   title: String!
   name: String!
@@ -116,8 +82,8 @@ type Contribution implements Node {
   url: String
   videoId: String
   source: String
-  notes: [String]
-  video: Video @link
+  notes: [String],
+  video: Video! @link
 }
 
 type Timestamp implements Node {
@@ -150,5 +116,21 @@ type Author implements Node {
   url: String
 }
 
+type Chapter implements Node {
+  title: String
+  lessons: [Lesson] @link
+}
+
+type Track implements Node {
+  title: String!
+  slug: String!
+  type: String!
+  description: String!
+  chapters: [Chapter] @link
+  videos: [Video] @link
+  numVideos: Int!
+}
+
 type Guide implements Node
+
 `;

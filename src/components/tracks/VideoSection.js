@@ -8,13 +8,13 @@ import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
 import * as css from './VideoSection.module.css';
 
-const getOverallPositionInTrack = (trackPosition, track) => {
+const getOverallPositionInTrack = (trackPosition, chapters) => {
   let videoIndex = 0;
   let trackTotal = 0;
-  for (let chapter = 0; chapter < track.chapters.length; chapter++) {
-    trackTotal += track.chapters[chapter].videos.length;
+  for (let chapter = 0; chapter < chapters.length; chapter++) {
+    trackTotal += chapters[chapter].lessons.length;
     if (trackPosition.chapterIndex > chapter) {
-      videoIndex += track.chapters[chapter].videos.length;
+      videoIndex += chapters[chapter].lessons.length;
     } else if (trackPosition.chapterIndex === chapter) {
       videoIndex += trackPosition.videoIndex;
     }
@@ -22,11 +22,17 @@ const getOverallPositionInTrack = (trackPosition, track) => {
   return [videoIndex + 1, trackTotal];
 };
 
-const VideoSection = ({ track, video, trackPosition }) => {
-  const { chapters } = track;
+const VideoSection = ({ track, video, trackPosition: trackPositionBase }) => {
+  const chapters =
+    track.type === 'main' ? track.chapters : [{ lessons: track.videos }];
+  const trackPosition =
+    track.type === 'main'
+      ? trackPositionBase
+      : { ...trackPositionBase, chapterIndex: 0 };
   const { title, link, topics, languages, timestamps } = video;
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
     trackPosition,
+    chapters,
     track
   );
 

@@ -55,57 +55,18 @@ exports.onCreateNode = ({
     );
   }
 
-  // /**
-  //   Turn track json files into Track and Chapter nodes
-  // **/
-  // if (node.internal.type === 'TracksJson') {
-  //   console.log('TracksJson');
-  //   // Make basic info for track
-  //   const parent = getNode(node.parent);
-  //   const slug = parent.name;
-  //   const id = createNodeId(slug);
-  //   let numVideos = 0;
-
-  //   // Make Chapter nodes
-  //   const chapters = [];
-  //   if (node.chapters) {
-  //     for (let i = 0; i < node.chapters.length; i++) {
-  //       const chapter = node.chapters[i];
-  //       const data = omit(chapter, ['videos']);
-  //       const newNode = Object.assign({}, data, {
-  //         id: createNodeId(data.title),
-  //         track: id,
-  //         videos: chapter.videos.map((videoSlug) => createNodeId(videoSlug)),
-  //         internal: {
-  //           type: `Chapter`,
-  //           contentDigest: createContentDigest(data)
-  //         }
-  //       });
-  //       chapters.push(newNode);
-  //       numVideos += chapter.videos.length;
-  //     }
-  //   }
-
-  //   // Make and create Track node
-  //   const data = getJson(node);
-  //   const newNode = Object.assign({}, data, {
-  //     id,
-  //     slug,
-  //     chapters: chapters.map((ch) => ch.id),
-  //     numVideos,
-  //     internal: {
-  //       type: `Track`,
-  //       contentDigest: createContentDigest(data)
-  //     }
-  //   });
-  //   // console.log({ newNode });
-  //   createNode(newNode);
-
-  //   // Create Chapter nodes
-  //   for (let i = 0; i < chapters.length; i++) {
-  //     createNode(chapters[i]);
-  //   }
-  // }
+  /**
+    Turn track json files into Track and Chapter nodes
+  **/
+  if (node.internal.type === 'TracksJson') {
+    createTrackRelatedNode(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
+  }
 };
 
 exports.createPages = async function ({ actions, graphql }) {

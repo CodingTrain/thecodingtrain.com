@@ -31,12 +31,47 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         nodes {
           title
           slug
-          description
-          numVideos
           type
+          videos {
+            title
+            slug
+            videoId
+            description
+            languages
+            topics
+            timestamps {
+              title
+              time
+              seconds
+            }
+            codeExamples {
+              title
+              language
+              codeURL
+              githubURL
+              editorURL
+            }
+            groupLinks {
+              title
+              links {
+                title
+                url
+                author
+              }
+            }
+            canContribute
+            contributions {
+              title
+              url
+              author {
+                name
+                url
+              }
+            }
+          }
           chapters {
             title
-            videos {
+            lessons {
               title
               slug
               videoId
@@ -80,15 +115,32 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
   `);
 
   data.tracks.nodes.forEach((track) => {
-    track.chapters.forEach((chapter, chapterIndex) => {
-      console.log(track.title, chapter.videos);
-      chapter.videos.forEach((video, videoIndex) => {
+    if (track.type === 'main') {
+      track.chapters.forEach((chapter, chapterIndex) => {
+        chapter.lessons.forEach((lesson, lessonIndex) => {
+          createPage({
+            path: `tracks/${track.slug}/${lesson.slug}`,
+            component: require.resolve(`../src/pages/tracks/{Track.slug}.js`),
+            context: {
+              track,
+              video: lesson,
+              trackPosition: { chapterIndex, videoIndex: lessonIndex }
+            }
+          });
+        });
+      });
+    } else {
+      track.videos.forEach((video, videoIndex) => {
         createPage({
           path: `tracks/${track.slug}/${video.slug}`,
           component: require.resolve(`../src/pages/tracks/{Track.slug}.js`),
-          context: { track, video, trackPosition: { chapterIndex, videoIndex } }
+          context: {
+            track,
+            video,
+            trackPosition: { videoIndex }
+          }
         });
       });
-    });
+    }
   });
 };

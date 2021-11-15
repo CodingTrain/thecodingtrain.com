@@ -17,7 +17,9 @@ import { pattern } from '../../styles/styles.module.css';
 const Track = (props) => {
   const { pageContext, data } = props;
   const track = pageContext.track ?? data.track;
-  const video = pageContext.video ?? data.track.chapters[0].videos[0];
+  const video =
+    pageContext.video ??
+    (track.type === 'main' ? track.chapters[0].lessons[0] : track.videos[0]);
   const trackPosition = pageContext.trackPosition ?? {
     chapterIndex: 0,
     videoIndex: 0
@@ -32,7 +34,7 @@ const Track = (props) => {
         ]}
         variant="red"
       />
-      {/* {!pageContext.video && <TrackHeader track={track} />}
+      {!pageContext.video && <TrackHeader track={track} />}
       {!pageContext.video && (
         <CharacterSpacer
           className={css.sep}
@@ -41,15 +43,15 @@ const Track = (props) => {
           side="right"
           offset={0.1}
         />
-      )} */}
-      {/* <TrackVideoSection
+      )}
+      <TrackVideoSection
         track={track}
         video={video}
         trackPosition={trackPosition}
-      /> */}
+      />
       <div className={css.blankSep} />
-      {/* <VideoInfo video={video} variant="red" /> */}
-      {/* {video.canContribute && (
+      <VideoInfo video={video} variant="red" />
+      {video.canContribute && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -62,7 +64,7 @@ const Track = (props) => {
           />
           <TrackContributionsPanel contributions={video.contributions} />
         </>
-      )} */}
+      )}
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}
@@ -71,7 +73,7 @@ const Track = (props) => {
         side="right"
         offset={0.7}
       />
-      {/* <TrackChallengesPanel video={video} /> */}
+      <TrackChallengesPanel video={video} />
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );
@@ -85,9 +87,46 @@ export const query = graphql`
       description
       numVideos
       type
+      videos {
+        title
+        slug
+        videoId
+        description
+        languages
+        topics
+        timestamps {
+          title
+          time
+          seconds
+        }
+        codeExamples {
+          title
+          language
+          codeURL
+          githubURL
+          editorURL
+        }
+        groupLinks {
+          title
+          links {
+            title
+            url
+            author
+          }
+        }
+        canContribute
+        contributions {
+          title
+          url
+          author {
+            name
+            url
+          }
+        }
+      }
       chapters {
         title
-        videos {
+        lessons {
           title
           slug
           videoId

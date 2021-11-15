@@ -121,9 +121,12 @@ export const query = graphql`
         description
         numVideos
         type
+        videos {
+          title
+        }
         chapters {
           title
-          videos {
+          lessons {
             title
           }
         }
