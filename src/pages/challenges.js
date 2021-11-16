@@ -12,7 +12,6 @@ import PagePanel from '../components/PagePanel';
 import * as css from '../styles/pages/challenges.module.css';
 
 const ChallengesPage = ({ data }) => {
-  console.log({ data });
   const challenges = data.challenges.nodes;
   const [selectedLanguage, setSelectedLanguage] = useState();
   const [selectedTopic, setSelectedTopic] = useState();
