@@ -22,14 +22,10 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
   return [videoIndex + 1, trackTotal];
 };
 
-const VideoSection = ({ track, video, trackPosition: trackPositionBase }) => {
+const VideoSection = ({ track, video, trackPosition }) => {
   const chapters =
     track.type === 'main' ? track.chapters : [{ lessons: track.videos }];
-  const trackPosition =
-    track.type === 'main'
-      ? trackPositionBase
-      : { ...trackPositionBase, chapterIndex: 0 };
-  const { title, link, topics, languages, timestamps } = video;
+  const { title, videoId, topics, languages, timestamps } = video;
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
     trackPosition,
     chapters,
@@ -71,7 +67,7 @@ const VideoSection = ({ track, video, trackPosition: trackPositionBase }) => {
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
               containerClassName={css.videoWrapper}
-              link={link}
+              videoId={videoId}
               timestamp={timestamp}
             />
           </div>
