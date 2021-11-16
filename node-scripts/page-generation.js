@@ -29,84 +29,19 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
     query {
       tracks: allTrack {
         nodes {
-          title
+          id
           slug
           type
           videos {
-            title
+            id
             slug
-            videoId
-            description
-            languages
-            topics
-            timestamps {
-              title
-              time
-              seconds
-            }
-            codeExamples {
-              title
-              language
-              codeURL
-              githubURL
-              editorURL
-            }
-            groupLinks {
-              title
-              links {
-                title
-                url
-                author
-              }
-            }
-            canContribute
-            contributions {
-              title
-              url
-              author {
-                name
-                url
-              }
-            }
+            contributionsPath
           }
           chapters {
-            title
             lessons {
-              title
+              id
               slug
-              videoId
-              description
-              languages
-              topics
-              timestamps {
-                title
-                time
-                seconds
-              }
-              codeExamples {
-                title
-                language
-                codeURL
-                githubURL
-                editorURL
-              }
-              groupLinks {
-                title
-                links {
-                  title
-                  url
-                  author
-                }
-              }
-              canContribute
-              contributions {
-                title
-                url
-                author {
-                  name
-                  url
-                }
-              }
+              contributionsPath
             }
           }
         }
@@ -115,15 +50,32 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
   `);
 
   data.tracks.nodes.forEach((track) => {
+    const firstVideo =
+      track.type === 'main' ? track.chapters[0].lessons[0] : track.videos[0];
+    createPage({
+      path: `tracks/${track.slug}`,
+      component: require.resolve(`../src/templates/track-video.js`),
+      context: {
+        isTrackPage: true,
+        trackId: track.id,
+        videoId: firstVideo.id,
+        videoSlug: firstVideo.slug,
+        contributionsPath: firstVideo.contributionsPath,
+        trackPosition: { chapterIndex: 0, videoIndex: 0 }
+      }
+    });
     if (track.type === 'main') {
       track.chapters.forEach((chapter, chapterIndex) => {
         chapter.lessons.forEach((lesson, lessonIndex) => {
           createPage({
             path: `tracks/${track.slug}/${lesson.slug}`,
-            component: require.resolve(`../src/pages/tracks/{Track.slug}.js`),
+            component: require.resolve(`../src/templates/track-video.js`),
             context: {
-              track,
-              video: lesson,
+              isTrackPage: false,
+              trackId: track.id,
+              videoId: lesson.id,
+              videoSlug: lesson.slug,
+              contributionsPath: lesson.contributionsPath,
               trackPosition: { chapterIndex, videoIndex: lessonIndex }
             }
           });
@@ -133,11 +85,14 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
       track.videos.forEach((video, videoIndex) => {
         createPage({
           path: `tracks/${track.slug}/${video.slug}`,
-          component: require.resolve(`../src/pages/tracks/{Track.slug}.js`),
+          component: require.resolve(`../src/templates/track-video.js`),
           context: {
-            track,
-            video,
-            trackPosition: { videoIndex }
+            isTrackPage: false,
+            trackId: track.id,
+            videoId: video.id,
+            videoSlug: video.slug,
+            contributionsPath: video.contributionsPath,
+            trackPosition: { chapterIndex: 0, videoIndex }
           }
         });
       });

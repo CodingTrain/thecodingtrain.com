@@ -16,12 +16,13 @@ import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
 
 const Challenge = (props) => {
-  const challenge = props.data.challenge;
+  const { challenge, contributionImages, challengeImage } = props.data;
   const images = {
-    ...useImages(props.data.contributionImages.nodes),
-    _placeholder:
-      props.data.challengeImage.nodes[0].childImageSharp.gatsbyImageData
+    ...useImages(contributionImages.nodes)
   };
+  if (challengeImage.nodes.length > 0)
+    images._placeholder =
+      challengeImage.nodes[0].childImageSharp.gatsbyImageData;
   return (
     <Layout>
       <Breadcrumbs

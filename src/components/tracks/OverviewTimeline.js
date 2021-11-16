@@ -5,7 +5,6 @@ import { Link } from 'gatsby';
 import * as css from './OverviewTimeline.module.css';
 
 const usePaths = (chapters, track, trackPosition) => {
-  console.log({ chapters, track, trackPosition });
   let nextVideoPath;
   let prevVideoPath = null;
   if (
@@ -59,7 +58,7 @@ const OverviewTimeline = memo(
         <div className={css.overviewTimeline}>
           {chapters.map((chapter, index) => (
             <ChapterSection
-              key={chapter.title}
+              key={index}
               chapter={chapter}
               chapterIndex={index}
               chapters={chapters}
@@ -92,7 +91,7 @@ const ChapterSection = memo(
     const trackPath = `/tracks/${track.slug}`;
     const [collapsed, setCollapsed] = useState(false);
     return (
-      <ul className={css.chapterList} key={chapterIndex}>
+      <ul className={css.chapterList}>
         {chapter.title && (
           <button
             className={cn(

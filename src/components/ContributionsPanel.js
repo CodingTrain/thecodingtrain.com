@@ -26,9 +26,15 @@ const ContributionsPanel = ({ contributions, images }) => {
                 {contrib.image}
                 {contrib.title}
               </span>
-              {images ? (
+              {images && images[contrib.name] ? (
                 <Image
-                  image={images[contrib.name] ?? images['_placeholder']}
+                  image={images[contrib.name]}
+                  pictureClassName={css.picture}
+                  imgClassName={css.image}
+                />
+              ) : images && images['_placeholder'] ? (
+                <Image
+                  image={images['_placeholder']}
                   pictureClassName={css.picture}
                   imgClassName={css.image}
                 />
