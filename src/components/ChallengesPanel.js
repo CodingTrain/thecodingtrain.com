@@ -1,26 +1,11 @@
 import React, { Fragment, memo } from 'react';
+import { Link } from 'gatsby';
 
 import * as css from './ChallengesPanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-//dummy content
-const challenges = [
-  {
-    title:
-      "Estimating π from Random Numbers with Euclid's Algorithms and somethings",
-    description: 'Happy Pi Day 2021! ',
-    year: '2017'
-  },
-  {
-    title: "Estimating π from Random Numbers with Euclid's Algo...",
-    description:
-      'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate',
-    year: '2017'
-  }
-];
-
-const ChallengesPanel = ({ video }) => {
+const ChallengesPanel = ({ challenges }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
@@ -43,8 +28,12 @@ const ChallengesPanel = ({ video }) => {
                     <p>{challenge.description}</p>
                   </div>
                   <p className={css.year}>
-                    <span>{challenge.year}</span>
-                    <PlayButton width={30} />
+                    <span>
+                      {challenge.date ? challenge.date.split('-').pop() : null}
+                    </span>
+                    <Link to={`/challenges/${challenge.slug}`}>
+                      <PlayButton width={30} />
+                    </Link>
                   </p>
                 </div>
               </div>

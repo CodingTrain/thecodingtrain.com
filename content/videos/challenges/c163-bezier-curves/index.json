@@ -3,6 +3,7 @@
   "number": 163,
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
+  "date": "08-22-2021",
   "videoId": "enNfb6p3j_g",
   "description": "Have you ever wanted to know more about bézier curves in p5.js? Thanks to a generous donation from Jason Oswald, I do a deep dive exploring the bézier curve function and the math behind the algorithm?  ",
   "codeExamples": [

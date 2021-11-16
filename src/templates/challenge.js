@@ -16,10 +16,12 @@ import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
 
 const Challenge = (props) => {
-  const { challenge, contributionImages, challengeImage } = props.data;
+  const { challenge, challenges, contributionImages, challengeImage } =
+    props.data;
   const images = {
     ...useImages(contributionImages.nodes)
   };
+  console.log({ challenges });
   if (challengeImage.nodes.length > 0)
     images._placeholder =
       challengeImage.nodes[0].childImageSharp.gatsbyImageData;
@@ -51,7 +53,7 @@ const Challenge = (props) => {
       />
 
       <div className={css.blankSep} />
-      <ChallengesPanel />
+      <ChallengesPanel challenges={challenges.nodes} />
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );
@@ -95,6 +97,16 @@ export const query = graphql`
           name
           url
         }
+      }
+    }
+    challenges: allChallenge(limit: 2) {
+      nodes {
+        title
+        slug
+        videoId
+        contributionsPath
+        description
+        date
       }
     }
     contributionImages: allFile(

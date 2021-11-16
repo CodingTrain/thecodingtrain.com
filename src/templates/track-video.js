@@ -18,7 +18,7 @@ import { pattern } from '../styles/styles.module.css';
 
 const Track = (props) => {
   const { pageContext, data } = props;
-  const { track, video, contributionImages, videoImage } = data;
+  const { track, video, challenges, contributionImages, videoImage } = data;
   const images = {
     ...useImages(contributionImages.nodes)
   };
@@ -77,7 +77,7 @@ const Track = (props) => {
         side="right"
         offset={0.7}
       />
-      <TrackChallengesPanel video={video} />
+      <TrackChallengesPanel challenges={challenges.nodes} />
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );
@@ -144,6 +144,16 @@ export const query = graphql`
           name
           url
         }
+      }
+    }
+    challenges: allChallenge(limit: 2) {
+      nodes {
+        title
+        slug
+        videoId
+        contributionsPath
+        description
+        date
       }
     }
     contributionImages: allFile(
