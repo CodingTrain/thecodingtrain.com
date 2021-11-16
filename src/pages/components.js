@@ -23,9 +23,9 @@ const ComponentsPage = ({ data }) => {
   return (
     <Layout>
       <Spacer label="Heading" />
-      <Heading>New to coding</Heading>
-      <Heading>Challenges</Heading>
-      <Heading>The Nature of Code 2.0</Heading>
+      <Heading variant="red">New to coding</Heading>
+      <Heading variant="cyan">Challenges</Heading>
+      <Heading variant="red">The Nature of Code 2.0</Heading>
       <Spacer label="Breadcrumbs" />
       <Breadcrumbs
         breadcrumbs={[
