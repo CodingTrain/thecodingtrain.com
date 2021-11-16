@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Spacer from '../components/Spacer';
@@ -28,7 +29,7 @@ const ChallengesPage = ({ data }) => {
         breadcrumbs={[{ name: 'Challenges', link: '#' }]}
         variant="cyan"
       />
-      <Heading>Challenges</Heading>
+      <Heading variant="cyan">Challenges</Heading>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
@@ -84,8 +85,10 @@ const ChallengesPage = ({ data }) => {
       </div>
       <Spacer />
       <ul>
-        {challenges.map((c, index) => (
-          <li key={index}>{c.title}</li>
+        {challenges.map((challenge, i) => (
+          <li key={i}>
+            <Link to={`/challenges/${challenge.slug}`}>{challenge.title}</Link>
+          </li>
         ))}
       </ul>
     </Layout>

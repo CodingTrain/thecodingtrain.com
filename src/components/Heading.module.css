@@ -11,10 +11,20 @@
   text-transform: uppercase;
 
   & h1 {
-    color: var(--red);
+    color: var(--gray-mid);
     line-height: var(--baseline-3x);
     font-size: var(--font-huge);
   }
+}
+
+/* Variants */
+
+.red h1 {
+  color: var(--red);
+}
+
+.cyan h1 {
+  color: var(--cyan);
 }
 
 @media (--medium) {

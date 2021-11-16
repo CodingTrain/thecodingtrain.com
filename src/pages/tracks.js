@@ -32,7 +32,7 @@ const TracksPage = ({ data }) => {
         breadcrumbs={[{ name: 'Tracks', link: '#' }]}
         variant="red"
       />
-      <Heading>Tracks</Heading>
+      <Heading variant="red">Tracks</Heading>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
