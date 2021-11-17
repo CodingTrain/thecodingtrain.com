@@ -1,10 +1,10 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
-import Tabs from '../Tabs';
-import CodeExampleList from '../CodeExampleList';
-import LinkList from '../LinkList';
-import CollapsableDescription from '../CollapsableDescription';
+import Tabs from './Tabs';
+import CodeExampleList from './CodeExampleList';
+import LinkList from './LinkList';
+import CollapsableDescription from './CollapsableDescription';
 import * as css from './VideoInfo.module.css';
 
 const VideoInfo = ({ video, variant }) => {

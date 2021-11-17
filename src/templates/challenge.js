@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import Breadcrumbs from '../components/Breadcrumbs';
 import ContributionsPanel from '../components/ContributionsPanel';
 import ChallengeVideoSection from '../components/challenges/VideoSection';
-import VideoInfo from '../components/tracks/VideoInfo';
+import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
 import CharacterSpacer from '../components/CharacterSpacer';
 
