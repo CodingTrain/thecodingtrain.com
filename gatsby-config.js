@@ -81,14 +81,14 @@ module.exports = {
       },
       __key: 'tracks'
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'guides',
-    //     path: './content/guides'
-    //   },
-    //   __key: 'guides'
-    // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'guides',
+        path: './content/guides'
+      },
+      __key: 'guides'
+    },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
