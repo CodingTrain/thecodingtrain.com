@@ -34,6 +34,7 @@ const createVideoRelatedNode = (
     const name = parent.name;
     const newNode = Object.assign({}, data, {
       id: createNodeId(`${type}s/${parent.relativePath}`),
+      parent: node.id,
       name,
       video: createNodeId(
         `${type}s/${parent.relativeDirectory.replace('/contributions', '')}`
@@ -63,6 +64,7 @@ const createVideoRelatedNode = (
 
     const newNode = Object.assign({}, data, {
       id: createNodeId(`${type}s/${slug}`),
+      parent: node.id,
       slug,
       contributionsPath: `${slug}/contributions`,
       timestamps,
@@ -149,6 +151,7 @@ exports.createTrackRelatedNode = (
         const data = omit(chapter, ['lessons']);
         const newNode = Object.assign({}, data, {
           id: createNodeId(`${slug}/${data.title}`),
+          parent: id,
           track: id,
           lessons: chapter.lessons.map((lessonSlug) =>
             createNodeId(`lessons/${lessonSlug}`)
@@ -165,6 +168,7 @@ exports.createTrackRelatedNode = (
 
     const newNode = Object.assign({}, data, {
       id,
+      parent: node.id,
       slug,
       chapters: chapters.map((ch) => ch.id),
       numVideos,
@@ -183,6 +187,7 @@ exports.createTrackRelatedNode = (
     numVideos += data.videos.length;
     const newNode = Object.assign({}, data, {
       id,
+      parent: node.id,
       slug,
       videos: data.videos.map((videoSlug) => createNodeId(videoSlug)),
       numVideos,
