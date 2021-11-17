@@ -2,6 +2,7 @@ const { schema } = require('./node-scripts/schema');
 const {
   createLessonRelatedNode,
   createChallengeRelatedNode,
+  createGuestTutorialRelatedNode,
   createTrackRelatedNode
 } = require('./node-scripts/node-generation');
 const {
