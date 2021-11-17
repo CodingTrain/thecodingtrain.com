@@ -13,42 +13,42 @@
   "codeExamples": [
     {
       "title": "Walker",
-      "type": "p5js",
+      "language": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
     },
     {
       "title": "Gravitational Attraction Attraction Attraction Attraction",
-      "type": "node",
+      "language": "node",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
     },
     {
       "title": "Rectangle Acceleration",
-      "type": "p5js",
+      "language": "p5js",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
     },
     {
       "title": "Rectangle Grab Exercise",
-      "type": "node",
+      "language": "node",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
     },
     {
       "title": "Rectangle Grab Exercise",
-      "type": "processing",
+      "language": "processing",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "editorURL": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
     },
     {
       "title": "Rectangle Grab Exercise",
-      "type": "",
+      "language": "",
       "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random",
       "codeURL": "https://codingtrain.github.io/DownGit/#/home?url=https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
     }

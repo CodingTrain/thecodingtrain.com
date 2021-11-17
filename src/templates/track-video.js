@@ -16,15 +16,23 @@ import { useImages } from '../hooks';
 import * as css from './track-video.module.css';
 import { pattern } from '../styles/styles.module.css';
 
-const Track = (props) => {
-  const { pageContext, data } = props;
-  const { track, video, challenges, contributionImages, videoImage } = data;
-  const images = {
-    ...useImages(contributionImages.nodes)
-  };
-  if (videoImage.nodes.length > 0)
-    images._placeholder = videoImage.nodes[0].childImageSharp.gatsbyImageData;
+const Track = ({ pageContext, data }) => {
+  const { track, video, challenges } = data;
   const { trackPosition, isTrackPage } = pageContext;
+  const contributionsImages = {
+    ...useImages(data.contributionsImages.nodes)
+  };
+  if (data.contributionPlaceholderImage.nodes.length > 0) {
+    contributionsImages._placeholder =
+      data.contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
+  }
+  const challengesImages = {
+    ...useImages(data.challengesImages.nodes, 'relativeDirectory')
+  };
+  if (data.challengePlaceholderImage.nodes.length > 0) {
+    challengesImages._placeholder =
+      data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
+  }
   return (
     <Layout>
       <Breadcrumbs
@@ -65,7 +73,7 @@ const Track = (props) => {
           />
           <TrackContributionsPanel
             contributions={video.contributions}
-            images={images}
+            images={contributionsImages}
           />
         </>
       )}
@@ -77,7 +85,10 @@ const Track = (props) => {
         side="right"
         offset={0.7}
       />
-      <TrackChallengesPanel challenges={challenges.nodes} />
+      <TrackChallengesPanel
+        challenges={challenges.nodes}
+        images={challengesImages}
+      />
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );
@@ -146,7 +157,7 @@ export const query = graphql`
         }
       }
     }
-    challenges: allChallenge(limit: 2) {
+    challenges: allChallenge(sort: { order: DESC, fields: slug }, limit: 2) {
       nodes {
         title
         slug
@@ -156,7 +167,23 @@ export const query = graphql`
         date
       }
     }
-    contributionImages: allFile(
+    challengesImages: allFile(
+      filter: {
+        extension: { in: ["jpg", "png"] }
+        sourceInstanceName: { eq: "challenges" }
+        relativeDirectory: { regex: "/^(?!.*(/contributions)).*$/", ne: "" }
+      }
+      sort: { order: DESC, fields: relativeDirectory }
+      limit: 2
+    ) {
+      nodes {
+        relativeDirectory
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    contributionsImages: allFile(
       filter: {
         sourceInstanceName: { in: ["challenges", "lessons", "guest-tutorials"] }
         extension: { in: ["jpg", "png"] }
@@ -171,11 +198,26 @@ export const query = graphql`
         }
       }
     }
-    videoImage: allFile(
+    contributionPlaceholderImage: allFile(
       filter: {
         sourceInstanceName: { in: ["challenges", "lessons", "guest-tutorials"] }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: $videoSlug }
+      }
+    ) {
+      nodes {
+        base
+        relativeDirectory
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    challengePlaceholderImage: allFile(
+      filter: {
+        sourceInstanceName: { eq: "challenges" }
+        extension: { in: ["jpg", "png"] }
+        relativeDirectory: { eq: "" }
       }
     ) {
       nodes {

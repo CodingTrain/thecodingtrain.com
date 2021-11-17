@@ -1,11 +1,13 @@
 import React, { Fragment, memo } from 'react';
 import { Link } from 'gatsby';
 
+import Image from './Image';
+
 import * as css from './ChallengesPanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-const ChallengesPanel = ({ challenges }) => {
+const ChallengesPanel = ({ challenges, images }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
@@ -22,7 +24,21 @@ const ChallengesPanel = ({ challenges }) => {
                 {/* <h5 className={css.title}>{challenge.title}</h5> */}
               </div>
               <div className={css.thumb}>
-                <div className={css.left}></div>
+                <div className={css.left}>
+                  {images && images[challenge.slug] ? (
+                    <Image
+                      image={images[challenge.slug]}
+                      pictureClassName={css.picture}
+                      imgClassName={css.image}
+                    />
+                  ) : images && images['_placeholder'] ? (
+                    <Image
+                      image={images['_placeholder']}
+                      pictureClassName={css.picture}
+                      imgClassName={css.image}
+                    />
+                  ) : null}
+                </div>
                 <div className={css.right}>
                   <div className={css.description}>
                     <p>{challenge.description}</p>

@@ -137,6 +137,16 @@
   border-left: var(--border-cyan);
 }
 
+.picture {
+  height: var(--baseline-4x);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (--reduced) {
   .left {
     width: 100%;
