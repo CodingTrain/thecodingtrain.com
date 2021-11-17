@@ -38,7 +38,7 @@ const Footer = () => {
               Support the Coding Train and get access to a number of perks like
               stickers and member-only livestreams.
             </p>
-            <a href="#">Support now</a>
+            <a href="https://youtube.com/thecodingtrain/">Support now</a>
           </div>
         </div>
         <div className={cn(css.box)}>
@@ -62,7 +62,7 @@ const Footer = () => {
               Visit the Coding Train store with a small selection of high
               quality items.
             </p>
-            <a href="#">Go now</a>
+            <a href="https://standard.tv/thecodingtrain">Go now</a>
           </div>
         </div>
       </div>
@@ -107,16 +107,16 @@ const Footer = () => {
           <span>Videos</span>
           <ul>
             <li>
-              <Link to="#">Tracks</Link>
+              <Link to="/tracks">Tracks</Link>
             </li>
             <li>
-              <Link to="#">Challenges</Link>
+              <Link to="/challenges">Challenges</Link>
             </li>
             <li>
-              <Link to="#">FAQ</Link>
+              <Link to="/">FAQ</Link>
             </li>
             <li>
-              <Link to="#">Archive</Link>
+              <Link to="/">Archive</Link>
             </li>
           </ul>
         </div>
@@ -127,10 +127,10 @@ const Footer = () => {
               <a href="https://discord.com/invite/hPuGy2g">Discord</a>
             </li>
             <li>
-              <Link to="#">Gallery</Link>
+              <Link to="/">Gallery</Link>
             </li>
             <li>
-              <Link to="#">Contribute</Link>
+              <Link to="/">Contribute</Link>
             </li>
             <li>
               <a href="https://github.com/CodingTrain">Github</a>
@@ -141,10 +141,10 @@ const Footer = () => {
           <span>About</span>
           <ul>
             <li>
-              <Link to="#">Talks</Link>
+              <Link to="/">Talks</Link>
             </li>
             <li>
-              <Link to="#">Shop</Link>
+              <a href="https://standard.tv/thecodingtrain">Go now</a>
             </li>
           </ul>
         </div>
