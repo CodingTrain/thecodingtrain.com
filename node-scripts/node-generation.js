@@ -1,14 +1,26 @@
 const omit = require('lodash/omit');
 const fs = require('fs');
 
+/**
+ * Transform camel case str to dash case
+ * @param {string} str - Camel case string
+ */
 function camelCaseToDash(str) {
   return str.replace(/([a-zA-Z])(?=[A-Z])/g, '$1-').toLowerCase();
 }
 
+/**
+ * Returns filtered object that omits Gatsby node properties
+ * @param {object} node - Node object
+ */
 const getJson = (node) => {
   return omit(node, ['id', 'children', 'parent', 'internal']);
 };
 
+/**
+ * String timestamp parser to amount of seconds
+ * @param {string} timeString - Timestamp string
+ */
 const parseTimestamp = (timeString) => {
   const splitted = timeString.split(':');
   let secondTotal = 0;
@@ -20,6 +32,15 @@ const parseTimestamp = (timeString) => {
   return secondTotal;
 };
 
+/**
+ * Creates Video and Contribution nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ * @param {string} schemaType - Specific Video node type
+ */
 const createVideoRelatedNode = (
   createNode,
   createNodeId,
@@ -29,6 +50,7 @@ const createVideoRelatedNode = (
   schemaType
 ) => {
   const type = camelCaseToDash(schemaType);
+  // Loaded node may be a JSON file for a contribution or a video
   if (parent.relativePath.includes('/contributions/')) {
     const data = getJson(node);
     const name = parent.name;
@@ -48,6 +70,8 @@ const createVideoRelatedNode = (
   } else {
     const slug = parent.relativeDirectory;
     const data = getJson(node);
+    // If folder present, it reads every contribution file present in the
+    // video folder so that we can get the corresponding ID's to link them
     const contributions = fs.existsSync(`${parent.dir}/contributions`)
       ? fs
           .readdirSync(`${parent.dir}/contributions`)
@@ -81,6 +105,14 @@ const createVideoRelatedNode = (
   }
 };
 
+/**
+ * Creates Challenge and Contribution nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
 exports.createChallengeRelatedNode = (
   createNode,
   createNodeId,
@@ -97,6 +129,14 @@ exports.createChallengeRelatedNode = (
     'Challenge'
   );
 
+/**
+ * Creates Lesson and Contribution nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
 exports.createLessonRelatedNode = (
   createNode,
   createNodeId,
@@ -113,6 +153,14 @@ exports.createLessonRelatedNode = (
     'Lesson'
   );
 
+/**
+ * Creates Guest Tutorial and Contribution nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
 exports.createGuestTutorialRelatedNode = (
   createNode,
   createNodeId,
@@ -129,6 +177,14 @@ exports.createGuestTutorialRelatedNode = (
     'GuestTutorial'
   );
 
+/**
+ * Creates Track node from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
 exports.createTrackRelatedNode = (
   createNode,
   createNodeId,
@@ -143,7 +199,7 @@ exports.createTrackRelatedNode = (
   let numVideos = 0;
 
   if (type === 'main') {
-    // Make Chapter nodes
+    // Make Chapter nodes for only main tracks
     const chapters = [];
     if (node.chapters) {
       for (let i = 0; i < node.chapters.length; i++) {
@@ -184,6 +240,7 @@ exports.createTrackRelatedNode = (
       createNode(chapters[i]);
     }
   } else if (type === 'side') {
+    // Side tracks only reference videos by slug
     numVideos += data.videos.length;
     const newNode = Object.assign({}, data, {
       id,

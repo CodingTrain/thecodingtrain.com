@@ -1,3 +1,8 @@
+/**
+ * Creates single Challenge pages for all loaded Challenge nodes
+ * @param {function} graphql - Gatsby's graphql function
+ * @param {function} createPage - Gatsby's createPage function
+ */
 exports.createChallengePages = async (graphql, createPage) => {
   const { data } = await graphql(`
     query {
@@ -12,6 +17,8 @@ exports.createChallengePages = async (graphql, createPage) => {
   `);
 
   data.challenges.nodes.forEach((challenge) => {
+    // Passes context variables for querying corresponding
+    // challenge, contributions and images in front-end
     createPage({
       path: `challenges/${challenge.slug}`,
       component: require.resolve(`../src/templates/challenge.js`),
@@ -24,6 +31,11 @@ exports.createChallengePages = async (graphql, createPage) => {
   });
 };
 
+/**
+ * Creates individual Video pages nested from the loaded tracks
+ * @param {function} graphql - Gatsby's graphql function
+ * @param {function} createPage - Gatsby's createPage function
+ */
 exports.createTrackVideoPages = async (graphql, createPage) => {
   const { data } = await graphql(`
     query {
@@ -50,8 +62,13 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
   `);
 
   data.tracks.nodes.forEach((track) => {
+    // Determine the corresponding first video of the track
+    // Main => First chapter's first lesson
+    // Side => First video
     const firstVideo =
       track.type === 'main' ? track.chapters[0].lessons[0] : track.videos[0];
+
+    // Create track intro page with first video
     createPage({
       path: `tracks/${track.slug}`,
       component: require.resolve(`../src/templates/track-video.js`),
@@ -64,6 +81,8 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         trackPosition: { chapterIndex: 0, videoIndex: 0 }
       }
     });
+    // For a main track, each lesson has it's own URL and page
+    // Context is passed so that front-end correctly loads related data
     if (track.type === 'main') {
       track.chapters.forEach((chapter, chapterIndex) => {
         chapter.lessons.forEach((lesson, lessonIndex) => {
@@ -82,6 +101,8 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         });
       });
     } else {
+      // Similarly, in a side track, each video has it's own URL and page
+      // Context is passed so that front-end correctly loads related data
       track.videos.forEach((video, videoIndex) => {
         createPage({
           path: `tracks/${track.slug}/${video.slug}`,
