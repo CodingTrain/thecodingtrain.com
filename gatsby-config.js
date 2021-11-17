@@ -65,14 +65,14 @@ module.exports = {
       },
       __key: 'challenges'
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'guest-tutorials',
-    //     path: './content/videos/guest-tutorials'
-    //   },
-    //   __key: 'guest-tutorials'
-    // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'guest-tutorials',
+        path: './content/videos/guest-tutorials'
+      },
+      __key: 'guest-tutorials'
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

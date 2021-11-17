@@ -1,6 +1,10 @@
 const omit = require('lodash/omit');
 const fs = require('fs');
 
+function camelCaseToDash(str) {
+  return str.replace(/([a-zA-Z])(?=[A-Z])/g, '$1-').toLowerCase();
+}
+
 const getJson = (node) => {
   return omit(node, ['id', 'children', 'parent', 'internal']);
 };
@@ -24,7 +28,7 @@ const createVideoRelatedNode = (
   parent,
   schemaType
 ) => {
-  const type = schemaType.toLowerCase();
+  const type = camelCaseToDash(schemaType);
   if (parent.relativePath.includes('/contributions/')) {
     const data = getJson(node);
     const name = parent.name;
@@ -105,6 +109,22 @@ exports.createLessonRelatedNode = (
     node,
     parent,
     'Lesson'
+  );
+
+exports.createGuestTutorialRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) =>
+  createVideoRelatedNode(
+    createNode,
+    createNodeId,
+    createContentDigest,
+    node,
+    parent,
+    'GuestTutorial'
   );
 
 exports.createTrackRelatedNode = (

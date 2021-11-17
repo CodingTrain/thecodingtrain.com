@@ -24,35 +24,33 @@ exports.onCreateNode = ({
   const parent = getNode(node.parent);
 
   /**
-    Turn challenge json files into Challenge nodes
+    Turn challenge json files into Video nodes
   **/
-  if (
-    owner === 'gatsby-transformer-json' &&
-    parent.sourceInstanceName === 'challenges'
-  ) {
-    createChallengeRelatedNode(
-      createNode,
-      createNodeId,
-      createContentDigest,
-      node,
-      parent
-    );
-  }
-
-  /**
-    Turn lesson json files into Lesson nodes
-  **/
-  if (
-    owner === 'gatsby-transformer-json' &&
-    parent.sourceInstanceName === 'lessons'
-  ) {
-    createLessonRelatedNode(
-      createNode,
-      createNodeId,
-      createContentDigest,
-      node,
-      parent
-    );
+  if (owner === 'gatsby-transformer-json') {
+    if (parent.sourceInstanceName === 'challenges')
+      createChallengeRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'lessons')
+      createLessonRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'guest-tutorials')
+      createGuestTutorialRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
   }
 
   /**
