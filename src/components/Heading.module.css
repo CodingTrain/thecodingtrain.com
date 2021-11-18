@@ -11,7 +11,7 @@
   &.h1 {
     font-family: var(--maru-mega);
     font-size: var(--maru-mega-large);
-    line-height: var(--baseline-3x);
+    line-height: var(--maru-mega-large-line-height);
     text-transform: uppercase;
   }
   &.h2 {

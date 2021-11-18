@@ -32,10 +32,10 @@ const AboutPage = ({ data }) => {
           Hi I'm Dan!
         </Heading1>
         <div className={css.train}>
-          <Train height={'100%'} />
+          <Train className={css.trainIcon} />
         </div>
       </div>
-      <div className={css.row}>
+      <div className={css.aboutRow}>
         <div className={css.aboutBlock}>
           <div className={css.danIntro}>
             <p>

@@ -47,8 +47,8 @@
 .title {
   margin-top: var(--baseline-1of2);
   margin-bottom: var(--baseline-1of4);
-  line-height: var(--baseline-2of3);
-  font-size: var(--font-large);
+  font-size: var(--maru-large);
+  line-height: var(--maru-large-line-height);
 }
 
 .description {

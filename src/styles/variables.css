@@ -1,7 +1,7 @@
 @custom-media --xsmall (max-width: 400px);
 @custom-media --small (max-width: 600px);
 @custom-media --reduced (max-width: 900px);
-@custom-media --medium (max-width: 1025px);
+@custom-media --medium (max-width: 1180px);
 @custom-media --large (max-width: 1440px);
 @custom-media --container (max-width: 1600px);
 
@@ -58,10 +58,10 @@
   --maru-mega-small: 49px;
   --maru-mega-small-line-height: var(--baseline);
 
-  --maru-xlarge: 30px;
+  --maru-xlarge: 28px;
   --maru-xlarge-line-height: var(--baseline);
-  --maru-large: 24px; /* 22px?  */
-  --maru-large-line-height: var(--baseline);
+  --maru-large: 22px;
+  --maru-large-line-height: var(--baseline-2of3);
   --maru-medium: 16px;
   --maru-medium-line-height: var(--baseline-1of2);
   --maru-normal: 15px;
@@ -128,6 +128,13 @@
 
 @media (--medium) {
   :root {
+    --maru-mega-large: 90px;
+    --maru-mega-large-line-height: var(--baseline-2x);
+    --maru-mega-medium: 60px;
+    --maru-mega-medium-line-height: var(--baseline);
+    --maru-mega-small: 35px;
+    --maru-mega-small-line-height: var(--baseline);
+
     --font-xsmall: 10px;
     --font-small: 11px;
     --font-normal: 13px;
@@ -152,6 +159,13 @@
 
 @media (--reduced) {
   :root {
+    --maru-mega-large: 70px;
+    --maru-mega-large-line-height: var(--baseline-2x);
+    --maru-mega-medium: 70px;
+    --maru-mega-medium-line-height: var(--baseline-2x);
+    --maru-mega-small: 49px;
+    --maru-mega-small-line-height: var(--baseline);
+
     --container-spacing-horizontal: 20px;
 
     --timeline-heading-mark: 70px;
