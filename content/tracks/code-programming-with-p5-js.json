@@ -5,7 +5,10 @@
   "chapters": [
     {
       "title": "Introduction to P5.js",
-      "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
+      "lessons": [
+        "code-programming-with-p5-js-introduction",
+        "p5-js-web-editor"
+      ]
     }
   ]
 }

@@ -14,9 +14,8 @@ const items = [
   {
     name: 'Videos',
     children: [
-      { name: 'Videos1', href: '' },
-      { name: 'Videos2', href: '' },
-      { name: 'Videos3', href: '' }
+      { name: 'Tracks', href: '/tracks' },
+      { name: 'Challenges', href: '/challenges' }
     ]
   },
   {

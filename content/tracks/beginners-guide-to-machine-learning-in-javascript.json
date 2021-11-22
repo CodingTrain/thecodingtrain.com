@@ -2,18 +2,9 @@
   "title": "Beginners Guide to Machine Learning in JavaScript",
   "type": "side",
   "description": "This track provides an introduction to developing creative coding projects with machine learning. The theory and application of machine learning algorithms is demonstrated in JavaScript using the p5.js and ml5.js libraries.",
-  "chapters": [
-    {
-      "title": "Introduction to P5.js",
-      "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
-    },
-    {
-      "title": "Introduction to P5.js 2",
-      "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
-    },
-    {
-      "title": "Introduction to P5.js 3",
-      "videos": ["code-programming-with-p5-js-introduction", "p5-js-web-editor"]
-    }
+  "videos": [
+    "lessons/code-programming-with-p5-js-introduction",
+    "lessons/p5-js-web-editor",
+    "challenges/c16-fractal-trees-l-system"
   ]
 }

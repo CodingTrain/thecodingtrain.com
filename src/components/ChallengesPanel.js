@@ -1,26 +1,13 @@
 import React, { Fragment, memo } from 'react';
+import { Link } from 'gatsby';
+
+import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-//dummy content
-const challenges = [
-  {
-    title:
-      "Estimating π from Random Numbers with Euclid's Algorithms and somethings",
-    description: 'Happy Pi Day 2021! ',
-    year: '2017'
-  },
-  {
-    title: "Estimating π from Random Numbers with Euclid's Algo...",
-    description:
-      'Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime. I estimate',
-    year: '2017'
-  }
-];
-
-const ChallengesPanel = ({ video }) => {
+const ChallengesPanel = ({ challenges, images }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
@@ -37,14 +24,32 @@ const ChallengesPanel = ({ video }) => {
                 {/* <h5 className={css.title}>{challenge.title}</h5> */}
               </div>
               <div className={css.thumb}>
-                <div className={css.left}></div>
+                <div className={css.left}>
+                  {images && images[challenge.slug] ? (
+                    <Image
+                      image={images[challenge.slug]}
+                      pictureClassName={css.picture}
+                      imgClassName={css.image}
+                    />
+                  ) : images && images['_placeholder'] ? (
+                    <Image
+                      image={images['_placeholder']}
+                      pictureClassName={css.picture}
+                      imgClassName={css.image}
+                    />
+                  ) : null}
+                </div>
                 <div className={css.right}>
                   <div className={css.description}>
                     <p>{challenge.description}</p>
                   </div>
                   <p className={css.year}>
-                    <span>{challenge.year}</span>
-                    <PlayButton width={30} />
+                    <span>
+                      {challenge.date ? challenge.date.split('-').pop() : null}
+                    </span>
+                    <Link to={`/challenges/${challenge.slug}`}>
+                      <PlayButton width={30} />
+                    </Link>
                   </p>
                 </div>
               </div>

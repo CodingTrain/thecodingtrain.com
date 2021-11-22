@@ -6,9 +6,12 @@ import cn from 'classnames';
 
 import * as css from './YouTubeVideo.module.css';
 
-const YouTubeVideo = ({ containerClassName, className, link, timestamp }) => {
-  const linkSplit = link.split('/');
-  const videoId = linkSplit[linkSplit.length - 1] ?? '';
+const YouTubeVideo = ({
+  containerClassName,
+  className,
+  videoId,
+  timestamp
+}) => {
   const youTubeVideo = useRef();
 
   useEffect(() => {

@@ -33,12 +33,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-transformer-json',
-    // {
-    //   resolve: `gatsby-transformer-json`,
-    //   options: {
-    //     typeName: `json`
-    //   }
-    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -58,6 +52,30 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'lessons',
+        path: './content/videos/lessons'
+      },
+      __key: 'lessons'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'challenges',
+        path: './content/videos/challenges'
+      },
+      __key: 'challenges'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'guest-tutorials',
+        path: './content/videos/guest-tutorials'
+      },
+      __key: 'guest-tutorials'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'tracks',
         path: './content/tracks'
       },
@@ -66,10 +84,10 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'videos',
-        path: './content/videos'
+        name: 'guides',
+        path: './content/guides'
       },
-      __key: 'videos'
+      __key: 'guides'
     },
     {
       resolve: 'gatsby-plugin-react-svg',

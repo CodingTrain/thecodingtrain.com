@@ -10,29 +10,29 @@ const Header = ({ track }) => {
   const languages = ['JavaScript', 'Processing'];
   const topics = ['Machine Learning', 'Physics'];
 
+  const { title, description, type, numVideos } = track;
+
   return (
     <div className={css.root}>
       <div className={css.sep} />
-      <h1 className={css.title}>{track.title}</h1>
+      <h1 className={css.title}>{title}</h1>
       <div className={css.info}>
         <CollapsableDescription
           className={css.description}
           expandedClassName={css.showMore}
           variant={'red'}
-          content={track.description}
+          content={description}
         />
         <div className={css.tagsContainer}>
           <Tags heading="Languages" items={languages} singleLine={false} />
           <Tags heading="Topics" items={topics} singleLine={false} />
           <Tags
-            heading={`${track.chapters.length} chapters`}
-            items={[
-              `${track.chapters.reduce(
-                (curr, acc) => curr + acc.videos.length,
-                0
-              )} 
-            video lessons`
-            ]}
+            heading={
+              type === 'main'
+                ? `${track.chapters.length} chapters`
+                : 'Side track'
+            }
+            items={[`${numVideos} video lessons`]}
             singleLine={false}
           />
         </div>
