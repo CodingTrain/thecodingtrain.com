@@ -34,3 +34,10 @@
     color: var(--purple);
   }
 }
+
+.cyan {
+  color: var(--cyan);
+  & a {
+    color: var(--cyan);
+  }
+}

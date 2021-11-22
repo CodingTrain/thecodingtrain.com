@@ -37,6 +37,10 @@
   border-bottom-color: var(--red);
 }
 
+.bbcyan {
+  border-bottom-color: var(--cyan);
+}
+
 @media (--reduced) {
   .root {
     flex-direction: column;

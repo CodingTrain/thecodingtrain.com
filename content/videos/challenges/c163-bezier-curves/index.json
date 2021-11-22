@@ -1,0 +1,142 @@
+{
+  "title": "Bézier Curves",
+  "number": 163,
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "date": "08-22-2021",
+  "videoId": "enNfb6p3j_g",
+  "description": "Have you ever wanted to know more about bézier curves in p5.js? Thanks to a generous donation from Jason Oswald, I do a deep dive exploring the bézier curve function and the math behind the algorithm?  ",
+  "codeExamples": [
+    {
+      "title": "Basic",
+      "lang": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier",
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ"
+    },
+    {
+      "title": "Editor by Simon Tiger",
+      "lang": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor",
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA"
+    },
+    {
+      "title": "bezierVertex",
+      "lang": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex",
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw"
+    },
+    {
+      "title": "Time Table Cardioid with Bezier",
+      "lang": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier",
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg"
+    },
+    {
+      "title": "Quadratic",
+      "lang": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic",
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE"
+    },
+    {
+      "title": "Cubic",
+      "lang": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic",
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1"
+    },
+    {
+      "title": "Bezier with Formula",
+      "lang": "p5js",
+      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula",
+      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula",
+      "editorURL": "https://editor.p5js.org/codingtrain/sketches/0XOLNHbvC"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Links discussed",
+      "links": [
+        {
+          "title": "#SupportP5 2020",
+          "url": "https://donorbox.org/supportp52020"
+        },
+        {
+          "title": "Jason Oswald (GitHub)",
+          "url": "https://github.com/gajoswald"
+        },
+        {
+          "title": "Processing Foundation",
+          "url": "https://processingfoundation.org/"
+        },
+        {
+          "title": "bezier() - p5.js Reference",
+          "url": "https://p5js.org/reference/#/p5/bezier"
+        },
+        {
+          "title": "Bézier curve (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/B%C3%A9zier_curve"
+        },
+        {
+          "title": "Custom shapes - Programming Design Systems by Rune Madsen",
+          "url": "https://www.programmingdesignsystems.com/shape/custom-shapes/index.html#custom-shapes-pANLh0l"
+        },
+        {
+          "title": "lerp() - p5.js Reference",
+          "url": "https://p5js.org/reference/#/p5/lerp"
+        }
+      ]
+    },
+    {
+      "title": "Videos discussed",
+      "links": [
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "author": "The Coding Train",
+          "url": "/self-avoiding-walk"
+        },
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "author": "The Coding Train",
+          "url": "/162-self-avoiding-walk"
+        },
+        {
+          "title": "Time Table Cardioid - Coding Challenge 133",
+          "author": "The Coding Train",
+          "url": "/133-times-tables-cardioid"
+        }
+      ]
+    }
+  ],
+  "timestamps": [
+    { "title": "Welcome! Thanks Jason!", "time": "0:00" },
+    { "title": "Explain! What is the bezier() function?", "time": "1:03" },
+    {
+      "title": "Explain! The difference between linear, quadratic, and cubic bezier curves?",
+      "time": "2:02"
+    },
+    { "title": "Explain! What is a control point?", "time": "2:34" },
+    { "title": "Code! Let's try the bezier() function!", "time": "3:42" },
+    { "title": "Code! Now we can explore bezierVertex()!", "time": "5:02" },
+    { "title": "But wait! How can we go farther?", "time": "7:13" },
+    { "title": "Explain! How is lerp() related to bezier()?", "time": "7:39" },
+    {
+      "title": "Code! How can we draw a straight line with vertex()?",
+      "time": "9:09"
+    },
+    { "title": "Explain! Lerpception!!", "time": "10:59" },
+    { "title": "Code! Quadratic bezier!", "time": "13:21" },
+    {
+      "title": "Code! What if we connect the points from the two lerps?",
+      "time": "14:47"
+    },
+    { "title": "Code! Cubic bezier.", "time": "16:02" },
+    { "title": "Code! Let's bring back the rainbow!", "time": "19:21" },
+    { "title": "Code! Moving points based on bouncing ball.", "time": "20:17" },
+    { "title": "Wrap up. What will you create?", "time": "21:40" }
+  ]
+}

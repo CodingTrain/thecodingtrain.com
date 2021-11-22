@@ -1,12 +1,13 @@
 import React, { Fragment, memo } from 'react';
 
 import ButtonPanel from './ButtonPanel';
+import Image from './Image';
 
 import * as css from './ContributionsPanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-const ContributionsPanel = ({ contributions }) => {
+const ContributionsPanel = ({ contributions, images }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
@@ -21,8 +22,25 @@ const ContributionsPanel = ({ contributions }) => {
         {contributions.map((contrib, key) => (
           <Fragment key={key}>
             <div className={css.contrib}>
-              <span className={css.title}>{contrib.title}</span>
-              <div className={css.imagePlaceholder}></div>
+              <span className={css.title}>
+                {contrib.image}
+                {contrib.title}
+              </span>
+              {images && images[contrib.name] ? (
+                <Image
+                  image={images[contrib.name]}
+                  pictureClassName={css.picture}
+                  imgClassName={css.image}
+                />
+              ) : images && images['_placeholder'] ? (
+                <Image
+                  image={images['_placeholder']}
+                  pictureClassName={css.picture}
+                  imgClassName={css.image}
+                />
+              ) : (
+                <div className={css.imagePlaceholder}></div>
+              )}
               <p className={css.author}>
                 {contrib.author.url ? (
                   <a

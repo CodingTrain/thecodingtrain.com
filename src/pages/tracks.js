@@ -62,6 +62,7 @@ const TracksPage = ({ data }) => {
           expanded={expanded}
           onExpand={onExpand}
           className={css.filter}
+          variant="red"
         />
         <Filter
           title="Filter by Topic"
@@ -83,6 +84,7 @@ const TracksPage = ({ data }) => {
           expanded={expanded}
           onExpand={onExpand}
           className={css.filter}
+          variant="red"
         />
       </div>
       <Spacer />
@@ -120,9 +122,12 @@ export const query = graphql`
         description
         numVideos
         type
+        videos {
+          title
+        }
         chapters {
           title
-          videos {
+          lessons {
             title
           }
         }
