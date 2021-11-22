@@ -256,3 +256,33 @@ exports.createTrackRelatedNode = (
     createNode(newNode);
   }
 };
+
+/**
+ * Creates Talk node from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createTalkRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const slug = parent.name;
+  const data = getJson(node);
+
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(slug),
+    parent: node.id,
+    slug,
+    internal: {
+      type: `Talk`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};

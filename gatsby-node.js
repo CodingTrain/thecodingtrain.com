@@ -3,7 +3,8 @@ const {
   createLessonRelatedNode,
   createChallengeRelatedNode,
   createGuestTutorialRelatedNode,
-  createTrackRelatedNode
+  createTrackRelatedNode,
+  createTalkRelatedNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
@@ -71,19 +72,13 @@ exports.onCreateNode = ({
     Turn talk json files into Talk nodes
   **/
   if (node.internal.type === 'TalksJson') {
-    const parent = getNode(node.parent);
-    const slug = parent.name;
-    const data = getJson(node);
-
-    const newNode = Object.assign({}, data, {
-      id: createNodeId(slug),
-      slug,
-      internal: {
-        type: `Talk`,
-        contentDigest: createContentDigest(data)
-      }
-    });
-    createNode(newNode);
+    createTalkRelatedNode(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
   }
 };
 
