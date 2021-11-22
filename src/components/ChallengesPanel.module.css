@@ -17,7 +17,7 @@
     padding: 0 var(--box-padding);
     line-height: var(--baseline);
     font-family: var(--maru-mono);
-    font-size: var(--font-medium);
+    font-size: var(--maru-medium);
   }
 
   & h4 {
@@ -40,7 +40,7 @@
   flex-basis: 47%;
   flex-direction: column;
   font-family: var(--maru-mono);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
 
   & p {
     display: flex;
@@ -64,7 +64,7 @@
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
   line-height: 1em;
-  font-size: var(--font-emoji);
+  font-size: var(--maru-emoji-normal);
   display: flex;
   justify-content: center;
   align-items: center;

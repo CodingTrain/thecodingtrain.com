@@ -29,21 +29,21 @@
   }
 
   &.h4 {
+    font-size: var(--maru-xxlarge);
+    font-weight: bold;
+    line-height: var(--maru-xxlarge-line-height);
+  }
+
+  &.h5 {
     font-size: var(--maru-xlarge);
     font-weight: bold;
     line-height: var(--maru-xlarge-line-height);
   }
 
-  &.h5 {
+  &.h6 {
     font-size: var(--maru-large);
     font-weight: bold;
     line-height: var(--maru-large-line-height);
-  }
-
-  &.h6 {
-    font-size: var(--maru-medium);
-    font-weight: bold;
-    line-height: var(--maru-medium-line-height);
   }
   & h1,
   & h2,

@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     margin: 0 calc(var(--box-padding) / 2);
-    font-size: var(--font-small);
+    font-size: var(--maru-small);
   }
 }
 
@@ -83,7 +83,7 @@
   .timestamp {
     & span {
       margin: 0 var(--box-padding);
-      font-size: var(--font-medium);
+      font-size: var(--maru-medium);
     }
   }
 

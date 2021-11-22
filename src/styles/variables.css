@@ -58,32 +58,22 @@
   --maru-mega-small: 49px;
   --maru-mega-small-line-height: var(--baseline);
 
-  --maru-xlarge: 28px;
-  --maru-xlarge-line-height: var(--baseline);
-  --maru-large: 22px;
-  --maru-large-line-height: var(--baseline-2of3);
-  --maru-medium: 16px;
+  --maru-xxlarge: 28px;
+  --maru-xxlarge-line-height: var(--baseline);
+  --maru-xlarge: 22px;
+  --maru-xlarge-line-height: var(--baseline-2of3);
+  --maru-large: 16px;
+  --maru-large-line-height: var(--baseline-1of2);
+  --maru-medium: 15px;
   --maru-medium-line-height: var(--baseline-1of2);
-  --maru-normal: 15px;
+  --maru-normal: 14px;
   --maru-normal-line-height: var(--baseline-1of2);
-  --maru-small: 14px;
+  --maru-small: 12px;
   --maru-small-line-height: var(--baseline-1of2);
-  --maru-xsmall: 12px;
+  --maru-xsmall: 11px;
   --maru-xsmall-line-height: var(--baseline-1of2);
-  --maru-tiny: 11px;
-  --maru-tiny-line-height: var(--baseline-1of2);
 
   --maru-emoji-normal: 18px;
-
-  --font-xsmall: 11px;
-  --font-small: 12px;
-  --font-normal: 14px;
-  --font-medium: 15px;
-  --font-reduced: 16px;
-  --font-emoji: 18px;
-  --font-large: 22px;
-  --font-xlarge: 55px;
-  --font-huge: 140px;
 
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
@@ -128,24 +118,29 @@
 
 @media (--medium) {
   :root {
-    --maru-mega-large: 90px;
+    --maru-mega-large: 100px;
     --maru-mega-large-line-height: var(--baseline-2x);
     --maru-mega-medium: 60px;
     --maru-mega-medium-line-height: var(--baseline);
     --maru-mega-small: 35px;
     --maru-mega-small-line-height: var(--baseline);
 
-    --font-xsmall: 10px;
-    --font-small: 11px;
-    --font-normal: 13px;
-    --font-medium: 14px;
-    --font-reduced: 15px;
-    --font-emoji: 17px;
+    --maru-xxlarge: 28px;
+    --maru-xxlarge-line-height: var(--baseline);
+    --maru-xlarge: 22px;
+    --maru-xlarge-line-height: var(--baseline-2of3);
+    --maru-large: 15px;
+    --maru-large-line-height: var(--baseline-1of2);
+    --maru-medium: 14px;
+    --maru-medium-line-height: var(--baseline-1of2);
+    --maru-normal: 13px;
+    --maru-normal-line-height: var(--baseline-1of2);
+    --maru-small: 11px;
+    --maru-small-line-height: var(--baseline-1of2);
+    --maru-xsmall: 11px;
+    --maru-xsmall-line-height: var(--baseline-1of2);
 
-    --font-xlarge: 45px;
-    --font-xxlarge: 105px;
-
-    --font-huge: 100px;
+    --maru-emoji-normal: 17px;
 
     --box-padding: 13px;
     --container-spacing-horizontal: 30px;
@@ -180,12 +175,23 @@
     --baseline: 40px;
     --container-spacing-horizontal: 5px;
 
-    --font-xsmall: 9px;
-    --font-small: 10px;
-    --font-normal: 12px;
-    --font-medium: 13px;
-    --font-reduced: 14px;
-    --font-emoji: 16px;
+    --maru-xxlarge: 24px;
+    --maru-xxlarge-line-height: var(--baseline-1of2);
+    --maru-xlarge: 20px;
+    --maru-xlarge-line-height: var(--baseline-2of3);
+    --maru-large: 14px;
+    --maru-large-line-height: var(--baseline-1of2);
+    --maru-medium: 13px;
+    --maru-medium-line-height: var(--baseline-1of2);
+    --maru-normal: 12px;
+    --maru-normal-line-height: var(--baseline-1of2);
+    --maru-small: 10px;
+    --maru-small-line-height: var(--baseline-1of2);
+    --maru-xsmall: 10px;
+    --maru-xsmall-line-height: var(--baseline-1of2);
+
+    --maru-emoji-normal: 16px;
+
     --box-padding: 10px;
     --container-spacing-horizontal: 0px;
 

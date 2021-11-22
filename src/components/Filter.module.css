@@ -27,7 +27,7 @@
   line-height: var(--baseline-box);
   display: flex;
   justify-content: center;
-  font-size: var(--font-emoji);
+  font-size: var(--maru-emoji-normal);
 }
 
 .spacer {
@@ -40,7 +40,7 @@
 
   & h3 {
     margin: 0;
-    font-size: var(--font-reduced);
+    font-size: var(--maru-large);
   }
 }
 
@@ -66,7 +66,7 @@
     padding: 0 var(--spacing-xsmall);
     line-height: var(--baseline-box);
     font-family: var(--maru-mono);
-    font-size: var(--font-normal);
+    font-size: var(--maru-normal);
     color: var(--red);
     white-space: nowrap;
   }
@@ -86,5 +86,5 @@
   text-align: left;
   padding: 0 var(--box-padding);
   line-height: var(--baseline-box);
-  font-size: var(--font-small);
+  font-size: var(--maru-small);
 }

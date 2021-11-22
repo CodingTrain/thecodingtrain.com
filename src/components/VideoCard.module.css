@@ -123,7 +123,7 @@
 
 .icon {
   font-family: var(--maru-emoji);
-  font-size: var(--font-emoji);
+  font-size: var(--maru-emoji-normal);
   height: var(--baseline);
   flex: 0 0 var(--baseline);
 
@@ -136,7 +136,7 @@
 
 .top h5 {
   margin-left: var(--spacing-normal);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -154,7 +154,7 @@
 .description {
   margin: 0;
   font-family: var(--maru-mono);
-  font-size: var(--font-normal);
+  font-size: var(--maru-normal);
   padding: var(--spacing-small) var(--spacing-small) var(--spacing-small)
     var(--spacing-normal);
   flex-grow: 1;
