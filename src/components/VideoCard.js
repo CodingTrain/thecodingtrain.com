@@ -37,7 +37,7 @@ const VideoCard = ({
 
             <Link to={slug} className={css.meta}>
               <span>{meta}</span>
-              <Play />
+              <Play className={css.play} />
             </Link>
           </div>
           <div className={css.right}>

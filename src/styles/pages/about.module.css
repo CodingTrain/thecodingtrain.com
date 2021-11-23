@@ -50,7 +50,7 @@
   font-family: var(--maru-mono);
   flex-grow: 1;
   padding: var(--spacing-normal) var(--box-padding);
-  max-height: var(--baseline-7x);
+  max-height: none;
 }
 
 .links {
@@ -144,7 +144,7 @@
   border-left: var(--border-purple);
   background-color: var(--purple-light);
   color: var(--purple);
-
+  border-bottom: var(--border-purple);
   display: flex;
 }
 
@@ -154,6 +154,7 @@
     border-bottom: var(--border-purple);
     height: var(--baseline);
     line-height: var(--baseline);
+    padding-left: var(--spacing-normal);
   }
 
   & ul {
@@ -181,5 +182,26 @@
 
   & ul {
     columns: 3;
+  }
+}
+
+@media (--reduced) {
+  .acknowledgementsContributors {
+    flex-grow: 2;
+  }
+  .acknowledgementsContributors ul {
+    columns: 2;
+  }
+}
+
+@media (--small) {
+  .acknowledgementsList {
+    flex-direction: column;
+  }
+  .acknowledgementsContributors h4 {
+    border-top: var(--border-purple);
+  }
+  .acknowledgementsContributors ul {
+    columns: 1;
   }
 }

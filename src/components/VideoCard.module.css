@@ -55,11 +55,13 @@
 
 .block {
   width: calc(100% - var(--baseline-box));
-  @media (--medium) {
-    width: auto;
-  }
 }
 
+@media (--medium) {
+  .block {
+    width: 100%;
+  }
+}
 /* GAP */
 .gap {
   flex: 0 0 var(--baseline-box);
@@ -175,6 +177,13 @@
   justify-content: space-between;
 }
 
+@media (--medium) {
+  .play {
+    width: 28px;
+    height: 28px;
+  }
+}
+
 .right {
   flex-basis: var(--baseline-5x);
 }
@@ -183,4 +192,10 @@
   width: 100%;
   height: var(--baseline-box-5x);
   object-fit: cover;
+}
+
+@media (--small) {
+  .bottom {
+    flex-direction: ;
+  }
 }
