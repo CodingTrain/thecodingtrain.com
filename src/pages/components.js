@@ -6,9 +6,6 @@ import cn from 'classnames';
 import Layout from '../components/Layout';
 
 import Breadcrumbs from '../components/Breadcrumbs';
-import ButtonPanel from '../components/ButtonPanel';
-import ContributionsPanel from '../components/ContributionsPanel';
-import Filter from '../components/Filter';
 import {
   Heading1,
   Heading2,
@@ -17,7 +14,12 @@ import {
   Heading5,
   Heading6
 } from '../components/Heading';
+import PagePanel from '../components/PagePanel';
+import Filter from '../components/Filter';
 import Spacer from '../components/Spacer';
+import ButtonPanel from '../components/ButtonPanel';
+import ContributionsPanel from '../components/ContributionsPanel';
+import TrackVideoSection from '../components/tracks/VideoSection';
 import Tabs from '../components/Tabs';
 import TrackCard from '../components/tracks/Card';
 
@@ -236,6 +238,104 @@ const ComponentsPage = ({ data }) => {
             url: 'https://observablehq.com/@eesur/a-random-vector'
           }
         ]}
+      />
+      <PagePanel
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        text="New to coding?"
+        buttonText="Start here"
+        buttonLink="#"
+        variant="purple"
+        bbColor="red"
+      />
+      <TrackVideoSection
+        track={{
+          title: 'Code! Programming with p5.js',
+          slug: 'code-programming-with-p5-js',
+          description:
+            'This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices.',
+          numVideos: 2,
+          type: 'main',
+          videos: null,
+          chapters: [
+            {
+              title: 'Introduction to P5.js',
+              lessons: [
+                {
+                  title: 'Code! Programming with P5.js',
+                  slug: 'code-programming-with-p5-js-introduction'
+                },
+                {
+                  title: 'The p5.js Web Editor',
+                  slug: 'p5-js-web-editor'
+                }
+              ]
+            }
+          ]
+        }}
+        video={{
+          title: 'Code! Programming with P5.js',
+          slug: 'code-programming-with-p5-js-introduction',
+          videoId: 'i2ROE_mAhU0',
+          description:
+            'Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners.',
+          languages: ['p5.js', 'JavaScript'],
+          topics: ['For beginners'],
+          timestamps: [
+            {
+              title: 'Happy Pi Day!',
+              time: '0:00',
+              seconds: 0
+            },
+            {
+              title: 'Explain! What does co-prime mean?',
+              time: '1:26',
+              seconds: 86
+            },
+            {
+              title: "Explain! Euclid's Algorithm",
+              time: '4:21',
+              seconds: 261
+            },
+            {
+              title: 'Example! Finding the greatest common divisor.',
+              time: '8:40',
+              seconds: 520
+            }
+          ],
+          codeExamples: [],
+          groupLinks: [],
+          canContribute: true,
+          contributions: [
+            {
+              title: '#1.3 random vectors',
+              name: 'contribution1',
+              url: 'https://observablehq.com/@eesur/a-random-vector',
+              author: {
+                name: 'Sundar Singh',
+                url: 'https://eesur.com'
+              }
+            },
+            {
+              title: '#1.3 random vectors crazy good like',
+              name: 'contribution2',
+              url: 'https://observablehq.com/@eesur/a-random-vector',
+              author: {
+                name: 'Sundar Singh',
+                url: null
+              }
+            },
+            {
+              title: '#1.3 random vectors crazy good like',
+              name: 'contribution3',
+              url: 'https://observablehq.com/@eesur/a-random-vector',
+              author: {
+                name: 'Sundar Singh',
+                url: 'https://eesur.com'
+              }
+            }
+          ]
+        }}
+        trackPosition={{ chapterIndex: 0, videoIndex: 0 }}
       />
     </Layout>
   );

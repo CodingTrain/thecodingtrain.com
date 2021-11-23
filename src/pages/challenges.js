@@ -5,9 +5,9 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 
 import Breadcrumbs from '../components/Breadcrumbs';
-import Filter from '../components/Filter';
 import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
+import Filter from '../components/Filter';
 import Spacer from '../components/Spacer';
 
 import * as css from '../styles/pages/challenges.module.css';

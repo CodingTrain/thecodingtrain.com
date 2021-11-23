@@ -3,8 +3,8 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 
-import Button from '../components/Button';
 import { Heading1, Heading4 } from '../components/Heading';
+import Button from '../components/Button';
 import Spacer from '../components/Spacer';
 import VideoCard, { VideoCardList } from '../components/VideoCard';
 
