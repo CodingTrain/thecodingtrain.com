@@ -62,7 +62,7 @@ const AboutPage = ({ data }) => {
                 Follow on Twitter
               </a>
               <a
-                href="https://twitter.com/shiffman"
+                href="https://github.com/shiffman"
                 className={css.socialLink}
                 target="_blank"
                 rel="noreferrer">
@@ -75,7 +75,7 @@ const AboutPage = ({ data }) => {
                 className={css.websiteButton}
                 target="_blank"
                 rel="noreferrer"
-                href={'https://shiffmann.net'}
+                href="https://shiffman.net"
                 variant="purple">
                 Visit my website
               </Button>
@@ -84,7 +84,7 @@ const AboutPage = ({ data }) => {
         </div>
         <div className={css.photoBlock}>
           <img
-            src={'https://shiffman.net/images/shiffman_rainbow.png'}
+            src="https://shiffman.net/images/shiffman_rainbow.png"
             alt="Daniel Shiffman"
           />
         </div>

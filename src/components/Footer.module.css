@@ -28,7 +28,6 @@
   line-height: var(--baseline-box);
 
   & h3 {
-    /* font-family: var(--maru-mono); */
     font-weight: 900;
     font-size: var(--maru-medium);
     text-transform: uppercase;
@@ -260,7 +259,6 @@
   }
 
   .box h3 {
-    /* font-size: var(--maru-large); */
     text-align: center;
   }
 
