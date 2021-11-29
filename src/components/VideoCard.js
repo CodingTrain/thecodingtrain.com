@@ -16,6 +16,7 @@ export const VideoCardList = memo(({ children, id, className }) => (
 const VideoCard = ({
   title,
   slug,
+  link,
   meta,
   icon = '👁',
   description,
@@ -28,17 +29,23 @@ const VideoCard = ({
         <div className={css.top}>
           <div className={css.icon}>{icon}</div>
           <h5>
-            <Link to={slug}>{title}</Link>
+            {link ? <a href={link}>{title}</a> : <Link to={slug}>{title}</Link>}
           </h5>
         </div>
         <div className={css.bottom}>
           <div className={css.left}>
             <p className={css.description}>{description}</p>
-
-            <Link to={slug} className={css.meta}>
-              <span>{meta}</span>
-              <Play className={css.play} />
-            </Link>
+            {link ? (
+              <a className={css.meta} href={link}>
+                <span>{meta}</span>
+                <Play className={css.play} />
+              </a>
+            ) : (
+              <Link to={slug} className={css.meta}>
+                <span>{meta}</span>
+                <Play className={css.play} />
+              </Link>
+            )}
           </div>
           <div className={css.right}>
             <Image image={image} imgClassName={css.img} />
