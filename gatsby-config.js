@@ -98,6 +98,14 @@ module.exports = {
       __key: 'talks'
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'collaborators',
+        path: './content/collaborators.json'
+      },
+      __key: 'collaborators'
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rules: {

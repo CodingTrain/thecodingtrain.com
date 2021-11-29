@@ -17,13 +17,12 @@ import { useImages } from '../hooks';
 
 import * as css from '../styles/pages/about.module.css';
 
-// data
-import collaborators from '../../content/collaborators.json';
-
 const AboutPage = ({ data }) => {
   const talks = data.talks.nodes;
   const hasMoreTalks = data.talks.hasNextPage;
   const images = useImages(data.images.nodes);
+  const team = data.team.nodes;
+  const contributors = data.contributors.nodes;
 
   return (
     <Layout>
@@ -91,10 +90,7 @@ const AboutPage = ({ data }) => {
       </div>
       <Spacer pattern />
       <div id="talks">
-        <Heading4
-          className={css.subheading}
-          variant="purple"
-          borderBottom={false}>
+        <Heading4 variant="purple" borderBottom={false}>
           Talks
         </Heading4>
         <VideoCardList>
@@ -118,9 +114,7 @@ const AboutPage = ({ data }) => {
       </div>
       <Spacer pattern />
       <div id="acknowledgements">
-        <Heading4 className={css.subheading} variant="purple">
-          Acknowledgements
-        </Heading4>
+        <Heading4 variant="purple">Acknowledgements</Heading4>
         <div className={css.acknowledgementsText}>
           <p>
             The Coding Train is possible thanks to the help and contributions of
@@ -131,7 +125,7 @@ const AboutPage = ({ data }) => {
           <div className={css.acknowledgementsTeam}>
             <h4>Coding Train Team</h4>
             <ul>
-              {collaborators.team.map((person, index) => (
+              {team.map((person, index) => (
                 <li key={index}>
                   <a target="_blank" rel="noreferrer" href={person.url}>
                     {person.name}
@@ -143,7 +137,7 @@ const AboutPage = ({ data }) => {
           <div className={css.acknowledgementsContributors}>
             <h4>Contributors</h4>
             <ul>
-              {collaborators.contributors.map((person, index) => (
+              {contributors.map((person, index) => (
                 <li key={index}>
                   <a target="_blank" rel="noreferrer" href={person.url}>
                     {person.name}
@@ -170,6 +164,20 @@ export const query = graphql`
         description
         meta
         link
+      }
+    }
+    team: allCollaborator(filter: { type: { eq: "team" } }) {
+      nodes {
+        type
+        url
+        name
+      }
+    }
+    contributors: allCollaborator(filter: { type: { eq: "contributor" } }) {
+      nodes {
+        type
+        url
+        name
       }
     }
     images: allFile(

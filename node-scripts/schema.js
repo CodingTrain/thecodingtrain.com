@@ -140,4 +140,10 @@ type Talk implements Node {
   link: String
 }
 
+type Collaborator implements Node {
+  name: String!
+  type: String!
+  url: String
+} 
+
 `;

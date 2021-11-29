@@ -286,3 +286,49 @@ exports.createTalkRelatedNode = (
   });
   createNode(newNode);
 };
+
+/**
+ * Creates Collaborator nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createCollaboratorNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const slug = parent.name;
+  const data = getJson(node);
+  const { team, contributors } = data;
+
+  for (let index = 0; index < team.length; index++) {
+    const newNode = Object.assign({}, team[index], {
+      id: createNodeId(slug + `team-${index}`),
+      parent: node.id,
+      type: 'team',
+      internal: {
+        type: `Collaborator`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+    createNode(newNode);
+  }
+
+  for (let index = 0; index < contributors.length; index++) {
+    const newNode = Object.assign({}, contributors[index], {
+      id: createNodeId(slug + `contributors-${index}`),
+      parent: node.id,
+      type: 'contributor',
+      internal: {
+        type: `Collaborator`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+    createNode(newNode);
+  }
+};
