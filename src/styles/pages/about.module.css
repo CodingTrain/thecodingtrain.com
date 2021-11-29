@@ -17,7 +17,6 @@
   border-left: var(--border);
   border-bottom: var(--border);
   padding: var(--spacing-small) var(--spacing-normal);
-  /* flex: 0 1 30%; */
   height: var(--baseline-3x);
 }
 
@@ -50,7 +49,7 @@
   font-family: var(--maru-mono);
   flex-grow: 1;
   padding: var(--spacing-normal) var(--box-padding);
-  max-height: none;
+  height: var(--baseline--box-6x);
 }
 
 .links {
@@ -91,6 +90,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   flex-grow: 1;
+  height: var(--baseline-8x);
 
   & img {
     width: 100%;

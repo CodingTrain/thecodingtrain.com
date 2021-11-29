@@ -91,7 +91,10 @@ const AboutPage = ({ data }) => {
       </div>
       <Spacer pattern />
       <div id="talks">
-        <Heading4 variant="purple" borderBottom={false}>
+        <Heading4
+          className={css.subheading}
+          variant="purple"
+          borderBottom={false}>
           Talks
         </Heading4>
         <VideoCardList>
@@ -115,7 +118,9 @@ const AboutPage = ({ data }) => {
       </div>
       <Spacer pattern />
       <div id="acknowledgements">
-        <Heading4 variant="purple">Acknowledgements</Heading4>
+        <Heading4 className={css.subheading} variant="purple">
+          Acknowledgements
+        </Heading4>
         <div className={css.acknowledgementsText}>
           <p>
             The Coding Train is possible thanks to the help and contributions of
