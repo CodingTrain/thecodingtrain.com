@@ -33,6 +33,16 @@ const IndexPage = ({ data }) => {
             ))}
           </ul>
         </li>
+        <li>
+          Guides:
+          <ul>
+            {data.mdxs.nodes.map((mdx, i) => (
+              <li key={i}>
+                <Link to={`/guides/${mdx.slug}`}>{mdx.frontmatter.title}</Link>
+              </li>
+            ))}
+          </ul>
+        </li>
       </ul>
     </Layout>
   );
@@ -49,6 +59,14 @@ export const query = graphql`
     challenges: allChallenge {
       nodes {
         title
+        slug
+      }
+    }
+    mdxs: allMdx {
+      nodes {
+        frontmatter {
+          title
+        }
         slug
       }
     }

@@ -29,7 +29,20 @@ module.exports = {
     },
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-mdx',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'guides',
+        path: './content/guides'
+      },
+      __key: 'guides'
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`]
+      }
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-transformer-json',
@@ -80,14 +93,6 @@ module.exports = {
         path: './content/tracks'
       },
       __key: 'tracks'
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'guides',
-        path: './content/guides'
-      },
-      __key: 'guides'
     },
     {
       resolve: 'gatsby-plugin-react-svg',

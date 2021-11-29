@@ -120,3 +120,30 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
     }
   });
 };
+
+/**
+ * Creates single Guide pages for all loaded MDX nodes
+ * @param {function} graphql - Gatsby's graphql function
+ * @param {function} createPage - Gatsby's createPage function
+ */
+exports.createGuidePages = async (graphql, createPage) => {
+  const { data } = await graphql(`
+    query {
+      mdxs: allMdx {
+        nodes {
+          slug
+        }
+      }
+    }
+  `);
+
+  data.mdxs.nodes.forEach((mdx) => {
+    createPage({
+      path: `guides/${mdx.slug}`,
+      component: require.resolve(`../src/templates/guide.js`),
+      context: {
+        slug: mdx.slug
+      }
+    });
+  });
+};

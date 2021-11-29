@@ -131,6 +131,4 @@ type Track implements Node {
   numVideos: Int!
 }
 
-type Guide implements Node
-
 `;

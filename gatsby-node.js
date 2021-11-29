@@ -7,7 +7,8 @@ const {
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
-  createChallengePages
+  createChallengePages,
+  createGuidePages
 } = require('./node-scripts/page-generation');
 
 exports.createSchemaCustomization = ({ actions }) =>
@@ -72,4 +73,5 @@ exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
   await createChallengePages(graphql, createPage);
+  await createGuidePages(graphql, createPage);
 };
