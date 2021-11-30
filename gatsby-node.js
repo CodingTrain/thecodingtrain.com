@@ -26,7 +26,7 @@ exports.onCreateNode = ({
   const parent = getNode(node.parent);
 
   /**
-    Turn JSON files into Video and Contribution nodes
+    Turn JSON files into Tracks, Video and Contribution nodes
   **/
   if (owner === 'gatsby-transformer-json') {
     if (parent.sourceInstanceName === 'challenges')
@@ -53,19 +53,14 @@ exports.onCreateNode = ({
         node,
         parent
       );
-  }
-
-  /**
-    Turn track JSON files into Track and Chapter nodes
-  **/
-  if (node.internal.type === 'TracksJson') {
-    createTrackRelatedNode(
-      createNode,
-      createNodeId,
-      createContentDigest,
-      node,
-      parent
-    );
+    else if (parent.sourceInstanceName === 'tracks')
+      createTrackRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
   }
 };
 

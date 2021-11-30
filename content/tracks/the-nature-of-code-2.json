@@ -33,7 +33,7 @@
     },
     {
       "title": "Angles",
-      "lessons": ["angles-and-rotation", "angular-motion"]
+      "lessons": ["angles-and-rotation", "2-angular-motion"]
     }
   ]
 }
