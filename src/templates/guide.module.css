@@ -1,0 +1,5 @@
+@media (--small) {
+  .breadcrumbs {
+    display: none;
+  }
+}

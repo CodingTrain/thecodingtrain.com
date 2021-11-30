@@ -15,7 +15,7 @@ const Guide = ({ data }) => {
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
-          { name: 'Guides' },
+          { name: 'Guides', link: `/guides` },
           { name: mdx.frontmatter.title, link: `/guides/${mdx.slug}` }
         ]}
         variant="red"
