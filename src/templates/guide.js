@@ -20,12 +20,15 @@ const Guide = ({ data }) => {
         ]}
         variant="red"
       />
-      <ul>
+      {/* <ul>
         {mdx.tableOfContents.items.map((item, index) => (
           <li key={index}>{item.title} </li>
         ))}
-      </ul>
-      <MDXRenderer>{mdx.body}</MDXRenderer>
+      </ul> */}
+      <h1 className={css.heading}>{mdx.frontmatter.title}</h1>
+      <div className={css.root}>
+        <MDXRenderer>{mdx.body}</MDXRenderer>
+      </div>
     </Layout>
   );
 };
