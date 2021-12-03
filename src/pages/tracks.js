@@ -87,27 +87,17 @@ const TracksPage = ({ data }) => {
         />
       </div>
       <Spacer />
-      {tracks.map((track) => {
-        return (
-          <Fragment key={track.slug}>
-            <TrackCard
-              {...track}
-              image={images[track.slug] || images.placeholder}
-              path={`/tracks/${track.slug}`}
-              topics={[
-                'Beginner-Friendly',
-                'Machine Learning',
-                'Algorithms',
-                'Fun Times',
-                'Funky Times by the Computer'
-              ]}
-              languages={['p5.js', 'JavaScript']}
-              variant="red"
-            />
-            <Spacer />
-          </Fragment>
-        );
-      })}
+      {tracks.map((track) => (
+        <Fragment key={track.slug}>
+          <TrackCard
+            {...track}
+            image={images[track.slug] || images.placeholder}
+            path={`/tracks/${track.slug}`}
+            variant="red"
+          />
+          <Spacer />
+        </Fragment>
+      ))}
     </Layout>
   );
 };
@@ -122,11 +112,15 @@ export const query = graphql`
         numVideos
         type
         videos {
+          languages
+          topics
           title
         }
         chapters {
           title
           lessons {
+            languages
+            topics
             title
           }
         }

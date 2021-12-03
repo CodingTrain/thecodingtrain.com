@@ -3,14 +3,17 @@ import React, { memo } from 'react';
 import CollapsableDescription from '../CollapsableDescription';
 import Tags from '../Tags';
 
+import { useTopicsAndLanguages } from '../../hooks';
+
 import * as css from './Header.module.css';
 
 const Header = ({ track }) => {
-  // TODO: Obtain languages and topics related to track
-  const languages = ['JavaScript', 'Processing'];
-  const topics = ['Machine Learning', 'Physics'];
-
-  const { title, description, type, numVideos } = track;
+  const { title, description, type, numVideos, videos, chapters } = track;
+  const { topics, languages } = useTopicsAndLanguages({
+    type,
+    videos,
+    chapters
+  });
 
   return (
     <div className={css.root}>
@@ -20,7 +23,7 @@ const Header = ({ track }) => {
         <CollapsableDescription
           className={css.description}
           expandedClassName={css.showMore}
-          variant={'red'}
+          variant="red"
           content={description}
         />
         <div className={css.tagsContainer}>
