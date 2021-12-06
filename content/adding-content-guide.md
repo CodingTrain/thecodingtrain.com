@@ -32,7 +32,7 @@ content
 
 The rationale behind this structure thinks of videos as the building blocks of content from which tracks are compose from.
 
-### Video
+### Videos
 
 Videos on one hand can be divided in three specific flavors with distinct functions.
 **Lessons** tackle specific themes and are part of a sequence of lessons (main tracks),
@@ -54,10 +54,81 @@ follow a similar folder structure:
 
 ```
 
-- `video-slug/` folder contains all data related to a specific video. The slug used to identify the video and reference it on track definitions.
+- `video-slug/` folder contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions,
+  and they also become part of the path to their video player pages.
 - `video-slug/index.json` file contains the main metadata for the video: title, description, YouTube video ID, etc...
-- `video-slug/contributions/` folder contains all code contributions that viewers send and are accepted into the site.
+- `video-slug/contributions/` folder contains all metadata for contributions that viewers send and are accepted into the site.
 - `video-slug/contributions/contribution-slug.json` file contains the metadata for the contribution: title, author information, links to code or live versions, etc...
+
+#### Metadata
+
+Each video's metadata file (`video-slug/index.json`) is a JSON file with the following structure:
+
+```json
+{
+  "title": "Video title",
+  "description": "Video description",
+  "languages": ["language", ...],
+  "topics": ["topic", ...],
+  "videoId": "YouTube video ID",
+  "canContribute": [true|false],
+  "timestamps": [
+    { "time": "0:00", "title": "Title" },
+    { "time": "1:26", "title": "Title" },
+    ...
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example title",
+      "language": "p5js"|"node"|"processing",
+      "githubURL": "url to github repository with code",
+      "codeURL": "download code link",
+      "editorURL": "link to live editor with code"
+    },
+    ...
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link title",
+          "url": "link url",
+          "author": "author of content linked"
+        },
+        ...
+      ]
+    },
+    ...
+  ]
+}
+```
+
+Most of the properties should translate directly from the current setup.
+
+`"codeExamples"` are thought to contain the main code worked on the video,
+and any variations that may
+
+If there are missing properties to consider in this translation,
+please let us know!
+
+Contributions' metadata files (`video-slug/contributions/contribution-slug.json`) are also JSON files with the following structure that closely resembles the one suggested in the [current contribution guide](https://thecodingtrain.com/Guides/community-contribution-guide.html):
+
+```json
+{
+  "title": "Contribution title",
+  "author": {
+    "name": "Author name",
+    "url": "Author url to own website or GitHub"
+  },
+  "url": "URL to live code of contribution",
+  "videoId": "YouTube video ID to video of contribution",
+  "source": "URL to source code of contribution"
+}
+```
+
+Similar to the current one,
+`"title"`, `"author: {"name"}"` are required, and either `"url"`, `"videoId"` or `"source"` is expected.
 
 #### Images
 
@@ -79,7 +150,7 @@ We also currently support the addition of images related to videos and their con
 
 - `video-slug/contributions/contribution-slug.[png|jpg]` is an optional image (either PNG or JPG) to add at the contributions folder of a video.
   It would be used to visually preview the contribution made by a viewer.
-  It should share it's file name with the corresponding contribution.
+  It should share the file name with their corresponding contribution.
 - `video-slug/index.[png|jpg]` is an optional image (either PNG or JPG) to add at the root of a video directory.
   It will be used as visual representation of the video when listed in different pages,
   and also as a placeholder for contributions that also don't include their own `contributions/contribution-slug.[png|jpg]` image.
@@ -111,12 +182,76 @@ tracks
 
 ```
 
-Each `track-slug-1.json` file defines a new track and contains
+Each `track-slug-1.json` file defines a new track and contains the track metadata.
+
+#### Metadata
+
+Metadata for main and side tracks are very similar,
+they just differ in a `"type"` property and a corresponding property to define the video collection it includes.
+
+```json
+{
+  "title": "Main track title",
+  "type": "main",
+  "description": "Main track description",
+  "chapters": [
+    {
+      "title": "First chapter title",
+      "lessons": [
+        "lesson-1-slug",
+        "lesson-2-slug",
+        ...
+      ]
+    },
+    {
+      "title": "Second chapter title",
+      "lessons": [
+        "lesson-3-slug",
+        "lesson-4-slug",
+        ...
+      ]
+    },
+    ...
+  ]
+}
+```
+
+For main tracks,
+the property you should use `"chapters"`.
+This defines an ordered sequence of chapters,
+where each is an ordered collection of lessons.
+To reference specific lessons,
+the same slug names used for folders in the `videos/lessons` folder should be used.
+
+For side tracks,
+you should use `"videos"`,
+which is a plain video sequence.
+In this case,
+a path like notation should be used as to clarify if the slug being added for each video is a lesson, challenge or guest tutorial:
+
+```json
+{
+  "title": "Side track title",
+  "type": "side",
+  "description": "Side track description",
+  "videos": [
+    "[lessons|challenges|guest-tutorials]/video-1-slug",
+     "[lessons|challenges|guest-tutorials]/video-2-slug",
+     "[lessons|challenges|guest-tutorials]/video-3-slug",
+    ...
+  ]
+}
+```
 
 #### Images
 
+Similar to videos,
+we currently support the addition of an image for each track to use as a cover in different pages.
+The image for each track should have the same file name as the corresponding track and their presence is optional.
+
 ```
 tracks
+├── placeholder.[png|jpg]
 ├── track-slug-1.json
 ├── track-slug-1.[png|jpg]
 ├── track-slug-2.json
@@ -124,3 +259,5 @@ tracks
 └── ...
 
 ```
+
+While the `placeholder.[png|jpg]` image is required and will be used as fallback for all tracks that don't have a cover image.

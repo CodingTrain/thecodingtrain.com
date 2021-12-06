@@ -82,7 +82,6 @@ type Contribution implements Node {
   url: String
   videoId: String
   source: String
-  notes: [String],
   video: Video! @link
 }
 
