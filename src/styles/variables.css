@@ -35,6 +35,7 @@
     Text that flows on multiple lines should use --baseline and
     offset with a margin-top: -1px.
   */
+  --baseline-box-1of2: calc(var(--baseline) / 2 - 1px);
   --baseline-box: calc(var(--baseline) - 1px);
   --baseline-box-2x: calc(var(--baseline) * 2 - 1px);
   --baseline-box-3x: calc(var(--baseline) * 3 - 1px);

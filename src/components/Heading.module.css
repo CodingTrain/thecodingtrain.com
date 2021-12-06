@@ -8,6 +8,9 @@
   border-left: var(--border);
   padding: 0 var(--box-padding);
   color: var(--gray-mid);
+  min-height: var(--baseline);
+  display: flex;
+  align-items: center;
 
   &.h1 {
     font-family: var(--maru-mega);

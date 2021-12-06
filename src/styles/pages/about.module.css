@@ -48,8 +48,12 @@
 .danIntro {
   font-family: var(--maru-mono);
   flex-grow: 1;
-  padding: var(--spacing-normal) var(--box-padding);
+  padding: var(--baseline-1of2) var(--box-padding);
   height: var(--baseline--box-6x);
+
+  & p {
+    margin: 0;
+  }
 }
 
 .links {
@@ -62,6 +66,7 @@
 .websiteRow {
   display: flex;
   border-bottom: var(--border-purple);
+  height: var(--baseline);
 }
 
 .socialLink {
