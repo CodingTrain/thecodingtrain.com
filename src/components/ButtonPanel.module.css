@@ -6,7 +6,7 @@
   border-bottom: var(--border);
   height: var(--baseline-box);
   padding: 0 var(--spacing-xsmall) 0 var(--box-padding);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   line-height: var(--baseline-box);
 
   & p {

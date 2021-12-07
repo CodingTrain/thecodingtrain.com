@@ -36,7 +36,7 @@
   height: var(--baseline-box-5x);
   padding: 0 7% 0 var(--box-padding);
   background: white;
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
 
   & p {
     margin: var(--baseline-3of5) 0 calc(var(--baseline-2of5)-1px) 0;
@@ -55,7 +55,7 @@
   height: var(--baseline-box-4x);
   padding: 0 var(--box-padding);
   background: white;
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   line-height: var(--baseline-1of2);
 }
 

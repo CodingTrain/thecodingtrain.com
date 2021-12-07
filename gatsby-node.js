@@ -3,7 +3,9 @@ const {
   createLessonRelatedNode,
   createChallengeRelatedNode,
   createGuestTutorialRelatedNode,
-  createTrackRelatedNode
+  createTrackRelatedNode,
+  createTalkRelatedNode,
+  createCollaboratorNodes
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
@@ -61,6 +63,35 @@ exports.onCreateNode = ({
         node,
         parent
       );
+  }
+
+  /**
+    Turn talk json files into Talk nodes
+  **/
+  if (node.internal.type === 'TalksJson') {
+    createTalkRelatedNode(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
+  }
+
+  /**
+    Turn json file into Collaborators nodes
+  **/
+  if (
+    owner === 'gatsby-transformer-json' &&
+    parent.sourceInstanceName === 'collaborators'
+  ) {
+    createCollaboratorNodes(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
   }
 };
 

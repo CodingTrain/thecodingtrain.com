@@ -130,4 +130,16 @@ type Track implements Node {
   numVideos: Int!
 }
 
+type Talk implements Node {
+  name: String!
+  description: String!
+  meta: String!
+  link: String
+}
+
+type Collaborator implements Node {
+  name: String!
+  type: String!
+  url: String
+} 
 `;

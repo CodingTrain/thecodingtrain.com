@@ -57,8 +57,14 @@ const Challenge = ({ data }) => {
         contributions={challenge.contributions}
         images={contributionsImages}
       />
-
       <div className={css.blankSep} />
+      <CharacterSpacer
+        className={css.sep}
+        variant="cyan"
+        size="x3"
+        side="right"
+        offset={0.7}
+      />
       <ChallengesPanel
         challenges={challenges.nodes}
         images={challengesImages}

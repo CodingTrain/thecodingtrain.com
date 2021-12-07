@@ -19,7 +19,7 @@ const ButtonPanel = ({
         [css[variant]]: variant,
         [css.smallWrap]: smallWrap
       })}>
-      <p>{text}</p>
+      {text && <p>{text}</p>}
       <div className={css.buttonContainer}>
         <Button variant={variant} to={buttonLink}>
           {buttonText}

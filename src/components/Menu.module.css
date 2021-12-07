@@ -1,6 +1,6 @@
 .root {
   font-family: var(--maru-mono);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   text-transform: uppercase;
   z-index: 100;
 }

@@ -19,7 +19,7 @@
     padding: 0 var(--box-padding);
     line-height: var(--baseline);
     font-family: var(--maru-mono);
-    font-size: var(--font-medium);
+    font-size: var(--maru-medium);
   }
 
   & h4 {
@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
   font-family: var(--maru-mono);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
 }
 
 .spacer {

@@ -10,7 +10,7 @@
   height: var(--baseline-3x);
   border-left: var(--border);
   border-bottom: var(--border);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   font-family: var(--maru-mono);
   color: var(--gray-mid);
   & p {

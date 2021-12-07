@@ -38,7 +38,7 @@
 **/
 
 .text {
-  padding: 0 var(--box-padding);
+  padding: var(--box-padding) var(--box-padding) var(--baseline-box);
   overflow-x: hidden;
   overflow-y: scroll;
   flex: 1;
@@ -47,15 +47,15 @@
 .title {
   margin-top: var(--baseline-1of2);
   margin-bottom: var(--baseline-1of4);
-  line-height: var(--baseline-2of3);
-  font-size: var(--font-large);
+  font-size: var(--maru-xlarge);
+  line-height: var(--maru-xlarge-line-height);
 }
 
 .description {
   margin: var(--baseline-1of3) 0 0 0;
   line-height: var(--baseline-1of2);
   font-family: var(--maru-mono);
-  font-size: var(--font-normal);
+  font-size: var(--maru-normal);
 }
 
 .fadeText {
@@ -76,7 +76,7 @@
 **/
 
 .details {
-  font-size: var(--font-reduced);
+  font-size: var(--maru-large);
   display: flex;
   line-height: var(--baseline-box);
 }
@@ -86,14 +86,14 @@
   display: none;
   padding: 0 var(--box-padding);
   text-transform: uppercase;
-  font-size: var(--font-reduced);
+  font-size: var(--maru-large);
 }
 
 .icon {
   font-family: var(--maru-emoji);
   flex-basis: var(--baseline-box);
   line-height: 1em;
-  font-size: var(--font-emoji);
+  font-size: var(--maru-emoji-normal);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,7 +125,7 @@
 
 .tags {
   line-height: var(--baseline-1of3);
-  font-size: var(--font-xsmall);
+  font-size: var(--maru-xsmall);
 }
 
 /**
@@ -183,11 +183,11 @@
 
 @media (--small) {
   .smallTitle {
-    font-size: var(--font-medium);
+    font-size: var(--maru-medium);
   }
 
   .numVideos {
     flex-basis: 100px;
-    font-size: var(--font-medium);
+    font-size: var(--maru-medium);
   }
 }

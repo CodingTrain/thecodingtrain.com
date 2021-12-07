@@ -8,7 +8,7 @@
 
 .showButton {
   cursor: pointer;
-  font-size: var(--font-small);
+  font-size: var(--maru-small);
   color: var(--mid-gray);
   text-decoration: underline;
 }

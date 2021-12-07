@@ -9,3 +9,7 @@
   border-bottom: var(--border);
   height: var(--baseline);
 }
+
+.spacing {
+  padding: var(--spacing-normal);
+}
