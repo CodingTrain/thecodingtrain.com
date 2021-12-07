@@ -22,6 +22,9 @@ const IndexPage = ({ data }) => {
           </ul>
         </li>
         <li>
+          <Link to="/about">Go to about page</Link>
+        </li>
+        <li>
           <Link to="/challenges">Go to challenges page</Link>
           <ul>
             {data.challenges.nodes.map((challenge, i) => (

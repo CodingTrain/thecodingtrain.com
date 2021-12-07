@@ -24,7 +24,7 @@ const items = [
   },
   {
     name: 'About',
-    href: '/'
+    href: '/about'
   }
 ];
 

@@ -90,6 +90,22 @@ module.exports = {
       __key: 'guides'
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'talks',
+        path: './content/talks'
+      },
+      __key: 'talks'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'collaborators',
+        path: './content/collaborators.json'
+      },
+      __key: 'collaborators'
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rules: {

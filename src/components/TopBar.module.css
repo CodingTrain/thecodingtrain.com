@@ -21,7 +21,7 @@
 
 .clock {
   font-family: var(--maru-emoji);
-  font-size: var(--font-emoji);
+  font-size: var(--maru-emoji-normal);
   padding: 0 var(--spacing-normal);
 }
 
@@ -62,7 +62,7 @@
   }
 
   .date {
-    font-size: var(--font-normal);
+    font-size: var(--maru-normal);
   }
 }
 

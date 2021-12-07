@@ -48,7 +48,7 @@
 }
 
 .tags {
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   line-height: var(--baseline-1of2);
 }
 
@@ -103,7 +103,7 @@
   height: var(--baseline-box-2x);
   padding: 0 var(--spacing-normal);
   font-family: var(--maru-mono);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   color: var(--cyan);
   background-color: white;
   text-align: left;
@@ -114,7 +114,7 @@
 
 .timeline {
   color: var(--cyan);
-  font-size: var(--font-small);
+  font-size: var(--maru-small);
   font-family: var(--maru-mono);
 }
 
@@ -188,7 +188,7 @@
     border-bottom: var(--border-cyan);
     background: var(--cyan-light);
     cursor: pointer;
-    font-size: var(--font-small);
+    font-size: var(--maru-small);
     color: var(--cyan);
   }
 
@@ -226,7 +226,7 @@
     width: calc(100% - 2 * var(--container-spacing-horizontal));
     border-right: var(--border-cyan);
     z-index: 100;
-    font-size: var(--font-normal);
+    font-size: var(--maru-normal);
   }
 
   .unCollapsed .back {

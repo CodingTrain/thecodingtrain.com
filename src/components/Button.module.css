@@ -4,34 +4,45 @@
   line-height: calc(var(--baseline) - var(--spacing-small));
   padding: 0 var(--box-padding);
   text-transform: uppercase;
-  font-size: var(--font-medium);
+  text-align: center;
+  font-family: var(--maru-mono);
+  font-size: var(--maru-medium);
+  font-weight: normal;
   white-space: nowrap;
   border: none;
+  transition: background-color 0.2s;
 }
 
-a {
+a.root {
   display: inline-block;
   text-decoration: none;
   color: var(--gray-dark);
 }
 
-.root:hover {
-  transition: background-color 0.2s;
+a.root:hover {
+  opacity: 1;
 }
 
 /* Variants */
 
-.red {
+a.red,
+button.red {
   color: white;
   background-color: var(--red);
+
+  &:hover {
+    background-color: var(--);
+  }
 }
 
-.orange {
+a.orange,
+button.orange {
   color: white;
   background-color: var(--orange);
 }
 
-.purple {
+a.purple,
+button.purple {
   color: white;
   background-color: var(--purple);
 }

@@ -3,11 +3,12 @@ import { graphql } from 'gatsby';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Spacer from '../components/Spacer';
-import Heading from '../components/Heading';
+
 import Breadcrumbs from '../components/Breadcrumbs';
-import Filter from '../components/Filter';
+import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
+import Filter from '../components/Filter';
+import Spacer from '../components/Spacer';
 
 import * as css from '../styles/pages/challenges.module.css';
 
@@ -28,7 +29,7 @@ const ChallengesPage = ({ data }) => {
         breadcrumbs={[{ name: 'Challenges', link: '#' }]}
         variant="cyan"
       />
-      <Heading variant="cyan">Challenges</Heading>
+      <Heading1 variant="cyan">Challenges</Heading1>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"

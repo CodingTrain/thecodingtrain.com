@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Head from './Head';
 import TopBar from './TopBar';
 import Footer from './Footer';

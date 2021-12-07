@@ -17,7 +17,7 @@
     height: var(--baseline);
     padding: 0 var(--spacing-normal);
     line-height: var(--baseline);
-    font-size: var(--font-reduced);
+    font-size: var(--maru-large);
   }
 }
 

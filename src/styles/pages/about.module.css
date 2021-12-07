@@ -1,0 +1,212 @@
+.row {
+  display: flex;
+}
+.mainHeading {
+  flex-grow: 1;
+  white-space: nowrap;
+}
+
+.aboutRow {
+  display: flex;
+  @media (--medium) {
+    flex-direction: column-reverse;
+  }
+}
+
+.train {
+  border-left: var(--border);
+  border-bottom: var(--border);
+  padding: var(--spacing-small) var(--spacing-normal);
+  height: var(--baseline-3x);
+}
+
+@media (--medium) {
+  .train {
+    height: var(--baseline-2x);
+  }
+}
+
+@media (--small) {
+  .train {
+    display: none;
+  }
+}
+
+.trainIcon {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.aboutBlock {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  border-left: var(--border);
+}
+
+.danIntro {
+  font-family: var(--maru-mono);
+  flex-grow: 1;
+  padding: var(--baseline-1of2) var(--box-padding);
+  height: var(--baseline--box-6x);
+
+  & p {
+    margin: 0;
+  }
+}
+
+.links {
+  background-color: var(--purple-light);
+  border-top: var(--border-purple);
+  color: var(--purple);
+}
+
+.socialRow,
+.websiteRow {
+  display: flex;
+  border-bottom: var(--border-purple);
+  height: var(--baseline);
+}
+
+.socialLink {
+  flex-grow: 1;
+  padding: var(--spacing-small);
+  display: flex;
+  align-items: center;
+  &:not(:first-child) {
+    border-left: var(--border-purple);
+  }
+}
+
+.socialIcon {
+  margin-right: var(--spacing-normal);
+  & path {
+    fill: var(--purple);
+  }
+}
+
+.websiteButton {
+  margin: var(--spacing-xsmall);
+  flex-grow: 1;
+}
+
+.photoBlock {
+  border-left: var(--border);
+  border-bottom: var(--border);
+  flex-grow: 1;
+  height: var(--baseline-8x);
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (--medium) {
+  .photoBlock {
+    height: var(--baseline-8x);
+  }
+}
+
+.talksCta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--baseline);
+  background-color: var(--purple-light);
+  color: var(--purple);
+  border-left: var(--border-purple);
+  border-bottom: var(--border-purple);
+  padding: var(--spacing-xsmall) var(--spacing-xsmall) var(--spacing-xsmall)
+    var(--spacing-normal);
+}
+.talksCta p {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  flex-grow: 2;
+}
+.talksButton {
+  flex-grow: 1;
+}
+
+.acknowledgementsText {
+  line-height: var(--baseline);
+  border-left: var(--border);
+  padding: var(--baseline-1of2);
+  border-bottom: var(--border-purple);
+
+  & p {
+    max-width: 600px;
+    line-height: var(--baseline-1of2);
+    margin: 0;
+  }
+}
+
+.acknowledgementsList {
+  border-left: var(--border-purple);
+  background-color: var(--purple-light);
+  color: var(--purple);
+  border-bottom: var(--border-purple);
+  display: flex;
+}
+
+.acknowledgementsTeam,
+.acknowledgementsContributors {
+  & h4 {
+    border-bottom: var(--border-purple);
+    height: var(--baseline);
+    line-height: var(--baseline);
+    padding-left: var(--spacing-normal);
+  }
+
+  & ul {
+    margin: 0;
+    padding: var(--spacing-normal);
+    line-height: var(--baseline-2of3);
+  }
+
+  & li {
+    list-style: none;
+    margin: 0;
+  }
+  & a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.acknowledgementsTeam {
+  flex-grow: 1;
+}
+.acknowledgementsContributors {
+  flex-grow: 3;
+
+  & ul {
+    columns: 3;
+  }
+}
+
+@media (--reduced) {
+  .acknowledgementsContributors {
+    flex-grow: 2;
+  }
+  .acknowledgementsContributors ul {
+    columns: 2;
+  }
+}
+
+@media (--small) {
+  .acknowledgementsList {
+    flex-direction: column;
+  }
+  .acknowledgementsContributors h4 {
+    border-top: var(--border-purple);
+  }
+  .acknowledgementsContributors ul {
+    columns: 1;
+  }
+}

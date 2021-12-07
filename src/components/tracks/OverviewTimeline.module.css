@@ -19,7 +19,7 @@
   flex: 1;
   border-left: var(--border-red);
   border-bottom: var(--border-red);
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   line-height: calc(var(--baseline));
   white-space: nowrap;
   text-align: center;
@@ -47,7 +47,7 @@
   color: var(--red);
 
   & h5 {
-    font-size: var(--font-medium);
+    font-size: var(--maru-medium);
     font-weight: 900;
   }
 
@@ -78,7 +78,7 @@
   justify-content: center;
   height: var(--baseline);
   padding-left: calc(var(--timeline-padding) + var(--timeline-spacing));
-  font-size: var(--font-small);
+  font-size: var(--maru-small);
   line-height: var(--baseline-1of3);
 
   & a::before {
@@ -130,10 +130,10 @@
   }
 
   .chapterTitle h5 {
-    font-size: var(--font-reduced);
+    font-size: var(--maru-large);
   }
 
   .videoItem {
-    font-size: var(--font-medium);
+    font-size: var(--maru-medium);
   }
 }

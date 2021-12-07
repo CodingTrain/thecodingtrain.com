@@ -6,29 +6,101 @@
 .root {
   margin-top: -1px;
   border-left: var(--border);
-  border-bottom: var(--border);
   padding: 0 var(--box-padding);
-  text-transform: uppercase;
+  color: var(--gray-mid);
+  min-height: var(--baseline);
+  display: flex;
+  align-items: center;
 
-  & h1 {
-    color: var(--gray-mid);
-    line-height: var(--baseline-3x);
-    font-size: var(--font-huge);
+  &.h1 {
+    font-family: var(--maru-mega);
+    font-size: var(--maru-mega-large);
+    line-height: var(--maru-mega-large-line-height);
+    text-transform: uppercase;
+  }
+  &.h2 {
+    font-family: var(--maru-mega);
+    font-size: var(--maru-mega-medium);
+    line-height: var(--maru-mega-medium-line-height);
+    text-transform: uppercase;
+  }
+
+  &.h3 {
+    font-family: var(--maru-mega);
+    font-size: var(--maru-mega-small);
+    line-height: var(--maru-mega-small-line-height);
+    text-transform: uppercase;
+  }
+
+  &.h4 {
+    font-size: var(--maru-xxlarge);
+    font-weight: bold;
+    line-height: var(--maru-xxlarge-line-height);
+  }
+
+  &.h5 {
+    font-size: var(--maru-xlarge);
+    font-weight: bold;
+    line-height: var(--maru-xlarge-line-height);
+  }
+
+  &.h6 {
+    font-size: var(--maru-large);
+    font-weight: bold;
+    line-height: var(--maru-large-line-height);
+  }
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
   }
 }
 
-/* Variants */
+.root.borderBottom {
+  border-bottom: var(--border);
+}
 
-.red h1 {
+.root.red {
   color: var(--red);
+
+  &.fill {
+    background-color: var(--red-light);
+  }
 }
 
-.cyan h1 {
+.root.orange {
+  color: var(--orange);
+
+  &.fill {
+    background-color: var(--orange-light);
+  }
+}
+
+.root.purple {
+  color: var(--purple);
+
+  &.fill {
+    background-color: var(--purple-light);
+  }
+}
+
+.root.cyan {
   color: var(--cyan);
+
+  &.fill {
+    background-color: var(--cyan-light);
+  }
 }
 
-@media (--medium) {
-  .root h1 {
-    line-height: var(--baseline-2x);
+.root.pink {
+  color: var(--pink);
+
+  &.fill {
+    background-color: var(--pink-light);
   }
 }

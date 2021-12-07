@@ -133,4 +133,17 @@ type Track implements Node {
 
 type Guide implements Node
 
+type Talk implements Node {
+  name: String!
+  description: String!
+  meta: String!
+  link: String
+}
+
+type Collaborator implements Node {
+  name: String!
+  type: String!
+  url: String
+} 
+
 `;
