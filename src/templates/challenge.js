@@ -92,9 +92,9 @@ export const query = graphql`
       codeExamples {
         title
         language
-        codeURL
-        githubURL
-        editorURL
+        codeUrl
+        githubUrl
+        editorUrl
       }
       groupLinks {
         title

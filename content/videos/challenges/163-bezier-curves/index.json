@@ -3,58 +3,51 @@
   "number": 163,
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
-  "date": "08-22-2021",
+  "date": "2021-08-22",
   "videoId": "enNfb6p3j_g",
-  "description": "Have you ever wanted to know more about bézier curves in p5.js? Thanks to a generous donation from Jason Oswald, I do a deep dive exploring the bézier curve function and the math behind the algorithm?  ",
+  "description": "Have you ever wanted to know more about bézier curves in p5.js? Thanks to a generous donation from Jason Oswald, I do a deep dive exploring the bézier curve function and the math behind the algorithm?",
   "codeExamples": [
     {
       "title": "Basic",
       "lang": "p5js",
-      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier",
-      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier",
-      "editorURL": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ"
+      "folder": "basic-bezier",
+      "webEditor": "Z53a719cQ"
     },
     {
       "title": "Editor by Simon Tiger",
       "lang": "p5js",
-      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor",
-      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor",
-      "editorURL": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA"
+      "folder": "bezier-editor",
+      "webEditor": "_R7RgtGfA"
     },
     {
       "title": "bezierVertex",
       "lang": "p5js",
-      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex",
-      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex",
-      "editorURL": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw"
+      "folder": "bezier-vertex",
+      "webEditor": "O3_cLiOaw"
     },
     {
       "title": "Time Table Cardioid with Bezier",
       "lang": "p5js",
-      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier",
-      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier",
-      "editorURL": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg"
+      "folder": "cardioid-bezier",
+      "webEditor": "kZ8dpklQg"
     },
     {
       "title": "Quadratic",
       "lang": "p5js",
-      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic",
-      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic",
-      "editorURL": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE"
+      "folder": "quadratic",
+      "webEditor": "fJIMDmHcE"
     },
     {
       "title": "Cubic",
       "lang": "p5js",
-      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic",
-      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic",
-      "editorURL": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1"
+      "folder": "cubic",
+      "webEditor": "S1Pt8lol1"
     },
     {
       "title": "Bezier with Formula",
       "lang": "p5js",
-      "githubURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula",
-      "codeURL": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula",
-      "editorURL": "https://editor.p5js.org/codingtrain/sketches/0XOLNHbvC"
+      "folder": "bezier-formula",
+      "webEditor": "0XOLNHbvC"
     }
   ],
   "groupLinks": [
@@ -97,17 +90,12 @@
         {
           "title": "Self Avoiding Walk - Coding Challenge 162",
           "author": "The Coding Train",
-          "url": "/self-avoiding-walk"
-        },
-        {
-          "title": "Self Avoiding Walk - Coding Challenge 162",
-          "author": "The Coding Train",
-          "url": "/162-self-avoiding-walk"
+          "url": "/challenges/162-self-avoiding-walk"
         },
         {
           "title": "Time Table Cardioid - Coding Challenge 133",
           "author": "The Coding Train",
-          "url": "/133-times-tables-cardioid"
+          "url": "/challenges/133-times-tables-cardioid"
         }
       ]
     }

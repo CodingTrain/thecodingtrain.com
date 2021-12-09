@@ -81,9 +81,9 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file with the fol
     {
       "title": "Code example title",
       "language": "p5js"|"node"|"processing",
-      "githubURL": "url to github repository with code",
-      "codeURL": "download code link",
-      "editorURL": "link to live editor with code"
+      "githubUrl": "url to github repository with code",
+      "codeUrl": "download code link",
+      "editorUrl": "link to live editor with code"
     },
     ...
   ],

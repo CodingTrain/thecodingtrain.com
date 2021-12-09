@@ -32,6 +32,33 @@ const parseTimestamp = (timeString) => {
   return secondTotal;
 };
 
+// TODO: Update to Coding Train hosted repo
+const repoUrl =
+  'https://github.com/designsystemsinternational/thecodingtrain.com/tree/guide-page-loading/content/videos';
+// TODO: Update to https://codingtrain.github.io/DownGit/#/home
+const downGitUrl = 'https://minhaskamal.github.io/DownGit/#/home?url=';
+const p5EditorUrl = 'https://editor.p5js.org/codingtrain/sketches';
+
+/**
+ * Takes JSON data for code examples and adds corresponding URLs
+ * @param {object[]} codeExamples - Code examples JSON data
+ */
+const processCodeExamples = (codeExamples, typeOfVideo, videoSlug) => {
+  if (!codeExamples) return [];
+  const result = [];
+  for (let codeExample of codeExamples) {
+    const { title, lang, folder, webEditor } = codeExample;
+    const newCodeExample = { title, lang };
+    newCodeExample.githubUrl = `${repoUrl}/${typeOfVideo}/${videoSlug}/src/${folder}`;
+    newCodeExample.codeUrl = `${downGitUrl}${newCodeExample.githubUrl}`;
+    if (webEditor) {
+      newCodeExample.editorUrl = `${p5EditorUrl}/${webEditor}`;
+    }
+    result.push(newCodeExample);
+  }
+  return result;
+};
+
 /**
  * Creates Video and Contribution nodes from JSON file node
  * @param {function} createNode - Gatsby's createNode function
@@ -92,7 +119,7 @@ const createVideoRelatedNode = (
       slug,
       contributionsPath: `${slug}/contributions`,
       timestamps,
-      codeExamples: data.codeExamples ?? [],
+      codeExamples: processCodeExamples(data.codeExamples, `${type}s`, slug),
       groupLinks: data.groupLinks ?? [],
       canContribute: data.canContribute ?? schemaType === 'Challenge',
       contributions: contributions.map((file) => createNodeId(file)),

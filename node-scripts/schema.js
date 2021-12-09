@@ -105,9 +105,9 @@ type Link implements Node {
 type CodeExample implements Node {
   title: String!
   language: String
-  codeURL: String!
-  githubURL: String!
-  editorURL: String
+  codeUrl: String!
+  githubUrl: String!
+  editorUrl: String
 }
 
 type Author implements Node {
