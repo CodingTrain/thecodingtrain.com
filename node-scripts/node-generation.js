@@ -46,8 +46,8 @@ const processCodeExamples = (codeExamples, typeOfVideo, videoSlug) => {
   if (!codeExamples) return [];
   const result = [];
   for (let codeExample of codeExamples) {
-    const { title, lang, folder, webEditor } = codeExample;
-    const newCodeExample = { title, lang };
+    const { title, language, folder, webEditor } = codeExample;
+    const newCodeExample = { title, language };
     newCodeExample.githubUrl = `${repoUrl}/${typeOfVideo}/${videoSlug}/src/${folder}`;
     newCodeExample.codeUrl = `${downGitUrl}${newCodeExample.githubUrl}`;
     if (webEditor) {

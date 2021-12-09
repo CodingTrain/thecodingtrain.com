@@ -9,43 +9,43 @@
   "codeExamples": [
     {
       "title": "Basic",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "basic-bezier",
       "webEditor": "Z53a719cQ"
     },
     {
       "title": "Editor by Simon Tiger",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "bezier-editor",
       "webEditor": "_R7RgtGfA"
     },
     {
       "title": "bezierVertex",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "bezier-vertex",
       "webEditor": "O3_cLiOaw"
     },
     {
       "title": "Time Table Cardioid with Bezier",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "cardioid-bezier",
       "webEditor": "kZ8dpklQg"
     },
     {
       "title": "Quadratic",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "quadratic",
       "webEditor": "fJIMDmHcE"
     },
     {
       "title": "Cubic",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "cubic",
       "webEditor": "S1Pt8lol1"
     },
     {
       "title": "Bezier with Formula",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "bezier-formula",
       "webEditor": "0XOLNHbvC"
     }

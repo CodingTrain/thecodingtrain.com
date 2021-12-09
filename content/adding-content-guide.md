@@ -1,6 +1,6 @@
 # Adding content guide for The Coding Train team
 
-_Last update: December 6th 2021_
+_Last update: December 9th 2021_
 
 On december 3rd 2021 there was an agreement to start adding real content to this project.
 This would serve as a way to understand how the workflow feels and if the developing structure may benefit of changes or tweaks.
@@ -17,9 +17,16 @@ we'll be just considering content concerning videos
 and tracks.
 They are all kept in the `content/` folder,
 inside the `videos/` and `tracks/` directories respectively.
+
 The `guides/` folder currently has the website user guides that are in the existing Coding Train website,
 and are just placeholders for now that would need updating once we settle on the content folder setup.
-So this can be ignored for now.
+Similarly,
+the `talks/` folder contains talk information for the about page,
+and `collaborators.json` contains information on the sites collaborators.
+All these can be ignored for now,
+but feel free to point out or add real data there too.
+
+The rationale behind the current structure thinks of videos as the building blocks of content from which tracks are compose from.
 
 ```
 content
@@ -30,14 +37,13 @@ content
 └── tracks
 ```
 
-The rationale behind this structure thinks of videos as the building blocks of content from which tracks are compose from.
+## Videos
 
-### Videos
+Videos on one hand can be divided in three specific flavors with distinct objectives:
 
-Videos on one hand can be divided in three specific flavors with distinct functions.
-**Lessons** tackle specific themes and are part of a sequence of lessons (main tracks),
-**guest tutorials** are more autocontained lessons on very different subjects given by guests lecturers,
-and **challenges** are also very specific and autocontained resources with the intention of inviting viewers to send contributions based on the challenge.
+- **Lessons** tackle specific themes and are part of a sequence of lessons (main tracks),
+- **guest tutorials** are more autocontained lessons on very different subjects given by guests lecturers,
+- and **challenges** are also very specific and autocontained resources with the intention of inviting viewers to send contributions based on the challenge or coding experiment.
 
 Each video,
 whatever flavor of video they are,
@@ -45,9 +51,12 @@ follow a similar folder structure:
 
 ```
 [lessons|challenges|guest-tutorials]
-└── video-slug
-    ├── index.json
-    └── contributions
+└─ video-slug
+    ├─ index.json
+    ├─ src
+    │   ├─ code-folder-1
+    │   └─ ...
+    └─ contributions
         ├─ contribution-slug-1.json
         ├─ contribution-slug-2.json
         └─ ...
@@ -57,10 +66,11 @@ follow a similar folder structure:
 - `video-slug/` folder contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions,
   and they also become part of the path to their video player pages.
 - `video-slug/index.json` file contains the main metadata for the video: title, description, YouTube video ID, etc...
+- `video-slug/src/` folder contains subfolders with source code related to the video and can be referenced in `video-slug/index.json` as code examples.
 - `video-slug/contributions/` folder contains all metadata for contributions that viewers send and are accepted into the site.
 - `video-slug/contributions/contribution-slug.json` file contains the metadata for the contribution: title, author information, links to code or live versions, etc...
 
-#### Metadata
+### Metadata
 
 Each video's metadata file (`video-slug/index.json`) is a JSON file with the following structure:
 
@@ -68,35 +78,42 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file with the fol
 {
   "title": "Video title",
   "description": "Video description",
-  "languages": ["language", ...],
-  "topics": ["topic", ...],
+  "languages": ["language1", "language2"],
+  "topics": ["topic1", "topic2"],
   "videoId": "YouTube video ID",
-  "canContribute": [true|false],
+  "canContribute": true,
   "timestamps": [
-    { "time": "0:00", "title": "Title" },
-    { "time": "1:26", "title": "Title" },
-    ...
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" },
   ],
   "codeExamples": [
     {
-      "title": "Code example title",
-      "language": "p5js"|"node"|"processing",
-      "githubUrl": "url to github repository with code",
-      "codeUrl": "download code link",
-      "editorUrl": "link to live editor with code"
+      "title": "Code example 1 title",
+      "language": "p5js",
+      "folder": "code-folder-1",
+      "wedEditor": "p5 editor code",
     },
-    ...
+    {
+      "title": "Code example 2 title",
+      "language": "processing",
+      "folder": "code-folder-2",
+    }
   ],
   "groupLinks": [
     {
       "title": "Group of links title",
       "links": [
         {
-          "title": "Link title",
-          "url": "link url",
+          "title": "Link 1 title",
+          "url": "link 1 url",
           "author": "author of content linked"
         },
-        ...
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "author": "author of content linked"
+        },
       ]
     },
     ...
@@ -106,11 +123,31 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file with the fol
 
 Most of the properties should translate directly from the current setup.
 
-`"codeExamples"` are thought to contain the main code worked on the video,
-and any variations that may
+#### Languages and topics
+
+The actual values for these haven't been decided,
+so we are open for you to suggest the set of possible values to have as options.
+
+#### Code examples
+
+`"codeExamples"` are thought to contain objects that reference the main code worked on the video,
+and that are contained in the corresponding `src/` folder in the video's directory.
+
+`"folder"` should directly reference a subfolder inside of `src/`.
+
+`"language"` is the main language, framework or library being used.
+We are curretly considering values `"p5js"`, `"node"` and `"processing"`.
+Please let us know if more should be added to add the corresponding image icons.
+
+While `"webEditor"` are considered only for p5.js editors,
+and is an optional property.
 
 If there are missing properties to consider in this translation,
 please let us know!
+
+#### Group Links
+
+#### Contributions
 
 Contributions' metadata files (`video-slug/contributions/contribution-slug.json`) are also JSON files with the following structure that closely resembles the one suggested in the [current contribution guide](https://thecodingtrain.com/Guides/community-contribution-guide.html):
 

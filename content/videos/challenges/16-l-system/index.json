@@ -9,13 +9,13 @@
   "codeExamples": [
     {
       "title": "p5.js",
-      "lang": "p5js",
+      "language": "p5js",
       "folder": "P5",
       "webEditor": "QmTx-Y_UP"
     },
     {
       "title": "Processing",
-      "lang": "processing",
+      "language": "processing",
       "folder": "Processing"
     }
   ],
