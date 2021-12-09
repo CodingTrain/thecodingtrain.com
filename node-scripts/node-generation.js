@@ -35,8 +35,7 @@ const parseTimestamp = (timeString) => {
 // TODO: Update to Coding Train hosted repo
 const repoUrl =
   'https://github.com/designsystemsinternational/thecodingtrain.com/tree/guide-page-loading/content/videos';
-// TODO: Update to https://codingtrain.github.io/DownGit/#/home
-const downGitUrl = 'https://minhaskamal.github.io/DownGit/#/home?url=';
+const downGitUrl = 'https://codingtrain.github.io/DownGit//#/home?url=';
 const p5EditorUrl = 'https://editor.p5js.org/codingtrain/sketches';
 
 /**
