@@ -1,4 +1,4 @@
-# Adding content guide for The Coding Train team
+# Content structure guide for The Coding Train team
 
 _Last update: December 9th 2021_
 
@@ -6,7 +6,7 @@ On december 3rd 2021 there was an agreement to start adding real content to this
 This would serve as a way to understand how the workflow feels and if the developing structure may benefit of changes or tweaks.
 
 With that in mind,
-the purpose of this guide is to show how to add content to the new Coding Train website being develop.
+the purpose of this guide is to explain the structure of content that feeds the new Coding Train website that is being developed.
 As we learn about how the setup feels and works,
 this guide will be updated accordingly.
 
