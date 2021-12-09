@@ -1,7 +1,7 @@
 {
   "title": "Bézier Curves",
   "description": "Have you ever wanted to know more about bézier curves in p5.js? Thanks to a generous donation from Jason Oswald, I do a deep dive exploring the bézier curve function and the math behind the algorithm?",
-  "videoNumber": 163,
+  "videoNumber": "163",
   "videoId": "enNfb6p3j_g",
   "date": "2021-08-22",
   "languages": ["JavaScript", "p5.js"],

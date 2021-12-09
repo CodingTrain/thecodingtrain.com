@@ -87,7 +87,7 @@ Each file has the following structure:
 {
   "title": "Video title",
   "description": "Video description",
-  "videoNumber": 34,
+  "videoNumber": "Video number",
   "videoId": "YouTube video ID",
   "date": "YYYY-MM-DD",
   "languages": ["language1", "language2"],
@@ -145,6 +145,8 @@ Video numbers are contextual and that nature depends on the type of video.
 Challenges and guest tutorials are thought of their own type of collections of videos,
 so numbers are relative to those collections.
 Lessons on the other hand are relative to main tracks and chapters.
+
+These are currently supported as strings because JavaScript and GraphQL basic types clash a bit when trying to interpret types.
 
 How these numbers are used in the new site is unclear,
 specially for side tracks,

@@ -11,7 +11,7 @@ interface Video implements Node {
   videoId: String!
   description: String!
   date: String
-  videoNumber: Number
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
@@ -29,7 +29,7 @@ type Lesson implements Video & Node {
   contributionsPath: String!
   description: String!
   date: String
-  videoNumber: Number
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
@@ -47,7 +47,7 @@ type Challenge implements Video & Node {
   videoId: String!
   description: String!
   date: String
-  videoNumber: Number
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
