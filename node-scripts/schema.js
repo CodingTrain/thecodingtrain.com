@@ -65,7 +65,7 @@ type GuestTutorial implements Video & Node {
   videoId: String!
   description: String!
   date: String
-  repository: String
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
