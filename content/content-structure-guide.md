@@ -43,7 +43,7 @@ The files contained in those folders were created based on the existing videos i
 so they should also be good examples for you on how to add similar content.
 Feel free to delete all folders and files in
 `content/videos/lessons`,
-as these were created as dummy examples and not to represent a real video.
+as these were created as dummy examples and not to represent a real videos.
 
 ## Videos
 
@@ -133,6 +133,12 @@ Each file has the following structure:
 
 Most of the properties should translate directly from the current setup.
 
+`"title"`,
+`"description"`,
+`"videoId"`,
+are the only required properties.
+The rest have a fallback value if not set.
+
 #### Video numbers
 
 Video numbers are contextual and that nature depends on the type of video.
@@ -140,22 +146,28 @@ Challenges and guest tutorials are thought of their own type of collections of v
 so numbers are relative to those collections.
 Lessons on the other hand are relative to main tracks and chapters.
 
-How these numbers are used in the new site is unclear.
+How these numbers are used in the new site is unclear,
+specially for side tracks,
+so for now `"videoNumber"` is optional.
 Feel free to propose how video numbers could be used.
 
 #### Languages and topics
 
 The actual values for these haven't been decided,
 so we are open for you to suggest the set of possible values to have as options.
-There's not real limit to how many languages and topics can be specified on each video,
-but up to two or three should be appropriate.
+There's no limits on how many languages and topics can be specified on each video,
+but up to one or two should be appropriate.
+
+If `"languages"` or `"topics"` aren't set,
+they will default to an empty array.
 
 #### Contributions enabling
 
 Es you would expect,
 the corresponding value can be either `true` or `false`.
 Setting it to false would hide the contributions panel in the corresponding video page.
-If not set,
+
+If `"canContribute"` is not set,
 lessons and guest tutorials default to `false` and challenges to `true`.
 
 #### Code examples
@@ -163,17 +175,18 @@ lessons and guest tutorials default to `false` and challenges to `true`.
 `"codeExamples"` are thought to contain objects that reference the main code worked on the video,
 and that are contained in the corresponding `src/` folder in the video's directory.
 
-`"folder"` should directly reference a subfolder inside of `src/`.
-
-`"language"` is the main language, framework or library being used.
-We are curretly considering values `"p5js"`, `"node"` and `"processing"`.
-Please let us know if more should be added to add the corresponding image icons.
-
-While `"webEditor"` are considered only for p5.js editors,
-and is an optional property.
+- `"folder"` should directly reference a subfolder inside of `src/`.
+- `"language"` is the main language, framework or library being used.
+  We are curretly considering values `"p5js"`, `"node"` and `"processing"`.
+  Please let us know if more should be added to add the corresponding image icons.
+- `"webEditor"` is only considered for p5.js editors,
+  and is an optional property.
 
 If there are missing properties to consider in this translation,
 please let us know!
+
+If `"codeExamples"` isn't set,
+it will default to an empty array.
 
 #### Group Links
 
@@ -187,6 +200,9 @@ instead of specifying the whole url to the resource,
 the URL can contain the sub-path in the site for hat resource that starts with `/`.
 
 The `"author"` property is optional, but `"title"` and `"url"` are required.
+
+If `"groupLinks"` isn't set,
+it will default to an empty array.
 
 #### Contributions
 
@@ -235,10 +251,12 @@ We also currently support the addition of images related to videos and their con
 - `placeholder.[png|jpg]` is a **required** image (either PNG or JPG) to be used as a placeholder for whether a specific video doesn't include their corresponding image at `video-slug/index.[png|jpg]`.
   This image also may be used as a placeholder for contributions that also don't include their own `contributions/contribution-slug.[png|jpg]` image and don't have a video image to fallback on.
 
+Feel free to also update the current placeholder images!
+
 ### Tracks
 
 On the other hand,
-tracks come in two types.
+tracks come in two types: main and side tracks.
 
 **Main tracks** are the core and principal courses available in the coding train,
 which seek to teach a big theme of multiple lessons.
@@ -266,11 +284,13 @@ Each `track-slug-1.json` file defines a new track and contains the track metadat
 
 Metadata for main and side tracks are very similar,
 they just differ in a `"type"` property and a corresponding property to define the video collection it includes.
+The properties `"title"`, `"type"`, and `"description"` are all common and required to be set.
 
 For main tracks,
-the property you should use is `"chapters"`.
+the required property to define the collection is `"chapters"`.
 This defines an ordered sequence of chapters,
 where each is an ordered collection of lessons.
+Each chapter should also have a `"title"` defined.
 To reference specific lessons,
 the same slug names used for subfolders in the `videos/lessons` folder should be used.
 
@@ -293,8 +313,8 @@ the same slug names used for subfolders in the `videos/lessons` folder should be
 ```
 
 For side tracks,
-you should use `"videos"`,
-which is a plain video sequence.
+the required property is `"videos"`,
+which is a plain video sequence array.
 In this case,
 a path like notation should be used as to clarify if the slug being added for each video is a lesson, challenge or guest tutorial:
 

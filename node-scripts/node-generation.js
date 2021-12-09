@@ -117,6 +117,8 @@ const createVideoRelatedNode = (
       parent: node.id,
       slug,
       contributionsPath: `${slug}/contributions`,
+      languages: data.languages ?? [],
+      topics: data.topics ?? [],
       timestamps,
       codeExamples: processCodeExamples(data.codeExamples, `${type}s`, slug),
       groupLinks: data.groupLinks ?? [],
