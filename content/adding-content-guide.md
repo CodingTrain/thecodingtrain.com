@@ -37,6 +37,14 @@ content
 └── tracks
 ```
 
+**Note**: At the moment of writing this guide,
+only the files contained in `content/videos/challenges` and `content/videos/guest-tutorials` really follow the structure and descriptions that gets explained in the rest of this guide.
+The files contained in those folders were created based on the existing videos in the site,
+so they should also be good examples for you on how to add similar content.
+Feel free to delete all folders and files in
+`content/videos/lessons`,
+as these were created as dummy examples and not to represent a real video.
+
 ## Videos
 
 Videos on one hand can be divided in three specific flavors with distinct objectives:
@@ -72,32 +80,35 @@ follow a similar folder structure:
 
 ### Metadata
 
-Each video's metadata file (`video-slug/index.json`) is a JSON file with the following structure:
+Each video's metadata file (`video-slug/index.json`) is a JSON file.
+Each file has the following structure:
 
 ```json
 {
   "title": "Video title",
   "description": "Video description",
+  "videoNumber": 34,
+  "videoId": "YouTube video ID",
+  "date": "YYYY-MM-DD",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
-  "videoId": "YouTube video ID",
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },
-    { "time": "1:26", "title": "Title 3" },
+    { "time": "1:26", "title": "Title 3" }
   ],
   "codeExamples": [
     {
       "title": "Code example 1 title",
       "language": "p5js",
       "folder": "code-folder-1",
-      "wedEditor": "p5 editor code",
+      "wedEditor": "p5 editor code"
     },
     {
       "title": "Code example 2 title",
       "language": "processing",
-      "folder": "code-folder-2",
+      "folder": "code-folder-2"
     }
   ],
   "groupLinks": [
@@ -113,20 +124,39 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file with the fol
           "title": "Link 2 title",
           "url": "link 2 url",
           "author": "author of content linked"
-        },
+        }
       ]
-    },
-    ...
+    }
   ]
 }
 ```
 
 Most of the properties should translate directly from the current setup.
 
+#### Video numbers
+
+Video numbers are contextual and that nature depends on the type of video.
+Challenges and guest tutorials are thought of their own type of collections of videos,
+so numbers are relative to those collections.
+Lessons on the other hand are relative to main tracks and chapters.
+
+How these numbers are used in the new site is unclear.
+Feel free to propose how video numbers could be used.
+
 #### Languages and topics
 
 The actual values for these haven't been decided,
 so we are open for you to suggest the set of possible values to have as options.
+There's not real limit to how many languages and topics can be specified on each video,
+but up to two or three should be appropriate.
+
+#### Contributions enabling
+
+Es you would expect,
+the corresponding value can be either `true` or `false`.
+Setting it to false would hide the contributions panel in the corresponding video page.
+If not set,
+lessons and guest tutorials default to `false` and challenges to `true`.
 
 #### Code examples
 
@@ -146,6 +176,17 @@ If there are missing properties to consider in this translation,
 please let us know!
 
 #### Group Links
+
+Group links are a more general abstraction for specifying theme related groups of links that can be used to specify the "Links discussed" section of videos,
+"Guest contact information" for guest tutorials,
+"Videos discussed" ,
+or whatever new section is needed for each video.
+
+In the case of "Videos discussed" or whatever content that lives in the Coding Train site,
+instead of specifying the whole url to the resource,
+the URL can contain the sub-path in the site for hat resource that starts with `/`.
+
+The `"author"` property is optional, but `"title"` and `"url"` are required.
 
 #### Contributions
 
@@ -226,6 +267,13 @@ Each `track-slug-1.json` file defines a new track and contains the track metadat
 Metadata for main and side tracks are very similar,
 they just differ in a `"type"` property and a corresponding property to define the video collection it includes.
 
+For main tracks,
+the property you should use is `"chapters"`.
+This defines an ordered sequence of chapters,
+where each is an ordered collection of lessons.
+To reference specific lessons,
+the same slug names used for subfolders in the `videos/lessons` folder should be used.
+
 ```json
 {
   "title": "Main track title",
@@ -234,31 +282,15 @@ they just differ in a `"type"` property and a corresponding property to define t
   "chapters": [
     {
       "title": "First chapter title",
-      "lessons": [
-        "lesson-1-slug",
-        "lesson-2-slug",
-        ...
-      ]
+      "lessons": ["lesson-1-slug", "lesson-2-slug"]
     },
     {
       "title": "Second chapter title",
-      "lessons": [
-        "lesson-3-slug",
-        "lesson-4-slug",
-        ...
-      ]
-    },
-    ...
+      "lessons": ["lesson-3-slug", "lesson-4-slug"]
+    }
   ]
 }
 ```
-
-For main tracks,
-the property you should use `"chapters"`.
-This defines an ordered sequence of chapters,
-where each is an ordered collection of lessons.
-To reference specific lessons,
-the same slug names used for folders in the `videos/lessons` folder should be used.
 
 For side tracks,
 you should use `"videos"`,
@@ -272,10 +304,9 @@ a path like notation should be used as to clarify if the slug being added for ea
   "type": "side",
   "description": "Side track description",
   "videos": [
-    "[lessons|challenges|guest-tutorials]/video-1-slug",
-     "[lessons|challenges|guest-tutorials]/video-2-slug",
-     "[lessons|challenges|guest-tutorials]/video-3-slug",
-    ...
+    "lessons/video-1-slug",
+    "challenges/video-2-slug",
+    "guest-tutorials/video-3-slug"
   ]
 }
 ```
@@ -297,4 +328,5 @@ tracks
 
 ```
 
-While the `placeholder.[png|jpg]` image is required and will be used as fallback for all tracks that don't have a cover image.
+On the other hand,
+the `placeholder.[png|jpg]` image is required and will be used as fallback for all tracks that don't have a cover image.

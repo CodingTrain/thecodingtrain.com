@@ -1,9 +1,10 @@
 {
   "title": "Matrix Digital Rain in p5.js with Emily Xie",
-  "languages": ["JavaScript", "p5.js"],
   "description": "In this guest tutorial, Emily Xie uses the p5.js library to recreate the digital rain effect from the movie The Matrix.\n\nEmily Xie is a software developer and creative coder. She's passionate about coding education, having taught through various conference workshops and via organizations like Girl Develop It (https://www.girldevelopit.com/) and Pioneer Works (https://pioneerworks.org/). Currently, Emily lives in New York and works at Squarespace.",
-  "date": "2017-02-23",
+  "videoNumber": 4,
   "videoId": "S1TQCi9axzg",
+  "date": "2017-02-23",
+  "languages": ["JavaScript", "p5.js"],
   "groupLinks": [
     {
       "title": "Source code",
