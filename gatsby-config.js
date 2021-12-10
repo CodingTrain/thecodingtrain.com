@@ -7,6 +7,7 @@ module.exports = {
     DEV_SSR: true
   },
   plugins: [
+    `gatsby-plugin-gatsby-cloud`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
