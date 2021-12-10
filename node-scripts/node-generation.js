@@ -130,6 +130,7 @@ const createVideoRelatedNode = (
       }
     });
     createNode(newNode);
+    console.log('Video created');
   }
 };
 
@@ -262,6 +263,7 @@ exports.createTrackRelatedNode = (
       }
     });
     createNode(newNode);
+    console.log('Track created');
 
     // Create Chapter nodes
     for (let i = 0; i < chapters.length; i++) {
@@ -304,7 +306,7 @@ exports.createTalkRelatedNode = (
   const data = getJson(node);
 
   const newNode = Object.assign({}, data, {
-    id: createNodeId(slug),
+    id: createNodeId('talk-' + slug),
     parent: node.id,
     slug,
     internal: {

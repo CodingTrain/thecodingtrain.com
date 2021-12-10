@@ -70,6 +70,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
 
     // Create track intro page with first video
     console.log('type:', track.type);
+    console.log('slug:', track.slug);
     console.log('videos:', track.videos);
     console.log('chapters:', track.chapters);
     console.log('first:', firstVideo);
