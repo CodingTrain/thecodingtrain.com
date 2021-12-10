@@ -73,7 +73,7 @@ module.exports = {
       options: {
         name: 'lessons',
         path: './content/videos/lessons',
-        ignore: [`./**/src/**`]
+        ignore: [`./**/src`]
       },
       __key: 'lessons'
     },
@@ -82,7 +82,7 @@ module.exports = {
       options: {
         name: 'challenges',
         path: './content/videos/challenges',
-        ignore: [`./**/src/**`]
+        ignore: [`./**/src`]
       },
       __key: 'challenges'
     },
@@ -91,7 +91,7 @@ module.exports = {
       options: {
         name: 'guest-tutorials',
         path: './content/videos/guest-tutorials',
-        ignore: [`./**/src/**`]
+        ignore: [`./**/src`]
       },
       __key: 'guest-tutorials'
     },
