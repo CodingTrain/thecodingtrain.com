@@ -72,8 +72,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'lessons',
-        path: './content/videos/lessons'
-        // ignore: [`**/src/**`]
+        path: './content/videos/lessons',
+        ignore: [`./**/src/**`]
       },
       __key: 'lessons'
     },
@@ -81,8 +81,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'challenges',
-        path: './content/videos/challenges'
-        // ignore: [`**/src/**`]
+        path: './content/videos/challenges',
+        ignore: [`./**/src/**`]
       },
       __key: 'challenges'
     },
@@ -90,8 +90,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'guest-tutorials',
-        path: './content/videos/guest-tutorials'
-        // ignore: [`**/src/**`]
+        path: './content/videos/guest-tutorials',
+        ignore: [`./**/src/**`]
       },
       __key: 'guest-tutorials'
     },

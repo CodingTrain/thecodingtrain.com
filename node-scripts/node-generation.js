@@ -130,7 +130,6 @@ const createVideoRelatedNode = (
       }
     });
     createNode(newNode);
-    console.log('Video created');
   }
 };
 
@@ -263,7 +262,6 @@ exports.createTrackRelatedNode = (
       }
     });
     createNode(newNode);
-    console.log('Track created');
 
     // Create Chapter nodes
     for (let i = 0; i < chapters.length; i++) {

@@ -69,11 +69,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
       track.type === 'main' ? track.chapters[0].lessons[0] : track.videos[0];
 
     // Create track intro page with first video
-    console.log('type:', track.type);
-    console.log('slug:', track.slug);
-    console.log('videos:', track.videos);
-    console.log('chapters:', track.chapters);
-    console.log('first:', firstVideo);
+
     createPage({
       path: `tracks/${track.slug}`,
       component: require.resolve(`../src/templates/track-video.js`),
