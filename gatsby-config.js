@@ -98,10 +98,18 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'tracks',
-        path: './content/tracks'
+        name: 'main-tracks',
+        path: './content/tracks/main-tracks'
       },
-      __key: 'tracks'
+      __key: 'main-tracks'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'side-tracks',
+        path: './content/tracks/side-tracks'
+      },
+      __key: 'side-tracks'
     },
     {
       resolve: 'gatsby-source-filesystem',

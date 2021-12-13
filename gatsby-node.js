@@ -55,13 +55,17 @@ exports.onCreateNode = ({
         node,
         parent
       );
-    else if (parent.sourceInstanceName === 'tracks')
+    else if (
+      parent.sourceInstanceName === 'main-tracks' ||
+      parent.sourceInstanceName === 'side-tracks'
+    )
       createTrackRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
-        parent
+        parent,
+        parent.sourceInstanceName
       );
     else if (parent.sourceInstanceName === 'talks')
       createTalkRelatedNode(

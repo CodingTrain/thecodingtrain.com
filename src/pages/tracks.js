@@ -20,7 +20,18 @@ const TracksPage = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
 
   const tracks = data.tracks.nodes;
-  const images = useImages(data.images.nodes);
+  const mainTrackImages = useImages(
+    data.mainTrackImages.nodes,
+    'relativeDirectory'
+  );
+  const sideTrackImages = useImages(
+    data.sideTrackImages.nodes,
+    'relativeDirectory'
+  );
+  const placeholderMainTrackImage =
+    data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
+  const placeholderSideTrackImage =
+    data.placeholderSideTrackImage.nodes[0].childImageSharp.gatsbyImageData;
 
   const onExpand = () => {
     setExpanded(!expanded);
@@ -92,7 +103,11 @@ const TracksPage = ({ data }) => {
         <Fragment key={track.slug}>
           <TrackCard
             {...track}
-            image={images[track.slug] || images.placeholder}
+            image={
+              track.type === 'main'
+                ? mainTrackImages[track.slug] || placeholderMainTrackImage
+                : sideTrackImages[track.slug] || placeholderSideTrackImage
+            }
             path={`/tracks/${track.slug}`}
             variant="red"
           />
@@ -127,14 +142,55 @@ export const query = graphql`
         }
       }
     }
-    images: allFile(
+    mainTrackImages: allFile(
       filter: {
-        sourceInstanceName: { eq: "tracks" }
+        name: { ne: "placeholder" }
+        sourceInstanceName: { eq: "main-tracks" }
         extension: { in: ["jpg", "png"] }
       }
     ) {
       nodes {
-        name
+        relativeDirectory
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    placeholderMainTrackImage: allFile(
+      filter: {
+        name: { eq: "placeholder" }
+        sourceInstanceName: { eq: "main-tracks" }
+        extension: { in: ["jpg", "png"] }
+      }
+    ) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    sideTrackImages: allFile(
+      filter: {
+        name: { ne: "placeholder" }
+        sourceInstanceName: { eq: "side-tracks" }
+        extension: { in: ["jpg", "png"] }
+      }
+    ) {
+      nodes {
+        relativeDirectory
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    placeholderSideTrackImage: allFile(
+      filter: {
+        name: { eq: "placeholder" }
+        sourceInstanceName: { eq: "side-tracks" }
+        extension: { in: ["jpg", "png"] }
+      }
+    ) {
+      nodes {
         childImageSharp {
           gatsbyImageData
         }
