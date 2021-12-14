@@ -117,19 +117,11 @@ Most of the properties should translate directly from the current setup. `"title
 
 #### Video numbers
 
-Video numbers are contextual and that nature depends on the type of video.
-Challenges and guest tutorials are thought of their own type of collections of videos,
-so numbers are relative to those collections.
-Lessons on the other hand are relative to main tracks and chapters.
+We are currently undecided on whether videos should be numbered or not. Currently, videos have numbers in their titles on YouTube and the current website, but the new website might not need them.
 
-These are currently supported as strings because JavaScript and GraphQL basic types clash a bit when trying to interpret types.
+We currently have a `"videoNumber"` property in the video JSON that can be set to whatever you want, and it's currently not used in the website.
 
-How these numbers are used in the new site is unclear,
-specially for side tracks,
-so for now `"videoNumber"` is optional.
-Feel free to propose how video numbers could be used.
-
-> **NOTE**: This is an open question to The Coding Train team. If you could give us insight to whether this video number is needed in general or just for some cases, that would be greatly appreaciated.
+> **NOTE**: This is an open question to The Coding Train team. If you could give us insight to whether this video number is needed in general or just for some cases, that would be greatly appreciated. Feel free to propose how video numbers should or should not be used.
 
 #### Video IDs
 
