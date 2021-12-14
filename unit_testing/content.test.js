@@ -38,4 +38,34 @@ describe('Folder structure', () => {
       });
     }
   }
+  for (let elementName in content) {
+    const element = content[elementName];
+    if (element.files !== undefined) {
+      test(`folder ${elementName}/ is expected`, () => {
+        expect(folderStructure[elementName]).toBeDefined();
+      });
+    }
+  }
 });
+
+describe('Videos must have index.json', () => {
+  for (let videoType of ['challenges', 'lessons', 'guest-tutorials']) {
+    for (let elementName in content.videos.files[videoType].files) {
+      const element = content.videos.files[videoType].files[elementName];
+      console.log({ element });
+      if (element.files !== undefined) {
+        test(`${videoType}/${elementName}/index.js found`, () => {
+          expect(Object.keys(element.files)).toContain('index.json');
+        });
+      }
+    }
+  }
+});
+
+// Add similar check for index.json for tracks
+
+// Generalize that process
+
+// Check presence of other folders other than contributions and src for videos
+
+// Check content of index.json files for required, optional and extra properties.
