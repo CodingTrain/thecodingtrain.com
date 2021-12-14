@@ -1,6 +1,5 @@
 {
   "title": "Git and GitHub for Poets",
-  "type": "side",
   "description": "This course is designed to teach you the basics of working with git version control and the GitHub website.",
   "videos": [
     "lessons/code-programming-with-p5-js-introduction",

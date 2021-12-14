@@ -218,12 +218,13 @@ exports.createTrackRelatedNode = (
   createNodeId,
   createContentDigest,
   node,
-  parent
+  parent,
+  trackType
 ) => {
-  const slug = parent.name;
+  const slug = parent.relativeDirectory;
   const id = createNodeId(`tracks/${slug}`);
   const data = getJson(node);
-  const { type } = data;
+  const type = trackType.replace('-tracks', '');
   let numVideos = 0;
 
   if (type === 'main') {
@@ -253,6 +254,7 @@ exports.createTrackRelatedNode = (
     const newNode = Object.assign({}, data, {
       id,
       parent: node.id,
+      type,
       slug,
       chapters: chapters.map((ch) => ch.id),
       numVideos,
@@ -274,6 +276,7 @@ exports.createTrackRelatedNode = (
       id,
       parent: node.id,
       slug,
+      type,
       videos: data.videos.map((videoSlug) => createNodeId(videoSlug)),
       numVideos,
       internal: {

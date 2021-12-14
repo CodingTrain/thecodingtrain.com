@@ -54,7 +54,12 @@ const ContributionsPanel = ({ contributions, images }) => {
                   <span className={css.authorName}>{contrib.author.name}</span>
                 )}
                 <a
-                  href={contrib.url}
+                  href={
+                    contrib.url ??
+                    (contrib.videoId
+                      ? `https://youtu.be/${contrib.videoId}`
+                      : contrib.source)
+                  }
                   target="_blank"
                   rel="noreferrer"
                   className={css.playButton}>
