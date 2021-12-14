@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "Unit testing of Coding Train website.",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "fdoflorenzano",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "dependencies": {}
+}
