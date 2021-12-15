@@ -52,6 +52,12 @@
   height: var(--baseline);
 }
 
+@media (--medium) {
+  .train {
+    height: var(--baseline-2x);
+  }
+}
+
 @media (--small) {
   .train {
     display: none;
@@ -59,5 +65,9 @@
 
   .description {
     height: var(--baseline-5x);
+
+    & p {
+      width: 100%;
+    }
   }
 }
