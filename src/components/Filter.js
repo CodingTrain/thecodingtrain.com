@@ -14,7 +14,8 @@ const Filter = ({
   expanded,
   onExpand,
   onChange,
-  className
+  className,
+  variant
 }) => {
   const onClick = (item) => {
     let newSelected;
@@ -39,7 +40,7 @@ const Filter = ({
   };
 
   return (
-    <div className={cn(css.root, className)}>
+    <div className={cn(css.root, className, { [css[variant]]: variant })}>
       <div className={css.left}>
         <div className={css.icon}>{icon}</div>
         <div className={css.spacer} />

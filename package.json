@@ -17,7 +17,8 @@
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "classnames": "^2.3.1",
-    "gatsby": "^3.11.1",
+    "gatsby": "3.14.6",
+    "gatsby-plugin-gatsby-cloud": "^3.2.1",
     "gatsby-plugin-image": "^1.12.0",
     "gatsby-plugin-mdx": "^2.12.0",
     "gatsby-plugin-postcss": "^4.12.0",
@@ -34,10 +35,12 @@
     "postcss-import": "^14.0.2",
     "postcss-nesting": "^8.0.1",
     "postcss-normalize": "^10.0.0",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-youtube": "^7.13.1"
   },
   "devDependencies": {
     "lodash": "^4.17.21"

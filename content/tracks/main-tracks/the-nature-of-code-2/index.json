@@ -1,0 +1,38 @@
+{
+  "title": "The Nature of Code 2",
+  "description": "Can the unpredictable evolutionary and emergent properties of nature be captured insoftware? Can understanding the mathematical principles behind the physical world world help to create digital worlds? This learning playlist focuses on the programming strategies and techniques behind computer simulations of natural systems. I'll explore topics ranging from basic mathematics and physics concepts to more advanced simulations of complex systems. Subjects covered include physics simulation, trigonometry, self-organization, genetic algorithms, and neural networks.",
+  "chapters": [
+    {
+      "title": "Welcome",
+      "lessons": [
+        "welcome-top-the-nature-of-code-in-2020-p5js",
+        "nature-of-code-2-introduction"
+      ]
+    },
+    {
+      "title": "Perlin Noise and p5.js Tutorial",
+      "lessons": [
+        "perlin-noise-and-p5js-tutorial-intro",
+        "perlin-noise-and-p5js-tutorial-noise-vs-random",
+        "perlin-noise-and-p5js-tutorial-graphing-1d-perlin-noise"
+      ]
+    },
+    {
+      "title": "The Nature of Code",
+      "lessons": [
+        "nature-of-code-what-is-a-vector",
+        "nature-of-code-vector-math",
+        "nature-of-code-random-vectors",
+        "nature-of-code-static-functions"
+      ]
+    },
+    {
+      "title": "Simulating Forces",
+      "lessons": ["simulating-forces-gravity-and-wind"]
+    },
+    {
+      "title": "Angles",
+      "lessons": ["angles-and-rotation", "2-angular-motion"]
+    }
+  ]
+}

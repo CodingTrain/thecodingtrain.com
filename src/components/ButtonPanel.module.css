@@ -1,21 +1,21 @@
 .root {
-  font-size: var(--font-medium);
-  border-left: var(--border);
-  border-bottom: var(--border);
   display: flex;
-  line-height: var(--baseline-box);
   justify-content: space-between;
   align-items: center;
+  border-left: var(--border);
+  border-bottom: var(--border);
+  height: var(--baseline-box);
   padding: 0 var(--spacing-xsmall) 0 var(--box-padding);
-  overflow: hidden;
+  font-size: var(--maru-medium);
+  line-height: var(--baseline-box);
 
   & p {
-    color: var(--gray-mid);
-    margin: 0 var(--spacing-normal) 0 0;
-    text-transform: uppercase;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    margin: 0 var(--spacing-normal) 0 0;
+    text-transform: uppercase;
+    color: var(--gray-mid);
   }
 }
 
@@ -34,4 +34,36 @@
 .orange {
   background-color: var(--orange-light);
   border-color: var(--orange);
+}
+
+@media (--small) {
+  .smallWrap {
+    display: block;
+    height: var(--baseline-3x-box);
+    padding: 0;
+
+    & .buttonContainer {
+      padding: 0 var(--spacing-xsmall) 0 var(--box-padding);
+    }
+
+    & button {
+      width: 100%;
+    }
+
+    & p {
+      white-space: initial;
+      overflow: initial;
+      text-overflow: initial;
+
+      display: flex;
+      align-items: center;
+      margin-top: -2px;
+      height: calc(var(--baseline-2x) + 2px);
+      border-bottom: 1px solid;
+      padding: 0 var(--spacing-xsmall) 0 var(--box-padding);
+
+      line-height: var(--baseline-1of3);
+      width: 100%;
+    }
+  }
 }

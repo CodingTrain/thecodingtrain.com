@@ -1,7 +1,6 @@
 .root {
-  color: var(--red);
+  color: var(--gray-mid);
   display: flex;
-  background-color: var(--red-light);
 }
 
 .left {
@@ -19,15 +18,15 @@
 .title,
 .item,
 .seeMore {
-  border-left: 1px solid var(--red);
-  border-bottom: 1px solid var(--red);
+  border-left: var(--border);
+  border-bottom: var(--border);
 }
 
 .icon {
   line-height: var(--baseline-box);
   display: flex;
   justify-content: center;
-  font-size: var(--font-emoji);
+  font-size: var(--maru-emoji-normal);
 }
 
 .spacer {
@@ -40,7 +39,7 @@
 
   & h3 {
     margin: 0;
-    font-size: var(--font-reduced);
+    font-size: var(--maru-large);
   }
 }
 
@@ -66,25 +65,84 @@
     padding: 0 var(--spacing-xsmall);
     line-height: var(--baseline-box);
     font-family: var(--maru-mono);
-    font-size: var(--font-normal);
-    color: var(--red);
+
+    font-size: var(--maru-normal);
+    color: var(--gray-mid);
+
     white-space: nowrap;
   }
 }
 
 .item.selected button {
-  background-color: var(--red);
   color: white;
+  background-color: var(--gray-mid);
 }
 
 .seeMore {
   cursor: pointer;
   font-family: var(--maru-mono);
-  color: var(--red);
+  color: var(--gray-mid);
   display: block;
   width: 100%;
   text-align: left;
   padding: 0 var(--box-padding);
   line-height: var(--baseline-box);
-  font-size: var(--font-small);
+  font-size: var(--maru-small);
+}
+
+/* Variants */
+.red {
+  &.root {
+    color: var(--red);
+    background-color: var(--red-light);
+  }
+
+  & .seeMore {
+    color: var(--red);
+  }
+
+  & .item.selected button {
+    color: white;
+    background-color: var(--red);
+  }
+
+  & .item button {
+    color: var(--red);
+  }
+
+  & .icon,
+  & .spacer,
+  & .title,
+  & .item,
+  & .seeMore {
+    border-color: var(--red);
+  }
+}
+
+.cyan {
+  &.root {
+    color: var(--cyan);
+    background-color: var(--cyan-light);
+  }
+
+  & .seeMore {
+    color: var(--cyan);
+  }
+
+  & .item.selected button {
+    color: white;
+    background-color: var(--cyan);
+  }
+
+  & .item button {
+    color: var(--cyan);
+  }
+
+  & .icon,
+  & .spacer,
+  & .title,
+  & .item,
+  & .seeMore {
+    border-color: var(--cyan);
+  }
 }
