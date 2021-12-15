@@ -27,12 +27,12 @@ console.log({ content });
 
 describe('Folder structure', () => {
   for (let folder in folderStructure) {
-    test(`folder ${folder}/ exists`, () => {
+    test(`folder ${folder}/ exists inside content/`, () => {
       expect(content[folder]).toBeDefined();
       expect(content[folder].files).toBeDefined();
     });
     for (let subfolder in folderStructure[folder]) {
-      test(`${folder}/ contains subfolder ${subfolder}/`, () => {
+      test(`content/${folder}/ contains subfolder ${subfolder}/`, () => {
         expect(content[folder]).toBeDefined();
         expect(content[folder].files).toBeDefined();
       });
@@ -52,7 +52,6 @@ describe('Videos must have index.json', () => {
   for (let videoType of ['challenges', 'lessons', 'guest-tutorials']) {
     for (let elementName in content.videos.files[videoType].files) {
       const element = content.videos.files[videoType].files[elementName];
-      console.log({ element });
       if (element.files !== undefined) {
         test(`${videoType}/${elementName}/index.js found`, () => {
           expect(Object.keys(element.files)).toContain('index.json');
@@ -62,10 +61,21 @@ describe('Videos must have index.json', () => {
   }
 });
 
-// Add similar check for index.json for tracks
-
-// Generalize that process
+describe('Tracks must have index.json', () => {
+  for (let trackType of ['main-tracks', 'side-tracks']) {
+    for (let elementName in content.tracks.files[trackType].files) {
+      const element = content.tracks.files[trackType].files[elementName];
+      if (element.files !== undefined) {
+        test(`${trackType}/${elementName}/index.js found`, () => {
+          expect(Object.keys(element.files)).toContain('index.json');
+        });
+      }
+    }
+  }
+});
 
 // Check presence of other folders other than contributions and src for videos
 
 // Check content of index.json files for required, optional and extra properties.
+
+// Generalize processes
