@@ -1,7 +1,11 @@
 .header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  flex-grow: 1;
 }
 
 .train {
@@ -13,7 +17,7 @@
 
   & svg {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 
@@ -28,7 +32,7 @@
   padding: 0 var(--box-padding);
 
   & p {
-  	width: 80%;
+    width: 80%;
   }
 }
 
@@ -49,12 +53,11 @@
 }
 
 @media (--small) {
-	.train {
-		display: none;
-	}
+  .train {
+    display: none;
+  }
 
-	.description {
-		height: var(--baseline-5x);
-	}
-
+  .description {
+    height: var(--baseline-5x);
+  }
 }

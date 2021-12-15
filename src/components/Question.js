@@ -15,7 +15,12 @@ const Question = ({ variant, question, content }) => {
         { [css[variant]]: css[variant] },
         { [css.opened]: open }
       )}>
-      <div className={css.summary} onClick={() => setOpen(!open)}>
+      <div
+        className={css.summary}
+        onClick={() => setOpen(!open)}
+        onKeyPress={(e) => e.key === 'Enter' && setOpen(!open)}
+        role="button"
+        tabIndex="0">
         <Open className={cn(css.icon, { [css.rotateIcon]: open })} />{' '}
         <p>{question}</p>
       </div>

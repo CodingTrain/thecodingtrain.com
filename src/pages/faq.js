@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
 
-import Heading from '../components/Heading';
+import { Heading1 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Question from '../components/Question';
 
@@ -14,7 +14,7 @@ const FAQPage = () => {
     <Layout>
       <Spacer />
       <div className={css.header}>
-        <Heading>FAQ</Heading>
+        <Heading1 className={css.heading}>FAQ</Heading1>
         <div className={css.train}>
           <Train />
         </div>

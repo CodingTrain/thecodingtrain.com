@@ -22,7 +22,6 @@ import ContributionsPanel from '../components/ContributionsPanel';
 import TrackVideoSection from '../components/tracks/VideoSection';
 import Tabs from '../components/Tabs';
 import Question from '../components/Question';
-import cn from 'classnames';
 import TrackCard from '../components/tracks/Card';
 
 import * as css from '../styles/pages/components.module.css';
@@ -111,12 +110,9 @@ const ComponentsPage = ({ data }) => {
         content="Some content here"
       />
       <Tabs labels={['First Component', 'Second Component', 'Third Component']}>
-        <Heading>Test</Heading>
-        <Heading>Best</Heading>
-        <Heading>Nest</Heading>
-      <Tabs labels={['First Component', 'Second Component', 'Third Component']}>
         <Heading2>Test</Heading2>
         <Heading2>Best</Heading2>
+        <Heading2>Nest</Heading2>
       </Tabs>
       <Spacer>Filter</Spacer>
       <div className={cols}>
