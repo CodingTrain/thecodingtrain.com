@@ -1,0 +1,18 @@
+.root {
+  padding: var(--box-padding);
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
+.heading {
+  padding-left: var(--box-padding);
+  border-left: var(--border);
+  border-bottom: var(--border);
+  color: var(--red);
+}
+
+@media (--small) {
+  .breadcrumbs {
+    display: none;
+  }
+}

@@ -1,26 +1,24 @@
 ---
-title: "Content Contribution Guide"
+title: 'Content Contribution Guide'
 ---
 
 You want to help with integrating new content into the repository? Great to hear that! Now let's see how you can help:
 
 A new CodingTrain video has been released and you want to add it to the website so everyone else can find it there? OK, just follow these steps:
 
-
 ## Where to put it?
 
 First of all, you have to find out to which category (or collection as [Jekyll](https://jekyllrb.com/) calls them) the video belongs. Available collections are:
 
-* CodingChallenges
-* Tutorials
-* GuestTutorials
-* Courses
-* Streams
+- CodingChallenges
+- Tutorials
+- GuestTutorials
+- Courses
+- Streams
 
 Selecting the right one is pretty straight forward. You can find the corresponding folders in the root directory of this repository preceded by an `_`.
 
 For some collections (namely tutorials and courses - this does **not** apply to streams and coding challenges) you will find subdirectories in the collection's folder. You also have to decide, to which subcategory the video belongs. This is necessary to help Jekyll build nice URLs. In most cases, the correct subfolder has already been created. Otherwise, feel free to do it yourself. You can follow the video number (like Tutorial 1.2) if you are unsure about how to name it. In this case, `1` would indicate that this video is part of tutorial one (which therefore is a subcategory of the collection). Such a subcategory is called a "series".
-
 
 ## What's a series?
 
@@ -28,7 +26,7 @@ A series is just a collection of related videos. There can be two types of them:
 
 If you take a look inside a series folder, you will find a file called `index.md`. This file contains meta-information about the series such as:
 
-``` markdown
+```markdown
 ---
 title: "Put the series's title here"
 subtitle: "Put the series's subtitle here (only used for tutorials)"
@@ -47,7 +45,6 @@ Taking a closer look at those properties:
 | `subtitle`      | The series's subtitle (for tutorials, put the type of tutorial here) | `"P5.JS Tutorial"` |
 | `series_number` | The series's number (will be used for sorting - must be an integer)  | `1`                |
 
-
 ## How to name everything?
 
 There is a pretty simple naming convention you should follow. The filename for each video should **always** start with the video's number. Let's keep the example from above. The video you want to add is called "1.2: p5.js Workflow - p5.js Tutorial" (as of the date this article was written).
@@ -56,12 +53,11 @@ If you take a look inside the `_Tutorials` collection folder, you will already f
 
 Next up: the filename! Each file inside a collection starts with the number corresponding to the video's title on YouTube followed by a short title (or less-than-five-words-summary). Please use `-` instead of `_` or spaces and remove any special characters like `&`, `#`, `+` and so on. Keep the title in an URL-like style, everything should be lowercase, no "stopwords" (and, or, with, ...), etc. In our example, the file you would have to create would be called `1.2-p5js-workflow.md`.
 
-
 ## What to put inside?
 
 Every video file follows the same blueprint as below (you can even copy-paste this into the new file you created):
 
-``` markdown
+```markdown
 ---
 title: "Put the video's title here"
 video_number: <primary video number>
@@ -100,18 +96,17 @@ If the code was written with the P5 Web Editor, don't specify `repository` or `l
 
 If it should be possible to add community versions of this video using the `contributions` property (see the [Community Contribution Guide](community-contribution-guide)), set `can_contribute: true` which is the default for coding challenges so you don't need to explicitly speicfy it here. This is mainly useful for tutorials where it only makes sense for some videos to allow contributions. Streams should never have this option set.
 
-
 ## Wait, there's more!
 
 Of course! There are a lot more of properties you can specify. Let's also look at them:
 
 | Property | Description (or corresponding section in the video's description on YouTube) |
 | -------- | ---------------------------------------------------------------------------- |
-| `topics` | The topics spoken about in this <collection-name> (especially for streams)   |
-| `links`  | Links discussed in this <collection-name>                                    |
-| `videos` | Videos discussed in this <collection-name>                                   |
+| `topics` | The topics spoken about in this `<collection-name>` (especially for streams) |
+| `links`  | Links discussed in this `<collection-name>`                                  |
+| `videos` | Videos discussed in this `<collection-name>`                                 |
 | `books`  | Books and Papers                                                             |
-| `tools`  | Tools discussed in this <collection-name>                                    |
+| `tools`  | Tools discussed in this `<collection-name>`                                  |
 
 Each one of those itself is an array of link objects which can contain the following information:
 
@@ -132,7 +127,7 @@ It should be noted that the `topic` links are a little bit special as those will
 
 But wait, we're still not done yet! What if you want to have a section not listed above? Thankfully there is an easy way to do this. Just add the following to your YAML front matter.
 
-``` yaml
+```yaml
 custom_sections:
   - title: "Other links I want to share"
     items:
@@ -145,13 +140,13 @@ You can add as many custom sections with as many links as you want. Just a side 
 
 &nbsp;
 
-***
+---
 
 ## Appendix A: Links within markdown files to other markdown files
 
 If you want to link to another page from within a markdown file, you have to use the following snippet:
 
-``` markdown
+```markdown
 {% raw %}[link title here]({{ site.baseurl }}{% link _Collection/series/video-file.md %}){% endraw %}
 ```
 

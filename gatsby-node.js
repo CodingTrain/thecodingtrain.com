@@ -9,7 +9,8 @@ const {
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
-  createChallengePages
+  createChallengePages,
+  createGuidePages
 } = require('./node-scripts/page-generation');
 
 exports.createSchemaCustomization = ({ actions }) =>
@@ -27,7 +28,7 @@ exports.onCreateNode = ({
   const parent = getNode(node.parent);
 
   /**
-    Turn JSON files into Video and Contribution nodes
+    Turn JSON files into Tracks, Video and Contribution nodes
   **/
   if (owner === 'gatsby-transformer-json') {
     if (parent.sourceInstanceName === 'challenges')
@@ -54,48 +55,34 @@ exports.onCreateNode = ({
         node,
         parent
       );
-  }
-
-  /**
-    Turn track JSON files into Track and Chapter nodes
-  **/
-  if (node.internal.type === 'TracksJson') {
-    createTrackRelatedNode(
-      createNode,
-      createNodeId,
-      createContentDigest,
-      node,
-      parent
-    );
-  }
-
-  /**
-    Turn talk json files into Talk nodes
-  **/
-  if (node.internal.type === 'TalksJson') {
-    createTalkRelatedNode(
-      createNode,
-      createNodeId,
-      createContentDigest,
-      node,
-      parent
-    );
-  }
-
-  /**
-    Turn json file into Collaborators nodes
-  **/
-  if (
-    owner === 'gatsby-transformer-json' &&
-    parent.sourceInstanceName === 'collaborators'
-  ) {
-    createCollaboratorNodes(
-      createNode,
-      createNodeId,
-      createContentDigest,
-      node,
-      parent
-    );
+    else if (
+      parent.sourceInstanceName === 'main-tracks' ||
+      parent.sourceInstanceName === 'side-tracks'
+    )
+      createTrackRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent,
+        parent.sourceInstanceName
+      );
+    else if (parent.sourceInstanceName === 'talks')
+      createTalkRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'collaborators')
+      createCollaboratorNodes(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
   }
 };
 
@@ -103,4 +90,5 @@ exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
   await createChallengePages(graphql, createPage);
+  await createGuidePages(graphql, createPage);
 };

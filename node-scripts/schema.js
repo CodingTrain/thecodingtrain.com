@@ -11,7 +11,7 @@ interface Video implements Node {
   videoId: String!
   description: String!
   date: String
-  repository: String
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
@@ -29,7 +29,7 @@ type Lesson implements Video & Node {
   contributionsPath: String!
   description: String!
   date: String
-  repository: String
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
@@ -47,7 +47,7 @@ type Challenge implements Video & Node {
   videoId: String!
   description: String!
   date: String
-  repository: String
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
@@ -65,7 +65,7 @@ type GuestTutorial implements Video & Node {
   videoId: String!
   description: String!
   date: String
-  repository: String
+  videoNumber: String
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
@@ -82,7 +82,6 @@ type Contribution implements Node {
   url: String
   videoId: String
   source: String
-  notes: [String],
   video: Video! @link
 }
 
@@ -106,9 +105,9 @@ type Link implements Node {
 type CodeExample implements Node {
   title: String!
   language: String
-  codeURL: String!
-  githubURL: String!
-  editorURL: String
+  codeUrl: String!
+  githubUrl: String!
+  editorUrl: String
 }
 
 type Author implements Node {
@@ -131,8 +130,6 @@ type Track implements Node {
   numVideos: Int!
 }
 
-type Guide implements Node
-
 type Talk implements Node {
   name: String!
   description: String!
@@ -145,5 +142,4 @@ type Collaborator implements Node {
   type: String!
   url: String
 } 
-
 `;

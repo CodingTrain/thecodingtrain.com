@@ -9,22 +9,38 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const items = [
   {
     name: 'Get Started',
-    href: '/'
+    to: '/'
   },
   {
     name: 'Videos',
     children: [
-      { name: 'Tracks', href: '/tracks' },
-      { name: 'Challenges', href: '/challenges' }
+      { name: 'Tracks', to: '/tracks' },
+      { name: 'Challenges', to: '/challenges' },
+      { name: 'Archive', to: '/archive' },
+      { name: 'FAQ', to: '/faq' }
     ]
   },
   {
     name: 'Community',
-    href: '/'
+    children: [
+      {
+        name: 'Discord',
+        href: 'https://discord.com/invite/hPuGy2g'
+      },
+      {
+        name: 'Contributions',
+        to: '/contributions'
+      },
+      {
+        name: 'Guides',
+        to: '/guides'
+      },
+      { name: 'GitHub', href: 'https://github.com/CodingTrain' }
+    ]
   },
   {
     name: 'About',
-    href: '/about'
+    to: '/about'
   }
 ];
 
@@ -41,15 +57,21 @@ const Menu = () => {
           <li
             key={i}
             className={cn(css.item, { [css.hasSubmenu]: item.children })}>
-            {item.href ? (
-              <Link to={item.href}>{item.name}</Link>
+            {item.to ? (
+              <Link to={item.to}>{item.name}</Link>
+            ) : item.href ? (
+              <a href={item.href}>{item.name}</a>
             ) : (
               <>
                 <span>{item.name}</span>
                 <ul className={css.submenu}>
                   {item.children.map((subitem, j) => (
                     <li className={css.subitem} key={j}>
-                      <Link to={subitem.href}>{subitem.name}</Link>
+                      {subitem.to ? (
+                        <Link to={subitem.to}>{subitem.name}</Link>
+                      ) : (
+                        <a href={subitem.href}>{subitem.name}</a>
+                      )}
                     </li>
                   ))}
                 </ul>

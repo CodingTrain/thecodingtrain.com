@@ -7,6 +7,7 @@ module.exports = {
     DEV_SSR: true
   },
   plugins: [
+    `gatsby-plugin-gatsby-cloud`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
@@ -29,10 +30,28 @@ module.exports = {
     },
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-mdx',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'guides',
+        path: './content/guides'
+      },
+      __key: 'guides'
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`]
+      }
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-transformer-json',
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: 'Json'
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -53,7 +72,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'lessons',
-        path: './content/videos/lessons'
+        path: './content/videos/lessons',
+        ignore: [`./**/src`]
       },
       __key: 'lessons'
     },
@@ -61,7 +81,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'challenges',
-        path: './content/videos/challenges'
+        path: './content/videos/challenges',
+        ignore: [`./**/src`]
       },
       __key: 'challenges'
     },
@@ -69,25 +90,26 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'guest-tutorials',
-        path: './content/videos/guest-tutorials'
+        path: './content/videos/guest-tutorials',
+        ignore: [`./**/src`]
       },
       __key: 'guest-tutorials'
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'tracks',
-        path: './content/tracks'
+        name: 'main-tracks',
+        path: './content/tracks/main-tracks'
       },
-      __key: 'tracks'
+      __key: 'main-tracks'
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'guides',
-        path: './content/guides'
+        name: 'side-tracks',
+        path: './content/tracks/side-tracks'
       },
-      __key: 'guides'
+      __key: 'side-tracks'
     },
     {
       resolve: 'gatsby-source-filesystem',

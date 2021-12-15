@@ -110,12 +110,16 @@ export const query = graphql`
       videos {
         title
         slug
+        languages
+        topics
       }
       chapters {
         title
         lessons {
           title
           slug
+          languages
+          topics
         }
       }
     }
@@ -134,9 +138,9 @@ export const query = graphql`
       codeExamples {
         title
         language
-        codeURL
-        githubURL
-        editorURL
+        codeUrl
+        githubUrl
+        editorUrl
       }
       groupLinks {
         title
