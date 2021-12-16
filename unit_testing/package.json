@@ -9,7 +9,13 @@
   "author": "fdoflorenzano",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^27.4.5"
+    "jest": "^27.4.5",
+    "jest-extended": "^1.2.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ]
+  }
 }
