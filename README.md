@@ -18,3 +18,6 @@ When updating the website, it is helpful to run the website locally in order to 
 3. Run `npm run dev`
 
 This will start a local server and the website will now be accessible on [localhost:8000](http://localhost:8000). Changes to most files will be auto-updated in the browser while the website is running.
+
+**Note:** In some cases, specially when updating loaded content, you need to restart the local server with `npm run dev`.
+And in some cases that may fail because of Gatsby's cache usage. If you run `npm run clean` before `npm run dev`, that should fix it.
