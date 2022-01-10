@@ -39,16 +39,16 @@ exports.onCreateNode = ({
         node,
         parent
       );
-    else if (parent.sourceInstanceName === 'lessons')
-      createLessonRelatedNode(
+    else if (parent.sourceInstanceName === 'guest-tutorials')
+      createGuestTutorialRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
         parent
       );
-    else if (parent.sourceInstanceName === 'guest-tutorials')
-      createGuestTutorialRelatedNode(
+    else if (parent.sourceInstanceName === 'lessons')
+      createLessonRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,

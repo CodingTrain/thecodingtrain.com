@@ -6,8 +6,8 @@
     {
       "title": "Introduction to p5.js",
       "lessons": [
-        "code-programming-with-p5-js-trailer",
-        "code-programming-with-p5-js-introduction"
+        "code/intro/code-programming-with-p5-js-trailer",
+        "code/intro/code-programming-with-p5-js-introduction"
       ]
     }
   ]
