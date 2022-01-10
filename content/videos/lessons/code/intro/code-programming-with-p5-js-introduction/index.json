@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD:content/videos/lessons/code/intro/code-programming-with-p5-js-introduction/index.json
   "title": "Code! Programming with P5.js",
   "description": "Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners.",
   "languages": ["p5.js", "JavaScript"],
@@ -8,4 +9,5 @@
   "canContribute": true
     }
   ]
+>>>>>>> 55fa165 (Added video folders and template index.json for main track):content/videos/lessons/code-programming-with-p5-js-introduction/index.json
 }

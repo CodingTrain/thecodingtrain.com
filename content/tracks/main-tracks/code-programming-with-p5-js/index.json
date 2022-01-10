@@ -6,8 +6,39 @@
     {
       "title": "Introduction to p5.js",
       "lessons": [
-        "code/intro/code-programming-with-p5-js-trailer",
-        "code/intro/code-programming-with-p5-js-introduction"
+        "code-programming-with-p5-js-trailer",
+        "code-programming-with-p5-js-introduction",
+		"p5-js-web-editor",
+		"shapes-and-drawing-p5-js-tutorial",
+		"color-p5-js-tutorial",
+		"errors-and-console-p5-js-tutorial",
+		"code-comments-p5-js-tutorial",
+		"variables-in-p5-js-mousex-mousey-p5-js-tutorial",
+		"variables-in-p5-js-make-your-own-p5-js-tutorial",
+		"incrementation-operations-p5-js-tutorial",
+		"the-random-function-p5-js-tutorial",
+		"the-map-function-p5-js-tutorial",
+		"introduction-to-conditional-statements-p5-js-tutorial",
+		"the-bouncing-ball-p5-js-tutorial",
+		"else-and-else-if-and-and-or-p5-js-tutorial",
+		"boolean-variables-p5-js-tutorial",
+		"while-and-for-loops-p5-js-tutorial",
+		"nested-loops-p5-js-tutorial",
+		"function-basics-p5-js-tutorial",
+		"function-parameters-and-arguments-p5-js-tutorial",
+		"functions-and-return-p5-js-tutorial",
+		"introduction-to-object-oriented-programming-with-es6-p5-js-tutorial",
+		"classes-in-javascript-with-es6-p5-js-tutorial",
+		"constructor-arguments-with-classes-in-javascript-with-es6-p5-js-tutorial",
+		"p5-js-web-editor-adding-javascript-files",
+		"what-is-an-array-p5-js-tutorial",
+		"arrays-and-loops-p5-js-tutorial",
+		"array-of-objects-p5-js-tutorial",
+		"mouse-interaction-with-objects-p5-js-tutorial",
+		"removing-objects-from-arrays-p5-js-tutorial",
+		"object-communication-part-1-p5-js-tutorial",
+		"object-communication-part-2-p5-js-tutorial",
+		"objects-and-images-p5-js-tutorial"
       ]
     }
   ]
