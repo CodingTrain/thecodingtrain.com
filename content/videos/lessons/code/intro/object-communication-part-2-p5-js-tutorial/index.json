@@ -1,9 +1,9 @@
 {
-  "title": "Video title",
-  "description": "Video description",
+  "title": "Object Communication Part 2",
+  "description": "This is a continuation of my previous video where I explore shape intersection with object-oriented programming. Here, I demonstrate how to use a nested loop to check every object's position against every other object.",
   "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
+  "videoId": "5Q9cA0REztY",
+  "date": "2017-12-14",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,

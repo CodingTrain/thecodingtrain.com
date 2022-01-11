@@ -1,9 +1,9 @@
 {
-  "title": "Video title",
-  "description": "Video description",
+  "title": "Object Communication Part 1",
+  "description": "This video covers how to determine if two circles are overlapping (intersecting) in a p5.js sketch. The functionality is demonstrated with an object-oriented approach.",
   "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
+  "videoId": "W1-ej3Wu5zg",
+  "date": "2017-12-13",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,

@@ -1,9 +1,9 @@
 {
-  "title": "Video title",
-  "description": "Video description",
+  "title": "Mouse Interaction with Objects",
+  "description": "How can an object interact with the mouse? This video looks at how you can implement basic mouse interaction (rollover, mousePressed) with your own code and HTML5 canvas.",
   "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
+  "videoId": "TaN5At5RWH8",
+  "date": "2017-10-16",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,

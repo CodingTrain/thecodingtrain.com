@@ -1,9 +1,9 @@
 {
-  "title": "Video title",
-  "description": "Video description",
+  "title": "Errors & Console",
+  "description": "In this video, I take a look at the p5.js console and error messages.",
   "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
+  "videoId": "LuGsp5KeJMM",
+  "date": "2018-09-10",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,

@@ -1,9 +1,9 @@
 {
-  "title": "Video title",
-  "description": "Video description",
+  "title": "Arrays",
+  "description": "This video covers the basics on using arrays in JavaScript.  What do they look like, how do they work, when should you use them?",
   "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
+  "videoId": "VIQoUghHSxU",
+  "date": "2015-10-02",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,

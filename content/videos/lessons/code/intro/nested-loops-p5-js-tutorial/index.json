@@ -1,9 +1,9 @@
 {
-  "title": "Video title",
-  "description": "Video description",
+  "title": "Nested Loops",
+  "description": "This video looks at loops nested in loops.  What does it mean to have a for loop in the draw() loop?  How do you draw a grid of shapes with two loops?",
   "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
+  "videoId": "1c1_TMdf8b8",
+  "date": "2015-09-11",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
