@@ -1,45 +1,14 @@
 {
-  "title": "Video title",
-  "description": "Video description",
-  "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
-  "canContribute": true,
+  "title": "1.4 Static Functions ",
+  "description": "In this video, I discuss the difference between static and instance functions in JavaScript and how they are used in the p5.Vector class.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "YN8Q-QEmQ8Y",
   "timestamps": [
-    { "time": "0:00", "title": "Title 1" },
-    { "time": "1:26", "title": "Title 2" },
-    { "time": "1:26", "title": "Title 3" }
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
   ],
-  "codeExamples": [
-    {
-      "title": "Code example 1 title",
-      "language": "p5js",
-      "folder": "code-folder-1",
-      "webEditor": "p5 editor code ID"
-    },
-    {
-      "title": "Code example 2 title",
-      "language": "processing",
-      "folder": "code-folder-2"
-    }
-  ],
-  "groupLinks": [
-    {
-      "title": "Group of links title",
-      "links": [
-        {
-          "title": "Link 1 title",
-          "url": "link 1 url",
-          "author": "author of content linked"
-        },
-        {
-          "title": "Link 2 title",
-          "url": "link 2 url",
-          "author": "author of content linked"
-        }
-      ]
-    }
-  ]
+  "canContribute": true
 }

@@ -1,45 +1,39 @@
 {
-  "title": "Video title",
-  "description": "Video description",
-  "videoNumber": "Video number",
-  "videoId": "YouTube video ID",
-  "date": "YYYY-MM-DD",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
-  "canContribute": true,
+  "title": "I.2: Perlin Noise and p5.js Tutorial",
+  "description": "In this new multi-part Perlin Noise Tutorial, I show you what Perlin noise is and how it can be used in creative coding, more specifically with the p5.js library. In Part I.2 of this series, I introduce you to what Perlin noise is, how it's created and its history.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "Qf4dIN99e2w",
   "timestamps": [
-    { "time": "0:00", "title": "Title 1" },
-    { "time": "1:26", "title": "Title 2" },
-    { "time": "1:26", "title": "Title 3" }
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
   ],
-  "codeExamples": [
+  "canContribute": true,
+  "contributions": [
     {
-      "title": "Code example 1 title",
-      "language": "p5js",
-      "folder": "code-folder-1",
-      "webEditor": "p5 editor code ID"
+      "title": "#1.3 random vectors",
+      "author": {
+        "name": "Sundar Singh",
+        "url": "https://eesur.com"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
     },
     {
-      "title": "Code example 2 title",
-      "language": "processing",
-      "folder": "code-folder-2"
-    }
-  ],
-  "groupLinks": [
+      "title": "#1.3 random vectors crazy good like",
+      "author": {
+        "name": "Sundar Singh"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
+    },
     {
-      "title": "Group of links title",
-      "links": [
-        {
-          "title": "Link 1 title",
-          "url": "link 1 url",
-          "author": "author of content linked"
-        },
-        {
-          "title": "Link 2 title",
-          "url": "link 2 url",
-          "author": "author of content linked"
-        }
-      ]
+      "title": "#1.3 random vectors crazy good like",
+      "author": {
+        "name": "Sundar Singh",
+        "url": "https://eesur.com"
+      },
+      "url": "https://observablehq.com/@eesur/a-random-vector"
     }
   ]
 }
