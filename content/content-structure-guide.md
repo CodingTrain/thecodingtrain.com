@@ -1,6 +1,6 @@
 # Content structure guide for The Coding Train team
 
-_Last update: December 13th 2021_
+_Last update: January 10th 2022_
 
 On december 3rd 2021, we decided to start adding real content to this project. This guide serves as a way to understand how the workflow feels and if the content structure may need to be changed.
 
@@ -303,3 +303,80 @@ tracks
 ```
 
 On the other hand, the `tracks/[main|side]-tracks/placeholder.[png|jpg]` images are required and will be used as fallback for each side of tracks that don't have a cover image.
+
+### Nested folders in video folders
+
+Because of the amount of videos, the `lessons`, `challenges` and `guest-tutorials` folders may get very populated very quickly which can make file organization hard to query and maintain.
+
+To help against that, video folder definitions can be further organized in arbitrary nested folders in any fashion that make sense to the content maintainers.
+When doing this, tracks that reference videos in nested folders must use the whole relative path to specifically reference the video instead of just using the folder slug.
+
+For instance, lessons may be organized based on the tracks and chapters that define them:
+
+```
+lessons
+├─ placeholder.[png|jpg]
+└─ track
+   ├─ chapter-1
+   │  ├─ lesson-1-slug
+   │  │  ├─ index.json
+   │  │  ├─ index.[png|jpg]
+   │  │  └─ contributions
+   │  │     └─ ...
+   │  └─ lesson-2-slug
+   │     ├─ index.json
+   │     ├─ index.[png|jpg]
+   │     └─ contributions
+   │        └─ ...
+   └─ chapter-2
+      ├─ lesson-3-slug
+      │  ├─ index.json
+      │  ├─ index.[png|jpg]
+      │  └─ contributions
+      │     └─ ...
+      └─ lesson-4-slug
+         └─ ...
+```
+
+This would result in less folders directly inside of `lessons`.
+
+To reference it in a main track, the relative paths from `lessons` should be used.
+
+```json
+{
+  "title": "Main track title",
+  "description": "Main track description",
+  "chapters": [
+    {
+      "title": "First chapter title",
+      "lessons": [
+        "track/chapter-1/lesson-1-slug",
+        "track/chapter-1/lesson-2-slug"
+      ]
+    },
+    {
+      "title": "Second chapter title",
+      "lessons": [
+        "track/chapter-2/lesson-3-slug",
+        "track/chapter-2/lesson-4-slug"
+      ]
+    }
+  ]
+}
+```
+
+While in side tracks, the relative path from `videos` should be used:
+
+```json
+{
+  "title": "Side track title",
+  "description": "Side track description",
+  "videos": [
+    "lessons/track/chapter-1/lesson-1-slug",
+    "challenges/video-2-slug",
+    "guest-tutorials/video-3-slug"
+  ]
+}
+```
+
+This can be done with the three main video folders: `lessons`, `challenges` and `guest-tutorials`.

@@ -1,0 +1,45 @@
+{
+  "title": "while & for Loops",
+  "description": "This video examines the while and for loop in p5.js.  I look at drawing multiple copies of the same shape with a loop.",
+  "videoNumber": "Video number",
+  "videoId": "cnRD9o6odjk",
+  "date": "2015-09-11",
+  "languages": ["language1", "language2"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "language": "p5js",
+      "folder": "code-folder-1",
+      "webEditor": "p5 editor code ID"
+    },
+    {
+      "title": "Code example 2 title",
+      "language": "processing",
+      "folder": "code-folder-2"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "author": "author of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "author": "author of content linked"
+        }
+      ]
+    }
+  ]
+}
