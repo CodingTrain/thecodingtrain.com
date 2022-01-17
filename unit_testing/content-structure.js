@@ -82,6 +82,7 @@ const contentStructure = {
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
               },
+              canBeRecursive: true,
               isFileSensitive: true,
               isFolderSensitive: true,
               isRequired: false
