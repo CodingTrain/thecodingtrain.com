@@ -18,7 +18,10 @@ interface Video implements Node {
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedChallenges: [Challenge!] @link
+  image: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
 type Lesson implements Video & Node {
@@ -36,7 +39,10 @@ type Lesson implements Video & Node {
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedChallenges: [Challenge!] @link
+  image: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
 type Challenge implements Video & Node {
@@ -54,7 +60,10 @@ type Challenge implements Video & Node {
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedChallenges: [Challenge!] @link
+  image: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
 type GuestTutorial implements Video & Node {
@@ -72,7 +81,10 @@ type GuestTutorial implements Video & Node {
   codeExamples: [CodeExample!] 
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedChallenges: [Challenge!] @link
+  image: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
 type Contribution implements Node {
@@ -83,6 +95,7 @@ type Contribution implements Node {
   videoId: String
   source: String
   video: Video! @link
+  image: CoverImage @link
 }
 
 type Timestamp implements Node {
@@ -127,6 +140,7 @@ type Track implements Node {
   description: String!
   chapters: [Chapter] @link
   videos: [Video] @link
+  image: CoverImage @link
   numVideos: Int!
 }
 
@@ -142,4 +156,9 @@ type Collaborator implements Node {
   type: String!
   url: String
 } 
+
+type CoverImage implements Node {
+  id: ID!
+  file: File! @link
+}
 `;

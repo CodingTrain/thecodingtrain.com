@@ -11,28 +11,26 @@ import TrackHeader from '../components/tracks/Header';
 import TrackChallengesPanel from '../components/ChallengesPanel';
 import CharacterSpacer from '../components/CharacterSpacer';
 
-import { useImages } from '../hooks';
-
 import * as css from './track-video.module.css';
 import { pattern } from '../styles/styles.module.css';
 
 const Track = ({ pageContext, data }) => {
-  const { track, video, challenges } = data;
+  const {
+    track,
+    video,
+    contributionPlaceholderImage,
+    videoPlaceHolderImage,
+    challengePlaceholderImage
+  } = data;
+  const contributionsPlaceholder =
+    contributionPlaceholderImage.nodes.length > 0
+      ? videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData
+      : videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData;
+  const challengesPlaceholder =
+    challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
+
   const { trackPosition, isTrackPage } = pageContext;
-  const contributionsImages = {
-    ...useImages(data.contributionsImages.nodes)
-  };
-  if (data.contributionPlaceholderImage.nodes.length > 0) {
-    contributionsImages._placeholder =
-      data.contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
-  }
-  const challengesImages = {
-    ...useImages(data.challengesImages.nodes, 'relativeDirectory')
-  };
-  if (data.challengePlaceholderImage.nodes.length > 0) {
-    challengesImages._placeholder =
-      data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
-  }
+
   return (
     <Layout>
       <Breadcrumbs
@@ -73,22 +71,27 @@ const Track = ({ pageContext, data }) => {
           />
           <TrackContributionsPanel
             contributions={video.contributions}
-            images={contributionsImages}
+            placeholderImage={contributionsPlaceholder}
           />
         </>
       )}
-      <div className={css.blankSep} />
-      <CharacterSpacer
-        className={css.sep}
-        variant="cyan"
-        size="x3"
-        side="right"
-        offset={0.7}
-      />
-      <TrackChallengesPanel
-        challenges={challenges.nodes}
-        images={challengesImages}
-      />
+      {video.relatedChallenges.length > 0 && (
+        <>
+          <div className={css.blankSep} />
+          <CharacterSpacer
+            className={css.sep}
+            variant="cyan"
+            size="x3"
+            side="right"
+            offset={0.7}
+          />
+          <TrackChallengesPanel
+            challenges={video.relatedChallenges}
+            placeholderImage={challengesPlaceholder}
+          />
+        </>
+      )}
+
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );
@@ -99,7 +102,7 @@ export const query = graphql`
     $trackId: String
     $videoId: String
     $videoSlug: String
-    $contributionsPath: String
+    $source: String
   ) {
     track(id: { eq: $trackId }) {
       title
@@ -159,46 +162,27 @@ export const query = graphql`
           name
           url
         }
+        image {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
       }
-    }
-    challenges: allChallenge(sort: { order: DESC, fields: slug }, limit: 2) {
-      nodes {
+      relatedChallenges {
         title
         slug
         videoId
         contributionsPath
         description
         date
-      }
-    }
-    challengesImages: allFile(
-      filter: {
-        extension: { in: ["jpg", "png"] }
-        sourceInstanceName: { eq: "challenges" }
-        relativeDirectory: { regex: "/^(?!.*(/contributions)).*$/", ne: "" }
-      }
-      sort: { order: DESC, fields: relativeDirectory }
-      limit: 2
-    ) {
-      nodes {
-        relativeDirectory
-        childImageSharp {
-          gatsbyImageData
-        }
-      }
-    }
-    contributionsImages: allFile(
-      filter: {
-        sourceInstanceName: { in: ["challenges", "lessons", "guest-tutorials"] }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: $contributionsPath }
-      }
-    ) {
-      nodes {
-        name
-        relativeDirectory
-        childImageSharp {
-          gatsbyImageData
+        image {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
         }
       }
     }
@@ -207,6 +191,23 @@ export const query = graphql`
         sourceInstanceName: { in: ["challenges", "lessons", "guest-tutorials"] }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: $videoSlug }
+        name: { eq: "index" }
+      }
+    ) {
+      nodes {
+        base
+        relativeDirectory
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    videoPlaceHolderImage: allFile(
+      filter: {
+        sourceInstanceName: { eq: $source }
+        extension: { in: ["jpg", "png"] }
+        relativeDirectory: { eq: "" }
+        name: { eq: "placeholder" }
       }
     ) {
       nodes {
@@ -222,6 +223,7 @@ export const query = graphql`
         sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
+        name: { eq: "placeholder" }
       }
     ) {
       nodes {

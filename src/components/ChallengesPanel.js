@@ -7,7 +7,7 @@ import * as css from './ChallengesPanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-const ChallengesPanel = ({ challenges, images }) => {
+const ChallengesPanel = ({ challenges, placeholderImage }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
@@ -25,15 +25,17 @@ const ChallengesPanel = ({ challenges, images }) => {
               </div>
               <div className={css.thumb}>
                 <div className={css.left}>
-                  {images && images[challenge.slug] ? (
+                  {challenge.image ? (
                     <Image
-                      image={images[challenge.slug]}
+                      image={
+                        challenge.image.file.childImageSharp.gatsbyImageData
+                      }
                       pictureClassName={css.picture}
                       imgClassName={css.image}
                     />
-                  ) : images && images['_placeholder'] ? (
+                  ) : placeholderImage ? (
                     <Image
-                      image={images['_placeholder']}
+                      image={placeholderImage}
                       pictureClassName={css.picture}
                       imgClassName={css.image}
                     />

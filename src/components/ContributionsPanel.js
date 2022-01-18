@@ -7,7 +7,7 @@ import * as css from './ContributionsPanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-const ContributionsPanel = ({ contributions, images }) => {
+const ContributionsPanel = ({ contributions, placeholderImage }) => {
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
@@ -23,18 +23,18 @@ const ContributionsPanel = ({ contributions, images }) => {
           <Fragment key={key}>
             <div className={css.contrib}>
               <span className={css.title}>
-                {contrib.image}
+                {/* {contrib.image} */}
                 {contrib.title}
               </span>
-              {images && images[contrib.name] ? (
+              {contrib.image ? (
                 <Image
-                  image={images[contrib.name]}
+                  image={contrib.image.file.childImageSharp.gatsbyImageData}
                   pictureClassName={css.picture}
                   imgClassName={css.image}
                 />
-              ) : images && images['_placeholder'] ? (
+              ) : placeholderImage ? (
                 <Image
-                  image={images['_placeholder']}
+                  image={placeholderImage}
                   pictureClassName={css.picture}
                   imgClassName={css.image}
                 />
