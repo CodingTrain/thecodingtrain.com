@@ -15,7 +15,7 @@ const ChallengesPanel = ({ challenges, placeholderImage }) => {
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
-        {challenges.map((challenge, key) => (
+        {challenges.slice(0, 2).map((challenge, key) => (
           <Fragment key={key}>
             <div className={css.challenge}>
               <div className={css.titleContainer}>
