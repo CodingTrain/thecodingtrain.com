@@ -4,7 +4,7 @@
   "videoNumber": "Video number",
   "videoId": "fBqaA7zRO58",
   "date": "2017-10-10",
-  "languages": ["language1", "language2"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
   "timestamps": [
