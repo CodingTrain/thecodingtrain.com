@@ -14,7 +14,8 @@
   },
   "dependencies": {},
   "jest": {
-    "bail": true,
+    "bail": 0,
+    "verbose": true,
     "setupFilesAfterEnv": [
       "jest-extended/all"
     ]

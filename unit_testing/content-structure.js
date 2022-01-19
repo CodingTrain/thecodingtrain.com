@@ -4,7 +4,7 @@ const {
   sideTrack,
   contribution,
   talk,
-  collaborator
+  collaborators
 } = require('./file-formats.js');
 
 const contentStructure = {
@@ -235,7 +235,7 @@ const contentStructure = {
     }
   },
   files: {
-    'collaborators.json': { isRequired: true, jsonFormat: collaborator },
+    'collaborators.json': { isRequired: true, jsonFormat: collaborators },
     'content-structure-guide.md': { isRequired: false }
   },
   isFileSensitive: true,
