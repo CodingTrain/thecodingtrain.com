@@ -10,7 +10,6 @@ exports.createChallengePages = async (graphql, createPage) => {
         nodes {
           id
           slug
-          contributionsPath
         }
       }
     }
@@ -24,7 +23,6 @@ exports.createChallengePages = async (graphql, createPage) => {
       component: require.resolve(`../src/templates/challenge.js`),
       context: {
         id: challenge.id,
-        contributionsPath: challenge.contributionsPath,
         slug: challenge.slug
       }
     });
@@ -47,13 +45,13 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
           videos {
             id
             slug
-            contributionsPath
+            source
           }
           chapters {
             lessons {
               id
               slug
-              contributionsPath
+              source
             }
           }
         }
@@ -78,7 +76,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         trackId: track.id,
         videoId: firstVideo.id,
         videoSlug: firstVideo.slug,
-        contributionsPath: firstVideo.contributionsPath,
+        source: firstVideo.source,
         trackPosition: { chapterIndex: 0, videoIndex: 0 }
       }
     });
@@ -95,7 +93,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
               trackId: track.id,
               videoId: lesson.id,
               videoSlug: lesson.slug,
-              contributionsPath: lesson.contributionsPath,
+              source: lesson.source,
               trackPosition: { chapterIndex, videoIndex: lessonIndex }
             }
           });
@@ -113,7 +111,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
             trackId: track.id,
             videoId: video.id,
             videoSlug: video.slug,
-            contributionsPath: video.contributionsPath,
+            source: video.source,
             trackPosition: { chapterIndex: 0, videoIndex }
           }
         });

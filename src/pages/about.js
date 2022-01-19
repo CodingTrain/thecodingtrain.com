@@ -13,14 +13,11 @@ import Train from '../images/train.svg';
 import Github from '../images/github.svg';
 import Twitter from '../images/twitter.svg';
 
-import { useImages } from '../hooks';
-
 import * as css from '../styles/pages/about.module.css';
 
 const AboutPage = ({ data }) => {
   const talks = data.talks.nodes;
   const hasMoreTalks = data.talks.hasNextPage;
-  const images = useImages(data.images.nodes);
   const team = data.team.nodes;
   const contributors = data.contributors.nodes;
 
@@ -99,7 +96,7 @@ const AboutPage = ({ data }) => {
               key={index}
               variant="purple"
               {...talk}
-              image={images[talk.slug]}
+              image={talk.cover.file.childImageSharp.gatsbyImageData}
             />
           ))}
         </VideoCardList>
@@ -164,6 +161,14 @@ export const query = graphql`
         description
         meta
         link
+        cover {
+          file {
+            name
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
       }
     }
     team: allCollaborator(filter: { type: { eq: "team" } }) {
@@ -178,19 +183,6 @@ export const query = graphql`
         type
         url
         name
-      }
-    }
-    images: allFile(
-      filter: {
-        sourceInstanceName: { eq: "talks" }
-        extension: { in: ["jpg", "png"] }
-      }
-    ) {
-      nodes {
-        name
-        childImageSharp {
-          gatsbyImageData
-        }
       }
     }
   }
