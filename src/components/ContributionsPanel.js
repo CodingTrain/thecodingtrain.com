@@ -22,13 +22,10 @@ const ContributionsPanel = ({ contributions, placeholderImage }) => {
         {contributions.map((contrib, key) => (
           <Fragment key={key}>
             <div className={css.contrib}>
-              <span className={css.title}>
-                {/* {contrib.image} */}
-                {contrib.title}
-              </span>
-              {contrib.image ? (
+              <span className={css.title}>{contrib.title}</span>
+              {contrib.cover ? (
                 <Image
-                  image={contrib.image.file.childImageSharp.gatsbyImageData}
+                  image={contrib.cover.file.childImageSharp.gatsbyImageData}
                   pictureClassName={css.picture}
                   imgClassName={css.image}
                 />

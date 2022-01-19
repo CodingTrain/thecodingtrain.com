@@ -24,7 +24,7 @@ const Track = ({ pageContext, data }) => {
   } = data;
   const contributionsPlaceholder =
     contributionPlaceholderImage.nodes.length > 0
-      ? videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData
+      ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData;
   const challengesPlaceholder =
     challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
@@ -162,7 +162,7 @@ export const query = graphql`
           name
           url
         }
-        image {
+        cover {
           file {
             childImageSharp {
               gatsbyImageData
@@ -177,7 +177,7 @@ export const query = graphql`
         contributionsPath
         description
         date
-        image {
+        cover {
           file {
             childImageSharp {
               gatsbyImageData
@@ -195,8 +195,6 @@ export const query = graphql`
       }
     ) {
       nodes {
-        base
-        relativeDirectory
         childImageSharp {
           gatsbyImageData
         }
@@ -211,8 +209,6 @@ export const query = graphql`
       }
     ) {
       nodes {
-        base
-        relativeDirectory
         childImageSharp {
           gatsbyImageData
         }
@@ -227,8 +223,6 @@ export const query = graphql`
       }
     ) {
       nodes {
-        base
-        relativeDirectory
         childImageSharp {
           gatsbyImageData
         }

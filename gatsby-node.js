@@ -7,7 +7,8 @@ const {
   createTalkRelatedNode,
   createCollaboratorNodes,
   createVideoCoverImageNode,
-  createTrackCoverImageNode
+  createTrackCoverImageNode,
+  createTalkCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
@@ -116,6 +117,13 @@ exports.onCreateNode = ({
         createContentDigest,
         node,
         node.sourceInstanceName
+      );
+    } else if (node.sourceInstanceName === 'talks') {
+      createTalkCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
       );
     }
   }

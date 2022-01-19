@@ -94,7 +94,7 @@ const TracksPage = ({ data }) => {
           <TrackCard
             {...track}
             image={
-              track.image?.file.childImageSharp.gatsbyImageData ??
+              track.cover?.file.childImageSharp.gatsbyImageData ??
               (track.type === 'main'
                 ? placeholderMainTrackImage
                 : placeholderSideTrackImage)
@@ -131,7 +131,7 @@ export const query = graphql`
             title
           }
         }
-        image {
+        cover {
           file {
             childImageSharp {
               gatsbyImageData

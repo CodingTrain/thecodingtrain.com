@@ -19,7 +19,7 @@ interface Video implements Node {
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
-  image: CoverImage @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
 }
@@ -40,7 +40,7 @@ type Lesson implements Video & Node {
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
-  image: CoverImage @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
 }
@@ -61,7 +61,7 @@ type Challenge implements Video & Node {
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
-  image: CoverImage @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
 }
@@ -82,7 +82,7 @@ type GuestTutorial implements Video & Node {
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
-  image: CoverImage @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
 }
@@ -95,7 +95,7 @@ type Contribution implements Node {
   videoId: String
   source: String
   video: Video! @link
-  image: CoverImage @link
+  cover: CoverImage @link
 }
 
 type Timestamp implements Node {
@@ -140,7 +140,7 @@ type Track implements Node {
   description: String!
   chapters: [Chapter] @link
   videos: [Video] @link
-  image: CoverImage @link
+  cover: CoverImage @link
   numVideos: Int!
 }
 
@@ -149,6 +149,7 @@ type Talk implements Node {
   description: String!
   meta: String!
   link: String
+  cover: CoverImage @link
 }
 
 type Collaborator implements Node {

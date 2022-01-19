@@ -25,10 +25,10 @@ const ChallengesPanel = ({ challenges, placeholderImage }) => {
               </div>
               <div className={css.thumb}>
                 <div className={css.left}>
-                  {challenge.image ? (
+                  {challenge.cover ? (
                     <Image
                       image={
-                        challenge.image.file.childImageSharp.gatsbyImageData
+                        challenge.cover.file.childImageSharp.gatsbyImageData
                       }
                       pictureClassName={css.picture}
                       imgClassName={css.image}

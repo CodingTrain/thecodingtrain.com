@@ -87,7 +87,7 @@ const createVideoRelatedNode = (
       video: createNodeId(
         `${type}s/${parent.relativeDirectory.replace('/contributions', '')}`
       ),
-      image: createNodeId(
+      cover: createNodeId(
         `cover-image/${type}s/${parent.relativeDirectory}/${parent.name}`
       ),
       internal: {
@@ -130,7 +130,7 @@ const createVideoRelatedNode = (
       relatedChallenges: (data.relatedChallenges ?? []).map((slug) =>
         createNodeId(`challenges/${slug}`)
       ),
-      image: createNodeId(`cover-image/${type}s/${slug}`),
+      cover: createNodeId(`cover-image/${type}s/${slug}`),
       source: `${type}s`,
       internal: {
         type: schemaType,
@@ -265,7 +265,7 @@ exports.createTrackRelatedNode = (
       slug,
       chapters: chapters.map((ch) => ch.id),
       numVideos,
-      image: createNodeId(`cover-image/main-tracks/${slug}`),
+      cover: createNodeId(`cover-image/main-tracks/${slug}`),
       internal: {
         type: `Track`,
         contentDigest: createContentDigest(data)
@@ -287,7 +287,7 @@ exports.createTrackRelatedNode = (
       type,
       videos: data.videos.map((videoSlug) => createNodeId(videoSlug)),
       numVideos,
-      image: createNodeId(`cover-image/side-tracks/${slug}`),
+      cover: createNodeId(`cover-image/side-tracks/${slug}`),
       internal: {
         type: `Track`,
         contentDigest: createContentDigest(data)
@@ -312,17 +312,18 @@ exports.createTalkRelatedNode = (
   node,
   parent
 ) => {
-  const slug = parent.name;
+  const { name } = parent;
   const data = getJson(node);
 
   const newNode = Object.assign({}, data, {
-    id: createNodeId('talk-' + slug),
+    id: createNodeId('talk-' + name),
     parent: node.id,
-    slug,
+    slug: name,
     internal: {
       type: `Talk`,
       contentDigest: createContentDigest(data)
-    }
+    },
+    cover: createNodeId(`cover-image/talks/${name}`)
   });
   createNode(newNode);
 };
@@ -374,7 +375,32 @@ exports.createCollaboratorNodes = (
 };
 
 /**
- * Creates VideoCover node related to a video or contribution from image file node
+ * Creates CoverImage node from image file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} fileNode - JSON file node
+ * @param {string} id - String ID for new CoverImage node
+ */
+const createCoverImageNode = (
+  createNode,
+  createContentDigest,
+  fileNode,
+  id
+) => {
+  const newNode = {
+    id,
+    parent: fileNode.id,
+    file: fileNode.id,
+    internal: {
+      type: `CoverImage`,
+      contentDigest: createContentDigest(fileNode)
+    }
+  };
+  createNode(newNode);
+};
+
+/**
+ * Creates CoverImage node related to a video or contribution from image file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createNodeId - Gatsby's createNodeId function
  * @param {function} createContentDigest - Gatsby's createContentDigest function
@@ -395,20 +421,11 @@ exports.createVideoCoverImageNode = (
     ? `/${name}`
     : '';
   const id = createNodeId(`cover-image/${source}/${slug}${contributionSlug}`);
-  const newNode = {
-    id,
-    parent: node.id,
-    file: node.id,
-    internal: {
-      type: `CoverImage`,
-      contentDigest: createContentDigest(node)
-    }
-  };
-  createNode(newNode);
+  createCoverImageNode(createNode, createContentDigest, node, id);
 };
 
 /**
- * Creates VideoCover node related to a track from image file node
+ * Creates CoverImage node related to a track from image file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createNodeId - Gatsby's createNodeId function
  * @param {function} createContentDigest - Gatsby's createContentDigest function
@@ -426,14 +443,24 @@ exports.createTrackCoverImageNode = (
   if (name === 'placeholder') return;
   const slug = relativeDirectory;
   const id = createNodeId(`cover-image/${type}/${slug}`);
-  const newNode = {
-    id,
-    parent: node.id,
-    file: node.id,
-    internal: {
-      type: `CoverImage`,
-      contentDigest: createContentDigest(node)
-    }
-  };
-  createNode(newNode);
+  createCoverImageNode(createNode, createContentDigest, node, id);
+};
+
+/**
+ * Creates CoverImage node related to a talk from image file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ */
+exports.createTalkCoverImageNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node
+) => {
+  const { name } = node;
+  if (name === 'placeholder') return;
+  const id = createNodeId(`cover-image/talks/${name}`);
+  createCoverImageNode(createNode, createContentDigest, node, id);
 };
