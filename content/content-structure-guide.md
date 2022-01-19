@@ -140,7 +140,7 @@ This property let's us disable the intention for users to send contributions for
 
 #### Related challenges
 
-This property let's us link challenges to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page.
+This property let's us link challenges to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
 
 #### Code examples
 
