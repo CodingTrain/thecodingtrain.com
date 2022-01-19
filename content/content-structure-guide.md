@@ -1,6 +1,6 @@
 # Content structure guide for The Coding Train team
 
-_Last update: January 10th 2022_
+_Last update: January 19th 2022_
 
 On december 3rd 2021, we decided to start adding real content to this project. This guide serves as a way to understand how the workflow feels and if the content structure may need to be changed.
 
@@ -29,7 +29,7 @@ content
    └─ side-tracks
 ```
 
-**Note**: At the moment of writing this guide, only the files contained in `content/videos/challenges` and `content/videos/guest-tutorials` really follow the structure and descriptions that gets explained in the rest of this guide. The files contained in those folders were created based on the existing videos in the site, so they should also be good examples for you on how to add similar content. Feel free to delete all folders and files in `content/videos/lessons`, `content/tracks/main-tracks` and `content/tracks/side-tracks`; as these were created as dummy examples and not to represent a real videos.
+**Note**: At the moment of writing this guide, only the files contained in `content/videos/challenges` and `content/videos/guest-tutorials` really follow the structure and descriptions that gets explained in the rest of this guide. The files contained in those folders were created based on the existing videos in the site, so they should also be good examples for you on how to add similar content. Feel free to delete all folders and files in `content/videos/lessons`, `content/tracks/main-tracks` and `content/tracks/side-tracks`; as these were created as dummy examples and not to represent a real data.
 
 ## Videos
 
@@ -75,6 +75,7 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
+  "relatedChallenges": ["challenge-1-slug", "challenge-2-slug"]
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },
@@ -136,6 +137,10 @@ If `"languages"` or `"topics"` aren't set, they will default to an empty array.
 #### Contributions enabling
 
 This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and challenges to `true`.
+
+#### Related challenges
+
+This property let's us link challenges to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page.
 
 #### Code examples
 
@@ -309,14 +314,14 @@ On the other hand, the `tracks/[main|side]-tracks/placeholder.[png|jpg]` images 
 Because of the amount of videos, the `lessons`, `challenges` and `guest-tutorials` folders may get very populated very quickly which can make file organization hard to query and maintain.
 
 To help against that, video folder definitions can be further organized in arbitrary nested folders in any fashion that make sense to the content maintainers.
-When doing this, tracks that reference videos in nested folders must use the whole relative path to specifically reference the video instead of just using the folder slug.
+When doing this, tracks and videos that reference videos in nested folders must use the whole relative path to specifically reference the video instead of just using the folder slug.
 
 For instance, lessons may be organized based on the tracks and chapters that define them:
 
 ```
 lessons
 ├─ placeholder.[png|jpg]
-└─ track
+└─ track-name
    ├─ chapter-1
    │  ├─ lesson-1-slug
    │  │  ├─ index.json
@@ -350,15 +355,15 @@ To reference it in a main track, the relative paths from `lessons` should be use
     {
       "title": "First chapter title",
       "lessons": [
-        "track/chapter-1/lesson-1-slug",
-        "track/chapter-1/lesson-2-slug"
+        "track-name/chapter-1/lesson-1-slug",
+        "track-name/chapter-1/lesson-2-slug"
       ]
     },
     {
       "title": "Second chapter title",
       "lessons": [
-        "track/chapter-2/lesson-3-slug",
-        "track/chapter-2/lesson-4-slug"
+        "track-name/chapter-2/lesson-3-slug",
+        "track-name/chapter-2/lesson-4-slug"
       ]
     }
   ]
@@ -372,7 +377,7 @@ While in side tracks, the relative path from `videos` should be used:
   "title": "Side track title",
   "description": "Side track description",
   "videos": [
-    "lessons/track/chapter-1/lesson-1-slug",
+    "lessons/track-name/chapter-1/lesson-1-slug",
     "challenges/video-2-slug",
     "guest-tutorials/video-3-slug"
   ]
