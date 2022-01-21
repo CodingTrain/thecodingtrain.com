@@ -8,7 +8,7 @@ const mainTrack = {
   name: 'main track',
   getSlugs: (track) => {
     let slugs = [];
-    track.chapters.forEach((chapter) => {
+    (track.chapters ?? []).forEach((chapter) => {
       slugs = [...slugs, ...chapter.lessons];
     });
     return slugs;
@@ -17,7 +17,7 @@ const mainTrack = {
 };
 const sideTrack = {
   name: 'side track',
-  getSlugs: (track) => track.videos,
+  getSlugs: (track) => track.videos ?? [],
   relativePath: '../content/videos'
 };
 
