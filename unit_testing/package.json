@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Unit testing of Coding Train website.",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testv": "jest --verbose"
   },
   "author": "fdoflorenzano",
   "license": "MIT",
@@ -15,7 +16,6 @@
   "dependencies": {},
   "jest": {
     "bail": 0,
-    "verbose": true,
     "setupFilesAfterEnv": [
       "jest-extended/all"
     ]

@@ -89,7 +89,6 @@ const testContentFormat = (json, format, path) => {
 };
 
 const compareJsonFileFormat = (dir, reference, folder) => {
-  // console.log({ reference, folder });
   if (folder === undefined) return;
   let testLocally = true;
   if (
@@ -105,6 +104,7 @@ const compareJsonFileFormat = (dir, reference, folder) => {
         if (file !== '') {
           test(`File ${dir}/${file} can be loaded as JSON`, () =>
             expect(() => require(`${dir}/${file}`)).not.toThrowError());
+          let canLoad;
           try {
             require(`${dir}/${file}`);
             canLoad = true;

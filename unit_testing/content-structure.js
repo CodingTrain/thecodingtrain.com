@@ -1,11 +1,17 @@
 const {
-  video,
-  mainTrack,
-  sideTrack,
-  contribution,
-  talk,
-  collaborators
+  video: videoFormat,
+  mainTrack: mainTrackFormat,
+  sideTrack: sideTrackFormat,
+  contribution: contributionFormat,
+  talk: talkFormat,
+  collaborators: collaboratorsFormat
 } = require('./file-formats.js');
+
+const {
+  video: videoSlugReferences,
+  mainTrack: mainTrackSlugReference,
+  sideTrack: sideTrackSlugReference
+} = require('./slug-references.js');
 
 const contentStructure = {
   folders: {
@@ -17,7 +23,7 @@ const contentStructure = {
               folders: {
                 contributions: {
                   files: {
-                    '': { isRequired: false, jsonFormat: contribution }
+                    '': { isRequired: false, jsonFormat: contributionFormat }
                   },
                   folder: {},
                   isRequired: false,
@@ -33,7 +39,11 @@ const contentStructure = {
                 }
               },
               files: {
-                'index.json': { isRequired: true, jsonFormat: video },
+                'index.json': {
+                  isRequired: true,
+                  jsonFormat: videoFormat,
+                  slugReferences: videoSlugReferences
+                },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
               },
@@ -63,7 +73,7 @@ const contentStructure = {
               folders: {
                 contributions: {
                   files: {
-                    '': { isRequired: false, jsonFormat: contribution }
+                    '': { isRequired: false, jsonFormat: contributionFormat }
                   },
                   folder: {},
                   isRequired: false,
@@ -79,7 +89,11 @@ const contentStructure = {
                 }
               },
               files: {
-                'index.json': { isRequired: true, jsonFormat: video },
+                'index.json': {
+                  isRequired: true,
+                  jsonFormat: videoFormat,
+                  slugReferences: videoSlugReferences
+                },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
               },
@@ -109,7 +123,7 @@ const contentStructure = {
               folders: {
                 contributions: {
                   files: {
-                    '': { isRequired: false, jsonFormat: contribution }
+                    '': { isRequired: false, jsonFormat: contributionFormat }
                   },
                   folder: {},
                   isRequired: false,
@@ -125,7 +139,11 @@ const contentStructure = {
                 }
               },
               files: {
-                'index.json': { isRequired: true, jsonFormat: video },
+                'index.json': {
+                  isRequired: true,
+                  jsonFormat: videoFormat,
+                  slugReferences: videoSlugReferences
+                },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
               },
@@ -162,7 +180,11 @@ const contentStructure = {
             '': {
               folders: {},
               files: {
-                'index.json': { isRequired: true, jsonFormat: mainTrack },
+                'index.json': {
+                  isRequired: true,
+                  jsonFormat: mainTrackFormat,
+                  slugReferences: mainTrackSlugReference
+                },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
               },
@@ -190,7 +212,11 @@ const contentStructure = {
             '': {
               folders: {},
               files: {
-                'index.json': { isRequired: true, jsonFormat: sideTrack },
+                'index.json': {
+                  isRequired: true,
+                  jsonFormat: sideTrackFormat,
+                  slugReferences: sideTrackSlugReference
+                },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
               },
@@ -228,14 +254,14 @@ const contentStructure = {
     },
     talks: {
       folders: {},
-      files: { '': { isRequired: false, jsonFormat: talk } },
+      files: { '': { isRequired: false, jsonFormat: talkFormat } },
       isFileSensitive: false,
       isFolderSensitive: true,
       isRequired: true
     }
   },
   files: {
-    'collaborators.json': { isRequired: true, jsonFormat: collaborators },
+    'collaborators.json': { isRequired: true, jsonFormat: collaboratorsFormat },
     'content-structure-guide.md': { isRequired: false }
   },
   isFileSensitive: true,
