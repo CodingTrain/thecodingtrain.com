@@ -262,7 +262,8 @@ const contentStructure = {
   },
   files: {
     'collaborators.json': { isRequired: true, jsonFormat: collaboratorsFormat },
-    'content-structure-guide.md': { isRequired: false }
+    'content-structure-guide.md': { isRequired: false },
+    'styleguide.md': { isRequired: false }
   },
   isFileSensitive: true,
   isFolderSensitive: true,
