@@ -1,38 +1,40 @@
-const requiredPropertyError = (property, name) => {
-  const e = new Error(
-    `Required property '${property}' not present in ${name} object`
-  );
-  e.name = 'RequiredPropertyError';
-  return e;
-};
+class MyError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = this.constructor.name;
+  }
+}
+class RequiredPropertyError extends MyError {
+  constructor(property, objectName) {
+    super(
+      `Required property '${property}' not present in ${objectName} object`
+    );
+  }
+}
 
-const unexpectedPropertyError = (property, name) => {
-  const e = new Error(
-    `Property '${property}' in ${name} object isn't expected.`
-  );
-  e.name = 'UnexpectedPropertyError';
-  return e;
-};
-
-const typePropertyError = (property, name, expectedType, type) => {
-  const e = new Error(
-    `Type of value for '${property}' property doesn't match for ${name} object. Expected ${expectedType}, but got ${type}.`
-  );
-  e.name = 'TypePropertyError';
-  return e;
-};
-
-const typeArrayContentError = (property, name, expectedType, type) => {
-  const e = new Error(
-    `Type of value inside array '${property}' property doesn't match in ${name} object. Expected ${expectedType}, but got ${type}.`
-  );
-  e.name = 'TypeArrayContentError';
-  return e;
-};
+class UnexpectedPropertyError extends MyError {
+  constructor(property, objectName) {
+    super(`Property '${property}' in ${objectName} object isn't expected.`);
+  }
+}
+class TypePropertyError extends MyError {
+  constructor(property, objectName, type, expectedType) {
+    super(
+      `Type of value for '${property}' property doesn't match for ${objectName} object. Expected ${expectedType}, but got ${type}.`
+    );
+  }
+}
+class TypeArrayContentError extends MyError {
+  constructor(property, objectName, type, expectedType) {
+    super(
+      `Type of value inside array '${property}' property doesn't match in ${objectName} object. Expected ${expectedType}, but got ${type}.`
+    );
+  }
+}
 
 module.exports = {
-  requiredPropertyError,
-  unexpectedPropertyError,
-  typePropertyError,
-  typeArrayContentError
+  RequiredPropertyError,
+  UnexpectedPropertyError,
+  TypePropertyError,
+  TypeArrayContentError
 };

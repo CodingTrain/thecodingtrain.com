@@ -1,10 +1,10 @@
 const { getDirectoryContent } = require('./read-content-utils');
 const { contentStructure } = require('./content-structure');
 const {
-  requiredPropertyError,
-  unexpectedPropertyError,
-  typePropertyError,
-  typeArrayContentError
+  RequiredPropertyError,
+  UnexpectedPropertyError,
+  TypePropertyError,
+  TypeArrayContentError
 } = require('./errors');
 
 const content = getDirectoryContent('../content');
@@ -15,22 +15,22 @@ const checkPropertiesMatch = (object, reference, name) => {
       reference.properties[property].isRequired &&
       object[property] === undefined
     ) {
-      throw requiredPropertyError(property, name);
+      throw new RequiredPropertyError(property, name);
     }
   }
   for (let property in object) {
     if (reference.properties[property] === undefined) {
-      throw unexpectedPropertyError(property, name);
+      throw new UnexpectedPropertyError(property, name);
     } else {
       const referenceType = reference.properties[property].type;
 
       if (referenceType === 'array') {
         if (!Array.isArray(object[property])) {
-          throw typePropertyError(
+          throw new TypePropertyError(
             property,
             name,
-            referenceType,
-            typeof object[property]
+            typeof object[property],
+            referenceType
           );
         }
         const arrayValue = object[property];
@@ -38,11 +38,11 @@ const checkPropertiesMatch = (object, reference, name) => {
           reference.properties[property].content.type;
         for (let v of arrayValue) {
           if (typeof v !== contentReferenceType) {
-            throw typeArrayContentError(
+            throw new TypeArrayContentError(
               property,
               name,
-              contentReferenceType,
-              typeof v
+              typeof v,
+              contentReferenceType
             );
           }
           if (contentReferenceType === 'object') {
@@ -55,11 +55,11 @@ const checkPropertiesMatch = (object, reference, name) => {
         }
       } else if (referenceType === 'object') {
         if (typeof object[property] !== referenceType) {
-          throw typePropertyError(
+          throw new TypePropertyError(
             property,
             name,
-            referenceType,
-            typeof object[property]
+            typeof object[property],
+            referenceType
           );
         }
         checkPropertiesMatch(
@@ -69,11 +69,11 @@ const checkPropertiesMatch = (object, reference, name) => {
         );
       } else {
         if (typeof object[property] !== referenceType) {
-          throw typePropertyError(
+          throw new TypePropertyError(
             property,
             name,
-            referenceType,
-            typeof object[property]
+            typeof object[property],
+            referenceType
           );
         }
       }
