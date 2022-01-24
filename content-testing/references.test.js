@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { getDirectoryContent } = require('./read-content-utils');
 const { contentStructure } = require('./content-structure');
-const content = getDirectoryContent('../content');
+const content = getDirectoryContent('./content');
 
 const checkSlugReferences = (dir, reference, folder) => {
   if (folder === undefined) return;
@@ -21,13 +21,13 @@ const checkSlugReferences = (dir, reference, folder) => {
         if (file !== '') {
           let canLoad;
           try {
-            require(`${dir}/${file}`);
+            require(`../${dir}/${file}`);
             canLoad = true;
           } catch {
             canLoad = false;
           }
           if (canLoad) {
-            const fileContent = require(`${dir}/${file}`);
+            const fileContent = require(`../${dir}/${file}`);
             const slugs = slugReferences.getSlugs(fileContent);
             for (let slug of slugs) {
               test(`Checking slug ${slug} in ${
@@ -46,13 +46,13 @@ const checkSlugReferences = (dir, reference, folder) => {
             if (folderFile.endsWith('.json')) {
               let canLoad;
               try {
-                require(`${dir}/${folderFile}`);
+                require(`../${dir}/${folderFile}`);
                 canLoad = true;
               } catch {
                 canLoad = false;
               }
               if (canLoad) {
-                const fileContent = require(`${dir}/${folderFile}`);
+                const fileContent = require(`../${dir}/${folderFile}`);
                 const slugs = slugReferences.getSlugs(fileContent);
                 for (let slug of slugs) {
                   test(`Checking slug ${slug} in ${
@@ -106,4 +106,4 @@ const checkSlugReferences = (dir, reference, folder) => {
 };
 
 describe('Check if slug references exists', () =>
-  checkSlugReferences('../content', contentStructure, content));
+  checkSlugReferences('./content', contentStructure, content));

@@ -1,7 +1,7 @@
 const { getDirectoryContent } = require('./read-content-utils');
 const { contentStructure } = require('./content-structure');
 
-const content = getDirectoryContent('../content');
+const content = getDirectoryContent('./content');
 
 const fileExceptions = ['.DS_Store'];
 

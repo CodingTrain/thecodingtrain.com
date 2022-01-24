@@ -7,7 +7,7 @@ const {
   TypeArrayContentError
 } = require('./errors');
 
-const content = getDirectoryContent('../content');
+const content = getDirectoryContent('./content');
 
 const checkPropertiesMatch = (object, reference, name) => {
   for (let property in reference.properties) {
@@ -103,16 +103,16 @@ const compareJsonFileFormat = (dir, reference, folder) => {
       if (reference.files[file].jsonFormat !== undefined) {
         if (file !== '') {
           test(`File ${dir}/${file} can be loaded as JSON`, () =>
-            expect(() => require(`${dir}/${file}`)).not.toThrowError());
+            expect(() => require(`../${dir}/${file}`)).not.toThrowError());
           let canLoad;
           try {
-            require(`${dir}/${file}`);
+            require(`../${dir}/${file}`);
             canLoad = true;
           } catch {
             canLoad = false;
           }
           if (canLoad) {
-            const fileContent = require(`${dir}/${file}`);
+            const fileContent = require(`../${dir}/${file}`);
             testContentFormat(
               fileContent,
               reference.files[file].jsonFormat,
@@ -125,17 +125,17 @@ const compareJsonFileFormat = (dir, reference, folder) => {
               // console.log({ dir, folderFile });
               test(`File ${dir}/${folderFile} can be loaded as JSON`, () =>
                 expect(() =>
-                  require(`${dir}/${folderFile}`)
+                  require(`../${dir}/${folderFile}`)
                 ).not.toThrowError());
               let canLoad;
               try {
-                require(`${dir}/${folderFile}`);
+                require(`../${dir}/${folderFile}`);
                 canLoad = true;
               } catch {
                 canLoad = false;
               }
               if (canLoad) {
-                const fileContent = require(`${dir}/${folderFile}`);
+                const fileContent = require(`../${dir}/${folderFile}`);
                 testContentFormat(
                   fileContent,
                   reference.files[file].jsonFormat,
@@ -179,4 +179,4 @@ const compareJsonFileFormat = (dir, reference, folder) => {
 };
 
 describe('Check if JSON file content fits format', () =>
-  compareJsonFileFormat('../content', contentStructure, content));
+  compareJsonFileFormat('./content', contentStructure, content));

@@ -1,7 +1,7 @@
 const video = {
   name: 'video',
   getSlugs: (video) => video.relatedChallenges ?? [],
-  relativePath: '../content/videos/challenges'
+  relativePath: './content/videos/challenges'
 };
 
 const mainTrack = {
@@ -13,12 +13,12 @@ const mainTrack = {
     });
     return slugs;
   },
-  relativePath: '../content/videos/lessons'
+  relativePath: './content/videos/lessons'
 };
 const sideTrack = {
   name: 'side track',
   getSlugs: (track) => track.videos ?? [],
-  relativePath: '../content/videos'
+  relativePath: './content/videos'
 };
 
 module.exports = {

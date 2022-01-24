@@ -1,7 +1,7 @@
 const { getDirectoryContent } = require('./read-content-utils');
 const { contentStructure } = require('./content-structure');
 
-const content = getDirectoryContent('../content');
+const content = getDirectoryContent('./content');
 
 const compareFolderStructure = (dir, reference, folder) => {
   if (reference.isRequired) {
@@ -53,4 +53,4 @@ const compareFolderStructure = (dir, reference, folder) => {
 };
 
 describe('Check folder structure', () =>
-  compareFolderStructure('../content', contentStructure, content));
+  compareFolderStructure('./content', contentStructure, content));

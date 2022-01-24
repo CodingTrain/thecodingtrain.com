@@ -11,7 +11,9 @@
     "dev": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "jest",
+    "testv": "jest --verbose"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -43,6 +45,14 @@
     "react-youtube": "^7.13.1"
   },
   "devDependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "jest": "^27.4.5",
+    "jest-extended": "^1.2.0"
+  },
+  "jest": {
+    "bail": 0,
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ]
   }
 }
