@@ -37,7 +37,7 @@ Videos on one hand can be divided in three specific flavors with distinct object
 
 - **Lessons** tackle specific themes and are part of a sequence of lessons (main tracks)
 - **Guest tutorials** are one-off lessons on different subjects given by guests lecturers
-- **Challenges** are also one-off videos with the intention of inviting viewers to send contributions based on the challenge or coding experiment.
+- **Challenges** are also one-off videos with the intention of inviting viewers to send contributions based on the journey or coding experiment.
 
 Each video, whatever flavor of video they are, follow a similar folder structure:
 
@@ -75,7 +75,7 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
-  "relatedChallenges": ["challenge-1-slug", "challenge-2-slug"]
+  "relatedChallenges": ["journey-1-slug", "journey-2-slug"]
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },
@@ -140,7 +140,11 @@ This property let's us disable the intention for users to send contributions for
 
 #### Related journeys
 
+<<<<<<< HEAD
 This property let's us link journeys to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
+=======
+This property let's us link journeys to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a journey to correctly reference it. If it's not defined or is left empty, then no journey panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
+>>>>>>> 5988884 (Renamed coding challenges to coding journeys)
 
 #### Code examples
 
@@ -266,7 +270,7 @@ For main tracks, the required property to define the collection is `"chapters"`.
 }
 ```
 
-For side tracks, the required property is `"videos"`, which is a plain video sequence array. In this case, a path like notation should be used as to clarify if the slug being added for each video is a lesson, challenge or guest tutorial:
+For side tracks, the required property is `"videos"`, which is a plain video sequence array. In this case, a path like notation should be used as to clarify if the slug being added for each video is a lesson, journey or guest tutorial:
 
 ```json
 {
