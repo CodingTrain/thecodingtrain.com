@@ -22,14 +22,14 @@ The rationale behind the current structure is that videos are the building block
 content
 ├─ videos
 │  ├─ lessons
-│  ├─ challenges
+│  ├─ journeys
 │  └─ guest-tutorials
 └─ tracks
    ├─ main-tracks
    └─ side-tracks
 ```
 
-**Note**: At the moment of writing this guide, only the files contained in `content/videos/challenges` and `content/videos/guest-tutorials` really follow the structure and descriptions that gets explained in the rest of this guide. The files contained in those folders were created based on the existing videos in the site, so they should also be good examples for you on how to add similar content. Feel free to delete all folders and files in `content/videos/lessons`, `content/tracks/main-tracks` and `content/tracks/side-tracks`; as these were created as dummy examples and not to represent a real data.
+**Note**: At the moment of writing this guide, only the files contained in `content/videos/journeys` and `content/videos/guest-tutorials` really follow the structure and descriptions that gets explained in the rest of this guide. The files contained in those folders were created based on the existing videos in the site, so they should also be good examples for you on how to add similar content. Feel free to delete all folders and files in `content/videos/lessons`, `content/tracks/main-tracks` and `content/tracks/side-tracks`; as these were created as dummy examples and not to represent a real data.
 
 ## Videos
 
@@ -42,7 +42,7 @@ Videos on one hand can be divided in three specific flavors with distinct object
 Each video, whatever flavor of video they are, follow a similar folder structure:
 
 ```
-[lessons|challenges|guest-tutorials]
+[lessons|journeys|guest-tutorials]
 └─ video-slug
    ├─ index.json
    ├─ src
@@ -136,11 +136,11 @@ If `"languages"` or `"topics"` aren't set, they will default to an empty array.
 
 #### Contributions enabling
 
-This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and challenges to `true`.
+This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and journeys to `true`.
 
-#### Related challenges
+#### Related journeys
 
-This property let's us link challenges to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
+This property let's us link journeys to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
 
 #### Code examples
 
@@ -190,7 +190,7 @@ Similar to the current one,
 We also currently support the addition of images related to videos and their contributions to use in the website.
 
 ```
-[lessons|challenges|guest-tutorials]
+[lessons|journeys|guest-tutorials]
 ├─ placeholder.[png|jpg]
 └─ video-slug
    ├─ index.json
@@ -221,7 +221,7 @@ On the other hand, tracks come in two types: main and side tracks.
 **Main tracks** are the core and principal courses available in the coding train, which seek to teach a big theme of multiple lessons. Main tracks also are composed of a sequence of chapters,
 where each one is further composed of a sequence of **lessons**.
 
-**Side tracks** are curated collection of **videos** from potentially different contexts that relate on a connecting theme. Side tracks are a simple sequence of videos, and therefore can contain either lessons from main tracks, challenges and guest tutorials.
+**Side tracks** are curated collection of **videos** from potentially different contexts that relate on a connecting theme. Side tracks are a simple sequence of videos, and therefore can contain either lessons from main tracks, journeys and guest tutorials.
 
 The current setup is similar to `videos/`, where there's separate folders for main and side tracks, and inside those individual folders per track.
 
@@ -274,7 +274,7 @@ For side tracks, the required property is `"videos"`, which is a plain video seq
   "description": "Side track description",
   "videos": [
     "lessons/video-1-slug",
-    "challenges/video-2-slug",
+    "journeys/video-2-slug",
     "guest-tutorials/video-3-slug"
   ]
 }
@@ -311,7 +311,7 @@ On the other hand, the `tracks/[main|side]-tracks/placeholder.[png|jpg]` images 
 
 ### Nested folders in video folders
 
-Because of the amount of videos, the `lessons`, `challenges` and `guest-tutorials` folders may get very populated very quickly which can make file organization hard to query and maintain.
+Because of the amount of videos, the `lessons`, `journeys` and `guest-tutorials` folders may get very populated very quickly which can make file organization hard to query and maintain.
 
 To help against that, video folder definitions can be further organized in arbitrary nested folders in any fashion that make sense to the content maintainers.
 When doing this, tracks and videos that reference videos in nested folders must use the whole relative path to specifically reference the video instead of just using the folder slug.
@@ -378,10 +378,10 @@ While in side tracks, the relative path from `videos` should be used:
   "description": "Side track description",
   "videos": [
     "lessons/track-name/chapter-1/lesson-1-slug",
-    "challenges/video-2-slug",
+    "journeys/video-2-slug",
     "guest-tutorials/video-3-slug"
   ]
 }
 ```
 
-This can be done with the three main video folders: `lessons`, `challenges` and `guest-tutorials`.
+This can be done with the three main video folders: `lessons`, `journeys` and `guest-tutorials`.
