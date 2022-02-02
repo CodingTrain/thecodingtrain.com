@@ -125,7 +125,7 @@ export const query = graphql`
         }
         chapters {
           title
-          lessons {
+          videos {
             languages
             topics
             title

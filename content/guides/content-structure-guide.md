@@ -75,7 +75,7 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
-  "relatedChallenges": ["journey-1-slug", "journey-2-slug"]
+  "relatedJourneys": ["journey-1-slug", "journey-2-slug"]
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },

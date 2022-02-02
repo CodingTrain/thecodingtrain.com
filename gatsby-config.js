@@ -71,30 +71,34 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'lessons',
-        path: './content/videos/lessons',
-        ignore: [`./**/src`]
+        name: 'videos',
+        path: './content/videos',
+        ignore: [
+          './**/src',
+          './**/videos/journeys/**/*',
+          './**/videos/guest-tutorials/**/*'
+        ]
       },
-      __key: 'lessons'
+      __key: 'videos'
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'challenges',
-        path: './content/videos/challenges',
+        name: 'journeys',
+        path: './content/videos/journeys',
         ignore: [`./**/src`]
       },
-      __key: 'challenges'
+      __key: 'journeys'
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'guest-tutorials',
-        path: './content/videos/guest-tutorials',
-        ignore: [`./**/src`]
-      },
-      __key: 'guest-tutorials'
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'guest-tutorials',
+    //     path: './content/videos/guest-tutorials',
+    //     ignore: [`./**/src`]
+    //   },
+    //   __key: 'guest-tutorials'
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -111,14 +115,14 @@ module.exports = {
       },
       __key: 'side-tracks'
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'talks',
-        path: './content/talks'
-      },
-      __key: 'talks'
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'talks',
+    //     path: './content/talks'
+    //   },
+    //   __key: 'talks'
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

@@ -48,7 +48,7 @@ const Challenge = ({ data }) => {
         contributions={challenge.contributions}
         placeholderImage={contributionsPlaceholder}
       />
-      {challenge.relatedChallenges.length > 0 && (
+      {challenge.relatedJourneys.length > 0 && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -59,7 +59,7 @@ const Challenge = ({ data }) => {
             offset={0.7}
           />
           <ChallengesPanel
-            challenges={challenge.relatedChallenges}
+            challenges={challenge.relatedJourneys}
             placeholderImage={challengesPlaceholder}
           />
         </>
@@ -71,11 +71,10 @@ const Challenge = ({ data }) => {
 
 export const query = graphql`
   query ($id: String, $slug: String) {
-    challenge(id: { eq: $id }) {
+    challenge: journey(id: { eq: $id }) {
       title
       slug
       videoId
-      contributionsPath
       description
       languages
       topics
@@ -115,11 +114,10 @@ export const query = graphql`
           }
         }
       }
-      relatedChallenges {
+      relatedJourneys {
         title
         slug
         videoId
-        contributionsPath
         description
         date
         cover {
@@ -147,7 +145,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "challenges" }
+        sourceInstanceName: { eq: "journeys" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

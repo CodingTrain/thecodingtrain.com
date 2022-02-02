@@ -3,10 +3,10 @@
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createChallengePages = async (graphql, createPage) => {
+exports.createJourneyPages = async (graphql, createPage) => {
   const { data } = await graphql(`
     query {
-      challenges: allChallenge {
+      challenges: allJourney {
         nodes {
           id
           slug
@@ -48,7 +48,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
             source
           }
           chapters {
-            lessons {
+            videos {
               id
               slug
               source
@@ -58,13 +58,12 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
       }
     }
   `);
-
   data.tracks.nodes.forEach((track) => {
     // Determine the corresponding first video of the track
-    // Main => First chapter's first lesson
+    // Main => First chapter's first video
     // Side => First video
     const firstVideo =
-      track.type === 'main' ? track.chapters[0].lessons[0] : track.videos[0];
+      track.type === 'main' ? track.chapters[0].videos[0] : track.videos[0];
 
     // Create track intro page with first video
 
@@ -80,21 +79,21 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         trackPosition: { chapterIndex: 0, videoIndex: 0 }
       }
     });
-    // For a main track, each lesson has it's own URL and page
+    // For a main track, each video has it's own URL and page
     // Context is passed so that front-end correctly loads related data
     if (track.type === 'main') {
       track.chapters.forEach((chapter, chapterIndex) => {
-        chapter.lessons.forEach((lesson, lessonIndex) => {
+        chapter.videos.forEach((video, videoIndex) => {
           createPage({
-            path: `tracks/${track.slug}/${lesson.slug}`,
+            path: `tracks/${track.slug}/${video.slug}`,
             component: require.resolve(`../src/templates/track-video.js`),
             context: {
               isTrackPage: false,
               trackId: track.id,
-              videoId: lesson.id,
-              videoSlug: lesson.slug,
-              source: lesson.source,
-              trackPosition: { chapterIndex, videoIndex: lessonIndex }
+              videoId: video.id,
+              videoSlug: video.slug,
+              source: video.source,
+              trackPosition: { chapterIndex, videoIndex: videoIndex }
             }
           });
         });
