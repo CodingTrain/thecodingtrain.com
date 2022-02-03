@@ -1,7 +1,7 @@
 const video = {
   name: 'video',
-  getSlugs: (video) => video.relatedChallenges ?? [],
-  relativePath: './content/videos/challenges'
+  getSlugs: (video) => video.relatedJourneys ?? [],
+  relativePath: './content/videos/journeys'
 };
 
 const mainTrack = {
@@ -9,11 +9,11 @@ const mainTrack = {
   getSlugs: (track) => {
     let slugs = [];
     (track.chapters ?? []).forEach((chapter) => {
-      slugs = [...slugs, ...chapter.lessons];
+      slugs = [...slugs, ...chapter.videos];
     });
     return slugs;
   },
-  relativePath: './content/videos/lessons'
+  relativePath: './content/videos'
 };
 const sideTrack = {
   name: 'side track',

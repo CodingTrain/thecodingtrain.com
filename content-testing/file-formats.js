@@ -11,7 +11,7 @@ const video = {
       languages: { type: 'array', content: { type: 'string' } },
       topics: { type: 'array', content: { type: 'string' } },
       canContribute: { type: 'boolean' },
-      relatedChallenges: { type: 'array', content: { type: 'string' } },
+      relatedJourneys: { type: 'array', content: { type: 'string' } },
       timestamps: {
         type: 'array',
         content: {
@@ -82,7 +82,7 @@ const mainTrack = {
           type: 'object',
           properties: {
             title: { isRequired: true, type: 'string' },
-            lessons: {
+            videos: {
               isRequired: true,
               type: 'array',
               content: { type: 'string' }

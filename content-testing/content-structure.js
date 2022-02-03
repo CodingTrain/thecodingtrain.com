@@ -17,7 +17,7 @@ const contentStructure = {
   folders: {
     videos: {
       folders: {
-        challenges: {
+        journeys: {
           folders: {
             '': {
               folders: {
@@ -67,110 +67,102 @@ const contentStructure = {
           isFolderSensitive: false,
           isRequired: true
         },
-        lessons: {
+        '': {
           folders: {
-            '': {
-              folders: {
-                contributions: {
-                  files: {
-                    '': { isRequired: false, jsonFormat: contributionFormat }
-                  },
-                  folder: {},
-                  isRequired: false,
-                  isFileSensitive: false,
-                  isFolderSensitive: true
-                },
-                src: {
-                  files: {},
-                  folder: {},
-                  isRequired: false,
-                  isFileSensitive: false,
-                  isFolderSensitive: false
-                }
-              },
+            contributions: {
               files: {
-                'index.json': {
-                  isRequired: true,
-                  jsonFormat: videoFormat,
-                  slugReferences: videoSlugReferences
-                },
-                'index.jpg': { isRequired: false },
-                'index.png': { isRequired: false }
+                '': { isRequired: false, jsonFormat: contributionFormat }
               },
-              canBeRecursive: true,
-              isFileSensitive: true,
-              isFolderSensitive: true,
-              isRequired: false
+              folder: {},
+              isRequired: false,
+              isFileSensitive: false,
+              isFolderSensitive: true
+            },
+            src: {
+              files: {},
+              folder: {},
+              isRequired: false,
+              isFileSensitive: false,
+              isFolderSensitive: false
             }
           },
           files: {
-            'placeholder.png': {
+            'index.json': {
               isRequired: true,
-              requiredAlternative: 'placeholder.jpg'
+              jsonFormat: videoFormat,
+              slugReferences: videoSlugReferences
             },
-            'placeholder.jpg': {
-              isRequired: true,
-              requiredAlternative: 'placeholder.png'
-            }
+            'index.jpg': { isRequired: false },
+            'index.png': { isRequired: false }
           },
+          canBeRecursive: true,
           isFileSensitive: true,
-          isFolderSensitive: false,
-          isRequired: true
+          isFolderSensitive: true,
+          isRequired: false
+        }
+        // 'guest-tutorials': {
+        //   folders: {
+        //     '': {
+        //       folders: {
+        //         contributions: {
+        //           files: {
+        //             '': { isRequired: false, jsonFormat: contributionFormat }
+        //           },
+        //           folder: {},
+        //           isRequired: false,
+        //           isFileSensitive: false,
+        //           isFolderSensitive: true
+        //         },
+        //         src: {
+        //           files: {},
+        //           folder: {},
+        //           isRequired: false,
+        //           isFileSensitive: false,
+        //           isFolderSensitive: false
+        //         }
+        //       },
+        //       files: {
+        //         'index.json': {
+        //           isRequired: true,
+        //           jsonFormat: videoFormat,
+        //           slugReferences: videoSlugReferences
+        //         },
+        //         'index.jpg': { isRequired: false },
+        //         'index.png': { isRequired: false }
+        //       },
+        //       canBeRecursive: true,
+        //       isFileSensitive: true,
+        //       isFolderSensitive: true,
+        //       isRequired: false
+        //     }
+        //   },
+        //   files: {
+        //     'placeholder.png': {
+        //       isRequired: true,
+        //       requiredAlternative: 'placeholder.jpg'
+        //     },
+        //     'placeholder.jpg': {
+        //       isRequired: true,
+        //       requiredAlternative: 'placeholder.png'
+        //     }
+        //   },
+        //   isFileSensitive: true,
+        //   isFolderSensitive: false,
+        //   isRequired: true
+        // }
+      },
+      files: {
+        'placeholder.png': {
+          isRequired: true,
+          requiredAlternative: 'placeholder.jpg'
         },
-        'guest-tutorials': {
-          folders: {
-            '': {
-              folders: {
-                contributions: {
-                  files: {
-                    '': { isRequired: false, jsonFormat: contributionFormat }
-                  },
-                  folder: {},
-                  isRequired: false,
-                  isFileSensitive: false,
-                  isFolderSensitive: true
-                },
-                src: {
-                  files: {},
-                  folder: {},
-                  isRequired: false,
-                  isFileSensitive: false,
-                  isFolderSensitive: false
-                }
-              },
-              files: {
-                'index.json': {
-                  isRequired: true,
-                  jsonFormat: videoFormat,
-                  slugReferences: videoSlugReferences
-                },
-                'index.jpg': { isRequired: false },
-                'index.png': { isRequired: false }
-              },
-              canBeRecursive: true,
-              isFileSensitive: true,
-              isFolderSensitive: true,
-              isRequired: false
-            }
-          },
-          files: {
-            'placeholder.png': {
-              isRequired: true,
-              requiredAlternative: 'placeholder.jpg'
-            },
-            'placeholder.jpg': {
-              isRequired: true,
-              requiredAlternative: 'placeholder.png'
-            }
-          },
-          isFileSensitive: true,
-          isFolderSensitive: false,
-          isRequired: true
+        'placeholder.jpg': {
+          isRequired: true,
+          requiredAlternative: 'placeholder.png'
         }
       },
-      files: {},
       isFileSensitive: true,
-      isFolderSensitive: true,
+      isFolderSensitive: false,
       isRequired: true
     },
     tracks: {
@@ -251,19 +243,17 @@ const contentStructure = {
       isFileSensitive: false,
       isFolderSensitive: true,
       isRequired: true
-    },
-    talks: {
-      folders: {},
-      files: { '': { isRequired: false, jsonFormat: talkFormat } },
-      isFileSensitive: false,
-      isFolderSensitive: true,
-      isRequired: true
     }
+    // talks: {
+    //   folders: {},
+    //   files: { '': { isRequired: false, jsonFormat: talkFormat } },
+    //   isFileSensitive: false,
+    //   isFolderSensitive: true,
+    //   isRequired: true
+    // }
   },
   files: {
-    'collaborators.json': { isRequired: true, jsonFormat: collaboratorsFormat },
-    'content-structure-guide.md': { isRequired: false },
-    'styleguide.md': { isRequired: false }
+    'collaborators.json': { isRequired: true, jsonFormat: collaboratorsFormat }
   },
   isFileSensitive: true,
   isFolderSensitive: true,
