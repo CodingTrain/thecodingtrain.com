@@ -17,7 +17,9 @@ const Challenge = ({ data }) => {
   const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
     data;
   const challengesPlaceholder =
-    challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
+    challengePlaceholderImage.nodes.length > 0
+      ? challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
   const contributionsPlaceholder =
     contributionPlaceholderImage.nodes.length > 0
       ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData

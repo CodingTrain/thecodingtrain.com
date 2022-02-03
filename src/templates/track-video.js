@@ -25,7 +25,9 @@ const Track = ({ pageContext, data }) => {
   const contributionsPlaceholder =
     contributionPlaceholderImage.nodes.length > 0
       ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
-      : videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData;
+      : videoPlaceHolderImage.nodes.length > 0
+      ? videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
   const challengesPlaceholder =
     challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
 
