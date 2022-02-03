@@ -126,7 +126,7 @@ type Author implements Node {
 
 type Chapter implements Node {
   title: String
-  videos: [Video] @link
+  videos: [VideoInterface] @link
 }
 
 type Track implements Node {
@@ -135,7 +135,7 @@ type Track implements Node {
   type: String!
   description: String!
   chapters: [Chapter] @link
-  videos: [Video] @link
+  videos: [VideoInterface] @link
   cover: CoverImage @link
   numVideos: Int!
 }
