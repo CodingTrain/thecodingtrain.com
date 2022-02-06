@@ -35,7 +35,7 @@ const Header = ({ track }) => {
                 ? `${track.chapters.length} chapters`
                 : 'Side track'
             }
-            items={[`${numVideos} video lessons`]}
+            items={[`${numVideos} videos`]}
             singleLine={false}
           />
         </div>

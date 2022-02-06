@@ -1,8 +1,6 @@
 const { schema } = require('./node-scripts/schema');
 const {
-  createLessonRelatedNode,
-  createChallengeRelatedNode,
-  createGuestTutorialRelatedNode,
+  createVideoRelatedNode,
   createTrackRelatedNode,
   createTalkRelatedNode,
   createCollaboratorNodes,
@@ -12,7 +10,7 @@ const {
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
-  createChallengePages,
+  createJourneyPages,
   createGuidePages
 } = require('./node-scripts/page-generation');
 
@@ -34,29 +32,32 @@ exports.onCreateNode = ({
     /**
       Turn JSON files into Tracks, Video and Contribution nodes
     **/
-    if (parent.sourceInstanceName === 'challenges')
-      createChallengeRelatedNode(
+    if (parent.sourceInstanceName === 'journeys')
+      createVideoRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
-        parent
+        parent,
+        'Journey'
       );
     else if (parent.sourceInstanceName === 'guest-tutorials')
-      createGuestTutorialRelatedNode(
+      createVideoRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
-        parent
+        parent,
+        'GuestTutorial'
       );
-    else if (parent.sourceInstanceName === 'lessons')
-      createLessonRelatedNode(
+    else if (parent.sourceInstanceName === 'videos')
+      createVideoRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
-        parent
+        parent,
+        'Video'
       );
     else if (
       parent.sourceInstanceName === 'main-tracks' ||
@@ -96,9 +97,9 @@ exports.onCreateNode = ({
     **/
 
     if (
-      node.sourceInstanceName === 'lessons' ||
-      node.sourceInstanceName === 'guest-lessons' ||
-      node.sourceInstanceName === 'challenges'
+      node.sourceInstanceName === 'videos' ||
+      node.sourceInstanceName === 'guest-tutorials' ||
+      node.sourceInstanceName === 'journeys'
     ) {
       createVideoCoverImageNode(
         createNode,
@@ -132,6 +133,6 @@ exports.onCreateNode = ({
 exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
-  await createChallengePages(graphql, createPage);
+  await createJourneyPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
 };

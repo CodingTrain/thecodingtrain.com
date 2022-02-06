@@ -97,7 +97,7 @@ const ChallengesPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    challenges: allChallenge {
+    challenges: allJourney {
       nodes {
         title
         slug

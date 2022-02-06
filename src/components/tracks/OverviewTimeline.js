@@ -9,21 +9,18 @@ const usePaths = (chapters, track, trackPosition) => {
   let prevVideoPath = null;
   if (
     trackPosition.chapterIndex === chapters.length - 1 &&
-    trackPosition.videoIndex ===
-      chapters[chapters.length - 1].lessons.length - 1
+    trackPosition.videoIndex === chapters[chapters.length - 1].videos.length - 1
   )
     nextVideoPath = null;
   else if (
     trackPosition.videoIndex ===
-    chapters[trackPosition.chapterIndex].lessons.length - 1
+    chapters[trackPosition.chapterIndex].videos.length - 1
   ) {
-    const video = chapters[trackPosition.chapterIndex + 1].lessons[0];
+    const video = chapters[trackPosition.chapterIndex + 1].videos[0];
     nextVideoPath = `/tracks/${track.slug}/${video.slug}`;
   } else {
     const video =
-      chapters[trackPosition.chapterIndex].lessons[
-        trackPosition.videoIndex + 1
-      ];
+      chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex + 1];
     nextVideoPath = `/tracks/${track.slug}/${video.slug}`;
   }
 
@@ -31,15 +28,13 @@ const usePaths = (chapters, track, trackPosition) => {
     prevVideoPath = null;
   else if (trackPosition.videoIndex === 0) {
     const video =
-      chapters[trackPosition.chapterIndex - 1].lessons[
-        chapters[trackPosition.chapterIndex - 1].lessons.length - 1
+      chapters[trackPosition.chapterIndex - 1].videos[
+        chapters[trackPosition.chapterIndex - 1].videos.length - 1
       ];
     prevVideoPath = `/tracks/${track.slug}/${video.slug}`;
   } else {
     const video =
-      chapters[trackPosition.chapterIndex].lessons[
-        trackPosition.videoIndex - 1
-      ];
+      chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex - 1];
     prevVideoPath = `/tracks/${track.slug}/${video.slug}`;
   }
   return [prevVideoPath, nextVideoPath];
@@ -104,13 +99,13 @@ const ChapterSection = memo(
           </button>
         )}
         {!collapsed &&
-          chapter.lessons.map((video, index) => {
+          chapter.videos.map((video, index) => {
             const { videoIndex } = trackPosition;
             const hasSeenVideo =
               hasSeenChapter || (isThisChapter && index <= videoIndex);
             const isLastVideo =
               (hasSeenChapter &&
-                index === chapters[chapterIndex].lessons.length - 1) ||
+                index === chapters[chapterIndex].videos.length - 1) ||
               (isThisChapter && index === videoIndex);
             return (
               <li

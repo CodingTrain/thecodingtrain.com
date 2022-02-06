@@ -25,7 +25,9 @@ const Track = ({ pageContext, data }) => {
   const contributionsPlaceholder =
     contributionPlaceholderImage.nodes.length > 0
       ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
-      : videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData;
+      : videoPlaceHolderImage.nodes.length > 0
+      ? videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
   const challengesPlaceholder =
     challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
 
@@ -75,7 +77,7 @@ const Track = ({ pageContext, data }) => {
           />
         </>
       )}
-      {video.relatedChallenges.length > 0 && (
+      {video.relatedJourneys.length > 0 && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -86,7 +88,7 @@ const Track = ({ pageContext, data }) => {
             offset={0.7}
           />
           <TrackChallengesPanel
-            challenges={video.relatedChallenges}
+            challenges={video.relatedJourneys}
             placeholderImage={challengesPlaceholder}
           />
         </>
@@ -118,7 +120,7 @@ export const query = graphql`
       }
       chapters {
         title
-        lessons {
+        videos {
           title
           slug
           languages
@@ -170,11 +172,10 @@ export const query = graphql`
           }
         }
       }
-      relatedChallenges {
+      relatedJourneys {
         title
         slug
         videoId
-        contributionsPath
         description
         date
         cover {
@@ -188,7 +189,7 @@ export const query = graphql`
     }
     contributionPlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { in: ["challenges", "lessons", "guest-tutorials"] }
+        sourceInstanceName: { eq: $source }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: $videoSlug }
         name: { eq: "index" }
@@ -216,7 +217,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "challenges" }
+        sourceInstanceName: { eq: "journeys" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

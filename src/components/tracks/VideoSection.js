@@ -12,9 +12,9 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
   let videoIndex = 0;
   let trackTotal = 0;
   for (let chapter = 0; chapter < chapters.length; chapter++) {
-    trackTotal += chapters[chapter].lessons.length;
+    trackTotal += chapters[chapter].videos.length;
     if (trackPosition.chapterIndex > chapter) {
-      videoIndex += chapters[chapter].lessons.length;
+      videoIndex += chapters[chapter].videos.length;
     } else if (trackPosition.chapterIndex === chapter) {
       videoIndex += trackPosition.videoIndex;
     }
@@ -24,7 +24,7 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
 
 const VideoSection = ({ track, video, trackPosition }) => {
   const chapters =
-    track.type === 'main' ? track.chapters : [{ lessons: track.videos }];
+    track.type === 'main' ? track.chapters : [{ videos: track.videos }];
   const { title, videoId, topics, languages, timestamps } = video;
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
     trackPosition,
