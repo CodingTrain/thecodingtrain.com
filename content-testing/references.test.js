@@ -30,9 +30,9 @@ const checkSlugReferences = (dir, reference, folder) => {
             const fileContent = require(`../${dir}/${file}`);
             const slugs = slugReferences.getSlugs(fileContent);
             for (let slug of slugs) {
-              test(`Checking slug ${slug} in ${
+              test(`Checking if slug "${slug}" in ${
                 slugReferences.name
-              } (${`${dir}/${file}`}) reference something`, () => {
+              } (${`${dir}/${file}`}) exists`, () => {
                 expect(() =>
                   fs.readdirSync(
                     path.join(...slugReferences.relativePath.split('/'), slug)
@@ -55,9 +55,9 @@ const checkSlugReferences = (dir, reference, folder) => {
                 const fileContent = require(`../${dir}/${folderFile}`);
                 const slugs = slugReferences.getSlugs(fileContent);
                 for (let slug of slugs) {
-                  test(`Checking slug ${slug} in ${
+                  test(`Checking if slug "${slug}" in ${
                     slugReferences.name
-                  } (${`${dir}/${folderFile}`}) reference something`, () => {
+                  } (${`${dir}/${folderFile}`}) exists`, () => {
                     expect(() =>
                       fs.readdirSync(
                         path.join(

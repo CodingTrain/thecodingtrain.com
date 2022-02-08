@@ -1,6 +1,6 @@
 # Content structure guide for The Coding Train team
 
-_Last update: January 19th 2022_
+_Last update: February 8th 2022_
 
 On december 3rd 2021, we decided to start adding real content to this project. This guide serves as a way to understand how the workflow feels and if the content structure may need to be changed.
 
@@ -21,28 +21,28 @@ The rationale behind the current structure is that videos are the building block
 ```
 content
 ├─ videos
-│  ├─ lessons
-│  ├─ journeys
-│  └─ guest-tutorials
+│  ├─ video-folder-1
+│  ├─ video-folder-2
+│  ├─ ...
+│  └─ journeys
 └─ tracks
    ├─ main-tracks
    └─ side-tracks
 ```
 
-**Note**: At the moment of writing this guide, only the files contained in `content/videos/journeys` and `content/videos/guest-tutorials` really follow the structure and descriptions that gets explained in the rest of this guide. The files contained in those folders were created based on the existing videos in the site, so they should also be good examples for you on how to add similar content. Feel free to delete all folders and files in `content/videos/lessons`, `content/tracks/main-tracks` and `content/tracks/side-tracks`; as these were created as dummy examples and not to represent a real data.
-
 ## Videos
 
-Videos on one hand can be divided in three specific flavors with distinct objectives:
+Videos tackle specific themes and are part of a sequence of videos. Each video should have their own folder inside of `content/videos/`.
 
-- **Lessons** tackle specific themes and are part of a sequence of lessons (main tracks)
-- **Guest tutorials** are one-off lessons on different subjects given by guests lecturers
-- **Challenges** are also one-off videos with the intention of inviting viewers to send contributions based on the journey or coding experiment.
+**Journeys** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to send contributions based on the challenge or coding experiment.
+This are contained **specifically** inside of `content/videos/journeys`.
+
+<!-- - **Guest tutorials** are one-off lessons on different subjects given by guests lecturers -->
 
 Each video, whatever flavor of video they are, follow a similar folder structure:
 
 ```
-[lessons|journeys|guest-tutorials]
+[videos|journeys]
 └─ video-slug
    ├─ index.json
    ├─ src
@@ -190,7 +190,7 @@ Similar to the current one,
 We also currently support the addition of images related to videos and their contributions to use in the website.
 
 ```
-[lessons|journeys|guest-tutorials]
+[videos|journeys]
 ├─ placeholder.[png|jpg]
 └─ video-slug
    ├─ index.json
@@ -218,12 +218,12 @@ Feel free to also update the current placeholder images!
 
 On the other hand, tracks come in two types: main and side tracks.
 
-**Main tracks** are the core and principal courses available in the coding train, which seek to teach a big theme of multiple lessons. Main tracks also are composed of a sequence of chapters,
-where each one is further composed of a sequence of **lessons**.
+**Main tracks** are the core and principal courses available in the coding train, which seek to teach a big theme of multiple videos. Main tracks also are composed of a sequence of chapters,
+where each one is further composed of a sequence of videos.
 
-**Side tracks** are curated collection of **videos** from potentially different contexts that relate on a connecting theme. Side tracks are a simple sequence of videos, and therefore can contain either lessons from main tracks, journeys and guest tutorials.
+**Side tracks** are curated collection of videos from potentially different contexts that relate on a connecting theme. Side tracks are a simple sequence of videos.
 
-The current setup is similar to `videos/`, where there's separate folders for main and side tracks, and inside those individual folders per track.
+The current setup separates folders for main and side tracks, and inside those individual folders per track.
 
 ```
 tracks
@@ -247,7 +247,7 @@ Each `track-slug/` folder defines a new track and contains the track metadata in
 Metadata for main and side tracks are very similar,
 they just differ in a property to define the video collection it includes. The properties `"title"` and `"description"` are all common and required to be set.
 
-For main tracks, the required property to define the collection is `"chapters"`. This defines an ordered sequence of chapters, where each is an ordered collection of lessons. Each chapter should also have a `"title"` defined. To reference specific lessons, the same slug names used for subfolders in the `videos/lessons` folder should be used.
+For main tracks, the required property to define the collection is `"chapters"`. This defines an ordered sequence of chapters, where each is an ordered collection of videos. Each chapter should also have a `"title"` defined. To reference specific video, the same slug names used for subfolders in the `videos/` folder should be used.
 
 ```json
 {
@@ -256,27 +256,23 @@ For main tracks, the required property to define the collection is `"chapters"`.
   "chapters": [
     {
       "title": "First chapter title",
-      "lessons": ["lesson-1-slug", "lesson-2-slug"]
+      "videos": ["video-1-slug", "video-2-slug"]
     },
     {
       "title": "Second chapter title",
-      "lessons": ["lesson-3-slug", "lesson-4-slug"]
+      "videos": ["video-3-slug", "video-4-slug"]
     }
   ]
 }
 ```
 
-For side tracks, the required property is `"videos"`, which is a plain video sequence array. In this case, a path like notation should be used as to clarify if the slug being added for each video is a lesson, journey or guest tutorial:
+For side tracks, the required property is `"videos"`, which is a plain video sequence array.
 
 ```json
 {
   "title": "Side track title",
   "description": "Side track description",
-  "videos": [
-    "lessons/video-1-slug",
-    "journeys/video-2-slug",
-    "guest-tutorials/video-3-slug"
-  ]
+  "videos": ["video-1-slug", "journeys/video-2-slug", "video-3-slug"]
 }
 ```
 
@@ -311,41 +307,42 @@ On the other hand, the `tracks/[main|side]-tracks/placeholder.[png|jpg]` images 
 
 ### Nested folders in video folders
 
-Because of the amount of videos, the `lessons`, `journeys` and `guest-tutorials` folders may get very populated very quickly which can make file organization hard to query and maintain.
+Because of the amount of videos, the `videos`, and `videos/journeys` folders may get very populated very quickly which can make file organization hard to query and maintain.
 
 To help against that, video folder definitions can be further organized in arbitrary nested folders in any fashion that make sense to the content maintainers.
 When doing this, tracks and videos that reference videos in nested folders must use the whole relative path to specifically reference the video instead of just using the folder slug.
 
-For instance, lessons may be organized based on the tracks and chapters that define them:
+For instance, videos may be organized based on the tracks and chapters that define them:
 
 ```
-lessons
+videos
 ├─ placeholder.[png|jpg]
+├─ journeys/
 └─ track-name
    ├─ chapter-1
-   │  ├─ lesson-1-slug
+   │  ├─ video-1-slug
    │  │  ├─ index.json
    │  │  ├─ index.[png|jpg]
    │  │  └─ contributions
    │  │     └─ ...
-   │  └─ lesson-2-slug
+   │  └─ video-2-slug
    │     ├─ index.json
    │     ├─ index.[png|jpg]
    │     └─ contributions
    │        └─ ...
    └─ chapter-2
-      ├─ lesson-3-slug
+      ├─ video-3-slug
       │  ├─ index.json
       │  ├─ index.[png|jpg]
       │  └─ contributions
       │     └─ ...
-      └─ lesson-4-slug
+      └─ video-4-slug
          └─ ...
 ```
 
-This would result in less folders directly inside of `lessons`.
+This would result in less folders directly inside of `videos`.
 
-To reference it in a main track, the relative paths from `lessons` should be used.
+To reference it in a track, the relative paths from `videos` should be used.
 
 ```json
 {
@@ -354,34 +351,43 @@ To reference it in a main track, the relative paths from `lessons` should be use
   "chapters": [
     {
       "title": "First chapter title",
-      "lessons": [
-        "track-name/chapter-1/lesson-1-slug",
-        "track-name/chapter-1/lesson-2-slug"
+      "videos": [
+        "track-name/chapter-1/video-1-slug",
+        "track-name/chapter-1/video-2-slug"
       ]
     },
     {
       "title": "Second chapter title",
-      "lessons": [
-        "track-name/chapter-2/lesson-3-slug",
-        "track-name/chapter-2/lesson-4-slug"
+      "videos": [
+        "track-name/chapter-2/video-3-slug",
+        "track-name/chapter-2/video-4-slug"
       ]
     }
   ]
 }
 ```
 
-While in side tracks, the relative path from `videos` should be used:
-
 ```json
 {
   "title": "Side track title",
   "description": "Side track description",
   "videos": [
-    "lessons/track-name/chapter-1/lesson-1-slug",
+    "track-name/chapter-1/lesson-1-slug",
     "journeys/video-2-slug",
-    "guest-tutorials/video-3-slug"
+    "video-3-slug"
   ]
 }
 ```
 
-This can be done with the three main video folders: `lessons`, `journeys` and `guest-tutorials`.
+### Testing folder structure
+
+Test scripts are added to the site that checks if all going on inside of `content/` is as expected.
+
+Both commands `npm run test` and `npm run testv` run all available tests through the directory tree. The first one will only show a summary of the testing results and all failed tests, while `testv` would also do this but also log all the individual tests done (v for verbose).
+
+Four types of tests are currently included:
+
+- Testing the folder structure inside `content/`: checks that expected folders are present and that folder's that aren't expected aren't there. This also takes into account multi-level folders for certain specific cases, like content/videos.
+- Testing file presence in each folder inside `content/`: similarly as with folders, required files are also checked to be present, and checks there aren't other not expected files.
+- Testing that all present JSON files follow expected structure for their type. Track JSON files should have certain properties, while video JSON files should have another set of properties defined.
+- Testing that all mentioned slug strings in JSON files correctly reference other existing files/folders. Hopefully this makes notice of spelling errors when referencing videos.
