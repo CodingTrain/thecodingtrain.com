@@ -128,7 +128,7 @@ export const query = graphql`
         }
       }
     }
-    video(id: { eq: $videoId }) {
+    video: videoInterface(id: { eq: $videoId }) {
       title
       slug
       videoId
