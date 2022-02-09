@@ -14,7 +14,7 @@ export const Tabs = ({ className, variant, labels, children, shareLink }) => {
   };
 
   useEffect(() => {
-    if (!isFirstRender.current) {
+    if (!isFirstRender.current && window.innerWidth < 600) {
       const tab = document.getElementById(`#component-tab-${active}`);
       tab.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
