@@ -2,10 +2,11 @@
   "title": "Slide Puzzle",
   "description": "Let's make a slide puzzle in p5.js together! We'll be using images, nested loops, and arrays, and by the end of our journey, we'll have a fully playable game!",
   "videoNumber": "165",
-  "videoId": "PbPUgyql5p4",
+  "videoId": "uQZLzhrzEs4",
   "date": "2022-01-31",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["pixels", "arrays", "game"],
+  "canContribute": true,
   "codeExamples": [
     {
       "title": "Slide Puzzle with Image",
