@@ -6,6 +6,7 @@
   "date": "2022-01-31",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["pixels", "arrays", "game"],
+  "canContribute": true,
   "codeExamples": [
     {
       "title": "Slide Puzzle with Image",
@@ -31,20 +32,20 @@
       "title": "References",
       "links": [
         {
-          "title": "Fisher-Yates Shuffle",
+          "title": "✏️ Fisher-Yates Shuffle. The Fisher-Yates shuffle is an algorithm for generating a random permutation of a finite sequence",
           "url": "https://bost.ocks.org/mike/shuffle/"
         },
         {
-          "title": "p5.js copy() reference",
+          "title": "✏️ copy(). The full details about copy() are on the p5.js reference.",
           "url": "https://p5js.org/reference/#/p5/copy"
         }
       ]
     },
     {
-      "title": "Related videos",
+      "title": "Videos",
       "links": [
         {
-          "title": "Coding Challenge 164: Bending Time Slitscan",
+          "title": "🎥  Bending Time Slitscan (Challenge 164) This video demonstrates how to use copy() for slitscan and time displacement.",
           "author": "The Coding Train",
           "url": "/challenges/164-slitscan"
         }
