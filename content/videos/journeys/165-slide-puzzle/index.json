@@ -32,21 +32,27 @@
       "title": "References",
       "links": [
         {
+          "icon": "🔢",
           "title": "Fisher-Yates Shuffle",
-          "url": "https://bost.ocks.org/mike/shuffle/"
+          "url": "https://bost.ocks.org/mike/shuffle/",
+          "description": "The Fisher-Yates shuffle is an algorithm for generating a random permutation of a finite sequence"
         },
         {
-          "title": "p5.js copy() reference",
-          "url": "https://p5js.org/reference/#/p5/copy"
+          "icon": "✏️",
+          "title": "copy()",
+          "url": "https://p5js.org/reference/#/p5/copy",
+          "description:": "The full details about copy() are on the p5.js reference."
         }
       ]
     },
     {
-      "title": "Related videos",
+      "title": "Videos",
       "links": [
         {
-          "title": "Coding Challenge 164: Bending Time Slitscan",
+          "icon": "🎥",
+          "title": "Bending Time Slitscan (Challenge 164)",
           "author": "The Coding Train",
+          "description": "This video demonstrates how to use copy() for slitscan and time displacement.",
           "url": "/challenges/164-slitscan"
         }
       ]
@@ -55,54 +61,54 @@
   "timestamps": [
     { "title": "Welcome!", "time": "0:00" },
     {
-      "title": "Explain! Using copy() to split the source image into tiles?",
+      "title": "What is copy()?",
       "time": "2:24"
     },
-    { "title": "Code! The Tile class!", "time": "3:24" },
+    { "title": "The Tile class", "time": "3:24" },
     {
-      "title": "Explain! Copying tiles from the source image to the puzzle.",
+      "title": "Copying tiles from the source image.",
       "time": "4:40"
     },
     {
-      "title": "Code! Setting up tile indices and a board array!",
+      "title": "Creating an Array for the board.",
       "time": "5:33"
     },
-    { "title": "Explain! How should the board work?", "time": "6:54" },
+    { "title": "How does the board work?", "time": "6:54" },
     {
-      "title": "Code! Something went wrong! Let's fix it!",
+      "title": "Something went wrong?!?",
       "time": "8:31"
     },
     {
-      "title": "It works! Now how to draw borders between the tiles?",
+      "title": "Drawing borders between tiles.",
       "time": "9:55"
     },
-    { "title": "Code! Shuffling the board.", "time": "10:57" },
+    { "title": "Shuffling the board", "time": "10:57" },
     {
-      "title": "Code! The slide puzzle needs an empty tile!",
+      "title": "Adding an empty tile.",
       "time": "14:00"
     },
     {
-      "title": "Code! A function to move the tiles!",
+      "title": "Sliding a tile!",
       "time": "14:52"
     },
     {
-      "title": "Code! Checking if tiles are neighbors.",
+      "title": "Checking tile neighbors.",
       "time": "16:59"
     },
     {
-      "title": "Code! Random shuffling in draw()!",
+      "title": "Moving tiles in draw()",
       "time": "19:37"
     },
     {
-      "title": "Code! Moving pieces with mousePressed()",
+      "title": "Moving tiles with mousePressed()",
       "time": "20:12"
     },
     {
-      "title": "Code! What should the sketch do when the puzzle is solved?",
+      "title": "Is the puzzle solved?",
       "time": "21:32"
     },
-    { "title": "Code! Having fun with the tile grid!", "time": "23:06" },
-    { "title": "Let's see if I can solve this...", "time": "23:55" },
-    { "title": "Solved it! What will you create?", "time": "24:27" }
+    { "title": "Having fun with the tile grid!", "time": "23:06" },
+    { "title": "Solving the puzzle!", "time": "23:55" },
+    { "title": "What will you create?", "time": "24:27" }
   ]
 }
