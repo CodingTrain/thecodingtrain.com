@@ -15,35 +15,30 @@
   "codeExamples": [
     {
       "title": "Random Square Design",
-	  "description": "Using the random() function to draw randomly sized squares",
       "language": "p5js",
       "folder": "random-square-design",
       "webEditor": "Sl8ml_Lz8"
     },
     {
       "title": "Random House Exercise",
-	  "description": "Using the random() function to generate houses with different properties",
       "language": "p5js",
       "folder": "random-house-exercise",
 	  "webEditor": "HGq_S0Z5H"
     },
     {
       "title": "Random Points",
-	  "description": "Drawing a field of points with random positions and colors",
       "language": "p5js",
       "folder": "random-points",
 	  "webEditor": "h7hFqoV6H"
     },
     {
       "title": "Painting Exercise 1",
-	  "description": "Using mouse interaction to draw with a randomly generated paintbrush", 
       "language": "p5js",
       "folder": "painting-exercise-1",
 	  "webEditor": "stERy5a1D"
     },
     {
       "title": "Painting Exercise 2",
-	  "description": "A paintbrush that changes color and size as you draw",
       "language": "p5js",
       "folder": "painting-exercise-2",
 	  "webEditor": "IyyJ1QYKh"
