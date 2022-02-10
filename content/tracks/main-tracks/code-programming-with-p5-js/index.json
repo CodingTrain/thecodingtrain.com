@@ -1,6 +1,5 @@
 {
   "title": "Code! Programming with p5.js",
-  "type": "main",
   "description": "This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices.",
   "chapters": [
     {
@@ -40,7 +39,7 @@
         "tracks/main-tracks/code/intro/boolean-variables-p5-js-tutorial",
         "tracks/main-tracks/code/intro/while-and-for-loops-p5-js-tutorial",
         "tracks/main-tracks/code/intro/nested-loops-p5-js-tutorial",
-        "tracks/main-tracks/code/intro/incrementation-operations-p5-js-tutorial"
+        "tracks/main-tracks/code/intro/incrementation-operators-p5-js-tutorial"
       ]
     },
 
