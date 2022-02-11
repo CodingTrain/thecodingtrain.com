@@ -101,12 +101,12 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
         {
           "title": "Link 1 title",
           "url": "link 1 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         },
         {
           "title": "Link 2 title",
           "url": "link 2 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         }
       ]
     }
@@ -161,7 +161,7 @@ Group links are a more general abstraction for specifying related groups of link
 In the case of "Videos discussed" or whatever content that lives in the Coding Train site,
 instead of specifying the whole url to the resource, the URL can contain the sub-path in the site for that resource that starts with `/`.
 
-The `"author"` property is optional, but `"title"` and `"url"` are required.
+The `"description"` property is optional, but `"title"` and `"url"` are required.
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 

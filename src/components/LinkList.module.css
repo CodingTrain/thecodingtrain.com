@@ -5,30 +5,52 @@
 
 .link {
   display: flex;
-  flex-wrap: wrap;
   margin-top: -2px;
   border-top: var(--border);
   border-bottom: var(--border);
   border-left: var(--border);
   color: var(--gray-mid);
+}
 
-  & span,
-  & a {
-    height: var(--baseline);
-    padding: 0 var(--spacing-normal);
-    line-height: var(--baseline);
-    font-size: var(--maru-large);
-  }
+.icon,
+.description,
+.url {
+  height: var(--baseline);
+  padding: 0 var(--spacing-normal);
+  line-height: var(--baseline);
+}
+
+.icon {
+  flex: 1 0 25px;
+  max-width: 25px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .url {
-  flex: 0 0 400px;
+  display: flex;
+  align-items: center;
+  flex: 1 0 350px;
   overflow: hidden;
-  max-width: 400px;
+  max-width: 350px;
   text-decoration: underline;
   white-space: nowrap;
   text-overflow: ellipsis;
   color: var(--gray-mid);
+  font-size: var(--maru-large);
+}
+
+.description {
+  font-size: var(--maru-normal);
+  display: flex;
+  align-items: center;
+  & p {
+    margin: 0;
+    line-height: var(--baseline-1of3);
+  }
+  & a {
+    text-decoration: underline;
+  }
 }
 
 /* Variants */
@@ -37,20 +59,10 @@
   & .link {
     border-color: var(--red);
     background-color: var(--red-light);
+  }
+
+  & .url {
     color: var(--red);
-    & a {
-      color: var(--red);
-    }
-  }
-  & .p5 path {
-    fill: var(--red);
-  }
-
-  & .node {
-  }
-
-  & .processing path {
-    stroke: var(--red);
   }
 }
 
@@ -58,45 +70,38 @@
   & .link {
     border-color: var(--cyan);
     background-color: var(--cyan-light);
+  }
+  & .url {
     color: var(--cyan);
-    & a {
-      color: var(--cyan);
-    }
-  }
-
-  & .p5 path {
-    fill: var(--cyan);
-  }
-
-  & .node {
-  }
-
-  & .processing path {
-    stroke: var(--cyan);
   }
 }
 
 @media (--reduced) {
   .link {
-    align-items: center;
     flex-wrap: wrap;
+  }
 
-    & > * {
-      width: 100%;
-    }
+  .url {
+    white-space: initial;
+    text-overflow: initial;
+  }
 
-    & a {
-      flex: initial;
-    }
+  .description {
+    width: 100%;
   }
 
   .red .link,
   .cyan .link {
     background-color: white;
   }
+}
 
-  span.url {
-    white-space: initial;
-    text-overflow: initial;
+@media (--small) {
+  .icon {
+    display: none;
+  }
+  .description {
+    height: var(--baseline-2x);
+    font-size: var(--maru-medium);
   }
 }
