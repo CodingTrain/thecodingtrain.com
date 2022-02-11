@@ -1,0 +1,14 @@
+{
+  "title": "The p5.js Web Editor",
+  "description": "In this video, you'll be given a brief overview of the p5.js Web Editor!",
+  "languages": ["p5.js", "Python"],
+  "topics": ["For beginners"],
+  "videoId": "MXs1cOlidWs",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "canContribute": true
+}

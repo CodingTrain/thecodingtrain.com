@@ -1,0 +1,53 @@
+{
+  "title": "Fractal #TeamTrees With Physics",
+  "description": "Empty for now!",
+  "videoNumber": "Video number",
+  "videoId": "HhceJ5xxl-4",
+  "date": "2019-10-25",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Start!" },
+    { "time": "6:09", "title": "Introduction" },
+    { "time": "17:43", "title": "Community Contributions" },
+    { "time": "32:23", "title": "Setting Up" },
+    { "time": "49:42", "title": "Code! Team Trees Coding Challenge!" },
+    { "time": "1:31:10", "title": "Brilliant (*sponsor)" },
+    { "time": "1:42:29", "title": "Break" },
+    { "time": "1:52:08", "title": "Return From Break" },
+    { "time": "2:01:49", "title": "Code! Adding Physics To The Branches" },
+    { "time": "2:50:50", "title": "Code! Microphone Interaction" },
+    { "time": "3:06:00", "title": "Conclusions & Goodbyes" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "language": "p5js",
+      "folder": "code-folder-1",
+      "webEditor": "p5 editor code ID"
+    },
+    {
+      "title": "Code example 2 title",
+      "language": "processing",
+      "folder": "code-folder-2"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "author": "author of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "author": "author of content linked"
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,16 @@
 const { schema } = require('./node-scripts/schema');
 const {
-  createLessonRelatedNode,
-  createChallengeRelatedNode,
-  createGuestTutorialRelatedNode,
+  createVideoRelatedNode,
   createTrackRelatedNode,
   createTalkRelatedNode,
-  createCollaboratorNodes
+  createCollaboratorNodes,
+  createVideoCoverImageNode,
+  createTrackCoverImageNode,
+  createTalkCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
-  createChallengePages,
+  createJourneyPages,
   createGuidePages
 } = require('./node-scripts/page-generation');
 
@@ -24,36 +25,39 @@ exports.onCreateNode = ({
   getNode
 }) => {
   const { createNode } = actions;
-  const { owner } = node.internal;
+  const { owner, mediaType } = node.internal;
   const parent = getNode(node.parent);
 
-  /**
-    Turn JSON files into Tracks, Video and Contribution nodes
-  **/
   if (owner === 'gatsby-transformer-json') {
-    if (parent.sourceInstanceName === 'challenges')
-      createChallengeRelatedNode(
+    /**
+      Turn JSON files into Tracks, Video and Contribution nodes
+    **/
+    if (parent.sourceInstanceName === 'journeys')
+      createVideoRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
-        parent
-      );
-    else if (parent.sourceInstanceName === 'lessons')
-      createLessonRelatedNode(
-        createNode,
-        createNodeId,
-        createContentDigest,
-        node,
-        parent
+        parent,
+        'Journey'
       );
     else if (parent.sourceInstanceName === 'guest-tutorials')
-      createGuestTutorialRelatedNode(
+      createVideoRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
-        parent
+        parent,
+        'GuestTutorial'
+      );
+    else if (parent.sourceInstanceName === 'videos')
+      createVideoRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent,
+        'Video'
       );
     else if (
       parent.sourceInstanceName === 'main-tracks' ||
@@ -83,12 +87,52 @@ exports.onCreateNode = ({
         node,
         parent
       );
+  } else if (
+    owner === 'gatsby-source-filesystem' &&
+    mediaType !== undefined &&
+    mediaType.includes('image')
+  ) {
+    /**
+      Turn image files into CoverImages for Tracks, Video and Contribution nodes
+    **/
+
+    if (
+      node.sourceInstanceName === 'videos' ||
+      node.sourceInstanceName === 'guest-tutorials' ||
+      node.sourceInstanceName === 'journeys'
+    ) {
+      createVideoCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        node.sourceInstanceName
+      );
+    } else if (
+      node.sourceInstanceName === 'main-tracks' ||
+      node.sourceInstanceName === 'side-tracks'
+    ) {
+      createTrackCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        node.sourceInstanceName
+      );
+    } else if (node.sourceInstanceName === 'talks') {
+      createTalkCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
+      );
+    }
   }
 };
 
 exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
-  await createChallengePages(graphql, createPage);
+  await createJourneyPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
 };

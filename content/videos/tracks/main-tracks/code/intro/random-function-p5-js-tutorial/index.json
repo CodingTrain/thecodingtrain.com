@@ -1,0 +1,59 @@
+{
+  "title": "random()",
+  "description": "In this video, I explore the random() function in p5.js and discuss the concept of 'parametric design.'",
+  "videoNumber": "Video number",
+  "videoId": "POn4cZ0jL-o",
+  "date": "2021-05-20",
+  "languages": ["language1", "language2"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Random Square Design",
+      "language": "p5js",
+      "webEditor": "Sl8ml_Lz8"
+    },
+    {
+      "title": "Random House Exercise",
+      "language": "p5js",
+	  "webEditor": "HGq_S0Z5H"
+    },
+    {
+      "title": "Random Points",
+      "language": "p5js",
+	  "webEditor": "h7hFqoV6H"
+    },
+    {
+      "title": "Painting Exercise 1",
+      "language": "p5js",
+	  "webEditor": "stERy5a1D"
+    },
+    {
+      "title": "Painting Exercise 2",
+      "language": "p5js",
+	  "webEditor": "IyyJ1QYKh"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "author": "author of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "author": "author of content linked"
+        }
+      ]
+    }
+  ]
+}

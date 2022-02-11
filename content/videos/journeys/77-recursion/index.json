@@ -1,0 +1,44 @@
+{
+  "title": "Recursion",
+  "description": "In this coding challenge, I explore the concept of recursion to create fractal patterns in JavaScript HTML5 canvas with the p5.js library.",
+  "videoNumber": "77",
+  "videoId": "jPsZwrV9ld0",
+  "date": "2017-05-10",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "codeExamples": [
+    {
+      "title": "p5.js",
+      "language": "p5js",
+      "folder": "P5",
+      "webEditor": "pseBrWaMm"
+    },
+    {
+      "title": "Processing",
+      "language": "processing",
+      "folder": "Processing"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Links discussed",
+      "links": [
+        {
+          "title": "The Fractal Geometry of Nature",
+		  "author": "Benoit Mandlebrot",
+          "url": "http://amzn.to/2xiVwht"
+        },
+
+		{
+		  "title": "My playlist on fractals & recursion",
+		  "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
+		},
+
+		{
+		  "title": "My Vido on Fractal Trees - Recursive",
+		  "url": "https://youtu.be/0jjeOYMjmDU"
+		}
+      ]
+    }
+  ]
+}

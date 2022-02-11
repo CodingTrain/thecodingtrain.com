@@ -1,0 +1,43 @@
+{
+  "title": "Using Variables mouseX & mouseY",
+  "description": "In this video, I introduce the concept of variables! The setup() and draw() functions are covered along with mouseX and mouseY in p5.js.",
+  "videoNumber": "Video number",
+  "videoId": "7A5tKW9HGoM",
+  "date": "2021-05-19",
+  "languages": ["language1", "language2"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "language": "p5js",
+      "webEditor": "p5 editor code ID"
+    },
+    {
+      "title": "Code example 2 title",
+      "language": "processing"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "author": "author of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "author": "author of content linked"
+        }
+      ]
+    }
+  ]
+}
