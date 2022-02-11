@@ -15,28 +15,38 @@
   "codeExamples": [
     {
       "title": "Random Square Design",
+      "description": "Using the random() function to draw randomly sized squares",
+      "image": "https://processing.org/static/b8793fda1d825d4d138038d97deff7a2/b2a35/GameOfLife.webp",
       "language": "p5js",
       "webEditor": "Sl8ml_Lz8"
     },
     {
       "title": "Random House Exercise",
+      "description": "Using the random() function to generate houses with different properties",
+      "image": "https://processing.org/static/39a9e64041c74f3e2dd0517ca771aaac/b2a35/KeyboardFunctions.webp",
       "language": "p5js",
-	  "webEditor": "HGq_S0Z5H"
+      "webEditor": "HGq_S0Z5H"
     },
     {
       "title": "Random Points",
+      "description": "Drawing a field of points with random positions and colors",
+      "image": "https://processing.org/static/26b1ad7b87dc90e0c028286a0b5a93ec/b2a35/RotatePushPop.webp",
       "language": "p5js",
-	  "webEditor": "h7hFqoV6H"
+      "webEditor": "h7hFqoV6H"
     },
     {
       "title": "Painting Exercise 1",
+      "description": "Using mouse interaction to draw with a randomly generated paintbrush",
+      "image": "https://processing.org/static/2c7caa6aa416d60b626867770e914e7d/17574/Saturation.webp",
       "language": "p5js",
-	  "webEditor": "stERy5a1D"
+      "webEditor": "stERy5a1D"
     },
     {
       "title": "Painting Exercise 2",
+      "description": "A paintbrush that changes color and size as you draw",
+      "image": "https://processing.org/static/33d6c72ae51a9ca7830c527dfcda4b6a/b2a35/LoadDisplayImage.webp",
       "language": "p5js",
-	  "webEditor": "IyyJ1QYKh"
+      "webEditor": "IyyJ1QYKh"
     }
   ],
   "groupLinks": [
