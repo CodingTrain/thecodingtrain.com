@@ -40,12 +40,12 @@
         {
           "title": "Link 1 title",
           "url": "link 1 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         },
         {
           "title": "Link 2 title",
           "url": "link 2 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         }
       ]
     }

@@ -21,22 +21,22 @@
     {
       "title": "Random House Exercise",
       "language": "p5js",
-	  "webEditor": "HGq_S0Z5H"
+      "webEditor": "HGq_S0Z5H"
     },
     {
       "title": "Random Points",
       "language": "p5js",
-	  "webEditor": "h7hFqoV6H"
+      "webEditor": "h7hFqoV6H"
     },
     {
       "title": "Painting Exercise 1",
       "language": "p5js",
-	  "webEditor": "stERy5a1D"
+      "webEditor": "stERy5a1D"
     },
     {
       "title": "Painting Exercise 2",
       "language": "p5js",
-	  "webEditor": "IyyJ1QYKh"
+      "webEditor": "IyyJ1QYKh"
     }
   ],
   "groupLinks": [
@@ -46,12 +46,12 @@
         {
           "title": "Link 1 title",
           "url": "link 1 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         },
         {
           "title": "Link 2 title",
           "url": "link 2 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         }
       ]
     }

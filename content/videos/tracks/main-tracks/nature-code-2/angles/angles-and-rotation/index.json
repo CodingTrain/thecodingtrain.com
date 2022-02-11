@@ -17,11 +17,11 @@
         {
           "title": "#SupportP5 2020",
           "url": "https://donorbox.org/supportp52020",
-          "author": "p5js"
+          "description": "by p5js"
         },
         {
           "title": "Self Avoiding Walk - Coding Challenge 162",
-          "author": "The Coding Train",
+          "description": "by The Coding Train",
           "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
         }
       ]
@@ -36,11 +36,11 @@
         {
           "title": "bezier() - p5.js Reference",
           "url": "https://p5js.org/reference/#/p5/bezier",
-          "author": "p5js"
+          "description": "by p5js"
         },
         {
           "title": "Self Avoiding Walk - Coding Challenge 162",
-          "author": "The Coding Train",
+          "description": "by The Coding Train",
           "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
         }
       ]

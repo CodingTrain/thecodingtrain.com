@@ -25,19 +25,19 @@
       "links": [
         {
           "title": "The Fractal Geometry of Nature",
-		  "author": "Benoit Mandlebrot",
+          "description": "by Benoit Mandlebrot",
           "url": "http://amzn.to/2xiVwht"
         },
 
-		{
-		  "title": "My playlist on fractals & recursion",
-		  "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
-		},
+        {
+          "title": "My playlist on fractals & recursion",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
+        },
 
-		{
-		  "title": "My Vido on Fractal Trees - Recursive",
-		  "url": "https://youtu.be/0jjeOYMjmDU"
-		}
+        {
+          "title": "My Vido on Fractal Trees - Recursive",
+          "url": "https://youtu.be/0jjeOYMjmDU"
+        }
       ]
     }
   ]
