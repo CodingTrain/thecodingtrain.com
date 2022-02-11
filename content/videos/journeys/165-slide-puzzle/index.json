@@ -41,12 +41,6 @@
           "title": "copy()",
           "url": "https://p5js.org/reference/#/p5/copy",
           "description": "The full details about copy() are on the p5.js reference."
-        },
-        {
-          "icon": "👻",
-          "title": "Some reference",
-          "url": "/",
-          "description": "By <a href='https://shiffman.net/'  target='_blank' rel='noreferrer'> Dan Shiffman</a> and <a href='https://designsystems.international/'  target='_blank' rel='noreferrer'> DSI</a>!"
         }
       ]
     },
