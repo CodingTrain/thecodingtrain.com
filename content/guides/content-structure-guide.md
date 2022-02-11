@@ -1,6 +1,6 @@
 # Content structure guide for The Coding Train team
 
-_Last update: February 8th 2022_
+_Last update: February 11th 2022_
 
 On december 3rd 2021, we decided to start adding real content to this project. This guide serves as a way to understand how the workflow feels and if the content structure may need to be changed.
 
@@ -161,7 +161,11 @@ Group links are a more general abstraction for specifying related groups of link
 In the case of "Videos discussed" or whatever content that lives in the Coding Train site,
 instead of specifying the whole url to the resource, the URL can contain the sub-path in the site for that resource that starts with `/`.
 
-The `"description"` property is optional, but `"title"` and `"url"` are required.
+The `"description"` and `"icon"` properties are optional, but `"title"` and `"url"` are required.
+
+For now, `"icon"` expects a short emoji string that relates to the link. In the future this may also support adding coding train characters.
+
+`"description"` on the other hand can be a longish string that describes the link or something about it. It may also contain some HTML that will be parsed, so it may also contain anchor links related to the link. For example: `"By <a href='https://shiffman.net/' target='_blank' rel='noreferrer'> Dan Shiffman</a> and <a href='https://designsystems.international/' target='_blank' rel='noreferrer'> DSI</a>!"`.
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 
