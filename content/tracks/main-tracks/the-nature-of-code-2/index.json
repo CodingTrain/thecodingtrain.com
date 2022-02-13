@@ -5,7 +5,7 @@
     {
       "title": "Welcome",
       "videos": [
-        "tracks/main-tracks/nature-code-2/welcome/welcome-top-the-nature-of-code-in-2020-p5js",
+        "tracks/main-tracks/nature-code-2/welcome/welcome-to-the-nature-of-code-in-2020-p5js",
         "tracks/main-tracks/nature-code-2/welcome/nature-of-code-2-introduction"
       ]
     },
@@ -18,12 +18,14 @@
       ]
     },
     {
-      "title": "The Nature of Code",
+      "title": "Vectors",
       "videos": [
-        "tracks/main-tracks/nature-code-2/nature/nature-of-code-what-is-a-vector",
-        "tracks/main-tracks/nature-code-2/nature/nature-of-code-vector-math",
-        "tracks/main-tracks/nature-code-2/nature/nature-of-code-random-vectors",
-        "tracks/main-tracks/nature-code-2/nature/nature-of-code-static-functions"
+        "tracks/main-tracks/nature-code-2/1-vectors/1-what-is-a-vector",
+        "tracks/main-tracks/nature-code-2/1-vectors/2-vector-math",
+        "tracks/main-tracks/nature-code-2/1-vectors/3-random-vectors",
+        "tracks/main-tracks/nature-code-2/1-vectors/4-static-functions",
+        "tracks/main-tracks/nature-code-2/1-vectors/5-unit-vector",
+        "tracks/main-tracks/nature-code-2/1-vectors/6-acceleration-vector"
       ]
     },
     {
