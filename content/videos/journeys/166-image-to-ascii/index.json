@@ -40,15 +40,39 @@
       "links": [
         {
           "icon": "🔢",
-          "title": "Fisher-Yates Shuffle",
-          "url": "https://bost.ocks.org/mike/shuffle/",
-          "description": "The Fisher-Yates shuffle is an algorithm for generating a random permutation of a finite sequence"
+          "title": "ASCII play by ertdfgcvb",
+          "url": "https://play.ertdfgcvb.xyz/",
+          "description": ""
         },
         {
           "icon": "✏️",
-          "title": "copy()",
-          "url": "https://p5js.org/reference/#/p5/copy",
-          "description:": "The full details about copy() are on the p5.js reference."
+          "title": "HTML Entity",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Entity",
+          "description:": ""
+        },
+        {
+          "icon": "✏️",
+          "title": "HTML div",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div",
+          "description:": ""
+        },
+        {
+          "icon": "🔆",
+          "title": "p5.js loadPixels()",
+          "url": "https://p5js.org/reference/#/p5/loadPixels",
+          "description:": ""
+        },
+        {
+          "icon": "🔆",
+          "title": "p5.js brightness()",
+          "url": "https://p5js.org/reference/#/p5/brightness",
+          "description:": ""
+        },
+        {
+          "icon": "📺",
+          "title": "CodingTrainChooChoo on Twitch",
+          "url": "https://www.twitch.tv/codingtrainchoochoo",
+          "description:": ""
         }
       ]
     },
@@ -57,10 +81,24 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Bending Time Slitscan (Challenge 164)",
+          "title": "The Pixel Array",
           "author": "The Coding Train",
-          "description": "This video demonstrates how to use copy() for slitscan and time displacement.",
-          "url": "/challenges/164-slitscan"
+          "description": "",
+          "url": "https://youtu.be/nMUMZ5YRxHI"
+        },
+        {
+          "icon": "🎥",
+          "title": "Basics of CSS",
+          "author": "The Coding Train",
+          "description": "",
+          "url": "https://thecodingtrain.com/Tutorials/8-html-css-dom/8.7-css-basics"
+        },
+        {
+          "icon": "🎥",
+          "title": "p5.js Web Editor - Uploading Media Files",
+          "author": "The Coding Train",
+          "description": "",
+          "url": "https://youtu.be/rO6M5hj0V-o"
         }
       ]
     }
