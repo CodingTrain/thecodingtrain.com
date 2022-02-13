@@ -1,0 +1,106 @@
+{
+  "title": "Image to ASCII",
+  "description": "Let's make ASCII art in p5.js together! In this video, I demonstrate a variety of techniques for translating the pixels of an image into text and finish with rendering video as text ASCII characters in a DOM.",
+  "videoNumber": "166",
+  "videoId": "55iwMYv8tGI",
+  "date": "2022-02-12",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["images", "ASCII", "DOM"],
+  "canContribute": true,
+  "codeExamples": [
+    {
+      "title": "ASCII Video",
+      "language": "p5js",
+      "webEditor": "KTVfEcpWx"
+    },
+    {
+      "title": "ASCII Image Canvas",
+      "language": "p5js",
+      "webEditor": "r4ApYWpH_"
+    },
+    {
+      "title": "ASCII Image DOM",
+      "language": "p5js",
+      "webEditor": "ytK7J7d5j"
+    },
+    {
+      "title": "ASCII Text",
+      "language": "p5js",
+      "webEditor": "LNBpdYQHP"
+    },
+    {
+      "title": "ASCII Image Weather API",
+      "language": "p5js",
+      "webEditor": "DhdqcoWn4"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔢",
+          "title": "Fisher-Yates Shuffle",
+          "url": "https://bost.ocks.org/mike/shuffle/",
+          "description": "The Fisher-Yates shuffle is an algorithm for generating a random permutation of a finite sequence"
+        },
+        {
+          "icon": "✏️",
+          "title": "copy()",
+          "url": "https://p5js.org/reference/#/p5/copy",
+          "description:": "The full details about copy() are on the p5.js reference."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Bending Time Slitscan (Challenge 164)",
+          "author": "The Coding Train",
+          "description": "This video demonstrates how to use copy() for slitscan and time displacement.",
+          "url": "/challenges/164-slitscan"
+        }
+      ]
+    }
+  ],
+  "timestamps": [
+    { "title": "Welcome!", "time": "0:00" },
+    {
+      "title": "Introduction",
+      "time": "0:28"
+    },
+    { "title": "Pixel to ASCII", "time": "1:39" },
+    {
+      "title": "Pixelating an image",
+      "time": "4:52"
+    },
+    {
+      "title": "Pixel array explanation",
+      "time": "7:03"
+    },
+    { "title": "Back to the code", "time": "8:40" },
+    {
+      "title": "Adding text",
+      "time": "10:18"
+    },
+    {
+      "title": "Mapping brightness to characters",
+      "time": "11:04"
+    },
+    { "title": "Switching from canvas to DOM", "time": "13:26" },
+    {
+      "title": "Real-time ASCII video",
+      "time": "18:10"
+    },
+    {
+      "title": "Some refinements",
+      "time": "20:10"
+    },
+    {
+      "title": "See you next time!",
+      "time": "21:29"
+    }
+  ]
+}
