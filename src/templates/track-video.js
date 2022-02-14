@@ -142,6 +142,8 @@ export const query = graphql`
       }
       codeExamples {
         title
+        description
+        image
         language
         codeUrl
         githubUrl

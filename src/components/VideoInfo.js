@@ -9,8 +9,8 @@ import * as css from './VideoInfo.module.css';
 
 const VideoInfo = ({ video, variant }) => {
   let labels = ['DESCRIPTION'];
-
-  if (video.codeExamples && video.codeExamples.length > 0) {
+  const hasCodeExamples = video.codeExamples && video.codeExamples.length > 0;
+  if (hasCodeExamples) {
     labels.unshift('CODE EXAMPLES');
   }
 
@@ -19,10 +19,8 @@ const VideoInfo = ({ video, variant }) => {
   return (
     <div className={cn(css.root, { [css[variant]]: variant })}>
       <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
-        {video.codeExamples && video.codeExamples.length > 0 && (
-          <div>
-            <CodeExampleList examples={video.codeExamples} variant={variant} />
-          </div>
+        {hasCodeExamples && (
+          <CodeExampleList examples={video.codeExamples} variant={variant} />
         )}
         <CollapsableDescription
           className={css.description}

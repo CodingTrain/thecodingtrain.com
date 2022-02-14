@@ -17,27 +17,44 @@ const CodeExampleList = memo(({ className, variant, examples }) => {
   return (
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
       {examples.map((example, key) => {
+        console.log(example);
         const Icon =
           example.language in icons
             ? icons[example.language]
             : () => <svg></svg>;
         return (
           <li className={css.example} key={key}>
-            <div className={css.description}>
-              <span className={css.icon}>
-                <Icon />
-              </span>
-              <span className={css.name}>{example.title}</span>
-            </div>
+            <span className={css.thumbnail}>
+              <img src={example.image} />
+            </span>
+            <span className={css.info}>
+              <span className={css.title}> {example.title}</span>
+              {example.description && (
+                <span className={css.description}>{example.description}</span>
+              )}
+            </span>
+            <span className={css.icon}>
+              <Icon />
+            </span>
             <div className={css.links}>
               <a href={example.editorUrl} target="_blank" rel="noreferrer">
-                Web Editor
+                Open
               </a>
-              <a href={example.githubUrl} target="_blank" rel="noreferrer">
-                View Code
+              <a
+                className={css.linkIcon}
+                href={example.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                title="View source code">
+                📒
               </a>
-              <a href={example.codeUrl} target="_blank" rel="noreferrer">
-                Download Code
+              <a
+                className={css.linkIcon}
+                href={example.codeUrl}
+                target="_blank"
+                rel="noreferrer"
+                title="Download code as zip">
+                💾
               </a>
             </div>
           </li>
