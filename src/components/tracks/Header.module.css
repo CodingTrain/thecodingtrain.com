@@ -32,7 +32,6 @@
 
 .description {
   flex-basis: 70%;
-  border-bottom: var(--border-red);
   height: var(--baseline-box-5x);
   padding: 0 7% 0 var(--box-padding);
   background: white;

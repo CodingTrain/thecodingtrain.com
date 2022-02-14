@@ -56,23 +56,18 @@ const VideoSection = ({ track, video, trackPosition }) => {
 
   return (
     <div className={css.root}>
-      <h2 className={css.subheading}>{title}</h2>
-      <div className={css.videoPlayer}>
-        <div className={css.left}>
-          <div className={css.details}>
-            <Tags className={css.tags} heading="Languages" items={languages} />
-            <Tags className={css.tags} heading="Topics" items={topics} />
-            <ShareButton className={css.share} variant="red" />
-          </div>
-          <div className={css.video} ref={youTubeVideoRef}>
-            <YouTubeVideo
-              containerClassName={css.videoWrapper}
-              videoId={videoId}
-              timestamp={timestamp}
-            />
-          </div>
+      <div className={css.header}>
+        <div className={css.title}>
+          <h2>{title}</h2>
         </div>
-        <div className={cn(css.right, { [css.unCollapsed]: showTimeline })}>
+        <div
+          className={cn(css.details, {
+            [css.unCollapsed]: showTimeline
+          })}>
+          <Tags className={css.tags} heading="Languages" items={languages} />
+          <Tags className={css.tags} heading="Topics" items={topics} />
+
+          <ShareButton className={css.share} variant="red" text="" />
           <div
             className={css.timelinesToggle}
             onClick={() => setShowTimeline((v) => !v)}
@@ -86,28 +81,50 @@ const VideoSection = ({ track, video, trackPosition }) => {
               {videoIndex} / {trackTotal}{' '}
             </span>
           </div>
+        </div>
+      </div>
+      <div className={css.videoPlayer}>
+        <div className={css.videoContainer}>
+          <div className={css.video} ref={youTubeVideoRef}>
+            <YouTubeVideo
+              containerClassName={css.videoWrapper}
+              videoId={videoId}
+              timestamp={timestamp}
+            />
+          </div>
+        </div>
+        <div
+          className={cn(css.timelineContainer, {
+            [css.unCollapsed]: showTimeline
+          })}>
           <div className={css.timelinesContent}>
             <div className={css.tabs}>
               <div className={cn(css.tab, { [css.selected]: !showTimestamps })}>
                 <button onClick={() => setShowTimestamps(false)}>
-                  Track overview
+                  track stops
                 </button>
               </div>
-              <div className={cn(css.tab, { [css.selected]: showTimestamps })}>
-                <button onClick={() => setShowTimestamps(true)}>
-                  Video timestamps
-                </button>
-              </div>
+              {timestamps.length > 0 && (
+                <div
+                  className={cn(css.tab, { [css.selected]: showTimestamps })}>
+                  <button onClick={() => setShowTimestamps(true)}>
+                    timestamps
+                  </button>
+                </div>
+              )}
             </div>
             <div className={css.timeline}>
-              <TimestampTimeline
-                className={cn(css.timestampsTimeline, {
-                  [css.hide]: !showTimestamps
-                })}
-                variant="red"
-                timestamps={timestamps}
-                updateTimestamp={updateTimestamp}
-              />
+              {timestamps.length > 0 && (
+                <TimestampTimeline
+                  className={cn(css.timestampsTimeline, {
+                    [css.hide]: !showTimestamps
+                  })}
+                  variant="red"
+                  timestamps={timestamps}
+                  updateTimestamp={updateTimestamp}
+                />
+              )}
+
               <OverviewTimeline
                 className={cn(css.overviewTimeline, {
                   [css.hide]: showTimestamps
