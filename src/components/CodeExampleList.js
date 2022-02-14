@@ -17,7 +17,6 @@ const CodeExampleList = memo(({ className, variant, examples }) => {
   return (
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
       {examples.map((example, key) => {
-        console.log(example);
         const Icon =
           example.language in icons
             ? icons[example.language]

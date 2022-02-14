@@ -44,7 +44,6 @@
     {
       "title": "Painting Exercise 2",
       "description": "A paintbrush that changes color and size as you draw",
-      "image": "https://processing.org/static/33d6c72ae51a9ca7830c527dfcda4b6a/b2a35/LoadDisplayImage.webp",
       "language": "p5js",
       "webEditor": "IyyJ1QYKh"
     }
