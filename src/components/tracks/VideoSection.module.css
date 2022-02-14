@@ -120,7 +120,6 @@
     justify-content: center;
     width: 100%;
     height: var(--baseline);
-    cursor: pointer;
     padding: 0 var(--spacing-normal);
     font-family: var(--maru-mono);
     font-size: var(--maru-medium);
@@ -133,6 +132,10 @@
     background-color: var(--red-light);
     font-weight: 600;
   }
+}
+
+.clickable button {
+  cursor: pointer;
 }
 
 .selected button {

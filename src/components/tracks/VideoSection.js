@@ -99,15 +99,28 @@ const VideoSection = ({ track, video, trackPosition }) => {
           })}>
           <div className={css.timelinesContent}>
             <div className={css.tabs}>
-              <div className={cn(css.tab, { [css.selected]: !showTimestamps })}>
-                <button onClick={() => setShowTimestamps(false)}>
+              <div
+                className={cn(css.tab, {
+                  [css.selected]: !showTimestamps,
+                  [css.clickable]: timestamps.length > 0
+                })}>
+                <button
+                  onClick={() =>
+                    timestamps.length > 0 && setShowTimestamps(false)
+                  }>
                   track stops
                 </button>
               </div>
               {timestamps.length > 0 && (
                 <div
-                  className={cn(css.tab, { [css.selected]: showTimestamps })}>
-                  <button onClick={() => setShowTimestamps(true)}>
+                  className={cn(css.tab, {
+                    [css.selected]: showTimestamps,
+                    [css.clickable]: timestamps.length > 0
+                  })}>
+                  <button
+                    onClick={() =>
+                      timestamps.length > 0 && setShowTimestamps(true)
+                    }>
                     timestamps
                   </button>
                 </div>
