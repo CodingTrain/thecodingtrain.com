@@ -25,7 +25,7 @@ const CodeExampleList = memo(({ className, variant, examples }) => {
         return (
           <li className={css.example} key={key}>
             <span className={css.thumbnail}>
-              <img src={example.image} />
+              {example.image && <img src={example.image} />}
             </span>
             <span className={css.info}>
               <span className={css.title}> {example.title}</span>
