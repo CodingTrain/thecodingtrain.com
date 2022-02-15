@@ -133,7 +133,7 @@ export const query = graphql`
     }
     contributionPlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "challenges" }
+        sourceInstanceName: { eq: "journeys" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: $slug }
         name: { eq: "index" }

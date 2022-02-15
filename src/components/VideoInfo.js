@@ -7,16 +7,26 @@ import LinkList from './LinkList';
 import CollapsableDescription from './CollapsableDescription';
 import * as css from './VideoInfo.module.css';
 
-const VideoInfo = ({ video, variant }) => {
-  let labels = ['OVERVIEW'];
+const useLabels = (video) => {
+  let labels = [];
   if (video.codeExamples && video.codeExamples.length > 0) {
     labels.push('CODE EXAMPLES');
   }
+  labels.push('DESCRIPTION');
   labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
+  return labels;
+};
 
+const VideoInfo = ({ video, variant }) => {
+  const labels = useLabels(video);
   return (
     <div className={cn(css.root, { [css[variant]]: variant })}>
       <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
+        {video.codeExamples && video.codeExamples.length > 0 && (
+          <div>
+            <CodeExampleList examples={video.codeExamples} variant={variant} />
+          </div>
+        )}
         <CollapsableDescription
           className={css.description}
           expandedClassName={css.descriptionExpanded}
@@ -24,11 +34,6 @@ const VideoInfo = ({ video, variant }) => {
           content={video.description}
           charLimit={150}
         />
-        {video.codeExamples && video.codeExamples.length > 0 && (
-          <div>
-            <CodeExampleList examples={video.codeExamples} variant={variant} />
-          </div>
-        )}
         {video.groupLinks.map((g, index) => (
           <LinkList links={g.links} variant={variant} key={index} />
         ))}
