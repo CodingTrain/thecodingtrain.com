@@ -18,27 +18,41 @@ const CodeExampleList = memo(({ className, variant, examples }) => {
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
       {examples.map((example, key) => {
         const Icon =
-          example.language in icons
-            ? icons[example.language]
-            : () => <svg></svg>;
+          example.language in icons ? icons[example.language] : () => null;
+
+        const linkProps = {
+          href: example.editorUrl,
+          title: 'Open in web editor',
+          target: '_blank',
+          rel: 'noreferrer'
+        };
+
         return (
           <li className={css.example} key={key}>
             <span className={css.thumbnail}>
-              {example.image && <img src={example.image} />}
+              <a {...linkProps}>
+                {example.image && (
+                  <img
+                    alt={`Thumbnail for ${example.title} code example`}
+                    src={example.image}
+                  />
+                )}
+              </a>
             </span>
             <span className={css.info}>
-              <span className={css.title}> {example.title}</span>
-              {example.description && (
-                <span className={css.description}>{example.description}</span>
-              )}
+              <a {...linkProps}>
+                <span className={css.title}> {example.title}</span>
+                {example.description && (
+                  <span className={css.description}>{example.description}</span>
+                )}
+              </a>
             </span>
             <span className={css.icon}>
-              <Icon />
+              <a {...linkProps}>
+                <Icon />
+              </a>
             </span>
             <div className={css.links}>
-              <a href={example.editorUrl} target="_blank" rel="noreferrer">
-                Open
-              </a>
               <a
                 className={css.linkIcon}
                 href={example.githubUrl}
