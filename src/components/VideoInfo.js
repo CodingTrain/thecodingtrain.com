@@ -7,14 +7,12 @@ import LinkList from './LinkList';
 import CollapsableDescription from './CollapsableDescription';
 import * as css from './VideoInfo.module.css';
 
-const VideoInfo = ({ video, variant }) => {
-  const hasCodeExamples = video.codeExamples && video.codeExamples.length > 0;
-
+const useLabels = (video) => {
   let labels = [];
-  if (hasCodeExamples) {
+
+  if (video.codeExamples && video.codeExamples.length > 0) {
     labels.push('CODE EXAMPLES');
   }
-
   labels.push('DESCRIPTION');
 
   labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
@@ -26,7 +24,7 @@ const VideoInfo = ({ video, variant }) => {
   return (
     <div className={cn(css.root, { [css[variant]]: variant })}>
       <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
-        {hasCodeExamples && (
+        {video.codeExamples && video.codeExamples.length > 0 && (
           <CodeExampleList examples={video.codeExamples} variant={variant} />
         )}
         <CollapsableDescription
