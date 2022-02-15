@@ -8,14 +8,21 @@ import CollapsableDescription from './CollapsableDescription';
 import * as css from './VideoInfo.module.css';
 
 const VideoInfo = ({ video, variant }) => {
-  let labels = ['DESCRIPTION'];
   const hasCodeExamples = video.codeExamples && video.codeExamples.length > 0;
+
+  let labels = [];
   if (hasCodeExamples) {
-    labels.unshift('CODE EXAMPLES');
+    labels.push('CODE EXAMPLES');
   }
 
-  labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
+  labels.push('DESCRIPTION');
 
+  labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
+  return labels;
+};
+
+const VideoInfo = ({ video, variant }) => {
+  const labels = useLabels(video);
   return (
     <div className={cn(css.root, { [css[variant]]: variant })}>
       <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
