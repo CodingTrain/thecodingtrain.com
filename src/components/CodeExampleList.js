@@ -36,7 +36,7 @@ const useUrls = (urls) => {
       );
     }
   }
-  if ('other' in urls) {
+  if (urls.other) {
     const downloadUrl = urls.other.includes('github.com/')
       ? `https://minhaskamal.github.io/DownGit/#/home?url=${urls.other}`
       : null;
