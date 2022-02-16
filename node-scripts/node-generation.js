@@ -336,7 +336,6 @@ exports.createVideoCoverImageNode = (
     : relativeDirectory.endsWith('/images')
     ? `/${name}.${extension}`
     : '';
-  console.log('image', `cover-image/${source}/${slug}${postfixSlug}`);
   const id = createNodeId(`cover-image/${source}/${slug}${postfixSlug}`);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };
