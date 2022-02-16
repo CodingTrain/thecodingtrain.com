@@ -14,30 +14,23 @@
   ],
   "codeExamples": [
     {
-      "title": "Code example 1 title",
+      "title": "The Barnsley Fern",
       "language": "p5js",
-      "folder": "code-folder-1",
-      "webEditor": "p5 editor code ID"
+      "webEditor": "G4V940Y8V"
     },
     {
-      "title": "Code example 2 title",
+      "title": "Barnsley Fern",
       "language": "processing",
-      "folder": "code-folder-2"
+      "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_108_barnsley_fern/Processing"
     }
   ],
   "groupLinks": [
     {
-      "title": "Group of links title",
+      "title": "Links Discussed",
       "links": [
         {
-          "title": "Link 1 title",
-          "url": "link 1 url",
-          "author": "author of content linked"
-        },
-        {
-          "title": "Link 2 title",
-          "url": "link 2 url",
-          "author": "author of content linked"
+          "title": "Barnsley fern on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barnsley_fern"
         }
       ]
     }
