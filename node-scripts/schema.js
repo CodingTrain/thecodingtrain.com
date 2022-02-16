@@ -114,11 +114,15 @@ type Link implements Node {
 type CodeExample implements Node {
   title: String!
   description: String
-  image: String
-  language: String
-  codeUrl: String!
-  githubUrl: String!
-  editorUrl: String
+  image: CoverImage @link
+  urls: CodeUrls!
+}
+
+type CodeUrls implements Node {
+  p5: string
+  processing: string
+  nodejs: string
+  other: string
 }
 
 type Author implements Node {

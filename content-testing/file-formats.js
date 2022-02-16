@@ -28,9 +28,17 @@ const video = {
           type: 'object',
           properties: {
             title: { isRequired: true, type: 'string' },
-            folder: { isRequired: true, type: 'string' },
-            language: { type: 'string' },
-            webEditor: { type: 'string' }
+            description: { type: 'string' },
+            image: { type: 'string' },
+            urls: {
+              type: 'object',
+              properties: {
+                p5: { type: 'string' },
+                processing: { type: 'string' },
+                node: { type: 'string' },
+                other: { type: 'string' }
+              }
+            }
           }
         }
       },
