@@ -119,10 +119,10 @@ type CodeExample implements Node {
 }
 
 type CodeUrls implements Node {
-  p5: string
-  processing: string
-  nodejs: string
-  other: string
+  p5: String
+  processing: String
+  node: String
+  other: String
 }
 
 type Author implements Node {

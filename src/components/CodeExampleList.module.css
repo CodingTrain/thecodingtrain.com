@@ -60,8 +60,8 @@
   width: calc(var(--baseline-2of3) + 2 * var(--spacing-normal));
 
   & svg {
-    height: var(--baseline-2of3);
-    width: var(--baseline-2of3);
+    height: var(--baseline-1of2);
+    width: var(--baseline-1of2);
   }
 }
 

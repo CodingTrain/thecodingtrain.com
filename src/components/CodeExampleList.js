@@ -1,6 +1,8 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
+import Image from './Image';
+
 import * as css from './CodeExampleList.module.css';
 
 import NodeIcon from '../images/node-icon.svg';
@@ -8,71 +10,92 @@ import P5Icon from '../images/p5js-icon.svg';
 import ProcessingLogo from '../images/processing-icon.svg';
 
 const icons = {
-  p5js: () => <P5Icon className={css.p5} />,
+  p5: () => <P5Icon className={css.p5} />,
   node: () => <NodeIcon className={css.node} />,
   processing: () => <ProcessingLogo className={css.processing} />
+};
+
+const linkProps = {
+  title: 'Open code source',
+  target: '_blank',
+  rel: 'noreferrer'
+};
+
+const useUrls = (urls) => {
+  const mainUrl = urls.p5 ?? urls.processing ?? urls.node ?? urls.other;
+  const components = [];
+  for (const url in urls) {
+    if (url !== 'other' && urls[url]) {
+      const Icon = icons[url];
+      components.push(
+        <span className={css.icon} key={url}>
+          <a {...linkProps} title={`Open ${url} source code`} href={urls[url]}>
+            <Icon />
+          </a>
+        </span>
+      );
+    }
+  }
+  if ('other' in urls) {
+    const downloadUrl = urls.other.includes('github.com/')
+      ? `https://minhaskamal.github.io/DownGit/#/home?url=${urls.other}`
+      : null;
+    components.push(
+      <div className={css.links} key="links">
+        <a {...linkProps} className={css.linkIcon} href={urls.other}>
+          📒
+        </a>
+        {downloadUrl && (
+          <a
+            {...linkProps}
+            className={css.linkIcon}
+            href={downloadUrl}
+            title="Download code as zip">
+            💾
+          </a>
+        )}
+      </div>
+    );
+  }
+
+  return [mainUrl, components];
+};
+
+const CodeExample = ({ example }) => {
+  const { title, description, image } = example;
+  const [mainUrl, urls] = useUrls(example.urls);
+
+  return (
+    <li className={css.example}>
+      <span className={css.thumbnail}>
+        <a {...linkProps} href={mainUrl}>
+          {image && (
+            <Image
+              image={image.file.childImageSharp.gatsbyImageData}
+              alt={`Thumbnail for ${title} code example`}
+            />
+          )}
+        </a>
+      </span>
+      <span className={css.info}>
+        <a {...linkProps} href={mainUrl}>
+          <span className={css.title}> {title}</span>
+          {description && (
+            <span className={css.description}>{description}</span>
+          )}
+        </a>
+      </span>
+      {urls}
+    </li>
+  );
 };
 
 const CodeExampleList = memo(({ className, variant, examples }) => {
   return (
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
-      {examples.map((example, key) => {
-        const Icon =
-          example.language in icons ? icons[example.language] : () => null;
-
-        const linkProps = {
-          href: example.editorUrl,
-          title: 'Open in web editor',
-          target: '_blank',
-          rel: 'noreferrer'
-        };
-
-        return (
-          <li className={css.example} key={key}>
-            <span className={css.thumbnail}>
-              <a {...linkProps}>
-                {example.image && (
-                  <img
-                    alt={`Thumbnail for ${example.title} code example`}
-                    src={example.image}
-                  />
-                )}
-              </a>
-            </span>
-            <span className={css.info}>
-              <a {...linkProps}>
-                <span className={css.title}> {example.title}</span>
-                {example.description && (
-                  <span className={css.description}>{example.description}</span>
-                )}
-              </a>
-            </span>
-            <span className={css.icon}>
-              <a {...linkProps}>
-                <Icon />
-              </a>
-            </span>
-            <div className={css.links}>
-              <a
-                className={css.linkIcon}
-                href={example.githubUrl}
-                target="_blank"
-                rel="noreferrer"
-                title="View source code">
-                📒
-              </a>
-              <a
-                className={css.linkIcon}
-                href={example.codeUrl}
-                target="_blank"
-                rel="noreferrer"
-                title="Download code as zip">
-                💾
-              </a>
-            </div>
-          </li>
-        );
-      })}
+      {examples.map((example, key) => (
+        <CodeExample example={example} key={key} />
+      ))}
     </ul>
   );
 });

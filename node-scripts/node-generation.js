@@ -103,7 +103,9 @@ exports.createVideoRelatedNode = (
       codeExamples: (data.codeExamples ?? []).map((example) => ({
         ...example,
         image: createNodeId(
-          `cover-image/${slugPrefix}${slug}/images/${example.image}`
+          `cover-image/${
+            type === 'video' ? 'videos' : ''
+          }/${slugPrefix}${slug}/images/${example.image}`
         )
       })),
       groupLinks: data.groupLinks ?? [],
@@ -326,14 +328,15 @@ exports.createVideoCoverImageNode = (
   node,
   source
 ) => {
-  const { name, relativeDirectory } = node;
+  const { name, relativeDirectory, extension } = node;
   if (name === 'placeholder') return;
   const slug = relativeDirectory;
-  const postfixSlug =
-    relativeDirectory.endsWith('/contributions') ||
-    relativeDirectory.endsWith('/images')
-      ? `/${name}`
-      : '';
+  const postfixSlug = relativeDirectory.endsWith('/contributions')
+    ? `/${name}`
+    : relativeDirectory.endsWith('/images')
+    ? `/${name}.${extension}`
+    : '';
+  console.log('image', `cover-image/${source}/${slug}${postfixSlug}`);
   const id = createNodeId(`cover-image/${source}/${slug}${postfixSlug}`);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };

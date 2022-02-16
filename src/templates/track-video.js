@@ -143,11 +143,19 @@ export const query = graphql`
       codeExamples {
         title
         description
-        image
-        language
-        codeUrl
-        githubUrl
-        editorUrl
+        image {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+        urls {
+          p5
+          processing
+          node
+          other
+        }
       }
       groupLinks {
         title
