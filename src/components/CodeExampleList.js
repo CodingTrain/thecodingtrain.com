@@ -40,6 +40,7 @@ const useUrls = (urls) => {
     const downloadUrl = urls.other.includes('github.com/')
       ? `https://minhaskamal.github.io/DownGit/#/home?url=${urls.other}`
       : null;
+
     components.push(
       <div className={css.links} key="links">
         <a {...linkProps} className={css.linkIcon} href={urls.other}>
