@@ -58,11 +58,6 @@
   height: var(--baseline-1of2);
   padding-right: var(--spacing-normal);
   width: calc(var(--baseline-2of3) + 2 * var(--spacing-normal));
-
-  & svg {
-    height: var(--baseline-1of2);
-    width: var(--baseline-1of2);
-  }
 }
 
 .links {
@@ -85,6 +80,27 @@
   }
 }
 
+.p5 {
+  height: var(--baseline-1of2);
+  width: var(--baseline-1of2);
+  & path {
+    fill: var(--gray-dark);
+  }
+}
+
+.node {
+  height: var(--baseline-1of2);
+  width: var(--baseline-1of2);
+}
+
+.processing {
+  height: var(--baseline-1of3);
+  width: var(--baseline-1of3);
+  & path {
+    stroke: var(--gray-dark);
+  }
+}
+
 /* Variants */
 
 .red {
@@ -96,16 +112,6 @@
       color: var(--red);
     }
   }
-  & .p5 path {
-    fill: var(--red);
-  }
-
-  & .node {
-  }
-
-  & .processing path {
-    stroke: var(--red);
-  }
 }
 
 .cyan {
@@ -116,17 +122,6 @@
     & a {
       color: var(--cyan);
     }
-  }
-
-  & .p5 path {
-    fill: var(--cyan);
-  }
-
-  & .node {
-  }
-
-  & .processing path {
-    stroke: var(--cyan);
   }
 }
 
