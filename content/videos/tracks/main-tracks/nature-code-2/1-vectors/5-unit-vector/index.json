@@ -1,0 +1,14 @@
+{
+  "title": "1.5 A Unit Vector",
+  "description": "In this video, I explain the concept of a “unit vector,” what it means to “normalize” a vector, and take a look at the p5.js functions: p5.Vector.mag(), p5.Vector.normalize(), p5.Vector.setMag().",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "ttz05d8DSOs",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "canContribute": true
+}

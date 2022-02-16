@@ -1,0 +1,14 @@
+{
+  "title": "1.6 Acceleration Vector",
+  "description": "In this video, I add an “acceleration” vector to the Mover object and create an example where the object accelerates towards the mouse location. This is the foundation on which I will build for implementing forces in the next chapter!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "T84AWnntxZA",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "canContribute": true
+}

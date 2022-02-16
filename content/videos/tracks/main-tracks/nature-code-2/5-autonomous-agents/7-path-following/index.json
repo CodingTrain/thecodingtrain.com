@@ -1,0 +1,13 @@
+{
+  "title": "5.7 Path Following",
+  "description": "Continuing the quest to implement all of Craig Reynolds’ steering behaviors in JavaScript with p5.js, in this video I tackle path following!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "rlZYT-uvmGQ",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "5.5 Wander",
+  "description": "Craig Reynolds’ “Wander” steering behavior is one of my favorites! In this video, I implement my take on it in JavaScript with p5.js and encourage you to invent your own version!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "ujsR2vcJlLk",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

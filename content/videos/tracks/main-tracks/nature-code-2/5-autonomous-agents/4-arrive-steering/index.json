@@ -1,0 +1,13 @@
+{
+  "title": "5.4 Arrive Steering",
+  "description": "It’s finally time for me to tackle a JavaScript (p5.js) implementation of the “arrival” steering behavior from Craig Reynolds’ 1999 paper Steering Behaviors For Autonomous Characters!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "OxHJ-o_bbzs",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

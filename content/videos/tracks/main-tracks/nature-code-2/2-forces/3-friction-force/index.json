@@ -1,0 +1,13 @@
+{
+  "title": "2.3 Friction Force",
+  "description": "In this video, I cover how to read the formula for kinetic friction and incorporate it into a p5.js sketch with the Mover applyForce() function.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "WBdhAuWS6X8",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "3.6 Graphing Sine Wave",
+  "description": "What does a sine wave look like? In this video I look at how to graph and animate a sine wave in p5.js varying the period and phase.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "JLAc9hMtcxk",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

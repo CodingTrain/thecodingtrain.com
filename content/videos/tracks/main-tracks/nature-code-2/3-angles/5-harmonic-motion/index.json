@@ -1,0 +1,13 @@
+{
+  "title": "3.5 Harmonic Motion",
+  "description": "What is a sine wave? In this video, I demonstrate how to use the sin() function in p5.js to simulate simple harmonic motion.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "m463X1cqV6s",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

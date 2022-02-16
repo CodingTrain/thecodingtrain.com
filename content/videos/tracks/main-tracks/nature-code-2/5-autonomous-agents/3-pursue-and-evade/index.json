@@ -1,0 +1,13 @@
+{
+  "title": "5.3 Pursue & Evade",
+  "description": "Continuing my quest to explore all the steering behaviors from Craig Reynolds’ 1999 paper, in this video I tackle flee, pursue, and evade (all in JavaScript with p5.js).",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "Q4MU7pkDYmQ",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}

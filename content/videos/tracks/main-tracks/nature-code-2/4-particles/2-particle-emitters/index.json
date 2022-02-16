@@ -1,0 +1,13 @@
+{
+  "title": "4.2 Particle Emitters",
+  "description": "In this video, I add an Emitter class to further organize the array of particles and allow for multiple particle systems in a p5.js sketch.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "wDYD3JVtOys",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ]
+}
