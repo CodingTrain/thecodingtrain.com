@@ -10,21 +10,27 @@
   "codeExamples": [
     {
       "title": "Slide Puzzle with Image",
-      "language": "p5js",
-      "folder": "slide-puzzle-image",
-      "webEditor": "o_ljlLilZ"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/o_ljlLilZ",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-image"
+      }
     },
     {
       "title": "Slide Puzzle with Video",
-      "language": "p5js",
-      "folder": "slide-puzzle-video",
-      "webEditor": "YnLX7bGwW"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/YnLX7bGwW",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-video"
+      }
     },
     {
       "title": "Slide Puzzle with Canvas",
-      "language": "p5js",
-      "folder": "slide-puzzle-canvas",
-      "webEditor": "MVCd9trLw"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/MVCd9trLw",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-canvas"
+      }
     }
   ],
   "groupLinks": [

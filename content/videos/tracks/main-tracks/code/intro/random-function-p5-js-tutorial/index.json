@@ -16,36 +16,46 @@
     {
       "title": "Random Square Design",
       "description": "Using the random() function to draw randomly sized squares",
-      "image": "https://processing.org/static/b8793fda1d825d4d138038d97deff7a2/b2a35/GameOfLife.webp",
-      "language": "p5js",
-      "webEditor": "Sl8ml_Lz8"
+      "image": "GameOfLife.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Sl8ml_Lz8",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-square-design"
+      }
     },
     {
       "title": "Random House Exercise",
       "description": "Using the random() function to generate houses with different properties",
-      "image": "https://processing.org/static/39a9e64041c74f3e2dd0517ca771aaac/b2a35/KeyboardFunctions.webp",
-      "language": "p5js",
-      "webEditor": "HGq_S0Z5H"
+      "image": "KeyboardFunctions.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HGq_S0Z5H",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-house-exercise"
+      }
     },
     {
       "title": "Random Points",
       "description": "Drawing a field of points with random positions and colors",
-      "image": "https://processing.org/static/26b1ad7b87dc90e0c028286a0b5a93ec/b2a35/RotatePushPop.webp",
-      "language": "p5js",
-      "webEditor": "h7hFqoV6H"
+      "image": "RotatePushPop.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/h7hFqoV6H",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-points"
+      }
     },
     {
       "title": "Painting Exercise 1",
       "description": "Using mouse interaction to draw with a randomly generated paintbrush",
-      "image": "https://processing.org/static/2c7caa6aa416d60b626867770e914e7d/17574/Saturation.webp",
-      "language": "p5js",
-      "webEditor": "stERy5a1D"
+      "image": "Saturation.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/stERy5a1D",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/painting-exercise-1"
+      }
     },
     {
       "title": "Painting Exercise 2",
       "description": "A paintbrush that changes color and size as you draw",
-      "language": "p5js",
-      "webEditor": "IyyJ1QYKh"
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IyyJ1QYKh",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/painting-exercise-2"
+      }
     }
   ],
   "groupLinks": [

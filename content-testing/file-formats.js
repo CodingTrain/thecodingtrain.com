@@ -31,6 +31,7 @@ const video = {
             description: { type: 'string' },
             image: { type: 'string' },
             urls: {
+              isRequired: true,
               type: 'object',
               properties: {
                 p5: { type: 'string' },
