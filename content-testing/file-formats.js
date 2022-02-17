@@ -57,7 +57,8 @@ const video = {
                 properties: {
                   title: { isRequired: true, type: 'string' },
                   url: { isRequired: true, type: 'string' },
-                  author: { type: 'string' }
+                  icon: { type: 'string' },
+                  description: { type: 'string' }
                 }
               }
             }

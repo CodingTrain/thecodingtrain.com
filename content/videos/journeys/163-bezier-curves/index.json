@@ -103,12 +103,12 @@
       "links": [
         {
           "title": "Self Avoiding Walk - Coding Challenge 162",
-          "author": "The Coding Train",
+          "description": "by The Coding Train",
           "url": "/journeys/162-self-avoiding-walk"
         },
         {
           "title": "Time Table Cardioid - Coding Challenge 133",
-          "author": "The Coding Train",
+          "description": "by The Coding Train",
           "url": "/journeys/133-times-tables-cardioid"
         }
       ]

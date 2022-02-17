@@ -29,17 +29,17 @@
         {
           "title": "Algorithmic Botany",
           "url": "http://algorithmicbotany.org/",
-          "author": "University of Calgary"
+          "description": "by University of Calgary"
         },
         {
           "title": "Space Colonization Algorithm",
           "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
-          "author": "Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz"
+          "description": "by Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz"
         },
         {
           "title": "Nature of Code class on Kadenze",
           "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
-          "author": "author of content linked"
+          "description": "description of content linked"
         }
       ]
     }

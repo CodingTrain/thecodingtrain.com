@@ -108,7 +108,8 @@ type GroupLink implements Node {
 type Link implements Node {
   title: String!
   url: String!
-  author: String
+  icon: String
+  description: String
 }
 
 type CodeExample implements Node {

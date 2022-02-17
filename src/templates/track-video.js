@@ -160,9 +160,10 @@ export const query = graphql`
       groupLinks {
         title
         links {
+          icon
           title
           url
-          author
+          description
         }
       }
       canContribute

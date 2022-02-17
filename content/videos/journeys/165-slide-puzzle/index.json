@@ -44,10 +44,9 @@
           "description": "The Fisher-Yates shuffle is an algorithm for generating a random permutation of a finite sequence"
         },
         {
-          "icon": "✏️",
           "title": "copy()",
           "url": "https://p5js.org/reference/#/p5/copy",
-          "description:": "The full details about copy() are on the p5.js reference."
+          "description": "The full details about copy() are on the p5.js reference."
         }
       ]
     },
@@ -57,7 +56,6 @@
         {
           "icon": "🎥",
           "title": "Bending Time Slitscan (Challenge 164)",
-          "author": "The Coding Train",
           "description": "This video demonstrates how to use copy() for slitscan and time displacement.",
           "url": "/challenges/164-slitscan"
         }

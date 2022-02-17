@@ -243,6 +243,13 @@ const contentStructure = {
       isFileSensitive: false,
       isFolderSensitive: true,
       isRequired: true
+    },
+    templates: {
+      folders: {},
+      files: {},
+      isFileSensitive: false,
+      isFolderSensitive: false,
+      isRequired: false
     }
     // talks: {
     //   folders: {},

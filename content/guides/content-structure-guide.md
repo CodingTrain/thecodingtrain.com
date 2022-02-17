@@ -109,12 +109,12 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
         {
           "title": "Link 1 title",
           "url": "link 1 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         },
         {
           "title": "Link 2 title",
           "url": "link 2 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         }
       ]
     }
@@ -167,7 +167,11 @@ Group links are a more general abstraction for specifying related groups of link
 In the case of "Videos discussed" or whatever content that lives in the Coding Train site,
 instead of specifying the whole url to the resource, the URL can contain the sub-path in the site for that resource that starts with `/`.
 
-The `"author"` property is optional, but `"title"` and `"url"` are required.
+The `"description"` and `"icon"` properties are optional, but `"title"` and `"url"` are required.
+
+For now, `"icon"` expects a short emoji string that relates to the link. In the future this may also support adding coding train characters.
+
+`"description"` on the other hand can be a longish string that describes the link or something about it. It may also contain some HTML that will be parsed, so it may also contain anchor links related to the link. For example: `"By <a href='https://shiffman.net/' target='_blank' rel='noreferrer'> Dan Shiffman</a> and <a href='https://designsystems.international/' target='_blank' rel='noreferrer'> DSI</a>!"`.
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 
