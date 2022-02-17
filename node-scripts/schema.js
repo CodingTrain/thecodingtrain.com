@@ -14,7 +14,7 @@ interface VideoInterface implements Node {
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedJourneys: [Journey!] @link
@@ -34,7 +34,7 @@ type Video implements VideoInterface & Node {
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedJourneys: [Journey!] @link
@@ -54,7 +54,7 @@ type Journey implements VideoInterface & Node {
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedJourneys: [Journey!] @link
@@ -74,7 +74,7 @@ type GuestTutorial implements VideoInterface & Node {
   topics: [String!]
   languages: [String!]
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
   relatedJourneys: [Journey!] @link
@@ -113,10 +113,16 @@ type Link implements Node {
 
 type CodeExample implements Node {
   title: String!
-  language: String
-  codeUrl: String!
-  githubUrl: String!
-  editorUrl: String
+  description: String
+  image: CoverImage @link
+  urls: CodeUrls!
+}
+
+type CodeUrls implements Node {
+  p5: String
+  processing: String
+  node: String
+  other: String
 }
 
 type Author implements Node {
@@ -153,7 +159,7 @@ type Collaborator implements Node {
   name: String!
   type: String!
   url: String
-} 
+}
 
 type CoverImage implements Node {
   id: ID!

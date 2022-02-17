@@ -15,14 +15,11 @@
   "codeExamples": [
     {
       "title": "Code example 1 title",
-      "language": "p5js",
-      "folder": "code-folder-1",
-      "webEditor": "p5 editor code ID"
+      "urls": {}
     },
     {
       "title": "Code example 2 title",
-      "language": "processing",
-      "folder": "code-folder-2"
+      "urls": {}
     }
   ],
   "groupLinks": [

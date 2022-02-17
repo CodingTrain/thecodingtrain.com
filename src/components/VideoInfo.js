@@ -9,10 +9,12 @@ import * as css from './VideoInfo.module.css';
 
 const useLabels = (video) => {
   let labels = [];
+
   if (video.codeExamples && video.codeExamples.length > 0) {
     labels.push('CODE EXAMPLES');
   }
   labels.push('DESCRIPTION');
+
   labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
   return labels;
 };
@@ -23,9 +25,7 @@ const VideoInfo = ({ video, variant }) => {
     <div className={cn(css.root, { [css[variant]]: variant })}>
       <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
         {video.codeExamples && video.codeExamples.length > 0 && (
-          <div>
-            <CodeExampleList examples={video.codeExamples} variant={variant} />
-          </div>
+          <CodeExampleList examples={video.codeExamples} variant={variant} />
         )}
         <CollapsableDescription
           className={css.description}

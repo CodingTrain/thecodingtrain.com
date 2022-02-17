@@ -8,15 +8,13 @@
   "topics": ["For beginners"],
   "codeExamples": [
     {
-      "title": "p5.js",
-      "language": "p5js",
-      "folder": "P5",
-      "webEditor": "pseBrWaMm"
-    },
-    {
-      "title": "Processing",
-      "language": "processing",
-      "folder": "Processing"
+      "title": "Code",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/pseBrWaMm",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_077_Recursion/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_077_Recursion"
+      }
     }
   ],
   "groupLinks": [
@@ -25,19 +23,19 @@
       "links": [
         {
           "title": "The Fractal Geometry of Nature",
-		  "author": "Benoit Mandlebrot",
+          "author": "Benoit Mandlebrot",
           "url": "http://amzn.to/2xiVwht"
         },
 
-		{
-		  "title": "My playlist on fractals & recursion",
-		  "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
-		},
+        {
+          "title": "My playlist on fractals & recursion",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
+        },
 
-		{
-		  "title": "My Vido on Fractal Trees - Recursive",
-		  "url": "https://youtu.be/0jjeOYMjmDU"
-		}
+        {
+          "title": "My Vido on Fractal Trees - Recursive",
+          "url": "https://youtu.be/0jjeOYMjmDU"
+        }
       ]
     }
   ]

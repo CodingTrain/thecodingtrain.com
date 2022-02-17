@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'gatsby';
+
 import Menu from './Menu';
 
 import * as css from './TopBar.module.css';
@@ -10,7 +12,9 @@ const TopBar = () => {
     <div className={css.outer}>
       <div className={css.root}>
         <div className={css.logo}>
-          <Logo width={250} />
+          <Link to="/">
+            <Logo width={250} />
+          </Link>
         </div>
         <div className={css.clock}>🕛</div>
         <div className={css.date}>

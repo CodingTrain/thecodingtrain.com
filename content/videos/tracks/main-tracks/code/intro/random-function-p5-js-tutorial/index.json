@@ -15,28 +15,47 @@
   "codeExamples": [
     {
       "title": "Random Square Design",
-      "language": "p5js",
-      "webEditor": "Sl8ml_Lz8"
+      "description": "Using the random() function to draw randomly sized squares",
+      "image": "GameOfLife.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Sl8ml_Lz8",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-square-design"
+      }
     },
     {
       "title": "Random House Exercise",
-      "language": "p5js",
-	  "webEditor": "HGq_S0Z5H"
+      "description": "Using the random() function to generate houses with different properties",
+      "image": "KeyboardFunctions.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HGq_S0Z5H",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-house-exercise"
+      }
     },
     {
       "title": "Random Points",
-      "language": "p5js",
-	  "webEditor": "h7hFqoV6H"
+      "description": "Drawing a field of points with random positions and colors",
+      "image": "RotatePushPop.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/h7hFqoV6H",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-points"
+      }
     },
     {
       "title": "Painting Exercise 1",
-      "language": "p5js",
-	  "webEditor": "stERy5a1D"
+      "description": "Using mouse interaction to draw with a randomly generated paintbrush",
+      "image": "Saturation.webp",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/stERy5a1D",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/painting-exercise-1"
+      }
     },
     {
       "title": "Painting Exercise 2",
-      "language": "p5js",
-	  "webEditor": "IyyJ1QYKh"
+      "description": "A paintbrush that changes color and size as you draw",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IyyJ1QYKh",
+        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/painting-exercise-2"
+      }
     }
   ],
   "groupLinks": [
