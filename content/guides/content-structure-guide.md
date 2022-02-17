@@ -1,6 +1,6 @@
 # Content structure guide for The Coding Train team
 
-_Last update: February 16th 2022_
+_Last update: February 17th 2022_
 
 On december 3rd 2021, we decided to start adding real content to this project. This guide serves as a way to understand how the workflow feels and if the content structure may need to be changed.
 
@@ -45,8 +45,9 @@ Each video, whatever flavor of video they are, follow a similar folder structure
 [videos|journeys]
 └─ video-slug
    ├─ index.json
-   ├─ src
-   │  ├─ code-folder-1
+   ├─ images
+   │  ├─ image1.png
+   │  ├─ image2.jpg
    │  └─ ...
    └─ contributions
       ├─ contribution-slug-1.json
@@ -57,7 +58,7 @@ Each video, whatever flavor of video they are, follow a similar folder structure
 
 - `video-slug/` contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions, and they also become part of the path to their video player pages.
 - `video-slug/index.json` contains the main metadata for the video: title, description, YouTube video ID, etc...
-- `video-slug/src/` contains subfolders with source code related to the video and can be referenced in `video-slug/index.json` as code examples.
+- `video-slug/images/` contains images specific to the video and can be referenced in `video-slug/index.json` as code example thumbnails.
 - `video-slug/contributions/` contains all metadata for contributions that viewers send and are accepted into the site.
 - `video-slug/contributions/contribution-slug.json` contains the metadata for the contribution: title, author information, links to code or live versions, etc...
 
@@ -153,7 +154,7 @@ This property let's us link journeys to a specific video in any way see fit. It'
 
 `"codeExamples"` are thought to contain objects that reference the main code shown in the video. Referenced images can be contained in the corresponding `images/` folder in the video's directory.
 
-- `"image"` should directly reference a subfolder inside of `src/`.
+- `"image"` should directly reference a subfolder inside of `images/`.
 - `"urls"` contain all code sources specific to that code example `"p5"`, `"processing"` or `"node"` are possible languages we support, and `"other"` is a fallback option.
 
 If `"codeExamples"` isn't set, it will default to an empty array.
