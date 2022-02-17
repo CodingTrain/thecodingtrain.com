@@ -7,7 +7,12 @@ import * as css from './ShareButton.module.css';
 
 import ShareIcon from '../images/share.svg';
 
-export const ShareButton = ({ className, variant, onClick }) => {
+export const ShareButton = ({
+  className,
+  variant,
+  onClick,
+  text = 'Share'
+}) => {
   const classes = classnames(css.root, className, {
     [css[variant]]: css[variant]
   });
@@ -15,7 +20,7 @@ export const ShareButton = ({ className, variant, onClick }) => {
   return (
     <Button className={classes}>
       <ShareIcon />
-      <span>Share</span>
+      {text && <span>{text}</span>}
     </Button>
   );
 };

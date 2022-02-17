@@ -30,12 +30,12 @@ const contentStructure = {
                   isFileSensitive: false,
                   isFolderSensitive: true
                 },
-                src: {
+                images: {
                   files: {},
                   folder: {},
                   isRequired: false,
                   isFileSensitive: false,
-                  isFolderSensitive: false
+                  isFolderSensitive: true
                 }
               },
               files: {
@@ -78,12 +78,12 @@ const contentStructure = {
               isFileSensitive: false,
               isFolderSensitive: true
             },
-            src: {
+            images: {
               files: {},
               folder: {},
               isRequired: false,
               isFileSensitive: false,
-              isFolderSensitive: false
+              isFolderSensitive: true
             }
           },
           files: {
@@ -113,13 +113,13 @@ const contentStructure = {
         //           isFileSensitive: false,
         //           isFolderSensitive: true
         //         },
-        //         src: {
-        //           files: {},
-        //           folder: {},
-        //           isRequired: false,
-        //           isFileSensitive: false,
-        //           isFolderSensitive: false
-        //         }
+        // images: {
+        //   files: {},
+        //   folder: {},
+        //   isRequired: false,
+        //   isFileSensitive: false,
+        //   isFolderSensitive: true
+        // }
         //       },
         //       files: {
         //         'index.json': {
