@@ -119,7 +119,9 @@ const ChallengesPage = ({ data, pageContext, location }) => {
         <div className={css.paginationNav}>
           <span>
             {pageContext.previousPagePath && (
-              <Link to={pageContext.previousPagePath}>{'<'} Previous</Link>
+              <Link to={pageContext.previousPagePath} state={{ expanded }}>
+                {'<'} Previous
+              </Link>
             )}
           </span>
           <span>
@@ -127,7 +129,9 @@ const ChallengesPage = ({ data, pageContext, location }) => {
           </span>
           <span>
             {pageContext.nextPagePath && (
-              <Link to={pageContext.nextPagePath}>Next {'>'} </Link>
+              <Link to={pageContext.nextPagePath} state={{ expanded }}>
+                Next {'>'}{' '}
+              </Link>
             )}
           </span>
         </div>
