@@ -94,7 +94,6 @@ exports.createVideoRelatedNode = (
     }));
     const languages = data.languages ?? [];
     const topics = data.topics ?? [];
-
     const newNode = Object.assign({}, data, {
       id: createNodeId(`--videos/${slugPrefix}${slug}`),
       parent: node.id,
@@ -116,7 +115,9 @@ exports.createVideoRelatedNode = (
       canContribute: data.canContribute ?? schemaType === 'Challenge',
       contributions: contributions.map((file) => createNodeId(file)),
       relatedJourneys: (data.relatedJourneys ?? []).map((slug) =>
-        createNodeId(slug.includes('journeys') ? slug : `journeys/${slug}`)
+        createNodeId(
+          `--videos/${slug.includes('journeys') ? slug : `journeys/${slug}`}`
+        )
       ),
       cover: createNodeId(`cover-image/${slugPrefix}${slug}`),
       source: `${type}s`,

@@ -6,14 +6,22 @@
   flex-basis: 50%;
 }
 
-.challengeList {
-  margin: 0;
-  & li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: var(--baseline);
-  }
+.challenges {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horizontalSpacer {
+  flex-grow: 1;
+  border-bottom: var(--border-cyan);
+  border-left: var(--border-cyan);
+}
+
+.verticalSpacer {
+  flex: 100%;
+  height: var(--baseline);
+  border-bottom: var(--border-cyan);
+  border-left: var(--border-cyan);
 }
 
 .noItemsMessage {

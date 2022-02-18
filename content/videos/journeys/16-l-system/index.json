@@ -6,6 +6,7 @@
   "date": "2016-05-31",
   "languages": ["JavaScript", "p5.js", "Processing"],
   "topics": ["For beginners"],
+  "relatedJourneys": ["165-slide-puzzle", "163-bezier-curves"],
   "codeExamples": [
     {
       "title": "Code",

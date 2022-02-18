@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { graphql, Link, navigate } from 'gatsby';
 import Layout from '../components/Layout';
 
@@ -7,6 +7,7 @@ import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
 import Filter from '../components/Filter';
 import Spacer from '../components/Spacer';
+import Card from '../components/challenges/Card';
 
 import * as css from './challenges.module.css';
 
@@ -104,13 +105,15 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       </div>
       <Spacer />
       {challenges.length > 0 ? (
-        <ul className={css.challengeList}>
+        <div className={css.challenges}>
           {challenges.map((challenge, i) => (
-            <li key={i}>
-              <Link to={`/challenge/${challenge.slug}`}>{challenge.title}</Link>
-            </li>
+            <Fragment key={i}>
+              <Card challenge={challenge} />
+              {i % 2 !== 1 && <div className={css.horizontalSpacer}></div>}
+              {i % 2 !== 0 && <div className={css.verticalSpacer}></div>}
+            </Fragment>
           ))}
-        </ul>
+        </div>
       ) : (
         <p className={css.noItemsMessage}>No challenges found!</p>
       )}
@@ -154,8 +157,15 @@ export const query = graphql`
       nodes {
         title
         slug
-        topics
-        languages
+        description
+        date
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
       }
     }
     images: allFile(
