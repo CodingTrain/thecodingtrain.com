@@ -30,7 +30,7 @@ const Challenge = ({ data }) => {
         className={css.breadcrumbs}
         breadcrumbs={[
           { name: 'Challenges', link: '/challenges' },
-          { name: challenge.title, link: `/challenges/${challenge.slug}` }
+          { name: challenge.title, link: `/challenge/${challenge.slug}` }
         ]}
         variant="cyan"
       />

@@ -92,13 +92,17 @@ exports.createVideoRelatedNode = (
       ...timestamp,
       seconds: parseTimestamp(timestamp.time)
     }));
+    const languages = data.languages ?? [];
+    const topics = data.topics ?? [];
 
     const newNode = Object.assign({}, data, {
       id: createNodeId(`--videos/${slugPrefix}${slug}`),
       parent: node.id,
       slug,
-      languages: data.languages ?? [],
-      topics: data.topics ?? [],
+      languages,
+      languagesFlat: languages.join(),
+      topics,
+      topicsFlat: topics.join(),
       timestamps,
       codeExamples: (data.codeExamples ?? []).map((example) => ({
         ...example,
@@ -122,6 +126,37 @@ exports.createVideoRelatedNode = (
       }
     });
     createNode(newNode);
+
+    for (let tag of newNode.languages) {
+      const content = {
+        id: createNodeId(`--tag/${tag}`),
+        parent: node.id,
+        type: 'language',
+        value: tag
+      };
+      createNode({
+        ...content,
+        internal: {
+          type: 'Tag',
+          contentDigest: createContentDigest(content)
+        }
+      });
+    }
+    for (let tag of newNode.topics) {
+      const content = {
+        id: createNodeId(`--tag/${tag}`),
+        parent: node.id,
+        type: 'topic',
+        value: tag
+      };
+      createNode({
+        ...content,
+        internal: {
+          type: 'Tag',
+          contentDigest: createContentDigest(content)
+        }
+      });
+    }
   }
 };
 

@@ -1,10 +1,14 @@
+const { paginate } = require('gatsby-awesome-pagination');
+
 /**
  * Creates single Challenge pages for all loaded Challenge nodes
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
 exports.createJourneyPages = async (graphql, createPage) => {
-  const { data } = await graphql(`
+  const {
+    data: { challenges }
+  } = await graphql(`
     query {
       challenges: allJourney {
         nodes {
@@ -15,16 +19,81 @@ exports.createJourneyPages = async (graphql, createPage) => {
     }
   `);
 
-  data.challenges.nodes.forEach((challenge) => {
+  challenges.nodes.forEach((challenge) => {
     // Passes context variables for querying corresponding
     // challenge, contributions and images in front-end
     createPage({
-      path: `challenges/${challenge.slug}`,
+      path: `challenge/${challenge.slug}`,
       component: require.resolve(`../src/templates/challenge.js`),
       context: {
         id: challenge.id,
         slug: challenge.slug
       }
+    });
+  });
+
+  paginate({
+    createPage,
+    items: challenges.nodes,
+    itemsPerPage: 2,
+    pathPrefix: '/challenges',
+    component: require.resolve(`../src/templates/challenges.js`),
+    context: {
+      topic: '',
+      language: ''
+    }
+  });
+
+  const {
+    data: { languages, topics }
+  } = await graphql(`
+    query {
+      languages: allTag(filter: { type: { eq: "language" } }) {
+        nodes {
+          value
+        }
+      }
+      topics: allTag(filter: { type: { eq: "topic" } }) {
+        nodes {
+          value
+        }
+      }
+    }
+  `);
+
+  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
+    const langRegex = `/.*${language}.*/`;
+    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
+      const topRegex = `/.*${topic}.*/`;
+      const {
+        data: { filteredChallenges }
+      } = await graphql(`
+        query {
+          filteredChallenges: allJourney (
+            filter: {
+              languagesFlat: {regex: "${langRegex}"}
+              topicsFlat: {regex: "${topRegex}"}
+            }
+          ) {
+            nodes {
+              id
+              slug
+            }
+          }
+        }
+      `);
+
+      paginate({
+        createPage,
+        items: filteredChallenges.nodes,
+        itemsPerPage: 2,
+        pathPrefix: `/challenges/lang-${language}-top-${topic}`,
+        component: require.resolve(`../src/templates/challenges.js`),
+        context: {
+          topic: topRegex,
+          language: langRegex
+        }
+      });
     });
   });
 };

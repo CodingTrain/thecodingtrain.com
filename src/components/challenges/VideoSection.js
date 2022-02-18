@@ -41,8 +41,18 @@ const VideoSection = ({ challenge }) => {
           className={cn(css.details, {
             [css.unCollapsed]: showTimeline
           })}>
-          <Tags className={css.tags} heading="Languages" items={languages} />
-          <Tags className={css.tags} heading="Topics" items={topics} />
+          <Tags
+            className={css.tags}
+            heading="Languages"
+            items={languages}
+            linkTo={(value) => `/challenges/lang-${value}-top-`}
+          />
+          <Tags
+            className={css.tags}
+            heading="Topics"
+            items={topics}
+            linkTo={(value) => `/challenges/lang--top-${value}`}
+          />
 
           <ShareButton
             className={cn(css.share, {

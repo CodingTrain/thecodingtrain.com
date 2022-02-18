@@ -1,0 +1,61 @@
+.filters {
+  display: flex;
+}
+
+.filter {
+  flex-basis: 50%;
+}
+
+.challengeList {
+  margin: 0;
+  & li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--baseline);
+  }
+}
+
+.noItemsMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border-bottom: var(--border-cyan);
+  border-left: var(--border-cyan);
+  height: var(--baseline);
+}
+
+.paginationNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--baseline-3x);
+  color: var(--cyan);
+  background: white;
+  border-bottom: var(--border-cyan);
+  border-left: var(--border-cyan);
+  & span {
+    display: inline-flex;
+    justify-content: center;
+    width: 100px;
+    height: var(--baseline);
+    line-height: var(--baseline);
+  }
+}
+
+@media (--medium) {
+  .filters {
+    flex-wrap: wrap;
+  }
+
+  .filter {
+    flex-basis: 100%;
+  }
+}
+
+@media (--small) {
+  .breadcrumbs {
+    display: none;
+  }
+}
