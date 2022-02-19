@@ -30,6 +30,7 @@
     "gatsby-source-filesystem": "^3.12.0",
     "gatsby-transformer-json": "^3.13.0",
     "gatsby-transformer-sharp": "^3.12.0",
+    "html-react-parser": "^1.4.8",
     "postcss": "^8.3.6",
     "postcss-calc": "^8.0.0",
     "postcss-custom-media": "^8.0.0",
@@ -45,9 +46,9 @@
     "react-youtube": "^7.13.1"
   },
   "devDependencies": {
-    "lodash": "^4.17.21",
     "jest": "^27.4.5",
-    "jest-extended": "^1.2.0"
+    "jest-extended": "^1.2.0",
+    "lodash": "^4.17.21"
   },
   "jest": {
     "bail": 0,

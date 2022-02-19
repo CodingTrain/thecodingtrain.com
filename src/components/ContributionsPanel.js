@@ -11,7 +11,7 @@ const ContributionsPanel = ({ contributions, placeholderImage }) => {
   const description =
     contributions.length > 0
       ? 'What our community has done based on this video'
-      : 'No contributions done yet!';
+      : 'No contributions submitted yet!';
   return (
     <div className={css.root}>
       <div className={css.titleBox}>

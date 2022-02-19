@@ -9,45 +9,59 @@
   "codeExamples": [
     {
       "title": "Basic",
-      "language": "p5js",
-      "folder": "basic-bezier",
-      "webEditor": "Z53a719cQ"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier"
+      }
     },
     {
       "title": "Editor by Simon Tiger",
-      "language": "p5js",
-      "folder": "bezier-editor",
-      "webEditor": "_R7RgtGfA"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor"
+      }
     },
     {
       "title": "bezierVertex",
-      "language": "p5js",
-      "folder": "bezier-vertex",
-      "webEditor": "O3_cLiOaw"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex"
+      }
     },
     {
       "title": "Time Table Cardioid with Bezier",
-      "language": "p5js",
-      "folder": "cardioid-bezier",
-      "webEditor": "kZ8dpklQg"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier"
+      }
     },
     {
       "title": "Quadratic",
-      "language": "p5js",
-      "folder": "quadratic",
-      "webEditor": "fJIMDmHcE"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic"
+      }
     },
     {
       "title": "Cubic",
-      "language": "p5js",
-      "folder": "cubic",
-      "webEditor": "S1Pt8lol1"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic"
+      }
     },
     {
       "title": "Bezier with Formula",
-      "language": "p5js",
-      "folder": "bezier-formula",
-      "webEditor": "0XOLNHbvC"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/0XOLNHbvC",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula"
+      }
     }
   ],
   "groupLinks": [
@@ -89,12 +103,12 @@
       "links": [
         {
           "title": "Self Avoiding Walk - Coding Challenge 162",
-          "author": "The Coding Train",
+          "description": "by The Coding Train",
           "url": "/journeys/162-self-avoiding-walk"
         },
         {
           "title": "Time Table Cardioid - Coding Challenge 133",
-          "author": "The Coding Train",
+          "description": "by The Coding Train",
           "url": "/journeys/133-times-tables-cardioid"
         }
       ]

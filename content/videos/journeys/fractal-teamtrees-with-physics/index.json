@@ -23,14 +23,11 @@
   "codeExamples": [
     {
       "title": "Code example 1 title",
-      "language": "p5js",
-      "folder": "code-folder-1",
-      "webEditor": "p5 editor code ID"
+      "urls": {}
     },
     {
       "title": "Code example 2 title",
-      "language": "processing",
-      "folder": "code-folder-2"
+      "urls": {}
     }
   ],
   "groupLinks": [
@@ -40,12 +37,12 @@
         {
           "title": "Link 1 title",
           "url": "link 1 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         },
         {
           "title": "Link 2 title",
           "url": "link 2 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         }
       ]
     }

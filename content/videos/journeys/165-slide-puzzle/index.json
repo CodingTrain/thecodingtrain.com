@@ -10,21 +10,27 @@
   "codeExamples": [
     {
       "title": "Slide Puzzle with Image",
-      "language": "p5js",
-      "folder": "slide-puzzle-image",
-      "webEditor": "o_ljlLilZ"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/o_ljlLilZ",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-image"
+      }
     },
     {
       "title": "Slide Puzzle with Video",
-      "language": "p5js",
-      "folder": "slide-puzzle-video",
-      "webEditor": "YnLX7bGwW"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/YnLX7bGwW",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-video"
+      }
     },
     {
       "title": "Slide Puzzle with Canvas",
-      "language": "p5js",
-      "folder": "slide-puzzle-canvas",
-      "webEditor": "MVCd9trLw"
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/MVCd9trLw",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-canvas"
+      }
     }
   ],
   "groupLinks": [
@@ -38,10 +44,9 @@
           "description": "The Fisher-Yates shuffle is an algorithm for generating a random permutation of a finite sequence"
         },
         {
-          "icon": "✏️",
           "title": "copy()",
           "url": "https://p5js.org/reference/#/p5/copy",
-          "description:": "The full details about copy() are on the p5.js reference."
+          "description": "The full details about copy() are on the p5.js reference."
         }
       ]
     },
@@ -51,7 +56,6 @@
         {
           "icon": "🎥",
           "title": "Bending Time Slitscan (Challenge 164)",
-          "author": "The Coding Train",
           "description": "This video demonstrates how to use copy() for slitscan and time displacement.",
           "url": "/challenges/164-slitscan"
         }

@@ -1,6 +1,6 @@
 # Content structure guide for The Coding Train team
 
-_Last update: February 8th 2022_
+_Last update: February 17th 2022_
 
 On december 3rd 2021, we decided to start adding real content to this project. This guide serves as a way to understand how the workflow feels and if the content structure may need to be changed.
 
@@ -45,8 +45,9 @@ Each video, whatever flavor of video they are, follow a similar folder structure
 [videos|journeys]
 └─ video-slug
    ├─ index.json
-   ├─ src
-   │  ├─ code-folder-1
+   ├─ images
+   │  ├─ image1.png
+   │  ├─ image2.jpg
    │  └─ ...
    └─ contributions
       ├─ contribution-slug-1.json
@@ -57,7 +58,7 @@ Each video, whatever flavor of video they are, follow a similar folder structure
 
 - `video-slug/` contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions, and they also become part of the path to their video player pages.
 - `video-slug/index.json` contains the main metadata for the video: title, description, YouTube video ID, etc...
-- `video-slug/src/` contains subfolders with source code related to the video and can be referenced in `video-slug/index.json` as code examples.
+- `video-slug/images/` contains images specific to the video and can be referenced in `video-slug/index.json` as code example thumbnails.
 - `video-slug/contributions/` contains all metadata for contributions that viewers send and are accepted into the site.
 - `video-slug/contributions/contribution-slug.json` contains the metadata for the contribution: title, author information, links to code or live versions, etc...
 
@@ -75,7 +76,7 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
-  "relatedJourneys": ["journey-1-slug", "journey-2-slug"]
+  "relatedJourneys": ["journey-1-slug", "journey-2-slug"],
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },
@@ -84,14 +85,21 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "codeExamples": [
     {
       "title": "Code example 1 title",
-      "language": "p5js",
-      "folder": "code-folder-1",
-      "webEditor": "p5 editor code ID"
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "url to p5 editor or code",
+        "processing": "url to processing sketch",
+        "other": "url to other source, like GitHub"
+      }
     },
     {
       "title": "Code example 2 title",
-      "language": "processing",
-      "folder": "code-folder-2"
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "other": "url to other source, like GitHub"
+      }
     }
   ],
   "groupLinks": [
@@ -101,12 +109,12 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
         {
           "title": "Link 1 title",
           "url": "link 1 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         },
         {
           "title": "Link 2 title",
           "url": "link 2 url",
-          "author": "author of content linked"
+          "description": "description of content linked"
         }
       ]
     }
@@ -144,12 +152,10 @@ This property let's us link journeys to a specific video in any way see fit. It'
 
 #### Code examples
 
-`"codeExamples"` are thought to contain objects that reference the main code shown in the video,
-and that are contained in the corresponding `src/` folder in the video's directory.
+`"codeExamples"` are thought to contain objects that reference the main code shown in the video. Referenced images can be contained in the corresponding `images/` folder in the video's directory.
 
-- `"folder"` should directly reference a subfolder inside of `src/`.
-- `"language"` is the main language, framework or library being used. We are currently considering values `"p5js"`, `"node"` and `"processing"`. Please let us know if more should be added to add the corresponding image icons.
-- `"webEditor"` is only considered for p5.js editors, and is an optional property. In a similar fashion to YouTube video ID's this property only expects the ID at the end of a p5 coding train sketch URL.
+- `"image"` should directly reference a subfolder inside of `images/`.
+- `"urls"` contain all code sources specific to that code example `"p5"`, `"processing"` or `"node"` are possible languages we support, and `"other"` is a fallback option.
 
 If `"codeExamples"` isn't set, it will default to an empty array.
 
@@ -161,7 +167,11 @@ Group links are a more general abstraction for specifying related groups of link
 In the case of "Videos discussed" or whatever content that lives in the Coding Train site,
 instead of specifying the whole url to the resource, the URL can contain the sub-path in the site for that resource that starts with `/`.
 
-The `"author"` property is optional, but `"title"` and `"url"` are required.
+The `"description"` and `"icon"` properties are optional, but `"title"` and `"url"` are required.
+
+For now, `"icon"` expects a short emoji string that relates to the link. In the future this may also support adding coding train characters.
+
+`"description"` on the other hand can be a longish string that describes the link or something about it. It may also contain some HTML that will be parsed, so it may also contain anchor links related to the link. For example: `"By <a href='https://shiffman.net/' target='_blank' rel='noreferrer'> Dan Shiffman</a> and <a href='https://designsystems.international/' target='_blank' rel='noreferrer'> DSI</a>!"`.
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 

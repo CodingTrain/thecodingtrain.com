@@ -142,17 +142,28 @@ export const query = graphql`
       }
       codeExamples {
         title
-        language
-        codeUrl
-        githubUrl
-        editorUrl
+        description
+        image {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+        urls {
+          p5
+          processing
+          node
+          other
+        }
       }
       groupLinks {
         title
         links {
+          icon
           title
           url
-          author
+          description
         }
       }
       canContribute

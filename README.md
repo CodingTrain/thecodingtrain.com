@@ -7,7 +7,7 @@ This repo holds the website for thecodingtrain.com. The website is built with:
 
 ## Table of Contents
 
-- **[Content Structure Guide](/content/content-structure-guide.md)**. This guide walk you through the process of adding content to the website.
+- **[Content Structure Guide](/content/guides/content-structure-guide.md)**. This guide walk you through the process of adding content to the website.
 
 ## Development info
 
