@@ -8,15 +8,19 @@ import PagePanel from '../components/PagePanel';
 import Filter from '../components/Filter';
 import Spacer from '../components/Spacer';
 import Card from '../components/challenges/Card';
+import Button from '../components/Button';
 
 import * as css from './challenges.module.css';
+
+import SemiColon from '../images/SemiColon_3.svg';
+import SquareBrackets from '../images/SquareBrackets_4.svg';
 
 const useSelectedTags = (pathname) => {
   const splittedString = pathname.replace('%20', ' ').split('/');
   const filterString =
     splittedString[2] && splittedString[2].includes('+')
       ? splittedString[2]
-      : 'lang:+topic:';
+      : 'lang:all+topic:all';
   const [languageFilter, topicFilter] = filterString.split('+');
   return [languageFilter.split(':')[1], topicFilter.split(':')[1]];
 };
@@ -47,14 +51,20 @@ const ChallengesPage = ({ data, pageContext, location }) => {
     setExpanded((expanded) => !expanded);
   };
 
+  const resetFilters = () => {
+    navigate(`/challenges/lang:all+topic:all/`, {
+      state: { expanded }
+    });
+  };
+
   const setSelectedLanguage = (value) => {
-    navigate(`/challenges/lang:${value ?? ''}+topic:${selectedTopic}/`, {
+    navigate(`/challenges/lang:${value ?? 'all'}+topic:${selectedTopic}/`, {
       state: { expanded }
     });
   };
 
   const setSelectedTopic = (value) => {
-    navigate(`/challenges/lang:${selectedLanguage}+topic:${value ?? ''}/`, {
+    navigate(`/challenges/lang:${selectedLanguage}+topic:${value ?? 'all'}/`, {
       state: { expanded }
     });
   };
@@ -139,9 +149,11 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       ) : (
         <div className={css.noItemsMessage}>
           <p>No challenges found! </p>
-          <p>
-            <Link to={`/challenges/lang:+topic:/`}>Click to reset filters</Link>
-          </p>
+          <Button variant="cyan" onClick={() => resetFilters()}>
+            Reset filters
+          </Button>
+          <SemiColon className={css.semiColon} />
+          <SquareBrackets className={css.squareBrackets} />
         </div>
       )}
     </Layout>
