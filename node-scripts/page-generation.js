@@ -87,7 +87,7 @@ exports.createJourneyPages = async (graphql, createPage) => {
         createPage,
         items: filteredChallenges.nodes,
         itemsPerPage: 3,
-        pathPrefix: `/challenges/lang-${language}-top-${topic}`,
+        pathPrefix: `/challenges/lang:${language}+topic:${topic}`,
         component: require.resolve(`../src/templates/challenges.js`),
         context: {
           topic: topRegex,

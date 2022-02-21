@@ -14,11 +14,11 @@ import * as css from './challenges.module.css';
 const useSelectedTags = (pathname) => {
   const splittedString = pathname.replace('%20', ' ').split('/');
   const filterString =
-    splittedString[2] && splittedString[2].includes('-')
+    splittedString[2] && splittedString[2].includes('+')
       ? splittedString[2]
-      : 'lang--top-';
-  const splittedFilter = filterString.split('-');
-  return [splittedFilter[1], splittedFilter[3]];
+      : 'lang:+topic:';
+  const [languageFilter, topicFilter] = filterString.split('+');
+  return [languageFilter.split(':')[1], topicFilter.split(':')[1]];
 };
 
 const ChallengesPage = ({ data, pageContext, location }) => {
@@ -48,13 +48,13 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   };
 
   const setSelectedLanguage = (value) => {
-    navigate(`/challenges/lang-${value ?? ''}-top-${selectedTopic}/`, {
+    navigate(`/challenges/lang:${value ?? ''}+topic:${selectedTopic}/`, {
       state: { expanded }
     });
   };
 
   const setSelectedTopic = (value) => {
-    navigate(`/challenges/lang-${selectedLanguage}-top-${value ?? ''}/`, {
+    navigate(`/challenges/lang:${selectedLanguage}+topic:${value ?? ''}/`, {
       state: { expanded }
     });
   };
@@ -104,7 +104,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
         />
       </div>
       <Spacer />
-      {challenges.length > 0 ? (
+      {challenges.length > 0 && (
         <div className={css.challenges}>
           {challenges.map((challenge, i) => (
             <Fragment key={i}>
@@ -114,11 +114,9 @@ const ChallengesPage = ({ data, pageContext, location }) => {
             </Fragment>
           ))}
         </div>
-      ) : (
-        <p className={css.noItemsMessage}>No challenges found!</p>
       )}
 
-      {challenges.length > 0 && (
+      {challenges.length > 0 ? (
         <div className={css.paginationNav}>
           <span>
             {pageContext.previousPagePath && (
@@ -137,6 +135,13 @@ const ChallengesPage = ({ data, pageContext, location }) => {
               </Link>
             )}
           </span>
+        </div>
+      ) : (
+        <div className={css.noItemsMessage}>
+          <p>No challenges found! </p>
+          <p>
+            <Link to={`/challenges/lang:+topic:/`}>Click to reset filters</Link>
+          </p>
         </div>
       )}
     </Layout>

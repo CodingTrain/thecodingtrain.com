@@ -45,13 +45,13 @@ const VideoSection = ({ challenge }) => {
             className={css.tags}
             heading="Languages"
             items={languages}
-            linkTo={(value) => `/challenges/lang-${value}-top-`}
+            linkTo={(value) => `/challenges/lang:${value}+topic:`}
           />
           <Tags
             className={css.tags}
             heading="Topics"
             items={topics}
-            linkTo={(value) => `/challenges/lang--top-${value}`}
+            linkTo={(value) => `/challenges/lang:+topic:${value}`}
           />
 
           <ShareButton

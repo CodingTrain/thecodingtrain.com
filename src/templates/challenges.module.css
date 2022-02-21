@@ -26,12 +26,23 @@
 
 .noItemsMessage {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
-  height: var(--baseline);
+  height: var(--baseline-3x);
+  background-color: white;
+
+  & p {
+    margin: 0;
+  }
+
+  & a {
+    color: var(--cyan);
+    text-decoration: underline;
+  }
 }
 
 .paginationNav {
