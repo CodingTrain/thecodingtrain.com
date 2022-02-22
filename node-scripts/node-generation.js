@@ -161,6 +161,41 @@ exports.createVideoRelatedNode = (
   }
 };
 
+const computeTrackTags = (trackDirectory, type) => {
+  const languages = new Set();
+  const topics = new Set();
+  const trackPath = `../content/tracks/${type}/${trackDirectory}/index.json`;
+
+  let trackData;
+  try {
+    trackData = require(trackPath);
+  } catch (error) {
+    console.log(`Couldn't tag load of track ${trackPath}`);
+  }
+  if (trackData !== undefined) {
+    let videos = [];
+    if (type === 'main-tracks') {
+      trackData.chapters.forEach((chapter) => {
+        chapter.videos.forEach((video) => videos.push(video));
+      });
+    } else {
+      videos = trackData.videos;
+    }
+    videos = videos.map((slug) => `../content/videos/${slug}/index.json`);
+    for (let video of videos) {
+      try {
+        const videoData = require(video);
+        videoData.languages.forEach((lang) => languages.add(lang));
+        videoData.topics.forEach((topic) => languages.add(topic));
+      } catch (e) {
+        console.log(`Couldn't read tags of video ${video}`);
+      }
+    }
+  }
+
+  return [languages, topics].map((s) => [...s]);
+};
+
 /**
  * Creates Track node from JSON file node
  * @param {function} createNode - Gatsby's createNode function
@@ -190,6 +225,7 @@ exports.createTrackRelatedNode = (
       for (let i = 0; i < node.chapters.length; i++) {
         const chapter = node.chapters[i];
         const data = omit(chapter, ['videos']);
+
         const newNode = Object.assign({}, data, {
           id: createNodeId(`${slug}/${data.title}`),
           parent: id,
@@ -206,6 +242,11 @@ exports.createTrackRelatedNode = (
         numVideos += chapter.videos.length;
       }
     }
+    const [languages, topics] = computeTrackTags(
+      parent.relativeDirectory,
+      trackType
+    );
+    console.log({ languages, topics });
     const newNode = Object.assign({}, data, {
       id,
       parent: node.id,
@@ -214,6 +255,10 @@ exports.createTrackRelatedNode = (
       chapters: chapters.map((ch) => ch.id),
       numVideos,
       cover: createNodeId(`cover-image/main-tracks/${slug}`),
+      languages,
+      languagesFlat: languages.join(),
+      topics,
+      topicsFlat: topics.join(),
       internal: {
         type: `Track`,
         contentDigest: createContentDigest(data)
@@ -228,6 +273,11 @@ exports.createTrackRelatedNode = (
   } else if (type === 'side') {
     // Side tracks only reference videos by slug
     numVideos += data.videos.length;
+    const [languages, topics] = computeTrackTags(
+      parent.relativeDirectory,
+      trackType
+    );
+    console.log({ languages, topics });
     const newNode = Object.assign({}, data, {
       id,
       parent: node.id,
@@ -238,6 +288,10 @@ exports.createTrackRelatedNode = (
       ),
       numVideos,
       cover: createNodeId(`cover-image/side-tracks/${slug}`),
+      languages,
+      languagesFlat: languages.join(),
+      topics,
+      topicsFlat: topics.join(),
       internal: {
         type: `Track`,
         contentDigest: createContentDigest(data)
