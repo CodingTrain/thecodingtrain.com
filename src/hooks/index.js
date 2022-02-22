@@ -38,3 +38,13 @@ export const useTopicsAndLanguages = ({ type, videos, chapters }) => {
     return { topics, languages };
   }, [type, videos, chapters]);
 };
+
+export const useSelectedTags = (pathname) => {
+  const splittedString = pathname.replace('%20', ' ').split('/');
+  const filterString =
+    splittedString[2] && splittedString[2].includes('+')
+      ? splittedString[2]
+      : 'lang:all+topic:all';
+  const [languageFilter, topicFilter] = filterString.split('+');
+  return [languageFilter.split(':')[1], topicFilter.split(':')[1]];
+};

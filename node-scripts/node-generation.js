@@ -186,7 +186,7 @@ const computeTrackTags = (trackDirectory, type) => {
       try {
         const videoData = require(video);
         videoData.languages.forEach((lang) => languages.add(lang));
-        videoData.topics.forEach((topic) => languages.add(topic));
+        videoData.topics.forEach((topic) => topics.add(topic));
       } catch (e) {
         console.log(`Couldn't read tags of video ${video}`);
       }
@@ -246,7 +246,6 @@ exports.createTrackRelatedNode = (
       parent.relativeDirectory,
       trackType
     );
-    console.log({ languages, topics });
     const newNode = Object.assign({}, data, {
       id,
       parent: node.id,
@@ -277,7 +276,6 @@ exports.createTrackRelatedNode = (
       parent.relativeDirectory,
       trackType
     );
-    console.log({ languages, topics });
     const newNode = Object.assign({}, data, {
       id,
       parent: node.id,

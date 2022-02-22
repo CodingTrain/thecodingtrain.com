@@ -27,8 +27,18 @@ const Header = ({ track }) => {
           content={description}
         />
         <div className={css.tagsContainer}>
-          <Tags heading="Languages" items={languages} singleLine={false} />
-          <Tags heading="Topics" items={topics} singleLine={false} />
+          <Tags
+            heading="Languages"
+            items={languages}
+            singleLine={false}
+            linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+          />
+          <Tags
+            heading="Topics"
+            items={topics}
+            singleLine={false}
+            linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+          />
           <Tags
             heading={
               type === 'main'

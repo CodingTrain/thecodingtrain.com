@@ -1,39 +1,77 @@
-import React, { Fragment, useState } from 'react';
-import { graphql } from 'gatsby';
+import React, { Fragment, useEffect, useRef, useState } from 'react';
+import { graphql, Link, navigate } from 'gatsby';
 
 import Layout from '../components/Layout';
-
 import Breadcrumbs from '../components/Breadcrumbs';
 import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
 import Filter from '../components/Filter';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
+import Button from '../components/Button';
 
-import * as css from '../styles/pages/tracks.module.css';
+import { useSelectedTags } from '../hooks';
 
-const TracksPage = ({ data }) => {
-  const [selectedLanguage, setSelectedLanguage] = useState();
-  const [selectedTopic, setSelectedTopic] = useState();
-  const [expanded, setExpanded] = useState(false);
+import * as css from './tracks.module.css';
+
+import SemiColon from '../images/SemiColon_3.svg';
+import SquareBrackets from '../images/SquareBrackets_4.svg';
+
+const TracksPage = ({ data, pageContext, location }) => {
+  const [selectedLanguage, selectedTopic] = useSelectedTags(location.pathname);
 
   const tracks = data.tracks.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
+
   const placeholderMainTrackImage =
     data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
   const placeholderSideTrackImage =
     data.placeholderSideTrackImage.nodes[0].childImageSharp.gatsbyImageData;
 
+  const [expanded, setExpanded] = useState(false);
+
+  const filtersRef = useRef();
+  const shouldScroll = location.pathname.split('/').length > 2;
+
+  useEffect(() => {
+    if (location?.state?.expanded !== undefined)
+      setExpanded(location?.state?.expanded);
+  }, [location?.state?.expanded]);
+
+  useEffect(() => {
+    if (shouldScroll) {
+      filtersRef.current.scrollIntoView();
+    }
+  }, [shouldScroll]);
+
   const onExpand = () => {
     setExpanded(!expanded);
+  };
+
+  const resetFilters = () => {
+    navigate(`/tracks/lang:all+topic:all/`, {
+      state: { expanded }
+    });
+  };
+
+  const setSelectedLanguage = (value) => {
+    navigate(`/tracks/lang:${value ?? 'all'}+topic:${selectedTopic}/`, {
+      state: { expanded }
+    });
+  };
+
+  const setSelectedTopic = (value) => {
+    navigate(`/tracks/lang:${selectedLanguage}+topic:${value ?? 'all'}/`, {
+      state: { expanded }
+    });
   };
 
   return (
     <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
-        breadcrumbs={[{ name: 'Tracks', link: '#' }]}
+        breadcrumbs={[{ name: 'Tracks', link: '/tracks' }]}
         variant="red"
       />
       <Heading1 variant="red">Tracks</Heading1>
@@ -45,7 +83,7 @@ const TracksPage = ({ data }) => {
         variant="purple"
         bbColor="red"
       />
-      <div className={css.filters}>
+      <div className={css.filters} ref={filtersRef}>
         <Filter
           title="Filter by Language"
           icon="⌥"
@@ -90,13 +128,50 @@ const TracksPage = ({ data }) => {
           <Spacer />
         </Fragment>
       ))}
+      {tracks.length > 0 ? (
+        <div className={css.paginationNav}>
+          <span>
+            {pageContext.previousPagePath && (
+              <Link to={pageContext.previousPagePath} state={{ expanded }}>
+                {'<'} Previous
+              </Link>
+            )}
+          </span>
+          <span>
+            {pageContext.humanPageNumber} of {pageContext.numberOfPages}
+          </span>
+          <span>
+            {pageContext.nextPagePath && (
+              <Link to={pageContext.nextPagePath} state={{ expanded }}>
+                Next {'>'}{' '}
+              </Link>
+            )}
+          </span>
+        </div>
+      ) : (
+        <div className={css.noItemsMessage}>
+          <p>No tracks found! </p>
+          <Button variant="red" onClick={() => resetFilters()}>
+            Reset filters
+          </Button>
+          <SemiColon className={css.semiColon} />
+          <SquareBrackets className={css.squareBrackets} />
+        </div>
+      )}
     </Layout>
   );
 };
 
 export const query = graphql`
-  query {
-    tracks: allTrack {
+  query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+    tracks: allTrack(
+      filter: {
+        languagesFlat: { regex: $language }
+        topicsFlat: { regex: $topic }
+      }
+      skip: $skip
+      limit: $limit
+    ) {
       nodes {
         title
         slug

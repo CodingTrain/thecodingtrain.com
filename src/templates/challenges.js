@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useRef, useState } from 'react';
 import { graphql, Link, navigate } from 'gatsby';
-import Layout from '../components/Layout';
 
+import Layout from '../components/Layout';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
@@ -10,20 +10,12 @@ import Spacer from '../components/Spacer';
 import Card from '../components/challenges/Card';
 import Button from '../components/Button';
 
+import { useSelectedTags } from '../hooks';
+
 import * as css from './challenges.module.css';
 
 import SemiColon from '../images/SemiColon_3.svg';
 import SquareBrackets from '../images/SquareBrackets_4.svg';
-
-const useSelectedTags = (pathname) => {
-  const splittedString = pathname.replace('%20', ' ').split('/');
-  const filterString =
-    splittedString[2] && splittedString[2].includes('+')
-      ? splittedString[2]
-      : 'lang:all+topic:all';
-  const [languageFilter, topicFilter] = filterString.split('+');
-  return [languageFilter.split(':')[1], topicFilter.split(':')[1]];
-};
 
 const ChallengesPage = ({ data, pageContext, location }) => {
   const [selectedLanguage, selectedTopic] = useSelectedTags(location.pathname);
@@ -73,7 +65,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
     <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
-        breadcrumbs={[{ name: 'Challenges', link: '#' }]}
+        breadcrumbs={[{ name: 'Challenges', link: '/challenges' }]}
         variant="cyan"
       />
       <Heading1 variant="cyan">Challenges</Heading1>
