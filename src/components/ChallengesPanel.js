@@ -1,11 +1,51 @@
 import React, { Fragment, memo } from 'react';
 import { Link } from 'gatsby';
+import cn from 'classnames';
 
 import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 
-import PlayButton from '../images/playbutton.svg';
+const Card = ({ className, challenge, placeholderImage }) => {
+  const { title, cover, description, date, slug } = challenge;
+  return (
+    <div className={cn(css.challenge, className)}>
+      <div className={css.titleContainer}>
+        <div className={css.icon}>👁</div>
+        <span className={css.title}>
+          {<Link to={`/challenge/${slug}`}>{title}</Link>}
+        </span>
+      </div>
+      <div className={css.thumb}>
+        <div className={css.left}>
+          <Link to={`/challenge/${slug}`}>
+            {cover ? (
+              <Image
+                image={cover.file.childImageSharp.gatsbyImageData}
+                pictureClassName={css.picture}
+                imgClassName={css.image}
+              />
+            ) : placeholderImage ? (
+              <Image
+                image={placeholderImage}
+                pictureClassName={css.picture}
+                imgClassName={css.image}
+              />
+            ) : null}
+          </Link>
+        </div>
+        <div className={css.right}>
+          <div className={css.description}>
+            <p>{description}</p>
+          </div>
+          <p className={css.year}>
+            <span>{date ? date.split('-')[0] : null}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const ChallengesPanel = ({ challenges, placeholderImage }) => {
   return (
@@ -17,45 +57,11 @@ const ChallengesPanel = ({ challenges, placeholderImage }) => {
       <div className={css.challenges}>
         {challenges.slice(0, 2).map((challenge, key) => (
           <Fragment key={key}>
-            <div className={css.challenge}>
-              <div className={css.titleContainer}>
-                <div className={css.icon}>👁</div>
-                <span className={css.title}>{challenge.title}</span>
-                {/* <h5 className={css.title}>{challenge.title}</h5> */}
-              </div>
-              <div className={css.thumb}>
-                <div className={css.left}>
-                  {challenge.cover ? (
-                    <Image
-                      image={
-                        challenge.cover.file.childImageSharp.gatsbyImageData
-                      }
-                      pictureClassName={css.picture}
-                      imgClassName={css.image}
-                    />
-                  ) : placeholderImage ? (
-                    <Image
-                      image={placeholderImage}
-                      pictureClassName={css.picture}
-                      imgClassName={css.image}
-                    />
-                  ) : null}
-                </div>
-                <div className={css.right}>
-                  <div className={css.description}>
-                    <p>{challenge.description}</p>
-                  </div>
-                  <p className={css.year}>
-                    <span>
-                      {challenge.date ? challenge.date.split('-').pop() : null}
-                    </span>
-                    <Link to={`/challenges/${challenge.slug}`}>
-                      <PlayButton width={30} />
-                    </Link>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <Card
+              className={css.challenge}
+              challenge={challenge}
+              placeholderImage={placeholderImage}
+            />
             {key !== challenges.length - 1 && (
               <div className={css.spacer}></div>
             )}

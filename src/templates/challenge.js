@@ -24,13 +24,14 @@ const Challenge = ({ data }) => {
     contributionPlaceholderImage.nodes.length > 0
       ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : challengesPlaceholder;
+  console.log({ relatedJourneys: challenge.relatedJourneys });
   return (
     <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
           { name: 'Challenges', link: '/challenges' },
-          { name: challenge.title, link: `/challenges/${challenge.slug}` }
+          { name: challenge.title, link: `/challenge/${challenge.slug}` }
         ]}
         variant="cyan"
       />
