@@ -1,7 +1,7 @@
 @custom-media --xsmall (max-width: 400px);
 @custom-media --small (max-width: 600px);
 @custom-media --reduced (max-width: 900px);
-@custom-media --medium (max-width: 1025px);
+@custom-media --medium (max-width: 1180px);
 @custom-media --large (max-width: 1440px);
 @custom-media --container (max-width: 1600px);
 
@@ -19,41 +19,69 @@
   --baseline-6x: calc(var(--baseline) * 6);
   --baseline-7x: calc(var(--baseline) * 7);
   --baseline-8x: calc(var(--baseline) * 8);
+  --baseline-9x: calc(var(--baseline) * 9);
+  --baseline-10x: calc(var(--baseline) * 10);
+  --baseline-11x: calc(var(--baseline) * 11);
+  --baseline-12x: calc(var(--baseline) * 12);
 
   --baseline-1of2: calc(var(--baseline) / 2);
   --baseline-1of3: calc(var(--baseline) / 3);
   --baseline-2of3: calc(var(--baseline) / 3 * 2);
   --baseline-1of4: calc(var(--baseline) / 4);
+  --baseline-2of5: calc(var(--baseline) / 5 * 2);
+  --baseline-3of5: calc(var(--baseline) / 5 * 3);
 
   /*
     This is the baseline that content inside boxes can rely on.
     Text that flows on multiple lines should use --baseline and
     offset with a margin-top: -1px.
   */
+  --baseline-box-1of2: calc(var(--baseline) / 2 - 1px);
   --baseline-box: calc(var(--baseline) - 1px);
   --baseline-box-2x: calc(var(--baseline) * 2 - 1px);
   --baseline-box-3x: calc(var(--baseline) * 3 - 1px);
   --baseline-box-4x: calc(var(--baseline) * 4 - 1px);
   --baseline-box-5x: calc(var(--baseline) * 5 - 1px);
   --baseline-box-6x: calc(var(--baseline) * 6 - 1px);
+  --baseline-box-7x: calc(var(--baseline) * 7 - 1px);
+  --baseline-box-8x: calc(var(--baseline) * 8 - 1px);
+  --baseline-box-9x: calc(var(--baseline) * 9 - 1px);
+  --baseline-box-10x: calc(var(--baseline) * 10 - 1px);
+  --baseline-box-11x: calc(var(--baseline) * 11 - 1px);
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;
   --maru-mono: "GT Maru Mono", monospace;
   --maru-emoji: "GT Maru Emoji";
 
-  --font-xsmall: 11px;
-  --font-small: 12px;
-  --font-normal: 14px;
-  --font-medium: 15px;
-  --font-reduced: 16px;
-  --font-emoji: 18px;
-  --font-large: 22px;
-  --font-xlarge: 93px;
+  --maru-mega-large: 140px;
+  --maru-mega-large-line-height: var(--baseline-3x);
+  --maru-mega-medium: 70px;
+  --maru-mega-medium-line-height: var(--baseline-2x);
+  --maru-mega-small: 49px;
+  --maru-mega-small-line-height: var(--baseline);
+
+  --maru-xxlarge: 28px;
+  --maru-xxlarge-line-height: var(--baseline);
+  --maru-xlarge: 22px;
+  --maru-xlarge-line-height: var(--baseline-2of3);
+  --maru-large: 16px;
+  --maru-large-line-height: var(--baseline-1of2);
+  --maru-medium: 15px;
+  --maru-medium-line-height: var(--baseline-1of2);
+  --maru-normal: 14px;
+  --maru-normal-line-height: var(--baseline-1of2);
+  --maru-small: 12px;
+  --maru-small-line-height: var(--baseline-1of2);
+  --maru-xsmall: 11px;
+  --maru-xsmall-line-height: var(--baseline-1of2);
+
+  --maru-emoji-normal: 18px;
 
   --spacing-xsmall: 5px;
   --spacing-small: 10px;
   --spacing-normal: 15px;
+  --spacing-large: 60px;
   --spacing-xlarge: 100px;
 
   --gray-dark: #3c3c3c;
@@ -62,6 +90,7 @@
   --gray-light-hover: #cfcfcf;
 
   --cyan: #2dc5f4;
+  --cyan-light: #eefbff;
   --pink: #f063a4;
   --orange: #f89e4f;
   --orange-light: #fce8d7;
@@ -72,30 +101,75 @@
   --red-lightest: #fffcfc;
 
   --border: 1px solid var(--gray-mid);
+
+  --border-purple: 1px solid var(--purple);
+  --border-red: 1px solid var(--red);
+  --border-red-light: 1px solid rgba(255, 0, 0, 0.1);
+  --border-orange: 1px solid var(--orange);
+  --border-cyan: 1px solid var(--cyan);
+
   --box-padding: 25px;
 
   --container-max-width: 1600px;
   --container-spacing-horizontal: 50px;
+
+  --timeline-heading-mark: 60px;
+  --timeline-padding: 20px;
+  --timeline-spacing: 20px;
+  --timeline-dot: 15px;
 }
 
 @media (--medium) {
   :root {
-    --font-xsmall: 10px;
-    --font-small: 11px;
-    --font-normal: 13px;
-    --font-medium: 14px;
-    --font-reduced: 15px;
-    --font-emoji: 17px;
-    --font-xlarge: 45px;
+    --maru-mega-large: 100px;
+    --maru-mega-large-line-height: var(--baseline-2x);
+    --maru-mega-medium: 60px;
+    --maru-mega-medium-line-height: var(--baseline);
+    --maru-mega-small: 35px;
+    --maru-mega-small-line-height: var(--baseline);
+
+    --maru-xxlarge: 28px;
+    --maru-xxlarge-line-height: var(--baseline);
+    --maru-xlarge: 22px;
+    --maru-xlarge-line-height: var(--baseline-2of3);
+    --maru-large: 15px;
+    --maru-large-line-height: var(--baseline-1of2);
+    --maru-medium: 14px;
+    --maru-medium-line-height: var(--baseline-1of2);
+    --maru-normal: 13px;
+    --maru-normal-line-height: var(--baseline-1of2);
+    --maru-small: 11px;
+    --maru-small-line-height: var(--baseline-1of2);
+    --maru-xsmall: 11px;
+    --maru-xsmall-line-height: var(--baseline-1of2);
+
+    --maru-emoji-normal: 17px;
 
     --box-padding: 13px;
     --container-spacing-horizontal: 30px;
+
+    --timeline-heading-mark: 30px;
+    --timeline-padding: 15px;
+    --timeline-spacing: 10px;
+    --timeline-dot: 12px;
   }
 }
 
 @media (--reduced) {
   :root {
+    --maru-mega-large: 70px;
+    --maru-mega-large-line-height: var(--baseline-2x);
+    --maru-mega-medium: 70px;
+    --maru-mega-medium-line-height: var(--baseline-2x);
+    --maru-mega-small: 49px;
+    --maru-mega-small-line-height: var(--baseline);
+
     --container-spacing-horizontal: 20px;
+
+    --timeline-heading-mark: 70px;
+    --timeline-padding: 25px;
+    --timeline-spacing: 40px;
+    --timeline-dot: 15px;
   }
 }
 
@@ -104,15 +178,29 @@
     --baseline: 40px;
     --container-spacing-horizontal: 5px;
 
-    --font-xsmall: 9px;
-    --font-small: 10px;
-    --font-normal: 12px;
-    --font-medium: 13px;
-    --font-reduced: 14px;
-    --font-emoji: 16px;
-    --font-xlarge: 32px;
+    --maru-xxlarge: 24px;
+    --maru-xxlarge-line-height: var(--baseline-1of2);
+    --maru-xlarge: 20px;
+    --maru-xlarge-line-height: var(--baseline-2of3);
+    --maru-large: 14px;
+    --maru-large-line-height: var(--baseline-1of2);
+    --maru-medium: 13px;
+    --maru-medium-line-height: var(--baseline-1of2);
+    --maru-normal: 12px;
+    --maru-normal-line-height: var(--baseline-1of2);
+    --maru-small: 10px;
+    --maru-small-line-height: var(--baseline-1of2);
+    --maru-xsmall: 10px;
+    --maru-xsmall-line-height: var(--baseline-1of2);
+
+    --maru-emoji-normal: 16px;
 
     --box-padding: 10px;
     --container-spacing-horizontal: 0px;
+
+    --timeline-heading-mark: 30px;
+    --timeline-padding: 15px;
+    --timeline-spacing: 10px;
+    --timeline-dot: 12px;
   }
 }

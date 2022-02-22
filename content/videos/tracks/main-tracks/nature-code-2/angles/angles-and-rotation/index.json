@@ -1,0 +1,50 @@
+{
+  "title": "3.1 Angles and Rotation ",
+  "description": "Welcome to Chapter 3 of The Nature of Code: Oscillating Motion! I begin in this video by explaining angles, the different units of measurements for angles: degrees and radians, and how to rotate shapes in p5.js.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "DMg-WRfNB60",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "groupLinks": [
+    {
+      "title": "Links discussed",
+      "links": [
+        {
+          "title": "#SupportP5 2020",
+          "url": "https://donorbox.org/supportp52020",
+          "description": "by p5js"
+        },
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "description": "by The Coding Train",
+          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+        }
+      ]
+    },
+    {
+      "title": "Links discussed 2",
+      "links": [
+        {
+          "title": "#SupportP5 2020",
+          "url": "https://donorbox.org/supportp52020"
+        },
+        {
+          "title": "bezier() - p5.js Reference",
+          "url": "https://p5js.org/reference/#/p5/bezier",
+          "description": "by p5js"
+        },
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "description": "by The Coding Train",
+          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+        }
+      ]
+    }
+  ],
+  "canContribute": true
+}

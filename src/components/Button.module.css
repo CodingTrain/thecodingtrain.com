@@ -1,15 +1,20 @@
 .root {
   color: var(--gray-dark);
   border-radius: 40px;
-  line-height: calc(var(--baseline)- var(--spacing-small));
+  line-height: calc(var(--baseline) - var(--spacing-small));
   padding: 0 var(--box-padding);
   text-transform: uppercase;
-  font-size: var(--font-medium);
+  text-align: center;
+  font-family: var(--maru-mono);
+  font-size: var(--maru-medium);
+  font-weight: normal;
   white-space: nowrap;
   border: none;
+  transition: background-color 0.2s;
 }
 
-a {
+a.root {
+  display: inline-block;
   text-decoration: none;
   color: var(--gray-dark);
 }
@@ -22,6 +27,9 @@ a {
   width: 0;
   height: 100%;
   transition: all .35s;
+
+a.root:hover {
+  opacity: 1;
 }
 
 .root:hover{
@@ -38,12 +46,20 @@ a {
 
 /* Variants */
 
-.red {
+a.red,
+button.red {
   color: white;
-  background: linear-gradient(to right, #2dc5f4, #f89e4f, #9253a1, #F063A4, #f16164);
+  background: linear-gradient(
+    to right,
+    #2dc5f4,
+    #f89e4f,
+    #9253a1,
+    #f063a4,
+    #f16164
+  );
   background-color: var(--red);
   background-size: 1000% 100%;
-  background-position: right bottom; 
+  background-position: right bottom;
   transition: all 1s ease-out;
 }
 
@@ -51,14 +67,24 @@ a {
   background-position: left bottom;
 }
 
-.orange {
+a.orange,
+button.orange {
   color: white;
   background: var(--orange);
 }
 
-.purple {
+a.purple,
+button.purple {
   color: white;
-  background: linear-gradient(to right, #2dc5f4, #f89e4f, #f16164, #F063A4, #9253a1, #2dc5f4);
+  background: linear-gradient(
+    to right,
+    #2dc5f4,
+    #f89e4f,
+    #f16164,
+    #f063a4,
+    #9253a1,
+    #2dc5f4
+  );
   background-size: 4000%;
 }
 
@@ -111,13 +137,24 @@ a {
     background: #f16164;
   }
   100% {
-    background: #F063A4;
+    background: #f063a4;
   }
 }
 
 @keyframes moving {
-    0% { background-position: 0 0; }
-    50% { background-position: -500% 0; }
-    100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -500% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
+a.cyan,
+button.cyan {
+  color: white;
+  background-color: var(--cyan);
+}

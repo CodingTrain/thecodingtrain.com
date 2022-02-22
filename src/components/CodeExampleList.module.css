@@ -1,0 +1,144 @@
+.root {
+  margin: 0;
+  padding: 0;
+}
+
+.example {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -2px;
+  border-top: var(--border);
+  border-bottom: var(--border);
+  border-left: var(--border);
+  color: var(--gray-mid);
+  align-items: center;
+}
+
+.thumbnail {
+  padding: 4px;
+  height: var(--baseline);
+  width: calc(var(--baseline) * 1.666);
+  padding-right: var(--spacing-normal);
+
+  & img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.info {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  padding-right: var(--spacing-normal);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.title {
+  font-size: var(--maru-large);
+  padding-right: var(--spacing-normal);
+  font-weight: bold;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  font-size: var(--maru-small);
+  line-height: var(--maru-small-line-height);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: var(--space);
+}
+
+.icon {
+  flex: 0 0 var(--baseline-1of2);
+  height: var(--baseline-1of2);
+  padding-right: var(--spacing-normal);
+  width: calc(var(--baseline-2of3) + 2 * var(--spacing-normal));
+}
+
+.links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  padding-right: var(--spacing-xsmall);
+  & a {
+    padding: 0 var(--spacing-xsmall);
+    text-decoration: underline;
+    text-transform: lowercase;
+    white-space: nowrap;
+    color: var(--gray-mid);
+  }
+  & .linkIcon {
+    font-family: var(--maru-emoji);
+    font-size: var(--maru-emoji-normal);
+    text-decoration: none;
+  }
+}
+
+.p5 {
+  height: var(--baseline-1of2);
+  width: var(--baseline-1of2);
+  & path {
+    fill: var(--gray-dark);
+  }
+}
+
+.node {
+  height: var(--baseline-1of2);
+  width: var(--baseline-1of2);
+}
+
+.processing {
+  height: var(--baseline-1of3);
+  width: var(--baseline-1of3);
+  & path {
+    stroke: var(--gray-dark);
+  }
+}
+
+/* Variants */
+
+.red {
+  & .example {
+    border-color: var(--red);
+    background-color: var(--red-light);
+    color: var(--red);
+    & a {
+      color: var(--red);
+    }
+    & .linkIcon {
+      color: var(--gray-dark);
+    }
+  }
+}
+
+.cyan {
+  & .example {
+    border-color: var(--cyan);
+    background-color: var(--cyan-light);
+    color: var(--cyan);
+    & a {
+      color: var(--cyan);
+    }
+    & .linkIcon {
+      color: var(--gray-dark);
+    }
+  }
+}
+
+@media (--reduced) {
+  .red .example,
+  .cyan .example {
+    background-color: white;
+  }
+
+  .description {
+    display: none;
+  }
+}

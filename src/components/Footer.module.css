@@ -28,9 +28,8 @@
   line-height: var(--baseline-box);
 
   & h3 {
-    font-family: var(--maru-mono);
     font-weight: 900;
-    font-size: var(--font-medium);
+    font-size: var(--maru-medium);
     text-transform: uppercase;
     margin: 0;
     border-bottom: var(--border);
@@ -43,7 +42,7 @@
 
   & p {
     font-family: var(--maru-mono);
-    font-size: var(--font-normal);
+    font-size: var(--maru-normal);
     line-height: 24px;
     padding: var(--box-padding);
     height: var(--baseline-box-3x);
@@ -54,7 +53,7 @@
 .action {
   & a {
     font-family: var(--maru-mono);
-    font-size: var(--font-normal);
+    font-size: var(--maru-normal);
     text-align: bottom;
     padding-left: var(--box-padding);
     text-decoration: underline;
@@ -85,7 +84,7 @@
 
 .links {
   display: flex;
-  font-size: var(--font-medium);
+  font-size: var(--maru-medium);
   font-family: var(--maru-mono);
   justify-content: space-between;
   border-left: var(--border);
@@ -123,7 +122,7 @@
 }
 
 .logos {
-  font-size: var(--font-normal);
+  font-size: var(--maru-normal);
   font-family: var(--maru-mono);
   display: flex;
   height: var(--baseline-box-3x);
@@ -157,7 +156,7 @@
 
 .copyright {
   font-family: var(--maru-mono);
-  font-size: var(--font-small);
+  font-size: var(--maru-small);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,8 +258,7 @@
     }
   }
 
-  .box > h3 {
-    font-size: var(--font-reduced);
+  .box h3 {
     text-align: center;
   }
 

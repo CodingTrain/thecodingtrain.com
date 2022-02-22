@@ -1,5 +1,5 @@
 .root {
-  font-size: var(--font-reduced);
+  font-size: var(--maru-large);
   border-left: var(--border);
   border-bottom: var(--border);
   color: var(--gray-mid);
@@ -35,6 +35,10 @@
 
 .bbred {
   border-bottom-color: var(--red);
+}
+
+.bbcyan {
+  border-bottom-color: var(--cyan);
 }
 
 @media (--reduced) {

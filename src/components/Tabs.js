@@ -1,26 +1,41 @@
-import React, { useState } from 'react';
-import classnames from 'classnames';
+import React, { Children, useState, useEffect, useRef } from 'react';
+import cn from 'classnames';
 
 import Button from './Button';
+import ShareButton from './ShareButton';
 import * as css from './Tabs.module.css';
 
-import ShareIcon from '../images/share.svg';
-
-export const Tabs = ({ labels, children }) => {
+export const Tabs = ({ className, variant, labels, children, shareLink }) => {
   const [active, setActive] = useState(0);
+  const isFirstRender = useRef(true);
 
   const onClick = (value) => {
     setActive(value);
   };
 
+  useEffect(() => {
+    if (!isFirstRender.current && window.innerWidth < 600) {
+      const tab = document.getElementById(`#component-tab-${active}`);
+      tab.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    if (isFirstRender) {
+      isFirstRender.current = false;
+    }
+  }, [active]);
+
   return (
-    <div className={css.root}>
+    <div className={cn(css.root, className, { [css[variant]]: variant })}>
       <div className={css.tabs}>
         <ul>
           {labels.map((label, key) => (
-            <li key={key}>
+            <li
+              id={`#component-tab-${key}`}
+              className={cn({
+                [css.next]: key > active
+              })}
+              key={key}>
               <Button
-                className={classnames(css.tab, {
+                className={cn(css.tab, {
                   [css.active]: key === active
                 })}
                 onClick={() => onClick(key)}
@@ -29,19 +44,25 @@ export const Tabs = ({ labels, children }) => {
               </Button>
             </li>
           ))}
+          {Children.toArray(children).map((child, key) => (
+            <li
+              className={cn(css.componentTab, {
+                [css.activeComponentTab]: key === active
+              })}
+              key={key}>
+              {child}
+            </li>
+          ))}
         </ul>
-        <div className={css.share}>
-          <ShareIcon />
-          <span>Share</span>
-        </div>
+        <ShareButton className={css.share} variant={variant} />
       </div>
-      {children.map((child, key) => (
+      {Children.toArray(children).map((child, key) => (
         <div
-          className={classnames(css.component, {
+          className={cn(css.component, {
             [css.activeComponent]: key === active
           })}
           key={key}>
-            {child}
+          {child}
         </div>
       ))}
     </div>

@@ -1,0 +1,51 @@
+{
+  "title": "Welcome to The Nature of Code 2.0 in 2020 (p5.js!)",
+  "description": "Welcome to the Nature of Code 2.0 ! In this video, I go over the playlist and introduce the content to come. ",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "70MQ-FugwbI",
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day!" },
+    { "time": "1:26", "title": "Explain! What does co-prime mean?" },
+    { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
+    { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "groupLinks": [
+    {
+      "title": "Links discussed",
+      "links": [
+        {
+          "title": "#SupportP5 2020",
+          "url": "https://donorbox.org/supportp52020",
+          "description": "by p5js"
+        },
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "description": "by The Coding Train",
+          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+        }
+      ]
+    },
+    {
+      "title": "Links discussed 2",
+      "links": [
+        {
+          "title": "#SupportP5 2020",
+          "url": "https://donorbox.org/supportp52020"
+        },
+        {
+          "title": "bezier() - p5.js Reference",
+          "url": "https://p5js.org/reference/#/p5/bezier",
+          "description": "by p5js"
+        },
+        {
+          "title": "Self Avoiding Walk - Coding Challenge 162",
+          "description": "by The Coding Train",
+          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+        }
+      ]
+    }
+  ],
+  "canContribute": true,
+  "relatedJourneys": ["16-l-system", "163-bezier-curves"]
+}
