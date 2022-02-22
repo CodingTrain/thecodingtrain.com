@@ -1,5 +1,7 @@
 const { paginate } = require('gatsby-awesome-pagination');
 
+const ITEMS_PER_PAGE = 10;
+
 /**
  * Creates single Challenge pages for all loaded Challenge nodes
  * @param {function} graphql - Gatsby's graphql function
@@ -35,7 +37,7 @@ exports.createJourneyPages = async (graphql, createPage) => {
   paginate({
     createPage,
     items: challenges.nodes,
-    itemsPerPage: 2,
+    itemsPerPage: ITEMS_PER_PAGE,
     pathPrefix: '/challenges',
     component: require.resolve(`../src/templates/challenges.js`),
     context: {
@@ -86,7 +88,7 @@ exports.createJourneyPages = async (graphql, createPage) => {
       paginate({
         createPage,
         items: filteredChallenges.nodes,
-        itemsPerPage: 10,
+        itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/challenges/lang:${
           language !== '' ? language : 'all'
         }+topic:${topic !== '' ? topic : 'all'}`,
