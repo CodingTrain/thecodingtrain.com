@@ -1,32 +1,101 @@
+const { paginate } = require('gatsby-awesome-pagination');
+
 /**
  * Creates single Challenge pages for all loaded Challenge nodes
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createChallengePages = async (graphql, createPage) => {
-  const { data } = await graphql(`
+exports.createJourneyPages = async (graphql, createPage) => {
+  const {
+    data: { challenges }
+  } = await graphql(`
     query {
-      challenges: allChallenge {
+      challenges: allJourney {
         nodes {
           id
           slug
-          contributionsPath
         }
       }
     }
   `);
 
-  data.challenges.nodes.forEach((challenge) => {
+  challenges.nodes.forEach((challenge) => {
     // Passes context variables for querying corresponding
     // challenge, contributions and images in front-end
     createPage({
-      path: `challenges/${challenge.slug}`,
+      path: `challenge/${challenge.slug}`,
       component: require.resolve(`../src/templates/challenge.js`),
       context: {
         id: challenge.id,
-        contributionsPath: challenge.contributionsPath,
         slug: challenge.slug
       }
+    });
+  });
+
+  paginate({
+    createPage,
+    items: challenges.nodes,
+    itemsPerPage: 2,
+    pathPrefix: '/challenges',
+    component: require.resolve(`../src/templates/challenges.js`),
+    context: {
+      topic: '',
+      language: ''
+    }
+  });
+
+  const {
+    data: { languages, topics }
+  } = await graphql(`
+    query {
+      languages: allTag(filter: { type: { eq: "language" } }) {
+        nodes {
+          value
+        }
+      }
+      topics: allTag(filter: { type: { eq: "topic" } }) {
+        nodes {
+          value
+        }
+      }
+    }
+  `);
+
+  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
+    const langRegex = `/.*${language}.*/`;
+    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
+      const topRegex = `/.*${topic}.*/`;
+      const {
+        data: { filteredChallenges }
+      } = await graphql(`
+        query {
+          filteredChallenges: allJourney (
+            filter: {
+              languagesFlat: {regex: "${langRegex}"}
+              topicsFlat: {regex: "${topRegex}"}
+            }
+          ) {
+            nodes {
+              id
+              slug
+            }
+          }
+        }
+      `);
+
+      paginate({
+        createPage,
+        items: filteredChallenges.nodes,
+        itemsPerPage: 10,
+        pathPrefix: `/challenges/lang:${
+          language !== '' ? language : 'all'
+        }+topic:${topic !== '' ? topic : 'all'}`,
+        component: require.resolve(`../src/templates/challenges.js`),
+        context: {
+          topic: topRegex,
+          language: langRegex
+        }
+      });
     });
   });
 };
@@ -47,26 +116,25 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
           videos {
             id
             slug
-            contributionsPath
+            source
           }
           chapters {
-            lessons {
+            videos {
               id
               slug
-              contributionsPath
+              source
             }
           }
         }
       }
     }
   `);
-
   data.tracks.nodes.forEach((track) => {
     // Determine the corresponding first video of the track
-    // Main => First chapter's first lesson
+    // Main => First chapter's first video
     // Side => First video
     const firstVideo =
-      track.type === 'main' ? track.chapters[0].lessons[0] : track.videos[0];
+      track.type === 'main' ? track.chapters[0].videos[0] : track.videos[0];
 
     // Create track intro page with first video
 
@@ -78,25 +146,25 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         trackId: track.id,
         videoId: firstVideo.id,
         videoSlug: firstVideo.slug,
-        contributionsPath: firstVideo.contributionsPath,
+        source: firstVideo.source,
         trackPosition: { chapterIndex: 0, videoIndex: 0 }
       }
     });
-    // For a main track, each lesson has it's own URL and page
+    // For a main track, each video has it's own URL and page
     // Context is passed so that front-end correctly loads related data
     if (track.type === 'main') {
       track.chapters.forEach((chapter, chapterIndex) => {
-        chapter.lessons.forEach((lesson, lessonIndex) => {
+        chapter.videos.forEach((video, videoIndex) => {
           createPage({
-            path: `tracks/${track.slug}/${lesson.slug}`,
+            path: `tracks/${track.slug}/${video.slug}`,
             component: require.resolve(`../src/templates/track-video.js`),
             context: {
               isTrackPage: false,
               trackId: track.id,
-              videoId: lesson.id,
-              videoSlug: lesson.slug,
-              contributionsPath: lesson.contributionsPath,
-              trackPosition: { chapterIndex, videoIndex: lessonIndex }
+              videoId: video.id,
+              videoSlug: video.slug,
+              source: video.source,
+              trackPosition: { chapterIndex, videoIndex: videoIndex }
             }
           });
         });
@@ -113,7 +181,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
             trackId: track.id,
             videoId: video.id,
             videoSlug: video.slug,
-            contributionsPath: video.contributionsPath,
+            source: video.source,
             trackPosition: { chapterIndex: 0, videoIndex }
           }
         });

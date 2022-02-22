@@ -11,13 +11,16 @@
     "dev": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "jest",
+    "testv": "jest --verbose"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "classnames": "^2.3.1",
     "gatsby": "3.14.6",
+    "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-gatsby-cloud": "^3.2.1",
     "gatsby-plugin-image": "^1.12.0",
     "gatsby-plugin-mdx": "^2.12.0",
@@ -28,6 +31,7 @@
     "gatsby-source-filesystem": "^3.12.0",
     "gatsby-transformer-json": "^3.13.0",
     "gatsby-transformer-sharp": "^3.12.0",
+    "html-react-parser": "^1.4.8",
     "postcss": "^8.3.6",
     "postcss-calc": "^8.0.0",
     "postcss-custom-media": "^8.0.0",
@@ -43,6 +47,14 @@
     "react-youtube": "^7.13.1"
   },
   "devDependencies": {
+    "jest": "^27.4.5",
+    "jest-extended": "^1.2.0",
     "lodash": "^4.17.21"
+  },
+  "jest": {
+    "bail": 0,
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ]
   }
 }

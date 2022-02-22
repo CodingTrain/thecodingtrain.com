@@ -270,7 +270,7 @@ const ComponentsPage = ({ data }) => {
           chapters: [
             {
               title: 'Introduction to P5.js',
-              lessons: [
+              videos: [
                 {
                   title: 'Code! Programming with P5.js',
                   slug: 'code-programming-with-p5-js-introduction'

@@ -3,76 +3,92 @@
 // just to make sure that certain fields are set to certain types.
 exports.schema = `
 
-interface Video implements Node {
+interface VideoInterface implements Node {
   id: ID!
   title: String!
   slug: String!
-  contributionsPath: String!
   videoId: String!
   description: String!
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedJourneys: [Journey!] @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
-type Lesson implements Video & Node {
+type Video implements VideoInterface & Node {
   id: ID!
   title: String!
   slug: String!
   videoId: String!
-  contributionsPath: String!
   description: String!
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedJourneys: [Journey!] @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
-type Challenge implements Video & Node {
+type Journey implements VideoInterface & Node {
   id: ID!
   title: String!
   slug: String!
-  contributionsPath: String!
   videoId: String!
   description: String!
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedJourneys: [Journey!] @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
-type GuestTutorial implements Video & Node {
+type GuestTutorial implements VideoInterface & Node {
   id: ID!
   title: String!
   slug: String!
-  contributionsPath: String!
   videoId: String!
   description: String!
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
-  codeExamples: [CodeExample!] 
+  codeExamples: [CodeExample!]
   canContribute: Boolean!
   contributions: [Contribution!] @link
+  relatedJourneys: [Journey!] @link
+  cover: CoverImage @link
   groupLinks: [GroupLink!]
+  source: String!
 }
 
 type Contribution implements Node {
@@ -83,6 +99,7 @@ type Contribution implements Node {
   videoId: String
   source: String
   video: Video! @link
+  cover: CoverImage @link
 }
 
 type Timestamp implements Node {
@@ -99,15 +116,22 @@ type GroupLink implements Node {
 type Link implements Node {
   title: String!
   url: String!
-  author: String
+  icon: String
+  description: String
 }
 
 type CodeExample implements Node {
   title: String!
-  language: String
-  codeUrl: String!
-  githubUrl: String!
-  editorUrl: String
+  description: String
+  image: CoverImage @link
+  urls: CodeUrls!
+}
+
+type CodeUrls implements Node {
+  p5: String
+  processing: String
+  node: String
+  other: String
 }
 
 type Author implements Node {
@@ -117,7 +141,7 @@ type Author implements Node {
 
 type Chapter implements Node {
   title: String
-  lessons: [Lesson] @link
+  videos: [VideoInterface] @link
 }
 
 type Track implements Node {
@@ -126,20 +150,33 @@ type Track implements Node {
   type: String!
   description: String!
   chapters: [Chapter] @link
-  videos: [Video] @link
+  videos: [VideoInterface] @link
+  cover: CoverImage @link
   numVideos: Int!
 }
 
 type Talk implements Node {
-  name: String!
+  title: String!
+  slug: String!
   description: String!
   meta: String!
   link: String
+  cover: CoverImage @link
 }
 
 type Collaborator implements Node {
   name: String!
   type: String!
   url: String
-} 
+}
+
+type CoverImage implements Node {
+  id: ID!
+  file: File! @link
+}
+
+type Tag implements Node {
+  type: String!
+  value: String!
+}
 `;

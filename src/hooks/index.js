@@ -19,11 +19,11 @@ export const useTopicsAndLanguages = ({ type, videos, chapters }) => {
     const languageSet = new Set();
     if (type === 'main') {
       chapters.forEach((chapter) => {
-        chapter.lessons.forEach((lesson) => {
-          if (lesson.languages)
-            lesson.languages.forEach((language) => languageSet.add(language));
-          if (lesson.topics)
-            lesson.topics.forEach((topic) => topicSet.add(topic));
+        chapter.videos.forEach((video) => {
+          if (video.languages)
+            video.languages.forEach((language) => languageSet.add(language));
+          if (video.topics)
+            video.topics.forEach((topic) => topicSet.add(topic));
         });
       });
     } else if (type === 'side') {

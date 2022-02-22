@@ -1,0 +1,42 @@
+{
+  "title": "The Bouncing Ball",
+  "description": "This video continues the discussion of conditional statements and looks at a classic scenario -- a circle that bounces off the edges of the canvas.",
+  "videoNumber": "Video number",
+  "videoId": "LO3Awjn_gyU",
+  "date": "2015-09-10",
+  "languages": ["language1", "language2"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "urls": {}
+    },
+    {
+      "title": "Code example 2 title",
+      "urls": {}
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
+  ]
+}

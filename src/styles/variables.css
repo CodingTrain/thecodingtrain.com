@@ -21,6 +21,7 @@
   --baseline-8x: calc(var(--baseline) * 8);
   --baseline-9x: calc(var(--baseline) * 9);
   --baseline-10x: calc(var(--baseline) * 10);
+  --baseline-11x: calc(var(--baseline) * 11);
   --baseline-12x: calc(var(--baseline) * 12);
 
   --baseline-1of2: calc(var(--baseline) / 2);
@@ -46,6 +47,7 @@
   --baseline-box-8x: calc(var(--baseline) * 8 - 1px);
   --baseline-box-9x: calc(var(--baseline) * 9 - 1px);
   --baseline-box-10x: calc(var(--baseline) * 10 - 1px);
+  --baseline-box-11x: calc(var(--baseline) * 11 - 1px);
 
   --maru: "GT Maru", sans-serif;
   --maru-mega: "GT Maru Mega", sans-serif;

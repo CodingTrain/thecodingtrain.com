@@ -74,6 +74,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  text-decoration: underline;
 }
 
 .author {
@@ -81,10 +82,10 @@
   border-left: var(--border-purple);
   line-height: var(--baseline-box);
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 0 calc(var(--box-padding) / 2);
+  color: var(--gray-mid);
 }
 
 .authorName {
@@ -92,24 +93,15 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-}
-
-.playButton {
-  height: var(--baseline-box);
+  padding: 0 calc(var(--box-padding) / 2);
 }
 
 a.authorName {
   text-decoration: underline;
 }
 
-.imagePlaceholder {
-  height: var(--baseline-3x);
-  background-color: var(--gray-light);
-  border-bottom: var(--border-purple);
-  border-left: var(--border-purple);
-}
-
-.picture {
+.pictureContainer {
+  position: relative;
   height: var(--baseline-3x);
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
@@ -119,6 +111,16 @@ a.authorName {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.noImage {
+  background-color: var(--gray-light);
+}
+
+.playButton {
+  position: absolute;
+  bottom: calc(var(--box-padding) / 4);
+  right: calc(var(--box-padding) / 4);
 }
 
 @media (--medium) {
@@ -136,7 +138,7 @@ a.authorName {
     width: 300px;
     flex: 0 0 300px;
   }
-  .imagePlaceholder {
+  .pictureContainer {
     height: var(--baseline-4x);
   }
 }

@@ -1,13 +1,72 @@
 {
   "title": "Code! Programming with p5.js",
-  "type": "main",
   "description": "This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices.",
   "chapters": [
     {
-      "title": "Introduction to P5.js",
-      "lessons": [
-        "code-programming-with-p5-js-introduction",
-        "p5-js-web-editor"
+      "title": "Introduction",
+      "videos": [
+        "tracks/main-tracks/code/intro/code-programming-with-p5-js-trailer",
+        "tracks/main-tracks/code/intro/code-programming-with-p5-js-introduction",
+        "tracks/main-tracks/code/intro/shapes-and-drawing-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/color-p5-js-tutorial"
+      ]
+    },
+
+    {
+      "title": "Using the Editor",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/p5-js-web-editor",
+        "tracks/main-tracks/code/intro/errors-and-console-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/code-comments-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/p5-js-web-editor-adding-javascript-files"
+      ]
+    },
+
+    {
+      "title": "Variables",
+      "videos": [
+        "tracks/main-tracks/code/intro/variables-in-p5-js-mousex-mousey-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/variables-in-p5-js-define-your-own-p5-js-tutorial"
+      ]
+    },
+
+    {
+      "title": "Logic",
+      "videos": [
+        "tracks/main-tracks/code/intro/introduction-to-conditional-statements-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/the-bouncing-ball-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/else-and-else-if-and-and-or-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/boolean-variables-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/while-and-for-loops-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/nested-loops-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/incrementation-operators-p5-js-tutorial"
+      ]
+    },
+
+    {
+      "title": "Functions",
+      "videos": [
+        "tracks/main-tracks/code/intro/random-function-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/the-map-function-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/function-basics-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/function-parameters-and-arguments-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/functions-and-return-p5-js-tutorial"
+      ]
+    },
+
+    {
+      "title": "Objects",
+      "videos": [
+        "tracks/main-tracks/code/intro/what-is-an-array-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/arrays-and-loops-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/classes-in-javascript-with-es6-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/constructor-arguments-with-classes-in-javascript-with-es6-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/arrays-of-objects-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/mouse-interaction-with-objects-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/removing-objects-from-arrays-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/object-communication-part-1-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/object-communication-part-2-p5-js-tutorial",
+        "tracks/main-tracks/code/intro/objects-and-images-p5-js-tutorial"
       ]
     }
   ]

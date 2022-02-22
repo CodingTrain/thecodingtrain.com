@@ -29,10 +29,6 @@ a.red,
 button.red {
   color: white;
   background-color: var(--red);
-
-  &:hover {
-    background-color: var(--);
-  }
 }
 
 a.orange,
@@ -45,4 +41,10 @@ a.purple,
 button.purple {
   color: white;
   background-color: var(--purple);
+}
+
+a.cyan,
+button.cyan {
+  color: white;
+  background-color: var(--cyan);
 }

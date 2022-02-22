@@ -10,8 +10,6 @@ import Filter from '../components/Filter';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
 
-import { useImages } from '../hooks';
-
 import * as css from '../styles/pages/tracks.module.css';
 
 const TracksPage = ({ data }) => {
@@ -20,14 +18,8 @@ const TracksPage = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
 
   const tracks = data.tracks.nodes;
-  const mainTrackImages = useImages(
-    data.mainTrackImages.nodes,
-    'relativeDirectory'
-  );
-  const sideTrackImages = useImages(
-    data.sideTrackImages.nodes,
-    'relativeDirectory'
-  );
+  const languages = data.languages.nodes.map(({ value }) => value);
+  const topics = data.topics.nodes.map(({ value }) => value);
   const placeholderMainTrackImage =
     data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
   const placeholderSideTrackImage =
@@ -57,15 +49,7 @@ const TracksPage = ({ data }) => {
         <Filter
           title="Filter by Language"
           icon="⌥"
-          items={[
-            'P5.js',
-            'Processing',
-            'JavaScript',
-            'Java',
-            'React',
-            'Mechanic',
-            'Lisp'
-          ]}
+          items={languages}
           seeMore="See more languages >"
           seeLess="< See less languages"
           selected={selectedLanguage}
@@ -78,16 +62,7 @@ const TracksPage = ({ data }) => {
         <Filter
           title="Filter by Topic"
           icon="☆"
-          items={[
-            'Machine learning',
-            'Beginner-friendly',
-            'Physics',
-            'Text',
-            'Data',
-            'Interaction',
-            'Computer Vision',
-            'Simulation'
-          ]}
+          items={topics}
           seeMore="See more topics >"
           seeLess="< See less topics"
           selected={selectedTopic}
@@ -104,9 +79,10 @@ const TracksPage = ({ data }) => {
           <TrackCard
             {...track}
             image={
-              track.type === 'main'
-                ? mainTrackImages[track.slug] || placeholderMainTrackImage
-                : sideTrackImages[track.slug] || placeholderSideTrackImage
+              track.cover?.file.childImageSharp.gatsbyImageData ??
+              (track.type === 'main'
+                ? placeholderMainTrackImage
+                : placeholderSideTrackImage)
             }
             path={`/tracks/${track.slug}`}
             variant="red"
@@ -134,25 +110,18 @@ export const query = graphql`
         }
         chapters {
           title
-          lessons {
+          videos {
             languages
             topics
             title
           }
         }
-      }
-    }
-    mainTrackImages: allFile(
-      filter: {
-        name: { ne: "placeholder" }
-        sourceInstanceName: { eq: "main-tracks" }
-        extension: { in: ["jpg", "png"] }
-      }
-    ) {
-      nodes {
-        relativeDirectory
-        childImageSharp {
-          gatsbyImageData
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
         }
       }
     }
@@ -169,20 +138,6 @@ export const query = graphql`
         }
       }
     }
-    sideTrackImages: allFile(
-      filter: {
-        name: { ne: "placeholder" }
-        sourceInstanceName: { eq: "side-tracks" }
-        extension: { in: ["jpg", "png"] }
-      }
-    ) {
-      nodes {
-        relativeDirectory
-        childImageSharp {
-          gatsbyImageData
-        }
-      }
-    }
     placeholderSideTrackImage: allFile(
       filter: {
         name: { eq: "placeholder" }
@@ -194,6 +149,16 @@ export const query = graphql`
         childImageSharp {
           gatsbyImageData
         }
+      }
+    }
+    languages: allTag(filter: { type: { eq: "language" } }) {
+      nodes {
+        value
+      }
+    }
+    topics: allTag(filter: { type: { eq: "topic" } }) {
+      nodes {
+        value
       }
     }
   }

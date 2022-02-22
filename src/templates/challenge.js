@@ -10,34 +10,28 @@ import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
 import CharacterSpacer from '../components/CharacterSpacer';
 
-import { useImages } from '../hooks';
-
 import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
 
 const Challenge = ({ data }) => {
-  const { challenge, challenges } = data;
-  const contributionsImages = {
-    ...useImages(data.contributionsImages.nodes)
-  };
-  if (data.contributionPlaceholderImage.nodes.length > 0) {
-    contributionsImages._placeholder =
-      data.contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
-  }
-  const challengesImages = {
-    ...useImages(data.challengesImages.nodes, 'relativeDirectory')
-  };
-  if (data.challengePlaceholderImage.nodes.length > 0) {
-    challengesImages._placeholder =
-      data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
-  }
+  const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
+    data;
+  const challengesPlaceholder =
+    challengePlaceholderImage.nodes.length > 0
+      ? challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
+  const contributionsPlaceholder =
+    contributionPlaceholderImage.nodes.length > 0
+      ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
+      : challengesPlaceholder;
+  console.log({ relatedJourneys: challenge.relatedJourneys });
   return (
     <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
           { name: 'Challenges', link: '/challenges' },
-          { name: challenge.title, link: `/challenges/${challenge.slug}` }
+          { name: challenge.title, link: `/challenge/${challenge.slug}` }
         ]}
         variant="cyan"
       />
@@ -55,32 +49,35 @@ const Challenge = ({ data }) => {
       />
       <ContributionsPanel
         contributions={challenge.contributions}
-        images={contributionsImages}
+        placeholderImage={contributionsPlaceholder}
       />
-      <div className={css.blankSep} />
-      <CharacterSpacer
-        className={css.sep}
-        variant="cyan"
-        size="x3"
-        side="right"
-        offset={0.7}
-      />
-      <ChallengesPanel
-        challenges={challenges.nodes}
-        images={challengesImages}
-      />
+      {challenge.relatedJourneys.length > 0 && (
+        <>
+          <div className={css.blankSep} />
+          <CharacterSpacer
+            className={css.sep}
+            variant="cyan"
+            size="x3"
+            side="right"
+            offset={0.7}
+          />
+          <ChallengesPanel
+            challenges={challenge.relatedJourneys}
+            placeholderImage={challengesPlaceholder}
+          />
+        </>
+      )}
       <div className={cn(pattern, css.pattern)} />
     </Layout>
   );
 };
 
 export const query = graphql`
-  query ($id: String, $contributionsPath: String, $slug: String) {
-    challenge(id: { eq: $id }) {
+  query ($id: String, $slug: String) {
+    challenge: journey(id: { eq: $id }) {
       title
       slug
       videoId
-      contributionsPath
       description
       languages
       topics
@@ -91,17 +88,28 @@ export const query = graphql`
       }
       codeExamples {
         title
-        language
-        codeUrl
-        githubUrl
-        editorUrl
+        description
+        image {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+        urls {
+          p5
+          processing
+          node
+          other
+        }
       }
       groupLinks {
         title
         links {
+          icon
           title
           url
-          author
+          description
         }
       }
       contributions {
@@ -112,59 +120,38 @@ export const query = graphql`
           name
           url
         }
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
       }
-    }
-    challenges: allChallenge(sort: { order: DESC, fields: slug }, limit: 2) {
-      nodes {
+      relatedJourneys {
         title
         slug
         videoId
-        contributionsPath
         description
         date
-      }
-    }
-    challengesImages: allFile(
-      filter: {
-        extension: { in: ["jpg", "png"] }
-        sourceInstanceName: { eq: "challenges" }
-        relativeDirectory: { regex: "/^(?!.*(/contributions)).*$/", ne: "" }
-      }
-      sort: { order: DESC, fields: relativeDirectory }
-      limit: 2
-    ) {
-      nodes {
-        relativeDirectory
-        childImageSharp {
-          gatsbyImageData
-        }
-      }
-    }
-    contributionsImages: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: $contributionsPath }
-      }
-    ) {
-      nodes {
-        name
-        relativeDirectory
-        childImageSharp {
-          gatsbyImageData
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
         }
       }
     }
     contributionPlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "challenges" }
+        sourceInstanceName: { eq: "journeys" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: $slug }
+        name: { eq: "index" }
       }
     ) {
       nodes {
-        base
-        relativeDirectory
         childImageSharp {
           gatsbyImageData
         }
@@ -172,14 +159,13 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "challenges" }
+        sourceInstanceName: { eq: "journeys" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
+        name: { eq: "placeholder" }
       }
     ) {
       nodes {
-        base
-        relativeDirectory
         childImageSharp {
           gatsbyImageData
         }

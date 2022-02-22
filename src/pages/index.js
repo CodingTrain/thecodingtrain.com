@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
           <ul>
             {data.challenges.nodes.map((challenge, i) => (
               <li key={i}>
-                <Link to={`/challenges/${challenge.slug}`}>
+                <Link to={`/challenge/${challenge.slug}`}>
                   {challenge.title}
                 </Link>
               </li>
@@ -62,7 +62,7 @@ export const query = graphql`
         slug
       }
     }
-    challenges: allChallenge {
+    challenges: allJourney {
       nodes {
         title
         slug

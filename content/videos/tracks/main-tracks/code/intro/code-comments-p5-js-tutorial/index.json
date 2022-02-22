@@ -1,0 +1,32 @@
+{
+  "title": "Code Comments",
+  "description": "In this video, I cover code comments indicated with a '//'.",
+  "videoNumber": "Video number",
+  "videoId": "xJcrPJuem5Q",
+  "date": "2018-09-11",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
+  ]
+}

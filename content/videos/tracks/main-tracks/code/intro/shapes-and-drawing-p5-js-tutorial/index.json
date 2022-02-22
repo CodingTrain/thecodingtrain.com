@@ -1,0 +1,42 @@
+{
+  "title": "Shapes & Drawing",
+  "description": "In this video, I start writing code and cover the basics of coordinates systems, shapes, and drawing in p5.js.",
+  "videoNumber": "Video number",
+  "videoId": "c3TeLi6Ns1E",
+  "date": "2018-09-07",
+  "languages": ["language1", "language2"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "urls": {}
+    },
+    {
+      "title": "Code example 2 title",
+      "urls": {}
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
+  ]
+}
