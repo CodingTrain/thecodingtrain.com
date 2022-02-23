@@ -30,22 +30,25 @@ const TracksPage = ({ data, pageContext, location }) => {
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
       humanPageNumber={pageContext.humanPageNumber}>
-      {tracks.map((track) => (
-        <Fragment key={track.slug}>
-          <TrackCard
-            {...track}
-            image={
-              track.cover?.file.childImageSharp.gatsbyImageData ??
-              (track.type === 'main'
-                ? placeholderMainTrackImage
-                : placeholderSideTrackImage)
-            }
-            path={`/tracks/${track.slug}`}
-            variant="red"
-          />
-          <Spacer />
-        </Fragment>
-      ))}
+      {(filters) =>
+        tracks.map((track) => (
+          <Fragment key={track.slug}>
+            <TrackCard
+              {...track}
+              image={
+                track.cover?.file.childImageSharp.gatsbyImageData ??
+                (track.type === 'main'
+                  ? placeholderMainTrackImage
+                  : placeholderSideTrackImage)
+              }
+              path={`/tracks/${track.slug}`}
+              variant="red"
+              filters={filters}
+            />
+            <Spacer />
+          </Fragment>
+        ))
+      }
     </ItemsPage>
   );
 };

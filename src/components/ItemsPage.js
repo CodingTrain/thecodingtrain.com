@@ -75,7 +75,7 @@ const ItemsPage = ({
     <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
-        breadcrumbs={[{ name: title, link: itemsPath }]}
+        breadcrumbs={[{ name: title, link: `/${itemsPath}` }]}
         variant={variant}
       />
       <Heading1 variant={variant}>{title}</Heading1>
@@ -116,7 +116,11 @@ const ItemsPage = ({
         />
       </div>
       <Spacer />
-      {children}
+      {children({
+        isFiltered: selectedLanguage !== 'all' || selectedTopic !== 'all',
+        language: selectedLanguage,
+        topic: selectedTopic
+      })}
 
       {showPagination ? (
         <div className={cn(css.paginationNav, { [css[variant]]: variant })}>

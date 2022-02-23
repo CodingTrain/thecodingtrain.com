@@ -25,17 +25,19 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
       humanPageNumber={pageContext.humanPageNumber}>
-      {challenges.length > 0 && (
-        <div className={css.challenges}>
-          {challenges.map((challenge, i) => (
-            <Fragment key={i}>
-              <Card challenge={challenge} />
-              {i % 2 !== 1 && <div className={css.horizontalSpacer}></div>}
-              {i % 2 !== 0 && <div className={css.verticalSpacer}></div>}
-            </Fragment>
-          ))}
-        </div>
-      )}
+      {() =>
+        challenges.length > 0 && (
+          <div className={css.challenges}>
+            {challenges.map((challenge, i) => (
+              <Fragment key={i}>
+                <Card challenge={challenge} />
+                {i % 2 !== 1 && <div className={css.horizontalSpacer}></div>}
+                {i % 2 !== 0 && <div className={css.verticalSpacer}></div>}
+              </Fragment>
+            ))}
+          </div>
+        )
+      }
     </ItemsPage>
   );
 };

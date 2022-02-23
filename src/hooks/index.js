@@ -14,7 +14,13 @@ export const useImages = (nodes, property = 'name') => {
 };
 
 export const filterVideos = (videos, filters) => {
-  return videos;
+  const { isFiltered, language, topic } = filters;
+  if (!isFiltered) return videos;
+  return videos.filter(
+    (v) =>
+      (language === 'all' || v.languages.includes(language)) &&
+      (topic === 'all' || v.topics.includes(topic))
+  );
 };
 
 export const useSelectedTags = (pathname) => {
