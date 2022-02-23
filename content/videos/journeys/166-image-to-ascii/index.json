@@ -4,7 +4,7 @@
   "videoNumber": "166",
   "videoId": "55iwMYv8tGI",
   "date": "2022-02-12",
-  "descriptions": ["JavaScript", "p5.js"],
+  "languages": ["JavaScript", "p5.js"],
   "topics": ["images", "ASCII", "DOM"],
   "canContribute": true,
   "codeExamples": [
@@ -63,31 +63,31 @@
           "icon": "✏️",
           "title": "HTML Entity",
           "url": "https://developer.mozilla.org/en-US/docs/Glossary/Entity",
-          "description:": ""
+          "description:": "Mozilla developer glossary entry on HTML entities"
         },
         {
           "icon": "✏️",
           "title": "HTML div",
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div",
-          "description:": ""
+          "description:": "Mozilla documentation on the div HTML element"
         },
         {
           "icon": "🔆",
           "title": "p5.js loadPixels()",
           "url": "https://p5js.org/reference/#/p5/loadPixels",
-          "description:": ""
+          "description:": "Reference page for the p5.js function loadPixels()"
         },
         {
           "icon": "🔆",
           "title": "p5.js brightness()",
           "url": "https://p5js.org/reference/#/p5/brightness",
-          "description:": ""
+          "description:": "Reference page for the p5.js function brightness()"
         },
         {
           "icon": "📺",
           "title": "CodingTrainChooChoo on Twitch",
           "url": "https://www.twitch.tv/codingtrainchoochoo",
-          "description:": ""
+          "description:": "The official Twitch account for The Coding Train!"
         }
       ]
     },
