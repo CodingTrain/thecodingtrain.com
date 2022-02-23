@@ -18,14 +18,6 @@
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/GGn5cd-z"
       }
-    },
-    {
-      "title": "Code example 2 title",
-      "description": "Code example 2 description",
-      "image": "image2.png",
-      "urls": {
-        "other": "url to other source, like GitHub"
-      }
     }
   ],
   "groupLinks": [
