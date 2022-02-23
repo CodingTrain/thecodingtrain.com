@@ -4,34 +4,49 @@
   "videoNumber": "166",
   "videoId": "55iwMYv8tGI",
   "date": "2022-02-12",
-  "languages": ["JavaScript", "p5.js"],
+  "descriptions": ["JavaScript", "p5.js"],
   "topics": ["images", "ASCII", "DOM"],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "ASCII Video",
-      "language": "p5js",
-      "webEditor": "KTVfEcpWx"
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx"
+	  }
     },
     {
       "title": "ASCII Image Canvas",
-      "language": "p5js",
-      "webEditor": "r4ApYWpH_"
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_"
+	  }
     },
     {
       "title": "ASCII Image DOM",
-      "language": "p5js",
-      "webEditor": "ytK7J7d5j"
-    },
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j"
+	  }
+	},
     {
       "title": "ASCII Text",
-      "language": "p5js",
-      "webEditor": "LNBpdYQHP"
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP"
+	  }
     },
     {
       "title": "ASCII Image Weather API",
-      "language": "p5js",
-      "webEditor": "DhdqcoWn4"
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4"
+	  }
     }
   ],
   "groupLinks": [

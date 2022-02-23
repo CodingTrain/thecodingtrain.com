@@ -4,7 +4,7 @@
   "videoNumber": "Video number",
   "videoId": "fcdNSZ9IzJM",
   "date": "2016-06-02",
-  "languages": ["p5.js", "JavaScript"],
+  "descriptions": ["p5.js", "JavaScript"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
   "timestamps": [
@@ -15,13 +15,17 @@
   "codeExamples": [
     {
       "title": "Fractal Trees - Object Oriented",
-      "language": "p5js",
-      "webEditor": "JDT5wrxVj"
+      "description": "An object-oriented fractal tree made in p5.js",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/JDT5wrxVj"
+		}
     },
     {
-      "title": "Code example 2 title",
-      "language": "processing",
-      "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_015_FractalTreeArray/Processing"
+      "title": "Fractal Tree Array",
+      "description": "A fractal tree made in Processing",
+      "urls": {
+		"other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_015_FractalTreeArray/Processing"
+		}
     }
   ],
   "groupLinks": [
