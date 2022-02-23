@@ -1,111 +1,30 @@
-import React, { Fragment, useEffect, useRef, useState } from 'react';
-import { graphql, Link, navigate } from 'gatsby';
+import React, { Fragment } from 'react';
+import { graphql } from 'gatsby';
 
-import Layout from '../components/Layout';
-import Breadcrumbs from '../components/Breadcrumbs';
-import { Heading1 } from '../components/Heading';
-import PagePanel from '../components/PagePanel';
-import Filter from '../components/Filter';
-import Spacer from '../components/Spacer';
 import Card from '../components/challenges/Card';
-import Button from '../components/Button';
 
-import { useSelectedTags } from '../hooks';
+import ItemsPage from '../components/ItemsPage';
 
 import * as css from './challenges.module.css';
 
-import SemiColon from '../images/SemiColon_3.svg';
-import SquareBrackets from '../images/SquareBrackets_4.svg';
-
 const ChallengesPage = ({ data, pageContext, location }) => {
-  const [selectedLanguage, selectedTopic] = useSelectedTags(location.pathname);
-
   const challenges = data.challenges.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
-  const [expanded, setExpanded] = useState(false);
-
-  const filtersRef = useRef();
-  const shouldScroll = location.pathname.split('/').length > 2;
-
-  useEffect(() => {
-    if (location?.state?.expanded !== undefined)
-      setExpanded(location?.state?.expanded);
-  }, [location?.state?.expanded]);
-
-  useEffect(() => {
-    if (shouldScroll) {
-      filtersRef.current.scrollIntoView();
-    }
-  }, [shouldScroll]);
-
-  const onExpand = () => {
-    setExpanded((expanded) => !expanded);
-  };
-
-  const resetFilters = () => {
-    navigate(`/challenges/lang:all+topic:all/`, {
-      state: { expanded }
-    });
-  };
-
-  const setSelectedLanguage = (value) => {
-    navigate(`/challenges/lang:${value ?? 'all'}+topic:${selectedTopic}/`, {
-      state: { expanded }
-    });
-  };
-
-  const setSelectedTopic = (value) => {
-    navigate(`/challenges/lang:${selectedLanguage}+topic:${value ?? 'all'}/`, {
-      state: { expanded }
-    });
-  };
 
   return (
-    <Layout>
-      <Breadcrumbs
-        className={css.breadcrumbs}
-        breadcrumbs={[{ name: 'Challenges', link: '/challenges' }]}
-        variant="cyan"
-      />
-      <Heading1 variant="cyan">Challenges</Heading1>
-      <PagePanel
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
-        text="New to coding?"
-        buttonText="Start here"
-        buttonLink="#"
-        variant="purple"
-        bbColor="cyan"
-      />
-      <div className={css.filters} ref={filtersRef}>
-        <Filter
-          title="Filter by Language"
-          icon="⌥"
-          items={languages}
-          seeMore="See more languages >"
-          seeLess="< See less languages"
-          selected={selectedLanguage}
-          onChange={setSelectedLanguage}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
-          variant="cyan"
-        />
-        <Filter
-          title="Filter by Topic"
-          icon="☆"
-          items={topics}
-          seeMore="See more topics >"
-          seeLess="< See less topics"
-          selected={selectedTopic}
-          onChange={setSelectedTopic}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
-          variant="cyan"
-        />
-      </div>
-      <Spacer />
+    <ItemsPage
+      title="Challenges"
+      location={location}
+      itemsPath="challenges"
+      variant="cyan"
+      languages={languages}
+      topics={topics}
+      showPagination={challenges.length > 0}
+      previousPagePath={pageContext.previousPagePath}
+      numberOfPages={pageContext.numberOfPages}
+      nextPagePath={pageContext.nextPagePath}
+      humanPageNumber={pageContext.humanPageNumber}>
       {challenges.length > 0 && (
         <div className={css.challenges}>
           {challenges.map((challenge, i) => (
@@ -117,38 +36,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
           ))}
         </div>
       )}
-
-      {challenges.length > 0 ? (
-        <div className={css.paginationNav}>
-          <span>
-            {pageContext.previousPagePath && (
-              <Link to={pageContext.previousPagePath} state={{ expanded }}>
-                {'<'} Previous
-              </Link>
-            )}
-          </span>
-          <span>
-            {pageContext.humanPageNumber} of {pageContext.numberOfPages}
-          </span>
-          <span>
-            {pageContext.nextPagePath && (
-              <Link to={pageContext.nextPagePath} state={{ expanded }}>
-                Next {'>'}{' '}
-              </Link>
-            )}
-          </span>
-        </div>
-      ) : (
-        <div className={css.noItemsMessage}>
-          <p>No challenges found! </p>
-          <Button variant="cyan" onClick={() => resetFilters()}>
-            Reset filters
-          </Button>
-          <SemiColon className={css.semiColon} />
-          <SquareBrackets className={css.squareBrackets} />
-        </div>
-      )}
-    </Layout>
+    </ItemsPage>
   );
 };
 

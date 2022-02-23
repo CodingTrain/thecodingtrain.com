@@ -1,25 +1,13 @@
-import React, { Fragment, useEffect, useRef, useState } from 'react';
-import { graphql, Link, navigate } from 'gatsby';
+import React, { Fragment } from 'react';
+import { graphql } from 'gatsby';
 
-import Layout from '../components/Layout';
-import Breadcrumbs from '../components/Breadcrumbs';
-import { Heading1 } from '../components/Heading';
-import PagePanel from '../components/PagePanel';
-import Filter from '../components/Filter';
+import ItemsPage from '../components/ItemsPage';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
-import Button from '../components/Button';
 
-import { useSelectedTags } from '../hooks';
-
-import * as css from './tracks.module.css';
-
-import SemiColon from '../images/SemiColon_3.svg';
-import SquareBrackets from '../images/SquareBrackets_4.svg';
+// import * as css from './tracks.module.css';
 
 const TracksPage = ({ data, pageContext, location }) => {
-  const [selectedLanguage, selectedTopic] = useSelectedTags(location.pathname);
-
   const tracks = data.tracks.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
@@ -29,89 +17,19 @@ const TracksPage = ({ data, pageContext, location }) => {
   const placeholderSideTrackImage =
     data.placeholderSideTrackImage.nodes[0].childImageSharp.gatsbyImageData;
 
-  const [expanded, setExpanded] = useState(false);
-
-  const filtersRef = useRef();
-  const shouldScroll = location.pathname.split('/').length > 2;
-
-  useEffect(() => {
-    if (location?.state?.expanded !== undefined)
-      setExpanded(location?.state?.expanded);
-  }, [location?.state?.expanded]);
-
-  useEffect(() => {
-    if (shouldScroll) {
-      filtersRef.current.scrollIntoView();
-    }
-  }, [shouldScroll]);
-
-  const onExpand = () => {
-    setExpanded(!expanded);
-  };
-
-  const resetFilters = () => {
-    navigate(`/tracks/lang:all+topic:all/`, {
-      state: { expanded }
-    });
-  };
-
-  const setSelectedLanguage = (value) => {
-    navigate(`/tracks/lang:${value ?? 'all'}+topic:${selectedTopic}/`, {
-      state: { expanded }
-    });
-  };
-
-  const setSelectedTopic = (value) => {
-    navigate(`/tracks/lang:${selectedLanguage}+topic:${value ?? 'all'}/`, {
-      state: { expanded }
-    });
-  };
-
   return (
-    <Layout>
-      <Breadcrumbs
-        className={css.breadcrumbs}
-        breadcrumbs={[{ name: 'Tracks', link: '/tracks' }]}
-        variant="red"
-      />
-      <Heading1 variant="red">Tracks</Heading1>
-      <PagePanel
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
-        text="New to coding?"
-        buttonText="Start here"
-        buttonLink="#"
-        variant="purple"
-        bbColor="red"
-      />
-      <div className={css.filters} ref={filtersRef}>
-        <Filter
-          title="Filter by Language"
-          icon="⌥"
-          items={languages}
-          seeMore="See more languages >"
-          seeLess="< See less languages"
-          selected={selectedLanguage}
-          onChange={setSelectedLanguage}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
-          variant="red"
-        />
-        <Filter
-          title="Filter by Topic"
-          icon="☆"
-          items={topics}
-          seeMore="See more topics >"
-          seeLess="< See less topics"
-          selected={selectedTopic}
-          onChange={setSelectedTopic}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
-          variant="red"
-        />
-      </div>
-      <Spacer />
+    <ItemsPage
+      title="Tracks"
+      location={location}
+      itemsPath="tracks"
+      variant="red"
+      languages={languages}
+      topics={topics}
+      showPagination={tracks.length > 0}
+      previousPagePath={pageContext.previousPagePath}
+      numberOfPages={pageContext.numberOfPages}
+      nextPagePath={pageContext.nextPagePath}
+      humanPageNumber={pageContext.humanPageNumber}>
       {tracks.map((track) => (
         <Fragment key={track.slug}>
           <TrackCard
@@ -128,37 +46,7 @@ const TracksPage = ({ data, pageContext, location }) => {
           <Spacer />
         </Fragment>
       ))}
-      {tracks.length > 0 ? (
-        <div className={css.paginationNav}>
-          <span>
-            {pageContext.previousPagePath && (
-              <Link to={pageContext.previousPagePath} state={{ expanded }}>
-                {'<'} Previous
-              </Link>
-            )}
-          </span>
-          <span>
-            {pageContext.humanPageNumber} of {pageContext.numberOfPages}
-          </span>
-          <span>
-            {pageContext.nextPagePath && (
-              <Link to={pageContext.nextPagePath} state={{ expanded }}>
-                Next {'>'}{' '}
-              </Link>
-            )}
-          </span>
-        </div>
-      ) : (
-        <div className={css.noItemsMessage}>
-          <p>No tracks found! </p>
-          <Button variant="red" onClick={() => resetFilters()}>
-            Reset filters
-          </Button>
-          <SemiColon className={css.semiColon} />
-          <SquareBrackets className={css.squareBrackets} />
-        </div>
-      )}
-    </Layout>
+    </ItemsPage>
   );
 };
 
