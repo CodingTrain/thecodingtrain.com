@@ -4,7 +4,6 @@ import cn from 'classnames';
 import Image from '../Image';
 import ButtonPanel from '../ButtonPanel';
 import Tags from '../Tags';
-import { useTopicsAndLanguages } from '../../hooks';
 
 import * as css from './Card.module.css';
 import { pattern } from '../../styles/styles.module.css';
@@ -12,6 +11,8 @@ import { pattern } from '../../styles/styles.module.css';
 const Card = ({
   title,
   description,
+  topics,
+  languages,
   image,
   path,
   numVideos,
@@ -21,11 +22,6 @@ const Card = ({
   variant,
   className
 }) => {
-  const { topics, languages } = useTopicsAndLanguages({
-    type,
-    videos,
-    chapters
-  });
   const trackType = type === 'main' ? 'Main Track' : 'Side Track';
 
   return (

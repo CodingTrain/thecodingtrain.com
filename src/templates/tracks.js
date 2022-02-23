@@ -66,7 +66,10 @@ export const query = graphql`
         description
         numVideos
         type
+        languages
+        topics
         videos {
+          slug
           languages
           topics
           title
@@ -74,6 +77,7 @@ export const query = graphql`
         chapters {
           title
           videos {
+            slug
             languages
             topics
             title

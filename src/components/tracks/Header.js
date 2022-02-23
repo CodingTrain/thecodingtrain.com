@@ -3,17 +3,10 @@ import React, { memo } from 'react';
 import CollapsableDescription from '../CollapsableDescription';
 import Tags from '../Tags';
 
-import { useTopicsAndLanguages } from '../../hooks';
-
 import * as css from './Header.module.css';
 
 const Header = ({ track }) => {
-  const { title, description, type, numVideos, videos, chapters } = track;
-  const { topics, languages } = useTopicsAndLanguages({
-    type,
-    videos,
-    chapters
-  });
+  const { title, description, topics, languages, type, numVideos } = track;
 
   return (
     <div className={css.root}>
