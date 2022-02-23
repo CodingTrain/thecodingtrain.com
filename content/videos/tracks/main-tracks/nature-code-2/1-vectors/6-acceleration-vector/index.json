@@ -10,5 +10,15 @@
     { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
     { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
   ],
-  "canContribute": true
+  "canContribute": true,
+  "codeExamples": [
+    {
+      "title": "Acceleration Vector",
+      "description": "Creates a mover object that chases after the mouse",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/OjCfrdWX"
+      }
+    }
+  ],
 }

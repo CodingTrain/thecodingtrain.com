@@ -9,5 +9,40 @@
     { "time": "1:26", "title": "Explain! What does co-prime mean?" },
     { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
     { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
+  ],
+  "codeExamples": [
+    {
+      "title": "Random Vector",
+      "description": "Draws a cluster of random vectors to the canvas",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qHKMdpRR"
+      }
+    },
+    {
+      "title": "Walker",
+      "description": "Creates a Walker object that can move on its own",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_HHLfcGx"
+      }
+    },
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
   ]
 }

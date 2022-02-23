@@ -10,5 +10,5 @@
     { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
     { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
   ],
-  "canContribute": true
+  "canContribute": false
 }

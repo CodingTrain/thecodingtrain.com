@@ -10,5 +10,15 @@
     { "time": "4:21", "title": "Explain! Euclid's Algorithm" },
     { "time": "8:40", "title": "Example! Finding the greatest common divisor." }
   ],
-  "canContribute": true
+  "canContribute": true,
+  "codeExamples": [
+    {
+      "title": "Unit Vector (Normalize)",
+      "description": "Creates a unit vector that points at the mouse",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/U4ezFLIZ"
+      }
+    }
+  ],
 }
