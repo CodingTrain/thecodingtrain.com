@@ -7,6 +7,44 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["images", "ASCII", "DOM"],
   "canContribute": true,
+  "timestamps": [
+    { "title": "Welcome!", "time": "0:00" },
+    {
+      "title": "Introduction",
+      "time": "0:28"
+    },
+    { "title": "Pixel to ASCII", "time": "1:39" },
+    {
+      "title": "Pixelating an image",
+      "time": "4:52"
+    },
+    {
+      "title": "Pixel array explanation",
+      "time": "7:03"
+    },
+    { "title": "Back to the code", "time": "8:40" },
+    {
+      "title": "Adding text",
+      "time": "10:18"
+    },
+    {
+      "title": "Mapping brightness to characters",
+      "time": "11:04"
+    },
+    { "title": "Switching from canvas to DOM", "time": "13:26" },
+    {
+      "title": "Real-time ASCII video",
+      "time": "18:10"
+    },
+    {
+      "title": "Some refinements",
+      "time": "20:10"
+    },
+    {
+      "title": "See you next time!",
+      "time": "21:29"
+    }
+  ],
   "codeExamples": [
     {
       "title": "ASCII Video",
@@ -113,44 +151,6 @@
           "url": "https://youtu.be/rO6M5hj0V-o"
         }
       ]
-    }
-  ],
-  "timestamps": [
-    { "title": "Welcome!", "time": "0:00" },
-    {
-      "title": "Introduction",
-      "time": "0:28"
-    },
-    { "title": "Pixel to ASCII", "time": "1:39" },
-    {
-      "title": "Pixelating an image",
-      "time": "4:52"
-    },
-    {
-      "title": "Pixel array explanation",
-      "time": "7:03"
-    },
-    { "title": "Back to the code", "time": "8:40" },
-    {
-      "title": "Adding text",
-      "time": "10:18"
-    },
-    {
-      "title": "Mapping brightness to characters",
-      "time": "11:04"
-    },
-    { "title": "Switching from canvas to DOM", "time": "13:26" },
-    {
-      "title": "Real-time ASCII video",
-      "time": "18:10"
-    },
-    {
-      "title": "Some refinements",
-      "time": "20:10"
-    },
-    {
-      "title": "See you next time!",
-      "time": "21:29"
     }
   ]
 }

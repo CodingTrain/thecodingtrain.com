@@ -21,30 +21,7 @@
     { "time": "3:06:00", "title": "Conclusions & Goodbyes" }
   ],
   "codeExamples": [
-    {
-      "title": "Code example 1 title",
-      "urls": {}
-    },
-    {
-      "title": "Code example 2 title",
-      "urls": {}
-    }
   ],
   "groupLinks": [
-    {
-      "title": "Group of links title",
-      "links": [
-        {
-          "title": "Link 1 title",
-          "url": "link 1 url",
-          "description": "description of content linked"
-        },
-        {
-          "title": "Link 2 title",
-          "url": "link 2 url",
-          "description": "description of content linked"
-        }
-      ]
-    }
   ]
 }

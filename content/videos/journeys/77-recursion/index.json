@@ -8,7 +8,7 @@
   "topics": ["For beginners"],
   "codeExamples": [
     {
-      "title": "Code",
+      "title": "Recursion Coding Challenge p5 sketch",
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pseBrWaMm",
@@ -19,7 +19,7 @@
   ],
   "groupLinks": [
     {
-      "title": "Links discussed",
+      "title": "References",
       "links": [
         {
           "title": "The Fractal Geometry of Nature",
