@@ -1,10 +1,10 @@
 {
-  "title": "Phyllotaxis",
-  "description": "",
+  "title": "Video title",
+  "description": "Video description",
   "videoNumber": "Video number",
-  "videoId": "KWoJgHFYWxY",
-  "date": "2016-06-02",
-  "languages": ["p5.js", "JavaScript"],
+  "videoId": "YouTube video ID",
+  "date": "YYYY-MM-DD",
+  "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
   "timestamps": [
