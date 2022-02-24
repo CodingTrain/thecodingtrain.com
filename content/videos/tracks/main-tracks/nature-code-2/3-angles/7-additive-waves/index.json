@@ -1,0 +1,9 @@
+{
+  "title": "3.7 Additive Waves",
+  "description": "This video builds on the previous sine wave visualization in p5.js example. Here, I build a Wave class with variables for period, amplitude, and phase, and demonstrate how to add multiple wave patterns together!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "okfZRl4Xw-c",
+  "timestamps": [
+  ]
+}

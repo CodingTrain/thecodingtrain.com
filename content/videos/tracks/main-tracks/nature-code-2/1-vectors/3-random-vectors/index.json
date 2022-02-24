@@ -1,0 +1,29 @@
+{
+  "title": "1.3 Random Vectors ",
+  "description": "This video covers how to initialize a p5.js vector with p5.Vector.random2D(). ",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "jupjuq9Jl-M",
+  "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Random Vector",
+      "description": "Draws a cluster of random vectors to the canvas",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qHKMdpRR"
+      }
+    },
+    {
+      "title": "Walker",
+      "description": "Creates a Walker object that can move on its own",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_HHLfcGx"
+      }
+    }
+  ],
+  "groupLinks": [
+  ]
+}

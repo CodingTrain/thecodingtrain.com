@@ -1,0 +1,27 @@
+{
+  "title": "Shell",
+  "description": "What is a “shell”? In this video, I look at at “zsh” (instead of the default Mac OSX shell: bash).",
+  "videoNumber": "Video number",
+  "videoId": "FnkkzgYuXUM",
+  "date": "2018-09-19",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": false,
+  "timestamps": [
+  ],
+  "groupLinks": [
+    {
+      "title": "Links",
+      "links": [
+        {
+          "title": "iTerm",
+          "url": "https://iterm2.com"
+        },
+        {
+          "title": "Oh My ZSH!",
+          "url": "https://ohmyz.sh"
+        }
+      ]
+    }
+  ]
+}

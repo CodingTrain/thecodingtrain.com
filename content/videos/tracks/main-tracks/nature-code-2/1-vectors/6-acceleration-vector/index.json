@@ -1,0 +1,20 @@
+{
+  "title": "1.6 Acceleration Vector",
+  "description": "In this video, I add an “acceleration” vector to the Mover object and create an example where the object accelerates towards the mouse location. This is the foundation on which I will build for implementing forces in the next chapter!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "T84AWnntxZA",
+  "timestamps": [
+  ],
+  "canContribute": true,
+  "codeExamples": [
+    {
+      "title": "Acceleration Vector",
+      "description": "Creates a mover object that chases after the mouse",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/OjCfrdWX"
+      }
+    }
+  ]
+}
