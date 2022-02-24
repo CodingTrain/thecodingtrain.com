@@ -128,12 +128,19 @@
   font-size: var(--maru-xsmall);
 }
 
-.filterHeading {
+.filterHeading,
+.expand {
   border-bottom: var(--border);
   border-left: var(--border);
   height: var(--baseline);
   padding: 0 var(--box-padding);
   line-height: var(--baseline);
+}
+
+.expand {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
 }
 
 .filteredResults {
@@ -142,7 +149,7 @@
 }
 
 .filteredVideo {
-  flex: 1 0 50%;
+  flex: 0 0 calc((100% - var(--baseline)) / 2);
   display: flex;
   align-items: center;
   border-bottom: var(--border);
@@ -150,13 +157,29 @@
   height: var(--baseline);
   padding: 0 var(--box-padding);
   background: var(--red-light);
+  color: var(--gray-mid);
+  font-size: var(--maru-normal);
+  line-height: var(--maru-normal-line-height);
   & * + * {
     margin-left: var(--box-padding);
   }
 }
 
+.spacer {
+  flex: 0 0 var(--baseline);
+  border-bottom: var(--border);
+  border-left: var(--border);
+  height: var(--baseline);
+  background: var(--red-light);
+}
+
+.spacer.growSpacer {
+  flex-grow: 1;
+}
+
 .playIcon {
   fill: var(--red);
+  height: var(--baseline-2of3);
 }
 
 /**
@@ -209,6 +232,14 @@
 
   .image {
     height: var(--baseline-6x);
+  }
+
+  .filteredVideo {
+    flex: 0 0 100%;
+  }
+
+  .spacer {
+    display: none;
   }
 }
 

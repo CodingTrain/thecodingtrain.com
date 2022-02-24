@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { memo, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -10,9 +10,45 @@ import { filterVideos } from '../../hooks';
 
 import * as css from './Card.module.css';
 import { pattern } from '../../styles/styles.module.css';
-import Spacer from '../Spacer';
 
 import PlayButton from '../../images/playbutton.svg';
+
+const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
+  const [expanded, setExpanded] = useState(false);
+  const canExpand = allVideos.length > 6;
+  const videos = expanded || !canExpand ? allVideos : allVideos.slice(0, 6);
+  return (
+    <>
+      <div className={css.filterHeading}>
+        {allVideos.length} videos within this track match the tag:
+      </div>
+      <div className={css.filteredResults}>
+        {videos.map((v, i) => (
+          <>
+            <div className={css.filteredVideo} key={i}>
+              <Link to={`/tracks/${trackSlug}/${v.slug}`}>
+                <PlayButton className={css.playIcon} />
+              </Link>
+              <Link to={`/tracks/${trackSlug}/${v.slug}`}>{v.title}</Link>
+            </div>
+            {i % 2 === 0 && (
+              <div
+                className={cn(css.spacer, {
+                  [css.growSpacer]: i === videos.length - 1
+                })}
+              />
+            )}
+          </>
+        ))}
+      </div>
+      {canExpand && (
+        <button className={css.expand} onClick={() => setExpanded((e) => !e)}>
+          {!expanded ? 'See all results >' : 'See fewer results <'}
+        </button>
+      )}
+    </>
+  );
+};
 
 const Card = ({
   title,
@@ -72,22 +108,7 @@ const Card = ({
         </div>
       </div>
       {filters.isFiltered && (
-        <>
-          <Spacer />
-          <div className={css.filterHeading}>
-            {filteredVideos.length} videos within this track match the tag:
-          </div>
-          <div className={css.filteredResults}>
-            {filteredVideos.map((v) => (
-              <div className={css.filteredVideo}>
-                <Link to={`/tracks/${slug}/${v.slug}`}>
-                  <PlayButton className={css.playIcon} />
-                </Link>
-                <Link to={`/tracks/${slug}/${v.slug}`}>{v.title}</Link>
-              </div>
-            ))}
-          </div>
-        </>
+        <FilteredVideosSection trackSlug={slug} videos={filteredVideos} />
       )}
     </>
   );
