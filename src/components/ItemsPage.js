@@ -3,7 +3,6 @@ import { Link, navigate } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from './Layout';
-import Breadcrumbs from './Breadcrumbs';
 import { Heading1 } from './Heading';
 import PagePanel from './PagePanel';
 import Filter from './Filter';
@@ -73,11 +72,6 @@ const ItemsPage = ({
 
   return (
     <Layout>
-      <Breadcrumbs
-        className={css.breadcrumbs}
-        breadcrumbs={[{ name: title, link: `/${itemsPath}` }]}
-        variant={variant}
-      />
       <Heading1 variant={variant}>{title}</Heading1>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
