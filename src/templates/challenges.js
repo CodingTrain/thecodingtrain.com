@@ -11,6 +11,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   const challenges = data.challenges.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
+
   const challengesPlaceholder =
     data.challengePlaceholderImage.nodes.length > 0
       ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
