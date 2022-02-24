@@ -18,6 +18,8 @@ const TracksPage = ({ data }) => {
   const [expanded, setExpanded] = useState(false);
 
   const tracks = data.tracks.nodes;
+  const languages = data.languages.nodes.map(({ value }) => value);
+  const topics = data.topics.nodes.map(({ value }) => value);
   const placeholderMainTrackImage =
     data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
   const placeholderSideTrackImage =
@@ -47,15 +49,7 @@ const TracksPage = ({ data }) => {
         <Filter
           title="Filter by Language"
           icon="⌥"
-          items={[
-            'P5.js',
-            'Processing',
-            'JavaScript',
-            'Java',
-            'React',
-            'Mechanic',
-            'Lisp'
-          ]}
+          items={languages}
           seeMore="See more languages >"
           seeLess="< See less languages"
           selected={selectedLanguage}
@@ -68,16 +62,7 @@ const TracksPage = ({ data }) => {
         <Filter
           title="Filter by Topic"
           icon="☆"
-          items={[
-            'Machine learning',
-            'Beginner-friendly',
-            'Physics',
-            'Text',
-            'Data',
-            'Interaction',
-            'Computer Vision',
-            'Simulation'
-          ]}
+          items={topics}
           seeMore="See more topics >"
           seeLess="< See less topics"
           selected={selectedTopic}
@@ -164,6 +149,16 @@ export const query = graphql`
         childImageSharp {
           gatsbyImageData
         }
+      }
+    }
+    languages: allTag(filter: { type: { eq: "language" } }) {
+      nodes {
+        value
+      }
+    }
+    topics: allTag(filter: { type: { eq: "topic" } }) {
+      nodes {
+        value
       }
     }
   }

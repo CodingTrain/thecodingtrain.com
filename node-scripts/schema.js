@@ -12,7 +12,9 @@ interface VideoInterface implements Node {
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
@@ -32,7 +34,9 @@ type Video implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
@@ -52,7 +56,9 @@ type Journey implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
@@ -72,7 +78,9 @@ type GuestTutorial implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
+  topicsFlat: String!
   languages: [String!]
+  languagesFlat: String!
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
@@ -165,5 +173,10 @@ type Collaborator implements Node {
 type CoverImage implements Node {
   id: ID!
   file: File! @link
+}
+
+type Tag implements Node {
+  type: String!
+  value: String!
 }
 `;
