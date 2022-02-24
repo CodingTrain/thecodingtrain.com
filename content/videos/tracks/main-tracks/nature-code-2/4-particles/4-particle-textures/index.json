@@ -1,0 +1,9 @@
+{
+  "title": "4.4 Particle Textures",
+  "description": "It’s time to expand beyond grayscale particles! In this video I demonstrate how to make a fire or smoke-like effect by using image textures and additive blending with a particle system.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "pUhv2CA0omA",
+  "timestamps": [
+  ]
+}

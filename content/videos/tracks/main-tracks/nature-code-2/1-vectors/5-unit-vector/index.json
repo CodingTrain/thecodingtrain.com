@@ -1,0 +1,20 @@
+{
+  "title": "1.5 A Unit Vector",
+  "description": "In this video, I explain the concept of a “unit vector,” what it means to “normalize” a vector, and take a look at the p5.js functions: p5.Vector.mag(), p5.Vector.normalize(), p5.Vector.setMag().",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "ttz05d8DSOs",
+  "timestamps": [
+  ],
+  "canContribute": true,
+  "codeExamples": [
+    {
+      "title": "Unit Vector (Normalize)",
+      "description": "Creates a unit vector that points at the mouse",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/U4ezFLIZ"
+      }
+    }
+  ]
+}
