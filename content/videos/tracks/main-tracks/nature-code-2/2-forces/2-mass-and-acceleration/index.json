@@ -1,0 +1,9 @@
+{
+  "title": "2.2 Mass & Acceleration",
+  "description": "In this video, I add a mass property to the Mover class and examine how a mass property impacts gravity and wind forces.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "L7CECWLdTmo",
+  "timestamps": [
+  ]
+}

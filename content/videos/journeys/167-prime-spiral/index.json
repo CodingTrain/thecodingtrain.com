@@ -1,0 +1,114 @@
+{
+  "title": "The Prime (Ulam) Spiral",
+  "description": "Why do prime numbers show up as diagonals in a spiral? In this video, I create a visualization in JavaScript (p5.js) of the Ulam Spiral (aka Prime Spiral) named for Polish Mathematician Stanislav Ulan.",
+  "videoNumber": "167",
+  "videoId": "a35KWEjRvc0",
+  "date": "2022-02-20",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Prime Numbers"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome! Choo choo!" },
+    { "time": "0:23", "title": "History of the Ulam Spiral" },
+    { "time": "1:16", "title": "Diagramming the Spiral" },
+    { "time": "2:18", "title": "Starting to Code" },
+    { "time": "3:25", "title": "How and when do I rotate?" },
+    { "time": "4:25", "title": "Coding the number spiral" },
+    { "time": "7:00", "title": "Debugging!" },
+    { "time": "9:40", "title": "Visualizing the spiral" },
+    { "time": "12:22", "title": "What is a prime number?" },
+    { "time": "14:31", "title": "Code to check if a number is prime." },
+    { "time": "18:57", "title": "Marking primes in the spiral" },
+    { "time": "19:40", "title": "Porting to Processing (Java)" },
+    { "time": "22:46", "title": "More references & examples" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Prime (Ulam) Spiral",
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/0Ud-XsaYb"
+      }
+    },
+    {
+      "title": "Number Spiral",
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Zs65bV-Al"
+      }
+    },
+    {
+      "title": "Prime vs Random Spiral",
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/3np1hBlXD"
+      }
+    },
+    {
+      "title": "Shapes & Color",
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/mCvvSKpZ5"
+      }
+    },
+    {
+      "title": "Incorporating 3D",
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/-eX078HZ5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "CodingTrainChooChoo on Twitch",
+          "url": "https://www.twitch.tv/codingtrainchoochoo",
+          "description": "The Coding Train Twitch Account"
+        },
+        {
+          "title": "Mathematical Games: The remarkable lore of the prime numbers (1964)",
+          "url": "https://www.scientificamerican.com/article/mathematical-games-1964-03/",
+          "description": "Scientific American article on prime numbers"
+        },
+        {
+          "title": "An Observation on the Distribution of Primes, M. Stein and S. M. Ulam",
+          "url": "https://doi.org/10.2307/2314055",
+          "description": "An article on the distribution of prie numbers"
+        },
+        {
+          "title": "Prime Numbers (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Prime_number",
+          "description": "Wikipedia entry on prime numbers"
+        },
+        {
+          "title": "List of Prime Numbers",
+          "url": "https://en.wikipedia.org/wiki/List_of_prime_numbers",
+          "description": "Wikipedia entry listing prime numbers"
+        },
+        {
+          "title": "Download Processing 4",
+          "url": "https://processing.org/download",
+          "description": "Link to download Processing 4"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Prime Spirals",
+          "url": "https://youtube.com/watch?v=iFuR97YcSLM",
+          "description": "Numberphile video on prime spirals"
+        }
+      ]
+    }
+  ]
+}

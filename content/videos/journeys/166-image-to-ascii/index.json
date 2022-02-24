@@ -1,0 +1,156 @@
+{
+  "title": "Image to ASCII",
+  "description": "Let's make ASCII art in p5.js together! In this video, I demonstrate a variety of techniques for translating the pixels of an image into text and finish with rendering video as text ASCII characters in a DOM.",
+  "videoNumber": "166",
+  "videoId": "55iwMYv8tGI",
+  "date": "2022-02-12",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["images", "ASCII", "DOM"],
+  "canContribute": true,
+  "timestamps": [
+    { "title": "Welcome!", "time": "0:00" },
+    {
+      "title": "Introduction",
+      "time": "0:28"
+    },
+    { "title": "Pixel to ASCII", "time": "1:39" },
+    {
+      "title": "Pixelating an image",
+      "time": "4:52"
+    },
+    {
+      "title": "Pixel array explanation",
+      "time": "7:03"
+    },
+    { "title": "Back to the code", "time": "8:40" },
+    {
+      "title": "Adding text",
+      "time": "10:18"
+    },
+    {
+      "title": "Mapping brightness to characters",
+      "time": "11:04"
+    },
+    { "title": "Switching from canvas to DOM", "time": "13:26" },
+    {
+      "title": "Real-time ASCII video",
+      "time": "18:10"
+    },
+    {
+      "title": "Some refinements",
+      "time": "20:10"
+    },
+    {
+      "title": "See you next time!",
+      "time": "21:29"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "ASCII Video",
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx"
+	  }
+    },
+    {
+      "title": "ASCII Image Canvas",
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_"
+	  }
+    },
+    {
+      "title": "ASCII Image DOM",
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j"
+	  }
+	},
+    {
+      "title": "ASCII Text",
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP"
+	  }
+    },
+    {
+      "title": "ASCII Image Weather API",
+      "description": "p5js",
+	  "image": "image1.png",
+      "urls": {
+		"p5": "https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4"
+	  }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔢",
+          "title": "ASCII play by ertdfgcvb",
+          "url": "https://play.ertdfgcvb.xyz/",
+          "description": ""
+        },
+        {
+          "icon": "✏️",
+          "title": "HTML Entity",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Entity",
+          "description": "Mozilla developer glossary entry on HTML entities"
+        },
+        {
+          "icon": "✏️",
+          "title": "HTML div",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div",
+          "description": "Mozilla documentation on the div HTML element"
+        },
+        {
+          "icon": "🔆",
+          "title": "p5.js loadPixels()",
+          "url": "https://p5js.org/reference/#/p5/loadPixels",
+          "description": "Reference page for the p5.js function loadPixels()"
+        },
+        {
+          "icon": "🔆",
+          "title": "p5.js brightness()",
+          "url": "https://p5js.org/reference/#/p5/brightness",
+          "description": "Reference page for the p5.js function brightness()"
+        },
+        {
+          "icon": "📺",
+          "title": "CodingTrainChooChoo on Twitch",
+          "url": "https://www.twitch.tv/codingtrainchoochoo",
+          "description": "The official Twitch account for The Coding Train!"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "The Pixel Array",
+          "description": "",
+          "url": "https://youtu.be/nMUMZ5YRxHI"
+        },
+        {
+          "icon": "🎥",
+          "title": "Basics of CSS",
+          "description": "",
+          "url": "https://thecodingtrain.com/Tutorials/8-html-css-dom/8.7-css-basics"
+        },
+        {
+          "icon": "🎥",
+          "title": "p5.js Web Editor - Uploading Media Files",
+          "description": "",
+          "url": "https://youtu.be/rO6M5hj0V-o"
+        }
+      ]
+    }
+  ]
+}

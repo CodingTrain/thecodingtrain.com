@@ -1,0 +1,36 @@
+{
+  "title": "Space Colonization",
+  "description": "In this coding challenge, I'm using the space colonization algorithm to make a tree generator. This is the 4th part of my algorithmic botany series.",
+  "videoNumber": "Video number",
+  "videoId": "kKT0v3qhIQY",
+  "date": "2016-05-31",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+  ],
+  "codeExamples": [
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Algorithmic Botany",
+          "url": "http://algorithmicbotany.org/",
+          "description": "by University of Calgary"
+        },
+        {
+          "title": "Space Colonization Algorithm",
+          "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+          "description": "by Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz"
+        },
+        {
+          "title": "Nature of Code class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "description of content linked"
+        }
+      ]
+    }
+  ]
+}
