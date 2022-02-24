@@ -1,0 +1,9 @@
+{
+  "title": "4.1 Particle System",
+  "description": "Welcome to Chapter 4 of The Nature of Code: Particle Systems! I begin by coding a simple particle system in p5.js. I convert the Mover class into a Particle class, add a lifetime property, and organize a collection of particles into an array.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "syR0klfncCk",
+  "timestamps": [
+  ]
+}

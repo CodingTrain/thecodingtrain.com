@@ -1,0 +1,9 @@
+{
+  "title": "5.6 Scalar Projection",
+  "description": "This video covers the dot product and scalar projection with p5.js and vectors, concepts that I’ll need for finding the distance between a point and a line which will lead to the path following steering behavior in the next video!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "DHPfoqiE4yQ",
+  "timestamps": [
+  ]
+}

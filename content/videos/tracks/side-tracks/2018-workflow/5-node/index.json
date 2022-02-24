@@ -1,0 +1,47 @@
+{
+  "title": "Node",
+  "description": "In this video, I discuss how I use node.js and global packages (to generate p5 sketches, run a web server) as part of my workflow.",
+  "videoNumber": "Video number",
+  "videoId": "FjWbUK2HdCo",
+  "date": "2018-09-24",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": false,
+  "timestamps": [
+  ],
+  "groupLinks": [
+    {
+      "title": "Links",
+      "links": [
+        {
+          "title": "iTerm",
+          "url": "https://iterm2.com"
+        },
+        {
+          "title": "Oh My ZSH!",
+          "url": "https://ohmyz.sh"
+        },
+        {
+          "title": "Node",
+          "url": "https://nodejs.org"
+        },
+        {
+          "title": "npm",
+          "url": "https://www.npmjs.com"
+        },
+        {
+          "title": "p5-manager",
+          "url": " https://www.npmjs.com/package/p5-manager"
+        },
+        {
+          "title": "http-server",
+          "url": " https://www.npmjs.com/package/http-server"
+        },
+        {
+          "title": "live-server",
+          "url": " https://www.npmjs.com/package/live-server"
+        }
+      ]
+    }
+  ]
+}

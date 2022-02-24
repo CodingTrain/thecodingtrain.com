@@ -1,0 +1,9 @@
+{
+  "title": "5.3 Pursue & Evade",
+  "description": "Continuing my quest to explore all the steering behaviors from Craig Reynolds’ 1999 paper, in this video I tackle flee, pursue, and evade (all in JavaScript with p5.js).",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "Q4MU7pkDYmQ",
+  "timestamps": [
+  ]
+}
