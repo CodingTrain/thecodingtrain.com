@@ -11,6 +11,10 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   const challenges = data.challenges.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
+  const challengesPlaceholder =
+    data.challengePlaceholderImage.nodes.length > 0
+      ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
 
   return (
     <ItemsPage
@@ -30,7 +34,10 @@ const ChallengesPage = ({ data, pageContext, location }) => {
           <div className={css.challenges}>
             {challenges.map((challenge, i) => (
               <Fragment key={i}>
-                <Card challenge={challenge} />
+                <Card
+                  challenge={challenge}
+                  placeholderImage={challengesPlaceholder}
+                />
                 {i % 2 !== 1 && <div className={css.horizontalSpacer}></div>}
                 {i % 2 !== 0 && <div className={css.verticalSpacer}></div>}
               </Fragment>
@@ -88,6 +95,20 @@ export const query = graphql`
     topics: allTag(filter: { type: { eq: "topic" } }) {
       nodes {
         value
+      }
+    }
+    challengePlaceholderImage: allFile(
+      filter: {
+        sourceInstanceName: { eq: "journeys" }
+        extension: { in: ["jpg", "png"] }
+        relativeDirectory: { eq: "" }
+        name: { eq: "placeholder" }
+      }
+    ) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData
+        }
       }
     }
   }
