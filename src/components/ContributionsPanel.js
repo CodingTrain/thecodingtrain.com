@@ -10,12 +10,12 @@ import PlayButton from '../images/playbutton.svg';
 const ContributionsPanel = ({ contributions, placeholderImage }) => {
   const description =
     contributions.length > 0
-      ? 'What our community has done based on this video'
+      ? 'What the Coding Train community has created based on this video'
       : 'No contributions submitted yet!';
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
-        <h4>Community contributions</h4>
+        <h4>Passenger Showcase</h4>
         <p>{description}</p>
       </div>
       <div className={css.contributions}>
