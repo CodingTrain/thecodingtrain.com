@@ -37,7 +37,11 @@ const Challenge = ({ data }) => {
       />
       <ChallengeVideoSection challenge={challenge} />
       <div className={css.blankSep} />
-      <VideoInfo video={challenge} variant="cyan" />
+      <VideoInfo
+        video={challenge}
+        variant="cyan"
+        url={`/challenges/${challenge.slug}`}
+      />
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}

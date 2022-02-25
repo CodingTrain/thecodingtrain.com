@@ -59,7 +59,11 @@ const Track = ({ pageContext, data }) => {
         trackPosition={trackPosition}
       />
       <div className={css.blankSep} />
-      <VideoInfo video={video} variant="red" />
+      <VideoInfo
+        video={video}
+        variant="red"
+        url={`/tracks/${track.slug}/${video.slug}`}
+      />
       {video.canContribute && (
         <>
           <div className={css.blankSep} />
