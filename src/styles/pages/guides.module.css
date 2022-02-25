@@ -1,0 +1,31 @@
+.guideList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guideItem {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: var(--border-orange);
+  border-left: var(--border-orange);
+  width: 100%;
+  height: var(--baseline);
+  padding: 0 var(--box-padding);
+  background: var(--orange-light);
+  color: var(--gray-mid);
+}
+
+.icon {
+  font-family: var(--maru-emoji);
+  font-size: var(--maru-emoji-normal);
+  margin-right: var(--box-padding);
+}
+
+@media (--medium) {
+}
+
+@media (--small) {
+}

@@ -1,18 +1,139 @@
 .root {
-  padding: var(--box-padding);
-  border-left: var(--border);
+  background-color: white;
   border-bottom: var(--border);
 }
 
+.title {
+  border-bottom: var(--border-orange);
+}
+
+.index {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.indexItem,
+.itemSpacer {
+  display: flex;
+  align-items: center;
+  flex-basis: 50%;
+  border-bottom: var(--border-orange);
+  border-left: var(--border-orange);
+  height: var(--baseline);
+  padding: 0 var(--box-padding);
+  list-style: none;
+  color: var(--orange);
+  font-size: var(--maru-normal);
+  line-height: var(--baseline-1of3);
+  background-color: var(--orange-light);
+}
+
 .heading {
-  padding-left: var(--box-padding);
+}
+
+.paragraph {
+  margin: 0;
+  padding: var(--box-padding);
   border-left: var(--border);
+  font-size: var(--maru-medium);
+  line-height: var(--maru-medium-line-height);
+}
+
+.blockquote {
+  margin: 0;
+  padding: var(--box-padding);
+  border-left: var(--border);
+  & .paragraph {
+    border-left: 3px solid var(--orange);
+  }
+}
+
+.a {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+.list {
+  margin: 0;
+  border-left: var(--border);
+  padding: var(--box-padding);
+  padding-left: calc(2 * var(--box-padding));
+
+  & .paragraph {
+    border-left: none;
+    padding: 0 0 var(--box-padding) 0;
+  }
+}
+
+.listItem {
+  /* padding-left: var(--box-padding); */
+  font-size: var(--maru-medium);
+  line-height: var(--maru-medium-line-height);
+}
+
+.paragraph + .paragraph,
+.paragraph + .list,
+.list + .paragraph,
+.list + .list {
+  padding-top: 0;
+}
+
+.pre {
+  margin: 0;
+  border-left: var(--border);
+  padding: var(--box-padding);
+  background-color: var(--gray-light);
+}
+
+.table {
+  border-left: var(--border);
+  padding-bottom: var(--box-padding);
+  font-size: var(--maru-medium);
+  line-height: var(--maru-medium-line-height);
+
+  & table {
+    width: 100%;
+  }
+}
+
+.tr {
+  height: var(--baseline);
+}
+
+.td + .td,
+.th + .th {
+  border-left: var(--border);
+}
+
+.td,
+.th {
   border-bottom: var(--border);
-  color: var(--red);
+}
+
+.th {
+  border-top: var(--border);
+  background-color: var(--orange-light);
+  color: var(--orange);
+}
+
+.breakSpacer {
+  border-top: var(--border);
+  /* border: none; */
 }
 
 @media (--small) {
   .breadcrumbs {
+    display: none;
+  }
+}
+
+@media (--xsmall) {
+  .indexItem {
+    flex-basis: 100%;
+  }
+  .itemSpacer {
     display: none;
   }
 }

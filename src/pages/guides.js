@@ -3,23 +3,23 @@ import { graphql } from 'gatsby';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Breadcrumbs from '../components/Breadcrumbs';
+import { Heading1 } from '../components/Heading';
+
+import * as css from '../styles/pages/guides.module.css';
 
 const GuidesPage = ({ data }) => {
+  const guides = data.guides.nodes.filter((n) => n.frontmatter.title);
   return (
     <Layout>
-      <Breadcrumbs
-        // className={css.breadcrumbs}
-        breadcrumbs={[{ name: 'Guides', link: `/guides` }]}
-        variant="red"
-      />
-      <ul>
-        {data.guides.nodes.map((mdx, i) => (
-          <li key={i}>
-            <Link to={`/guides/${mdx.slug}`}>{mdx.frontmatter.title}</Link>
-          </li>
+      <Heading1 variant="orange">Guides</Heading1>
+      <div className={css.guideList}>
+        {guides.map((mdx, i) => (
+          <Link className={css.guideItem} to={`/guides/${mdx.slug}`} key={i}>
+            <span className={css.icon}>📒</span>
+            <span>{mdx.frontmatter.title}</span>
+          </Link>
         ))}
-      </ul>
+      </div>
     </Layout>
   );
 };
