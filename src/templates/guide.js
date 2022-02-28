@@ -13,6 +13,7 @@ import {
   Heading5,
   Heading6
 } from '../components/Heading';
+import Button from '../components/Button';
 import Spacer from '../components/Spacer';
 
 import * as css from './guide.module.css';
@@ -30,16 +31,15 @@ const components = {
       variant="orange"
       as="h2"
       id={kebabCase(props.children)}
-      borderBottom={false}
       {...props}
     />
   ),
   h2: (props) => (
     <Heading2
-      variant="orange"
+      className={css.headingBorderTop}
+      variant="red"
       as="h3"
       id={kebabCase(props.children)}
-      borderBottom={false}
       {...props}
     />
   ),
@@ -80,14 +80,23 @@ const components = {
     />
   ),
   p: (props) => <p className={css.paragraph} {...props} />,
-  a: (props) => <a className={css.a} {...props} />,
+  img: (props) => <img className={css.image} alt="" {...props} />,
+  a: ({ children, ...props }) => (
+    <a className={css.a} {...props}>
+      {children}
+    </a>
+  ),
   ul: (props) => <ul className={css.list} {...props} />,
   ol: (props) => <ol className={css.list} {...props} />,
   li: (props) => <li className={css.listItem} {...props} />,
   thematicBreak: (props) => (
     <Spacer className={css.breakSpacer} pattern {...props} />
   ),
-  pre: (props) => <pre className={css.pre} {...props} />,
+  pre: (props) => (
+    <div className={css.preWrapper}>
+      <pre className={css.pre} {...props} />
+    </div>
+  ),
   table: (props) => (
     <div className={css.table}>
       <table {...props} />
@@ -97,7 +106,12 @@ const components = {
   td: (props) => <td className={css.td} {...props} />,
   th: (props) => <th className={css.th} {...props} />,
   blockquote: (props) => <blockquote className={css.blockquote} {...props} />,
-  hr: (props) => <Spacer className={css.breakSpacer} pattern {...props} />
+  hr: (props) => <Spacer className={css.breakSpacer} pattern {...props} />,
+  Button: (props) => (
+    <div className={css.button}>
+      <Button variant={'orange'} {...props} />
+    </div>
+  )
 };
 
 const Guide = ({ data }) => {
@@ -121,11 +135,10 @@ const Guide = ({ data }) => {
         {mdx.frontmatter.title}
       </Heading1>
       <ul className={css.index}>
+        <li className={css.indexLabel}>Table Of Contents</li>
         {mdx.tableOfContents.items.map((item, index) => (
-          <a href={item.url} className={css.indexItem}>
-            <li key={index}>
-              {'>'} {item.title}
-            </li>
+          <a key={index} href={item.url} className={css.indexItem}>
+            <li>{item.title}</li>
           </a>
         ))}
         {mdx.tableOfContents.items.length % 2 === 1 && (
@@ -136,6 +149,7 @@ const Guide = ({ data }) => {
       <MDXProvider components={components}>
         <div className={css.root}>
           <MDXRenderer>{mdx.body}</MDXRenderer>
+          <div className={css.guideBottomSpacer} />
         </div>
       </MDXProvider>
     </Layout>

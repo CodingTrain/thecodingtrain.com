@@ -2,11 +2,13 @@
 title: 'Passenger Showcase Guide'
 ---
 
-## Here's a video tutorial if you prefer that sort of thing!
+## Video Tutorial
+
+Here's a video tutorial if you prefer that sort of thing!
 
 [![How to add your contribution](https://i3.ytimg.com/vi/fkIr0inoQ7Y/hqdefault.jpg)](https://youtu.be/fkIr0inoQ7Y)
 
-[How to add your contribution to The Coding Train website](https://youtu.be/fkIr0inoQ7Y)
+<Button  href="https://youtu.be/fkIr0inoQ7Y">Watch Video on Youtube</Button>
 
 &nbsp;
 

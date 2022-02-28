@@ -15,7 +15,7 @@ const Heading = (props) => {
     className,
     id
   } = props;
-  console.log({ props });
+
   const Tag = `${tag}`;
   return (
     <div
