@@ -14,7 +14,9 @@ const FAQPage = () => {
     <Layout>
       <Spacer />
       <div className={css.header}>
-        <Heading1 className={css.heading}>FAQ</Heading1>
+        <Heading1 className={css.heading} variant="pink">
+          FAQ
+        </Heading1>
         <div className={css.train}>
           <Train />
         </div>
