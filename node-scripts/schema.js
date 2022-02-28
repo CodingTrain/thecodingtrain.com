@@ -162,6 +162,10 @@ type Talk implements Node {
   meta: String!
   link: String
   cover: CoverImage @link
+  topics: [String!]
+  topicsFlat: String!
+  languages: [String!]
+  languagesFlat: String!
 }
 
 type Collaborator implements Node {

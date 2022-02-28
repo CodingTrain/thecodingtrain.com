@@ -13,28 +13,22 @@ export const useImages = (nodes, property = 'name') => {
   }, [nodes, property]);
 };
 
-export const useTopicsAndLanguages = ({ type, videos, chapters }) => {
-  return useMemo(() => {
-    const topicSet = new Set();
-    const languageSet = new Set();
-    if (type === 'main') {
-      chapters.forEach((chapter) => {
-        chapter.videos.forEach((video) => {
-          if (video.languages)
-            video.languages.forEach((language) => languageSet.add(language));
-          if (video.topics)
-            video.topics.forEach((topic) => topicSet.add(topic));
-        });
-      });
-    } else if (type === 'side') {
-      videos.forEach((video) => {
-        if (video.languages)
-          video.languages.forEach((language) => languageSet.add(language));
-        if (video.topics) video.topics.forEach((topic) => topicSet.add(topic));
-      });
-    }
-    const topics = [...topicSet];
-    const languages = [...languageSet];
-    return { topics, languages };
-  }, [type, videos, chapters]);
+export const filterVideos = (videos, filters) => {
+  const { isFiltered, language, topic } = filters;
+  if (!isFiltered) return videos;
+  return videos.filter(
+    (v) =>
+      (language === 'all' || v.languages.includes(language)) &&
+      (topic === 'all' || v.topics.includes(topic))
+  );
+};
+
+export const useSelectedTags = (pathname) => {
+  const splittedString = pathname.replace('%20', ' ').split('/');
+  const filterString =
+    splittedString[2] && splittedString[2].includes('+')
+      ? splittedString[2]
+      : 'lang:all+topic:all';
+  const [languageFilter, topicFilter] = filterString.split('+');
+  return [languageFilter.split(':')[1], topicFilter.split(':')[1]];
 };
