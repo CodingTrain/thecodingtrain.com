@@ -103,6 +103,93 @@ exports.createJourneyPages = async (graphql, createPage) => {
 };
 
 /**
+ * Creates tracks pages for all loaded Tracks nodes
+ * @param {function} graphql - Gatsby's graphql function
+ * @param {function} createPage - Gatsby's createPage function
+ */
+exports.createTracksPages = async (graphql, createPage) => {
+  const {
+    data: { tracks }
+  } = await graphql(`
+    query {
+      tracks: allTrack {
+        nodes {
+          id
+          slug
+        }
+      }
+    }
+  `);
+
+  paginate({
+    createPage,
+    items: tracks.nodes,
+    itemsPerPage: ITEMS_PER_PAGE,
+    pathPrefix: '/tracks',
+    component: require.resolve(`../src/templates/tracks.js`),
+    context: {
+      topic: '',
+      language: ''
+    }
+  });
+
+  const {
+    data: { languages, topics }
+  } = await graphql(`
+    query {
+      languages: allTag(filter: { type: { eq: "language" } }) {
+        nodes {
+          value
+        }
+      }
+      topics: allTag(filter: { type: { eq: "topic" } }) {
+        nodes {
+          value
+        }
+      }
+    }
+  `);
+
+  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
+    const langRegex = `/.*${language}.*/`;
+    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
+      const topRegex = `/.*${topic}.*/`;
+      const {
+        data: { filteredTracks }
+      } = await graphql(`
+        query {
+          filteredTracks: allTrack (
+            filter: {
+              languagesFlat: {regex: "${langRegex}"}
+              topicsFlat: {regex: "${topRegex}"}
+            }
+          ) {
+            nodes {
+              id
+              slug
+            }
+          }
+        }
+      `);
+
+      paginate({
+        createPage,
+        items: filteredTracks.nodes,
+        itemsPerPage: ITEMS_PER_PAGE,
+        pathPrefix: `/tracks/lang:${language !== '' ? language : 'all'}+topic:${
+          topic !== '' ? topic : 'all'
+        }`,
+        component: require.resolve(`../src/templates/tracks.js`),
+        context: {
+          topic: topRegex,
+          language: langRegex
+        }
+      });
+    });
+  });
+};
+
+/**
  * Creates individual Video pages nested from the loaded tracks
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
