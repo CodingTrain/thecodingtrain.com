@@ -3,17 +3,10 @@ import React, { memo } from 'react';
 import CollapsableDescription from '../CollapsableDescription';
 import Tags from '../Tags';
 
-import { useTopicsAndLanguages } from '../../hooks';
-
 import * as css from './Header.module.css';
 
 const Header = ({ track }) => {
-  const { title, description, type, numVideos, videos, chapters } = track;
-  const { topics, languages } = useTopicsAndLanguages({
-    type,
-    videos,
-    chapters
-  });
+  const { title, description, topics, languages, type, numVideos } = track;
 
   return (
     <div className={css.root}>
@@ -27,8 +20,18 @@ const Header = ({ track }) => {
           content={description}
         />
         <div className={css.tagsContainer}>
-          <Tags heading="Languages" items={languages} singleLine={false} />
-          <Tags heading="Topics" items={topics} singleLine={false} />
+          <Tags
+            heading="Languages"
+            items={languages}
+            singleLine={false}
+            linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+          />
+          <Tags
+            heading="Topics"
+            items={topics}
+            singleLine={false}
+            linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+          />
           <Tags
             heading={
               type === 'main'

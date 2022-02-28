@@ -140,6 +140,7 @@ const ComponentsPage = ({ data }) => {
       <TrackCard
         variant="slim"
         title="Code! Programming with p5.js"
+        type="main"
         description="This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices."
         numVideos={36}
         image={getImage(data.placeholder)}
@@ -152,11 +153,14 @@ const ComponentsPage = ({ data }) => {
           'Funky Times by the Computer'
         ]}
         languages={['p5.js', 'JavaScript']}
+        chapters={[]}
+        filters={{ isFiltered: false }}
       />
       <Spacer>Track Card (full)</Spacer>
       <TrackCard
         title="Code! Programming with p5.js"
         description="This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices."
+        type="side"
         numVideos={36}
         image={getImage(data.placeholder)}
         path="/tracks/code-programming-with-p5-js"
@@ -168,6 +172,8 @@ const ComponentsPage = ({ data }) => {
           'Funky Times by the Computer'
         ]}
         languages={['p5.js', 'JavaScript']}
+        videos={[]}
+        filters={{ isFiltered: false }}
       />
       <Spacer>Button panel</Spacer>
       <div className={cols}>

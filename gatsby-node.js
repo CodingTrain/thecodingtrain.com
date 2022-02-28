@@ -10,6 +10,7 @@ const {
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
+  createTracksPages,
   createJourneyPages,
   createGuidePages
 } = require('./node-scripts/page-generation');
@@ -133,6 +134,7 @@ exports.onCreateNode = ({
 exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
+  await createTracksPages(graphql, createPage);
   await createJourneyPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
 };
