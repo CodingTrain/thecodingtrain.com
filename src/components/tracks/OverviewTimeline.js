@@ -2,6 +2,8 @@ import React, { memo, useState } from 'react';
 import cn from 'classnames';
 import { Link } from 'gatsby';
 
+import { usePersistScrollPosition } from '../../hooks';
+
 import * as css from './OverviewTimeline.module.css';
 
 const usePaths = (chapters, track, trackPosition) => {
@@ -48,9 +50,13 @@ const OverviewTimeline = memo(
       trackPosition
     );
 
+    const videoSlug = track.slug;
+
+    const timelineRef = usePersistScrollPosition(videoSlug);
+
     return (
       <div className={cn(css.root, className)}>
-        <div className={css.overviewTimeline}>
+        <div className={css.overviewTimeline} ref={timelineRef}>
           {chapters.map((chapter, index) => (
             <ChapterSection
               key={index}
