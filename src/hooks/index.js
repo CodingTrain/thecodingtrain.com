@@ -50,7 +50,7 @@ export const usePersistScrollPosition = (key, _namespace) => {
     // save the current scroll position, debounced with requestAnimationFrame
     const onScroll = (e) => {
       cancelAnimationFrame(frame.current);
-      requestAnimationFrame(() => {
+      frame.current = requestAnimationFrame(() => {
         // console.log('setting scroll to', scrollPositions[namespace]);
         scrollPositions[namespace] = e.target.scrollTop;
       });
