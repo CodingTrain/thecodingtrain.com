@@ -50,10 +50,7 @@ const OverviewTimeline = memo(
       trackPosition
     );
 
-    const videoSlug = track.slug;
-
-    const timelineRef = usePersistScrollPosition(videoSlug);
-
+    const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
     return (
       <div className={cn(css.root, className)}>
         <div className={css.overviewTimeline} ref={timelineRef}>

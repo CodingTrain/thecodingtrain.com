@@ -34,35 +34,43 @@ export const useSelectedTags = (pathname) => {
 };
 
 const scrollPositions = {};
+let lastKey;
 
 // persists scroll position of an element across page refreshes
-export const usePersistScrollPosition = (key) => {
+export const usePersistScrollPosition = (key, _namespace) => {
+  const namespace = _namespace || key;
+
   const ref = useRef(); // the ref
   const frame = useRef(); // internal timer
 
-  // save the current scroll position, debounced with requestAnimationFrame
-  const onScroll = (e) => {
-    cancelAnimationFrame(frame.current);
-    requestAnimationFrame(() => {
-      // console.log('setting scroll to', scrollPositions[key]);
-      scrollPositions[key] = e.target.scrollTop;
-    });
-  };
-
   // if set, override scrollTop of element on initial load
   useEffect(() => {
-    if (scrollPositions[key]) {
-      // console.log('restoring scroll to', scrollPositions[key]);
-      ref.current.scrollTop = scrollPositions[key];
+    const current = ref.current;
+
+    // save the current scroll position, debounced with requestAnimationFrame
+    const onScroll = (e) => {
+      cancelAnimationFrame(frame.current);
+      requestAnimationFrame(() => {
+        // console.log('setting scroll to', scrollPositions[namespace]);
+        scrollPositions[namespace] = e.target.scrollTop;
+      });
+    };
+
+    if (lastKey !== key) {
+      // console.log('resetting scroll');
+      scrollPositions[namespace] = 0;
+    } else if (scrollPositions[namespace]) {
+      // console.log('restoring scroll to', scrollPositions[namespace]);
+      current.scrollTop = scrollPositions[namespace];
     }
 
-    ref.current.addEventListener('scroll', onScroll, passiveEventArg);
+    lastKey = key;
+    current.addEventListener('scroll', onScroll, passiveEventArg);
 
     return () => {
-      ref.current &&
-        ref.current.removeEventListener('scroll', onScroll, passiveEventArg);
+      current.removeEventListener('scroll', onScroll, passiveEventArg);
     };
-  }, []);
+  }, [key, namespace]);
 
   return ref;
 };
