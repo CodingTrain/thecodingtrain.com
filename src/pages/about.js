@@ -23,6 +23,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout title="About">
+      <Spacer />
       <div className={css.row}>
         <Heading1 className={css.mainHeading} variant="purple">
           Hi I'm Dan!

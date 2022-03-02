@@ -4,10 +4,12 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Breadcrumbs from '../components/Breadcrumbs';
+import Spacer from '../components/Spacer';
 
 const GuidesPage = ({ data }) => {
   return (
     <Layout title="Guides">
+      <Spacer />
       <Breadcrumbs
         // className={css.breadcrumbs}
         breadcrumbs={[{ name: 'Guides', link: `/guides` }]}

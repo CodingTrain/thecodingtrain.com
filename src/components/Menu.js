@@ -9,14 +9,13 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const items = [
   {
     name: 'Get Started',
-    to: '/'
+    to: '/get-started'
   },
   {
     name: 'Videos',
     children: [
       { name: 'Tracks', to: '/tracks' },
       { name: 'Challenges', to: '/challenges' },
-      { name: 'Archive', to: '/archive' },
       { name: 'FAQ', to: '/faq' }
     ]
   },
@@ -26,10 +25,6 @@ const items = [
       {
         name: 'Discord',
         href: 'https://discord.com/invite/hPuGy2g'
-      },
-      {
-        name: 'Contributions',
-        to: '/contributions'
       },
       {
         name: 'Guides',
