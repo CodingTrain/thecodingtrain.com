@@ -44,7 +44,7 @@ export const ShareButton = ({ className, variant, text = 'Share' }) => {
 
   return (
     <CopyUrlToClipboard onCopy={onCopy}>
-      <Button className={classes}>
+      <Button className={classes} aria-label="Share page URL">
         <ShareIcon />
         {text && <span>{text}</span>}
         {isCopied && (
