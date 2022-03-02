@@ -49,7 +49,10 @@ const Menu = () => {
 
   return (
     <div className={css.root}>
-      <button className={css.menuToggle} onClick={() => setExpanded(!expanded)}>
+      <button
+        className={css.menuToggle}
+        aria-label="Menu toggle"
+        onClick={() => setExpanded(!expanded)}>
         {expanded ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </button>
       <ul className={cn(css.menu, { [css.expanded]: expanded })}>

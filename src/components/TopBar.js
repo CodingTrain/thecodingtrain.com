@@ -12,7 +12,7 @@ const TopBar = () => {
     <div className={css.outer}>
       <div className={css.root}>
         <div className={css.logo}>
-          <Link to="/">
+          <Link to="/" aria-label="Go to homepage">
             <Logo width={250} />
           </Link>
         </div>
