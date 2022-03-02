@@ -110,3 +110,10 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (--reduced) {
+  .challenge {
+    width: 100%;
+    flex-basis: 100%;
+  }
+}

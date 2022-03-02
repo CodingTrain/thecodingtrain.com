@@ -15,3 +15,10 @@
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
 }
+
+@media (--reduced) {
+  .horizontalSpacer {
+    flex: 100%;
+    height: var(--baseline);
+  }
+}
