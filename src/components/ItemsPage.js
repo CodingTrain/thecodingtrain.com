@@ -72,13 +72,14 @@ const ItemsPage = ({
 
   return (
     <Layout title={title}>
+      <Spacer />
       <Heading1 variant={variant}>{title}</Heading1>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
         buttonText="Start here"
-        buttonLink="#"
-        variant="purple"
+        buttonLink="/get-started"
+        variant="orange"
         bbColor={variant}
       />
       <div className={css.filters} ref={filtersRef}>
