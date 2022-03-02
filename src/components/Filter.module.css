@@ -43,6 +43,20 @@
   }
 }
 
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - var(--baseline));
+}
+
+.itemSpacer {
+  flex: 1 0 0;
+  margin-top: -1px;
+  border-left: var(--border);
+  border-bottom: var(--border);
+}
+
 .items {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +128,8 @@
   & .spacer,
   & .title,
   & .item,
-  & .seeMore {
+  & .seeMore,
+  & .itemSpacer {
     border-color: var(--red);
   }
 }
@@ -142,7 +157,8 @@
   & .spacer,
   & .title,
   & .item,
-  & .seeMore {
+  & .seeMore,
+  & .itemSpacer {
     border-color: var(--cyan);
   }
 }
