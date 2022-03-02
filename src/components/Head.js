@@ -4,6 +4,9 @@ import { Helmet } from 'react-helmet';
 const Head = ({ title }) => {
   return (
     <Helmet
+      htmlAttributes={{
+        lang: 'en'
+      }}
       defaultTitle="The Coding Train"
       titleTemplate="%s / The Coding Train">
       <meta charSet="utf-8" />

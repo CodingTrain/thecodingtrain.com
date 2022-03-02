@@ -7,7 +7,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 
 const GuidesPage = ({ data }) => {
   return (
-    <Layout>
+    <Layout title="Guides">
       <Breadcrumbs
         // className={css.breadcrumbs}
         breadcrumbs={[{ name: 'Guides', link: `/guides` }]}

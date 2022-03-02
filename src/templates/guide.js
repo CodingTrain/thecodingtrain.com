@@ -11,7 +11,7 @@ const Guide = ({ data }) => {
   const { mdx } = data;
 
   return (
-    <Layout>
+    <Layout title={mdx.frontmatter.title}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[

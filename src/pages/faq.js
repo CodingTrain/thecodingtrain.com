@@ -3,7 +3,7 @@ import * as React from 'react';
 import Layout from '../components/Layout';
 
 const FaqPage = () => {
-  return <Layout>FAQ</Layout>;
+  return <Layout title="FAQ">FAQ</Layout>;
 };
 
 export default FaqPage;

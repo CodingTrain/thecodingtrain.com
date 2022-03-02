@@ -34,7 +34,7 @@ const Track = ({ pageContext, data }) => {
   const { trackPosition, isTrackPage } = pageContext;
 
   return (
-    <Layout>
+    <Layout title={isTrackPage ? track.title : video.title}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
