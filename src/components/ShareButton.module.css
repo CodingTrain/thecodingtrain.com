@@ -21,7 +21,28 @@
 }
 
 .root:hover {
-  font-weight: 600;
+  & span {
+    font-weight: 600;
+  }
+  & svg path {
+    stroke-width: 2px;
+  }
+}
+
+.copiedNotification {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 var(--box-padding);
+  top: var(--baseline-1of4);
+  left: calc(-1 * (205px + 2 * var(--box-padding)));
+  border-radius: 5px;
+  border: var(--border);
+  width: calc((200px + 2 * var(--box-padding)));
+  line-height: var(--baseline-1of2);
+  cursor: auto;
+  background-color: var(--gray-light);
 }
 
 /* Variants */
@@ -39,6 +60,12 @@
   & span {
     color: var(--red);
   }
+
+  & .copiedNotification {
+    border: var(--border-red);
+    background-color: var(--red-light);
+    color: var(--red);
+  }
 }
 
 .cyan {
@@ -52,6 +79,12 @@
   }
 
   & span {
+    color: var(--cyan);
+  }
+
+  & .copiedNotification {
+    border: var(--border-cyan);
+    background-color: var(--cyan-light);
     color: var(--cyan);
   }
 }

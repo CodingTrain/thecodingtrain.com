@@ -45,8 +45,11 @@ export const ShareButton = ({ className, variant, text = 'Share' }) => {
   return (
     <CopyUrlToClipboard onCopy={onCopy}>
       <Button className={classes}>
-        {isCopied ? <ShareIcon /> : <ShareIcon />}
+        <ShareIcon />
         {text && <span>{text}</span>}
+        {isCopied && (
+          <p className={css.copiedNotification}>Copied to clipboard!</p>
+        )}
       </Button>
     </CopyUrlToClipboard>
   );
