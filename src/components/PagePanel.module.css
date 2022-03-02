@@ -31,7 +31,6 @@
   height: var(--baseline-box);
   width: var(--baseline);
   background-color: var(--gray-light);
-  pointer-events: none;
 }
 
 .buttonPanel {
@@ -75,7 +74,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    height: var(--baseline-6x);
+    height: var(--baseline-5x);
   }
 
   .cta {
@@ -83,21 +82,13 @@
     justify-content: end;
   }
 
-  .ctaIcon {
-    pointer-events: auto;
-    cursor: pointer;
-  }
-
   .buttonPanel {
     width: fit-content;
-    max-width: 0;
-    padding: 0;
-    transition-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
-    transition: max-width 1s, padding 0.3s;
   }
+}
 
-  .expand .buttonPanel {
-    max-width: 300px;
-    padding: 0 var(--spacing-xsmall) 0 var(--box-padding);
+@media (--small) {
+  .root {
+    height: var(--baseline-6x);
   }
 }
