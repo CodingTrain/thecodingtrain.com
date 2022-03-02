@@ -23,6 +23,7 @@ const ItemsPage = ({
   variant,
   languages,
   topics,
+  midSection,
   children,
   showPagination,
   previousPagePath,
@@ -82,6 +83,8 @@ const ItemsPage = ({
         variant="orange"
         bbColor={variant}
       />
+      {midSection}
+      {midSection && <Spacer />}
       <div className={css.filters} ref={filtersRef}>
         <Filter
           title="Filter by Language"

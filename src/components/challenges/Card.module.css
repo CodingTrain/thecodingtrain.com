@@ -70,6 +70,7 @@
 
   & p {
     font-size: var(--maru-small);
+    line-height: var(--maru-small-line-height);
     padding: calc(var(--box-padding) / 2) var(--box-padding);
   }
 }
@@ -111,9 +112,19 @@
   object-fit: cover;
 }
 
-@media (--reduced) {
+@media (--medium) {
   .challenge {
     width: 100%;
     flex-basis: 100%;
+  }
+}
+
+@media (--small) {
+  .thumb {
+    flex-direction: column-reverse;
+  }
+  .right,
+  .left {
+    flex: none;
   }
 }

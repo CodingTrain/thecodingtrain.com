@@ -1,14 +1,19 @@
 import React, { Fragment } from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
+import Image from '../components/Image';
 import Card from '../components/challenges/Card';
 
 import ItemsPage from '../components/ItemsPage';
+import PlayButton from '../images/playbutton.svg';
+
+import { getReadableDate } from '../hooks';
 
 import * as css from './challenges.module.css';
 
 const ChallengesPage = ({ data, pageContext, location }) => {
   const challenges = data.challenges.nodes;
+  const recentChallenge = data.recentChallenge.nodes[0];
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
 
@@ -25,6 +30,12 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       variant="cyan"
       languages={languages}
       topics={topics}
+      midSection={
+        <RecentChallenge
+          challenge={recentChallenge}
+          placeholderImage={challengesPlaceholder}
+        />
+      }
       showPagination={challenges.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
@@ -50,6 +61,48 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   );
 };
 
+const RecentChallenge = ({ challenge, placeholderImage }) => {
+  const { title, date, slug, description, cover } = challenge;
+  return (
+    <div className={css.recentChallenge}>
+      <div className={css.left}>
+        <div className={css.info}>
+          <h2 className={css.heading}>
+            Check out our newest challenge: <br />
+            {title}
+          </h2>
+          <p>{description}</p>
+        </div>
+        <div className={css.bottom}>
+          <p>{getReadableDate(date)}</p>
+          <Link className={css.play} to={`/challenge/${slug}`}>
+            <PlayButton />
+          </Link>
+        </div>
+      </div>
+      <div className={css.right}>
+        <Link to={`/challenge/${slug}`}>
+          {cover ? (
+            <Image
+              image={cover.file.childImageSharp.gatsbyImageData}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+            />
+          ) : placeholderImage ? (
+            <Image
+              image={placeholderImage}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+            />
+          ) : (
+            <div style={{ width: '100%', height: '100%' }} />
+          )}
+        </Link>
+      </div>
+    </div>
+  );
+};
+
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
     challenges: allJourney(
@@ -61,6 +114,21 @@ export const query = graphql`
       skip: $skip
       limit: $limit
     ) {
+      nodes {
+        title
+        slug
+        description
+        date
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }
+    recentChallenge: allJourney(sort: { fields: date, order: DESC }, limit: 1) {
       nodes {
         title
         slug
