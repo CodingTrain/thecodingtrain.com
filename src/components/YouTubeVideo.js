@@ -26,13 +26,15 @@ const YouTubeVideo = ({
   }, [timestamp]);
 
   return (
-    <YouTube
-      containerClassName={cn(css.container, containerClassName)}
-      className={cn(css.video, className)}
-      ref={youTubeVideo}
-      videoId={videoId}
-      opts={{ playerVars: { autoplay: 0, rel: 0 } }}
-    />
+    <div key={videoId}>
+      <YouTube
+        containerClassName={cn(css.container, containerClassName)}
+        className={cn(css.video, className)}
+        ref={youTubeVideo}
+        videoId={videoId}
+        opts={{ playerVars: { autoplay: 0, rel: 0 } }}
+      />
+    </div>
   );
 };
 
