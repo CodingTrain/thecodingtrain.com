@@ -72,9 +72,9 @@
   --maru-medium-line-height: var(--baseline-1of2);
   --maru-normal: 14px;
   --maru-normal-line-height: var(--baseline-1of2);
-  --maru-small: 12px;
+  --maru-small: 13px;
   --maru-small-line-height: var(--baseline-1of2);
-  --maru-xsmall: 11px;
+  --maru-xsmall: 12px;
   --maru-xsmall-line-height: var(--baseline-1of2);
 
   --maru-emoji-normal: 18px;
@@ -139,9 +139,9 @@
     --maru-medium-line-height: var(--baseline-1of2);
     --maru-normal: 13px;
     --maru-normal-line-height: var(--baseline-1of2);
-    --maru-small: 11px;
+    --maru-small: 12px;
     --maru-small-line-height: var(--baseline-1of2);
-    --maru-xsmall: 11px;
+    --maru-xsmall: 12px;
     --maru-xsmall-line-height: var(--baseline-1of2);
 
     --maru-emoji-normal: 17px;
@@ -189,9 +189,9 @@
     --maru-medium-line-height: var(--baseline-1of2);
     --maru-normal: 12px;
     --maru-normal-line-height: var(--baseline-1of2);
-    --maru-small: 10px;
+    --maru-small: 12px;
     --maru-small-line-height: var(--baseline-1of2);
-    --maru-xsmall: 10px;
+    --maru-xsmall: 12px;
     --maru-xsmall-line-height: var(--baseline-1of2);
 
     --maru-emoji-normal: 16px;
