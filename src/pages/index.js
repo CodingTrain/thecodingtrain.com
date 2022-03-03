@@ -4,10 +4,12 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
+import * as css from '../styles/pages/index.module.css';
+
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <ul>
+      <ul className={css.root}>
         <li>
           <Link to="/components">Go to components overview</Link>
         </li>
@@ -37,13 +39,17 @@ const IndexPage = ({ data }) => {
           </ul>
         </li>
         <li>
-          Guides:
+          <Link to="/guides/">Guides:</Link>
           <ul>
-            {data.mdxs.nodes.map((mdx, i) => (
-              <li key={i}>
-                <Link to={`/guides/${mdx.slug}`}>{mdx.frontmatter.title}</Link>
-              </li>
-            ))}
+            {data.mdxs.nodes
+              .filter((m) => m.frontmatter.title)
+              .map((mdx, i) => (
+                <li key={i}>
+                  <Link to={`/guides/${mdx.slug}`}>
+                    {mdx.frontmatter.title}
+                  </Link>
+                </li>
+              ))}
           </ul>
         </li>
       </ul>
