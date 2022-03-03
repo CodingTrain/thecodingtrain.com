@@ -1,27 +1,22 @@
 .guideList {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .guideItem {
-  display: flex;
+  flex: 50%;
+  /* display: flex;
   justify-content: start;
   align-items: center;
-  border-bottom: var(--border-orange);
-  border-left: var(--border-orange);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
   width: 100%;
   height: var(--baseline);
   padding: 0 var(--box-padding);
-  background: var(--orange-light);
-  color: var(--gray-mid);
-}
-
-.icon {
-  font-family: var(--maru-emoji);
-  font-size: var(--maru-emoji-normal);
-  margin-right: var(--box-padding);
+  background: var(--purple-light);
+  color: var(--gray-mid); */
 }
 
 @media (--medium) {

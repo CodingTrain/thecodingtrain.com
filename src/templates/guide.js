@@ -28,7 +28,7 @@ const kebabCase = (string) =>
 const components = {
   h1: (props) => (
     <Heading1
-      variant="orange"
+      variant="purple"
       as="h2"
       id={kebabCase(props.children)}
       {...props}
@@ -37,7 +37,7 @@ const components = {
   h2: (props) => (
     <Heading2
       className={css.headingBorderTop}
-      variant="red"
+      variant="purple"
       as="h3"
       id={kebabCase(props.children)}
       {...props}
@@ -45,7 +45,7 @@ const components = {
   ),
   h3: (props) => (
     <Heading3
-      variant="orange"
+      variant="purple"
       as="h4"
       id={kebabCase(props.children)}
       borderBottom={false}
@@ -54,7 +54,7 @@ const components = {
   ),
   h4: (props) => (
     <Heading4
-      variant="orange"
+      variant="purple"
       as="h5"
       id={kebabCase(props.children)}
       borderBottom={false}
@@ -63,7 +63,7 @@ const components = {
   ),
   h5: (props) => (
     <Heading5
-      variant="orange"
+      variant="purple"
       as="h6"
       id={kebabCase(props.children)}
       borderBottom={false}
@@ -72,7 +72,7 @@ const components = {
   ),
   h6: (props) => (
     <Heading6
-      variant="orange"
+      variant="purple"
       as="h6"
       id={kebabCase(props.children)}
       borderBottom={false}
@@ -109,7 +109,7 @@ const components = {
   hr: (props) => <Spacer className={css.breakSpacer} pattern {...props} />,
   Button: (props) => (
     <div className={css.button}>
-      <Button variant={'orange'} {...props} />
+      <Button variant={'purple'} {...props} />
     </div>
   )
 };
@@ -125,10 +125,10 @@ const Guide = ({ data }) => {
           { name: 'Guides', link: `/guides` },
           { name: mdx.frontmatter.title, link: `/guides/${mdx.slug}` }
         ]}
-        variant="orange"
+        variant="purple"
       />
       <Heading1
-        variant="orange"
+        variant="purple"
         as="h2"
         className={css.title}
         borderBottom={false}>
