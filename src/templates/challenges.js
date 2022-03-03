@@ -75,7 +75,10 @@ const RecentChallenge = ({ challenge, placeholderImage }) => {
         </div>
         <div className={css.bottom}>
           <p>{getReadableDate(date)}</p>
-          <Link className={css.play} to={`/challenge/${slug}`}>
+          <Link
+            className={css.play}
+            to={`/challenge/${slug}`}
+            aria-label={title}>
             <PlayButton />
           </Link>
         </div>
@@ -87,15 +90,17 @@ const RecentChallenge = ({ challenge, placeholderImage }) => {
               image={cover.file.childImageSharp.gatsbyImageData}
               pictureClassName={css.picture}
               imgClassName={css.image}
+              alt={title}
             />
           ) : placeholderImage ? (
             <Image
               image={placeholderImage}
               pictureClassName={css.picture}
               imgClassName={css.image}
+              alt={title}
             />
           ) : (
-            <div style={{ width: '100%', height: '100%' }} />
+            <div aria-label={title} style={{ width: '100%', height: '100%' }} />
           )}
         </Link>
       </div>

@@ -34,15 +34,20 @@ const Card = ({ className, challenge, placeholderImage }) => {
                 image={cover.file.childImageSharp.gatsbyImageData}
                 pictureClassName={css.picture}
                 imgClassName={css.image}
+                alt={title}
               />
             ) : placeholderImage ? (
               <Image
                 image={placeholderImage}
                 pictureClassName={css.picture}
                 imgClassName={css.image}
+                alt={title}
               />
             ) : (
-              <div style={{ width: '100%', height: '100%' }} />
+              <div
+                aria-label={title}
+                style={{ width: '100%', height: '100%' }}
+              />
             )}
           </Link>
         </div>
