@@ -37,9 +37,11 @@
   line-height: var(--baseline-box);
   padding-left: var(--box-padding);
 
-  & h3 {
+  & h2 {
     margin: 0;
     font-size: var(--maru-large);
+    font-family: var(--maru);
+    font-weight: bold;
   }
 }
 

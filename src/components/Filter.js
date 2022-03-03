@@ -47,7 +47,7 @@ const Filter = ({
       </div>
       <div className={css.right}>
         <div className={css.title}>
-          <h3>{title}</h3>
+          <h2>{title}</h2>
         </div>
         <div className={css.itemContainer}>
           <div className={cn(css.items, { [css.expanded]: expanded })}>
