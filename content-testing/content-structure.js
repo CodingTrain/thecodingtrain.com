@@ -4,6 +4,7 @@ const {
   sideTrack: sideTrackFormat,
   contribution: contributionFormat,
   talk: talkFormat,
+  faq: faqFormat,
   collaborators: collaboratorsFormat
 } = require('./file-formats.js');
 
@@ -236,6 +237,15 @@ const contentStructure = {
       isFileSensitive: true,
       isFolderSensitive: true,
       isRequired: true
+    },
+    faqs: {
+      files: {
+        '': { isRequired: false, jsonFormat: faqFormat }
+      },
+      folder: {},
+      isRequired: false,
+      isFileSensitive: false,
+      isFolderSensitive: true
     },
     guides: {
       folders: {},

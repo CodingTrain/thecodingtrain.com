@@ -6,7 +6,7 @@ import { useLinkParsedText } from '../hooks';
 
 const Link = ({ link }) => {
   const { description, title, icon, url } = link;
-  const parsedDescription = useLinkParsedText(description);
+  const parsedDescription = useLinkParsedText(description ?? '');
   return (
     <li className={css.link}>
       <span className={css.icon}>{icon}</span>

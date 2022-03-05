@@ -102,12 +102,17 @@ const ComponentsPage = ({ data }) => {
       <Question
         variant="pink"
         question="I have never coded before, where can I start?"
-        content="Some content here"
+        answer={{
+          text: 'Some content here'
+        }}
       />
       <Question
         variant="pink"
         question="I have never coded before, where can I start?"
-        content="Some content here"
+        answer={{
+          text: 'Some content here',
+          list: ['1', '2', '3']
+        }}
       />
       <Tabs labels={['First Component', 'Second Component', 'Third Component']}>
         <Heading2>Test</Heading2>

@@ -135,6 +135,25 @@ const contribution = {
   }
 };
 
+const faq = {
+  name: 'faq',
+  init: {
+    type: 'object',
+    properties: {
+      question: { isRequired: true, type: 'string' },
+      type: { isRequired: true, type: 'string' },
+      answer: {
+        isRequired: true,
+        type: 'object',
+        properties: {
+          text: { isRequired: true, type: 'string' },
+          list: { type: 'array', content: { type: 'string' } }
+        }
+      }
+    }
+  }
+};
+
 const talk = {
   name: 'talk',
   init: {
@@ -190,6 +209,7 @@ module.exports = {
   mainTrack,
   sideTrack,
   contribution,
+  faq,
   talk,
   collaborators
 };
