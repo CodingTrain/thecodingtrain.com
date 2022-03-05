@@ -1,0 +1,10 @@
+{
+  "question": "Where can I download the Coding Train wallpapers?",
+  "type": "tools",
+  "answer": {
+    "text": "I've created a shared google drive with wallpapers and character designs. You can find the wallpapers in the wallpaper folder in the drive.",
+    "list": [
+      "[Shared Google Drive with Characters and Wallpapers](https://drive.google.com/drive/folders/1BYFpEiw6lgxcuPug4EBjWMZzYs9iXWml)"
+    ]
+  }
+}

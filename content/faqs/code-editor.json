@@ -1,0 +1,12 @@
+{
+  "question": "What code editor do you use?",
+  "type": "tools",
+  "answer": {
+    "text": "Most commonly I use the p5.js Web Editor or Visual Studio Code. You can learn more about it in my workflow series, which includes a video about vs code.",
+    "list": [
+      "[p5 Web Editor](https://editor.p5js.org/)",
+      "[Visual Studio Code](https://code.visualstudio.com/)",
+      "[Visual Studio Code Workflow Video](/more/workflow/2-vscode)"
+    ]
+  }
+}
