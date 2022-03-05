@@ -1,10 +1,10 @@
 ---
-title: "Core Contribution Guide"
+title: 'Core Contribution Guide'
+description: 'Core Contribution Guide'
 ---
 
 This short guide will help you set up a local copy of the entire Coding Train
 website so you can help us making it even better. All the code for the website is available on [Github](https://github.com/CodingTrain/website).
-
 
 ## Create a Fork
 
@@ -30,7 +30,9 @@ After that, simply run
 ```
 $ docker-compose up
 ```
+
 Linux users may have to use `sudo` to build the site. It is a minor change to the original command, simply run
+
 ```
 $ sudo docker-compose up
 ```
@@ -40,7 +42,6 @@ Head over to `http://localhost:4000` to see the built site.
 You can leave the container running in the background and it will keep watching
 your changes and rebuilding certain parts if necessary.
 
-
 ### Using Native Jekyll Installation
 
 #### Install Jekyll
@@ -48,7 +49,6 @@ your changes and rebuilding certain parts if necessary.
 In order to install Jekyll, head over to the [Jekyll Docs](https://jekyllrb.com/docs/) and follow the
 instructions there. Once you've installed Jekyll you can try to build the
 site.
-
 
 #### Install Gems
 
@@ -67,8 +67,7 @@ $ bundle install
 
 This might take some time since Bundler now goes ahead and fetches all Gems
 listed in a file called `Gemfile` which you can find at the root of the
-project. 
-
+project.
 
 #### Build The Site
 
@@ -102,7 +101,6 @@ like we did with the second command before.
 
 At this point, you can finally start working! 🎉
 
-
 ## Create a Pull Request
 
 Whenever you've finished working you can submit a pull request so that your
@@ -110,7 +108,6 @@ changes get merged into the actual website. If you don't know how to do so,
 have a look at this handy
 [guide](https://guides.github.com/activities/forking/#making-a-pull-request)
 from GitHub.
-
 
 ## Troubleshooting
 

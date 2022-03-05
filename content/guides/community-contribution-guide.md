@@ -1,5 +1,6 @@
 ---
 title: 'Passenger Showcase Guide'
+description: 'Passenger Showcase Guide'
 ---
 
 ## Video Tutorial

@@ -10,7 +10,12 @@ import Spacer from '../components/Spacer';
 import * as css from '../styles/pages/guides.module.css';
 
 const GuidesPage = ({ data }) => {
-  const guides = data.guides.nodes.filter((n) => n.frontmatter.title);
+  const guides = data.guides.nodes.filter((n) => n.mdx.frontmatter.title);
+  const guidesPlaceholderImage =
+    data.guidesPlaceholderImage.nodes.length > 0
+      ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
+  console.log({ guides, guidesPlaceholderImage });
   return (
     <Layout>
       <Heading1 variant="purple">Guides</Heading1>
@@ -24,12 +29,12 @@ const GuidesPage = ({ data }) => {
       />
       <Spacer />
       <div className={css.guideList}>
-        {guides.map((mdx, i) => (
+        {guides.map((guide, i) => (
           <ButtonPanel
             key={i}
-            text={mdx.frontmatter.title}
+            text={guide.mdx.frontmatter.title}
             buttonText={'Go'}
-            buttonLink={`/guides/${mdx.slug}`}
+            buttonLink={`/guides/${guide.mdx.slug}`}
             variant="purple"
             className={css.guideItem}
           />
@@ -42,12 +47,35 @@ const GuidesPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    guides: allMdx {
+    guides: allGuide {
       nodes {
-        frontmatter {
-          title
+        mdx {
+          frontmatter {
+            title
+          }
+          slug
         }
-        slug
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }
+    guidesPlaceholderImage: allFile(
+      filter: {
+        sourceInstanceName: { eq: "guides" }
+        extension: { in: ["jpg", "png"] }
+        relativeDirectory: { eq: "" }
+        name: { eq: "placeholder" }
+      }
+    ) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData
+        }
       }
     }
   }

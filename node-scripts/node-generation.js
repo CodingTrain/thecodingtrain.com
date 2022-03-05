@@ -331,6 +331,38 @@ exports.createTalkRelatedNode = (
 };
 
 /**
+ * Creates Guide node from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createGuideRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const { name } = parent;
+  const data = getJson(node);
+  console.log({ name });
+
+  const newNode = Object.assign({}, data, {
+    id: createNodeId('--guide/' + name),
+    parent: node.id,
+    mdx: node.id,
+    cover: createNodeId(`cover-image/guides/${name}`),
+    internal: {
+      type: `Guide`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
  * Creates Collaborator nodes from JSON file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createNodeId - Gatsby's createNodeId function
@@ -466,5 +498,24 @@ exports.createTalkCoverImageNode = (
   const { name } = node;
   if (name === 'placeholder') return;
   const id = createNodeId(`cover-image/talks/${name}`);
+  createCoverImageNode(createNode, createContentDigest, node, id);
+};
+
+/**
+ * Creates CoverImage node related to a guide from image file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ */
+exports.createGuideCoverImageNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node
+) => {
+  const { name } = node;
+  if (name === 'placeholder') return;
+  const id = createNodeId(`cover-image/guides/${name}`);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };

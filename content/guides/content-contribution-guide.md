@@ -1,5 +1,6 @@
 ---
 title: 'Content Contribution Guide'
+description: 'Content Contribution Guide'
 ---
 
 You want to help with integrating new content into the repository? Great to hear that! Now let's see how you can help:
