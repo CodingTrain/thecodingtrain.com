@@ -1,6 +1,7 @@
 import * as React from 'react';
-import Layout from '../components/Layout';
+import { graphql } from 'gatsby';
 
+import Layout from '../components/Layout';
 import { Heading1 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Question from '../components/Question';
@@ -9,7 +10,11 @@ import Train from '../images/train.svg';
 
 import * as css from '../styles/pages/faq.module.css';
 
-const FAQPage = () => {
+const FAQPage = ({ data }) => {
+  const {
+    general: { nodes: general },
+    tools: { nodes: tools }
+  } = data;
   return (
     <Layout>
       <Spacer />
@@ -31,34 +36,57 @@ const FAQPage = () => {
       </div>
       <div>
         <h3 className={css.title}>General questions</h3>
-        <Question
-          variant="pink"
-          question="I have never coded before, where can I start?"
-          content="Some content here"
-        />
-        <Question
-          variant="pink"
-          question="I have never coded before, where can I start?"
-          content="Some content here"
-        />
+        {general.map((question, index) => (
+          <Question key={index} variant="pink" {...question} />
+        ))}
       </div>
       <Spacer />
       <div>
         <h3 className={css.title}>Tools</h3>
-        <Question
-          variant="pink"
-          question="I have never coded before, where can I start?"
-          content="Some content here"
-        />
-        <Question
-          variant="pink"
-          question="I have never coded before, where can I start?"
-          content="Some content here"
-        />
+        {tools.map((question, index) => (
+          <Question key={index} variant="pink" {...question} />
+        ))}
       </div>
       <Spacer />
     </Layout>
   );
 };
+
+export const query = graphql`
+  query {
+    general: allFaq(filter: { type: { eq: "general" } }) {
+      nodes {
+        question
+        answer {
+          text
+          list
+          image {
+            file {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+    }
+    tools: allFaq(filter: { type: { eq: "tools" } }) {
+      nodes {
+        question
+        answer {
+          text
+          list
+          image {
+            file {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default FAQPage;

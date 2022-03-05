@@ -7,13 +7,13 @@
   border-bottom: var(--border);
   font-family: var(--maru-mono);
   color: var(--gray-mid);
-  cursor: pointer;
 }
 
 .summary {
   display: flex;
   align-items: center;
   height: var(--baseline);
+  cursor: pointer;
 
   & p {
     font-size: var(--font-reduced);
@@ -31,8 +31,33 @@
   transition: transform 0.3s ease;
 }
 
-.content {
+.answer {
   padding: var(--box-padding) 0;
+  & a {
+    color: var(--pink);
+  }
+}
+
+.list {
+  list-style: none;
+  padding-left: calc(2 * var(--box-padding));
+  & li {
+    position: relative;
+    & ::before {
+      position: absolute;
+      left: calc(-1.5 * var(--box-padding));
+      content: "\2022";
+      color: var(--pink);
+      display: inline-block;
+      width: var(--box-padding);
+    }
+  }
+}
+
+.picture {
+}
+
+.image {
 }
 
 /* variants */
@@ -44,6 +69,9 @@
 .opened {
   height: auto;
   background-color: white;
+  & .summary p {
+    font-weight: bolder;
+  }
 }
 
 @media (--small) {
@@ -57,7 +85,7 @@
     }
   }
 
-  .content {
+  .answer {
     font-size: var(--font-normal);
   }
 }

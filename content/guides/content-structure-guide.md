@@ -171,7 +171,7 @@ The `"description"` and `"icon"` properties are optional, but `"title"` and `"ur
 
 For now, `"icon"` expects a short emoji string that relates to the link. In the future this may also support adding coding train characters.
 
-`"description"` on the other hand can be a longish string that describes the link or something about it. It may also contain some HTML that will be parsed, so it may also contain anchor links related to the link. For example: `"By <a href='https://shiffman.net/' target='_blank' rel='noreferrer'> Dan Shiffman</a> and <a href='https://designsystems.international/' target='_blank' rel='noreferrer'> DSI</a>!"`.
+`"description"` on the other hand can be a longish string that describes the link or something about it. It may also contain MD style urls that will be parsed, so it may also contain anchor links related to the link. For example: `"By [Dan Shiffman](https://shiffman.net/) and [DSI](https://designsystems.international/)!"`.
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 

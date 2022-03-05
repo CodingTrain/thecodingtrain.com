@@ -318,7 +318,7 @@ exports.createTalkRelatedNode = (
   const data = getJson(node);
 
   const newNode = Object.assign({}, data, {
-    id: createNodeId('talk-' + name),
+    id: createNodeId('--talk/' + name),
     parent: node.id,
     slug: name,
     internal: {
@@ -326,6 +326,40 @@ exports.createTalkRelatedNode = (
       contentDigest: createContentDigest(data)
     },
     cover: createNodeId(`cover-image/talks/${name}`)
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates FAQ node from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createFAQRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const { name } = parent;
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId('--faqs/' + name),
+    parent: node.id,
+    slug: name,
+    internal: {
+      type: `FAQ`,
+      contentDigest: createContentDigest(data)
+    },
+    answer: {
+      text: data.answer.text,
+      list: data.answer.list,
+      image: createNodeId(`cover-image/faqs/${name}`)
+    }
   });
   createNode(newNode);
 };
@@ -466,5 +500,23 @@ exports.createTalkCoverImageNode = (
   const { name } = node;
   if (name === 'placeholder') return;
   const id = createNodeId(`cover-image/talks/${name}`);
+  createCoverImageNode(createNode, createContentDigest, node, id);
+};
+
+/**
+ * Creates CoverImage node related to a faq answer from image file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ */
+exports.createFAQImageNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node
+) => {
+  const { name } = node;
+  const id = createNodeId(`cover-image/faqs/${name}`);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };

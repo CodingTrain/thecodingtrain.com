@@ -1,11 +1,12 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
-import parse from 'html-react-parser';
 
 import * as css from './LinkList.module.css';
+import { useLinkParsedText } from '../hooks';
 
 const Link = ({ link }) => {
   const { description, title, icon, url } = link;
+  const parsedDescription = useLinkParsedText(description);
   return (
     <li className={css.link}>
       <span className={css.icon}>{icon}</span>
@@ -16,7 +17,7 @@ const Link = ({ link }) => {
       </div>
       {description && (
         <div className={css.description}>
-          <p>{parse(description)}</p>
+          <p>{parsedDescription}</p>
         </div>
       )}
     </li>
