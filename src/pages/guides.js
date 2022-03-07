@@ -15,7 +15,6 @@ const GuidesPage = ({ data }) => {
     data.guidesPlaceholderImage.nodes.length > 0
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
-  console.log({ guides, guidesPlaceholderImage });
   return (
     <Layout>
       <Heading1 variant="purple">Guides</Heading1>

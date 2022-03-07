@@ -347,7 +347,6 @@ exports.createGuideRelatedNode = (
 ) => {
   const { name } = parent;
   const data = getJson(node);
-  console.log({ name });
 
   const newNode = Object.assign({}, data, {
     id: createNodeId('--guide/' + name),
