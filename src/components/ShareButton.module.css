@@ -20,6 +20,12 @@
   }
 }
 
+span.linkIcon {
+  font-family: var(--maru-emoji);
+  font-size: var(--maru-emoji-normal);
+  padding: 0;
+}
+
 .root:hover {
   & span {
     font-weight: 600;

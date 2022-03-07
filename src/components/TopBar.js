@@ -39,7 +39,6 @@ const longDate = (date) => {
 
 const TopBar = () => {
   const today = new Date();
-  console.log(longDate(today));
   return (
     <div className={css.outer}>
       <div className={css.root}>
