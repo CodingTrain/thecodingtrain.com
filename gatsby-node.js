@@ -3,6 +3,8 @@ const {
   createVideoRelatedNode,
   createTrackRelatedNode,
   createTalkRelatedNode,
+  createFAQRelatedNode,
+  createFAQImageNode,
   createCollaboratorNodes,
   createVideoCoverImageNode,
   createTrackCoverImageNode,
@@ -74,6 +76,14 @@ exports.onCreateNode = ({
         parent,
         parent.sourceInstanceName
       );
+    else if (parent.sourceInstanceName === 'faqs')
+      createFAQRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
     else if (parent.sourceInstanceName === 'talks')
       createTalkRelatedNode(
         createNode,
@@ -133,6 +143,8 @@ exports.onCreateNode = ({
         node,
         node.sourceInstanceName
       );
+    } else if (node.sourceInstanceName === 'faqs') {
+      createFAQImageNode(createNode, createNodeId, createContentDigest, node);
     } else if (node.sourceInstanceName === 'talks') {
       createTalkCoverImageNode(
         createNode,

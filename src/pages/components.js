@@ -21,6 +21,7 @@ import ButtonPanel from '../components/ButtonPanel';
 import ContributionsPanel from '../components/ContributionsPanel';
 import TrackVideoSection from '../components/tracks/VideoSection';
 import Tabs from '../components/Tabs';
+import Question from '../components/Question';
 import TrackCard from '../components/tracks/Card';
 
 import * as css from '../styles/pages/components.module.css';
@@ -97,6 +98,21 @@ const ComponentsPage = ({ data }) => {
           { name: 'The Nature of Code', link: '' }
         ]}
         variant="purple"
+      />
+      <Question
+        variant="pink"
+        question="I have never coded before, where can I start?"
+        answer={{
+          text: 'Some content here'
+        }}
+      />
+      <Question
+        variant="pink"
+        question="I have never coded before, where can I start?"
+        answer={{
+          text: 'Some content here',
+          list: ['1', '2', '3']
+        }}
       />
       <Tabs labels={['First Component', 'Second Component', 'Third Component']}>
         <Heading2>Test</Heading2>

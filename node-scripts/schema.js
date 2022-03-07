@@ -179,6 +179,26 @@ type Collaborator implements Node {
   url: String
 }
 
+type FAQOrder implements Node {
+  sections: [FAQSection]! @link
+}
+
+type FAQSection implements Node {
+  title: String!
+  questions: [FAQ]! @link
+}
+
+type FAQ implements Node {
+  question: String!
+  answer: Answer!
+}
+
+type Answer implements Node {
+  text: String!
+  list: [String]
+  image: CoverImage @link
+}
+
 type CoverImage implements Node {
   id: ID!
   file: File! @link

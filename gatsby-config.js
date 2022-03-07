@@ -126,6 +126,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'faqs',
+        path: './content/faqs'
+      },
+      __key: 'faqs'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'collaborators',
         path: './content/collaborators.json'
       },
