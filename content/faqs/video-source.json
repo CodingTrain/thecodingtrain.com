@@ -1,6 +1,5 @@
 {
   "question": "I can't find the source code for this video.",
-  "type": "general",
   "answer": {
     "text": "Please check the thecodingtrain.com. If you can't find it there open an issue on the website's GitHub repository.",
     "list": [

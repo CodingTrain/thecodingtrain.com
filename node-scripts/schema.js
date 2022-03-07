@@ -179,9 +179,17 @@ type Collaborator implements Node {
   url: String
 }
 
+type FAQOrder implements Node {
+  sections: [FAQSection]! @link
+}
+
+type FAQSection implements Node {
+  title: String!
+  questions: [FAQ]! @link
+}
+
 type FAQ implements Node {
   question: String!
-  type: String!
   answer: Answer!
 }
 

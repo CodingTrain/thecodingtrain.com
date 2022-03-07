@@ -1,6 +1,5 @@
 {
   "question": "What coding language is this?",
-  "type": "tools",
   "answer": {
     "text": "It's likely that I'm either using Processing or p5.js. Processing is a library and environment built on top of the Java programming language. p5.js is a JavaScript library that focuses on creative coding and inclusively it is also maintained by the Processing Foundation.",
     "list": [

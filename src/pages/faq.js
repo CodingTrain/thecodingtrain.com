@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
@@ -11,10 +11,8 @@ import Train from '../images/train.svg';
 import * as css from '../styles/pages/faq.module.css';
 
 const FAQPage = ({ data }) => {
-  const {
-    general: { nodes: general },
-    tools: { nodes: tools }
-  } = data;
+  const { sections } = data.order.nodes[0];
+  console.log({ sections });
   return (
     <Layout>
       <Spacer />
@@ -34,52 +32,40 @@ const FAQPage = ({ data }) => {
           aliquip ex ea commodo consequat.
         </p>
       </div>
-      <div>
-        <h3 className={css.title}>General questions</h3>
-        {general.map((question, index) => (
-          <Question key={index} variant="pink" {...question} />
+      <div className={css.sections}>
+        {sections.map((section, sectionIndex) => (
+          <Fragment key={sectionIndex}>
+            <div>
+              <h3 className={css.title}>{section.title}</h3>
+              {section.questions.map((question, index) => (
+                <Question key={index} variant="pink" {...question} />
+              ))}
+            </div>
+            <Spacer />
+          </Fragment>
         ))}
       </div>
-      <Spacer />
-      <div>
-        <h3 className={css.title}>Tools</h3>
-        {tools.map((question, index) => (
-          <Question key={index} variant="pink" {...question} />
-        ))}
-      </div>
-      <Spacer />
     </Layout>
   );
 };
 
 export const query = graphql`
   query {
-    general: allFaq(filter: { type: { eq: "general" } }) {
+    order: allFaqOrder {
       nodes {
-        question
-        answer {
-          text
-          list
-          image {
-            file {
-              childImageSharp {
-                gatsbyImageData
-              }
-            }
-          }
-        }
-      }
-    }
-    tools: allFaq(filter: { type: { eq: "tools" } }) {
-      nodes {
-        question
-        answer {
-          text
-          list
-          image {
-            file {
-              childImageSharp {
-                gatsbyImageData
+        sections {
+          title
+          questions {
+            question
+            answer {
+              text
+              list
+              image {
+                file {
+                  childImageSharp {
+                    gatsbyImageData
+                  }
+                }
               }
             }
           }

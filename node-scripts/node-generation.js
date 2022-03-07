@@ -347,21 +347,57 @@ exports.createFAQRelatedNode = (
 ) => {
   const { name } = parent;
   const data = getJson(node);
-  const newNode = Object.assign({}, data, {
-    id: createNodeId('--faqs/' + name),
-    parent: node.id,
-    slug: name,
-    internal: {
-      type: `FAQ`,
-      contentDigest: createContentDigest(data)
-    },
-    answer: {
-      text: data.answer.text,
-      list: data.answer.list,
-      image: createNodeId(`cover-image/faqs/${name}`)
+  if (name !== 'index') {
+    const newNode = Object.assign({}, data, {
+      id: createNodeId('--faqs/' + name),
+      parent: node.id,
+      slug: name,
+      internal: {
+        type: `FAQ`,
+        contentDigest: createContentDigest(data)
+      },
+      answer: {
+        text: data.answer.text,
+        list: data.answer.list,
+        image: createNodeId(`cover-image/faqs/${name}`)
+      }
+    });
+    createNode(newNode);
+  } else {
+    const sections = [];
+    for (let index = 0; index < data.sections.length; index++) {
+      const section = data.sections[index];
+      const sectionNode = Object.assign(
+        {},
+        {
+          id: createNodeId(`--faqSections/${index}`),
+          parent: node.id,
+          title: section.title,
+          questions: section.questions.map((q) => createNodeId(`--faqs/${q}`)),
+          internal: {
+            type: `FAQSection`,
+            contentDigest: createContentDigest(section)
+          }
+        }
+      );
+      createNode(sectionNode);
+      sections.push(sectionNode);
     }
-  });
-  createNode(newNode);
+
+    const newNode = Object.assign(
+      {},
+      {
+        id: createNodeId('--faqOrder'),
+        parent: node.id,
+        sections: sections.map((s) => s.id),
+        internal: {
+          type: `FAQOrder`,
+          contentDigest: createContentDigest(data)
+        }
+      }
+    );
+    createNode(newNode);
+  }
 };
 
 /**
