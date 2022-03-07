@@ -22,7 +22,8 @@ const AboutPage = ({ data }) => {
   const contributors = data.contributors.nodes;
 
   return (
-    <Layout>
+    <Layout title="About">
+      <Spacer />
       <div className={css.row}>
         <Heading1 className={css.mainHeading} variant="purple">
           Hi I'm Dan!

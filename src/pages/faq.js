@@ -12,7 +12,6 @@ import * as css from '../styles/pages/faq.module.css';
 
 const FAQPage = ({ data }) => {
   const { sections } = data.order.nodes[0];
-  console.log({ sections });
   return (
     <Layout>
       <Spacer />

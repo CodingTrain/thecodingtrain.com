@@ -4,6 +4,8 @@ import cn from 'classnames';
 
 import * as css from './PagePanel.module.css';
 
+import Triangle from '../images/triangle_walking.svg';
+
 const PagePanel = (props) => {
   const { description, bbColor, variant, ...buttonPanelProps } = props;
   return (
@@ -16,6 +18,8 @@ const PagePanel = (props) => {
         <p>{description}</p>
       </div>
       <div className={css.cta}>
+        <Triangle className={css.ctaIcon} />
+
         <ButtonPanel
           className={css.buttonPanel}
           variant={variant}

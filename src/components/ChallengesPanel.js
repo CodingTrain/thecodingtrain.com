@@ -18,7 +18,7 @@ const Card = ({ className, challenge, placeholderImage }) => {
       </div>
       <div className={css.thumb}>
         <div className={css.left}>
-          <Link to={`/challenge/${slug}`}>
+          <Link to={`/challenge/${slug}`} aria-label={title}>
             {cover ? (
               <Image
                 image={cover.file.childImageSharp.gatsbyImageData}

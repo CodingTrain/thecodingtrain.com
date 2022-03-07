@@ -4,10 +4,12 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
+import * as css from '../styles/pages/index.module.css';
+
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <ul>
+      <ul className={css.root}>
         <li>
           <Link to="/components">Go to components overview</Link>
         </li>

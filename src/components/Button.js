@@ -27,7 +27,11 @@ export const Button = ({
       {children}
     </a>
   ) : (
-    <button className={classes} onClick={onClick} disabled={disabled}>
+    <button
+      className={classes}
+      onClick={onClick}
+      disabled={disabled}
+      {...otherProps}>
       {children}
     </button>
   );

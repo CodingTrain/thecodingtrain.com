@@ -25,7 +25,7 @@ const Challenge = ({ data }) => {
       ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : challengesPlaceholder;
   return (
-    <Layout>
+    <Layout title={challenge.title}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -36,7 +36,11 @@ const Challenge = ({ data }) => {
       />
       <ChallengeVideoSection challenge={challenge} />
       <div className={css.blankSep} />
-      <VideoInfo video={challenge} variant="cyan" />
+      <VideoInfo
+        video={challenge}
+        variant="cyan"
+        url={`/challenges/${challenge.slug}`}
+      />
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}

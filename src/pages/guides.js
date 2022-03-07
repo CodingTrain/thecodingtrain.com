@@ -16,7 +16,8 @@ const GuidesPage = ({ data }) => {
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
   return (
-    <Layout>
+    <Layout title="Guides">
+      <Spacer />
       <Heading1 variant="purple">Guides</Heading1>
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
