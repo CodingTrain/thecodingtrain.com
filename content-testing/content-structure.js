@@ -4,6 +4,7 @@ const {
   sideTrack: sideTrackFormat,
   contribution: contributionFormat,
   talk: talkFormat,
+  faqOrder: faqOrderFormat,
   faq: faqFormat,
   collaborators: collaboratorsFormat
 } = require('./file-formats.js');
@@ -11,7 +12,8 @@ const {
 const {
   video: videoSlugReferences,
   mainTrack: mainTrackSlugReference,
-  sideTrack: sideTrackSlugReference
+  sideTrack: sideTrackSlugReference,
+  faqsOrder: faqsOrderSlugReference
 } = require('./slug-references.js');
 
 const contentStructure = {
@@ -240,7 +242,15 @@ const contentStructure = {
     },
     faqs: {
       files: {
-        '': { isRequired: false, jsonFormat: faqFormat }
+        'index.json': {
+          isRequired: true,
+          jsonFormat: faqOrderFormat,
+          slugReferences: faqsOrderSlugReference
+        },
+        '': {
+          isRequired: false,
+          jsonFormat: { ...faqFormat, exceptions: 'index.json' }
+        }
       },
       folder: {},
       isRequired: false,

@@ -21,8 +21,21 @@ const sideTrack = {
   relativePath: './content/videos'
 };
 
+const faqsOrder = {
+  name: 'faq order',
+  getSlugs: (order) => {
+    let slugs = [];
+    (order.sections ?? []).forEach((section) => {
+      slugs = [...slugs, ...section.questions];
+    });
+    return slugs.map((s) => `${s}.json`);
+  },
+  relativePath: './content/faqs'
+};
+
 module.exports = {
   video,
   mainTrack,
-  sideTrack
+  sideTrack,
+  faqsOrder
 };

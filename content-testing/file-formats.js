@@ -135,13 +135,36 @@ const contribution = {
   }
 };
 
+const faqOrder = {
+  name: 'faqOrder',
+  init: {
+    type: 'object',
+    properties: {
+      sections: {
+        isRequired: true,
+        type: 'array',
+        content: {
+          type: 'object',
+          properties: {
+            title: { type: 'string', isRequired: true },
+            questions: {
+              type: 'array',
+              isRequired: true,
+              content: { type: 'string' }
+            }
+          }
+        }
+      }
+    }
+  }
+};
+
 const faq = {
   name: 'faq',
   init: {
     type: 'object',
     properties: {
       question: { isRequired: true, type: 'string' },
-      type: { isRequired: true, type: 'string' },
       answer: {
         isRequired: true,
         type: 'object',
@@ -210,6 +233,7 @@ module.exports = {
   sideTrack,
   contribution,
   faq,
+  faqOrder,
   talk,
   collaborators
 };
