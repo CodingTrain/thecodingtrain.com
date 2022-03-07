@@ -1,7 +1,6 @@
 .root {
   display: flex;
   flex-direction: column;
-  height: var(--baseline);
   padding: 0 var(--box-padding);
   border-left: var(--border);
   border-bottom: var(--border);
@@ -22,8 +21,10 @@
 }
 
 .icon {
+  flex-shrink: 0;
   transform: rotate(0deg);
   transition: transform 0.3s ease;
+  width: var(--baseline-3of4);
 }
 
 .rotateIcon {
@@ -81,6 +82,7 @@
   }
 
   .summary {
+    height: var(--baseline-2x);
     & p {
       font-size: var(--font-normal);
     }
@@ -88,5 +90,9 @@
 
   .answer {
     font-size: var(--font-normal);
+  }
+
+  .image {
+    width: 100%;
   }
 }
