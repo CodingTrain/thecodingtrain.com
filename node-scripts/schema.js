@@ -168,6 +168,11 @@ type Talk implements Node {
   languagesFlat: String!
 }
 
+type Guide implements Node {
+  mdx: Mdx! @link
+  cover: CoverImage @link
+}
+
 type Collaborator implements Node {
   name: String!
   type: String!

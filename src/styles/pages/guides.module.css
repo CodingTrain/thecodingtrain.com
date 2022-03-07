@@ -1,0 +1,26 @@
+.guideList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.guideItem {
+  flex: 50%;
+  /* display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  width: 100%;
+  height: var(--baseline);
+  padding: 0 var(--box-padding);
+  background: var(--purple-light);
+  color: var(--gray-mid); */
+}
+
+@media (--medium) {
+}
+
+@media (--small) {
+}

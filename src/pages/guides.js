@@ -1,37 +1,87 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
-import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Breadcrumbs from '../components/Breadcrumbs';
+import { Heading1 } from '../components/Heading';
+import PagePanel from '../components/PagePanel';
+import Spacer from '../components/Spacer';
+import GuideCard from '../components/GuideCard';
+
+import * as css from '../styles/pages/guides.module.css';
 
 const GuidesPage = ({ data }) => {
+  const guides = data.guides.nodes.filter((n) => n.mdx.frontmatter.title);
+  const guidesPlaceholderImage =
+    data.guidesPlaceholderImage.nodes.length > 0
+      ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
   return (
     <Layout>
-      <Breadcrumbs
-        // className={css.breadcrumbs}
-        breadcrumbs={[{ name: 'Guides', link: `/guides` }]}
-        variant="red"
+      <Heading1 variant="purple">Guides</Heading1>
+      <PagePanel
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        text="New to coding?"
+        buttonText="Start here"
+        buttonLink="/get-started"
+        variant="orange"
+        bbColor="orange"
       />
-      <ul>
-        {data.guides.nodes.map((mdx, i) => (
-          <li key={i}>
-            <Link to={`/guides/${mdx.slug}`}>{mdx.frontmatter.title}</Link>
-          </li>
+      <div className={css.guideList}>
+        {guides.map((guide, i) => (
+          <GuideCard
+            key={i}
+            title={guide.mdx.frontmatter.title}
+            description={guide.mdx.frontmatter.description}
+            slug={`/guides/${guide.mdx.slug}`}
+            meta={guide.mdx.frontmatter.date}
+            icon={'📒'}
+            image={
+              guide.cover?.file?.childImageSharp?.gatsbyImageData ??
+              guidesPlaceholderImage
+            }
+            variant="purple"
+            className={css.guideItem}
+          />
         ))}
-      </ul>
+      </div>
+      <Spacer />
     </Layout>
   );
 };
 
 export const query = graphql`
   query {
-    guides: allMdx {
+    guides: allGuide {
       nodes {
-        frontmatter {
-          title
+        mdx {
+          frontmatter {
+            title
+            description
+            date
+          }
+          slug
         }
-        slug
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }
+    guidesPlaceholderImage: allFile(
+      filter: {
+        sourceInstanceName: { eq: "guides" }
+        extension: { in: ["jpg", "png"] }
+        relativeDirectory: { eq: "" }
+        name: { eq: "placeholder" }
+      }
+    ) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData
+        }
       }
     }
   }
