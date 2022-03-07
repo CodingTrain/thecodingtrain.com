@@ -50,6 +50,9 @@ const IndexPage = ({ data }) => {
               ))}
           </ul>
         </li>
+        <li>
+          <Link to="/faq">Go to FAQ page</Link>
+        </li>
       </ul>
     </Layout>
   );

@@ -1,0 +1,10 @@
+{
+  "question": "I can't find the source code for this video.",
+  "answer": {
+    "text": "Please check the thecodingtrain.com. If you can't find it there open an issue on the website's GitHub repository.",
+    "list": [
+      "[The Coding Train Website](https://thecodingtrain.com/)",
+      "[Open an issue on the website repository](https://github.com/CodingTrain/website/issues/new)"
+    ]
+  }
+}
