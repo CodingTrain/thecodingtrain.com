@@ -6,5 +6,22 @@
   "videoId": "YN8Q-QEmQ8Y",
   "timestamps": [
   ],
-  "canContribute": false
+  "canContribute": false,
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Math.random()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random",
+          "description": "MDN Web Docs entry on the JavaScript function Math.random()"
+        },
+        {
+          "title": "p5.Vector add Reference",
+          "url": "https://p5js.org/reference/#/p5.Vector/add",
+          "description": "p5 Reference page on the p5.Vector add method"
+        }
+      ]
+    }
+  ]
 }
