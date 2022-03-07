@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import classnames from 'classnames';
 import * as css from './Button.module.css';
@@ -34,6 +35,15 @@ export const Button = ({
       {children}
     </button>
   );
+};
+
+Button.propTypes = {
+  variant: PropTypes.oneOf(['red', 'orange', 'purple', 'cyan']),
+  className: PropTypes.string,
+  to: PropTypes.string,
+  href: PropTypes.string,
+  onClick: PropTypes.func,
+  disabled: PropTypes.bool
 };
 
 export default Button;

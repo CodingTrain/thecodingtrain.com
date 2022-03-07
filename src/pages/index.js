@@ -39,10 +39,10 @@ const IndexPage = ({ data }) => {
           </ul>
         </li>
         <li>
-          <Link to="/guides/">Guides:</Link>
+          <Link to={`/guides/`}>Guides</Link>:
           <ul>
             {data.mdxs.nodes
-              .filter((m) => m.frontmatter.title)
+              .filter((n) => n.frontmatter.title)
               .map((mdx, i) => (
                 <li key={i}>
                   <Link to={`/guides/${mdx.slug}`}>

@@ -41,3 +41,10 @@
     color: var(--cyan);
   }
 }
+
+.orange {
+  color: var(--orange);
+  & a {
+    color: var(--orange);
+  }
+}

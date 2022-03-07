@@ -10,3 +10,10 @@
   color: #eec1c1;
   text-transform: uppercase;
 }
+
+/* Variants */
+
+.orange {
+  border-left: var(--border-orange);
+  border-bottom: var(--border-orange);
+}
