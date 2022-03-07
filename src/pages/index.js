@@ -37,13 +37,17 @@ const IndexPage = ({ data }) => {
           </ul>
         </li>
         <li>
-          Guides:
+          <Link to={`/guides/`}>Guides</Link>:
           <ul>
-            {data.mdxs.nodes.map((mdx, i) => (
-              <li key={i}>
-                <Link to={`/guides/${mdx.slug}`}>{mdx.frontmatter.title}</Link>
-              </li>
-            ))}
+            {data.mdxs.nodes
+              .filter((n) => n.frontmatter.title)
+              .map((mdx, i) => (
+                <li key={i}>
+                  <Link to={`/guides/${mdx.slug}`}>
+                    {mdx.frontmatter.title}
+                  </Link>
+                </li>
+              ))}
           </ul>
         </li>
       </ul>

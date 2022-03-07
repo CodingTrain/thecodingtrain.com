@@ -6,7 +6,9 @@ const {
   createCollaboratorNodes,
   createVideoCoverImageNode,
   createTrackCoverImageNode,
-  createTalkCoverImageNode
+  createTalkCoverImageNode,
+  createGuideRelatedNode,
+  createGuideCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
@@ -89,6 +91,17 @@ exports.onCreateNode = ({
         parent
       );
   } else if (
+    owner === 'gatsby-plugin-mdx' &&
+    parent.sourceInstanceName === 'guides'
+  ) {
+    createGuideRelatedNode(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
+  } else if (
     owner === 'gatsby-source-filesystem' &&
     mediaType !== undefined &&
     mediaType.includes('image')
@@ -122,6 +135,13 @@ exports.onCreateNode = ({
       );
     } else if (node.sourceInstanceName === 'talks') {
       createTalkCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
+      );
+    } else if (node.sourceInstanceName === 'guides') {
+      createGuideCoverImageNode(
         createNode,
         createNodeId,
         createContentDigest,
