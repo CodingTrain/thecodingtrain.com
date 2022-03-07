@@ -1,6 +1,7 @@
 ---
 title: 'Pages Contribution Guide'
-description: 'Pages Contribution Guide'
+description: 'Guide about Pages Contributions'
+date: '03/07/2022'
 ---
 
 _Last updated: October 20th 2020_

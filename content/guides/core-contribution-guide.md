@@ -1,6 +1,7 @@
 ---
 title: 'Core Contribution Guide'
-description: 'Core Contribution Guide'
+description: 'Guide about Core Contribution'
+date: '03/07/2022'
 ---
 
 This short guide will help you set up a local copy of the entire Coding Train

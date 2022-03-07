@@ -4,8 +4,8 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
-import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
+import GuideCard from '../components/GuideCard';
 
 import * as css from '../styles/pages/guides.module.css';
 
@@ -27,14 +27,19 @@ const GuidesPage = ({ data }) => {
         variant="orange"
         bbColor="orange"
       />
-      <Spacer />
       <div className={css.guideList}>
         {guides.map((guide, i) => (
-          <ButtonPanel
+          <GuideCard
             key={i}
-            text={guide.mdx.frontmatter.title}
-            buttonText={'Go'}
-            buttonLink={`/guides/${guide.mdx.slug}`}
+            title={guide.mdx.frontmatter.title}
+            description={guide.mdx.frontmatter.description}
+            slug={`/guides/${guide.mdx.slug}`}
+            meta={guide.mdx.frontmatter.date}
+            icon={'📒'}
+            image={
+              guide.cover?.file?.childImageSharp?.gatsbyImageData ??
+              guidesPlaceholderImage
+            }
             variant="purple"
             className={css.guideItem}
           />
@@ -52,6 +57,8 @@ export const query = graphql`
         mdx {
           frontmatter {
             title
+            description
+            date
           }
           slug
         }

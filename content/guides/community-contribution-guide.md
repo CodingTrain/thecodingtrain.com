@@ -1,6 +1,7 @@
 ---
 title: 'Passenger Showcase Guide'
-description: 'Passenger Showcase Guide'
+description: 'Guide about Passenger Showcases'
+date: '03/07/2022'
 ---
 
 ## Video Tutorial
