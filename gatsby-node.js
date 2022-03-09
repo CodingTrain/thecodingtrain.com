@@ -5,12 +5,13 @@ const {
   createTalkRelatedNode,
   createFAQRelatedNode,
   createFAQImageNode,
-  createCollaboratorNodes,
   createVideoCoverImageNode,
   createTrackCoverImageNode,
   createTalkCoverImageNode,
   createGuideRelatedNode,
-  createGuideCoverImageNode
+  createGuideCoverImageNode,
+  createAboutPageRelatedNodes,
+  createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
@@ -92,8 +93,8 @@ exports.onCreateNode = ({
         node,
         parent
       );
-    else if (parent.sourceInstanceName === 'collaborators')
-      createCollaboratorNodes(
+    else if (parent.sourceInstanceName === 'about-page-data')
+      createAboutPageRelatedNodes(
         createNode,
         createNodeId,
         createContentDigest,
@@ -154,6 +155,13 @@ exports.onCreateNode = ({
       );
     } else if (node.sourceInstanceName === 'guides') {
       createGuideCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
+      );
+    } else if (node.sourceInstanceName === 'about-page-data') {
+      createAboutPageCoverImageNode(
         createNode,
         createNodeId,
         createContentDigest,

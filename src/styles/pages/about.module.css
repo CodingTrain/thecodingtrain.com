@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: column;
   border-left: var(--border);
+  border-bottom: var(--border);
 }
 
 .danIntro {
@@ -58,22 +59,40 @@
 
 .links {
   background-color: var(--purple-light);
-  border-top: var(--border-purple);
   color: var(--purple);
 }
 
-.socialRow,
-.websiteRow {
+.socialRow {
   display: flex;
+}
+
+.socialTitleGroup {
+  display: flex;
+  align-items: center;
+  flex: 0 0 25%;
+  border-left: var(--border-purple);
   border-bottom: var(--border-purple);
   height: var(--baseline);
+  padding: 0 var(--box-padding);
+}
+
+@media (--medium) {
+  .socialRow {
+    flex-wrap: wrap;
+  }
+  .socialTitleGroup {
+    flex: 1 0 100%;
+  }
 }
 
 .socialLink {
   flex-grow: 1;
+  border-bottom: var(--border-purple);
   padding: var(--spacing-small);
+  height: var(--baseline);
   display: flex;
   align-items: center;
+  justify-content: center;
   &:not(:first-child) {
     border-left: var(--border-purple);
   }
@@ -84,11 +103,6 @@
   & path {
     fill: var(--purple);
   }
-}
-
-.websiteButton {
-  margin: var(--spacing-xsmall);
-  flex-grow: 1;
 }
 
 .photoBlock {
@@ -151,6 +165,7 @@
   color: var(--purple);
   border-bottom: var(--border-purple);
   display: flex;
+  flex-wrap: wrap;
 }
 
 .acknowledgementsTeam,

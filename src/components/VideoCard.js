@@ -7,9 +7,12 @@ import Play from '../images/play.svg';
 
 import * as css from './VideoCard.module.css';
 
-export const VideoCardList = memo(({ children, id, className }) => (
+export const VideoCardList = memo(({ children, id, className, variant }) => (
   <div id={id} className={cn(css.list, className)}>
     {children}
+    {children.length % 2 !== 0 && (
+      <div className={cn(css.listSpacer, css[variant])} />
+    )}
   </div>
 ));
 

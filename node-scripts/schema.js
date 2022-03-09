@@ -173,12 +173,6 @@ type Guide implements Node {
   cover: CoverImage @link
 }
 
-type Collaborator implements Node {
-  name: String!
-  type: String!
-  url: String
-}
-
 type FAQOrder implements Node {
   sections: [FAQSection]! @link
 }
@@ -207,5 +201,43 @@ type CoverImage implements Node {
 type Tag implements Node {
   type: String!
   value: String!
+}
+
+
+type AboutPageInfo implements Node {
+  title: String!
+  description: String!
+  cover: CoverImage @link
+  socials: [SocialLinkGroup]!
+  featured: [FeaturedContent]!
+  acknowledgementsText: String!
+  acknowledgements: [CollaboratorTeam]!
+}
+
+type SocialLinkGroup implements Node {
+  title: String!
+  links: [SocialLink!]!
+}
+
+type SocialLink implements Node {
+  site: String!
+  url: String!
+}
+
+type FeaturedContent implements Node {
+  title: String!
+  description: String!
+  thumbnail: CoverImage @link
+  url: String!
+}
+
+type CollaboratorTeam implements Node {
+  name: String!
+  people: [Collaborator]!
+}
+
+type Collaborator implements Node {
+  name: String!
+  url: String
 }
 `;

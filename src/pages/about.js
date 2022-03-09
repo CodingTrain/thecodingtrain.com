@@ -2,31 +2,64 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
-
 import { Heading1, Heading4 } from '../components/Heading';
-import Button from '../components/Button';
 import Spacer from '../components/Spacer';
 import VideoCard, { VideoCardList } from '../components/VideoCard';
+import Image from '../components/Image';
 
-// svg
 import Train from '../images/train.svg';
+
 import Github from '../images/github.svg';
 import Twitter from '../images/twitter.svg';
+import YouTube from '../images/youtube.svg';
+import Discord from '../images/discord.svg';
+import Instagram from '../images/instagram.svg';
 
 import * as css from '../styles/pages/about.module.css';
 
+const socialIcons = {
+  twitter: () => <Twitter className={css.socialIcon} />,
+  discord: () => <Discord className={css.socialIcon} />,
+  instagram: () => <Instagram className={css.socialIcon} />,
+  youtube: () => <YouTube className={css.socialIcon} />,
+  github: () => <Github className={css.socialIcon} />
+};
+
+const SocialIcon = ({ site }) => {
+  const Icon = Object.keys(socialIcons).includes(site)
+    ? socialIcons[site]
+    : socialIcons['twitter'];
+  return (
+    <>
+      <Icon />
+      <span> {site.toUpperCase()}</span>
+    </>
+  );
+};
+
 const AboutPage = ({ data }) => {
-  const talks = data.talks.nodes;
-  const hasMoreTalks = data.talks.hasNextPage;
-  const team = data.team.nodes;
-  const contributors = data.contributors.nodes;
+  const content = data.content.nodes[0];
+  console.log({ content });
+  const {
+    title,
+    description,
+    cover: {
+      file: {
+        childImageSharp: { gatsbyImageData: cover }
+      }
+    },
+    socials,
+    featured,
+    acknowledgementsText,
+    acknowledgements
+  } = content;
 
   return (
     <Layout title="About">
       <Spacer />
       <div className={css.row}>
         <Heading1 className={css.mainHeading} variant="purple">
-          Hi I'm Dan!
+          {title}
         </Heading1>
         <div className={css.train}>
           <Train className={css.trainIcon} />
@@ -35,115 +68,78 @@ const AboutPage = ({ data }) => {
       <div className={css.aboutRow}>
         <div className={css.aboutBlock}>
           <div className={css.danIntro}>
-            <p>
-              This is a space where Dan introduces himself - who he is, what
-              he’s about
-            </p>
-            <p>
-              Why Dan created the Coding Train. What’s the purpose of it, what
-              does he want it to do?
-            </p>
-            <p>
-              And then a section where he talks about the books he’s written and
-              anything else he wants people to know ......
-            </p>
-          </div>
-          <div className={css.links}>
-            <div className={css.socialRow}>
-              <a
-                href="https://twitter.com/shiffman"
-                className={css.socialLink}
-                target="_blank"
-                rel="noreferrer">
-                <Twitter className={css.socialIcon} />
-                Follow on Twitter
-              </a>
-              <a
-                href="https://github.com/shiffman"
-                className={css.socialLink}
-                target="_blank"
-                rel="noreferrer">
-                <Github className={css.socialIcon} />
-                Follow on Github
-              </a>
-            </div>
-            <div className={css.websiteRow}>
-              <Button
-                className={css.websiteButton}
-                target="_blank"
-                rel="noreferrer"
-                href="https://shiffman.net"
-                variant="purple">
-                Visit my website
-              </Button>
-            </div>
+            <p>{description}</p>
           </div>
         </div>
         <div className={css.photoBlock}>
-          <img
-            src="https://shiffman.net/images/shiffman_rainbow.png"
-            alt="Daniel Shiffman"
-          />
+          <Image image={cover} />
         </div>
+      </div>
+      <div className={css.links}>
+        {socials.map((group, index) => (
+          <div className={css.socialRow} key={index}>
+            <span className={css.socialTitleGroup}>{group.title}: </span>
+            {group.links.map((link, linkIndex) => (
+              <a
+                href={link.url}
+                className={css.socialLink}
+                target="_blank"
+                rel="noreferrer"
+                key={linkIndex}>
+                <SocialIcon site={link.site} />
+              </a>
+            ))}
+          </div>
+        ))}
       </div>
       <Spacer pattern />
       <div id="talks">
         <Heading4 variant="purple" borderBottom={false}>
-          Talks
+          Featured
         </Heading4>
-        <VideoCardList>
-          {talks.map((talk, index) => (
+        <VideoCardList variant="purple">
+          {featured.map((featuredItem, index) => (
             <VideoCard
               key={index}
               variant="purple"
-              {...talk}
-              image={talk.cover.file.childImageSharp.gatsbyImageData}
+              title={featuredItem.title}
+              description={featuredItem.description}
+              {...{
+                [featuredItem.url.startsWith('/') ? 'slug' : 'link']:
+                  featuredItem.url
+              }}
+              image={
+                featuredItem.thumbnail.file.childImageSharp.gatsbyImageData
+              }
             />
           ))}
         </VideoCardList>
-        {hasMoreTalks && (
-          <div className={css.talksCta}>
-            <p>want to see more of my talks?</p>
-            <Button variant="purple" to="/talks" className={css.talksButton}>
-              View Talks
-            </Button>
-          </div>
-        )}
       </div>
       <Spacer pattern />
       <div id="acknowledgements">
         <Heading4 variant="purple">Acknowledgements</Heading4>
         <div className={css.acknowledgementsText}>
-          <p>
-            The Coding Train is possible thanks to the help and contributions of
-            many people.
-          </p>
+          <p>{acknowledgementsText}</p>
         </div>
         <div className={css.acknowledgementsList}>
-          <div className={css.acknowledgementsTeam}>
-            <h4>Coding Train Team</h4>
-            <ul>
-              {team.map((person, index) => (
-                <li key={index}>
-                  <a target="_blank" rel="noreferrer" href={person.url}>
-                    {person.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className={css.acknowledgementsContributors}>
-            <h4>Contributors</h4>
-            <ul>
-              {contributors.map((person, index) => (
-                <li key={index}>
-                  <a target="_blank" rel="noreferrer" href={person.url}>
-                    {person.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {acknowledgements.map((group, index) => (
+            <div className={css.acknowledgementsTeam} key={index}>
+              <h4>{group.name}</h4>
+              <ul>
+                {group.people.map((person, personIndex) => (
+                  <li key={personIndex}>
+                    {person.url ? (
+                      <a target="_blank" rel="noreferrer" href={person.url}>
+                        {person.name}
+                      </a>
+                    ) : (
+                      <span>{person.name}</span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </Layout>
@@ -152,38 +148,45 @@ const AboutPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    talks: allTalk(limit: 4) {
-      pageInfo {
-        hasNextPage
-      }
+    content: allAboutPageInfo {
       nodes {
         title
-        slug
         description
-        meta
-        link
+        acknowledgementsText
         cover {
           file {
-            name
             childImageSharp {
               gatsbyImageData
             }
           }
         }
-      }
-    }
-    team: allCollaborator(filter: { type: { eq: "team" } }) {
-      nodes {
-        type
-        url
-        name
-      }
-    }
-    contributors: allCollaborator(filter: { type: { eq: "contributor" } }) {
-      nodes {
-        type
-        url
-        name
+        socials {
+          title
+          links {
+            site
+            url
+          }
+        }
+        featured {
+          title
+          description
+          url
+          thumbnail {
+            file {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+        acknowledgementsText
+        acknowledgements {
+          name
+          people {
+            name
+            url
+          }
+        }
       }
     }
   }
