@@ -132,20 +132,20 @@ module.exports = {
       __key: 'faqs'
     },
     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'collaborators',
-        path: './content/collaborators.json'
-      },
-      __key: 'collaborators'
-    },
-    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rules: {
           include: './src/images'
         }
       }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'about-page-data',
+        path: './content/about'
+      },
+      __key: 'about-page-data'
     }
   ]
 };
