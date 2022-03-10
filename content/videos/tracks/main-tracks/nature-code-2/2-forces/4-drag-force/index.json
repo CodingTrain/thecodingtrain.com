@@ -5,5 +5,48 @@
   "topics": ["For beginners"],
   "videoId": "DxFDgOYEoy8",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Drag Force",
+      "description": "Simulating different drag forces on objects",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/5V8nSBOS",
+      }
+    },
+    {
+      "title": "Goose and the Jello Cubes of Varying Densities",
+      "description": "Play as Goose and avoid the jello cubes!",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O36gAqVqt",
+      }
+    },
+    {
+      "title": "Surface Area Exercise",
+      "description": "Demonstrating drag force on objects with varying surface areas",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/hHDqBfOCt",
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Drag",
+          "url": "https://en.wikipedia.org/wiki/Drag_%28physics%29",
+          "description": "Wikipedia entry on drag"
+        },
+        {
+          "title": "Nature of Code Chapter 2",
+          "url": "https://natureofcode.com/book/chapter-2-forces/",
+          "description": "Link to the second chapter of the Nature of Code book"
+        }
+      ]
+    }
   ]
 }

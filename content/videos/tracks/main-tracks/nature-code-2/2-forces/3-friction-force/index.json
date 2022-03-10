@@ -5,5 +5,61 @@
   "topics": ["For beginners"],
   "videoId": "WBdhAuWS6X8",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Friction Force",
+      "description": "Simulating friction on objects with weight",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/zcTpMCpA",
+      }
+    },
+    {
+      "title": "Top Down Billiards Exercise",
+      "description": "Simulating a billiards table",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/S3SCcnUa7",
+      }
+    },
+    {
+      "title": "Slope Exercise",
+      "description": "Simulating objects on a sloped surface",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/LS5FlhljG",
+      }
+    },
+    {
+      "title": "Show Vectors Exercise",
+      "description": "Using arrows to show the force vectors acting on an object",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Vyg_iWNGE",
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Friction",
+          "url": "https://en.wikipedia.org/wiki/Friction",
+          "description": "Wikipedia entry on friction"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "for...of loop",
+          "url": "https://youtu.be/Y8sMnRQYr3c",
+          "description": "Coding Train video on the for...of loop in JavaScript"
+        }
+      ]
+    }
   ]
 }
