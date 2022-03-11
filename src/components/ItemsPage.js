@@ -13,8 +13,8 @@ import { useSelectedTags } from '../hooks';
 
 import * as css from './ItemsPage.module.css';
 
-import SemiColon from '../images/SemiColon_3.svg';
-import SquareBrackets from '../images/SquareBrackets_4.svg';
+import SemiColon from '../images/characters/SemiColon_3.mini.svg';
+import ZeroCharacter from '../images/characters/Zero_4.mini.svg';
 
 const ItemsPage = ({
   location,
@@ -160,7 +160,7 @@ const ItemsPage = ({
             Reset filters
           </Button>
           <SemiColon className={css.semiColon} />
-          <SquareBrackets className={css.squareBrackets} />
+          <ZeroCharacter className={css.squareBrackets} />
         </div>
       )}
     </Layout>
