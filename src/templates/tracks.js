@@ -5,6 +5,8 @@ import ItemsPage from '../components/ItemsPage';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
 
+import SquareCharacter from '../images/characters/Square_4.mini.svg';
+
 // import * as css from './tracks.module.css';
 
 const TracksPage = ({ data, pageContext, location }) => {
@@ -23,6 +25,8 @@ const TracksPage = ({ data, pageContext, location }) => {
       location={location}
       itemsPath="tracks"
       variant="red"
+      Character={SquareCharacter}
+      characterOrientation="center"
       languages={languages}
       topics={topics}
       showPagination={tracks.length > 0}

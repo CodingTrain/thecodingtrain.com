@@ -7,7 +7,7 @@ import Spacer from '../components/Spacer';
 import VideoCard, { VideoCardList } from '../components/VideoCard';
 import Image from '../components/Image';
 
-import Train from '../images/train.svg';
+import PiRainbow from '../images/characters/PiRainbow.mini.svg';
 
 import Github from '../images/github.svg';
 import Twitter from '../images/twitter.svg';
@@ -62,7 +62,7 @@ const AboutPage = ({ data }) => {
           {title}
         </Heading1>
         <div className={css.train}>
-          <Train className={css.trainIcon} />
+          <PiRainbow className={css.trainIcon} />
         </div>
       </div>
       <div className={css.aboutRow}>

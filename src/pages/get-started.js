@@ -8,7 +8,7 @@ const GetStarted = () => {
   return (
     <Layout title="Get Started">
       <Spacer />
-      <Heading1 variant="orange">New to coding</Heading1>
+      <Heading1 variant="purple">New to coding</Heading1>
       <Spacer />
     </Layout>
   );

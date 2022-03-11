@@ -6,7 +6,7 @@ import { Heading1 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Question from '../components/Question';
 
-import Train from '../images/train.svg';
+import CurlyBracketsCharacter from '../images/characters/CurlyBrackets_3.mini.svg';
 
 import * as css from '../styles/pages/faq.module.css';
 
@@ -19,8 +19,8 @@ const FAQPage = ({ data }) => {
         <Heading1 className={css.heading} variant="pink">
           FAQ
         </Heading1>
-        <div className={css.train}>
-          <Train />
+        <div className={css.character}>
+          <CurlyBracketsCharacter />
         </div>
       </div>
       <div className={css.description}>

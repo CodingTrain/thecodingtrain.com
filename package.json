@@ -50,7 +50,8 @@
   "devDependencies": {
     "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "svgo": "^2.8.0"
   },
   "jest": {
     "bail": 0,

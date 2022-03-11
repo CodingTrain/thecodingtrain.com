@@ -21,6 +21,8 @@ const ItemsPage = ({
   title,
   itemsPath,
   variant,
+  Character,
+  characterOrientation,
   languages,
   topics,
   midSection,
@@ -74,7 +76,18 @@ const ItemsPage = ({
   return (
     <Layout title={title}>
       <Spacer />
-      <Heading1 variant={variant}>{title}</Heading1>
+      <div className={css.header}>
+        <Heading1 className={css.heading} variant={variant}>
+          {title}
+        </Heading1>
+        <div
+          className={cn(css.character, {
+            [css[characterOrientation]]: characterOrientation
+          })}>
+          <Character />
+        </div>
+      </div>
+
       <PagePanel
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
