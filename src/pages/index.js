@@ -9,53 +9,10 @@ import * as css from '../styles/pages/index.module.css';
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <ul className={css.root}>
-        <li>
-          <Link to="/components">Go to components overview</Link>
-        </li>
-        <li>
-          <Link to="/tracks">Go to tracks page</Link>
-          <ul>
-            {data.tracks.nodes.map((track, i) => (
-              <li key={i}>
-                <Link to={`/tracks/${track.slug}`}>{track.title}</Link>
-              </li>
-            ))}
-          </ul>
-        </li>
-        <li>
-          <Link to="/about">Go to about page</Link>
-        </li>
-        <li>
-          <Link to="/challenges">Go to challenges page</Link>
-          <ul>
-            {data.challenges.nodes.map((challenge, i) => (
-              <li key={i}>
-                <Link to={`/challenge/${challenge.slug}`}>
-                  {challenge.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </li>
-        <li>
-          <Link to={`/guides/`}>Guides</Link>:
-          <ul>
-            {data.mdxs.nodes
-              .filter((n) => n.frontmatter.title)
-              .map((mdx, i) => (
-                <li key={i}>
-                  <Link to={`/guides/${mdx.slug}`}>
-                    {mdx.frontmatter.title}
-                  </Link>
-                </li>
-              ))}
-          </ul>
-        </li>
-        <li>
-          <Link to="/faq">Go to FAQ page</Link>
-        </li>
-      </ul>
+      <p>Homepage in progress.</p>
+      <p>
+        <Link to="/routes">Go to routes page</Link>
+      </p>
     </Layout>
   );
 };
