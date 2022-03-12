@@ -163,6 +163,7 @@ const AboutPage = ({ data }) => {
           ))}
         </div>
       </div>
+      <Spacer pattern className={css.spacer} />
       <CharacterSpacer
         className={css.sep}
         size="x4"
