@@ -55,7 +55,7 @@ const FAQPage = ({ data }) => {
             </div>
             <CharacterSpacer
               className={css.sep}
-              variant="pink"
+              variant={sectionIndex !== sections.length - 1 ? 'pink' : null}
               size={sectionIndex !== sections.length - 1 ? 'x3' : 'x4'}
               side="right"
               offset={0.4}

@@ -6,6 +6,7 @@ import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
 
 import SquareCharacter from '../images/characters/Square_4.mini.svg';
+import SquareCharacter2 from '../images/characters/Square_3.mini.svg';
 
 // import * as css from './tracks.module.css';
 
@@ -26,6 +27,7 @@ const TracksPage = ({ data, pageContext, location }) => {
       itemsPath="tracks"
       variant="red"
       Character={SquareCharacter}
+      SeparatorCharacter={SquareCharacter2}
       characterOrientation="center"
       languages={languages}
       topics={topics}

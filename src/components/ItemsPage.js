@@ -8,6 +8,7 @@ import PagePanel from './PagePanel';
 import Filter from './Filter';
 import Spacer from './Spacer';
 import Button from './Button';
+import CharacterSpacer from './CharacterSpacer';
 
 import { useSelectedTags } from '../hooks';
 
@@ -15,6 +16,7 @@ import * as css from './ItemsPage.module.css';
 
 import SemiColon from '../images/characters/SemiColon_3.mini.svg';
 import ZeroCharacter from '../images/characters/Zero_4.mini.svg';
+import ZeroCharacter2 from '../images/characters/Zero_3.mini.svg';
 
 const ItemsPage = ({
   location,
@@ -22,6 +24,7 @@ const ItemsPage = ({
   itemsPath,
   variant,
   Character,
+  SeparatorCharacter,
   characterOrientation,
   languages,
   topics,
@@ -89,12 +92,22 @@ const ItemsPage = ({
       </div>
 
       <PagePanel
+        className={css.panel}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
         buttonText="Start here"
         buttonLink="/get-started"
         variant="orange"
         bbColor={variant}
+      />
+      <CharacterSpacer
+        className={css.sep}
+        variant={variant}
+        size="x2"
+        side="right"
+        offset={0.7}
+        characterSize={0.9}
+        Character={SeparatorCharacter}
       />
       {midSection}
       {midSection && <Spacer />}
@@ -163,6 +176,15 @@ const ItemsPage = ({
           <ZeroCharacter className={css.squareBrackets} />
         </div>
       )}
+      <Spacer pattern className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={ZeroCharacter2}
+      />
     </Layout>
   );
 };

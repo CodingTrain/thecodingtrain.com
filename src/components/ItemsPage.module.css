@@ -41,6 +41,16 @@
   }
 }
 
+.sep {
+  display: none;
+}
+
+@media (--small) {
+  .sep {
+    display: block;
+  }
+}
+
 .filters {
   display: flex;
 }
@@ -156,6 +166,14 @@
 
 @media (--small) {
   .breadcrumbs {
+    display: none;
+  }
+
+  .panel {
+    border-bottom: 1px solid transparent;
+  }
+
+  .spacer {
     display: none;
   }
 
