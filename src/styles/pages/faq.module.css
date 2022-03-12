@@ -8,6 +8,10 @@
   flex-grow: 1;
 }
 
+.sep {
+  display: none;
+}
+
 .character {
   flex-grow: 1;
   height: var(--baseline-3x);
@@ -70,9 +74,14 @@
 
   .description {
     height: var(--baseline-5x);
+    border-bottom: none;
 
     & p {
       width: 100%;
     }
+  }
+
+  .sep {
+    display: block;
   }
 }
