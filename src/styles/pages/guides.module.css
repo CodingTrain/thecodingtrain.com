@@ -22,6 +22,10 @@
   }
 }
 
+.sep {
+  display: none;
+}
+
 @media (--medium) {
   .character {
     height: var(--baseline-2x);
@@ -30,6 +34,18 @@
 
 @media (--small) {
   .character {
+    display: none;
+  }
+
+  .panel {
+    border-bottom: 1px solid transparent;
+  }
+
+  .sep {
+    display: block;
+  }
+
+  .spacer {
     display: none;
   }
 }
@@ -53,10 +69,4 @@
   padding: 0 var(--box-padding);
   background: var(--purple-light);
   color: var(--gray-mid); */
-}
-
-@media (--medium) {
-}
-
-@media (--small) {
 }

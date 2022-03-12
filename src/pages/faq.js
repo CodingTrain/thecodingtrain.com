@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import { Heading1 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Question from '../components/Question';
+import CharacterSpacer from '../components/CharacterSpacer';
 
 import BracketsCharacter1 from '../images/characters/CurlyBrackets_3.mini.svg';
 import BracketsCharacter2 from '../images/characters/CurlyBrackets_2.mini.svg';
@@ -12,7 +13,6 @@ import BracketsCharacter3 from '../images/characters/CurlyBrackets_1.mini.svg';
 import BracketsCharacter4 from '../images/characters/CurlyBrackets_4.mini.svg';
 
 import * as css from '../styles/pages/faq.module.css';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 const FAQPage = ({ data }) => {
   const { sections } = data.order.nodes[0];

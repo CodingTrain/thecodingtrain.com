@@ -6,8 +6,10 @@ import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
 import Spacer from '../components/Spacer';
 import GuideCard from '../components/GuideCard';
+import CharacterSpacer from '../components/CharacterSpacer';
 
 import DotCharacter from '../images/characters/ThisDot_4.mini.svg';
+import MouseCharacter from '../images/characters/WheelstheMouse_3.mini.svg';
 
 import * as css from '../styles/pages/guides.module.css';
 
@@ -27,12 +29,22 @@ const GuidesPage = ({ data }) => {
         <div className={css.character}>{<DotCharacter />}</div>
       </div>
       <PagePanel
+        className={css.panel}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
         buttonText="Start here"
         buttonLink="/get-started"
         variant="orange"
         bbColor="orange"
+      />
+      <CharacterSpacer
+        className={css.sep}
+        variant="purple"
+        size="x2"
+        side="right"
+        offset={0.75}
+        characterSize={1.1}
+        Character={DotCharacter}
       />
       <div className={css.guideList}>
         {guides.map((guide, i) => (
@@ -52,7 +64,15 @@ const GuidesPage = ({ data }) => {
           />
         ))}
       </div>
-      <Spacer />
+      <Spacer className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={MouseCharacter}
+      />
     </Layout>
   );
 };

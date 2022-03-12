@@ -7,10 +7,11 @@ import * as css from './PagePanel.module.css';
 import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 
 const PagePanel = (props) => {
-  const { description, bbColor, variant, ...buttonPanelProps } = props;
+  const { description, bbColor, variant, className, ...buttonPanelProps } =
+    props;
   return (
     <div
-      className={cn(css.root, {
+      className={cn(css.root, className, {
         [css[variant]]: variant,
         [css['bb' + bbColor]]: bbColor
       })}>

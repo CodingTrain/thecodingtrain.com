@@ -6,6 +6,13 @@
   white-space: nowrap;
 }
 
+.sep {
+  display: none;
+  @media (--small) {
+    display: block;
+  }
+}
+
 .aboutRow {
   display: flex;
   @media (--medium) {
@@ -30,6 +37,9 @@
   .train {
     display: none;
   }
+  .spacer {
+    display: none;
+  }
 }
 
 .trainIcon {
@@ -50,10 +60,22 @@
   font-family: var(--maru-mono);
   flex-grow: 1;
   padding: var(--baseline-1of2) var(--box-padding);
-  height: var(--baseline--box-6x);
+  height: var(--baseline-box-8x);
 
   & p {
     margin: 0;
+  }
+}
+
+@media (--medium) {
+  .danIntro {
+    height: var(--baseline-box-6x);
+  }
+}
+
+@media (--small) {
+  .danIntro {
+    height: var(--baseline-box-10x);
   }
 }
 
