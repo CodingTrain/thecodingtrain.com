@@ -13,6 +13,10 @@ import CharacterSpacer from '../components/CharacterSpacer';
 import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
 
+import DotCharacter from '../images/characters/ThisDot_2.mini.svg';
+import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
+import Asterisk from '../images/characters/Asterik_2.mini.svg';
+
 const Challenge = ({ data }) => {
   const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
     data;
@@ -34,6 +38,7 @@ const Challenge = ({ data }) => {
         ]}
         variant="cyan"
       />
+      <div className={css.simpleSep} />
       <ChallengeVideoSection challenge={challenge} />
       <div className={css.blankSep} />
       <VideoInfo
@@ -45,10 +50,11 @@ const Challenge = ({ data }) => {
       <CharacterSpacer
         className={css.sep}
         variant="purple"
-        size="x2"
+        size="x3"
         side="left"
-        offset={0.5}
-        characterSize={0.7}
+        offset={0.7}
+        characterSize={0.8}
+        Character={DotCharacter}
       />
       <ContributionsPanel
         contributions={challenge.contributions}
@@ -63,6 +69,7 @@ const Challenge = ({ data }) => {
             size="x3"
             side="right"
             offset={0.7}
+            Character={PiCharacter}
           />
           <ChallengesPanel
             challenges={challenge.relatedJourneys}
@@ -71,6 +78,14 @@ const Challenge = ({ data }) => {
         </>
       )}
       <div className={cn(pattern, css.pattern)} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={Asterisk}
+      />
     </Layout>
   );
 };

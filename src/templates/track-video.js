@@ -14,6 +14,11 @@ import CharacterSpacer from '../components/CharacterSpacer';
 import * as css from './track-video.module.css';
 import { pattern } from '../styles/styles.module.css';
 
+import SquareCharacter from '../images/characters/Square_1.mini.svg';
+import DotCharacter from '../images/characters/ThisDot_2.mini.svg';
+import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
+import Asterisk from '../images/characters/Asterik_2.mini.svg';
+
 const Track = ({ pageContext, data }) => {
   const {
     track,
@@ -43,6 +48,7 @@ const Track = ({ pageContext, data }) => {
         ]}
         variant="red"
       />
+      <div className={css.simpleSep} />
       {isTrackPage && <TrackHeader track={track} />}
       {isTrackPage && (
         <CharacterSpacer
@@ -51,6 +57,7 @@ const Track = ({ pageContext, data }) => {
           size="x2"
           side="right"
           offset={0.1}
+          Character={SquareCharacter}
         />
       )}
       <TrackVideoSection
@@ -70,10 +77,11 @@ const Track = ({ pageContext, data }) => {
           <CharacterSpacer
             className={css.sep}
             variant="purple"
-            size="x2"
-            side="left"
-            offset={0.5}
-            characterSize={0.7}
+            size="x3"
+            side="right"
+            offset={0.7}
+            characterSize={0.8}
+            Character={DotCharacter}
           />
           <TrackContributionsPanel
             contributions={video.contributions}
@@ -89,7 +97,8 @@ const Track = ({ pageContext, data }) => {
             variant="cyan"
             size="x3"
             side="right"
-            offset={0.7}
+            offset={0.4}
+            Character={PiCharacter}
           />
           <TrackChallengesPanel
             challenges={video.relatedJourneys}
@@ -99,6 +108,14 @@ const Track = ({ pageContext, data }) => {
       )}
 
       <div className={cn(pattern, css.pattern)} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={Asterisk}
+      />
     </Layout>
   );
 };

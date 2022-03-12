@@ -24,7 +24,14 @@
     display: block;
   }
 
-  .blankSep {
+  .simpleSep {
+    height: var(--baseline);
+    border-bottom: var(--border);
+    border-left: var(--border);
+  }
+
+  .blankSep,
+  .pattern {
     display: none;
   }
 }
