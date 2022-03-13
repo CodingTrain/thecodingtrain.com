@@ -2,7 +2,7 @@
   "title": "The Mandelbulb",
   "description": "It's the Mandelbulb! What happens when you take the original fractal (The Mandelbrot Set) and extend it into 3D space. And how do you visualize it in Processing (Java) as a point cloud?",
   "videoNumber": "168",
-  "videoId": "dS6kCCZ-vzY",
+  "videoId": "NJCiUVGiNyA",
   "date": "2022-03-09",
   "languages": ["Processing"],
   "topics": ["3D", "fractals", "voxels", "spherical coordinates", "point clouds"],
@@ -62,6 +62,11 @@
           "title": "Inigo Quilez",
           "url": "https://iquilezles.org/",
           "description": "Articles, tutorials, and videos about computer graphics!"
+        },
+        {
+          "title": "Ray Marching Examples",
+          "url": "https://observablehq.com/@leon196/raymarch",
+          "description": "This observable notebook was used as the basis for the Processing raymarching examples featured in the video."
         }
       ]
     },
