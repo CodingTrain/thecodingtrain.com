@@ -1,7 +1,62 @@
 .root {
   margin: 0;
-  & p {
-    margin: 0;
-    line-height: var(--baseline);
+}
+
+.routesLink {
+  margin: 0;
+  padding: 0 var(--box-padding);
+  line-height: var(--baseline-box);
+  border-bottom: var(--border);
+  border-left: var(--border);
+}
+
+.header {
+  margin-top: 1px;
+  height: var(--baseline-10x);
+  background-color: var(--pink-light);
+  border-bottom: var(--border);
+  border-left: var(--border);
+}
+
+.heading {
+  border: none !important;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.subheading {
+  flex-grow: 1;
+}
+
+.sep {
+  display: none;
+}
+
+.character {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: var(--border);
+  border-bottom: var(--border);
+
+  & svg {
+    height: var(--baseline-box-3x);
+  }
+}
+
+@media (--medium) {
+  .character svg {
+    height: var(--baseline-box-2x);
+  }
+}
+
+@media (--small) {
+  .character {
+    display: none;
   }
 }
