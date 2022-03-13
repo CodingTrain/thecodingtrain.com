@@ -3,13 +3,13 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import TrackContributionsPanel from '../components/ContributionsPanel';
 import TrackVideoSection from '../components/tracks/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import TrackHeader from '../components/tracks/Header';
 import TrackChallengesPanel from '../components/ChallengesPanel';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 import * as css from './track-video.module.css';
 import { pattern } from '../styles/styles.module.css';

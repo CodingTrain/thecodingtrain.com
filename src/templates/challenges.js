@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import { graphql, Link } from 'gatsby';
 
+import ItemsPage from '../components/ItemsPage';
 import Image from '../components/Image';
 import Card from '../components/challenges/Card';
 
-import ItemsPage from '../components/ItemsPage';
 import PlayButton from '../images/playbutton.svg';
 import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
 import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';

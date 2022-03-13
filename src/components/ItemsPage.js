@@ -3,12 +3,12 @@ import { Link, navigate } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from './Layout';
+import CharacterSpacer from './CharacterSpacer';
 import { Heading1 } from './Heading';
 import PagePanel from './PagePanel';
 import Filter from './Filter';
 import Spacer from './Spacer';
 import Button from './Button';
-import CharacterSpacer from './CharacterSpacer';
 
 import { useSelectedTags } from '../hooks';
 

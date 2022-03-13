@@ -2,11 +2,11 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
 import Spacer from '../components/Spacer';
 import GuideCard from '../components/GuideCard';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 import DotCharacter from '../images/characters/ThisDot_4.mini.svg';
 import MouseCharacter from '../images/characters/WheelstheMouse_3.mini.svg';

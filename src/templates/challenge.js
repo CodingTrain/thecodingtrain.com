@@ -3,12 +3,12 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import ContributionsPanel from '../components/ContributionsPanel';
 import ChallengeVideoSection from '../components/challenges/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';

@@ -2,11 +2,11 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1, Heading4 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import VideoCard, { VideoCardList } from '../components/VideoCard';
 import Image from '../components/Image';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 import PiRainbow from '../images/characters/PiRainbow.mini.svg';
 import TrainIcon from '../images/characters/Train_Icon.mini.svg';

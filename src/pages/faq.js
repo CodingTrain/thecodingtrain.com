@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Question from '../components/Question';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 import BracketsCharacter1 from '../images/characters/CurlyBrackets_3.mini.svg';
 import BracketsCharacter2 from '../images/characters/CurlyBrackets_2.mini.svg';
