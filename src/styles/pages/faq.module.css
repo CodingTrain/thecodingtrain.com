@@ -8,7 +8,12 @@
   flex-grow: 1;
 }
 
-.train {
+.sep {
+  display: none;
+}
+
+.character {
+  flex-grow: 1;
   height: var(--baseline-3x);
   display: flex;
   align-items: flex-end;
@@ -57,21 +62,26 @@
 }
 
 @media (--medium) {
-  .train {
+  .character {
     height: var(--baseline-2x);
   }
 }
 
 @media (--small) {
-  .train {
+  .character {
     display: none;
   }
 
   .description {
     height: var(--baseline-5x);
+    border-bottom: none;
 
     & p {
       width: 100%;
     }
+  }
+
+  .sep {
+    display: block;
   }
 }

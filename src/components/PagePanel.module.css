@@ -43,7 +43,7 @@
   border-color: var(--purple);
 }
 
-.orange .ctaIcon {
+.purple .ctaIcon {
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
   background-color: var(--purple-light);

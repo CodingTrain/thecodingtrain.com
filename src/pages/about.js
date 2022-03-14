@@ -2,12 +2,16 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1, Heading4 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import VideoCard, { VideoCardList } from '../components/VideoCard';
 import Image from '../components/Image';
 
-import Train from '../images/train.svg';
+import PiRainbow from '../images/characters/PiRainbow.mini.svg';
+import TrainIcon from '../images/characters/Train_Icon.mini.svg';
+import CandyRainbow from '../images/characters/RainbowCandy.mini.svg';
+import TriangleCharacter from '../images/characters/Triangle_3.mini.svg';
 
 import Github from '../images/github.svg';
 import Twitter from '../images/twitter.svg';
@@ -39,7 +43,6 @@ const SocialIcon = ({ site }) => {
 
 const AboutPage = ({ data }) => {
   const content = data.content.nodes[0];
-  console.log({ content });
   const {
     title,
     description,
@@ -62,7 +65,7 @@ const AboutPage = ({ data }) => {
           {title}
         </Heading1>
         <div className={css.train}>
-          <Train className={css.trainIcon} />
+          <PiRainbow className={css.trainIcon} />
         </div>
       </div>
       <div className={css.aboutRow}>
@@ -92,7 +95,16 @@ const AboutPage = ({ data }) => {
           </div>
         ))}
       </div>
-      <Spacer pattern />
+      <Spacer pattern className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x2"
+        variant="purple"
+        side="right"
+        offset={0.42}
+        characterSize={0.7}
+        Character={CandyRainbow}
+      />
       <div id="talks">
         <Heading4 variant="purple" borderBottom={false}>
           Featured
@@ -115,7 +127,16 @@ const AboutPage = ({ data }) => {
           ))}
         </VideoCardList>
       </div>
-      <Spacer pattern />
+      <Spacer pattern className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x3"
+        variant="purple"
+        side="right"
+        offset={0.12}
+        characterSize={0.9}
+        Character={TrainIcon}
+      />
       <div id="acknowledgements">
         <Heading4 variant="purple">Acknowledgements</Heading4>
         <div className={css.acknowledgementsText}>
@@ -142,6 +163,15 @@ const AboutPage = ({ data }) => {
           ))}
         </div>
       </div>
+      <Spacer pattern className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={TriangleCharacter}
+      />
     </Layout>
   );
 };
