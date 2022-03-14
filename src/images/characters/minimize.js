@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { optimize } = require('svgo');
-console.log({ optimize });
+
 const config = {
   plugins: [
     {
