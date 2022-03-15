@@ -19,7 +19,7 @@ const useLabels = (video) => {
   return labels;
 };
 
-const VideoInfo = ({ video, variant }) => {
+const VideoInfo = ({ video, variant, url }) => {
   const labels = useLabels(video);
   return (
     <div className={cn(css.root, { [css[variant]]: variant })}>

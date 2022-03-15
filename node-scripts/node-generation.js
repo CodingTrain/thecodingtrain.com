@@ -318,7 +318,7 @@ exports.createTalkRelatedNode = (
   const data = getJson(node);
 
   const newNode = Object.assign({}, data, {
-    id: createNodeId('talk-' + name),
+    id: createNodeId('--talk/' + name),
     parent: node.id,
     slug: name,
     internal: {
@@ -331,49 +331,136 @@ exports.createTalkRelatedNode = (
 };
 
 /**
- * Creates Collaborator nodes from JSON file node
+ * Creates FAQ node from JSON file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createNodeId - Gatsby's createNodeId function
  * @param {function} createContentDigest - Gatsby's createContentDigest function
  * @param {object} node - JSON file node
  * @param {object} parent - Parent node of node
  */
-exports.createCollaboratorNodes = (
+exports.createFAQRelatedNode = (
   createNode,
   createNodeId,
   createContentDigest,
   node,
   parent
 ) => {
-  const slug = parent.name;
+  const { name } = parent;
   const data = getJson(node);
-  const { team, contributors } = data;
-
-  for (let index = 0; index < team.length; index++) {
-    const newNode = Object.assign({}, team[index], {
-      id: createNodeId(slug + `team-${index}`),
+  if (name !== 'index') {
+    const newNode = Object.assign({}, data, {
+      id: createNodeId('--faqs/' + name),
       parent: node.id,
-      type: 'team',
+      slug: name,
       internal: {
-        type: `Collaborator`,
+        type: `FAQ`,
         contentDigest: createContentDigest(data)
+      },
+      answer: {
+        text: data.answer.text,
+        list: data.answer.list,
+        image: createNodeId(`cover-image/faqs/${name}`)
       }
     });
     createNode(newNode);
-  }
+  } else {
+    const sections = [];
+    for (let index = 0; index < data.sections.length; index++) {
+      const section = data.sections[index];
+      const sectionNode = Object.assign(
+        {},
+        {
+          id: createNodeId(`--faqSections/${index}`),
+          parent: node.id,
+          title: section.title,
+          questions: section.questions.map((q) => createNodeId(`--faqs/${q}`)),
+          internal: {
+            type: `FAQSection`,
+            contentDigest: createContentDigest(section)
+          }
+        }
+      );
+      createNode(sectionNode);
+      sections.push(sectionNode);
+    }
 
-  for (let index = 0; index < contributors.length; index++) {
-    const newNode = Object.assign({}, contributors[index], {
-      id: createNodeId(slug + `contributors-${index}`),
-      parent: node.id,
-      type: 'contributor',
-      internal: {
-        type: `Collaborator`,
-        contentDigest: createContentDigest(data)
+    const newNode = Object.assign(
+      {},
+      {
+        id: createNodeId('--faqOrder'),
+        parent: node.id,
+        sections: sections.map((s) => s.id),
+        internal: {
+          type: `FAQOrder`,
+          contentDigest: createContentDigest(data)
+        }
       }
-    });
+    );
     createNode(newNode);
   }
+};
+
+/**
+ * Creates Guide node from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createGuideRelatedNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const { name } = parent;
+  const data = getJson(node);
+
+  const newNode = Object.assign({}, data, {
+    id: createNodeId('--guide/' + name),
+    parent: node.id,
+    mdx: node.id,
+    cover: createNodeId(`cover-image/guides/${name}`),
+    internal: {
+      type: `Guide`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates About Page nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createAboutPageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--about-page`),
+    parent: node.id,
+    cover: createNodeId(`cover-image/about-page/${data.cover}`),
+    featured: data.featured.map((f) => ({
+      ...f,
+      thumbnail: createNodeId(`cover-image/about-page/${f.thumbnail}`)
+    })),
+    internal: {
+      type: `AboutPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
 };
 
 /**
@@ -466,5 +553,60 @@ exports.createTalkCoverImageNode = (
   const { name } = node;
   if (name === 'placeholder') return;
   const id = createNodeId(`cover-image/talks/${name}`);
+  createCoverImageNode(createNode, createContentDigest, node, id);
+};
+
+/**
+ * Creates CoverImage node related to a faq answer from image file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ */
+exports.createFAQImageNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node
+) => {
+  const { name } = node;
+  const id = createNodeId(`cover-image/faqs/${name}`);
+  createCoverImageNode(createNode, createContentDigest, node, id);
+};
+
+/**
+ * Creates CoverImage node related to a guide from image file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ */
+exports.createGuideCoverImageNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node
+) => {
+  const { name } = node;
+  if (name === 'placeholder') return;
+  const id = createNodeId(`cover-image/guides/${name}`);
+  createCoverImageNode(createNode, createContentDigest, node, id);
+};
+
+/**
+ * Creates CoverImage node related to the About page from image file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ */
+exports.createAboutPageCoverImageNode = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node
+) => {
+  const { name, extension } = node;
+  const id = createNodeId(`cover-image/about-page/${name}.${extension}`);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };

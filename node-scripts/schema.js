@@ -168,10 +168,29 @@ type Talk implements Node {
   languagesFlat: String!
 }
 
-type Collaborator implements Node {
-  name: String!
-  type: String!
-  url: String
+type Guide implements Node {
+  mdx: Mdx! @link
+  cover: CoverImage @link
+}
+
+type FAQOrder implements Node {
+  sections: [FAQSection]! @link
+}
+
+type FAQSection implements Node {
+  title: String!
+  questions: [FAQ]! @link
+}
+
+type FAQ implements Node {
+  question: String!
+  answer: Answer!
+}
+
+type Answer implements Node {
+  text: String!
+  list: [String]
+  image: CoverImage @link
 }
 
 type CoverImage implements Node {
@@ -182,5 +201,43 @@ type CoverImage implements Node {
 type Tag implements Node {
   type: String!
   value: String!
+}
+
+
+type AboutPageInfo implements Node {
+  title: String!
+  description: String!
+  cover: CoverImage @link
+  socials: [SocialLinkGroup]!
+  featured: [FeaturedContent]!
+  acknowledgementsText: String!
+  acknowledgements: [CollaboratorTeam]!
+}
+
+type SocialLinkGroup implements Node {
+  title: String!
+  links: [SocialLink!]!
+}
+
+type SocialLink implements Node {
+  site: String!
+  url: String!
+}
+
+type FeaturedContent implements Node {
+  title: String!
+  description: String!
+  thumbnail: CoverImage @link
+  url: String!
+}
+
+type CollaboratorTeam implements Node {
+  name: String!
+  people: [Collaborator]!
+}
+
+type Collaborator implements Node {
+  name: String!
+  url: String
 }
 `;

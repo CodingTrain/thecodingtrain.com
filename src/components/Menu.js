@@ -9,14 +9,13 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const items = [
   {
     name: 'Get Started',
-    to: '/'
+    to: '/get-started'
   },
   {
     name: 'Videos',
     children: [
       { name: 'Tracks', to: '/tracks' },
       { name: 'Challenges', to: '/challenges' },
-      { name: 'Archive', to: '/archive' },
       { name: 'FAQ', to: '/faq' }
     ]
   },
@@ -26,10 +25,6 @@ const items = [
       {
         name: 'Discord',
         href: 'https://discord.com/invite/hPuGy2g'
-      },
-      {
-        name: 'Contributions',
-        to: '/contributions'
       },
       {
         name: 'Guides',
@@ -49,7 +44,10 @@ const Menu = () => {
 
   return (
     <div className={css.root}>
-      <button className={css.menuToggle} onClick={() => setExpanded(!expanded)}>
+      <button
+        className={css.menuToggle}
+        aria-label="Menu toggle"
+        onClick={() => setExpanded(!expanded)}>
         {expanded ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </button>
       <ul className={cn(css.menu, { [css.expanded]: expanded })}>

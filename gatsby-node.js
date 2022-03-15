@@ -3,10 +3,15 @@ const {
   createVideoRelatedNode,
   createTrackRelatedNode,
   createTalkRelatedNode,
-  createCollaboratorNodes,
+  createFAQRelatedNode,
+  createFAQImageNode,
   createVideoCoverImageNode,
   createTrackCoverImageNode,
-  createTalkCoverImageNode
+  createTalkCoverImageNode,
+  createGuideRelatedNode,
+  createGuideCoverImageNode,
+  createAboutPageRelatedNodes,
+  createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
@@ -72,6 +77,14 @@ exports.onCreateNode = ({
         parent,
         parent.sourceInstanceName
       );
+    else if (parent.sourceInstanceName === 'faqs')
+      createFAQRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
     else if (parent.sourceInstanceName === 'talks')
       createTalkRelatedNode(
         createNode,
@@ -80,14 +93,25 @@ exports.onCreateNode = ({
         node,
         parent
       );
-    else if (parent.sourceInstanceName === 'collaborators')
-      createCollaboratorNodes(
+    else if (parent.sourceInstanceName === 'about-page-data')
+      createAboutPageRelatedNodes(
         createNode,
         createNodeId,
         createContentDigest,
         node,
         parent
       );
+  } else if (
+    owner === 'gatsby-plugin-mdx' &&
+    parent.sourceInstanceName === 'guides'
+  ) {
+    createGuideRelatedNode(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
   } else if (
     owner === 'gatsby-source-filesystem' &&
     mediaType !== undefined &&
@@ -120,8 +144,24 @@ exports.onCreateNode = ({
         node,
         node.sourceInstanceName
       );
+    } else if (node.sourceInstanceName === 'faqs') {
+      createFAQImageNode(createNode, createNodeId, createContentDigest, node);
     } else if (node.sourceInstanceName === 'talks') {
       createTalkCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
+      );
+    } else if (node.sourceInstanceName === 'guides') {
+      createGuideCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
+      );
+    } else if (node.sourceInstanceName === 'about-page-data') {
+      createAboutPageCoverImageNode(
         createNode,
         createNodeId,
         createContentDigest,

@@ -3,16 +3,21 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import TrackContributionsPanel from '../components/ContributionsPanel';
 import TrackVideoSection from '../components/tracks/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import TrackHeader from '../components/tracks/Header';
 import TrackChallengesPanel from '../components/ChallengesPanel';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 import * as css from './track-video.module.css';
 import { pattern } from '../styles/styles.module.css';
+
+import SquareCharacter from '../images/characters/Square_1.mini.svg';
+import DotCharacter from '../images/characters/ThisDot_2.mini.svg';
+import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
+import Asterisk from '../images/characters/Asterik_2.mini.svg';
 
 const Track = ({ pageContext, data }) => {
   const {
@@ -34,7 +39,7 @@ const Track = ({ pageContext, data }) => {
   const { trackPosition, isTrackPage } = pageContext;
 
   return (
-    <Layout>
+    <Layout title={isTrackPage ? track.title : video.title}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -43,6 +48,7 @@ const Track = ({ pageContext, data }) => {
         ]}
         variant="red"
       />
+      <div className={css.simpleSep} />
       {isTrackPage && <TrackHeader track={track} />}
       {isTrackPage && (
         <CharacterSpacer
@@ -51,6 +57,7 @@ const Track = ({ pageContext, data }) => {
           size="x2"
           side="right"
           offset={0.1}
+          Character={SquareCharacter}
         />
       )}
       <TrackVideoSection
@@ -59,17 +66,22 @@ const Track = ({ pageContext, data }) => {
         trackPosition={trackPosition}
       />
       <div className={css.blankSep} />
-      <VideoInfo video={video} variant="red" />
+      <VideoInfo
+        video={video}
+        variant="red"
+        url={`/tracks/${track.slug}/${video.slug}`}
+      />
       {video.canContribute && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
             className={css.sep}
             variant="purple"
-            size="x2"
-            side="left"
-            offset={0.5}
-            characterSize={0.7}
+            size="x3"
+            side="right"
+            offset={0.7}
+            characterSize={0.8}
+            Character={DotCharacter}
           />
           <TrackContributionsPanel
             contributions={video.contributions}
@@ -85,7 +97,8 @@ const Track = ({ pageContext, data }) => {
             variant="cyan"
             size="x3"
             side="right"
-            offset={0.7}
+            offset={0.4}
+            Character={PiCharacter}
           />
           <TrackChallengesPanel
             challenges={video.relatedJourneys}
@@ -95,6 +108,14 @@ const Track = ({ pageContext, data }) => {
       )}
 
       <div className={cn(pattern, css.pattern)} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={Asterisk}
+      />
     </Layout>
   );
 };

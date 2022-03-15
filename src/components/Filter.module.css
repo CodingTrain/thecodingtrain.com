@@ -37,10 +37,26 @@
   line-height: var(--baseline-box);
   padding-left: var(--box-padding);
 
-  & h3 {
+  & h2 {
     margin: 0;
     font-size: var(--maru-large);
+    font-family: var(--maru);
+    font-weight: bold;
   }
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - var(--baseline));
+}
+
+.itemSpacer {
+  flex: 1 0 0;
+  margin-top: -1px;
+  border-left: var(--border);
+  border-bottom: var(--border);
 }
 
 .items {
@@ -114,7 +130,8 @@
   & .spacer,
   & .title,
   & .item,
-  & .seeMore {
+  & .seeMore,
+  & .itemSpacer {
     border-color: var(--red);
   }
 }
@@ -142,7 +159,8 @@
   & .spacer,
   & .title,
   & .item,
-  & .seeMore {
+  & .seeMore,
+  & .itemSpacer {
     border-color: var(--cyan);
   }
 }

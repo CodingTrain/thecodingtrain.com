@@ -60,7 +60,8 @@ const Contribution = ({ contribution, placeholderImage }) => {
         className={css.pictureContainer}
         href={url}
         target="_blank"
-        rel="noreferrer">
+        rel="noreferrer"
+        aria-label={title}>
         {image ? (
           <Image image={image} imgClassName={css.image} />
         ) : (

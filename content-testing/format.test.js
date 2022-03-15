@@ -113,6 +113,11 @@ const compareJsonFileFormat = (dir, reference, folder) => {
           }
           if (canLoad) {
             const fileContent = require(`../${dir}/${file}`);
+            if (
+              reference.files[file].jsonFormat.exceptions &&
+              reference.files[file].jsonFormat.exceptions.includes(file)
+            )
+              break;
             testContentFormat(
               fileContent,
               reference.files[file].jsonFormat,
@@ -122,6 +127,11 @@ const compareJsonFileFormat = (dir, reference, folder) => {
         } else {
           for (let folderFile in folder.files) {
             if (folderFile.endsWith('.json')) {
+              if (
+                reference.files[file].jsonFormat.exceptions &&
+                reference.files[file].jsonFormat.exceptions.includes(file)
+              )
+                break;
               // console.log({ dir, folderFile });
               test(`File ${dir}/${folderFile} can be loaded as JSON`, () =>
                 expect(() =>

@@ -4,15 +4,18 @@ import cn from 'classnames';
 
 import * as css from './Heading.module.css';
 
-const Heading = ({
-  children,
-  variant = 'red',
-  borderBottom = true,
-  fill,
-  tag = 'h1',
-  as,
-  className
-}) => {
+const Heading = (props) => {
+  const {
+    children,
+    variant = 'red',
+    borderBottom = true,
+    fill,
+    tag = 'h1',
+    as,
+    className,
+    id
+  } = props;
+
   const Tag = `${tag}`;
   return (
     <div
@@ -20,7 +23,7 @@ const Heading = ({
         [css.borderBottom]: borderBottom,
         [css.fill]: fill
       })}>
-      <Tag>{children}</Tag>
+      <Tag id={id}>{children}</Tag>
     </div>
   );
 };

@@ -1,0 +1,10 @@
+.root {
+  margin: 0;
+  & ul {
+    margin: 0;
+  }
+  & a {
+    line-height: var(--baseline);
+    height: var(--baseline);
+  }
+}

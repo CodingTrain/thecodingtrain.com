@@ -5,11 +5,12 @@ import * as css from './Spacer.module.css';
 
 import { pattern as patternClass } from '../styles/styles.module.css';
 
-const Spacer = ({ pattern, children }) => {
+const Spacer = ({ className, pattern, variant, children }) => {
   return (
     <div
-      className={cn(css.root, {
-        [patternClass]: pattern
+      className={cn(css.root, className, {
+        [patternClass]: pattern,
+        [css[variant]]: variant
       })}>
       {children}
     </div>
