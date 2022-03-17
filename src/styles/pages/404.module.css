@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.heading {
+  flex-grow: 1;
+  & h1 {
+    overflow: initial;
+  }
+}
+
+.character {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: var(--border);
+  border-bottom: var(--border);
+
+  & svg {
+    height: var(--baseline-2x);
+  }
+}
+
+@media (--small) {
+  .character {
+    display: none;
+  }
+}
