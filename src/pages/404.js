@@ -7,10 +7,12 @@ import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
 
 import SemiColonCharacter from '../images/characters/SemiColon_4.mini.svg';
+import SceneCharacter1 from '../images/characters/Equals_4.mini.svg';
+import SceneCharacter2 from '../images/characters/Square_6.mini.svg';
+import SceneCharacter3 from '../images/characters/ThisDot_8.mini.svg';
 
 import * as css from '../styles/pages/404.module.css';
 
-// markup
 const NotFoundPage = () => {
   return (
     <Layout title="Page not found!">
@@ -23,18 +25,25 @@ const NotFoundPage = () => {
           <SemiColonCharacter />
         </div>
       </div>
-      {/* <CharacterSpacer
-        className="charSpacer"
+      <CharacterSpacer
+        className={css.charSpacer}
         variant="pink"
         size="x3"
         Character={SemiColonCharacter}
-      /> */}
+      />
       <ButtonPanel
+        className={css.buttonPanel}
         text="Oops! Sorry we couldn’t find what you were looking for."
         buttonText="Go home"
         buttonLink="/"
         variant="pink"
+        smallWrap
       />
+      <div className={css.scene}>
+        <SceneCharacter1 />
+        <SceneCharacter2 />
+        <SceneCharacter3 />
+      </div>
       <Spacer pattern />
     </Layout>
   );
