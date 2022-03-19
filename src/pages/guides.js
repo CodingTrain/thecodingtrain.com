@@ -8,7 +8,8 @@ import PagePanel from '../components/PagePanel';
 import Spacer from '../components/Spacer';
 import GuideCard from '../components/GuideCard';
 
-import DotCharacter from '../images/characters/ThisDot_4.mini.svg';
+import DotCharacter from '../images/characters/ThisDot_5.mini.svg';
+import DotCharacter2 from '../images/characters/ThisDot_6.mini.svg';
 import MouseCharacter from '../images/characters/WheelstheMouse_3.mini.svg';
 
 import * as css from '../styles/pages/guides.module.css';
@@ -44,7 +45,7 @@ const GuidesPage = ({ data }) => {
         side="right"
         offset={0.75}
         characterSize={1.1}
-        Character={DotCharacter}
+        Character={DotCharacter2}
       />
       <div className={css.guideList}>
         {guides.map((guide, i) => (

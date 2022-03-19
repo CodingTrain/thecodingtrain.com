@@ -25,6 +25,7 @@ const ItemsPage = ({
   variant,
   Character,
   SeparatorCharacter,
+  EndPageCharacter,
   characterOrientation,
   languages,
   topics,
@@ -183,7 +184,7 @@ const ItemsPage = ({
         side="right"
         offset={0.42}
         characterSize={0.9}
-        Character={ZeroCharacter2}
+        Character={EndPageCharacter ?? ZeroCharacter2}
       />
     </Layout>
   );

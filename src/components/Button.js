@@ -38,7 +38,7 @@ export const Button = ({
 };
 
 Button.propTypes = {
-  variant: PropTypes.oneOf(['red', 'orange', 'purple', 'cyan']),
+  variant: PropTypes.oneOf(['red', 'orange', 'purple', 'cyan', 'pink']),
   className: PropTypes.string,
   to: PropTypes.string,
   href: PropTypes.string,

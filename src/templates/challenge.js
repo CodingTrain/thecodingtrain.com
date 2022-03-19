@@ -13,9 +13,9 @@ import ChallengesPanel from '../components/ChallengesPanel';
 import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
 
-import DotCharacter from '../images/characters/ThisDot_2.mini.svg';
+import DotCharacter from '../images/characters/ThisDot_7.mini.svg';
 import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
-import Asterisk from '../images/characters/Asterik_2.mini.svg';
+import SemiColonCharacter from '../images/characters/SemiColon_2.mini.svg';
 
 const Challenge = ({ data }) => {
   const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
@@ -84,7 +84,7 @@ const Challenge = ({ data }) => {
         side="right"
         offset={0.42}
         characterSize={0.9}
-        Character={Asterisk}
+        Character={SemiColonCharacter}
       />
     </Layout>
   );
