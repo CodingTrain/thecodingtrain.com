@@ -11,23 +11,6 @@
   }
 }
 
-.character {
-  flex-grow: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-left: var(--border);
-  border-bottom: var(--border);
-
-  & svg {
-    height: var(--baseline-2x);
-  }
-}
-
-.charSpacer {
-  display: none;
-}
-
 .scene {
   display: flex;
   align-items: flex-end;
@@ -42,12 +25,6 @@
 }
 
 @media (--small) {
-  .character {
-    display: none;
-  }
-  .charSpacer {
-    display: block;
-  }
   .buttonPanel a {
     width: 100%;
   }
