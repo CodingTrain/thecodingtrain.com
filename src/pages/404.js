@@ -21,6 +21,13 @@ const NotFoundPage = () => {
           Page not found!
         </Heading1>
       </div>
+      <div className={css.scene}>
+        <SceneCharacter1 />
+        <SceneCharacter2 />
+        <SceneCharacter3 />
+        <SemiColonCharacter />
+      </div>
+
       <ButtonPanel
         className={css.buttonPanel}
         text="Oops! Sorry we couldn’t find what you were looking for."
@@ -29,12 +36,6 @@ const NotFoundPage = () => {
         variant="pink"
         smallWrap
       />
-      <div className={css.scene}>
-        <SceneCharacter1 />
-        <SceneCharacter2 />
-        <SceneCharacter3 />
-        <SemiColonCharacter />
-      </div>
       <Spacer pattern />
     </Layout>
   );
