@@ -142,6 +142,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'homepage-data',
+        path: './content/homepage'
+      },
+      __key: 'homepage-data'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'about-page-data',
         path: './content/about'
       },

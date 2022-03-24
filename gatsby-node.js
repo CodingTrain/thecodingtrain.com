@@ -10,6 +10,7 @@ const {
   createTalkCoverImageNode,
   createGuideRelatedNode,
   createGuideCoverImageNode,
+  createHomepageRelatedNodes,
   createAboutPageRelatedNodes,
   createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
@@ -87,6 +88,14 @@ exports.onCreateNode = ({
       );
     else if (parent.sourceInstanceName === 'talks')
       createTalkRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'homepage-data')
+      createHomepageRelatedNodes(
         createNode,
         createNodeId,
         createContentDigest,

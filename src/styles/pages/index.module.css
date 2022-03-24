@@ -67,7 +67,6 @@
 
   & .left,
   & .right {
-    /* flex: 50%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,6 +78,10 @@
     & p {
       margin: 0;
       padding: 0 var(--box-padding);
+      max-height: var(--baseline-2x);
+      overflow: hidden;
+      white-space: unset;
+      text-overflow: ellipsis;
     }
   }
 }
@@ -101,6 +104,21 @@
 
   .train {
     height: var(--baseline-4x);
+  }
+
+  .newToCoding {
+    flex-wrap: wrap;
+  }
+
+  .newToCoding .left,
+  .newToCoding .right {
+    flex: 100%;
+  }
+
+  .newToCoding .left {
+    height: var(--baseline-2x);
+    display: flex;
+    align-items: center;
   }
 }
 
