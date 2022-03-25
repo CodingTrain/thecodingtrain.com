@@ -149,7 +149,6 @@ type Track implements Node {
   slug: String!
   type: String!
   description: String!
-  date: String
   chapters: [Chapter] @link
   videos: [VideoInterface] @link
   cover: CoverImage @link

@@ -1,10 +1,12 @@
 import * as React from 'react';
 import { Link, graphql } from 'gatsby';
+import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import { Heading1, Heading2, Heading3 } from '../components/Heading';
 import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
+import Image from '../components/Image';
 
 import Train from '../images/train.svg';
 import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
@@ -14,8 +16,42 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 
+const TrackCard = ({ track, placeholderImage }) => {
+  const { title, cover, type, numVideos, slug } = track;
+  return (
+    <div className={css.trackCard}>
+      <div className={css.details}>
+        <div className={css.icon}>👁</div>
+
+        <h3 className={css.smallTitle}>
+          <Link to={`tracks/${slug}`}>{title}</Link>
+        </h3>
+
+        <div className={css.numVideos}>{numVideos} videos</div>
+      </div>
+      <Link to={`tracks/${slug}`}>
+        <Image
+          image={
+            cover
+              ? cover.file.childImageSharp.gatsbyImageData
+              : placeholderImage
+          }
+          pictureClassName={css.picture}
+          imgClassName={css.image}
+        />
+      </Link>
+
+      <p className={css.trackType}>{type} track</p>
+    </div>
+  );
+};
+
 const IndexPage = ({ data }) => {
   const { content } = data;
+  const placeholderMainTrackImage =
+    data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
+  const placeholderSideTrackImage =
+    data.placeholderSideTrackImage.nodes[0].childImageSharp.gatsbyImageData;
   console.log({ content });
   return (
     <Layout>
@@ -46,16 +82,20 @@ const IndexPage = ({ data }) => {
           </div>
           <div className={css.right}>
             <ButtonPanel
+              className={css.baselineButtonPanel}
               variant="orange"
               text={content.newToCoding.guideCta.text}
               buttonText={content.newToCoding.guideCta.buttonText}
               buttonLink={content.newToCoding.guideCta.href}
+              smallWrap
             />
             <ButtonPanel
+              className={css.baselineButtonPanel}
               variant="orange"
               text={content.newToCoding.discordCta.text}
               buttonText={content.newToCoding.discordCta.buttonText}
               buttonLink={content.newToCoding.discordCta.href}
+              smallWrap
             />
           </div>
         </div>
@@ -68,18 +108,51 @@ const IndexPage = ({ data }) => {
             <SquareCharacter />
           </div>
         </div>
-        <div className={css.tracks}>
+        <div className={css.descriptionBlock}>
           <p>{content.tracks.description}</p>
         </div>
         <ButtonPanel
+          className={css.baselineButtonPanel}
           variant="red"
           text={content.tracks.tracksCta.text}
           buttonText={content.tracks.tracksCta.buttonText}
           buttonLink={content.tracks.tracksCta.href}
+          smallWrap
         />
-        {content.tracks.featured.map((t, index) => (
-          <p key={index}>{t.title}</p>
-        ))}
+        <Spacer pattern />
+        <div className={css.tracks}>
+          {content.tracks.featured.map((track, index) => (
+            <React.Fragment key={index}>
+              <TrackCard
+                track={track}
+                placeholderImage={
+                  track.type === 'main'
+                    ? placeholderMainTrackImage
+                    : placeholderSideTrackImage
+                }
+              />
+              {index % 2 === 0 && (
+                <div
+                  className={cn(css.horizontalSpacer, {
+                    [css.lastSpacer]:
+                      index === content.tracks.featured.length - 1
+                  })}
+                />
+              )}
+              {index % 2 === 0 &&
+                index !== content.tracks.featured.length - 1 && (
+                  <Spacer
+                    className={cn(css.verticalSpacer, css.mobileSpacer)}
+                    pattern
+                  />
+                )}
+              {index % 2 === 1 &&
+                index !== content.tracks.featured.length - 1 && (
+                  <Spacer className={css.verticalSpacer} pattern />
+                )}
+            </React.Fragment>
+          ))}
+        </div>
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
           <Heading2 className={css.subheading} variant="cyan" as="h1">
@@ -89,18 +162,20 @@ const IndexPage = ({ data }) => {
             <BracketsCharacter />
           </div>
         </div>
-        <div className={css.challenges}>
+        <div className={css.descriptionBlock}>
           <p>{content.challenges.description}</p>
         </div>
         <ButtonPanel
+          className={css.baselineButtonPanel}
           variant="cyan"
           text={content.challenges.challengesCta.text}
           buttonText={content.challenges.challengesCta.buttonText}
           buttonLink={content.challenges.challengesCta.href}
+          smallWrap
         />
-        {content.challenges.featured.map((t, index) => (
+        {/* {content.challenges.featured.map((t, index) => (
           <p key={index}>{t.title}</p>
-        ))}
+        ))} */}
         <Spacer pattern size="x2" />
         <Heading2 className={css.subheading} variant="purple" as="h3">
           {content.passengerShowcase.title}
@@ -115,6 +190,7 @@ const IndexPage = ({ data }) => {
               ? `https://youtu.be/${content.passengerShowcase.featured.videoId}`
               : content.passengerShowcase.featured.source)
           }
+          smallWrap
         />
         <p>{content.passengerShowcase.featured.title}</p>
         <Spacer pattern size="x2" />
@@ -171,6 +247,8 @@ export const query = graphql`
           title
           date
           numVideos
+          type
+          slug
           cover {
             file {
               childImageSharp {
@@ -236,6 +314,32 @@ export const query = graphql`
       support {
         title
         description
+      }
+    }
+    placeholderMainTrackImage: allFile(
+      filter: {
+        name: { eq: "placeholder" }
+        sourceInstanceName: { eq: "main-tracks" }
+        extension: { in: ["jpg", "png"] }
+      }
+    ) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    placeholderSideTrackImage: allFile(
+      filter: {
+        name: { eq: "placeholder" }
+        sourceInstanceName: { eq: "side-tracks" }
+        extension: { in: ["jpg", "png"] }
+      }
+    ) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData
+        }
       }
     }
   }
