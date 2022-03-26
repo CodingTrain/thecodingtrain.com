@@ -5,5 +5,39 @@
   "topics": ["For beginners"],
   "videoId": "JLAc9hMtcxk",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Sine Wave Graph Exercise",
+      "description": "Graphing a static sine wave",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EIbEYLTaZ",
+      }
+    },
+    {
+      "title": "Playing With Period",
+      "description": "Changing the period of the sine wave graph",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SbRC-G0lU",
+      }
+    },
+    {
+      "title": "Graphing Wave",
+      "description": "Animating a sine wave on the canvas",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/c_S9jiXz-",
+      }
+    },
+    {
+      "title": "Circular Wave Exercise",
+      "description": "Generating and animating a circular shape with a wavy edge",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba",
+      }
+    }
   ]
 }
