@@ -1,0 +1,110 @@
+{
+  "title": "2.6 Mutual Attraction",
+  "description": "Finishing off Chapter 2 on forces, let's look at an \"N-Body Simulation\" where all movers experience gravitational attraction with all other movers!",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "GjbKsOkN1Oc",
+  "date": "2022-03-28",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing Today's Topic" },
+    { "time": "0:30", "title": "Recap Single attractor system" },
+    { "time": "1:20", "title": "The two body problem" },
+    { "time": "2:21", "title": "Euler Integration" },
+    { "time": "2:53", "title": "Other integration options" },
+    { "time": "4:00", "title": "Coding 2-body simulation" },
+    { "time": "7:56", "title": "The three body problem" },
+    { "time": "8:15", "title": "Coding 3-body simulation" },
+    { "time": "9:04", "title": "Refactoring for n-body" },
+    { "time": "10:48", "title": "Adding a fourth mover" },
+    { "time": "11:38", "title": "Looking at initial states" },
+    { "time": "12:03", "title": "Shape 1: donut" },
+    { "time": "13:33", "title": "The p5 Vector rotate() function" },
+    { "time": "16:12", "title": "Trying out different variations" },
+    { "time": "17:34", "title": "Looking at efficiency" },
+    { "time": "19:10", "title": "Adding the sun" },
+    { "time": "20:46", "title": "Looking at other examples" },
+    { "time": "21:21", "title": "Exercise for viewers" },
+    { "time": "22:09", "title": "Invite to chapter 3 and goodbye" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mutual Attraction (N-Body)",
+      "description": "An N-body simulation using an array of Mover objects",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/bEt7eLZ6Y",
+      }
+    },
+    {
+      "title": "Mutual Attraction (N-Body) with Barnes Hut",
+      "description": "An N-Body simulation using the Barnes-Hut algorithm",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/joXNoi9WL"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Newton's law of universal gravitation",
+          "url": "https://en.wikipedia.org/wiki/Newton's_law_of_universal_gravitation",
+          "description": "Wikipedia entry on the law of universal gravitation"
+        },
+        {
+          "title": "Nature of Code Book",
+          "url": "https://natureofcode.com/book/chapter-2-forces/#210-everything-attracts-or-repels-everything",
+          "description": "Link to chapter 2.10 - Everything Attracts (or Repels) Everything"
+        },
+        {
+          "title": "p5.Vector rotate()",
+          "url": "https://p5js.org/reference/#/p5.Vector/rotate",
+          "description": "Link to p5 Reference entry on the rotate() method"
+        },
+        {
+          "title": "N-Body Choreographies",
+          "url": "https://personalpages.manchester.ac.uk/staff/j.montaldi/Choreographies/about.html",
+          "description": "Research paper by Montaldi and Steckles"
+        },
+        {
+          "title": "N-Body Choreographies animation tool",
+          "url": "https://personalpages.manchester.ac.uk/staff/j.montaldi/Choreographies/",
+          "description": "Dan Gries' tool for animating a range of different N-Body Choreographies"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "2.5 Gravitational Attraction",
+          "url": "https://www.youtube.com/watch?v=EpgB3cNhKPM&t=0s",
+          "description": "Previous Nature of Code video on gravitational attraction"
+        },
+        {
+          "title": "2.1 Simulating Forces: Gravity and Wind",
+          "url": "https://www.youtube.com/watch?v=Uibl0UE4VH8&t=0s",
+          "description": "Nature of Code video on simulating gravity and wind forces"
+        },
+        {
+          "title": "5.1 Autonomous Steering Agents",
+          "url": "https://www.youtube.com/watch?v=P_xJMH8VvAE&t=0s",
+          "description": "Nature of Code video on creating agents that can move themselves"
+        },
+        {
+          "title": "3.1 Angles and Rotation",
+          "url": "https://www.youtube.com/watch?v=DMg-WRfNB60&t=0s",
+          "description": "Nature of Code video covering the basics of angles and rotation in p5.js"
+        },
+        {
+          "title": "Coding Challenge #98.1 - Quadtree",
+          "url": "https://www.youtube.com/watch?v=OJxEcs0w_kE&t=0s",
+          "description": "Coding Challenge to implement a Quadtree data structure and visualize it in p5.js"
+        }
+      ]
+    }
+  ]
+}
