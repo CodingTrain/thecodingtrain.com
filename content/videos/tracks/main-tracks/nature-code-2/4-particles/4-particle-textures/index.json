@@ -5,5 +5,42 @@
   "topics": ["For beginners"],
   "videoId": "pUhv2CA0omA",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "url to p5 editor or code",
+        "processing": "url to processing sketch",
+        "other": "url to other source, like GitHub"
+      }
+    },
+    {
+      "title": "Code example 2 title",
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "other": "url to other source, like GitHub"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
   ]
 }
