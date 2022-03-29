@@ -5,5 +5,66 @@
   "topics": ["For beginners"],
   "videoId": "p1Ws1ZhG36g",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Seek",
+      "description": "Creating an agent that moves towards the mouse",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/AxuChwlgb"
+      }
+    },
+    {
+      "title": "Seek With Sliders (Exercise)",
+      "description": "Using sliders to change the maximum speed and force of the seeking agent",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/DROTtSI7J"
+      }
+    },
+    {
+      "title": "Arrive (Exercise)",
+      "description": "A seeking agent that resets when it reaches its target",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/dQx9oOfTN"
+      }
+    },
+    {
+      "title": "Pursue (Exercise)",
+      "description": "A seeking agent that follows a moving target then respawns",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/XbsgoU_of"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Steering Behaviors for Autonomous Characters",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "Craig Reynolds' paper on different styles of steering behaviors for characters in animation and games"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Gravitational Attraction",
+          "url": "https://thecodingtrain.com/learning/nature-of-code/2.5-gravitational-attraction",
+          "description": "Nature of Code video on using vectors and forces to simulate gravitational attraction"
+        },
+        {
+          "title": "Angles and Vectors",
+          "url": "https://thecodingtrain.com/learning/nature-of-code/3.3-angles-and-vectors",
+          "description": "Nature of Code video on calculating direction vectors in p5.js"
+        }
+      ]
+    }
   ]
 }
