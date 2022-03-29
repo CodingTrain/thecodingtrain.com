@@ -5,5 +5,77 @@
   "topics": ["For beginners"],
   "videoId": "Q4MU7pkDYmQ",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Flee",
+      "description": "Creating an agent that avoids the mouse",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO
+      }
+    },
+    {
+      "title": "Pursue",
+      "description": "Adding a mover target for the pursuer to chase",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Lx3PJMq4m"
+      }
+    },
+    {
+      "title": "Evade",
+      "description": "Creating an agent that avoids a mover object",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/X3ph02Byx"
+      }
+    },
+    {
+      "title": "Pursue Boucing Ball",
+      "description": "Pursuing a ball that bounces off the edge of the canvas",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/itlyDq3ZB"
+      }
+    },
+    {
+      "title": "Pursue Wander",
+      "description": "Using the wander behavior to steer the mover object",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EEnmY04lt"
+      }
+    },
+    {
+      "title": "Pursue Slider Prediction",
+      "description": "Adding a slider to control the mover object's behavior",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/l7MgPpTUB"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Steering Behaviors for Autonomous Characters",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "Craig Reynolds' paper on different styles of steering behaviors for characters in animation and games"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Inheritance in JavaScript",
+          "url": "https://thecodingtrain.com/Tutorials/16-javascript-es6/16.17-inheritance",
+          "description": "Coding Train video on inheritance in Object-Oriented Programming and JavaScript ES6"
+        }
+      ]
+    }
   ]
 }
