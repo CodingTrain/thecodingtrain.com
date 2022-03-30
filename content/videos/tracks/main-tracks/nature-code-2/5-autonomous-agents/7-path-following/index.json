@@ -5,5 +5,45 @@
   "topics": ["For beginners"],
   "videoId": "rlZYT-uvmGQ",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Path Following",
+      "description": "Making a vehicle follow a path projected from the position of the mosue",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/dqM054vBV"
+      }
+    },
+    {
+      "title": "Complex Path",
+      "description": "Generating an array of vehicles that follow a loop",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2FFzvxwVt"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Steering Behaviors for Autonomous Characters",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "Craig Reynolds' paper on different styles of steering behaviors for characters in animation and games"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Scalar Projection",
+          "url": "https://thecodingtrain.com/learning/nature-of-code/5.6-dot-product",
+          "description": "Previous Nature of Code video on using the dot product and scalar projection in p5.js"
+        }
+      ]
+    }
   ]
 }
