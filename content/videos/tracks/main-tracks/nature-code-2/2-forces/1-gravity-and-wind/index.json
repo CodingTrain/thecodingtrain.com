@@ -12,7 +12,7 @@
       "description": "Simulating a wind force when the mouse is pressed",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/kYWcOmch",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/kYWcOmch"
       }
     }
   ],
@@ -32,4 +32,5 @@
         }
       ]
 	}
+  ]
 }

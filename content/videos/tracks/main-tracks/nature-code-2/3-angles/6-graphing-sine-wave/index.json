@@ -12,7 +12,7 @@
       "description": "Graphing a static sine wave",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EIbEYLTaZ",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EIbEYLTaZ"
       }
     },
     {
@@ -20,7 +20,7 @@
       "description": "Changing the period of the sine wave graph",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/SbRC-G0lU",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SbRC-G0lU"
       }
     },
     {
@@ -28,7 +28,7 @@
       "description": "Animating a sine wave on the canvas",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/c_S9jiXz-",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/c_S9jiXz-"
       }
     },
     {
@@ -36,7 +36,7 @@
       "description": "Generating and animating a circular shape with a wavy edge",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba"
       }
     }
   ]

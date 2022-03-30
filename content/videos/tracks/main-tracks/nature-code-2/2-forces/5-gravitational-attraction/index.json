@@ -12,7 +12,7 @@
       "description": "Simulating gravitational attraction between objects",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/MkLraatd",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/MkLraatd"
       }
     },
     {
@@ -20,7 +20,7 @@
       "description": "Creating attractor objects with positive and negative gravity force",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ImehzZuCU",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ImehzZuCU"
       }
     }
   ],

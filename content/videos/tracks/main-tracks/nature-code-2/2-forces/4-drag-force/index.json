@@ -12,7 +12,7 @@
       "description": "Simulating different drag forces on objects",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/5V8nSBOS",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/5V8nSBOS"
       }
     },
     {
@@ -20,7 +20,7 @@
       "description": "Play as Goose and avoid the jello cubes!",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/O36gAqVqt",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O36gAqVqt"
       }
     },
     {
@@ -28,7 +28,7 @@
       "description": "Demonstrating drag force on objects with varying surface areas",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/hHDqBfOCt",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/hHDqBfOCt"
       }
     }
   ],
