@@ -9,7 +9,7 @@
   "codeExamples": [
     {
       "title": "What is a Vector",
-      "description": "Coding example for NoC 1.1",
+      "description": "Creating a walker object that moves along a random vector while drawing on the canvas",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/JmEToUfk"
