@@ -78,7 +78,7 @@
     & p {
       margin: 0;
       padding: 0 var(--box-padding);
-      max-height: var(--baseline-2x);
+      max-height: var(--baseline-box-2x);
       overflow: hidden;
       white-space: unset;
       text-overflow: ellipsis;
@@ -88,6 +88,7 @@
 
 .baselineButtonPanel {
   height: var(--baseline);
+  /* border-top: var(--border); */
 }
 
 .descriptionBlock {
@@ -105,7 +106,8 @@
   }
 }
 
-.tracks {
+.tracks,
+.challenges {
   display: flex;
   flex-wrap: wrap;
 }
@@ -129,19 +131,26 @@
   display: none;
 }
 
-.trackCard {
-  flex: calc(50% - var(--baseline) / 2);
+.card {
   display: flex;
   flex-direction: column;
 }
 
-.trackCard .details {
+.trackCard {
+  flex: calc(50% - var(--baseline) / 2);
+}
+
+.challengeCard {
+  flex: calc((100% - 2 * var(--baseline)) / 3);
+}
+
+.card .details {
   font-size: var(--maru-large);
   display: flex;
   line-height: var(--baseline-box);
 }
 
-.trackCard .smallTitle {
+.card .smallTitle {
   flex-grow: 1;
   line-height: var(--baseline-box);
   border-left: var(--border);
@@ -154,7 +163,7 @@
   white-space: nowrap;
 }
 
-.trackCard .icon {
+.card .icon {
   font-family: var(--maru-emoji);
   flex-basis: var(--baseline-box);
   line-height: 1em;
@@ -165,7 +174,14 @@
   justify-content: center;
   align-items: center;
   padding-bottom: calc(var(--baseline-box) / 15);
+}
+
+.trackCard .icon {
   color: var(--red);
+}
+
+.challengeCard .icon {
+  color: var(--cyan);
 }
 
 .trackCard .numVideos {
@@ -175,28 +191,181 @@
   border-bottom: var(--border);
 }
 
-.trackCard .picture {
+.card .picture {
   overflow: hidden;
   flex: 1;
 }
 
-.trackCard .image {
+.card .image {
   width: 100%;
-  height: var(--baseline-6x);
   object-fit: cover;
   border-left: var(--border);
   border-bottom: var(--border);
 }
 
-.trackCard .trackType {
+.trackCard .image {
+  height: var(--baseline-6x);
+}
+
+.challengeCard .image {
+  height: var(--baseline-4x);
+}
+
+.card .date {
   margin: 0;
   padding: 0 var(--box-padding);
+  text-transform: uppercase;
+  line-height: var(--baseline-box);
+  height: var(--baseline);
+}
+
+.trackCard .date {
   background-color: var(--red-light);
   color: var(--red);
   border-bottom: var(--border-red);
   border-left: var(--border-red);
-  text-transform: uppercase;
+}
+
+.challengeCard .date {
+  background-color: var(--cyan-light);
+  color: var(--cyan);
+  border-bottom: var(--border-cyan);
+  border-left: var(--border-cyan);
+}
+
+.showcase {
+  display: flex;
+}
+
+.showcase .left,
+.showcase .right {
+  flex: 50%;
+}
+
+.showcase .right {
+  display: flex;
+}
+
+.showcase .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: var(--baseline-3x);
+  border-left: var(--border);
+  border-bottom: var(--border);
+  background: white;
+  font-size: var(--maru-normal);
+  line-height: var(--maru-normal-line-height);
+}
+
+.showcase .left .details p {
+  margin: 0;
+  padding: 0 var(--box-padding);
+  color: var(--gray-mid);
+}
+
+.showcase .right .picture {
+  overflow: hidden;
+  flex: 1;
+}
+
+.showcase .right .image {
+  width: 100%;
+  object-fit: cover;
+  border-left: var(--border);
+  border-bottom: var(--border);
+  height: var(--baseline-6x);
+}
+
+.eventsBanner {
+  margin: 0;
+  padding: 0 var(--box-padding);
+  border-bottom: var(--border-pink);
+  border-left: var(--border-pink);
   line-height: var(--baseline-box);
+  font-size: var(--maru-large);
+  color: var(--pink);
+  background-color: var(--pink-tint);
+  text-transform: uppercase;
+
+  & span {
+    font-weight: bold;
+  }
+
+  & span + & span {
+    font-weight: normal;
+  }
+}
+
+.event {
+  display: flex;
+  color: var(--gray-mid);
+  & p {
+    margin: 0;
+  }
+
+  & .left,
+  & .center {
+    flex: 30%;
+  }
+
+  & .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: var(--border);
+    border-left: var(--border);
+    height: var(--baseline-3x);
+    & h2 {
+      font-family: var(--maru-mono);
+      padding: 0 var(--box-padding);
+      font-size: var(--maru-xlarge);
+      font-weight: bold;
+      line-height: var(--maru-xlarge-line-height);
+    }
+  }
+
+  & .center p {
+    padding: 0 var(--box-padding);
+    border-bottom: var(--border);
+    border-left: var(--border);
+    line-height: calc(var(--baseline-box) - 1px);
+    text-transform: uppercase;
+    font-size: var(--maru-normal);
+    & span + span {
+      margin-left: var(--box-padding);
+    }
+  }
+
+  & .right {
+    flex: 40%;
+    & div {
+      border-bottom: var(--border);
+      border-left: var(--border);
+    }
+    & .eventDescription {
+      height: var(--baseline-2x);
+      overflow: hidden;
+      & p {
+        padding: var(--baseline-1of4) var(--box-padding);
+        font-size: var(--maru-small);
+        line-height: var(--maru-small-line-height);
+      }
+    }
+
+    & .eventButton {
+      height: var(--baseline);
+      padding: var(--spacing-xsmall);
+    }
+
+    & a {
+      width: 100%;
+    }
+  }
+}
+
+.icon {
+  font-family: var(--maru-emoji);
 }
 
 @media (--medium) {
@@ -229,7 +398,6 @@
   }
 
   .newToCoding .left {
-    height: var(--baseline-2x);
     display: flex;
     align-items: center;
   }
@@ -249,6 +417,22 @@
   .trackCard {
     flex: 100%;
   }
+
+  .challengeCard .image {
+    height: var(--baseline-6x);
+  }
+
+  .showcase {
+    flex-direction: column-reverse;
+  }
+
+  .event {
+    flex-wrap: wrap;
+    & .left,
+    & .center {
+      flex: 50%;
+    }
+  }
 }
 
 @media (--small) {
@@ -260,6 +444,14 @@
     height: initial;
     & > div > a {
       width: 100%;
+    }
+  }
+
+  .event {
+    flex-wrap: wrap;
+    & .left,
+    & .center {
+      flex: 100%;
     }
   }
 }

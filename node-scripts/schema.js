@@ -149,6 +149,7 @@ type Track implements Node {
   slug: String!
   type: String!
   description: String!
+  date: String
   chapters: [Chapter] @link
   videos: [VideoInterface] @link
   cover: CoverImage @link
@@ -247,7 +248,7 @@ type HomepageInfo implements Node {
   tracks: TracksSection!
   challenges: ChallengesSection!
   passengerShowcase: PassengerSection!
-  events: PageSection!
+  events: EventsSection!
   support: PageSection!
 }
 
@@ -287,5 +288,22 @@ type PassengerSection implements Node {
   title: String!
   featured: Contribution! @link
   cta: Cta!
+}
+
+type EventsSection implements Node {
+  title: String!
+  comingEventsDescription: String!
+  noEventsDescription: String!
+  upcoming: [Event]!
+}
+
+type Event implements Node {
+  title: String!
+  description: String!
+  date: String!
+  time: String!
+  host: String!
+  type: String!
+  url: String!
 }
 `;

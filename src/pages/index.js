@@ -15,11 +15,12 @@ import SquareCharacter from '../images/characters/Square_4.mini.svg';
 import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
+import Button from '../components/Button';
 
 const TrackCard = ({ track, placeholderImage }) => {
-  const { title, cover, type, numVideos, slug } = track;
+  const { title, cover, date, numVideos, slug } = track;
   return (
-    <div className={css.trackCard}>
+    <div className={cn(css.card, css.trackCard)}>
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
@@ -41,7 +42,72 @@ const TrackCard = ({ track, placeholderImage }) => {
         />
       </Link>
 
-      <p className={css.trackType}>{type} track</p>
+      <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>
+    </div>
+  );
+};
+
+const ChallengeCard = ({ challenge, placeholderImage }) => {
+  const { title, cover, date, slug } = challenge;
+  return (
+    <div className={cn(css.card, css.challengeCard)}>
+      <div className={css.details}>
+        <div className={css.icon}>👁</div>
+
+        <h3 className={css.smallTitle}>
+          <Link to={`tracks/${slug}`}>{title}</Link>
+        </h3>
+      </div>
+      <Link to={`challenge/${slug}`}>
+        <Image
+          image={
+            cover
+              ? cover.file.childImageSharp.gatsbyImageData
+              : placeholderImage
+          }
+          pictureClassName={css.picture}
+          imgClassName={css.image}
+        />
+      </Link>
+
+      <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>
+    </div>
+  );
+};
+
+const EventRow = ({ event }) => {
+  const { title, description, date, time, host, type, url } = event;
+  return (
+    <div className={css.event}>
+      <div className={css.left}>
+        <h2>{title}</h2>
+      </div>
+      <div className={css.center}>
+        <p>
+          <span className={css.icon}>🗒</span>
+          <span>
+            {date}, {time}
+          </span>
+        </p>
+        <p>
+          <span className={css.icon}>🙋</span>
+          <span>{host}</span>
+        </p>
+        <p>
+          <span className={css.icon}>💻</span>
+          <span>{type}</span>
+        </p>
+      </div>
+      <div className={css.right}>
+        <div className={css.eventDescription}>
+          <p>{description}</p>
+        </div>
+        <div className={css.eventButton}>
+          <Button href={url} variant="pink">
+            GO
+          </Button>
+        </div>
+      </div>
     </div>
   );
 };
@@ -52,6 +118,10 @@ const IndexPage = ({ data }) => {
     data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
   const placeholderSideTrackImage =
     data.placeholderSideTrackImage.nodes[0].childImageSharp.gatsbyImageData;
+  const challengesPlaceholder =
+    data.challengePlaceholderImage.nodes.length > 0
+      ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
+      : null;
   console.log({ content });
   return (
     <Layout>
@@ -173,36 +243,115 @@ const IndexPage = ({ data }) => {
           buttonLink={content.challenges.challengesCta.href}
           smallWrap
         />
-        {/* {content.challenges.featured.map((t, index) => (
-          <p key={index}>{t.title}</p>
-        ))} */}
+        <Spacer pattern />
+        <div className={css.challenges}>
+          {content.challenges.featured.map((challenge, index) => (
+            <React.Fragment key={index}>
+              <ChallengeCard
+                challenge={challenge}
+                placeholderImage={challengesPlaceholder}
+              />
+              {index % 3 !== 2 && (
+                <div
+                  className={cn(css.horizontalSpacer, {
+                    [css.lastSpacer]:
+                      index === content.challenges.featured.length - 1
+                  })}
+                />
+              )}
+              {index % 3 !== 2 &&
+                index !== content.challenges.featured.length - 1 && (
+                  <Spacer
+                    className={cn(css.verticalSpacer, css.mobileSpacer)}
+                    pattern
+                  />
+                )}
+              {index % 3 === 2 &&
+                index !== content.challenges.featured.length - 1 && (
+                  <Spacer className={css.verticalSpacer} pattern />
+                )}
+            </React.Fragment>
+          ))}
+        </div>
         <Spacer pattern size="x2" />
-        <Heading2 className={css.subheading} variant="purple" as="h3">
-          {content.passengerShowcase.title}
-        </Heading2>
-        <ButtonPanel
-          variant="purple"
-          text={content.passengerShowcase.cta.text}
-          buttonText={content.passengerShowcase.cta.buttonText}
-          buttonLink={
-            content.passengerShowcase.featured.url ??
-            (content.passengerShowcase.featured.videoId
-              ? `https://youtu.be/${content.passengerShowcase.featured.videoId}`
-              : content.passengerShowcase.featured.source)
-          }
-          smallWrap
-        />
-        <p>{content.passengerShowcase.featured.title}</p>
+        <div className={css.showcase}>
+          <div className={css.left}>
+            <Heading2 className={css.subheading} variant="purple" as="h3">
+              {content.passengerShowcase.title}
+            </Heading2>
+            <div className={css.details}>
+              <p>
+                {content.passengerShowcase.featured.author.url ? (
+                  <Link to={content.passengerShowcase.featured.author.url}>
+                    {content.passengerShowcase.featured.author.name}
+                  </Link>
+                ) : (
+                  content.passengerShowcase.featured.author.name
+                )}
+              </p>
+              <p>{content.passengerShowcase.featured.title}</p>
+              <p>
+                {content.passengerShowcase.featured.video.title} (
+                {content.passengerShowcase.featured.video.source})
+              </p>
+            </div>
+            <ButtonPanel
+              variant="purple"
+              className={css.baselineButtonPanel}
+              text={content.passengerShowcase.cta.text}
+              buttonText={content.passengerShowcase.cta.buttonText}
+              buttonLink={
+                content.passengerShowcase.featured.url ??
+                (content.passengerShowcase.featured.videoId
+                  ? `https://youtu.be/${content.passengerShowcase.featured.videoId}`
+                  : content.passengerShowcase.featured.source)
+              }
+              smallWrap
+            />
+          </div>
+          <div className={css.right}>
+            <Image
+              image={
+                content.passengerShowcase.featured.cover
+                  ? content.passengerShowcase.featured.cover.file
+                      .childImageSharp.gatsbyImageData
+                  : challengesPlaceholder
+              }
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+            />
+          </div>
+        </div>
+
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
           <Heading2 className={css.subheading} variant="pink" as="h1">
-            Events
+            {content.events.title}
           </Heading2>
           <div className={css.character}>
             <SemiColonCharacter />
           </div>
         </div>
-
+        <p className={css.eventsBanner}>
+          <span>
+            {content.events.upcoming.length > 0
+              ? content.events.comingEventsDescription
+              : content.events.noEventsDescription}
+          </span>
+          <span></span>
+        </p>
+        {content.events.upcoming.length > 0 && (
+          <>
+            {content.events.upcoming.map((event, index) => (
+              <React.Fragment key={index}>
+                <EventRow event={event} />
+                {index !== content.events.upcoming.length - 1 && (
+                  <Spacer pattern />
+                )}
+              </React.Fragment>
+            ))}
+          </>
+        )}
         <Spacer pattern size="x2" />
         <Heading2 className={css.subheading} variant="orange" as="h3">
           SUPPORT
@@ -245,6 +394,7 @@ export const query = graphql`
         }
         featured {
           title
+          type
           date
           numVideos
           type
@@ -269,6 +419,7 @@ export const query = graphql`
         featured {
           title
           date
+          slug
           cover {
             file {
               childImageSharp {
@@ -309,7 +460,17 @@ export const query = graphql`
       }
       events {
         title
-        description
+        comingEventsDescription
+        noEventsDescription
+        upcoming {
+          title
+          description
+          date
+          time
+          host
+          type
+          url
+        }
       }
       support {
         title
@@ -334,6 +495,20 @@ export const query = graphql`
         name: { eq: "placeholder" }
         sourceInstanceName: { eq: "side-tracks" }
         extension: { in: ["jpg", "png"] }
+      }
+    ) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    challengePlaceholderImage: allFile(
+      filter: {
+        sourceInstanceName: { eq: "journeys" }
+        extension: { in: ["jpg", "png"] }
+        relativeDirectory: { eq: "" }
+        name: { eq: "placeholder" }
       }
     ) {
       nodes {
