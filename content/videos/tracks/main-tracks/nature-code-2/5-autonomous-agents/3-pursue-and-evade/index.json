@@ -4,15 +4,14 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "Q4MU7pkDYmQ",
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Flee",
       "description": "Creating an agent that avoids the mouse",
       "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO
+        "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO"
       }
     },
     {
