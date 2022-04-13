@@ -16,7 +16,7 @@ const {
 const {
   createTrackVideoPages,
   createTracksPages,
-  createJourneyPages,
+  createChallengesPages,
   createGuidePages
 } = require('./node-scripts/page-generation');
 
@@ -36,16 +36,16 @@ exports.onCreateNode = ({
 
   if (owner === 'gatsby-transformer-json') {
     /**
-      Turn JSON files into Tracks, Video and Contribution nodes
+      Turn JSON files into Tracks, Video and Showcase Contribution nodes
     **/
-    if (parent.sourceInstanceName === 'journeys')
+    if (parent.sourceInstanceName === 'challenges')
       createVideoRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
         parent,
-        'Journey'
+        'Challenge'
       );
     else if (parent.sourceInstanceName === 'guest-tutorials')
       createVideoRelatedNode(
@@ -118,13 +118,13 @@ exports.onCreateNode = ({
     mediaType.includes('image')
   ) {
     /**
-      Turn image files into CoverImages for Tracks, Video and Contribution nodes
+      Turn image files into CoverImages for Tracks, Video and Showcase Contribution nodes
     **/
 
     if (
       node.sourceInstanceName === 'videos' ||
       node.sourceInstanceName === 'guest-tutorials' ||
-      node.sourceInstanceName === 'journeys'
+      node.sourceInstanceName === 'challenges'
     ) {
       createVideoCoverImageNode(
         createNode,
@@ -175,6 +175,6 @@ exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
-  await createJourneyPages(graphql, createPage);
+  await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
 };

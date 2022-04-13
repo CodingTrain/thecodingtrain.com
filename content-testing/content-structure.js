@@ -3,10 +3,8 @@ const {
   mainTrack: mainTrackFormat,
   sideTrack: sideTrackFormat,
   contribution: contributionFormat,
-  talk: talkFormat,
   faqOrder: faqOrderFormat,
-  faq: faqFormat,
-  collaborators: collaboratorsFormat
+  faq: faqFormat
 } = require('./file-formats.js');
 
 const {
@@ -20,11 +18,11 @@ const contentStructure = {
   folders: {
     videos: {
       folders: {
-        journeys: {
+        challenges: {
           folders: {
             '': {
               folders: {
-                contributions: {
+                showcase: {
                   files: {
                     '': { isRequired: false, jsonFormat: contributionFormat }
                   },
@@ -72,7 +70,7 @@ const contentStructure = {
         },
         '': {
           folders: {
-            contributions: {
+            showcase: {
               files: {
                 '': { isRequired: false, jsonFormat: contributionFormat }
               },
@@ -107,7 +105,7 @@ const contentStructure = {
         //   folders: {
         //     '': {
         //       folders: {
-        //         contributions: {
+        //         showcase: {
         //           files: {
         //             '': { isRequired: false, jsonFormat: contributionFormat }
         //           },
@@ -240,27 +238,63 @@ const contentStructure = {
       isFolderSensitive: true,
       isRequired: true
     },
-    faqs: {
-      files: {
-        'index.json': {
-          isRequired: true,
-          jsonFormat: faqOrderFormat,
-          slugReferences: faqsOrderSlugReference
-        },
-        '': {
+    pages: {
+      folders: {
+        faqs: {
+          files: {
+            'index.json': {
+              isRequired: true,
+              jsonFormat: faqOrderFormat,
+              slugReferences: faqsOrderSlugReference
+            },
+            '': {
+              isRequired: false,
+              jsonFormat: { ...faqFormat, exceptions: 'index.json' }
+            }
+          },
+          folder: {},
           isRequired: false,
-          jsonFormat: { ...faqFormat, exceptions: 'index.json' }
+          isFileSensitive: false,
+          isFolderSensitive: true
+        },
+        guides: {
+          folders: {},
+          files: {},
+          isFileSensitive: false,
+          isFolderSensitive: true,
+          isRequired: true
+        },
+        about: {
+          folders: {},
+          files: {},
+          isFileSensitive: false,
+          isFolderSensitive: true,
+          isRequired: true
+        },
+        tracks: {
+          folders: {},
+          files: {},
+          isFileSensitive: false,
+          isFolderSensitive: true,
+          isRequired: true
+        },
+        challenges: {
+          folders: {},
+          files: {},
+          isFileSensitive: false,
+          isFolderSensitive: true,
+          isRequired: true
+        },
+        homepage: {
+          folders: {},
+          files: {},
+          isFileSensitive: false,
+          isFolderSensitive: true,
+          isRequired: true
         }
       },
-      folder: {},
-      isRequired: false,
-      isFileSensitive: false,
-      isFolderSensitive: true
-    },
-    guides: {
-      folders: {},
       files: {},
-      isFileSensitive: false,
+      isFileSensitive: true,
       isFolderSensitive: true,
       isRequired: true
     },
@@ -271,17 +305,8 @@ const contentStructure = {
       isFolderSensitive: false,
       isRequired: false
     }
-    // talks: {
-    //   folders: {},
-    //   files: { '': { isRequired: false, jsonFormat: talkFormat } },
-    //   isFileSensitive: false,
-    //   isFolderSensitive: true,
-    //   isRequired: true
-    // }
   },
-  files: {
-    'collaborators.json': { isRequired: true, jsonFormat: collaboratorsFormat }
-  },
+  files: {},
   isFileSensitive: true,
   isFolderSensitive: true,
   isRequired: true

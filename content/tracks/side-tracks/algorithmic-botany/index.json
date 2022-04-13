@@ -2,13 +2,13 @@
   "title": "Algorithmic Botany",
   "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing. Fractal trees and L-systems galore! By the end of this track, you'll be able to code your own digital garden!",
   "videos": [
-    "journeys/108-barnsley-fern",
-    "journeys/14-fractal-trees-recursive",
-    "journeys/15-object-oriented-fractal-trees",
-    "journeys/16-l-system-fractal-trees",
-    "journeys/17-fractal-trees-space-colonization",
-    "journeys/18-3d-fractal-trees",
-    "journeys/30-phyllotaxis",
-    "journeys/fractal-teamtrees-with-physics"
+    "challenges/108-barnsley-fern",
+    "challenges/14-fractal-trees-recursive",
+    "challenges/15-object-oriented-fractal-trees",
+    "challenges/16-l-system-fractal-trees",
+    "challenges/17-fractal-trees-space-colonization",
+    "challenges/18-3d-fractal-trees",
+    "challenges/30-phyllotaxis",
+    "challenges/fractal-teamtrees-with-physics"
   ]
 }

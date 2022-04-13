@@ -68,7 +68,7 @@ export const query = graphql`
         slug
       }
     }
-    challenges: allJourney {
+    challenges: allChallenge {
       nodes {
         title
         slug
