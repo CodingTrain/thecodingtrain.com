@@ -5,7 +5,7 @@ import cn from 'classnames';
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import TrackContributionsPanel from '../components/ContributionsPanel';
+import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import TrackVideoSection from '../components/tracks/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import TrackHeader from '../components/tracks/Header';
@@ -83,8 +83,8 @@ const Track = ({ pageContext, data }) => {
             characterSize={0.8}
             Character={DotCharacter}
           />
-          <TrackContributionsPanel
-            contributions={video.contributions}
+          <PassengerShowcasePanel
+            contributions={video.showcase}
             placeholderImage={contributionsPlaceholder}
           />
         </>
@@ -190,7 +190,7 @@ export const query = graphql`
         }
       }
       canContribute
-      contributions {
+      showcase {
         title
         name
         url

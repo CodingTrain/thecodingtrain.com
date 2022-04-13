@@ -24,7 +24,7 @@ const contentStructure = {
           folders: {
             '': {
               folders: {
-                contributions: {
+                showcase: {
                   files: {
                     '': { isRequired: false, jsonFormat: contributionFormat }
                   },
@@ -72,7 +72,7 @@ const contentStructure = {
         },
         '': {
           folders: {
-            contributions: {
+            showcase: {
               files: {
                 '': { isRequired: false, jsonFormat: contributionFormat }
               },
@@ -107,7 +107,7 @@ const contentStructure = {
         //   folders: {
         //     '': {
         //       folders: {
-        //         contributions: {
+        //         showcase: {
         //           files: {
         //             '': { isRequired: false, jsonFormat: contributionFormat }
         //           },

@@ -34,7 +34,7 @@ content
 
 Videos tackle specific themes and are part of a sequence of videos. Each video should have their own folder inside of `content/videos/`.
 
-**Journeys** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to send contributions based on the challenge or coding experiment.
+**Journeys** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to their contributions based on the challenge or coding experiment.
 This are contained **specifically** inside of `content/videos/journeys`.
 
 <!-- - **Guest tutorials** are one-off lessons on different subjects given by guests lecturers -->
@@ -49,7 +49,7 @@ Each video, whatever flavor of video they are, follow a similar folder structure
    │  ├─ image1.png
    │  ├─ image2.jpg
    │  └─ ...
-   └─ contributions
+   └─ showcase
       ├─ contribution-slug-1.json
       ├─ contribution-slug-2.json
       └─ ...
@@ -59,8 +59,8 @@ Each video, whatever flavor of video they are, follow a similar folder structure
 - `video-slug/` contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions, and they also become part of the path to their video player pages.
 - `video-slug/index.json` contains the main metadata for the video: title, description, YouTube video ID, etc...
 - `video-slug/images/` contains images specific to the video and can be referenced in `video-slug/index.json` as code example thumbnails.
-- `video-slug/contributions/` contains all metadata for contributions that viewers send and are accepted into the site.
-- `video-slug/contributions/contribution-slug.json` contains the metadata for the contribution: title, author information, links to code or live versions, etc...
+- `video-slug/showcase/` contains all metadata for contributions that viewers send and are accepted into the site to be part of the Passenger Showcase of the video.
+- `video-slug/showcase/contribution-slug.json` contains the metadata for the contribution to be showcased: title, author information, links to code or live versions, etc...
 
 ### Metadata
 
@@ -142,7 +142,7 @@ The actual values for these haven't been decided, so we are open for you to sugg
 
 If `"languages"` or `"topics"` aren't set, they will default to an empty array.
 
-#### Contributions enabling
+#### Passenger Showcase contribution enabling
 
 This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and journeys to `true`.
 
@@ -175,9 +175,9 @@ For now, `"icon"` expects a short emoji string that relates to the link. In the 
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 
-#### Contributions
+#### Passenger Showcase
 
-Contributions' metadata files (`video-slug/contributions/contribution-slug.json`) are also JSON files with the following structure that closely resembles the one suggested in the [current contribution guide](https://thecodingtrain.com/Guides/community-contribution-guide.html):
+All Passenger Showcase Contributions' should have metadata files (`video-slug/showcase/contribution-slug.json`) that are also JSON files with the following structure:
 
 ```json
 {
@@ -197,7 +197,7 @@ Similar to the current one,
 
 #### Images
 
-We also currently support the addition of images related to videos and their contributions to use in the website.
+We also currently support the addition of images related to videos and their showcase to use in the website.
 
 ```
 [videos|journeys]
@@ -205,7 +205,7 @@ We also currently support the addition of images related to videos and their con
 └─ video-slug
    ├─ index.json
    ├─ index.[png|jpg]
-   └─ contributions
+   └─ showcase
       ├─ contribution-slug-1.json
       ├─ contribution-slug-1.[png|jpg]
       ├─ contribution-slug-2.json
@@ -213,14 +213,14 @@ We also currently support the addition of images related to videos and their con
 
 ```
 
-- `video-slug/contributions/contribution-slug.[png|jpg]` is an optional image (either PNG or JPG) to add at the contributions folder of a video.
+- `video-slug/showcase/contribution-slug.[png|jpg]` is an optional image (either PNG or JPG) to add at the showcase folder of a video.
   It would be used to visually preview the contribution made by a viewer.
   It should share the file name with their corresponding contribution.
 - `video-slug/index.[png|jpg]` is an optional image (either PNG or JPG) to add at the root of a video directory.
   It will be used as visual representation of the video when listed in different pages,
-  and also as a placeholder for contributions that also don't include their own `contributions/contribution-slug.[png|jpg]` image.
+  and also as a placeholder for contributions that also don't include their own `showcase/contribution-slug.[png|jpg]` image.
 - `placeholder.[png|jpg]` is a **required** image (either PNG or JPG) to be used as a placeholder for whether a specific video doesn't include their corresponding image at `video-slug/index.[png|jpg]`.
-  This image also may be used as a placeholder for contributions that also don't include their own `contributions/contribution-slug.[png|jpg]` image and don't have a video image to fallback on.
+  This image also may be used as a placeholder for contributions that also don't include their own `showcase/contribution-slug.[png|jpg]` image and don't have a video image to fallback on.
 
 Feel free to also update the current placeholder images!
 
@@ -333,18 +333,18 @@ videos
    │  ├─ video-1-slug
    │  │  ├─ index.json
    │  │  ├─ index.[png|jpg]
-   │  │  └─ contributions
+   │  │  └─ showcase
    │  │     └─ ...
    │  └─ video-2-slug
    │     ├─ index.json
    │     ├─ index.[png|jpg]
-   │     └─ contributions
+   │     └─ showcase
    │        └─ ...
    └─ chapter-2
       ├─ video-3-slug
       │  ├─ index.json
       │  ├─ index.[png|jpg]
-      │  └─ contributions
+      │  └─ showcase
       │     └─ ...
       └─ video-4-slug
          └─ ...

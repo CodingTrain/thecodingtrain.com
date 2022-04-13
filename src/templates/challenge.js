@@ -5,7 +5,7 @@ import cn from 'classnames';
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import ContributionsPanel from '../components/ContributionsPanel';
+import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import ChallengeVideoSection from '../components/challenges/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
@@ -56,8 +56,8 @@ const Challenge = ({ data }) => {
         characterSize={0.8}
         Character={DotCharacter}
       />
-      <ContributionsPanel
-        contributions={challenge.contributions}
+      <PassengerShowcasePanel
+        contributions={challenge.showcase}
         placeholderImage={contributionsPlaceholder}
       />
       {challenge.relatedJourneys.length > 0 && (
@@ -130,7 +130,7 @@ export const query = graphql`
           description
         }
       }
-      contributions {
+      showcase {
         title
         name
         url

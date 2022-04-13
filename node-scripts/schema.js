@@ -18,7 +18,7 @@ interface VideoInterface implements Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  contributions: [Contribution!] @link
+  showcase: [Contribution!] @link
   relatedJourneys: [Journey!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
@@ -40,7 +40,7 @@ type Video implements VideoInterface & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  contributions: [Contribution!] @link
+  showcase: [Contribution!] @link
   relatedJourneys: [Journey!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
@@ -62,7 +62,7 @@ type Journey implements VideoInterface & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  contributions: [Contribution!] @link
+  showcase: [Contribution!] @link
   relatedJourneys: [Journey!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
@@ -84,7 +84,7 @@ type GuestTutorial implements VideoInterface & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  contributions: [Contribution!] @link
+  showcase: [Contribution!] @link
   relatedJourneys: [Journey!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]

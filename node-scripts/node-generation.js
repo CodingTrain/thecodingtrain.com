@@ -33,7 +33,7 @@ const parseTimestamp = (timeString) => {
 };
 
 /**
- * Creates Video and Contribution nodes from JSON file node
+ * Creates Video and Showcase Contribution nodes from JSON file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createNodeId - Gatsby's createNodeId function
  * @param {function} createContentDigest - Gatsby's createContentDigest function
@@ -52,7 +52,7 @@ exports.createVideoRelatedNode = (
   const type = camelCaseToDash(schemaType);
   const slugPrefix = type === 'video' ? '' : `${type}s/`;
   // Loaded node may be a JSON file for a contribution or a video
-  if (parent.relativePath.includes('/contributions/')) {
+  if (parent.relativePath.includes('/showcase/')) {
     const data = getJson(node);
     const name = parent.name;
     const newNode = Object.assign({}, data, {
@@ -61,7 +61,7 @@ exports.createVideoRelatedNode = (
       name,
       video: createNodeId(
         `--videos/${slugPrefix}${parent.relativeDirectory.replace(
-          '/contributions',
+          '/showcase',
           ''
         )}`
       ),
@@ -79,13 +79,13 @@ exports.createVideoRelatedNode = (
     const data = getJson(node);
     // If folder present, it reads every contribution file present in the
     // video folder so that we can get the corresponding ID's to link them
-    const contributions = fs.existsSync(`${parent.dir}/contributions`)
+    const showcase = fs.existsSync(`${parent.dir}/showcase`)
       ? fs
-          .readdirSync(`${parent.dir}/contributions`)
+          .readdirSync(`${parent.dir}/showcase`)
           .filter((file) => file.includes('.json'))
           .map(
             (file) =>
-              `${slugPrefix}${parent.relativeDirectory}/contributions/${file}`
+              `${slugPrefix}${parent.relativeDirectory}/showcase/${file}`
           )
       : [];
     const timestamps = (data.timestamps ?? []).map((timestamp) => ({
@@ -113,7 +113,7 @@ exports.createVideoRelatedNode = (
       })),
       groupLinks: data.groupLinks ?? [],
       canContribute: data.canContribute ?? schemaType === 'Challenge',
-      contributions: contributions.map((file) => createNodeId(file)),
+      showcase: showcase.map((file) => createNodeId(file)),
       relatedJourneys: (data.relatedJourneys ?? []).map((slug) =>
         createNodeId(
           `--videos/${slug.includes('journeys') ? slug : `journeys/${slug}`}`
@@ -506,7 +506,7 @@ exports.createVideoCoverImageNode = (
   const { name, relativeDirectory, extension } = node;
   if (name === 'placeholder') return;
   const slug = relativeDirectory;
-  const postfixSlug = relativeDirectory.endsWith('/contributions')
+  const postfixSlug = relativeDirectory.endsWith('/showcase')
     ? `/${name}`
     : relativeDirectory.endsWith('/images')
     ? `/${name}.${extension}`

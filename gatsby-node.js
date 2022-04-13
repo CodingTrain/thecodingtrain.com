@@ -36,7 +36,7 @@ exports.onCreateNode = ({
 
   if (owner === 'gatsby-transformer-json') {
     /**
-      Turn JSON files into Tracks, Video and Contribution nodes
+      Turn JSON files into Tracks, Video and Showcase Contribution nodes
     **/
     if (parent.sourceInstanceName === 'journeys')
       createVideoRelatedNode(
@@ -118,7 +118,7 @@ exports.onCreateNode = ({
     mediaType.includes('image')
   ) {
     /**
-      Turn image files into CoverImages for Tracks, Video and Contribution nodes
+      Turn image files into CoverImages for Tracks, Video and Showcase Contribution nodes
     **/
 
     if (
