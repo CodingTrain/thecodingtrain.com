@@ -24,7 +24,7 @@ content
 │  ├─ video-folder-1
 │  ├─ video-folder-2
 │  ├─ ...
-│  └─ journeys
+│  └─ challenges
 └─ tracks
    ├─ main-tracks
    └─ side-tracks
@@ -34,15 +34,15 @@ content
 
 Videos tackle specific themes and are part of a sequence of videos. Each video should have their own folder inside of `content/videos/`.
 
-**Journeys** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to their contributions based on the challenge or coding experiment.
-This are contained **specifically** inside of `content/videos/journeys`.
+**Challenges** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to their contributions based on the challenge or coding experiment.
+This are contained **specifically** inside of `content/videos/challenges`.
 
 <!-- - **Guest tutorials** are one-off lessons on different subjects given by guests lecturers -->
 
 Each video, whatever flavor of video they are, follow a similar folder structure:
 
 ```
-[videos|journeys]
+[videos|challenges]
 └─ video-slug
    ├─ index.json
    ├─ images
@@ -76,7 +76,7 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
-  "relatedJourneys": ["journey-1-slug", "journey-2-slug"],
+  "relatedChallenges": ["challenge-1-slug", "challenge-2-slug"],
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },
@@ -144,11 +144,11 @@ If `"languages"` or `"topics"` aren't set, they will default to an empty array.
 
 #### Passenger Showcase contribution enabling
 
-This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and journeys to `true`.
+This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and challenges to `true`.
 
-#### Related journeys
+#### Related challenges
 
-This property let's us link journeys to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a journey to correctly reference it. If it's not defined or is left empty, then no journey panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
+This property let's us link challenges to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
 
 #### Code examples
 
@@ -200,7 +200,7 @@ Similar to the current one,
 We also currently support the addition of images related to videos and their showcase to use in the website.
 
 ```
-[videos|journeys]
+[videos|challenges]
 ├─ placeholder.[png|jpg]
 └─ video-slug
    ├─ index.json
@@ -282,7 +282,7 @@ For side tracks, the required property is `"videos"`, which is a plain video seq
 {
   "title": "Side track title",
   "description": "Side track description",
-  "videos": ["video-1-slug", "journeys/video-2-slug", "video-3-slug"]
+  "videos": ["video-1-slug", "challenges/video-2-slug", "video-3-slug"]
 }
 ```
 
@@ -317,7 +317,7 @@ On the other hand, the `tracks/[main|side]-tracks/placeholder.[png|jpg]` images 
 
 ### Nested folders in video folders
 
-Because of the amount of videos, the `videos`, and `videos/journeys` folders may get very populated very quickly which can make file organization hard to query and maintain.
+Because of the amount of videos, the `videos`, and `videos/challenges` folders may get very populated very quickly which can make file organization hard to query and maintain.
 
 To help against that, video folder definitions can be further organized in arbitrary nested folders in any fashion that make sense to the content maintainers.
 When doing this, tracks and videos that reference videos in nested folders must use the whole relative path to specifically reference the video instead of just using the folder slug.
@@ -327,7 +327,7 @@ For instance, videos may be organized based on the tracks and chapters that defi
 ```
 videos
 ├─ placeholder.[png|jpg]
-├─ journeys/
+├─ challenges/
 └─ track-name
    ├─ chapter-1
    │  ├─ video-1-slug
@@ -383,7 +383,7 @@ To reference it in a track, the relative paths from `videos` should be used.
   "description": "Side track description",
   "videos": [
     "track-name/chapter-1/lesson-1-slug",
-    "journeys/video-2-slug",
+    "challenges/video-2-slug",
     "video-3-slug"
   ]
 }

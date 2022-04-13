@@ -75,7 +75,7 @@ module.exports = {
         path: './content/videos',
         ignore: [
           './**/src',
-          './**/videos/journeys/**/*',
+          './**/videos/challenges/**/*',
           './**/videos/guest-tutorials/**/*'
         ]
       },
@@ -84,11 +84,11 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'journeys',
-        path: './content/videos/journeys',
+        name: 'challenges',
+        path: './content/videos/challenges',
         ignore: [`./**/src`]
       },
-      __key: 'journeys'
+      __key: 'challenges'
     },
     // {
     //   resolve: 'gatsby-source-filesystem',

@@ -7,12 +7,12 @@ const ITEMS_PER_PAGE = 10;
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createJourneyPages = async (graphql, createPage) => {
+exports.createChallengesPages = async (graphql, createPage) => {
   const {
     data: { challenges }
   } = await graphql(`
     query {
-      challenges: allJourney {
+      challenges: allChallenge {
         nodes {
           id
           slug
@@ -71,7 +71,7 @@ exports.createJourneyPages = async (graphql, createPage) => {
         data: { filteredChallenges }
       } = await graphql(`
         query {
-          filteredChallenges: allJourney (
+          filteredChallenges: allChallenge (
             filter: {
               languagesFlat: {regex: "${langRegex}"}
               topicsFlat: {regex: "${topRegex}"}

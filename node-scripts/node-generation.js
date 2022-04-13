@@ -114,9 +114,11 @@ exports.createVideoRelatedNode = (
       groupLinks: data.groupLinks ?? [],
       canContribute: data.canContribute ?? schemaType === 'Challenge',
       showcase: showcase.map((file) => createNodeId(file)),
-      relatedJourneys: (data.relatedJourneys ?? []).map((slug) =>
+      relatedChallenges: (data.relatedChallenges ?? []).map((slug) =>
         createNodeId(
-          `--videos/${slug.includes('journeys') ? slug : `journeys/${slug}`}`
+          `--videos/${
+            slug.includes('challenges') ? slug : `challenges/${slug}`
+          }`
         )
       ),
       cover: createNodeId(`cover-image/${slugPrefix}${slug}`),

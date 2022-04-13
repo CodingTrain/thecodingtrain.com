@@ -20,7 +20,7 @@ const contentStructure = {
   folders: {
     videos: {
       folders: {
-        journeys: {
+        challenges: {
           folders: {
             '': {
               folders: {

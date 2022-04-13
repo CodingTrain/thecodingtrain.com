@@ -89,7 +89,7 @@ const Track = ({ pageContext, data }) => {
           />
         </>
       )}
-      {video.relatedJourneys.length > 0 && (
+      {video.relatedChallenges.length > 0 && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -101,7 +101,7 @@ const Track = ({ pageContext, data }) => {
             Character={PiCharacter}
           />
           <TrackChallengesPanel
-            challenges={video.relatedJourneys}
+            challenges={video.relatedChallenges}
             placeholderImage={challengesPlaceholder}
           />
         </>
@@ -206,7 +206,7 @@ export const query = graphql`
           }
         }
       }
-      relatedJourneys {
+      relatedChallenges {
         title
         slug
         videoId
@@ -251,7 +251,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

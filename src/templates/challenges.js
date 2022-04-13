@@ -115,7 +115,7 @@ const RecentChallenge = ({ challenge, placeholderImage }) => {
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
-    challenges: allJourney(
+    challenges: allChallenges(
       filter: {
         languagesFlat: { regex: $language }
         topicsFlat: { regex: $topic }
@@ -138,7 +138,10 @@ export const query = graphql`
         }
       }
     }
-    recentChallenge: allJourney(sort: { fields: date, order: DESC }, limit: 1) {
+    recentChallenge: allChallenges(
+      sort: { fields: date, order: DESC }
+      limit: 1
+    ) {
       nodes {
         title
         slug
@@ -178,7 +181,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }
