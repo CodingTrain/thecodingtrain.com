@@ -130,7 +130,7 @@ const Footer = () => {
               <Link to="/">Gallery</Link>
             </li>
             <li>
-              <Link to="/">Contribute</Link>
+              <Link to="/">Passenger Showcase</Link>
             </li>
             <li>
               <a href="https://github.com/CodingTrain">Github</a>

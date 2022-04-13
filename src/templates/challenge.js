@@ -5,7 +5,7 @@ import cn from 'classnames';
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import ContributionsPanel from '../components/ContributionsPanel';
+import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import ChallengeVideoSection from '../components/challenges/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
@@ -56,11 +56,11 @@ const Challenge = ({ data }) => {
         characterSize={0.8}
         Character={DotCharacter}
       />
-      <ContributionsPanel
-        contributions={challenge.contributions}
+      <PassengerShowcasePanel
+        contributions={challenge.showcase}
         placeholderImage={contributionsPlaceholder}
       />
-      {challenge.relatedJourneys.length > 0 && (
+      {challenge.relatedChallenges.length > 0 && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -72,7 +72,7 @@ const Challenge = ({ data }) => {
             Character={PiCharacter}
           />
           <ChallengesPanel
-            challenges={challenge.relatedJourneys}
+            challenges={challenge.relatedChallenges}
             placeholderImage={challengesPlaceholder}
           />
         </>
@@ -92,7 +92,7 @@ const Challenge = ({ data }) => {
 
 export const query = graphql`
   query ($id: String, $slug: String) {
-    challenge: journey(id: { eq: $id }) {
+    challenge: challenge(id: { eq: $id }) {
       title
       slug
       videoId
@@ -130,7 +130,7 @@ export const query = graphql`
           description
         }
       }
-      contributions {
+      showcase {
         title
         name
         url
@@ -146,7 +146,7 @@ export const query = graphql`
           }
         }
       }
-      relatedJourneys {
+      relatedChallenges {
         title
         slug
         videoId
@@ -163,7 +163,7 @@ export const query = graphql`
     }
     contributionPlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: $slug }
         name: { eq: "index" }
@@ -177,7 +177,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }
