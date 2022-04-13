@@ -34,7 +34,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'guides',
-        path: './content/guides'
+        path: './content/pages/guides'
       },
       __key: 'guides'
     },
@@ -127,7 +127,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'faqs',
-        path: './content/faqs'
+        path: './content/pages/faqs'
       },
       __key: 'faqs'
     },
@@ -143,7 +143,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'about-page-data',
-        path: './content/about'
+        path: './content/pages/about'
       },
       __key: 'about-page-data'
     }
