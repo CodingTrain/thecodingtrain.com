@@ -19,7 +19,7 @@ interface VideoInterface implements Node {
   codeExamples: [CodeExample!]
   canContribute: Boolean!
   showcase: [Contribution!] @link
-  relatedChallenge: [Challenge!] @link
+  relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
@@ -41,7 +41,7 @@ type Video implements VideoInterface & Node {
   codeExamples: [CodeExample!]
   canContribute: Boolean!
   showcase: [Contribution!] @link
-  relatedChallenge: [Challenge!] @link
+  relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
@@ -63,7 +63,7 @@ type Challenge implements VideoInterface & Node {
   codeExamples: [CodeExample!]
   canContribute: Boolean!
   showcase: [Contribution!] @link
-  relatedChallenge: [Challenge!] @link
+  relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
@@ -85,7 +85,7 @@ type GuestTutorial implements VideoInterface & Node {
   codeExamples: [CodeExample!]
   canContribute: Boolean!
   showcase: [Contribution!] @link
-  relatedChallenge: [Challenge!] @link
+  relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!

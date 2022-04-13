@@ -115,7 +115,7 @@ const RecentChallenge = ({ challenge, placeholderImage }) => {
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
-    challenges: allChallenges(
+    challenges: allChallenge(
       filter: {
         languagesFlat: { regex: $language }
         topicsFlat: { regex: $topic }
@@ -138,7 +138,7 @@ export const query = graphql`
         }
       }
     }
-    recentChallenge: allChallenges(
+    recentChallenge: allChallenge(
       sort: { fields: date, order: DESC }
       limit: 1
     ) {
