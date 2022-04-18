@@ -24,7 +24,7 @@ content
 │  ├─ video-folder-1
 │  ├─ video-folder-2
 │  ├─ ...
-│  └─ journeys
+│  └─ challenges
 └─ tracks
    ├─ main-tracks
    └─ side-tracks
@@ -34,22 +34,22 @@ content
 
 Videos tackle specific themes and are part of a sequence of videos. Each video should have their own folder inside of `content/videos/`.
 
-**Journeys** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to send contributions based on the challenge or coding experiment.
-This are contained **specifically** inside of `content/videos/journeys`.
+**Challenges** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to their contributions based on the challenge or coding experiment.
+This are contained **specifically** inside of `content/videos/challenges`.
 
 <!-- - **Guest tutorials** are one-off lessons on different subjects given by guests lecturers -->
 
 Each video, whatever flavor of video they are, follow a similar folder structure:
 
 ```
-[videos|journeys]
+[videos|challenges]
 └─ video-slug
    ├─ index.json
    ├─ images
    │  ├─ image1.png
    │  ├─ image2.jpg
    │  └─ ...
-   └─ contributions
+   └─ showcase
       ├─ contribution-slug-1.json
       ├─ contribution-slug-2.json
       └─ ...
@@ -59,8 +59,8 @@ Each video, whatever flavor of video they are, follow a similar folder structure
 - `video-slug/` contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions, and they also become part of the path to their video player pages.
 - `video-slug/index.json` contains the main metadata for the video: title, description, YouTube video ID, etc...
 - `video-slug/images/` contains images specific to the video and can be referenced in `video-slug/index.json` as code example thumbnails.
-- `video-slug/contributions/` contains all metadata for contributions that viewers send and are accepted into the site.
-- `video-slug/contributions/contribution-slug.json` contains the metadata for the contribution: title, author information, links to code or live versions, etc...
+- `video-slug/showcase/` contains all metadata for contributions that viewers send and are accepted into the site to be part of the Passenger Showcase of the video.
+- `video-slug/showcase/contribution-slug.json` contains the metadata for the contribution to be showcased: title, author information, links to code or live versions, etc...
 
 ### Metadata
 
@@ -76,7 +76,7 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
-  "relatedJourneys": ["journey-1-slug", "journey-2-slug"],
+  "relatedChallenges": ["challenge-1-slug", "challenge-2-slug"],
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },
@@ -142,13 +142,13 @@ The actual values for these haven't been decided, so we are open for you to sugg
 
 If `"languages"` or `"topics"` aren't set, they will default to an empty array.
 
-#### Contributions enabling
+#### Passenger Showcase contribution enabling
 
-This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and journeys to `true`.
+This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and challenges to `true`.
 
-#### Related journeys
+#### Related challenges
 
-This property let's us link journeys to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a journey to correctly reference it. If it's not defined or is left empty, then no journey panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
+This property let's us link challenges to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
 
 #### Code examples
 
@@ -175,9 +175,9 @@ For now, `"icon"` expects a short emoji string that relates to the link. In the 
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 
-#### Contributions
+#### Passenger Showcase
 
-Contributions' metadata files (`video-slug/contributions/contribution-slug.json`) are also JSON files with the following structure that closely resembles the one suggested in the [current contribution guide](https://thecodingtrain.com/Guides/community-contribution-guide.html):
+All Passenger Showcase Contributions' should have metadata files (`video-slug/showcase/contribution-slug.json`) that are also JSON files with the following structure:
 
 ```json
 {
@@ -197,15 +197,15 @@ Similar to the current one,
 
 #### Images
 
-We also currently support the addition of images related to videos and their contributions to use in the website.
+We also currently support the addition of images related to videos and their showcase to use in the website.
 
 ```
-[videos|journeys]
+[videos|challenges]
 ├─ placeholder.[png|jpg]
 └─ video-slug
    ├─ index.json
    ├─ index.[png|jpg]
-   └─ contributions
+   └─ showcase
       ├─ contribution-slug-1.json
       ├─ contribution-slug-1.[png|jpg]
       ├─ contribution-slug-2.json
@@ -213,14 +213,14 @@ We also currently support the addition of images related to videos and their con
 
 ```
 
-- `video-slug/contributions/contribution-slug.[png|jpg]` is an optional image (either PNG or JPG) to add at the contributions folder of a video.
+- `video-slug/showcase/contribution-slug.[png|jpg]` is an optional image (either PNG or JPG) to add at the showcase folder of a video.
   It would be used to visually preview the contribution made by a viewer.
   It should share the file name with their corresponding contribution.
 - `video-slug/index.[png|jpg]` is an optional image (either PNG or JPG) to add at the root of a video directory.
   It will be used as visual representation of the video when listed in different pages,
-  and also as a placeholder for contributions that also don't include their own `contributions/contribution-slug.[png|jpg]` image.
+  and also as a placeholder for contributions that also don't include their own `showcase/contribution-slug.[png|jpg]` image.
 - `placeholder.[png|jpg]` is a **required** image (either PNG or JPG) to be used as a placeholder for whether a specific video doesn't include their corresponding image at `video-slug/index.[png|jpg]`.
-  This image also may be used as a placeholder for contributions that also don't include their own `contributions/contribution-slug.[png|jpg]` image and don't have a video image to fallback on.
+  This image also may be used as a placeholder for contributions that also don't include their own `showcase/contribution-slug.[png|jpg]` image and don't have a video image to fallback on.
 
 Feel free to also update the current placeholder images!
 
@@ -282,7 +282,7 @@ For side tracks, the required property is `"videos"`, which is a plain video seq
 {
   "title": "Side track title",
   "description": "Side track description",
-  "videos": ["video-1-slug", "journeys/video-2-slug", "video-3-slug"]
+  "videos": ["video-1-slug", "challenges/video-2-slug", "video-3-slug"]
 }
 ```
 
@@ -317,7 +317,7 @@ On the other hand, the `tracks/[main|side]-tracks/placeholder.[png|jpg]` images 
 
 ### Nested folders in video folders
 
-Because of the amount of videos, the `videos`, and `videos/journeys` folders may get very populated very quickly which can make file organization hard to query and maintain.
+Because of the amount of videos, the `videos`, and `videos/challenges` folders may get very populated very quickly which can make file organization hard to query and maintain.
 
 To help against that, video folder definitions can be further organized in arbitrary nested folders in any fashion that make sense to the content maintainers.
 When doing this, tracks and videos that reference videos in nested folders must use the whole relative path to specifically reference the video instead of just using the folder slug.
@@ -327,24 +327,24 @@ For instance, videos may be organized based on the tracks and chapters that defi
 ```
 videos
 ├─ placeholder.[png|jpg]
-├─ journeys/
+├─ challenges/
 └─ track-name
    ├─ chapter-1
    │  ├─ video-1-slug
    │  │  ├─ index.json
    │  │  ├─ index.[png|jpg]
-   │  │  └─ contributions
+   │  │  └─ showcase
    │  │     └─ ...
    │  └─ video-2-slug
    │     ├─ index.json
    │     ├─ index.[png|jpg]
-   │     └─ contributions
+   │     └─ showcase
    │        └─ ...
    └─ chapter-2
       ├─ video-3-slug
       │  ├─ index.json
       │  ├─ index.[png|jpg]
-      │  └─ contributions
+      │  └─ showcase
       │     └─ ...
       └─ video-4-slug
          └─ ...
@@ -383,7 +383,7 @@ To reference it in a track, the relative paths from `videos` should be used.
   "description": "Side track description",
   "videos": [
     "track-name/chapter-1/lesson-1-slug",
-    "journeys/video-2-slug",
+    "challenges/video-2-slug",
     "video-3-slug"
   ]
 }

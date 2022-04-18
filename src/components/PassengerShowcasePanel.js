@@ -3,11 +3,11 @@ import React, { Fragment, memo } from 'react';
 import ButtonPanel from './ButtonPanel';
 import Image from './Image';
 
-import * as css from './ContributionsPanel.module.css';
+import * as css from './PassengerShowcasePanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-const ContributionsPanel = ({ contributions, placeholderImage }) => {
+const PassengerShowcasePanel = ({ contributions, placeholderImage }) => {
   const description =
     contributions.length > 0
       ? 'What the Coding Train community has created based on this video'
@@ -34,7 +34,7 @@ const ContributionsPanel = ({ contributions, placeholderImage }) => {
         buttonText="Submit a contribution"
         buttonLink=""
         variant="purple"
-        className={css.contribsPanel}
+        className={css.showcasePanel}
         smallWrap={true}
       />
     </div>
@@ -87,4 +87,4 @@ const Contribution = ({ contribution, placeholderImage }) => {
   );
 };
 
-export default memo(ContributionsPanel);
+export default memo(PassengerShowcasePanel);
