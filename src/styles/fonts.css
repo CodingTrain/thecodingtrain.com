@@ -6,43 +6,51 @@
   font-family: "GT Maru";
   src: url("../fonts/GT-Maru-Regular.woff2") format("woff2");
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru";
   src: url("../fonts/GT-Maru-Bold.woff2") format("woff2");
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru";
   src: url("../fonts/GT-Maru-Black.woff2") format("woff2");
   font-weight: 900;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Mega";
   src: url("../fonts/GT-Maru-Mega.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Mono";
   src: url("../fonts/GT-Maru-Mono.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Mono";
   src: url("../fonts/GT-Maru-Mono-Bold.woff2") format("woff2");
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Mono";
   src: url("../fonts/GT-Maru-Mono-Black.woff2") format("woff2");
   font-weight: 900;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Emoji";
   src: url("../fonts/GT-Maru-Emoji-Black-and-White.woff2") format("woff2");
+  font-display: swap;
 }

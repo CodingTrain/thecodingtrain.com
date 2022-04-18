@@ -3,6 +3,7 @@ import { Link, navigate } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from './Layout';
+import CharacterSpacer from './CharacterSpacer';
 import { Heading1 } from './Heading';
 import PagePanel from './PagePanel';
 import Filter from './Filter';
@@ -13,16 +14,21 @@ import { useSelectedTags } from '../hooks';
 
 import * as css from './ItemsPage.module.css';
 
-import SemiColon from '../images/SemiColon_3.svg';
-import SquareBrackets from '../images/SquareBrackets_4.svg';
+import SemiColon from '../images/characters/SemiColon_3.mini.svg';
+import ZeroCharacter from '../images/characters/Zero_4.mini.svg';
+import ZeroCharacter2 from '../images/characters/Zero_3.mini.svg';
 
 const ItemsPage = ({
   location,
   title,
   itemsPath,
   variant,
+  Character,
+  SeparatorCharacter,
+  characterOrientation,
   languages,
   topics,
+  midSection,
   children,
   showPagination,
   previousPagePath,
@@ -71,16 +77,40 @@ const ItemsPage = ({
   };
 
   return (
-    <Layout>
-      <Heading1 variant={variant}>{title}</Heading1>
+    <Layout title={title}>
+      <Spacer />
+      <div className={css.header}>
+        <Heading1 className={css.heading} variant={variant}>
+          {title}
+        </Heading1>
+        <div
+          className={cn(css.character, {
+            [css[characterOrientation]]: characterOrientation
+          })}>
+          <Character />
+        </div>
+      </div>
+
       <PagePanel
+        className={css.panel}
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
         buttonText="Start here"
-        buttonLink="#"
-        variant="purple"
+        buttonLink="/get-started"
+        variant="orange"
         bbColor={variant}
       />
+      <CharacterSpacer
+        className={css.sep}
+        variant={variant}
+        size="x2"
+        side="right"
+        offset={0.7}
+        characterSize={0.9}
+        Character={SeparatorCharacter}
+      />
+      {midSection}
+      {midSection && <Spacer />}
       <div className={css.filters} ref={filtersRef}>
         <Filter
           title="Filter by Language"
@@ -143,9 +173,18 @@ const ItemsPage = ({
             Reset filters
           </Button>
           <SemiColon className={css.semiColon} />
-          <SquareBrackets className={css.squareBrackets} />
+          <ZeroCharacter className={css.squareBrackets} />
         </div>
       )}
+      <Spacer pattern className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={ZeroCharacter2}
+      />
     </Layout>
   );
 };

@@ -58,6 +58,7 @@
     font-size: inherit;
     line-height: inherit;
     font-weight: inherit;
+    overflow: auto;
   }
 }
 

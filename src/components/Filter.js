@@ -47,24 +47,27 @@ const Filter = ({
       </div>
       <div className={css.right}>
         <div className={css.title}>
-          <h3>{title}</h3>
+          <h2>{title}</h2>
         </div>
-        <div className={cn(css.items, { [css.expanded]: expanded })}>
-          {items.map((item) => (
-            <div
-              key={item}
-              className={cn(css.item, {
-                [css.selected]:
-                  selected &&
-                  (multiple ? selected.includes(item) : item === selected)
-              })}>
-              <button onClick={() => onClick(item)}>{item}</button>
-            </div>
-          ))}
+        <div className={css.itemContainer}>
+          <div className={cn(css.items, { [css.expanded]: expanded })}>
+            {items.map((item) => (
+              <div
+                key={item}
+                className={cn(css.item, {
+                  [css.selected]:
+                    selected &&
+                    (multiple ? selected.includes(item) : item === selected)
+                })}>
+                <button onClick={() => onClick(item)}>{item}</button>
+              </div>
+            ))}
+          </div>
+          <div className={css.itemSpacer}></div>
+          <button className={css.seeMore} onClick={onExpand}>
+            {expanded ? seeLess : seeMore}
+          </button>
         </div>
-        <button className={css.seeMore} onClick={onExpand}>
-          {expanded ? seeLess : seeMore}
-        </button>
       </div>
     </div>
   );

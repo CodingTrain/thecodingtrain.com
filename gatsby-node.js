@@ -3,15 +3,20 @@ const {
   createVideoRelatedNode,
   createTrackRelatedNode,
   createTalkRelatedNode,
-  createCollaboratorNodes,
+  createFAQRelatedNode,
+  createFAQImageNode,
   createVideoCoverImageNode,
   createTrackCoverImageNode,
-  createTalkCoverImageNode
+  createTalkCoverImageNode,
+  createGuideRelatedNode,
+  createGuideCoverImageNode,
+  createAboutPageRelatedNodes,
+  createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
   createTrackVideoPages,
   createTracksPages,
-  createJourneyPages,
+  createChallengesPages,
   createGuidePages
 } = require('./node-scripts/page-generation');
 
@@ -31,16 +36,16 @@ exports.onCreateNode = ({
 
   if (owner === 'gatsby-transformer-json') {
     /**
-      Turn JSON files into Tracks, Video and Contribution nodes
+      Turn JSON files into Tracks, Video and Showcase Contribution nodes
     **/
-    if (parent.sourceInstanceName === 'journeys')
+    if (parent.sourceInstanceName === 'challenges')
       createVideoRelatedNode(
         createNode,
         createNodeId,
         createContentDigest,
         node,
         parent,
-        'Journey'
+        'Challenge'
       );
     else if (parent.sourceInstanceName === 'guest-tutorials')
       createVideoRelatedNode(
@@ -72,6 +77,14 @@ exports.onCreateNode = ({
         parent,
         parent.sourceInstanceName
       );
+    else if (parent.sourceInstanceName === 'faqs')
+      createFAQRelatedNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
     else if (parent.sourceInstanceName === 'talks')
       createTalkRelatedNode(
         createNode,
@@ -80,8 +93,8 @@ exports.onCreateNode = ({
         node,
         parent
       );
-    else if (parent.sourceInstanceName === 'collaborators')
-      createCollaboratorNodes(
+    else if (parent.sourceInstanceName === 'about-page-data')
+      createAboutPageRelatedNodes(
         createNode,
         createNodeId,
         createContentDigest,
@@ -89,18 +102,29 @@ exports.onCreateNode = ({
         parent
       );
   } else if (
+    owner === 'gatsby-plugin-mdx' &&
+    parent.sourceInstanceName === 'guides'
+  ) {
+    createGuideRelatedNode(
+      createNode,
+      createNodeId,
+      createContentDigest,
+      node,
+      parent
+    );
+  } else if (
     owner === 'gatsby-source-filesystem' &&
     mediaType !== undefined &&
     mediaType.includes('image')
   ) {
     /**
-      Turn image files into CoverImages for Tracks, Video and Contribution nodes
+      Turn image files into CoverImages for Tracks, Video and Showcase Contribution nodes
     **/
 
     if (
       node.sourceInstanceName === 'videos' ||
       node.sourceInstanceName === 'guest-tutorials' ||
-      node.sourceInstanceName === 'journeys'
+      node.sourceInstanceName === 'challenges'
     ) {
       createVideoCoverImageNode(
         createNode,
@@ -120,8 +144,24 @@ exports.onCreateNode = ({
         node,
         node.sourceInstanceName
       );
+    } else if (node.sourceInstanceName === 'faqs') {
+      createFAQImageNode(createNode, createNodeId, createContentDigest, node);
     } else if (node.sourceInstanceName === 'talks') {
       createTalkCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
+      );
+    } else if (node.sourceInstanceName === 'guides') {
+      createGuideCoverImageNode(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node
+      );
+    } else if (node.sourceInstanceName === 'about-page-data') {
+      createAboutPageCoverImageNode(
         createNode,
         createNodeId,
         createContentDigest,
@@ -135,6 +175,6 @@ exports.createPages = async function ({ actions, graphql }) {
   const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
-  await createJourneyPages(graphql, createPage);
+  await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
 };

@@ -24,6 +24,16 @@
     display: block;
   }
 
+  .simpleSep {
+    height: var(--baseline);
+    border-bottom: var(--border);
+    border-left: var(--border);
+  }
+
+  .pattern {
+    display: none;
+  }
+
   .blankSep {
     display: none;
   }
