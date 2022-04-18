@@ -33,11 +33,15 @@ const checkSlugReferences = (dir, reference, folder) => {
               test(`Checking if slug "${slug}" in ${
                 slugReferences.name
               } (${`${dir}/${file}`}) exists`, () => {
-                expect(() =>
-                  fs.readdirSync(
-                    path.join(...slugReferences.relativePath.split('/'), slug)
-                  )
-                ).not.toThrowError();
+                expect(() => {
+                  const elemPath = path.join(
+                    ...slugReferences.relativePath.split('/'),
+                    slug
+                  );
+                  elemPath.includes('.')
+                    ? fs.readFileSync(elemPath)
+                    : fs.readdirSync(elemPath);
+                }).not.toThrowError();
               });
             }
           }
@@ -58,14 +62,15 @@ const checkSlugReferences = (dir, reference, folder) => {
                   test(`Checking if slug "${slug}" in ${
                     slugReferences.name
                   } (${`${dir}/${folderFile}`}) exists`, () => {
-                    expect(() =>
-                      fs.readdirSync(
-                        path.join(
-                          ...slugReferences.relativePath.split('/'),
-                          slug
-                        )
-                      )
-                    ).not.toThrowError();
+                    expect(() => {
+                      const elemPath = path.join(
+                        ...slugReferences.relativePath.split('/'),
+                        slug
+                      );
+                      elemPath.includes('.')
+                        ? fs.readFileSync(elemPath)
+                        : fs.readdirSync(elemPath);
+                    }).not.toThrowError();
                   });
                 }
               }

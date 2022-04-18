@@ -1,0 +1,17 @@
+{
+  "sections": [
+    {
+      "title": "General questions",
+      "questions": [
+        "never-coded",
+        "i-have-a-coding-question",
+        "video-source",
+        "didnt-you-livestream"
+      ]
+    },
+    {
+      "title": "Tools",
+      "questions": ["coding-language", "code-editor", "wallpapers"]
+    }
+  ]
+}

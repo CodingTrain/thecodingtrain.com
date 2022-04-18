@@ -172,9 +172,6 @@
   .titleBox p {
     display: none;
   }
-}
-
-@media (--xsmall) {
   .challenge {
     width: 100%;
     flex-basis: 100%;

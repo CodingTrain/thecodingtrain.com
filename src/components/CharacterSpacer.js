@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
-import Character from '../images/triangle_walking.svg';
+import DefaultCharacter from '../images/characters/Triangle_4.mini.svg';
 
 import * as css from './CharacterSpacer.module.css';
 
@@ -11,15 +11,17 @@ const CharacterSpacer = ({
   size = 'x1',
   side = 'right',
   offset = 0,
-  characterSize = 1
+  characterSize = 1,
+  Character
 }) => {
+  const CharacterComponent = Character ?? DefaultCharacter;
   return (
     <div
       className={cn(css.root, className, {
         [css[size]]: size,
         [css[variant]]: variant
       })}>
-      <Character
+      <CharacterComponent
         className={cn(css.character, {
           [css.left]: side === 'left'
         })}

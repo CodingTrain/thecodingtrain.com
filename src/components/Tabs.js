@@ -5,7 +5,7 @@ import Button from './Button';
 import ShareButton from './ShareButton';
 import * as css from './Tabs.module.css';
 
-export const Tabs = ({ className, variant, labels, children, shareLink }) => {
+export const Tabs = ({ className, variant, labels, children }) => {
   const [active, setActive] = useState(0);
   const isFirstRender = useRef(true);
 

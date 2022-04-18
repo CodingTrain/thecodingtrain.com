@@ -1,0 +1,8 @@
+{
+  "question": "question",
+  "type": "general or tools",
+  "answer": {
+    "text": "Main text [link text](url).",
+    "list": ["item text [link text](url)."]
+  }
+}

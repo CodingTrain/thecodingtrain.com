@@ -1,0 +1,144 @@
+.root {
+  font-family: var(--maru-mono);
+}
+
+.titleBox {
+  position: relative;
+  z-index: 1;
+  margin-top: -2px;
+  border-top: var(--border-purple);
+  display: flex;
+  flex-wrap: wrap;
+  border-left: var(--border-purple);
+  border-bottom: var(--border-purple);
+  text-transform: uppercase;
+  color: var(--purple);
+  background-color: var(--purple-light);
+
+  & * {
+    padding: 0 var(--box-padding);
+    line-height: var(--baseline);
+    font-family: var(--maru-mono);
+    font-size: var(--maru-medium);
+  }
+
+  & h4 {
+    font-weight: 600;
+  }
+
+  & p {
+    margin: 0;
+  }
+}
+
+.contributions {
+  display: flex;
+  overflow-x: auto;
+}
+
+.contrib {
+  width: 27%;
+  flex: 0 0 27%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--maru-mono);
+  font-size: var(--maru-medium);
+}
+
+.spacer {
+  flex: 0 0 var(--box-padding);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+.spacer:last-child {
+  flex: 1 1 var(--box-padding);
+}
+
+.showcasePanel p {
+  color: var(--purple);
+}
+
+.showcasePanel button {
+  flex-basis: 50%;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--gray-mid);
+  text-transform: uppercase;
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  line-height: var(--baseline-box);
+  padding: 0 calc(var(--box-padding) / 2);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: underline;
+}
+
+.author {
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  line-height: var(--baseline-box);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 calc(var(--box-padding) / 2);
+  color: var(--gray-mid);
+}
+
+.authorName {
+  color: var(--purple);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 calc(var(--box-padding) / 2);
+}
+
+a.authorName {
+  text-decoration: underline;
+}
+
+.pictureContainer {
+  position: relative;
+  height: var(--baseline-3x);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noImage {
+  background-color: var(--gray-light);
+}
+
+.playButton {
+  position: absolute;
+  bottom: calc(var(--box-padding) / 4);
+  right: calc(var(--box-padding) / 4);
+}
+
+@media (--medium) {
+  .contrib {
+    width: 40%;
+    flex: 0 0 40%;
+  }
+}
+
+@media (--small) {
+  .titleBox p {
+    display: none;
+  }
+  .contrib {
+    width: 300px;
+    flex: 0 0 300px;
+  }
+  .pictureContainer {
+    height: var(--baseline-4x);
+  }
+}
