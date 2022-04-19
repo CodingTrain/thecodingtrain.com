@@ -39,7 +39,7 @@
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlight",
-    "featured": "journeys/77-recursion/contributions/contribution1.json",
+    "featured": "challenges/77-recursion/showcase/contribution1.json",
     "cta": {
       "text": "check it out now",
       "buttonText": "go now"

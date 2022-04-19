@@ -280,7 +280,7 @@ type TracksSection implements Node {
 type ChallengesSection implements Node {
   title: String!
   description: String!
-  featured: [Journey]! @link
+  featured: [Challenge]! @link
   challengesCta: Cta!
 }
 

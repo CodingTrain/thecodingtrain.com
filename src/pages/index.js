@@ -31,7 +31,7 @@ const TrackCard = ({ track, placeholderImage }) => {
         <div className={css.numVideos}>{numVideos} videos</div>
       </div>
       <Link to={`tracks/${slug}`}>
-        <Image
+        {/* <Image
           image={
             cover
               ? cover.file.childImageSharp.gatsbyImageData
@@ -39,7 +39,7 @@ const TrackCard = ({ track, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
-        />
+        /> */}
       </Link>
 
       <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>
@@ -59,7 +59,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         </h3>
       </div>
       <Link to={`challenge/${slug}`}>
-        <Image
+        {/* <Image
           image={
             cover
               ? cover.file.childImageSharp.gatsbyImageData
@@ -67,7 +67,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
-        />
+        /> */}
       </Link>
 
       <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>

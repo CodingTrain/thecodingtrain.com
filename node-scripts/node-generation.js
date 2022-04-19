@@ -55,19 +55,21 @@ exports.createVideoRelatedNode = (
   if (parent.relativePath.includes('/showcase/')) {
     const data = getJson(node);
     const name = parent.name;
-    console.log(
-      'CONTRIBUTION',
-      `--videos/${slugPrefix}${parent.relativeDirectory.replace(
-        '/contributions',
-        ''
-      )}`,
-      createNodeId(
-        `--videos/${slugPrefix}${parent.relativeDirectory.replace(
-          '/contributions',
-          ''
-        )}`
-      )
-    );
+    // console.log(
+    //   'CONTRIBUTION',
+    //   `${slugPrefix}${parent.relativePath}`,
+    //   createNodeId(`${slugPrefix}${parent.relativePath}`)
+    // `--videos/${slugPrefix}${parent.relativeDirectory.replace(
+    //   '/contributions',
+    //   ''
+    // )}`,
+    // createNodeId(
+    //   `--videos/${slugPrefix}${parent.relativeDirectory.replace(
+    //     '/contributions',
+    //     ''
+    //   )}`
+    // )
+    // );
     const newNode = Object.assign({}, data, {
       id: createNodeId(`${slugPrefix}${parent.relativePath}`),
       parent: node.id,
@@ -107,11 +109,11 @@ exports.createVideoRelatedNode = (
     }));
     const languages = data.languages ?? [];
     const topics = data.topics ?? [];
-    console.log(
-      'VIDEO',
-      `--videos/${slugPrefix}${slug}`,
-      createNodeId(`--videos/${slugPrefix}${slug}`)
-    );
+    // console.log(
+    //   'VIDEO',
+    //   `--videos/${slugPrefix}${slug}`,
+    //   createNodeId(`--videos/${slugPrefix}${slug}`)
+    // );
     const newNode = Object.assign({}, data, {
       id: createNodeId(`--videos/${slugPrefix}${slug}`),
       parent: node.id,
@@ -467,11 +469,11 @@ exports.createHomepageRelatedNodes = (
   parent
 ) => {
   const data = getJson(node);
-  console.log(
-    'HOMEPAGE',
-    data.passengerShowcase.featured,
-    createNodeId(data.passengerShowcase.featured)
-  );
+  // console.log(
+  //   'HOMEPAGE',
+  //   data.passengerShowcase.featured,
+  //   createNodeId(data.passengerShowcase.featured)
+  // );
   const newNode = Object.assign({}, data, {
     id: createNodeId(`--homepage`),
     parent: node.id,
@@ -484,7 +486,7 @@ exports.createHomepageRelatedNodes = (
     challenges: {
       ...data.challenges,
       featured: data.challenges.featured.map((slug) =>
-        createNodeId(`--videos/journeys/${slug}`)
+        createNodeId(`--videos/challenges/${slug}`)
       )
     },
     passengerShowcase: {
