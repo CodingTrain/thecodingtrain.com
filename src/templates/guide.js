@@ -80,7 +80,8 @@ const components = {
     />
   ),
   p: (props) => <p className={css.paragraph} {...props} />,
-  img: (props) => <img className={css.image} alt="" {...props} />,
+  img: (props) =>
+    console.log({ props }) || <img className={css.image} {...props} />,
   a: ({ children, ...props }) => (
     <a className={css.a} {...props}>
       {children}
@@ -164,6 +165,18 @@ export const query = graphql`
       tableOfContents
       frontmatter {
         title
+      }
+    }
+    images: allCoverImage(
+      filter: { file: { sourceInstanceName: { eq: "guides" } } }
+    ) {
+      nodes {
+        file {
+          relativePath
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
