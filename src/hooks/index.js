@@ -1,5 +1,6 @@
-import { useMemo, useRef, useEffect } from 'react';
+import React, { useMemo, useRef, useEffect } from 'react';
 import { passiveEventArg } from '../utils';
+
 /**
  * Takes an array of images nodes and makes a hashed object based on their names
  */
@@ -32,6 +33,36 @@ export const useSelectedTags = (pathname) => {
   const [languageFilter, topicFilter] = filterString.split('+');
   return [languageFilter.split(':')[1], topicFilter.split(':')[1]];
 };
+
+const linkRegEx = /\[[^[\]]*\]\([^()]*\)/g;
+
+export const useLinkParsedText = (text) =>
+  useMemo(() => {
+    const result = [];
+    let keyIndex = 0;
+    let currentIndex = 0;
+    let match;
+    while ((match = linkRegEx.exec(text)) !== null) {
+      result.push(
+        <span key={keyIndex}>{text.substring(currentIndex, match.index)}</span>
+      );
+      keyIndex += 1;
+      const linkText = match[0].substring(1, match[0].indexOf(']'));
+      const linkUrl = match[0].substring(
+        match[0].indexOf('(') + 1,
+        match[0].indexOf(')')
+      );
+      result.push(
+        <a key={keyIndex} href={linkUrl}>
+          {linkText}
+        </a>
+      );
+      keyIndex += 1;
+      currentIndex = linkRegEx.lastIndex;
+    }
+    result.push(text.substring(currentIndex, text.length));
+    return result;
+  }, [text]);
 
 const scrollPositions = {};
 let lastKey;
@@ -73,4 +104,23 @@ export const usePersistScrollPosition = (key, _namespace) => {
   }, [key, namespace]);
 
   return ref;
+};
+
+export const getReadableDate = (dateString) => {
+  const [year, month] = dateString.split('-');
+  const months = {
+    '01': 'jan',
+    '02': 'feb',
+    '03': 'mar',
+    '04': 'apr',
+    '05': 'may',
+    '06': 'jun',
+    '07': 'jul',
+    '08': 'aug',
+    '09': 'sep',
+    10: 'oct',
+    11: 'nov',
+    12: 'dic'
+  };
+  return `${months[month]}, ${year}`;
 };

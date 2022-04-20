@@ -1,0 +1,89 @@
+{
+  "title": "Hi! I’m Dan!",
+  "description": "Daniel Shiffman works as an Associate Arts Professor at the Interactive Telecommunications Program at NYU’s Tisch School of the Arts. He's on a mission to share creative coding with the world in a fun, approachable way. On his YouTube channel, The Coding Train, he publishes videos covering the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative algorithms like physics simulation, computer vision, and data visualization. He is also a Director of The Processing Foundation.",
+  "cover": "shiffman_rainbow.png",
+  "socials": [
+    {
+      "title": "Dan's socials",
+      "links": [
+        { "url": "https://twitter.com/shiffman", "site": "twitter" },
+        { "url": "https://github.com/shiffman", "site": "github" }
+      ]
+    },
+    {
+      "title": "Coding Train's socials",
+      "links": [
+        { "url": "https://twitter.com/thecodingtrain", "site": "twitter" },
+        {
+          "url": "https://www.instagram.com/the.coding.train",
+          "site": "instagram"
+        },
+        {
+          "url": "https://www.youtube.com/c/TheCodingTrain/",
+          "site": "youtube"
+        },
+        { "url": "https://discord.com/invite/hPuGy2g", "site": "discord" },
+        { "url": "https://github.com/CodingTrain", "site": "github" }
+      ]
+    }
+  ],
+  "featured": [
+    {
+      "title": "Image to ASCII (Coding Challenge 167)",
+      "description": "Check out the latest coding challenge, turning an image into ASCII Art with p5.js!",
+      "thumbnail": "challenge.jpg",
+      "url": "/challenge/166-image-to-ascii"
+    },
+    {
+      "title": "Mouse Learning",
+      "description": "Watch my talk on machine learning and the computer mouse for the 2021 Computer Mouse Conference!",
+      "thumbnail": "mouse-learning.png",
+      "url": "https://www.youtube.com/watch?v=h279eYIROIM"
+    },
+    {
+      "title": "Coding Train Theme",
+      "description": "Did you know there’s a Coding Train theme song and music video? ",
+      "thumbnail": "coding-train-theme.png",
+      "url": "https://www.youtube.com/watch?v=PBsUD40nPkI"
+    }
+  ],
+  "acknowledgementsText": "The Coding Train is possible thanks to the help and contributions of many people.",
+  "acknowledgements": [
+    {
+      "name": "Team",
+      "people": [
+        {
+          "name": "Editing and Video Production: Mathieu Blanchette",
+          "url": "https://mathieu.com"
+        },
+        { "name": "Illustrations and Animations: Jason Heglund" },
+        { "name": "Social Media and Community: Katie Chan" },
+        { "name": "Projects and Research: Chloe Desaulles" },
+        { "name": "Discord and GitHub: Kobe Liesenborgs" },
+        { "name": "Discord and GitHub: David Snyder" },
+        { "name": "Website Content Development: Kline Gareth" },
+        { "name": "UX Writing: Elizabeth Perez" }
+      ]
+    },
+    {
+      "name": "Moderators",
+      "people": [{ "name": "..." }]
+    },
+    {
+      "name": "Past Contributors",
+      "people": [
+        { "name": "Dusk Virkus", "url": "https://dusk.com" },
+        { "name": "Cy X" }
+      ]
+    },
+    {
+      "name": "Website",
+      "people": [
+        {
+          "name": "Design Systems International",
+          "url": "https://designsystems.international"
+        }
+      ]
+    }
+  ]
+}

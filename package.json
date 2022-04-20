@@ -19,6 +19,7 @@
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "classnames": "^2.3.1",
+    "copy-to-clipboard": "^3.3.1",
     "gatsby": "3.14.6",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-gatsby-cloud": "^3.2.1",
@@ -49,7 +50,8 @@
   "devDependencies": {
     "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "svgo": "^2.8.0"
   },
   "jest": {
     "bail": 0,

@@ -8,6 +8,20 @@
   }
 }
 
+.listSpacer.purple {
+  flex-basis: calc(50% - var(--baseline-box));
+  width: calc(50% - var(--baseline-box));
+  --color: var(--purple);
+  --border: var(--border-purple);
+  --background-color: var(--purple-light);
+  margin-top: var(--baseline-box);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  @media (--medium) {
+    display: none;
+  }
+}
+
 .root {
   flex-basis: 50%;
   width: 50%;
@@ -195,7 +209,7 @@
 }
 
 @media (--small) {
-  .bottom {
+  /* .bottom {
     flex-direction: ;
-  }
+  } */
 }

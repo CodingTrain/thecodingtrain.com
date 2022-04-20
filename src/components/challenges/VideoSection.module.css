@@ -224,6 +224,11 @@
 
   .timelinesToggle:hover {
     font-weight: 600;
+
+    & .arrow:before {
+      border-left: 2.5px solid var(--cyan);
+      border-bottom: 2.5px solid var(--cyan);
+    }
   }
 
   .arrow {

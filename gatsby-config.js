@@ -34,7 +34,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'guides',
-        path: './content/guides'
+        path: './content/pages/guides'
       },
       __key: 'guides'
     },
@@ -75,7 +75,7 @@ module.exports = {
         path: './content/videos',
         ignore: [
           './**/src',
-          './**/videos/journeys/**/*',
+          './**/videos/challenges/**/*',
           './**/videos/guest-tutorials/**/*'
         ]
       },
@@ -84,11 +84,11 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'journeys',
-        path: './content/videos/journeys',
+        name: 'challenges',
+        path: './content/videos/challenges',
         ignore: [`./**/src`]
       },
-      __key: 'journeys'
+      __key: 'challenges'
     },
     // {
     //   resolve: 'gatsby-source-filesystem',
@@ -126,10 +126,10 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'collaborators',
-        path: './content/collaborators.json'
+        name: 'faqs',
+        path: './content/pages/faqs'
       },
-      __key: 'collaborators'
+      __key: 'faqs'
     },
     {
       resolve: 'gatsby-plugin-react-svg',
@@ -138,6 +138,14 @@ module.exports = {
           include: './src/images'
         }
       }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'about-page-data',
+        path: './content/pages/about'
+      },
+      __key: 'about-page-data'
     }
   ]
 };

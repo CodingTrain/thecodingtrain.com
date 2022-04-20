@@ -1,14 +1,21 @@
 import React, { Fragment } from 'react';
-import { graphql } from 'gatsby';
-
-import Card from '../components/challenges/Card';
+import { graphql, Link } from 'gatsby';
 
 import ItemsPage from '../components/ItemsPage';
+import Image from '../components/Image';
+import Card from '../components/challenges/Card';
+
+import PlayButton from '../images/playbutton.svg';
+import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
+import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
+
+import { getReadableDate } from '../hooks';
 
 import * as css from './challenges.module.css';
 
 const ChallengesPage = ({ data, pageContext, location }) => {
   const challenges = data.challenges.nodes;
+  const recentChallenge = data.recentChallenge.nodes[0];
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
 
@@ -23,8 +30,17 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       location={location}
       itemsPath="challenges"
       variant="cyan"
+      Character={BracketsCharacter}
+      SeparatorCharacter={BracketsCharacter2}
+      characterOrientation="left"
       languages={languages}
       topics={topics}
+      midSection={
+        <RecentChallenge
+          challenge={recentChallenge}
+          placeholderImage={challengesPlaceholder}
+        />
+      }
       showPagination={challenges.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
@@ -50,9 +66,56 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   );
 };
 
+const RecentChallenge = ({ challenge, placeholderImage }) => {
+  const { title, date, slug, description, cover } = challenge;
+  return (
+    <div className={css.recentChallenge}>
+      <div className={css.left}>
+        <div className={css.info}>
+          <h2 className={css.heading}>
+            Check out our newest challenge: <br />
+            {title}
+          </h2>
+          <p>{description}</p>
+        </div>
+        <div className={css.bottom}>
+          <p>{getReadableDate(date)}</p>
+          <Link
+            className={css.play}
+            to={`/challenge/${slug}`}
+            aria-label={title}>
+            <PlayButton />
+          </Link>
+        </div>
+      </div>
+      <div className={css.right}>
+        <Link to={`/challenge/${slug}`}>
+          {cover ? (
+            <Image
+              image={cover.file.childImageSharp.gatsbyImageData}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+              alt={title}
+            />
+          ) : placeholderImage ? (
+            <Image
+              image={placeholderImage}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+              alt={title}
+            />
+          ) : (
+            <div aria-label={title} style={{ width: '100%', height: '100%' }} />
+          )}
+        </Link>
+      </div>
+    </div>
+  );
+};
+
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
-    challenges: allJourney(
+    challenges: allChallenge(
       filter: {
         languagesFlat: { regex: $language }
         topicsFlat: { regex: $topic }
@@ -60,6 +123,24 @@ export const query = graphql`
       sort: { order: DESC, fields: date }
       skip: $skip
       limit: $limit
+    ) {
+      nodes {
+        title
+        slug
+        description
+        date
+        cover {
+          file {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }
+    recentChallenge: allChallenge(
+      sort: { fields: date, order: DESC }
+      limit: 1
     ) {
       nodes {
         title
@@ -100,7 +181,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

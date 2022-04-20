@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
+
 import cn from 'classnames';
 
 import * as css from './Footer.module.css';
@@ -54,16 +54,14 @@ const Footer = () => {
 
       <div className={cn(css.box)}>
         <h3>
-          <a href="#">Passenger Showcase!</a>
+          <Link to="/showcase">Passenger Showcase!</Link>
         </h3>
         <div className={css.action}>
           <p>
             What have you been inspired to make watching The Coding Train? Share
             your work and have it featured on this site!
           </p>
-          <Link
-            className={css.cta}
-            href="/guides/community-contribution-guide/">
+          <Link className={css.cta} to="/guides/community-contribution-guide/">
             Learn how to submit
           </Link>
         </div>
@@ -147,7 +145,7 @@ const Footer = () => {
         <ul>
           <li className={css.title}>Passengers</li>
           <li>
-            <a href="/showcase">Showcase</a>
+            <Link to="/showcase">Showcase</Link>
           </li>
           <li>
             <a href="https://discord.com/invite/hPuGy2g">Discord</a>
@@ -186,38 +184,6 @@ const Footer = () => {
             </a>
             .
           </p>
-        </div>
-      </div>
-      <div className={css.logos}>
-        <div>Friends of Coding Train</div>
-        <div>
-          <StaticImage
-            src="../images/nyu.png"
-            alt=""
-            width={150}
-            objectFit="contain"
-            className={css.image}
-          />
-          <p>NYU creative grant 2018-present</p>
-        </div>
-        <div>
-          <StaticImage
-            src="../images/itp.png"
-            alt=""
-            objectFit="contain"
-            width={150}
-            className={css.image}
-          />
-          <p>ITP research fellowship mentorship</p>
-        </div>
-        <div>
-          <StaticImage
-            src="../images/google.png"
-            alt=""
-            width={150}
-            objectFit="contain"
-            className={css.image}
-          />
         </div>
       </div>
 

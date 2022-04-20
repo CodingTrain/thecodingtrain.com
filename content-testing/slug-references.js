@@ -1,7 +1,7 @@
 const video = {
   name: 'video',
-  getSlugs: (video) => video.relatedJourneys ?? [],
-  relativePath: './content/videos/journeys'
+  getSlugs: (video) => video.relatedChallenges ?? [],
+  relativePath: './content/videos/challenges'
 };
 
 const mainTrack = {
@@ -21,8 +21,21 @@ const sideTrack = {
   relativePath: './content/videos'
 };
 
+const faqsOrder = {
+  name: 'faq order',
+  getSlugs: (order) => {
+    let slugs = [];
+    (order.sections ?? []).forEach((section) => {
+      slugs = [...slugs, ...section.questions];
+    });
+    return slugs.map((s) => `${s}.json`);
+  },
+  relativePath: './content/pages/faqs'
+};
+
 module.exports = {
   video,
   mainTrack,
-  sideTrack
+  sideTrack,
+  faqsOrder
 };

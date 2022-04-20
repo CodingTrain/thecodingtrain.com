@@ -4,26 +4,9 @@ import cn from 'classnames';
 
 import Image from '../Image';
 
-import * as css from './Card.module.css';
+import { getReadableDate } from '../../hooks';
 
-const getReadableDate = (dateString) => {
-  const [year, month] = dateString.split('-');
-  const months = {
-    '01': 'jan',
-    '02': 'feb',
-    '03': 'mar',
-    '04': 'apr',
-    '05': 'may',
-    '06': 'jun',
-    '07': 'jul',
-    '08': 'aug',
-    '09': 'sep',
-    10: 'oct',
-    11: 'nov',
-    12: 'dic'
-  };
-  return `${months[month]}, ${year}`;
-};
+import * as css from './Card.module.css';
 
 const Card = ({ className, challenge, placeholderImage }) => {
   const { title, cover, description, date, slug } = challenge;
@@ -51,15 +34,20 @@ const Card = ({ className, challenge, placeholderImage }) => {
                 image={cover.file.childImageSharp.gatsbyImageData}
                 pictureClassName={css.picture}
                 imgClassName={css.image}
+                alt={title}
               />
             ) : placeholderImage ? (
               <Image
                 image={placeholderImage}
                 pictureClassName={css.picture}
                 imgClassName={css.image}
+                alt={title}
               />
             ) : (
-              <div style={{ width: '100%', height: '100%' }} />
+              <div
+                aria-label={title}
+                style={{ width: '100%', height: '100%' }}
+              />
             )}
           </Link>
         </div>

@@ -3,15 +3,19 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import ContributionsPanel from '../components/ContributionsPanel';
+import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import ChallengeVideoSection from '../components/challenges/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
-import CharacterSpacer from '../components/CharacterSpacer';
 
 import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
+
+import DotCharacter from '../images/characters/ThisDot_2.mini.svg';
+import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
+import Asterisk from '../images/characters/Asterik_2.mini.svg';
 
 const Challenge = ({ data }) => {
   const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
@@ -25,7 +29,7 @@ const Challenge = ({ data }) => {
       ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : challengesPlaceholder;
   return (
-    <Layout>
+    <Layout title={challenge.title}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -34,23 +38,29 @@ const Challenge = ({ data }) => {
         ]}
         variant="cyan"
       />
+      <div className={css.simpleSep} />
       <ChallengeVideoSection challenge={challenge} />
       <div className={css.blankSep} />
-      <VideoInfo video={challenge} variant="cyan" />
+      <VideoInfo
+        video={challenge}
+        variant="cyan"
+        url={`/challenges/${challenge.slug}`}
+      />
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}
         variant="purple"
-        size="x2"
+        size="x3"
         side="left"
-        offset={0.5}
-        characterSize={0.7}
+        offset={0.7}
+        characterSize={0.8}
+        Character={DotCharacter}
       />
-      <ContributionsPanel
-        contributions={challenge.contributions}
+      <PassengerShowcasePanel
+        contributions={challenge.showcase}
         placeholderImage={contributionsPlaceholder}
       />
-      {challenge.relatedJourneys.length > 0 && (
+      {challenge.relatedChallenges.length > 0 && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -59,21 +69,30 @@ const Challenge = ({ data }) => {
             size="x3"
             side="right"
             offset={0.7}
+            Character={PiCharacter}
           />
           <ChallengesPanel
-            challenges={challenge.relatedJourneys}
+            challenges={challenge.relatedChallenges}
             placeholderImage={challengesPlaceholder}
           />
         </>
       )}
       <div className={cn(pattern, css.pattern)} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x4"
+        side="right"
+        offset={0.42}
+        characterSize={0.9}
+        Character={Asterisk}
+      />
     </Layout>
   );
 };
 
 export const query = graphql`
   query ($id: String, $slug: String) {
-    challenge: journey(id: { eq: $id }) {
+    challenge: challenge(id: { eq: $id }) {
       title
       slug
       videoId
@@ -111,7 +130,7 @@ export const query = graphql`
           description
         }
       }
-      contributions {
+      showcase {
         title
         name
         url
@@ -127,7 +146,7 @@ export const query = graphql`
           }
         }
       }
-      relatedJourneys {
+      relatedChallenges {
         title
         slug
         videoId
@@ -144,7 +163,7 @@ export const query = graphql`
     }
     contributionPlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: $slug }
         name: { eq: "index" }
@@ -158,7 +177,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

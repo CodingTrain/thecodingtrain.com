@@ -254,6 +254,9 @@
 
   .progress {
     margin: 0 0 0 var(--box-padding);
+    width: 60px;
+    display: flex;
+    justify-content: center;
   }
 
   .back {
