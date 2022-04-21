@@ -1,0 +1,9 @@
+{
+  "title": "Contribution Title",
+  "author": {
+    "name": "Contributor Name",
+    "url": "Link to contributor's personal site, GitHub, social media, etc"
+  },
+  "url": "Link to contribution",
+  "source": "Link to contribution's source code"
+}
