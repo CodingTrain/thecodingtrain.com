@@ -5,5 +5,27 @@
   "topics": ["For beginners"],
   "videoId": "okfZRl4Xw-c",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Additive Waves",
+      "description": "Using a Wave class to trace a moving additive wave with ellipses",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qcRsZ_O5a"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Simple Pendulum Simulation",
+          "url": "https://thecodingtrain.com/CodingChallenges/159-simple-pendulum-simulation",
+          "description": "Coding Train challenge on simulating a pendulum in p5js"
+        }
+      ]
+    }
   ]
 }

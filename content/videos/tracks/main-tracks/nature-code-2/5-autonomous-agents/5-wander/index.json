@@ -5,5 +5,77 @@
   "topics": ["For beginners"],
   "videoId": "ujsR2vcJlLk",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Main",
+      "description": "Using the wander steering behavior to move an vehicle",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/LVtVlS52Q"
+      }
+    },
+    {
+      "title": "With Sliders",
+      "description": "Adding sliders to adjust the wander steering behavior",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/uxemh7FGc"
+      }
+    },
+    {
+      "title": "Deleting Positions",
+      "description": "Using an array to draw a trail behind the vehicle, then removing stored positions over time",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EWHjy--Os"
+      }
+    },
+    {
+      "title": "3D",
+      "description": "Implementing the wander steering behavior in 3D",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/t6sFXmVrk"
+      }
+    },
+    {
+      "title": "Displacement (From Paper)",
+      "description": "Using the displacement variation of the wander behavior described in Reynolds' paper",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/VdHUvgHkm"
+      }
+    },
+    {
+      "title": "Perlin Noise",
+      "description": "Using Perin Noise to determine the wander steering angle",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/XH2DtikuI"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Steering Behaviors for Autonomous Characters",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "Craig Reynolds' paper on different styles of steering behaviors for characters in animation and games"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Polar Coordinates",
+          "url": "https://thecodingtrain.com/learning/nature-of-code/3.4-polar-coordinates",
+          "description": "Nature of Code video on using polar coordinates in p5.js"
+        }
+      ]
+    }
   ]
 }

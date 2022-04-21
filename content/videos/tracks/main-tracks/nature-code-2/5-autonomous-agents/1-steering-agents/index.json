@@ -5,5 +5,42 @@
   "topics": ["For beginners"],
   "videoId": "P_xJMH8VvAE",
   "timestamps": [
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Autonomous Agents",
+          "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
+          "description": "Link to Autonomous Agents chapter of the Nature of Code book"
+        },
+        {
+          "title": "Vehicles: Experiments in Synthetic Psychology (MIT Press)",
+          "url": "link 2 url",
+          "description": "Valentino Baitenberg's book of thought experiments on autonomous vehicles"
+        },
+        {
+          "title": "Steering Behaviors for Autonomous Characters",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "Craig Reynolds' paper on different styles of steering behaviors for characters in animation and games"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Steering Behaviors",
+          "url": "https://thecodingtrain.com/CodingChallenges/059-steering-text-paths",
+          "description": "Coding Challenge to make reactive text out of autonomous particles"
+        },
+        {
+          "title": "Flocking Simulation",
+          "url": "https://thecodingtrain.com/CodingChallenges/124-flocking-boids",
+          "description": "Coding Challenge to simulate a flock using the boids algorithm"
+        }
+      ]
+    }
   ]
 }

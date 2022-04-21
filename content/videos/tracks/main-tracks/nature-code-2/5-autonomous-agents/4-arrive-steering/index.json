@@ -5,5 +5,27 @@
   "topics": ["For beginners"],
   "videoId": "OxHJ-o_bbzs",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Arrive",
+      "description": "Using the arrive steering method to code an agent that arrives at the mouse's position",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/1eUnUQnwB"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Steering Behaviors for Autonomous Characters",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "Craig Reynolds' paper on different styles of steering behaviors for characters in animation and games"
+        }
+      ]
+    }
   ]
 }

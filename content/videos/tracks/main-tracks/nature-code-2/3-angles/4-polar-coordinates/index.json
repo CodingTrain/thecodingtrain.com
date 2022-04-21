@@ -4,6 +4,83 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "O5wjXoFrau4",
+  "canContribute": true,
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Basic Polar Coordinates",
+      "description": "A simple example of using polar coordinates in p5.js",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/DHetsOfgz"
+      }
+    },
+    {
+      "title": "Spiral",
+      "description": "Using polar coordinates to draw a spiral",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/BnJ_4U4cr"
+      }
+    },
+    {
+      "title": "Random Trail",
+      "description": "Drawing a glowing trail with polar coordinates",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/WqK-qD1vU"
+      }
+    },
+    {
+      "title": "Circular Shape",
+      "description": "Drawing a random circular shape with polar coordinates",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/s10TQXDZv"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "sin()",
+          "url": "https://p5js.org/reference/#/p5/sin",
+          "description": "p5.js reference entry on the sin() function"
+        },
+        {
+          "title": "cos()",
+          "url": "https://p5js.org/reference/#/p5/cos",
+          "description": "p5.js reference entry on the cos() function"
+        },
+        {
+          "title": "tan()",
+          "url": "https://p5js.org/reference/#/p5/tan",
+          "description": "p5.js reference entry on the tan() function"
+        }
+	  ]
+	},
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "3.1 Angles and Rotation",
+          "url": "https://thecodingtrain.com/learning/nature-of-code/3.1-angles-rotation",
+          "description": "Nature of Code video on angles and rotation"
+        },
+        {
+          "title": "Asteroids with p5.js",
+          "url": "https://thecodingtrain.com/CodingChallenges/046.1-asteroids-part-1",
+          "description": "Coding challenge on making asteroids in p5.js"
+        },
+        {
+          "title": "Polar Perlin Noise Loops",
+          "url": "https://thecodingtrain.com/CodingChallenges/136.1-polar-perlin-noise-loops",
+          "description": "Coding challenge on Perlin noise loops with polar coordinates"
+        }
+      ]
+    }
   ]
 }

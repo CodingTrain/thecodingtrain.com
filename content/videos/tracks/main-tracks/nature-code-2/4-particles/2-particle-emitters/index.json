@@ -5,5 +5,66 @@
   "topics": ["For beginners"],
   "videoId": "wDYD3JVtOys",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Particle Emitters",
+      "description": "Spawning a new particle emitter on clicking the screen",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/YqAxA5CYy"
+      }
+    },
+    {
+      "title": "Particle Emitters with Movers Exercise",
+      "description": "Adding fire particle effects to an array of movers",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/UXmqwcpRL"
+      }
+    },
+    {
+      "title": "Particles Following Mouse Exercise",
+      "description": "Making a particle emitter that follows the mouse",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/1zTN6PYJg"
+      }
+    },
+    {
+      "title": "Particle Emitters Color Exercise",
+      "description": "Clicking on the screen to make a new emitter with a random color",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IYisp9xmJ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Angles and Rotation",
+          "url": "https://thecodingtrain.com/learning/nature-of-code/3.1-angles-rotation",
+          "description": "Nature of Code video on the basics of angles and rotation in p5.js"
+        },
+        {
+          "title": "Fireworks!",
+          "url": "https://thecodingtrain.com/CodingChallenges/027-fireworks",
+          "description": "July 4th themed Coding Challenge to build a fireworks simulation in p5.js and Processing"
+        },
+        {
+          "title": "Inheritance in JavaScript",
+          "url": "https://thecodingtrain.com/Tutorials/16-javascript-es6/16.17-inheritance",
+          "description": "Coding Train video on inheritance in Object-Oriented Programming and JavaScript ES6"
+        },
+        {
+          "title": "Polymorphism in JavaScript",
+          "url": "https://thecodingtrain.com/Tutorials/16-javascript-es6/16.18-polymorphism",
+          "description": "Coding Train video on polymorphism in Object-Oriented Programming and JavaScript ES6"
+        }
+      ]
+    }
   ]
 }

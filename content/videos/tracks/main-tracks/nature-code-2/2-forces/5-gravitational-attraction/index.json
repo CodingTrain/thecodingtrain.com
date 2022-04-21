@@ -5,5 +5,55 @@
   "topics": ["For beginners"],
   "videoId": "EpgB3cNhKPM",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Gravitational Attraction",
+      "description": "Simulating gravitational attraction between objects",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/MkLraatd"
+      }
+    },
+    {
+      "title": "Attraction Exercise",
+      "description": "Creating attractor objects with positive and negative gravity force",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ImehzZuCU"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Newton's law of universal gravitation",
+          "url": "https://en.wikipedia.org/wiki/Newton's_law_of_universal_gravitation",
+          "description": "Wikipedia entry on Newton's law of universal gravitation"
+        },
+        {
+          "title": "2.9 Gravitational Attraction",
+          "url": "https://natureofcode.com/book/chapter-2-forces/#29-gravitational-attraction",
+          "description": "Link to chapter 2.9 of the Nature of Code book"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Acceleration Vector",
+          "url": "https://youtu.be/T84AWnntxZA",
+          "description": "Coding Train video on adding an acceleration vector to a Mover object"
+        },
+        {
+          "title": "Attraction and Repulsion Forces",
+          "url": "https://thecodingtrain.com/CodingChallenges/056-attraction-repulsion",
+          "description": "Coding challenge on attraction and repulsion forces"
+        }
+      ]
+    }
   ]
 }

@@ -5,5 +5,32 @@
   "topics": ["For beginners"],
   "videoId": "44RSr49m6LU",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Particle System Inheritance",
+      "description": "Creating a confetti class that inherits methods from a parent emitter class",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/vYgv7Xagg"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Inheritance in JavaScript",
+          "url": "https://thecodingtrain.com/Tutorials/16-javascript-es6/16.17-inheritance",
+          "description": "Coding Train video on inheritance in Object-Oriented Programming and JavaScript ES6"
+        },
+        {
+          "title": "Polymorphism in JavaScript",
+          "url": "https://thecodingtrain.com/Tutorials/16-javascript-es6/16.18-polymorphism",
+          "description": "Coding Train video on polymorphism in Object-Oriented Programming and JavaScript ES6"
+        }
+      ]
+    }
   ]
 }
