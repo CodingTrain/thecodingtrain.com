@@ -55,12 +55,12 @@
       "links": [
         {
           "title": "3D Rendering with Rotation and Projection",
-          "url": "https://thecodingtrain.com/CodingChallenges/112-3d-rendering",
+          "url": "https://youtu.be/p4Iz0XJY-Qk",
           "description": "Coding Challenge to render a 3D cube in 2D using rotation and projection matrices in Processing"
         },
         {
           "title": "Unit Vector (Normalize)",
-          "url": "https://thecodingtrain.com/learning/nature-of-code/1.5-unit-vector",
+          "url": "https://youtu.be/ttz05d8DSOs",
           "description": "Nature of Code video on the unit vector concept and how to normalize vectors in p5.js"
         },
         {
