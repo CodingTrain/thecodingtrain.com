@@ -5,5 +5,70 @@
   "topics": ["For beginners"],
   "videoId": "DHPfoqiE4yQ",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Angle Between",
+      "description": "Calculating the angle between the mouse and a line on the canvas",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ORP5Yx7JX"
+      }
+    },
+    {
+      "title": "Scalar Projection",
+      "description": "Projecting a point under the mouse onto a line",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/c4jmHLFQI"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Path Following",
+          "url": "https://editor.p5js.org/natureofcode/sketches/SkMI894DX",
+          "description": "Nature of Code example on making vehicles follow a path"
+        },
+        {
+          "title": "Steering Behaviors for Autonomous Characters",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "Craig Reynolds' paper on different styles of steering behaviors for characters in animation and games"
+        },
+        {
+          "title": "Scalar Projection",
+          "url": "https://en.wikipedia.org/wiki/Scalar_projection",
+          "description": "Wikipedia entry on scalar projection"
+        },
+        {
+          "title": "Vector Projection",
+          "url": "https://en.wikipedia.org/wiki/Vector_projection",
+          "description": "Wikipedia entry on vector projection"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "3D Rendering with Rotation and Projection",
+          "url": "https://youtu.be/p4Iz0XJY-Qk",
+          "description": "Coding Challenge to render a 3D cube in 2D using rotation and projection matrices in Processing"
+        },
+        {
+          "title": "Unit Vector (Normalize)",
+          "url": "https://youtu.be/ttz05d8DSOs",
+          "description": "Nature of Code video on the unit vector concept and how to normalize vectors in p5.js"
+        },
+        {
+          "title": "Dot products and duality",
+          "url": "https://youtu.be/LyGKycYT2v0",
+          "description": "3Blue1Brown Essence of linear algebra video on dot products and duality"
+        }
+      ]
+    }
   ]
 }

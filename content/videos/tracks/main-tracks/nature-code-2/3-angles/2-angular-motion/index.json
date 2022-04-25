@@ -4,6 +4,50 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "i2ROE_mAhU0",
+  "canContribute": true,
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Rectangle Acceleration",
+      "description": "Demonstrating acceleration of angular motion on a rectangle",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/RR9XUN1mf"
+      }
+    },
+    {
+      "title": "Rectangle Grab Exercise",
+      "description": "Clicking and dragging to change a rectangle's angular momentum",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/In9e8j6t_"
+      }
+    },
+    {
+      "title": "Gravitational Attraction",
+      "description": "Adding angular motion to a previous sketch demonstrating gravitational attraction",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Y-yxvkkZk"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "2.5 Gravitational Attraction",
+          "url": "https://youtu.be/EpgB3cNhKPM",
+          "description": "Nature of Code video on gravitational attraction"
+        },
+        {
+          "title": "Transformations (Translate, Rotate, Push/Pop) - Part 1",
+          "url": "https://youtu.be/o9sgjuh-CBM",
+          "description": "Coding Train video on transformations in p5.js"
+        }
+      ]
+    }
   ]
 }

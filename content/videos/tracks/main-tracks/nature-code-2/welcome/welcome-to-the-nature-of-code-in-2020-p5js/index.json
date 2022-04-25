@@ -1,41 +1,30 @@
 {
   "title": "Welcome to The Nature of Code 2.0 in 2020 (p5.js!)",
-  "description": "Welcome to the Nature of Code 2.0 ! In this video, I go over the playlist and introduce the content to come. ",
+  "description": "Welcome to the Nature of Code 2.0! In this video, I go over the playlist and introduce the content to come.",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "70MQ-FugwbI",
   "timestamps": [],
   "groupLinks": [
     {
-      "title": "Links discussed",
+      "title": "References",
       "links": [
         {
-          "title": "#SupportP5 2020",
-          "url": "https://donorbox.org/supportp52020",
-          "description": "by p5js"
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "Link to the Nature of Code Book"
         },
         {
-          "title": "Self Avoiding Walk - Coding Challenge 162",
-          "description": "by The Coding Train",
-          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+          "title": "Nature of Code GitHub",
+          "url": "https://github.com/nature-of-code",
+          "description": "Where the Nature of Code syllabus and examples live"
         },
         {
-          "title": "#SupportP5 2020",
-          "url": "https://donorbox.org/supportp52020"
-        },
-        {
-          "title": "bezier() - p5.js Reference",
-          "url": "https://p5js.org/reference/#/p5/bezier",
-          "description": "by p5js"
-        },
-        {
-          "title": "Self Avoiding Walk - Coding Challenge 162",
-          "description": "by The Coding Train",
-          "url": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+          "title": "Kadenze Nature of Code Course",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "Full Nature of Code certificate course on Kadenze"
         }
       ]
     }
-  ],
-  "canContribute": true,
-  "relatedChallenges": ["16-l-system-fractal-trees", "163-bezier-curves"]
+  ]
 }

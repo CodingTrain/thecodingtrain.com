@@ -9,7 +9,7 @@
   "codeExamples": [
     {
       "title": "What is a Vector",
-      "description": "Coding example for NoC 1.1",
+      "description": "Creating a walker object that moves along a random vector while drawing on the canvas",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/JmEToUfk"
@@ -17,5 +17,30 @@
     }
   ],
   "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "The Nature of Code Vectors",
+          "url": "https://natureofcode.com/book/chapter-1-vectors/",
+          "description": "The Nature of Code Book chapter on vectors"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Coding Challenge 52 - Random Walker",
+          "url": "https://www.youtube.com/watch?v=l__fEY1xanY",
+          "description": "Random Walker Coding Challenge on the Coding Train YouTube channel"
+        },
+        {
+          "title": "Classes in JavaScript with ES6",
+          "url": "https://www.youtube.com/watch?v=T-HGdc8L-7w",
+          "description": "Video on JavaScript Classes on the Coding Train YouTube channel"
+        }
+      ]
+    }
   ]
 }
