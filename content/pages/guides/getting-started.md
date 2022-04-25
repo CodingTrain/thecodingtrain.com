@@ -8,8 +8,6 @@ date: '04/19/2022'
 
 If you’re new to coding, getting started can feel overwhelming, hopefully this passenger guide will help you with everything you need to begin!
 
-[![How to add your contribution](/placeholder.png)](https://youtu.be/fkIr0inoQ7Y)
-
 ## Languages
 
 In almost all of the videos, you’ll find me using [Processing](https://processing.org/) or [p5.js](http://p5js.org/). Processing is a software sketchbook and language (built on top of Java) for learning how to code within the context of the visual arts. p5.js is a JavaScript library that comes with a friendly online web editor for creative coding. Both projects are maintained by [The Processing Foundation](https://processingfoundation.org/).
@@ -24,17 +22,21 @@ For a beginner, I recommend the [p5.js web editor](https://editor.p5js.org/), it
 
 There are two main tracks you can follow for total and complete beginners.
 
-Code! Programming with p5.js
-[Embed First video – or Track thumbnail links to track page?]
+### Code! Programming with p5.js
+
+[![Code! Programming with p5.js](/code-thumbnail.png)](/tracks/code-programming-with-p5-js)
+
 This track focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) with JavaScript.
 
-Learning Processing
-[Embed First video – or Track thumbnail links to track page?]
+### Learning Processing
+
+[![Learning Processing](/learning-processing-thumbnail.jpg)](https://youtu.be/2VLaIr5Ckbs)
+
 This track was recorded over 10 years ago (!!) but the concepts and syntax remain the same today. It follows the textbook [Learning Processing](http://learningprocessing.com/) to walk you through all the basics of coding in Java with Processing.
 
 ## Version Control
 
-[Embed First video – or Track thumbnail links to track page?]
+[![Workflow: Git](/git-thumbnail.png)](https://youtu.be/_sLgRBrZh6o)
 
 Working with “version control” software (like [git](https://git-scm.com/)) and collaborating on platforms like [GitHub](https://github.com/) can be a confusing and intimidating experience when you are first beginning! It’s not something you need to learn immediately, you can stick with p5.js and the basics of coding for quite some time first!
 
@@ -42,6 +44,6 @@ When you have some code you want to share or publish online outside of the web e
 
 You might also take a ride on the “Git and GitHub for Poets” track for a primer on version control and the difference between git software and the GitHub website.
 
-[Embed First video – or Track thumbnail links to track page?]
+[![Git and GitHub for Poets](/git-for-poets-thumbnail.png)](https://youtu.be/_sLgRBrZh6o)
 
 The videos cover terminology like branch, fork, merge, pull, push, and remote. There’s even [a friendly “playground repository”](https://github.com/CodingTrain/Rainbow-Poem) for you to make your first pull request!
