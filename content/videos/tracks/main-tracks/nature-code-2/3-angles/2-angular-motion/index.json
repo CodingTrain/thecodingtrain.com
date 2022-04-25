@@ -39,12 +39,12 @@
       "links": [
         {
           "title": "2.5 Gravitational Attraction",
-          "url": "https://thecodingtrain.com/learning/nature-of-code/2.5-gravitational-attraction",
+          "url": "https://youtu.be/EpgB3cNhKPM",
           "description": "Nature of Code video on gravitational attraction"
         },
         {
           "title": "Transformations (Translate, Rotate, Push/Pop) - Part 1",
-          "url": "https://thecodingtrain.com/Tutorials/9-additional-topics/9.1-transformations-part-1",
+          "url": "https://youtu.be/o9sgjuh-CBM",
           "description": "Coding Train video on transformations in p5.js"
         }
       ]

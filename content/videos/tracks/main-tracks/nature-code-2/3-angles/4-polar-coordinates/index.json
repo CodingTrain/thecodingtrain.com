@@ -67,17 +67,17 @@
       "links": [
         {
           "title": "3.1 Angles and Rotation",
-          "url": "https://thecodingtrain.com/learning/nature-of-code/3.1-angles-rotation",
+          "url": "https://youtu.be/DMg-WRfNB60",
           "description": "Nature of Code video on angles and rotation"
         },
         {
           "title": "Asteroids with p5.js",
-          "url": "https://thecodingtrain.com/CodingChallenges/046.1-asteroids-part-1",
+          "url": "https://youtu.be/hacZU523FyM",
           "description": "Coding challenge on making asteroids in p5.js"
         },
         {
           "title": "Polar Perlin Noise Loops",
-          "url": "https://thecodingtrain.com/CodingChallenges/136.1-polar-perlin-noise-loops",
+          "url": "https://youtu.be/ZI1dmHv3MeM",
           "description": "Coding challenge on Perlin noise loops with polar coordinates"
         }
       ]

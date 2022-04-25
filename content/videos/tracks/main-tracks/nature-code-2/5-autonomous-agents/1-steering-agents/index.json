@@ -32,12 +32,12 @@
       "links": [
         {
           "title": "Steering Behaviors",
-          "url": "https://thecodingtrain.com/CodingChallenges/059-steering-text-paths",
+          "url": "https://youtu.be/4hA7G3gup-4",
           "description": "Coding Challenge to make reactive text out of autonomous particles"
         },
         {
           "title": "Flocking Simulation",
-          "url": "https://thecodingtrain.com/CodingChallenges/124-flocking-boids",
+          "url": "https://youtu.be/mhjuuHl6qHM",
           "description": "Coding Challenge to simulate a flock using the boids algorithm"
         }
       ]
