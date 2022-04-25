@@ -5,5 +5,62 @@
   "topics": ["For beginners"],
   "videoId": "syR0klfncCk",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Particle System Simulation",
+      "description": "Simulating a particle system with gravity and a single emitter",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/QRzgzQLnQ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Particle Systems - A Technique for Modeling a Class of Fuzzy Objects",
+          "url": "https://cal.cs.umbc.edu/Courses/CS6967-F08/Papers/Reeves-1983-PSA.pdf",
+          "description": "William T. Reeves' article on modeling fuzzy objects like fire, clouds, and water with particle systems"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Simple Particle System",
+          "url": "https://youtu.be/UcdigVaIYAk",
+          "description": "Coding Challenge to make a smoke effect particle system"
+        },
+        {
+          "title": "Simulating Forces",
+          "url": "https://youtu.be/Uibl0UE4VH8",
+          "description": "Nature of Code video on applying gravity and wind to a mover object"
+        },
+        {
+          "title": "Arrays of Objects",
+          "url": "https://youtu.be/fBqaA7zRO58",
+          "description": "Code! Programming with p5.js video on using ES6 classes and for loops to make an array of objects"
+        },
+        {
+          "title": "Fireworks!",
+          "url": "https://youtu.be/CKeyIbT3vXI",
+          "description": "July 4th themed Coding Challenge to build a fireworks simulation in p5.js and Processing"
+        },
+        {
+          "title": "Array Functions: filter()",
+          "url": "https://youtu.be/qmnH5MT_luk",
+          "description": "Coding Train video on the filter() function in JavaScript"
+        },
+        {
+          "title": "Removing Objects from Arrays",
+          "url": "https://youtu.be/tA_ZgruFF9k",
+          "description": "Code! Programming with p5.js video on removing objects from arrays"
+        }
+      ]
+    }
   ]
 }
