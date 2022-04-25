@@ -4,6 +4,16 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "3slqsMHKLng",
-  "canContribute": true,
-  "relatedChallenges": ["16-l-system-fractal-trees"]
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "The Nature of Code Introduction",
+          "url": "https://natureofcode.com/",
+          "description": "Link to the introduction to the Nature of Code Book"
+        }
+      ]
+    }
+  ]
 }

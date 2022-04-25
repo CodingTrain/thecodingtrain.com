@@ -1,0 +1,10 @@
+{
+  "title": "Contribution title",
+  "author": {
+    "name": "Author name",
+    "url": "Author url to own website or GitHub"
+  },
+  "url": "URL to live code of contribution",
+  "videoId": "YouTube video ID to video of contribution",
+  "source": "URL to source code of contribution"
+}

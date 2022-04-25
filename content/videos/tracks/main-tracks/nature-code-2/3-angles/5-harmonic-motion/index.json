@@ -5,5 +5,72 @@
   "topics": ["For beginners"],
   "videoId": "m463X1cqV6s",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Basic",
+      "description": "Drawing a growing circle using harmonic motion",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Fn1feR81W"
+      }
+    },
+    {
+      "title": "Approximate Time",
+      "description": "Generating oscillating motion without an exact time increment",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/uGCYH4-PN"
+      }
+	},
+    {
+      "title": "Exact Time Exercise",
+      "description": "Generating oscillating motion using a specific amount of milliseconds to determine the period",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/jp2B-0Wkg"
+      }
+    },
+    {
+      "title": "Main",
+      "description": "Drawing oscillating motion that accelerates over time",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/MfvyVULHT"
+      }
+    },
+    {
+      "title": "Yoyo",
+      "description": "Using oscillating motion to animate a yoyo",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qBhVjZ0pn"
+      }
+    },
+    {
+      "title": "2-Axes Exercise",
+      "description": "Simulating oscillating motion along two axes",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_ir7-suNG"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "The map() function - p5.js Tutorial",
+          "url": "https://youtu.be/nicMAoW6u1g",
+          "description": "Coding Train video on the map() function in p5js"
+        },
+        {
+          "title": "Lissajous Curve Table",
+          "url": "https://youtu.be/--6eyLO78CY",
+          "description": "Coding Train challenge on creating a Lissajous Curve Table in p5js"
+        }
+      ]
+    }
   ]
 }
