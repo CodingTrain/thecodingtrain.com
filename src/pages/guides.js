@@ -33,7 +33,7 @@ const GuidesPage = ({ data }) => {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
         text="New to coding?"
         buttonText="Start here"
-        buttonLink="/get-started"
+        buttonLink="'/guides/getting-started'"
         variant="orange"
         bbColor="orange"
       />
