@@ -31,7 +31,7 @@ const TrackCard = ({ track, placeholderImage }) => {
         <div className={css.numVideos}>{numVideos} videos</div>
       </div>
       <Link to={`tracks/${slug}`}>
-        {/* <Image
+        <Image
           image={
             cover
               ? cover.file.childImageSharp.gatsbyImageData
@@ -39,7 +39,7 @@ const TrackCard = ({ track, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
-        /> */}
+        />
       </Link>
 
       <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>
@@ -59,7 +59,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         </h3>
       </div>
       <Link to={`challenge/${slug}`}>
-        {/* <Image
+        <Image
           image={
             cover
               ? cover.file.childImageSharp.gatsbyImageData
@@ -67,7 +67,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
-        /> */}
+        />
       </Link>
 
       <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>
@@ -122,13 +122,9 @@ const IndexPage = ({ data }) => {
     data.challengePlaceholderImage.nodes.length > 0
       ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
-  console.log({ content });
   return (
     <Layout>
       <div className={css.root}>
-        <p className={css.routesLink}>
-          <Link to="/routes">Go to routes page</Link>
-        </p>
         <Spacer background="white" />
         <div className={css.header}>
           <Heading1 className={css.heading} variant="pink">
@@ -276,15 +272,19 @@ const IndexPage = ({ data }) => {
         <Spacer pattern size="x2" />
         <div className={css.showcase}>
           <div className={css.left}>
-            <Heading2 className={css.subheading} variant="purple" as="h3">
+            <Heading2
+              id="passenger-showcase"
+              className={css.subheading}
+              variant="purple"
+              as="h3">
               {content.passengerShowcase.title}
             </Heading2>
             <div className={css.details}>
               <p>
                 {content.passengerShowcase.featured.author.url ? (
-                  <Link to={content.passengerShowcase.featured.author.url}>
+                  <a href={content.passengerShowcase.featured.author.url}>
                     {content.passengerShowcase.featured.author.name}
-                  </Link>
+                  </a>
                 ) : (
                   content.passengerShowcase.featured.author.name
                 )}
@@ -354,8 +354,12 @@ const IndexPage = ({ data }) => {
         )}
         <Spacer pattern size="x2" />
         <Heading2 className={css.subheading} variant="orange" as="h3">
-          SUPPORT
+          {content.support.title}
         </Heading2>
+        <div className={css.descriptionBlock}>
+          <p>{content.support.description}</p>
+          {/* {content.support.options} */}
+        </div>
         <Spacer pattern size="x2" />
       </div>
     </Layout>
@@ -475,6 +479,11 @@ export const query = graphql`
       support {
         title
         description
+        options {
+          text
+          buttonText
+          href
+        }
       }
     }
     placeholderMainTrackImage: allFile(
@@ -505,7 +514,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

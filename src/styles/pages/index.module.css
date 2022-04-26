@@ -329,7 +329,8 @@
     padding: 0 var(--box-padding);
     border-bottom: var(--border);
     border-left: var(--border);
-    line-height: calc(var(--baseline-box) - 1px);
+    line-height: var(--baseline);
+    height: var(--baseline);
     text-transform: uppercase;
     font-size: var(--maru-normal);
     & span + span {
@@ -400,6 +401,7 @@
   .newToCoding .left {
     display: flex;
     align-items: center;
+    height: var(--baseline);
   }
 
   .descriptionBlock p {
