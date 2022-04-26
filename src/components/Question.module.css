@@ -32,8 +32,8 @@
   transition: transform 0.3s ease;
 }
 
-.answer {
-  padding: var(--box-padding) 0;
+.answer p {
+  margin: var(--box-padding) 0;
   & a {
     color: var(--pink);
   }
