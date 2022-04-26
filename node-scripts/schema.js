@@ -173,7 +173,9 @@ type Guide implements Node {
   cover: CoverImage @link
 }
 
-type FAQOrder implements Node {
+type FAQPage implements Node {
+  title: String!
+  description: String!
   sections: [FAQSection]! @link
 }
 
@@ -183,6 +185,7 @@ type FAQSection implements Node {
 }
 
 type FAQ implements Node {
+  slug: String!
   question: String!
   answer: Answer!
 }

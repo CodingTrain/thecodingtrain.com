@@ -386,18 +386,15 @@ exports.createFAQRelatedNode = (
       sections.push(sectionNode);
     }
 
-    const newNode = Object.assign(
-      {},
-      {
-        id: createNodeId('--faqOrder'),
-        parent: node.id,
-        sections: sections.map((s) => s.id),
-        internal: {
-          type: `FAQOrder`,
-          contentDigest: createContentDigest(data)
-        }
+    const newNode = Object.assign(data, {
+      id: createNodeId('--faqPage'),
+      parent: node.id,
+      sections: sections.map((s) => s.id),
+      internal: {
+        type: `FAQPage`,
+        contentDigest: createContentDigest(data)
       }
-    );
+    });
     createNode(newNode);
   }
 };

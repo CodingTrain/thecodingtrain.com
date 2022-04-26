@@ -34,9 +34,6 @@
 
 .answer p {
   margin: var(--box-padding) 0;
-  & a {
-    color: var(--pink);
-  }
 }
 
 .list {
@@ -62,18 +59,26 @@
   width: 90%;
 }
 
+.open {
+  height: auto;
+  background-color: white;
+  & .summary p {
+    font-weight: bolder;
+  }
+}
+
 /* variants */
 .pink {
   background-color: var(--pink-tint);
   border-bottom-color: var(--pink);
 }
 
-.opened {
-  height: auto;
+.pink.open {
   background-color: white;
-  & .summary p {
-    font-weight: bolder;
-  }
+}
+
+.pink .answer p a {
+  color: var(--pink);
 }
 
 @media (--small) {
