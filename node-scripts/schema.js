@@ -249,7 +249,7 @@ type HomepageInfo implements Node {
   challenges: ChallengesSection!
   passengerShowcase: PassengerSection!
   events: EventsSection!
-  support: PageSection!
+  support: SupportSection!
 }
 
 type PageSection implements Node {
@@ -305,5 +305,11 @@ type Event implements Node {
   host: String!
   type: String!
   url: String!
+}
+
+type SupportSection implements Node {
+  title: String!
+  description: String!
+  options: [Cta]
 }
 `;

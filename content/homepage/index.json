@@ -58,20 +58,38 @@
         "host": "dan Shiffman",
         "type": "Livestream",
         "url": "https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
-      },
-      {
-        "title": "Neuroevolution - the Nature of Code",
-        "description": "Watch as Dan steps through each of these fun challenges, then put your new knowledge to work and create your own projects.",
-        "date": "2022-07-16",
-        "time": "8PM",
-        "host": "dan Shiffman",
-        "type": "Livestream",
-        "url": "https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
       }
     ]
   },
   "support": {
     "title": "Support",
-    "description": ""
+    "description": "Support the Coding Train and potentially get access to a number of perks like member-only content.",
+    "options": [
+      {
+        "text": "YouTube Membership",
+        "href": "https://www.youtube.com/thecodingtrain/join",
+        "buttonText": "go"
+      },
+      {
+        "text": "Patreon",
+        "href": "https://www.patreon.com/codingtrain",
+        "buttonText": "go"
+      },
+      {
+        "text": "GitHub Sponsor",
+        "href": "https://github.com/sponsors/shiffman",
+        "buttonText": "go"
+      },
+      {
+        "text": "Twitch Subscriber",
+        "href": "https://www.twitch.tv/subs/CodingTrainChooChoo",
+        "buttonText": "go"
+      },
+      {
+        "text": "Buy Nature of Code",
+        "href": "https://natureofcode.com/",
+        "buttonText": "go"
+      }
+    ]
   }
 }
