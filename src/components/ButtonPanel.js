@@ -21,7 +21,9 @@ const ButtonPanel = ({
       })}>
       {text && <p>{text}</p>}
       <div className={css.buttonContainer}>
-        <Button variant={variant} to={buttonLink}>
+        <Button
+          variant={variant}
+          {...{ [buttonLink.startsWith('/') ? 'to' : 'href']: buttonLink }}>
           {buttonText}
         </Button>
       </div>
