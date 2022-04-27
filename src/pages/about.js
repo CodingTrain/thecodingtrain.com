@@ -78,6 +78,7 @@ const AboutPage = ({ data }) => {
     secondaryTitle,
     secondaryDescription,
     siteSocials,
+    featuredTitle,
     featured,
     acknowledgementsText,
     acknowledgements
@@ -121,6 +122,7 @@ const AboutPage = ({ data }) => {
           </div>
         </div>
       </div>
+
       <SocialsSection socials={personalSocials} />
       <Spacer pattern className={css.spacer} />
       <CharacterSpacer
@@ -150,24 +152,10 @@ const AboutPage = ({ data }) => {
         characterSize={0.7}
         Character={CandyRainbow}
       />
-      <Heading4 variant="purple" borderBottom={false}>
-        Friends of The Coding Train
-      </Heading4>
 
-      <Spacer pattern className={css.spacer} />
-      <CharacterSpacer
-        className={css.sep}
-        size="x2"
-        variant="purple"
-        side="right"
-        offset={0.42}
-        characterSize={0.7}
-        Character={WheelsTheMouse}
-      />
       <Heading4 variant="purple" borderBottom={false}>
-        Featured
+        {featuredTitle}
       </Heading4>
-
       <VideoCardList variant="purple">
         {featured.map((featuredItem, index) => (
           <VideoCard
@@ -264,6 +252,7 @@ export const query = graphql`
             url
           }
         }
+        featuredTitle
         featured {
           title
           description

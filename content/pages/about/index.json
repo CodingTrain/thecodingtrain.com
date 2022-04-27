@@ -41,6 +41,7 @@
       ]
     }
   ],
+  "featuredTitle": "Featured",
   "featured": [
     {
       "title": "Image to ASCII (Coding Challenge 167)",
@@ -63,6 +64,18 @@
   ],
   "acknowledgementsText": "Past and Present Contributors to The Coding Train.",
   "acknowledgements": [
+    {
+      "name": "Friends of The Coding Train",
+      "people": [
+        {
+          "name": "ITP/IMA"
+        },
+        { "name": "Processing Foundation" },
+        { "name": "ml5.js" },
+        { "name": "Nebula" },
+        { "name": "Design Systems International" }
+      ]
+    },
     {
       "name": "Team",
       "people": [

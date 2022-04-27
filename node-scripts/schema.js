@@ -222,6 +222,7 @@ type AboutPageInfo implements Node {
   secondaryTitle: String!
   secondaryDescription: String!
   siteSocials: [SocialLinkGroup]!
+  featuredTitle: String!
   featured: [FeaturedContent]!
   acknowledgementsText: String!
   acknowledgements: [CollaboratorTeam]!
