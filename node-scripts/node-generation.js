@@ -463,6 +463,35 @@ exports.createAboutPageRelatedNodes = (
 };
 
 /**
+ * Creates Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createPageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const { name } = node;
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--page-info/${parent.sourceInstanceName}`),
+    parent: node.id,
+    source: parent.sourceInstanceName,
+    internal: {
+      type: `PageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
  * Creates CoverImage node from image file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createContentDigest - Gatsby's createContentDigest function

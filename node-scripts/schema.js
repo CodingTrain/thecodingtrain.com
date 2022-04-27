@@ -173,6 +173,12 @@ type Guide implements Node {
   cover: CoverImage @link
 }
 
+type PageInfo implements Node {
+  title: String!
+  description: String!
+  source: String!
+}
+
 type FAQPage implements Node {
   title: String!
   description: String!

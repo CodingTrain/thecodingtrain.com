@@ -11,6 +11,7 @@ import SquareCharacter2 from '../images/characters/Square_3.mini.svg';
 // import * as css from './tracks.module.css';
 
 const TracksPage = ({ data, pageContext, location }) => {
+  const pageData = data.pageData.nodes[0];
   const tracks = data.tracks.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
@@ -22,7 +23,8 @@ const TracksPage = ({ data, pageContext, location }) => {
 
   return (
     <ItemsPage
-      title="Tracks"
+      title={pageData.title}
+      description={pageData.description}
       location={location}
       itemsPath="tracks"
       variant="red"
@@ -61,6 +63,12 @@ const TracksPage = ({ data, pageContext, location }) => {
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+    pageData: allPageInfo(filter: { source: { eq: "tracks-page-data" } }) {
+      nodes {
+        title
+        description
+      }
+    }
     tracks: allTrack(
       filter: {
         languagesFlat: { regex: $language }

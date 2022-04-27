@@ -21,6 +21,7 @@ import ZeroCharacter2 from '../images/characters/Zero_3.mini.svg';
 const ItemsPage = ({
   location,
   title,
+  description,
   itemsPath,
   variant,
   Character,
@@ -93,7 +94,7 @@ const ItemsPage = ({
 
       <PagePanel
         className={css.panel}
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        description={description}
         text="New to coding?"
         buttonText="Start here"
         buttonLink="/get-started"

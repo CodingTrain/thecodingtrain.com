@@ -14,6 +14,7 @@ import { getReadableDate } from '../hooks';
 import * as css from './challenges.module.css';
 
 const ChallengesPage = ({ data, pageContext, location }) => {
+  const pageData = data.pageData.nodes[0];
   const challenges = data.challenges.nodes;
   const recentChallenge = data.recentChallenge.nodes[0];
   const languages = data.languages.nodes.map(({ value }) => value);
@@ -26,7 +27,8 @@ const ChallengesPage = ({ data, pageContext, location }) => {
 
   return (
     <ItemsPage
-      title="Challenges"
+      title={pageData.title}
+      description={pageData.description}
       location={location}
       itemsPath="challenges"
       variant="cyan"
@@ -115,6 +117,12 @@ const RecentChallenge = ({ challenge, placeholderImage }) => {
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+    pageData: allPageInfo(filter: { source: { eq: "challenges-page-data" } }) {
+      nodes {
+        title
+        description
+      }
+    }
     challenges: allChallenge(
       filter: {
         languagesFlat: { regex: $language }

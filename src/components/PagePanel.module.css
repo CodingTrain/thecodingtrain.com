@@ -10,7 +10,7 @@
 
 .description {
   padding: var(--baseline-2of3) var(--spacing-normal) 0 var(--box-padding);
-  flex-basis: 600px;
+  flex-basis: 700px;
 
   & p {
     margin: 0;
@@ -89,6 +89,6 @@
 
 @media (--small) {
   .root {
-    height: var(--baseline-6x);
+    height: var(--baseline-7x);
   }
 }

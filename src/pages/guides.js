@@ -14,13 +14,14 @@ import MouseCharacter from '../images/characters/WheelstheMouse_3.mini.svg';
 import * as css from '../styles/pages/guides.module.css';
 
 const GuidesPage = ({ data }) => {
+  const pageData = data.pageData.nodes[0];
   const guides = data.guides.nodes.filter((n) => n.mdx.frontmatter.title);
   const guidesPlaceholderImage =
     data.guidesPlaceholderImage.nodes.length > 0
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
   return (
-    <Layout title="Guides">
+    <Layout title={pageData.title}>
       <Spacer />
       <div className={css.header}>
         <Heading1 className={css.heading} variant="purple">
@@ -30,7 +31,7 @@ const GuidesPage = ({ data }) => {
       </div>
       <PagePanel
         className={css.panel}
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        description={pageData.description}
         text="New to coding?"
         buttonText="Start here"
         buttonLink="/get-started"
@@ -79,6 +80,12 @@ const GuidesPage = ({ data }) => {
 
 export const query = graphql`
   query {
+    pageData: allPageInfo(filter: { source: { eq: "guides" } }) {
+      nodes {
+        title
+        description
+      }
+    }
     guides: allGuide {
       nodes {
         mdx {

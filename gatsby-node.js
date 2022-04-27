@@ -11,6 +11,7 @@ const {
   createGuideRelatedNode,
   createGuideCoverImageNode,
   createAboutPageRelatedNodes,
+  createPageRelatedNodes,
   createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
@@ -95,6 +96,30 @@ exports.onCreateNode = ({
       );
     else if (parent.sourceInstanceName === 'about-page-data')
       createAboutPageRelatedNodes(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'tracks-page-data')
+      createPageRelatedNodes(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'challenges-page-data')
+      createPageRelatedNodes(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'guides')
+      createPageRelatedNodes(
         createNode,
         createNodeId,
         createContentDigest,
