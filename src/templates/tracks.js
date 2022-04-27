@@ -7,6 +7,7 @@ import TrackCard from '../components/tracks/Card';
 
 import SquareCharacter from '../images/characters/Square_4.mini.svg';
 import SquareCharacter2 from '../images/characters/Square_3.mini.svg';
+import AsteriskCharacter from '../images/characters/Asterik_5.mini.svg';
 
 // import * as css from './tracks.module.css';
 
@@ -28,6 +29,7 @@ const TracksPage = ({ data, pageContext, location }) => {
       variant="red"
       Character={SquareCharacter}
       SeparatorCharacter={SquareCharacter2}
+      EndPageCharacter={AsteriskCharacter}
       characterOrientation="center"
       languages={languages}
       topics={topics}
