@@ -1,16 +1,21 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
+import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
-import { Heading1, Heading4 } from '../components/Heading';
+import { Heading1, Heading2, Heading4 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import VideoCard, { VideoCardList } from '../components/VideoCard';
 import Image from '../components/Image';
 
+import { useLinkParsedText } from '../hooks';
+
 import PiRainbow from '../images/characters/PiRainbow.mini.svg';
 import TrainIcon from '../images/characters/Train_Icon.mini.svg';
 import CandyRainbow from '../images/characters/RainbowCandy.mini.svg';
+import ChooChooCharacter from '../images/characters/ChooChooBot_1.mini.svg';
+import WheelsTheMouse from '../images/characters/WheelstheMouse_3.mini.svg';
 import TriangleCharacter from '../images/characters/Triangle_3.mini.svg';
 
 import Github from '../images/github.svg';
@@ -41,21 +46,49 @@ const SocialIcon = ({ site }) => {
   );
 };
 
+const SocialsSection = ({ socials }) => {
+  return (
+    <div className={css.links}>
+      {socials.map((group, index) => (
+        <div className={css.socialRow} key={index}>
+          <span className={css.socialTitleGroup}>{group.title}: </span>
+          {group.links.map((link, linkIndex) => (
+            <a
+              href={link.url}
+              className={css.socialLink}
+              target="_blank"
+              rel="noreferrer"
+              key={linkIndex}>
+              <SocialIcon site={link.site} />
+            </a>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+};
+
 const AboutPage = ({ data }) => {
   const content = data.content.nodes[0];
   const {
     title,
     description,
-    cover: {
-      file: {
-        childImageSharp: { gatsbyImageData: cover }
-      }
-    },
-    socials,
+    coversDescription,
+    personalSocials,
+    secondaryTitle,
+    secondaryDescription,
+    siteSocials,
     featured,
     acknowledgementsText,
     acknowledgements
   } = content;
+
+  const parsedMainDescription = useLinkParsedText(description);
+  const parsedCoverDescription = useLinkParsedText(coversDescription);
+  const parsedSecondaryDescription = useLinkParsedText(secondaryDescription);
+
+  const mainCover = content.covers[0].file.childImageSharp.gatsbyImageData;
+  const secondaryCover = content.covers[1].file.childImageSharp.gatsbyImageData;
 
   return (
     <Layout title="About">
@@ -69,32 +102,44 @@ const AboutPage = ({ data }) => {
         </div>
       </div>
       <div className={css.aboutRow}>
-        <div className={css.aboutBlock}>
-          <div className={css.danIntro}>
-            <p>{description}</p>
+        <div className={cn(css.aboutBlock, css.primaryAboutBlock)}>
+          <div className={cn(css.aboutParagraph, css.danIntro)}>
+            {parsedMainDescription}
           </div>
         </div>
-        <div className={css.photoBlock}>
-          <Image image={cover} />
+        <div className={cn(css.photoBlock, css.primaryPhoto)}>
+          <Image image={mainCover} />
         </div>
       </div>
-      <div className={css.links}>
-        {socials.map((group, index) => (
-          <div className={css.socialRow} key={index}>
-            <span className={css.socialTitleGroup}>{group.title}: </span>
-            {group.links.map((link, linkIndex) => (
-              <a
-                href={link.url}
-                className={css.socialLink}
-                target="_blank"
-                rel="noreferrer"
-                key={linkIndex}>
-                <SocialIcon site={link.site} />
-              </a>
-            ))}
+      <div className={css.aboutRow}>
+        <div className={cn(css.photoBlock, css.secondaryPhoto)}>
+          <Image image={secondaryCover} />
+        </div>
+        <div className={cn(css.aboutBlock, css.coverAboutBlock)}>
+          <div className={cn(css.aboutParagraph, css.coverDescription)}>
+            {parsedCoverDescription}
           </div>
-        ))}
+        </div>
       </div>
+      <SocialsSection socials={personalSocials} />
+      <Spacer pattern className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x2"
+        variant="purple"
+        side="right"
+        offset={0.42}
+        characterSize={0.7}
+        Character={TrainIcon}
+      />
+
+      <Heading2 variant="purple">{secondaryTitle}</Heading2>
+      <div className={cn(css.aboutBlock, css.coverAboutBlock)}>
+        <div className={cn(css.aboutParagraph, css.secondaryParagraph)}>
+          {parsedSecondaryDescription}
+        </div>
+      </div>
+      <SocialsSection socials={siteSocials} />
       <Spacer pattern className={css.spacer} />
       <CharacterSpacer
         className={css.sep}
@@ -105,28 +150,40 @@ const AboutPage = ({ data }) => {
         characterSize={0.7}
         Character={CandyRainbow}
       />
-      <div id="talks">
-        <Heading4 variant="purple" borderBottom={false}>
-          Featured
-        </Heading4>
-        <VideoCardList variant="purple">
-          {featured.map((featuredItem, index) => (
-            <VideoCard
-              key={index}
-              variant="purple"
-              title={featuredItem.title}
-              description={featuredItem.description}
-              {...{
-                [featuredItem.url.startsWith('/') ? 'slug' : 'link']:
-                  featuredItem.url
-              }}
-              image={
-                featuredItem.thumbnail.file.childImageSharp.gatsbyImageData
-              }
-            />
-          ))}
-        </VideoCardList>
-      </div>
+      <Heading4 variant="purple" borderBottom={false}>
+        Friends of The Coding Train
+      </Heading4>
+
+      <Spacer pattern className={css.spacer} />
+      <CharacterSpacer
+        className={css.sep}
+        size="x2"
+        variant="purple"
+        side="right"
+        offset={0.42}
+        characterSize={0.7}
+        Character={WheelsTheMouse}
+      />
+      <Heading4 variant="purple" borderBottom={false}>
+        Featured
+      </Heading4>
+
+      <VideoCardList variant="purple">
+        {featured.map((featuredItem, index) => (
+          <VideoCard
+            key={index}
+            variant="purple"
+            title={featuredItem.title}
+            description={featuredItem.description}
+            {...{
+              [featuredItem.url.startsWith('/') ? 'slug' : 'link']:
+                featuredItem.url
+            }}
+            image={featuredItem.thumbnail.file.childImageSharp.gatsbyImageData}
+          />
+        ))}
+      </VideoCardList>
+
       <Spacer pattern className={css.spacer} />
       <CharacterSpacer
         className={css.sep}
@@ -135,7 +192,7 @@ const AboutPage = ({ data }) => {
         side="right"
         offset={0.12}
         characterSize={0.9}
-        Character={TrainIcon}
+        Character={ChooChooCharacter}
       />
       <div id="acknowledgements">
         <Heading4 variant="purple">Acknowledgements</Heading4>
@@ -183,14 +240,24 @@ export const query = graphql`
         title
         description
         acknowledgementsText
-        cover {
+        covers {
           file {
             childImageSharp {
               gatsbyImageData
             }
           }
         }
-        socials {
+        coversDescription
+        secondaryTitle
+        secondaryDescription
+        personalSocials {
+          title
+          links {
+            site
+            url
+          }
+        }
+        siteSocials {
           title
           links {
             site

@@ -216,8 +216,12 @@ type Tag implements Node {
 type AboutPageInfo implements Node {
   title: String!
   description: String!
-  cover: CoverImage @link
-  socials: [SocialLinkGroup]!
+  covers: [CoverImage] @link
+  coversDescription: String!
+  personalSocials: [SocialLinkGroup]!
+  secondaryTitle: String!
+  secondaryDescription: String!
+  siteSocials: [SocialLinkGroup]!
   featured: [FeaturedContent]!
   acknowledgementsText: String!
   acknowledgements: [CollaboratorTeam]!

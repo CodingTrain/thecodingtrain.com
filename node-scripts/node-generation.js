@@ -449,7 +449,9 @@ exports.createAboutPageRelatedNodes = (
   const newNode = Object.assign({}, data, {
     id: createNodeId(`--about-page`),
     parent: node.id,
-    cover: createNodeId(`cover-image/about-page/${data.cover}`),
+    covers: data.covers.map((cover) =>
+      createNodeId(`cover-image/about-page/${cover}`)
+    ),
     featured: data.featured.map((f) => ({
       ...f,
       thumbnail: createNodeId(`cover-image/about-page/${f.thumbnail}`)
