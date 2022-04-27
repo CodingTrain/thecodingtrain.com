@@ -70,6 +70,18 @@
 .image {
   width: 90%;
 }
+
+.video {
+  margin: 0;
+  padding: var(--box-padding);
+  border-left: var(--border);
+  max-width: 800px;
+}
+
+.videoContainer {
+  padding-bottom: var(--baseline-box-9x);
+}
+
 .button {
   padding: var(--spacing-xsmall);
   border-left: var(--border);
@@ -173,6 +185,10 @@
 
   .image {
     width: 100%;
+  }
+
+  .videoContainer {
+    padding-bottom: var(--baseline-box-7x);
   }
 }
 

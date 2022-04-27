@@ -15,6 +15,7 @@ import {
 } from '../components/Heading';
 import Button from '../components/Button';
 import Spacer from '../components/Spacer';
+import YouTubeVideo from '../components/YouTubeVideo';
 import Image from '../components/Image';
 
 import * as css from './guide.module.css';
@@ -116,6 +117,11 @@ const components = (localImages) => ({
   Button: (props) => (
     <div className={css.button}>
       <Button variant={'purple'} {...props} />
+    </div>
+  ),
+  Video: (props) => (
+    <div className={css.video}>
+      <YouTubeVideo containerClassName={css.videoContainer} {...props} />
     </div>
   )
 });
