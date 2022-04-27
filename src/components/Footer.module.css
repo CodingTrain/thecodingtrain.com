@@ -110,17 +110,21 @@
 .socialLinks,
 .navBox {
   padding-top: var(--spacing-small);
+
+  & h3.title,
+  & ul li.title {
+    font-weight: 900;
+    font-size: var(--maru-medium);
+    text-transform: uppercase;
+    line-height: var(--baseline);
+    margin: 0;
+  }
+
   & ul {
     list-style: none;
     padding-left: 0;
     margin-top: 0;
 
-    & li.title {
-      font-weight: 900;
-      font-size: var(--maru-medium);
-      text-transform: uppercase;
-      line-height: var(--baseline);
-    }
     & li.spacer {
       height: var(--spacing-normal);
     }
@@ -139,10 +143,12 @@
   flex: 1 0 20%;
   border-bottom: var(--border);
   padding-left: var(--box-padding);
+  padding-right: var(--box-padding);
   border-right: var(--border);
   border-left: var(--border);
   text-transform: uppercase;
   line-height: 40px;
+
   & span {
     padding-left: var(--box-padding);
     display: inline;
@@ -157,6 +163,7 @@
   padding-left: var(--box-padding);
   display: flex;
   & ul {
+    padding-left: var(--box-padding);
     flex: 0 0 33%;
   }
 }
@@ -181,10 +188,6 @@
   height: var(--baseline-box-2x);
   padding-left: var(--box-padding);
   padding-right: var(--box-padding);
-}
-
-.socialLinksMobile {
-  display: none;
 }
 
 @media only screen and (max-width: 1320px) {
@@ -219,9 +222,14 @@
 
   .socialLinks {
     border-right: none;
+    display: flex;
+    & h3 {
+      text-align: center;
+    }
     & ul {
       display: flex;
-      justify-content: center;
+      flex-grow: 1;
+      justify-content: space-around;
       align-items: center;
       flex-wrap: wrap;
     }
@@ -263,5 +271,28 @@
   }
   .box .action {
     padding-bottom: var(--spacing-normal);
+  }
+  .socialLinks {
+    display: block;
+  }
+}
+
+@media (--xsmall) {
+  .navBox {
+    flex-direction: column;
+    & ul {
+      text-align: center;
+      flex: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      & li.title {
+        flex: 100%;
+        line-height: 1;
+      }
+      & li {
+        padding: var(--box-padding);
+      }
+    }
   }
 }

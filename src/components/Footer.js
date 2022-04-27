@@ -9,6 +9,7 @@ import Logo from '../images/logo.svg';
 import Train from '../images/train.svg';
 import Github from '../images/github.svg';
 import Twitch from '../images/twitch.svg';
+import Nebula from '../images/nebula.svg';
 import Twitter from '../images/twitter.svg';
 import Discord from '../images/discord.svg';
 import Youtube from '../images/youtube.svg';
@@ -68,8 +69,8 @@ const Footer = () => {
       </div>
 
       <div className={css.socialLinks}>
+        <h3 className={css.title}>Follow us!</h3>
         <ul>
-          <li className={css.title}>Follow us!</li>
           <li>
             <a href="https://www.youtube.com/c/TheCodingTrain/">
               <Youtube width={30} />
@@ -80,6 +81,13 @@ const Footer = () => {
             <a href="https://www.twitch.tv/codingtrainchoochoo">
               <Twitch width={30} />
               <span>Twitch</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://nebula.app/codingtrain">
+              <Nebula width={30} />
+              <span>Nebula</span>
             </a>
           </li>
           <li>
@@ -151,7 +159,7 @@ const Footer = () => {
             <a href="https://discord.com/invite/hPuGy2g">Discord</a>
           </li>
           <li>
-            <a href="https://github.com/CodingTrain">Github</a>
+            <a href="https://github.com/CodingTrain">GitHub</a>
           </li>
         </ul>
       </div>
