@@ -179,6 +179,18 @@ type PageInfo implements Node {
   source: String!
 }
 
+type NotFoundInfo implements Node {
+  title: String!
+  description: String!
+  links: [SiteCta]!
+}
+
+type SiteCta implements Node {
+  page: String!
+  url: String!
+  color: String!
+}
+
 type FAQPage implements Node {
   title: String!
   description: String!

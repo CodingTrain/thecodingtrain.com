@@ -148,6 +148,14 @@ module.exports = {
       __key: 'about-page-data'
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: '404-page-data',
+        path: './content/pages/404'
+      },
+      __key: '404-page-data'
+    },
+    {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rules: {

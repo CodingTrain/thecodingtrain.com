@@ -11,6 +11,7 @@ const {
   createGuideRelatedNode,
   createGuideCoverImageNode,
   createAboutPageRelatedNodes,
+  create404PageRelatedNodes,
   createPageRelatedNodes,
   createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
@@ -96,6 +97,14 @@ exports.onCreateNode = ({
       );
     else if (parent.sourceInstanceName === 'about-page-data')
       createAboutPageRelatedNodes(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === '404-page-data')
+      create404PageRelatedNodes(
         createNode,
         createNodeId,
         createContentDigest,
