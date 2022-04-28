@@ -158,3 +158,9 @@ button.cyan {
   color: white;
   background-color: var(--cyan);
 }
+
+a.pink,
+button.pink {
+  color: white;
+  background-color: var(--pink);
+}

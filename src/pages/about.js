@@ -9,7 +9,7 @@ import VideoCard, { VideoCardList } from '../components/VideoCard';
 import Image from '../components/Image';
 
 import PiRainbow from '../images/characters/PiRainbow.mini.svg';
-import TrainIcon from '../images/characters/Train_Icon.mini.svg';
+import TrainIcon from '../images/characters/TrainRainbow.mini.svg';
 import CandyRainbow from '../images/characters/RainbowCandy.mini.svg';
 import TriangleCharacter from '../images/characters/Triangle_3.mini.svg';
 

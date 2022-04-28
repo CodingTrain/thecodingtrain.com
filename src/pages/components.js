@@ -18,7 +18,7 @@ import PagePanel from '../components/PagePanel';
 import Filter from '../components/Filter';
 import Spacer from '../components/Spacer';
 import ButtonPanel from '../components/ButtonPanel';
-import ContributionsPanel from '../components/ContributionsPanel';
+import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import TrackVideoSection from '../components/tracks/VideoSection';
 import Tabs from '../components/Tabs';
 import Question from '../components/Question';
@@ -224,7 +224,7 @@ const ComponentsPage = ({ data }) => {
       />
       <Spacer>Pattern</Spacer>
       <Spacer pattern />
-      <ContributionsPanel
+      <PassengerShowcasePanel
         contributions={[
           {
             title: '#1.3 random vectors',
@@ -332,7 +332,7 @@ const ComponentsPage = ({ data }) => {
           codeExamples: [],
           groupLinks: [],
           canContribute: true,
-          contributions: [
+          showcase: [
             {
               title: '#1.3 random vectors',
               name: 'contribution1',

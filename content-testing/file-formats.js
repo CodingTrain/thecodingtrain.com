@@ -11,7 +11,7 @@ const video = {
       languages: { type: 'array', content: { type: 'string' } },
       topics: { type: 'array', content: { type: 'string' } },
       canContribute: { type: 'boolean' },
-      relatedJourneys: { type: 'array', content: { type: 'string' } },
+      relatedChallenges: { type: 'array', content: { type: 'string' } },
       timestamps: {
         type: 'array',
         content: {

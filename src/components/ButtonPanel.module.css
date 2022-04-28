@@ -36,6 +36,11 @@
   border-color: var(--orange);
 }
 
+.pink {
+  background-color: var(--pink-light);
+  border-color: var(--pink);
+}
+
 @media (--small) {
   .smallWrap {
     display: block;

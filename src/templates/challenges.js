@@ -8,6 +8,7 @@ import Card from '../components/challenges/Card';
 import PlayButton from '../images/playbutton.svg';
 import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
 import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
+import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 
 import { getReadableDate } from '../hooks';
 
@@ -32,6 +33,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       variant="cyan"
       Character={BracketsCharacter}
       SeparatorCharacter={BracketsCharacter2}
+      EndPageCharacter={RainbowCharacter}
       characterOrientation="left"
       languages={languages}
       topics={topics}
@@ -115,7 +117,7 @@ const RecentChallenge = ({ challenge, placeholderImage }) => {
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
-    challenges: allJourney(
+    challenges: allChallenge(
       filter: {
         languagesFlat: { regex: $language }
         topicsFlat: { regex: $topic }
@@ -138,7 +140,10 @@ export const query = graphql`
         }
       }
     }
-    recentChallenge: allJourney(sort: { fields: date, order: DESC }, limit: 1) {
+    recentChallenge: allChallenge(
+      sort: { fields: date, order: DESC }
+      limit: 1
+    ) {
       nodes {
         title
         slug
@@ -178,7 +183,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

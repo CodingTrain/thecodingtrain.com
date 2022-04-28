@@ -5,7 +5,7 @@ import cn from 'classnames';
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import TrackContributionsPanel from '../components/ContributionsPanel';
+import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import TrackVideoSection from '../components/tracks/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import TrackHeader from '../components/tracks/Header';
@@ -83,13 +83,13 @@ const Track = ({ pageContext, data }) => {
             characterSize={0.8}
             Character={DotCharacter}
           />
-          <TrackContributionsPanel
-            contributions={video.contributions}
+          <PassengerShowcasePanel
+            contributions={video.showcase}
             placeholderImage={contributionsPlaceholder}
           />
         </>
       )}
-      {video.relatedJourneys.length > 0 && (
+      {video.relatedChallenges.length > 0 && (
         <>
           <div className={css.blankSep} />
           <CharacterSpacer
@@ -101,7 +101,7 @@ const Track = ({ pageContext, data }) => {
             Character={PiCharacter}
           />
           <TrackChallengesPanel
-            challenges={video.relatedJourneys}
+            challenges={video.relatedChallenges}
             placeholderImage={challengesPlaceholder}
           />
         </>
@@ -190,7 +190,7 @@ export const query = graphql`
         }
       }
       canContribute
-      contributions {
+      showcase {
         title
         name
         url
@@ -206,7 +206,7 @@ export const query = graphql`
           }
         }
       }
-      relatedJourneys {
+      relatedChallenges {
         title
         slug
         videoId
@@ -251,7 +251,7 @@ export const query = graphql`
     }
     challengePlaceholderImage: allFile(
       filter: {
-        sourceInstanceName: { eq: "journeys" }
+        sourceInstanceName: { eq: "challenges" }
         extension: { in: ["jpg", "png"] }
         relativeDirectory: { eq: "" }
         name: { eq: "placeholder" }

@@ -9,7 +9,7 @@
   "codeExamples": [
     {
       "title": "Vector Math",
-      "description": "Coding example for NoC 1.2",
+      "description": "Using vector addition to move a circle across the screen",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/GGn5cd-z"
@@ -17,5 +17,20 @@
     }
   ],
   "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "The Nature of Code Vectors",
+          "url": "https://natureofcode.com/book/chapter-1-vectors/",
+          "description": "The Nature of Code Book chapter on vectors"
+        },
+        {
+          "title": "p5.Vector Reference",
+          "url": "https://p5js.org/reference/#/p5.Vector",
+          "description": "p5 Reference page on the p5.Vector class"
+        }
+      ]
+    }
   ]
 }
