@@ -1,16 +1,7 @@
 .root {
   color: var(--gray-mid);
   background-color: var(--gray-light);
-
-  & ul {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 0;
-
-    & li {
-      line-height: var(--baseline);
-    }
-  }
+  flex-wrap: wrap;
 
   & a {
     padding-left: 0;
@@ -19,10 +10,14 @@
   }
 }
 
+.box.trainBox {
+  flex: 1 0 20%;
+}
+
 .box {
   display: flex;
   flex-direction: column;
-  flex: 1 0 20%;
+  flex: 1 0 30%;
   border-left: var(--border);
   border-bottom: var(--border);
   line-height: var(--baseline-box);
@@ -45,13 +40,27 @@
     font-size: var(--maru-normal);
     line-height: 24px;
     padding: var(--box-padding);
-    height: var(--baseline-box-3x);
+    min-height: var(--baseline-box-2x);
     margin: 0;
   }
 }
 
+.box.bottomBox {
+  flex: 0 0 25%;
+  & h3 {
+    border-bottom: none;
+    padding-top: var(--spacing-small);
+  }
+  & p {
+    padding-top: 0;
+  }
+}
+
 .action {
-  & a {
+  & p a {
+    text-decoration: underline;
+  }
+  & a.cta {
     font-family: var(--maru-mono);
     font-size: var(--maru-normal);
     text-align: bottom;
@@ -75,22 +84,21 @@
   height: 100%;
   display: flex;
   align-items: flex-end;
-
+  padding: 0 var(--box-padding);
   & svg {
     width: 100%;
     height: auto;
+    max-height: 90%;
   }
 }
 
-.links {
+.bottom {
   display: flex;
   font-size: var(--maru-medium);
   font-family: var(--maru-mono);
   justify-content: space-between;
   border-left: var(--border);
   border-bottom: var(--border);
-  padding: var(--baseline-1of3) var(--spacing-xlarge) var(--baseline-1of3)
-    var(--box-padding);
 
   & span {
     line-height: var(--baseline);
@@ -99,7 +107,48 @@
   }
 }
 
-.socials {
+.socialLinks,
+.navBox {
+  padding-top: var(--spacing-small);
+
+  & h3.title,
+  & ul li.title {
+    font-weight: 900;
+    font-size: var(--maru-medium);
+    text-transform: uppercase;
+    line-height: var(--baseline);
+    margin: 0;
+  }
+
+  & ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+
+    & li.spacer {
+      height: var(--spacing-normal);
+    }
+    & li.bold {
+      font-weight: 900;
+      font-size: var(--maru-medium);
+      text-transform: uppercase;
+    }
+    & li {
+      line-height: var(--baseline-half);
+    }
+  }
+}
+
+.socialLinks {
+  flex: 1 0 20%;
+  border-bottom: var(--border);
+  padding-left: var(--box-padding);
+  padding-right: var(--box-padding);
+  border-right: var(--border);
+  border-left: var(--border);
+  text-transform: uppercase;
+  line-height: 40px;
+
   & span {
     padding-left: var(--box-padding);
     display: inline;
@@ -107,47 +156,21 @@
   }
 }
 
-.socials {
+.navBox {
+  border-bottom: var(--border);
+  flex: 0 0 50%;
+  white-space: nowrap;
+  padding-left: var(--box-padding);
+  display: flex;
   & ul {
-    & li {
-      text-transform: uppercase;
-    }
+    padding-left: var(--box-padding);
+    flex: 0 0 33%;
   }
 }
 
-.logos,
 .copyright {
   border-left: var(--border);
   border-bottom: var(--border);
-}
-
-.logos {
-  font-size: var(--maru-normal);
-  font-family: var(--maru-mono);
-  display: flex;
-  height: var(--baseline-box-3x);
-  text-transform: uppercase;
-
-  & > div:first-child {
-    font-weight: 900;
-  }
-
-  & > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: var(--border);
-    padding: var(--box-padding);
-  }
-
-  & > div:last-child {
-    border-right: none;
-    flex: 30%;
-  }
-
-  & p {
-    padding-left: var(--box-padding);
-  }
 }
 
 .image {
@@ -158,6 +181,7 @@
   font-family: var(--maru-mono);
   font-size: var(--maru-small);
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -166,107 +190,109 @@
   padding-right: var(--box-padding);
 }
 
-.socialsMobile {
-  display: none;
-}
-
 @media only screen and (max-width: 1320px) {
   .box {
     & p {
-      height: var(--baseline-box-4x);
+      min-height: var(--baseline-box-2x);
     }
   }
 }
 
 @media only screen and (max-width: 1140px) {
-  .logoMobile {
-    display: block;
-    border-bottom: var(--border);
-    border-left: var(--border);
-    text-align: center;
-    padding: var(--box-padding);
-  }
-
-  .logo {
-    height: var(--baseline);
-
-    & svg {
-      display: none;
-    }
-  }
-
   .train {
-    height: 80%;
+    height: 100%;
     padding-left: var(--box-padding);
     padding-right: var(--box-padding);
   }
 
-  .topbox {
-    order: 4;
+  .box.trainBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    height: var(--baseline-3x);
   }
 
-  .actions > div {
-    flex: 50%;
+  .logo {
+    border-bottom: none;
+  }
+  .box {
+    flex: 0 0 50%;
   }
 
-  .logos {
-    height: auto;
-    flex-direction: column;
+  .socialLinks {
+    border-right: none;
+    display: flex;
+    & h3 {
+      text-align: center;
+    }
+    & ul {
+      display: flex;
+      flex-grow: 1;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    & li {
+      padding: 0 var(--spacing-small);
+    }
 
-    & > div {
-      border-right: none;
-      flex-direction: column;
-      width: 100%;
+    & span {
+      display: none;
+    }
+  }
+
+  .navBox {
+    flex: 0 0 100%;
+    border-left: var(--border);
+  }
+
+  .box.bottomBox {
+    & h3 {
+      text-align: center;
+    }
+    flex: 0 0 100%;
+    & p {
       text-align: center;
     }
   }
 }
 
 @media (--reduced) {
-  .links {
-    display: none;
-  }
-
-  .socialsMobile {
-    display: flex;
-    padding: var(--box-padding);
-    justify-content: center;
-    border-bottom: var(--border);
-    border-left: var(--border);
+  .socialLinks,
+  .navBox {
+    /* display: none; */
   }
 }
 
 @media (--small) {
-  .box {
+  .box h3 {
     border-bottom: none;
   }
-
-  .actions > div {
-    flex-basis: 100%;
+  .box .action {
+    padding-bottom: var(--spacing-normal);
   }
+  .socialLinks {
+    display: block;
+  }
+}
 
-  .train {
-    border-top: none;
-    border-bottom: var(--border);
-    margin-top: var(--baseline);
-    text-align: center;
-
-    & svg {
-      width: 80%;
-      display: block;
-      margin: auto;
+@media (--xsmall) {
+  .navBox {
+    flex-direction: column;
+    & ul {
+      text-align: center;
+      flex: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      & li.title {
+        flex: 100%;
+        line-height: 1;
+      }
+      & li {
+        padding: var(--box-padding);
+      }
     }
-  }
-
-  .box h3 {
-    text-align: center;
-  }
-
-  .action {
-    display: none;
-  }
-
-  .logo {
-    display: none;
   }
 }
