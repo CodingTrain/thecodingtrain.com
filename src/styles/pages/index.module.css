@@ -237,13 +237,17 @@
   display: flex;
 }
 
-.showcase .left,
+.showcase .left {
+  flex: 75%;
+}
+
 .showcase .right {
-  flex: 50%;
+  flex: 25%;
 }
 
 .showcase .right {
   display: flex;
+  align-items: stretch;
 }
 
 .showcase .details {
@@ -270,11 +274,11 @@
 }
 
 .showcase .right .image {
-  width: 100%;
   object-fit: cover;
   border-left: var(--border);
   border-bottom: var(--border);
-  height: var(--baseline-6x);
+  width: 100%;
+  height: 100%;
 }
 
 .eventsBanner {
@@ -426,6 +430,10 @@
 
   .showcase {
     flex-direction: column-reverse;
+  }
+
+  .showcase .right .image {
+    height: var(--baseline-8x);
   }
 
   .event {

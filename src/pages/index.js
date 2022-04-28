@@ -269,7 +269,9 @@ const IndexPage = ({ data }) => {
             </React.Fragment>
           ))}
         </div>
+
         <Spacer pattern size="x2" />
+
         <div className={css.showcase}>
           <div className={css.left}>
             <Heading2
