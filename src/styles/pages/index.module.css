@@ -88,7 +88,7 @@
 
 .baselineButtonPanel {
   height: var(--baseline);
-  /* border-top: var(--border); */
+  overflow: hidden;
 }
 
 .descriptionBlock {
@@ -373,6 +373,26 @@
   font-family: var(--maru-emoji);
 }
 
+.support {
+  display: flex;
+}
+
+.support .left {
+  flex: 55%;
+}
+
+.support .right {
+  flex: 45%;
+}
+
+.support .descriptionBlock {
+  height: 100%;
+
+  & p {
+    max-width: 100%;
+  }
+}
+
 @media (--medium) {
   .character svg {
     height: var(--baseline-box-2x);
@@ -405,7 +425,7 @@
   .newToCoding .left {
     display: flex;
     align-items: center;
-    height: var(--baseline);
+    height: var(--baseline-3x);
   }
 
   .descriptionBlock p {
@@ -443,6 +463,17 @@
       flex: 50%;
     }
   }
+
+  .support {
+    flex-direction: column;
+  }
+
+  .support .descriptionBlock {
+    height: var(--baseline-3x);
+    & p {
+      max-width: 70%;
+    }
+  }
 }
 
 @media (--small) {
@@ -452,6 +483,9 @@
 
   .baselineButtonPanel {
     height: initial;
+    & > p {
+      border-top: var(--border);
+    }
     & > div > a {
       width: 100%;
     }

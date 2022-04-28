@@ -354,14 +354,33 @@ const IndexPage = ({ data }) => {
             ))}
           </>
         )}
+
         <Spacer pattern size="x2" />
+
         <Heading2 className={css.subheading} variant="orange" as="h3">
           {content.support.title}
         </Heading2>
-        <div className={css.descriptionBlock}>
-          <p>{content.support.description}</p>
-          {/* {content.support.options} */}
+        <div className={css.support}>
+          <div className={css.left}>
+            <div className={css.descriptionBlock}>
+              <p>{content.support.description}</p>
+            </div>
+          </div>
+          <div className={css.right}>
+            {content.support.options.map((o, index) => (
+              <ButtonPanel
+                key={index}
+                className={css.baselineButtonPanel}
+                text={o.text}
+                buttonText={o.buttonText}
+                buttonLink={o.href}
+                variant="orange"
+                smallWrap
+              />
+            ))}
+          </div>
         </div>
+
         <Spacer pattern size="x2" />
       </div>
     </Layout>
