@@ -8,6 +8,7 @@ import Card from '../components/challenges/Card';
 import PlayButton from '../images/playbutton.svg';
 import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
 import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
+import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 
 import { getReadableDate } from '../hooks';
 
@@ -32,6 +33,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       variant="cyan"
       Character={BracketsCharacter}
       SeparatorCharacter={BracketsCharacter2}
+      EndPageCharacter={RainbowCharacter}
       characterOrientation="left"
       languages={languages}
       topics={topics}

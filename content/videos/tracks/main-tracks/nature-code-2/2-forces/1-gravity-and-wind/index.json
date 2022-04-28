@@ -5,5 +5,32 @@
   "topics": ["For beginners"],
   "videoId": "Uibl0UE4VH8",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Simulating Forces",
+      "description": "Simulating a wind force when the mouse is pressed",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/kYWcOmch"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Nature of Code - Chapter 2",
+          "url": "https://natureofcode.com/book/chapter-2-forces/",
+          "description": "Link to the second chapter of the Nature of Code book"
+        },
+        {
+          "title": "Newton's Laws of Motion",
+          "url": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+          "description": "Wikipedia entry on Newton's Laws of Motion"
+        }
+      ]
+	}
   ]
 }

@@ -5,5 +5,32 @@
   "topics": ["For beginners"],
   "videoId": "L7CECWLdTmo",
   "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Mass & Forces",
+      "description": "Simulating forces on objects with mass",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cDzEUXbjLD"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Galileo's Leaning Tower of Pisa Experiment",
+          "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+          "description": "Wikipedia entry on Galileo's Leaning Tower of Pisa thought experiment"
+        },
+        {
+          "title": "Newton's Laws of Motion",
+          "url": "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+          "description": "Wikipedia entry on Newton's Laws of Motion"
+        }
+      ]
+    }
   ]
 }

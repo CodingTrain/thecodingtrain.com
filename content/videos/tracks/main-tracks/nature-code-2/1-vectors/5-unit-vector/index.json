@@ -16,5 +16,37 @@
         "p5": "https://editor.p5js.org/codingtrain/sketches/U4ezFLIZ"
       }
     }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "p5.Vector.mag()",
+          "url": "https://p5js.org/reference/#/p5.Vector/mag",
+          "description": "p5 reference entry for the p5.Vector mag method"
+        },
+        {
+          "title": "p5.Vector.normalize()",
+          "url": "https://p5js.org/reference/#/p5.Vector/normalize",
+          "description": "p5 reference entry for the p5.Vector normalize method"
+        },
+        {
+          "title": "p5.Vector.setMag()",
+          "url": "https://p5js.org/reference/#/p5.Vector/setMag",
+          "description": "p5 reference entry for the p5.Vector setMag method"
+        },
+        {
+          "title": "p5.Vector.normalize() source code",
+          "url": "https://github.com/processing/p5.js/blob/c1e30d688748543e52aa5ebc241bfc7dfb2f508d/src/math/p5.Vector.js#L1251",
+          "description": "Source code for the p5.Vector normalize method"
+        },
+        {
+          "title": "p5.Vector.setMag() source code",
+          "url": "https://github.com/processing/p5.js/blob/c1e30d688748543e52aa5ebc241bfc7dfb2f508d/src/math/p5.Vector.js#L1369",
+          "description": "Source code for the p5.Vector setMag method"
+        }
+      ]
+    }
   ]
 }
