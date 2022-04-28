@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
-import { Heading1, Heading2, Heading3 } from '../components/Heading';
+import { Heading1, Heading2 } from '../components/Heading';
 import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
 import Image from '../components/Image';
