@@ -1,8 +1,9 @@
 {
   "title": "Hi! I’m Dan!",
-  "description": "Daniel Shiffman works as an Associate Arts Professor at the Interactive Telecommunications Program at NYU’s Tisch School of the Arts. He's on a mission to share creative coding with the world in a fun, approachable way. On his YouTube channel, The Coding Train, he publishes videos covering the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative algorithms like physics simulation, computer vision, and data visualization. He is also a Director of The Processing Foundation.",
-  "cover": "shiffman_rainbow.png",
-  "socials": [
+  "description": "Thank you for visiting the Coding Train website! I love teaching and sharing code, and try my absolute best to do so in a fun and approachable way. I teach at the Interactive Telecommunications Program at NYU’s Tisch School of the Arts and serve on the Board of Directors of The Processing Foundation. I started making videos in 2012 and launched the Coding Train YouTube channel  in 2015.\n While I love to code it isn’t the only part of life and it doesn’t need to be for you either! I love to play music (which I do badly), solve rubik’s cubes (slowly), and run go running with Gloria Pickle. ",
+  "covers": ["dan_and_gloria.jpg", "greta_and_eevee.jpg"],
+  "coversDescription": "Now that you met Gloria, I think my cats Greta and Eevee  are feeling a little left out.",
+  "personalSocials": [
     {
       "title": "Dan's socials",
       "links": [
@@ -10,6 +11,19 @@
         { "url": "https://github.com/shiffman", "site": "github" }
       ]
     },
+    {
+      "title": "Animal socials",
+      "links": [
+        {
+          "url": "https://www.instagram.com/mangoandgoose/",
+          "site": "instagram"
+        }
+      ]
+    }
+  ],
+  "secondaryTitle": "About The Coding Train",
+  "secondaryDescription": "The Coding Train is a community welcoming beginner programmers and code-curious individuals to try their hand at expressing themselves with code. Started by Dan Shiffman in 2015, YouTube channel provides online educational content as sequenced and one-off video tutorials, and live streaming events.",
+  "siteSocials": [
     {
       "title": "Coding Train's socials",
       "links": [
@@ -27,6 +41,7 @@
       ]
     }
   ],
+  "featuredTitle": "Featured",
   "featured": [
     {
       "title": "Image to ASCII (Coding Challenge 167)",
@@ -47,8 +62,20 @@
       "url": "https://www.youtube.com/watch?v=PBsUD40nPkI"
     }
   ],
-  "acknowledgementsText": "The Coding Train is possible thanks to the help and contributions of many people.",
+  "acknowledgementsText": "Past and Present Contributors to The Coding Train.",
   "acknowledgements": [
+    {
+      "name": "Friends of The Coding Train",
+      "people": [
+        {
+          "name": "ITP/IMA"
+        },
+        { "name": "Processing Foundation" },
+        { "name": "ml5.js" },
+        { "name": "Nebula" },
+        { "name": "Design Systems International" }
+      ]
+    },
     {
       "name": "Team",
       "people": [
@@ -62,7 +89,16 @@
         { "name": "Discord and GitHub: Kobe Liesenborgs" },
         { "name": "Discord and GitHub: David Snyder" },
         { "name": "Website Content Development: Kline Gareth" },
-        { "name": "UX Writing: Elizabeth Perez" }
+        { "name": "Content Designer: Elizabeth Perez" }
+      ]
+    },
+    {
+      "name": "Website",
+      "people": [
+        {
+          "name": "Design Systems International",
+          "url": "https://designsystems.international"
+        }
       ]
     },
     {
@@ -74,15 +110,6 @@
       "people": [
         { "name": "Dusk Virkus", "url": "https://dusk.com" },
         { "name": "Cy X" }
-      ]
-    },
-    {
-      "name": "Website",
-      "people": [
-        {
-          "name": "Design Systems International",
-          "url": "https://designsystems.international"
-        }
       ]
     }
   ]

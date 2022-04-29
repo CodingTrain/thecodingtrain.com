@@ -1,11 +1,11 @@
 {
-  "question": "What code editor do you use?",
+  "question": "What programming software and/or code editor do you use?",
   "answer": {
-    "text": "Most commonly I use the p5.js Web Editor or Visual Studio Code. You can learn more about it in my workflow series, which includes a video about vs code.",
+    "text": "In almost all of my videos, you’ll find me using the official  p5.js web editor or Visual Studio Code for JavaScript and The Processing Development environment for Processing (Java)! I walk through all of the details in the [Workflow Side Track](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X). This was made in 2018 and needs some refreshing! If you are reading this message and would like to see this happen, send a reminder to [suggestionbox@thecodingtrain.com](mailto:suggestionbox@thecodingtrain.com)!",
     "list": [
       "[p5 Web Editor](https://editor.p5js.org/)",
       "[Visual Studio Code](https://code.visualstudio.com/)",
-      "[Visual Studio Code Workflow Video](/more/workflow/2-vscode)"
+      "[PDE](https://processing.org/environment/)"
     ]
   }
 }

@@ -174,7 +174,38 @@ type Guide implements Node {
   cover: CoverImage @link
 }
 
-type FAQOrder implements Node {
+type TrackPageInfo implements Node {
+  title: String!
+  description: String!
+}
+
+type ChallengesPageInfo implements Node {
+  title: String!
+  description: String!
+  featuredText: String!
+  featuredChallenge: Challenge @link
+}
+
+type GuidesPageInfo implements Node {
+  title: String!
+  description: String!
+}
+
+type NotFoundInfo implements Node {
+  title: String!
+  description: String!
+  links: [SiteCta]!
+}
+
+type SiteCta implements Node {
+  page: String!
+  url: String!
+  color: String!
+}
+
+type FAQPage implements Node {
+  title: String!
+  description: String!
   sections: [FAQSection]! @link
 }
 
@@ -184,6 +215,7 @@ type FAQSection implements Node {
 }
 
 type FAQ implements Node {
+  slug: String!
   question: String!
   answer: Answer!
 }
@@ -208,8 +240,13 @@ type Tag implements Node {
 type AboutPageInfo implements Node {
   title: String!
   description: String!
-  cover: CoverImage @link
-  socials: [SocialLinkGroup]!
+  covers: [CoverImage] @link
+  coversDescription: String!
+  personalSocials: [SocialLinkGroup]!
+  secondaryTitle: String!
+  secondaryDescription: String!
+  siteSocials: [SocialLinkGroup]!
+  featuredTitle: String!
   featured: [FeaturedContent]!
   acknowledgementsText: String!
   acknowledgements: [CollaboratorTeam]!

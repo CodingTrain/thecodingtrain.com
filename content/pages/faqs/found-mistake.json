@@ -1,0 +1,6 @@
+{
+  "question": "I found a mistake in a video or code example, how do I let you know?",
+  "answer": {
+    "text": "For general thoughts or feedback about a video, you can use the comments on YouTube itself! If you want to engage in more discussion around a video, the Coding Train Discord is the best place. For bugs and mistakes in the source code, please [open a github issue](https://github.com/CodingTrain/website/issues/new)."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Page not found!",
+  "description": "Whoops! The Coding Train was recently renovated and it looks like the page you’re looking for missed its stop! Try one of these links to get back on board.",
+  "links": [
+    {
+      "page": "Getting Started Guide",
+      "url": "/get-started",
+      "color": "orange"
+    },
+    {
+      "page": "Tracks Page",
+      "url": "/tracks",
+      "color": "red"
+    },
+    {
+      "page": "FAQs Page",
+      "url": "/faq",
+      "color": "pink"
+    }
+  ]
+}

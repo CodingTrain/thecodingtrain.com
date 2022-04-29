@@ -30,20 +30,6 @@ module.exports = {
     },
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'guides',
-        path: './content/pages/guides'
-      },
-      __key: 'guides'
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [`.mdx`, `.md`]
-      }
-    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -115,28 +101,18 @@ module.exports = {
       },
       __key: 'side-tracks'
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'talks',
-    //     path: './content/talks'
-    //   },
-    //   __key: 'talks'
-    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'faqs',
-        path: './content/pages/faqs'
+        name: 'guides',
+        path: './content/pages/guides'
       },
-      __key: 'faqs'
+      __key: 'guides'
     },
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        rules: {
-          include: './src/images'
-        }
+        extensions: [`.mdx`, `.md`]
       }
     },
     {
@@ -150,10 +126,50 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'tracks-page-data',
+        path: './content/pages/tracks'
+      },
+      __key: 'tracks-page-data'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'challenges-page-data',
+        path: './content/pages/challenges'
+      },
+      __key: 'challenges-page-data'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'faqs',
+        path: './content/pages/faqs'
+      },
+      __key: 'faqs'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'about-page-data',
         path: './content/pages/about'
       },
       __key: 'about-page-data'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: '404-page-data',
+        path: './content/pages/404'
+      },
+      __key: '404-page-data'
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rules: {
+          include: './src/images'
+        }
+      }
     }
   ]
 };
