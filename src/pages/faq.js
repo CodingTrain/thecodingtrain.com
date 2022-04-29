@@ -56,6 +56,7 @@ const FAQPage = ({ data, location }) => {
                 />
               ))}
             </div>
+            <Spacer className={css.spacer} pattern />
             <CharacterSpacer
               className={css.sep}
               variant={sectionIndex !== sections.length - 1 ? 'pink' : null}
