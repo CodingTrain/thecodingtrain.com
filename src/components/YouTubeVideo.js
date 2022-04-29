@@ -10,9 +10,16 @@ const YouTubeVideo = ({
   containerClassName,
   className,
   videoId,
+  listId,
   timestamp
 }) => {
   const youTubeVideo = useRef();
+
+  const opts = { playerVars: { autoplay: 0, rel: 0 } };
+  if (listId) {
+    opts.playerVars.listType = 'playlist';
+    opts.playerVars.list = listId;
+  }
 
   useEffect(() => {
     const jumpToTimestamp = async () => {
@@ -32,7 +39,7 @@ const YouTubeVideo = ({
         className={cn(css.video, className)}
         ref={youTubeVideo}
         videoId={videoId}
-        opts={{ playerVars: { autoplay: 0, rel: 0 } }}
+        opts={opts}
       />
     </div>
   );
