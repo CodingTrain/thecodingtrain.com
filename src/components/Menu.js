@@ -9,7 +9,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const items = [
   {
     name: 'Get Started',
-    to: '/get-started'
+    to: '/guides/getting-started'
   },
   {
     name: 'Videos',
