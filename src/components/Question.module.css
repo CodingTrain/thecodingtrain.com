@@ -61,7 +61,17 @@
 }
 
 .image {
-  width: 90%;
+  max-width: 800px;
+}
+
+.video {
+  margin: 0;
+  max-width: 800px;
+}
+
+.videoContainer {
+  padding-bottom: var(--baseline-box-9x);
+  margin: var(--box-padding) 0;
 }
 
 .open {

@@ -2,6 +2,7 @@ import React, { memo, useState, useEffect } from 'react';
 import cn from 'classnames';
 
 import Image from './Image';
+import YouTubeVideo from './YouTubeVideo';
 
 import * as css from './Question.module.css';
 
@@ -61,6 +62,14 @@ const Question = ({ variant, slug, question, answer, currentHash }) => {
               image={answer.image.file.childImageSharp.gatsbyImageData}
               pictureClassName={css.picture}
               imgClassName={css.image}
+            />
+          )}
+          {answer.video && (
+            <YouTubeVideo
+              containerClassName={css.videoContainer}
+              className={css.video}
+              videoId={answer.video.id}
+              listId={answer.video.list}
             />
           )}
         </div>
