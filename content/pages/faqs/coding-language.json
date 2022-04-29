@@ -1,6 +1,6 @@
 {
   "question": "What coding language are you using?",
   "answer": {
-    "text": "Almost all of my videos use either the p5.js (JavaScript) or Processing (Java) projects maintained by The Processing Foundation. I hope the Coding Train can  support the Processing Foundation (I am on the Board of Directors) and align with their mission:\n “to empower people of all interests and backgrounds to learn how to program and make creative work with code, especially those who might not otherwise have access to these tools and resources.”\n More details can be found in the [Getting Started guide](/get-started)! You might also find this [Q&A video](https://youtu.be/AmlAiKsiy0o) about the two environments helpful!"
+    "text": "Almost all of my videos use either the p5.js (JavaScript) or Processing (Java) projects maintained by The Processing Foundation. I hope the Coding Train can  support the Processing Foundation (I am on the Board of Directors) and align with their mission:\n “to empower people of all interests and backgrounds to learn how to program and make creative work with code, especially those who might not otherwise have access to these tools and resources.”\n More details can be found in the [Getting Started guide](/guides/getting-started)! You might also find this [Q&A video](https://youtu.be/AmlAiKsiy0o) about the two environments helpful!"
   }
 }

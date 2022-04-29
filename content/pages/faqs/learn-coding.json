@@ -1,9 +1,9 @@
 {
   "question": "I want to learn coding, where do I start?",
   "answer": {
-    "text": "That’s great to hear you’re interested in learning how to code! We know it can be overwhelming when you are just starting out. [The Getting Started Guide](/get-started) is here to walk you through everything you need to know to board the Coding Train!! You can also jump right into the [Code! Programming with p5.js](/tracks/code-programming-with-p5-js) beginner track.",
+    "text": "That’s great to hear you’re interested in learning how to code! We know it can be overwhelming when you are just starting out. [The Getting Started Guide](/guides/getting-started) is here to walk you through everything you need to know to board the Coding Train!! You can also jump right into the [Code! Programming with p5.js](/tracks/code-programming-with-p5-js) beginner track.",
     "list": [
-      "[Getting Started Guide](/get-started)",
+      "[Getting Started Guide](/guides/getting-started)",
       "[Code! Programming with p5.js Track](/tracks/code-programming-with-p5-js)"
     ]
   }
