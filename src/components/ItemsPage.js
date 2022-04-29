@@ -98,7 +98,7 @@ const ItemsPage = ({
         description={description}
         text="New to coding?"
         buttonText="Start here"
-        buttonLink="'/guides/getting-started'"
+        buttonLink="/guides/getting-started"
         variant="orange"
         bbColor={variant}
       />
