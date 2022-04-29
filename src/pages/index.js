@@ -142,6 +142,7 @@ const IndexPage = ({ data }) => {
             <TriangleCharacter />
           </div>
         </div>
+
         <div className={css.newToCoding}>
           <div className={css.left}>
             <p>{content.newToCoding.description}</p>
