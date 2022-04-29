@@ -16,7 +16,7 @@
 
   & p {
     font-size: var(--font-reduced);
-    padding: 0 var(--box-padding);
+    padding: 0 calc(var(--box-padding) / 2) 0 var(--box-padding);
   }
 }
 
@@ -30,6 +30,11 @@
 .rotateIcon {
   transform: rotate(90deg);
   transition: transform 0.3s ease;
+}
+
+.permalink {
+  color: var(--pink);
+  font-size: var(--maru-xlarge);
 }
 
 .answer p {
