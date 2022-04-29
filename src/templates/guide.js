@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
@@ -15,6 +15,8 @@ import {
 } from '../components/Heading';
 import Button from '../components/Button';
 import Spacer from '../components/Spacer';
+import YouTubeVideo from '../components/YouTubeVideo';
+import Image from '../components/Image';
 
 import * as css from './guide.module.css';
 
@@ -25,7 +27,7 @@ const kebabCase = (string) =>
     .replace(/[?'!,:.]/g, '')
     .toLowerCase();
 
-const components = {
+const components = (localImages) => ({
   h1: (props) => (
     <Heading1
       variant="purple"
@@ -80,7 +82,12 @@ const components = {
     />
   ),
   p: (props) => <p className={css.paragraph} {...props} />,
-  img: (props) => <img className={css.image} alt="" {...props} />,
+  img: (props) =>
+    props.src.startsWith('/') && localImages.hasOwnProperty(props.src) ? (
+      <Image className={css.image} image={localImages[props.src]} {...props} />
+    ) : (
+      <img className={css.image} {...props} />
+    ),
   a: ({ children, ...props }) => (
     <a className={css.a} {...props}>
       {children}
@@ -111,11 +118,32 @@ const components = {
     <div className={css.button}>
       <Button variant={'purple'} {...props} />
     </div>
+  ),
+  Video: (props) => (
+    <div className={css.video}>
+      <YouTubeVideo containerClassName={css.videoContainer} {...props} />
+    </div>
   )
+});
+
+const useLocalImages = (images) => {
+  return useMemo(() => {
+    const imagesObj = {};
+    for (let image of images) {
+      const {
+        file: { relativePath }
+      } = image;
+      imagesObj[`/${relativePath}`] =
+        image.file.childImageSharp.gatsbyImageData;
+    }
+    return imagesObj;
+  }, [images]);
 };
 
 const Guide = ({ data }) => {
-  const { mdx } = data;
+  const { mdx, images } = data;
+
+  const localImages = useLocalImages(images.nodes);
 
   return (
     <Layout title={mdx.frontmatter.title}>
@@ -146,7 +174,7 @@ const Guide = ({ data }) => {
         )}
       </ul>
       <Spacer />
-      <MDXProvider components={components}>
+      <MDXProvider components={components(localImages)}>
         <div className={css.root}>
           <MDXRenderer>{mdx.body}</MDXRenderer>
           <div className={css.guideBottomSpacer} />
@@ -164,6 +192,18 @@ export const query = graphql`
       tableOfContents
       frontmatter {
         title
+      }
+    }
+    images: allCoverImage(
+      filter: { file: { sourceInstanceName: { eq: "guides" } } }
+    ) {
+      nodes {
+        file {
+          relativePath
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }

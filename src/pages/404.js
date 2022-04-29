@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import { Heading1 } from '../components/Heading';
@@ -12,33 +13,58 @@ import SceneCharacter3 from '../images/characters/ThisDot_8.mini.svg';
 
 import * as css from '../styles/pages/404.module.css';
 
-const NotFoundPage = () => {
+const NotFoundPage = ({ data }) => {
+  const { title, description, links } = data.pageData.nodes[0];
   return (
     <Layout title="Page not found!">
       <Spacer />
       <div className={css.header}>
-        <Heading1 className={css.heading} variant="pink" as="h2">
-          Page not found!
+        <Heading1 className={css.heading} variant="pink">
+          {title}
         </Heading1>
+        <div className={css.scene}>
+          <SceneCharacter1 />
+          <SceneCharacter2 />
+          <SceneCharacter3 />
+          <SemiColonCharacter />
+        </div>
       </div>
-      <div className={css.scene}>
-        <SceneCharacter1 />
-        <SceneCharacter2 />
-        <SceneCharacter3 />
-        <SemiColonCharacter />
+      <div className={css.content}>
+        <div className={css.description}>
+          <p>{description}</p>
+        </div>
+        <div className={css.ctas}>
+          {links.map((link) => (
+            <div className={css.cta}>
+              <ButtonPanel
+                className={css.buttonPanel}
+                variant={link.color}
+                buttonText={link.page}
+                buttonLink={link.url}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-
-      <ButtonPanel
-        className={css.buttonPanel}
-        text="Oops! Sorry we couldn’t find what you were looking for."
-        buttonText="Go home"
-        buttonLink="/"
-        variant="pink"
-        smallWrap
-      />
       <Spacer pattern />
     </Layout>
   );
 };
+
+export const query = graphql`
+  query {
+    pageData: allNotFoundInfo {
+      nodes {
+        title
+        description
+        links {
+          page
+          url
+          color
+        }
+      }
+    }
+  }
+`;
 
 export default NotFoundPage;

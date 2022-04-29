@@ -3,7 +3,7 @@ const {
   mainTrack: mainTrackFormat,
   sideTrack: sideTrackFormat,
   contribution: contributionFormat,
-  faqOrder: faqOrderFormat,
+  faqPage: faqPageFormat,
   faq: faqFormat
 } = require('./file-formats.js');
 
@@ -244,7 +244,7 @@ const contentStructure = {
           files: {
             'index.json': {
               isRequired: true,
-              jsonFormat: faqOrderFormat,
+              jsonFormat: faqPageFormat,
               slugReferences: faqsOrderSlugReference
             },
             '': {

@@ -1,4 +1,5 @@
-import React, { memo, useState } from 'react';
+import React, { memo, useState, useEffect } from 'react';
+import { Link } from 'gatsby';
 import cn from 'classnames';
 
 import Image from './Image';
@@ -14,26 +15,36 @@ const ListItem = ({ item }) => {
   return <li>{text}</li>;
 };
 
-const Question = ({ variant, question, answer }) => {
+const Question = ({
+  variant,
+  pathPrefix,
+  slug,
+  question,
+  answer,
+  currentHash
+}) => {
   const [open, setOpen] = useState(false);
   const answerMainText = useLinkParsedText(answer.text);
 
+  useEffect(() => {
+    if (currentHash === `#${slug}`) setOpen(true);
+  }, []);
+
   return (
     <div
-      className={cn(
-        css.root,
-        { [css[variant]]: css[variant] },
-        { [css.opened]: open }
-      )}>
-      <div
+      id={slug}
+      className={cn(css.root, {
+        [css[variant]]: css[variant],
+        [css.open]: open
+      })}>
+      <Link
         className={css.summary}
         onClick={() => setOpen(!open)}
         onKeyPress={(e) => e.key === 'Enter' && setOpen(!open)}
-        role="button"
-        tabIndex="0">
+        to={`/${pathPrefix}#${slug}`}>
         <Open className={cn(css.icon, { [css.rotateIcon]: open })} />{' '}
         <p>{question}</p>
-      </div>
+      </Link>
       {open && (
         <div className={css.answer}>
           {answerMainText}

@@ -15,6 +15,7 @@ import { getReadableDate } from '../hooks';
 import * as css from './challenges.module.css';
 
 const ChallengesPage = ({ data, pageContext, location }) => {
+  const pageData = data.pageData.nodes[0];
   const challenges = data.challenges.nodes;
   const recentChallenge = data.recentChallenge.nodes[0];
   const languages = data.languages.nodes.map(({ value }) => value);
@@ -27,7 +28,8 @@ const ChallengesPage = ({ data, pageContext, location }) => {
 
   return (
     <ItemsPage
-      title="Challenges"
+      title={pageData.title}
+      description={pageData.description}
       location={location}
       itemsPath="challenges"
       variant="cyan"
@@ -39,7 +41,8 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       topics={topics}
       midSection={
         <RecentChallenge
-          challenge={recentChallenge}
+          featuredChallengeTitle={pageData.featuredText}
+          challenge={pageData.featuredChallenge ?? recentChallenge}
           placeholderImage={challengesPlaceholder}
         />
       }
@@ -68,14 +71,18 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   );
 };
 
-const RecentChallenge = ({ challenge, placeholderImage }) => {
+const RecentChallenge = ({
+  featuredChallengeTitle,
+  challenge,
+  placeholderImage
+}) => {
   const { title, date, slug, description, cover } = challenge;
   return (
     <div className={css.recentChallenge}>
       <div className={css.left}>
         <div className={css.info}>
           <h2 className={css.heading}>
-            Check out our newest challenge: <br />
+            {featuredChallengeTitle} <br />
             {title}
           </h2>
           <p>{description}</p>
@@ -117,6 +124,26 @@ const RecentChallenge = ({ challenge, placeholderImage }) => {
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+    pageData: allChallengesPageInfo {
+      nodes {
+        title
+        description
+        featuredText
+        featuredChallenge {
+          title
+          date
+          slug
+          description
+          cover {
+            file {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+    }
     challenges: allChallenge(
       filter: {
         languagesFlat: { regex: $language }
