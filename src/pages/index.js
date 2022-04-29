@@ -8,7 +8,7 @@ import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
 import Image from '../components/Image';
 
-import Train from '../images/train.svg';
+import Train from '../images/characters/homepage-illustration.svg';
 import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 import BracketsCharacter from '../images/characters/SquareBrackets_2.mini.svg';
 import SquareCharacter from '../images/characters/Square_4.mini.svg';

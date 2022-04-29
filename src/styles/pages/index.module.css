@@ -13,7 +13,7 @@
 .header {
   position: relative;
   margin-top: 1px;
-  height: var(--baseline-10x);
+  height: var(--baseline-8x);
   background-color: var(--pink-tint);
   border-bottom: var(--border);
   border-left: var(--border);
