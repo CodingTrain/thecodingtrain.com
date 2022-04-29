@@ -1,4 +1,6 @@
 {
   "title": "Challenges",
-  "description": "Ready to apply what you’ve learned in the Tracks? Try a Challenge! These one-off project videos build off concepts introduced in Tracks and may have prerequisites (listed on the challenge page itself)."
+  "description": "Ready to apply what you’ve learned in the Tracks? Try a Challenge! These one-off project videos build off concepts introduced in Tracks and may have prerequisites (listed on the challenge page itself).",
+  "featuredText": "Featured Challenge:",
+  "featuredChallenge": "166-image-to-ascii"
 }

@@ -465,28 +465,84 @@ exports.createAboutPageRelatedNodes = (
 };
 
 /**
- * Creates Page Data nodes from JSON file node
+ * Creates Guides Page Data nodes from JSON file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createNodeId - Gatsby's createNodeId function
  * @param {function} createContentDigest - Gatsby's createContentDigest function
  * @param {object} node - JSON file node
  * @param {object} parent - Parent node of node
  */
-exports.createPageRelatedNodes = (
+exports.createGuidesPageRelatedNodes = (
   createNode,
   createNodeId,
   createContentDigest,
   node,
   parent
 ) => {
-  const { name } = node;
   const data = getJson(node);
   const newNode = Object.assign({}, data, {
-    id: createNodeId(`--page-info/${parent.sourceInstanceName}`),
+    id: createNodeId(`--guides-page-info`),
     parent: node.id,
     source: parent.sourceInstanceName,
     internal: {
-      type: `PageInfo`,
+      type: `GuidesPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates Tracks Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createTracksPageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--tracks-page-info`),
+    parent: node.id,
+    internal: {
+      type: `TracksPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates Challenges Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createChallengesPageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--challenges-page-info`),
+    parent: node.id,
+    featuredChallenge: createNodeId(
+      `--videos/challenges/${data.featuredChallenge}`
+    ),
+    internal: {
+      type: `ChallengesPageInfo`,
       contentDigest: createContentDigest(data)
     }
   });

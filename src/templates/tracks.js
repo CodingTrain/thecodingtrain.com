@@ -65,7 +65,7 @@ const TracksPage = ({ data, pageContext, location }) => {
 
 export const query = graphql`
   query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
-    pageData: allPageInfo(filter: { source: { eq: "tracks-page-data" } }) {
+    pageData: allTracksPageInfo {
       nodes {
         title
         description

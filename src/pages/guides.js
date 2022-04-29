@@ -81,7 +81,7 @@ const GuidesPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    pageData: allPageInfo(filter: { source: { eq: "guides" } }) {
+    pageData: allGuidesPageInfo {
       nodes {
         title
         description

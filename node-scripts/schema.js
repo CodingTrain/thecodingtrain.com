@@ -173,10 +173,21 @@ type Guide implements Node {
   cover: CoverImage @link
 }
 
-type PageInfo implements Node {
+type TrackPageInfo implements Node {
   title: String!
   description: String!
-  source: String!
+}
+
+type ChallengesPageInfo implements Node {
+  title: String!
+  description: String!
+  featuredText: String!
+  featuredChallenge: Challenge @link
+}
+
+type GuidesPageInfo implements Node {
+  title: String!
+  description: String!
 }
 
 type NotFoundInfo implements Node {
