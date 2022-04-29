@@ -48,7 +48,7 @@ Working with “version control” software (like [git](https://git-scm.com/)) a
 
 When you have some code you want to share or publish online outside of the web editor, you’ll want to consider signing up for a GitHub account and learning the basics of version control. You can use this web site ([all of the source code and content is on GitHub](https://github.com/designsystemsinternational/thecodingtrain.com)) as a place for you to learn!
 
-<Video videoId="BCQHnlnPusY" listId="PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X" />
+<Video videoId="BCQHnlnPusY" listId="PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV" />
 
 To learn more, take a ride on the [“Git and GitHub for Poets” track](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X). This series is a primer on version control and the difference between git software and the GitHub website.
 
