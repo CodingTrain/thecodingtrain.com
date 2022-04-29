@@ -381,6 +381,11 @@
 
 .support .left {
   flex: 55%;
+  display: flex;
+  flex-direction: column;
+  & .subheading h2 {
+    overflow: initial;
+  }
 }
 
 .support .right {
@@ -388,8 +393,7 @@
 }
 
 .support .descriptionBlock {
-  height: 100%;
-
+  flex-grow: 1;
   & p {
     max-width: 100%;
   }
@@ -482,9 +486,6 @@
 
   .support .descriptionBlock {
     height: var(--baseline-3x);
-    & p {
-      max-width: 70%;
-    }
   }
 }
 

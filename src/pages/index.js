@@ -358,11 +358,14 @@ const IndexPage = ({ data }) => {
 
         <Spacer pattern size="x2" />
 
-        <Heading2 className={css.subheading} variant="orange" as="h3">
-          {content.support.title}
-        </Heading2>
         <div className={css.support}>
           <div className={css.left}>
+            <div className={css.subheader}>
+              <Heading2 className={css.subheading} variant="orange">
+                {content.support.title}
+              </Heading2>
+            </div>
+
             <div className={css.descriptionBlock}>
               <p>{content.support.description}</p>
             </div>
