@@ -9,7 +9,7 @@
     "guideCta": {
       "text": "We’ve created a simple guide to help you get started",
       "buttonText": "guide the ride",
-      "href": "/get-started"
+      "href": "/guides/getting-started"
     },
     "discordCta": {
       "text": "have questions? our community is here to help",
