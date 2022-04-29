@@ -135,11 +135,13 @@ const contribution = {
   }
 };
 
-const faqOrder = {
-  name: 'faqOrder',
+const faqPage = {
+  name: 'faqPage',
   init: {
     type: 'object',
     properties: {
+      title: { type: 'string', isRequired: true },
+      description: { type: 'string', isRequired: true },
       sections: {
         isRequired: true,
         type: 'array',
@@ -233,7 +235,7 @@ module.exports = {
   sideTrack,
   contribution,
   faq,
-  faqOrder,
+  faqPage,
   talk,
   collaborators
 };

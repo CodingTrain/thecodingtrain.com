@@ -38,30 +38,35 @@ const linkRegEx = /\[[^[\]]*\]\([^()]*\)/g;
 
 export const useLinkParsedText = (text) =>
   useMemo(() => {
-    const result = [];
-    let keyIndex = 0;
-    let currentIndex = 0;
-    let match;
-    while ((match = linkRegEx.exec(text)) !== null) {
-      result.push(
-        <span key={keyIndex}>{text.substring(currentIndex, match.index)}</span>
-      );
-      keyIndex += 1;
-      const linkText = match[0].substring(1, match[0].indexOf(']'));
-      const linkUrl = match[0].substring(
-        match[0].indexOf('(') + 1,
-        match[0].indexOf(')')
-      );
-      result.push(
-        <a key={keyIndex} href={linkUrl}>
-          {linkText}
-        </a>
-      );
-      keyIndex += 1;
-      currentIndex = linkRegEx.lastIndex;
-    }
-    result.push(text.substring(currentIndex, text.length));
-    return result;
+    return text.split('\n').map((paragraphText, pIndex) => {
+      const result = [];
+
+      let keyIndex = 0;
+      let currentIndex = 0;
+      let match;
+      while ((match = linkRegEx.exec(paragraphText)) !== null) {
+        result.push(
+          <span key={`${pIndex}-${keyIndex}`}>
+            {paragraphText.substring(currentIndex, match.index)}
+          </span>
+        );
+        keyIndex += 1;
+        const linkText = match[0].substring(1, match[0].indexOf(']'));
+        const linkUrl = match[0].substring(
+          match[0].indexOf('(') + 1,
+          match[0].indexOf(')')
+        );
+        result.push(
+          <a key={`${pIndex}-${keyIndex}`} href={linkUrl}>
+            {linkText}
+          </a>
+        );
+        keyIndex += 1;
+        currentIndex = linkRegEx.lastIndex;
+      }
+      result.push(paragraphText.substring(currentIndex, paragraphText.length));
+      return <p key={pIndex}>{result}</p>;
+    });
   }, [text]);
 
 const scrollPositions = {};

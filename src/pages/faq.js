@@ -7,6 +7,8 @@ import { Heading1 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import Question from '../components/Question';
 
+import { useLinkParsedText } from '../hooks';
+
 import BracketsCharacter1 from '../images/characters/CurlyBrackets_3.mini.svg';
 import BracketsCharacter2 from '../images/characters/CurlyBrackets_2.mini.svg';
 import BracketsCharacter3 from '../images/characters/CurlyBrackets_1.mini.svg';
@@ -14,27 +16,22 @@ import BracketsCharacter4 from '../images/characters/CurlyBrackets_4.mini.svg';
 
 import * as css from '../styles/pages/faq.module.css';
 
-const FAQPage = ({ data }) => {
-  const { sections } = data.order.nodes[0];
+const FAQPage = ({ data, location }) => {
+  const { title, description, sections } = data.page.nodes[0];
+  const currentHash = location.hash;
+  const parsedDescription = useLinkParsedText(description);
   return (
     <Layout>
       <Spacer />
       <div className={css.header}>
         <Heading1 className={css.heading} variant="pink">
-          FAQ
+          {title}
         </Heading1>
         <div className={css.character}>
           <BracketsCharacter1 />
         </div>
       </div>
-      <div className={css.description}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-      </div>
+      <div className={css.description}>{parsedDescription}</div>
       <CharacterSpacer
         className={css.sep}
         variant="pink"
@@ -50,7 +47,13 @@ const FAQPage = ({ data }) => {
             <div>
               <h3 className={css.title}>{section.title}</h3>
               {section.questions.map((question, index) => (
-                <Question key={index} variant="pink" {...question} />
+                <Question
+                  key={index}
+                  variant="pink"
+                  pathPrefix="faq"
+                  currentHash={currentHash}
+                  {...question}
+                />
               ))}
             </div>
             <CharacterSpacer
@@ -75,11 +78,14 @@ const FAQPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    order: allFaqOrder {
+    page: allFaqPage {
       nodes {
+        title
+        description
         sections {
           title
           questions {
+            slug
             question
             answer {
               text

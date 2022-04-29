@@ -386,18 +386,15 @@ exports.createFAQRelatedNode = (
       sections.push(sectionNode);
     }
 
-    const newNode = Object.assign(
-      {},
-      {
-        id: createNodeId('--faqOrder'),
-        parent: node.id,
-        sections: sections.map((s) => s.id),
-        internal: {
-          type: `FAQOrder`,
-          contentDigest: createContentDigest(data)
-        }
+    const newNode = Object.assign(data, {
+      id: createNodeId('--faqPage'),
+      parent: node.id,
+      sections: sections.map((s) => s.id),
+      internal: {
+        type: `FAQPage`,
+        contentDigest: createContentDigest(data)
       }
-    );
+    });
     createNode(newNode);
   }
 };
@@ -452,13 +449,127 @@ exports.createAboutPageRelatedNodes = (
   const newNode = Object.assign({}, data, {
     id: createNodeId(`--about-page`),
     parent: node.id,
-    cover: createNodeId(`cover-image/about-page/${data.cover}`),
+    covers: data.covers.map((cover) =>
+      createNodeId(`cover-image/about-page/${cover}`)
+    ),
     featured: data.featured.map((f) => ({
       ...f,
       thumbnail: createNodeId(`cover-image/about-page/${f.thumbnail}`)
     })),
     internal: {
       type: `AboutPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates Guides Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createGuidesPageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--guides-page-info`),
+    parent: node.id,
+    source: parent.sourceInstanceName,
+    internal: {
+      type: `GuidesPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates Tracks Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createTracksPageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--tracks-page-info`),
+    parent: node.id,
+    internal: {
+      type: `TracksPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates Challenges Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createChallengesPageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--challenges-page-info`),
+    parent: node.id,
+    featuredChallenge: createNodeId(
+      `--videos/challenges/${data.featuredChallenge}`
+    ),
+    internal: {
+      type: `ChallengesPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates 404 Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.create404PageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--page-info/404`),
+    parent: node.id,
+    internal: {
+      type: `NotFoundInfo`,
       contentDigest: createContentDigest(data)
     }
   });
