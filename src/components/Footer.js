@@ -119,10 +119,10 @@ const Footer = () => {
       <div className={css.navBox}>
         <ul>
           <li className={css.title}>
-            <Link to="/getting-started">Getting started</Link>
+            <Link to="/guides/getting-started">Getting started</Link>
           </li>
           <li>
-            <Link to="/getting-started"> Guide</Link>
+            <Link to="/guides/getting-started"> Guide</Link>
           </li>
           <li>
             <Link to="/faq">FAQs</Link>
