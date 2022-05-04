@@ -222,7 +222,13 @@ type FAQ implements Node {
 type Answer implements Node {
   text: String!
   list: [String]
+  video: YouTubeVideoId
   image: CoverImage @link
+}
+
+type YouTubeVideoId implements Node {
+  id: String!
+  list: String
 }
 
 type CoverImage implements Node {
