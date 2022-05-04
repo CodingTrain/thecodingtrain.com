@@ -88,4 +88,8 @@
   .sep {
     display: block;
   }
+
+  .spacer {
+    display: none;
+  }
 }
