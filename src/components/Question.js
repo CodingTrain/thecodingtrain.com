@@ -1,8 +1,8 @@
 import React, { memo, useState, useEffect } from 'react';
-import { Link } from 'gatsby';
 import cn from 'classnames';
 
 import Image from './Image';
+import YouTubeVideo from './YouTubeVideo';
 
 import * as css from './Question.module.css';
 
@@ -15,14 +15,7 @@ const ListItem = ({ item }) => {
   return <li>{text}</li>;
 };
 
-const Question = ({
-  variant,
-  pathPrefix,
-  slug,
-  question,
-  answer,
-  currentHash
-}) => {
+const Question = ({ variant, slug, question, answer, currentHash }) => {
   const [open, setOpen] = useState(false);
   const answerMainText = useLinkParsedText(answer.text);
 
@@ -37,14 +30,23 @@ const Question = ({
         [css[variant]]: css[variant],
         [css.open]: open
       })}>
-      <Link
+      <div
         className={css.summary}
         onClick={() => setOpen(!open)}
         onKeyPress={(e) => e.key === 'Enter' && setOpen(!open)}
-        to={`/${pathPrefix}#${slug}`}>
-        <Open className={cn(css.icon, { [css.rotateIcon]: open })} />{' '}
+        role="button"
+        tabIndex="0">
+        <Open className={cn(css.icon, { [css.rotateIcon]: open })} />
         <p>{question}</p>
-      </Link>
+        {open && (
+          <a
+            className={css.permalink}
+            href={`#${slug}`}
+            onClick={(e) => e.stopPropagation()}>
+            #
+          </a>
+        )}
+      </div>
       {open && (
         <div className={css.answer}>
           {answerMainText}
@@ -60,6 +62,14 @@ const Question = ({
               image={answer.image.file.childImageSharp.gatsbyImageData}
               pictureClassName={css.picture}
               imgClassName={css.image}
+            />
+          )}
+          {answer.video && (
+            <YouTubeVideo
+              containerClassName={css.videoContainer}
+              className={css.video}
+              videoId={answer.video.id}
+              listId={answer.video.list}
             />
           )}
         </div>

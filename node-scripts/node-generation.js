@@ -359,8 +359,7 @@ exports.createFAQRelatedNode = (
         contentDigest: createContentDigest(data)
       },
       answer: {
-        text: data.answer.text,
-        list: data.answer.list,
+        ...data.answer,
         image: createNodeId(`cover-image/faqs/${name}`)
       }
     });
