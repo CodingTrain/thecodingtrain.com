@@ -519,10 +519,13 @@
 
 @media (--xsmall) {
   .header {
-    height: var(--baseline-12x);
+    height: var(--baseline-11x);
   }
   .train {
     height: var(--baseline-3x);
     width: 300px;
+  }
+  .subheader {
+    overflow: hidden;
   }
 }
