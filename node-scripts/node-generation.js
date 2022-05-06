@@ -219,85 +219,68 @@ exports.createTrackRelatedNode = (
   const data = getJson(node);
   const type = trackType.replace('-tracks', '');
   let numVideos = 0;
+  const chapters = [];
 
-  if (type === 'main') {
-    // Make Chapter nodes for only main tracks
-    const chapters = [];
-    if (node.chapters) {
-      for (let i = 0; i < node.chapters.length; i++) {
-        const chapter = node.chapters[i];
-        const data = omit(chapter, ['videos']);
+  // Make Chapter nodes if there are chapters defined
+  if (node.chapters) {
+    for (let i = 0; i < node.chapters.length; i++) {
+      const chapter = node.chapters[i];
+      const data = omit(chapter, ['videos']);
 
-        const newNode = Object.assign({}, data, {
-          id: createNodeId(`${slug}/${data.title}`),
-          parent: id,
-          track: id,
-          videos: chapter.videos.map((videoSlug) =>
-            createNodeId(`--videos/${videoSlug}`)
-          ),
-          internal: {
-            type: `Chapter`,
-            contentDigest: createContentDigest(data)
-          }
-        });
-        chapters.push(newNode);
-        numVideos += chapter.videos.length;
-      }
+      const newNode = Object.assign({}, data, {
+        id: createNodeId(`${slug}/${data.title}`),
+        parent: id,
+        track: id,
+        videos: chapter.videos.map((videoSlug) =>
+          createNodeId(`--videos/${videoSlug}`)
+        ),
+        internal: {
+          type: `Chapter`,
+          contentDigest: createContentDigest(data)
+        }
+      });
+      chapters.push(newNode);
+      numVideos += chapter.videos.length;
     }
-    const [languages, topics] = computeTrackTags(
-      parent.relativeDirectory,
-      trackType
-    );
-    const newNode = Object.assign({}, data, {
-      id,
-      parent: node.id,
-      type,
-      slug,
-      chapters: chapters.map((ch) => ch.id),
-      numVideos,
-      cover: createNodeId(`cover-image/main-tracks/${slug}`),
-      languages,
-      languagesFlat: languages.join(),
-      topics,
-      topicsFlat: topics.join(),
-      internal: {
-        type: `Track`,
-        contentDigest: createContentDigest(data)
-      }
-    });
-    createNode(newNode);
+  } else {
+    numVideos += data.videos.length;
+  }
 
+  const [languages, topics] = computeTrackTags(
+    parent.relativeDirectory,
+    trackType
+  );
+  const newNode = Object.assign({}, data, {
+    id,
+    parent: node.id,
+    type,
+    slug,
+    numVideos,
+    cover: createNodeId(`cover-image/${trackType}/${slug}`),
+    languages,
+    languagesFlat: languages.join(),
+    topics,
+    topicsFlat: topics.join(),
+    internal: {
+      type: `Track`,
+      contentDigest: createContentDigest(data)
+    },
+    ...{
+      [chapters.length > 0 ? 'chapters' : 'videos']:
+        chapters.length > 0
+          ? chapters.map((ch) => ch.id)
+          : data.videos.map((videoSlug) =>
+              createNodeId(`--videos/${videoSlug}`)
+            )
+    }
+  });
+  createNode(newNode);
+
+  if (chapters.length > 0) {
     // Create Chapter nodes
     for (let i = 0; i < chapters.length; i++) {
       createNode(chapters[i]);
     }
-  } else if (type === 'side') {
-    // Side tracks only reference videos by slug
-    numVideos += data.videos.length;
-    const [languages, topics] = computeTrackTags(
-      parent.relativeDirectory,
-      trackType
-    );
-    const newNode = Object.assign({}, data, {
-      id,
-      parent: node.id,
-      slug,
-      type,
-      videos: data.videos.map((videoSlug) =>
-        createNodeId(`--videos/${videoSlug}`)
-      ),
-      numVideos,
-      cover: createNodeId(`cover-image/side-tracks/${slug}`),
-      languages,
-      languagesFlat: languages.join(),
-      topics,
-      topicsFlat: topics.join(),
-      internal: {
-        type: `Track`,
-        contentDigest: createContentDigest(data)
-      }
-    });
-    createNode(newNode);
   }
 };
 
