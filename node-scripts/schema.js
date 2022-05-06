@@ -98,7 +98,7 @@ type Contribution implements Node {
   url: String
   videoId: String
   source: String
-  video: Video! @link
+  video: VideoInterface! @link
   cover: CoverImage @link
 }
 
@@ -149,6 +149,7 @@ type Track implements Node {
   slug: String!
   type: String!
   description: String!
+  date: String
   chapters: [Chapter] @link
   videos: [VideoInterface] @link
   cover: CoverImage @link
@@ -282,5 +283,76 @@ type CollaboratorTeam implements Node {
 type Collaborator implements Node {
   name: String!
   url: String
+}
+
+type HomepageInfo implements Node {
+  header: PageSection!
+  newToCoding: NewToCodingSection!
+  tracks: TracksSection!
+  challenges: ChallengesSection!
+  passengerShowcase: PassengerSection!
+  events: EventsSection!
+  support: SupportSection!
+}
+
+type PageSection implements Node {
+  title: String!
+  description: String!
+}
+
+type NewToCodingSection implements Node {
+  title: String!
+  description: String!
+  guideCta: Cta!
+  discordCta: Cta!
+}
+
+type Cta implements Node {
+  text: String!
+  buttonText: String!
+  href: String!
+}
+
+type TracksSection implements Node {
+  title: String!
+  description: String!
+  featured: [Track]! @link
+  tracksCta: Cta!
+}
+
+type ChallengesSection implements Node {
+  title: String!
+  description: String!
+  featured: [Challenge]! @link
+  challengesCta: Cta!
+}
+
+type PassengerSection implements Node {
+  title: String!
+  featured: Contribution! @link
+  cta: Cta!
+}
+
+type EventsSection implements Node {
+  title: String!
+  comingEventsDescription: String!
+  noEventsDescription: String!
+  upcoming: [Event]!
+}
+
+type Event implements Node {
+  title: String!
+  description: String!
+  date: String!
+  time: String!
+  host: String!
+  type: String!
+  url: String!
+}
+
+type SupportSection implements Node {
+  title: String!
+  description: String!
+  options: [Cta]
 }
 `;

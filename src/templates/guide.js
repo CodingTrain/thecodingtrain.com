@@ -116,7 +116,7 @@ const components = (localImages) => ({
   hr: (props) => <Spacer className={css.breakSpacer} pattern {...props} />,
   Button: (props) => (
     <div className={css.button}>
-      <Button variant={'purple'} {...props} />
+      <Button variant={'purple'} {...props} rainbow />
     </div>
   ),
   Video: (props) => (

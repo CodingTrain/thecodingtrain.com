@@ -171,7 +171,7 @@ const ItemsPage = ({
       ) : (
         <div className={cn(css.noItemsMessage, { [css[variant]]: variant })}>
           <p>No {title} found! </p>
-          <Button variant={variant} onClick={() => resetFilters()}>
+          <Button variant={variant} onClick={() => resetFilters()} rainbow>
             Reset filters
           </Button>
           <SemiColon className={css.semiColon} />
