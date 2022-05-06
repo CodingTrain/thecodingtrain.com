@@ -33,6 +33,9 @@ const Card = ({ className, challenge, placeholderImage }) => {
               />
             ) : null}
           </Link>
+          <p className={css.year}>
+            <span>{date ? date.split('-')[0] : null}</span>
+          </p>
         </div>
         <div className={css.right}>
           <div className={css.description}>
