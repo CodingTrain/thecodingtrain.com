@@ -19,52 +19,16 @@ a.root {
   color: var(--gray-dark);
 }
 
-/*.root:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  transition: all .35s;
-
 a.root:hover {
   opacity: 1;
 }
-
-.root:hover{
-  color: #fff;
-}
-
-.root:hover:after{
-  width: 100%;
-}*/
-
-/*.root:hover {
-  background-position: left bottom; 
-}*/
 
 /* Variants */
 
 a.red,
 button.red {
   color: white;
-  background: linear-gradient(
-    to right,
-    #2dc5f4,
-    #f89e4f,
-    #9253a1,
-    #f063a4,
-    #f16164
-  );
   background-color: var(--red);
-  background-size: 1000% 100%;
-  background-position: right bottom;
-  transition: all 1s ease-out;
-}
-
-.red:hover {
-  background-position: left bottom;
 }
 
 a.orange,
@@ -76,81 +40,7 @@ button.orange {
 a.purple,
 button.purple {
   color: white;
-  background: linear-gradient(
-    to right,
-    #2dc5f4,
-    #f89e4f,
-    #f16164,
-    #f063a4,
-    #9253a1,
-    #2dc5f4
-  );
-  background-size: 4000%;
-}
-
-.purple:hover {
-  animation-name: moving;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.orange:hover {
-  animation-name: changecolor;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-.pink {
-  color: white;
-  background-color: var(--pink);
-}
-
-.pink:hover {
-  animation-name: changepink;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes changepink {
-  0% {
-    background: var(--pink);
-  }
-  100% {
-    background: var(--purple);
-  }
-}
-
-@keyframes changecolor {
-  0% {
-    background: #f89e4f;
-  }
-  25% {
-    background: #2dc5f4;
-  }
-  50% {
-    background: #9253a1;
-  }
-  75% {
-    background: #f16164;
-  }
-  100% {
-    background: #f063a4;
-  }
-}
-
-@keyframes moving {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: -500% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
+  background: var(--purple);
 }
 
 a.cyan,
@@ -163,4 +53,95 @@ a.pink,
 button.pink {
   color: white;
   background-color: var(--pink);
+}
+
+/* Rainbow */
+
+a.rainbow.red,
+button.rainbow.red {
+  background: linear-gradient(
+    to right,
+    var(--red),
+    var(--pink),
+    var(--purple),
+    var(--cyan),
+    var(--orange),
+    var(--red)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.orange,
+button.rainbow.orange {
+  background: linear-gradient(
+    to right,
+    var(--orange),
+    var(--red),
+    var(--pink),
+    var(--purple),
+    var(--cyan),
+    var(--orange)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.purple,
+button.rainbow.purple {
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--cyan),
+    var(--orange),
+    var(--red),
+    var(--pink),
+    var(--purple)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.pink,
+button.rainbow.pink {
+  background: linear-gradient(
+    to right,
+    var(--pink),
+    var(--purple),
+    var(--cyan),
+    var(--orange),
+    var(--red),
+    var(--pink)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.cyan,
+button.rainbow.cyan {
+  background: linear-gradient(
+    to right,
+    var(--cyan),
+    var(--orange),
+    var(--red),
+    var(--pink),
+    var(--purple),
+    var(--cyan)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+.rainbow.red:hover,
+.rainbow.orange:hover,
+.rainbow.purple:hover,
+.rainbow.pink:hover,
+.rainbow.cyan:hover {
+  background-position: left bottom;
+  transition: all 4s ease-out;
 }
