@@ -34,13 +34,13 @@ button.red {
 a.orange,
 button.orange {
   color: white;
-  background-color: var(--orange);
+  background: var(--orange);
 }
 
 a.purple,
 button.purple {
   color: white;
-  background-color: var(--purple);
+  background: var(--purple);
 }
 
 a.cyan,
@@ -53,4 +53,95 @@ a.pink,
 button.pink {
   color: white;
   background-color: var(--pink);
+}
+
+/* Rainbow */
+
+a.rainbow.red,
+button.rainbow.red {
+  background: linear-gradient(
+    to right,
+    var(--red),
+    var(--pink),
+    var(--purple),
+    var(--cyan),
+    var(--orange),
+    var(--red)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.orange,
+button.rainbow.orange {
+  background: linear-gradient(
+    to right,
+    var(--orange),
+    var(--red),
+    var(--pink),
+    var(--purple),
+    var(--cyan),
+    var(--orange)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.purple,
+button.rainbow.purple {
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--cyan),
+    var(--orange),
+    var(--red),
+    var(--pink),
+    var(--purple)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.pink,
+button.rainbow.pink {
+  background: linear-gradient(
+    to right,
+    var(--pink),
+    var(--purple),
+    var(--cyan),
+    var(--orange),
+    var(--red),
+    var(--pink)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+a.rainbow.cyan,
+button.rainbow.cyan {
+  background: linear-gradient(
+    to right,
+    var(--cyan),
+    var(--orange),
+    var(--red),
+    var(--pink),
+    var(--purple),
+    var(--cyan)
+  );
+  background-size: 20000% 100%;
+  background-position: right bottom;
+  transition: all 1s ease-out;
+}
+
+.rainbow.red:hover,
+.rainbow.orange:hover,
+.rainbow.purple:hover,
+.rainbow.pink:hover,
+.rainbow.cyan:hover {
+  background-position: left bottom;
+  transition: all 4s ease-out;
 }
