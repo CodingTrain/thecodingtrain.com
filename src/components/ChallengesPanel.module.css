@@ -117,7 +117,7 @@
   }
 }
 
-.year {
+.date {
   color: var(--cyan);
   background-color: var(--cyan-light);
   border-bottom: var(--border-cyan);
@@ -128,6 +128,7 @@
   & span {
     color: var(--cyan);
     border-bottom: none;
+    text-transform: uppercase;
   }
 
   & svg {
@@ -135,7 +136,7 @@
   }
 }
 
-.right .year {
+.right .date {
   display: none;
 }
 
@@ -164,11 +165,11 @@
     flex: none;
   }
 
-  .left .year {
+  .left .date {
     display: none;
   }
 
-  .right .year {
+  .right .date {
     display: flex;
   }
 
