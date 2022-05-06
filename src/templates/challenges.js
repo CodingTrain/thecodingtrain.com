@@ -76,14 +76,14 @@ const RecentChallenge = ({
   challenge,
   placeholderImage
 }) => {
-  const { title, date, slug, description, cover } = challenge;
+  const { title, date, slug, description, cover, videoNumber } = challenge;
   return (
     <div className={css.recentChallenge}>
       <div className={css.left}>
         <div className={css.info}>
           <h2 className={css.heading}>
             {featuredChallengeTitle} <br />
-            {title}
+            {videoNumber ? `#${videoNumber} — ` : ''} {title}
           </h2>
           <p>{description}</p>
         </div>
@@ -134,6 +134,7 @@ export const query = graphql`
           date
           slug
           description
+          videoNumber
           cover {
             file {
               childImageSharp {
@@ -158,6 +159,7 @@ export const query = graphql`
         slug
         description
         date
+        videoNumber
         cover {
           file {
             childImageSharp {

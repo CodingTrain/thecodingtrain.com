@@ -112,7 +112,7 @@ export const usePersistScrollPosition = (key, _namespace) => {
 };
 
 export const getReadableDate = (dateString) => {
-  const [year, month] = dateString.split('-');
+  const [year, month, date] = dateString.split('-');
   const months = {
     '01': 'jan',
     '02': 'feb',
@@ -127,5 +127,5 @@ export const getReadableDate = (dateString) => {
     11: 'nov',
     12: 'dic'
   };
-  return `${months[month]}, ${year}`;
+  return `${months[month]} ${date}, ${year}`;
 };

@@ -9,13 +9,18 @@ import { getReadableDate } from '../../hooks';
 import * as css from './Card.module.css';
 
 const Card = ({ className, challenge, placeholderImage }) => {
-  const { title, cover, description, date, slug } = challenge;
+  const { title, cover, description, date, slug, videoNumber } = challenge;
   return (
     <div className={cn(css.challenge, className)}>
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
         <span className={css.title}>
-          {<Link to={`/challenge/${slug}`}>{title}</Link>}
+          {
+            <Link to={`/challenge/${slug}`}>
+              {videoNumber ? `#${videoNumber} — ` : ''}
+              {title}
+            </Link>
+          }
         </span>
       </div>
       <div className={css.thumb}>

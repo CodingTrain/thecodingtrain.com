@@ -99,6 +99,7 @@ export const query = graphql`
       description
       languages
       topics
+      videoNumber
       timestamps {
         title
         time

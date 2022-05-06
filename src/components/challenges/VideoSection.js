@@ -8,7 +8,7 @@ import TimestampTimeline from '../TimestampTimeline';
 import * as css from './VideoSection.module.css';
 
 const VideoSection = ({ challenge }) => {
-  const { topics, languages, timestamps } = challenge;
+  const { topics, languages, timestamps, videoNumber, title } = challenge;
 
   const youTubeVideoRef = useRef();
   const [showTimeline, setShowTimeline] = useState(false);
@@ -35,7 +35,9 @@ const VideoSection = ({ challenge }) => {
     <div className={css.root}>
       <div className={css.header}>
         <div className={css.title}>
-          <h2>{challenge.title}</h2>
+          <h2>
+            {videoNumber ? `#${videoNumber} — ` : ''} {title}
+          </h2>
         </div>
         <div
           className={cn(css.details, {
