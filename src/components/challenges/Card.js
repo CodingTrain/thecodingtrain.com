@@ -19,7 +19,7 @@ const Card = ({ className, challenge, placeholderImage }) => {
         </span>
       </div>
       <div className={css.thumb}>
-        <div className={css.right}>
+        <div className={css.left}>
           <div className={css.description}>
             <p>{description}</p>
           </div>
@@ -27,7 +27,7 @@ const Card = ({ className, challenge, placeholderImage }) => {
             <span>{date ? getReadableDate(date) : null}</span>
           </p>
         </div>
-        <div className={css.left}>
+        <div className={css.right}>
           <Link to={`/challenge/${slug}`}>
             {cover ? (
               <Image
@@ -50,6 +50,9 @@ const Card = ({ className, challenge, placeholderImage }) => {
               />
             )}
           </Link>
+          <p className={css.date}>
+            <span>{date ? getReadableDate(date) : null}</span>
+          </p>
         </div>
       </div>
     </div>

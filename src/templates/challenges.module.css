@@ -94,13 +94,39 @@
     flex: 100%;
     height: var(--baseline);
   }
+
+  .right {
+    flex: 1 1 50%;
+  }
+
+  .left {
+    flex: 1 1 50%;
+  }
+}
+
+@media (--reduced) {
+  .recentChallenge {
+    flex-direction: column-reverse;
+  }
+
+  .right,
+  .left {
+    flex-basis: auto;
+  }
+
+  .right {
+    height: var(--baseline-7x);
+  }
 }
 
 @media (--small) {
-  .right {
-    display: none;
-  }
   .info {
     height: var(--baseline-6x);
+  }
+}
+
+@media (--xsmall) {
+  .right {
+    height: var(--baseline-5x);
   }
 }
