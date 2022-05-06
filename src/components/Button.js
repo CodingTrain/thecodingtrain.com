@@ -12,10 +12,12 @@ export const Button = ({
   onClick,
   children,
   disabled,
+  rainbow,
   ...otherProps
 }) => {
   const classes = classnames(css.root, className, {
-    [css[variant]]: css[variant]
+    [css[variant]]: css[variant],
+    [css.rainbow]: rainbow
   });
 
   return to ? (
@@ -43,7 +45,8 @@ Button.propTypes = {
   to: PropTypes.string,
   href: PropTypes.string,
   onClick: PropTypes.func,
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+  rainbow: PropTypes.bool
 };
 
 export default Button;

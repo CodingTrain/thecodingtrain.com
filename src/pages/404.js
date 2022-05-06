@@ -41,6 +41,7 @@ const NotFoundPage = ({ data }) => {
                 variant={link.color}
                 buttonText={link.page}
                 buttonLink={link.url}
+                rainbow
               />
             </div>
           ))}

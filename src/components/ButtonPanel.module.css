@@ -41,6 +41,11 @@
   border-color: var(--pink);
 }
 
+.cyan {
+  background-color: var(--cyan-light);
+  border-color: var(--cyan);
+}
+
 @media (--small) {
   .smallWrap {
     display: block;

@@ -91,6 +91,7 @@ const Card = ({
             buttonText="Go to track"
             buttonLink={path}
             variant={variant}
+            rainbow
           />
         </div>
         <div className={css.right}>

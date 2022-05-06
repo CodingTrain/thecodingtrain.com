@@ -24,6 +24,7 @@ const PagePanel = (props) => {
         <ButtonPanel
           className={css.buttonPanel}
           variant={variant}
+          rainbow
           {...buttonPanelProps}
         />
       </div>

@@ -118,6 +118,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'homepage-data',
+        path: './content/pages/homepage'
+      },
+      __key: 'homepage-data'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'tracks-page-data',
         path: './content/pages/tracks'
       },

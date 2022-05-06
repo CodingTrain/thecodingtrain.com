@@ -94,7 +94,7 @@
   --cyan-light: #eefbff;
   --pink: #f063a4;
   --pink-light: #ffebf4;
-  --pink-tint:  #fff7fa;
+  --pink-tint: #fff7fa;
   --orange: #f89e4f;
   --orange-light: #fff1e5;
   --purple: #9253a1;
@@ -110,6 +110,7 @@
   --border-red-light: 1px solid rgba(255, 0, 0, 0.1);
   --border-orange: 1px solid var(--orange);
   --border-cyan: 1px solid var(--cyan);
+  --border-pink: 1px solid var(--pink);
 
   --box-padding: 25px;
 
