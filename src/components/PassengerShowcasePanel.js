@@ -34,6 +34,7 @@ const PassengerShowcasePanel = ({ contributions, placeholderImage }) => {
         buttonText="Submit a contribution"
         buttonLink=""
         variant="purple"
+        rainbow
         className={css.showcasePanel}
         smallWrap={true}
       />

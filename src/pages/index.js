@@ -103,7 +103,7 @@ const EventRow = ({ event }) => {
           <p>{description}</p>
         </div>
         <div className={css.eventButton}>
-          <Button href={url} variant="pink">
+          <Button href={url} variant="pink" rainbow>
             GO
           </Button>
         </div>
@@ -154,6 +154,7 @@ const IndexPage = ({ data }) => {
               buttonText={content.newToCoding.guideCta.buttonText}
               buttonLink={content.newToCoding.guideCta.href}
               smallWrap
+              rainbow
             />
             <ButtonPanel
               className={css.baselineButtonPanel}
@@ -162,6 +163,7 @@ const IndexPage = ({ data }) => {
               buttonText={content.newToCoding.discordCta.buttonText}
               buttonLink={content.newToCoding.discordCta.href}
               smallWrap
+              rainbow
             />
           </div>
         </div>
@@ -184,6 +186,7 @@ const IndexPage = ({ data }) => {
           buttonText={content.tracks.tracksCta.buttonText}
           buttonLink={content.tracks.tracksCta.href}
           smallWrap
+          rainbow
         />
         <Spacer pattern />
         <div className={css.tracks}>
@@ -238,6 +241,7 @@ const IndexPage = ({ data }) => {
           buttonText={content.challenges.challengesCta.buttonText}
           buttonLink={content.challenges.challengesCta.href}
           smallWrap
+          rainbow
         />
         <Spacer pattern />
         <div className={css.challenges}>
@@ -309,6 +313,7 @@ const IndexPage = ({ data }) => {
                   : content.passengerShowcase.featured.source)
               }
               smallWrap
+              rainbow
             />
           </div>
           <div className={css.right}>
@@ -378,6 +383,7 @@ const IndexPage = ({ data }) => {
                 buttonLink={o.href}
                 variant="orange"
                 smallWrap
+                rainbow
               />
             ))}
           </div>

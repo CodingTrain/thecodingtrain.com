@@ -201,6 +201,7 @@ const ComponentsPage = ({ data }) => {
           buttonLink={'#'}
           variant={'red'}
           className={cn(col, css.box)}
+          rainbow
         />
         <ButtonPanel
           text={'Sounds interesting'}
@@ -208,6 +209,7 @@ const ComponentsPage = ({ data }) => {
           buttonLink={'#'}
           variant={'orange'}
           className={cn(col, css.box)}
+          rainbow
         />
       </div>
       <ButtonPanel
@@ -215,12 +217,14 @@ const ComponentsPage = ({ data }) => {
         buttonText={'Go to track'}
         buttonLink={'#'}
         variant={'purple'}
+        rainbow
       />
       <ButtonPanel
         text={'Sounds interesting'}
         buttonText={'Go to track'}
         buttonLink={'#'}
         variant={'pink'}
+        rainbow
       />
       <Spacer>Pattern</Spacer>
       <Spacer pattern />
