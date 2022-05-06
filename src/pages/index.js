@@ -4,8 +4,8 @@ import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import { Heading1 } from '../components/Heading';
-import HomepageScene from '../components/HomepageScene';
 import ButtonPanel from '../components/ButtonPanel';
+import HomepageScene from '../components/HomepageScene';
 import Spacer from '../components/Spacer';
 import Image from '../components/Image';
 
