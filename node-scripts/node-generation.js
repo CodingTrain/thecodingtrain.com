@@ -196,7 +196,7 @@ const computeTrackTags = (trackDirectory, type) => {
   }
   if (trackData !== undefined) {
     let videos = [];
-    if (type === 'main-tracks') {
+    if (trackData.chapters) {
       trackData.chapters.forEach((chapter) => {
         chapter.videos.forEach((video) => videos.push(video));
       });
