@@ -16,6 +16,7 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
+import { getReadableDate } from '../hooks';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
@@ -42,20 +43,22 @@ const TrackCard = ({ track, placeholderImage }) => {
         />
       </Link>
 
-      <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>
+      <p className={css.date}>{date ? getReadableDate(date) : ''}</p>
     </div>
   );
 };
 
 const ChallengeCard = ({ challenge, placeholderImage }) => {
-  const { title, cover, date, slug } = challenge;
+  const { title, cover, date, slug, videoNumber } = challenge;
   return (
     <div className={cn(css.card, css.challengeCard)}>
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
         <h2 className={css.smallTitle}>
-          <Link to={`tracks/${slug}`}>{title}</Link>
+          <Link to={`tracks/${slug}`}>
+            {videoNumber ? `#${videoNumber} — ` : ''} {title}
+          </Link>
         </h2>
       </div>
       <Link to={`challenge/${slug}`}>
@@ -70,7 +73,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         />
       </Link>
 
-      <p className={css.date}>{date ? date.substring(0, 4) : ''}</p>
+      <p className={css.date}>{date ? getReadableDate(date) : ''}</p>
     </div>
   );
 };
@@ -453,6 +456,7 @@ export const query = graphql`
           title
           date
           slug
+          videoNumber
           cover {
             file {
               childImageSharp {

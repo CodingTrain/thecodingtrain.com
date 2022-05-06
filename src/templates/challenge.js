@@ -99,6 +99,7 @@ export const query = graphql`
       description
       languages
       topics
+      videoNumber
       timestamps {
         title
         time
@@ -152,6 +153,7 @@ export const query = graphql`
         videoId
         description
         date
+        videoNumber
         cover {
           file {
             childImageSharp {

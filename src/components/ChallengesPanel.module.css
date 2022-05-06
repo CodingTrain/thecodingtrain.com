@@ -40,7 +40,7 @@
   border-left: var(--border-cyan);
 }
 
-@media (--xsmall) {
+@media (--reduced) {
   .spacer {
     height: var(--baseline);
   }
@@ -105,7 +105,7 @@
 }
 
 .description {
-  height: var(--baseline-3x);
+  height: var(--baseline-4x);
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
   background-color: white;
@@ -117,7 +117,7 @@
   }
 }
 
-.year {
+.date {
   color: var(--cyan);
   background-color: var(--cyan-light);
   border-bottom: var(--border-cyan);
@@ -128,6 +128,7 @@
   & span {
     color: var(--cyan);
     border-bottom: none;
+    text-transform: uppercase;
   }
 
   & svg {
@@ -135,12 +136,14 @@
   }
 }
 
+.right .date {
+  display: none;
+}
+
 .left {
   flex: 1 1 40%;
-  height: var(--baseline-4x);
+  height: var(--baseline-3x);
   background-color: var(--gray-light);
-  border-bottom: var(--border-cyan);
-  border-left: var(--border-cyan);
 }
 
 .picture {
@@ -151,16 +154,23 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-bottom: var(--border-cyan);
+  border-left: var(--border-cyan);
 }
 
-@media (--reduced) {
+@media (--medium) {
   .left {
     width: 100%;
+    height: var(--baseline-5x);
     flex: none;
   }
 
-  .icon {
+  .left .date {
     display: none;
+  }
+
+  .right .date {
+    display: flex;
   }
 
   .thumb {
@@ -168,12 +178,28 @@
   }
 }
 
-@media (--small) {
-  .titleBox p {
-    display: none;
-  }
+@media (--reduced) {
   .challenge {
     width: 100%;
     flex-basis: 100%;
+  }
+
+  .left {
+    height: var(--baseline-7x);
+  }
+}
+
+@media (--small) {
+  .icon {
+    display: none;
+  }
+  .titleBox p {
+    display: none;
+  }
+}
+
+@media (--xsmall) {
+  .left {
+    height: var(--baseline-5x);
   }
 }

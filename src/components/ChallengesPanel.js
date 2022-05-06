@@ -5,15 +5,20 @@ import cn from 'classnames';
 import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
+import { getReadableDate } from '../hooks';
 
 const Card = ({ className, challenge, placeholderImage }) => {
-  const { title, cover, description, date, slug } = challenge;
+  const { title, cover, description, date, slug, videoNumber } = challenge;
   return (
     <div className={cn(css.challenge, className)}>
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
         <span className={css.title}>
-          {<Link to={`/challenge/${slug}`}>{title}</Link>}
+          {
+            <Link to={`/challenge/${slug}`}>
+              {videoNumber ? `#${videoNumber} — ` : ''} {title}
+            </Link>
+          }
         </span>
       </div>
       <div className={css.thumb}>
@@ -33,13 +38,16 @@ const Card = ({ className, challenge, placeholderImage }) => {
               />
             ) : null}
           </Link>
+          <p className={css.date}>
+            <span>{date ? getReadableDate(date) : null}</span>
+          </p>
         </div>
         <div className={css.right}>
           <div className={css.description}>
             <p>{description}</p>
           </div>
-          <p className={css.year}>
-            <span>{date ? date.split('-')[0] : null}</span>
+          <p className={css.date}>
+            <span>{date ? getReadableDate(date) : null}</span>
           </p>
         </div>
       </div>
