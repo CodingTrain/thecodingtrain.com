@@ -11,7 +11,8 @@ const ButtonPanel = ({
   buttonLink,
   variant,
   className,
-  smallWrap
+  smallWrap,
+  rainbow
 }) => {
   return (
     <div
@@ -23,6 +24,7 @@ const ButtonPanel = ({
       <div className={css.buttonContainer}>
         <Button
           variant={variant}
+          rainbow={rainbow}
           {...{ [buttonLink.startsWith('/') ? 'to' : 'href']: buttonLink }}>
           {buttonText}
         </Button>

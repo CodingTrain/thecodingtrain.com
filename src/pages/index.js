@@ -340,7 +340,6 @@ const IndexPage = ({ data }) => {
               ? content.events.comingEventsDescription
               : content.events.noEventsDescription}
           </span>
-          <span></span>
         </p>
         {content.events.upcoming.length > 0 && (
           <>
