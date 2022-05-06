@@ -37,7 +37,6 @@ const Footer = () => {
           <Train />
         </div>
       </div>
-
       <div className={cn(css.box)}>
         <h3>
           <a href="https://discord.com/invite/hPuGy2g">The Cafe Car!</a>
@@ -55,7 +54,7 @@ const Footer = () => {
 
       <div className={cn(css.box)}>
         <h3>
-          <Link to="/showcase">Passenger Showcase!</Link>
+          <Link to="/#passenger-showcase">Passenger Showcase!</Link>
         </h3>
         <div className={css.action}>
           <p>
@@ -153,7 +152,7 @@ const Footer = () => {
         <ul>
           <li className={css.title}>Passengers</li>
           <li>
-            <Link to="/showcase">Showcase</Link>
+            <Link to="/#passenger-showcase">Showcase</Link>
           </li>
           <li>
             <a href="https://discord.com/invite/hPuGy2g">Discord</a>

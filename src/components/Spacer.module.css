@@ -17,3 +17,11 @@
   border-left: var(--border-orange);
   border-bottom: var(--border-orange);
 }
+
+.x2 {
+  height: var(--baseline-2x);
+}
+
+.x3 {
+  height: var(--baseline-3x);
+}
