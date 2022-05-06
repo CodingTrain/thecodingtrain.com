@@ -102,6 +102,12 @@
 @media (--medium) {
   .train {
     height: var(--baseline-5x);
+    bottom: 12px;
+  }
+
+  .trainTrack {
+    bottom: 0px;
+    height: var(--baseline-1of3);
   }
 
   .heading {
@@ -156,9 +162,15 @@
   }
 
   .train {
-    position: relative;
+    right: 50%;
+    bottom: 9px;
+    transform: translate(50%, 0);
     height: var(--baseline-3x);
-    width: 500px;
+  }
+
+  .trainTrack {
+    bottom: 0px;
+    height: var(--baseline-1of4);
   }
 
   .spacer {
@@ -221,8 +233,12 @@
 
 @media (--small) {
   .train {
-    width: 400px;
-    bottom: 9px;
+    bottom: 7px;
+  }
+
+  .trainTrack {
+    bottom: 0px;
+    height: var(--baseline-1of4);
   }
 
   .character {
@@ -266,7 +282,11 @@
 
   .train {
     height: var(--baseline-3x);
-    width: 300px;
+    bottom: 6px;
+  }
+
+  .trainTrack {
+    height: var(--baseline-1of5);
   }
 
   .subheader {

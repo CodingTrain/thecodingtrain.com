@@ -29,6 +29,7 @@ const HomepageScene = ({ title, description }) => {
         <Heading1 className={css.heading} variant="pink">
           {title}
         </Heading1>
+
         <Train className={css.train} />
         <TrainTrack className={css.trainTrack} />
         <p className={css.paragraph}>{description}</p>
