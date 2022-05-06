@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<g>
+	<g>
+		<circle fill="#FFF200" cx="75.2" cy="75.4" r="30.6"/>
+		<g>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="93.4" y1="43.8" x2="98.3" y2="35.1"/>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="57.1" y1="107.1" x2="52.2" y2="115.8"/>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="43.6" y1="57.3" x2="34.9" y2="52.4"/>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="106.9" y1="93.6" x2="115.6" y2="98.5"/>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="65.7" y1="40.2" x2="61" y2="22.9"/>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.8" y1="110.6" x2="89.5" y2="127.9"/>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="40" y1="85" x2="22.8" y2="89.7"/>
+			<line fill="none" stroke="#FFF540" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="110.5" y1="65.9" x2="127.7" y2="61.1"/>
+		</g>
+	</g>
+	<g>
+		<path fill="none" stroke="#FF9F4C" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M60.1,72.5c-1.1-6.7,0.6-12.6,3.7-13.1C67,59,70.4,64,71.5,70.7"/>
+		<path fill="none" stroke="#FF9F4C" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M85.7,68.5c-1.1-6.7,0.6-12.6,3.7-13.1c3.1-0.5,6.5,4.5,7.6,11.3"/>
+		<path fill="#FF9F4C" stroke="#FF9F4C" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M93.1,73.9c1.2,7.3-3.8,14.1-11,15.2s-14.1-3.8-15.2-11C71.5,77.4,88.9,74.6,93.1,73.9z"/>
+	</g>
+</g>
+</svg>

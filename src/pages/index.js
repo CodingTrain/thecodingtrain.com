@@ -3,12 +3,12 @@ import { Link, graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
-import { Heading1, Heading2 } from '../components/Heading';
+import { Heading1 } from '../components/Heading';
+import HomepageScene from '../components/HomepageScene';
 import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
 import Image from '../components/Image';
 
-import Train from '../images/characters/homepage-illustration.svg';
 import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 import BracketsCharacter from '../images/characters/SquareBrackets_2.mini.svg';
 import SquareCharacter from '../images/characters/Square_4.mini.svg';
@@ -24,9 +24,9 @@ const TrackCard = ({ track, placeholderImage }) => {
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
-        <h3 className={css.smallTitle}>
+        <h2 className={css.smallTitle}>
           <Link to={`tracks/${slug}`}>{title}</Link>
-        </h3>
+        </h2>
 
         <div className={css.numVideos}>{numVideos} videos</div>
       </div>
@@ -54,9 +54,9 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
-        <h3 className={css.smallTitle}>
+        <h2 className={css.smallTitle}>
           <Link to={`tracks/${slug}`}>{title}</Link>
-        </h3>
+        </h2>
       </div>
       <Link to={`challenge/${slug}`}>
         <Image
@@ -126,18 +126,17 @@ const IndexPage = ({ data }) => {
     <Layout>
       <div className={css.root}>
         <Spacer background="white" />
-        <div className={css.header}>
-          <Heading1 className={css.heading} variant="pink">
-            {content.header.title}
-          </Heading1>
-          <p>{content.header.description}</p>
-          <Train className={css.train} />
-        </div>
+
+        <HomepageScene
+          title={content.header.title}
+          description={content.header.description}
+        />
+
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading2 className={css.subheading} variant="orange" as="h1">
+          <Heading1 className={css.subheading} variant="orange" as="h1">
             {content.newToCoding.title}
-          </Heading2>
+          </Heading1>
           <div className={css.character}>
             <TriangleCharacter />
           </div>
@@ -168,9 +167,9 @@ const IndexPage = ({ data }) => {
         </div>
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading2 className={css.subheading} variant="red" as="h1">
+          <Heading1 className={css.subheading} variant="red" as="h1">
             {content.tracks.title}
-          </Heading2>
+          </Heading1>
           <div className={css.character}>
             <SquareCharacter />
           </div>
@@ -222,9 +221,9 @@ const IndexPage = ({ data }) => {
         </div>
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading2 className={css.subheading} variant="cyan" as="h1">
+          <Heading1 className={css.subheading} variant="cyan" as="h1">
             {content.challenges.title}
-          </Heading2>
+          </Heading1>
           <div className={css.character}>
             <BracketsCharacter />
           </div>
@@ -275,13 +274,13 @@ const IndexPage = ({ data }) => {
 
         <div className={css.showcase}>
           <div className={css.left}>
-            <Heading2
+            <Heading1
               id="passenger-showcase"
               className={css.subheading}
               variant="purple"
               as="h3">
               {content.passengerShowcase.title}
-            </Heading2>
+            </Heading1>
             <div className={css.details}>
               <p>
                 {content.passengerShowcase.featured.author.url ? (
@@ -328,9 +327,9 @@ const IndexPage = ({ data }) => {
 
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading2 className={css.subheading} variant="pink" as="h1">
+          <Heading1 className={css.subheading} variant="pink" as="h1">
             {content.events.title}
-          </Heading2>
+          </Heading1>
           <div className={css.character}>
             <SemiColonCharacter />
           </div>
@@ -361,9 +360,9 @@ const IndexPage = ({ data }) => {
         <div className={css.support}>
           <div className={css.left}>
             <div className={css.subheader}>
-              <Heading2 className={css.subheading} variant="orange">
+              <Heading1 className={css.subheading} variant="orange">
                 {content.support.title}
-              </Heading2>
+              </Heading1>
             </div>
 
             <div className={css.descriptionBlock}>
