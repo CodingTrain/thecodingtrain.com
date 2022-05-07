@@ -75,6 +75,7 @@ const track = {
     type: 'object',
     properties: {
       title: { isRequired: true, type: 'string' },
+      date: { type: 'string' },
       description: { isRequired: true, type: 'string' }
     }
   }
