@@ -155,24 +155,26 @@ const Guide = ({ data }) => {
         ]}
         variant="purple"
       />
-      <Heading1
-        variant="purple"
-        as="h2"
-        className={css.title}
-        borderBottom={false}>
-        {mdx.frontmatter.title}
-      </Heading1>
-      <ul className={css.index}>
-        <li className={css.indexLabel}>Table Of Contents</li>
-        {mdx.tableOfContents.items.map((item, index) => (
-          <a key={index} href={item.url} className={css.indexItem}>
-            <li>{item.title}</li>
-          </a>
-        ))}
-        {mdx.tableOfContents.items.length % 2 === 1 && (
-          <div className={css.itemSpacer} />
-        )}
-      </ul>
+      <header>
+        <Heading1
+          variant="purple"
+          as="h2"
+          className={css.title}
+          borderBottom={false}>
+          {mdx.frontmatter.title}
+        </Heading1>
+        <ul className={css.index}>
+          <li className={css.indexLabel}>Table Of Contents</li>
+          {mdx.tableOfContents.items.map((item, index) => (
+            <a key={index} href={item.url} className={css.indexItem}>
+              <li>{item.title}</li>
+            </a>
+          ))}
+          {mdx.tableOfContents.items.length % 2 === 1 && (
+            <div className={css.itemSpacer} />
+          )}
+        </ul>
+      </header>
       <Spacer />
       <MDXProvider components={components(localImages)}>
         <div className={css.root}>

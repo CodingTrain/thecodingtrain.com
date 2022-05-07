@@ -23,14 +23,14 @@ const FAQPage = ({ data, location }) => {
   return (
     <Layout>
       <Spacer />
-      <div className={css.header}>
+      <header className={css.header}>
         <Heading1 className={css.heading} variant="pink">
           {title}
         </Heading1>
         <div className={css.character}>
           <BracketsCharacter1 />
         </div>
-      </div>
+      </header>
       <div className={css.description}>{parsedDescription}</div>
       <CharacterSpacer
         className={css.sep}

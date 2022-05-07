@@ -93,14 +93,14 @@ const AboutPage = ({ data }) => {
   return (
     <Layout title="About">
       <Spacer />
-      <div className={css.row}>
+      <header className={css.row}>
         <Heading1 className={css.mainHeading} variant="purple">
           {title}
         </Heading1>
         <div className={css.train}>
           <PiRainbow className={css.trainIcon} />
         </div>
-      </div>
+      </header>
       <div className={css.aboutRow}>
         <div className={cn(css.aboutBlock, css.primaryAboutBlock)}>
           <div className={cn(css.aboutParagraph, css.danIntro)}>

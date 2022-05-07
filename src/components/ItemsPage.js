@@ -81,7 +81,7 @@ const ItemsPage = ({
   return (
     <Layout title={title}>
       <Spacer />
-      <div className={css.header}>
+      <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>
           {title}
         </Heading1>
@@ -91,7 +91,7 @@ const ItemsPage = ({
           })}>
           <Character />
         </div>
-      </div>
+      </header>
 
       <PagePanel
         className={css.panel}

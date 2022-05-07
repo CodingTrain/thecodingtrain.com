@@ -24,12 +24,12 @@ const GuidesPage = ({ data }) => {
   return (
     <Layout title={pageData.title}>
       <Spacer />
-      <div className={css.header}>
+      <header className={css.header}>
         <Heading1 className={css.heading} variant="purple">
           Guides
         </Heading1>
         <div className={css.character}>{<DotCharacter />}</div>
-      </div>
+      </header>
       <PagePanel
         className={css.panel}
         description={pageData.description}
