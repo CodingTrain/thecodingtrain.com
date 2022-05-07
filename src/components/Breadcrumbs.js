@@ -6,7 +6,7 @@ import * as css from './Breadcrumbs.module.css';
 
 const Breadcrumbs = ({ breadcrumbs, variant, className }) => {
   return (
-    <div className={cn(css.root, { [css[variant]]: css[variant] }, className)}>
+    <nav className={cn(css.root, { [css[variant]]: css[variant] }, className)}>
       {breadcrumbs.map((breadcrumb, i) => {
         const isString = typeof breadcrumb.link !== 'string';
         return (
@@ -22,7 +22,7 @@ const Breadcrumbs = ({ breadcrumbs, variant, className }) => {
           </span>
         );
       })}
-    </div>
+    </nav>
   );
 };
 

@@ -43,7 +43,7 @@ const Menu = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className={css.root}>
+    <nav className={css.root}>
       <button
         className={css.menuToggle}
         aria-label="Menu toggle"
@@ -78,7 +78,7 @@ const Menu = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </nav>
   );
 };
 

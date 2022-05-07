@@ -25,7 +25,7 @@ export const Tabs = ({ className, variant, labels, children }) => {
 
   return (
     <div className={cn(css.root, className, { [css[variant]]: variant })}>
-      <div className={css.tabs}>
+      <nav className={css.tabs}>
         <ul>
           {labels.map((label, key) => (
             <li
@@ -55,7 +55,7 @@ export const Tabs = ({ className, variant, labels, children }) => {
           ))}
         </ul>
         <ShareButton className={css.share} variant={variant} />
-      </div>
+      </nav>
       {Children.toArray(children).map((child, key) => (
         <div
           className={cn(css.component, {

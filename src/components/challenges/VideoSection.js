@@ -96,7 +96,7 @@ const VideoSection = ({ challenge }) => {
             className={cn(css.timelineContainer, {
               [css.unCollapsed]: showTimeline
             })}>
-            <div className={css.timelinesContent}>
+            <nav className={css.timelinesContent}>
               <div className={css.tabs}>
                 <div className={css.tab}>Timestamps</div>
               </div>
@@ -107,7 +107,7 @@ const VideoSection = ({ challenge }) => {
                   updateTimestamp={updateTimestamp}
                 />
               </div>
-            </div>
+            </nav>
           </div>
         )}
       </div>

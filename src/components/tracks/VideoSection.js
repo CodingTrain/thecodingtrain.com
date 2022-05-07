@@ -107,7 +107,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
           className={cn(css.timelineContainer, {
             [css.unCollapsed]: showTimeline
           })}>
-          <div className={css.timelinesContent}>
+          <nav className={css.timelinesContent}>
             <div className={css.tabs}>
               <div
                 className={cn(css.tab, {
@@ -157,7 +157,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
                 trackPosition={trackPosition}
               />
             </div>
-          </div>
+          </nav>
         </div>
       </div>
     </div>

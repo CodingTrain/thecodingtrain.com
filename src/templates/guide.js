@@ -163,17 +163,21 @@ const Guide = ({ data }) => {
           borderBottom={false}>
           {mdx.frontmatter.title}
         </Heading1>
-        <ul className={css.index}>
-          <li className={css.indexLabel}>Table Of Contents</li>
-          {mdx.tableOfContents.items.map((item, index) => (
-            <a key={index} href={item.url} className={css.indexItem}>
-              <li>{item.title}</li>
-            </a>
-          ))}
-          {mdx.tableOfContents.items.length % 2 === 1 && (
-            <div className={css.itemSpacer} />
-          )}
-        </ul>
+        <nav aria-labelledby="table-of-content-navigation">
+          <ul className={css.index}>
+            <li className={css.indexLabel} id="table-of-content-navigation">
+              Table Of Contents
+            </li>
+            {mdx.tableOfContents.items.map((item, index) => (
+              <a key={index} href={item.url} className={css.indexItem}>
+                <li>{item.title}</li>
+              </a>
+            ))}
+            {mdx.tableOfContents.items.length % 2 === 1 && (
+              <div className={css.itemSpacer} />
+            )}
+          </ul>
+        </nav>
       </header>
       <Spacer />
       <MDXProvider components={components(localImages)}>

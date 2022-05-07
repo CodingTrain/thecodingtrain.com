@@ -49,8 +49,13 @@ const SocialsSection = ({ socials }) => {
   return (
     <div className={css.links}>
       {socials.map((group, index) => (
-        <div className={css.socialRow} key={index}>
-          <span className={css.socialTitleGroup}>{group.title}: </span>
+        <nav
+          className={css.socialRow}
+          key={index}
+          aria-labelledby={`${group.title}`}>
+          <span id={group.title} className={css.socialTitleGroup}>
+            {group.title}:
+          </span>
           {group.links.map((link, linkIndex) => (
             <a
               href={link.url}
@@ -61,7 +66,7 @@ const SocialsSection = ({ socials }) => {
               <SocialIcon site={link.site} />
             </a>
           ))}
-        </div>
+        </nav>
       ))}
     </div>
   );
