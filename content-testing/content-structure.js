@@ -1,7 +1,6 @@
 const {
   video: videoFormat,
-  mainTrack: mainTrackFormat,
-  sideTrack: sideTrackFormat,
+  track: trackFormat,
   contribution: contributionFormat,
   faqPage: faqPageFormat,
   faq: faqFormat
@@ -9,8 +8,7 @@ const {
 
 const {
   video: videoSlugReferences,
-  mainTrack: mainTrackSlugReference,
-  sideTrack: sideTrackSlugReference,
+  track: trackSlugReference,
   faqsOrder: faqsOrderSlugReference
 } = require('./slug-references.js');
 
@@ -175,8 +173,8 @@ const contentStructure = {
               files: {
                 'index.json': {
                   isRequired: true,
-                  jsonFormat: mainTrackFormat,
-                  slugReferences: mainTrackSlugReference
+                  jsonFormat: trackFormat,
+                  slugReferences: trackSlugReference
                 },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
@@ -207,8 +205,8 @@ const contentStructure = {
               files: {
                 'index.json': {
                   isRequired: true,
-                  jsonFormat: sideTrackFormat,
-                  slugReferences: sideTrackSlugReference
+                  jsonFormat: trackFormat,
+                  slugReferences: trackSlugReference
                 },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }

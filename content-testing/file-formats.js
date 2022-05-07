@@ -75,18 +75,10 @@ const track = {
     type: 'object',
     properties: {
       title: { isRequired: true, type: 'string' },
-      description: { isRequired: true, type: 'string' }
-    }
-  }
-};
-const mainTrack = {
-  name: 'main track',
-  init: {
-    type: 'object',
-    properties: {
-      ...track.init.properties,
+      description: { isRequired: true, type: 'string' },
       chapters: {
         isRequired: true,
+        requireAlternative: 'videos',
         type: 'array',
         content: {
           type: 'object',
@@ -99,17 +91,13 @@ const mainTrack = {
             }
           }
         }
+      },
+      videos: {
+        isRequired: true,
+        requireAlternative: 'chapters',
+        type: 'array',
+        content: { type: 'string' }
       }
-    }
-  }
-};
-const sideTrack = {
-  name: 'side track',
-  init: {
-    type: 'object',
-    properties: {
-      ...track.init.properties,
-      videos: { isRequired: true, type: 'array', content: { type: 'string' } }
     }
   }
 };
@@ -231,8 +219,7 @@ const collaborators = {
 
 module.exports = {
   video,
-  mainTrack,
-  sideTrack,
+  track,
   contribution,
   faq,
   faqPage,

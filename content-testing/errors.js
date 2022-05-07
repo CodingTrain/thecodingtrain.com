@@ -5,9 +5,12 @@ class MyError extends Error {
   }
 }
 class RequiredPropertyError extends MyError {
-  constructor(property, objectName) {
+  constructor(property, objectName, requireAlternative) {
     super(
-      `Required property '${property}' not present in ${objectName} object`
+      `Required property '${property}' not present in ${objectName} object` +
+        (requireAlternative
+          ? ` or their alternative '${requireAlternative}'`
+          : '')
     );
   }
 }

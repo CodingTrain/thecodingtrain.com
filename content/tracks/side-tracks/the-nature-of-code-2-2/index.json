@@ -1,0 +1,76 @@
+{
+  "title": "The Nature of Code 2",
+  "date": "2020-02-15",
+  "description": "Can the unpredictable evolutionary and emergent properties of nature be captured insoftware? Can understanding the mathematical principles behind the physical world world help to create digital worlds? This learning playlist focuses on the programming strategies and techniques behind computer simulations of natural systems. I'll explore topics ranging from basic mathematics and physics concepts to more advanced simulations of complex systems. Subjects covered include physics simulation, trigonometry, self-organization, genetic algorithms, and neural networks. This track accompanies https://natureofcode.com/",
+  "chapters": [
+    {
+      "title": "Welcome",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/welcome/welcome-to-the-nature-of-code-in-2020-p5js",
+        "tracks/main-tracks/nature-code-2/welcome/nature-of-code-2-introduction"
+      ]
+    },
+    {
+      "title": "Perlin Noise and p5.js Tutorial",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/perlin/perlin-noise-and-p5js-tutorial-intro",
+        "tracks/main-tracks/nature-code-2/perlin/perlin-noise-and-p5js-tutorial-noise-vs-random",
+        "tracks/main-tracks/nature-code-2/perlin/perlin-noise-and-p5js-tutorial-graphing-1d-perlin-noise"
+      ]
+    },
+    {
+      "title": "Vectors",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/1-vectors/1-what-is-a-vector",
+        "tracks/main-tracks/nature-code-2/1-vectors/2-vector-math",
+        "tracks/main-tracks/nature-code-2/1-vectors/3-random-vectors",
+        "tracks/main-tracks/nature-code-2/1-vectors/4-static-functions",
+        "tracks/main-tracks/nature-code-2/1-vectors/5-unit-vector",
+        "tracks/main-tracks/nature-code-2/1-vectors/6-acceleration-vector"
+      ]
+    },
+    {
+      "title": "Forces",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/2-forces/1-gravity-and-wind",
+        "tracks/main-tracks/nature-code-2/2-forces/2-mass-and-acceleration",
+        "tracks/main-tracks/nature-code-2/2-forces/3-friction-force",
+        "tracks/main-tracks/nature-code-2/2-forces/4-drag-force",
+        "tracks/main-tracks/nature-code-2/2-forces/5-gravitational-attraction"
+      ]
+    },
+    {
+      "title": "Angles",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/3-angles/1-angles-and-rotation",
+        "tracks/main-tracks/nature-code-2/3-angles/2-angular-motion",
+        "tracks/main-tracks/nature-code-2/3-angles/3-angles-and-vectors",
+        "tracks/main-tracks/nature-code-2/3-angles/4-polar-coordinates",
+        "tracks/main-tracks/nature-code-2/3-angles/5-harmonic-motion",
+        "tracks/main-tracks/nature-code-2/3-angles/6-graphing-sine-wave",
+        "tracks/main-tracks/nature-code-2/3-angles/7-additive-waves"
+      ]
+    },
+    {
+      "title": "Particles",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/4-particles/1-particle-system",
+        "tracks/main-tracks/nature-code-2/4-particles/2-particle-emitters",
+        "tracks/main-tracks/nature-code-2/4-particles/3-particle-inheritance",
+        "tracks/main-tracks/nature-code-2/4-particles/4-particle-textures"
+      ]
+    },
+    {
+      "title": "Autonomous Agents",
+      "videos": [
+        "tracks/main-tracks/nature-code-2/5-autonomous-agents/1-steering-agents",
+        "tracks/main-tracks/nature-code-2/5-autonomous-agents/2-seeking-a-target",
+        "tracks/main-tracks/nature-code-2/5-autonomous-agents/3-pursue-and-evade",
+        "tracks/main-tracks/nature-code-2/5-autonomous-agents/4-arrive-steering",
+        "tracks/main-tracks/nature-code-2/5-autonomous-agents/5-wander",
+        "tracks/main-tracks/nature-code-2/5-autonomous-agents/6-scalar-projection",
+        "tracks/main-tracks/nature-code-2/5-autonomous-agents/7-path-following"
+      ]
+    }
+  ]
+}

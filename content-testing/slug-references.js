@@ -4,20 +4,16 @@ const video = {
   relativePath: './content/videos/challenges'
 };
 
-const mainTrack = {
-  name: 'main track',
+const track = {
+  name: 'track',
   getSlugs: (track) => {
     let slugs = [];
     (track.chapters ?? []).forEach((chapter) => {
       slugs = [...slugs, ...chapter.videos];
     });
+    slugs = [...slugs, ...(track.videos ?? [])];
     return slugs;
   },
-  relativePath: './content/videos'
-};
-const sideTrack = {
-  name: 'side track',
-  getSlugs: (track) => track.videos ?? [],
   relativePath: './content/videos'
 };
 
@@ -35,7 +31,6 @@ const faqsOrder = {
 
 module.exports = {
   video,
-  mainTrack,
-  sideTrack,
+  track,
   faqsOrder
 };
