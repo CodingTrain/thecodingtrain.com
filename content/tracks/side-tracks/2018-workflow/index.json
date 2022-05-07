@@ -1,12 +1,12 @@
 {
-  "title": "2018 Workflow",
+  "title": "Workflow (2018)",
   "description": "Editor, shell, and more! In this side track I cover the tools I am currently using as part of my workflow.",
   "videos": [
-    "tracks/side-tracks/2018-workflow/1-intro-to-my-workflow",
-    "tracks/side-tracks/2018-workflow/2-visual-studio-code",
-    "tracks/side-tracks/2018-workflow/3-shell",
-    "tracks/side-tracks/2018-workflow/4-git",
-    "tracks/side-tracks/2018-workflow/5-node",
-    "tracks/side-tracks/2018-workflow/6-python-and-virtualenv"
+    "workflow/1-intro-to-my-workflow",
+    "workflow/2-visual-studio-code",
+    "workflow/3-shell",
+    "workflow/4-git",
+    "workflow/5-node",
+    "workflow/6-python-and-virtualenv"
   ]
 }
