@@ -2,7 +2,7 @@
   "title": "Workflow (2018)",
   "description": "Editor, shell, and more! In this side track I cover the tools I am currently using as part of my workflow.",
   "videos": [
-    "workflow/1-intro-to-my-workflow",
+    "workflow/1-intro",
     "workflow/2-visual-studio-code",
     "workflow/3-shell",
     "workflow/4-git",
