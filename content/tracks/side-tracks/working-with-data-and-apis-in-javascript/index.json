@@ -4,7 +4,7 @@
   "videos": [
     "tracks/main-tracks/code/intro/code-programming-with-p5-js-introduction",
     "challenges/16-l-system-fractal-trees",
-    "tracks/main-tracks/nature-code-2/p5-js-web-editor",
+    "tracks/main-tracks/code/intro/p5-js-web-editor",
     "challenges/163-bezier-curves"
   ]
 }
