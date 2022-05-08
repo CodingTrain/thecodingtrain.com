@@ -1,9 +1,0 @@
-{
-  "title": "Git and GitHub for Poets",
-  "description": "This course is designed to teach you the basics of working with git version control and the GitHub website.",
-  "videos": [
-    "tracks/main-tracks/code/intro/code-programming-with-p5-js-introduction",
-    "challenges/16-l-system-fractal-trees",
-    "tracks/main-tracks/nature-code-2/p5-js-web-editor"
-  ]
-}
