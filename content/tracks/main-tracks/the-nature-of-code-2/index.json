@@ -6,70 +6,70 @@
     {
       "title": "Welcome",
       "videos": [
-        "tracks/main-tracks/nature-code-2/welcome/welcome-to-the-nature-of-code-in-2020-p5js",
-        "tracks/main-tracks/nature-code-2/welcome/nature-of-code-2-introduction"
+        "noc/welcome/welcome-to-the-nature-of-code-in-2020-p5js",
+        "noc/welcome/nature-of-code-2-introduction"
       ]
     },
     {
       "title": "Perlin Noise and p5.js Tutorial",
       "videos": [
-        "tracks/main-tracks/nature-code-2/perlin/perlin-noise-and-p5js-tutorial-intro",
-        "tracks/main-tracks/nature-code-2/perlin/perlin-noise-and-p5js-tutorial-noise-vs-random",
-        "tracks/main-tracks/nature-code-2/perlin/perlin-noise-and-p5js-tutorial-graphing-1d-perlin-noise"
+        "noc/perlin/perlin-noise-and-p5js-tutorial-intro",
+        "noc/perlin/perlin-noise-and-p5js-tutorial-noise-vs-random",
+        "noc/perlin/perlin-noise-and-p5js-tutorial-graphing-1d-perlin-noise"
       ]
     },
     {
       "title": "Vectors",
       "videos": [
-        "tracks/main-tracks/nature-code-2/1-vectors/1-what-is-a-vector",
-        "tracks/main-tracks/nature-code-2/1-vectors/2-vector-math",
-        "tracks/main-tracks/nature-code-2/1-vectors/3-random-vectors",
-        "tracks/main-tracks/nature-code-2/1-vectors/4-static-functions",
-        "tracks/main-tracks/nature-code-2/1-vectors/5-unit-vector",
-        "tracks/main-tracks/nature-code-2/1-vectors/6-acceleration-vector"
+        "noc/1-vectors/1-what-is-a-vector",
+        "noc/1-vectors/2-vector-math",
+        "noc/1-vectors/3-random-vectors",
+        "noc/1-vectors/4-static-functions",
+        "noc/1-vectors/5-unit-vector",
+        "noc/1-vectors/6-acceleration-vector"
       ]
     },
     {
       "title": "Forces",
       "videos": [
-        "tracks/main-tracks/nature-code-2/2-forces/1-gravity-and-wind",
-        "tracks/main-tracks/nature-code-2/2-forces/2-mass-and-acceleration",
-        "tracks/main-tracks/nature-code-2/2-forces/3-friction-force",
-        "tracks/main-tracks/nature-code-2/2-forces/4-drag-force",
-        "tracks/main-tracks/nature-code-2/2-forces/5-gravitational-attraction"
+        "noc/2-forces/1-gravity-and-wind",
+        "noc/2-forces/2-mass-and-acceleration",
+        "noc/2-forces/3-friction-force",
+        "noc/2-forces/4-drag-force",
+        "noc/2-forces/5-gravitational-attraction"
       ]
     },
     {
       "title": "Angles",
       "videos": [
-        "tracks/main-tracks/nature-code-2/3-angles/1-angles-and-rotation",
-        "tracks/main-tracks/nature-code-2/3-angles/2-angular-motion",
-        "tracks/main-tracks/nature-code-2/3-angles/3-angles-and-vectors",
-        "tracks/main-tracks/nature-code-2/3-angles/4-polar-coordinates",
-        "tracks/main-tracks/nature-code-2/3-angles/5-harmonic-motion",
-        "tracks/main-tracks/nature-code-2/3-angles/6-graphing-sine-wave",
-        "tracks/main-tracks/nature-code-2/3-angles/7-additive-waves"
+        "noc/3-angles/1-angles-and-rotation",
+        "noc/3-angles/2-angular-motion",
+        "noc/3-angles/3-angles-and-vectors",
+        "noc/3-angles/4-polar-coordinates",
+        "noc/3-angles/5-harmonic-motion",
+        "noc/3-angles/6-graphing-sine-wave",
+        "noc/3-angles/7-additive-waves"
       ]
     },
     {
       "title": "Particles",
       "videos": [
-        "tracks/main-tracks/nature-code-2/4-particles/1-particle-system",
-        "tracks/main-tracks/nature-code-2/4-particles/2-particle-emitters",
-        "tracks/main-tracks/nature-code-2/4-particles/3-particle-inheritance",
-        "tracks/main-tracks/nature-code-2/4-particles/4-particle-textures"
+        "noc/4-particles/1-particle-system",
+        "noc/4-particles/2-particle-emitters",
+        "noc/4-particles/3-particle-inheritance",
+        "noc/4-particles/4-particle-textures"
       ]
     },
     {
       "title": "Autonomous Agents",
       "videos": [
-        "tracks/main-tracks/nature-code-2/5-autonomous-agents/1-steering-agents",
-        "tracks/main-tracks/nature-code-2/5-autonomous-agents/2-seeking-a-target",
-        "tracks/main-tracks/nature-code-2/5-autonomous-agents/3-pursue-and-evade",
-        "tracks/main-tracks/nature-code-2/5-autonomous-agents/4-arrive-steering",
-        "tracks/main-tracks/nature-code-2/5-autonomous-agents/5-wander",
-        "tracks/main-tracks/nature-code-2/5-autonomous-agents/6-scalar-projection",
-        "tracks/main-tracks/nature-code-2/5-autonomous-agents/7-path-following"
+        "noc/5-autonomous-agents/1-steering-agents",
+        "noc/5-autonomous-agents/2-seeking-a-target",
+        "noc/5-autonomous-agents/3-pursue-and-evade",
+        "noc/5-autonomous-agents/4-arrive-steering",
+        "noc/5-autonomous-agents/5-wander",
+        "noc/5-autonomous-agents/6-scalar-projection",
+        "noc/5-autonomous-agents/7-path-following"
       ]
     }
   ]
