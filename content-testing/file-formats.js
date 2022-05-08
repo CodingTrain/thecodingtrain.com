@@ -76,17 +76,7 @@ const track = {
     properties: {
       title: { isRequired: true, type: 'string' },
       date: { type: 'string' },
-      description: { isRequired: true, type: 'string' }
-    }
-  }
-};
-const mainTrack = {
-  name: 'main track',
-  init: {
-    type: 'object',
-    properties: {
-      ...track.init.properties,
->>>>>>> main
+      description: { isRequired: true, type: 'string' },
       chapters: {
         isRequired: true,
         requireAlternative: 'videos',
