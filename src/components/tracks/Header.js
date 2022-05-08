@@ -6,7 +6,7 @@ import Tags from '../Tags';
 import * as css from './Header.module.css';
 
 const Header = ({ track }) => {
-  const { title, description, topics, languages, type, numVideos } = track;
+  const { title, description, topics, languages, numVideos } = track;
 
   return (
     <div className={css.root}>
