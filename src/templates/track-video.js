@@ -64,6 +64,7 @@ const Track = ({ pageContext, data }) => {
         track={track}
         video={video}
         trackPosition={trackPosition}
+        mainTitle={!isTrackPage}
       />
       <div className={css.blankSep} />
       <VideoInfo
@@ -86,6 +87,7 @@ const Track = ({ pageContext, data }) => {
           <PassengerShowcasePanel
             contributions={video.showcase}
             placeholderImage={contributionsPlaceholder}
+            headerType={isTrackPage ? 'h3' : 'h2'}
           />
         </>
       )}
@@ -103,6 +105,7 @@ const Track = ({ pageContext, data }) => {
           <TrackChallengesPanel
             challenges={video.relatedChallenges}
             placeholderImage={challengesPlaceholder}
+            headerType={isTrackPage ? 'h3' : 'h2'}
           />
         </>
       )}

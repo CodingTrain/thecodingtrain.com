@@ -20,7 +20,8 @@
     font-size: var(--maru-medium);
   }
 
-  & h4 {
+  & h2,
+  & h3 {
     font-weight: 600;
   }
 
@@ -91,6 +92,8 @@
   border-bottom: var(--border);
   border-color: var(--cyan);
   color: var(--gray-mid);
+  font-weight: normal;
+  font-size: var(--maru-normal);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

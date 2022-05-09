@@ -150,7 +150,7 @@
   padding-bottom: calc(var(--baseline-box) / 15);
 }
 
-.top h5 {
+.top h3 {
   margin-left: var(--spacing-normal);
   font-size: var(--maru-medium);
   white-space: nowrap;

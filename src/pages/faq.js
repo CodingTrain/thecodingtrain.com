@@ -45,7 +45,7 @@ const FAQPage = ({ data, location }) => {
         {sections.map((section, sectionIndex) => (
           <Fragment key={sectionIndex}>
             <div>
-              <h3 className={css.title}>{section.title}</h3>
+              <h2 className={css.title}>{section.title}</h2>
               {section.questions.map(
                 (question, index) =>
                   console.log({ question }) || (

@@ -7,19 +7,25 @@ import Image from './Image';
 import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
 
-const Card = ({ className, challenge, placeholderImage }) => {
+const Card = ({
+  className,
+  challenge,
+  placeholderImage,
+  headerType = 'h3'
+}) => {
   const { title, cover, description, date, slug, videoNumber } = challenge;
+  const Header = headerType;
   return (
     <div className={cn(css.challenge, className)}>
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
-        <span className={css.title}>
+        <Header className={css.title}>
           {
             <Link to={`/challenge/${slug}`}>
               {videoNumber ? `#${videoNumber} — ` : ''} {title}
             </Link>
           }
-        </span>
+        </Header>
       </div>
       <div className={css.thumb}>
         <div className={css.left}>
@@ -55,11 +61,16 @@ const Card = ({ className, challenge, placeholderImage }) => {
   );
 };
 
-const ChallengesPanel = ({ challenges, placeholderImage }) => {
+const ChallengesPanel = ({
+  challenges,
+  placeholderImage,
+  headerType = 'h2'
+}) => {
+  const Header = headerType;
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
-        <h4>Try a challenge!</h4>
+        <Header>Try a challenge!</Header>
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
@@ -69,6 +80,7 @@ const ChallengesPanel = ({ challenges, placeholderImage }) => {
               className={css.challenge}
               challenge={challenge}
               placeholderImage={placeholderImage}
+              headerType={`h${parseFloat(headerType[1]) + 1}`}
             />
             {key !== challenges.length - 1 && (
               <div className={css.spacer}></div>

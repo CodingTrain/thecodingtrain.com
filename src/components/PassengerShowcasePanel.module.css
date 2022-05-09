@@ -22,7 +22,8 @@
     font-size: var(--maru-medium);
   }
 
-  & h4 {
+  & h2,
+  & h3 {
     font-weight: 600;
   }
 
@@ -75,6 +76,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-decoration: underline;
+  & > * {
+    font-weight: normal;
+    font-size: var(--maru-normal);
+  }
 }
 
 .author {

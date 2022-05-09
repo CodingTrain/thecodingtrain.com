@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
-import { Heading1 } from '../components/Heading';
+import { Heading2 } from '../components/Heading';
 import ButtonPanel from '../components/ButtonPanel';
 import HomepageScene from '../components/HomepageScene';
 import Spacer from '../components/Spacer';
@@ -25,9 +25,9 @@ const TrackCard = ({ track, placeholderImage }) => {
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
-        <h2 className={css.smallTitle}>
+        <h3 className={css.smallTitle}>
           <Link to={`tracks/${slug}`}>{title}</Link>
-        </h2>
+        </h3>
 
         <div className={css.numVideos}>{numVideos} videos</div>
       </div>
@@ -55,11 +55,11 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
-        <h2 className={css.smallTitle}>
+        <h3 className={css.smallTitle}>
           <Link to={`tracks/${slug}`}>
             {videoNumber ? `#${videoNumber} — ` : ''} {title}
           </Link>
-        </h2>
+        </h3>
       </div>
       <Link to={`challenge/${slug}`}>
         <Image
@@ -83,7 +83,7 @@ const EventRow = ({ event }) => {
   return (
     <div className={css.event}>
       <div className={css.left}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
       </div>
       <div className={css.center}>
         <p>
@@ -137,9 +137,9 @@ const IndexPage = ({ data }) => {
 
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading1 className={css.subheading} variant="orange" as="h1">
+          <Heading2 className={css.subheading} variant="orange" as="h1">
             {content.newToCoding.title}
-          </Heading1>
+          </Heading2>
           <div className={css.character}>
             <TriangleCharacter />
           </div>
@@ -172,9 +172,9 @@ const IndexPage = ({ data }) => {
         </div>
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading1 className={css.subheading} variant="red" as="h1">
+          <Heading2 className={css.subheading} variant="red" as="h1">
             {content.tracks.title}
-          </Heading1>
+          </Heading2>
           <div className={css.character}>
             <SquareCharacter />
           </div>
@@ -227,9 +227,9 @@ const IndexPage = ({ data }) => {
         </div>
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading1 className={css.subheading} variant="cyan" as="h1">
+          <Heading2 className={css.subheading} variant="cyan" as="h1">
             {content.challenges.title}
-          </Heading1>
+          </Heading2>
           <div className={css.character}>
             <BracketsCharacter />
           </div>
@@ -281,13 +281,13 @@ const IndexPage = ({ data }) => {
 
         <div className={css.showcase}>
           <div className={css.left}>
-            <Heading1
+            <Heading2
               id="passenger-showcase"
               className={css.subheading}
               variant="purple"
               as="h3">
               {content.passengerShowcase.title}
-            </Heading1>
+            </Heading2>
             <div className={css.details}>
               <p>
                 {content.passengerShowcase.featured.author.url ? (
@@ -335,9 +335,9 @@ const IndexPage = ({ data }) => {
 
         <Spacer pattern size="x2" />
         <div className={css.subheader}>
-          <Heading1 className={css.subheading} variant="pink" as="h1">
+          <Heading2 className={css.subheading} variant="pink" as="h1">
             {content.events.title}
-          </Heading1>
+          </Heading2>
           <div className={css.character}>
             <SemiColonCharacter />
           </div>
@@ -367,9 +367,9 @@ const IndexPage = ({ data }) => {
         <div className={css.support}>
           <div className={css.left}>
             <div className={css.subheader}>
-              <Heading1 className={css.subheading} variant="orange">
+              <Heading2 className={css.subheading} variant="orange">
                 {content.support.title}
-              </Heading1>
+              </Heading2>
             </div>
 
             <div className={css.descriptionBlock}>

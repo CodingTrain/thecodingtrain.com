@@ -46,7 +46,7 @@
   text-transform: uppercase;
   color: var(--red);
 
-  & h5 {
+  & > * {
     font-size: var(--maru-medium);
     font-weight: 900;
   }
@@ -80,6 +80,7 @@
   padding-left: calc(var(--timeline-padding) + var(--timeline-spacing));
   font-size: var(--maru-small);
   line-height: var(--baseline-1of3);
+  /* font-weight: normal; */
 
   & a::before {
     content: " ";
@@ -129,7 +130,7 @@
     height: calc(100vh - var(--baseline-3x));
   }
 
-  .chapterTitle h5 {
+  .chapterTitle > * {
     font-size: var(--maru-large);
   }
 

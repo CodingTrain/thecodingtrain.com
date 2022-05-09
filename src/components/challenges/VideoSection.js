@@ -35,9 +35,9 @@ const VideoSection = ({ challenge }) => {
     <div className={css.root}>
       <div className={css.header}>
         <div className={css.title}>
-          <h2>
+          <h1>
             {videoNumber ? `#${videoNumber} — ` : ''} {title}
-          </h2>
+          </h1>
         </div>
         <div
           className={cn(css.details, {

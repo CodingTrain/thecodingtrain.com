@@ -22,7 +22,7 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
   return [videoIndex + 1, trackTotal];
 };
 
-const VideoSection = ({ track, video, trackPosition }) => {
+const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
   const chapters =
     track.type === 'main' ? track.chapters : [{ videos: track.videos }];
   const { title, videoId, topics, languages, timestamps } = video;
@@ -36,6 +36,8 @@ const VideoSection = ({ track, video, trackPosition }) => {
   const youTubeVideoRef = useRef();
   const [showTimestamps, setShowTimestamps] = useState(false);
   const [timestamp, setTimestamp] = useState();
+
+  const Header = mainTitle ? 'h1' : 'h2';
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -58,7 +60,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
     <div className={css.root}>
       <div className={css.header}>
         <div className={css.title}>
-          <h2>{title}</h2>
+          <Header>{title}</Header>
         </div>
         <div
           className={cn(css.details, {

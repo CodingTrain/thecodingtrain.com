@@ -157,9 +157,13 @@ const AboutPage = ({ data }) => {
         Character={CandyRainbow}
       />
 
-      <Heading4 variant="purple" borderBottom={false}>
+      <Heading2
+        className={css.h4LikeTitle}
+        variant="purple"
+        borderBottom={false}
+        as="h4">
         {featuredTitle}
-      </Heading4>
+      </Heading2>
       <VideoCardList variant="purple">
         {featured.map((featuredItem, index) => (
           <VideoCard
@@ -187,14 +191,16 @@ const AboutPage = ({ data }) => {
         Character={ChooChooCharacter}
       />
       <div id="acknowledgements">
-        <Heading4 variant="purple">Acknowledgements</Heading4>
+        <Heading2 className={css.h4LikeTitle} variant="purple" as="h4">
+          Acknowledgements
+        </Heading2>
         <div className={css.acknowledgementsText}>
           <p>{acknowledgementsText}</p>
         </div>
         <div className={css.acknowledgementsList}>
           {acknowledgements.map((group, index) => (
             <div className={css.acknowledgementsTeam} key={index}>
-              <h4>{group.name}</h4>
+              <h3>{group.name}</h3>
               <ul>
                 {group.people.map((person, personIndex) => (
                   <li key={personIndex}>

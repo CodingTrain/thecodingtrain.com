@@ -14,14 +14,14 @@ const Card = ({ className, challenge, placeholderImage }) => {
     <div className={cn(css.challenge, className)}>
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
-        <span className={css.title}>
+        <h3 className={css.title}>
           {
             <Link to={`/challenge/${slug}`}>
               {videoNumber ? `#${videoNumber} — ` : ''}
               {title}
             </Link>
           }
-        </span>
+        </h3>
       </div>
       <div className={css.thumb}>
         <div className={css.left}>

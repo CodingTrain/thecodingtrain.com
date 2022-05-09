@@ -31,9 +31,9 @@ const VideoCard = ({
       <div className={css.block}>
         <div className={css.top}>
           <div className={css.icon}>{icon}</div>
-          <h5>
+          <h3>
             {link ? <a href={link}>{title}</a> : <Link to={slug}>{title}</Link>}
-          </h5>
+          </h3>
         </div>
         <div className={css.bottom}>
           <div className={css.left}>

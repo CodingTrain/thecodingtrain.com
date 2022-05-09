@@ -17,6 +17,7 @@
   background: white;
 }
 
+.title h1,
 .title h2 {
   padding: 0 var(--box-padding);
   font-family: var(--maru);
@@ -157,6 +158,7 @@
 }
 
 @media (--medium) {
+  .title h1,
   .title h2 {
     font-size: 20px;
   }
@@ -319,6 +321,7 @@
     padding-bottom: var(--baseline-box-8x);
   }
 
+  .title h1,
   .title h2 {
     font-size: 18px;
   }

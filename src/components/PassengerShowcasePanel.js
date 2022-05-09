@@ -7,15 +7,20 @@ import * as css from './PassengerShowcasePanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-const PassengerShowcasePanel = ({ contributions, placeholderImage }) => {
+const PassengerShowcasePanel = ({
+  contributions,
+  placeholderImage,
+  headerType = 'h2'
+}) => {
   const description =
     contributions.length > 0
       ? 'What the Coding Train community has created based on this video'
       : 'No contributions submitted yet!';
+  const Header = headerType;
   return (
     <div className={css.root}>
       <div className={css.titleBox}>
-        <h4>Passenger Showcase</h4>
+        <Header>Passenger Showcase</Header>
         <p>{description}</p>
       </div>
       <div className={css.contributions}>
@@ -42,7 +47,11 @@ const PassengerShowcasePanel = ({ contributions, placeholderImage }) => {
   );
 };
 
-const Contribution = ({ contribution, placeholderImage }) => {
+const Contribution = ({
+  contribution,
+  placeholderImage,
+  headerType = 'h3'
+}) => {
   const { title, cover, author } = contribution;
   const image = cover
     ? contribution.cover.file.childImageSharp.gatsbyImageData
@@ -52,10 +61,11 @@ const Contribution = ({ contribution, placeholderImage }) => {
     (contribution.videoId
       ? `https://youtu.be/${contribution.videoId}`
       : contribution.source);
+  const Header = headerType;
   return (
     <div className={css.contrib}>
       <a className={css.title} href={url} target="_blank" rel="noreferrer">
-        {title}
+        <Header>{title}</Header>
       </a>
       <a
         className={css.pictureContainer}

@@ -14,9 +14,10 @@
   height: var(--baseline);
   cursor: pointer;
 
-  & p {
+  & h3 {
     font-size: var(--font-reduced);
     padding: 0 calc(var(--box-padding) / 2) 0 var(--box-padding);
+    font-weight: 400;
   }
 }
 
@@ -77,7 +78,7 @@
 .open {
   height: auto;
   background-color: white;
-  & .summary p {
+  & .summary h3 {
     font-weight: bolder;
   }
 }
@@ -103,7 +104,7 @@
 
   .summary {
     height: var(--baseline-2x);
-    & p {
+    & h3 {
       font-size: var(--font-normal);
     }
   }
