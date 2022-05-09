@@ -96,7 +96,7 @@ const AboutPage = ({ data }) => {
   const secondaryCover = content.covers[1].file.childImageSharp.gatsbyImageData;
 
   return (
-    <Layout title="About">
+    <Layout title="About" description={secondaryDescription}>
       <Spacer />
 
       <header className={css.row}>

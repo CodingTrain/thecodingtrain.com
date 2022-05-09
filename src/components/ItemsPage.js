@@ -79,7 +79,7 @@ const ItemsPage = ({
   };
 
   return (
-    <Layout title={title}>
+    <Layout title={title} description={description}>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>

@@ -21,7 +21,7 @@ const FAQPage = ({ data, location }) => {
   const currentHash = location.hash;
   const parsedDescription = useLinkParsedText(description);
   return (
-    <Layout>
+    <Layout title={title} description={description}>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant="pink">

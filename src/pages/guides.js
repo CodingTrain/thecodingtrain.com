@@ -22,7 +22,7 @@ const GuidesPage = ({ data }) => {
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
   return (
-    <Layout title={pageData.title}>
+    <Layout title={pageData.title} description={pageData.description}>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant="purple">
