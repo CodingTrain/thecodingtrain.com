@@ -4,7 +4,7 @@ import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
-import { Heading1, Heading2, Heading4 } from '../components/Heading';
+import { Heading1, Heading2 } from '../components/Heading';
 import Spacer from '../components/Spacer';
 import VideoCard, { VideoCardList } from '../components/VideoCard';
 import Image from '../components/Image';
