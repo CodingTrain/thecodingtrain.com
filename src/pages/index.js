@@ -21,7 +21,7 @@ import { getReadableDate } from '../hooks';
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
   return (
-    <div className={cn(css.card, css.trackCard)}>
+    <article className={cn(css.card, css.trackCard)}>
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
@@ -43,15 +43,17 @@ const TrackCard = ({ track, placeholderImage }) => {
         />
       </Link>
 
-      <p className={css.date}>{date ? getReadableDate(date) : ''}</p>
-    </div>
+      <p className={css.date}>
+        {date ? <time dateTime={date}> {getReadableDate(date)}</time> : ''}
+      </p>
+    </article>
   );
 };
 
 const ChallengeCard = ({ challenge, placeholderImage }) => {
   const { title, cover, date, slug, videoNumber } = challenge;
   return (
-    <div className={cn(css.card, css.challengeCard)}>
+    <article className={cn(css.card, css.challengeCard)}>
       <div className={css.details}>
         <div className={css.icon}>👁</div>
 
@@ -73,24 +75,26 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         />
       </Link>
 
-      <p className={css.date}>{date ? getReadableDate(date) : ''}</p>
-    </div>
+      <p className={css.date}>
+        {date ? <time dateTime={date}> {getReadableDate(date)}</time> : ''}
+      </p>
+    </article>
   );
 };
 
 const EventRow = ({ event }) => {
   const { title, description, date, time, host, type, url } = event;
   return (
-    <div className={css.event}>
+    <article className={css.event}>
       <div className={css.left}>
         <h3>{title}</h3>
       </div>
       <div className={css.center}>
         <p>
           <span className={css.icon}>🗒</span>
-          <span>
+          <time dateTime={`${date} ${time}`}>
             {date}, {time}
-          </span>
+          </time>
         </p>
         <p>
           <span className={css.icon}>🙋</span>
@@ -111,7 +115,7 @@ const EventRow = ({ event }) => {
           </Button>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
@@ -292,7 +296,7 @@ const IndexPage = ({ data }) => {
         <Spacer pattern size="x2" />
 
         <section>
-          <div className={css.showcase}>
+          <article className={css.showcase}>
             <div className={css.left}>
               <Heading2
                 id="passenger-showcase"
@@ -303,13 +307,15 @@ const IndexPage = ({ data }) => {
               </Heading2>
               <div className={css.details}>
                 <p>
-                  {content.passengerShowcase.featured.author.url ? (
-                    <a href={content.passengerShowcase.featured.author.url}>
-                      {content.passengerShowcase.featured.author.name}
-                    </a>
-                  ) : (
-                    content.passengerShowcase.featured.author.name
-                  )}
+                  <address>
+                    {content.passengerShowcase.featured.author.url ? (
+                      <a href={content.passengerShowcase.featured.author.url}>
+                        {content.passengerShowcase.featured.author.name}
+                      </a>
+                    ) : (
+                      content.passengerShowcase.featured.author.name
+                    )}
+                  </address>
                 </p>
                 <p>{content.passengerShowcase.featured.title}</p>
                 <p>
@@ -344,7 +350,7 @@ const IndexPage = ({ data }) => {
                 imgClassName={css.image}
               />
             </div>
-          </div>
+          </article>
         </section>
 
         <Spacer pattern size="x2" />

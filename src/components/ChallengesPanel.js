@@ -16,7 +16,7 @@ const Card = ({
   const { title, cover, description, date, slug, videoNumber } = challenge;
   const Header = headerType;
   return (
-    <div className={cn(css.challenge, className)}>
+    <article className={cn(css.challenge, className)}>
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
         <Header className={css.title}>
@@ -45,7 +45,11 @@ const Card = ({
             ) : null}
           </Link>
           <p className={css.date}>
-            <span>{date ? getReadableDate(date) : null}</span>
+            <span>
+              {date ? (
+                <time dateTime={date}>{getReadableDate(date)}</time>
+              ) : null}
+            </span>
           </p>
         </div>
         <div className={css.right}>
@@ -53,11 +57,15 @@ const Card = ({
             <p>{description}</p>
           </div>
           <p className={css.date}>
-            <span>{date ? getReadableDate(date) : null}</span>
+            <span>
+              {date ? (
+                <time dateTime={date}>{getReadableDate(date)}</time>
+              ) : null}
+            </span>
           </p>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

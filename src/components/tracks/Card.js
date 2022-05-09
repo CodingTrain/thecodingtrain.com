@@ -18,7 +18,7 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
   const canExpand = allVideos.length > 6;
   const videos = expanded || !canExpand ? allVideos : allVideos.slice(0, 6);
   return (
-    <>
+    <section>
       <div className={css.filterHeading}>
         {allVideos.length} videos within this track match the tag:
       </div>
@@ -46,7 +46,7 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
           {!expanded ? 'See all results >' : 'See fewer results <'}
         </button>
       )}
-    </>
+    </section>
   );
 };
 
@@ -77,7 +77,7 @@ const Card = ({
 
   return (
     <>
-      <div className={cn(css.root, className, { [css[variant]]: variant })}>
+      <article className={cn(css.root, className, { [css[variant]]: variant })}>
         <div className={css.left}>
           <div className={css.text}>
             <h3 className={css.title}>{title}</h3>
@@ -107,7 +107,7 @@ const Card = ({
             imgClassName={css.image}
           />
         </div>
-      </div>
+      </article>
       {filters.isFiltered && (
         <FilteredVideosSection trackSlug={slug} videos={filteredVideos} />
       )}

@@ -63,7 +63,7 @@ const Contribution = ({
       : contribution.source);
   const Header = headerType;
   return (
-    <div className={css.contrib}>
+    <article className={css.contrib}>
       <a className={css.title} href={url} target="_blank" rel="noreferrer">
         <Header>{title}</Header>
       </a>
@@ -81,20 +81,22 @@ const Contribution = ({
         <PlayButton width={30} className={css.playButton} />
       </a>
       <p className={css.author}>
-        <span>by </span>
-        {author.url ? (
-          <a
-            href={author.url}
-            target="_blank"
-            rel="noreferrer"
-            className={css.authorName}>
-            {author.name}
-          </a>
-        ) : (
-          <span className={css.authorName}>{author.name}</span>
-        )}
+        <address>
+          <span>by </span>
+          {author.url ? (
+            <a
+              href={author.url}
+              target="_blank"
+              rel="noreferrer"
+              className={css.authorName}>
+              {author.name}
+            </a>
+          ) : (
+            <span className={css.authorName}>{author.name}</span>
+          )}
+        </address>
       </p>
-    </div>
+    </article>
   );
 };
 
