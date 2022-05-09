@@ -58,7 +58,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
 
   return (
     <div className={css.root}>
-      <div className={css.header}>
+      <header className={css.header}>
         <div className={css.title}>
           <Header>{title}</Header>
         </div>
@@ -94,7 +94,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             </span>
           </div>
         </div>
-      </div>
+      </header>
       <div className={css.videoPlayer}>
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>

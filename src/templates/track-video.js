@@ -48,8 +48,11 @@ const Track = ({ pageContext, data }) => {
         ]}
         variant="red"
       />
+
       <div className={css.simpleSep} />
+
       {isTrackPage && <TrackHeader track={track} />}
+
       {isTrackPage && (
         <CharacterSpacer
           className={css.sep}
@@ -60,18 +63,23 @@ const Track = ({ pageContext, data }) => {
           Character={SquareCharacter}
         />
       )}
-      <TrackVideoSection
-        track={track}
-        video={video}
-        trackPosition={trackPosition}
-        mainTitle={!isTrackPage}
-      />
-      <div className={css.blankSep} />
-      <VideoInfo
-        video={video}
-        variant="red"
-        url={`/tracks/${track.slug}/${video.slug}`}
-      />
+      <main>
+        <TrackVideoSection
+          track={track}
+          video={video}
+          trackPosition={trackPosition}
+          mainTitle={!isTrackPage}
+        />
+
+        <div className={css.blankSep} />
+
+        <VideoInfo
+          video={video}
+          variant="red"
+          url={`/tracks/${track.slug}/${video.slug}`}
+        />
+      </main>
+
       {video.canContribute && (
         <>
           <div className={css.blankSep} />
@@ -84,6 +92,7 @@ const Track = ({ pageContext, data }) => {
             characterSize={0.8}
             Character={DotCharacter}
           />
+
           <PassengerShowcasePanel
             contributions={video.showcase}
             placeholderImage={contributionsPlaceholder}
@@ -91,6 +100,7 @@ const Track = ({ pageContext, data }) => {
           />
         </>
       )}
+
       {video.relatedChallenges.length > 0 && (
         <>
           <div className={css.blankSep} />
@@ -102,6 +112,7 @@ const Track = ({ pageContext, data }) => {
             offset={0.4}
             Character={PiCharacter}
           />
+
           <TrackChallengesPanel
             challenges={video.relatedChallenges}
             placeholderImage={challengesPlaceholder}

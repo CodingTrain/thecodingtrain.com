@@ -98,6 +98,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout title="About">
       <Spacer />
+
       <header className={css.row}>
         <Heading1 className={css.mainHeading} variant="purple">
           {title}
@@ -106,127 +107,139 @@ const AboutPage = ({ data }) => {
           <PiRainbow className={css.trainIcon} />
         </div>
       </header>
-      <div className={css.aboutRow}>
-        <div className={cn(css.aboutBlock, css.primaryAboutBlock)}>
-          <div className={cn(css.aboutParagraph, css.danIntro)}>
-            {parsedMainDescription}
-          </div>
-        </div>
-        <div className={cn(css.photoBlock, css.primaryPhoto)}>
-          <Image image={mainCover} />
-        </div>
-      </div>
-      <div className={css.aboutRow}>
-        <div className={cn(css.photoBlock, css.secondaryPhoto)}>
-          <Image image={secondaryCover} />
-        </div>
-        <div className={cn(css.aboutBlock, css.coverAboutBlock)}>
-          <div className={cn(css.aboutParagraph, css.coverDescription)}>
-            {parsedCoverDescription}
-          </div>
-        </div>
-      </div>
 
-      <SocialsSection socials={personalSocials} />
-      <Spacer pattern className={css.spacer} />
-      <CharacterSpacer
-        className={css.sep}
-        size="x2"
-        variant="purple"
-        side="right"
-        offset={0.42}
-        characterSize={0.7}
-        Character={TrainIcon}
-      />
-
-      <Heading2 variant="purple">{secondaryTitle}</Heading2>
-      <div className={cn(css.aboutBlock, css.coverAboutBlock)}>
-        <div className={cn(css.aboutParagraph, css.secondaryParagraph)}>
-          {parsedSecondaryDescription}
-        </div>
-      </div>
-      <SocialsSection socials={siteSocials} />
-      <Spacer pattern className={css.spacer} />
-      <CharacterSpacer
-        className={css.sep}
-        size="x2"
-        variant="purple"
-        side="right"
-        offset={0.42}
-        characterSize={0.7}
-        Character={CandyRainbow}
-      />
-
-      <Heading2
-        className={css.h4LikeTitle}
-        variant="purple"
-        borderBottom={false}
-        as="h4">
-        {featuredTitle}
-      </Heading2>
-      <VideoCardList variant="purple">
-        {featured.map((featuredItem, index) => (
-          <VideoCard
-            key={index}
-            variant="purple"
-            title={featuredItem.title}
-            description={featuredItem.description}
-            {...{
-              [featuredItem.url.startsWith('/') ? 'slug' : 'link']:
-                featuredItem.url
-            }}
-            image={featuredItem.thumbnail.file.childImageSharp.gatsbyImageData}
-          />
-        ))}
-      </VideoCardList>
-
-      <Spacer pattern className={css.spacer} />
-      <CharacterSpacer
-        className={css.sep}
-        size="x3"
-        variant="purple"
-        side="right"
-        offset={0.12}
-        characterSize={0.9}
-        Character={ChooChooCharacter}
-      />
-      <div id="acknowledgements">
-        <Heading2 className={css.h4LikeTitle} variant="purple" as="h4">
-          Acknowledgements
-        </Heading2>
-        <div className={css.acknowledgementsText}>
-          <p>{acknowledgementsText}</p>
-        </div>
-        <div className={css.acknowledgementsList}>
-          {acknowledgements.map((group, index) => (
-            <div className={css.acknowledgementsTeam} key={index}>
-              <h3>{group.name}</h3>
-              <ul>
-                {group.people.map((person, personIndex) => (
-                  <li key={personIndex}>
-                    {person.url ? (
-                      <a target="_blank" rel="noreferrer" href={person.url}>
-                        {person.name}
-                      </a>
-                    ) : (
-                      <span>{person.name}</span>
-                    )}
-                  </li>
-                ))}
-              </ul>
+      <main>
+        <div className={css.aboutRow}>
+          <div className={cn(css.aboutBlock, css.primaryAboutBlock)}>
+            <div className={cn(css.aboutParagraph, css.danIntro)}>
+              {parsedMainDescription}
             </div>
-          ))}
+          </div>
+          <div className={cn(css.photoBlock, css.primaryPhoto)}>
+            <Image image={mainCover} />
+          </div>
         </div>
-      </div>
-      <Spacer pattern className={css.spacer} />
-      <CharacterSpacer
-        className={css.sep}
-        size="x4"
-        side="right"
-        offset={0.42}
-        characterSize={0.9}
-        Character={TriangleCharacter}
-      />
+
+        <div className={css.aboutRow}>
+          <div className={cn(css.photoBlock, css.secondaryPhoto)}>
+            <Image image={secondaryCover} />
+          </div>
+          <div className={cn(css.aboutBlock, css.coverAboutBlock)}>
+            <div className={cn(css.aboutParagraph, css.coverDescription)}>
+              {parsedCoverDescription}
+            </div>
+          </div>
+        </div>
+        <SocialsSection socials={personalSocials} />
+
+        <Spacer pattern className={css.spacer} />
+        <CharacterSpacer
+          className={css.sep}
+          size="x2"
+          variant="purple"
+          side="right"
+          offset={0.42}
+          characterSize={0.7}
+          Character={TrainIcon}
+        />
+        <section>
+          <Heading2 variant="purple">{secondaryTitle}</Heading2>
+          <div className={cn(css.aboutBlock, css.coverAboutBlock)}>
+            <div className={cn(css.aboutParagraph, css.secondaryParagraph)}>
+              {parsedSecondaryDescription}
+            </div>
+          </div>
+          <SocialsSection socials={siteSocials} />
+        </section>
+
+        <Spacer pattern className={css.spacer} />
+        <CharacterSpacer
+          className={css.sep}
+          size="x2"
+          variant="purple"
+          side="right"
+          offset={0.42}
+          characterSize={0.7}
+          Character={CandyRainbow}
+        />
+
+        <section>
+          <Heading2
+            className={css.h4LikeTitle}
+            variant="purple"
+            borderBottom={false}
+            as="h4">
+            {featuredTitle}
+          </Heading2>
+          <VideoCardList variant="purple">
+            {featured.map((featuredItem, index) => (
+              <VideoCard
+                key={index}
+                variant="purple"
+                title={featuredItem.title}
+                description={featuredItem.description}
+                {...{
+                  [featuredItem.url.startsWith('/') ? 'slug' : 'link']:
+                    featuredItem.url
+                }}
+                image={
+                  featuredItem.thumbnail.file.childImageSharp.gatsbyImageData
+                }
+              />
+            ))}
+          </VideoCardList>
+        </section>
+
+        <Spacer pattern className={css.spacer} />
+        <CharacterSpacer
+          className={css.sep}
+          size="x3"
+          variant="purple"
+          side="right"
+          offset={0.12}
+          characterSize={0.9}
+          Character={ChooChooCharacter}
+        />
+
+        <section id="acknowledgements">
+          <Heading2 className={css.h4LikeTitle} variant="purple" as="h4">
+            Acknowledgements
+          </Heading2>
+          <div className={css.acknowledgementsText}>
+            <p>{acknowledgementsText}</p>
+          </div>
+          <div className={css.acknowledgementsList}>
+            {acknowledgements.map((group, index) => (
+              <div className={css.acknowledgementsTeam} key={index}>
+                <h3>{group.name}</h3>
+                <ul>
+                  {group.people.map((person, personIndex) => (
+                    <li key={personIndex}>
+                      {person.url ? (
+                        <a target="_blank" rel="noreferrer" href={person.url}>
+                          {person.name}
+                        </a>
+                      ) : (
+                        <span>{person.name}</span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <Spacer pattern className={css.spacer} />
+        <CharacterSpacer
+          className={css.sep}
+          size="x4"
+          side="right"
+          offset={0.42}
+          characterSize={0.9}
+          Character={TriangleCharacter}
+        />
+      </main>
     </Layout>
   );
 };

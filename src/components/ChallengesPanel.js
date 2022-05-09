@@ -68,7 +68,7 @@ const ChallengesPanel = ({
 }) => {
   const Header = headerType;
   return (
-    <div className={css.root}>
+    <section className={css.root}>
       <div className={css.titleBox}>
         <Header>Try a challenge!</Header>
         <p>Suggested by the video you're watching</p>
@@ -88,7 +88,7 @@ const ChallengesPanel = ({
           </Fragment>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

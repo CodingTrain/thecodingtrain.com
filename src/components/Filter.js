@@ -40,7 +40,7 @@ const Filter = ({
   };
 
   return (
-    <div className={cn(css.root, className, { [css[variant]]: variant })}>
+    <section className={cn(css.root, className, { [css[variant]]: variant })}>
       <div className={css.left}>
         <div className={css.icon}>{icon}</div>
         <div className={css.spacer} />
@@ -69,7 +69,7 @@ const Filter = ({
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

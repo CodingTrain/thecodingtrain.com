@@ -18,7 +18,7 @@ const PassengerShowcasePanel = ({
       : 'No contributions submitted yet!';
   const Header = headerType;
   return (
-    <div className={css.root}>
+    <section className={css.root}>
       <div className={css.titleBox}>
         <Header>Passenger Showcase</Header>
         <p>{description}</p>
@@ -43,7 +43,7 @@ const PassengerShowcasePanel = ({
         className={css.showcasePanel}
         smallWrap={true}
       />
-    </div>
+    </section>
   );
 };
 

@@ -78,7 +78,7 @@ const RecentChallenge = ({
 }) => {
   const { title, date, slug, description, cover, videoNumber } = challenge;
   return (
-    <div className={css.recentChallenge}>
+    <section className={css.recentChallenge}>
       <div className={css.left}>
         <div className={css.info}>
           <h2 className={css.heading}>
@@ -118,7 +118,7 @@ const RecentChallenge = ({
           )}
         </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -33,7 +33,7 @@ const VideoSection = ({ challenge }) => {
 
   return (
     <div className={css.root}>
-      <div className={css.header}>
+      <header className={css.header}>
         <div className={css.title}>
           <h1>
             {videoNumber ? `#${videoNumber} — ` : ''} {title}
@@ -78,7 +78,8 @@ const VideoSection = ({ challenge }) => {
             </div>
           )}
         </div>
-      </div>
+      </header>
+
       <div className={css.videoPlayer}>
         {timestamps.length === 0 && <div className={css.spacer} />}
         <div className={css.videoContainer}>

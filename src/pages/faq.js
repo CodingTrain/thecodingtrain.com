@@ -44,7 +44,7 @@ const FAQPage = ({ data, location }) => {
       <div className={css.sections}>
         {sections.map((section, sectionIndex) => (
           <Fragment key={sectionIndex}>
-            <div>
+            <section>
               <h2 className={css.title}>{section.title}</h2>
               {section.questions.map(
                 (question, index) =>
@@ -58,7 +58,8 @@ const FAQPage = ({ data, location }) => {
                     />
                   )
               )}
-            </div>
+            </section>
+
             <Spacer className={css.spacer} pattern />
             <CharacterSpacer
               className={css.sep}

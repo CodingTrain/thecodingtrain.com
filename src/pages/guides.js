@@ -39,6 +39,7 @@ const GuidesPage = ({ data }) => {
         variant="orange"
         bbColor="orange"
       />
+
       <CharacterSpacer
         className={css.sep}
         variant="purple"
@@ -48,6 +49,7 @@ const GuidesPage = ({ data }) => {
         characterSize={1.1}
         Character={DotCharacter2}
       />
+
       <div className={css.guideList}>
         {guides.map((guide, i) => (
           <GuideCard
@@ -66,6 +68,7 @@ const GuidesPage = ({ data }) => {
           />
         ))}
       </div>
+
       <Spacer className={css.spacer} />
       <CharacterSpacer
         className={css.sep}
