@@ -84,9 +84,14 @@ const components = (localImages) => ({
   p: (props) => <p className={css.paragraph} {...props} />,
   img: (props) =>
     props.src.startsWith('/') && localImages.hasOwnProperty(props.src) ? (
-      <Image className={css.image} image={localImages[props.src]} {...props} />
+      <Image
+        className={css.image}
+        image={localImages[props.src]}
+        alt={props.alt}
+        {...props}
+      />
     ) : (
-      <img className={css.image} {...props} />
+      <img className={css.image} alt={props.alt} {...props} />
     ),
   a: ({ children, ...props }) => (
     <a className={css.a} {...props}>
@@ -100,9 +105,9 @@ const components = (localImages) => ({
     <Spacer className={css.breakSpacer} pattern {...props} />
   ),
   pre: (props) => (
-    <div className={css.preWrapper}>
+    <figure className={css.preWrapper}>
       <pre className={css.pre} {...props} />
-    </div>
+    </figure>
   ),
   table: (props) => (
     <div className={css.table}>
