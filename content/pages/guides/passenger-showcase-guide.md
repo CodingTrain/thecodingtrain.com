@@ -1,97 +1,53 @@
 ---
 title: 'Passenger Showcase Guide'
-description: 'Guide about Passenger Showcases'
-date: '03/07/2022'
+description: 'Guide on adding community contributions to videos'
+date: '05/04/2022'
 ---
 
-## Video Tutorial
+Thank you for sharing your work in the Passenger Showcase! In the future, we hope to provide a form to make the submission process easier, but for now, please follow the instructions below to create a pull request for your project! If you have questions or need any help, come board the [Coding Train Discord](https://discord.gg/6DScedrtvH) or write to help@thecodingtrain.com.
 
-Here's a video tutorial if you prefer that sort of thing!
+This guide is in progress, and will be updated as the contribution process changes. 
 
-[![How to add your contribution](https://i3.ytimg.com/vi/fkIr0inoQ7Y/hqdefault.jpg)](https://youtu.be/fkIr0inoQ7Y)
+## Finding the video folder
 
-<Button  href="https://youtu.be/fkIr0inoQ7Y">Watch Video on Youtube</Button>
+On the repo homepage, click the button in the upper left-hand corner where it says `main`. Under the list of branches, click `community-contributions`.
 
-&nbsp;
+![Branches dropdown](./passenger-showcase/branches.png)
 
----
+Navigate to the video folder the contribution belongs to:
+If the video is a coding challenge, then the video will be in `content/videos/challenges/number-challenge-name`.
 
-&nbsp;
+If the video is a part of a series, chances are it is either in a main or side track on the site, both of which are found in `content/videos/tracks/`
 
-If you want to add your own version of a coding challenge/tutorial/etc. to this repository, simply add a reference to your repository and/or working example to the corresponding collection file.
+## Creating the contribution file
 
-You may want to follow these simple steps:
+Once in the `showcase` folder of the video, click "Add file" in the upper right-hand corner and click "Create new file" (or "Upload files'', if you already have the contribution on your local machine). 
 
-## 1. Locate the file
+![Creating a new file in the showcases folder](./passenger-showcase/showcasefolder.png)
 
-Great! You decided to share your work with the world. To get started, locate the file corresponding to the coding challenge/tutorial/etc. you based your work on. You can find them inside the folders named `_collection-name` where `collection-name` is one of the following:
+Name the file `contribution1.json` (or if the file already exists, `contribution2.json`, if that exists `contribution3.json`, etc). 
 
-- CodingChallenges
-- Courses
-- Tutorials
-- GuestTutorials
-
-To show your work to as many people as possible, don't add your contributions to the streams-collection (even though this is technically possible) as they may navigate to the actual coding challenge/tutorial/etc. directly when searching for content.
-
-If nobody has added the file you were looking for, feel free to add it yourself. Take a look at the [Content Contribution Guide](content-contribution-guide) to learn how.
-
-> **Tip: Easier Navigation**  
-> Use the video numbers given in the title (such as "Tutorial #1.2") to navigate through subfolders.
-
-## 2. Add your contribution
-
-All right, you found your file! Adding a reference to your work is as simple as locating `contributions:` in the YAML front matter (the text between the two `---`) of the corresponding file. If it doesn't exist yet, feel free to add it yourself.
-
-Let's say you've made your own version of the number guessing chatbot coding challenge and located the right file (which can be found at `_CodingChallenges/79-number-guessing-chatbot.md`). It's front matter could look like this:
-
-```markdown
----
-title: 'Number Guessing Chatbot'
-video_number: 79
-date: 2017-10-13
-video_id: zGe1m_bLOFk
-
-contributions:
-  - title: 'My awesome version of the number guessing chatbot'
-    author:
-      name: 'Daniel Shiffman'
-      url: 'http://shiffman.net'
-    url: 'https://codingtrain.github.io/Rainbow-Code'
-    source: 'https://github.com/codingtrain/Rainbow-Code'
----
+Copy the template into the new file:
+```js
+		{
+			"title": "Contribution Title",
+			"author": {
+			"name": "Contributor Name",
+			"url": "Link to contributor's personal site, GitHub, social media, etc" },
+			"url": "Link to contribution",
+			"source": "Link to contribution's source code" 
+		} 
 ```
+![Editing the contribution](./passenger-showcase/editor.png)
 
-As you can see, someone already made a contribution to this challenge. You can add yours right away by simply copy-pasting this section after the last entry in `contributions`:
+Fill out the title, name, url, etc. Once everything is filled out, click the green button below the editor that says "Commit new file".
 
-```yaml
-- title: "Your version's title (choose a nice one!)"
-  author:
-    name: 'Your name (will be displayed on the page)'
-    url: 'A link to your homepage/codepen/... (where people can find more of your work)'
-  url: 'A link to your version running (preferably) in the browser'
-  source: "The link to your repository or website containing your version's code"
-```
+![Committing the file](./passenger-showcase/commit.png)
 
-Lets say you're contribution can't be run in the browser and you have a youtube video showing what it does. Youtube video direct links won't be accepted by the system, so you have to add the video id found in the end of the url as the `video_id`. For example:
+## Submitting the pull request 
 
-```yaml
-- title: "Your version's title (choose a nice one!)"
-  author:
-    name: 'Your name (will be displayed on the page)'
-    url: 'A link to your homepage/codepen/... (where people can find more of your work)'
-  video_id: 'the video id to your youtube video'
-  source: "The link to your repository or website containing your version's code"
-```
+Click "thecodingtrain.com" in the repo title to return to the main branch, then click "Compare & pull request" (or go to the “Pull requests” tab and create a pull request by clicking "New pull request", then clicking "compare: main" and choosing `community-contributions` from the dropdown)
 
-You don't have to specify all key-value pairs! Only `title`, `author.name` and `url` are **required**! Also don't forget to replace the default values 😉 !
+![Submitting the pull request](./passenger-showcase/pullrequest.png)
 
-> **Tip: Edit on GitHub**  
-> You don't actually have to clone the repository to add your contribution. Simply use the edit button in the top right corner (shaped like a pen).
-
-## 3. Create a Pull Request
-
-The last step is creating a pull request for your changes. Just choose "Pull Request" to create one. Fill out the required information (title and description) and hit "Open". Please try to **include a link to a running demo** (or video / gif / screen capture) in the pull request's description. This makes it easy to quickly view the contribution and provide feedback! There is also a place in the pull request template to include your preferences about your contribution being shared on The Coding Train's social media.
-
-That's it! You will be notified as soon as a contributor with write access to this repository has reviewed your changes.
-
-Thanks for sharing your work with the world!
+A member of the Coding Train team will review your pull request and merge it into the site! 
