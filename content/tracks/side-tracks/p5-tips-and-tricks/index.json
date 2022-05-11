@@ -1,0 +1,8 @@
+{
+  "title": "p5 Tips & Tricks",
+  "description": "A collection of tips and tricks that might come in handy when working in p5.",
+  "videos": [
+	"tracks/side-tracks/p5-tips-and-tricks/local-storage",
+    "tracks/side-tracks/p5-tips-and-tricks/github-pages-hosting"
+  ]
+}

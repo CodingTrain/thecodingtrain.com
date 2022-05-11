@@ -1,0 +1,59 @@
+{
+  "title": "Hosting a p5.js sketch with GitHub Pages",
+  "description": "How to host your p5.js sketch with GitHub pages, updated for 2020!",
+  "videoNumber": "Video number",
+  "videoId": "ZneWjyn18e8",
+  "date": "2020-10-02",
+  "languages": ["JavaScript"],
+  "topics": ["p5", "GitHub"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:25", "title": "Download code from p5 web editor" },
+    { "time": "3:26", "title": "Creating a GitHub repository" },
+    { "time": "6:48", "title": "Enabling GitHub pages" },
+    { "time": "8:57", "title": "Pushing to GitHub from local console" }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Console Steps",
+          "url": "https://gist.github.com/shiffman/9cd8f3550b7db5047d66d164234612f4",
+          "description": "Guide for pushing a local sketch to GitHub from the command line"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Introduction",
+          "url": "https://www.youtube.com/watch?v=BCQHnlnPusY",
+          "description": "Introduction to the Git & GitHub for Poets playlist"
+        },
+        {
+          "title": "Branches",
+          "url": "https://www.youtube.com/watch?v=oPpnCh7InLY",
+          "description": "Git & GitHub for Poets video on branches"
+        },
+        {
+          "title": "Forks & Pull Requests",
+          "url": "https://www.youtube.com/watch?v=_NrSWLQsDL4",
+          "description": "Git & GitHub for Poets video on using forks and pull requests"
+        },
+        {
+          "title": "Cloning Repo & Push/Pull",
+          "url": "https://www.youtube.com/watch?v=yXT1ElMEkW8",
+          "description": "Git & GitHub for Poets video on cloning and pushing/pulling from repos"
+        },
+        {
+          "title": "Workflow - Visual Studio Code",
+          "url": "https://www.youtube.com/watch?v=yJw0SyKO9IU",
+          "description": "Coding Train Video on working in Visual Studio Code"
+        }
+      ]
+    }
+  ]
+}
