@@ -5,12 +5,10 @@
   "videoId": "kKT0v3qhIQY",
   "date": "2016-05-31",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "topics": ["fractals", "generative art", "space colonization"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
+  "timestamps": [],
+  "codeExamples": [],
   "groupLinks": [
     {
       "title": "References",
