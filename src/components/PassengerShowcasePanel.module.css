@@ -123,7 +123,7 @@ a.authorName {
   right: calc(var(--box-padding) / 4);
 }
 
-@media (--medium) {
+@media (--reduced) {
   .contrib {
     width: 40%;
     flex: 0 0 40%;

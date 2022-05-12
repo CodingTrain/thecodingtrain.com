@@ -35,6 +35,7 @@ const GuideCard = ({
               buttonLink={link ?? slug}
               buttonText="Read"
               variant={variant}
+              rainbow
             />
           </div>
           <div className={css.right}>

@@ -154,7 +154,7 @@ const ComponentsPage = ({ data }) => {
       </div>
       <Spacer>Track Card (slim)</Spacer>
       <TrackCard
-        variant="slim"
+        // variant="slim"
         title="Code! Programming with p5.js"
         type="main"
         description="This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices. This online course focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) using JavaScript. In particular it leverages the p5.js creative computing environment which is oriented towards visual displays on desktops, laptops, tablets or smartphones. The course is designed for computer programming novices."
@@ -198,25 +198,34 @@ const ComponentsPage = ({ data }) => {
             "We've created We've created We've created We've created We've created"
           }
           buttonText={'Go to our guide'}
-          buttonLink={''}
+          buttonLink={'#'}
           variant={'red'}
           className={cn(col, css.box)}
+          rainbow
         />
         <ButtonPanel
           text={'Sounds interesting'}
           buttonText={'Go to track'}
-          buttonLink={''}
+          buttonLink={'#'}
           variant={'orange'}
           className={cn(col, css.box)}
+          rainbow
         />
       </div>
       <ButtonPanel
         text={'Sounds interesting'}
         buttonText={'Go to track'}
-        buttonLink={''}
+        buttonLink={'#'}
         variant={'purple'}
+        rainbow
       />
-
+      <ButtonPanel
+        text={'Sounds interesting'}
+        buttonText={'Go to track'}
+        buttonLink={'#'}
+        variant={'pink'}
+        rainbow
+      />
       <Spacer>Pattern</Spacer>
       <Spacer pattern />
       <PassengerShowcasePanel

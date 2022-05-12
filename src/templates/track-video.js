@@ -212,6 +212,7 @@ export const query = graphql`
         videoId
         description
         date
+        videoNumber
         cover {
           file {
             childImageSharp {
