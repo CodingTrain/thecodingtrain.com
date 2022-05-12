@@ -4,13 +4,10 @@
   "videoNumber": "Video number",
   "videoId": "zkc417YapfE",
   "date": "2015-09-17",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "functions", "arguments", "parameters"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

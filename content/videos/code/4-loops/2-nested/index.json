@@ -4,13 +4,10 @@
   "videoNumber": "Video number",
   "videoId": "1c1_TMdf8b8",
   "date": "2015-09-11",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "for loop", "grid"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

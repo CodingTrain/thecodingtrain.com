@@ -4,11 +4,10 @@
   "videoNumber": "Video number",
   "videoId": "POn4cZ0jL-o",
   "date": "2021-05-20",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "random", "variables"],
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Random Square Design",

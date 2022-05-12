@@ -5,12 +5,9 @@
   "videoId": "T-HGdc8L-7w",
   "date": "2017-6-10",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "topics": ["basics", "OOP", "objects"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

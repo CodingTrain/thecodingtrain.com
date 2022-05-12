@@ -4,13 +4,10 @@
   "videoNumber": "Video number",
   "videoId": "i2C1hrJMwz0",
   "date": "2017-12-16",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "images", "objects"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

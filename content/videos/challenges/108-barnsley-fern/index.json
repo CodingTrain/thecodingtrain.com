@@ -5,24 +5,23 @@
   "videoId": "JFugGF1URNo",
   "date": "2018-06-21",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "topics": ["fractals", "generative art"],
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "The Barnsley Fern",
       "description": "A Barnsely Fern made with p5.js",
       "urls": {
-		"p5": "https://editor.p5js.org/codingtrain/sketches/G4V940Y8V"
-		}
+        "p5": "https://editor.p5js.org/codingtrain/sketches/G4V940Y8V"
+      }
     },
     {
       "title": "Barnsley Fern",
       "description": "The Barnsley Fern built in Processing",
       "urls": {
-	 	"other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_108_barnsley_fern/Processing"
-		}
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_108_barnsley_fern/Processing"
+      }
     }
   ],
   "groupLinks": [
@@ -30,7 +29,7 @@
       "title": "Links Discussed",
       "links": [
         {
-		  "icon": "🌐",
+          "icon": "🌐",
           "title": "Barnsley fern on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Barnsley_fern"
         }

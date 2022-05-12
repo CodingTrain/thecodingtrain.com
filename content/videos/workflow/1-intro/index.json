@@ -4,11 +4,10 @@
   "videoNumber": "Video number",
   "videoId": "gJa6wri8YNQ",
   "date": "2018-09-14",
-  "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["JavaScript"],
+  "topics": ["workflow"],
   "canContribute": false,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "groupLinks": [
     {
       "title": "Links",
@@ -53,7 +52,7 @@
           "title": "live-server",
           "url": " https://www.npmjs.com/package/live-server"
         },
-		{
+        {
           "title": "virtualenv",
           "url": "https://virtualenv.pypa.io/en/stable/"
         }

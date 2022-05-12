@@ -4,11 +4,10 @@
   "videoNumber": "Video number",
   "videoId": "_sLgRBrZh6o",
   "date": "2018-09-20",
-  "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["git"],
+  "topics": ["workflow", "git", "version control"],
   "canContribute": false,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "groupLinks": [
     {
       "title": "Links",

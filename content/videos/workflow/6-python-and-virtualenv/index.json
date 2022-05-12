@@ -4,11 +4,10 @@
   "videoNumber": "Video number",
   "videoId": "nnhjvHYRsmM",
   "date": "2018-09-27",
-  "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["python"],
+  "topics": ["workflow", "virtual environment"],
   "canContribute": false,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "groupLinks": [
     {
       "title": "References",
@@ -17,11 +16,11 @@
           "title": "Python",
           "url": "https://www.python.org/"
         },
-		{
+        {
           "title": "virtualenv",
           "url": "https://virtualenv.pypa.io/en/stable/"
         },
-		{
+        {
           "title": "Homebrew",
           "url": "https://brew.sh/"
         }

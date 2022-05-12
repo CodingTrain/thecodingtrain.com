@@ -5,7 +5,7 @@
   "videoId": "xJcrPJuem5Q",
   "date": "2018-09-11",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "topics": ["basics"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
