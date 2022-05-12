@@ -1,7 +1,7 @@
 {
   "title": "Nested Loops",
   "description": "This video looks at loops nested in loops.  What does it mean to have a for loop in the draw() loop?  How do you draw a grid of shapes with two loops?",
-  "videoNumber": "Video number",
+  "videoNumber": "4.2",
   "videoId": "1c1_TMdf8b8",
   "date": "2015-09-11",
   "languages": ["p5.js", "JavaScript"],

@@ -1,7 +1,7 @@
 {
   "title": "Color",
   "description": "In this video I discuss how color works: RGB color, fill(), stroke(), and transparency.",
-  "videoNumber": "Video number",
+  "videoNumber": "1.4",
   "videoId": "riiJTF5-N7c",
   "date": "2018-09-10",
   "languages": ["p5.js", "JavaScript"],
