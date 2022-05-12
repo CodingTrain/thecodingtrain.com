@@ -1,16 +1,13 @@
 {
   "title": "Recursive Fractal Trees",
   "description": "In this coding challenge, I'm implement fractal trees with recursion in p5.js. This is the first part of a series on algorithmic botany.",
-  "videoNumber": "Video number",
+  "videoNumber": "14",
   "videoId": "0jjeOYMjmDU",
   "date": "2016-05-30",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "topics": ["fractals", "generative art"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

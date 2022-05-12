@@ -5,10 +5,9 @@
   "videoId": "_H9JIwWP7HQ",
   "date": "2022-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Pi, p5.js","game"],
+  "topics": ["PI", "game"],
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Pi in the Sky",

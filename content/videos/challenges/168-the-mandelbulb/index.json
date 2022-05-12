@@ -5,7 +5,13 @@
   "videoId": "NJCiUVGiNyA",
   "date": "2022-03-09",
   "languages": ["Processing"],
-  "topics": ["3D", "fractals", "voxels", "spherical coordinates", "point clouds"],
+  "topics": [
+    "3D",
+    "fractals",
+    "voxels",
+    "spherical coordinates",
+    "point clouds"
+  ],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introducing Today's Topic" },
@@ -31,8 +37,8 @@
       "image": "image1.png",
       "urls": {
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_168_Mandelbulb/Processing"
-	  }
-	}
+      }
+    }
   ],
   "groupLinks": [
     {
