@@ -73,21 +73,20 @@ For the `groupLinks` section, links to videos should be put in a `Videos` group.
 
 ## Tracks - adding template & video folder
 
-Find the track to which the video belongs. Track folders are found in `content/videos/tracks` If the video's track doesn't exist yet, go ahead and create a folder for the track. The video should be formatted as `name-of-video`. 
+Find the track to which the video belongs. Track folders are found in `content/videos/tracks` If the video's track doesn't exist yet, go ahead and create a folder for the track. The video should be formatted as `name-of-video`.
 
 Follow the steps for adding a coding challenge, adding the `index.json` into the newly created video folder.
 
-
 ## Tracks - Adding video to track
 
-Finally, navigate to `content/tracks/main-tracks` or `content/tracks/side-tracks` (depending on the type of track) and open the `index.json` file of the track the video belongs to. 
+Finally, navigate to `content/tracks/main-tracks` or `content/tracks/side-tracks` (depending on the type of track) and open the `index.json` file of the track the video belongs to.
 
 For new tracks, decide whether the track is a Main Track or a Side Track:
 
-* Main Tracks follow a linear progression, with each new video building on skills learned in the previous video
-	+ An example of a Main Track would be "The Nature of Code 2" track
-* Side Tracks are organized around a central theme or idea, and don't necessarily follow a linear progression
-	+ An example of a Side Track would be the "2018 Workflow" track
+- Main Tracks follow a linear progression, with each new video building on skills learned in the previous video
+  - An example of a Main Track would be "The Nature of Code 2" track
+- Side Tracks are organized around a central theme or idea, and don't necessarily follow a linear progression
+  - An example of a Side Track would be the "2018 Workflow" track
 
 Copy the template into the `index.json` file and fill out the track information. Add the path to the video (e.g. `tracks/name-of-track/name-of-video`) under the "videos" section.
 
@@ -97,7 +96,7 @@ Copy the template into the `index.json` file and fill out the track information.
   "description": "Track description",
   "videos": [
     "tracks/title-of-track/title-of-video-1",
-    "tracks/title-of-track/title-of-video-2",
+    "tracks/title-of-track/title-of-video-2"
   ]
 }
 ```
