@@ -6,7 +6,7 @@ import Tags from '../Tags';
 import * as css from './Header.module.css';
 
 const Header = ({ track }) => {
-  const { title, description, topics, languages, type, numVideos } = track;
+  const { title, description, topics, languages, numVideos } = track;
 
   return (
     <div className={css.root}>
@@ -32,12 +32,17 @@ const Header = ({ track }) => {
             linkTo={(value) => `/tracks/lang:all+topic:${value}`}
           />
           <Tags
-            heading={
-              type === 'main'
-                ? `${track.chapters.length} chapters`
-                : 'Side track'
-            }
-            items={[`${numVideos} videos`]}
+            heading={track.type === 'main' ? 'Main track' : 'Side track'}
+            items={[
+              ...(track.chapters
+                ? [
+                    `${track.chapters.length} chapter${
+                      track.chapters.length > 1 ? 's' : ''
+                    }`
+                  ]
+                : []),
+              `${numVideos} videos`
+            ]}
             singleLine={false}
           />
         </div>
