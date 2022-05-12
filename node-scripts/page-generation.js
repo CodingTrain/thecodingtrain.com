@@ -220,10 +220,9 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
   `);
   data.tracks.nodes.forEach((track) => {
     // Determine the corresponding first video of the track
-    // Main => First chapter's first video
-    // Side => First video
-    const firstVideo =
-      track.type === 'main' ? track.chapters[0].videos[0] : track.videos[0];
+    const firstVideo = track.chapters
+      ? track.chapters[0].videos[0]
+      : track.videos[0];
 
     // Create track intro page with first video
 
@@ -241,7 +240,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
     });
     // For a main track, each video has it's own URL and page
     // Context is passed so that front-end correctly loads related data
-    if (track.type === 'main') {
+    if (track.chapters) {
       track.chapters.forEach((chapter, chapterIndex) => {
         chapter.videos.forEach((video, videoIndex) => {
           createPage({
@@ -259,7 +258,6 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         });
       });
     } else {
-      // Similarly, in a side track, each video has it's own URL and page
       // Context is passed so that front-end correctly loads related data
       track.videos.forEach((video, videoIndex) => {
         createPage({

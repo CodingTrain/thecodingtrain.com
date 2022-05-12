@@ -13,9 +13,15 @@ const checkPropertiesMatch = (object, reference, name) => {
   for (let property in reference.properties) {
     if (
       reference.properties[property].isRequired &&
-      object[property] === undefined
+      object[property] === undefined &&
+      (!reference.properties[property].requireAlternative ||
+        object[reference.properties[property].requireAlternative] === undefined)
     ) {
-      throw new RequiredPropertyError(property, name);
+      throw new RequiredPropertyError(
+        property,
+        name,
+        reference.properties[property].requireAlternative
+      );
     }
   }
   for (let property in object) {

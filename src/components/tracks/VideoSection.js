@@ -23,8 +23,7 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
 };
 
 const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
-  const chapters =
-    track.type === 'main' ? track.chapters : [{ videos: track.videos }];
+  const chapters = track.chapters ? track.chapters : [{ videos: track.videos }];
   const { title, videoId, topics, languages, timestamps } = video;
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
     trackPosition,

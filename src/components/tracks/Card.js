@@ -69,9 +69,9 @@ const Card = ({
   const trackType = type === 'main' ? 'Main Track' : 'Side Track';
 
   const filteredVideos = filterVideos(
-    type === 'side'
-      ? videos
-      : chapters.map((c) => c.videos).reduce((a, c) => [...a, ...c], []),
+    chapters
+      ? chapters.map((c) => c.videos).reduce((a, c) => [...a, ...c], [])
+      : videos,
     filters
   );
 

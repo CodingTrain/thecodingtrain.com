@@ -46,20 +46,16 @@ const FAQPage = ({ data, location }) => {
           <Fragment key={sectionIndex}>
             <section>
               <h2 className={css.title}>{section.title}</h2>
-              {section.questions.map(
-                (question, index) =>
-                  console.log({ question }) || (
-                    <Question
-                      key={index}
-                      variant="pink"
-                      pathPrefix="faq"
-                      currentHash={currentHash}
-                      {...question}
-                    />
-                  )
-              )}
+              {section.questions.map((question, index) => (
+                <Question
+                  key={index}
+                  variant="pink"
+                  pathPrefix="faq"
+                  currentHash={currentHash}
+                  {...question}
+                />
+              ))}
             </section>
-
             <Spacer className={css.spacer} pattern />
             <CharacterSpacer
               className={css.sep}
