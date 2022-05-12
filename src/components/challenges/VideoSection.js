@@ -33,11 +33,11 @@ const VideoSection = ({ challenge }) => {
 
   return (
     <div className={css.root}>
-      <div className={css.header}>
+      <header className={css.header}>
         <div className={css.title}>
-          <h2>
+          <h1>
             {videoNumber ? `#${videoNumber} — ` : ''} {title}
-          </h2>
+          </h1>
         </div>
         <div
           className={cn(css.details, {
@@ -78,7 +78,8 @@ const VideoSection = ({ challenge }) => {
             </div>
           )}
         </div>
-      </div>
+      </header>
+
       <div className={css.videoPlayer}>
         {timestamps.length === 0 && <div className={css.spacer} />}
         <div className={css.videoContainer}>
@@ -96,7 +97,7 @@ const VideoSection = ({ challenge }) => {
             className={cn(css.timelineContainer, {
               [css.unCollapsed]: showTimeline
             })}>
-            <div className={css.timelinesContent}>
+            <nav className={css.timelinesContent}>
               <div className={css.tabs}>
                 <div className={css.tab}>Timestamps</div>
               </div>
@@ -107,7 +108,7 @@ const VideoSection = ({ challenge }) => {
                   updateTimestamp={updateTimestamp}
                 />
               </div>
-            </div>
+            </nav>
           </div>
         )}
       </div>

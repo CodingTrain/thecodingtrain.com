@@ -22,7 +22,8 @@
     font-size: var(--maru-medium);
   }
 
-  & h4 {
+  & h2,
+  & h3 {
     font-weight: 600;
   }
 
@@ -75,17 +76,28 @@
   white-space: nowrap;
   overflow: hidden;
   text-decoration: underline;
+  & > * {
+    font-weight: normal;
+    font-size: var(--maru-normal);
+  }
 }
 
 .author {
-  border-bottom: var(--border-purple);
-  border-left: var(--border-purple);
-  line-height: var(--baseline-box);
-  display: flex;
-  align-items: center;
   margin: 0;
-  padding: 0 calc(var(--box-padding) / 2);
+
   color: var(--gray-mid);
+  & > address {
+    border-bottom: var(--border-purple);
+    border-left: var(--border-purple);
+    line-height: var(--baseline-box);
+    display: flex;
+    align-items: center;
+    padding: 0 calc(var(--box-padding) / 2);
+  }
+
+  & * {
+    font-style: normal;
+  }
 }
 
 .authorName {

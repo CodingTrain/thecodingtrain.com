@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Helmet } from 'react-helmet';
 
-const Head = ({ title }) => {
+const Head = ({ title, description }) => {
   return (
     <Helmet
       htmlAttributes={{
@@ -14,7 +14,10 @@ const Head = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges."
+        content={
+          description ??
+          'All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges.'
+        }
       />
     </Helmet>
   );

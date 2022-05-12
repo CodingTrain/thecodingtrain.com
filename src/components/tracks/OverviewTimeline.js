@@ -98,7 +98,7 @@ const ChapterSection = memo(
               { [css.hasSeen]: hasSeenChapter || isThisChapter }
             )}
             onClick={() => setCollapsed((c) => !c)}>
-            <h5>{chapter.title}</h5>
+            {chapter.title}
           </button>
         )}
         {!collapsed &&

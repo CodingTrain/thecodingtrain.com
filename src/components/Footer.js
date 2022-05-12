@@ -24,7 +24,7 @@ const externalLink = {
 
 const Footer = () => {
   return (
-    <div className={cn(cols, css.root)}>
+    <footer className={cn(cols, css.root)}>
       <div className={css.logoMobile}>
         <Logo width={250} />
       </div>
@@ -37,8 +37,9 @@ const Footer = () => {
           <Train />
         </div>
       </div>
-      <div className={cn(css.box)}>
-        <h3>
+
+      <nav className={cn(css.box)} aria-labelledby="cafe-car-navigation">
+        <h3 id="cafe-car-navigation">
           <a href="https://discord.com/invite/hPuGy2g">The Cafe Car!</a>
         </h3>
         <div className={css.action}>
@@ -50,10 +51,12 @@ const Footer = () => {
             Join now
           </a>
         </div>
-      </div>
+      </nav>
 
-      <div className={cn(css.box)}>
-        <h3>
+      <nav
+        className={cn(css.box)}
+        aria-labelledby="passenger-showcase-navigation">
+        <h3 id="passenger-showcase-navigation">
           <Link to="/#passenger-showcase">Passenger Showcase!</Link>
         </h3>
         <div className={css.action}>
@@ -65,10 +68,12 @@ const Footer = () => {
             Learn how to submit
           </Link>
         </div>
-      </div>
+      </nav>
 
-      <div className={css.socialLinks}>
-        <h3 className={css.title}>Follow us!</h3>
+      <nav className={css.socialLinks} aria-labelledby="socials-navigation">
+        <h3 className={css.title} id="socials-navigation">
+          Follow us!
+        </h3>
         <ul>
           <li>
             <a href="https://www.youtube.com/c/TheCodingTrain/">
@@ -115,8 +120,9 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-      </div>
-      <div className={css.navBox}>
+      </nav>
+
+      <nav className={css.navBox}>
         <ul>
           <li className={css.title}>
             <Link to="/guides/getting-started">Getting started</Link>
@@ -161,10 +167,12 @@ const Footer = () => {
             <a href="https://github.com/CodingTrain">GitHub</a>
           </li>
         </ul>
-      </div>
+      </nav>
 
-      <div className={cn(css.box, css.bottomBox)}>
-        <h3>
+      <nav
+        className={cn(css.box, css.bottomBox)}
+        aria-labelledby="support-navigation">
+        <h3 id="support-navigation">
           <Link to="#">Support the Coding Train!</Link>
         </h3>
         <div className={css.action}>
@@ -192,12 +200,12 @@ const Footer = () => {
             .
           </p>
         </div>
-      </div>
+      </nav>
 
       <div className={css.copyright}>
         2021 The Coding Train. All rights reserved.
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -22,7 +22,7 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
   return [videoIndex + 1, trackTotal];
 };
 
-const VideoSection = ({ track, video, trackPosition }) => {
+const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
   const chapters = track.chapters ? track.chapters : [{ videos: track.videos }];
   const { title, videoId, topics, languages, timestamps } = video;
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
@@ -35,6 +35,8 @@ const VideoSection = ({ track, video, trackPosition }) => {
   const youTubeVideoRef = useRef();
   const [showTimestamps, setShowTimestamps] = useState(false);
   const [timestamp, setTimestamp] = useState();
+
+  const Header = mainTitle ? 'h1' : 'h2';
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -55,9 +57,9 @@ const VideoSection = ({ track, video, trackPosition }) => {
 
   return (
     <div className={css.root}>
-      <div className={css.header}>
+      <header className={css.header}>
         <div className={css.title}>
-          <h2>{title}</h2>
+          <Header>{title}</Header>
         </div>
         <div
           className={cn(css.details, {
@@ -91,7 +93,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
             </span>
           </div>
         </div>
-      </div>
+      </header>
       <div className={css.videoPlayer}>
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>
@@ -106,7 +108,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
           className={cn(css.timelineContainer, {
             [css.unCollapsed]: showTimeline
           })}>
-          <div className={css.timelinesContent}>
+          <nav className={css.timelinesContent}>
             <div className={css.tabs}>
               <div
                 className={cn(css.tab, {
@@ -156,7 +158,7 @@ const VideoSection = ({ track, video, trackPosition }) => {
                 trackPosition={trackPosition}
               />
             </div>
-          </div>
+          </nav>
         </div>
       </div>
     </div>

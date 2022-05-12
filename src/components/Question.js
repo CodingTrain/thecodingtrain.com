@@ -37,7 +37,7 @@ const Question = ({ variant, slug, question, answer, currentHash }) => {
         role="button"
         tabIndex="0">
         <Open className={cn(css.icon, { [css.rotateIcon]: open })} />
-        <p>{question}</p>
+        <h3>{question}</h3>
         {open && (
           <a
             className={css.permalink}

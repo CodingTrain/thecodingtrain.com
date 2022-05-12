@@ -7,15 +7,20 @@ import * as css from './PassengerShowcasePanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
 
-const PassengerShowcasePanel = ({ contributions, placeholderImage }) => {
+const PassengerShowcasePanel = ({
+  contributions,
+  placeholderImage,
+  headerType = 'h2'
+}) => {
   const description =
     contributions.length > 0
       ? 'What the Coding Train community has created based on this video'
       : 'No contributions submitted yet!';
+  const Header = headerType;
   return (
-    <div className={css.root}>
+    <section className={css.root}>
       <div className={css.titleBox}>
-        <h4>Passenger Showcase</h4>
+        <Header>Passenger Showcase</Header>
         <p>{description}</p>
       </div>
       <div className={css.contributions}>
@@ -38,11 +43,15 @@ const PassengerShowcasePanel = ({ contributions, placeholderImage }) => {
         className={css.showcasePanel}
         smallWrap={true}
       />
-    </div>
+    </section>
   );
 };
 
-const Contribution = ({ contribution, placeholderImage }) => {
+const Contribution = ({
+  contribution,
+  placeholderImage,
+  headerType = 'h3'
+}) => {
   const { title, cover, author } = contribution;
   const image = cover
     ? contribution.cover.file.childImageSharp.gatsbyImageData
@@ -52,10 +61,11 @@ const Contribution = ({ contribution, placeholderImage }) => {
     (contribution.videoId
       ? `https://youtu.be/${contribution.videoId}`
       : contribution.source);
+  const Header = headerType;
   return (
-    <div className={css.contrib}>
+    <article className={css.contrib}>
       <a className={css.title} href={url} target="_blank" rel="noreferrer">
-        {title}
+        <Header>{title}</Header>
       </a>
       <a
         className={css.pictureContainer}
@@ -71,20 +81,22 @@ const Contribution = ({ contribution, placeholderImage }) => {
         <PlayButton width={30} className={css.playButton} />
       </a>
       <p className={css.author}>
-        <span>by </span>
-        {author.url ? (
-          <a
-            href={author.url}
-            target="_blank"
-            rel="noreferrer"
-            className={css.authorName}>
-            {author.name}
-          </a>
-        ) : (
-          <span className={css.authorName}>{author.name}</span>
-        )}
+        <address>
+          <span>by </span>
+          {author.url ? (
+            <a
+              href={author.url}
+              target="_blank"
+              rel="noreferrer"
+              className={css.authorName}>
+              {author.name}
+            </a>
+          ) : (
+            <span className={css.authorName}>{author.name}</span>
+          )}
+        </address>
       </p>
-    </div>
+    </article>
   );
 };
 
