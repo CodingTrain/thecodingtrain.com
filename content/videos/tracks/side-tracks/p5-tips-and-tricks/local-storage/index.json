@@ -1,0 +1,74 @@
+{
+  "title": "Local Storage in JavaScript with p5.js",
+  "description": "What's the easiest and quickest way to have a p5 sketch re-start from where it last left off? Local Storage!",
+  "videoNumber": "Video number",
+  "videoId": "_SRS8b4LcZ8",
+  "date": "2022-05-04",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "Storage"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Hello! What is Local Storage?" },
+    { "time": "1:15", "title": "Color sliders p5 sketch" },
+    { "time": "2:16", "title": "p5 local storage code" },
+    { "time": "7:57", "title": "Debug storage with developer tools" },
+    { "time": "8:50", "title": "Storing JavaScript objects" },
+    { "time": "10:26", "title": "Downsides of local storage" },
+    { "time": "11:15", "title": "More examples!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Local Storage",
+      "description": "Preserving the color of the sketch when reloading",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/R-Z_q_4c3"
+      }
+    },
+    {
+      "title": "Local Storage w/ Canvas",
+      "description": "A drawable canvas that remembers what was drawn after reloading",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cLOmL8Td0"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Local Storage",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+          "description": "MDN web docs entry on Window.localStorage"
+        },
+        {
+          "title": "storeItem()",
+          "url": "https://p5js.org/reference/#/p5/storeItem",
+          "description": "p5 reference entry on the storeItem() method"
+        },
+        {
+          "title": "getItem()",
+          "url": "https://p5js.org/reference/#/p5/getItem",
+          "description": "p5 reference entry on the getItem() method"
+        },
+        {
+          "title": "Storage for the Web",
+          "url": "https://web.dev/storage-for-the-web/",
+          "description": "Article on options for storing data in the browser"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Introduction to Object-Oriented Programming with ES6",
+          "url": "https://www.youtube.com/watch?v=xG2Vbnv0wvg",
+          "description": "Coding Train video on object-oriented programming in p5.js"
+        }
+      ]
+	}
+  ]
+}

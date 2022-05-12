@@ -47,6 +47,8 @@
   border-bottom: var(--border);
   border-color: var(--cyan);
   color: var(--gray-mid);
+  font-weight: normal;
+  font-size: var(--maru-medium);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

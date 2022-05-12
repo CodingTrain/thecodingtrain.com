@@ -18,7 +18,7 @@ const GuideCard = ({
   variant
 }) => {
   return (
-    <div className={cn(css.root, css[variant])}>
+    <article className={cn(css.root, css[variant])}>
       <div className={css.block}>
         <div className={css.top}>
           <div className={css.icon}>{icon}</div>
@@ -44,7 +44,7 @@ const GuideCard = ({
         </div>
       </div>
       <div className={css.gap} />
-    </div>
+    </article>
   );
 };
 

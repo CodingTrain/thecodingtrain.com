@@ -16,7 +16,7 @@ import * as css from './HomepageScene.module.css';
 const HomepageScene = ({ title, description }) => {
   return (
     <>
-      <div className={css.header}>
+      <header className={css.header}>
         <Cloud className={cn(css.cloud, css.cloud1)} />
         <Cloud className={cn(css.cloud, css.cloud2)} />
         <Cloud className={cn(css.cloud, css.cloud3)} />
@@ -33,7 +33,7 @@ const HomepageScene = ({ title, description }) => {
         <Train className={css.train} />
         <TrainTrack className={css.trainTrack} />
         <p className={css.paragraph}>{description}</p>
-      </div>
+      </header>
       <Spacer className={css.spacer} />
 
       <div className={css.extraHeader}>

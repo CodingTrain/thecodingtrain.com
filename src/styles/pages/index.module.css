@@ -297,7 +297,7 @@
     border-bottom: var(--border);
     border-left: var(--border);
     height: var(--baseline-3x);
-    & h2 {
+    & h3 {
       font-family: var(--maru-mono);
       padding: 0 var(--box-padding);
       font-size: var(--maru-xlarge);

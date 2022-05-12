@@ -16,9 +16,10 @@ import * as css from '../styles/pages/404.module.css';
 const NotFoundPage = ({ data }) => {
   const { title, description, links } = data.pageData.nodes[0];
   return (
-    <Layout title="Page not found!">
+    <Layout title="Page not found!" description={description}>
       <Spacer />
-      <div className={css.header}>
+
+      <header className={css.header}>
         <Heading1 className={css.heading} variant="pink">
           {title}
         </Heading1>
@@ -28,12 +29,13 @@ const NotFoundPage = ({ data }) => {
           <SceneCharacter3 />
           <SemiColonCharacter />
         </div>
-      </div>
-      <div className={css.content}>
+      </header>
+
+      <main className={css.content}>
         <div className={css.description}>
           <p>{description}</p>
         </div>
-        <div className={css.ctas}>
+        <nav className={css.ctas}>
           {links.map((link) => (
             <div className={css.cta}>
               <ButtonPanel
@@ -45,8 +47,9 @@ const NotFoundPage = ({ data }) => {
               />
             </div>
           ))}
-        </div>
-      </div>
+        </nav>
+      </main>
+
       <Spacer pattern />
     </Layout>
   );

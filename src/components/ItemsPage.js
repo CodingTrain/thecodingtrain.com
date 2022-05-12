@@ -79,9 +79,9 @@ const ItemsPage = ({
   };
 
   return (
-    <Layout title={title}>
+    <Layout title={title} description={description}>
       <Spacer />
-      <div className={css.header}>
+      <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>
           {title}
         </Heading1>
@@ -91,7 +91,7 @@ const ItemsPage = ({
           })}>
           <Character />
         </div>
-      </div>
+      </header>
 
       <PagePanel
         className={css.panel}
@@ -141,7 +141,9 @@ const ItemsPage = ({
           variant={variant}
         />
       </div>
+
       <Spacer />
+
       {children({
         isFiltered: selectedLanguage !== 'all' || selectedTopic !== 'all',
         language: selectedLanguage,
@@ -149,7 +151,7 @@ const ItemsPage = ({
       })}
 
       {showPagination ? (
-        <div className={cn(css.paginationNav, { [css[variant]]: variant })}>
+        <nav className={cn(css.paginationNav, { [css[variant]]: variant })}>
           <span>
             {previousPagePath && (
               <Link to={previousPagePath} state={{ expanded }}>
@@ -167,7 +169,7 @@ const ItemsPage = ({
               </Link>
             )}
           </span>
-        </div>
+        </nav>
       ) : (
         <div className={cn(css.noItemsMessage, { [css[variant]]: variant })}>
           <p>No {title} found! </p>

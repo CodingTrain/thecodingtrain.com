@@ -179,26 +179,8 @@
   }
 }
 
-.talksCta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: var(--baseline);
-  background-color: var(--purple-light);
-  color: var(--purple);
-  border-left: var(--border-purple);
-  border-bottom: var(--border-purple);
-  padding: var(--spacing-xsmall) var(--spacing-xsmall) var(--spacing-xsmall)
-    var(--spacing-normal);
-}
-.talksCta p {
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 0;
-  flex-grow: 2;
-}
-.talksButton {
-  flex-grow: 1;
+.h4LikeTitle h2 {
+  font-family: var(--maru);
 }
 
 .acknowledgementsText {
@@ -225,7 +207,7 @@
 
 .acknowledgementsTeam,
 .acknowledgementsContributors {
-  & h4 {
+  & h3 {
     border-bottom: var(--border-purple);
     height: var(--baseline);
     line-height: var(--baseline);
@@ -273,7 +255,7 @@
   .acknowledgementsList {
     flex-direction: column;
   }
-  .acknowledgementsContributors h4 {
+  .acknowledgementsContributors h3 {
     border-top: var(--border-purple);
   }
   .acknowledgementsContributors ul {

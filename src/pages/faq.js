@@ -21,16 +21,16 @@ const FAQPage = ({ data, location }) => {
   const currentHash = location.hash;
   const parsedDescription = useLinkParsedText(description);
   return (
-    <Layout>
+    <Layout title={title} description={description}>
       <Spacer />
-      <div className={css.header}>
+      <header className={css.header}>
         <Heading1 className={css.heading} variant="pink">
           {title}
         </Heading1>
         <div className={css.character}>
           <BracketsCharacter1 />
         </div>
-      </div>
+      </header>
       <div className={css.description}>{parsedDescription}</div>
       <CharacterSpacer
         className={css.sep}
@@ -44,8 +44,8 @@ const FAQPage = ({ data, location }) => {
       <div className={css.sections}>
         {sections.map((section, sectionIndex) => (
           <Fragment key={sectionIndex}>
-            <div>
-              <h3 className={css.title}>{section.title}</h3>
+            <section>
+              <h2 className={css.title}>{section.title}</h2>
               {section.questions.map((question, index) => (
                 <Question
                   key={index}
@@ -55,7 +55,7 @@ const FAQPage = ({ data, location }) => {
                   {...question}
                 />
               ))}
-            </div>
+            </section>
             <Spacer className={css.spacer} pattern />
             <CharacterSpacer
               className={css.sep}

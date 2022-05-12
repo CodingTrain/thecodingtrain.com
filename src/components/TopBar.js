@@ -41,7 +41,7 @@ const TopBar = () => {
   const today = new Date();
   return (
     <div className={css.outer}>
-      <div className={css.root}>
+      <header className={css.root}>
         <div className={css.logo}>
           <Link to="/" aria-label="Go to homepage">
             <Logo width={250} />
@@ -53,7 +53,7 @@ const TopBar = () => {
           <span className={css.shortDate}>{shortDate(today)}</span>
         </div>
         <Menu />
-      </div>
+      </header>
     </div>
   );
 };

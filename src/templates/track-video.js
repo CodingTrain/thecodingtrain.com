@@ -39,7 +39,9 @@ const Track = ({ pageContext, data }) => {
   const { trackPosition, isTrackPage } = pageContext;
 
   return (
-    <Layout title={isTrackPage ? track.title : video.title}>
+    <Layout
+      title={isTrackPage ? track.title : video.title}
+      description={isTrackPage ? track.description : video.description}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -48,8 +50,11 @@ const Track = ({ pageContext, data }) => {
         ]}
         variant="red"
       />
+
       <div className={css.simpleSep} />
+
       {isTrackPage && <TrackHeader track={track} />}
+
       {isTrackPage && (
         <CharacterSpacer
           className={css.sep}
@@ -60,17 +65,23 @@ const Track = ({ pageContext, data }) => {
           Character={SquareCharacter}
         />
       )}
-      <TrackVideoSection
-        track={track}
-        video={video}
-        trackPosition={trackPosition}
-      />
-      <div className={css.blankSep} />
-      <VideoInfo
-        video={video}
-        variant="red"
-        url={`/tracks/${track.slug}/${video.slug}`}
-      />
+      <main>
+        <TrackVideoSection
+          track={track}
+          video={video}
+          trackPosition={trackPosition}
+          mainTitle={!isTrackPage}
+        />
+
+        <div className={css.blankSep} />
+
+        <VideoInfo
+          video={video}
+          variant="red"
+          url={`/tracks/${track.slug}/${video.slug}`}
+        />
+      </main>
+
       {video.canContribute && (
         <>
           <div className={css.blankSep} />
@@ -83,12 +94,15 @@ const Track = ({ pageContext, data }) => {
             characterSize={0.8}
             Character={DotCharacter}
           />
+
           <PassengerShowcasePanel
             contributions={video.showcase}
             placeholderImage={contributionsPlaceholder}
+            headerType={isTrackPage ? 'h3' : 'h2'}
           />
         </>
       )}
+
       {video.relatedChallenges.length > 0 && (
         <>
           <div className={css.blankSep} />
@@ -100,9 +114,11 @@ const Track = ({ pageContext, data }) => {
             offset={0.4}
             Character={PiCharacter}
           />
+
           <TrackChallengesPanel
             challenges={video.relatedChallenges}
             placeholderImage={challengesPlaceholder}
+            headerType={isTrackPage ? 'h3' : 'h2'}
           />
         </>
       )}

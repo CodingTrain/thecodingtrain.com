@@ -22,14 +22,14 @@ const GuidesPage = ({ data }) => {
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
   return (
-    <Layout title={pageData.title}>
+    <Layout title={pageData.title} description={pageData.description}>
       <Spacer />
-      <div className={css.header}>
+      <header className={css.header}>
         <Heading1 className={css.heading} variant="purple">
           Guides
         </Heading1>
         <div className={css.character}>{<DotCharacter />}</div>
-      </div>
+      </header>
       <PagePanel
         className={css.panel}
         description={pageData.description}
@@ -39,6 +39,7 @@ const GuidesPage = ({ data }) => {
         variant="orange"
         bbColor="orange"
       />
+
       <CharacterSpacer
         className={css.sep}
         variant="purple"
@@ -48,6 +49,7 @@ const GuidesPage = ({ data }) => {
         characterSize={1.1}
         Character={DotCharacter2}
       />
+
       <div className={css.guideList}>
         {guides.map((guide, i) => (
           <GuideCard
@@ -66,6 +68,7 @@ const GuidesPage = ({ data }) => {
           />
         ))}
       </div>
+
       <Spacer className={css.spacer} />
       <CharacterSpacer
         className={css.sep}

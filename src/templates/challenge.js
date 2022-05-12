@@ -29,7 +29,7 @@ const Challenge = ({ data }) => {
       ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : challengesPlaceholder;
   return (
-    <Layout title={challenge.title}>
+    <Layout title={challenge.title} description={challenge.description}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -38,14 +38,21 @@ const Challenge = ({ data }) => {
         ]}
         variant="cyan"
       />
+
       <div className={css.simpleSep} />
-      <ChallengeVideoSection challenge={challenge} />
-      <div className={css.blankSep} />
-      <VideoInfo
-        video={challenge}
-        variant="cyan"
-        url={`/challenges/${challenge.slug}`}
-      />
+
+      <main>
+        <ChallengeVideoSection challenge={challenge} />
+
+        <div className={css.blankSep} />
+
+        <VideoInfo
+          video={challenge}
+          variant="cyan"
+          url={`/challenges/${challenge.slug}`}
+        />
+      </main>
+
       <div className={css.blankSep} />
       <CharacterSpacer
         className={css.sep}
@@ -56,10 +63,12 @@ const Challenge = ({ data }) => {
         characterSize={0.8}
         Character={DotCharacter}
       />
+
       <PassengerShowcasePanel
         contributions={challenge.showcase}
         placeholderImage={contributionsPlaceholder}
       />
+
       {challenge.relatedChallenges.length > 0 && (
         <>
           <div className={css.blankSep} />
@@ -77,6 +86,7 @@ const Challenge = ({ data }) => {
           />
         </>
       )}
+
       <div className={cn(pattern, css.pattern)} />
       <CharacterSpacer
         className={css.sep}

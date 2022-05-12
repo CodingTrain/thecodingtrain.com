@@ -10,7 +10,7 @@ const PagePanel = (props) => {
   const { description, bbColor, variant, className, ...buttonPanelProps } =
     props;
   return (
-    <div
+    <aside
       className={cn(css.root, className, {
         [css[variant]]: variant,
         [css['bb' + bbColor]]: bbColor
@@ -28,7 +28,7 @@ const PagePanel = (props) => {
           {...buttonPanelProps}
         />
       </div>
-    </div>
+    </aside>
   );
 };
 

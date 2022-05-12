@@ -9,7 +9,7 @@ const Header = ({ track }) => {
   const { title, description, topics, languages, numVideos } = track;
 
   return (
-    <div className={css.root}>
+    <header className={css.root}>
       <h1 className={css.title}>{title}</h1>
       <div className={css.info}>
         <CollapsableDescription
@@ -47,7 +47,7 @@ const Header = ({ track }) => {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
