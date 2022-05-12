@@ -5,7 +5,7 @@
   "videoId": "0zac-cDzJwA",
   "date": "2022-05-11",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "topics": ["probability", "math", "games"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "What is the Monty Hall Problem?" },
