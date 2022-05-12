@@ -1,7 +1,7 @@
 {
   "title": "Define Your Own Variables",
   "description": "In this video, I cover how to define, initialize, and use your own variables for the purpose of animating p5.js sketches.",
-  "videoNumber": "Video number",
+  "videoNumber": "2.2",
   "videoId": "dRhXIIFp-ys",
   "date": "2021-05-19",
   "languages": ["p5.js", "JavaScript"],
