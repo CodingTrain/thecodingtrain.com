@@ -48,7 +48,7 @@ const Footer = () => {
             help with your code from the Station Managers.
           </p>
           <a className={css.cta} href="https://discord.com/invite/hPuGy2g">
-            Join now
+            Join Discord now
           </a>
         </div>
       </nav>
@@ -65,7 +65,7 @@ const Footer = () => {
             your work and have it featured on this site!
           </p>
           <Link className={css.cta} to="/guides/community-contribution-guide/">
-            Learn how to submit
+            Learn how to submit your work
           </Link>
         </div>
       </nav>

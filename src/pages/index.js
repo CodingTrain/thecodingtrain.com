@@ -111,7 +111,7 @@ const EventRow = ({ event }) => {
         </div>
         <div className={css.eventButton}>
           <Button href={url} variant="pink" rainbow>
-            GO
+            GO TO EVENT
           </Button>
         </div>
       </div>
