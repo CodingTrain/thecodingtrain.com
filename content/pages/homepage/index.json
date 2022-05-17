@@ -7,13 +7,13 @@
     "title": "New to coding?",
     "description": "All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly.",
     "guideCta": {
-      "text": "We’ve created a simple guide to help you get started",
-      "buttonText": "guide the ride",
+      "text": "Don't know where to start?",
+      "buttonText": "read getting started guide",
       "href": "/guides/getting-started"
     },
     "discordCta": {
-      "text": "have questions? our community is here to help",
-      "buttonText": "join discord",
+      "text": "have questions?",
+      "buttonText": "join community discord",
       "href": "https://discord.com/invite/hPuGy2g"
     }
   },
@@ -45,8 +45,8 @@
     "title": "Passenger showcase highlight",
     "featured": "challenges/77-recursion/showcase/contribution1.json",
     "cta": {
-      "text": "check it out now",
-      "buttonText": "go now"
+      "text": "Do you want to see other people's work?",
+      "buttonText": "Check out showcase highlight"
     }
   },
   "events": {
@@ -72,27 +72,27 @@
       {
         "text": "YouTube Membership",
         "href": "https://www.youtube.com/thecodingtrain/join",
-        "buttonText": "Join"
+        "buttonText": "Join membership"
       },
       {
         "text": "Patreon",
         "href": "https://www.patreon.com/codingtrain",
-        "buttonText": "Join"
+        "buttonText": "Join membership"
       },
       {
         "text": "GitHub Sponsorship",
         "href": "https://github.com/sponsors/shiffman",
-        "buttonText": "Join"
+        "buttonText": "Join sponsorship"
       },
       {
         "text": "Twitch Subscription",
         "href": "https://www.twitch.tv/subs/CodingTrainChooChoo",
-        "buttonText": "Subscribe"
+        "buttonText": "Subscribe to channel"
       },
       {
         "text": "Nature of Code Book",
         "href": "https://natureofcode.com/",
-        "buttonText": "Buy"
+        "buttonText": "Buy book"
       }
     ]
   }
