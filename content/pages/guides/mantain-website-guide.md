@@ -168,7 +168,7 @@ If you've got further questions then don't hesitate to ask.
 
 ## What should I put in the page?
 
-You find a template below witch covers most of options for the YAML section of the file. YAML stands for yet another markup language and we use it to basically make formatted list of video traits.
+You find a template below which covers most of options for the YAML section of the file. YAML stands for yet another markup language and we use it to basically make formatted lists of video traits.
 
 Please watch the whole video so you can include the links and videos sections in the page. Don't include dead links though.
 
@@ -209,7 +209,7 @@ videos: # Other YouTube videos mentioned in this video.
 
 ## What about the code?
 
-If the video you're working on a video that has code in it then you want to make sure people can find it as that's one of the main reasons for the Coding Train website to exist.
+If the video you're working on has code in it then you want to make sure people can find it as that's one of the main reasons for the Coding Train website to exist.
 
 Code goes in a similar place to the page itself but the path doesn't begin with an underscore. And you'll have to add a sub-folder for the code to be put in. As an example `_beginners/p5js/2.5-random.md` becomes `beginners/p5js/2.5-random/P5`. Each language or library has a default folder name which is automatically discovered and added to the page. `P5` for p5.js, `Processing` for Processing, `JavaScript` for JavaScript, and `Node` for Node.js. If another directory name is used it won't be detected unless it's added to in the variations section of the page.
 
@@ -254,7 +254,7 @@ First of all, you have to find out to which category (or collection as [Jekyll](
 - Courses
 - Streams
 
-Selecting the right one is pretty straight forward. You can find the corresponding folders in the root directory of this repository preceded by an `_`.
+Selecting the right one is pretty straightforward. You can find the corresponding folders in the root directory of this repository preceded by an `_`.
 
 For some collections (namely tutorials and courses - this does **not** apply to streams and coding challenges) you will find subdirectories in the collection's folder. You also have to decide, to which subcategory the video belongs. This is necessary to help Jekyll build nice URLs. In most cases, the correct subfolder has already been created. Otherwise, feel free to do it yourself. You can follow the video number (like Tutorial 1.2) if you are unsure about how to name it. In this case, `1` would indicate that this video is part of tutorial one (which therefore is a subcategory of the collection). Such a subcategory is called a "series".
 
