@@ -20,7 +20,7 @@ If you are interested in learning web development, p5.js is a way to get started
 
 <Video videoId="gJa6wri8YNQ" listId="PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X"/>
 
-For a beginner, I recommend the [p5.js web editor](https://editor.p5js.org/), it’s probably the coding environment the most! You can also explore a downloadable text editor like [Visual Studio Code](https://code.visualstudio.com/). I cover all of these elements in [my 2018 workflow series](/tracks/2018-workflow). If you are using Processing, it comes [with its own development environment](https://processing.org/download)! There are many text editors out there – feel free to use whichever makes your coding experience comfortable!
+For a beginner, I recommend the [p5.js web editor](https://editor.p5js.org/), it’s probably the coding environment the most used! You can also explore a downloadable text editor like [Visual Studio Code](https://code.visualstudio.com/). I cover all of these elements in [my 2018 workflow series](/tracks/2018-workflow). If you are using Processing, it comes [with its own development environment](https://processing.org/download)! There are many text editors out there – feel free to use whichever makes your coding experience comfortable!
 
 ## Start Learning and Coding!
 
