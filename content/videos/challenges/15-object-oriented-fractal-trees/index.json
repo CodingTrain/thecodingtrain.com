@@ -1,11 +1,16 @@
 {
   "title": "Object-Oriented Fractal Trees",
-  "description": "",
+  "description": "More algorithmic botany! Another way to generate a fractal tree is to consider every part of the tree an object, so that we can apply forces and attributes to all the branches and leaves and more!",
   "videoNumber": "15",
   "videoId": "fcdNSZ9IzJM",
   "date": "2016-06-02",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "generative art"],
+  "topics": [
+    "fractals",
+    "object-oriented programming",
+    "generative art",
+    "algorithmic botany"
+  ],
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
