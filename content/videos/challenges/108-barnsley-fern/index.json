@@ -1,11 +1,11 @@
 {
   "title": "Barnsley Fern",
-  "description": "In this coding challenge, I visualize the Barnsley Fern fractal with Processing (Java).",
+  "description": "Visualizing the Barnsley Fern fractal with Processing (Java)!",
   "videoNumber": "108",
   "videoId": "JFugGF1URNo",
   "date": "2018-06-21",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "generative art"],
+  "topics": ["fractals", "generative art", "algorithmic botany"],
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
