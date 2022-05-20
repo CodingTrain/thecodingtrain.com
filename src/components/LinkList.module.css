@@ -15,9 +15,10 @@
 .icon,
 .description,
 .url {
-  height: var(--baseline);
+  /* height: var(--baseline); */
   padding: 0 var(--spacing-normal);
   line-height: var(--baseline);
+  height: min-content;
 }
 
 .icon {
