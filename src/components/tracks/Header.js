@@ -20,18 +20,6 @@ const Header = ({ track }) => {
         />
         <div className={css.tagsContainer}>
           <Tags
-            heading="Languages"
-            items={languages}
-            singleLine={false}
-            linkTo={(value) => `/tracks/lang:${value}+topic:all`}
-          />
-          <Tags
-            heading="Topics"
-            items={topics}
-            singleLine={false}
-            linkTo={(value) => `/tracks/lang:all+topic:${value}`}
-          />
-          <Tags
             heading={track.type === 'main' ? 'Main track' : 'Side track'}
             items={[
               ...(track.chapters
@@ -44,6 +32,18 @@ const Header = ({ track }) => {
               `${numVideos} videos`
             ]}
             singleLine={false}
+          />
+          <Tags
+            heading="Languages"
+            items={languages}
+            singleLine={false}
+            linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+          />
+          <Tags
+            heading="Topics"
+            items={topics}
+            singleLine={false}
+            linkTo={(value) => `/tracks/lang:all+topic:${value}`}
           />
         </div>
       </div>
