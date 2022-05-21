@@ -52,6 +52,17 @@ const VideoCard = ({
           </div>
           <div className={css.right}>
             <Image image={image} imgClassName={css.img} />
+            {link ? (
+              <a className={css.meta} href={link}>
+                <span>{meta}</span>
+                <Play className={css.play} />
+              </a>
+            ) : (
+              <Link to={slug} className={css.meta}>
+                <span>{meta}</span>
+                <Play className={css.play} />
+              </Link>
+            )}
           </div>
         </div>
       </div>
