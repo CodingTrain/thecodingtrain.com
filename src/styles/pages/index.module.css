@@ -113,11 +113,11 @@
 }
 
 .trackCard {
-  flex: calc(50% - var(--baseline) / 2);
+  width: calc(50% - var(--baseline) / 2);
 }
 
 .challengeCard {
-  flex: calc((100% - 2 * var(--baseline)) / 3);
+  width: calc((100% - 2 * var(--baseline)) / 3);
 }
 
 .card .details {
@@ -414,7 +414,8 @@
     display: block;
   }
 
-  .trackCard {
+  .trackCard,
+  .challengeCard {
     flex: 100%;
   }
 
