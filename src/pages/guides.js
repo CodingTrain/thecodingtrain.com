@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
+import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
@@ -50,22 +51,39 @@ const GuidesPage = ({ data }) => {
         Character={DotCharacter2}
       />
 
+      <Spacer className={css.spacer} />
+
       <div className={css.guideList}>
         {guides.map((guide, i) => (
-          <GuideCard
-            key={i}
-            title={guide.mdx.frontmatter.title}
-            description={guide.mdx.frontmatter.description}
-            slug={`/guides/${guide.mdx.slug}`}
-            meta={guide.mdx.frontmatter.date}
-            icon={'📒'}
-            image={
-              guide.cover?.file?.childImageSharp?.gatsbyImageData ??
-              guidesPlaceholderImage
-            }
-            variant="purple"
-            className={css.guideItem}
-          />
+          <>
+            <GuideCard
+              key={i}
+              title={guide.mdx.frontmatter.title}
+              description={guide.mdx.frontmatter.description}
+              slug={`/guides/${guide.mdx.slug}`}
+              meta={guide.mdx.frontmatter.date}
+              icon={'📒'}
+              image={
+                guide.cover?.file?.childImageSharp?.gatsbyImageData ??
+                guidesPlaceholderImage
+              }
+              variant="purple"
+            />
+            {i % 2 === 0 && (
+              <div
+                className={cn(css.horizontalGap, {
+                  [css.lastHG]: i === guides.length - 1
+                })}
+              />
+            )}
+            {i !== guides.length - 1 && (
+              <div
+                className={cn(css.verticalGap, {
+                  [css.rowVG]: i % 2 !== 0
+                })}
+              />
+            )}
+          </>
         ))}
       </div>
 

@@ -52,21 +52,37 @@
 
 .guideList {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
-.guideItem {
-  flex: 50%;
-  /* display: flex;
-  justify-content: start;
-  align-items: center;
-  border-bottom: var(--border-purple);
+/* GAP */
+.horizontalGap {
+  flex: 0 0 var(--baseline-box);
   border-left: var(--border-purple);
+  border-bottom: var(--border-purple);
+
+  @media (--medium) {
+    display: none;
+  }
+}
+
+.lastHG {
+  flex-grow: 1;
+}
+
+.verticalGap {
+  flex: 0 0 100%;
   width: 100%;
   height: var(--baseline);
-  padding: 0 var(--box-padding);
-  background: var(--purple-light);
-  color: var(--gray-mid); */
+  border-left: var(--border-purple);
+  border-bottom: var(--border-purple);
+  display: none;
+
+  @media (--medium) {
+    display: block;
+  }
+}
+
+.rowVG {
+  display: block;
 }
