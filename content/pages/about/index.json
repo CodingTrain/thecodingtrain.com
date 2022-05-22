@@ -73,7 +73,10 @@
         { "name": "Processing Foundation" },
         { "name": "ml5.js" },
         { "name": "Nebula" },
-        { "name": "Design Systems International" }
+        {
+          "name": "Design Systems International",
+          "url": "https://designsystems.international"
+        }
       ]
     },
     {
@@ -90,15 +93,6 @@
         { "name": "Discord and GitHub: David Snyder" },
         { "name": "Website Content Development: Kline Gareth" },
         { "name": "Content Designer: Elizabeth Perez" }
-      ]
-    },
-    {
-      "name": "Website",
-      "people": [
-        {
-          "name": "Design Systems International",
-          "url": "https://designsystems.international"
-        }
       ]
     },
     {
