@@ -1,0 +1,62 @@
+{
+    "title": "Visualizing a Binary Tree",
+    "description": "In this follow-up to the Binary Tree coding challenge, I look at the very beginning steps to visualizing the tree. Make and share your own!",
+    "videoNumber": "65.2",
+    "videoId": "KFEvF_ymuzY",
+    "date": "2017-03-22",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/UBGpfubd1"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_065.2_binary_tree_viz/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_065.2_binary_tree_viz/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Binary Search Tree",
+                    "url": "/CodingChallenges/065.1-binary-tree",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Intelligence and Learning (Spring 2017)",
+                    "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+                    "description": ""
+                },
+                {
+                    "title": "Grokking Algorithms book",
+                    "url": "https://www.manning.com/books/grokking-algorithms",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

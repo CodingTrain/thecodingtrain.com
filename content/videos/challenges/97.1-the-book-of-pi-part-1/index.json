@@ -1,0 +1,78 @@
+{
+    "title": "The Book of Pi - Part 1",
+    "description": "In yet another \u201cPi Day\u201d coding challenge, I attempt to generate a pdf \u201cBook of Pi\u201d with the first 10 million digits of Pi mapped to color. Processing (Java) is used for this project.",
+    "videoNumber": "97.1",
+    "videoId": "tbvG9hrJxOU",
+    "date": "2018-03-20",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_097.1_Book_of_Pi_Part_1/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "The Book of Pi - Part 2",
+                    "url": "/CodingChallenges/097.2-book-of-pi",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "1 Billion Digits of Pi",
+                    "url": "https://stuff.mit.edu/afs/sipb/contrib/pi/",
+                    "description": ""
+                },
+                {
+                    "title": "10 Million Pi Digits",
+                    "url": "https://introcs.cs.princeton.edu/java/data/pi-10million.txt",
+                    "description": ""
+                },
+                {
+                    "title": "Million Pi Digits",
+                    "url": "http://www.piday.org/million/",
+                    "description": ""
+                },
+                {
+                    "title": "Pi Day Code",
+                    "url": "https://github.com/CodingTrain/PiDay",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Polar to Cartesian",
+                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
+                    "description": ""
+                },
+                {
+                    "title": "Pi Day Live Stream Archive",
+                    "url": "/Streams/126.2-pi-day-continued",
+                    "description": ""
+                },
+                {
+                    "title": "Learning Processing",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

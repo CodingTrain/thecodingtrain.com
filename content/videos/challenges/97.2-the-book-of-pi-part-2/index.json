@@ -1,0 +1,73 @@
+{
+    "title": "The Book of Pi - Part 2",
+    "description": "In this Pi Day themed coding challenge, I use Processing (Java) to export a pdf of the first 10 million digits of Pi.",
+    "videoNumber": "97.2",
+    "videoId": "4Ns9S-Z89-0",
+    "date": "2018-03-21",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_097.2_Book_of_Pi_Part_2/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "The Book of Pi - Part 1",
+                    "url": "/CodingChallenges/097.1-book-of-pi",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "1 Billion Digits of Pi",
+                    "url": "https://stuff.mit.edu/afs/sipb/contrib/pi/",
+                    "description": ""
+                },
+                {
+                    "title": "10 Million Pi Digits",
+                    "url": "https://introcs.cs.princeton.edu/java/data/pi-10million.txt",
+                    "description": ""
+                },
+                {
+                    "title": "Million Pi Digits",
+                    "url": "http://www.piday.org/million/",
+                    "description": ""
+                },
+                {
+                    "title": "Pi Day Code",
+                    "url": "https://github.com/CodingTrain/PiDay",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Pi Day Live Stream Archive",
+                    "url": "/Streams/126.2-pi-day-continued",
+                    "description": ""
+                },
+                {
+                    "title": "Learning Processing",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

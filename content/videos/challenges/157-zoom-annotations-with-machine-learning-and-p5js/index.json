@@ -1,0 +1,80 @@
+{
+    "title": "Zoom Annotations with Machine Learning and p5.js",
+    "description": "Liven up your video calls with p5.js, ml5.js, Teachable Machine, and and OBS Studio!",
+    "videoNumber": "157",
+    "videoId": "9z9mbiOZqSs",
+    "date": "2020-10-29",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Zoom Annotations Basic - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/EaioB_iJs"
+            }
+        },
+        {
+            "title": "Zoom Annotations Basic - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_157_Zoom_Annotations/1-basic"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Comic-Book Style Video Lens",
+                    "url": "https://twitter.com/cameronhunter/status/1305667539922550784",
+                    "description": ""
+                },
+                {
+                    "title": "Snap Lens Studio",
+                    "url": "https://lensstudio.snapchat.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Teachable Machine Website",
+                    "url": "https://teachablemachine.withgoogle.com/",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js Teachable Machine Example",
+                    "url": "https://editor.p5js.org/ml5/sketches/ybNa0zU_GB",
+                    "description": ""
+                },
+                {
+                    "title": "OBS Studio Website",
+                    "url": "https://obsproject.com/",
+                    "description": ""
+                },
+                {
+                    "title": "OBS Virtual Cam for Mac",
+                    "url": "https://github.com/johnboiles/obs-mac-virtualcam/releases",
+                    "description": ""
+                },
+                {
+                    "title": "obs-v4l2sink (OBS Virtual Cam for Linux)",
+                    "url": "https://github.com/CatxFish/obs-v4l2sink",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Teachable Machine 1: Image Classification",
+                    "url": "/TeachableMachine/1-teachable-machine",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

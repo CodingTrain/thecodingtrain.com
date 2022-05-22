@@ -1,0 +1,67 @@
+{
+    "title": "Simple Particle System",
+    "description": "In this coding challenge, I explore the concept of a simple particle system and attempt to create a smoke effect with the p5.js library.",
+    "videoNumber": "78",
+    "videoId": "UcdigVaIYAk",
+    "date": "2017-10-11",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/D4ty3DgZB"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_078_Simple_Particle_System/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_078_Simple_Particle_System/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Particle System on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Particle_system",
+                    "description": ""
+                },
+                {
+                    "title": "#ParticleTrain on Twitter",
+                    "url": "https://twitter.com/hashtag/particletrain",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Fireworks Coding Challenge",
+                    "url": "/CodingChallenges/027-fireworks",
+                    "description": ""
+                },
+                {
+                    "title": "Particle Systems playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Z9hI4mSgx2FlE5w8zvjmEy",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

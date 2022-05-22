@@ -1,0 +1,62 @@
+{
+    "title": "3D Terrain Generation with Perlin Noise in Processing",
+    "description": "In this coding challenge, I create a 3D procedural terrain using Perlin Noise and the beginShape() function in Processing.",
+    "videoNumber": "11",
+    "videoId": "IKB1hWWedMk",
+    "date": "2016-05-04",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/OPYPc4ueq"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_011_PerlinNoiseTerrain/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_011_PerlinNoiseTerrain/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "beginShape() reference",
+                    "url": "https://processing.org/reference/beginShape_.html",
+                    "description": ""
+                },
+                {
+                    "title": "noise() reference",
+                    "url": "https://processing.org/reference/noise_.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Perlin Noise",
+                    "url": "https://youtu.be//more/archive/nature-of-code/0-Introduction/0.5-Perlin-Noise",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

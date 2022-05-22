@@ -1,0 +1,72 @@
+{
+    "title": "RDP Algorithm",
+    "description": "The Ramer\u2013Douglas\u2013Peucker algorithm (aka \u201citerative end-point fit algorithm\u201d), takes a curve composed of line segments and reduces the fidelty to a \u201clower fidelity\u201d curve with fewer points.",
+    "videoNumber": "152",
+    "videoId": "nSYw9GrakjY",
+    "date": "2019-10-23",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/SQjSugKn6"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_152_RDP_Algorithm/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_152_RDP_Algorithm/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Ramer-Douglas-Peucker Algorithm on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm",
+                    "description": ""
+                },
+                {
+                    "title": "Nature of Code Chapter 6",
+                    "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
+                    "description": ""
+                },
+                {
+                    "title": "Scalar Projection Processing Example",
+                    "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp06_agents/SimpleScalarProjection",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Challenge #128: Sketch-RNN Snowflakes",
+                    "url": "/CodingChallenges/128-sketchrnn-snowflakes",
+                    "description": ""
+                },
+                {
+                    "title": "Live Stream #185",
+                    "url": "https://youtu.be/5S87w8IqSHI",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

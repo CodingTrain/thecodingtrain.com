@@ -1,0 +1,72 @@
+{
+    "title": "Kaleidoscope Snowflake #SupportP5",
+    "description": "Happy holidays! #SupportP5! This video shows an attempt to make a snowflake from a \u201ckaleidoscope painting\u201d effect.",
+    "videoNumber": "155",
+    "videoId": "R3C2giDfmO8",
+    "date": "2019-12-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/JbWCVPX5a"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_155_Kaleidoscope_Snowflake/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_155_Kaleidoscope_Snowflake/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "#SupportP5",
+                    "url": "https://donorbox.org/supportpf2019-fundraising-campaign",
+                    "description": ""
+                },
+                {
+                    "title": "Kaleidoscope Painter",
+                    "url": "https://permadi.com/java/spaint/spaint.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial",
+                    "url": "/Tutorials/9-additional-topics/9.1-transformations-part-1",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Challenge #127: Brownian Tree Snowflake",
+                    "url": "/CodingChallenges/127-snowflake-brownian",
+                    "description": ""
+                },
+                {
+                    "title": "2019 Processing Foundation Holiday Telethon",
+                    "url": "https://youtu.be/3wMFd8OGI84",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

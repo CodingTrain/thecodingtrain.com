@@ -1,0 +1,82 @@
+{
+    "title": "Ray Casting 2D",
+    "description": "In this video, I implement a basic ray casting engine with line segment \u201csurfaces\u201d and vector \u201crays.\u201d The result simulates a light source casting shadows in a 2D canvas.",
+    "videoNumber": "145",
+    "videoId": "TOEi6T2mtHo",
+    "date": "2019-05-08",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Nqsq3DFv-"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_145_Ray_Casting/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_145_Ray_Casting/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "SIGHT & LIGHT by Nicky Case",
+                    "url": "https://ncase.me/sight-and-light/",
+                    "description": ""
+                },
+                {
+                    "title": "2d Visibility from Red Blob Games",
+                    "url": "https://www.redblobgames.com/articles/visibility/",
+                    "description": ""
+                },
+                {
+                    "title": "p5.collide2D",
+                    "url": "https://github.com/bmoren/p5.collide2D",
+                    "description": ""
+                },
+                {
+                    "title": "Line-line Intersection",
+                    "url": "https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Adventure: Ray Marching",
+                    "url": "https://youtu.be/Cp5WWtMoeKg",
+                    "description": ""
+                },
+                {
+                    "title": "Matrix Math",
+                    "url": "https://youtu.be//more/archive/nature-of-code/10-Neural-Networks/10.6-Neural-Networks-Matrix-Math-Part-1",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Challenge: Rendering Ray Casting",
+                    "url": "/CodingChallenges/146-rendering-ray-casting",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

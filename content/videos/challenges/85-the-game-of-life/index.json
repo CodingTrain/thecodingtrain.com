@@ -1,0 +1,72 @@
+{
+    "title": "The Game of Life",
+    "description": "In this coding challenge, I attempt to code Conway\u2019s Game of Life cellular automata simulation in JavaScript using the p5.js library.",
+    "videoNumber": "85",
+    "videoId": "FWSR_7kZuYg",
+    "date": "2017-12-11",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/UtSMCB1zv"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_085_The_Game_of_Life/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_085_The_Game_of_Life/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Conway's Game of Life on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
+                    "description": ""
+                },
+                {
+                    "title": "Mathematical Games",
+                    "url": "http://www.ibiblio.org/lifepatterns/october1970.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on The Game of Life",
+                    "url": "https://youtu.be//more/archive/nature-of-code/7-Cellular-Automata/7.3-The-Game-of-Life",
+                    "description": ""
+                },
+                {
+                    "title": "2D Arrays in JavaScript",
+                    "url": "/Tutorials/9-additional-topics/9.15-2d-arrays-in-javascript",
+                    "description": ""
+                },
+                {
+                    "title": "The Modulo Operator with Golan Levin",
+                    "url": "/GuestTutorials/006-golan-levin-modulo-operator",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

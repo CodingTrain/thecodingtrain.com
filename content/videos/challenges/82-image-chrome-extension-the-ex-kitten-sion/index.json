@@ -1,0 +1,50 @@
+{
+    "title": "Image Chrome Extension - The Ex-Kitten-sion!",
+    "description": "In this coding challenge, I create a chrome extension which replaces all image on a page with the picture of a kitten.",
+    "videoNumber": "82",
+    "videoId": "8zMMOdI5SOk",
+    "date": "2017-11-16",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Programming from A to Z",
+                    "url": "http://shiffman.net/a2z",
+                    "description": ""
+                },
+                {
+                    "title": "Kitten Song",
+                    "url": "https://soundcloud.com/lostghbear/lostghbear-podopleloff-kittens-feat-dan-shiffman",
+                    "description": ""
+                },
+                {
+                    "title": "Unsplash",
+                    "url": "https://unsplash.com/",
+                    "description": ""
+                },
+                {
+                    "title": "chrome.extension reference",
+                    "url": "https://developer.chrome.com/extensions/extension",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Regular Expression series",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

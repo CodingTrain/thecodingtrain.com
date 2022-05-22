@@ -1,0 +1,62 @@
+{
+    "title": "Koch Fractal Snowflake",
+    "description": "Snowflake Challenge #3! In this video, I draw the Koch Fractal Curve in Processing (Java).",
+    "videoNumber": "129",
+    "videoId": "X8bXDKqMsXE",
+    "date": "2018-12-30",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/SJHcVCAgN"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_129_Koch_Snowflake/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_129_Koch_Snowflake/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Support the Processing Foundation",
+                    "url": "https://processingfoundation.org/support/",
+                    "description": ""
+                },
+                {
+                    "title": "Koch Snowflake",
+                    "url": "https://en.wikipedia.org/wiki/Koch_snowflake",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Vectors",
+                    "url": "https://youtu.be//more/archive/nature-of-code/1-Vectors/1.1-Vectors",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

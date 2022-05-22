@@ -1,0 +1,45 @@
+{
+    "title": "Steering Behaviors",
+    "description": "In this coding challenge, I look at extracting font path points from text in p5.js with p5.Font.textToPoints(). I render the text as particles with steering behaviors that react to the mouse.",
+    "videoNumber": "59",
+    "videoId": "4hA7G3gup-4",
+    "date": "2017-02-21",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/VDLbnxyQe"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_059_Steering_Text_Paths/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Nature of Code Steering Behaviors Playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YHt0dtyf4uiw8tKOxQLvlW",
+                    "description": ""
+                },
+                {
+                    "title": "Steering Behaviors paper",
+                    "url": "http://www.red3d.com/cwr/steer/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "title": "Snake Game Redux",
+    "description": "Snake Game!? Again!? Now with the p5.js Web Editor!",
+    "videoNumber": "115",
+    "videoId": "OMoVcohRgZA",
+    "date": "2018-09-12",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/HkDVpSvDm"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_115_Snake_Game_Redux/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_115_Snake_Game_Redux/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Code",
+                    "url": "https://editor.p5js.org/codingtrain/sketches/HkDVpSvDm",
+                    "description": ""
+                },
+                {
+                    "title": "p5.js",
+                    "url": "https://p5js.org/",
+                    "description": ""
+                },
+                {
+                    "title": "p5.js Web Editor",
+                    "url": "https://editor.p5js.org/",
+                    "description": ""
+                },
+                {
+                    "title": "Hello p5.js Web Editor!",
+                    "url": "https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge #3: Snake Game",
+                    "url": "/CodingChallenges/003-snake-game-p5",
+                    "description": ""
+                },
+                {
+                    "title": "ES6 Classes",
+                    "url": "/beginners/p5js/6.2-classes",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

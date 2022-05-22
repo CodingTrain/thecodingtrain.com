@@ -1,0 +1,82 @@
+{
+    "title": "Islamic Star Patterns",
+    "description": "In this bonus super-sized coding challenge, I work through visualizing Islamic Star Patterns in p5.js based on this University of Waterloo paper",
+    "videoNumber": "54.1",
+    "videoId": "sJ6pMLp_IaI",
+    "date": "2017-02-01",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/b3wnFYeVs"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_054.1_StarPatterns/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_054.1_StarPatterns/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Star Patterns Update: Law of Sines",
+                    "url": "/CodingChallenges/054.2-starpatterns",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Islamic Star Patterns",
+                    "url": "http://www.cgl.uwaterloo.ca/csk/projects/starpatterns/",
+                    "description": ""
+                },
+                {
+                    "title": "Points, lines, and planes",
+                    "url": "http://paulbourke.net/geometry/pointlineplane/",
+                    "description": ""
+                },
+                {
+                    "title": "Refugees International",
+                    "url": "https://refugeerights.org/donate/",
+                    "description": ""
+                },
+                {
+                    "title": "National Immigration Law Center",
+                    "url": "https://www.nilc.org/donate",
+                    "description": ""
+                },
+                {
+                    "title": "International Rescue Committee",
+                    "url": "https://www.refugeesinternational.org/donate/",
+                    "description": ""
+                },
+                {
+                    "title": "Urban Justice Center | Intl. Refugee Assistance Project",
+                    "url": "https://help.rescue.org/donate/refugees-need-urgent-support",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "title": "Mastodon Fractal Tree Bot - Part 1",
+    "description": "In this coding challenge, I create a node.js Mastodon bot that posts images (fractal trees) generated with Processing code.",
+    "videoNumber": "118.1",
+    "videoId": "luxczHFn1rU",
+    "date": "2018-10-16",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Mastodon Fractal Tree Bot - Part 2",
+                    "url": "/CodingChallenges/118.2-mastodon-fractal-tree",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Code",
+                    "url": "https://github.com/CodingTrain/Mastodon-Bot",
+                    "description": ""
+                },
+                {
+                    "title": "Lowpoly Bot",
+                    "url": "https://twitter.com/lowpolybot",
+                    "description": ""
+                },
+                {
+                    "title": "Node.js",
+                    "url": "https://nodejs.org",
+                    "description": ""
+                },
+                {
+                    "title": "Mastodon",
+                    "url": "https://mastodon.social/about",
+                    "description": ""
+                },
+                {
+                    "title": "The Coding Train on Mastodon",
+                    "url": "https://choochoo.space/",
+                    "description": ""
+                },
+                {
+                    "title": "Mastodon API on npm",
+                    "url": "https://www.npmjs.com/package/mastodon-api",
+                    "description": ""
+                },
+                {
+                    "title": "tree-bot",
+                    "url": "https://botsin.space/@tree_bot",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "What is Mastodon?",
+                    "url": "https://youtu.be/sKSxBd56H70",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

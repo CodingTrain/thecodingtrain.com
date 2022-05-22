@@ -1,0 +1,65 @@
+{
+    "title": "Plinko with Matter.js Part 4",
+    "description": "Part 4 of the Plinko coding challenge! In this final video, I add sound to the simulation, a bell ring each time a particle hits a peg.",
+    "videoNumber": "62.4",
+    "videoId": "CdBXmsrkaPs",
+    "date": "2017-03-13",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_062_plinko/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Plinko with Matter.js Part 1",
+                    "url": "/CodingChallenges/062.1-plinko",
+                    "description": ""
+                },
+                {
+                    "title": "Plinko with Matter.js Part 2",
+                    "url": "/CodingChallenges/062.2-plinko",
+                    "description": ""
+                },
+                {
+                    "title": "Plinko with Matter.js Part 3",
+                    "url": "/CodingChallenges/062.3-plinko",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Matter.js",
+                    "url": "http://brm.io/matter-js/",
+                    "description": ""
+                },
+                {
+                    "title": "What is Plinko?",
+                    "url": "http://priceisright.wikia.com/wiki/Plinko",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

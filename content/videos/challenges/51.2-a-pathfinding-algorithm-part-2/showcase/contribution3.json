@@ -1,0 +1,9 @@
+{
+    "title": "A* Pathfinding with random map regeneration on algorithm completion",
+    "url": "https://donwilson.github.io/p5-a_star-pathfinding/",
+    "author": {
+        "name": "Don Wilson",
+        "url": "https://pyxol.com"
+    },
+    "source": "https://github.com/donwilson/p5-a_star-pathfinding"
+}

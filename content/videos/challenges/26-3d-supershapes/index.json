@@ -1,0 +1,58 @@
+{
+    "title": "3D Supershapes",
+    "description": "In this coding challenge, I use the \u201csuperformula\u201d to make a 3D \u201csupershape\u201d in Processing. This is part 4 of a multi-part series on superformulas, superellipses and supershapes",
+    "videoNumber": "26",
+    "videoId": "akM4wMZIBWg",
+    "date": "2016-06-30",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_026_SuperShape3D/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Supershapes (Superformula)",
+                    "url": "http://paulbourke.net/geometry/supershape/",
+                    "description": ""
+                },
+                {
+                    "title": "3D Supershapes",
+                    "url": "http://www.syedrezaali.com/3d-supershapes/",
+                    "description": ""
+                },
+                {
+                    "title": "Spherical Coordinates System on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
+                    "description": ""
+                },
+                {
+                    "title": "Peasycam",
+                    "url": "http://mrfeinberg.com/peasycam/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge: Spherical Geometry",
+                    "url": "/CodingChallenges/025-spheregeometry",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

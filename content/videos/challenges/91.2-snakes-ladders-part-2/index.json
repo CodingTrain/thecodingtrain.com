@@ -1,0 +1,62 @@
+{
+    "title": "Snakes & Ladders - Part 2",
+    "description": "In part 2 of this multi-part coding challenge, I add the actual snakes and ladders to my game.",
+    "videoNumber": "91.2",
+    "videoId": "wN5Is0DjW8w",
+    "date": "2018-01-30",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/fxyOnKXlw"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_091_snakesladders/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_091_snakesladders/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Snakes & Ladders - Part 1",
+                    "url": "/CodingChallenges/091.1-snakes-and-ladders",
+                    "description": ""
+                },
+                {
+                    "title": "Snakes & Ladders - Part 3",
+                    "url": "/CodingChallenges/091.3-snakes-and-ladders",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Snakes and Ladders on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Snakes_and_Ladders",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "title": "Minesweeper",
+    "description": "In this challenge, I attempt to code the classic game Minesweeper in JavaScript with the p5.js library. This video builds on some previous tutorials related to the Prototypes and multi-dimensional arrays in JavaScript.",
+    "videoNumber": "71",
+    "videoId": "LFU5ZlrR21E",
+    "date": "2017-05-18",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/-mz-ePoqd"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_071_minesweeper/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_071_minesweeper/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Minesweeper on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Minesweeper_(video_game)",
+                    "description": ""
+                },
+                {
+                    "title": "Minesweeper suggestion on GitHub",
+                    "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/164",
+                    "description": ""
+                },
+                {
+                    "title": "Flood fill on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Flood_fill",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

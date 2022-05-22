@@ -1,0 +1,75 @@
+{
+    "title": "AI Rainbows with Runway and p5.js",
+    "description": "In this challenge I generate rainbows using the StyleGAN Machine Learning model available in Runway ML and send the rainbows to the browser with p5.js! This challenge is based on the live coding talk from the 2019 Eyeo Festival.",
+    "videoNumber": "150",
+    "videoId": "vEetoBuHj8g",
+    "date": "2019-08-22",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/K6l0JbS6u"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_150_Ai_Rainbows_Runway/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "RunwayML",
+                    "url": "https://runwayml.com/",
+                    "description": ""
+                },
+                {
+                    "title": "RunwayML on GitHub",
+                    "url": "https://github.com/runwayml",
+                    "description": ""
+                },
+                {
+                    "title": "StyleGAN",
+                    "url": "https://github.com/NVlabs/stylegan",
+                    "description": ""
+                },
+                {
+                    "title": "Anastasis Germanidis on GitHub",
+                    "url": "https://github.com/agermanidis",
+                    "description": ""
+                },
+                {
+                    "title": "Eyeo Festival",
+                    "url": "http://eyeofestival.com/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Intro to Runway Part 1",
+                    "url": "https://youtu.be/ARnf4ilr9Hc",
+                    "description": ""
+                },
+                {
+                    "title": "Intro to Runway Part 2",
+                    "url": "https://youtu.be/7btNir5L8Jc",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

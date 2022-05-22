@@ -1,0 +1,67 @@
+{
+    "title": "Circle Morphing - Part 1",
+    "description": "In this video, I implement one possible solution to Golan Levin\u2019s Circle Morphing challenge.",
+    "videoNumber": "81.1",
+    "videoId": "u2D4sxh3MTs",
+    "date": "2017-11-01",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/r9AhwHO9o"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_081.1_Circle_Morphing_Part_1/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_081.1_Circle_Morphing_Part_1/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Circle Morphing - Part 2",
+                    "url": "/CodingChallenges/081.2-circle-morphing-part-2",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Polar to Cartesian Coordinates",
+                    "url": "/Tutorials/9-additional-topics/9.20-polar-coordinates",
+                    "description": ""
+                },
+                {
+                    "title": "Golan Levin's Modulo Operator video",
+                    "url": "/GuestTutorials/006-golan-levin-modulo-operator",
+                    "description": ""
+                },
+                {
+                    "title": "Golan Levin's Circle Morphing Challenge",
+                    "url": "/GuestTutorials/007-golan-levin-circle-morphing",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

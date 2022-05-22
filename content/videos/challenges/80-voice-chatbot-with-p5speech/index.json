@@ -1,0 +1,58 @@
+{
+    "title": "Voice Chatbot with p5.Speech",
+    "description": "This challenge is a continuation of the number guessing chatbot. In this version, I add the p5.Speech library for a voice interface.",
+    "videoNumber": "80",
+    "videoId": "iFTgphKCP9U",
+    "date": "2017-10-23",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_080_Voice_Chatbot_with_p5.Speech/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "NYU Ability Project",
+                    "url": "http://ability.nyu.edu/",
+                    "description": ""
+                },
+                {
+                    "title": "p5.Speech on GitHub",
+                    "url": "https://github.com/IDMNYU/p5.js-speech",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Programming with Text playlist",
+                    "url": "/learning/programming-with-text",
+                    "description": ""
+                },
+                {
+                    "title": "Text-to-Speech with p5.Speech",
+                    "url": "/learning/programming-with-text/10.3-text-to-speech",
+                    "description": ""
+                },
+                {
+                    "title": "Speech Recognition with p5.Speech",
+                    "url": "/learning/programming-with-text/10.4-speech-recognition",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

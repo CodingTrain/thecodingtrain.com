@@ -1,0 +1,77 @@
+{
+    "title": "A* Pathfinding Algorithm - Part 1",
+    "description": "In this coding challenge, I attempt an implementation of the A* Pathfinding Algorithm to find the optimal path between two points in a 2D grid. I begin by explaining the mechanics of how the algorithm works, look at pseudo-code, and then write the algorithm in JavaScript using the p5.js library for rendering.",
+    "videoNumber": "51.1",
+    "videoId": "aKYlikFAV4k",
+    "date": "2017-01-16",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_051_astar/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_051_astar/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "A* Pathfinding Algorithm - Part 2",
+                    "url": "/CodingChallenges/051.2-astar",
+                    "description": ""
+                },
+                {
+                    "title": "A* Pathfinding Algorithm - Part 3",
+                    "url": "/CodingChallenges/051.3-astar",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Artificial Intelligence: A Modern Approach",
+                    "url": "http://aima.cs.berkeley.edu/",
+                    "description": ""
+                },
+                {
+                    "title": "A* Search Algorithm on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Maze Generation Coding Challenge",
+                    "url": "/CodingChallenges/010.1-maze-dfs-p5",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

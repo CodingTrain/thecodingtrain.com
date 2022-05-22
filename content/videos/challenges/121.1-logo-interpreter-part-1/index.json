@@ -1,0 +1,82 @@
+{
+    "title": "Logo Interpreter Part 1",
+    "description": "In this coding challenge, I discuss turtle graphics and make a Logo Interpreter in JavaScript.",
+    "videoNumber": "121.1",
+    "videoId": "i-k04yzfMpw",
+    "date": "2018-10-31",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ryTuOf3gN"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_1/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_1/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Logo Interpreter Part 2",
+                    "url": "/CodingChallenges/121.2-logo-interpreter",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Logo Repo",
+                    "url": "https://github.com/shiffman/Logo",
+                    "description": ""
+                },
+                {
+                    "title": "Logo on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Logo_(programming_language)",
+                    "description": ""
+                },
+                {
+                    "title": "Logo Tutorial",
+                    "url": "http://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "push/pop tutorial",
+                    "url": "/Tutorials/9-additional-topics/9.1-transformations-part-1",
+                    "description": ""
+                },
+                {
+                    "title": "Angles and Angular Motion",
+                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.1-Angles-and-Angular-Motion",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "title": "Spring Forces",
+    "description": "Boing! Time to simulate a spring force! This challenge fits into chapters 2 and 3 of the Nature of Code and demonstrates how to simulate the oscillating motion of a spring using vectors and forces.",
+    "videoNumber": "160",
+    "videoId": "Rr-5HiXquhw",
+    "date": "2021-02-22",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Simple Spring - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/dcd6-2mWa"
+            }
+        },
+        {
+            "title": "Simple Spring - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_160_spring_forces/simple-spring"
+            }
+        },
+        {
+            "title": "Simple Spring (Port) - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_160_spring_forces/simple-spring-port"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Nature of Code 3.10 Spring Forces",
+                    "url": "https://natureofcode.com/book/chapter-3-oscillation/index.html#310-spring-forces",
+                    "description": ""
+                },
+                {
+                    "title": "Nature of Code Playlist",
+                    "url": "/learning/nature-of-code/index",
+                    "description": ""
+                },
+                {
+                    "title": "toxiclibs.js",
+                    "url": "http://www.haptic-data.com/toxiclibsjs/",
+                    "description": ""
+                },
+                {
+                    "title": "curveVertex() (p5.js Reference)",
+                    "url": "https://p5js.org/reference/#/p5/curveVertex",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Texturing Cloth Simulation - Coding Challenge #63",
+                    "url": "/CodingChallenges/063.1-unikitty-flag",
+                    "description": ""
+                },
+                {
+                    "title": "Simple Particle System - Coding Challenge #78",
+                    "url": "/CodingChallenges/078-simple-particle-system",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

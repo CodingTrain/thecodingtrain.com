@@ -1,0 +1,62 @@
+{
+    "title": "3D Knots",
+    "description": "In this coding challenge, I attempt to make 3D Knots using Processing and Paul Bourke\u2019s formulae.",
+    "videoNumber": "87",
+    "videoId": "r6YMKr1X0VA",
+    "date": "2017-12-20",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/fa1rAWng9"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_087_3D_Knots/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_087_3D_Knots/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Paul Bourke's reference on 3D knots",
+                    "url": "http://paulbourke.net/geometry/knots/",
+                    "description": ""
+                },
+                {
+                    "title": "Knot Theory on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Knot_theory",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Coding Challenge on Spherical Geometry",
+                    "url": "/CodingChallenges/025-spheregeometry",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

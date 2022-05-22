@@ -1,0 +1,57 @@
+{
+    "title": "Agar.io - Part 1 (Basic Game Mechanics)",
+    "description": "In this coding challenge, I create a clone of the multiplayer online game Agar.io using JavaScript (p5.js). This is only the beginning of this challenge where I build out the basic game mechanics. I plan to make a follow-up to this video and add the multiplayer functionality of the game using node.js and websockets.",
+    "videoNumber": "32.1",
+    "videoId": "JXuxYMGe4KI",
+    "date": "2016-08-16",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/J3BZeLP02"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_032.1_agar.io/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_032.1_agar.io/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
+                    "url": "/CodingChallenges/032.2-agario-sockets",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Agar.io on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Agar.io",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

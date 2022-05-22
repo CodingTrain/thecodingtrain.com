@@ -1,0 +1,90 @@
+{
+    "title": "Self Avoiding Walk",
+    "description": "It\u2019s finally time to attempt a Self-Avoiding Walk! In this video, I quickly visualize a simple JavaScript p5.js implementation of a self-avoiding walk. I then tackle the more complex problem of backtracking to find a solution to a space-filling self-avoiding walk.",
+    "videoNumber": "162",
+    "videoId": "m6-cm6GZ1iw",
+    "date": "2021-06-10",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Basic Self Avoiding Walk - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2_4gyDD_9"
+            }
+        },
+        {
+            "title": "Basic Self Avoiding Walk - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_162_self_avoiding_walk/basic"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Self Avoiding Walk (Wikipedia)",
+                    "url": "https://en.wikipedia.org/wiki/Self-avoiding_walk",
+                    "description": ""
+                },
+                {
+                    "title": "The complexity of counting self-avoiding walks in subgraphs of two-dimensional grids and hypercubes",
+                    "url": "https://www.sciencedirect.com/science/article/pii/S030439750300080X",
+                    "description": ""
+                },
+                {
+                    "title": "The pivot algorithm: A highly efficient Monte Carlo method for the self-avoiding walk (sci-hub)",
+                    "url": "https://sci-hub.st/10.1007/bf01022990",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Random Walker - Coding Challenge 52",
+                    "url": "/CodingChallenges/052-random-walk",
+                    "description": ""
+                },
+                {
+                    "title": "Minesweeper - Coding Challenge 71",
+                    "url": "/CodingChallenges/071-minesweeper",
+                    "description": ""
+                },
+                {
+                    "title": "filter() - Array Functions",
+                    "url": "/Tutorials/16-javascript-es6/16.8-filter",
+                    "description": ""
+                },
+                {
+                    "title": "Maze Generator - Coding Challenge 10",
+                    "url": "/CodingChallenges/010.1-maze-dfs-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Recursion - Coding Train 77",
+                    "url": "/CodingChallenges/077-recursion",
+                    "description": ""
+                },
+                {
+                    "title": "A* Pathfinding Algorithm - Coding Challenge 51",
+                    "url": "/CodingChallenges/051.1-astar",
+                    "description": ""
+                },
+                {
+                    "title": "3D Self Avoiding Walk - Coding Train Live (May 27, 2021)",
+                    "url": "https://youtu.be/jlK1SJr-FBc?t=4353",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

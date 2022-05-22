@@ -1,0 +1,77 @@
+{
+    "title": "3D Rendering with Rotation and Projection",
+    "description": "In this coding challenge I render a 3D object (cube) in 2D using rotation and projection matrices in Processing (Java).",
+    "videoNumber": "112",
+    "videoId": "p4Iz0XJY-Qk",
+    "date": "2018-08-21",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/r8l8XXD2A"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_112_3D_Rendering/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_112_3D_Rendering/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Matrix Multiplication",
+                    "url": "http://matrixmultiplication.xyz",
+                    "description": ""
+                },
+                {
+                    "title": "Rotation Matrix on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+                    "description": ""
+                },
+                {
+                    "title": "3D Projection on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/3D_projection",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "4D Hypercube(Tesseract)",
+                    "url": "/CodingChallenges/113-hypercube",
+                    "description": ""
+                },
+                {
+                    "title": "Matrix Math",
+                    "url": "https://youtu.be//more/archive/nature-of-code/10-Neural-Networks/10.6-Neural-Networks-Matrix-Math-Part-1",
+                    "description": ""
+                },
+                {
+                    "title": "Matrix Multiplication for 3D Rendering",
+                    "url": "https://youtu.be/tzsgS19RRc8",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

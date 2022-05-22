@@ -1,0 +1,57 @@
+{
+    "title": "Menger Sponge Fractal",
+    "description": "In this coding challenge, I attempt to code the Menger Sponge (fractals) using Processing.",
+    "videoNumber": "2",
+    "videoId": "LG8ZK-rRkXo",
+    "date": "2016-04-17",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/5kcBUriAy"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_002_MengerSponge/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_002_MengerSponge/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Menger Sponge on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Menger_sponge",
+                    "description": ""
+                },
+                {
+                    "title": "P3D Tutorial",
+                    "url": "https://processing.org/tutorials/p3d/",
+                    "description": ""
+                },
+                {
+                    "title": "ArrayList in Processing",
+                    "url": "https://processing.org/reference/ArrayList.html",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

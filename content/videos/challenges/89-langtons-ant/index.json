@@ -1,0 +1,67 @@
+{
+    "title": "Langton's Ant",
+    "description": "In this coding challenge, I implement Langton\u2019s Ant in Processing.",
+    "videoNumber": "89",
+    "videoId": "G1EgjgMo48U",
+    "date": "2018-01-08",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/svbAzt8sb"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_089_langtonsant/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_089_langtonsant/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Langton's Ant on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Langton's_ant",
+                    "description": ""
+                },
+                {
+                    "title": "Langton's Ant on Numberphile",
+                    "url": "https://youtu.be/NWBToaXK5T0",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Pixels Tutorial in Processing",
+                    "url": "https://youtu.be/EmtU0eloTlE",
+                    "description": ""
+                },
+                {
+                    "title": "My Game of Life Coding Challenge",
+                    "url": "/CodingChallenges/085-the-game-of-life",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

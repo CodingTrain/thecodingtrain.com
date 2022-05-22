@@ -1,0 +1,92 @@
+{
+    "title": "Polar Perlin Noise Loops",
+    "description": "In this challenge, I follow the path of a circle in 2D Perlin noise space in order to use noise values that loop.",
+    "videoNumber": "136.1",
+    "videoId": "ZI1dmHv3MeM",
+    "date": "2019-02-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/sy1p1vnQn"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_136_Polar_Noise_Loop_1/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_136_Polar_Noise_Loop_1/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Perlin Noise GIF Loops",
+                    "url": "/CodingChallenges/136.2-perlin-noise-gif-loops",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "\u00c9tienne Jacob's tweet",
+                    "url": "https://twitter.com/i/status/1096403588069425152",
+                    "description": ""
+                },
+                {
+                    "title": "\u00c9tienne Jacob's Blog Post",
+                    "url": "https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Heart Curve",
+                    "url": "/CodingChallenges/134.1-heart-curve",
+                    "description": ""
+                },
+                {
+                    "title": "GIF Loop",
+                    "url": "/CodingChallenges/135-gif-loop",
+                    "description": ""
+                },
+                {
+                    "title": "Blobby!",
+                    "url": "/CodingChallenges/036-blobby",
+                    "description": ""
+                },
+                {
+                    "title": "Fourier Transform",
+                    "url": "/CodingChallenges/130.1-fourier-transform-drawing",
+                    "description": ""
+                },
+                {
+                    "title": "Perlin Noise",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

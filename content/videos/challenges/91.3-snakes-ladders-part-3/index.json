@@ -1,0 +1,62 @@
+{
+    "title": "Snakes & Ladders - Part 3",
+    "description": "In this multi-part coding challenge, I attempt to create a simulation of the classic board game Snakes & Ladders (also known as Chutes and Ladders). In this third part, I add \u201cstates\u201d in order to animate the player\u2019s movements and help me debug.",
+    "videoNumber": "91.3",
+    "videoId": "1Ec_-wzJCPY",
+    "date": "2018-01-31",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/fxyOnKXlw"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_091_snakesladders/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_091_snakesladders/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Snakes & Ladders - Part 1",
+                    "url": "/CodingChallenges/091.1-snakes-and-ladders",
+                    "description": ""
+                },
+                {
+                    "title": "Snakes & Ladders - Part 2",
+                    "url": "/CodingChallenges/091.2-snakes-and-ladders",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Snakes and Ladders on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Snakes_and_Ladders",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

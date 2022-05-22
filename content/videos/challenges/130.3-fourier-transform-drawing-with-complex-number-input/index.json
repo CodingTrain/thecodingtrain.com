@@ -1,0 +1,82 @@
+{
+    "title": "Fourier Transform Drawing with Complex Number Input",
+    "description": "Fourier Transform Part 3! In this video, I pass the (x,y) coordinates of a path into the Discrete Fourier Transform algorithm as complex numbers and generate a single set of epicycles.",
+    "videoNumber": "130.3",
+    "videoId": "7_vKzcgpfvU",
+    "date": "2019-02-01",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ldBlISrsQ"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_130_Fourier_Transform_3/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_130_Fourier_Transform_3/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Drawing with Fourier Transform and Epicycles",
+                    "url": "/CodingChallenges/130.1-fourier-transform-drawing",
+                    "description": ""
+                },
+                {
+                    "title": "Fourier Transform User Drawing",
+                    "url": "/CodingChallenges/130.2-fourier-transform-drawing",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "FFT on Algorithm Archive",
+                    "url": "https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html",
+                    "description": ""
+                },
+                {
+                    "title": "Complex Number on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Complex_number",
+                    "description": ""
+                },
+                {
+                    "title": "User Drawing Code (2nd half of video)",
+                    "url": "https://editor.p5js.org/codingtrain/sketches/sPvZsg2w4",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "But what is the Fourier Transform? A visual introduction",
+                    "url": "https://youtu.be/spUNpyF58BY",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

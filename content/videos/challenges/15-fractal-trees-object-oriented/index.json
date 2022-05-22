@@ -1,0 +1,47 @@
+{
+    "title": "Fractal Trees - Object Oriented",
+    "description": "In this coding challenge, I continue the topic of algorithmic botany with another way of generating a tree. With this method, every part of the tree will be an object, so that we can apply forces and attributes to each element",
+    "videoNumber": "15",
+    "videoId": "fcdNSZ9IzJM",
+    "date": "2016-05-30",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/JDT5wrxVj"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_015_FractalTreeArray/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_015_FractalTreeArray/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Algorithmic Botany",
+                    "url": "http://algorithmicbotany.org/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

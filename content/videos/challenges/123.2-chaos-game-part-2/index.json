@@ -1,0 +1,72 @@
+{
+    "title": "Chaos Game Part 2",
+    "description": "In the second part of the \u201cChaos Game\u201d coding challenge, I vary the number of seed points, probability, and percentage moved to generate other fractal patterns.",
+    "videoNumber": "123.2",
+    "videoId": "A0NHGTggoOQ",
+    "date": "2018-11-29",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ByF-2qK0X"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_123_ChaosGame_2/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_123_ChaosGame_2/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Chaos Game Part 1",
+                    "url": "/CodingChallenges/123.1-chaos-game",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Chaos Game on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Chaos_game",
+                    "description": ""
+                },
+                {
+                    "title": "Refactor by Espen Sande Larsen",
+                    "url": "https://soundcloud.com/espen-sande-larsen-365984601/refactor",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "ES6 const",
+                    "url": "/Tutorials/16-javascript-es6/16.2-const",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Brownian Tree Snowflake",
+    "description": "In this holiday coding challenge, I create a \u201cBrownian Tree Snowflake\u201d in Processing (Java). This video was recorded as part of a fundraiser for the Processing Foundation.",
+    "videoNumber": "127",
+    "videoId": "XUA8UREROYE",
+    "date": "2018-12-24",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/SJcAeCpgE"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_127_Snowflake_Brownian/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_127_Snowflake_Brownian/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Support the Processing Foundation",
+                    "url": "https://processingfoundation.org/support/",
+                    "description": ""
+                },
+                {
+                    "title": "Code Golf - Draw a Snowflake",
+                    "url": "https://codegolf.stackexchange.com/questions/42506/draw-a-snowflake",
+                    "description": ""
+                },
+                {
+                    "title": "Snowflake",
+                    "url": "https://www.flickr.com/photos/golanlevin/sets/72157594387404319",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge: Diffusion-Limited Aggregation",
+                    "url": "/CodingChallenges/034-dla",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

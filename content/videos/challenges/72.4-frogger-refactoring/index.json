@@ -1,0 +1,82 @@
+{
+    "title": "Frogger Refactoring",
+    "description": "In this follow-up to the Frogger coding challenge, I attempt to refactor the code to make it more modular, readable, and scalable.",
+    "videoNumber": "72.4",
+    "videoId": "c6WdJltqEtM",
+    "date": "2017-06-20",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/crMMFw8vD"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_072_Frogger/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_072_Frogger/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Frogger - Part 1",
+                    "url": "/CodingChallenges/072.1-frogger",
+                    "description": ""
+                },
+                {
+                    "title": "Frogger - Part 2",
+                    "url": "/CodingChallenges/072.2-frogger",
+                    "description": ""
+                },
+                {
+                    "title": "Frogger - Part 3",
+                    "url": "/CodingChallenges/072.3-frogger",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Frogger on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Frogger",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Video of the Gameplay",
+                    "url": "https://youtu.be/l9eTOaNFwKQ",
+                    "description": ""
+                },
+                {
+                    "title": "My Video explaining 'Overloading'",
+                    "url": "/Courses/learning-processing/8-object-oriented-programming/8.5-more-on-objects",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

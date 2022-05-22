@@ -1,0 +1,107 @@
+{
+    "title": "Shape Classifier Neural Network with ml5.js",
+    "description": "In this challenge, I demonstrate the entire process of training and deploying a machine learning classification model in JavaScript \u2013 data collection, model training, and prediction!",
+    "videoNumber": "158",
+    "videoId": "3MqJzMvHE3E",
+    "date": "2020-12-03",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Generate Dataset - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/7leVIzy5l"
+            }
+        },
+        {
+            "title": "Generate Dataset - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_158_Shape_Classifier/dataset-p5"
+            }
+        },
+        {
+            "title": "Generate Dataset - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_158_Shape_Classifier/dataset"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Processing",
+                    "url": "https://processing.org/",
+                    "description": ""
+                },
+                {
+                    "title": "p5.js Web Editor",
+                    "url": "https://editor.p5js.org/",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js Loading a pre trained model",
+                    "url": "https://learn.ml5js.org/#/reference/neural-network?id=loading-a-pre-trained-model",
+                    "description": ""
+                },
+                {
+                    "title": "p5.js copy() reference",
+                    "url": "https://p5js.org/reference/#/p5.Image/copy",
+                    "description": ""
+                },
+                {
+                    "title": "DoodleNet (GitHub)",
+                    "url": "https://github.com/yining1023/doodleNet",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Workflow Series",
+                    "url": "/more/workflow/index",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js: Training a CNN for Image Classification",
+                    "url": "/learning/ml5/8.4-cnn-image-classification",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js: Train a Neural Network with Pixels as Input",
+                    "url": "/learning/ml5/8.1-pixels-input",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js: Train Your Own Neural Network",
+                    "url": "/learning/ml5/6.1-train-your-own",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js: What is a Convolutional Neural Network?",
+                    "url": "/learning/ml5/8.2-cnn-1",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js: Save Neural Network Trained Model",
+                    "url": "/learning/ml5/6.3-save-model",
+                    "description": ""
+                },
+                {
+                    "title": "Quick, Draw! - Coding Challenge #122",
+                    "url": "/CodingChallenges/122.1-quick-draw",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

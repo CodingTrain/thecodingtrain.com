@@ -1,0 +1,77 @@
+{
+    "title": "Recam\u00e1n's Sequence - Part 1",
+    "description": "In this coding challenge, I visualize the Recam\u00e1n\u2019s number sequence using the p5.js library. #CodingRecaman",
+    "videoNumber": "110.1",
+    "videoId": "DhFZfzOvNTU",
+    "date": "2018-07-24",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2OSiAFU7k"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_110.1_recaman/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_110.1_recaman/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Coding Challenge #110.2: Recam\u00e1n's Sequence - Part 2 (Audio)",
+                    "url": "/CodingChallenges/110.2-recaman-sequence",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Recam\u00e1n's Sequence on MathWorld",
+                    "url": "http://mathworld.wolfram.com/RecamansSequence.html",
+                    "description": ""
+                },
+                {
+                    "title": "OEIS",
+                    "url": "http://oeis.org/",
+                    "description": ""
+                },
+                {
+                    "title": "Bernardo Recam\u00e1n Santos on Wikipedia",
+                    "url": "https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Recam\u00e1n's Sequence",
+                    "url": "https://youtu.be/FGC5TdIiT9U",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

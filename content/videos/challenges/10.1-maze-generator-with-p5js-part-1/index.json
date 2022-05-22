@@ -1,0 +1,67 @@
+{
+    "title": "Maze Generator with p5.js - Part 1",
+    "description": "In Part 1 of this coding challenge, using p5.js, I create the cells which are going to become our maze.",
+    "videoNumber": "10.1",
+    "videoId": "HyK_Q5rrcr4",
+    "date": "2016-05-02",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/EBkm4txSA"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Maze Generator with p5.js - Part 2",
+                    "url": "/CodingChallenges/010.2-maze-dfs-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Maze Generator with p5.js - Part 3",
+                    "url": "/CodingChallenges/010.3-maze-dfs-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Maze Generator with p5.js - Part 4",
+                    "url": "/CodingChallenges/010.4-maze-dfs-p5",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Algorithm for Maze Generators on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_backtracker",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

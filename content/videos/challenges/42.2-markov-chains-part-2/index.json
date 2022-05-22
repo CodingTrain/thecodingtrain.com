@@ -1,0 +1,87 @@
+{
+    "title": "Markov Chains - Part 2",
+    "description": "In Part 2 of this coding challenge, I attempt to use a Markov Chain to generate a new name for my YouTube channel. The code reads from a list of name suggestions submitted by viewers.",
+    "videoNumber": "42.2",
+    "videoId": "9r8CmofnbAQ",
+    "date": "2016-10-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/AAgqWiJAW"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_042.2_markov-chain-names/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_042.2_markov-chain-names/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Markov Chains - Part 1",
+                    "url": "/CodingChallenges/042.1-markov-chains",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Google's Ngram Viewer",
+                    "url": "https://books.google.com/ngrams",
+                    "description": ""
+                },
+                {
+                    "title": "n-gram on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/N-gram",
+                    "description": ""
+                },
+                {
+                    "title": "Web Trigrams",
+                    "url": "http://www.chrisharrison.net/index.php/Visualizations/WebTrigrams",
+                    "description": ""
+                },
+                {
+                    "title": "Generative Course Descriptions",
+                    "url": "http://static.decontextualize.com/toys/next_semester?",
+                    "description": ""
+                },
+                {
+                    "title": "King James Programming",
+                    "url": "http://kingjamesprogramming.tumblr.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Markov Chains Explained",
+                    "url": "http://setosa.io/ev/markov-chains/",
+                    "description": ""
+                },
+                {
+                    "title": "Perlin Noise song",
+                    "url": "https://soundcloud.com/fl00per/perlin-noise",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

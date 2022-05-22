@@ -1,0 +1,82 @@
+{
+    "title": "Quadtree - Part 2",
+    "description": "In part 2 of the Quadtree coding challenge, I query the data structure for points contained within a rectangular boundary.",
+    "videoNumber": "98.2",
+    "videoId": "QQx_NmCIuCY",
+    "date": "2018-03-28",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/g7LnWQ42x"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_098.1_QuadTree/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_098.1_QuadTree/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Quadtree - Part 1",
+                    "url": "/CodingChallenges/098.1-quadtree",
+                    "description": ""
+                },
+                {
+                    "title": "Quadtree - Part 3",
+                    "url": "/CodingChallenges/098.3-quadtree",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Quadtree repo",
+                    "url": "https://github.com/CodingTrain/QuadTree",
+                    "description": ""
+                },
+                {
+                    "title": "Quadtree on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Quadtree",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Quadtrees Live Stream Archive",
+                    "url": "https://youtu.be/MxnqJGwu2cc",
+                    "description": ""
+                },
+                {
+                    "title": "Frogger Coding Challenge",
+                    "url": "/CodingChallenges/072.1-frogger",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

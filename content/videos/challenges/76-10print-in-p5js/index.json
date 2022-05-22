@@ -1,0 +1,57 @@
+{
+    "title": "10PRINT in p5.js",
+    "description": "In this coding challenge, I attempt to create a version of the classic one-line Commodore 64 BASIC program in JavaScript using p5.js. This coding challenge is inspired by the book 10 PRINT.",
+    "videoNumber": "76",
+    "videoId": "bEyTZ5ZZxZs",
+    "date": "2017-09-26",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/qtunbzeNb"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_076_10PRINT/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_076_10PRINT/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "10PRINT",
+                    "url": "http://10print.org/",
+                    "description": ""
+                },
+                {
+                    "title": "Book link on Amazon",
+                    "url": "http://amzn.to/2wJlRVx",
+                    "description": ""
+                },
+                {
+                    "title": "Sol Lewitt's Wall Drawings",
+                    "url": "http://massmoca.org/sol-lewitt/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

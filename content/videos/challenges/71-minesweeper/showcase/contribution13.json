@@ -1,0 +1,9 @@
+{
+    "title": "Marksweeper",
+    "url": "https://github.com/stemvork/quickle/tree/master/minesweeper",
+    "author": {
+        "name": " by Jasper Eenhoorn (stemvork)",
+        "url": ""
+    },
+    "source": "https://github.com/stemvork/quickle/blob/master/minesweeper/main.py"
+}

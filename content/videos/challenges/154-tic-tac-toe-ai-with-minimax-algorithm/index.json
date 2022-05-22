@@ -1,0 +1,67 @@
+{
+    "title": "Tic Tac Toe AI with Minimax Algorithm",
+    "description": "In this challenge I take the Tic Tac Toe game from coding challenge #149 and add an AI opponent for a human player by implenenting the Minimax algorithm.",
+    "videoNumber": "154",
+    "videoId": "trKjYdBASyQ",
+    "date": "2019-12-11",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/0zyUhZdJD"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_154_Tic_Tac_Toe_Minimax/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_154_Tic_Tac_Toe_Minimax/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Minimax on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Minimax",
+                    "description": ""
+                },
+                {
+                    "title": "Geeks for Geeks - Minimax Algorithm in Game Theory",
+                    "url": "https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Algorithms Explained - minimax and alpha-beta pruning",
+                    "url": "https://youtu.be/l-hh51ncgDI",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Challenge #149: Tic Tac Toe",
+                    "url": "/CodingChallenges/149-tic-tac-toe",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

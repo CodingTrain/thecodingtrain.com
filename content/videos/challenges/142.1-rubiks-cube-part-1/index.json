@@ -1,0 +1,70 @@
+{
+    "title": "Rubik's Cube Part 1",
+    "description": "This is the first video in a series about simulating and solving a Rubik\u2019s Cube in Processing (Java).",
+    "videoNumber": "142.1",
+    "videoId": "9PGfL4t-uqE",
+    "date": "2019-04-01",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_142_Rubiks_Cube_1/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_142_Rubiks_Cube_1/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Rubik's Cube Part 2",
+                    "url": "/CodingChallenges/142.2-rubiks-cube",
+                    "description": ""
+                },
+                {
+                    "title": "Rubik's Cube Part 3",
+                    "url": "/CodingChallenges/142.3-rubiks-cube",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "peasycam",
+                    "url": "http://mrfeinberg.com/peasycam/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Code Bullet",
+                    "url": "https://youtu.be/f9smvQ5fc7Q",
+                    "description": ""
+                },
+                {
+                    "title": "Matrix Transformations",
+                    "url": "/Tutorials/9-additional-topics/9.1-transformations-part-1",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "title": "Texturing Cloth Simulation Part 2",
+    "description": "In part 2 of this challenge, I add the \u201cunikitty\u201d image as a texture to a waving flag, created with toxiclibs verlet physics.",
+    "videoNumber": "63.2",
+    "videoId": "FeXnJSCFj-Q",
+    "date": "2017-03-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_063_unikitty_flag/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Texturing Cloth Simulation Part 1",
+                    "url": "/CodingChallenges/063.1-unikitty-flag",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Toxiclibs",
+                    "url": "http://toxiclibs.org/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

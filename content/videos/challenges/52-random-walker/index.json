@@ -1,0 +1,36 @@
+{
+    "title": "Random Walker",
+    "description": "In this coding challenge, I simulate a \u201crandom walk\u201d with the p5.js library. This video is part of the course Nature of Code at ITP, Tisch, NYU.",
+    "videoNumber": "52",
+    "videoId": "l__fEY1xanY",
+    "date": "2017-01-27",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/N-qqe1ExZ"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_052_random_walk/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_052_random_walk/Processing"
+            }
+        }
+    ],
+    "groupLinks": []
+}

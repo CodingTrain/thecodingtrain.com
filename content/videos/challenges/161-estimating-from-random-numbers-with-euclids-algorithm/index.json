@@ -1,0 +1,65 @@
+{
+    "title": "Estimating \u03c0 from Random Numbers with Euclid's Algorithm",
+    "description": "\ud83e\udd67 Happy Pi Day 2021! This year I estimate the digits of \u03c0 with random numbers and the probability of two integers being co-prime., I estimate the digits of Pi with random numbers and the probability of two integers being co-prime.",
+    "videoNumber": "161",
+    "videoId": "EvS_a921dBo",
+    "date": "2021-03-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Estimating \u03c0 from Random Numbers - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
+            }
+        },
+        {
+            "title": "Estimating \u03c0 from Random Numbers - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_161_pi_from_random/from-random"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Probability of Two Integers Being Coprime",
+                    "url": "https://www.cut-the-knot.org/m/Probability/TwoCoprime.shtml",
+                    "description": ""
+                },
+                {
+                    "title": "Euclidean Algorithm",
+                    "url": "https://en.wikipedia.org/wiki/Euclidean_algorithm",
+                    "description": ""
+                },
+                {
+                    "title": "A Million Random Digits with 100,000 Normal Deviates",
+                    "url": "https://www.rand.org/pubs/monograph_reports/MR1418.html",
+                    "description": ""
+                },
+                {
+                    "title": "Quantum random numbers",
+                    "url": "https://qrng.anu.edu.au/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Generating \u03c0 from 1,000 random numbers",
+                    "url": "https://youtu.be/RZBhSi_PwHU",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

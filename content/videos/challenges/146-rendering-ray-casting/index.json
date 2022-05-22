@@ -1,0 +1,72 @@
+{
+    "title": "Rendering Ray Casting",
+    "description": "Building off of the previous coding challenge (2D Ray Casting) I attempt to make my own version the original Wolfenstein 3D Raycasting engine and visualize the \u201cfield of view\u201d of the moving particle.",
+    "videoNumber": "146",
+    "videoId": "vYgIKn7iDH8",
+    "date": "2019-05-10",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/yEzlR0_zq"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_146_Rendering_Ray_Casting/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_146_Rendering_Ray_Casting/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Community Suggested References",
+            "links": [
+                {
+                    "title": "Code-It-Yourself! First Person Shooter (Quick and Simple C++)",
+                    "url": "https://youtu.be/xW8skO7MFYw",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Gustavo Pezzi's Raycast 3D",
+                    "url": "http://www.gustavopezzi.com/projects/raycast3d/",
+                    "description": ""
+                },
+                {
+                    "title": "Lode's Raycasting Tutorial",
+                    "url": "https://lodev.org/cgtutor/raycasting.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge: 2D Ray Casting",
+                    "url": "https://youtu.be//CodingChallenges/145-2d-ray-casting",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "title": "Inverse Kinematics - Fixed Point",
+    "description": "In the third video on kinematics, I use inverse kinematics to create a tentacle-like creature (fixed to a base point) that tries to reach for the mouse.",
+    "videoNumber": "64.3",
+    "videoId": "RTc6i-7N3ms",
+    "date": "2017-03-18",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_064.3_InverseKinematics_fixed/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_064.3_InverseKinematics_fixed/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Part 1 - Forward Kinematics",
+                    "url": "/CodingChallenges/064.1-forward-kinematics",
+                    "description": ""
+                },
+                {
+                    "title": "Part 2 - Inverse Kinematics",
+                    "url": "/CodingChallenges/064.2-inverse-kinematics",
+                    "description": ""
+                },
+                {
+                    "title": "Part 4 - Inverse Kinematics - Multiple",
+                    "url": "/CodingChallenges/064.4-inverse-kinematics-multiple",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Kinematics on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Kinematics",
+                    "description": ""
+                },
+                {
+                    "title": "Interactive Fish Aquarium Desktop Wallpaper",
+                    "url": "https://youtu.be/Inpo9tpUMwE",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Math on Youtube",
+                    "url": "https://www.youtube.com/user/codingmath",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

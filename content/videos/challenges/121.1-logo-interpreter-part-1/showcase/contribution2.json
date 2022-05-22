@@ -1,0 +1,9 @@
+{
+    "title": "3D Logo Experiment",
+    "url": "https://davebsoft.com/software/logo-3d/",
+    "author": {
+        "name": "Dave Briccetti",
+        "url": "https://davebsoft.com"
+    },
+    "source": "https://github.com/dcbriccetti/web-games/tree/master/p5.js/logo-3d"
+}

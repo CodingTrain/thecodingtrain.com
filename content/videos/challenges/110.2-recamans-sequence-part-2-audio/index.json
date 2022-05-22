@@ -1,0 +1,85 @@
+{
+    "title": "Recam\u00e1n's Sequence - Part 2 (Audio)",
+    "description": "In Part 2 of this coding challenge, I use the Recam\u00e1n\u2019s number sequence to create a series of musical notes, with the help of the p5.js Sound library. #CodingRecaman",
+    "videoNumber": "110.2",
+    "videoId": "pYnaBQgnARQ",
+    "date": "2018-07-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2CRSf-wRL"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_110.2_recaman_music/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Coding Challenge #110.1: Recam\u00e1n's Sequence - Part 1",
+                    "url": "/CodingChallenges/110.1-recaman-sequence",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Recam\u00e1n's Sequence",
+                    "url": "http://mathworld.wolfram.com/RecamansSequence.html",
+                    "description": ""
+                },
+                {
+                    "title": "OEIS",
+                    "url": "http://oeis.org/",
+                    "description": ""
+                },
+                {
+                    "title": "Bernardo Recam\u00e1n Santos on Wikipedia",
+                    "url": "https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Recam\u00e1n's Sequence",
+                    "url": "https://youtu.be/FGC5TdIiT9U",
+                    "description": ""
+                },
+                {
+                    "title": "Recam\u00e1n's Sequence",
+                    "url": "https://youtu.be/h3qEigSSuF0",
+                    "description": ""
+                },
+                {
+                    "title": "ADSR Envelope with p5.js",
+                    "url": "https://youtu.be/wUSva_BnedA",
+                    "description": ""
+                },
+                {
+                    "title": "Sound Synthesis with p5.js",
+                    "url": "https://youtu.be/Bk8rLzzSink",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

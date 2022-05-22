@@ -1,0 +1,87 @@
+{
+    "title": "Chaos Game Part 1",
+    "description": "In this two-part coding challenge, I implement the \u201cChaos Game\u201d in the p5.js web editor. This first video uses three seed points and results in the famous Sierpinski Triangle.",
+    "videoNumber": "123.1",
+    "videoId": "7gNzMtYo9n4",
+    "date": "2018-11-28",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/BJqKF9KRQ"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_123_ChaosGame_1/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_123_ChaosGame_1/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Chaos Game Part 2",
+                    "url": "/CodingChallenges/123.2-chaos-game",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Thinkercon",
+                    "url": "https://www.thinkercon.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Algorithm Archive",
+                    "url": "https://www.algorithm-archive.org/",
+                    "description": ""
+                },
+                {
+                    "title": "Chaos Game on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Chaos_game",
+                    "description": ""
+                },
+                {
+                    "title": "Refactor by Espen Sande Larsen",
+                    "url": "https://soundcloud.com/espen-sande-larsen-365984601/refactor",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "LeoisOS",
+                    "url": "https://www.youtube.com/LeiosOS",
+                    "description": ""
+                },
+                {
+                    "title": "Chaos Game",
+                    "url": "https://youtu.be/kbKtFN71Lfs",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "title": "Fractal Spirograph",
+    "description": "In this coding challenge, I attempt to create a \u201cFractal Spirograph\u201d with Processing (Java). The visuals are inspired by images and explanation on C. J. Chen\u2019s blog.",
+    "videoNumber": "61",
+    "videoId": "0dwJ-bkJwDI",
+    "date": "2017-02-28",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Q60oWddzr"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_061_fractal_spirograph/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_061_fractal_spirograph/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "C.J.Chen's blog on Fractal Spirograph",
+                    "url": "http://benice-equation.blogspot.ca/2012/01/fractal-spirograph.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Polar Coordinates",
+                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
+                    "description": ""
+                },
+                {
+                    "title": "My Coding Challenge on 2D Solar System",
+                    "url": "/CodingChallenges/007-solarsystemgenerator",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

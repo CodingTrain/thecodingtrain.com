@@ -1,0 +1,45 @@
+{
+    "title": "JavaScript Countdown Timer",
+    "description": "In this video, I use the p5.js library to create a web-based countdown timer. I discuss the native JavaScript method setInterval() and well as p5\u2019s millis().",
+    "videoNumber": "66",
+    "videoId": "MLtAMg9_Svw",
+    "date": "2017-03-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ZKSNy0USh"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_066_timer/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "millis() reference",
+                    "url": "https://p5js.org/reference/#/p5/millis",
+                    "description": ""
+                },
+                {
+                    "title": "getURLParams() reference",
+                    "url": "https://p5js.org/reference/#/p5/getURLParams",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

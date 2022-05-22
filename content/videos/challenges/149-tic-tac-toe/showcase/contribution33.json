@@ -1,0 +1,9 @@
+{
+    "title": "Tic Tac Toe With Ruby On Rails",
+    "url": "https://railstictactoe.herokuapp.com/",
+    "author": {
+        "name": "TanHongIT",
+        "url": "https://tanhongit.com"
+    },
+    "source": "https://github.com/TanHongIT/rails-tic-tac-toe-project"
+}

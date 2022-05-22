@@ -1,0 +1,72 @@
+{
+    "title": "4D OpenSimplex Noise Loop",
+    "description": "It\u2019s groundhog day on the coding train as I demonstrate another noise loop GIF technique, this time with 4D Open Simple Noise in Processing (Java).",
+    "videoNumber": "137",
+    "videoId": "3_0Ax95jIrk",
+    "date": "2019-03-05",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/MPqnctIGg"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_137_4D_Noise_Loop/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_137_4D_Noise_Loop/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "OpenSimplexNoise.java",
+                    "url": "https://gist.github.com/KdotJPG/b1270127455a94ac5d19",
+                    "description": ""
+                },
+                {
+                    "title": "Etienne Jacob",
+                    "url": "https://necessary-disorder.tumblr.com/",
+                    "description": ""
+                },
+                {
+                    "title": "ffmpeg",
+                    "url": "https://ffmpeg.org/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "What is OpenSimplex Noise?",
+                    "url": "https://youtu.be/Lv9gyZZJPE0",
+                    "description": ""
+                },
+                {
+                    "title": "Polar Perlin Noise Loops",
+                    "url": "/CodingChallenges/136.1-polar-perlin-noise-loops",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

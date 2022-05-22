@@ -1,0 +1,77 @@
+{
+    "title": "Forward Kinematics",
+    "description": "This coding challenge is the first in a series on kinematics! In Part 1, I demonstrate forward kinematics in Processing (Java).",
+    "videoNumber": "64.1",
+    "videoId": "xXjRlEr7AGk",
+    "date": "2017-03-16",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/91Ys1PU7B"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_064.1_ForwardKinematics/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_064.1_ForwardKinematics/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Part 2 - Inverse Kinematics",
+                    "url": "/CodingChallenges/064.2-inverse-kinematics",
+                    "description": ""
+                },
+                {
+                    "title": "Part 3 - Inverse Kinematics - Fixed Point",
+                    "url": "/CodingChallenges/064.3-inverse-kinematics-fixed-point",
+                    "description": ""
+                },
+                {
+                    "title": "Part 4 - Inverse Kinematics - Multiple",
+                    "url": "/CodingChallenges/064.4-inverse-kinematics-multiple",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Kinematics on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Kinematics",
+                    "description": ""
+                },
+                {
+                    "title": "Interactive Fish Aquarium Desktop Wallpaper",
+                    "url": "https://youtu.be/Inpo9tpUMwE",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Math on Youtube",
+                    "url": "https://www.youtube.com/user/codingmath",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

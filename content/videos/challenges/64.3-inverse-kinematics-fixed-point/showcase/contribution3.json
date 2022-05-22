@@ -1,0 +1,9 @@
+{
+    "title": "Socket.io Multiplayer Snake",
+    "url": "https://demos.dagut.ru/npmsnakedemo/",
+    "author": {
+        "name": "Alexander (DaGuT) Mongolin",
+        "url": "https://dagut.ru"
+    },
+    "source": "https://github.com/DaGuT/p5-snake"
+}

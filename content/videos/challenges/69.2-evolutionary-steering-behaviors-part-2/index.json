@@ -1,0 +1,112 @@
+{
+    "title": "Evolutionary Steering Behaviors - Part 2",
+    "description": "This is part 2 (five parts total) of an evolutionary steering behaviors coding challenge. The goal is to create a system where autonomous steering agents evolve the behavior of eating food (green dots) and avoiding poison (red dots).",
+    "videoNumber": "69.2",
+    "videoId": "XaOVH8ZSRNA",
+    "date": "2017-04-20",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/xgQNXkxx1"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_069_steering_evolution/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_069_steering_evolution/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Evolutionary Steering Behaviors - Part 1",
+                    "url": "/CodingChallenges/069.1-steering-evolution",
+                    "description": ""
+                },
+                {
+                    "title": "Evolutionary Steering Behaviors - Part 3",
+                    "url": "/CodingChallenges/069.3-steering-evolution",
+                    "description": ""
+                },
+                {
+                    "title": "Evolutionary Steering Behaviors - Part 4",
+                    "url": "/CodingChallenges/069.4-steering-evolution",
+                    "description": ""
+                },
+                {
+                    "title": "Evolutionary Steering Behaviors - Part 5",
+                    "url": "/CodingChallenges/069.5-steering-evolution",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
+                    "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+                    "description": ""
+                },
+                {
+                    "title": "Repo for Autonomous Agents in p5.js",
+                    "url": "https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp06_agents",
+                    "description": ""
+                },
+                {
+                    "title": "Nature of Code",
+                    "url": "http://natureofcode.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Steering Behaviors",
+                    "url": "http://www.red3d.com/cwr/steer/",
+                    "description": ""
+                },
+                {
+                    "title": "My Genetic Algorithm Playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Autonomous Agents and Steering",
+                    "url": "https://youtu.be//more/archive/nature-of-code/6-Autonomous-Agents/6.1-Autonomous-Agents-and-Steering",
+                    "description": ""
+                },
+                {
+                    "title": "My Video on Vectors in p5.js",
+                    "url": "https://youtu.be//Tutorials/9-additional-topics/9.7-drawing-object-trails",
+                    "description": ""
+                },
+                {
+                    "title": "My Video on How to go through an array backwards",
+                    "url": "https://youtu.be/HXOD_XDA-KU",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

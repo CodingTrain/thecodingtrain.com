@@ -1,0 +1,60 @@
+{
+    "title": "Ukulele Tuner with Machine Learning Pitch Detection Model",
+    "description": "In this challenge, I attempt to create a Ukulele tuner in JavaScript using p5.js, ml5.js and the pre-trained machine learning model CREPE: A Convolutional REpresentation for Pitch Estimation. Can you make one with a more elegant and creative interface?",
+    "videoNumber": "151",
+    "videoId": "F1OkDTUkKFo",
+    "date": "2019-10-03",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_151_Ukulele_Tuner/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "ml5.js",
+                    "url": "https://ml5js.org/",
+                    "description": ""
+                },
+                {
+                    "title": "CREPE: A Convolutional REpresentation for Pitch Estimation",
+                    "url": "https://github.com/marl/crepe",
+                    "description": ""
+                },
+                {
+                    "title": "Hannah Davis",
+                    "url": "http://www.hannahishere.com/",
+                    "description": ""
+                },
+                {
+                    "title": "How to turn any GitHub repo into a CDN",
+                    "url": "https://gomakethings.com/how-to-turn-any-github-repo-into-a-cdn/",
+                    "description": ""
+                },
+                {
+                    "title": "Online Tone Generator",
+                    "url": "https://www.szynalski.com/tone-generator/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

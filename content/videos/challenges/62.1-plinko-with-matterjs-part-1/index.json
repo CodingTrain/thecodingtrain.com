@@ -1,0 +1,65 @@
+{
+    "title": "Plinko with Matter.js Part 1",
+    "description": "Part 1 of the Plinko coding challenge! In this video I create a plinko simulation in HTML5 Canvas using the Matter.js physics engine and p5.js for drawing.",
+    "videoNumber": "62.1",
+    "videoId": "KakpnfDv_f0",
+    "date": "2017-03-10",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_062_plinko/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Plinko with Matter.js Part 2",
+                    "url": "/CodingChallenges/062.2-plinko",
+                    "description": ""
+                },
+                {
+                    "title": "Plinko with Matter.js Part 3",
+                    "url": "/CodingChallenges/062.3-plinko",
+                    "description": ""
+                },
+                {
+                    "title": "Plinko with Matter.js Part 4",
+                    "url": "/CodingChallenges/062.4-plinko",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Matter.js",
+                    "url": "http://brm.io/matter-js/",
+                    "description": ""
+                },
+                {
+                    "title": "What is Plinko?",
+                    "url": "http://priceisright.wikia.com/wiki/Plinko",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

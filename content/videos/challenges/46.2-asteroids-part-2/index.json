@@ -1,0 +1,57 @@
+{
+    "title": "Asteroids - Part 2",
+    "description": "This video is Part 2 of a new coding challenge: the classic Atari video game Asteroids! In this video, I use JavaScript and HTML5 canvas with the p5.js library to program the \u201claser\u201d functionality and examine collision detection with the asteroids.",
+    "videoNumber": "46.2",
+    "videoId": "xTTuih7P0c0",
+    "date": "2016-12-16",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/VtYr6E4_M"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_046_Asteroids/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_046_Asteroids/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Asteroids - Part 1",
+                    "url": "/CodingChallenges/046.1-asteroids-part-1",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Asteroids on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

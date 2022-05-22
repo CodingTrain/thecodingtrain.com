@@ -1,0 +1,77 @@
+{
+    "title": "Frogger - Part 1",
+    "description": "In this multi-part challenge, I attempt to re-create the classic Atari video game Frogger in Processing (Java).",
+    "videoNumber": "72.1",
+    "videoId": "giXV6xErw0Y",
+    "date": "2017-06-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/crMMFw8vD"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_072_Frogger/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_072_Frogger/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Frogger - Part 2",
+                    "url": "/CodingChallenges/072.2-frogger",
+                    "description": ""
+                },
+                {
+                    "title": "Frogger - Part 3",
+                    "url": "/CodingChallenges/072.3-frogger",
+                    "description": ""
+                },
+                {
+                    "title": "Frogger - Part 4",
+                    "url": "/CodingChallenges/072.4-frogger",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Frogger on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Frogger",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Video of the Gameplay",
+                    "url": "https://youtu.be/l9eTOaNFwKQ",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

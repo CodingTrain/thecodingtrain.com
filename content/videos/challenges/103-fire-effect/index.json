@@ -1,0 +1,67 @@
+{
+    "title": "Fire Effect",
+    "description": "In this coding challenge, I implement a pixel-based \u201cfire\u201d algorithm using Processing (Java).",
+    "videoNumber": "103",
+    "videoId": "X0kjv0MozuY",
+    "date": "2018-05-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/NaXdkoVI"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_103_Flames/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_103_Flames/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Fire Simulation",
+                    "url": "https://web.archive.org/web/20160418004150/http://freespace.virgin.net/hugo.elias/models/m_fire.htm",
+                    "description": ""
+                },
+                {
+                    "title": "Processing",
+                    "url": "http://processing.org",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "2D Water Ripple",
+                    "url": "/CodingChallenges/102-2d-water-ripple",
+                    "description": ""
+                },
+                {
+                    "title": "What is Perlin Noise?",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

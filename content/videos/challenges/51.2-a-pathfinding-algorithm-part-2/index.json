@@ -1,0 +1,77 @@
+{
+    "title": "A* Pathfinding Algorithm - Part 2",
+    "description": "In Part 2 of this A* Algorithm coding challenge, I focus on adding obstacles (walls) to the grid as well as functionality for moving diagonally.",
+    "videoNumber": "51.2",
+    "videoId": "EaZxUCWAjb0",
+    "date": "2017-01-17",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_051_astar/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_051_astar/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "A* Pathfinding Algorithm - Part 1",
+                    "url": "/CodingChallenges/051.1-astar",
+                    "description": ""
+                },
+                {
+                    "title": "A* Pathfinding Algorithm - Part 3",
+                    "url": "/CodingChallenges/051.3-astar",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Artificial Intelligence: A Modern Approach",
+                    "url": "http://aima.cs.berkeley.edu/",
+                    "description": ""
+                },
+                {
+                    "title": "A* Search Algorithm on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Maze Generation Coding Challenge",
+                    "url": "/CodingChallenges/010.1-maze-dfs-p5",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

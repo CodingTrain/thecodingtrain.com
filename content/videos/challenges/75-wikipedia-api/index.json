@@ -1,0 +1,55 @@
+{
+    "title": "Wikipedia API",
+    "description": "In this coding challenge, I attempt to make a \u201cWikipedia web crawler\u201d in JavaScript. It randomly crawls from topic to topic on Wikipedia using the API and the p5.js library.",
+    "videoNumber": "75",
+    "videoId": "RPz75gcHj18",
+    "date": "2017-09-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/A4u07unm5"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_075_Wikipedia/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Wikipedia API Help",
+                    "url": "https://www.mediawiki.org/wiki/API:Main_page",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Videos on working with data and APIs",
+                    "url": "/Tutorials/10-working-with-data",
+                    "description": ""
+                },
+                {
+                    "title": "My Videos on Regular Expressions",
+                    "url": "/learning/programming-with-text/2.1-introduction",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

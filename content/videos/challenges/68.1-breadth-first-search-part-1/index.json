@@ -1,0 +1,80 @@
+{
+    "title": "Breadth-First Search Part 1",
+    "description": "In this two part challenge, I cover the Breadth-First Search algorithm is and implement it in JavaScript. My demo application is \u201c6 Degrees of Kevin Bacon\u201d (finding the closest relationship between Kevin Bacon and another actor).",
+    "videoNumber": "68.1",
+    "videoId": "piBq7VD0ZSo",
+    "date": "2017-03-30",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/0_6EV76Qy"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_068_BFS_kevin_bacon/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Breadth-First Search Part 2",
+                    "url": "/CodingChallenges/068.2-bfs-kevin-bacon",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
+                    "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+                    "description": ""
+                },
+                {
+                    "title": "Nature of Code",
+                    "url": "http://natureofcode.com/",
+                    "description": ""
+                },
+                {
+                    "title": "The Oracle of Bacon",
+                    "url": "http://oracleofbacon.org/",
+                    "description": ""
+                },
+                {
+                    "title": "Breadth-First Search on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Breadth-first_search",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Associative Arrays",
+                    "url": "https://youtu.be/_5jdE6RKxVk",
+                    "description": ""
+                },
+                {
+                    "title": "My Video on Prototypes",
+                    "url": "https://youtu.be//Tutorials/9-additional-topics/9.19-Prototypes-in-javascript",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

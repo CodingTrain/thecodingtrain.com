@@ -1,0 +1,80 @@
+{
+    "title": "XOR Problem with TensorFlow.js",
+    "description": "In this coding challenge, I visualize the outputs of a neural network solving XOR using TensorFlow.js.",
+    "videoNumber": "106",
+    "videoId": "N3ZnNa01BPM",
+    "date": "2018-06-11",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ueNMC_Wh6"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_106_xor_tfjs/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "TensorFlow.js",
+                    "url": "https://js.tensorflow.org/",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js",
+                    "url": "https://ml5js.org",
+                    "description": ""
+                },
+                {
+                    "title": "Adam optimizer",
+                    "url": "https://arxiv.org/abs/1412.6980",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "TensorFlow.js playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Challenge #92: XOR Problem",
+                    "url": "/CodingChallenges/092-xor",
+                    "description": ""
+                },
+                {
+                    "title": "ES6 Arrow Function",
+                    "url": "/Tutorials/16-javascript-es6/16.3-arrow-function",
+                    "description": ""
+                },
+                {
+                    "title": "TensorFlow.js: Layers API",
+                    "url": "https://youtu.be/F4WWukTWoXY",
+                    "description": ""
+                },
+                {
+                    "title": "async/await",
+                    "url": "https://youtu.be/XO77Fib9tSI",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

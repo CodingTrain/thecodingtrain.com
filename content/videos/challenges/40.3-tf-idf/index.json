@@ -1,0 +1,60 @@
+{
+    "title": "TF-IDF",
+    "description": "In part 3 of the Word Counting coding challenge, I implement an algorithm known as TF-IDF (Term Frequency \u2013 Inverse Document Frequency). The algorithm scores each word\u2019s relevance for a given document based on its frequency in one document relative to all others in a corpus. This is one possible methods for keyword generation.",
+    "videoNumber": "40.3",
+    "videoId": "RPMYV-eb6lI",
+    "date": "2016-10-12",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/u0C4FV8sg"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_040.3_tf-idf/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Word Counter in JavaScript",
+                    "url": "/CodingChallenges/040.1-wordcounts-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Word Counter in Processing",
+                    "url": "/CodingChallenges/040.2-wordcounts",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "TD-IDF on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Tf%E2%80%93idf",
+                    "description": ""
+                },
+                {
+                    "title": "ITP from Tisch School of the Arts",
+                    "url": "https://tisch.nyu.edu/itp",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

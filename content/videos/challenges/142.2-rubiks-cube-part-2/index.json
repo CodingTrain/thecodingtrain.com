@@ -1,0 +1,73 @@
+{
+    "title": "Rubik's Cube Part 2",
+    "description": "In part 2 of the Rubik\u2019s Cube challenge, I simulate rotations of the cube\u2019s faces using matrix operations. I also refactor the code to include a separate Face class (from the Cubie class).",
+    "videoNumber": "142.2",
+    "videoId": "EGmVulED_4M",
+    "date": "2019-04-15",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_142_Rubiks_Cube_2/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Rubik's Cube Part 1",
+                    "url": "/CodingChallenges/142.1-rubiks-cube",
+                    "description": ""
+                },
+                {
+                    "title": "Rubik's Cube Part 3",
+                    "url": "/CodingChallenges/142.3-rubiks-cube",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "I am the cube",
+                    "url": "http://iamthecu.be",
+                    "description": ""
+                },
+                {
+                    "title": "Rotation matrix on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Rubik's Cube Live Stream",
+                    "url": "https://youtu.be/GbHGGYSwVvY",
+                    "description": ""
+                },
+                {
+                    "title": "3D Rendering with Rotation and Projection",
+                    "url": "/CodingChallenges/112-3d-rendering",
+                    "description": ""
+                },
+                {
+                    "title": "Matrix Multiplication for 3D Rendering",
+                    "url": "https://youtu.be/tzsgS19RRc8",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

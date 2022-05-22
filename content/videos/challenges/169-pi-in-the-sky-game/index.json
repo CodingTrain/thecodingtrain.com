@@ -1,0 +1,75 @@
+{
+    "title": "Pi in the Sky Game",
+    "description": "Happy Pi Day! How many delicious digits of Pi can you catch from the sky?",
+    "videoNumber": "169",
+    "videoId": "_H9JIwWP7HQ",
+    "date": "2022-03-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Pi in the Sky - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/U11UYbgVc"
+            }
+        },
+        {
+            "title": "Pi in the Sky - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_169_Pi_Day/pi_in_the_sky"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "1 Million Digits of Pi collected by Eve Andersson",
+                    "url": "http://www.eveandersson.com/pi/digits/1000000",
+                    "description": ""
+                },
+                {
+                    "title": "Pi in the Sky song by Will from America",
+                    "url": "https://twitter.com/WillFromAmerica",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge 3: The Snake Game",
+                    "url": "/CodingChallenges/003-snake-game-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Challenge 4: Purple Rain",
+                    "url": "/CodingChallenges/004-purplerain",
+                    "description": ""
+                },
+                {
+                    "title": "Code! Programming for Beginners with p5.js",
+                    "url": "/beginners/p5js/",
+                    "description": ""
+                },
+                {
+                    "title": "Transformations in p5.js",
+                    "url": "/Tutorials/9-additional-topics/9.1-transformations-part-1",
+                    "description": ""
+                },
+                {
+                    "title": "Removing Objects from Arrays",
+                    "url": "/beginners/p5js/7.5-removing-objects-from-array",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "title": "Perlin Noise Flow Field",
+    "description": "In this coding challenge, I use Perlin noise to create a two-dimensional flow field with the p5.js library",
+    "videoNumber": "24",
+    "videoId": "BjoM9oKOAKY",
+    "date": "2016-06-27",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/vDcIAbfg7"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_024_PerlinNoiseFlowField/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_024_PerlinNoiseFlowField/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Processing code",
+                    "url": "https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_024_PerlinNoiseFlowField_Processing",
+                    "description": ""
+                },
+                {
+                    "title": "p5.js noise() reference",
+                    "url": "https://p5js.org/reference/#/p5/noise",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

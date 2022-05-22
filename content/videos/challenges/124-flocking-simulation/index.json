@@ -1,0 +1,77 @@
+{
+    "title": "Flocking Simulation",
+    "description": "In this coding challenge, I create a flocking simulation in JavaScript based on Craig Reynolds \u201cboids\u201d algorithm.",
+    "videoNumber": "124",
+    "videoId": "mhjuuHl6qHM",
+    "date": "2018-12-11",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ry4XZ8OkN"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Craig Reynolds' Reference",
+                    "url": "https://www.red3d.com/cwr/boids/",
+                    "description": ""
+                },
+                {
+                    "title": "The Nature of Code Reference",
+                    "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
+                    "description": ""
+                },
+                {
+                    "title": "The Computational Beauty of Nature",
+                    "url": "https://mitpress.mit.edu/books/computational-beauty-nature",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Craig Reynolds - Original 1986 Boids simulation",
+                    "url": "https://youtu.be/86iQiV3-3IA",
+                    "description": ""
+                },
+                {
+                    "title": "Vectors - The Nature of Code",
+                    "url": "https://youtu.be//more/archive/nature-of-code/1-Vectors/1.1-Vectors",
+                    "description": ""
+                },
+                {
+                    "title": "Combining Steering Behaviors: Flocking - The Nature of Code",
+                    "url": "https://youtu.be//more/archive/nature-of-code/6-Autonomous-Agents/6.8-Combining-Steering-Behaviors-Flocking",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

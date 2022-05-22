@@ -1,0 +1,102 @@
+{
+    "title": "Drawing with Fourier Transform and Epicycles",
+    "description": "In this coding challenge, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform.",
+    "videoNumber": "130.1",
+    "videoId": "MY4luNgGfms",
+    "date": "2019-01-24",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/RfrZibjfL"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_130_Fourier_Transform_1/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_130_Fourier_Transform_1/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Fourier Transform User Drawing",
+                    "url": "/CodingChallenges/130.2-fourier-transform-drawing",
+                    "description": ""
+                },
+                {
+                    "title": "Fourier Transform Drawing with Complex Number Input",
+                    "url": "/CodingChallenges/130.3-fourier-transform-drawing",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Coding Train Logo",
+                    "url": "https://twitter.com/TomFevrier/status/1079437780466520065",
+                    "description": ""
+                },
+                {
+                    "title": "p5.FFT",
+                    "url": "https://p5js.org/reference/#/p5.FFT",
+                    "description": ""
+                },
+                {
+                    "title": "FFT on Algorithm Archive",
+                    "url": "https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html",
+                    "description": ""
+                },
+                {
+                    "title": "Discrete Fourier transform on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Discrete_Fourier_transform",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge #125: Fourier Series",
+                    "url": "/CodingChallenges/125-fourier-series",
+                    "description": ""
+                },
+                {
+                    "title": "But what is the Fourier Transform? A visual introduction",
+                    "url": "https://youtu.be/spUNpyF58BY",
+                    "description": ""
+                },
+                {
+                    "title": "Fourier Analysis For The Rest Of Us",
+                    "url": "https://youtu.be/2hfoX51f6sg",
+                    "description": ""
+                },
+                {
+                    "title": "Epicycles, complex Fourier series and Homer Simpson's orbit",
+                    "url": "https://youtu.be/qS4H6PEcCCA",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

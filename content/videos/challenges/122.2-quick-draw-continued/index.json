@@ -1,0 +1,60 @@
+{
+    "title": "Quick, Draw! Continued",
+    "description": "The \u201cQuick, Draw!\u201d dataset is now available via an official Google API + web component. In this challenge follow-up, I explore drawing the doodles with p5.js in an HTML5 canvas.",
+    "videoNumber": "122.2",
+    "videoId": "EcRK6oFddPQ",
+    "date": "2018-12-05",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_122_QuickDraw_2/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Quick, Draw! Part 1",
+                    "url": "/CodingChallenges/122.1-quick-draw",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Quick, Draw! Web Component",
+                    "url": "https://opensource.googleblog.com/2018/11/introducing-web-component-and-data-api-for-quick-draw.html",
+                    "description": ""
+                },
+                {
+                    "title": "Quick, Draw! API",
+                    "url": "https://github.com/googlecreativelab/quickdraw-dataset",
+                    "description": ""
+                },
+                {
+                    "title": "Google Group",
+                    "url": "https://groups.google.com/forum/#!forum/quick-draw-data-api",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

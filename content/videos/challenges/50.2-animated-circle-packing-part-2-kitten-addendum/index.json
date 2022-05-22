@@ -1,0 +1,62 @@
+{
+    "title": "Animated Circle Packing - Part 2 (Kitten Addendum)",
+    "description": "In this short addendum to the Animated Circle Packing challenge, I demonstrate how to combine the circle packing algorithm with looking up pixel colors in an image to create an abstract portrait of a kitten.",
+    "videoNumber": "50.2",
+    "videoId": "ERQcYaaZ6F0",
+    "date": "2017-01-10",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/tRpryH_um"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_050.2_CirclePackingImage/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_050.2_CirclePackingImage/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Animated Circle Packing - Part 1",
+                    "url": "/CodingChallenges/050.1-circlepackinganimated",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Various Circle Packing Tutorials",
+                    "url": "http://julienleonard.com/tutorials.html",
+                    "description": ""
+                },
+                {
+                    "title": "Circle Packing on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Circle_packing",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

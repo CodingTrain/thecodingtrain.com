@@ -1,0 +1,50 @@
+{
+    "title": "May the 4th Scrolling Text",
+    "description": "Happy Star Wars day! May the fourth be with you! In this challenge I attempt to code the iconic text scrolling/title crawl in Processing (Java).",
+    "videoNumber": "101",
+    "videoId": "fUkF-YLLXeg",
+    "date": "2018-05-04",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_101_MayThe4th/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_101_MayThe4th/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge #1: Starfield in Processing",
+                    "url": "/CodingChallenges/001-starfield",
+                    "description": ""
+                },
+                {
+                    "title": "Jabrils on Youtube",
+                    "url": "https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg",
+                    "description": ""
+                },
+                {
+                    "title": "Web Animations and Mo.js with Sarah Drasner",
+                    "url": "/GuestTutorials/002-sarah-drasner-web-animations-and-mojs",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

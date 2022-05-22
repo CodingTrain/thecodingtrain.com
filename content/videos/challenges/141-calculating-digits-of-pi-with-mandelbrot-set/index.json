@@ -1,0 +1,68 @@
+{
+    "title": "Calculating Digits of Pi with Mandelbrot Set",
+    "description": "Happy belated Pi Day once more! Here I attempt to approximate Pi using a special location in the Mandelbrot set. The programming environment is Processing (Java).",
+    "videoNumber": "141",
+    "videoId": "pn2vlselv_g",
+    "date": "2019-03-21",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_141_Mandelbrot_Pi/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "The World of Pi",
+                    "url": "http://www.pi314.net/eng/",
+                    "description": ""
+                },
+                {
+                    "title": "BigDecimal",
+                    "url": "https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html",
+                    "description": ""
+                },
+                {
+                    "title": "Mandelbrot Image",
+                    "url": "https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_00_mandelbrot_set.jpg",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Mandelbrot Set with p5.js",
+                    "url": "/CodingChallenges/021-mandelbrot-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Calculating Digits of Pi with Collisions",
+                    "url": "/CodingChallenges/139-pi-collisions",
+                    "description": ""
+                },
+                {
+                    "title": "12 Hour Live Stream (last 4 hours sadly cut-off)",
+                    "url": "https://youtu.be/PIeKyP97EUc",
+                    "description": ""
+                },
+                {
+                    "title": "Pi and the Mandelbrot Set",
+                    "url": "https://youtu.be/d0vY0CKYhPY",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

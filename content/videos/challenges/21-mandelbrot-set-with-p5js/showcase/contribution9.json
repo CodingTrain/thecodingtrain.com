@@ -1,0 +1,9 @@
+{
+    "title": "Mandeldarm - Interactive p5 Mandelbrot explorer with dynamic rendering and notable locations",
+    "url": "https://bratp.fun/mandelbrot",
+    "author": {
+        "name": "Diese Kartoffel",
+        "url": "https://github.com/DieseKartoffel"
+    },
+    "source": "https://github.com/DieseKartoffel/mandelbrot"
+}

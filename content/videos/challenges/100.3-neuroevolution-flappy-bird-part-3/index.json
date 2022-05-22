@@ -1,0 +1,117 @@
+{
+    "title": "Neuroevolution Flappy Bird - Part 3",
+    "description": "In this video refine the neural network and genetic algorithm parameters as well as speed of the simulation during the training process.",
+    "videoNumber": "100.3",
+    "videoId": "3lvj9jvERvs",
+    "date": "2018-04-18",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/wb-QHVXBq"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_100.1_NeuroEvolution_FlappyBird/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_100.1_NeuroEvolution_FlappyBird/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Neuroevolution Flappy Bird - Part 1",
+                    "url": "/CodingChallenges/100.1-neuroevolution-flappy-bird",
+                    "description": ""
+                },
+                {
+                    "title": "Neuroevolution Flappy Bird - Part 2",
+                    "url": "/CodingChallenges/100.2-neuroevolution-flappy-bird",
+                    "description": ""
+                },
+                {
+                    "title": "Neuroevolution Flappy Bird - Part 4",
+                    "url": "/CodingChallenges/100.4-neuroevolution-flappy-bird",
+                    "description": ""
+                },
+                {
+                    "title": "Neuroevolution Flappy Bird - Part 5",
+                    "url": "/CodingChallenges/100.5-neuroevolution-flappy-bird",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Improved code",
+                    "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/tree/master/examples/neuroevolution-flappybird",
+                    "description": ""
+                },
+                {
+                    "title": "TensorFlow.js",
+                    "url": "https://js.tensorflow.org/",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js",
+                    "url": "https://github.com/ml5js",
+                    "description": ""
+                },
+                {
+                    "title": "JS Neural Network",
+                    "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/",
+                    "description": ""
+                },
+                {
+                    "title": "Flappy Bird Clone",
+                    "url": "https://github.com/CodingTrain/Flappy-Bird-Clone",
+                    "description": ""
+                },
+                {
+                    "title": "Neuroevolution documentation",
+                    "url": "https://github.com/shiffman/NOC-S18/tree/master/week10",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge #31: Flappy Bird",
+                    "url": "/CodingChallenges/031-flappybird",
+                    "description": ""
+                },
+                {
+                    "title": "My Genetic Algorithm playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+                    "description": ""
+                },
+                {
+                    "title": "My Neural Networks playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

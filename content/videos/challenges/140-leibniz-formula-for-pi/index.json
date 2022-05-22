@@ -1,0 +1,67 @@
+{
+    "title": "Leibniz Formula for Pi",
+    "description": "In this coding challenge, I use the Leibniz formula (aka infinite series) to approximate the digits of Pi and graph the convergence.",
+    "videoNumber": "140",
+    "videoId": "uH4trBNn540",
+    "date": "2019-03-18",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/8nvCqk0-W"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_140_Pi_Leibniz/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_140_Pi_Leibniz/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Leibniz formula for Pi",
+                    "url": "https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Calculating Digits of Pi with Collisions",
+                    "url": "/CodingChallenges/139-pi-collisions",
+                    "description": ""
+                },
+                {
+                    "title": "Mandelbrot Set with p5.js",
+                    "url": "/CodingChallenges/021-mandelbrot-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Pi and the Mandelbrot Set",
+                    "url": "https://youtu.be/d0vY0CKYhPY",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

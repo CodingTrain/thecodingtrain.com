@@ -1,0 +1,47 @@
+{
+    "title": "Starfield in Processing",
+    "description": "This is the first in a new series of videos. In this video I attempt to program a \u201cstar field\u201d or \u201cwarp speed\u201d visualization in Processing.",
+    "videoNumber": "1",
+    "videoId": "17WoOqgXsRM",
+    "date": "2016-04-12",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/1wLHIck3T"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_001_StarField/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_001_StarField/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Code inspired by CS Department of Bryn Mawr College",
+                    "url": "https://cs.brynmawr.edu/gxk2013/examples/transformations/starfield/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

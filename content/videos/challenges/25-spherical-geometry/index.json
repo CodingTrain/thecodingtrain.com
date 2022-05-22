@@ -1,0 +1,72 @@
+{
+    "title": "Spherical Geometry",
+    "description": "In this coding challenge, I create a sphere in Processing using spherical coordinates and triangle strips. This is the 3rd part of a multi-part series on superformulas, superellipses and supershapes.",
+    "videoNumber": "25",
+    "videoId": "RkuBWEkBrZA",
+    "date": "2016-06-29",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/qVs1hxtc"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_025_SphereGeometry/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_025_SphereGeometry/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Supershapes (Superformula)",
+                    "url": "http://paulbourke.net/geometry/supershape/",
+                    "description": ""
+                },
+                {
+                    "title": "3D Supershapes",
+                    "url": "http://www.syedrezaali.com/3d-supershapes/",
+                    "description": ""
+                },
+                {
+                    "title": "Spherical Coordinates System on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
+                    "description": ""
+                },
+                {
+                    "title": "Peasycam",
+                    "url": "http://mrfeinberg.com/peasycam/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Polar Coordinates",
+                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

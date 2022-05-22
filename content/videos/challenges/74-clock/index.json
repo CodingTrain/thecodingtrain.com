@@ -1,0 +1,57 @@
+{
+    "title": "Clock",
+    "description": "In this coding challenge, I attempt to program a clock in HTML5 canvas with the p5.js library.",
+    "videoNumber": "74",
+    "videoId": "E4RyStef-gY",
+    "date": "2017-09-20",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2lvHFWPbW"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_074_Clock/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_074_Clock/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Golan Levin's notes on MAEDA\u2019S 12 O\u2019CLOCKS",
+                    "url": "http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/",
+                    "description": ""
+                },
+                {
+                    "title": "Alca's Clock Collection",
+                    "url": "https://codepen.io/collection/DqRNLQ/",
+                    "description": ""
+                },
+                {
+                    "title": "ICM-2017 Syllabus",
+                    "url": "https://github.com/ITPNYU/ICM-2017",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

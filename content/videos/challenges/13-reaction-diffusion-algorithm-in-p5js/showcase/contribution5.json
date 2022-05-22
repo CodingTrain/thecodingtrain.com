@@ -1,0 +1,9 @@
+{
+    "title": "Reaction diffusion blog and THREE.js implementation (interactive simulation at the end of the blog)",
+    "url": "http://www.michielbraat.nl/blog/reaction-diffusion/",
+    "author": {
+        "name": " by Michiel Braat",
+        "url": ""
+    },
+    "source": "https://github.com/Proinn/reaction_diffusion_three_js"
+}

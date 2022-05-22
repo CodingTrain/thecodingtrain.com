@@ -1,0 +1,60 @@
+{
+    "title": "Quicksort",
+    "description": "In this video, I implement a Quicksort algorithm in JavaScript visualize the sorting with p5.js.",
+    "videoNumber": "143",
+    "videoId": "eqo2LxRADhU",
+    "date": "2019-04-04",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/vic6Qzo-j"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_143_QuickSort/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Quicksort on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Quicksort",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "15 Sorting Algorithms in 6 Minutes",
+                    "url": "https://youtu.be/kPRA0W1kECg",
+                    "description": ""
+                },
+                {
+                    "title": "Bubble Sort Visualization",
+                    "url": "/CodingChallenges/114-bubble-sort",
+                    "description": ""
+                },
+                {
+                    "title": "async/await",
+                    "url": "https://youtu.be/XO77Fib9tSI",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

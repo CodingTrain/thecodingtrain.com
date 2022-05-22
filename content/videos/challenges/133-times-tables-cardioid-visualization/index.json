@@ -1,0 +1,82 @@
+{
+    "title": "Times Tables Cardioid Visualization",
+    "description": "In this video, I visualize the \u201cmathematical heart\u201d Cardioid using times tables calculations.",
+    "videoNumber": "133",
+    "videoId": "bl3nc_a1nvs",
+    "date": "2019-02-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/gwcGb_NPm"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_133_Times_Tables_Cardioid/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_133_Times_Tables_Cardioid/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Cardioid on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Cardioid",
+                    "description": ""
+                },
+                {
+                    "title": "Rainbow Topics suggestion from Eduardddd",
+                    "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/1036",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Times Tables, Mandelbrot and the Heart of Mathematics",
+                    "url": "https://youtu.be/qhbuKbxJsk8",
+                    "description": ""
+                },
+                {
+                    "title": "Times Tables Visualization Poster in Processing",
+                    "url": "https://youtu.be/I-b54QkD3so",
+                    "description": ""
+                },
+                {
+                    "title": "Mandelbrot Set",
+                    "url": "/CodingChallenges/021-mandelbrot-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Polar Coordinates",
+                    "url": "/Tutorials/9-additional-topics/9.20-polar-coordinates",
+                    "description": ""
+                },
+                {
+                    "title": "The Modulo Operator",
+                    "url": "/GuestTutorials/006-golan-levin-modulo-operator",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

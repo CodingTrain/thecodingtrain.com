@@ -1,0 +1,38 @@
+{
+    "title": "Rubik's Cube Part 3",
+    "description": "In this 3rd part of the Rubik\u2019s Cube coding challenge, I animate the rotation of the cube\u2019s faces (front, back, left right, up, down).",
+    "videoNumber": "142.3",
+    "videoId": "8U2gsbNe1Uo",
+    "date": "2019-04-18",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_142_Rubiks_Cube_3/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Rubik's Cube Part 1",
+                    "url": "/CodingChallenges/142.1-rubiks-cube",
+                    "description": ""
+                },
+                {
+                    "title": "Rubik's Cube Part 2",
+                    "url": "/CodingChallenges/142.2-rubiks-cube",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
