@@ -191,6 +191,7 @@ const Guide = ({ data }) => {
           <div className={css.guideBottomSpacer} />
         </div>
       </MDXProvider>
+      <Spacer pattern className={css.spacer} />
     </Layout>
   );
 };
