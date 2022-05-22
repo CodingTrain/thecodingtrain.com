@@ -5,8 +5,8 @@
   background: var(--pink-tint);
   background: linear-gradient(
     0deg,
-    white 0%,
-    var(--pink-tint) 60%,
+    transparent 0%,
+    var(--pink-tint) 70%,
     var(--pink-tint) 100%
   );
   border-bottom: var(--border);
@@ -36,7 +36,7 @@
   height: var(--baseline-6x);
   margin: 0;
   max-width: 600px;
-  padding: 0 var(--box-padding) 0 calc(2 * var(--box-padding));
+  padding: 0 var(--box-padding);
 }
 
 .train {
