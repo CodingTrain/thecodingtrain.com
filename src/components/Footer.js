@@ -203,7 +203,7 @@ const Footer = () => {
       </nav>
 
       <div className={css.copyright}>
-        2021 The Coding Train. All rights reserved.
+        {new Date().getFullYear()} The Coding Train. All rights reserved.
       </div>
     </footer>
   );
