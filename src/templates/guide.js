@@ -20,6 +20,18 @@ import Image from '../components/Image';
 
 import * as css from './guide.module.css';
 
+function isValidHttpUrl(string) {
+  let url;
+
+  try {
+    url = new URL(string);
+  } catch (_) {
+    return false;
+  }
+
+  return url.protocol === 'http:' || url.protocol === 'https:';
+}
+
 const kebabCase = (string) =>
   string
     .replace(/([a-z])([A-Z])/g, '$1-$2')
@@ -83,7 +95,7 @@ const components = (localImages) => ({
   ),
   p: (props) => <p className={css.paragraph} {...props} />,
   img: (props) =>
-    props.src.startsWith('/') && localImages.hasOwnProperty(props.src) ? (
+    !isValidHttpUrl(props.src) && localImages.hasOwnProperty(props.src) ? (
       <Image
         className={css.image}
         image={localImages[props.src]}
@@ -140,6 +152,9 @@ const useLocalImages = (images) => {
       } = image;
       imagesObj[`/${relativePath}`] =
         image.file.childImageSharp.gatsbyImageData;
+      imagesObj[`./${relativePath}`] =
+        image.file.childImageSharp.gatsbyImageData;
+      imagesObj[relativePath] = image.file.childImageSharp.gatsbyImageData;
     }
     return imagesObj;
   }, [images]);
