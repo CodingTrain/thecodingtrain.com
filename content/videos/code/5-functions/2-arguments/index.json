@@ -1,16 +1,13 @@
 {
   "title": "Function Parameters and Arguments",
   "description": "This video looks at re-usability and functions.  How does defining a function with parameters allow a function to be re-used?",
-  "videoNumber": "Video number",
+  "videoNumber": "5.2",
   "videoId": "zkc417YapfE",
   "date": "2015-09-17",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "functions", "arguments", "parameters"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

@@ -1,16 +1,13 @@
 {
   "title": "Objects & Images",
   "description": "This video explores how to load and display images as objects with p5.js.",
-  "videoNumber": "Video number",
+  "videoNumber": "7.1",
   "videoId": "i2C1hrJMwz0",
   "date": "2017-12-16",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "images", "objects"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

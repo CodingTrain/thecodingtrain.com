@@ -1,14 +1,12 @@
 {
   "title": "Shell",
   "description": "What is a “shell”? In this video, I look at at “zsh” (instead of the default Mac OSX shell: bash).",
-  "videoNumber": "Video number",
   "videoId": "FnkkzgYuXUM",
   "date": "2018-09-19",
-  "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["JavaScript"],
+  "topics": ["workflow", "shell", "terminal"],
   "canContribute": false,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "groupLinks": [
     {
       "title": "Links",

@@ -3,8 +3,8 @@
   "answer": {
     "text": "The last time I documented my studio setup was in 2019 in this [Behind the Scenes video](https://youtu.be/sqkwHUyV-YY) at Tisch School of the Arts. Three studio setups later, I now live stream and record videos out of my garage in NY state. A lot of the setup is the same, but I’m using some newer machines, lights, cameras, and mics. I’m due for another behind the scenes update! If you are reading this message and would like to see this happen, send a reminder to [suggestionbox@thecodingtrain.com](mailto:suggestionbox@thecodingtrain.com)!\n Here’s a short list of the equipment and software I’m using. It’s not entirely comprehensive but will give you a start!",
     "list": [
-      "(Software) Open Broadcast Studio",
-      "(Software) NVideo RTX Broadcast",
+      "(Software) Open Broadcaster Software Studio",
+      "(Software) NVIDIA Broadcast App",
       "(Hardware) Windows 10 PC",
       "(Hardware) Sony A7",
       "(Hardware) Shure Lavalier Microphone",

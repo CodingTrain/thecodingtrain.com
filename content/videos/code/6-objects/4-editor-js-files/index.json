@@ -1,16 +1,13 @@
 {
   "title": "JavaScript Files in the p5.js Web Editor",
   "description": "In this video, I look at how to organize your code into multiple JavaScript files in the p5.js web editor.",
-  "videoNumber": "Video number",
+  "videoNumber": "6.4",
   "videoId": "5nf41qLeagU",
   "date": "2018-10-05",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "objects", "editor"],
   "canContribute": false,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

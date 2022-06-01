@@ -1,16 +1,13 @@
 {
   "title": "Incrementation Operators",
   "description": "In this bonus aside, I discuss coding short hand for incrementing variables ('incrementation operators').",
-  "videoNumber": "Video number",
+  "videoNumber": "2.3",
   "videoId": "T26OJGjI8qI",
   "date": "2021-05-19",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "variables", "math"],
   "canContribute": false,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }

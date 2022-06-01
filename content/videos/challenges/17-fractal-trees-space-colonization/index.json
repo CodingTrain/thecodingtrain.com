@@ -1,16 +1,14 @@
 {
   "title": "Space Colonization",
   "description": "In this coding challenge, I'm using the space colonization algorithm to make a tree generator. This is the 4th part of my algorithmic botany series.",
-  "videoNumber": "Video number",
+  "videoNumber": "17",
   "videoId": "kKT0v3qhIQY",
   "date": "2016-05-31",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["topic1", "topic2"],
+  "topics": ["fractals", "generative art", "space colonization"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
+  "timestamps": [],
+  "codeExamples": [],
   "groupLinks": [
     {
       "title": "References",

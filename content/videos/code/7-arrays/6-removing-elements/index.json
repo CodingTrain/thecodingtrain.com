@@ -1,16 +1,13 @@
 {
   "title": "Removing Objects from Arrays",
   "description": "This video covers the 'splice' function to delete / remove objects from an array.",
-  "videoNumber": "Video number",
+  "videoNumber": "7.6",
   "videoId": "tA_ZgruFF9k",
   "date": "2017-10-17",
-  "languages": ["language1", "language2"],
-  "topics": ["topic1", "topic2"],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["arrays", "for loop", "objects"],
   "canContribute": true,
-  "timestamps": [
-  ],
-  "codeExamples": [
-  ],
-  "groupLinks": [
-  ]
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }
