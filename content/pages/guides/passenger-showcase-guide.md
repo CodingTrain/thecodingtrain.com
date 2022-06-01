@@ -21,11 +21,11 @@ If the video is a part of a series, chances are it is either in a main or side t
 
 ## Creating the contribution file
 
-Once in the `showcase` folder of the video, click "Add file" in the upper right-hand corner and click "Create new file" (or "Upload files'', if you already have the contribution on your local machine).
+If someone has already submitted a contribution. you will see a `showcase` folder.  Click "Add file" in the upper right-hand corner and click "Create new file" (or "Upload files'', if you already have the contribution on your local machine).  Name the file `contribution2.json`, if that exists `contribution3.json`, etc).  If there are no submissions yet, name the file `showcase/contribution1.json`.  
 
 ![Creating a new file in the showcases folder](./passenger-showcase/showcasefolder.png)
 
-Name the file `contribution1.json` (or if the file already exists, `contribution2.json`, if that exists `contribution3.json`, etc).
+
 
 Copy the template into the new file:
 
