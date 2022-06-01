@@ -19,31 +19,36 @@ const GuideCard = ({
 }) => {
   return (
     <article className={cn(css.root, css[variant])}>
-      <div className={css.block}>
-        <div className={css.top}>
-          <div className={css.icon}>{icon}</div>
-          <h2>
-            {link ? <a href={link}>{title}</a> : <Link to={slug}>{title}</Link>}
-          </h2>
+      <div className={css.top}>
+        <div className={css.icon}>{icon}</div>
+        <h2>
+          {link ? <a href={link}>{title}</a> : <Link to={slug}>{title}</Link>}
+        </h2>
+      </div>
+      <div className={css.bottom}>
+        <div className={css.left}>
+          <p className={css.description}>{description}</p>
+          <ButtonPanel
+            className={css.meta}
+            text={meta}
+            buttonLink={link ?? slug}
+            buttonText="Read"
+            variant={variant}
+            rainbow
+          />
         </div>
-        <div className={css.bottom}>
-          <div className={css.left}>
-            <p className={css.description}>{description}</p>
-            <ButtonPanel
-              className={css.meta}
-              text={meta}
-              buttonLink={link ?? slug}
-              buttonText="Read"
-              variant={variant}
-              rainbow
-            />
-          </div>
-          <div className={css.right}>
-            <Image image={image} imgClassName={css.img} />
-          </div>
+        <div className={css.right}>
+          <Image image={image} imgClassName={css.img} />
+          <ButtonPanel
+            className={css.meta}
+            text={meta}
+            buttonLink={link ?? slug}
+            buttonText="Read"
+            variant={variant}
+            rainbow
+          />
         </div>
       </div>
-      <div className={css.gap} />
     </article>
   );
 };

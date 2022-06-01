@@ -58,7 +58,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         <div className={css.icon}>👁</div>
 
         <h3 className={css.smallTitle}>
-          <Link to={`tracks/${slug}`}>
+          <Link to={`challenge/${slug}`}>
             {videoNumber ? `#${videoNumber} — ` : ''} {title}
           </Link>
         </h3>

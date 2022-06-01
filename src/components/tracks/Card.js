@@ -81,8 +81,18 @@ const Card = ({
         <div className={css.left}>
           <div className={css.text}>
             <h3 className={css.title}>{title}</h3>
-            <Tags className={css.tags} heading="Topics" items={topics} />
-            <Tags className={css.tags} heading="Languages" items={languages} />
+            <Tags
+              className={css.tags}
+              heading="Languages"
+              items={languages}
+              linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+            />
+            <Tags
+              className={css.tags}
+              heading="Topics"
+              items={topics}
+              linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+            />
             <p className={css.description}>{description}</p>
           </div>
           <div className={css.fadeText} />
