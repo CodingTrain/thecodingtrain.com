@@ -1,9 +1,8 @@
 {
-    "title": "Bezier Curve Road Editor",
-    "url": "https://preview.p5js.org/D_Snyder/present/F5rWBZZ4r",
-    "author": {
-        "name": " by David Snyder",
-        "url": ""
-    },
-    "source": "https://editor.p5js.org/D_Snyder/sketches/F5rWBZZ4r"
+  "title": "Bezier Curve Road Editor",
+  "author": {
+    "name": "David Snyder"
+  },
+  "url": "https://preview.p5js.org/D_Snyder/present/F5rWBZZ4r",
+  "source": "https://editor.p5js.org/D_Snyder/sketches/F5rWBZZ4r"
 }

@@ -1,57 +1,13 @@
 {
-    "title": "Phyllotaxis",
-    "description": "In this coding challenge, I continue one of my favorite subjects: Algorithmic botany! This video covers the subject of Phyllotaxis, what it is and how it can be used to generate sunflower-like patterns inspired by nature.",
-    "videoNumber": "30",
-    "videoId": "KWoJgHFYWxY",
-    "date": "2016-08-03",
-    "languages": [],
-    "topics": [],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "codeExamples": [
-        {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/CehY0jsLV"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_030_Phyllotaxis/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_030_Phyllotaxis/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "title": "Phyllotaxis on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Phyllotaxis",
-                    "description": ""
-                },
-                {
-                    "title": "Algorithmic Botany - Phyllotaxis",
-                    "url": "http://algorithmicbotany.org/papers/abop/abop-ch4.pdf",
-                    "description": ""
-                },
-                {
-                    "title": "Phyllotaxis example",
-                    "url": "https://bl.ocks.org/mbostock/11463507",
-                    "description": ""
-                }
-            ]
-        }
-    ]
+  "title": "Phyllotaxis",
+  "description": "In this coding challenge, I continue one of my favorite subjects: Algorithmic botany! This video covers the subject of Phyllotaxis, what it is and how it can be used to generate sunflower-like patterns inspired by nature.",
+  "videoNumber": "30",
+  "videoId": "KWoJgHFYWxY",
+  "date": "2016-06-02",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["phyllotaxis", "generative art"],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
 }
