@@ -3,6 +3,10 @@
   border-bottom: var(--border);
 }
 
+.spacer {
+  background-color: white;
+}
+
 .guideBottomSpacer {
   border-left: var(--border);
   height: var(--baseline);

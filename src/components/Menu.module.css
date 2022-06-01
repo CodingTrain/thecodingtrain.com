@@ -112,8 +112,8 @@
     & > .item {
       display: block;
       border-top: none;
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-left: var(--container-spacing-horizontal);
+      margin-right: var(--container-spacing-horizontal);
       border-right: var(--border);
 
       & a,
@@ -121,12 +121,6 @@
         text-align: left;
         border-left: var(--border);
       }
-    }
-  }
-
-  .item:last-child {
-    & a {
-      border-bottom: none;
     }
   }
 
@@ -152,11 +146,18 @@
 
 @media (--small) {
   .menu.expanded {
+    border-bottom: var(--border);
     & > .item {
       padding-left: 55px;
       margin-left: 0;
       margin-right: 0;
       border-right: none;
+    }
+  }
+
+  .item:last-child {
+    & a {
+      border-bottom: none;
     }
   }
 }

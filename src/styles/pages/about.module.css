@@ -65,7 +65,7 @@
 }
 
 .aboutParagraph {
-  font-family: var(--maru-mono);
+  font-family: var(--maru);
   flex-grow: 1;
   padding: 0 var(--box-padding);
   overflow: hidden;
