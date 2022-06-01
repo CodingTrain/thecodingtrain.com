@@ -70,7 +70,7 @@ button.rainbow.red {
   );
   background-size: 20000% 100%;
   background-position: right bottom;
-  transition: all 1s ease-out;
+  transition: background-position 1s ease-out;
 }
 
 a.rainbow.orange,
@@ -86,7 +86,7 @@ button.rainbow.orange {
   );
   background-size: 20000% 100%;
   background-position: right bottom;
-  transition: all 1s ease-out;
+  transition: background-position 1s ease-out;
 }
 
 a.rainbow.purple,
@@ -102,7 +102,7 @@ button.rainbow.purple {
   );
   background-size: 20000% 100%;
   background-position: right bottom;
-  transition: all 1s ease-out;
+  transition: background-position 1s ease-out;
 }
 
 a.rainbow.pink,
@@ -118,7 +118,7 @@ button.rainbow.pink {
   );
   background-size: 20000% 100%;
   background-position: right bottom;
-  transition: all 1s ease-out;
+  transition: background-position 1s ease-out;
 }
 
 a.rainbow.cyan,
@@ -134,7 +134,7 @@ button.rainbow.cyan {
   );
   background-size: 20000% 100%;
   background-position: right bottom;
-  transition: all 1s ease-out;
+  transition: background-position 1s ease-out;
 }
 
 .rainbow.red:hover,
@@ -143,5 +143,5 @@ button.rainbow.cyan {
 .rainbow.pink:hover,
 .rainbow.cyan:hover {
   background-position: left bottom;
-  transition: all 4s ease-out;
+  transition: background-position 4s ease-out;
 }

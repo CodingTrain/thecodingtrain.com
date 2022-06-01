@@ -203,7 +203,14 @@ const Footer = () => {
       </nav>
 
       <div className={css.copyright}>
-        {new Date().getFullYear()} The Coding Train. All rights reserved.
+        <span>
+          2022 The Coding Train. All rights reserved. Built in collaboration
+          with{' '}
+          <a href="https://designsystems.international" {...externalLink}>
+            Design System International
+          </a>
+          .
+        </span>
       </div>
     </footer>
   );

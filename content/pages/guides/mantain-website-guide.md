@@ -1,99 +1,109 @@
 ---
-title: 'Help Maintain the Website Guide'
-description: 'Guide about how you can help us maintain the site'
-date: '03/07/2022'
+title: 'Maintaining the website'
+description: 'Guide on adding content to the site'
+date: '05/11/2022'
 ---
 
-# Ex Core Contribution Guide
+You want to help with integrating new content into the site? Great to hear that! Now let’s see how you can help:
 
-This short guide will help you set up a local copy of the entire Coding Train
-website so you can help us making it even better. All the code for the website is available on [Github](https://github.com/CodingTrain/website).
+A new Coding Train video has been released and you want to add it to the website so everyone else can find it there? OK, just follow these steps:
 
-## Create a Fork
+## Coding Challenges - adding video folder
 
-First of all you should create a fork of this repository. This is especially
-necessary when you want your modification to be merged into the live site at
-a later point. GitHub has an excellent
-[guide](https://guides.github.com/activities/forking/) on how to fork a
-project. Carry on after you have successfully forked the repository and
-cloned your fork locally.
+Make a folder for the video inside `content/videos/challenges`. The folder title should be formatted as `#-name-of-challenge`, replacing '#' with the challenge's number. Add a file named `index.json` to the folder.
 
-## Environment Setup
+Then copy the template into the `index.json`
 
-This website is build on top of Jekyll, which is a static site generator. To
-build the website you need to be able to run Jekyll on your system.
-In order to do so you can choose between using Docker or a native installation.
-
-### Using Docker
-
-To make your life _a lot_ easier you can use Docker to run Jekyll. Everything is already
-configured and ready to go. Just make sure you have Docker and `docker-compose` installed on your system.
-After that, simply run
-
-```
-$ docker-compose up
-```
-
-Linux users may have to use `sudo` to build the site. It is a minor change to the original command, simply run
-
-```
-$ sudo docker-compose up
-```
-
-Docker will then run a container with all dependencies installed.
-Head over to `http://localhost:4000` to see the built site.
-You can leave the container running in the background and it will keep watching
-your changes and rebuilding certain parts if necessary.
-
-### Using Native Jekyll Installation
-
-#### Install Jekyll
-
-In order to install Jekyll, head over to the [Jekyll Docs](https://jekyllrb.com/docs/) and follow the
-instructions there. Once you've installed Jekyll you can try to build the
-site.
-
-#### Install Gems
-
-Jekyll's build on top of Ruby and has some dependencies that need to be
-installed as well in order to work properly. You can think of it similar to
-NPM and Node.JS modules where "Gems" are the dependencies managed by
-"Bundler". You can check out a more detailed explanation on [Jekyll's
-website](https://jekyllrb.com/docs/ruby-101/).
-
-To install the Gems needed by Jekyll, run the following command in your
-terminal from where you've cloned your fork:
-
-```
-$ bundle install
-```
-
-This might take some time since Bundler now goes ahead and fetches all Gems
-listed in a file called `Gemfile` which you can find at the root of the
-project.
-
-#### Build The Site
-
-After you've installed everything, you should be able to build the site. Just
-run this command:
-
-```
-$ bundle exec jekyll build
+```json
+{
+  "title": "Video title",
+  "description": "Video description",
+  "videoNumber": "Video number",
+  "videoId": "YouTube video ID",
+  "date": "YYYY-MM-DD",
+  "languages": ["language1", "language2"],
+  "topics": ["topic1", "topic2"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "url to p5 editor or code",
+        "processing": "url to processing sketch",
+        "other": "url to other source, like GitHub"
+      }
+    },
+    {
+      "title": "Code example 2 title",
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "other": "url to other source, like GitHub"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
+  ]
+}
 ```
 
-Jekyll should now have created a new folder called `_site` with the finished version of the website inside. In order to view it, point a local webserver to that directory. One way you could do this is jump into the `_site` folder and run this command:
+For the `groupLinks` section, links to videos should be put in a `Videos` group. Links to other pages, such as Wikipedia articles, blog posts, and documentation entries should be put in a `References` group.
 
+## Tracks - adding template & video folder
+
+Find the track to which the video belongs. Track folders are found in `content/videos/tracks` If the video's track doesn't exist yet, go ahead and create a folder for the track. The video should be formatted as `name-of-video`.
+
+Follow the steps for adding a coding challenge, adding the `index.json` into the newly created video folder.
+
+## Tracks - Adding video to track
+
+Finally, navigate to `content/tracks/main-tracks` or `content/tracks/side-tracks` (depending on the type of track) and open the `index.json` file of the track the video belongs to.
+
+For new tracks, decide whether the track is a Main Track or a Side Track:
+
+- Main Tracks follow a linear progression, with each new video building on skills learned in the previous video
+  - An example of a Main Track would be "The Nature of Code 2" track
+- Side Tracks are organized around a central theme or idea, and don't necessarily follow a linear progression
+  - An example of a Side Track would be the "2018 Workflow" track
+
+Copy the template into the `index.json` file and fill out the track information. Add the path to the video (e.g. `tracks/name-of-track/name-of-video`) under the "videos" section.
+
+```json
+{
+  "title": "Title of track",
+  "description": "Track description",
+  "videos": [
+    "tracks/title-of-track/title-of-video-1",
+    "tracks/title-of-track/title-of-video-2"
+  ]
+}
 ```
-$ python -m SimpleHTTPServer
-```
 
-Now, fire up a web browser and go to `http://localhost:8000`. You should now have your own local copy of the website.
-
-Keep in mind that after every change you've made, you need to rebuild the site using the build command as shown above. Since this gets annoying very quickly, Jekyll got you covered with another command:
-
-```
 $ bundle exec jekyll serve
-```
+
+````
 
 This command doesn't finish by itself like the others did. Instead, it
 instructs Jekyll to watch all your project files for changes and
@@ -160,7 +170,7 @@ redirect_from: # short urls or if series was moved
   - /p5js # would be an example, meaning https://thecodingtrain.com/p5js goes to this page
 ---
 <!-- A couple sentences of description about series -->
-```
+````
 
 If you've got further questions then don't hesitate to ask.
 

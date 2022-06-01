@@ -750,9 +750,11 @@ exports.createGuideCoverImageNode = (
   createContentDigest,
   node
 ) => {
-  const { name } = node;
+  const { name, relativePath, relativeDirectory } = node;
   if (name === 'placeholder') return;
-  const id = createNodeId(`cover-image/guides/${name}`);
+  const id = createNodeId(
+    `cover-image/guides/${relativeDirectory === '' ? name : relativePath}`
+  );
   createCoverImageNode(createNode, createContentDigest, node, id);
 };
 

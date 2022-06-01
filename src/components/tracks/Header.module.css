@@ -52,6 +52,7 @@
   margin-top: var(--baseline-3of5);
   margin-bottom: var(--baseline-2of5);
   height: var(--baseline-box-4x);
+  overflow-y: auto;
   padding: 0 var(--box-padding);
   background: white;
   font-size: var(--maru-medium);

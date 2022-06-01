@@ -12,6 +12,7 @@
 
 .tag {
   font-family: var(--maru-mono);
+  display: inline-block;
 }
 
 .singleLine {
@@ -29,4 +30,21 @@
   .tags {
     display: none;
   }
+}
+
+.showButton {
+  cursor: pointer;
+  font-size: inherit;
+  color: var(--mid-gray);
+  text-decoration: underline;
+}
+
+/* Variant */
+
+.red .showButton {
+  color: var(--red);
+}
+
+.cyan .showButton {
+  color: var(--cyan);
 }
