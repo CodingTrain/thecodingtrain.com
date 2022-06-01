@@ -10,7 +10,7 @@ This guide is in progress, and will be updated as the contribution process chang
 
 ## Finding the video folder
 
-On the repo homepage, click the button in the upper left-hand corner where it says `main`. Under the list of branches, click `community-contributions`.
+On the repo homepage, click the button in the upper left-hand corner where it says `main`. Type in the name of a branch (you can make this up!), in the example I'm calling it `dan-showcase-submission` and create the branch!
 
 ![Branches dropdown](./passenger-showcase/branches.png)
 
@@ -31,13 +31,13 @@ Copy the template into the new file:
 
 ```js
 {
-  "title": "Contribution Title",
+  "title": "Project Title",
   "author": {
-    "name": "Contributor Name",
-    "url": "Link to contributor's personal site, GitHub, social media, etc"
+    "name": "Your Name (or nickname!)",
+    "url": "Link to more about you! (your personal site, GitHub, social media, etc.)"
   },
-  "url": "Link to contribution",
-  "source": "Link to contribution's source code"
+  "url": "Link to your project",
+  "source": "Link to your source code (if different than project link)"
 }
 ```
 
