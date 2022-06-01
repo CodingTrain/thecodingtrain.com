@@ -1,6 +1,6 @@
 ---
 title: 'Passenger Showcase Guide'
-description: 'Guide on adding community contributions to videos'
+description: 'Guide to sharing your work with the community!'
 date: '05/04/2022'
 ---
 
