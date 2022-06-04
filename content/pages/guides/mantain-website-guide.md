@@ -391,6 +391,36 @@ You can add as many custom sections with as many links as you want. Just a side 
 
 ---
 
+A new Coding Train event has been announced and you want to add it to the website so everyone else can find it there? OK, just follow these steps:
+
+## Adding a New Event
+---
+If you'd like to an event to the Coding Train homepage you will need to edit the `content/pages/homepage/index.json` file. By adding a new event object to the `events` object's array of `"upcoming"` events. Note, if there are currently no upcoming events then `"upcoming"` will be an empty array like `"upcoming": []`.
+
+```json
+  "upcoming": [{
+        "title": "Neuroevolution - the Nature of Code",
+        "description": "Watch as Dan steps through each of these fun challenges, then put your new knowledge to work and create your own projects.",
+        "date": "2022-07-16",
+        "time": "20:00",
+        "host": "dan Shiffman",
+        "type": "Livestream",
+        "url": "https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+  }]
+```
+
+Now let's take a closer look at each property:
+
+| Property         | Description                                                | Example            |
+| ---------------- | ---------------------------------------------------------- | ------------------ |
+| `title`          |Official event title             | `"Neuroevolution - the Nature of Code"` |
+| `date`           | The scheduled date for the event  | `2022-07-16`       |
+| `time`       | The schedule time for the event    | `"20:00"`      |
+| `host`     | Path to the corresponding code files inside the repository | "dan Shiffman",  |
+| `type`   | Is the event in person? online?    | `irl/livestream...`  |
+| `url`     | Website where can attendees register or attend event.      | `https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw`        |
+
+
 ## Appendix A: Links within markdown files to other markdown files
 
 If you want to link to another page from within a markdown file, you have to use the following snippet:
