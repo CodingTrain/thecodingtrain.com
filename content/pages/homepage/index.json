@@ -51,17 +51,17 @@
   },
   "events": {
     "title": "Events",
-    "comingEventsDescription": "Join us for our livestream events!",
-    "noEventsDescription": "Keep up eye out for events in the future!",
+    "comingEventsDescription": "Next Coding Train event!",
+    "noEventsDescription": "Keep your eye out for events in the future!",
     "upcoming": [
       {
-        "title": "Neuroevolution - the Nature of Code",
-        "description": "Watch as Dan steps through each of these fun challenges, then put your new knowledge to work and create your own projects.",
-        "date": "2022-07-16",
-        "time": "20:00",
-        "host": "dan Shiffman",
-        "type": "Livestream",
-        "url": "https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+        "title": "PCD Copenhagen",
+        "description": "Processing Community Day Copenhagen is a free, one-day event to celebrate the intersection of art and code.",
+        "date": "2022-06-14",
+        "time": "16:00 GMT+2",
+        "host": "PCD Copenhagen",
+        "type": "IRL",
+        "url": "https://pcdcph.com/"
       }
     ]
   },
