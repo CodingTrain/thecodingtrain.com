@@ -100,10 +100,11 @@ Copy the template into the `index.json` file and fill out the track information.
   ]
 }
 ```
+<br/>
 
+```
 $ bundle exec jekyll serve
-
-````
+```
 
 This command doesn't finish by itself like the others did. Instead, it
 instructs Jekyll to watch all your project files for changes and
@@ -248,7 +249,7 @@ npm run lint
 
 If you've made it to here then you should be all set to make a pull request. Thanks for all your help with the Coding Train website!
 
-# Ex content contribution guide
+## Ex content contribution guide
 
 You want to help with integrating new content into the repository? Great to hear that! Now let's see how you can help:
 
