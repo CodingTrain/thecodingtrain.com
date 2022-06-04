@@ -1,7 +1,7 @@
 {
   "title": "The Monty Hall Problem",
   "description": "It's the Monty Hall Problem! In JavaScript! With p5.js! Yes, you really double your chances of winning by switching doors. I hope to convince you of this in this video!",
-  "videoNumber": "Video number",
+  "videoNumber": "170",
   "videoId": "0zac-cDzJwA",
   "date": "2022-05-11",
   "languages": ["p5.js", "JavaScript"],
