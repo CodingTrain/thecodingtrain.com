@@ -2,10 +2,9 @@
   "title": "1.1 What is a Vector? ",
   "description": "Welcome to Nature of Code Chapter 1: Vectors! What is a vector? How do they work in p5.js? These questions will all be answered in this first section of this series on p5.Vector.",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["For beginners"],
+  "topics": ["Beginner Friendly"],
   "videoId": "bKEaK7WNLzM",
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "What is a Vector",
