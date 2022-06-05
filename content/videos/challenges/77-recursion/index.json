@@ -1,42 +1,62 @@
 {
-  "title": "Recursion",
-  "description": "In this coding challenge, I explore the concept of recursion to create fractal patterns in JavaScript HTML5 canvas with the p5.js library.",
-  "videoNumber": "77",
-  "videoId": "jPsZwrV9ld0",
-  "date": "2017-05-10",
-  "languages": ["JavaScript", "p5.js"],
-  "topics": ["For beginners"],
-  "codeExamples": [
-    {
-      "title": "Recursion Coding Challenge p5 sketch",
-      "description": "",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/pseBrWaMm",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_077_Recursion/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_077_Recursion"
-      }
-    }
-  ],
-  "groupLinks": [
-    {
-      "title": "References",
-      "links": [
+    "title": "Recursion",
+    "description": "In this coding challenge, I explore the concept of recursion to create fractal patterns in JavaScript HTML5 canvas with the p5.js library.",
+    "videoNumber": "77",
+    "videoId": "jPsZwrV9ld0",
+    "date": "2017-10-05",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
         {
-          "title": "The Fractal Geometry of Nature",
-          "description": "by Benoit Mandlebrot",
-          "url": "http://amzn.to/2xiVwht"
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/pseBrWaMm"
+            }
         },
-
         {
-          "title": "My playlist on fractals & recursion",
-          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_077_Recursion/P5"
+            }
         },
-
         {
-          "title": "My Vido on Fractal Trees - Recursive",
-          "url": "https://youtu.be/0jjeOYMjmDU"
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_077_Recursion/Processing"
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "The Fractal Geometry of Nature",
+                    "url": "http://amzn.to/2xiVwht",
+                    "description": ""
+                },
+                {
+                    "title": "My playlist on fractals and recursion",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Fractal Trees - Recursive",
+                    "url": "/challenge/014-fractaltree",
+                    "description": ""
+                }
+            ]
+        }
+    ]
 }

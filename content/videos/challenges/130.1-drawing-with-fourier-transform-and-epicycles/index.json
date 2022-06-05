@@ -38,12 +38,12 @@
             "links": [
                 {
                     "title": "Fourier Transform User Drawing",
-                    "url": "/CodingChallenges/130.2-fourier-transform-drawing",
+                    "url": "/challenge/130.2-fourier-transform-drawing",
                     "description": ""
                 },
                 {
                     "title": "Fourier Transform Drawing with Complex Number Input",
-                    "url": "/CodingChallenges/130.3-fourier-transform-drawing",
+                    "url": "/challenge/130.3-fourier-transform-drawing",
                     "description": ""
                 }
             ]
@@ -78,7 +78,7 @@
             "links": [
                 {
                     "title": "Coding Challenge #125: Fourier Series",
-                    "url": "/CodingChallenges/125-fourier-series",
+                    "url": "/challenge/125-fourier-series",
                     "description": ""
                 },
                 {

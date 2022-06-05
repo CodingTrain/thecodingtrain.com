@@ -31,17 +31,17 @@
             "links": [
                 {
                     "title": "Plinko with Matter.js Part 1",
-                    "url": "/CodingChallenges/062.1-plinko",
+                    "url": "/challenge/062.1-plinko",
                     "description": ""
                 },
                 {
                     "title": "Plinko with Matter.js Part 2",
-                    "url": "/CodingChallenges/062.2-plinko",
+                    "url": "/challenge/062.2-plinko",
                     "description": ""
                 },
                 {
                     "title": "Plinko with Matter.js Part 3",
-                    "url": "/CodingChallenges/062.3-plinko",
+                    "url": "/challenge/062.3-plinko",
                     "description": ""
                 }
             ]

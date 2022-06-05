@@ -38,17 +38,17 @@
             "links": [
                 {
                     "title": "Maze Generator with p5.js - Part 1",
-                    "url": "/CodingChallenges/010.1-maze-dfs-p5",
+                    "url": "/challenge/010.1-maze-dfs-p5",
                     "description": ""
                 },
                 {
                     "title": "Maze Generator with p5.js - Part 2",
-                    "url": "/CodingChallenges/010.2-maze-dfs-p5",
+                    "url": "/challenge/010.2-maze-dfs-p5",
                     "description": ""
                 },
                 {
                     "title": "Maze Generator with p5.js - Part 4",
-                    "url": "/CodingChallenges/010.4-maze-dfs-p5",
+                    "url": "/challenge/010.4-maze-dfs-p5",
                     "description": ""
                 }
             ]

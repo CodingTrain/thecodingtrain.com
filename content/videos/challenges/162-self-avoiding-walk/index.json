@@ -51,12 +51,12 @@
             "links": [
                 {
                     "title": "Random Walker - Coding Challenge 52",
-                    "url": "/CodingChallenges/052-random-walk",
+                    "url": "/challenge/052-random-walk",
                     "description": ""
                 },
                 {
                     "title": "Minesweeper - Coding Challenge 71",
-                    "url": "/CodingChallenges/071-minesweeper",
+                    "url": "/challenge/071-minesweeper",
                     "description": ""
                 },
                 {
@@ -66,17 +66,17 @@
                 },
                 {
                     "title": "Maze Generator - Coding Challenge 10",
-                    "url": "/CodingChallenges/010.1-maze-dfs-p5",
+                    "url": "/challenge/010.1-maze-dfs-p5",
                     "description": ""
                 },
                 {
                     "title": "Recursion - Coding Train 77",
-                    "url": "/CodingChallenges/077-recursion",
+                    "url": "/challenge/077-recursion",
                     "description": ""
                 },
                 {
                     "title": "A* Pathfinding Algorithm - Coding Challenge 51",
-                    "url": "/CodingChallenges/051.1-astar",
+                    "url": "/challenge/051.1-astar",
                     "description": ""
                 },
                 {

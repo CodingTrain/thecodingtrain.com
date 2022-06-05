@@ -38,12 +38,12 @@
             "links": [
                 {
                     "title": "Quadtree - Part 1",
-                    "url": "/CodingChallenges/098.1-quadtree",
+                    "url": "/challenge/098.1-quadtree",
                     "description": ""
                 },
                 {
                     "title": "Quadtree - Part 3",
-                    "url": "/CodingChallenges/098.3-quadtree",
+                    "url": "/challenge/098.3-quadtree",
                     "description": ""
                 }
             ]
@@ -73,7 +73,7 @@
                 },
                 {
                     "title": "Frogger Coding Challenge",
-                    "url": "/CodingChallenges/072.1-frogger",
+                    "url": "/challenge/072.1-frogger",
                     "description": ""
                 }
             ]

@@ -38,12 +38,12 @@
             "links": [
                 {
                     "title": "Word Counter in Processing",
-                    "url": "/CodingChallenges/040.2-wordcounts",
+                    "url": "/challenge/040.2-wordcounts",
                     "description": ""
                 },
                 {
                     "title": "TF-IDF",
-                    "url": "/CodingChallenges/040.3-tf-idf",
+                    "url": "/challenge/040.3-tf-idf",
                     "description": ""
                 }
             ]

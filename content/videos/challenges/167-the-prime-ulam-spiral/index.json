@@ -1,0 +1,80 @@
+{
+    "title": "The Prime (Ulam) Spiral",
+    "description": "Why do prime numbers show up as diagonals in a spiral? In this video, I create a visualization in JavaScript (p5.js) of the Ulam Spiral (aka Prime Spiral) named for Polish Mathematician Stanislav Ulan.",
+    "videoNumber": "167",
+    "videoId": "a35KWEjRvc0",
+    "date": "2022-02-20",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_167_Prime_Spiral/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_167_Prime_Spiral/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "CodingTrainChooChoo on Twitch",
+                    "url": "https://www.twitch.tv/codingtrainchoochoo",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Train Twitch Archive",
+                    "url": "https://www.youtube.com/channel/UCcNasmuTD4kb_HC1Z5lcuxg",
+                    "description": ""
+                },
+                {
+                    "title": "Mathematical Games: The remarkable lore of the prime numbers (1964)",
+                    "url": "https://www.scientificamerican.com/article/mathematical-games-1964-03/",
+                    "description": ""
+                },
+                {
+                    "title": "An Observation on the Distribution of Primes, M. Stein and S. M. Ulam",
+                    "url": "https://doi.org/10.2307/2314055",
+                    "description": ""
+                },
+                {
+                    "title": "Prime Numbers (Wikipedia)",
+                    "url": "https://en.wikipedia.org/wiki/Prime_number",
+                    "description": ""
+                },
+                {
+                    "title": "List of Prime Numbers",
+                    "url": "https://en.wikipedia.org/wiki/List_of_prime_numbers",
+                    "description": ""
+                },
+                {
+                    "title": "Download Processing 4",
+                    "url": "https://processing.org/download",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Prime Spirals",
+                    "url": "https://youtu.be/iFuR97YcSLM",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

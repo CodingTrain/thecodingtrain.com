@@ -44,12 +44,12 @@
             "links": [
                 {
                     "title": "Mandelbrot Set with p5.js",
-                    "url": "/CodingChallenges/021-mandelbrot-p5",
+                    "url": "/challenge/021-mandelbrot-p5",
                     "description": ""
                 },
                 {
                     "title": "Calculating Digits of Pi with Collisions",
-                    "url": "/CodingChallenges/139-pi-collisions",
+                    "url": "/challenge/139-pi-collisions",
                     "description": ""
                 },
                 {

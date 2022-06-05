@@ -38,12 +38,12 @@
             "links": [
                 {
                     "title": "Drawing with Fourier Transform and Epicycles",
-                    "url": "/CodingChallenges/130.1-fourier-transform-drawing",
+                    "url": "/challenge/130.1-fourier-transform-drawing",
                     "description": ""
                 },
                 {
                     "title": "Fourier Transform User Drawing",
-                    "url": "/CodingChallenges/130.2-fourier-transform-drawing",
+                    "url": "/challenge/130.2-fourier-transform-drawing",
                     "description": ""
                 }
             ]

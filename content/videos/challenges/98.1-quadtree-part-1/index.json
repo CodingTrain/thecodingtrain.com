@@ -38,12 +38,12 @@
             "links": [
                 {
                     "title": "Quadtree - Part 2",
-                    "url": "/CodingChallenges/098.2-quadtree",
+                    "url": "/challenge/098.2-quadtree",
                     "description": ""
                 },
                 {
                     "title": "Quadtree - Part 3",
-                    "url": "/CodingChallenges/098.3-quadtree",
+                    "url": "/challenge/098.3-quadtree",
                     "description": ""
                 }
             ]
@@ -73,7 +73,7 @@
                 },
                 {
                     "title": "Binary Tree Coding Challenge",
-                    "url": "/CodingChallenges/065.1-binary-tree",
+                    "url": "/challenge/065.1-binary-tree",
                     "description": ""
                 }
             ]

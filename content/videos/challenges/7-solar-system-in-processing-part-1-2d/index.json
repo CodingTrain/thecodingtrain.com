@@ -38,12 +38,12 @@
             "links": [
                 {
                     "title": "Solar System in Processing - Part 2 (3D)",
-                    "url": "/CodingChallenges/008-solarsystemgenerator3d",
+                    "url": "/challenge/008-solarsystemgenerator3d",
                     "description": ""
                 },
                 {
                     "title": "Solar System in Processing - Part 3 (3D textures)",
-                    "url": "/CodingChallenges/009-solarsystemgenerator3d-texture",
+                    "url": "/challenge/009-solarsystemgenerator3d-texture",
                     "description": ""
                 }
             ]

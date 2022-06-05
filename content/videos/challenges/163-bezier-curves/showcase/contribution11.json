@@ -1,9 +1,9 @@
 {
-  "title": "Bezier Curve by Mavyfaby",
-  "author": {
-    "name": "Maverick G. Fabroa",
-    "url": "https://mavyfaby.ml"
-  },
-  "url": "https://mavyfaby.ml/projects/bezier-curve",
-  "source": "https://github.com/mavyfaby/bezier-curve"
+    "title": "Bezier Curve by Mavyfaby",
+    "url": "https://mavyfaby.ml/projects/bezier-curve",
+    "author": {
+        "name": "Maverick G. Fabroa",
+        "url": "https://mavyfaby.ml"
+    },
+    "source": "https://github.com/mavyfaby/bezier-curve"
 }

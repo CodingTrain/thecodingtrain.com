@@ -38,12 +38,12 @@
             "links": [
                 {
                     "title": "A* Pathfinding Algorithm - Part 1",
-                    "url": "/CodingChallenges/051.1-astar",
+                    "url": "/challenge/051.1-astar",
                     "description": ""
                 },
                 {
                     "title": "A* Pathfinding Algorithm - Part 2",
-                    "url": "/CodingChallenges/051.2-astar",
+                    "url": "/challenge/051.2-astar",
                     "description": ""
                 }
             ]
@@ -68,7 +68,7 @@
             "links": [
                 {
                     "title": "My Maze Generation coding challenge",
-                    "url": "/CodingChallenges/010.1-maze-dfs-p5",
+                    "url": "/challenge/010.1-maze-dfs-p5",
                     "description": ""
                 }
             ]

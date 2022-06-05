@@ -1,0 +1,47 @@
+{
+    "title": "Fractal Trees - L-System",
+    "description": "In this third installment of my series on algorithmic botany, I discuss L-systems and how they can be used to generate tree and other fractal patterns in p5.js.",
+    "videoNumber": "16",
+    "videoId": "E1B4UoSQMFw",
+    "date": "2016-05-31",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_016_LSystem/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_016_LSystem/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Algorithmic Botany",
+                    "url": "http://algorithmicbotany.org/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

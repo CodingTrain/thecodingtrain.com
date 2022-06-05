@@ -24,12 +24,12 @@
             "links": [
                 {
                     "title": "Rubik's Cube Part 1",
-                    "url": "/CodingChallenges/142.1-rubiks-cube",
+                    "url": "/challenge/142.1-rubiks-cube",
                     "description": ""
                 },
                 {
                     "title": "Rubik's Cube Part 3",
-                    "url": "/CodingChallenges/142.3-rubiks-cube",
+                    "url": "/challenge/142.3-rubiks-cube",
                     "description": ""
                 }
             ]
@@ -59,7 +59,7 @@
                 },
                 {
                     "title": "3D Rendering with Rotation and Projection",
-                    "url": "/CodingChallenges/112-3d-rendering",
+                    "url": "/challenge/112-3d-rendering",
                     "description": ""
                 },
                 {
