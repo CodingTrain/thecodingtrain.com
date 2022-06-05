@@ -1,0 +1,68 @@
+{
+  "title": "Slit-scan Time Displacement Effect",
+  "description": "In this video I explore the wonders of the copy() function in the creative coding platform Processing, simulating slit-scan photography and bending time itself! This video is thanks to Tim Rodenbröker’s generous donation to The Processing Foundation!",
+  "videoNumber": "164",
+  "videoId": "hckvHFDGiJk",
+  "date": "2021-11-21",
+  "languages": ["Processing"],
+  "topics": ["copy function", "video", "images", "slit-scan"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Context of this video" },
+    { "time": "0:55", "title": "How to use the copy function?" },
+    { "time": "2:05", "title": "Stretching an image" },
+    { "time": "3:02", "title": "Loading the Choo Choo Bot image" },
+    { "time": "3:36", "title": "Specifying the source image to copy" },
+    { "time": "4:04", "title": "Slicing and shuffling the image" },
+    { "time": "5:18", "title": "Exploring algorithmic visual possibilities" },
+    { "time": "9:52", "title": "Other possibilities you can explore!" },
+    { "time": "10:30", "title": "Using a live video capture instead of an image" },
+    { "time": "12:33", "title": "Past attempts and historical examples of the slit-scan effect" },
+    { "time": "13:17", "title": "Recreating the slit-scan effect!" },
+    { "time": "16:11", "title": "Storing the slice as a PImage" },
+    { "time": "19:21", "title": "How to keep track of the history of slices" },
+    { "time": "21:15", "title": "Creating an array of slices" },
+    { "time": "22:29", "title": "Why did we do all this extra work to get the same result?" },
+    { "time": "23:53", "title": "Using an offset in the history" },
+    { "time": "24:30", "title": "Not exactly the original slit-scan effect" },
+    { "time": "26:29", "title": "Moving through time in the history of images" },
+    { "time": "27:35", "title": "Wrapping up this coding challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "url to p5 editor or code",
+        "processing": "url to processing sketch",
+        "other": "url to other source, like GitHub"
+      }
+    },
+    {
+      "title": "Code example 2 title",
+      "description": "Code example 2 description",
+      "image": "image2.png",
+      "urls": {
+        "other": "url to other source, like GitHub"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Group of links title",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
+  ]
+}
