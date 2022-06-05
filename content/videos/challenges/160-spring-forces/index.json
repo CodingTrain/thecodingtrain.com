@@ -1,0 +1,176 @@
+{
+   "title": "Spring Forces",
+   "description": "Boing! Time to simulate a spring force! This challenge fits into chapters 2 and 3 of the Nature of Code and demonstrates how to simulate the oscillating motion of a spring using vectors and forces.",
+   "videoNumber": "160",
+   "videoID": "Rr-5HiXquhw",
+   "date": "2021-02-22",
+   "languages": ["JavaScript", "p5.js", "Processing"],
+   "topics": ["springs", "pendulum", "particle system", "cloth simulation"],
+   "relatedChallenges": ["pendulum"],
+   "canContribute": true,
+   "timestamps": [{
+         "time": "0.00",
+         "title": "Choo choo!! Springs Coding Challenge!"
+      },
+      {
+         "time": "0:40",
+         "title": "Explain! What is Hooke's Law?"
+      },
+      {
+         "time": "2:51",
+         "title": "Code! Let's make a 1 dimensional spring!"
+      },
+      {
+         "time": "5:13",
+         "title": "Explain! How can we bring in vectors?"
+      },
+      {
+         "time": "7:17",
+         "title": "Code! Let's adjust the code to use vectors."
+      },
+      {
+         "time": "11:57",
+         "title": "Code! Let's add gravity!"
+      },
+      {
+         "time": "13:03",
+         "title": "Code! How can we control the spring with our mouse?"
+      },
+      {
+         "time": "13:53",
+         "title": "Explain! But wait!! Particles!"
+      },
+      {
+         "time": "15:14",
+         "title": "Copy & Paste! A particle class."
+      },
+      {
+         "time": "16:41",
+         "title": "Code! Let's make bob and anchor particles."
+      },
+      {
+         "time": "18:01",
+         "title": "Code! We need a spring class."
+      },
+      {
+         "time": "23:16",
+         "title": "It works!"
+      },
+      {
+         "time": "24:16",
+         "title": "Code! But wait!! Particle system!"
+      },
+      {
+         "time": "25:28",
+         "title": "Code! Let's connect the particles with springs."
+      },
+      {
+         "time": "27:12",
+         "title": "Code! We can refine it a bit."
+      },
+      {
+         "time": "29:29",
+         "title": "Code! Playing with beginShape() and endShape()."
+      },
+      {
+         "time": "31:07",
+         "title": "Ideas! If you make a swishy robot share it with me!"
+      }
+   ],
+   "codeExamples": [{
+         "title": "Simple Spring",
+         "description": "Code example 1 description",
+         "image": "image1.png",
+         "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/dcd6-2mWa"
+         }
+      },
+      {
+         "title": "Simple Spring (Port)",
+         "description": "Code example 2 description",
+         "image": "image2.png",
+         "urls": {
+            "processing": ""
+         }
+      },
+      {
+         "title": "Spring Vector",
+         "description": "Code example 3 description",
+         "image": "image1.png",
+         "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/_A2pm_SSg"
+         }
+      },
+      {
+         "title": "Spring Vector (Port)",
+         "description": "Code example 4 description",
+         "image": "image2.png",
+         "urls": {
+            "processing": ""
+         }
+      },
+      {
+         "title": "Spring OOP",
+         "description": "Code example 5 description",
+         "image": "image1.png",
+         "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/9BAoEn4Po"
+         }
+      },
+      {
+         "title": "Spring OOP (Port)",
+         "description": "Code example 6 description",
+         "image": "image2.png",
+         "urls": {
+            "processing": ""
+         }
+      },
+      {
+         "title": "Soft Spring",
+         "description": "Code example 7 description",
+         "image": "image1.png",
+         "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/S5dY7qjxP"
+         }
+      },
+      {
+         "title": "Soft Spring (Port)",
+         "description": "Code example 8 description",
+         "image": "image2.png",
+         "urls": {
+            "processing": ""
+         }
+      }
+   ],
+   "groupLinks": [{
+         "title": "References",
+         "links": [{
+               "title": "Nature of Code 3.10 Spring Forces",
+               "url": "https://natureofcode.com/book/chapter-3-oscillation/index.html#310-spring-forces",
+            },
+            {
+               "title": "Nature of Code Playlist",
+               "url": "/learning/nature-of-code/index"
+            },
+            {
+               "title": "toxiclibs.js",
+               "url": "http://www.haptic-data.com/toxiclibsjs/"
+            },
+            {
+               "title": "curveVertex() (p5.js Reference)",
+               "url": "https://p5js.org/reference/#/p5/curveVertex"
+            }
+         ]
+      },
+      {
+         "title": "Texturing Cloth Simulation - Coding Challenge #63",
+         "url": "https://thecodingtrain.com/CodingChallenges/063.1-unikitty-flag",
+         "description": "Coding Train video on cloth simulation"
+      },
+      {
+         "title": "Simple Particle System - Coding Challenge #78",
+         "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
+         "description": "Coding Train video on a simple particle system"
+      }
+   ]
+}
