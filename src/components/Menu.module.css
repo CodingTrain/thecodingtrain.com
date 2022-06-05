@@ -30,7 +30,7 @@
 
   & a,
   & span {
-    color: var(--gray-mid);
+    color: var(--gray-dark);
     border-left: var(--border);
     border-bottom: var(--border);
     display: block;

@@ -60,7 +60,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    color: var(--gray-mid);
+    color: var(--gray-dark);
   }
 }
 
@@ -91,7 +91,7 @@
   padding: 0 calc(var(--box-padding) / 2);
   border-bottom: var(--border);
   border-color: var(--cyan);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   font-weight: normal;
   font-size: var(--maru-normal);
   text-overflow: ellipsis;

@@ -27,7 +27,7 @@
   border-bottom: var(--border-red);
   background: white;
   font-family: var(--maru-mono);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 .description {

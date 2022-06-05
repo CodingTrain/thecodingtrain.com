@@ -35,7 +35,7 @@
 .showButton {
   cursor: pointer;
   font-size: inherit;
-  color: var(--mid-gray);
+  color: var(--gray-mid);
   text-decoration: underline;
 }
 

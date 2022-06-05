@@ -59,7 +59,7 @@
   overflow-y: auto;
 
   & p {
-    color: var(--gray-mid);
+    color: var(--gray-dark);
   }
 }
 

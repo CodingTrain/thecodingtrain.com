@@ -5,7 +5,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   font-family: var(--maru-mono);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 .summary {

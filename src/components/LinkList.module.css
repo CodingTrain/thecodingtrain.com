@@ -9,7 +9,7 @@
   border-top: var(--border);
   border-bottom: var(--border);
   border-left: var(--border);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 .icon,
@@ -36,7 +36,7 @@
   text-decoration: underline;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   font-size: var(--maru-large);
 }
 

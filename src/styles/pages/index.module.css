@@ -242,7 +242,7 @@
 .showcase .left .details p {
   margin: 0;
   padding: 0 var(--box-padding);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 .showcase .right .picture {
@@ -280,7 +280,7 @@
 
 .event {
   display: flex;
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   & p {
     margin: 0;
   }

@@ -7,7 +7,7 @@
   margin-top: -1px;
   border-left: var(--border);
   padding: 0 var(--box-padding);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   min-height: var(--baseline);
   display: flex;
   align-items: center;

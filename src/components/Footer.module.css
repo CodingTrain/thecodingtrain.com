@@ -1,12 +1,12 @@
 .root {
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   background-color: var(--gray-light);
   flex-wrap: wrap;
 
   & a {
     padding-left: 0;
     text-decoration: none;
-    color: var(--gray-mid);
+    color: var(--gray-dark);
   }
 }
 

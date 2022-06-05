@@ -29,7 +29,7 @@
   cursor: pointer;
   font-family: var(--maru-mono);
   text-transform: none;
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 .tab:hover,
