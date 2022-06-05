@@ -1,0 +1,62 @@
+{
+    "title": "Animated Sprites",
+    "description": "In this coding challenge, I load a sprite sheet and create multiple animated sprites with the p5.js library.",
+    "videoNumber": "111",
+    "videoId": "3noMeuufLZY",
+    "date": "2018-07-30",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/vhnFx1mml"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_111_animated_sprite/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_111_animated_sprite/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Horse Sprite Sheet",
+                    "url": "https://opengameart.org/content/2d-platformer-art-assets-from-horse-of-spring",
+                    "description": ""
+                },
+                {
+                    "title": "Sprite (computer graphics)",
+                    "url": "https://en.wikipedia.org/wiki/Sprite_(computer_graphics)",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Guest Tutorial #6: The Modulo Operator with Golan Levin",
+                    "url": "/GuestTutorials/006-golan-levin-modulo-operator",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

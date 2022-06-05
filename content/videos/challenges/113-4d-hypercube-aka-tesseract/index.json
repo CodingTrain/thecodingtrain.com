@@ -1,0 +1,82 @@
+{
+    "title": "4D Hypercube (aka 'Tesseract')",
+    "description": "In this coding challenge, I visualize a 4D Hypercube (aka \u201cTesseract\u201d) in Processing (Java).",
+    "videoNumber": "113",
+    "videoId": "XE3YDVdQSPo",
+    "date": "2018-08-22",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/n0y8ntgWi"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_113_Hypercube/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_113_Hypercube/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Matrix Multiplication",
+                    "url": "http://matrixmultiplication.xyz",
+                    "description": ""
+                },
+                {
+                    "title": "Rotation Matrix on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+                    "description": ""
+                },
+                {
+                    "title": "3D Projection on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/3D_projection",
+                    "description": ""
+                },
+                {
+                    "title": "Tesseract on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Tesseract",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Understanding 4D -- The Tesseract",
+                    "url": "https://youtu.be/iGO12Z5Lw8s",
+                    "description": ""
+                },
+                {
+                    "title": "Matrix Math",
+                    "url": "https://youtu.be//more/archive/nature-of-code/10-Neural-Networks/10.6-Neural-Networks-Matrix-Math-Part-1",
+                    "description": ""
+                },
+                {
+                    "title": "Matrix Multiplication for 3D Rendering",
+                    "url": "https://youtu.be/tzsgS19RRc8",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

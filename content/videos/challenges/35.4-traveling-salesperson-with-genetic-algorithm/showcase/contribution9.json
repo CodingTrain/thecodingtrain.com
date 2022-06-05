@@ -1,0 +1,9 @@
+{
+    "title": "Genetic Algorithm for Traveling Salesman Problem written in Rust",
+    "url": "https://medium.com/@mithi/genetic-algorithms-in-rust-for-autonomous-agents-an-introduction-ac182de32aee",
+    "author": {
+        "name": "Mithi Sevilla",
+        "url": "https://medium.com/@mithi"
+    },
+    "source": "https://github.com/mithi/rusty-genes"
+}

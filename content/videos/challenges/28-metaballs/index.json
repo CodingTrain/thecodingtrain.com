@@ -1,0 +1,47 @@
+{
+    "title": "Metaballs",
+    "description": "In this coding challenge, I show you how to code from scratch Metaballs(Isosurfaces) in Processing and how to control them using the Blob Detection method from my previous computer vision video.",
+    "videoNumber": "28",
+    "videoId": "ccYLb7cLB1I",
+    "date": "2016-07-15",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ISPozOLXW"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_028_MetaBalls/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_028_MetaBalls/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Exploring Meta-balls and Isosurfaces in 2D",
+                    "url": "https://www.gamedev.net/articles/programming/graphics/exploring-metaballs-and-isosurfaces-in-2d-r2556",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

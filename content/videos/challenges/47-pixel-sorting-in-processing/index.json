@@ -1,0 +1,47 @@
+{
+    "title": "Pixel Sorting in Processing",
+    "description": "In this coding challenge, I implement \u201cPixel Sorting\u201d in Processing (Java). Using a \u201cselection sort\u201d algorithm, I sort the pixels of an image by brightness and hue.",
+    "videoNumber": "47",
+    "videoId": "JUDYkxU6J0o",
+    "date": "2016-12-21",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/zxruKuft9"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_047_PixelSorting/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_047_PixelSorting/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Sorting Algorithms Visualized",
+                    "url": "https://bost.ocks.org/mike/algorithms/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

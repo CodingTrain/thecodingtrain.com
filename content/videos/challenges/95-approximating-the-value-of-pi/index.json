@@ -1,0 +1,67 @@
+{
+    "title": "Approximating the Value of Pi",
+    "description": "In this coding challenge, I use use a \u201cmonte carlo\u201d method to approximate the value of Pi in Processing (Java).",
+    "videoNumber": "95",
+    "videoId": "5cNnf_7e92Q",
+    "date": "2018-03-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/bv_LWXvU5"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_095_Approximating_Pi/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_095_Approximating_Pi/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Million Pi Digits",
+                    "url": "http://www.piday.org/million/",
+                    "description": ""
+                },
+                {
+                    "title": "Pi Day Code",
+                    "url": "https://github.com/CodingTrain/PiDay",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "STEMcoding celebrates Pi day!",
+                    "url": "https://youtu.be/D0-poyEALC0",
+                    "description": ""
+                },
+                {
+                    "title": "Learning Processing",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

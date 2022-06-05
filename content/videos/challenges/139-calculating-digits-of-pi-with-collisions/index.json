@@ -1,0 +1,80 @@
+{
+    "title": "Calculating Digits of Pi with Collisions",
+    "description": "Happy Pi Day! In this video, I attempt to compute the digits of Pi using the \u201ccollisions\u201d method, thanks to 3Blue1Brown for the idea!",
+    "videoNumber": "139",
+    "videoId": "PoW8g67XNxA",
+    "date": "2019-03-14",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/4FuKfd-LJ"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_139_Pi_Collisions/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Playing Pool with Pi",
+                    "url": "https://www.maths.tcd.ie/~lebed/Galperin.%20Playing%20pool%20with%20pi.pdf",
+                    "description": ""
+                },
+                {
+                    "title": "Elastic collisions",
+                    "url": "https://en.wikipedia.org/wiki/Elastic_collision",
+                    "description": ""
+                },
+                {
+                    "title": "Euler Method",
+                    "url": "https://en.wikipedia.org/wiki/Euler_method",
+                    "description": ""
+                },
+                {
+                    "title": "Additional Code Examples",
+                    "url": "https://github.com/CodingTrain/Pi-Day-2019",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "The most unexpected answer to a counting puzzle by 3Blue1Brown",
+                    "url": "https://youtu.be/HEfHFsfGXjs",
+                    "description": ""
+                },
+                {
+                    "title": "How colliding blocks act like a beam of light...to compute pi by 3Blue1Brown",
+                    "url": "https://youtu.be/brU5yLm9DZM",
+                    "description": ""
+                },
+                {
+                    "title": "Pi and Bouncing Balls by Numberphile",
+                    "url": "https://youtu.be/abv4Fz7oNr0",
+                    "description": ""
+                },
+                {
+                    "title": "Patron/Member Live Stream",
+                    "url": "https://youtu.be/yii2P7WVfNE",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

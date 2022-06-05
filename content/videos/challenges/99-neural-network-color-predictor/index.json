@@ -1,0 +1,85 @@
+{
+    "title": "Neural Network Color Predictor",
+    "description": "In coding challenge, I use my neural network JavaScript library to create a \u201ccolor predictor.\u201d",
+    "videoNumber": "99",
+    "videoId": "KtPpoMThKUs",
+    "date": "2018-04-10",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Kcspm0WPN"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_099_ColorPredictor/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "TensorFlow.js",
+                    "url": "https://js.tensorflow.org/",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js",
+                    "url": "https://github.com/ml5js",
+                    "description": ""
+                },
+                {
+                    "title": "JS Neural Network",
+                    "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Color Predictor Machine Learning Demo!",
+                    "url": "https://youtu.be/KO7W0Qq8yUE",
+                    "description": ""
+                },
+                {
+                    "title": "Jabril on Youtube",
+                    "url": "https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg",
+                    "description": ""
+                },
+                {
+                    "title": "Jabril on The Coding Train",
+                    "url": "/GuestTutorials/009-jabril-color-predictor",
+                    "description": ""
+                },
+                {
+                    "title": "My Neural Networks playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
+                    "description": ""
+                },
+                {
+                    "title": "Neural Networks",
+                    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+                    "description": ""
+                },
+                {
+                    "title": "Doodle Classifier Coding Challenge",
+                    "url": "https://youtu.be//more/archive/nature-of-code/10-Neural-Networks/5.1-Doodle-Classifier-Introduction-Intelligence-and-Learning",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

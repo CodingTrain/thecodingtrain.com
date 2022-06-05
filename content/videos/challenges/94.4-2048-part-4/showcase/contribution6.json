@@ -1,0 +1,9 @@
+{
+    "title": "2048 using p5js with animation and settings",
+    "url": "http://cacowen.com/2048/",
+    "author": {
+        "name": "Chris Cowen",
+        "url": "https://github.com/cacowen/"
+    },
+    "source": "https://github.com/cacowen/2048"
+}

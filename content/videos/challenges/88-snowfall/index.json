@@ -1,0 +1,52 @@
+{
+    "title": "Snowfall",
+    "description": "In this special holiday season coding challenge, I attempt to create a snowfall simulation using p5.js, sprite sheets and Perlin noise wind.",
+    "videoNumber": "88",
+    "videoId": "cl-mHFCGzYk",
+    "date": "2017-12-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/UMUPBVuH5"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_088_snowfall/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_088_snowfall/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Alca's Snowflakes Codepen",
+                    "url": "https://codepen.io/Alca/pen/ppEgxb",
+                    "description": ""
+                },
+                {
+                    "title": "p5.js reference",
+                    "url": "https://p5js.org/reference/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

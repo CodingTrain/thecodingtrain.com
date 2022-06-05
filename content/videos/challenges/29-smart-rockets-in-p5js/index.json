@@ -1,0 +1,47 @@
+{
+    "title": "Smart Rockets in p5.js",
+    "description": "In this (very long) coding challenge, I implement a genetic algorithm from scratch and create \u201csmart rockets\u201d (based on a simulation by Jer Thorp). The rockets evolve the \u201cbest\u201d path to a target, moving around obstacles.",
+    "videoNumber": "29",
+    "videoId": "bGz7mv2vD6g",
+    "date": "2016-08-02",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/o5PwECj42"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_029_SmartRockets/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_029_SmartRockets/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Smart Rockets",
+                    "url": "http://www.blprnt.com/smartrockets/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

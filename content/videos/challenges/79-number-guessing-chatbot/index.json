@@ -1,0 +1,70 @@
+{
+    "title": "Number Guessing Chatbot",
+    "description": "In this coding challenge I attempt to create a chatbot that plays a number guessing game. I use the RiveScript along the JavaScript library p5.js.",
+    "videoNumber": "79",
+    "videoId": "zGe1m_bLOFk",
+    "date": "2017-10-13",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/_XqFRhtaK"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_079_Number_Guessing_Chatbot/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "RiveScript",
+                    "url": "https://www.rivescript.com/",
+                    "description": ""
+                },
+                {
+                    "title": "jQuery",
+                    "url": "https://jquery.com/",
+                    "description": ""
+                },
+                {
+                    "title": "AIML on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/AIML",
+                    "description": ""
+                },
+                {
+                    "title": "RiveScript on Github",
+                    "url": "https://github.com/aichaos/rivescript-js",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Programming with Text playlist",
+                    "url": "/learning/programming-with-text",
+                    "description": ""
+                },
+                {
+                    "title": "Video on the RiveScript library",
+                    "url": "/learning/programming-with-text/10.2-rivescript",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

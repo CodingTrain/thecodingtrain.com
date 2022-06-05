@@ -1,0 +1,62 @@
+{
+    "title": "Toothpicks",
+    "description": "In this coding challenge, I implement Omar Pol\u2019s fractal toothpick sequence.",
+    "videoNumber": "126",
+    "videoId": "-OL_sw2MiYw",
+    "date": "2018-12-21",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/SJMl3u5xN"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_126_Toothpicks/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_126_Toothpicks/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "The On-Line Encyclopedia of Integer Sequences",
+                    "url": "https://oeis.org/A139250",
+                    "description": ""
+                },
+                {
+                    "title": "Explorations Omar Pol's toothpick sequence",
+                    "url": "https://oeis.org/A139250/a139250.anim.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Terrific Toothpick Patterns",
+                    "url": "https://youtu.be/_UtCli1SgjI",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

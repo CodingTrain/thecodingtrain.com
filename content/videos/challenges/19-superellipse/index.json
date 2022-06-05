@@ -1,0 +1,52 @@
+{
+    "title": "Superellipse",
+    "description": "In this coding challenge, I\u2019m going to use superformulas to create a superellipse in p5.js. This is part 1 of a multi-part series on superformulas, superellipses and supershapes.",
+    "videoNumber": "19",
+    "videoId": "z86cx2A4_3E",
+    "date": "2016-06-03",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Hk-1AMTgN"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_019_Superellipse/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_019_Superellipse/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Superellipse on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Superellipse",
+                    "description": ""
+                },
+                {
+                    "title": "Space Colonization Algorithm",
+                    "url": "http://paulbourke.net/geometry/supershape/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

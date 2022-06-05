@@ -1,0 +1,47 @@
+{
+    "title": "2D Supershapes",
+    "description": "In this coding challenge, I show you how to make 2D supershapes in p5.js.",
+    "videoNumber": "23",
+    "videoId": "ksRoh-10lak",
+    "date": "2016-06-21",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/_gTvNBjEu"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_023_SuperShape2D/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_023_SuperShape2D/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Supershapes (Superformula)",
+                    "url": "http://paulbourke.net/geometry/supershape/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

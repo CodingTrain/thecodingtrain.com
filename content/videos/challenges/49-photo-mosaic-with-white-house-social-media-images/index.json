@@ -1,0 +1,48 @@
+{
+    "title": "Photo Mosaic with White House Social Media Images",
+    "description": "In this coding challenge, I use a collection of Obama Administration\u2019s facebook images to create a \u201cphoto mosaic\u201d of President Obama with Processing (Java).",
+    "videoNumber": "49",
+    "videoId": "nnlAH1zDBDE",
+    "date": "2017-01-06",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_049_ObamaMosaic/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "The White House Social Media Data",
+                    "url": "https://obamawhitehouse.archives.gov/blog/2017/01/05/new-lenses-first-social-media-presidency",
+                    "description": ""
+                },
+                {
+                    "title": "ITP 'Obamathon' Github Repo",
+                    "url": "https://github.com/ITPNYU/Obamathon/tree/master/examples/P5/TweetsByMonth",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Pixel Arrays",
+                    "url": "https://youtu.be/https://youtu.be/EmtU0eloTlE",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

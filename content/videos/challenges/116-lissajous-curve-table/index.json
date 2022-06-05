@@ -1,0 +1,77 @@
+{
+    "title": "Lissajous Curve Table",
+    "description": "In this Coding Challenge, I visualize a \u201cLissajous Curve Table\u201d with Processing (Java).",
+    "videoNumber": "116",
+    "videoId": "--6eyLO78CY",
+    "date": "2018-10-03",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/BJbj5l3Y7"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_116_Lissajous/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_116_Lissajous/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Code in the p5.js web editor",
+                    "url": "https://editor.p5js.org/codingtrain/sketches/BJbj5l3Y7",
+                    "description": ""
+                },
+                {
+                    "title": "Lissajous Curve on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Lissajous_curve",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Lissajous Curves with p5.js",
+                    "url": "https://youtu.be/glDU8Nsyidg",
+                    "description": ""
+                },
+                {
+                    "title": "Lissajous Curve",
+                    "url": "https://youtu.be/4CbPksEl51Q",
+                    "description": ""
+                },
+                {
+                    "title": "Polar Coordinates",
+                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
+                    "description": ""
+                },
+                {
+                    "title": "2D Arrays in JavaScript",
+                    "url": "/Tutorials/9-additional-topics/9.15-2d-arrays-in-javascript",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

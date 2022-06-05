@@ -1,0 +1,9 @@
+{
+    "title": "Mandelbulb with better edge detection",
+    "url": "",
+    "author": {
+        "name": "Cor van Essen",
+        "url": "https://www.corvanessen.nl/"
+    },
+    "source": "https://github.com/corvanessen/MandelBulb_CloudEdgeFinding"
+}

@@ -1,0 +1,9 @@
+{
+    "title": "2048 with variable grid size, touch support and tests!",
+    "url": "https://olback.github.io/2048/index.html",
+    "author": {
+        "name": "olback",
+        "url": "https://github.com/olback/"
+    },
+    "source": "https://github.com/olback/2048"
+}

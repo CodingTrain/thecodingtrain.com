@@ -1,0 +1,65 @@
+{
+    "title": "Angry Birds with Matter.js",
+    "description": "An attempt to implement the basic mechanics of Angry Birds in JavaScript using p5.js and the matter.js physics engine.",
+    "videoNumber": "138",
+    "videoId": "TDQzoe9nslY",
+    "date": "2019-03-08",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/LbNt1nyxE"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_138_Angry_Birds/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Angry Birds",
+                    "url": "https://www.angrybirds.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Matter.js",
+                    "url": "http://brm.io/matter-js/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Introduction to Matter.js",
+                    "url": "https://youtu.be//more/archive/nature-of-code/5-Physics-Libraries/5.17-Introduction-to-Matter.js",
+                    "description": ""
+                },
+                {
+                    "title": "Inheritance in JavaScript",
+                    "url": "/Tutorials/16-javascript-es6/16.17-inheritance",
+                    "description": ""
+                },
+                {
+                    "title": "Phaser Game Development with Catt Small",
+                    "url": "/GuestTutorials/008-catt-small-phaser-game-development",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

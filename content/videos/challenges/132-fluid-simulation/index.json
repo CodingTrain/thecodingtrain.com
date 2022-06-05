@@ -1,0 +1,80 @@
+{
+    "title": "Fluid Simulation",
+    "description": "In this video, I attempt to follow Mike Ash\u2019s guide to Fluid Simulation and port Jos Stam\u2019s \u201cReal-Time Fluid Dynamics for Games\u201d algorithm and code in Processing (Java).",
+    "videoNumber": "132",
+    "videoId": "alhpH6ECFvQ",
+    "date": "2019-02-12",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_132_FluidSimulation/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_132_FluidSimulation/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "GitHub Issue",
+                    "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/178",
+                    "description": ""
+                },
+                {
+                    "title": "Real-Time Fluid Dynamics for Games",
+                    "url": "http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf",
+                    "description": ""
+                },
+                {
+                    "title": "MSAFluid",
+                    "url": "https://www.memo.tv/msafluid/",
+                    "description": ""
+                },
+                {
+                    "title": "Lily Pad",
+                    "url": "https://github.com/weymouth/lily-pad",
+                    "description": ""
+                },
+                {
+                    "title": "Fluid Simulation for Dummies",
+                    "url": "https://mikeash.com/pyblog/fluid-simulation-for-dummies.html",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Why Laminar Flow is AWESOME",
+                    "url": "https://youtu.be/y7Hyc3MRKno",
+                    "description": ""
+                },
+                {
+                    "title": "What DO we know about turbulence?",
+                    "url": "https://youtu.be/_UoTTq651dE",
+                    "description": ""
+                },
+                {
+                    "title": "Perlin Noise",
+                    "url": "https://youtu.be/Qf4dIN99e2w",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

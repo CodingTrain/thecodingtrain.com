@@ -1,0 +1,57 @@
+{
+    "title": "Random Walker with Vectors and L\u00e9vy Flight",
+    "description": "In this coding challenge, I simulate a \u201crandom walk\u201d with vectors in p5.js, varying the distance of each step size. This is known as a \u201cL\u00e9vy Flight\u201d (named after french mathematician Paul L\u00e9vy.)",
+    "videoNumber": "53",
+    "videoId": "bqF9w9TTfeo",
+    "date": "2017-01-31",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/L24X90MBH"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_053_random_walk_levy/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_053_random_walk_levy/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "L\u00e9vy Flight on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/L%C3%A9vy_flight",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Videos on Vectors",
+                    "url": "https://youtu.be//more/archive/nature-of-code/1-Vectors/1.1-Vectors",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

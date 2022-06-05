@@ -1,34 +1,52 @@
 {
-  "title": "Space Colonization",
-  "description": "In this coding challenge, I'm using the space colonization algorithm to make a tree generator. This is the 4th part of my algorithmic botany series.",
-  "videoNumber": "17",
-  "videoId": "kKT0v3qhIQY",
-  "date": "2016-05-31",
-  "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "generative art", "space colonization"],
-  "canContribute": true,
-  "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": [
-    {
-      "title": "References",
-      "links": [
+    "title": "Fractal Trees - Space Colonization",
+    "description": "In this coding challenge, I\u2019m using the space colonization algorithm to make a tree generator. This is the 4th part of my algorithmic botany series.",
+    "videoNumber": "17",
+    "videoId": "kKT0v3qhIQY",
+    "date": "2016-05-31",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
         {
-          "title": "Algorithmic Botany",
-          "url": "http://algorithmicbotany.org/",
-          "description": "by University of Calgary"
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/r9pxis9g-"
+            }
         },
         {
-          "title": "Space Colonization Algorithm",
-          "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
-          "description": "by Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz"
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_017_SpaceColonizer/P5"
+            }
         },
         {
-          "title": "Nature of Code class on Kadenze",
-          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
-          "description": "description of content linked"
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_017_SpaceColonizer/Processing"
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Algorithmic Botany",
+                    "url": "http://algorithmicbotany.org/",
+                    "description": ""
+                },
+                {
+                    "title": "Space Colonization Algorithm",
+                    "url": "http://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+                    "description": ""
+                }
+            ]
+        }
+    ]
 }

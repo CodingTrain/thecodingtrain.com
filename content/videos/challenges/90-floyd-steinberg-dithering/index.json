@@ -1,0 +1,87 @@
+{
+    "title": "Floyd-Steinberg Dithering",
+    "description": "In this coding challenge, I attempt to implement the Floyd-Steinberg Dithering algorithm and create a \u201cimage stippling\u201d effect on an image (kitten, of course) using Processing.",
+    "videoNumber": "90",
+    "videoId": "0L2n8Tg2FwI",
+    "date": "2018-01-16",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/-YkMaf9Ea"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_090_dithering/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_090_dithering/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Community Suggested References",
+            "links": [
+                {
+                    "title": "DHALF.txt",
+                    "url": "https://github.com/SixLabors/ImageSharp/blob/master/src/ImageSharp/Processing/Processors/Dithering/DHALF.TXT",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Stippling",
+                    "url": "http://roberthodgin.com/portfolio/stippling/",
+                    "description": ""
+                },
+                {
+                    "title": "My Processing Tutorial on 2D Arrays",
+                    "url": "https://processing.org/tutorials/2darray/",
+                    "description": ""
+                },
+                {
+                    "title": "Dither on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Dither",
+                    "description": ""
+                },
+                {
+                    "title": "Floyd\u2013Steinberg dithering on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Tutorial on Pixels in Processing",
+                    "url": "https://youtu.be/EmtU0eloTlE",
+                    "description": ""
+                },
+                {
+                    "title": "My Video on 2D Arrays",
+                    "url": "/Tutorials/9-additional-topics/9.15-2d-arrays-in-javascript",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "title": "Purple Rain in Processing",
+    "description": "In this viewer submitted coding challenge, I attempt to code a Purple Rain Simulator in Processing.",
+    "videoNumber": "4",
+    "videoId": "KkyIDI6rQJI",
+    "date": "2016-04-25",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/5C07OcK6A"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_004_PurpleRain/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_004_PurpleRain/Processing"
+            }
+        }
+    ],
+    "groupLinks": []
+}

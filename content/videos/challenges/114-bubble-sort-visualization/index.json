@@ -1,0 +1,47 @@
+{
+    "title": "Bubble Sort Visualization",
+    "description": "In this coding challenge, I implement a \u201cbubble sort\u201d algorithm in Processing (Java) and sort randomly generated lines. #SortingTrain",
+    "videoNumber": "114",
+    "videoId": "67k3I2GxTH8",
+    "date": "2018-08-27",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/3HVrL9m36"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_114_BubbleSortViz/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_114_BubbleSortViz/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Visualizing Algorithms",
+                    "url": "https://bost.ocks.org/mike/algorithms/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

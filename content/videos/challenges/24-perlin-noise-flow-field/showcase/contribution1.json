@@ -1,0 +1,9 @@
+{
+    "title": "Interactive Perlin Noise Flow Field",
+    "url": "https://davenewt.github.io/perlin-noise-flow-field/",
+    "author": {
+        "name": "Davenewt",
+        "url": "https://davenewt.github.io"
+    },
+    "source": "https://github.com/davenewt/p5-perlin-noise"
+}

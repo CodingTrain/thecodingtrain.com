@@ -1,0 +1,62 @@
+{
+    "title": "Gift Wrapping Algorithm",
+    "description": "In this coding challenge, I implement the \u201cGift Wrapping algorithm\u201d (aka Jarvis march) for calculating a convex hull in JavaScript. This is a foundational topic in computational geometry!",
+    "videoNumber": "148",
+    "videoId": "YNyULRrydVI",
+    "date": "2019-07-13",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/IVE9CxBOF"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Gift Wrapping Algorithm",
+                    "url": "https://en.wikipedia.org/wiki/Gift_wrapping_algorithm",
+                    "description": ""
+                },
+                {
+                    "title": "Cross Product",
+                    "url": "https://en.wikipedia.org/wiki/Cross_product",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "ES6 Arrow Syntax",
+                    "url": "/Tutorials/16-javascript-es6/16.3-arrow-function",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

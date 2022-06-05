@@ -1,0 +1,40 @@
+{
+    "title": "Chrome Extension with p5.js Sketch - Doodle Chrome Extension",
+    "description": "In this coding challenge, I create a Chrome Extension which adds a p5.js drawing canvas on top of any webpage you visit.",
+    "videoNumber": "83",
+    "videoId": "IXXNIcQQLU8",
+    "date": "2017-11-20",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Programming from A to Z",
+                    "url": "http://shiffman.net/a2z",
+                    "description": ""
+                },
+                {
+                    "title": "p5.js Instance Mode reference",
+                    "url": "https://github.com/processing/p5.js/wiki/Instantiation-Cases",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Instance Mode",
+                    "url": "/Tutorials/9-additional-topics/9.11-instance-mode",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

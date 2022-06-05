@@ -1,0 +1,62 @@
+{
+    "title": "Pong!",
+    "description": "In this challenge, I attempt (emphasis on the word \u201cattempt\u201d) to program the classic video game Pong in Processing (Java).",
+    "videoNumber": "67",
+    "videoId": "IIrC5Qcb2G4",
+    "date": "2017-03-27",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/CKCwTIm3S"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_067_Pong/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_067_Pong/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Pong on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Pong",
+                    "description": ""
+                },
+                {
+                    "title": "Paddle angles drawing",
+                    "url": "https://i1.wp.com/zekechan.net/wp-content/uploads/2015/07/pong-05b.png?resize=600%2C500",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "My Video on Polar Coordinates",
+                    "url": "/Tutorials/9-additional-topics/9.20-polar-coordinates",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

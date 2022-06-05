@@ -1,0 +1,57 @@
+{
+    "title": "Diffusion-Limited Aggregation",
+    "description": "In this coding challenge, I explore the generative algorithm \u201cDiffusion-Limited Aggregation\u201d. The pattern is generated from random walkers clustering around a seed (or set of seed) point(s).",
+    "videoNumber": "34",
+    "videoId": "Cl_Gjj80gPE",
+    "date": "2016-08-18",
+    "languages": [],
+    "topics": [],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_034_DLA/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_034_DLA/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Diffusion-Limited Aggregation on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Diffusion-limited_aggregation",
+                    "description": ""
+                },
+                {
+                    "title": "DLA reference",
+                    "url": "http://paulbourke.net/fractals/dla/",
+                    "description": ""
+                },
+                {
+                    "title": "Atom Live Server Package",
+                    "url": "https://atom.io/packages/atom-live-server",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
