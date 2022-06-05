@@ -259,14 +259,14 @@ const contentStructure = {
           folders: {},
           files: {},
           isFileSensitive: false,
-          isFolderSensitive: true,
+          isFolderSensitive: false,
           isRequired: true
         },
         about: {
           folders: {},
           files: {},
           isFileSensitive: false,
-          isFolderSensitive: true,
+          isFolderSensitive: false,
           isRequired: true
         },
         tracks: {
