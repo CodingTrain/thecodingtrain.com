@@ -133,7 +133,7 @@
   border-bottom: var(--border);
   padding: 0 var(--box-padding);
   font-size: var(--maru-large);
-  font-family: var(--maru);
+  font-family: var(--maru-mono);
   font-weight: normal;
   text-overflow: ellipsis;
   overflow: hidden;
