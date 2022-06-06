@@ -87,7 +87,7 @@
   margin: 0;
   font-family: var(--maru-mono);
   font-size: var(--maru-small);
-  padding: calc(var(--box-padding) / 2) var(--box-padding);
+  padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   flex-grow: 1;
   overflow: hidden;
   text-overflow: ellipsis;

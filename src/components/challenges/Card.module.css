@@ -73,7 +73,7 @@
   & p {
     font-size: var(--maru-small);
     line-height: var(--maru-small-line-height);
-    padding: calc(var(--box-padding) / 2) var(--box-padding);
+    padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   }
 }
 
