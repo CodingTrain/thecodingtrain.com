@@ -16,22 +16,13 @@
     { "time": "4:04", "title": "Slicing and shuffling the image" },
     { "time": "5:18", "title": "Exploring algorithmic visual possibilities" },
     { "time": "9:52", "title": "Other possibilities you can explore!" },
-    {
-      "time": "10:30",
-      "title": "Using a live video capture instead of an image"
-    },
-    {
-      "time": "12:33",
-      "title": "Past attempts and historical examples of the slitscan effect"
-    },
+    { "time": "10:30", "title": "Using a live video capture" },
+    { "time": "12:33", "title": "Historical examples of the slitscan effect" },
     { "time": "13:17", "title": "Recreating the slitscan effect!" },
     { "time": "16:11", "title": "Storing the slice as a PImage" },
     { "time": "19:21", "title": "How to keep track of the history of slices" },
     { "time": "21:15", "title": "Creating an array of slices" },
-    {
-      "time": "22:29",
-      "title": "Why did we do all this extra work to get the same result?"
-    },
+    { "time": "22:29", "title": "All this extra work to get the same result?" },
     { "time": "23:53", "title": "Using an offset in the history" },
     { "time": "24:30", "title": "Not exactly the original slitscan effect" },
     {
@@ -42,21 +33,10 @@
   ],
   "codeExamples": [
     {
-      "title": "Code example 1 title",
-      "description": "Code example 1 description",
-      "image": "image1.png",
+      "title": "Slitscan",
+      "description": "Processing examples for the Slitscan Coding Challenge",
       "urls": {
-        "p5": "url to p5 editor or code",
-        "processing": "url to processing sketch",
-        "other": "url to other source, like GitHub"
-      }
-    },
-    {
-      "title": "Code example 2 title",
-      "description": "Code example 2 description",
-      "image": "image2.png",
-      "urls": {
-        "other": "url to other source, like GitHub"
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_164_Slitscan/Processing"
       }
     }
   ],
@@ -74,16 +54,16 @@
           "icon": "🖼️",
           "title": "Tim Rodenbroeker Creative Coding",
           "url": "https://timrodenbroeker.de/",
-          "description": "Tim's work in creative coding."
+          "description": "Tim's website on creative coding."
         },
         {
-          "icon": "📔",
+          "icon": "🇵",
           "title": "Processing Foundation",
           "url": "https://processingfoundation.org/",
           "description": "The Processing Foundation maintains the Processing and p5.js software."
         },
         {
-          "icon": "📔",
+          "icon": "✏️",
           "title": "copy()",
           "url": "https://processing.org/reference/copy_.html",
           "description": "The full details about copy() are on the Processing reference."
@@ -103,7 +83,7 @@
           "icon": "🎥",
           "title": "The Modulo Operator with Golan Levin",
           "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator.",
-          "url": "https://thecodingtrain.com/GuestTutorials/006-golan-levin-modulo-operator"
+          "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A"
         }
       ]
     }
