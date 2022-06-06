@@ -61,6 +61,7 @@
     text-decoration: underline;
   }
   & a.cta {
+    display: inline-block;
     font-family: var(--maru-mono);
     font-size: var(--maru-normal);
     text-align: bottom;
