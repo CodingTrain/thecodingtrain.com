@@ -1,0 +1,80 @@
+{
+  "title": "Peeking Inside Pi",
+  "description": "\ud83e\udd67 Happy Pi Day 2020! In this challenge, I build a simple web application using p5.js and node.js to search in the first billion digits of Pi.",
+  "videoNumber": "156",
+  "videoId": "MEdpRYyjz_0",
+  "date": "2020-03-14",
+  "languages": ["node.js", "p5.js", "javascript"],
+  "topics": ["math", "pi day"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:30", "title": "Importing Pi Into p5.js" },
+    { "time": "3:37", "title": "Searching Numbers in Pi" },
+    { "time": "7:09", "title": "IndexOf Function" },
+    { "time": "13:13", "title": "Importing 1GB File" },
+    { "time": "16:38", "title": "Dividing the Data into Read Streams" },
+    { "time": "18:25", "title": "Searching 1 Billion Digits" },
+    { "time": "19:44", "title": "Creating an API" },
+    { "time": "28:42", "title": "Conclusions and Ideas" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Peeking inside Pi",
+      "description": "Searching a sequence of numbers in the first million digits of Pi",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/U649qYR4"
+      }
+    },
+    {
+      "title": "Peeking inside Pi (Node API)",
+      "description": "Node.js Version using a billion digits of Pi",
+      "urls": {
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_156_Pi_Digits/Node"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Pi Searcher",
+          "url": "https://angio.net/pi/",
+          "description": "Sequence Localization of pi on angio.net"
+        },
+        {
+          "title": "Peek in Pi",
+          "url": "http://pi.fathom.info/",
+          "description": "Fathom Demonstration for searching a number sequence in the first 10 million digits of Pi"
+        },
+        {
+          "title": "Boyer-Moore String Search",
+          "url": "https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm",
+          "description": "Boyer-Moore String Search Algorithm Wikipedia page"
+        },
+        {
+          "title": "createReadStream()",
+          "url": "https://nodejs.org/api/fs.html#fscreatereadstreampath-options",
+          "description": "Node.js fs createReadStream() documentation"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "ES6 Arrow Function",
+          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "description": "JavaScript tutorial on ES6 Arrow Functions"
+        },
+        {
+          "title": "Server-side with Node.js",
+          "url": "https://www.youtube.com/watch?v=wxbQP1LMZsw",
+          "description": "Introduction to Node.js"
+        }
+      ]
+    }
+  ]
+}
