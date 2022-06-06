@@ -1,95 +1,127 @@
 {
-    "title": "Simple Pendulum Simulation",
-    "description": "Choo choo! In this challenge, I build on chapter 3 (Oscillating Motion) of the Nature of Code series and simulate a simple pendulum in p5.js via angular acceleration.",
-    "videoNumber": "159",
-    "videoId": "NBWMtlbbOag",
-    "date": "2021-02-16",
-    "languages": ["javascript", "p5js"],
-    "topics": ["pendulums", "angular motion", "polar coordinates", "trigonometry", "damping"],
-    "canContribute": true,
-    "timestamps": [
-      { "time": "0:00", "title": "Choo choo!! 2021 Coding Challenge!" },
-      { "time": "0:43", "title": "Code! Drawing a bob and an arm." },
-      { "time": "1:08", "title": "Explain! How are we going to think about this?" },
-      { "time": "2:55", "title": "Code! Add our main variables." },
-      { "time": "3:20", "title": "Explain! How do we figure out where the bob is? Trigonometry is the answer!" },
-      { "time": "4:39", "title": "Code! Use the polar coordinates formulas we just worked out." },
-      { "time": "6:30", "title": "Code! Let's use angular motion!" },
-      { "time": "7:55", "title": "Explain! What is the force of the pendulum? Trigonometry is the answer!" },
-      { "time": "10:46", "title": "Code! Add the pendulum force." },
-      { "time": "12:04", "title": "Whoops! Correction on why we multiply by -1." },
-      { "time": "13:34", "title": "Code! Add -1 to the formula." },
-      { "time": "13:57", "title": "Whoops! I figured out some things that I never really understood." },
-      { "time": "14:24", "title": "Code! Correct the 3 step process." },
-      { "time": "15:32", "title": "Something doesn't feel quite right." },
-      { "time": "16:59", "title": "Explain! Angular acceleration relates to the arm length!" },
-      { "time": "18:58", "title": "Code! Let's divide by length." },
-      { "time": "19:54", "title": "Code! You could add some damping." },
-      { "time": "20:21", "title": "Ideas! What could you do next?" }
-    ],
-    "codeExamples": [
-      {
-        "title": "Pendulum OOP",
-        "description": "Code example 1 description",
-        "image": "image1.png",
-        "urls": {
-          "p5": "https://editor.p5js.org/codingtrain/sketches/lJz1cmMp4"
-        }
-      },
-      {
-        "title": "Array of Pendulums",
-        "description": "Code example 2 description",
-        "image": "image1.png",
-        "urls": {
-          "p5": "https://editor.p5js.org/codingtrain/sketches/Bj82tUlIO"
-        }
+  "title": "Simple Pendulum Simulation",
+  "description": "Choo choo! In this challenge, I build on chapter 3 (Oscillating Motion) of the Nature of Code series and simulate a simple pendulum in p5.js via angular acceleration.",
+  "videoNumber": "159",
+  "videoId": "NBWMtlbbOag",
+  "date": "2021-02-16",
+  "languages": ["javascript", "p5js"],
+  "topics": [
+    "pendulums",
+    "angular motion",
+    "polar coordinates",
+    "trigonometry",
+    "damping"
+  ],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Choo choo!! 2021 Coding Challenge!" },
+    { "time": "0:43", "title": "Code! Drawing a bob and an arm." },
+    {
+      "time": "1:08",
+      "title": "Explain! How are we going to think about this?"
+    },
+    { "time": "2:55", "title": "Code! Add our main variables." },
+    {
+      "time": "3:20",
+      "title": "Explain! How do we figure out where the bob is? Trigonometry is the answer!"
+    },
+    {
+      "time": "4:39",
+      "title": "Code! Use the polar coordinates formulas we just worked out."
+    },
+    { "time": "6:30", "title": "Code! Let's use angular motion!" },
+    {
+      "time": "7:55",
+      "title": "Explain! What is the force of the pendulum? Trigonometry is the answer!"
+    },
+    { "time": "10:46", "title": "Code! Add the pendulum force." },
+    {
+      "time": "12:04",
+      "title": "Whoops! Correction on why we multiply by -1."
+    },
+    { "time": "13:34", "title": "Code! Add -1 to the formula." },
+    {
+      "time": "13:57",
+      "title": "Whoops! I figured out some things that I never really understood."
+    },
+    { "time": "14:24", "title": "Code! Correct the 3 step process." },
+    { "time": "15:32", "title": "Something doesn't feel quite right." },
+    {
+      "time": "16:59",
+      "title": "Explain! Angular acceleration relates to the arm length!"
+    },
+    { "time": "18:58", "title": "Code! Let's divide by length." },
+    { "time": "19:54", "title": "Code! You could add some damping." },
+    { "time": "20:21", "title": "Ideas! What could you do next?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Pendulum OOP",
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/lJz1cmMp4"
       }
-    ],
-    "groupLinks": [
-      {
-        "title": "References",
-        "links": [
-          {
-            "title": "Nature of Code Playlist",
-            "url": "https://thecodingtrain.com/learning/nature-of-code/",
-            "description": "This playlist accompanies the Nature of Code book."
-          },
-          {
-            "title": "Applications of Differential Equations - The Simple Pendulum",
-            "url": "http://calculuslab.deltacollege.edu/ODE/7-A-2/7-A-2-h.html",
-            "description": "The derivation and analysis of the equation governing the position of a pendulum as a function of time."
-          },
-          {
-            "title": "Simple Pendulum (myPhysicsLab.com)",
-            "url": "https://www.myphysicslab.com/pendulum/pendulum-en.html",
-            "description": "Physics-based simulation of a simple pendulum."
-          },
-          {
-            "title": "Object Oriented Simple Pendulum (Nature of Code Book)",
-            "url": "https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp03_oscillation/NOC_3_10_PendulumExampleSimplified",
-            "description": "A simple pendulum simulation that uses sine to calculate the angular component of the gravitational force."
-          }
-        ]
-      },
-      {
-        "title": "Polar Coordinates - Nature of Code",
-        "url": "https://thecodingtrain.com/CodingChallenges/063.1-unikitty-flag",
-        "description": "This video explores the trigonometric functions—sine, cosine, and tangent"
-     },
-     {
-        "title": "3.2 Angular Motion - Nature of Code",
-        "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
-        "description": "This video explains how to apply the concepts of vector motion to angles (scalar!)."
-     },
-     {
-      "title": "Double Pendulum - Coding Challenge #93",
-      "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
-      "description": "A double pendulum simulation is created in Processing."
-   },
-   {
-    "title": "Coding Train Live! (February 6th 2021)",
-    "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
-    "description": "This video explores the concept of a simple particle system and attempts to create a smoke effect with the p5.js library"
- }
-    ]
-  }
+    },
+    {
+      "title": "Array of Pendulums",
+      "description": "Code example 2 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Bj82tUlIO"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Nature of Code Playlist",
+          "url": "https://thecodingtrain.com/learning/nature-of-code/",
+          "description": "This playlist accompanies the Nature of Code book."
+        },
+        {
+          "title": "Applications of Differential Equations - The Simple Pendulum",
+          "url": "http://calculuslab.deltacollege.edu/ODE/7-A-2/7-A-2-h.html",
+          "description": "The derivation and analysis of the equation governing the position of a pendulum as a function of time."
+        },
+        {
+          "title": "Simple Pendulum (myPhysicsLab.com)",
+          "url": "https://www.myphysicslab.com/pendulum/pendulum-en.html",
+          "description": "Physics-based simulation of a simple pendulum."
+        },
+        {
+          "title": "Object Oriented Simple Pendulum (Nature of Code Book)",
+          "url": "https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp03_oscillation/NOC_3_10_PendulumExampleSimplified",
+          "description": "A simple pendulum simulation that uses sine to calculate the angular component of the gravitational force."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Polar Coordinates - Nature of Code",
+          "url": "https://thecodingtrain.com/CodingChallenges/063.1-unikitty-flag",
+          "description": "This video explores the trigonometric functions—sine, cosine, and tangent"
+        },
+        {
+          "title": "3.2 Angular Motion - Nature of Code",
+          "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
+          "description": "This video explains how to apply the concepts of vector motion to angles (scalar!)."
+        },
+        {
+          "title": "Double Pendulum - Coding Challenge #93",
+          "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
+          "description": "A double pendulum simulation is created in Processing."
+        },
+        {
+          "title": "Coding Train Live! (February 6th 2021)",
+          "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
+          "description": "This video explores the concept of a simple particle system and attempts to create a smoke effect with the p5.js library"
+        }
+      ]
+    }
+  ]
+}
