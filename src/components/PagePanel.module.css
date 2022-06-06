@@ -1,5 +1,4 @@
 .root {
-  font-size: var(--maru-large);
   border-left: var(--border);
   border-bottom: var(--border);
   color: var(--gray-dark);

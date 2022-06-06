@@ -235,8 +235,6 @@
   border-left: var(--border);
   border-bottom: var(--border);
   background: white;
-  font-size: var(--maru-normal);
-  line-height: var(--maru-normal-line-height);
 }
 
 .showcase .left .details p {
@@ -313,8 +311,8 @@
     line-height: var(--baseline);
     height: var(--baseline);
     text-transform: uppercase;
-    font-size: var(--maru-normal);
-    & span + span {
+    & span + span,
+    & span + time {
       margin-left: var(--box-padding);
     }
   }
@@ -326,12 +324,13 @@
       border-left: var(--border);
     }
     & .eventDescription {
+      display: flex;
+      align-items: center;
       height: var(--baseline-2x);
       overflow: hidden;
       & p {
-        padding: var(--baseline-1of4) var(--box-padding);
-        font-size: var(--maru-small);
-        line-height: var(--maru-small-line-height);
+        margin: 0;
+        padding: 0 var(--box-padding);
       }
     }
 

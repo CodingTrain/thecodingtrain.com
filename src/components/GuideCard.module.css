@@ -66,8 +66,8 @@
   border-bottom: var(--border);
   height: var(--baseline);
   line-height: var(--baseline);
-  font-size: var(--maru-medium);
-  font-family: var(--maru);
+  font-size: var(--maru-large);
+  font-family: var(--maru-mono);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -86,14 +86,14 @@
 .description {
   margin: 0;
   font-family: var(--maru-mono);
-  font-size: var(--maru-normal);
-  padding: var(--spacing-small) var(--spacing-small) var(--spacing-small)
-    var(--spacing-normal);
+  font-size: var(--maru-small);
+  padding: calc(var(--box-padding) / 2) var(--box-padding);
   flex-grow: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   border-bottom: var(--border);
   border-left: var(--border);
+  background-color: white;
 }
 
 .left .meta {

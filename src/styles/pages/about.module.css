@@ -65,14 +65,18 @@
 }
 
 .aboutParagraph {
-  font-family: var(--maru);
   flex-grow: 1;
-  padding: 0 var(--box-padding);
+  padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   overflow: hidden;
+  font-family: var(--maru);
 
   & p {
-    margin: var(--baseline-1of2) 0;
+    margin: 0;
     max-width: 700px;
+  }
+
+  & p + p {
+    margin-top: var(--baseline-1of2);
   }
 }
 
@@ -184,13 +188,15 @@
 }
 
 .acknowledgementsText {
-  line-height: var(--baseline);
+  display: flex;
+  align-items: center;
+  height: var(--baseline);
+  padding-left: var(--box-padding);
   border-left: var(--border);
-  padding: var(--baseline-1of4);
   border-bottom: var(--border-purple);
 
   & p {
-    max-width: 600px;
+    max-width: 700px;
     line-height: var(--baseline-1of2);
     margin: 0;
   }
