@@ -51,7 +51,22 @@ Then copy the template into the `index.json`
   ],
   "groupLinks": [
     {
-      "title": "Group of links title",
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }, 
+    {
+      "title": "References",
       "links": [
         {
           "title": "Link 1 title",
@@ -70,6 +85,41 @@ Then copy the template into the `index.json`
 ```
 
 For the `groupLinks` section, links to videos should be put in a `Videos` group. Links to other pages, such as Wikipedia articles, blog posts, and documentation entries should be put in a `References` group.
+
+## Coding Challenges - linking to code examples
+
+In the `index.json` file of a challenge, the `codeExamples` field contains the code examples displayed below the video.
+
+```jsonc
+{
+  // ...
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "url to p5 editor or code",
+        "processing": "url to processing sketch",
+        "other": "url to other source, like GitHub"
+      }
+    }
+  ],
+  // ...
+}
+```
+
+The URLs of the code examples should ideally be in the following format:
+
+| Language | Description | Example |
+| -------- | ----------- | ------- |
+| `p5`     | Link to p5.js Web Editor sketch | `https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM` |
+| `p5`, `processing`, `other`     | Link to code example on GitHub (from the [Coding Challenges repo](https://github.com/CodingTrain/Coding-Challenges/)) | `https://github.com/CodingTrain/Coding-Challenges/tree/main/169_Pi_Day/p5` |
+
+
+
+To add thumbnail images for the code examples (the output of the code), the images should be inside a subfolder named `images` in the challenge folder.
+
 
 ## Tracks - adding template & video folder
 
@@ -134,11 +184,11 @@ If you'd like to an event to the Coding Train homepage you will need to edit the
 
 Now let's take a closer look at each property:
 
-| Property | Description                                                | Example                                                    |
-| -------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| `title`  | Official event title                                       | `"Neuroevolution - the Nature of Code"`                    |
-| `date`   | The scheduled date for the event                           | `2022-07-16`                                               |
-| `time`   | The schedule time for the event                            | `"20:00"`                                                  |
-| `host`   | Path to the corresponding code files inside the repository | "dan Shiffman",                                            |
-| `type`   | Is the event in person? online?                            | `irl/livestream...`                                        |
-| `url`    | Website where can attendees register or attend event.      | `https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw` |
+| Property | Description                                           | Example                                                    |
+| -------- | ----------------------------------------------------- | ---------------------------------------------------------- |
+| `title`  | Official event title                                  | `"Neuroevolution - the Nature of Code"`                    |
+| `date`   | The scheduled date for the event                      | `2022-07-16`                                               |
+| `time`   | The schedule time for the event                       | `"20:00"`                                                  |
+| `host`   | Host of the event                                     | "Coding Train",                                            |
+| `type`   | Is the event in person? online?                       | `irl/livestream...`                                        |
+| `url`    | Website where can attendees register or attend event. | `https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw` |
