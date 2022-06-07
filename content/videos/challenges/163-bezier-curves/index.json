@@ -12,7 +12,7 @@
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/basic-bezier"
       }
     },
     {
@@ -20,7 +20,7 @@
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/bezier-editor"
       }
     },
     {
@@ -28,7 +28,7 @@
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/bezier-vertex"
       }
     },
     {
@@ -36,7 +36,7 @@
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/cardioid-bezier"
       }
     },
     {
@@ -44,7 +44,7 @@
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/quadratic"
       }
     },
     {
@@ -52,7 +52,7 @@
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/cubic"
       }
     },
     {
@@ -60,7 +60,7 @@
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0XOLNHbvC",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/bezier-formula"
       }
     }
   ],
