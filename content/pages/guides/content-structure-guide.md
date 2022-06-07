@@ -230,12 +230,11 @@ We also currently support the addition of images related to videos and their sho
 
 ## Tracks
 
-On the other hand, tracks come in two types: main and side tracks.
+Tracks are collections of videos. They come in two types: main and side tracks.
 
-**Main tracks** are the core and principal courses available in the coding train, which seek to teach a big theme of multiple videos. Main tracks also are composed of a sequence of chapters,
-where each one is further composed of a sequence of videos.
+**Main tracks** are sequenced video tutorials that you can follow like a course syllabus, and are the core and principal courses available in The Coding Train, which seek to teach a big theme of multiple videos.
 
-**Side tracks** are curated collection of videos from potentially different contexts that relate on a connecting theme. Side tracks are a simple sequence of videos.
+**Side tracks** are collections of related videos but don’t necessarily need to be watched in order, they potentially come from different contexts that relate on a connecting theme.
 
 The current setup separates folders for main and side tracks, and inside those individual folders per track.
 
@@ -256,17 +255,16 @@ tracks
 
 Each `track-slug/` folder defines a new track and contains the track metadata in `index.json`.
 
-### Metadata
+### Track Metadata
 
-Metadata for main and side tracks are very similar,
-they just differ in a property to define the video collection it includes. The properties `"title"` and `"description"` are all common and required to be set.
+Metadata for main and side tracks look the same. The properties `"title"` and `"description"` are all common and required to be set, and either the `"videos"` property or the `"chapters"` property should be defined on each track (but not both!). To define the collection of videos that compose the track, either `"chapters"` or `"videos"` should be used.
 
-For main tracks, the required property to define the collection is `"chapters"`. This defines an ordered sequence of chapters, where each is an ordered collection of videos. Each chapter should also have a `"title"` defined. To reference specific video, the same slug names used for subfolders in the `videos/` folder should be used.
+On the one hand, `"chapters"` organizes videos as an ordered sequence of chapters, where each is an ordered collection of videos. Each chapter should also have a `"title"` defined. To reference specific video, the same slug names used for subfolders in the `videos/` folder should be used.
 
 ```json
 {
-  "title": "Main track title",
-  "description": "Main track description",
+  "title": "Track title",
+  "description": "Track description",
   "chapters": [
     {
       "title": "First chapter title",
@@ -280,12 +278,12 @@ For main tracks, the required property to define the collection is `"chapters"`.
 }
 ```
 
-For side tracks, the required property is `"videos"`, which is a plain video sequence array.
+On the other hand, `"videos"` is just a plain video sequence as an array of slugs.
 
 ```json
 {
-  "title": "Side track title",
-  "description": "Side track description",
+  "title": "Track title",
+  "description": "Track description",
   "videos": ["video-1-slug", "challenges/video-2-slug", "video-3-slug"]
 }
 ```
@@ -360,8 +358,8 @@ To reference it in a track, the relative paths from `videos` should be used.
 
 ```json
 {
-  "title": "Main track title",
-  "description": "Main track description",
+  "title": "Track title",
+  "description": "Track description",
   "chapters": [
     {
       "title": "First chapter title",
@@ -383,8 +381,8 @@ To reference it in a track, the relative paths from `videos` should be used.
 
 ```json
 {
-  "title": "Side track title",
-  "description": "Side track description",
+  "title": "Track title",
+  "description": "Track description",
   "videos": [
     "track-name/chapter-1/lesson-1-slug",
     "challenges/video-2-slug",
