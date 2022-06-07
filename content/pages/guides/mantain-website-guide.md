@@ -16,7 +16,7 @@ Then copy the template into the `index.json`
 
 ```json
 {
-  "title": "Video title",  
+  "title": "Video title",
   "description": "Video description",
   "videoNumber": "Video number",
   "videoId": "YouTube video ID",
@@ -101,14 +101,6 @@ In the `index.json` file of a challenge, the `codeExamples` field contains the c
       "urls": {
         "p5": "url to p5 editor or code",
         "processing": "url to processing sketch",
-        "other": "url to other source, like GitHub"
-      }
-    },
-    {
-      "title": "Code example 2 title",
-      "description": "Code example 2 description",
-      "image": "image2.png",
-      "urls": {
         "other": "url to other source, like GitHub"
       }
     }
