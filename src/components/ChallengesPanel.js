@@ -21,7 +21,7 @@ const Card = ({
         <div className={css.icon}>👁</div>
         <Header className={css.title}>
           {
-            <Link to={`/challenge/${slug}`}>
+            <Link to={`/challenges/${slug}`}>
               {videoNumber ? `#${videoNumber} — ` : ''} {title}
             </Link>
           }
@@ -29,7 +29,7 @@ const Card = ({
       </div>
       <div className={css.thumb}>
         <div className={css.left}>
-          <Link to={`/challenge/${slug}`} aria-label={title}>
+          <Link to={`/challenges/${slug}`} aria-label={title}>
             {cover ? (
               <Image
                 image={cover.file.childImageSharp.gatsbyImageData}
