@@ -108,9 +108,9 @@
   & .example {
     border-color: var(--red);
     background-color: var(--red-light);
-    color: var(--red);
+    color: var(--red-text);
     & a {
-      color: var(--red);
+      color: var(--red-text);
     }
     & .linkIcon {
       color: var(--gray-dark);
@@ -122,9 +122,9 @@
   & .example {
     border-color: var(--cyan);
     background-color: var(--cyan-light);
-    color: var(--cyan);
+    color: var(--cyan-text);
     & a {
-      color: var(--cyan);
+      color: var(--cyan-text);
     }
     & .linkIcon {
       color: var(--gray-dark);

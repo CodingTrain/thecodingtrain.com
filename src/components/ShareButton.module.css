@@ -70,7 +70,7 @@ span.linkIcon {
   & .copiedNotification {
     border: var(--border-red);
     background-color: var(--red-light);
-    color: var(--red);
+    color: var(--red-text);
   }
 }
 
@@ -91,6 +91,6 @@ span.linkIcon {
   & .copiedNotification {
     border: var(--border-cyan);
     background-color: var(--cyan-light);
-    color: var(--cyan);
+    color: var(--cyan-text);
   }
 }

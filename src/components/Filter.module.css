@@ -109,12 +109,12 @@
 /* Variants */
 .red {
   &.root {
-    color: var(--red);
+    color: var(--red-text);
     background-color: var(--red-light);
   }
 
   & .seeMore {
-    color: var(--red);
+    color: var(--red-text);
   }
 
   & .item.selected button {
@@ -123,7 +123,7 @@
   }
 
   & .item button {
-    color: var(--red);
+    color: var(--red-text);
   }
 
   & .icon,
@@ -138,12 +138,12 @@
 
 .cyan {
   &.root {
-    color: var(--cyan);
+    color: var(--cyan-text);
     background-color: var(--cyan-light);
   }
 
   & .seeMore {
-    color: var(--cyan);
+    color: var(--cyan-text);
   }
 
   & .item.selected button {
@@ -152,7 +152,7 @@
   }
 
   & .item button {
-    color: var(--cyan);
+    color: var(--cyan-text);
   }
 
   & .icon,

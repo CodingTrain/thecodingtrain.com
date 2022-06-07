@@ -62,7 +62,7 @@
   }
 
   & .url {
-    color: var(--red);
+    color: var(--red-text);
   }
 }
 
@@ -72,7 +72,7 @@
     background-color: var(--cyan-light);
   }
   & .url {
-    color: var(--cyan);
+    color: var(--cyan-text);
   }
 }
 

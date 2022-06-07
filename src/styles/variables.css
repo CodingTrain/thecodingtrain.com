@@ -93,16 +93,21 @@
 
   --cyan: #2dc5f4;
   --cyan-light: #eefbff;
+  --cyan-text: #105c74;
   --pink: #f063a4;
   --pink-light: #ffebf4;
   --pink-tint: #fff7fa;
+  --pink-text: #93215c;
   --orange: #f89e4f;
   --orange-light: #fff1e5;
+  --orange-text: #774718;
   --purple: #9253a1;
   --purple-light: #f0e1f3;
+  --purple-text: #64376f;
   --red: #f16164;
   --red-light: #fff3f3;
   --red-lightest: #fffcfc;
+  --red-text: #9f1f24;
 
   --border: 1px solid var(--gray-mid);
 

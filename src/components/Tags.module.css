@@ -35,16 +35,6 @@
 .showButton {
   cursor: pointer;
   font-size: inherit;
-  color: var(--gray-mid);
   text-decoration: underline;
-}
-
-/* Variant */
-
-.red .showButton {
-  color: var(--red);
-}
-
-.cyan .showButton {
-  color: var(--cyan);
+  color: inherit;
 }

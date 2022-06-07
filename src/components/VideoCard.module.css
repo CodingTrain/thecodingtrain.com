@@ -11,7 +11,7 @@
 .listSpacer.purple {
   flex-basis: calc(50% - var(--baseline-box));
   width: calc(50% - var(--baseline-box));
-  --color: var(--purple);
+  --color: var(--purple-text);
   --border: var(--border-purple);
   --background-color: var(--purple-light);
   margin-top: var(--baseline-box);
@@ -44,25 +44,25 @@
 
 /* variants */
 .root.purple {
-  --color: var(--purple);
+  --color: var(--purple-text);
   --border: var(--border-purple);
   --background-color: var(--purple-light);
 }
 
 .root.red {
-  --color: var(--red);
+  --color: var(--red-text);
   --border: var(--border-red);
   --background-color: var(--red-light);
 }
 
 .root.orange {
-  --color: var(--orange);
+  --color: var(--orange-text);
   --border: var(--border-orange);
   --background-color: var(--orange-light);
 }
 
 .root.cyan {
-  --color: var(--cyan);
+  --color: var(--cyan-text);
   --border: var(--border-cyan);
   --background-color: var(--cyan-light);
 }

@@ -36,7 +36,7 @@
   padding: 0 var(--box-padding);
   line-height: var(--baseline-box);
   background-color: var(--cyan-light);
-  color: var(--cyan);
+  color: var(--cyan-text);
   & p {
     margin: 0;
     text-transform: uppercase;
