@@ -64,7 +64,7 @@ Then copy the template into the `index.json`
           "description": "description of content linked"
         }
       ]
-    }, 
+    },
     {
       "title": "References",
       "links": [
@@ -104,22 +104,19 @@ In the `index.json` file of a challenge, the `codeExamples` field contains the c
         "other": "url to other source, like GitHub"
       }
     }
-  ],
+  ]
   // ...
 }
 ```
 
 The URLs of the code examples should ideally be in the following format:
 
-| Language | Description | Example |
-| -------- | ----------- | ------- |
-| `p5`     | Link to p5.js Web Editor sketch | `https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM` |
-| `p5`, `processing`, `other`     | Link to code example on GitHub (from the [Coding Challenges repo](https://github.com/CodingTrain/Coding-Challenges/)) | `https://github.com/CodingTrain/Coding-Challenges/tree/main/169_Pi_Day/p5` |
-
-
+| Language                    | Description                                                                                                           | Example                                                                    |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `p5`                        | Link to p5.js Web Editor sketch                                                                                       | `https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM`                   |
+| `p5`, `processing`, `other` | Link to code example on GitHub (from the [Coding Challenges repo](https://github.com/CodingTrain/Coding-Challenges/)) | `https://github.com/CodingTrain/Coding-Challenges/tree/main/169_Pi_Day/p5` |
 
 To add thumbnail images for the code examples (the output of the code), the images should be inside a subfolder named `images` in the challenge folder.
-
 
 ## Tracks - adding template & video folder
 
