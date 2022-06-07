@@ -189,6 +189,6 @@ Now let's take a closer look at each property:
 | `title`  | Official event title                                  | `"Neuroevolution - the Nature of Code"`                    |
 | `date`   | The scheduled date for the event                      | `2022-07-16`                                               |
 | `time`   | The schedule time for the event                       | `"20:00"`                                                  |
-| `host`   | Host of the event                                     | "dan Shiffman",                                            |
+| `host`   | Host of the event                                     | "Coding Train",                                            |
 | `type`   | Is the event in person? online?                       | `irl/livestream...`                                        |
 | `url`    | Website where can attendees register or attend event. | `https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw` |
