@@ -41,7 +41,6 @@
     margin: 0;
     font-size: var(--maru-large);
     font-family: var(--maru);
-    font-weight: bold;
   }
 }
 
@@ -109,12 +108,15 @@
 /* Variants */
 .red {
   &.root {
-    color: var(--red-text);
-    background-color: var(--red-light);
+  }
+
+  & .icon {
+    color: var(--red);
   }
 
   & .seeMore {
     color: var(--red-text);
+    background-color: var(--red-light);
   }
 
   & .item.selected button {
@@ -124,6 +126,7 @@
 
   & .item button {
     color: var(--red-text);
+    background-color: var(--red-light);
   }
 
   & .icon,
@@ -138,12 +141,15 @@
 
 .cyan {
   &.root {
-    color: var(--cyan-text);
-    background-color: var(--cyan-light);
+  }
+
+  & .icon {
+    color: var(--cyan);
   }
 
   & .seeMore {
     color: var(--cyan-text);
+    background-color: var(--cyan-light);
   }
 
   & .item.selected button {
@@ -153,6 +159,7 @@
 
   & .item button {
     color: var(--cyan-text);
+    background-color: var(--cyan-light);
   }
 
   & .icon,
