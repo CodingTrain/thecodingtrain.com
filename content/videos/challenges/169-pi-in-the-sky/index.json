@@ -5,9 +5,11 @@
   "videoId": "_H9JIwWP7HQ",
   "date": "2022-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["PI", "game"],
+  "topics": ["PI", "game", "pi day"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Happy Pi Day!" } 
+  ],
   "codeExamples": [
     {
       "title": "Pi in the Sky",

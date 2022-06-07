@@ -63,26 +63,28 @@
   "codeExamples": [
     {
       "title": "Slide Puzzle with Image",
-      "description": "",
+      "image": "imagepuzzle.png",
+      "description": "Slide Puzzle using an Image",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/o_ljlLilZ",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-image"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/165_Slide_Puzzle/slide-puzzle-image"
       }
     },
     {
       "title": "Slide Puzzle with Video",
-      "description": "",
+      "description": "Slide Puzzle using Camera Capture",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/YnLX7bGwW",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-video"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/165_Slide_Puzzle/slide-puzzle-video"
       }
     },
     {
       "title": "Slide Puzzle with Canvas",
-      "description": "",
+      "description": "Slide Puzzle using a Canvas animation",
+      "image": "canvaspuzzle.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/MVCd9trLw",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_165_Slide_Puzzle/slide-puzzle-canvas"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/165_Slide_Puzzle/slide-puzzle-canvas"
       }
     }
   ],

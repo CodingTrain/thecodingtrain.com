@@ -23,7 +23,7 @@
     {
       "title": "Monty Hall",
       "description": "Three-door demonstration of the Monty Hall Problem with gameplay statistics",
-      "image": "image1.png",
+      "image": "montyhall.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM"
       }
@@ -31,7 +31,7 @@
     {
       "title": "Monty Hall (variable speed and doors)",
       "description": "Demonstration of the Monty Hall Problem with up to 50 doors",
-      "image": "image2.png",
+      "image": "montyhall2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/PVuN7NPjj"
       }
@@ -39,7 +39,6 @@
     {
       "title": "GitHub Repo",
       "description": "Link to the demonstration source code",
-      "image": "image2.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Monty-Hall"
       }
@@ -47,7 +46,7 @@
     {
       "title": "Demo",
       "description": "Link to the running Monty Hall Problem demonstration",
-      "image": "image2.png",
+      "image": "demo.png",
       "urls": {
         "other": "https://codingtrain.github.io/Monty-Hall/"
       }
