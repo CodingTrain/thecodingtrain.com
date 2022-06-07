@@ -56,10 +56,6 @@
   flex: 1 1 var(--box-padding);
 }
 
-.showcasePanel p {
-  color: var(--purple);
-}
-
 .showcasePanel button {
   flex-basis: 50%;
   cursor: pointer;

@@ -34,6 +34,7 @@ const PassengerShowcasePanel = ({
           </Fragment>
         ))}
       </div>
+
       <ButtonPanel
         text="Have you completed a project? Share your work!"
         buttonText="Submit a contribution"
