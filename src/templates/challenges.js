@@ -91,14 +91,14 @@ const RecentChallenge = ({
           <p>{getReadableDate(date)}</p>
           <Link
             className={css.play}
-            to={`/challenge/${slug}`}
+            to={`/challenges/${slug}`}
             aria-label={title}>
             <PlayButton />
           </Link>
         </div>
       </div>
       <div className={css.right}>
-        <Link to={`/challenge/${slug}`}>
+        <Link to={`/challenges/${slug}`}>
           {cover ? (
             <Image
               image={cover.file.childImageSharp.gatsbyImageData}
