@@ -79,7 +79,7 @@
         {
             "title": "3D",
             "description": "3D implementation",
-            "image": "basic.png",
+            "image": "3D.png",
             "urls": {
                 "other": "https://editor.p5js.org/codingtrain/sketches/D0ONOlCDT"
             }
@@ -87,7 +87,7 @@
         {
             "title": "Self Avoiding Walk (With Bezier)",
             "description": "Implementation with Bezier",
-            "image": "basic.png",
+            "image": "bezier.png",
             "urls": {
                 "other": "https://editor.p5js.org/codingtrain/sketches/KFbX0NWgh"
             }
@@ -95,7 +95,7 @@
         {
             "title": "Recursion",
             "description": "Recursion implementation",
-            "image": "basic.png",
+            "image": "recurrsion.png",
             "urls": {
                 "other": "https://editor.p5js.org/codingtrain/sketches/UPxBk1YiB"
             }
@@ -103,7 +103,7 @@
         {
             "title": "Random Walk with Alpha",
             "description": "Random Walk with alpha implementation",
-            "image": "basic.png",
+            "image": "alpha.png",
             "urls": {
                 "other": "https://editor.p5js.org/codingtrain/sketches/IEw2RkDnJ"
             }
