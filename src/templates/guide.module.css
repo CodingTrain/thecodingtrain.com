@@ -106,10 +106,13 @@
     border-left: none;
     padding: 0 0 var(--box-padding) 0;
   }
+
+  & .list {
+    border-left: none;
+  }
 }
 
 .listItem {
-  /* padding-left: var(--box-padding); */
   font-size: var(--maru-medium);
   line-height: var(--maru-medium-line-height);
 }

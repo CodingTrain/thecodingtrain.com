@@ -1,0 +1,78 @@
+{
+  "title": "Estimating \u03c0 from Random Numbers with Euclid's Algorithm",
+  "description": "\ud83e\udd67 Happy Pi Day 2021! This year I estimate the digits of \u03c0 with random numbers and the probability of two integers being co-prime.",
+  "videoNumber": "161",
+  "videoId": "EvS_a921dBo",
+  "date": "2021-03-14",
+  "languages": ["p5.js", "javascript"],
+  "topics": ["pi day", "math", "random numbers"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {"time":"0:00", "title": "Happy Pi Day!" },
+    {"time":"1:26", "title": "Explain! What does co-prime mean?" },
+    {"time":"4:21", "title": "Explain! Euclid's Algorithm" },
+    {"time":"8:40", "title": "Example! Finding the greatest common divisor." },
+    {"time":"9:55", "title": "Code! gcd() function with Euclid's Algorithm." },
+    {"time":"12:23", "title": "Code! Let's load the random digits." },
+    {"time":"14:39", "title": "Code! Let's use draw() for our loop." },
+    {"time":"16:13", "title": "Code! Co-prime or Co-factor?" },
+    {"time":"17:44", "title": "Explain! How we are going to estimate π." },
+    {"time":"18:50", "title": "Code! Estimating π." },
+    {"time":"21:59", "title": "Code! Trying with digits of π." },
+    {"time":"22:54", "title": "Ideas! Thanks for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Estimating \u03c0 from Random Numbers",
+      "description": "Estimating the digits of Pi with random numbers",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
+      }
+    },
+    {
+      "title": "Estimating \u03c0 from from the digits of \u03c0",
+      "description": "Estimating the digits of Pi by using the digits of Pi as random numbers",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/x0eikODKm"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Probability of Two Integers being Co-Prime",
+          "url": "https://www.cut-the-knot.org/m/Probability/TwoCoprime.shtml",
+          "description": "Article on the probability of two integers being co-prime"
+        },
+        {
+          "title": "Euclidean Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Euclidean_algorithm",
+          "description": "Wikipedia Page on the Euclidean Algorithm"
+        },
+        {
+          "title": "A Million Random Digits",
+          "url": "https://www.rand.org/pubs/monograph_reports/MR1418.html",
+          "description": "Digital Version of the book \"A Million Random Digits with 100,000 Normal Deviates\""
+        },
+        {
+          "title": "Quantum Random Numbers",
+          "url": "https://qrng.anu.edu.au/",
+          "description": "About Quantum Random Numbers"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Generating \u03c0 from 1,000 random numbers",
+          "url": "https://youtu.be/RZBhSi_PwHU",
+          "description": "Video by Stand-up Maths on estimating Pi from random numbers"
+        }
+      ]
+    }
+  ]
+}
