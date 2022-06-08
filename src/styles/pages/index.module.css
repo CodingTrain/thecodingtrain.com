@@ -198,14 +198,14 @@
 
 .trackCard .date {
   background-color: var(--red-light);
-  color: var(--red);
+  color: var(--gray-dark);
   border-bottom: var(--border-red);
   border-left: var(--border-red);
 }
 
 .challengeCard .date {
   background-color: var(--cyan-light);
-  color: var(--cyan);
+  color: var(--gray-dark);
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
 }
@@ -263,17 +263,9 @@
   border-left: var(--border-pink);
   line-height: var(--baseline-box);
   font-size: var(--maru-large);
-  color: var(--pink);
+  color: var(--gray-dark);
   background-color: var(--pink-tint);
   text-transform: uppercase;
-
-  & span {
-    font-weight: bold;
-  }
-
-  & span + & span {
-    font-weight: normal;
-  }
 }
 
 .event {
