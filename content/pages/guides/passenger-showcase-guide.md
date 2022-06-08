@@ -17,15 +17,13 @@ On the repo homepage, click the button in the upper left-hand corner where it sa
 Navigate to the video folder the contribution belongs to:
 If the video is a coding challenge, then the video will be in `content/videos/challenges/number-challenge-name`.
 
-If the video is a part of a series, chances are it is either in a main or side track on the site, both of which are found in `content/videos/tracks/`.
+If the video is a part of a series, chances are it is either in a main or side track on the site, both of which are found in `content/videos/`.
 
 ## Creating the contribution file
 
-If someone has already submitted a contribution. you will see a `showcase` folder.  Click "Add file" in the upper right-hand corner and click "Create new file" (or "Upload files'', if you already have the contribution on your local machine).  Name the file `contribution2.json`, if that exists `contribution3.json`, etc).  If there are no submissions yet, name the file `showcase/contribution1.json`.  
+If someone has already submitted a contribution. you will see a `showcase` folder. Click "Add file" in the upper right-hand corner and click "Create new file" (or "Upload files'', if you already have the contribution on your local machine). Name the file `contribution2.json`, if that exists `contribution3.json`, etc). If there are no submissions yet, name the file `showcase/contribution1.json`.
 
 ![Creating a new file in the showcases folder](./passenger-showcase/showcasefolder.png)
-
-
 
 Copy the template into the new file:
 
