@@ -80,32 +80,32 @@
   "codeExamples": [
     {
       "title": "Simple Spring",
-      "description": "Code example 1 description",
-      "image": "image1.png",
+      "description": "Implementation of a simple spring.",
+      "image": "simplespring.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/dcd6-2mWa"
       }
     },
     {
       "title": "Spring Vector",
-      "description": "Code example 3 description",
-      "image": "image1.png",
+      "description": "Implemention with a vector.",
+      "image": "springvector.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/_A2pm_SSg"
       }
     },
     {
       "title": "Spring OOP",
-      "description": "Code example 5 description",
-      "image": "image1.png",
+      "description": "Implemention with OOP.",
+      "image": "springOOP.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/9BAoEn4Po"
       }
     },
     {
       "title": "Soft Spring",
-      "description": "Code example 7 description",
-      "image": "image1.png",
+      "description": "Implemention with a soft spring",
+      "image": "softspring.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/S5dY7qjxP"
       }
