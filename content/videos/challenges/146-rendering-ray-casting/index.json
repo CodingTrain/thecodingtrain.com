@@ -64,7 +64,6 @@
         {
             "title": "Processing - Processing",
             "description": "Implementation of 3d raycasting algorithm.",
-            "image": "raycasting.png",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting/Processing/CC_146_Rendering_Ray_Casting"
             }
