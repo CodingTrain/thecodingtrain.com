@@ -50,6 +50,32 @@ Data from the old website was scraped into starter templates that [reside in a G
 
 8. The downloaded zip file and extracted files can be deleted from the directory they were downloaded to.
 
+### Next Steps
+
+Once you have the template directory in the "challenges" folder, there are a number of things to check to ensure stale data is either updated or removed, and that thumbnail images and metadata get added.  Below are some things to check:
+
+1. Update links to code examples.
+   - For the p5js examples, make sure the links listed really take you to the p5 Web Editor page that stores that project.
+   - For the Processing examples, ...
+2. Add thumbnail images for code examples.
+   - Each code example has an "image" property that should contain the file name of a screenshot of the running project.  That image file is stored in the "images" directory within the challenge directory.
+   
+   ![screenshot of a page that includes an image for each code example](https://user-images.githubusercontent.com/28508947/172723991-f29fad0d-d0a4-4153-b995-e3aa477f0235.png)
+   ![screenshot showing the image files in the images directory](https://user-images.githubusercontent.com/28508947/172724346-3f802b38-25d3-4a47-b7c4-f94ac9b9fbc9.png)
+   ![screenshot showing the image property in the codeExamples in the index.json file](https://user-images.githubusercontent.com/28508947/172724547-606b49e9-cfc7-4205-a69b-acd5f2d08282.png)
+   
+3. Remove broken showcase links.
+   - Check each of the URLs in each of the showcases to ensure that the pages that are linked still exist.  Sometimes the linked projects get deleted by the user who uploaded it.
+4. Add thumbnail images for each showcase.
+   - If you're able to run the project, create a thumbnail image for each showcase attached to the challenge.
+   - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web.  Sometimes these projects are hosted on sites where previews of the running project are available.  If so, grab a screenshot of the running project to use as the thumbnail for that project.  If not, the placeholder image will be used.
+5. Add additional metadata descriptions for related links and videos.
+   - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
+   - Update the "languages" property in the "index.json" file.  In this instance, "languages" refers to the programming languages used to create the examples.  For example: "p5js", "javascript", "processing", or "node.js".
+   - Update the "topics" property in the "index.json" file.  If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics".  If no tags were present on the YouTube page, then this may be blank.
+6. Replace any links to the old website with links to the new website.
+   - Some links in the "index.json" file may refer to other challenges or other parts of the old website.  For example, challenge 10.1 is part 1 of a 4 part series.  Each of the 4 parts refers to each of the other 4 parts in the series in the "Other Parts Of This Coding Challenge" section of the "index.json" file.  The path to those other parts will have changed on the new website, so that URL will need to be updated.
+
 ## Coding Challenges - Adding video
 
 If you want to manually add a new (or old) challenge video to the site, you can follow these instructions.
