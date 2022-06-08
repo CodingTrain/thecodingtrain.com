@@ -14,14 +14,7 @@
             "description": "The sketch visualizes sandpiles in P5.js.",
             "image": "sandpiles.png",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/47dTVFxuB"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "The sketch visualizes sandpiles in processing.",
-            "image": "sandpile_processing.png",
-            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/47dTVFxuB",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/107_sandpiles/Processing/CC_107_sandpiles"
             }
         }
