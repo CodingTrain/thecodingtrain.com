@@ -12,6 +12,7 @@
   flex-basis: calc(50% - var(--baseline-box));
   width: calc(50% - var(--baseline-box));
   --color: var(--gray-dark);
+  --icon-color: var(--gray-dark);
   --border: var(--border-purple);
   --background-color: var(--purple-light);
   margin-top: var(--baseline-box);
@@ -44,25 +45,25 @@
 
 /* variants */
 .root.purple {
-  --color: var(--gray-dark);
+  --icon-color: var(--purple);
   --border: var(--border-purple);
   --background-color: var(--purple-light);
 }
 
 .root.red {
-  --color: var(--gray-dark);
+  --icon-color: var(--red);
   --border: var(--border-red);
   --background-color: var(--red-light);
 }
 
 .root.orange {
-  --color: var(--gray-dark);
+  --icon-color: var(--orange);
   --border: var(--border-orange);
   --background-color: var(--orange-light);
 }
 
 .root.cyan {
-  --color: var(--gray-dark);
+  --icon-color: var(--cyan);
   --border: var(--border-cyan);
   --background-color: var(--cyan-light);
 }
@@ -154,7 +155,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--color);
+  color: var(--icon-color);
 }
 
 .top h3 {

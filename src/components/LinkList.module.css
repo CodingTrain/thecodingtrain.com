@@ -60,19 +60,12 @@
     border-color: var(--red);
     background-color: var(--red-light);
   }
-
-  & .url {
-    color: var(--gray-dark);
-  }
 }
 
 .cyan {
   & .link {
     border-color: var(--cyan);
     background-color: var(--cyan-light);
-  }
-  & .url {
-    color: var(--gray-dark);
   }
 }
 

@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
 
+  --color: var(--gray-dark);
+
   @media (--medium) {
     width: 100%;
     flex-basis: 100%;
@@ -13,25 +15,25 @@
 
 /* variants */
 .root.purple {
-  --color: var(--gray-dark);
+  --color: var(--purple);
   --border: var(--border-purple);
   --background-color: var(--purple-light);
 }
 
 .root.red {
-  --color: var(--gray-dark);
+  --color: var(--red);
   --border: var(--border-red);
   --background-color: var(--red-light);
 }
 
 .root.orange {
-  --color: var(--gray-dark);
+  --color: var(--orange);
   --border: var(--border-orange);
   --background-color: var(--orange-light);
 }
 
 .root.cyan {
-  --color: var(--gray-dark);
+  --color: var(--cyan);
   --border: var(--border-cyan);
   --background-color: var(--cyan-light);
 }

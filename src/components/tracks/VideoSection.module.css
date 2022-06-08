@@ -132,7 +132,6 @@
   & button:hover {
     background-color: var(--red-light);
     color: var(--gray-dark);
-    font-weight: 600;
   }
 }
 
@@ -143,7 +142,6 @@
 .selected button {
   background-color: var(--red-light);
   color: var(--gray-dark);
-  font-weight: 600;
 }
 
 /* Timeline section */

@@ -15,6 +15,7 @@
     overflow: hidden;
     margin: 0 var(--spacing-normal) 0 0;
     text-transform: uppercase;
+    color: var(--gray-dark);
   }
 }
 
@@ -23,31 +24,26 @@
 .red {
   background-color: var(--red-light);
   border-color: var(--red);
-  color: var(--gray-dark);
 }
 
 .purple {
   background-color: var(--purple-light);
   border-color: var(--purple);
-  color: var(--gray-dark);
 }
 
 .orange {
   background-color: var(--orange-light);
   border-color: var(--orange);
-  color: var(--gray-dark);
 }
 
 .pink {
   background-color: var(--pink-light);
   border-color: var(--pink);
-  color: var(--gray-dark);
 }
 
 .cyan {
   background-color: var(--cyan-light);
   border-color: var(--cyan);
-  color: var(--gray-dark);
 }
 
 @media (--small) {

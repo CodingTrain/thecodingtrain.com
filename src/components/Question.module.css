@@ -34,7 +34,7 @@
 }
 
 .permalink {
-  color: var(--gray-dark);
+  color: var(--pink);
   font-size: var(--maru-xlarge);
 }
 
@@ -94,7 +94,7 @@
 }
 
 .pink .answer p a {
-  color: var(--gray-dark);
+  color: var(--pink);
 }
 
 @media (--small) {
