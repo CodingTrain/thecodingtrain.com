@@ -32,7 +32,7 @@
     {
       "title": "ASCII Video",
       "description": "ASCII Art from Live Camera Feed",
-      "image": "image1.png",
+      "image": "video.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx"
       }
@@ -40,7 +40,7 @@
     {
       "title": "ASCII Image Canvas",
       "description": "ASCII Art from an Image (with canvas)",
-      "image": "image1.png",
+      "image": "imagecanvas.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_"
       }
@@ -48,7 +48,7 @@
     {
       "title": "ASCII Image DOM",
       "description": "ASCII Art from an Image (with DOM elements)",
-      "image": "image1.png",
+      "image": "image_dom.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j"
       }
@@ -56,7 +56,7 @@
     {
       "title": "ASCII Text",
       "description": "ASCII Art from specified text",
-      "image": "image1.png",
+      "image": "text.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP"
       }
@@ -64,7 +64,7 @@
     {
       "title": "ASCII Image Weather API",
       "description": "ASCII Art with text from Weather API",
-      "image": "image1.png",
+      "image": "weather.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4"
       }
