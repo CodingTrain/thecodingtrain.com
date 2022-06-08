@@ -185,7 +185,8 @@
   margin: 0;
   font-family: var(--maru-mono);
   font-size: var(--maru-small);
-  padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
+  line-height: var(--baseline-2of5);
+  padding: var(--spacing-normal);
   flex-grow: 1;
   max-height: var(--baseline-box-5x);
   overflow: hidden;
@@ -248,6 +249,7 @@
 
   .description {
     height: var(--baseline-4x);
+    padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   }
 
   .img {
