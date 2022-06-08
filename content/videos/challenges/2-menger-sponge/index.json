@@ -8,9 +8,31 @@
   "topics": ["fractal", "3d"],
   "canContribute": true,
   "timestamps": [
-    { "time": "0:00", "title": "Title 1" },
-    { "time": "1:26", "title": "Title 2" },
-    { "time": "1:26", "title": "Title 3" }
+    { "time": "0:00", "title": "Welcome to a 10 minute Coding Challenge!" },
+    { "time": "0:26", "title": "Quick math about the Menger Sponge" },
+    { "time": "1:02", "title": "Code! Drawing a 3D box in Processing" },
+    { "time": "2:14", "title": "Creating a Box class" },
+    {
+      "time": "3:36",
+      "title": "Use a Box object instead of the hardcoded box"
+    },
+    { "time": "4:02", "title": "Chopping up one Box into multiple ones" },
+    {
+      "time": "6:53",
+      "title": "Modeling the Menger Sponge as an ArrayList of Boxes"
+    },
+    {
+      "time": "7:41",
+      "title": "Generating the next iteration on mouse click"
+    },
+    { "time": "9:47", "title": "Bonus time! Adding 2 more minutes 😜" },
+    {
+      "time": "10:03",
+      "title": "How to determine which boxes need to be removed?"
+    },
+    { "time": "10:48", "title": "Code! Removing the extra boxes" },
+    { "time": "12:12", "title": "Enhancing the visuals" },
+    { "time": "13:32", "title": "Done! The Menger Sponge in Processing" }
   ],
   "codeExamples": [
     {
