@@ -56,7 +56,7 @@
   font-size: var(--font-reduced);
   font-family: var(--maru);
   font-weight: 600;
-  color: var(--pink-text);
+  color: var(--gray-dark);
   border-left: var(--border);
   border-bottom: var(--border);
   border-bottom-color: var(--pink);

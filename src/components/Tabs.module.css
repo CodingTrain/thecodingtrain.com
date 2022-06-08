@@ -68,7 +68,7 @@
   & .tab:hover,
   & .active {
     background-color: var(--red-light);
-    color: var(--red-text);
+    color: var(--gray-dark);
   }
 }
 
@@ -86,7 +86,7 @@
   & .tab:hover,
   & .active {
     background-color: var(--cyan-light);
-    color: var(--cyan-text);
+    color: var(--gray-dark);
   }
 }
 

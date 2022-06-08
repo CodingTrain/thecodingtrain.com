@@ -104,7 +104,7 @@
 
 .links {
   background-color: var(--purple-light);
-  color: var(--purple-text);
+  color: var(--gray-dark);
 }
 
 .socialRow {
@@ -205,7 +205,7 @@
 .acknowledgementsList {
   border-left: var(--border-purple);
   background-color: var(--purple-light);
-  color: var(--purple-text);
+  color: var(--gray-dark);
   border-bottom: var(--border-purple);
   display: flex;
   flex-wrap: wrap;

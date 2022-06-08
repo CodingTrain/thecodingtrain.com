@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   border-left: var(--border-cyan);
   border-bottom: var(--border-cyan);
-  color: var(--cyan-text);
+  color: var(--gray-dark);
   text-transform: uppercase;
   background-color: var(--cyan-light);
 
@@ -121,7 +121,7 @@
 }
 
 .date {
-  color: var(--cyan-text);
+  color: var(--gray-dark);
   background-color: var(--cyan-light);
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);

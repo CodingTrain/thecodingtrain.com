@@ -12,7 +12,7 @@
   border-left: var(--border-purple);
   border-bottom: var(--border-purple);
   text-transform: uppercase;
-  color: var(--purple-text);
+  color: var(--gray-dark);
   background-color: var(--purple-light);
 
   & * {

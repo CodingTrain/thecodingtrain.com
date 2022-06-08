@@ -23,31 +23,31 @@
 .red {
   background-color: var(--red-light);
   border-color: var(--red);
-  color: var(--red-text);
+  color: var(--gray-dark);
 }
 
 .purple {
   background-color: var(--purple-light);
   border-color: var(--purple);
-  color: var(--purple-text);
+  color: var(--gray-dark);
 }
 
 .orange {
   background-color: var(--orange-light);
   border-color: var(--orange);
-  color: var(--orange-text);
+  color: var(--gray-dark);
 }
 
 .pink {
   background-color: var(--pink-light);
   border-color: var(--pink);
-  color: var(--pink-text);
+  color: var(--gray-dark);
 }
 
 .cyan {
   background-color: var(--cyan-light);
   border-color: var(--cyan);
-  color: var(--cyan-text);
+  color: var(--gray-dark);
 }
 
 @media (--small) {

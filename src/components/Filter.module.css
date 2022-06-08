@@ -115,7 +115,7 @@
   }
 
   & .seeMore {
-    color: var(--red-text);
+    color: var(--gray-dark);
     background-color: var(--red-light);
   }
 
@@ -125,7 +125,7 @@
   }
 
   & .item button {
-    color: var(--red-text);
+    color: var(--gray-dark);
     background-color: var(--red-light);
   }
 
@@ -148,7 +148,7 @@
   }
 
   & .seeMore {
-    color: var(--cyan-text);
+    color: var(--gray-dark);
     background-color: var(--cyan-light);
   }
 
@@ -158,7 +158,7 @@
   }
 
   & .item button {
-    color: var(--cyan-text);
+    color: var(--gray-dark);
     background-color: var(--cyan-light);
   }
 

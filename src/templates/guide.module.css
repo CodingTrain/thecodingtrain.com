@@ -46,7 +46,7 @@
 .itemSpacer {
   flex-basis: 50%;
   background-color: var(--purple-light);
-  color: var(--purple-text);
+  color: var(--gray-dark);
 }
 
 .headingBorderTop {
@@ -177,7 +177,7 @@
 
 .th {
   background-color: var(--purple-light);
-  color: var(--purple-text);
+  color: var(--gray-dark);
 }
 
 .breakSpacer {

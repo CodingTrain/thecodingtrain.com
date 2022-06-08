@@ -34,7 +34,7 @@
 }
 
 .permalink {
-  color: var(--pink-text);
+  color: var(--gray-dark);
   font-size: var(--maru-xlarge);
 }
 
@@ -51,7 +51,7 @@
       position: absolute;
       left: calc(-1.5 * var(--box-padding));
       content: "\2022";
-      color: var(--pink-text);
+      color: var(--gray-dark);
       display: inline-block;
       width: var(--box-padding);
     }
@@ -94,7 +94,7 @@
 }
 
 .pink .answer p a {
-  color: var(--pink-text);
+  color: var(--gray-dark);
 }
 
 @media (--small) {
