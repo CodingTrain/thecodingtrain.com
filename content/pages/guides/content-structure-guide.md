@@ -164,7 +164,7 @@ If it's not defined or is left empty, then no challenge panel is shown in the co
 
 - They should at least have a `"title"`, and hopefully a `"description"`.
 - `"image"` should directly reference a file inside of `images/`.
-- `"urls"` contain all code sources specific to that code example `"p5"`, `"processing"` or `"node"` are possible languages we support, and `"other"` is a fallback option.
+- `"urls"` contain all code sources specific to that code example. `"p5"`, `"processing"` or `"node"` are possible languages we support, and `"other"` is a fallback option.
 
 If `"codeExamples"` isn't set, it will default to an empty array.
 
@@ -392,6 +392,101 @@ To reference it in a track, the relative paths from `videos` should be used.
 ```
 
 ## Pages text content
+
+The text content of most of the pages and sections of the site are also available as JSON or MD files to edit easily. This is all contained in the `content/pages/` folder.
+
+### Homepage
+
+The homepage is composed of seven sections. Each of them gets populated with the text content in the objects defined in a specific property of the JSON object defined in `content/pages/homepage/index.json`.
+
+Most of them contain `"title"` and `"description"` properties to edit the corresponding header and description. A bunch of them have specific CTA sections which's text can also be found as objects in the corresponding section.
+
+The tracks, challenges and passenger showcase sections have a specific set of featured content that can also be edited by adding or removing slugs to the corresponding content. The slugs are defined in a similar fashion as tracks define which videos compose them.
+
+The events sections can show the information of any number of upcoming events. Each event should be defined inside the array associated to the `"upcoming"` property, and should look like the following structure:
+
+```json
+{
+  "title": "Event title",
+  "description": "Event description",
+  "date": "YYYY-MM-DD",
+  "time": "HH:MM GMT",
+  "host": "Host name",
+  "type": "IRL or Online",
+  "url": "url to event information or access"
+}
+```
+
+The support section also shows different options to support The Coding Train, and each option follow a similar structure as CTAs.
+
+### Tracks and Challenges pages
+
+The tracks page text content is populated from the contents of `content/pages/tracks/index.json`, while for the challenges page it's in `content/pages/challenges/index.json`. Both files populate the `"title"` and `"description"` sections of the corresponding page with those properties.
+
+The challenges page also show a featured challenge. By setting the `"featuredChallenge"`property with a challenge slug, the corresponding challenge will show as featured. You can also edit the title text before the featured challenge info by editing the `"featuredText"`property.
+
+### Guides page and guides
+
+The guides page text content is populated from the contents of `content/pages/guides/index.json`. Similar to other pages, it populates the page using the `"title"` and `"description"` properties.
+
+But also, guides written as MD documents (as this one) in `content/pages/guides/` can be included as part of the site's user guides.
+
+The only requirement for a guide to be listed in the guides page is for it to also include a frontmatter section that contains a title property (unlike this guide).
+
+Other frontmatter properties to look out for are `date`and `description`, that along side `title` are used to list out the guide in the guides page.
+
+An thumbnail image can be associated to the guide by adding a PNG or JPG image to `content/pages/guides/` with the same name as the guide file.
+
+The content of MD guides will be parsed and create a specific page for it. Local images can be added in the document, whose files should be available too inside of `content/pages/guides/`.
+
+### FAQ page
+
+The FAQ page text content is populated from the contents of `content/pages/faq/index.json`. Similar to other pages, it populates the page using the `"title"` and `"description"` properties.
+
+But also, the `"sections"` key sets how the rest of the page is organized. It defines an array of section objects, each with a `"title"` and an `"questions"` array that contain the file names for the questions that should be part of the section.
+
+Each file name should reference a JSON file in `content/pages/faq/`. The following is question content structure:
+
+```json
+{
+  "question": "question prompt",
+  "answer": {
+    "text": "Main text [link text](url).",
+    "list": ["item text [link text](url)."],
+    "image": "image file name",
+    "video": {
+      "id": "YouTube video id",
+      "list": "YouTube playlist id"
+    }
+  }
+}
+```
+
+- Properties `"question"`and `"answer": {"text"}` are the minimum properties to set for any question. All other properties in `"answer"`are optional.
+- Setting `"text"` will render a paragraph with the answer. It may contain URLs written in the MD format that will get parsed.
+- Setting `"list"` will render a list of items that are expected to contain URLs written in the MD format.
+- Setting `"image"` will render an image as part of the answer. The name of the image should be set, and the file should be available inside of `content/pages/faq/`.
+- Setting `"video"` will render an embedded YouTube video as part of the answer. At least `"id"` should be set, is `"list"` is also set, then the embedded video will show the video as part of the corresponding playlist.
+
+### About page
+
+The about page text content is populated from the contents of `content/pages/about/index.json`. Similar to other pages, it populates the first section of the page using the `"title"` and `"description"` properties. These are meant to be used to describe Dan.
+
+Two images are expected to be defined in the `"covers"` property, which should be contained in `content/pages/about/` too. `"coversDescription"` is a second part of the first description that relates to the cover images.
+
+`"secondaryTitle"` and `"secondaryDescription"` are similar to `"title"` and `"description"`, but meant to describe The Coding Train.
+
+`"personalSocials"`and `"siteSocials"` receive an array of groups of links. Each group has a `"title"` property, and an array of social media links. Each link has a `"url"` and `"site"` properties, the latter sets the social media icon to show. Values for `"site"` are: `"twitter"`, `"instagram"`, `"youtube"`, `"discord"` or `"github"`.
+
+`"featuredTitle"`and `"featured"` sets the featured section content. Featured elements are objects that have `"title"`, `"description"`, `"thumbnail"` and `"url"` properties. `"thumbnail"` should be an image file, that similar to `"covers"`, files should be contained in `content/pages/about/` too.
+
+Finally, `"acknowledgementsText"`and `"acknowledgements"` sets the acknowledgements section content. `"acknowledgements"` should be an array of groups of people or organizations. Each group should have a `"name"` property, and the `"people"` property defines an array of people/orgs to acknowledge. Each person/org is an object that at least contains a `"name"` property, but can also specify a `"url"` property to link to that person/org's info/site.
+
+### 404 page
+
+The 404 page text content is populated from the contents of `content/pages/404/index.json`. Similar to other pages, it populates the page using the `"title"` and `"description"` properties.
+
+Links to other pages can be added, removed and edited by editing the `"links"` property. A page name, URL and color for the CTA should be provided for each one.
 
 ## Testing folder structure
 
