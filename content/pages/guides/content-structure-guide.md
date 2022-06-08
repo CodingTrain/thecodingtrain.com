@@ -1,22 +1,22 @@
 # Content structure guide for The Coding Train team
 
-_Last update: February 17th 2022_
+_Last update: June 7th 2022_
 
-On december 3rd 2021, we decided to start adding real content to this project. This guide serves as a way to understand how the workflow feels and if the content structure may need to be changed.
+On december 3rd 2021, we decided to start adding real content to this project. This guide serves as starting point to understand how the workflow feels and if the content structure may need to be changed.
 
 With that in mind, the purpose of this guide is to explain the structure of content that feeds the new Coding Train website that is being developed. As we learn about how the setup feels and works,
 this guide will be updated accordingly.
 
 ## Content folder structure
 
-For now, we'll be just considering content concerning videos and tracks.
-They are all kept in the `content/` folder, inside the `videos/` and `tracks/` directories respectively.
+The main content being considered are concerning videos, tracks and page text content.
+They are all kept in the `content/` folder, inside the `videos/`, `tracks/` and `pages/` directories respectively.
 
-The `guides/` folder currently has the website user guides that are in the existing Coding Train website, and are just placeholders for now that would need updating once we settle on the content folder setup.
+The `templates/` folder currently contains metadata files that serve as examples for different types of content.
+These can be copied, moved and edited to add new content to the site.
 
-Similarly, the `talks/` folder contains talk information for the about page, and `collaborators.json` contains information on the sites collaborators. All these can be ignored for now, but feel free to point out aspects that may need tweaks or add real data there too.
-
-The rationale behind the current structure is that videos are the building blocks of content from which tracks are composes from.
+For videos and tracks, the rationale behind the current structure is that videos are the main building blocks of content from which tracks are composes from.
+Videos are defined individually in `content/videos/` and tracks are defined in `content/tracks/` and reference which videos are part of them.
 
 ```
 content
@@ -27,19 +27,21 @@ content
 │  └─ challenges
 └─ tracks
    ├─ main-tracks
+   │  ├─ main-track-1
+   │  └─ ...
    └─ side-tracks
+      ├─ side-track-2
+      └─ ...
 ```
 
 ## Videos
 
-Videos tackle specific themes and are part of a sequence of videos. Each video should have their own folder inside of `content/videos/`.
+Videos tackle specific themes and are part of a sequence of videos (tracks). Each video should have their own folder inside of `content/videos/`.
 
-**Challenges** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to their contributions based on the challenge or coding experiment.
+**Challenges** are a special kind of video, that can be part of tracks but also exists as one-off videos with the intention of inviting viewers to contribute their own work based on the challenge or coding experiment.
 This are contained **specifically** inside of `content/videos/challenges`.
 
-<!-- - **Guest tutorials** are one-off lessons on different subjects given by guests lecturers -->
-
-Each video, whatever flavor of video they are, follow a similar folder structure:
+Each video, challenge or not, follow a similar folder structure:
 
 ```
 [videos|challenges]
@@ -51,18 +53,19 @@ Each video, whatever flavor of video they are, follow a similar folder structure
    │  └─ ...
    └─ showcase
       ├─ contribution-slug-1.json
+      ├─ contribution-slug-1.png
       ├─ contribution-slug-2.json
       └─ ...
 
 ```
 
-- `video-slug/` contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions, and they also become part of the path to their video player pages.
+- `video-slug/` contains all data related to a specific video. The slug is used to identify the video and reference it on track definitions, and they also become part of the URL path to their video player pages.
 - `video-slug/index.json` contains the main metadata for the video: title, description, YouTube video ID, etc...
 - `video-slug/images/` contains images specific to the video and can be referenced in `video-slug/index.json` as code example thumbnails.
 - `video-slug/showcase/` contains all metadata for contributions that viewers send and are accepted into the site to be part of the Passenger Showcase of the video.
 - `video-slug/showcase/contribution-slug.json` contains the metadata for the contribution to be showcased: title, author information, links to code or live versions, etc...
 
-### Metadata
+### Video Metadata
 
 Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file has the following structure:
 
@@ -122,60 +125,64 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
 }
 ```
 
-Most of the properties should translate directly from the current setup. `"title"`, `"description"`, and `"videoId"`, are the only required properties. The rest have a fallback value if not set.
+#### Title
 
-#### Video numbers
+Is the title of the video. It's a required metadata property.
 
-We are currently undecided on whether videos should be numbered or not. Currently, videos have numbers in their titles on YouTube and the current website, but the new website might not need them.
+#### Description
 
-We currently have a `"videoNumber"` property in the video JSON that can be set to whatever you want, and it's currently not used in the website.
+It's a description of the video. It shouldn't be very long. It's a required metadata property.
 
-> **NOTE**: This is an open question to The Coding Train team. If you could give us insight to whether this video number is needed in general or just for some cases, that would be greatly appreciated. Feel free to propose how video numbers should or should not be used.
+#### Video number
+
+Is a text number to associate the video with.
+These are specially important for challenge videos, and this value rendered along with the title of the challenge. It may have any value. This property isn't used in any way for normal videos.
 
 #### Video IDs
 
-Similar to the current site setup, this property makes reference to video ID found at the end of a YouTube video link. Only the ID is the value expected here, not the whole URL.
+This property makes reference to video ID found at the end of a YouTube video link. Only the ID is the value expected here, not the whole YouTube URL.
 
 #### Languages and topics
 
-The actual values for these haven't been decided, so we are open for you to suggest the set of possible values to have as options. There's no limit on how many languages and topics can be specified on each video, but often one or two should be appropriate.
+These work as tags for the videos from which they can be filtered. Languages relates to the used coding languages in the video, and topics to specific themes being worked on. There's no limit on how many languages and topics can be specified on each video, but often one or two should be appropriate.
 
 If `"languages"` or `"topics"` aren't set, they will default to an empty array.
 
 #### Passenger Showcase contribution enabling
 
-This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the contributions panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set, lessons and guest tutorials default to `false` and challenges to `true`.
+This property let's us disable the intention for users to send contributions for that specific videos. This property would show or hide the passenger showcase panel and button in a specific video by setting `"canContribute"` to `true` or `false` respectively. If `"canContribute"` is not set challenges default to `true` and regular videos to `false`.
 
 #### Related challenges
 
-This property let's us link challenges to a specific video in any way see fit. It's an array of slugs, which should match the path slug of a challenge to correctly reference it. If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
+This property let's us link challenges to a specific video in any way you see fit. It's an array of slugs, which should match the path slug of a challenge (relative to `content/videos/challenges`) to correctly reference it.
+
+If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
 
 #### Code examples
 
-`"codeExamples"` are thought to contain objects that reference the main code shown in the video. Referenced images can be contained in the corresponding `images/` folder in the video's directory.
+`"codeExamples"` should contain objects that reference the main code shown in the video. Referenced images can be contained in the corresponding `images/` folder in the video's directory.
 
-- `"image"` should directly reference a subfolder inside of `images/`.
-- `"urls"` contain all code sources specific to that code example `"p5"`, `"processing"` or `"node"` are possible languages we support, and `"other"` is a fallback option.
+- They should at least have a `"title"`, and hopefully a `"description"`.
+- `"image"` should directly reference a file inside of `images/`.
+- `"urls"` contain all code sources specific to that code example. `"p5"`, `"processing"` or `"node"` are possible languages we support, and `"other"` is a fallback option.
 
 If `"codeExamples"` isn't set, it will default to an empty array.
 
 #### Group Links
 
-Group links are a more general abstraction for specifying related groups of links that can be used to specify the "Links discussed" section of videos, "Guest contact information" for guest tutorials,
-"Videos discussed", or whatever new section is needed for each video.
+Group links are an abstraction for specifying related groups of links that relate or are mentioned to the video.
 
-In the case of "Videos discussed" or whatever content that lives in the Coding Train site,
-instead of specifying the whole url to the resource, the URL can contain the sub-path in the site for that resource that starts with `/`.
+It may contain URLs that go outside of The Coding Train site, in which cases the URL should be the full web URL, or it may be for an internal resource in The Coding Train site. For the later, the URL should be the sub-path in the site for that resource that starts with `/`.
 
 The `"description"` and `"icon"` properties are optional, but `"title"` and `"url"` are required.
 
-For now, `"icon"` expects a short emoji string that relates to the link. In the future this may also support adding coding train characters.
+For now, `"icon"` expects a short emoji string that relates to the link.
 
-`"description"` on the other hand can be a longish string that describes the link or something about it. It may also contain MD style urls that will be parsed, so it may also contain anchor links related to the link. For example: `"By [Dan Shiffman](https://shiffman.net/) and [DSI](https://designsystems.international/)!"`.
+`"description"` on the other hand can be a long-ish string that describes the link or something about it. It may also contain MD style urls that will be parsed, so it may also contain anchor links related to the link. For example: `"By [Dan Shiffman](https://shiffman.net/) and [DSI](https://designsystems.international/)!"`.
 
 If `"groupLinks"` isn't set, it will default to an empty array.
 
-#### Passenger Showcase
+### Video's Passenger Showcase
 
 All Passenger Showcase Contributions' should have metadata files (`video-slug/showcase/contribution-slug.json`) that are also JSON files with the following structure:
 
@@ -192,10 +199,9 @@ All Passenger Showcase Contributions' should have metadata files (`video-slug/sh
 }
 ```
 
-Similar to the current one,
-`"title"`, `"author: {"name"}"` are required, and either `"url"`, `"videoId"` or `"source"` is expected.
+As for required properties: `"title"`, `"author: {"name"}"` are required, and either `"url"`, `"videoId"` or `"source"` is expected.
 
-#### Images
+### Images
 
 We also currently support the addition of images related to videos and their showcase to use in the website.
 
@@ -222,16 +228,13 @@ We also currently support the addition of images related to videos and their sho
 - `placeholder.[png|jpg]` is a **required** image (either PNG or JPG) to be used as a placeholder for whether a specific video doesn't include their corresponding image at `video-slug/index.[png|jpg]`.
   This image also may be used as a placeholder for contributions that also don't include their own `showcase/contribution-slug.[png|jpg]` image and don't have a video image to fallback on.
 
-Feel free to also update the current placeholder images!
+## Tracks
 
-### Tracks
+Tracks are collections of videos. They come in two types: main and side tracks.
 
-On the other hand, tracks come in two types: main and side tracks.
+**Main tracks** are sequenced video tutorials that you can follow like a course syllabus, and are the core and principal courses available in The Coding Train, which seek to teach a big theme of multiple videos.
 
-**Main tracks** are the core and principal courses available in the coding train, which seek to teach a big theme of multiple videos. Main tracks also are composed of a sequence of chapters,
-where each one is further composed of a sequence of videos.
-
-**Side tracks** are curated collection of videos from potentially different contexts that relate on a connecting theme. Side tracks are a simple sequence of videos.
+**Side tracks** are collections of related videos but don’t necessarily need to be watched in order, they potentially come from different contexts that relate on a connecting theme.
 
 The current setup separates folders for main and side tracks, and inside those individual folders per track.
 
@@ -252,17 +255,16 @@ tracks
 
 Each `track-slug/` folder defines a new track and contains the track metadata in `index.json`.
 
-#### Metadata
+### Track Metadata
 
-Metadata for main and side tracks are very similar,
-they just differ in a property to define the video collection it includes. The properties `"title"` and `"description"` are all common and required to be set.
+Metadata for main and side tracks look the same. The properties `"title"` and `"description"` are all common and required to be set, and either the `"videos"` property or the `"chapters"` property should be defined on each track (but not both!). To define the collection of videos that compose the track, either `"chapters"` or `"videos"` should be used.
 
-For main tracks, the required property to define the collection is `"chapters"`. This defines an ordered sequence of chapters, where each is an ordered collection of videos. Each chapter should also have a `"title"` defined. To reference specific video, the same slug names used for subfolders in the `videos/` folder should be used.
+On the one hand, `"chapters"` organizes videos as an ordered sequence of chapters, where each is an ordered collection of videos. Each chapter should also have a `"title"` defined. To reference specific video, the same slug names used for subfolders in the `videos/` folder should be used.
 
 ```json
 {
-  "title": "Main track title",
-  "description": "Main track description",
+  "title": "Track title",
+  "description": "Track description",
   "chapters": [
     {
       "title": "First chapter title",
@@ -276,17 +278,17 @@ For main tracks, the required property to define the collection is `"chapters"`.
 }
 ```
 
-For side tracks, the required property is `"videos"`, which is a plain video sequence array.
+On the other hand, `"videos"` is just a plain video sequence as an array of slugs.
 
 ```json
 {
-  "title": "Side track title",
-  "description": "Side track description",
+  "title": "Track title",
+  "description": "Track description",
   "videos": ["video-1-slug", "challenges/video-2-slug", "video-3-slug"]
 }
 ```
 
-#### Images
+### Images
 
 Similar to videos, we currently support the addition of an image for each track to use as a cover in different pages.
 
@@ -356,8 +358,8 @@ To reference it in a track, the relative paths from `videos` should be used.
 
 ```json
 {
-  "title": "Main track title",
-  "description": "Main track description",
+  "title": "Track title",
+  "description": "Track description",
   "chapters": [
     {
       "title": "First chapter title",
@@ -379,8 +381,8 @@ To reference it in a track, the relative paths from `videos` should be used.
 
 ```json
 {
-  "title": "Side track title",
-  "description": "Side track description",
+  "title": "Track title",
+  "description": "Track description",
   "videos": [
     "track-name/chapter-1/lesson-1-slug",
     "challenges/video-2-slug",
@@ -389,7 +391,104 @@ To reference it in a track, the relative paths from `videos` should be used.
 }
 ```
 
-### Testing folder structure
+## Pages text content
+
+The text content of most of the pages and sections of the site are also available as JSON or MD files to edit easily. This is all contained in the `content/pages/` folder.
+
+### Homepage
+
+The homepage is composed of seven sections. Each of them gets populated with the text content in the objects defined in a specific property of the JSON object defined in `content/pages/homepage/index.json`.
+
+Most of them contain `"title"` and `"description"` properties to edit the corresponding header and description. A bunch of them have specific CTA sections which's text can also be found as objects in the corresponding section.
+
+The tracks, challenges and passenger showcase sections have a specific set of featured content that can also be edited by adding or removing slugs to the corresponding content. The slugs are defined in a similar fashion as tracks define which videos compose them.
+
+The events sections can show the information of any number of upcoming events. Each event should be defined inside the array associated to the `"upcoming"` property, and should look like the following structure:
+
+```json
+{
+  "title": "Event title",
+  "description": "Event description",
+  "date": "YYYY-MM-DD",
+  "time": "HH:MM GMT",
+  "host": "Host name",
+  "type": "IRL or Online",
+  "url": "url to event information or access"
+}
+```
+
+The support section also shows different options to support The Coding Train, and each option follow a similar structure as CTAs.
+
+### Tracks and Challenges pages
+
+The tracks page text content is populated from the contents of `content/pages/tracks/index.json`, while for the challenges page it's in `content/pages/challenges/index.json`. Both files populate the `"title"` and `"description"` sections of the corresponding page with those properties.
+
+The challenges page also show a featured challenge. By setting the `"featuredChallenge"`property with a challenge slug, the corresponding challenge will show as featured. You can also edit the title text before the featured challenge info by editing the `"featuredText"`property.
+
+### Guides page and guides
+
+The guides page text content is populated from the contents of `content/pages/guides/index.json`. Similar to other pages, it populates the page using the `"title"` and `"description"` properties.
+
+But also, guides written as MD documents (as this one) in `content/pages/guides/` can be included as part of the site's user guides.
+
+The only requirement for a guide to be listed in the guides page is for it to also include a frontmatter section that contains a title property (unlike this guide).
+
+Other frontmatter properties to look out for are `date`and `description`, that along side `title` are used to list out the guide in the guides page.
+
+An thumbnail image can be associated to the guide by adding a PNG or JPG image to `content/pages/guides/` with the same name as the guide file.
+
+The content of MD guides will be parsed and create a specific page for it. Local images can be added in the document, whose files should be available too inside of `content/pages/guides/`.
+
+### FAQ page
+
+The FAQ page text content is populated from the contents of `content/pages/faq/index.json`. Similar to other pages, it populates the page using the `"title"` and `"description"` properties.
+
+But also, the `"sections"` key sets how the rest of the page is organized. It defines an array of section objects, each with a `"title"` and an `"questions"` array that contain the file names for the questions that should be part of the section.
+
+Each file name should reference a JSON file in `content/pages/faq/`. The following is question content structure:
+
+```json
+{
+  "question": "question prompt",
+  "answer": {
+    "text": "Main text [link text](url).",
+    "list": ["item text [link text](url)."],
+    "image": "image file name",
+    "video": {
+      "id": "YouTube video id",
+      "list": "YouTube playlist id"
+    }
+  }
+}
+```
+
+- Properties `"question"`and `"answer": {"text"}` are the minimum properties to set for any question. All other properties in `"answer"`are optional.
+- Setting `"text"` will render a paragraph with the answer. It may contain URLs written in the MD format that will get parsed.
+- Setting `"list"` will render a list of items that are expected to contain URLs written in the MD format.
+- Setting `"image"` will render an image as part of the answer. The name of the image should be set, and the file should be available inside of `content/pages/faq/`.
+- Setting `"video"` will render an embedded YouTube video as part of the answer. At least `"id"` should be set, is `"list"` is also set, then the embedded video will show the video as part of the corresponding playlist.
+
+### About page
+
+The about page text content is populated from the contents of `content/pages/about/index.json`. Similar to other pages, it populates the first section of the page using the `"title"` and `"description"` properties. These are meant to be used to describe Dan.
+
+Two images are expected to be defined in the `"covers"` property, which should be contained in `content/pages/about/` too. `"coversDescription"` is a second part of the first description that relates to the cover images.
+
+`"secondaryTitle"` and `"secondaryDescription"` are similar to `"title"` and `"description"`, but meant to describe The Coding Train.
+
+`"personalSocials"`and `"siteSocials"` receive an array of groups of links. Each group has a `"title"` property, and an array of social media links. Each link has a `"url"` and `"site"` properties, the latter sets the social media icon to show. Values for `"site"` are: `"twitter"`, `"instagram"`, `"youtube"`, `"discord"` or `"github"`.
+
+`"featuredTitle"`and `"featured"` sets the featured section content. Featured elements are objects that have `"title"`, `"description"`, `"thumbnail"` and `"url"` properties. `"thumbnail"` should be an image file, that similar to `"covers"`, files should be contained in `content/pages/about/` too.
+
+Finally, `"acknowledgementsText"`and `"acknowledgements"` sets the acknowledgements section content. `"acknowledgements"` should be an array of groups of people or organizations. Each group should have a `"name"` property, and the `"people"` property defines an array of people/orgs to acknowledge. Each person/org is an object that at least contains a `"name"` property, but can also specify a `"url"` property to link to that person/org's info/site.
+
+### 404 page
+
+The 404 page text content is populated from the contents of `content/pages/404/index.json`. Similar to other pages, it populates the page using the `"title"` and `"description"` properties.
+
+Links to other pages can be added, removed and edited by editing the `"links"` property. A page name, URL and color for the CTA should be provided for each one.
+
+## Testing folder structure
 
 Test scripts are added to the site that checks if all going on inside of `content/` is as expected.
 

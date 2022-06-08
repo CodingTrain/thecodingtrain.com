@@ -25,40 +25,40 @@
   "codeExamples": [
     {
       "title": "Prime (Ulam) Spiral",
-      "description": "Code example 1 description",
-      "image": "image1.png",
+      "description": "Visualisation of the Prime Spiral",
+      "image": "primespiral.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0Ud-XsaYb"
       }
     },
     {
       "title": "Number Spiral",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Demo of displaying numbers in a spiral pattern",
+      "image": "numberspiral.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Zs65bV-Al"
       }
     },
     {
       "title": "Prime vs Random Spiral",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Visual comparison of a prime spiral and a random spiral pattern",
+      "image": "comparison.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/3np1hBlXD"
       }
     },
     {
       "title": "Shapes & Color",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Prime Spiral visualised with various colorful shapes",
+      "image": "shapesandcolor.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/mCvvSKpZ5"
       }
     },
     {
       "title": "Incorporating 3D",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Prime Spiral visualised with 3D shapes",
+      "image": "3dspiral.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/-eX078HZ5"
       }
@@ -71,7 +71,7 @@
         {
           "title": "CodingTrainChooChoo on Twitch",
           "url": "https://www.twitch.tv/codingtrainchoochoo",
-          "description": "The Coding Train Twitch Account"
+          "description": "The Coding Train Twitch Channel"
         },
         {
           "title": "Mathematical Games: The remarkable lore of the prime numbers (1964)",

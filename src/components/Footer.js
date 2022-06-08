@@ -64,7 +64,7 @@ const Footer = () => {
             What have you been inspired to make watching The Coding Train? Share
             your work and have it featured on this site!
           </p>
-          <Link className={css.cta} to="/guides/community-contribution-guide/">
+          <Link className={css.cta} to="/guides/passenger-showcase-guide/">
             Learn how to submit your work
           </Link>
         </div>

@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => {
           <ul>
             {data.challenges.nodes.map((challenge, i) => (
               <li key={i}>
-                <Link to={`/challenge/${challenge.slug}`}>
+                <Link to={`/challenges/${challenge.slug}`}>
                   {challenge.title}
                 </Link>
               </li>

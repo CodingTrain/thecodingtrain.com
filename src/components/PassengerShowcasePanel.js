@@ -38,7 +38,7 @@ const PassengerShowcasePanel = ({
       <ButtonPanel
         text="Have you completed a project? Share your work!"
         buttonText="Submit a contribution"
-        buttonLink=""
+        buttonLink="/guides/passenger-showcase-guide"
         variant="purple"
         rainbow
         className={css.showcasePanel}

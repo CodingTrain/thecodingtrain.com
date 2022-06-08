@@ -34,7 +34,6 @@
     border-left: var(--border);
     border-bottom: var(--border);
     display: block;
-    text-align: center;
     text-decoration: none;
     padding: 0 var(--box-padding);
     line-height: var(--baseline-box);
