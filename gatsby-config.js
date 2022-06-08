@@ -170,6 +170,7 @@ module.exports = {
           include: './src/images'
         }
       }
-    }
+    },
+    `gatsby-plugin-meta-redirect`
   ]
 };

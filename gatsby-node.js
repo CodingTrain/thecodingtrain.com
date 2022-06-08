@@ -217,9 +217,14 @@ exports.onCreateNode = ({
 };
 
 exports.createPages = async function ({ actions, graphql }) {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
+  await createRedirect({
+    fromPath: '/discord',
+    toPath: 'https://discord.com/invite/hPuGy2g',
+    isPermanent: true
+  });
 };
