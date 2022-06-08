@@ -66,7 +66,7 @@
 }
 
 .title {
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   text-transform: uppercase;
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
@@ -85,7 +85,7 @@
 .author {
   margin: 0;
 
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   & > address {
     border-bottom: var(--border-purple);
     border-left: var(--border-purple);

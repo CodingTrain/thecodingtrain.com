@@ -1,5 +1,5 @@
 .root {
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   display: flex;
 }
 
@@ -83,7 +83,7 @@
     font-family: var(--maru-mono);
 
     font-size: var(--maru-normal);
-    color: var(--gray-mid);
+    color: var(--gray-dark);
 
     white-space: nowrap;
   }
@@ -97,7 +97,7 @@
 .seeMore {
   cursor: pointer;
   font-family: var(--maru-mono);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   display: block;
   width: 100%;
   text-align: left;
