@@ -10,7 +10,7 @@ A new Coding Train video has been released and you want to add it to the website
 
 ## Coding Challenges - starting from a template
 
-Data from the old website was scraped into starter templates that reside in a GitHub repo that can be found [here](https://github.com/skaser85/thecodingtrain_website_data).  Each template directory includes three items:
+Data from the old website was scraped into starter templates that [reside in a GitHub repo that can be found here](https://github.com/skaser85/thecodingtrain_website_data).  Each template directory includes three items:
 
 | Item        | Description |
 | ----------- |:------------|
