@@ -6,11 +6,53 @@ date: '06/08/2022'
 
 You want to help with integrating new content into the site? Great to hear that! Now let’s see how you can help:
 
-A new Coding Train video has been released and you want to add it to the website so everyone else can find it there? OK, just follow these steps:
+A new Coding Train video has been released and you want to add it to the website so everyone else can find it there? You can look in this guide for a way to do that!
+
+## Coding Challenges - Starting from a template
+
+Data from the old website was scraped into starter templates that [reside in a GitHub repo that can be found here](https://github.com/skaser85/thecodingtrain_website_data). Each template directory includes three items:
+
+| Item       | Description                                                                                                                                                                           |
+| ---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| index.json | Contains data scraped from the old website as well as data pulled from YouTube (e.g., tags and timestamps).                                                                           |
+| index.jpg  | The thumbnail of the video from YouTube.                                                                                                                                              |
+| showcase   | This directory contains a JSON file for each showcase that was listed on the old website. No screenshots exist for any of the contributions, so those will need to be added manually. |
+
+### How to download a template directory
+
+1. In the linked repo, navigate to the directory of the target challenge. For example, if the target challenge is number 103 - Fire Effect, click into the "challenges" folder, then click into the "103-fire-effect" folder.
+2. Copy the URL in the address bar. For the example challenge, that would be: https://github.com/skaser85/thecodingtrain_website_data/tree/main/challenges/103-fire-effect
+
+![image](https://user-images.githubusercontent.com/28508947/172206925-5089b6ae-636a-47ba-83f7-cc75af56f164.png)
+
+3. Go to https://downgit.github.io/#/home. This website allows for a single resource from a GitHub repo to be downloaded instead of the needing to clone the entire repo.
+4. Paste the URL into the text box.
+5. Click the "Download" button to download a zip file of the challenge directory to wherever your downloads go.
+
+![image](https://user-images.githubusercontent.com/28508947/172207303-2fa0a12a-2f8b-4050-a3ea-66cf4f443cd8.png)
+
+6. On your machine, navigate to the downloaded zip file and extract its contents. After the files have been extracted, you should have a directory that looks like what's below:
+
+```
+   103-fire-effect
+    |_ 103-fire-effect
+       |- showcase
+       |  |- contribution1.json
+       |  |- ...
+       |  |_  contribution*.json
+       |- index.json
+       |_ index.jpg
+```
+
+7. Copy the inner challenge directory (i.e., the directory that contains the "showcase" directory and the "index.json" and "index.jpg" files) to the "content/videos/challenges" directory of the "thecodingtrain.com" repo on your local machine.
+
+![image](https://user-images.githubusercontent.com/28508947/172208649-d34495b7-f957-4ace-9d80-c0c2a7fb8e98.png)
+
+8. The downloaded zip file and extracted files can be deleted from the directory they were downloaded to.
 
 ## Coding Challenges - Adding video
 
-If you want to add a new (or old) challenge video to the site, you can follow these instructions.
+If you want to manually add a new (or old) challenge video to the site, you can follow these instructions.
 
 Make a folder for the video inside `content/videos/challenges`. The folder title should be formatted as `#-name-of-challenge`, replacing '#' with the challenge's number. Add a file named `index.json` to the folder.
 
