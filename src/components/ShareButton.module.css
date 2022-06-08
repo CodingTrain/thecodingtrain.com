@@ -10,13 +10,13 @@
   line-height: var(--baseline);
 
   & svg {
-    stroke: var(--gray-mid);
+    stroke: var(--gray-dark);
   }
 
   & span {
     padding-left: 10px;
     text-transform: none;
-    color: var(--gray-mid);
+    color: var(--gray-dark);
   }
 }
 

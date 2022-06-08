@@ -10,7 +10,7 @@
   border-top: var(--border);
   border-bottom: var(--border);
   border-left: var(--border);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   align-items: center;
 }
 
@@ -72,7 +72,7 @@
     text-decoration: underline;
     text-transform: lowercase;
     white-space: nowrap;
-    color: var(--gray-mid);
+    color: var(--gray-dark);
   }
   & .linkIcon {
     font-family: var(--maru-emoji);

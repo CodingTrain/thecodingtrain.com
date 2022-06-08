@@ -32,7 +32,6 @@
   height: var(--baseline);
   padding: 0 var(--box-padding);
   list-style: none;
-  font-size: var(--maru-normal);
   line-height: var(--baseline-1of3);
   color: var(--purple);
 }
