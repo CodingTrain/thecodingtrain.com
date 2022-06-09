@@ -125,7 +125,7 @@ export const getReadableDate = (dateString) => {
     '09': 'sep',
     10: 'oct',
     11: 'nov',
-    12: 'dic'
+    12: 'dec'
   };
   return `${months[month]} ${date}, ${year}`;
 };
