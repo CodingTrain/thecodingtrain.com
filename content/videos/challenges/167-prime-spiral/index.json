@@ -69,26 +69,31 @@
       "title": "References",
       "links": [
         {
+          "icon": "📺",
           "title": "CodingTrainChooChoo on Twitch",
           "url": "https://www.twitch.tv/codingtrainchoochoo",
           "description": "The Coding Train Twitch Channel"
         },
         {
+          "icon": "2️⃣",
           "title": "Mathematical Games: The remarkable lore of the prime numbers (1964)",
           "url": "https://www.scientificamerican.com/article/mathematical-games-1964-03/",
           "description": "Scientific American article on prime numbers"
         },
         {
+          "icon": "📓",
           "title": "An Observation on the Distribution of Primes, M. Stein and S. M. Ulam",
           "url": "https://doi.org/10.2307/2314055",
           "description": "An article on the distribution of prie numbers"
         },
         {
+          "icon": "🗄",
           "title": "Prime Numbers (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Prime_number",
           "description": "Wikipedia entry on prime numbers"
         },
         {
+          "icon": "🗄",
           "title": "List of Prime Numbers",
           "url": "https://en.wikipedia.org/wiki/List_of_prime_numbers",
           "description": "Wikipedia entry listing prime numbers"
@@ -104,6 +109,7 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Prime Spirals",
           "url": "https://youtube.com/watch?v=iFuR97YcSLM",
           "description": "Numberphile video on prime spirals"
