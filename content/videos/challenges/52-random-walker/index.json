@@ -44,8 +44,8 @@
             "image": "random_walker.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/N-qqe1ExZ",
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_052_random_walk/Processing",
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_052_random_walk"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/052_random_walk/Processing/CC_052_random_walk",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/052_random_walk"
             }
         }
     ],
