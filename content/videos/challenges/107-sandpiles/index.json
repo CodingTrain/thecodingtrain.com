@@ -5,7 +5,7 @@
     "videoId": "diGjw5tghYU",
     "date": "2018-06-18",
     "languages": ["p5.js", "processing"],
-    "topics": ["sandpile", "celluar automoaton", "grid"],
+    "topics": ["sandpile", "cellular automaton", "grid"],
     "canContribute": true,
     "timestamps": [],
     "codeExamples": [
