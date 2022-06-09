@@ -1,0 +1,66 @@
+{
+    "title": "Mathematical Rose Patterns",
+    "description": "In this coding challenge, I attempt to create rose (rhodonea) curves using trigonometry function and polar coordinates.",
+    "videoNumber": "55",
+    "videoId": "f5QBExMNB1I",
+    "date": "2017-02-08",
+    "languages": ["p5js","Javascript","Processing","Java"],
+    "topics": [
+        "JavaScript (Programming Language)",
+        "live",
+        "programming",
+        "daniel shiffman",
+        "creative coding",
+        "p5.js",
+        "coding challenge",
+        "p5.js tutorial",
+        "p5js",
+        "javascript (programming language)",
+        "tutorial",
+        "javascript",
+        "coding",
+        "challenges",
+        "coding train",
+        "the coding train",
+        "coding beginners",
+        "nature of code",
+        "algorithmic roses",
+        "mathematics roses",
+        "polar coordinates",
+        "trigonometry",
+        "trigonometry creative coding",
+        "trigonometry art",
+        "algorithm flower",
+        "algorithm rose",
+        "rose trigonometry",
+        "trigonometry flower"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Mathematical Rose Patterns",
+            "description": "Code examples for the Mathematical Rose Patterns Coding Challenge",
+            "image": "math_rose.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/3kanFIcHd",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses/Processing/CC_055_Roses",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🏛",
+                    "title": "Rose Mathematics on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Rose_(mathematics)",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
