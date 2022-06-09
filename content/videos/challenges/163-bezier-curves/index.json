@@ -93,6 +93,7 @@
           "description": "The Processing Foundation is the parental organization of p5.js and Processing."
         },
         {
+          "icon": "💾",
           "title": "bezier() - p5.js Reference",
           "url": "https://p5js.org/reference/#/p5/bezier",
           "description": "p5.js documentation for bezier()"
