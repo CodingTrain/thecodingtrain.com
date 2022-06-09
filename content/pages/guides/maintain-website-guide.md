@@ -61,10 +61,8 @@ Once you have the template directory in the "challenges" folder, there are a num
    - Each code example has an "image" property that should contain the file name of a screenshot of the running project.  That image file is stored in the "images" directory within the challenge directory.
    
 ![screenshot of a page that includes an image for each code example](https://user-images.githubusercontent.com/28508947/172743770-78675db5-7816-43bb-b550-ea05002189ab.png)
----
 
 ![screenshot showing the image files in the images directory](https://user-images.githubusercontent.com/28508947/172724346-3f802b38-25d3-4a47-b7c4-f94ac9b9fbc9.png)
----
 
 ![screenshot showing the image property in the codeExamples in the index.json file](https://user-images.githubusercontent.com/28508947/172743901-f9aad7d3-e3c0-43d8-a9cf-81a49996c9b3.png)
    
