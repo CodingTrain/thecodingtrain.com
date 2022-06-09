@@ -34,6 +34,10 @@
 
 .tab:hover,
 .active {
+  color: var(--gray-dark);
+}
+
+.tab:hover {
   font-weight: 600;
 }
 
@@ -62,7 +66,6 @@
 
   & .tab {
     border-right: var(--border-red);
-    color: var(--red);
   }
 
   & .tab:hover,
@@ -79,7 +82,6 @@
 
   & .tab {
     border-right: var(--border-cyan);
-    color: var(--cyan);
   }
 
   & .tab:hover,

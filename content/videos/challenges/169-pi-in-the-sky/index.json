@@ -14,7 +14,7 @@
     {
       "title": "Pi in the Sky",
       "description": "Full Pi in the Sky game in p5.js",
-      "image": "image1.png",
+      "image": "pie.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ZZ53xKJyF"
       }
@@ -22,7 +22,7 @@
     {
       "title": "Illustrated Version",
       "description": "Pi in the Sky game with colorful background and sprites",
-      "image": "image2.png",
+      "image": "illustrated.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/U11UYbgVc"
       }
