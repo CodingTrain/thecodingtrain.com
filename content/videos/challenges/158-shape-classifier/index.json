@@ -1,207 +1,211 @@
 {
-  "title": "Shape Classifier Neural Network with ml5.js",
-  "description": "In this challenge, I demonstrate the entire process of training and deploying a machine learning classification model in JavaScript \u2013 data collection, model training, and prediction!",
-  "videoNumber": "158",
-  "videoId": "3MqJzMvHE3E",
-  "date": "2020-12-03",
-  "languages": ["processing", "p5.js", "ml5"],
-  "topics": [
-    "generating datasets",
-    "loading images",
-    "neural networks",
-    "training a model",
-    "test training",
-    "prediction",
-    "testing a model"
-  ],
-  "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:01:33",
-      "title": "Generating the dataset in Processing"
-    },
-    {
-      "time": "0:05:50",
-      "title": "Loading images in p5.js"
-    },
-    {
-      "time": "0:08:34",
-      "title": "Create a ml5 neural network"
-    },
-    {
-      "time": "0:10:54",
-      "title": "Adding the data"
-    },
-    {
-      "time": "0:12:39",
-      "title": "About training the model"
-    },
-    {
-      "time": "0:13:53",
-      "title": "Test training"
-    },
-    {
-      "time": "0:15:21",
-      "title": "Training with full dataset"
-    },
-    {
-      "time": "0:16:44",
-      "title": "Improving the dataset"
-    },
-    {
-      "time": "0:18:20",
-      "title": "Saved model"
-    },
-    {
-      "time": "0:19:01",
-      "title": "Separate sketch for prediction"
-    },
-    {
-      "time": "0:19:40",
-      "title": "Loading the model"
-    },
-    {
-      "time": "0:21:13",
-      "title": "Testing the model with shapes drawn in p5.js"
-    },
-    {
-      "time": "0:24:41",
-      "title": "Mouse drawn shapes"
-    },
-    {
-      "time": "0:31:01",
-      "title": "Using a webcam and a notebook"
-    },
-    {
-      "time": "0:33:49",
-      "title": "Wrap up"
-    },
-    {
-      "time": "0:34:33",
-      "title": "What's next?"
-    }
-  ],
-  "codeExamples": [
-    {
-      "title": "Generate Dataset",
-      "description": "Generating a dataset of images of various shapes in Processing",
-      "image": "generate.png",
-      "urls": {
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/158_Shape_Classifier/dataset/generate_dataset_shape_classifier/generate_dataset_shape_classifier.pde"
-      }
-    },
-    {
-      "title": "Train Model",
-      "description": "Training a model with ml5.js using the created dataset",
-      "image": "training.png",
-      "urls": {
-        "p5": "https://github.com/CodingTrain/Coding-Challenges/tree/main/158_Shape_Classifier/training"
-      }
-    },
-    {
-      "title": "Shape Classifier (Mouse)",
-      "description": "Demonstration of a shape classifier with shapes drawn on the canvas",
-      "image": "mouse.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JgLVfCS4E"
-      }
-    },
-    {
-      "title": "Shape Classifier (Webcam)",
-      "description": "Demonstration of a shape classifier from webcam input",
-      "image": "webcam.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/2hZGBkqqq"
-      }
-    }
-  ],
-  "groupLinks": [
-    {
-      "title": "References",
-      "links": [
+    "title": "Shape Classifier Neural Network with ml5.js",
+    "description": "In this challenge, I demonstrate the entire process of training and deploying a machine learning classification model in JavaScript \u2013 data collection, model training, and prediction!",
+    "videoNumber": "158",
+    "videoId": "3MqJzMvHE3E",
+    "date": "2020-12-03",
+    "languages": [
+        "processing",
+        "p5.js",
+        "ml5"
+    ],
+    "topics": [
+        "generating datasets",
+        "loading images",
+        "neural networks",
+        "training a model",
+        "test training",
+        "prediction",
+        "testing a model"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
         {
-          "icon": "💾",
-          "title": "Processing",
-          "url": "https://processing.org/",
-          "description": "Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. "
+            "time": "0:00:00",
+            "title": "Introduction"
         },
         {
-          "icon": "🎆",
-          "title": "p5.js Web Editor",
-          "url": "https://editor.p5js.org/",
-          "description": "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, and beginners."
+            "time": "0:01:33",
+            "title": "Generating the dataset in Processing"
         },
         {
-          "icon": "💾",
-          "title": "ml5.js Loading a pre trained model",
-          "url": "https://learn.ml5js.org/#/reference/neural-network?id=loading-a-pre-trained-model",
-          "description": "Reference for loading a pre trained model."
+            "time": "0:05:50",
+            "title": "Loading images in p5.js"
         },
         {
-          "icon": "📝",
-          "title": "p5.js copy() reference",
-          "url": "https://p5js.org/reference/#/p5.Image/copy",
-          "description": "Reference for the p5.js copy() function."
+            "time": "0:08:34",
+            "title": "Create a ml5 neural network"
         },
         {
-          "icon": "✏️",
-          "title": "DoodleNet (GitHub)",
-          "url": "https://github.com/yining1023/doodleNet",
-          "description": "A series of experiments about Doodle Classifier(a Convolutional Neural Network) using tensorflow.js and tensorflow. "
+            "time": "0:10:54",
+            "title": "Adding the data"
+        },
+        {
+            "time": "0:12:39",
+            "title": "About training the model"
+        },
+        {
+            "time": "0:13:53",
+            "title": "Test training"
+        },
+        {
+            "time": "0:15:21",
+            "title": "Training with full dataset"
+        },
+        {
+            "time": "0:16:44",
+            "title": "Improving the dataset"
+        },
+        {
+            "time": "0:18:20",
+            "title": "Saved model"
+        },
+        {
+            "time": "0:19:01",
+            "title": "Separate sketch for prediction"
+        },
+        {
+            "time": "0:19:40",
+            "title": "Loading the model"
+        },
+        {
+            "time": "0:21:13",
+            "title": "Testing the model with shapes drawn in p5.js"
+        },
+        {
+            "time": "0:24:41",
+            "title": "Mouse drawn shapes"
+        },
+        {
+            "time": "0:31:01",
+            "title": "Using a webcam and a notebook"
+        },
+        {
+            "time": "0:33:49",
+            "title": "Wrap up"
+        },
+        {
+            "time": "0:34:33",
+            "title": "What's next?"
         }
-      ]
-    },
-    {
-      "title": "Videos",
-      "links": [
+    ],
+    "codeExamples": [
         {
-          "icon": "🎥",
-          "title": "Workflow Series",
-          "url": "https://www.youtube.com/results?search_query=coding+train+workflow",
-          "description": "The series covers the tools that Dan Shiffman uses in his workflow."
+            "title": "Generate Dataset",
+            "description": "Generating a dataset of images of various shapes in Processing",
+            "image": "generate.png",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/158_Shape_Classifier/dataset/generate_dataset_shape_classifier/generate_dataset_shape_classifier.pde"
+            }
         },
         {
-          "icon": "🎥",
-          "title": "ml5.js: Training a CNN for Image Classification",
-          "url": "https://www.youtube.com/watch?v=hWurN0XhzLY",
-          "description": "This video implements a CNN for image classification."
+            "title": "Train Model",
+            "description": "Training a model with ml5.js using the created dataset",
+            "image": "training.png",
+            "urls": {
+                "p5": "https://github.com/CodingTrain/Coding-Challenges/tree/main/158_Shape_Classifier/training"
+            }
         },
         {
-          "icon": "🎥",
-          "title": "ml5.js: Train a Neural Network with Pixels as Input",
-          "url": "https://www.youtube.com/watch?v=UaKab6h9Z0I&t=0s",
-          "description": "This video trains a neural network with pixels."
+            "title": "Shape Classifier (Mouse)",
+            "description": "Demonstration of a shape classifier with shapes drawn on the canvas",
+            "image": "mouse.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/JgLVfCS4E"
+            }
         },
         {
-          "icon": "🎥",
-          "title": "ml5.js: Train Your Own Neural Network",
-          "url": "https://www.youtube.com/watch?v=8HEgeAbYphA",
-          "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js. "
-        },
-        {
-          "icon": "🎥",
-          "title": "ml5.js: What is a Convolutional Neural Network?",
-          "url": "https://www.youtube.com/watch?v=qPKsVAI_W6M",
-          "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of 'filters'"
-        },
-        {
-          "icon": "🎥",
-          "title": "ml5.js: Save Neural Network Trained Model",
-          "url": "https://www.youtube.com/watch?v=wUrg9Hjkhg0",
-          "description": "This vidoe shows how to save a save a model that has been trained in ml5.js."
-        },
-        {
-          "icon": "🎥",
-          "title": "Quick, Draw! - Coding Challenge #122",
-          "url": "https://www.youtube.com/watch?v=yLuk0twx8Hc",
-          "description": "This video takes a closer look at the Quick, Draw! dataset and create a simple node API to 'replay' drawings of rainbows and cats using p5.js."
+            "title": "Shape Classifier (Webcam)",
+            "description": "Demonstration of a shape classifier from webcam input",
+            "image": "webcam.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2hZGBkqqq"
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "💾",
+                    "title": "Processing",
+                    "url": "https://processing.org/",
+                    "description": "Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. "
+                },
+                {
+                    "icon": "🎆",
+                    "title": "p5.js Web Editor",
+                    "url": "https://editor.p5js.org/",
+                    "description": "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, and beginners."
+                },
+                {
+                    "icon": "💾",
+                    "title": "ml5.js Loading a pre trained model",
+                    "url": "https://learn.ml5js.org/#/reference/neural-network?id=loading-a-pre-trained-model",
+                    "description": "Reference for loading a pre trained model."
+                },
+                {
+                    "icon": "📝",
+                    "title": "p5.js copy() reference",
+                    "url": "https://p5js.org/reference/#/p5.Image/copy",
+                    "description": "Reference for the p5.js copy() function."
+                },
+                {
+                    "icon": "✏️",
+                    "title": "DoodleNet (GitHub)",
+                    "url": "https://github.com/yining1023/doodleNet",
+                    "description": "A series of experiments about Doodle Classifier(a Convolutional Neural Network) using tensorflow.js and tensorflow. "
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Workflow Series",
+                    "url": "https://www.youtube.com/results?search_query=coding+train+workflow",
+                    "description": "The series covers the tools that Dan Shiffman uses in his workflow."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "ml5.js: Training a CNN for Image Classification",
+                    "url": "https://www.youtube.com/watch?v=hWurN0XhzLY",
+                    "description": "This video implements a CNN for image classification."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "ml5.js: Train a Neural Network with Pixels as Input",
+                    "url": "https://www.youtube.com/watch?v=UaKab6h9Z0I&t=0s",
+                    "description": "This video trains a neural network with pixels."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "ml5.js: Train Your Own Neural Network",
+                    "url": "https://www.youtube.com/watch?v=8HEgeAbYphA",
+                    "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js. "
+                },
+                {
+                    "icon": "🎥",
+                    "title": "ml5.js: What is a Convolutional Neural Network?",
+                    "url": "https://www.youtube.com/watch?v=qPKsVAI_W6M",
+                    "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of 'filters'"
+                },
+                {
+                    "icon": "🎥",
+                    "title": "ml5.js: Save Neural Network Trained Model",
+                    "url": "https://www.youtube.com/watch?v=wUrg9Hjkhg0",
+                    "description": "This vidoe shows how to save a save a model that has been trained in ml5.js."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Quick, Draw! - Coding Challenge #122",
+                    "url": "https://www.youtube.com/watch?v=yLuk0twx8Hc",
+                    "description": "This video takes a closer look at the Quick, Draw! dataset and create a simple node API to 'replay' drawings of rainbows and cats using p5.js."
+                }
+            ]
+        }
+    ]
 }
