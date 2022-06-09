@@ -189,9 +189,9 @@ const Guide = ({ data }) => {
               Table Of Contents
             </li>
             {mdx.tableOfContents.items.map((item, index) => (
-              <a key={index} href={item.url} className={css.indexItem}>
-                <li>{item.title}</li>
-              </a>
+              <li key={index} className={css.indexItem}>
+                <a href={item.url}>{item.title}</a>
+              </li>
             ))}
             {mdx.tableOfContents.items.length % 2 === 1 && (
               <div className={css.itemSpacer} />
