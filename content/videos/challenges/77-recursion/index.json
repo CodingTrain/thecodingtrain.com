@@ -37,7 +37,8 @@
 
         {
           "icon": "🎥",
-          "title": "My Vido on Fractal Trees - Recursive",
+          "title": "Fractal Tree",
+          "description": "Coding Challenge using recursion to generate fractal tree.",
           "url": "https://youtu.be/0jjeOYMjmDU"
         }
       ]
