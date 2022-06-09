@@ -1,0 +1,98 @@
+{
+    "title": "Mapping Earthquake Data",
+    "description": "In this coding challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js.",
+    "videoNumber": "57",
+    "videoId": "ZiYdOwOrGyc",
+    "date": "2017-02-13",
+    "languages": ["p5js","Javascript","Processing","Java"],
+    "topics": [
+        "JavaScript (Programming Language)",
+        "live",
+        "programming",
+        "daniel shiffman",
+        "creative coding",
+        "p5.js",
+        "coding challenge",
+        "p5.js tutorial",
+        "p5js",
+        "javascript (programming language)",
+        "tutorial",
+        "javascript",
+        "coding",
+        "challenges",
+        "earthquake data",
+        "earthquake data viz",
+        "mapbox",
+        "mapbox.js",
+        "data visualization p5.js",
+        "earthquake database",
+        "earthquake database p5js",
+        "earthquake p5js",
+        "mapboxjs",
+        "mapping data",
+        "mapping earthquake data",
+        "web mercator",
+        "latitude",
+        "longitude",
+        "mapping",
+        "mapping data viz",
+        "mercator projection"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Mapping Earthquake Data",
+            "description": "Code examples for the Mapping Earthquake Data Coding Challenge",
+            "image": "earthquake_viz.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/i0icLNOuf",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/057_Earthquake_Viz/Processing/CC_057_Earthquake_Viz",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/057_Earthquake_Viz"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗺",
+                    "title": "Mapbox.js",
+                    "url": "https://www.mapbox.com/mapbox.js/api/v3.0.1/",
+                    "description": ""
+                },
+                {
+                    "icon": "🏛",
+                    "title": "Web Mercator on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Web_Mercator",
+                    "description": ""
+                },
+                {
+                    "icon": "🌍",
+                    "title": "Earthquake Database",
+                    "url": "http://earthquake.usgs.gov/data/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "📽",
+                    "title": "Videos on working with data and APIs",
+                    "url": "/Tutorials/10-working-with-data",
+                    "description": ""
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Regular Expression playlist",
+                    "url": "/learning/programming-with-text/2.1-introduction",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
