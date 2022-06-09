@@ -115,6 +115,7 @@ const Card = ({
             image={image}
             pictureClassName={css.picture}
             imgClassName={css.image}
+            alt={`"${title}" track`}
           />
         </div>
       </article>
