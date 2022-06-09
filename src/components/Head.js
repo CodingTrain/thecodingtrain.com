@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-const Head = ({ title, description }) => {
+const Head = ({ title, description, image }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -27,19 +27,19 @@ const Head = ({ title, description }) => {
       }
     }
   `);
+
   const {
     site: {
-      sitMetadata: {
+      siteMetadata: {
         title: defaultTitle,
-        siteURL,
+        siteUrl,
         description: defaultDescription
       }
     }
   } = data;
-  const image =
-    data.coverImage.nodes[0].childImageSharp.gatsbyImageData.images.fallback
-      .src;
-  // console.log({ image });
+  const metaImage = (
+    image ?? data.coverImage.nodes[0].childImageSharp.gatsbyImageData
+  ).images.fallback.src;
   return (
     <Helmet
       htmlAttributes={{
@@ -53,22 +53,22 @@ const Head = ({ title, description }) => {
       <meta name="description" content={description ?? defaultDescription} />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={siteURL} />
+      <meta property="og:url" content={siteUrl} />
       <meta property="og:title" content={title ?? defaultTitle} />
       <meta
         property="og:description"
         content={description ?? defaultDescription}
       />
-      <meta property="og:image" content={`${siteURL}${image.slice(1)}`} />
+      <meta property="og:image" content={`${siteUrl}${metaImage}`} />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={siteURL} />
+      <meta property="twitter:url" content={siteUrl} />
       <meta property="twitter:title" content={title ?? defaultTitle} />
       <meta
         property="twitter:description"
         content={description ?? defaultDescription}
       />
-      <meta property="twitter:image" content={`${siteURL}${image.slice(1)}`} />
+      <meta property="twitter:image" content={`${siteUrl}${metaImage}`} />
     </Helmet>
   );
 };
