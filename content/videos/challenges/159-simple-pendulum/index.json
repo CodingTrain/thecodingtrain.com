@@ -57,16 +57,16 @@
   "codeExamples": [
     {
       "title": "Pendulum OOP",
-      "description": "Code example 1 description",
-      "image": "image1.png",
+      "description": "Implementation of a simple pendulum.",
+      "image": "simple.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/lJz1cmMp4"
       }
     },
     {
       "title": "Array of Pendulums",
-      "description": "Code example 2 description",
-      "image": "image1.png",
+      "description": "Implementation of an array of pendulums.",
+      "image": "array.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Bj82tUlIO"
       }
@@ -77,21 +77,25 @@
       "title": "References",
       "links": [
         {
+          "icon": "📕",
           "title": "Nature of Code Playlist",
           "url": "https://thecodingtrain.com/learning/nature-of-code/",
           "description": "This playlist accompanies the Nature of Code book."
         },
         {
+          "icon": "⎇",
           "title": "Applications of Differential Equations - The Simple Pendulum",
           "url": "http://calculuslab.deltacollege.edu/ODE/7-A-2/7-A-2-h.html",
           "description": "The derivation and analysis of the equation governing the position of a pendulum as a function of time."
         },
         {
+          "icon": "💾",
           "title": "Simple Pendulum (myPhysicsLab.com)",
           "url": "https://www.myphysicslab.com/pendulum/pendulum-en.html",
           "description": "Physics-based simulation of a simple pendulum."
         },
         {
+          "icon": "📕",
           "title": "Object Oriented Simple Pendulum (Nature of Code Book)",
           "url": "https://github.com/nature-of-code/noc-examples-p5.js/tree/master/chp03_oscillation/NOC_3_10_PendulumExampleSimplified",
           "description": "A simple pendulum simulation that uses sine to calculate the angular component of the gravitational force."
@@ -102,21 +106,25 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Polar Coordinates - Nature of Code",
           "url": "https://thecodingtrain.com/CodingChallenges/063.1-unikitty-flag",
           "description": "This video explores the trigonometric functions—sine, cosine, and tangent"
         },
         {
+          "icon": "🎥",
           "title": "3.2 Angular Motion - Nature of Code",
           "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
           "description": "This video explains how to apply the concepts of vector motion to angles (scalar!)."
         },
         {
+          "icon": "🎥",
           "title": "Double Pendulum - Coding Challenge #93",
           "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
           "description": "A double pendulum simulation is created in Processing."
         },
         {
+          "icon": "🎥",
           "title": "Coding Train Live! (February 6th 2021)",
           "url": "https://thecodingtrain.com/CodingChallenges/078-simple-particle-system",
           "description": "This video explores the concept of a simple particle system and attempts to create a smoke effect with the p5.js library"
