@@ -1,0 +1,78 @@
+{
+    "title": "Random Walker with Vectors and L\u00e9vy Flight",
+    "description": "In this coding challenge, I simulate a \u201crandom walk\u201d with vectors in p5.js, varying the distance of each step size. This is known as a \u201cL\u00e9vy Flight\u201d (named after french mathematician Paul L\u00e9vy.)",
+    "videoNumber": "53",
+    "videoId": "bqF9w9TTfeo",
+    "date": "2017-01-31",
+    "languages": ["p5js", "Javascript", "Processing", "Java"],
+    "topics": [
+        "JavaScript (Programming Language)",
+        "live",
+        "programming",
+        "daniel shiffman",
+        "creative coding",
+        "p5.js",
+        "coding challenge",
+        "p5.js tutorial",
+        "p5js",
+        "javascript (programming language)",
+        "tutorial",
+        "javascript",
+        "coding",
+        "challenges",
+        "nature of code",
+        "nature of code p5js",
+        "nature of code p5.js",
+        "random walk",
+        "random walker",
+        "random walk p5.js",
+        "random walk p5js",
+        "random walker p5js",
+        "random walk javascript",
+        "levy flight",
+        "levy flight js",
+        "levy flight javascript",
+        "random walk vectors",
+        "p5js vector",
+        "javascript vectors"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Random Walker with Vecotrs and L\u00e9vy Flight",
+            "description": "Code examples for the Random Walker with Vecotrs and L\u00e9vy Flight Coding Challenge",
+            "image": "random_walker_with_vectors_and_levy_flight.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/L24X90MBH",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/053_random_walk_levy/Processing/CC_053_random_walk_levy",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/053_random_walk_levy"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🏛",
+                    "title": "L\u00e9vy Flight on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/L%C3%A9vy_flight",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "📽",
+                    "title": "My Videos on Vectors",
+                    "url": "https://youtu.be//more/archive/nature-of-code/1-Vectors/1.1-Vectors",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
