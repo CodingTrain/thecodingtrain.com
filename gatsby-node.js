@@ -25,6 +25,8 @@ const {
   createGuidePages
 } = require('./node-scripts/page-generation');
 
+const redirects = require('./redirects.json');
+
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
 
@@ -217,9 +219,18 @@ exports.onCreateNode = ({
 };
 
 exports.createPages = async function ({ actions, graphql }) {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
+
+  for (let fromPath in redirects) {
+    const toPath = redirects[fromPath];
+    await createRedirect({
+      fromPath,
+      toPath,
+      isPermanent: true
+    });
+  }
 };
