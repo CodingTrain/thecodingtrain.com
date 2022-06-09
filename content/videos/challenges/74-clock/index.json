@@ -11,24 +11,13 @@
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Clock",
+            "description": "Implementing a clock in HTML5.",
+            "image": "clock.png",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/2lvHFWPbW"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2lvHFWPbW",
+                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock/Processing",
+                 "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock"
             }
         }
     ],
@@ -37,19 +26,22 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📓",
                     "title": "Golan Levin's notes on MAEDA\u2019S 12 O\u2019CLOCKS",
                     "url": "http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/",
-                    "description": ""
+                    "description": "Maeda’s 12 o’clocks"
                 },
                 {
+                    "icon": "🕐",
                     "title": "Alca's Clock Collection",
                     "url": "https://codepen.io/collection/DqRNLQ/",
-                    "description": ""
+                    "description": "Alca's Clock Collection"
                 },
                 {
+                    "icon": "📄",
                     "title": "ICM-2017 Syllabus",
                     "url": "https://github.com/ITPNYU/ICM-2017",
-                    "description": ""
+                    "description": "Syllabus for ITP Foundation Course Introduction to Computational Media"
                 }
             ]
         }
