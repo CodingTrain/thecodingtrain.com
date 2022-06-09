@@ -1,0 +1,47 @@
+{
+    "title": "Blobby!",
+    "description": "In this coding challenge, I simulate a blob-like shape with wobbly edges using beginShape(), endShape(), polar coordinates, and perlin noise.",
+    "videoNumber": "36",
+    "videoId": "rX5p-QRP6R4",
+    "date": "2016-09-02",
+    "languages": ["p5js", "Processing"],
+    "topics": [
+        "challenge",
+        "coding",
+        "coding challenge",
+        "tutorial",
+        "creative coding",
+        "javascript",
+        "programming challenge",
+        "p5.js",
+        "p5js",
+        "p5.js tutorial",
+        "javascript (programming language)",
+        "superformulas",
+        "superformula",
+        "superellipse",
+        "blob",
+        "beginShape",
+        "endShape",
+        "vertex",
+        "blobby",
+        "wobbly",
+        "perlin noise"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Blobby",
+            "description": "Code examples for the Blobby Coding Challenge",
+            "image": "blobby.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/L_ME8qKmQ",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/036_Blobby/Processing/CC_036_Blobby",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/036_Blobby"
+            }
+        }
+    ],
+    "groupLinks": []
+}
