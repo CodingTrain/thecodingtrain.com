@@ -10,8 +10,8 @@
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "The sketch visualizes sandpiles in P5.js.",
+            "title": "Sandpiles",
+            "description": "A visualization of the sandpile algorithm with bright colors.",
             "image": "sandpiles.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/47dTVFxuB",
