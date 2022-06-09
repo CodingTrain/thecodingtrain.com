@@ -56,7 +56,7 @@ Once you have the template directory in the "challenges" folder, there are a num
 
 1. Update links to code examples.
    - For the p5js examples, make sure the links listed really take you to the p5 Web Editor page that stores that project.
-   - For the Processing examples, ...
+   - For p5js and Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.
 2. Add thumbnail images for code examples.
    - Each code example has an "image" property that should contain the file name of a screenshot of the running project.  That image file is stored in the "images" directory within the challenge directory.
    
@@ -75,6 +75,13 @@ Once you have the template directory in the "challenges" folder, there are a num
    - Update the "topics" property in the "index.json" file.  If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics".  If no tags were present on the YouTube page, then this may be blank.
 6. Replace any links to the old website with links to the new website.
    - Some links in the "index.json" file may refer to other challenges or other parts of the old website.  For example, challenge 10.1 is part 1 of a 4 part series.  Each of the 4 parts refers to each of the other 4 parts in the series in the "Other Parts Of This Coding Challenge" section of the "index.json" file.  The path to those other parts will have changed on the new website, so that URL will need to be updated.
+7. Optionally, add an emoji to the links in the References or Videos section of the "index.json" file.
+   - Emoji help to add some fun and character to an otherwise plain list of links.
+   - In any of the "links" property lists, use the "icon" property to add an emoji.
+
+![screenshot of a list of links with emoji](https://user-images.githubusercontent.com/191758/172730382-58367b6c-6341-4f02-8b4a-b8f96b0fbdd0.png)
+
+![screenshot of the groupLinks section showing an index.json file with emoji](https://user-images.githubusercontent.com/28508947/172737265-90a5bb0e-a126-405b-940f-a6790bced06e.png)
 
 ## Coding Challenges - Adding video
 
