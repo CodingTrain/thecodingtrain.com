@@ -30,7 +30,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
     <ItemsPage
       title={pageData.title}
       description={pageData.description}
-      image={challengePlaceholderImage}
+      image={challengesPlaceholder}
       location={location}
       itemsPath="challenges"
       variant="cyan"

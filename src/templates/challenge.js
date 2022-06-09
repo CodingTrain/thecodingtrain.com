@@ -32,7 +32,7 @@ const Challenge = ({ data }) => {
     <Layout
       title={challenge.title}
       description={challenge.description}
-      image={contributionPlaceholderImage}>
+      image={contributionsPlaceholder}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
