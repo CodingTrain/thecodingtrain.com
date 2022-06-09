@@ -113,21 +113,26 @@
   ],
   "groupLinks": [
     {
+     
       "title": "References",
       "links": [
         {
+         "icon": "📕",
           "title": "Nature of Code 3.10 Spring Forces",
           "url": "https://natureofcode.com/book/chapter-3-oscillation/index.html#310-spring-forces"
         },
         {
+          "icon": "📕",
           "title": "Nature of Code Track",
           "url": "/tracks/the-nature-of-code-2"
         },
         {
+          "icon": "💾",
           "title": "toxiclibs.js",
           "url": "http://www.haptic-data.com/toxiclibsjs/"
         },
         {
+          "icon": "💾",
           "title": "curveVertex() (p5.js Reference)",
           "url": "https://p5js.org/reference/#/p5/curveVertex"
         }
@@ -137,11 +142,13 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Texturing Cloth Simulation",
           "url": "https://youtu.be/JunJzIe0hEo",
           "description": "Coding Train Challenge #63 video on cloth simulation."
         },
         {
+           "icon": "🎥",
           "title": "Simple Particle System",
           "url": "https://youtu.be/UcdigVaIYAk",
           "description": "Coding Train video on a Challenge #78 on creating a basic particle system."
