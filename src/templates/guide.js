@@ -166,7 +166,10 @@ const Guide = ({ data }) => {
   const localImages = useLocalImages(images.nodes);
 
   return (
-    <Layout title={mdx.frontmatter.title}>
+    <Layout
+      title={mdx.frontmatter.title}
+      description={mdx.frontmatter.description}
+      image={localImages['placeholder.png']}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -219,6 +222,7 @@ export const query = graphql`
       tableOfContents
       frontmatter {
         title
+        description
       }
     }
     images: allCoverImage(
