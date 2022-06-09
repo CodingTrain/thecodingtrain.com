@@ -76,35 +76,42 @@
       "title": "Links discussed",
       "links": [
         {
+          "icon": "💰",
           "title": "#SupportP5 2020",
           "url": "https://discourse.processing.org/t/supportp5-2020-processing-foundation-fundraiser/26077",
           "description": "#SupportP5 is a month-long online fundraising campaign to support and help sustain the Processing Foundation."
           },
         {
+          "icon": "💾",
           "title": "Jason Oswald (GitHub)",
           "url": "https://github.com/gajoswald"
         },
         {
+          "icon": "💾",
           "title": "Processing Foundation",
           "url": "https://processingfoundation.org/",
           "description": "The Processing Foundation is the parental organization of p5.js and Processing."
         },
         {
+          "icon": "💾",
           "title": "bezier() - p5.js Reference",
           "url": "https://p5js.org/reference/#/p5/bezier",
           "description": "p5.js documentation for bezier()"
         },
         {
+          "icon": "🗄",
           "title": "Bézier curve (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/B%C3%A9zier_curve",
           "description": "Wikipedia article on Bezier Curves"
         },
         {
+          "icon": "💢",
           "title": "Custom Shapes",
           "url": "https://www.programmingdesignsystems.com/shape/custom-shapes/index.html#custom-shapes-pANLh0l",
           "description": "Programming Design Systems by Rune Madsen - Custom Shapes"
         },
         {
+          "icon": "💾",
           "title": "lerp() - p5.js Reference",
           "url": "https://p5js.org/reference/#/p5/lerp",
           "description": "p5.js documentation for lerp()"
@@ -115,11 +122,13 @@
       "title": "Videos discussed",
       "links": [
         {
+          "icon": "🎥",
           "title": "Self Avoiding Walk - Coding Challenge 162",
           "description": "Creating a Self-Avoiding Walk",
           "url": "https://youtu.be/m6-cm6GZ1iw"
         },
         {
+          "icon": "🎥",
           "title": "Times Tables Cardioid - Coding Challenge 133",
           "description": "Times Tables Cardioid Visualisation",
           "url": "https://youtu.be/bl3nc_a1nvs"
