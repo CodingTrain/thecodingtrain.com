@@ -55,9 +55,8 @@ const GuidesPage = ({ data }) => {
 
       <div className={css.guideList}>
         {guides.map((guide, i) => (
-          <>
+          <React.Fragment key={i}>
             <GuideCard
-              key={i}
               title={guide.mdx.frontmatter.title}
               description={guide.mdx.frontmatter.description}
               slug={`/guides/${guide.mdx.slug}`}
@@ -83,7 +82,7 @@ const GuidesPage = ({ data }) => {
                 })}
               />
             )}
-          </>
+          </React.Fragment>
         ))}
       </div>
 
