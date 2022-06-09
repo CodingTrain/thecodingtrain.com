@@ -1,0 +1,66 @@
+{
+    "title": "Attraction and Repulsion Forces",
+    "description": "In this challenge, I create a particle system and add \u201cattractors\u201d simulating attraction and repulsion forces.",
+    "videoNumber": "56",
+    "videoId": "OAcXnzRNiCY",
+    "date": "2017-02-09",
+    "languages": ["p5js","Javascript","Processing","Java"],
+    "topics": [
+        "JavaScript (Programming Language)",
+        "live",
+        "programming",
+        "daniel shiffman",
+        "creative coding",
+        "p5.js",
+        "coding challenge",
+        "p5.js tutorial",
+        "p5js",
+        "javascript (programming language)",
+        "tutorial",
+        "javascript",
+        "coding",
+        "challenges",
+        "coding train",
+        "the coding train",
+        "nature of code",
+        "forces",
+        "vectors",
+        "attraction",
+        "attractors",
+        "repulsion",
+        "gravity",
+        "physics",
+        "gravity javascript",
+        "physics engine",
+        "javascript oop",
+        "object oriented programming"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "image": "attraction_repulsion.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/6WL2O4vq0",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_056_attraction_repulsion/Processing",
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_056_attraction_repulsion/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "📽",
+                    "title": "My Video on Vectors",
+                    "url": "https://youtu.be/https://www.youtube.com/watch?v=vqE8DMfOajk",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
