@@ -54,7 +54,7 @@
     ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
+            "title": "Rendering Ray Casting",
             "description": "Implementation of 3d raycasting algorithm.",
             "image": "raycasting.png",
             "urls": {
