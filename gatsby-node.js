@@ -25,6 +25,8 @@ const {
   createGuidePages
 } = require('./node-scripts/page-generation');
 
+const redirects = require('./redirects.json');
+
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
 
@@ -222,9 +224,13 @@ exports.createPages = async function ({ actions, graphql }) {
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
-  await createRedirect({
-    fromPath: '/discord',
-    toPath: 'https://discord.com/invite/hPuGy2g',
-    isPermanent: true
-  });
+
+  for (let fromPath in redirects) {
+    const toPath = redirects[fromPath];
+    await createRedirect({
+      fromPath,
+      toPath,
+      isPermanent: true
+    });
+  }
 };
