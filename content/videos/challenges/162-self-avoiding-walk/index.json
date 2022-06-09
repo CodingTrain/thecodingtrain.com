@@ -116,16 +116,19 @@
       "title": "References",
       "links": [
         {
+          "icon": "🗄",
           "title": "Self Avoiding Walk (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Self-avoiding_walk",
           "description": "Discussion of the math and physics of self-avoiding walks."
         },
         {
+          "icon": "📓",
           "title": "The complexity of counting self-avoiding walks in subgraphs of two-dimensional grids and hypercubes",
           "url": "https://www.sciencedirect.com/science/article/pii/S030439750300080X",
           "description": "Discussion of counting self-avoiding walks."
         },
         {
+          "icon": "📓",
           "title": "The pivot algorithm: A highly efficient Monte Carlo method for the self-avoiding walk (sci-hub)",
           "url": "https://sci-hub.st/10.1007/bf01022990",
           "description": "Discussion of pivot algorithm."
@@ -136,36 +139,43 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Random Walker - Coding Challenge 52",
           "url": "https://www.youtube.com/watch?v=l__fEY1xanY",
           "description": "A random walker is implemented in p5.js"
         },
         {
+          "icon": "🎥",
           "title": "Minesweeper - Coding Challenge 71",
           "url": "https://www.youtube.com/watch?v=LFU5ZlrR21E",
           "description": "The classic game of minesweeper is implemented in p5.js."
         },
         {
+          "icon": "🎥",
           "title": "filter() - Array Functions",
           "url": "https://www.youtube.com/watch?v=qmnH5MT_luk",
           "description": "This video covers the JavaScript Array higher order function filter()."
         },
         {
+          "icon": "🎥",
           "title": "Maze Generator - Coding Challenge 10",
           "url": "https://www.youtube.com/watch?v=HyK_Q5rrcr4",
           "description": "A maze generator is implemented in p5.js"
         },
         {
+          "icon": "🎥",
           "title": "Recursion - Coding Train 77",
           "url": "https://www.youtube.com/watch?v=jPsZwrV9ld0",
           "description": "The concept of recursion is used to create fractal patterns in p5.js."
         },
         {
+          "icon": "🎥",
           "title": "A* Pathfinding Algorithm - Coding Challenge 51",
           "url": "https://www.youtube.com/watch?v=aKYlikFAV4k",
           "description": "An implementation of the A* pathfinding algorithm to find the optimal path between two points in a 2D grid"
         },
         {
+          "icon": "🎥",
           "title": "3D Self Avoiding Walk - Coding Train Live (May 27, 2021)",
           "url": "https://youtu.be/jlK1SJr-FBc?t=4353",
           "description": "Livestream of a 3D self avoiding walk."
