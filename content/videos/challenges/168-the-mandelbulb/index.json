@@ -34,7 +34,7 @@
     {
       "title": "MandelBulb",
       "description": "Processing examples for the MandelBulb Coding Challenge",
-      "image": "image1.png",
+      "image": "mandelbulb.png",
       "urls": {
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/168_Mandelbulb/Processing"
       }
@@ -45,31 +45,37 @@
       "title": "References",
       "links": [
         {
+          "icon": "📓",
           "title": "The Unraveling of the Real 3D Mandelbulb",
           "url": "https://www.skytopia.com/project/fractal/mandelbulb.html",
           "description": "Original 2009 post outlining the math behind the MandelBulb fractal."
         },
         {
+          "icon": "💾",
           "title": "Processing",
           "url": "https://processing.org/",
           "description": "Link to the Processing Foundation homepage"
         },
         {
+          "icon": "🗄",
           "title": "MandelBulb",
           "url": "https://en.wikipedia.org/wiki/Mandelbulb",
           "description": "Wikipedia entry on the MandelBulb"
         },
         {
+          "icon": "🎥",
           "title": "PeasyCam",
           "url": "https://mrfeinberg.com/peasycam/",
           "description": "The PeasyCam library is a simple mouse-driven camera for Processing."
         },
         {
+          "icon": "🖥",
           "title": "Inigo Quilez",
           "url": "https://iquilezles.org/",
           "description": "Articles, tutorials, and videos about computer graphics!"
         },
         {
+          "icon": "🌞",
           "title": "Ray Marching Examples",
           "url": "https://observablehq.com/@leon196/raymarch",
           "description": "This observable notebook was used as the basis for the Processing raymarching examples featured in the video."
@@ -80,16 +86,19 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Mendelbulb (raymarched SDF)",
           "url": "https://youtu.be/eKUh4nkmQbc",
           "description": "Inigo Quilez's video of the Mandelbulb"
         },
         {
+          "icon": "🎥",
           "title": "Mandelbrot Set with p5.js",
           "url": "https://thecodingtrain.com/CodingChallenges/021-mandelbrot-p5",
           "description": "Coding Train video on the Mandelbrot set in p5.js"
         },
         {
+          "icon": "🎥",
           "title": "Spherical Geometry",
           "url": "https://thecodingtrain.com/CodingChallenges/025-spheregeometry",
           "description": "Coding Train video on spherical geometry"

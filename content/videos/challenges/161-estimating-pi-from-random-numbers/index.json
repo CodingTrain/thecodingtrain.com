@@ -26,6 +26,7 @@
     {
       "title": "Estimating \u03c0 from Random Numbers",
       "description": "Estimating the digits of Pi with random numbers",
+      "image": "pi.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
       }
@@ -33,6 +34,7 @@
     {
       "title": "Estimating \u03c0 from from the digits of \u03c0",
       "description": "Estimating the digits of Pi by using the digits of Pi as random numbers",
+       "image": "digits.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/x0eikODKm"
       }
@@ -43,21 +45,25 @@
       "title": "References",
       "links": [
         {
+          "icon": "📓",
           "title": "Probability of Two Integers being Co-Prime",
           "url": "https://www.cut-the-knot.org/m/Probability/TwoCoprime.shtml",
           "description": "Article on the probability of two integers being co-prime"
         },
         {
+          "icon": "🗄",
           "title": "Euclidean Algorithm",
           "url": "https://en.wikipedia.org/wiki/Euclidean_algorithm",
           "description": "Wikipedia Page on the Euclidean Algorithm"
         },
         {
+          "icon": "🔢",
           "title": "A Million Random Digits",
           "url": "https://www.rand.org/pubs/monograph_reports/MR1418.html",
           "description": "Digital Version of the book \"A Million Random Digits with 100,000 Normal Deviates\""
         },
         {
+          "icon": "📓",
           "title": "Quantum Random Numbers",
           "url": "https://qrng.anu.edu.au/",
           "description": "About Quantum Random Numbers"
@@ -68,6 +74,7 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Generating \u03c0 from 1,000 random numbers",
           "url": "https://youtu.be/RZBhSi_PwHU",
           "description": "Video by Stand-up Maths on estimating Pi from random numbers"
