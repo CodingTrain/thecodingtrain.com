@@ -42,7 +42,11 @@ const Track = ({ pageContext, data }) => {
     <Layout
       title={isTrackPage ? track.title : video.title}
       description={isTrackPage ? track.description : video.description}
-      image={contributionsPlaceholder}>
+      image={
+        isTrackPage && track.cover
+          ? track.cover.file.childImageSharp.gatsbyImageData
+          : contributionsPlaceholder
+      }>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -165,6 +169,13 @@ export const query = graphql`
           slug
           languages
           topics
+        }
+      }
+      cover {
+        file {
+          childImageSharp {
+            gatsbyImageData
+          }
         }
       }
     }
