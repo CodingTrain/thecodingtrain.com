@@ -60,7 +60,8 @@
       "description": "Simulation of a simple pendulum",
       "image": "simple.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/SN-39sHAC"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SN-39sHAC",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/159_simple_pendulum_simulation/Processing/cc_159_simple_pendulum_simulation"
       }
     },
     {
