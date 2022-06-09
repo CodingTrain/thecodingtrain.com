@@ -35,15 +35,9 @@
       "description": "This sketch creates a kaleidoscope snowflake.",
       "image": "snowflake.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JbWCVPX5a"
-      }
-    },
-    {
-      "title": "Snowflake",
-      "description": "This sketch creates a kaleidoscope snowflake.",
-      "image": "snowflake_processing.png",
-      "urls": {
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake/Processing/CC_155_Kaleidoscope_Snowflake"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/JbWCVPX5a",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake/Processing/CC_155_Kaleidoscope_Snowflake",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake"
       }
     }
   ],
@@ -52,11 +46,13 @@
       "title": "References",
       "links": [
         {
+          "icon": "💰",
           "title": "Link to donate to the Processing Foundation",
           "url": "https://processing.org/donate",
           "description": "Link to donate to the Processing Foundation"
         },
         {
+          "icon": "🖋",
           "title": "Kaleidoscope Painter",
           "url": "https://permadi.com/java/spaint/spaint.html",
           "description": "Kaleidoscope Painter"
@@ -67,16 +63,19 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial",
           "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
           "description": "The translate(), rotate(), push() and pop() functions are covered in this video."
         },
         {
+          "icon": "🎥",
           "title": "Coding Challenge #127: Brownian Tree Snowflake",
           "url": "https://www.youtube.com/watch?v=XUA8UREROYE",
           "description": "A Brownian Tree Snowflake is created in Processing."
         },
         {
+          "icon": "🎥",
           "title": "2019 Processing Foundation Holiday Telethon",
           "url": "https://youtu.be/3wMFd8OGI84",
           "description": "Fundraiser for the Processing Foundation"
