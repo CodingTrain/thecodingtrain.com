@@ -17,6 +17,7 @@
     {
       "title": "Fractal Trees - Object Oriented",
       "description": "An object-oriented fractal tree made in p5.js",
+      "images": "tree.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/JDT5wrxVj"
       }
