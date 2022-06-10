@@ -54,18 +54,13 @@
     ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
+            "title": "Raycasting Algorithm",
             "description": "Implementation of a raycasting algorithm.",
             "images": "raycasting_145.png",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/Nqsq3DFv-"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "Implementation of a raycasting algorithm.",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting/Processing/CC_145_Ray_Casting"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Nqsq3DFv-",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting/Processing/CC_145_Ray_Casting",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting"
             }
         }
     ],
@@ -74,21 +69,25 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🌞",
                     "title": "SIGHT & LIGHT by Nicky Case",
                     "url": "https://ncase.me/sight-and-light/",
                     "description": "Demonstration on how to create 2D visibility/shadow effects for your game."
                 },
                 {
+                    "icon": "🌞",
                     "title": "2d Visibility from Red Blob Games",
                     "url": "https://www.redblobgames.com/articles/visibility/",
                     "description": "Discussion of how to calculate which areas are visible from a given point."
                 },
                 {
+                    "icon": "💾",
                     "title": "p5.collide2D",
                     "url": "https://github.com/bmoren/p5.collide2D",
                     "description": "A 2d collision detection library for p5.js."
                 },
                 {
+                    "icon": "🗄",
                     "title": "Line-line Intersection",
                     "url": "https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection",
                     "description": "Discussion of line-line intersection."
@@ -99,16 +98,19 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🎥",
                     "title": "Coding Adventure: Ray Marching",
                     "url": "https://youtu.be/Cp5WWtMoeKg",
                     "description": " Exploration of ray marching and signed distance functions to draw funky things."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Matrix Math",
                     "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
                     "description": "This video introduces the idea of Linear Algebra and explores the matrix math required for a simple neural network library."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Coding Challenge: Rendering Ray Casting",
                     "url": "https://www.youtube.com/watch?v=vYgIKn7iDH8",
                     "description": "This video builds off of the 2D Ray Casting coding challenge to make a version of the original Wolfenstein 3D Raycasting engine and visualize the field of view of the moving particle."

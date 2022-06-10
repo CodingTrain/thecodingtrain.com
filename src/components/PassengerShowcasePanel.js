@@ -34,6 +34,7 @@ const PassengerShowcasePanel = ({
           </Fragment>
         ))}
       </div>
+
       <ButtonPanel
         text="Have you completed a project? Share your work!"
         buttonText="Submit a contribution"
@@ -74,7 +75,7 @@ const Contribution = ({
         rel="noreferrer"
         aria-label={title}>
         {image ? (
-          <Image image={image} imgClassName={css.image} />
+          <Image image={image} imgClassName={css.image} alt={title} />
         ) : (
           <div className={css.noImage} />
         )}

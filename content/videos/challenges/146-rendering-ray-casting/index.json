@@ -54,18 +54,13 @@
     ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
+            "title": "Rendering Ray Casting",
             "description": "Implementation of 3d raycasting algorithm.",
             "image": "raycasting.png",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/yEzlR0_zq"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "Implementation of 3d raycasting algorithm.",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting/Processing/CC_146_Rendering_Ray_Casting"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/yEzlR0_zq",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting/Processing/CC_146_Rendering_Ray_Casting",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting"   
             }
         }
     ],
@@ -74,6 +69,7 @@
             "title": "Community Suggested References",
             "links": [
                 {
+                    "icon": "💾",
                     "title": "Code-It-Yourself! First Person Shooter (Quick and Simple C++)",
                     "url": "https://youtu.be/xW8skO7MFYw",
                     "description": " This video implements a 3D engine using nothing but ASCII at the Windows Command Prompt."
@@ -84,11 +80,13 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🌞",
                     "title": "Gustavo Pezzi's Raycast 3D",
                     "url": "http://www.gustavopezzi.com/projects/raycast3d/",
                     "description": "A course that teaches how to create a complete raycasting engine from scratch."
                 },
                 {
+                    "icon": "🌞",
                     "title": "Lode's Raycasting Tutorial",
                     "url": "https://lodev.org/cgtutor/raycasting.html",
                     "description": "A computer graphics tutorial on raycasting."
@@ -99,6 +97,7 @@
             "title": "Videos",
             "links": [
                 {
+                    "icons": "🎥",
                     "title": "Coding Challenge: 2D Ray Casting",
                     "url": "https://www.youtube.com/watch?v=TOEi6T2mtHo",
                     "description": "A basic ray casting engine is implemented with line segment surfaces and vector rays. The result simulates a light source casting shadows in a 2D canvas."

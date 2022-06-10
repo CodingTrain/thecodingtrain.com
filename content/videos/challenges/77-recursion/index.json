@@ -5,11 +5,12 @@
   "videoId": "jPsZwrV9ld0",
   "date": "2017-05-10",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["For beginners"],
+  "topics": ["recursion", "fractals", "beginner"],
   "codeExamples": [
     {
-      "title": "Recursion Coding Challenge p5 sketch",
-      "description": "",
+      "title": "Recursion",
+      "description": "Implementation of recursion to create fractal patterns.",
+      "images": "recursion.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pseBrWaMm",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/077_Recursion/Processing",
@@ -22,18 +23,22 @@
       "title": "References",
       "links": [
         {
+          "icons": "📙",
           "title": "The Fractal Geometry of Nature",
-          "description": "by Benoit Mandlebrot",
+          "description": "The essential guide that introduced fractals to the world by Benoit Mandlebrot",
           "url": "http://amzn.to/2xiVwht"
         },
 
         {
+          "icon": "🎥",
           "title": "My playlist on fractals & recursion",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
         },
 
         {
-          "title": "My Vido on Fractal Trees - Recursive",
+          "icon": "🎥",
+          "title": "Fractal Tree",
+          "description": "Coding Challenge using recursion to generate fractal tree.",
           "url": "https://youtu.be/0jjeOYMjmDU"
         }
       ]

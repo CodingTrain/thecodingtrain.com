@@ -6,13 +6,19 @@
   margin: 0;
   margin-right: var(--spacing-small);
   padding: 0;
+  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+.tagHeading {
+  font-weight: 600;
 }
 
 .tag {
   font-family: var(--maru-mono);
   display: inline-block;
+  color: var(--gray-dark);
 }
 
 .singleLine {
@@ -35,16 +41,6 @@
 .showButton {
   cursor: pointer;
   font-size: inherit;
-  color: var(--gray-mid);
   text-decoration: underline;
-}
-
-/* Variant */
-
-.red .showButton {
-  color: var(--red);
-}
-
-.cyan .showButton {
-  color: var(--cyan);
+  color: inherit;
 }

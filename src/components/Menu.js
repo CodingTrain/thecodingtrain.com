@@ -27,7 +27,7 @@ const items = [
       },
       {
         name: 'Discord',
-        href: 'https://discord.com/invite/hPuGy2g'
+        href: '/discord'
       },
 
       { name: 'GitHub', href: 'https://github.com/CodingTrain' }

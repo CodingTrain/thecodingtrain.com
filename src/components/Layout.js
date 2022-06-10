@@ -10,10 +10,10 @@ import '../styles/fonts.css';
 
 import * as css from './Layout.module.css';
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children, title, description, image }) => {
   return (
     <div className={css.container}>
-      <Head title={title} />
+      <Head title={title} description={description} image={image} />
       <div className={css.content}>
         <TopBar />
         {children}

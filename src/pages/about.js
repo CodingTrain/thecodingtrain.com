@@ -13,7 +13,7 @@ import { useLinkParsedText } from '../hooks';
 
 import PiRainbow from '../images/characters/PiRainbow.mini.svg';
 import TrainIcon from '../images/characters/TrainRainbow.mini.svg';
-import CandyRainbow from '../images/characters/RainbowCandy.mini.svg';
+import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 import ChooChooCharacter from '../images/characters/ChooChooBot_1.mini.svg';
 import TriangleCharacter from '../images/characters/Triangle_3.mini.svg';
 
@@ -96,7 +96,7 @@ const AboutPage = ({ data }) => {
   const secondaryCover = content.covers[1].file.childImageSharp.gatsbyImageData;
 
   return (
-    <Layout title="About" description={secondaryDescription}>
+    <Layout title="About" description={secondaryDescription} image={mainCover}>
       <Spacer />
 
       <header className={css.row}>
@@ -160,7 +160,7 @@ const AboutPage = ({ data }) => {
           side="right"
           offset={0.42}
           characterSize={0.7}
-          Character={CandyRainbow}
+          Character={RainbowCharacter}
         />
 
         <section>
