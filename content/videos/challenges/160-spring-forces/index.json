@@ -83,7 +83,8 @@
       "description": "Implementation of a simple spring.",
       "image": "simplespring.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/dcd6-2mWa"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/dcd6-2mWa",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/simple-spring-port/cc160_simple_spring_port"
       }
     },
     {
@@ -91,7 +92,8 @@
       "description": "Implemention with a vector.",
       "image": "springvector.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/_A2pm_SSg"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_A2pm_SSg",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/spring-vector-port/cc160_spring_vector_port"
       }
     },
     {
@@ -99,7 +101,8 @@
       "description": "Implemention with OOP.",
       "image": "springOOP.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/9BAoEn4Po"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9BAoEn4Po",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/spring-oop-port/cc160_spring_oop_port"
       }
     },
     {
@@ -107,17 +110,17 @@
       "description": "Implemention with a soft spring",
       "image": "softspring.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/S5dY7qjxP"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/S5dY7qjxP",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/soft-spring-port/cc160_soft_spring_port"
       }
     }
   ],
   "groupLinks": [
     {
-     
       "title": "References",
       "links": [
         {
-         "icon": "📕",
+          "icon": "📕",
           "title": "Nature of Code 3.10 Spring Forces",
           "url": "https://natureofcode.com/book/chapter-3-oscillation/index.html#310-spring-forces"
         },
@@ -148,7 +151,7 @@
           "description": "Coding Train Challenge #63 video on cloth simulation."
         },
         {
-           "icon": "🎥",
+          "icon": "🎥",
           "title": "Simple Particle System",
           "url": "https://youtu.be/UcdigVaIYAk",
           "description": "Coding Train video on a Challenge #78 on creating a basic particle system."
