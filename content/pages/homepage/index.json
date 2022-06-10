@@ -32,8 +32,8 @@
     "description": "Watch Daniel take on some viewer submitted Coding Challenges in p5.js and Processing. The challenges range from algorithmic art, machine learning, simulation, to generative poetry, and more.",
     "featured": [
       "170-monty-hall-problem",
-      "167-prime-spiral",
-      "166-image-to-ascii"
+      "169-pi-in-the-sky",
+      "165-slide-puzzle"
     ],
     "challengesCta": {
       "text": "ready to explore? check out the newest challenges",
@@ -43,7 +43,7 @@
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlight",
-    "featured": "challenges/77-recursion/showcase/contribution1.json",
+    "featured": "challenges/163-bezier-curves/showcase/contribution2.json",
     "cta": {
       "text": "Do you want to see other people's work?",
       "buttonText": "Check out showcase highlight"

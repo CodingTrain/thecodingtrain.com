@@ -15,7 +15,7 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introducing Today's Topic" },
-    { "time": "1:31", "title": "The MandelBrot set explained" },
+    { "time": "1:31", "title": "The Mandelbrot set explained" },
     { "time": "4:31", "title": "Triplex numbers" },
     { "time": "5:11", "title": "Voxels in Processing" },
     { "time": "6:36", "title": "Adding PeasyCam" },
@@ -23,20 +23,36 @@
     { "time": "9:18", "title": "The power of triplex numbers" },
     { "time": "10:51", "title": "Implementing power formulas" },
     { "time": "15:26", "title": "Converting cartesian to Spherical" },
-    { "time": "19:26", "title": "Setting up the MandelBulb" },
-    { "time": "22:00", "title": "First MandelBulb" },
-    { "time": "22:23", "title": "Pointcloud MandelBulb" },
+    { "time": "19:26", "title": "Setting up the Mandelbulb" },
+    { "time": "22:00", "title": "First Mandelbulb" },
+    { "time": "22:23", "title": "Pointcloud Mandelbulb" },
     { "time": "24:47", "title": "Variation ideas" },
-    { "time": "25:47", "title": "The MandelBulb returns" },
+    { "time": "25:47", "title": "The Mandelbulb returns" },
     { "time": "27:31", "title": "See you next time!" }
   ],
   "codeExamples": [
     {
-      "title": "MandelBulb",
-      "description": "Processing examples for the MandelBulb Coding Challenge",
+      "title": "Mandelbulb Point Cloud",
+      "description": "Representing the Mandelbulb as a point cloud",
+      "image": "pointcloud.png",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/168_Mandelbulb/Processing/MandelBulb_Cloud"
+      }
+    },
+    {
+      "title": "Mandelbulb with Colors",
+      "description": "Mandelbulb rendered with different colors",
       "image": "mandelbulb.png",
       "urls": {
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/168_Mandelbulb/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/168_Mandelbulb/Processing/MandelBulb_Color"
+      }
+    },
+    {
+      "title": "Mandelbulb with Image",
+      "description": "Mandelbulb rendered with an image as a texture",
+      "image": "mandelbulbimage.png",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/168_Mandelbulb/Processing/MandelBulb_Shape"
       }
     }
   ],
@@ -58,9 +74,9 @@
         },
         {
           "icon": "🗄",
-          "title": "MandelBulb",
+          "title": "Mandelbulb",
           "url": "https://en.wikipedia.org/wiki/Mandelbulb",
-          "description": "Wikipedia entry on the MandelBulb"
+          "description": "Wikipedia entry on the Mandelbulb"
         },
         {
           "icon": "🎥",
