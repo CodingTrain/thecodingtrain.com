@@ -56,16 +56,25 @@
   ],
   "codeExamples": [
     {
-      "title": "Pendulum OOP",
-      "description": "Implementation of a simple pendulum.",
+      "title": "Pendulum",
+      "description": "Simulation of a simple pendulum",
       "image": "simple.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SN-39sHAC",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/159_simple_pendulum_simulation/Processing/cc_159_simple_pendulum_simulation"
+      }
+    },
+    {
+      "title": "Pendulum OOP",
+      "description": "Simulation of a pendulum using OOP",
+      "image": "oop.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/lJz1cmMp4"
       }
     },
     {
       "title": "Array of Pendulums",
-      "description": "Implementation of an array of pendulums.",
+      "description": "Simulating multiple pendulums",
       "image": "array.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Bj82tUlIO"
