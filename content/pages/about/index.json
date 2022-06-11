@@ -44,12 +44,6 @@
   "featuredTitle": "Featured",
   "featured": [
     {
-      "title": "Image to ASCII (Coding Challenge 167)",
-      "description": "Check out the latest coding challenge, turning an image into ASCII Art with p5.js!",
-      "thumbnail": "challenge.jpg",
-      "url": "/challenges/166-image-to-ascii"
-    },
-    {
       "title": "Mouse Learning",
       "description": "Watch my talk on machine learning and the computer mouse for the 2021 Computer Mouse Conference!",
       "thumbnail": "mouse-learning.png",
@@ -100,7 +94,7 @@
       "people": [{ "name": "..." }]
     },
     {
-      "name": "Past Contributors",
+      "name": "Teal Alumni",
       "people": [
         { "name": "Dusk Virkus", "url": "https://dusk.com" },
         { "name": "Cy X", "url": "https://cyberwitch666.com/" }
