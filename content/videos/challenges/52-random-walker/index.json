@@ -1,0 +1,68 @@
+{
+    "title": "Random Walker",
+    "description": "In this coding challenge, I simulate a \u201crandom walk\u201d with the p5.js library. This video is part of the course Nature of Code at ITP, Tisch, NYU.",
+    "videoNumber": "52",
+    "videoId": "l__fEY1xanY",
+    "date": "2017-01-27",
+    "languages": ["p5js", "Javascript", "Processing", "Java"],
+    "topics": ["random", "floor", "random walker"],
+    "canContribute": true,
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction to the Random Walker Coding Challenge"},
+        { "time": "1:56", "title": "Whiteboard explanation of a random walk" },
+        { "time": "6:48", "title": "Into the code...drawing a point!" },
+        { "time": "7:30", "title": "Picking a random number between 0 and 4 using p5.js's 'random' and 'floor' functions" },
+        { "time": "9:58", "title": "Setting up the code to use the random number"},
+        { "time": "12:26", "title": "First run! The point...it wibbles...it wobbles" },
+        { "time": "12:48", "title": "Stop clearing the background every frame so that we can see the point's path"},
+        { "time": "13:10", "title": "Discussion of the possibilities of the random walker" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Random Walker",
+            "description": "Code examples for the Random Walker Coding Challenge",
+            "image": "random_walker.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/N-qqe1ExZ",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/052_random_walk/Processing/CC_052_random_walk",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/052_random_walk"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🚶🏽‍♀️",
+                    "title": "Random walk Wikipedia article",
+                    "url": "https://en.wikipedia.org/wiki/Random_walk",
+                    "description": "More info about random walks from Wikipedia."
+                },
+                {
+                    "icon": "5️⃣",
+                    "title": "random Function Reference Page",
+                    "url": "https://p5js.org/reference/#/p5/random",
+                    "description": "The Reference page for the random function of p5.js library."
+                },
+                {
+                    "icon": "5️⃣",
+                    "title": "floor Function Reference Page",
+                    "url": "https://p5js.org/reference/#/p5/floor",
+                    "description": "The Reference page for the floor function of p5.js library."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                  "icon": "🎥",
+                  "title": "Random Walker with Vectors and Lévy Flight",
+                  "url": "https://www.youtube.com/watch?v=bqF9w9TTfeo",
+                  "description": "Random walker using vectors to vary the distance of each step, and implementing Lévy Flight."
+                }
+            ]
+        }
+    ]
+}
