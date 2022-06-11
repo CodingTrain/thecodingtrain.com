@@ -4,7 +4,7 @@
     "videoNumber": "61",
     "videoId": "0dwJ-bkJwDI",
     "date": "2017-02-28",
-    "languages": ["processing"],
+    "languages": ["processing", "java"],
     "topics": [
         "fractal spirograph",
         "creative coding",
@@ -30,6 +30,7 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🖊",
                     "title": "C.J.Chen's blog on Fractal Spirograph",
                     "url": "http://benice-equation.blogspot.ca/2012/01/fractal-spirograph.html",
                     "description": "Fun math art (pictures) - benice equation"
@@ -40,6 +41,7 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🎥",
                     "title": "My Video on Polar Coordinates",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
                     "description": "A dive into the trigonometric functions—sine, cosine, tangent."
