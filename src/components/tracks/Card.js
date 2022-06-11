@@ -86,12 +86,14 @@ const Card = ({
               heading="Languages"
               items={languages}
               linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+              headerType="h4"
             />
             <Tags
               className={css.tags}
               heading="Topics"
               items={topics}
               linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+              headerType="h4"
             />
             <p className={css.description}>{description}</p>
           </div>
@@ -115,6 +117,7 @@ const Card = ({
             image={image}
             pictureClassName={css.picture}
             imgClassName={css.image}
+            alt={`"${title}" track`}
           />
         </div>
       </article>
