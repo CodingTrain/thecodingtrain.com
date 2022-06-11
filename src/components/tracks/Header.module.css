@@ -55,6 +55,7 @@
   overflow-y: auto;
   padding: 0 var(--box-padding);
   background: white;
+  font-family: var(--maru-mono);
   font-size: var(--maru-medium);
   line-height: var(--baseline-1of2);
 }

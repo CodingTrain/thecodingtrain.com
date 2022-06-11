@@ -26,6 +26,7 @@ const TracksPage = ({ data, pageContext, location }) => {
     <ItemsPage
       title={pageData.title}
       description={pageData.description}
+      image={placeholderMainTrackImage}
       location={location}
       itemsPath="tracks"
       variant="red"
