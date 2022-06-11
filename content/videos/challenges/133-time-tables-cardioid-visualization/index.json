@@ -32,11 +32,13 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🎥",
                     "title": "Cardioid on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Cardioid",
                     "description": "Article about the cardioid."
                 },
                 {
+                    "icon": "🗒",
                     "title": "Rainbow Topics suggestion from Eduardddd",
                     "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/1036",
                     "description": "Coding Train suggestion box"
@@ -47,26 +49,31 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🎥",
                     "title": "Times Tables, Mandelbrot and the Heart of Mathematics",
                     "url": "https://youtu.be/qhbuKbxJsk8",
                     "description": "Mathologer investigates the infamous Mandelbrot set, the ubiquitous cardioid and a myriad of hidden beautiful patterns."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Times Tables Visualization Poster in Processing",
                     "url": "https://youtu.be/I-b54QkD3so",
                     "description": "Simon Tiger shows how he made an enormous poster from his earlier animated version of the Times Tables Visualization and explains the math behind the code in detail."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Mandelbrot Set",
                     "url": "https://www.youtube.com/watch?v=6z7GQewK-Ks",
                     "description": "n this coding challenge, I program the Mandelbrot set with p5.js."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Polar Coordinates",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
                     "description": ""
                 },
                 {
+                    "icon": "🎥",
                     "title": "The Modulo Operator",
                     "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
                     "description": "Guest tutorial by Golan Levin about the modulo operator."
