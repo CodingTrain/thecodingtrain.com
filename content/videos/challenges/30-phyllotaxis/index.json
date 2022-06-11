@@ -1,13 +1,47 @@
 {
-  "title": "Phyllotaxis",
-  "description": "In this coding challenge, I continue one of my favorite subjects: Algorithmic botany! This video covers the subject of Phyllotaxis, what it is and how it can be used to generate sunflower-like patterns inspired by nature.",
-  "videoNumber": "30",
-  "videoId": "KWoJgHFYWxY",
-  "date": "2016-06-02",
-  "languages": ["p5.js", "JavaScript"],
-  "topics": ["phyllotaxis", "generative art"],
-  "canContribute": true,
-  "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": []
+    "title": "Phyllotaxis",
+    "description": "In this coding challenge, I continue one of my favorite subjects: Algorithmic botany! This video covers the subject of Phyllotaxis, what it is and how it can be used to generate sunflower-like patterns inspired by nature.",
+    "videoNumber": "30",
+    "videoId": "KWoJgHFYWxY",
+    "date": "2016-08-03",
+    "languages": ["p5.js", "javascript"],
+    "topics": [
+        "algorithmic botany",
+        "phyllotaxis",
+        "generative art"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Phyllotaxis",
+            "description": "This sketch generates a sunflower-like pattern using algorithmic botony.",
+            "image": "phyllotaxis.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/CehY0jsLV",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_030_Phyllotaxis/Processing",
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_030_Phyllotaxis/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗄",
+                    "title": "Phyllotaxis on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Phyllotaxis",
+                    "description": "Discussion of phyllotaxis in nature."
+                },
+                {
+                   "icon": "📘",
+                    "title": "Algorithmic Botany - Phyllotaxis",
+                    "url": "http://algorithmicbotany.org/papers/abop/abop-ch4.pdf",
+                    "description": "Discussion of algorithmic botony."
+                }
+            ]
+        }
+    ]
 }
