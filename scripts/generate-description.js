@@ -1,10 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-function findVideoFilesRecursive(dir, arrayOfFiles) {
+function findVideoFilesRecursive(dir, arrayOfFiles = []) {
   const files = fs.readdirSync(dir);
-
-  arrayOfFiles = arrayOfFiles || [];
 
   for (const file of files) {
     if (fs.statSync(`${dir}/${file}`).isDirectory()) {
@@ -20,31 +18,27 @@ function findVideoFilesRecursive(dir, arrayOfFiles) {
 }
 
 // Cannot be ported as there is no way to get the YT playlist ID from the JSON
-// function getPlaylist(file) {
-//   const series = file.substring(0, file.lastIndexOf('/')) + '/index.md';
-//   const content = fs.readFileSync(series);
-//   const parsed = yaml.loadFront(content);
-//   if (parsed.playlist_id) {
-//     return parsed.playlist_id;
-//   }
-//   return false;
-// }
+function parseTracks(dir) {
+  const tracks = findVideoFilesRecursive(dir);
+  const trackInfo = [];
+  for (const track of tracks) {
+    const trackName = path.dirname(track);
+    const content = fs.readFileSync(`./${track}`, 'UTF8');
+    const parsed = JSON.parse(content);
+    trackInfo.push({ name: trackName, data: parsed });
+  }
+  return trackInfo;
+}
 
 function getVideoData() {
+  const mainTracks = parseTracks('content/tracks/main-tracks');
+  const sideTracks = parseTracks('content/tracks/side-tracks');
+  console.log(mainTracks, sideTracks);
+
   const directories = [
-    // 'content/pages',
     // 'content/tracks',
     'content/videos'
   ];
-
-  const tracks = {
-    noc: 'the-nature-of-code-2/noc',
-    code: 'code-programming-with-p5-js/code'
-  };
-
-  const sideTracks = {
-    workflow: '2018-workflow/workflow'
-  };
 
   let files = [];
   for (const dir of directories) {
@@ -57,20 +51,13 @@ function getVideoData() {
     const content = fs.readFileSync(`./${file}`, 'UTF8');
     const parsed = JSON.parse(content);
 
-    const filePath = file.split(path.sep);
+    const filePath = file.split(path.sep).slice(2);
     let url;
-    for (const track in tracks) {
-      if (filePath.includes(track)) {
-        url = `tracks/${tracks[track]}/${filePath.slice(-3, -1).join('/')}`;
-      }
-    }
-    for (const track in sideTracks) {
-      if (filePath.includes(track)) {
-        url = `tracks/${sideTracks[track]}/${filePath[3]}`;
-      }
-    }
-    if (filePath.includes('challenges')) {
+
+    if (filePath[0] === 'challenges') {
       url = filePath.slice(2, 4).join('/');
+    } else {
+      let track = filePath[0];
     }
     if (filePath.includes('side-tracks')) {
       url = `tracks/${filePath[4]}/tracks/side-tracks/${filePath
