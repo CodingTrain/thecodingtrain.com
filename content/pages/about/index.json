@@ -89,9 +89,16 @@
         { "name": "Kobe Liesenborgs", "role": "Discord and GitHub" },
         {
           "name": "Mathieu Blanchette",
-          "role": "Editing and Video Production",
-          "url": "https://mathieu.com"
-        }
+          "url": "https://mathieu.com",
+          "role": "Editing and Video Production"
+        },
+        { "name": "Illustrations and Animations: Jason Heglund" },
+        { "name": "Social Media and Community: Katie Chan" },
+        { "name": "Chloe Desaulles", "role": "Projects and Research" },
+        { "name": "Discord and GitHub: Kobe Liesenborgs" },
+        { "name": "Discord and GitHub: David Snyder" },
+        { "name": "Website Content Development: Kline Gareth" },
+        { "name": "Content Designer: Elizabeth Perez" }
       ]
     },
     {
