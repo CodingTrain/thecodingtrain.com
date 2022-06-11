@@ -1,0 +1,70 @@
+{
+    "title": "Lissajous Curve Table",
+    "description": "In this Coding Challenge, I visualize a \u201cLissajous Curve Table\u201d with Processing (Java).",
+    "videoNumber": "116",
+    "videoId": "--6eyLO78CY",
+    "date": "2018-10-03",
+    "languages": [],
+    "topics": [
+        "lissajous",
+        "lissajous curve",
+        "polar coordinates"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Lissajous Table",
+            "description": "A visualization of the lissajous curve table.",
+            "image": "lissajous.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/BJbj5l3Y7",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/116_Lissajous/Processing",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/116_Lissajous"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗄",
+                    "title": "Lissajous Curve on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Lissajous_curve",
+                    "description": "Discussion of the dissajous curve."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Lissajous Curves with p5.js",
+                    "url": "https://youtu.be/glDU8Nsyidg",
+                    "description": "In this video I port the Lissajous Curve Table Processing sketch to JavaScript with the p5.js web editor and the p5.js library."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Lissajous Curve",
+                    "url": "https://youtu.be/4CbPksEl51Q",
+                    "description": "Making a physical Lissajous curve."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Polar Coordinates",
+                    "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+                    "description": "A dive into the trigonometric functions—sine, cosine, tangent—and take a close look at thinking in polar coordinates with p5.js!"
+                },
+                {
+                    "icon": "🎥",
+                    "title": "2D Arrays in JavaScript",
+                    "url": "https://www.youtube.com/watch?v=OTNpiLUSiB4",
+                    "description": "In this JavaScript Tutorial, I cover two-dimensional (2D) arrays in JavaScript.  I demonstrate how to create, initialize, and use the arrays with nested for loops."
+                }
+            ]
+        }
+    ]
+}

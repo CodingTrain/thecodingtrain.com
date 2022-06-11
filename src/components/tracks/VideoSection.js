@@ -70,12 +70,14 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             heading="Languages"
             items={languages}
             linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+            headerType="h3"
           />
           <Tags
             className={css.tags}
             heading="Topics"
             items={topics}
             linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+            headerType="h3"
           />
 
           <ShareButton className={css.share} variant="red" text="" />
