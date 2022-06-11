@@ -52,11 +52,17 @@ Data from the old website was scraped into starter templates that [reside in a G
 
 ### Next Steps
 
-Once you have the template directory in the "challenges" folder, there are a number of things to check to ensure stale data is either updated or removed, and that thumbnail images and metadata get added.  **Remember, this is an opportunity to clean up and improve the metadata!** Also, go ahead and re-watch the video to give yourself a better idea on what topics were discussed - this will also give you a change to mark down timestamps topics in the video, which can be added to the "index.json" file.
+Once you have the template directory in the "challenges" folder, there are a number of things to check to ensure stale data is either updated or removed, and that thumbnail images and metadata get added.  **Remember, this is an opportunity to clean up and improve the metadata!** Also, go ahead and re-watch the video to give yourself a better idea on what topics were discussed - this will also give you a chance to mark down timestamps and topics in the video, which can be added to the "index.json" file.
 
 1. Before you make any changes, be sure to create a new branch so that you're not working out of the *main* branch!
-   - To create a new branch use the "git checkout -b **branch-name**" command in your terminal.  Your branch name can be anything you want, but you may want to keep it short and relevant to this branch.  For example, for the "103 - Fire Effect" coding challenge, you could make it something like "fire-effect-coding-challenge".  
+   - To create a new branch use the "git checkout -b **branch-name**" command in your terminal.  Your branch name can be anything you want, but you may want to keep it short and relevant to this branch.  For example, for the "103 - Fire Effect" coding challenge, you could make it something like "fire-effect-coding-challenge".
+  ```console
+  git checkout -b branch-name
+  ```
    - When you go to *push* this branch up to GitHub, you'll need to create a remote branch in GitHub to accept it. Use the "git push --set-upstream origin **branch-name**" command in your terminal to create the remote branch and push your changes up to it.
+  ```console
+  git push --set-upstream origin branch-name
+  ```
 
 ![screenshot showing how to set the upstream repo](https://user-images.githubusercontent.com/28508947/173201974-b030787d-275b-4082-bf19-2584e92a9a95.png)
 
@@ -87,7 +93,7 @@ Once you have the template directory in the "challenges" folder, there are a num
    - Update the "topics" property in the "index.json" file.  If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics".  The tags from YouTube are pretty generic and overall too much information. Only a handful of topics are needed, so only include topics that are relevant to this specific video. If no tags were present on the YouTube page, then this may be blank - go ahead and add a couple of topics!
    - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file.  Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept.
 7. Add time codes for the video.
-   - The "timestamps" property in the "index.json" file may contain time codes that were pulled in from the YouTube video.  If those didn't exist for the YouTube video, go ahead and add those time codes in to the "timestamps" property.
+   - The "timestamps" property in the "index.json" file may contain time codes that were pulled in from the YouTube video.  If those didn't exist for the YouTube video, go ahead and add those time codes.
 
 ![screenshot showing timestamp json data and how it looks on the website](https://user-images.githubusercontent.com/28508947/173202054-ce9dcdf6-3ca2-411b-a869-9d47c7670e6e.png)
 
