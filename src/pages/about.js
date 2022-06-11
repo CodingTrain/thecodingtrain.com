@@ -215,7 +215,7 @@ const AboutPage = ({ data }) => {
                 <table>
                   {group.people.map((person, personIndex) => (
                     <tr key={personIndex}>
-                      <td className={css.name}>
+                      <td>
                       {person.url ? (
                         <a target="_blank" rel="noreferrer" href={person.url}>
                           {person.name}
@@ -224,7 +224,7 @@ const AboutPage = ({ data }) => {
                         person.name
                       )}
                       </td>
-                      <td className={css.role}>{person.role}</td>
+                      <td>{person.role}</td>
                     </tr>
                   ))}
                 </table>
