@@ -58,7 +58,10 @@ Below are some things to check:
 
 1. Before you make any changes, be sure to create a new branch so that you're not working out of the *main* branch!
    - To create a new branch use the "git checkout -b **branch-name**" command in your terminal.  Your branch name can be anything you want, but you may want to keep it short and relevant to this branch.  For example, for the "103 - Fire Effect" coding challenge, you could make it something like "fire-effect-coding-challenge".  
-   - When you go to *push* this branch up to GitHub, you'll need to create a remote branch in GitHub to accept it.  
+   - When you go to *push* this branch up to GitHub, you'll need to create a remote branch in GitHub to accept it. Use the "git push --set-upstream origin **branch-name**" command in your terminal to create the remote branch and push your changes up to it.
+
+!!!!!!!!ADD GIT TERMINAL SCREENSHOT HERE!!!!!!!!
+
 1. Update links to code examples.
    - For the p5js examples, make sure the links listed really take you to the p5 Web Editor page that stores that project.
    - For p5js and Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.
@@ -87,7 +90,9 @@ Below are some things to check:
    - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file.  Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept.
 1. Add time codes for the video.
    - The "timestamps" property in the "index.json" file may contain time codes that were pulled in from the YouTube video.  If those didn't exist for the YouTube video, go ahead and add those time codes in to the "timestamps" property.
+
 !!!!!!!!ADD TIMESTAMPS SCREENSHOT HERE!!!!!!!!
+
 1. Replace any links to the old website with links to the new website.
    - Some links in the "index.json" file may refer to other challenges or other parts of the old website.  For example, challenge 10.1 is part 1 of a 4 part series.  Each of the 4 parts refers to each of the other 4 parts in the series in the "Other Parts Of This Coding Challenge" section of the "index.json" file.  The path to those other parts will have changed on the new website, so that URL will need to be updated.
 1. Optionally, add an emoji to the links in the References or Videos section of the "index.json" file.
@@ -97,6 +102,10 @@ Below are some things to check:
 ![screenshot of a list of links with emoji](https://user-images.githubusercontent.com/191758/172730382-58367b6c-6341-4f02-8b4a-b8f96b0fbdd0.png)
 
 ![screenshot of the groupLinks section showing an index.json file with emoji](https://user-images.githubusercontent.com/28508947/172737265-90a5bb0e-a126-405b-940f-a6790bced06e.png)
+
+### Create a Pull Request on GitHub
+
+
 
 ## Coding Challenges - Adding video
 
