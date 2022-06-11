@@ -105,7 +105,17 @@ Below are some things to check:
 
 ### Create a Pull Request on GitHub
 
+Once all updates have been made to the Coding Challenge and the branch has been pushed up to GitHub, go to the webpage for your forked repo on GitHub.  You should see a yellow message box with the name of your branch and a button with the text "Compare & pull request".  Click that button to open the page to create a pull request into the *main* repo.
 
+!!!!!!!!ADD COMPARE & PULL REQUEST SCREENSHOT HERE!!!!!!!!
+
+Add a title to the pull request on the new page. Optionally, add a message about the changes made.  Click the "Create a pull request" button to finish creating the pull request.
+
+!!!!!!!!ADD OPEN A PULL REQUEST SCREENSHOT HERE!!!!!!!!
+
+The Netlify bot will start running tests on your pull request.  If everything passes, someone one the Coding Train team will review your pull request. They may have questions about it or offer suggestions to improve it. If you end up needing to make changes, you can make them in the branch in your local repo. When you push the changes up to GitHub, they will automatically show up as an update in the pull request. Once all changes have been made to the pull request, the pull request will be merged.  Congrats!!!
+
+!!!!!!!!ADD PULL REQUEST PAGE HERE!!!!!!!!
 
 ## Coding Challenges - Adding video
 
