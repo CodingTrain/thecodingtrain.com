@@ -4,8 +4,20 @@
     "videoNumber": "158",
     "videoId": "3MqJzMvHE3E",
     "date": "2020-12-03",
-    "languages": ["processing", "p5.js", "ml5"],
-    "topics": ["generating datasets", "loading images", "neural networks", "training a model", "test training", "prediction", "testing a model"],
+    "languages": [
+        "processing",
+        "p5.js",
+        "ml5"
+    ],
+    "topics": [
+        "generating datasets",
+        "loading images",
+        "neural networks",
+        "training a model",
+        "test training",
+        "prediction",
+        "testing a model"
+    ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [
@@ -80,13 +92,35 @@
     ],
     "codeExamples": [
         {
-            "title": "Generate Dataset - p5 Web Editor",
-            "description": "Implemention of generating a data set in p5.js.",
+            "title": "Generate Dataset",
+            "description": "Generating a dataset of images of various shapes in Processing",
             "image": "generate.png",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/7leVIzy5l",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/158_Shape_Classifier/dataset/generate_dataset_shape_classifier/generate_dataset_shape_classifier.pde",
-                "other": "https://github.com/CodingTrain/Coding-Challenges/blob/main/158_Shape_Classifier"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/158_Shape_Classifier/dataset/generate_dataset_shape_classifier/generate_dataset_shape_classifier.pde"
+            }
+        },
+        {
+            "title": "Train Model",
+            "description": "Training a model with ml5.js using the created dataset",
+            "image": "training.png",
+            "urls": {
+                "p5": "https://github.com/CodingTrain/Coding-Challenges/tree/main/158_Shape_Classifier/training"
+            }
+        },
+        {
+            "title": "Shape Classifier (Mouse)",
+            "description": "Demonstration of a shape classifier with shapes drawn on the canvas",
+            "image": "mouse.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/JgLVfCS4E"
+            }
+        },
+        {
+            "title": "Shape Classifier (Webcam)",
+            "description": "Demonstration of a shape classifier from webcam input",
+            "image": "webcam.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2hZGBkqqq"
             }
         }
     ],
@@ -110,7 +144,7 @@
                     "icon": "💾",
                     "title": "ml5.js Loading a pre trained model",
                     "url": "https://learn.ml5js.org/#/reference/neural-network?id=loading-a-pre-trained-model",
-                    "description": "Reference for load a pre trained model."
+                    "description": "Reference for loading a pre trained model."
                 },
                 {
                     "icon": "📝",

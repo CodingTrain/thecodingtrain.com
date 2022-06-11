@@ -32,11 +32,6 @@
   color: var(--gray-dark);
 }
 
-.tab:hover,
-.active {
-  color: var(--gray-dark);
-}
-
 .tab:hover {
   font-weight: 600;
 }
@@ -66,11 +61,13 @@
 
   & .tab {
     border-right: var(--border-red);
+    color: var(--red);
   }
 
   & .tab:hover,
   & .active {
     background-color: var(--red-light);
+    color: var(--gray-dark);
   }
 }
 
@@ -82,11 +79,13 @@
 
   & .tab {
     border-right: var(--border-cyan);
+    color: var(--cyan);
   }
 
   & .tab:hover,
   & .active {
     background-color: var(--cyan-light);
+    color: var(--gray-dark);
   }
 }
 
