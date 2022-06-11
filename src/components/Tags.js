@@ -5,13 +5,21 @@ import cn from 'classnames';
 import * as css from './Tags.module.css';
 
 const Tags = memo(
-  ({ className, heading, items, singleLine = true, linkTo }) => {
+  ({
+    className,
+    heading,
+    items,
+    singleLine = true,
+    linkTo,
+    headerType = 'h2'
+  }) => {
     const [showAll, setShowAll] = useState(false);
     const visibleItems = showAll ? items : items.slice(0, 2);
+    const Header = headerType;
     return (
       <div
         className={cn(css.root, className, { [css.singleLine]: singleLine })}>
-        <h4 className={css.tagHeading}>{heading}</h4>
+        <Header className={css.tagHeading}>{heading}</Header>
         {visibleItems.map((tag, index) =>
           linkTo ? (
             <Link

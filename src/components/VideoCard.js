@@ -20,7 +20,6 @@ const VideoCard = ({
   title,
   slug,
   link,
-  meta,
   icon = '👁',
   description,
   image,
@@ -40,12 +39,12 @@ const VideoCard = ({
             <p className={css.description}>{description}</p>
             {link ? (
               <a className={css.meta} href={link}>
-                <span>{meta}</span>
+                <span>PLAY FEATURE</span>
                 <Play className={css.play} />
               </a>
             ) : (
               <Link to={slug} className={css.meta}>
-                <span>{meta}</span>
+                <span>PLAY FEATURE</span>
                 <Play className={css.play} />
               </Link>
             )}
@@ -54,12 +53,12 @@ const VideoCard = ({
             <Image image={image} imgClassName={css.img} />
             {link ? (
               <a className={css.meta} href={link}>
-                <span>{meta}</span>
+                <span>PLAY FEATURE</span>
                 <Play className={css.play} />
               </a>
             ) : (
               <Link to={slug} className={css.meta}>
-                <span>{meta}</span>
+                <span>PLAY FEATURE</span>
                 <Play className={css.play} />
               </Link>
             )}

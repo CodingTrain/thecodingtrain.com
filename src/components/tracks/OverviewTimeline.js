@@ -91,15 +91,17 @@ const ChapterSection = memo(
     return (
       <ul className={css.chapterList}>
         {chapter.title && (
-          <button
-            className={cn(
-              css.chapterTitle,
-              { [css.expanded]: !collapsed },
-              { [css.hasSeen]: hasSeenChapter || isThisChapter }
-            )}
-            onClick={() => setCollapsed((c) => !c)}>
-            {chapter.title}
-          </button>
+          <li>
+            <button
+              className={cn(
+                css.chapterTitle,
+                { [css.expanded]: !collapsed },
+                { [css.hasSeen]: hasSeenChapter || isThisChapter }
+              )}
+              onClick={() => setCollapsed((c) => !c)}>
+              {chapter.title}
+            </button>
+          </li>
         )}
         {!collapsed &&
           chapter.videos.map((video, index) => {
