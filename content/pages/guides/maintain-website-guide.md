@@ -83,9 +83,7 @@ Once you have the template directory in the "challenges" folder, there are a num
 5. Add thumbnail images for each showcase.
    - If you're able to run the project, create a thumbnail image for each showcase attached to the challenge.
    - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web.  Sometimes these projects are hosted on sites where previews of the running project are available.  If so, grab a screenshot of the running project to use as the thumbnail for that project.  If not, the placeholder image will be used.
-   - To add a thumbnail image, copy the image into the "showcase" directory within the challenge's directory and re-name the image  so that it matches the filename of the contribution's JSON file:
-
-![screenshot showing contribution json and image files](https://user-images.githubusercontent.com/28508947/173202396-4cda7971-fee9-4b26-8aca-2f16b71fd035.png)
+   - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image  so that it matches the filename of the contribution's JSON file.  For example, if you have a "contribution1.json" file, you should also have a "contribution1.png" file.
 
 6. Add additional metadata descriptions for related links and videos.
    - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
