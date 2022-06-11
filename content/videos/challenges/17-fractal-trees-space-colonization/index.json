@@ -8,22 +8,36 @@
   "topics": ["fractals", "generative art", "space colonization"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+  {
+        "title": "Fractal Trees - Space Colonization",
+        "description": "This sketch creates a tree generator.",
+        "image": "space.png",
+        "urls": {
+          "p5.js": "https://editor.p5js.org/codingtrain/sketches/r9pxis9g-",
+          "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer/Processing",
+          "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer"
+        }
+      }
+  ],
   "groupLinks": [
     {
       "title": "References",
       "links": [
         {
+          "icon": "🌳",
           "title": "Algorithmic Botany",
           "url": "http://algorithmicbotany.org/",
           "description": "by University of Calgary"
         },
         {
+          "icon": "📓",
           "title": "Space Colonization Algorithm",
           "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
           "description": "by Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz"
         },
         {
+          "icon": "📕",
           "title": "Nature of Code class on Kadenze",
           "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
           "description": "description of content linked"
