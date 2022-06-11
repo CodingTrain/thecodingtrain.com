@@ -212,19 +212,22 @@ const AboutPage = ({ data }) => {
             {acknowledgements.map((group, index) => (
               <div className={css.acknowledgementsTeam} key={index}>
                 <h3>{group.name}</h3>
-                <ul>
+                <table>
                   {group.people.map((person, personIndex) => (
-                    <li key={personIndex}>
+                    <tr key={personIndex}>
+                      <td className={css.name}>
                       {person.url ? (
                         <a target="_blank" rel="noreferrer" href={person.url}>
                           {person.name}
                         </a>
                       ) : (
-                        <span>{person.name}</span>
+                        person.name
                       )}
-                    </li>
+                      </td>
+                      <td className={css.role}>{person.role}</td>
+                    </tr>
                   ))}
-                </ul>
+                </table>
               </div>
             ))}
           </div>
@@ -294,6 +297,7 @@ export const query = graphql`
           people {
             name
             url
+            role
           }
         }
       }
