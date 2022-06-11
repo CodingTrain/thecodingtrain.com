@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const videos = [];
+
 function findVideoFilesRecursive(dir, arrayOfFiles = []) {
   const files = fs.readdirSync(dir);
 
@@ -17,61 +19,76 @@ function findVideoFilesRecursive(dir, arrayOfFiles = []) {
   return arrayOfFiles;
 }
 
-// Cannot be ported as there is no way to get the YT playlist ID from the JSON
 function parseTracks(dir) {
   const tracks = findVideoFilesRecursive(dir);
   const trackInfo = [];
   for (const track of tracks) {
-    const trackName = path.dirname(track);
-    const content = fs.readFileSync(`./${track}`, 'UTF8');
+    let trackName = path.dirname(track);
+    trackName = trackName.slice(trackName.lastIndexOf(path.sep) + 1);
+    const content = fs.readFileSync(`./${track}`, 'utf-8');
     const parsed = JSON.parse(content);
-    trackInfo.push({ name: trackName, data: parsed });
+
+    let dirPath, videoList;
+    if (parsed.chapters) {
+      // main track
+      let video = parsed.chapters[0].videos[0];
+      dirPath = video.split('/').slice(0, -2);
+
+      videoList = parsed.chapters.map((chap) => chap.videos).flat();
+    } else {
+      // side track
+      let video = parsed.videos[0];
+      dirPath = video.split('/').slice(0, -1);
+
+      if (dirPath[0] === 'challenges') continue;
+
+      videoList = parsed.videos;
+    }
+
+    trackInfo.push({
+      name: trackName,
+      dirName: dirPath.join('/'),
+      videoList,
+      data: parsed
+    });
   }
   return trackInfo;
 }
 
 function getVideoData() {
-  const mainTracks = parseTracks('content/tracks/main-tracks');
-  const sideTracks = parseTracks('content/tracks/side-tracks');
-  console.log(mainTracks, sideTracks);
+  const directory = 'content/videos';
 
-  const directories = [
-    // 'content/tracks',
-    'content/videos'
-  ];
+  const files = findVideoFilesRecursive(directory);
 
-  let files = [];
-  for (const dir of directories) {
-    findVideoFilesRecursive(dir, files);
-  }
-
-  const videos = [];
   for (const file of files) {
-    console.log(file);
-    const content = fs.readFileSync(`./${file}`, 'UTF8');
+    const content = fs.readFileSync(`./${file}`, 'utf-8');
     const parsed = JSON.parse(content);
 
     const filePath = file.split(path.sep).slice(2);
+    console.log(filePath);
     let url;
 
     if (filePath[0] === 'challenges') {
-      url = filePath.slice(2, 4).join('/');
+      url = filePath.slice(0, 2);
     } else {
-      let track = filePath[0];
+      for (let track of allTracks) {
+        if (filePath.join('/').includes(track.dirName)) {
+          url = ['tracks', track.name, ...filePath.slice(0, -1)];
+        }
+      }
     }
-    if (filePath.includes('side-tracks')) {
-      url = `tracks/${filePath[4]}/tracks/side-tracks/${filePath
-        .slice(-3, -1)
-        .join('/')}`;
-    }
-    if (!url) throw filePath;
+
+    if (!url || url.length == 0)
+      throw new Error(
+        'Something went wrong in parsing this file: ' + filePath.join('/')
+      );
     videos.push({
-      pageURL: url,
+      pageURL: url.join('/'),
       data: parsed
       //   playlist: getPlaylist(file)
     });
   }
-
+  console.log(videos);
   return videos;
 }
 
@@ -89,26 +106,20 @@ function primeDirectory(dir) {
   });
 }
 
-// function getVideoID(url) {
-//   const location = url.substring(1, url.length);
-//   let page;
-//   try {
-//     // link to page on the site
-//     page = fs.readFileSync(`./_${location}.md`, 'UTF8');
-//   } catch (err) {
-//     try {
-//       // link to series on site
-//       const files = fs.readdirSync(`./_${location}`);
-//       // get first page in series
-//       page = fs.readFileSync(`./_${location}/${files[0]}.md`, 'UTF8');
-//     } catch (e) {
-//       // link to youtube playlist
-//       return url;
-//     }
-//   }
-//   const parsed_content = yaml.loadFront(page);
-//   return `https://youtu.be/${parsed_content.video_id}`;
-// }
+function getVideoID(url) {
+  if (/https?:\/\/.*/.test(url)) return url;
+
+  const location = url.substring(1, url.length);
+  let page;
+  try {
+    page = videos.find((vid) => vid.pageURL === location).data;
+  } catch (err) {
+    console.log(location);
+    return url;
+  }
+
+  return `https://youtu.be/${page.videoId}`;
+}
 
 function writeDescriptions(videos) {
   primeDirectory('./_descriptions');
@@ -116,18 +127,13 @@ function writeDescriptions(videos) {
   for (const video of videos) {
     const data = video.data;
     const pageURL = video.pageURL;
-    // const playlist = video.playlist;
 
     let description = '';
 
     // Description
     let content = data.description;
     description += `${content.trim()}`;
-
-    // Code
-    // if (data.repository || data.web_editor) {
-    description += ` https://thecodingtrain.com/${pageURL}`;
-    // }
+    description += `\n💻 Challenge Webpage: https://thecodingtrain.com/${pageURL}`;
 
     description += '\n';
 
@@ -146,60 +152,59 @@ function writeDescriptions(videos) {
       }
     }
 
-    // Next Video / Previous Video / Playlist
-    // let nextID;
-    // if (i !== videos.length - 1) {
-    //   if (
-    //     pageURL.substring(0, pageURL.lastIndexOf('/')) ===
-    //     videos[i + 1].pageURL.substring(
-    //       0,
-    //       videos[i + 1].pageURL.lastIndexOf('/')
-    //     )
-    //   ) {
-    //     nextID = videos[i + 1].data.video_id;
-    //   } else {
-    //     nextID = false;
-    //   }
-    // } else {
-    //   nextID = false;
-    // }
+    // console.log(videos);
 
-    // let previousID;
-    // if (i !== 0) {
-    //   if (
-    //     pageURL.substring(0, pageURL.lastIndexOf('/')) ===
-    //     videos[i - 1].pageURL.substring(
-    //       0,
-    //       videos[i - 1].pageURL.lastIndexOf('/')
-    //     )
-    //   ) {
-    //     previousID = videos[i - 1].data.video_id;
-    //   } else {
-    //     previousID = false;
-    //   }
-    // } else {
-    //   previousID = false;
-    // }
+    if (video.pageURL.startsWith('challenges/')) {
+      const i = +video.data.videoNumber;
+      const previousVideo = videos.find((vid) => vid.data.videoNumber == i - 1);
+      const nextVideo = videos.find((vid) => vid.data.videoNumber == i + 1);
 
-    // if (playlist || nextID) {
-    //   description += '\n';
+      description += '\n';
 
-    //   if (previousID && playlist) {
-    //     description += `🎥 Previous video: https://youtu.be/${previousID}?list=${playlist}\n`;
-    //   } else if (previousID) {
-    //     description += `🎥 Previous video: https://youtu.be/${previousID}\n`;
-    //   }
+      if (previousVideo) {
+        description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}\n`;
+      }
+      if (nextVideo) {
+        description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}\n`;
+      }
+      description +=
+        '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
+    } else {
+      const playlistIds = {
+        noc: 'PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM',
+        code: 'PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA'
+      };
 
-    //   if (nextID && playlist) {
-    //     description += `🎥 Next video: https://youtu.be/${nextID}?list=${playlist}\n`;
-    //   } else if (nextID) {
-    //     description += `🎥 Next video: https://youtu.be/${nextID}\n`;
-    //   }
+      const path = video.pageURL.split('/');
+      for (let pl in playlistIds) {
+        if (path.includes(pl)) {
+          description += '\n';
 
-    //   if (playlist) {
-    //     description += `🎥 All videos: https://www.youtube.com/playlist?list=${playlist}\n`;
-    //   }
-    // }
+          const track = allTracks.find((track) => track.dirName.includes(pl));
+          // console.log(path, track.videoList);
+          let id = track.videoList.indexOf(path.slice(2).join('/'));
+
+          const previousPath = track.videoList[id - 1];
+          const previousVideo = videos.find(
+            (vid) => vid.pageURL == 'tracks/' + track.name + '/' + previousPath
+          );
+
+          const nextPath = track.videoList[id + 1];
+          const nextVideo = videos.find(
+            (vid) => vid.pageURL == 'tracks/' + track.name + '/' + nextPath
+          );
+
+          if (previousVideo) {
+            description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+          }
+          if (nextVideo) {
+            description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+          }
+          description +=
+            '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
+        }
+      }
+    }
 
     const links = data.groupLinks?.find(
       (group) => group.title === 'References'
@@ -226,14 +231,14 @@ function writeDescriptions(videos) {
       description += '\nOther videos mentioned in this video:\n';
       for (const video of videosR.links) {
         // Link as it is no matter what
-        // if (
-        //   video.url.includes('youtu.be') ||
-        //   video.url.includes('youtube.com')
-        // ) {
-        description += `🎥 ${video.title}: ${video.url}\n`;
-        // } else {
-        //   description += `🎥 ${video.title}: ${getVideoID(video.url)}\n`;
-        // }
+        if (
+          video.url.includes('youtu.be') ||
+          video.url.includes('youtube.com')
+        ) {
+          description += `🎥 ${video.title}: ${video.url}\n`;
+        } else {
+          description += `🎥 ${video.title}: ${getVideoID(video.url)}\n`;
+        }
       }
     }
 
@@ -276,8 +281,13 @@ This description was auto-generated. If you see a problem, please open an issue:
   }
 }
 
-(() => {
-  console.log('💫 Generating YouTube Descriptions 💫');
+// (() => {
+console.log('💫 Generating YouTube Descriptions 💫');
 
-  writeDescriptions(getVideoData());
-})();
+// know about tracks beforehand
+const mainTracks = parseTracks('content/tracks/main-tracks');
+const sideTracks = parseTracks('content/tracks/side-tracks');
+const allTracks = [...mainTracks, ...sideTracks];
+
+writeDescriptions(getVideoData());
+// })();
