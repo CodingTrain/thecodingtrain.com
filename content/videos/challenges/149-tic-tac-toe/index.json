@@ -1,0 +1,61 @@
+{
+  "title": "Tic Tac Toe",
+  "description": "This is a beginner-friendly challenge where I attempt to code a basic version of the game Tic-Tac-Toe using JavaScript and the p5.js library.",
+  "videoNumber": "149",
+  "videoId": "GTWrWM1UsnA",
+  "date": "2019-07-24",
+  "languages": ["p5.js"],
+  "topics": [
+    "For beginners"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["164-tic-tac-toe-minimax"],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "0:54", "title": "Start Coding" },
+    { "time": "3:50", "title": "Drawing X and O" },
+    { "time": "5:00", "title": "Let's diagram this!" },
+    { "time": "8:46", "title": "Randomly choose the first player at the start of round" },
+    { "time": "10:18", "title": "Drawing the grid" },
+    { "time": "10:58", "title": "Each player places their symbol on a random spot" },
+    { "time": "15:00", "title": "Check for a winner" },
+    { "time": "18:44", "title": "Checking for equality of three elements" },
+    { "time": "19:50", "title": "More bugs" },
+    { "time": "21:01", "title": "Final Working Version! Show the winner" },
+    { "time": "22:34", "title": "Thanks for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Tic Tac Toe",
+      "description": "Simple demonstration of the game Tic-Tac-Toe.",
+      "image": "tictactoe.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/5JngATm3c",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/149_Tic_Tac_Toe/Processing",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/149_Tic_Tac_Toe/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Tic Tac Toe AI with Minimax Algorithm - Coding Challenge #154",
+          "url": "/challenges/154-tic-tac-toe-minimax",
+          "description": "Implementing a minimax algorithm to play Tic Tac Toe"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Passenger Showcase Guide",
+          "url": "/guides/passenger-showcase-guide",
+          "description": "How to add your project to the Passenger Showcase"
+        }
+      ]
+    }
+  ]
+}
