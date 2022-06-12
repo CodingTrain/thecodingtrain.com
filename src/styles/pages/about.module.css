@@ -211,8 +211,7 @@
   flex-wrap: wrap;
 }
 
-.acknowledgementsTeam,
-.acknowledgementsContributors {
+.acknowledgementsTeam {
   & h3 {
     border-bottom: var(--border-purple);
     height: var(--baseline);
@@ -220,16 +219,15 @@
     padding-left: var(--spacing-normal);
   }
 
-  & ul {
+  & table {
     margin: 0;
-    padding: var(--spacing-normal);
     line-height: var(--baseline-2of3);
   }
 
-  & li {
-    list-style: none;
-    margin: 0;
-  }
+  &  td {
+    padding: 0 var(--spacing-normal);
+  } 
+
   & a {
     text-decoration: underline;
     &:hover {
@@ -240,31 +238,15 @@
 .acknowledgementsTeam {
   flex-grow: 1;
 }
-.acknowledgementsContributors {
-  flex-grow: 3;
-
-  & ul {
-    columns: 3;
-  }
-}
-
-@media (--reduced) {
-  .acknowledgementsContributors {
-    flex-grow: 2;
-  }
-  .acknowledgementsContributors ul {
-    columns: 2;
-  }
-}
 
 @media (--small) {
+  .acknowledgementsText {
+    height: var(--baseline-2x);
+  }
   .acknowledgementsList {
     flex-direction: column;
   }
-  .acknowledgementsContributors h3 {
+  .acknowledgementsTeam h3 {
     border-top: var(--border-purple);
-  }
-  .acknowledgementsContributors ul {
-    columns: 1;
   }
 }
