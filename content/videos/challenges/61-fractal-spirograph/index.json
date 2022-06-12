@@ -6,8 +6,8 @@
     "date": "2017-02-28",
     "languages": ["processing", "java"],
     "topics": [
-        "fractal spirograph",
-        "creative coding",
+        "fractal",
+        "spirograph",
         "polar coordinates"
     ],
     "canContribute": true,
