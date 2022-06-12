@@ -1,9 +1,8 @@
 {
-    "title": "Fibonacci Clock",
-    "url": "https://dzson.github.io/FibonacciClock/index.html",
-    "author": {
-        "name": "dzson",
-        "url": ""
-    },
-    "source": "https://github.com/dzson/FibonacciClock"
+  "title": "Fibonacci Clock",
+  "url": "https://dzson.github.io/FibonacciClock/index.html",
+  "author": {
+    "name": "dzson"
+  },
+  "source": "https://github.com/dzson/FibonacciClock"
 }
