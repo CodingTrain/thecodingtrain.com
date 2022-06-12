@@ -1,0 +1,52 @@
+{
+    "title": "Mathematical Rose Patterns",
+    "description": "In this coding challenge, I attempt to create rose (rhodonea) curves using trigonometry function and polar coordinates.",
+    "videoNumber": "55",
+    "videoId": "f5QBExMNB1I",
+    "date": "2017-02-08",
+    "languages": ["p5js","Javascript","Processing","Java"],
+    "topics": [
+        "algorithmic roses",
+        "mathematics roses",
+        "polar coordinates",
+        "trigonometry"
+    ],
+    "canContribute": true,
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction to the Mathematical Rose Patterns Coding Challenge" },
+        { "time": "0:35", "title": "Whiteboard discussion of polar coordinates" },
+        { "time": "3:15", "title": "Discussion about how to use the r=cos(kθ) formula" },
+        { "time": "3:45", "title": "Into the code...draw a circle with polar to cartesian transformation" },
+        { "time": "5:30", "title": "Start to draw shapes using the formula" },
+        { "time": "6:46", "title": "In a way, we're done! But wait, there's more..."},
+        { "time": "7:35", "title": "Re-creating some patterns from the Wikipedia page; using the k=n/d form" },
+        { "time": "8:50", "title": "Adding the p5.js DOM library to create some sliders"},
+        { "time": "10:30", "title": "Re-factoring the code use the denominator of the k=n/d formula as the number of loops in the draw function"},
+        { "time": "11:30", "title": "Done! What else can you do with it?!"}
+    ],
+    "codeExamples": [
+        {
+            "title": "Mathematical Rose Patterns",
+            "description": "Code examples for the Mathematical Rose Patterns Coding Challenge",
+            "image": "math_rose.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/3kanFIcHd",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses/Processing/CC_055_Roses",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🏛",
+                    "title": "Rose Mathematics on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Rose_(mathematics)",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
