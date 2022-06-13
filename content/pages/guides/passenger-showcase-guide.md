@@ -49,10 +49,14 @@ Fill out the title, name, url, etc. Your URL can be anything, a p5 sketch, a blo
 
 All showcase projects should include a thumbnai preview image! It can be just about any resolution or aspect ratio (the site will resize and crop as necessary). The format should be `JPG` or `PNG`. Name your thumbnail image with the same filename as your showcase submission (`contribution1.png`, `contribution2.jpg`, etc.). You can drag and drop the image file into the same directory to add it to the pull request!
 
+![Uploading thumbnail](./passenger-showcase/thumbnail1.png)
+![Uploading thumbnail](./passenger-showcase/thumbnail2.png)
+
 ## Submitting the pull request
 
 [Return to the main branch](https://github.com/CodingTrain/thecodingtrain.com/tree/main), and select "Compare & pull request" (or go to the “Pull requests” tab and create a pull request by selecting "New pull request", then "compare: main" and choosing `your-branch-name` from the dropdown)
 
-![Submitting the pull request](./passenger-showcase/pullrequest.png)
+![Uploading thumbnail](./passenger-showcase/pullrequest1.png)
+![Uploading thumbnail](./passenger-showcase/pullrequest2.png)
 
 A member of the Coding Train team will review your pull request and merge it into the site!
