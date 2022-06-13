@@ -27,21 +27,25 @@
     "groupLinks": [{
             "title": "References",
             "links": [{
+                    "icon": "📝",
                     "title": "Supershapes (Superformula)",
                     "url": "http://paulbourke.net/geometry/supershape/",
                     "description": "A discussion of super shape equations."
                 },
                 {
+                    "icon": "🥏",
                     "title": "3D Supershapes",
                     "url": "http://www.syedrezaali.com/3d-supershapes/",
                     "description": "A collection of 3D geometries created by the superformula created in Processing,"
                 },
                 {
+                    "icon": "🗄",
                     "title": "Spherical Coordinates System on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
                     "description": "A discussion of the spherical coordinate system."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Peasycam",
                     "url": "http://mrfeinberg.com/peasycam/",
                     "description": "Information about peasycam."
@@ -51,6 +55,7 @@
         {
             "title": "Videos",
             "links": [{
+                "icon": "🎥",
                 "title": "My Video on Polar Coordinates",
                 "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
                 "description": "A look at the trigonometric functions—sine, cosine, tangent."
