@@ -131,7 +131,7 @@
 
   & button:hover {
     background-color: var(--red-light);
-    font-weight: 600;
+    color: var(--gray-dark);
   }
 }
 
@@ -141,7 +141,7 @@
 
 .selected button {
   background-color: var(--red-light);
-  font-weight: 600;
+  color: var(--gray-dark);
 }
 
 /* Timeline section */
@@ -240,7 +240,7 @@
     background: var(--red-light);
     cursor: pointer;
     font-size: var(--maru-small);
-    color: var(--red);
+    color: var(--gray-dark);
   }
 
   .timelinesToggle:hover {

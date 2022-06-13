@@ -25,14 +25,13 @@
     height: var(--baseline-1of4);
   }
   & path {
-    fill: var(--gray-mid);
+    fill: var(--gray-dark);
   }
 }
 
 .time {
   height: var(--baseline);
   flex: 0 0 auto;
-  font-weight: 600;
 }
 
 .title {
@@ -40,7 +39,7 @@
   flex-grow: 1;
   line-height: var(--baseline-1of4);
   text-align: left;
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 .message {
@@ -49,7 +48,7 @@
   height: var(--baseline);
   flex-grow: 1;
   line-height: var(--baseline-1of4);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 /* Variants */
