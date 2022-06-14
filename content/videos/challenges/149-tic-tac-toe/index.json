@@ -5,19 +5,23 @@
   "videoId": "GTWrWM1UsnA",
   "date": "2019-07-24",
   "languages": ["p5.js"],
-  "topics": [
-    "For beginners"
-  ],
+  "topics": ["For beginners"],
   "canContribute": true,
-  "relatedChallenges": ["164-tic-tac-toe-minimax"],
+  "relatedChallenges": [],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
-    { "time": "0:54", "title": "Start Coding" },
+    { "time": "0:54", "title": "Start coding" },
     { "time": "3:50", "title": "Drawing X and O" },
     { "time": "5:00", "title": "Let's diagram this!" },
-    { "time": "8:46", "title": "Randomly choose the first player at the start of round" },
+    {
+      "time": "8:46",
+      "title": "Randomly choose the first player at the start of round"
+    },
     { "time": "10:18", "title": "Drawing the grid" },
-    { "time": "10:58", "title": "Each player places their symbol on a random spot" },
+    {
+      "time": "10:58",
+      "title": "Each player places their symbol on a random spot"
+    },
     { "time": "15:00", "title": "Check for a winner" },
     { "time": "18:44", "title": "Checking for equality of three elements" },
     { "time": "19:50", "title": "More bugs" },
