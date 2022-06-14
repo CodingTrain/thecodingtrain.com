@@ -9,16 +9,16 @@
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
-  {
-        "title": "Fractal Trees - Space Colonization",
-        "description": "This sketch creates a tree generator.",
-        "image": "space.png",
-        "urls": {
-          "p5.js": "https://editor.p5js.org/codingtrain/sketches/r9pxis9g-",
-          "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer/Processing",
-          "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer"
-        }
+    {
+      "title": "Fractal Trees - Space Colonization",
+      "description": "This sketch creates a tree generator.",
+      "image": "space.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/r9pxis9g-",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer/Processing",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer"
       }
+    }
   ],
   "groupLinks": [
     {
