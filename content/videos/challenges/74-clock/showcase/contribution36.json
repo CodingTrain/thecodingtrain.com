@@ -1,9 +1,8 @@
 {
-    "title": "Minimalist Clock with continuously rotating pointer",
-    "url": "https://calmcoding.github.io/minimalist-watch/",
-    "author": {
-        "name": "Nick 'Milchreis' M\u00fcller",
-        "url": ""
-    },
-    "source": "https://github.com/CalmCoding/minimalist-watch"
+  "title": "Minimalist Clock with continuously rotating pointer",
+  "url": "https://calmcoding.github.io/minimalist-watch/",
+  "author": {
+    "name": "Nick 'Milchreis' M\u00fcller"
+  },
+  "source": "https://github.com/CalmCoding/minimalist-watch"
 }
