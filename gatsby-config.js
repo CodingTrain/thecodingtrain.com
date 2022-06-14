@@ -5,12 +5,7 @@ module.exports = {
     description:
       'All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges.'
   },
-  flags: {
-    DEV_SSR: true,
-    FAST_DEV: true
-  },
   plugins: [
-    `gatsby-plugin-gatsby-cloud`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
