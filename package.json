@@ -49,8 +49,6 @@
   },
   "devDependencies": {
     "glob": "^8.0.3",
-    "imagemin": "^8.0.1",
-    "imagemin-pngquant": "^9.0.2",
     "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
     "lodash": "^4.17.21",
