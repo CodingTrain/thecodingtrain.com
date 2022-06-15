@@ -35,7 +35,7 @@ Copy the template into the new file:
   "author": {
     "name": "Your Name (or nickname!)",
     "url": "Link to more about you! (your personal site, GitHub, social media, etc.)"
-  },
+  }
 }
 ```
 
