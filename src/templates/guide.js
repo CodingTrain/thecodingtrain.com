@@ -166,10 +166,7 @@ const Guide = ({ data }) => {
   const localImages = useLocalImages(images.nodes);
 
   return (
-    <Layout
-      title={mdx.frontmatter.title}
-      description={mdx.frontmatter.description}
-      image={localImages['placeholder.png']}>
+    <Layout title={mdx.frontmatter.title}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -192,9 +189,9 @@ const Guide = ({ data }) => {
               Table Of Contents
             </li>
             {mdx.tableOfContents.items.map((item, index) => (
-              <li key={index} className={css.indexItem}>
-                <a href={item.url}>{item.title}</a>
-              </li>
+              <a key={index} href={item.url} className={css.indexItem}>
+                <li>{item.title}</li>
+              </a>
             ))}
             {mdx.tableOfContents.items.length % 2 === 1 && (
               <div className={css.itemSpacer} />
@@ -222,7 +219,6 @@ export const query = graphql`
       tableOfContents
       frontmatter {
         title
-        description
       }
     }
     images: allCoverImage(

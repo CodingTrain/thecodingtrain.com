@@ -62,7 +62,6 @@ const Question = ({ variant, slug, question, answer, currentHash }) => {
               image={answer.image.file.childImageSharp.gatsbyImageData}
               pictureClassName={css.picture}
               imgClassName={css.image}
-              alt={question}
             />
           )}
           {answer.video && (

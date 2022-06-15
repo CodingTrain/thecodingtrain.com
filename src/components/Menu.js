@@ -15,28 +15,27 @@ const items = [
     name: 'Videos',
     children: [
       { name: 'Tracks', to: '/tracks' },
-      { name: 'Challenges', to: '/challenges' }
+      { name: 'Challenges', to: '/challenges' },
+      { name: 'FAQ', to: '/faq' }
     ]
   },
   {
     name: 'Community',
     children: [
       {
+        name: 'Discord',
+        href: 'https://discord.com/invite/hPuGy2g'
+      },
+      {
         name: 'Guides',
         to: '/guides'
       },
-      {
-        name: 'Discord',
-        href: '/discord'
-      },
-
       { name: 'GitHub', href: 'https://github.com/CodingTrain' }
     ]
   },
   {
     name: 'About',
-    to: '/about',
-    children: [{ name: 'FAQ', to: '/faq' }]
+    to: '/about'
   }
 ];
 
@@ -61,10 +60,8 @@ const Menu = () => {
             ) : item.href ? (
               <a href={item.href}>{item.name}</a>
             ) : (
-              <span>{item.name}</span>
-            )}
-            {item.children && (
               <>
+                <span>{item.name}</span>
                 <ul className={css.submenu}>
                   {item.children.map((subitem, j) => (
                     <li className={css.subitem} key={j}>

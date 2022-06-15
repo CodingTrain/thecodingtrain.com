@@ -80,38 +80,34 @@
   "codeExamples": [
     {
       "title": "Simple Spring",
-      "description": "Implementation of a simple spring.",
-      "image": "simplespring.png",
+      "description": "Code example 1 description",
+      "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/dcd6-2mWa",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/simple-spring-port/cc160_simple_spring_port"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/dcd6-2mWa"
       }
     },
     {
       "title": "Spring Vector",
-      "description": "Implemention with a vector.",
-      "image": "springvector.png",
+      "description": "Code example 3 description",
+      "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/_A2pm_SSg",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/spring-vector-port/cc160_spring_vector_port"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_A2pm_SSg"
       }
     },
     {
       "title": "Spring OOP",
-      "description": "Implemention with OOP.",
-      "image": "springOOP.png",
+      "description": "Code example 5 description",
+      "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/9BAoEn4Po",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/spring-oop-port/cc160_spring_oop_port"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9BAoEn4Po"
       }
     },
     {
       "title": "Soft Spring",
-      "description": "Implemention with a soft spring",
-      "image": "softspring.png",
+      "description": "Code example 7 description",
+      "image": "image1.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/S5dY7qjxP",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/160_spring_forces/soft-spring-port/cc160_soft_spring_port"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/S5dY7qjxP"
       }
     }
   ],
@@ -120,22 +116,18 @@
       "title": "References",
       "links": [
         {
-          "icon": "📕",
           "title": "Nature of Code 3.10 Spring Forces",
           "url": "https://natureofcode.com/book/chapter-3-oscillation/index.html#310-spring-forces"
         },
         {
-          "icon": "📕",
           "title": "Nature of Code Track",
           "url": "/tracks/the-nature-of-code-2"
         },
         {
-          "icon": "💾",
           "title": "toxiclibs.js",
           "url": "http://www.haptic-data.com/toxiclibsjs/"
         },
         {
-          "icon": "💾",
           "title": "curveVertex() (p5.js Reference)",
           "url": "https://p5js.org/reference/#/p5/curveVertex"
         }
@@ -145,13 +137,11 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
           "title": "Texturing Cloth Simulation",
           "url": "https://youtu.be/JunJzIe0hEo",
           "description": "Coding Train Challenge #63 video on cloth simulation."
         },
         {
-          "icon": "🎥",
           "title": "Simple Particle System",
           "url": "https://youtu.be/UcdigVaIYAk",
           "description": "Coding Train video on a Challenge #78 on creating a basic particle system."

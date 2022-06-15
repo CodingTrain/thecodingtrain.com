@@ -25,7 +25,6 @@
     "gatsby-plugin-gatsby-cloud": "^3.2.1",
     "gatsby-plugin-image": "^1.12.0",
     "gatsby-plugin-mdx": "^2.12.0",
-    "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-postcss": "^4.12.0",
     "gatsby-plugin-react-helmet": "^4.12.0",
     "gatsby-plugin-react-svg": "^3.0.1",

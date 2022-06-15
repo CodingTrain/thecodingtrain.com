@@ -14,7 +14,7 @@
     {
       "title": "Pi in the Sky",
       "description": "Full Pi in the Sky game in p5.js",
-      "image": "pie.png",
+      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ZZ53xKJyF"
       }
@@ -22,7 +22,7 @@
     {
       "title": "Illustrated Version",
       "description": "Pi in the Sky game with colorful background and sprites",
-      "image": "illustrated.png",
+      "image": "image2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/U11UYbgVc"
       }
@@ -33,7 +33,6 @@
       "title": "References",
       "links": [
         {
-          "icon": "1️⃣",
           "title": "1 Million Digits of Pi",
           "url": "http://www.eveandersson.com/pi/digits/1000000",
           "description": "Eve Andersson's collection of the first million digits of Pi"
@@ -44,31 +43,26 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
           "title": "The Snake Game",
           "url": "https://youtube.com/watch?v=iFuR97YcSLM",
           "description": "Coding Challenge to make the Snake Game in p5.js"
         },
         {
-          "icon": "🎥",
           "title": "Purple Rain",
           "url": "https://www.youtube.com/watch?v=KkyIDI6rQJI&t=0s",
           "description": "Coding Challenge to animate purple rain in p5.js"
         },
         {
-          "icon": "🎥",
           "title": "Code! Programming for Beginners with p5.js",
           "url": "https://www.youtube.com/watch?v=yPWkPOfnGsw&t=0s",
           "description": "Introduction video for the Code! Programming for Beginners with p5.js series"
         },
         {
-          "icon": "🎥",
           "title": "Transformations in p5.js",
           "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
           "description": "Coding Train video on the translate(), rotate(), push() and pop() functions to perform matrix transformations"
         },
         {
-          "icon": "🎥",
           "title": "Removing Objects from Arrays",
           "url": "https://www.youtube.com/watch?v=tA_ZgruFF9k&t=0s",
           "description": "Code! Programming with p5.js video on using the splice() function to remove obejcts from arrays"

@@ -13,7 +13,7 @@ import { useLinkParsedText } from '../hooks';
 
 import PiRainbow from '../images/characters/PiRainbow.mini.svg';
 import TrainIcon from '../images/characters/TrainRainbow.mini.svg';
-import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
+import CandyRainbow from '../images/characters/RainbowCandy.mini.svg';
 import ChooChooCharacter from '../images/characters/ChooChooBot_1.mini.svg';
 import TriangleCharacter from '../images/characters/Triangle_3.mini.svg';
 
@@ -96,7 +96,7 @@ const AboutPage = ({ data }) => {
   const secondaryCover = content.covers[1].file.childImageSharp.gatsbyImageData;
 
   return (
-    <Layout title="About" description={secondaryDescription} image={mainCover}>
+    <Layout title="About" description={secondaryDescription}>
       <Spacer />
 
       <header className={css.row}>
@@ -160,7 +160,7 @@ const AboutPage = ({ data }) => {
           side="right"
           offset={0.42}
           characterSize={0.7}
-          Character={RainbowCharacter}
+          Character={CandyRainbow}
         />
 
         <section>
@@ -212,22 +212,19 @@ const AboutPage = ({ data }) => {
             {acknowledgements.map((group, index) => (
               <div className={css.acknowledgementsTeam} key={index}>
                 <h3>{group.name}</h3>
-                <table>
+                <ul>
                   {group.people.map((person, personIndex) => (
-                    <tr key={personIndex}>
-                      <td>
+                    <li key={personIndex}>
                       {person.url ? (
                         <a target="_blank" rel="noreferrer" href={person.url}>
                           {person.name}
                         </a>
                       ) : (
-                        person.name
+                        <span>{person.name}</span>
                       )}
-                      </td>
-                      <td>{person.role}</td>
-                    </tr>
+                    </li>
                   ))}
-                </table>
+                </ul>
               </div>
             ))}
           </div>
@@ -297,7 +294,6 @@ export const query = graphql`
           people {
             name
             url
-            role
           }
         }
       }

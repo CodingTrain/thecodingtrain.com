@@ -76,53 +76,47 @@ const Footer = () => {
         </h3>
         <ul>
           <li>
-            <a
-              href="https://www.youtube.com/c/TheCodingTrain/"
-              aria-label="Youtube">
+            <a href="https://www.youtube.com/c/TheCodingTrain/">
               <Youtube width={30} />
               <span>Youtube</span>
             </a>
           </li>
           <li>
-            <a
-              href="https://www.twitch.tv/codingtrainchoochoo"
-              aria-label="Twitch">
+            <a href="https://www.twitch.tv/codingtrainchoochoo">
               <Twitch width={30} />
               <span>Twitch</span>
             </a>
           </li>
 
           <li>
-            <a href="https://nebula.app/codingtrain" aria-label="Nebula">
+            <a href="https://nebula.app/codingtrain">
               <Nebula width={30} />
               <span>Nebula</span>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/thecodingtrain" aria-label="Twitter">
+            <a href="https://twitter.com/thecodingtrain">
               <Twitter width={30} />
               <span>Twitter</span>
             </a>
           </li>
 
           <li>
-            <a
-              href="https://www.instagram.com/the.coding.train"
-              aria-label="Instagram">
+            <a href="https://www.instagram.com/the.coding.train">
               <Instagram width={30} />
               <span>Instagram</span>
             </a>
           </li>
           <li>
-            <a href="https://discord.gg/codingtrain" aria-label="Discord">
+            <a href="https://discord.gg/codingtrain">
               <Discord width={30} />
               <span>Discord</span>
             </a>
           </li>
           <li>
-            <a href="https://github.com/CodingTrain" aria-label="GitHub">
+            <a href="https://github.com/CodingTrain">
               <Github width={30} />
-              <span>GitHub</span>
+              <span>Github</span>
             </a>
           </li>
         </ul>

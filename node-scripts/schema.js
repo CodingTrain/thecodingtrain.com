@@ -283,7 +283,6 @@ type CollaboratorTeam implements Node {
 type Collaborator implements Node {
   name: String!
   url: String
-  role: String
 }
 
 type HomepageInfo implements Node {

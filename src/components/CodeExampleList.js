@@ -73,7 +73,7 @@ const CodeExample = ({ example }) => {
           {image && (
             <Image
               image={image.file.childImageSharp.gatsbyImageData}
-              alt={`"${title}" code example`}
+              alt={`Thumbnail for ${title} code example`}
             />
           )}
         </a>

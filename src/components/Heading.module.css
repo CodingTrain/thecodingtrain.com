@@ -7,7 +7,7 @@
   margin-top: -1px;
   border-left: var(--border);
   padding: 0 var(--box-padding);
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   min-height: var(--baseline);
   display: flex;
   align-items: center;
@@ -58,6 +58,7 @@
     font-size: inherit;
     line-height: inherit;
     font-weight: inherit;
+    overflow: auto;
   }
 }
 

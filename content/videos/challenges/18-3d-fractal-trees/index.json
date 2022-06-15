@@ -8,15 +8,6 @@
   "topics": ["fractals", "generative art", "3D"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [
-    {
-        "title": "3D Fractal Trees",
-        "description": "This sketch visualizes 3D fractal trees in Processing.",
-        "image": "threeD.png",
-        "urls": {
-          "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/018_SpaceColonizer3D/Processing"
-        }
-      }
-  ],
+  "codeExamples": [],
   "groupLinks": []
 }

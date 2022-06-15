@@ -80,10 +80,7 @@
   padding-left: calc(var(--timeline-padding) + var(--timeline-spacing));
   font-size: var(--maru-small);
   line-height: var(--baseline-1of3);
-
-  &::before {
-    content: none;
-  }
+  /* font-weight: normal; */
 
   & a::before {
     content: " ";

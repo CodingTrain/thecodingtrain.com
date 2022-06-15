@@ -11,8 +11,7 @@
 .listSpacer.purple {
   flex-basis: calc(50% - var(--baseline-box));
   width: calc(50% - var(--baseline-box));
-  --color: var(--gray-dark);
-  --icon-color: var(--gray-dark);
+  --color: var(--purple);
   --border: var(--border-purple);
   --background-color: var(--purple-light);
   margin-top: var(--baseline-box);
@@ -45,25 +44,25 @@
 
 /* variants */
 .root.purple {
-  --icon-color: var(--purple);
+  --color: var(--purple);
   --border: var(--border-purple);
   --background-color: var(--purple-light);
 }
 
 .root.red {
-  --icon-color: var(--red);
+  --color: var(--red);
   --border: var(--border-red);
   --background-color: var(--red-light);
 }
 
 .root.orange {
-  --icon-color: var(--orange);
+  --color: var(--orange);
   --border: var(--border-orange);
   --background-color: var(--orange-light);
 }
 
 .root.cyan {
-  --icon-color: var(--cyan);
+  --color: var(--cyan);
   --border: var(--border-cyan);
   --background-color: var(--cyan-light);
 }
@@ -132,8 +131,7 @@
 }
 
 @media (--medium) {
-  .top,
-  .bottom {
+  .top, .bottom {
     border-right: none;
   }
 }
@@ -155,14 +153,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--icon-color);
+  padding-bottom: calc(var(--baseline-box) / 15);
 }
 
 .top h3 {
   margin-left: var(--spacing-normal);
-  font-size: var(--maru-large);
-  font-family: var(--maru-mono);
-  font-weight: normal;
+  font-size: var(--maru-medium);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -185,14 +181,13 @@
 .description {
   margin: 0;
   font-family: var(--maru-mono);
-  font-size: var(--maru-small);
-  line-height: var(--baseline-2of5);
-  padding: var(--spacing-normal);
+  font-size: var(--maru-normal);
+  padding: var(--spacing-small) var(--spacing-small) var(--spacing-small)
+    var(--spacing-normal);
   flex-grow: 1;
-  max-height: var(--baseline-box-5x);
+  max-height: var(--baseline-box-4x);
   overflow: hidden;
   text-overflow: ellipsis;
-  background-color: white;
 }
 
 .right {
@@ -200,6 +195,7 @@
   display: flex;
   flex-direction: column;
 }
+
 
 .meta {
   margin-top: 0;
@@ -219,6 +215,7 @@
   height: var(--baseline-box-4x);
   object-fit: cover;
 }
+
 
 @media (--medium) {
   .play {
@@ -243,14 +240,13 @@
   }
 }
 
-@media (--reduced) {
+@media(--reduced) {
   .bottom {
     flex-direction: column-reverse;
   }
 
   .description {
     height: var(--baseline-4x);
-    padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   }
 
   .img {

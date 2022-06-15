@@ -35,14 +35,12 @@ const Card = ({
                 image={cover.file.childImageSharp.gatsbyImageData}
                 pictureClassName={css.picture}
                 imgClassName={css.image}
-                alt={`"${title}" challenge`}
               />
             ) : placeholderImage ? (
               <Image
                 image={placeholderImage}
                 pictureClassName={css.picture}
                 imgClassName={css.image}
-                alt={`"${title}" challenge`}
               />
             ) : null}
           </Link>

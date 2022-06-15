@@ -119,8 +119,8 @@
   padding: 0 var(--spacing-normal);
   font-family: var(--maru-mono);
   font-size: var(--maru-medium);
-  color: var(--gray-dark);
-  background-color: var(--cyan-light);
+  color: var(--cyan);
+  background-color: white;
   text-transform: uppercase;
 }
 
@@ -219,7 +219,7 @@
     background: var(--cyan-light);
     cursor: pointer;
     font-size: var(--maru-small);
-    color: var(--gray-dark);
+    color: var(--cyan);
   }
 
   .timelinesToggle:hover {

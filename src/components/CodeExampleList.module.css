@@ -10,9 +10,8 @@
   border-top: var(--border);
   border-bottom: var(--border);
   border-left: var(--border);
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   align-items: center;
-  color: var(--gray-dark);
 }
 
 .thumbnail {
@@ -73,13 +72,12 @@
     text-decoration: underline;
     text-transform: lowercase;
     white-space: nowrap;
-    color: var(--gray-dark);
+    color: var(--gray-mid);
   }
   & .linkIcon {
     font-family: var(--maru-emoji);
     font-size: var(--maru-emoji-normal);
     text-decoration: none;
-    color: var(--gray-dark);
   }
 }
 
@@ -110,6 +108,13 @@
   & .example {
     border-color: var(--red);
     background-color: var(--red-light);
+    color: var(--red);
+    & a {
+      color: var(--red);
+    }
+    & .linkIcon {
+      color: var(--gray-dark);
+    }
   }
 }
 
@@ -117,6 +122,13 @@
   & .example {
     border-color: var(--cyan);
     background-color: var(--cyan-light);
+    color: var(--cyan);
+    & a {
+      color: var(--cyan);
+    }
+    & .linkIcon {
+      color: var(--gray-dark);
+    }
   }
 }
 

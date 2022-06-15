@@ -40,7 +40,6 @@ const TrackCard = ({ track, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
-          alt={`"${title}" track`}
         />
       </Link>
 
@@ -73,7 +72,6 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
-          alt={`"${title}" coding challenge`}
         />
       </Link>
 
@@ -350,7 +348,6 @@ const IndexPage = ({ data }) => {
                 }
                 pictureClassName={css.picture}
                 imgClassName={css.image}
-                alt={`Passenger showcase "${content.passengerShowcase.featured.title}" from ${content.passengerShowcase.featured.author.name}`}
               />
             </div>
           </article>

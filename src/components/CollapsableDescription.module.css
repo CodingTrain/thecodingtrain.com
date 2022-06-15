@@ -8,7 +8,7 @@
 
 .showButton {
   cursor: pointer;
-  color: var(--gray-dark);
+  color: var(--mid-gray);
   text-decoration: underline;
 }
 

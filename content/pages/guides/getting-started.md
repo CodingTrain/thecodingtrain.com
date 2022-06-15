@@ -6,7 +6,7 @@ date: '04/19/2022'
 
 ## Welcome!
 
-If you’re new to coding, getting started can feel overwhelming, hopefully this passenger guide will help you with everything you need to begin! 💖
+If you’re new to coding, getting started can feel overwhelming, hopefully this passenger guide will help you with everything you need to begin!
 
 ## Languages
 

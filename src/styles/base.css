@@ -8,8 +8,8 @@ body {
 
 body {
   font-family: var(--maru);
-  font-size: var(--maru-medium);
-  line-height: var(--maru-medium-line-height);
+  font-size: var(--maru-large);
+  line-height: var(--maru-large-line-height);
 }
 
 input,

@@ -1,86 +1,87 @@
 {
-  "title": "Kaleidoscope Snowflake #SupportP5",
-  "description": "Happy holidays! #SupportP5! This video shows an attempt to make a snowflake from a \u201ckaleidoscope painting\u201d effect.",
-  "videoNumber": "155",
-  "videoId": "R3C2giDfmO8",
-  "date": "2019-12-25",
-  "languages": ["p5.js", "javascript", "processing"],
-  "topics": ["translations", "symmetry", "rotations", "push/pop", "drawing"],
-  "canContribute": true,
-  "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "SupportP5"
-    },
-    {
-      "time": "0:01:46",
-      "title": "Drawing in p5.js"
-    },
-    {
-      "time": "0:05:31",
-      "title": "Adding Symmetry"
-    },
-    {
-      "time": "0:16:12",
-      "title": "Saving Your Snowflake"
-    },
-    {
-      "time": "0:22:20",
-      "title": "Coding Holliday Song"
-    }
-  ],
-  "codeExamples": [
-    {
-      "title": "Snowflake",
-      "description": "This sketch creates a kaleidoscope snowflake.",
-      "image": "snowflake.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JbWCVPX5a",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake/Processing/CC_155_Kaleidoscope_Snowflake",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake"
-      }
-    }
-  ],
-  "groupLinks": [
-    {
-      "title": "References",
-      "links": [
+    "title": "Kaleidoscope Snowflake #SupportP5",
+    "description": "Happy holidays! #SupportP5! This video shows an attempt to make a snowflake from a \u201ckaleidoscope painting\u201d effect.",
+    "videoNumber": "155",
+    "videoId": "R3C2giDfmO8",
+    "date": "2019-12-25",
+    "languages": ["p5.js", "javascript", "processing"],
+    "topics": ["translations", "symmetry", "rotations", "push/pop", "drawing"],
+    "canContribute": true,
+    "timestamps": [
         {
-          "icon": "💰",
-          "title": "Link to donate to the Processing Foundation",
-          "url": "https://processing.org/donate",
-          "description": "Link to donate to the Processing Foundation"
+            "time": "0:00:00",
+            "title": "SupportP5"
         },
         {
-          "icon": "🖋",
-          "title": "Kaleidoscope Painter",
-          "url": "https://permadi.com/java/spaint/spaint.html",
-          "description": "Kaleidoscope Painter"
+            "time": "0:01:46",
+            "title": "Drawing in p5.js"
+        },
+        {
+            "time": "0:05:31",
+            "title": "Adding Symmetry"
+        },
+        {
+            "time": "0:16:12",
+            "title": "Saving Your Snowflake"
+        },
+        {
+            "time": "0:22:20",
+            "title": "Coding Holliday Song"
         }
-      ]
-    },
-    {
-      "title": "Videos",
-      "links": [
+    ],
+    "codeExamples": [
         {
-          "icon": "🎥",
-          "title": "Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-          "description": "The translate(), rotate(), push() and pop() functions are covered in this video."
+            "title": "p5js - p5 Web Editor",
+            "description": "This sketch creates a kaleidoscope snowflake.",
+            "image": "snowflake.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/JbWCVPX5a"
+            }
         },
         {
-          "icon": "🎥",
-          "title": "Coding Challenge #127: Brownian Tree Snowflake",
-          "url": "https://www.youtube.com/watch?v=XUA8UREROYE",
-          "description": "A Brownian Tree Snowflake is created in Processing."
-        },
-        {
-          "icon": "🎥",
-          "title": "2019 Processing Foundation Holiday Telethon",
-          "url": "https://youtu.be/3wMFd8OGI84",
-          "description": "Fundraiser for the Processing Foundation"
+            "title": "Processing - Processing",
+            "description": "This sketch creates a kaleidoscope snowflake.",
+            "image": "snowflake_processing.png",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake/Processing/CC_155_Kaleidoscope_Snowflake"
+            }
         }
-      ]
-    }
-  ]
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Link to donate to the Processing Foundation",
+                    "url": "https://processing.org/donate",
+                    "description": "Link to donate to the Processing Foundation"
+                },
+                {
+                    "title": "Kaleidoscope Painter",
+                    "url": "https://permadi.com/java/spaint/spaint.html",
+                    "description": "Kaleidoscope Painter"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial",
+                    "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
+                    "description": "The translate(), rotate(), push() and pop() functions are covered in this video."
+                },
+                {
+                    "title": "Coding Challenge #127: Brownian Tree Snowflake",
+                    "url": "https://www.youtube.com/watch?v=XUA8UREROYE",
+                    "description": "A Brownian Tree Snowflake is created in Processing."
+                },
+                {
+                    "title": "2019 Processing Foundation Holiday Telethon",
+                    "url": "https://youtu.be/3wMFd8OGI84",
+                    "description": "Fundraiser for the Processing Foundation"
+                }
+            ]
+        }
+    ]
 }

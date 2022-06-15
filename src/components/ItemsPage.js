@@ -22,7 +22,6 @@ const ItemsPage = ({
   location,
   title,
   description,
-  image,
   itemsPath,
   variant,
   Character,
@@ -80,7 +79,7 @@ const ItemsPage = ({
   };
 
   return (
-    <Layout title={title} description={description} image={image}>
+    <Layout title={title} description={description}>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>

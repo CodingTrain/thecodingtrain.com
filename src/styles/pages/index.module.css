@@ -133,7 +133,7 @@
   border-bottom: var(--border);
   padding: 0 var(--box-padding);
   font-size: var(--maru-large);
-  font-family: var(--maru-mono);
+  font-family: var(--maru);
   font-weight: normal;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -198,14 +198,14 @@
 
 .trackCard .date {
   background-color: var(--red-light);
-  color: var(--gray-dark);
+  color: var(--red);
   border-bottom: var(--border-red);
   border-left: var(--border-red);
 }
 
 .challengeCard .date {
   background-color: var(--cyan-light);
-  color: var(--gray-dark);
+  color: var(--cyan);
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
 }
@@ -235,12 +235,14 @@
   border-left: var(--border);
   border-bottom: var(--border);
   background: white;
+  font-size: var(--maru-normal);
+  line-height: var(--maru-normal-line-height);
 }
 
 .showcase .left .details p {
   margin: 0;
   padding: 0 var(--box-padding);
-  color: var(--gray-dark);
+  color: var(--gray-mid);
 }
 
 .showcase .right .picture {
@@ -263,14 +265,22 @@
   border-left: var(--border-pink);
   line-height: var(--baseline-box);
   font-size: var(--maru-large);
-  color: var(--gray-dark);
+  color: var(--pink);
   background-color: var(--pink-tint);
   text-transform: uppercase;
+
+  & span {
+    font-weight: bold;
+  }
+
+  & span + & span {
+    font-weight: normal;
+  }
 }
 
 .event {
   display: flex;
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   & p {
     margin: 0;
   }
@@ -303,8 +313,8 @@
     line-height: var(--baseline);
     height: var(--baseline);
     text-transform: uppercase;
-    & span + span,
-    & span + time {
+    font-size: var(--maru-normal);
+    & span + span {
       margin-left: var(--box-padding);
     }
   }
@@ -316,13 +326,12 @@
       border-left: var(--border);
     }
     & .eventDescription {
-      display: flex;
-      align-items: center;
       height: var(--baseline-2x);
       overflow: hidden;
       & p {
-        margin: 0;
-        padding: 0 var(--box-padding);
+        padding: var(--baseline-1of4) var(--box-padding);
+        font-size: var(--maru-small);
+        line-height: var(--maru-small-line-height);
       }
     }
 

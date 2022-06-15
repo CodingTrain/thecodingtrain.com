@@ -1,6 +1,6 @@
 .root {
   display: flex;
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   background-color: white;
   height: var(--baseline-8x);
 }
@@ -157,7 +157,7 @@
   height: var(--baseline);
   padding: 0 var(--box-padding);
   background: var(--red-light);
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   font-size: var(--maru-normal);
   line-height: var(--maru-normal-line-height);
   & * + * {

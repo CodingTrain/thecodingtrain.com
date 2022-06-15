@@ -1,5 +1,5 @@
 .root {
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   display: flex;
 }
 
@@ -41,6 +41,7 @@
     margin: 0;
     font-size: var(--maru-large);
     font-family: var(--maru);
+    font-weight: bold;
   }
 }
 
@@ -82,7 +83,7 @@
     font-family: var(--maru-mono);
 
     font-size: var(--maru-normal);
-    color: var(--gray-dark);
+    color: var(--gray-mid);
 
     white-space: nowrap;
   }
@@ -96,7 +97,7 @@
 .seeMore {
   cursor: pointer;
   font-family: var(--maru-mono);
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   display: block;
   width: 100%;
   text-align: left;
@@ -108,15 +109,12 @@
 /* Variants */
 .red {
   &.root {
-  }
-
-  & .icon {
     color: var(--red);
+    background-color: var(--red-light);
   }
 
   & .seeMore {
-    color: var(--gray-dark);
-    background-color: var(--red-light);
+    color: var(--red);
   }
 
   & .item.selected button {
@@ -125,8 +123,7 @@
   }
 
   & .item button {
-    color: var(--gray-dark);
-    background-color: var(--red-light);
+    color: var(--red);
   }
 
   & .icon,
@@ -141,15 +138,12 @@
 
 .cyan {
   &.root {
-  }
-
-  & .icon {
     color: var(--cyan);
+    background-color: var(--cyan-light);
   }
 
   & .seeMore {
-    color: var(--gray-dark);
-    background-color: var(--cyan-light);
+    color: var(--cyan);
   }
 
   & .item.selected button {
@@ -158,8 +152,7 @@
   }
 
   & .item button {
-    color: var(--gray-dark);
-    background-color: var(--cyan-light);
+    color: var(--cyan);
   }
 
   & .icon,

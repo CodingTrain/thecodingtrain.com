@@ -1,12 +1,12 @@
 .root {
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   background-color: var(--gray-light);
   flex-wrap: wrap;
 
   & a {
     padding-left: 0;
     text-decoration: none;
-    color: var(--gray-dark);
+    color: var(--gray-mid);
   }
 }
 
@@ -61,7 +61,6 @@
     text-decoration: underline;
   }
   & a.cta {
-    display: inline-block;
     font-family: var(--maru-mono);
     font-size: var(--maru-normal);
     text-align: bottom;

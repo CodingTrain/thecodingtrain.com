@@ -28,7 +28,6 @@
   --baseline-1of3: calc(var(--baseline) / 3);
   --baseline-2of3: calc(var(--baseline) / 3 * 2);
   --baseline-1of4: calc(var(--baseline) / 4);
-  --baseline-3of4: calc(var(--baseline) / 4 * 3);
   --baseline-1of5: calc(var(--baseline) / 5);
   --baseline-2of5: calc(var(--baseline) / 5 * 2);
   --baseline-3of5: calc(var(--baseline) / 5 * 3);

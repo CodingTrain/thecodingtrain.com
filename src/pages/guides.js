@@ -23,10 +23,7 @@ const GuidesPage = ({ data }) => {
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
   return (
-    <Layout
-      title={pageData.title}
-      description={pageData.description}
-      image={guidesPlaceholderImage}>
+    <Layout title={pageData.title} description={pageData.description}>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant="purple">
@@ -58,8 +55,9 @@ const GuidesPage = ({ data }) => {
 
       <div className={css.guideList}>
         {guides.map((guide, i) => (
-          <React.Fragment key={i}>
+          <>
             <GuideCard
+              key={i}
               title={guide.mdx.frontmatter.title}
               description={guide.mdx.frontmatter.description}
               slug={`/guides/${guide.mdx.slug}`}
@@ -85,7 +83,7 @@ const GuidesPage = ({ data }) => {
                 })}
               />
             )}
-          </React.Fragment>
+          </>
         ))}
       </div>
 

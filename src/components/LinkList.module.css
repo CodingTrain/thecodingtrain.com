@@ -9,7 +9,7 @@
   border-top: var(--border);
   border-bottom: var(--border);
   border-left: var(--border);
-  color: var(--gray-dark);
+  color: var(--gray-mid);
 }
 
 .icon,
@@ -21,8 +21,8 @@
 }
 
 .icon {
-  flex: 1 0 35px;
-  max-width: 35px;
+  flex: 1 0 25px;
+  max-width: 25px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -36,7 +36,7 @@
   text-decoration: underline;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   font-size: var(--maru-large);
 }
 
@@ -60,12 +60,19 @@
     border-color: var(--red);
     background-color: var(--red-light);
   }
+
+  & .url {
+    color: var(--red);
+  }
 }
 
 .cyan {
   & .link {
     border-color: var(--cyan);
     background-color: var(--cyan-light);
+  }
+  & .url {
+    color: var(--cyan);
   }
 }
 

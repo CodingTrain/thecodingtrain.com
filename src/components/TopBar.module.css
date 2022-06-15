@@ -4,7 +4,7 @@
   position: relative;
   justify-content: space-between;
   background-color: var(--gray-light);
-  color: var(--gray-dark);
+  color: var(--gray-mid);
 }
 
 .logo,
@@ -65,15 +65,18 @@
     font-size: var(--maru-normal);
   }
 
-  .outer {
-    height: var(--baseline-2x);
-  }
-
   .root {
     position: fixed;
     z-index: 100;
     width: calc(100% - 2 * var(--container-spacing-horizontal));
     border-right: var(--border);
+  }
+}
+
+@media (--small) {
+  /* In order to keep the content below the menu */
+  .outer {
+    height: var(--baseline-2x);
   }
 }
 

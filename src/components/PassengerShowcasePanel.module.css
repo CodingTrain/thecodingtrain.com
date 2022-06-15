@@ -12,7 +12,7 @@
   border-left: var(--border-purple);
   border-bottom: var(--border-purple);
   text-transform: uppercase;
-  color: var(--gray-dark);
+  color: var(--purple);
   background-color: var(--purple-light);
 
   & * {
@@ -56,13 +56,17 @@
   flex: 1 1 var(--box-padding);
 }
 
+.showcasePanel p {
+  color: var(--purple);
+}
+
 .showcasePanel button {
   flex-basis: 50%;
   cursor: pointer;
 }
 
 .title {
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   text-transform: uppercase;
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
@@ -81,7 +85,7 @@
 .author {
   margin: 0;
 
-  color: var(--gray-dark);
+  color: var(--gray-mid);
   & > address {
     border-bottom: var(--border-purple);
     border-left: var(--border-purple);
