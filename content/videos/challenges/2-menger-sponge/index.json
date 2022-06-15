@@ -1,0 +1,73 @@
+{
+  "title": "Menger Sponge Fractal",
+  "description": "In this coding challenge, I attempt to code the Menger Sponge (fractals) using Processing.",
+  "videoNumber": "2",
+  "videoId": "LG8ZK-rRkXo",
+  "date": "2016-04-17",
+  "languages": ["Processing"],
+  "topics": ["fractal", "3d"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to a 10 minute Coding Challenge!" },
+    { "time": "0:26", "title": "Quick math about the Menger Sponge" },
+    { "time": "1:02", "title": "Code! Drawing a 3D box in Processing" },
+    { "time": "2:14", "title": "Creating a Box class" },
+    {
+      "time": "3:36",
+      "title": "Use a Box object instead of the hardcoded box"
+    },
+    { "time": "4:02", "title": "Chopping up one Box into multiple ones" },
+    {
+      "time": "6:53",
+      "title": "Modeling the Menger Sponge as an ArrayList of Boxes"
+    },
+    {
+      "time": "7:41",
+      "title": "Generating the next iteration on mouse click"
+    },
+    { "time": "9:47", "title": "Bonus time! Adding 2 more minutes 😜" },
+    {
+      "time": "10:03",
+      "title": "How to determine which boxes need to be removed?"
+    },
+    { "time": "10:48", "title": "Code! Removing the extra boxes" },
+    { "time": "12:12", "title": "Enhancing the visuals" },
+    { "time": "13:32", "title": "Done! The Menger Sponge in Processing" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Menger Sponge Fractal",
+      "description": "Menger Sponge implementation in Processing and p5.js",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/5kcBUriAy",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_002_MengerSponge/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_002_MengerSponge"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌐",
+          "title": "Menger Sponge on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Menger_sponge",
+          "description": "Wikipedia article about the Menger Sponge Fractal"
+        },
+        {
+          "icon": "🇵",
+          "title": "P3D Tutorial",
+          "url": "https://processing.org/tutorials/p3d/",
+          "description": "Processing reference on using the P3D renderer"
+        },
+        {
+          "icon": "🇵",
+          "title": "ArrayList in Processing",
+          "url": "https://processing.org/reference/ArrayList.html",
+          "description": "Processing reference about ArrayList"
+        }
+      ]
+    }
+  ]
+}
