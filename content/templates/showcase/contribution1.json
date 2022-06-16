@@ -1,9 +1,8 @@
 {
-  "title": "Contribution Title",
+  "title": "Project Title",
+  "url": "Link to your project",
   "author": {
-    "name": "Contributor Name",
-    "url": "Link to contributor's personal site, GitHub, social media, etc"
-  },
-  "url": "Link to contribution",
-  "source": "Link to contribution's source code"
+    "name": "Your Name (or nickname!)",
+    "url": "Link to more about you! (your personal site, GitHub, social media, etc.)"
+  }
 }
