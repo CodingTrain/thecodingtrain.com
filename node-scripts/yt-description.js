@@ -65,7 +65,7 @@ function getVideoData() {
     const parsed = JSON.parse(content);
 
     const filePath = file.split(path.sep).slice(2);
-    console.log(filePath);
+    console.log(filePath.join('/'));
     let url;
 
     if (filePath[0] === 'challenges') {
@@ -85,10 +85,9 @@ function getVideoData() {
     videos.push({
       pageURL: url.join('/'),
       data: parsed
-      //   playlist: getPlaylist(file)
     });
   }
-  console.log(videos);
+  // console.log(videos);
   return videos;
 }
 
@@ -114,7 +113,7 @@ function getVideoID(url) {
   try {
     page = videos.find((vid) => vid.pageURL === location).data;
   } catch (err) {
-    console.log(location);
+    console.error(location);
     return url;
   }
 
@@ -133,7 +132,7 @@ function writeDescriptions(videos) {
     // Description
     let content = data.description;
     description += `${content.trim()}`;
-    description += `\n💻 Challenge Webpage: https://thecodingtrain.com/${pageURL}`;
+    description += `\n💻 Video Webpage: https://thecodingtrain.com/${pageURL}`;
 
     description += '\n';
 
@@ -230,7 +229,6 @@ function writeDescriptions(videos) {
     if (videosR && videosR.links.length > 0) {
       description += '\nOther videos mentioned in this video:\n';
       for (const video of videosR.links) {
-        // Link as it is no matter what
         if (
           video.url.includes('youtu.be') ||
           video.url.includes('youtube.com')

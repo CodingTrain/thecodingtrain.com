@@ -13,7 +13,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",
-    "testv": "jest --verbose"
+    "testv": "jest --verbose",
+    "yt-desc": "node node-scripts/yt-description"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
