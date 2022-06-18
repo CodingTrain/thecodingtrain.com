@@ -199,8 +199,7 @@ function writeDescriptions(videos) {
           if (nextVideo) {
             description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=${playlistIds[pl]}\n`;
           }
-          description +=
-            '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
+          description += `🎥 All videos: https://www.youtube.com/playlist?list=${playlistIds[pl]}\n`;
         }
       }
     }
