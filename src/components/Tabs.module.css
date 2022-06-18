@@ -29,11 +29,10 @@
   cursor: pointer;
   font-family: var(--maru-mono);
   text-transform: none;
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
-.tab:hover,
-.active {
+.tab:hover {
   font-weight: 600;
 }
 
@@ -68,6 +67,7 @@
   & .tab:hover,
   & .active {
     background-color: var(--red-light);
+    color: var(--gray-dark);
   }
 }
 
@@ -85,6 +85,7 @@
   & .tab:hover,
   & .active {
     background-color: var(--cyan-light);
+    color: var(--gray-dark);
   }
 }
 

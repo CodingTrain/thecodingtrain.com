@@ -2,8 +2,7 @@
     "title": "Stripes Clock",
     "url": "https://boguz.github.io/stripeclock/",
     "author": {
-        "name": "Boguz",
-        "url": ""
+        "name": "Boguz"
     },
     "source": "https://github.com/boguz/stripeclock/"
 }

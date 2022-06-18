@@ -10,13 +10,13 @@
   line-height: var(--baseline);
 
   & svg {
-    stroke: var(--gray-mid);
+    stroke: var(--gray-dark);
   }
 
   & span {
     padding-left: 10px;
     text-transform: none;
-    color: var(--gray-mid);
+    color: var(--gray-dark);
   }
 }
 
@@ -49,6 +49,7 @@ span.linkIcon {
   line-height: var(--baseline-1of2);
   cursor: auto;
   background-color: var(--gray-light);
+  color: var(--gray-dark);
 }
 
 /* Variants */
@@ -70,7 +71,6 @@ span.linkIcon {
   & .copiedNotification {
     border: var(--border-red);
     background-color: var(--red-light);
-    color: var(--red);
   }
 }
 
@@ -91,6 +91,5 @@ span.linkIcon {
   & .copiedNotification {
     border: var(--border-cyan);
     background-color: var(--cyan-light);
-    color: var(--cyan);
   }
 }

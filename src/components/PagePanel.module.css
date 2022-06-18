@@ -1,15 +1,15 @@
 .root {
-  font-size: var(--maru-large);
   border-left: var(--border);
   border-bottom: var(--border);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
   display: flex;
   height: var(--baseline-3x);
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .description {
-  padding: var(--baseline-2of3) var(--spacing-normal) 0 var(--box-padding);
+  padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   flex-basis: 700px;
 
   & p {

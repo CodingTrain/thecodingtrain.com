@@ -21,19 +21,20 @@
   display: flex;
   justify-content: space-between;
   font-size: var(--maru-large);
-  color: var(--gray-mid);
+  color: var(--gray-dark);
 }
 
 .description {
   flex-grow: 1;
+  display: flex;
   height: var(--baseline-3x);
   border-left: var(--border);
   border-bottom: var(--border);
-  padding: var(--baseline-2of3) var(--spacing-normal) 0 var(--box-padding);
+  padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
 
   & p {
     margin: 0;
-    max-width: 700px;
+    flex-basis: 700px;
     line-height: var(--baseline-1of2);
   }
 }

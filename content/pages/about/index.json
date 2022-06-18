@@ -12,7 +12,7 @@
       ]
     },
     {
-      "title": "Animal socials",
+      "title": "Animal socials", 
       "links": [
         {
           "url": "https://www.instagram.com/mangoandgoose/",
@@ -44,12 +44,6 @@
   "featuredTitle": "Featured",
   "featured": [
     {
-      "title": "Image to ASCII (Coding Challenge 167)",
-      "description": "Check out the latest coding challenge, turning an image into ASCII Art with p5.js!",
-      "thumbnail": "challenge.jpg",
-      "url": "/challenges/166-image-to-ascii"
-    },
-    {
       "title": "Mouse Learning",
       "description": "Watch my talk on machine learning and the computer mouse for the 2021 Computer Mouse Conference!",
       "thumbnail": "mouse-learning.png",
@@ -68,11 +62,15 @@
       "name": "Friends of The Coding Train",
       "people": [
         {
-          "name": "ITP/IMA"
+          "name": "ITP/IMA",
+          "url": "https://tisch.nyu.edu/itp"
         },
-        { "name": "Processing Foundation" },
-        { "name": "ml5.js" },
-        { "name": "Nebula" },
+        {
+          "name": "Processing Foundation",
+          "url": "https://processingfoundation.org/"
+        },
+        { "name": "ml5.js", "url": "https://ml5js.org/" },
+        { "name": "Nebula", "url": "https://nebula.app/" },
         {
           "name": "Design Systems International",
           "url": "https://designsystems.international"
@@ -82,28 +80,37 @@
     {
       "name": "Team",
       "people": [
+        { "name": "Chloe Desaulles", "role": "Projects and Research" },
+        { "name": "David Snyder", "role": "Discord and GitHub" },
+        { "name": "Elizabeth Perez", "role": "Content Designer" },
+        { "name": "Jason Heglund", "role": "Illustrations and Animations" },
+        { "name": "Katie Chan", "role": "Social Media and Community" },
+        { "name": "Kline Gareth", "role": "Website Content Development" },
+        { "name": "Kobe Liesenborgs", "role": "Discord and GitHub" },
         {
-          "name": "Editing and Video Production: Mathieu Blanchette",
-          "url": "https://mathieu.com"
-        },
-        { "name": "Illustrations and Animations: Jason Heglund" },
-        { "name": "Social Media and Community: Katie Chan" },
-        { "name": "Projects and Research: Chloe Desaulles" },
-        { "name": "Discord and GitHub: Kobe Liesenborgs" },
-        { "name": "Discord and GitHub: David Snyder" },
-        { "name": "Website Content Development: Kline Gareth" },
-        { "name": "Content Designer: Elizabeth Perez" }
+          "name": "Mathieu Blanchette",
+          "url": "https://mathieu.com",
+          "role": "Editing and Video Production"
+        }
       ]
     },
     {
       "name": "Moderators",
-      "people": [{ "name": "..." }]
+      "people": []
     },
     {
-      "name": "Past Contributors",
+      "name": "Team Alumni",
       "people": [
-        { "name": "Dusk Virkus", "url": "https://dusk.com" },
-        { "name": "Cy X" }
+        {
+          "name": "Cy X",
+          "role": "Social Media and Community",
+          "url": "https://cyberwitch666.com/"
+        },
+        {
+          "name": "Dusk Virkus",
+          "role": "GitHub and Content Management",
+          "url": "https://dusk.com"
+        }
       ]
     }
   ]

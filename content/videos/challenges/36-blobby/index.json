@@ -1,0 +1,73 @@
+{
+    "title": "Blobby!",
+    "description": "In this coding challenge, I simulate a blob-like shape with wobbly edges using beginShape(), endShape(), polar coordinates, and perlin noise.",
+    "videoNumber": "36",
+    "videoId": "rX5p-QRP6R4",
+    "date": "2016-09-02",
+    "languages": ["p5js","Javascript","Processing","Java"],
+    "topics": ["superformulas","superellipse","beginShape","endShape","vertex","perlin noise"],
+    "canContribute": true,
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction to the Blobby challenge" },
+        { "time": "0:30", "title": "Whiteboard explanation of ellipse vs beginShape/endShape" },
+        { "time": "2:10", "title": "Into the code...using the Blob class and creating an ellipse using beginShape/endShape" },
+        { "time": "4:09", "title": "Random r value to create a noisy random ellipse" },
+        { "time": "5:30", "title": "Getting a blobby shape via a sine wave using the 'offset' variable" },
+        { "time": "6:35", "title": "Starting to use Perlin noise" },
+        { "time": "7:30", "title": "Adding in the y offset" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Blobby",
+            "description": "Code examples for the Blobby Coding Challenge",
+            "image": "blobby.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/L_ME8qKmQ",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/036_Blobby/Processing/CC_036_Blobby",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/036_Blobby"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🎛️",
+                    "title": "Perlin noise Wikipedia article",
+                    "url": "https://en.wikipedia.org/wiki/Perlin_noise",
+                    "description": "A deeper dive into the history and details of Perlin noise."
+                },
+                {
+                    "icon": "🐙",
+                    "title": "Superellipse Wikipedia article",
+                    "url": "https://en.wikipedia.org/wiki/Superellipse",
+                    "description": "What is a superellipse?"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                  "icon": "🎥",
+                  "title": "Agar.io (Part 1)",
+                  "url": "https://www.youtube.com/watch?v=JXuxYMGe4KI",
+                  "description": "In this coding challenge, I create a clone of the multiplayer online game Agar.io using JavaScript (p5.js)"
+                },
+                {
+                  "icon": "🎥",
+                  "title": "Agar.io (Part 2)",
+                  "url": "https://www.youtube.com/watch?v=ZjVyKXp9hec",
+                  "description": "This video is Part 2 of a Coding Challenge where I attempt to make a make a clone of of the popular multiplayer online game Agar.io."
+                },
+                {
+                  "icon": "🎥",
+                  "title": "Supershapes Playlist",
+                  "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a5MvGn7a1y4dAKWzM8_Ar0",
+                  "description": "Coding Challenges 19, 23, 25, and 26 covering the Superellipse, 2D Supershapes, Spherical Geometry, and 3D Supershapes."
+                }
+            ]
+        }
+    ]
+}

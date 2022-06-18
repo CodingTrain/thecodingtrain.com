@@ -1,0 +1,9 @@
+{
+  "title": "Event title",
+  "description": "Event description",
+  "date": "YYYY-MM-DD",
+  "time": "HH:MM GMT",
+  "host": "Host name",
+  "type": "IRL or Online",
+  "url": "url to event information or access"
+}

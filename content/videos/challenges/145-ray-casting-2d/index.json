@@ -1,0 +1,121 @@
+{
+  "title": "Ray Casting 2D",
+  "description": "In this video, I implement a basic ray casting engine with line segment \u201csurfaces\u201d and vector \u201crays.\u201d The result simulates a light source casting shadows in a 2D canvas.",
+  "videoNumber": "145",
+  "videoId": "TOEi6T2mtHo",
+  "date": "2019-05-08",
+  "languages": ["p5.js", "processing"],
+  "topics": [
+    "ray casting",
+    "game development",
+    "2d ray casting",
+    "ray marching",
+    "line line intersection"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:03:34",
+      "title": "Coding Starts"
+    },
+    {
+      "time": "0:05:54",
+      "title": "Creating a Ray Class"
+    },
+    {
+      "time": "0:09:16",
+      "title": "Casting Rays And Finding Intersections"
+    },
+    {
+      "time": "0:19:56",
+      "title": "Casting Multiple Rays"
+    },
+    {
+      "time": "0:24:41",
+      "title": "Adding Collision Detection For Every Ray"
+    },
+    {
+      "time": "0:26:47",
+      "title": "Multiple Boundaries"
+    },
+    {
+      "time": "0:31:23",
+      "title": "Moving With Perlin Noise"
+    },
+    {
+      "time": "0:32:41",
+      "title": "Suggestions For Improvements"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Raycasting Algorithm",
+      "description": "Implementation of a raycasting algorithm.",
+      "image": "raycasting_145.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Nqsq3DFv-",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting/Processing/CC_145_Ray_Casting",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌞",
+          "title": "SIGHT & LIGHT by Nicky Case",
+          "url": "https://ncase.me/sight-and-light/",
+          "description": "Demonstration on how to create 2D visibility/shadow effects for your game."
+        },
+        {
+          "icon": "🌞",
+          "title": "2d Visibility from Red Blob Games",
+          "url": "https://www.redblobgames.com/articles/visibility/",
+          "description": "Discussion of how to calculate which areas are visible from a given point."
+        },
+        {
+          "icon": "💾",
+          "title": "p5.collide2D",
+          "url": "https://github.com/bmoren/p5.collide2D",
+          "description": "A 2d collision detection library for p5.js."
+        },
+        {
+          "icon": "🗄",
+          "title": "Line-line Intersection",
+          "url": "https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection",
+          "description": "Discussion of line-line intersection."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Coding Adventure: Ray Marching",
+          "url": "https://youtu.be/Cp5WWtMoeKg",
+          "description": " Exploration of ray marching and signed distance functions to draw funky things."
+        },
+        {
+          "icon": "🎥",
+          "title": "Matrix Math",
+          "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
+          "description": "This video introduces the idea of Linear Algebra and explores the matrix math required for a simple neural network library."
+        },
+        {
+          "icon": "🎥",
+          "title": "Coding Challenge: Rendering Ray Casting",
+          "url": "https://www.youtube.com/watch?v=vYgIKn7iDH8",
+          "description": "This video builds off of the 2D Ray Casting coding challenge to make a version of the original Wolfenstein 3D Raycasting engine and visualize the field of view of the moving particle."
+        }
+      ]
+    }
+  ]
+}
