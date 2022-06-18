@@ -1,8 +1,8 @@
 {
-    "title": "Rock Paper Scissors",
-    "author": {
-        "name": " by Lukas Marschall"
-    },
-    "url": "https://rpsml5.herokuapp.com/",
-    "source": "https://github.com/lmarschall/rockpaperscissors"
+  "title": "Rock Paper Scissors",
+  "author": {
+    "name": "Lukas Marschall"
+  },
+  "url": "https://rpsml5.herokuapp.com/",
+  "source": "https://github.com/lmarschall/rockpaperscissors"
 }

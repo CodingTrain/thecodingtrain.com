@@ -1,108 +1,108 @@
 {
-    "title": "Rendering Ray Casting",
-    "description": "Building off of the previous coding challenge (2D Ray Casting) I attempt to make my own version the original Wolfenstein 3D Raycasting engine and visualize the \u201cfield of view\u201d of the moving particle.",
-    "videoNumber": "146",
-    "videoId": "vYgIKn7iDH8",
-    "date": "2019-05-10",
-    "languages": [],
-    "topics": [
-        "ray casting",
-        "game development",
-        "2d ray casting",
-        "ray marching",
-        "wolfenstein 3d ray casting"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [
+  "title": "Rendering Ray Casting",
+  "description": "Building off of the previous coding challenge (2D Ray Casting) I attempt to make my own version the original Wolfenstein 3D Raycasting engine and visualize the \u201cfield of view\u201d of the moving particle.",
+  "videoNumber": "146",
+  "videoId": "vYgIKn7iDH8",
+  "date": "2019-05-10",
+  "languages": [],
+  "topics": [
+    "ray casting",
+    "game development",
+    "2d ray casting",
+    "ray marching",
+    "wolfenstein 3d ray casting"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:02:21",
+      "title": "Coding Starts"
+    },
+    {
+      "time": "0:03:15",
+      "title": "Creating The Rendering Scene"
+    },
+    {
+      "time": "0:09:22",
+      "title": "Adjusting The Perspective"
+    },
+    {
+      "time": "0:11:02",
+      "title": "Adding Rotation"
+    },
+    {
+      "time": "0:15:06",
+      "title": "Fixing The View and Brightness"
+    },
+    {
+      "time": "0:20:55",
+      "title": "Changing The Field of View Dynamically"
+    },
+    {
+      "time": "0:22:44",
+      "title": "Small Fixes and Maintenance"
+    },
+    {
+      "time": "0:27:50",
+      "title": "Suggestions For Improvements"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Rendering Ray Casting",
+      "description": "Implementation of 3d raycasting algorithm.",
+      "image": "raycasting.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/yEzlR0_zq",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting/Processing/CC_146_Rendering_Ray_Casting",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Community Suggested References",
+      "links": [
         {
-            "time": "0:00:00",
-            "title": "Introduction"
-        },
-        {
-            "time": "0:02:21",
-            "title": "Coding Starts"
-        },
-        {
-            "time": "0:03:15",
-            "title": "Creating The Rendering Scene"
-        },
-        {
-            "time": "0:09:22",
-            "title": "Adjusting The Perspective"
-        },
-        {
-            "time": "0:11:02",
-            "title": "Adding Rotation"
-        },
-        {
-            "time": "0:15:06",
-            "title": "Fixing The View and Brightness"
-        },
-        {
-            "time": "0:20:55",
-            "title": "Changing The Field of View Dynamically"
-        },
-        {
-            "time": "0:22:44",
-            "title": "Small Fixes and Maintenance"
-        },
-        {
-            "time": "0:27:50",
-            "title": "Suggestions For Improvements"
+          "icon": "💾",
+          "title": "Code-It-Yourself! First Person Shooter (Quick and Simple C++)",
+          "url": "https://youtu.be/xW8skO7MFYw",
+          "description": " This video implements a 3D engine using nothing but ASCII at the Windows Command Prompt."
         }
-    ],
-    "codeExamples": [
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Rendering Ray Casting",
-            "description": "Implementation of 3d raycasting algorithm.",
-            "image": "raycasting.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/yEzlR0_zq",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting/Processing/CC_146_Rendering_Ray_Casting",
-                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting"   
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "Community Suggested References",
-            "links": [
-                {
-                    "icon": "💾",
-                    "title": "Code-It-Yourself! First Person Shooter (Quick and Simple C++)",
-                    "url": "https://youtu.be/xW8skO7MFYw",
-                    "description": " This video implements a 3D engine using nothing but ASCII at the Windows Command Prompt."
-                }
-            ]
+          "icon": "🌞",
+          "title": "Gustavo Pezzi's Raycast 3D",
+          "url": "http://www.gustavopezzi.com/projects/raycast3d/",
+          "description": "A course that teaches how to create a complete raycasting engine from scratch."
         },
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🌞",
-                    "title": "Gustavo Pezzi's Raycast 3D",
-                    "url": "http://www.gustavopezzi.com/projects/raycast3d/",
-                    "description": "A course that teaches how to create a complete raycasting engine from scratch."
-                },
-                {
-                    "icon": "🌞",
-                    "title": "Lode's Raycasting Tutorial",
-                    "url": "https://lodev.org/cgtutor/raycasting.html",
-                    "description": "A computer graphics tutorial on raycasting."
-                }
-            ]
-        },
-        {
-            "title": "Videos",
-            "links": [
-                {
-                    "icons": "🎥",
-                    "title": "Coding Challenge: 2D Ray Casting",
-                    "url": "https://www.youtube.com/watch?v=TOEi6T2mtHo",
-                    "description": "A basic ray casting engine is implemented with line segment surfaces and vector rays. The result simulates a light source casting shadows in a 2D canvas."
-                }
-            ]
+          "icon": "🌞",
+          "title": "Lode's Raycasting Tutorial",
+          "url": "https://lodev.org/cgtutor/raycasting.html",
+          "description": "A computer graphics tutorial on raycasting."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Coding Challenge: 2D Ray Casting",
+          "url": "https://www.youtube.com/watch?v=TOEi6T2mtHo",
+          "description": "A basic ray casting engine is implemented with line segment surfaces and vector rays. The result simulates a light source casting shadows in a 2D canvas."
+        }
+      ]
+    }
+  ]
 }
