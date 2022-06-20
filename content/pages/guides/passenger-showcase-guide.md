@@ -4,7 +4,7 @@ description: 'Guide to sharing your work with the community!'
 date: '05/04/2022'
 ---
 
-Thank you for sharing your work in the Passenger Showcase! In the future, we hope to provide a form to make the submission process easier, but for now, please follow the instructions below to create a pull request for your project! If you have questions or need any help, come board the [Coding Train Discord](https://discord.gg/6DScedrtvH) or write to help@thecodingtrain.com.
+Thank you for sharing your work in the Passenger Showcase! In the future, we plan to have a form to make the submission process easier, but for now, please follow the instructions below to create a pull request for your project! If you have questions or need any help, come board the [Coding Train Discord](https://discord.gg/6DScedrtvH) or write to help@thecodingtrain.com.
 
 This guide is in progress, and will be updated as the showcase submission process changes.
 
@@ -35,7 +35,7 @@ Copy the template into the new file:
   "author": {
     "name": "Your Name (or nickname!)",
     "url": "Link to more about you! (your personal site, GitHub, social media, etc.)"
-  },
+  }
 }
 ```
 
