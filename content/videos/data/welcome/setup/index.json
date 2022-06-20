@@ -1,12 +1,8 @@
 {
   "title": "Setup",
   "description": "In this video, I outline what you need setup and ready before you begin the course Working with Data and APIs in JavaScript.\n\nWhat you need to know:\n- JavaScript\n- HTML basics\n- Basics of CSS (useful but not required)\n\nMaterials/Programs:\n- Code editor (I use Visual Studio Code but other examples are included below)\n- Shell access to your computer (we go over this in Module 2)",
-  "languages": [
-    "JavaScript",
-    "p5.js",
-    "node.js"
-  ],
-  "topics": [],
+  "languages": ["JavaScript", "p5.js", "node.js"],
+  "topics": ["server side", "workflow", "setup"],
   "videoId": "hPbDyqzxQfU",
   "timestamps": [],
   "codeExamples": [],
