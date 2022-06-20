@@ -1,7 +1,11 @@
 {
   "title": "Fetch",
   "description": "This video is client-side only and covers the web fetch() API, loading image data and focusing on handling asynchronous events with Promises (async / await).",
-  "languages": ["JavaScript"],
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
   "topics": [],
   "videoId": "tc8DU14qX6I",
   "timestamps": [],
