@@ -1,0 +1,47 @@
+{
+  "title": "Hiding API Keys with Environment Variables (dotenv) and Pushing Code to GitHub",
+  "description": "In this lesson, we will address how to can hide an API key using environment variables and open source the code on GitHub.",
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
+  "topics": [],
+  "videoId": "17UVejOw3zA",
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "the_weather_here",
+      "description": "the_weather_here",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here/"
+      }
+    },
+    {
+      "title": "the_weather_here_exercises",
+      "description": "the_weather_here_exercises",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "dotenv",
+          "url": "https://www.npmjs.com/package/dotenv",
+          "description": ""
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

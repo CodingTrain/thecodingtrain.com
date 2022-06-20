@@ -1,0 +1,116 @@
+{
+  "title": "Saving Images and Base64 Encoding",
+  "description": "Let's add an image from the webcam to our database. For this project, we will be using the p5.js JavaScript library!",
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
+  "topics": [],
+  "videoId": "9Rhsb3GU2Iw",
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "data_selfie_app",
+      "description": "data_selfie_app",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
+      }
+    },
+    {
+      "title": "exercise_01_multiple_pages",
+      "description": "exercise_01_multiple_pages",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
+      }
+    },
+    {
+      "title": "exercise_02_leaflet",
+      "description": "exercise_02_leaflet",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
+      }
+    },
+    {
+      "title": "exercise_03_button",
+      "description": "exercise_03_button",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
+      }
+    },
+    {
+      "title": "exercise_04_array_button",
+      "description": "exercise_04_array_button",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
+      }
+    },
+    {
+      "title": "exercise_05_input_box",
+      "description": "exercise_05_input_box",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
+      }
+    },
+    {
+      "title": "exercise_06_sorting",
+      "description": "exercise_06_sorting",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
+      }
+    },
+    {
+      "title": "exercise_07_save_files",
+      "description": "exercise_07_save_files",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
+      }
+    },
+    {
+      "title": "exercise_08_p5_drawings",
+      "description": "exercise_08_p5_drawings",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
+      }
+    },
+    {
+      "title": "shiffman.db",
+      "description": "shiffman.db",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "p5.js",
+          "url": "https://p5js.org",
+          "description": ""
+        },
+        {
+          "title": "Processing Foundation",
+          "url": "https://processingfoundation.org/",
+          "description": ""
+        },
+        {
+          "title": "Base64",
+          "url": "https://en.wikipedia.org/wiki/Base64",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

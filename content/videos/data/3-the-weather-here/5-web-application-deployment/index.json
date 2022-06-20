@@ -1,0 +1,47 @@
+{
+  "title": "Web Application Deployment (Glitch and Heroku)",
+  "description": "Let's figure out how to deploy your project to a server so that people can access it and use it. We will check out two hosting options: Heroku and Glitch.",
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
+  "topics": [],
+  "videoId": "Rz886HkV1j4",
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "the_weather_here",
+      "description": "the_weather_here",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here/"
+      }
+    },
+    {
+      "title": "the_weather_here_exercises",
+      "description": "the_weather_here_exercises",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Glitch",
+          "url": "https://glitch.com",
+          "description": ""
+        },
+        {
+          "title": "Heroku",
+          "url": "https://heroku.com/",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

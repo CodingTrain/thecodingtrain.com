@@ -1,0 +1,47 @@
+{
+  "title": "API calls from Node.js (Weather data from Dark Sky)",
+  "description": "Welcome to Module 3! I covered a lot about node.js in the previous module, but there are still a few key elements left to discuss!\n\nIn this module, I build the \"Weather Here\" project (based on example by Joey Lee). In this first video, I demonstrate how to connect to an external API from node.js itself. Later, I'll look at how to hide an API key as well as deploy a project to publicly accessible web server..",
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
+  "topics": [],
+  "videoId": "ZtLVbJk7KcM",
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "the_weather_here",
+      "description": "the_weather_here",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here/"
+      }
+    },
+    {
+      "title": "the_weather_here_exercises",
+      "description": "the_weather_here_exercises",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Dark Sky API",
+          "url": "https://darksky.net/dev",
+          "description": ""
+        },
+        {
+          "title": "Node.js",
+          "url": "https://nodejs.org/en/",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

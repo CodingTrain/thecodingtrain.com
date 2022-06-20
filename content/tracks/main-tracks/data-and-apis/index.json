@@ -8,7 +8,7 @@
       "videos": ["data/welcome/trailer", "data/welcome/setup"]
     },
     {
-      "title": "Client Side JavaScript Basics",
+      "title": "Client Side fetch() with image, CSV, JSON",
       "videos": [
         "data/1-client-side/1-fetch",
         "data/1-client-side/2-tabular-data",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "title": "Data Selfie App",
+      "title": "The Data Selfie App",
       "videos": [
         "data/2-data-selfie-app/1-server-side-with-node-js",
         "data/2-data-selfie-app/2-geolocation-web-api",

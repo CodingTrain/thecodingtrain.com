@@ -1,0 +1,116 @@
+{
+  "title": "Project Wrap-up: Accessibility and Design",
+  "description": "We've come a long way! Still have questions? A lot will be addressed in the next module. Until then, let's do a bit of cleanup and go over a few exercises that might be helpful as you move forward.",
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
+  "topics": [],
+  "videoId": "1mnpn6q25FI",
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "data_selfie_app",
+      "description": "data_selfie_app",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
+      }
+    },
+    {
+      "title": "exercise_01_multiple_pages",
+      "description": "exercise_01_multiple_pages",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
+      }
+    },
+    {
+      "title": "exercise_02_leaflet",
+      "description": "exercise_02_leaflet",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
+      }
+    },
+    {
+      "title": "exercise_03_button",
+      "description": "exercise_03_button",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
+      }
+    },
+    {
+      "title": "exercise_04_array_button",
+      "description": "exercise_04_array_button",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
+      }
+    },
+    {
+      "title": "exercise_05_input_box",
+      "description": "exercise_05_input_box",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
+      }
+    },
+    {
+      "title": "exercise_06_sorting",
+      "description": "exercise_06_sorting",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
+      }
+    },
+    {
+      "title": "exercise_07_save_files",
+      "description": "exercise_07_save_files",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
+      }
+    },
+    {
+      "title": "exercise_08_p5_drawings",
+      "description": "exercise_08_p5_drawings",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
+      }
+    },
+    {
+      "title": "shiffman.db",
+      "description": "shiffman.db",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "WAVE Evaluation Tool",
+          "url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
+          "description": ""
+        },
+        {
+          "title": "face-api.js",
+          "url": "https://github.com/justadudewhohacks/face-api.js",
+          "description": ""
+        },
+        {
+          "title": "Joey K. Lee",
+          "url": "https://jk-lee.com/work/",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
