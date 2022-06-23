@@ -35,8 +35,7 @@
       "image": "minesweeper.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/-mz-ePoqd",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/071_minesweeper/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/071_minesweeper"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/071_minesweeper/Processing"
       }
     }
   ],
