@@ -1,7 +1,7 @@
 {
     "title": "Marching Squares",
     "description": "In this episode of Coding in the Cabana, Gloria Pickle and I investigate the Marching Squares algorithm and apply it to Open Simplex Noise in Processing.",
-    "videoNumber": "c5",
+    "videoNumber": "5 - Coding in the Cabana",
     "videoId": "0ZONMNUKTfU",
     "date": "2020-07-14",
     "languages": ["processing"],
@@ -21,52 +21,52 @@
     "codeExamples": [
       {
         "title": "Color",
-        "description": "Implementation of marching squares in color.",
+        "description": "Visualization of marching squares in color.",
         "image": "color.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/hERGV3q_u",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/005_marching_squares/Processing_color"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main//005_marching_squares/Processing_color"
         }
       },
       {
         "title": "Worley Noise",
-        "description": "Implementation of marching squares with worley noise.",
+        "description": "Visualization of marching squares with worley noise.",
         "image": "worley.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/JzvYF8WwT",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/005_marching_squares/Processing_worley"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_worley"
         }
       },
       {
         "title": "Image",
-        "description": "Implementation of marching squares with a image.",
+        "description": "Visualization of marching squares with a image.",
         "image": "image.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/qThqi4OfJ",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/005_marching_squares/Processing_image"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_image"
         }
       },
       {
         "title": "Webcam",
-        "description": "Implementation of marching squares with a webcam.",
+        "description": "Visualization of marching squares with a webcam.",
         "image": "image2.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/0XAj0DRD2",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/005_marching_squares/Processing_webcam"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_webcam"
         }
       },
       {
         "title": "Metaballs",
-        "description": "Marching squares with metaballs.",
+        "description": "Visualization of marching squares with metaballs.",
         "image": "metaballs.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/wwB-AA4i-",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/005_marching_squares/Processing_metaballs"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_metaballs"
         }
       },
       {
         "title": "Cave Generation",
-        "description": "Using marching squares for cave generation.",
+        "description": "Visualization of marching squares for cave generation.",
         "image": "cave.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/z4U3Luf7o"   
@@ -74,20 +74,20 @@
       },
       {
         "title": "Metaballs Interpolation",
-        "description": "Marching squares with metaballs iterpolation.",
+        "description": "Visualization of marching squares with metaballs iterpolation.",
         "image": "interpolation.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/hEB4588QC",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/005_marching_squares/Processing_metaballs_interpolation"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_metaballs_interpolation"
         }
       },
       {
         "title": "OpenSimplex Interpolation",
-        "description": "Marching squares with OpenSimplex interpolation.",
+        "description": "Visualization of marching squares with OpenSimplex interpolation.",
         "image": "opensimplex.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/18cjVoAX1",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/005_marching_squares/Processing_simplex_interpolation/sketch_marching_squares_simplex_noise_interpolation"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_simplex_interpolation/sketch_marching_squares_simplex_noise_interpolation"
         }
       }
     ],
