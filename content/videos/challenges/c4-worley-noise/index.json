@@ -1,7 +1,7 @@
 {
     "title": "Worley Noise",
-    "description": "I explore the beauty of Worley noise.",
-    "videoNumber": "c4",
+    "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I explore the beauty of Worley noise.",
+    "videoNumber": "4 - Coding in the Cabana,
     "videoId": "4066MndcyCk",
     "date": "2020-04-29",
     "languages": ["p5.js"],
@@ -21,11 +21,11 @@
     "codeExamples": [
       {
         "title": "Worley Noise",
-        "description": "Implementation of worley noise in p5.js.",
+        "description": "Visualization of worley noise in p5.js.",
         "image": "worley.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/QsiCWVczZ",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/004_worley_noise/Processing"
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main//004_Worley_Noise/"
         }
       }
     ],
