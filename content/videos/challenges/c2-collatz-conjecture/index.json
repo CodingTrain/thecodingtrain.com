@@ -22,7 +22,8 @@
         "image": "collatz.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/XjLDE7gu6",
-          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/002_collatz_conjecture/Processing"
+          "processing": "
+           "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/002_collatz_conjecture/"
         }
       }
     ],
