@@ -5,7 +5,7 @@
   "videoId": "LFU5ZlrR21E",
   "date": "2017-05-18",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["games", "minesweeper", "arrays", "prototypes"],
+  "topics": ["Games", "Prototypes", "Floodfill"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
@@ -31,7 +31,7 @@
   "codeExamples": [
     {
       "title": "Minesweeper",
-      "description": "",
+      "description": "A simple Minesweeper game",
       "image": "minesweeper.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/-mz-ePoqd",
@@ -48,19 +48,36 @@
           "icon": "📑",
           "title": "Minesweeper on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Minesweeper_(video_game)",
-          "description": "Minesweeper on Wikipedia"
+          "description": "Wikipedia article on Minesweeper"
         },
         {
           "icon": "🌊",
           "title": "Floodfill on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Flood_fill",
-          "description": ""
+          "description": "Discussion of the floodfill algorithm"
         },
         {
           "icon": "🐱",
           "title": "Minesweeper suggestion on GitHub",
           "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/164",
-          "description": ""
+          "description": "The GitHub topic suggestion that gave the idea of this video"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Prototypes in JavaScript",
+          "url": "https://www.youtube.com/watch?v=hS_WqkyUah8",
+          "description": "In this video, I examine the concept of \"Prototype\" in the JavaScript programming language."
+        },
+        {
+          "icon": "🎥",
+          "title": "Inheritance with Prototype in JS",
+          "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
+          "description": "You should go and watch my videos on ES6 classes instead, but if you choose to be here, I will discuss how inheritance works with prototypes in JS."
         }
       ]
     }
