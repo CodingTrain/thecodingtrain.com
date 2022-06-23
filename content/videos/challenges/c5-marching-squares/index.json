@@ -130,7 +130,8 @@
       {
         "title": "Videos",
         "links": [
-            {  "icon": "🎥",
+            { 
+                "icon": "🎥",
                 "title": "Coding Adventure: Marching Cubes",
                 "url": "https://youtu.be/M3iI2l0ltbE",
                 "description": "Sebastian Lague tries to understand marching cubes, and then uses it to construct an endless underwater world."
