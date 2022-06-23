@@ -18,7 +18,7 @@
     "codeExamples": [
       {
         "title": "Maurer Rose",
-        "description": "Implementation of mauer rose",
+        "description": "Visualization of the Maurer rose pattern",
         "image": "rose.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/qa7RiptE9",
