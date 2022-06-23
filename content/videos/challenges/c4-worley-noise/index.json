@@ -34,21 +34,25 @@
         "title": "References",
         "links": [
           {
+            "icon": "📓",
             "title": "A Cellular Texture Basis Function",
             "url": "https://www.rhythmiccanvas.com/research/papers/worley.pdf",
             "description": "Stephen Worley paper on the cellular texture basis function"
           },
           {
+            "icon": "📘",
             "title": "Book of Shaders - Chapter 11 Noise",
             "url": "https://thebookofshaders.com/11/",
             "description": "Chapter about introducing noise in shaders."
           },
           {
+            "icon": "📕",
             "title": "The Nature of Code - Spatial Subdivision",
             "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/#chapter06_figure37",
             "description": "Illustration of bin-lattice spatial subdivision."
           },
           {
+            "icon": "💾",
             "title": "saveFrame() (Processing Reference)",
             "url": "https://processing.org/reference/saveFrame_.html",
             "description": "Reference on saveFram()."
@@ -59,21 +63,25 @@
         "title": "Videos",
         "links": [
           {
+            "icon": "🎥",
             "title": "Coding Challenge #98.2 - Quadtree",
             "url": "https://www.youtube.com/watch?v=QQx_NmCIuCY",
             "description": "In part 2 of the Quadtree coding challenge, I query the data structure for points contained within a rectangular boundary."
           },
           {
+            "icon": "🎥",
             "title": "Coding Challenge #24: Perlin Noise Flow Field",
             "url": "https://www.youtube.com/watch?v=BjoM9oKOAKY",
             "description": "I use Perlin noise to create a two-dimensional flow field with the p5.js library."
           },
           {
+            "icon": "🎥",
             "title": "Coding Challenge #114 - Bubble Sort Visualization",
             "url": " https://www.youtube.com/watch?v=67k3I2GxTH8",
             "description": "I visualize a \u201cbubble sort\u201d algorithm in Processing (Java)."
           },
           {
+            "icon": "🎥",
             "title": "Coding Challenge #143 - Quicksort Visualization",
             "url": "https://www.youtube.com/watch?v=eqo2LxRADhU",
             "description": "I implement a Quicksort algorithm in JavaScript visualize the sorting with p5.js."
