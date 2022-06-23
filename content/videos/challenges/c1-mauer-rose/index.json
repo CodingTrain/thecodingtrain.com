@@ -31,16 +31,19 @@
         "title": "References",
         "links": [
           {
+            "icon": "🗄",
             "title": "Maurer Rose Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Maurer_rose",
             "description": "Description of the mauer rose."
           },
           {
+            "icon": "📐",
             "title": "Maurer Rose Wolfram MathWorld",
             "url": "http://mathworld.wolfram.com/MaurerRose.html",
             "description": "Mathematical description of the maurer rose."
           },
           {
+            "icon": "📐",
             "title": "Starr Rose Wolfram MathWorld",
             "url": "http://mathworld.wolfram.com/StarrRose.html",
             "description": "Mathematical description of the starr rose."
@@ -51,11 +54,13 @@
         "title": "Videos",
         "links": [
           {
+            "icon": "🎥",
             "title": "Challenge #55: Mathematical Rose Patterns",
             "url": "https://thecodingtrain.com/challenges/55-mathematical-rose-patterns",
             "description": "I attempt to create rose (rhodonea) curves using trigonometry function and polar coordinates."
           },
           {
+            "icon": "🎥", 
             "title": "Polar Coordinates - p5.js Tutorial",
             "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
             "description": "A dive into the trigonometric functions—sine, cosine, and tangent."
