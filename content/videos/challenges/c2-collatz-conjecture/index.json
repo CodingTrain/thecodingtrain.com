@@ -1,0 +1,71 @@
+{
+    "title": "Collatz Conjecture",
+    "description": "It's the second episode of Coding in the Cabana! Here I attempt to visualize the Collatz Conjecture in Processing.",
+    "videoNumber": "c2",
+    "videoId": "EYLWxwo1Ed8",
+    "date": "2019-10-27",
+    "languages": ["processing"],
+    "topics": ["collatz conjecture", "modulo"],
+    "canContribute": true,
+    "timestamps": [
+      { "time": "0:00", "title": "The Collatz Conjecture" },
+      { "time": "4:10", "title": "Programming in Processing" },
+      { "time": "6:46", "title": "Checking The Number of Steps" },
+      { "time": "9:23", "title": "Visualizing The Collatz Conjecture" },
+      { "time": "20:44", "title": "Rendering to a PDF File" },
+      { "time": "22:24", "title": "Conclusions and Goodbyes" }
+    ],
+    "codeExamples": [
+      {
+        "title": "Collatz Conjecture",
+        "description": "My implementation of the collatz conjecture.",
+        "image": "collatz.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/XjLDE7gu6",
+          "processing": "https://github.com/CodingTrain/website-archive/tree/main/challenges/coding-in-the-cabana/002_collatz_conjecture/Processing"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "title": "Collatz Conjecture Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Collatz_conjecture",
+            "description": "Disusson of the collatz conjecture."
+          },
+          {
+            "title": "Primitive Data Types in Java (more information about the long type)",
+            "url": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html",
+            "description": "Java tutorial about primative data types."
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [
+          {
+            "title": "Collatz Conjecture in Color",
+            "url": "https://www.youtube.com/watch?v=LqKpkdRRLZw",
+            "description": "Numberphile video about the collatz conjecture."
+          },
+          {
+            "title": "Golan Levin's Modulo Operator video",
+            "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
+            "description": "Golin Levin's modulo operator tutorial."
+          },
+          {
+            "title": "Fractal Trees Coding Challenge",
+            "url": "https://thecodingtrain.com/challenges/14-fractal-trees-recursive",
+            "description": "Implementation of fractal trees with recursion in p5.j.s"
+          },
+          {
+            "title": "UNCRACKABLE? The Collatz Conjecture",
+            "url": "https://www.youtube.com/watch?v=5mFpVDpKX70",
+            "description": "Numberphile video about the collatz conjecture."
+          }
+        ]
+      }
+    ]
+  }
