@@ -7,7 +7,27 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["games", "minesweeper", "arrays", "prototypes"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "1:26", "title": "All aboard!" },
+    { "time": "2:36", "title": "Explaining the logic of the game" },
+    { "time": "4:31", "title": "Defining the cells" },
+    {
+      "time": "11:03",
+      "title": "Let's make a show() function using object protypes!"
+    },
+    { "time": "17:30", "title": "Checking if mouse is inside a grid" },
+    { "time": "20:15", "title": "Revealing the cells after clicking" },
+    {
+      "time": "22:58",
+      "title": "Checking how many bees are neighboring a particular cell"
+    },
+    { "time": "34:20", "title": "Starting to work on the game mechanic!" },
+    { "time": "41:50", "title": "Let's implement floodfill!" },
+    { "time": "48:45", "title": "Defining when the game is over" },
+    { "time": "51:11", "title": "Minesweeper!" },
+    { "time": "53:12", "title": "Thanks for watching!" }
+  ],
   "codeExamples": [
     {
       "title": "Minesweeper",
@@ -31,15 +51,15 @@
           "description": "Minesweeper on Wikipedia"
         },
         {
-          "icon": "🐱",
-          "title": "Minesweeper suggestion on GitHub",
-          "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/164",
-          "description": ""
-        },
-        {
           "icon": "🌊",
           "title": "Floodfill on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Flood_fill",
+          "description": ""
+        },
+        {
+          "icon": "🐱",
+          "title": "Minesweeper suggestion on GitHub",
+          "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/164",
           "description": ""
         }
       ]
