@@ -1,0 +1,30 @@
+.root {
+  padding: 0 var(--box-padding);
+  border-left: var(--border);
+}
+
+.form label {
+  display: block;
+  margin-bottom: var(--spacing-normal);
+  font-size: var(--maru-xlarge);
+
+  & span {
+    color: var(--gray-mid);
+    display: block;
+    margin: var(--spacing-xsmall) 0;
+    max-width: 500px;
+    font-size: var(--maru-small);
+    line-height: 17px;
+  }
+}
+
+.form input[type="text"],
+.form input[type="file"],
+.form select {
+  display: block;
+  margin-top: var(--spacing-xsmall);
+  font-size: var(--maru-medium);
+  min-width: 500px;
+  border: 1px solid black;
+  padding: var(--spacing-small);
+}
