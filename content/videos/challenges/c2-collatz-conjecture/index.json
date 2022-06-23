@@ -18,7 +18,7 @@
     "codeExamples": [
       {
         "title": "Collatz Conjecture",
-        "description": "My implementation of the collatz conjecture.",
+        "description": "Visualization of the collatz conjecture.",
         "image": "collatz.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/XjLDE7gu6",
