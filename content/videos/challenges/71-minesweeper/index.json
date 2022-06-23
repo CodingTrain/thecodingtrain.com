@@ -77,7 +77,7 @@
           "icon": "🎥",
           "title": "Inheritance with Prototype in JS",
           "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
-          "description": "You should go and watch my videos on ES6 classes instead, but if you choose to be here, I will discuss how inheritance works with prototypes in JS."
+          "description": "You should probably watch my videos on ES6 classes instead, but if you insist on being here, I will discuss how inheritance works with prototypes in JS."
         }
       ]
     }
