@@ -96,26 +96,31 @@
         "title": "References",
         "links": [
           {
+            "icon": "📓",
             "title": "Marching cubes: A high resolution 3D surface construction algorithm",
             "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.132.3930",
             "description": "description of content linked"
           },
           {
+            "icon": "📓",
             "title": "Metaballs and Marching Squares",
             "url": "http://jamie-wong.com/2014/08/19/metaballs-and-marching-squares/",
             "description": "Jamie Wong's discussion of metaballs and marching squares."
           },
           {
+            "icon": "🗄",
             "title": "Marching squares (Wikipedia)",
             "url": "https://en.wikipedia.org/wiki/Marching_squares",
             "description": "Discussion of marching squares."
           },
           {
+            "icon": "💾",
             "title": "OpenSimplexNoise-for-Processing (GitHub Repo)",
             "url": "https://github.com/CodingTrain/OpenSimplexNoise-for-Processing",
             "description": "Library for additional noise algorithms in Processing. "
           },
           {
+            "icon": "💾",
             "title": "Open Simplex Noise in Java",
             "url": "https://gist.github.com/KdotJPG/b1270127455a94ac5d19",
             "description": "Visually isotropic coherent noise algorithm based on the simplectic honeycomb."
@@ -125,32 +130,37 @@
       {
         "title": "Videos",
         "links": [
-            {
+            {  "icon": "🎥",
                 "title": "Coding Adventure: Marching Cubes",
                 "url": "https://youtu.be/M3iI2l0ltbE",
                 "description": "Sebastian Lague tries to understand marching cubes, and then uses it to construct an endless underwater world."
             },
             {
+                "icon": "🎥",
                 "title": "[Unity] Procedural Cave Generation (E02. Marching Squares)",
                 "url": "https://youtu.be/yOgIncKp0BE",
                 "description": "Sabatian Lague explains how to Learn how to create procedurally generated caverns/dungeons using cellular automata and marching squares."
             },
             {
+                "icon": "🎥",
                 "title": "Coding Challenge #28 - Metaballs",
                 "url": "https://www.youtube.com/watch?v=ccYLb7cLB1I",
                 "description": "I show you how to code Metaballs (Isosurfaces) from scratch in Processing "
             },
             {
+                "icon": "🎥",
                 "title": "What is OpenSimplex Noise?",
                 "url": "https://www.youtube.com/watch?v=Lv9gyZZJPE0",
                 "description": "Discussion of open simplex noise in processing."
             },
             {
+                "icon": "🎥",
                 "title": "Coding in the Cabana #4 - Worley Noise",
                 "url": "https://thecodingtrain.com/tracks/coding-in-the-cabana/c4-worley-noise",
                 "description": "An exploration of the beauty of Worley noise."
             },
             {
+              "icon": "🎥",
               "title": "2D Noise - Perlin Noise and p5.js Tutorial",
               "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/perlin-noise-and-p5js-tutorial-intro",
               "description": "I show you what Perlin noise is and how it can be used in creative coding."
