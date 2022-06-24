@@ -93,6 +93,7 @@ const PassengerShowcaseForm = () => {
         );
         if (response.ok) {
           setSubmitted(true);
+          setState(defaultState);
         } else {
           setError(
             'Something went wrong submitting your data. Please try again.'
