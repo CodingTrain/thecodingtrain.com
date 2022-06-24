@@ -1,0 +1,32 @@
+{
+  "title": "Seven-Segment Display",
+  "description": "",
+  "videoNumber": "117",
+  "videoId": "MlRlgbrAVOs",
+  "date": "2018-10-15",
+  "languages": [],
+  "topics": [],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Seven-Segment Display",
+      "description": "Implimentation of a seven-segment display",
+      "image": "seven-segment-display.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O25p3JYxT",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/117_SevenSegmentDisplay/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": []
+    },
+    {
+      "title": "Videos",
+      "links": []
+    }
+  ]
+}
