@@ -1,5 +1,6 @@
 const { Octokit, App } = require('octokit');
 const slugify = require('slugify');
+const btoa = require('btoa');
 
 exports.handler = async function (event) {
   console.log('Handler called with: ', event.body);
