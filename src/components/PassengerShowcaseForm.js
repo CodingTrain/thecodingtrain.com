@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import cn from 'classnames';
 import { useStaticQuery, graphql } from 'gatsby';
+import { object, string } from 'yup';
 import Button from './Button';
 import * as css from './PassengerShowcaseForm.module.css';
 
@@ -25,9 +26,21 @@ const defaultState = {
   authorEmail: ''
 };
 
+const schema = object({
+  challenge: string().required(),
+  title: string().required(),
+  url: string().required().url(),
+  image: string().required(),
+  authorName: string().required().label('Your name'),
+  authorUrl: string().required().label('Your website').url(),
+  authorEmail: string().required().label('Your email')
+});
+
 const PassengerShowcaseForm = () => {
   const ref = useRef();
   const [state, setState] = useState(defaultState);
+  const [error, setError] = useState(null);
+  const [submitted, setSubmitted] = useState(false);
 
   const data = useStaticQuery(graphql`
     query {
@@ -42,27 +55,57 @@ const PassengerShowcaseForm = () => {
   `);
 
   const onChange = (e) => {
+    setError(null);
     setState(Object.assign({}, state, { [e.target.name]: e.target.value }));
   };
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
 
-    // TODO: Check that everything has been filled out
+    // Check that everything has been filled out
+    try {
+      await schema.validate(state, { strict: true });
+    } catch (e) {
+      setError(e.toString().replace('ValidationError: ', ''));
+      return;
+    }
 
-    // read the file into a base64 blob
+    // Read the file into a base64 blob
     const file = ref.current.files[0];
     const reader = new FileReader();
     reader.readAsDataURL(file);
-    reader.onload = function () {
+    reader.onload = async () => {
       const base64 = reader.result.replace('data:image/png;base64,', '');
       const submitState = Object.assign({}, state, {
         image: base64
       });
-      console.log('SUBMIT!', submitState);
+      try {
+        const response = await fetch(
+          '/.netlify/functions/submission-background',
+          {
+            method: 'POST',
+            mode: 'cors',
+            cache: 'no-cache',
+            credentials: 'same-origin',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(submitState)
+          }
+        );
+        if (response.ok) {
+          setSubmitted(true);
+        } else {
+          setError(
+            'Something went wrong submitting your data. Please try again.'
+          );
+        }
+      } catch (e) {
+        setError(
+          'Something went wrong submitting your data. Please try again.'
+        );
+      }
     };
     reader.onerror = function (error) {
-      // TODO: ERROR
+      setError('Something went wrong parsing your image.');
     };
   };
 
@@ -72,6 +115,7 @@ const PassengerShowcaseForm = () => {
         <label>
           Challenge
           <select name="challenge" value={state.challenge} onChange={onChange}>
+            <option value="">Select a challenge</option>
             {data.challenges.nodes.map((node) => {
               let label = `#${node.videoNumber} ${node.title}`;
               if (label.length > 50) {
@@ -157,14 +201,20 @@ const PassengerShowcaseForm = () => {
         <label>
           Your e-mail
           <input
-            type="text"
+            type="email"
             name="authorEmail"
             value={state.authorEmail}
             onChange={onChange}
           />
           <span>Your email address.</span>
         </label>
-        <Button onClick={onSubmit} variant="purple">
+        {error && <div className={css.error}>{error}</div>}
+        {submitted && (
+          <div className={css.submitted}>
+            Thank you for submitting to the Passenger Showcase!
+          </div>
+        )}
+        <Button onClick={onSubmit} variant="purple" disabled={submitted}>
           Submit
         </Button>
       </form>

@@ -47,7 +47,8 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
     "react-youtube": "^7.13.1",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "glob": "^8.0.3",

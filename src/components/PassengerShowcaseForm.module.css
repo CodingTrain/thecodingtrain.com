@@ -20,6 +20,7 @@
 
 .form input[type="text"],
 .form input[type="file"],
+.form input[type="email"],
 .form select {
   display: block;
   margin-top: var(--spacing-xsmall);
@@ -27,4 +28,18 @@
   min-width: 500px;
   border: 1px solid black;
   padding: var(--spacing-small);
+}
+
+.error,
+.submitted {
+  max-width: 500px;
+  background-color: var(--red-light);
+  padding: 10px 20px;
+  margin-bottom: var(--spacing-normal);
+  color: var(--red);
+}
+
+.submitted {
+  background-color: var(--purple-light);
+  color: var(--purple);
 }
