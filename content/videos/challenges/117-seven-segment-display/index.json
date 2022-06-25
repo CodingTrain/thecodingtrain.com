@@ -1,11 +1,11 @@
 {
   "title": "Seven-Segment Display",
-  "description": "",
+  "description": "In this coding challenge, I create a Seven-Segment Display with the p5.js library.",
   "videoNumber": "117",
   "videoId": "MlRlgbrAVOs",
   "date": "2018-10-15",
-  "languages": [],
-  "topics": [],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["Bitwise Operations", "Bitwise AND"],
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
@@ -22,11 +22,24 @@
   "groupLinks": [
     {
       "title": "References",
-      "links": []
+      "links": [
+        {
+          "icon": "📑",
+          "title": "Seven-segment display on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seven-segment_display",
+          "description": "Wikipedia article on seven-segment display"
+        }
+      ]
     },
     {
       "title": "Videos",
-      "links": []
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "What's The Longest Word You Can Write With Seven-Segment Displays?",
+          "url": "Tom Scott's video on Seven-Segment Displays"
+        }
+      ]
     }
   ]
 }
