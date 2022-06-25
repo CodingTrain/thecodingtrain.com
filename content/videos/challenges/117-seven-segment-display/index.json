@@ -7,7 +7,26 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Bitwise Operations", "Bitwise AND"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "1:53", "title": "Let's talk about the seven segments" },
+    { "time": "2:49", "title": "Let's start coding!" },
+    {
+      "time": "8:02",
+      "title": "Explaining the idea of bit shifting and bitwise AND operation"
+    },
+    {
+      "time": "10:36",
+      "title": "Implementing the hexadecimal encodings for the display"
+    },
+    {
+      "time": "12:44",
+      "title": "Making a function to get the correct color value for a segment"
+    },
+    { "time": "15:21", "title": "Displaying all the numbers one by one" },
+    { "time": "16:45", "title": "Seven-Segment Display!" },
+    { "time": "17:44", "title": "Thank you for watching!" }
+  ],
   "codeExamples": [
     {
       "title": "Seven-Segment Display",
@@ -37,7 +56,8 @@
         {
           "icon": "🎥",
           "title": "What's The Longest Word You Can Write With Seven-Segment Displays?",
-          "url": "Tom Scott's video on Seven-Segment Displays"
+          "url": "https://www.youtube.com/watch?v=zp4BMR88260",
+          "description": "Tom Scott's video on Seven-Segment Displays"
         }
       ]
     }
