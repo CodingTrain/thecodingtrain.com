@@ -2,19 +2,20 @@ const { Octokit, App } = require('octokit');
 const slugify = require('slugify');
 const btoa = require('btoa');
 
+// event.body expected to be:
+// {
+//   title: "Something",
+//   image: "base64string="
+//   imageExt: "png",
+//   authorName: "Rune Madsen",
+//   authorUrl: "https://runemadsen.com",
+//   authorEmail: "rune@runemadsen.com",
+//   url: "https://runemadsen.github.io/rune.js/",
+//   challenge: "01-test",
+// }
+
 exports.handler = async function (event) {
   console.log('Handler called with: ', event.body);
-
-  // event.body expected to be:
-  // {
-  //   title: "Something",
-  //   image: "base64string="
-  //   authorName: "Rune Madsen",
-  //   authorUrl: "https://runemadsen.com",
-  //   authorEmail: "rune@runemadsen.com",
-  //   url: "https://runemadsen.github.io/rune.js/",
-  //   challenge: "01-test",
-  // }
 
   // Shared properties
   const postInfo = JSON.parse(event.body);
@@ -23,7 +24,7 @@ exports.handler = async function (event) {
   const repo = 'thecodingtrain.com';
   const showcasePath = `content/videos/challenges/${postInfo.challenge}/showcase`;
   const jsonPath = `${showcasePath}/contribution-${unix}.json`;
-  const imagePath = `${showcasePath}/contribution-${unix}.png`;
+  const imagePath = `${showcasePath}/contribution-${unix}.${postInfo.imageExt}`;
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
   // Get the SHA of the main branch
@@ -76,7 +77,7 @@ exports.handler = async function (event) {
     `PUT /repos/${owner}/${repo}/contents/${imagePath}`,
     {
       branch: branchName,
-      message: 'Added contribution PNG file',
+      message: 'Added contribution image file',
       committer: {
         name: postInfo.authorName,
         email: postInfo.authorEmail

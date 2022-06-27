@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import cn from 'classnames';
 import { useStaticQuery, graphql } from 'gatsby';
 import { object, string } from 'yup';
 import Button from './Button';
@@ -75,10 +74,17 @@ const PassengerShowcaseForm = () => {
     const reader = new FileReader();
     reader.readAsDataURL(file);
     reader.onload = async () => {
-      const base64 = reader.result.replace('data:image/png;base64,', '');
+      const base64 = reader.result
+        .replace('data:image/png;base64,', '')
+        .replace('data:image/jpeg;base64,', '');
+
+      const imageSplit = state.image.split('.');
+
       const submitState = Object.assign({}, state, {
-        image: base64
+        image: base64,
+        imageExt: imageSplit[imageSplit.length - 1]
       });
+
       try {
         const response = await fetch(
           '/.netlify/functions/submission-background',
