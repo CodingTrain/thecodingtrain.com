@@ -1,0 +1,65 @@
+{
+  "title": "Seven-Segment Display",
+  "description": "In this coding challenge, I create a Seven-Segment Display with the p5.js library.",
+  "videoNumber": "117",
+  "videoId": "MlRlgbrAVOs",
+  "date": "2018-10-15",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["Bitwise Operations", "Bitwise AND"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "1:53", "title": "Let's talk about the seven segments" },
+    { "time": "2:49", "title": "Let's start coding!" },
+    {
+      "time": "8:02",
+      "title": "Explaining the idea of bit shifting and bitwise AND operation"
+    },
+    {
+      "time": "10:36",
+      "title": "Implementing the hexadecimal encodings for the display"
+    },
+    {
+      "time": "12:44",
+      "title": "Making a function to get the correct color value for a segment"
+    },
+    { "time": "15:21", "title": "Displaying all the numbers one by one" },
+    { "time": "16:45", "title": "Seven-Segment Display!" },
+    { "time": "17:44", "title": "Thank you for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Seven-Segment Display",
+      "description": "Implimentation of a seven-segment display",
+      "image": "seven-segment-display.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O25p3JYxT",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/117_SevenSegmentDisplay/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📑",
+          "title": "Seven-segment display on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seven-segment_display",
+          "description": "Wikipedia article on seven-segment display"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "What's The Longest Word You Can Write With Seven-Segment Displays?",
+          "url": "https://www.youtube.com/watch?v=zp4BMR88260",
+          "description": "Tom Scott's video on Seven-Segment Displays"
+        }
+      ]
+    }
+  ]
+}
