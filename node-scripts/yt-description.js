@@ -277,14 +277,16 @@ This description was auto-generated. If you see a problem, please open an issue:
     fs.writeFileSync(`_descriptions/${filename}.txt`, description);
   }
 }
-
-// (() => {
-console.log('💫 Generating YouTube Descriptions 💫');
-
 // know about tracks beforehand
 const mainTracks = parseTracks('content/tracks/main-tracks');
 const sideTracks = parseTracks('content/tracks/side-tracks');
 const allTracks = [...mainTracks, ...sideTracks];
 
-writeDescriptions(getVideoData());
-// })();
+(() => {
+  console.log('💫 Generating YouTube Descriptions 💫');
+
+  const args = process.argv.slice(2);
+  const filename = args[0];
+
+  writeDescriptions(getVideoData());
+})();
