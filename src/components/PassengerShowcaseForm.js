@@ -69,8 +69,19 @@ const PassengerShowcaseForm = () => {
       return;
     }
 
-    // Read the file into a base64 blob
+    // Handle the uploaded image
     const file = ref.current.files[0];
+
+    // Check that the image is not over 500kb
+    const fileKb = file.size / 1000;
+    if (fileKb > 500) {
+      setError(
+        'The uploaded image is larger than 500kb. Please upload a JPG or PNG that is maximum 800 pixels wide and 500kb in size.'
+      );
+      return;
+    }
+
+    // Read the file into a base64 blob
     const reader = new FileReader();
     reader.readAsDataURL(file);
     reader.onload = async () => {
@@ -218,7 +229,8 @@ const PassengerShowcaseForm = () => {
         {error && <div className={css.error}>{error}</div>}
         {submitted && (
           <div className={css.submitted}>
-            Thank you for submitting to the Passenger Showcase!
+            Thank you for submitting to the Passenger Showcase! Please refresh
+            the page in order to upload another submission.
           </div>
         )}
         <Button onClick={onSubmit} variant="purple" disabled={submitted}>
