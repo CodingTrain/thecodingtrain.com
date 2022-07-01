@@ -30,11 +30,13 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🗄",
                     "title": "Wikipedia on Mandelbrot Set",
                     "url": "https://en.wikipedia.org/wiki/Mandelbrot_set",
                     "description": "Discussion of the mandelbrot set."
                 },
                 {
+                    "icon": "💾",
                     "title": "Mandelbrot Set Explorer",
                     "url": "https://meiamso.me/old/mandelbrot/mandelbrot.php",
                     "description": "Mandelbrot set explorer."
