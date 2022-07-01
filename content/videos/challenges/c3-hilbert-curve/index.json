@@ -1,0 +1,60 @@
+{
+  "title": "Hilbert Curve",
+  "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I animate the path of the classic \u201cspace filling curve\u201d known as the Hilbert Curve.",
+  "videoNumber": "3 - Coding in the Cabana",
+  "videoId": "dSK-MW-zuAc",
+  "date": "2020-02-08",
+  "languages": ["processing"],
+  "topics": ["hilbert curve", "iterative algorithm", "space-filling"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:58", "title": "The Hilbert Curve" },
+    { "time": "7:03", "title": "Hilbert Curve: First Iteration" },
+    { "time": "11:38", "title": "Adding Higher Orders" },
+    { "time": "23:04", "title": "Filling Space" },
+    { "time": "24:55", "title": "Adding Color" },
+    { "time": "24:55", "title": "Conclusions and Ideas" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Hillbert Curve",
+      "description": "Visualization of the Hillbert Curve in processing.",
+      "image": "hilbert.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/LPf9PLmp",
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/003_Hilbert_Curve/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Hilbert Curve Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hilbert_curve",
+          "description": "Article on the Hilbert curve."
+        },
+        {
+          "icon": "🔁",  
+          "title": "Iterative algorithm for drawing Hilbert curve by Marcin Chwedczuk",
+          "url": "https://marcin-chwedczuk.github.io/iterative-algorithm-for-drawing-hilbert-curve",
+          "description": "Discussion of iterative algorithm for drawing Hilbert curve."
+        }
+      ]
+    },
+    {
+      "icon": "🎥",
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Hilbert's Curve: Is infinite math useful?",
+          "url": "https://www.youtube.com/watch?v=3s7h2MHQtxc",
+          "description": "#Blue1Brown discussion of Hilbert Curve."
+        }
+      ]
+    }
+  ]
+}

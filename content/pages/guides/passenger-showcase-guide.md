@@ -4,13 +4,19 @@ description: 'Guide to sharing your work with the community!'
 date: '05/04/2022'
 ---
 
-Thank you for sharing your work in the Passenger Showcase! In the future, we plan to have a form to make the submission process easier, but for now, please follow the instructions below to create a pull request for your project! If you have questions or need any help, come board the [Coding Train Discord](https://discord.gg/6DScedrtvH) or write to help@thecodingtrain.com.
+import PassengerShowcaseForm from '../../../src/components/PassengerShowcaseForm';
 
-This guide is in progress, and will be updated as the showcase submission process changes.
+## Submission Form
 
-## Finding the Video
+Thank you for sharing your work in the Passenger Showcase! There are currently two ways to submit your work: by using this form to upload your work, or to follow the instructions below to create a Pull Request for your project on GitHub!
 
-All submissions have to be associated with a specific video. Don't worry too much if you aren't sure, just pick wherever you think it fits best! If your work relates to multiple videos just pick one!
+<PassengerShowcaseForm />
+
+If you have questions or need any help, come board the [Coding Train Discord](https://discord.gg/6DScedrtvH) or write to help@thecodingtrain.com. This guide is in progress, and will be updated as the showcase submission process changes.
+
+## Finding the Video on GitHub
+
+If you choose not to use the form above, you can also submit a Pull Request on GitHub. The first step is to associate your submission with a specific video. Don't worry too much if you aren't sure, just pick wherever you think it fits best! If your work relates to multiple videos just pick one!
 
 On the [GitHub repo homepage](https://github.com/CodingTrain/thecodingtrain.com), click the button in the upper left-hand corner where it says `main`. Type in the name of a branch (you can make this up!) and create the branch! In the example below I'm calling it `dan-showcase-submission`.
 
