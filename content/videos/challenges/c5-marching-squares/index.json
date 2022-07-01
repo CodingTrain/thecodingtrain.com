@@ -49,7 +49,7 @@
       {
         "title": "Webcam",
         "description": "Visualization of marching squares with a webcam.",
-        "image": "image2.png",
+        "image": "webcam.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/0XAj0DRD2",
           "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_webcam"
@@ -99,7 +99,7 @@
             "icon": "📓",
             "title": "Marching cubes: A high resolution 3D surface construction algorithm",
             "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.132.3930",
-            "description": "description of content linked"
+            "description": "Paper about a 3D surface construction algorithm"
           },
           {
             "icon": "📓",
@@ -157,7 +157,7 @@
             {
                 "icon": "🎥",
                 "title": "Coding in the Cabana #4 - Worley Noise",
-                "url": "https://thecodingtrain.com/tracks/coding-in-the-cabana/c4-worley-noise",
+                "url": "https://thecodingtrain.com/challenges/c4-worley-noise",
                 "description": "An exploration of the beauty of Worley noise."
             },
             {
