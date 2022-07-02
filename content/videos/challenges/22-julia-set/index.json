@@ -1,0 +1,54 @@
+{
+    "title": "Julia Set in Processing",
+    "description": "In this coding challenge, I program from the Julia Set fractal in Processing (Java).",
+    "videoNumber": "22",
+    "videoId": "fAsaSkmbF5s",
+    "date": "2016-06-16",
+    "languages": ["processing"],
+    "topics": [
+        "julia set",
+        "fractal",
+        "complex number"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Julia Set",
+            "description": "my implementation of the julia set in processing.",
+            "image": "julia.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/G6qbMmaI",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/CodingChallenges/022_JuliaSet/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Wikipedia on Julia Set",
+                    "url": "https://en.wikipedia.org/wiki/Julia_set",
+                    "description": "Discussion of julia set."
+                },
+                {
+                    "title": "Julia Set page",
+                    "url": "http://paulbourke.net/fractals/juliaset/",
+                    "description": "Discussion of julia set."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge: Mandelbrot Set",
+                    "url": "/challenge/021-mandelbrot-p5",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
