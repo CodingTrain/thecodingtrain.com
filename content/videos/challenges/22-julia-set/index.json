@@ -17,7 +17,7 @@
     "codeExamples": [
         {
             "title": "Julia Set",
-            "description": "my implementation of the julia set in processing.",
+            "description": "My visualization of the julia set in processing.",
             "image": "julia.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/G6qbMmaI",
