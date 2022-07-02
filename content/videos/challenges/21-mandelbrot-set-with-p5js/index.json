@@ -1,0 +1,47 @@
+{
+    "title": "Mandelbrot Set with p5.js",
+    "description": "In this coding challenge, I program from scratch the Mandelbrot set with p5.js",
+    "videoNumber": "21",
+    "videoId": "6z7GQewK-Ks",
+    "date": "2016-06-13",
+    "languages": ["p5.js"],
+    "topics": [
+        "mandelbrot",
+        "fractal",
+        "complex number",
+        "imaginary number"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Mandelbrot Set",
+            "description": "This sketch visualizes the Mandelbrot set.",
+            "image": "mandelbrot.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/KsV1wWLqd",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/021_Mandelbrot/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗄",
+                    "title": "Wikipedia on Mandelbrot Set",
+                    "url": "https://en.wikipedia.org/wiki/Mandelbrot_set",
+                    "description": "Discussion of the mandelbrot set."
+                },
+                {
+                    "icon": "💾",
+                    "title": "Mandelbrot Set Explorer",
+                    "url": "https://meiamso.me/old/mandelbrot/mandelbrot.php",
+                    "description": "Mandelbrot set explorer."
+                }
+            ]
+        }
+    ]
+}
