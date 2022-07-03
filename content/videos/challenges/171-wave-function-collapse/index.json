@@ -8,7 +8,7 @@
   "topics": ["wave function collapse", "generative art"],
   "canContribute": true,
   "timestamps": [
-    { "time": "0:00", "title": "Wave Function Collapse!" },
+    { "time": "0:00", "title": "Day 1! Wave Function Collapse!" },
     { "time": "2:00", "title": "Entropy in Sudoku." },
     { "time": "5:41", "title": "Comparing Sudoku to WFC" },
     { "time": "9:24", "title": "Starting to code." },
@@ -17,11 +17,12 @@
     { "time": "18:47", "title": "Updating entropy after collapse." },
     { "time": "22:45", "title": "Data structure for rules." },
     { "time": "24:50", "title": "Implementing rules for next collapse." },
-    { "time": "36:28", "title": "Explaining the rules" },
+    { "time": "36:28", "title": "Explaining the rules." },
+    { "time": "38:45", "title": "Day 2! Refactoring the code."}
     { "time": "39:26", "title": "Create a Tile class" },
     { "time": "44:57", "title": "Generate the rules from Tile objects." },
     { "time": "55:40", "title": "Using new circuit board tileset." },
-    { "time": "1:00:40", "title": "Day 2! Dealing with asymmetrical tiles" },
+    { "time": "1:00:40", "title": "Day 3! Dealing with asymmetrical tiles" },
     { "time": "1:01:56", "title": "Assigning index values to edges." },
     { "time": "1:06:53", "title": "Incorporating edges into code." },
     { "time": "1:10:05", "title": "Change adjacency for assymetry" },
@@ -75,6 +76,24 @@
           "title": "Array.prototype.filter()",
           "url:": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
           "description": "Mozilla developer reference page for higher order array function: filter()."
+        },
+        {
+          "icon": "🐞",
+          "title": "Encoding tiles symmetry and rotation #14",
+          "url:": "https://github.com/CodingTrain/Wave-Function-Collapse/issues/14",
+          "description": "Garazbolg's GitHub issue describing a solution for assymmetric tiles."
+        },
+        {
+          "icon": "🐞",
+          "title": "The issue with asymmetric tiles and an easy solution #16",
+          "url:": "https://github.com/CodingTrain/Wave-Function-Collapse/issues/16",
+          "description": "Telemako's GitHub issue describing a solution for assymmetric tiles."
+        },
+        {
+          "icon": "🗄",
+          "title": "Array.prototype.reverse()",
+          "url:": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+          "description": "Mozilla developer reference page for the array reverse() function."
         }
       ]
     },
@@ -104,6 +123,24 @@
           "title": "Zelda WFC",
           "url": "https://observablehq.com/@makio135/zelda-wfc",
           "description": "Playing with Wave Function Collapse by generating variations of Zelda maps."
+        },
+        {
+          "icon": "🎨",
+          "title": "Wave Function Collapse Demonstration",
+          "url": "https://oskarstalberg.com/game/wave/wave.html",
+          "description": "Created by Oskar Stålberg in unity, an interactive demonstration of the WFC algorithm."
+        },
+        {
+          "icon": "🎨",
+          "title": "Infinite procedurally generated city",
+          "url": "https://marian42.de/article/wfc/",
+          "description": "A game where you walk through an infinite city that is procedurally generated from a set of blocks with the Wave Function Collapse algorithm."
+        },
+        {
+          "icon": "🎨",
+          "title": "Generating stairy scenes",
+          "url": "https://twitter.com/exutumno/status/895683455299723265?lang=eu",
+          "description": "Tweet from exutumno generating scenes with full 3d local symmetry. Only 5 tiles used: Empty, Line, Turn, X, Stairs."
         }
       ]
     },
