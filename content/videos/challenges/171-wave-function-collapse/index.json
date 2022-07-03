@@ -7,7 +7,28 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "generative art"],
   "canContribute": true,
-  "timestamps": [{ "time": "0:00", "title": "Wave Function Collapse" }],
+  "timestamps": [{ "time": "0:00", "title": "Wave Function Collapse" },
+    { "time": "0:00", "title": "Wave Function Collapse" },
+    { "time": "2:00", "title": "Entropy in sudoku" },
+    { "time": "5:41", "title": "Mapping sudoku to WFC" },
+    { "time": "9:24", "title": "Starting the code" },
+    { "time": "11:05", "title": "Manual collapsing" },
+    { "time": "13:30", "title": "Collapse least entropic cell" },
+    { "time": "18:47", "title": "Update entropy after collapse" },
+    { "time": "22:45", "title": "Setting up neighbor rules" },
+    { "time": "24:50", "title": "Implementing rules for next collapse" },
+    { "time": "36:28", "title": "Explain neighbor rules" },
+    { "time": "39:26", "title": "Redefine tiles as a class" },
+    { "time": "44:57", "title": "Generate rules from tiles" },
+    { "time": "55:40", "title": "Using new circuit board tileset" },
+    { "time": "1:00:40", "title": "Day 2: assymetrical tiles" },
+    { "time": "1:01:56", "title": "Redifining value for edges" },
+    { "time": "1:06:53", "title": "Adding edges to code" },
+    { "time": "1:10:05", "title": "Change adjacency for assymetry" },
+    { "time": "1:12:06", "title": "First assymetric WFC image" },
+    { "time": "1:12:40", "title": "Restart if no valid cell found" },
+    { "time": "1:15:48", "title": "Suggestions for future continuations" },
+    { "time": "1:18:05", "title": "Outro" }],
   "codeExamples": [
     {
       "title": "Wave Function Collapse",
@@ -30,6 +51,18 @@
     {
       "title": "References",
       "links": [
+        {
+          "icon": "🗄",
+          "title": "Game Show Problem",
+          "url": "https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/",
+          "description": "Ask Marilyn column on the Problem published in Parade Magazine in 1990"
+        },
+        {
+          "icon": "🗄",
+          "title": "Original Github WFC",
+          "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+          "description": "The original repository for the wave function collapse algorythm"
+        },
         {
           "icon": "🗄",
           "title": "Game Show Problem",
@@ -70,6 +103,18 @@
           "title": "Transformations in p5.js",
           "url": "https://youtu.be/o9sgjuh-CBM",
           "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        },
+        {
+          "icon": "🎥",
+          "title": "Transformations in p5.js",
+          "url": "https://youtu.be/o9sgjuh-CBM",
+          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        },
+        {
+          "icon": "🎥",
+          "title": "Oskar Stalberg - Wave Function Collapse in Bad North",
+          "url": "https://youtu.be/0bcZb-SsnrA",
+          "description": "Video about wave function collapse in procedural game creation"
         }
       ]
     }
