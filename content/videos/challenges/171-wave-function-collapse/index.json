@@ -53,16 +53,22 @@
       "title": "References",
       "links": [
         {
-          "icon": "🗄",
-          "title": "Original Github WFC",
-          "url": "https://github.com/mxgmn/WaveFunctionCollapse",
-          "description": "The original repository for the wave function collapse algorithm"
+          "icon": "💡",
+          "title": "WFC Challenge Suggestion",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/287",
+          "description": "First issue in Coding Train Suggestion box about WFC."
         },
         {
           "icon": "🗄",
-          "title": "WFC in Processing",
+          "title": "Wave Function Collapse Algorithm",
+          "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+          "description": "The original GitHub repository from mxgmn for the Wave Function Collapse algorithm."
+        },
+        {
+          "icon": "📣",
+          "title": "​Wave Collapse Function algorithm in Processing",
           "url": "https://discourse.processing.org/t/wave-collapse-function-algorithm-in-processing/12983",
-          "description": "Wave function collapse post on Processing Forum"
+          "description": "Processing Forum post by solub with guide to Wave Function Collapse in Python."
         }
       ]
     },
