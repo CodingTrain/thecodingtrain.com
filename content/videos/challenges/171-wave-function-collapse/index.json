@@ -1,0 +1,77 @@
+{
+  "title": "Wave Function Collapse",
+  "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images. In this video (recorded over 3 live streams) I attempt the tiled model and explore a variety of solutions to the algorithm in JavaScript with p5.js.",
+  "videoNumber": "171",
+  "videoId": "rI_y2GAlQFM",
+  "date": "2022-07-03",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["wave function collapse", "generative art"],
+  "canContribute": true,
+  "timestamps": [{ "time": "0:00", "title": "Wave Function Collapse" }],
+  "codeExamples": [
+    {
+      "title": "Wave Function Collapse",
+      "description": "WFC PCB board generation pattern.",
+      "image": "wfc.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_kbz6Xq7l"
+      }
+    },
+    {
+      "title": "Wave Function Collapse - Expanded",
+      "description": "GitHub repo for expanded and corrected WFC PCB board example.",
+      "image": "wfc.jpg",
+      "urls": {
+        "p5": "https://github.com/CodingTrain/Wave-Function-Collapse"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Game Show Problem",
+          "url": "https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/",
+          "description": "Ask Marilyn column on the Problem published in Parade Magazine in 1990"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Solving Wordle",
+          "url": "https://youtu.be/v68zYyaEmEA",
+          "description": "3Blue1Brown video with more detailed context about entropy and information theory."
+        },
+        {
+          "icon": "🎥",
+          "title": "Pixel Array",
+          "url": "https://youtu.be/nMUMZ5YRxHI",
+          "description": "Coding Train video with explanation of tracking 2D grid in 1D array (for pixels)."
+        },
+        {
+          "icon": "🎥",
+          "title": "Arrow Function",
+          "url": "https://youtu.be/mrYMzpbFz18",
+          "description": "Coding Train video covering JavaScript arrow (=>) function."
+        },
+        {
+          "icon": "🎥",
+          "title": "Higher Order Array Functions",
+          "url": "https://youtu.be/H4awPsyugS0",
+          "description": "Coding Train video covering how to use higher order array functions like filter() and map() in JavaScript."
+        },
+        {
+          "icon": "🎥",
+          "title": "Transformations in p5.js",
+          "url": "https://youtu.be/o9sgjuh-CBM",
+          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        }
+      ]
+    }
+  ]
+}
