@@ -69,6 +69,64 @@
           "title": "​Wave Collapse Function algorithm in Processing",
           "url": "https://discourse.processing.org/t/wave-collapse-function-algorithm-in-processing/12983",
           "description": "Processing Forum post by solub with guide to Wave Function Collapse in Python."
+        },
+        {
+          "icon": "🗄",
+          "title": "Array.prototype.filter()",
+          "url:": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+          "description": "Mozilla developer reference page for higher order array function: filter()."
+        }
+      ]
+    },
+    {
+      "title": "Creative Works Featured",
+      "links": [
+        {
+          "icon": "🎨",
+          "title": "Oisín: Wave Function Collapse for poetry",
+          "url": "https://github.com/mewo2/oisin",
+          "description": "Code that mashes up sentence fragments from a given corpus to produce poems with fixed metric forms."
+        },
+        {
+          "icon": "🎨",
+          "title": "Townscaper",
+          "url": "https://www.townscapergame.com/",
+          "description": "Created by Oskar Stålberg, 3D WFC system that creates cute little houses, arches, stairways, bridges and lush backyards."
+        },
+        {
+          "icon": "🎨",
+          "title": "unity-wave-function-collapse",
+          "url": "https://selfsame.itch.io/unitywfc",
+          "description": "A fork of Wave Function Collapse with tools for the Unity Game engine by @ExUtumno."
+        },
+        {
+          "icon": "🎨",
+          "title": "Zelda WFC",
+          "url": "https://observablehq.com/@makio135/zelda-wfc",
+          "description": "Playing with Wave Function Collapse by generating variations of Zelda maps."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Day 1",
+          "url": "https://youtu.be/6Vag7NJUjJo",
+          "description": "Wave Function Collapse Live Stream #1"
+        },
+        {
+          "icon": "🔴",
+          "title": "Day 2",
+          "url": "https://youtu.be/FGmB5ZHhhiA",
+          "description": "Wave Function Collapse Live Stream #2"
+        },
+        {
+          "icon": "🔴",
+          "title": "Day 3",
+          "url": "https://youtu.be/QvoTSl60Y88",
+          "description": "Wave Function Collapse Live Stream #3"
         }
       ]
     },
