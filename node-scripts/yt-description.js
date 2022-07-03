@@ -153,21 +153,39 @@ function writeDescription(video) {
 
   description += '\n';
 
+  // Code Examples:
+
+  // Github Repo Link
+  const repoLink = data.codeExamples
+    ?.map((ex) => Object.values(ex.urls))
+    .flat()
+    .find(
+      (url) =>
+        url.startsWith('https://github.com/CodingTrain') &&
+        !url.slice(31).includes('/')
+    );
+  if (repoLink) {
+    description += `\n💻 Github Repo: ${repoLink}`;
+  }
+
   // Web Editor Links
   const sketchUrls = data.codeExamples?.filter(
     (ex) => ex.urls.p5 && ex.urls.p5.includes('editor.p5js.org')
   );
   if (sketchUrls && sketchUrls.length > 0) {
     if (sketchUrls.length > 1) {
-      description += '\np5.js Web Editor Sketches:\n';
+      if (repoLink) description += '\n';
+      description += '\np5.js Web Editor Sketches:';
       for (const sketch of sketchUrls) {
-        description += `🕹️ ${sketch.title}: ${sketch.urls.p5}\n`;
+        description += `\n🕹️ ${sketch.title}: ${sketch.urls.p5}`;
       }
     } else {
-      description += `\n🕹️ p5.js Web Editor Sketch: ${sketchUrls[0].urls.p5}\n`;
+      description += `\n🕹️ p5.js Web Editor Sketch: ${sketchUrls[0].urls.p5}`;
     }
   }
+  if (repoLink || sketchUrls?.length > 0) description += '\n';
 
+  // Previous Video / Next Video / All Videos
   if (video.pageURL.startsWith('challenges/')) {
     const i = +video.data.videoNumber;
     const previousVideo = videos.find((vid) => vid.data.videoNumber == i - 1);
