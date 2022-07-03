@@ -1,0 +1,45 @@
+{
+  "title": "Wave Function Collapse",
+  "description": "",
+  "videoNumber": "171",
+  "videoId": "rI_y2GAlQFM",
+  "date": "2022-07-03",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": [""],
+  "canContribute": true,
+  "timestamps": [{ "time": "0:00", "title": "Wave Function Collapse" }],
+  "codeExamples": [
+    {
+      "title": "Monty Hall",
+      "description": "Three-door demonstration of the Monty Hall Problem with gameplay statistics",
+      "image": "montyhall.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Game Show Problem",
+          "url": "https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/",
+          "description": "Ask Marilyn column on the Problem published in Parade Magazine in 1990"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "The Basics of CSS",
+          "url": "https://www.youtube.com/watch?v=zGL8q8iQSQw",
+          "description": "p5.js tutorial on basic CSS and the p5 style() function"
+        }
+      ]
+    }
+  ]
+}
