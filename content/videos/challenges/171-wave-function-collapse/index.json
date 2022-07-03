@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "generative art"],
   "canContribute": true,
-  "timestamps": [{ "time": "0:00", "title": "Wave Function Collapse" },
+  "timestamps": [
     { "time": "0:00", "title": "Wave Function Collapse" },
     { "time": "2:00", "title": "Entropy in sudoku" },
     { "time": "5:41", "title": "Mapping sudoku to WFC" },
