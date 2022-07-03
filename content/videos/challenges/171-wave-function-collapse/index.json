@@ -43,10 +43,34 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "The Basics of CSS",
-          "url": "https://www.youtube.com/watch?v=zGL8q8iQSQw",
-          "description": "p5.js tutorial on basic CSS and the p5 style() function"
-        }s
+          "title": "Solving Wordle",
+          "url": "https://youtu.be/v68zYyaEmEA",
+          "description": "3Blue1Brown video with more detailed context about entropy and information theory."
+        },
+        {
+          "icon": "🎥",
+          "title": "Pixel Array",
+          "url": "https://youtu.be/nMUMZ5YRxHI",
+          "description": "Coding Train video with explanation of tracking 2D grid in 1D array (for pixels)."
+        },
+        {
+          "icon": "🎥",
+          "title": "Arrow Function",
+          "url": "https://youtu.be/mrYMzpbFz18",
+          "description": "Coding Train video covering JavaScript arrow (=>) function."
+        },
+        {
+          "icon": "🎥",
+          "title": "Higher Order Array Functions",
+          "url": "https://youtu.be/H4awPsyugS0",
+          "description": "Coding Train video covering how to use higher order array functions like filter() and map() in JavaScript."
+        },
+        {
+          "icon": "🎥",
+          "title": "Transformations in p5.js",
+          "url": "https://youtu.be/o9sgjuh-CBM",
+          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        }
       ]
     }
   ]
