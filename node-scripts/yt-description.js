@@ -149,7 +149,7 @@ function writeDescription(video) {
 
   // Description
   description += `${data.description.trim()}`;
-  description += `\n💻 Video Webpage: https://thecodingtrain.com/${pageURL}`;
+  description += ` https://thecodingtrain.com/${pageURL}`;
 
   description += '\n';
 
@@ -257,6 +257,10 @@ function writeDescription(video) {
 
   // General Links
   description += `
+Editing by Mathieu Blanchette
+Animations by Jason Heglund
+Music from Epidemic Sound
+
 🚂 Website: http://thecodingtrain.com/
 👾 Share Your Creation! https://thecodingtrain.com/guides/passenger-showcase-guide
 🚩 Suggest Topics: https://github.com/CodingTrain/Suggestion-Box
