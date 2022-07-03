@@ -55,13 +55,13 @@
     "noEventsDescription": "Keep your eye out for events in the future!",
     "upcoming": [
       {
-        "title": "PCD Copenhagen",
-        "description": "Processing Community Day Copenhagen is a free, one-day event to celebrate the intersection of art and code.",
-        "date": "2022-06-14",
-        "time": "16:00 GMT+2",
-        "host": "PCD Copenhagen",
-        "type": "IRL",
-        "url": "https://pcdcph.com/"
+        "title": "Wave Function Collapse Video Premiere!",
+        "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images.",
+        "date": "2022-07-03",
+        "time": "12:00PM GMT-5",
+        "host": "YouTube",
+        "type": "Premiere with live chat",
+        "url": "https://youtu.be/rI_y2GAlQFM"
       }
     ]
   },
