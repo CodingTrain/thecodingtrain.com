@@ -1,0 +1,11 @@
+{
+    "title": "Coding In The Cabana",
+    "description": "The sun out is, the birds are chirping, itU+0027s a beautiful day to code a generative algorithm. Choo choo!",
+    "videos": [
+      "challenges/c1-mauer-rose",
+      "challenges/c2-collatz-conjecture",
+      "challenges/c3-hilbert-curve",
+      "challenges/c4-worley-noise",
+      "challenges/c5-marching-squares"
+    ]
+}
