@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "generative art"],
   "canContribute": true,
-  "timestamps": [{ "time": "0:00", "title": "Wave Function Collapse" },
+  "timestamps": [
     { "time": "0:00", "title": "Wave Function Collapse" },
     { "time": "2:00", "title": "Entropy in sudoku" },
     { "time": "5:41", "title": "Mapping sudoku to WFC" },
@@ -53,21 +53,15 @@
       "links": [
         {
           "icon": "🗄",
-          "title": "Game Show Problem",
-          "url": "https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/",
-          "description": "Ask Marilyn column on the Problem published in Parade Magazine in 1990"
-        },
-        {
-          "icon": "🗄",
           "title": "Original Github WFC",
           "url": "https://github.com/mxgmn/WaveFunctionCollapse",
-          "description": "The original repository for the wave function collapse algorythm"
+          "description": "The original repository for the wave function collapse algorithm"
         },
         {
           "icon": "🗄",
-          "title": "Game Show Problem",
-          "url": "https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/",
-          "description": "Ask Marilyn column on the Problem published in Parade Magazine in 1990"
+          "title": "WFC in Processing",
+          "url": "https://discourse.processing.org/t/wave-collapse-function-algorithm-in-processing/12983",
+          "description": "Wave function collapse post on Processing Forum"
         }
       ]
     },
@@ -76,7 +70,7 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Solving Wordle",
+          "title": "Solving Wordle with Information Theory",
           "url": "https://youtu.be/v68zYyaEmEA",
           "description": "3Blue1Brown video with more detailed context about entropy and information theory."
         },
@@ -97,12 +91,6 @@
           "title": "Higher Order Array Functions",
           "url": "https://youtu.be/H4awPsyugS0",
           "description": "Coding Train video covering how to use higher order array functions like filter() and map() in JavaScript."
-        },
-        {
-          "icon": "🎥",
-          "title": "Transformations in p5.js",
-          "url": "https://youtu.be/o9sgjuh-CBM",
-          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
         },
         {
           "icon": "🎥",
