@@ -1,0 +1,41 @@
+Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images. In this video (recorded over 3 live streams) I attempt the tiled model and explore a variety of solutions to the algorithm in JavaScript with p5.js.
+💻 Video Webpage: https://thecodingtrain.com/challenges/171-wave-function-collapse
+
+🕹️ p5.js Web Editor Sketch: https://editor.p5js.org/codingtrain/sketches/_kbz6Xq7l
+
+🎥 Previous video: https://www.youtube.com/watch?v=0zac-cDzJwA&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
+🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
+
+Links discussed in this video:
+
+Other videos mentioned in this video:
+🎥 Solving Wordle: https://youtu.be/v68zYyaEmEA
+🎥 Pixel Array: https://youtu.be/nMUMZ5YRxHI
+🎥 Arrow Function: https://youtu.be/mrYMzpbFz18
+🎥 Higher Order Array Functions: https://youtu.be/H4awPsyugS0
+🎥 Transformations in p5.js: https://youtu.be/o9sgjuh-CBM
+
+Timestamps:
+0:00 Wave Function Collapse
+
+🚂 Website: http://thecodingtrain.com/
+👾 Share Your Creation! https://thecodingtrain.com/guides/passenger-showcase-guide
+🚩 Suggest Topics: https://github.com/CodingTrain/Suggestion-Box
+💡 GitHub: https://github.com/CodingTrain
+💬 Discord: https://discord.gg/hPuGy2g
+💖 Membership: http://youtube.com/thecodingtrain/join
+🛒 Store: https://standard.tv/codingtrain
+📚 Books: https://www.amazon.com/shop/thecodingtrain
+🖋️ Twitter: https://twitter.com/thecodingtrain
+📸 Instagram: https://www.instagram.com/the.coding.train/
+
+🎥 Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
+🎥 Intro to Programming: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
+
+🔗 p5.js: https://p5js.org
+🔗 p5.js Web Editor: https://editor.p5js.org/
+🔗 Processing: https://processing.org
+
+📄 Code of Conduct: https://github.com/CodingTrain/Code-of-Conduct
+
+This description was auto-generated. If you see a problem, please open an issue: https://github.com/CodingTrain/thecodingtrain.com/issues/new
