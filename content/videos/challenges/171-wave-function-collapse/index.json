@@ -10,11 +10,19 @@
   "timestamps": [{ "time": "0:00", "title": "Wave Function Collapse" }],
   "codeExamples": [
     {
-      "title": "Monty Hall",
-      "description": "Three-door demonstration of the Monty Hall Problem with gameplay statistics",
-      "image": "montyhall.png",
+      "title": "Wave Function Collapse",
+      "description": "WFC PCB board generation pattern.",
+      "image": "wfc.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_kbz6Xq7l"
+      }
+    },
+    {
+      "title": "Wave Function Collapse - Expanded",
+      "description": "GitHub repo for expanded and corrected WFC PCB board example.",
+      "image": "wfc.jpg",
+      "urls": {
+        "p5": "https://github.com/CodingTrain/Wave-Function-Collapse"
       }
     }
   ],
@@ -38,7 +46,7 @@
           "title": "The Basics of CSS",
           "url": "https://www.youtube.com/watch?v=zGL8q8iQSQw",
           "description": "p5.js tutorial on basic CSS and the p5 style() function"
-        }
+        }s
       ]
     }
   ]
