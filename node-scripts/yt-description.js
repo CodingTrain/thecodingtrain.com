@@ -235,32 +235,28 @@ function writeDescription(video) {
     }
   }
 
-  const links = data.groupLinks?.find((group) => group.title === 'References');
-  const videosR = data.groupLinks?.find((group) => group.title === 'Videos');
-
-  // Links
-  if (links && links.links.length > 0) {
-    description += '\nLinks discussed in this video:\n';
-    for (const link of links.links) {
-      const url = link.url;
-      if (/https?:\/\/.*/.test(url)) {
-        // starts with http:// or https://
-        description += `🔗 ${link.title}: ${url}\n`;
-      } else {
-        // assume relative link in thecodingtrain.com
-        description += `🔗 ${link.title}: https://thecodingtrain.com${url}\n`;
-      }
-    }
-  }
-
-  // Videos
-  if (videosR && videosR.links.length > 0) {
-    description += '\nOther videos mentioned in this video:\n';
-    for (const video of videosR.links) {
-      if (video.url.includes('youtu.be') || video.url.includes('youtube.com')) {
-        description += `🎥 ${video.title}: ${video.url}\n`;
-      } else {
-        description += `🎥 ${video.title}: ${getVideoURL(video.url)}\n`;
+  // Group Links (References / Videos / ...)
+  if (data.groupLinks) {
+    const glIcons = {
+      'Links discussed': '🔗',
+      Links: '🔗',
+      References: '🔗',
+      Videos: '🎥'
+    };
+    for (let group of data.groupLinks) {
+      description += `\n${group.title}:\n`;
+      for (const link of group.links) {
+        link.icon = link.icon || glIcons[group.title] || '';
+        const url = link.url;
+        if (/https?:\/\/.*/.test(url)) {
+          // Starts with http:// or https://
+          description += `${link.icon} ${link.title}: ${url}`.trim() + '\n';
+        } else {
+          // assume relative link in thecodingtrain.com
+          description +=
+            `${link.icon} ${link.title}: https://thecodingtrain.com${url}`.trim() +
+            '\n';
+        }
       }
     }
   }
