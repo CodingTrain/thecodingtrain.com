@@ -1,0 +1,62 @@
+{
+  "title": "Horizontal Directional Drilling",
+  "description": "TBD",
+  "videoNumber": "172",
+  "videoId": "TBD",
+  "date": "2022-07-05",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["engineering", "vectors"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Horizontal Directional Drilling!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "HDD Simulator",
+      "description": "Simple simulator code direct from video",
+      "image": "hdd.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SuU_4PfcAI"
+      }
+    },
+    {
+      "title": "HDD Simulator - Expanded Game",
+      "description": "GitHub repo for expanded simulator with some game features.",
+      "image": "hdd-game.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Directional-Boring"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "⚙️",
+          "title": "Practical Engineering",
+          "url": "https://practical.engineering/",
+          "description": "Practical Engineering is a YouTube channel about infrastructure and the human-made world around us."
+        }
+      ]
+    },
+
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Code! Programming with p5.js",
+          "url": "/tracks/code-programming-with-p5-js",
+          "description": "Beginner videos on the fundamentals of computer programming with JavaScript."
+        },
+        {
+          "icon": "🎥",
+          "title": "Transformations in p5.js",
+          "url": "https://youtu.be/o9sgjuh-CBM",
+          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        }
+      ]
+    }
+  ]
+}
