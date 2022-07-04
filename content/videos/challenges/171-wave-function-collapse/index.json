@@ -1,0 +1,212 @@
+{
+  "title": "Wave Function Collapse",
+  "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images. In this video (recorded over 3 live streams) I attempt the tiled model and explore a variety of solutions to the algorithm in JavaScript with p5.js.",
+  "videoNumber": "171",
+  "videoId": "rI_y2GAlQFM",
+  "date": "2022-07-03",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["wave function collapse", "generative art"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Day 1! Wave Function Collapse!" },
+    { "time": "2:00", "title": "Entropy in Sudoku." },
+    { "time": "5:41", "title": "Comparing Sudoku to WFC" },
+    { "time": "9:24", "title": "Starting to code." },
+    { "time": "11:05", "title": "Collpasing cells." },
+    { "time": "13:30", "title": "Evaluating entropy." },
+    { "time": "18:47", "title": "Updating entropy after collapse." },
+    { "time": "22:45", "title": "Data structure for rules." },
+    { "time": "24:50", "title": "Implementing rules for next collapse." },
+    { "time": "36:28", "title": "Explaining the rules." },
+    { "time": "38:45", "title": "Day 2! Refactoring the code." },
+    { "time": "39:26", "title": "Create a Tile class" },
+    { "time": "44:57", "title": "Generate the rules from Tile objects." },
+    { "time": "55:40", "title": "Using new circuit board tileset." },
+    { "time": "1:00:40", "title": "Day 3! Dealing with asymmetrical tiles" },
+    { "time": "1:01:56", "title": "Assigning index values to edges." },
+    { "time": "1:06:53", "title": "Incorporating edges into code." },
+    { "time": "1:10:05", "title": "Change adjacency for assymetry" },
+    { "time": "1:12:06", "title": "First assymetric WFC image!" },
+    { "time": "1:12:40", "title": "Restart if no valid cell found." },
+    { "time": "1:15:48", "title": "Next steps!" },
+    { "time": "1:18:05", "title": "Thanks for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Wave Function Collapse",
+      "description": "WFC PCB board generation pattern.",
+      "image": "wfc.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_kbz6Xq7l"
+      }
+    },
+    {
+      "title": "Wave Function Collapse - Expanded",
+      "description": "GitHub repo for expanded and corrected WFC PCB board example.",
+      "image": "wfc.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Wave-Function-Collapse"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💡",
+          "title": "WFC Challenge Suggestion",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/287",
+          "description": "First issue in Coding Train Suggestion box about WFC."
+        },
+        {
+          "icon": "🗄",
+          "title": "Wave Function Collapse Algorithm",
+          "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+          "description": "The original GitHub repository from mxgmn for the Wave Function Collapse algorithm."
+        },
+        {
+          "icon": "📣",
+          "title": "​Wave Collapse Function algorithm in Processing",
+          "url": "https://discourse.processing.org/t/wave-collapse-function-algorithm-in-processing/12983",
+          "description": "Processing Forum post by solub with guide to Wave Function Collapse in Python."
+        },
+        {
+          "icon": "🗄",
+          "title": "Array.prototype.filter()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+          "description": "Mozilla developer reference page for higher order array function: filter()."
+        },
+        {
+          "icon": "🐞",
+          "title": "Encoding tiles symmetry and rotation #14",
+          "url": "https://github.com/CodingTrain/Wave-Function-Collapse/issues/14",
+          "description": "Garazbolg's GitHub issue describing a solution for assymmetric tiles."
+        },
+        {
+          "icon": "🐞",
+          "title": "The issue with asymmetric tiles and an easy solution #16",
+          "url": "https://github.com/CodingTrain/Wave-Function-Collapse/issues/16",
+          "description": "Telemako's GitHub issue describing a solution for assymmetric tiles."
+        },
+        {
+          "icon": "🗄",
+          "title": "Array.prototype.reverse()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+          "description": "Mozilla developer reference page for the array reverse() function."
+        }
+      ]
+    },
+    {
+      "title": "Creative Works Featured",
+      "links": [
+        {
+          "icon": "🎨",
+          "title": "Oisín: Wave Function Collapse for poetry",
+          "url": "https://github.com/mewo2/oisin",
+          "description": "Code that mashes up sentence fragments from a given corpus to produce poems with fixed metric forms."
+        },
+        {
+          "icon": "🎨",
+          "title": "Townscaper",
+          "url": "https://www.townscapergame.com/",
+          "description": "Created by Oskar Stålberg, 3D WFC system that creates cute little houses, arches, stairways, bridges and lush backyards."
+        },
+        {
+          "icon": "🎨",
+          "title": "unity-wave-function-collapse",
+          "url": "https://selfsame.itch.io/unitywfc",
+          "description": "A fork of Wave Function Collapse with tools for the Unity Game engine by @ExUtumno."
+        },
+        {
+          "icon": "🎨",
+          "title": "Zelda WFC",
+          "url": "https://observablehq.com/@makio135/zelda-wfc",
+          "description": "Playing with Wave Function Collapse by generating variations of Zelda maps."
+        },
+        {
+          "icon": "🎨",
+          "title": "Wave Function Collapse Demonstration",
+          "url": "https://oskarstalberg.com/game/wave/wave.html",
+          "description": "Created by Oskar Stålberg in unity, an interactive demonstration of the WFC algorithm."
+        },
+        {
+          "icon": "🎨",
+          "title": "Infinite procedurally generated city",
+          "url": "https://marian42.de/article/wfc/",
+          "description": "A game where you walk through an infinite city that is procedurally generated from a set of blocks with the Wave Function Collapse algorithm."
+        },
+        {
+          "icon": "🎨",
+          "title": "Generating stairy scenes",
+          "url": "https://twitter.com/exutumno/status/895683455299723265?lang=eu",
+          "description": "Tweet from exutumno generating scenes with full 3d local symmetry. Only 5 tiles used: Empty, Line, Turn, X, Stairs."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Day 1",
+          "url": "https://youtu.be/6Vag7NJUjJo",
+          "description": "Wave Function Collapse Live Stream #1"
+        },
+        {
+          "icon": "🔴",
+          "title": "Day 2",
+          "url": "https://youtu.be/FGmB5ZHhhiA",
+          "description": "Wave Function Collapse Live Stream #2"
+        },
+        {
+          "icon": "🔴",
+          "title": "Day 3",
+          "url": "https://youtu.be/QvoTSl60Y88",
+          "description": "Wave Function Collapse Live Stream #3"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Solving Wordle with Information Theory",
+          "url": "https://youtu.be/v68zYyaEmEA",
+          "description": "3Blue1Brown video with more detailed context about entropy and information theory."
+        },
+        {
+          "icon": "🎥",
+          "title": "Pixel Array",
+          "url": "https://youtu.be/nMUMZ5YRxHI",
+          "description": "Coding Train video with explanation of tracking 2D grid in 1D array (for pixels)."
+        },
+        {
+          "icon": "🎥",
+          "title": "Arrow Function",
+          "url": "https://youtu.be/mrYMzpbFz18",
+          "description": "Coding Train video covering JavaScript arrow (=>) function."
+        },
+        {
+          "icon": "🎥",
+          "title": "Higher Order Array Functions",
+          "url": "https://youtu.be/H4awPsyugS0",
+          "description": "Coding Train video covering how to use higher order array functions like filter() and map() in JavaScript."
+        },
+        {
+          "icon": "🎥",
+          "title": "Transformations in p5.js",
+          "url": "https://youtu.be/o9sgjuh-CBM",
+          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        },
+        {
+          "icon": "🎥",
+          "title": "Oskar Stalberg - Wave Function Collapse in Bad North",
+          "url": "https://youtu.be/0bcZb-SsnrA",
+          "description": "Video about wave function collapse in procedural game creation"
+        }
+      ]
+    }
+  ]
+}
