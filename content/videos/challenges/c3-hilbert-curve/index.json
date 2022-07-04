@@ -38,7 +38,7 @@
           "description": "Article on the Hilbert curve."
         },
         {
-          "icon": "🔁",  
+          "icon": "🔁",
           "title": "Iterative algorithm for drawing Hilbert curve by Marcin Chwedczuk",
           "url": "https://marcin-chwedczuk.github.io/iterative-algorithm-for-drawing-hilbert-curve",
           "description": "Discussion of iterative algorithm for drawing Hilbert curve."
@@ -46,10 +46,10 @@
       ]
     },
     {
-      "icon": "🎥",
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Hilbert's Curve: Is infinite math useful?",
           "url": "https://www.youtube.com/watch?v=3s7h2MHQtxc",
           "description": "#Blue1Brown discussion of Hilbert Curve."
