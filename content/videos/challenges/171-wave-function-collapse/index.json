@@ -74,7 +74,7 @@
         {
           "icon": "🗄",
           "title": "Array.prototype.filter()",
-          "url:": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
           "description": "Mozilla developer reference page for higher order array function: filter()."
         },
         {
