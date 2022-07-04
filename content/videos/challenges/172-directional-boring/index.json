@@ -8,7 +8,14 @@
   "topics": ["engineering", "vectors"],
   "canContribute": true,
   "timestamps": [
-    { "time": "0:00", "title": "Horizontal Directional Drilling!" }
+    { "time": "0:00", "title": "Horizontal Directional Drilling!" },
+    { "time": "0:45", "title": "Thank you Practical Engineering!" },
+    { "time": "1:11", "title": "Diagramming and planning" },
+    { "time": "3:38", "title": "Drawing the scene" },
+    { "time": "6:16", "title": "Animating the drill" },
+    { "time": "8:13", "title": "Toggling the bias" },
+    { "time": "10:03", "title": "Steering the drill" },
+    { "time": "11:22", "title": "Next steps" }
   ],
   "codeExamples": [
     {
