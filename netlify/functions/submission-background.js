@@ -27,16 +27,21 @@ exports.handler = async function (event) {
   const imagePath = `${showcasePath}/contribution-${unix}.${postInfo.imageExt}`;
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
-  // Get the SHA of the main branch
+  /**
+    Get the SHA of the main branch
+  **/
   const shaRes = await octokit.request(
     `GET /repos/${owner}/${repo}/git/ref/heads/main`
   );
   const mainSha = shaRes.data.object.sha;
 
-  // Make a new branch named after the user
+  /**
+    Make a new branch
+  **/
   const branchName = slugify(
     `showcase-${slugify(postInfo.authorName)}-${unix}`.toLowerCase()
   );
+
   const branchRes = await octokit.request(
     `POST /repos/${owner}/${repo}/git/refs`,
     {
@@ -45,48 +50,65 @@ exports.handler = async function (event) {
     }
   );
 
-  // Add the JSON file
-  const contributionJSON = {
+  /**
+    Add the JSON file
+  **/
+  const json = {
     title: postInfo.title,
     author: {
-      name: postInfo.authorName,
-      url: postInfo.authorUrl
+      name: postInfo.authorName
     },
     url: postInfo.url
   };
-  const jsonContent = btoa(JSON.stringify(contributionJSON, null, 2));
+
+  if (postInfo.authorUrl) {
+    json.author.url = postInfo.authorUrl;
+  }
+
+  const jsonContent = btoa(JSON.stringify(json, null, 2));
+
+  const jsonOpts = {
+    branch: branchName,
+    message: 'Added contribution JSON file',
+    content: jsonContent
+  };
+
+  if (postInfo.authorName && postInfo.authorEmail) {
+    jsonOpts.committer = {
+      name: postInfo.authorName,
+      email: postInfo.authorEmail
+    };
+  }
 
   const jsonRes = await octokit.request(
     `PUT /repos/${owner}/${repo}/contents/${jsonPath}`,
-    {
-      branch: branchName,
-      message: 'Added contribution JSON file',
-      committer: {
-        name: postInfo.authorName,
-        email: postInfo.authorEmail
-      },
-      content: jsonContent
-    }
+    jsonOpts
   );
 
-  // Add the image
-  // TODO: Run image through Sharp resize?
-  // TODO: Run image through PNG optimize?
-  // TODO: Change to support FORM post
+  /**
+    Add the image
+  **/
+  const imageOpts = {
+    branch: branchName,
+    message: 'Added contribution image file',
+    content: postInfo.image
+  };
+
+  if (postInfo.authorName && postInfo.authorEmail) {
+    imageOpts.committer = {
+      name: postInfo.authorName,
+      email: postInfo.authorEmail
+    };
+  }
+
   const imageRes = await octokit.request(
     `PUT /repos/${owner}/${repo}/contents/${imagePath}`,
-    {
-      branch: branchName,
-      message: 'Added contribution image file',
-      committer: {
-        name: postInfo.authorName,
-        email: postInfo.authorEmail
-      },
-      content: postInfo.image
-    }
+    imageOpts
   );
 
-  // Make a PR to main
+  /**
+    Make a PR to main
+  **/
   const prRes = await octokit.request(`POST /repos/${owner}/${repo}/pulls`, {
     title: `Passenger showcase contribution from ${postInfo.authorName}`,
     body: 'Yay!',
