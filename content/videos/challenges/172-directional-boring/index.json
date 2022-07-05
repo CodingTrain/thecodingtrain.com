@@ -2,7 +2,7 @@
   "title": "Horizontal Directional Drilling",
   "description": "This project is a collaboration with Grady Hillhouse at the Practical Engineering YouTube channel. This is my attempt to code a simulation of Horizontal Directional Drilling, laparoscopic surgery for the earth!",
   "videoNumber": "172",
-  "videoId": "TBD",
+  "videoId": "FfCBNL6lWK0",
   "date": "2022-07-05",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["engineering", "vectors"],
@@ -46,6 +46,18 @@
           "title": "Practical Engineering",
           "url": "https://practical.engineering/",
           "description": "Practical Engineering is a YouTube channel about infrastructure and the human-made world around us."
+        },
+        {
+          "icon":"🔗",
+          "title": "Direction Boring",
+          "url": "https://en.wikipedia.org/wiki/Directional_boring",
+          "description": "Wikipedia page describing horizontal directional drilling."
+        }
+        {
+          "icon": "📚",
+          "title": "p5.Vector",
+          "url": "https://p5js.org/reference/#/p5.Vector",
+          "description": "p5.js reference page for vectors."
         }
       ]
     },
@@ -54,13 +66,19 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
+          "icon": "🏗",
+          "title": "How Do You Steer a Drill Below The Earth?",
+          "url": "https://youtu.be/JAhdb7dKQpU",
+          "description": "Practical Engineering's video about Horizontal Directional Drilling."
+        },
+        {
+          "icon": "🚂",
           "title": "Code! Programming with p5.js",
           "url": "/tracks/code-programming-with-p5-js",
           "description": "Beginner videos on the fundamentals of computer programming with JavaScript."
         },
         {
-          "icon": "🎥",
+          "icon": "🚂",
           "title": "Transformations in p5.js",
           "url": "https://youtu.be/o9sgjuh-CBM",
           "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
