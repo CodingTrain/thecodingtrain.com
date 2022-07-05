@@ -1,0 +1,89 @@
+{
+  "title": "Horizontal Directional Drilling",
+  "description": "This project is a collaboration with Grady Hillhouse at the Practical Engineering YouTube channel. This is my attempt to code a simulation of Horizontal Directional Drilling, laparoscopic surgery for the earth!",
+  "videoNumber": "172",
+  "videoId": "FfCBNL6lWK0",
+  "date": "2022-07-05",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["engineering", "vectors"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:39", "title": "Check out Practical Engineering!" },
+    { "time": "1:04", "title": "Diagramming and planning" },
+    { "time": "3:26", "title": "Coding the scene" },
+    { "time": "4:50", "title": "Animating the drill" },
+    { "time": "6:22", "title": "Drawing the drill bit / bias" },
+    { "time": "7:23", "title": "Adding interaction to flip the bias" },
+    { "time": "9:33", "title": "Rotating and steering the drill" },
+    { "time": "10:02", "title": "Playing the game!" },
+    { "time": "10:32", "title": "Next steps!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "HDD Simulator",
+      "description": "Simple simulator code direct from video",
+      "image": "hdd.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SuU_4PfcAI"
+      }
+    },
+    {
+      "title": "HDD Simulator - Expanded Game",
+      "description": "GitHub repo for expanded simulator with some game features.",
+      "image": "hdd-game.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Directional-Boring"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "⚙️",
+          "title": "Practical Engineering",
+          "url": "https://practical.engineering/",
+          "description": "Practical Engineering is a YouTube channel about infrastructure and the human-made world around us."
+        },
+        {
+          "icon": "🔗",
+          "title": "Direction Boring",
+          "url": "https://en.wikipedia.org/wiki/Directional_boring",
+          "description": "Wikipedia page describing horizontal directional drilling."
+        },
+        {
+          "icon": "📚",
+          "title": "p5.Vector",
+          "url": "https://p5js.org/reference/#/p5.Vector",
+          "description": "p5.js reference page for vectors."
+        }
+      ]
+    },
+
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🏗",
+          "title": "How Do You Steer a Drill Below The Earth?",
+          "url": "https://youtu.be/JAhdb7dKQpU",
+          "description": "Practical Engineering's video about Horizontal Directional Drilling."
+        },
+        {
+          "icon": "🚂",
+          "title": "Code! Programming with p5.js",
+          "url": "/tracks/code-programming-with-p5-js",
+          "description": "Beginner videos on the fundamentals of computer programming with JavaScript."
+        },
+        {
+          "icon": "🚂",
+          "title": "Transformations in p5.js",
+          "url": "https://youtu.be/o9sgjuh-CBM",
+          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        }
+      ]
+    }
+  ]
+}
