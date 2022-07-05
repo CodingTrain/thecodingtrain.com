@@ -1,0 +1,52 @@
+{
+    "title": "Koch Fractal Snowflake",
+    "description": "Snowflake Challenge #3! In this video, I draw the Koch Fractal Curve in Processing (Java).",
+    "videoNumber": "129",
+    "videoId": "X8bXDKqMsXE",
+    "date": "2018-12-30",
+    "languages": ["processing"],
+    "topics": ["koch curve", "fractals", "koch snowflake", "koch star"],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Koch Snowflake",
+            "description": "This sketch visalizes the Koch snowflake.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/SJHcVCAgN",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/129_Koch_Snowflake/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "💰",
+                    "title": "Support the Processing Foundation",
+                    "url": "https://processingfoundation.org/support/",
+                    "description": "Support the Processing Foundation."
+                },
+                {
+                    "icon": "🗄",
+                    "title": "Koch Snowflake",
+                    "url": "https://en.wikipedia.org/wiki/Koch_snowflake",
+                    "description": "Discussion of Koch snowflake."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Vectors",
+                    "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/1-vectors/1-what-is-a-vector",
+                    "description": "What is a vector? How do they work in p5.js?"
+                }
+            ]
+        }
+    ]
+}
