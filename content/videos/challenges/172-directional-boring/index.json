@@ -1,6 +1,6 @@
 {
   "title": "Horizontal Directional Drilling",
-  "description": "TBD",
+  "description": "This project is a collaboration with Grady Hillhouse at the Practical Engineering YouTube channel. This is my attempt to code a simulation of Horizontal Directional Drilling, laparoscopic surgery for the earth!",
   "videoNumber": "172",
   "videoId": "TBD",
   "date": "2022-07-05",
@@ -8,14 +8,16 @@
   "topics": ["engineering", "vectors"],
   "canContribute": true,
   "timestamps": [
-    { "time": "0:00", "title": "Horizontal Directional Drilling!" },
-    { "time": "0:45", "title": "Thank you Practical Engineering!" },
-    { "time": "1:11", "title": "Diagramming and planning" },
-    { "time": "3:38", "title": "Drawing the scene" },
-    { "time": "6:16", "title": "Animating the drill" },
-    { "time": "8:13", "title": "Toggling the bias" },
-    { "time": "10:03", "title": "Steering the drill" },
-    { "time": "11:22", "title": "Next steps" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:39", "title": "Check out Practical Engineering!" },
+    { "time": "1:04", "title": "Diagramming and planning" },
+    { "time": "3:26", "title": "Coding the scene" },
+    { "time": "4:50", "title": "Animating the drill" },
+    { "time": "6:22", "title": "Drawing the drill bit / bias" },
+    { "time": "7:23", "title": "Adding interaction to flip the bias" },
+    { "time": "9:33", "title": "Rotating and steering the drill" },
+    { "time": "10:02", "title": "Playing the game!" },
+    { "time": "10:32", "title": "Next steps!" }
   ],
   "codeExamples": [
     {
