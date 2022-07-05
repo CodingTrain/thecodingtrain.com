@@ -1,0 +1,71 @@
+{
+  "title": "Setup",
+  "description": "In this video, I outline what you need setup and ready before you begin the course Working with Data and APIs in JavaScript.\n\nWhat you need to know:\n- JavaScript\n- HTML basics\n- Basics of CSS (useful but not required)\n\nMaterials/Programs:\n- Code editor (I use Visual Studio Code but other examples are included below)\n- Shell access to your computer (we go over this in Module 2)",
+  "languages": ["JavaScript", "p5.js", "node.js"],
+  "topics": ["server side", "workflow", "setup"],
+  "videoId": "hPbDyqzxQfU",
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Node.js",
+          "url": "https://nodejs.org/en/",
+          "description": "Node.js is a JavaScript runtime which allows you to run JavaScript code on your computer."
+        },
+        {
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com",
+          "description": "Visual Studio Code is a code editor with support for development operations like debugging, task running, and version control."
+        },
+        {
+          "title": "Atom",
+          "url": "https://atom.io",
+          "description": "Atom is a free and open-source text and source code editor with support for plug-ins, and embedded Git Control."
+        },
+        {
+          "title": "Brackets",
+          "url": "http://brackets.io",
+          "description": "Brackets is a source code editor with a primary focus on web development."
+        },
+        {
+          "title": "Sublime Text",
+          "url": "https://www.sublimetext.com/",
+          "description": "Sublime Text is a shareware cross-platform source code editor."
+        },
+        {
+          "title": "CodePen",
+          "url": "https://codepen.io/",
+          "description": "CodePen is a online development environment for front-end designers and developers."
+        },
+        {
+          "title": "JSFiddle",
+          "url": "https://jsfiddle.net/",
+          "description": "JSFiddle is an online IDE service for testing and showcasing code snippets."
+        },
+        {
+          "title": "p5.js Web Editor",
+          "url": "https://editor.p5js.org/",
+          "description": "p5 Editor is an online code editor to create and share p5.js sketches."
+        },
+        {
+          "title": "Live Server",
+          "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          "description": "Live Server extension for VS Code"
+        },
+        {
+          "title": "iTerm",
+          "url": "https://www.iterm2.com/",
+          "description": "iTerm is a replacement for Terminal for MacOS."
+        },
+        {
+          "title": "Git Bash",
+          "url": "https://git-scm.com/downloads",
+          "description": "Git Bash is a terminal application for Windows environments which provides a Git/Linux command line experience."
+        }
+      ]
+    }
+  ]
+}

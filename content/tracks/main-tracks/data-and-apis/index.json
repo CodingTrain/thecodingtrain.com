@@ -5,7 +5,11 @@
   "chapters": [
     {
       "title": "Welcome",
-      "videos": ["data/welcome/trailer", "data/1-client-side/1-fetch"]
+      "videos": ["data/welcome/trailer", "data/welcome/setup"]
+    },
+    {
+      "title": "Client Side fetch() with image, CSV, JSON",
+      "videos": ["data/1-client-side/1-fetch"]
     }
   ]
 }
