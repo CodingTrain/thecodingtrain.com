@@ -48,11 +48,11 @@
           "description": "Practical Engineering is a YouTube channel about infrastructure and the human-made world around us."
         },
         {
-          "icon":"🔗",
+          "icon": "🔗",
           "title": "Direction Boring",
           "url": "https://en.wikipedia.org/wiki/Directional_boring",
           "description": "Wikipedia page describing horizontal directional drilling."
-        }
+        },
         {
           "icon": "📚",
           "title": "p5.Vector",
