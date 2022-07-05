@@ -82,6 +82,12 @@
           "title": "Transformations in p5.js",
           "url": "https://youtu.be/o9sgjuh-CBM",
           "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive",
+          "url": "https://youtu.be/_YrgCu4jxTk",
+          "description": "Archive of recording session originally broadcast on Twitch."
         }
       ]
     }
