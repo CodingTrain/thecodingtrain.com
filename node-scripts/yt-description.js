@@ -91,7 +91,8 @@ function getVideoData(file) {
     );
   const videoData = {
     pageURL: url.join('/'),
-    data: parsed
+    data: parsed,
+    filePath: file
   };
   videos.push(videoData);
   return videoData;
@@ -324,18 +325,18 @@ const allTracks = [...mainTracks, ...sideTracks];
   primeDirectory('./_descriptions');
 
   if (video) {
-    const fileName = [
+    const fileName = path.join(
       'content',
       'videos',
       ...video.split('/'),
       'index.json'
-    ].join(path.sep);
-
-    const videoInfo = getVideoData(fileName);
+    );
 
     for (const file of files) {
       getVideoData(file);
     }
+
+    const videoInfo = videos.find((data) => data.filePath === fileName);
 
     const description = writeDescription(videoInfo);
     console.log('=====================================================');
