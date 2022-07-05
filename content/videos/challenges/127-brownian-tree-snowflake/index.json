@@ -53,7 +53,7 @@
             "title": "Videos",
             "links": [
                 {
-                    "icon": "🎥",
+                    "icon": "🚂",
                     "title": "Coding Challenge: Diffusion-Limited Aggregation",
                     "url": "https://www.youtube.com/watch?v=Cl_Gjj80gPE",
                     "description": "In this Coding Challenge, I explore the \u201cDiffusion-Limited Aggregation\u201d generative algorithm. "
