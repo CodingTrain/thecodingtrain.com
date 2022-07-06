@@ -31,8 +31,8 @@ const schema = object({
   url: string().required().url(),
   image: string().required(),
   authorName: string().required().label('Your name'),
-  authorUrl: string().required().label('Your website').url(),
-  authorEmail: string().required().label('Your email')
+  authorUrl: string().label('Your website').url(),
+  authorEmail: string().label('Your email')
 });
 
 const PassengerShowcaseForm = () => {
@@ -174,7 +174,7 @@ const PassengerShowcaseForm = () => {
           />
           <span>
             A link to either the source code (p5.js editor, GitHub) or a video
-            (YouTube, Vimeo).{' '}
+            (YouTube, Vimeo).
           </span>
         </label>
         <label>
@@ -188,9 +188,9 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            A PNG image to be shown in the passenger showcase list. The image
-            should be maximum 800 pixels wide and should represent the output of
-            your code.
+            A JPG or PNG image to be shown in the passenger showcase list. The
+            image should be maximum 800 pixels wide and should represent the
+            output of your code.
           </span>
         </label>
         <label>
@@ -214,7 +214,10 @@ const PassengerShowcaseForm = () => {
             value={state.authorUrl}
             onChange={onChange}
           />
-          <span>A link to your personal website or social media profile.</span>
+          <span>
+            <em>Optional</em>. A link to your personal website or social media
+            profile.
+          </span>
         </label>
         <label>
           Your e-mail
@@ -224,7 +227,10 @@ const PassengerShowcaseForm = () => {
             value={state.authorEmail}
             onChange={onChange}
           />
-          <span>Your email address.</span>
+          <span>
+            <em>Optional</em>. Your email address used for the submission in the
+            Git repository.
+          </span>
         </label>
         {error && <div className={css.error}>{error}</div>}
         {submitted && (
