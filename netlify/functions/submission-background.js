@@ -33,6 +33,7 @@ exports.handler = async function (event) {
   const shaRes = await octokit.request(
     `GET /repos/${owner}/${repo}/git/ref/heads/main`
   );
+  console.log('shaRes', shaRes.status, shaRes.data);
   const mainSha = shaRes.data.object.sha;
 
   /**
@@ -49,6 +50,7 @@ exports.handler = async function (event) {
       sha: mainSha
     }
   );
+  console.log('branchRes', branchRes.status, branchRes.data);
 
   /**
     Add the JSON file
@@ -84,6 +86,7 @@ exports.handler = async function (event) {
     `PUT /repos/${owner}/${repo}/contents/${jsonPath}`,
     jsonOpts
   );
+  console.log('jsonRes', jsonRes.status, jsonRes.data);
 
   /**
     Add the image
@@ -105,6 +108,7 @@ exports.handler = async function (event) {
     `PUT /repos/${owner}/${repo}/contents/${imagePath}`,
     imageOpts
   );
+  console.log('imageRes', imageRes.status, imageRes.data);
 
   /**
     Make a PR to main
@@ -115,4 +119,5 @@ exports.handler = async function (event) {
     head: branchName,
     base: 'main'
   });
+  console.log('prRes', prRes.status, prRes.data);
 };
