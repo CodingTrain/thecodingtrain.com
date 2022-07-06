@@ -21,7 +21,7 @@
             "image": "mandelbrot.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/KsV1wWLqd",
-                "processing": "https://github.com/CodingTrain/CodingChallenges/021_Mandelbrot/Processing"
+                "processing": "https://github.com/CodingTrain/CodingChallenges/tree/main/021_Mandelbrot/Processing"
             }
         }
     ],
