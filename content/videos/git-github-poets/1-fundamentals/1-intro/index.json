@@ -1,0 +1,19 @@
+{
+    "title": "Introduction to Git and GiHub",
+    "description": "In this first video of Git and GitHub for Poets, we go over the concepts of commits and repositories as well as an overview of the GitHub User Interface.",
+    "languages": [],
+    "topics": ["For beginners","Git","GitHub"],
+    "videoId": "BCQHnlnPusY",
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:52", "title": "Why" },
+        { "time": "3:10", "title": "Git vs GitHub" },
+        { "time": "6:07", "title": "Creating a repository" },
+        { "time": "7:50", "title": "Adding a file to the repo" },
+        { "time": "9:42", "title": "Make changes to the file" },
+        { "time": "11:07", "title": "The commit history" },
+        { "time": "13:02", "title": "Review" }
+    ],
+    "canContribute": false
+  }
+  

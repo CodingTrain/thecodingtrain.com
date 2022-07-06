@@ -1,0 +1,14 @@
+{
+    "title": "Git and GitHub for Poets",
+    "date": "2016-04-19",
+    "description": "This video series is designed to teach you the basics of working with git version control and the GitHub website. You will understand the concept of version control and the difference between git software and GitHub the website. Videos cover terminology like branch, fork, merge, pull, push, and remote. You will get a chance to make your first pull request to a git repository on GitHub.",
+    "chapters": [
+      {
+        "title": "Fundamentals",
+        "videos": [
+            "git-github-poets/1-fundamentals/1-intro"
+        ]
+      }
+    ]
+  }
+  
