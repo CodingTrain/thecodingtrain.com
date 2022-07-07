@@ -6,7 +6,8 @@
       {
         "title": "Fundamentals",
         "videos": [
-            "git-github-poets/1-fundamentals/1-intro"
+            "git-github-poets/1-fundamentals/1-intro",
+            "git-github-poets/1-fundamentals/2-branches"
         ]
       }
     ]
