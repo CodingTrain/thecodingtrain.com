@@ -1,0 +1,42 @@
+{
+  "title": "Mapping Database Entries with Leaflet.js",
+  "description": "In this video, I look at how to save the check-in information to a database and map all of the geolocation data on a map using Leaflet.js.",
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
+  "topics": [],
+  "videoId": "r94kI6my0QQ",
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "the_weather_here",
+      "description": "the_weather_here",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here/"
+      }
+    },
+    {
+      "title": "the_weather_here_exercises",
+      "description": "the_weather_here_exercises",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Leaflet.js",
+          "url": "https://leafletjs.com/",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "title": "JSON",
+  "description": "With our previous projects, we learned about fetch() and tabular data. This next project will show you how to work with JSON data from an API including how to load JSON data with fetch() and update DOM element.",
+  "languages": [
+    "JavaScript",
+    "p5.js",
+    "node.js"
+  ],
+  "topics": [],
+  "videoId": "uxf0--uiX0I",
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "01_fetch_image",
+      "description": "01_fetch_image",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
+      }
+    },
+    {
+      "title": "01a_fetch_exercise_text",
+      "description": "01a_fetch_exercise_text",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01a_fetch_exercise_text/"
+      }
+    },
+    {
+      "title": "01b_fetch_exercise_array",
+      "description": "01b_fetch_exercise_array",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01b_fetch_exercise_array/"
+      }
+    },
+    {
+      "title": "02_fetch_csv",
+      "description": "02_fetch_csv",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv/"
+      }
+    },
+    {
+      "title": "02_fetch_csv_exercise_multiple",
+      "description": "02_fetch_csv_exercise_multiple",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_multiple/"
+      }
+    },
+    {
+      "title": "02_fetch_csv_exercise_p5",
+      "description": "02_fetch_csv_exercise_p5",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_p5/"
+      }
+    },
+    {
+      "title": "03_fetch_json",
+      "description": "03_fetch_json",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json/"
+      }
+    },
+    {
+      "title": "03_fetch_json_exercise_center_map",
+      "description": "03_fetch_json_exercise_center_map",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_center_map/"
+      }
+    },
+    {
+      "title": "03_fetch_json_exercise_p5_mappa",
+      "description": "03_fetch_json_exercise_p5_mappa",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa/"
+      }
+    },
+    {
+      "title": "03_fetch_json_exercise_p5_mappa_velocity",
+      "description": "03_fetch_json_exercise_p5_mappa_velocity",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa_velocity/"
+      }
+    },
+    {
+      "title": "03_fetch_json_exercise_scale_altitude",
+      "description": "03_fetch_json_exercise_scale_altitude",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_altitude/"
+      }
+    },
+    {
+      "title": "03_fetch_json_exercise_scale_iss",
+      "description": "03_fetch_json_exercise_scale_iss",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_iss/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Where the ISS at?",
+          "url": "https://wheretheiss.at/",
+          "description": ""
+        },
+        {
+          "title": "JSON chrome extension",
+          "url": "https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
