@@ -8,7 +8,9 @@
       "videos": [
         "git-github-poets/1-fundamentals/1-intro",
         "git-github-poets/1-fundamentals/2-branches",
-        "git-github-poets/1-fundamentals/3-forks-pr"
+        "git-github-poets/1-fundamentals/3-forks-pr",
+        "git-github-poets/1-fundamentals/4-issues",
+        "git-github-poets/1-fundamentals/5-command-line"
       ]
     }
   ]
