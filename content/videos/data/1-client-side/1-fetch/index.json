@@ -4,6 +4,7 @@
   "languages": ["javascript", "p5.js", "node.js"],
   "topics": ["fetch", "promises", "apis"],
   "videoId": "tc8DU14qX6I",
+  "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What is fetch()?" },
     { "time": "01:08", "title": "Explain! What is an HTTP Request?" },

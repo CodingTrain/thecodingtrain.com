@@ -1,13 +1,10 @@
 {
   "title": "Saving to a Database",
   "description": "It's time to add a database! Let's learn why databases are important. For this video, I'll start by using NeDB for the Data Selfie App.",
-  "languages": [
-    "JavaScript",
-    "p5.js",
-    "node.js"
-  ],
+  "languages": ["javascript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "xVYa20DCUv0",
+  "canContribute": true,
   "timestamps": [],
   "codeExamples": [
     {

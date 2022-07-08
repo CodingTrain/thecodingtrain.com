@@ -1,13 +1,10 @@
 {
   "title": "Graphing with Chart.js",
   "description": "The lesson continues working with tabular data (CSV) and examines how to graph the data in an HTML5 canvas with Chart.js.",
-  "languages": [
-    "JavaScript",
-    "p5.js",
-    "node.js"
-  ],
+  "languages": ["javascript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "5-ptp9tRApM",
+  "canContribute": true,
   "timestamps": [],
   "codeExamples": [
     {
