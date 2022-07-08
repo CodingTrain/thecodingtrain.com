@@ -1,0 +1,36 @@
+{
+  "title": "Binary to Decimal Conversion",
+  "description": "This coding challenge is an exploration of binary numbers with p5.js. Watch me build an interactive sketch that converts binary to decimal numbers!",
+  "videoNumber": "119",
+  "videoId": "meGcdIoTYgw",
+  "date": "2018-10-23",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["Binary Numbers", "Base Conversion", "math"],
+  "canContribute": true,
+  "relatedChallenges": ["117-seven-segment-display"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Binary to Decimal Converter",
+      "description": "A visual binary to decimal converter",
+      "image": "binary-to-decimal-converter.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HJn1hOPjX",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/119_Binary_to_Decimal_Conversion/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📝",
+          "title": "Ternary Operator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
+          "description": "Documentation of the ternary operator"
+        }
+      ]
+    }
+  ]
+}

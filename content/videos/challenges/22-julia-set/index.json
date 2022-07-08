@@ -1,6 +1,6 @@
 {
     "title": "Julia Set in Processing",
-    "description": "In this coding challenge, I program from the Julia Set fractal in Processing (Java).",
+    "description": "In this coding challenge, I program the Julia Set fractal in Processing (Java).",
     "videoNumber": "22",
     "videoId": "fAsaSkmbF5s",
     "date": "2016-06-16",
@@ -21,7 +21,7 @@
             "image": "julia.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/G6qbMmaI",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/CodingChallenges/022_JuliaSet/Processing"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/022_JuliaSet/Processing"
             }
         }
     ],
@@ -47,7 +47,7 @@
             "title": "Videos",
             "links": [
                 {
-                    "icon": "🎥",
+                    "icon": "🚂",
                     "title": "Coding Challenge: Mandelbrot Set",
                     "url": "https://thecodingtrain.com/challenges/21-mandelbrot-set-with-p5js",
                     "description": "In this coding challenge, I program from scratch the Mandelbrot set with p5.js."
