@@ -4,7 +4,7 @@
     "videoNumber": "21",
     "videoId": "6z7GQewK-Ks",
     "date": "2016-06-13",
-    "languages": ["p5.js"],
+    "languages": ["p5.js", "javascript"],
     "topics": [
         "mandelbrot",
         "fractal",
