@@ -11,24 +11,11 @@
   "timestamps": [],
   "codeExamples": [
     {
-      "title": "p5js - p5 Web Editor",
-      "description": "",
+      "title": "Starfield",
+      "description": "Animated visualization of a starfield (2D rendering)",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/1wLHIck3T"
-      }
-    },
-    {
-      "title": "p5js - GitHub",
-      "description": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_001_StarField/P5"
-      }
-    },
-    {
-      "title": "Processing - Processing",
-      "description": "",
-      "urls": {
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_001_StarField/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/001_StarField/Processing/CC_001_StarField"
       }
     }
   ],
