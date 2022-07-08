@@ -1,18 +1,19 @@
 {
   "title": "The fetch() Function",
   "description": "This video is client-side only and covers the web fetch() API, loading image data and focusing on handling asynchronous events with Promises (async / await).",
-  "languages": [
-    "javascript",
-    "p5.js",
-    "node.js"
-  ],
-  "topics": [],
+  "languages": ["javascript", "p5.js", "node.js"],
+  "topics": ["fetch", "promises", "apis"],
   "videoId": "tc8DU14qX6I",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What is fetch()?" },
+    { "time": "01:08", "title": "Explain! What is an HTTP Request?" },
+    { "time": "01:34", "title": "Explain! Write down the steps!" },
+    { "time": "04:17", "title": "Code! Start" }
+  ],
   "codeExamples": [
     {
       "title": "Fetch Image",
-      "description": "Demonstration of fetching data from an image file",
+      "description": "Demonstration of fetching image data from an local file",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
       }
@@ -33,6 +34,17 @@
     }
   ],
   "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Promises",
+          "url": "https://youtu.be/QO4NXhWo_NM",
+          "description": "Tutorial on Promises in JavaScript"
+        }
+      ]
+    },
     {
       "title": "References",
       "links": [
