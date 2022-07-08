@@ -53,7 +53,7 @@ Fill out the title, name, url, etc. Your URL can be anything, a p5 sketch, a blo
 
 ## Adding a Preview Image
 
-All showcase projects should include a thumbnai preview image! It can be just about any resolution or aspect ratio (the site will resize and crop as necessary). The format should be `JPG` or `PNG`. Name your thumbnail image with the same filename as your showcase submission (`contribution1.png`, `contribution2.jpg`, etc.). You can drag and drop the image file into the same directory to add it to the pull request!
+All showcase submissions should include a thumbnail preview image! While any aspect ratio is fine (the site will resize and crop as necessary), the images will be displayed at 16:9 aspect ratio. We suggest you upload a "landscape" image. The file format should be `JPG` or `PNG`, with a maximum width of 800px and file size of 500 kb. Name your thumbnail image with the same filename as your showcase submission (`contribution1.png`, `contribution2.jpg`, etc.). You can drag and drop the image file into the same directory to add it to the pull request!
 
 ![Uploading thumbnail](./passenger-showcase/thumbnail1.png)
 ![Uploading thumbnail](./passenger-showcase/thumbnail2.png)
