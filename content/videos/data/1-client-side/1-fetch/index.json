@@ -1,8 +1,8 @@
 {
-  "title": "Fetch",
+  "title": "The fetch() Function",
   "description": "This video is client-side only and covers the web fetch() API, loading image data and focusing on handling asynchronous events with Promises (async / await).",
   "languages": [
-    "JavaScript",
+    "javascript",
     "p5.js",
     "node.js"
   ],
@@ -11,106 +11,38 @@
   "timestamps": [],
   "codeExamples": [
     {
-      "title": "01_fetch_image",
-      "description": "01_fetch_image",
-      "image": "",
+      "title": "Fetch Image",
+      "description": "Demonstration of fetching data from an image file",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
       }
     },
     {
-      "title": "01a_fetch_exercise_text",
-      "description": "01a_fetch_exercise_text",
-      "image": "",
+      "title": "Fetch Text",
+      "description": "Demonstration of fetching data from a text file",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01a_fetch_exercise_text/"
       }
     },
     {
-      "title": "01b_fetch_exercise_array",
-      "description": "01b_fetch_exercise_array",
-      "image": "",
+      "title": "Fetch Array of Images",
+      "description": "Demonstration of fetching multiple image files",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01b_fetch_exercise_array/"
-      }
-    },
-    {
-      "title": "02_fetch_csv",
-      "description": "02_fetch_csv",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv/"
-      }
-    },
-    {
-      "title": "02_fetch_csv_exercise_multiple",
-      "description": "02_fetch_csv_exercise_multiple",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_multiple/"
-      }
-    },
-    {
-      "title": "02_fetch_csv_exercise_p5",
-      "description": "02_fetch_csv_exercise_p5",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_p5/"
-      }
-    },
-    {
-      "title": "03_fetch_json",
-      "description": "03_fetch_json",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_center_map",
-      "description": "03_fetch_json_exercise_center_map",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_center_map/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa",
-      "description": "03_fetch_json_exercise_p5_mappa",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa_velocity",
-      "description": "03_fetch_json_exercise_p5_mappa_velocity",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa_velocity/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_altitude",
-      "description": "03_fetch_json_exercise_scale_altitude",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_altitude/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_iss",
-      "description": "03_fetch_json_exercise_scale_iss",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_iss/"
       }
     }
   ],
   "groupLinks": [
     {
       "title": "References",
-      "links": []
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Fetch API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "description": "The Fetch API on MDN Web Docs"
+        }
+      ]
     }
   ]
 }
