@@ -189,7 +189,7 @@ const PassengerShowcaseForm = () => {
           />
           <span>
             A JPG or PNG image to be shown in the passenger showcase list. The
-            image should be maximum 800 pixels wide and 500 kb in size and should represent the
+            image should be maximum 800 pixels wide and 500 kb in size and should visually represent your
             output of your code.  The image will be displayed with a 16:9 aspect ratio.
           </span>
         </label>
