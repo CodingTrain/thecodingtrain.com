@@ -23,6 +23,7 @@
     {
       "title": "Snake Game",
       "description": "p5.js and Processing code examples for the Snake Game",
+      "image": "small_snake.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/avh_VGx69",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_003_Snake_game/Processing",
@@ -35,6 +36,7 @@
       "title": "References",
       "links": [
         {
+          "icon": "🌐",
           "title": "Snake Game on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Snake_(video_game)",
           "description": "Wikipedia page about the Snake video game"
