@@ -16,7 +16,7 @@ const Card = ({ className, challenge, placeholderImage }) => {
         <div className={css.icon}>👁</div>
         <h3 className={css.title}>
           {
-            <Link to={`/challenge/${slug}`}>
+            <Link to={`/challenges/${slug}`}>
               {videoNumber ? `#${videoNumber} — ` : ''}
               {title}
             </Link>
@@ -37,7 +37,7 @@ const Card = ({ className, challenge, placeholderImage }) => {
           </p>
         </div>
         <div className={css.right}>
-          <Link to={`/challenge/${slug}`}>
+          <Link to={`/challenges/${slug}`}>
             {cover ? (
               <Image
                 image={cover.file.childImageSharp.gatsbyImageData}

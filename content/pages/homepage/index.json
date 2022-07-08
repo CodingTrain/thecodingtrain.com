@@ -1,52 +1,52 @@
 {
   "header": {
     "title": "All aboard!",
-    "description": "Welcome to the Coding Train with Daniel Shiffman! A YouTube channel dedicated to learning creative coding through beginner-friendly projects."
+    "description": "Welcome to the Coding Train with Daniel Shiffman! A community dedicated to learning creative coding with beginner-friendly tutorials and projects on YouTube and more."
   },
   "newToCoding": {
     "title": "New to coding?",
-    "description": "All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly.",
+    "description": "All aboard! Welcome to all beginners and code-curious individuals ready for a coding journey of self-expression and play.",
     "guideCta": {
       "text": "Don't know where to start?",
-      "buttonText": "read getting started guide",
+      "buttonText": "getting started guide",
       "href": "/guides/getting-started"
     },
     "discordCta": {
       "text": "have questions?",
-      "buttonText": "join community discord",
-      "href": "https://discord.com/invite/hPuGy2g"
+      "buttonText": "here's the FAQ",
+      "href": "/faq"
     }
   },
   "tracks": {
     "title": "Tracks",
-    "description": "All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges. All aboard the Coding Train with Daniel Shiffman.",
+    "description": "Streamline your learning experience and ride a Track on The Coding Train. Tracks are sequenced video tutorials that you can follow like a course syllabus.",
     "featured": ["code-programming-with-p5-js", "algorithmic-botany"],
     "tracksCta": {
-      "text": "ready to learn? check out our most popular tracks",
-      "buttonText": "go to tracks",
+      "text": "Ready to learn? Try a track for beginners and more!",
+      "buttonText": "browse tracks",
       "href": "/tracks"
     }
   },
   "challenges": {
     "title": "Challenges",
-    "description": "Watch Daniel take on some viewer submitted Coding Challenges in p5.js and Processing. The challenges range from algorithmic art, machine learning, simulation, to generative poetry, and more.",
+    "description": "Watch Daniel take on Coding Challenge projects in p5.js and Processing. The challenge topics range from algorithmic art, machine learning, simulation, to generative poetry, and more.",
     "featured": [
+      "171-wave-function-collapse",
       "170-monty-hall-problem",
-      "167-prime-spiral",
       "166-image-to-ascii"
     ],
     "challengesCta": {
-      "text": "ready to explore? check out the newest challenges",
-      "buttonText": "go to challenges",
+      "text": "ready to explore? try a challenge!",
+      "buttonText": "browse challenges",
       "href": "/challenges"
     }
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlight",
-    "featured": "challenges/77-recursion/showcase/contribution1.json",
+    "featured": "challenges/163-bezier-curves/showcase/contribution2.json",
     "cta": {
-      "text": "Do you want to see other people's work?",
-      "buttonText": "Check out showcase highlight"
+      "text": "Do you want be inspired?",
+      "buttonText": "Enjoy this showcase highlight"
     }
   },
   "events": {
@@ -55,19 +55,19 @@
     "noEventsDescription": "Keep your eye out for events in the future!",
     "upcoming": [
       {
-        "title": "PCD Copenhagen",
-        "description": "Processing Community Day Copenhagen is a free, one-day event to celebrate the intersection of art and code.",
-        "date": "2022-06-14",
-        "time": "16:00 GMT+2",
-        "host": "PCD Copenhagen",
-        "type": "IRL",
-        "url": "https://pcdcph.com/"
+        "title": "Wave Function Collapse Video Premiere!",
+        "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images.",
+        "date": "2022-07-03",
+        "time": "12:00PM GMT-5",
+        "host": "YouTube",
+        "type": "Premiere with live chat",
+        "url": "https://youtu.be/rI_y2GAlQFM"
       }
     ]
   },
   "support": {
     "title": "Support",
-    "description": "Support the Coding Train and potentially get access to a number of perks like member-only content.",
+    "description": "Support the Coding Train and and enjoy some perks!",
     "options": [
       {
         "text": "YouTube Membership",

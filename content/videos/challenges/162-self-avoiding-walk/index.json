@@ -1,0 +1,186 @@
+{
+  "title": "Self Avoiding Walk",
+  "description": "It's finally time to attempt a Self-Avoiding Walk! In this video, I quickly visualize a simple JavaScript p5.js implementation of a self-avoiding walk. I then tackle the more complex problem of backtracking to find a solution to a space-filling self-avoiding walk.",
+  "videoNumber": "162",
+  "videoId": "m6-cm6GZ1iw",
+  "date": "2021-06-10",
+  "languages": ["p5.js", "javascript"],
+  "topics": ["self avoiding walk", "backtracking"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00:00",
+      "title": "Choo choo! Welcome!"
+    },
+    {
+      "time": "0:01:05",
+      "title": "Explain! How can we go about this?"
+    },
+    {
+      "time": "0:02:29",
+      "title": "Code! Let's add a visited grid."
+    },
+    {
+      "time": "0:06:25",
+      "title": "Code! What are the options for movement now?"
+    },
+    {
+      "time": "0:10:34",
+      "title": "Code! Let's check the edges."
+    },
+    {
+      "time": "0:12:34",
+      "title": "I could stop here but wait."
+    },
+    {
+      "time": "0:13:30",
+      "title": "Explain! How can we think about backtracking?"
+    },
+    {
+      "time": "0:15:15",
+      "title": "Code! Let's make a spot class and a path variable."
+    },
+    {
+      "time": "0:24:23",
+      "title": "Code! Now backtracking!"
+    },
+    {
+      "time": "0:29:38",
+      "title": "Whoops! Copying allOptions was a mistake."
+    },
+    {
+      "time": "0:31:19",
+      "title": "Code! Maybe we need an end condition."
+    },
+    {
+      "time": "0:32:09",
+      "title": "Yay! It worked."
+    },
+    {
+      "time": "0:32:22",
+      "title": "This could take awhile. Could it be improved?"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Basic Self Avoiding Walk - p5 Web Editor",
+      "description": "The basic implementation from the video",
+      "image": "basic.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2_4gyDD_9"
+      }
+    },
+    {
+      "title": "Backtracking",
+      "description": "Backtracking implementation",
+      "image": "basic.png",
+      "urls": {
+        "other": "https://editor.p5js.org/codingtrain/sketches/dRWS3A9nq"
+      }
+    },
+    {
+      "title": "3D",
+      "description": "3D implementation",
+      "image": "3D.png",
+      "urls": {
+        "other": "https://editor.p5js.org/codingtrain/sketches/D0ONOlCDT"
+      }
+    },
+    {
+      "title": "Self Avoiding Walk (With Bezier)",
+      "description": "Implementation with Bezier",
+      "image": "bezier.png",
+      "urls": {
+        "other": "https://editor.p5js.org/codingtrain/sketches/KFbX0NWgh"
+      }
+    },
+    {
+      "title": "Recursion",
+      "description": "Recursion implementation",
+      "image": "recurrsion.png",
+      "urls": {
+        "other": "https://editor.p5js.org/codingtrain/sketches/UPxBk1YiB"
+      }
+    },
+    {
+      "title": "Random Walk with Alpha",
+      "description": "Random Walk with alpha implementation",
+      "image": "alpha.png",
+      "urls": {
+        "other": "https://editor.p5js.org/codingtrain/sketches/IEw2RkDnJ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Self Avoiding Walk (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Self-avoiding_walk",
+          "description": "Discussion of the math and physics of self-avoiding walks."
+        },
+        {
+          "icon": "📓",
+          "title": "The complexity of counting self-avoiding walks in subgraphs of two-dimensional grids and hypercubes",
+          "url": "https://www.sciencedirect.com/science/article/pii/S030439750300080X",
+          "description": "Discussion of counting self-avoiding walks."
+        },
+        {
+          "icon": "📓",
+          "title": "The pivot algorithm: A highly efficient Monte Carlo method for the self-avoiding walk (sci-hub)",
+          "url": "https://sci-hub.st/10.1007/bf01022990",
+          "description": "Discussion of pivot algorithm."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Random Walker - Coding Challenge 52",
+          "url": "https://www.youtube.com/watch?v=l__fEY1xanY",
+          "description": "A random walker is implemented in p5.js"
+        },
+        {
+          "icon": "🎥",
+          "title": "Minesweeper - Coding Challenge 71",
+          "url": "https://www.youtube.com/watch?v=LFU5ZlrR21E",
+          "description": "The classic game of minesweeper is implemented in p5.js."
+        },
+        {
+          "icon": "🎥",
+          "title": "filter() - Array Functions",
+          "url": "https://www.youtube.com/watch?v=qmnH5MT_luk",
+          "description": "This video covers the JavaScript Array higher order function filter()."
+        },
+        {
+          "icon": "🎥",
+          "title": "Maze Generator - Coding Challenge 10",
+          "url": "https://www.youtube.com/watch?v=HyK_Q5rrcr4",
+          "description": "A maze generator is implemented in p5.js"
+        },
+        {
+          "icon": "🎥",
+          "title": "Recursion - Coding Train 77",
+          "url": "https://www.youtube.com/watch?v=jPsZwrV9ld0",
+          "description": "The concept of recursion is used to create fractal patterns in p5.js."
+        },
+        {
+          "icon": "🎥",
+          "title": "A* Pathfinding Algorithm - Coding Challenge 51",
+          "url": "https://www.youtube.com/watch?v=aKYlikFAV4k",
+          "description": "An implementation of the A* pathfinding algorithm to find the optimal path between two points in a 2D grid"
+        },
+        {
+          "icon": "🎥",
+          "title": "3D Self Avoiding Walk - Coding Train Live (May 27, 2021)",
+          "url": "https://youtu.be/jlK1SJr-FBc?t=4353",
+          "description": "Livestream of a 3D self avoiding walk."
+        }
+      ]
+    }
+  ]
+}

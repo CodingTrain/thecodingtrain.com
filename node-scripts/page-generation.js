@@ -25,7 +25,7 @@ exports.createChallengesPages = async (graphql, createPage) => {
     // Passes context variables for querying corresponding
     // challenge, contributions and images in front-end
     createPage({
-      path: `challenge/${challenge.slug}`,
+      path: `challenges/${challenge.slug}`,
       component: require.resolve(`../src/templates/challenge.js`),
       context: {
         id: challenge.id,

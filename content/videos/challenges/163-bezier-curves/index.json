@@ -8,59 +8,66 @@
   "topics": ["For beginners"],
   "codeExamples": [
     {
-      "title": "Basic",
-      "description": "",
+      "title": "Basic Example",
+      "description": "Simple Demo of a Bézier Curve",
+      "image": "basicbezier.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Z53a719cQ",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/basic-bezier"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/basic-bezier"
       }
     },
     {
       "title": "Editor by Simon Tiger",
-      "description": "",
+      "description": "Bézier Curve Editor",
+      "image": "beziereditor.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/_R7RgtGfA",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-editor"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/bezier-editor"
       }
     },
     {
-      "title": "bezierVertex",
-      "description": "",
+      "title": "bezierVertex Demo",
+      "description": "Demonstration of usage of bezierVertex()",
+      "image": "beziervertex.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/O3_cLiOaw",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-vertex"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/bezier-vertex"
       }
     },
     {
-      "title": "Time Table Cardioid with Bezier",
-      "description": "",
+      "title": "Time Table Cardioid with Bézier",
+      "description": "Cardioid created using Bézier Curves",
+      "image": "cardioid.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/kZ8dpklQg",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cardioid-bezier"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/cardioid-bezier"
       }
     },
     {
-      "title": "Quadratic",
-      "description": "",
+      "title": "Quadratic Bézier Curve",
+      "description": "Demonstration of a Quadratic Bézier Curve",
+      "image": "quadratic.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/fJIMDmHcE",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/quadratic"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/quadratic"
       }
     },
     {
-      "title": "Cubic",
-      "description": "",
+      "title": "Cubic Bézier Curve",
+      "description": "Demonstration of a Cubic Bézier Curve",
+      "image": "cubic.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/S1Pt8lol1",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/cubic"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/cubic"
       }
     },
     {
-      "title": "Bezier with Formula",
-      "description": "",
+      "title": "Bézier Curve with Formula",
+      "description": "Rendering a Bézier Curve using the formula",
+      "image": "formula.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0XOLNHbvC",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_163_Bezier/bezier-formula"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/163_Bezier/bezier-formula"
       }
     }
   ],
@@ -69,32 +76,45 @@
       "title": "Links discussed",
       "links": [
         {
+          "icon": "💰",
           "title": "#SupportP5 2020",
-          "url": "https://donorbox.org/supportp52020"
-        },
+          "url": "https://discourse.processing.org/t/supportp5-2020-processing-foundation-fundraiser/26077",
+          "description": "#SupportP5 is a month-long online fundraising campaign to support and help sustain the Processing Foundation."
+          },
         {
+          "icon": "💾",
           "title": "Jason Oswald (GitHub)",
           "url": "https://github.com/gajoswald"
         },
         {
+          "icon": "💾",
           "title": "Processing Foundation",
-          "url": "https://processingfoundation.org/"
+          "url": "https://processingfoundation.org/",
+          "description": "The Processing Foundation is the parental organization of p5.js and Processing."
         },
         {
+          "icon": "💾",
           "title": "bezier() - p5.js Reference",
-          "url": "https://p5js.org/reference/#/p5/bezier"
+          "url": "https://p5js.org/reference/#/p5/bezier",
+          "description": "p5.js documentation for bezier()"
         },
         {
+          "icon": "🗄",
           "title": "Bézier curve (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/B%C3%A9zier_curve"
+          "url": "https://en.wikipedia.org/wiki/B%C3%A9zier_curve",
+          "description": "Wikipedia article on Bezier Curves"
         },
         {
-          "title": "Custom shapes - Programming Design Systems by Rune Madsen",
-          "url": "https://www.programmingdesignsystems.com/shape/custom-shapes/index.html#custom-shapes-pANLh0l"
+          "icon": "💢",
+          "title": "Custom Shapes",
+          "url": "https://www.programmingdesignsystems.com/shape/custom-shapes/index.html#custom-shapes-pANLh0l",
+          "description": "Programming Design Systems by Rune Madsen - Custom Shapes"
         },
         {
+          "icon": "💾",
           "title": "lerp() - p5.js Reference",
-          "url": "https://p5js.org/reference/#/p5/lerp"
+          "url": "https://p5js.org/reference/#/p5/lerp",
+          "description": "p5.js documentation for lerp()"
         }
       ]
     },
@@ -102,14 +122,16 @@
       "title": "Videos discussed",
       "links": [
         {
+          "icon": "🎥",
           "title": "Self Avoiding Walk - Coding Challenge 162",
-          "description": "by The Coding Train",
-          "url": "/challenges/162-self-avoiding-walk"
+          "description": "Creating a Self-Avoiding Walk",
+          "url": "https://youtu.be/m6-cm6GZ1iw"
         },
         {
-          "title": "Time Table Cardioid - Coding Challenge 133",
-          "description": "by The Coding Train",
-          "url": "/challenges/133-times-tables-cardioid"
+          "icon": "🎥",
+          "title": "Times Tables Cardioid - Coding Challenge 133",
+          "description": "Times Tables Cardioid Visualisation",
+          "url": "https://youtu.be/bl3nc_a1nvs"
         }
       ]
     }

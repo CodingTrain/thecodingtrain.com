@@ -16,7 +16,7 @@ import * as css from '../styles/pages/404.module.css';
 const NotFoundPage = ({ data }) => {
   const { title, description, links } = data.pageData.nodes[0];
   return (
-    <Layout title="Page not found!" description={description}>
+    <Layout title={title} description={description}>
       <Spacer />
 
       <header className={css.header}>

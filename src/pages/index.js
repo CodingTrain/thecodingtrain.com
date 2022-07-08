@@ -40,6 +40,7 @@ const TrackCard = ({ track, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
+          alt={`"${title}" track`}
         />
       </Link>
 
@@ -58,12 +59,12 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         <div className={css.icon}>👁</div>
 
         <h3 className={css.smallTitle}>
-          <Link to={`challenge/${slug}`}>
+          <Link to={`challenges/${slug}`}>
             {videoNumber ? `#${videoNumber} — ` : ''} {title}
           </Link>
         </h3>
       </div>
-      <Link to={`challenge/${slug}`}>
+      <Link to={`challenges/${slug}`}>
         <Image
           image={
             cover
@@ -72,6 +73,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
           }
           pictureClassName={css.picture}
           imgClassName={css.image}
+          alt={`"${title}" coding challenge`}
         />
       </Link>
 
@@ -348,6 +350,7 @@ const IndexPage = ({ data }) => {
                 }
                 pictureClassName={css.picture}
                 imgClassName={css.image}
+                alt={`Passenger showcase "${content.passengerShowcase.featured.title}" from ${content.passengerShowcase.featured.author.name}`}
               />
             </div>
           </article>

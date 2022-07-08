@@ -2,3 +2,5 @@ node_modules/
 .cache/
 public
 .DS_Store
+_descriptions
+.netlify

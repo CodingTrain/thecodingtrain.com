@@ -1,13 +1,11 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.thecodingtrain.com',
-    title: 'The Coding Train'
-  },
-  flags: {
-    DEV_SSR: true
+    title: 'The Coding Train',
+    description:
+      'All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges.'
   },
   plugins: [
-    `gatsby-plugin-gatsby-cloud`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
@@ -170,6 +168,7 @@ module.exports = {
           include: './src/images'
         }
       }
-    }
+    },
+    `gatsby-plugin-meta-redirect`
   ]
 };

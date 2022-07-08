@@ -1,0 +1,91 @@
+{
+  "title": "Slitscan Time Displacement Effect",
+  "description": "In this video I explore the wonders of the copy() function in the creative coding platform Processing, simulating slitscan photography and bending time itself! This video is thanks to Tim Rodenbröker’s generous donation to The Processing Foundation!",
+  "videoNumber": "164",
+  "videoId": "hckvHFDGiJk",
+  "date": "2021-11-21",
+  "languages": ["Processing"],
+  "topics": ["copy function", "video", "images", "slitscan"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Context of this video" },
+    { "time": "0:55", "title": "How to use the copy function?" },
+    { "time": "2:05", "title": "Stretching an image" },
+    { "time": "3:02", "title": "Loading the Choo Choo Bot image" },
+    { "time": "3:36", "title": "Specifying the source image to copy" },
+    { "time": "4:04", "title": "Slicing and shuffling the image" },
+    { "time": "5:18", "title": "Exploring algorithmic visual possibilities" },
+    { "time": "9:52", "title": "Other possibilities you can explore!" },
+    { "time": "10:30", "title": "Using a live video capture" },
+    { "time": "12:33", "title": "Historical examples of the slitscan effect" },
+    { "time": "13:17", "title": "Recreating the slitscan effect!" },
+    { "time": "16:11", "title": "Storing the slice as a PImage" },
+    { "time": "19:21", "title": "How to keep track of the history of slices" },
+    { "time": "21:15", "title": "Creating an array of slices" },
+    { "time": "22:29", "title": "All this extra work to get the same result?" },
+    { "time": "23:53", "title": "Using an offset in the history" },
+    { "time": "24:30", "title": "Not exactly the original slitscan effect" },
+    {
+      "time": "26:29",
+      "title": "Moving through time in the history of images"
+    },
+    { "time": "27:35", "title": "Wrapping up this coding challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Slitscan",
+      "description": "Processing examples for the Slitscan Coding Challenge",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/164_Slitscan/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🎁",
+          "title": "#SupportP5 2020",
+          "url": "https://discourse.processing.org/t/supportp5-2020-processing-foundation-fundraiser/26077",
+          "description": "#SupportP5 is a month-long online fundraising campaign to support and help sustain the Processing Foundation."
+        },
+        {
+          "icon": "🖼️",
+          "title": "Tim Rodenbroeker Creative Coding",
+          "url": "https://timrodenbroeker.de/",
+          "description": "Tim's website on creative coding."
+        },
+        {
+          "icon": "🇵",
+          "title": "Processing Foundation",
+          "url": "https://processingfoundation.org/",
+          "description": "The Processing Foundation maintains the Processing and p5.js software."
+        },
+        {
+          "icon": "✏️",
+          "title": "copy()",
+          "url": "https://processing.org/reference/copy_.html",
+          "description": "The full details about copy() are on the Processing reference."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Simple Harmonic Motion - Nature of Code Lesson #3.5",
+          "description": "Using sine waves in p5.js to simulate simple harmonic motion.",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/5-harmonic-motion"
+        },
+        {
+          "icon": "🎥",
+          "title": "The Modulo Operator with Golan Levin",
+          "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator.",
+          "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A"
+        }
+      ]
+    }
+  ]
+}

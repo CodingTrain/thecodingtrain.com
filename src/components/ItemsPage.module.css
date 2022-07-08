@@ -102,6 +102,7 @@
   justify-content: center;
   height: var(--baseline-3x);
   background: white;
+  color: var(--gray-dark);
   border-bottom: var(--border);
   border-left: var(--border);
   & span {
@@ -125,7 +126,6 @@
 }
 
 .paginationNav.cyan {
-  color: var(--cyan);
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
 }
@@ -140,7 +140,6 @@
 }
 
 .paginationNav.red {
-  color: var(--red);
   border-bottom: var(--border-red);
   border-left: var(--border-red);
 }

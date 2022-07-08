@@ -23,7 +23,7 @@
     {
       "title": "Monty Hall",
       "description": "Three-door demonstration of the Monty Hall Problem with gameplay statistics",
-      "image": "image1.png",
+      "image": "montyhall.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM"
       }
@@ -31,7 +31,7 @@
     {
       "title": "Monty Hall (variable speed and doors)",
       "description": "Demonstration of the Monty Hall Problem with up to 50 doors",
-      "image": "image2.png",
+      "image": "montyhall2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/PVuN7NPjj"
       }
@@ -39,7 +39,6 @@
     {
       "title": "GitHub Repo",
       "description": "Link to the demonstration source code",
-      "image": "image2.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Monty-Hall"
       }
@@ -47,7 +46,7 @@
     {
       "title": "Demo",
       "description": "Link to the running Monty Hall Problem demonstration",
-      "image": "image2.png",
+      "image": "demo.png",
       "urls": {
         "other": "https://codingtrain.github.io/Monty-Hall/"
       }
@@ -58,16 +57,19 @@
       "title": "References",
       "links": [
         {
+          "icon": "🗄",
           "title": "Game Show Problem",
           "url": "https://web.archive.org/web/20130121183432/http://marilynvossavant.com/game-show-problem/",
           "description": "Ask Marilyn column on the Problem published in Parade Magazine in 1990"
         },
         {
+          "icon": "💾",
           "title": "Document Object Model (DOM)",
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
           "description": "MDN Web Docs entry on the Document Object Model"
         },
         {
+          "icon": "💾",
           "title": "CSS Basics",
           "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics",
           "description": "MDN Web Docs entry on the basics of CSS"
@@ -78,16 +80,19 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "The Basics of CSS",
           "url": "https://www.youtube.com/watch?v=zGL8q8iQSQw",
           "description": "p5.js tutorial on basic CSS and the p5 style() function"
         },
         {
+          "icon": "🎥",
           "title": "Callbacks on Multiple DOM Elements",
           "url": "https://www.youtube.com/watch?v=KeZBpeH59Q4",
           "description": "p5.js tutorial on using the selectAll() function to add events to multiple DOM elements"
         },
         {
+          "icon": "🎥",
           "title": "Local Storage in Javascript",
           "url": "https://www.youtube.com/watch?v=_SRS8b4LcZ8",
           "description": "p5.js tutorial on using local storage in JavaScript"

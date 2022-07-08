@@ -25,40 +25,40 @@
   "codeExamples": [
     {
       "title": "Prime (Ulam) Spiral",
-      "description": "Code example 1 description",
-      "image": "image1.png",
+      "description": "Visualisation of the Prime Spiral",
+      "image": "primespiral.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0Ud-XsaYb"
       }
     },
     {
       "title": "Number Spiral",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Demo of displaying numbers in a spiral pattern",
+      "image": "numberspiral.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Zs65bV-Al"
       }
     },
     {
       "title": "Prime vs Random Spiral",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Visual comparison of a prime spiral and a random spiral pattern",
+      "image": "comparison.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/3np1hBlXD"
       }
     },
     {
       "title": "Shapes & Color",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Prime Spiral visualised with various colorful shapes",
+      "image": "shapesandcolor.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/mCvvSKpZ5"
       }
     },
     {
       "title": "Incorporating 3D",
-      "description": "Code example 2 description",
-      "image": "image2.png",
+      "description": "Prime Spiral visualised with 3D shapes",
+      "image": "3dspiral.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/-eX078HZ5"
       }
@@ -69,26 +69,31 @@
       "title": "References",
       "links": [
         {
+          "icon": "📺",
           "title": "CodingTrainChooChoo on Twitch",
           "url": "https://www.twitch.tv/codingtrainchoochoo",
-          "description": "The Coding Train Twitch Account"
+          "description": "The Coding Train Twitch Channel"
         },
         {
+          "icon": "2️⃣",
           "title": "Mathematical Games: The remarkable lore of the prime numbers (1964)",
           "url": "https://www.scientificamerican.com/article/mathematical-games-1964-03/",
           "description": "Scientific American article on prime numbers"
         },
         {
+          "icon": "📓",
           "title": "An Observation on the Distribution of Primes, M. Stein and S. M. Ulam",
           "url": "https://doi.org/10.2307/2314055",
           "description": "An article on the distribution of prie numbers"
         },
         {
+          "icon": "🗄",
           "title": "Prime Numbers (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Prime_number",
           "description": "Wikipedia entry on prime numbers"
         },
         {
+          "icon": "🗄",
           "title": "List of Prime Numbers",
           "url": "https://en.wikipedia.org/wiki/List_of_prime_numbers",
           "description": "Wikipedia entry listing prime numbers"
@@ -104,6 +109,7 @@
       "title": "Videos",
       "links": [
         {
+          "icon": "🎥",
           "title": "Prime Spirals",
           "url": "https://youtube.com/watch?v=iFuR97YcSLM",
           "description": "Numberphile video on prime spirals"

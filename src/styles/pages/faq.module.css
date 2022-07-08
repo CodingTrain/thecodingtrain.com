@@ -29,15 +29,15 @@
 .description {
   display: flex;
   height: var(--baseline-3x);
-  align-items: center;
   border-left: var(--border);
   border-bottom: var(--border);
+  padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   font-size: var(--font-reduced);
-  color: var(--gray-mid);
-  padding: 0 var(--box-padding);
+  color: var(--gray-dark);
 
   & p {
-    width: 80%;
+    flex-basis: 700px;
+    margin: 0;
   }
 
   & a {
@@ -56,7 +56,7 @@
   font-size: var(--font-reduced);
   font-family: var(--maru);
   font-weight: 600;
-  color: var(--pink);
+  color: var(--gray-dark);
   border-left: var(--border);
   border-bottom: var(--border);
   border-bottom-color: var(--pink);

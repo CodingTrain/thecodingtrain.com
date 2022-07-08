@@ -1,0 +1,172 @@
+{
+    "title": "Marching Squares",
+    "description": "In this episode of Coding in the Cabana, Gloria Pickle and I investigate the Marching Squares algorithm and apply it to Open Simplex Noise in Processing.",
+    "videoNumber": "5 - Coding in the Cabana",
+    "videoId": "0ZONMNUKTfU",
+    "date": "2020-07-14",
+    "languages": ["processing"],
+    "topics": ["marching squares", "metaballs", "worley noise", "isolines", "noise", "grid"],
+    "canContribute": true,
+    "relatedChallenges": ["", ""],
+    "timestamps": [
+      { "time": "0:00", "title": "Marching Squares" },
+      { "time": "3:35", "title": "Creating a 2D Grid" },
+      { "time": "6:18", "title": "Visualizing Isolines" },
+      { "time": "13:46", "title": "Adding Lines" },
+      { "time": "17:29", "title": "Using Noise to Generate Points" },
+      { "time": "21:18", "title": "OpenSimplex Noise in 3D" },
+      { "time": "23:32", "title": "Next Ideas and Linear Interpolation" },
+      { "time": "25:38", "title": "Goodbyes" }
+    ],
+    "codeExamples": [
+      {
+        "title": "Color",
+        "description": "Visualization of marching squares in color.",
+        "image": "color.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/hERGV3q_u",
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main//005_marching_squares/Processing_color"
+        }
+      },
+      {
+        "title": "Worley Noise",
+        "description": "Visualization of marching squares with worley noise.",
+        "image": "worley.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/JzvYF8WwT",
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_worley"
+        }
+      },
+      {
+        "title": "Image",
+        "description": "Visualization of marching squares with a image.",
+        "image": "image.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/qThqi4OfJ",
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_image"
+        }
+      },
+      {
+        "title": "Webcam",
+        "description": "Visualization of marching squares with a webcam.",
+        "image": "webcam.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/0XAj0DRD2",
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_webcam"
+        }
+      },
+      {
+        "title": "Metaballs",
+        "description": "Visualization of marching squares with metaballs.",
+        "image": "metaballs.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/wwB-AA4i-",
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_metaballs"
+        }
+      },
+      {
+        "title": "Cave Generation",
+        "description": "Visualization of marching squares for cave generation.",
+        "image": "cave.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/z4U3Luf7o"   
+        }
+      },
+      {
+        "title": "Metaballs Interpolation",
+        "description": "Visualization of marching squares with metaballs iterpolation.",
+        "image": "interpolation.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/hEB4588QC",
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_metaballs_interpolation"
+        }
+      },
+      {
+        "title": "OpenSimplex Interpolation",
+        "description": "Visualization of marching squares with OpenSimplex interpolation.",
+        "image": "opensimplex.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/18cjVoAX1",
+          "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_simplex_interpolation/sketch_marching_squares_simplex_noise_interpolation"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "📓",
+            "title": "Marching cubes: A high resolution 3D surface construction algorithm",
+            "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.132.3930",
+            "description": "Paper about a 3D surface construction algorithm"
+          },
+          {
+            "icon": "📓",
+            "title": "Metaballs and Marching Squares",
+            "url": "http://jamie-wong.com/2014/08/19/metaballs-and-marching-squares/",
+            "description": "Jamie Wong's discussion of metaballs and marching squares."
+          },
+          {
+            "icon": "🗄",
+            "title": "Marching squares (Wikipedia)",
+            "url": "https://en.wikipedia.org/wiki/Marching_squares",
+            "description": "Discussion of marching squares."
+          },
+          {
+            "icon": "💾",
+            "title": "OpenSimplexNoise-for-Processing (GitHub Repo)",
+            "url": "https://github.com/CodingTrain/OpenSimplexNoise-for-Processing",
+            "description": "Library for additional noise algorithms in Processing. "
+          },
+          {
+            "icon": "💾",
+            "title": "Open Simplex Noise in Java",
+            "url": "https://gist.github.com/KdotJPG/b1270127455a94ac5d19",
+            "description": "Visually isotropic coherent noise algorithm based on the simplectic honeycomb."
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [
+            { 
+                "icon": "🎥",
+                "title": "Coding Adventure: Marching Cubes",
+                "url": "https://youtu.be/M3iI2l0ltbE",
+                "description": "Sebastian Lague tries to understand marching cubes, and then uses it to construct an endless underwater world."
+            },
+            {
+                "icon": "🎥",
+                "title": "[Unity] Procedural Cave Generation (E02. Marching Squares)",
+                "url": "https://youtu.be/yOgIncKp0BE",
+                "description": "Sabatian Lague explains how to Learn how to create procedurally generated caverns/dungeons using cellular automata and marching squares."
+            },
+            {
+                "icon": "🎥",
+                "title": "Coding Challenge #28 - Metaballs",
+                "url": "https://www.youtube.com/watch?v=ccYLb7cLB1I",
+                "description": "I show you how to code Metaballs (Isosurfaces) from scratch in Processing "
+            },
+            {
+                "icon": "🎥",
+                "title": "What is OpenSimplex Noise?",
+                "url": "https://www.youtube.com/watch?v=Lv9gyZZJPE0",
+                "description": "Discussion of open simplex noise in processing."
+            },
+            {
+                "icon": "🎥",
+                "title": "Coding in the Cabana #4 - Worley Noise",
+                "url": "https://thecodingtrain.com/challenges/c4-worley-noise",
+                "description": "An exploration of the beauty of Worley noise."
+            },
+            {
+              "icon": "🎥",
+              "title": "2D Noise - Perlin Noise and p5.js Tutorial",
+              "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/perlin-noise-and-p5js-tutorial-intro",
+              "description": "I show you what Perlin noise is and how it can be used in creative coding."
+          }
+        ]
+    }
+    ]
+  }
