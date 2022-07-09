@@ -1,10 +1,19 @@
 {
-    "title": "GitHub Pages",
-    "description": "In part 8 of the Git and GitHub for Poets series, I show you how to use GitHub Pages as free web hosting.",
+    "title": "Resolving Merge Conflicts",
+    "description": "In this video, I look at how to resolve a “merge conflict” using the GitHub interface.",
     "languages": [],
     "topics": ["For beginners","Git","GitHub"],
-    "videoId": "bFVtrlyH-kc",
+    "videoId": "JtIX3HJKwfo",
     "timestamps": [
+    ],
+    "codeExamples": [
+        {
+            "title": "Toy-Neural-Network-JS",
+            "description": "GitHub repo for Neural Network JavaScript library for Coding Train tutorials",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
+            }
+        }
     ],
     "groupLinks":[
         {
@@ -26,9 +35,9 @@
             "title": "Videos",
             "links":[
                 {
-                    "title": "HTML/CSS/DOM - p5.js",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX",
-                    "description": "Learning HTML, CSS, and how to manipulate the DOM with p5.js."
+                    "title": "CircleCI: Unit Testing and Continuous Integration",
+                    "uri": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bLqwFa52YGEHy-L1-D_Ve-",
+                    "description": "Unit testing and continuous integration in JavaScript with Jest, CircleCI, GitHub."
                 }
             ]
         }
