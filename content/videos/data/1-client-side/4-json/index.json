@@ -1,5 +1,5 @@
 {
-  "title": "1.4 JSON",
+  "title": "1.4 Fetching JSON Data from an API",
   "description": "With our previous projects, we learned about fetch() and tabular data. This next project will show you how to work with JSON data from an API including how to load JSON data with fetch() and update DOM element.",
   "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],
