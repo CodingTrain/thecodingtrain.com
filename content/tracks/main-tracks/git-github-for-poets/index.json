@@ -6,15 +6,22 @@
     {
       "title": "Fundamentals",
       "videos": [
-        "git-github-poets/1-fundamentals/1-intro",
-        "git-github-poets/1-fundamentals/2-branches",
-        "git-github-poets/1-fundamentals/3-forks-pr",
-        "git-github-poets/1-fundamentals/4-issues",
-        "git-github-poets/1-fundamentals/5-command-line",
-        "git-github-poets/1-fundamentals/6-cloning-repo",
-        "git-github-poets/1-fundamentals/7-git-init",
-        "git-github-poets/1-fundamentals/8-pages",
-        "git-github-poets/1-fundamentals/9-resolve-conflicts"
+        "git/1-fundamentals/1-intro",
+        "git/1-fundamentals/2-branches",
+        "git/1-fundamentals/3-forks-pr",
+        "git/1-fundamentals/4-issues",
+        "git/1-fundamentals/5-command-line",
+        "git/1-fundamentals/6-cloning-repo",
+        "git/1-fundamentals/7-git-init",
+        "git/1-fundamentals/8-pages",
+        "git/1-fundamentals/9-resolve-conflicts",
+        "git/1-fundamentals/10-git-remotes"
+      ]
+    },
+    {
+      "title": "GitHub Automation and CI/CD",
+      "videos":[
+        "more-p5/github-pages-hosting"
       ]
     }
   ]
