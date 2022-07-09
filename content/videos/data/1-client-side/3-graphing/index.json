@@ -1,36 +1,12 @@
 {
   "title": "Graphing with Chart.js",
   "description": "The lesson continues working with tabular data (CSV) and examines how to graph the data in an HTML5 canvas with Chart.js.",
-  "languages": ["javascript", "p5.js", "node.js"],
+  "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "5-ptp9tRApM",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
-    {
-      "title": "01_fetch_image",
-      "description": "01_fetch_image",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
-      }
-    },
-    {
-      "title": "01a_fetch_exercise_text",
-      "description": "01a_fetch_exercise_text",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01a_fetch_exercise_text/"
-      }
-    },
-    {
-      "title": "01b_fetch_exercise_array",
-      "description": "01b_fetch_exercise_array",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01b_fetch_exercise_array/"
-      }
-    },
     {
       "title": "02_fetch_csv",
       "description": "02_fetch_csv",
@@ -53,54 +29,6 @@
       "image": "",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_p5/"
-      }
-    },
-    {
-      "title": "03_fetch_json",
-      "description": "03_fetch_json",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_center_map",
-      "description": "03_fetch_json_exercise_center_map",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_center_map/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa",
-      "description": "03_fetch_json_exercise_p5_mappa",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa_velocity",
-      "description": "03_fetch_json_exercise_p5_mappa_velocity",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa_velocity/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_altitude",
-      "description": "03_fetch_json_exercise_scale_altitude",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_altitude/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_iss",
-      "description": "03_fetch_json_exercise_scale_iss",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_iss/"
       }
     }
   ],

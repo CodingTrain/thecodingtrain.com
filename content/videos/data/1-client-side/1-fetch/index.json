@@ -1,7 +1,7 @@
 {
   "title": "The fetch() Function",
   "description": "This video is client-side only and covers the web fetch() API, loading image data and focusing on handling asynchronous events with Promises (async / await).",
-  "languages": ["javascript", "p5.js", "node.js"],
+  "languages": ["JavaScript"],
   "topics": ["fetch", "promises", "apis"],
   "videoId": "tc8DU14qX6I",
   "canContribute": true,
@@ -22,7 +22,7 @@
   "codeExamples": [
     {
       "title": "Fetching an Image",
-      "description": "Demonstration of fetching image data from an local file",
+      "description": "Demonstration of fetching image data from a local file",
       "image": "fetchimg.jpg",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
@@ -30,18 +30,18 @@
     },
     {
       "title": "Fetching Text File",
-      "description": "Demonstration of fetching data from a text file",
+      "description": "(Exercise) Demonstration of fetching data from a text file",
       "image": "fetchtxt.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01a_fetch_exercise_text/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_exercise_text/"
       }
     },
     {
       "title": "Fetching Multiple Images",
-      "description": "Demonstration of fetching multiple images from an array of files",
+      "description": "(Exercise) Demonstration of fetching multiple images from an array of files",
       "image": "fetchimgarr.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01b_fetch_exercise_array/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_exercise_array/"
       }
     }
   ],

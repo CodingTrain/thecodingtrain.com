@@ -1,7 +1,7 @@
 {
   "title": "HTTP Post Request with fetch()",
   "description": "We are now in Module #2! In the previous module, we focused on client-side JavaScript. We now will learn the basics of server-side programming with Node.\n\n2.3 Let's take data from the client and send it to the server. This video covers routing, JSON parsing, and HTTP POST requests with fetch().",
-  "languages": ["javascript", "p5.js", "node.js"],
+  "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "Kw5tC5nQMRY",
   "canContribute": true,

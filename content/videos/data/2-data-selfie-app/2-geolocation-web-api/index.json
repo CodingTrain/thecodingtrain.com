@@ -1,7 +1,7 @@
 {
   "title": "Geolocation Web API",
   "description": "Before diving into communication between client and server (GET and POST requests), let's look at the Geolocation Web API with navigator.geolocation. This data will be sent to the server and stored in a database in upcoming videos.",
-  "languages": ["javascript", "p5.js", "node.js"],
+  "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "3ls013DBcww",
   "canContribute": true,

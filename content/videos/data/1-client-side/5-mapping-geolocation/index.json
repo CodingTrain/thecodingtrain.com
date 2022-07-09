@@ -1,7 +1,7 @@
 {
   "title": "Mapping Geolocation with Leaflet.js",
   "description": "In this video I use Leaflet.js to add an interactive map to the page and place the ISS location as a marker.",
-  "languages": ["javascript", "p5.js", "node.js"],
+  "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "nZaZ2dB6pow",
   "canContribute": true,

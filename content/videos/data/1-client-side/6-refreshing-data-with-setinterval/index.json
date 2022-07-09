@@ -1,7 +1,7 @@
 {
   "title": "Refreshing Data with setInterval()",
   "description": "The lesson covers on refreshing new data from the ISS API and updating the HTML DOM accordingly once per second with setInterval().",
-  "languages": ["javascript", "p5.js", "node.js"],
+  "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "jKQUHGpOHqg",
   "canContribute": true,
