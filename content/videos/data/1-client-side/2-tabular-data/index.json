@@ -8,10 +8,10 @@
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What is CSV?" },
     { "time": "01:15", "title": "Using an external Dataset" },
-    { "time": "03:41", "title": "Start Coding!" },
+    { "time": "03:42", "title": "Start Coding!" },
     { "time": "05:07", "title": "Create a test Dataset" },
     { "time": "05:58", "title": "Code! Read the CSV file!" },
-    { "time": "07:41", "title": "Explain! How to parse a CSV file?" },
+    { "time": "07:42", "title": "Explain! How to parse a CSV file?" },
     { "time": "08:59", "title": "Code! Split the rows!" },
     { "time": "10:55", "title": "Code! Parse each field!" },
     { "time": "12:58", "title": "Code! Use the full dataset!" },
