@@ -1,5 +1,5 @@
 {
-  "title": "Working with Tabular Data - Parsing CSV files",
+  "title": "1.2 Working with Tabular Data - Parsing CSV files",
   "description": "This second part of the lesson looks at loading and parsing a CSV file (comma-separated values) with the web fetch() API.",
   "languages": ["JavaScript"],
   "topics": ["csv", "data", "string"],

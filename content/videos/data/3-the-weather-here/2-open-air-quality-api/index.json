@@ -1,5 +1,5 @@
 {
-  "title": "Open Air Quality API in Node.js",
+  "title": "3.2 Open Air Quality API in Node.js",
   "description": "In the previous lesson, we started building The Weather Here application! In this video I look at spoofing different geolocations and investigate what it means to work with multiple APIs within one application.",
   "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],

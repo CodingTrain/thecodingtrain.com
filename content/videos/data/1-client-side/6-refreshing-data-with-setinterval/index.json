@@ -1,5 +1,5 @@
 {
-  "title": "Refreshing Data with setInterval()",
+  "title": "1.6 Refreshing Data with setInterval()",
   "description": "The lesson covers on refreshing new data from the ISS API and updating the HTML DOM accordingly once per second with setInterval().",
   "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],

@@ -1,5 +1,5 @@
 {
-  "title": "The fetch() Function",
+  "title": "1.1 The fetch() Function",
   "description": "This video is client-side only and covers the web fetch() API, loading image data and focusing on handling asynchronous events with Promises (async / await).",
   "languages": ["JavaScript"],
   "topics": ["fetch", "promises", "apis"],
