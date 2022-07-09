@@ -1,0 +1,32 @@
+{
+    "title": "GitHub Pages",
+    "description": "In part 8 of the Git and GitHub for Poets series, I show you how to use GitHub Pages as free web hosting.",
+    "languages": [],
+    "topics": ["For beginners","Git","GitHub"],
+    "videoId": "bFVtrlyH-kc",
+    "timestamps": [
+    ],
+    "groupLinks":[
+        {
+            "title":"References",
+            "links":[
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com",
+                    "description": "GitHub homepage"
+                },
+                {
+                    "title": "GitHub Docs",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+                    "description": "Quickstart tutorial for how to get started with Git and GitHub."
+                },
+                {
+                    "title": "HTML/CSS/DOM - p5.js",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX",
+                    "description": "Learning HTML, CSS, and how to manipulate the DOM with p5.js."
+                }
+            ]
+        }
+    ],
+    "canContribute": false
+}
