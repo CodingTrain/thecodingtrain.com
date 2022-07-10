@@ -1,106 +1,34 @@
 {
   "title": "1.5 Mapping Geolocation with Leaflet.js",
   "description": "In this video I use Leaflet.js to add an interactive map to the page and place the ISS location as a marker.",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "leaflet.js"],
+  "topics": ["mapping", "geolocation"],
   "videoId": "nZaZ2dB6pow",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What is Leaflet.js?" },
+    { "time": "00:31", "title": "Setup Leaflet.js" },
+    { "time": "02:53", "title": "Code! Create the map and specify the tiles!" },
+    { "time": "07:57", "title": "Code! Create a marker on the map!" },
+    { "time": "10:30", "title": "Code! Customize the marker!" },
+    { "time": "12:45", "title": "Refactoring!" },
+    { "time": "13:38", "title": "Next Steps and Exercises" }
+  ],
   "codeExamples": [
     {
-      "title": "01_fetch_image",
-      "description": "01_fetch_image",
-      "image": "",
+      "title": "Where is the ISS?",
+      "description": "Final version of the ISS app.",
+      "image": "whereistheiss.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_updating_iss/"
       }
     },
     {
-      "title": "01a_fetch_exercise_text",
-      "description": "01a_fetch_exercise_text",
+      "title": "Using p5.js + Mappa",
+      "description": "Demonstration of using p5.js for drawing the marker.",
       "image": "",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01a_fetch_exercise_text/"
-      }
-    },
-    {
-      "title": "01b_fetch_exercise_array",
-      "description": "01b_fetch_exercise_array",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01b_fetch_exercise_array/"
-      }
-    },
-    {
-      "title": "02_fetch_csv",
-      "description": "02_fetch_csv",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv/"
-      }
-    },
-    {
-      "title": "02_fetch_csv_exercise_multiple",
-      "description": "02_fetch_csv_exercise_multiple",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_multiple/"
-      }
-    },
-    {
-      "title": "02_fetch_csv_exercise_p5",
-      "description": "02_fetch_csv_exercise_p5",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_p5/"
-      }
-    },
-    {
-      "title": "03_fetch_json",
-      "description": "03_fetch_json",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_center_map",
-      "description": "03_fetch_json_exercise_center_map",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_center_map/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa",
-      "description": "03_fetch_json_exercise_p5_mappa",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa_velocity",
-      "description": "03_fetch_json_exercise_p5_mappa_velocity",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa_velocity/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_altitude",
-      "description": "03_fetch_json_exercise_scale_altitude",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_altitude/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_iss",
-      "description": "03_fetch_json_exercise_scale_iss",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_iss/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_p5_mappa/"
       }
     }
   ],
@@ -109,14 +37,27 @@
       "title": "References",
       "links": [
         {
+          "icon": "🗺",
           "title": "Leaflet.js",
           "url": "https://leafletjs.com/",
-          "description": ""
+          "description": "A JavaScript library for interactive maps."
         },
         {
+          "icon": "🛰",
           "title": "Where the ISS at?",
           "url": "https://wheretheiss.at/",
-          "description": ""
+          "description": "A website that shows the current location of the ISS."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Basics of CSS",
+          "url": "https://youtu.be/zGL8q8iQSQw",
+          "description": "Tutorial on how to use CSS."
         }
       ]
     }
