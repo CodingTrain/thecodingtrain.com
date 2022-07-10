@@ -1,106 +1,58 @@
 {
   "title": "1.6 Refreshing Data with setInterval()",
   "description": "The lesson covers on refreshing new data from the ISS API and updating the HTML DOM accordingly once per second with setInterval().",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "leaflet.js"],
+  "topics": ["setInterval", "api", "mapping"],
   "videoId": "jKQUHGpOHqg",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
     {
-      "title": "01_fetch_image",
-      "description": "01_fetch_image",
+      "title": "Where is the ISS?",
+      "description": "Final version of the ISS app.",
       "image": "",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss/"
       }
     },
     {
-      "title": "01a_fetch_exercise_text",
-      "description": "01a_fetch_exercise_text",
+      "title": "Centering Map on the ISS",
+      "description": "(Exercise) Demonstration of centering the view of the map on the ISS.",
       "image": "",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01a_fetch_exercise_text/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_center_map/"
       }
     },
     {
-      "title": "01b_fetch_exercise_array",
-      "description": "01b_fetch_exercise_array",
+      "title": "Using p5.js + Mappa",
+      "description": "(Exercise) Demonstration of drawing the marker image using p5.js.",
       "image": "",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01b_fetch_exercise_array/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_p5_mappa/"
       }
     },
     {
-      "title": "02_fetch_csv",
-      "description": "02_fetch_csv",
+      "title": "Using p5.js + Mappa with Velocity",
+      "description": "(Exercise) Demonstration of using p5.js to draw the ISS marker and its velocity vector.",
       "image": "",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_p5_mappa_velocity/"
       }
     },
     {
-      "title": "02_fetch_csv_exercise_multiple",
-      "description": "02_fetch_csv_exercise_multiple",
+      "title": "Scaling Marker with Altitude",
+      "description": "(Exercise) Demonstration of scaling the size of the marker according to the altitude of the ISS.",
       "image": "",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_multiple/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_scale_altitude/"
       }
     },
     {
-      "title": "02_fetch_csv_exercise_p5",
-      "description": "02_fetch_csv_exercise_p5",
+      "title": "Scaling Marker with Zoom",
+      "description": "(Exercise) Demonstration of scaling the size of the marker according to the zoom level.",
       "image": "",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv_exercise_p5/"
-      }
-    },
-    {
-      "title": "03_fetch_json",
-      "description": "03_fetch_json",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_center_map",
-      "description": "03_fetch_json_exercise_center_map",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_center_map/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa",
-      "description": "03_fetch_json_exercise_p5_mappa",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa_velocity",
-      "description": "03_fetch_json_exercise_p5_mappa_velocity",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa_velocity/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_altitude",
-      "description": "03_fetch_json_exercise_scale_altitude",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_altitude/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_iss",
-      "description": "03_fetch_json_exercise_scale_iss",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_iss/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_scale_iss/"
       }
     }
   ],
@@ -109,9 +61,10 @@
       "title": "References",
       "links": [
         {
-          "title": "setInterval() on MDN",
+          "icon": "💾",
+          "title": "setInterval()",
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval",
-          "description": ""
+          "description": "setInterval on the MDN Web Docs"
         }
       ]
     }
