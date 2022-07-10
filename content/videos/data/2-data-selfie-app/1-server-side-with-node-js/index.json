@@ -1,111 +1,33 @@
 {
   "title": "2.1 Server-side with Node.js",
   "description": "We are now in Module #2! In our previous module, we focused on client-side Javascript. We now will learn the basics of server-side programming with Node. We will begin building the Data Selfie App, a project tutorial by Joey K. Lee. This unit we will spend time getting setup with Node.js and our workflow.",
-  "languages": ["JavaScript", "p5.js", "node.js"],
+  "languages": [
+    "JavaScript",
+    "node.js"
+  ],
   "topics": [],
   "videoId": "wxbQP1LMZsw",
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [
-    {
-      "title": "data_selfie_app",
-      "description": "data_selfie_app",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
-      }
-    },
-    {
-      "title": "exercise_01_multiple_pages",
-      "description": "exercise_01_multiple_pages",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
-      }
-    },
-    {
-      "title": "exercise_02_leaflet",
-      "description": "exercise_02_leaflet",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
-      }
-    },
-    {
-      "title": "exercise_03_button",
-      "description": "exercise_03_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
-      }
-    },
-    {
-      "title": "exercise_04_array_button",
-      "description": "exercise_04_array_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
-      }
-    },
-    {
-      "title": "exercise_05_input_box",
-      "description": "exercise_05_input_box",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
-      }
-    },
-    {
-      "title": "exercise_06_sorting",
-      "description": "exercise_06_sorting",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
-      }
-    },
-    {
-      "title": "exercise_07_save_files",
-      "description": "exercise_07_save_files",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
-      }
-    },
-    {
-      "title": "exercise_08_p5_drawings",
-      "description": "exercise_08_p5_drawings",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
-      }
-    },
-    {
-      "title": "shiffman.db",
-      "description": "shiffman.db",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
-      }
-    }
-  ],
+  "codeExamples": [],
   "groupLinks": [
     {
       "title": "References",
       "links": [
         {
           "title": "Joey K. Lee",
-          "url": "https://jk-lee.com/work/",
-          "description": ""
+          "url": "https://github.com/joeyklee",
+          "description": "Joey Lee on GitHub"
         },
         {
           "title": "Data Selfie App",
           "url": "https://github.com/joeyklee/data-selfie-app",
-          "description": ""
+          "description": "Original GitHub Repo for the Data Selfie App"
         },
         {
           "title": "Node.js",
           "url": "https://nodejs.org/en/",
-          "description": ""
+          "description": "Node.js is a JavaScript runtime which allows you to run JavaScript code on your computer."
         }
       ]
     }
