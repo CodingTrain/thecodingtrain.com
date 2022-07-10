@@ -1,0 +1,87 @@
+{
+  "title": "Fourier Series",
+  "description": "In this coding challenge, I visualize a Fourier series for a square wave in JavaScript with p5.js.",
+  "videoNumber": "125",
+  "videoId": "Mm2eYfj0SgA",
+  "date": "2018-12-19",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["fourier", "maths"],
+  "canContribute": true,
+  "relatedChallenges": ["61-fractal-spirograph"],
+  "timestamps": [
+    {
+      "time": "00:00",
+      "title": "Welcome! Some resources on the Fourier Series"
+    },
+    { "time": "02:44", "title": "Explain! What is a Fourier Series?" },
+    {
+      "time": "07:00",
+      "title": "Code! Create a dot spinning around a circle!"
+    },
+    { "time": "11:41", "title": "Code! Draw the wave path of the dot!" },
+    { "time": "14:41", "title": "Oops! Invert the order of the wave!" },
+    { "time": "16:16", "title": "Code! Add multiple circle waves!" },
+    { "time": "23:50", "title": "Code! Draw the fourier series!" },
+    { "time": "25:30", "title": "Code! Add slider for number of circles!" },
+    { "time": "27:39", "title": "Suggestions" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Fourier Series",
+      "description": "Demonstration of a Fourier series for a square wave.",
+      "image": "fourier.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SJ02W1OgV",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_125_Fourier_Series/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Fourier Series",
+          "url": "https://en.wikipedia.org/wiki/Fourier_series",
+          "description": "Wikipedia entry on the Fourier Series"
+        },
+        {
+          "icon": "📄",
+          "title": "Purrier Series (Meow) and Making Images Speak",
+          "url": "http://bilimneguzellan.net/purrier-series-meow-and-making-images-speak/",
+          "description": "Article on the Fourier Series"
+        },
+        {
+          "icon": "📄",
+          "title": "An Interactive Guide To The Fourier Transform by Better Explained",
+          "url": "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/",
+          "description": "Article on the Fourier Transform"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "What is a Fourier Series?",
+          "url": "https://youtu.be/ds0cmAV-Yek",
+          "description": "[SmarterEveryDay](https://www.youtube.com/c/smartereveryday)'s video on Fourier Series"
+        },
+        {
+          "icon": "🎥",
+          "title": "But what is the Fourier Transform? A visual introduction",
+          "url": "https://youtu.be/spUNpyF58BY",
+          "description": "[3Blue1Brown](https://www.youtube.com/c/3blue1brown)'s video on Fourier Series"
+        },
+        {
+          "icon": "🚂",
+          "title": "Polar Coordinates",
+          "url": "https://www.youtube.com/watch?v=O5wjXoFrau4",
+          "description": "Tutorial on Cartesian and Polar Coordinates"
+        }
+      ]
+    }
+  ]
+}
