@@ -5,6 +5,11 @@
     "topics": ["For beginners","Git","GitHub"],
     "videoId": "JtIX3HJKwfo",
     "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:37", "title": "What is a merge conflict" },
+        { "time": "3:01", "title": "Resolve conflicts on GitHub" },
+        { "time": "6:40", "title": "commit merge resolution" },
+        { "time": "8:10", "title": "Recap" }
     ],
     "codeExamples": [
         {

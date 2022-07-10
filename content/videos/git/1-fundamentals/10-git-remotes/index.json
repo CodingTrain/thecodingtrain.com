@@ -5,6 +5,10 @@
     "topics": ["For beginners","Git","GitHub"],
     "videoId": "lR_hYwCAaH4",
     "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:18", "title": "What is a remote" },
+        { "time": "3:44", "title": "Adding a second remote" },
+        { "time": "8:55", "title": "Merging from the command line" }
     ],
     "codeExamples": [
         {
