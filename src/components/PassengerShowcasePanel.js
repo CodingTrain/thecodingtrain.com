@@ -66,7 +66,7 @@ const Contribution = ({
   return (
     <article className={css.contrib}>
       <a className={css.title} href={url} target="_blank" rel="noreferrer">
-        <Header>{title}</Header>
+        <Header title={title.length > 30 ? title : null}>{title}</Header>
       </a>
       <a
         className={css.pictureContainer}
