@@ -13,6 +13,15 @@
         { "time": "10:51", "title": "Pull changes from GitHub" },
         { "time": "12:06", "title": "Recap" }
     ],
+    "codeExamples": [
+        {
+            "title": "Rainbow Dance",
+            "description": "GitHub repo for the Rainbow Dance",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Dance"
+            }
+        }
+    ],
     "groupLinks":[
         {
             "title":"References",
@@ -29,6 +38,7 @@
                 },
                 {
                     "title": "GitHub Docs",
+                    "icon": "📚",
                     "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
                     "description": "Quickstart tutorial for how to get started with Git and GitHub."
                 }

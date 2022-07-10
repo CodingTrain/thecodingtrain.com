@@ -9,6 +9,32 @@
         { "time": "1:13", "title": "The terminal prompt" },
         { "time": "2:30", "title": "Basic commands" }
     ],
-    "groupLinks": [],
+    "codeExamples": [
+        {
+            "title": "Rainbow Poem",
+            "description": "GitHub repo for the Rainbow Poem",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Poem"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title":"References",
+            "links":[
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com",
+                    "description": "GitHub homepage"
+                },
+                {
+                    "title": "GitHub Docs",
+                    "icon": "📚",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+                    "description": "Get started with GitHub"
+                }
+            ]
+        }
+    ],
     "canContribute": false
 }

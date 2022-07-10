@@ -6,6 +6,15 @@
     "videoId": "bFVtrlyH-kc",
     "timestamps": [
     ],
+    "codeExamples": [
+        {
+            "title": "Poem Website",
+            "description": "GitHub repo for the Poem Website",
+            "urls": {
+              "other": "https://github.com/CodingTrain/PoemWebsite"
+            }
+        }
+    ],
     "groupLinks":[
         {
             "title":"References",
@@ -17,6 +26,7 @@
                 },
                 {
                     "title": "GitHub Docs",
+                    "icon": "📚",
                     "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
                     "description": "Quickstart tutorial for how to get started with Git and GitHub."
                 }

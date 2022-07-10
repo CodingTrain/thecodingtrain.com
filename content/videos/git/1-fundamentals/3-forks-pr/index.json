@@ -11,6 +11,15 @@
         { "time": "4:22", "title": "Fork a repository from GitHub" },
         { "time": "9:35", "title": "Make a PR from a forked repository" }
     ],
+    "codeExamples": [
+        {
+            "title": "Rainbow Poem",
+            "description": "GitHub repo for the Rainbow Poem",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Poem"
+            }
+        }
+    ],
     "groupLinks":[
         {
             "title":"References",
@@ -22,6 +31,7 @@
                 },
                 {
                     "title": "GitHub Docs",
+                    "icon": "📚",
                     "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
                     "description": "Get started with GitHub"
                 }

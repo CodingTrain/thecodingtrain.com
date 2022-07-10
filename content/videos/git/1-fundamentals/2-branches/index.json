@@ -10,6 +10,15 @@
         { "time": "5:05", "title": "Pull Request and Merging" },
         { "time": "9:17", "title": "Modify both master and another branch" }
     ],
+    "codeExamples": [
+        {
+            "title": "Rainbow Poem",
+            "description": "GitHub repo for the Rainbow Poem",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Poem"
+            }
+        }
+    ],
     "groupLinks":[
         {
             "title":"References",
@@ -21,6 +30,7 @@
                 },
                 {
                     "title": "GitHub Docs",
+                    "icon": "📚",
                     "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
                     "description": "Get started with GitHub"
                 }

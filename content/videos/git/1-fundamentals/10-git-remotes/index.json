@@ -26,6 +26,7 @@
                 },
                 {
                     "title": "GitHub Docs",
+                    "icon": "📚",
                     "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
                     "description": "Quickstart tutorial for how to get started with Git and GitHub."
                 }
