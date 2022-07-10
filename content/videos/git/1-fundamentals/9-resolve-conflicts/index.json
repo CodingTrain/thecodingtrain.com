@@ -37,7 +37,7 @@
             "links":[
                 {
                     "title": "CircleCI: Unit Testing and Continuous Integration",
-                    "uri": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bLqwFa52YGEHy-L1-D_Ve-",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bLqwFa52YGEHy-L1-D_Ve-",
                     "description": "Unit testing and continuous integration in JavaScript with Jest, CircleCI, GitHub."
                 }
             ]
