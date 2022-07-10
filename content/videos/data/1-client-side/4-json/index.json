@@ -5,54 +5,22 @@
   "topics": ["data", "api", "json"],
   "videoId": "uxf0--uiX0I",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What have we done so far?" },
+    { "time": "00:31", "title": "Explain! What is an API?" },
+    { "time": "02:46", "title": "Explain! What is JSON?" },
+    { "time": "05:43", "title": "'Where the ISS at?' API" },
+    { "time": "10:08", "title": "Code! fetch() the data!" },
+    { "time": "13:25", "title": "Code! Show the data on the webpage!" },
+    { "time": "15:02", "title": "Next steps and Exercises!" }
+  ],
   "codeExamples": [
     {
-      "title": "03_fetch_json",
-      "description": "03_fetch_json",
-      "image": "",
+      "title": "Fetch JSON Data",
+      "description": "Demonstration of fetching latitude and longitude of the ISS from an API.",
+      "image": "fetchjson.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_center_map",
-      "description": "03_fetch_json_exercise_center_map",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_center_map/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa",
-      "description": "03_fetch_json_exercise_p5_mappa",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_p5_mappa_velocity",
-      "description": "03_fetch_json_exercise_p5_mappa_velocity",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_p5_mappa_velocity/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_altitude",
-      "description": "03_fetch_json_exercise_scale_altitude",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_altitude/"
-      }
-    },
-    {
-      "title": "03_fetch_json_exercise_scale_iss",
-      "description": "03_fetch_json_exercise_scale_iss",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json_exercise_scale_iss/"
       }
     }
   ],
@@ -61,14 +29,16 @@
       "title": "References",
       "links": [
         {
+          "icon": "🛰",
           "title": "Where the ISS at?",
           "url": "https://wheretheiss.at/",
-          "description": ""
+          "description": "A website that shows the current location of the ISS."
         },
         {
-          "title": "JSON chrome extension",
+          "icon": "➕",
+          "title": "JSON Formatter",
           "url": "https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en",
-          "description": ""
+          "description": "Chrome Extension to format JSON in the browser."
         }
       ]
     }
