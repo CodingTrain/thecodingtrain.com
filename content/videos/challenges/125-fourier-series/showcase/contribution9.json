@@ -1,0 +1,9 @@
+{
+    "title": "Basic wave visualization using Fourier Series in python with pygame",
+    "url": "https://youtu.be/d173h4fVxD8",
+    "author": {
+        "name": "Nate Plamondon",
+        "url": "https://github.com/meznak"
+    },
+    "source": "https://github.com/meznak/fourier-vis"
+}
