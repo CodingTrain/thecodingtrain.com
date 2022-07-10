@@ -22,14 +22,6 @@
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss/"
       }
-    },
-    {
-      "title": "Using p5.js + Mappa",
-      "description": "Demonstration of using p5.js for drawing the marker.",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_p5_mappa/"
-      }
     }
   ],
   "groupLinks": [

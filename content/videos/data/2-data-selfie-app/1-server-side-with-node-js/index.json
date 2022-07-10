@@ -1,7 +1,7 @@
 {
   "title": "2.1 Server-side with Node.js",
-  "description": "We are now in Module #2! In our previous module, we focused on client-side Javascript. We now will learn the basics of server-side programming with Node.\n\n2.1 We will begin building the Data Selfie App, a project tutorial by Joey K. Lee. This unit we will spend time getting setup with Node.js and our workflow.",
-  "languages": ["javaSsript", "p5.js", "node.js"],
+  "description": "We are now in Module #2! In our previous module, we focused on client-side Javascript. We now will learn the basics of server-side programming with Node. We will begin building the Data Selfie App, a project tutorial by Joey K. Lee. This unit we will spend time getting setup with Node.js and our workflow.",
+  "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": [],
   "videoId": "wxbQP1LMZsw",
   "canContribute": true,
