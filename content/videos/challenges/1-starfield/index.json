@@ -13,6 +13,7 @@
     {
       "title": "Starfield",
       "description": "Animated visualization of a starfield (2D rendering)",
+      "image": "starfield.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/1wLHIck3T",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/001_StarField/Processing/CC_001_StarField"
@@ -24,6 +25,7 @@
       "title": "References",
       "links": [
         {
+          "icon": "🌟",
           "title": "Inspiration",
           "url": "https://cs.brynmawr.edu/gxk2013/examples/transformations/starfield/",
           "description": "Challenge based on code from the CS Department of Bryn Mawr College"
