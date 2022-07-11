@@ -1,97 +1,60 @@
 {
   "title": "2.3 HTTP Post Request with fetch()",
-  "description": "We are now in Module #2! In the previous module, we focused on client-side JavaScript. We now will learn the basics of server-side programming with Node.\n\n2.3 Let's take data from the client and send it to the server. This video covers routing, JSON parsing, and HTTP POST requests with fetch().",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "description": "Let's take data from the client and send it to the server. This video covers routing, JSON parsing, and HTTP POST requests with fetch().",
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["fetch"],
   "videoId": "Kw5tC5nQMRY",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome!" },
+    { "time": "01:16", "title": "Code! Routing in Express" },
+    { "time": "02:59", "title": "Code! Create POST request from client!" },
+    { "time": "07:08", "title": "Explain! Use nodemon to restart the app!" },
+    { "time": "08:11", "title": "Code! Parse the JSON Body!" },
+    { "time": "10:07", "title": "Code! Complete the request!" },
+    { "time": "13:57", "title": "Review, Next Steps and Exercises" }
+  ],
   "codeExamples": [
     {
-      "title": "data_selfie_app",
-      "description": "data_selfie_app",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
-      }
-    },
-    {
-      "title": "exercise_01_multiple_pages",
-      "description": "exercise_01_multiple_pages",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
-      }
-    },
-    {
-      "title": "exercise_02_leaflet",
-      "description": "exercise_02_leaflet",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
-      }
-    },
-    {
-      "title": "exercise_03_button",
-      "description": "exercise_03_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
-      }
-    },
-    {
-      "title": "exercise_04_array_button",
-      "description": "exercise_04_array_button",
-      "image": "",
+      "title": "Routing and POST Request",
+      "description": "Demonstration of Routing in Express and making a POST request from the client.",
+      "image": "postrequest.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
       }
     },
     {
-      "title": "exercise_05_input_box",
-      "description": "exercise_05_input_box",
-      "image": "",
+      "title": "Data Persistence",
+      "description": "(Exercise) Saving the latitudes and longitudes in an array",
+      "image": "datapersistence.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
-      }
-    },
-    {
-      "title": "exercise_06_sorting",
-      "description": "exercise_06_sorting",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
-      }
-    },
-    {
-      "title": "exercise_07_save_files",
-      "description": "exercise_07_save_files",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
-      }
-    },
-    {
-      "title": "exercise_08_p5_drawings",
-      "description": "exercise_08_p5_drawings",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
-      }
-    },
-    {
-      "title": "shiffman.db",
-      "description": "shiffman.db",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
       }
     }
   ],
   "groupLinks": [
     {
       "title": "References",
-      "links": []
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Using the Fetch API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+          "description": "The Fetch API on the MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "HTTP Headers",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+          "description": "HTTP Headers on the MDN Web Docs"
+        },
+        {
+          "icon": "🚀",
+          "title": "Nodemon",
+          "url": "https://nodemon.io/",
+          "description": "Nodemon is a utility for restarting your Node.js server when code changes."
+        }
+      ]
     }
   ]
 }
