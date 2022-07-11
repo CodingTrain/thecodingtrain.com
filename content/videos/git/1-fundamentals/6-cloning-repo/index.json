@@ -30,6 +30,7 @@
             "links":[
                 {
                     "title": "Git",
+                    "icon": "⬇",
                     "url": "https://git-scm.com/downloads",
                     "description": "Download git on your computer."
                 },
