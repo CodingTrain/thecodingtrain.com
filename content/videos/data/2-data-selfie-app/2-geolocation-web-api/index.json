@@ -1,90 +1,42 @@
 {
   "title": "2.2 Geolocation Web API",
   "description": "Before diving into communication between client and server (GET and POST requests), let's look at the Geolocation Web API with navigator.geolocation. This data will be sent to the server and stored in a database in upcoming videos.",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["geolocation", "gps"],
   "videoId": "3ls013DBcww",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome!" },
+    { "time": "00:11", "title": "Explain! Client Side vs Server Side code" },
+    { "time": "04:41", "title": "Explain! The Geolocation API" },
+    { "time": "07:08", "title": "Code! Get the user's location!" },
+    { "time": "09:10", "title": "Explain! Website Permissions" },
+    { "time": "11:58", "title": "Code! Display the coordinates in the DOM!" },
+    { "time": "13:31", "title": "Recap, Next Steps and Exercises" }
+  ],
   "codeExamples": [
     {
-      "title": "data_selfie_app",
-      "description": "data_selfie_app",
-      "image": "",
+      "title": "Geolocation API",
+      "description": "Demonstration of the Geolocation API",
+      "image": "geolocation.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/02_geolocation_api/"
       }
     },
     {
-      "title": "exercise_01_multiple_pages",
-      "description": "exercise_01_multiple_pages",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
-      }
-    },
-    {
-      "title": "exercise_02_leaflet",
-      "description": "exercise_02_leaflet",
-      "image": "",
+      "title": "Mapping User's Location",
+      "description": "(Exercise) Demonstration of mapping the user's location using Leaflet.js",
+      "image": "mappinguserslocation.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
       }
     },
     {
-      "title": "exercise_03_button",
-      "description": "exercise_03_button",
-      "image": "",
+      "title": "Geolocate with Button",
+      "description": "(Exercise) Demonstration of geolocating on a button click",
+      "image": "geolocatebutton.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
-      }
-    },
-    {
-      "title": "exercise_04_array_button",
-      "description": "exercise_04_array_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
-      }
-    },
-    {
-      "title": "exercise_05_input_box",
-      "description": "exercise_05_input_box",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
-      }
-    },
-    {
-      "title": "exercise_06_sorting",
-      "description": "exercise_06_sorting",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
-      }
-    },
-    {
-      "title": "exercise_07_save_files",
-      "description": "exercise_07_save_files",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
-      }
-    },
-    {
-      "title": "exercise_08_p5_drawings",
-      "description": "exercise_08_p5_drawings",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
-      }
-    },
-    {
-      "title": "shiffman.db",
-      "description": "shiffman.db",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
       }
     }
   ],
@@ -93,9 +45,16 @@
       "title": "References",
       "links": [
         {
-          "title": "Web API Navigator",
+          "icon": "💾",
+          "title": "Navigator Interface",
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator",
-          "description": ""
+          "description": "window.navigator on the MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "Geolocation Web API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API",
+          "description": "Geolocation API on the MDN Web Docs"
         }
       ]
     }
