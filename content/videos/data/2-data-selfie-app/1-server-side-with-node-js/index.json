@@ -1,33 +1,95 @@
 {
   "title": "2.1 Server-side with Node.js",
   "description": "We are now in Module #2! In our previous module, we focused on client-side Javascript. We now will learn the basics of server-side programming with Node. We will begin building the Data Selfie App, a project tutorial by Joey K. Lee. This unit we will spend time getting setup with Node.js and our workflow.",
-  "languages": [
-    "JavaScript",
-    "node.js"
-  ],
-  "topics": [],
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["node"],
   "videoId": "wxbQP1LMZsw",
   "canContribute": true,
-  "timestamps": [],
-  "codeExamples": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome to Module 2!" },
+    {
+      "time": "00:39",
+      "title": "Explain! Server Side Programming and Node.js"
+    },
+    { "time": "01:26", "title": "What are we going to build?" },
+    { "time": "01:58", "title": "Installation and Setting up" },
+    { "time": "03:13", "title": "Explain! What is Node?" },
+    { "time": "05:16", "title": "Explain! What is a Server?" },
+    { "time": "06:43", "title": "Explain! What is NPM? What is package.json?" },
+    { "time": "09:16", "title": "Install Express!" },
+    { "time": "10:46", "title": "Code! Create an Express App!" },
+    { "time": "12:20", "title": "Explain! What does a server do?" },
+    { "time": "14:23", "title": "Code! Serve static files!" },
+    { "time": "15:48", "title": "Recap, Next Steps and Exercises" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Serving Static Files",
+      "description": "Demonstration of a Node server that serves static files using Express.",
+      "image": "servingstatic.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/01_hosting_static_files"
+      }
+    },
+    {
+      "title": "Serving Multiple Pages",
+      "description": "(Exercise) Demonstration of serving multiple pages using Express.",
+      "image": "servingmultiple.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages"
+      }
+    }
+  ],
   "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "What is Firebase? (DBaaS)",
+          "url": "https://youtu.be/JrHT1iqSrAQ",
+          "description": "Introduction to \"Database as a Service\""
+        },
+        {
+          "icon": "🚂",
+          "title": "Workflow Series",
+          "url": "/tracks/2018-workflow",
+          "description": "The tools I am currently using as part of my workflow."
+        }
+      ]
+    },
     {
       "title": "References",
       "links": [
         {
+          "icon": "👩‍💻",
           "title": "Joey K. Lee",
           "url": "https://github.com/joeyklee",
           "description": "Joey Lee on GitHub"
         },
         {
+          "icon": "🤳",
           "title": "Data Selfie App",
           "url": "https://github.com/joeyklee/data-selfie-app",
           "description": "Original GitHub Repo for the Data Selfie App"
         },
         {
+          "icon": "⬇️",
           "title": "Node.js",
           "url": "https://nodejs.org/en/",
           "description": "Node.js is a JavaScript runtime which allows you to run JavaScript code on your computer."
+        },
+        {
+          "icon": "🚄",
+          "title": "Express",
+          "url": "https://expressjs.com/",
+          "description": "Express is a Node.js web application framework that provides a robust set of features for building web applications and APIs."
+        },
+        {
+          "icon": "🚀",
+          "title": "Node Package Manager",
+          "url": "https://www.npmjs.com/",
+          "description": "npm is a package manager for Node.js."
         }
       ]
     }
