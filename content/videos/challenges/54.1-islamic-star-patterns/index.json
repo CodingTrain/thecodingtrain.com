@@ -1,6 +1,6 @@
 {
     "title": "Islamic Star Patterns",
-    "description": "In this bonus super-sized coding challenge, I work through visualizing Islamic Star Patterns in p5.js based on this University of Waterloo paper",
+    "description": "In this bonus super-sized coding challenge, I work through visualizing Islamic Star Patterns in p5.js based on this University of Waterloo paper.  Showcase contributions are in part 2 of this challenge.",
     "videoNumber": "54.1",
     "videoId": "sJ6pMLp_IaI",
     "date": "2017-02-01",
@@ -11,7 +11,7 @@
         "hankins",
         "tile pattern"
     ],
-    "canContribute": true,
+    "canContribute": false,
     "relatedChallenges": [],
     "timestamps": [],
     "codeExamples": [
