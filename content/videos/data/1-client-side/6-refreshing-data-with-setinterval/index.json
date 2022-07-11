@@ -12,7 +12,7 @@
       "time": "02:18",
       "title": "Code! Update the marker's location with setInterval!"
     },
-    { "time": "03:31", "title": "Error! Only set map view once!" },
+    { "time": "03:31", "title": "Oops! Only set map view once!" },
     { "time": "04:40", "title": "Improvements and Suggestions!" },
     { "time": "06:21", "title": "Module 1 - Recap" },
     { "time": "06:57", "title": "What's next?" }
@@ -23,7 +23,7 @@
       "description": "Final version of the ISS app.",
       "image": "whereistheiss.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_where_is_the_iss/"
       }
     },
     {
