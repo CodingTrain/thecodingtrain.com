@@ -1,6 +1,6 @@
 {
     "title": "Star Patterns Update: Law of Sines",
-    "description": "This coding challenge is a follow up on the challenge #54: Islamic Star Patterns. In this video, I use the Law of Sines to simplify the tiling pattern calculation.",
+    "description": "In this bonus super-sized coding challenge, I work through visualizing the Islamic Star Patterns in p5.js.",
     "videoNumber": "54.2",
     "videoId": "lobJ9gzbLo8",
     "date": "2017-02-14",
@@ -16,13 +16,21 @@
     "relatedChallenges": [],
     "timestamps": [],
     "codeExamples": [
+         {
+            "title": "Islamic Star - Part 1",
+            "description": "My visualization of the islamic star pattern",
+            "image": "islamic.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/b3wnFYeVs",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/054.1_StarPatterns/Processing/"
+            }
+        },
         {
-            "title": "Islamic Star Pattern",
-            "description": "My visualization of the islamic star pattern.",
+            "title": "Islamic Star Pattern - Part 2",
+            "description": "My visualization of the islamic star pattern using the law of sines.",
             "image": "islamic.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/j-WTRIgjN"
-
             }
         }
     ],
@@ -42,6 +50,36 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📐",
+                    "title": "Points, lines, and planes",
+                    "url": "http://paulbourke.net/geometry/pointlineplane/",
+                    "description": "Notes and algorithms dealing with points, lines, and planes."
+                },
+                {
+                    "icon": "💸",
+                    "title": "Refugees International",
+                    "url": "https://refugeerights.org/donate/",
+                    "description": "Donate to Refugees International"
+                },
+                {
+                    "icon": "💸",
+                    "title": "National Immigration Law Center",
+                    "url": "https://www.nilc.org/donate",
+                    "description": "Donate to the Natioal Immigration Law Cener"
+                },
+                {
+                    "icon": "💸",
+                    "title": "International Rescue Committee",
+                    "url": "https://www.refugeesinternational.org/donate/",
+                    "description": "Donate to the International Rescue Committee"
+                },
+                {
+                    "icon": "💸",
+                    "title": "Urban Justice Center | Intl. Refugee Assistance Project",
+                    "url": "https://help.rescue.org/donate/refugees-need-urgent-support",
+                    "description": "Donate to the Urban Justice Center"
+                },
+                {
                     "icon": "🔗",
                     "title": "Law of Sines on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Law_of_sines",
@@ -60,7 +98,7 @@
                     "description": "Craig S. Kaplan Lecture on Star Patterns"
                 },
                 {
-                    "icon", "📓",
+                    "icon": "📓",
                     "title": "University of Waterloo's Star Patterns Paper",
                     "url": "http://www.cgl.uwaterloo.ca/csk/projects/starpatterns/",
                     "description": "University of Waterloo's Star Patterns Paper"
