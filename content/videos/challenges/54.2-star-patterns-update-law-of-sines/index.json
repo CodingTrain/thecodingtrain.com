@@ -54,11 +54,13 @@
                     "description": "Gabriel Weymouth's Tweet on Star Patterns"
                 },
                 {
+                    "icon": "🎤",
                     "title": "Craig S. Kaplan Lecture on Star Patterns",
                     "url": "https://youtu.be/FBn6VgoF3fE",
                     "description": "Craig S. Kaplan Lecture on Star Patterns"
                 },
                 {
+                    "icon", "📓",
                     "title": "University of Waterloo's Star Patterns Paper",
                     "url": "http://www.cgl.uwaterloo.ca/csk/projects/starpatterns/",
                     "description": "University of Waterloo's Star Patterns Paper"
