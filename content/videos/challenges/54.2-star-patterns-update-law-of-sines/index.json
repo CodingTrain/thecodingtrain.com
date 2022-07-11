@@ -60,7 +60,7 @@
                     "description": "Craig S. Kaplan Lecture on Star Patterns"
                 },
                 {
-                    "icon", "📓",
+                    "icon":"📓",
                     "title": "University of Waterloo's Star Patterns Paper",
                     "url": "http://www.cgl.uwaterloo.ca/csk/projects/starpatterns/",
                     "description": "University of Waterloo's Star Patterns Paper"
