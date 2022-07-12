@@ -1,37 +1,79 @@
 {
   "title": "3.2 Open Air Quality API in Node.js",
   "description": "In the previous lesson, we started building The Weather Here application! In this video I look at spoofing different geolocations and investigate what it means to work with multiple APIs within one application.",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["api"],
   "videoId": "Tiot877orkU",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What do we have so far?" },
+    { "time": "00:22", "title": "Spoofing different geolocations" },
+    {
+      "time": "01:25",
+      "title": "Code! Display weather information on the page!"
+    },
+    { "time": "03:38", "title": "Using the OpenAQ API" },
+    { "time": "06:07", "title": "Code! Retrieve Air Quality information" },
+    {
+      "time": "08:24",
+      "title": "Code! Update the client to display weather and air quality data!"
+    },
+    { "time": "12:36", "title": "Code! Add error handling" }
+  ],
   "codeExamples": [
     {
-      "title": "the_weather_here",
-      "description": "the_weather_here",
-      "image": "",
+      "title": "The Weather Here",
+      "description": "Final version of the web application",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here"
       }
     },
     {
-      "title": "the_weather_here_exercises",
-      "description": "the_weather_here_exercises",
-      "image": "",
+      "title": "The Weather Here - Exercises",
+      "description": "Exercises",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises"
       }
     }
   ],
   "groupLinks": [
     {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Promise.all",
+          "url": "https://youtu.be/01RTj1MWec0",
+          "description": "Tutorial on Promise.all"
+        },
+        {
+          "icon": "🚂",
+          "title": "try/catch",
+          "url": "https://youtu.be/BztW_u6HDbs",
+          "description": "Tutorial on try...catch statements"
+        }
+      ]
+    },
+    {
       "title": "References",
       "links": [
         {
+          "icon": "💨",
           "title": "OpenAQ",
           "url": "https://openaq.org/",
-          "description": ""
+          "description": "OpenAQ is a non-profit organization empowering communities around the globe to clean their air by harmonizing, sharing, and using open air quality data."
+        },
+        {
+          "icon": "💾",
+          "title": "Promise.all",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all",
+          "description": "Promise.all() on the MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "try/catch",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch",
+          "description": "try...catch statement on the MDN Web Docs"
         }
       ]
     }

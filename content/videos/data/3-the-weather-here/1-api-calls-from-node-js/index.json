@@ -20,7 +20,7 @@
   "codeExamples": [
     {
       "title": "The Weather Here",
-      "description": "Final version of the web application - The Weather Here",
+      "description": "Final version of the web application",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here"
       }
