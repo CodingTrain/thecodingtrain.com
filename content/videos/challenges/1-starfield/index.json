@@ -8,11 +8,23 @@
   "topics": ["space"],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [],
+  "timestamps": [
+   { "time": "0:00", "title": "Welcome to a 10 minute coding challenge" },
+      { "time": "0:59", "title": "Let's create a star class" },
+      { "time": "2:10", "title": "Make an array of stars" },
+      { "time": "3:17", "title": "Write the update() and show() functions" },
+      { "time": "3:43", "title": "Make the stars move!" },
+      { "time": "5:37", "title": "Translate to the middle of the canvas" },
+      { "time": "6:17", "title": "Add more stars" },
+      { "time": "7:40", "title": "Start to tweak size and speed of stars" },
+      { "time": "9:02", "title": "Add trails to stars" },
+      { "time": "10:31", "title": "Bonus two minutes!" }
+  ],
   "codeExamples": [
     {
       "title": "Starfield",
       "description": "Animated visualization of a starfield (2D rendering)",
+      "image": "starfield.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/1wLHIck3T",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/001_StarField/Processing/CC_001_StarField"
@@ -24,6 +36,7 @@
       "title": "References",
       "links": [
         {
+          "icon": "🌟",
           "title": "Inspiration",
           "url": "https://cs.brynmawr.edu/gxk2013/examples/transformations/starfield/",
           "description": "Challenge based on code from the CS Department of Bryn Mawr College"
