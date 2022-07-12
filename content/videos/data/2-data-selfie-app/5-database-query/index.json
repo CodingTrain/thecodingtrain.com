@@ -1,90 +1,26 @@
 {
-  "title": "2.5 Database Query",
+  "title": "2.5 Querying the Database",
   "description": "It's time to start querying data from the database! For this, we create a new HTTP GET request route, make the request with the fetch() function, and search the database with find().",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["database"],
   "videoId": "q-lUgFxwjEM",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What will we do?" },
+    { "time": "00:58", "title": "Changes to the previous code" },
+    { "time": "02:30", "title": "Code! Request all entries from the server!" },
+    { "time": "03:47", "title": "Code! Create a GET /api route!" },
+    { "time": "04:33", "title": "Code! Query the database!" },
+    { "time": "06:24", "title": "Code! Display the entries on the webpage!" },
+    { "time": "11:00", "title": "Review, Next Steps and Exercises" }
+  ],
   "codeExamples": [
     {
-      "title": "data_selfie_app",
-      "description": "data_selfie_app",
-      "image": "",
+      "title": "Querying the Database",
+      "description": "Demonstration of querying the database and listing all entries in the DOM.",
+      "image": "querydb.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
-      }
-    },
-    {
-      "title": "exercise_01_multiple_pages",
-      "description": "exercise_01_multiple_pages",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
-      }
-    },
-    {
-      "title": "exercise_02_leaflet",
-      "description": "exercise_02_leaflet",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
-      }
-    },
-    {
-      "title": "exercise_03_button",
-      "description": "exercise_03_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
-      }
-    },
-    {
-      "title": "exercise_04_array_button",
-      "description": "exercise_04_array_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
-      }
-    },
-    {
-      "title": "exercise_05_input_box",
-      "description": "exercise_05_input_box",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
-      }
-    },
-    {
-      "title": "exercise_06_sorting",
-      "description": "exercise_06_sorting",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
-      }
-    },
-    {
-      "title": "exercise_07_save_files",
-      "description": "exercise_07_save_files",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
-      }
-    },
-    {
-      "title": "exercise_08_p5_drawings",
-      "description": "exercise_08_p5_drawings",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
-      }
-    },
-    {
-      "title": "shiffman.db",
-      "description": "shiffman.db",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/05_querying_database/"
       }
     }
   ],
@@ -93,9 +29,10 @@
       "title": "References",
       "links": [
         {
+          "icon": "📋",
           "title": "NeDB",
           "url": "https://github.com/louischatriot/nedb",
-          "description": ""
+          "description": "A simple, fast, and efficient embedded persistent key-value store for Node.js"
         }
       ]
     }
