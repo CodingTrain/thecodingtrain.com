@@ -1,111 +1,73 @@
 {
   "title": "2.6 Saving Images and Base64 Encoding",
   "description": "Let's add an image from the webcam to our database. For this project, we will be using the p5.js JavaScript library!",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "node.js", "p5.js"],
+  "topics": ["webcam", "database", "encoding"],
   "videoId": "9Rhsb3GU2Iw",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! Let's use p5.js!" },
+    { "time": "01:22", "title": "Import the p5.js library" },
+    { "time": "04:03", "title": "Code! Create a p5 Sketch!" },
+    { "time": "05:23", "title": "Code! Create a Webcam Capture!" },
+    {
+      "time": "06:54",
+      "title": "Code! Send the image data to the server using Base64 encoding!"
+    },
+    { "time": "10:10", "title": "Code! Display the image on the logs page!" },
+    {
+      "time": "12:09",
+      "title": "Thanks for Watching! Suggestions for Improvements"
+    }
+  ],
   "codeExamples": [
     {
-      "title": "data_selfie_app",
-      "description": "data_selfie_app",
-      "image": "",
+      "title": "Capturing Webcam Images",
+      "description": "Demonstration of saving images from the webcam to the database.",
+      "image": "webcam.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
-      }
-    },
-    {
-      "title": "exercise_01_multiple_pages",
-      "description": "exercise_01_multiple_pages",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
-      }
-    },
-    {
-      "title": "exercise_02_leaflet",
-      "description": "exercise_02_leaflet",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
-      }
-    },
-    {
-      "title": "exercise_03_button",
-      "description": "exercise_03_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
-      }
-    },
-    {
-      "title": "exercise_04_array_button",
-      "description": "exercise_04_array_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
-      }
-    },
-    {
-      "title": "exercise_05_input_box",
-      "description": "exercise_05_input_box",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
-      }
-    },
-    {
-      "title": "exercise_06_sorting",
-      "description": "exercise_06_sorting",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
-      }
-    },
-    {
-      "title": "exercise_07_save_files",
-      "description": "exercise_07_save_files",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
-      }
-    },
-    {
-      "title": "exercise_08_p5_drawings",
-      "description": "exercise_08_p5_drawings",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
-      }
-    },
-    {
-      "title": "shiffman.db",
-      "description": "shiffman.db",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/06_webcam/"
       }
     }
   ],
   "groupLinks": [
     {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Code! Programming with p5.js",
+          "url": "/tracks/code-programming-with-p5-js",
+          "description": "Tutorial series on learning to code with p5.js"
+        }
+      ]
+    },
+    {
       "title": "References",
       "links": [
         {
+          "icon": "✨",
           "title": "p5.js",
           "url": "https://p5js.org",
-          "description": ""
+          "description": "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible."
         },
         {
+          "icon": "💾",
           "title": "Processing Foundation",
           "url": "https://processingfoundation.org/",
-          "description": ""
+          "description": "The Processing Foundation is the parental organization of p5.js and Processing."
         },
         {
+          "icon": "📦",
           "title": "Base64",
           "url": "https://en.wikipedia.org/wiki/Base64",
-          "description": ""
+          "description": "Wikipedia entry on Base64, a data encoding format for images."
+        },
+        {
+          "icon": "💾",
+          "title": "Canvas.toDataURL",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL",
+          "description": "HTMLCanvasElement.toDataURL() on the MDN Web Docs."
         }
       ]
     }
