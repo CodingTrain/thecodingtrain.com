@@ -24,11 +24,19 @@
       }
     },
     {
-      "title": "Data Persistence",
+      "title": "Data Persistence - Saving in an Array",
       "description": "(Exercise) Saving the latitudes and longitudes in an array",
       "image": "datapersistence.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
+      }
+    },
+    {
+      "title": "Data Persistence - Saving to a text file",
+      "description": "(Exercise) Using a text file as a persistent storage.",
+      "image": "datapersistence.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_text_file/"
       }
     }
   ],
