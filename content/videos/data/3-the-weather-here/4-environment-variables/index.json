@@ -1,42 +1,64 @@
 {
   "title": "3.4 Hiding API Keys with Environment Variables (dotenv) and Pushing Code to GitHub",
   "description": "In this lesson, we will address how to can hide an API key using environment variables and open source the code on GitHub.",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["dotenv"],
   "videoId": "17UVejOw3zA",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! How can we hide the API key?" },
+    { "time": "00:35", "title": "Explain! What is an environment variable?" },
+    { "time": "01:24", "title": "Using the Dotenv module" },
+    { "time": "03:54", "title": "Explain! The .env file" },
+    { "time": "06:04", "title": "Explain! The .gitignore file" },
+    {
+      "time": "07:11",
+      "title": "Explain! Initializing a Git repo and publishing to GitHub"
+    },
+    { "time": "11:10", "title": "Thanks for watching!" }
+  ],
   "codeExamples": [
     {
-      "title": "the_weather_here",
-      "description": "the_weather_here",
-      "image": "",
+      "title": "The Weather Here",
+      "description": "Final version of the web application",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here"
       }
     },
     {
-      "title": "the_weather_here_exercises",
-      "description": "the_weather_here_exercises",
-      "image": "",
+      "title": "The Weather Here - Exercises",
+      "description": "Exercises",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises"
       }
     }
   ],
   "groupLinks": [
     {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Git and GitHub for Poets",
+          "url": "/tracks/git-github-for-poets",
+          "description": "Tutorial on using Git and GitHub for version control."
+        }
+      ]
+    },
+    {
       "title": "References",
       "links": [
         {
+          "icon": "🐱‍💻",
           "title": "dotenv",
           "url": "https://www.npmjs.com/package/dotenv",
-          "description": ""
+          "description": "A module for loading environment variables from a .env file"
         },
         {
+          "icon": "📦",
           "title": "GitHub",
           "url": "https://github.com/",
-          "description": ""
+          "description": "GitHub is a online hosting service for version control using Git used for software development."
         }
       ]
     }

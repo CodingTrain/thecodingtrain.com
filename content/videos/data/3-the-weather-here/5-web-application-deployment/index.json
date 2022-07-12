@@ -1,26 +1,34 @@
 {
   "title": "3.5 Web Application Deployment (Glitch and Heroku)",
   "description": "Let's figure out how to deploy your project to a server so that people can access it and use it. We will check out two hosting options: Heroku and Glitch.",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["deployment", "glitch", "heroku"],
   "videoId": "Rz886HkV1j4",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome to the final video!" },
+    { "time": "01:07", "title": "Glitch" },
+    { "time": "02:39", "title": "Using the port from the environment" },
+    { "time": "05:07", "title": "Explain! What exactly is going on?" },
+    { "time": "06:11", "title": "Deploying the code to Glitch!" },
+    { "time": "08:59", "title": "Heroku" },
+    { "time": "11:39", "title": "Set environment variables in Heroku" },
+    { "time": "13:04", "title": "Some more important information" },
+    { "time": "17:31", "title": "Thanks for watching!" }
+  ],
   "codeExamples": [
     {
-      "title": "the_weather_here",
-      "description": "the_weather_here",
-      "image": "",
+      "title": "The Weather Here",
+      "description": "Final version of the web application",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here"
       }
     },
     {
-      "title": "the_weather_here_exercises",
-      "description": "the_weather_here_exercises",
-      "image": "",
+      "title": "The Weather Here - Exercises",
+      "description": "Exercises",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises"
       }
     }
   ],
@@ -29,14 +37,16 @@
       "title": "References",
       "links": [
         {
+          "icon": "✨",
           "title": "Glitch",
           "url": "https://glitch.com",
-          "description": ""
+          "description": "A free hosting service for web apps"
         },
         {
+          "icon": "🖥",
           "title": "Heroku",
           "url": "https://heroku.com/",
-          "description": ""
+          "description": "A free hosting service for web apps"
         }
       ]
     }
