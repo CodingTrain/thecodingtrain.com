@@ -1,0 +1,42 @@
+{
+    "title": "Forks and Pull Requests",
+    "description": "In this third video of Git and GitHub for Poets, I cover the concept of forking a repository and pull requests.",
+    "languages": [],
+    "topics": ["For beginners","Git","GitHub"],
+    "videoId": "_NrSWLQsDL4",
+    "timestamps": [
+        { "time": "0:00", "title": "Review" },
+        { "time": "1:06", "title": "What does it mean to fork a repository?" },
+        { "time": "2:56", "title": "What does pull request mean?" },
+        { "time": "4:22", "title": "Fork a repository from GitHub" },
+        { "time": "9:35", "title": "Make a PR from a forked repository" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Rainbow Poem",
+            "description": "GitHub repo for the Rainbow Poem",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Poem"
+            }
+        }
+    ],
+    "groupLinks":[
+        {
+            "title":"References",
+            "links":[
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com",
+                    "description": "GitHub homepage"
+                },
+                {
+                    "title": "GitHub Docs",
+                    "icon": "📚",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+                    "description": "Get started with GitHub"
+                }
+            ]
+        }
+    ],
+    "canContribute": false
+}
