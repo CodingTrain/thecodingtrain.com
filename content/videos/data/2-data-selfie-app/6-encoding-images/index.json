@@ -28,6 +28,14 @@
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/06_webcam/"
       }
+    },
+    {
+      "title": "Saving image files",
+      "description": "(Exercise) Demonstration of saving image files to the file system.",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_save_files/"
+      }
     }
   ],
   "groupLinks": [

@@ -2,110 +2,79 @@
   "title": "2.7 Project Wrap-up: Accessibility and Design",
   "description": "We've come a long way! Still have questions? A lot will be addressed in the next module. Until then, let's do a bit of cleanup and go over a few exercises that might be helpful as you move forward.",
   "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": [],
+  "topics": ["accessibility", "design"],
   "videoId": "1mnpn6q25FI",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! Some points to address" },
+    {
+      "time": "01:10",
+      "title": "Rethinking the file structure and create style.css"
+    },
+    { "time": "06:36", "title": "Add CSS for designing the page" },
+    { "time": "07:32", "title": "Thinking about Accessibility" },
+    { "time": "09:48", "title": "Next Steps and Exercises" }
+  ],
   "codeExamples": [
     {
-      "title": "data_selfie_app",
-      "description": "data_selfie_app",
-      "image": "",
+      "title": "The Data Selfie App",
+      "description": "The completed version of the Data Selfie App.",
+      "image": "dataselfieapp.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/data_selfie_app/"
       }
     },
     {
-      "title": "exercise_01_multiple_pages",
-      "description": "exercise_01_multiple_pages",
-      "image": "",
+      "title": "Sorting the logs",
+      "description": "(Exercise) Demonstration of adding buttons to sort the logs alphabetically/by timestamp.",
+      "image": "sorting.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_01_multiple_pages/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_sorting/"
       }
     },
     {
-      "title": "exercise_02_leaflet",
-      "description": "exercise_02_leaflet",
-      "image": "",
+      "title": "Saving image files",
+      "description": "(Exercise) Demonstration of saving image files to the file system.",
+      "image": "dataselfieapp.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_save_files/"
       }
     },
     {
-      "title": "exercise_03_button",
-      "description": "exercise_03_button",
-      "image": "",
+      "title": "p5 Drawings",
+      "description": "(Exercise) Demonstration of saving a p5.js drawing to the database.",
+      "image": "p5drawings.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
-      }
-    },
-    {
-      "title": "exercise_04_array_button",
-      "description": "exercise_04_array_button",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
-      }
-    },
-    {
-      "title": "exercise_05_input_box",
-      "description": "exercise_05_input_box",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_input_box/"
-      }
-    },
-    {
-      "title": "exercise_06_sorting",
-      "description": "exercise_06_sorting",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_sorting/"
-      }
-    },
-    {
-      "title": "exercise_07_save_files",
-      "description": "exercise_07_save_files",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_07_save_files/"
-      }
-    },
-    {
-      "title": "exercise_08_p5_drawings",
-      "description": "exercise_08_p5_drawings",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_p5_drawings/"
-      }
-    },
-    {
-      "title": "shiffman.db",
-      "description": "shiffman.db",
-      "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/shiffman.db/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_09_p5_drawings/"
       }
     }
   ],
   "groupLinks": [
     {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Basics of CSS",
+          "description": "p5.js Tutorial on the basics of CSS",
+          "url": "https://youtu.be/zGL8q8iQSQw"
+        }
+      ]
+    },
+    {
       "title": "References",
       "links": [
         {
+          "icon": "📚",
           "title": "WAVE Evaluation Tool",
           "url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
-          "description": ""
+          "description": "Chrome Extension to evaluate Web Accessibility"
         },
         {
+          "icon": "🎭",
           "title": "face-api.js",
           "url": "https://github.com/justadudewhohacks/face-api.js",
-          "description": ""
-        },
-        {
-          "title": "Joey K. Lee",
-          "url": "https://jk-lee.com/work/",
-          "description": ""
+          "description": "JavaScript face recognition API"
         }
       ]
     }
