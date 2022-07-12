@@ -1,0 +1,42 @@
+{
+    "title": "GitHub Issues",
+    "description": "In this fourth video of the Git and GitHub for Poets tutorial series, I cover the concept of GitHub Issues.",
+    "languages": [],
+    "topics": ["For beginners", "Git", "GitHub"],
+    "videoId": "WMykv2ZMyEQ",
+    "timestamps": [
+        { "time": "0:00", "title": "What are issues?" },
+        { "time": "2:51", "title": "Submit an issue" },
+        { "time": "4:57", "title": "Open and closed issues" },
+        { "time": "5:42", "title": "Resolve an issue" },
+        { "time": "9:23", "title": "Reference commits in an issue" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Rainbow Poem",
+            "description": "GitHub repo for the Rainbow Poem",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Poem"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title":"References",
+            "links":[
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com",
+                    "description": "GitHub homepage"
+                },
+                {
+                    "title": "GitHub Docs",
+                    "icon": "📚",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+                    "description": "Get started with GitHub"
+                }
+            ]
+        }
+    ],
+    "canContribute": false
+}
