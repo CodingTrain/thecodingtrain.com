@@ -5,7 +5,7 @@
   "date": "2017-10-06",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["objects", "OOP", "classes"],
-  "canContribute": true,
+  "canContribute": false,
   "timestamps": [],
   "codeExamples": [],
   "groupLinks": [
