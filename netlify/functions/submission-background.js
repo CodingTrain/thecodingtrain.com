@@ -115,7 +115,7 @@ exports.handler = async function (event) {
 
 	<img width "400" alt="Showcase Screenshot" src=${postInfo.image}>
 
-	* [${postinfo.title}](${postInfo.url})
+	* [${postInfo.title}](${postInfo.url})
 	* [${postInfo.authorName}](${postInfo.authorUrl})`,
     head: branchName,
     base: 'main'
