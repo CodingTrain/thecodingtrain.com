@@ -64,13 +64,12 @@
         "code/7-arrays/1-arrays",
         "code/7-arrays/2-arrays-loops",
         "code/7-arrays/3-arrays-objects",
-        "code/7-arrays/4-for-of",
-        "code/7-arrays/5-mouse-interaction",
-        "code/7-arrays/6-removing-elements",
-        "code/7-arrays/7-object-communication-1",
-        "code/7-arrays/8-object-communication-2",
-        "code/7-arrays/9-upload-editor",
-        "code/7-arrays/10-objects-images"
+        "code/7-arrays/4-mouse-interaction",
+        "code/7-arrays/5-removing-elements",
+        "code/7-arrays/6-object-communication-1",
+        "code/7-arrays/7-object-communication-2",
+        "code/7-arrays/upload-editor",
+        "code/7-arrays/8-objects-images"
       ]
     }
   ]
