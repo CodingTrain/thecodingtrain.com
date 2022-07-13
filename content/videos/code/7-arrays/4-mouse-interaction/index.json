@@ -3,21 +3,14 @@
   "description": "How can an object interact with the mouse? This video looks at how you can implement basic mouse interaction (rollover, mousePressed) with your own code and HTML5 canvas.",
   "videoId": "TaN5At5RWH8",
   "date": "2017-10-16",
-  "languages": [
-    "p5.js",
-    "JavaScript"
-  ],
-  "topics": [
-    "arrays",
-    "for loop",
-    "objects"
-  ],
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["arrays", "for loop", "objects"],
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
     {
-      "title": "Mouse Interaction with Objects",
-      "description": "Demonstration of Mouse Interaction with Objects",
+      "title": "Highlight Bubble",
+      "description": "Demonstration of highlighting a bubble when it is clicked.",
       "image": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/lE4ypFpI"
