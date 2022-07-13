@@ -1,6 +1,7 @@
 {
-  "title": "7.7 Object Communication Part 2",
+  "title": "Object Communication Part 2",
   "description": "This is a continuation of my previous video where I explore shape intersection with object-oriented programming. Here, I demonstrate how to use a nested loop to check every object's position against every other object.",
+  "videoNumber": 7.7,
   "videoId": "5Q9cA0REztY",
   "date": "2017-12-14",
   "languages": ["p5.js", "JavaScript"],

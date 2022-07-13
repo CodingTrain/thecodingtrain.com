@@ -1,6 +1,7 @@
 {
-  "title": "1.2 p5.js Web Editor",
+  "title": "p5.js Web Editor",
   "description": "In this video, I give a brief overview of the p5.js Web Editor!",
+  "videoNumber": 1.2,
   "videoId": "MXs1cOlidWs",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],

@@ -1,6 +1,7 @@
 {
-  "title": "2.2 Define Your Own Variables",
+  "title": "Define Your Own Variables",
   "description": "In this video, I cover how to define, initialize, and use your own variables for the purpose of animating p5.js sketches.",
+  "videoNumber": 2.2,
   "videoId": "dRhXIIFp-ys",
   "date": "2021-05-19",
   "languages": ["p5.js", "JavaScript"],
@@ -16,7 +17,10 @@
     { "time": "5:03", "title": "Let's add the code!" },
     { "time": "5:49", "title": "Combining declaration and initialization." },
     { "time": "6:43", "title": "What is a global variable?" },
-    { "time": "7:31", "title": "But the circle isn't moving! How can we fix that?" },
+    {
+      "time": "7:31",
+      "title": "But the circle isn't moving! How can we fix that?"
+    },
     { "time": "9:19", "title": "How can we make it interactive?" },
     { "time": "9:50", "title": "What's next?" }
   ],

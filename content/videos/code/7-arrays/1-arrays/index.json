@@ -1,6 +1,7 @@
 {
-  "title": "7.1 Arrays",
+  "title": "Arrays",
   "description": "This video covers the basics on using arrays in JavaScript.  What do they look like, how do they work, when should you use them?",
+  "videoNumber": 7.1,
   "videoId": "VIQoUghHSxU",
   "date": "2015-10-02",
   "languages": ["p5.js", "JavaScript"],

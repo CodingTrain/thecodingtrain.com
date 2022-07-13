@@ -1,6 +1,7 @@
 {
-  "title": "1.6 Code Comments",
+  "title": "Code Comments",
   "description": "In this video, I cover code comments indicated with a '//'.",
+  "videoNumber": 1.6,
   "videoId": "xJcrPJuem5Q",
   "date": "2018-09-11",
   "languages": ["p5.js", "JavaScript"],

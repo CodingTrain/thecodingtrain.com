@@ -1,6 +1,7 @@
 {
-  "title": "1.3 Shapes & Drawing",
+  "title": "Shapes & Drawing",
   "description": "In this video, I start writing code and cover the basics of coordinates systems, shapes, and drawing in p5.js.",
+  "videoNumber": 1.3,
   "videoId": "c3TeLi6Ns1E",
   "date": "2018-09-07",
   "languages": ["p5.js", "JavaScript"],

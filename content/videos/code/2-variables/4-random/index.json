@@ -1,6 +1,7 @@
 {
-  "title": "2.4 random()",
+  "title": "random()",
   "description": "In this video, I explore the random() function in p5.js and discuss the concept of 'parametric design.'",
+  "videoNumber": 2.4,
   "videoId": "POn4cZ0jL-o",
   "date": "2021-05-20",
   "languages": ["p5.js", "JavaScript"],

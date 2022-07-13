@@ -1,6 +1,7 @@
 {
-  "title": "7.5 Removing Objects from Arrays",
+  "title": "Removing Objects from Arrays",
   "description": "This video covers the 'splice' function to delete / remove objects from an array.",
+  "videoNumber": 7.5,
   "videoId": "tA_ZgruFF9k",
   "date": "2017-10-17",
   "languages": ["p5.js", "JavaScript"],
