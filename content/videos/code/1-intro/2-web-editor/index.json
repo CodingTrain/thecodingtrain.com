@@ -1,9 +1,32 @@
 {
-  "title": "p5.js Web Editor",
+  "title": "1.2 p5.js Web Editor",
   "description": "In this video, I give a brief overview of the p5.js Web Editor!",
+  "videoId": "MXs1cOlidWs",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],
-  "videoId": "MXs1cOlidWs",
+  "canContribute": false,
   "timestamps": [],
-  "canContribute": false
+  "codeExamples": [
+    {
+      "title": "p5.js Web Editor Demo",
+      "description": "Demonstration of p5.js Web Editor",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/H1898NvwX"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Flip p5 Editor",
+          "url": "https://github.com/CodingTrain/BookmarkletFlipP5Editor",
+          "description": "Bookmarklet to flip the output canvas and code editor in the p5.js Web Editor"
+        }
+      ]
+    }
+  ]
 }

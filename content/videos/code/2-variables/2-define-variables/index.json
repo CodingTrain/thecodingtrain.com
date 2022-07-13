@@ -1,13 +1,54 @@
 {
-  "title": "Define Your Own Variables",
+  "title": "2.2 Define Your Own Variables",
   "description": "In this video, I cover how to define, initialize, and use your own variables for the purpose of animating p5.js sketches.",
-  "videoNumber": "2.2",
   "videoId": "dRhXIIFp-ys",
   "date": "2021-05-19",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "variables"],
   "canContribute": true,
-  "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": []
+  "timestamps": [
+    { "time": "0:00", "title": "Hello! Let's talk more about variables!" },
+    { "time": "0:18", "title": "What are we trying to make?" },
+    { "time": "0:52", "title": "What are the steps to making a variable?" },
+    { "time": "1:12", "title": "Step 1: Declare" },
+    { "time": "3:01", "title": "Step 2: Initialize" },
+    { "time": "4:21", "title": "Step 3: Use" },
+    { "time": "5:03", "title": "Let's add the code!" },
+    { "time": "5:49", "title": "Combining declaration and initialization." },
+    { "time": "6:43", "title": "What is a global variable?" },
+    { "time": "7:31", "title": "But the circle isn't moving! How can we fix that?" },
+    { "time": "9:19", "title": "How can we make it interactive?" },
+    { "time": "9:50", "title": "What's next?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Moving Circle",
+      "description": "Demonstration of using variables to change the position of a circle.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xPXNdPy17"
+      }
+    },
+    {
+      "title": "Growing Circle",
+      "description": "(Exercise) Demonstration of using variables to change the size of a circle.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "let vs var",
+          "url": "https://youtu.be/q8SHaDQdul0",
+          "description": "Tutorial on different ways to declare a variable."
+        }
+      ]
+    }
+  ]
 }

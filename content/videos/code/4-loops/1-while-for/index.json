@@ -1,13 +1,21 @@
 {
-  "title": "while & for Loops",
-  "description": "This video examines the while and for loop in p5.js.  I look at drawing multiple copies of the same shape with a loop.",
-  "videoNumber": "4.1",
+  "title": "4.1 while & for Loops",
+  "description": "This video examines the while and for loop in p5.js. I look at drawing multiple copies of the same shape with a loop.",
   "videoId": "cnRD9o6odjk",
   "date": "2015-09-11",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "for loop"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Loops",
+      "description": "Demonstration of drawing multiple circles using loops.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/1B6jhzI6"
+      }
+    }
+  ],
   "groupLinks": []
 }

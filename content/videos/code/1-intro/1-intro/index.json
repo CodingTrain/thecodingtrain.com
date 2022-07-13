@@ -1,9 +1,41 @@
 {
-  "title": "Code! Programming with P5.js",
+  "title": "1.1 Code! Programming with P5.js",
   "description": "Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners.",
+  "videoId": "yPWkPOfnGsw",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],
-  "videoId": "yPWkPOfnGsw",
+  "canContribute": false,
   "timestamps": [],
-  "canContribute": false
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "✨",
+          "title": "p5.js",
+          "url": "https://p5js.org/",
+          "description": "The p5.js Website"
+        },
+        {
+          "icon": "💾",
+          "title": "Processing Foundation",
+          "url": "https://processingfoundation.org/",
+          "description": "The Processing Foundation is the parental organisation of p5.js and Processing"
+        },
+        {
+          "icon": "👩‍💻",
+          "title": "Hello p5.js Web Editor!",
+          "url": "https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf",
+          "description": "Medium article on the launch of the p5.js Web Editor"
+        },
+        {
+          "icon": "🖌",
+          "title": "p5.js Web Editor",
+          "url": "https://editor.p5js.org/",
+          "description": "An online editor to work with p5.js sketches"
+        }
+      ]
+    }
+  ]
 }

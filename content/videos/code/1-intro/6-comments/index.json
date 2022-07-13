@@ -1,27 +1,21 @@
 {
-  "title": "Code Comments",
+  "title": "1.6 Code Comments",
   "description": "In this video, I cover code comments indicated with a '//'.",
-  "videoNumber": "1.6",
   "videoId": "xJcrPJuem5Q",
   "date": "2018-09-11",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics"],
   "canContribute": false,
-  "groupLinks": [
+  "timestamps": [],
+  "codeExamples": [
     {
-      "title": "Group of links title",
-      "links": [
-        {
-          "title": "Link 1 title",
-          "url": "link 1 url",
-          "description": "description of content linked"
-        },
-        {
-          "title": "Link 2 title",
-          "url": "link 2 url",
-          "description": "description of content linked"
-        }
-      ]
+      "title": "Code Comments",
+      "description": "Demonstration of Code Comments",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/H1mj3SwD7"
+      }
     }
-  ]
+  ],
+  "groupLinks": []
 }

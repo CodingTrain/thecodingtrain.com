@@ -1,13 +1,21 @@
 {
-  "title": "Classes in ES6",
+  "title": "6.2 Classes in ES6",
   "description": "This video introduces Object-Oriented Programming in JavaScript with ES6 classes and the p5.js library.",
-  "videoNumber": "6.2",
   "videoId": "T-HGdc8L-7w",
   "date": "2017-6-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "OOP", "objects"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Classes",
+      "description": "Demonstration of using a Bubble class to create multiple bubbles.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qi7N4LWq"
+      }
+    }
+  ],
   "groupLinks": []
 }

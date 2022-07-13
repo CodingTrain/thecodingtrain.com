@@ -1,13 +1,39 @@
 {
-  "title": "JavaScript Files in the p5.js Web Editor",
+  "title": "6.4 JavaScript Files in the p5.js Web Editor",
   "description": "In this video, I look at how to organize your code into multiple JavaScript files in the p5.js web editor.",
-  "videoNumber": "6.4",
   "videoId": "5nf41qLeagU",
   "date": "2018-10-05",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "objects", "editor"],
   "canContribute": false,
   "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": []
+  "codeExamples": [
+    {
+      "title": "Adding Files in p5.js Web Editor",
+      "description": "Demonstration of modularizing code into separate files in the p5.js web editor.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/vcgtnfG7"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "p5.js Web Editor with Cassie Tarakajian",
+          "url": "https://youtu.be/x1rJJRVTpAI",
+          "description": "The Processing Foundation's video on the p5.js Web Editor"
+        },
+        {
+          "icon": "🚂",
+          "title": "What is HTML?",
+          "url": "https://youtu.be/URSH0QpxKo8",
+          "description": "Tutorial on HTML"
+        }
+      ]
+    }
+  ]
 }

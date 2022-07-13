@@ -1,13 +1,21 @@
 {
-  "title": "The Bouncing Ball",
+  "title": "3.2 The Bouncing Ball",
   "description": "This video continues the discussion of conditional statements and looks at a classic scenario -- a circle that bounces off the edges of the canvas.",
-  "videoNumber": "3.2",
   "videoId": "LO3Awjn_gyU",
   "date": "2015-09-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["if statement", "motion"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Bouncing Ball",
+      "description": "Demonstration of a Bouncing Ball",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Xm4cmQvU"
+      }
+    }
+  ],
   "groupLinks": []
 }

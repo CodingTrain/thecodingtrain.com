@@ -1,13 +1,21 @@
 {
-  "title": "Arrays of Objects",
-  "description": "How can you duplicate a single object and make many of them in an array?  This video looks at doing this with ES6 classes. I cover for loops as well as the  Array function push().",
-  "videoNumber": "7.3",
+  "title": "7.3 Arrays of Objects",
+  "description": "How can you duplicate a single object and make many of them in an array? This video looks at doing this with ES6 classes. I cover for loops as well as the  Array function push().",
   "videoId": "fBqaA7zRO58",
   "date": "2017-10-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "objects", "for loop"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Array of Bubbles",
+      "description": "Demonstration of creating new bubbles on mouse drag.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/1y_xfueO"
+      }
+    }
+  ],
   "groupLinks": []
 }

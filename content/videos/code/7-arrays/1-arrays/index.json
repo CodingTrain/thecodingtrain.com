@@ -1,13 +1,21 @@
 {
-  "title": "Arrays",
+  "title": "7.1 Arrays",
   "description": "This video covers the basics on using arrays in JavaScript.  What do they look like, how do they work, when should you use them?",
-  "videoNumber": "7.1",
   "videoId": "VIQoUghHSxU",
   "date": "2015-10-02",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "basics"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Array",
+      "description": "Demonstration of arrays in JavaScript.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ"
+      }
+    }
+  ],
   "groupLinks": []
 }
