@@ -52,25 +52,11 @@
     ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "RDP Visualization",
+            "description": "Animating the Ramer–Douglas–Peucker algorithm by varying epsilon and n.",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/SQjSugKn6"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_152_RDP_Algorithm/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_152_RDP_Algorithm/Processing"
-            }
+                "p5": "https://editor.p5js.org/codingtrain/sketches/SQjSugKn6",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_152_RDP_Algorithm/Processing"            
         }
     ],
     "groupLinks": [
