@@ -70,9 +70,10 @@
                     "description": "Wikipedia Description and References for RDP Algorithm."
                 },
                 {
+                    "icon": "📚",
                     "title": "Nature of Code Chapter 6",
                     "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
-                    "description": ""
+                    "description": "Detailed explanation of path following and scalar projection from Nature of Code text."
                 },
                 {
                     "title": "Scalar Projection Processing Example",
