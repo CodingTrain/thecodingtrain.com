@@ -64,9 +64,10 @@
             "title": "References",
             "links": [
                 {
-                    "title": "Ramer-Douglas-Peucker Algorithm on Wikipedia",
+                    "icon": "📚",
+                    "title": "Ramer-Douglas-Peucker Algorithm",
                     "url": "https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm",
-                    "description": ""
+                    "description": "Wikipedia Description and References for RDP Algorithm."
                 },
                 {
                     "title": "Nature of Code Chapter 6",
