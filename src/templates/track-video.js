@@ -37,8 +37,6 @@ const Track = ({ pageContext, data }) => {
 
   const { trackPosition, isTrackPage } = pageContext;
 
-  console.log(data, pageContext);
-
   return (
     <Layout
       title={isTrackPage ? track.title : video.title}

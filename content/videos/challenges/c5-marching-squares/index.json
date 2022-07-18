@@ -4,7 +4,7 @@
     "videoNumber": "5 - Coding in the Cabana",
     "videoId": "0ZONMNUKTfU",
     "date": "2020-07-14",
-    "languages": ["processing"],
+    "languages": ["Processing"],
     "topics": ["marching squares", "metaballs", "worley noise", "isolines", "noise", "grid"],
     "canContribute": true,
     "relatedChallenges": ["", ""],

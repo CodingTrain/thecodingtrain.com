@@ -52,17 +52,20 @@ Data from the old website was scraped into starter templates that [reside in a G
 
 ### Next Steps
 
-Once you have the template directory in the "challenges" folder, there are a number of things to check to ensure stale data is either updated or removed, and that thumbnail images and metadata get added.  **Remember, this is an opportunity to clean up and improve the metadata!** Also, go ahead and re-watch the video to give yourself a better idea on what topics were discussed - this will also give you a chance to mark down timestamps and topics in the video, which can be added to the "index.json" file.
+Once you have the template directory in the "challenges" folder, there are a number of things to check to ensure stale data is either updated or removed, and that thumbnail images and metadata get added. **Remember, this is an opportunity to clean up and improve the metadata!** Also, go ahead and re-watch the video to give yourself a better idea on what topics were discussed - this will also give you a chance to mark down timestamps and topics in the video, which can be added to the "index.json" file.
 
-1. Before you make any changes, be sure to create a new branch so that you're not working out of the *main* branch!
-   - To create a new branch use the "git checkout -b **branch-name**" command in your terminal.  Your branch name can be anything you want, but you may want to keep it short and relevant to this branch.  For example, for the "103 - Fire Effect" coding challenge, you could make it something like "fire-effect-coding-challenge".
-  ```console
-  git checkout -b branch-name
-  ```
-   - When you go to *push* this branch up to GitHub, you'll need to create a remote branch in GitHub to accept it. Use the "git push --set-upstream origin **branch-name**" command in your terminal to create the remote branch and push your changes up to it.
-  ```console
-  git push --set-upstream origin branch-name
-  ```
+1. Before you make any changes, be sure to create a new branch so that you're not working out of the _main_ branch!
+   - To create a new branch use the "git checkout -b **branch-name**" command in your terminal. Your branch name can be anything you want, but you may want to keep it short and relevant to this branch. For example, for the "103 - Fire Effect" coding challenge, you could make it something like "fire-effect-coding-challenge".
+
+```console
+git checkout -b branch-name
+```
+
+- When you go to _push_ this branch up to GitHub, you'll need to create a remote branch in GitHub to accept it. Use the "git push --set-upstream origin **branch-name**" command in your terminal to create the remote branch and push your changes up to it.
+
+```console
+git push --set-upstream origin branch-name
+```
 
 ![screenshot showing how to set the upstream repo](https://user-images.githubusercontent.com/28508947/173201974-b030787d-275b-4082-bf19-2584e92a9a95.png)
 
@@ -70,33 +73,34 @@ Once you have the template directory in the "challenges" folder, there are a num
    - For the p5js examples, make sure the links listed really take you to the p5 Web Editor page that stores that project.
    - For p5js and Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.
 3. Add thumbnail images for code examples.
-   - Each code example has an "image" property that should contain the file name of a screenshot of the running project.  That image file is stored in the "images" directory within the challenge directory.
-   
+   - Each code example has an "image" property that should contain the file name of a screenshot of the running project. That image file is stored in the "images" directory within the challenge directory.
+
 ![screenshot of a page that includes an image for each code example](https://user-images.githubusercontent.com/28508947/172743770-78675db5-7816-43bb-b550-ea05002189ab.png)
 
 ![screenshot showing the image files in the images directory](https://user-images.githubusercontent.com/28508947/172724346-3f802b38-25d3-4a47-b7c4-f94ac9b9fbc9.png)
 
 ![screenshot showing the image property in the codeExamples in the index.json file](https://user-images.githubusercontent.com/28508947/172743901-f9aad7d3-e3c0-43d8-a9cf-81a49996c9b3.png)
-   
+
 4. Remove broken showcase links.
-   - Check each of the URLs in each of the showcases to ensure that the pages that are linked still exist.  Sometimes the linked projects get deleted by the user who uploaded it.
+   - Check each of the URLs in each of the showcases to ensure that the pages that are linked still exist. Sometimes the linked projects get deleted by the user who uploaded it.
 5. Add thumbnail images for each showcase.
+
    - If you're able to run the project, create a thumbnail image for each showcase attached to the challenge.
-   - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web.  Sometimes these projects are hosted on sites where previews of the running project are available.  If so, grab a screenshot of the running project to use as the thumbnail for that project.  If not, the placeholder image will be used.
-   - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image  so that it matches the filename of the contribution's JSON file.  For example, if you have a "contribution1.json" file, you should also have a "contribution1.png" file.
+   - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web. Sometimes these projects are hosted on sites where previews of the running project are available. If so, grab a screenshot of the running project to use as the thumbnail for that project. If not, the placeholder image will be used.
+   - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image so that it matches the filename of the contribution's JSON file. For example, if you have a "contribution1.json" file, you should also have a "contribution1.png" file.
 
 6. Add additional metadata descriptions for related links and videos.
    - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
-   - Update the "languages" property in the "index.json" file.  In this instance, "languages" refers to the programming languages used to create the examples.  For example: "p5js", "javascript", "processing", or "node.js".
-   - Update the "topics" property in the "index.json" file.  If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics".  The tags from YouTube are pretty generic and overall too much information. Only a handful of topics are needed, so only include topics that are relevant to this specific video. If no tags were present on the YouTube page, then this may be blank - go ahead and add a couple of topics!
-   - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file.  Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept.
+   - Update the "languages" property in the "index.json" file. In this instance, "languages" refers to the programming languages used to create the examples. For example: "p5.js", "JavaScript", "Processing", or "node.js".
+   - Update the "topics" property in the "index.json" file. If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics". The tags from YouTube are pretty generic and overall too much information. Only a handful of topics are needed, so only include topics that are relevant to this specific video. If no tags were present on the YouTube page, then this may be blank - go ahead and add a couple of topics!
+   - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file. Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept.
 7. Add time codes for the video.
-   - The "timestamps" property in the "index.json" file may contain time codes that were pulled in from the YouTube video.  If those didn't exist for the YouTube video, go ahead and add those time codes.
+   - The "timestamps" property in the "index.json" file may contain time codes that were pulled in from the YouTube video. If those didn't exist for the YouTube video, go ahead and add those time codes.
 
 ![screenshot showing timestamp json data and how it looks on the website](https://user-images.githubusercontent.com/28508947/173202054-ce9dcdf6-3ca2-411b-a869-9d47c7670e6e.png)
 
 8. Replace any links to the old website with links to the new website.
-   - Some links in the "index.json" file may refer to other challenges or other parts of the old website.  For example, challenge 10.1 is part 1 of a 4 part series.  Each of the 4 parts refers to each of the other 4 parts in the series in the "Other Parts Of This Coding Challenge" section of the "index.json" file.  The path to those other parts will have changed on the new website, so that URL will need to be updated.
+   - Some links in the "index.json" file may refer to other challenges or other parts of the old website. For example, challenge 10.1 is part 1 of a 4 part series. Each of the 4 parts refers to each of the other 4 parts in the series in the "Other Parts Of This Coding Challenge" section of the "index.json" file. The path to those other parts will have changed on the new website, so that URL will need to be updated.
 9. Optionally, add an emoji to the links in the References or Videos section of the "index.json" file.
    - Emoji help to add some fun and character to an otherwise plain list of links.
    - In any of the "links" property lists, use the "icon" property to add an emoji.
@@ -107,15 +111,15 @@ Once you have the template directory in the "challenges" folder, there are a num
 
 ### Create a Pull Request on GitHub
 
-Once all updates have been made to the Coding Challenge and the branch has been pushed up to GitHub, go to the webpage for your forked repo on GitHub.  You should see a yellow message box with the name of your branch and a button with the text "Compare & pull request".  Click that button to open the page to create a pull request into the *main* repo.
+Once all updates have been made to the Coding Challenge and the branch has been pushed up to GitHub, go to the webpage for your forked repo on GitHub. You should see a yellow message box with the name of your branch and a button with the text "Compare & pull request". Click that button to open the page to create a pull request into the _main_ repo.
 
 ![screenshot showing the button to compare and create a pull request on GitHub](https://user-images.githubusercontent.com/28508947/173202077-46cf9544-f920-4faa-b18d-f7798a176d13.png)
 
-Add a title to the pull request on the new page. Optionally, add a message about the changes made.  Click the "Create a pull request" button to finish creating the pull request.
+Add a title to the pull request on the new page. Optionally, add a message about the changes made. Click the "Create a pull request" button to finish creating the pull request.
 
 ![screenshot showing the form to open a pull request on GitHub](https://user-images.githubusercontent.com/28508947/173202107-5f9db270-413c-4844-9741-c3fe26bcdee1.png)
 
-The Netlify bot will start running tests on your pull request.  If everything passes, someone one on the Coding Train team will review your pull request. They may have questions about it or offer suggestions to improve it. If you end up needing to make changes, you can make them in the branch in your local repo. When you push the changes up to GitHub, they will automatically show up as an update in the pull request. Once all changes have been made to the pull request, the pull request will be merged.  Congrats!!!
+The Netlify bot will start running tests on your pull request. If everything passes, someone one on the Coding Train team will review your pull request. They may have questions about it or offer suggestions to improve it. If you end up needing to make changes, you can make them in the branch in your local repo. When you push the changes up to GitHub, they will automatically show up as an update in the pull request. Once all changes have been made to the pull request, the pull request will be merged. Congrats!!!
 
 ![screenshot showing the Netlify bot running automated tests](https://user-images.githubusercontent.com/28508947/173202126-37290f1c-7cef-4f51-8a01-9f8e6d1c7988.png)
 

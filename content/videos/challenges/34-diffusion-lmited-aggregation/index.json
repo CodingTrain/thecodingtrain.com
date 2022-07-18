@@ -1,52 +1,48 @@
 {
-    "title": "Diffusion-Limited Aggregation",
-    "description": "In this coding challenge, I explore the generative algorithm \u201cDiffusion-Limited Aggregation\u201d. The pattern is generated from random walkers clustering around a seed (or set of seed) point(s).",
-    "videoNumber": "34",
-    "videoId": "Cl_Gjj80gPE",
-    "date": "2016-08-18",
-    "languages": ["p5.js", "javascript"],
-    "topics": [
-        "Paul Bourke",
-        "Diffusion-Limited Aggregation",
-        "javascript"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "codeExamples": [
+  "title": "Diffusion-Limited Aggregation",
+  "description": "In this coding challenge, I explore the generative algorithm \u201cDiffusion-Limited Aggregation\u201d. The pattern is generated from random walkers clustering around a seed (or set of seed) point(s).",
+  "videoNumber": "34",
+  "videoId": "Cl_Gjj80gPE",
+  "date": "2016-08-18",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Paul Bourke", "Diffusion-Limited Aggregation"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Diffusion Limited Aggregation",
+      "description": "My visualization of Diffusion Limited Aggregation",
+      "image": "dfa.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/034_DLA/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Diffusion Limited Aggregation",
-            "description": "My visualization of Diffusion Limited Aggregation",
-            "image": "dfa.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/034_DLA/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
+          "icon": "💾",
+          "title": "Atom Live Server Package",
+          "url": "https://atom.io/packages/atom-live-server",
+          "description": "Link to the atom-live-server package."
+        },
         {
-            "title": "References",
-            "links": [
-                {
-                   "icon": "💾",
-                    "title": "Atom Live Server Package",
-                    "url": "https://atom.io/packages/atom-live-server",
-                    "description": "Link to the atom-live-server package."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Diffusion-Limited Aggregation on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Diffusion-limited_aggregation",
-                    "description": "Wikipedia page with background and references on diffusion-limited aggregation."
-                },
-                {
-                    "icon": "📚",
-                    "title": "DLA reference",
-                    "url": "http://paulbourke.net/fractals/dla/",
-                    "description": "Article about diffusion limited aggregation."
-                }
-            ]
+          "icon": "🔗",
+          "title": "Diffusion-Limited Aggregation on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diffusion-limited_aggregation",
+          "description": "Wikipedia page with background and references on diffusion-limited aggregation."
+        },
+        {
+          "icon": "📚",
+          "title": "DLA reference",
+          "url": "http://paulbourke.net/fractals/dla/",
+          "description": "Article about diffusion limited aggregation."
         }
-    ]
+      ]
+    }
+  ]
 }

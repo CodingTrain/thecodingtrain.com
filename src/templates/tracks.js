@@ -12,6 +12,7 @@ import AsteriskCharacter from '../images/characters/Asterik_5.mini.svg';
 // import * as css from './tracks.module.css';
 
 const TracksPage = ({ data, pageContext, location }) => {
+  const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
   const tracks = data.tracks.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
@@ -25,6 +26,8 @@ const TracksPage = ({ data, pageContext, location }) => {
   return (
     <ItemsPage
       title={pageData.title}
+      selectedLanguage={language}
+      selectedTopic={topic}
       description={pageData.description}
       image={placeholderMainTrackImage}
       location={location}
@@ -65,7 +68,12 @@ const TracksPage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+  query(
+    $skip: Int!
+    $limit: Int!
+    $topicRegex: String!
+    $languageRegex: String!
+  ) {
     pageData: allTracksPageInfo {
       nodes {
         title
@@ -74,8 +82,8 @@ export const query = graphql`
     }
     tracks: allTrack(
       filter: {
-        languagesFlat: { regex: $language }
-        topicsFlat: { regex: $topic }
+        languagesFlat: { regex: $languageRegex }
+        topicsFlat: { regex: $topicRegex }
       }
       skip: $skip
       limit: $limit
