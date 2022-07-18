@@ -21,10 +21,9 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
 
-  const challengesPlaceholder =
-    data.challengePlaceholderImage.nodes.length > 0
-      ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
-      : null;
+  const challengesPlaceholder = data.challengePlaceholderImage
+    ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
+    : null;
 
   return (
     <ItemsPage
@@ -198,18 +197,14 @@ export const query = graphql`
         value
       }
     }
-    challengePlaceholderImage: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: "" }
-        name: { eq: "placeholder" }
-      }
+    challengePlaceholderImage: file(
+      sourceInstanceName: { eq: "challenges" }
+      extension: { in: ["jpg", "png"] }
+      relativeDirectory: { eq: "" }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
   }

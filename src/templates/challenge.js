@@ -18,16 +18,17 @@ import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
 import SemiColonCharacter from '../images/characters/SemiColon_2.mini.svg';
 
 const Challenge = ({ data }) => {
-  const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
-    data;
-  const challengesPlaceholder =
-    challengePlaceholderImage.nodes.length > 0
-      ? challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
-      : null;
-  const contributionsPlaceholder =
-    contributionPlaceholderImage.nodes.length > 0
-      ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
-      : challengesPlaceholder;
+  const {
+    challenge,
+    contributionPlaceholderImage,
+    challengePlaceholderImage
+  } = data;
+  const challengesPlaceholder = challengePlaceholderImage
+    ? challengePlaceholderImage.childImageSharp.gatsbyImageData
+    : null;
+  const contributionsPlaceholder = contributionPlaceholderImage
+    ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
+    : challengesPlaceholder;
   return (
     <Layout
       title={challenge.title}
@@ -104,7 +105,7 @@ const Challenge = ({ data }) => {
 };
 
 export const query = graphql`
-  query ($id: String, $slug: String) {
+  query($id: String, $slug: String) {
     challenge: challenge(id: { eq: $id }) {
       title
       slug
@@ -176,32 +177,24 @@ export const query = graphql`
         }
       }
     }
-    contributionPlaceholderImage: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: $slug }
-        name: { eq: "index" }
-      }
+    contributionPlaceholderImage: file(
+      sourceInstanceName: { eq: "challenges" }
+      extension: { in: ["jpg", "png"] }
+      relativeDirectory: { eq: $slug }
+      name: { eq: "index" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
-    challengePlaceholderImage: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: "" }
-        name: { eq: "placeholder" }
-      }
+    challengePlaceholderImage: file(
+      sourceInstanceName: { eq: "challenges" }
+      extension: { in: ["jpg", "png"] }
+      relativeDirectory: { eq: "" }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
   }

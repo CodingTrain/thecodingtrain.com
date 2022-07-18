@@ -18,9 +18,9 @@ const TracksPage = ({ data, pageContext, location }) => {
   const topics = data.topics.nodes.map(({ value }) => value);
 
   const placeholderMainTrackImage =
-    data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
+    data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
   const placeholderSideTrackImage =
-    data.placeholderSideTrackImage.nodes[0].childImageSharp.gatsbyImageData;
+    data.placeholderSideTrackImage.childImageSharp.gatsbyImageData;
 
   return (
     <ItemsPage
@@ -112,30 +112,22 @@ export const query = graphql`
         }
       }
     }
-    placeholderMainTrackImage: allFile(
-      filter: {
-        name: { eq: "placeholder" }
-        sourceInstanceName: { eq: "main-tracks" }
-        extension: { in: ["jpg", "png"] }
-      }
+    placeholderMainTrackImage: file(
+      sourceInstanceName: { eq: "main-tracks" }
+      extension: { in: ["jpg", "png"] }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
-    placeholderSideTrackImage: allFile(
-      filter: {
-        name: { eq: "placeholder" }
-        sourceInstanceName: { eq: "side-tracks" }
-        extension: { in: ["jpg", "png"] }
-      }
+    placeholderSideTrackImage: file(
+      sourceInstanceName: { eq: "side-tracks" }
+      extension: { in: ["jpg", "png"] }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
     languages: allTag(filter: { type: { eq: "language" } }) {
