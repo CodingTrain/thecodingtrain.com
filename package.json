@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build",
+    "build": "gatsby build --verbose",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",
@@ -53,6 +53,8 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
+    "gatsby-plugin-perf-budgets": "^0.0.18",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
     "glob": "^8.0.3",
     "jest": "^27.4.5",
     "jest-extended": "^1.2.0",

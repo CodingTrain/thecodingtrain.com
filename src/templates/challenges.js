@@ -124,7 +124,7 @@ const RecentChallenge = ({
 };
 
 export const query = graphql`
-  query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+  query($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
     pageData: allChallengesPageInfo {
       nodes {
         title
@@ -185,19 +185,6 @@ export const query = graphql`
               gatsbyImageData
             }
           }
-        }
-      }
-    }
-    images: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-      }
-    ) {
-      nodes {
-        base
-        childImageSharp {
-          gatsbyImageData
         }
       }
     }
