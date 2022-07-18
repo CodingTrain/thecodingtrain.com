@@ -12,8 +12,6 @@ import AsteriskCharacter from '../images/characters/Asterik_5.mini.svg';
 // import * as css from './tracks.module.css';
 
 const TracksPage = ({ data, pageContext, location }) => {
-  console.log(data);
-  console.log(pageContext);
   const pageData = data.pageData.nodes[0];
   const tracks = data.tracks.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
