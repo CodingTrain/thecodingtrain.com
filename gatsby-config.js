@@ -6,8 +6,6 @@ module.exports = {
       'All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges.'
   },
   plugins: [
-    `gatsby-plugin-perf-budgets`,
-    `gatsby-plugin-webpack-bundle-analyser-v2`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
