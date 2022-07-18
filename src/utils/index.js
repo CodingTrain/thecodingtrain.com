@@ -1,3 +1,5 @@
+import slugify from 'slugify';
+
 // so it doesn't throw if no window
 const win =
   typeof window !== 'undefined' ? window : { screen: {}, navigator: {} };
@@ -10,6 +12,7 @@ const options = {
     return (passiveOptionAccessed = true);
   }
 };
+
 // have to set and remove a no-op listener instead of null
 // (which was used previously), because Edge v15 throws an error
 // when providing a null callback.
@@ -23,3 +26,17 @@ export const supportsPassiveEvents = passiveOptionAccessed;
 export const passiveEventArg = supportsPassiveEvents
   ? { capture: false, passive: true }
   : false;
+
+export const stringValueOrAll = (str) => {
+  if (typeof str === 'string' && str !== '') {
+    return str;
+  }
+  return 'all';
+};
+
+/**
+  This function has to match the one in node-scripts/utils
+  SSR broke when trying to share the same code.
+**/
+export const toSlug = (path) =>
+  slugify(path, { lower: true, trim: true }).replace('.', '-');

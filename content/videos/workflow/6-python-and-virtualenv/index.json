@@ -3,7 +3,7 @@
   "description": "In this video, I set up a python environment (Python 2 and 3) with Virtualenv.",
   "videoId": "nnhjvHYRsmM",
   "date": "2018-09-27",
-  "languages": ["python"],
+  "languages": ["Python"],
   "topics": ["workflow", "virtual environment"],
   "canContribute": false,
   "timestamps": [],

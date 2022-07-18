@@ -27,14 +27,13 @@ const Track = ({ pageContext, data }) => {
     videoPlaceHolderImage,
     challengePlaceholderImage
   } = data;
-  const contributionsPlaceholder =
-    contributionPlaceholderImage.nodes.length > 0
-      ? contributionPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
-      : videoPlaceHolderImage.nodes.length > 0
-      ? videoPlaceHolderImage.nodes[0].childImageSharp.gatsbyImageData
-      : null;
+  const contributionsPlaceholder = contributionPlaceholderImage
+    ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
+    : videoPlaceHolderImage
+    ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
+    : null;
   const challengesPlaceholder =
-    challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData;
+    challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
   const { trackPosition, isTrackPage } = pageContext;
 
@@ -142,7 +141,7 @@ const Track = ({ pageContext, data }) => {
 };
 
 export const query = graphql`
-  query (
+  query(
     $trackId: String
     $videoId: String
     $videoSlug: String
@@ -250,46 +249,34 @@ export const query = graphql`
         }
       }
     }
-    contributionPlaceholderImage: allFile(
-      filter: {
-        sourceInstanceName: { eq: $source }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: $videoSlug }
-        name: { eq: "index" }
-      }
+    contributionPlaceholderImage: file(
+      sourceInstanceName: { eq: $source }
+      extension: { in: ["jpg", "png"] }
+      relativeDirectory: { eq: $videoSlug }
+      name: { eq: "index" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
-    videoPlaceHolderImage: allFile(
-      filter: {
-        sourceInstanceName: { eq: $source }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: "" }
-        name: { eq: "placeholder" }
-      }
+    videoPlaceHolderImage: file(
+      sourceInstanceName: { eq: $source }
+      extension: { in: ["jpg", "png"] }
+      relativeDirectory: { eq: "" }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
-    challengePlaceholderImage: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: "" }
-        name: { eq: "placeholder" }
-      }
+    challengePlaceholderImage: file(
+      sourceInstanceName: { eq: "challenges" }
+      extension: { in: ["jpg", "png"] }
+      relativeDirectory: { eq: "" }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
   }

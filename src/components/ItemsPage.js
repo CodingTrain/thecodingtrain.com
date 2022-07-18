@@ -10,7 +10,7 @@ import Filter from './Filter';
 import Spacer from './Spacer';
 import Button from './Button';
 
-import { useSelectedTags } from '../hooks';
+import { toSlug, stringValueOrAll } from '../utils';
 
 import * as css from './ItemsPage.module.css';
 
@@ -19,6 +19,8 @@ import ZeroCharacter from '../images/characters/Zero_4.mini.svg';
 import ZeroCharacter2 from '../images/characters/Zero_3.mini.svg';
 
 const ItemsPage = ({
+  selectedLanguage,
+  selectedTopic,
   location,
   title,
   description,
@@ -39,8 +41,6 @@ const ItemsPage = ({
   numberOfPages,
   nextPagePath
 }) => {
-  const [selectedLanguage, selectedTopic] = useSelectedTags(location.pathname);
-
   const [expanded, setExpanded] = useState(false);
   const onExpand = () => {
     setExpanded((expanded) => !expanded);
@@ -61,22 +61,25 @@ const ItemsPage = ({
   }, [shouldScroll]);
 
   const resetFilters = () => {
-    navigate(`/${itemsPath}/lang:all+topic:all/`, {
+    navigate(`/${itemsPath}/`, {
       state: { expanded }
     });
   };
+
   const setSelectedLanguage = (value) => {
-    navigate(`/${itemsPath}/lang:${value ?? 'all'}+topic:${selectedTopic}/`, {
+    const l = toSlug(stringValueOrAll(value));
+    const t = toSlug(stringValueOrAll(selectedTopic));
+    navigate(`/${itemsPath}/lang/${l}/topic/${t}/`, {
       state: { expanded }
     });
   };
+
   const setSelectedTopic = (value) => {
-    navigate(
-      `/${itemsPath}/lang:${selectedLanguage}+topic:${value ?? 'all'}/`,
-      {
-        state: { expanded }
-      }
-    );
+    const l = toSlug(stringValueOrAll(selectedLanguage));
+    const t = toSlug(stringValueOrAll(value));
+    navigate(`/${itemsPath}/lang/${l}/topic/${t}/`, {
+      state: { expanded }
+    });
   };
 
   return (
