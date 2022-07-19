@@ -11,7 +11,7 @@
     "topics": [
         "flocking",
         "creative coding",
-        "nature of code"
+        "autonomous agents"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -44,14 +44,14 @@
             "title": "References",
             "links": [
                 {
-                    "title": "Craig Reynolds' Reference",
+                    "title": "Craig Reynolds' Paper on Boids",
                     "url": "https://www.red3d.com/cwr/boids/",
                     "description": ""
                 },
                 {
-                    "title": "The Nature of Code Reference",
+                    "title": "Autonomous Agents - Nature of Code",
                     "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
-                    "description": ""
+                    "description": "The link to the chapter in the online version of NOC"
                 },
                 {
                     "title": "The Computational Beauty of Nature",
@@ -70,13 +70,13 @@
                 },
                 {
                     "title": "Vectors - The Nature of Code",
-                    "url": "https://youtu.be//more/archive/nature-of-code/1-Vectors/1.1-Vectors",
-                    "description": ""
+                    "url": "https://youtu.be/bKEaK7WNLzM",
+                    "description": "The first video from the Vector series in The Nature of Code (2020) playlist"
                 },
                 {
-                    "title": "Combining Steering Behaviors: Flocking - The Nature of Code",
-                    "url": "https://youtu.be//more/archive/nature-of-code/6-Autonomous-Agents/6.8-Combining-Steering-Behaviors-Flocking",
-                    "description": ""
+                    "title": "Autonomous Steering Agents - Nature of Code",
+                    "url": "https://youtu.be/P_xJMH8VvAE",
+                    "description": "The introductory video of the series exploring the chapter on autonomous agents in Nature of Code"
                 }
             ]
         }
