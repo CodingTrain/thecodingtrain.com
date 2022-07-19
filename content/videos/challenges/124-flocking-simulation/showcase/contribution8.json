@@ -1,0 +1,9 @@
+{
+    "title": "3D Flocking, 25.600 particles with custom webgl FBO engine.",
+    "url": "http://www.basis64.nl/flocking3D",
+    "author": {
+        "name": "Ethan Hermsey",
+        "url": "http://basis64.nl/"
+    },
+    "source": "https://github.com/EthanHermsey/flocking3d"
+}
