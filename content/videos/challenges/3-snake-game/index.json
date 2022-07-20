@@ -1,0 +1,47 @@
+{
+  "title": "The Snake Game",
+  "description": "In this coding challenge, I attempt to code a p5.js version of the Snake Game.",
+  "videoNumber": "3",
+  "videoId": "AaGK-fj-BAM",
+  "date": "2016-04-20",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["snake", "game", "vectors", "arrays"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Creating a Snake object" },
+    { "time": "3:00", "title": "Adding keyboard control" },
+    { "time": "5:20", "title": "Grid and World Constraints" },
+    { "time": "8:00", "title": "Adding Food!" },
+    { "time": "11:00", "title": "Eating The Food!" },
+    { "time": "13:05", "title": "Getting Longer When Eating" },
+    { "time": "17:40", "title": "Fixing Mistakes" },
+    { "time": "21:48", "title": "Game Over State" },
+    { "time": "25:55", "title": "Coding Challenge Complete Choo Choo!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Snake Game",
+      "description": "p5.js and Processing code examples for the Snake Game",
+      "image": "small_snake.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/avh_VGx69",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_003_Snake_game/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_003_Snake_game/P5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌐",
+          "title": "Snake Game on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Snake_(video_game)",
+          "description": "Wikipedia page about the Snake video game"
+        }
+      ]
+    }
+  ]
+}
