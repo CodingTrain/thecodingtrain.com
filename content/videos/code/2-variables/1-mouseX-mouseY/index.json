@@ -1,13 +1,68 @@
 {
   "title": "Using Variables mouseX & mouseY",
   "description": "In this video, I introduce the concept of variables! The setup() and draw() functions are covered along with mouseX and mouseY in p5.js.",
-  "videoNumber": "2.1",
+  "videoNumber": 2.1,
   "videoId": "7A5tKW9HGoM",
   "date": "2021-05-19",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["mouse interaction", "basics", "variables"],
   "canContribute": true,
-  "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": []
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    {
+      "time": "0:35",
+      "title": "What is program flow? How does it work in p5.js?"
+    },
+    { "time": "2:22", "title": "Let's simplify!" },
+    { "time": "3:16", "title": "What is a variable?" },
+    { "time": "4:47", "title": "What's happening here?" },
+    {
+      "time": "5:26",
+      "title": "What could we do? Let's make a simple painting program!"
+    },
+    {
+      "time": "6:05",
+      "title": "Let's move background into setup. What do you think is gonna happen?"
+    },
+    { "time": "6:34", "title": "Why does that happen?" },
+    {
+      "time": "7:31",
+      "title": "Let's talk about events! We can add a mousePressed function."
+    },
+    {
+      "time": "8:41",
+      "title": "Let's add mousePressed and put background in it!"
+    },
+    {
+      "time": "9:07",
+      "title": "You might have this question. Why isn't it flickering?"
+    },
+    {
+      "time": "10:10",
+      "title": "What can you try? Can't wait to see what you create!"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Variables - mouseX and mouseY",
+      "description": "Demonstration of using mouse position variables.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IeblvUQrf"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "mouseX",
+          "url": "https://p5js.org/reference/#/p5/mouseX",
+          "description": "mouseX on the p5.js reference."
+        }
+      ]
+    }
+  ]
 }

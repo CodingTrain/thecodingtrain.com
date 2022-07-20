@@ -1,13 +1,22 @@
 {
   "title": "Functions & Return",
   "description": "This video covers what it means for a function to return a value.",
-  "videoNumber": "5.3",
+  "videoNumber": 5.3,
   "videoId": "qRnUBiTJ66Y",
   "date": "2015-09-17",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "functions", "return"],
   "canContribute": false,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Returning a value",
+      "description": "Demonstration of converting miles to kilometers using a function.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/twpIiI-v"
+      }
+    }
+  ],
   "groupLinks": []
 }
