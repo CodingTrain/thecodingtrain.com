@@ -1,6 +1,7 @@
 {
-  "title": "2.2 Geolocation Web API",
+  "title": "Geolocation Web API",
   "description": "Before diving into communication between client and server (GET and POST requests), let's look at the Geolocation Web API with navigator.geolocation. This data will be sent to the server and stored in a database in upcoming videos.",
+  "videoNumber": 2.2,
   "languages": ["JavaScript", "node.js"],
   "topics": ["geolocation", "gps"],
   "videoId": "3ls013DBcww",

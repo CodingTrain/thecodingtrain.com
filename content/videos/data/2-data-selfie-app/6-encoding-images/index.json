@@ -1,6 +1,7 @@
 {
-  "title": "2.6 Saving Images and Base64 Encoding",
+  "title": "Saving Images and Base64 Encoding",
   "description": "Let's add an image from the webcam to our database. For this project, we will be using the p5.js JavaScript library!",
+  "videoNumber": 2.6,
   "languages": ["JavaScript", "node.js", "p5.js"],
   "topics": ["webcam", "database", "encoding"],
   "videoId": "9Rhsb3GU2Iw",

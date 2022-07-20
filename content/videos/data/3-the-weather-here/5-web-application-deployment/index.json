@@ -1,6 +1,7 @@
 {
-  "title": "3.5 Web Application Deployment (Glitch and Heroku)",
+  "title": "Web Application Deployment (Glitch and Heroku)",
   "description": "Let's figure out how to deploy your project to a server so that people can access it and use it. We will check out two hosting options: Heroku and Glitch.",
+  "videoNumber": 3.5,
   "languages": ["JavaScript", "node.js"],
   "topics": ["deployment", "glitch", "heroku"],
   "videoId": "Rz886HkV1j4",
