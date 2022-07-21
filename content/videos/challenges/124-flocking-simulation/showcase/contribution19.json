@@ -2,7 +2,7 @@
     "title": "Boids implementation with space division and other optimisations (p5.js version)",
     "url": "https://hortom.github.io/boids-p5/",
     "author": {
-        "name": " by Tamas Hortobagyi",
+        "name": "Tamas Hortobagyi",
         "url": ""
     },
     "source": "https://github.com/hortom/boids-p5"

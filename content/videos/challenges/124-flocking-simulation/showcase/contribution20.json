@@ -2,7 +2,7 @@
     "title": "Boids implementation with space division and other optimisations (pixi.js version)",
     "url": "https://hortom.github.io/boids-pixi/",
     "author": {
-        "name": " by Tamas Hortobagyi",
+        "name": "Tamas Hortobagyi",
         "url": ""
     },
     "source": "https://github.com/hortom/boids-pixi"
