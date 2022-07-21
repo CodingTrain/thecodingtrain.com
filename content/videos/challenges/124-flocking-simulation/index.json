@@ -64,6 +64,7 @@
         {
             "title": "Flocking Simulation",
             "description": "Simulation of the flocking behavior of autonomous agents",
+            "image": "flocking.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/ry4XZ8OkN",
                 "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/Processing",
