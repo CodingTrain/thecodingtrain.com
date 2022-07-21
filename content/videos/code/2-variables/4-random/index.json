@@ -1,72 +1,73 @@
 {
   "title": "random()",
   "description": "In this video, I explore the random() function in p5.js and discuss the concept of 'parametric design.'",
-  "videoNumber": "2.4",
+  "videoNumber": 2.4,
   "videoId": "POn4cZ0jL-o",
   "date": "2021-05-20",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "random", "variables"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome back!" },
+    { "time": "0:47", "title": "What is the random function?" },
+    { "time": "2:10", "title": "Let's try it out!" },
+    { "time": "4:58", "title": "What if we use random() in draw?" },
+    { "time": "6:16", "title": "Let's try making something else." },
+    { "time": "7:10", "title": "How about using only 1 argument?" },
+    { "time": "7:42", "title": "Built in width and height variables." },
+    { "time": "8:51", "title": "Ideas! What could you make?" }
+  ],
   "codeExamples": [
     {
       "title": "Random Square Design",
-      "description": "Using the random() function to draw randomly sized squares",
-      "image": "GameOfLife.webp",
+      "description": "Demonstration of using random parameters to draw a square.",
+      "image": "",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Sl8ml_Lz8",
-        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-square-design"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Sl8ml_Lz8"
       }
     },
     {
       "title": "Random House Exercise",
-      "description": "Using the random() function to generate houses with different properties",
-      "image": "KeyboardFunctions.webp",
+      "description": "Demonstration of generating an image of a house using random parameters.",
+      "image": "",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/HGq_S0Z5H",
-        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-house-exercise"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HGq_S0Z5H"
       }
     },
     {
       "title": "Random Points",
-      "description": "Drawing a field of points with random positions and colors",
-      "image": "RotatePushPop.webp",
+      "description": "Demonstration of stippling random points.",
+      "image": "",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/h7hFqoV6H",
-        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/random-points"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/h7hFqoV6H"
       }
     },
     {
       "title": "Painting Exercise 1",
-      "description": "Using mouse interaction to draw with a randomly generated paintbrush",
-      "image": "Saturation.webp",
+      "description": "Painting program where the color and stroke is randomly changed upon mouse click.",
+      "image": "",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/stERy5a1D",
-        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/painting-exercise-1"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/stERy5a1D"
       }
     },
     {
       "title": "Painting Exercise 2",
-      "description": "A paintbrush that changes color and size as you draw",
+      "description": "Painting program where the color and stroke is randomly changed every frame.",
+      "image": "",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/IyyJ1QYKh",
-        "other": "https://github.com/CodingTrain/website/tree/main/beginners/p5js/2.4-random/painting-exercise-2"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IyyJ1QYKh"
       }
     }
   ],
   "groupLinks": [
     {
-      "title": "Group of links title",
+      "title": "References",
       "links": [
         {
-          "title": "Link 1 title",
-          "url": "link 1 url",
-          "description": "description of content linked"
-        },
-        {
-          "title": "Link 2 title",
-          "url": "link 2 url",
-          "description": "description of content linked"
+          "icon": "💾",
+          "title": "random()",
+          "url": "https://p5js.org/reference/#/p5/random",
+          "description": "random() on the p5.js reference."
         }
       ]
     }

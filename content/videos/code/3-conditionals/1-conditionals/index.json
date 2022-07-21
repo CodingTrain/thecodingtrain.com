@@ -1,13 +1,22 @@
 {
   "title": "Conditional Statements",
   "description": "This video introduces the idea of a boolean expression and conditional logic in programming.",
-  "videoNumber": "3.1",
+  "videoNumber": 3.1,
   "videoId": "1Osb_iGDdjk",
   "date": "2015-09-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "boolean", "if statement"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Introduction to Conditional Statements",
+      "description": "Demonstration of conditionally filling in a circle based on the mouse position.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/z_yjYIha"
+      }
+    }
+  ],
   "groupLinks": []
 }

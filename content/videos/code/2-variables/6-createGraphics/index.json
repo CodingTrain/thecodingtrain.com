@@ -1,12 +1,30 @@
 {
   "title": "createGraphics",
   "description": "In this video, I cover createGraphics() in p5.js in order to demonstrate how to draw some shapes with trails and some without.",
+  "videoNumber": 2.6,
   "videoId": "TaluaAD9MKA",
   "date": "2019-02-03",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["createGraphics"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Trails",
+      "description": "Demonstration of using createGraphics() to overlay two different canvases.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/7RN7GFD-Y"
+      }
+    },
+    {
+      "title": "Stars",
+      "description": "Demonstration of using createGraphics() to overlay two different canvases.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/0kQ9v-bhM"
+      }
+    }
+  ],
   "groupLinks": []
 }

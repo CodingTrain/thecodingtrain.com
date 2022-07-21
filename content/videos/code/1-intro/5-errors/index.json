@@ -1,13 +1,22 @@
 {
   "title": "Errors & Console",
   "description": "In this video, I take a look at the p5.js console and error messages.",
-  "videoNumber": "1.6",
+  "videoNumber": 1.5,
   "videoId": "LuGsp5KeJMM",
   "date": "2018-09-10",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["errors", "debugging", "basics"],
   "canContribute": false,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Code Comments",
+      "description": "Demonstration of Code Comments",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/H1mj3SwD7"
+      }
+    }
+  ],
   "groupLinks": []
 }

@@ -1,13 +1,22 @@
 {
   "title": "Function Basics",
-  "description": "This video covers the basics of writing your own functions in JavaScript.  What does it mean to define and call your own function?  How can this make a program more modular?",
-  "videoNumber": "5.1",
+  "description": "This video covers the basics of writing your own functions in JavaScript. What does it mean to define and call your own function? How can this make a program more modular?",
+  "videoNumber": 5.1,
   "videoId": "wRHAitGzBrg",
   "date": "2015-09-15",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "function"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Functions",
+      "description": "Demonstration of using functions to modularize code.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/omHOuJY1"
+      }
+    }
+  ],
   "groupLinks": []
 }
