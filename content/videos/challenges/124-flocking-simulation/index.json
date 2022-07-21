@@ -14,28 +14,60 @@
         "autonomous agents"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
+    "relatedChallenges": [
+        {
+            "title": "Evolutionary Steering Behaviors",
+            "description": "",
+            "url": "https://thecodingtrain.com/challenges/69.1-evolutionary-steering-behaviors"
+        },
+        {
+            "title": "Steering Behaviors",
+            "description": "",
+            "url": "https://thecodingtrain.com/challenges/59-steering-behaviors"
+        }
+    ],
+    "timestamps": [
+        {
+            "time": "0:00",
+            "title": "Introduction to flocking!"
+        },
+        {
+            "time": "2:07",
+            "title": "What are boids?"
+        },
+        {
+            "time": "2:33",
+            "title": "Creating a system of boids"
+        },
+        {
+            "time": "7:06",
+            "title": "Discussing the flocking algorithm"
+        },
+        {
+            "time": "7:38",
+            "title": "Alignment!"
+        },
+        {
+            "time": "21:48",
+            "title": "Cohesion!"
+        },
+        {
+            "time": "28:37",
+            "title": "Separation!"
+        },
+        {
+            "time": "37:00",
+            "title": "Things to try!"
+        }
+    ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Flocking Simulation",
+            "description": "Simulation of the flocking behavior of autonomous agents",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ry4XZ8OkN"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ry4XZ8OkN",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/Processing",
                 "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/Processing"
             }
         }
     ],
@@ -44,16 +76,19 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📄",
                     "title": "Craig Reynolds' Paper on Boids",
                     "url": "https://www.red3d.com/cwr/boids/",
                     "description": ""
                 },
                 {
+                    "icon": "📕",
                     "title": "Autonomous Agents - Nature of Code",
                     "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
                     "description": "The link to the chapter in the online version of NOC"
                 },
                 {
+                    "icon": "📘",
                     "title": "The Computational Beauty of Nature",
                     "url": "https://mitpress.mit.edu/books/computational-beauty-nature",
                     "description": ""
@@ -64,17 +99,20 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "Craig Reynolds - Original 1986 Boids simulation",
+                    "icon": "🌐",
+                    "title": "Original Boids Simulation",
                     "url": "https://youtu.be/86iQiV3-3IA",
-                    "description": ""
+                    "description": "Simulation created by Craig Reynolds in 1986"
                 },
                 {
+                    "icon": "➡️",
                     "title": "Vectors - The Nature of Code",
                     "url": "https://youtu.be/bKEaK7WNLzM",
                     "description": "The first video from the Vector series in The Nature of Code (2020) playlist"
                 },
                 {
-                    "title": "Autonomous Steering Agents - Nature of Code",
+                    "icon": "🪂",
+                    "title": "Autonomous Steering Agents",
                     "url": "https://youtu.be/P_xJMH8VvAE",
                     "description": "The introductory video of the series exploring the chapter on autonomous agents in Nature of Code"
                 }
