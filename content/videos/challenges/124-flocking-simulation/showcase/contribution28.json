@@ -1,0 +1,9 @@
+{
+    "title": "Customizable, optimized boids simulation",
+    "url": "https://boids.cubedhuang.com/",
+    "author": {
+        "name": "Daniel Huang",
+        "url": "https://cubedhuang.com/"
+    },
+    "source": "https://github.com/cubeDhuang/boids"
+}
