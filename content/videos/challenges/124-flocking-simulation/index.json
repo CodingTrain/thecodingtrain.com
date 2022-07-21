@@ -14,18 +14,7 @@
         "autonomous agents"
     ],
     "canContribute": true,
-    "relatedChallenges": [
-        {
-            "title": "Evolutionary Steering Behaviors",
-            "description": "",
-            "url": "https://thecodingtrain.com/challenges/69.1-evolutionary-steering-behaviors"
-        },
-        {
-            "title": "Steering Behaviors",
-            "description": "",
-            "url": "https://thecodingtrain.com/challenges/59-steering-behaviors"
-        }
-    ],
+    "relatedChallenges": [],
     "timestamps": [
         {
             "time": "0:00",
