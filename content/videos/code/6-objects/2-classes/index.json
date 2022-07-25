@@ -1,7 +1,7 @@
 {
   "title": "Classes in ES6",
   "description": "This video introduces Object-Oriented Programming in JavaScript with ES6 classes and the p5.js library.",
-  "videoNumber": 6.2,
+  "videoNumber": "6.2",
   "videoId": "T-HGdc8L-7w",
   "date": "2017-6-10",
   "languages": ["p5.js", "JavaScript"],

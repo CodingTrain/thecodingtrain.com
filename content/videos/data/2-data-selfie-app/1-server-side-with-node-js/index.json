@@ -1,7 +1,7 @@
 {
   "title": "Server-side with Node.js",
   "description": "We are now in Module #2! In our previous module, we focused on client-side Javascript. We now will learn the basics of server-side programming with Node. We will begin building the Data Selfie App, a project tutorial by Joey K. Lee. This unit we will spend time getting setup with Node.js and our workflow.",
-  "videoNumber": 2.1,
+  "videoNumber": "2.1",
   "languages": ["JavaScript", "node.js"],
   "topics": ["node"],
   "videoId": "wxbQP1LMZsw",

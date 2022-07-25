@@ -1,49 +1,49 @@
 {
-    "title": "Clock",
-    "description": "In this coding challenge, I attempt to program a clock in HTML5 canvas with the p5.js library.",
-    "videoNumber": "74",
-    "videoId": "E4RyStef-gY",
-    "date": "2017-09-20",
-    "languages": ["JavaScript", "p5.js"],
-    "topics": ["clocks", "generative art"],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "codeExamples": [
+  "title": "Clock",
+  "description": "In this coding challenge, I attempt to program a clock in HTML5 canvas with the p5.js library.",
+  "videoNumber": "74",
+  "videoId": "E4RyStef-gY",
+  "date": "2017-09-20",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["clocks", "generative art"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Clock",
+      "description": "Implementing a clock in HTML5.",
+      "image": "clock.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2lvHFWPbW",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock/Processing",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Clock",
-            "description": "Implementing a clock in HTML5.",
-            "image": "clock.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/2lvHFWPbW",
-                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock/Processing",
-                 "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock"
-            }
-        }
-    ],
-    "groupLinks": [
+          "icon": "📓",
+          "title": "Golan Levin's notes on MAEDA\u2019S 12 O\u2019CLOCKS",
+          "url": "http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/",
+          "description": "Maeda’s 12 o’clocks"
+        },
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "📓",
-                    "title": "Golan Levin's notes on MAEDA\u2019S 12 O\u2019CLOCKS",
-                    "url": "http://cmuems.com/2016/60212/lectures/lecture-09-09b-clocks/maedas-clocks/",
-                    "description": "Maeda’s 12 o’clocks"
-                },
-                {
-                    "icon": "🕐",
-                    "title": "Alca's Clock Collection",
-                    "url": "https://codepen.io/collection/DqRNLQ/",
-                    "description": "Alca's Clock Collection"
-                },
-                {
-                    "icon": "📄",
-                    "title": "ICM-2017 Syllabus",
-                    "url": "https://github.com/ITPNYU/ICM-2017",
-                    "description": "Syllabus for ITP Foundation Course Introduction to Computational Media"
-                }
-            ]
+          "icon": "🕐",
+          "title": "Alca's Clock Collection",
+          "url": "https://codepen.io/collection/DqRNLQ/",
+          "description": "Alca's Clock Collection"
+        },
+        {
+          "icon": "📄",
+          "title": "ICM-2017 Syllabus",
+          "url": "https://github.com/ITPNYU/ICM-2017",
+          "description": "Syllabus for ITP Foundation Course Introduction to Computational Media"
         }
-    ]
+      ]
+    }
+  ]
 }
