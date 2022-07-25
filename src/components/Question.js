@@ -21,7 +21,7 @@ const Question = ({ variant, slug, question, answer, currentHash }) => {
 
   useEffect(() => {
     if (currentHash === `#${slug}`) setOpen(true);
-  }, []);
+  }, [currentHash, slug]);
 
   return (
     <div
