@@ -136,6 +136,7 @@ const ItemsPage = ({
         <Select
           title="Filter by Topic"
           icon="☆"
+          className={css.filter}
           options={topics}
           selected={selectedTopic}
           onChange={setSelectedTopic}
