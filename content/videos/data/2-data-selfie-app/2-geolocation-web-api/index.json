@@ -1,0 +1,63 @@
+{
+  "title": "Geolocation Web API",
+  "description": "Before diving into communication between client and server (GET and POST requests), let's look at the Geolocation Web API with navigator.geolocation. This data will be sent to the server and stored in a database in upcoming videos.",
+  "videoNumber": 2.2,
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["geolocation", "gps"],
+  "videoId": "3ls013DBcww",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome!" },
+    { "time": "00:11", "title": "Explain! Client Side vs Server Side code" },
+    { "time": "04:41", "title": "Explain! The Geolocation API" },
+    { "time": "07:08", "title": "Code! Get the user's location!" },
+    { "time": "09:10", "title": "Explain! Website Permissions" },
+    { "time": "11:58", "title": "Code! Display the coordinates in the DOM!" },
+    { "time": "13:31", "title": "Review, Next Steps and Exercises" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Geolocation API",
+      "description": "Demonstration of the Geolocation API",
+      "image": "geolocation.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/02_geolocation_api/"
+      }
+    },
+    {
+      "title": "Mapping User's Location",
+      "description": "(Exercise) Demonstration of mapping the user's location using Leaflet.js",
+      "image": "mappinguserslocation.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_02_leaflet/"
+      }
+    },
+    {
+      "title": "Geolocate with Button",
+      "description": "(Exercise) Demonstration of geolocating on a button click",
+      "image": "geolocatebutton.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_03_button/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Navigator Interface",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator",
+          "description": "window.navigator on the MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "Geolocation Web API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API",
+          "description": "Geolocation API on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}

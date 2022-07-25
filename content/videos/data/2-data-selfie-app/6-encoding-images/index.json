@@ -1,0 +1,84 @@
+{
+  "title": "Saving Images and Base64 Encoding",
+  "description": "Let's add an image from the webcam to our database. For this project, we will be using the p5.js JavaScript library!",
+  "videoNumber": 2.6,
+  "languages": ["JavaScript", "node.js", "p5.js"],
+  "topics": ["webcam", "database", "encoding"],
+  "videoId": "9Rhsb3GU2Iw",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! Let's use p5.js!" },
+    { "time": "01:22", "title": "Import the p5.js library" },
+    { "time": "04:03", "title": "Code! Create a p5 Sketch!" },
+    { "time": "05:23", "title": "Code! Create a Webcam Capture!" },
+    {
+      "time": "06:54",
+      "title": "Code! Send the image data to the server using Base64 encoding!"
+    },
+    { "time": "10:10", "title": "Code! Display the image on the logs page!" },
+    {
+      "time": "12:09",
+      "title": "Thanks for Watching! Suggestions for Improvements"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Capturing Webcam Images",
+      "description": "Demonstration of saving images from the webcam to the database.",
+      "image": "webcam.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/06_webcam/"
+      }
+    },
+    {
+      "title": "Saving image files",
+      "description": "(Exercise) Demonstration of saving image files to the file system.",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_08_save_files/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Code! Programming with p5.js",
+          "url": "/tracks/code-programming-with-p5-js",
+          "description": "Tutorial series on learning to code with p5.js"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "✨",
+          "title": "p5.js",
+          "url": "https://p5js.org",
+          "description": "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible."
+        },
+        {
+          "icon": "💾",
+          "title": "Processing Foundation",
+          "url": "https://processingfoundation.org/",
+          "description": "The Processing Foundation is the parental organization of p5.js and Processing."
+        },
+        {
+          "icon": "📦",
+          "title": "Base64",
+          "url": "https://en.wikipedia.org/wiki/Base64",
+          "description": "Wikipedia entry on Base64, a data encoding format for images."
+        },
+        {
+          "icon": "💾",
+          "title": "Canvas.toDataURL",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL",
+          "description": "HTMLCanvasElement.toDataURL() on the MDN Web Docs."
+        }
+      ]
+    }
+  ]
+}

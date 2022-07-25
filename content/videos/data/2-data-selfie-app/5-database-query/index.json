@@ -1,0 +1,41 @@
+{
+  "title": "Querying the Database",
+  "description": "It's time to start querying data from the database! For this, we create a new HTTP GET request route, make the request with the fetch() function, and search the database with find().",
+  "videoNumber": 2.5,
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["database"],
+  "videoId": "q-lUgFxwjEM",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What will we do?" },
+    { "time": "00:58", "title": "Changes to the previous code" },
+    { "time": "02:30", "title": "Code! Request all entries from the server!" },
+    { "time": "03:47", "title": "Code! Create a GET /api route!" },
+    { "time": "04:33", "title": "Code! Query the database!" },
+    { "time": "06:24", "title": "Code! Display the entries on the webpage!" },
+    { "time": "11:00", "title": "Review, Next Steps and Exercises" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Querying the Database",
+      "description": "Demonstration of querying the database and listing all entries in the DOM.",
+      "image": "querydb.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/05_querying_database/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📋",
+          "title": "NeDB",
+          "url": "https://github.com/louischatriot/nedb",
+          "description": "A simple, fast, and efficient embedded persistent key-value store for Node.js"
+        }
+      ]
+    }
+  ]
+}
