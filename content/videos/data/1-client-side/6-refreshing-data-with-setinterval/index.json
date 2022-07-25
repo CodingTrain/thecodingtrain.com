@@ -1,0 +1,85 @@
+{
+  "title": "Refreshing Data with setInterval()",
+  "description": "The lesson covers on refreshing new data from the ISS API and updating the HTML DOM accordingly once per second with setInterval().",
+  "videoNumber": 1.6,
+  "languages": ["JavaScript", "leaflet.js"],
+  "topics": ["setInterval", "api", "mapping"],
+  "videoId": "jKQUHGpOHqg",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What have we done so far?" },
+    { "time": "01:09", "title": "Code! Center the map view on the marker!" },
+    {
+      "time": "02:18",
+      "title": "Code! Update the marker's location with setInterval!"
+    },
+    { "time": "03:31", "title": "Oops! Only set map view once!" },
+    { "time": "04:40", "title": "Improvements and Suggestions!" },
+    { "time": "06:21", "title": "Module 1 - Recap" },
+    { "time": "06:57", "title": "What's next?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Where is the ISS?",
+      "description": "Final version of the ISS app.",
+      "image": "whereistheiss.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_where_is_the_iss/"
+      }
+    },
+    {
+      "title": "Centering Map on the ISS",
+      "description": "(Exercise) Demonstration of centering the view of the map on the ISS.",
+      "image": "whereistheiss.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_center_map/"
+      }
+    },
+    {
+      "title": "Using p5.js + Mappa",
+      "description": "(Exercise) Demonstration of drawing the marker image using p5.js.",
+      "image": "whereistheiss.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/JJ-1KGiIR",
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_p5_mappa/"
+      }
+    },
+    {
+      "title": "Using p5.js + Mappa with Velocity",
+      "description": "(Exercise) Demonstration of using p5.js to draw the ISS marker and its velocity vector.",
+      "image": "whereistheiss.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_p5_mappa_velocity/"
+      }
+    },
+    {
+      "title": "Scaling Marker with Altitude",
+      "description": "(Exercise) Demonstration of scaling the size of the marker according to the altitude of the ISS.",
+      "image": "whereistheiss.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_scale_altitude/"
+      }
+    },
+    {
+      "title": "Scaling Marker with Zoom",
+      "description": "(Exercise) Demonstration of scaling the size of the marker according to the zoom level.",
+      "image": "whereistheiss.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss_exercise_scale_iss/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "setInterval()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval",
+          "description": "setInterval on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}

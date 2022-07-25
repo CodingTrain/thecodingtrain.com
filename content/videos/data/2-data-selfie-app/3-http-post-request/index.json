@@ -1,0 +1,69 @@
+{
+  "title": "HTTP Post Request with fetch()",
+  "description": "Let's take data from the client and send it to the server. This video covers routing, JSON parsing, and HTTP POST requests with fetch().",
+  "videoNumber": 2.3,
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["fetch"],
+  "videoId": "Kw5tC5nQMRY",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome!" },
+    { "time": "01:16", "title": "Code! Routing in Express" },
+    { "time": "02:59", "title": "Code! Create POST request from client!" },
+    { "time": "07:08", "title": "Explain! Use nodemon to restart the app!" },
+    { "time": "08:11", "title": "Code! Parse the JSON Body!" },
+    { "time": "10:07", "title": "Code! Complete the request!" },
+    { "time": "13:57", "title": "Review, Next Steps and Exercises" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Routing and POST Request",
+      "description": "Demonstration of Routing in Express and making a POST request from the client.",
+      "image": "postrequest.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
+      }
+    },
+    {
+      "title": "Data Persistence - Saving in an Array",
+      "description": "(Exercise) Saving the latitudes and longitudes in an array",
+      "image": "datapersistence.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
+      }
+    },
+    {
+      "title": "Data Persistence - Saving to a text file",
+      "description": "(Exercise) Using a text file as a persistent storage.",
+      "image": "datapersistence.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_text_file/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Using the Fetch API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+          "description": "The Fetch API on the MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "HTTP Headers",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+          "description": "HTTP Headers on the MDN Web Docs"
+        },
+        {
+          "icon": "🚀",
+          "title": "Nodemon",
+          "url": "https://nodemon.io/",
+          "description": "Nodemon is a utility for restarting your Node.js server when code changes."
+        }
+      ]
+    }
+  ]
+}

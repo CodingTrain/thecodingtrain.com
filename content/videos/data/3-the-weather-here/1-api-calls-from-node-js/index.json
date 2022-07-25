@@ -1,0 +1,68 @@
+{
+  "title": "API calls from Node.js (Weather data from Dark Sky)",
+  "description": "Welcome to Module 3! I covered a lot about node.js in the previous module, but there are still a few key elements left to discuss! In this module, I build the \"Weather Here\" project (based on example by Joey Lee). In this first video, I demonstrate how to connect to an external API from node.js itself. Later, I'll look at how to hide an API key as well as deploy a project to publicly accessible web server.",
+  "videoNumber": 3.1,
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["api", "node"],
+  "videoId": "ZtLVbJk7KcM",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome to Module 2!" },
+    { "time": "03:21", "title": "Retrieving weather information" },
+    {
+      "time": "06:24",
+      "title": "Code! Fetch the weather information from the API!"
+    },
+    { "time": "07:45", "title": "Oh no! The CORS Error!" },
+    { "time": "08:41", "title": "Code! Create a new route for weather data!" },
+    { "time": "12:05", "title": "Install node-fetch" },
+    { "time": "17:11", "title": "Next Steps and Exercises" }
+  ],
+  "codeExamples": [
+    {
+      "title": "The Weather Here",
+      "description": "Final version of the web application",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here"
+      }
+    },
+    {
+      "title": "The Weather Here - Exercises",
+      "description": "Exercises",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module3/the_weather_here_exercises"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "⛅",
+          "title": "The Weather Here",
+          "url": "https://github.com/joeyklee/the-weather-here",
+          "description": "The original web-app created by Joey Lee"
+        },
+        {
+          "icon": "☁",
+          "title": "Dark Sky API",
+          "url": "https://darksky.net/dev",
+          "description": "API to retrieve weather data"
+        },
+        {
+          "icon": "🌐",
+          "title": "node-fetch",
+          "url": "https://www.npmjs.com/package/node-fetch",
+          "description": "A Node.js module for making HTTP requests."
+        },
+        {
+          "icon": "📩",
+          "title": "Cross Origin Resource Sharing",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+          "description": "CORS on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}
