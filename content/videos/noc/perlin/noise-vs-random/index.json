@@ -4,7 +4,33 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "YcdldZ1E9gU",
-  "timestamps": [
+  "timestamps": [],
+  "canContribute": true,
+  "codeExamples": [
+    {
+      "title": "Noise vs Random",
+      "description": "Demonstration of smoothness of noise() and random().",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/u6Te_XMF5"
+      }
+    }
   ],
-  "canContribute": true
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "noise()",
+          "url": "https://p5js.org/reference/#/p5/noise",
+          "description": "p5.js reference for noise()"
+        },
+        {
+          "title": "random()",
+          "url": "https://p5js.org/reference/#/p5/random",
+          "description": "p5.js reference for random()"
+        }
+      ]
+    }
+  ]
 }
