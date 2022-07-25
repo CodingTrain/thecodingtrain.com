@@ -135,12 +135,12 @@ const ItemsPage = ({
 
         <Select
           title="Filter by Topic"
+          placeholder="Pick a topic to filter"
           icon="☆"
           className={css.filter}
           options={topics}
           selected={selectedTopic}
           onChange={setSelectedTopic}
-          className={css.select}
           variant={variant}
         />
       </div>

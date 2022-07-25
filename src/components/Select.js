@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import ReactSelect from 'react-select';
 import cn from 'classnames';
 
@@ -10,15 +10,17 @@ export const Select = ({
   title,
   options,
   selected,
+  placeholder,
   onChange,
   icon,
   className,
   variant
 }) => {
-  const opts = options.map(toOption);
+  const opts = useMemo(() => options.map(toOption), [options]);
+  const handleOnChange = (o, action) => {
+    console.log(o, action);
 
-  const handleOnChange = (o) => {
-    onChange(o.value);
+    onChange(o ? o.value : o);
   };
 
   return (
@@ -33,10 +35,12 @@ export const Select = ({
         </div>
         <div className={css.selectContainer}>
           <ReactSelect
+            isClearable
+            placeholder={placeholder}
             className={css.select}
             classNamePrefix="rs"
             options={opts}
-            defaultValue={toOption(selected)}
+            defaultValue={selected ? toOption(selected) : selected}
             onChange={handleOnChange}
           />
 
