@@ -4,8 +4,8 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "m463X1cqV6s",
-  "timestamps": [
-  ],
+  "canContribute": true,
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Basic",
@@ -22,7 +22,7 @@
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/uGCYH4-PN"
       }
-	},
+    },
     {
       "title": "Exact Time Exercise",
       "description": "Generating oscillating motion using a specific amount of milliseconds to determine the period",
