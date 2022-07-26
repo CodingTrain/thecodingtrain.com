@@ -71,6 +71,14 @@
   box-shadow: none !important;
 }
 
+.select :global(.rs__menu) {
+  border-radius: 0;
+}
+
+.select :global(.rs__menu-list) {
+  padding-top: 0;
+}
+
 .itemSpacer {
   flex: 1 0 0;
   margin-top: -1px;
@@ -95,17 +103,6 @@
   & .select :global(.rs__control) {
     background-color: var(--red-light);
   }
-  & .select :global(.rs__menu) {
-    border-radius: 0;
-  }
-
-  & .select :global(.rs__menu-list) {
-    padding-top: 0;
-  }
-
-  & .select :global(.rs__options) {
-  }
-
   & .select :global(.rs__option--is-selected) {
     background-color: var(--red);
   }
@@ -132,6 +129,19 @@
   & .select {
     color: var(--gray-dark);
     background-color: var(--cyan-light);
+  }
+
+  & .select :global(.rs__option--is-focused),
+  & .select :global(.rs__control) {
+    background-color: var(--cyan-light);
+  }
+
+  & .select :global(.rs__menu-list) {
+    padding-top: 0;
+  }
+
+  & .select :global(.rs__option--is-selected) {
+    background-color: var(--cyan);
   }
 
   & .icon,
