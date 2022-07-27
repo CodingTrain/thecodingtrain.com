@@ -11,12 +11,21 @@
   "timestamps": [
     { "time": "0:00", "title": "Introduction to the Coding Challenge" },
     { "time": "0:56", "title": "Whiteboard discussion of polar coordinates" },
-    { "time": "2:30", "title": "Into the code...drawing an ellipse using polar coordinates" },
-    { "time": "4:38", "title": "Whiteboard discussion of the Superellipse formula" },
-    { "time": "7:32", "title": "Implementing the Superellipse formula from Wikipedia" },
+    {
+      "time": "2:30",
+      "title": "Into the code...drawing an ellipse using polar coordinates"
+    },
+    {
+      "time": "4:38",
+      "title": "Whiteboard discussion of the Superellipse formula"
+    },
+    {
+      "time": "7:32",
+      "title": "Implementing the Superellipse formula from Wikipedia"
+    },
     { "time": "9:43", "title": "Explaining and implementing the sgn function" },
-    { "time": "11:05", "title": "Testing the formula with different values"},
-    { "time": "11:22", "title": "Creating a slider for the 'n' variable"},
+    { "time": "11:05", "title": "Testing the formula with different values" },
+    { "time": "11:22", "title": "Creating a slider for the 'n' variable" },
     { "time": "12:14", "title": "What's next with superforumlas?" }
   ],
   "codeExamples": [

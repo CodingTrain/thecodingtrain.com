@@ -1,7 +1,7 @@
 {
   "title": "Boolean Variables",
   "description": "This video covers the boolean variables in p5.js. I first look at mousePressed, and also discuss creating your own boolean variable to track the state of a button.",
-  "videoNumber": 3.4,
+  "videoNumber": "3.4",
   "videoId": "Rk-_syQluvc",
   "date": "2015-09-10",
   "languages": ["p5.js", "JavaScript"],
