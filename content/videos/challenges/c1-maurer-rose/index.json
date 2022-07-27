@@ -1,17 +1,17 @@
 {
   "title": "Maurer Rose",
   "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I code a visualization of the Maurer Rose patter in JavaScript (p5.js).",
-  "videoNumber": "1 - Coding in the Cabana",
+  "videoNumber": "C1 - Coding in the Cabana",
   "videoId": "4uU9lZ-HSqA",
   "date": "2019-10-11",
   "languages": ["p5.js"],
-  "topics": ["mauer rose", "polar coordinates"],
+  "topics": ["maurer rose", "polar coordinates"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Maurer Rose" },
     { "time": "3:32", "title": "Coding Starts" },
     { "time": "5:44", "title": "Maurer Rose Algorithm" },
-    { "time": "8:30", "title": " Visualizing With a Rose Pattern" },
+    { "time": "8:30", "title": "Visualizing With a Rose Pattern" },
     { "time": "10:05", "title": "Adding a Slider" },
     { "time": "10:52 ", "title": "New ideas And Goodbyes" }
   ],
