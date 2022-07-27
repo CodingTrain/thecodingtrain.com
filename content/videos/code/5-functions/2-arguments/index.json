@@ -1,7 +1,7 @@
 {
   "title": "Function Parameters and Arguments",
   "description": "This video looks at re-usability and functions. How does defining a function with parameters allow a function to be re-used?",
-  "videoNumber": 5.2,
+  "videoNumber": "5.2",
   "videoId": "zkc417YapfE",
   "date": "2015-09-17",
   "languages": ["p5.js", "JavaScript"],

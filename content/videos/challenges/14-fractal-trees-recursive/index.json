@@ -8,6 +8,27 @@
   "topics": ["fractals", "generative art"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": []
+  "codeExamples": [
+   {
+            "title": "Recursive Fractal Tree",
+            "description": "",
+            "image": "fractal.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/xTjmYXU3q",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/014_FractalTree/Processing/"
+            }
+        }
+  ],
+  "groupLinks": [
+  {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Algorithmic Botany",
+                    "url": "http://algorithmicbotany.org/",
+                    "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
+                }
+            ]
+        }
+  ]
 }

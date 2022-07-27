@@ -1,0 +1,98 @@
+{
+  "title": "Saving to a Database",
+  "description": "It's time to add a database! Let's learn why databases are important. For this video, I'll start by using NeDB for the Data Selfie App.",
+  "videoNumber": "2.4",
+  "languages": ["JavaScript", "node.js"],
+  "topics": ["database"],
+  "videoId": "xVYa20DCUv0",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! Why do we need a Database?" },
+    { "time": "02:07", "title": "Explain! What is NeDB?" },
+    { "time": "04:42", "title": "Code! Create a database!" },
+    { "time": "07:34", "title": "Code! Insert data into the database!" },
+    { "time": "10:01", "title": "Review, Next Steps and Exercises" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Saving Data to a Database",
+      "description": "Using NeDB to save data in a datastore.",
+      "image": "datapersistence.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/04_saving_to_database/"
+      }
+    },
+    {
+      "title": "Saving in an array",
+      "description": "(Exercise) Saving the data in an array",
+      "image": "datapersistence.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
+      }
+    },
+    {
+      "title": "Saving to a text file",
+      "description": "(Exercise) Using a text file as a persistent storage.",
+      "image": "datapersistence.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_05_text_file/"
+      }
+    },
+    {
+      "title": "Input Box",
+      "description": "(Exercise) Saving the user's favourite vegetable to the database.",
+      "image": "inputbox.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_06_input_box/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "What is Firebase? (DBaaS)",
+          "url": "https://youtu.be/JrHT1iqSrAQ",
+          "description": "Introduction to \"Database as a Service\""
+        },
+        {
+          "icon": "🖥",
+          "title": "SQL - A Quick Overview",
+          "url": "https://youtu.be/OfM5lC-7R4Y",
+          "description": "[Socratica](https://www.youtube.com/c/Socratica)'s video series on SQL"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📋",
+          "title": "NeDB",
+          "url": "https://github.com/louischatriot/nedb",
+          "description": "A simple, fast, and efficient embedded persistent key-value store for Node.js"
+        },
+        {
+          "icon": "📋",
+          "title": "Firebase",
+          "url": "https://firebase.google.com/",
+          "description": "Firebase is a cloud database that provides a simple and secure way to store and access data."
+        },
+        {
+          "icon": "📋",
+          "title": "MongoDB",
+          "url": "https://www.mongodb.com/",
+          "description": "MongoDB is a Document database that can be used to store and access data in a JSON-like format."
+        },
+        {
+          "icon": "💾",
+          "title": "Date.now",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now",
+          "description": "Date.now() on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}

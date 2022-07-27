@@ -1,0 +1,58 @@
+{
+  "title": "Mapping Geolocation with Leaflet.js",
+  "description": "In this video I use Leaflet.js to add an interactive map to the page and place the ISS location as a marker.",
+  "videoNumber": "1.5",
+  "languages": ["JavaScript", "leaflet.js"],
+  "topics": ["mapping", "geolocation"],
+  "videoId": "nZaZ2dB6pow",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What is Leaflet.js?" },
+    { "time": "00:31", "title": "Setup Leaflet.js" },
+    { "time": "02:53", "title": "Code! Create the map and specify the tiles!" },
+    { "time": "07:57", "title": "Code! Create a marker on the map!" },
+    { "time": "10:30", "title": "Code! Customize the marker!" },
+    { "time": "12:45", "title": "Refactoring!" },
+    { "time": "13:38", "title": "Next Steps and Exercises" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mapping Geolocation",
+      "description": "Demonstration of mapping geolocation with Leaflet.js.",
+      "image": "whereistheiss.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_mapping_iss/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗺",
+          "title": "Leaflet.js",
+          "url": "https://leafletjs.com/",
+          "description": "A JavaScript library for interactive maps."
+        },
+        {
+          "icon": "🛰",
+          "title": "Where the ISS at?",
+          "url": "https://wheretheiss.at/",
+          "description": "A website that shows the current location of the ISS."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Basics of CSS",
+          "url": "https://youtu.be/zGL8q8iQSQw",
+          "description": "Tutorial on how to use CSS."
+        }
+      ]
+    }
+  ]
+}

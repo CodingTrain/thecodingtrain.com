@@ -7,9 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["PI", "game", "pi day"],
   "canContribute": true,
-  "timestamps": [
-    { "time": "00:00", "title": "Happy Pi Day!" } 
-  ],
+  "timestamps": [{ "time": "00:00", "title": "Happy Pi Day!" }],
   "codeExamples": [
     {
       "title": "Pi in the Sky",

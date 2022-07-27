@@ -1,0 +1,47 @@
+{
+  "title": "Fetching JSON Data from an API",
+  "description": "With our previous projects, we learned about fetch() and tabular data. This next project will show you how to work with JSON data from an API including how to load JSON data with fetch() and update DOM element.",
+  "videoNumber": "1.4",
+  "languages": ["JavaScript", "p5.js", "node.js"],
+  "topics": ["data", "api", "json"],
+  "videoId": "uxf0--uiX0I",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What have we done so far?" },
+    { "time": "00:31", "title": "Explain! What is an API?" },
+    { "time": "02:46", "title": "Explain! What is JSON?" },
+    { "time": "05:43", "title": "'Where the ISS at?' API" },
+    { "time": "10:08", "title": "Code! fetch() the data!" },
+    { "time": "13:25", "title": "Code! Show the data on the webpage!" },
+    { "time": "15:02", "title": "Next steps and Exercises!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Fetch JSON Data",
+      "description": "Demonstration of fetching latitude and longitude of the ISS from an API.",
+      "image": "fetchjson.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/03_fetch_json/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🛰",
+          "title": "Where the ISS at?",
+          "url": "https://wheretheiss.at/",
+          "description": "A website that shows the current location of the ISS."
+        },
+        {
+          "icon": "➕",
+          "title": "JSON Formatter",
+          "url": "https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en",
+          "description": "Chrome Extension to format JSON in the browser."
+        }
+      ]
+    }
+  ]
+}

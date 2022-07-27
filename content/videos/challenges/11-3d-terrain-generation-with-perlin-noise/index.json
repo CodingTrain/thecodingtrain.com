@@ -1,0 +1,76 @@
+{
+  "title": "3D Terrain Generation with Perlin Noise in Processing",
+  "description": "In this coding challenge, I create a 3D procedural terrain using Perlin Noise and the beginShape() function in Processing.",
+  "videoNumber": "11",
+  "videoId": "IKB1hWWedMk",
+  "date": "2016-05-04",
+  "languages": ["Processing"],
+  "topics": ["perlin noise", "terrain generation", "procedural"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction to the Challenge" },
+    { "time": "00:46", "title": "What do we need to do?" },
+    { "time": "02:14", "title": "Draw a rectangular grid!" },
+    { "time": "04:13", "title": "Create a flat triangle strip mesh!" },
+    { "time": "06:51", "title": "Rotate the surface in 3D!" },
+    { "time": "08:47", "title": "Set the z-values of the vertices randomly!" },
+    { "time": "11:04", "title": "Create a 2D array to store the z values!" },
+    {
+      "time": "13:31",
+      "title": "How do we make the terrain infinite? What is Perlin Noise?"
+    },
+    { "time": "17:03", "title": "How do we make the terrain smooth?" },
+    { "time": "17:43", "title": "Reduce offsets to get smoother z values" },
+    {
+      "time": "19:17",
+      "title": "How do we make it appear as if we are moving over the terrain?"
+    },
+    {
+      "time": "20:30",
+      "title": "Change y-offset per frame to create the illusion of flying!"
+    },
+    { "time": "22:05", "title": "Thanks for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "3D Terrain Generation with Perlin Noise",
+      "description": "Demonstration of generating a 3D terrain using Perlin Noise.",
+      "image": "terrain.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/OPYPc4ueq",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_011_PerlinNoiseTerrain/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "beginShape() reference",
+          "url": "https://processing.org/reference/beginShape_.html",
+          "description": "beginShape() on the Processing reference."
+        },
+        {
+          "icon": "💾",
+          "title": "noise() reference",
+          "url": "https://processing.org/reference/noise_.html",
+          "description": "noise() on the Processing reference."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "What is Perlin Noise?",
+          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/perlin-noise-and-p5js-tutorial-intro",
+          "description": "Tutorial on Perlin Noise in p5.js"
+        }
+      ]
+    }
+  ]
+}
