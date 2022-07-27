@@ -16,11 +16,20 @@
     { "time": "06:51", "title": "Rotate the surface in 3D!" },
     { "time": "08:47", "title": "Set the z-values of the vertices randomly!" },
     { "time": "11:04", "title": "Create a 2D array to store the z values!" },
-    { "time": "13:31", "title": "How do we make the terrain infinite? What is Perlin Noise?" },
+    {
+      "time": "13:31",
+      "title": "How do we make the terrain infinite? What is Perlin Noise?"
+    },
     { "time": "17:03", "title": "How do we make the terrain smooth?" },
     { "time": "17:43", "title": "Reduce offsets to get smoother z values" },
-    { "time": "19:17", "title": "How do we make it appear as if we are moving over the terrain?" },
-    { "time": "20:30", "title": "Change y-offset per frame to create the illusion of flying!" },
+    {
+      "time": "19:17",
+      "title": "How do we make it appear as if we are moving over the terrain?"
+    },
+    {
+      "time": "20:30",
+      "title": "Change y-offset per frame to create the illusion of flying!"
+    },
     { "time": "22:05", "title": "Thanks for watching!" }
   ],
   "codeExamples": [

@@ -4,15 +4,8 @@
   "videoNumber": "166",
   "videoId": "55iwMYv8tGI",
   "date": "2022-02-12",
-  "languages": [
-    "JavaScript",
-    "p5.js"
-  ],
-  "topics": [
-    "images",
-    "ASCII",
-    "DOM"
-  ],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["images", "ASCII", "DOM"],
   "canContribute": true,
   "timestamps": [
     { "title": "Welcome!", "time": "0:00" },

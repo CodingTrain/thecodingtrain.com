@@ -1,7 +1,7 @@
 {
   "title": "map()",
   "description": "This video covers the map() function in p5.js -- how to take a value from a given range and map it to a new range.",
-  "videoNumber": 2.5,
+  "videoNumber": "2.5",
   "videoId": "nicMAoW6u1g",
   "date": "2015-09-04",
   "languages": ["p5.js", "JavaScript"],
