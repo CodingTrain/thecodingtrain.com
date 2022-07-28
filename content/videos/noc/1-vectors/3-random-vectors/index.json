@@ -4,8 +4,8 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "jupjuq9Jl-M",
-  "timestamps": [
-  ],
+  "canContribute": true,
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Random Vector",

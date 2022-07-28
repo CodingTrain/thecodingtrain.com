@@ -1,0 +1,52 @@
+{
+  "title": "I.4: Graphing 1D Perlin Noise",
+  "description": "In Part I.4 of my Perlin Noise Tutorial, I graph the values of one-dimensional perlin noise and compare to randomness.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "y7sgcFhk6ZM",
+  "timestamps": [],
+  "canContribute": true,
+  "codeExamples": [
+    {
+      "title": "Adding Y-axis",
+      "description": "Using 1D perlin noise to generate two coordinates",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/nCYG2SCNq"
+      }
+    },
+    {
+      "title": "Noise Graph",
+      "description": "Graphing 1D perlin noise",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EZeHXBhei"
+      }
+    },
+    {
+      "title": "Noisy Sin",
+      "description": "Using 1D perlin noise to create a noisy sin wave",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/M_kuAXwV2"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "noise()",
+          "url": "https://p5js.org/reference/#/p5/noise",
+          "description": "p5.js reference for noise()"
+        },
+        {
+          "title": "random()",
+          "url": "https://p5js.org/reference/#/p5/random",
+          "description": "p5.js reference for random()"
+        }
+      ]
+    }
+  ]
+}

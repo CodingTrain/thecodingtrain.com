@@ -4,8 +4,8 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "bKEaK7WNLzM",
-  "timestamps": [
-  ],
+  "canContribute": true,
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "What is a Vector",
