@@ -54,6 +54,7 @@ const Challenge = ({ data }) => {
           video={challenge}
           variant="cyan"
           url={`/challenges/${challenge.slug}`}
+          placeholderImage={contributionsPlaceholder}
         />
       </main>
 

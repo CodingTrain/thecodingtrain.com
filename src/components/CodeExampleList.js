@@ -62,19 +62,20 @@ const useUrls = (urls) => {
   return [mainUrl, components];
 };
 
-const CodeExample = ({ example }) => {
+const CodeExample = ({ example, placeholderImage }) => {
   const { title, description, image } = example;
   const [mainUrl, urls] = useUrls(example.urls);
+
+  const thumbnail = image
+    ? example.image.file.childImageSharp.gatsbyImageData
+    : placeholderImage;
 
   return (
     <li className={css.example}>
       <span className={css.thumbnail}>
         <a {...linkProps} href={mainUrl}>
-          {image && (
-            <Image
-              image={image.file.childImageSharp.gatsbyImageData}
-              alt={`"${title}" code example`}
-            />
+          {thumbnail && (
+            <Image image={thumbnail} alt={`"${title}" code example`} />
           )}
         </a>
       </span>
@@ -91,14 +92,20 @@ const CodeExample = ({ example }) => {
   );
 };
 
-const CodeExampleList = memo(({ className, variant, examples }) => {
-  return (
-    <ul className={cn(css.root, className, { [css[variant]]: variant })}>
-      {examples.map((example, key) => (
-        <CodeExample example={example} key={key} />
-      ))}
-    </ul>
-  );
-});
+const CodeExampleList = memo(
+  ({ className, variant, examples, placeholderImage }) => {
+    return (
+      <ul className={cn(css.root, className, { [css[variant]]: variant })}>
+        {examples.map((example, key) => (
+          <CodeExample
+            example={example}
+            key={key}
+            placeholderImage={placeholderImage}
+          />
+        ))}
+      </ul>
+    );
+  }
+);
 
 export default CodeExampleList;
