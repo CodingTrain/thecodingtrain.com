@@ -4,7 +4,18 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "Qf4dIN99e2w",
-  "timestamps": [
-  ],
-  "canContribute": true
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "noise()",
+          "url": "https://p5js.org/reference/#/p5/noise",
+          "description": "p5.js reference for noise()"
+        }
+      ]
+    }
+  ]
 }

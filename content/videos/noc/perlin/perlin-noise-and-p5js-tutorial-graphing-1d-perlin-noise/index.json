@@ -1,9 +1,0 @@
-{
-  "title": "I.4: Graphing 1D Perlin Noise",
-  "description": "In Part I.4 of my Perlin Noise Tutorial, I graph the values of one-dimensional perlin noise and compare to randomness.",
-  "languages": ["JavaScript", "p5.js"],
-  "topics": ["For beginners"],
-  "videoId": "y7sgcFhk6ZM",
-  "timestamps": [
-  ]
-}

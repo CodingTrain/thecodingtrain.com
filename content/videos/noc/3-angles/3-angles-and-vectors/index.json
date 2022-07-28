@@ -5,8 +5,7 @@
   "topics": ["For beginners"],
   "videoId": "oXwCVDXS2Lg",
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Direction Pointing",
@@ -42,8 +41,8 @@
           "url": "https://natureofcode.com/book/chapter-3-oscillation/index.html#34-pointing-in-the-direction-of-movement",
           "description": "Link to Nature of Code book section on solving for tangent"
         }
-	  ]
-	},
+      ]
+    },
     {
       "title": "Videos",
       "links": [
