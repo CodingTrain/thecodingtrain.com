@@ -1,6 +1,6 @@
 {
   "title": "I.3: noise() vs random()",
-  "description": "In Part I.3 of my Perlin Noise Tutorial, I show you the difference between two p5.js function returning random numbers: noise() and random().",
+  "description": "This video demonstrates the difference between two p5.js functions that return random numbers: noise() and random().",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "YcdldZ1E9gU",
