@@ -1,8 +1,8 @@
 {
-    "title": "Animated Hilbert Curve (morph from order 0 to 6 made in VB.Net)",
-    "url": "Project URL",
-    "author": {
-      "name": "Jos Gielen",
-      "url": "https://github.com/JosGielen"
-    }
-  }
+  "title": "Animated Hilbert Curve (morph from order 0 to 6 made in VB.Net)",
+  "author": {
+    "name": "Jos Gielen",
+    "url": "https://github.com/JosGielen"
+  },
+  "url": "https://github.com/JosGielen/Coding_Train_VB.net/blob/master/Cabana/Animated%20Hilbert%20Curve/Results/HilbertMorph0-6.gif"
+}
