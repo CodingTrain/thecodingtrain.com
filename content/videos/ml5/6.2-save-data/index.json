@@ -1,0 +1,43 @@
+{
+    "title": "ml5.js: Save Neural Network Training Data",
+    "description": "This video takes the sketch from the previous video on training your own ml5.js neural network, and shows how to save the data collected in a JSON file which can be loaded again later.",
+    "videoNumber": "6.2",
+    "videoId": "q6cwxORPDo8",
+    "date": "YYYY-MM-DD",
+    "languages": ["ml5", "p5js"],
+    "topics": ["neural network", "machine learning", "saving data"],
+    "canContribute": true,
+    "timestamps": [
+      { "time": "0:00", "title": "Introduction" },
+      { "time": "1:46", "title": "Saving the data versus savng the model" },
+      { "time": "3:35", "title": "saveData()" },
+      { "time": "5:30", "title": "Train the model" },
+      { "time": "6:47", "title": "Adding saved data to p5 sketch" },
+      { "time": "7:35", "title": "Learning reate" },
+      { "time": "8:54", "title": "Add dataLoaded" },
+      { "time": "9:30", "title": "Raw data" },
+      { "time": "10:34", "title": "Get data function" }
+    ],
+    "codeExamples": [
+      {
+        "title": "Save neural network training data",
+        "description": "This sketch demonstrates how to save neural network training data.",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/4fxtImOMz"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "💻",
+            "title": "ml5.js Neural Network",
+            "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
+            "description": "ml5 page with documentation and supporting material about ml5.neuralNetwork."
+          }
+        ]
+      }
+    ]
+  }

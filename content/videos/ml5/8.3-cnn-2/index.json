@@ -1,0 +1,69 @@
+{
+"title": "ml5.js: What is a Convolutional Neural Network Part 2 - Max Pooling",
+"description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \u201cmax pooling.\u201d",
+"videoNumber": "8.3",
+"videoId": "pRWq_mtuppU",
+"date": "2020-02-14",
+"languages": ["ml5", "javascript"],
+"topics": ["max pooling", "convolutional neural network", "stride"],
+"canContribute": true,
+"timestamps": [
+  { "time": "0:00", "title": "Introduction" },
+  { "time": "0:46", "title": "Max pooling" },
+  { "time": "2:02", "title": "Strides" },
+  { "time": "3:40", "title": "Resolution is reduced" },
+  { "time": "4:43", "title": "Pixels with highest values are emphasized" },
+  { "time": "6:37", "title": "Max pooling algorithm"},
+  { "time": "7:37", "title": "Other pooling algorithms" },
+  { "time": "8:07", "title": "Pooling function" },
+  { "time": "10:34", "title": "Add a global variable for stride" },
+  { "time": "15:05", "title": "Diagram of neural network" },
+  { "time": "15:20", "title": "Intuitive explanation of neural networks" },
+  { "time": "17:44", "title": "Last layer" },
+  { "time": "22:13", "title": "What's next?" }
+],
+"codeExamples": [
+  {
+    "title": "Convolutional Neural network",
+    "description": "This sketch demonstrates max pooling.",
+    "urls": {
+      "p5": "https://editor.p5js.org/codingtrain/sketches/GMRfsK7Wn"
+    }
+  }
+],
+"groupLinks": [
+  {
+    "title": "References",
+    "links": [
+      {
+        "icon": "💻",
+        "title": "Gradient-Based Learning Applied to Document Recognition",
+        "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf",
+        "description": "Article about gradient based learning."
+      },
+      {
+        "icon": "📓",
+        "title": "An Intuitive Explanation of Convolutional Neural Networks",
+        "url": "https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/",
+        "description": "Blog post explaining convolutional neural networks."
+      },
+      {
+        "icon": "💻",
+        "title": "Google Quick Draw",
+        "url": "https://quickdraw.withgoogle.com/",
+        "description": "The world's largest doodling data set."
+      }
+    ]
+  },
+  {
+    "title": "Videos",
+    "links": [{
+        "icon": "🚂",
+        "title": "ml5.js: What is a Convolutional Neural Network Part 1",
+        "url": "https://www.youtube.com/watch?v=qPKsVAI_W6M",
+        "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \u201cfilters\u201d."
+      }
+    ]
+  }
+]
+}
