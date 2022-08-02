@@ -7,6 +7,7 @@ import CharacterSpacer from './CharacterSpacer';
 import { Heading1 } from './Heading';
 import PagePanel from './PagePanel';
 import Filter from './Filter';
+import Select from './Select';
 import Spacer from './Spacer';
 import Button from './Button';
 
@@ -131,17 +132,15 @@ const ItemsPage = ({
           className={css.filter}
           variant={variant}
         />
-        <Filter
+
+        <Select
           title="Filter by Topic"
+          placeholder="Pick a topic to filter"
           icon="☆"
-          items={topics}
-          seeMore="See more topics >"
-          seeLess="< See less topics"
+          className={css.filter}
+          options={topics}
           selected={selectedTopic}
           onChange={setSelectedTopic}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
           variant={variant}
         />
       </div>
