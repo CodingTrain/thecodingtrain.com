@@ -10,6 +10,8 @@ A new Coding Train video has been released and you want to add it to the website
 
 ## Coding Challenges - Starting from a template
 
+To indicate that you plan to port a coding challenge from the old website to the new one, add your github username in the "Claimed By" column of [this spreadsheet](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781).
+
 Data from the old website was scraped into starter templates that [reside in a GitHub repo that can be found here](https://github.com/skaser85/thecodingtrain_website_data). Each template directory includes three items:
 
 | Item       | Description                                                                                                                                                                           |
@@ -122,6 +124,8 @@ Add a title to the pull request on the new page. Optionally, add a message about
 The Netlify bot will start running tests on your pull request. If everything passes, someone one on the Coding Train team will review your pull request. They may have questions about it or offer suggestions to improve it. If you end up needing to make changes, you can make them in the branch in your local repo. When you push the changes up to GitHub, they will automatically show up as an update in the pull request. Once all changes have been made to the pull request, the pull request will be merged. Congrats!!!
 
 ![screenshot showing the Netlify bot running automated tests](https://user-images.githubusercontent.com/28508947/173202126-37290f1c-7cef-4f51-8a01-9f8e6d1c7988.png)
+
+Once your pull request has been merged, you can write "yes" in the "Ported" column of [this spreadsheet](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781) and add the name of the challenge directory you added in the "Directory Name" column.
 
 ## Coding Challenges - Adding video
 
