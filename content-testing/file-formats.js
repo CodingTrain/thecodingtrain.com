@@ -22,6 +22,25 @@ const video = {
           }
         }
       },
+      nextParts: {
+        type: 'array',
+        content: {
+          type: 'object',
+          properties: {
+            videoId: { isRequired: true, type: 'string' },
+            timestamps: {
+              type: 'array',
+              content: {
+                type: 'object',
+                properties: {
+                  time: { isRequired: true, type: 'string' },
+                  title: { isRequired: true, type: 'string' }
+                }
+              }
+            },
+          }
+        }
+      },
       codeExamples: {
         type: 'array',
         content: {

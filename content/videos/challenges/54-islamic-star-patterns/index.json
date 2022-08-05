@@ -32,6 +32,16 @@
     { "time": "1:00:02", "title": "What's missing from this implementation?" },
     { "time": "1:03:53", "title": "Getting rid of the grid" }
   ],
+  "nextParts": [
+    {
+      "videoId": "lobJ9gzbLo8",
+      "timestamps": [
+        { "time": "00:00", "title": "A" },
+        { "time": "01:00", "title": "B" },
+        { "time": "02:00", "title": "C" }
+      ]
+    }
+  ],
   "codeExamples": [
     {
       "title": "Islamic Star Pattern - Part I",

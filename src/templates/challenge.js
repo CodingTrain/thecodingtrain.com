@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import cn from 'classnames';
 
@@ -9,6 +9,7 @@ import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import ChallengeVideoSection from '../components/challenges/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
+import Button from '../components/Button';
 
 import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
@@ -18,17 +19,18 @@ import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
 import SemiColonCharacter from '../images/characters/SemiColon_2.mini.svg';
 
 const Challenge = ({ data }) => {
-  const {
-    challenge,
-    contributionPlaceholderImage,
-    challengePlaceholderImage
-  } = data;
+  const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
+    data;
   const challengesPlaceholder = challengePlaceholderImage
     ? challengePlaceholderImage.childImageSharp.gatsbyImageData
     : null;
   const contributionsPlaceholder = contributionPlaceholderImage
     ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
     : challengesPlaceholder;
+  const [currentVideoId, setCurrentVideoId] = useState(challenge.videoId);
+  const [currentTimestamps, setCurrentTimestamps] = useState(
+    challenge.timestamps
+  );
   return (
     <Layout
       title={challenge.title}
@@ -46,9 +48,38 @@ const Challenge = ({ data }) => {
       <div className={css.simpleSep} />
 
       <main>
-        <ChallengeVideoSection challenge={challenge} />
+        <ChallengeVideoSection
+          challenge={challenge}
+          videoId={currentVideoId}
+          timestamps={currentTimestamps}
+        />
 
-        <div className={css.blankSep} />
+        {challenge.nextParts.length > 0 ? (
+          <div className={css.partsNav}>
+            <Button
+              className={css.partsNavButton}
+              variant="cyan"
+              onClick={() => {
+                setCurrentVideoId(challenge.videoId);
+                setCurrentTimestamps(challenge.timestamps);
+              }}>
+              Part 1
+            </Button>
+            {challenge.nextParts.map((part, index) => (
+              <Button
+                className={css.partsNavButton}
+                variant="cyan"
+                onClick={() => {
+                  setCurrentVideoId(part.videoId);
+                  setCurrentTimestamps(part.timestamps);
+                }}>
+                Part {index + 2}
+              </Button>
+            ))}
+          </div>
+        ) : (
+          <div className={css.blankSep} />
+        )}
 
         <VideoInfo
           video={challenge}
@@ -119,6 +150,14 @@ export const query = graphql`
         title
         time
         seconds
+      }
+      nextParts {
+        videoId
+        timestamps {
+          title
+          time
+          seconds
+        }
       }
       codeExamples {
         title

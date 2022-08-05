@@ -7,8 +7,12 @@ import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import * as css from './VideoSection.module.css';
 
-const VideoSection = ({ challenge }) => {
-  const { topics, languages, timestamps, videoNumber, title } = challenge;
+const VideoSection = ({
+  challenge,
+  videoId = challenge.videoId,
+  timestamps = challenge.timestamps
+}) => {
+  const { topics, languages, videoNumber, title } = challenge;
 
   const youTubeVideoRef = useRef();
   const [showTimeline, setShowTimeline] = useState(false);
@@ -88,7 +92,7 @@ const VideoSection = ({ challenge }) => {
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
               containerClassName={css.videoWrapper}
-              videoId={challenge.videoId}
+              videoId={videoId}
               timestamp={timestamp}
             />
           </div>

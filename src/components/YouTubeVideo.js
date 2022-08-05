@@ -32,6 +32,16 @@ const YouTubeVideo = ({
     jumpToTimestamp();
   }, [timestamp]);
 
+  const didMount = useRef(false)
+  useEffect(() => {
+    if (didMount.current) {
+      const player = youTubeVideo.current.getInternalPlayer();
+      player.loadVideoById({ videoId, startSeconds: 0 }); 
+    } else {
+      didMount.current = true;
+    }
+  }, [videoId]);
+
   return (
     <div key={videoId}>
       <YouTube

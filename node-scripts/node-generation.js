@@ -92,6 +92,13 @@ exports.createVideoRelatedNode = (
       ...timestamp,
       seconds: parseTimestamp(timestamp.time)
     }));
+    const nextParts = (data.nextParts ?? []).map((nextPart) => ({
+      ...nextPart,
+      timestamps: (nextPart.timestamps ?? []).map((timestamp) => ({
+        ...timestamp,
+        seconds: parseTimestamp(timestamp.time)
+      }))
+    }));
     const languages = data.languages ?? [];
     const topics = data.topics ?? [];
 
@@ -104,6 +111,7 @@ exports.createVideoRelatedNode = (
       topics,
       topicsFlat: topics.join(),
       timestamps,
+      nextParts,
       codeExamples: (data.codeExamples ?? []).map((example) => ({
         ...example,
         image: createNodeId(

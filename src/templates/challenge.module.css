@@ -15,6 +15,21 @@
   background: white;
 }
 
+.partsNav {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  height: var(--baseline);
+  border-left: var(--border);
+  border-bottom: var(--border-cyan);
+  background: white;
+}
+
+.partsNavButton {
+  cursor: pointer;
+}
+
 @media (--small) {
   .breadcrumbs {
     display: none;
