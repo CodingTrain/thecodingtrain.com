@@ -1,4 +1,7 @@
 # Coding Train Website
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for thecodingtrain.com. The website is built with:
 
@@ -21,3 +24,23 @@ This will start a local server and the website will now be accessible on [localh
 
 **Note:** In some cases, specially when updating loaded content, you need to restart the local server with `npm run dev`.
 And in some cases that may fail because of Gatsby's cache usage. If you run `npm run clean` before `npm run dev`, that should fix it.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/kfahn22"><img src="https://avatars.githubusercontent.com/u/65121394?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kathy</b></sub></a><br /><a href="#content-kfahn22" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
