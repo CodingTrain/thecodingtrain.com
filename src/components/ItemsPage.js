@@ -119,17 +119,14 @@ const ItemsPage = ({
       {midSection}
       {midSection && <Spacer />}
       <div className={css.filters} ref={filtersRef}>
-        <Filter
+        <Select
           title="Filter by Language"
+          placeholder="Pick a language to filter"
           icon="⌥"
-          items={languages}
-          seeMore="See more languages >"
-          seeLess="< See less languages"
+          className={css.filter}
+          options={languages}
           selected={selectedLanguage}
           onChange={setSelectedLanguage}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
           variant={variant}
         />
 
