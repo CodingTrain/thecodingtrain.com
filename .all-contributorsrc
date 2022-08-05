@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "kfahn22",
+      "name": "Kathy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65121394?v=4",
+      "profile": "https://github.com/kfahn22",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
       "login": "dipamsen",
       "name": "Dipam Sen",
       "avatar_url": "https://avatars.githubusercontent.com/u/59444569?v=4",

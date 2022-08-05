@@ -34,6 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/kfahn22"><img src="https://avatars.githubusercontent.com/u/65121394?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kathy</b></sub></a><br /><a href="#content-kfahn22" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/dipamsen"><img src="https://avatars.githubusercontent.com/u/59444569?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dipam Sen</b></sub></a><br /><a href="#content-dipamsen" title="Content">🖋</a></td>
   </tr>
 </table>
