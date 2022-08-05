@@ -8,6 +8,22 @@ date: '04/19/2022'
 
 If you’re new to coding, getting started can feel overwhelming, hopefully this passenger guide will help you with everything you need to begin! 💖
 
+## Start Learning and Coding!
+
+There are two main tracks you can follow for total and complete beginners.
+
+### Code! Programming with p5.js
+
+<Video videoId="HerCR8bw_GE" listId="PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"/>
+
+The [Code! Programming with p5.js Track](/tracks/code-programming-with-p5-js) focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) with JavaScript.
+
+### Learning Processing
+
+<Video videoId="2VLaIr5Ckbs" list="PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e"/>
+
+The [Learning Processing Track](https://youtube.com/playlist?list=PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e) was recorded over 10 years ago in 2012 (!!) but the concepts and syntax remain the same today. It follows the textbook [Learning Processing](http://learningprocessing.com/) to walk you through all the basics of coding in Java with Processing.
+
 ## Languages
 
 <Video videoId="AmlAiKsiy0o" listId="PLRqwX-V7Uu6Z1JcqC1iG1oEsJrLX1IK5L" />
@@ -21,26 +37,6 @@ If you are interested in learning web development, p5.js is a way to get started
 <Video videoId="gJa6wri8YNQ" listId="PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X"/>
 
 For a beginner, I recommend the [p5.js web editor](https://editor.p5js.org/), it’s probably the most used coding environment! You can also explore a downloadable text editor like [Visual Studio Code](https://code.visualstudio.com/). I cover all of these elements in [my 2018 workflow series](/tracks/2018-workflow). If you are using Processing, it comes [with its own development environment](https://processing.org/download)! There are many text editors out there – feel free to use whichever makes your coding experience comfortable!
-
-## Start Learning and Coding!
-
-There are two main tracks you can follow for total and complete beginners.
-
-### Code! Programming with p5.js
-
-<Video videoId="HerCR8bw_GE" listId="PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"/>
-
-This track focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) with JavaScript.
-
-[Full Code! Programming with p5.js Track here](/tracks/code-programming-with-p5-js).
-
-### Learning Processing
-
-<Video videoId="2VLaIr5Ckbs" list="PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e"/>
-
-This track was recorded over 10 years ago (!!) but the concepts and syntax remain the same today. It follows the textbook [Learning Processing](http://learningprocessing.com/) to walk you through all the basics of coding in Java with Processing.
-
-[Full Learning Processing Track here.](https://youtube.com/playlist?list=PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e).
 
 ## Version Control
 
