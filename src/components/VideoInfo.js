@@ -19,13 +19,17 @@ const useLabels = (video) => {
   return labels;
 };
 
-const VideoInfo = ({ video, variant, url }) => {
+const VideoInfo = ({ video, variant, url, placeholderImage }) => {
   const labels = useLabels(video);
   return (
     <div className={cn(css.root, { [css[variant]]: variant })}>
       <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
         {video.codeExamples && video.codeExamples.length > 0 && (
-          <CodeExampleList examples={video.codeExamples} variant={variant} />
+          <CodeExampleList
+            examples={video.codeExamples}
+            variant={variant}
+            placeholderImage={placeholderImage}
+          />
         )}
         <CollapsableDescription
           className={css.description}
