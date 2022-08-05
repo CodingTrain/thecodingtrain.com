@@ -1,0 +1,23 @@
+{
+  "title": "Space Invaders",
+  "description": "In this viewer submitted coding challenge, I take on the task of coding a Space Invaders game to play in browser in JavaScript/HTML and the p5.js library.",
+  "videoNumber": "5",
+  "videoId": "biN3v3ef-Y0",
+  "date": "2016-04-26",
+  "languages": ["p5.js"],
+  "topics": ["space invaders", "game"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Flower Invaders",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Azip-ZzXI",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/005_Space_invaders/Processing"
+      }
+    }
+  ],
+  "groupLinks": []
+}
