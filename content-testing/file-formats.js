@@ -37,7 +37,7 @@ const video = {
                   title: { isRequired: true, type: 'string' }
                 }
               }
-            },
+            }
           }
         }
       },

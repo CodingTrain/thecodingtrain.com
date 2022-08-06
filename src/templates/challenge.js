@@ -50,7 +50,7 @@ const Challenge = ({ data }) => {
           activePartIndex={activePartIndex}
         />
 
-        {challenge.nextParts.length > 0 ? (
+        {challenge.nextParts?.length > 0 ? (
           <div className={css.partsNav}>
             {Array.from({ length: challenge.nextParts.length + 1 }).map(
               (_, index) => (
