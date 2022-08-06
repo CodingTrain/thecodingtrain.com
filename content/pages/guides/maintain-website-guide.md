@@ -108,7 +108,9 @@ git push --set-upstream origin branch-name
 
 9. Replace any links to the old website with links to the new website.
    - Some links in the "index.json" file may refer to other challenges or other parts of the old website. For example, challenge 10.1 is part 1 of a 4 part series. Each of the 4 parts refers to each of the other 4 parts in the series in the "Other Parts Of This Coding Challenge" section of the "index.json" file. The path to those other parts will have changed on the new website, so that URL will need to be updated.
-9. Optionally, add an emoji to the links in the References or Videos section of the "index.json" file.
+
+10. Optionally, add an emoji to the links in the References or Videos section of the "index.json" file.
+
    - Emoji help to add some fun and character to an otherwise plain list of links.
    - In any of the "links" property lists, use the "icon" property to add an emoji.
 
