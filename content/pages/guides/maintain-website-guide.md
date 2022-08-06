@@ -72,7 +72,7 @@ git push --set-upstream origin branch-name
 ![screenshot showing how to set the upstream repo](https://user-images.githubusercontent.com/28508947/173201974-b030787d-275b-4082-bf19-2584e92a9a95.png)
 
 2.  Update the index image with "Coding Train" colors (optional).
-   - For consistency, all the index images are being updated.  The new images are in color and no longer include Daniel Shiffman. They are displayed on the website in a 16:9 aspect ratio, and ideally should have a 1280 by 720 resolution.  They should be named index.jpg.
+   - For consistency, all the index images are being updated.  The new images are in color and (generally) no longer include Daniel Shiffman. They are displayed on the website at 16:9 aspect ratio, and ideally should have a 1280 by 720 resolution.  They should be named index.jpg.
    - If the original code has a square canvas, editing the size of the canvas--for example from (600,600) to (800,450) and translating to the center of the canvas will result in a better image. If the code uses the canvasWidth, it will probably also be necessary to replace canvasWidth with a new variable w which stores the original canvas width.  If you prefer, you may leave the original index image and someone else will update the index image.
    - [Coding Train colors](https://coding-train-colors.vercel.app)
 
@@ -94,7 +94,7 @@ git push --set-upstream origin branch-name
 
    - If you're able to run the project, create a thumbnail image for each showcase attached to the challenge.
    - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web. Sometimes these projects are hosted on sites where previews of the running project are available. If so, grab a screenshot of the running project to use as the thumbnail for that project. If not, the placeholder image will be used.
-   - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image so that it matches the filename of the contribution's JSON file. For example, if you have a "contribution1.json" file, you should also have a "contribution1.jpg" file.  The showcase images are displayed in a 16:9 aspect ratio.  They should be a maximum width of 800px and the file size should not exceed 500 MB.
+   - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image so that it matches the filename of the contribution's JSON file. For example, if you have a "contribution1.json" file, you should also have a "contribution1.jpg" file.  While any aspect ratio is fine (the site will resize and crop as necessary), the images will be displayed at 16:9 aspect ratio. If you able to get a "landscape" screenshot, it will look better.  The file format should be JPG or PNG, with a maximum width of 800px and file size of 500 kb.
 
 7. Add additional metadata descriptions for related links and videos.
    - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
