@@ -1,6 +1,6 @@
 {
     "title": "Interactive Drawing with SketchRNN",
-    "description": "This challenge uses  the pre-trained SketchRNN machine learning model (available with the ml5.js library) to create a p5.js sketch that finishes a person's drawing.",
+    "description": "This challenge uses the pre-trained SketchRNN machine learning model (available with the ml5.js library) to create a p5.js sketch that finishes a person's drawing.",
     "videoNumber": "153",
     "videoId": "ZCXkvwLxBrA",
     "date": "2019-10-31",
