@@ -9,7 +9,7 @@
     "canContribute": true,
     "timestamps": [
       { "time": "0:00", "title": "Introduction" },
-      { "time": "0:30", "title": "magenta website" },
+      { "time": "0:30", "title": "Magenta website" },
       { "time": "2:11", "title": "Recurrent Neural Networks" },
       { "time": "2:43", "title": "Magenta blog post" },
       { "time": "3:18", "title": "ml5 sketchRNN reference" },
