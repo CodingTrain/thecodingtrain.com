@@ -68,17 +68,6 @@
   ],
   "groupLinks": [
     {
-      "title": "Other Parts Of This Coding Challenge",
-      "links": [
-        {
-          "icon": "🚂",
-          "title": "Islamic Star Patterns",
-          "url": "https://www.youtube.com/watch?v=sJ6pMLp_IaI",
-          "description": "I work through visualizing Islamic Star Patterns in p5.js based on this University of Waterloo paper."
-        }
-      ]
-    },
-    {
       "title": "References",
       "links": [
         {
