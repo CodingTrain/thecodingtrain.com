@@ -27,10 +27,7 @@ const Challenge = ({ data }) => {
   const contributionsPlaceholder = contributionPlaceholderImage
     ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
     : challengesPlaceholder;
-  const [currentVideoId, setCurrentVideoId] = useState(challenge.videoId);
-  const [currentTimestamps, setCurrentTimestamps] = useState(
-    challenge.timestamps
-  );
+  const [activePartIndex, setActivePartIndex] = useState(0);
   return (
     <Layout
       title={challenge.title}
@@ -50,32 +47,21 @@ const Challenge = ({ data }) => {
       <main>
         <ChallengeVideoSection
           challenge={challenge}
-          videoId={currentVideoId}
-          timestamps={currentTimestamps}
+          activePartIndex={activePartIndex}
         />
 
         {challenge.nextParts.length > 0 ? (
           <div className={css.partsNav}>
-            <Button
-              className={css.partsNavButton}
-              variant="cyan"
-              onClick={() => {
-                setCurrentVideoId(challenge.videoId);
-                setCurrentTimestamps(challenge.timestamps);
-              }}>
-              Part 1
-            </Button>
-            {challenge.nextParts.map((part, index) => (
-              <Button
-                className={css.partsNavButton}
-                variant="cyan"
-                onClick={() => {
-                  setCurrentVideoId(part.videoId);
-                  setCurrentTimestamps(part.timestamps);
-                }}>
-                Part {index + 2}
-              </Button>
-            ))}
+            {Array.from({ length: challenge.nextParts.length + 1 }).map(
+              (_, index) => (
+                <Button
+                  className={css.partsNavButton}
+                  variant="cyan"
+                  onClick={() => setActivePartIndex(index)}>
+                  Part {index + 1}
+                </Button>
+              )
+            )}
           </div>
         ) : (
           <div className={css.blankSep} />
@@ -137,7 +123,7 @@ const Challenge = ({ data }) => {
 };
 
 export const query = graphql`
-  query($id: String, $slug: String) {
+  query ($id: String, $slug: String) {
     challenge: challenge(id: { eq: $id }) {
       title
       slug

@@ -7,16 +7,18 @@ import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import * as css from './VideoSection.module.css';
 
-const VideoSection = ({
-  challenge,
-  videoId = challenge.videoId,
-  timestamps = challenge.timestamps
-}) => {
+const VideoSection = ({ challenge, activePartIndex = 0 }) => {
   const { topics, languages, videoNumber, title } = challenge;
 
   const youTubeVideoRef = useRef();
   const [showTimeline, setShowTimeline] = useState(false);
   const [timestamp, setTimestamp] = useState();
+  const [activePart, setActivePart] = useState(getPartAtIndex(challenge, 0));
+  const { videoId, timestamps } = activePart;
+
+  useEffect(() => {
+    setActivePart(getPartAtIndex(challenge, activePartIndex));
+  }, [challenge, activePartIndex]);
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -120,6 +122,19 @@ const VideoSection = ({
       </div>
     </div>
   );
+};
+
+const getPartAtIndex = (challenge, index) => {
+  if (index === 0) {
+    return {
+      videoId: challenge.videoId,
+      timestamps: challenge.timestamps
+    };
+  } else if (index >= 1 && index < challenge.nextParts.length + 1) {
+    return challenge.nextParts[index - 1];
+  } else {
+    throw new Error(`Challenge part index out of bounds: ${index}`);
+  }
 };
 
 export default memo(VideoSection);
