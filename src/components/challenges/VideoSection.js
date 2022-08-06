@@ -124,16 +124,29 @@ const VideoSection = ({ challenge, activePartIndex = 0 }) => {
   );
 };
 
-const getPartAtIndex = (challenge, index) => {
-  if (index === 0) {
+/**
+ * Get the `videoId` and `timestamps` for a challenge at a given part index. If
+ * the challenge isn't multi-part, this function can still be called at index 0
+ * to get the `videoId` and `timestamps` of the single video.
+ *
+ * @param {Challenge} challenge Challenge we want to take the part from
+ * @param {number} partIndex Index of the part
+ * @returns {{
+ *   videoId: string,
+ *   timestamps: { time: string, title: string, seconds: number }[]
+ * }}
+ * Information about the challenge part
+ */
+const getPartAtIndex = (challenge, partIndex) => {
+  if (partIndex === 0) {
     return {
       videoId: challenge.videoId,
       timestamps: challenge.timestamps
     };
-  } else if (index >= 1 && index < challenge.nextParts.length + 1) {
-    return challenge.nextParts[index - 1];
+  } else if (partIndex >= 1 && partIndex < challenge.nextParts.length + 1) {
+    return challenge.nextParts[partIndex - 1];
   } else {
-    throw new Error(`Challenge part index out of bounds: ${index}`);
+    throw new Error(`Challenge part index out of bounds: ${partIndex}`);
   }
 };
 
