@@ -28,6 +28,19 @@
 
 .partsNavButton {
   cursor: pointer;
+
+  &:not(.active) {
+    color: var(--cyan);
+    border: var(--border);
+    border-color: var(--cyan);
+    background: var(--white);
+  }
+
+  &:not(.active):hover {
+    color: var(--gray-dark);
+    font-weight: bold;
+    background: var(--cyan-light);
+  }
 }
 
 @media (--small) {

@@ -28,6 +28,7 @@ const Challenge = ({ data }) => {
     ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
     : challengesPlaceholder;
   const [activePartIndex, setActivePartIndex] = useState(0);
+  console.log(css);
   return (
     <Layout
       title={challenge.title}
@@ -55,9 +56,12 @@ const Challenge = ({ data }) => {
             {Array.from({ length: challenge.nextParts.length + 1 }).map(
               (_, index) => (
                 <Button
-                  className={css.partsNavButton}
+                  className={cn(css.partsNavButton, {
+                    [css.active]: activePartIndex === index
+                  })}
                   variant="cyan"
-                  onClick={() => setActivePartIndex(index)}>
+                  onClick={() => setActivePartIndex(index)}
+                  onKeyPress={() => setActivePartIndex(index)}>
                   Part {index + 1}
                 </Button>
               )
