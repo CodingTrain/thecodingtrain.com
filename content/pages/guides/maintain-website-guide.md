@@ -71,9 +71,10 @@ git push --set-upstream origin branch-name
 
 ![screenshot showing how to set the upstream repo](https://user-images.githubusercontent.com/28508947/173201974-b030787d-275b-4082-bf19-2584e92a9a95.png)
 
-2.  Update the index image with "Coding Train" colors[Coding Train colors](https://coding-train-colors.vercel.app) (optional).
+2.  Update the index image with "Coding Train" colors (optional).
    - For consistency, all the index images are being updated.  The new images are in color and no longer include Daniel Shiffman. They are displayed on the website in a 16:9 aspect ratio, and ideally should have a 1280 by 720 resolution.  They should be named index.jpg.
    - If the original code has a square canvas, editing the size of the canvas--for example from (600,600) to (800,450) and translating to the center of the canvas will result in a better image. If the code uses the canvasWidth, it will probably also be necessary to replace canvasWidth with a new variable w which stores the original canvas width.  If you prefer, you may leave the original index image and someone else will update the index image.
+   - [Coding Train colors](https://coding-train-colors.vercel.app)
 
 3. Update links to code examples.
    - For the p5js examples, make sure the links listed really take you to the p5 Web Editor page that stores that project.
