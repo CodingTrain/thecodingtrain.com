@@ -28,7 +28,6 @@ const Challenge = ({ data }) => {
     ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
     : challengesPlaceholder;
   const [activePartIndex, setActivePartIndex] = useState(0);
-  console.log(css);
   return (
     <Layout
       title={challenge.title}
