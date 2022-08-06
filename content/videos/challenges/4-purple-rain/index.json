@@ -1,0 +1,36 @@
+{
+  "title": "Purple Rain",
+  "description": "In this viewer submitted coding challenge, I attempt to code a Purple Rain Simulator in Processing.",
+  "videoNumber": "4",
+  "videoId": "KkyIDI6rQJI",
+  "date": "2016-04-25",
+  "languages": ["Processing"],
+  "topics": ["purple rain"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction to the challenge" },
+    { "time": "00:37", "title": "Setup the sketch" },
+    { "time": "01:08", "title": "Create a Drop class" },
+    { "time": "02:45", "title": "Set initial values and create a Drop object" },
+    { "time": "03:23", "title": "Create an array of drops" },
+    { "time": "04:27", "title": "Randomize initial values" },
+    { "time": "05:30", "title": "Reset raindrop location when offscreen" },
+    { "time": "06:11", "title": "Few more improvements" },
+    { "time": "06:56", "title": "Add gravity" },
+    { "time": "08:26", "title": "Add z value for 3d illusion" },
+    { "time": "11:29", "title": "Final Version!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Purple Rain",
+      "description": "Simulation of Purple Rain",
+      "image": "rain.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/5C07OcK6A",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/004_PurpleRain/Processing"
+      }
+    }
+  ],
+  "groupLinks": []
+}
