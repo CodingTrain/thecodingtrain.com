@@ -36,7 +36,8 @@ const YouTubeVideo = ({
   useEffect(() => {
     if (didMount.current) {
       const player = youTubeVideo.current.getInternalPlayer();
-      player.loadVideoById({ videoId, startSeconds: 0 }); 
+      player.loadVideoById({ videoId });
+      player.seekTo(0); 
     } else {
       didMount.current = true;
     }
