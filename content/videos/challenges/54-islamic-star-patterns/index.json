@@ -36,9 +36,14 @@
     {
       "videoId": "lobJ9gzbLo8",
       "timestamps": [
-        { "time": "00:00", "title": "A" },
-        { "time": "01:00", "title": "B" },
-        { "time": "02:00", "title": "C" }
+        { "time": "00:00", "title": "Follow-up video opening" },
+        { "time": "00:28", "title": "Community created version" },
+        { "time": "00:53", "title": "Where we left off" },
+        { "time": "01:52", "title": "How can we simplify the code?" },
+        { "time": "02:56", "title": "What is the Law of Sines?" },
+        { "time": "08:36", "title": "Code! Refactor to use the Law of Sines" },
+        { "time": "13:35", "title": "Simplifying the Hankin object" },
+        { "time": "14:36", "title": "Done! Wrapping up this Coding Challenge" }
       ]
     }
   ],
