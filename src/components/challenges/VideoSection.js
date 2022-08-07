@@ -17,7 +17,7 @@ const VideoSection = ({ challenge }) => {
 
   const [activePart, setActivePart] = useState(getPartAtIndex(challenge, 0));
   const { videoId, timestamps, partIndex } = activePart;
-  const partsCount = 1 + challenge.nextParts.length;
+  const partsCount = 1 + (challenge.nextParts?.length ?? 0);
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
