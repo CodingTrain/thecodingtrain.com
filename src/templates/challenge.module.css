@@ -15,34 +15,6 @@
   background: white;
 }
 
-.partsNav {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  height: var(--baseline);
-  border-left: var(--border);
-  border-bottom: var(--border-cyan);
-  background: white;
-}
-
-.partsNavButton {
-  cursor: pointer;
-
-  &:not(.active) {
-    color: var(--cyan);
-    border: var(--border);
-    border-color: var(--cyan);
-    background: var(--white);
-  }
-
-  &:not(.active):hover {
-    color: var(--gray-dark);
-    font-weight: bold;
-    background: var(--cyan-light);
-  }
-}
-
 @media (--small) {
   .breadcrumbs {
     display: none;

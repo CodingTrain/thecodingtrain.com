@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
 import cn from 'classnames';
 
@@ -9,7 +9,6 @@ import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
 import ChallengeVideoSection from '../components/challenges/VideoSection';
 import VideoInfo from '../components/VideoInfo';
 import ChallengesPanel from '../components/ChallengesPanel';
-import Button from '../components/Button';
 
 import * as css from './challenge.module.css';
 import { pattern } from '../styles/styles.module.css';
@@ -27,7 +26,6 @@ const Challenge = ({ data }) => {
   const contributionsPlaceholder = contributionPlaceholderImage
     ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
     : challengesPlaceholder;
-  const [activePartIndex, setActivePartIndex] = useState(0);
   return (
     <Layout
       title={challenge.title}
@@ -45,30 +43,9 @@ const Challenge = ({ data }) => {
       <div className={css.simpleSep} />
 
       <main>
-        <ChallengeVideoSection
-          challenge={challenge}
-          activePartIndex={activePartIndex}
-        />
+        <ChallengeVideoSection challenge={challenge} />
 
-        {challenge.nextParts?.length > 0 ? (
-          <div className={css.partsNav}>
-            {Array.from({ length: challenge.nextParts.length + 1 }).map(
-              (_, index) => (
-                <Button
-                  className={cn(css.partsNavButton, {
-                    [css.active]: activePartIndex === index
-                  })}
-                  variant="cyan"
-                  onClick={() => setActivePartIndex(index)}
-                  onKeyPress={() => setActivePartIndex(index)}>
-                  Part {index + 1}
-                </Button>
-              )
-            )}
-          </div>
-        ) : (
-          <div className={css.blankSep} />
-        )}
+        {challenge.nextParts.length === 0 && <div className={css.blankSep} />}
 
         <VideoInfo
           video={challenge}

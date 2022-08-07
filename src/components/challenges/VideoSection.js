@@ -5,20 +5,19 @@ import Tags from '../Tags';
 import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
+import Button from '../Button';
 import * as css from './VideoSection.module.css';
 
-const VideoSection = ({ challenge, activePartIndex = 0 }) => {
+const VideoSection = ({ challenge }) => {
   const { topics, languages, videoNumber, title } = challenge;
 
   const youTubeVideoRef = useRef();
   const [showTimeline, setShowTimeline] = useState(false);
   const [timestamp, setTimestamp] = useState();
-  const [activePart, setActivePart] = useState(getPartAtIndex(challenge, 0));
-  const { videoId, timestamps } = activePart;
 
-  useEffect(() => {
-    setActivePart(getPartAtIndex(challenge, activePartIndex));
-  }, [challenge, activePartIndex]);
+  const [activePart, setActivePart] = useState(getPartAtIndex(challenge, 0));
+  const { videoId, timestamps, partIndex } = activePart;
+  const partsCount = 1 + challenge.nextParts.length;
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -120,6 +119,23 @@ const VideoSection = ({ challenge, activePartIndex = 0 }) => {
           </div>
         )}
       </div>
+
+      {partsCount > 1 && (
+        <div className={css.partsNav}>
+          <div className={css.partsNavButtonGroup}>
+            {Array.from({ length: partsCount }).map((_, i) => (
+              <Button
+                className={cn(css.partsNavButton, {
+                  [css.active]: partIndex === i
+                })}
+                variant="cyan"
+                onClick={() => setActivePart(getPartAtIndex(challenge, i))}>
+                Part {i + 1}
+              </Button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
@@ -132,6 +148,7 @@ const VideoSection = ({ challenge, activePartIndex = 0 }) => {
  * @param {Challenge} challenge Challenge we want to take the part from
  * @param {number} partIndex Index of the part
  * @returns {{
+ *   partIndex: number,
  *   videoId: string,
  *   timestamps: { time: string, title: string, seconds: number }[]
  * }}
@@ -140,11 +157,15 @@ const VideoSection = ({ challenge, activePartIndex = 0 }) => {
 const getPartAtIndex = (challenge, partIndex) => {
   if (partIndex === 0) {
     return {
+      partIndex,
       videoId: challenge.videoId,
       timestamps: challenge.timestamps
     };
   } else if (partIndex >= 1 && partIndex < challenge.nextParts.length + 1) {
-    return challenge.nextParts[partIndex - 1];
+    return {
+      partIndex,
+      ...challenge.nextParts[partIndex - 1]
+    };
   } else {
     throw new Error(`Challenge part index out of bounds: ${partIndex}`);
   }
