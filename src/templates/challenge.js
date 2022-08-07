@@ -45,7 +45,7 @@ const Challenge = ({ data }) => {
       <main>
         <ChallengeVideoSection challenge={challenge} />
 
-        {challenge.nextParts.length === 0 && <div className={css.blankSep} />}
+        {!challenge.nextParts?.length && <div className={css.blankSep} />}
 
         <VideoInfo
           video={challenge}
