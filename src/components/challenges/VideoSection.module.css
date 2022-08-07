@@ -151,8 +151,7 @@
 
 .partsNavButton {
   margin: auto;
-  border: var(--border);
-  border-color: var(--cyan);
+  box-shadow: inset 0 0 0 1px var(--cyan);
 
   &:not(.active) {
     color: var(--cyan);
@@ -174,7 +173,7 @@
   &:not(:last-child) {
     border-start-end-radius: 0;
     border-end-end-radius: 0;
-    border-inline-end-width: 0;
+    margin-right: -1px;
   }
 }
 
