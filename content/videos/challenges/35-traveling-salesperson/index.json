@@ -40,6 +40,7 @@
     {
       "title": "Part 1 - Traveling Salesperson (TSP)",
       "description": "",
+      "image": "part-1-tsp.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/FCNAHaCqf",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.1_TSP/Processing",
@@ -49,6 +50,7 @@
     {
       "title": "Part 2 - Lexicographic Order",
       "description": "",
+      "image": "part-2-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/iYxi30gbl",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.2_LexicographicOrder/Processing",
@@ -58,6 +60,7 @@
     {
       "title": "Part 3 - TSP with Lexicographic Order",
       "description": "",
+      "image": "part-3-tsp-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/bWPIkEv9s",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.3_TSP_Lexical/Processing",
@@ -67,6 +70,7 @@
     {
       "title": "Part 4 - TSP with Genetic Algorithm",
       "description": "",
+      "image": "part-4-tsp-ga.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
@@ -76,6 +80,7 @@
     {
       "title": "Part 5 - TSP with Genetic Algorithm and Crossover",
       "description": "",
+      "image": "part-5-tsp-ga-crossover.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
@@ -101,13 +106,13 @@
         },
         {
           "icon": "📝",
-          "title": "MDN Array Reference",
+          "title": "Array on MDN",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
           "description": ""
         },
         {
           "icon": "📝",
-          "title": "includes() on MDN",
+          "title": "Array.includes() on MDN",
           "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=example",
           "description": ""
         },
@@ -141,8 +146,9 @@
       "title": "Videos",
       "links": [
         {
-          "title": "My Video on Improved Pool Selection",
-          "url": "https://youtu.be//more/archive/nature-of-code/9-Genetic-Algorithms/9.8-Genetic-Algorithm-Improved-Pool-Selection",
+          "icon": "🎱",
+          "title": "Improved Pool Selection - The Nature of Code",
+          "url": "https://www.youtube.com/watch?v=ETphJASzYes&list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX&index=23",
           "description": ""
         }
       ]
