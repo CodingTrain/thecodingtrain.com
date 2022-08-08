@@ -1,0 +1,141 @@
+{
+  "title": "Traveling Salesperson",
+  "description": "In Part 1 of this multi-part coding challenge, I introduce the classic computer science Traveling Salesperson problem (“traveling salesman” (sic) for search) and discussing the pitfalls with a brute force solution. | In Part 2 of this coding challenge, I discuss Lexicographic Ordering (aka Lexical Order) and demonstrate one algorithm to iterate over all the permutations of an array. | In Part 3 of the Traveling Salesperson coding challenge, I take the lexicographic ordering algorithm apply it to a brute-force solution of the Traveling Salesperson problem. Every single route permutation is checked one by one. | In this coding challenge, I attempt to create a solution to the Traveling Sales Person with a genetic algorithm. This is part 4 of the Traveling Salesperson Coding Challenge. | This is Part 5 of the Traveling Salesperson coding challenge. In this video, I add a “crossover” algorithm to the Genetic Algorithm.",
+  "videoNumber": "35",
+  "videoId": "BAejnwN4Ccw",
+  "date": "2016-08-24",
+  "languages": ["p5.js"],
+  "topics": [
+    "traveling salesperson",
+    "permutation",
+    "lexicographic ordering",
+    "nature of code",
+    "genetic algorithm",
+    "evolution",
+    "brute force",
+    "factorial"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [{ "time": "00:00", "title": "Title" }],
+  "nextParts": [
+    {
+      "videoId": "goUlyp4rwiU",
+      "timestamps": [{ "time": "00:00", "title": "Title" }]
+    },
+    {
+      "videoId": "9Xy-LMAfglE",
+      "timestamps": [{ "time": "00:00", "title": "Title" }]
+    },
+    {
+      "videoId": "M3KTWnTrU_c",
+      "timestamps": [{ "time": "00:00", "title": "Title" }]
+    },
+    {
+      "videoId": "hnxn6DtLYcY",
+      "timestamps": [{ "time": "00:00", "title": "Title" }]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code for Part 1",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/FCNAHaCqf",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.1_TSP/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.1_TSP/P5"
+      }
+    },
+    {
+      "title": "Code for Part 2",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/iYxi30gbl",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.2_LexicographicOrder/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.2_LexicographicOrder/P5"
+      }
+    },
+    {
+      "title": "Code for Part 3",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/bWPIkEv9s",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.3_TSP_Lexical/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.3_TSP_Lexical/P5"
+      }
+    },
+    {
+      "title": "Code for Part 4",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/P5"
+      }
+    },
+    {
+      "title": "Code for Part 5",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/P5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌐",
+          "title": "Traveling Salesman on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Travelling_salesman_problem",
+          "description": ""
+        },
+        {
+          "icon": "🗨️",
+          "title": "Permutation Algorithm Using Lexicographic Ordering",
+          "url": "https://www.quora.com/How-would-you-explain-an-algorithm-that-generates-permutations-using-lexicographic-ordering",
+          "description": ""
+        },
+        {
+          "icon": "📝",
+          "title": "MDN Array Reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+          "description": ""
+        },
+        {
+          "icon": "📝",
+          "title": "includes() on MDN",
+          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=example",
+          "description": ""
+        },
+        {
+          "icon": "📝",
+          "title": "ES6 Sets on MDN",
+          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set",
+          "description": ""
+        },
+        {
+          "icon": "💾",
+          "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
+          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+          "description": ""
+        },
+        {
+          "icon": "📕",
+          "title": "Nature of Code",
+          "url": "http://natureofcode.com/",
+          "description": ""
+        },
+        {
+          "icon": "🎞️",
+          "title": "My Genetic Algorithm playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
