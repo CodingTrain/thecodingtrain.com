@@ -136,6 +136,16 @@
           "description": ""
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "My Video on Improved Pool Selection",
+          "url": "https://youtu.be//more/archive/nature-of-code/9-Genetic-Algorithms/9.8-Genetic-Algorithm-Improved-Pool-Selection",
+          "description": ""
+        }
+      ]
     }
   ]
 }
