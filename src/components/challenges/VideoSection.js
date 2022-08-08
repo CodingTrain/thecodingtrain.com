@@ -121,20 +121,21 @@ const VideoSection = ({ challenge }) => {
       </div>
 
       {partsCount > 1 && (
-        <div className={css.partsNav}>
-          <div className={css.partsNavButtonGroup}>
+        <nav className={css.partsNav}>
+          <ul className={css.partsNavList}>
             {Array.from({ length: partsCount }).map((_, i) => (
-              <Button
-                className={cn(css.partsNavButton, {
-                  [css.active]: partIndex === i
-                })}
-                variant="cyan"
-                onClick={() => setActivePart(getPartAtIndex(challenge, i))}>
-                Part {i + 1}
-              </Button>
+              <li key={i}>
+                <Button
+                  className={cn(css.partsNavButton, {
+                    [css.active]: partIndex === i
+                  })}
+                  onClick={() => setActivePart(getPartAtIndex(challenge, i))}>
+                  Part {i + 1}
+                </Button>
+              </li>
             ))}
-          </div>
-        </div>
+          </ul>
+        </nav>
       )}
     </div>
   );
