@@ -38,7 +38,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Code for Part 1",
+      "title": "Part 1 - Traveling Salesperson (TSP)",
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/FCNAHaCqf",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "title": "Code for Part 2",
+      "title": "Part 2 - Lexicographic Order",
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/iYxi30gbl",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "title": "Code for Part 3",
+      "title": "Part 3 - TSP with Lexicographic Order",
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/bWPIkEv9s",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "title": "Code for Part 4",
+      "title": "Part 4 - TSP with Genetic Algorithm",
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "title": "Code for Part 5",
+      "title": "Part 5 - TSP with Genetic Algorithm and Crossover",
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
