@@ -13,15 +13,47 @@
     "genetic algorithm",
     "evolution",
     "brute force",
-    "factorial"
+    "factorial",
+    "arrays"
   ],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [{ "time": "00:00", "title": "Title" }],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome to this coding challenge!" },
+    { "time": "00:50", "title": "What is the Traveling Salesperson problem?" },
+    { "time": "04:50", "title": "Code! Placing random cities on the canvas" },
+    { "time": "07:30", "title": "Go through the cities in order" },
+    { "time": "08:13", "title": "Shuffling the array with swaps" },
+    {
+      "time": "11:35",
+      "title": "Computing the distance and saving the shortest one"
+    },
+    { "time": "15:20", "title": "Oups! Fixing an array index error" },
+    { "time": "17:00", "title": "How to make a copy of an array?" },
+    { "time": "19:43", "title": "Storing a copy of the best cities path ever" },
+    { "time": "20:24", "title": "Drawing the best cities path ever" },
+    { "time": "21:00", "title": "The limits of this brute force algorithm" }
+  ],
   "nextParts": [
     {
       "videoId": "goUlyp4rwiU",
-      "timestamps": [{ "time": "00:00", "title": "Title" }]
+      "timestamps": [
+        { "time": "00:00", "title": "Introducing this Coding Challenge" },
+        { "time": "00:33", "title": "What is Lexical Ordering?" },
+        { "time": "02:55", "title": "An article on Lexicographic Ordering" },
+        { "time": "04:00", "title": "Code! Implementing the algorithm" },
+        { "time": "04:42", "title": "Step 1 of the algorithm: largest x" },
+        { "time": "06:48", "title": "Step 2 of the algorithm: largest y" },
+        { "time": "09:19", "title": "Step 3 of the algorithm: swap" },
+        { "time": "10:28", "title": "Step 4 of the algorithm: reverse" },
+        { "time": "11:03", "title": "The splice() array function" },
+        { "time": "12:26", "title": "The reverse() array function" },
+        { "time": "13:43", "title": "Oups! Fixing array concatenation" },
+        { "time": "15:05", "title": "Debugging the code" },
+        { "time": "18:30", "title": "Yay! The correct result!" },
+        { "time": "18:39", "title": "Visualizing the algorithm" },
+        { "time": "19:56", "title": "How many permutations are they?" }
+      ]
     },
     {
       "videoId": "9Xy-LMAfglE",
@@ -107,13 +139,19 @@
         {
           "icon": "📝",
           "title": "Array on MDN",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array",
           "description": ""
         },
         {
           "icon": "📝",
           "title": "Array.includes() on MDN",
-          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?v=example",
+          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
+          "description": ""
+        },
+        {
+          "icon": "📝",
+          "title": "Array.reverse() on MDN",
+          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
           "description": ""
         },
         {
