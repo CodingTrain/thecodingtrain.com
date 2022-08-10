@@ -33,6 +33,16 @@ const parseTimestamp = (timeString) => {
 };
 
 /**
+ * Add computed seconds to an array of Timestamp objets (creates a new array).
+ * 
+ * @param {{ time: string, title: string }[]} timestamps 
+ * @returns the timestamps with computed seconds
+ */
+const timestampsWithSeconds = (timestamps) => {
+  return timestamps.map((t) => ({ ...t, seconds: parseTimestamp(t.time) }));
+};
+
+/**
  * Creates Video and Showcase Contribution nodes from JSON file node
  * @param {function} createNode - Gatsby's createNode function
  * @param {function} createNodeId - Gatsby's createNodeId function
@@ -88,16 +98,10 @@ exports.createVideoRelatedNode = (
               `${slugPrefix}${parent.relativeDirectory}/showcase/${file}`
           )
       : [];
-    const timestamps = (data.timestamps ?? []).map((timestamp) => ({
-      ...timestamp,
-      seconds: parseTimestamp(timestamp.time)
-    }));
-    const nextParts = (data.nextParts ?? []).map((nextPart) => ({
-      ...nextPart,
-      timestamps: (nextPart.timestamps ?? []).map((timestamp) => ({
-        ...timestamp,
-        seconds: parseTimestamp(timestamp.time)
-      }))
+    const timestamps = timestampsWithSeconds(data.timestamps ?? []);
+    const parts = (data.parts ?? []).map((part) => ({
+      ...part,
+      timestamps: timestampsWithSeconds(part.timestamps ?? [])
     }));
     const languages = data.languages ?? [];
     const topics = data.topics ?? [];
@@ -111,7 +115,7 @@ exports.createVideoRelatedNode = (
       topics,
       topicsFlat: topics.join(),
       timestamps,
-      nextParts,
+      parts,
       codeExamples: (data.codeExamples ?? []).map((example) => ({
         ...example,
         image: createNodeId(

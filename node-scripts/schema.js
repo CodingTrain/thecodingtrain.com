@@ -16,7 +16,7 @@ interface VideoInterface implements Node {
   languages: [String!]
   languagesFlat: String!
   timestamps: [Timestamp!]
-  nextParts: [ChallengePart!]
+  parts: [ChallengePart!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
   showcase: [Contribution!] @link
@@ -39,7 +39,7 @@ type Video implements VideoInterface & Node {
   languages: [String!]
   languagesFlat: String!
   timestamps: [Timestamp!]
-  nextParts: [ChallengePart!]
+  parts: [ChallengePart!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
   showcase: [Contribution!] @link
@@ -63,7 +63,7 @@ type Challenge implements VideoInterface & Node {
   languagesFlat: String!
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
-  nextParts: [ChallengePart!]
+  parts: [ChallengePart!]
   canContribute: Boolean!
   showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
@@ -85,7 +85,7 @@ type GuestTutorial implements VideoInterface & Node {
   languages: [String!]
   languagesFlat: String!
   timestamps: [Timestamp!]
-  nextParts: [ChallengePart!]
+  parts: [ChallengePart!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
   showcase: [Contribution!] @link

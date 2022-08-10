@@ -17,7 +17,7 @@ const VideoSection = ({ challenge }) => {
 
   const [activePart, setActivePart] = useState(getPartAtIndex(challenge, 0));
   const { videoId, timestamps, partIndex } = activePart;
-  const partsCount = 1 + (challenge.nextParts?.length ?? 0);
+  const partsCount = challenge.parts?.length ?? 0;
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -120,7 +120,7 @@ const VideoSection = ({ challenge }) => {
         )}
       </div>
 
-      {partsCount > 1 && (
+      {partsCount > 0 && (
         <nav className={css.partsNav}>
           <ul className={css.partsNavList}>
             {Array.from({ length: partsCount }).map((_, i) => (
@@ -156,19 +156,18 @@ const VideoSection = ({ challenge }) => {
  * Information about the challenge part
  */
 const getPartAtIndex = (challenge, partIndex) => {
-  if (partIndex === 0) {
+  const partsCount = challenge.parts?.length ?? 0;
+  if (partsCount === 0) {
     return {
       partIndex,
       videoId: challenge.videoId,
       timestamps: challenge.timestamps
     };
-  } else if (partIndex >= 1 && partIndex < challenge.nextParts.length + 1) {
+  } else {
     return {
       partIndex,
-      ...challenge.nextParts[partIndex - 1]
+      ...challenge.parts[partIndex]
     };
-  } else {
-    throw new Error(`Challenge part index out of bounds: ${partIndex}`);
   }
 };
 
