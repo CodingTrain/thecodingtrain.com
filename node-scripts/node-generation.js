@@ -55,6 +55,18 @@ exports.createVideoRelatedNode = (
   if (parent.relativePath.includes('/showcase/')) {
     const data = getJson(node);
     const name = parent.name;
+    if (
+      !`cover-image/${slugPrefix}${parent.relativeDirectory}/${parent.name}`.includes(
+        'challenges'
+      )
+    )
+      console.log(
+        'Video',
+        `cover-image/${slugPrefix}${parent.relativeDirectory}/${parent.name}`,
+        createNodeId(
+          `cover-image/${slugPrefix}${parent.relativeDirectory}/${parent.name}`
+        )
+      );
     const newNode = Object.assign({}, data, {
       id: createNodeId(`${slugPrefix}${parent.relativePath}`),
       parent: node.id,
@@ -645,12 +657,15 @@ exports.createVideoCoverImageNode = (
   const { name, relativeDirectory, extension } = node;
   if (name === 'placeholder') return;
   const slug = relativeDirectory;
+  const prefixSlug = source === 'videos' ? '' : `${source}/`;
   const postfixSlug = relativeDirectory.endsWith('/showcase')
     ? `/${name}`
     : relativeDirectory.endsWith('/images')
     ? `/${name}.${extension}`
     : '';
-  const id = createNodeId(`cover-image/${source}/${slug}${postfixSlug}`);
+  const id = createNodeId(`cover-image/${prefixSlug}${slug}${postfixSlug}`);
+  if (!`cover-image/${prefixSlug}${slug}${postfixSlug}`.includes('challenges'))
+    console.log('Cover', `cover-image/${prefixSlug}${slug}${postfixSlug}`, id);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };
 
