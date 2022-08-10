@@ -15,9 +15,10 @@ const VideoSection = ({ challenge }) => {
   const [showTimeline, setShowTimeline] = useState(false);
   const [timestamp, setTimestamp] = useState();
 
-  const [activePart, setActivePart] = useState(getPartAtIndex(challenge, 0));
-  const { videoId, timestamps, partIndex } = activePart;
-  const partsCount = 1 + (challenge.nextParts?.length ?? 0);
+  const [activePart, setActivePart] = useState(
+    challenge.parts?.[0] ?? challenge
+  );
+  const { videoId, timestamps } = activePart;
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -120,56 +121,28 @@ const VideoSection = ({ challenge }) => {
         )}
       </div>
 
-      {partsCount > 1 && (
+      {challenge.parts?.length > 0 && (
         <nav className={css.partsNav}>
-          <ul className={css.partsNavList}>
-            {Array.from({ length: partsCount }).map((_, i) => (
-              <li key={i}>
+          <ol className={css.partsNavList}>
+            {challenge.parts.map((part, index) => (
+              <li key={part.videoId}>
                 <Button
                   className={cn(css.partsNavButton, {
-                    [css.active]: partIndex === i
+                    [css.active]: part.videoId === videoId
                   })}
-                  onClick={() => setActivePart(getPartAtIndex(challenge, i))}>
-                  Part {i + 1}
+                  onClick={() => setActivePart(part)}>
+                  <span aria-hidden="false" className={css.partsNavPrefix}>
+                    PART
+                  </span>{' '}
+                  {index + 1}
                 </Button>
               </li>
             ))}
-          </ul>
+          </ol>
         </nav>
       )}
     </div>
   );
-};
-
-/**
- * Get the `videoId` and `timestamps` for a challenge at a given part index. If
- * the challenge isn't multi-part, this function can still be called at index 0
- * to get the `videoId` and `timestamps` of the single video.
- *
- * @param {Challenge} challenge Challenge we want to take the part from
- * @param {number} partIndex Index of the part
- * @returns {{
- *   partIndex: number,
- *   videoId: string,
- *   timestamps: { time: string, title: string, seconds: number }[]
- * }}
- * Information about the challenge part
- */
-const getPartAtIndex = (challenge, partIndex) => {
-  if (partIndex === 0) {
-    return {
-      partIndex,
-      videoId: challenge.videoId,
-      timestamps: challenge.timestamps
-    };
-  } else if (partIndex >= 1 && partIndex < challenge.nextParts.length + 1) {
-    return {
-      partIndex,
-      ...challenge.nextParts[partIndex - 1]
-    };
-  } else {
-    throw new Error(`Challenge part index out of bounds: ${partIndex}`);
-  }
 };
 
 export default memo(VideoSection);

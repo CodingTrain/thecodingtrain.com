@@ -22,7 +22,7 @@ const video = {
           }
         }
       },
-      nextParts: {
+      parts: {
         type: 'array',
         content: {
           type: 'object',
