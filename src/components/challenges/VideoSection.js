@@ -123,7 +123,7 @@ const VideoSection = ({ challenge }) => {
 
       {challenge.parts?.length > 0 && (
         <nav className={css.partsNav}>
-          <ul className={css.partsNavList}>
+          <ol className={css.partsNavList}>
             {challenge.parts.map((part, index) => (
               <li key={part.videoId}>
                 <Button
@@ -131,11 +131,14 @@ const VideoSection = ({ challenge }) => {
                     [css.active]: part.videoId === videoId
                   })}
                   onClick={() => setActivePart(part)}>
-                  Part {index + 1}
+                  <span aria-hidden="false" className={css.partsNavPrefix}>
+                    PART
+                  </span>{' '}
+                  {index + 1}
                 </Button>
               </li>
             ))}
-          </ul>
+          </ol>
         </nav>
       )}
     </div>
