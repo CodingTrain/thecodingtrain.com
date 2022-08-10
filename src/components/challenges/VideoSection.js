@@ -130,10 +130,7 @@ const VideoSection = ({ challenge }) => {
                   className={cn(css.partsNavButton, {
                     [css.active]: part.videoId === videoId
                   })}
-                  onClick={() => {
-                    setActivePart(part);
-                    window.location.hash = `#part-${index + 1}`;
-                  }}>
+                  onClick={() => setActivePart(part)}>
                   Part {index + 1}
                 </Button>
               </li>
