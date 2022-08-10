@@ -1,0 +1,9 @@
+{
+    "title": "3D flocking in C++ and compute shaders with octree and regular grid",
+    "url": "https://www.vojtatom.cz/flocking/",
+    "author": {
+        "name": "Vojt\u011bch Tomas",
+        "url": "https://vojtatom.cz/"
+    },
+    "source": "https://github.com/vojtatom/flocking-cpp"
+}

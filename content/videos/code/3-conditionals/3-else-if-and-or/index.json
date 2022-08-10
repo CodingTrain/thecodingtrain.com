@@ -1,6 +1,6 @@
 {
   "title": "Else and Else if, AND and OR",
-  "description": "This video covers the 'else' and 'else if' control structures as well as the logical operators AND (&&) and OR (II).",
+  "description": "This video covers the 'else' and 'else if' control structures as well as the logical operators AND (&&) and OR (||).",
   "videoNumber": "3.3",
   "videoId": "r2S7j54I68c",
   "date": "2015-09-10",
@@ -8,6 +8,15 @@
   "topics": ["basics", "boolean", "if statement"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "More conditional logic",
+      "description": "Demonstration of using if...else if...else and boolean operators.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/In-bIB8w"
+      }
+    }
+  ],
   "groupLinks": []
 }

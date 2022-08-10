@@ -1,0 +1,88 @@
+{
+  "title": "Poisson-disc Sampling",
+  "description": "In this coding challenge, I implement a \u201cPoisson-disc Sampling\u201d algorithm to evenly (but randomly) distribute a set of seed points throughout a canvas. The algorithm is implemented in JavaScript using p5.js.",
+  "videoNumber": "33",
+  "videoId": "flQgnCUxHlw",
+  "date": "2016-08-22",
+  "languages": ["p5.js", "processing"],
+  "topics": ["poisson disc sampling", "Sim\u00e9on Denis Poisson"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction to Poisson Disc Sampling!"
+    },
+    {
+      "time": "1:30",
+      "title": "Starting to code!"
+    },
+    {
+      "time": "3:00",
+      "title": "Creating a 2D background grid"
+    },
+    {
+      "time": "6:52",
+      "title": "Inserting initial sample into a random position in the grid"
+    },
+    {
+      "time": "10:25",
+      "title": "Creating an active list of points"
+    },
+    {
+      "time": "14:40",
+      "title": "Generating up to k points"
+    },
+    {
+      "time": "19:18",
+      "title": "Checking neighbouring samples"
+    },
+    {
+      "time": "25:40",
+      "title": "Removing inactive points from list"
+    },
+    {
+      "time": "27:30",
+      "title": "Debugging"
+    },
+    {
+      "time": "36:50",
+      "title": "Playing with the code!"
+    },
+    {
+      "time": "41:25",
+      "title": "Things you can do!"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Poisson Disc Sampling",
+      "description": "A visualization of the Poisson disc sampling algorithm",
+      "image": "poisson-disc.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/4N78DFCXN",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_033_poisson_disc/Processing",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_033_poisson_disc/P5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Poisson Disc",
+          "url": "https://www.jasondavies.com/poisson-disc/",
+          "description": "Animation of Poisson Disc Sampling by Jason Davies"
+        },
+        {
+          "icon": "📄",
+          "title": "Paper on Fast Poisson Disc Sampling in Multiple Dimensions",
+          "url": "http://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf",
+          "description": "Robert Bridson's paper on fast Poisson Disc Sampling algorithm"
+        }
+      ]
+    }
+  ]
+}

@@ -5,8 +5,7 @@
   "topics": ["For beginners"],
   "videoId": "DMg-WRfNB60",
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Angles and Rotation",
@@ -26,7 +25,9 @@
           "url": "https://p5js.org/reference/#/p5/TAU",
           "description": "p5.js reference entry on the mathematical constant tau"
         }
-      ],
+      ]
+    },
+    {
       "title": "Videos",
       "links": [
         {

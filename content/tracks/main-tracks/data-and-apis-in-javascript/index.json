@@ -1,0 +1,44 @@
+{
+  "title": "Working with Data and APIs in JavaScript",
+  "date": "2019-07-08",
+  "description": "This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with fetch() and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as draw to HTML5 canvas with p5.js. The second and third project will introduce \"full stack\" development adding server-side programming with node.js for data persistence and API authentication.",
+  "chapters": [
+    {
+      "title": "Welcome",
+      "videos": ["data/welcome/trailer", "data/welcome/setup"]
+    },
+    {
+      "title": "Client Side fetch() with image, CSV, JSON",
+      "videos": [
+        "data/1-client-side/1-fetch",
+        "data/1-client-side/2-tabular-data",
+        "data/1-client-side/3-graphing",
+        "data/1-client-side/4-json",
+        "data/1-client-side/5-mapping-geolocation",
+        "data/1-client-side/6-refreshing-data-with-setinterval"
+      ]
+    },
+    {
+      "title": "The Data Selfie App",
+      "videos": [
+        "data/2-data-selfie-app/1-server-side-with-node-js",
+        "data/2-data-selfie-app/2-geolocation-web-api",
+        "data/2-data-selfie-app/3-http-post-request",
+        "data/2-data-selfie-app/4-saving-to-a-database",
+        "data/2-data-selfie-app/5-database-query",
+        "data/2-data-selfie-app/6-encoding-images",
+        "data/2-data-selfie-app/7-accessibility-and-design"
+      ]
+    },
+    {
+      "title": "The Weather Here",
+      "videos": [
+        "data/3-the-weather-here/1-api-calls-from-node-js",
+        "data/3-the-weather-here/2-open-air-quality-api",
+        "data/3-the-weather-here/3-mapping-database-entries",
+        "data/3-the-weather-here/4-environment-variables",
+        "data/3-the-weather-here/5-web-application-deployment"
+      ]
+    }
+  ]
+}

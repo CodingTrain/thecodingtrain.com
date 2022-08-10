@@ -1,0 +1,43 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kfahn22",
+      "name": "Kathy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65121394?v=4",
+      "profile": "https://github.com/kfahn22",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "dipamsen",
+      "name": "Dipam Sen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59444569?v=4",
+      "profile": "https://github.com/dipamsen",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "lobertrand",
+      "name": "Loïc Bertrand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37326143?v=4",
+      "profile": "https://github.com/lobertrand",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "thecodingtrain.com",
+  "projectOwner": "CodingTrain",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

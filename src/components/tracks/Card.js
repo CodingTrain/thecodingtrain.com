@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react';
+import React, { Fragment, memo, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -24,8 +24,8 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
       </div>
       <div className={css.filteredResults}>
         {videos.map((v, i) => (
-          <>
-            <div className={css.filteredVideo} key={i}>
+          <Fragment key={i}>
+            <div className={css.filteredVideo}>
               <Link to={`/tracks/${trackSlug}/${v.slug}`}>
                 <PlayButton className={css.playIcon} />
               </Link>
@@ -38,7 +38,7 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
                 })}
               />
             )}
-          </>
+          </Fragment>
         ))}
       </div>
       {canExpand && (

@@ -1,0 +1,74 @@
+{
+  "title": "Working with Tabular Data - Parsing CSV files",
+  "description": "This second part of the lesson looks at loading and parsing a CSV file (comma-separated values) with the web fetch() API.",
+  "videoNumber": "1.2",
+  "languages": ["JavaScript"],
+  "topics": ["csv", "data", "string"],
+  "videoId": "RfMkdvN-23o",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What is CSV?" },
+    { "time": "01:15", "title": "Using an external Dataset" },
+    { "time": "03:42", "title": "Start Coding!" },
+    { "time": "05:07", "title": "Create a test Dataset" },
+    { "time": "05:58", "title": "Code! Read the CSV file!" },
+    { "time": "07:42", "title": "Explain! How to parse a CSV file?" },
+    { "time": "08:59", "title": "Code! Split the rows!" },
+    { "time": "10:55", "title": "Code! Parse each field!" },
+    { "time": "12:58", "title": "Code! Use the full dataset!" },
+    { "time": "13:27", "title": "Cleaning up the Data" },
+    { "time": "16:23", "title": "Next Steps and Exercises!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Fetching CSV",
+      "description": "Demonstration on fetching and parsing a CSV data file.",
+      "image": "fetchcsv.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_fetch_csv/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📄",
+          "title": "GISS Surface Temperature Analysis Dataset",
+          "url": "https://data.giss.nasa.gov/gistemp/",
+          "description": "NASA Datasets on Global Surface Temperatures"
+        },
+        {
+          "icon": "🌈",
+          "title": "Rainbow CSV",
+          "url": "https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv",
+          "description": "VSCode extension that colour-formats CSV files"
+        },
+        {
+          "icon": "💾",
+          "title": "String.split()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+          "description": "String split method on the MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "Array.slice()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+          "description": "Array slice method on the MDN Web Docs"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔠",
+          "title": "Intro to Regular Expressions",
+          "url": "https://youtu.be/7DG3kCDx53c",
+          "description": "Tutorial on Regular Expressions (RegExp) in JavaScript"
+        }
+      ]
+    }
+  ]
+}

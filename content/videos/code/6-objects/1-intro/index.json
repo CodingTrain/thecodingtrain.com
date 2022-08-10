@@ -6,8 +6,20 @@
   "date": "2017-10-06",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["objects", "OOP", "classes"],
-  "canContribute": true,
+  "canContribute": false,
   "timestamps": [],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "let vs var",
+          "url": "https://youtu.be/q8SHaDQdul0",
+          "description": "Tutorial on different ways to declare a variable."
+        }
+      ]
+    }
+  ]
 }

@@ -1,9 +1,11 @@
 {
   "title": "What is Code!?",
-  "description": "Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners. Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners.",
+  "description": "Welcome aboard! This is the introductory video to start programming JavaScript with p5.js for total beginners.",
+  "videoId": "HerCR8bw_GE",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],
-  "videoId": "HerCR8bw_GE",
+  "canContribute": false,
   "timestamps": [],
-  "canContribute": false
+  "codeExamples": [],
+  "groupLinks": []
 }

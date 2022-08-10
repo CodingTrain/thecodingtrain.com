@@ -1,0 +1,9 @@
+{
+    "title": "Flocking Boids",
+    "url": "https://oxrock.itch.io/flocking-boids",
+    "author": {
+        "name": "oxrock",
+        "url": "http://www.oxrockstudio.com/"
+    },
+    "source": "https://github.com/oxrock/BOIDS"
+}

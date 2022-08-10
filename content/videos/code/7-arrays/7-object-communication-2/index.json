@@ -1,0 +1,40 @@
+{
+  "title": "Object Communication Part 2",
+  "description": "This is a continuation of my previous video where I explore shape intersection with object-oriented programming. Here, I demonstrate how to use a nested loop to check every object's position against every other object.",
+  "videoNumber": "7.7",
+  "videoId": "5Q9cA0REztY",
+  "date": "2017-12-14",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["arrays", "nested loop", "for loop", "objects"],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Checking Overlap (Multiple)",
+      "description": "Demonstration of determining if any circle is overlapping any other circle.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/7SjPmXN2"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Previous video",
+          "url": "/beginners/p5js/7.6-object-communication-1",
+          "description": "undefined's Tutorial on Previous video"
+        },
+        {
+          "icon": "🚂",
+          "title": "for of loop",
+          "url": "/Tutorials/16-javascript-es6/16.4-for-of-loop",
+          "description": "Tutorial on for of loop"
+        }
+      ]
+    }
+  ]
+}

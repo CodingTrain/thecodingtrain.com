@@ -5,8 +5,7 @@
   "topics": ["For beginners"],
   "videoId": "O5wjXoFrau4",
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Basic Polar Coordinates",
@@ -60,8 +59,8 @@
           "url": "https://p5js.org/reference/#/p5/tan",
           "description": "p5.js reference entry on the tan() function"
         }
-	  ]
-	},
+      ]
+    },
     {
       "title": "Videos",
       "links": [

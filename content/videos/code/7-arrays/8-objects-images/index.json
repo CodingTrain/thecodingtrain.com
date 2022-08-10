@@ -1,0 +1,22 @@
+{
+  "title": "Objects & Images",
+  "description": "This video explores how to load and display images as objects with p5.js.",
+  "videoNumber": "7.8",
+  "videoId": "i2C1hrJMwz0",
+  "date": "2017-12-16",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["basics", "images", "objects"],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Flowers and Kittens",
+      "description": "Drawing the bubble objects with images of flowers and kittens instead of circles.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/H44xHm5a"
+      }
+    }
+  ],
+  "groupLinks": []
+}

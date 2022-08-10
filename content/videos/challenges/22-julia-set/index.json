@@ -1,58 +1,53 @@
 {
-    "title": "Julia Set in Processing",
-    "description": "In this coding challenge, I program the Julia Set fractal in Processing (Java).",
-    "videoNumber": "22",
-    "videoId": "fAsaSkmbF5s",
-    "date": "2016-06-16",
-    "languages": ["processing"],
-    "topics": [
-        "julia set",
-        "mandelbrot set",
-        "fractal",
-        "complex number"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "codeExamples": [
+  "title": "Julia Set in Processing",
+  "description": "In this coding challenge, I program the Julia Set fractal in Processing (Java).",
+  "videoNumber": "22",
+  "videoId": "fAsaSkmbF5s",
+  "date": "2016-06-16",
+  "languages": ["Processing"],
+  "topics": ["julia set", "mandelbrot set", "fractal", "complex number"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Julia Set",
+      "description": "My visualization of the julia set in processing.",
+      "image": "julia.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/G6qbMmaI",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/022_JuliaSet/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Julia Set",
-            "description": "My visualization of the julia set in processing.",
-            "image": "julia.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/G6qbMmaI",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/022_JuliaSet/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🗄",
-                    "title": "Wikipedia on Julia Set",
-                    "url": "https://en.wikipedia.org/wiki/Julia_set",
-                    "description": "Discussion of julia set."
-                },
-                {
-                    "icon": "🗄",
-                    "title": "Julia Set page",
-                    "url": "http://paulbourke.net/fractals/juliaset/",
-                    "description": "Discussion of julia set."
-                }
-            ]
+          "icon": "🗄",
+          "title": "Wikipedia on Julia Set",
+          "url": "https://en.wikipedia.org/wiki/Julia_set",
+          "description": "Discussion of julia set."
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "Coding Challenge: Mandelbrot Set",
-                    "url": "https://thecodingtrain.com/challenges/21-mandelbrot-set-with-p5js",
-                    "description": "In this coding challenge, I program from scratch the Mandelbrot set with p5.js."
-                }
-            ]
+          "icon": "🗄",
+          "title": "Julia Set page",
+          "url": "http://paulbourke.net/fractals/juliaset/",
+          "description": "Discussion of julia set."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Coding Challenge: Mandelbrot Set",
+          "url": "https://thecodingtrain.com/challenges/21-mandelbrot-set-with-p5js",
+          "description": "In this coding challenge, I program from scratch the Mandelbrot set with p5.js."
+        }
+      ]
+    }
+  ]
 }

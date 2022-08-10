@@ -8,6 +8,15 @@
   "topics": ["basics", "constructor", "classes", "objects"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Constructor Arguments",
+      "description": "Demonstration of creating bubbles with different parameters.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HZG-lnyR"
+      }
+    }
+  ],
   "groupLinks": []
 }

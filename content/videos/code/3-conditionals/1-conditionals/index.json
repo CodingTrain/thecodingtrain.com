@@ -8,6 +8,15 @@
   "topics": ["basics", "boolean", "if statement"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Introduction to Conditional Statements",
+      "description": "Demonstration of conditionally filling in a circle based on the mouse position.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/z_yjYIha"
+      }
+    }
+  ],
   "groupLinks": []
 }

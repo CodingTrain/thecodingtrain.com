@@ -4,8 +4,8 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "Uibl0UE4VH8",
-  "timestamps": [
-  ],
+  "timestamps": [],
+  "canContribute": true,
   "codeExamples": [
     {
       "title": "Simulating Forces",
@@ -31,6 +31,6 @@
           "description": "Wikipedia entry on Newton's Laws of Motion"
         }
       ]
-	}
+    }
   ]
 }

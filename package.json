@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build",
+    "build": "gatsby build --verbose",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",
@@ -49,7 +49,6 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
     "react-youtube": "^7.13.1",
-    "slugify": "^1.6.5",
     "yup": "^0.32.11"
   },
   "devDependencies": {
@@ -57,6 +56,7 @@
     "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
     "lodash": "^4.17.21",
+    "slugify": "^1.6.5",
     "svgo": "^2.8.0"
   },
   "jest": {

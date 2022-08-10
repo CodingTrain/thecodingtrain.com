@@ -4,8 +4,8 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "WBdhAuWS6X8",
-  "timestamps": [
-  ],
+  "timestamps": [],
+  "canContribute": true,
   "codeExamples": [
     {
       "title": "Friction Force",
