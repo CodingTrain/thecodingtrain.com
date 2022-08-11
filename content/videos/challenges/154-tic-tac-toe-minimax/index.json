@@ -7,12 +7,28 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["for beginners"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction to the challenge" },
+    { "time": "2:17", "title": "Explanation of the Minimax algorithm" },
+    { "time": "8:20", "title": "Start Coding" },
+    { "time": "12:54", "title": "Check to see if anybody won" },
+    {
+      "time": "14:16",
+      "title": "Recursively check the max score for all the spots (AI)"
+    },
+    {
+      "time": "16:51",
+      "title": "Recursively check the min score for all the spots (Human)"
+    },
+    { "time": "18:15", "title": "Refactor using min() and max()" },
+    { "time": "19:05", "title": "Fix bugs" },
+    { "time": "21:13", "title": "Final output" },
+    { "time": "22:46", "title": "Ideas and Suggestions" }
+  ],
   "codeExamples": [
     {
-      "title": "Tic tac toe wth MinMax",
-      "description": "A tic tac toe game optimised with the MinMax algorithm",
-      "image": "",
+      "title": "Tic tac toe wth Minimax",
+      "description": "A tic tac toe AI with the Minimax algorithm",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0zyUhZdJD"
       }
@@ -44,7 +60,7 @@
           "icon": "🏗",
           "title": "Algorithms Explained - minimax and alpha-beta pruning",
           "url": "https://youtu.be/l-hh51ncgDI",
-          "description": "Algorithms Explained – minimax and alpha-beta pruning"
+          "description": "[Sebastian Lague](https://www.youtube.com/c/SebastianLague)'s video on the minimax search algorithm"
         },
         {
           "icon": "🚂",
