@@ -107,9 +107,7 @@ exports.createVideoRelatedNode = (
       codeExamples: (data.codeExamples ?? []).map((example) => ({
         ...example,
         image: createNodeId(
-          `cover-image/${
-            type === 'video' ? 'videos/' : ''
-          }${slugPrefix}${slug}/images/${example.image}`
+          `cover-image/${slugPrefix}${slug}/images/${example.image}`
         )
       })),
       groupLinks: data.groupLinks ?? [],
