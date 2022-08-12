@@ -1,0 +1,101 @@
+{
+    "title": "Interactive Drawing with SketchRNN",
+    "description": "This challenge uses the pre-trained SketchRNN machine learning model (available with the ml5.js library) to create a p5.js sketch that finishes a person's drawing.",
+    "videoNumber": "153",
+    "videoId": "ZCXkvwLxBrA",
+    "date": "2019-10-31",
+    "languages": ["ml5", " p5.js"],
+    "topics": ["sketchRNN", "machine Learning", "Quick, Draw!"],
+    "canContribute": true,
+    "timestamps": [
+      { "time": "0:00", "title": "Introduction" },
+      { "time": "0:30", "title": "Magenta website" },
+      { "time": "2:11", "title": "Recurrent Neural Networks" },
+      { "time": "2:43", "title": "Magenta blog post" },
+      { "time": "3:18", "title": "ml5 sketchRNN reference" },
+      { "time": "3:51", "title": "Let's Code!" },
+      { "time": "4:25", "title": "The model" },
+      { "time": "4:55", "title": "SketchRNN.generate()" },
+      { "time": "5:55", "title": "Sequential data" },
+      { "time": "6:24", "title": "The states" },
+      { "time": "7:50", "title": "When do you draw?" },
+      { "time": "10:48", "title": "Deal with the pen state" },
+      { "time": "14:28", "title": "seedPath" },
+      { "time": "16:14", "title": "See the user drawing" },
+      { "time": "17:35", "title": "Tell the model about user seed strokes" },
+      { "time": "18:54", "title": "RDP algorithm" },
+      { "time": "20:40", "title": "Add rdp.js" },
+      { "time": "25:07", "title": "Redraw simplified line" },
+      { "time": "28:10", "title": "Other models" }
+    ],
+    "codeExamples": [
+      {
+        "title": "SketchRNN",
+        "description": "This sketch uses a pre-trained SketchRNN model to finish a user drawing",
+        "image": "catPig.jpg",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/hcumr-aua"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "💻",
+            "title": "ml5.js",
+            "url": "https://ml5js.org/",
+            "description": "ml5 page with documentation and supporting material."
+          },
+          {
+            "icon": "💻",
+            "title": "Draw Together with a Neural Network - Magenta TensorFlow",
+            "url": "https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html",
+            "description": "Webpage where you can try out the magenta game."
+          },
+          {
+            "icon": "🗄",
+            "title": "Ramer-Douglas-Peucker Algorithm on Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm",
+            "description": "Wikipedia page with background and references about the Ramer-Douglas-Peucker algorithm."
+          },
+          {
+            "icon": "📓",
+            "title": "A Neural Representation of Sketch Drawings",
+            "url": "https://arxiv.org/abs/1704.03477",
+            "description": "Technical article about the development of SketchRNN."
+          },
+          {
+            "icon": "💻",
+            "title": "Quick, Draw!",
+            "url": "https://quickdraw.withgoogle.com/#",
+            "description": "Google webage with Quick, Draw! game."
+          },
+          {
+            "icon": "💻",
+            "title": "Recurrent Neural Networks & LSTMs",
+            "url": "https://ayearofai.com/rohan-lenny-3-recurrent-neural-networks-10300100899b",
+            "description": "Blog post about Recurrent Neural Networks & LSTMs."
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [
+          {
+            "icon": "🚂",
+            "title": "Challenge #128: Sketch-RNN Snowflakes",
+            "url": "https://www.youtube.com/watch?v=pdaNttb7Mr8",
+            "description": "In this holiday coding challenge, I use ml5.js and Sketch-RNN to generate snowflake drawings."
+          },
+          {
+            "icon": "🚂",
+            "title": "Challenge #152: RDP Algorithm",
+            "url": "/CodingChallenges/152-rdp-algorithm",
+            "description": "The Ramer–Douglas–Peucker algorithm (aka “iterative end-point fit algorithm”), takes a curve composed of line segments and reduces the fidelty to a “lower fidelity” curve with fewer points."
+          }
+        ]
+      }
+    ]
+  }
