@@ -1,0 +1,17 @@
+{
+  "title": "async/await Part 1",
+  "description": "This video covers the new ES8 \"async” and “await” keywords for writing asynchronous functions in JavaScript.",
+  "videoNumber": "13",
+  "videoId": "XO77Fib9tSI",
+  "date": "2018-05-30",
+  "languages": [
+    "javascript"
+  ],
+  "topics": [
+    "async-await-part-1"
+  ],
+  "canContribute": false,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
+}

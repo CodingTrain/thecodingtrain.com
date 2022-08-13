@@ -1,0 +1,17 @@
+{
+  "title": "async/await Part 2",
+  "description": "Exploring promises, async, await, and fetch() with the Giphy / Wordnik APIs.",
+  "videoNumber": "14",
+  "videoId": "chavThlNz3s",
+  "date": "2018-05-31",
+  "languages": [
+    "javascript"
+  ],
+  "topics": [
+    "async-await-part-2"
+  ],
+  "canContribute": false,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
+}

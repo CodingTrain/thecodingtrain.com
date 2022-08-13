@@ -1,0 +1,17 @@
+{
+  "title": "Promise.all()",
+  "description": "In this video, I discuss handling arrays of asynchronous JavaScript promises with Promise.all() .",
+  "videoNumber": "16",
+  "videoId": "01RTj1MWec0",
+  "date": "2018-06-01",
+  "languages": [
+    "javascript"
+  ],
+  "topics": [
+    "promise-all"
+  ],
+  "canContribute": false,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
+}

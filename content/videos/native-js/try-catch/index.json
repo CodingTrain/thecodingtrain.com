@@ -1,0 +1,17 @@
+{
+  "title": "try / catch with Promises",
+  "description": "Using try / catch with ES6 Promises, async, and await.",
+  "videoNumber": "15",
+  "videoId": "BztW_u6HDbs",
+  "date": "2018-06-02",
+  "languages": [
+    "javascript"
+  ],
+  "topics": [
+    "try-catch"
+  ],
+  "canContribute": false,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": []
+}
