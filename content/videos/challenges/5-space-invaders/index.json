@@ -1,0 +1,57 @@
+{
+  "title": "Space Invaders",
+  "description": "This is my attempt to make a Space Invaders type game in the browser with JavaScript and the p5.js library",
+  "videoNumber": "5",
+  "videoId": "biN3v3ef-Y0",
+  "date": "2016-04-26",
+  "languages": ["p5.js"],
+  "topics": ["space invaders", "game"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome to the challenge!" },
+    { "time": "00:46", "title": "Setup the sketch canvas" },
+    { "time": "01:22", "title": "Planning the game" },
+    { "time": "02:00", "title": "Create a Ship constructor" },
+    { "time": "04:20", "title": "Add keyboard interaction to move the ship" },
+    { "time": "07:35", "title": "Create a Flower constructor" },
+    { "time": "09:37", "title": "Create an array of Flowers" },
+    { "time": "12:35", "title": "Create a Water Drop constructor" },
+    { "time": "16:00", "title": "Create an array of drops" },
+    { "time": "16:55", "title": "Create a drop object on key press" },
+    { "time": "18:02", "title": "Start the drop at the ship's location" },
+    {
+      "time": "19:40",
+      "title": "Check for intersection of water drop and flower"
+    },
+    { "time": "25:00", "title": "Grow the flower and remove the drop" },
+    { "time": "30:40", "title": "Some improvements" },
+    { "time": "31:20", "title": "Move the flowers" },
+    { "time": "37:12", "title": "Improve keyboard interaction" },
+    { "time": "40:00", "title": "Thanks for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Flower Invaders",
+      "description": "Water the garden!",
+      "image": "spaceinvaders.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Azip-ZzXI",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/005_Space_invaders/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Classes in JavaScript",
+          "url": "https://youtu.be/T-HGdc8L-7w",
+          "description": "Tutorial on classes in JavaScript"
+        }
+      ]
+    }
+  ]
+}
