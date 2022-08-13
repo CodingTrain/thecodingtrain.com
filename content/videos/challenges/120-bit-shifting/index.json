@@ -1,0 +1,42 @@
+{
+  "title": "Bit Shifting",
+  "description": "In this coding challenge, I talk about bitwise operations, and more specifically, bit shifting.",
+  "videoNumber": "120",
+  "videoId": "oCBlwsY8sR4",
+  "date": "2018-10-25",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Binary Numbers", "math"],
+  "canContribute": true,
+  "relatedChallenges": ["119-binary-to-decimal-conversion", "117-seven-segment-display"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Bit Shifting",
+      "description": "An interactive visual bit shifting implementation",
+      "image": "bit-shifting.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Hk8CVYvi7",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/120_Bit_Shifting/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📝",
+          "title": "Ternary Operator",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
+          "description": "Decumentation of the ternary operator"
+        },
+        {
+          "icon": "📽",
+          "title": "The Modulo Operator with Golan Levin",
+          "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
+          "description": "Golan Levin explains the the modulo operator and its applications in creative codiing"
+        }
+      ]
+    }
+  ]
+}
