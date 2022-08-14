@@ -8,11 +8,7 @@
   "topics": ["generative art"],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [
-    { "time": "0:00", "title": "Title 1" },
-    { "time": "1:26", "title": "Title 2" },
-    { "time": "1:26", "title": "Title 3" }
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "10Print",
