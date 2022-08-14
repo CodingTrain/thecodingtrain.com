@@ -4,14 +4,16 @@
   "videoNumber": "1",
   "videoId": "q8SHaDQdul0",
   "date": "2017-09-28",
-  "languages": [
-    "javascript"
-  ],
-  "topics": [
-    "let-vs-var"
-  ],
+  "languages": ["javascript"],
+  "topics": ["let-vs-var", "es6"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "ES6 and var, let and const" },
+    { "time": "4:07", "title": "Demonstration of let vs var" },
+    { "time": "6:00", "title": "Hoisting and Function Scope (var)" },
+    { "time": "9:29", "title": "Supporting Legacy Code" },
+    { "time": "10:21", "title": "Block Scope (let)" }
+  ],
   "codeExamples": [],
   "groupLinks": []
 }
