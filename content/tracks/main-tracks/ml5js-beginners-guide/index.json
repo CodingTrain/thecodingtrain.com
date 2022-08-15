@@ -39,9 +39,9 @@
         {
         "title": "KNN Classification",
         "videos": [
-            "ml5/5-knn-classifier/1-build-the-image-classifier",
-            "ml5/5-knn-classifier/2-train-the-model",
-            "ml5/5-knn-classifier/3-save-and-load-model"
+            "ml5/5-knn-classification/1-build-the-image-classifier",
+            "ml5/5-knn-classification/2-train-the-model",
+            "ml5/5-knn-classification/3-save-and-load-model"
         ]
       },
       {
