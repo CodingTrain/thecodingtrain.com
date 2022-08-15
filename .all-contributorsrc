@@ -44,18 +44,6 @@
       ]
     }
   ],
-      "login": "lobertrand",
-      "name": "Loïc Bertrand",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37326143?v=4",
-      "profile": "https://github.com/lobertrand",
-      "contributions": [
-        "code",
-        "content"
-      ]
-=======
->>>>>>> dipamsen-154-ttt-minimax
-    }
-  ],
   "contributorsPerLine": 7,
   "projectName": "thecodingtrain.com",
   "projectOwner": "CodingTrain",
