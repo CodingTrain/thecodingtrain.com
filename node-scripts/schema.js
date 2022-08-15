@@ -113,6 +113,7 @@ type Timestamp implements Node {
 }
 
 type ChallengePart implements Node {
+  title: String!
   videoId: String!
   timestamps: [Timestamp!]
 }

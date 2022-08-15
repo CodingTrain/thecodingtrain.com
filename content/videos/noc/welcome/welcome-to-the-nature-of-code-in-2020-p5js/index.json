@@ -4,7 +4,9 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "70MQ-FugwbI",
-  "timestamps": [],
+  "timestamps": [
+    {"time": "00:00", "title": "Hello" }
+  ],
   "groupLinks": [
     {
       "title": "References",

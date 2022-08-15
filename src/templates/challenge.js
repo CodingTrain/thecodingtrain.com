@@ -45,7 +45,7 @@ const Challenge = ({ data }) => {
       <main>
         <ChallengeVideoSection challenge={challenge} />
 
-        {!challenge.parts?.length && <div className={css.blankSep} />}
+        <div className={css.blankSep} />
 
         <VideoInfo
           video={challenge}
@@ -118,6 +118,7 @@ export const query = graphql`
         seconds
       }
       parts {
+        title
         videoId
         timestamps {
           title
