@@ -10,7 +10,7 @@
     {
       "title": "Friction Force",
       "description": "Simulating friction on objects with weight",
-      "image": "image1.png",
+      "image": "friction.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/zcTpMCpA"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Top Down Billiards Exercise",
       "description": "Simulating a billiards table",
-      "image": "image1.png",
+      "image": "billiards.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/S3SCcnUa7"
       }
@@ -26,7 +26,7 @@
     {
       "title": "Slope Exercise",
       "description": "Simulating objects on a sloped surface",
-      "image": "image1.png",
+      "image": "slope.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/LS5FlhljG"
       }
@@ -34,7 +34,7 @@
     {
       "title": "Show Vectors Exercise",
       "description": "Using arrows to show the force vectors acting on an object",
-      "image": "image1.png",
+      "image": "show.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Vyg_iWNGE"
       }
