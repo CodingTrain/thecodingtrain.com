@@ -155,50 +155,6 @@
   display: none;
 }
 
-/* Challenge parts navigation */
-
-.partsNav {
-  display: flex;
-  padding: 0 var(--box-padding);
-  height: var(--baseline-box);
-  border-left: var(--border-cyan);
-  border-bottom: var(--border-cyan);
-  background: white;
-}
-
-.partsNavList {
-  display: flex;
-  margin: auto;
-
-  & > li:not(:first-child) .partsNavButton {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-
-  & > li:not(:last-child) .partsNavButton {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-right: none;
-  }
-}
-
-.partsNavButton {
-  color: var(--cyan);
-  border: var(--border-cyan);
-  line-height: calc(var(--baseline) - var(--spacing-small) - 2px);
-
-  &.active,
-  &:hover {
-    color: var(--gray-dark);
-    background: var(--cyan-light);
-    cursor: pointer;
-  }
-
-  &:hover {
-    font-weight: bold;
-  }
-}
-
 /* Media queries */
 
 @media (--medium) {
