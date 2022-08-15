@@ -18,23 +18,36 @@
   ],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [
-    { "time": "00:00", "title": "Welcome to this coding challenge!" },
-    { "time": "00:50", "title": "What is the Traveling Salesperson problem?" },
-    { "time": "04:50", "title": "Code! Placing random cities on the canvas" },
-    { "time": "07:30", "title": "Go through the cities in order" },
-    { "time": "08:13", "title": "Shuffling the array with swaps" },
+  "timestamps": [],
+  "parts": [
     {
-      "time": "11:35",
-      "title": "Computing the distance and saving the shortest one"
+      "videoId": "BAejnwN4Ccw",
+      "timestamps": [
+        { "time": "00:00", "title": "Welcome to this coding challenge!" },
+        {
+          "time": "00:50",
+          "title": "What is the Traveling Salesperson problem?"
+        },
+        {
+          "time": "04:50",
+          "title": "Code! Placing random cities on the canvas"
+        },
+        { "time": "07:30", "title": "Go through the cities in order" },
+        { "time": "08:13", "title": "Shuffling the array with swaps" },
+        {
+          "time": "11:35",
+          "title": "Computing the distance and saving the shortest one"
+        },
+        { "time": "15:20", "title": "Oups! Fixing an array index error" },
+        { "time": "17:00", "title": "How to make a copy of an array?" },
+        {
+          "time": "19:43",
+          "title": "Storing a copy of the best cities path ever"
+        },
+        { "time": "20:24", "title": "Drawing the best cities path ever" },
+        { "time": "21:00", "title": "The limits of this brute force algorithm" }
+      ]
     },
-    { "time": "15:20", "title": "Oups! Fixing an array index error" },
-    { "time": "17:00", "title": "How to make a copy of an array?" },
-    { "time": "19:43", "title": "Storing a copy of the best cities path ever" },
-    { "time": "20:24", "title": "Drawing the best cities path ever" },
-    { "time": "21:00", "title": "The limits of this brute force algorithm" }
-  ],
-  "nextParts": [
     {
       "videoId": "goUlyp4rwiU",
       "timestamps": [
