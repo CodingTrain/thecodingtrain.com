@@ -13,8 +13,8 @@
         "title": "Classification",
         "videos": [
           "ml5/1-classification/1-image-classificaiton",
-          "ml5/1-classification/1-webcam-classificaiton",
-          "ml5/1-classification/1-object-detection"
+          "ml5/1-classification/2-webcam-classificaiton",
+          "ml5/1-classification/3-object-detection"
         ]
       },
       {
@@ -27,13 +27,21 @@
         "title": "Feature Extractor",
         "videos": [
           "ml5/3-feature-extractor/1-classification",
-          "ml5/3-feature-extractor/1-regression"
+          "ml5/3-feature-extractor/2-regression"
         ]
       },
       {
         "title": "Save and Load the Model",
         "videos": [
             "ml5/4-save-and-load-model/1-save-load-model"
+        ]
+      },
+        {
+        "title": "KNN Classification",
+        "videos": [
+            "ml5/5-knn-classifier/1-build-the-image-classifier",
+            "ml5/5-knn-classifier/2-train-the-model",
+            "ml5/5-knn-classifier/3-save-and-load-model"
         ]
       },
       {
