@@ -10,7 +10,7 @@
     {
       "title": "Particle Emitters",
       "description": "Spawning a new particle emitter on clicking the screen",
-      "image": "image1.png",
+      "image": "emitters.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/YqAxA5CYy"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Particle Emitters with Movers Exercise",
       "description": "Adding fire particle effects to an array of movers",
-      "image": "image1.png",
+      "image": "movers.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/UXmqwcpRL"
       }
@@ -26,7 +26,7 @@
     {
       "title": "Particles Following Mouse Exercise",
       "description": "Making a particle emitter that follows the mouse",
-      "image": "image2.png",
+      "image": "mouse.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/1zTN6PYJg"
       }
@@ -34,7 +34,7 @@
     {
       "title": "Particle Emitters Color Exercise",
       "description": "Clicking on the screen to make a new emitter with a random color",
-      "image": "image2.png",
+      "image": "color.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IYisp9xmJ"
       }
