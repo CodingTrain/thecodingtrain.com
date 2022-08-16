@@ -10,7 +10,7 @@
     {
       "title": "Texture Maker",
       "description": "Generating a new texture using p5.js",
-      "image": "image1.png",
+      "image": "image.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/NS4rB1Yx-"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Image Texture",
       "description": "Importing an external image as a texture in p5.js",
-      "image": "image1.png",
+      "image": "texture.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/TTVoNt58T"
       }
@@ -26,7 +26,7 @@
     {
       "title": "Shader (WebGL)",
       "description": "Using WebGL vertex and fragment shaders in p5.js",
-      "image": "image1.png",
+      "image": "shader.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EXZmcc4m_"
       }
