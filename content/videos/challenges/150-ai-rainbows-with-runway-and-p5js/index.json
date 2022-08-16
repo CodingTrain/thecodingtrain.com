@@ -4,11 +4,11 @@
     "videoNumber": "150",
     "videoId": "vEetoBuHj8g",
     "date": "2019-08-22",
-    "languages": ["p5.js"],
+    "languages": ["runwayML", "p5.js"],
     "topics": [
         "styleGan",
-        "runway ml",
-        "machine learning"
+        "machine learning",
+        "latent space"
     ],
     "canContribute": true,
     "relatedChallenges": [],
