@@ -4,14 +4,18 @@
   "videoNumber": "9",
   "videoId": "MWD-iKzR2c8",
   "date": "2018-02-23",
-  "languages": [
-    "javascript"
-  ],
-  "topics": [
-    "array-sort"
-  ],
+  "languages": ["javascript"],
+  "topics": ["array sort", "arrays"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Sorting values" },
+    { "time": "02:57", "title": "Sorting objects" },
+    {
+      "time": "04:21",
+      "title": "Demonstration of sort() with a comparer function"
+    },
+    { "time": "06:47", "title": "Sorting strings based on length" }
+  ],
   "codeExamples": [],
   "groupLinks": []
 }
