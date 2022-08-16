@@ -4,14 +4,14 @@
   "videoNumber": "4",
   "videoId": "Y8sMnRQYr3c",
   "date": "2017-12-15",
-  "languages": [
-    "javascript"
-  ],
-  "topics": [
-    "for-of-loop"
-  ],
+  "languages": ["javascript"],
+  "topics": ["loops", "array", "for of"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Iterating through an array" },
+    { "time": "01:17", "title": "The for...of loop" },
+    { "time": "02:17", "title": "Variable naming conventions" }
+  ],
   "codeExamples": [],
   "groupLinks": []
 }
