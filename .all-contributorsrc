@@ -24,16 +24,6 @@
       ]
     },
     {
-      "login": "DenisovichDev",
-      "name": "Rishi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66998096?v=4",
-      "profile": "https://denisovichdev.github.io/link-tree",
-      "contributions": [
-        "content",
-        "ideas"
-      ]
-    }
-  ],
       "login": "lobertrand",
       "name": "Loïc Bertrand",
       "avatar_url": "https://avatars.githubusercontent.com/u/37326143?v=4",
@@ -41,6 +31,16 @@
       "contributions": [
         "code",
         "content"
+	   ]
+	},
+	{
+      "login": "DenisovichDev",
+      "name": "Rishi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66998096?v=4",
+      "profile": "https://denisovichdev.github.io/link-tree",
+      "contributions": [
+        "content",
+        "ideas"
       ]
     }
   ],

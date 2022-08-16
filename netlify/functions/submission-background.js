@@ -1,4 +1,4 @@
-const { Octokit, App } = require('octokit');
+const { Octokit } = require('@octokit/core');
 const slugify = require('slugify');
 const btoa = require('btoa');
 

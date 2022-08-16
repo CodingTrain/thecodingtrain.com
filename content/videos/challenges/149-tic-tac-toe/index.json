@@ -7,7 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["For beginners"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["154-tic-tac-toe-minimax"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "0:54", "title": "Start coding" },
