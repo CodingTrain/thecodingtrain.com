@@ -4,14 +4,29 @@
   "videoNumber": "7",
   "videoId": "-LFjnY1PEDA",
   "date": "2018-02-21",
-  "languages": [
-    "javascript"
-  ],
-  "topics": [
-    "array-reduce"
-  ],
+  "languages": ["javascript"],
+  "topics": ["array reduce", "arrays"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "What is reduce()?" },
+    { "time": "00:58", "title": "Adding a list of numbers" },
+    { "time": "02:06", "title": "Demonstration of reduce()" },
+    { "time": "04:24", "title": "The initial value of the accumulator" },
+    { "time": "07:27", "title": "Finding the maximum/minimum value" },
+    { "time": "10:02", "title": "Ternary Operators" }
+  ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Array.reduce()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
+          "description": "Array reduce() reference on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
 }
