@@ -5,6 +5,9 @@ import Tags from '../Tags';
 import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
+
+import { filteredPath } from '../../utils';
+
 import * as css from './VideoSection.module.css';
 
 const VideoSection = ({ challenge }) => {
@@ -47,14 +50,14 @@ const VideoSection = ({ challenge }) => {
             className={css.tags}
             heading="Languages"
             items={languages}
-            linkTo={(value) => `/challenges/lang:${value}+topic:all`}
+            linkTo={(value) => filteredPath('challenges', value, 'all')}
             headerType="h3"
           />
           <Tags
             className={css.tags}
             heading="Topics"
             items={topics}
-            linkTo={(value) => `/challenges/lang:all+topic:${value}`}
+            linkTo={(value) => filteredPath('challenges', 'all', value)}
             headerType="h3"
           />
 

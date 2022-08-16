@@ -40,3 +40,12 @@ export const stringValueOrAll = (str) => {
 **/
 export const toSlug = (path) =>
   slugify(path, { lower: true, trim: true }).replace('.', '-');
+
+/**
+  Makes a filtered path
+**/
+export const filteredPath = (resource, language, topic) => {
+  return `/${resource}/lang/${toSlug(
+    stringValueOrAll(language)
+  )}/topic/${toSlug(stringValueOrAll(topic))}`;
+};

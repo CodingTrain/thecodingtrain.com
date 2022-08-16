@@ -7,6 +7,7 @@ import ButtonPanel from '../ButtonPanel';
 import Tags from '../Tags';
 
 import { filterVideos } from '../../hooks';
+import { filteredPath } from '../../utils';
 
 import * as css from './Card.module.css';
 import { pattern } from '../../styles/styles.module.css';
@@ -85,14 +86,14 @@ const Card = ({
               className={css.tags}
               heading="Languages"
               items={languages}
-              linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+              linkTo={(value) => filteredPath('tracks', value, 'all')}
               headerType="h4"
             />
             <Tags
               className={css.tags}
               heading="Topics"
               items={topics}
-              linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+              linkTo={(value) => filteredPath('tracks', 'all', value)}
               headerType="h4"
             />
             <p className={css.description}>{description}</p>
