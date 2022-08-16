@@ -10,7 +10,7 @@
     {
       "title": "Flee",
       "description": "Creating an agent that avoids the mouse",
-      "image": "image1.png",
+      "image": "flee.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Pursue",
       "description": "Adding a mover target for the pursuer to chase",
-      "image": "image1.png",
+      "image": "pursue.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Lx3PJMq4m"
       }
@@ -26,7 +26,7 @@
     {
       "title": "Evade",
       "description": "Creating an agent that avoids a mover object",
-      "image": "image2.png",
+      "image": "evade.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/X3ph02Byx"
       }
@@ -34,7 +34,7 @@
     {
       "title": "Pursue Boucing Ball",
       "description": "Pursuing a ball that bounces off the edge of the canvas",
-      "image": "image2.png",
+      "image": "bounce.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/itlyDq3ZB"
       }
@@ -42,7 +42,7 @@
     {
       "title": "Pursue Wander",
       "description": "Using the wander behavior to steer the mover object",
-      "image": "image2.png",
+      "image": "wander.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EEnmY04lt"
       }
@@ -50,7 +50,7 @@
     {
       "title": "Pursue Slider Prediction",
       "description": "Adding a slider to control the mover object's behavior",
-      "image": "image2.png",
+      "image": "slider.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/l7MgPpTUB"
       }
