@@ -53,7 +53,7 @@
       "title": "Part 2: Lexicographic Order",
       "videoId": "goUlyp4rwiU",
       "timestamps": [
-        { "time": "00:00", "title": "Introducing this Coding Challenge" },
+        { "time": "00:00", "title": "Introducing Part 2" },
         { "time": "00:33", "title": "What is Lexical Ordering?" },
         { "time": "02:55", "title": "An article on Lexicographic Ordering" },
         { "time": "04:00", "title": "Code! Implementing the algorithm" },
@@ -73,7 +73,18 @@
     {
       "title": "Part 3: TSP with Lexicographic Order",
       "videoId": "9Xy-LMAfglE",
-      "timestamps": [{ "time": "00:00", "title": "Title" }]
+      "timestamps": [
+        { "time": "00:00", "title": "Introducing Part 3" },
+        { "time": "01:26", "title": "Code! Bringing code from the lexical order challenge" },
+        { "time": "03:19", "title": "Drawing the numeric order below the path" },
+        { "time": "04:30", "title": "Generating the next order each time through draw()" },
+        { "time": "05:07", "title": "Using the generated lexical order" },
+        { "time": "08:24", "title": "Copying the best order ever" },
+        { "time": "10:48", "title": "Drawing the best order ever" },
+        { "time": "13:04", "title": "Drawing the current and best permutation separately" },
+        { "time": "15:22", "title": "Displaying the progress" },
+        { "time": "18:15", "title": "Trying different numbers of cities" }
+      ]
     },
     {
       "title": "Part 4: TSP with Genetic Algorithm",
