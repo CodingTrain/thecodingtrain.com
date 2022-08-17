@@ -27,6 +27,7 @@ const video = {
         content: {
           type: 'object',
           properties: {
+            title: { isRequired: true, type: 'string' },
             videoId: { isRequired: true, type: 'string' },
             timestamps: {
               type: 'array',

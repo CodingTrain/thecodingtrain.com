@@ -18,8 +18,11 @@ import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
 import SemiColonCharacter from '../images/characters/SemiColon_2.mini.svg';
 
 const Challenge = ({ data }) => {
-  const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
-    data;
+  const {
+    challenge,
+    contributionPlaceholderImage,
+    challengePlaceholderImage
+  } = data;
   const challengesPlaceholder = challengePlaceholderImage
     ? challengePlaceholderImage.childImageSharp.gatsbyImageData
     : null;
@@ -103,7 +106,7 @@ const Challenge = ({ data }) => {
 };
 
 export const query = graphql`
-  query ($id: String, $slug: String) {
+  query($id: String, $slug: String) {
     challenge: challenge(id: { eq: $id }) {
       title
       slug
