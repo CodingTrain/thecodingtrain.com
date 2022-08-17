@@ -100,6 +100,7 @@
 
 .timelinesContent {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   width: 100%;
 }
@@ -154,8 +155,6 @@
 .timestampsTimeline.hide {
   display: none;
 }
-
-/* Media queries */
 
 @media (--medium) {
   .title h1 {
@@ -312,30 +311,9 @@
     border-right: var(--border-cyan);
   }
 
-  .tab {
-    justify-content: center;
+  .tab button {
     height: var(--baseline-box);
-  }
-
-  .partsNavList {
-    &::before {
-      content: "PARTS";
-      color: var(--gray-dark);
-      border: var(--border-cyan);
-      line-height: calc(var(--baseline) - var(--spacing-small) - 2px);
-      padding: 0 var(--box-padding);
-      border-top-left-radius: 40px;
-      border-bottom-left-radius: 40px;
-      border-right: none;
-    }
-    & > li:first-child .partsNavButton {
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-  }
-
-  .partsNavPrefix {
-    display: none;
+    text-align: center;
   }
 }
 
