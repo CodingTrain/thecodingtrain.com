@@ -21,6 +21,7 @@
   "timestamps": [],
   "parts": [
     {
+      "title": "Part 1: Traveling Salesperson (TSP)",
       "videoId": "BAejnwN4Ccw",
       "timestamps": [
         { "time": "00:00", "title": "Welcome to this coding challenge!" },
@@ -49,6 +50,7 @@
       ]
     },
     {
+      "title": "Part 2: Lexicographic Order",
       "videoId": "goUlyp4rwiU",
       "timestamps": [
         { "time": "00:00", "title": "Introducing this Coding Challenge" },
@@ -69,14 +71,17 @@
       ]
     },
     {
+      "title": "Part 3: TSP with Lexicographic Order",
       "videoId": "9Xy-LMAfglE",
       "timestamps": [{ "time": "00:00", "title": "Title" }]
     },
     {
+      "title": "Part 4: TSP with Genetic Algorithm",
       "videoId": "M3KTWnTrU_c",
       "timestamps": [{ "time": "00:00", "title": "Title" }]
     },
     {
+      "title": "Part 5: TSP with Genetic Algorithm and Crossover",
       "videoId": "hnxn6DtLYcY",
       "timestamps": [{ "time": "00:00", "title": "Title" }]
     }
