@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.overviewTimeline {
+.partsTimeline {
   overflow-y: auto;
   border-left: var(--border-cyan);
   border-bottom: var(--border-cyan);
@@ -24,7 +24,6 @@
   white-space: nowrap;
   text-align: center;
   color: var(--cyan);
-  cursor: pointer;
 
   &:hover {
     background-color: var(--cyan);
@@ -33,44 +32,12 @@
 }
 
 .partList {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.chapterTitle {
-  position: relative;
-  height: var(--baseline);
-  padding-left: calc(var(--timeline-padding) + var(--timeline-heading-mark));
-  cursor: pointer;
-  line-height: var(--baseline-1of3);
-  text-align: left;
-  text-transform: uppercase;
-  color: var(--cyan);
 
-  & > * {
-    font-size: var(--maru-medium);
-    font-weight: 900;
-  }
 
-  &::before {
-    content: " ";
-    position: absolute;
-    top: calc(var(--baseline-1of2) - 1px);
-    left: 0;
-    border: var(--border-cyan);
-    width: var(--timeline-heading-mark);
-  }
-
-  &.expanded.hasSeen::after {
-    content: " ";
-    position: absolute;
-    top: var(--baseline-1of2);
-    left: var(--timeline-spacing);
-    border: var(--border-cyan);
-    height: calc(100% - var(--baseline-1of2));
-  }
-}
 
 .videoItem {
   list-style: none;
@@ -82,18 +49,12 @@
   padding-left: calc(var(--timeline-padding) + var(--timeline-spacing));
   font-size: var(--maru-small);
   line-height: var(--baseline-1of3);
-  
-  & button {
-    text-align: left;
-    color: var(--cyan);
-    cursor: pointer;
-  }
 
   &::before {
     content: none;
   }
 
-  & button::before {
+  & a::before {
     content: " ";
     position: absolute;
     top: calc(50% - var(--timeline-dot) / 2);
@@ -109,18 +70,18 @@
 
 .videoItem.seen,
 .videoItem:hover {
-  & button {
+  & a {
     color: var(--cyan);
   }
 }
 
 .seen {
-  & button::before {
+  & a::before {
     border: var(--border-cyan);
     background-color: var(--cyan);
   }
 
-  & button::after {
+  & a::after {
     content: " ";
     position: absolute;
     top: 0;
@@ -131,18 +92,14 @@
 }
 
 .last {
-  & button::after {
+  & a::after {
     height: 50%;
   }
 }
 
 @media (--reduced) {
-  .overviewTimeline {
+  .partsTimeline {
     height: calc(100vh - var(--baseline-3x));
-  }
-
-  .chapterTitle > * {
-    font-size: var(--maru-large);
   }
 
   .videoItem {

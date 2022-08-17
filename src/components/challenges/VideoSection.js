@@ -23,7 +23,7 @@ const VideoSection = ({ challenge }) => {
   );
   const { videoId, timestamps } = activePart;
   const hasTimestamps = timestamps?.length > 0;
-  const needTimelineContainer = hasMultiParts || hasTimestamps;
+  const hasSidebar = hasMultiParts || hasTimestamps;
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -94,7 +94,7 @@ const VideoSection = ({ challenge }) => {
       </header>
 
       <div className={css.videoPlayer}>
-        {!needTimelineContainer && <div className={css.spacer} />}
+        {!hasSidebar && <div className={css.spacer} />}
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
@@ -104,8 +104,8 @@ const VideoSection = ({ challenge }) => {
             />
           </div>
         </div>
-        {!needTimelineContainer && <div className={css.spacer} />}
-        {needTimelineContainer && (
+        {!hasSidebar && <div className={css.spacer} />}
+        {hasSidebar && (
           <div
             className={cn(css.timelineContainer, {
               [css.unCollapsed]: showTimeline
@@ -142,7 +142,10 @@ const VideoSection = ({ challenge }) => {
                       [css.hide]: showTimestamps
                     })}
                     parts={challenge.parts}
-                    setPart={(part) => setActivePart(part)}
+                    onPartChange={(part) => {
+                      setActivePart(part);
+                      setShowTimeline(false);
+                    }}
                   />
                 )}
                 {hasTimestamps && (

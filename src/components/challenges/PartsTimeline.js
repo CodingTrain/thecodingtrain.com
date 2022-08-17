@@ -1,20 +1,20 @@
 import React, { memo, useState } from 'react';
 import cn from 'classnames';
-import { Link } from 'gatsby';
 
 import * as css from './PartsTimeline.module.css';
+import { Link } from 'gatsby';
 
-const PartsTimeline = memo(({ className, parts, setPart }) => {
+const PartsTimeline = memo(({ className, parts, onPartChange }) => {
   const [currentPartIndex, setCurrentPartIndex] = useState(0);
 
   const updatePartIndex = (index) => {
-    setPart(parts[index]);
+    onPartChange(parts[index]);
     setCurrentPartIndex(index);
   };
 
   return (
     <div className={cn(css.root, className)}>
-      <div className={css.overviewTimeline}>
+      <div className={css.partsTimeline}>
         <ul className={css.partList}>
           {parts.map((part, index) => (
             <li
@@ -23,31 +23,40 @@ const PartsTimeline = memo(({ className, parts, setPart }) => {
                 [css.seen]: index <= currentPartIndex,
                 [css.last]: index === currentPartIndex
               })}>
-              <button onClick={() => updatePartIndex(index)}>
+              <Link
+                to="#"
+                onClick={(event) => {
+                  event.preventDefault();
+                  updatePartIndex(index);
+                }}>
                 {part.title}
-              </button>
+              </Link>
             </li>
           ))}
         </ul>
       </div>
       <div className={css.navigation}>
         {currentPartIndex > 0 && (
-          <button
+          <Link
+            to="#"
             className={css.navButton}
-            onClick={() => {
+            onClick={(event) => {
+              event.preventDefault();
               updatePartIndex(currentPartIndex - 1);
             }}>
             Previous
-          </button>
+          </Link>
         )}
         {currentPartIndex < parts.length - 1 && (
-          <button
+          <Link
+            to="#"
             className={css.navButton}
-            onClick={() => {
+            onClick={(event) => {
+              event.preventDefault();
               updatePartIndex(currentPartIndex + 1);
             }}>
             Next
-          </button>
+          </Link>
         )}
       </div>
     </div>
