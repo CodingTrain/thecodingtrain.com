@@ -115,7 +115,6 @@ exports.handler = async function (event) {
     title: `Passenger Showcase contribution from ${postInfo.authorName}`,
     body: `Thank you ${postInfo.authorName} for your contribution! A member of the Coding Train team will review it shortly.
 
-	<img width "400" alt="Showcase Screenshot" src=${postInfo.image}>
 
 	* [${postInfo.title}](${postInfo.url})
 	* [${postInfo.authorName}](${postInfo.authorUrl})`,
