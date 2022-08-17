@@ -75,13 +75,25 @@
       "videoId": "9Xy-LMAfglE",
       "timestamps": [
         { "time": "00:00", "title": "Introducing Part 3" },
-        { "time": "01:26", "title": "Code! Bringing code from the lexical order challenge" },
-        { "time": "03:19", "title": "Drawing the numeric order below the path" },
-        { "time": "04:30", "title": "Generating the next order each time through draw()" },
+        {
+          "time": "01:26",
+          "title": "Code! Bringing code from the lexical order challenge"
+        },
+        {
+          "time": "03:19",
+          "title": "Drawing the numeric order below the path"
+        },
+        {
+          "time": "04:30",
+          "title": "Generating the next order each time through draw()"
+        },
         { "time": "05:07", "title": "Using the generated lexical order" },
         { "time": "08:24", "title": "Copying the best order ever" },
         { "time": "10:48", "title": "Drawing the best order ever" },
-        { "time": "13:04", "title": "Drawing the current and best permutation separately" },
+        {
+          "time": "13:04",
+          "title": "Drawing the current and best permutation separately"
+        },
         { "time": "15:22", "title": "Displaying the progress" },
         { "time": "18:15", "title": "Trying different numbers of cities" }
       ]
@@ -89,7 +101,35 @@
     {
       "title": "Part 4: TSP with Genetic Algorithm",
       "videoId": "M3KTWnTrU_c",
-      "timestamps": [{ "time": "00:00", "title": "Title" }]
+      "timestamps": [
+        { "time": "00:00", "title": "Introducing Part 4" },
+        { "time": "01:56", "title": "Code! Creating a population of orders" },
+        { "time": "05:25", "title": "Shuffling the arrays of orders" },
+        {
+          "time": "09:45",
+          "title": "Giving each order in the population a fitness score"
+        },
+        {
+          "time": "11:17",
+          "title": "Storing the order with the best fitness"
+        },
+        {
+          "time": "13:17",
+          "title": "Creating a new file for the Genetic Algorithm"
+        },
+        {
+          "time": "14:08",
+          "title": "Generating the next generation based on the best orders"
+        },
+        {
+          "time": "18:59",
+          "title": "Picking an order using pool selection based on their fitness"
+        },
+        { "time": "22:02", "title": "Mutating the picked orders" },
+        { "time": "26:02", "title": "Debugging the code" },
+        { "time": "27:12", "title": "Yay! This is working!" },
+        { "time": "27:26", "title": "How to make the algorithm better?" }
+      ]
     },
     {
       "title": "Part 5: TSP with Genetic Algorithm and Crossover",
