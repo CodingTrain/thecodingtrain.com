@@ -16,6 +16,7 @@
   "timestamps": [],
   "parts": [
     {
+      "title": "Part 1: Islamic Star Patterns",
       "videoId": "sJ6pMLp_IaI",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -23,7 +24,7 @@
         { "time": "08:13", "title": "Code! Creating Polygon and Edge objects" },
         { "time": "14:46", "title": "Closing the Polygon" },
         { "time": "17:00", "title": "Creating Hankin objects" },
-        { "time": "25:10", "title": "Rotating the Hankin objects correclty" },
+        { "time": "25:10", "title": "Rotating the Hankin objects correctly" },
         {
           "time": "27:13",
           "title": "How to find the point of intersection of Hankins"
@@ -47,6 +48,7 @@
       ]
     },
     {
+      "title": "Part 2: Update - Law of Sines",
       "videoId": "lobJ9gzbLo8",
       "timestamps": [
         { "time": "00:00", "title": "Follow-up video opening" },

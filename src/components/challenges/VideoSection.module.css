@@ -100,6 +100,7 @@
 
 .timelinesContent {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   width: 100%;
 }
@@ -110,18 +111,36 @@
 
 .tab {
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-left: var(--border-cyan);
   border-bottom: var(--border-cyan);
-  height: var(--baseline);
-  padding: 0 var(--spacing-normal);
-  font-family: var(--maru-mono);
-  font-size: var(--maru-medium);
-  color: var(--gray-dark);
+
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: var(--baseline);
+    padding: 0 var(--spacing-normal);
+    font-family: var(--maru-mono);
+    font-size: var(--maru-medium);
+    color: var(--cyan);
+    background-color: white;
+    text-transform: uppercase;
+  }
+
+  & button:hover {
+    background-color: var(--cyan-light);
+    color: var(--gray-dark);
+  }
+}
+
+.clickable button {
+  cursor: pointer;
+}
+
+.selected button {
   background-color: var(--cyan-light);
-  text-transform: uppercase;
+  color: var(--gray-dark);
 }
 
 /* Timeline section */
@@ -132,51 +151,10 @@
   font-family: var(--maru-mono);
 }
 
-/* Challenge parts navigation */
-
-.partsNav {
-  display: flex;
-  padding: 0 var(--box-padding);
-  height: var(--baseline-box);
-  border-left: var(--border-cyan);
-  border-bottom: var(--border-cyan);
-  background: white;
+.partTimeline.hide,
+.timestampsTimeline.hide {
+  display: none;
 }
-
-.partsNavList {
-  display: flex;
-  margin: auto;
-
-  & > li:not(:first-child) .partsNavButton {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-
-  & > li:not(:last-child) .partsNavButton {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-right: none;
-  }
-}
-
-.partsNavButton {
-  color: var(--cyan);
-  border: var(--border-cyan);
-  line-height: calc(var(--baseline) - var(--spacing-small) - 2px);
-
-  &.active,
-  &:hover {
-    color: var(--gray-dark);
-    background: var(--cyan-light);
-    cursor: pointer;
-  }
-
-  &:hover {
-    font-weight: bold;
-  }
-}
-
-/* Media queries */
 
 @media (--medium) {
   .title h1 {
@@ -333,30 +311,9 @@
     border-right: var(--border-cyan);
   }
 
-  .tab {
-    justify-content: center;
+  .tab button {
     height: var(--baseline-box);
-  }
-
-  .partsNavList {
-    &::before {
-      content: "PARTS";
-      color: var(--gray-dark);
-      border: var(--border-cyan);
-      line-height: calc(var(--baseline) - var(--spacing-small) - 2px);
-      padding: 0 var(--box-padding);
-      border-top-left-radius: 40px;
-      border-bottom-left-radius: 40px;
-      border-right: none;
-    }
-    & > li:first-child .partsNavButton {
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-  }
-
-  .partsNavPrefix {
-    display: none;
+    text-align: center;
   }
 }
 
