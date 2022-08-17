@@ -10,7 +10,7 @@
     {
       "title": "Noise vs Random",
       "description": "Demonstration of smoothness of noise() and random().",
-      "image": "image1.png",
+      "image": "perlin.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/u6Te_XMF5"
       }
