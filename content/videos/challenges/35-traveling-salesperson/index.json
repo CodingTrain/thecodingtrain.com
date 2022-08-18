@@ -134,7 +134,33 @@
     {
       "title": "Part 5: TSP with Genetic Algorithm and Crossover",
       "videoId": "hnxn6DtLYcY",
-      "timestamps": [{ "time": "00:00", "title": "Title" }]
+      "timestamps": [
+        { "time": "00:00", "title": "Recap from Part 4" },
+        { "time": "00:35", "title": "What is crossover?" },
+        {
+          "time": "02:33",
+          "title": "Improvement: showing the algorithm running"
+        },
+        { "time": "04:24", "title": "Improvement: adding a mutation rate" },
+        { "time": "06:08", "title": "Where to apply crossover in the code?" },
+        { "time": "07:10", "title": "How to apply crossover?" },
+        {
+          "time": "11:08",
+          "title": "Code! Implementing the crossOver() function"
+        },
+        { "time": "15:30", "title": "Testing the crossOver() function" },
+        { "time": "16:13", "title": "Playing with the variables" },
+        {
+          "time": "17:45",
+          "title": "About the ES6 includes() function and Set"
+        },
+        { "time": "18:03", "title": "Inefficiency of the dist() function" },
+        { "time": "18:44", "title": "Suggestion to improve mutation" },
+        {
+          "time": "21:10",
+          "title": "Please share your own variations and improvements!"
+        }
+      ]
     }
   ],
   "codeExamples": [
