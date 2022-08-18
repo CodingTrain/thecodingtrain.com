@@ -165,8 +165,8 @@
   ],
   "codeExamples": [
     {
-      "title": "Part 1 - Traveling Salesperson (TSP)",
-      "description": "",
+      "title": "Part 1: Traveling Salesperson (TSP)",
+      "description": "Trying all possible paths randomly.",
       "image": "part-1-tsp.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/FCNAHaCqf",
@@ -175,8 +175,8 @@
       }
     },
     {
-      "title": "Part 2 - Lexicographic Order",
-      "description": "",
+      "title": "Part 2: Lexicographic Order",
+      "description": "Generating permutations in Lexicographic Order.",
       "image": "part-2-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/iYxi30gbl",
@@ -185,8 +185,8 @@
       }
     },
     {
-      "title": "Part 3 - TSP with Lexicographic Order",
-      "description": "",
+      "title": "Part 3: TSP with Lexicographic Order",
+      "description": "Applying Lexicographic Order to solve the TSP problem.",
       "image": "part-3-tsp-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/bWPIkEv9s",
@@ -195,8 +195,8 @@
       }
     },
     {
-      "title": "Part 4 - TSP with Genetic Algorithm",
-      "description": "",
+      "title": "Part 4: TSP with Genetic Algorithm",
+      "description": "Using a Genetic Algorithm to solve the TSP problem.",
       "image": "part-4-tsp-ga.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
@@ -205,8 +205,8 @@
       }
     },
     {
-      "title": "Part 5 - TSP with Genetic Algorithm and Crossover",
-      "description": "",
+      "title": "Part 5: TSP with Genetic Algorithm and Crossover",
+      "description": "Applying Crossover to improve the Genetic Algorithm.",
       "image": "part-5-tsp-ga-crossover.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
@@ -223,55 +223,55 @@
           "icon": "🌐",
           "title": "Traveling Salesman on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Travelling_salesman_problem",
-          "description": ""
+          "description": "Origin an more details about the TSP problem."
         },
         {
           "icon": "🗨️",
           "title": "Permutation Algorithm Using Lexicographic Ordering",
           "url": "https://www.quora.com/How-would-you-explain-an-algorithm-that-generates-permutations-using-lexicographic-ordering",
-          "description": ""
+          "description": "An algorithm for lexicographic ordering explained by Michal Forišek."
         },
         {
           "icon": "📝",
           "title": "Array on MDN",
           "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array",
-          "description": ""
+          "description": "Documentation on JavaScript Arrays."
         },
         {
           "icon": "📝",
           "title": "Array.includes() on MDN",
           "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
-          "description": ""
+          "description": "Documentation on the includes() method of JavaScript Arrays."
         },
         {
           "icon": "📝",
           "title": "Array.reverse() on MDN",
           "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
-          "description": ""
+          "description": "Documentation on the reverse() method of JavaScript Arrays."
         },
         {
           "icon": "📝",
           "title": "ES6 Sets on MDN",
           "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set",
-          "description": ""
+          "description": "Documentation on ES6 Set objects in JavaScript."
         },
         {
           "icon": "💾",
-          "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
+          "title": "The Nature of Code Part 2",
           "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
-          "description": ""
+          "description": "Syllabus for Part 2 of The Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017."
         },
         {
           "icon": "📕",
-          "title": "Nature of Code",
+          "title": "The Nature of Code",
           "url": "http://natureofcode.com/",
-          "description": ""
+          "description": "The Nature of Code book."
         },
         {
           "icon": "🎞️",
-          "title": "My Genetic Algorithm playlist",
+          "title": "My Genetic Algorithm Playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
-          "description": ""
+          "description": "A Coding Train YouTube playlist about Genetic Algorithms."
         }
       ]
     },
@@ -282,7 +282,7 @@
           "icon": "🎱",
           "title": "Improved Pool Selection - The Nature of Code",
           "url": "https://www.youtube.com/watch?v=ETphJASzYes&list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX&index=23",
-          "description": ""
+          "description": "How to pick an item randomly from an array with a non-uniform distribution."
         }
       ]
     }
