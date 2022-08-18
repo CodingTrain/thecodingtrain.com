@@ -4,8 +4,8 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "pUhv2CA0omA",
-  "timestamps": [
-  ],
+  "timestamps": [],
+  "canContribute": true,
   "codeExamples": [
     {
       "title": "Texture Maker",

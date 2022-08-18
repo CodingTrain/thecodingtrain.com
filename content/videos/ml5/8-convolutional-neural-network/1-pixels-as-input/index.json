@@ -1,0 +1,117 @@
+{
+  "title": "ml5.js: Train a Neural Network with Pixels as Input",
+  "description": "This tutorial builds on ml5.neuralNetwork() videos examining raw pixels as inputs to a neural network. This sets the stage for a discussion on convolutional neural networks.",
+  "videoNumber": "8.1",
+  "videoId": "UaKab6h9Z0I",
+  "date": "2020-02-01",
+  "languages": ["ml5", "p5js"],
+  "topics": ["neural network", "pixels", "regression"],
+  "canContribute": true,
+  "timestamps": [{
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:43",
+      "title": "Image Classifier"
+    },
+    {
+      "time": "4:02",
+      "title": "Render a low resolution image from the webcam"
+    },
+    {
+      "time": "4:52",
+      "title": "PixelBrain"
+    },
+    {
+      "time": "7:09",
+      "title": "Make a flattened array of r,g,b pixels"
+    },
+    {
+      "time": "11:04",
+      "title": "Train the model"
+    },
+    {
+      "time": "11:43",
+      "title": "Normalize the data"
+    },
+    {
+      "time": "13:10",
+      "title": "Dan or No Dan"
+    },
+    {
+      "time": "15:29",
+      "title": "Three outputs"
+    },
+    {
+      "time": "16:33",
+      "title": "Convoluational layers"
+    },
+    {
+      "time": "17:05",
+      "title": "Add a regression"
+    }
+  ],
+  "codeExamples": [{
+      "title": "Pixel Input",
+      "description": "This sketch demonstrates how to input pixels from a webCam.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/rkonHpec2"
+      }
+    },
+    {
+      "title": "Regression",
+      "description": "Code to run a regression with pixel data.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tOJKHkPy-"
+      }
+    },
+    {
+      "title": "Template",
+      "description": "Code to train a neural network with pixels as input ",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ARYvi6amN"
+      }
+    }
+  ],
+  "groupLinks": [{
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js Neural Network",
+          "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
+          "description": "ml5 page with documentation and supporting material."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [{
+          "icon": "🚂",
+          "title": "ml5.js: Image Classification with MobileNet",
+          "url": "https://www.youtube.com/watch?v=yNkAuWz5lnY",
+          "description": "In this video, I use the \u201cpre-trained\u201d MobileNet model to classify the content of an image."
+        },
+        {
+          "icon": "🚂",
+          "title": "11.3: The Pixel Array - p5.js Tutorial",
+          "url": "https://www.youtube.com/watch?v=nMUMZ5YRxHI",
+          "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js. Code."
+        },
+        {
+          "icon": "🚂",
+          "title": "Teachable Machine: Images",
+          "url": "https://www.youtube.com/watch?v=kwcillcWOg0",
+          "description": "I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library."
+        },
+        {
+          "icon": "🚂",
+          "title": "ml5.js: Pose Regression with PoseNet and ml5.neuralNetwork()",
+          "url": "https://www.youtube.com/watch?v=lob74HqHYJ0",
+          "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \u201cpose\u201d itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification."
+        }
+      ]
+    }
+  ]
+}

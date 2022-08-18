@@ -8,6 +8,15 @@
   "topics": ["basics", "OOP", "objects"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Classes",
+      "description": "Demonstration of using a Bubble class to create multiple bubbles.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qi7N4LWq"
+      }
+    }
+  ],
   "groupLinks": []
 }

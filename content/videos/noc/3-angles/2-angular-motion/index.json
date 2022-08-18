@@ -5,13 +5,12 @@
   "topics": ["For beginners"],
   "videoId": "i2ROE_mAhU0",
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Rectangle Acceleration",
       "description": "Demonstrating acceleration of angular motion on a rectangle",
-      "image": "image1.png",
+      "image": "rect.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/RR9XUN1mf"
       }
@@ -19,7 +18,7 @@
     {
       "title": "Rectangle Grab Exercise",
       "description": "Clicking and dragging to change a rectangle's angular momentum",
-      "image": "image1.png",
+      "image": "grab.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/In9e8j6t_"
       }
@@ -27,7 +26,7 @@
     {
       "title": "Gravitational Attraction",
       "description": "Adding angular motion to a previous sketch demonstrating gravitational attraction",
-      "image": "image1.png",
+      "image": "gravitation.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Y-yxvkkZk"
       }

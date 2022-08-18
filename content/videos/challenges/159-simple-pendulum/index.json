@@ -4,7 +4,7 @@
   "videoNumber": "159",
   "videoId": "NBWMtlbbOag",
   "date": "2021-02-16",
-  "languages": ["javascript", "p5js"],
+  "languages": ["JavaScript", "p5.js"],
   "topics": [
     "pendulums",
     "angular motion",

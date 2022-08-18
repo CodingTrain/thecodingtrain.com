@@ -1,6 +1,4 @@
-// DS adding a code comment to trigger a new preview build
-
-const { Octokit, App } = require('octokit');
+const { Octokit } = require('@octokit/core');
 const slugify = require('slugify');
 const btoa = require('btoa');
 

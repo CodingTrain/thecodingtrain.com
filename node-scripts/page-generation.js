@@ -1,4 +1,5 @@
 const { paginate } = require('gatsby-awesome-pagination');
+const { toSlug } = require('./utils');
 
 const ITEMS_PER_PAGE = 10;
 
@@ -42,7 +43,9 @@ exports.createChallengesPages = async (graphql, createPage) => {
     component: require.resolve(`../src/templates/challenges.js`),
     context: {
       topic: '',
-      language: ''
+      topicRegex: '/.*.*/',
+      language: '',
+      languageRegex: '/.*.*/'
     }
   });
 
@@ -64,17 +67,17 @@ exports.createChallengesPages = async (graphql, createPage) => {
   `);
 
   [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
-    const langRegex = `/.*${language}.*/`;
+    const languageRegex = `/.*${language}.*/`;
     [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
-      const topRegex = `/.*${topic}.*/`;
+      const topicRegex = `/.*${topic}.*/`;
       const {
         data: { filteredChallenges }
       } = await graphql(`
         query {
           filteredChallenges: allChallenge (
             filter: {
-              languagesFlat: {regex: "${langRegex}"}
-              topicsFlat: {regex: "${topRegex}"}
+              languagesFlat: {regex: "${languageRegex}"}
+              topicsFlat: {regex: "${topicRegex}"}
             }
           ) {
             nodes {
@@ -89,13 +92,15 @@ exports.createChallengesPages = async (graphql, createPage) => {
         createPage,
         items: filteredChallenges.nodes,
         itemsPerPage: ITEMS_PER_PAGE,
-        pathPrefix: `/challenges/lang:${
-          language !== '' ? language : 'all'
-        }+topic:${topic !== '' ? topic : 'all'}`,
+        pathPrefix: `/challenges/lang/${
+          language !== '' ? toSlug(language) : 'all'
+        }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,
         component: require.resolve(`../src/templates/challenges.js`),
         context: {
-          topic: topRegex,
-          language: langRegex
+          topic,
+          topicRegex,
+          language,
+          languageRegex
         }
       });
     });
@@ -129,7 +134,9 @@ exports.createTracksPages = async (graphql, createPage) => {
     component: require.resolve(`../src/templates/tracks.js`),
     context: {
       topic: '',
-      language: ''
+      topicRegex: '/.*.*/',
+      language: '',
+      languageRegex: '/.*.*/'
     }
   });
 
@@ -151,17 +158,17 @@ exports.createTracksPages = async (graphql, createPage) => {
   `);
 
   [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
-    const langRegex = `/.*${language}.*/`;
+    const languageRegex = `/.*${language}.*/`;
     [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
-      const topRegex = `/.*${topic}.*/`;
+      const topicRegex = `/.*${topic}.*/`;
       const {
         data: { filteredTracks }
       } = await graphql(`
         query {
           filteredTracks: allTrack (
             filter: {
-              languagesFlat: {regex: "${langRegex}"}
-              topicsFlat: {regex: "${topRegex}"}
+              languagesFlat: {regex: "${languageRegex}"}
+              topicsFlat: {regex: "${topicRegex}"}
             }
           ) {
             nodes {
@@ -176,13 +183,15 @@ exports.createTracksPages = async (graphql, createPage) => {
         createPage,
         items: filteredTracks.nodes,
         itemsPerPage: ITEMS_PER_PAGE,
-        pathPrefix: `/tracks/lang:${language !== '' ? language : 'all'}+topic:${
-          topic !== '' ? topic : 'all'
-        }`,
+        pathPrefix: `/tracks/lang/${
+          language !== '' ? toSlug(language) : 'all'
+        }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,
         component: require.resolve(`../src/templates/tracks.js`),
         context: {
-          topic: topRegex,
-          language: langRegex
+          topic,
+          topicRegex,
+          language,
+          languageRegex
         }
       });
     });

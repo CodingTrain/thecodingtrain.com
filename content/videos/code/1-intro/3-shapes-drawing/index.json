@@ -8,6 +8,51 @@
   "topics": ["shapes", "drawing", "basics"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": []
+  "codeExamples": [
+    {
+      "title": "Shapes & Drawing",
+      "description": "Demonstration of drawing shapes and lines in p5.js.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HJ1WjEPwQ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "p5.js Reference",
+          "url": "https://p5js.org/reference/",
+          "description": "Documentation for p5.js"
+        },
+        {
+          "icon": "💾",
+          "title": "createCanvas",
+          "url": "https://p5js.org/reference/#/p5/createCanvas",
+          "description": "createCanvas() on the p5.js reference"
+        },
+        {
+          "icon": "💾",
+          "title": "rect",
+          "url": "https://p5js.org/reference/#/p5/rect",
+          "description": "rect() on the p5.js reference"
+        },
+        {
+          "icon": "💾",
+          "title": "line",
+          "url": "https://p5js.org/reference/#/p5/line",
+          "description": "line() on the p5.js reference"
+        },
+        {
+          "icon": "💾",
+          "title": "rectMode",
+          "url": "https://p5js.org/reference/#/p5/rectMode",
+          "description": "rectMode() on the p5.js reference"
+        }
+      ]
+    }
+  ]
 }

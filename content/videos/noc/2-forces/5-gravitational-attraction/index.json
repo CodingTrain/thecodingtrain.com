@@ -4,13 +4,13 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "EpgB3cNhKPM",
-  "timestamps": [
-  ],
+  "timestamps": [],
+  "canContribute": true,
   "codeExamples": [
     {
       "title": "Gravitational Attraction",
       "description": "Simulating gravitational attraction between objects",
-      "image": "image1.png",
+      "image": "code1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/MkLraatd"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Attraction Exercise",
       "description": "Creating attractor objects with positive and negative gravity force",
-      "image": "image1.png",
+      "image": "code2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ImehzZuCU"
       }

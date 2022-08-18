@@ -1,64 +1,64 @@
 {
-    "title": "Brownian Tree Snowflake",
-    "description": "In this holiday coding challenge, I create a \u201cBrownian Tree Snowflake\u201d in Processing (Java). This video was recorded as part of a fundraiser for the Processing Foundation.",
-    "videoNumber": "127",
-    "videoId": "XUA8UREROYE",
-    "date": "2018-12-24",
-    "languages": ["processing"],
-    "topics": [
-        "brownian tree snowflake",
-        "brownian snowflake",
-        "snowflake generator",
-        "diffusion limited aggregation"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "codeExamples": [
+  "title": "Brownian Tree Snowflake",
+  "description": "In this holiday coding challenge, I create a \u201cBrownian Tree Snowflake\u201d in Processing (Java). This video was recorded as part of a fundraiser for the Processing Foundation.",
+  "videoNumber": "127",
+  "videoId": "XUA8UREROYE",
+  "date": "2018-12-24",
+  "languages": ["Processing"],
+  "topics": [
+    "brownian tree snowflake",
+    "brownian snowflake",
+    "snowflake generator",
+    "diffusion limited aggregation"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Brownian Tree Snowflake",
+      "description": "My visualization of the Brownian tree snowflake.",
+      "image": "brownian.jpeg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SJcAeCpgE",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/127_Snowflake_Brownian/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Brownian Tree Snowflake",
-            "description": "My visualization of the Brownian tree snowflake.",
-            "image": "brownian.jpeg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/SJcAeCpgE",
-                "processing": "https://github.com/CodingTrain/CodingChallenges/CC_127_Snowflake_Brownian/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "💰",
-                    "title": "Support the Processing Foundation",
-                    "url": "https://processingfoundation.org/support/",
-                    "description": "Support the Processing Foundation!"
-                },
-                {
-                    "icon": "💾",
-                    "title": "Code Golf - Draw a Snowflake",
-                    "url": "https://codegolf.stackexchange.com/questions/42506/draw-a-snowflake",
-                    "description": "Draw a snowflake coding challenge."
-                },
-                {
-                    "icon": "❄️",
-                    "title": "Snowflake",
-                    "url": "https://www.flickr.com/photos/golanlevin/sets/72157594387404319",
-                    "description": "Golan Levin's photos of interactive holiday card with Brownian tree snowflakes."
-                }
-            ]
+          "icon": "💰",
+          "title": "Support the Processing Foundation",
+          "url": "https://processingfoundation.org/support/",
+          "description": "Support the Processing Foundation!"
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "Coding Challenge: Diffusion-Limited Aggregation",
-                    "url": "https://www.youtube.com/watch?v=Cl_Gjj80gPE",
-                    "description": "In this Coding Challenge, I explore the \u201cDiffusion-Limited Aggregation\u201d generative algorithm. "
-                }
-            ]
+          "icon": "💾",
+          "title": "Code Golf - Draw a Snowflake",
+          "url": "https://codegolf.stackexchange.com/questions/42506/draw-a-snowflake",
+          "description": "Draw a snowflake coding challenge."
+        },
+        {
+          "icon": "❄️",
+          "title": "Snowflake",
+          "url": "https://www.flickr.com/photos/golanlevin/sets/72157594387404319",
+          "description": "Golan Levin's photos of interactive holiday card with Brownian tree snowflakes."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Coding Challenge: Diffusion-Limited Aggregation",
+          "url": "https://www.youtube.com/watch?v=Cl_Gjj80gPE",
+          "description": "In this Coding Challenge, I explore the \u201cDiffusion-Limited Aggregation\u201d generative algorithm. "
+        }
+      ]
+    }
+  ]
 }

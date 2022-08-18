@@ -1,0 +1,52 @@
+{
+    "title": "Cloning Repo and Push/Pull",
+    "description": "In part 6 of the Git and GitHub for Poets tutorial series, I show you how to clone a repository created on the GitHub website in order to work on it locally, and then push the changes back to GitHub.",
+    "languages": [],
+    "topics": ["For beginners","Git","GitHub"],
+    "videoId": "yXT1ElMEkW8",
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:08", "title": "Checking that git is installed on your computer" },
+        { "time": "3:03", "title": "Cloning a GitHub repo" },
+        { "time": "7:40", "title": "git status and git commit" },
+        { "time": "9:52", "title": "Configuring git on your computer" },
+        { "time": "12:57", "title": "Viewing the history of commits" },
+        { "time": "15:00", "title": "What are Push and Pull" },
+        { "time": "16:30", "title": "Making the first Push" },
+        { "time": "20:34", "title": "Recap" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Rainbow Song",
+            "description": "GitHub repo for the Rainbow Song",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Song"
+            }
+        }
+    ],
+    "groupLinks":[
+        {
+            "title":"References",
+            "links":[
+                {
+                    "title": "Git",
+                    "icon": "⬇",
+                    "url": "https://git-scm.com/downloads",
+                    "description": "Download git on your computer."
+                },
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com",
+                    "description": "GitHub homepage"
+                },
+                {
+                    "title": "GitHub Docs",
+                    "icon": "📚",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+                    "description": "Quickstart tutorial for how to get started with Git and GitHub."
+                }
+            ]
+        }
+    ],
+    "canContribute": false
+}

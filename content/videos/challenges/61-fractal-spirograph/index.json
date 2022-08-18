@@ -1,52 +1,48 @@
 {
-    "title": "Fractal Spirograph",
-    "description": "In this coding challenge, I attempt to create a \u201cFractal Spirograph\u201d with Processing (Java). The visuals are inspired by images and explanation on C. J. Chen\u2019s blog.",
-    "videoNumber": "61",
-    "videoId": "0dwJ-bkJwDI",
-    "date": "2017-02-28",
-    "languages": ["processing", "java"],
-    "topics": [
-        "fractal",
-        "spirograph",
-        "polar coordinates"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "codeExamples": [
+  "title": "Fractal Spirograph",
+  "description": "In this coding challenge, I attempt to create a \u201cFractal Spirograph\u201d with Processing (Java). The visuals are inspired by images and explanation on C. J. Chen\u2019s blog.",
+  "videoNumber": "61",
+  "videoId": "0dwJ-bkJwDI",
+  "date": "2017-02-28",
+  "languages": ["Processing", "Java"],
+  "topics": ["fractal", "spirograph", "polar coordinates"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Fractal Spirograph",
+      "description": "The sketch creates a fractal spirograph.",
+      "image": "spirograph.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Q60oWddzr",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/061_fractal_spirograph/Processing",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/061_fractal_spirograph"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Fractal Spirograph",
-            "description": "The sketch creates a fractal spirograph.",
-            "image": "spirograph.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/Q60oWddzr",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/061_fractal_spirograph/Processing",
-                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/061_fractal_spirograph"
-            }
+          "icon": "🖊",
+          "title": "C.J.Chen's blog on Fractal Spirograph",
+          "url": "http://benice-equation.blogspot.ca/2012/01/fractal-spirograph.html",
+          "description": "Fun math art (pictures) - benice equation"
         }
-    ],
-    "groupLinks": [
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🖊",
-                    "title": "C.J.Chen's blog on Fractal Spirograph",
-                    "url": "http://benice-equation.blogspot.ca/2012/01/fractal-spirograph.html",
-                    "description": "Fun math art (pictures) - benice equation"
-                }
-            ]
-        },
-        {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🎥",
-                    "title": "My Video on Polar Coordinates",
-                    "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
-                    "description": "A dive into the trigonometric functions—sine, cosine, tangent."
-                }
-            ]
+          "icon": "🎥",
+          "title": "My Video on Polar Coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "A dive into the trigonometric functions—sine, cosine, tangent."
         }
-    ]
+      ]
+    }
+  ]
 }

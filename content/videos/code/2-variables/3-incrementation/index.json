@@ -7,7 +7,14 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "variables", "math"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "0:38", "title": "What is coding short hand?" },
+    { "time": "1:28", "title": "What does += mean?" },
+    { "time": "2:10", "title": "What does ++ do?" },
+    { "time": "2:55", "title": "But what about minus, times, and divide?" },
+    { "time": "3:40", "title": "Let's confirm this works." }
+  ],
   "codeExamples": [],
   "groupLinks": []
 }

@@ -1,0 +1,41 @@
+{
+    "title": "Git Remotes",
+    "description": "This video covers git \"remotes\"",
+    "languages": [],
+    "topics": ["For beginners","Git","GitHub"],
+    "videoId": "lR_hYwCAaH4",
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:18", "title": "What is a remote" },
+        { "time": "3:44", "title": "Adding a second remote" },
+        { "time": "8:55", "title": "Merging from the command line" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Flappy Bird Clone",
+            "description": "GitHub repo for The Coding Train's Flappy Bird Clone ",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Flappy-Bird-Clone"
+            }
+        }
+    ],
+    "groupLinks":[
+        {
+            "title":"References",
+            "links":[
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com",
+                    "description": "GitHub homepage"
+                },
+                {
+                    "title": "GitHub Docs",
+                    "icon": "📚",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+                    "description": "Quickstart tutorial for how to get started with Git and GitHub."
+                }
+            ]
+        }
+    ],
+    "canContribute": false
+}

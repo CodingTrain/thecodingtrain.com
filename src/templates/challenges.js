@@ -15,20 +15,22 @@ import { getReadableDate } from '../hooks';
 import * as css from './challenges.module.css';
 
 const ChallengesPage = ({ data, pageContext, location }) => {
+  const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
   const challenges = data.challenges.nodes;
   const recentChallenge = data.recentChallenge.nodes[0];
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
 
-  const challengesPlaceholder =
-    data.challengePlaceholderImage.nodes.length > 0
-      ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
-      : null;
+  const challengesPlaceholder = data.challengePlaceholderImage
+    ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
+    : null;
 
   return (
     <ItemsPage
       title={pageData.title}
+      selectedLanguage={language}
+      selectedTopic={topic}
       description={pageData.description}
       image={challengesPlaceholder}
       location={location}
@@ -124,7 +126,12 @@ const RecentChallenge = ({
 };
 
 export const query = graphql`
-  query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+  query(
+    $skip: Int!
+    $limit: Int!
+    $topicRegex: String!
+    $languageRegex: String!
+  ) {
     pageData: allChallengesPageInfo {
       nodes {
         title
@@ -148,8 +155,8 @@ export const query = graphql`
     }
     challenges: allChallenge(
       filter: {
-        languagesFlat: { regex: $language }
-        topicsFlat: { regex: $topic }
+        languagesFlat: { regex: $languageRegex }
+        topicsFlat: { regex: $topicRegex }
       }
       sort: { order: DESC, fields: date }
       skip: $skip
@@ -188,19 +195,6 @@ export const query = graphql`
         }
       }
     }
-    images: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-      }
-    ) {
-      nodes {
-        base
-        childImageSharp {
-          gatsbyImageData
-        }
-      }
-    }
     languages: allTag(filter: { type: { eq: "language" } }) {
       nodes {
         value
@@ -211,18 +205,14 @@ export const query = graphql`
         value
       }
     }
-    challengePlaceholderImage: allFile(
-      filter: {
-        sourceInstanceName: { eq: "challenges" }
-        extension: { in: ["jpg", "png"] }
-        relativeDirectory: { eq: "" }
-        name: { eq: "placeholder" }
-      }
+    challengePlaceholderImage: file(
+      sourceInstanceName: { eq: "challenges" }
+      extension: { in: ["jpg", "png"] }
+      relativeDirectory: { eq: "" }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
   }

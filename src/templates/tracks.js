@@ -12,19 +12,22 @@ import AsteriskCharacter from '../images/characters/Asterik_5.mini.svg';
 // import * as css from './tracks.module.css';
 
 const TracksPage = ({ data, pageContext, location }) => {
+  const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
   const tracks = data.tracks.nodes;
   const languages = data.languages.nodes.map(({ value }) => value);
   const topics = data.topics.nodes.map(({ value }) => value);
 
   const placeholderMainTrackImage =
-    data.placeholderMainTrackImage.nodes[0].childImageSharp.gatsbyImageData;
+    data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
   const placeholderSideTrackImage =
-    data.placeholderSideTrackImage.nodes[0].childImageSharp.gatsbyImageData;
+    data.placeholderSideTrackImage.childImageSharp.gatsbyImageData;
 
   return (
     <ItemsPage
       title={pageData.title}
+      selectedLanguage={language}
+      selectedTopic={topic}
       description={pageData.description}
       image={placeholderMainTrackImage}
       location={location}
@@ -65,7 +68,12 @@ const TracksPage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query ($skip: Int!, $limit: Int!, $topic: String!, $language: String!) {
+  query(
+    $skip: Int!
+    $limit: Int!
+    $topicRegex: String!
+    $languageRegex: String!
+  ) {
     pageData: allTracksPageInfo {
       nodes {
         title
@@ -74,8 +82,8 @@ export const query = graphql`
     }
     tracks: allTrack(
       filter: {
-        languagesFlat: { regex: $language }
-        topicsFlat: { regex: $topic }
+        languagesFlat: { regex: $languageRegex }
+        topicsFlat: { regex: $topicRegex }
       }
       skip: $skip
       limit: $limit
@@ -112,30 +120,22 @@ export const query = graphql`
         }
       }
     }
-    placeholderMainTrackImage: allFile(
-      filter: {
-        name: { eq: "placeholder" }
-        sourceInstanceName: { eq: "main-tracks" }
-        extension: { in: ["jpg", "png"] }
-      }
+    placeholderMainTrackImage: file(
+      sourceInstanceName: { eq: "main-tracks" }
+      extension: { in: ["jpg", "png"] }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
-    placeholderSideTrackImage: allFile(
-      filter: {
-        name: { eq: "placeholder" }
-        sourceInstanceName: { eq: "side-tracks" }
-        extension: { in: ["jpg", "png"] }
-      }
+    placeholderSideTrackImage: file(
+      sourceInstanceName: { eq: "side-tracks" }
+      extension: { in: ["jpg", "png"] }
+      name: { eq: "placeholder" }
     ) {
-      nodes {
-        childImageSharp {
-          gatsbyImageData
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
     languages: allTag(filter: { type: { eq: "language" } }) {

@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build",
+    "build": "gatsby build --verbose",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",
@@ -19,6 +19,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "@octokit/core": "^4.0.4",
     "btoa": "^1.2.1",
     "classnames": "^2.3.1",
     "copy-to-clipboard": "^3.3.1",
@@ -35,7 +36,6 @@
     "gatsby-transformer-json": "^4.16.0",
     "gatsby-transformer-sharp": "^4.16.0",
     "html-react-parser": "^1.4.8",
-    "octokit": "^1.8.0",
     "postcss": "^8.3.6",
     "postcss-calc": "^8.0.0",
     "postcss-custom-media": "^8.0.0",
@@ -48,8 +48,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
+    "react-select": "^5.4.0",
     "react-youtube": "^7.13.1",
-    "slugify": "^1.6.5",
     "yup": "^0.32.11"
   },
   "devDependencies": {
@@ -57,6 +57,7 @@
     "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
     "lodash": "^4.17.21",
+    "slugify": "^1.6.5",
     "svgo": "^2.8.0"
   },
   "jest": {

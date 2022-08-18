@@ -13,9 +13,9 @@
     {
       "title": "Perlin Noise and p5.js Tutorial",
       "videos": [
-        "noc/perlin/perlin-noise-and-p5js-tutorial-intro",
-        "noc/perlin/perlin-noise-and-p5js-tutorial-noise-vs-random",
-        "noc/perlin/perlin-noise-and-p5js-tutorial-graphing-1d-perlin-noise"
+        "noc/perlin/intro-to-perlin-noise",
+        "noc/perlin/noise-vs-random",
+        "noc/perlin/graphing-1d-perlin-noise"
       ]
     },
     {
@@ -36,7 +36,8 @@
         "noc/2-forces/2-mass-and-acceleration",
         "noc/2-forces/3-friction-force",
         "noc/2-forces/4-drag-force",
-        "noc/2-forces/5-gravitational-attraction"
+        "noc/2-forces/5-gravitational-attraction",
+        "noc/2-forces/6-mutual-attraction"
       ]
     },
     {

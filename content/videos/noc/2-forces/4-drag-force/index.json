@@ -4,13 +4,13 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "DxFDgOYEoy8",
-  "timestamps": [
-  ],
+  "timestamps": [],
+  "canContribute": true,
   "codeExamples": [
     {
       "title": "Drag Force",
       "description": "Simulating different drag forces on objects",
-      "image": "image1.png",
+      "image": "drag.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/5V8nSBOS"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Goose and the Jello Cubes of Varying Densities",
       "description": "Play as Goose and avoid the jello cubes!",
-      "image": "image1.png",
+      "image": "jello.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/O36gAqVqt"
       }
@@ -26,7 +26,7 @@
     {
       "title": "Surface Area Exercise",
       "description": "Demonstrating drag force on objects with varying surface areas",
-      "image": "image1.png",
+      "image": "surface.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/hHDqBfOCt"
       }

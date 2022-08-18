@@ -8,6 +8,15 @@
   "topics": ["basics", "for loop", "grid"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Nested Loops",
+      "description": "Demonstration of drawing a grid of shapes using nested loops.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/nxJTfiJd"
+      }
+    }
+  ],
   "groupLinks": []
 }

@@ -1,0 +1,53 @@
+{
+  "title": "Removing Objects from Arrays",
+  "description": "This video covers the 'splice' function to delete / remove objects from an array.",
+  "videoNumber": "7.5",
+  "videoId": "tA_ZgruFF9k",
+  "date": "2017-10-17",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["arrays", "for loop", "objects"],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Removing Objects from Arrays",
+      "description": "Demonstration of Removing Objects from Arrays",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/smC4Jedi"
+      }
+    },
+    {
+      "title": "Trail",
+      "description": "Demonstration of Trail",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9Ve9S6Mx"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Simple Particle System Coding Challenge",
+          "url": "/CodingChallenges/078-simple-particle-system",
+          "description": "undefined's Tutorial on Simple Particle System Coding Challenge"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Array.prototype.splice() reference on MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
+          "description": "Array.prototype.splice() reference on MDN"
+        }
+      ]
+    }
+  ]
+}

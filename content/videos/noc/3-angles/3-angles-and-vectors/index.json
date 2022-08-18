@@ -5,13 +5,12 @@
   "topics": ["For beginners"],
   "videoId": "oXwCVDXS2Lg",
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Direction Pointing",
       "description": "Creating Mover objects that point in the irection they're moving",
-      "image": "image1.png",
+      "image": "direction.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/9M9yQJVVc"
       }
@@ -19,7 +18,7 @@
     {
       "title": "Vehicle",
       "description": "A Mover object that can be controlled with the keyboard",
-      "image": "image1.png",
+      "image": "vehicle.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/HtXbIDsESi"
       }
@@ -27,7 +26,7 @@
     {
       "title": "Asteroids Exercise",
       "description": "A spaceship with direction and thrust controls",
-      "image": "image1.png",
+      "image": "asteroids.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pXS395i0h"
       }
@@ -42,8 +41,8 @@
           "url": "https://natureofcode.com/book/chapter-3-oscillation/index.html#34-pointing-in-the-direction-of-movement",
           "description": "Link to Nature of Code book section on solving for tangent"
         }
-	  ]
-	},
+      ]
+    },
     {
       "title": "Videos",
       "links": [

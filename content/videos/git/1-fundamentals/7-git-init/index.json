@@ -1,0 +1,50 @@
+{
+    "title": "git init and git add",
+    "description": "In part 7 of Git and GitHub for Poets, I show you how to, instead of cloning a repository from GitHub, create a repository locally using the “git init” command and adding files to this repository using the “git add” command.",
+    "languages": [],
+    "topics": ["For beginners","Git","GitHub"],
+    "videoId": "9p2d-CuVlgc",
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:00", "title": "Turn a folder into a git repo" },
+        { "time": "2:19", "title": "git workflow" },
+        { "time": "7:57", "title": "git status and git commit" },
+        { "time": "9:52", "title": "Create a remote repo on GitHub" },
+        { "time": "10:51", "title": "Pull changes from GitHub" },
+        { "time": "12:06", "title": "Recap" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Rainbow Dance",
+            "description": "GitHub repo for the Rainbow Dance",
+            "urls": {
+              "other": "https://github.com/CodingTrain/Rainbow-Dance"
+            }
+        }
+    ],
+    "groupLinks":[
+        {
+            "title":"References",
+            "links":[
+                {
+                    "title": "Git",
+                    "icon": "⬇",
+                    "url": "https://git-scm.com/downloads",
+                    "description": "Download git on your computer."
+                },
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com",
+                    "description": "GitHub homepage"
+                },
+                {
+                    "title": "GitHub Docs",
+                    "icon": "📚",
+                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+                    "description": "Quickstart tutorial for how to get started with Git and GitHub."
+                }
+            ]
+        }
+    ],
+    "canContribute": false
+}

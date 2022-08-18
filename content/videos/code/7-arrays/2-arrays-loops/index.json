@@ -8,6 +8,15 @@
   "topics": ["arrays", "for loop"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Iterating over an array",
+      "description": "Demonstration of going through every element in an array.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ZnPevren"
+      }
+    }
+  ],
   "groupLinks": []
 }

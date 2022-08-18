@@ -8,6 +8,15 @@
   "topics": ["arrays", "basics"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Array",
+      "description": "Demonstration of arrays in JavaScript.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ"
+      }
+    }
+  ],
   "groupLinks": []
 }

@@ -1,6 +1,6 @@
 {
   "title": "Function Parameters and Arguments",
-  "description": "This video looks at re-usability and functions.  How does defining a function with parameters allow a function to be re-used?",
+  "description": "This video looks at re-usability and functions. How does defining a function with parameters allow a function to be re-used?",
   "videoNumber": "5.2",
   "videoId": "zkc417YapfE",
   "date": "2015-09-17",
@@ -8,6 +8,15 @@
   "topics": ["basics", "functions", "arguments", "parameters"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Function Parameters and Arguments",
+      "description": "Demonstration of reusing functions using arguments.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/eGD-xzsw"
+      }
+    }
+  ],
   "groupLinks": []
 }

@@ -5,13 +5,12 @@
   "topics": ["For beginners"],
   "videoId": "DMg-WRfNB60",
   "canContribute": true,
-  "timestamps": [
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Angles and Rotation",
       "description": "Demonstrating rotation of a rectangle in p5.js",
-      "image": "image1.png",
+      "image": "angles.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/y7ieDesyd"
       }
@@ -26,7 +25,9 @@
           "url": "https://p5js.org/reference/#/p5/TAU",
           "description": "p5.js reference entry on the mathematical constant tau"
         }
-      ],
+      ]
+    },
+    {
       "title": "Videos",
       "links": [
         {

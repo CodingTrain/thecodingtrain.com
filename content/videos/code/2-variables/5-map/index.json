@@ -7,7 +7,31 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["math", "basics"],
   "canContribute": true,
-  "timestamps": [],
-  "codeExamples": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello! Let's talk about the map function." },
+    { "time": "0:32", "title": "Let's start with an example." },
+    {
+      "time": "3:03",
+      "title": "Trying to change the range of mouseX without map()."
+    },
+    {
+      "time": "4:17",
+      "title": "That sort of worked, but what about other scenarios?"
+    },
+    { "time": "5:12", "title": "Let's see if I can explain how to use map()." },
+    { "time": "7:44", "title": "How about we try it out!" },
+    { "time": "8:27", "title": "Let's have some fun with map()!" },
+    { "time": "9:39", "title": "How could you take this farther?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "The map() Function",
+      "description": "Demonstration of mapping the background of the canvas to the mouse position.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/yJqbGf71"
+      }
+    }
+  ],
   "groupLinks": []
 }

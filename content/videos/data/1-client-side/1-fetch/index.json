@@ -1,0 +1,85 @@
+{
+  "title": "The fetch() Function",
+  "description": "This video is client-side only and covers the web fetch() API, loading image data and focusing on handling asynchronous events with Promises (async / await).",
+  "videoNumber": "1.1",
+  "languages": ["JavaScript"],
+  "topics": ["fetch", "promises", "apis"],
+  "videoId": "tc8DU14qX6I",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome! What is fetch()?" },
+    { "time": "01:08", "title": "Explain! What is an HTTP Request?" },
+    {
+      "time": "01:34",
+      "title": "Explain! Write down the steps to fetch an image!"
+    },
+    { "time": "04:17", "title": "Code! Fetch the rainbow image!" },
+    { "time": "07:35", "title": "Code! Show the image on the page!" },
+    { "time": "08:56", "title": "Explain! Let's add some improvements!" },
+    { "time": "09:40", "title": "Code! Error Handling" },
+    { "time": "10:54", "title": "Code! Use async/await!" },
+    { "time": "14:01", "title": "Review, Exercises and Next steps!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Fetching an Image",
+      "description": "Demonstration of fetching image data from a local file",
+      "image": "fetchimg.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_image/"
+      }
+    },
+    {
+      "title": "Fetching Text File",
+      "description": "(Exercise) Demonstration of fetching data from a text file",
+      "image": "fetchtxt.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_exercise_text/"
+      }
+    },
+    {
+      "title": "Fetching Multiple Images",
+      "description": "(Exercise) Demonstration of fetching multiple images from an array of files",
+      "image": "fetchimgarr.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/01_fetch_exercise_array/"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Promises",
+          "url": "https://youtu.be/QO4NXhWo_NM",
+          "description": "Tutorial on Promises in JavaScript"
+        },
+        {
+          "icon": "🎥",
+          "title": "Async/Await",
+          "url": "https://youtu.be/XO77Fib9tSI",
+          "description": "Tutorial on Async/Await keywords in JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Fetch API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "description": "The Fetch API on MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "createObjectURL",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL",
+          "description": "URL.createObjectURL on MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}

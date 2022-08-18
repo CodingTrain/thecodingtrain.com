@@ -8,6 +8,15 @@
   "topics": ["basics", "functions", "return"],
   "canContribute": false,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Returning a value",
+      "description": "Demonstration of converting miles to kilometers using a function.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/twpIiI-v"
+      }
+    }
+  ],
   "groupLinks": []
 }
