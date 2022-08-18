@@ -266,12 +266,6 @@
           "title": "The Nature of Code",
           "url": "http://natureofcode.com/",
           "description": "The Nature of Code book."
-        },
-        {
-          "icon": "🎞️",
-          "title": "My Genetic Algorithm Playlist",
-          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
-          "description": "A Coding Train YouTube playlist about Genetic Algorithms."
         }
       ]
     },
@@ -279,10 +273,16 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎱",
-          "title": "Improved Pool Selection - The Nature of Code",
+          "icon": "🎥",
+          "title": "Improved Pool Selection",
           "url": "https://www.youtube.com/watch?v=ETphJASzYes&list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX&index=23",
           "description": "How to pick an item randomly from an array with a non-uniform distribution."
+        },
+        {
+          "icon": "🎥",
+          "title": "Genetic Algorithm Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+          "description": "A Coding Train YouTube playlist about Genetic Algorithms."
         }
       ]
     }
