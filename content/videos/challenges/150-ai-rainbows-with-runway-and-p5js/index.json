@@ -1,0 +1,105 @@
+{
+    "title": "AI Rainbows with Runway and p5.js",
+    "description": "In this challenge I generate rainbows using the StyleGAN Machine Learning model available in Runway ML and send the rainbows to the browser with p5.js! This challenge is based on the live coding talk from the 2019 Eyeo Festival.",
+    "videoNumber": "150",
+    "videoId": "vEetoBuHj8g",
+    "date": "2019-08-22",
+    "languages": ["runwayML", "p5.js"],
+    "topics": [
+        "styleGan",
+        "machine learning",
+        "latent space"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:19", "title": "RunwayML" },
+        { "time": "1:25", "title": "StyleGan" },
+        { "time": "1:58", "title": "Checkpoints" },
+        { "time": "2:13", "title": "Input source" },
+        { "time": "2:24", "title": "Run remotely" },
+        { "time": "3:04", "title": "Latent space" },
+        { "time": "4:04", "title": "Network tab:  HTTP request" },
+        { "time": "5:00", "title": "Let's Code!" },
+        { "time": "5:39", "title": "generateRainbow()" },
+        { "time": "8:54", "title": "vector" },
+        { "time": "11:17", "title": "Export vector as json" },
+        { "time": "12:39", "title": "truncation" },
+        { "time": "13:14", "title": "httpPost" },
+        { "time": "15:03", "title": "base64 encoding" },
+        { "time": "18:42", "title": "Review" },
+        { "time": "21:15", "title": "Anastasis Germanidis" }
+    ],
+    "codeExamples": [
+        {
+            "title": "AI Rainbows",
+            "description": "This sketch shows how to generate rainbows using the  StyleGAN Machine Learning model.",
+            "image": "rainbow.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/K6l0JbS6u"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "💻",
+                    "title": "RunwayML ML Lab page",
+                    "url": "https://app.runwayml.com/all-models",
+                    "description": "RunwayML ML Lab page where you can learn more about the models."
+                },
+                {
+                    "icon": "💻",
+                    "title": "RunwayML download page",
+                    "url": "https://runwayml.com/download/",
+                    "description": "Download page for RunwayML."
+                },
+                {
+                    "icon": "💻",
+                    "title": "RunwayML on GitHub",
+                    "url": "https://github.com/runwayml",
+                    "description": "GitHub page for RunwayML."
+                },
+                {
+                    "icon": "💻",
+                    "title": "StyleGAN",
+                    "url": "https://github.com/NVlabs/stylegan",
+                    "description": "Repository for the official TensorFlow implementation of Style-Based Generator Architecture for Generative Adversarial Networks."
+                },
+                {
+                    "icon": "💻",
+                    "title": "Anastasis Germanidis on GitHub",
+                    "url": "https://github.com/agermanidis",
+                    "description": "GitHub page for Anastasis Germanidis"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "Intro to Runway Part 1",
+                    "url": "https://youtu.be/ARnf4ilr9Hc",
+                    "description": "The video covers the basics of downloading and installing Runway, and running your first pre-trained machine learning model."
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Intro to Runway Part 2",
+                    "url": "https://youtu.be/7btNir5L8Jc",
+                    "description": "This video looks at how to run the PoseNet Machine Learning model (for real-time skeletal tracking of one or more people) in Runway and send the results to Processing (Java)."
+                    
+                },
+                {
+                    "icon": "🚂",
+                    "title": "My talk at 2019 eyeo Festival",
+                    "url": "https://vimeo.com/354276216",
+                    "description": "I live code an interactive simulation using a variety of creative coding tools including p5.js, ml5.js, and Runway."
+                }
+            ]
+        }
+    ]
+}
