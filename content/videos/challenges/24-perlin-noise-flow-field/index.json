@@ -1,6 +1,6 @@
 {
     "title": "Perlin Noise Flow Field",
-    "description": "In this coding challenge, I use Perlin noise to create a two-dimensional flow field with the p5.js library",
+    "description": "In this coding challenge, I use Perlin noise to create a two-dimensional flow field with the p5.js library.",
     "videoNumber": "24",
     "videoId": "BjoM9oKOAKY",
     "date": "2016-06-27",
@@ -48,7 +48,7 @@
             "title": "References",
             "links": [
                 {
-                    "icon": "",
+                    "icon": "🗄",
                     "title": "p5.js noise() reference",
                     "url": "https://p5js.org/reference/#/p5/noise",
                     "description": "p5.js webpage with information and documentation about noise()."
