@@ -1,0 +1,59 @@
+{
+    "title": "Perlin Noise Flow Field",
+    "description": "In this coding challenge, I use Perlin noise to create a two-dimensional flow field with the p5.js library.",
+    "videoNumber": "24",
+    "videoId": "BjoM9oKOAKY",
+    "date": "2016-06-27",
+    "languages": ["p5.js"],
+    "topics": [
+        "perlin noise",
+        "arrays"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:35", "title": "Two dimensional perlin noise" },
+        { "time": "2:02", "title": "Scale" },
+        { "time": "5:08", "title": "Create a vector" },
+        { "time": "5:45", "title": "Draw vector as a line" },
+        { "time": "7:09", "title": "Random angle" },
+        { "time": "8:10", "title": "Flow field" },
+        { "time": "9:24", "title": "N-dimensional perlin noise" },
+        { "time": "9:53", "title": "Add zoff" },
+        { "time": "11:56", "title": "Add Particle class" },
+        { "time": "15:26", "title": "Add particles" },
+        { "time": "16:26", "title": "Add edges()" },
+        { "time": "17:34", "title": "Have particles be affected by vectors" },
+        { "time": "18:34", "title": "Flowfield array" },
+        { "time": "21:00", "title": "Follow()" },
+        { "time": "22:56", "title": "Set magnitute of vectors" },
+        { "time": "26:42", "title": "Add alpha" },
+        { "time": "27:36", "title": "Store particle's previous position" },
+        { "time": "27:56", "title": "Draw line between current and previous position" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Perlin Noise flow field",
+            "description": "This sketch demonstrates how to use Perlin noise to create a 2D flow.",
+            "images": "flow.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/vDcIAbfg7",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/024_PerlinNoiseFlowField/Processing/CC_024_PerlinNoiseFlowField"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗄",
+                    "title": "p5.js noise() reference",
+                    "url": "https://p5js.org/reference/#/p5/noise",
+                    "description": "p5.js webpage with information and documentation about noise()."
+                }
+            ]
+        }
+    ]
+}
