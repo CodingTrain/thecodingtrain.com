@@ -51,29 +51,29 @@ Data from the old website was scraped into starter templates that [reside in a G
 ![image](https://user-images.githubusercontent.com/28508947/172208649-d34495b7-f957-4ace-9d80-c0c2a7fb8e98.png)
 
 8. The downloaded zip file and extracted files can be deleted from the directory they were downloaded to.
+### What about multi-part Coding Challenges?
 
-### The case of multi-part coding challenges
+When a challenge spans multiple videos, the process is a bit more... challenging:
 
-For multi-part coding challenges, the process is a bit more tricky:
-- You need to download every directory for the challenge (example: `"54.1-islamic-star-patterns"` and `"54.2-star-patterns-update-law-of-sines"`).
-- Then, you need to create only one directory for the challenge under (example: `"content/videos/challenges/54-islamic-star-patterns"`).
-- You can keep only one `"showcase"` directory (they're all the same for each part).
-- The `"description"`, `"date"`, `"languages"`, `"topics"`, `"relatedChallenges"`, `"codeExamples"`, `"references"` and `"groupLinks"` should be merged in a single `"index.json"` for the challenge.
-- To describe the different parts of the challenge, add a `"parts"` property inside `"index.json"`. Example:
+- First, download every directory for the challenge (for example `"54.1-islamic-star-patterns"` and `"54.2-star-patterns-update-law-of-sines"` for challenge 54).
+- Then create only one directory for the challenge under `"content/videos/challenges"` (for example, named `"54-islamic-star-patterns"`).
+- Keep only one of the `"showcase"` directories (they're the same for each part).
+- The `"description"`, `"date"`, `"languages"`, `"topics"`, `"relatedChallenges"`, `"codeExamples"`, `"references"` and `"groupLinks"` should be merged into a single `"index.json"` for the challenge.
+- Add a `"parts"` section inside `"index.json"` to set a `"title"`, `"videoId"` and `"timestamps"` for the different parts:
 
 ```json
 {
   "title": "Islamic Star Patterns",
   "description": "In this bonus super-sized coding challenge, I work through visualizing Islamic Star Patterns in p5.js.",
   "videoNumber": "54",
-  "videoId": "sJ6pMLp_IaI", <-- first part
-  "date": "2017-02-14", <-- first part
+  "videoId": "sJ6pMLp_IaI", <-- videoId of first part
+  "date": "2017-02-14", <-- date of first part
   "languages": ["p5.js", "javascript"],
   "topics": ["islamic star patterns", "hankins", "law of sines"],
   "canContribute": true,
   "relatedChallenges": [],
   "timestamps": [], <-- leave this empty
-  "parts": [
+  "parts": [ <-- add this section
     {
       "title": "Part 1: Islamic Star Patterns",
       "videoId": "sJ6pMLp_IaI",
@@ -208,7 +208,7 @@ Then copy the template into the `index.json`:
       "videoId": "YouTube video ID for Part 1",
       "timestamps": [
         { "time": "0:00", "title": "Only for multi-part challenges" },
-        { "time": "1:26", "title": "Remove the 'parts' section for single-part challenges" }
+        { "time": "1:26", "title": "Remove this 'parts' section for single-part challenges" }
       ]
     },
     {
