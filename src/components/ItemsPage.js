@@ -7,6 +7,7 @@ import CharacterSpacer from './CharacterSpacer';
 import { Heading1 } from './Heading';
 import PagePanel from './PagePanel';
 import Filter from './Filter';
+import Select from './Select';
 import Spacer from './Spacer';
 import Button from './Button';
 
@@ -118,30 +119,25 @@ const ItemsPage = ({
       {midSection}
       {midSection && <Spacer />}
       <div className={css.filters} ref={filtersRef}>
-        <Filter
+        <Select
           title="Filter by Language"
+          placeholder="Pick a language to filter"
           icon="⌥"
-          items={languages}
-          seeMore="See more languages >"
-          seeLess="< See less languages"
+          className={css.filter}
+          options={languages}
           selected={selectedLanguage}
           onChange={setSelectedLanguage}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
           variant={variant}
         />
-        <Filter
+
+        <Select
           title="Filter by Topic"
+          placeholder="Pick a topic to filter"
           icon="☆"
-          items={topics}
-          seeMore="See more topics >"
-          seeLess="< See less topics"
+          className={css.filter}
+          options={topics}
           selected={selectedTopic}
           onChange={setSelectedTopic}
-          expanded={expanded}
-          onExpand={onExpand}
-          className={css.filter}
           variant={variant}
         />
       </div>
