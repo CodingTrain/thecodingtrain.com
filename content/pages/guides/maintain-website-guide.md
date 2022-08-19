@@ -51,6 +51,7 @@ Data from the old website was scraped into starter templates that [reside in a G
 ![image](https://user-images.githubusercontent.com/28508947/172208649-d34495b7-f957-4ace-9d80-c0c2a7fb8e98.png)
 
 8. The downloaded zip file and extracted files can be deleted from the directory they were downloaded to.
+
 ### What about multi-part Coding Challenges?
 
 When a challenge spans multiple videos, the process is a bit more... challenging:
