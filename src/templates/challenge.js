@@ -120,6 +120,15 @@ export const query = graphql`
         time
         seconds
       }
+      parts {
+        title
+        videoId
+        timestamps {
+          title
+          time
+          seconds
+        }
+      }
       codeExamples {
         title
         description
