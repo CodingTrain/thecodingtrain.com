@@ -67,7 +67,7 @@ When a challenge spans multiple videos, the process is a bit more... challenging
   "title": "Islamic Star Patterns",
   "description": "In this bonus super-sized coding challenge, I work through visualizing Islamic Star Patterns in p5.js.",
   "videoNumber": "54",
-  "videoId": "sJ6pMLp_IaI", <-- videoId of first part
+  "videoId": "", <-- leave this empty
   "date": "2017-02-14", <-- date of first part
   "languages": ["p5.js", "javascript"],
   "topics": ["islamic star patterns", "hankins", "law of sines"],
