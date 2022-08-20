@@ -1,0 +1,136 @@
+{
+    "title": "Nearest Neighbors Recommendation Engine",
+    "description": "In this multi-part coding challenge, I create a movie recommendation engine using the \u201cnearest neighbor\u201d algorithm.",
+    "videoNumber": "70",
+    "videoId": "",
+    "date": "2017-05-09",
+    "languages": ["p5.js", "javascript"],
+    "topics": ["nearest neighbors", "similarity score", "Euclidean distance", "associative arrays"],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [
+      {
+        "title": "Nearest Neighbors Recommendation Engine - Part 1",
+        "videoId": "N8Fabn1om2k",
+        "timestamps": [
+          { "time": "0:00", "title": "Introduction" },
+          { "time": "1:50", "title": "Nearest neighbor" },
+          { "time": "2:44", "title": "Euclidian distance" },
+          { "time": "6:28", "title": "Load the data" },
+          { "time": "7:27", "title": "Create drop down menus" },
+          { "time": "10:40", "title": "Write a Eurclidean similarity function" },
+          { "time": "11:58", "title": "Create a look-up table" },
+          { "time": "16:05", "title": "Accessing the ratings" },
+          { "time": "20:03", "title": "Get the difference in ratings between users" },
+          { "time": "22:11", "title": "Adjust the similarity score" },
+          { "time": "24:14", "title": "Deal with null values" },
+          { "time": "24:14", "title": "What's next: list the most similar users" },
+          { "time": "26:36", "title": "Pearson's correlation" }
+        ]
+      },
+      {
+        "title": "Nearest Neighbors Recommendation Engine - Part 2",
+        "videoId": "Lo89NLmSgl0",
+        "timestamps": [
+          { "time": "0:00", "title": "Introduction" },
+          { "time": "1:01", "title": "euclidianDistance()" },
+          { "time": "1:44", "title": "Similarity score" },
+          { "time": "1:58", "title": "NearestNeighbors()" },
+          { "time": "2:51", "title": "Check similarity scores" },
+          { "time": "6:28", "title": "Sort the users" },
+          { "time": "10:29", "title": "Put similarity score in an object" },
+          { "time": "14:03", "title": "Display top five similarity scores" },
+          { "time": "16:00", "title": "Reset resultP" }
+        ]
+      },
+      {
+        "title": "Nearest Neighbors Recommendation Engine - Part 3",
+        "videoId": "aMtckmWAzDg",
+        "timestamps": [
+          { "time": "0:00", "title": "Introduction" },
+          { "time": "1:14", "title": "Loop throught the titles" },
+          { "time": "3:45", "title": "Add \u201cnot seen\u201d option" },
+          { "time": "4:20", "title": "Predict ratings" },
+          { "time": "5:10", "title": "Add the dropdowns to an array" },
+          { "time": "7:57", "title": "Change \u201cnot seen\u201d to null" },
+          { "time": "9:38", "title": "Change euclidianDistance to receive user object" },
+          { "time": "13:03", "title": "Format similarity score" },
+          { "time": "18:06", "title": "Predict star rating" },
+          { "time": "25:44", "title": "Weighted sum of similarity scores" },
+          { "time": "28:20", "title": "Error checking" },
+          { "time": "30:10", "title": "What could you do?" },
+          { "time": "31:18", "title": "movielens" }
+
+        ]
+      }
+    ],
+    "codeExamples": [
+      {
+        "title": "Nearest Neighbors, Part 1",
+        "description": "This sketch shows how to calculate a similarity score between two data points.",
+        "image": "nn1.jpg",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/S2jhCLS9m",
+          "github": "https://github.com/CodingTrain/Coding-Challenges/tree/main/070.1_similarity_score/P5"
+        }
+      },
+      {
+        "title": "Nearest Neighbors, Part 2",
+        "description": "This sketch iterates through all the users to find the \u201cnearest neigbors\u201d and list \u201csimilar\u201d users.",
+        "image": "nn2.jpg",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/0tBrSEhTg",
+          "github": "https://github.com/CodingTrain/Coding-Challenges/tree/main/070.2_similarity_score/P5"
+        }
+      },
+      {
+        "title": "Nearest Neighbors, Part 3",
+        "description": "This sketch uses the K-Nearest Neighbor Machine Learning algorithm to predict ratings for movies I haven't seen yet.",
+        "image": "nn3.jpg",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/aIYPcl4me",
+          "github": "https://github.com/CodingTrain/Coding-Challenges/tree/main/070.3_similarity_score/P5"
+        }
+      },
+      {
+        "title": "Nearest Neighbors, Part 3 with added styling",
+        "description": "This sketch uses the K-Nearest Neighbor Machine Learning algorithm to predict ratings for movies I haven't seen yet.",
+        "image": "style.jpg",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/-WBVNk45K",
+          "github": "https://github.com/CodingTrain/Coding-Challenges/tree/main/070.3_similarity_score/P5"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "",
+            "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
+            "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+            "description": "Syllabus for my Spring 2017 ITP Intelligence and Learning course."
+          },
+          {
+            "icon": "",
+            "title": "Notes on Pearson's correlation coefficient",
+            "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/wiki/Glossary:-Statistics#correlation",
+            "description": "Glossary of statistics terms."
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [
+          {
+            "icon": "🚂",
+            "title": "My Video on Associative Arrays",
+            "url": "https://www.youtube.com/watch?v=_5jdE6RKxVk",
+            "description": "In this video, I discuss the concept of \u201cassociative arrays\u201d in JavaScript."
+          }
+        ]
+      }
+    ]
+  }
