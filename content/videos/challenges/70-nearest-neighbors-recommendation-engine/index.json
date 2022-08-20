@@ -108,13 +108,13 @@
         "title": "References",
         "links": [
           {
-            "icon": "",
+            "icon": "📕",
             "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
             "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
             "description": "Syllabus for my Spring 2017 ITP Intelligence and Learning course."
           },
           {
-            "icon": "",
+            "icon": "📓",
             "title": "Notes on Pearson's correlation coefficient",
             "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/wiki/Glossary:-Statistics#correlation",
             "description": "Glossary of statistics terms."
