@@ -18,8 +18,8 @@
     "js/async-await-part-2",
     "js/promise-all",
     "js/try-catch",
-    "js/classes",
-    "js/constructor-arguments",
+    "code/6-objects/2-classes",
+    "code/6-objects/3-constructor",
     "js/inheritance",
     "js/polymorphism"
   ]
