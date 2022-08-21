@@ -4,14 +4,46 @@
   "videoNumber": "11",
   "videoId": "QO4NXhWo_NM",
   "date": "2018-05-28",
-  "languages": [
-    "javascript"
-  ],
-  "topics": [
-    "promises-part-1"
-  ],
+  "languages": ["javascript"],
+  "topics": ["promises", "es6"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:51", "title": "Why do we need Promises?" },
+    { "time": "08:07", "title": "Demonstration of Promises - WordNik API" },
+    { "time": "16:21", "title": "Demonstration of Promises - Giphy API" },
+    { "time": "19:00", "title": "How does chaining .then() work?" },
+    { "time": "21:30", "title": "Error handling with .catch()" }
+  ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Promises on MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+          "description": "Promises Reference on the MDN Web Docs"
+        },
+        {
+          "icon": "💾",
+          "title": "Fetch on MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "description": "Fetch API Reference on the MDN Web Docs"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ES6 Arrow Functions",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
+          "description": "Tutorial on ES6 Arrow Syntax"
+        }
+      ]
+    }
+  ]
 }

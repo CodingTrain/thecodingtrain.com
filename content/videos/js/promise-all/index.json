@@ -1,17 +1,30 @@
 {
   "title": "Promise.all()",
   "description": "In this video, I discuss handling arrays of asynchronous JavaScript promises with Promise.all() .",
-  "videoNumber": "16",
+  "videoNumber": "15",
   "videoId": "01RTj1MWec0",
   "date": "2018-06-01",
-  "languages": [
-    "javascript"
-  ],
-  "topics": [
-    "promise-all"
-  ],
+  "languages": ["javascript"],
+  "topics": ["promises", "arrays"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:52", "title": "Asynchronous Code: Sequencing vs Parallel" },
+    { "time": "04:41", "title": "Using Promise.all()" },
+    { "time": "09:44", "title": "About Error Handling" }
+  ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Promise.all()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all",
+          "description": "Promise.all() Reference on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
 }
