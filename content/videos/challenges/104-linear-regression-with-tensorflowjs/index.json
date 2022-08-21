@@ -56,7 +56,7 @@
                     "description": "Webpage with reference materials and documentation about TensorFow.js"
                 },
                 {
-                    "icon": "📈",
+                    "icon": "🐦",
                     "title": "Kaustubh Olpadkar's tweet",
                     "url": "https://twitter.com/olpadkar/status/997836558131650561",
                     "description": "Kaustubh Olpadkar's interactive simulation of linear regression with TensorFlow and p5.js"
