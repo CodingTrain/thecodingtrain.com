@@ -1,17 +1,78 @@
 {
   "title": "Polymorphism in JavaScript",
-  "description": "In this video, I discuss the concept of Polymorphism in Object-Oriented Programming (OOP) with JavaScript and using ES6 classes. https://thecodingtrain.com/Tutorials/16-javascript-es6/16.18-polymorphism.html",
+  "description": "In this video, I discuss the concept of Polymorphism in Object-Oriented Programming (OOP) with JavaScript and using ES6 classes.",
   "videoNumber": "20",
   "videoId": "8a5BkwuZRK0",
   "date": "2019-03-01",
-  "languages": [
-    "javascript"
-  ],
-  "topics": [
-    "polymorphism"
-  ],
+  "languages": ["javascript"],
+  "topics": ["polymorphism", "oop", "classes"],
   "canContribute": false,
-  "timestamps": [],
-  "codeExamples": [],
-  "groupLinks": []
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "0:13", "title": "Encapsulation and Inheritance" },
+    { "time": "0:57", "title": "What is polymorphism?" },
+    { "time": "1:31", "title": "Strongly typed and explicit typing" },
+    { "time": "2:42", "title": "When does this matter?" },
+    {
+      "time": "3:49",
+      "title": "Let's make an array with multiple types of particles."
+    },
+    {
+      "time": "5:41",
+      "title": "Extending classes you didn't write like p5.Vector!"
+    },
+    { "time": "8:59", "title": "Thanks for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Polymorphism",
+      "description": "Demonstration of Polymorphism",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/7MhdISflX"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📃",
+          "title": "Strong and Weak typing",
+          "url": "https://en.wikipedia.org/wiki/Strong_and_weak_typing",
+          "description": "Strongly and Weakly typed languages on Wikipedia"
+        },
+        {
+          "icon": "📃",
+          "title": "Statically vs Dynamically Typed",
+          "url": "https://medium.com/android-news/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b",
+          "description": "Magic lies here - Statically vs Dynamically Typed Languages on Medium"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Introduction to Inheritance",
+          "url": "https://youtu.be/e6eXD8DHc_A",
+          "description": "Nature of Code 4.5 - Inheritance"
+        },
+        {
+          "icon": "🚂",
+          "title": "Introduction to Polymorphism",
+          "url": "https://youtu.be/qqYOYIVrso0",
+          "description": "Nature of Code 4.7 - Polymorphism"
+        },
+        {
+          "icon": "🚂",
+          "title": "Classes in JavaScript",
+          "url": "https://youtu.be/T-HGdc8L-7w",
+          "description": "Tutorial on ES6 classes"
+        }
+      ]
+    }
+  ]
 }
