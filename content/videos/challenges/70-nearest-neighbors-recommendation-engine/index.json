@@ -19,7 +19,7 @@
           { "time": "2:44", "title": "Euclidian distance" },
           { "time": "6:28", "title": "Load the data" },
           { "time": "7:27", "title": "Create drop down menus" },
-          { "time": "10:40", "title": "Write a Eurclidean similarity function" },
+          { "time": "10:40", "title": "Write a Euclidean distance similarity function" },
           { "time": "11:58", "title": "Create a look-up table" },
           { "time": "16:05", "title": "Accessing the ratings" },
           { "time": "20:03", "title": "Get the difference in ratings between users" },
@@ -54,7 +54,7 @@
           { "time": "4:20", "title": "Predict ratings" },
           { "time": "5:10", "title": "Add the dropdowns to an array" },
           { "time": "7:57", "title": "Change \u201cnot seen\u201d to null" },
-          { "time": "9:38", "title": "Change euclidianDistance to receive user object" },
+          { "time": "9:38", "title": "Change euclidianDistance() to receive user object" },
           { "time": "13:03", "title": "Format similarity score" },
           { "time": "18:06", "title": "Predict star rating" },
           { "time": "25:44", "title": "Weighted sum of similarity scores" },
@@ -68,7 +68,7 @@
     "codeExamples": [
       {
         "title": "Nearest Neighbors, Part 1",
-        "description": "This sketch shows how to calculate a similarity score between two data points.",
+        "description": "This sketch shows how to calculate a similarity score between two users.",
         "image": "nn1.jpg",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/S2jhCLS9m",
@@ -86,7 +86,7 @@
       },
       {
         "title": "Nearest Neighbors, Part 3",
-        "description": "This sketch uses the K-Nearest Neighbor Machine Learning algorithm to predict ratings for movies I haven't seen yet.",
+        "description": "This sketch uses the K-Nearest Neighbor Machine Learning algorithm to predict ratings for movies that haven't been seen yet.",
         "image": "nn3.jpg",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/aIYPcl4me",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Nearest Neighbors, Part 3 with added styling",
-        "description": "This sketch uses the K-Nearest Neighbor Machine Learning algorithm to predict ratings for movies I haven't seen yet.",
+        "description": "This sketch has added styling.",
         "image": "style.jpg",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/-WBVNk45K",
