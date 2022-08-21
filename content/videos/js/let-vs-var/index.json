@@ -5,7 +5,7 @@
   "videoId": "q8SHaDQdul0",
   "date": "2017-09-28",
   "languages": ["javascript"],
-  "topics": ["let-vs-var", "es6"],
+  "topics": ["variables", "es6"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "ES6 and var, let and const" },
