@@ -5,17 +5,28 @@ import Tags from '../Tags';
 import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
+import PartsTimeline from './PartsTimeline';
 
 import { filteredPath } from '../../utils';
 
 import * as css from './VideoSection.module.css';
 
 const VideoSection = ({ challenge }) => {
-  const { topics, languages, timestamps, videoNumber, title } = challenge;
+  const { topics, languages, videoNumber, title } = challenge;
 
   const youTubeVideoRef = useRef();
   const [showTimeline, setShowTimeline] = useState(false);
   const [timestamp, setTimestamp] = useState();
+
+  const hasMultiParts = challenge.parts?.length > 0;
+  const [showTimestamps, setShowTimestamps] = useState(!hasMultiParts);
+
+  const [activePart, setActivePart] = useState(
+    challenge.parts?.[0] ?? challenge
+  );
+  const { videoId, timestamps } = activePart;
+  const hasTimestamps = timestamps?.length > 0;
+  const hasTimeline = hasMultiParts || hasTimestamps;
 
   const updateTimestamp = useCallback((value) => {
     setTimestamp(value);
@@ -86,32 +97,70 @@ const VideoSection = ({ challenge }) => {
       </header>
 
       <div className={css.videoPlayer}>
-        {timestamps.length === 0 && <div className={css.spacer} />}
+        {!hasTimeline && <div className={css.spacer} />}
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
               containerClassName={css.videoWrapper}
-              videoId={challenge.videoId}
+              videoId={videoId}
               timestamp={timestamp}
             />
           </div>
         </div>
-        {timestamps.length === 0 && <div className={css.spacer} />}
-        {timestamps.length > 0 && (
+        {!hasTimeline && <div className={css.spacer} />}
+        {hasTimeline && (
           <div
             className={cn(css.timelineContainer, {
               [css.unCollapsed]: showTimeline
             })}>
             <nav className={css.timelinesContent}>
               <div className={css.tabs}>
-                <div className={css.tab}>Timestamps</div>
+                {hasMultiParts && (
+                  <div
+                    className={cn(css.tab, {
+                      [css.selected]: !showTimestamps,
+                      [css.clickable]: hasMultiParts && hasTimestamps
+                    })}>
+                    <button onClick={() => setShowTimestamps(false)}>
+                      Parts
+                    </button>
+                  </div>
+                )}
+                {hasTimestamps && (
+                  <div
+                    className={cn(css.tab, {
+                      [css.selected]: showTimestamps,
+                      [css.clickable]: hasMultiParts && hasTimestamps
+                    })}>
+                    <button onClick={() => setShowTimestamps(true)}>
+                      Timestamps
+                    </button>
+                  </div>
+                )}
               </div>
               <div className={css.timeline}>
-                <TimestampTimeline
-                  variant="cyan"
-                  timestamps={timestamps}
-                  updateTimestamp={updateTimestamp}
-                />
+                {hasMultiParts && (
+                  <PartsTimeline
+                    className={cn(css.partTimeline, {
+                      [css.hide]: showTimestamps
+                    })}
+                    parts={challenge.parts}
+                    onPartChange={(part) => {
+                      setActivePart(part);
+                      setShowTimeline(false);
+                    }}
+                  />
+                )}
+                {hasTimestamps && (
+                  <TimestampTimeline
+                    className={cn(css.timestampsTimeline, {
+                      [css.hide]: !showTimestamps
+                    })}
+                    variant="cyan"
+                    timestamps={timestamps}
+                    updateTimestamp={updateTimestamp}
+                  />
+                )}
               </div>
             </nav>
           </div>

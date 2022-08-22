@@ -1,0 +1,96 @@
+{
+  "title": "ml5.js: Feature Extractor Regression",
+  "description": "In this video, I use ml5's feature extractor and re-train the MobileNet model to output a \u201cregression\u201d controlling a slider.",
+  "videoNumber": "3.2",
+  "videoId": "aKgq0m1YjvQ",
+  "date": "2018-08-16",
+  "languages": ["ml5", "p5js"],
+  "topics": ["machine learning", "feature extractor", "regression", "slider"],
+  "canContribute": true,
+  "timestamps": [{
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:09",
+      "title": "Regression"
+    },
+    {
+      "time": "2:30",
+      "title": "Gene Kogan examples"
+    },
+    {
+      "time": "2:43",
+      "title": "Start Coding!"
+    },
+    {
+      "time": "3:21",
+      "title": "addSlider"
+    },
+    {
+      "time": "5:59",
+      "title": "addImage button"
+    },
+    {
+      "time": "6:52",
+      "title": "Change code to from classify to predict"
+    },
+    {
+      "time": "7:59",
+      "title": "Add examples"
+    },
+    {
+      "time": "8:14",
+      "title": "Train the model"
+    },
+    {
+      "time": "8:48",
+      "title": "Add a rectangle"
+    },
+    {
+      "time": "10:47",
+      "title": "Where is the model running?"
+    }
+  ],
+  "codeExamples": [{
+      "title": "Feature Extractor Regression",
+      "description": "This sketch demonstrates how to retrain the MobileNet model to output regression results.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/psUcQBPf"
+      }
+    }
+  ],
+  "groupLinks": [{
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "💻",
+          "title": "New Classification & Regression Examples",
+          "url": "https://github.com/ml5js/ml5-library/issues/128",
+          "description": "New classification & regression examples from Gene Kogan"
+        },
+        {
+          "icon": "💻",
+          "title": "Pong ml5.js",
+          "url": "https://github.com/matamalaortiz/Pong-ML",
+          "description": "An experimental version of the famous computer game Pong that aims to educate users on how machine learning tasks are trained through a fun gaming experience."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [{
+        "icon": "🚂",
+        "title": "Interacting with Sliders",
+        "url": "https://www.youtube.com/watch?v=587qclhguQg",
+        "description": "This video looks at how we can add some interactivity to a webpage with sliders, buttons and text inputs to change elements in the canvas or even in the DOM using the p5.js library."
+      }]
+    }
+  ]
+}

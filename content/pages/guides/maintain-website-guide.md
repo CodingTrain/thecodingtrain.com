@@ -52,6 +52,51 @@ Data from the old website was scraped into starter templates that [reside in a G
 
 8. The downloaded zip file and extracted files can be deleted from the directory they were downloaded to.
 
+### What about multi-part Coding Challenges?
+
+When a challenge spans multiple videos, the process is a bit more... challenging:
+
+- First, download every directory for the challenge (for example `"54.1-islamic-star-patterns"` and `"54.2-star-patterns-update-law-of-sines"` for challenge 54).
+- Then create only one directory for the challenge under `"content/videos/challenges"` (for example, named `"54-islamic-star-patterns"`).
+- Keep only one of the `"showcase"` directories (they're the same for each part).
+- The `"description"`, `"date"`, `"languages"`, `"topics"`, `"relatedChallenges"`, `"codeExamples"`, `"references"` and `"groupLinks"` should be merged into a single `"index.json"` for the challenge.
+- Add a `"parts"` section inside `"index.json"` to set a `"title"`, `"videoId"` and `"timestamps"` for the different parts:
+
+```json
+{
+  "title": "Islamic Star Patterns",
+  "description": "In this bonus super-sized coding challenge, I work through visualizing Islamic Star Patterns in p5.js.",
+  "videoNumber": "54",
+  "videoId": "", <-- leave this empty
+  "date": "2017-02-14", <-- date of first part
+  "languages": ["p5.js", "javascript"],
+  "topics": ["islamic star patterns", "hankins", "law of sines"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [], <-- leave this empty
+  "parts": [ <-- add this section
+    {
+      "title": "Part 1: Islamic Star Patterns",
+      "videoId": "sJ6pMLp_IaI",
+      "timestamps": [
+        { "time": "00:00", "title": "Title 1" },
+        { "time": "00:28", "title": "Title 2" }
+      ]
+    },
+    {
+      "title": "Part 2: Update - Law of Sines",
+      "videoId": "lobJ9gzbLo8",
+      "timestamps": [
+        { "time": "00:00", "title": "Title 1" },
+        { "time": "00:28", "title": "Title 2" }
+      ]
+    }
+  ],
+  "codeExamples": [...],
+  "groupLinks": [...]
+}
+```
+
 ### Next Steps
 
 Once you have the template directory in the "challenges" folder, there are a number of things to check to ensure stale data is either updated or removed, and that thumbnail images and metadata get added. **Remember, this is an opportunity to clean up and improve the metadata!** Also, go ahead and re-watch the video to give yourself a better idea on what topics were discussed - this will also give you a chance to mark down timestamps and topics in the video, which can be added to the "index.json" file.
@@ -156,7 +201,25 @@ Then copy the template into the `index.json`:
   "timestamps": [
     { "time": "0:00", "title": "Title 1" },
     { "time": "1:26", "title": "Title 2" },
-    { "time": "1:26", "title": "Title 3" }
+    { "time": "3:40", "title": "Title 3" }
+  ],
+  "parts": [
+    {
+      "title": "Part 1: Title of 1st part (only for multi-part challenges)",
+      "videoId": "YouTube video ID for Part 1",
+      "timestamps": [
+        { "time": "0:00", "title": "Only for multi-part challenges" },
+        { "time": "1:26", "title": "Remove this 'parts' section for single-part challenges" }
+      ]
+    },
+    {
+      "title": "Part 2: Title of 2nd part (only for multi-part challenges)",
+      "videoId": "YouTube video ID for Part 2",
+      "timestamps": [
+        { "time": "0:00", "title": "Title 1" },
+        { "time": "1:26", "title": "Title 2" }
+      ]
+    }
   ],
   "codeExamples": [
     {
@@ -207,6 +270,8 @@ The `"languages"` and `"topics"` refer to ways of tagging the content of the vid
 The `"canContribute"` key sets if the passenger showcase for the video will be shown. Challenges should be set to `true`, other videos may vary.
 
 The `"relatedChallenges"` key specifies an array of challenges that relate to the new video. It may be an empty array.
+
+The `"parts"` section is only needed for multi-part coding challenges. It should contain a `"title"`, the YouTube `"videoId"` and the `"timestamps"` for each part of a multi-part challenge. This section must be removed entirely for single-part challenges.
 
 For the `"codeExamples"` section, each code example should at least contain one URL to the code in the `"urls"` object. The keys for that object `"p5"`, `"processing"` or `"node"` reference the possible languages we support for icons, and `"other"` is a fallback option in case none of the previous ones apply.
 
