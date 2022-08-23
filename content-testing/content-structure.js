@@ -1,6 +1,7 @@
 const {
   video: videoFormat,
   track: trackFormat,
+  trackOrder: trackOrderFormat,
   contribution: contributionFormat,
   faqPage: faqPageFormat,
   faq: faqFormat
@@ -9,6 +10,7 @@ const {
 const {
   video: videoSlugReferences,
   track: trackSlugReference,
+  trackOrder: trackOrderSlugReference,
   faqsOrder: faqsOrderSlugReference
 } = require('./slug-references.js');
 
@@ -231,7 +233,13 @@ const contentStructure = {
           isRequired: true
         }
       },
-      files: {},
+      files: {
+        'index.json': {
+          isRequired: false,
+          jsonFormat: trackOrderFormat,
+          slugReferences: trackOrderSlugReference
+        }
+      },
       isFileSensitive: true,
       isFolderSensitive: true,
       isRequired: true

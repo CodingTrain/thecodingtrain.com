@@ -89,6 +89,20 @@ const video = {
   }
 };
 
+const trackOrder = {
+  name: 'trackOrder',
+  init: {
+    type: 'object',
+    properties: {
+      trackOrder: {
+        isRequired: true,
+        type: 'array',
+        content: { type: 'string' }
+      }
+    }
+  }
+};
+
 const track = {
   name: 'track',
   init: {
@@ -241,6 +255,7 @@ const collaborators = {
 module.exports = {
   video,
   track,
+  trackOrder,
   contribution,
   faq,
   faqPage,
