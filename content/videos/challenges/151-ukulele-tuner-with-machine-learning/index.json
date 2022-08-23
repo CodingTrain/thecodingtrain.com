@@ -44,26 +44,31 @@
       "title": "References",
       "links": [
         {
+          "icon": "📝",
           "title": "ml5.js",
           "url": "https://ml5js.org/",
           "description": "The ml5 documentation."
         },
         {
+          "icon": "🧠",
           "title": "CREPE: A Convolutional REpresentation for Pitch Estimation",
           "url": "https://github.com/marl/crepe",
           "description": "Github repository of the CREPE pitch detection model."
         },
         {
+          "icon": "🎨",
           "title": "Hannah Davis",
           "url": "http://www.hannahishere.com/",
           "description": "Big thanks to Hannah Davis, who ported the CREPE model into ml5."
         },
         {
+          "icon": "📂",
           "title": "How to turn any GitHub repo into a CDN",
           "url": "https://gomakethings.com/how-to-turn-any-github-repo-into-a-cdn/",
           "description": "Creating a URL to load files hosted on GitHub."
         },
         {
+          "icon": "🔊",
           "title": "Online Tone Generator",
           "url": "https://www.szynalski.com/tone-generator/",
           "description": "Generating sounds with specific frequencies online."
