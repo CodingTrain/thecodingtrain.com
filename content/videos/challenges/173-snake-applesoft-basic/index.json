@@ -1,0 +1,72 @@
+{
+  "title": "AppleSoft Basic Snake Game",
+  "description": "This project is a collaboration with Grady Hillhouse at the Practical Engineering YouTube channel. This is my attempt to code a simulation of Horizontal Directional Drilling, laparoscopic surgery for the earth!",
+  "videoNumber": "173",
+  "videoId": "COMING",
+  "date": "2022-08-23",
+  "languages": ["BASIC"],
+  "topics": ["games", "1980s", "AppleII"],
+  "canContribute": true,
+  "relatedChallenges": ["3-snake-game"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Snake Game in BASIC",
+      "description": "Snake Game code from the video.",
+      "image": "snake.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/snake/snake.a"
+      }
+    },
+    {
+      "title": "Expanded Snake Game in BASIC",
+      "description": "Includes game over checks and screen.",
+      "image": "snake.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/snake/snake_expanded.a"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "AppleSoft BASIC",
+      "links": [
+        {
+          "icon": "🍎",
+          "title": "Basic Programming Reference Manual",
+          "url": "https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Software/Languages/Applesoft%20BASIC/Manuals/Applesoft%20II%20BASIC%20Programming%20Reference%20Manual.pdf",
+          "description": "PDF of originan Apple II manual and reference for AppleSoft BASIC."
+        },
+        {
+          "icon": "🪧",
+          "title": "Peeks, Pokes and Pointers",
+          "url": "https://archive.org/details/peeks-pokes-pointers",
+          "description": "1984 Apple II reference poster from Beagle Bros Micro Software"
+        }
+      ]
+    },
+    {
+      "title": "Apple II Emulators",
+      "links": [
+        {
+          "icon": "☕",
+          "title": "Applesoft BASIC in JavaScript",
+          "url": "https://www.calormen.com/jsbasic/",
+          "description": "Code Editor and JavaScript interpreter for AppleSoft BASIC."
+        },
+        {
+          "icon": "🍎",
+          "title": "Apple IIjs",
+          "url": "https://www.scullinsteel.com/apple2/",
+          "description": "Browser based Apple II emulator in JavaScript"
+        },
+        {
+          "icon": "🍎",
+          "title": "MicroM8",
+          "url": "https://paleotronic.com/software/microm8/",
+          "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
+        }
+      ]
+    }
+  ]
+}
