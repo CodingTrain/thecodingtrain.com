@@ -36,7 +36,7 @@
         {
             "title": "Perlin Noise flow field",
             "description": "This sketch demonstrates how to use Perlin noise to create a 2D flow.",
-            "images": "flow.jpg",
+            "image": "flow.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/vDcIAbfg7",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/024_PerlinNoiseFlowField/Processing/CC_024_PerlinNoiseFlowField"
