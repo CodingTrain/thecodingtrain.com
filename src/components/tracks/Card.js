@@ -32,12 +32,9 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
               </Link>
               <Link to={`/tracks/${trackSlug}/${v.slug}`}>{v.title}</Link>
             </div>
-            {i % 2 === 0 && (
-              <div
-                className={cn(css.spacer, {
-                  [css.growSpacer]: i === videos.length - 1
-                })}
-              />
+            {i % 2 === 0 && <div className={css.spacer} />}
+            {i % 2 === 0 && i === videos.length - 1 && (
+              <div className={cn(css.spacer, css.growSpacer)} />
             )}
           </Fragment>
         ))}
