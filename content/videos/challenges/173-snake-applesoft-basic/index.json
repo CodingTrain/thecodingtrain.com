@@ -8,7 +8,34 @@
   "topics": ["games", "1980s", "AppleII"],
   "canContribute": true,
   "relatedChallenges": ["3-snake-game"],
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello from 1981!" },
+    { "time": "0:35", "title": "Opening Theme" },
+    { "time": "1:29", "title": "Getting started" },
+    {
+      "time": "1:50",
+      "title": "Fundamentals:  PRINT, line numbers, LIST, RUN, GOTO"
+    },
+    { "time": "3:50", "title": "HOME (clear screen)" },
+    { "time": "4:10", "title": "Variables" },
+    { "time": "5:11", "title": "HTAB, VTAB" },
+    { "time": "5:24", "title": "GOTO" },
+    { "time": "5:44", "title": "Animation" },
+    { "time": "6:20", "title": "Subroutines and GOSUB" },
+    { "time": "7:17", "title": "Peeks, Pokes, & Pointers" },
+    { "time": "8:07", "title": "RETURN" },
+    { "time": "8:35", "title": "Write IF for keyboard interaction" },
+    { "time": "9:35", "title": "Delay loop" },
+    { "time": "11:16", "title": "Working with Arrays (DIM)" },
+    { "time": "13:47", "title": "Remarks (REM)" },
+    { "time": "14:01", "title": "Random Food Position (RND)" },
+    { "time": "15:26", "title": "Debugging Montage" },
+    { "time": "17:34", "title": "Snake Subroutines" },
+    { "time": "23:15", "title": "Move Food" },
+    { "time": "25:44", "title": "Improvements" },
+    { "time": "27:02", "title": "Emulators" },
+    { "time": "27:25", "title": "Nebula Class! What is Code?" }
+  ],
   "codeExamples": [
     {
       "title": "Snake Game in BASIC",
