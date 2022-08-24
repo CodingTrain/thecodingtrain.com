@@ -4,7 +4,7 @@
   "videoNumber": "168",
   "videoId": "NJCiUVGiNyA",
   "date": "2022-03-09",
-  "languages": ["Processing"],
+  "languages": ["processing"],
   "topics": [
     "3D",
     "fractals",
@@ -68,7 +68,7 @@
         },
         {
           "icon": "💾",
-          "title": "Processing",
+          "title": "processing",
           "url": "https://processing.org/",
           "description": "Link to the Processing Foundation homepage"
         },

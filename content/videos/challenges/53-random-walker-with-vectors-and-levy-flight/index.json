@@ -4,7 +4,7 @@
   "videoNumber": "53",
   "videoId": "bqF9w9TTfeo",
   "date": "2017-01-31",
-  "languages": ["p5.js", "JavaScript", "Processing", "Java"],
+  "languages": ["p5.js", "JavaScript", "processing", "Java"],
   "topics": [
     "random walker",
     "levy flight",

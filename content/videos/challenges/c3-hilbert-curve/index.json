@@ -4,7 +4,7 @@
   "videoNumber": "C3 - Coding in the Cabana",
   "videoId": "dSK-MW-zuAc",
   "date": "2020-02-08",
-  "languages": ["Processing"],
+  "languages": ["processing"],
   "topics": ["hilbert curve", "iterative algorithm", "space-filling"],
   "canContribute": true,
   "timestamps": [

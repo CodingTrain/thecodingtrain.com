@@ -4,8 +4,8 @@
   "videoNumber": "8.4",
   "videoId": "hWurN0XhzLY",
   "date": "2020-11-20",
-  "languages": ["ml5", "p5js"],
-  "topics": ["convolutional neural network", "image classification"],
+  "languages": ["ml5", "p5.js"],
+  "topics": ["convolutional sneural network", "image classification"],
   "canContribute": true,
   "timestamps": [{
       "time": "0:00",

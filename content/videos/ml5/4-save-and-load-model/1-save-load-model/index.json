@@ -4,7 +4,7 @@
   "videoNumber": "4.1",
   "videoId": "eU7gIy3xV30",
   "date": "2018-11-12",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5", "p5.js"],
   "topics": ["machine learning", "feature extractor"],
   "canContribute": true,
   "timestamps": [{

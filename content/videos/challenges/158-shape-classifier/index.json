@@ -4,7 +4,7 @@
   "videoNumber": "158",
   "videoId": "3MqJzMvHE3E",
   "date": "2020-12-03",
-  "languages": ["Processing", "p5.js", "ml5"],
+  "languages": ["processing", "p5.js", "ml5"],
   "topics": [
     "generating datasets",
     "loading images",
@@ -126,7 +126,7 @@
       "links": [
         {
           "icon": "💾",
-          "title": "Processing",
+          "title": "processing",
           "url": "https://processing.org/",
           "description": "Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. "
         },

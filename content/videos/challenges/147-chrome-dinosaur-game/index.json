@@ -4,7 +4,7 @@
     "videoNumber": "147",
     "videoId": "l0HoJHc-63Q",
     "date": "2019-06-18",
-    "languages": ["p5.js", "ml5.js"],
+    "languages": ["p5.js", "ml5"],
     "topics": [
         "chrome dinosaur game",
         "machine learning",

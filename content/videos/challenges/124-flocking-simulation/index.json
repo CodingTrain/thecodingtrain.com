@@ -4,7 +4,7 @@
   "videoNumber": "124",
   "videoId": "mhjuuHl6qHM",
   "date": "2018-12-11",
-  "languages": ["Processing", "p5.js"],
+  "languages": ["processing", "p5.js"],
   "topics": ["flocking", "creative coding", "autonomous agents"],
   "canContribute": true,
   "relatedChallenges": [],

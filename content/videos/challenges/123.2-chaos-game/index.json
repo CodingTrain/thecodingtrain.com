@@ -4,7 +4,7 @@
   "videoNumber": "123.2",
   "videoId": "A0NHGTggoOQ",
   "date": "2018-11-29",
-  "languages": ["p5.js", "javascript"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": ["chaos game", "fractal", "seed points", "probability"],
   "canContribute": true,
   "relatedChallenges": [],

@@ -4,7 +4,7 @@
   "videoNumber": "9.1",
   "videoId": "ABN_DWnM5GQ",
   "date": "2020-12-01",
-  "languages": ["ml5", "javascript"],
+  "languages": ["ml5", "JavaScript"],
   "topics": ["DoodleNet", "machine learning", "doodle classifier"],
   "canContribute": true,
   "timestamps": [{

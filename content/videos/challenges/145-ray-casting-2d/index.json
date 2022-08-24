@@ -4,7 +4,7 @@
   "videoNumber": "145",
   "videoId": "TOEi6T2mtHo",
   "date": "2019-05-08",
-  "languages": ["p5.js", "Processing"],
+  "languages": ["p5.js", "processing"],
   "topics": [
     "ray casting",
     "game development",

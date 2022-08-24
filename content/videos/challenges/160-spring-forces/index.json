@@ -4,7 +4,7 @@
   "videoNumber": "160",
   "videoId": "Rr-5HiXquhw",
   "date": "2021-02-22",
-  "languages": ["JavaScript", "p5.js", "Processing"],
+  "languages": ["JavaScript", "p5.js", "processing"],
   "topics": ["springs", "pendulum", "particle system", "cloth simulation"],
   "canContribute": true,
   "timestamps": [
