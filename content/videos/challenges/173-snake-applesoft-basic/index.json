@@ -2,7 +2,7 @@
   "title": "AppleSoft Basic Snake Game",
   "description": "Take a trip back in time and let's code the Snake Game in AppleSoft BASIC on a restored Apple II+ computer! GOTO and GOSUB! Line numbers!",
   "videoNumber": "173",
-  "videoId": "COMING",
+  "videoId": "7r83N3c2kPw",
   "date": "2022-08-23",
   "languages": ["BASIC"],
   "topics": ["games", "1980s", "AppleII"],
@@ -55,6 +55,23 @@
     }
   ],
   "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🧠",
+          "title": "What is Code?",
+          "url": "https://nebula.tv/what-is-code",
+          "description": "Class covering the fundamentals of programming on an Apple II computer!"
+        },
+        {
+          "icon": "🎶",
+          "title": "Coding Together",
+          "url": "https://soundcloud.com/user-207981744-979066415/coding-together",
+          "description": "Theme song by Will from America!"
+        }
+      ]
+    },
     {
       "title": "AppleSoft BASIC",
       "links": [
