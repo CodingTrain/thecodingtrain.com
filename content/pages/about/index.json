@@ -12,7 +12,7 @@
       ]
     },
     {
-      "title": "Animal socials", 
+      "title": "Animal socials",
       "links": [
         {
           "url": "https://www.instagram.com/mangoandgoose/",
@@ -44,10 +44,10 @@
   "featuredTitle": "Featured",
   "featured": [
     {
-      "title": "Mouse Learning",
-      "description": "Watch my talk on machine learning and the computer mouse for the 2021 Computer Mouse Conference!",
-      "thumbnail": "mouse-learning.png",
-      "url": "https://www.youtube.com/watch?v=h279eYIROIM"
+      "title": "What is Code?",
+      "description": "A class on Nebula all about the fundamentals of computer programming on a 1980s Apple II+ computer.",
+      "thumbnail": "nebula-2.jpg",
+      "url": "http://nebulaclasses.com/codingtrain"
     },
     {
       "title": "Coding Train Theme",
