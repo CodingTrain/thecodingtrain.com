@@ -13,13 +13,14 @@ import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 import { getReadableDate } from '../hooks';
 
 import * as css from './challenges.module.css';
+import { normalizedLanguages } from '../utils';
 
 const ChallengesPage = ({ data, pageContext, location }) => {
   const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
   const challenges = data.challenges.nodes;
   const recentChallenge = data.recentChallenge.nodes[0];
-  const languages = [... new Set(data.languages.nodes.map(({ value }) => value.toLowerCase()))];
+  const languages = [... new Set(data.languages.nodes.map(({ value }) => normalizedLanguages(value)))];
   const topics = data.topics.nodes.map(({ value }) => value)
 
   const challengesPlaceholder = data.challengePlaceholderImage

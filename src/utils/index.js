@@ -17,7 +17,7 @@ const options = {
 // (which was used previously), because Edge v15 throws an error
 // when providing a null callback.
 // https://github.com/rafgraph/detect-passive-events/pull/3
-const noop = () => {};
+const noop = () => { };
 win.addEventListener && win.addEventListener('p', noop, options);
 win.removeEventListener && win.removeEventListener('p', noop, false);
 
@@ -40,3 +40,15 @@ export const stringValueOrAll = (str) => {
 **/
 export const toSlug = (path) =>
   slugify(path, { lower: true, trim: true }).replace('.', '-');
+
+
+export const normalizedLanguages = (language) => {
+
+  const lowercasedLanguage = language.toLowerCase()
+  const languages = {
+    "javascript": "JavaScript",
+    "processing": "Processing"
+  }
+
+  return languages[lowercasedLanguage] ? languages[lowercasedLanguage] : lowercasedLanguage
+}
