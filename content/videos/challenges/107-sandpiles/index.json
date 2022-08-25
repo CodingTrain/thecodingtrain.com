@@ -4,7 +4,7 @@
   "videoNumber": "107",
   "videoId": "diGjw5tghYU",
   "date": "2018-06-18",
-  "languages": ["p5.js", "processing"],
+  "languages": ["p5.js", "Processing"],
   "topics": ["sandpile", "cellular automaton", "grid"],
   "canContribute": true,
   "timestamps": [],
@@ -38,7 +38,7 @@
         },
         {
           "icon": "💾",
-          "title": "processing",
+          "title": "Processing",
           "url": "https://processing.org",
           "description": "Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts."
         }

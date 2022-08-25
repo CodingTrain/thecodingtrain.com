@@ -4,7 +4,7 @@
   "videoNumber": "C2 - Coding in the Cabana",
   "videoId": "EYLWxwo1Ed8",
   "date": "2019-10-27",
-  "languages": ["processing"],
+  "languages": ["Processing"],
   "topics": ["collatz conjecture", "modulo"],
   "canContribute": true,
   "timestamps": [

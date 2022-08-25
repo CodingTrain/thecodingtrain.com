@@ -4,7 +4,7 @@
   "videoNumber": "1.3",
   "videoId": "QEzRxnuaZCk",
   "date": "2020-10-14",
-  "languages": ["p5.js", "ml5"],
+  "languages": ["p5js", "ml5"],
   "topics": ["coco-ssd",  "COCO dataset", "model provenance", "data provenance", "detection box"],
   "canContribute": true,
   "timestamps": [

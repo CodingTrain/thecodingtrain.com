@@ -4,7 +4,7 @@
   "videoNumber": "11",
   "videoId": "IKB1hWWedMk",
   "date": "2016-05-04",
-  "languages": ["processing"],
+  "languages": ["Processing"],
   "topics": ["perlin noise", "terrain generation", "procedural"],
   "canContribute": true,
   "relatedChallenges": [],

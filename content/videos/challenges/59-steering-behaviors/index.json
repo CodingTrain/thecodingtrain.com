@@ -4,7 +4,7 @@
     "videoNumber": "59",
     "videoId": "4hA7G3gup-4",
     "date": "2017-02-21",
-    "languages": ["p5.js", "JavaScript"],
+    "languages": ["p5.js", "javascript"],
     "topics": [
         "steering behaviors",
         "Craig Reynolds steering",

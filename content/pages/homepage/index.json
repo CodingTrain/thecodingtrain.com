@@ -29,10 +29,10 @@
   },
   "challenges": {
     "title": "Challenges",
-    "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics range from algorithmic art, machine learning, simulation, to generative poetry, and more.",
+    "description": "Watch Daniel take on Coding Challenge projects in p5.js and Processing. The challenge topics range from algorithmic art, machine learning, simulation, to generative poetry, and more.",
     "featured": [
-      "173-snake-applesoft-basic",
       "171-wave-function-collapse",
+      "170-monty-hall-problem",
       "166-image-to-ascii"
     ],
     "challengesCta": {

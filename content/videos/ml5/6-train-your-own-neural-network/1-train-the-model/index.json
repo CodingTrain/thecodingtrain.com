@@ -4,7 +4,7 @@
     "videoNumber": "6.1",
     "videoId": "8HEgeAbYphA",
     "date": "2019-11-22",
-    "languages": ["ml5", "p5.js"],
+    "languages": ["ml5", "p5js"],
     "topics": ["neural network", "machine learning"],
     "canContribute": true,
     "timestamps": [

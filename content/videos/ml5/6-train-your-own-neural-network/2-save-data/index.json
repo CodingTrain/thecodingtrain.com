@@ -4,7 +4,7 @@
     "videoNumber": "6.2",
     "videoId": "q6cwxORPDo8",
     "date": "YYYY-MM-DD",
-    "languages": ["ml5", "p5.js"],
+    "languages": ["ml5", "p5js"],
     "topics": ["neural network", "machine learning", "saving data"],
     "canContribute": true,
     "timestamps": [

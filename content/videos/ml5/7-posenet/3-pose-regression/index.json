@@ -4,7 +4,7 @@
   "videoNumber": "7.3",
   "videoId": "lob74HqHYJ0",
   "date": "2020-01-22",
-  "languages": ["ml5", "p5.js"],
+  "languages": ["ml5", "p5js"],
   "topics": ["pose regression", "PoseNet", "neural networks"],
   "canContribute": true,
   "timestamps": [{
