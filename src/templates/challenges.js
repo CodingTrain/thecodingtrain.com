@@ -19,8 +19,8 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   const pageData = data.pageData.nodes[0];
   const challenges = data.challenges.nodes;
   const recentChallenge = data.recentChallenge.nodes[0];
-  const languages = data.languages.nodes.map(({ value }) => value);
-  const topics = data.topics.nodes.map(({ value }) => value);
+  const languages = [... new Set(data.languages.nodes.map(({ value }) => value.toLowerCase()))];
+  const topics = data.topics.nodes.map(({ value }) => value.toLowerCase())
 
   const challengesPlaceholder = data.challengePlaceholderImage
     ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
