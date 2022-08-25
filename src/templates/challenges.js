@@ -20,7 +20,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   const challenges = data.challenges.nodes;
   const recentChallenge = data.recentChallenge.nodes[0];
   const languages = [... new Set(data.languages.nodes.map(({ value }) => value.toLowerCase()))];
-  const topics = data.topics.nodes.map(({ value }) => value.toLowerCase())
+  const topics = data.topics.nodes.map(({ value }) => value)
 
   const challengesPlaceholder = data.challengePlaceholderImage
     ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
