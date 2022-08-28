@@ -29,7 +29,7 @@
         { 
             "title": "3D Supershape",
             "description": "This sketch renders a 3D supershape.",
-            "images": "super.jpg",
+            "image": "super.jpg",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/026_SuperShape3D/Processing/CC_026_SuperShape3D"
             }
