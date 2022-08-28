@@ -4,6 +4,12 @@ const video = {
   relativePath: './content/videos/challenges'
 };
 
+const trackOrder = {
+  name: 'trackOrder',
+  getSlugs: (file) => [...file.trackOrder],
+  relativePath: './content/tracks'
+};
+
 const track = {
   name: 'track',
   getSlugs: (track) => {
@@ -32,5 +38,6 @@ const faqsOrder = {
 module.exports = {
   video,
   track,
+  trackOrder,
   faqsOrder
 };
