@@ -7,6 +7,7 @@ import ButtonPanel from '../ButtonPanel';
 import Tags from '../Tags';
 
 import { filterVideos } from '../../hooks';
+import { filteredPath } from '../../utils';
 
 import * as css from './Card.module.css';
 import { pattern } from '../../styles/styles.module.css';
@@ -20,7 +21,7 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
   return (
     <section>
       <div className={css.filterHeading}>
-        {allVideos.length} videos within this track match the tag:
+        {allVideos.length} videos within this track match the filter.
       </div>
       <div className={css.filteredResults}>
         {videos.map((v, i) => (
@@ -31,12 +32,9 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
               </Link>
               <Link to={`/tracks/${trackSlug}/${v.slug}`}>{v.title}</Link>
             </div>
-            {i % 2 === 0 && (
-              <div
-                className={cn(css.spacer, {
-                  [css.growSpacer]: i === videos.length - 1
-                })}
-              />
+            {i % 2 === 0 && <div className={css.spacer} />}
+            {i % 2 === 0 && i === videos.length - 1 && (
+              <div className={cn(css.spacer, css.growSpacer)} />
             )}
           </Fragment>
         ))}
@@ -85,14 +83,14 @@ const Card = ({
               className={css.tags}
               heading="Languages"
               items={languages}
-              linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+              linkTo={(value) => filteredPath('tracks', value, 'all')}
               headerType="h4"
             />
             <Tags
               className={css.tags}
               heading="Topics"
               items={topics}
-              linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+              linkTo={(value) => filteredPath('tracks', 'all', value)}
               headerType="h4"
             />
             <p className={css.description}>{description}</p>
