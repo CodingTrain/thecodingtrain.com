@@ -1,0 +1,70 @@
+{
+  "title": "Depth-First Search Maze Generator",
+  "description": "Choo choo! In this multi-part coding challenge, I create a maze generator using a depth-first search algorithm with recursive backtracking. The idea is to walk through a grid of cells, removing walls as we go the build a maze.",
+  "videoNumber": "10",
+  "videoId": "",
+  "date": "2016-05-02",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["maze", "recursion", "backtracking", "depth-first search"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1: Creating the Cells",
+      "videoId": "HyK_Q5rrcr4",
+      "timestamps": [
+        { "time": "00:00", "title": "Title 1" },
+        { "time": "00:28", "title": "Title 2" }
+      ]
+    },
+    {
+      "title": "Part 2: Visiting Neighbouring Cells",
+      "videoId": "D8UgRyRnvXU",
+      "timestamps": [
+        { "time": "00:00", "title": "Title 1" },
+        { "time": "00:28", "title": "Title 2" }
+      ]
+    },
+    {
+      "title": "Part 3: Removing Walls",
+      "videoId": "8Ju_uxJ9v44",
+      "timestamps": [
+        { "time": "00:00", "title": "Title 1" },
+        { "time": "00:28", "title": "Title 2" }
+      ]
+    },
+    {
+      "title": "Part 4: Backtracking",
+      "videoId": "_p5IH0L63wo",
+      "timestamps": [
+        { "time": "00:00", "title": "Title 1" },
+        { "time": "00:28", "title": "Title 2" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Maze Generator",
+      "description": "Depth-First Search Maze Generator Algorithm with Recursive Backtracking",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EBkm4txSA",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/P5",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌐",
+          "title": "Maze Generation Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_backtracker",
+          "description": "Algorithm for Maze Generators on Wikipedia."
+        }
+      ]
+    }
+  ]
+}
