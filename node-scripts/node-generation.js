@@ -34,8 +34,8 @@ const parseTimestamp = (timeString) => {
 
 /**
  * Add computed seconds to an array of Timestamp objets (creates a new array).
- * 
- * @param {{ time: string, title: string }[]} timestamps 
+ *
+ * @param {{ time: string, title: string }[]} timestamps
  * @returns the timestamps with computed seconds
  */
 const timestampsWithSeconds = (timestamps) => {
@@ -209,6 +209,26 @@ const computeTrackTags = (trackDirectory, type) => {
   return [languages, topics].map((s) => [...s]);
 };
 
+const trackOrderPath = './content/tracks/index.json';
+
+const getTrackOrder = (trackSlug, trackType) => {
+  if (!fs.existsSync(trackOrderPath)) return 99999;
+
+  try {
+    const trackOrderJSON = JSON.parse(fs.readFileSync(trackOrderPath));
+
+    for (let index = 0; index < trackOrderJSON.trackOrder.length; index++) {
+      if (trackOrderJSON.trackOrder[index] === `${trackType}/${trackSlug}`)
+        return index;
+    }
+  } catch (error) {
+    console.log(`Error loading track order file: ${trackOrderPath}`);
+    console.error(error);
+  }
+
+  return 99999;
+};
+
 /**
  * Creates Track node from JSON file node
  * @param {function} createNode - Gatsby's createNode function
@@ -261,12 +281,16 @@ exports.createTrackRelatedNode = (
     parent.relativeDirectory,
     trackType
   );
+
+  const order = getTrackOrder(slug, trackType);
+
   const newNode = Object.assign({}, data, {
     id,
     parent: node.id,
     type,
     slug,
     numVideos,
+    order,
     cover: createNodeId(`cover-image/${trackType}/${slug}`),
     languages,
     languagesFlat: languages.join(),

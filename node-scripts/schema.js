@@ -164,6 +164,7 @@ type Track implements Node {
   videos: [VideoInterface] @link
   cover: CoverImage @link
   numVideos: Int!
+  order: Int!
 }
 
 type Talk implements Node {

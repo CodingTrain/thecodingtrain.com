@@ -1,0 +1,60 @@
+{
+  "title": "The Lorenz Attractor",
+  "description": "In this coding challenge, I show you how to visualization the Lorenz Attractor in Processing.",
+  "videoNumber": "12",
+  "videoId": "f0lkz2gSsIk",
+  "date": "2016-05-06",
+  "languages": ["Processing", "Java"],
+  "topics": ["math", "lorenz attractor"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+	  "title": "The Lorenz Attractor",
+      "description": "A visualization of the Lorenz Attractor",
+      "image": "lorenz-attractor.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/pwr_7FUUq",
+        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_012_LorenzAttractor/Processing"
+	  }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+		  "icon" : "📑",
+          "title": "Lorenz System on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lorenz_system",
+          "description": "Wikipedia article on the Lorenz System"
+        },
+        {
+		  "icon" : "📖",
+          "title": "Lorenz Attractor",
+          "url": "http://paulbourke.net/fractals/lorenz/",
+          "description": "An article on Lorenz Factor"
+        },
+		{
+		  "icon" : "📚",
+          "title": "PeasyCam library",
+          "url": "http://mrfeinberg.com/peasycam",
+          "description": "A library that provides mouse-driven camera to Processing"
+		},
+		{
+		  "icon" : "💻",
+	      "title" : "beginShape()",
+		  "url" : "https://processing.org/reference/beginShape_.html",
+		  "description" : "Documentation of beingShape()"
+		},
+		{
+		  "icon" : "🧾",
+	      "title" : "What is a differential equation?",
+		  "url" : "https://www.myphysicslab.com/explain/what-is-a-diff-eq-en.html",
+		  "description" : "An article on differential equations"
+		}
+      ]
+    }
+  ]
+}

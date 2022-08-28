@@ -202,52 +202,43 @@ function writeDescription(video) {
     description +=
       '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
   } else {
-    const playlistIds = {
-      noc: 'PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM',
-      code: 'PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA'
-    };
-
     const path = video.pageURL.split('/');
-    for (let pl in playlistIds) {
-      if (path.includes(pl)) {
-        description += '\n';
-        const track = allTracks.find((track) => track.trackFolder.includes(pl));
-        let id = track.videoList.indexOf(path.slice(2).join('/'));
+    const videoDir = path.slice(2).join('/');
+    // Find playlist id from main track only
+    // TODO: check in side tracks as well
+    const track = mainTracks.find((track) =>
+      track.videoList.includes(videoDir)
+    );
+    if (track && track.data.playlistId) {
+      description += '\n';
+      let id = track.videoList.indexOf(videoDir);
 
-        const previousPath = track.videoList[id - 1];
-        const previousVideo = videos.find(
-          (vid) =>
-            vid.pageURL == 'tracks/' + track.trackName + '/' + previousPath
-        );
+      const previousPath = track.videoList[id - 1];
+      const previousVideo = videos.find(
+        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + previousPath
+      );
 
-        const nextPath = track.videoList[id + 1];
-        const nextVideo = videos.find(
-          (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
-        );
+      const nextPath = track.videoList[id + 1];
+      const nextVideo = videos.find(
+        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
+      );
 
-        if (previousVideo)
-          description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+      if (previousVideo)
+        description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=${track.data.playlistId}\n`;
 
-        if (nextVideo)
-          description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+      if (nextVideo)
+        description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=${track.data.playlistId}\n`;
 
-        description += `🎥 All videos: https://www.youtube.com/playlist?list=${playlistIds[pl]}\n`;
-      }
+      description += `🎥 All videos: https://www.youtube.com/playlist?list=${track.data.playlistId}\n`;
     }
   }
 
   // Group Links (References / Videos / ...)
   if (data.groupLinks) {
-    const glIcons = {
-      'Links discussed': '🔗',
-      Links: '🔗',
-      References: '🔗',
-      Videos: '🎥'
-    };
     for (let group of data.groupLinks) {
       description += `\n${group.title}:\n`;
       for (const link of group.links) {
-        link.icon = link.icon || glIcons[group.title] || '';
+        link.icon = link.icon || (group.title === 'Videos' ? '🎥' : '🔗');
         const url = link.url;
         if (/https?:\/\/.*/.test(url)) {
           // Starts with http:// or https://
@@ -283,7 +274,6 @@ Music from Epidemic Sound
 💬 Discord: https://discord.gg/hPuGy2g
 💖 Membership: http://youtube.com/thecodingtrain/join
 🛒 Store: https://standard.tv/codingtrain
-📚 Books: https://www.amazon.com/shop/thecodingtrain
 🖋️ Twitter: https://twitter.com/thecodingtrain
 📸 Instagram: https://www.instagram.com/the.coding.train/
 
