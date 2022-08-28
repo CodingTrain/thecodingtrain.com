@@ -96,6 +96,7 @@ const track = {
     properties: {
       title: { isRequired: true, type: 'string' },
       date: { type: 'string' },
+      playlistId: { type: 'string' },
       description: { isRequired: true, type: 'string' },
       chapters: {
         isRequired: true,
