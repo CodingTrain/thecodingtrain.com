@@ -13,7 +13,16 @@
     { "time": "04:41", "title": "Using Promise.all()" },
     { "time": "09:44", "title": "About Error Handling" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Promise.all()",
+      "description": "Demonstration of Promise.all() to handle multiple promises",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/75fgxfvuI"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

@@ -12,7 +12,16 @@
     { "time": "01:40", "title": "Using a try-catch block" },
     { "time": "05:41", "title": "Summary" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "try / catch",
+      "description": "Demonstration of try / catch to handle errors",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/YiHgTdR5N"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

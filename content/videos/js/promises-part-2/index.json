@@ -14,7 +14,16 @@
     { "time": "06:43", "title": "Resolving a Promise" },
     { "time": "07:39", "title": "Rejecting a Promise" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Make your own Promises",
+      "description": "Demonstration of creating Promises",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/MtsUDdLu2"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

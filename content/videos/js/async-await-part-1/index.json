@@ -12,7 +12,16 @@
     { "time": "03:04", "title": "The await keyword" },
     { "time": "04:10", "title": "async functions" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Using async await",
+      "description": "Demonstration of using async and await keywords to work with Promises",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/zehkKWdgq"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

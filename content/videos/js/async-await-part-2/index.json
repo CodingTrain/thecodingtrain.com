@@ -12,7 +12,16 @@
     { "time": "01:50", "title": "Using await" },
     { "time": "06:40", "title": "Debugging errors" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Using async await",
+      "description": "Demonstration of using async and await with the Giphy and Wordnik API",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O-6gPkGeD"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

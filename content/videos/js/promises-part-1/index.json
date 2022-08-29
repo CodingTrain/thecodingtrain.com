@@ -15,7 +15,16 @@
     { "time": "19:00", "title": "How does chaining .then() work?" },
     { "time": "21:30", "title": "Error handling with .catch()" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Introduction to Promises",
+      "description": "Demonstration of using promises in JavaScript",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9S6fLgE_A"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
