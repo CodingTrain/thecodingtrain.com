@@ -1,0 +1,92 @@
+{
+  "title": "Maze Generator",
+  "description": "Choo choo! In this multi-part coding challenge, I create a maze generator using a depth-first search algorithm with recursive backtracking. The idea is to walk through a grid of cells, removing walls as we go to build a maze.",
+  "videoNumber": "10",
+  "videoId": "",
+  "date": "2016-05-02",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["maze", "recursion", "backtracking", "depth-first search"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1: Creating the Cells",
+      "videoId": "HyK_Q5rrcr4",
+      "timestamps": [
+        { "time": "00:00", "title": "Introduction" },
+        { "time": "01:15", "title": "What are we Building?" },
+        { "time": "03:18", "title": "Create a Grid of Cells" },
+        { "time": "08:10", "title": "Draw the 4 Walls Separately" },
+        { "time": "11:03", "title": "The Anal Retentive Coder" },
+        { "time": "12:30", "title": "Store the State of Walls for each Cell" },
+        { "time": "15:07", "title": "Recap, See You in Part 2!" }
+      ]
+    },
+    {
+      "title": "Part 2: Visiting Neighboring Cells",
+      "videoId": "D8UgRyRnvXU",
+      "timestamps": [
+        { "time": "00:00", "title": "Recap from Part 1" },
+        { "time": "00:44", "title": "Let's Look at the Algorithm" },
+        { "time": "01:30", "title": "Mark the Current Cell as Visited" },
+        { "time": "03:33", "title": "Find the Non-Visited Neighboring Cells" },
+        { "time": "09:26", "title": "Dealing with Edge Cases" },
+        { "time": "11:28", "title": "Select a Random Neighboring Cell" },
+        { "time": "12:12", "title": "Visit the Selected Neighbor" },
+        { "time": "13:44", "title": "End of Part 2, See You in the Next Part!" }
+      ]
+    },
+    {
+      "title": "Part 3: Removing Walls",
+      "videoId": "8Ju_uxJ9v44",
+      "timestamps": [
+        { "time": "00:00", "title": "Recap from Part 2" },
+        { "time": "01:00", "title": "Next Step in the Algorithm" },
+        { "time": "04:00", "title": "Remove Walls between Two Cells" },
+        { "time": "08:07", "title": "Debugging the Code" },
+        { "time": "09:35", "title": "There we Go! Problem Solved" },
+        { "time": "10:02", "title": "Highlight the Current Cell" },
+        { "time": "10:53", "title": "What do we Need to do Next?" }
+      ]
+    },
+    {
+      "title": "Part 4: Backtracking",
+      "videoId": "_p5IH0L63wo",
+      "timestamps": [
+        { "time": "00:00", "title": "Where are We so Far?" },
+        { "time": "00:51", "title": "Let's Look at the Algorithm" },
+        { "time": "01:36", "title": "What is a Stack?" },
+        { "time": "04:32", "title": "Code! Create a Stack" },
+        { "time": "04:57", "title": "Push the Current Cell to the Stack" },
+        { "time": "05:23", "title": "Backtrack if we get Stuck" },
+        { "time": "07:37", "title": "Done! How can You Improve on this?" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Maze Generator",
+      "description": "Depth-First Search Maze Generator Algorithm with Recursive Backtracking",
+      "image": "p5-maze-generator.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EBkm4txSA",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/P5",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌐",
+          "title": "Maze Generation Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search",
+          "description": "Algorithm for Maze Generators on Wikipedia."
+        }
+      ]
+    }
+  ]
+}
