@@ -6,7 +6,13 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:44", "title": "What Does it Mean to Code?" },
+    { "time": "3:45", "title": "Javascript" },
+    { "time": "8:01", "title": "Important URLs" },
+    { "time": "10:22", "title": "p5.js Web Editor" }
+  ],
   "codeExamples": [],
   "groupLinks": [
     {
