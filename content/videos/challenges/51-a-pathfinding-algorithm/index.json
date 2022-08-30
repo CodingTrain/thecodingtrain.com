@@ -2,12 +2,13 @@
     "title": "A* Pathfinding Algorithm",
     "description": "In this multi-part coding challenge, I attempt an implementation of the A* Pathfinding Algorithm to find the optimal path between two points in a 2D grid.",
     "videoNumber": "51",
-    "videoId": "aKYlikFAV4k",
+    "videoId": "",
     "date": "2017-01-16",
     "languages": ["p5.js", "javascript"],
     "topics": [
         "A* algorithm",
-        "pathfinding"
+        "pathfinding",
+        "heuristic"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -124,13 +125,13 @@
         {
             "title": "References",
             "links": [{
-                    "icon": "",
+                    "icon": "📘",
                     "title": "Artificial Intelligence: A Modern Approach",
                     "url": "http://aima.cs.berkeley.edu/",
                     "description": "Textbook on artificial intellligence."
                 },
                 {
-                    "icon": "",
+                    "icon": "🗄",
                     "title": "A* Search Algorithm on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
                     "description": "Wikipedia page with background and references on the A* algorithm."
