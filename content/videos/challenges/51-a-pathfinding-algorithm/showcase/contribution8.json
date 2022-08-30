@@ -1,0 +1,9 @@
+{
+    "title": "A* and other algorithms implementation in Flutter using dart",
+    "url": "",
+    "author": {
+        "name": "Ege Gungordu",
+        "url": "https://github.com/egegungordu"
+    },
+    "source": "https://github.com/egegungordu/flutter_pathfinding_visualizer"
+}
