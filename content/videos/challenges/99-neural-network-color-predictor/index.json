@@ -40,7 +40,7 @@
                     "icon": "💻",
                     "title": "TensorFlow.js",
                     "url": "https://js.tensorflow.org/",
-                    "description": "Webpage with reference materials and documentation about tnesorflow.js."
+                    "description": "Webpage with reference materials and documentation about Tensorflow.js."
                 },
                 {
                     "icon": "💻",
@@ -52,7 +52,7 @@
                     "icon": "💻",
                     "title": "JS Neural Network",
                     "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/",
-                    "description": "My neural network javaScript library for Coding Train tutorials."
+                    "description": "My neural network JavaScript library for Coding Train tutorials."
                 }
             ]
         },
