@@ -12,7 +12,7 @@
     {
       "title": "Trails",
       "description": "Demonstration of using createGraphics() to overlay two different canvases.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/7RN7GFD-Y"
       }
@@ -20,7 +20,7 @@
     {
       "title": "Stars",
       "description": "Demonstration of using createGraphics() to overlay two different canvases.",
-      "image": "",
+      "image": "img2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0kQ9v-bhM"
       }
