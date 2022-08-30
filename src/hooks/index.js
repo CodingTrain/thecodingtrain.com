@@ -19,8 +19,10 @@ export const filterVideos = (videos, filters) => {
   if (!isFiltered) return videos;
   return videos.filter(
     (v) =>
-      (language === 'all' || v.languages.includes(language)) &&
-      (topic === 'all' || v.topics.includes(topic))
+      (language === 'all' ||
+        language === '' ||
+        v.languages.includes(language)) &&
+      (topic === 'all' || topic === '' || v.topics.includes(topic))
   );
 };
 

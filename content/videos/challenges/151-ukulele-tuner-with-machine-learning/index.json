@@ -1,0 +1,79 @@
+{
+  "title": "Ukulele Tuner with Machine Learning",
+  "description": "In this challenge, I attempt to create a Ukulele tuner in JavaScript using p5.js, ml5.js and the pre-trained machine learning model CREPE: A Convolutional REpresentation for Pitch Estimation. Can you make one with a more elegant and creative interface?",
+  "videoNumber": "151",
+  "videoId": "F1OkDTUkKFo",
+  "date": "2019-10-03",
+  "languages": ["p5.js", "ml5.js", "JavaScript"],
+  "topics": ["machine learning", "pitch detection", "sound", "tuner"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:04", "title": "Import the ml5 library" },
+    { "time": "01:34", "title": "Pitch detection using ml5" },
+    { "time": "02:24", "title": "The CREPE model" },
+    { "time": "05:07", "title": "Using the CREPE model in the web editor" },
+    { "time": "07:19", "title": "Create a pitch detector with ml5" },
+    { "time": "11:57", "title": "The new keyword: constructors vs functions" },
+    { "time": "13:26", "title": "Get a frequency value from the microphone" },
+    { "time": "14:48", "title": "Make sure the microphone is ready first" },
+    { "time": "15:33", "title": "ml5 callbacks are error-first" },
+    { "time": "17:12", "title": "Checking the frequency continuously" },
+    { "time": "18:05", "title": "Drawing the frequency in the canvas" },
+    { "time": "19:46", "title": "Tuning the A string of the ukulele" },
+    { "time": "25:08", "title": "Improving the graphical interface" },
+    { "time": "27:06", "title": "Tuning the other strings of the ukulele" },
+    { "time": "28:44", "title": "Figure out which note is the closest one" },
+    { "time": "31:51", "title": "Debugging and fixing the code" },
+    { "time": "34:51", "title": "Wrapping up this coding challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Ukulele Tuner in p5.js",
+      "description": "Tuner for the notes A, E, C and G of a ukulele",
+      "image": "tuner.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_151_Ukulele_Tuner/P5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📝",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "The ml5 documentation."
+        },
+        {
+          "icon": "🧠",
+          "title": "CREPE: A Convolutional REpresentation for Pitch Estimation",
+          "url": "https://github.com/marl/crepe",
+          "description": "Github repository of the CREPE pitch detection model."
+        },
+        {
+          "icon": "🎨",
+          "title": "Hannah Davis",
+          "url": "http://www.hannahishere.com/",
+          "description": "Big thanks to Hannah Davis, who ported the CREPE model into ml5."
+        },
+        {
+          "icon": "📂",
+          "title": "How to turn any GitHub repo into a CDN",
+          "url": "https://gomakethings.com/how-to-turn-any-github-repo-into-a-cdn/",
+          "description": "Creating a URL to load files hosted on GitHub."
+        },
+        {
+          "icon": "🔊",
+          "title": "Online Tone Generator",
+          "url": "https://www.szynalski.com/tone-generator/",
+          "description": "Generating sounds with specific frequencies online."
+        }
+      ]
+    }
+  ]
+}

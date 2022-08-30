@@ -10,7 +10,7 @@
     {
       "title": "Path Following",
       "description": "Making a vehicle follow a path projected from the position of the mosue",
-      "image": "image1.png",
+      "image": "path.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/dqM054vBV"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Complex Path",
       "description": "Generating an array of vehicles that follow a loop",
-      "image": "image1.png",
+      "image": "complex.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/2FFzvxwVt"
       }
