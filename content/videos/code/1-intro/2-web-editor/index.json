@@ -6,7 +6,12 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:44", "title": "Sign Up" },
+    { "time": "2:54", "title": "Saving and Sharing Sektches" },
+    { "time": "3:50", "title": "Naming Your Sketch" }
+  ],
   "codeExamples": [
     {
       "title": "p5.js Web Editor Demo",
