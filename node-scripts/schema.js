@@ -18,7 +18,6 @@ interface VideoInterface implements Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
@@ -40,7 +39,6 @@ type Video implements VideoInterface & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
@@ -62,7 +60,6 @@ type Challenge implements VideoInterface & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
@@ -84,7 +81,6 @@ type GuestTutorial implements VideoInterface & Node {
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
@@ -291,7 +287,6 @@ type HomepageInfo implements Node {
   newToCoding: NewToCodingSection!
   tracks: TracksSection!
   challenges: ChallengesSection!
-  passengerShowcase: PassengerSection!
   events: EventsSection!
   support: SupportSection!
 }

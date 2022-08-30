@@ -104,7 +104,7 @@ const track = {
 };
 
 const contribution = {
-  name: 'contribution',
+  name: 'showcase',
   init: {
     type: 'object',
     properties: {
