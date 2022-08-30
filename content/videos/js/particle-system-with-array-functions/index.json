@@ -38,8 +38,8 @@
   "codeExamples": [
     {
       "title": "Simple Particle System with Array Functions",
-      "icon": "particlesystem.png",
       "description": "Particle System Simulation demonstrating JS Array Functions",
+      "image": "particlesystem.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/cFXgW95RZ"
       }
