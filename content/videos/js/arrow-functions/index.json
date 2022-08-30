@@ -1,0 +1,18 @@
+{
+  "title": "ES6 Arrow Functions",
+  "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript.",
+  "videoNumber": "3",
+  "videoId": "mrYMzpbFz18",
+  "date": "2017-10-30",
+  "languages": ["javascript"],
+  "topics": ["functions", "es6", "arrow functions"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "The arrow syntax" },
+    { "time": "05:37", "title": "The 'this' keyword" },
+    { "time": "08:15", "title": "Demonstration of arrow functions" },
+    { "time": "12:18", "title": "'this' context in an arrow function" }
+  ],
+  "codeExamples": [],
+  "groupLinks": []
+}

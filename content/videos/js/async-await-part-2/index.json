@@ -1,0 +1,38 @@
+{
+  "title": "async/await Part 2",
+  "description": "Exploring promises, async, await, and fetch() with the Giphy / Wordnik APIs.",
+  "videoNumber": "14",
+  "videoId": "chavThlNz3s",
+  "date": "2018-05-31",
+  "languages": ["javascript"],
+  "topics": ["async", "promises", "es8"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:50", "title": "Using await" },
+    { "time": "06:40", "title": "Debugging errors" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Using async await",
+      "description": "Demonstration of using async and await with the Giphy and Wordnik API",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O-6gPkGeD"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "async function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+          "description": "async function Reference on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}
