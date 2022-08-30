@@ -17,8 +17,8 @@
         { "time": "1:49", "title": "Universal Function Approximator" },
         { "time": "8:10", "title": "Inputs, Hidden Nodes, & Outputs" },
         { "time": "10:04", "title": "Let's Code!" },
-        { "time": "13:15", "title": "NeuralWork()" },
-        { "time": "16:35", "title": "colorPredictor()" },
+        { "time": "13:15", "title": "NeuralNetwork() Function" },
+        { "time": "16:35", "title": "colorPredictor() Function" },
         { "time": "22:15", "title": "Supervised Learning" },
         { "time": "28:17", "title": "Back Propagation" },
         { "time": "33:31", "title": "What Could You Do?" }
@@ -52,7 +52,7 @@
                     "icon": "💻",
                     "title": "JS Neural Network",
                     "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/",
-                    "description": "My neural network javaScript library for Coding Train tutorials"
+                    "description": "My neural network javaScript library for Coding Train tutorials."
                 }
             ]
         },
