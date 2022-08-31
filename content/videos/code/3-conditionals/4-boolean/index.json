@@ -7,12 +7,20 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["boolean", "variables"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "0:48", "title": "Boolean Variables -- TRUE or FALSE" },
+    {"time": "3:00", "title": "Distiction Between Mouse is Clicked and Mouse is Pressed" },
+    {"time": "8:00", "title": "Assiging States to the Program" },
+    {"time": "11:50", "title": "mousePressed()" },
+    {"time": "13:35", "title": "Toggling the State" },
+    {"time": "14:36", "title": "The NOT operator" }
+  ],
   "codeExamples": [
     {
       "title": "Boolean Variables",
       "description": "Demonstration of using boolean variables to track a state.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/yzBpV0CI"
       }
