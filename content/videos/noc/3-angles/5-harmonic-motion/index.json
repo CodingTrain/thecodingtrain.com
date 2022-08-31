@@ -10,7 +10,7 @@
     {
       "title": "Basic",
       "description": "Drawing a growing circle using harmonic motion",
-      "image": "image1.png",
+      "image": "basic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Fn1feR81W"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Approximate Time",
       "description": "Generating oscillating motion without an exact time increment",
-      "image": "image2.png",
+      "image": "basic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/uGCYH4-PN"
       }
@@ -26,7 +26,7 @@
     {
       "title": "Exact Time Exercise",
       "description": "Generating oscillating motion using a specific amount of milliseconds to determine the period",
-      "image": "image1.png",
+      "image": "time.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/jp2B-0Wkg"
       }
@@ -34,7 +34,7 @@
     {
       "title": "Main",
       "description": "Drawing oscillating motion that accelerates over time",
-      "image": "image1.png",
+      "image": "basic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/MfvyVULHT"
       }
@@ -42,7 +42,7 @@
     {
       "title": "Yoyo",
       "description": "Using oscillating motion to animate a yoyo",
-      "image": "image1.png",
+      "image": "yoyo.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/qBhVjZ0pn"
       }
@@ -50,7 +50,7 @@
     {
       "title": "2-Axes Exercise",
       "description": "Simulating oscillating motion along two axes",
-      "image": "image1.png",
+      "image": "axis.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/_ir7-suNG"
       }

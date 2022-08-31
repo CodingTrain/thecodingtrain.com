@@ -68,7 +68,7 @@ const TracksPage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query(
+  query (
     $skip: Int!
     $limit: Int!
     $topicRegex: String!
@@ -85,6 +85,7 @@ export const query = graphql`
         languagesFlat: { regex: $languageRegex }
         topicsFlat: { regex: $topicRegex }
       }
+      sort: { order: ASC, fields: order }
       skip: $skip
       limit: $limit
     ) {

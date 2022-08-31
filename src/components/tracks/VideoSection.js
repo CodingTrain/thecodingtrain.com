@@ -6,6 +6,9 @@ import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
+
+import { filteredPath } from '../../utils';
+
 import * as css from './VideoSection.module.css';
 
 const getOverallPositionInTrack = (trackPosition, chapters) => {
@@ -69,14 +72,14 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             className={css.tags}
             heading="Languages"
             items={languages}
-            linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+            linkTo={(value) => filteredPath('tracks', value, 'all')}
             headerType="h3"
           />
           <Tags
             className={css.tags}
             heading="Topics"
             items={topics}
-            linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+            linkTo={(value) => filteredPath('tracks', 'all', value)}
             headerType="h3"
           />
 

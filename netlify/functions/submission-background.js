@@ -110,8 +110,11 @@ exports.handler = async function (event) {
     Make a PR to main
   **/
   const prRes = await octokit.request(`POST /repos/${owner}/${repo}/pulls`, {
-    title: `Passenger showcase contribution from ${postInfo.authorName}`,
-    body: 'Yay!',
+    title: `Showcase Submission for ${postInfo.challenge}`,
+    body: `Thank you ${postInfo.authorName} for your contribution! A member of the Coding Train team will review it shortly.
+
+* [${postInfo.title}](${postInfo.url})
+* [${postInfo.authorName}](${postInfo.authorUrl})`,
     head: branchName,
     base: 'main'
   });

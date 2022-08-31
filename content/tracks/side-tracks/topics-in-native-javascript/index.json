@@ -1,0 +1,26 @@
+{
+  "title": "Topics in Native JavaScript",
+  "description": "Video tutorials covering various features of modern JavaScript.",
+  "videos": [
+    "js/let-vs-var",
+    "js/const",
+    "js/arrow-functions",
+    "js/for-of-loop",
+    "js/higher-order-functions",
+    "js/array-map-and-fill",
+    "js/array-reduce",
+    "js/array-filter",
+    "js/array-sort",
+    "js/particle-system-with-array-functions",
+    "js/promises-part-1",
+    "js/promises-part-2",
+    "js/async-await-part-1",
+    "js/async-await-part-2",
+    "js/promise-all",
+    "js/try-catch",
+    "code/6-objects/2-classes",
+    "code/6-objects/3-constructor",
+    "js/inheritance",
+    "js/polymorphism"
+  ]
+}

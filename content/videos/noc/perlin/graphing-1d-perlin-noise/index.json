@@ -10,7 +10,7 @@
     {
       "title": "Adding Y-axis",
       "description": "Using 1D perlin noise to generate two coordinates",
-      "image": "image1.png",
+      "image": "perlin.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/nCYG2SCNq"
       }
@@ -18,15 +18,15 @@
     {
       "title": "Noise Graph",
       "description": "Graphing 1D perlin noise",
-      "image": "image1.png",
+      "image": "noise.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EZeHXBhei"
       }
     },
     {
-      "title": "Noisy Sin",
-      "description": "Using 1D perlin noise to create a noisy sin wave",
-      "image": "image1.png",
+      "title": "Noisy Sine",
+      "description": "Using 1D perlin noise to create a noisy sine wave",
+      "image": "sine.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/M_kuAXwV2"
       }

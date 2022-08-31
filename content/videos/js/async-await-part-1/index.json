@@ -1,0 +1,38 @@
+{
+  "title": "async/await Part 1",
+  "description": "This video covers the new ES8 \"async” and “await” keywords for writing asynchronous functions in JavaScript.",
+  "videoNumber": "13",
+  "videoId": "XO77Fib9tSI",
+  "date": "2018-05-30",
+  "languages": ["javascript"],
+  "topics": ["async", "promises", "es8"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "03:04", "title": "The await keyword" },
+    { "time": "04:10", "title": "async functions" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Using async await",
+      "description": "Demonstration of using async and await keywords to work with Promises",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/zehkKWdgq"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "async function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+          "description": "async function Reference on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}

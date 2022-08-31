@@ -1,0 +1,75 @@
+{
+  "title": "Inheritance in JavaScript",
+  "description": "In this video, I discuss the concept of inheritance in Object-Oriented Programming (OOP) with JavaScript and using ES6 classes.",
+  "videoNumber": "19",
+  "videoId": "MfxBfRD0FVU",
+  "date": "2019-03-01",
+  "languages": ["javascript"],
+  "topics": ["inheritance", "oop"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Inheritance in JavaScript" },
+    {
+      "time": "0:18",
+      "title": "Core principles of object oriented programming"
+    },
+    { "time": "0:36", "title": "Other videos about these topics" },
+    { "time": "1:41", "title": "What is an ES6 class?" },
+    { "time": "3:25", "title": "The code I've already written" },
+    { "time": "4:03", "title": "Using a variable for types of particles" },
+    { "time": "5:31", "title": "Let's copy and paste to make two classes!" },
+    {
+      "time": "6:53",
+      "title": "There has got to be a better way. What is that?"
+    },
+    {
+      "time": "7:30",
+      "title": "How to make a class that inherits from another class"
+    },
+    { "time": "10:13", "title": "Let's make a child class!" },
+    { "time": "11:18", "title": "Augmenting and Overriding" },
+    { "time": "12:24", "title": "Let's do some augmenting and overriding!" },
+    {
+      "time": "13:30",
+      "title": "What if we want to do the same thing as the parent class but more?"
+    },
+    { "time": "14:37", "title": "A couple things to note" },
+    { "time": "15:15", "title": "What is an inheritance tree?" },
+    { "time": "16:46", "title": "What's next?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Inheritance",
+      "description": "Demonstration of Inheritance in OOP.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/52LIIRRCa"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Introduction to Inheritance",
+          "url": "https://youtu.be/e6eXD8DHc_A",
+          "description": "Nature of Code 4.5 - Inheritance"
+        },
+        {
+          "icon": "🚂",
+          "title": "Introduction to Polymorphism",
+          "url": "https://youtu.be/qqYOYIVrso0",
+          "description": "Nature of Code 4.7 - Polymorphism"
+        },
+        {
+          "icon": "🚂",
+          "title": "Classes in JavaScript",
+          "url": "https://youtu.be/T-HGdc8L-7w",
+          "description": "Tutorial on ES6 classes"
+        }
+      ]
+    }
+  ]
+}

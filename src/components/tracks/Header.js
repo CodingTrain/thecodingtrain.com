@@ -3,6 +3,8 @@ import React, { memo } from 'react';
 import CollapsableDescription from '../CollapsableDescription';
 import Tags from '../Tags';
 
+import { filteredPath } from '../../utils';
+
 import * as css from './Header.module.css';
 
 const Header = ({ track }) => {
@@ -37,13 +39,13 @@ const Header = ({ track }) => {
             heading="Languages"
             items={languages}
             singleLine={false}
-            linkTo={(value) => `/tracks/lang:${value}+topic:all`}
+            linkTo={(value) => filteredPath('tracks', value, 'all')}
           />
           <Tags
             heading="Topics"
             items={topics}
             singleLine={false}
-            linkTo={(value) => `/tracks/lang:all+topic:${value}`}
+            linkTo={(value) => filteredPath('tracks', 'all', value)}
           />
         </div>
       </div>
