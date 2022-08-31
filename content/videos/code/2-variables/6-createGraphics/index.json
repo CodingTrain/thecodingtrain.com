@@ -7,7 +7,13 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["createGraphics"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:42", "title": "Create Two Canvases with createGraphics()" },
+    { "time": "3:45", "title": "Use clear() to Make the Extra Canvas Transparent" },
+    { "time": "5:00", "title": "Order of Shapes within Draw()" }
+
+  ],
   "codeExamples": [
     {
       "title": "Trails",
