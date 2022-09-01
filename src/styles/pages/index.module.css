@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  overflow: hidden;
 }
 
 .subheading {
@@ -460,11 +461,5 @@
     & .center {
       flex: 100%;
     }
-  }
-}
-
-@media (--xsmall) {
-  .subheader {
-    overflow: hidden;
   }
 }
