@@ -114,7 +114,9 @@ exports.handler = async function (event) {
     body: `Thank you ${postInfo.authorName} for your contribution! A member of the Coding Train team will review it shortly.
 
 * [${postInfo.title}](${postInfo.url})
-* [${postInfo.authorName}](${postInfo.authorUrl})`,
+* [${postInfo.authorName}](${postInfo.authorUrl})
+
+![image preview](${imageRes.data.content.download_url})`,
     head: branchName,
     base: 'main'
   });
