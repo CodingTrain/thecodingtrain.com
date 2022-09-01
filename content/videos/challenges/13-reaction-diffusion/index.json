@@ -1,0 +1,45 @@
+{
+  "title": "Reaction Diffusion Algorithm",
+  "description": "In this coding challenge, I visualize a Reaction Diffusion simulation using the Gray Scott model in JavaScript (with the p5.js library).",
+  "videoNumber": "13",
+  "videoId": "BV9ny785UNc",
+  "date": "2016-05-26",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Title 1" },
+    { "time": "1:26", "title": "Title 2" },
+    { "time": "1:26", "title": "Title 3" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code example 1 title",
+      "description": "Code example 1 description",
+      "image": "image1.png",
+      "urls": {
+        "p5": "url to p5 editor or code",
+        "processing": "url to processing sketch",
+        "other": "url to other source, like GitHub"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Link 1 title",
+          "url": "link 1 url",
+          "description": "description of content linked"
+        },
+        {
+          "title": "Link 2 title",
+          "url": "link 2 url",
+          "description": "description of content linked"
+        }
+      ]
+    }
+  ]
+}
