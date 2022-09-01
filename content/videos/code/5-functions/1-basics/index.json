@@ -9,7 +9,7 @@
   "canContribute": true,
   "timestamps": [
     {"time": "0:00", "title": "Introduction" },
-    {"time": "1:03", "title": "Calling a Function versus Defining a Function" },
+    {"time": "1:03", "title": "Calling a Function Versus Defining a Function" },
     {"time": "3:10", "title": "Modularity and Reusability" },
     {"time": "4:42", "title": "Code Example" },
     {"time": "6:30", "title": "Syntax of a Function" },
