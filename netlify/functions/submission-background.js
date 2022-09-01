@@ -121,5 +121,13 @@ exports.handler = async function (event) {
     base: 'main'
   });
 
+  /** Add showcase label **/
+  await octokit.request(
+    `PATCH /repos/${owner}/${repo}/issues/${prRes.data.number}`,
+    {
+      labels: ['showcase']
+    }
+  );
+
   console.log('Done!');
 };
