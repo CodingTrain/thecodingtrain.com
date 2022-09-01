@@ -293,7 +293,7 @@ Find the track to which the video belongs. Track folders are found in `content/v
 
 Then, add a folder for the video in `content/videos/`, it should be formatted as `"name-of-video"`. Then, follow the steps for adding a coding challenge, adding the `index.json` into the newly created video folder. In this case, the video number is not relevant.
 
-If the video had community contributions, create a `showcase` folder and add individual JSON files for each showcase with the contribution metadata in them. You can add the metadata in JSON format manually, or you can use [this python script](https://github.com/DenisovichDev/codingtrain-contribution-util) to generate them. The instructions on how to use the script could be found in the `README` of the GitHub repository. After generating the JSON files, add thumbnails for each of them, following [these instrustions](#coding-challenges---starting-from-a-template).
+If the video had community contributions, create a `showcase` folder and add individual JSON files for each showcase with the contribution metadata in them. You can add the metadata in JSON format manually, or you can use [this python script](https://github.com/DenisovichDev/codingtrain-contribution-util) to generate them. The instructions on how to use the script could be found in the `README` of the GitHub repository. After generating the JSON files, add thumbnails for each of them, following [these instructions](#coding-challenges---starting-from-a-template).
 
 You can also nest that video folder further in the folder organization. To do that, check the [videos in nested folders section](#videos-in-nested-folders).
 
