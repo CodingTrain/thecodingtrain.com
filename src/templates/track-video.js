@@ -36,7 +36,7 @@ const Track = ({ pageContext, data }) => {
     challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
   const { trackPosition, isTrackPage } = pageContext;
-  console.log(track);
+
   return (
     <Layout
       title={isTrackPage ? track.title : video.title}
