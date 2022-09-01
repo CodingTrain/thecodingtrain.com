@@ -7,12 +7,20 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "boolean", "if statement"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "1:45", "title": "Boolean Expressions - True or False" },
+    {"time": "3:15", "title": "Relational Operators" },
+    {"time": "3:45", "title": "If Statements" },
+    {"time": "6:30", "title": "Code Example" },
+    {"time": "7:12", "title": "Using Indentation to Improve Readability of Code" },
+    {"time": "0:00", "title": "Other Relational Operators" }
+  ],
   "codeExamples": [
     {
       "title": "Introduction to Conditional Statements",
       "description": "Demonstration of conditionally filling in a circle based on the mouse position.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/z_yjYIha"
       }

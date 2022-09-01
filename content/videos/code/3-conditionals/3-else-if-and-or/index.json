@@ -7,12 +7,18 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "boolean", "if statement"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "0:47", "title": "Using else() to Check for Other States" },
+    {"time": "3:39", "title": "Using Multiple else if() Statements" },
+    {"time": "7:06", "title": "Order of else if() Statements" },
+    {"time": "10:06", "title": "AND and OR" }
+  ],
   "codeExamples": [
     {
       "title": "More conditional logic",
       "description": "Demonstration of using if...else if...else and boolean operators.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/In-bIB8w"
       }

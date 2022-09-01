@@ -7,12 +7,16 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["if statement", "motion"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:25", "title": "Reversing the Ball's Direction" },
+    { "time": "5:38", "title": "Using a Variable to Change Direction" }
+  ],
   "codeExamples": [
     {
       "title": "Bouncing Ball",
       "description": "Demonstration of a Bouncing Ball",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Xm4cmQvU"
       }
