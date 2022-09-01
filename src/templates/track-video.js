@@ -36,13 +36,13 @@ const Track = ({ pageContext, data }) => {
     challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
   const { trackPosition, isTrackPage } = pageContext;
-
+  console.log(track);
   return (
     <Layout
       title={isTrackPage ? track.title : video.title}
       description={isTrackPage ? track.description : video.description}
       image={
-        isTrackPage && track.cover
+        track.cover
           ? track.cover.file.childImageSharp.gatsbyImageData
           : contributionsPlaceholder
       }>
@@ -141,7 +141,7 @@ const Track = ({ pageContext, data }) => {
 };
 
 export const query = graphql`
-  query(
+  query (
     $trackId: String
     $videoId: String
     $videoSlug: String
