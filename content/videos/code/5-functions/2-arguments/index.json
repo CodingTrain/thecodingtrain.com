@@ -7,12 +7,19 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "functions", "arguments", "parameters"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "1:10", "title": "Calling a Function Multiple Times" },
+    {"time": "3:30", "title": "Function Parameters" },
+    {"time": "4:57", "title": "Initializing the Function Parameters" },
+    {"time": "6:48", "title": "Code Example" },
+    {"time": "9:04", "title": "Calling Functions With the Proper Arguments" }
+  ],
   "codeExamples": [
     {
       "title": "Function Parameters and Arguments",
       "description": "Demonstration of reusing functions using arguments.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/eGD-xzsw"
       }
