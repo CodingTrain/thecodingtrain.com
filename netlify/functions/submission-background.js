@@ -1,6 +1,6 @@
-const { Octokit } = require('@octokit/core');
-const slugify = require('slugify');
-const btoa = require('btoa');
+const { Octokit } = require("@octokit/core");
+const slugify = require("slugify");
+const btoa = require("btoa");
 
 // event.body expected to be:
 // {
@@ -15,20 +15,20 @@ const btoa = require('btoa');
 // }
 
 exports.handler = async function (event) {
-  console.log('Handler called with: ', event.body);
+  console.log("Handler called with: ", event.body);
 
   // Shared properties
   const postInfo = JSON.parse(event.body);
   const unix = Math.floor(Date.now() / 1000);
-  const owner = 'CodingTrain';
-  const repo = 'thecodingtrain.com';
+  const owner = "CodingTrain";
+  const repo = "thecodingtrain.com";
   const showcasePath = `content/videos/challenges/${postInfo.challenge}/showcase`;
   const jsonPath = `${showcasePath}/contribution-${unix}.json`;
   const imagePath = `${showcasePath}/contribution-${unix}.${postInfo.imageExt}`;
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
   if (!process.env.GITHUB_TOKEN) {
-    console.error('GitHub Token not loaded');
+    console.error("GitHub Token not loaded");
   }
 
   /**
@@ -44,7 +44,7 @@ exports.handler = async function (event) {
 
   const branchRes = await octokit.request(`POST /repos/${owner}/${repo}/git/refs`, {
     ref: `refs/heads/${branchName}`,
-    sha: mainSha
+    sha: mainSha,
   });
 
   /**
@@ -53,9 +53,9 @@ exports.handler = async function (event) {
   const json = {
     title: postInfo.title,
     author: {
-      name: postInfo.authorName
+      name: postInfo.authorName,
     },
-    url: postInfo.url
+    url: postInfo.url,
   };
 
   if (postInfo.authorUrl) {
@@ -66,14 +66,14 @@ exports.handler = async function (event) {
 
   const jsonOpts = {
     branch: branchName,
-    message: 'Added contribution JSON file',
-    content: jsonContent
+    message: "Added contribution JSON file",
+    content: jsonContent,
   };
 
   if (postInfo.authorName && postInfo.authorEmail) {
     jsonOpts.committer = {
       name: postInfo.authorName,
-      email: postInfo.authorEmail
+      email: postInfo.authorEmail,
     };
   }
 
@@ -84,14 +84,14 @@ exports.handler = async function (event) {
   **/
   const imageOpts = {
     branch: branchName,
-    message: 'Added contribution image file',
-    content: postInfo.image
+    message: "Added contribution image file",
+    content: postInfo.image,
   };
 
   if (postInfo.authorName && postInfo.authorEmail) {
     imageOpts.committer = {
       name: postInfo.authorName,
-      email: postInfo.authorEmail
+      email: postInfo.authorEmail,
     };
   }
 
@@ -102,22 +102,20 @@ exports.handler = async function (event) {
   **/
   const prRes = await octokit.request(`POST /repos/${owner}/${repo}/pulls`, {
     title: `Showcase Submission for ${postInfo.challenge}`,
-    body: `Thank you ${
-      postInfo.authorName
-    } for your contribution! A member of the Coding Train team will review it shortly.
+    body: `Thank you ${postInfo.authorName} for your contribution! A member of the Coding Train team will review it shortly.
 
 * [${postInfo.title}](${postInfo.url})
 * ${postInfo.authorUrl ? `[${postInfo.authorName}](${postInfo.authorUrl})` : postInfo.authorName}
 
 ![preview image](${imageRes.data.content.download_url})`,
     head: branchName,
-    base: 'main'
+    base: "main",
   });
 
   /** Add showcase label **/
   await octokit.request(`PATCH /repos/${owner}/${repo}/issues/${prRes.data.number}`, {
-    labels: ['showcase']
+    labels: ["showcase"],
   });
 
-  console.log('Done!');
+  console.log("Done!");
 };
