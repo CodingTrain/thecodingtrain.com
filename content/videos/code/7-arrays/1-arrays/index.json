@@ -13,9 +13,9 @@
     {"time": "3:20", "title": "Indexes" },
     {"time": "5:07", "title": "Code Example" },
     {"time": "6:50", "title": "Referring to a Value in an Array" },
-    {"time": "8:40", "title": "Dynamic reference to a Value in an Array" },
+    {"time": "8:40", "title": "Dynamic Reference to a Value in an Array" },
     {"time": "10:56", "title": "Trying to Access a Value that Doesn't Exist" },
-    {"time": "12:20", "title": "Using the Array's length" }
+    {"time": "12:20", "title": "Using the Array's Length" }
   ],
   "codeExamples": [
     {
