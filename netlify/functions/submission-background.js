@@ -27,6 +27,10 @@ exports.handler = async function (event) {
   const imagePath = `${showcasePath}/contribution-${unix}.${postInfo.imageExt}`;
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
+  if (!process.env.GITHUB_TOKEN) {
+    console.error('GitHub Token not loaded');
+  }
+
   /**
     Get the SHA of the main branch
   **/
@@ -111,13 +115,29 @@ exports.handler = async function (event) {
   **/
   const prRes = await octokit.request(`POST /repos/${owner}/${repo}/pulls`, {
     title: `Showcase Submission for ${postInfo.challenge}`,
-    body: `Thank you ${postInfo.authorName} for your contribution! A member of the Coding Train team will review it shortly.
+    body: `Thank you ${
+      postInfo.authorName
+    } for your contribution! A member of the Coding Train team will review it shortly.
 
 * [${postInfo.title}](${postInfo.url})
-* [${postInfo.authorName}](${postInfo.authorUrl})`,
+* ${
+      postInfo.authorUrl
+        ? `[${postInfo.authorName}](${postInfo.authorUrl})`
+        : postInfo.authorName
+    }
+
+![preview image](${imageRes.data.content.download_url})`,
     head: branchName,
     base: 'main'
   });
+
+  /** Add showcase label **/
+  await octokit.request(
+    `PATCH /repos/${owner}/${repo}/issues/${prRes.data.number}`,
+    {
+      labels: ['showcase']
+    }
+  );
 
   console.log('Done!');
 };
