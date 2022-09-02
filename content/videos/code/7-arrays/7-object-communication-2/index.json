@@ -9,7 +9,7 @@
   "canContribute": true,
   "timestamps": [
     {"time": "0:00", "title": "Introduction" },
-    {"time": "3:06", "title": "Short Hand Syntax For Every Element of an Array" },
+    {"time": "3:06", "title": "Shorthand Syntax For Every Element of an Array" },
     {"time": "7:08", "title": "Using a Nested Loop to Check Each Element Against Every Other Element" },
     {"time": "9:18", "title": "Make Sure That the Object Isn't Checking Itself" },
     {"time": "15:48", "title": "The N Squared Problem" },
