@@ -15,7 +15,7 @@ const btoa = require('btoa');
 // }
 
 exports.handler = async function (event) {
-  console.log('Handler called with: ', event.body);
+  console.log('Handler called with: ', { ...event.body, image: '' });
 
   // Shared properties
   const postInfo = JSON.parse(event.body);
@@ -35,6 +35,10 @@ exports.handler = async function (event) {
   );
   const mainSha = shaRes.data.object.sha;
 
+  if (!process.env.GITHUB_TOKEN) {
+    console.error('GitHub Token not loaded');
+  }
+
   /**
     Make a new branch
   **/
@@ -42,13 +46,18 @@ exports.handler = async function (event) {
     `showcase-${slugify(postInfo.authorName)}-${unix}`.toLowerCase()
   );
 
-  const branchRes = await octokit.request(
-    `POST /repos/${owner}/${repo}/git/refs`,
-    {
-      ref: `refs/heads/${branchName}`,
-      sha: mainSha
-    }
-  );
+  try {
+    const branchRes = await octokit.request(
+      `POST /repos/${owner}/${repo}/git/refs`,
+      {
+        ref: `refs/heads/${branchName}`,
+        sha: mainSha
+      }
+    );
+  } catch (e) {
+    console.log('Error: Failed to create branch');
+    console.error(e);
+  }
 
   /**
     Add the JSON file
@@ -116,7 +125,7 @@ exports.handler = async function (event) {
 * [${postInfo.title}](${postInfo.url})
 * [${postInfo.authorName}](${postInfo.authorUrl})
 
-![image preview](${imageRes.data.content.download_url})`,
+![preview image](${imageRes.data.content.download_url})`,
     head: branchName,
     base: 'main'
   });
