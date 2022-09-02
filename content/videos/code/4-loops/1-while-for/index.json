@@ -10,7 +10,7 @@
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:30", "title": "Control Structure of a Loop" },
-    { "time": "1:46", "title": "While loops" },
+    { "time": "1:46", "title": "While Loops" },
     { "time": "3:19", "title": "Initializing Local variables" },
     { "time": "5:50", "title": "Exit conditions" },
     { "time": "9:45", "title": "For Loops" },
