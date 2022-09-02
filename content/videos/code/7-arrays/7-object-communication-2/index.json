@@ -7,12 +7,19 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "nested loop", "for loop", "objects"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "3:06", "title": "Short Hand Syntax For Every Element of an Array" },
+    {"time": "7:08", "title": "Using a Nested Loop to Check Each Element Against Every Other Element" },
+    {"time": "9:18", "title": "Make Sure That the Object Isn't Checking Itself" },
+    {"time": "15:48", "title": "The N Squared Problem" },
+    {"time": "18:30", "title": "Declaring the Variable in the For Loop" }
+  ],
   "codeExamples": [
     {
       "title": "Checking Overlap (Multiple)",
       "description": "Demonstration of determining if any circle is overlapping any other circle.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/7SjPmXN2"
       }
@@ -23,15 +30,15 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
-          "title": "Previous video",
-          "url": "/beginners/p5js/7.6-object-communication-1",
-          "description": "undefined's Tutorial on Previous video"
+          "icon": "🚂",
+          "title": "Object Communication-1",
+          "url": "/tracks/code-programming-with-p5-js/code/7-arrays/6-object-communication-1",
+          "description": "My Tutorial on Previous video"
         },
         {
           "icon": "🚂",
           "title": "for of loop",
-          "url": "/Tutorials/16-javascript-es6/16.4-for-of-loop",
+          "url": "/tracks/topics-in-native-javascript/js/for-of-loop",
           "description": "Tutorial on for of loop"
         }
       ]
