@@ -15,7 +15,10 @@ const btoa = require('btoa');
 // }
 
 exports.handler = async function (event) {
-  console.log('Handler called with: ', { ...event.body, image: '' });
+  console.log('Handler called with: ', {
+    ...JSON.parse(event.body),
+    image: ''
+  });
 
   // Shared properties
   const postInfo = JSON.parse(event.body);
