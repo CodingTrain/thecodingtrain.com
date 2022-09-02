@@ -34,25 +34,18 @@ exports.handler = async function (event) {
   /**
     Get the SHA of the main branch
   **/
-  const shaRes = await octokit.request(
-    `GET /repos/${owner}/${repo}/git/ref/heads/main`
-  );
+  const shaRes = await octokit.request(`GET /repos/${owner}/${repo}/git/ref/heads/main`);
   const mainSha = shaRes.data.object.sha;
 
   /**
     Make a new branch
   **/
-  const branchName = slugify(
-    `showcase-${slugify(postInfo.authorName)}-${unix}`.toLowerCase()
-  );
+  const branchName = slugify(`showcase-${slugify(postInfo.authorName)}-${unix}`.toLowerCase());
 
-  const branchRes = await octokit.request(
-    `POST /repos/${owner}/${repo}/git/refs`,
-    {
-      ref: `refs/heads/${branchName}`,
-      sha: mainSha
-    }
-  );
+  const branchRes = await octokit.request(`POST /repos/${owner}/${repo}/git/refs`, {
+    ref: `refs/heads/${branchName}`,
+    sha: mainSha
+  });
 
   /**
     Add the JSON file
@@ -84,10 +77,7 @@ exports.handler = async function (event) {
     };
   }
 
-  const jsonRes = await octokit.request(
-    `PUT /repos/${owner}/${repo}/contents/${jsonPath}`,
-    jsonOpts
-  );
+  const jsonRes = await octokit.request(`PUT /repos/${owner}/${repo}/contents/${jsonPath}`, jsonOpts);
 
   /**
     Add the image
@@ -105,10 +95,7 @@ exports.handler = async function (event) {
     };
   }
 
-  const imageRes = await octokit.request(
-    `PUT /repos/${owner}/${repo}/contents/${imagePath}`,
-    imageOpts
-  );
+  const imageRes = await octokit.request(`PUT /repos/${owner}/${repo}/contents/${imagePath}`, imageOpts);
 
   /**
     Make a PR to main
@@ -120,11 +107,7 @@ exports.handler = async function (event) {
     } for your contribution! A member of the Coding Train team will review it shortly.
 
 * [${postInfo.title}](${postInfo.url})
-* ${
-      postInfo.authorUrl
-        ? `[${postInfo.authorName}](${postInfo.authorUrl})`
-        : postInfo.authorName
-    }
+* ${postInfo.authorUrl ? `[${postInfo.authorName}](${postInfo.authorUrl})` : postInfo.authorName}
 
 ![preview image](${imageRes.data.content.download_url})`,
     head: branchName,
@@ -132,12 +115,9 @@ exports.handler = async function (event) {
   });
 
   /** Add showcase label **/
-  await octokit.request(
-    `PATCH /repos/${owner}/${repo}/issues/${prRes.data.number}`,
-    {
-      labels: ['showcase']
-    }
-  );
+  await octokit.request(`PATCH /repos/${owner}/${repo}/issues/${prRes.data.number}`, {
+    labels: ['showcase']
+  });
 
   console.log('Done!');
 };
