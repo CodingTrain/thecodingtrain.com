@@ -6,7 +6,11 @@
   "languages": ["p5.js"],
   "topics": ["web editor", "media files"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "2:15", "title": "Uploading an Image to a p5.js Sketch" },
+    {"time": "4:37", "title": "Using the preload() Function to Load an Image" }
+  ],
   "codeExamples": [],
   "groupLinks": []
 }

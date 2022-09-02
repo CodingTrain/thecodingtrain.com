@@ -7,12 +7,16 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "for loop"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "2:00", "title": "Using a Loop to Initialize an Argument" },
+    {"time": "5:43", "title": "Using the Index to Calculate an Argument" }
+  ],
   "codeExamples": [
     {
       "title": "Iterating over an array",
       "description": "Demonstration of going through every element in an array.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ZnPevren"
       }
