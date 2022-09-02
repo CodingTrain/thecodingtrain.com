@@ -115,10 +115,16 @@ exports.handler = async function (event) {
   **/
   const prRes = await octokit.request(`POST /repos/${owner}/${repo}/pulls`, {
     title: `Showcase Submission for ${postInfo.challenge}`,
-    body: `Thank you ${postInfo.authorName} for your contribution! A member of the Coding Train team will review it shortly.
+    body: `Thank you ${
+      postInfo.authorName
+    } for your contribution! A member of the Coding Train team will review it shortly.
 
 * [${postInfo.title}](${postInfo.url})
-* [${postInfo.authorName}](${postInfo.authorUrl})
+* ${
+      postInfo.authorUrl
+        ? `[${postInfo.authorName}](${postInfo.authorUrl})`
+        : postInfo.authorName
+    }
 
 ![preview image](${imageRes.data.content.download_url})`,
     head: branchName,
