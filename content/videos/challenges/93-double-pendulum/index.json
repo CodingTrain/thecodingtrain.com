@@ -1,0 +1,79 @@
+{
+    "title": "Double Pendulum",
+    "description": "In this coding challenge, I create a double pendulum simulation in Processing.",
+    "videoNumber": "93",
+    "videoId": "uWzPe_S-RVE",
+    "date": "2018-02-13",
+    "languages": ["Processing"],
+    "topics": [
+        "double pendulum",
+        "pendulum harmonic motion"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        {
+            "time": "0:00:00",
+            "title": "Double Pendulum Simulation"
+        },
+        {
+            "time": "0:03:45",
+            "title": "Creating The Double Pendulum"
+        },
+        {
+            "time": "0:08:35",
+            "title": "Adding The Tracing of The Path"
+        },
+        {
+            "time": "0:12:51",
+            "title": "Implementing The Double Pendulum Formulas"
+        },
+        {
+            "time": "0:24:45",
+            "title": "Visualizing It"
+        },
+        {
+            "time": "0:28:21",
+            "title": "Adding Damping"
+        },
+        {
+            "time": "0:29:16",
+            "title": "Conclusions And Suggestions"
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Double Pendulum",
+            "description": "This sketch implements a double pendulum simulation.",
+            "image": "img1.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/jaH7XdzMK",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/093_DoublePendulum/Processing/CC_093_DoublePendulum"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🔴",
+                    "title": "Physics Lab Double Pendulum",
+                    "url": "https://www.myphysicslab.com/pendulum/double-pendulum-en.html",
+                    "description": "Simulation of a double pendulum."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "Pendulum Simulation",
+                    "url": "https://www.youtube.com/watch?v=9iaEqGOh5WM",
+                    "description": "This video walks through a simulation of a pendulum."
+                }
+            ]
+        }
+    ]
+}
