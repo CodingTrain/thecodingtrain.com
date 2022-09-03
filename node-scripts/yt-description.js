@@ -90,7 +90,7 @@ function getVideoData(file) {
     );
   }
 
-  if (parsed.parts && !parsed.videoId) {
+  if (parsed.parts && parsed.parts.length > 0) {
     // Multipart Coding Challenge
     // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
 
@@ -311,7 +311,7 @@ Music from Epidemic Sound
 
 This description was auto-generated. If you see a problem, please open an issue: https://github.com/CodingTrain/thecodingtrain.com/issues/new`;
 
-  let filename = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  let filename = data.videoId;
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
 
   return description;
@@ -349,12 +349,14 @@ const allTracks = [...mainTracks, ...sideTracks];
       getVideoData(file);
     }
 
-    const videoInfo = videos.find((data) => data.filePath === fileName);
+    const specifiedVideos = videos.filter((data) => data.filePath === fileName);
 
-    const description = writeDescription(videoInfo);
-    console.log('=====================================================');
-    console.log(description);
-    console.log('=====================================================');
+    for (const video of specifiedVideos) {
+      const description = writeDescription(video);
+      console.log('=====================================================');
+      console.log(description);
+      console.log('=====================================================');
+    }
   } else {
     for (const file of files) {
       getVideoData(file);
