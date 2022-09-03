@@ -179,7 +179,7 @@ function writeDescription(video) {
 
   // Code Examples:
 
-  // Github Repo Link
+  // Github Standalone Repo Link
   const repoLink = data.codeExamples
     ?.map((ex) => Object.values(ex.urls))
     .flat()
