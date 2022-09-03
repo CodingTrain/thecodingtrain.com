@@ -1,6 +1,6 @@
 # Coding Train Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for thecodingtrain.com. The website is built with:
@@ -41,6 +41,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://aboutmonica.com"><img src="https://avatars.githubusercontent.com/u/6998954?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Monica Powell</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=M0nica" title="Code">💻</a> <a href="#content-M0nica" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/btb331"><img src="https://avatars.githubusercontent.com/u/36310755?v=4?s=100" width="100px;" alt=""/><br /><sub><b>btb331</b></sub></a><br /><a href="#projectManagement-btb331" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/pgriffin17"><img src="https://avatars.githubusercontent.com/u/31374077?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pgriffin17</b></sub></a><br /><a href="#content-pgriffin17" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ArztKlein"><img src="https://avatars.githubusercontent.com/u/52363453?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ArztKlein</b></sub></a><br /><a href="#content-ArztKlein" title="Content">🖋</a></td>
   </tr>
 </table>
 
