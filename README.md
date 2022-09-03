@@ -1,6 +1,6 @@
 # Coding Train Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for thecodingtrain.com. The website is built with:
@@ -36,9 +36,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/kfahn22"><img src="https://avatars.githubusercontent.com/u/65121394?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kathy</b></sub></a><br /><a href="#content-kfahn22" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/dipamsen"><img src="https://avatars.githubusercontent.com/u/59444569?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dipam Sen</b></sub></a><br /><a href="#content-dipamsen" title="Content">🖋</a></td>
-    <td align="center"><a href="https://denisovichdev.github.io/link-tree"><img src="https://avatars.githubusercontent.com/u/66998096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rishi</b></sub></a><br /><a href="#content-DenisovichDev" title="Content">🖋</a> <a href="#ideas-DenisovichDev" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/lobertrand"><img src="https://avatars.githubusercontent.com/u/37326143?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Loïc Bertrand</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=lobertrand" title="Code">💻</a> <a href="#content-lobertrand" title="Content">🖋</a></td>
     <td align="center"><a href="https://denisovichdev.github.io/link-tree"><img src="https://avatars.githubusercontent.com/u/66998096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rishi</b></sub></a><br /><a href="#content-DenisovichDev" title="Content">🖋</a> <a href="#ideas-DenisovichDev" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://www.shiffman.net"><img src="https://avatars.githubusercontent.com/u/191758?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Shiffman</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=shiffman" title="Code">💻</a></td>
   </tr>
 </table>
 
