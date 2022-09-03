@@ -31,9 +31,9 @@
       "contributions": [
         "code",
         "content"
-	   ]
-	},
-	{
+      ]
+    },
+    {
       "login": "DenisovichDev",
       "name": "Rishi",
       "avatar_url": "https://avatars.githubusercontent.com/u/66998096?v=4",
@@ -41,6 +41,15 @@
       "contributions": [
         "content",
         "ideas"
+      ]
+    },
+    {
+      "login": "shiffman",
+      "name": "Daniel Shiffman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191758?v=4",
+      "profile": "http://www.shiffman.net",
+      "contributions": [
+        "code"
       ]
     }
   ],
