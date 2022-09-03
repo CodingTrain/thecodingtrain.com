@@ -31,9 +31,9 @@
       "contributions": [
         "code",
         "content"
-	   ]
-	},
-	{
+      ]
+    },
+    {
       "login": "DenisovichDev",
       "name": "Rishi",
       "avatar_url": "https://avatars.githubusercontent.com/u/66998096?v=4",
@@ -41,6 +41,16 @@
       "contributions": [
         "content",
         "ideas"
+      ]
+    },
+    {
+      "login": "M0nica",
+      "name": "Monica Powell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6998954?v=4",
+      "profile": "https://aboutmonica.com",
+      "contributions": [
+        "code",
+        "content"
       ]
     }
   ],
