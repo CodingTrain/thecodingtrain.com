@@ -1,0 +1,66 @@
+{
+    "title": "Approximating the Value of Pi",
+    "description": "In this coding challenge, I use use a \u201cmonte carlo\u201d method to approximate the value of Pi in Processing (Java).",
+    "videoNumber": "95",
+    "videoId": "5cNnf_7e92Q",
+    "date": "2018-03-14",
+    "languages": ["Processing"],
+    "topics": [
+        "monte carlo",
+        "estimating pi"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Approximating PI" }, 
+        { "time": "0:48", "title": "Suggestion from akraus53" },
+        { "time": "1:43", "title": "Methodology" },
+        { "time": "7:31", "title": "Let's Code!" },
+        { "time": "13:30", "title": "Determine Number of \u201cDarts\u201d in the Circle" },
+        { "time": "18:20", "title": "Casting to Doubles to Increase Precision" },
+        { "time": "22:07", "title": "Keep Track of Current Best Estimate" },
+        { "time": "26:30", "title": "Suggestions and Conclusion" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Approximating the Value of PI",
+            "description": "This sketch uses a \u201cmonte carlo\u201d method to approximate the value of PI.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/bv_LWXvU5",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/095_Approximating_Pi/Processing/CC_095_Approximating_Pi"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Million Pi Digits",
+                    "url": "http://www.piday.org/million/",
+                    "description": ""
+                },
+                {
+                    "title": "Pi Day Code",
+                    "url": "https://github.com/CodingTrain/PiDay",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "STEMcoding celebrates Pi day!",
+                    "url": "https://youtu.be/D0-poyEALC0",
+                    "description": ""
+                },
+                {
+                    "title": "Learning Processing",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
