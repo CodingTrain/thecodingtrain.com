@@ -52,6 +52,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "btb331",
+      "name": "btb331",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36310755?v=4",
+      "profile": "https://github.com/btb331",
+      "contributions": [
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
