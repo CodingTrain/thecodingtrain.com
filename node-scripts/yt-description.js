@@ -311,7 +311,7 @@ Music from Epidemic Sound
 
 This description was auto-generated. If you see a problem, please open an issue: https://github.com/CodingTrain/thecodingtrain.com/issues/new`;
 
-  let filename = data.videoId;
+  let filename = data.videoId || /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
 
   return description;
