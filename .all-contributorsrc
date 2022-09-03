@@ -61,6 +61,15 @@
       "contributions": [
         "projectManagement"
       ]
+    },
+    {
+      "login": "pgriffin17",
+      "name": "pgriffin17",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31374077?v=4",
+      "profile": "https://github.com/pgriffin17",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
