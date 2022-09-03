@@ -62,9 +62,8 @@ function parseTrack(track) {
 }
 
 /**
- * Gets
+ * Parses index.json and pushes to videos array
  * @param {string} file File to parse
- * @returns
  */
 function getVideoData(file) {
   const content = fs.readFileSync(`./${file}`, 'utf-8');
@@ -85,17 +84,41 @@ function getVideoData(file) {
     }
   }
 
-  if (!url || url.length == 0)
+  if (!url || url.length == 0) {
     throw new Error(
       'Something went wrong in parsing this file: ' + filePath.join('/')
     );
-  const videoData = {
-    pageURL: url.join('/'),
-    data: parsed,
-    filePath: file
-  };
-  videos.push(videoData);
-  return videoData;
+  }
+
+  if (parsed.parts && !parsed.videoId) {
+    // Multipart Coding Challenge
+    // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
+
+    for (const part of parsed.parts) {
+      // copy all info from base object
+      const partInfo = JSON.parse(JSON.stringify(parsed));
+      delete partInfo.parts;
+
+      // copy videoId, title, timestamps from parts
+      partInfo.videoId = part.videoId;
+      partInfo.title = parsed.title + ' - ' + part.title;
+      partInfo.timestamps = part.timestamps;
+
+      const videoData = {
+        pageURL: url.join('/'),
+        data: partInfo,
+        filePath: file
+      };
+      videos.push(videoData);
+    }
+  } else {
+    const videoData = {
+      pageURL: url.join('/'),
+      data: parsed,
+      filePath: file
+    };
+    videos.push(videoData);
+  }
 }
 
 /**
