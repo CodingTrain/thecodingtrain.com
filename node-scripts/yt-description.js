@@ -1,3 +1,14 @@
+// Coding Train YouTube Description Generator
+
+// Usage:
+// All Videos: npm run yt-desc
+// Specific Video: npm run yt-desc <coding-train-website-url>
+
+// example:
+// npm run yt-desc https://thecodingtrain.com/challenges/171-wave-function-collapse
+
+// Output files are saved to `./_descriptions` directory
+
 const fs = require('fs');
 const path = require('path');
 
@@ -173,7 +184,7 @@ function writeDescription(video) {
 
   // Description
   description += `${data.description.trim()}`;
-  description += ` https://thecodingtrain.com/${pageURL}`;
+  description += ` Code: https://thecodingtrain.com/${pageURL}`;
 
   description += '\n';
 
@@ -347,18 +358,21 @@ const allTracks = [...mainTracks, ...sideTracks];
   primeDirectory('./_descriptions');
 
   if (video) {
-    const fileName = path.join(
-      'content',
-      'videos',
-      ...video.split('/'),
-      'index.json'
-    );
+    let pathName;
+    try {
+      pathName = new URL(video).pathname;
+    } catch (e) {
+      console.error('Unable to parse video URL.');
+      process.exit(1);
+    }
 
     for (const file of files) {
       getVideoData(file);
     }
 
-    const specifiedVideos = videos.filter((data) => data.filePath === fileName);
+    const specifiedVideos = videos.filter(
+      (data) => '/' + data.pageURL === pathName
+    );
 
     for (const video of specifiedVideos) {
       const description = writeDescription(video);
