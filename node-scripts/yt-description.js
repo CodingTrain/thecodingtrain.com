@@ -184,7 +184,7 @@ function writeDescription(video) {
 
   // Description
   description += `${data.description.trim()}`;
-  description += ` https://thecodingtrain.com/${pageURL}`;
+  description += ` Code: https://thecodingtrain.com/${pageURL}`;
 
   description += '\n';
 
