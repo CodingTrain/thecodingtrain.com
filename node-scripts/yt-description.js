@@ -62,9 +62,8 @@ function parseTrack(track) {
 }
 
 /**
- * Gets
+ * Parses index.json and pushes to videos array
  * @param {string} file File to parse
- * @returns
  */
 function getVideoData(file) {
   const content = fs.readFileSync(`./${file}`, 'utf-8');
@@ -85,17 +84,41 @@ function getVideoData(file) {
     }
   }
 
-  if (!url || url.length == 0)
+  if (!url || url.length == 0) {
     throw new Error(
       'Something went wrong in parsing this file: ' + filePath.join('/')
     );
-  const videoData = {
-    pageURL: url.join('/'),
-    data: parsed,
-    filePath: file
-  };
-  videos.push(videoData);
-  return videoData;
+  }
+
+  if (parsed.parts && parsed.parts.length > 0) {
+    // Multipart Coding Challenge
+    // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
+
+    for (const part of parsed.parts) {
+      // copy all info from base object
+      const partInfo = JSON.parse(JSON.stringify(parsed));
+      delete partInfo.parts;
+
+      // copy videoId, title, timestamps from parts
+      partInfo.videoId = part.videoId;
+      partInfo.title = parsed.title + ' - ' + part.title;
+      partInfo.timestamps = part.timestamps;
+
+      const videoData = {
+        pageURL: url.join('/'),
+        data: partInfo,
+        filePath: file
+      };
+      videos.push(videoData);
+    }
+  } else {
+    const videoData = {
+      pageURL: url.join('/'),
+      data: parsed,
+      filePath: file
+    };
+    videos.push(videoData);
+  }
 }
 
 /**
@@ -164,7 +187,7 @@ function writeDescription(video) {
 
   // Code Examples:
 
-  // Github Repo Link
+  // Github Standalone Repo Link
   const repoLink = data.codeExamples
     ?.map((ex) => Object.values(ex.urls))
     .flat()
@@ -296,7 +319,8 @@ Music from Epidemic Sound
 
 This description was auto-generated. If you see a problem, please open an issue: https://github.com/CodingTrain/thecodingtrain.com/issues/new`;
 
-  let filename = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  const videoSlug = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  let filename = videoSlug + '_' + data.videoId;
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
 
   return description;
@@ -334,12 +358,14 @@ const allTracks = [...mainTracks, ...sideTracks];
       getVideoData(file);
     }
 
-    const videoInfo = videos.find((data) => data.filePath === fileName);
+    const specifiedVideos = videos.filter((data) => data.filePath === fileName);
 
-    const description = writeDescription(videoInfo);
-    console.log('=====================================================');
-    console.log(description);
-    console.log('=====================================================');
+    for (const video of specifiedVideos) {
+      const description = writeDescription(video);
+      console.log('=====================================================');
+      console.log(description);
+      console.log('=====================================================');
+    }
   } else {
     for (const file of files) {
       getVideoData(file);
