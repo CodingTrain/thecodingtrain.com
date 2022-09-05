@@ -15,11 +15,11 @@
         { "time": "0:00", "title": "Approximating PI" }, 
         { "time": "0:48", "title": "Suggestion from akraus53" },
         { "time": "1:43", "title": "Methodology" },
-        { "time": "7:31", "title": "Let's Code!" },
-        { "time": "13:30", "title": "Determine Number of \u201cDarts\u201d in the Circle" },
-        { "time": "18:20", "title": "Casting to Doubles to Increase Precision" },
-        { "time": "22:07", "title": "Keep Track of Current Best Estimate" },
-        { "time": "26:30", "title": "Suggestions and Conclusion" }
+        { "time": "7:31", "title": "Let's code!" },
+        { "time": "13:30", "title": "Determine number of \u201cdarts\u201d in the circle" },
+        { "time": "18:20", "title": "Casting to doubles to increase precision" },
+        { "time": "22:07", "title": "Keep track of current best estimate" },
+        { "time": "26:30", "title": "Suggestions and conclusion" }
     ],
     "codeExamples": [
         {
