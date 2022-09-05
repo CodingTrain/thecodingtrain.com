@@ -145,7 +145,7 @@ function getVideoURL(url) {
 function writeDescription(video) {
   const data = video.data;
   const pageURL = video.pageURL;
-
+  const nebulaSlug = video.nebulaSlug;
   let description = '';
 
   // Description
@@ -153,6 +153,11 @@ function writeDescription(video) {
   description += ` https://thecodingtrain.com/${pageURL}`;
 
   description += '\n';
+
+  const nebulaURL = `https://nebula.tv/videos/`;
+  if (nebulaSlug) {
+    description += `\n Watch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
+  }
 
   // Code Examples:
 
