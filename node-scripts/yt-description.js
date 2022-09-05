@@ -159,6 +159,7 @@ function writeDescription(video) {
   const nebulaURL = `https://nebula.tv/videos/`;
   if (nebulaSlug) {
     description += `\nWatch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
+    description += '\n';
   }
 
   // Code Examples:
@@ -202,10 +203,10 @@ function writeDescription(video) {
     description += '\n';
 
     if (previousVideo)
-      description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
+      description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
 
     if (nextVideo)
-      description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
+      description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
     description +=
       '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
   } else {
@@ -231,10 +232,10 @@ function writeDescription(video) {
       );
 
       if (previousVideo)
-        description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=${track.data.playlistId}\n`;
+        description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=${track.data.playlistId}\n`;
 
       if (nextVideo)
-        description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=${track.data.playlistId}\n`;
+        description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=${track.data.playlistId}\n`;
 
       description += `🎥 All videos: https://www.youtube.com/playlist?list=${track.data.playlistId}\n`;
     }
