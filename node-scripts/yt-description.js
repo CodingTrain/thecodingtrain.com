@@ -158,7 +158,7 @@ function writeDescription(video) {
 
   const nebulaURL = `https://nebula.tv/videos/`;
   if (nebulaSlug) {
-    description += `\nWatch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
+    description += `\n🚀 Watch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
     description += '\n';
   }
 
