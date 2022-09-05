@@ -145,7 +145,7 @@ function getVideoURL(url) {
 function writeDescription(video) {
   const data = video.data;
   const pageURL = video.pageURL;
-  const nebulaSlug = video.nebulaSlug;
+  const nebulaSlug = video.data.nebulaSlug;
   let description = '';
 
   // Description
@@ -154,9 +154,11 @@ function writeDescription(video) {
 
   description += '\n';
 
+  console.log(nebulaSlug);
+
   const nebulaURL = `https://nebula.tv/videos/`;
   if (nebulaSlug) {
-    description += `\n Watch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
+    description += `\nWatch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
   }
 
   // Code Examples:
