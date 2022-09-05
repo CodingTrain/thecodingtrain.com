@@ -40,12 +40,6 @@
                     "title": "Million Pi Digits",
                     "url": "http://www.piday.org/million/",
                     "description": "List of the first million digits of pi (π) "
-                },
-                {
-                    "icon": "🥧",
-                    "title": "Pi Day Code",
-                    "url": "https://github.com/CodingTrain/PiDay",
-                    "description": "Link to the repository with Pi day code."
                 }
             ]
         },
