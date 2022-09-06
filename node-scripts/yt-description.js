@@ -1,11 +1,9 @@
 // Coding Train YouTube Description Generator
 
 // Usage:
-// All Videos: npm run yt-desc
-// Specific Video: npm run yt-desc <coding-train-website-url>
-
-// example:
-// npm run yt-desc https://thecodingtrain.com/challenges/171-wave-function-collapse
+// npm run yt-desc
+// npm run yt-desc https://thecodingtrain.com/path/to/video/page
+// npm run yt-desc ./path/to/index.json
 
 // Output files are saved to `./_descriptions` directory
 
@@ -59,6 +57,7 @@ function parseTrack(track) {
     trackFolder = video.split('/').slice(0, -1);
 
     // ignore track with coding challenge videos
+    // TODO fix (only checking first video)
     if (trackFolder[0] === 'challenges') return null;
 
     videoList = parsed.videos;
@@ -187,8 +186,6 @@ function writeDescription(video) {
   description += ` Code: https://thecodingtrain.com/${pageURL}`;
 
   description += '\n';
-
-  console.log(nebulaSlug);
 
   const nebulaURL = `https://nebula.tv/videos/`;
   if (nebulaSlug) {
@@ -330,6 +327,12 @@ Music from Epidemic Sound
 
 This description was auto-generated. If you see a problem, please open an issue: https://github.com/CodingTrain/thecodingtrain.com/issues/new`;
 
+  // Hashtags
+  const hashtags = [...data.topics, ...data.languages].map(
+    (tag) => '#' + tag.match(/\w+/g).join('').toLowerCase()
+  );
+  description += `\n\n${hashtags.join(' ')}`;
+
   const videoSlug = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
   let filename = videoSlug + '_' + data.videoId;
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
@@ -357,22 +360,25 @@ const allTracks = [...mainTracks, ...sideTracks];
   const files = findContentFilesRecursive(directory);
   primeDirectory('./_descriptions');
 
+  for (const file of files) {
+    getVideoData(file);
+  }
+
   if (video) {
-    let pathName;
+    let specifiedVideos = [];
     try {
-      pathName = new URL(video).pathname;
+      // coding train website url
+      const pathName = new URL(video).pathname;
+      specifiedVideos = videos.filter(
+        (data) => '/' + data.pageURL === pathName
+      );
     } catch (e) {
-      console.error('Unable to parse video URL.');
-      process.exit(1);
+      // local index.json path
+      let filePath = video;
+      if (!filePath.endsWith('index.json')) filePath = filePath + '/index.json';
+      filePath = path.normalize(filePath);
+      specifiedVideos = videos.filter((data) => data.filePath === filePath);
     }
-
-    for (const file of files) {
-      getVideoData(file);
-    }
-
-    const specifiedVideos = videos.filter(
-      (data) => '/' + data.pageURL === pathName
-    );
 
     for (const video of specifiedVideos) {
       const description = writeDescription(video);
