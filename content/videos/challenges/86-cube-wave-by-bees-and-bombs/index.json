@@ -1,6 +1,6 @@
 {
     "title": "Cube Wave by Bees and Bombs",
-    "description": "In this coding challenge, I attempt recreate a 3D @beesandbombs GIF with p5.js and the WebGL renderer.",
+    "description": "The artist BeesandBombs makes amazing algorithmic looping GIFs! Here's my attempt to recreate one of my favorite GIFs in JavaScript with p5.js and the WEBGL renderer.",
     "videoNumber": "86",
     "videoId": "H81Tdrmz2LA",
     "date": "2017-12-28",
