@@ -42,8 +42,9 @@
     "codeExamples": [
         {
             "title": "Cube Wave",
-            "urls": {
-                "image": "img1.jpg",
+            "description": "This sketch recreates one of my favorite gifs by artist Bees and Bombs.",
+            "image": "img1.jpg",
+            "urls": { 
                 "p5": "https://editor.p5js.org/codingtrain/sketches/lCDER-xsu",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/086_beesandbombs/Processing/CC_086_beesandbombs"
             }
