@@ -1,0 +1,81 @@
+{
+    "title": "Cube Wave by Bees and Bombs",
+    "description": "In this coding challenge, I attempt recreate a 3D @beesandbombs GIF with p5.js and the WebGL renderer.",
+    "videoNumber": "86",
+    "videoId": "H81Tdrmz2LA",
+    "date": "2017-12-28",
+    "languages": [],
+    "topics": [
+        "webgl",
+        "simple harmonic motion",
+        "3d",
+        "bees and bombs"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        {
+            "time": "0:00:00",
+            "title": "Coding Cube Wave by Bees and Bombs"
+        },
+        {
+            "time": "0:02:41",
+            "title": "Applying Oscillation"
+        },
+        {
+            "time": "0:07:43",
+            "title": "Moving to 3D"
+        },
+        {
+            "time": "0:11:33",
+            "title": "Adding Perspectives and Movement"
+        },
+        {
+            "time": "0:23:25",
+            "title": "Applying an Offset"
+        },
+        {
+            "time": "0:28:32",
+            "title": "Final wave and suggestion for improvements"
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Cube Wave",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/lCDER-xsu",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/086_beesandbombs/Processing/CC_086_beesandbombs"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "💾",
+                    "title": "p5.js reference",
+                    "url": "https://p5js.org/reference/",
+                    "description": "Documentation and reference materials for p5.js."
+                },
+                {
+                    "icon": "🖌",
+                    "title": "Bees and Bombs",
+                    "url": "https://beesandbombs.tumblr.com/",
+                    "description": "Bees and Bombs tumblr account."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "Simple Harmonic Motion",
+                    "url": "tracks/the-nature-of-code-2/noc/3-angles/5-harmonic-motion",
+                    "description": "In this video, I demonstrate how to use the sin() function in p5.js to simulate simple harmonic motion."
+                }
+            ]
+        }
+    ]
+}
