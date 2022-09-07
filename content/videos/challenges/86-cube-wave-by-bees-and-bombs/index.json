@@ -4,7 +4,7 @@
     "videoNumber": "86",
     "videoId": "H81Tdrmz2LA",
     "date": "2017-12-28",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
         "webgl",
         "simple harmonic motion",
@@ -43,6 +43,7 @@
         {
             "title": "Cube Wave",
             "urls": {
+                "image": "img1.jpg",
                 "p5": "https://editor.p5js.org/codingtrain/sketches/lCDER-xsu",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/086_beesandbombs/Processing/CC_086_beesandbombs"
             }
