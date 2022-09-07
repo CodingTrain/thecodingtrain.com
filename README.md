@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-This repo holds the website for thecodingtrain.com. The website is built with:
+This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
 
 - [Gatsby](https://www.gatsbyjs.com/) to perform the static site rendering
 - [React](https://reactjs.org/) as the general JavaScript framework
