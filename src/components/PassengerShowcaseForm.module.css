@@ -43,3 +43,7 @@
   background-color: var(--purple-light);
   color: var(--purple);
 }
+
+.submitBtn:hover {
+  cursor: pointer;
+}

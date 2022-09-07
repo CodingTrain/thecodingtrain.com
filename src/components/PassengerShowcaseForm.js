@@ -188,9 +188,10 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            A JPG or PNG image to be shown in the passenger showcase. The
-            image should be maximum 800 pixels wide and 500 kb in size and should visually represent your
-            work.  The image will be displayed with a 16:9 aspect ratio.
+            A JPG or PNG image to be shown in the passenger showcase. The image
+            should be maximum 800 pixels wide and 500 kb in size and should
+            visually represent your work. The image will be displayed with a
+            16:9 aspect ratio.
           </span>
         </label>
         <label>
@@ -239,7 +240,12 @@ const PassengerShowcaseForm = () => {
             the page in order to upload another submission.
           </div>
         )}
-        <Button onClick={onSubmit} variant="purple" disabled={submitted}>
+        <Button
+          className={css.submitBtn}
+          onClick={onSubmit}
+          variant="purple"
+          disabled={submitted}
+          rainbow>
           Submit
         </Button>
       </form>
