@@ -73,7 +73,7 @@
                 {
                     "icon": "🚂",
                     "title": "Simple Harmonic Motion",
-                    "url": "tracks/the-nature-of-code-2/noc/3-angles/5-harmonic-motion",
+                    "url": "/tracks/the-nature-of-code-2/noc/3-angles/5-harmonic-motion",
                     "description": "In this video, I demonstrate how to use the sin() function in p5.js to simulate simple harmonic motion."
                 }
             ]
