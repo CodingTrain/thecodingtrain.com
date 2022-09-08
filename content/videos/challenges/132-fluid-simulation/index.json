@@ -39,7 +39,7 @@
             "description": "This sketch is a port of a fluid simulation to Processing.",
             "image": "",
             "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_132_FluidSimulation/P5",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/132_FluidSimulation/P5",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/132_FluidSimulation/Processing/CC_132_FluidSimulation"
             }
         }
