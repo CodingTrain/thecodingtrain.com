@@ -1,6 +1,6 @@
 {
     "title": "Fluid Simulation",
-    "description": "In this video, I attempt to follow Mike Ash\u2019s guide to Fluid Simulation and port Jos Stam\u2019s \u201cReal-Time Fluid Dynamics for Games\u201d algorithm and code in Processing (Java).",
+    "description": "In this video, I follow Mike Ash\u2019s guide to Fluid Simulation and port Jos Stam\u2019s \u201cReal-Time Fluid Dynamics for Games\u201d algorithm and code in Processing (Java).",
     "videoNumber": "132",
     "videoId": "alhpH6ECFvQ",
     "date": "2019-02-12",
@@ -36,11 +36,11 @@
     "codeExamples": [
         {
             "title": "Fluid Simulation",
-            "description": "",
+            "description": "This sketch is a port of a fluid simulation to Processing.",
             "image": "",
             "urls": {
                 "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_132_FluidSimulation/P5",
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_132_FluidSimulation/Processing"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/132_FluidSimulation/Processing/CC_132_FluidSimulation"
             }
         }
     ],
@@ -51,27 +51,27 @@
                 {
                     "title": "GitHub Issue",
                     "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/178",
-                    "description": ""
+                    "description": "Topic suggestion from deardanielxd"
                 },
                 {
                     "title": "Real-Time Fluid Dynamics for Games",
                     "url": "http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf",
-                    "description": ""
+                    "description": "Paper by Jos Stam which presents an implementation of a fluid dynamics solver for game engines."
                 },
                 {
                     "title": "MSAFluid",
                     "url": "https://www.memo.tv/msafluid/",
-                    "description": ""
+                    "description": "A simple to use opensource C++ / Java / AS3 library (with examples) for openFrameworks, Cinder, Processing and Flash."
                 },
                 {
                     "title": "Lily Pad",
                     "url": "https://github.com/weymouth/lily-pad",
-                    "description": ""
+                    "description": "Test platform for real-time two-dimensional fluid/structure interaction simulations written in Processing."
                 },
                 {
                     "title": "Fluid Simulation for Dummies",
                     "url": "https://mikeash.com/pyblog/fluid-simulation-for-dummies.html",
-                    "description": ""
+                    "description": "Mike Ash's paper explaining how to do a 3D fluid simulation."
                 }
             ]
         },
@@ -79,19 +79,22 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🎥",
                     "title": "Why Laminar Flow is AWESOME",
                     "url": "https://youtu.be/y7Hyc3MRKno",
                     "description": "SmarterEveryDay video about laminar flow."
                 },
                 {
+                    "icon": "🎥",
                     "title": "What DO we know about turbulence?",
                     "url": "https://youtu.be/_UoTTq651dE",
-                    "description": ""
+                    "description": "3Blue1Brown video on the mathematical order amidst the chaos of turbulence."
                 },
                 {
+                    "icon": "🚂",
                     "title": "Perlin Noise",
-                    "url": "https://youtu.be/Qf4dIN99e2w",
-                    "description": ""
+                    "url": "/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise",
+                    "description": "In this video, I show you what Perlin noise is and how it can be used in creative coding"
                 }
             ]
         }
