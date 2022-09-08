@@ -35,7 +35,7 @@
             "title": "References",
             "links": [
                 {
-                    "icon": "",
+                    "icon": "📓",
                     "title": "Visualizing Algorithms",
                     "url": "https://bost.ocks.org/mike/algorithms/",
                     "description": "Paper by Mike Bostock about visualizing algorithms."
