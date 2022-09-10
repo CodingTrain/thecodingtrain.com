@@ -1,6 +1,6 @@
 {
   "title": "3D Cloth with Toxiclibs",
-  "description": "Boing! Using some particles and some springs with the Toxiclibs physics library, I create a 3D cloth simulation in Processing.",
+  "description": "Boing! Using some particles and some springs with the Toxiclibs physics library, I create a 3D cloth simulation in Processing. Toxiclibs can now be downloaded from Processing's library manager.",
   "videoNumber": "20",
   "videoId": "jrk_lOg_pVA",
   "date": "2016-06-09",
