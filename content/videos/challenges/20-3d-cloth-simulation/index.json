@@ -30,8 +30,7 @@
       "description": "Example using Toxiclibs for Processing and P2D renderer",
       "image": "processing-p2d.jpg",
       "urls": {
-        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_020_ClothSimulation/Processing/CC_020_Cloth2D",
-        "other": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_020_ClothSimulation/Processing/CC_020_Cloth2D"
+        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_020_ClothSimulation/Processing/CC_020_Cloth2D"
       }
     },
     {
@@ -39,8 +38,7 @@
       "description": "Example using Toxiclibs for Processing and P3D renderer",
       "image": "processing-p3d.jpg",
       "urls": {
-        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_020_ClothSimulation/Processing/CC_020_Cloth3D/Processing/CC_020_Cloth3D",
-        "other": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_020_ClothSimulation/Processing/CC_020_Cloth3D/Processing/CC_020_Cloth3D"
+        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_020_ClothSimulation/Processing/CC_020_Cloth3D/Processing/CC_020_Cloth3D"
       }
     },
     {
@@ -58,6 +56,7 @@
       "title": "References",
       "links": [
         {
+          "icon": "📝",
           "title": "Toxiclibs Physics Library",
           "url": "http://haptic-data.com/toxiclibsjs",
           "description": "Documentation for the Toxiclibs library"
