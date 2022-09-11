@@ -24,5 +24,17 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "HTML playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX",
+          "description": "This is part 2 of the Learning p5.js series."
+        }
+      ]
+    }
+  ]
 }
