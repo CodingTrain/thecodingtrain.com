@@ -1,0 +1,46 @@
+{
+    "title": "Bubble Sort Visualization",
+    "description": "In this coding challenge, I implement a \u201cbubble sort\u201d algorithm in Processing (Java) and sort randomly generated lines.",
+    "videoNumber": "114",
+    "videoId": "67k3I2GxTH8",
+    "date": "2018-08-27",
+    "languages": ["Processing"],
+    "topics": [
+        "bubble sort algorithm"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introducing today's topic" },
+        { "time": "1:50", "title": "What is a bubble sort?" },
+        { "time": "4:10", "title": "Visualizing the array" },
+        { "time": "6:17", "title": "Write the sorting algorithm" },
+        { "time": "8:19", "title": "Write the swap function" },
+        { "time": "9:30", "title": "Animate the sort" },
+        { "time": "12:52", "title": "Speed up the sorting" },
+        { "time": "16:41", "title": "Conclusion and suggestions" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Bubble Sort",
+            "description": "This sketch implements a bubble sort algorithm.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/3HVrL9m36",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/114_BubbleSortViz/Processing/CC_114_BubbleSortViz"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "📓",
+                    "title": "Visualizing Algorithms",
+                    "url": "https://bost.ocks.org/mike/algorithms/",
+                    "description": "Paper by Mike Bostock about visualizing algorithms."
+                }
+            ]
+        }
+    ]
+}
