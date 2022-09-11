@@ -21,5 +21,23 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ES6 playlist",
+          "url": "/tracks/topics-in-native-javascript",
+          "description": "Video tutorials covering various features of modern JavaScript."
+        },
+        {
+          "icon": "🚂",
+          "title": "Function Parameters and Arguments",
+          "url": "/tracks/code-programming-with-p5-js/code/5-functions/2-arguments",
+          "description": "This video looks at re-usability and functions."
+        }
+      ]
+    }
+  ]
 }
