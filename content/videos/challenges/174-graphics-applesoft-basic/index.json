@@ -44,9 +44,9 @@
     {
       "title": "Animation Flicker",
       "description": "Demonstration of non double-buffered flickering",
-      "image": "flicker.jpg",
+      "image": "flicker.png",
       "urls": {
-        "processing": "TBD"
+        "processing": "https://gist.github.com/shiffman/17190e1e01fd1531e25de30eeeef1576"
       }
     },
     {
