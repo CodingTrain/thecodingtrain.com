@@ -7,7 +7,16 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "generative art"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "0:39", "title": "Recursion" },
+    { "time": "2:51", "title": "Exit condition" },
+    { "time": "3:53", "title": "Let's Code!" },
+    { "time": "5:03", "title": "Branch function" },
+    { "time": "10:06", "title": "Add slider" },
+    { "time": "13:25", "title": "Push and pop functions" },
+    { "time": "14:42", "title": "Conclusion and next steps" }
+  ],
   "codeExamples": [
    {
             "title": "Recursive Fractal Tree",
