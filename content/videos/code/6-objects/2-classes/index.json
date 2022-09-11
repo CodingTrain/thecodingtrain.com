@@ -12,7 +12,7 @@
     {"time": "3:09", "title": "Encapsulation" },
     {"time": "3:37", "title": "Using Classes as a Template for Objects" },
     {"time": "8:40", "title": "The constructor() Function is the Object's Setup" },
-    {"time": "10:10", "title": "Using \u201cths.\u201d to Declare Class Variables" },
+    {"time": "10:10", "title": "Using \u201cthis.\u201d to Declare Class Variables" },
     {"time": "12:26", "title": "Code Example" },
     {"time": "14:50", "title": "Adding Functionality to a Class" }
   ],

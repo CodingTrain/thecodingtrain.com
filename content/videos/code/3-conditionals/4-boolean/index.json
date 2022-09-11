@@ -10,8 +10,8 @@
   "timestamps": [
     {"time": "0:00", "title": "Introduction" },
     {"time": "0:48", "title": "Boolean Variables -- TRUE or FALSE" },
-    {"time": "3:00", "title": "Distiction Between Mouse is Clicked and Mouse is Pressed" },
-    {"time": "8:00", "title": "Assiging States to the Program" },
+    {"time": "3:00", "title": "Distinction Between Mouse is Clicked and Mouse is Pressed" },
+    {"time": "8:00", "title": "Assigning States to the Program" },
     {"time": "11:50", "title": "mousePressed()" },
     {"time": "13:35", "title": "Toggling the State" },
     {"time": "14:36", "title": "The NOT operator" }
