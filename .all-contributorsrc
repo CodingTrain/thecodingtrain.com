@@ -79,6 +79,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "zvolcsey",
+      "name": "Zoltán Völcsey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41576384?v=4",
+      "profile": "https://zoltanvolcsey.onrender.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
