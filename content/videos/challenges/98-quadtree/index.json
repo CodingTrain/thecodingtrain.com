@@ -63,8 +63,7 @@
     "codeExamples": [
         {
             "title": "Quadtree Parts 1 & 2",
-            "description": "This sketch implements a quadtree structure.",
-            "image": "img1.jpg",
+            "description": "This sketch implements a quadtree structure.",  
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/g7LnWQ42x",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/098.1_QuadTree/Processing/CC_098.1_QuadTree"
@@ -73,6 +72,7 @@
         {
             "title": "Quadtree - Part 3",
             "description": "This sketch applies the quadtree algorithm to particle system collisions.",
+            "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/CDMjU0GIK",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/098.3_QuadTree_Collisions/Processing/CC_098.3_QuadTree_Collisions"
