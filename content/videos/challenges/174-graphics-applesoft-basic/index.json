@@ -71,6 +71,12 @@
       "title": "References",
       "links": [
         {
+          "icon": "✨",
+          "title": "Ad-free Extended Cut",
+          "url": "https://nebula.tv/videos/codingtrain-coding-challenge-174-fractal-tree-on-apple-ii",
+          "description": "Nebula plus version is ad-free and includes additional footage about color in GR and HGR modes."
+        },
+        {
           "icon": "🧠",
           "title": "What is Code?",
           "url": "https://nebula.tv/what-is-code",
