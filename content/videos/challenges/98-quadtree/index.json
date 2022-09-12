@@ -6,11 +6,8 @@
     "date": "2018-03-26",
     "languages": ["JavaScript", "p5.js"],
     "topics": [
-        "quadtree tutorial",
-        "quadtree collision detection",
-        "quadtree implementation",
-        "quadtree example",
-        "quadtree data structure"
+        "quadtree data structure",
+        "quadtree collision detection"
     ],
     "canContribute": true,
     "relatedChallenges": [],
