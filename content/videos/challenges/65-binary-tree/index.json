@@ -1,0 +1,64 @@
+{
+    "title": "Binary Tree",
+    "description": "This multi-part coding challenge is part of the first week of my course: \u201cIntelligence and Learning.\u201d Here I attempt to implement a classic data structure: The Binary Search Tree.",
+    "videoNumber": "65",
+    "videoId": "ZNH0MuQ51m4",
+    "date": "2017-03-21",
+    "languages": [],
+    "topics": [
+        "binary search tree",
+        "data structure binary",
+        "data structure binary tree",
+        "intelligence and learning",
+        "machine learning"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [{
+        "title": "Binary Search Tree",
+        "videoId": "ZNH0MuQ51m4",
+        "timestamps": []
+    },
+    {
+        "title": "Visualizng a Binary Tree",
+        "videoId": "KFEvF_ymuzY",
+        "timestamps": []
+    }
+],
+    "codeExamples": [
+        {
+            "title": "Binary Search Tree",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/pLFI8gCU9",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/065.1_binary_tree/Processing/CC_065_1_binary_tree"
+            }
+        },
+        {
+            "title": "Visualizing a Binary Tree",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/UBGpfubd1",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/065.2_binary_tree_viz/Processing/CC_065_2_binary_tree_viz"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Intelligence and Learning (Spring 2017)",
+                    "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+                    "description": ""
+                },
+                {
+                    "title": "Grokking Algorithms book",
+                    "url": "http://amzn.to/2mMCK7Z",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
