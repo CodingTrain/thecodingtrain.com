@@ -37,31 +37,37 @@
         "title": "Quadtree - Part 2",
         "videoId": "QQx_NmCIuCY",
         "timestamps": [
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
+            { "time": "0:00", "title": "Quadtree Part 2--query the data structure for points contained within a rectangular boundary" },
+            { "time": "1:45", "title": "Write a query function to get all the points within a rectangle" },
+            { "time": "3:16", "title": "Write an intersection function" },
+            { "time": "6:14", "title": "Create an array of \u201cfound\u201d points" },
+            { "time": "13:00", "title": "Draw points within the rectangle" },
+            { "time": "15:21", "title": "Sanity check--how many points are being counted" },
+            { "time": "16:57", "title": "Adjust the rectangle with the mouse" },
+            { "time": "18:44", "title": "Return the points array" },
+            { "time": "19:42", "title": "Up next: apply the quadtrees algorithm to a collision detection problem" }
         ]
     },
     {
         "title": "Quadtree - Part 3",
         "videoId": "z0YFFg_nBjw",
         "timestamps": [
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
-            { "time": "0:00", "title": "Introduction" },
+            { "time": "0:00", "title": "Quadtree Part 3--apply the algorithm to particle system collisions" },
+            { "time": "1:05", "title": "Start with a Particle class" },
+            { "time": "2:29", "title": "Add particle checking" },
+            { "time": "6:00", "title": "Add the quadtree" },
+            { "time": "9:01", "title": "Add userdata property to the point object" },
+            { "time": "10:39", "title": "Re-create quadtree object every frame" },
+            { "time": "12:52", "title": "Query a circular range" },
+            { "time": "17:00", "title": "Conclusion and suggested variations" }
         ]
     }
 ],
     "codeExamples": [
         {
-            "title": "Quadtree",
-            "description": "",
+            "title": "Quadtree Parts 1 & 2",
+            "description": "This sketch implements a quadtree structure.",
+            "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/g7LnWQ42x",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/098.1_QuadTree/Processing/CC_098.1_QuadTree"
@@ -69,7 +75,7 @@
         },
         {
             "title": "Quadtree - Part 3",
-            "description": "",
+            "description": "This sketch applies the quadtree algorithm to particle system collisions.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/CDMjU0GIK",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/098.3_QuadTree_Collisions/Processing/CC_098.3_QuadTree_Collisions"
@@ -81,14 +87,16 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "💾",
                     "title": "Quadtree repo",
                     "url": "https://github.com/CodingTrain/QuadTree",
-                    "description": ""
+                    "description": "Github repo with quadtree code."
                 },
                 {
+                    "icon": "🗄",
                     "title": "Quadtree on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Quadtree",
-                    "description": ""
+                    "description": "Webpage with information and resources about Quadtrees."
                 }
             ]
         },
@@ -96,14 +104,16 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🚂",
                     "title": "Quadtrees Live Stream Archive",
                     "url": "https://youtu.be/MxnqJGwu2cc",
-                    "description": ""
+                    "description": "Quadtree livestream"
                 },
                 {
+                    "icon": "🚂",
                     "title": "Binary Tree Coding Challenge",
-                    "url": "/challenge/065.1-binary-tree",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=ZNH0MuQ51m4",
+                    "description": "In this video, I implement a classic data structure: The Binary Search Tree."
                 }
             ]
         }
