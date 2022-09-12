@@ -31,7 +31,7 @@
             "title": "Breadth-First Search Part 2",
             "videoId": "-he67EEM6z0",
             "timestamps": [
-                { "time": "0:00", "title": "Continuation of Part 1" },
+                { "time": "0:00", "title": "Continuation of Breadth First Search" },
                 { "time": "2:31", "title": "Add end and start node to graph object" },
                 { "time": "4:35", "title": "Queue data structure" },
                 { "time": "6:53", "title": "Write the code for the breadth first search algorithm" },
@@ -56,7 +56,7 @@
                     "icon": "📕",
                     "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
                     "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
-                    "description": ""
+                    "description": "Syllabus for Part 2 of Nature of Code: \u201cIntelligence and Learning\u201d at ITP Spring 2017"
                 },
                 {
                     "icon": "📕",
