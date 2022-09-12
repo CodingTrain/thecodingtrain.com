@@ -1,0 +1,107 @@
+{
+    "title": "Fluid Simulation",
+    "description": "In this video, I follow Mike Ash\u2019s guide to Fluid Simulation and port Jos Stam\u2019s \u201cReal-Time Fluid Dynamics for Games\u201d algorithm and code in Processing (Java).",
+    "videoNumber": "132",
+    "videoId": "alhpH6ECFvQ",
+    "date": "2019-02-12",
+    "languages": ["processing"],
+    "topics": [
+        "fluid simulation",
+        "turbulent fluid flow"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:59", "title": "Topic suggestion from deardanielxd" },
+        { "time": "3:30", "title": "Mike Ash's \u201cFluid For Dummies\u201d thesis" },
+        { "time": "6:42", "title": "Incompressible fluid" },
+        { "time": "8:45", "title": "Velocity field" },
+        { "time": "9:12", "title": "Density of dye" },
+        { "time": "11:14", "title": "Port the code to Processing" },
+        { "time": "15:47", "title": "addDensity() function" },
+        { "time": "19:34", "title": "Diffuse" },
+        { "time": "23:35", "title": "Project" },
+        { "time": "25:52", "title": "Advect" },
+        { "time": "30:17", "title": "Set bounds" },
+        { "time": "33:05", "title": "Mirror velocity in edge layers" },
+        { "time": "36:19", "title": "Time set function" },
+        { "time": "38:58", "title": "Render the density" },
+        { "time": "44:10", "title": "Add fade" },
+        { "time": "46:40", "title": "Add perlin noise" },
+        { "time": "48:00", "title": "Add Pvector" },
+        { "time": "50:35", "title": "Recap and next steps" },
+        { "time": "52:22", "title": "Adjustments to code" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Fluid Simulation",
+            "description": "This sketch is a port of a fluid simulation to Processing.",
+            "image": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/9kVfB4BF2",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/132_FluidSimulation/Processing/CC_132_FluidSimulation"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "💾",
+                    "title": "GitHub Issue",
+                    "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/178",
+                    "description": "Topic suggestion from deardanielxd"
+                },
+                {
+                    "icon": "💻",
+                    "title": "Real-Time Fluid Dynamics for Games",
+                    "url": "http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf",
+                    "description": "Paper by Jos Stam which presents an implementation of a fluid dynamics solver for game engines."
+                },
+                {
+                    "icon": "💻",
+                    "title": "MSAFluid",
+                    "url": "https://www.memo.tv/msafluid/",
+                    "description": "A simple to use opensource C++ / Java / AS3 library (with examples) for openFrameworks, Cinder, Processing and Flash."
+                },
+                {
+                    "icon": "💻",
+                    "title": "Lily Pad",
+                    "url": "https://github.com/weymouth/lily-pad",
+                    "description": "Test platform for real-time two-dimensional fluid/structure interaction simulations written in Processing."
+                },
+                {
+                    "icon": "📓",
+                    "title": "Fluid Simulation for Dummies",
+                    "url": "https://mikeash.com/pyblog/fluid-simulation-for-dummies.html",
+                    "description": "Mike Ash's paper explaining how to do a 3D fluid simulation."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Why Laminar Flow is AWESOME",
+                    "url": "https://youtu.be/y7Hyc3MRKno",
+                    "description": "SmarterEveryDay video about laminar flow."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "What DO we know about turbulence?",
+                    "url": "https://youtu.be/_UoTTq651dE",
+                    "description": "3Blue1Brown video on the mathematical order amidst the chaos of turbulence."
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Perlin Noise",
+                    "url": "/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise",
+                    "description": "In this video, I show you what Perlin noise is and how it can be used in creative coding"
+                }
+            ]
+        }
+    ]
+}
