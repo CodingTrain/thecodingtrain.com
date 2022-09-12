@@ -22,8 +22,8 @@
                 { "time": "6:40", "title": "Let's Code!" },
                 { "time": "8:02", "title": "Graph Object" },
                 { "time": "9:44", "title": "Read the data" },
-                { "time": "12:28", "title": "Attach method to graph object using prototype" },
-                { "time": "16:52", "title": "Add edges function" },
+                { "time": "12:28", "title": "Attach a method to the graph object using prototype" },
+                { "time": "16:52", "title": "Add an edges function" },
                 { "time": "17:38", "title": "Determine whether actor node already exists" }
             ]
         },
@@ -61,8 +61,8 @@
                 {
                     "icon": "📕",
                     "title": "Nature of Code",
-                    "url": "http://natureofcode.com/",
-                    "description": ""
+                    "url": "https://github.com/nature-of-code/noc-book-2",
+                    "description": "Repository for The Nature of Code book with p5.js"
                 },
                 {
                     "icon": "🥓",
