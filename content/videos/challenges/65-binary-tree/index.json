@@ -25,14 +25,14 @@
             { "time": "8:27", "title": "Algorithm for how the tree is sorted" },
             { "time": "11:36", "title": "Node object" },
             { "time": "12:17", "title": "Tree object" },
-            { "time": "12:39", "title": "Use prototype to add a addNode function" },
+            { "time": "12:39", "title": "Use prototype to add an addNode function" },
             { "time": "18:58", "title": "Use recursion to add nodes" },
-            { "time": "20:42", "title": "Deal with case when two values are equal" },
+            { "time": "20:42", "title": "Deal with the case when two values are equal" },
             { "time": "22:50", "title": "How do you traverse the tree?" },
             { "time": "25:00", "title": "What does it mean to visit a node?" },
             { "time": "27:39", "title": "Add random values" },
             { "time": "28:58", "title": "Add a function to search the tree" },
-            { "time": "37:57", "title": "Conclusion and suggstioned variations" }
+            { "time": "37:57", "title": "Conclusion and suggested variations" }
         ]
     },
     {
@@ -43,7 +43,7 @@
             { "time": "1:15", "title": "Add a x and y position to each node" },
             { "time": "2:46", "title": "Draw the node" },
             { "time": "4:29", "title": "Draw a line between the nodes" },
-            { "time": "7:03", "title": "Conclusion and suggestions for visualization possibilities" }  
+            { "time": "7:03", "title": "Conclusion and suggested visualization variations" }  
         ]
     }
 ],
@@ -59,7 +59,7 @@
         },
         {
             "title": "Visualizing a Binary Tree",
-            "description": "",
+            "description": "This sketch visualizes a binary tree.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/UBGpfubd1",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/065.2_binary_tree_viz/Processing/CC_065_2_binary_tree_viz"
@@ -71,14 +71,16 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📕",
                     "title": "Intelligence and Learning (Spring 2017)",
                     "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
-                    "description": ""
+                    "description": "Syllabus for Part 2 of Nature of Code: \u201cIntelligence and Learning\u201d at ITP Spring 2017"
                 },
                 {
+                    "icon": "📘",
                     "title": "Grokking Algorithms book",
                     "url": "http://amzn.to/2mMCK7Z",
-                    "description": ""
+                    "description": "Grokking Algorithms is a fully illustrated, friendly guide that teaches you how to apply common algorithms to the practical problems."
                 }
             ]
         }
