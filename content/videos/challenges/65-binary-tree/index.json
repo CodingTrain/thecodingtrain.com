@@ -7,9 +7,8 @@
     "languages": ["JavaScript", "p5.js"],
     "topics": [
         "binary search tree",
-        "data structure binary tree",
-        "intelligence and learning",
-        "machine learning"
+        "data structure",
+        "intelligence and learning"
     ],
     "canContribute": true,
     "relatedChallenges": [],
