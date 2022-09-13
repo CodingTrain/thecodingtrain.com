@@ -9,7 +9,7 @@
   "canContribute": true,
   "relatedChallenges": [
     "52-random-walker",
-    "53-random-walker-with-vectors-and-levy-flight"
+    "10-dfs-maze-generator"
   ],
   "timestamps": [
     {
@@ -168,7 +168,7 @@
         },
         {
           "icon": "🎥",
-          "title": "Recursion - Coding Train 77",
+          "title": "Recursion - Coding Challenge 77",
           "url": "https://www.youtube.com/watch?v=jPsZwrV9ld0",
           "description": "The concept of recursion is used to create fractal patterns in p5.js."
         },
