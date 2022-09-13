@@ -4,10 +4,9 @@
     "videoNumber": "65",
     "videoId": "ZNH0MuQ51m4",
     "date": "2017-03-21",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
         "binary search tree",
-        "data structure binary",
         "data structure binary tree",
         "intelligence and learning",
         "machine learning"
@@ -18,18 +17,41 @@
     "parts": [{
         "title": "Binary Search Tree",
         "videoId": "ZNH0MuQ51m4",
-        "timestamps": []
+        "timestamps": [
+            { "time": "0:00", "title": "Introducing today's topic: Binary Trees" },
+            { "time": "1:18", "title": "Why would you use a binary tree?" },
+            { "time": "3:36", "title": "What is a data structure?" },
+            { "time": "4:47", "title": "Nodes with children" },
+            { "time": "8:27", "title": "Algorithm for how the tree is sorted" },
+            { "time": "11:36", "title": "Node object" },
+            { "time": "12:17", "title": "Tree object" },
+            { "time": "12:39", "title": "Use prototype to add a addNode function" },
+            { "time": "18:58", "title": "Use recursion to add nodes" },
+            { "time": "20:42", "title": "Deal with case when two values are equal" },
+            { "time": "22:50", "title": "How do you traverse the tree?" },
+            { "time": "25:00", "title": "What does it mean to visit a node?" },
+            { "time": "27:39", "title": "Add random values" },
+            { "time": "28:58", "title": "Add a function to search the tree" },
+            { "time": "37:57", "title": "Conclusion and suggstioned variations" }
+        ]
     },
     {
         "title": "Visualizng a Binary Tree",
         "videoId": "KFEvF_ymuzY",
-        "timestamps": []
+        "timestamps": [
+            { "time": "0:00", "title": "Visualizing the Binary Tree" },
+            { "time": "1:15", "title": "Add a x and y position to each node" },
+            { "time": "2:46", "title": "Draw the node" },
+            { "time": "4:29", "title": "Draw a line between the nodes" },
+            { "time": "7:03", "title": "Conclusion and suggestions for visualization possibilities" }  
+        ]
     }
 ],
     "codeExamples": [
         {
             "title": "Binary Search Tree",
-            "description": "",
+            "description": "This sketch implements a binary tree search algorithm.",
+            "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/pLFI8gCU9",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/065.1_binary_tree/Processing/CC_065_1_binary_tree"
