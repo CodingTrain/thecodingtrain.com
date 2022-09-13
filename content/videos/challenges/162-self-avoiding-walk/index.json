@@ -7,6 +7,10 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["self avoiding walk", "backtracking"],
   "canContribute": true,
+  "relatedChallenges": [
+    "52-random-walker",
+    "53-random-walker-with-vectors-and-levy-flight"
+  ],
   "timestamps": [
     {
       "time": "0:00:00",

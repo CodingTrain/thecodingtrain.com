@@ -13,7 +13,10 @@
     "probability"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "52-random-walker",
+    "162-self-avoiding-walk"
+  ],
   "timestamps": [
     {
       "time": "0:00",

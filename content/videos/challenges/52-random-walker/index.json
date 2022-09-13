@@ -7,6 +7,10 @@
   "languages": ["p5.js", "JavaScript", "Processing", "Java"],
   "topics": ["random", "floor", "random walker"],
   "canContribute": true,
+  "relatedChallenges": [
+    "53-random-walker-with-vectors-and-levy-flight",
+    "162-self-avoiding-walk"
+  ],
   "timestamps": [
     {
       "time": "0:00",
