@@ -34,7 +34,8 @@
     "codeExamples": [
         {
             "title": "Black Hole Visualization",
-            "description": "",
+            "description": "The sketch visualizes a black hole using Newtonian gravitational attraction.",
+            "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/2zZqSkxtj",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/144_Black_Hole_Newtonian/Processing/CC_114_Black_Hole_Newtonian"
@@ -60,7 +61,7 @@
                     "icon": "🖌",
                     "title": "How to draw a Black Hole",
                     "url": "http://rantonels.github.io/starless/",
-                    "description": "Explanatio of how to visualize a black hole"
+                    "description": "Explanation of how to visualize a black hole"
                 },
                 {
                     "icon": "📰",
