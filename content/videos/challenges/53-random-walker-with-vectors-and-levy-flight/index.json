@@ -13,7 +13,7 @@
     "probability"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["52-random-walker", "162-self-avoiding-walk"],
   "timestamps": [
     {
       "time": "0:00",
@@ -84,7 +84,7 @@
         {
           "icon": "📽",
           "title": "Coding Challenge #52: Random Walker",
-          "url": "https://www.youtube.com/watch?v=l__fEY1xanY",
+          "url": "/challenges/52-random-walker",
           "description": "In this Coding Challenge, I implement a Random Walker using the p5.js library."
         }
       ]

@@ -7,6 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["self avoiding walk", "backtracking"],
   "canContribute": true,
+  "relatedChallenges": ["52-random-walker", "10-dfs-maze-generator"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -141,13 +142,13 @@
         {
           "icon": "🎥",
           "title": "Random Walker - Coding Challenge 52",
-          "url": "https://www.youtube.com/watch?v=l__fEY1xanY",
+          "url": "/challenges/52-random-walker",
           "description": "A random walker is implemented in p5.js"
         },
         {
           "icon": "🎥",
           "title": "Minesweeper - Coding Challenge 71",
-          "url": "https://www.youtube.com/watch?v=LFU5ZlrR21E",
+          "url": "/challenges/71-minesweeper",
           "description": "The classic game of minesweeper is implemented in p5.js."
         },
         {
@@ -159,19 +160,19 @@
         {
           "icon": "🎥",
           "title": "Maze Generator - Coding Challenge 10",
-          "url": "https://www.youtube.com/watch?v=HyK_Q5rrcr4",
+          "url": "/challenges/10-dfs-maze-generator",
           "description": "A maze generator is implemented in p5.js"
         },
         {
           "icon": "🎥",
-          "title": "Recursion - Coding Train 77",
-          "url": "https://www.youtube.com/watch?v=jPsZwrV9ld0",
+          "title": "Recursion - Coding Challenge 77",
+          "url": "/challenges/77-recursion",
           "description": "The concept of recursion is used to create fractal patterns in p5.js."
         },
         {
           "icon": "🎥",
           "title": "A* Pathfinding Algorithm - Coding Challenge 51",
-          "url": "https://www.youtube.com/watch?v=aKYlikFAV4k",
+          "url": "/challenges/51-a-pathfinding-algorithm",
           "description": "An implementation of the A* pathfinding algorithm to find the optimal path between two points in a 2D grid"
         },
         {

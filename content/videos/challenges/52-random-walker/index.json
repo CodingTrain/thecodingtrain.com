@@ -7,6 +7,10 @@
   "languages": ["p5.js", "JavaScript", "Processing", "Java"],
   "topics": ["random", "floor", "random walker"],
   "canContribute": true,
+  "relatedChallenges": [
+    "53-random-walker-with-vectors-and-levy-flight",
+    "162-self-avoiding-walk"
+  ],
   "timestamps": [
     {
       "time": "0:00",
@@ -74,7 +78,7 @@
         {
           "icon": "🎥",
           "title": "Random Walker with Vectors and Lévy Flight",
-          "url": "https://www.youtube.com/watch?v=bqF9w9TTfeo",
+          "url": "/challenges/53-random-walker-with-vectors-and-levy-flight",
           "description": "Random walker using vectors to vary the distance of each step, and implementing Lévy Flight."
         }
       ]
