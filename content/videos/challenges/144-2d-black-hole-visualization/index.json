@@ -33,12 +33,20 @@
     ],
     "codeExamples": [
         {
-            "title": "Black Hole Visualization",
+            "title": "Black Hole Visualization - Newtonian Granvitational Attraction",
             "description": "The sketch visualizes a black hole using Newtonian gravitational attraction.",
             "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/2zZqSkxtj",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/144_Black_Hole_Newtonian/Processing/CC_114_Black_Hole_Newtonian"
+            }
+        },
+        {
+            "title": "Black Hole Visualization - Code with Relativistic Corrections",
+            "description": "Code with relativistic corrections.",
+            "image": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/4DvaeH0Ur"   
             }
         }
     ],
@@ -46,11 +54,6 @@
         {
             "title": "References",
             "links": [
-                {
-                    "title": "Code with Relativistic Corrections",
-                    "url": "https://editor.p5js.org/codingtrain/sketches/4DvaeH0Ur",
-                    "description": ""
-                },
                 {
                     "icon": "📓",
                     "title": "Simulating a Black Hole!",
