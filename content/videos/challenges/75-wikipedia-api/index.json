@@ -8,16 +8,8 @@
     "topics": [
         "web crawler",
         "wikipedia api",
-        "wiki api",
         "regular expressions",
-        "json",
-        "load json",
-        "api",
-        "rest api",
-        "wiki",
-        "asynchronous requests",
-        "network requests",
-        "restful api"
+        "load json"
     ],
     "canContribute": true,
     "relatedChallenges": [],
