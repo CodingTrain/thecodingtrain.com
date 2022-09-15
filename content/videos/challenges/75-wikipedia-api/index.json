@@ -15,7 +15,7 @@
     "relatedChallenges": [],
     "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: a Wikipedia web crawler" },
-        { "time": "1:17", "title": "Add an input box to the the html" },
+        { "time": "1:17", "title": "Add an input box to the html" },
         { "time": "2:48", "title": "Handle the user input event" },
         { "time": "4:45", "title": "The Wikipedia search URL" },
         { "time": "6:45", "title": "Use loadJSON to request a page" },
