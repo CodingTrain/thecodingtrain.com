@@ -32,7 +32,7 @@
     "codeExamples": [
         {
             "title": "Wikipedia web crawler",
-            "description": "",
+            "description": "This sketch implements a Wikipedia web crawler",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/A4u07unm5"
             }
@@ -43,9 +43,10 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🗄",
                     "title": "Wikipedia API Help",
                     "url": "https://www.mediawiki.org/wiki/API:Main_page",
-                    "description": ""
+                    "description": "Webpage with documentation for the MediaWiki Action API."
                 }
             ]
         },
@@ -53,14 +54,16 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🚂",
                     "title": "Videos on working with data and APIs",
-                    "url": "/Tutorials/10-working-with-data",
-                    "description": ""
+                    "url": "/tracks/data-and-apis-in-javascript",
+                    "description": "This course is for aspiring developers who want to learn how to work with data in web applications."
                 },
                 {
+                    "icon": "🚂",
                     "title": "My Videos on Regular Expressions",
-                    "url": "/learning/programming-with-text/2.1-introduction",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=7DG3kCDx53c",
+                    "description": "In this video I introduce Regular Expressions.  What are they and how are they used?"
                 }
             ]
         }
