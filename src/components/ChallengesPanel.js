@@ -8,66 +8,70 @@ import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
 import { shuffleCopy } from '../utils';
 
-const Card = memo(
-  ({ className, challenge, placeholderImage, headerType = 'h3' }) => {
-    const { title, cover, description, date, slug, videoNumber } = challenge;
-    const Header = headerType;
-    return (
-      <article className={cn(css.challenge, className)}>
-        <div className={css.titleContainer}>
-          <div className={css.icon}>👁</div>
-          <Header className={css.title}>
-            {
-              <Link to={`/challenges/${slug}`}>
-                {videoNumber ? `#${videoNumber} — ` : ''} {title}
-              </Link>
-            }
-          </Header>
-        </div>
-        <div className={css.thumb}>
-          <div className={css.left}>
-            <Link to={`/challenges/${slug}`} aria-label={title}>
-              {cover ? (
-                <Image
-                  image={cover.file.childImageSharp.gatsbyImageData}
-                  pictureClassName={css.picture}
-                  imgClassName={css.image}
-                  alt={`"${title}" challenge`}
-                />
-              ) : placeholderImage ? (
-                <Image
-                  image={placeholderImage}
-                  pictureClassName={css.picture}
-                  imgClassName={css.image}
-                  alt={`"${title}" challenge`}
-                />
-              ) : null}
+const Card = ({
+  className,
+  challenge,
+  placeholderImage,
+  headerType = 'h3'
+}) => {
+  const { title, cover, description, date, slug, videoNumber } = challenge;
+  const Header = headerType;
+  return (
+    <article className={cn(css.challenge, className)}>
+      <div className={css.titleContainer}>
+        <div className={css.icon}>👁</div>
+        <Header className={css.title}>
+          {
+            <Link to={`/challenges/${slug}`}>
+              {videoNumber ? `#${videoNumber} — ` : ''} {title}
             </Link>
-            <p className={css.date}>
-              <span>
-                {date ? (
-                  <time dateTime={date}>{getReadableDate(date)}</time>
-                ) : null}
-              </span>
-            </p>
-          </div>
-          <div className={css.right}>
-            <div className={css.description}>
-              <p>{description}</p>
-            </div>
-            <p className={css.date}>
-              <span>
-                {date ? (
-                  <time dateTime={date}>{getReadableDate(date)}</time>
-                ) : null}
-              </span>
-            </p>
-          </div>
+          }
+        </Header>
+      </div>
+      <div className={css.thumb}>
+        <div className={css.left}>
+          <Link to={`/challenges/${slug}`} aria-label={title}>
+            {cover ? (
+              <Image
+                image={cover.file.childImageSharp.gatsbyImageData}
+                pictureClassName={css.picture}
+                imgClassName={css.image}
+                alt={`"${title}" challenge`}
+              />
+            ) : placeholderImage ? (
+              <Image
+                image={placeholderImage}
+                pictureClassName={css.picture}
+                imgClassName={css.image}
+                alt={`"${title}" challenge`}
+              />
+            ) : null}
+          </Link>
+          <p className={css.date}>
+            <span>
+              {date ? (
+                <time dateTime={date}>{getReadableDate(date)}</time>
+              ) : null}
+            </span>
+          </p>
         </div>
-      </article>
-    );
-  }
-);
+        <div className={css.right}>
+          <div className={css.description}>
+            <p>{description}</p>
+          </div>
+          <p className={css.date}>
+            <span>
+              {date ? (
+                <time dateTime={date}>{getReadableDate(date)}</time>
+              ) : null}
+            </span>
+          </p>
+        </div>
+      </div>
+    </article>
+  );
+};
+const MemoizedCard = memo(Card);
 
 const ChallengesPanel = ({
   challenges,
@@ -88,7 +92,7 @@ const ChallengesPanel = ({
       <div className={css.challenges}>
         {shownChallenges.map((challenge, key) => (
           <Fragment key={key}>
-            <Card
+            <MemoizedCard
               className={css.challenge}
               challenge={challenge}
               placeholderImage={placeholderImage}
