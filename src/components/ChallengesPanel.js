@@ -1,4 +1,4 @@
-import React, { Fragment, memo } from 'react';
+import React, { Fragment, memo, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -6,6 +6,7 @@ import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const Card = ({
   className,
@@ -74,9 +75,13 @@ const Card = ({
 const ChallengesPanel = ({
   challenges,
   placeholderImage,
-  headerType = 'h2'
+  headerType = 'h2',
+  randomize = false
 }) => {
   const Header = headerType;
+  const [shownChallenges, _] = useState(
+    (randomize ? shuffleCopy(challenges) : challenges).slice(0, 2)
+  );
   return (
     <section className={css.root}>
       <div className={css.titleBox}>
@@ -84,7 +89,7 @@ const ChallengesPanel = ({
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
-        {challenges.slice(0, 2).map((challenge, key) => (
+        {shownChallenges.map((challenge, key) => (
           <Fragment key={key}>
             <Card
               className={css.challenge}

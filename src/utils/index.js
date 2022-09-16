@@ -49,3 +49,17 @@ export const filteredPath = (resource, language, topic) => {
     stringValueOrAll(language)
   )}/topic/${toSlug(stringValueOrAll(topic))}`;
 };
+
+/**
+ * Returns a shuffled copy of the array using the Fisher-Yates algorithm.
+ */
+export const shuffleCopy = (array) => {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = copy[i];
+    copy[i] = copy[j];
+    copy[j] = temp;
+  }
+  return copy;
+};
