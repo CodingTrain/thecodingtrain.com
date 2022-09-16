@@ -1,0 +1,65 @@
+{
+    "title": "2048 sliding Puzzle Game",
+    "description": "In this multi-part coding challenge, I code the sliding puzzle game 2048 in JavaScript using canvas and p5.js.",
+    "videoNumber": "94",
+    "videoId": "JSn-DJU8qf0",
+    "date": "2018-02-26",
+    "languages": ["Javascript", "p5.js"],
+    "topics": [
+        "2048",
+        "sliding puzzle game"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [{
+        "title": "2048 - Part 1",
+        "videoId": "JSn-DJU8qf0",
+        "timestamps": []
+    },
+    {
+        "title": "2048 - Part 2",
+        "videoId": "8f8P1i0W26E",
+        "timestamps": []
+    },
+    {
+        "title": "2048 - Part 3",
+        "videoId": "3iYvT8TBIro",
+        "timestamps": []
+    },
+    {
+        "title": "2048 - Part 4",
+        "videoId": "vtMKeEGpMI4",
+        "timestamps": []
+    }
+], 
+    "codeExamples": [
+        {
+            "title": "Sliding puzzle game 2048",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/aeIk9JZ-U",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/094_2048/Processing/CC_094_2048"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "💾",
+                    "title": "2048",
+                    "url": "https://gabrielecirulli.github.io/2048/",
+                    "description": ""
+                },
+                {
+                    "icon": "🗄",
+                    "title": "2048 on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+                    "description": "Wikipedia page with information and resources about the sliding puzzle game 2048."
+                }
+            ]
+        }
+    ]
+}
