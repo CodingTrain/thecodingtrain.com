@@ -58,14 +58,14 @@
         "title": "2048 - Part 4",
         "videoId": "vtMKeEGpMI4",
         "timestamps": [
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": "List of improvements & fixes" },
+            { "time": "1:20", "title": "Fix bug in code" },
+            { "time": "4:00", "title": "Add a function that indicates that the player has won" },
+            { "time": "7:26", "title": "Add colors to the tiles" },
+            { "time": "16:55", "title": "Add styling to indicate which tile has just been added" },
+            { "time": "19:38", "title": "Change the odds of getting a \u201c4\u201d" },
+            { "time": "20:54", "title": "Refactor code by adding a transposeGrid function" },
+            { "time": "23:30", "title": "Add a switch statement " }
         ]
     }
 ], 
