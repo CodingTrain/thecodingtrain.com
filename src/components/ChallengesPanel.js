@@ -8,69 +8,66 @@ import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
 import { shuffleCopy } from '../utils';
 
-const Card = ({
-  className,
-  challenge,
-  placeholderImage,
-  headerType = 'h3'
-}) => {
-  const { title, cover, description, date, slug, videoNumber } = challenge;
-  const Header = headerType;
-  return (
-    <article className={cn(css.challenge, className)}>
-      <div className={css.titleContainer}>
-        <div className={css.icon}>👁</div>
-        <Header className={css.title}>
-          {
-            <Link to={`/challenges/${slug}`}>
-              {videoNumber ? `#${videoNumber} — ` : ''} {title}
+const Card = memo(
+  ({ className, challenge, placeholderImage, headerType = 'h3' }) => {
+    const { title, cover, description, date, slug, videoNumber } = challenge;
+    const Header = headerType;
+    return (
+      <article className={cn(css.challenge, className)}>
+        <div className={css.titleContainer}>
+          <div className={css.icon}>👁</div>
+          <Header className={css.title}>
+            {
+              <Link to={`/challenges/${slug}`}>
+                {videoNumber ? `#${videoNumber} — ` : ''} {title}
+              </Link>
+            }
+          </Header>
+        </div>
+        <div className={css.thumb}>
+          <div className={css.left}>
+            <Link to={`/challenges/${slug}`} aria-label={title}>
+              {cover ? (
+                <Image
+                  image={cover.file.childImageSharp.gatsbyImageData}
+                  pictureClassName={css.picture}
+                  imgClassName={css.image}
+                  alt={`"${title}" challenge`}
+                />
+              ) : placeholderImage ? (
+                <Image
+                  image={placeholderImage}
+                  pictureClassName={css.picture}
+                  imgClassName={css.image}
+                  alt={`"${title}" challenge`}
+                />
+              ) : null}
             </Link>
-          }
-        </Header>
-      </div>
-      <div className={css.thumb}>
-        <div className={css.left}>
-          <Link to={`/challenges/${slug}`} aria-label={title}>
-            {cover ? (
-              <Image
-                image={cover.file.childImageSharp.gatsbyImageData}
-                pictureClassName={css.picture}
-                imgClassName={css.image}
-                alt={`"${title}" challenge`}
-              />
-            ) : placeholderImage ? (
-              <Image
-                image={placeholderImage}
-                pictureClassName={css.picture}
-                imgClassName={css.image}
-                alt={`"${title}" challenge`}
-              />
-            ) : null}
-          </Link>
-          <p className={css.date}>
-            <span>
-              {date ? (
-                <time dateTime={date}>{getReadableDate(date)}</time>
-              ) : null}
-            </span>
-          </p>
-        </div>
-        <div className={css.right}>
-          <div className={css.description}>
-            <p>{description}</p>
+            <p className={css.date}>
+              <span>
+                {date ? (
+                  <time dateTime={date}>{getReadableDate(date)}</time>
+                ) : null}
+              </span>
+            </p>
           </div>
-          <p className={css.date}>
-            <span>
-              {date ? (
-                <time dateTime={date}>{getReadableDate(date)}</time>
-              ) : null}
-            </span>
-          </p>
+          <div className={css.right}>
+            <div className={css.description}>
+              <p>{description}</p>
+            </div>
+            <p className={css.date}>
+              <span>
+                {date ? (
+                  <time dateTime={date}>{getReadableDate(date)}</time>
+                ) : null}
+              </span>
+            </p>
+          </div>
         </div>
-      </div>
-    </article>
-  );
-};
+      </article>
+    );
+  }
+);
 
 const ChallengesPanel = ({
   challenges,
@@ -107,4 +104,7 @@ const ChallengesPanel = ({
   );
 };
 
-export default memo(ChallengesPanel);
+// The ChallengesPanel component itself cannot be memoized because otherwise,
+// the shuffled array will always appear the same on every page refresh when
+// building with SSR.
+export default ChallengesPanel;
