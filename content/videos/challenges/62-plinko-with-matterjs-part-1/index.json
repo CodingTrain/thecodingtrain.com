@@ -24,7 +24,7 @@
             { "time": "3:32", "title": "Create a Particle object" },
             { "time": "4:28", "title": "Matter.js library" },
             { "time": "6:02", "title": "Use Matter.js to create a Body" },
-            { "time": "7:35", "title": "Use Prototype to create a show function" },
+            { "time": "7:35", "title": "Use Prototype to show the particle" },
             { "time": "10:38", "title": "Use Engine.update() to update the particle position" },
             { "time": "15:10", "title": "Add a Plinko object" },
             { "time": "21:47", "title": "Add bounce by adjusting restitution and friction" },
@@ -64,7 +64,7 @@
             { "time": "0:00", "title": "Plinko Part 4" },
             { "time": "1:47", "title": "Use the preload function to load a sound.mp3 file" },
             { "time": "4:39", "title": "Use Matter.Events to figure out when the particles hit the plinkos" },
-            { "time": "9:52", "title": "Play sound if there is a collision between a particle and a plinko" },
+            { "time": "9:52", "title": "Play a sound if there is a collision between a particle and a plinko" },
             { "time": "11:45", "title": "Conclusion and suggestions for variations" }
         ]
     }
@@ -109,7 +109,7 @@
                     "icon": "🚂",
                     "title": "Inheritance with Prototype in JavaScript",
                     "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
-                    "description": "I discuss how inheritance works with prototypes in JS."
+                    "description": "In this video, I discuss how inheritance works with prototypes in JS."
                 }
             ]
         }
