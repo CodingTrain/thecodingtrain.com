@@ -1,0 +1,117 @@
+{
+    "title": "Plinko with Matter.js",
+    "description": "In this multi-part coding challenge, I create a plinko simulation using the Matter.js physics engine and p5.js.",
+    "videoNumber": "62",
+    "videoId": "KakpnfDv_f0",
+    "date": "2017-03-10",
+    "languages": ["JavaScript", "p5.js", "Matter.js"],
+    "topics": [
+        "collision detection",
+        "matter.js",
+        "physics engine 2d",
+        "plinko"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [
+    {
+        "title": "Plinko with Matter.js Part 1",
+        "videoId": "KakpnfDv_f0",
+        "timestamps": [
+            { "time": "0:00", "title": "Introducing today's topic: a Plinko Simulation" },
+            { "time": "1:25", "title": "How does Plinko work?" },
+            { "time": "3:32", "title": "Create a Particle object" },
+            { "time": "4:28", "title": "Matter.js library" },
+            { "time": "6:02", "title": "Use Matter.js to create a Body" },
+            { "time": "7:35", "title": "Use Prototype to create a show function" },
+            { "time": "10:38", "title": "Use Engine.update() to update the particle position" },
+            { "time": "15:10", "title": "Add a Plinko object" },
+            { "time": "21:47", "title": "Add bounce by adjusting restitution and friction" },
+            { "time": "24:16", "title": "Shift every other row of the Plinkos" },
+            { "time": "25:31", "title": "Conclusion and next steps" }
+        ]
+    },
+    {
+        "title": "Plinko with Matter.js Part 2",
+        "videoId": "6s4MJcUyaUE",
+        "timestamps": [
+            { "time": "0:00", "title": "Plinko Part 2" },
+            { "time": "1:30", "title": "Add gravity" },
+            { "time": "2:11", "title": "Add a Boundary object" },
+            { "time": "6:00", "title": "Remove particles that go off screen" },
+            { "time": "11:18", "title": "Debug to make sure code is working" },
+            { "time": "13:31", "title": "Add buckets" },
+            { "time": "19:11", "title": "Conclusion and improvements" }
+        ]
+    },
+    {
+        "title": "Plinko with Matter.js Part 3",
+        "videoId": "jN-sW-SxNzk",
+        "timestamps": [
+            { "time": "0:00", "title": "Plinko Part 3" },
+            { "time": "0:56", "title": "Randomly offset starting x position" },
+            { "time": "4:25", "title": "Add color" },
+            { "time": "7:42", "title": "Adjust the density of the particles" },
+            { "time": "8:26", "title": "Adjust the timestep" }
+        ]
+    },
+    {
+        "title": "Plinko with Matter.js Part 4",
+        "videoId": "CdBXmsrkaPs",
+        "timestamps": [
+            
+            { "time": "0:00", "title": "Plinko Part 4" },
+            { "time": "1:47", "title": "Use the preload function to load a sound.mp3 file" },
+            { "time": "4:39", "title": "Use Matter.Events to figure out when the particles hit the plinkos" },
+            { "time": "9:52", "title": "Play sound if there is a collision between a particle and a plinko" },
+            { "time": "11:45", "title": "Conclusion and suggestions for variations" }
+        ]
+    }
+    ],
+    "codeExamples": [
+        {
+            "title": "Plinko Simulation",
+            "description": "This sketch implements a Plinko simulation.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🏓",
+                    "title": "Matter.js",
+                    "url": "http://brm.io/matter-js/",
+                    "description": "Webpage with documentation about the Physics engine Matter.js."
+                },
+                {
+                    "icon": "💰",
+                    "title": "What is Plinko?",
+                    "url": "http://priceisright.wikia.com/wiki/Plinko",
+                    "description": "Webpage with description of Plinko--the most popular pricing game ever on \u201cThe Price is Right\u201d."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "Introduction to Matter.js",
+                    "url": "https://www.youtube.com/watch?v=urR596FsU68",
+                    "description": "This video is an introduction to the physics engine Matter.js, a 2D JavaScript physics library that supports rigid body collisions and constraints."
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Inheritance with Prototype in JavaScript",
+                    "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
+                    "description": "I discuss how inheritance works with prototypes in JS."
+                }
+            ]
+        }
+    ]
+}
