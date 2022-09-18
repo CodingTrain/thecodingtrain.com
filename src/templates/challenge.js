@@ -88,7 +88,7 @@ const Challenge = ({ data }) => {
           <ChallengesPanel
             challenges={challenge.relatedChallenges}
             placeholderImage={challengesPlaceholder}
-            randomize={true}
+            shuffle={true}
           />
         </>
       )}

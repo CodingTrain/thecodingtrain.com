@@ -6,7 +6,7 @@ import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
-import { shuffleCopy } from '../utils';
+import { shuffledCopy } from '../utils';
 
 const Card = ({
   className,
@@ -71,17 +71,16 @@ const Card = ({
     </article>
   );
 };
-const MemoizedCard = memo(Card);
 
 const ChallengesPanel = ({
   challenges,
   placeholderImage,
   headerType = 'h2',
-  randomize = false
+  shuffle = false
 }) => {
   const Header = headerType;
   const [shownChallenges, _] = useState(
-    (randomize ? shuffleCopy(challenges) : challenges).slice(0, 2)
+    (shuffle ? shuffledCopy(challenges) : challenges).slice(0, 2)
   );
   return (
     <section className={css.root}>
@@ -90,15 +89,15 @@ const ChallengesPanel = ({
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
-        {shownChallenges.map((challenge, key) => (
-          <Fragment key={key}>
-            <MemoizedCard
+        {shownChallenges.map((challenge, index) => (
+          <Fragment key={challenge.videoId}>
+            <Card
               className={css.challenge}
               challenge={challenge}
               placeholderImage={placeholderImage}
               headerType={`h${parseFloat(headerType[1]) + 1}`}
             />
-            {key !== challenges.length - 1 && (
+            {index !== shownChallenges.length - 1 && (
               <div className={css.spacer}></div>
             )}
           </Fragment>
@@ -108,7 +107,4 @@ const ChallengesPanel = ({
   );
 };
 
-// The ChallengesPanel component itself cannot be memoized because otherwise,
-// the shuffled array will always appear the same on every page refresh when
-// building with SSR.
-export default ChallengesPanel;
+export default memo(ChallengesPanel);
