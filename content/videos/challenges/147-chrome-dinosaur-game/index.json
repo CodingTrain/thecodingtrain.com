@@ -4,8 +4,7 @@
     "videoNumber": "147",
     "videoId": "l0HoJHc-63Q",
     "date": "2019-06-18",
-    "license": "Dinosaur licnese",
-    "license_link": "http://127.0.0.1:8000",
+
     "languages": ["p5.js", "ml5.js"],
     "topics": [
         "chrome dinosaur game",
@@ -32,6 +31,8 @@
             "title": "Unicorn Game",
             "description": "This sketch implements my version of the Google dinosaur game with Coding Train characters.",
             "image": "game.jpg",
+            "license": "Dinosaur licnese",
+            "license_link": "http://127.0.0.1:8000",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/aMNxuhdO6",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/147_Chrome_Dinosaur_Game/Processing/CC_147_Chrome_Dinosaur_Game"
