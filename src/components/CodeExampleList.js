@@ -62,13 +62,28 @@ const useUrls = (urls) => {
   return [mainUrl, components];
 };
 
+const getLicenseText = (example) => {
+    if (license && license_link){
+      return (
+        Distributed under <a href="{license_link}" target="_blank" rel="noreferrer" >{license}</a>
+      );
+    }else{
+        return (
+        Distributed under <a href="https://choosealicense.com/licenses/mit/" target="_blank" rel="noreferrer" >MIT license</a>
+      );
+    }
+}
+
 const CodeExample = ({ example, placeholderImage }) => {
   const { title, description, image } = example;
   const [mainUrl, urls] = useUrls(example.urls);
+  const licensText = getLisenseText(example);
 
   const thumbnail = image
     ? example.image.file.childImageSharp.gatsbyImageData
     : placeholderImage;
+  
+
 
   return (
     <li className={css.example}>
@@ -81,11 +96,13 @@ const CodeExample = ({ example, placeholderImage }) => {
       </span>
       <span className={css.info}>
         <a {...linkProps} href={mainUrl}>
-          <span className={css.title}> {title}</span>
+          <span className={css.title}>{title}</span>
           {description && (
-            <span className={css.description}>{description}</span>
+            <span className={css.description}>{description}
+            </span>
           )}
         </a>
+        {licensText}
       </span>
       {urls}
     </li>
