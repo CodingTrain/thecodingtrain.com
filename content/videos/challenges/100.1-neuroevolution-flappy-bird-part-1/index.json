@@ -1,0 +1,154 @@
+{
+    "title": "Neuroevolution Flappy Bird",
+    "description": "In this challenge, I use the JavaScript neural network library and a genetic algorithm to train an agent to play Flappy Bird.",
+    "videoNumber": "100",
+    "videoId": "c6y21FkaUqw",
+    "date": "2018-04-16",
+    "languages": ["JavaScript", "p5.js"],
+    "topics": [ 
+        "neural network",
+        "reinforcement learning",
+        "genetic algorithm evolution",
+        "flappy bird"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [
+    {
+        "title": "Neuroevolution Flappy Bird - Part 1",
+        "videoId": "c6y21FkaUqw",
+        "timestamps": [
+            { "time": "0:00", "title": "Introducing today's topic: Flappy Birds" },
+            { "time": "1:44", "title": "Pieces of the Code" },
+            { "time": "4:11", "title": "Reinforcement Learning" },
+            { "time": "6:45", "title": "Make multiple birds that make random decisions and use a genetic alorithm" },
+            { "time": "7:40", "title": "Each Bird object will have its own neural network \u201cbrain\u201d" },
+            { "time": "9:40", "title": "The architecture for the neural network" },
+            { "time": "14:03", "title": "Write a think function" },
+            { "time": "16:04", "title": "Code the inputs" },
+            { "time": "19:00", "title": "Find the closest pipe" },
+            { "time": "22:22", "title": "Summary and next steps" }
+        ]
+    },
+    {
+        "title": "Neuroevolution Flappy Bird - Part 2",
+        "videoId": "YtRA6tqgJBc",
+        "timestamps": [
+            { "time": "0:00", "title": " " },
+            { "time": "1:30", "title": "Genetic algorithm" },
+            { "time": "2:00", "title": "Make a population of birds" },
+            { "time": "4:10", "title": "Delete a bird if it hits a pipe" },
+            { "time": "5:57", "title": "Write a function for the next generation" },
+            { "time": "7:58", "title": "Evaluate the fitness value for each bird" },
+            { "time": "11:55", "title": "Pick a new bird" },
+            { "time": "17:35", "title": "Write a mutate function" },
+            { "time": "21:06", "title": "Pick a new bird based on its fitness" },
+            { "time": "0:00", "title": " " }
+        ]
+    },
+    {
+        "title": "Neuroevolution Flappy Bird - Part 3",
+        "videoId": "3lvj9jvERvs",
+        "timestamps": [
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " }
+        ]
+    },
+    {
+        "title": "Neuroevolution Flappy Bird - Part 4",
+        "videoId": "HrvNpbnjEG8",
+        "timestamps": [
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " }
+        ]
+    },
+    {
+        "title": "Neuroevolution Flappy Bird - Part 5",
+        "videoId": "U9wiMM3BqLU",
+        "timestamps": [
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " }
+        ]
+    }
+],
+    "codeExamples": [
+        {
+            "title": "Neuroevolution Flappy Bird",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/wb-QHVXBq",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_100.1_NeuroEvolution_FlappyBird/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Improved code",
+                    "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/tree/master/examples/neuroevolution-flappybird",
+                    "description": ""
+                },
+                {
+                    "title": "TensorFlow.js",
+                    "url": "https://js.tensorflow.org/",
+                    "description": ""
+                },
+                {
+                    "title": "ml5.js",
+                    "url": "https://github.com/ml5js",
+                    "description": ""
+                },
+                {
+                    "title": "JS Neural Network",
+                    "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/",
+                    "description": ""
+                },
+                {
+                    "title": "Flappy Bird Clone",
+                    "url": "https://github.com/CodingTrain/Flappy-Bird-Clone",
+                    "description": ""
+                },
+                {
+                    "title": "Neuroevolution documentation",
+                    "url": "https://github.com/shiffman/NOC-S18/tree/master/week10",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Coding Challenge #31: Flappy Bird",
+                    "url": "/challenge/031-flappybird",
+                    "description": ""
+                },
+                {
+                    "title": "My Genetic Algorithm playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+                    "description": ""
+                },
+                {
+                    "title": "My Neural Networks playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
