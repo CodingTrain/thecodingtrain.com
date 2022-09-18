@@ -132,6 +132,8 @@ export const query = graphql`
       codeExamples {
         title
         description
+        license
+        license_link
         image {
           file {
             childImageSharp {
