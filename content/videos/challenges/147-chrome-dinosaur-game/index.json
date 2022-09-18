@@ -4,6 +4,8 @@
     "videoNumber": "147",
     "videoId": "l0HoJHc-63Q",
     "date": "2019-06-18",
+    "license": "Dinosaur licnese",
+    "license_link": "http://127.0.0.1:8000",
     "languages": ["p5.js", "ml5.js"],
     "topics": [
         "chrome dinosaur game",
