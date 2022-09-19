@@ -1,5 +1,6 @@
 const omit = require('lodash/omit');
 const fs = require('fs');
+const { cleanUp } = require('./utils');
 
 /**
  * Transform camel case str to dash case
@@ -91,20 +92,21 @@ exports.createVideoRelatedNode = (
     // video folder so that we can get the corresponding ID's to link them
     const showcase = fs.existsSync(`${parent.dir}/showcase`)
       ? fs
-          .readdirSync(`${parent.dir}/showcase`)
-          .filter((file) => file.includes('.json'))
-          .map(
-            (file) =>
-              `${slugPrefix}${parent.relativeDirectory}/showcase/${file}`
-          )
+        .readdirSync(`${parent.dir}/showcase`)
+        .filter((file) => file.includes('.json'))
+        .map(
+          (file) =>
+            `${slugPrefix}${parent.relativeDirectory}/showcase/${file}`
+        )
       : [];
     const timestamps = timestampsWithSeconds(data.timestamps ?? []);
     const parts = (data.parts ?? []).map((part) => ({
       ...part,
       timestamps: timestampsWithSeconds(part.timestamps ?? [])
     }));
-    const languages = data.languages ?? [];
-    const topics = data.topics ?? [];
+
+    const languages = cleanUp(data.languages ?? []);
+    const topics = cleanUp(data.topics ?? []);
 
     const newNode = Object.assign({}, data, {
       id: createNodeId(`--videos/${slugPrefix}${slug}`),
@@ -127,8 +129,7 @@ exports.createVideoRelatedNode = (
       showcase: showcase.map((file) => createNodeId(file)),
       relatedChallenges: (data.relatedChallenges ?? []).map((slug) =>
         createNodeId(
-          `--videos/${
-            slug.includes('challenges') ? slug : `challenges/${slug}`
+          `--videos/${slug.includes('challenges') ? slug : `challenges/${slug}`
           }`
         )
       ),
@@ -281,8 +282,8 @@ exports.createTrackRelatedNode = (
         chapters.length > 0
           ? chapters.map((ch) => ch.id)
           : data.videos.map((videoSlug) =>
-              createNodeId(`--videos/${videoSlug}`)
-            )
+            createNodeId(`--videos/${videoSlug}`)
+          )
     }
   });
   createNode(newNode);
@@ -659,8 +660,8 @@ exports.createVideoCoverImageNode = (
   const postfixSlug = relativeDirectory.endsWith('/showcase')
     ? `/${name}`
     : relativeDirectory.endsWith('/images')
-    ? `/${name}.${extension}`
-    : '';
+      ? `/${name}.${extension}`
+      : '';
   const id = createNodeId(`cover-image/${prefixSlug}${slug}${postfixSlug}`);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };
