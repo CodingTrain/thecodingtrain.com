@@ -55,7 +55,7 @@
             "title": "References",
             "links": [
                 {
-                    "icon": "",
+                    "icon": "🗄",
                     "title": "Flappy Bird on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
                     "description": "Wikipedia page with information and resources about Flappy Bird."
