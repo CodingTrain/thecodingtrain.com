@@ -1,6 +1,6 @@
 {
     "title": "3D Rendering with Rotation and Projection",
-    "description": "In this coding challenge I render a 3D object (cube) in 2D using rotation and projection matrices in Processing (Java).",
+    "description": "Can I draw and rotate a 3D cube using Processing's 2D renderer with just some math?!?! Yes! Watch to learn more about rotation and projection matrices along with perspective and orthographic projection!",
     "videoNumber": "112",
     "videoId": "p4Iz0XJY-Qk",
     "date": "2018-08-21",
