@@ -1,6 +1,6 @@
 # Coding Train Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
@@ -46,6 +46,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/ArztKlein"><img src="https://avatars.githubusercontent.com/u/52363453?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ArztKlein</b></sub></a><br /><a href="#content-ArztKlein" title="Content">🖋</a></td>
       <td align="center"><a href="https://zoltanvolcsey.onrender.com"><img src="https://avatars.githubusercontent.com/u/41576384?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zoltán Völcsey</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=zvolcsey" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/alin256"><img src="https://avatars.githubusercontent.com/u/7563037?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sergey Alyaev</b></sub></a><br /><a href="#ideas-alin256" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=alin256" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
