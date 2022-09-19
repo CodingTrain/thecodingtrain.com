@@ -14,11 +14,10 @@
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [
-        { "time": "0:00", "title": "Introducing today's topic--3D rendering in 2D" },
+        { "time": "0:00", "title": "Introducing today's topic:  3D rendering in 2D" },
         { "time": "2:08", "title": "Let's begin coding!" },
         { "time": "7:50", "title": "Add a projection matrix" },
         { "time": "12:00", "title": "Add a rotation matrix" },
-        { "time": "14:58", "title": "Rotation matrix around an axis" },
         { "time": "18:02", "title": "Make a cube with 8 points" },
         { "time": "20:41", "title": "Normalize the cube" },
         { "time": "21:45", "title": "Connect the edges" },
