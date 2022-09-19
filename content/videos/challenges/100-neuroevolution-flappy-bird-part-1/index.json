@@ -43,7 +43,7 @@
             { "time": "11:55", "title": "Pick a new bird" },
             { "time": "17:35", "title": "Write a mutate function" },
             { "time": "21:06", "title": "Pick a new bird based on its fitness" },
-            { "time": "28:03", "title": "conclusion and next steps" }
+            { "time": "28:03", "title": "Conclusion and next steps" }
         ]
     },
     {
@@ -53,7 +53,7 @@
             { "time": "0:00", "title": "Part 3 of Flappy Bird--More Improvements" },
             { "time": "0:56", "title": "Separate the game logic from the drawing" },
             { "time": "2:22", "title": "Add a slider to control the number of cycles" },
-            { "time": "5:38", "title": "Mutate the fitness score by random a Gaussian number" },
+            { "time": "5:38", "title": "Mutate the fitness score by a random Gaussian number" },
             { "time": "7:09", "title": "Conclusion and possibile ways to optimize the genetic algorithm" }
         ]
     },
@@ -63,7 +63,7 @@
         "timestamps": [
             { "time": "0:00", "title": "Part 4 of Flappy Bird--Incorporate features suggested on Github" },
             { "time": "2:27", "title": "Add y velocity to the inputs" },
-            { "time": "4:37", "title": "Fixing the algoirthm that detects the closest pipe" },
+            { "time": "4:37", "title": "Fixing the algorithm that detects the closest pipe" },
             { "time": "7:09", "title": "Remove a bird when it hits the bottom" },
             { "time": "9:40", "title": "Make game harder by decreasing the spacing between the pipes" },
             { "time": "12:40", "title": "Optional feature: a bird can only jump if moving down" },
