@@ -155,8 +155,8 @@
                 {
                     "icon": "🚂",
                     "title": "Coding Challenge #31: Flappy Bird",
-                    "url": "/challenge/031-flappybird",
-                    "description": ""
+                    "url": "/challenges/31-flappy-bird",
+                    "description": "It's time to attempt to build a Flappy Bird clone in JavaScript with the p5.js!"
                 },
                 {
                     "icon": "🚂",
