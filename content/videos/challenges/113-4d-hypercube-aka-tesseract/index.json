@@ -72,16 +72,16 @@
             "title": "Videos",
             "links": [
                 {
-                    "icon": "🚂",
-                    "title": "3D Rendering with Rotation and Projection",
-                    "url": "/challenges/112-3d-rendering-with-rotation-and-projection",
-                    "description": "Can I draw and rotate a 3D cube using Processing's 2D renderer with just some math?!?! Yes!"
-                },
-                {
                     "icon": "🎥",
                     "title": "Understanding 4D -- The Tesseract",
                     "url": "https://youtu.be/iGO12Z5Lw8s",
                     "description": "How, exactly, do you rotate in 4 dimensions? "
+                },
+                {
+                    "icon": "🚂",
+                    "title": "3D Rendering with Rotation and Projection",
+                    "url": "/challenges/112-3d-rendering-with-rotation-and-projection",
+                    "description": "Can I draw and rotate a 3D cube using Processing's 2D renderer with just some math?!?! Yes!"
                 },
                 {
                     "icon": "🚂",
