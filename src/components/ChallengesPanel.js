@@ -6,7 +6,7 @@ import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
-import { shuffledCopy, useIsClient } from '../utils';
+import { shuffledCopy, useIsSSR } from '../utils';
 
 const Card = ({
   className,
@@ -79,7 +79,7 @@ const ChallengesPanel = ({
   shuffle = false
 }) => {
   const Header = headerType;
-  const { key } = useIsClient();
+  const isSSR = useIsSSR();
   const [suggestions, setSuggestions] = useState(
     // This initial value is used on server side rendering
     shuffledCopy(challenges, shuffle).slice(0, 2)
@@ -96,7 +96,7 @@ const ChallengesPanel = ({
       </div>
       {/* This "key" attribute forces a fresh rerender on client side hydration,
           which prevents a weird mix of static and dynamic content */}
-      <div className={css.challenges} key={key}>
+      <div className={css.challenges} key={isSSR}>
         {suggestions.map((challenge, index) => (
           <Fragment key={challenge.videoId}>
             <Card

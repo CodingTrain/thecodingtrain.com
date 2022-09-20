@@ -62,7 +62,6 @@ export const shuffledCopy = (array, shouldShuffle = true) => {
   if (!shouldShuffle) {
     return copy;
   }
-  console.log('shuffling...');
   for (let i = copy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     const temp = copy[i];
@@ -73,16 +72,14 @@ export const shuffledCopy = (array, shouldShuffle = true) => {
 };
 
 /**
- * This hook allows us to know whether we're in the client hydration phase or in
- * the server side rendering phase.
+ * This hook allows us to know whether we're in SSR phase or in client hydration
+ * phase.
  *
- * @returns A boolean set to true only on client hydration phase and a key
- * which changes when the phase changes.
+ * @return {boolean} A boolean set to true only on SSR phase.
  * @see {@link https://blog.logrocket.com/fixing-gatsbys-rehydration-issue/}
  */
-export const useIsClient = () => {
-  const [isClient, setClient] = useState(false);
-  const key = isClient ? 'client' : 'server';
-  useEffect(() => setClient(true), []);
-  return { isClient, key };
+export const useIsSSR = () => {
+  const [isSSR, setIsSSR] = useState(true);
+  useEffect(() => setIsSSR(false), []);
+  return isSSR;
 };
