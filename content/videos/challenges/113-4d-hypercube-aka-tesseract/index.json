@@ -13,7 +13,7 @@
         "tesseract"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection"],
     "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: rendering a 4D hypercube" },
         { "time": "7:30", "title": "Create a P4Vector class" },
