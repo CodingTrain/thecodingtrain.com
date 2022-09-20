@@ -1,4 +1,4 @@
-import React, { Fragment, memo, useState } from 'react';
+import React, { Fragment, memo, useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -6,7 +6,7 @@ import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
-import { shuffledCopy } from '../utils';
+import { shuffledCopy, useIsClient } from '../utils';
 
 const Card = ({
   className,
@@ -79,17 +79,25 @@ const ChallengesPanel = ({
   shuffle = false
 }) => {
   const Header = headerType;
-  const [shownChallenges, _] = useState(
-    (shuffle ? shuffledCopy(challenges) : challenges).slice(0, 2)
+  const { key } = useIsClient();
+  const [suggestions, setSuggestions] = useState(
+    // This initial value is used on server side rendering
+    shuffledCopy(challenges, shuffle).slice(0, 2)
   );
+  useEffect(() => {
+    // This value is used on client side hydration, to shuffle the challenges
+    setSuggestions(shuffledCopy(challenges, shuffle).slice(0, 2));
+  }, [challenges, shuffle]);
   return (
     <section className={css.root}>
       <div className={css.titleBox}>
         <Header>Try a challenge!</Header>
         <p>Suggested by the video you're watching</p>
       </div>
-      <div className={css.challenges}>
-        {shownChallenges.map((challenge, index) => (
+      {/* This "key" attribute forces a fresh rerender on client side hydration,
+          which prevents a weird mix of static and dynamic content */}
+      <div className={css.challenges} key={key}>
+        {suggestions.map((challenge, index) => (
           <Fragment key={challenge.videoId}>
             <Card
               className={css.challenge}
@@ -97,7 +105,7 @@ const ChallengesPanel = ({
               placeholderImage={placeholderImage}
               headerType={`h${parseFloat(headerType[1]) + 1}`}
             />
-            {index !== shownChallenges.length - 1 && (
+            {index !== suggestions.length - 1 && (
               <div className={css.spacer}></div>
             )}
           </Fragment>

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import slugify from 'slugify';
 
 // so it doesn't throw if no window
@@ -52,9 +53,16 @@ export const filteredPath = (resource, language, topic) => {
 
 /**
  * Returns a shuffled copy of the array using the Fisher-Yates algorithm.
+ *
+ * @param {any[]} array Array to be copied and shuffled
+ * @param {boolean} shouldShuffle Indicates whether the array should be shuffled
  */
-export const shuffledCopy = (array) => {
+export const shuffledCopy = (array, shouldShuffle = true) => {
   const copy = [...array];
+  if (!shouldShuffle) {
+    return copy;
+  }
+  console.log('shuffling...');
   for (let i = copy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     const temp = copy[i];
@@ -62,4 +70,19 @@ export const shuffledCopy = (array) => {
     copy[j] = temp;
   }
   return copy;
+};
+
+/**
+ * This hook allows us to know whether we're in the client hydration phase or in
+ * the server side rendering phase.
+ *
+ * @returns A boolean set to true only on client hydration phase and a key
+ * which changes when the phase changes.
+ * @see {@link https://blog.logrocket.com/fixing-gatsbys-rehydration-issue/}
+ */
+export const useIsClient = () => {
+  const [isClient, setClient] = useState(false);
+  const key = isClient ? 'client' : 'server';
+  useEffect(() => setClient(true), []);
+  return { isClient, key };
 };
