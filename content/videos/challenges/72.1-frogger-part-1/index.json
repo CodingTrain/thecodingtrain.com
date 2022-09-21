@@ -1,0 +1,120 @@
+{
+    "title": "Frogger",
+    "description": "In this multi-part challenge, I re-create the classic Atari video game Frogger in Processing (Java).",
+    "videoNumber": "72",
+    "videoId": "giXV6xErw0Y",
+    "date": "2017-06-14",
+    "languages": ["Processing"],
+    "topics": [
+        "frogger",
+        "game mechanics",
+        "frogger atari"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [
+        {
+        "title": "Frogger -- Part 1",
+        "videoId": "giXV6xErw0Y",
+        "timestamps": [
+          { "time": "0:00", "title": "Introducing today's topic: the classic arcade game Frogger" },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " },
+          { "time": "0:00", "title": " " }
+        ]
+        },
+        {
+            "title": "Frogger -- Part 2",
+            "videoId": "06-ZvYmSeus",
+            "timestamps": [
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " }
+            ]
+        },
+        {
+            "title": "Frogger -- Part 3",
+            "videoId": "hk326ZHlENQ",
+            "timestamps": [
+              { "time": "0:00", "title": " " },
+              { "time": "0:00", "title": " " },
+              { "time": "0:00", "title": " " },
+              { "time": "0:00", "title": " " },
+              { "time": "0:00", "title": " " },
+              { "time": "0:00", "title": " " },
+              { "time": "0:00", "title": " " },
+              { "time": "0:00", "title": " " }
+            ]
+        },
+        {
+            "title": "Frogger Refactoring",
+            "videoId": "c6WdJltqEtM",
+            "timestamps": [
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                }, {
+                    "time": "0:00",
+                    "title": " "
+                }, {
+                    "time": "0:00",
+                    "title": " "
+                }, {
+                    "time": "0:00",
+                    "title": " "
+                }
+            ]
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Frogger",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/crMMFw8vD",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗄",
+                    "title": "Frogger on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Frogger",
+                    "description": "Wikipedia page with information and resources about the arcade game Frogger."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Video of the Gameplay",
+                    "url": "https://youtu.be/l9eTOaNFwKQ",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
