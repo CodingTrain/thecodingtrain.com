@@ -88,7 +88,6 @@ const Challenge = ({ data }) => {
           <ChallengesPanel
             challenges={challenge.relatedChallenges}
             placeholderImage={challengesPlaceholder}
-            shuffle={true}
           />
         </>
       )}

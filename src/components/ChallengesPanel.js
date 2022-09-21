@@ -6,7 +6,7 @@ import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
-import { shuffledCopy, useIsSSR } from '../utils';
+import { shuffleCopy, useSSR } from '../utils';
 
 const Card = ({
   className,
@@ -45,7 +45,9 @@ const Card = ({
                 imgClassName={css.image}
                 alt={`"${title}" challenge`}
               />
-            ) : null}
+            ) : (
+              <div className={css.image}></div>
+            )}
           </Link>
           <p className={css.date}>
             <span>
@@ -75,37 +77,34 @@ const Card = ({
 const ChallengesPanel = ({
   challenges,
   placeholderImage,
-  headerType = 'h2',
-  shuffle = false
+  headerType = 'h2'
 }) => {
   const Header = headerType;
-  const isSSR = useIsSSR();
-  const [suggestions, setSuggestions] = useState(
-    // This initial value is used on server side rendering
-    shuffledCopy(challenges, shuffle).slice(0, 2)
+  const { isServer } = useSSR();
+  const [suggestions, setSuggestions] = useState(() =>
+    // Empty placeholders on server side render
+    challenges.map(() => ({})).slice(0, 2)
   );
   useEffect(() => {
-    // This value is used on client side hydration, to shuffle the challenges
-    setSuggestions(shuffledCopy(challenges, shuffle).slice(0, 2));
-  }, [challenges, shuffle]);
+    // Shuffled challenges on client side hydration
+    setSuggestions(shuffleCopy(challenges).slice(0, 2));
+  }, [challenges]);
   return (
     <section className={css.root}>
       <div className={css.titleBox}>
         <Header>Try a challenge!</Header>
         <p>Suggested by the video you're watching</p>
       </div>
-      {/* This "key" attribute forces a fresh rerender on client side hydration,
-          which prevents a weird mix of static and dynamic content */}
-      <div className={css.challenges} key={isSSR}>
+      <div className={css.challenges}>
         {suggestions.map((challenge, index) => (
-          <Fragment key={challenge.videoId}>
+          <Fragment key={challenge.videoNumber}>
             <Card
               className={css.challenge}
               challenge={challenge}
-              placeholderImage={placeholderImage}
+              placeholderImage={isServer ? null : placeholderImage}
               headerType={`h${parseFloat(headerType[1]) + 1}`}
             />
-            {index !== suggestions.length - 1 && (
+            {(suggestions.length === 1 || index !== suggestions.length - 1) && (
               <div className={css.spacer}></div>
             )}
           </Fragment>

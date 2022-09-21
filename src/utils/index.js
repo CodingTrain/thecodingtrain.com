@@ -55,13 +55,9 @@ export const filteredPath = (resource, language, topic) => {
  * Returns a shuffled copy of the array using the Fisher-Yates algorithm.
  *
  * @param {any[]} array Array to be copied and shuffled
- * @param {boolean} shouldShuffle Indicates whether the array should be shuffled
  */
-export const shuffledCopy = (array, shouldShuffle = true) => {
+export const shuffleCopy = (array) => {
   const copy = [...array];
-  if (!shouldShuffle) {
-    return copy;
-  }
   for (let i = copy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     const temp = copy[i];
@@ -75,11 +71,12 @@ export const shuffledCopy = (array, shouldShuffle = true) => {
  * This hook allows us to know whether we're in SSR phase or in client hydration
  * phase.
  *
- * @return {boolean} A boolean set to true only on SSR phase.
+ * @return booleans indicating whether we're in Server Side Rendering or
+ * Client Side Rendering
  * @see {@link https://blog.logrocket.com/fixing-gatsbys-rehydration-issue/}
  */
-export const useIsSSR = () => {
-  const [isSSR, setIsSSR] = useState(true);
-  useEffect(() => setIsSSR(false), []);
-  return isSSR;
+export const useSSR = () => {
+  const [isServer, setIsServer] = useState(true);
+  useEffect(() => setIsServer(false), []);
+  return { isServer, isClient: !isServer };
 };
