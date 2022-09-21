@@ -110,9 +110,10 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🎥",
                     "title": "Video of the Gameplay",
                     "url": "https://youtu.be/l9eTOaNFwKQ",
-                    "description": ""
+                    "description": "Video about the arcade game Frogger."
                 }
             ]
         }
