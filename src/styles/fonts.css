@@ -59,8 +59,8 @@
 
 @font-face {
   font-family: "GT Maru Mega";
-  src: url("../fonts/GT-Maru-Mega-Maxi.woff2") format("woff2"),
-    url("../fonts/GT-Maru-Mega-Maxi.woff") format("woff");
+  src: url("../fonts/GT-Maru-Mega.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Mega-Midi.woff") format("woff");
   font-display: swap;
 }
 
