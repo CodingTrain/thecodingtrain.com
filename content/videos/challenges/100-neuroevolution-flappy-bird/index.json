@@ -8,7 +8,8 @@
     "topics": [ 
         "neural network",
         "reinforcement learning",
-        "genetic algorithm evolution",
+        "genetic algorithm",
+        "evolution",
         "flappy bird"
     ],
     "canContribute": true,
@@ -67,7 +68,7 @@
             { "time": "7:09", "title": "Remove a bird when it hits the bottom" },
             { "time": "9:40", "title": "Make game harder by decreasing the spacing between the pipes" },
             { "time": "12:40", "title": "Optional feature: a bird can only jump if moving down" },
-            { "time": "14:47", "title": "Conclusion and next step" }
+            { "time": "14:47", "title": "Conclusion and goal of the last part of this challenge" }
         ]
     },
     {
@@ -77,7 +78,7 @@
             { "time": "0:00", "title": "Part 5 of Flappy Bird--Save/Load a Bird" },
             { "time": "6:42", "title": "Use SaveJSON to save the weights of the neural network" },
             { "time": "9:39", "title": "Save the weights of the best bird" },
-            { "time": "10:41", "title": "Remove genetic algorithm and load the neural network of te best bird" },
+            { "time": "10:41", "title": "Remove genetic algorithm and load the neural network of the best bird" },
             { "time": "15:23", "title": "Load a \u201cgood\u201d and a \u201cbad\u201d bird and compare their collisions" },
             { "time": "17:28", "title": "Conclusion and possibilities for refinements" }
         ]
@@ -86,7 +87,7 @@
     "codeExamples": [
         {
             "title": "Neuroevolution Flappy Bird",
-            "description": "This sketch uses a neural network to implement the flappy bird game.",
+            "description": "This sketch uses a neural network to implement the Flappy Bird game.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/wb-QHVXBq",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/100.1_NeuroEvolution_FlappyBird/Processing/CC_100_1_NeuroEvolution_FlappyBird"
@@ -140,7 +141,7 @@
                     "icon": "💻",
                     "title": "Neuroevolution documentation",
                     "url": "https://github.com/shiffman/NOC-S18/tree/master/week10",
-                    "description": ""
+                    "description": "Week 10 of my Nature of Code course"
                 }
             ]
         },
