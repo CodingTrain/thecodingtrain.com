@@ -1,0 +1,165 @@
+{
+    "title": "Evolutionary Steering Behaviors",
+    "description": "In this multi-part coding challenge, I create a system where autonomous steering agents evolve the behavior of eating food (green dots) and avoiding poison (red dots).",
+    "videoNumber": "69",
+    "videoId": "flxOkx0yLrY",
+    "date": "2017-04-18",
+    "languages": [],
+    "topics": [
+        "genetic algorithm",
+        "steering behavior",
+        "autonomous agent",
+        "evolution code",
+        "evolution steering behaviors",
+        "evolution nature of code"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [
+        {
+            "title": "Evolutionary Steering Behaviors Part 1",
+            "videoId": "flxOkx0yLrY",
+            "timestamps": [
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" }
+            ]
+        },
+        {
+            "title": "Evolutionary Steering Behaviors Part 2",
+            "videoId": "XaOVH8ZSRNA",
+            "timestamps": [
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" }
+            ]
+        },
+        {
+            "title": "Evolutionary Steering Behaviors Part 3",
+            "videoId": "vZUWTlK7D2Q",
+            "timestamps": [
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" }
+            ]
+        },
+        {
+            "title": "Evolutionary Steering Behaviors Part 4",
+            "videoId": "ykOcaInciBI",
+            "timestamps": [
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" }
+            ]
+        },
+        {
+            "title": "Evolutionary Steering Behaviors - Part 5 (Bonus)",
+            "videoId": "VnFF5V5DS8s",
+            "timestamps": [
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" },
+                { "time": "0:00", "title": "" }
+            ]
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Evolutionary Steering Behavior",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/xgQNXkxx1",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/069_steering_evolution"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "📕",
+                    "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
+                    "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+                    "description": ""
+                },
+                {
+                    "icon": "💾",
+                    "title": "Repo for Autonomous Agents in p5.js",
+                    "url": "https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp06_agents",
+                    "description": ""
+                },
+                {
+                    "icon": "📕",
+                    "title": "Nature of Code",
+                    "url": "http://natureofcode.com/",
+                    "description": ""
+                },
+                {
+                    "icon": "🚗",
+                    "title": "Steering Behaviors",
+                    "url": "http://www.red3d.com/cwr/steer/",
+                    "description": ""
+                },
+                {
+                    "icon": "🦠",
+                    "title": "My Genetic Algorithm Playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "My Video on Autonomous Agents and Steering",
+                    "url": "https://youtu.be//more/archive/nature-of-code/6-Autonomous-Agents/6.1-Autonomous-Agents-and-Steering",
+                    "description": ""
+                },
+                {
+                    "icon": "🚂",
+                    "title": "My Video on Vectors in p5.js",
+                    "url": "https://youtu.be//Tutorials/9-additional-topics/9.7-drawing-object-trails",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
