@@ -67,7 +67,7 @@
                 },
                 {
                     "time": "11:48",
-                    "title": "Check to see whether frog and car intersect"
+                    "title": "Check to see whether the frog and car intersect"
                 },
                 {
                     "time": "13:22",
@@ -84,7 +84,7 @@
             "videoId": "hk326ZHlENQ",
             "timestamps": [{
                     "time": "0:00",
-                    "title": "Part 3 - Add Additional Elements of Frogger"
+                    "title": "Part 3 - Add additional elements of Frogger"
                 },
                 {
                     "time": "0:56",
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "title": "Frogger Refactoring",
+            "title": "Frogger Part 4--Refactoring the code",
             "videoId": "c6WdJltqEtM",
             "timestamps": [{
                     "time": "0:00",
@@ -150,7 +150,7 @@
                 },
                 {
                     "time": "28:43",
-                    "title": "Use type to refactor check function"
+                    "title": "Use type to refactor the check function"
                 },
                 {
                     "time": "31:44",
@@ -171,6 +171,7 @@
         {
         "title": "Frogger",
         "description": "This sketch creates a simple version of the Frogger arcade game.",
+        "image": "img1.jpg",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/crMMFw8vD",
             "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing/CC_072_Frogger_original"
