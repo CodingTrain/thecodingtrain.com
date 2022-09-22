@@ -101,9 +101,10 @@
         },
         {
             "title": "Flappy Bird - Improved code",
-            "description": "",
+            "description": "Sketch with the improved code",
             "urls": {
-                "p5": ""
+                "p5": "https://editor.p5js.org/codingtrain/sketches/T_cecG2MD",
+                "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/tree/master/examples/neuroevolution-flappybird"
             }
         }
     ],
@@ -111,12 +112,6 @@
         {
             "title": "References",
             "links": [
-                {
-                    "icon": "💻",
-                    "title": "Improved code",
-                    "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/tree/master/examples/neuroevolution-flappybird",
-                    "description": ""
-                },
                 {
                     "icon": "💻",
                     "title": "TensorFlow.js",
