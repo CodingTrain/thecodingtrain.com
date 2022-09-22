@@ -68,15 +68,16 @@ export const shuffleCopy = (array) => {
 };
 
 /**
- * This hook allows us to know whether we're in SSR phase or in client hydration
- * phase.
+ * This hook will return true for the first render on the server and for the
+ * first render on the client. Otherwhise, it will return false.
  *
- * @return booleans indicating whether we're in Server Side Rendering or
- * Client Side Rendering
- * @see {@link https://blog.logrocket.com/fixing-gatsbys-rehydration-issue/}
+ * This function encapsulates a hook so "rules of hooks" apply to it.
+ * @see {@link https://reactjs.org/docs/hooks-rules.html}
+ *
+ * @return {boolean} true on the first server side and client side render
  */
-export const useSSR = () => {
-  const [isServer, setIsServer] = useState(true);
-  useEffect(() => setIsServer(false), []);
-  return { isServer, isClient: !isServer };
+export const useIsFirstRender = () => {
+  const [isFirst, setIsFirst] = useState(true);
+  useEffect(() => setIsFirst(false), []);
+  return isFirst;
 };

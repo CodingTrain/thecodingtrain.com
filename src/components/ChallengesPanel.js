@@ -6,7 +6,7 @@ import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
 import { getReadableDate } from '../hooks';
-import { shuffleCopy, useSSR } from '../utils';
+import { shuffleCopy, useIsFirstRender } from '../utils';
 
 const Card = ({
   className,
@@ -80,14 +80,12 @@ const ChallengesPanel = ({
   headerType = 'h2'
 }) => {
   const Header = headerType;
-  const { isServer } = useSSR();
-  const [suggestions, setSuggestions] = useState(() =>
-    // Empty placeholders on server side render
-    challenges.map(() => ({})).slice(0, 2)
-  );
+  const isFirstRender = useIsFirstRender();
+  // First render : as many empty placeholders as there are challenges
+  const [suggestions, setSuggestions] = useState(challenges.map(() => ({})));
   useEffect(() => {
-    // Shuffled challenges on client side hydration
-    setSuggestions(shuffleCopy(challenges).slice(0, 2));
+    // Next renders : shuffled challenges on client side hydration
+    setSuggestions(shuffleCopy(challenges));
   }, [challenges]);
   return (
     <section className={css.root}>
@@ -96,12 +94,12 @@ const ChallengesPanel = ({
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
-        {suggestions.map((challenge, index) => (
+        {suggestions.slice(0, 2).map((challenge, index) => (
           <Fragment key={challenge.videoNumber}>
             <Card
               className={css.challenge}
               challenge={challenge}
-              placeholderImage={isServer ? null : placeholderImage}
+              placeholderImage={isFirstRender ? null : placeholderImage}
               headerType={`h${parseFloat(headerType[1]) + 1}`}
             />
             {(suggestions.length === 1 || index !== suggestions.length - 1) && (
