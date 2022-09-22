@@ -178,10 +178,11 @@
     },
     {
         "title": "Frogger - Refactored",
-        "description": "The refactored code for the Frogger game.  The p5.js sketch is refactored in a different way.",
+        "description": "The refactored code for the Frogger game.  The p5.js sketch is from the Frogger repo.",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/C8gqXQ3Qd",
-            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing/CC_072_Frogger_refactored"
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing/CC_072_Frogger_refactored",
+            "other": "https://github.com/CodingTrain/Frogger"
         }
     }],
     "groupLinks": [{
@@ -192,12 +193,6 @@
                 "title": "Frogger on Wikipedia",
                 "url": "https://en.wikipedia.org/wiki/Frogger",
                 "description": "Wikipedia page with information and resources about the arcade game Frogger."
-            },
-            {
-                "icon": "💾",
-                "title": "Github repo with the p5.js code for Frogger",
-                "url": "https://github.com/CodingTrain/Frogger",
-                "description": "This repo is the p5.js version of the code from the Frogger coding challenge."
             }
         ]
         },
