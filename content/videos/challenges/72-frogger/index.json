@@ -166,12 +166,21 @@
             ]
         }
     ],
-    "codeExamples": [{
+    "codeExamples": [
+        {
         "title": "Frogger",
-        "description": "",
+        "description": "This sketch creates a simple version of the Frogger arcade game.",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/crMMFw8vD",
-            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing"
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing/CC_072_Frogger_original"
+        }
+    },
+    {
+        "title": "Frogger - Refactored",
+        "description": "This sketch contains the refactored code for the Frogger game.",
+        "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/crMMFw8vD",
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing/CC_072_Frogger_refactored"
         }
     }],
     "groupLinks": [{
