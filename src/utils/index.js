@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import slugify from 'slugify';
 
 // so it doesn't throw if no window
@@ -48,4 +49,35 @@ export const filteredPath = (resource, language, topic) => {
   return `/${resource}/lang/${toSlug(
     stringValueOrAll(language)
   )}/topic/${toSlug(stringValueOrAll(topic))}`;
+};
+
+/**
+ * Returns a shuffled copy of the array using the Fisher-Yates algorithm.
+ *
+ * @param {any[]} array Array to be copied and shuffled
+ */
+export const shuffleCopy = (array) => {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = copy[i];
+    copy[i] = copy[j];
+    copy[j] = temp;
+  }
+  return copy;
+};
+
+/**
+ * This hook will return true for the first render on the server and for the
+ * first render on the client. Otherwhise, it will return false.
+ *
+ * This function encapsulates a hook so "rules of hooks" apply to it.
+ * @see {@link https://reactjs.org/docs/hooks-rules.html}
+ *
+ * @return {boolean} true on the first server side and client side render
+ */
+export const useIsFirstRender = () => {
+  const [isFirst, setIsFirst] = useState(true);
+  useEffect(() => setIsFirst(false), []);
+  return isFirst;
 };

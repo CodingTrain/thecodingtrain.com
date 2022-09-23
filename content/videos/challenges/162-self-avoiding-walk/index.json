@@ -7,7 +7,12 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["self avoiding walk", "backtracking"],
   "canContribute": true,
-  "relatedChallenges": ["52-random-walker", "10-dfs-maze-generator"],
+  "relatedChallenges": [
+    "52-random-walker",
+    "10-dfs-maze-generator",
+    "51-a-pathfinding-algorithm",
+    "71-minesweeper"
+  ],
   "timestamps": [
     {
       "time": "0:00:00",
