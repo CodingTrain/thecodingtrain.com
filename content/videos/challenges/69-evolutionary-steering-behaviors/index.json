@@ -1,6 +1,6 @@
 {
     "title": "Evolutionary Steering Behaviors",
-    "description": "In this multi-part coding challenge, I create a system where autonomous steering agents evolve the behavior of eating food (green dots) and avoiding poison (red dots).",
+    "description": "In this multi-part coding challenge, I create a system where autonomous steering agents evolve the behavior of eating food  and avoiding poison.",
     "videoNumber": "69",
     "videoId": "flxOkx0yLrY",
     "date": "2017-04-18",
@@ -41,7 +41,7 @@
                 { "time": "4:52", "title": "Add a behaviors function" },
                 { "time": "11:00", "title": "Visualize the weights" },
                 { "time": "13:41", "title": "Evolve the weights" },
-                { "time": "15:12", "title": "Add a health variable to vehicles" },
+                { "time": "15:12", "title": "Add a health variable to the vehicles" },
                 { "time": "17:40", "title": "Use lerpColor() to visualize the health of the vehicles" },
                 { "time": "19:30", "title": "Use splice() to remove vehicles which \u201cdie\u201d" },
                 { "time": "23:02", "title": "Conclusion: next we will add a food \u201cperception\u201d variable" }
@@ -55,7 +55,7 @@
                 { "time": "1:28", "title": "Add a boundaries function" },
                 { "time": "3:54", "title": "Add a perception radius to the DNA" },
                 { "time": "6:26", "title": "Adjust behavior function to include perception radius " },
-                { "time": "13:00", "title": "What do we want to use evolution?" }
+                { "time": "13:00", "title": "Why do we want to use evolution?" }
             ]
         },
         {
