@@ -4,14 +4,14 @@
     "videoNumber": "69",
     "videoId": "flxOkx0yLrY",
     "date": "2017-04-18",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
-        "genetic algorithm",
+        "genetic algorithms",
         "steering behavior",
+        "seek function",
         "autonomous agent",
-        "evolution code",
-        "evolution steering behaviors",
-        "evolution nature of code"
+        "evolution",
+        "evolution steering behaviors"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -21,80 +21,61 @@
             "title": "Evolutionary Steering Behaviors Part 1",
             "videoId": "flxOkx0yLrY",
             "timestamps": [
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" }
+                { "time": "0:00", "title": "Introducing today's topic:  Evolutionary Steering Behavior" },
+                { "time": "1:30", "title": "Map out the ecosystem" },
+                { "time": "5:41", "title": "Steering behaviors" },
+                { "time": "8:36", "title": "Let's Code!" },
+                { "time": "12:00", "title": "Add a food array" },
+                { "time": "14:06", "title": "Add a eat function" },
+                { "time": "19:16", "title": "Remove a food element if it has been eaten" },
+                { "time": "20:38", "title": "Add a poison array" },
+                { "time": "22:57", "title": "What do I need to do next?" }
             ]
         },
         {
             "title": "Evolutionary Steering Behaviors Part 2",
             "videoId": "XaOVH8ZSRNA",
             "timestamps": [
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" }
+                { "time": "0:00", "title": "Evolutionary Steering Behaviors--Part 2" },
+                { "time": "3:06", "title": "Add DNA" },
+                { "time": "4:52", "title": "Add a behaviors function" },
+                { "time": "11:00", "title": "Visualize the weights" },
+                { "time": "13:41", "title": "Evolve the weights" },
+                { "time": "15:12", "title": "Add a health variable to vehicles" },
+                { "time": "17:40", "title": "Use lerpColor() to visualize the health of the vehicles" },
+                { "time": "19:30", "title": "Use splice() to remove vehicles which \u201cdie\u201d" },
+                { "time": "23:02", "title": "Conclusion: next we will add a food \u201cperception\u201d variable" }
             ]
         },
         {
             "title": "Evolutionary Steering Behaviors Part 3",
             "videoId": "vZUWTlK7D2Q",
             "timestamps": [
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" }
+                { "time": "0:00", "title": "Welcome to Part 3" },
+                { "time": "1:28", "title": "Add a boundaries function" },
+                { "time": "3:54", "title": "Add a perception radius to the DNA" },
+                { "time": "6:26", "title": "Adjust behavior function to include perception radius " },
+                { "time": "13:00", "title": "What do we want to use evolution?" }
             ]
         },
         {
             "title": "Evolutionary Steering Behaviors Part 4",
             "videoId": "ykOcaInciBI",
             "timestamps": [
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" }
+                { "time": "0:00", "title": "Evolutionary Steering Behaviors -- Part 4" },
+                { "time": "1:58", "title": "Adjust eat function to fix bug" },
+                { "time": "6:35", "title": "Add a clone function" },
+                { "time": "17:13", "title": "Adjust DNA by adding a mutation rate" },
+                { "time": "19:13", "title": "Fine tune the system" },
+                { "time": "21:40", "title": "Conclusion and possibilities for variations" }
             ]
         },
         {
             "title": "Evolutionary Steering Behaviors - Part 5 (Bonus)",
             "videoId": "VnFF5V5DS8s",
             "timestamps": [
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" },
-                { "time": "0:00", "title": "" }
+                { "time": "0:00", "title": "Add a debug checkbox" },
+                { "time": "2:39", "title": "Creative visualizations" }
             ]
         }
     ],
@@ -121,26 +102,26 @@
                 {
                     "icon": "💾",
                     "title": "Repo for Autonomous Agents in p5.js",
-                    "url": "https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp06_agents",
-                    "description": ""
+                    "url": "https://github.com/nature-of-code/noc-examples-p5.js/blob/master/chp06_agents/NOC_6_01_Seek/vehicle.js",
+                    "description": "Starting code for challenge with seek behavior."
                 },
                 {
                     "icon": "📕",
                     "title": "Nature of Code",
                     "url": "http://natureofcode.com/",
-                    "description": ""
+                    "description": "My Nature of Code book."
                 },
                 {
                     "icon": "🚗",
                     "title": "Steering Behaviors",
                     "url": "http://www.red3d.com/cwr/steer/",
-                    "description": ""
+                    "description": "Craig Reynold's paper on steering behanviors."
                 },
                 {
                     "icon": "🦠",
                     "title": "My Genetic Algorithm Playlist",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
-                    "description": ""
+                    "description": "These video lessons accompany Chapter 9 (Genetic Algorithms) from The Nature of Code book. "
                 }
             ]
         },
@@ -150,14 +131,20 @@
                 {
                     "icon": "🚂",
                     "title": "My Video on Autonomous Agents and Steering",
-                    "url": "https://youtu.be//more/archive/nature-of-code/6-Autonomous-Agents/6.1-Autonomous-Agents-and-Steering",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=P_xJMH8VvAE",
+                    "description": "In this video, I discuss the concept of an autonomous agent."
                 },
                 {
                     "icon": "🚂",
                     "title": "My Video on Vectors in p5.js",
-                    "url": "https://youtu.be//Tutorials/9-additional-topics/9.7-drawing-object-trails",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=vqE8DMfOajk",
+                    "description": "This video looks at how an object can store a history of positions."
+                },
+                {
+                    "icon": "🚂",
+                    "title": "My Video on How to go Through an Array Backwards",
+                    "url": "https://youtu.be/HXOD_XDA-KU",
+                    "description": "This video looks at how to delete objects from an array selectively."
                 }
             ]
         }
