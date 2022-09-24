@@ -1,0 +1,61 @@
+{
+    "title": "Making a GIF Loop in Processing",
+    "description": "In this tutorial, I demonstrate how to render a sketch into a perfect, looping GIF with Processing (Java).",
+    "videoNumber": "135",
+    "videoId": "nBKwCCtWlUg",
+    "date": "2019-02-19",
+    "languages": ["Processing"],
+    "topics": [
+        "gif loop"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "GIF Loop",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Hk6RTHBCl",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/135_GIF_Loop/Processing/CC_135_GIF_Loop"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Daily Art",
+                    "url": "http://sasj.tumblr.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Bees & Bombs",
+                    "url": "https://beesandbombs.tumblr.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Interactivity & Computation",
+                    "url": "http://cmuems.com/2016/60212/",
+                    "description": ""
+                },
+                {
+                    "title": "Loop Templates",
+                    "url": "https://github.com/golanlevin/LoopTemplates",
+                    "description": ""
+                },
+                {
+                    "title": "Easing Function",
+                    "url": "https://easings.net/",
+                    "description": ""
+                },
+                {
+                    "title": "EZGIF",
+                    "url": "https://ezgif.com/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
