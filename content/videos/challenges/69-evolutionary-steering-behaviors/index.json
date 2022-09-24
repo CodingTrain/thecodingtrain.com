@@ -1,6 +1,6 @@
 {
     "title": "Evolutionary Steering Behaviors",
-    "description": "In this multi-part coding challenge, I create a system where autonomous steering agents evolve the behavior of eating food  and avoiding poison.",
+    "description": "In this multi-part coding challenge, I create a system where autonomous steering agents evolve the behavior of eating food and avoiding poison.",
     "videoNumber": "69",
     "videoId": "flxOkx0yLrY",
     "date": "2017-04-18",
@@ -10,8 +10,7 @@
         "steering behavior",
         "seek function",
         "autonomous agent",
-        "evolution",
-        "evolution steering behaviors"
+        "evolution"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -82,7 +81,7 @@
     "codeExamples": [
         {
             "title": "Evolutionary Steering Behavior",
-            "description": "",
+            "description": "This sketch creates a system where autonomous steering agents evolve the behavior of eating food  and avoiding poison. ",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/xgQNXkxx1",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/069_steering_evolution"
@@ -94,16 +93,16 @@
             "title": "References",
             "links": [
                 {
-                    "icon": "📕",
-                    "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
-                    "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
-                    "description": ""
-                },
-                {
                     "icon": "💾",
                     "title": "Repo for Autonomous Agents in p5.js",
                     "url": "https://github.com/nature-of-code/noc-examples-p5.js/blob/master/chp06_agents/NOC_6_01_Seek/vehicle.js",
-                    "description": "Starting code for challenge with seek behavior."
+                    "description": "Starting code with seek behavior for this challenge."
+                },
+                {
+                    "icon": "📕",
+                    "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
+                    "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+                    "description": "Syllabus for Part 2 of Nature of Code: \u201cIntelligence and Learning\u201d at ITP Spring 2017"
                 },
                 {
                     "icon": "📕",
