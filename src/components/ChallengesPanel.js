@@ -82,10 +82,12 @@ const ChallengesPanel = ({
   const Header = headerType;
   const isFirstRender = useIsFirstRender();
   // First render : as many empty placeholders as there are challenges
-  const [suggestions, setSuggestions] = useState(challenges.map(() => ({})));
+  const [suggestions, setSuggestions] = useState(
+    challenges.map(() => ({})).slice(0, 2)
+  );
   useEffect(() => {
     // Next renders : shuffled challenges on client side hydration
-    setSuggestions(shuffleCopy(challenges));
+    setSuggestions(shuffleCopy(challenges).slice(0, 2));
   }, [challenges]);
   return (
     <section className={css.root}>
@@ -94,7 +96,7 @@ const ChallengesPanel = ({
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
-        {suggestions.slice(0, 2).map((challenge, index) => (
+        {suggestions.map((challenge, index) => (
           <Fragment key={challenge.videoNumber}>
             <Card
               className={css.challenge}
