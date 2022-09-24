@@ -1,9 +1,8 @@
 {
-    "title": "XOR with Neural Network (Java)",
-    "url": "https://github.com/kim-marcel/xor_with_nn",
-    "author": {
-        "name": " by Kim Feichtinger",
-        "url": ""
-    },
-    "source": "https://github.com/kim-marcel/xor_with_nn"
+  "title": "XOR with Neural Network (Java)",
+  "url": "https://github.com/kim-marcel/xor_with_nn",
+  "author": {
+    "name": "Kim Feichtinger"
+  },
+  "source": "https://github.com/kim-marcel/xor_with_nn"
 }

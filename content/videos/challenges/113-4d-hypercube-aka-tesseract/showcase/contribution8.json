@@ -1,9 +1,8 @@
 {
-    "title": "hypercube, my dude",
-    "url": "https://www.instagram.com/p/CJy88MkBQgX/",
-    "author": {
-        "name": " by Casey Labrack",
-        "url": ""
-    },
-    "source": "https://github.com/caseylabrack/caseylabrack.github.io/tree/master/sketches/hypercube"
+  "title": "hypercube, my dude",
+  "url": "https://www.instagram.com/p/CJy88MkBQgX/",
+  "author": {
+    "name": "Casey Labrack"
+  },
+  "source": "https://github.com/caseylabrack/caseylabrack.github.io/tree/master/sketches/hypercube"
 }

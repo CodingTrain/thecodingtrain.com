@@ -1,9 +1,8 @@
 {
-    "title": "Java version",
-    "url": "",
-    "author": {
-        "name": "sueszli",
-        "url": "https://github.com/sueszli"
-    },
-    "source": "https://github.com/sueszli/QuadTree"
+  "title": "Java version",
+  "url": "https://github.com/sueszli/QuadTree",
+  "author": {
+    "name": "sueszli",
+    "url": "https://github.com/sueszli"
+  }
 }
