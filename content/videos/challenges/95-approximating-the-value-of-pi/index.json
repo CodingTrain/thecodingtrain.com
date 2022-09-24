@@ -1,64 +1,64 @@
 {
-    "title": "Approximating the Value of Pi",
-    "description": "In this coding challenge, I use use a \u201cmonte carlo\u201d method to approximate the value of Pi in Processing (Java).",
-    "videoNumber": "95",
-    "videoId": "5cNnf_7e92Q",
-    "date": "2018-03-14",
-    "languages": ["Processing"],
-    "topics": [
-        "monte carlo",
-        "estimating pi"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [
-        { "time": "0:00", "title": "Approximating PI" }, 
-        { "time": "0:48", "title": "Suggestion from akraus53" },
-        { "time": "1:43", "title": "Methodology" },
-        { "time": "7:31", "title": "Let's code!" },
-        { "time": "13:30", "title": "Determine number of \u201cdarts\u201d in the circle" },
-        { "time": "18:20", "title": "Casting to doubles to increase precision" },
-        { "time": "22:07", "title": "Keep track of current best estimate" },
-        { "time": "26:30", "title": "Suggestions and conclusion" }
-    ],
-    "codeExamples": [
+  "title": "Approximating the Value of Pi",
+  "description": "In this coding challenge, I use use a \"monte carlo\" method to approximate the value of Pi in Processing (Java).",
+  "videoNumber": "95",
+  "videoId": "5cNnf_7e92Q",
+  "date": "2018-03-14",
+  "languages": ["Processing"],
+  "topics": ["monte carlo", "estimating pi"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Approximating PI" },
+    { "time": "0:48", "title": "Suggestion from akraus53" },
+    { "time": "1:43", "title": "Methodology" },
+    { "time": "7:31", "title": "Let's code!" },
+    {
+      "time": "13:30",
+      "title": "Determine number of \"darts\" in the circle"
+    },
+    { "time": "18:20", "title": "Casting to doubles to increase precision" },
+    { "time": "22:07", "title": "Keep track of current best estimate" },
+    { "time": "26:30", "title": "Suggestions and conclusion" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Approximating the Value of PI",
+      "description": "This sketch uses a \"monte carlo\" method to approximate the value of PI.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/bv_LWXvU5",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/095_Approximating_Pi/Processing/CC_095_Approximating_Pi"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Approximating the Value of PI",
-            "description": "This sketch uses a \u201cmonte carlo\u201d method to approximate the value of PI.",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/bv_LWXvU5",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/095_Approximating_Pi/Processing/CC_095_Approximating_Pi"
-            }
+          "icon": "🥧",
+          "title": "Million Pi Digits",
+          "url": "http://www.piday.org/million/",
+          "description": "List of the first million digits of pi (π) "
         }
-    ],
-    "groupLinks": [
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🥧",
-                    "title": "Million Pi Digits",
-                    "url": "http://www.piday.org/million/",
-                    "description": "List of the first million digits of pi (π) "
-                }
-            ]
+          "icon": "🎥",
+          "title": "STEMcoding celebrates Pi day!",
+          "url": "https://www.youtube.com/playlist?list=PLISRe8GegO8TbpZK2qvOi6y0kphRI-3xw",
+          "description": "These two videos describe how to calculate the digits of pi using a simple computer program."
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🎥",
-                    "title": "STEMcoding celebrates Pi day!",
-                    "url": "https://www.youtube.com/playlist?list=PLISRe8GegO8TbpZK2qvOi6y0kphRI-3xw",
-                    "description": "These two videos describe how to calculate the digits of pi using a simple computer program."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Learning Processing",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
-                    "description": "These video lessons accompany the introduction from the Learning Processing textbook."
-                }
-            ]
+          "icon": "🚂",
+          "title": "Learning Processing",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
+          "description": "These video lessons accompany the introduction from the Learning Processing textbook."
         }
-    ]
+      ]
+    }
+  ]
 }

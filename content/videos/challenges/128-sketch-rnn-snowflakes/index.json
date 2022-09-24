@@ -1,76 +1,76 @@
 {
-    "title": "SketchRNN Snowflakes with ml5.js",
-    "description": "In this holiday coding challenge, I use ml5.js and Sketch-RNN to generate snowflake drawings.",
-    "videoNumber": "128",
-    "videoId": "pdaNttb7Mr8",
-    "date": "2018-12-26",
-    "languages": ["ml5", "p5.js"],
-    "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],
-    "canContribute": true,
-    "timestamps": [
-      { "time": "0:00", "title": "Introduction" },
-      { "time": "0:55", "title": "SketchRNN" },
-      { "time": "2:49", "title": "ml sketchRNN module" },
-      { "time": "4:02", "title": "Let's Code!" },
-      { "time": "4:29", "title": "Create model" },
-      { "time": "6:31", "title": "Stroke object" },
-      { "time": "9:14", "title": "strokePath" },
-      { "time": "13:08", "title": "Ask for the next point" },
-      { "time": "14:02", "title": "Pen up or down" },
-      { "time": "16:45", "title": "Check for pen ending" },
-      { "time": "18:25", "title": "Snowflakes!" },
-      { "time": "19;46", "title": "Scaling the snowflakes" }
-    ],
-    "codeExamples": [
-      {
-        "title": "SketchRNN snowflakes",
-        "description": "This sketch uses sketchRNN to generate snowflakes.",
-        "image": "snowflake.jpg",
-        "urls": {
-          "p5": "https://editor.p5js.org/codingtrain/sketches/B1NHS00xE"
+  "title": "SketchRNN Snowflakes with ml5.js",
+  "description": "In this holiday coding challenge, I use ml5.js and Sketch-RNN to generate snowflake drawings.",
+  "videoNumber": "128",
+  "videoId": "pdaNttb7Mr8",
+  "date": "2018-12-26",
+  "languages": ["ml5", "p5.js"],
+  "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:55", "title": "SketchRNN" },
+    { "time": "2:49", "title": "ml sketchRNN module" },
+    { "time": "4:02", "title": "Let's Code!" },
+    { "time": "4:29", "title": "Create model" },
+    { "time": "6:31", "title": "Stroke object" },
+    { "time": "9:14", "title": "strokePath" },
+    { "time": "13:08", "title": "Ask for the next point" },
+    { "time": "14:02", "title": "Pen up or down" },
+    { "time": "16:45", "title": "Check for pen ending" },
+    { "time": "18:25", "title": "Snowflakes!" },
+    { "time": "19;46", "title": "Scaling the snowflakes" }
+  ],
+  "codeExamples": [
+    {
+      "title": "SketchRNN snowflakes",
+      "description": "This sketch uses sketchRNN to generate snowflakes.",
+      "image": "snowflake.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/B1NHS00xE"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💸",
+          "title": "Support the Processing Foundation",
+          "url": "https://processingfoundation.org/support/",
+          "description": "Donate to the Processing Foundation!"
+        },
+        {
+          "icon": "💻",
+          "title": "Magenta Project",
+          "url": "https://magenta.tensorflow.org/",
+          "description": "Webpage with background and references on the Magenta project."
+        },
+        {
+          "icon": "💻",
+          "title": "Draw Together with a Neural Network",
+          "url": "https://magenta.tensorflow.org/sketch-rnn-demo",
+          "description": "Try out the new magic-sketchpad game!"
         }
-      }
-    ],
-    "groupLinks": [
-      {
-        "title": "References",
-        "links": [
-          {
-            "icon": "💸",
-            "title": "Support the Processing Foundation",
-            "url": "https://processingfoundation.org/support/",
-            "description": "Donate to the Processing Foundation!"
-          },
-          {
-            "icon": "💻",
-            "title": "Magenta Project",
-            "url": "https://magenta.tensorflow.org/",
-            "description": "Webpage with background and references on the Magenta project."
-          },
-          {
-            "icon": "💻",
-            "title": "Draw Together with a Neural Network",
-            "url": "https://magenta.tensorflow.org/sketch-rnn-demo",
-            "description": "Try out the new magic-sketchpad game!"
-          }
-        ]
-      },
-      {
-        "title": "Videos",
-        "links": [
-          {
-            "icon": "🚂",
-            "title": "Text Generation with LSTM and Spell with Nabil Hassein",
-            "url": "https://www.youtube.com/watch?v=xfuVcfwtEyw",
-            "description": "Nabil Hassein demonstrates how to train an \u201cLSTM\u201d neural network to generate text in the style of a particular author using Spell and ml5.js."
-          },
-          {
-            "icon": "🚂",
-            "title": "Coding Challenge #122: Quick, Draw!",
-            "url": "https://www.youtube.com/watch?v=yLuk0twx8Hc",
-            "description": "In this coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \u201creplay\u201d drawings of rainbows and cats using p5.js. "
-          }
-        ]
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Text Generation with LSTM and Spell with Nabil Hassein",
+          "url": "https://www.youtube.com/watch?v=xfuVcfwtEyw",
+          "description": "Nabil Hassein demonstrates how to train an \"LSTM\" neural network to generate text in the style of a particular author using Spell and ml5.js."
+        },
+        {
+          "icon": "🚂",
+          "title": "Coding Challenge #122: Quick, Draw!",
+          "url": "https://www.youtube.com/watch?v=yLuk0twx8Hc",
+          "description": "In this coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \"replay\" drawings of rainbows and cats using p5.js. "
+        }
+      ]
+    }
+  ]
+}

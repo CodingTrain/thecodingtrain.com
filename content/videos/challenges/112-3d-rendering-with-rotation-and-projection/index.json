@@ -1,85 +1,88 @@
 {
-    "title": "3D Rendering with Rotation and Projection",
-    "description": "Can I draw and rotate a 3D cube using Processing's 2D renderer with just some math?!?! Yes! Watch to learn more about rotation and projection matrices along with perspective and orthographic projection!",
-    "videoNumber": "112",
-    "videoId": "p4Iz0XJY-Qk",
-    "date": "2018-08-21",
-    "languages": ["Processing"],
-    "topics": [
-        "3d rendering",
-        "projection matrix",
-        "perspective projection",
-        "rotation matrix"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [
-        { "time": "0:00", "title": "Introducing today's topic:  3D rendering in 2D" },
-        { "time": "2:08", "title": "Let's begin coding!" },
-        { "time": "7:50", "title": "Add a projection matrix" },
-        { "time": "12:00", "title": "Add a rotation matrix" },
-        { "time": "18:02", "title": "Make a cube with 8 points" },
-        { "time": "20:41", "title": "Normalize the cube" },
-        { "time": "21:45", "title": "Connect the edges" },
-        { "time": "28:09", "title": "Add perspective projection" },
-        { "time": "31:36", "title": "Conclusion and next steps" }
-    ],
-    "codeExamples": [
+  "title": "3D Rendering with Rotation and Projection",
+  "description": "Can I draw and rotate a 3D cube using Processing's 2D renderer with just some math?!?! Yes! Watch to learn more about rotation and projection matrices along with perspective and orthographic projection!",
+  "videoNumber": "112",
+  "videoId": "p4Iz0XJY-Qk",
+  "date": "2018-08-21",
+  "languages": ["Processing"],
+  "topics": [
+    "3d rendering",
+    "projection matrix",
+    "perspective projection",
+    "rotation matrix"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introducing today's topic:  3D rendering in 2D"
+    },
+    { "time": "2:08", "title": "Let's begin coding!" },
+    { "time": "7:50", "title": "Add a projection matrix" },
+    { "time": "12:00", "title": "Add a rotation matrix" },
+    { "time": "18:02", "title": "Make a cube with 8 points" },
+    { "time": "20:41", "title": "Normalize the cube" },
+    { "time": "21:45", "title": "Connect the edges" },
+    { "time": "28:09", "title": "Add perspective projection" },
+    { "time": "31:36", "title": "Conclusion and next steps" }
+  ],
+  "codeExamples": [
+    {
+      "title": "3D Rendering",
+      "description": "This sketch demonstrates how to implement 3D rendering in 2D.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/r8l8XXD2A",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/112_3D_Rendering/Processing/CC_112_3D_Rendering"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "3D Rendering",
-            "description": "This sketch demonstrates how to implement 3D rendering in 2D.",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/r8l8XXD2A",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/112_3D_Rendering/Processing/CC_112_3D_Rendering"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "💾",
-                    "title": "Matrix Multiplication",
-                    "url": "http://matrixmultiplication.xyz",
-                    "description": "Webpage with a matrix multiplication calculator"
-                },
-                {
-                    "icon": "🗄",
-                    "title": "Rotation Matrix on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
-                    "description": "Wikipedia page with information and resources about rotation matrices."
-                },
-                {
-                    "icon": "🗄",
-                    "title": "3D Projection on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/3D_projection",
-                    "description": "Wikipedia page with information and resources about 3D projection."
-                }
-            ]
+          "icon": "💾",
+          "title": "Matrix Multiplication",
+          "url": "http://matrixmultiplication.xyz",
+          "description": "Webpage with a matrix multiplication calculator"
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "4D Hypercube(Tesseract)",
-                    "url": "https://www.youtube.com/watch?v=XE3YDVdQSPo",
-                    "description": "In this coding challenge, I visualize a 4D Hypercube (aka \u201cTesseract\u201d) in Processing (Java)."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Matrix Math",
-                    "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
-                    "description": "In this video, I introduce the idea of \u021cLinear Algebra\u201d and explore the matrix math required for a simple neural network library."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Matrix Multiplication for 3D Rendering",
-                    "url": "https://youtu.be/tzsgS19RRc8",
-                    "description": "In this video, I write a function to perform matrix multiplication in Java."
-                }
-            ]
+          "icon": "🗄",
+          "title": "Rotation Matrix on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+          "description": "Wikipedia page with information and resources about rotation matrices."
+        },
+        {
+          "icon": "🗄",
+          "title": "3D Projection on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/3D_projection",
+          "description": "Wikipedia page with information and resources about 3D projection."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "4D Hypercube(Tesseract)",
+          "url": "https://www.youtube.com/watch?v=XE3YDVdQSPo",
+          "description": "In this coding challenge, I visualize a 4D Hypercube (aka \"Tesseract\") in Processing (Java)."
+        },
+        {
+          "icon": "🚂",
+          "title": "Matrix Math",
+          "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
+          "description": "In this video, I introduce the idea of \"Linear Algebra\" and explore the matrix math required for a simple neural network library."
+        },
+        {
+          "icon": "🚂",
+          "title": "Matrix Multiplication for 3D Rendering",
+          "url": "https://youtu.be/tzsgS19RRc8",
+          "description": "In this video, I write a function to perform matrix multiplication in Java."
+        }
+      ]
+    }
+  ]
 }

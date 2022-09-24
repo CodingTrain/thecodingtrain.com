@@ -1,101 +1,132 @@
 {
-    "title": "2048 Sliding Puzzle Game",
-    "description": "In this multi-part coding challenge, I code the sliding puzzle game 2048 in JavaScript using canvas and p5.js.",
-    "videoNumber": "94",
-    "videoId": "JSn-DJU8qf0",
-    "date": "2018-02-26",
-    "languages": ["Javascript", "p5.js"],
-    "topics": [
-        "2048",
-        "sliding puzzle game"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "parts": [{
-        "title": "2048 - Part 1",
-        "videoId": "JSn-DJU8qf0",
-        "timestamps": [
-            { "time": "0:00", "title": "Introducing today's topic: 2048 sliding puzzle game" },
-            { "time": "2:50", "title": "How does the game work?" },
-            { "time": "5:16", "title": "Let's Code!" },
-            { "time": "6:10", "title": "Write an addNumber function" },
-            { "time": "8:12", "title": "Use the ternary operator to pick either a 2 or 4" },
-            { "time": "9:54", "title": "Draw the board" },
-            { "time": "14:38", "title": "Write a slide function" },
-            { "time": "18:10", "title": "Add a keyPressed function to slide the numbers" },
-            { "time": "19:13", "title": "Write a combine function" },
-            { "time": "25:23", "title": "Write an operate function " },
-            { "time": "31:29", "title": "Check to see if a number has moved" },
-            { "time": "33:09", "title": "Write a function to compare two different matrices" },
-            { "time": "34:50", "title": "Conclusion and next steps" }
-        ]
+  "title": "2048 Sliding Puzzle Game",
+  "description": "In this multi-part coding challenge, I code the sliding puzzle game 2048 in JavaScript using canvas and p5.js.",
+  "videoNumber": "94",
+  "videoId": "JSn-DJU8qf0",
+  "date": "2018-02-26",
+  "languages": ["Javascript", "p5.js"],
+  "topics": ["2048", "sliding puzzle game"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "2048 - Part 1",
+      "videoId": "JSn-DJU8qf0",
+      "timestamps": [
+        {
+          "time": "0:00",
+          "title": "Introducing today's topic: 2048 sliding puzzle game"
+        },
+        { "time": "2:50", "title": "How does the game work?" },
+        { "time": "5:16", "title": "Let's Code!" },
+        { "time": "6:10", "title": "Write an addNumber function" },
+        {
+          "time": "8:12",
+          "title": "Use the ternary operator to pick either a 2 or 4"
+        },
+        { "time": "9:54", "title": "Draw the board" },
+        { "time": "14:38", "title": "Write a slide function" },
+        {
+          "time": "18:10",
+          "title": "Add a keyPressed function to slide the numbers"
+        },
+        { "time": "19:13", "title": "Write a combine function" },
+        { "time": "25:23", "title": "Write an operate function " },
+        { "time": "31:29", "title": "Check to see if a number has moved" },
+        {
+          "time": "33:09",
+          "title": "Write a function to compare two different matrices"
+        },
+        { "time": "34:50", "title": "Conclusion and next steps" }
+      ]
     },
     {
-        "title": "2048 - Part 2",
-        "videoId": "8f8P1i0W26E",
-        "timestamps": [
-            { "time": "0:00", "title": "Part 2 of 2048" },
-            { "time": "1:24", "title": "Use a keyCode to control the direction of slide" },
-            { "time": "2:21", "title": "Write a function to flip the grid" },
-            { "time": "5:46", "title": "Write a function to rotate the grid" },
-            { "time": "9:49", "title": "Only flip or rotate the grid if a play has been made" },
-            { "time": "11:32", "title": "Conclusion and next steps" }
-        ]
+      "title": "2048 - Part 2",
+      "videoId": "8f8P1i0W26E",
+      "timestamps": [
+        { "time": "0:00", "title": "Part 2 of 2048" },
+        {
+          "time": "1:24",
+          "title": "Use a keyCode to control the direction of slide"
+        },
+        { "time": "2:21", "title": "Write a function to flip the grid" },
+        { "time": "5:46", "title": "Write a function to rotate the grid" },
+        {
+          "time": "9:49",
+          "title": "Only flip or rotate the grid if a play has been made"
+        },
+        { "time": "11:32", "title": "Conclusion and next steps" }
+      ]
     },
     {
-        "title": "2048 - Part 3",
-        "videoId": "3iYvT8TBIro",
-        "timestamps": [
-            { "time": "0:00", "title": "The elements we are adding to the game" },
-            { "time": "0:53", "title": "Add a score" },
-            { "time": "4:06", "title": "Write a function to check if the game is finished" },
-            { "time": "9:44", "title": "Adjust the text size based on the length of the number" },
-            { "time": "11:08", "title": "Conclusion and possible variations" }
-        ]
+      "title": "2048 - Part 3",
+      "videoId": "3iYvT8TBIro",
+      "timestamps": [
+        { "time": "0:00", "title": "The elements we are adding to the game" },
+        { "time": "0:53", "title": "Add a score" },
+        {
+          "time": "4:06",
+          "title": "Write a function to check if the game is finished"
+        },
+        {
+          "time": "9:44",
+          "title": "Adjust the text size based on the length of the number"
+        },
+        { "time": "11:08", "title": "Conclusion and possible variations" }
+      ]
     },
     {
-        "title": "2048 - Part 4",
-        "videoId": "vtMKeEGpMI4",
-        "timestamps": [
-            { "time": "0:00", "title": "List of improvements & fixes" },
-            { "time": "1:20", "title": "Fix a bug in the code" },
-            { "time": "4:00", "title": "Add a function that indicates that the player has won" },
-            { "time": "7:26", "title": "Add colors to the tiles" },
-            { "time": "16:55", "title": "Add styling to indicate which tile has just been added" },
-            { "time": "19:38", "title": "Change the odds of getting a \u201c4\u201d" },
-            { "time": "20:54", "title": "Refactor code by adding a transposeGrid function" },
-            { "time": "23:30", "title": "Add a switch statement " }
-        ]
+      "title": "2048 - Part 4",
+      "videoId": "vtMKeEGpMI4",
+      "timestamps": [
+        { "time": "0:00", "title": "List of improvements & fixes" },
+        { "time": "1:20", "title": "Fix a bug in the code" },
+        {
+          "time": "4:00",
+          "title": "Add a function that indicates that the player has won"
+        },
+        { "time": "7:26", "title": "Add colors to the tiles" },
+        {
+          "time": "16:55",
+          "title": "Add styling to indicate which tile has just been added"
+        },
+        { "time": "19:38", "title": "Change the odds of getting a \"4\"" },
+        {
+          "time": "20:54",
+          "title": "Refactor code by adding a transposeGrid function"
+        },
+        { "time": "23:30", "title": "Add a switch statement " }
+      ]
     }
-], 
-    "codeExamples": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Sliding puzzle game 2048",
+      "description": "This sketch implements the sliding puzzle game 2048",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/aeIk9JZ-U",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/094_2048/Processing/CC_094_2048"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Sliding puzzle game 2048",
-            "description": "This sketch implements the sliding puzzle game 2048",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/aeIk9JZ-U",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/094_2048/Processing/CC_094_2048"
-            }
-        }
-    ],
-    "groupLinks": [
+          "icon": "💾",
+          "title": "2048",
+          "url": "https://gabrielecirulli.github.io/2048/",
+          "description": "Github page with an implementation of the sliding puzzle game 2048."
+        },
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "💾",
-                    "title": "2048",
-                    "url": "https://gabrielecirulli.github.io/2048/",
-                    "description": "Github page with an implementation of the sliding puzzle game 2048."
-                },
-                {
-                    "icon": "🗄",
-                    "title": "2048 on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/2048_(video_game)",
-                    "description": "Wikipedia page with information and resources about the sliding puzzle game 2048."
-                }
-            ]
+          "icon": "🗄",
+          "title": "2048 on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "description": "Wikipedia page with information and resources about the sliding puzzle game 2048."
         }
-    ]
+      ]
+    }
+  ]
 }
