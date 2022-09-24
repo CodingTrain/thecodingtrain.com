@@ -11,13 +11,13 @@
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:00", "title": "Introducing today's topic: GIF loops" },
+        { "time": "3:04", "title": "Core idea of loop" },
+        { "time": "5:29", "title": "Sketch on paper first" },
+        { "time": "6:28", "title": "Easing functions" },
+        { "time": "9:19", "title": "Use saveFrame() to save images to a folder" },
+        { "time": "13:00", "title": "Upload images to EZGIF and stitch images together" },
+        { "time": "15:50", "title": "Create a record variable" }
     ],
     "codeExamples": [
         {
