@@ -1,18 +1,18 @@
 {
     "title": "Circle Morphing",
-    "description": "In this video, I implement one possible solution to Golan Levin's Circle Morphing challenge.",
+    "description": "In this multi-part challenge, I implement two possible solutions to Golan Levin's Circle Morphing challenge.",
     "videoNumber": "81",
     "videoId": "u2D4sxh3MTs",
     "date": "2017-11-01",
-    "languages": [],
+    "languages": ["Javascript", "p5.js"],
     "topics": [
-        "golan levin",
+        "Golan Levin",
         "interpolation",
         "circle morphing",
-        "polar cartesian"
+        "polar coordinates"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["163-bezier-curves"],
     "timestamps": [],
     "parts": [
         {
@@ -20,47 +20,39 @@
             "videoId": "u2D4sxh3MTs",
             "timestamps": [{
                     "time": "0:00",
-                    "title": "Introducing today's topic: Flappy Birds"
+                    "title": "Introducing today's topic: Circle Morphing"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "3:58",
+                    "title": "Use polar coordinates to get the points on the circle"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "6:17",
+                    "title": "Draw the path of the circle"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "7:36",
+                    "title": "Get the triangle path"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "15:30",
+                    "title": "Write a polar to cartesian function"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "18:43",
+                    "title": "Use modulus to get the points on the triangle path"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "23:19",
+                    "title": "Use lerp() to morph between the circle and triangle"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "25:33",
+                    "title": "Use sine curve to ossillate between a circle and a triangle "
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
-                },
-                {
-                    "time": "0:00",
-                    "title": " "
-                },
-                {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "28:25",
+                    "title": "Conclusion and suggstions for variations"
                 }
             ]
         },
@@ -69,43 +61,23 @@
             "videoId": "0veqAiA61AU",
             "timestamps": [{
                     "time": "0:00",
-                    "title": " "
+                    "title": "Introduction--we will implement a different circle morphing algorithm"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "1:30",
+                    "title": "What if we start deleting points from circle path?"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "7:18",
+                    "title": "Attach a property called active"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "10:40",
+                    "title": "Delete points from the active list"
                 },
                 {
-                    "time": "0:00",
-                    "title": " "
-                },
-                {
-                    "time": "0:00",
-                    "title": " "
-                },
-                {
-                    "time": "0:00",
-                    "title": " "
-                },
-                {
-                    "time": "0:00",
-                    "title": " "
-                },
-                {
-                    "time": "0:00",
-                    "title": " "
-                },
-                {
-                    "time": "0:00",
-                    "title": " "
+                    "time": "12:32",
+                    "title": "Can you implement a different circle morphing algorithm?"
                 }
             ]
         }
@@ -113,7 +85,8 @@
     "codeExamples": [
         {
         "title": "Circle Morphing - Part 1",
-        "description": "",
+        "description": "This sketch uses interpolation to morph from a circle to a triangle.",
+        "image": "img1.jpg",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/r9AhwHO9o",
             "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/081.1_Circle_Morphing_Part_1/Processing/CC_081_1_Circle_Morphing_Part_1"
@@ -121,7 +94,8 @@
     },
     {
         "title": "Circle Morphing - Part 2",
-        "description": "",
+        "description": "This sketch deletes points to morph from a circle to a triangle.",
+        "image": "img2.jpg",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/muq_AnqEu",
             "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/081.2_Circle_Morphing_Part_2/Processing/CC_081_2_Circle_Morphing_Part_2"
