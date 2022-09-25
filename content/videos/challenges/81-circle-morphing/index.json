@@ -48,7 +48,7 @@
                 },
                 {
                     "time": "25:33",
-                    "title": "Use sine curve to ossillate between a circle and a triangle "
+                    "title": "Use the sine function to ossillate between a circle and a triangle "
                 },
                 {
                     "time": "28:25",
@@ -65,7 +65,7 @@
                 },
                 {
                     "time": "1:30",
-                    "title": "What if we start deleting points from circle path?"
+                    "title": "What if we start deleting points from the circle path?"
                 },
                 {
                     "time": "7:18",
@@ -94,7 +94,7 @@
     },
     {
         "title": "Circle Morphing - Part 2",
-        "description": "This sketch deletes points to morph from a circle to a triangle.",
+        "description": "This sketch deletes points from the circle path to morph from a circle to a triangle.",
         "image": "img2.jpg",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/muq_AnqEu",
