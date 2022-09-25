@@ -1,4 +1,4 @@
-import React, { Fragment, memo } from 'react';
+import React, { Fragment, memo, useEffect, useState } from 'react';
 
 import ButtonPanel from './ButtonPanel';
 import Image from './Image';
@@ -6,12 +6,22 @@ import Image from './Image';
 import * as css from './PassengerShowcasePanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
+import { shuffleCopy, useIsFirstRender } from '../utils';
 
 const PassengerShowcasePanel = ({
   contributions,
   placeholderImage,
   headerType = 'h2'
 }) => {
+  // First render : as many empty placeholders as there are challenges
+  const [shuffledContribs, setShuffledContribs] = useState(() =>
+    contributions.map(() => ({}))
+  );
+  useEffect(() => {
+    // Next renders : shuffled challenges on client side hydration
+    setShuffledContribs(shuffleCopy(contributions));
+  }, [contributions]);
+  const isFirstRender = useIsFirstRender();
   const description =
     contributions.length > 0
       ? 'What the Coding Train community has created based on this video'
@@ -24,11 +34,11 @@ const PassengerShowcasePanel = ({
         <p>{description}</p>
       </div>
       <div className={css.contributions}>
-        {contributions.map((contrib, key) => (
+        {shuffledContribs.map((contrib, key) => (
           <Fragment key={key}>
             <Contribution
               contribution={contrib}
-              placeholderImage={placeholderImage}
+              placeholderImage={isFirstRender ? null : placeholderImage}
             />
             <div className={css.spacer}></div>
           </Fragment>
@@ -66,7 +76,7 @@ const Contribution = ({
   return (
     <article className={css.contrib}>
       <a className={css.title} href={url} target="_blank" rel="noreferrer">
-        <Header title={title.length > 30 ? title : null}>{title}</Header>
+        <Header title={title?.length > 30 ? title : null}>{title}</Header>
       </a>
       <a
         className={css.pictureContainer}
@@ -83,18 +93,18 @@ const Contribution = ({
       </a>
       <p className={css.author}>
         <address>
-          <span>by </span>
-          {author.url ? (
+          {author && <span>by </span>}
+          {author?.url ? (
             <a
-              href={author.url}
+              href={author?.url}
               target="_blank"
               rel="noreferrer"
               className={css.authorName}>
-              {author.name}
+              {author?.name}
             </a>
-          ) : (
-            <span className={css.authorName}>{author.name}</span>
-          )}
+          ) : author?.name ? (
+            <span className={css.authorName}>{author?.name}</span>
+          ) : null}
         </address>
       </p>
     </article>
