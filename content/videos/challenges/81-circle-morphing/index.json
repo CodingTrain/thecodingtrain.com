@@ -1,0 +1,152 @@
+{
+    "title": "Circle Morphing",
+    "description": "In this video, I implement one possible solution to Golan Levin\u2019s Circle Morphing challenge.",
+    "videoNumber": "81.1",
+    "videoId": "u2D4sxh3MTs",
+    "date": "2017-11-01",
+    "languages": [],
+    "topics": [
+        "golan levin",
+        "interpolation",
+        "circle morphing",
+        "polar cartesian"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [
+        {
+            "title": "Circle Morphing - Part 1",
+            "videoId": "u2D4sxh3MTs",
+            "timestamps": [{
+                    "time": "0:00",
+                    "title": "Introducing today's topic: Flappy Birds"
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                }
+            ]
+        },
+        {
+            "title": "Circle Morphing - Part 2",
+            "videoId": "0veqAiA61AU",
+            "timestamps": [{
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                },
+                {
+                    "time": "0:00",
+                    "title": " "
+                }
+            ]
+        }
+    ],
+    "codeExamples": [
+        {
+        "title": "Circle Morphing - Part 1",
+        "description": "",
+        "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/r9AhwHO9o",
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/081.1_Circle_Morphing_Part_1/Processing/CC_081_1_Circle_Morphing_Part_1"
+        }
+    },
+    {
+        "title": "Circle Morphing - Part 2",
+        "description": "",
+        "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/muq_AnqEu",
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/081.2_Circle_Morphing_Part_2/Processing/CC_081_2_Circle_Morphing_Part_2"
+        }
+    }
+],
+    "groupLinks": [
+        {
+            "title": "Videos",
+            "links": [{
+                    "title": "Polar to Cartesian Coordinates",
+                    "url": "/Tutorials/9-additional-topics/9.20-polar-coordinates",
+                    "description": ""
+                },
+                {
+                    "title": "Golan Levin's Modulo Operator video",
+                    "url": "/GuestTutorials/006-golan-levin-modulo-operator",
+                    "description": ""
+                },
+                {
+                    "title": "Golan Levin's Circle Morphing Challenge",
+                    "url": "/GuestTutorials/007-golan-levin-circle-morphing",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
