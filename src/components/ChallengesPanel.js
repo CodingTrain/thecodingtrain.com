@@ -94,7 +94,7 @@ const ChallengesPanel = ({
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
-        {suggestions.slice(0, 2).map((challenge, index) => (
+        {suggestions.slice(0, 2).map((challenge, index, array) => (
           <Fragment key={challenge.videoNumber}>
             <Card
               className={css.challenge}
@@ -102,7 +102,7 @@ const ChallengesPanel = ({
               placeholderImage={isFirstRender ? null : placeholderImage}
               headerType={`h${parseFloat(headerType[1]) + 1}`}
             />
-            {(suggestions.length === 1 || index !== suggestions.length - 1) && (
+            {(array.length === 1 || index !== array.length - 1) && (
               <div className={css.spacer}></div>
             )}
           </Fragment>
