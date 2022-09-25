@@ -1,97 +1,94 @@
 {
-    "title": "XOR Problem with TensorFlow.js",
-    "description": "In this coding challenge, I visualize the outputs of a neural network solving XOR using TensorFlow.js.",
-    "videoNumber": "106",
-    "videoId": "N3ZnNa01BPM",
-    "date": "2018-06-11",
-    "languages": ["p5.js", "javascript", "tensorflow.js"],
-    "topics": [
-        "machine learning",
-        "xor problem"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "3:43", "title": "Architecture of model" },
-        { "time": "8:02", "title": "InputShape, units, and activation function" },
-        { "time": "11:46", "title": "Optimizer and loss function" },
-        { "time": "13:50", "title": "tf.train.sgd()" },
-        { "time": "17:23", "title": "model.predict()" },
-        { "time": "23:34", "title": "Input data" },
-        { "time": "29:00", "title": "Train the model" },
-        { "time": "36:54", "title": "Shuffle training dta" },
-        { "time": "38:02", "title": "Memory management" },
-        { "time": "40:08", "title": "Draw output" },
-        { "time": "45:32", "title": "Train()" }
-    ],
-    "codeExamples": [
+  "title": "XOR Problem with TensorFlow.js",
+  "description": "In this coding challenge, I visualize the outputs of a neural network solving XOR using TensorFlow.js.",
+  "videoNumber": "106",
+  "videoId": "N3ZnNa01BPM",
+  "date": "2018-06-11",
+  "languages": ["p5.js", "javascript", "tensorflow.js"],
+  "topics": ["machine learning", "xor problem"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "3:43", "title": "Architecture of model" },
+    { "time": "8:02", "title": "InputShape, units, and activation function" },
+    { "time": "11:46", "title": "Optimizer and loss function" },
+    { "time": "13:50", "title": "tf.train.sgd()" },
+    { "time": "17:23", "title": "model.predict()" },
+    { "time": "23:34", "title": "Input data" },
+    { "time": "29:00", "title": "Train the model" },
+    { "time": "36:54", "title": "Shuffle training dta" },
+    { "time": "38:02", "title": "Memory management" },
+    { "time": "40:08", "title": "Draw output" },
+    { "time": "45:32", "title": "Train()" }
+  ],
+  "codeExamples": [
+    {
+      "title": "XOR Problem",
+      "description": "This sketch visualizes the outputs of a neural network solving XOR using TensorFlow.js.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ueNMC_Wh6"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "XOR Problem",
-            "description": "This sketch visualizes the outputs of a neural network solving XOR using TensorFlow.js.",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ueNMC_Wh6"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "💻",
-                    "title": "TensorFlow.js",
-                    "url": "https://js.tensorflow.org/",
-                    "description": "Webpage with reference materials and documentation about TensorFow.js"
-                },
-                {
-                    "icon": "💻",
-                    "title": "ml5.js",
-                    "url": "https://ml5js.org",
-                    "description": "ml5 page with documentation and supporting material."
-                },
-                {
-                    "icon": "💻",
-                    "title": "Adam optimizer",
-                    "url": "https://arxiv.org/abs/1412.6980",
-                    "description": "Article about the Adam optimizer, an algorithm for first-order gradient-based optimization of stochastic objective functions."
-                }
-            ]
+          "icon": "💻",
+          "title": "TensorFlow.js",
+          "url": "https://js.tensorflow.org/",
+          "description": "Webpage with reference materials and documentation about TensorFow.js"
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "TensorFlow.js playlist",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ",
-                    "description": "My video series on intelligence and learning with tensorflow.js"
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Coding Challenge #92: XOR Problem",
-                    "url": "/challenges/92-xor-problem",
-                    "description": "In this coding challenge, I use my Toy Neural Networks library to solve the XOR problem."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "ES6 Arrow Function",
-                    "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
-                    "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "TensorFlow.js: Layers API",
-                    "url": "https://youtu.be/F4WWukTWoXY",
-                    "description": "In this video, I cover the TensorFlow.js Layers API (\u201ctf.layers\u201d)."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "async/await",
-                    "url": "https://youtu.be/XO77Fib9tSI",
-                    "description": "This video covers the ES8 \u201casync\u201d and \u201cawait\u201d keywords for writing asynchronous functions in JavaScript."
-                }
-            ]
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "💻",
+          "title": "Adam optimizer",
+          "url": "https://arxiv.org/abs/1412.6980",
+          "description": "Article about the Adam optimizer, an algorithm for first-order gradient-based optimization of stochastic objective functions."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "TensorFlow.js playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ",
+          "description": "My video series on intelligence and learning with tensorflow.js"
+        },
+        {
+          "icon": "🚂",
+          "title": "Coding Challenge #92: XOR Problem",
+          "url": "/challenges/92-xor-problem",
+          "description": "In this coding challenge, I use my Toy Neural Networks library to solve the XOR problem."
+        },
+        {
+          "icon": "🚂",
+          "title": "ES6 Arrow Function",
+          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
+        },
+        {
+          "icon": "🚂",
+          "title": "TensorFlow.js: Layers API",
+          "url": "https://youtu.be/F4WWukTWoXY",
+          "description": "In this video, I cover the TensorFlow.js Layers API (\"tf.layers\")."
+        },
+        {
+          "icon": "🚂",
+          "title": "async/await",
+          "url": "https://youtu.be/XO77Fib9tSI",
+          "description": "This video covers the ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
+        }
+      ]
+    }
+  ]
 }

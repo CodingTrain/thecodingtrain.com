@@ -1,6 +1,6 @@
 {
   "title": "RDP Algorithm",
-  "description": "The Ramer\u2013Douglas\u2013Peucker algorithm (aka \u201citerative end-point fit algorithm\u201d), takes a curve composed of line segments and reduces the fidelty to a \u201clower fidelity\u201d curve with fewer points.",
+  "description": "The Ramer–Douglas–Peucker algorithm (aka \"iterative end-point fit algorithm\"), takes a curve composed of line segments and reduces the fidelty to a \"lower fidelity\" curve with fewer points.",
   "videoNumber": "152",
   "videoId": "nSYw9GrakjY",
   "date": "2019-10-23",

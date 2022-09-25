@@ -7,7 +7,8 @@
   "languages": ["ml5", "p5js"],
   "topics": ["image classificaton", "feature extractor"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -33,7 +34,7 @@
     },
     {
       "time": "8:24",
-      "title": "Features:  extraction the \u201cnumeric essense\u201d of an image"
+      "title": "Features:  extraction the \"numeric essense\" of an image"
     },
     {
       "time": "9:24",
@@ -45,9 +46,11 @@
     }
   ],
   "codeExamples": [],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "💻",
           "title": "ml5.js",
           "url": "https://ml5js.org/",

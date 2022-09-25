@@ -7,7 +7,8 @@
   "languages": ["ml5", "p5js"],
   "topics": ["neural network", "pixels", "regression"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -52,7 +53,8 @@
       "title": "Add a regression"
     }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "Pixel Input",
       "description": "This sketch demonstrates how to input pixels from a webCam.",
       "urls": {
@@ -74,7 +76,8 @@
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "References",
       "links": [
         {
@@ -87,11 +90,12 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "ml5.js: Image Classification with MobileNet",
           "url": "https://www.youtube.com/watch?v=yNkAuWz5lnY",
-          "description": "In this video, I use the \u201cpre-trained\u201d MobileNet model to classify the content of an image."
+          "description": "In this video, I use the \"pre-trained\" MobileNet model to classify the content of an image."
         },
         {
           "icon": "🚂",
@@ -109,7 +113,7 @@
           "icon": "🚂",
           "title": "ml5.js: Pose Regression with PoseNet and ml5.neuralNetwork()",
           "url": "https://www.youtube.com/watch?v=lob74HqHYJ0",
-          "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \u201cpose\u201d itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification."
+          "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \"pose\" itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification."
         }
       ]
     }

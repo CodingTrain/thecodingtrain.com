@@ -1,6 +1,6 @@
 {
   "title": "Ray Casting 2D",
-  "description": "In this video, I implement a basic ray casting engine with line segment \u201csurfaces\u201d and vector \u201crays.\u201d The result simulates a light source casting shadows in a 2D canvas.",
+  "description": "In this video, I implement a basic ray casting engine with line segment \"surfaces\" and vector \"rays.\" The result simulates a light source casting shadows in a 2D canvas.",
   "videoNumber": "145",
   "videoId": "TOEi6T2mtHo",
   "date": "2019-05-08",

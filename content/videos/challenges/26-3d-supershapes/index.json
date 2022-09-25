@@ -1,80 +1,77 @@
 {
-    "title": "3D Supershapes",
-    "description": "In this coding challenge, I use the \u201csuperformula\u201d to make a 3D \u201csupershape\u201d in Processing. This is part 4 of a multi-part series on superformulas, superellipses and supershapes",
-    "videoNumber": "26",
-    "videoId": "akM4wMZIBWg",
-    "date": "2016-06-30",
-    "languages": ["processing"],
-    "topics": [
-        "spherical coordinates",
-        "3D supershape"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:44", "title": "Reza Ali's generative art" },
-        { "time": "1:04", "title": "Paul Bourke's website" },
-        { "time": "152", "title": "Constants" },
-        { "time": "4:46", "title": "Supershape function" },
-        { "time": "6:58", "title": "Why do we have r1 and r2?" },
-        { "time": "11:23", "title": "Work on the math" },
-        { "time": "13:53", "title": "Render the supershape" },
-        { "time": "15:03", "title": "Try a different supershape" },
-        { "time": "16:30", "title": "Add color" },
-        { "time": "16:56", "title": "Animate the colors" },
-        { "time": "17:53", "title": "Animate the supershape" }
-    ],
-    "codeExamples": [
-        { 
-            "title": "3D Supershape",
-            "description": "This sketch renders a 3D supershape.",
-            "image": "super.jpg",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/026_SuperShape3D/Processing/CC_026_SuperShape3D"
-            }
-        }
-    ],
-    "groupLinks": [
+  "title": "3D Supershapes",
+  "description": "In this coding challenge, I use the \"superformula\" to make a 3D \"supershape\" in Processing. This is part 4 of a multi-part series on superformulas, superellipses and supershapes",
+  "videoNumber": "26",
+  "videoId": "akM4wMZIBWg",
+  "date": "2016-06-30",
+  "languages": ["processing"],
+  "topics": ["spherical coordinates", "3D supershape"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:44", "title": "Reza Ali's generative art" },
+    { "time": "1:04", "title": "Paul Bourke's website" },
+    { "time": "152", "title": "Constants" },
+    { "time": "4:46", "title": "Supershape function" },
+    { "time": "6:58", "title": "Why do we have r1 and r2?" },
+    { "time": "11:23", "title": "Work on the math" },
+    { "time": "13:53", "title": "Render the supershape" },
+    { "time": "15:03", "title": "Try a different supershape" },
+    { "time": "16:30", "title": "Add color" },
+    { "time": "16:56", "title": "Animate the colors" },
+    { "time": "17:53", "title": "Animate the supershape" }
+  ],
+  "codeExamples": [
+    {
+      "title": "3D Supershape",
+      "description": "This sketch renders a 3D supershape.",
+      "image": "super.jpg",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/026_SuperShape3D/Processing/CC_026_SuperShape3D"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "📐",
-                    "title": "Supershapes (Superformula)",
-                    "url": "http://paulbourke.net/geometry/supershape/",
-                    "description": "Article with information about the geometry and formulas for rendering supershapes."
-                },
-                {
-                    "icon": "🏮",
-                    "title": "3D Supershapes",
-                    "url": "http://www.syedrezaali.com/3d-supershapes/",
-                    "description": "Revi Ali's website with 3D geometries created by the superformula."
-                },
-                {
-                    "icon": "🗄",
-                    "title": "Spherical Coordinates System on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
-                    "description": "Wikipedia page with background and references on spherical coordinates."
-                },
-                {
-                    "icon": "🎥",
-                    "title": "Peasycam",
-                    "url": "http://mrfeinberg.com/peasycam/",
-                    "description": "Webpage with documentation about PeasyCam, a simple mouse-driven camera for Processing."
-                }
-            ]
+          "icon": "📐",
+          "title": "Supershapes (Superformula)",
+          "url": "http://paulbourke.net/geometry/supershape/",
+          "description": "Article with information about the geometry and formulas for rendering supershapes."
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "Coding Challenge: Spherical Geometry",
-                    "url": "/challenges/25-spherical-geometry",
-                    "description": "In this Coding Challenge, I create a sphere in Processing using spherical coordinates and triangle strips."
-                }
-            ]
+          "icon": "🏮",
+          "title": "3D Supershapes",
+          "url": "http://www.syedrezaali.com/3d-supershapes/",
+          "description": "Revi Ali's website with 3D geometries created by the superformula."
+        },
+        {
+          "icon": "🗄",
+          "title": "Spherical Coordinates System on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
+          "description": "Wikipedia page with background and references on spherical coordinates."
+        },
+        {
+          "icon": "🎥",
+          "title": "Peasycam",
+          "url": "http://mrfeinberg.com/peasycam/",
+          "description": "Webpage with documentation about PeasyCam, a simple mouse-driven camera for Processing."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Coding Challenge: Spherical Geometry",
+          "url": "/challenges/25-spherical-geometry",
+          "description": "In this Coding Challenge, I create a sphere in Processing using spherical coordinates and triangle strips."
+        }
+      ]
+    }
+  ]
 }

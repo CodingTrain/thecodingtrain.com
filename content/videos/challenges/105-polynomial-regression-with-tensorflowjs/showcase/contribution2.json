@@ -2,8 +2,7 @@
   "title": "My polynomial regression with n-degree polynomial interface.",
   "url": "https://mklahane.github.io/ML/NPolynomialRegression/",
   "author": {
-      "name": " by Makarand Lahane",
-      "url": ""
+    "name": "Makarand Lahane"
   },
   "source": "https://github.com/MkLahane/ML"
 }
