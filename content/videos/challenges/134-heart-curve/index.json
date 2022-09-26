@@ -1,0 +1,107 @@
+{
+    "title": "Heart Curve",
+    "description": "In this multi-part challenge, I use a parametric equation (from Wolfram Mathworld) to draw a heart curve in Processing (Java).",
+    "videoNumber": "134",
+    "videoId": "",
+    "date": "2019-02-18",
+    "languages": ["Processing"],
+    "topics": [
+        "heart curve",
+        "parametric equation",
+        "polar curves",
+        "gif loop"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["133-times-tables-cardioid-visualization"],
+    "timestamps": [],
+    "parts": [
+        {
+          "title": "Heart Curve",
+          "videoId": "oUBAi9xQ2X4",
+          "timestamps": []
+        },
+        {
+            "title": "Beating Heart GIF",
+            "videoId": "l5I3Q1JFISE",
+            "timestamps": []
+          }
+        ],
+    "codeExamples": [
+        {
+            "title": "Heart Curve",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/egvieHyt0",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/134_Heart_Curve_1/Processing/CC_134_Heart_Curve_1"
+            }
+        },
+        {
+            "title": "Beating Heart GIF",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/egvieHyt0",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/134_Heart_Curve_2/Processing/CC_134_Heart_Curve_2"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "❤️",
+                    "title": "Heart Curve Formulas",
+                    "url": "http://mathworld.wolfram.com/HeartCurve.html",
+                    "description": ""
+                },
+                {
+                    "icon": "🖌",
+                    "title": "Daily Art",
+                    "url": "http://sasj.tumblr.com/",
+                    "description": ""
+                },
+                {
+                    "icon": "🐝",
+                    "title": "Bees & Bombs",
+                    "url": "https://beesandbombs.tumblr.com/",
+                    "description": ""
+                },
+                {
+                    "icon": "💾",
+                    "title": "Interactivity & Computation",
+                    "url": "http://cmuems.com/2016/60212/",
+                    "description": ""
+                },
+                {
+                    "icon": "💾",
+                    "title": "EZGIF",
+                    "url": "https://ezgif.com/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "Times Tables Cardioid:",
+                    "url": "/challenges/133-times-tables-cardioid-visualization",
+                    "description": ""
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Polar Coordinates",
+                    "url": "",
+                    "description": ""
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Drawing with Fourier Transform and Epicycles",
+                    "url": "",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
