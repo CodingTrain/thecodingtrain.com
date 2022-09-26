@@ -6,7 +6,8 @@
     "date": "2019-02-19",
     "languages": ["Processing"],
     "topics": [
-        "gif loop"
+        "gif loop",
+        "EZGIF"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -44,12 +45,6 @@
                     "title": "Bees & Bombs",
                     "url": "https://beesandbombs.tumblr.com/",
                     "description": "Bees & Bombs tumblr site."
-                },
-                {
-                    "icon": "🖌",
-                    "title": "Interactivity & Computation",
-                    "url": "http://cmuems.com/2016/60212/",
-                    "description": ""
                 },
                 {
                     "icon": "💾",
