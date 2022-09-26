@@ -91,22 +91,20 @@ const Contribution = ({
         )}
         <PlayButton width={30} className={css.playButton} />
       </a>
-      <p className={css.author}>
-        <address>
-          {author && <span>by </span>}
-          {author?.url ? (
-            <a
-              href={author?.url}
-              target="_blank"
-              rel="noreferrer"
-              className={css.authorName}>
-              {author?.name}
-            </a>
-          ) : author?.name ? (
-            <span className={css.authorName}>{author?.name}</span>
-          ) : null}
-        </address>
-      </p>
+      <address className={css.author}>
+        {author && <span>by </span>}
+        {author?.url ? (
+          <a
+            href={author.url}
+            target="_blank"
+            rel="noreferrer"
+            className={css.authorName}>
+            {author?.name}
+          </a>
+        ) : author?.name ? (
+          <span className={css.authorName}>{author.name}</span>
+        ) : null}
+      </address>
     </article>
   );
 };
