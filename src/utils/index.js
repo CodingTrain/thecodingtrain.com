@@ -55,6 +55,7 @@ export const filteredPath = (resource, language, topic) => {
  * Returns a shuffled copy of the array using the Fisher-Yates algorithm.
  *
  * @param {any[]} array Array to be copied and shuffled
+ * @return Shuffled copy of the array
  */
 export const shuffleCopy = (array) => {
   const copy = [...array];
