@@ -6,7 +6,6 @@ import Layout from './Layout';
 import CharacterSpacer from './CharacterSpacer';
 import { Heading1 } from './Heading';
 import PagePanel from './PagePanel';
-import Filter from './Filter';
 import Select from './Select';
 import Spacer from './Spacer';
 import Button from './Button';
@@ -43,10 +42,6 @@ const ItemsPage = ({
   nextPagePath
 }) => {
   const [expanded, setExpanded] = useState(false);
-  const onExpand = () => {
-    setExpanded((expanded) => !expanded);
-  };
-
   const filtersRef = useRef();
   const shouldScroll = location.pathname.split('/').length > 2;
 
