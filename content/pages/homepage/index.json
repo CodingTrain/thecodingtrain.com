@@ -33,7 +33,10 @@
     "featured": [
       "174-graphics-applesoft-basic",
       "171-wave-function-collapse",
-      "166-image-to-ascii"
+      "166-image-to-ascii",
+      "170-monty-hall-problem",
+      "c3-hilbert-curve",
+      "116-lissajous-curve-table"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
