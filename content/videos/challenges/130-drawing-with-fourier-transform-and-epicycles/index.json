@@ -25,15 +25,15 @@
             { "time": "5:49", "title": "Make a signal array" },
             { "time": "12:09", "title": "Euler's formula" },
             { "time": "15:34", "title": "Write the decrete fourier transform function" },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " },
-            { "time": "0:00", "title": " " }
+            { "time": "21:50", "title": "What do we need for a circular epicycle?" },
+            { "time": "22:47", "title": "Calculate the amplitude, frequency, and phase" },
+            { "time": "26:30", "title": "Calculate amount of time to move per frame of animation" },
+            { "time": "29:44", "title": "Draw an arbitrary path for both x and y" },
+            { "time": "31:07", "title": "Write an epiCycles() function" },
+            { "time": "34:30", "title": "Have epiCycles() return a vector with an x and y" },
+            { "time": "38:59", "title": "Grab the path of the Coding Train logo" },
+            { "time": "41:38", "title": "Render the epiCycles by order of amplitude" },
+            { "time": "43:57", "title": "Conclusion and next steps" }
           ]
         },
         {
