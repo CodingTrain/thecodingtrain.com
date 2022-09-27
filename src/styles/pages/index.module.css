@@ -129,6 +129,7 @@
 
 .card .smallTitle {
   flex-grow: 1;
+  min-height: var(--baseline);
   line-height: var(--baseline-box);
   border-left: var(--border);
   border-bottom: var(--border);
@@ -144,6 +145,7 @@
 .card .icon {
   font-family: var(--maru-emoji);
   flex-basis: var(--baseline-box);
+  flex-shrink: 0;
   line-height: 1em;
   font-size: var(--maru-emoji-normal);
   border-left: var(--border);
@@ -172,6 +174,13 @@
 .card .picture {
   overflow: hidden;
   flex: 1;
+}
+
+.card .noImage {
+  height: var(--baseline-4x);
+  border-left: var(--border);
+  border-bottom: var(--border);
+  background-color: var(--gray-light);
 }
 
 .card .image {
