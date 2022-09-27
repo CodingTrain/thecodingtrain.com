@@ -6,7 +6,8 @@ import Image from './Image';
 import * as css from './PassengerShowcasePanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
-import { shuffleCopy, useIsFirstRender } from '../utils';
+import { useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const PassengerShowcasePanel = ({
   contributions,

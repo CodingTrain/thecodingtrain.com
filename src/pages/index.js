@@ -16,8 +16,8 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
-import { getReadableDate } from '../hooks';
-import { shuffleCopy, useIsFirstRender } from '../utils';
+import { getReadableDate, useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
