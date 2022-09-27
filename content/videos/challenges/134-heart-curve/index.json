@@ -12,7 +12,7 @@
         "GIF loop"
     ],
     "canContribute": true,
-    "relatedChallenges": ["133-time-tables-cardioid-visualization"],
+    "relatedChallenges": ["133-time-tables-cardioid-visualization", "135-making-a-gif-loop-in-processing"],
     "timestamps": [],
     "parts": [{
             "title": "Heart Curve",
