@@ -4,7 +4,7 @@
     "videoNumber": "130",
     "videoId": "MY4luNgGfms",
     "date": "2019-01-24",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
         "fourier transform square wave",
         "discrete fourier transform",
@@ -80,21 +80,25 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🚂",
                     "title": "Coding Train Logo",
                     "url": "https://twitter.com/TomFevrier/status/1079437780466520065",
                     "description": ""
                 },
                 {
+                    "icon": "💾",
                     "title": "p5.FFT",
                     "url": "https://p5js.org/reference/#/p5.FFT",
                     "description": ""
                 },
                 {
+                    "icon": "",
                     "title": "FFT on Algorithm Archive",
                     "url": "https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html",
                     "description": ""
                 },
                 {
+                    "icon": "🗄",
                     "title": "Discrete Fourier transform on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Discrete_Fourier_transform",
                     "description": ""
