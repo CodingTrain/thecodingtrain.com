@@ -1,0 +1,128 @@
+{
+    "title": "Drawing with Fourier Transform and Epicycles",
+    "description": "In this coding challenge, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform.",
+    "videoNumber": "130",
+    "videoId": "MY4luNgGfms",
+    "date": "2019-01-24",
+    "languages": [],
+    "topics": [
+        "fourier transform square wave",
+        "discrete fourier transform",
+        "epicycles fourier series",
+        "epicycles drawing"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["125-fourier-series"],
+    "timestamps": [],
+    "parts": [
+        {
+          "title": "Drawing with Fourier Transform and Epicycles - Part 1",
+          "videoId": "MY4luNgGfms",
+          "timestamps": [
+            { "time": "0:00", "title": "Introducing today's topic: Fourier tranform drawing machine" },
+            { "time": "1:29", "title": "Fourier transform algorithm" },
+            { "time": "3:08", "title": "Signal processing" },
+            { "time": "5:49", "title": "Make a signal array" },
+            { "time": "12:09", "title": "Euler's formula" },
+            { "time": "15:34", "title": "Write the decrete fourier transform function" },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " },
+            { "time": "0:00", "title": " " }
+          ]
+        },
+        {
+            "title": "Part 2",
+            "videoId": "n9nfTxp_APM",
+            "timestamps": [
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " }
+            ]
+          },
+          {
+            "title": "Part 3",
+            "videoId": "7_vKzcgpfvU",
+            "timestamps": [
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " },
+                { "time": "0:00", "title": " " }
+            ]
+          }
+    ],
+    "codeExamples": [
+        {
+            "title": "Fourier Transform",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/RfrZibjfL",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/130_Fourier_Transform_1/Processing/CC_130_Fourier_Transform"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Coding Train Logo",
+                    "url": "https://twitter.com/TomFevrier/status/1079437780466520065",
+                    "description": ""
+                },
+                {
+                    "title": "p5.FFT",
+                    "url": "https://p5js.org/reference/#/p5.FFT",
+                    "description": ""
+                },
+                {
+                    "title": "FFT on Algorithm Archive",
+                    "url": "https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html",
+                    "description": ""
+                },
+                {
+                    "title": "Discrete Fourier transform on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Discrete_Fourier_transform",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "But what is the Fourier Transform? A visual introduction",
+                    "url": "https://youtu.be/spUNpyF58BY",
+                    "description": ""
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Fourier Analysis For The Rest Of Us",
+                    "url": "https://youtu.be/2hfoX51f6sg",
+                    "description": ""
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Epicycles, complex Fourier series and Homer Simpson's orbit",
+                    "url": "https://youtu.be/qS4H6PEcCCA",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
