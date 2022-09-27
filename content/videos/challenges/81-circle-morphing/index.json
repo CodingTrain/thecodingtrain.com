@@ -61,7 +61,7 @@
             "videoId": "0veqAiA61AU",
             "timestamps": [{
                     "time": "0:00",
-                    "title": "Introduction--we will implement a different circle morphing algorithm"
+                    "title": "Introduction--we will implement another circle morphing algorithm"
                 },
                 {
                     "time": "1:30",
@@ -106,19 +106,19 @@
         {
             "title": "Videos",
             "links": [{
-                   "icon": "🚂",
+                   "icon": "🎥",
                     "title": "Polar to Cartesian Coordinates",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
                     "description": "This video takes a look at the trigonometric functions—sine, cosine, tangent."
                 },
                 {
-                    "icon": "🚂",
+                    "icon": "🎥",
                     "title": "Golan Levin's Modulo Operator video",
                     "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
                     "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
                 },
                 {
-                    "icon": "🚂",
+                    "icon": "🎥",
                     "title": "Golan Levin's Circle Morphing Challenge",
                     "url": "https://www.youtube.com/watch?v=mvgcNOX8JGQ",
                     "description": "Artist and educator Golan Levin provides historical background and then proposes a \"circle morphing\" coding challenge."
