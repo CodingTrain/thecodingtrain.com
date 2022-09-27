@@ -1,0 +1,61 @@
+{
+    "title": "Asteroids",
+    "description": "In this multi-part coding challenge: the classic Atari video game Asteroids! In this video, I use JavaScript and HTML5 canvas with the p5.js library to program the ship and the asteroids.",
+    "videoNumber": "46",
+    "videoId": "hacZU523FyM",
+    "date": "2016-12-15",
+    "languages": [],
+    "topics": [
+        "asteroids",
+        "atari asteroids",
+        "machine learning"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "parts": [
+        {
+          "title": "Asteroids - Part 1",
+          "videoId": "hacZU523FyM",
+          "timestamps": []
+        },
+        {
+            "title": "Asteroids - Part 2",
+            "videoId": "xTTuih7P0c0",
+            "timestamps": []
+          }
+        ],
+    "codeExamples": [
+        {
+            "title": "Asteriods",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/VtYr6E4_M",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_046_Asteroids/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Asteroids on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "My Trigonometry and Polar Coordinates video",
+                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
