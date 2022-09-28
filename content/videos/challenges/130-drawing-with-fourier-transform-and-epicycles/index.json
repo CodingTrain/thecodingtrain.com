@@ -18,7 +18,7 @@
           "title": "Drawing with Fourier Transform and Epicycles - Part 1",
           "videoId": "MY4luNgGfms",
           "timestamps": [
-            { "time": "0:00", "title": "Introducing today's topic: Fourier tranform drawing machine" },
+            { "time": "0:00", "title": "Introducing today's topic: a Fourier tranform drawing machine" },
             { "time": "1:29", "title": "Fourier transform algorithm" },
             { "time": "3:08", "title": "Signal processing" },
             { "time": "5:49", "title": "Make a signal array" },
@@ -39,13 +39,13 @@
             "title": "Part 2",
             "videoId": "n9nfTxp_APM",
             "timestamps": [
-                { "time": "0:00", "title": "Fourier Transform and Epicycles Part 2 - render a user drawn path" },
+                { "time": "0:00", "title": "Fourier Transform and Epicycles Part 2 - render a user-drawn path" },
                 { "time": "1:20", "title": "Create a state variable" },
                 { "time": "2:18", "title": "When the mouse is pressed, set the state as \"user\"" },
                 { "time": "4:18", "title": "Render points while the user is drawing" },
                 { "time": "6:48", "title": "Reset variables" },
                 { "time": "7:38", "title": "Fix offset" },
-                { "time": "8:38", "title": "Up next: have the imputs be complex numbers" }
+                { "time": "8:38", "title": "Up next: have the inputs be complex numbers" }
             ]
           },
           {
@@ -58,7 +58,7 @@
                 { "time": "8:00", "title": "Create a Complex number class" },
                 { "time": "13:37", "title": "Use \"FOIL\" to multiply complex numbers" },
                 { "time": "17:13", "title": "Write an add function to add the real components / imaginary components together" },
-                { "time": "22:02", "title": "Add user drawn path" },
+                { "time": "22:02", "title": "Add a user-drawn path" },
                 { "time": "24:27", "title": "Conclusion and suggestions for variations "}
             ]
           }
@@ -121,9 +121,10 @@
                     "icon": "🗄",
                     "title": "Discrete Fourier transform on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Discrete_Fourier_transform",
-                    "description": "Wikipedia page with information and resources about the discrete fourier transform."
+                    "description": "Wikipedia page with information and resources about the Discrete Fourier Transform."
                 },
                 {
+                    "icon": "🗄",
                     "title": "Complex Number on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Complex_number",
                     "description": "Wikipedia page with information and resources about complex numbers."
