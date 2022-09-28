@@ -59,7 +59,7 @@
                 { "time": "13:37", "title": "Use \"FOIL\" to multiply complex numbers" },
                 { "time": "17:13", "title": "Write an add function to add the real components / imaginary components together" },
                 { "time": "22:02", "title": "Add a user-drawn path" },
-                { "time": "24:27", "title": "Conclusion and suggestions for variations "}
+                { "time": "24:27", "title": "Conclusion and suggestions for variations" }
             ]
           }
     ],
@@ -89,7 +89,7 @@
         },
         {
             "title": "User drawn path with complex numbers",
-            "url": {
+            "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/sPvZsg2w4",
             "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_3/Processing/CC_130_Fourier_Transform/CC_130_Fourier_Transform.pde"
             }
