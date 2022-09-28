@@ -5,8 +5,8 @@ import cn from 'classnames';
 import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
-import { getReadableDate } from '../hooks';
-import { shuffleCopy, useIsFirstRender } from '../utils';
+import { getReadableDate, useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const Card = ({
   className,

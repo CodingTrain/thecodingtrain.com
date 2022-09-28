@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, graphql } from 'gatsby';
 import cn from 'classnames';
 
@@ -16,7 +16,8 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
-import { getReadableDate } from '../hooks';
+import { getReadableDate, useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
@@ -53,6 +54,9 @@ const TrackCard = ({ track, placeholderImage }) => {
 
 const ChallengeCard = ({ challenge, placeholderImage }) => {
   const { title, cover, date, slug, videoNumber } = challenge;
+  const image = cover
+    ? cover.file.childImageSharp.gatsbyImageData
+    : placeholderImage;
   return (
     <article className={cn(css.card, css.challengeCard)}>
       <div className={css.details}>
@@ -65,16 +69,16 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         </h3>
       </div>
       <Link to={`challenges/${slug}`}>
-        <Image
-          image={
-            cover
-              ? cover.file.childImageSharp.gatsbyImageData
-              : placeholderImage
-          }
-          pictureClassName={css.picture}
-          imgClassName={css.image}
-          alt={`"${title}" coding challenge`}
-        />
+        {image ? (
+          <Image
+            image={image}
+            pictureClassName={css.picture}
+            imgClassName={css.image}
+            alt={`"${title}" coding challenge`}
+          />
+        ) : (
+          <div className={css.noImage} />
+        )}
       </Link>
 
       <p className={css.date}>
@@ -131,6 +135,13 @@ const IndexPage = ({ data }) => {
     data.challengePlaceholderImage.nodes.length > 0
       ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
+  // First render : empty placeholders
+  const [featuredChallenges, setFeaturedChallenges] = useState([{}, {}, {}]);
+  // Next renders : 3 random challenges on client side hydration
+  useEffect(() => {
+    setFeaturedChallenges(shuffleCopy(content.challenges.featured).slice(0, 3));
+  }, [content.challenges.featured]);
+  const isFirstRender = useIsFirstRender();
   return (
     <Layout>
       <div className={css.root}>
@@ -265,31 +276,30 @@ const IndexPage = ({ data }) => {
           />
           <Spacer pattern />
           <div className={css.challenges}>
-            {content.challenges.featured.map((challenge, index) => (
+            {featuredChallenges.map((challenge, index) => (
               <React.Fragment key={index}>
                 <ChallengeCard
                   challenge={challenge}
-                  placeholderImage={challengesPlaceholder}
+                  placeholderImage={
+                    isFirstRender ? null : challengesPlaceholder
+                  }
                 />
                 {index % 3 !== 2 && (
                   <div
                     className={cn(css.horizontalSpacer, {
-                      [css.lastSpacer]:
-                        index === content.challenges.featured.length - 1
+                      [css.lastSpacer]: index === featuredChallenges.length - 1
                     })}
                   />
                 )}
-                {index % 3 !== 2 &&
-                  index !== content.challenges.featured.length - 1 && (
-                    <Spacer
-                      className={cn(css.verticalSpacer, css.mobileSpacer)}
-                      pattern
-                    />
-                  )}
-                {index % 3 === 2 &&
-                  index !== content.challenges.featured.length - 1 && (
-                    <Spacer className={css.verticalSpacer} pattern />
-                  )}
+                {index % 3 !== 2 && index !== featuredChallenges.length - 1 && (
+                  <Spacer
+                    className={cn(css.verticalSpacer, css.mobileSpacer)}
+                    pattern
+                  />
+                )}
+                {index % 3 === 2 && index !== featuredChallenges.length - 1 && (
+                  <Spacer className={css.verticalSpacer} pattern />
+                )}
               </React.Fragment>
             ))}
           </div>
