@@ -73,22 +73,25 @@
             }
         },
         {
-            "title": "Fourier Transform - user drawn path",
+            "title": "Fourier Transform - user-drawn path",
             "description": "This sketch renders a mouse-drawn path using a Discrete Fourier Transform algorithm.",
+            "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/jawHqwfda"
             }
         },
         {
             "title": "Fourier Transform - complex numbers",
-            "description": "This sketch renders a path using a Discrete Fourier Transform algorithm.",
+            "description": "This sketch renders a path using a DFT algorithm with complex numbers.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/ldBlISrsQ",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_3/Processing/CC_130_Fourier_Transform/Complex_Number.pde"
             }
         },
         {
-            "title": "User drawn path with complex numbers",
+            "title": "Fourier Transform - user-drawn path with complex numbers",
+            "description": "This sketch renders a mouse-drawn path using a DFT algorithm with complex numbers.",
+            "image": "img1.jpg",
             "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/sPvZsg2w4",
             "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_3/Processing/CC_130_Fourier_Transform/CC_130_Fourier_Transform.pde"
