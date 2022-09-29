@@ -1,0 +1,113 @@
+{
+    "title": "Quick, Draw!",
+    "description": "In this multi-part coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \"replay\" drawings of rainbows and cats using p5.js.",
+    "videoNumber": "122",
+    "videoId": "",
+    "date": "2018-11-19",
+    "languages": ["p5.js", "node.js", "JavaScript"],
+    "topics": ["Quick, Draw!", "machine learning", "doodle classifiers", "sketchrnn"],
+    "canContribute": true,
+    "relatedChallenges": ["128-sketch-rnn-snowflakes", "153-interactive-drawing-with-sketchrnn"],
+    "timestamps": [],
+    "parts": [{
+            "title": "Quick, Draw! Part 1",
+            "videoId": "yLuk0twx8Hc",
+            "timestamps": [{
+                    "time": "00:00",
+                    "title": "Title 1"
+                },
+                {
+                    "time": "00:28",
+                    "title": "Title 2"
+                }
+            ]
+        },
+        {
+            "title": "Quick, Draw! Part 2",
+            "videoId": "EcRK6oFddPQ",
+            "timestamps": [{
+                    "time": "00:00",
+                    "title": "Title 1"
+                },
+                {
+                    "time": "00:28",
+                    "title": "Title 2"
+                }
+            ]
+        }
+    ],
+    "codeExamples": [{
+            "title": "Quick, Draw! Part 1",
+            "description": "",
+            "image": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/122_QuickDraw_1/Node"
+            }
+        },
+        {
+            "title": "Quick, Draw! Part 2",
+            "description": "",
+            "image": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07"
+            }
+        }
+    ],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                    "icon": "",
+                    "title": "Quick, Draw! The Data",
+                    "url": "https://quickdraw.withgoogle.com/data",
+                    "description": ""
+                },
+                {
+                    "icon": "",
+                    "title": "sketch-rnn",
+                    "url": "https://magenta.tensorflow.org/sketch-rnn-demo",
+                    "description": ""
+                },
+                {
+                    "icon": "",
+                    "title": "Quick, Draw! Web Component",
+                    "url": "https://opensource.googleblog.com/2018/11/introducing-web-component-and-data-api-for-quick-draw.html",
+                    "description": ""
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Quick, Draw! API",
+                    "url": "https://github.com/googlecreativelab/quickdraw-dataset",
+                    "description": ""
+                },
+                {
+                    "icon": "",
+                    "title": "Google Group",
+                    "url": "https://groups.google.com/forum/#!forum/quick-draw-data-api",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "",
+                    "title": "Doodle Classifier",
+                    "url": "/more/archive/nature-of-code/10-Neural-Networks/5.1-Doodle-Classifier-Introduction-Intelligence-and-Learning",
+                    "description": ""
+                },
+                {
+                    "icon": "",
+                    "title": "What is JSON?",
+                    "url": "/Tutorials/10-working-with-data/10.2-what-is-json-part-1",
+                    "description": ""
+                },
+                {
+                    "icon": "",
+                    "title": "Building an API with Node",
+                    "url": "P-Upi9TMrBk",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
