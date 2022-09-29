@@ -141,6 +141,9 @@ const IndexPage = ({ data }) => {
   useEffect(() => {
     setFeaturedChallenges(shuffleCopy(content.challenges.featured).slice(0, 3));
   }, [content.challenges.featured]);
+
+  const featuredShowcase = content.passengerShowcase.featured[0];
+
   const isFirstRender = useIsFirstRender();
   return (
     <Layout>
@@ -320,19 +323,19 @@ const IndexPage = ({ data }) => {
               <div className={css.details}>
                 <p>
                   <address>
-                    {content.passengerShowcase.featured.author.url ? (
-                      <a href={content.passengerShowcase.featured.author.url}>
-                        {content.passengerShowcase.featured.author.name}
+                    {featuredShowcase.author.url ? (
+                      <a href={featuredShowcase.author.url}>
+                        {featuredShowcase.author.name}
                       </a>
                     ) : (
-                      content.passengerShowcase.featured.author.name
+                      featuredShowcase.author.name
                     )}
                   </address>
                 </p>
-                <p>{content.passengerShowcase.featured.title}</p>
+                <p>{featuredShowcase.title}</p>
                 <p>
-                  {content.passengerShowcase.featured.video.title} (
-                  {content.passengerShowcase.featured.video.source})
+                  {featuredShowcase.video.title} (
+                  {featuredShowcase.video.source})
                 </p>
               </div>
               <ButtonPanel
@@ -341,10 +344,10 @@ const IndexPage = ({ data }) => {
                 text={content.passengerShowcase.cta.text}
                 buttonText={content.passengerShowcase.cta.buttonText}
                 buttonLink={
-                  content.passengerShowcase.featured.url ??
-                  (content.passengerShowcase.featured.videoId
-                    ? `https://youtu.be/${content.passengerShowcase.featured.videoId}`
-                    : content.passengerShowcase.featured.source)
+                  featuredShowcase.url ??
+                  (featuredShowcase.videoId
+                    ? `https://youtu.be/${featuredShowcase.videoId}`
+                    : featuredShowcase.source)
                 }
                 smallWrap
                 rainbow
@@ -353,14 +356,14 @@ const IndexPage = ({ data }) => {
             <div className={css.right}>
               <Image
                 image={
-                  content.passengerShowcase.featured.cover
-                    ? content.passengerShowcase.featured.cover.file
+                  featuredShowcase.cover
+                    ? featuredShowcase.cover.file
                         .childImageSharp.gatsbyImageData
                     : challengesPlaceholder
                 }
                 pictureClassName={css.picture}
                 imgClassName={css.image}
-                alt={`Passenger showcase "${content.passengerShowcase.featured.title}" from ${content.passengerShowcase.featured.author.name}`}
+                alt={`Passenger showcase "${featuredShowcase.title}" from ${featuredShowcase.author.name}`}
               />
             </div>
           </article>

@@ -49,7 +49,9 @@
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlight",
-    "featured": "challenges/173-snake-applesoft-basic/showcase/contribution-1661456933.json",
+    "featured": [
+      "challenges/173-snake-applesoft-basic/showcase/contribution-1661456933.json"
+    ],
     "cta": {
       "text": "Ready to be inspired?",
       "buttonText": "Enjoy this showcase highlight"
