@@ -258,13 +258,16 @@
   flex: 1;
 }
 
-.showcase .right .image {
-  object-fit: cover;
-  border-left: var(--border);
-  border-bottom: var(--border);
-  width: 100%;
-  height: var(--baseline-5x);
-  background-color: var(--gray-light);
+.showcase .right {
+  & .image,
+  & .noImage {
+    object-fit: cover;
+    border-left: var(--border);
+    border-bottom: var(--border);
+    width: 100%;
+    height: var(--baseline-5x);
+    background-color: var(--gray-light);
+  }
 }
 
 .eventsBanner {
@@ -429,10 +432,12 @@
     flex-direction: column-reverse;
   }
 
-  .showcase .right .image {
-    height: var(--baseline-8x);
+  .showcase .right {
+    & .image,
+    & .noImage {
+      height: var(--baseline-8x);
+    }
   }
-
   .event {
     flex-wrap: wrap;
     & .left,
