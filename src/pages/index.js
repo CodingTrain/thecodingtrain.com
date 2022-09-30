@@ -77,7 +77,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
             alt={`"${title}" coding challenge`}
           />
         ) : (
-          <div className={css.noImage} />
+          <div className={css.image} />
         )}
       </Link>
 
