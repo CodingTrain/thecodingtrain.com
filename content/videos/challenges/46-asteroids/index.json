@@ -1,6 +1,6 @@
 {
     "title": "Asteroids",
-    "description": "In this two part coding challenge, I use p5.js library to create my own version of the classic Atari video game Asteroids!",
+    "description": "In this two part coding challenge, I use the p5.js library to create my own version of the classic Atari video game Asteroids!",
     "videoNumber": "46",
     "videoId": "",
     "date": "2016-12-15",
@@ -17,14 +17,14 @@
           "title": "Asteroids - Part 1",
           "videoId": "hacZU523FyM",
           "timestamps": [
-            { "time": "0:00", "title": "Introducing today's topic: Asteroids" },
+            { "time": "0:00", "title": "Introducing today's topic: coding the classic Atari game Asteroids" },
             { "time": "1:54", "title": "Create a Ship object" },
             { "time": "5:56", "title": "Write a function to turn the ship" },
             { "time": "9:54", "title": "Move the ship by adding velocity and acceleration vectors" },
             { "time": "16:51", "title": "Deal with the edges of the screen" },
-            { "time": "19:32", "title": "Create an array of asteriods" },
+            { "time": "19:32", "title": "Create an array of asteroids" },
             { "time": "22:12", "title": "Add push and pop to save the ship's heading" },
-            { "time": "24:41", "title": "Use polar to cartesian coordinates to get the vertices on the \"asteroids\"" },
+            { "time": "24:41", "title": "Use polar to cartesian coordinates to get the vertices on the asteroids" },
             { "time": "27:52", "title": "Offset the vertices by a random value to create jagged asteroids" },
             { "time": "30:05", "title": "Move the asteroids" }
           ]
@@ -35,7 +35,7 @@
             "timestamps": [
                 { "time": "0:00", "title": "Asteroids - Part 2" },
                 { "time": "0:49", "title": "Add a Laser object" },
-                { "time": "7:13", "title": "Add colission detection" },
+                { "time": "7:13", "title": "Add collision detection" },
                 { "time": "11:44", "title": "Add a breakup function" },
                 { "time": "15:38", "title": "Loop through the asteroids backwards" },
                 { "time": "19:38", "title": "Use concat to add the new asteroids to the array" },
