@@ -17,7 +17,7 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
 import { getReadableDate, useIsFirstRender } from '../hooks';
-import { shuffleCopy } from '../utils';
+import { randomElement, shuffleCopy } from '../utils';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
@@ -89,9 +89,15 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
 };
 
 const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
-  const { title, cta, featured } = passengerShowcase;
-  const featuredShowcase = featured[0];
-  const { author, video, videoId, url, source } = featuredShowcase;
+  const { title: sectionTitle, cta, featured } = passengerShowcase;
+  // First render : empty placeholder
+  const [featuredShowcase, setFeaturedShowcase] = useState({});
+  useEffect(() => {
+    // Next renders : a random passenger showcase
+    setFeaturedShowcase(randomElement(featured));
+  }, [featured]);
+
+  const { author, title, video, videoId, url, source } = featuredShowcase;
   const image = featuredShowcase?.cover
     ? featuredShowcase.cover.file.childImageSharp.gatsbyImageData
     : placeholderImage;
@@ -107,7 +113,7 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
             className={css.subheading}
             variant="purple"
             as="h3">
-            {title}
+            {sectionTitle}
           </Heading2>
           <div className={css.details}>
             <p>
@@ -121,7 +127,7 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
             </p>
             <p>{title}</p>
             <p>
-              {video?.title} ({video?.source})
+              {video?.title} {video?.source && `(${video.source})`}
             </p>
           </div>
           <ButtonPanel
@@ -135,12 +141,16 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
           />
         </div>
         <div className={css.right}>
-          <Image
-            image={image}
-            pictureClassName={css.picture}
-            imgClassName={css.image}
-            alt={`Passenger showcase "${title}" from ${author?.name}`}
-          />
+          {image ? (
+            <Image
+              image={image}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+              alt={`Passenger showcase "${title}" from ${author?.name}`}
+            />
+          ) : (
+            <div className={css.noImage}></div>
+          )}
         </div>
       </article>
     </section>
@@ -369,7 +379,7 @@ const IndexPage = ({ data }) => {
 
         <PassengerShowcaseSection
           passengerShowcase={content.passengerShowcase}
-          placeholderImage={challengesPlaceholder}
+          placeholderImage={isFirstRender ? null : challengesPlaceholder}
         />
 
         <Spacer pattern size="x2" />
