@@ -50,7 +50,11 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlight",
     "featured": [
-      "challenges/173-snake-applesoft-basic/showcase/contribution-1661456933.json"
+      "challenges/173-snake-applesoft-basic/showcase/contribution-1661456933.json",
+      "challenges/165-slide-puzzle/showcase/contribution1.json",
+      "challenges/163-bezier-curves/showcase/contribution7.json",
+      "challenges/123-chaos-game/showcase/contribution6.json",
+      "challenges/c5-marching-squares/showcase/contribution9.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
