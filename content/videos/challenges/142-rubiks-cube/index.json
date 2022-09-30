@@ -6,7 +6,8 @@
     "date": "2019-04-01",
     "languages": ["Processing"],
     "topics": [
-        "rubik's cube"
+        "Rubik's cube",
+        "simulation"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -99,12 +100,27 @@
             ]
         }
     ],
-    "codeExamples": [{
-            "title": "Rubik's Cube",
+    "codeExamples": [
+        {
+            "title": "Rubik's Cube - Part 1",
             "description": "",
             "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_142_Rubiks_Cube_1/Processing",
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_142_Rubiks_Cube_1/P5"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Jguv-i8Xj",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_1/Processing/CC_142_Rubiks_Cube_1"
+            }
+        },
+        {
+            "title": "Rubik's Cube - Part 2",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_2/Processing/CC_142_Rubiks_Cube_2"
+            }
+        },
+        {
+            "title": "Rubik's Cube - Part 3",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_3/Processing/CC_142_Rubiks_Cube_3"
             }
         }
     ],
@@ -115,7 +131,7 @@
                 "icon": "📹",
                 "title": "peasycam",
                 "url": "http://mrfeinberg.com/peasycam/",
-                "description": ""
+                "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
             }]
         },
         {
@@ -124,7 +140,7 @@
                     "icon": "🎥",
                     "title": "Code Bullet",
                     "url": "https://youtu.be/f9smvQ5fc7Q",
-                    "description": ""
+                    "description": "Code Bullet video A.I. program to solve any Rubik's cube."
                 },
                 {
                     "icon": "🎥",
