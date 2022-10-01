@@ -10,7 +10,7 @@
         "simulation"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection"],
     "timestamps": [
 
     ],
@@ -132,7 +132,20 @@
                 "title": "peasycam",
                 "url": "http://mrfeinberg.com/peasycam/",
                 "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
-            }]
+            },
+            {
+                "icon": "🟥",
+                "title": "I am the cube",
+                "url": "https://iamthecu.be",
+                "description": "An interactive presentation to help you understand the basics of Rubik’s Cube."
+            },
+            {
+                "icon": "🔗",
+                "title": "Rotation matrix on Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+                "description": "Wikipedia page with information and resources about the rotation matrix."
+            }
+        ]
         },
         {
             "title": "Videos",
@@ -147,6 +160,18 @@
                     "title": "Matrix Transformations",
                     "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM&t=0s",
                     "description": "In this video, I cover matrix \"transformations\" using p5.js."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Matrix Multiplication for 3D Rendering",
+                    "url": "https://youtu.be/tzsgS19RRc8",
+                    "description": "In this video, I write a function to perform matrix multiplication in Java."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Rubik's Cube Live Stream",
+                    "url": "https://youtu.be/GbHGGYSwVvY",
+                    "description": "Rubik's Cube Live Stream"
                 }
             ]
         }
