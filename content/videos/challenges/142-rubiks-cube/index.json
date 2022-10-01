@@ -12,7 +12,6 @@
     "canContribute": true,
     "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection"],
     "timestamps": [
-
     ],
     "parts": [{
             "title": "Rubik's Cube - Part 1",
@@ -103,7 +102,7 @@
     "codeExamples": [
         {
             "title": "Rubik's Cube - Part 1",
-            "description": "",
+            "description": "The sketch visualizes the Rubik's cube.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/Jguv-i8Xj",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_1/Processing/CC_142_Rubiks_Cube_1"
