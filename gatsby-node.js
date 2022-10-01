@@ -15,6 +15,7 @@ const {
   create404PageRelatedNodes,
   createTracksPageRelatedNodes,
   createChallengesPageRelatedNodes,
+  createShowcasePageRelatedNodes,
   createGuidesPageRelatedNodes,
   createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
@@ -126,6 +127,14 @@ exports.onCreateNode = ({
       );
     else if (parent.sourceInstanceName === 'tracks-page-data')
       createTracksPageRelatedNodes(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
+    else if (parent.sourceInstanceName === 'showcase-page-data')
+      createShowcasePageRelatedNodes(
         createNode,
         createNodeId,
         createContentDigest,
