@@ -50,11 +50,11 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlight",
     "featured": [
-      "challenges/173-snake-applesoft-basic/showcase/contribution-1661456933.json",
-      "challenges/165-slide-puzzle/showcase/contribution1.json",
-      "challenges/163-bezier-curves/showcase/contribution7.json",
-      "challenges/123-chaos-game/showcase/contribution6.json",
-      "challenges/c5-marching-squares/showcase/contribution9.json"
+      "challenges/76-10Print/showcase/contribution41.json",
+      "challenges/126-toothpicks/showcase/contribution1.json",
+      "challenges/163-bezier-curves/showcase/contribution10.json",
+      "challenges/146-rendering-ray-casting/showcase/contribution-1657910793.json",
+      "challenges/167-prime-spiral/showcase/contribution12.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
