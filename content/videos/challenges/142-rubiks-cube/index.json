@@ -103,6 +103,7 @@
         {
             "title": "Rubik's Cube - Part 1",
             "description": "The sketch visualizes the Rubik's cube.",
+            "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/Jguv-i8Xj",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_1/Processing/CC_142_Rubiks_Cube_1"
