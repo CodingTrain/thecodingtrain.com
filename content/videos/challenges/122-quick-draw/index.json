@@ -12,14 +12,23 @@
     "parts": [{
             "title": "Quick, Draw! Part 1",
             "videoId": "yLuk0twx8Hc",
-            "timestamps": [{
-                    "time": "00:00",
-                    "title": "Title 1"
-                },
-                {
-                    "time": "00:28",
-                    "title": "Title 2"
-                }
+            "timestamps": [
+                {"time": "0:00", "title": "Introducing today's topics: the Quick, Draw! dataset"},
+                {"time": "2:48", "title": "Data is the pixel paths with timing information"},
+                {"time": "4:53", "title": "Data is in a ndjson file"},
+                {"time": "6:58", "title": "Download a simplified ndjson file"},
+                {"time": "9:26", "title": "Install express and ndjson packages"},
+                {"time": "12:12", "title": "Run the server"},
+                {"time": "13:03", "title": "Make an express server"},
+                {"time": "14:45", "title": "Pick a random drawing"},
+                {"time": "16:05", "title": "Have server host a p5 sketch"},
+                {"time": "18:02", "title": "Write a function to load the drawing"},
+                {"time": "19:28", "title": "Looping through all the paths in the drawing"},
+                {"time": "24:22", "title": "Animate the drawing"},
+                {"time": "27:33", "title": "Loop through points within the strokes"},
+                {"time": "29:30", "title": "Connect the points"},
+                {"time": "32:12", "title": "Reset the strokeIndex to zero to draw a new cat"},
+                {"time": "32:22", "title": "Enjoy a whole bunch of cats!"}
             ]
         },
         {
@@ -38,8 +47,7 @@
     ],
     "codeExamples": [{
             "title": "Quick, Draw! Part 1",
-            "description": "",
-            "image": "",
+            "description": "This code demonstrates how to create a simple node API to \"replay\" drawings of rainbows and cats.",
             "urls": {
                 "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/122_QuickDraw_1/Node"
             }
@@ -56,19 +64,19 @@
     "groupLinks": [{
             "title": "References",
             "links": [{
-                    "icon": "",
+                    "icon": "🖌",
                     "title": "Quick, Draw! The Data",
                     "url": "https://quickdraw.withgoogle.com/data",
-                    "description": ""
+                    "description": "A draw set with over 50 million doodles."
                 },
                 {
-                    "icon": "",
+                    "icon": "💾",
                     "title": "sketch-rnn",
                     "url": "https://magenta.tensorflow.org/sketch-rnn-demo",
-                    "description": ""
+                    "description": "Webpage with information and resources about the Magenta project."
                 },
                 {
-                    "icon": "",
+                    "icon": "💾",
                     "title": "Quick, Draw! Web Component",
                     "url": "https://opensource.googleblog.com/2018/11/introducing-web-component-and-data-api-for-quick-draw.html",
                     "description": ""
@@ -77,35 +85,29 @@
                     "icon": "🔗",
                     "title": "Quick, Draw! API",
                     "url": "https://github.com/googlecreativelab/quickdraw-dataset",
-                    "description": ""
-                },
-                {
-                    "icon": "",
-                    "title": "Google Group",
-                    "url": "https://groups.google.com/forum/#!forum/quick-draw-data-api",
-                    "description": ""
+                    "description": "The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!."
                 }
             ]
         },
         {
             "title": "Videos",
             "links": [{
-                    "icon": "",
+                    "icon": "🎥",
                     "title": "Doodle Classifier",
-                    "url": "/more/archive/nature-of-code/10-Neural-Networks/5.1-Doodle-Classifier-Introduction-Intelligence-and-Learning",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ",
+                    "description": "n this series, I build a \"doodle classifier\" using the Google \"Quick, Draw!\" dataset and my JavaScript neural network library."
                 },
                 {
-                    "icon": "",
+                    "icon": "🎥",
                     "title": "What is JSON?",
-                    "url": "/Tutorials/10-working-with-data/10.2-what-is-json-part-1",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=_NFkzw6oFtQ",
+                    "description": "This video covers JSON (JavaScript Object Notation)."
                 },
                 {
-                    "icon": "",
+                    "icon": "🎥",
                     "title": "Building an API with Node",
-                    "url": "P-Upi9TMrBk",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=P-Upi9TMrBk",
+                    "description": "I cover the basic steps for building a RESTful API with Node.js. "
                 }
             ]
         }
