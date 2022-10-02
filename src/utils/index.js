@@ -66,3 +66,11 @@ export const shuffleCopy = (array) => {
   }
   return copy;
 };
+
+export const randomElement = (array) => {
+  if (array.length === 0) {
+    return null;
+  }
+  const index = Math.floor(Math.random() * array.length);
+  return array[index];
+};

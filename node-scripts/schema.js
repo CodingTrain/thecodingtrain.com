@@ -341,7 +341,7 @@ type ChallengesSection implements Node {
 
 type PassengerSection implements Node {
   title: String!
-  featured: Contribution! @link
+  featured: [Contribution!]! @link
   cta: Cta!
 }
 

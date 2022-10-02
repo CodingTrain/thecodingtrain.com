@@ -17,7 +17,7 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
 import { getReadableDate, useIsFirstRender } from '../hooks';
-import { shuffleCopy } from '../utils';
+import { randomElement, shuffleCopy } from '../utils';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
@@ -88,6 +88,75 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
   );
 };
 
+const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
+  const { title: sectionTitle, cta, featured } = passengerShowcase;
+  // First render : empty placeholder
+  const [featuredShowcase, setFeaturedShowcase] = useState({});
+  useEffect(() => {
+    // Next renders : a random passenger showcase
+    setFeaturedShowcase(randomElement(featured));
+  }, [featured]);
+
+  const { author, title, video, videoId, url, source } = featuredShowcase;
+  const image = featuredShowcase?.cover
+    ? featuredShowcase.cover.file.childImageSharp.gatsbyImageData
+    : placeholderImage;
+  const buttonLink =
+    url ?? (videoId ? `https://youtu.be/${videoId}` : source) ?? '';
+
+  return (
+    <section>
+      <article className={css.showcase}>
+        <div className={css.left}>
+          <Heading2
+            id="passenger-showcase"
+            className={css.subheading}
+            variant="purple"
+            as="h3">
+            {sectionTitle}
+          </Heading2>
+          <div className={css.details}>
+            <p>
+              <address>
+                {author?.url ? (
+                  <a href={author.url}>{author?.name}</a>
+                ) : (
+                  author?.name
+                )}
+              </address>
+            </p>
+            <p>{title}</p>
+            <p>
+              {video?.title} {video?.source && `(${video.source})`}
+            </p>
+          </div>
+          <ButtonPanel
+            variant="purple"
+            className={css.baselineButtonPanel}
+            text={cta?.text}
+            buttonText={cta?.buttonText}
+            buttonLink={buttonLink}
+            smallWrap
+            rainbow
+          />
+        </div>
+        <div className={css.right}>
+          {image ? (
+            <Image
+              image={image}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+              alt={`Passenger showcase "${title}" from ${author?.name}`}
+            />
+          ) : (
+            <div className={css.noImage}></div>
+          )}
+        </div>
+      </article>
+    </section>
+  );
+};
+
 const EventRow = ({ event }) => {
   const { title, description, date, time, host, type, url } = event;
   return (
@@ -141,6 +210,7 @@ const IndexPage = ({ data }) => {
   useEffect(() => {
     setFeaturedChallenges(shuffleCopy(content.challenges.featured).slice(0, 3));
   }, [content.challenges.featured]);
+
   const isFirstRender = useIsFirstRender();
   return (
     <Layout>
@@ -307,64 +377,10 @@ const IndexPage = ({ data }) => {
 
         <Spacer pattern size="x2" />
 
-        <section>
-          <article className={css.showcase}>
-            <div className={css.left}>
-              <Heading2
-                id="passenger-showcase"
-                className={css.subheading}
-                variant="purple"
-                as="h3">
-                {content.passengerShowcase.title}
-              </Heading2>
-              <div className={css.details}>
-                <p>
-                  <address>
-                    {content.passengerShowcase.featured.author.url ? (
-                      <a href={content.passengerShowcase.featured.author.url}>
-                        {content.passengerShowcase.featured.author.name}
-                      </a>
-                    ) : (
-                      content.passengerShowcase.featured.author.name
-                    )}
-                  </address>
-                </p>
-                <p>{content.passengerShowcase.featured.title}</p>
-                <p>
-                  {content.passengerShowcase.featured.video.title} (
-                  {content.passengerShowcase.featured.video.source})
-                </p>
-              </div>
-              <ButtonPanel
-                variant="purple"
-                className={css.baselineButtonPanel}
-                text={content.passengerShowcase.cta.text}
-                buttonText={content.passengerShowcase.cta.buttonText}
-                buttonLink={
-                  content.passengerShowcase.featured.url ??
-                  (content.passengerShowcase.featured.videoId
-                    ? `https://youtu.be/${content.passengerShowcase.featured.videoId}`
-                    : content.passengerShowcase.featured.source)
-                }
-                smallWrap
-                rainbow
-              />
-            </div>
-            <div className={css.right}>
-              <Image
-                image={
-                  content.passengerShowcase.featured.cover
-                    ? content.passengerShowcase.featured.cover.file
-                        .childImageSharp.gatsbyImageData
-                    : challengesPlaceholder
-                }
-                pictureClassName={css.picture}
-                imgClassName={css.image}
-                alt={`Passenger showcase "${content.passengerShowcase.featured.title}" from ${content.passengerShowcase.featured.author.name}`}
-              />
-            </div>
-          </article>
-        </section>
+        <PassengerShowcaseSection
+          passengerShowcase={content.passengerShowcase}
+          placeholderImage={isFirstRender ? null : challengesPlaceholder}
+        />
 
         <Spacer pattern size="x2" />
 
