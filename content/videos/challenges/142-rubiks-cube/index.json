@@ -110,14 +110,14 @@
         },
         {
             "title": "Rubik's Cube - Part 2",
-            "description": "",
+            "description": "This sketch adds rotations of the cube's faces.",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_2/Processing/CC_142_Rubiks_Cube_2"
             }
         },
         {
             "title": "Rubik's Cube - Part 3",
-            "description": "",
+            "description": "This sketch animates the rotations of the cube's faces.",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_3/Processing/CC_142_Rubiks_Cube_3"
             }
