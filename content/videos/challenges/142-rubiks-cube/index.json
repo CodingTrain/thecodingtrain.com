@@ -7,6 +7,8 @@
     "languages": ["Processing"],
     "topics": [
         "Rubik's cube",
+        "rotation matrix",
+        "peasyCam",
         "simulation"
     ],
     "canContribute": true,
