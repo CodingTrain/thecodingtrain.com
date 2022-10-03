@@ -5,23 +5,18 @@
   "videoId": "BV9ny785UNc",
   "date": "2016-05-26",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [],
+  "topics": ["math", "reaction diffusion"],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [
-    { "time": "0:00", "title": "Title 1" },
-    { "time": "1:26", "title": "Title 2" },
-    { "time": "1:26", "title": "Title 3" }
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
-      "title": "Code example 1 title",
-      "description": "Code example 1 description",
-      "image": "image1.png",
+      "title": "Reaction Diffusion Algorithm",
+      "description": "Implementation of reaction diffusion algorithm",
+      "image": "reaction-diffusion.png",
       "urls": {
-        "p5": "url to p5 editor or code",
-        "processing": "url to processing sketch",
-        "other": "url to other source, like GitHub"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/govdEW5aE",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/013_ReactionDiffusion/Processing"
       }
     }
   ],
@@ -30,14 +25,16 @@
       "title": "References",
       "links": [
         {
-          "title": "Link 1 title",
-          "url": "link 1 url",
-          "description": "description of content linked"
+		  "icon" : "📖",
+          "title": "Karl Sims' Reaction Diffusion Tutorial",
+          "url": "http://karlsims.com/rd.html",
+          "description": "A tutorial on reaction diffusion by Karl Sims."
         },
         {
-          "title": "Link 2 title",
-          "url": "link 2 url",
-          "description": "description of content linked"
+		  "icon" : "📓",
+          "title": "2D Array Tutorial",
+          "url": "https://processing.org/tutorials/2darray/",
+          "description": "A tutorial on 2D Arrays in Processing website"
         }
       ]
     }
