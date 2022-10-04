@@ -65,7 +65,17 @@
     "title": "Events",
     "comingEventsDescription": "Next Coding Train event!",
     "noEventsDescription": "Keep your eye out for events in the future!",
-    "upcoming": []
+    "upcoming": [
+      {
+        "title": "An Evening of Unnecessary Detail (NYC)",
+        "description": "An Evening of Unnecessary Detail is an event where 80% of the words in the title start with a vowel!",
+        "date": "2022-10-08",
+        "time": "20:00 GMT",
+        "host": "Matt Parker",
+        "type": "IRL",
+        "url": "https://caveat.nyc/events/aeoud-10-8-2022"
+      }
+    ]
   },
   "support": {
     "title": "Support",
