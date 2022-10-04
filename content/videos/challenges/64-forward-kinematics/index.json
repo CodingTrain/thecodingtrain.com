@@ -1,0 +1,141 @@
+{
+    "title": "Kinematics",
+    "description": "This coding challenge is the first in a series on kinematics! In Part 1, I demonstrate forward kinematics in Processing (Java).",
+    "videoNumber": "64",
+    "videoId": "xXjRlEr7AGk",
+    "date": "2017-03-16",
+    "languages": [],
+    "topics": [
+        "tentacle coding",
+        "arm coding",
+        "robat arm coding",
+        "forward kinematics",
+        "kinematics",
+        "inverse kinematics",
+        "tentacle animation",
+        "kinematics java"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1: Forward Kinematics",
+      "videoId": "xXjRlEr7AGk",
+      "timestamps": [
+        { "time": "0:00", "title": "Only for multi-part challenges" },
+        { "time": "1:26", "title": "Remove this 'parts' section for single-part challenges" }
+      ]
+    },
+    {
+      "title": "Part 2: Inverse Kinematics",
+      "videoId": "hbgDqyy8bIw",
+      "timestamps": [
+        { "time": "0:00", "title": "Title 1" },
+        { "time": "1:26", "title": "Title 2" }
+      ]
+    },
+    {
+        "title": "Part 3: Inverse Kinematics - Fixed Point",
+        "videoId": "RTc6i-7N3ms",
+        "timestamps": [
+          { "time": "0:00", "title": "Title 1" },
+          { "time": "1:26", "title": "Title 2" }
+        ]
+      },
+      {
+        "title": "Part 4: Inverse Kinematics - Multiple",
+        "videoId": "10st01Z0jxc",
+        "timestamps": [
+          { "time": "0:00", "title": "Title 1" },
+          { "time": "1:26", "title": "Title 2" }
+        ]
+      }
+  ],
+    "codeExamples": [
+        {
+            "title": "Kinematics - Part 1",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/91Ys1PU7B"
+            }
+        },
+        {
+            "title": "Kinematics - Part 2",
+            "description": "",
+            "urls": {
+                "p5":  "https://editor.p5js.org/codingtrain/sketches/CvGJFQPLa"
+            }
+        },
+        {
+            "title": "Kinematics - Part 3",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv"
+            }
+        },
+        {
+            "title": "Kinematics - Part 4",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/bNPjMWlwV"
+            }
+        },
+        {
+            "title": "",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_064.1_ForwardKinematics/P5"
+            }
+        },
+        {
+            "title": "Processing - Processing",
+            "description": "",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_064.1_ForwardKinematics/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Other Parts Of This Coding Challenge",
+            "links": [
+                {
+                    "title": "Part 2 - Inverse Kinematics",
+                    "url": "/challenge/064.2-inverse-kinematics",
+                    "description": ""
+                },
+                {
+                    "title": "Part 3 - Inverse Kinematics - Fixed Point",
+                    "url": "/challenge/064.3-inverse-kinematics-fixed-point",
+                    "description": ""
+                },
+                {
+                    "title": "Part 4 - Inverse Kinematics - Multiple",
+                    "url": "/challenge/064.4-inverse-kinematics-multiple",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Kinematics on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Kinematics",
+                    "description": ""
+                },
+                {
+                    "title": "Interactive Fish Aquarium Desktop Wallpaper",
+                    "url": "https://youtu.be/Inpo9tpUMwE",
+                    "description": ""
+                },
+                {
+                    "title": "Coding Math on Youtube",
+                    "url": "https://www.youtube.com/user/codingmath",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
