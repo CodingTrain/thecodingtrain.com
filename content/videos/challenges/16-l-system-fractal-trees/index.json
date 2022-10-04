@@ -6,15 +6,14 @@
   "date": "2016-05-31",
   "languages": ["JavaScript", "p5.js", "Processing"],
   "topics": ["For beginners"],
-  "relatedChallenges": ["165-slide-puzzle", "163-bezier-curves"],
+  "relatedChallenges": ["14-fractal-trees-recursive", "15-object-oriented-fractal-trees"],
   "codeExamples": [
     {
-      "title": "Code",
+      "title": "Fractal Trees - L-System",
       "description": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem/Processing"
       }
     }
   ],
