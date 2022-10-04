@@ -6,6 +6,7 @@
   "date": "2016-05-30",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "generative art"],
+  "relatedChallenges": ["15-object-oriented-fractal-trees", "174-graphics-applesoft-basic"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
@@ -20,7 +21,7 @@
   "codeExamples": [
    {
             "title": "Recursive Fractal Tree",
-            "description": "",
+            "description": "This sketch codes a fractal tree with recursion.",
             "image": "fractal.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/xTjmYXU3q",
@@ -33,6 +34,7 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "",
                     "title": "Algorithmic Botany",
                     "url": "http://algorithmicbotany.org/",
                     "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
