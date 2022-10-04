@@ -5,12 +5,12 @@
   "videoId": "E1B4UoSQMFw",
   "date": "2016-05-31",
   "languages": ["JavaScript", "p5.js", "Processing"],
-  "topics": ["For beginners"],
+  "topics": ["For beginners", "fractal trees"],
   "relatedChallenges": ["14-fractal-trees-recursive", "15-object-oriented-fractal-trees"],
   "codeExamples": [
     {
       "title": "Fractal Trees - L-System",
-      "description": "",
+      "description": "This sketch uses a L-system to generate a fractal tree",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem/Processing"
@@ -19,11 +19,13 @@
   ],
   "groupLinks": [
     {
-      "title": "Links discussed",
+      "title": "References",
       "links": [
         {
+          "icon": "",
           "title": "Algorithmic Botany",
-          "url": "http://algorithmicbotany.org/"
+          "url": "http://algorithmicbotany.org/",
+          "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
         }
       ]
     }
