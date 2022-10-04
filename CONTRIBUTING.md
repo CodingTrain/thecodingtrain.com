@@ -6,7 +6,7 @@ First, please read our [Code of Conduct](https://github.com/CodingTrain/Code-of-
 
 ## Guide For Newer Contributors
 
-Get an overview of the project in [README](https://github.com/CodingTrain/thecodingtrain.com/README.md). If you are new to open source contributions, here are some useful guides that can help you get started:
+Get an overview of the project in [README](https://github.com/CodingTrain/thecodingtrain.com#readme). If you are new to open source contributions, here are some useful guides that can help you get started:
 - [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV): A Coding Train video series for Git and GitHub beginners.
 - [Collaborating With Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests): A GitHub guide on pull requests.
 - **Add more guides here...**
@@ -22,10 +22,10 @@ Here are the types of contributions we are looking for:
 
 ### Getting Started
 We have made some resources and guides to help you through the process of contributing to the website. Here they are:
-- [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guides)
+- [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
 - [Maintaining The Website](https://thecodingtrain.com/guides/maintain-website-guide)
 - [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/content/pages/guides/content-structure-guide.md)
-- [README](https://github.com/CodingTrain/thecodingtrain.com/README.md)
+- [README](https://github.com/CodingTrain/thecodingtrain.com#readme)
 
 ### Issues
 
