@@ -1,8 +1,8 @@
 # The Coding Train Website Contributing Guide
 
-Thank you for considering contributing to thecodingtrain.com! We appreciate your efforts to maintain the website. This guide will give you an overview of the contribution workflow. Mistakes are always welcome, we're all learning so please feel free to seek help in case of any confusion, we are here to help.  
+Thank you for considering contributing to thecodingtrain.com! We appreciate your efforts to maintain the website. This guide will give you an overview of the contribution workflow. Mistakes are always welcome, we're all learning, so please feel free to seek help in case of any confusion, we are here to help.  
 
-First of all, please read our [Code of Conduct](https://github.com/CodingTrain/Code-of-Conduct) to learn about what is and is not acceptable to keep our community respectable, friendly and approachable.
+First, please read our [Code of Conduct](https://github.com/CodingTrain/Code-of-Conduct) to learn about what is and is not acceptable to keep our community respectable, friendly and approachable.
 
 ## Guide For Newer Contributors
 
@@ -13,7 +13,7 @@ Get an overview of the project in [README](https://github.com/CodingTrain/thecod
 
 ## Contributing to Coding Train
 
-Here the types of contributions we are looking for:
+Here are the types of contributions we are looking for:
 - Adding your own creative version of a coding challenge or tutorial (passenger showcase)
 - Porting content from the old website
 - Bug-fixes
@@ -37,7 +37,7 @@ To find an issue that you want to fix, scan through the list. You may find that 
 
 - To make changes to this repository, make sure to fork it and make changes to your fork locally, without harming the original project.
 - It is good practice to create a different branch for different changes.
-- Commit the changes your are making at every step, and make sure to add good commit messages describing the part you added/changed with that specific commit.
+- Commit the changes you are making at every step, and make sure to add good commit messages describing the part you added/changed with that specific commit.
 - When you are happy with your changes and are ready to publish them, make a pull request. We will review your suggested changes and hopefully merge them!
 
 ### Development Environment
