@@ -24,7 +24,7 @@ Here are the types of contributions we are looking for this month:
 
 2. Create a page for a Coding Challenge video! (https://github.com/CodingTrain/thecodingtrain.com/issues/155)
  * Head to the [spreadsheet tracking challenges](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781) and sign up.
-* For instructions, read the [Maintaining the website guide](/guides/maintain-weibsite-guide/) on how to create a challenge page on the new website.  
+ * For instructions, read the [Maintaining the website guide](/guides/maintain-weibsite-guide/) on how to create a challenge page on the new website.  
 * Note: If you are unable to complete the page, please add a note and remove your name from the spreadsheet.
 
 3. Add Related Challenges! (https://github.com/CodingTrain/thecodingtrain.com/issues/262)
