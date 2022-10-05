@@ -20,20 +20,20 @@ Get an overview of the project in [README](https://github.com/CodingTrain/thecod
 Here are the types of contributions we are looking for this month:
 
 1. Share your creative work inspired by a coding challenge or tutorial in the showcase!
- * You can find more information about submitting a showcase in the [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
+    * You can find more information about submitting a showcase in the [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
 
 2. Create a page for a Coding Challenge video! (https://github.com/CodingTrain/thecodingtrain.com/issues/155)
- * Head to the [spreadsheet tracking challenges](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781) and sign up.
- * For instructions, read the [Maintaining the website guide](/guides/maintain-weibsite-guide/) on how to create a challenge page on the new website.  
- * Note: If you are unable to complete the page, please add a note and remove your name from the spreadsheet.
+    * Head to the [spreadsheet tracking challenges](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781) and sign up.
+    * For instructions, read the [Maintaining the website guide](/guides/maintain-weibsite-guide/) on how to create a challenge page on the new website.  
+    * Note: If you are unable to complete the page, please add a note and remove your name from the spreadsheet.
 
 3. Add Related Challenges! (https://github.com/CodingTrain/thecodingtrain.com/issues/262)
- * The `"relatedChallenges"` property specifies a list of challenges to be featured as suggested on the video page.
- *  If it is an empty array and there are any coding challenges in the `"video"` section of the json file, those challenge(s) can be added to the field.
- - You can find the JSON files for challenges in `/content/videos/challenges`.
+    * The `"relatedChallenges"` property specifies a list of challenges to be featured as suggested on the video page.
+    *  If it is an empty array and there are any coding challenges in the `"video"` section of the json file, those challenge(s) can be added to the field.
+    * You can find the JSON files for challenges in `/content/videos/challenges`.
 
 4. More!
- * You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
+    * You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
 
 ### Getting Started
 Here is a guide to the content structure of the website to help you through the process of contributing.
