@@ -39,11 +39,14 @@
       "title": "Part 2: Inverse Kinematics",
       "videoId": "hbgDqyy8bIw",
       "timestamps": [
-        { "time": "0:00", "title": "Title 1" },
+        { "time": "0:00", "title": "What is the difference between forward and inverse kinematics?" },
+        { "time": "3:15", "title": "Let's Code!" },
+        { "time": "4:15", "title": "Segment class" },
+        { "time": "8:46", "title": "Have the segment follow the mouse" },
+        { "time": "11:12", "title": "Use heading() to find the angle" },
+        { "time": "13:17", "title": "Move the segment to the mouse" },
+        { "time": "16:38", "title": "Add a connected segment" },
         { "time": "1:26", "title": "Title 2" },
-        { "time": "0:00", "title": "Title 1" },
-        { "time": "1:26", "title": "Title 2" },
-        { "time": "0:00", "title": "Title 1" },
         { "time": "1:26", "title": "Title 2" }
       ]
     },
@@ -67,30 +70,34 @@
     "codeExamples": [
         {
             "title": "Kinematics - Part 1",
-            "description": "",
+            "description": "This sketch demonstrates how to implement forward kinematics.",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/91Ys1PU7B"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/91Ys1PU7B",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.1_ForwardKinematics/Processing"
             }
         },
         {
             "title": "Kinematics - Part 2",
             "description": "",
             "urls": {
-                "p5":  "https://editor.p5js.org/codingtrain/sketches/CvGJFQPLa"
+                "p5":  "https://editor.p5js.org/codingtrain/sketches/CvGJFQPLa",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.2_InverseKinematics/Processing/CC_064_2_InverseKinematics"
             }
         },
         {
             "title": "Kinematics - Part 3",
             "description": "",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.3_InverseKinematics_fixed/Processing/CC_064_3_InverseKinematics_fixed"
             }
         },
         {
             "title": "Kinematics - Part 4",
             "description": "",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/bNPjMWlwV"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/bNPjMWlwV",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.4_InverseKinematics_array/Processing/CC_064_4_InverseKinematics_array"
             }
         }
     ],
@@ -99,9 +106,10 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "",
                     "title": "Kinematics on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Kinematics",
-                    "description": ""
+                    "description": "Wikipedia page with information and resources about kinematics."
                 }
             ]
         },
@@ -109,19 +117,22 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "Polar to Cartesian coordinates",
-                    "url": "",
-                    "description": ""
+                    "icon": "🎥",
+                    "title": "Polar Coordinates",
+                    "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+                    "description": "Tutorial from The Nature of Code on Polar Coordinates and Trigonometry."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Interactive Fish Aquarium Desktop Wallpaper",
                     "url": "https://youtu.be/Inpo9tpUMwE",
-                    "description": ""
+                    "description": "ute and swift little pink fishes float around your desktop in this entertainingly interactive and smoothly animated wallpaper."
                 },
                 {
+                    "icon": "🎥",
                     "title": "Coding Math on Youtube",
                     "url": "https://www.youtube.com/user/codingmath",
-                    "description": ""
+                    "description": "Youtube channel for Coding Math"
                 }
             ]
         }
