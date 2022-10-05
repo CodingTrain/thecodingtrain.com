@@ -4,11 +4,8 @@
     "videoNumber": "64",
     "videoId": "xXjRlEr7AGk",
     "date": "2017-03-16",
-    "languages": [],
+    "languages": ["Processing"],
     "topics": [
-        "tentacle coding",
-        "arm coding",
-        "robat arm coding",
         "forward kinematics",
         "kinematics",
         "inverse kinematics",
@@ -23,14 +20,29 @@
       "title": "Part 1: Forward Kinematics",
       "videoId": "xXjRlEr7AGk",
       "timestamps": [
-        { "time": "0:00", "title": "Only for multi-part challenges" },
-        { "time": "1:26", "title": "Remove this 'parts' section for single-part challenges" }
+        { "time": "0:00", "title": "Introducting today's topics: Forward Kinematics" },
+        { "time": "3:17", "title": "Create a Segment class" },
+        { "time": "9:30", "title": "Add a parent" },
+        { "time": "10:24", "title": "Write a second Segment constructor" },
+        { "time": "13:08", "title": "Connect the segments" },
+        { "time": "15:30", "title": "Write a wiggle function" },
+        { "time": "19:01", "title": "Updatethe segments own angle relative to parent's angle" },
+        { "time": "20:01", "title": "Use noise to change the angle" },
+        { "time": "21:18", "title": "Linked lists" },
+        { "time": "24:05", "title": "Add a child" },
+        { "time": "29:00", "title": "Use a sine wave to adjust the angle" },
+        { "time": "33:26", "title": "Adjust the length of the segments" },
+        { "time": "34:06", "title": "Conclusion and next step" }
       ]
     },
     {
       "title": "Part 2: Inverse Kinematics",
       "videoId": "hbgDqyy8bIw",
       "timestamps": [
+        { "time": "0:00", "title": "Title 1" },
+        { "time": "1:26", "title": "Title 2" },
+        { "time": "0:00", "title": "Title 1" },
+        { "time": "1:26", "title": "Title 2" },
         { "time": "0:00", "title": "Title 1" },
         { "time": "1:26", "title": "Title 2" }
       ]
@@ -89,6 +101,16 @@
                 {
                     "title": "Kinematics on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Kinematics",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Polar to Cartesian coordinates",
+                    "url": "",
                     "description": ""
                 },
                 {
