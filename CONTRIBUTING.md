@@ -33,7 +33,7 @@ Here are the types of contributions we are looking for this month:
  - You can find the JSON files for challenges in `/content/videos/challenges`.
 
 4. More!
-* You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
+ * You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
 
 ### Getting Started
 Here is a guide to the content structure of the website to help you through the process of contributing.
