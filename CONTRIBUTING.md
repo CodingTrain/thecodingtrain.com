@@ -28,7 +28,7 @@ Here are the types of contributions we are looking for this month:
  * Note: If you are unable to complete the page, please add a note and remove your name from the spreadsheet.
 
 3. Add Related Challenges! (https://github.com/CodingTrain/thecodingtrain.com/issues/262)
-* The `"relatedChallenges"` property specifies a list of challenges to be featured as suggested on the video page.
+ * The `"relatedChallenges"` property specifies a list of challenges to be featured as suggested on the video page.
 *  If it is an empty array and there are any coding challenges in the `"video"` section of the json file, those challenge(s) can be added to the field.
  - You can find the JSON files for challenges in `/content/videos/challenges`.
 
