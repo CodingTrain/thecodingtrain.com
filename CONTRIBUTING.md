@@ -4,7 +4,7 @@ One of the major goals of The Coding Train is to provide a beginner-friendly env
 
 Here are some key values of Hacktoberfest:
 - Everyone is welcome
-- Quantiy if Fun, Quality is Key
+- Quantity is Fun, Quality is Key
 - Short-term Act, long term impact
 
 The Coding Train strives to be a respectful, friendly, and welcoming community. Read our [Code of Conduct](https://github.com/CodingTrain/Code-of-Conduct) to learn about what is and is not acceptable.
