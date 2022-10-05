@@ -1,31 +1,43 @@
-# The Coding Train Website Contributing Guide
+# All Aboard The Coding Train for Hacktoberfest 2022
 
-Thank you for considering contributing to thecodingtrain.com! We appreciate your efforts to maintain the website. This guide will give you an overview of the contribution workflow. Mistakes are always welcome, we're all learning, so please feel free to seek help in case of any confusion, we are here to help.  
+One of the major goals of The Coding Train is to provide a beginner-friendly environment for people to make pull requests, which is why we are participating in [Hacktoberfest](https://hacktoberfest.com/participation/) this year.  Hacktoberfest is DigitalOcean's annual event that encourages people to contribute to open source throughout October.
 
-First, please read our [Code of Conduct](https://github.com/CodingTrain/Code-of-Conduct) to learn about what is and is not acceptable to keep our community respectable, friendly and approachable.
+Here are some key values of Hacktoberfest:
+- Everyone is welcome
+- Quantity is Fun, Quality is Key
+- Short-term action, long term impact
+
+The Coding Train strives to be a respectful, friendly, and welcoming community. Read our [Code of Conduct](https://github.com/CodingTrain/Code-of-Conduct) to learn about what is and is not acceptable.
 
 ## Guide For Newer Contributors
 
 Get an overview of the project in [README](https://github.com/CodingTrain/thecodingtrain.com#readme). If you are new to open source contributions, here are some useful guides that can help you get started:
 - [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV): A Coding Train video series for Git and GitHub beginners.
 - [Collaborating With Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests): A GitHub guide on pull requests.
-- **Add more guides here...**
 
 ## Contributing to Coding Train
 
-Here are the types of contributions we are looking for:
-- Adding your own creative version of a coding challenge or tutorial (passenger showcase)
-- Porting content from the old website
-- Bug-fixes
-- Making the code easier to read (including adding comments)
-- **Add more here...**
+Here are the types of contributions we are looking for this month:
+
+1. Share your creative work inspired by a coding challenge or tutorial in the showcase!
+    * You can find more information about submitting a showcase in the [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
+
+2. Create a page for a Coding Challenge video! (https://github.com/CodingTrain/thecodingtrain.com/issues/155)
+    * Head to the [spreadsheet tracking challenges](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781) and sign up.
+    * For instructions, read the [Maintaining the website guide](/guides/maintain-weibsite-guide/) on how to create a challenge page on the new website.  
+    * Note: If you are unable to complete the page, please add a note and remove your name from the spreadsheet.
+
+3. Add Related Challenges! (https://github.com/CodingTrain/thecodingtrain.com/issues/262)
+    * The `"relatedChallenges"` property specifies a list of challenges to be featured as suggested on the video page.
+    *  If it is an empty array and there are any coding challenges in the `"video"` section of the json file, those challenge(s) can be added to the field.
+    * You can find the JSON files for challenges in `/content/videos/challenges`.
+
+4. More!
+    * You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
 
 ### Getting Started
-We have made some resources and guides to help you through the process of contributing to the website. Here they are:
-- [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
-- [Maintaining The Website](https://thecodingtrain.com/guides/maintain-website-guide)
+Here is a guide to the content structure of the website to help you through the process of contributing.
 - [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/content/pages/guides/content-structure-guide.md)
-- [README](https://github.com/CodingTrain/thecodingtrain.com#readme)
 
 ### Issues
 
