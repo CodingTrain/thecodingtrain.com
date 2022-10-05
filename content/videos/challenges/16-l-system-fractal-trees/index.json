@@ -10,7 +10,7 @@
   "relatedChallenges": ["14-fractal-trees-recursive", "123-chaos-game", "174-graphics-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic: L-systems" },
-    { "time": "0:57", "title": "The elements of an L-system?" },
+    { "time": "0:57", "title": "The elements of an L-system" },
     { "time": "4:12", "title": "Let's Code!" },
     { "time": "4:42", "title": "Add rules" },
     { "time": "6:22", "title": "Write a generate function" },
