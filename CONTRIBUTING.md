@@ -20,7 +20,7 @@ Get an overview of the project in [README](https://github.com/CodingTrain/thecod
 Here are the types of contributions we are looking for this month:
 
 1. Share your creative work inspired by a coding challenge or tutorial in the showcase!
-* You can find more information about submitting a showcase in the [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
+ * You can find more information about submitting a showcase in the [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
 
 2. Create a page for a Coding Challenge video! (https://github.com/CodingTrain/thecodingtrain.com/issues/155)
  * Head to the [spreadsheet tracking challenges](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781) and sign up.
