@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["maze", "recursion", "backtracking", "depth-first search"],
   "canContribute": true,
-  "relatedChallenges": ["51-a-pathfinding-algorithm"],
+  "relatedChallenges": ["51-a-pathfinding-algorithm", "85-the-game-of-life", "107-sandpiles", "171-wave-function-collapse"],
   "timestamps": [],
   "parts": [
     {
