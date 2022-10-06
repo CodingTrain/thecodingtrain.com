@@ -1,6 +1,6 @@
 {
     "title": "Kinematics",
-    "description": "This coding challenge is the first in a series on kinematics! In Part 1, I demonstrate forward kinematics in Processing (Java).",
+    "description": "In this multi-part coding challenge, I demonstrate how to implement kinematics in Processing (Java).",
     "videoNumber": "64",
     "videoId": "xXjRlEr7AGk",
     "date": "2017-03-16",
@@ -13,7 +13,7 @@
         "arrays"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["3-snake-game"],
     "timestamps": [],
   "parts": [
     {
@@ -87,6 +87,7 @@
         {
             "title": "Kinematics - Part 1",
             "description": "This sketch demonstrates how to implement forward kinematics.",
+            "image": "img1.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/91Ys1PU7B",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.1_ForwardKinematics/Processing"
@@ -95,6 +96,7 @@
         {
             "title": "Kinematics - Part 2",
             "description": "This sketch demonstrates how to implement inverse kinematics.",
+            "image": "img2.jpg",
             "urls": {
                 "p5":  "https://editor.p5js.org/codingtrain/sketches/CvGJFQPLa",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.2_InverseKinematics/Processing/CC_064_2_InverseKinematics"
