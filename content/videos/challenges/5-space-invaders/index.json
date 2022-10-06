@@ -7,7 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["space invaders", "game"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["46-asteroids"],
   "timestamps": [
     { "time": "00:00", "title": "Welcome to the challenge!" },
     { "time": "00:46", "title": "Setup the sketch canvas" },
