@@ -26,13 +26,13 @@
         { "time": "10:24", "title": "Write a second Segment constructor" },
         { "time": "13:08", "title": "Connect the segments" },
         { "time": "15:30", "title": "Write a wiggle function" },
-        { "time": "19:01", "title": "Updatethe segments own angle relative to parent's angle" },
+        { "time": "19:01", "title": "Update the segments own angle relative to parent's angle" },
         { "time": "20:01", "title": "Use noise to change the angle" },
         { "time": "21:18", "title": "Add a linked list" },
         { "time": "24:05", "title": "Add a child" },
         { "time": "29:00", "title": "Use a sine wave to adjust the angle" },
         { "time": "33:26", "title": "Adjust the length of the segments" },
-        { "time": "34:06", "title": "Conclusion and next step" }
+        { "time": "34:06", "title": "Conclusion and next steps" }
       ]
     },
     {
@@ -48,9 +48,9 @@
         { "time": "20:30", "title": "Add a connected segment" },
         { "time": "22:05", "title": "Segment 2 follows the mouse" },
         { "time": "23:15", "title": "Add a linked list" },
-        { "time": "25:52", "title": "The last segement is the tentacle" },
+        { "time": "25:52", "title": "The last segement is the \"tentacle\"" },
         { "time": "27:28", "title": "Add a child" },
-        { "time": "29:00", "title": "Overload follow function" },
+        { "time": "29:00", "title": "Overload the follow function" },
         { "time": "34:00", "title": "Map the index to the strokeWeight of each segment" },
         { "time": "36:00", "title": "Conclusion and suggestions for variations" }
       ]
@@ -104,7 +104,7 @@
         },
         {
             "title": "Kinematics - Part 3",
-            "description": "This sketch creates an array of segments.",
+            "description": "This sketch shows to to fix the segments to a base.",
             "image": "img3.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv",
@@ -113,7 +113,7 @@
         },
         {
             "title": "Kinematics - Part 4",
-            "description": "This sketch refactors the code.",
+            "description": "This sketch refactors the code to create an array of \"tentacles\".",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/bNPjMWlwV",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.4_InverseKinematics_array/Processing/CC_064_4_InverseKinematics_array"
