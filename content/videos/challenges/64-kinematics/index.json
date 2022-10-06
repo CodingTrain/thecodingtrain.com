@@ -7,10 +7,10 @@
     "languages": ["Processing"],
     "topics": [
         "forward kinematics",
-        "kinematics",
         "inverse kinematics",
         "tentacle animation",
-        "kinematics java"
+        "linked lists",
+        "arrays"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -28,7 +28,7 @@
         { "time": "15:30", "title": "Write a wiggle function" },
         { "time": "19:01", "title": "Updatethe segments own angle relative to parent's angle" },
         { "time": "20:01", "title": "Use noise to change the angle" },
-        { "time": "21:18", "title": "Linked lists" },
+        { "time": "21:18", "title": "Add a linked list" },
         { "time": "24:05", "title": "Add a child" },
         { "time": "29:00", "title": "Use a sine wave to adjust the angle" },
         { "time": "33:26", "title": "Adjust the length of the segments" },
@@ -45,25 +45,41 @@
         { "time": "8:46", "title": "Have the segment follow the mouse" },
         { "time": "11:12", "title": "Use heading() to find the angle" },
         { "time": "13:17", "title": "Move the segment to the mouse" },
-        { "time": "16:38", "title": "Add a connected segment" },
-        { "time": "1:26", "title": "Title 2" },
-        { "time": "1:26", "title": "Title 2" }
+        { "time": "20:30", "title": "Add a connected segment" },
+        { "time": "22:05", "title": "Segment 2 follows the mouse" },
+        { "time": "23:15", "title": "Add a linked list" },
+        { "time": "25:52", "title": "The last segement is the tentacle" },
+        { "time": "27:28", "title": "Add a child" },
+        { "time": "29:00", "title": "Overload follow function" },
+        { "time": "34:00", "title": "Map the index to the strokeWeight of each segment" },
+        { "time": "36:00", "title": "Conclusion and suggestions for variations" }
       ]
     },
     {
         "title": "Part 3: Inverse Kinematics - Fixed Point",
         "videoId": "RTc6i-7N3ms",
         "timestamps": [
-          { "time": "0:00", "title": "Title 1" },
-          { "time": "1:26", "title": "Title 2" }
+          { "time": "0:00", "title": "Expand the inverse kinematics example" },
+          { "time": "3:34", "title": "Create an array of tentacles" },
+          { "time": "5:40", "title": "Have last tentacle in the array follow the mouse" },
+          { "time": "6:38", "title": "Iterate through the array backwards" },
+          { "time": "9:30", "title": "Set the first tentacle at the base" },
+          { "time": "12:01", "title": "Connect the tentacles" },
+          { "time": "13:50", "title": "Conclusion and next steps" }
         ]
       },
       {
         "title": "Part 4: Inverse Kinematics - Multiple",
         "videoId": "10st01Z0jxc",
         "timestamps": [
-          { "time": "0:00", "title": "Title 1" },
-          { "time": "1:26", "title": "Title 2" }
+          { "time": "0:00", "title": "Refactoring the Code" },
+          { "time": "1:05", "title": "Create a Tentacle class" },
+          { "time": "4:05", "title": "Use Rename to change the name of the array to segments" },
+          { "time": "5:29", "title": "Add tentacles around a circle" },
+          { "time": "8:55", "title": "Add an \"apple\"" },
+          { "time": "10:55", "title": "Have tentacles follow the apple" },
+          { "time": "13:18", "title": "Have two tentacles \"play catch\" with the apple" },
+          { "time": "14:17", "title": "See you next time!" }
         ]
       }
   ],
@@ -78,7 +94,7 @@
         },
         {
             "title": "Kinematics - Part 2",
-            "description": "",
+            "description": "This sketch demonstrates how to implement inverse kinematics.",
             "urls": {
                 "p5":  "https://editor.p5js.org/codingtrain/sketches/CvGJFQPLa",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.2_InverseKinematics/Processing/CC_064_2_InverseKinematics"
@@ -86,7 +102,8 @@
         },
         {
             "title": "Kinematics - Part 3",
-            "description": "",
+            "description": "This sketch creates an array of segments.",
+            "image": "img3.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.3_InverseKinematics_fixed/Processing/CC_064_3_InverseKinematics_fixed"
@@ -94,7 +111,7 @@
         },
         {
             "title": "Kinematics - Part 4",
-            "description": "",
+            "description": "This sketch refactors the code.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/bNPjMWlwV",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.4_InverseKinematics_array/Processing/CC_064_4_InverseKinematics_array"
@@ -106,7 +123,7 @@
             "title": "References",
             "links": [
                 {
-                    "icon": "",
+                    "icon": "🗄",
                     "title": "Kinematics on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Kinematics",
                     "description": "Wikipedia page with information and resources about kinematics."
