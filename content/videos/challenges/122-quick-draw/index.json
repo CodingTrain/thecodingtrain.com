@@ -14,8 +14,8 @@
             "videoId": "yLuk0twx8Hc",
             "timestamps": [
                 {"time": "0:00", "title": "Introducing today's topics: the Quick, Draw! dataset"},
-                {"time": "2:48", "title": "Data is the pixel paths with timing information"},
-                {"time": "4:53", "title": "Data is in a ndjson file"},
+                {"time": "2:48", "title": "The data is the pixel paths with timing information"},
+                {"time": "4:53", "title": "ndjson files"},
                 {"time": "6:58", "title": "Download a simplified ndjson file"},
                 {"time": "9:26", "title": "Install express and ndjson packages"},
                 {"time": "12:12", "title": "Run the server"},
@@ -23,7 +23,7 @@
                 {"time": "14:45", "title": "Pick a random drawing"},
                 {"time": "16:05", "title": "Have server host a p5 sketch"},
                 {"time": "18:02", "title": "Write a function to load the drawing"},
-                {"time": "19:28", "title": "Looping through all the paths in the drawing"},
+                {"time": "19:28", "title": "Loop through all the paths in the drawing"},
                 {"time": "24:22", "title": "Animate the drawing"},
                 {"time": "27:33", "title": "Loop through points within the strokes"},
                 {"time": "29:30", "title": "Connect the points"},
@@ -35,12 +35,28 @@
             "title": "Quick, Draw! Part 2",
             "videoId": "EcRK6oFddPQ",
             "timestamps": [{
-                    "time": "00:00",
-                    "title": "Title 1"
+                    "time": "0:00",
+                    "title": "The Quickdraw API"
                 },
                 {
-                    "time": "00:28",
-                    "title": "Title 2"
+                    "time": "2:11",
+                    "title": "The API Google group is no longer available"
+                },
+                {
+                    "time": "4:11",
+                    "title": "The project page"
+                },
+                {
+                    "time": "5:20",
+                    "title": "Add the API key to the URL query string"
+                },
+                {
+                    "time": "9:00",
+                    "title": "Paste the code from Part 1"
+                },
+                {
+                    "time": "14:38",
+                    "title": "Conclusion"
                 }
             ]
         }
@@ -94,7 +110,7 @@
                     "icon": "🎥",
                     "title": "Doodle Classifier",
                     "url": "https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ",
-                    "description": "n this series, I build a \"doodle classifier\" using the Google \"Quick, Draw!\" dataset and my JavaScript neural network library."
+                    "description": "In this series, I build a \"doodle classifier\" using the Google \"Quick, Draw!\" dataset and my JavaScript neural network library."
                 },
                 {
                     "icon": "🎥",
