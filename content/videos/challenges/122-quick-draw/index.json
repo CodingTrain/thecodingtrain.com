@@ -70,7 +70,7 @@
         },
         {
             "title": "Quick, Draw! Part 2",
-            "description": "The API is no longer available, so A JSON file with one cat is loaded instead.",
+            "description": "The API is no longer available, so a JSON file with one cat is loaded instead.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07"
             }
@@ -94,7 +94,7 @@
                     "icon": "💾",
                     "title": "Quick, Draw! Web Component",
                     "url": "https://opensource.googleblog.com/2018/11/introducing-web-component-and-data-api-for-quick-draw.html",
-                    "description": ""
+                    "description": "Announcement about the Web Component and Data API for Quick, Draw!"
                 },
                 {
                     "icon": "🔗",
