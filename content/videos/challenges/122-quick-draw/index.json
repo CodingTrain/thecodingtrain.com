@@ -54,7 +54,7 @@
         },
         {
             "title": "Quick, Draw! Part 2",
-            "description": "",
+            "description": "The API is no longer available, so A JSON file with one cat is loaded instead.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07"
             }
