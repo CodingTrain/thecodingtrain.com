@@ -1,9 +1,9 @@
 {
-    "title": "Realistic ParticleSystem",
-    "url": "https://anuraghazra.github.io/CanvasFun/particleSystem/",
+    "title": "Quadtree in a Lava Lamp Particle System Simulation",
+    "url": "https://github.com/catkane-doodles/lava-lamp",
     "author": {
-        "name": "Anurag Hazra",
-        "url": "http://anuraghazra.github.io"
+        "name": "Peikai Tan",
+        "url": "https://github.com/catkane-doodles"
     },
-    "source": "https://github.com/anuraghazra/CanvasFun/tree/master/particleSystem"
+    "source": "https://github.com/catkane-doodles/lava-lamp"
 }

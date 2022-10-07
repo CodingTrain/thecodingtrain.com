@@ -1,9 +1,9 @@
 {
-    "title": "Colourful Circles",
-    "url": "https://trevorc.ca/particles/",
+    "title": "Realistic ParticleSystem",
+    "url": "https://anuraghazra.github.io/CanvasFun/particleSystem/",
     "author": {
-        "name": "Trevor Clarke",
-        "url": "https://github.com/Tr3v0rC"
+        "name": "Anurag Hazra",
+        "url": "http://anuraghazra.github.io"
     },
-    "source": "https://github.com/Tr3v0rC/particleGenerator"
+    "source": "https://github.com/anuraghazra/CanvasFun/tree/master/particleSystem"
 }
