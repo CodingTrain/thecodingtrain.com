@@ -45,11 +45,13 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📓",
                     "title": "Fire Simulation",
                     "url": "https://web.archive.org/web/20160418004150/http://freespace.virgin.net/hugo.elias/models/m_fire.htm",
                     "description": "This article describes the algorithm to create a simulation of fire."
                 },
                 {
+                    "icon": "💾",
                     "title": "Processing",
                     "url": "http://processing.org",
                     "description": "Webpage with documentation and references for Processing."
@@ -60,11 +62,13 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🚂",
                     "title": "2D Water Ripple",
                     "url": "/challenge/102-2d-water-ripple",
                     "description": "In this coding challenge, I attempt to simulate 2D water ripples using Processing (Java)."
                 },
                 {
+                    "icon": "🚂",
                     "title": "What is Perlin Noise?",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
