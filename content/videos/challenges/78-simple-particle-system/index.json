@@ -51,11 +51,13 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🗄",
                     "title": "Particle System on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Particle_system",
                     "description": "Wikipedia page with information and resources on particle systems."
                 },
                 {
+                    "icon": "🖋️",
                     "title": "#ParticleTrain on Twitter",
                     "url": "https://twitter.com/hashtag/particletrain",
                     "description": "Twitter hashtag for particletrain."
@@ -66,11 +68,13 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🚂",
                     "title": "Fireworks Coding Challenge",
                     "url": "/challenge/027-fireworks",
                     "description": "In this 4th of July themed coding challenge, I build an HTML5 canvas fireworks simulation from scratch using the p5.js JavaScript library. I also show how to use Processing to create 3D Fireworks."
                 },
                 {
+                    "icon": "🚂",
                     "title": "Particle Systems playlist",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Z9hI4mSgx2FlE5w8zvjmEy",
                     "description": "Video lessons accompanying Chapter 4 (Particle Systems) from The Nature of Code book."
