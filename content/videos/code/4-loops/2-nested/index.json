@@ -7,12 +7,17 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "for loop", "grid"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "4:00", "title": "Draw Loop is Refreshing the Canvas" },
+    { "time": "4:07", "title": "For Loop Does a Repeated task" },
+    { "time": "4:30", "title": "Nested Loops" }
+  ],
   "codeExamples": [
     {
       "title": "Nested Loops",
       "description": "Demonstration of drawing a grid of shapes using nested loops.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/nxJTfiJd"
       }

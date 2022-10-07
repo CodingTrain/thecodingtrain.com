@@ -1,6 +1,6 @@
 {
   "title": "Nearest Neighbors Recommendation Engine",
-  "description": "In this multi-part coding challenge, I create a movie recommendation engine using the \u201cnearest neighbor\u201d algorithm.",
+  "description": "In this multi-part coding challenge, I create a movie recommendation engine using the \"nearest neighbor\" algorithm.",
   "videoNumber": "70",
   "videoId": "",
   "date": "2017-05-09",
@@ -64,10 +64,10 @@
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "1:14", "title": "Loop throught the titles" },
-        { "time": "3:45", "title": "Add \u201cnot seen\u201d option" },
+        { "time": "3:45", "title": "Add \"not seen\" option" },
         { "time": "4:20", "title": "Predict ratings" },
         { "time": "5:10", "title": "Add the dropdowns to an array" },
-        { "time": "7:57", "title": "Change \u201cnot seen\u201d to null" },
+        { "time": "7:57", "title": "Change \"not seen\" to null" },
         {
           "time": "9:38",
           "title": "Change euclidianDistance() to receive user object"
@@ -92,7 +92,7 @@
     },
     {
       "title": "Nearest Neighbors, Part 2",
-      "description": "This sketch iterates through all the users to find the \u201cnearest neigbors\u201d and list \u201csimilar\u201d users.",
+      "description": "This sketch iterates through all the users to find the \"nearest neigbors\" and list \"similar\" users.",
       "image": "nn2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0tBrSEhTg"
@@ -140,7 +140,7 @@
           "icon": "🚂",
           "title": "My Video on Associative Arrays",
           "url": "https://www.youtube.com/watch?v=_5jdE6RKxVk",
-          "description": "In this video, I discuss the concept of \u201cassociative arrays\u201d in JavaScript."
+          "description": "In this video, I discuss the concept of \"associative arrays\" in JavaScript."
         }
       ]
     }

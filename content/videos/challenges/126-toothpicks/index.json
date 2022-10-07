@@ -1,6 +1,6 @@
 {
   "title": "Toothpicks",
-  "description": "In this coding challenge, I implement Omar Pol\u2019s fractal toothpick sequence.",
+  "description": "In this coding challenge, I implement Omar Pol’s fractal toothpick sequence.",
   "videoNumber": "126",
   "videoId": "-OL_sw2MiYw",
   "date": "2018-12-21",
@@ -12,7 +12,7 @@
   "codeExamples": [
     {
       "title": "Toothpicks",
-      "description": "My viualization of Omar Pol\u2019s fractal toothpick sequence.",
+      "description": "My viualization of Omar Pol’s fractal toothpick sequence.",
       "image": "toothpick.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SJMl3u5xN",
@@ -32,7 +32,7 @@
         },
         {
           "icon": "🔗",
-          "title": "Explorations Omar Pol\u2019s toothpick sequence",
+          "title": "Explorations Omar Pol’s toothpick sequence",
           "url": "https://oeis.org/A139250/a139250.anim.html",
           "description": "Explorations of Omar Pol's toothpick sequence."
         }

@@ -480,7 +480,9 @@ exports.createHomepageRelatedNodes = (
     },
     passengerShowcase: {
       ...data.passengerShowcase,
-      featured: createNodeId(data.passengerShowcase.featured)
+      featured: data.passengerShowcase.featured.map((showcasePath) =>
+        createNodeId(showcasePath)
+      )
     },
     internal: {
       type: `HomepageInfo`,

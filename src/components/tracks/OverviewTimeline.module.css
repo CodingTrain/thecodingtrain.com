@@ -57,6 +57,7 @@
     top: calc(var(--baseline-1of2) - 1px);
     left: 0;
     border: var(--border-red);
+    background-color: var(--red);
     width: var(--timeline-heading-mark);
   }
 
@@ -66,6 +67,7 @@
     top: var(--baseline-1of2);
     left: var(--timeline-spacing);
     border: var(--border-red);
+    background-color: var(--red);
     height: calc(100% - var(--baseline-1of2));
   }
 }
@@ -118,6 +120,7 @@
     top: 0;
     left: var(--timeline-spacing);
     border: var(--border-red);
+    background-color: var(--red);
     height: 100%;
   }
 }

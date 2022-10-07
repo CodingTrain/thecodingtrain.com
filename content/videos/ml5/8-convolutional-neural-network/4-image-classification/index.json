@@ -7,7 +7,8 @@
   "languages": ["ml5", "p5js"],
   "topics": ["convolutional neural network", "image classification"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -60,7 +61,8 @@
       "title": "Defining custom layers"
     }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "Training a convolutional neural network",
       "description": "This sketch shows how to incorporate a convolutional neural network.",
       "urls": {
@@ -75,9 +77,11 @@
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "📓",
           "title": "Gradient-Based Learning Applied to Document Recognition",
           "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf",
@@ -87,11 +91,12 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "ml5.js: What is a Convolutional Neural Network Part 2 - Max Pooling",
           "url": "https://www.youtube.com/watch?v=pRWq_mtuppU",
-          "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \u201cmax pooling.\u201d"
+          "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \"max pooling.\""
         },
         {
           "icon": "🚂",

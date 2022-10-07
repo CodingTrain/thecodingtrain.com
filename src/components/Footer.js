@@ -93,7 +93,7 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="https://nebula.app/codingtrain" aria-label="Nebula">
+            <a href="https://nebula.tv/codingtrain" aria-label="Nebula">
               <Nebula width={30} />
               <span>Nebula</span>
             </a>
@@ -145,7 +145,7 @@ const Footer = () => {
           </li>
           <li className={css.bold}>
             <a
-              href="https://store.nebula.app/collections/the-coding-train"
+              href="https://store.nebula.tv/collections/the-coding-train"
               {...externalLink}>
               Shop
             </a>

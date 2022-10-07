@@ -1,0 +1,104 @@
+{
+  "title": "4D Hypercube (aka 'Tesseract')",
+  "description": "In this coding challenge, I visualize a 4D Hypercube (aka \"Tesseract\") in Processing (Java).",
+  "videoNumber": "113",
+  "videoId": "XE3YDVdQSPo",
+  "date": "2018-08-22",
+  "languages": ["Processing"],
+  "topics": [
+    "3d rendering",
+    "orthographic projection",
+    "rotation matrix",
+    "4d hypercube",
+    "tesseract"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introducing today's topic: rendering a 4D hypercube"
+    },
+    { "time": "7:30", "title": "Create a P4Vector class" },
+    { "time": "9:43", "title": "Extend the points array to have 16 points " },
+    { "time": "13:06", "title": "Create the projection matrix" },
+    { "time": "16:16", "title": "Stereographic projection" },
+    { "time": "18:04", "title": "Connect the points" },
+    { "time": "22:17", "title": "Add an offset to the connect function" },
+    { "time": "26:26", "title": "Create rotation in the 4th dimension" },
+    { "time": "29:49", "title": "Create a rotationXY matrix" },
+    { "time": "36:52", "title": "Rotate around the w axis" },
+    { "time": "40:23", "title": "We have now entered the 4th dimension!!" },
+    { "time": "40:58", "title": "What dimension could you visualize?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "4D Hypercube",
+      "description": "This sketch renders a 4D hypercube.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/n0y8ntgWi",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/113_Hypercube/Processing/CC_113_Hypercube"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔢",
+          "title": "Matrix Multiplication",
+          "url": "http://matrixmultiplication.xyz",
+          "description": "Webpage with a matrix multiplication calculator."
+        },
+        {
+          "icon": "🗄",
+          "title": "Rotation Matrix on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+          "description": "Wikipedia page with information and resources about rotation matrices."
+        },
+        {
+          "icon": "🗄",
+          "title": "3D Projection on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/3D_projection",
+          "description": "Wikipedia page with information and resources about 3D projection."
+        },
+        {
+          "icon": "🗄",
+          "title": "Tesseract on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tesseract",
+          "description": "Wikipedia page with information and resources about a tesseract."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Understanding 4D -- The Tesseract",
+          "url": "https://youtu.be/iGO12Z5Lw8s",
+          "description": "How, exactly, do you rotate in 4 dimensions? "
+        },
+        {
+          "icon": "🚂",
+          "title": "3D Rendering with Rotation and Projection",
+          "url": "/challenges/112-3d-rendering-with-rotation-and-projection",
+          "description": "Can I draw and rotate a 3D cube using Processing's 2D renderer with just some math?!?! Yes!"
+        },
+        {
+          "icon": "🚂",
+          "title": "Matrix Math",
+          "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
+          "description": "In this video, I introduce the idea of \"Linear Algebra\" and explore the matrix math required for a simple neural network library."
+        },
+        {
+          "icon": "🚂",
+          "title": "Matrix Multiplication for 3D Rendering",
+          "url": "https://youtu.be/tzsgS19RRc8",
+          "description": "In this video, I write a function to perform matrix multiplication in Java."
+        }
+      ]
+    }
+  ]
+}

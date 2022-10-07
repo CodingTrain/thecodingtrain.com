@@ -1,0 +1,75 @@
+{
+  "title": "The Game of Life",
+  "description": "In this coding challenge, I attempt to code Conway’s Game of Life cellular automata simulation in JavaScript using the p5.js library.",
+  "videoNumber": "85",
+  "videoId": "FWSR_7kZuYg",
+  "date": "2017-12-11",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["game of life", "cellular automata", "modulus"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:00", "title": "Generations" },
+    { "time": "7:18", "title": "make2DArray()" },
+    { "time": "17:20", "title": "Compute Next Generation" },
+    { "time": "21:19", "title": "countNeighbors()" },
+    { "time": "23:14", "title": "Deal with Edges" },
+    { "time": "25:44", "title": "Implement Rules" },
+    { "time": "30:00", "title": "Implement Wraparound with Modulus" },
+    { "time": "36:13", "title": "Variations" }
+  ],
+  "codeExamples": [
+    {
+      "title": "The Game of Life",
+      "description": "The sketch implements the Game of Life cellular automata simulation.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/UtSMCB1zv",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/085_The_Game_of_Life/Processing/CC_085_The_Game_of_Life"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Conway's Game of Life on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
+          "description": "Wikipedia page with background and references on Conway's Game of Life."
+        },
+        {
+          "icon": "📓",
+          "title": "Mathematical Games",
+          "url": "http://www.ibiblio.org/lifepatterns/october1970.html",
+          "description": "Scientific American article on Conway's Game of Life."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "My Video on The Game of Life",
+          "url": "https://www.youtube.com/watch?v=tENSCEO-LEc",
+          "description": "This video covers the Game of Life 2D cellular automaton in Processing (Java)."
+        },
+        {
+          "icon": "🚂",
+          "title": "2D Arrays in JavaScript",
+          "url": "https://www.youtube.com/watch?v=OTNpiLUSiB4",
+          "description": "In this video, I demonstrate how to create, initialize, and use the 2D arrays in JavaScript with nested for loops."
+        },
+        {
+          "icon": "🚂",
+          "title": "The Modulo Operator with Golan Levin",
+          "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
+          "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
+        }
+      ]
+    }
+  ]
+}

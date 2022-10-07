@@ -1,6 +1,6 @@
 {
   "title": "Floyd-Steinberg Dithering",
-  "description": "In this coding challenge, I attempt to implement the Floyd-Steinberg Dithering algorithm and create a \u201cimage stippling\u201d effect on an image (kitten, of course) using Processing.",
+  "description": "In this coding challenge, I attempt to implement the Floyd-Steinberg Dithering algorithm and create a \"image stippling\" effect on an image (kitten, of course) using Processing.",
   "videoNumber": "90",
   "videoId": "0L2n8Tg2FwI",
   "date": "2018-01-16",
@@ -44,7 +44,7 @@
         },
         {
           "icon": "🔗",
-          "title": "Floyd\u2013Steinberg dithering on Wikipedia",
+          "title": "Floyd–Steinberg dithering on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering",
           "description": "Discussion of Floyd Steinberg dithering."
         }

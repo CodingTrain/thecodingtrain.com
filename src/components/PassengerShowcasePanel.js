@@ -1,4 +1,4 @@
-import React, { Fragment, memo } from 'react';
+import React, { Fragment, memo, useEffect, useState } from 'react';
 
 import ButtonPanel from './ButtonPanel';
 import Image from './Image';
@@ -6,12 +6,23 @@ import Image from './Image';
 import * as css from './PassengerShowcasePanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
+import { useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const PassengerShowcasePanel = ({
   contributions,
   placeholderImage,
   headerType = 'h2'
 }) => {
+  // First render : as many empty contributions as there are challenges
+  const [shuffledContribs, setShuffledContribs] = useState(() =>
+    contributions.map(() => ({}))
+  );
+  useEffect(() => {
+    // Next renders : shuffled contributions on client side hydration
+    setShuffledContribs(shuffleCopy(contributions));
+  }, [contributions]);
+  const isFirstRender = useIsFirstRender();
   const description =
     contributions.length > 0
       ? 'What the Coding Train community has created based on this video'
@@ -24,11 +35,11 @@ const PassengerShowcasePanel = ({
         <p>{description}</p>
       </div>
       <div className={css.contributions}>
-        {contributions.map((contrib, key) => (
+        {shuffledContribs.map((contrib, key) => (
           <Fragment key={key}>
             <Contribution
               contribution={contrib}
-              placeholderImage={placeholderImage}
+              placeholderImage={isFirstRender ? null : placeholderImage}
             />
             <div className={css.spacer}></div>
           </Fragment>
@@ -66,7 +77,7 @@ const Contribution = ({
   return (
     <article className={css.contrib}>
       <a className={css.title} href={url} target="_blank" rel="noreferrer">
-        <Header title={title.length > 30 ? title : null}>{title}</Header>
+        <Header title={title?.length > 30 ? title : null}>{title}</Header>
       </a>
       <a
         className={css.pictureContainer}
@@ -81,22 +92,20 @@ const Contribution = ({
         )}
         <PlayButton width={30} className={css.playButton} />
       </a>
-      <p className={css.author}>
-        <address>
-          <span>by </span>
-          {author.url ? (
-            <a
-              href={author.url}
-              target="_blank"
-              rel="noreferrer"
-              className={css.authorName}>
-              {author.name}
-            </a>
-          ) : (
-            <span className={css.authorName}>{author.name}</span>
-          )}
-        </address>
-      </p>
+      <address className={css.author}>
+        {author && <span>by </span>}
+        {author?.url ? (
+          <a
+            href={author.url}
+            target="_blank"
+            rel="noreferrer"
+            className={css.authorName}>
+            {author?.name}
+          </a>
+        ) : author?.name ? (
+          <span className={css.authorName}>{author.name}</span>
+        ) : null}
+      </address>
     </article>
   );
 };

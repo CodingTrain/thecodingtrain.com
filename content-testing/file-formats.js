@@ -7,6 +7,7 @@ const video = {
       description: { isRequired: true, type: 'string' },
       videoNumber: { type: 'string' },
       videoId: { isRequired: true, type: 'string' },
+      nebulaSlug: { isRequired: false, type: 'string' },
       date: { type: 'string' },
       languages: { type: 'array', content: { type: 'string' } },
       topics: { type: 'array', content: { type: 'string' } },
@@ -154,7 +155,8 @@ const contribution = {
       },
       url: { type: 'string' },
       source: { type: 'string' },
-      videoId: { type: 'string' }
+      videoId: { type: 'string' },
+      submittedOn: { type: 'string' }
     }
   }
 };

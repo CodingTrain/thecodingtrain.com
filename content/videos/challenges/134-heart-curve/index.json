@@ -1,0 +1,145 @@
+{
+    "title": "Heart Curve",
+    "description": "In this multi-part challenge, I use a parametric equation (from Wolfram Mathworld) to draw a heart curve in Processing (Java).",
+    "videoNumber": "134",
+    "videoId": "",
+    "date": "2019-02-18",
+    "languages": ["Processing"],
+    "topics": [
+        "heart curve",
+        "parametric equation",
+        "polar coordinates",
+        "GIF loop"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["133-time-tables-cardioid-visualization", "135-making-a-gif-loop-in-processing"],
+    "timestamps": [],
+    "parts": [{
+            "title": "Heart Curve",
+            "videoId": "oUBAi9xQ2X4",
+            "timestamps": [{
+                    "time": "0:00",
+                    "title": "Introducing today's topic: drawing a heart curve"
+                },
+                {
+                    "time": "1:00",
+                    "title": "Start coding"
+                },
+                {
+                    "time": "2:27",
+                    "title": "Polar to cartesian coordinates"
+                },
+                {
+                    "time": "3:48",
+                    "title": "Try \"futzing\" with the equations"
+                },
+                {
+                    "time": "5:50",
+                    "title": "Add the equation for a heart"
+                },
+                {
+                    "time": "8:10",
+                    "title": "Animate the heart"
+                },
+                {
+                    "time": "10:41",
+                    "title": "Conclusion--can you draw a different heart curve?"
+                }
+            ]
+        },
+        {
+            "title": "Beating Heart GIF",
+            "videoId": "l5I3Q1JFISE",
+            "timestamps": [{
+                    "time": "0:00",
+                    "title": "Bonus Video:  Make a GIF loop of the heart"
+                },
+                {
+                    "time": "0:33",
+                    "title": "The GIF loop should start where it ends"
+                },
+                {
+                    "time": "1:32",
+                    "title": "Map the angle to percent"
+                },
+                {
+                    "time": "2:35",
+                    "title": "Animate by adding and removing points from the array"
+                },
+                {
+                    "time": "4:16",
+                    "title": "Use sine to animate the beating of the heart"
+                }
+            ]
+        }
+    ],
+    "codeExamples": [{
+            "title": "Heart Curve",
+            "description": "This sketch draws a heart curve.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/egvieHyt0",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/134_Heart_Curve_1/Processing/CC_134_Heart_Curve_1"
+            }
+        },
+        {
+            "title": "Beating Heart GIF",
+            "description": "This sketch creates a beating heart GIF.",
+            "image": "img2.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/egvieHyt0",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/134_Heart_Curve_2/Processing/CC_134_Heart_Curve_2"
+            }
+        }
+    ],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                    "icon": "❤️",
+                    "title": "Heart Curve Formulas",
+                    "url": "http://mathworld.wolfram.com/HeartCurve.html",
+                    "description": "Webpage with parametric equations for different heart curves."
+                },
+                {
+                    "icon": "🖌",
+                    "title": "Daily Art",
+                    "url": "http://sasj.tumblr.com/",
+                    "description": "Saskia Freeke tumblr site with daily art."
+                },
+                {
+                    "icon": "🐝",
+                    "title": "Bees & Bombs",
+                    "url": "https://beesandbombs.tumblr.com/",
+                    "description": "Bees & Bombs tumblr site."
+                },
+                {
+                    "icon": "💾",
+                    "title": "Loop Templates",
+                    "url": "https://github.com/golanlevin/LoopTemplates",
+                    "description": "Golan Levin's Github respository with templates for generating animated seamless loops in Processing, p5.js, and Processing.py."
+                },
+                {
+                    "icon": "💾",
+                    "title": "EZGIF",
+                    "url": "https://ezgif.com/",
+                    "description": "Ezgif.com is a simple online GIF maker and toolset for basic animated GIF editing."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "🎥",
+                    "title": "Polar Coordinates",
+                    "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+                    "description": "This video looks at the trigonometric functions—sine, cosine, tangent."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Drawing with Fourier Transform and Epicycles",
+                    "url": "https://www.youtube.com/watch?v=MY4luNgGfms",
+                    "description": "In this video, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform."
+                }
+            ]
+        }
+    ]
+}
