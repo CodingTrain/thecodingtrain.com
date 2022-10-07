@@ -34,7 +34,20 @@
     ],
     "canContribute": true,
     "relatedChallenges": [],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "00:00", "title": "Introduction" },
+        { "time": "00:31", "title": "Define a particle system" },
+        { "time": "01:12", "title": "Make a Particle class" },
+        { "time": "02:11", "title": "Draw a particle" },
+        { "time": "03:05", "title": "Add multiple particles" },
+        { "time": "04:05", "title": "Move particles" },
+        { "time": "05:04", "title": "Add particles over time" },
+        { "time": "05:48", "title": "Fade particles" },
+        { "time": "06:49", "title": "Remove particles" },
+        { "time": "09:10", "title": "Remove particles in the correct order" },
+        { "time": "11:40", "title": "Experiment with parameters" },
+        { "time": "12:08", "title": "Conclusion" }
+    ],
     "codeExamples": [
         {
             "title": "Simple Particle System",
