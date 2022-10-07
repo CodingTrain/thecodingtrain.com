@@ -29,6 +29,7 @@
         {
             "title": "Fire Effect",
             "description": "This sketch creates a 2D simulation of fire.",
+            "image": "fire-effect.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/NaXdkoVI",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/103_Flames/Processing",
