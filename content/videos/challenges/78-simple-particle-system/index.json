@@ -4,7 +4,7 @@
     "videoNumber": "78",
     "videoId": "UcdigVaIYAk",
     "date": "2017-10-11",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js", "processing"],
     "topics": [
         "JavaScript (Programming Language)",
         "live",
@@ -37,24 +37,12 @@
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Simple Particle System",
+            "description": "Implementing a simple particle system.",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/D4ty3DgZB"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_078_Simple_Particle_System/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_078_Simple_Particle_System/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/D4ty3DgZB",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/078_Simple_Particle_System/Processing",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/078_Simple_Particle_System"
             }
         }
     ],
@@ -65,12 +53,12 @@
                 {
                     "title": "Particle System on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Particle_system",
-                    "description": ""
+                    "description": "Wikipedia page with informatio and resources on particle systems."
                 },
                 {
                     "title": "#ParticleTrain on Twitter",
                     "url": "https://twitter.com/hashtag/particletrain",
-                    "description": ""
+                    "description": "Twitter hashtag for particletrain."
                 }
             ]
         },
@@ -80,12 +68,12 @@
                 {
                     "title": "Fireworks Coding Challenge",
                     "url": "/challenge/027-fireworks",
-                    "description": ""
+                    "description": "In this 4th of July themed coding challenge, I build an HTML5 canvas fireworks simulation from scratch using the p5.js JavaScript library. I also show how to use Processing to create 3D Fireworks."
                 },
                 {
                     "title": "Particle Systems playlist",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Z9hI4mSgx2FlE5w8zvjmEy",
-                    "description": ""
+                    "description": "Video lessons accompanying Chapter 4 (Particle Systems) from The Nature of Code book."
                 }
             ]
         }
