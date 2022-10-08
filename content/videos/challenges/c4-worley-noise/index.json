@@ -6,14 +6,13 @@
   "date": "2020-04-29",
   "languages": ["p5.js"],
   "topics": [
-    "worley",
+    "worley noise",
     "cellular texture",
-    "noise",
-    "sort",
     "tesselation",
     "distance"
   ],
   "canContribute": true,
+  "relatedChallenges": ["28-metaballs", "c5-marching-squares"],
   "timestamps": [
     { "time": "0:00", "title": "About Worley Noise" },
     { "time": "1:13", "title": "Coding Random Noise" },

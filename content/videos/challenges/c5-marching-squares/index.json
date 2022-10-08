@@ -14,7 +14,7 @@
     "grid"
   ],
   "canContribute": true,
-  "relatedChallenges": ["", ""],
+  "relatedChallenges": ["28-metaballs", "c4-worley-noise"],
   "timestamps": [
     { "time": "0:00", "title": "Marching Squares" },
     { "time": "3:35", "title": "Creating a 2D Grid" },
