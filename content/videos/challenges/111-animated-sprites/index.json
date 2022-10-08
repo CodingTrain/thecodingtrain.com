@@ -4,60 +4,42 @@
     "videoNumber": "111",
     "videoId": "3noMeuufLZY",
     "date": "2018-07-30",
-    "languages": [],
+    "languages": ["p5.js", "JavaScript"],
     "topics": [
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "class",
-        "challenge",
-        "codingtrain",
-        "code challenge",
-        "javascript (programming language)",
-        "programming challenge",
-        "p5.js tutorial",
-        "sprite",
-        "sprite sheet",
-        "sprite sheet animation",
-        "sprite animation javascript",
-        "animated sprites",
-        "animated sprite tutorial",
-        "animated sprite js",
-        "computer animation",
-        "p5.js animation",
-        "animated sprite",
-        "video game",
-        "spritesheet"
+        "sprite animation",
+        "oop"
     ],
     "canContribute": true,
     "relatedChallenges": [],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:58", "title": "Cite resource from opengameart.org" },
+        { "time": "1:45", "title": "Show sprite sheet" },
+        { "time": "2:57", "title": "Show sprites' coordinates" },
+        { "time": "3:15", "title": "Let's code" },
+        { "time": "3:18", "title": "Draw entire sprite sheet" },
+        { "time": "5:18", "title": "Draw individual sprites" },
+        { "time": "7:46", "title": "Draw different sprites with the modulo operator" },
+        { "time": "9:02", "title": "Create a Sprite class" },
+        { "time": "10:54", "title": "Define the show function" },
+        { "time": "11:45", "title": "Define the animate function" },
+        { "time": "12:07", "title": "Debug Sprite class" },
+        { "time": "13:00", "title": "Create a sprite object" },
+        { "time": "13:31", "title": "Add multiple sprites" },
+        { "time": "14:30", "title": "Animate sprites at different speed" },
+        { "time": "16:25", "title": "Move sprites horizontally" },
+        { "time": "16:40", "title": "Refine animation" },
+        { "time": "17:45", "title": "Conclusion and creative possibilities" }
+    ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Animated Sprites",
+            "description": "This sketch implements sprite animation.",
+            "image": "animated-sprites.jpg",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/vhnFx1mml"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_111_animated_sprite/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_111_animated_sprite/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/vhnFx1mml",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/111_animated_sprite/Processing",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/111_animated_sprite/P5"
             }
         }
     ],
@@ -66,14 +48,16 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🔗",
                     "title": "Horse Sprite Sheet",
                     "url": "https://opengameart.org/content/2d-platformer-art-assets-from-horse-of-spring",
-                    "description": ""
+                    "description": "Sprite sheet from opengameart.org."
                 },
                 {
+                    "icon": "🗄",
                     "title": "Sprite (computer graphics)",
                     "url": "https://en.wikipedia.org/wiki/Sprite_(computer_graphics)",
-                    "description": ""
+                    "description": "Wikipedia page with information and resources on sprites in the context of computer graphics."
                 }
             ]
         },
@@ -81,9 +65,10 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🚂",
                     "title": "Guest Tutorial #6: The Modulo Operator with Golan Levin",
-                    "url": "/GuestTutorials/006-golan-levin-modulo-operator",
-                    "description": ""
+                    "url": "https://youtu.be/r5Iy3v1co0A",
+                    "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
                 }
             ]
         }
