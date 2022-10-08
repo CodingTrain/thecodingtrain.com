@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": ["dithering", "stippling", "floyd-steinberg dithering"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["85-the-game-of-life", "sandpiles"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:20", "title": "Let's start coding!" },
