@@ -12,6 +12,7 @@
     "trigonometry"
   ],
   "canContribute": true,
+  "relatedChallenges": ["116-lissajous-curve-table", "125-fourier-series", "133-times-table-cartioid-visualization", "134-heart-curve", "c1-maurer-rose"],
   "timestamps": [
     {
       "time": "0:00",
