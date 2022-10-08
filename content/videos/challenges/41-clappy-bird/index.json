@@ -1,0 +1,42 @@
+{
+  "title": "Clappy Bird",
+  "description": "In a previous challenge, I created a clone of the popular online game Flappy Bird. In this coding challenge, I make the game audio-responsive and control the bird by clapping.",
+  "videoNumber": "41",
+  "videoId": "aKiyCeIuwn4",
+  "date": "2016-10-20",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["flappy bird", "game development", "clappy bird"],
+  "canContribute": true,
+  "relatedChallenges": ["100-neuroevolution-flappy-bird", "31-flappy-bird"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Clappy Bird",
+      "description": "A flappy bird which flaps when you clap!",
+      "image": "flappy-bird.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tL29haKoC",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/041_ClappyBird/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔊",
+          "title": "p5.sound",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js sound library reference"
+        },
+        {
+          "icon": "🗒️",
+          "title": "p5.AudioIn",
+          "url": "https://p5js.org/reference/#/p5.AudioIn",
+          "description": "p5.AudioIn object reference"
+        }
+      ]
+    }
+  ]
+}
