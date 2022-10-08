@@ -1,0 +1,40 @@
+{
+  "title": "Mitosis Simulation",
+  "description": "In this viewer submitted coding challenge, I program a cellular mitosis simulation in p5.js.",
+  "videoNumber": "6",
+  "videoId": "jxGS3fKPKJA",
+  "date": "2016-04-27",
+  "languages": ["p5.js"],
+  "topics": ["mitosis", "simulation"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Welcome to the challenge!" },
+    { "time": "00:56", "title": "Create a Cell constructor" },
+    { "time": "03:01", "title": "Create a cell" },
+    { "time": "04:05", "title": "Move the cell randomly" },
+    { "time": "05:25", "title": "Change the appearance of the cell" },
+    { "time": "06:06", "title": "Create an array of cells" },
+    { "time": "08:15", "title": "Handling mouse press" },
+    { "time": "11:27", "title": "Splitting the cell into two" },
+    { "time": "13:49", "title": "Allowing optional constructor arguments" },
+    { "time": "16:07", "title": "Split the cells and add them to the array" },
+    { "time": "17:01", "title": "Error! Copying object references" },
+    { "time": "19:48", "title": "Add transparency to cells" },
+    { "time": "20:15", "title": "Error! Looping backwards" },
+    { "time": "21:37", "title": "Delete the original cell during mitosis" },
+    { "time": "22:22", "title": "Add random offset to position" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mitosis",
+      "description": "Cellular Mitosis Simulation",
+      "image": "mitosis.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/K_ABj0cCt",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_006_Mitosis/Processing"
+      }
+    }
+  ],
+  "groupLinks": []
+}

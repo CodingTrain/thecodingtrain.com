@@ -6,7 +6,12 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:44", "title": "Sign Up" },
+    { "time": "2:54", "title": "Saving and Sharing Sketches" },
+    { "time": "3:50", "title": "Naming Your Sketch" }
+  ],
   "codeExamples": [
     {
       "title": "p5.js Web Editor Demo",
@@ -26,6 +31,23 @@
           "title": "Flip p5 Editor",
           "url": "https://github.com/CodingTrain/BookmarkletFlipP5Editor",
           "description": "Bookmarklet to flip the output canvas and code editor in the p5.js Web Editor"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "p5.js Web Editor with Cassie Tarakajian",
+          "url": "https://youtu.be/x1rJJRVTpAI",
+          "description": "In this video, Cassie provides a detailed overview of the features of the p5.js web editor."
+        },
+        {
+          "icon": "🎥",
+          "title": "Accessibility in the p5.js Web Editor",
+          "url": "https://youtu.be/gEAoEpmclmE",
+          "description": "Accessibility in the p5.js Web Editor with Mathura Govindarajan"
         }
       ]
     }

@@ -40,3 +40,37 @@ export const stringValueOrAll = (str) => {
 **/
 export const toSlug = (path) =>
   slugify(path, { lower: true, trim: true }).replace('.', '-');
+
+/**
+  Makes a filtered path
+**/
+export const filteredPath = (resource, language, topic) => {
+  return `/${resource}/lang/${toSlug(
+    stringValueOrAll(language)
+  )}/topic/${toSlug(stringValueOrAll(topic))}`;
+};
+
+/**
+ * Returns a shuffled copy of the array using the Fisher-Yates algorithm.
+ *
+ * @param {any[]} array Array to be copied and shuffled
+ * @return Shuffled copy of the array
+ */
+export const shuffleCopy = (array) => {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = copy[i];
+    copy[i] = copy[j];
+    copy[j] = temp;
+  }
+  return copy;
+};
+
+export const randomElement = (array) => {
+  if (array.length === 0) {
+    return null;
+  }
+  const index = Math.floor(Math.random() * array.length);
+  return array[index];
+};

@@ -1,0 +1,57 @@
+{
+  "title": "Promises Part 2",
+  "description": "How to make (keep?) your own (JavaScript) promises?",
+  "videoNumber": "12",
+  "videoId": "AwyoVjVXnLk",
+  "date": "2018-05-29",
+  "languages": ["javascript"],
+  "topics": ["promises", "es6"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "02:15", "title": "Demonstration: setTimeout" },
+    { "time": "04:58", "title": "Creating a Promise" },
+    { "time": "06:43", "title": "Resolving a Promise" },
+    { "time": "07:39", "title": "Rejecting a Promise" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Make your own Promises",
+      "description": "Demonstration of creating Promises",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/MtsUDdLu2"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Promises on MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+          "description": "Promises Reference on the MDN Web Docs"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "setTimeout",
+          "url": "https://youtu.be/nGfTjA8qNDA",
+          "description": "Tutorial on JavaScript setTimeout"
+        },
+        {
+          "icon": "🚂",
+          "title": "ES6 Arrow Functions",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
+          "description": "Tutorial on ES6 Arrow Syntax"
+        }
+      ]
+    }
+  ]
+}

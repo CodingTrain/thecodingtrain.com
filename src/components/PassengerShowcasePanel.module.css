@@ -66,6 +66,7 @@
   text-transform: uppercase;
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
+  min-height: var(--baseline-box);
   line-height: var(--baseline-box);
   padding: 0 calc(var(--box-padding) / 2);
   text-overflow: ellipsis;
@@ -80,20 +81,15 @@
 
 .author {
   margin: 0;
-
   color: var(--gray-dark);
-  & > address {
-    border-bottom: var(--border-purple);
-    border-left: var(--border-purple);
-    line-height: var(--baseline-box);
-    display: flex;
-    align-items: center;
-    padding: 0 calc(var(--box-padding) / 2);
-  }
-
-  & * {
-    font-style: normal;
-  }
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  min-height: var(--baseline);
+  line-height: var(--baseline-box);
+  display: flex;
+  align-items: center;
+  padding: 0 calc(var(--box-padding) / 2);
+  font-style: normal;
 }
 
 .authorName {
@@ -113,6 +109,7 @@ a.authorName {
   height: var(--baseline-3x);
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
+  background-color: var(--gray-light);
 }
 
 .image {

@@ -2,7 +2,6 @@
   "title": "Mandelbrot Set Explorer",
   "url": "https://jcponce.github.io/complex/mandelbrotexplorer/",
   "author": {
-      "name": " by Juan Carlos Ponce Campuzano",
-      "url": ""
+    "name": "Juan Carlos Ponce Campuzano"
   }
 }

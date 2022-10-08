@@ -6,12 +6,11 @@ import Layout from './Layout';
 import CharacterSpacer from './CharacterSpacer';
 import { Heading1 } from './Heading';
 import PagePanel from './PagePanel';
-import Filter from './Filter';
 import Select from './Select';
 import Spacer from './Spacer';
 import Button from './Button';
 
-import { toSlug, stringValueOrAll } from '../utils';
+import { filteredPath } from '../utils';
 
 import * as css from './ItemsPage.module.css';
 
@@ -43,10 +42,6 @@ const ItemsPage = ({
   nextPagePath
 }) => {
   const [expanded, setExpanded] = useState(false);
-  const onExpand = () => {
-    setExpanded((expanded) => !expanded);
-  };
-
   const filtersRef = useRef();
   const shouldScroll = location.pathname.split('/').length > 2;
 
@@ -68,17 +63,13 @@ const ItemsPage = ({
   };
 
   const setSelectedLanguage = (value) => {
-    const l = toSlug(stringValueOrAll(value));
-    const t = toSlug(stringValueOrAll(selectedTopic));
-    navigate(`/${itemsPath}/lang/${l}/topic/${t}/`, {
+    navigate(filteredPath(itemsPath, value, selectedTopic), {
       state: { expanded }
     });
   };
 
   const setSelectedTopic = (value) => {
-    const l = toSlug(stringValueOrAll(selectedLanguage));
-    const t = toSlug(stringValueOrAll(value));
-    navigate(`/${itemsPath}/lang/${l}/topic/${t}/`, {
+    navigate(filteredPath(itemsPath, selectedLanguage, value), {
       state: { expanded }
     });
   };
@@ -145,7 +136,9 @@ const ItemsPage = ({
       <Spacer />
 
       {children({
-        isFiltered: selectedLanguage !== 'all' || selectedTopic !== 'all',
+        isFiltered:
+          (selectedLanguage !== 'all' && selectedLanguage !== '') ||
+          (selectedTopic !== 'all' && selectedTopic !== ''),
         language: selectedLanguage,
         topic: selectedTopic
       })}

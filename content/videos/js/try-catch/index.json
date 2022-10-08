@@ -1,0 +1,38 @@
+{
+  "title": "try / catch with Promises",
+  "description": "Using try / catch with ES6 Promises, async, and await.",
+  "videoNumber": "16",
+  "videoId": "BztW_u6HDbs",
+  "date": "2018-06-02",
+  "languages": ["javascript"],
+  "topics": ["error handling", "promises"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:40", "title": "Using a try-catch block" },
+    { "time": "05:41", "title": "Summary" }
+  ],
+  "codeExamples": [
+    {
+      "title": "try / catch",
+      "description": "Demonstration of try / catch to handle errors",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/YiHgTdR5N"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "try...catch statements",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch",
+          "description": "try...catch Reference on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}

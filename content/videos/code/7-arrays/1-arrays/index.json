@@ -7,12 +7,21 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "basics"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "1:39", "title": "What is an Array?" },
+    {"time": "3:20", "title": "Indexes" },
+    {"time": "5:07", "title": "Code Example" },
+    {"time": "6:50", "title": "Referring to a Value in an Array" },
+    {"time": "8:40", "title": "Dynamic Reference to a Value in an Array" },
+    {"time": "10:56", "title": "Trying to Access a Value that Doesn't Exist" },
+    {"time": "12:20", "title": "Using the Array's Length" }
+  ],
   "codeExamples": [
     {
       "title": "Array",
       "description": "Demonstration of arrays in JavaScript.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ"
       }

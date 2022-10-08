@@ -10,7 +10,7 @@
     {
       "title": "Arrive",
       "description": "Using the arrive steering method to code an agent that arrives at the mouse's position",
-      "image": "image1.png",
+      "image": "arrive.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/1eUnUQnwB"
       }

@@ -10,7 +10,7 @@
     {
       "title": "Angle Between",
       "description": "Calculating the angle between the mouse and a line on the canvas",
-      "image": "image1.png",
+      "image": "angle.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ORP5Yx7JX"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Scalar Projection",
       "description": "Projecting a point under the mouse onto a line",
-      "image": "image1.png",
+      "image": "projection.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/c4jmHLFQI"
       }

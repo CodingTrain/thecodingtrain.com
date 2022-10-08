@@ -1,0 +1,86 @@
+{
+  "title": "Wikipedia API",
+  "description": "In this coding challenge, I make a \"Wikipedia web crawler\" in JavaScript. It randomly crawls from topic to topic on Wikipedia using the API and the p5.js library.",
+  "videoNumber": "75",
+  "videoId": "RPz75gcHj18",
+  "date": "2017-09-25",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [
+    "web crawler",
+    "wikipedia api",
+    "regular expressions",
+    "load json"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introducing today's topic: a Wikipedia web crawler"
+    },
+    { "time": "1:17", "title": "Add an input box to the html" },
+    { "time": "2:48", "title": "Handle the user input event" },
+    { "time": "4:45", "title": "The Wikipedia search URL" },
+    { "time": "6:45", "title": "Use loadJSON to request a page" },
+    { "time": "9:52", "title": "Pick a random article title" },
+    {
+      "time": "11:36",
+      "title": "Use a regular expression to replace the white space"
+    },
+    { "time": "12:28", "title": "Retrieve the content using the content URL" },
+    {
+      "time": "14:58",
+      "title": "Look at the json file with the Chrome extension Json formator"
+    },
+    { "time": "16:37", "title": "Use the key to get the page Id" },
+    {
+      "time": "19:53",
+      "title": "Use a regular expression to get the words on a page"
+    },
+    {
+      "time": "21:55",
+      "title": "Use a random word to crawl a bunch of random articles"
+    },
+    { "time": "22:55", "title": "Add an exit condition" },
+    { "time": "24:12", "title": "Conclusion" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Wikipedia web crawler",
+      "description": "This sketch implements a Wikipedia web crawler",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/A4u07unm5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Wikipedia API Help",
+          "url": "https://www.mediawiki.org/wiki/API:Main_page",
+          "description": "Webpage with documentation for the MediaWiki Action API."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Videos on working with data and APIs",
+          "url": "/tracks/data-and-apis-in-javascript",
+          "description": "This course is for aspiring developers who want to learn how to work with data in web applications."
+        },
+        {
+          "icon": "🚂",
+          "title": "My Videos on Regular Expressions",
+          "url": "https://www.youtube.com/watch?v=7DG3kCDx53c",
+          "description": "In this video I introduce Regular Expressions.  What are they and how are they used?"
+        }
+      ]
+    }
+  ]
+}

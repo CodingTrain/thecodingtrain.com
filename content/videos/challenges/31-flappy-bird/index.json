@@ -1,0 +1,66 @@
+{
+    "title": "Flappy Bird",
+    "description": "It's time to attempt to build a Flappy Bird clone in JavaScript with the p5.js!",
+    "videoNumber": "31",
+    "videoId": "cXgA1d_E-jY",
+    "date": "2016-08-10",
+    "languages": ["JavaScript", "p5.js"],
+    "topics": [
+        "flappy bird"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        {
+            "time": "0:00:00",
+            "title": "Flappy Bird"
+        },
+        {
+            "time": "0:00:51",
+            "title": "Creating a Bird Object"
+        },
+        {
+            "time": "0:02:38",
+            "title": "Adding Simple Physics"
+        },
+        {
+            "time": "0:06:25",
+            "title": "Moving Up"
+        },
+        {
+            "time": "0:08:13",
+            "title": "Adding Obstacles"
+        },
+        {
+            "time": "0:16:02",
+            "title": "Collision Detection"
+        },
+        {
+            "time": "0:19:45",
+            "title": "Finishing The Game"
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Flappy Bird",
+            "description": "This sketch implements a clone of the game Flappy Bird.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/FtBc2BhHM",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/031_FlappyBird/Processing/CC_031_FlappyBird"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗄",
+                    "title": "Flappy Bird on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
+                    "description": "Wikipedia page with information and resources about Flappy Bird."
+                }
+            ]
+        }
+    ]
+}

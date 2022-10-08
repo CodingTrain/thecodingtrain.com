@@ -1,0 +1,181 @@
+{
+    "title": "Rubik's Cube",
+    "description": "Can I build an interactive 3D Rubik's cube in Processing? Yes! Someday I hope to return to this project and add an AI solver!",
+    "videoNumber": "142",
+    "videoId": "",
+    "date": "2019-04-01",
+    "languages": ["Processing"],
+    "topics": [
+        "Rubik's cube",
+        "rotation matrix",
+        "peasyCam",
+        "simulation"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection"],
+    "timestamps": [
+    ],
+    "parts": [{
+            "title": "Rubik's Cube - Part 1",
+            "videoId": "9PGfL4t-uqE",
+            "timestamps": [{
+                    "time": "0:00:00",
+                    "title": "Introduction"
+                },
+                {
+                    "time": "0:01:50",
+                    "title": "Code! Creating the cube"
+                },
+                {
+                    "time": "0:07:56",
+                    "title": "Adding a Camera With PeasyCam"
+                },
+                {
+                    "time": "0:11:44",
+                    "title": "Adding Colors"
+                }
+            ]
+        },
+        {
+            "title": "Rubik's Cube - Part 2",
+            "videoId": "EGmVulED_4M",
+            "timestamps": [
+                {
+                    "time": "0:00:00",
+                    "title": "Introduction"
+                },
+                {
+                    "time": "0:01:30",
+                    "title": "Continuing From Part 1"
+                },
+                {
+                    "time": "0:02:57",
+                    "title": "Representing Each Cubie In a Matrix"
+                },
+                {
+                    "time": "0:09:43",
+                    "title": "Finding Each Cubie"
+                },
+                {
+                    "time": "0:11:01",
+                    "title": "Applying Rotation"
+                },
+                {
+                    "time": "0:25:30",
+                    "title": "Coloring The Faces"
+                },
+                {
+                    "time": "0:33:59",
+                    "title": "Updating The Positions"
+                },
+                {
+                    "time": "0:40:33",
+                    "title": "Adding Directions For Each Turn"
+                },
+                {
+                    "time": "0:44:03",
+                    "title": "Testing If Everything Works"
+                }
+            ]
+        },
+        {
+            "title": "Rubik's Cube - Part 3",
+            "videoId": "8U2gsbNe1Uo",
+            "timestamps": [
+                {
+                    "time": "0:00:00",
+                    "title": "Introduction"
+                },
+                {
+                    "time": "0:01:03",
+                    "title": "Applying the rotation animation"
+                },
+                {
+                    "time": "0:08:13",
+                    "title": "Animating every move"
+                },
+                {
+                    "time": "0:19:32",
+                    "title": "Final results"
+                }
+            ]
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Rubik's Cube - Part 1",
+            "description": "The sketch visualizes the Rubik's cube.",
+            "image": "img1.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Jguv-i8Xj",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_1/Processing/CC_142_Rubiks_Cube_1"
+            }
+        },
+        {
+            "title": "Rubik's Cube - Part 2",
+            "description": "This sketch adds rotations of the cube's faces.",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_2/Processing/CC_142_Rubiks_Cube_2"
+            }
+        },
+        {
+            "title": "Rubik's Cube - Part 3",
+            "description": "This sketch animates the rotations of the cube's faces.",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/142_Rubiks_Cube_3/Processing/CC_142_Rubiks_Cube_3"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [{
+                "icon": "📹",
+                "title": "peasycam",
+                "url": "http://mrfeinberg.com/peasycam/",
+                "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
+            },
+            {
+                "icon": "🟥",
+                "title": "I am the cube",
+                "url": "https://iamthecu.be",
+                "description": "An interactive presentation to help you understand the basics of Rubik’s Cube."
+            },
+            {
+                "icon": "🔗",
+                "title": "Rotation matrix on Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Rotation_matrix",
+                "description": "Wikipedia page with information and resources about the rotation matrix."
+            }
+        ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "🎥",
+                    "title": "Code Bullet",
+                    "url": "https://youtu.be/f9smvQ5fc7Q",
+                    "description": "Code Bullet video A.I. program to solve any Rubik's cube."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Matrix Transformations",
+                    "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM&t=0s",
+                    "description": "In this video, I cover matrix \"transformations\" using p5.js."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Matrix Multiplication for 3D Rendering",
+                    "url": "https://youtu.be/tzsgS19RRc8",
+                    "description": "In this video, I write a function to perform matrix multiplication in Java."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Rubik's Cube Live Stream",
+                    "url": "https://youtu.be/GbHGGYSwVvY",
+                    "description": "Rubik's Cube Live Stream"
+                }
+            ]
+        }
+    ]
+}

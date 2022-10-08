@@ -7,12 +7,18 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "nested loop", "for loop", "objects"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "2:23", "title": "Code Example" },
+    {"time": "3:43", "title": "Assigning a Default Value to a Parameter"},
+    {"time": "7:56", "title": "Adding Object Communication" },
+    {"time": "11:55", "title": "Returning the Result of a Boolean" }
+  ],
   "codeExamples": [
     {
       "title": "Checking Overlap",
       "description": "Demonstration of determining if two circles are overlapping.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/OG-_2K16"
       }

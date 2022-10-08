@@ -1,0 +1,67 @@
+{
+  "title": "Particle System",
+  "description": "In this video, I demonstrate higher order array functions in the context of my simple particle system coding challenge.",
+  "videoNumber": "10",
+  "videoId": "m9bRVQ_-DXY",
+  "date": "2018-02-24",
+  "languages": ["javascript", "p5.js"],
+  "topics": ["particle system", "arrays"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    {
+      "time": "00:40",
+      "title": "fill() and map() - Initialize the particles array"
+    },
+    { "time": "04:00", "title": "for...of loop" },
+    {
+      "time": "05:02",
+      "title": "filter() - Filter out particles which are finished"
+    },
+    {
+      "time": "07:38",
+      "title": "reduce() - Compute the centroid of particles"
+    },
+    {
+      "time": "10:55",
+      "title": "Compute the centroid in one line (using p5.Vector)"
+    },
+    {
+      "time": "14:27",
+      "title": "sort() - Layering of particles depending on color"
+    },
+    {
+      "time": "18:25",
+      "title": "forEach() - Iterate through particles array"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Simple Particle System with Array Functions",
+      "description": "Particle System Simulation demonstrating JS Array Functions",
+      "image": "particlesystem.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cFXgW95RZ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Simple Particle System",
+          "url": "https://www.youtube.com/watch?v=UcdigVaIYAk",
+          "description": "Coding Challenge 78: Simple Particle System"
+        },
+        {
+          "icon": "🚂",
+          "title": "for...of loop",
+          "url": "/tracks/topics-in-native-js/js/for-of-loop",
+          "description": "ES6 Tutorial on the for...of loop in JavaScript"
+        }
+      ]
+    }
+  ]
+}

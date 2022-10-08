@@ -1,0 +1,86 @@
+{
+  "title": "Gift Wrapping Algorithm",
+  "description": "In this coding challenge, I implement the “Gift Wrapping algorithm” (aka Jarvis march) for calculating a convex hull in JavaScript. This is a foundational topic in computational geometry!",
+  "videoNumber": "148",
+  "videoId": "YNyULRrydVI",
+  "date": "2019-07-13",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": [
+    "algorithm",
+    "computational geometry",
+    "convex hull"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:47", "title": "What is a Convex Hull?" },
+    { "time": "02:36", "title": "The Gift Wrapping Algorithm" },
+    { "time": "03:50", "title": "Animated Example of the Algorithm" },
+    { "time": "04:58", "title": "Time Complexity of this Algorithm" },
+    { "time": "05:30", "title": "Code! Drawing Random Points" },
+    { "time": "05:42", "title": "Find the Leftmost Point" },
+    { "time": "07:05", "title": "Set up Variables for the Animation" },
+    { "time": "09:03", "title": "Make a Guess about the Next Point" },
+    { "time": "10:58", "title": "Find out which Vector is “to the Left”" },
+    { "time": "15:00", "title": "Add Spacing around the Points" },
+    { "time": "15:33", "title": "Add an Exit Condition" },
+    { "time": "15:54", "title": "Add the Next Vertex to the Hull" },
+    { "time": "16:26", "title": "Draw the Hull" },
+    { "time": "17:12", "title": "Continue the Algorithm with the Vertices" },
+    { "time": "18:33", "title": "Check when the Algorithm is Done" },
+    { "time": "19:08", "title": "Mutating the Array is not necessary" },
+    { "time": "19:50", "title": "Watching the Algorithm with More Points" },
+    { "time": "20:13", "title": "Inefficiences about this Algorithm" },
+    { "time": "20:29", "title": "Closing the Shape" },
+    { "time": "20:54", "title": "(Gift) Wrapping up this Coding Challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Git Wrapping Algorithm",
+      "description": "Animated implementation of the Gift Wrapping Algorithm",
+      "image": "p5-code-example.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IVE9CxBOF",
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/P5",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌐",
+          "title": "Gift Wrapping Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Gift_wrapping_algorithm",
+          "description": "Wikipedia page about the Gift Wrapping Algorithm"
+        },
+        {
+          "icon": "🌐",
+          "title": "Cross Product",
+          "url": "https://en.wikipedia.org/wiki/Cross_product",
+          "description": "Wikipedia page about the Cross Product"
+        },
+        {
+          "icon": "📝",
+          "title": "The splice() Array Function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
+          "description": "Array.prototype.splice() reference on MDN"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "ES6 Arrow Syntax",
+          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "description": "JavaScript tutorial on ES6 Arrow Functions"
+        }
+      ]
+    }
+  ]
+}

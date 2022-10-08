@@ -1,3 +1,12 @@
+// Coding Train YouTube Description Generator
+
+// Usage:
+// npm run yt-desc
+// npm run yt-desc https://thecodingtrain.com/path/to/video/page
+// npm run yt-desc ./path/to/index.json
+
+// Output files are saved to `./_descriptions` directory
+
 const fs = require('fs');
 const path = require('path');
 
@@ -48,6 +57,7 @@ function parseTrack(track) {
     trackFolder = video.split('/').slice(0, -1);
 
     // ignore track with coding challenge videos
+    // TODO fix (only checking first video)
     if (trackFolder[0] === 'challenges') return null;
 
     videoList = parsed.videos;
@@ -62,9 +72,8 @@ function parseTrack(track) {
 }
 
 /**
- * Gets
+ * Parses index.json and pushes to videos array
  * @param {string} file File to parse
- * @returns
  */
 function getVideoData(file) {
   const content = fs.readFileSync(`./${file}`, 'utf-8');
@@ -85,17 +94,41 @@ function getVideoData(file) {
     }
   }
 
-  if (!url || url.length == 0)
+  if (!url || url.length == 0) {
     throw new Error(
       'Something went wrong in parsing this file: ' + filePath.join('/')
     );
-  const videoData = {
-    pageURL: url.join('/'),
-    data: parsed,
-    filePath: file
-  };
-  videos.push(videoData);
-  return videoData;
+  }
+
+  if (parsed.parts && parsed.parts.length > 0) {
+    // Multipart Coding Challenge
+    // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
+
+    for (const part of parsed.parts) {
+      // copy all info from base object
+      const partInfo = JSON.parse(JSON.stringify(parsed));
+      delete partInfo.parts;
+
+      // copy videoId, title, timestamps from parts
+      partInfo.videoId = part.videoId;
+      partInfo.title = parsed.title + ' - ' + part.title;
+      partInfo.timestamps = part.timestamps;
+
+      const videoData = {
+        pageURL: url.join('/'),
+        data: partInfo,
+        filePath: file
+      };
+      videos.push(videoData);
+    }
+  } else {
+    const videoData = {
+      pageURL: url.join('/'),
+      data: parsed,
+      filePath: file
+    };
+    videos.push(videoData);
+  }
 }
 
 /**
@@ -145,18 +178,24 @@ function getVideoURL(url) {
 function writeDescription(video) {
   const data = video.data;
   const pageURL = video.pageURL;
-
+  const nebulaSlug = video.data.nebulaSlug;
   let description = '';
 
   // Description
   description += `${data.description.trim()}`;
-  description += ` https://thecodingtrain.com/${pageURL}`;
+  description += ` Code: https://thecodingtrain.com/${pageURL}`;
 
   description += '\n';
 
+  const nebulaURL = `https://nebula.tv/videos/`;
+  if (nebulaSlug) {
+    description += `\n🚀 Watch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
+    description += '\n';
+  }
+
   // Code Examples:
 
-  // Github Repo Link
+  // Github Standalone Repo Link
   const repoLink = data.codeExamples
     ?.map((ex) => Object.values(ex.urls))
     .flat()
@@ -195,59 +234,50 @@ function writeDescription(video) {
     description += '\n';
 
     if (previousVideo)
-      description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
+      description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
 
     if (nextVideo)
-      description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
+      description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
     description +=
       '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
   } else {
-    const playlistIds = {
-      noc: 'PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM',
-      code: 'PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA'
-    };
-
     const path = video.pageURL.split('/');
-    for (let pl in playlistIds) {
-      if (path.includes(pl)) {
-        description += '\n';
-        const track = allTracks.find((track) => track.trackFolder.includes(pl));
-        let id = track.videoList.indexOf(path.slice(2).join('/'));
+    const videoDir = path.slice(2).join('/');
+    // Find playlist id from main track only
+    // TODO: check in side tracks as well
+    const track = mainTracks.find((track) =>
+      track.videoList.includes(videoDir)
+    );
+    if (track && track.data.playlistId) {
+      description += '\n';
+      let id = track.videoList.indexOf(videoDir);
 
-        const previousPath = track.videoList[id - 1];
-        const previousVideo = videos.find(
-          (vid) =>
-            vid.pageURL == 'tracks/' + track.trackName + '/' + previousPath
-        );
+      const previousPath = track.videoList[id - 1];
+      const previousVideo = videos.find(
+        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + previousPath
+      );
 
-        const nextPath = track.videoList[id + 1];
-        const nextVideo = videos.find(
-          (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
-        );
+      const nextPath = track.videoList[id + 1];
+      const nextVideo = videos.find(
+        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
+      );
 
-        if (previousVideo)
-          description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+      if (previousVideo)
+        description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=${track.data.playlistId}\n`;
 
-        if (nextVideo)
-          description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+      if (nextVideo)
+        description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=${track.data.playlistId}\n`;
 
-        description += `🎥 All videos: https://www.youtube.com/playlist?list=${playlistIds[pl]}\n`;
-      }
+      description += `🎥 All videos: https://www.youtube.com/playlist?list=${track.data.playlistId}\n`;
     }
   }
 
   // Group Links (References / Videos / ...)
   if (data.groupLinks) {
-    const glIcons = {
-      'Links discussed': '🔗',
-      Links: '🔗',
-      References: '🔗',
-      Videos: '🎥'
-    };
     for (let group of data.groupLinks) {
       description += `\n${group.title}:\n`;
       for (const link of group.links) {
-        link.icon = link.icon || glIcons[group.title] || '';
+        link.icon = link.icon || (group.title === 'Videos' ? '🎥' : '🔗');
         const url = link.url;
         if (/https?:\/\/.*/.test(url)) {
           // Starts with http:// or https://
@@ -283,7 +313,6 @@ Music from Epidemic Sound
 💬 Discord: https://discord.gg/hPuGy2g
 💖 Membership: http://youtube.com/thecodingtrain/join
 🛒 Store: https://standard.tv/codingtrain
-📚 Books: https://www.amazon.com/shop/thecodingtrain
 🖋️ Twitter: https://twitter.com/thecodingtrain
 📸 Instagram: https://www.instagram.com/the.coding.train/
 
@@ -298,7 +327,14 @@ Music from Epidemic Sound
 
 This description was auto-generated. If you see a problem, please open an issue: https://github.com/CodingTrain/thecodingtrain.com/issues/new`;
 
-  let filename = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  // Hashtags
+  const hashtags = [...data.topics, ...data.languages].map(
+    (tag) => '#' + tag.match(/\w+/g).join('').toLowerCase()
+  );
+  description += `\n\n${hashtags.join(' ')}`;
+
+  const videoSlug = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  let filename = videoSlug + '_' + data.videoId;
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
 
   return description;
@@ -324,24 +360,32 @@ const allTracks = [...mainTracks, ...sideTracks];
   const files = findContentFilesRecursive(directory);
   primeDirectory('./_descriptions');
 
-  if (video) {
-    const fileName = path.join(
-      'content',
-      'videos',
-      ...video.split('/'),
-      'index.json'
-    );
+  for (const file of files) {
+    getVideoData(file);
+  }
 
-    for (const file of files) {
-      getVideoData(file);
+  if (video) {
+    let specifiedVideos = [];
+    try {
+      // coding train website url
+      const pathName = new URL(video).pathname;
+      specifiedVideos = videos.filter(
+        (data) => '/' + data.pageURL === pathName
+      );
+    } catch (e) {
+      // local index.json path
+      let filePath = video;
+      if (!filePath.endsWith('index.json')) filePath = filePath + '/index.json';
+      filePath = path.normalize(filePath);
+      specifiedVideos = videos.filter((data) => data.filePath === filePath);
     }
 
-    const videoInfo = videos.find((data) => data.filePath === fileName);
-
-    const description = writeDescription(videoInfo);
-    console.log('=====================================================');
-    console.log(description);
-    console.log('=====================================================');
+    for (const video of specifiedVideos) {
+      const description = writeDescription(video);
+      console.log('=====================================================');
+      console.log(description);
+      console.log('=====================================================');
+    }
   } else {
     for (const file of files) {
       getVideoData(file);

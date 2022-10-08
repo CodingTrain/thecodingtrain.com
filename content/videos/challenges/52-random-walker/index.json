@@ -1,12 +1,16 @@
 {
   "title": "Random Walker",
-  "description": "In this coding challenge, I simulate a \u201crandom walk\u201d with the p5.js library. This video is part of the course Nature of Code at ITP, Tisch, NYU.",
+  "description": "In this coding challenge, I simulate a \"random walk\" with the p5.js library. This video is part of the course Nature of Code at ITP, Tisch, NYU.",
   "videoNumber": "52",
   "videoId": "l__fEY1xanY",
   "date": "2017-01-27",
   "languages": ["p5.js", "JavaScript", "Processing", "Java"],
   "topics": ["random", "floor", "random walker"],
   "canContribute": true,
+  "relatedChallenges": [
+    "53-random-walker-with-vectors-and-levy-flight",
+    "162-self-avoiding-walk"
+  ],
   "timestamps": [
     {
       "time": "0:00",
@@ -74,7 +78,7 @@
         {
           "icon": "🎥",
           "title": "Random Walker with Vectors and Lévy Flight",
-          "url": "https://www.youtube.com/watch?v=bqF9w9TTfeo",
+          "url": "/challenges/53-random-walker-with-vectors-and-levy-flight",
           "description": "Random walker using vectors to vary the distance of each step, and implementing Lévy Flight."
         }
       ]

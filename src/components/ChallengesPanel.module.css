@@ -88,6 +88,7 @@
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
   line-height: var(--baseline-box);
+  min-height: var(--baseline);
   padding: 0 calc(var(--box-padding) / 2);
   border-bottom: var(--border);
   border-color: var(--cyan);

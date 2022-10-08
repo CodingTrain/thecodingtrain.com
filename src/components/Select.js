@@ -17,11 +17,7 @@ export const Select = ({
   variant
 }) => {
   const opts = useMemo(() => options.map(toOption), [options]);
-  const handleOnChange = (o, action) => {
-    console.log(o, action);
-
-    onChange(o ? o.value : o);
-  };
+  const handleOnChange = (o, action) => onChange(o ? o.value : o);
 
   return (
     <section className={cn(css.root, className, { [css[variant]]: variant })}>

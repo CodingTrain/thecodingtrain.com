@@ -1,11 +1,12 @@
-import React, { Fragment, memo } from 'react';
+import React, { Fragment, memo, useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
 import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
-import { getReadableDate } from '../hooks';
+import { getReadableDate, useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const Card = ({
   className,
@@ -44,7 +45,9 @@ const Card = ({
                 imgClassName={css.image}
                 alt={`"${title}" challenge`}
               />
-            ) : null}
+            ) : (
+              <div className={css.image}></div>
+            )}
           </Link>
           <p className={css.date}>
             <span>
@@ -77,6 +80,13 @@ const ChallengesPanel = ({
   headerType = 'h2'
 }) => {
   const Header = headerType;
+  const isFirstRender = useIsFirstRender();
+  // First render : as many empty placeholders as there are challenges
+  const [suggestions, setSuggestions] = useState(challenges.map(() => ({})));
+  useEffect(() => {
+    // Next renders : shuffled challenges on client side hydration
+    setSuggestions(shuffleCopy(challenges));
+  }, [challenges]);
   return (
     <section className={css.root}>
       <div className={css.titleBox}>
@@ -84,15 +94,15 @@ const ChallengesPanel = ({
         <p>Suggested by the video you're watching</p>
       </div>
       <div className={css.challenges}>
-        {challenges.slice(0, 2).map((challenge, key) => (
-          <Fragment key={key}>
+        {suggestions.slice(0, 2).map((challenge, index, array) => (
+          <Fragment key={challenge.videoNumber}>
             <Card
               className={css.challenge}
               challenge={challenge}
-              placeholderImage={placeholderImage}
+              placeholderImage={isFirstRender ? null : placeholderImage}
               headerType={`h${parseFloat(headerType[1]) + 1}`}
             />
-            {key !== challenges.length - 1 && (
+            {(array.length === 1 || index !== array.length - 1) && (
               <div className={css.spacer}></div>
             )}
           </Fragment>

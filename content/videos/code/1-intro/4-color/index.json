@@ -7,12 +7,18 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["color", "drawing", "basics"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:48", "title": "R, G, B" },
+    { "time": "6:40", "title": "Grayscale" },
+    { "time": "13:23", "title": "Alpha" },
+    { "time": "15:30", "title": "Assignment" }
+  ],
   "codeExamples": [
     {
       "title": "Color",
       "description": "Demonstration of fill and stroke colors in p5.js.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/rJ9MQSwvm"
       }

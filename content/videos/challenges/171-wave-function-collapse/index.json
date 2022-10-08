@@ -12,7 +12,7 @@
     { "time": "2:00", "title": "Entropy in Sudoku." },
     { "time": "5:41", "title": "Comparing Sudoku to WFC" },
     { "time": "9:24", "title": "Starting to code." },
-    { "time": "11:05", "title": "Collpasing cells." },
+    { "time": "11:05", "title": "Collapsing cells." },
     { "time": "13:30", "title": "Evaluating entropy." },
     { "time": "18:47", "title": "Updating entropy after collapse." },
     { "time": "22:45", "title": "Data structure for rules." },

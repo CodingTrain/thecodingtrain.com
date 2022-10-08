@@ -1,0 +1,116 @@
+{
+  "title": "AppleSoft Basic Snake Game",
+  "description": "Take a trip back in time and let's code the Snake Game in AppleSoft BASIC on a restored Apple II+ computer! GOTO and GOSUB! Line numbers!",
+  "videoNumber": "173",
+  "videoId": "7r83N3c2kPw",
+  "date": "2022-08-23",
+  "languages": ["BASIC"],
+  "topics": ["games", "1980s", "AppleII"],
+  "canContribute": true,
+  "relatedChallenges": ["3-snake-game"],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello from 1981!" },
+    { "time": "0:35", "title": "Opening Theme" },
+    { "time": "1:29", "title": "Getting started" },
+    {
+      "time": "1:50",
+      "title": "Fundamentals:  PRINT, line numbers, LIST, RUN, GOTO"
+    },
+    { "time": "3:50", "title": "HOME (clear screen)" },
+    { "time": "4:10", "title": "Variables" },
+    { "time": "5:11", "title": "HTAB, VTAB" },
+    { "time": "5:24", "title": "GOTO" },
+    { "time": "5:44", "title": "Animation" },
+    { "time": "6:20", "title": "Subroutines and GOSUB" },
+    { "time": "7:17", "title": "Peeks, Pokes, & Pointers" },
+    { "time": "8:07", "title": "RETURN" },
+    { "time": "8:35", "title": "Write IF for keyboard interaction" },
+    { "time": "9:35", "title": "Delay loop" },
+    { "time": "11:16", "title": "Working with Arrays (DIM)" },
+    { "time": "13:47", "title": "Remarks (REM)" },
+    { "time": "14:01", "title": "Random Food Position (RND)" },
+    { "time": "15:26", "title": "Debugging Montage" },
+    { "time": "17:34", "title": "Snake Subroutines" },
+    { "time": "23:15", "title": "Move Food" },
+    { "time": "25:44", "title": "Improvements" },
+    { "time": "27:02", "title": "Emulators" },
+    { "time": "27:25", "title": "Nebula Class! What is Code?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Snake Game in BASIC",
+      "description": "Snake Game code from the video.",
+      "image": "snake.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/snake/snake.a"
+      }
+    },
+    {
+      "title": "Expanded Snake Game in BASIC",
+      "description": "Includes game over checks and screen.",
+      "image": "snake.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/snake/snake_expanded.a"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🧠",
+          "title": "What is Code?",
+          "url": "https://nebula.tv/what-is-code",
+          "description": "Class covering the fundamentals of programming on an Apple II computer!"
+        },
+        {
+          "icon": "🎶",
+          "title": "Coding Together",
+          "url": "https://soundcloud.com/user-207981744-979066415/coding-together",
+          "description": "Theme song by Will from America!"
+        }
+      ]
+    },
+    {
+      "title": "AppleSoft BASIC",
+      "links": [
+        {
+          "icon": "🍎",
+          "title": "Basic Programming Reference Manual",
+          "url": "https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Software/Languages/Applesoft%20BASIC/Manuals/Applesoft%20II%20BASIC%20Programming%20Reference%20Manual.pdf",
+          "description": "PDF of original Apple II manual and reference for AppleSoft BASIC."
+        },
+        {
+          "icon": "🪧",
+          "title": "Peeks, Pokes and Pointers",
+          "url": "https://archive.org/details/peeks-pokes-pointers",
+          "description": "1984 Apple II reference poster from Beagle Bros Micro Software"
+        }
+      ]
+    },
+    {
+      "title": "Apple II Emulators",
+      "links": [
+        {
+          "icon": "☕",
+          "title": "Applesoft BASIC in JavaScript",
+          "url": "https://www.calormen.com/jsbasic/",
+          "description": "Code Editor and JavaScript interpreter for AppleSoft BASIC."
+        },
+        {
+          "icon": "🍎",
+          "title": "Apple IIjs",
+          "url": "https://www.scullinsteel.com/apple2/",
+          "description": "Browser based Apple II emulator in JavaScript"
+        },
+        {
+          "icon": "🍎",
+          "title": "MicroM8",
+          "url": "https://paleotronic.com/software/microm8/",
+          "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Array Functions: map() and fill()",
+  "description": "In this video, I discuss two array functions in JavaScript: map() and fill().",
+  "videoNumber": "6",
+  "videoId": "EnYlhbpzhU4",
+  "date": "2018-02-20",
+  "languages": ["javascript"],
+  "topics": ["array map", "array fill", "array"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Array Functions" },
+    { "time": "02:21", "title": "Demonstration of Array map()" },
+    {
+      "time": "04:14",
+      "title": "Returning a new array vs changing values in place"
+    },
+    { "time": "07:20", "title": "Using the arrow syntax" },
+    { "time": "08:32", "title": "Demonstration of Array fill()" }
+  ],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Array",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+          "description": "Array reference on the MDN Web Docs"
+        }
+      ]
+    }
+  ]
+}

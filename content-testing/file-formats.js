@@ -7,6 +7,7 @@ const video = {
       description: { isRequired: true, type: 'string' },
       videoNumber: { type: 'string' },
       videoId: { isRequired: true, type: 'string' },
+      nebulaSlug: { isRequired: false, type: 'string' },
       date: { type: 'string' },
       languages: { type: 'array', content: { type: 'string' } },
       topics: { type: 'array', content: { type: 'string' } },
@@ -89,6 +90,20 @@ const video = {
   }
 };
 
+const trackOrder = {
+  name: 'trackOrder',
+  init: {
+    type: 'object',
+    properties: {
+      trackOrder: {
+        isRequired: true,
+        type: 'array',
+        content: { type: 'string' }
+      }
+    }
+  }
+};
+
 const track = {
   name: 'track',
   init: {
@@ -96,6 +111,7 @@ const track = {
     properties: {
       title: { isRequired: true, type: 'string' },
       date: { type: 'string' },
+      playlistId: { type: 'string' },
       description: { isRequired: true, type: 'string' },
       chapters: {
         isRequired: true,
@@ -139,7 +155,8 @@ const contribution = {
       },
       url: { type: 'string' },
       source: { type: 'string' },
-      videoId: { type: 'string' }
+      videoId: { type: 'string' },
+      submittedOn: { type: 'string' }
     }
   }
 };
@@ -241,6 +258,7 @@ const collaborators = {
 module.exports = {
   video,
   track,
+  trackOrder,
   contribution,
   faq,
   faqPage,

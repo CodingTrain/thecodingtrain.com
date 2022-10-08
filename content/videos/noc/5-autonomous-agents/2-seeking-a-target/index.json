@@ -10,7 +10,7 @@
     {
       "title": "Seek",
       "description": "Creating an agent that moves towards the mouse",
-      "image": "image1.png",
+      "image": "seek.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/AxuChwlgb"
       }
@@ -18,7 +18,7 @@
     {
       "title": "Seek With Sliders (Exercise)",
       "description": "Using sliders to change the maximum speed and force of the seeking agent",
-      "image": "image1.png",
+      "image": "sliders.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/DROTtSI7J"
       }
@@ -26,7 +26,7 @@
     {
       "title": "Arrive (Exercise)",
       "description": "A seeking agent that resets when it reaches its target",
-      "image": "image1.png",
+      "image": "arrive.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/dQx9oOfTN"
       }
@@ -34,7 +34,7 @@
     {
       "title": "Pursue (Exercise)",
       "description": "A seeking agent that follows a moving target then respawns",
-      "image": "image1.png",
+      "image": "pursue.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/XbsgoU_of"
       }

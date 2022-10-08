@@ -10,7 +10,7 @@
     {
       "title": "Particle System Simulation",
       "description": "Simulating a particle system with gravity and a single emitter",
-      "image": "image1.png",
+      "image": "particle.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/QRzgzQLnQ"
       }

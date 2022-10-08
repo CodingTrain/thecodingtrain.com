@@ -1,7 +1,7 @@
 const { paginate } = require('gatsby-awesome-pagination');
 const { toSlug } = require('./utils');
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 50;
 
 /**
  * Creates single Challenge pages for all loaded Challenge nodes

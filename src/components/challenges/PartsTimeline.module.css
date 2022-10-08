@@ -84,6 +84,7 @@
     top: 0;
     left: var(--timeline-spacing);
     border: var(--border-cyan);
+    background-color: var(--cyan);
     height: 100%;
   }
 }

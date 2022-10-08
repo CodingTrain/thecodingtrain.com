@@ -164,6 +164,7 @@ type Track implements Node {
   videos: [VideoInterface] @link
   cover: CoverImage @link
   numVideos: Int!
+  order: Int!
 }
 
 type Talk implements Node {
@@ -340,7 +341,7 @@ type ChallengesSection implements Node {
 
 type PassengerSection implements Node {
   title: String!
-  featured: Contribution! @link
+  featured: [Contribution!]! @link
   cta: Cta!
 }
 

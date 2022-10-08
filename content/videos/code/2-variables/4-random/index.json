@@ -21,7 +21,7 @@
     {
       "title": "Random Square Design",
       "description": "Demonstration of using random parameters to draw a square.",
-      "image": "",
+      "image": "img0.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Sl8ml_Lz8"
       }
@@ -29,7 +29,7 @@
     {
       "title": "Random House Exercise",
       "description": "Demonstration of generating an image of a house using random parameters.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/HGq_S0Z5H"
       }
@@ -37,7 +37,7 @@
     {
       "title": "Random Points",
       "description": "Demonstration of stippling random points.",
-      "image": "",
+      "image": "img2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/h7hFqoV6H"
       }
@@ -45,7 +45,7 @@
     {
       "title": "Painting Exercise 1",
       "description": "Painting program where the color and stroke is randomly changed upon mouse click.",
-      "image": "",
+      "image": "img3.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/stERy5a1D"
       }
@@ -53,7 +53,7 @@
     {
       "title": "Painting Exercise 2",
       "description": "Painting program where the color and stroke is randomly changed every frame.",
-      "image": "",
+      "image": "img4.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IyyJ1QYKh"
       }

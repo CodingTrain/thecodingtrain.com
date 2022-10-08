@@ -27,7 +27,7 @@
     {
       "title": "The map() Function",
       "description": "Demonstration of mapping the background of the canvas to the mouse position.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/yJqbGf71"
       }

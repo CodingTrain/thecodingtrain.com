@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useEffect } from 'react';
+import React, { useMemo, useRef, useEffect, useState } from 'react';
 import { passiveEventArg } from '../utils';
 
 /**
@@ -19,8 +19,10 @@ export const filterVideos = (videos, filters) => {
   if (!isFiltered) return videos;
   return videos.filter(
     (v) =>
-      (language === 'all' || v.languages.includes(language)) &&
-      (topic === 'all' || v.topics.includes(topic))
+      (language === 'all' ||
+        language === '' ||
+        v.languages.includes(language)) &&
+      (topic === 'all' || topic === '' || v.topics.includes(topic))
   );
 };
 
@@ -118,4 +120,19 @@ export const getReadableDate = (dateString) => {
     12: 'dec'
   };
   return `${months[month]} ${date}, ${year}`;
+};
+
+/**
+ * This hook will return true for the first render on the server and for the
+ * first render on the client. Otherwhise, it will return false.
+ *
+ * This function encapsulates a hook so "rules of hooks" apply to it.
+ * @see {@link https://reactjs.org/docs/hooks-rules.html}
+ *
+ * @return {boolean} true on the first server side and client side render
+ */
+export const useIsFirstRender = () => {
+  const [isFirst, setIsFirst] = useState(true);
+  useEffect(() => setIsFirst(false), []);
+  return isFirst;
 };

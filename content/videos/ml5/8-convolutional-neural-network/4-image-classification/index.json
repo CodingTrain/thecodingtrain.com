@@ -1,0 +1,116 @@
+{
+  "title": "ml5.js: Training a Convolutional Neural Network for Image Classification",
+  "description": "In this video, I update the previous classification example (with pixels) and incorporate a convolutional neural network in ml5.js!",
+  "videoNumber": "8.4",
+  "videoId": "hWurN0XhzLY",
+  "date": "2020-11-20",
+  "languages": ["ml5", "p5js"],
+  "topics": ["convolutional neural network", "image classification"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:45",
+      "title": "Errors in previous video"
+    },
+    {
+      "time": "1:46",
+      "title": "Review training with pixels"
+    },
+    {
+      "time": "2:37",
+      "title": "Update to the ml library"
+    },
+    {
+      "time": "2:53",
+      "title": "Specifiy the task: image classification"
+    },
+    {
+      "time": "3:31",
+      "title": "Specify the characteristics of the data"
+    },
+    {
+      "time": "5:11",
+      "title": "Adjust addExample function"
+    },
+    {
+      "time": "7:11",
+      "title": "Train the model"
+    },
+    {
+      "time": "8:09",
+      "title": "Debugging:  loss is not decreasing"
+    },
+    {
+      "time": "8:53",
+      "title": "normalizeData()"
+    },
+    {
+      "time": "10:07",
+      "title": "Why use the convolutional neural network in ml5?"
+    },
+    {
+      "time": "12:03",
+      "title": "Mask versus No mask"
+    },
+    {
+      "time": "14:48",
+      "title": "Defining custom layers"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Training a convolutional neural network",
+      "description": "This sketch shows how to incorporate a convolutional neural network.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ogxO8har_"
+      }
+    },
+    {
+      "title": "Mask",
+      "description": "This sketch classifies whether a person is wearing a mask.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tKLoeUD0u"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📓",
+          "title": "Gradient-Based Learning Applied to Document Recognition",
+          "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf",
+          "description": "Article about gradient based learning."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ml5.js: What is a Convolutional Neural Network Part 2 - Max Pooling",
+          "url": "https://www.youtube.com/watch?v=pRWq_mtuppU",
+          "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \"max pooling.\""
+        },
+        {
+          "icon": "🚂",
+          "title": "ml5.js: Train a Neural Network with Pixels",
+          "url": "https://www.youtube.com/watch?v=UaKab6h9Z0I",
+          "description": "This tutorial builds on ml5.neuralNetwork() videos examining raw pixels as inputs to a neural network. This sets the stage for a discussion on convolutional neural networks."
+        },
+        {
+          "icon": "🚂",
+          "title": "Teachable Machine 1: Image Classification",
+          "url": "https://www.youtube.com/watch?v=kwcillcWOg0",
+          "description": "In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library."
+        }
+      ]
+    }
+  ]
+}

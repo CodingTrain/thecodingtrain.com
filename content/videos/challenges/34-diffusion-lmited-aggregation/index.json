@@ -1,6 +1,6 @@
 {
   "title": "Diffusion-Limited Aggregation",
-  "description": "In this coding challenge, I explore the generative algorithm \u201cDiffusion-Limited Aggregation\u201d. The pattern is generated from random walkers clustering around a seed (or set of seed) point(s).",
+  "description": "In this coding challenge, I explore the generative algorithm \"Diffusion-Limited Aggregation\". The pattern is generated from random walkers clustering around a seed (or set of seed) point(s).",
   "videoNumber": "34",
   "videoId": "Cl_Gjj80gPE",
   "date": "2016-08-18",

@@ -1,0 +1,42 @@
+{
+  "title": "Reaction Diffusion Algorithm",
+  "description": "In this coding challenge, I visualize a Reaction Diffusion simulation using the Gray Scott model in JavaScript (with the p5.js library).",
+  "videoNumber": "13",
+  "videoId": "BV9ny785UNc",
+  "date": "2016-05-26",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["math", "reaction diffusion"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Reaction Diffusion Algorithm",
+      "description": "Implementation of reaction diffusion algorithm",
+      "image": "reaction-diffusion.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/govdEW5aE",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/013_ReactionDiffusion/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+		  "icon" : "📖",
+          "title": "Karl Sims' Reaction Diffusion Tutorial",
+          "url": "http://karlsims.com/rd.html",
+          "description": "A tutorial on reaction diffusion by Karl Sims."
+        },
+        {
+		  "icon" : "📓",
+          "title": "2D Array Tutorial",
+          "url": "https://processing.org/tutorials/2darray/",
+          "description": "A tutorial on 2D Arrays in Processing website"
+        }
+      ]
+    }
+  ]
+}

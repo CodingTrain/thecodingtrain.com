@@ -1,0 +1,97 @@
+{
+  "title": "Neural Network Color Predictor",
+  "description": "In this coding challenge, I use my neural network JavaScript library to create a \"color predictor.\"",
+  "videoNumber": "99",
+  "videoId": "KtPpoMThKUs",
+  "date": "2018-04-10",
+  "languages": ["p5.js", "javascript"],
+  "topics": ["neural network", "color predictor", "machine learning"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:49", "title": "Universal Function Approximator" },
+    { "time": "8:10", "title": "Inputs, Hidden Nodes, & Outputs" },
+    { "time": "10:04", "title": "Let's Code!" },
+    { "time": "13:15", "title": "NeuralNetwork()" },
+    { "time": "16:35", "title": "colorPredictor()" },
+    { "time": "22:15", "title": "Supervised Learning" },
+    { "time": "28:17", "title": "Back Propagation" },
+    { "time": "33:31", "title": "What Could You Do?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Color Predictor",
+      "description": "This sketch uses my neural network library to create a \"color predictor.\".",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Kcspm0WPN"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "TensorFlow.js",
+          "url": "https://js.tensorflow.org/",
+          "description": "Webpage with reference materials and documentation about Tensorflow.js."
+        },
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://github.com/ml5js",
+          "description": "Webpage with documentation and references on ml5.js."
+        },
+        {
+          "icon": "💻",
+          "title": "JS Neural Network",
+          "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/",
+          "description": "My neural network JavaScript library for Coding Train tutorials."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Color Predictor Machine Learning Demo!",
+          "url": "https://youtu.be/KO7W0Qq8yUE",
+          "description": "Jabril's color predictor machine learning demo."
+        },
+        {
+          "icon": "🎥",
+          "title": "Jabril on Youtube",
+          "url": "https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg",
+          "description": "Jabril's Youtube channel."
+        },
+        {
+          "icon": "🚂",
+          "title": "Jabril on The Coding Train",
+          "url": "https://www.youtube.com/watch?v=iN3WAko2rL8",
+          "description": "Jabril visits the Coding Train to present a new project: A Machine Learning Color Predictor!"
+        },
+        {
+          "icon": "🚂",
+          "title": "My Neural Networks playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
+          "description": "This video series accompanies Chapter 10 of The Nature of Code: Neural Networks."
+        },
+        {
+          "icon": "🎥",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "3Blue1Brown playlist on neural networks."
+        },
+        {
+          "icon": "🚂",
+          "title": "Doodle Classifier",
+          "url": "https://www.youtube.com/watch?v=pqY_Tn2SIVA",
+          "description": "In this series, I build a \"doodle classifier\" using the Google \"Quick, Draw!\" dataset and my JavaScript neural network library."
+        }
+      ]
+    }
+  ]
+}
