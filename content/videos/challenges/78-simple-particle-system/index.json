@@ -32,8 +32,7 @@
             "image": "simple-particle-system.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/D4ty3DgZB",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/078_Simple_Particle_System/Processing",
-                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/078_Simple_Particle_System"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/078_Simple_Particle_System/Processing"
             }
         }
     ],
