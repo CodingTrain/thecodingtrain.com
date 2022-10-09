@@ -14,13 +14,13 @@
     { "time": "6:06", "title": "Multiplying two complex numbers" },
     { "time": "7:51", "title": "The Mandelbrot set is all of the complex numbers that stay bounded" },
     { "time": "8:40", "title": "The initial sketch sets every pixel to gray" },
-    { "time": "10:00", "title": "Remap the values to a range of [-2, 2]" },
     { "time": "12:00", "title": "Calculate the real and complex components for the next generation" },
     { "time": "13:03", "title": "What does it mean to be bounded?" },
-    { "time": "14:58", "title": "Set brightness based on number of iterations" },
-    { "time": "0:00", "title": " " },
-    { "time": "0:00", "title": " " },
-    { "time": "0:00", "title": " " }
+    { "time": "14:58", "title": "Set the brightness based on number of iterations" },
+    { "time": "16:46", "title": "Store original values of a and b" },
+    { "time": "20:05", "title": "Set the brightness by maping to maxIterations" },
+    { "time": "21:50", "title": "Add sliders to add ability to zoom in on the Mandelbrot set" },
+    { "time": "24:58", "title": "Conclusion and suggestions for variations" }
   ],
   "codeExamples": [
     {
