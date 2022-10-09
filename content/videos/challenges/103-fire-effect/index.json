@@ -32,8 +32,7 @@
             "image": "fire-effect.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/NaXdkoVI",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/103_Flames/Processing",
-                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/103_Flames"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/103_Flames/Processing"
             }
         }
     ],
