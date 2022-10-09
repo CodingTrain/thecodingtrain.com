@@ -1,100 +1,67 @@
 {
-    "title": "Solar System in Processing - Part 3 (3D textures)",
-    "description": "In part 3 of this coding challenge, using Processing, I add texture to the 3D objects created in part 2. The PShape class and createShape() functions are covered.",
-    "videoNumber": "9",
-    "videoId": "FGAwi7wpU8c",
-    "date": "2016-05-02",
-    "languages": [],
-    "topics": [
-        "3d",
-        "solar",
-        "challenge",
-        "textures",
-        "tutorial",
-        "planets",
-        "processing",
-        "processing tutorial",
-        "object oriented programming",
-        "processing 3",
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "oop",
-        "nature of code",
-        "programming challenge",
-        "pvector",
-        "coding",
-        "daniel shiffman processing",
-        "learning processing",
-        "solar system",
-        "simulation",
-        "processing (programming language)",
-        "texture",
-        "3d texture",
-        "texture processing",
-        "image texture processing",
-        "texture sphere",
-        "pshape processing",
-        "P3D",
-        "P3D processing",
-        "createShape"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "codeExamples": [
+  "title": "Solar System in Processing - Part 3 (3D textures)",
+  "description": "In part 3 of this coding challenge, using Processing, I add texture to the 3D objects created in part 2. The PShape class and createShape() functions are covered.",
+  "videoNumber": "9",
+  "videoId": "FGAwi7wpU8c",
+  "date": "2016-05-02",
+  "languages": [],
+  "topics": ["solar system", "3d"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "p5js - p5 Web Editor",
+      "description": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SD8a6k6A"
+      }
+    },
+    {
+      "title": "p5js - GitHub",
+      "description": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_009_SolarSystemGenerator3D_texture/P5"
+      }
+    },
+    {
+      "title": "Processing - Processing",
+      "description": "",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_009_SolarSystemGenerator3D_texture/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Other Parts Of This Coding Challenge",
+      "links": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/SD8a6k6A"
-            }
+          "title": "Solar System in Processing - Part 1 (2D)",
+          "url": "/challenge/007-solarsystemgenerator",
+          "description": ""
         },
         {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_009_SolarSystemGenerator3D_texture/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_009_SolarSystemGenerator3D_texture/Processing"
-            }
+          "title": "Solar System in Processing - Part 2 (3D)",
+          "url": "/challenge/008-solarsystemgenerator3d",
+          "description": ""
         }
-    ],
-    "groupLinks": [
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Other Parts Of This Coding Challenge",
-            "links": [
-                {
-                    "title": "Solar System in Processing - Part 1 (2D)",
-                    "url": "/challenge/007-solarsystemgenerator",
-                    "description": ""
-                },
-                {
-                    "title": "Solar System in Processing - Part 2 (3D)",
-                    "url": "/challenge/008-solarsystemgenerator3d",
-                    "description": ""
-                }
-            ]
+          "title": "PeasyCam library",
+          "url": "http://mrfeinberg.com/peasycam/",
+          "description": ""
         },
         {
-            "title": "References",
-            "links": [
-                {
-                    "title": "PeasyCam library",
-                    "url": "http://mrfeinberg.com/peasycam/",
-                    "description": ""
-                },
-                {
-                    "title": "Planet texture maps",
-                    "url": "http://planetpixelemporium.com",
-                    "description": ""
-                }
-            ]
+          "title": "Planet texture maps",
+          "url": "http://planetpixelemporium.com",
+          "description": ""
         }
-    ]
+      ]
+    }
+  ]
 }

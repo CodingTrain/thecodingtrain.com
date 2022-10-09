@@ -1,9 +1,8 @@
 {
-    "title": "2D Gravity Simulator",
-    "url": "https://cassiofb-dev.github.io/gravity-2d/",
-    "author": {
-        "name": "C\u00e1ssio Fernando Brito de Souza",
-        "url": "https://www.linkedin.com/in/cassiofb-dev/"
-    },
-    "source": "https://github.com/cassiofb-dev/gravity-2d/tree/master"
+  "title": "2D Gravity Simulator",
+  "url": "https://cassiofb-dev.github.io/gravity-2d/",
+  "author": {
+    "name": "Cássio Fernando Brito de Souza",
+    "url": "https://www.linkedin.com/in/cassiofb-dev/"
+  }
 }
