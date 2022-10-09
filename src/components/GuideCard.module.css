@@ -107,10 +107,6 @@
   flex: 1 1 60%;
 }
 
-.meta {
-  height: var(--baseline);
-}
-
 .img {
   border-bottom: var(--border);
   border-left: var(--border);

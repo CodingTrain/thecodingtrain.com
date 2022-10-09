@@ -64,7 +64,6 @@
 }
 
 .baselineButtonPanel {
-  height: var(--baseline);
   overflow: hidden;
 }
 
