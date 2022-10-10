@@ -123,8 +123,11 @@ git push --set-upstream origin branch-name
 
 3. Update links to code examples.
    - For the p5js examples, make sure the links listed really take you to the p5 Web Editor page that stores that project.
-   - For p5js and Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.
-4. Add thumbnail images for code examples.
+   - For the Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.
+   - The `other` property can be used for challenge specific repos (for example, 171-wave-function-collapse).  
+4. Add thumbnail images for code examples. If not, it can be deleted.
+
+![screenshot of updated ]
    - Each code example has an "image" property that should contain the file name of a screenshot of the running project. That image file is stored in the "images" directory within the challenge directory.
    - If the index image is appropriate for the code example image, you can omit adding an additional code image as the index image is automatically used if there is no code image.  
 
@@ -142,7 +145,7 @@ git push --set-upstream origin branch-name
    - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web. Sometimes these projects are hosted on sites where previews of the running project are available. If so, grab a screenshot of the running project to use as the thumbnail for that project. If not, the placeholder image will be used.
    - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image so that it matches the filename of the contribution's JSON file. For example, if you have a "contribution1.json" file, you should also have a "contribution1.jpg" file.  While any aspect ratio is fine (the site will resize and crop as necessary), the images will be displayed at 16:9 aspect ratio. If you able to get a "landscape" screenshot, it will look better.  The file format should be JPG or PNG, with a maximum width of 800px and file size of 500 kb.
 
-7. Add additional metadata descriptions for related links and videos.
+7. Check the links to make sure are not broken and add additional metadata descriptions for related links and  videos.
    - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
    - Update the "languages" property in the "index.json" file. In this instance, "languages" refers to the programming languages used to create the examples. For example: "p5.js", "JavaScript", "Processing", or "node.js".
    - Update the "topics" property in the "index.json" file. If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics". The tags from YouTube are pretty generic and overall too much information. Only a handful of topics are needed, so only include topics that are relevant to this specific video. If no tags were present on the YouTube page, then this may be blank - go ahead and add a couple of topics!
@@ -153,7 +156,7 @@ git push --set-upstream origin branch-name
 ![screenshot showing timestamp json data and how it looks on the website](https://user-images.githubusercontent.com/28508947/173202054-ce9dcdf6-3ca2-411b-a869-9d47c7670e6e.png)
 
 9. Replace any links to the old website with links to the new website.
-   - Some links in the "index.json" file may refer to other challenges or other parts of the old website. For example, challenge 10.1 is part 1 of a 4 part series. Each of the 4 parts refers to each of the other 4 parts in the series in the "Other Parts Of This Coding Challenge" section of the "index.json" file. The path to those other parts will have changed on the new website, so that URL will need to be updated.
+   - Some links in the "index.json" file may refer to other challenges or other parts of the old website which will need to be updated. If the link is to a challenge that has not been ported to the new website yet, update the URL to directly link to the youTube URL.
 
 10. Optionally, add an emoji to the links in the References or Videos section of the "index.json" file.
 
