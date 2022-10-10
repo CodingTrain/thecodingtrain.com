@@ -50,11 +50,11 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlight",
     "featured": [
-      "challenges/76-10Print/showcase/contribution41.json",
-      "challenges/126-toothpicks/showcase/contribution1.json",
-      "challenges/163-bezier-curves/showcase/contribution10.json",
-      "challenges/146-rendering-ray-casting/showcase/contribution-1657910793.json",
-      "challenges/167-prime-spiral/showcase/contribution12.json"
+      "challenges/22-julia-set/showcase/contribution5.json",
+      "challenges/34-diffusion-limited-aggregation/showcase/contribution4.json",
+      "challenges/86-cube-wave-by-bees-and-bombs/showcase/contribution2.json",
+      "challenges/c1-maurer-rose/showcase/contribution1.json",
+      "challenges/51-a-pathfinding-algorithm/showcase/contribution4.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
