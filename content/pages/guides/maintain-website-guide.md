@@ -177,7 +177,7 @@ Once all updates have been made to the Coding Challenge and the branch has been 
 
 ![screenshot showing the button to compare and create a pull request on GitHub](https://user-images.githubusercontent.com/28508947/173202077-46cf9544-f920-4faa-b18d-f7798a176d13.png)
 
-Add a title to the pull request on the new page. Optionally, add a message about the changes made. Including a a link to the preview page would also be very helpful. For example, https://deploy-preview-644--codingtrain.netlify.app/challenges/7-solar-system-2d
+Add a title to the pull request on the new page. Optionally, add a message about the changes made. Including a link to the preview page would also be very helpful. For example, https://deploy-preview-644--codingtrain.netlify.app/challenges/7-solar-system-2d
 
 ![screenshot showing message including a link to preview page](./maintain-website/preview.jpg)
 
