@@ -1,0 +1,70 @@
+{
+    "title": "JavaScript Countdown Timer",
+    "description": "In this video, I use the p5.js library to create a web-based countdown timer. I discuss the native JavaScript method setInterval() and well as p5\u2019s millis().",
+    "videoNumber": "66",
+    "videoId": "MLtAMg9_Svw",
+    "date": "2017-03-25",
+    "languages": [],
+    "topics": [
+        "JavaScript (Programming Language)",
+        "live",
+        "programming",
+        "daniel shiffman",
+        "creative coding",
+        "coding challenge",
+        "tutorial",
+        "coding",
+        "challenges",
+        "coding train",
+        "the coding train",
+        "counter",
+        "countdown",
+        "countdown coding",
+        "counter javascript",
+        "javascript timer",
+        "js timer",
+        "p5.js timer",
+        "coding challenge timer",
+        "programming timer",
+        "javascript",
+        "timer",
+        "p5.js",
+        "p5.js tutorial"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ZKSNy0USh"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_066_timer/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "millis() reference",
+                    "url": "https://p5js.org/reference/#/p5/millis",
+                    "description": ""
+                },
+                {
+                    "title": "getURLParams() reference",
+                    "url": "https://p5js.org/reference/#/p5/getURLParams",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
