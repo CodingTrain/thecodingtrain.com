@@ -11,7 +11,7 @@
         "polar coordinates"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["19-superellipse", "25-spherical-geometry", "26-3d-supershapes","112-3d-rendering-with-rotation-and-projection"],
     "timestamps": [
       { "time": "0:00", "title": "Introduction" },
       { "time": "0:26", "title": "Paul Bourke's webpage" },
@@ -31,7 +31,8 @@
             "description": "This sketch renders a 2D supershape.",
             "image": "super.jpg",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/_gTvNBjEu"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/_gTvNBjEu",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/023_SuperShape2D"
             }
         }
     ],

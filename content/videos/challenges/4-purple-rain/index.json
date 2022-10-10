@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": ["purple rain"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["1-starfield", "27-fireworks", "169-pi-in-the-sky"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction to the challenge" },
     { "time": "00:37", "title": "Setup the sketch" },
