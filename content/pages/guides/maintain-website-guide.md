@@ -123,11 +123,15 @@ git push --set-upstream origin branch-name
 
 3. Update links to code examples.
    - For the p5js examples, make sure the links listed really take you to the p5 Web Editor page that stores that project.
-   - For the Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.
-   - The `other` property can be used for challenge specific repos (for example, 171-wave-function-collapse).  
-4. Add thumbnail images for code examples. If not, it can be deleted.
+   - For the Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.  
+   - The "other" property can be used for challenge-specific repos (refer to 171-wave-function-collapse). 
+   - If there is no challenge-specific repo, the "other" property should be deleted.
 
-![screenshot of updated ]
+![screenshot of updated](./maintain-website/code_links.jpg)
+
+4. Add thumbnail images for code examples. 
+
+
    - Each code example has an "image" property that should contain the file name of a screenshot of the running project. That image file is stored in the "images" directory within the challenge directory.
    - If the index image is appropriate for the code example image, you can omit adding an additional code image as the index image is automatically used if there is no code image.  
 
