@@ -126,6 +126,7 @@ git push --set-upstream origin branch-name
    - For p5js and Processing projects, make sure the GitHub links take the user to the correct challenge directory at the [CodingTrain/Coding-Challenges](https://github.com/CodingTrain/Coding-Challenges/) repo.
 4. Add thumbnail images for code examples.
    - Each code example has an "image" property that should contain the file name of a screenshot of the running project. That image file is stored in the "images" directory within the challenge directory.
+   - If the index image is appropriate for the code example image, you can omit adding an additional code image as the index image is automatically used if there is no code image.  
 
 ![screenshot of a page that includes an image for each code example](https://user-images.githubusercontent.com/28508947/172743770-78675db5-7816-43bb-b550-ea05002189ab.png)
 
@@ -169,7 +170,11 @@ Once all updates have been made to the Coding Challenge and the branch has been 
 
 ![screenshot showing the button to compare and create a pull request on GitHub](https://user-images.githubusercontent.com/28508947/173202077-46cf9544-f920-4faa-b18d-f7798a176d13.png)
 
-Add a title to the pull request on the new page. Optionally, add a message about the changes made. Click the "Create a pull request" button to finish creating the pull request.
+Add a title to the pull request on the new page. Optionally, add a message about the changes made. Including a a link to the preview page would also be very helpful. For example, https://deploy-preview-644--codingtrain.netlify.app/challenges/7-solar-system-2d
+
+![screenshot showing message including a link to preview page]
+
+Click the "Create a pull request" button to finish creating the pull request.
 
 ![screenshot showing the form to open a pull request on GitHub](https://user-images.githubusercontent.com/28508947/173202107-5f9db270-413c-4844-9741-c3fe26bcdee1.png)
 
