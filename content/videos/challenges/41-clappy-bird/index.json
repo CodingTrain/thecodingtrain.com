@@ -8,7 +8,18 @@
   "topics": ["flappy bird", "game development", "clappy bird"],
   "canContribute": true,
   "relatedChallenges": ["100-neuroevolution-flappy-bird", "31-flappy-bird"],
-  "timestamps": [],
+  "timestamps": [
+      { "time": "0:00", "title": "Welcome!" },
+      { "time": "0:34", "title": "About the positioning of the pipes" },
+      { "time": "2:10", "title": "Implementing spacing to the pipe object" },
+      { "time": "3:35", "title": "Moving the center of the space between the pipes to a random location" },
+      { "time": "7:05", "title": "Adding a random spacing" },
+      { "time": "8:03", "title": "Implementing sound interaction " },
+      { "time": "11:31", "title": "Adjusting the threshold with a slider" },
+      { "time": "14:21", "title": "Adding another threshold to apply the force only once" },
+      { "time": "17:02", "title": "Testing the clappy bird!" },
+      { "time": "17:50", "title": "Come up with your own ideas!" }
+  ],
   "codeExamples": [
     {
       "title": "Clappy Bird",
