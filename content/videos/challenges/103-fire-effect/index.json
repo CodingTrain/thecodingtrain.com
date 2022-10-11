@@ -1,0 +1,75 @@
+{
+    "title": "Fire Effect",
+    "description": "In this coding challenge, I implement a pixel-based \u201cfire\u201d algorithm using Processing (Java).",
+    "videoNumber": "103",
+    "videoId": "X0kjv0MozuY",
+    "date": "2018-05-14",
+    "languages": ["processing", "p5.js"],
+    "topics": [
+        "fire simulation",
+        "perlin noise"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+      { "time": "0:00", "title": "Introduction" },
+      { "time": "0:39", "title": "Fire algorithm" },
+      { "time": "1:11", "title": "Let's Code" },
+      { "time": "2:30", "title": "Add image buffers" },
+      { "time": "5:20", "title": "Implement smoothing algorithm" },
+      { "time": "11:58", "title": "Add cooling map" },
+      { "time": "15:57", "title": "Introduce Perlin noise field" },
+      { "time": "17:58", "title": "Add noise to the cooling map" },
+      { "time": "22:04", "title": "Scroll the cooling map" },
+      { "time": "24:32", "title": "Experiment with graphics objects" },
+      { "time": "26:18", "title": "Add mouseDragged" },
+      { "time": "27:52", "title": "Conclusion" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Fire Effect",
+            "description": "This sketch creates a 2D simulation of fire.",
+            "image": "fire-effect.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/NaXdkoVI",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/103_Flames/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "📓",
+                    "title": "Fire Simulation",
+                    "url": "https://web.archive.org/web/20160418004150/http://freespace.virgin.net/hugo.elias/models/m_fire.htm",
+                    "description": "This article describes the algorithm to create a simulation of fire."
+                },
+                {
+                    "icon": "💾",
+                    "title": "Processing",
+                    "url": "http://processing.org",
+                    "description": "Webpage with documentation and references for Processing."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "2D Water Ripple",
+                    "url": "https://youtu.be/BZUdGqeOD0w",
+                    "description": "In this coding challenge, I attempt to simulate 2D water ripples using Processing (Java)."
+                },
+                {
+                    "icon": "🚂",
+                    "title": "What is Perlin Noise?",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+                    "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
+                }
+            ]
+        }
+    ]
+}

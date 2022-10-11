@@ -15,7 +15,7 @@
     "isosurfaces"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["c4-worley-noise", "c5-marching-squares"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "00:46", "title": "What is an Isosurface?" },

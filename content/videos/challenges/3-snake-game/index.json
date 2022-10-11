@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["snake", "game", "vectors", "arrays"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["173-snake-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Creating a Snake object" },
     { "time": "3:00", "title": "Adding keyboard control" },
@@ -26,8 +26,7 @@
       "image": "small_snake.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/avh_VGx69",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_003_Snake_game/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_003_Snake_game/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/003_Snake_game"
       }
     }
   ],

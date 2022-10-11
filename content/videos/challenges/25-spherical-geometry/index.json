@@ -13,7 +13,7 @@
     "3d"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["19-superellipse", "23-2d-supershapes", "26-3d-supershapes","112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [],
   "codeExamples": [
     {

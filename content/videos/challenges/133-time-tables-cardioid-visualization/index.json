@@ -14,7 +14,7 @@
     "modulo operator"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["116-lissajous-curve-table", "134-heart-curve"],
   "timestamps": [],
   "codeExamples": [
     {
