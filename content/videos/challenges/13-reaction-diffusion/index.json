@@ -7,8 +7,21 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["math", "reaction diffusion"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": ["85-the-game-of-life", "dithering", "103-fire-effect"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:41", "title": "Key pieces of the algorithm" },
+    { "time": "4:24", "title": "Convolutions" },
+    { "time": "7:01", "title": "2D arrays" },
+    { "time": "9:00", "title": "Each spot on the grid gets some amount of a and b" },
+    { "time": "10:30", "title": "Create another array to store the next generation" },
+    { "time": "11:37", "title": "Dealing with the pixel array" },
+    { "time": "12:55", "title": "The pixel colors are based on the grid" },
+    { "time": "16:14", "title": "Swap" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" }
+  ],
   "codeExamples": [
     {
       "title": "Reaction Diffusion Algorithm",
