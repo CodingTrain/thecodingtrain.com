@@ -13,7 +13,7 @@
     {
       "title": "Clappy Bird",
       "description": "A flappy bird which flaps when you clap!",
-      "image": "flappy-bird.png",
+      "image": "clappy-bird.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/tL29haKoC",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/041_ClappyBird/Processing"
@@ -31,7 +31,7 @@
           "description": "p5.js sound library reference"
         },
         {
-          "icon": "🗒️",
+          "icon": "🗒️", 
           "title": "p5.AudioIn",
           "url": "https://p5js.org/reference/#/p5.AudioIn",
           "description": "p5.AudioIn object reference"
