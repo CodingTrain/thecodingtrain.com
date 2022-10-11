@@ -8,7 +8,19 @@
   "topics": ["poetry", "diastic machine"],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [],
+  "timestamps": [
+      { "time": "0:06", "title": "What is a diastic machine?" },
+      { "time": "2:08", "title": "Understanding via diagram" },
+      { "time": "3:41", "title": "Let's start coding!" },
+      { "time": "3:58", "title": "Seed phrase" },
+      { "time": "5:01", "title": "Attathcing an event to an element" },
+      { "time": "6:23", "title": "Load from a text file" },
+      { "time": "7:37", "title": "Implement the Diastic algorithm" },
+      { "time": "12:57", "title": "Adding the phrase to the DOM" },
+      { "time": "13:31", "title": "Looking for the next instance of a word" },
+      { "time": "14:35", "title": "Things you can fix or add!" },
+      { "time": "15:35", "title": "Have fun!" }
+  ],
   "codeExamples": [
     {
       "title": "Diastic Machine",
