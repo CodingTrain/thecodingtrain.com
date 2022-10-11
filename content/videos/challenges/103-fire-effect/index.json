@@ -10,7 +10,7 @@
         "perlin noise"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["102-2d-water-ripple", "132-fluid-simulation"],
     "timestamps": [
       { "time": "0:00", "title": "Introduction" },
       { "time": "0:39", "title": "Fire algorithm" },
