@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["genetic algorithm", "dna", "evolutionary algorithm"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["69-evolutionary-steering-behaviors", "100-neuroevolution-flappy-bird", "147-chrome-dinosaur-game"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:10", "title": "Rocket object" },

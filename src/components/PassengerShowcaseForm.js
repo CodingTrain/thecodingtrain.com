@@ -113,12 +113,12 @@ const PassengerShowcaseForm = () => {
           setState(defaultState);
         } else {
           setError(
-            'Something went wrong submitting your data. Please try again.'
+            'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
           );
         }
       } catch (e) {
         setError(
-          'Something went wrong submitting your data. Please try again.'
+          'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
         );
       }
     };

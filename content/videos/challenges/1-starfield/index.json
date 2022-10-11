@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": ["space"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["27-fireworks", "46-asteroids"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a 10 minute coding challenge" },
     { "time": "0:59", "title": "Let's create a star class" },

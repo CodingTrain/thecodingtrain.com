@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["fourier", "maths"],
   "canContribute": true,
-  "relatedChallenges": ["61-fractal-spirograph"],
+  "relatedChallenges": ["61-fractal-spirograph", "130-drawing-with-fourier-transform-and-epicycles"],
   "timestamps": [
     {
       "time": "00:00",
