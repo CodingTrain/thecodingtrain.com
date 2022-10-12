@@ -7,7 +7,7 @@
   "languages": ["Processing", "Java"],
   "topics": ["math", "lorenz attractor"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["13-reaction-diffusion", "160-spring-forces"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "0:55", "title": "Differential Equations" },
