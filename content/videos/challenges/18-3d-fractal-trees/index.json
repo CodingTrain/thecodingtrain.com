@@ -7,7 +7,22 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "generative art", "3D"],
   "canContribute": true,
-  "timestamps": [],
+  "relatedChallenges": ["14-fractal-trees-recursive", "17-fractal-trees-space-colonization", "77-recursion"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:13", "title": "The algorithm" },
+    { "time": "2:39", "title": "Recap: the Leaf, Branch, and Tree objects" },
+    { "time": "3:48", "title": "Deal with leaves that are equi-distant from a branch" },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " }
+  ],
   "codeExamples": [
     {
       "title": "3D Fractal Trees",
