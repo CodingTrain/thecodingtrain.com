@@ -4,55 +4,42 @@
     "videoNumber": "60",
     "videoId": "O_0fRV4MTZo",
     "date": "2017-02-27",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
-        "JavaScript (Programming Language)",
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "p5.js",
-        "coding challenge",
-        "p5.js tutorial",
-        "p5js",
-        "javascript (programming language)",
-        "tutorial",
-        "javascript",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "moth generator",
-        "katie rose pipkin",
-        "butterfly generator",
-        "butterfly wings generator",
-        "trigonometry art",
+        "butterfly wings",
         "perlin noise",
-        "perlin noise art"
+        "polar coordinates"
     ],
     "canContribute": true,
     "relatedChallenges": [],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduce coding challenge" },
+        { "time": "1:39", "title": "Let's code" },
+        { "time": "1:46", "title": "Draw an ellipse" },
+        { "time": "2:14", "title": "Repeat drawing with recursion" },
+        { "time": "2:50", "title": "Define drawCircle function" },
+        { "time": "3:28", "title": "Call drawCircle recursively" },
+        { "time": "4:00", "title": "Highlight the risk of an infinite loop" },
+        { "time": "5:00", "title": "Add an exit condition" },
+        { "time": "5:20", "title": "Draw smaller ellipses on one side" },
+        { "time": "5:50", "title": "Update exit condition" },
+        { "time": "6:11", "title": "Illustrate the state of the code" },
+        { "time": "6:24", "title": "Expand recursive concept to draw a fractal" },
+        { "time": "7:05", "title": "Describe fractal types" },
+        { "time": "7:34", "title": "Implement fractal logic" },
+        { "time": "8:24", "title": "Consider creative possibilities" },
+        { "time": "8:40", "title": "Recreate Sierpinski triangle" },
+        { "time": "9:22", "title": "Experiment with the recursive function" },
+        { "time": "9:59", "title": "Experiment with random values" },
+        { "time": "11:42", "title": "Conclude coding challenge" }
+    ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Butterfly Generator",
+            "description": "This sketch draws and animates the wings of a butterfly with Perlin Noise and polar coordinates.",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/tKBc2fP8r"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_060_Butterfly_Wings/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_060_Butterfly_Wings/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/tKBc2fP8r",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/060_Butterfly_Wings/Processing"
             }
         }
     ],
@@ -61,19 +48,16 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🖋️",
                     "title": "Moth Generator",
                     "url": "https://twitter.com/mothgenerator",
-                    "description": ""
+                    "description": "Twitter account sharing images of moths created with an algorithm."
                 },
                 {
-                    "title": "Rose (mathematics)",
+                    "icon": "🗄",
+                    "title": "Rose (mathematics) on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Rose_(mathematics)",
-                    "description": ""
-                },
-                {
-                    "title": "My playlist on Perlin Noise",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
-                    "description": ""
+                    "description": "Wikipedia page with information and resources on rose in the context of mathematics."
                 }
             ]
         },
@@ -81,9 +65,16 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "My Video on Polar Coordinates",
-                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
-                    "description": ""
+                    "icon": "🎥",
+                    "title": "Trigonometry and Polar Coordinates - The Nature of Code",
+                    "url": "https://youtu.be/znOBmOrtz_M",
+                    "description": "This video describes the basics of trigonometry and how to use polar coordinates in Processing."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "What is Perlin Noise?",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+                    "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
                 }
             ]
         }
