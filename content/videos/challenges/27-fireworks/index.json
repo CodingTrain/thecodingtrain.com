@@ -40,7 +40,8 @@
       "description": "Example in 2D running in the browser",
       "image": "p5-example.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/O2M0SO-WO"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O2M0SO-WO",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/027_FireWorks/Processing/CC_027_FireWorks_2D"
       }
     },
     {
@@ -48,7 +49,7 @@
       "description": "Example in 3D with Processing",
       "image": "processing-3d-example.jpg",
       "urls": {
-        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_027_FireWorks/Processing/CC_027_FireWorks_3D"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/027_FireWorks/Processing/CC_027_FireWorks_3D"
       }
     }
   ],
