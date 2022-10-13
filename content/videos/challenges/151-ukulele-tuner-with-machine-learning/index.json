@@ -34,8 +34,7 @@
       "description": "Tuner for the notes A, E, C and G of a ukulele",
       "image": "tuner.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_151_Ukulele_Tuner/P5"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03"
       }
     }
   ],

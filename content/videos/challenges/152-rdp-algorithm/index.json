@@ -4,10 +4,10 @@
   "videoNumber": "152",
   "videoId": "nSYw9GrakjY",
   "date": "2019-10-23",
-  "languages": [],
+  "languages": ["processing"],
   "topics": [],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["128-sketch-rnn-snowflakes"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -56,7 +56,7 @@
       "description": "Animating the Ramer–Douglas–Peucker algorithm by varying epsilon and n.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SQjSugKn6",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_152_RDP_Algorithm/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/152_RDP_Algorithm/Processing"
       }
     }
   ],
@@ -77,9 +77,9 @@
           "description": "Detailed explanation of path following and scalar projection from Nature of Code text."
         },
         {
-          "title": "Scalar Projection Processing Example",
+          "title": "Scalar Projection Example",
           "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp06_agents/SimpleScalarProjection",
-          "description": ""
+          "description": "NOC Processing example on simple scalar projection."
         }
       ]
     },
@@ -87,14 +87,9 @@
       "title": "Videos",
       "links": [
         {
-          "title": "Challenge #128: Sketch-RNN Snowflakes",
-          "url": "/challenge/128-sketchrnn-snowflakes",
-          "description": ""
-        },
-        {
           "title": "Live Stream #185",
           "url": "https://youtu.be/5S87w8IqSHI",
-          "description": ""
+          "description": "Live Stream Archive of this challenge."
         }
       ]
     }

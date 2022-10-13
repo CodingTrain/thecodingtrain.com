@@ -37,7 +37,7 @@
   "codeExamples": [
     {
       "title": "2D Fireworks",
-      "description": "Example in 2D running in the browser",
+      "description": "Example of 2D fireworks",
       "image": "p5-example.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/O2M0SO-WO",
@@ -46,7 +46,7 @@
     },
     {
       "title": "3D Fireworks",
-      "description": "Example in 3D with Processing",
+      "description": "Example of 3D fireworks",
       "image": "processing-3d-example.jpg",
       "urls": {
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/027_FireWorks/Processing/CC_027_FireWorks_3D"

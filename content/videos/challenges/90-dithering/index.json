@@ -7,13 +7,23 @@
   "languages": ["Processing"],
   "topics": ["dithering", "stippling", "floyd-steinberg dithering"],
   "canContribute": true,
-  "relatedChallenges": ["50-animated-circle-packing", "85-the-game-of-life", "107-sandpiles"],
+  "relatedChallenges": [
+    "50-animated-circle-packing",
+    "85-the-game-of-life",
+    "107-sandpiles"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:20", "title": "Let's start coding!" },
     { "time": "2:44", "title": "An image is a grid of pixels" },
-    { "time": "3:25", "title": "Quantizing an image to reduce the number of possible colors" },
-    { "time": "6:24", "title": "Pull the red, green, and blue values of the pixel" },
+    {
+      "time": "3:25",
+      "title": "Quantizing an image to reduce the number of possible colors"
+    },
+    {
+      "time": "6:24",
+      "title": "Pull the red, green, and blue values of the pixel"
+    },
     { "time": "7:11", "title": "Quantize the r, g, b values" },
     { "time": "8:21", "title": "Add loadPixels() and updatePixels()" },
     { "time": "9:11", "title": "Filter the image to make it greyscale" },
@@ -32,7 +42,7 @@
       "image": "dither.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/-YkMaf9Ea",
-        "processing": "https://github.com/CodingTrain/CodingChallenges/090_dithering/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/090_dithering/Processing"
       }
     }
   ],
