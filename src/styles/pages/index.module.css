@@ -220,19 +220,28 @@
   border-left: var(--border-cyan);
 }
 
+.showcaseBanner {
+  margin: 0;
+  padding: 0 var(--box-padding);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  line-height: var(--baseline-box);
+  font-size: var(--maru-large);
+  color: var(--gray-dark);
+  background-color: var(--purple-light);
+  text-transform: uppercase;
+}
+
 .showcase {
   display: flex;
 }
 
 .showcase .left {
-  flex: 75%;
+  flex: 60%;
 }
 
 .showcase .right {
-  flex: 25%;
-}
-
-.showcase .right {
+  flex: 40%;
   display: flex;
   align-items: stretch;
 }
@@ -241,16 +250,42 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: var(--baseline-3x);
+  height: var(--baseline-2x);
   border-left: var(--border);
-  border-bottom: var(--border);
+  border-bottom: var(--border-purple);
   background: white;
+
+  & p {
+    margin: 0;
+    padding: 0 var(--box-padding);
+    color: var(--gray-dark);
+  }
+
+  & .showcaseTitle {
+    font-family: var(--maru-mono);
+    font-size: var(--maru-xlarge);
+    line-height: var(--maru-xlarge-line-height);
+    font-weight: bold;
+  }
+
+  & .videoTitle {
+    text-transform: uppercase;
+    font-size: var(--maru-normal);
+    color: var(--gray-mid);
+  }
 }
 
-.showcase .left .details p {
-  margin: 0;
+.showcase .author {
+  color: var(--purple);
   padding: 0 var(--box-padding);
-  color: var(--gray-dark);
+  line-height: var(--baseline-box);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+
+  &::before {
+    content: "by ";
+    color: var(--gray-dark);
+  }
 }
 
 .showcase .right .picture {
@@ -265,9 +300,19 @@
     border-left: var(--border);
     border-bottom: var(--border);
     width: 100%;
-    height: var(--baseline-4x);
+    height: var(--baseline-3x);
     background-color: var(--gray-light);
   }
+}
+
+.showcase a {
+  position: relative;
+}
+
+.showcase .playButton {
+  position: absolute;
+  bottom: calc(var(--box-padding) / 4);
+  right: calc(var(--box-padding) / 4);
 }
 
 .eventsBanner {

@@ -16,8 +16,9 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
+import PlayButton from '../images/playbutton.svg';
 import { getReadableDate, useIsFirstRender } from '../hooks';
-import { randomElement, shuffleCopy } from '../utils';
+import { shuffleCopy } from '../utils';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
@@ -95,47 +96,39 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
     : placeholderImage;
   const buttonLink =
     url ?? (videoId ? `https://youtu.be/${videoId}` : source) ?? '';
+  const description = `Passenger showcase "${title}" from ${author?.name}`;
 
   return (
     <article className={css.showcase}>
       <div className={css.left}>
         <div className={css.details}>
-          <p>
-            <address>
-              {author?.url ? (
-                <a href={author.url}>{author?.name}</a>
-              ) : (
-                author?.name
-              )}
-            </address>
-          </p>
-          <p>{title}</p>
-          <p>
+          <p className={css.videoTitle}>
             {video?.title} {video?.source && `(${video.source})`}
           </p>
+          <p className={css.showcaseTitle}>{title}</p>
         </div>
-        <ButtonPanel
-          variant="purple"
-          className={css.baselineButtonPanel}
-          text={cta?.text}
-          buttonText={cta?.buttonText}
-          buttonLink={buttonLink}
-          smallWrap
-          rainbow
-        />
+        <address className={css.author}>
+          {author?.url ? <a href={author.url}>{author?.name}</a> : author?.name}
+        </address>
       </div>
-      <div className={css.right}>
+      <a
+        className={css.right}
+        href={buttonLink}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={description}>
         {image ? (
           <Image
             image={image}
             pictureClassName={css.picture}
             imgClassName={css.image}
-            alt={`Passenger showcase "${title}" from ${author?.name}`}
+            alt={description}
           />
         ) : (
           <div className={css.noImage}></div>
         )}
-      </div>
+        <PlayButton width={30} className={css.playButton} />
+      </a>
     </article>
   );
 };
@@ -156,12 +149,17 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
           {sectionTitle}
         </Heading2>
       </div>
-      {featuredShowcases.map((showcase) => (
-        <PassengerShowcaseCard
-          showcase={showcase}
-          placeholderImage={placeholderImage}
-          cta={cta}
-        />
+      <p className={css.showcaseBanner}>{cta.text}</p>
+      <Spacer className={css.verticalSpacer} pattern />
+      {featuredShowcases.map((showcase, index) => (
+        <>
+          <PassengerShowcaseCard
+            showcase={showcase}
+            placeholderImage={placeholderImage}
+            cta={cta}
+          />
+          {index < 2 && <Spacer className={css.verticalSpacer} pattern />}
+        </>
       ))}
     </section>
   );
