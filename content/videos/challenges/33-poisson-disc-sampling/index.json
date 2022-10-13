@@ -61,8 +61,7 @@
       "image": "poisson-disc.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/4N78DFCXN",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_033_poisson_disc/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_033_poisson_disc/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/033_poisson_disc/Processing"
       }
     }
   ],
