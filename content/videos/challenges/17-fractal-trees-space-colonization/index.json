@@ -22,7 +22,7 @@
     { "time": "17:35", "title": "Add a show function" },
     { "time": "20:00", "title": "Add a grow function to determine the closest branch to each leaf" },
     { "time": "22:20", "title": "Mark leaves that are reached" },
-    { "time": "28:06", "title": "\"Pull\" closest branch direction toward the leaf" },
+    { "time": "28:06", "title": "\"Pull\" the direction of closest branch toward the leaf" },
     { "time": "30:00", "title": "Add a count variable to the Branch variable" },
     { "time": "32:06", "title": "Loop backwards through the leaf array to delete leaves that were reached" },
     { "time": "33:02", "title": "Determine whether a branch was attracted to a leaf" },
