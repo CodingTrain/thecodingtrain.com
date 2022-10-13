@@ -261,17 +261,17 @@
     color: var(--gray-dark);
   }
 
+  & .videoTitle {
+    text-transform: uppercase;
+    font-size: var(--maru-normal);
+    color: var(--gray-mid);
+  }
+
   & .showcaseTitle {
     font-family: var(--maru-mono);
     font-size: var(--maru-xlarge);
     line-height: var(--maru-xlarge-line-height);
     font-weight: bold;
-  }
-
-  & .videoTitle {
-    text-transform: uppercase;
-    font-size: var(--maru-normal);
-    color: var(--gray-mid);
   }
 }
 
@@ -281,6 +281,7 @@
   line-height: var(--baseline-box);
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
+  font-style: normal;
 
   &::before {
     content: "by ";
