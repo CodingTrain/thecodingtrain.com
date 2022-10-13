@@ -68,6 +68,23 @@
           "description": "Processing reference about ArrayList"
         }
       ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Live Stream #31",
+          "url": "https://youtu.be/Md5LIDW0RyY?t=2738",
+          "description": "Live Stream with Menger Sponger in Processing"
+        },
+        {
+          "icon": "🎥",
+          "title": "Fractals in Processing",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef",
+          "description": "My videos accompanying the Nature of Code chapter on fractals."
+        }
+      ]
     }
   ]
 }

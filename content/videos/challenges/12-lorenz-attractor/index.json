@@ -7,8 +7,26 @@
   "languages": ["Processing", "Java"],
   "topics": ["math", "lorenz attractor"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": ["13-reaction-diffusion", "160-spring-forces"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "0:55", "title": "Differential Equations" },
+    { "time": "2:30", "title": "Lorenz systems" },
+    { "time": "3:36", "title": "Non-linear, chaotic systems" },
+    { "time": "4:30", "title": "Start Coding!" },
+    { "time": "6:07", "title": "Every cycle through draw is 1 unit of time" },
+    { "time": "6:30", "title": "Add formulas to code" },
+    { "time": "8:19", "title": "Change of time per frame" },
+    { "time": "10:10", "title": "Modify the inputs" },
+    { "time": "12:48", "title": "Plot the system" },
+    { "time": "14:08", "title": "Scale the scene" },
+    { "time": "14:42", "title": "Add an array list to store the data" },
+    { "time": "16:00", "title": "Write an enhanced loop" },
+    { "time": "17:00", "title": "Add beginShape() and endShape() to connect the points" },
+    { "time": "17:52", "title": "Change to HSB mode and add color" },
+    { "time": "19:07", "title": "Add an offset" },
+    { "time": "20:06", "title": "Conclusion and design possiblities" }
+  ],
   "codeExamples": [
     {
 	  "title": "The Lorenz Attractor",
