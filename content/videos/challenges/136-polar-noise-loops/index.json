@@ -11,7 +11,12 @@
         "polar coordinates"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": [
+        "36-blobby",
+        "130-drawing-with-fourier-transform-and-epicycles", 
+        "134-heart-curve", 
+        "135-making-a-gif-loop-in-processing"
+    ],
     "timestamps": [],
     "parts": [
         {
@@ -131,36 +136,36 @@
             "links": [
                 {
                     "icon": "🚂",
-                    "title": "Heart Curve",
-                    "url": "https://youtu.be/oUBAi9xQ2X4",
-                    "description": "Using a parametric equation from Wolfram Mathworld (and polar to cartesian coordinate transformation), I draw a heart curve in Processing (Java)."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "GIF Loop",
-                    "url": "https://youtu.be/nBKwCCtWlUg",
-                    "description": "In this tutorial, I demonstrate how to render a sketch into a perfect, looping GIF with Processing (Java)."
-                },
-                {
-                    "icon": "🚂",
                     "title": "Blobby!",
-                    "url": "https://youtu.be/rX5p-QRP6R4",
+                    "url": "/challenges/36-blobby",
                     "description": "In this short Coding Challenge, I demonstrate how to turn a circle (or any shape you want) into a blob and give the edges a liquidy / blobby / wobbly look."
                 },
                 {
                     "icon": "🚂",
                     "title": "Drawing with Fourier Transform and Epicycles",
-                    "url": "https://youtu.be/MY4luNgGfms",
+                    "url": "/challenges/130-drawing-with-fourier-transform-and-epicycles",
                     "description": "In this coding challenge, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform."
                 },
                 {
                     "icon": "🚂",
+                    "title": "Heart Curve",
+                    "url": "/challenges/134-heart-curve",
+                    "description": "Using a parametric equation from Wolfram Mathworld (and polar to cartesian coordinate transformation), I draw a heart curve in Processing (Java)."
+                },
+                {
+                    "icon": "🚂",
+                    "title": "GIF Loop",
+                    "url": "/challenges/135-making-a-gif-loop-in-processing",
+                    "description": "In this tutorial, I demonstrate how to render a sketch into a perfect, looping GIF with Processing (Java)."
+                },
+                {
+                    "icon": "🎥",
                     "title": "Perlin Noise",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
                 },
                 {
-                    "icon": "🚂",
+                    "icon": "🎥",
                     "title": "Live Stream",
                     "url": "https://youtu.be/7k-iJyHq7-k",
                     "description": "In this live stream: Perlin Noise Loops in Processing(Java) and JavaScript Inheritance."
