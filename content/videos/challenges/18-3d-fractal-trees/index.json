@@ -39,6 +39,12 @@
       "title": "References",
       "links": [
         {
+          "icon": "🌿",
+          "title": "Algorithmic Botany",
+          "url": "http://algorithmicbotany.org/",
+          "description": "Website with documentation and resources about algorithmic botony."
+        },
+        {
           "icon": "📓",
           "title": "Modeling Trees with a Space Colonization Algorithm",
           "url": "http://algorithmicbotany.org/papers/colonization.egwnp2007.pdf",
