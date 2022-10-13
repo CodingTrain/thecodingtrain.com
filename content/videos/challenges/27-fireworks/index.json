@@ -36,24 +36,15 @@
   ],
   "codeExamples": [
     {
-      "title": "2D Fireworks in p5.js",
+      "title": "2D Fireworks",
       "description": "Example in 2D running in the browser",
       "image": "p5-example.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/O2M0SO-WO",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_027_FireWorks/P5"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/O2M0SO-WO"
       }
     },
     {
-      "title": "2D Fireworks in Processing",
-      "description": "Example in 2D with Processing",
-      "image": "processing-2d-example.jpg",
-      "urls": {
-        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_027_FireWorks/Processing/CC_027_FireWorks_2D"
-      }
-    },
-    {
-      "title": "3D Fireworks in Processing",
+      "title": "3D Fireworks",
       "description": "Example in 3D with Processing",
       "image": "processing-3d-example.jpg",
       "urls": {
