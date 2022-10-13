@@ -11,13 +11,13 @@
   "timestamps": [],
   "codeExamples": [
     {
-	  "title": "The Lorenz Attractor",
+      "title": "The Lorenz Attractor",
       "description": "A visualization of the Lorenz Attractor",
       "image": "lorenz-attractor.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pwr_7FUUq",
-        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_012_LorenzAttractor/Processing"
-	  }
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/012_LorenzAttractor/Processing"
+      }
     }
   ],
   "groupLinks": [
@@ -25,35 +25,35 @@
       "title": "References",
       "links": [
         {
-		  "icon" : "📑",
+          "icon": "📑",
           "title": "Lorenz System on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Lorenz_system",
           "description": "Wikipedia article on the Lorenz System"
         },
         {
-		  "icon" : "📖",
+          "icon": "📖",
           "title": "Lorenz Attractor",
           "url": "http://paulbourke.net/fractals/lorenz/",
           "description": "An article on Lorenz Factor"
         },
-		{
-		  "icon" : "📚",
+        {
+          "icon": "📚",
           "title": "PeasyCam library",
           "url": "http://mrfeinberg.com/peasycam",
           "description": "A library that provides mouse-driven camera to Processing"
-		},
-		{
-		  "icon" : "💻",
-	      "title" : "beginShape()",
-		  "url" : "https://processing.org/reference/beginShape_.html",
-		  "description" : "Documentation of beingShape()"
-		},
-		{
-		  "icon" : "🧾",
-	      "title" : "What is a differential equation?",
-		  "url" : "https://www.myphysicslab.com/explain/what-is-a-diff-eq-en.html",
-		  "description" : "An article on differential equations"
-		}
+        },
+        {
+          "icon": "💻",
+          "title": "beginShape()",
+          "url": "https://processing.org/reference/beginShape_.html",
+          "description": "Documentation of beingShape()"
+        },
+        {
+          "icon": "🧾",
+          "title": "What is a differential equation?",
+          "url": "https://www.myphysicslab.com/explain/what-is-a-diff-eq-en.html",
+          "description": "An article on differential equations"
+        }
       ]
     }
   ]

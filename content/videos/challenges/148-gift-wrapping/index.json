@@ -5,11 +5,7 @@
   "videoId": "YNyULRrydVI",
   "date": "2019-07-13",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "algorithm",
-    "computational geometry",
-    "convex hull"
-  ],
+  "topics": ["algorithm", "computational geometry", "convex hull"],
   "canContribute": true,
   "relatedChallenges": [],
   "timestamps": [
@@ -37,13 +33,12 @@
   ],
   "codeExamples": [
     {
-      "title": "Git Wrapping Algorithm",
+      "title": "Gift Wrapping Algorithm",
       "description": "Animated implementation of the Gift Wrapping Algorithm",
       "image": "p5-code-example.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IVE9CxBOF",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/P5",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/148_Gift_Wrapping/Processing"
       }
     }
   ],

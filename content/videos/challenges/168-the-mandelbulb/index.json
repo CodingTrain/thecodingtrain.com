@@ -12,6 +12,7 @@
     "spherical coordinates",
     "point clouds"
   ],
+  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "25-spherical-geometry"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introducing Today's Topic" },
@@ -106,18 +107,6 @@
           "title": "Mendelbulb (raymarched SDF)",
           "url": "https://youtu.be/eKUh4nkmQbc",
           "description": "Inigo Quilez's video of the Mandelbulb"
-        },
-        {
-          "icon": "🎥",
-          "title": "Mandelbrot Set with p5.js",
-          "url": "https://thecodingtrain.com/CodingChallenges/021-mandelbrot-p5",
-          "description": "Coding Train video on the Mandelbrot set in p5.js"
-        },
-        {
-          "icon": "🎥",
-          "title": "Spherical Geometry",
-          "url": "https://thecodingtrain.com/CodingChallenges/025-spheregeometry",
-          "description": "Coding Train video on spherical geometry"
         }
       ]
     }
