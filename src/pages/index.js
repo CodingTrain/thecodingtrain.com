@@ -107,16 +107,26 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
           </p>
           <p className={css.showcaseTitle}>{title}</p>
         </div>
-        <address className={css.author}>
-          {author?.url ? <a href={author.url}>{author?.name}</a> : author?.name}
-        </address>
+        <p className={css.author}>
+          {author && <span>by </span>}
+          {author && (
+            <address>
+              {author.url ? (
+                <a href={author.url}>{author.name}</a>
+              ) : (
+                author.name
+              )}
+            </address>
+          )}
+        </p>
       </div>
       <a
         className={css.right}
         href={buttonLink}
         target="_blank"
         rel="noreferrer"
-        aria-label={description}>
+        aria-label={description}
+      >
         {image ? (
           <Image
             image={image}

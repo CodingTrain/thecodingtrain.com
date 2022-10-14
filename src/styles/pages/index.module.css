@@ -276,16 +276,23 @@
 }
 
 .showcase .author {
-  color: var(--purple);
+  font-family: var(--maru-mono);
+  color: var(--gray-dark);
   padding: 0 var(--box-padding);
+  margin: 0;
   line-height: var(--baseline-box);
+  height: var(--baseline);
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
-  font-style: normal;
 
-  &::before {
-    content: "by ";
-    color: var(--gray-dark);
+  & address {
+    display: inline;
+    color: var(--purple);
+    font-style: normal;
+
+    & a {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -481,7 +488,7 @@
   .showcase .right {
     & .image,
     & .noImage {
-      height: var(--baseline-8x);
+      height: var(--baseline-6x);
     }
   }
   .event {
