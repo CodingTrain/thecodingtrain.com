@@ -4,7 +4,7 @@
   "videoNumber": "152",
   "videoId": "nSYw9GrakjY",
   "date": "2019-10-23",
-  "languages": ["processing"],
+  "languages": ["Processing"],
   "topics": [],
   "canContribute": true,
   "relatedChallenges": ["128-sketch-rnn-snowflakes"],
