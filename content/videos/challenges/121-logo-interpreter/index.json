@@ -25,6 +25,7 @@
         {
             "title": "Logo Interpreter Part 1",
             "description": "First part of the logo interpreter implementation",
+            "image": "logo-part-1.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/ryTuOf3gN",
                 "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_1/Processing"
@@ -33,6 +34,7 @@
         {
             "title": "Logo Interpreter Part 2",
             "description": "Refactored implementation of the logo interpreter with the \"repeat\" command",
+            "image": "logo-part-2.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/BJqG8zhlN",
                 "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_2/Processing"
