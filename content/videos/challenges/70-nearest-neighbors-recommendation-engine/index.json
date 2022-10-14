@@ -4,7 +4,7 @@
   "videoNumber": "70",
   "videoId": "",
   "date": "2017-05-09",
-  "languages": ["p5.js", "javascript"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": [
     "nearest neighbors",
     "similarity score",

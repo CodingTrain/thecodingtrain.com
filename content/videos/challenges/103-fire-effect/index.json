@@ -4,7 +4,7 @@
     "videoNumber": "103",
     "videoId": "X0kjv0MozuY",
     "date": "2018-05-14",
-    "languages": ["processing", "p5.js"],
+    "languages": ["Processing", "p5.js"],
     "topics": [
         "fire simulation",
         "perlin noise"

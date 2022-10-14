@@ -4,7 +4,7 @@
   "videoNumber": "33",
   "videoId": "flQgnCUxHlw",
   "date": "2016-08-22",
-  "languages": ["p5.js", "processing"],
+  "languages": ["p5.js", "Processing"],
   "topics": ["poisson disc sampling", "Siméon Denis Poisson"],
   "canContribute": true,
   "relatedChallenges": [],
