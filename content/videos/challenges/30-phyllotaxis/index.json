@@ -8,7 +8,19 @@
   "topics": ["algorithmic botany", "phyllotaxis", "generative art"],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " }
+  ],
   "codeExamples": [
     {
       "title": "Phyllotaxis",
