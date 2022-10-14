@@ -7,7 +7,14 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["algorithmic botany", "phyllotaxis", "generative art"],
   "canContribute": true,
-  "relatedChallenges": ["81-circle-morphing", "133-time-tables-cardiod-visualization", "134-heart-curve"],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "15-object-oriented-fractal-trees",
+    "16-l-system-fractal-trees",
+    "81-circle-morphing",
+    "133-time-tables-cardiod-visualization",
+    "134-heart-curve"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:26", "title": "The phyllotaxis formulas" },
