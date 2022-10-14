@@ -11,8 +11,14 @@
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "00:25", "title": "Some improvements to the current version" },
-    { "time": "02:50", "title": "Adding 3D" },
-    { "time": "05:49", "title": "3D Vectors and a 3 dimensional system" }
+    { "time": "02:33", "title": "Adding 3D" },
+    { "time": "05:35", "title": "Visualising a 3D Solar System" },
+    { "time": "09:05", "title": "Adding PeasyCam" },
+    {
+      "time": "12:40",
+      "title": "Using Vector Cross Product to determine the axis of rotation"
+    },
+    { "time": "20:10", "title": "Adding more planets and moons" }
   ],
   "codeExamples": [
     {
