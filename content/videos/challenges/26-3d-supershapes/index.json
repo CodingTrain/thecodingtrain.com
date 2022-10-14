@@ -4,7 +4,7 @@
   "videoNumber": "26",
   "videoId": "akM4wMZIBWg",
   "date": "2016-06-30",
-  "languages": ["processing"],
+  "languages": ["Processing"],
   "topics": ["spherical coordinates", "3D supershape"],
   "canContribute": true,
   "relatedChallenges": ["25-spherical-geometry","112-3d-rendering-with-rotation-and-projection", "113-4d-hypercube-aka-tesseract", "168-the-mandelbulb"],

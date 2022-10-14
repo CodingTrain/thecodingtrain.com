@@ -4,7 +4,7 @@
     "videoNumber": "51",
     "videoId": "",
     "date": "2017-01-16",
-    "languages": ["p5.js", "javascript"],
+    "languages": ["p5.js", "JavaScript"],
     "topics": [
         "A* algorithm",
         "pathfinding",

@@ -4,7 +4,7 @@
   "videoNumber": "106",
   "videoId": "N3ZnNa01BPM",
   "date": "2018-06-11",
-  "languages": ["p5.js", "javascript", "tensorflow.js"],
+  "languages": ["p5.js", "JavaScript", "tensorflow.js"],
   "topics": ["machine learning", "xor problem"],
   "canContribute": true,
   "relatedChallenges": [],
