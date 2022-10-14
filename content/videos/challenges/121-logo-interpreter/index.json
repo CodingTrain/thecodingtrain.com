@@ -62,26 +62,7 @@
                     "description": "A tutorial on Logo from Brown University"
                 }
             ]
-        },
-        {
-            "title": "Videos",
-            "links": [
-                {
-                    "title": "Transformation Tutorial",
-                    "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-                    "description": "A coding train tutorial on push/pop and other transformations"
-                },
-                {
-                    "title": "Angles and Angular Motion",
-                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.1-Angles-and-Angular-Motion",
-                    "description": "Angles and angular motions from Nature of Code chapter 3"
-                },
-                {
-                    "title": "Angular Motion",
-                    "url": "https://www.youtube.com/watch?v=i2ROE_mAhU0",
-                    "description": "A revised Nature of Code video on angular motion"
-                }
-            ]
         }
+        
     ]
 }
