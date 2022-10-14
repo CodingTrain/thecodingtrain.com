@@ -12,7 +12,7 @@
     { "time": "1:46", "title": "Start coding!" },
     { "time": "2:51", "title": "Write a drawCircle function" },
     { "time": "3:37", "title": "Add recursion to the drawCircle function" },
-    { "time": "5:15", "title": "Add a exit condition" },
+    { "time": "5:15", "title": "Add an exit condition" },
     { "time": "6:58", "title": "Self-similar fractals" },
     { "time": "10:10", "title": "Add randomness" },
     { "time": "11:45", "title": "Have fun coding some recursive fractals" }
