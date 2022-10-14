@@ -9,57 +9,57 @@
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [],
+    "parts": [
+        {
+            "title": "Part 1: Logo Interpreter",
+            "videoId": "i-k04yzfMpw",
+            "timestamps": []
+        },
+        {
+            "title": "Part 2: Logo Interpreter",
+            "videoId": "aOqEm101fms",
+            "timestamps": []
+        }
+    ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Logo Interpreter Part 1",
+            "description": "First part of the logo interpreter implementation",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ryTuOf3gN"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_1/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ryTuOf3gN",
                 "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_1/Processing"
+            }
+        },
+        {
+            "title": "Logo Interpreter Part 2",
+            "description": "Refactored implementation of the logo interpreter with the \"repeat\" command",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/BJqG8zhlN",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_2/Processing"
             }
         }
     ],
     "groupLinks": [
         {
-            "title": "Other Parts Of This Coding Challenge",
-            "links": [
-                {
-                    "title": "Logo Interpreter Part 2",
-                    "url": "/challenge/121.2-logo-interpreter",
-                    "description": ""
-                }
-            ]
-        },
-        {
             "title": "References",
             "links": [
                 {
+                    "icon": "📁",
                     "title": "Logo Repo",
                     "url": "https://github.com/shiffman/Logo",
-                    "description": ""
+                    "description": "Repo for implementation of Logo in JavaScript p5"
                 },
                 {
+                    "icon": "📓",
                     "title": "Logo on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Logo_(programming_language)",
-                    "description": ""
+                    "description": "The Wikipedia article on Logo"
                 },
                 {
+                    "icon": "📝",
                     "title": "Logo Tutorial",
                     "url": "http://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
-                    "description": ""
+                    "description": "A tutorial on Logo from Brown University"
                 }
             ]
         },
@@ -67,14 +67,19 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "push/pop tutorial",
-                    "url": "/Tutorials/9-additional-topics/9.1-transformations-part-1",
-                    "description": ""
+                    "title": "Transformation Tutorial",
+                    "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
+                    "description": "A coding train tutorial on push/pop and other transformations"
                 },
                 {
                     "title": "Angles and Angular Motion",
                     "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.1-Angles-and-Angular-Motion",
-                    "description": ""
+                    "description": "Angles and angular motions from Nature of Code chapter 3"
+                },
+                {
+                    "title": "Angular Motion",
+                    "url": "https://www.youtube.com/watch?v=i2ROE_mAhU0",
+                    "description": "A revised Nature of Code video on angular motion"
                 }
             ]
         }
