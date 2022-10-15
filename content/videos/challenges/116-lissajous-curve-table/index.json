@@ -8,6 +8,7 @@
   "topics": ["lissajous curve", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [
+    "55-mathematical-rose-patterns",
     "60-butterfly-generator",
     "81-circle-morphing",
     "133-time-tables-cardioid-visualization",
@@ -54,7 +55,7 @@
           "icon": "🗄",
           "title": "Lissajous Curve on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Lissajous_curve",
-          "description": "Wikipedia page with information and resources about the lissajous curve."
+          "description": "Wikipedia page with information and resources about the Lissajous curve."
         }
       ]
     },

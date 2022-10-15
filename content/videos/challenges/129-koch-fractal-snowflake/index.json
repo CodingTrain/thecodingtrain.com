@@ -5,10 +5,30 @@
   "videoId": "X8bXDKqMsXE",
   "date": "2018-12-30",
   "languages": ["Processing"],
-  "topics": ["koch curve", "fractals", "koch snowflake", "koch star"],
+  "topics": ["koch curve", "fractals", "koch snowflake"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "2-menger-sponge",
+    "14-fractal-trees-recursive",
+    "123-chaos-game",
+    "126-toothpicks",
+    "174-graphics-applesoft-basic"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " }
+  ],
   "codeExamples": [
     {
       "title": "Koch Snowflake",
