@@ -4,7 +4,10 @@
     "videoNumber": "47",
     "videoId": "JUDYkxU6J0o",
     "date": "2016-12-21",
-    "languages": [],
+    "languages": [
+        "Processing",
+        "p5.js"
+    ],
     "topics": [
         "pixel sorting",
         "selection sort"
