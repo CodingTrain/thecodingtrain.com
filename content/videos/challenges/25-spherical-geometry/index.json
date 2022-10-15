@@ -13,24 +13,91 @@
     "3d"
   ],
   "canContribute": true,
-  "relatedChallenges": ["19-superellipse", "23-2d-supershapes", "26-3d-supershapes","112-3d-rendering-with-rotation-and-projection"],
-  "timestamps": [],
-  "codeExamples": [
-    {
-      "title": "Spherical Geometry",
-      "description": "This sketch visualizes a sphere.",
-      "image": "sphere.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/qVs1hxtc",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/025_SphereGeometry/Processing"
-      }
-    }
+  "relatedChallenges": [
+    "19-superellipse", "23-2d-supershapes", "26-3d-supershapes", "112-3d-rendering-with-rotation-and-projection"
   ],
-  "groupLinks": [
+  "timestamps": [{
+      "time": "0:00",
+      "title": "Introduction to the Coding Challenge"
+    },
     {
+      "time": "0:43",
+      "title": "The 3D Processing primitive sphere()"
+    },
+    {
+      "time": "1:48",
+      "title": "Triangle strips"
+    },
+    {
+      "time": "2:55",
+      "title": "Latitude and longitude"
+    },
+    {
+      "time": "4:11",
+      "title": "Angle of rotation"
+    },
+    {
+      "time": "5:53",
+      "title": "The resolution of the sphere"
+    },
+    {
+      "time": "7:20",
+      "title": "Map the latitude and longitude to the points on the sphere"
+    },
+    {
+      "time": "11:33",
+      "title": "Add a PeasyCam object"
+    },
+    {
+      "time": "13:28",
+      "title": "Meshing the sphere"
+    },
+    {
+      "time": "14:53",
+      "title": "Add a 2D array to store the vertices"
+    },
+    {
+      "time": "17:28",
+      "title": "Add triangle strips"
+    },
+    {
+      "time": "19:57",
+      "title": "Adjust code to fix the gaps"
+    },
+    {
+      "time": "21:00",
+      "title": "Alternate colors to add strips"
+    },
+    {
+      "time": "22:19",
+      "title": "Add HSB mode to add rainbow colors"
+    },
+    {
+      "time": "23:37",
+      "title": "Add some randomness to animate a \"jiggling\" sphere"
+    },
+    {
+      "time": "24:55",
+      "title": "Bonus addendum: updated rainbow bands"
+    },
+    {
+      "time": "26:30",
+      "title": "Thanks for watching!"
+    }
+
+  ],
+  "codeExamples": [{
+    "title": "Spherical Geometry",
+    "description": "This sketch visualizes a sphere.",
+    "image": "sphere.png",
+    "urls": {
+      "p5": "https://editor.p5js.org/codingtrain/sketches/qVs1hxtc",
+      "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/025_SphereGeometry/Processing"
+    }
+  }],
+  "groupLinks": [{
       "title": "References",
-      "links": [
-        {
+      "links": [{
           "icon": "📝",
           "title": "Supershapes (Superformula)",
           "url": "http://paulbourke.net/geometry/supershape/",
@@ -58,14 +125,12 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
-          "icon": "🎥",
-          "title": "My Video on Polar Coordinates",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
-          "description": "A look at the trigonometric functions—sine, cosine, tangent."
-        }
-      ]
+      "links": [{
+        "icon": "🎥",
+        "title": "My Video on Polar Coordinates",
+        "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+        "description": "A look at the trigonometric functions—sine, cosine, tangent."
+      }]
     }
   ]
 }

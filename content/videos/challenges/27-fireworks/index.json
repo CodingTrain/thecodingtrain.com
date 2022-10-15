@@ -15,7 +15,7 @@
     "particle systems"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["78-simple-particle-system"],
   "timestamps": [
     { "time": "00:00", "title": "Welcome to Another Coding Challenge!" },
     { "time": "00:35", "title": "Code! Create a Particle constructor" },
