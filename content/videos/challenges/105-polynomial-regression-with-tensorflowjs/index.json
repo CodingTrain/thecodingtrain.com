@@ -4,7 +4,7 @@
   "videoNumber": "105",
   "videoId": "tIXDik5SGsI",
   "date": "2018-06-04",
-  "languages": ["javascript", "tensorflow.js"],
+  "languages": ["JavaScript", "tensorflow.js"],
   "topics": ["stochastic gradient descent", "polynomial regression"],
   "canContribute": true,
   "relatedChallenges": ["104-linear-regression-with-tensorflowjs"],

@@ -7,8 +7,26 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["algorithmic botany", "phyllotaxis", "generative art"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "15-object-oriented-fractal-trees",
+    "16-l-system-fractal-trees",
+    "81-circle-morphing",
+    "133-time-tables-cardioid-visualization",
+    "134-heart-curve"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:26", "title": "The phyllotaxis formulas" },
+    { "time": "4:41", "title": "Add a dot with a specific angle and radius" },
+    { "time": "5:27", "title": "Add formula for polar to cartesian coordinates" },
+    { "time": "6:45", "title": "Scaling factor" },
+    { "time": "7:38", "title": "Change the angle to render different patterns" },
+    { "time": "8:29", "title": "Change to angleMode()" },
+    { "time": "9:00", "title": "Change color mode to HSB" },
+    { "time": "9:29", "title": "Cycle through the colors using modulus" },
+    { "time": "10:4", "title": "Other creative possibilities" }
+  ],
   "codeExamples": [
     {
       "title": "Phyllotaxis",
@@ -36,6 +54,29 @@
           "url": "http://algorithmicbotany.org/papers/abop/abop-ch4.pdf",
           "description": "Discussion of algorithmic botony."
         }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Algorithmic Botany",
+          "url": "/tracks/algorithmic-botany",
+          "description": "This side track explores patterns found in nature."
+        },
+        {
+          "icon": "🎥",
+           "title": "Polar to Cartesian Coordinates",
+           "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+           "description": "This video takes a look at the trigonometric functions—sine, cosine, tangent."
+       },
+       {
+           "icon": "🎥",
+           "title": "Golan Levin's Modulo Operator video",
+           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
+           "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
+       }
       ]
     }
   ]

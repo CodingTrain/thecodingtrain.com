@@ -6,6 +6,17 @@
   "date": "2017-05-10",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["recursion", "fractals", "beginner"],
+  "relatedChallenges": ["14-fractal-trees-recursive", "17-fractal-trees-space-colonization", "21-mandelbrot-set-with-p5js"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:46", "title": "Start coding!" },
+    { "time": "2:51", "title": "Write a drawCircle function" },
+    { "time": "3:37", "title": "Add recursion to the drawCircle function" },
+    { "time": "5:15", "title": "Add an exit condition" },
+    { "time": "6:58", "title": "Self-similar fractals" },
+    { "time": "10:10", "title": "Add randomness" },
+    { "time": "11:45", "title": "Have fun coding some recursive fractals" }
+  ],
   "codeExamples": [
     {
       "title": "Recursion",
@@ -13,8 +24,7 @@
       "image": "recursion.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pseBrWaMm",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/077_Recursion/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/077_Recursion"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/077_Recursion/Processing"
       }
     }
   ],
@@ -27,19 +37,16 @@
           "title": "The Fractal Geometry of Nature",
           "description": "The essential guide that introduced fractals to the world by Benoit Mandlebrot",
           "url": "http://amzn.to/2xiVwht"
-        },
-
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
         {
           "icon": "🎥",
           "title": "My playlist on fractals & recursion",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
-        },
-
-        {
-          "icon": "🎥",
-          "title": "Fractal Tree",
-          "description": "Coding Challenge using recursion to generate fractal tree.",
-          "url": "https://youtu.be/0jjeOYMjmDU"
         }
       ]
     }

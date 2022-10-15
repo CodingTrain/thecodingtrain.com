@@ -4,7 +4,7 @@
   "videoNumber": "146",
   "videoId": "vYgIKn7iDH8",
   "date": "2019-05-10",
-  "languages": [],
+  "languages": ["p5.js"],
   "topics": [
     "ray casting",
     "game development",
@@ -59,8 +59,7 @@
       "image": "raycasting.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/yEzlR0_zq",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting/Processing/CC_146_Rendering_Ray_Casting",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/146_Rendering_Ray_Casting/Processing/CC_146_Rendering_Ray_Casting"
       }
     }
   ],

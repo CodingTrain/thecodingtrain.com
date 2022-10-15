@@ -4,7 +4,7 @@
   "videoNumber": "99",
   "videoId": "KtPpoMThKUs",
   "date": "2018-04-10",
-  "languages": ["p5.js", "javascript"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": ["neural network", "color predictor", "machine learning"],
   "canContribute": true,
   "relatedChallenges": [],
