@@ -4,7 +4,7 @@
     "videoNumber": "78",
     "videoId": "UcdigVaIYAk",
     "date": "2017-10-11",
-    "languages": ["JavaScript", "p5.js", "processing"],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
         "particle system",
         "oop"
