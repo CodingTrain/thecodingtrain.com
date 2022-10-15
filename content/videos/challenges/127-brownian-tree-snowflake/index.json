@@ -22,19 +22,19 @@
     { "time": "1:46", "title": "Diffusion Limited Aggregation" },
     { "time": "2:18", "title": "Snowflakes have a hexagonal pattern" },
     { "time": "3:52", "title": "Create a Particle class" },
-    { "time": "4:52", "title": "Add a random walk to particle" },
+    { "time": "4:52", "title": "Add a random walk to the particle" },
     { "time": "6:19", "title": "Translate to the center" },
     { "time": "7:02", "title": "Make an array of snowflakes" },
     { "time": "8:00", "title": "Write a finished function" },
     { "time": "9:05", "title": "Write an intersects function " },
     { "time": "11:04", "title": "Add kaleidoscope" },
     { "time": "13:18", "title": "Edit code to add a vector" },
-    { "time": "14:00", "title": "Constrain particle to a slice" },
+    { "time": "14:00", "title": "Constrain particle to a slice of the hexagon" },
     { "time": "15:52", "title": "Speed up the animation" },
     { "time": "16:43", "title": "Improve branching" },
     { "time": "17:33", "title": "Randomize the starting position" },
     { "time": "18:10", "title": "Conclusion and creative possibilities" },
-    { "time": "19:05", "title": "Please consider supporting the Processing Foundation" }
+    { "time": "19:05", "title": "Please consider supporting the Processing Foundation!" }
   ],
   "codeExamples": [
     {
