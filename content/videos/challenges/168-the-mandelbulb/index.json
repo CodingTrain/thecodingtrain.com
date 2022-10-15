@@ -12,9 +12,8 @@
     "spherical coordinates",
     "point clouds"
   ],
-  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "25-spherical-geometry"],
   "canContribute": true,
-  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "22-julia-set"],
+  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "22-julia-set", "25-spherical-geometry"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing Today's Topic" },
     { "time": "1:31", "title": "The Mandelbrot set explained" },
