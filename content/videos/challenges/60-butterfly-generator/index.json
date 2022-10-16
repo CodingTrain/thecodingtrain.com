@@ -11,7 +11,7 @@
         "polar coordinates"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["36-blobby", "55-mathematical-rose-patterns", "134-heart-curve", "136-polar-noise-loops"],
     "timestamps": [
         { "time": "0:00", "title": "Introduce coding challenge" },
         { "time": "0:17", "title": "Highlight project which inspires the coding challenge" },
