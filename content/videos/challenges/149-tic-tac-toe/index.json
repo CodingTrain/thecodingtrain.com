@@ -5,9 +5,9 @@
   "videoId": "GTWrWM1UsnA",
   "date": "2019-07-24",
   "languages": ["p5.js"],
-  "topics": ["For beginners"],
+  "topics": ["for beginners", "tic-tac-toe", "games"],
   "canContribute": true,
-  "relatedChallenges": ["154-tic-tac-toe-minimax"],
+  "relatedChallenges": ["16-l-system-fractal-trees", "77-recursion", "154-tic-tac-toe-minimax", "163-bezier-curves"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "0:54", "title": "Start coding" },
@@ -35,8 +35,7 @@
       "image": "tictactoe.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/5JngATm3c",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/149_Tic_Tac_Toe/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/149_Tic_Tac_Toe/"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/149_Tic_Tac_Toe/Processing"
       }
     }
   ],
@@ -48,16 +47,6 @@
           "title": "Tic Tac Toe AI with Minimax Algorithm - Coding Challenge #154",
           "url": "/challenges/154-tic-tac-toe-minimax",
           "description": "Implementing a minimax algorithm to play Tic Tac Toe"
-        }
-      ]
-    },
-    {
-      "title": "References",
-      "links": [
-        {
-          "title": "Passenger Showcase Guide",
-          "url": "/guides/passenger-showcase-guide",
-          "description": "How to add your project to the Passenger Showcase"
         }
       ]
     }
