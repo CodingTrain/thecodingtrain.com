@@ -1,0 +1,57 @@
+{
+    "title": "Leibniz Formula for Pi",
+    "description": "In this coding challenge, I use the Leibniz formula (aka infinite series) to approximate the digits of Pi and graph the convergence.",
+    "videoNumber": "140",
+    "videoId": "uH4trBNn540",
+    "date": "2019-03-18",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": [
+        "leibniz formula",
+        "pi approximation"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Leibniz Formula for Pi",
+            "description": "A visualization of the approximation of pi with Leibniz series",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/8nvCqk0-W",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/140_Pi_Leibniz/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Leibniz formula for Pi",
+                    "url": "https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Calculating Digits of Pi with Collisions",
+                    "url": "/challenge/139-pi-collisions",
+                    "description": ""
+                },
+                {
+                    "title": "Mandelbrot Set with p5.js",
+                    "url": "/challenge/021-mandelbrot-p5",
+                    "description": ""
+                },
+                {
+                    "title": "Pi and the Mandelbrot Set",
+                    "url": "https://youtu.be/d0vY0CKYhPY",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
