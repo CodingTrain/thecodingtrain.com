@@ -5,7 +5,36 @@
   "videoId": "enNfb6p3j_g",
   "date": "2021-08-22",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["For beginners"],
+  "topics": ["beginners", "bezier curves", "lerp"],
+  "canContribute": true,
+  "relatedChallenges": ["81-circle-morphing", "133-time-tables-cardioid-visualization"],
+  "timestamps": [
+    { "title": "Welcome! Thanks Jason!", "time": "0:00" },
+    { "title": "Explain! What is the bezier() function?", "time": "1:03" },
+    {
+      "title": "Explain! The difference between linear, quadratic, and cubic bezier curves?",
+      "time": "2:02"
+    },
+    { "title": "Explain! What is a control point?", "time": "2:34" },
+    { "title": "Code! Let's try the bezier() function!", "time": "3:42" },
+    { "title": "Code! Now we can explore bezierVertex()!", "time": "5:02" },
+    { "title": "But wait! How can we go farther?", "time": "7:13" },
+    { "title": "Explain! How is lerp() related to bezier()?", "time": "7:39" },
+    {
+      "title": "Code! How can we draw a straight line with vertex()?",
+      "time": "9:09"
+    },
+    { "title": "Explain! Lerpception!!", "time": "10:59" },
+    { "title": "Code! Quadratic bezier!", "time": "13:21" },
+    {
+      "title": "Code! What if we connect the points from the two lerps?",
+      "time": "14:47"
+    },
+    { "title": "Code! Cubic bezier.", "time": "16:02" },
+    { "title": "Code! Let's bring back the rainbow!", "time": "19:21" },
+    { "title": "Code! Moving points based on bouncing ball.", "time": "20:17" },
+    { "title": "Wrap up. What will you create?", "time": "21:40" }
+  ],
   "codeExamples": [
     {
       "title": "Basic Example",
@@ -125,42 +154,15 @@
           "icon": "🎥",
           "title": "Self Avoiding Walk - Coding Challenge 162",
           "description": "Creating a Self-Avoiding Walk",
-          "url": "https://youtu.be/m6-cm6GZ1iw"
+          "url": "/challenges/162-self-avoiding-walk"
         },
         {
           "icon": "🎥",
           "title": "Times Tables Cardioid - Coding Challenge 133",
           "description": "Times Tables Cardioid Visualisation",
-          "url": "https://youtu.be/bl3nc_a1nvs"
+          "url": "challenges/133-times-tables-cardioid-visualization"
         }
       ]
     }
-  ],
-  "timestamps": [
-    { "title": "Welcome! Thanks Jason!", "time": "0:00" },
-    { "title": "Explain! What is the bezier() function?", "time": "1:03" },
-    {
-      "title": "Explain! The difference between linear, quadratic, and cubic bezier curves?",
-      "time": "2:02"
-    },
-    { "title": "Explain! What is a control point?", "time": "2:34" },
-    { "title": "Code! Let's try the bezier() function!", "time": "3:42" },
-    { "title": "Code! Now we can explore bezierVertex()!", "time": "5:02" },
-    { "title": "But wait! How can we go farther?", "time": "7:13" },
-    { "title": "Explain! How is lerp() related to bezier()?", "time": "7:39" },
-    {
-      "title": "Code! How can we draw a straight line with vertex()?",
-      "time": "9:09"
-    },
-    { "title": "Explain! Lerpception!!", "time": "10:59" },
-    { "title": "Code! Quadratic bezier!", "time": "13:21" },
-    {
-      "title": "Code! What if we connect the points from the two lerps?",
-      "time": "14:47"
-    },
-    { "title": "Code! Cubic bezier.", "time": "16:02" },
-    { "title": "Code! Let's bring back the rainbow!", "time": "19:21" },
-    { "title": "Code! Moving points based on bouncing ball.", "time": "20:17" },
-    { "title": "Wrap up. What will you create?", "time": "21:40" }
   ]
 }
