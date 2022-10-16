@@ -5,9 +5,9 @@
   "videoId": "GTWrWM1UsnA",
   "date": "2019-07-24",
   "languages": ["p5.js"],
-  "topics": ["for beginners", "tic-tac-toe", "games"],
+  "topics": ["beginners", "tic-tac-toe", "games"],
   "canContribute": true,
-  "relatedChallenges": ["16-l-system-fractal-trees", "77-recursion", "154-tic-tac-toe-minimax", "163-bezier-curves"],
+  "relatedChallenges": ["77-recursion", "154-tic-tac-toe-minimax", "163-bezier-curves"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "0:54", "title": "Start coding" },

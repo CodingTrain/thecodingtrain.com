@@ -5,7 +5,7 @@
   "videoId": "jPsZwrV9ld0",
   "date": "2017-05-10",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["recursion", "fractals", "for beginners"],
+  "topics": ["recursion", "fractals", "beginners"],
   "canContribute": true,
   "relatedChallenges": ["14-fractal-trees-recursive", "17-fractal-trees-space-colonization", "21-mandelbrot-set-with-p5js"],
   "timestamps": [

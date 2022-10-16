@@ -5,7 +5,7 @@
   "videoId": "enNfb6p3j_g",
   "date": "2021-08-22",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["for beginners", "bezier curves", "lerp"],
+  "topics": ["beginners", "bezier curves", "lerp"],
   "canContribute": true,
   "relatedChallenges": ["81-circle-morphing", "133-times-tables-cardioid-visualization"],
   "timestamps": [

@@ -5,7 +5,7 @@
   "videoId": "trKjYdBASyQ",
   "date": "2019-12-11",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["for beginners", "tic-tac-toe", "minimax algorithm", "games"],
+  "topics": ["beginners", "tic-tac-toe", "minimax algorithm", "games"],
   "canContribute": true,
   "relatedChallenges": ["94-2048", "149-tic-tac-toe"],
   "timestamps": [
