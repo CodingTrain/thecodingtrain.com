@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["beginners", "bezier curves", "lerp"],
   "canContribute": true,
-  "relatedChallenges": ["81-circle-morphing", "133-times-tables-cardioid-visualization"],
+  "relatedChallenges": ["81-circle-morphing", "133-time-tables-cardioid-visualization"],
   "timestamps": [
     { "title": "Welcome! Thanks Jason!", "time": "0:00" },
     { "title": "Explain! What is the bezier() function?", "time": "1:03" },
