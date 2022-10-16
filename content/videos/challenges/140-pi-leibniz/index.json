@@ -10,7 +10,7 @@
         "pi approximation"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["21-mandelbrot-set-with-p5js"],
     "timestamps": [],
     "codeExamples": [
         {
@@ -27,9 +27,10 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📓",
                     "title": "Leibniz formula for Pi",
                     "url": "https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80",
-                    "description": ""
+                    "description": "Wikipedia article on the topic"
                 }
             ]
         },
@@ -37,19 +38,9 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "Calculating Digits of Pi with Collisions",
-                    "url": "/challenge/139-pi-collisions",
-                    "description": ""
-                },
-                {
-                    "title": "Mandelbrot Set with p5.js",
-                    "url": "/challenge/021-mandelbrot-p5",
-                    "description": ""
-                },
-                {
                     "title": "Pi and the Mandelbrot Set",
                     "url": "https://youtu.be/d0vY0CKYhPY",
-                    "description": ""
+                    "description": "Numberphile video on the Mandelbrot set and Pi"
                 }
             ]
         }
