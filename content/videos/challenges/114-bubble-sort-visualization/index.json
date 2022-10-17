@@ -1,13 +1,13 @@
 {
   "title": "Bubble Sort Visualization",
-  "description": "In this coding challenge, I implement a \"bubble sort\" algorithm in Processing (Java) and sort randomly generated lines.",
+  "description": "Yes, sorting numbers can be fun! In this challenge I attempt to implement the \"bubble sort\" algorithm in Processing (Java) and visualize the process itself with animated lines.",
   "videoNumber": "114",
   "videoId": "67k3I2GxTH8",
   "date": "2018-08-27",
   "languages": ["Processing"],
   "topics": ["bubble sort algorithm"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["47-pixel-sorting-in-processing"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:50", "title": "What is a bubble sort?" },

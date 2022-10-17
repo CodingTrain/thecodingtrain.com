@@ -4,7 +4,7 @@
   "videoNumber": "157",
   "videoId": "9z9mbiOZqSs",
   "date": "2020-10-29",
-  "languages": ["p5.js", "ml5", "JavaScript"],
+  "languages": ["p5.js", "ml5.js", "JavaScript"],
   "topics": ["machine learning", "zoom", "creative code", "OBS"],
   "canContribute": true,
   "timestamps": [

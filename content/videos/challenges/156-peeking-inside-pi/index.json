@@ -7,7 +7,12 @@
   "languages": ["node.js", "p5.js", "JavaScript"],
   "topics": ["math", "pi day"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "140-pi-leibniz",
+    "156-peeking-inside-pi",
+    "161-estimating-pi-from-random-numbers",
+    "169-pi-in-the-sky"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:30", "title": "Importing Pi Into p5.js" },

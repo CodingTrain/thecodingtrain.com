@@ -11,7 +11,12 @@
         "latent space"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": [
+        "122-quick-draw",
+        "128-sketch-rnn-snowflakes",
+        "151-ukulele-tuner-with-machine-learning",
+        "153-interactive-drawing-with-sketchrnn"
+    ],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "0:19", "title": "RunwayML" },
