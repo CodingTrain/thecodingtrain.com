@@ -1,0 +1,60 @@
+{
+    "title": "Quicksort Visualization",
+    "description": "In this video, I implement a Quicksort algorithm in JavaScript and visualize the sorting with p5.js.",
+    "videoNumber": "143",
+    "videoId": "eqo2LxRADhU",
+    "date": "2019-04-04",
+    "languages": [
+        "p5.js",
+        "JavaScript"
+    ],
+    "topics": [
+        "sorting visualization",
+        "quicksort algorithm"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [
+        "114-bubble-sort",
+        "47-pixel-sorting-in-processing"
+    ],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Quicksort Visualizaiton",
+            "description": "Visualization of the Quicksort algorithm in p5.js",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/vic6Qzo-j"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗏",
+                    "title": "Quicksort on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Quicksort",
+                    "description": "The Wikipedia page on the Quicksort sorting algorithm"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎞",
+                    "title": "15 Sorting Algorithms in 6 Minutes",
+                    "url": "https://youtu.be/kPRA0W1kECg",
+                    "description": "A video showing visualization and \"audibilization\" of 15 sorting algorithms"
+                },
+                {
+                    "icon": "🎥",
+                    "title": "async/await",
+                    "url": "https://youtu.be/XO77Fib9tSI",
+                    "description": "Tutorial on ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
+                }
+            ]
+        }
+    ]
+}
