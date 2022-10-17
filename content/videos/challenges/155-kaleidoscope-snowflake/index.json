@@ -7,6 +7,11 @@
   "languages": ["p5.js", "JavaScript", "Processing"],
   "topics": ["translations", "symmetry", "rotations", "push/pop", "drawing"],
   "canContribute": true,
+  "relatedChallenges": [
+    "127-brownian-tree-snowflake",
+    "128-sketch-rnn-snowflakes",
+    "129-koch-fractal-snowflake"
+  ],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -36,8 +41,7 @@
       "image": "snowflake.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/JbWCVPX5a",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake/Processing/CC_155_Kaleidoscope_Snowflake",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/155_Kaleidoscope_Snowflake/Processing/"
       }
     }
   ],
@@ -71,7 +75,7 @@
         {
           "icon": "🎥",
           "title": "Coding Challenge #127: Brownian Tree Snowflake",
-          "url": "https://www.youtube.com/watch?v=XUA8UREROYE",
+          "url": "/challenges/127-brownian-tree-snowflake",
           "description": "A Brownian Tree Snowflake is created in Processing."
         },
         {
