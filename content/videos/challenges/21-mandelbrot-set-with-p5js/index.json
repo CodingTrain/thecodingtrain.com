@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["mandelbrot", "fractal", "complex number", "imaginary number"],
   "canContribute": true,
-  "relatedChallenges": ["22-julia-set", "168-the-mandelbulb"],
+  "relatedChallenges": ["22-julia-set", "140-pi-leibniz", "168-the-mandelbulb"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's coding challenge: the Mandelbrot set" },
     { "time": "1:22", "title": "What is a complex number?" },
