@@ -66,6 +66,15 @@
           "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
+    },
+    {
+      "title": "videos",
+      "links": [{
+        "icon": "🎥",
+        "title": "Algorithmic Botony Track",
+        "url": "/tracks/algorithmic-botany",
+        "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing. "
+      }]
     }
   ]
 }

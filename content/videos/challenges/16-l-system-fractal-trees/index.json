@@ -8,36 +8,70 @@
   "topics": ["fractal trees", "L-system"],
   "canContribute": true,
   "relatedChallenges": ["14-fractal-trees-recursive", "123-chaos-game", "174-graphics-applesoft-basic"],
-  "timestamps": [
-    { "time": "0:00", "title": "Introducing today's topic: L-systems" },
-    { "time": "0:57", "title": "The elements of an L-system" },
-    { "time": "4:12", "title": "Let's Code!" },
-    { "time": "4:42", "title": "Add rules" },
-    { "time": "6:22", "title": "Write a generate function" },
-    { "time": "8:46", "title": "Create a button" },
-    { "time": "12:32", "title": "Use a particular L-system" },
-    { "time": "13:32", "title": "Read the text and draw to the screen" },
-    { "time": "14:19", "title": "Write a turtle function" },
-    { "time": "18:08", "title": "Translate to the bottom, middle of the screen" },
-    { "time": "20:08", "title": "Add an angle variable" },
-    { "time": "21:11", "title": "Add some alpha" },
-    { "time": "21:30", "title": "Conclusion and suggestions for your own version" }
-  ],
-  "codeExamples": [
+  "timestamps": [{
+      "time": "0:00",
+      "title": "Introducing today's topic: L-systems"
+    },
     {
-      "title": "Fractal Trees - L-System",
-      "description": "This sketch uses a L-system to generate a fractal tree",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem/Processing"
-      }
+      "time": "0:57",
+      "title": "The elements of an L-system"
+    },
+    {
+      "time": "4:12",
+      "title": "Let's Code!"
+    },
+    {
+      "time": "4:42",
+      "title": "Add rules"
+    },
+    {
+      "time": "6:22",
+      "title": "Write a generate function"
+    },
+    {
+      "time": "8:46",
+      "title": "Create a button"
+    },
+    {
+      "time": "12:32",
+      "title": "Use a particular L-system"
+    },
+    {
+      "time": "13:32",
+      "title": "Read the text and draw to the screen"
+    },
+    {
+      "time": "14:19",
+      "title": "Write a turtle function"
+    },
+    {
+      "time": "18:08",
+      "title": "Translate to the bottom, middle of the screen"
+    },
+    {
+      "time": "20:08",
+      "title": "Add an angle variable"
+    },
+    {
+      "time": "21:11",
+      "title": "Add some alpha"
+    },
+    {
+      "time": "21:30",
+      "title": "Conclusion and suggestions for your own version"
     }
   ],
-  "groupLinks": [
-    {
+  "codeExamples": [{
+    "title": "Fractal Trees - L-System",
+    "description": "This sketch uses a L-system to generate a fractal tree",
+    "urls": {
+      "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP",
+      "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem/Processing"
+    }
+  }],
+  "groupLinks": [{
       "title": "References",
-      "links": [
-        {
+      "links": [{
           "icon": "🔗",
           "title": "L-systems",
           "url": "https://en.wikipedia.org/wiki/L-system",
@@ -48,8 +82,23 @@
           "title": "Algorithmic Botany",
           "url": "http://algorithmicbotany.org/",
           "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
+    },
+    {
+      "title": "videos",
+      "links": [{
+        "icon": "🎥",
+        "title": "Algorithmic Botony Track",
+        "url": "/tracks/algorithmic-botany",
+        "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing. "
+      }]
     }
   ]
 }
