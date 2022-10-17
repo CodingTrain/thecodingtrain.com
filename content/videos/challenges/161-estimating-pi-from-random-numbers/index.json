@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["pi day", "math", "random numbers"],
   "canContribute": true,
-  "relatedChallenges": ["156-peeking-inside-pi", "169-pi-in-the-sky"],
+  "relatedChallenges": ["140-pi-leibniz", "156-peeking-inside-pi", "169-pi-in-the-sky"],
   "timestamps": [
     { "time": "0:00", "title": "Happy Pi Day!" },
     { "time": "1:26", "title": "Explain! What does co-prime mean?" },

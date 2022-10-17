@@ -10,7 +10,11 @@
         "pi approximation"
     ],
     "canContribute": true,
-    "relatedChallenges": ["21-mandelbrot-set-with-p5js"],
+    "relatedChallenges": [
+        "21-mandelbrot-set-with-p5js",
+        "156-peeking-inside-pi",
+        "161-estimating-pi-from-random-numbers",
+        "169-pi-in-the-sky"],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "1:22", "title": "The Leibniz method for approximating pi!" },

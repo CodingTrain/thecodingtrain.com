@@ -7,7 +7,13 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["PI", "game", "pi day"],
   "canContribute": true,
-  "relatedChallenges": ["3-snake-game", "4-purple-rain", "156-peeking-inside-pi", "161-estimating-pi-from-random-numbers"],
+  "relatedChallenges": [
+    "3-snake-game",
+    "4-purple-rain",
+    "140-pi-leibniz",
+    "156-peeking-inside-pi",
+    "161-estimating-pi-from-random-numbers"
+  ],
   "timestamps": [{ "time": "00:00", "title": "Happy Pi Day!" }],
   "codeExamples": [
     {
