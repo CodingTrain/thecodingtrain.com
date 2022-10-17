@@ -17,7 +17,7 @@
     "arrays"
   ],
   "canContribute": true,
-  "relatedChallenges": ["29-smart-rockets-p5js", "51-a-pathfinding-algorithm", "69-evolutionary-steering-behaviors", "70-nearest-neighbors-recommendation-engine"],
+  "relatedChallenges": ["29-smart-rockets-in-p5js", "51-a-pathfinding-algorithm", "69-evolutionary-steering-behaviors", "70-nearest-neighbors-recommendation-engine"],
   "timestamps": [],
   "parts": [
     {
