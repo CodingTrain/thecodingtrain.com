@@ -4,54 +4,27 @@
     "videoNumber": "89",
     "videoId": "G1EgjgMo48U",
     "date": "2018-01-08",
-    "languages": [],
+    "languages": [
+        "Processing",
+        "Java"
+    ],
     "topics": [
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "itp nyu",
-        "class",
         "langton's ant",
-        "langton's ant processing",
-        "processing coding challenge",
-        "challenge",
-        "ant",
-        "codingtrain",
-        "cellular automata",
-        "processing",
-        "code challenge"
+        "cellular automata"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": [
+        "85-the-game-of-life"
+    ],
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "image": "langton-ant.png",
+            "title": "Langton's Ant",
+            "description": "Implementation of Langton's Ant",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/svbAzt8sb"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_089_langtonsant/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_089_langtonsant/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/svbAzt8sb",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/089_langtonsant/Processing/CC_089_langtonsant"
             }
         }
     ],
@@ -60,14 +33,10 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📄",
                     "title": "Langton's Ant on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Langton's_ant",
-                    "description": ""
-                },
-                {
-                    "title": "Langton's Ant on Numberphile",
-                    "url": "https://youtu.be/NWBToaXK5T0",
-                    "description": ""
+                    "description": "Wikipedia page on Langton's Ant"
                 }
             ]
         },
@@ -75,14 +44,16 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "My Pixels Tutorial in Processing",
+                    "icon": "🚂",
+                    "title": "Pixels! (Processing Tutorial)",
                     "url": "https://youtu.be/EmtU0eloTlE",
-                    "description": ""
+                    "description": "The Coding Train tutorial on the Pixels Array"
                 },
                 {
-                    "title": "My Game of Life Coding Challenge",
-                    "url": "/challenge/085-the-game-of-life",
-                    "description": ""
+                    "icon": "🐜",
+                    "title": "Langton's Ant",
+                    "url": "https://youtu.be/NWBToaXK5T0",
+                    "description": "The Numberphile video on Langton's Ant"
                 }
             ]
         }
