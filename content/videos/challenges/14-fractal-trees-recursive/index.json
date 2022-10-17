@@ -8,38 +8,72 @@
   "topics": ["fractals", "generative art"],
   "relatedChallenges": ["15-object-oriented-fractal-trees", "174-graphics-applesoft-basic"],
   "canContribute": true,
-  "timestamps": [
-    { "time": "0:00", "title": "Introducing today's topic" },
-    { "time": "0:39", "title": "Recursion" },
-    { "time": "2:51", "title": "Exit condition" },
-    { "time": "3:53", "title": "Let's Code!" },
-    { "time": "5:03", "title": "Branch function" },
-    { "time": "10:06", "title": "Add slider" },
-    { "time": "13:25", "title": "Push and pop functions" },
-    { "time": "14:42", "title": "Conclusion and next steps" }
+  "timestamps": [{
+      "time": "0:00",
+      "title": "Introducing today's topic"
+    },
+    {
+      "time": "0:39",
+      "title": "Recursion"
+    },
+    {
+      "time": "2:51",
+      "title": "Exit condition"
+    },
+    {
+      "time": "3:53",
+      "title": "Let's Code!"
+    },
+    {
+      "time": "5:03",
+      "title": "Branch function"
+    },
+    {
+      "time": "10:06",
+      "title": "Add slider"
+    },
+    {
+      "time": "13:25",
+      "title": "Push and pop functions"
+    },
+    {
+      "time": "14:42",
+      "title": "Conclusion and next steps"
+    }
   ],
-  "codeExamples": [
-   {
-            "title": "Recursive Fractal Tree",
-            "description": "This sketch codes a fractal tree with recursion.",
-            "image": "fractal.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/xTjmYXU3q",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/014_FractalTree/Processing/"
-            }
-        }
-  ],
-  "groupLinks": [
+  "codeExamples": [{
+    "title": "Recursive Fractal Tree",
+    "description": "This sketch codes a fractal tree with recursion.",
+    "image": "fractal.jpg",
+    "urls": {
+      "p5": "https://editor.p5js.org/codingtrain/sketches/xTjmYXU3q",
+      "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/014_FractalTree/Processing/"
+    }
+  }],
+  "groupLinks": [{
+    "title": "References",
+    "links": [{
+        "icon": "🌿",
+        "title": "Algorithmic Botany",
+        "url": "http://algorithmicbotany.org/",
+        "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
+      },
+      {
+        "icon": "📕",
+        "title": "My NOC class on Kadenze",
+        "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+        "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+      }
+    ]
+  },
   {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🌿",
-                    "title": "Algorithmic Botany",
-                    "url": "http://algorithmicbotany.org/",
-                    "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
-                }
-            ]
-        }
-  ]
+    "title": "videos",
+    "links": [{
+        "icon": "🌿",
+        "title": "Algorithmic Botony Track",
+        "url": "/tracks/algorithmic-botany",
+        "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing. "
+      }
+    ]
+  }]
 }

@@ -54,6 +54,12 @@
           "title": "Supershapes",
           "url": "http://paulbourke.net/geometry/supershape/",
           "description": "Supershapes (Superformula) by Paul Bourke"
+        },
+        {
+          "icon": "📕",
+          "title": "Nature of Code class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
     }

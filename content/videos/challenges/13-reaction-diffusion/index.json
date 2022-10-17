@@ -51,6 +51,12 @@
           "title": "2D Array Tutorial",
           "url": "https://processing.org/tutorials/2darray/",
           "description": "A tutorial on 2D Arrays in Processing website"
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info", 
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
     }
