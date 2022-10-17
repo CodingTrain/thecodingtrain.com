@@ -11,7 +11,7 @@
         "textToPoints"
     ],
     "canContribute": true,
-    "relatedChallenges": ["69-evolutionary-steering-behaviors"],
+    "relatedChallenges": ["69-evolutionary-steering-behaviors", "124-flocking-simulation"],
     "timestamps": [{
             "time": "0:00",
             "title": "Introduction"
