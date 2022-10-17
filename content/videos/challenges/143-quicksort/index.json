@@ -17,10 +17,51 @@
         "114-bubble-sort",
         "47-pixel-sorting-in-processing"
     ],
-    "timestamps": [],
+    "timestamps": [
+        {
+            "time": "0:02",
+            "title": "Introducing the Quicksort algorithm and the Big O Notation!"
+        },
+        {
+            "time": "1:19",
+            "title": "A walk-through of the Quicksort algorithm"
+        },
+        {
+            "time": "6:05",
+            "title": "Starting to code!"
+        },
+        {
+            "time": "8:12",
+            "title": "Figuring out the partition function!"
+        },
+        {
+            "time": "12:44",
+            "title": "Writing out the partition function"
+        },
+        {
+            "time": "14:11",
+            "title": "Testing and debugging the algorithm"
+        },
+        {
+            "time": "16:57",
+            "title": "Adding delays to visualize Quicksort"
+        },
+        {
+            "time": "21:12",
+            "title": "Colouring the pivot points!"
+        },
+        {
+            "time": "25:59",
+            "title": "Some more debugging and customizations!"
+        },
+        {
+            "time": "26:59",
+            "title": "Discussing partition schemes and things you could do!"
+        }
+    ],
     "codeExamples": [
         {
-            "title": "Quicksort Visualizaiton",
+            "title": "Quicksort Visualization",
             "description": "Visualization of the Quicksort algorithm in p5.js",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/vic6Qzo-j"
@@ -32,7 +73,7 @@
             "title": "References",
             "links": [
                 {
-                    "icon": "🗏",
+                    "icon": "📄",
                     "title": "Quicksort on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Quicksort",
                     "description": "The Wikipedia page on the Quicksort sorting algorithm"
@@ -43,7 +84,7 @@
             "title": "Videos",
             "links": [
                 {
-                    "icon": "🎞",
+                    "icon": "🎞️",
                     "title": "15 Sorting Algorithms in 6 Minutes",
                     "url": "https://youtu.be/kPRA0W1kECg",
                     "description": "A video showing visualization and \"audibilization\" of 15 sorting algorithms"
