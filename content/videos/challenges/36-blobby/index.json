@@ -14,6 +14,7 @@
     "perlin noise"
   ],
   "canContribute": true,
+  "relatedChallenges": ["19-superellipse", "60-butterfly-generator", "136-polar-noise-loops"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction to the Blobby challenge" },
     {
@@ -42,8 +43,7 @@
       "image": "blobby.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/L_ME8qKmQ",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/036_Blobby/Processing/CC_036_Blobby",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/036_Blobby"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/036_Blobby/Processing/CC_036_Blobby"
       }
     }
   ],
@@ -82,9 +82,9 @@
         },
         {
           "icon": "🎥",
-          "title": "Supershapes Playlist",
-          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a5MvGn7a1y4dAKWzM8_Ar0",
-          "description": "Coding Challenges 19, 23, 25, and 26 covering the Superellipse, 2D Supershapes, Spherical Geometry, and 3D Supershapes."
+          "title": "Supershapes track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas.."
         }
       ]
     }

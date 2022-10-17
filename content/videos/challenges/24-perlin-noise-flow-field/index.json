@@ -54,6 +54,17 @@
                     "description": "p5.js webpage with information and documentation about noise()."
                 }
             ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "My videos about Perlin Noise",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+                    "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
+                }
+            ]
         }
     ]
 }

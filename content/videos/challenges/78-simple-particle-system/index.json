@@ -10,7 +10,7 @@
         "oop"
     ],
     "canContribute": true,
-    "relatedChallenges": ["27-fireworks"],
+    "relatedChallenges": ["27-fireworks", "160-spring-forces"],
     "timestamps": [
         { "time": "00:00", "title": "Introduction" },
         { "time": "00:31", "title": "Define a particle system" },

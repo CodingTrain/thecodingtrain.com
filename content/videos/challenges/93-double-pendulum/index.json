@@ -10,7 +10,7 @@
         "pendulum harmonic motion"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["86-cube-wave-by-bees-and-bombs", "159-simple-pendulum"],
     "timestamps": [
         {
             "time": "0:00:00",
