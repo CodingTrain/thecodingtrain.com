@@ -130,6 +130,12 @@
         "title": "My Video on Polar Coordinates",
         "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
         "description": "A look at the trigonometric functions—sine, cosine, tangent."
+      },
+      {
+        "icon": "🎥",
+        "title": "Supershape track",
+        "url": "/tracks/supershapes",
+        "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
       }]
     }
   ]

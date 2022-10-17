@@ -66,10 +66,10 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🚂",
-          "title": "Coding Challenge: Spherical Geometry",
-          "url": "/challenges/25-spherical-geometry",
-          "description": "In this Coding Challenge, I create a sphere in Processing using spherical coordinates and triangle strips."
+          "icon": "🎥",
+          "title": "Supershape track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
         }
       ]
     }
