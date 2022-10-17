@@ -47,6 +47,7 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "📽️",
                     "title": "Pi and the Mandelbrot Set",
                     "url": "https://youtu.be/d0vY0CKYhPY",
                     "description": "Numberphile video on the Mandelbrot set and Pi"
