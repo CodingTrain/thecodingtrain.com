@@ -11,7 +11,16 @@
     ],
     "canContribute": true,
     "relatedChallenges": ["21-mandelbrot-set-with-p5js"],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:22", "title": "The Leibniz method for approximating pi!" },
+        { "time": "1:57", "title": "Let's start coding!" },
+        { "time": "4:59", "title": "Visualizing the convergence" },
+        { "time": "8:45", "title": "Drawing a line where pi originally exists" },
+        { "time": "9:43", "title": "Debugging!" },
+        { "time": "10:49", "title": "Refactoring the code a bit" },
+        { "time": "11:43", "title": "Try other series!" }
+    ],
     "codeExamples": [
         {
             "title": "Leibniz Formula for Pi",
