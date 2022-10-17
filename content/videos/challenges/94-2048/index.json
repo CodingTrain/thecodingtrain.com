@@ -7,7 +7,7 @@
   "languages": ["Javascript", "p5.js"],
   "topics": ["2048", "sliding puzzle game"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["142-rubics-cube", "149-tic-tac-toe", "165-slide-puzzle"],
   "timestamps": [],
   "parts": [
     {
