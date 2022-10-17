@@ -7,7 +7,13 @@
   "languages": ["Processing"],
   "topics": ["fractal", "3d"],
   "canContribute": true,
-  "relatedChallenges": ["18-3d-fractal-trees"],
+  "relatedChallenges": [
+    "18-3d-fractal-trees",
+    "123-chaos-game",
+    "126-toothpicks",
+    "129-koch-fractal-snowflake",
+    "168-the-mandelbulb"
+    ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a 10 minute Coding Challenge!" },
     { "time": "0:26", "title": "Quick math about the Menger Sponge" },
