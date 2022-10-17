@@ -1,0 +1,59 @@
+{
+    "title": "Leibniz Formula for Pi",
+    "description": "In this coding challenge, I use the Leibniz formula (aka infinite series) to approximate the digits of Pi and graph the convergence.",
+    "videoNumber": "140",
+    "videoId": "uH4trBNn540",
+    "date": "2019-03-18",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": [
+        "leibniz formula",
+        "pi approximation"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["21-mandelbrot-set-with-p5js"],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:22", "title": "The Leibniz method for approximating pi!" },
+        { "time": "1:57", "title": "Let's start coding!" },
+        { "time": "4:59", "title": "Visualizing the convergence" },
+        { "time": "8:45", "title": "Drawing a line where pi originally exists" },
+        { "time": "9:43", "title": "Debugging!" },
+        { "time": "10:49", "title": "Refactoring the code a bit" },
+        { "time": "11:43", "title": "Try other series!" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Leibniz Formula for Pi",
+            "description": "A visualization of the approximation of pi with Leibniz series",
+            "image": "pi-leibniz.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/8nvCqk0-W",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/140_Pi_Leibniz/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "📓",
+                    "title": "Leibniz formula for Pi",
+                    "url": "https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80",
+                    "description": "Wikipedia article on the topic"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "📽️",
+                    "title": "Pi and the Mandelbrot Set",
+                    "url": "https://youtu.be/d0vY0CKYhPY",
+                    "description": "Numberphile video on the Mandelbrot set and Pi"
+                }
+            ]
+        }
+    ]
+}
