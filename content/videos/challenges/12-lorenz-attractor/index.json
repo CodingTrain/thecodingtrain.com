@@ -71,6 +71,12 @@
           "title": "What is a differential equation?",
           "url": "https://www.myphysicslab.com/explain/what-is-a-diff-eq-en.html",
           "description": "An article on differential equations"
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info", 
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
     }

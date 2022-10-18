@@ -13,7 +13,7 @@
         "arrays"
     ],
     "canContribute": true,
-    "relatedChallenges": ["3-snake-game"],
+    "relatedChallenges": ["3-snake-game", "111-animated-sprites"],
     "timestamps": [],
   "parts": [
     {

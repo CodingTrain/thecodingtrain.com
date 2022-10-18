@@ -37,8 +37,15 @@
   ],
   "groupLinks": [
     {
-      "title": "References",
-      "links": []
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "My Genetic Algorithm playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+          "description": "These video lessons accompany Chapter 9 (Genetic Algorithms) from The Nature of Code book."
+        }
+      ]
     }
   ]
 }

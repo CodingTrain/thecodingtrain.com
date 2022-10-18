@@ -49,6 +49,12 @@
           "title": "Modeling Trees with a Space Colonization Algorithm",
           "url": "http://algorithmicbotany.org/papers/colonization.egwnp2007.pdf",
           "description": "Academic paper by Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz about the Space Colonization Algorithm."
+        },
+        {
+          "icon": "📕",
+          "title": "Nature of Code class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
     },

@@ -11,7 +11,7 @@
         "textToPoints"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["69-evolutionary-steering-behaviors", "124-flocking-simulation"],
     "timestamps": [{
             "time": "0:00",
             "title": "Introduction"
@@ -73,7 +73,7 @@
         {
             "title": "Videos",
             "links": [{
-                "icon": "🚂",
+                "icon": "🎥",
                 "title": "Nature of Code Steering Behaviors Playlist",
                 "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YHt0dtyf4uiw8tKOxQLvlW",
                 "description": "These video lessons accompany Chapter 6 (Autonomous Agents) from The Nature of Code book."

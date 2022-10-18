@@ -5,19 +5,45 @@
   "videoId": "--6eyLO78CY",
   "date": "2018-10-03",
   "languages": ["Processing"],
-  "topics": ["lissajous", "lissajous curve", "polar coordinates"],
+  "topics": ["lissajous curve", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "55-mathematical-rose-patterns",
+    "60-butterfly-generator",
+    "81-circle-morphing",
+    "133-time-tables-cardioid-visualization",
+    "134-heart-curve",
+    "c1-maurer-rose"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "0:30", "title": "Inspiration" },
+    { "time": "1:53", "title": "Important elements" },
+    { "time": "4:28", "title": "Size of the boxes" },
+    { "time": "5:09", "title": "Add circles at top of canvas" },
+    { "time": "7:08", "title": "Use polar to cartesian coordinates to determine the offset" },
+    { "time": "8:05", "title": "Draw a point on the circles" },
+    { "time": "9:17", "title": "Add a line" },
+    { "time": "9:52", "title": "Adjust speed of rotation based the circle's index" },
+    { "time": "10:40", "title": "Add circles along left of canvas" },
+    { "time": "12:05", "title": "Create a Curve class" },
+    { "time": "13:24", "title": "Draw the path of the curve" },
+    { "time": "15:00", "title": "2D arrays" },
+    { "time": "16:06", "title": "Matrices are expressed as \"row by column\"" },
+    { "time": "19:07", "title": "Set x and y points for all row and  column combination" },
+    { "time": "20:52", "title": "Draw the points" },
+    { "time": "21:52", "title": "Highlight the points" },
+    { "time": "23:30", "title": "Refinements: reverse direction of rotation and reset the circles" },
+    { "time": "27:27", "title": "Thank you for watching!" }
+  ],
   "codeExamples": [
     {
       "title": "Lissajous Table",
-      "description": "A visualization of the lissajous curve table.",
+      "description": "A visualization of the Lissajous curve table.",
       "image": "lissajous.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/BJbj5l3Y7",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/116_Lissajous/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/116_Lissajous"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/116_Lissajous/Processing"
       }
     }
   ],
@@ -29,7 +55,7 @@
           "icon": "🗄",
           "title": "Lissajous Curve on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Lissajous_curve",
-          "description": "Discussion of the dissajous curve."
+          "description": "Wikipedia page with information and resources about the Lissajous curve."
         }
       ]
     },
@@ -53,6 +79,12 @@
           "title": "Polar Coordinates",
           "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "A dive into the trigonometric functions—sine, cosine, tangent—and take a close look at thinking in polar coordinates with p5.js!"
+        },
+        {
+          "icon": "🎥",
+          "title": "Harmonic motion",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/5-harmonic-motion",
+          "description": "In this video, I demonstrate how to use the sin() function in p5.js to simulate simple harmonic motion."
         },
         {
           "icon": "🎥",

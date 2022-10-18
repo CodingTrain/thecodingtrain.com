@@ -5,10 +5,21 @@
   "videoId": "E4RyStef-gY",
   "date": "2017-09-20",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["clocks", "generative art"],
+  "topics": ["beginner", "clocks", "generative art"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": ["66-javascript-countdown-timer"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "0:44", "title": "Inspiration" },
+    { "time": "2:15", "title": "How do we get the time information?" },
+    { "time": "3:15", "title": "Add a digital clock" },
+    { "time": "4:55", "title": "Use arcs to visualize the time" },
+    { "time": "7:05", "title": "Add angleMode()" },
+    { "time": "9:17", "title": "Map the end of the arc to the seconds, minutes, and hour" },
+    { "time": "12:07", "title": "Translate to the center of canvas and rotate by -90 degrees" },
+    { "time": "15:15", "title": "Add hour, minutes, and second hands" },
+    { "time": "18:57", "title": "Concluson and creative possibilities" }
+  ],
   "codeExamples": [
     {
       "title": "Clock",
@@ -16,8 +27,7 @@
       "image": "clock.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/2lvHFWPbW",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/074_Clock/Processing"
       }
     }
   ],
