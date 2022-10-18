@@ -1,6 +1,6 @@
 {
     "title": "Langton's Ant",
-    "description": "In this coding challenge, I implement Langton\u2019s Ant in Processing.",
+    "description": "In this coding challenge, I implement Langton\u2019s Ant in Processing, which is a cellular automaton that starts off with simples rules but takes on complex emergent behavior.",
     "videoNumber": "89",
     "videoId": "G1EgjgMo48U",
     "date": "2018-01-08",
@@ -16,7 +16,36 @@
     "relatedChallenges": [
         "85-the-game-of-life"
     ],
-    "timestamps": [],
+    "timestamps": [
+        {
+            "time": "0:00",
+            "title": "Introduction and setup code!"
+        },
+        {
+            "time": "1:46",
+            "title": "Writing the algorithm for the motion of Langton's ant"
+        },
+        {
+            "time": "9:09",
+            "title": "Visualizing Langton's Ant"
+        },
+        {
+            "time": "12:33",
+            "title": "Debugging and testing!"
+        },
+        {
+            "time": "14:53",
+            "title": "Refactoring the code!"
+        },
+        {
+            "time": "20:06",
+            "title": "Things to try!"
+        },
+        {
+            "time": "20:46",
+            "title": "Outro!"
+        }
+    ],
     "codeExamples": [
         {
             "image": "langton-ant.png",
