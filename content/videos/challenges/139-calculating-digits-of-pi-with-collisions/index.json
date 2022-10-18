@@ -21,7 +21,52 @@
         "156-peeking-inside-pi",
         "161-estimating-pi-from-random-numbers"
     ],
-    "timestamps": [],
+    "timestamps": [
+        {
+            "time": "0:00",
+            "title": "Introduction!"
+        },
+        {
+            "time": "1:51",
+            "title": "Basic code of the structure"
+        },
+        {
+            "time": "7:00",
+            "title": "Simulating elastic collision between two blocks"
+        },
+        {
+            "time": "12:03",
+            "title": "Simulating the wall"
+        },
+        {
+            "time": "13:59",
+            "title": "Adding the clack!"
+        },
+        {
+            "time": "14:29",
+            "title": "Counting the collisions!"
+        },
+        {
+            "time": "18:09",
+            "title": "Adding timesteps to control approximation"
+        },
+        {
+            "time": "24:12",
+            "title": "Adding constraints to speed up animation"
+        },
+        {
+            "time": "26:47",
+            "title": "Watching collisions upto 11 digits of pi!"
+        },
+        {
+            "time": "28:46",
+            "title": "Other methods to simulate elastic collisions and things to try!"
+        },
+        {
+            "time": "30:50",
+            "title": "Fake outro (and a special Pi Day song!)"
+        }
+    ],
     "codeExamples": [
         {
             "title": "Calculating Pi digits with Collisions",
