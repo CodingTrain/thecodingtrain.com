@@ -1,0 +1,55 @@
+{
+    "title": "White House Social Media Data Visualization",
+    "description": "In this Coding Challenge, I discuss how to use the newly released White House social media data to make simple data visualization example with p5.js.",
+    "videoNumber": "48",
+    "videoId": "UrznYJltZrU",
+    "date": "2017-01-06",
+    "languages": ["JavaScript", "p5.js"],
+    "topics": [
+        "data visualization",
+        "word count"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "Obamathon Word Count by Date Example",
+            "description": "This sketch highlights the words used in the tweets from the White House with a bar chart.",
+            "urls": {
+                "p5": "https://github.com/CodingTrain/Coding-Challenges/tree/main/048_TweetsByMonth/P5",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/048_TweetsByMonth/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🔗",
+                    "title": "The White House Social Media Data",
+                    "url": "https://obamawhitehouse.archives.gov/blog/2017/01/05/new-lenses-first-social-media-presidency",
+                    "description": "White House announcement accompanying the release of social media data."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ITP 'Obamathon' Github Repo",
+                    "url": "https://github.com/ITPNYU/Obamathon/tree/master/examples/P5/TweetsByMonth",
+                    "description": "Data and source code on ITP \"Obamathon\" github repository."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "TF-IDF",
+                    "url": "https://codingtrain.github.io/website-archive/CodingChallenges/040.3-tf-idf",
+                    "description": "In part 3 of the Word Counting Coding Challenge, I implement an algorithm known as TF-IDF (Term Frequency – Inverse Document Frequency)."
+                }
+            ]
+        }
+    ]
+}
