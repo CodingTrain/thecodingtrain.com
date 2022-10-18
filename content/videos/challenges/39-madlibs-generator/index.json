@@ -42,6 +42,12 @@
           "title": "Tabletop.js",
           "url": "https://github.com/jsoma/tabletop",
           "description": "GitHub repository of tabletop.js"
+        },
+        {
+          "icon": "🗒️",
+          "title": "Papa Parse",
+          "url": "https://www.papaparse.com/",
+          "description": "Papa parse, a tabletop.js alternative"
         }
       ]
     }
