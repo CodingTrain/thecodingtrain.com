@@ -54,7 +54,7 @@
             "title": "Obamathon Word Count by Date Example",
             "description": "This sketch highlights the words used in the tweets from the White House with a bar chart.",
             "urls": {
-                "p5": "https://github.com/CodingTrain/Coding-Challenges/tree/main/048_TweetsByMonth/P5",
+                "p5": "https://editor.p5js.org/codingtrain/sketches/adc42eDiu",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/048_TweetsByMonth/Processing"
             }
         }
