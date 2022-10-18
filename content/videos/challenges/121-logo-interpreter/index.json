@@ -28,7 +28,7 @@
             "image": "logo-part-1.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/ryTuOf3gN",
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_1/Processing"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/121_Logo_1/Processing"
             }
         },
         {
@@ -37,7 +37,7 @@
             "image": "logo-part-2.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/BJqG8zhlN",
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_121_Logo_2/Processing"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/121_Logo_2/Processing"
             }
         }
     ],
