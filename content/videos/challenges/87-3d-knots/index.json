@@ -1,63 +1,25 @@
 {
     "title": "3D Knots",
-    "description": "In this coding challenge, I attempt to make 3D Knots using Processing and Paul Bourke\u2019s formulae.",
+    "description": "I attempt to make 3D Knots using Processing and Paul Bourke\u2019s formulae.",
     "videoNumber": "87",
     "videoId": "r6YMKr1X0VA",
     "date": "2017-12-20",
-    "languages": [],
+    "languages": ["Java", "Processing"],
     "topics": [
-        "JavaScript (Programming Language)",
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "itp nyu",
-        "class",
-        "3d javascript",
-        "3d animation",
-        "3d lights",
-        "3d material",
-        "3d",
-        "programming challenge",
-        "3D processing",
-        "processing coding challenge",
+        "3d rendering",
         "3d knots",
-        "3d geometry",
-        "paul bourke",
-        "3d knots processing",
-        "3d art",
-        "3d math art"
+        "polar to cartesian coordinates"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["25-spherical-geometry", "12-lorenz-attractor"],
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "3D Knots",
+            "description": "An implementation of Paul Bourke's formulae for 3D knots",
             "urls": {
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_087_3D_Knots/Processing",
                 "p5": "https://editor.p5js.org/codingtrain/sketches/fa1rAWng9"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_087_3D_Knots/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_087_3D_Knots/Processing"
             }
         }
     ],
@@ -66,24 +28,16 @@
             "title": "References",
             "links": [
                 {
-                    "title": "Paul Bourke's reference on 3D knots",
+                    "icon": "📔",
+                    "title": "Knots (1992)",
                     "url": "http://paulbourke.net/geometry/knots/",
-                    "description": ""
+                    "description": "An article on knots written by Paul Bourke"
                 },
                 {
-                    "title": "Knot Theory on Wikipedia",
+                    "icon": "📝",
+                    "title": "Knot Theory",
                     "url": "https://en.wikipedia.org/wiki/Knot_theory",
-                    "description": ""
-                }
-            ]
-        },
-        {
-            "title": "Videos",
-            "links": [
-                {
-                    "title": "My Coding Challenge on Spherical Geometry",
-                    "url": "/challenge/025-spheregeometry",
-                    "description": ""
+                    "description": "Wikipedia Article on Wikipedia"
                 }
             ]
         }
