@@ -11,7 +11,7 @@
         "heuristic"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["10-dfs-maze-generator"],
     "timestamps": [],
     "parts": [{
             "title": "A* Pathfinder Algorithm - Part 1",
@@ -57,8 +57,7 @@
         {
             "title": "A* Algorithm - Part 2",
             "videoId": "EaZxUCWAjb0",
-            "timestamps": [
-                {
+            "timestamps": [{
                     "time": "0:00:00",
                     "title": "Introduction"
                 },
@@ -91,38 +90,34 @@
         {
             "title": "A* Algorithm - Part 3",
             "videoId": "jwRT4PCT6RU",
-            "timestamps": [
-                    {
-                        "time": "0:00:00",
-                        "title": "Introduction"
-                    },
-                    {
-                        "time": "0:00:46",
-                        "title": "Drawing The Path"
-                    },
-                    {
-                        "time": "0:02:48",
-                        "title": "Different Visualizations"
-                    },
-                    {
-                        "time": "0:06:10",
-                        "title": "Conclusions and New Ideas"
-                    }
+            "timestamps": [{
+                    "time": "0:00:00",
+                    "title": "Introduction"
+                },
+                {
+                    "time": "0:00:46",
+                    "title": "Drawing The Path"
+                },
+                {
+                    "time": "0:02:48",
+                    "title": "Different Visualizations"
+                },
+                {
+                    "time": "0:06:10",
+                    "title": "Conclusions and New Ideas"
+                }
             ]
         }
     ],
-    "codeExamples": [
-        {
-            "title": "A* Algorithm",
-            "description": "This sketch implements the A* Pathfinding Algorithm",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar"
-            }
+    "codeExamples": [{
+        "title": "A* Algorithm",
+        "description": "This sketch implements the A* Pathfinding Algorithm",
+        "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat",
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar"
         }
-    ],
-    "groupLinks": [
-        {
+    }],
+    "groupLinks": [{
             "title": "References",
             "links": [{
                     "icon": "📘",
@@ -139,13 +134,14 @@
             ]
         },
         {
-            "title": "Videos",
+            "title": "Live Stream Archive",
             "links": [{
-                "icon": "🚂",
-                "title": "My Maze Generation Coding Challenge",
-                "url": "/challenges/10-dfs-maze-generator",
-                    "description": "I create a maze generator using a depth-first search algorithm with recursive backtracking."
-            }]
+                    "icon": "🎥",
+                    "title": "A* Livestream",
+                    "url": "https://www.youtube.com/watch?v=S4yQYiAECnM&t=34m50s",
+                    "description": "This unedited archive features the entire very long and messy debugging process!"
+                }
+            ]
         }
     ]
 }

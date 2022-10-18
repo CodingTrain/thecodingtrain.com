@@ -4,7 +4,7 @@
   "videoNumber": "55",
   "videoId": "f5QBExMNB1I",
   "date": "2017-02-08",
-  "languages": ["p5.js", "JavaScript", "Processing", "Java"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": [
     "algorithmic roses",
     "mathematics roses",
@@ -53,8 +53,7 @@
       "image": "math_rose.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/3kanFIcHd",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses/Processing/CC_055_Roses",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses/Processing/CC_055_Roses"
       }
     }
   ],
@@ -66,7 +65,7 @@
           "icon": "🏛",
           "title": "Rose Mathematics on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Rose_(mathematics)",
-          "description": ""
+          "description": "Wikipedia page with information and resources about rose mathematics."
         }
       ]
     }
