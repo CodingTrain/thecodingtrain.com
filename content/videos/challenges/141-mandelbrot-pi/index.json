@@ -67,24 +67,16 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "Mandelbrot Set with p5.js",
-                    "url": "/challenge/021-mandelbrot-p5",
-                    "description": ""
-                },
-                {
-                    "title": "Calculating Digits of Pi with Collisions",
-                    "url": "/challenge/139-pi-collisions",
-                    "description": ""
-                },
-                {
+                    "icon": "📺",
                     "title": "12 Hour Live Stream (last 4 hours sadly cut-off)",
                     "url": "https://youtu.be/PIeKyP97EUc",
-                    "description": ""
+                    "description": "12 hours approximating 10 digits of Pi with the Mandelbrot Set"
                 },
                 {
+                    "icon": "🥟",
                     "title": "Pi and the Mandelbrot Set",
                     "url": "https://youtu.be/d0vY0CKYhPY",
-                    "description": ""
+                    "description": "Numberphile video on this topic"
                 }
             ]
         }
