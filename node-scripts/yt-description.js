@@ -313,6 +313,7 @@ function writeDescription(video) {
   }
 
   // Related Challenges
+
   if (data.relatedChallenges && data.relatedChallenges.length > 0) {
     description += `\nRelated Coding Challenges:\n`;
     for (const challenge of data.relatedChallenges) {
@@ -320,13 +321,10 @@ function writeDescription(video) {
         (vid) => vid.pageURL === `challenges/${challenge}`
       );
       if (challengeData) {
-        const {
-          videoNumber,
-          challengeTitle: title,
-          pageURL: url
-        } = challengeData.data;
+        const { videoNumber, challengeTitle } = challengeData.data;
+        const url = challengeData.pageURL;
         description +=
-          `🚂 #${videoNumber} ${title}: ${getYouTubeURL(url)}`.trim() + '\n';
+          `🚂 #${videoNumber} ${challengeTitle}: ${getYouTubeURL(url)}`.trim() + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }
