@@ -1,0 +1,84 @@
+{
+    "title": "Calculating Digits of Pi with Mandelbrot Set",
+    "description": "Let's celebrate PI Day by approximating the digits of Pi using a special location in the legendary Mandelbrot set fractal!",
+    "videoNumber": "141",
+    "videoId": "pn2vlselv_g",
+    "date": "2019-03-21",
+    "languages": ["Java", "Processing"],
+    "topics": [
+        "mandelbrot",
+        "Mandelbrot set",
+        "pi approximation",
+        "fractal"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [
+        "21-mandelbrot-set-with-p5js",
+        "140-pi-leibniz",
+        "156-peeking-inside-pi",
+        "161-estimating-pi-from-random-numbers",
+        "169-pi-in-the-sky"
+    ],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction!" },
+        { "time": "0:43", "title": "Mandelbrot Set Summary" },
+        { "time": "5:00", "title": "Calculating Digits of Pi" },
+        { "time": "7:30", "title": "Simplifying" },
+        { "time": "9:20", "title": "Mistake" },
+        { "time": "14:30", "title": "Big Decimal" },
+        { "time": "17:30", "title": "Math Context" },
+        { "time": "22:30", "title": "Mandelbrot Set" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Digits of Pi Using Mandelbrot Set",
+            "description": "Processing sketch to calculate digits of pi using the Mandelbrot Set",
+            "image": "pi-mandelbrot.png",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/141_Mandelbrot_Pi/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🥧",
+                    "title": "The World of Pi",
+                    "url": "http://www.pi314.net/eng/",
+                    "description": "The World of Pi website"
+                },
+                {
+                    "icon": "☕",
+                    "title": "BigDecimal",
+                    "url": "https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html",
+                    "description": "Documentation of Java BigDecimal class"
+                },
+                {
+                    "icon": "🖼️",
+                    "title": "Mandelbrot Image",
+                    "url": "https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_00_mandelbrot_set.jpg",
+                    "description": "Image of Mandelbrot Set from Wikipedia"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "📺",
+                    "title": "12 Hour Live Stream (last 4 hours sadly cut-off)",
+                    "url": "https://youtu.be/PIeKyP97EUc",
+                    "description": "12 hours approximating 10 digits of Pi with the Mandelbrot Set"
+                },
+                {
+                    "icon": "🥟",
+                    "title": "Pi and the Mandelbrot Set",
+                    "url": "https://youtu.be/d0vY0CKYhPY",
+                    "description": "Numberphile video on this topic"
+                }
+            ]
+        }
+    ]
+}
