@@ -4,51 +4,44 @@
     "videoNumber": "138",
     "videoId": "TDQzoe9nslY",
     "date": "2019-03-08",
-    "languages": [],
+    "languages": [
+        "p5.js",
+        "JavaScript"
+    ],
     "topics": [
-        "daniel shiffman",
-        "coding",
-        "the coding train",
-        "coding challenge",
-        "creative coding",
-        "code challenge",
-        "javascript (programming language)",
-        "programming challenge",
-        "matter",
-        "matterjs",
-        "angry birds",
-        "angry birds javascript",
-        "angry birds js",
-        "angry birds game",
-        "diy angry birds",
-        "physics engine",
-        "physics engine javascript",
-        "collision detection js",
-        "collision detection javascript",
-        "physics javascript",
-        "physics engine p5.js",
-        "physics engine intro",
-        "physics 2d javascript",
-        "physics engine 2d",
         "matter.js",
-        "p5.js"
+        "physics engine 2D",
+        "angry birds"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
+    "relatedChallenges": [
+        "62-plinko-with-matterjs",
+        "41-clappy-bird",
+        "31-flappy-bird",
+        "20-3d-cloth-simulation",
+        "147-chrome-dinosaur-game"
+    ],
+    "timestamps": [
+        {"time": "0:00", "title": "Introduction!"},
+        {"time": "1:30", "title": "Getting started with an Object Oriented Approach"},
+        {"time": "5:08", "title": "Adding and setting up matter.js"},
+        {"time": "11:05", "title": "Adding and using the physics engine"},
+        {"time": "12:52", "title": "Making the ground static"},
+        {"time": "15:38", "title": "Adding mouse constraints to control the bird"},
+        {"time": "21:20", "title": "Adding the slingshot"},
+        {"time": "27:00", "title": "Launching the bird with the slingshot!"},
+        {"time": "30:57", "title": "Fixing bugs and things to refactor later!"},
+        {"time": "33:07", "title": "Replacing the shapes with images"},
+        {"time": "37:15", "title": "Adding restitution"},
+        {"time": "38:47", "title": "Wrapping things up and improvements to make!"}
+
+],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Angry Birds with Matter.js!",
+            "description": "Implementation of the basic mechanics of the Angry Birds game.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/LbNt1nyxE"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_138_Angry_Birds/P5"
             }
         }
     ],
@@ -57,14 +50,16 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🐦",
                     "title": "Angry Birds",
                     "url": "https://www.angrybirds.com/",
-                    "description": ""
+                    "description": "The official page of the Angry Birds!"
                 },
                 {
+                    "icon": "🚒",
                     "title": "Matter.js",
                     "url": "http://brm.io/matter-js/",
-                    "description": ""
+                    "description": "A 2D physics engine for the web"
                 }
             ]
         },
@@ -72,19 +67,28 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "Introduction to Matter.js",
-                    "url": "https://youtu.be//more/archive/nature-of-code/5-Physics-Libraries/5.17-Introduction-to-Matter.js",
-                    "description": ""
+                    "icon": "🚂",
+                    "title": "Matter.js Physics",
+                    "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+                    "description": "Playlist of matter.js physics tutorial videos in JavaScript with p5.js"
                 },
                 {
+                    "icon": "🚂",
                     "title": "Inheritance in JavaScript",
-                    "url": "/Tutorials/16-javascript-es6/16.17-inheritance",
-                    "description": ""
+                    "url": "https://thecodingtrain.com/tracks/topics-in-native-javascript/js/inheritance",
+                    "description": "Tutorial on the concept on inheritance in JavaScript"
                 },
                 {
+                    "icon": "🚂",
+                    "title": "Inheritance in Java",
+                    "url": "https://youtu.be/e6eXD8DHc_A",
+                    "description": "Tutorial on the concept on inheritance in Java (NOC 1)"
+                },
+                {
+                    "icon": "🕹️",
                     "title": "Phaser Game Development with Catt Small",
-                    "url": "/GuestTutorials/008-catt-small-phaser-game-development",
-                    "description": ""
+                    "url": "https://youtu.be/T9kOFSFvgKc",
+                    "description": "Guest tutorial on Phaser Game development by Catt Small"
                 }
             ]
         }
