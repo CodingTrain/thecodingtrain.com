@@ -1,6 +1,6 @@
 {
     "title": "3D Knots",
-    "description": "I attempt to make 3D Knots using Processing and Paul Bourke\u2019s formulae.",
+    "description": "Getting tied up in 3D Knots in Processing is loads of fun! Thank you to Paul Bourke for the helpful reference and formulae!",
     "videoNumber": "87",
     "videoId": "r6YMKr1X0VA",
     "date": "2017-12-20",
@@ -42,15 +42,15 @@
             "links": [
                 {
                     "icon": "📔",
-                    "title": "Knots (1992)",
+                    "title": "Knots",
                     "url": "http://paulbourke.net/geometry/knots/",
-                    "description": "An article on knots written by Paul Bourke"
+                    "description": "An article on knots written by Paul Bourke from 1992!"
                 },
                 {
                     "icon": "📝",
                     "title": "Knot Theory",
                     "url": "https://en.wikipedia.org/wiki/Knot_theory",
-                    "description": "Wikipedia Article on Wikipedia"
+                    "description": "Knots explained on Wikipedia."
                 }
             ]
         }
