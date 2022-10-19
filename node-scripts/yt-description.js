@@ -321,10 +321,10 @@ function writeDescription(video) {
         (vid) => vid.pageURL === `challenges/${challenge}`
       );
       if (challengeData) {
-        const { videoNumber, title } = challengeData.data;
+        const { videoNumber, challengeTitle } = challengeData.data;
         const url = challengeData.pageURL;
         description +=
-          `🚂 #${videoNumber} ${title}: ${getYouTubeURL(url)}`.trim() + '\n';
+          `🚂 #${videoNumber} ${challengeTitle}: ${getYouTubeURL(url)}`.trim() + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }
