@@ -44,6 +44,7 @@
     ],
     "codeExamples": [
         {
+            "image": "open-simplex-loop.png",
             "title": "4D OpenSimplex Noise Loop",
             "description": "Creating a 4D OpenSimplex Noise Loop",
             "urls": {
