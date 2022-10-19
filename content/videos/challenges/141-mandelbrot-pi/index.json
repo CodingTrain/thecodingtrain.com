@@ -29,19 +29,22 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🥧",
                     "title": "The World of Pi",
                     "url": "http://www.pi314.net/eng/",
-                    "description": ""
+                    "description": "The World of Pi website"
                 },
                 {
+                    "icon": "☕",
                     "title": "BigDecimal",
                     "url": "https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html",
-                    "description": ""
+                    "description": "Documentation of Java BigDecimal class"
                 },
                 {
+                    "icon": "🖼️",
                     "title": "Mandelbrot Image",
                     "url": "https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_00_mandelbrot_set.jpg",
-                    "description": ""
+                    "description": "Image of Mandelbrot Set from Wikipedia"
                 }
             ]
         },
