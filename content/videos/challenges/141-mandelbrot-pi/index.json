@@ -4,31 +4,12 @@
     "videoNumber": "141",
     "videoId": "pn2vlselv_g",
     "date": "2019-03-21",
-    "languages": [],
+    "languages": ["Java", "Processing"],
     "topics": [
-        "daniel shiffman",
-        "coding",
-        "the coding train",
-        "coding challenge",
-        "creative coding",
-        "code challenge",
-        "javascript (programming language)",
-        "programming challenge",
-        "pi",
-        "pi day",
-        "pi digits",
-        "p5.js web editor",
-        "coding train",
-        "approximate pi",
-        "p5.js tutorial",
-        "pi day coding challenge",
-        "pi day coding",
+        "mandelbrot",
+        "Mandelbrot set",
         "pi approximation",
-        "Pi Day",
-        "mandelbrot pi",
-        "mandelbrot set pi",
-        "mandelbrot set",
-        "mandelbrot"
+        "fractal"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -38,7 +19,8 @@
             "title": "Processing - Processing",
             "description": "",
             "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_141_Mandelbrot_Pi/Processing"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/021_Mandelbrot/Processing",
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/021_Mandelbrot/P5"
             }
         }
     ],
