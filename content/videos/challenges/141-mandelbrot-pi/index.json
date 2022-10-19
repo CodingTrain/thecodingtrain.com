@@ -19,7 +19,16 @@
         "161-estimating-pi-from-random-numbers",
         "169-pi-in-the-sky"
     ],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction!" },
+        { "time": "0:43", "title": "Mandelbrot Set Summary" },
+        { "time": "5:00", "title": "Calculating Digits of Pi" },
+        { "time": "7:30", "title": "Simplifying" },
+        { "time": "9:20", "title": "Mistake" },
+        { "time": "14:30", "title": "Big Decimal" },
+        { "time": "17:30", "title": "Math Context" },
+        { "time": "22:30", "title": "Mandelbrot Set" }
+    ],
     "codeExamples": [
         {
             "title": "Processing - Processing",
