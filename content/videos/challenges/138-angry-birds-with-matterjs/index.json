@@ -1,0 +1,92 @@
+{
+    "title": "Angry Birds with Matter.js",
+    "description": "An attempt to implement the basic mechanics of Angry Birds in JavaScript using p5.js and the matter.js physics engine.",
+    "videoNumber": "138",
+    "videoId": "TDQzoe9nslY",
+    "date": "2019-03-08",
+    "languages": [],
+    "topics": [
+        "daniel shiffman",
+        "coding",
+        "the coding train",
+        "coding challenge",
+        "creative coding",
+        "code challenge",
+        "javascript (programming language)",
+        "programming challenge",
+        "matter",
+        "matterjs",
+        "angry birds",
+        "angry birds javascript",
+        "angry birds js",
+        "angry birds game",
+        "diy angry birds",
+        "physics engine",
+        "physics engine javascript",
+        "collision detection js",
+        "collision detection javascript",
+        "physics javascript",
+        "physics engine p5.js",
+        "physics engine intro",
+        "physics 2d javascript",
+        "physics engine 2d",
+        "matter.js",
+        "p5.js"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/LbNt1nyxE"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_138_Angry_Birds/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Angry Birds",
+                    "url": "https://www.angrybirds.com/",
+                    "description": ""
+                },
+                {
+                    "title": "Matter.js",
+                    "url": "http://brm.io/matter-js/",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "title": "Introduction to Matter.js",
+                    "url": "https://youtu.be//more/archive/nature-of-code/5-Physics-Libraries/5.17-Introduction-to-Matter.js",
+                    "description": ""
+                },
+                {
+                    "title": "Inheritance in JavaScript",
+                    "url": "/Tutorials/16-javascript-es6/16.17-inheritance",
+                    "description": ""
+                },
+                {
+                    "title": "Phaser Game Development with Catt Small",
+                    "url": "/GuestTutorials/008-catt-small-phaser-game-development",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
