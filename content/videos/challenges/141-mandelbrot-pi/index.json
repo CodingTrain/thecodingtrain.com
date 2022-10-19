@@ -31,11 +31,11 @@
     ],
     "codeExamples": [
         {
-            "title": "Processing - Processing",
-            "description": "",
+            "title": "Digits of Pi Using Mandelbrot Set",
+            "description": "Processing sketch to calculate digits of pi using the Mandelbrot Set",
+            "image": "pi-mandelbrot.png",
             "urls": {
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/021_Mandelbrot/Processing",
-                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/021_Mandelbrot/P5"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/141_Mandelbrot_Pi/Processing"
             }
         }
     ],
