@@ -255,7 +255,7 @@
   border-bottom: var(--border-purple);
   background: white;
 
-  & p {
+  & p, & address {
     margin: 0;
     padding: 0 var(--box-padding);
     color: var(--gray-dark);
@@ -277,6 +277,7 @@
 
 .showcase .author {
   font-family: var(--maru-mono);
+  font-style: normal;
   color: var(--gray-dark);
   padding: 0 var(--box-padding);
   margin: 0;
@@ -285,10 +286,9 @@
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
 
-  & address {
+  & .authorName {
     display: inline;
     color: var(--purple);
-    font-style: normal;
 
     & a {
       text-decoration: underline;

@@ -107,18 +107,18 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
           </p>
           <p className={css.showcaseTitle}>{title}</p>
         </div>
-        <p className={css.author}>
+        <address className={css.author}>
           {author && <span>by </span>}
           {author && (
-            <address>
+            <span className={css.authorName}>
               {author.url ? (
                 <a href={author.url}>{author.name}</a>
               ) : (
                 author.name
               )}
-            </address>
+            </span>
           )}
-        </p>
+        </address>
       </div>
       <a
         className={css.right}
@@ -162,14 +162,14 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
       <p className={css.showcaseBanner}>{cta.text}</p>
       <Spacer className={css.verticalSpacer} pattern />
       {featuredShowcases.map((showcase, index) => (
-        <>
+        <React.Fragment key={index}>
           <PassengerShowcaseCard
             showcase={showcase}
             placeholderImage={placeholderImage}
             cta={cta}
           />
           {index < 2 && <Spacer className={css.verticalSpacer} pattern />}
-        </>
+        </React.Fragment>
       ))}
     </section>
   );
