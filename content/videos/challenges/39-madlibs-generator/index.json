@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js", "tabletop.js"],
   "topics": ["mad libs", "google forms", "data collecting"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["37-diastic-machine"],
   "timestamps": [
       { "time": "0:00", "title": "Introduction and what Mad Libs is" },
       { "time": "2:15", "title": "Making the Google Form" },

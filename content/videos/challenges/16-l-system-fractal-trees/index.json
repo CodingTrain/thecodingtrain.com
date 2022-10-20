@@ -95,9 +95,9 @@
       "title": "videos",
       "links": [{
         "icon": "🎥",
-        "title": "Algorithmic Botony Track",
+        "title": "Algorithmic Botany Track",
         "url": "/tracks/algorithmic-botany",
-        "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing. "
+        "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
       }]
     }
   ]

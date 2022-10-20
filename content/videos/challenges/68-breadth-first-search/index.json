@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["breadth-first search algorithm", "six degrees of kevin bacon"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["65-binary-tree", "98-quadtree"],
   "timestamps": [],
   "parts": [
     {
