@@ -22,7 +22,7 @@
     {
       "title": "Solar System (3D) with Textures",
       "description": "Demonstration of the 3D solar system with image textures.",
-      "image": "solarsystem3d-textures.png",
+      "image": "solar3d-textures.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SD8a6k6A",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_009_SolarSystemGenerator3D_texture/Processing"
