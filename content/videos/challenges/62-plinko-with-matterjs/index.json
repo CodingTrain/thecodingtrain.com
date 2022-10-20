@@ -88,6 +88,7 @@
     {
       "title": "Plinko Simulation",
       "description": "This sketch implements a Plinko simulation.",
+      "image": "plinko.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo"
       }
