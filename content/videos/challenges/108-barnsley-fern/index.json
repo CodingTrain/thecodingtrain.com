@@ -7,6 +7,14 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "generative art", "algorithmic botany"],
   "canContribute": true,
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "15-object-oriented-fractal-trees",
+    "16-l-system-fractal-trees",
+    "17-fractal-trees-space-colonization",
+    "18-3d-fractal-trees",
+    "174-graphics-applesoft-basic"
+  ],
   "timestamps": [],
   "codeExamples": [
     {
@@ -32,6 +40,17 @@
           "icon": "🌐",
           "title": "Barnsley fern on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Barnsley_fern"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Algorithmic Botany Track",
+          "url": "/tracks/algorithmic-botany",
+          "description": "My algorithmic botony playlist."
         }
       ]
     }

@@ -12,7 +12,11 @@
     "algorithmic botany"
   ],
   "canContribute": true,
-  "relatedChallenges": ["14-fractal-trees-recursive", "16-l-system-fractal-trees", "174-graphics-applesoft-basic"],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "16-l-system-fractal-trees",
+    "174-graphics-applesoft-basic"
+  ],
   "timestamps": [{
       "time": "0:00",
       "title": "Introducing today's topic"
