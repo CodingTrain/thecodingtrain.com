@@ -1,0 +1,142 @@
+{
+    "title": "Visualizing 500,000 Subscribers",
+    "description": "Celebrating the 500,000 subscribers milestone, I create a map visualization of Coding Train subscriber locations around the world!",
+    "videoNumber": "109",
+    "videoId": "Ae73YY_GAU8",
+    "date": "2018-07-09",
+    "languages": [],
+    "topics": [
+        "programming",
+        "daniel shiffman",
+        "creative coding",
+        "coding challenge",
+        "tutorial",
+        "coding",
+        "challenges",
+        "coding train",
+        "the coding train",
+        "live stream",
+        "class",
+        "challenge",
+        "codingtrain",
+        "code challenge",
+        "mappa",
+        "mappa.js",
+        "map viz",
+        "map visualization",
+        "map visualization js",
+        "map visualization javascript",
+        "500k subscribers",
+        "500k subs",
+        "500000 subs",
+        "500000 subscribers",
+        "youtube analytics",
+        "youtube analytics api",
+        "javascript (programming language)",
+        "es6 arrow",
+        "es6 arrow functions",
+        "json tutorial",
+        "p5 js"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        {
+            "time": "0:00:00",
+            "title": "Introduction"
+        },
+        {
+            "time": "0:02:39",
+            "title": "Mappa"
+        },
+        {
+            "time": "0:03:40",
+            "title": "CONST: Loading The Data"
+        },
+        {
+            "time": "0:09:23",
+            "title": "Data Parsing"
+        },
+        {
+            "time": "0:11:49",
+            "title": "Adding a Map With Mappa"
+        },
+        {
+            "time": "0:19:05",
+            "title": "Adding Overlays"
+        },
+        {
+            "time": "0:21:18",
+            "title": "Visualizing Each Country lat/lon Position"
+        },
+        {
+            "time": "0:28:13",
+            "title": "Changing The Diameter Sizes"
+        },
+        {
+            "time": "0:32:00",
+            "title": "Resizing According The Zoom Level"
+        },
+        {
+            "time": "0:46:25",
+            "title": "Visualizing Watch Time"
+        },
+        {
+            "time": "0:48:25",
+            "title": "Conclusions and Suggestions"
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "p5js - p5 Web Editor",
+            "description": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/fItzQP-RD"
+            }
+        },
+        {
+            "title": "p5js - GitHub",
+            "description": "",
+            "urls": {
+                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_109_subscriber_map/P5"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "title": "Mappa.js Simple Map",
+                    "url": "https://mappa.js.org/docs/simple-map.html",
+                    "description": ""
+                },
+                {
+                    "title": "Maps, Maps, Maps!",
+                    "url": "https://medium.com/processing-foundation/maps-maps-maps-f0914218c87b",
+                    "description": ""
+                },
+                {
+                    "title": "Countries latitude and longitude",
+                    "url": "https://gist.github.com/sindresorhus/1341699",
+                    "description": ""
+                },
+                {
+                    "title": "Leaflet",
+                    "url": "https://leafletjs.com/",
+                    "description": ""
+                },
+                {
+                    "title": "500k Subscriber Map Repo",
+                    "url": "https://github.com/CodingTrain/500k-Subscriber-Map",
+                    "description": ""
+                },
+                {
+                    "title": "Live Example",
+                    "url": "https://codingtrain.github.io/500k-Subscriber-Map/",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
