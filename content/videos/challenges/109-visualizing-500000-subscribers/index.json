@@ -4,101 +4,59 @@
     "videoNumber": "109",
     "videoId": "Ae73YY_GAU8",
     "date": "2018-07-09",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "class",
-        "challenge",
-        "codingtrain",
-        "code challenge",
-        "mappa",
-        "mappa.js",
-        "map viz",
-        "map visualization",
-        "map visualization js",
-        "map visualization javascript",
-        "500k subscribers",
-        "500k subs",
-        "500000 subs",
-        "500000 subscribers",
-        "youtube analytics",
-        "youtube analytics api",
-        "javascript (programming language)",
-        "es6 arrow",
-        "es6 arrow functions",
-        "json tutorial",
-        "p5 js"
+        "data visualization",
+        "world map"
     ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [
-        {
-            "time": "0:00:00",
-            "title": "Introduction"
-        },
-        {
-            "time": "0:02:39",
-            "title": "Mappa"
-        },
-        {
-            "time": "0:03:40",
-            "title": "CONST: Loading The Data"
-        },
-        {
-            "time": "0:09:23",
-            "title": "Data Parsing"
-        },
-        {
-            "time": "0:11:49",
-            "title": "Adding a Map With Mappa"
-        },
-        {
-            "time": "0:19:05",
-            "title": "Adding Overlays"
-        },
-        {
-            "time": "0:21:18",
-            "title": "Visualizing Each Country lat/lon Position"
-        },
-        {
-            "time": "0:28:13",
-            "title": "Changing The Diameter Sizes"
-        },
-        {
-            "time": "0:32:00",
-            "title": "Resizing According The Zoom Level"
-        },
-        {
-            "time": "0:46:25",
-            "title": "Visualizing Watch Time"
-        },
-        {
-            "time": "0:48:25",
-            "title": "Conclusions and Suggestions"
-        }
+        { "time": "0:00", "title": "Introduce the coding channel" },
+        { "time": "0:42", "title": "Describe Mappa.js" },
+        { "time": "1:07", "title": "Introduce the YouTube dataset" },
+        { "time": "2:42", "title": "Reference Mappa.js library and tutorial" },
+        { "time": "3:38", "title": "Preload YouTube data" },
+        { "time": "5:30", "title": "Debug loading function" },
+        { "time": "8:12", "title": "Parse .csv file" },
+        { "time": "9:20", "title": "Extract data values" },
+        { "time": "11:57", "title": "Load Mappa.js" },
+        { "time": "12:48", "title": "Mention Leaflet integration" },
+        { "time": "13:55", "title": "Describe map types: static and tile" },
+        { "time": "14:38", "title": "Create a tile map" },
+        { "time": "15:25", "title": "Overlay the map on a canvas" },
+        { "time": "17:07", "title": "Debug Mappa.js" },
+        { "time": "17:38", "title": "Add map tiles" },
+        { "time": "18:34", "title": "Refine initial map" },
+        { "time": "19:06", "title": "Draw a circle with a fixed position" },
+        { "time": "20:10", "title": "Draw a circle considering longitude and latitude" },
+        { "time": "21:20", "title": "Reference a dataset with the coordinates for the world's countries" },
+        { "time": "22:48", "title": "Load country data" },
+        { "time": "23:48", "title": "Associate YouTube data by country ID" },
+        { "time": "24:26", "title": "Extract longitude and latitude" },
+        { "time": "25:20", "title": "Draw a circle with the coordinates" },
+        { "time": "27:27", "title": "Show subscriber map" },
+        { "time": "28:15", "title": "Update the diameter of the circles" },
+        { "time": "31:12", "title": "Examine map update" },
+        { "time": "32:30", "title": "Consider the zoom level" },
+        { "time": "34:25", "title": "Pre-process YouTube data" },
+        { "time": "36:22", "title": "Find the minimum and maximun number of subscribers" },
+        { "time": "37:10", "title": "Update drawing logic" },
+        { "time": "39:20", "title": "Map diameter considering the minum and maximun values" },
+        { "time": "40:35", "title": "Debug diameter value" },
+        { "time": "42:22", "title": "Convert subscriber count to number" },
+        { "time": "43:58", "title": "Update scale according to the zoom value" },
+        { "time": "46:28", "title": "Load a different dataset" },
+        { "time": "47:24", "title": "Highlight the number of views" },
+        { "time": "48:05", "title": "Highlight watch times" },
+        { "time": "48:25", "title": "Conclude the coding challenge" }
     ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Visualizing 500,000 Subscribers",
+            "description": "This sketch creates a map visualization for the location of subscribers to the Coding Train YouTube channel.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/fItzQP-RD"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_109_subscriber_map/P5"
             }
         }
     ],
@@ -107,34 +65,40 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🔗",
                     "title": "Mappa.js Simple Map",
                     "url": "https://mappa.js.org/docs/simple-map.html",
-                    "description": ""
+                    "description": "This tutorial will go over the basics of building a simple web map using Mappa, p5.js and Leaflet."
                 },
                 {
+                    "icon": "🔗",
                     "title": "Maps, Maps, Maps!",
                     "url": "https://medium.com/processing-foundation/maps-maps-maps-f0914218c87b",
-                    "description": ""
+                    "description": "Introduction of Mappa.js from the Processing Foundation."
                 },
                 {
+                    "icon": "🔗",
                     "title": "Countries latitude and longitude",
                     "url": "https://gist.github.com/sindresorhus/1341699",
-                    "description": ""
+                    "description": "Country codes (ISO 3166) to latitude and longitude."
                 },
                 {
+                    "icon": "🔗",
                     "title": "Leaflet",
                     "url": "https://leafletjs.com/",
-                    "description": ""
+                    "description": "An open-source JavaScript library for mobile-friendly interactive map."
                 },
                 {
-                    "title": "500k Subscriber Map Repo",
+                    "icon": "🔗",
+                    "title": "500k Subscriber Map",
                     "url": "https://github.com/CodingTrain/500k-Subscriber-Map",
-                    "description": ""
+                    "description": "GitHub repository for the community version of 'Coding Challenge 109: 500k Subscriber Visualization'."
                 },
                 {
-                    "title": "Live Example",
+                    "icon": "🔗",
+                    "title": "CodingTrain 500k Sub Special",
                     "url": "https://codingtrain.github.io/500k-Subscriber-Map/",
-                    "description": ""
+                    "description": "Community version of 'Coding Challenge 109: 500k Subscriber Visualization'."
                 }
             ]
         }
