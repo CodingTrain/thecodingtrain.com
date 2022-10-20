@@ -1,18 +1,28 @@
 {
-  "title": "Solar System in Processing - Part 3 (3D textures)",
-  "description": "In part 3 of this coding challenge, using Processing, I add texture to the 3D objects created in part 2. The PShape class and createShape() functions are covered.",
+  "title": "Solar System (3D) with textures",
+  "description": "In part 3 of this coding challenge, using Processing, I add textures to the 3D objects created in part 2. The PShape class and createShape() functions are covered.",
   "videoNumber": "9",
   "videoId": "FGAwi7wpU8c",
-  "date": "2016-05-02",
+  "date": "2016-05-01",
   "languages": ["processing"],
-  "topics": ["solar system", "3d"],
+  "topics": ["solar system", "3d", "textures"],
   "canContribute": true,
   "relatedChallenges": ["7-solar-system-2d", "8-solar-system-3d"],
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    {
+      "time": "00:50",
+      "title": "Getting the planet textures from Planet Pixel Emporium"
+    },
+    { "time": "02:14", "title": "Rendering modes and PShapes" },
+    { "time": "05:37", "title": "Adding different planet textures" },
+    { "time": "08:39", "title": "Experimenting with lighting" }
+  ],
   "codeExamples": [
     {
       "title": "Solar System (3D) with Textures",
       "description": "Demonstration of the 3D solar system with image textures.",
+      "image": "solarsystem3d-textures.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SD8a6k6A",
         "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_009_SolarSystemGenerator3D_texture/Processing"
