@@ -123,7 +123,13 @@
                     "title": "Building an API with Node",
                     "url": "https://www.youtube.com/watch?v=P-Upi9TMrBk",
                     "description": "I cover the basic steps for building a RESTful API with Node.js. "
-                }
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/v8lm5XZ2V6M",
+                    "description": "Livestream with Chaos Game and Quick, Draw! Challenges."
+                  }
             ]
         }
     ]
