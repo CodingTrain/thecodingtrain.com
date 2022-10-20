@@ -112,7 +112,7 @@
     "codeExamples": [{
         "title": "A* Algorithm",
         "description": "This sketch implements the A* Pathfinding Algorithm",
-      "image": "a-pathfinding-algorithm.png",
+        "image": "a-pathfinding-algorithm.png",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat",
             "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar"
