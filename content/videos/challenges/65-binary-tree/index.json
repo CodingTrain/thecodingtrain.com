@@ -11,7 +11,7 @@
     "intelligence and learning"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["68-breadth-first-search", "98-quadtree"],
   "timestamps": [],
   "parts": [
     {

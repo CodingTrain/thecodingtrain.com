@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["game of life", "cellular automata", "modulus"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["89-langtons-ant", "102-2d-water-ripple"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:00", "title": "Generations" },
