@@ -41,8 +41,7 @@
       "image": "p5-example.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ISPozOLXW",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_028_MetaBalls/P5",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_028_MetaBalls/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/028_MetaBalls/Processing"
       }
     }
   ],

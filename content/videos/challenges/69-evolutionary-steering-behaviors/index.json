@@ -7,13 +7,13 @@
     "languages": ["JavaScript", "p5.js"],
     "topics": [
         "genetic algorithms",
-        "steering behavior",
+        "steering behaviors",
         "seek function",
         "autonomous agent",
         "evolution"
     ],
     "canContribute": true,
-    "relatedChallenges": ["59-steering-behaviors"],
+    "relatedChallenges": ["59-steering-behaviors", "124-flocking-simulation"],
     "timestamps": [],
     "parts": [
         {

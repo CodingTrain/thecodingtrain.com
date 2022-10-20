@@ -112,6 +112,7 @@ function getVideoData(file) {
       // copy videoId, title, timestamps from parts
       partInfo.videoId = part.videoId;
       partInfo.title = parsed.title + ' - ' + part.title;
+      partInfo.challengeTitle = parsed.title;
       partInfo.timestamps = part.timestamps;
 
       const videoData = {
@@ -122,6 +123,7 @@ function getVideoData(file) {
       videos.push(videoData);
     }
   } else {
+    parsed.challengeTitle = parsed.title;
     const videoData = {
       pageURL: url.join('/'),
       data: parsed,
@@ -152,19 +154,37 @@ function primeDirectory(dir) {
 }
 
 /**
- * Retrieves YouTube video url from relative website path
+ * Retrieves YouTube video/playlist url from relative website path
  * @param {string} url original url
- * @returns
+ * @returns {string}
  */
-function getVideoURL(url) {
+function getYouTubeURL(url) {
   if (/https?:\/\/.*/.test(url)) return url;
 
-  const location = url.substring(1, url.length);
+  const location = url.startsWith('/') ? url.substring(1, url.length) : url;
+  const urlchunks = location.split('/');
+  if (!['challenges', 'tracks'].includes(urlchunks[0])) {
+    // not linking to video page
+    return `https://thecodingtrain.com/${location}`;
+  }
+  if (urlchunks[0] === 'tracks' && urlchunks.length === 2) {
+    // track page
+    // try to get playlist id from track's index.json
+    const track = allTracks.find((t) => t.trackName === urlchunks[1]);
+    if (track && track.data.playlistId) {
+      const playlistId = track.data.playlistId;
+      return `https://www.youtube.com/playlist?list=${playlistId}`;
+    } else {
+      console.warn('Warning: Track Playlist not found:', urlchunks[1]);
+      return `https://thecodingtrain.com/${location}`;
+    }
+  }
+
   let page;
   try {
     page = videos.find((vid) => vid.pageURL === location).data;
   } catch (err) {
-    console.error('Warning: Page not found -', location);
+    console.warn('Warning: Could not resolve to video -', url);
     return `https://thecodingtrain.com${url}`;
   }
 
@@ -284,10 +304,29 @@ function writeDescription(video) {
           description += `${link.icon} ${link.title}: ${url}`.trim() + '\n';
         } else {
           // assume relative link in thecodingtrain.com
-          description +=
-            `${link.icon} ${link.title}: https://thecodingtrain.com${url}`.trim() +
-            '\n';
+          // try to get YT link instead of website link
+          const vid = getYouTubeURL(url);
+          description += `${link.icon} ${link.title}: ${vid}`.trim() + '\n';
         }
+      }
+    }
+  }
+
+  // Related Challenges
+
+  if (data.relatedChallenges && data.relatedChallenges.length > 0) {
+    description += `\nRelated Coding Challenges:\n`;
+    for (const challenge of data.relatedChallenges) {
+      const challengeData = videos.find(
+        (vid) => vid.pageURL === `challenges/${challenge}`
+      );
+      if (challengeData) {
+        const { videoNumber, challengeTitle } = challengeData.data;
+        const url = challengeData.pageURL;
+        description +=
+          `🚂 #${videoNumber} ${challengeTitle}: ${getYouTubeURL(url)}`.trim() + '\n';
+      } else {
+        console.log(`Challenge ${challenge} not found`);
       }
     }
   }

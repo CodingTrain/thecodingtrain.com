@@ -4,7 +4,7 @@
   "videoNumber": "54",
   "videoId": "sJ6pMLp_IaI",
   "date": "2017-02-14",
-  "languages": ["p5.js", "javascript"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": [
     "islamic star patterns",
     "hankins",
@@ -14,17 +14,33 @@
   "canContribute": true,
   "relatedChallenges": [],
   "timestamps": [],
-  "parts": [
-    {
+  "parts": [{
       "title": "Part 1: Islamic Star Patterns",
       "videoId": "sJ6pMLp_IaI",
-      "timestamps": [
-        { "time": "00:00", "title": "Introduction" },
-        { "time": "03:10", "title": "References and theory" },
-        { "time": "08:13", "title": "Code! Creating Polygon and Edge objects" },
-        { "time": "14:46", "title": "Closing the Polygon" },
-        { "time": "17:00", "title": "Creating Hankin objects" },
-        { "time": "25:10", "title": "Rotating the Hankin objects correctly" },
+      "timestamps": [{
+          "time": "00:00",
+          "title": "Introduction"
+        },
+        {
+          "time": "03:10",
+          "title": "References and theory"
+        },
+        {
+          "time": "08:13",
+          "title": "Code! Creating Polygon and Edge objects"
+        },
+        {
+          "time": "14:46",
+          "title": "Closing the Polygon"
+        },
+        {
+          "time": "17:00",
+          "title": "Creating Hankin objects"
+        },
+        {
+          "time": "25:10",
+          "title": "Rotating the Hankin objects correctly"
+        },
         {
           "time": "27:13",
           "title": "How to find the point of intersection of Hankins"
@@ -33,37 +49,83 @@
           "time": "30:21",
           "title": "Code! Implementing the math of intersection points"
         },
-        { "time": "43:54", "title": "Finding some of the intersection points" },
-        { "time": "49:40", "title": "Finding all the intersection points" },
-        { "time": "51:17", "title": "Getting rid of debugging stuff" },
-        { "time": "51:38", "title": "Normalizing some vectors" },
-        { "time": "52:08", "title": "Adding the delta on Hankins" },
-        { "time": "54:45", "title": "Adding some sliders!" },
-        { "time": "57:43", "title": "Creating the tiling" },
+        {
+          "time": "43:54",
+          "title": "Finding some of the intersection points"
+        },
+        {
+          "time": "49:40",
+          "title": "Finding all the intersection points"
+        },
+        {
+          "time": "51:17",
+          "title": "Getting rid of debugging stuff"
+        },
+        {
+          "time": "51:38",
+          "title": "Normalizing some vectors"
+        },
+        {
+          "time": "52:08",
+          "title": "Adding the delta on Hankins"
+        },
+        {
+          "time": "54:45",
+          "title": "Adding some sliders!"
+        },
+        {
+          "time": "57:43",
+          "title": "Creating the tiling"
+        },
         {
           "time": "1:00:02",
           "title": "What's missing from this implementation?"
         },
-        { "time": "1:03:53", "title": "Getting rid of the grid" }
+        {
+          "time": "1:03:53",
+          "title": "Getting rid of the grid"
+        }
       ]
     },
     {
       "title": "Part 2: Update - Law of Sines",
       "videoId": "lobJ9gzbLo8",
-      "timestamps": [
-        { "time": "00:00", "title": "Follow-up video opening" },
-        { "time": "00:28", "title": "Community created version" },
-        { "time": "00:53", "title": "Where we left off" },
-        { "time": "01:52", "title": "How can we simplify the code?" },
-        { "time": "02:56", "title": "What is the Law of Sines?" },
-        { "time": "08:36", "title": "Code! Refactor to use the Law of Sines" },
-        { "time": "13:35", "title": "Simplifying the Hankin object" },
-        { "time": "14:36", "title": "Done! Wrapping up this Coding Challenge" }
+      "timestamps": [{
+          "time": "00:00",
+          "title": "Follow-up video opening"
+        },
+        {
+          "time": "00:28",
+          "title": "Community created version"
+        },
+        {
+          "time": "00:53",
+          "title": "Where we left off"
+        },
+        {
+          "time": "01:52",
+          "title": "How can we simplify the code?"
+        },
+        {
+          "time": "02:56",
+          "title": "What is the Law of Sines?"
+        },
+        {
+          "time": "08:36",
+          "title": "Code! Refactor to use the Law of Sines"
+        },
+        {
+          "time": "13:35",
+          "title": "Simplifying the Hankin object"
+        },
+        {
+          "time": "14:36",
+          "title": "Done! Wrapping up this Coding Challenge"
+        }
       ]
     }
   ],
-  "codeExamples": [
-    {
+  "codeExamples": [{
       "title": "Islamic Star Pattern - Part I",
       "description": "My visualization of the Islamic star pattern.",
       "image": "islamic.jpg",
@@ -81,11 +143,9 @@
       }
     }
   ],
-  "groupLinks": [
-    {
+  "groupLinks": [{
       "title": "References",
-      "links": [
-        {
+      "links": [{
           "icon": "📐",
           "title": "Points, lines, and planes",
           "url": "http://paulbourke.net/geometry/pointlineplane/",
@@ -140,6 +200,15 @@
           "description": "University of Waterloo's Star Patterns Paper"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🎥",
+        "title": "Live Stream #75: Islamic Star Patterns",
+        "url": "https://youtu.be/hCjTKCb2Cuw",
+        "description": "In this bonus unedited live stream archive I work through visualizing Islamic Star Patterns in p5.js based on the paper."
+      }]
     }
   ]
 }

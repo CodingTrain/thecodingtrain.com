@@ -1,6 +1,6 @@
 {
   "title": "The Snake Game",
-  "description": "In this coding challenge, I attempt to code a p5.js version of the Snake Game.",
+  "description": "In this coding challenge, I code a p5.js version of the Snake Game.",
   "videoNumber": "3",
   "videoId": "AaGK-fj-BAM",
   "date": "2016-04-20",
@@ -39,6 +39,23 @@
           "title": "Snake Game on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Snake_(video_game)",
           "description": "Wikipedia page about the Snake video game"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Snake Game Redux Coding Challenge",
+          "url": "https://www.youtube.com/watch?v=OMoVcohRgZA",
+          "description": "Snake Game!?!? Again!? Now with the p5.js Web Editor!"
+        },
+        {
+          "icon": "🎥",
+          "title": "Live Stream #32",
+          "url": "https://www.youtube.com/watch?v=yUO2bWfBgN8&t=2340s",
+          "description": "In this video, I code a p5.js version of the Snake Game in another installment of the 10 Minute Coding Challenge."
         }
       ]
     }

@@ -28,7 +28,7 @@
 .ctaIcon {
   border-bottom: var(--border);
   border-left: var(--border);
-  height: var(--baseline-box);
+  height: var(--baseline);
   width: var(--baseline);
   background-color: var(--gray-light);
 }

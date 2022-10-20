@@ -7,7 +7,31 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "generative art", "space colonization"],
   "canContribute": true,
-  "timestamps": [],
+  "relatedChallenges": ["14-fractal-trees-recursive", "18-3d-fractal-trees", "77-recursion", "174-graphics-applesoft-basic"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:34", "title": "The space colonization algorithm" },
+    { "time": "3:11", "title": "Write a Tree constructor function" },
+    { "time": "3:46", "title": "Write a Leaf construction function" },
+    { "time": "5:03", "title": "Add a tree" },
+    { "time": "6:53", "title": "Create a branch object that has a position and a parent" },
+    { "time": "7:45", "title": "Add the root of the tree" },
+    { "time": "9:26", "title": "Add a direction to the branch" },
+    { "time": "10:41", "title": "Minimum and maximum distance" },
+    { "time": "14:45", "title": "Add a function to add the next branch" },
+    { "time": "17:35", "title": "Add a show function" },
+    { "time": "20:00", "title": "Add a grow function to determine the closest branch to each leaf" },
+    { "time": "22:20", "title": "Mark leaves that are reached" },
+    { "time": "28:06", "title": "\"Pull\" the direction of closest branch toward the leaf" },
+    { "time": "30:00", "title": "Add a count variable to the Branch variable" },
+    { "time": "32:06", "title": "Loop backwards through the leaf array to delete leaves that were reached" },
+    { "time": "33:02", "title": "Determine whether a branch was attracted to a leaf" },
+    { "time": "34:01", "title": "Average the branch's direction" },
+    { "time": "34:30", "title": "Make a new branch" },
+    { "time": "36:59", "title": "Reset the branches" },
+    { "time": "42:55", "title": "Add a default length to the branches" },
+    { "time": "43:50", "title": "Suggestions for improvements" }
+  ],
   "codeExamples": [
     {
       "title": "Fractal Trees - Space Colonization",
@@ -15,8 +39,7 @@
       "image": "space.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/r9pxis9g-",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/017_SpaceColonizer/Processing"
       }
     }
   ],
@@ -28,7 +51,7 @@
           "icon": "🌳",
           "title": "Algorithmic Botany",
           "url": "http://algorithmicbotany.org/",
-          "description": "by University of Calgary"
+          "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
         },
         {
           "icon": "📓",
@@ -40,9 +63,18 @@
           "icon": "📕",
           "title": "Nature of Code class on Kadenze",
           "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
-          "description": "description of content linked"
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
+    },
+    {
+      "title": "videos",
+      "links": [{
+        "icon": "🎥",
+        "title": "Algorithmic Botany Track",
+        "url": "/tracks/algorithmic-botany",
+        "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
+      }]
     }
   ]
 }

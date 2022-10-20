@@ -1,0 +1,98 @@
+{
+    "title": "4D OpenSimplex Noise Loop",
+    "description": "It\u2019s groundhog day on the coding train as I demonstrate another noise loop GIF technique, this time with 4D OpenSimplex Noise in Processing (Java).",
+    "videoNumber": "137",
+    "videoId": "3_0Ax95jIrk",
+    "date": "2019-03-05",
+    "languages": [
+        "p5.js",
+        "JavaScript"
+    ],
+    "topics": [
+        "opensimplex noise",
+        "4d noise",
+        "gif loop",
+        "polar coordinates"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [
+        "136-polar-noise-loops",
+        "135-making-a-gif-loop-in-processing",
+        "c5-marching-squares"
+    ],
+    "timestamps": [
+        {
+            "time": "0:00",
+            "title": "Introduction!"
+        },
+        {
+            "time": "1:55",
+            "title": "Discussing gif loops"
+        },
+        {
+            "time": "6:31",
+            "title": "Adding polar coordinates to loop through one plane of 3D noise"
+        },
+        {
+            "time": "10:45",
+            "title": "Rendering out the gif loop!"
+        },
+        {
+            "time": "12:08",
+            "title": "A non-traditional ending and things to try!"
+        }
+    ],
+    "codeExamples": [
+        {
+            "image": "open-simplex-loop.png",
+            "title": "4D OpenSimplex Noise Loop",
+            "description": "Creating a 4D OpenSimplex Noise Loop",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/MPqnctIGg",
+                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_137_4D_Noise_Loop/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "📋",
+                    "title": "OpenSimplex Noise in Java",
+                    "url": "https://gist.github.com/KdotJPG/b1270127455a94ac5d19",
+                    "description": "Link to the code of OpenSimplex Noise by Kurt Spencer"
+                },
+                {
+                    "icon": "➰",
+                    "title": "Necessary Disorder",
+                    "url": "https://necessary-disorder.tumblr.com/",
+                    "description": "Etienne Jacob's tumblr blog "
+                },
+                {
+                    "icon": "🖌️",
+                    "title": "ffmpeg",
+                    "url": "https://ffmpeg.org/",
+                    "description": "A framework with a CLI tool to change multimedia file formats"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "What is OpenSimplex Noise?",
+                    "url": "https://youtu.be/Lv9gyZZJPE0",
+                    "description": "Discussion on OpenSimplex noise in Processing (NOC 2)"
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Polar Coordinates",
+                    "url": "https://youtu.be/O5wjXoFrau4",
+                    "description": "Tutorial on Polar Coordinates in p5.js (NOC 2)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Mad Libs Generator",
+  "description": "In this coding challenge, I make a Mad Libs web application using p5.js and tabletop.js (a JavaScript library for connecting to google sheet data.)",
+  "videoNumber": "39",
+  "videoId": "ziBO-U2_t3k",
+  "date": "2016-09-26",
+  "languages": ["JavaScript", "p5.js", "tabletop.js"],
+  "topics": ["mad libs", "google forms", "data collecting"],
+  "canContribute": true,
+  "relatedChallenges": ["37-diastic-machine"],
+  "timestamps": [
+      { "time": "0:00", "title": "Introduction and what Mad Libs is" },
+      { "time": "2:15", "title": "Making the Google Form" },
+      { "time": "4:59", "title": "About getting the data into the program" },
+      { "time": "6:25", "title": "Using tabletop.js" },
+      { "time": "7:23", "title": "Getting the data from our spreadsheet" },
+      { "time": "10:43", "title": "Creating a button" },
+      { "time": "12:04", "title": "Using regular expressions to replace the blanks" },
+      { "time": "14:46", "title": "Making the callback function to replace the words" },
+      { "time": "16:50", "title": "Picking random words from the entries" },
+      { "time": "18:47", "title": "The end result" },
+      { "time": "19:15", "title": "So many possibilities to try!" },
+      { "time": "20:11", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mad Libs Generator",
+      "description": "A Mad Libs generator connected to a Google Sheet data",
+      "image": "madlibs-generator.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/8gVGg0VR3",
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/039_madlibs/P5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📃",
+          "title": "Tabletop.js",
+          "url": "https://github.com/jsoma/tabletop",
+          "description": "GitHub repository of tabletop.js"
+        },
+        {
+          "icon": "🗒️",
+          "title": "Papa Parse",
+          "url": "https://www.papaparse.com/",
+          "description": "Papa parse, a tabletop.js alternative"
+        }
+      ]
+    }
+  ]
+}

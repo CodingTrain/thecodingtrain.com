@@ -7,7 +7,13 @@
   "languages": ["Processing"],
   "topics": ["fractal", "3d"],
   "canContribute": true,
-  "relatedChallenges": ["18-3d-fractal-trees"],
+  "relatedChallenges": [
+    "18-3d-fractal-trees",
+    "123-chaos-game",
+    "126-toothpicks",
+    "129-koch-fractal-snowflake",
+    "168-the-mandelbulb"
+    ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a 10 minute Coding Challenge!" },
     { "time": "0:26", "title": "Quick math about the Menger Sponge" },
@@ -66,6 +72,23 @@
           "title": "ArrayList in Processing",
           "url": "https://processing.org/reference/ArrayList.html",
           "description": "Processing reference about ArrayList"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Live Stream #31",
+          "url": "https://youtu.be/Md5LIDW0RyY?t=2738",
+          "description": "Live Stream with Menger Sponger in Processing"
+        },
+        {
+          "icon": "🎥",
+          "title": "Fractals in Processing",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef",
+          "description": "My videos accompanying the Nature of Code chapter on fractals."
         }
       ]
     }

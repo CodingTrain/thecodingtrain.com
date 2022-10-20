@@ -17,7 +17,7 @@
     "arrays"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["29-smart-rockets-in-p5js", "51-a-pathfinding-algorithm", "69-evolutionary-steering-behaviors", "70-nearest-neighbors-recommendation-engine"],
   "timestamps": [],
   "parts": [
     {
@@ -170,8 +170,7 @@
       "image": "part-1-tsp.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/FCNAHaCqf",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.1_TSP/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.1_TSP/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.1_TSP/Processing"
       }
     },
     {
@@ -180,8 +179,7 @@
       "image": "part-2-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/iYxi30gbl",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.2_LexicographicOrder/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.2_LexicographicOrder/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.2_LexicographicOrder/Processing"
       }
     },
     {
@@ -190,8 +188,7 @@
       "image": "part-3-tsp-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/bWPIkEv9s",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.3_TSP_Lexical/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.3_TSP_Lexical/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.3_TSP_Lexical/Processing"
       }
     },
     {
@@ -200,8 +197,7 @@
       "image": "part-4-tsp-ga.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.4_TSP_GA/Processing"
       }
     },
     {
@@ -210,8 +206,7 @@
       "image": "part-5-tsp-ga-crossover.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.4_TSP_GA/Processing"
       }
     }
   ],

@@ -4,9 +4,16 @@
   "videoNumber": "128",
   "videoId": "pdaNttb7Mr8",
   "date": "2018-12-26",
-  "languages": ["ml5", "p5.js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],
   "canContribute": true,
+  "relatedChallenges": [
+    "122-quick-draw",
+    "127-brownian-tree-snowflake",
+    "129-koch-fractal-snowflake",
+    "150-ai-rainbows-with-runway-and-p5js",
+    "153-interactive-drawing-with-sketchrnn"
+    ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:55", "title": "SketchRNN" },

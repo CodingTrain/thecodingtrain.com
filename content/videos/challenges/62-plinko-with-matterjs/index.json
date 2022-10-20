@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js", "Matter.js"],
   "topics": ["collision detection", "matter.js", "physics engine 2d", "plinko"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["20-3d-cloth-simulation", "98-quadtree", "160-spring-forces"],
   "timestamps": [],
   "parts": [
     {
