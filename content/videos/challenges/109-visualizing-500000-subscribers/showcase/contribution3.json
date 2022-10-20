@@ -1,9 +1,8 @@
 {
     "title": "Post Covid Flights",
-    "url": "",
+    "url": "https://anjakhan.github.io/PostCovidFlights_Challenge",
     "author": {
         "name": "Anja Khan",
         "url": "https://github.com/anjakhan"
-    },
-    "source": "https://anjakhan.github.io/PostCovidFlights_Challenge/"
+    }
 }
