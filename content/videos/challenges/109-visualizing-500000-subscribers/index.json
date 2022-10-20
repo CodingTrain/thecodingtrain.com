@@ -12,7 +12,7 @@
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [
-        { "time": "0:00", "title": "Introduce the coding channel" },
+        { "time": "0:00", "title": "Introduce the coding challenge" },
         { "time": "0:42", "title": "Describe Mappa.js" },
         { "time": "1:07", "title": "Introduce the YouTube dataset" },
         { "time": "2:42", "title": "Reference Mappa.js library and tutorial" },
@@ -40,9 +40,9 @@
         { "time": "31:12", "title": "Examine map update" },
         { "time": "32:30", "title": "Consider the zoom level" },
         { "time": "34:25", "title": "Pre-process YouTube data" },
-        { "time": "36:22", "title": "Find the minimum and maximun number of subscribers" },
+        { "time": "36:22", "title": "Find the minimum and maximum number of subscribers" },
         { "time": "37:10", "title": "Update drawing logic" },
-        { "time": "39:20", "title": "Map diameter considering the minum and maximun values" },
+        { "time": "39:20", "title": "Map diameter considering the minimum and maximum values" },
         { "time": "40:35", "title": "Debug diameter value" },
         { "time": "42:22", "title": "Convert subscriber count to number" },
         { "time": "43:58", "title": "Update scale according to the zoom value" },
@@ -86,7 +86,7 @@
                     "icon": "🔗",
                     "title": "Leaflet",
                     "url": "https://leafletjs.com/",
-                    "description": "An open-source JavaScript library for mobile-friendly interactive map."
+                    "description": "An open-source JavaScript library for mobile-friendly interactive maps."
                 },
                 {
                     "icon": "🔗",
