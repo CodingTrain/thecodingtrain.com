@@ -53,7 +53,7 @@
                     "icon": "🐦",
                     "title": "Angry Birds",
                     "url": "https://www.angrybirds.com/",
-                    "description": "The official page of the Angry Birds!"
+                    "description": "The official website of the Angry Birds!"
                 },
                 {
                     "icon": "🚒",
@@ -76,13 +76,13 @@
                     "icon": "🚂",
                     "title": "Inheritance in JavaScript",
                     "url": "/tracks/topics-in-native-javascript/js/inheritance",
-                    "description": "Tutorial on the concept on inheritance in JavaScript"
+                    "description": "Tutorial on the concept of inheritance in JavaScript"
                 },
                 {
                     "icon": "🚂",
                     "title": "Inheritance in Java",
                     "url": "https://youtu.be/e6eXD8DHc_A",
-                    "description": "Tutorial on the concept on inheritance in Java (NOC 1)"
+                    "description": "Tutorial on the concept of inheritance in Java (NOC 1)"
                 },
                 {
                     "icon": "🕹️",
