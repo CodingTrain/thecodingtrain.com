@@ -77,7 +77,7 @@ function parseTrack(track) {
  */
 function getVideoData(file) {
   const content = fs.readFileSync(`./${file}`, 'utf-8');
-  const parsed = JSON.parse(content);
+  const video = JSON.parse(content);
 
   const filePath = file.split(path.sep).slice(2);
   // console.log('[Parsing File]:', filePath.join('/'));
@@ -100,33 +100,35 @@ function getVideoData(file) {
     );
   }
 
-  if (parsed.parts && parsed.parts.length > 0) {
+  if (video.parts && video.parts.length > 0) {
     // Multipart Coding Challenge
     // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
 
-    for (const part of parsed.parts) {
+    for (const part of video.parts) {
       // copy all info from base object
-      const partInfo = JSON.parse(JSON.stringify(parsed));
+      const partInfo = JSON.parse(JSON.stringify(video));
       delete partInfo.parts;
 
       // copy videoId, title, timestamps from parts
       partInfo.videoId = part.videoId;
-      partInfo.title = parsed.title + ' - ' + part.title;
-      partInfo.challengeTitle = parsed.title;
       partInfo.timestamps = part.timestamps;
+      partInfo.challengeTitle = video.title;
+      partInfo.partTitle = part.title;
+      partInfo.title = video.title + ' - ' + part.title;
 
       const videoData = {
         pageURL: url.join('/'),
         data: partInfo,
-        filePath: file
+        filePath: file,
+        isMultipartChallenge: true
       };
       videos.push(videoData);
     }
   } else {
-    parsed.challengeTitle = parsed.title;
+    video.challengeTitle = video.title;
     const videoData = {
       pageURL: url.join('/'),
-      data: parsed,
+      data: video,
       filePath: file
     };
     videos.push(videoData);
@@ -134,7 +136,7 @@ function getVideoData(file) {
 }
 
 /**
- * Creates and resets temporary directory
+ * Creates and resets a temporary directory
  * @param {string} dir Directory Name
  */
 function primeDirectory(dir) {
@@ -155,10 +157,10 @@ function primeDirectory(dir) {
 
 /**
  * Retrieves YouTube video/playlist url from relative website path
- * @param {string} url original url
- * @returns {string}
+ * @param {string} url original relative url
+ * @returns {string} resolved url
  */
-function getYouTubeURL(url) {
+function resolveYTLink(url) {
   if (/https?:\/\/.*/.test(url)) return url;
 
   const location = url.startsWith('/') ? url.substring(1, url.length) : url;
@@ -245,6 +247,22 @@ function writeDescription(video) {
   }
   if (repoLink || sketchUrls?.length > 0) description += '\n';
 
+  // Other Parts of this Coding Challenge
+
+  if (video.isMultipartChallenge) {
+    console.log('Multipart Challenge:', data.title);
+    const otherParts = videos.filter((vid) => vid.filePath === video.filePath);
+    console.log(otherParts);
+
+    if (otherParts.length > 0) {
+      description += '\nAll Parts of this Coding Challenge:';
+      for (const part of otherParts) {
+        description += `\n📺 ${part.data.partTitle}: https://youtu.be/${part.data.videoId}`;
+      }
+      description += '\n';
+    }
+  }
+
   // Previous Video / Next Video / All Videos
   if (video.pageURL.startsWith('challenges/')) {
     const i = +video.data.videoNumber;
@@ -301,12 +319,11 @@ function writeDescription(video) {
         const url = link.url;
         if (/https?:\/\/.*/.test(url)) {
           // Starts with http:// or https://
-          description += `${link.icon} ${link.title}: ${url}`.trim() + '\n';
+          description += `${link.icon} ${link.title}: ${url}\n`;
         } else {
           // assume relative link in thecodingtrain.com
           // try to get YT link instead of website link
-          const vid = getYouTubeURL(url);
-          description += `${link.icon} ${link.title}: ${vid}`.trim() + '\n';
+          description += `${link.icon} ${link.title}: ${resolveYTLink(url)}\n`;
         }
       }
     }
@@ -324,7 +341,7 @@ function writeDescription(video) {
         const { videoNumber, challengeTitle } = challengeData.data;
         const url = challengeData.pageURL;
         description +=
-          `🚂 #${videoNumber} ${challengeTitle}: ${getYouTubeURL(url)}`.trim() + '\n';
+          `🚂 #${videoNumber} ${challengeTitle}: ${resolveYTLink(url)}` + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }
