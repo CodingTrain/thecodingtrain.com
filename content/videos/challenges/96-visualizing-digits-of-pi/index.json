@@ -34,6 +34,7 @@
         {
             "title": "Visualizing Digits of Pi",
             "description": "A visualization of the first million digits of Pi",
+            "image": "visualizing-digits-of-pi.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/FBIJy_-2Y",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/096_Visualizing_the_Digits_of_Pi/Processing"
