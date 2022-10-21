@@ -96,6 +96,12 @@
                     "title": "Learning Processing",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
                     "description": "Coding Train playlist of Processing tutorial videos for beginners"
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://www.youtube.com/watch?v=BOk4Dl-gw14",
+                    "description": "Livestream with 3D Earthquake Data Visualization and Steering Behaviors"
                 }
             ]
         }
