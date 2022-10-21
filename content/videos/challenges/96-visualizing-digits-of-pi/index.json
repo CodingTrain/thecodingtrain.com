@@ -1,62 +1,30 @@
 {
     "title": "Visualizing the Digits of Pi",
-    "description": "In this second Pi Day coding challenge, I attempt to \u201cvisualize\u201d the digits of Pi. #PiTrain",
+    "description": "In celebration of Pi Day, Let's attempt to \u201cvisualize\u201d the first one million digits of Pi.",
     "videoNumber": "96",
     "videoId": "WEd_UIKG-uc",
     "date": "2018-03-19",
-    "languages": [],
+    "languages": ["Java", "Processing"],
     "topics": [
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "itp nyu",
-        "class",
-        "challenge",
-        "codingtrain",
-        "code challenge",
-        "code",
-        "processing",
-        "processing java tutorial",
-        "pi",
         "pi day",
-        "pi processing",
-        "pi java",
-        "processing double",
-        "visualizing pi",
-        "visualizing pi java",
-        "visualizing pi processing"
+        "pi visualization",
+        "pi"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": [
+        "140-pi-leibniz",
+        "156-peeking-inside-pi",
+        "161-estimating-pi-from-random-numbers",
+        "169-pi-in-the-sky"
+    ],
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Visualizing Digits of Pi",
+            "description": "A visualization of the first million digits of Pi",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/FBIJy_-2Y"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_096_Visualizing_the_Digits_of_Pi/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_096_Visualizing_the_Digits_of_Pi/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/FBIJy_-2Y",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/096_Visualizing_the_Digits_of_Pi/Processing"
             }
         }
     ],
