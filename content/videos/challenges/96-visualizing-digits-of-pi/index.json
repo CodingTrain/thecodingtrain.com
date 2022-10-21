@@ -17,7 +17,19 @@
         "161-estimating-pi-from-random-numbers",
         "169-pi-in-the-sky"
     ],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:05", "title": "Let's get started! Loading the digits of Pi" },
+        { "time": "3:01", "title": "Converting the string to an array of integers" },
+        { "time": "4:59", "title": "Visualizing based on frequency of a digit" },
+        { "time": "8:07", "title": "Putting them in path of a circle" },
+        { "time": "9:26", "title": "Visualizing based on the next digits" },
+        { "time": "12:23", "title": "Debugging" },
+        { "time": "13:18", "title": "The point of this video" },
+        { "time": "13:40", "title": "Make your version, and share with us!" },
+        { "time": "14:11", "title": "Some randomness" },
+        { "time": "15:08", "title": "You, the viewer of this video!" }
+    ],
     "codeExamples": [
         {
             "title": "Visualizing Digits of Pi",
