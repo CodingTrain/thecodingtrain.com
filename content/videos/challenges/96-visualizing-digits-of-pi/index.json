@@ -67,19 +67,22 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "📔",
                     "title": "Polar to Cartesian",
                     "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
-                    "description": ""
+                    "description": "https://www.youtube.com/watch?v=O5wjXoFrau4"
                 },
                 {
+                    "icon": "📽️",
                     "title": "Pi is Beautiful",
                     "url": "https://youtu.be/NPoj8lk9Fo4",
-                    "description": ""
+                    "description": "Numberphile video on the beauty of Pi"
                 },
                 {
+                    "icon": "⚙️",
                     "title": "Learning Processing",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
-                    "description": ""
+                    "description": "Coding Train playlist of Processing tutorial videos for beginners"
                 }
             ]
         }
