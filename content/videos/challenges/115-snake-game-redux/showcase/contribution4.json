@@ -1,9 +1,8 @@
 {
-    "title": "Snake",
-    "url": "https://zlyfer.net/sites/games/snake/",
+    "title": "Snake Game",
+    "url": "https://old.zlyfer.net/sites/games/snake/",
     "author": {
         "name": "Frederik Shull",
         "url": "https://github.com/zlyfer"
-    },
-    "source": "https://github.com/zlyfer/snake"
+    }
 }
