@@ -4,7 +4,7 @@
   "videoNumber": "2",
   "videoId": "LG8ZK-rRkXo",
   "date": "2016-04-17",
-  "languages": ["Processing"],
+  "languages": ["Java", "Processing"],
   "topics": ["fractal", "3d"],
   "canContribute": true,
   "relatedChallenges": [
@@ -45,6 +45,7 @@
     {
       "title": "Menger Sponge Fractal",
       "description": "Menger Sponge implementation in Processing and p5.js",
+      "image": "menger-sponge.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/5kcBUriAy",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/002_MengerSponge/Processing/CC_002_MengerSponge"

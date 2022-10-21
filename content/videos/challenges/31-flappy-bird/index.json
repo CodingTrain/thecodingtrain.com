@@ -44,6 +44,7 @@
         {
             "title": "Flappy Bird",
             "description": "This sketch implements a clone of the game Flappy Bird.",
+            "image": "flappy-bird.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/FtBc2BhHM",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/031_FlappyBird/Processing/CC_031_FlappyBird"

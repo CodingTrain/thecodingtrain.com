@@ -28,7 +28,8 @@
   "codeExamples": [
     {
       "title": "Smart Rockets",
-      "description": "This sketch implements a smart rocket algorithm.",
+      "description": "This sketch implements a smart rocket algorithm.", 
+      "image": "smart-rockets-in-p5js.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/o5PwECj42",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/029_SmartRockets/Processing/CC_029_SmartRockets"
