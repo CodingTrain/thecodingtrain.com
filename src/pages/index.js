@@ -16,8 +16,9 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
+import PlayButton from '../images/playbutton.svg';
 import { getReadableDate, useIsFirstRender } from '../hooks';
-import { randomElement, shuffleCopy } from '../utils';
+import { shuffleCopy } from '../utils';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
@@ -88,71 +89,88 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
   );
 };
 
-const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
-  const { title: sectionTitle, cta, featured } = passengerShowcase;
-  // First render : empty placeholder
-  const [featuredShowcase, setFeaturedShowcase] = useState({});
-  useEffect(() => {
-    // Next renders : a random passenger showcase
-    setFeaturedShowcase(randomElement(featured));
-  }, [featured]);
-
-  const { author, title, video, videoId, url, source } = featuredShowcase;
-  const image = featuredShowcase?.cover
-    ? featuredShowcase.cover.file.childImageSharp.gatsbyImageData
+const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
+  const { author, title, video, videoId, url, source } = showcase;
+  const image = showcase?.cover
+    ? showcase.cover.file.childImageSharp.gatsbyImageData
     : placeholderImage;
   const buttonLink =
     url ?? (videoId ? `https://youtu.be/${videoId}` : source) ?? '';
+  const description = `Passenger showcase "${title}" from ${author?.name}`;
+
+  return (
+    <article className={css.showcase}>
+      <div className={css.left}>
+        <div className={css.details}>
+          <p className={css.videoTitle}>
+            {video?.title} {video?.source && `(${video.source})`}
+          </p>
+          <p className={css.showcaseTitle}>{title}</p>
+        </div>
+        <address className={css.author}>
+          {author && <span>by </span>}
+          {author && (
+            <span className={css.authorName}>
+              {author.url ? (
+                <a href={author.url}>{author.name}</a>
+              ) : (
+                author.name
+              )}
+            </span>
+          )}
+        </address>
+      </div>
+      <a
+        className={css.right}
+        href={buttonLink}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={description}
+      >
+        {image ? (
+          <Image
+            image={image}
+            pictureClassName={css.picture}
+            imgClassName={css.image}
+            alt={description}
+          />
+        ) : (
+          <div className={css.noImage}></div>
+        )}
+        <PlayButton width={30} className={css.playButton} />
+      </a>
+    </article>
+  );
+};
+
+const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
+  const { title: sectionTitle, cta, featured } = passengerShowcase;
+  // First render : empty placeholder
+  const [featuredShowcases, setFeaturedShowcases] = useState([{}, {}, {}]);
+  useEffect(() => {
+    // Next renders : a random passenger showcase
+    setFeaturedShowcases(shuffleCopy(featured).slice(0, 3));
+  }, [featured]);
 
   return (
     <section>
-      <article className={css.showcase}>
-        <div className={css.left}>
-          <Heading2
-            id="passenger-showcase"
-            className={css.subheading}
-            variant="purple"
-            as="h3">
-            {sectionTitle}
-          </Heading2>
-          <div className={css.details}>
-            <p>
-              <address>
-                {author?.url ? (
-                  <a href={author.url}>{author?.name}</a>
-                ) : (
-                  author?.name
-                )}
-              </address>
-            </p>
-            <p>{title}</p>
-            <p>
-              {video?.title} {video?.source && `(${video.source})`}
-            </p>
-          </div>
-          <ButtonPanel
-            variant="purple"
-            className={css.baselineButtonPanel}
-            text={cta?.text}
-            buttonText={cta?.buttonText}
-            buttonLink={buttonLink}
-            smallWrap
-            rainbow
+      <div className={css.subheader}>
+        <Heading2 className={css.subheading} variant="purple">
+          {sectionTitle}
+        </Heading2>
+      </div>
+      <p className={css.showcaseBanner}>{cta.text}</p>
+      <Spacer className={css.verticalSpacer} pattern />
+      {featuredShowcases.map((showcase, index) => (
+        <React.Fragment key={index}>
+          <PassengerShowcaseCard
+            showcase={showcase}
+            placeholderImage={placeholderImage}
+            cta={cta}
           />
-        </div>
-        <div className={css.right}>
-          {image ? (
-            <Image
-              image={image}
-              pictureClassName={css.picture}
-              imgClassName={css.image}
-              alt={`Passenger showcase "${title}" from ${author?.name}`}
-            />
-          ) : (
-            <div className={css.noImage}></div>
-          )}
-        </div>
-      </article>
+          {index < 2 && <Spacer className={css.verticalSpacer} pattern />}
+        </React.Fragment>
+      ))}
     </section>
   );
 };
