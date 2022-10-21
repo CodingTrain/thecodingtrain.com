@@ -33,24 +33,28 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "📰",
                     "title": "Washington Post Article",
                     "url": "https://www.washingtonpost.com/news/wonk/wp/2015/03/14/10-stunning-images-show-the-beauty-hidden-in-pi/?utm_term=.e232a2caa3ed",
-                    "description": ""
+                    "description": "Article showing various visualization of the digits of Pi"
                 },
                 {
+                    "icon": "🎨",
                     "title": "Pi Artwork",
                     "url": "http://mkweb.bcgsc.ca/pi/art/",
-                    "description": ""
+                    "description": "Artworks based on Pi by Martin Krzywinski"
                 },
                 {
+                    "icon": "🥧",
                     "title": "1 Billion Digits of Pi",
                     "url": "https://stuff.mit.edu/afs/sipb/contrib/pi/",
-                    "description": ""
+                    "description": "First one billion digits of Pi"
                 },
                 {
+                    "icon": "🥟",
                     "title": "Million Pi Digits",
                     "url": "http://www.piday.org/million/",
-                    "description": ""
+                    "description": "First on million digits of Pi"
                 },
                 {
                     "title": "Pi Day Code",
