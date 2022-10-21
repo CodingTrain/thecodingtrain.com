@@ -12,7 +12,7 @@
         "bees and bombs"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["135-making-a-gif-loop-in-processing"],
     "timestamps": [
         {
             "time": "0:00:00",

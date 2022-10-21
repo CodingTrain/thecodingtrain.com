@@ -49,7 +49,7 @@
     ],
     "codeExamples": [
         {
-            "title": "Animated Cirle Packing - Text",
+            "title": "Animated Circle Packing - Text",
             "description": "This sketch shows how to use a circle packing algorithm to fill the outlines of text.",
             "image": "train.jpg",
             "urls": {
@@ -58,7 +58,7 @@
             }
         },
         {
-            "title": "Animated Cirle Packing - Image",
+            "title": "Animated Circle Packing - Image",
             "description": "This sketch demonstrates how to combine the circle packing algorithm with looking up pixel colors in an image.",
             "image": "cat.jpg",
             "urls": {
