@@ -12,7 +12,7 @@
     "rotation matrix"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["26-3d-supershapes", "113-4d-hypercube-aka-tesseract", "142-rubiks-cube"],
   "timestamps": [
     {
       "time": "0:00",
@@ -64,12 +64,6 @@
     {
       "title": "Videos",
       "links": [
-        {
-          "icon": "🚂",
-          "title": "4D Hypercube(Tesseract)",
-          "url": "https://www.youtube.com/watch?v=XE3YDVdQSPo",
-          "description": "In this coding challenge, I visualize a 4D Hypercube (aka \"Tesseract\") in Processing (Java)."
-        },
         {
           "icon": "🚂",
           "title": "Matrix Math",

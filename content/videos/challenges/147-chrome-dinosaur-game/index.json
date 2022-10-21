@@ -12,7 +12,12 @@
     "speech commands"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "41-clappy-bird",
+    "31-flappy-bird",
+    "138-angry-birds-with-matterjs",
+    "147-chrome-dinosaur-game"
+],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:56", "title": "Unicorn class" },

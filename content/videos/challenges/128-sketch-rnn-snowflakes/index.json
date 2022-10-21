@@ -68,13 +68,13 @@
         {
           "icon": "🚂",
           "title": "Text Generation with LSTM and Spell with Nabil Hassein",
-          "url": "https://www.youtube.com/watch?v=xfuVcfwtEyw",
+          "url": "https://youtu.be/xfuVcfwtEyw",
           "description": "Nabil Hassein demonstrates how to train an \"LSTM\" neural network to generate text in the style of a particular author using Spell and ml5.js."
         },
         {
           "icon": "🚂",
           "title": "Coding Challenge #122: Quick, Draw!",
-          "url": "https://www.youtube.com/watch?v=yLuk0twx8Hc",
+          "url": "https://youtu.be/yLuk0twx8Hc",
           "description": "In this coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \"replay\" drawings of rainbows and cats using p5.js. "
         }
       ]
