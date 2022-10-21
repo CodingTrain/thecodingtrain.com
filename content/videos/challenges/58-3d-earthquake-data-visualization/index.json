@@ -114,7 +114,13 @@
                     "icon": "🎥",
                     "title": "Earthquake Data Visualization",
                     "url": "https://youtu.be/ZiYdOwOrGyc",
-                    "description": " In this Coding Challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js."
+                    "description": "In this Coding Challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/L1nHni9HMBw",
+                    "description": "Livestream with 3D Earthquake Data Visualization and Steering Behaviors."
                 }
             ]
         }
