@@ -57,7 +57,7 @@
             "title": "References",
             "links": [
                 {   "icon": "🗏",
-                    "title": "Toxiclib Physics Library",
+                    "title": "Toxiclibs Physics Library",
                     "url": "http://haptic-data.com/toxiclibsjs",
                     "description": "Documentation for the Toxiclibs library"
                 }
