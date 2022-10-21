@@ -77,6 +77,12 @@
                     "title": "Polar Coordinates",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
                     "description": "This video covers the trigonometric functions—sine, cosine, and tangent."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/VFnF87-JNtY",
+                    "description": "Livestream with Asteroids and Pixel Sorting."
                 }
             ]
         }
