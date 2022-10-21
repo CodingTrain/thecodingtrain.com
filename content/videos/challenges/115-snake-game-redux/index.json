@@ -5,7 +5,7 @@
     "videoId": "OMoVcohRgZA",
     "date": "2018-09-12",
     "languages": ["p5.js", "JavaScript"],
-    "topics": ["snake", "games", "vectors", "arrays", "object-oriented programming"],
+    "topics": ["beginners", "snake", "games", "vectors", "arrays", "object-oriented programming"],
     "canContribute": true,
     "relatedChallenges": ["3-snake-game", "173-snake-applesoft-basic"],
     "timestamps": [
@@ -62,7 +62,13 @@
                     "title": "OOP with ES6",
                     "url": "/tracks/code-programming-with-p5-js/code/6-objects/1-intro",
                     "description": "Tutorial on object oriented programmign in JavaScript with ES6"
-                }
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/wTDDsOZwdQY",
+                    "description": "Livestream 150: Coding for Total Beginners with p5.js + Snake Game Redux"
+}
             ]
         }
     ]
