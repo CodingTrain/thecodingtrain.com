@@ -44,6 +44,7 @@
   ],
     "codeExamples": [
         {
+            "image": "unikitty-flag.jpg",
             "title": "Texturing Cloth Simulation",
             "description": "The sketch renders a \"unikitty\" flag using Toxiclibs Verlet Physics",
             "urls": {
