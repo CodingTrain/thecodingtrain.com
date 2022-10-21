@@ -1,0 +1,46 @@
+{
+  "title": "Solar System (3D)",
+  "description": "In the second part of this coding challenge, using Processing, I take the code from the 2D Solar System and turn it three-dimensional.",
+  "videoNumber": "8",
+  "videoId": "dncudkelNxw",
+  "date": "2016-05-01",
+  "languages": ["processing"],
+  "topics": ["solar system", "3d"],
+  "canContribute": true,
+  "relatedChallenges": ["7-solar-system-2d", "9-solar-system-3d-textures"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:25", "title": "Some improvements to the current version" },
+    { "time": "02:33", "title": "Adding 3D" },
+    { "time": "05:35", "title": "Visualising a 3D Solar System" },
+    { "time": "09:05", "title": "Adding PeasyCam" },
+    {
+      "time": "12:40",
+      "title": "Using Vector Cross Product to determine the axis of rotation"
+    },
+    { "time": "20:10", "title": "Adding more planets and moons" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Solar System (3D)",
+      "description": "3D Simulation of the solar system",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/QIB-sT10",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/008_SolarSystemGenerator3D/Processing/CC_008_SolarSystemGenerator3D"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📹",
+          "title": "PeasyCam library",
+          "url": "http://mrfeinberg.com/peasycam/",
+          "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Solar System (2D)",
+  "description": "In this viewer submitted coding challenge, I make a 2D Solar System Generator in Processing.",
+  "videoNumber": "7",
+  "videoId": "l8SiJ-RmeHU",
+  "date": "2016-04-28",
+  "languages": ["processing"],
+  "topics": ["solar system", "transformations"],
+  "canContribute": true,
+  "relatedChallenges": ["8-solar-system-3d", "9-solar-system-3d-textures"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:39", "title": "Planet class" },
+    { "time": "02:33", "title": "Polar Coordinates" },
+    { "time": "04:01", "title": "Draw the body" },
+    { "time": "05:42", "title": "Create the sun" },
+    { "time": "06:54", "title": "Creating a tree-like structure" },
+    { "time": "08:05", "title": "Create the planets" },
+    { "time": "11:06", "title": "Error! Recursive null check" },
+    { "time": "13:39", "title": "translate and rotate by distance and angle" },
+    { "time": "15:06", "title": "Resetting transformations" },
+    {
+      "time": "17:21",
+      "title": "Setting the angle (Error!)"
+    },
+    { "time": "20:50", "title": "Rotating the planets" },
+    { "time": "24:11", "title": "Recursively create children planets" }
+  ],
+  "codeExamples": [
+    {
+      "title": "2D Solar System",
+      "description": "Simulation of the Solar System in 2D",
+      "image": "solar2d.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IMJv_QwXy",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_007_SolarSystemGenerator/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Gravitational Attraction",
+          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/2-forces/5-gravitational-attraction",
+          "description": "Applying gravitation force between two objects in code."
+        }
+      ]
+    }
+  ]
+}
