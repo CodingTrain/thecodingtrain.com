@@ -41,6 +41,17 @@
           "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/nF7DVmovWr0",
+          "description": "Livestream with 3D Solar System and Maze Generator"
+        }
+      ]
     }
   ]
 }
