@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Binary Numbers", "Base Conversion", "math"],
   "canContribute": true,
-  "relatedChallenges": ["117-seven-segment-display"],
+  "relatedChallenges": ["117-seven-segment-display", "120-bit-shifting"],
   "timestamps": [
       { "time": "0:00", "title": "Introduction" },
       { "time": "1:08", "title": "Understanding the base of a number system" },
@@ -40,6 +40,17 @@
           "title": "Ternary Operator",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
           "description": "Documentation of the ternary operator"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/jSzmac4Rri8",
+          "description": "Livestream #157: Binary Numbers & Bit Shifting"
         }
       ]
     }
