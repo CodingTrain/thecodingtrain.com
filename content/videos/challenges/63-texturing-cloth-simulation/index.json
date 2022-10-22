@@ -1,6 +1,6 @@
 {
     "title": "Texturing Cloth Simulation",
-    "description": "In this two part coding challenge, I cover the beginShape(), endShape(), and texture() functions and discuss different options like TRIANGLE_STRIP, QUAD_STRIP, and more. Then, I demonstrate how to render geometry with an image texture (making a waving flag) using the Toxiclibs physics library. Toxiclibs can now be downloaded from Processing's library manager",
+    "description": "In this two part challenge, I cover beginShape(), endShape(), and texture(), TRIANGLE_STRIP, QUAD_STRIP, and more. I combine these geometry functions with the Toxiclibs physics library to simulate a waving flag (with a unikitty image texture!)",
     "videoNumber": "63",
     "videoId": "",
     "date": "2017-03-14",
