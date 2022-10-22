@@ -54,6 +54,17 @@
           "description": "Sol LeWitt's works in MASS MoCA"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/PQwfop4bewM",
+          "description": "Livestream #101.2: \"let\" vs \"var\", \"const\",  10 PRINT,  Wikipedia API & more! - Part 2"
+        }
+      ]
     }
   ]
 }

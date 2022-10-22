@@ -77,6 +77,12 @@
           "title": "Inheritance with Prototype in JS",
           "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
           "description": "You should probably watch my videos on ES6 classes instead, but if you insist on being here, I will discuss how inheritance works with prototypes in JS."
+        },
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/zxR7KfVMGqk",
+          "description": "Livestream  #92: Minesweeper"
         }
       ]
     }

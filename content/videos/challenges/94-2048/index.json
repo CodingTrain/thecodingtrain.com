@@ -127,6 +127,17 @@
           "description": "Wikipedia page with information and resources about the sliding puzzle game 2048."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+         {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/1v_E18xU3ok",
+          "description": "Livestream #116.2 - Snakes & Ladders Continued + 2048"
+        }
+      ]
     }
   ]
 }

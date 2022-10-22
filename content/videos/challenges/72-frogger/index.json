@@ -7,7 +7,14 @@
   "languages": ["Processing"],
   "topics": ["game mechanics", "frogger atari", "inheritance"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "3-snake-game",
+    "46-asteroids",
+    "67-pong",
+    "71-minesweeper",
+    "91-snakes-and-ladders",
+    "115-snake-game-redux"
+  ],
   "timestamps": [],
   "parts": [
     {
