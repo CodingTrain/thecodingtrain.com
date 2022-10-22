@@ -1,112 +1,95 @@
 {
-    "title": "Markov Chains - Part 1",
-    "description": "In Part 1 of this coding challenge, I discuss the concepts of \u201cN-grams\u201d and \u201cMarkov Chains\u201d as they relate to text. I use Markov chains to generate text automatically based on a source text.",
-    "videoNumber": "42.1",
-    "videoId": "eGFJ8vugIWA",
+    "title": "Markov Chain Name Generator",
+    "description": "In this multi-part coding challenge I attempt to use a Markov Chain to generate a new name for my YouTube channel.",
+    "videoNumber": "42",
+    "videoId": "",
     "date": "2016-10-24",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "p5.js",
-        "coding challenge",
-        "p5.js tutorial",
-        "p5js",
-        "javascript (programming language)",
-        "tutorial",
-        "javascript",
-        "algorithms",
-        "javascript string object",
-        "js string object",
-        "programming from a to z",
-        "programming challenge",
-        "regular expressions",
-        "text analysis",
-        "markov chains",
-        "ngrams",
-        "ngram",
-        "n-gram",
-        "n-grams",
         "markov chain",
-        "markov text generator",
-        "markov chain algorithm"
+        "n-gram",
+        "text generator"
     ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [],
+    "parts": [
+        {
+            "title": "Markov Chain Text",
+            "videoId": "eGFJ8vugIWA",
+            "timestamps": []
+        },
+        {
+            "title": "Markov Chain Name Generator",
+            "videoId": "9r8CmofnbAQ",
+            "timestamps": []
+        }
+    ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Markov Chain Text",
+            "description": "This sketch implements a Markov Chain to generate strings of text.",
+            "image": "markov-chain-text.jpg",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/Y6SvoMcyH"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Y6SvoMcyH",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/042.1_markov-chain/Processing"
             }
         },
         {
-            "title": "p5js - GitHub",
-            "description": "",
+            "title": "Markov Chain Name Generator",
+            "description": "This sketch applies a Markov Chain to a list of suggested keywords to generate the name for a YouTube channel.",
+            "image": "markov-chain-name-generator.jpg",
             "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_042.1_markov-chain/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_042.1_markov-chain/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/AAgqWiJAW",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/042.2_markov-chain-names/Processing"
             }
         }
     ],
     "groupLinks": [
         {
-            "title": "Other Parts Of This Coding Challenge",
-            "links": [
-                {
-                    "title": "Markov Chains - Part 2",
-                    "url": "/challenge/042.2-markov-chains",
-                    "description": ""
-                }
-            ]
-        },
-        {
             "title": "References",
             "links": [
                 {
-                    "title": "Google's Ngram Viewer",
+                    "icon": "🔗",
+                    "title": "Google Ngram Viewer",
                     "url": "https://books.google.com/ngrams",
-                    "description": ""
+                    "description": "Google Books Ngram Viewer."
                 },
                 {
+                    "icon": "🔗",
                     "title": "n-gram on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/N-gram",
-                    "description": ""
+                    "description": "Wikipedia page with information and resources on n-gram."
                 },
                 {
+                    "icon": "🔗",
                     "title": "Web Trigrams",
                     "url": "http://www.chrisharrison.net/index.php/Visualizations/WebTrigrams",
-                    "description": ""
+                    "description": "Web Trigrams: Visualizing Google's Tri-Gram Data."
                 },
                 {
+                    "icon": "🔗",
                     "title": "Generative Course Descriptions",
                     "url": "http://static.decontextualize.com/toys/next_semester?",
-                    "description": ""
+                    "description": "Website creating course descriptions with a generative algorithm."
                 },
                 {
+                    "icon": "🔗",
                     "title": "King James Programming",
                     "url": "http://kingjamesprogramming.tumblr.com/",
-                    "description": ""
+                    "description": "Posts generated by a Markov chain trained on the King James Bible."
                 },
                 {
+                    "icon": "🔗",
                     "title": "Markov Chains Explained",
                     "url": "http://setosa.io/ev/markov-chains/",
-                    "description": ""
+                    "description": "Markov Chains explained visually."
                 },
                 {
+                    "icon": "🔗",
                     "title": "Perlin Noise song",
                     "url": "https://soundcloud.com/fl00per/perlin-noise",
-                    "description": ""
+                    "description": "Perlin Noise song on SoundCloud."
                 }
             ]
         }
