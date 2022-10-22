@@ -45,6 +45,12 @@
           "title": "My Genetic Algorithm playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
           "description": "These video lessons accompany Chapter 9 (Genetic Algorithms) from The Nature of Code book."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/A01_aKgIeCo",
+          "description": "Livestream #53 - Smart Rockets, CodePen and Arguments Array in JS"
         }
       ]
     }
