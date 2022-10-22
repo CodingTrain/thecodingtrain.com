@@ -11,7 +11,7 @@
         "heuristic"
     ],
     "canContribute": true,
-    "relatedChallenges": ["10-dfs-maze-generator"],
+    "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk"],
     "timestamps": [],
     "parts": [{
             "title": "A* Pathfinder Algorithm - Part 1",
@@ -144,7 +144,7 @@
         {
             "title": "Live Stream Archive",
             "links": [{
-                    "icon": "🎥",
+                    "icon": "🔴",
                     "title": "A* Livestream",
                     "url": "https://www.youtube.com/watch?v=S4yQYiAECnM&t=34m50s",
                     "description": "This unedited archive features the entire very long and messy debugging process!"
