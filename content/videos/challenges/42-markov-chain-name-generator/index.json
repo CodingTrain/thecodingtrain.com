@@ -92,6 +92,17 @@
                     "description": "Perlin Noise song on SoundCloud."
                 }
             ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/4DR0ryGSYJQ",
+                    "description": "Livestream with N-Grams and Markov Chains to generate text algorithmically."
+                }
+            ]
         }
     ]
 }
