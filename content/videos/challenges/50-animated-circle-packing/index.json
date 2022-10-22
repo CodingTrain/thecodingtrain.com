@@ -11,7 +11,7 @@
         "processing pixels"
     ],
     "canContribute": true,
-    "relatedChallenges": ["47-pixel-sorting-in-processing"],
+    "relatedChallenges": ["47-pixel-sorting-in-processing", "49-photo-mosaic-with-white-house-social-media-images"],
     "timestamps": [],
     "parts": [
         {
@@ -89,7 +89,7 @@
             "title": "Videos",
             "links": [
               {
-                "icon": "🎥",
+                "icon": "🔴",
                 "title": "Livestream Archive",
                 "url": "https://youtu.be/pF0cadg2mg0",
                 "description": "Livestream with Circle Packing and White House Date Visualization."
