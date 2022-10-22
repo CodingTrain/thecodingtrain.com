@@ -52,6 +52,12 @@
           "title": "Sandpiles",
           "url": "https://youtu.be/1MtEUErz7Gg",
           "description": "Numberphile video where Luis David Garcia-Puente discusses sandpiles, and how they produce amazing fractal zeroes."
+        },
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/_9ZerP7pGvc",
+          "description": "Livestream #142: Sandpile and Barnsley Fern Coding Challenges"
         }
       ]
     }

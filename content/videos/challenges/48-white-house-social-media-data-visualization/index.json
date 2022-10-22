@@ -10,7 +10,7 @@
         "word count"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["109-visualizing-500000-subscribers"],
     "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
         { "time": "1:38", "title": "Describe the format of the data" },
@@ -85,6 +85,12 @@
                     "title": "TF-IDF",
                     "url": "https://codingtrain.github.io/website-archive/CodingChallenges/040.3-tf-idf",
                     "description": "In part 3 of the Word Counting Coding Challenge, I implement an algorithm known as TF-IDF (Term Frequency – Inverse Document Frequency)."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/pF0cadg2mg0",
+                    "description": "Livestream with Circle Packing and White House Date Visualization."
                 }
             ]
         }

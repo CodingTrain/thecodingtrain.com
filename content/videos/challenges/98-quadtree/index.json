@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["quadtree data structure", "quadtree collision detection"],
   "canContribute": true,
-  "relatedChallenges": ["65-binary-tree", "68-breadth-first-search"],
+  "relatedChallenges": ["65-binary-tree", "68-breadth-first-search", "72-frogger"],
   "timestamps": [],
   "parts": [
     {
@@ -118,15 +118,9 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "Quadtrees Live Stream Archive",
+          "title": "Quadtree Live Stream Archive",
           "url": "https://youtu.be/MxnqJGwu2cc",
           "description": "Quadtree livestream"
-        },
-        {
-          "icon": "🚂",
-          "title": "Binary Tree Coding Challenge",
-          "url": "https://www.youtube.com/watch?v=ZNH0MuQ51m4",
-          "description": "In this video, I implement a classic data structure: The Binary Search Tree."
         }
       ]
     }
