@@ -66,6 +66,12 @@
           "title": "Algorithmic Botany Track",
           "url": "/tracks/algorithmic-botany",
           "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/1Yo_AYzxA-o",
+          "description": "Livestream #41: GitHub Pages, 3D Fractal Trees and Superellipse"
         }
       ]
     }

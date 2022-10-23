@@ -79,6 +79,12 @@
           "title": "My Videos on Regular Expressions",
           "url": "https://www.youtube.com/watch?v=7DG3kCDx53c",
           "description": "In this video I introduce Regular Expressions.  What are they and how are they used?"
+        },
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/PQwfop4bewM",
+          "description": "Livestream #101.2: \"let\" vs \"var\", \"const\",  10 PRINT,  Wikipedia API & more! - Part 2"
         }
       ]
     }

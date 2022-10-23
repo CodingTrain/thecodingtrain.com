@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["game of life", "cellular automata", "modulus"],
   "canContribute": true,
-  "relatedChallenges": ["89-langtons-ant", "102-2d-water-ripple"],
+  "relatedChallenges": ["89-langtons-ant", "107-sandpiles", "102-2d-water-ripple"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:00", "title": "Generations" },
@@ -68,6 +68,12 @@
           "title": "The Modulo Operator with Golan Levin",
           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
           "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
+        },
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/U8S1qDjIE2Y",
+          "description": "Livestream #108: More OOP with ES6 & The Game of Life"
         }
       ]
     }

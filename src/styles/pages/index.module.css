@@ -249,7 +249,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: var(--baseline-2x);
+  height: var(--baseline-3x);
   border-left: var(--border);
   border-bottom: var(--border-purple);
   background: white;
@@ -307,7 +307,7 @@
     border-left: var(--border);
     border-bottom: var(--border);
     width: 100%;
-    height: var(--baseline-3x);
+    height: var(--baseline-4x);
     background-color: var(--gray-light);
   }
 }

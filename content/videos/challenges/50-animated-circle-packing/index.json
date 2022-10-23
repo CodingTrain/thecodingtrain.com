@@ -11,7 +11,7 @@
         "processing pixels"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["47-pixel-sorting-in-processing"],
     "timestamps": [],
     "parts": [
         {
@@ -49,7 +49,7 @@
     ],
     "codeExamples": [
         {
-            "title": "Animated Cirle Packing - Text",
+            "title": "Animated Circle Packing - Text",
             "description": "This sketch shows how to use a circle packing algorithm to fill the outlines of text.",
             "image": "train.jpg",
             "urls": {
@@ -58,7 +58,7 @@
             }
         },
         {
-            "title": "Animated Cirle Packing - Image",
+            "title": "Animated Circle Packing - Image",
             "description": "This sketch demonstrates how to combine the circle packing algorithm with looking up pixel colors in an image.",
             "image": "cat.jpg",
             "urls": {
@@ -83,6 +83,17 @@
                     "url": "https://en.wikipedia.org/wiki/Circle_packing",
                     "description": "Wikipedia page with background and references on circle packing"
                 }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+              {
+                "icon": "🎥",
+                "title": "Livestream Archive",
+                "url": "https://youtu.be/pF0cadg2mg0",
+                "description": "Livestream with Circle Packing and White House Date Visualization."
+              }
             ]
         }
     ]

@@ -64,6 +64,12 @@
           "title": "Matrix Math",
           "url": "https://youtu.be/uSzGdfdOoG8",
           "description": "In this video, I discuss the matrix math required for a simple neural network library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/_9ZerP7pGvc",
+          "description": "Livestream #142: Sandpile and Barnsley Fern Coding Challenges"
         }
       ]
     }

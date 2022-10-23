@@ -7,10 +7,10 @@
     "languages": ["JavaScript", "p5.js"],
     "topics": [
         "p5.js",
-        "beginner"
+        "beginners"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["67-pong", "174-graphics-applesoft-basic"],
     "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
         { "time": "0:52", "title": "Describe bouncing DVD logo" },
@@ -80,7 +80,13 @@
                     "title": "How I Learned to Code My Own Game",
                     "url": "https://youtu.be/s12npdDmGUc",
                     "description": "This month, I learned to code my own game from scratch! I used Javascript and the P5 library to learn to code a browser based game."
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/_LyC2l8g0R8",
+                    "description": "Livestream  #167: Bouncing DVD Logo + Fluid Simulation"
+                  }
             ]
         }
     ]
