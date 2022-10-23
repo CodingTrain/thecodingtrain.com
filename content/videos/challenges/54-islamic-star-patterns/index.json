@@ -204,7 +204,7 @@
     {
       "title": "Live Stream Archive",
       "links": [{
-        "icon": "🎥",
+        "icon": "🔴",
         "title": "Live Stream #75: Islamic Star Patterns",
         "url": "https://youtu.be/hCjTKCb2Cuw",
         "description": "In this bonus unedited live stream archive I work through visualizing Islamic Star Patterns in p5.js based on the paper."

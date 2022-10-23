@@ -87,10 +87,10 @@
                     "description": "In part 3 of the Word Counting Coding Challenge, I implement an algorithm known as TF-IDF (Term Frequency – Inverse Document Frequency)."
                 },
                 {
-                    "icon": "🎥",
-                    "title": "Livestream Archive",
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #71",
                     "url": "https://youtu.be/pF0cadg2mg0",
-                    "description": "Livestream with Circle Packing and White House Date Visualization."
+                    "description": "Live Stream with Circle Packing and White House Date Visualization."
                 }
             ]
         }

@@ -86,13 +86,13 @@
             ]
         },
         {
-            "title": "Videos",
+            "title": "Live Stream Archive",
             "links": [
               {
                 "icon": "🔴",
-                "title": "Livestream Archive",
+                "title": "Live Stream #71",
                 "url": "https://youtu.be/pF0cadg2mg0",
-                "description": "Livestream with Circle Packing and White House Date Visualization."
+                "description": "Live Stream with Circle Packing and White House Date Visualization."
               }
             ]
         }

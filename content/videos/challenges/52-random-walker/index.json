@@ -86,6 +86,12 @@
           "title": "Random Walker with Vectors and Lévy Flight",
           "url": "/challenges/53-random-walker-with-vectors-and-levy-flight",
           "description": "Random walker using vectors to vary the distance of each step, and implementing Lévy Flight."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #73",
+          "url": "https://youtu.be/RDULjRLn3pk",
+          "description": "Live Stream with Random Walk"
         }
       ]
     }
