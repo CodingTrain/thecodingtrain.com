@@ -90,13 +90,13 @@
             ]
         },
         {
-            "title": "Videos",
+            "title": "Live Stream Archive",
             "links": [
               {
-                "icon": "🎥",
-                "title": "Livestream Archive",
+                "icon": "🔴",
+                "title": "Live Stream Archive #70",
                 "url": "https://youtu.be/VFnF87-JNtY",
-                "description": "Livestream with Asteroids and Pixel Sorting."
+                "description": "Live Stream with Asteroids and Pixel Sorting."
               }
             ]
         }

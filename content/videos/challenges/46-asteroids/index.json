@@ -57,32 +57,28 @@
             }
         }
     ],
-    "groupLinks": [
-        {
+    "groupLinks": [{
             "title": "References",
-            "links": [
-                {
-                    "icon": "🔗",
-                    "title": "Asteroids on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
-                    "description": "Wikipedia page with information and resources about the video game Asteroids"
-                }
-            ]
+            "links": [{
+                "icon": "🔗",
+                "title": "Asteroids on Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+                "description": "Wikipedia page with information and resources about the video game Asteroids"
+            }]
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "🎥",
                     "title": "Polar Coordinates",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
                     "description": "This video covers the trigonometric functions—sine, cosine, and tangent."
                 },
                 {
-                    "icon": "🎥",
-                    "title": "Livestream Archive",
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #70",
                     "url": "https://youtu.be/VFnF87-JNtY",
-                    "description": "Livestream with Asteroids and Pixel Sorting."
+                    "description": "Live Stream with Asteroids and Pixel Sorting."
                 }
             ]
         }
