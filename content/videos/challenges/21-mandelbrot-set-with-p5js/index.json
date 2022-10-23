@@ -50,6 +50,16 @@
           "description": "Mandelbrot set explorer."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+      {
+        "icon": "🔴",
+        "title": "Live Stream #43",
+        "url": "https://youtu.be/pLtViSqkPvQ",
+        "description": "Live Stream with Mandelbrot Set with p5.js"
+      }]
     }
   ]
 }
