@@ -43,6 +43,15 @@
           "description": "Wikipedia page of Jackson Mac Low"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Live Stream #59",
+        "url": "https://youtu.be/UTq0RQwnU3s",
+        "description": "Week 1 of Programming from A to Z"
+      }]
     }
   ]
 }

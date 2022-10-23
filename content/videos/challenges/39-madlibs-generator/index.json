@@ -50,6 +50,15 @@
           "description": "Papa parse, a tabletop.js alternative"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Live Stream #61",
+        "url": "https://youtu.be/Fe1sy9fkTKQ",
+        "description": "Week 3 of Programming from A to Z"
+      }]
     }
   ]
 }
