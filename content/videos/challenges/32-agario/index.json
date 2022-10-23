@@ -70,6 +70,23 @@
                     "description": "Bidirectional and low-latency communication for every platform."
                 }
             ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Live Stream #55",
+                    "url": "https://youtu.be/eOii4P7WYbY",
+                    "description": "Livestream with Flappy Bird and Agar.io clones."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Live Stream #58",
+                    "url": "https://youtu.be/_cDPN2Ief6Q",
+                    "description": "Livestream with networking Agar.io and the history of p5.js/Processing."
+                }
+            ]
         }
     ]
 }
