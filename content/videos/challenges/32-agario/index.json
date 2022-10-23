@@ -1,83 +1,73 @@
 {
-    "title": "Agar.io - Part 1 (Basic Game Mechanics)",
-    "description": "In this coding challenge, I create a clone of the multiplayer online game Agar.io using JavaScript (p5.js). This is only the beginning of this challenge where I build out the basic game mechanics. I plan to make a follow-up to this video and add the multiplayer functionality of the game using node.js and websockets.",
-    "videoNumber": "32.1",
-    "videoId": "JXuxYMGe4KI",
+    "title": "Agar.io",
+    "description": "In this muti-part coding challenge, I create a clone of the multiplayer online game Agar.io with JavaScript, node.js and websockets.",
+    "videoNumber": "32",
+    "videoId": "",
     "date": "2016-08-16",
-    "languages": [],
+    "languages": ["JavaScript", "node.js"],
     "topics": [
-        "rainbow",
-        "live",
-        "agar",
-        "io",
-        "games",
-        "p5.js",
-        "daniel shiffman",
-        "p5js",
-        "creative coding",
-        "p5.js tutorial",
-        "nature of code",
-        "javascript",
-        "tutorial",
-        "coding challenge",
-        "the nature of code",
-        "p5 js",
-        "javascript (programming language)",
-        "agario",
         "agar.io",
-        "challenge",
-        "coding",
-        "codingrainbow",
-        "agario challenges",
-        "agario gameplay",
-        "agario challenge",
-        "JavaScript",
-        "agario code"
+        "websockets"
     ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [],
+    "parts": [
+        {
+            "title": "Agar.io - Part 1 (Basic Game Mechanics)",
+            "videoId": "JXuxYMGe4KI",
+            "timestamps": []
+        },
+        {
+            "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
+            "videoId": "ZjVyKXp9hec",
+            "timestamps": []
+        }
+    ],    
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Agar.io - Part 1 (Basic Game Mechanics)",
+            "description": "This sketch implements the basic game mechanics of the game Agar.io.",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/J3BZeLP02"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/J3BZeLP02",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/032.1_agar.io/Processing"
             }
         },
         {
-            "title": "p5js - GitHub",
-            "description": "",
+            "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
+            "description": "This project sets up a server so that visitors are able to compete in a version of the game Agar.io.",
             "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_032.1_agar.io/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_032.1_agar.io/Processing"
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/032.2_agar.io_sockets/Node"
             }
         }
     ],
     "groupLinks": [
         {
-            "title": "Other Parts Of This Coding Challenge",
-            "links": [
-                {
-                    "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
-                    "url": "/challenge/032.2-agario-sockets",
-                    "description": ""
-                }
-            ]
-        },
-        {
             "title": "References",
             "links": [
                 {
+                    "icon": "🔗",
                     "title": "Agar.io on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Agar.io",
-                    "description": ""
+                    "description": "Wikipedia page with information and resources on Agar.io"
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Agar.io",
+                    "url": "http://agar.io",
+                    "description": "Control your cell and eat other players to grow larger! Play with millions of players around the world and try to become the biggest cell of all!"
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Node.js",
+                    "url": "https://nodejs.org/en/",
+                    "description": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Socket.io",
+                    "url": "http://socket.io/",
+                    "description": "Bidirectional and low-latency communication for every platform."
                 }
             ]
         }
