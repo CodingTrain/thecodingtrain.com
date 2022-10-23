@@ -58,6 +58,12 @@
           "title": "My Video on Polar Coordinates",
           "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "A dive into the trigonometric functions—sine, cosine, tangent."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/hVSHlFjTeqg",
+          "description": "Livestream #87.3: Timer in JavaScript, Pong and Binary Tree - Part 3"
         }
       ]
     }

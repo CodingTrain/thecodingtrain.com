@@ -11,7 +11,7 @@
         "accretion disk"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["7-solar-system-2d", "8-solar-system-3d"],
     "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: a black hole visualization" },
         { "time": "3:25", "title": "The elements in the black hole visualization" },

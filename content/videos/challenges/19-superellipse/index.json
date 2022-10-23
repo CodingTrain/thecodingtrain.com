@@ -62,6 +62,23 @@
           "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Supershape track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/1Yo_AYzxA-o",
+          "description": "Livestream #41: GitHub Pages, 3D Fractal Trees and Superellipse"
+        }
+      ]
     }
   ]
 }

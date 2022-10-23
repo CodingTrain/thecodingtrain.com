@@ -15,8 +15,7 @@
   "relatedChallenges": [
     "41-clappy-bird",
     "31-flappy-bird",
-    "138-angry-birds-with-matterjs",
-    "147-chrome-dinosaur-game"
+    "138-angry-birds-with-matterjs"
 ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -69,10 +68,16 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🚂",
+          "icon": "🎥",
           "title": "ml5.js Sound Classification",
           "url": "https://youtu.be/cO4UP2dX944",
           "description": "This video examines the new ml5.soundClassifier() function in the ml5.js library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "hhttps://youtu.be/eRy3j1Alzko",
+          "description": "Livestream #179: Chrome Dinosaur Game + ml5 Speech Commands Model"
         }
       ]
     }
