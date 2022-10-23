@@ -34,12 +34,12 @@
   ],
   "groupLinks": [
     {
-      "title": "Livestream Archive",
+      "title": "Live Stream Archive",
       "links": [{
         "icon": "🔴",
-        "title": "Livestream #34",
+        "title": "Live Stream #34",
         "url": "https://youtu.be/r8QMcI5qxQM",
-        "description": "Livestream with Git and GitHub Tutorials + Purple Rain and Solar System"
+        "description": "Live Stream with Git and GitHub Tutorials + Purple Rain and Solar System"
       }]
     }
   ]

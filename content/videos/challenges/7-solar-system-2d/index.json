@@ -46,6 +46,12 @@
           "title": "Gravitational Attraction",
           "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/2-forces/5-gravitational-attraction",
           "description": "Applying gravitation force between two objects in code."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive #34",
+          "url": "https://youtu.be/r8QMcI5qxQM",
+          "description": "Livestream with Git and GitHub Tutorials + Purple Rain and Solar System"
         }
       ]
     }
