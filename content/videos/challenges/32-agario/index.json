@@ -10,7 +10,7 @@
         "websockets"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["36-blobby", "69-evolutionary-steering-behaviors"],
     "timestamps": [],
     "parts": [
         {
@@ -143,17 +143,17 @@
             ]
         },
         {
-            "title": "Videos",
+            "title": "Livestream Archive",
             "links": [
                 {
                     "icon": "🔴",
-                    "title": "Livestream Archive #55",
+                    "title": "Livestream #55",
                     "url": "https://youtu.be/eOii4P7WYbY",
                     "description": "Livestream with Flappy Bird and Agar.io clones."
                 },
                 {
                     "icon": "🔴",
-                    "title": "Livestream Archive #58",
+                    "title": "Livestream #58",
                     "url": "https://youtu.be/_cDPN2Ief6Q",
                     "description": "Livestream with networking Agar.io and the history of p5.js/Processing."
                 }
