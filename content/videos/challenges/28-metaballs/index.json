@@ -56,6 +56,17 @@
           "description": "Article by Stephen Whitmore."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/3xNv10FglGc",
+          "description": "Livestream #50: Loading Animation, Metaballs and 2D Arrays in JS"
+        }
+      ]
     }
   ]
 }

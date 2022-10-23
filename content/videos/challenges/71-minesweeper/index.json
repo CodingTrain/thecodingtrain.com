@@ -7,6 +7,13 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Games", "Prototypes", "Floodfill"],
   "canContribute": true,
+  "relatedChallenges": [
+    "3-snake-game",
+    "46-asteroids",
+    "67-pong",
+    "91-snakes-and-ladders",
+    "115-snake-game-redux"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "1:26", "title": "All aboard!" },
