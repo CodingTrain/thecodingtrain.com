@@ -73,6 +73,8 @@ function parseTrack(track) {
 
 /**
  * Parses index.json and pushes to videos array
+ *
+ * Note: has side effects, must be called only once per file
  * @param {string} file File to parse
  */
 function getVideoData(file) {
@@ -93,6 +95,8 @@ function getVideoData(file) {
       }
     }
   }
+
+  const slug = url[url.length - 1];
 
   if (!url || url.length == 0) {
     throw new Error(
@@ -120,7 +124,8 @@ function getVideoData(file) {
         pageURL: url.join('/'),
         data: partInfo,
         filePath: file,
-        isMultipartChallenge: true
+        isMultipartChallenge: true,
+        slug: slug
       };
       videos.push(videoData);
     }
@@ -129,7 +134,8 @@ function getVideoData(file) {
     const videoData = {
       pageURL: url.join('/'),
       data: video,
-      filePath: file
+      filePath: file,
+      slug: slug
     };
     videos.push(videoData);
   }
@@ -177,7 +183,7 @@ function resolveYTLink(url) {
       const playlistId = track.data.playlistId;
       return `https://www.youtube.com/playlist?list=${playlistId}`;
     } else {
-      console.warn('Warning: Track Playlist not found:', urlchunks[1]);
+      console.warn('Warning: YT Playlist not found for track:', urlchunks[1]);
       return `https://thecodingtrain.com/${location}`;
     }
   }
@@ -186,7 +192,7 @@ function resolveYTLink(url) {
   try {
     page = videos.find((vid) => vid.pageURL === location).data;
   } catch (err) {
-    console.warn('Warning: Could not resolve to video -', url);
+    console.warn('Warning: Could not resolve to YT video:', url);
     return `https://thecodingtrain.com${url}`;
   }
 
@@ -200,7 +206,6 @@ function resolveYTLink(url) {
 function writeDescription(video) {
   const data = video.data;
   const pageURL = video.pageURL;
-  const nebulaSlug = video.data.nebulaSlug;
   let description = '';
 
   // Description
@@ -209,7 +214,9 @@ function writeDescription(video) {
 
   description += '\n';
 
+  // Watch on Nebula
   const nebulaURL = `https://nebula.tv/videos/`;
+  const nebulaSlug = video.data.nebulaSlug;
   if (nebulaSlug) {
     description += `\n🚀 Watch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
     description += '\n';
@@ -250,12 +257,12 @@ function writeDescription(video) {
   // Other Parts of this Coding Challenge
 
   if (video.isMultipartChallenge) {
-    console.log('Multipart Challenge:', data.title);
-    const otherParts = videos.filter((vid) => vid.filePath === video.filePath);
-    console.log(otherParts);
+    const otherParts = videos.filter(
+      (vid) => vid.slug === video.slug && vid !== video
+    );
 
     if (otherParts.length > 0) {
-      description += '\nAll Parts of this Coding Challenge:';
+      description += '\nOther Parts of this Challenge:';
       for (const part of otherParts) {
         description += `\n📺 ${part.data.partTitle}: https://youtu.be/${part.data.videoId}`;
       }
@@ -264,6 +271,7 @@ function writeDescription(video) {
   }
 
   // Previous Video / Next Video / All Videos
+
   if (video.pageURL.startsWith('challenges/')) {
     const i = +video.data.videoNumber;
     const previousVideo = videos.find((vid) => vid.data.videoNumber == i - 1);
@@ -311,6 +319,7 @@ function writeDescription(video) {
   }
 
   // Group Links (References / Videos / ...)
+
   if (data.groupLinks) {
     for (let group of data.groupLinks) {
       description += `\n${group.title}:\n`;
@@ -389,7 +398,7 @@ This description was auto-generated. If you see a problem, please open an issue:
   );
   description += `\n\n${hashtags.join(' ')}`;
 
-  const videoSlug = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  const videoSlug = video.slug;
   let filename = videoSlug + '_' + data.videoId;
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
 
@@ -443,9 +452,6 @@ const allTracks = [...mainTracks, ...sideTracks];
       console.log('=====================================================');
     }
   } else {
-    for (const file of files) {
-      getVideoData(file);
-    }
     videos.forEach(writeDescription);
   }
   console.log('\n✅ Wrote descriptions to  ./_descriptions/');
