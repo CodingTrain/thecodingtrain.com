@@ -73,12 +73,18 @@
         {
             "title": "Videos",
             "links": [{
-                "icon": "🎥",
-                "title": "Nature of Code Steering Behaviors Playlist",
-                "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YHt0dtyf4uiw8tKOxQLvlW",
-                "description": "These video lessons accompany Chapter 6 (Autonomous Agents) from The Nature of Code book."
-            }]
+                    "icon": "🎥",
+                    "title": "Nature of Code Steering Behaviors Playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YHt0dtyf4uiw8tKOxQLvlW",
+                    "description": "These video lessons accompany Chapter 6 (Autonomous Agents) from The Nature of Code book."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream #79",
+                    "url": "https://youtu.be/L1nHni9HMBw",
+                    "description": "Live Stream with 3D Earthquake Data Visualization & Steering Behaviors"
+                }
+            ]
         }
-
     ]
 }

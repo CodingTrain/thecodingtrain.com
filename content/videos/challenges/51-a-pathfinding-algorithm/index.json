@@ -11,7 +11,7 @@
         "heuristic"
     ],
     "canContribute": true,
-    "relatedChallenges": ["10-dfs-maze-generator"],
+    "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk"],
     "timestamps": [],
     "parts": [{
             "title": "A* Pathfinder Algorithm - Part 1",
@@ -115,7 +115,8 @@
         "image": "a-pathfinding-algorithm.png",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat",
-            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar"
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar",
+            "other": "https://github.com/CodingTrain/AStar"
         }
     }],
     "groupLinks": [{
@@ -131,14 +132,20 @@
                     "title": "A* Search Algorithm on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
                     "description": "Wikipedia page with background and references on the A* algorithm."
+                },
+                {
+                    "icon": "💻",
+                    "title": "Online demo",
+                    "url": "https://codingtrain.github.io/AStar/",
+                    "description": "This is a demonstration of the A* \"search\" algorithm for pathfinding on a 2D grid."
                 }
             ]
         },
         {
             "title": "Live Stream Archive",
             "links": [{
-                    "icon": "🎥",
-                    "title": "A* Livestream",
+                    "icon": "🔴",
+                    "title": "A* Livestream #72",
                     "url": "https://www.youtube.com/watch?v=S4yQYiAECnM&t=34m50s",
                     "description": "This unedited archive features the entire very long and messy debugging process!"
                 }

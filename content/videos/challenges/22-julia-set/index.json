@@ -56,6 +56,12 @@
           "title": "Coding Challenge: Mandelbrot Set",
           "url": "/challenges/21-mandelbrot-set-with-p5js",
           "description": "In this coding challenge, I program from scratch the Mandelbrot set with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #44",
+          "url": "https://youtu.be/k6OeXGzRv0c",
+          "description": "Live Stream with Julia Set and Sound Effects with p5.js"
         }
       ]
     }

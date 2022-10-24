@@ -76,7 +76,13 @@
                     "title": "Simple Harmonic Motion",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/5-harmonic-motion",
                     "description": "In this video, I demonstrate how to use the sin() function in p5.js to simulate simple harmonic motion."
-                }
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Back to School on the Coding Train",
+                    "url": "https://youtu.be/EiYhMpZ_43M",
+                    "description": "Demo on how to use Movie Maker tool in Processing to make GIF loop using code from Cube Wave by Bees and Bombs challenge"
+                  }
             ]
         }
     ]

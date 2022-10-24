@@ -72,13 +72,13 @@
       ]
     },
     {
-      "title": "Videos",
+      "title": "Live Stream Archive",
       "links": [
         {
           "icon": "🔴",
-          "title": "Livestream Archive",
+          "title": "Live Stream #48",
           "url": "https://youtu.be/ATWOjXdRIoo",
-          "description": "Livestream #48 - Computer Vision and Fireworks!"
+          "description": "Live Stream with Computer Vision and Fireworks!"
         }
       ]
     }

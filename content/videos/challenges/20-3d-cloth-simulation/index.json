@@ -54,6 +54,15 @@
           "description": "Documentation for the Toxiclibs library"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Live Stream #42",
+        "url": "https://youtu.be/nfU-NqnXn1o",
+        "description": "Live Stream with Sound in p5.js + 3D Cloth with toxiclibs"
+      }]
     }
   ]
 }

@@ -72,12 +72,16 @@
                     "title": "Trigonometry and Polar Coordinates - The Nature of Code",
                     "url": "https://youtu.be/znOBmOrtz_M",
                     "description": "This video describes the basics of trigonometry and how to use polar coordinates in Processing."
-                },
-                {
+                }, {
                     "icon": "🎥",
                     "title": "What is Perlin Noise?",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
+                }, {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #80",
+                    "url": "https://youtu.be/bMOv5vTC9uE",
+                    "description": "Live Stream with Prototypes in Javascript and Butterfly Wings Generator"
                 }
             ]
         }

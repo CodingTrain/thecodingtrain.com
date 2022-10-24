@@ -85,6 +85,12 @@
           "title": "Supershapes track",
           "url": "/tracks/supershapes",
           "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas.."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #58",
+          "url": "https://youtu.be/_cDPN2Ief6Q",
+          "description": "Live Stream with Networking Agar.io, History of p5.js/Processing, and Blobby"
         }
       ]
     }

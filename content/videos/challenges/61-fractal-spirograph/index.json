@@ -66,10 +66,10 @@
           "description": "A dive into the trigonometric functions—sine, cosine, tangent."
         },
         {
-          "icon": "🎥",
-          "title": "Live Stream #81: Fractal Spirograph",
+          "icon": "🔴",
+          "title": "Live Stream Archive #81: Fractal Spirograph",
           "url": "https://youtu.be/S5Qj-JgAN-M",
-          "description": "Livestream archive for Fractal Spirograph challenge."
+          "description": "Live Stream for Fractal Spirograph challenge."
         }
       ]
     }

@@ -280,8 +280,8 @@
           "description": "A Coding Train YouTube playlist about Genetic Algorithms."
         },
         {
-          "icon": "🎥",
-          "title": "Livestream Archive",
+          "icon": "🔴",
+          "title": "Live Stream Archive #57",
           "url": "https://youtu.be/r_SpBy9fQuo",
           "description": "Livestream with Traveling Salesperson."
         }

@@ -69,6 +69,12 @@
           "title": "What is Perlin Noise?",
           "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/perlin-noise-and-p5js-tutorial-intro",
           "description": "Tutorial on Perlin Noise in p5.js"
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream #37",
+          "url": "https://youtu.be/WpUnYfVmKdA",
+          "description": "Live Stream with 3D Terrain Generation"
         }
       ]
     }
