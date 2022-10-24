@@ -151,12 +151,15 @@ git push --set-upstream origin branch-name
    - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web. Sometimes these projects are hosted on sites where previews of the running project are available. If so, grab a screenshot of the running project to use as the thumbnail for that project. If not, the placeholder image will be used.
    - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image so that it matches the filename of the contribution's JSON file. For example, if you have a "contribution1.json" file, you should also have a "contribution1.jpg" file.  While any aspect ratio is fine (the site will resize and crop as necessary), the images will be displayed at 16:9 aspect ratio. If you able to get a "landscape" screenshot, it will look better.  The file format should be JPG or PNG, with a maximum width of 800px and file size of 500 kb.
 
-7. Check the links to the references and videos to make sure are not broken and add additional metadata.
+7. Check the links to the references and videos to make sure are not broken and add additional metadata.  Add a link (s) to any archived Live Streams associated with the challenge.
 
    - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
    - Update the "languages" property in the "index.json" file. In this instance, "languages" refers to the programming language(s) used in the challenge. For example: "p5.js", "JavaScript", "Processing", or "node.js".
    - Update the "topics" property in the "index.json" file. If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics". The tags from YouTube are pretty generic and overall too much information. Only a handful of topics are needed, so only include topics that are relevant to this specific video. If no tags were present on the YouTube page, then this may be blank - go ahead and add a couple of topics!
-   - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file. Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept.
+   - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file. Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept. 
+   - If there are multiple Live Streams associated with the challenge, add a new group `"Live Stream Archives"`. 
+
+   ![screenshot of Live Stream Archives](./maintain-website/livestream.jpg)
 
 8. Add time codes for the video.
    - The "timestamps" property in the "index.json" file may contain time codes that were pulled in from the YouTube video. If those didn't exist for the YouTube video, go ahead and add those time codes.
