@@ -8,7 +8,12 @@
     "topics": [
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": [
+        "128-sketch-rnn-snowflakes",
+        "155-kaleidoscope-snowflake",
+        "127-brownian-tree-snowflake",
+        "129-koch-fractal-snowflake"
+    ],
     "timestamps": [],
     "codeExamples": [
         {
