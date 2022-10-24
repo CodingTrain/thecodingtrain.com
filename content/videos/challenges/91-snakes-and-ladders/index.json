@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["snakes and ladders", "game"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["71-minesweeper", "72-frogger", "94-2048"],
   "timestamps": [],
   "parts": [
     {
