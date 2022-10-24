@@ -1,86 +1,106 @@
 {
-    "title": "AFINN-111 Sentiment Analysis - Part 1",
-    "description": "This is Part 1 of a two-part coding challenge on Sentiment Analysis with the AFINN-111 word list. In this video, I explain what the AFINN-111 is and how to convert Tab Separated Values (.tsv) data into JSON data. This video is part of Session 8 of the \u201cProgramming from A to Z\u201d ITP class.",
-    "videoNumber": "44.1",
-    "videoId": "uw3GbsY_Pbc",
+    "title": "AFINN-111 Sentiment Analysis",
+    "description": "In this multi-part coding challenge I implement sentiment analysis using the AFINN-111 word list.",
+    "videoNumber": "44",
+    "videoId": "",
     "date": "2016-12-01",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
-        "JavaScript (Programming Language)",
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "p5.js",
-        "coding challenge",
-        "p5.js tutorial",
-        "p5js",
-        "javascript (programming language)",
-        "tutorial",
-        "javascript",
-        "algorithms",
-        "javascript string object",
-        "js string object",
-        "programming from a to z",
-        "api",
-        "rest api",
-        "restful api",
-        "node json",
-        "nodejs json",
-        "node.js json",
         "sentiment analysis",
-        "afinn-111",
-        "afinn",
-        "tsv",
-        "tsv to json"
+        "afinn-111"
     ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [],
-    "codeExamples": [
+    "parts": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/aNeMdpy-b"
-            }
+            "title": "AFINN-111 Sentiment Analysis - Part 1",
+            "videoId": "uw3GbsY_Pbc",
+            "timestamps": [
+                { "time": "0:00", "title": "Introduce the coding challenge" },
+                { "time": "0:16", "title": "Describe sentiment analysis techniques" },
+                { "time": "1:10", "title": "Introduce the AFINN-111 list" },
+                { "time": "1:37", "title": "Explain the AFINN-111 technique" },
+                { "time": "3:28", "title": "Download AFINN-111 list" },
+                { "time": "4:32", "title": "Process the list with a p5 sketch" },
+                { "time": "5:32", "title": "Load `.txt` file as a table" },
+                { "time": "6:30", "title": "Iterate through the rows" },
+                { "time": "7:32", "title": "Extract word and score" },
+                { "time": "8:24", "title": "Debug parsing logic" },
+                { "time": "9:42", "title": "Create an object with words and scores" },
+                { "time": "10:50", "title": "Save object to a JSON file" },
+                { "time": "12:10", "title": "Conclude the coding challenge" }
+            ]
         },
         {
-            "title": "p5js - GitHub",
-            "description": "",
+            "title": "AFINN-111 Sentiment Analysis - Part 2",
+            "videoId": "VV1JmMYceJw",
+            "timestamps": [
+                { "time": "0:00", "title": "Introduce the coding challenge" },
+                { "time": "0:08", "title": "Load `.json` file" },
+                { "time": "0:35", "title": "Add markup to receive input text" },
+                { "time": "2:15", "title": "Track `textarea` in JavaScript" },
+                { "time": "3:39", "title": "Split text with a regular expression" },
+                { "time": "5:05", "title": "Consider the `textarea` value" },
+                { "time": "5:42", "title": "Iterate through the array of words" },
+                { "time": "5:57", "title": "Consider word capitalization" },
+                { "time": "6:30", "title": "Check if the AFINN list includes the word" },
+                { "time": "7:48", "title": "Increase score counter" },
+                { "time": "8:00", "title": "Add markup to display values" },
+                { "time": "8:30", "title": "Display score" },
+                { "time": "8:55", "title": "Display comparative score" },
+                { "time": "9:15", "title": "Display word list" },
+                { "time": "10:00", "title": "Test code" },
+                { "time": "11:11", "title": "Convert score to a number" },
+                { "time": "12:00", "title": "Test with different inputs" },
+                { "time": "13:03", "title": "Compute the total score" },
+                { "time": "14:12", "title": "Summarize the coding challenge" },
+                { "time": "14:35", "title": "Highlight issue with the specific technique" },
+                { "time": "16:00", "title": "Conclude the coding challenge" }
+            ]
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "AFINN-111 Sentiment Analysis",
+            "description": "This sketch implements sentiment analysis using the AFINN-111 word list.",
             "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_044_afinn111SentimentAnalysis/P5"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/aNeMdpy-b"
             }
         }
     ],
     "groupLinks": [
         {
-            "title": "Other Parts Of This Coding Challenge",
+            "title": "References",
             "links": [
                 {
-                    "title": "AFINN-111 Sentiment Analysis - Part 2",
-                    "url": "/challenge/044.2-afinn111sentimentanalysis",
-                    "description": ""
+                    "icon": "🔗",
+                    "title": "AFINN",
+                    "url": "http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010",
+                    "description": "IMM Publication Database with the AFINN word list."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Node.js",
+                    "url": "https://nodejs.org/",
+                    "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Express.js",
+                    "url": "http://expressjs.com/",
+                    "description": "Fast, unopinionated, minimalist web framework for Node.js."
                 }
             ]
         },
         {
-            "title": "References",
+            "title": "Livestream Archive",
             "links": [
                 {
-                    "title": "AFINN",
-                    "url": "http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010",
-                    "description": ""
-                },
-                {
-                    "title": "Node.js",
-                    "url": "https://nodejs.org/",
-                    "description": ""
-                },
-                {
-                    "title": "Express.js",
-                    "url": "http://expressjs.com/",
-                    "description": ""
+                    "icon": "🔴",
+                    "title": "Livestream #68.3",
+                    "url": "https://youtu.be/lCzB9V9L8d0",
+                    "description": "Livestream with Sentiment Analysis, HTTP Get and Post requests."
                 }
             ]
         }
