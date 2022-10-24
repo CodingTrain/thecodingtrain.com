@@ -1,73 +1,36 @@
 {
-    "title": "Recam\u00e1n's Sequence - Part 1",
-    "description": "In this coding challenge, I visualize the Recam\u00e1n\u2019s number sequence using the p5.js library. #CodingRecaman",
-    "videoNumber": "110.1",
+    "title": "Recam\u00e1n's Sequence",
+    "description": "In this coding challenge, I visualize the Recam\u00e1n\u2019s number sequence using the p5.js library.",
+    "videoNumber": "110",
     "videoId": "DhFZfzOvNTU",
     "date": "2018-07-24",
-    "languages": [],
+    "languages": ["p5.js", "JavaScript"],
     "topics": [
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "class",
-        "challenge",
-        "codingtrain",
-        "code challenge",
         "recaman",
         "recaman's sequence",
-        "recaman numberphile",
-        "javascript (programming language)",
-        "programming challenge",
-        "p5.js tutorial",
-        "recaman sequence",
-        "recaman sequence music",
-        "recaman sequence audio",
-        "recaman sequence sound",
-        "recaman sequence visual"
+        "music", "audio-visual"
     ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
+            "title": "Recaman's Sequence - Part 1",
             "description": "",
             "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/2OSiAFU7k"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2OSiAFU7k",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/110.1_recaman/Processing/CC_110_recaman"
             }
         },
         {
-            "title": "p5js - GitHub",
+            "title": "Recaman's Sequence - Part 2",
             "description": "",
             "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_110.1_recaman/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_110.1_recaman/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2CRSf-wRL"
             }
         }
     ],
     "groupLinks": [
-        {
-            "title": "Other Parts Of This Coding Challenge",
-            "links": [
-                {
-                    "title": "Coding Challenge #110.2: Recam\u00e1n's Sequence - Part 2 (Audio)",
-                    "url": "/challenge/110.2-recaman-sequence",
-                    "description": ""
-                }
-            ]
-        },
         {
             "title": "References",
             "links": [
