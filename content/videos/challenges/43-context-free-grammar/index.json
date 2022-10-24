@@ -7,7 +7,7 @@
     "languages": ["p5.js", "JavaScript"],
     "topics": ["text-generator", "recursion", "grammar"],
     "canContribute": true,
-    "relatedChallenges": ["16-l-system-fractal-trees", "14-fractal-trees-recursive", "77-recursion"],
+    "relatedChallenges": ["16-l-system-fractal-trees", "14-fractal-trees-recursive", "77-recursion", "39-madlibs-generator"],
     "timestamps": [
       { "time": "0:00", "title": "Introduction!" },
       { "time": "1:10", "title": "Defining a JavaScript object containing the grammar rules" },
@@ -75,7 +75,7 @@
           {
             "icon": "🎥",
             "title": "Livestream Archive",
-            "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6Y7iXZe_8XKJhaw_kRo8REO",
+            "url": "https://youtu.be/X6IPcExkG30",
             "description": "Live Stream 65: Context-Free-Grammar (Session 7 of Programming from A to Z)"
           }
         ]
