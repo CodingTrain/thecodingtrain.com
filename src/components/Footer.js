@@ -114,7 +114,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://discord.gg/codingtrain" aria-label="Discord">
+            <a href="https://discord.gg/hPuGy2g" aria-label="Discord">
               <Discord width={30} />
               <span>Discord</span>
             </a>
