@@ -33,13 +33,13 @@
     "featured": [
       "174-graphics-applesoft-basic",
       "173-snake-applesoft-basic",
-      "171-wave-function-collapse",
-      "166-image-to-ascii",
-      "167-prime-spiral",
-      "168-the-mandelbulb",
-      "163-bezier-curves",
-      "c3-hilbert-curve",
-      "116-lissajous-curve-table"
+      "50-animated-circle-packing",
+      "147-chrome-dinosaur-game",
+      "78-simple-particle-system",
+      "98-quadtree",
+      "148-gift-wrapping",
+      "53-random-walker-with-vectors-and-levy-flight",
+      "17-fractal-trees-space-colonization"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
