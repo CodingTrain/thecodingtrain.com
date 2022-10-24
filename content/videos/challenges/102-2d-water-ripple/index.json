@@ -10,7 +10,7 @@
         "cellular automata"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["24-perlin-noise-flow-field", "85-the-game-of-life", "102-2d-water-ripple", "103-fire-effect"],
     "timestamps": [
       { "time": "0:00", "title": "Introduction" },
       { "time": "0:54", "title": "2D water ripples algorithm" },
@@ -58,17 +58,17 @@
             "title": "Videos",
             "links": [
                 {
-                    "icon": "🚂",
-                    "title": "Game of Life Challenge",
-                    "url": "https://www.youtube.com/watch?v=FWSR_7kZuYg",
-                    "description": "In this coding challenge, I attempt to code Conway's Game of Life cellular automata simulation in JavaScript using the p5.js library."
-                },
-                {
-                    "icon": "🚂",
+                    "icon": "🎥",
                     "title": "Cellular Automata",
                     "url": "https://www.youtube.com/watch?v=DKGodqDs9sA",
                     "description": "This video introduces the concepts and algorithms behind Cellular Automata."
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/ORwIZCKJA-Q",
+                    "description": "Livestream #135: @2:06:10 - 2D water ripples challenge"
+                  }
             ]
         }
     ]

@@ -46,6 +46,17 @@
           "description": "Golan Levin explains the the modulo operator and its applications in creative codiing"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/jSzmac4Rri8",
+          "description": "Livestream #157: Binary Numbers & Bit Shifting"
+        }
+      ]
     }
   ]
 }

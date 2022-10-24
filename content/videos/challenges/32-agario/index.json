@@ -1,0 +1,163 @@
+{
+    "title": "Agar.io",
+    "description": "In this multi-part coding challenge, I create a clone of the multiplayer online game Agar.io with JavaScript, node.js and websockets.",
+    "videoNumber": "32",
+    "videoId": "",
+    "date": "2016-08-16",
+    "languages": ["JavaScript", "node.js"],
+    "topics": [
+        "agar.io",
+        "websockets"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["36-blobby", "69-evolutionary-steering-behaviors"],
+    "timestamps": [],
+    "parts": [
+        {
+            "title": "Agar.io - Part 1 (Basic Game Mechanics)",
+            "videoId": "JXuxYMGe4KI",
+            "timestamps": [
+                { "time": "0:00", "title": "Introduce the coding challenge" },
+                { "time": "0:55", "title": "Set up sketch" },
+                { "time": "1:05", "title": "Create a blob class" },
+                { "time": "2:06", "title": "Create a blob object" },
+                { "time": "2:24", "title": "Debug drawing logic" },
+                { "time": "2:42", "title": "Describe movement logic" },
+                { "time": "3:05", "title": "Create an array of blob objects" },
+                { "time": "4:05", "title": "Position blobs in the canvas" },
+                { "time": "4:40", "title": "Explain movement logic" },
+                { "time": "5:32", "title": "Move blob toward the mouse" },
+                { "time": "6:46", "title": "Explain coordinate system" },
+                { "time": "7:52", "title": "Translate origin" },
+                { "time": "9:13", "title": "Debug movement logic" },
+                { "time": "9:56", "title": "Position blobs in a larger world" },
+                { "time": "10:46", "title": "Consider blob collision" },
+                { "time": "11:48", "title": "Implement collision detection" },
+                { "time": "12:18", "title": "Explain overlap test" },
+                { "time": "12:38", "title": "Increase the radius of the blob" },
+                { "time": "13:02", "title": "Debug collision logic" },
+                { "time": "14:03", "title": "Consider chat suggestions" },
+                { "time": "14:32", "title": "Increase the radius based on area" },
+                { "time": "15:52", "title": "Scale coordinate system to expand the world" },
+                { "time": "17:00", "title": "Debug operations on the coordinate system" },
+                { "time": "18:10", "title": "Fix the order of the operations" },
+                { "time": "19:10", "title": "Introduce `lerp` interpolation" },
+                { "time": "19:47", "title": "Interpolate the change in scale" },
+                { "time": "21:54", "title": "Interpolate the velocity of the blob" },
+                { "time": "23:22", "title": "Summarize the coding challenge" },
+                { "time": "23:44", "title": "Conclude the coding challenge" }
+            ]
+        },
+        {
+            "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
+            "videoId": "ZjVyKXp9hec",
+            "timestamps": [
+                { "time": "0:00", "title": "Introduce the coding challenge" },
+                { "time": "0:23", "title": "Mention the previous coding challenge 'Agar.io - Part 1'" },
+                { "time": "0:52", "title": "Mention tutorial on node.js and web sockets" },
+                { "time": "1:22", "title": "Sketch client-server communication" },
+                { "time": "3:00", "title": "Set up a node server" },
+                { "time": "4:35", "title": "Examine server code" },
+                { "time": "5:00", "title": "Examine client code" },
+                { "time": "5:10", "title": "Add a web socket" },
+                { "time": "5:42", "title": "Reference the socket library" },
+                { "time": "6:42", "title": "Update agar.io code" },
+                { "time": "7:42", "title": "Consider server code" },
+                { "time": "8:34", "title": "Create a blob constructor" },
+                { "time": "9:11", "title": "Associate the connection `id` to the blob" },
+                { "time": "10:40", "title": "Create a blob once a connection receives a `start` message" },
+                { "time": "11:36", "title": "Consider client code" },
+                { "time": "11:51", "title": "Send a `start` message to the server" },
+                { "time": "13:08", "title": "Test client-server communication" },
+                { "time": "14:00", "title": "Send the correct position" },
+                { "time": "14:42", "title": "Use a random location and size" },
+                { "time": "15:55", "title": "Update blob location" },
+                { "time": "16:20", "title": "Send an `update` message" },
+                { "time": "16:53", "title": "Handle the `update` message" },
+                { "time": "17:30", "title": "Find blob by `id`" },
+                { "time": "18:25", "title": "Update blob location" },
+                { "time": "19:18", "title": "Test update logic" },
+                { "time": "19:59", "title": "Test multiple connections" },
+                { "time": "21:53", "title": "Constrain blob movement" },
+                { "time": "23:40", "title": "Summarize the coding challenge" },
+                { "time": "25:11", "title": "Broadcast a message from the server" },
+                { "time": "27:33", "title": "Broadcast the array of blobs" },
+                { "time": "28:41", "title": "Display the blobs on the client" },
+                { "time": "30:56", "title": "Restart server" },
+                { "time": "31:30", "title": "Debug drawing logic" },
+                { "time": "31:51", "title": "Draw the `id` for each blob" },
+                { "time": "33:20", "title": "Avoid drawing the same blob" },
+                { "time": "33:57", "title": "Consider the client's own `id`" },
+                { "time": "36:00", "title": "Draw blobs with a different `id`" },
+                { "time": "37:55", "title": "Test game with two clients" },
+                { "time": "41:20", "title": "Increase update frequency" },
+                { "time": "42:30", "title": "Conclude the coding challenge" }
+            ]
+        }
+    ],    
+    "codeExamples": [
+        {
+            "title": "Agar.io - Part 1 (Basic Game Mechanics)",
+            "description": "This sketch implements the basic game mechanics of the game Agar.io.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/J3BZeLP02",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/032.1_agar.io/Processing"
+            }
+        },
+        {
+            "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
+            "description": "This project sets up a server so that visitors are able to compete in a version of the game Agar.io.",
+            "urls": {
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/032.2_agar.io_sockets/Node"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🔗",
+                    "title": "Agar.io on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Agar.io",
+                    "description": "Wikipedia page with information and resources on Agar.io"
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Agar.io",
+                    "url": "http://agar.io",
+                    "description": "Control your cell and eat other players to grow larger! Play with millions of players around the world and try to become the biggest cell of all!"
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Node.js",
+                    "url": "https://nodejs.org/en/",
+                    "description": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Socket.io",
+                    "url": "http://socket.io/",
+                    "description": "Bidirectional and low-latency communication for every platform."
+                }
+            ]
+        },
+        {
+            "title": "Livestream Archive",
+            "links": [
+                {
+                    "icon": "🔴",
+                    "title": "Livestream #55",
+                    "url": "https://youtu.be/eOii4P7WYbY",
+                    "description": "Livestream with Flappy Bird and Agar.io clones."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream #58",
+                    "url": "https://youtu.be/_cDPN2Ief6Q",
+                    "description": "Livestream with networking Agar.io and the history of p5.js/Processing."
+                }
+            ]
+        }
+    ]
+}

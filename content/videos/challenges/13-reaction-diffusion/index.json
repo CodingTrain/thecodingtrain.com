@@ -59,6 +59,17 @@
           "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/FYRINCEDVKI",
+          "description": "Livestream #39: Q&A and Reaction Diffusion Algorithm"
+        }
+      ]
     }
   ]
 }
