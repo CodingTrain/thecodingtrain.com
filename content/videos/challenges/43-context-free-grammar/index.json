@@ -12,7 +12,8 @@
       { "time": "0:00", "title": "Introduction!" },
       { "time": "1:10", "title": "Defining a JavaScript object containing the grammar rules" },
       { "time": "3:44", "title": "Creating a recursive algorithm to generate a random sentence" },
-      { "time": "11:51", "title": "Generating multiple random suntences" },
+      { "time": "11:51", "title": "Generating multiple random sentences" },
+
       { "time": "12:27", "title": "Creating a more intricate grammar structure using Allison Parish's examples" },
       { "time": "15:00", "title": "Summarizing and looking at other examples" },
       { "time": "18:20", "title": "Things you could do!" }
