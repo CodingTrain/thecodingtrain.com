@@ -294,7 +294,7 @@ For the `"codeExamples"` section, each code example should at least contain one 
 
 Also, each code example can have a thumbnail linked to it using the `"image"`key. You should also add the corresponding image to the file system, in an `images/` folder inside the video folder.
 
-For the `"groupLinks"` section, links to videos should be put in a `"Videos"` group. Links to other pages, such as Wikipedia articles, blog posts, and documentation entries should be put in a `"References"` group.
+For the `"groupLinks"` section, Links to other pages, such as Wikipedia articles, blog posts, and documentation entries should be put in a `"References"` group. links to videos should be put in a `"Videos"` group.  If there is more than one archived Live Stream associated with the challenge, create a new group called `"Live Stream Archives"`.  
 
 ### Adding video thumbnail
 
