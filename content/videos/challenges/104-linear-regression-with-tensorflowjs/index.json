@@ -11,7 +11,7 @@
         "stochastic gradient descent"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["70-nearest-neighbors-recommendation-engine", "105-polynomial-regression-with-tensorflowjs", "106-xor-problem-with-tensorflowjs"],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "1:21", "title": "What is linear regression?" },
@@ -91,6 +91,22 @@
                     "description": "What is a JavaScript Promise?"
                 }
             ]
-        }
+        },
+        {
+            "title": "Live Stream Archives",
+            "links": [{
+                    "icon": "🔴",
+                    "title": "Live Stream #93",
+                    "url": "https://youtu.be/5zbF3VXAAto",
+                    "description": "Session 3 of “Intelligence and Learning” Continued"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream #94",
+                    "url": "https://youtu.be/S6NQFDZkRMo",
+                    "description": "Session 3 of “Intelligence and Learning” - Part 3"
+                }
+            ]
+        }   
     ]
 }
