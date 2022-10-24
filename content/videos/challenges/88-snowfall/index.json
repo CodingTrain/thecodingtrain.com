@@ -6,29 +6,6 @@
     "date": "2017-12-25",
     "languages": [],
     "topics": [
-        "JavaScript (Programming Language)",
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "itp nyu",
-        "class",
-        "3d animation javascript",
-        "p5.js",
-        "p5.js tutorial",
-        "snow",
-        "snow simulation",
-        "snowflakes",
-        "nature of code",
-        "spritesheet",
-        "sprite sheet"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -39,20 +16,6 @@
             "description": "",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/UMUPBVuH5"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_088_snowfall/P5"
-            }
-        },
-        {
-            "title": "Processing - Processing",
-            "description": "",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_088_snowfall/Processing"
             }
         }
     ],
