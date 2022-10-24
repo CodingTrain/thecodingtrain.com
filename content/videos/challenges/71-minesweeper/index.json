@@ -7,6 +7,13 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Games", "Prototypes", "Floodfill"],
   "canContribute": true,
+  "relatedChallenges": [
+    "3-snake-game",
+    "46-asteroids",
+    "67-pong",
+    "91-snakes-and-ladders",
+    "115-snake-game-redux"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "1:26", "title": "All aboard!" },
@@ -77,6 +84,12 @@
           "title": "Inheritance with Prototype in JS",
           "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
           "description": "You should probably watch my videos on ES6 classes instead, but if you insist on being here, I will discuss how inheritance works with prototypes in JS."
+        },
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/zxR7KfVMGqk",
+          "description": "Livestream  #92: Minesweeper"
         }
       ]
     }

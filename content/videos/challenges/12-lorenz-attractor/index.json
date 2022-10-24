@@ -79,6 +79,17 @@
           "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/gw_TR1tycWQ",
+          "description": "Livestream #38: Viewer Submitted Questions + the Lorenz System"
+        }
+      ]
     }
   ]
 }

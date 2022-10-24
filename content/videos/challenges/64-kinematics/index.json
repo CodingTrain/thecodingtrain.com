@@ -152,6 +152,12 @@
                     "title": "Coding Math on Youtube",
                     "url": "https://www.youtube.com/user/codingmath",
                     "description": "Youtube channel for Coding Math"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/xtFu66DZrBw",
+                    "description": "Livestream #86: More Inverse Kinematics + Texturing Cloth SimulationGenerator"
                 }
             ]
         }

@@ -54,6 +54,17 @@
           "description": "Syllabus for ITP Foundation Course Introduction to Computational Media"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/BcbS0MR3vxQ",
+          "description": "Livestream #100.2: Transformations and Clocks with p5.js - Part 2"
+        }
+      ]
     }
   ]
 }

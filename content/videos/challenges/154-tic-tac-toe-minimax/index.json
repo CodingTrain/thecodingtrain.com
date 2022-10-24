@@ -69,6 +69,12 @@
           "title": "Coding Challenge #149: Tic Tac Toe",
           "url": "/challenges/149-tic-tac-toe",
           "description": "Coding Train video covering the basic tic tac toe game."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/rv98KUFtF9U",
+          "description": "Livestream - Tic Tac Toe AI with Minimax"
         }
       ]
     }

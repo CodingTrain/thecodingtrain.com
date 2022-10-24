@@ -63,7 +63,13 @@
                     "title": "My videos about Perlin Noise",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/sor1nwNIP9A",
+                    "description": "Livestream #46: Perlin Noise and Flow Fields"
+                  }
             ]
         }
     ]
