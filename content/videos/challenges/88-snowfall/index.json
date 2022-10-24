@@ -25,14 +25,16 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🖊️",
                     "title": "Alca's Snowflakes Codepen",
                     "url": "https://codepen.io/Alca/pen/ppEgxb",
-                    "description": ""
+                    "description": "A snowfall animation by Jacob Foster"
                 },
                 {
+                    "icon": "📖",
                     "title": "p5.js reference",
                     "url": "https://p5js.org/reference/",
-                    "description": ""
+                    "description": "Reference page of p5.js"
                 }
             ]
         }
