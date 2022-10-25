@@ -6,6 +6,11 @@
     "date": "2017-12-25",
     "languages": ["p5.js", "JavaScript"],
     "topics": [
+        "snowfall",
+        "snowflake",
+        "perlin noise",
+        "wind",
+        "christmas"
     ],
     "canContribute": true,
     "relatedChallenges": [
