@@ -96,17 +96,12 @@
                     "title": "Chatbots with RiveScript - Programming with Text",
                     "url": "https://youtu.be/wf8w1BJb9Xc",
                     "description": "In this video I cover RiveScript: a simple scripting language for chatbots with a friendly, easy to learn syntax."
-                }
-            ]
-        },
-        {
-            "title": "Livestream Archive",
-            "links": [
+                },
                 {
                     "icon": "🔴",
-                    "title": "Livestream #103",
+                    "title": "Livestream Archive",
                     "url": "https://youtu.be/Pscq691SADc",
-                    "description": "Livestream with JavaScript Objects & Chatbots with RiveScript."
+                    "description": "Livestream #103 with JavaScript Objects & Chatbots with RiveScript."
                 }
             ]
         }
