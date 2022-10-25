@@ -1,0 +1,86 @@
+{
+    "title": "Context-Free Grammar",
+    "description": "In this Coding Challenge, I code a Context-Free Grammar text generator from scratch. The concept of recursion is explored. This video is part of Session 7 of the \"Programming from A to Z\" ITP class.",
+    "videoNumber": "43",
+    "videoId": "8Z9FRiW2Jlc",
+    "date": "2016-10-31",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": ["text-generator", "recursion", "grammar"],
+    "canContribute": true,
+    "relatedChallenges": ["16-l-system-fractal-trees", "14-fractal-trees-recursive", "77-recursion", "39-madlibs-generator"],
+    "timestamps": [
+      { "time": "0:00", "title": "Introduction!" },
+      { "time": "1:10", "title": "Defining a JavaScript object containing the grammar rules" },
+      { "time": "3:44", "title": "Creating a recursive algorithm to generate a random sentence" },
+      { "time": "11:51", "title": "Generating multiple random sentences" },
+
+      { "time": "12:27", "title": "Creating a more intricate grammar structure using Allison Parish's examples" },
+      { "time": "15:00", "title": "Summarizing and looking at other examples" },
+      { "time": "18:20", "title": "Things you could do!" }
+    ],
+    "codeExamples": [
+      {
+        "title": "Context-Free Grammar",
+        "description": "Context-Free Grammar text generator using p5.js",
+        "image": "context-free-grammar.png",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/_ll_PYXeg"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "🌟",
+            "title": "Reading and Writing Electronic Text",
+            "url": "https://github.com/aparrish/rwet-examples",
+            "description": "Allison Parish's example programs in Python from her course on reading and writing electronic texts"
+          },
+          {
+            "icon": "🌈",
+            "title": "Programming from A to Z",
+            "url": "https://github.com/Programming-from-A-to-Z/A2Z-F16",
+            "description": "Daniel Shiffman's course on programming strategies and techniques behind procedural analysis and generation of text-based data"
+          },
+          {
+            "icon": "📚",
+            "title": "Tracery",
+            "url": "https://github.com/Programming-from-A-to-Z/A2Z-F16",
+            "description": "A story-grammar generation library for javascript by Kate Compton"
+          },
+          {
+            "icon": "📚",
+            "title": "RiTa",
+            "url": "https://rednoise.org/rita/",
+            "description": "An open source library for writing in programmable media"
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [
+          {
+            "icon": "✏️",
+            "title": "Homework Assignment for Context-Free Grammar Generation",
+            "url": "https://youtu.be/UzVtOS2DBA8",
+            "description": "Discussion of exercises to try related to Context-free Grammars"
+          },
+          {
+            "icon": "🚂",
+            "title": "Tutorial playlist on Context-Free Grammar",
+            "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6Y7iXZe_8XKJhaw_kRo8REO",
+            "description": "Playlist for Session 7 of Programming from A to Z course in 2016 on Context-Free Grammars"
+          },
+          {
+            "icon": "🎥",
+            "title": "Livestream Archive",
+            "url": "https://youtu.be/X6IPcExkG30",
+            "description": "Live Stream 65: Context-Free-Grammar (Session 7 of Programming from A to Z)"
+          }
+        ]
+      }
+    ]
+  }
+  
