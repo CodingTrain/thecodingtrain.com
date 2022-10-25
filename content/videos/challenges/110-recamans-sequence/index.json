@@ -100,9 +100,28 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "Recam\u00e1n's Sequence",
+                    "icon": "👻",
+                    "title": "The Slightly Spooky Recam\u00e1n's Sequence",
                     "url": "https://youtu.be/FGC5TdIiT9U",
-                    "description": ""
+                    "description": "Numberphile's video on Recam\u00e1n's Sequence"
+                },
+                {
+                    "icon": "🎹",
+                    "title": "Recam\u00e1n's Sequence by Dale Gerdemann",
+                    "url": "https://youtu.be/h3qEigSSuF0",
+                    "description": "An audio-visual representation of the Recam\u00e1n's Sequence by Dale Gerdemann using the Golden Ratio base"
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Tutorial Playlist on p5.js Sound",
+                    "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW",
+                    "description": "Tutorial playlist by Dan Shiffman on the p5.js sound library and working with audio"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/XXwjcxMOA8s",
+                    "description": "Live Stream 146: Recam\u00e1n's Sequence + ml5 Image Classifier"
                 }
             ]
         }
