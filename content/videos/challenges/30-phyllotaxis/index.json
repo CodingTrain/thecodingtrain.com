@@ -78,12 +78,6 @@
            "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
        },
        {
-          "icon": "🎥",
-          "title": "Algorithmic Botany Track",
-          "url": "/tracks/algorithmic-botany",
-          "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
-        },
-        {
           "icon": "🔴",
           "title": "Live Stream Archive #54",
           "url": "https://youtu.be/MQMJ0xWSMWE",
