@@ -17,7 +17,8 @@
         "128-sketch-rnn-snowflakes",
         "155-kaleidoscope-snowflake",
         "127-brownian-tree-snowflake",
-        "129-koch-fractal-snowflake"
+        "129-koch-fractal-snowflake",
+        "111-animated-sprites"
     ],
     "timestamps": [
         { "time": "0:00", "title": "Intro" },
