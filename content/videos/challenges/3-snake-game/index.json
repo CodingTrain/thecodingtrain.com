@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["snake", "game", "vectors", "arrays"],
   "canContribute": true,
-  "relatedChallenges": ["173-snake-applesoft-basic"],
+  "relatedChallenges": ["32-agario", "72-frogger", "173-snake-applesoft-basic", "115-snake-game-redux"],
   "timestamps": [
     { "time": "0:00", "title": "Creating a Snake object" },
     { "time": "3:00", "title": "Adding keyboard control" },
@@ -43,16 +43,10 @@
       ]
     },
     {
-      "title": "Videos",
+      "title": "Live Stream Archive",
       "links": [
         {
-          "icon": "🎥",
-          "title": "Snake Game Redux Coding Challenge",
-          "url": "https://www.youtube.com/watch?v=OMoVcohRgZA",
-          "description": "Snake Game!?!? Again!? Now with the p5.js Web Editor!"
-        },
-        {
-          "icon": "🎥",
+          "icon": "🔴",
           "title": "Live Stream #32",
           "url": "https://www.youtube.com/watch?v=yUO2bWfBgN8&t=2340s",
           "description": "In this video, I code a p5.js version of the Snake Game in another installment of the 10 Minute Coding Challenge."

@@ -104,6 +104,16 @@
 ],
     "groupLinks": [
         {
+            "title": "References",
+            "links": [
+              {
+                "title": "Golan Levin's GitHub repo on Circle Morphing",
+                "url": "https://github.com/golanlevin/circle-morphing",
+                "description": "GitHub repo with different ways to morph a circle into a square."
+              }
+            ]
+        },
+        {
             "title": "Videos",
             "links": [{
                    "icon": "🎥",

@@ -144,6 +144,12 @@
                     "title": "My Video on How to go Through an Array Backwards",
                     "url": "https://youtu.be/HXOD_XDA-KU",
                     "description": "This video looks at how to delete objects from an array selectively."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #89",
+                    "url": "https://youtu.be/qzFlnX-z38U",
+                    "description": "Session 2 of Intelligence and Learning"
                 }
             ]
         }
