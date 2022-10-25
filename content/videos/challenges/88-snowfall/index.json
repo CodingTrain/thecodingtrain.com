@@ -14,7 +14,17 @@
         "127-brownian-tree-snowflake",
         "129-koch-fractal-snowflake"
     ],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Intro" },
+        { "time": "1:00", "title": "Snowflake class" },
+        { "time": "2:30", "title": "Snowflake array" },
+        { "time": "5:30", "title": "Gravity" },
+        { "time": "10:30", "title": "Offscreen" },
+        { "time": "17:15", "title": "Pick 2 Random Numbers" },
+        { "time": "25:00", "title": "Pick 1 Random Number" },
+        { "time": "36:57", "title": "Change Angle" },
+        { "time": "40:12", "title": "Noise Wind" }
+    ],
     "codeExamples": [
         {
             "title": "Snowfall",
