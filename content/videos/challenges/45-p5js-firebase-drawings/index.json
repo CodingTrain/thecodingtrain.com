@@ -10,7 +10,7 @@
         "firebase database"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["122-quick-draw", "130-drawing-with-fourier-transform-and-epicycles"],
     "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
         { "time": "0:23", "title": "Mention shared canvas tutorial" },
