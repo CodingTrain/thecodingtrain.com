@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["snake", "game", "vectors", "arrays"],
   "canContribute": true,
-  "relatedChallenges": ["173-snake-applesoft-basic"],
+  "relatedChallenges": ["173-snake-applesoft-basic", "115-snake-game-redux"],
   "timestamps": [
     { "time": "0:00", "title": "Creating a Snake object" },
     { "time": "3:00", "title": "Adding keyboard control" },
