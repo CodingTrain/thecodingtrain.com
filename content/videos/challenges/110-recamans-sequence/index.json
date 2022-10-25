@@ -49,7 +49,8 @@
     }
   ],
     "codeExamples": [
-        {
+        {   
+            "image": "recaman.png",
             "title": "Recam\u00e1n's Sequence - Part 1",
             "description": "The sketch visualizes the Recam\u00e1n\u2019s number sequence",
             "urls": {
@@ -57,7 +58,8 @@
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/110.1_recaman/Processing/CC_110_recaman"
             }
         },
-        {
+        {   
+            "image": "recaman.png",
             "title": "Recam\u00e1n's Sequence - Part 2",
             "description": "The sketch uses Recam\u00e1n's Sequence to generate a series of musical tones",
             "urls": {
