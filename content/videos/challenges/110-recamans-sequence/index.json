@@ -11,7 +11,7 @@
         "music", "audio-visual", "visualization"
     ],
     "canContribute": true,
-    "relatedChallenges": ["140-pi-leibniz", "133-time-tables-cardioid-visualization" ],
+    "relatedChallenges": ["140-pi-leibniz", "133-time-tables-cardioid-visualization", "c2-collatz-conjecture" ],
     "timestamps": [],
     "parts": [
     {
