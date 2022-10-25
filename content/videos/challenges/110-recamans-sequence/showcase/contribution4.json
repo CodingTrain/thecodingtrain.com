@@ -1,9 +1,8 @@
 {
     "title": "Animated Recaman Sequence",
-    "url": "https://ninivert.github.io/Recaman-Sequence/",
+    "url": "https://github.com/ninivert/Recaman-Sequence",
     "author": {
         "name": "Niels Vadot",
-        "url": "https://nielsvadot.design/"
-    },
-    "source": "https://github.com/ninivert/Recaman-Sequence"
+        "url": "https://github.com/ninivert"
+    }
 }
