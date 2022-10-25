@@ -42,6 +42,17 @@
                     "description": "Reference page of p5.js"
                 }
             ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                 {
+                     "icon": "🎥",
+                     "title": "Livestream Archive",
+                     "url": "https://www.youtube.com/watch?v=dEWmwQMKgIk",
+                     "description": "Live Stream #112: Happy Holidays from the Coding Train!"
+                 }
+            ]
         }
     ]
 }
