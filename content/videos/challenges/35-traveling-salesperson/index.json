@@ -278,12 +278,22 @@
           "title": "Genetic Algorithm Playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
           "description": "A Coding Train YouTube playlist about Genetic Algorithms."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [{
+          "icon": "🔴",
+          "title": "Livestream #57",
+          "url": "https://youtu.be/r_SpBy9fQuo",
+          "description": "Livestream with Traveling Salesperson."
         },
         {
           "icon": "🔴",
-          "title": "Live Stream Archive #57",
-          "url": "https://youtu.be/r_SpBy9fQuo",
-          "description": "Livestream with Traveling Salesperson."
+          "title": "Live Stream #90",
+          "url": "https://youtu.be/NCvdjnN9UfI",
+          "description": "Livestream with Traveling Sales Person with Genetic Algorithm"
         }
       ]
     }

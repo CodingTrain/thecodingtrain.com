@@ -126,6 +126,12 @@
           "title": "Inheritance with Prototype in JavaScript",
           "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
           "description": "In this video, I discuss how inheritance works with prototypes in JS."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #84",
+          "url": "https://youtu.be/Iu3M-X1yRFU",
+          "description": "Live Stream with Plinko with Matter.js"
         }
       ]
     }

@@ -104,6 +104,12 @@
           "title": "My Video on Prototypes",
           "url": "https://www.youtube.com/watch?v=hS_WqkyUah8",
           "description": "In this video, I examine the concept of \"Prototype\" in the JavaScript programming language."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #88",
+          "url": "https://youtu.be/YUlJAu1j_UM",
+          "description": "Session 1 of “Intelligence and Learning and breadth-first-search"
         }
       ]
     }

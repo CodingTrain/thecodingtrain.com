@@ -12,7 +12,7 @@
     "associative arrays"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["98-quadtree", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
   "timestamps": [],
   "parts": [
     {
@@ -141,6 +141,12 @@
           "title": "My Video on Associative Arrays",
           "url": "https://www.youtube.com/watch?v=_5jdE6RKxVk",
           "description": "In this video, I discuss the concept of \"associative arrays\" in JavaScript."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #91",
+          "url": "https://youtu.be/Do_Gftp_oug",
+          "description": "Session 3 of Intelligence and Learning"
         }
       ]
     }

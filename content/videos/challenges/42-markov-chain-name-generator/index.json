@@ -11,7 +11,7 @@
         "text generator"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator"],
     "timestamps": [],
     "parts": [
         {
