@@ -4,49 +4,51 @@
     "videoNumber": "79",
     "videoId": "zGe1m_bLOFk",
     "date": "2017-10-13",
-    "languages": [],
+    "languages": ["JavaScript", "p5.js"],
     "topics": [
-        "JavaScript (Programming Language)",
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "p5.js",
-        "p5.js tutorial",
-        "p5js",
-        "javascript (programming language)",
-        "tutorial",
-        "javascript",
-        "algorithms",
-        "programming from a to z",
-        "programming with text",
         "pattern matching",
-        "chatbot js",
-        "chatbot javascript",
-        "chatbot rivescript",
-        "bot js",
-        "bot javascript",
-        "rivescript language",
-        "jquery rivescript",
-        "ai chatbot",
+        "chatbot",
         "artificial intelligence chatbot"
     ],
     "canContribute": true,
     "relatedChallenges": [],
-    "timestamps": [],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduce the coding challenge" },
+        { "time": "0:34", "title": "Set up p5.js ketch" },
+        { "time": "0:54", "title": "Reference RiveScript resources" },
+        { "time": "1:13", "title": "Explain file structure" },
+        { "time": "1:34", "title": "Create a RiveScript file" },
+        { "time": "2:00", "title": "Initialize a number" },
+        { "time": "2:22", "title": "Add a trigger to display a message" },
+        { "time": "2:55", "title": "Create chat interface with HTML elements" },
+        { "time": "4:38", "title": "Target HTML elements" },
+        { "time": "5:13", "title": "Consider text input " },
+        { "time": "6:05", "title": "Reference RiveScript for JavaScript" },
+        { "time": "7:48", "title": "Fix typo" },
+        { "time": "8:05", "title": "Debug console error" },
+        { "time": "8:38", "title": "Import jQuery" },
+        { "time": "9:50", "title": "Follow RiveScript documentation" },
+        { "time": "10:20", "title": "Create a reply " },
+        { "time": "11:00", "title": "Refine the bot logic" },
+        { "time": "11:08", "title": "Reply to a numerical input" },
+        { "time": "12:40", "title": "Check RiveScript syntax for conditionals" },
+        { "time": "13:53", "title": "Test the bot" },
+        { "time": "14:50", "title": "Pick a random number" },
+        { "time": "15:35", "title": "Send random number to the bot" },
+        { "time": "16:32", "title": "Set answer number in the bot" },
+        { "time": "17:07", "title": "Test program " },
+        { "time": "17:40", "title": "Debug the bot logic" },
+        { "time": "18:02", "title": "Fix RiveScript syntax to set a variable" },
+        { "time": "18:49", "title": "Explain shortcomings" },
+        { "time": "19:18", "title": "Mention RiveScript sequencing" },
+        { "time": "20:20", "title": "Conclude the coding challenge" }
+    ],
     "codeExamples": [
         {
-            "title": "p5js - p5 Web Editor",
-            "description": "",
+            "title": "Number Guessing Chatbot",
+            "description": "This sketch creates a chatbot that plays a number guessing game.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/_XqFRhtaK"
-            }
-        },
-        {
-            "title": "p5js - GitHub",
-            "description": "",
-            "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_079_Number_Guessing_Chatbot/P5"
             }
         }
     ],
@@ -55,24 +57,28 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🔗",
                     "title": "RiveScript",
                     "url": "https://www.rivescript.com/",
-                    "description": ""
+                    "description": "Scripting language for chatbots with a friendly, easy to learn syntax."
                 },
                 {
+                    "icon": "🔗",
                     "title": "jQuery",
                     "url": "https://jquery.com/",
-                    "description": ""
+                    "description": "The Write Less, Do More, JavaScript Library."
                 },
                 {
+                    "icon": "🔗",
                     "title": "AIML on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/AIML",
-                    "description": ""
+                    "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Markup_Language",
+                    "description": " Wikipedia page with information and resources on the Artificial Intelligence Markup Language (AIML)."
                 },
                 {
+                    "icon": "🔗",
                     "title": "RiveScript on Github",
                     "url": "https://github.com/aichaos/rivescript-js",
-                    "description": ""
+                    "description": "A RiveScript interpreter for JavaScript."
                 }
             ]
         },
@@ -80,14 +86,27 @@
             "title": "Videos",
             "links": [
                 {
-                    "title": "Programming with Text playlist",
-                    "url": "/learning/programming-with-text",
-                    "description": ""
+                    "icon": "🎥",
+                    "title": "Programming with Text",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YrbSJBg32eTzUU50E2B8Ch",
+                    "description": "In this playlist I cover programming strategies and techniques behind procedural analysis and generation of text-based data."
                 },
                 {
-                    "title": "Video on the RiveScript library",
-                    "url": "/learning/programming-with-text/10.2-rivescript",
-                    "description": ""
+                    "icon": "🎥",
+                    "title": "Chatbots with RiveScript - Programming with Text",
+                    "url": "https://youtu.be/wf8w1BJb9Xc",
+                    "description": "In this video I cover RiveScript: a simple scripting language for chatbots with a friendly, easy to learn syntax."
+                }
+            ]
+        },
+        {
+            "title": "Livestream Archive",
+            "links": [
+                {
+                    "icon": "🔴",
+                    "title": "Livestream #103",
+                    "url": "https://youtu.be/Pscq691SADc",
+                    "description": "Livestream with JavaScript Objects & Chatbots with RiveScript."
                 }
             ]
         }
