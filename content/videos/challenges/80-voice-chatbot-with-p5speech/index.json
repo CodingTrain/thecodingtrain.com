@@ -4,47 +4,25 @@
     "videoNumber": "80",
     "videoId": "iFTgphKCP9U",
     "date": "2017-10-23",
-    "languages": [],
+    "languages": ["p5.js", "JavaScript"],
     "topics": [
-        "JavaScript (Programming Language)",
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "p5.js",
-        "p5.js tutorial",
-        "p5js",
-        "javascript (programming language)",
-        "tutorial",
-        "javascript",
-        "algorithms",
-        "programming from a to z",
-        "programming with text",
         "pattern matching",
-        "chatbot js",
-        "chatbot javascript",
-        "bot js",
-        "bot javascript",
-        "rivescript language",
-        "jquery rivescript",
-        "ai chatbot",
-        "artificial intelligence chatbot",
-        "p5.speech",
+        "jquery", 
+        "rivescript",
+        "artificial intelligence",
         "speech recognition",
-        "text-to-speech",
-        "tts",
         "speech-to-text",
-        "speech recognition javascript"
+        "chatbot"
     ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [],
     "codeExamples": [
         {
-            "title": "p5js - GitHub",
-            "description": "",
+            "title": "Voice Chatbot with p5.Speech",
+            "description": "This sketch adds voice interface to a chatbot",
             "urls": {
-                "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_080_Voice_Chatbot_with_p5.Speech/P5"
+                "p5": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_080_Voice_Chatbot_with_p5.Speech/P5"
             }
         }
     ],
@@ -53,34 +31,45 @@
             "title": "References",
             "links": [
                 {
-                    "title": "NYU Ability Project",
-                    "url": "http://ability.nyu.edu/",
-                    "description": ""
-                },
-                {
+                    "icon": "🎙️",
                     "title": "p5.Speech on GitHub",
                     "url": "https://github.com/IDMNYU/p5.js-speech",
-                    "description": ""
-                }
+                    "description": "A library for Web Audio Speech Synthesis and Speech Recognition Implementation for p5.js created by the NYU Ability Project"
+                },
+                {
+                    "icon": "🌐",
+                    "title": "NYU Ability Project",
+                    "url": "http://ability.nyu.edu/",
+                    "description": "A project that fosters research in the area of ability and creates open source and multidisciplinary projects."
+                }    
             ]
         },
         {
             "title": "Videos",
             "links": [
                 {
-                    "title": "Programming with Text playlist",
+                    "icon": "🎞️",
+                    "title": "Playlist on Programming with Text",
                     "url": "/learning/programming-with-text",
-                    "description": ""
+                    "description": "A playlist of all tutorials and coding challenges from the Programming with Text series"
                 },
                 {
+                    "icon": "🚂",
                     "title": "Text-to-Speech with p5.Speech",
-                    "url": "/learning/programming-with-text/10.3-text-to-speech",
-                    "description": ""
+                    "url": "https://youtu.be/v0CHV33wDsI",
+                    "description": "Tutorial on using the p5.Speech library to transform text into speech"
                 },
                 {
+                    "icon": "🚂",
                     "title": "Speech Recognition with p5.Speech",
-                    "url": "/learning/programming-with-text/10.4-speech-recognition",
-                    "description": ""
+                    "url": "https://youtu.be/q_bXBcmfTJM",
+                    "description": "Tutorial on speech recognition using the p5.Speech library"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/q_bXBcmfTJM",
+                    "description": "Live Stream 104: Chatbots with p5.Speech, More OOP in JS & Paperclips!"
                 }
             ]
         }
