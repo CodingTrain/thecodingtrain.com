@@ -34,6 +34,7 @@
         {
             "title": "Snowfall",
             "description": "A snowfall animation",
+            "image": "snowfall.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/UMUPBVuH5",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/088_snowfall/Processing"
