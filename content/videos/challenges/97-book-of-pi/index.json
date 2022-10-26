@@ -1,43 +1,27 @@
 {
-    "title": "The Book of Pi - Part 1",
+    "title": "The Book of Pi",
     "description": "In yet another \u201cPi Day\u201d coding challenge, I attempt to generate a pdf \u201cBook of Pi\u201d with the first 10 million digits of Pi mapped to color. Processing (Java) is used for this project.",
-    "videoNumber": "97.1",
-    "videoId": "tbvG9hrJxOU",
+    "videoNumber": "97",
+    "videoId": "",
     "date": "2018-03-20",
     "languages": [],
     "topics": [
-        "live",
-        "programming",
-        "daniel shiffman",
-        "creative coding",
-        "coding challenge",
-        "tutorial",
-        "coding",
-        "challenges",
-        "coding train",
-        "the coding train",
-        "live stream",
-        "itp nyu",
-        "class",
-        "challenge",
-        "codingtrain",
-        "code challenge",
-        "code",
-        "processing",
-        "processing java tutorial",
-        "monte carlo pi",
-        "pi",
-        "pi day",
-        "pi processing",
-        "pi java",
-        "processing double",
-        "processing pdf export",
-        "processing pdf tutorial",
-        "processing pdf"
     ],
     "canContribute": true,
     "relatedChallenges": [],
     "timestamps": [],
+    "parts": [
+        {
+            "title": "Part 1: The Book of Pi",
+            "videoId": "",
+            "timestamps": []
+        },
+        {
+            "title": "Part 2: The Book of Pi",
+            "videoId": "",
+            "timestamps": []
+        }
+    ],
     "codeExamples": [
         {
             "title": "Processing - Processing",
@@ -48,16 +32,6 @@
         }
     ],
     "groupLinks": [
-        {
-            "title": "Other Parts Of This Coding Challenge",
-            "links": [
-                {
-                    "title": "The Book of Pi - Part 2",
-                    "url": "/challenge/097.2-book-of-pi",
-                    "description": ""
-                }
-            ]
-        },
         {
             "title": "References",
             "links": [
