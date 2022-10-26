@@ -1,16 +1,11 @@
 {
   "title": "Worley Noise",
   "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I explore the beauty of Worley noise.",
-  "videoNumber": "C4 - Coding in the Cabana",
+  "videoNumber": "C4",
   "videoId": "4066MndcyCk",
   "date": "2020-04-29",
   "languages": ["p5.js"],
-  "topics": [
-    "worley noise",
-    "cellular texture",
-    "tesselation",
-    "distance"
-  ],
+  "topics": ["worley noise", "cellular texture", "tesselation", "distance"],
   "canContribute": true,
   "relatedChallenges": ["28-metaballs", "c5-marching-squares"],
   "timestamps": [

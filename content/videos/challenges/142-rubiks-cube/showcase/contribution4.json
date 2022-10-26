@@ -1,9 +1,7 @@
 {
-    "title": "Rubik's Cube simulation with P5js",
-    "url": "https://github.com/studioatual/rubiks-cube.git",
-    "author": {
-        "name": "willian",
-        "url": ""
-    },
-    "source": ""
+  "title": "Rubik's Cube simulation with P5js",
+  "url": "https://github.com/studioatual/rubiks-cube.git",
+  "author": {
+    "name": "willian"
+  }
 }

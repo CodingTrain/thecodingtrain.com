@@ -1,9 +1,8 @@
 {
-    "title": "Boids implementation",
-    "url": "https://kreativitetno.github.io/boids_p5js/",
-    "author": {
-        "name": "Christian Scott",
-        "url": ""
-    },
-    "source": "https://github.com/kreativitetNO/boids_p5js"
+  "title": "Boids implementation",
+  "url": "https://kreativitetno.github.io/boids_p5js/",
+  "author": {
+    "name": "Christian Scott"
+  },
+  "source": "https://github.com/kreativitetNO/boids_p5js"
 }
