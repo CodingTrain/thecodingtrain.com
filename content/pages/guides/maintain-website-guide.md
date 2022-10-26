@@ -375,7 +375,7 @@ from GitHub.
 ## Troubleshooting
 
 Sometimes, things don't work like they should. If you get stuck, don't worry!
-Feel free to ask for help at any time, file an issue or come say hello in the [Coding Train Discord](https://discord.com/invite/hPuGy2g).
+Feel free to ask for help at any time, file an issue or come say hello in the [Coding Train Discord](https://thecodingtrain.com/discord).
 
 ## Adding a New Event
 
