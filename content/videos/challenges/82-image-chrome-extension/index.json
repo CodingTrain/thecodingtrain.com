@@ -76,6 +76,12 @@
           "title": "Chrome Extensions Playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS",
           "description": "Playlist on developing Chrome extensions in JavaScript"
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/y0zS83xj0g0?t=19m5s",
+          "description": "Live Stream #104.2: Chrome Extension Coding Challenges"
         }
       ]
     }
