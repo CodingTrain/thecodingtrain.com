@@ -4,11 +4,9 @@
     "videoNumber": "80",
     "videoId": "iFTgphKCP9U",
     "date": "2017-10-23",
-    "languages": ["p5.js", "JavaScript"],
+    "languages": ["p5.js", "JavaScript", "RiveScript"],
     "topics": [
         "pattern matching",
-        "jquery", 
-        "rivescript",
         "artificial intelligence",
         "speech recognition",
         "speech-to-text",
@@ -16,7 +14,16 @@
     ],
     "canContribute": true,
     "relatedChallenges": [],
-    "timestamps": [],
+    "timestamps": [
+        {"time": "0:00", "title": "Introduction!"},
+        {"time": "0:54", "title": "A correction from coding challenge #79"},
+        {"time": "1:35", "title": "Writing a script for the chatbot in RiverScript"},
+        {"time": "5:47", "title": "Adding speech to the chatbot using the library p5.Speech"},
+        {"time": "7:58", "title": "Adding a speech recognition object to take input from the user's speech"},
+        {"time": "10:54", "title": "Print the recognized speech to the text input box"},
+        {"time": "12:40", "title": "Cleaning up the code"},
+        {"time": "13:12", "title": "Demonstration and things you could do!"}
+],
     "codeExamples": [
         {
             "title": "Voice Chatbot with p5.Speech",
@@ -30,6 +37,18 @@
         {
             "title": "References",
             "links": [
+                {
+                    "icon": "🔗",
+                    "title": "RiveScript",
+                    "url": "https://www.rivescript.com/",
+                    "description": "Scripting language for chatbots with a friendly, easy to learn syntax."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "RiveScript on Github",
+                    "url": "https://github.com/aichaos/rivescript-js",
+                    "description": "A RiveScript interpreter for JavaScript."
+                }
                 {
                     "icon": "🎙️",
                     "title": "p5.Speech on GitHub",
