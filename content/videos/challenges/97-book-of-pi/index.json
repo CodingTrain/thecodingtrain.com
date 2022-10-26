@@ -4,8 +4,10 @@
     "videoNumber": "97",
     "videoId": "",
     "date": "2018-03-20",
-    "languages": [],
+    "languages": ["Processing", "Java"],
     "topics": [
+        "pi",
+        "visualization"
     ],
     "canContribute": true,
     "relatedChallenges": [],
@@ -13,12 +15,12 @@
     "parts": [
         {
             "title": "Part 1: The Book of Pi",
-            "videoId": "",
+            "videoId": "tbvG9hrJxOU",
             "timestamps": []
         },
         {
             "title": "Part 2: The Book of Pi",
-            "videoId": "",
+            "videoId": "4Ns9S-Z89-0",
             "timestamps": []
         }
     ],
