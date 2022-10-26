@@ -18,7 +18,10 @@
       "title": "Adding all the assets to web_accessible_resources"
     },
     { "time": "10:17", "title": "Improving the file structure" },
-    { "time": "12:02", "title": "Setting the src field to a kitten" },
+    {
+      "time": "12:02",
+      "title": "Setting the src field to the image of a kitten"
+    },
     { "time": "15:17", "title": "Error! Add folder prefix to file names" },
     { "time": "16:24", "title": "Final Output!" }
   ],
