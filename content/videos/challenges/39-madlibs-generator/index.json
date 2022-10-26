@@ -36,8 +36,7 @@
   "groupLinks": [
     {
       "title": "References",
-      "links": [
-        {
+      "links": [{
           "icon": "📃",
           "title": "Tabletop.js",
           "url": "https://github.com/jsoma/tabletop",
@@ -48,6 +47,12 @@
           "title": "Papa Parse",
           "url": "https://www.papaparse.com/",
           "description": "Papa parse, a tabletop.js alternative"
+        },
+        {
+          "icon": "💻",
+          "title": "Programming from A to Z Github",
+          "url": "https://github.com/shiffman/A2Z-F16",
+          "description": "Syllabus for my \"Programming from A to Z\" class, Fall 2016"
         }
       ]
     },
