@@ -8,7 +8,20 @@
   "topics": ["chrome extensions", "bookmarklets", "image swap"],
   "canContribute": true,
   "relatedChallenges": [],
-  "timestamps": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction!" },
+    { "time": "01:09", "title": "Creating manifest.json" },
+    { "time": "04:00", "title": "Loading the extension in Chrome" },
+    { "time": "05:06", "title": "Finding all img elements on the page" },
+    {
+      "time": "06:32",
+      "title": "Adding all the assets to web_accessible_resources"
+    },
+    { "time": "10:17", "title": "Improving the file structure" },
+    { "time": "12:02", "title": "Setting the src field to a kitten" },
+    { "time": "15:17", "title": "Error! Add folder prefix to file names" },
+    { "time": "16:24", "title": "Final Output!" }
+  ],
   "codeExamples": [
     {
       "title": "Ex-kitten-sion Image Replacer",
@@ -39,7 +52,7 @@
           "icon": "🌄",
           "title": "Unsplash",
           "url": "https://unsplash.com/",
-          "description": "Website for free high-resolution photos."
+          "description": "Repository of free high-resolution photos."
         },
         {
           "icon": "📚",
@@ -57,6 +70,12 @@
           "title": "Regular Expressions Series",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w",
           "description": "Video tutorials on regular expressions"
+        },
+        {
+          "icon": "🔌",
+          "title": "Chrome Extensions Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS",
+          "description": "Playlist on developing Chrome extensions in JavaScript"
         }
       ]
     }
