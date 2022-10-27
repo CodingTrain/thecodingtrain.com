@@ -49,24 +49,28 @@
             "title": "References",
             "links": [
                 {
+                    "icon": "🥧",
                     "title": "1 Billion Digits of Pi",
                     "url": "https://stuff.mit.edu/afs/sipb/contrib/pi/",
-                    "description": ""
+                    "description": "First one billion digits of Pi"
                 },
                 {
+                    "icon": "🥟",
                     "title": "10 Million Pi Digits",
                     "url": "https://introcs.cs.princeton.edu/java/data/pi-10million.txt",
-                    "description": ""
+                    "description": "First ten million digits of Pi"
                 },
                 {
+                    "icon": "🍰",
                     "title": "Million Pi Digits",
                     "url": "http://www.piday.org/million/",
-                    "description": ""
+                    "description": "First one million digits of Pi"
                 },
                 {
+                    "icon": "🗒️",
                     "title": "Pi Day Code",
                     "url": "https://github.com/CodingTrain/PiDay",
-                    "description": ""
+                    "description": "Repo containing all the code from Pi Day 2018"
                 }
             ]
         },
