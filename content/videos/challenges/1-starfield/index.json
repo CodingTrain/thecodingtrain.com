@@ -5,7 +5,7 @@
   "videoId": "17WoOqgXsRM",
   "date": "2016-04-12",
   "languages": ["Processing"],
-  "topics": ["space"],
+  "topics": ["space", "starfield"],
   "canContribute": true,
   "relatedChallenges": ["27-fireworks", "46-asteroids"],
   "timestamps": [
@@ -48,8 +48,8 @@
       "links": [{
         "icon": "🔴",
         "title": "Live Stream Archive #30",
-        "url": "https://youtu.be/JljMBn69fZM",
-        "description": "Live Stream with Creating Real-Time Shared Canvas with WebSockets"
+        "url": "https://youtu.be/JljMBn69fZM?t=760s",
+        "description": "Live Stream with Creating Real-Time Shared Canvas with WebSockets and Starfield"
       }]
     }
   ]
