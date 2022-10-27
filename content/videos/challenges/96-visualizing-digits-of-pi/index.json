@@ -12,6 +12,7 @@
     ],
     "canContribute": true,
     "relatedChallenges": [
+        "95-approximating-the-value-of-pi",
         "140-pi-leibniz",
         "156-peeking-inside-pi",
         "161-estimating-pi-from-random-numbers",
@@ -79,8 +80,7 @@
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "📔",
                     "title": "Polar to Cartesian",
                     "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
@@ -99,10 +99,10 @@
                     "description": "Coding Train playlist of Processing tutorial videos for beginners"
                 },
                 {
-                    "icon": "🎥",
-                    "title": "Livestream Archive",
-                    "url": "https://www.youtube.com/watch?v=BOk4Dl-gw14",
-                    "description": "Livestream with 3D Earthquake Data Visualization and Steering Behaviors"
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #126.1",
+                    "url": "https://youtu.be/BOk4Dl-gw14",
+                    "description": "Happy Pi Day! - Part 1"
                 }
             ]
         }
