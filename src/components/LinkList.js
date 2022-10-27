@@ -11,7 +11,11 @@ const Link = ({ link }) => {
     <li className={css.link}>
       <span className={css.icon}>{icon}</span>
       <div className={css.url}>
-        <a href={url} target="_blank" rel="noreferrer">
+        <a
+          title={title.length > 30 ? title : ''}
+          href={url}
+          target="_blank"
+          rel="noreferrer">
           {title}
         </a>
       </div>

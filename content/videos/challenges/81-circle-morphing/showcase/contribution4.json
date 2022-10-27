@@ -1,9 +1,8 @@
 {
-    "title": "All The Feels: 2D linear interpolation between the four Facebook reactions",
-    "url": "https://datramt.github.io/the-four-emotions/",
-    "author": {
-        "name": "Dan Tramte (datramt)",
-        "url": ""
-    },
-    "source": "https://github.com/datramt/the-four-emotions"
+  "title": "All The Feels: 2D linear interpolation between the four Facebook reactions",
+  "url": "https://datramt.github.io/the-four-emotions/",
+  "author": {
+    "name": "Dan Tramte (datramt)"
+  },
+  "source": "https://github.com/datramt/the-four-emotions"
 }

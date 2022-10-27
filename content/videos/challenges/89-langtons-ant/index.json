@@ -71,8 +71,7 @@
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "🚂",
                     "title": "Pixels! (Processing Tutorial)",
                     "url": "https://youtu.be/EmtU0eloTlE",
@@ -83,6 +82,12 @@
                     "title": "Langton's Ant",
                     "url": "https://youtu.be/NWBToaXK5T0",
                     "description": "The Numberphile video on Langton's Ant"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #113",
+                    "url": "https://youtu.be/raFdpMUWO9Q",
+                    "description": "Live Stream with The Return of Neural Networks"
                 }
             ]
         }
