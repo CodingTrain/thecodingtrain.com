@@ -97,7 +97,7 @@
             "links": [{
                 "icon": "🔴",
                 "title": "Live Stream #139",
-                "url": "https://youtu.be/NZR-N_dhK2M&t=473",
+                "url": "https://youtu.be/NZR-N_dhK2M?t=473",
                 "description": "Live Stream with Linear Regression with TensorFlow.js"
               }
             ]
