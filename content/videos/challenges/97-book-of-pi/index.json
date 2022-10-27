@@ -27,7 +27,27 @@
         {
             "title": "Part 1: The Book of Pi",
             "videoId": "tbvG9hrJxOU",
-            "timestamps": []
+            "timestamps": [
+                { "time": "0:00", "title": "Introduction" },
+                { "time": "1:40", "title": "A system to render a grid" },
+                { "time": "3:10", "title": "Representing each digit of Pi as a color" },
+                { "time": "5:10", "title": "Debugging" },
+                { "time": "6:00", "title": "Writing the digit in the grid for debugging" },
+                { "time": "8:11", "title": "The PDF Export in Processing" },
+                { "time": "10:30", "title": "How big can we make this?" },
+                { "time": "12:25", "title": "More debugging" },
+                { "time": "13:41", "title": "Trying with a larger window size" },
+                { "time": "14:45", "title": "An offscreen graphics buffer" },
+                { "time": "19:15", "title": "Out of memory!" },
+                { "time": "20:46", "title": "Using HSB mode" },
+                { "time": "23:39", "title": "Tada!" },
+                { "time": "24:06", "title": "Going back to PDF-land" },
+                { "time": "27:28", "title": "An interesting point about hue" },
+                { "time": "27:48", "title": "Rendering the million digits in PDF" },
+                { "time": "28:35", "title": "Rendering with multiple pages!" },
+                { "time": "33:20", "title": "Trying it with  10 million digits" },
+                { "time": "36:03", "title": "Thank you for watching!" }
+            ]
         },
         {
             "title": "Part 2: The Book of Pi",
