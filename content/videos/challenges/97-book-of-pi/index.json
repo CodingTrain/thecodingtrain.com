@@ -70,6 +70,7 @@
         {
             "title": "Book of Pi - Part 1",
             "description": "Processing sketch that makes a PDF with digits of Pi mapped to color",
+            "image": "book-of-pi-color.png",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.1_Book_of_Pi_Part_1/Processing"
             }
@@ -77,6 +78,7 @@
         {
             "title": "Book of Pi - Part 2",
             "description": "Processing sketch that makes the text version of the book of pi",
+            "image": "book-of-pi-text.png",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.2_Book_of_Pi_Part_2/Processing"
             }
