@@ -76,7 +76,7 @@
         },
         {
             "title": "Book of Pi - Part 2",
-            "description": "Code for the second part of the challenge",
+            "description": "Processing sketch that makes the text version of the book of pi",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.2_Book_of_Pi_Part_2/Processing"
             }
