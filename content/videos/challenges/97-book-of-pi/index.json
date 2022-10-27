@@ -37,10 +37,17 @@
     ],
     "codeExamples": [
         {
-            "title": "Processing - Processing",
-            "description": "",
+            "title": "Book of Pi - Part 1",
+            "description": "Code for the first part of the challenge",
             "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_097.1_Book_of_Pi_Part_1/Processing"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.1_Book_of_Pi_Part_1/Processing"
+            }
+        },
+        {
+            "title": "Book of Pi - Part 2",
+            "description": "Code for the second part of the challenge",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.2_Book_of_Pi_Part_2/Processing"
             }
         }
     ],
