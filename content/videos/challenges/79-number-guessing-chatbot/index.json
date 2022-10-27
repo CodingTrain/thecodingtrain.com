@@ -4,11 +4,11 @@
     "videoNumber": "79",
     "videoId": "zGe1m_bLOFk",
     "date": "2017-10-13",
-    "languages": ["JavaScript", "p5.js"],
+    "languages": ["JavaScript", "p5.js", "RiveScript"],
     "topics": [
         "pattern matching",
         "chatbot",
-        "artificial intelligence chatbot"
+        "artificial intelligence", "text generator"
     ],
     "canContribute": true,
     "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator"],
