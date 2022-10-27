@@ -29,7 +29,6 @@
     {
       "title": "Ex-kitten-sion Image Replacer",
       "description": "A chrome extension which replaces all images on a page with the picture of a kitten.",
-      "image": "",
       "urls": {
         "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/082_Image_Chrome_Extension_The_Ex-Kitten-sion/JavaScript"
       }
