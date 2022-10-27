@@ -114,13 +114,19 @@
       ]
     },
     {
-      "title": "Videos",
+      "title": "Live Stream Archives",
       "links": [
         {
-          "icon": "🚂",
-          "title": "Quadtree Live Stream Archive",
-          "url": "https://youtu.be/MxnqJGwu2cc",
-          "description": "Quadtree livestream"
+          "icon": "🔴",
+          "title": "Live Stream #128",
+          "url": "https://youtu.be/MxnqJGwu2cc?t=1242s",
+          "description": "Quadtree Live Stream"
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #130",
+          "url": "https://youtu.be/w1Np5meK4_Q?t=5122s",
+          "description": "Live Stream with Color Predictor and Quadtree Continued"
         }
       ]
     }

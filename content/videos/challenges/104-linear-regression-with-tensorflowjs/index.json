@@ -95,17 +95,11 @@
         {
             "title": "Live Stream Archives",
             "links": [{
-                    "icon": "🔴",
-                    "title": "Live Stream #93",
-                    "url": "https://youtu.be/5zbF3VXAAto",
-                    "description": "Session 3 of “Intelligence and Learning” Continued"
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Live Stream #94",
-                    "url": "https://youtu.be/S6NQFDZkRMo",
-                    "description": "Session 3 of “Intelligence and Learning” - Part 3"
-                }
+                "icon": "🔴",
+                "title": "Live Stream #139",
+                "url": "https://youtu.be/NZR-N_dhK2M?t=473",
+                "description": "Live Stream with Linear Regression with TensorFlow.js"
+              }
             ]
         }   
     ]

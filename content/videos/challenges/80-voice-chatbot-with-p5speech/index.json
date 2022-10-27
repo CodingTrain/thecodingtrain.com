@@ -1,0 +1,96 @@
+{
+    "title": "Voice Chatbot with p5.Speech",
+    "description": "This challenge is a continuation of the number guessing chatbot. In this version, I add the p5.Speech library for a voice interface.",
+    "videoNumber": "80",
+    "videoId": "iFTgphKCP9U",
+    "date": "2017-10-23",
+    "languages": ["p5.js", "JavaScript", "RiveScript"],
+    "topics": [
+        "pattern matching",
+        "artificial intelligence",
+        "speech recognition",
+        "speech-to-text",
+        "chatbot"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [],
+    "timestamps": [
+        {"time": "0:00", "title": "Introduction!"},
+        {"time": "0:54", "title": "A correction from coding challenge #79"},
+        {"time": "1:35", "title": "Writing a script for the chatbot in RiverScript"},
+        {"time": "5:47", "title": "Adding speech to the chatbot using the library p5.Speech"},
+        {"time": "7:58", "title": "Adding a speech recognition object to take input from the user's speech"},
+        {"time": "10:54", "title": "Print the recognized speech to the text input box"},
+        {"time": "12:40", "title": "Cleaning up the code"},
+        {"time": "13:12", "title": "Demonstration and things you could do!"}
+],
+    "codeExamples": [
+        {
+            "title": "Voice Chatbot with p5.Speech",
+            "description": "This sketch adds voice interface to a chatbot",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/QcY2Z36mJ"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🔗",
+                    "title": "RiveScript",
+                    "url": "https://www.rivescript.com/",
+                    "description": "Scripting language for chatbots with a friendly, easy to learn syntax."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "RiveScript on Github",
+                    "url": "https://github.com/aichaos/rivescript-js",
+                    "description": "A RiveScript interpreter for JavaScript."
+                },
+                {
+                    "icon": "🎙️",
+                    "title": "p5.Speech on GitHub",
+                    "url": "https://github.com/IDMNYU/p5.js-speech",
+                    "description": "A library for Web Audio Speech Synthesis and Speech Recognition Implementation for p5.js created by the NYU Ability Project"
+                },
+                {
+                    "icon": "🌐",
+                    "title": "NYU Ability Project",
+                    "url": "http://ability.nyu.edu/",
+                    "description": "A project that fosters research in the area of ability and creates open source and multidisciplinary projects."
+                }    
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎞️",
+                    "title": "Playlist on Programming with Text",
+                    "url": "/learning/programming-with-text",
+                    "description": "A playlist of all tutorials and coding challenges from the Programming with Text series"
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Text-to-Speech with p5.Speech",
+                    "url": "https://youtu.be/v0CHV33wDsI",
+                    "description": "Tutorial on using the p5.Speech library to transform text into speech"
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Speech Recognition with p5.Speech",
+                    "url": "https://youtu.be/q_bXBcmfTJM",
+                    "description": "Tutorial on speech recognition using the p5.Speech library"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/q_bXBcmfTJM",
+                    "description": "Live Stream 104: Chatbots with p5.Speech, More OOP in JS & Paperclips!"
+                }
+            ]
+        }
+    ]
+}

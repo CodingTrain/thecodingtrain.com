@@ -1,0 +1,75 @@
+{
+    "title": "Snowfall",
+    "description": "Let's attempt to create a snowfall simulation using p5.js, sprite sheets and Perlin noise wind!",
+    "videoNumber": "88",
+    "videoId": "cl-mHFCGzYk",
+    "date": "2017-12-25",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": [
+        "snowfall",
+        "snowflake",
+        "perlin noise",
+        "wind",
+        "christmas"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [
+        "128-sketch-rnn-snowflakes",
+        "155-kaleidoscope-snowflake",
+        "127-brownian-tree-snowflake",
+        "129-koch-fractal-snowflake",
+        "111-animated-sprites"
+    ],
+    "timestamps": [
+        { "time": "0:00", "title": "Intro" },
+        { "time": "1:00", "title": "Snowflake class" },
+        { "time": "2:30", "title": "Snowflake array" },
+        { "time": "5:30", "title": "Gravity" },
+        { "time": "10:30", "title": "Offscreen" },
+        { "time": "17:15", "title": "Pick 2 Random Numbers" },
+        { "time": "25:00", "title": "Pick 1 Random Number" },
+        { "time": "36:57", "title": "Change Angle" },
+        { "time": "40:12", "title": "Noise Wind" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Snowfall",
+            "description": "A snowfall animation",
+            "image": "snowfall.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/UMUPBVuH5",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/088_snowfall/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🖊️",
+                    "title": "Alca's Snowflakes Codepen",
+                    "url": "https://codepen.io/Alca/pen/ppEgxb",
+                    "description": "A snowfall animation by Jacob Foster"
+                },
+                {
+                    "icon": "📖",
+                    "title": "p5.js reference",
+                    "url": "https://p5js.org/reference/",
+                    "description": "Reference page of p5.js"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                 {
+                     "icon": "🎥",
+                     "title": "Livestream Archive",
+                     "url": "https://www.youtube.com/watch?v=dEWmwQMKgIk",
+                     "description": "Live Stream #112: Happy Holidays from the Coding Train!"
+                 }
+            ]
+        }
+    ]
+}

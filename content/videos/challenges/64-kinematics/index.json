@@ -20,7 +20,7 @@
       "title": "Part 1: Forward Kinematics",
       "videoId": "xXjRlEr7AGk",
       "timestamps": [
-        { "time": "0:00", "title": "Introducting today's topics: Forward Kinematics" },
+        { "time": "0:00", "title": "Introducing today's topics: Forward Kinematics" },
         { "time": "3:17", "title": "Create a Segment class" },
         { "time": "9:30", "title": "Add a parent" },
         { "time": "10:24", "title": "Write a second Segment constructor" },
@@ -152,12 +152,22 @@
                     "title": "Coding Math on Youtube",
                     "url": "https://www.youtube.com/user/codingmath",
                     "description": "Youtube channel for Coding Math"
+                }
+            ]
+        }, 
+        {
+            "title": "Live Stream Archives",
+            "links": [{
+                    "icon": "🔴",
+                    "title": "Live Stream #85",
+                    "url": "https://youtu.be/5itOWkmIarg",
+                    "description": "Live Stream with Forward and Inverse Kinematics"
                 },
                 {
                     "icon": "🔴",
-                    "title": "Livestream Archive",
+                    "title": "Live Stream #86",
                     "url": "https://youtu.be/xtFu66DZrBw",
-                    "description": "Livestream #86: More Inverse Kinematics + Texturing Cloth SimulationGenerator"
+                    "description": "Live Stream with  More Inverse Kinematics + Texturing Cloth SimulationGenerator"
                 }
             ]
         }

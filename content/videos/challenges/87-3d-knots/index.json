@@ -11,7 +11,7 @@
         "polar to cartesian coordinates"
     ],
     "canContribute": true,
-    "relatedChallenges": ["25-spherical-geometry", "12-lorenz-attractor"],
+    "relatedChallenges": ["25-spherical-geometry", "12-lorenz-attractor", "86-cube-wave-by-bees-and-bombs"],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "1:30", "title": "Understanding the equations and spherical coordinates" },
@@ -36,11 +36,9 @@
             }
         }
     ],
-    "groupLinks": [
-        {
+    "groupLinks": [{
             "title": "References",
-            "links": [
-                {
+            "links": [{
                     "icon": "📔",
                     "title": "Knots",
                     "url": "http://paulbourke.net/geometry/knots/",
@@ -53,6 +51,15 @@
                     "description": "Knots explained on Wikipedia."
                 }
             ]
+        },
+        {
+            "title": "Live Stream Archive",
+            "links": [{
+                "icon": "🔴",
+                "title": "Live Stream #111",
+                "url": "https://youtu.be/Xiu8pbHtrEY",
+                "description": "Live Stream with More WebGL with p5.js!"
+            }]
         }
     ]
 }

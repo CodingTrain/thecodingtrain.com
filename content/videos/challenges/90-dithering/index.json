@@ -78,8 +78,7 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🚂",
           "title": "My Tutorial on Pixels in Processing",
           "url": "https://youtu.be/EmtU0eloTlE",
@@ -90,6 +89,12 @@
           "title": "My Video on 2D Arrays",
           "url": "https://www.youtube.com/watch?v=OTNpiLUSiB4",
           "description": "In this video, I demonstrate how to create, initialize, and use the arrays with nested for loops."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #114",
+          "url": "https://youtu.be/iCxqLVm2H3w",
+          "description": "Live Stream with Neural Networks Continued"
         }
       ]
     }
