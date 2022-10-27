@@ -12,7 +12,7 @@
         "bees and bombs"
     ],
     "canContribute": true,
-    "relatedChallenges": ["135-making-a-gif-loop-in-processing"],
+    "relatedChallenges": ["87-3d-knots", "135-making-a-gif-loop-in-processing"],
     "timestamps": [
         {
             "time": "0:00:00",
@@ -70,8 +70,7 @@
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "🚂",
                     "title": "Simple Harmonic Motion",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/5-harmonic-motion",
@@ -82,7 +81,13 @@
                     "title": "Back to School on the Coding Train",
                     "url": "https://youtu.be/EiYhMpZ_43M",
                     "description": "Demo on how to use Movie Maker tool in Processing to make GIF loop using code from Cube Wave by Bees and Bombs challenge"
-                  }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #109",
+                    "url": "https://youtu.be/Gi9PuLHlzzI",
+                    "description": "Live Stream with WebGL with p5.js"
+                }
             ]
         }
     ]

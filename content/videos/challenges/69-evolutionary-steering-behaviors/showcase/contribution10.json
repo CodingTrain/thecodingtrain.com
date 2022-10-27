@@ -1,9 +1,8 @@
 {
-    "title": "My Evolutionary Steering Simulation (Object Oriented Java-Version)",
-    "url": "https://github.com/kim-marcel/evolutionary_steering",
-    "author": {
-        "name": "Kim Feichtinger",
-        "url": ""
-    },
-    "source": "https://github.com/kim-marcel/evolutionary_steering"
+  "title": "My Evolutionary Steering Simulation (Object Oriented Java-Version)",
+  "url": "https://github.com/kim-marcel/evolutionary_steering",
+  "author": {
+    "name": "Kim Feichtinger"
+  },
+  "source": "https://github.com/kim-marcel/evolutionary_steering"
 }

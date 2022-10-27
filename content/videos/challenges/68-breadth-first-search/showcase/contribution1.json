@@ -1,9 +1,8 @@
 {
-    "title": "BFS Kevin Bacon in ruby",
-    "url": "https://github.com/jwood74/BFS_kevin_bacon",
-    "author": {
-        "name": "Jaxen Wood",
-        "url": ""
-    },
-    "source": "https://github.com/jwood74/BFS_kevin_bacon"
+  "title": "BFS Kevin Bacon in ruby",
+  "url": "https://github.com/jwood74/BFS_kevin_bacon",
+  "author": {
+    "name": "Jaxen Wood"
+  },
+  "source": "https://github.com/jwood74/BFS_kevin_bacon"
 }
