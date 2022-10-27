@@ -11,8 +11,7 @@
     ],
     "canContribute": true,
     "relatedChallenges": ["86-cube-wave-by-bees-and-bombs", "159-simple-pendulum"],
-    "timestamps": [
-        {
+    "timestamps": [{
             "time": "0:00:00",
             "title": "Double Pendulum Simulation"
         },
@@ -41,37 +40,37 @@
             "title": "Conclusions And Suggestions"
         }
     ],
-    "codeExamples": [
-        {
-            "title": "Double Pendulum",
-            "description": "This sketch implements a double pendulum simulation.",
-            "image": "img1.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/jaH7XdzMK",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/093_DoublePendulum/Processing/CC_093_DoublePendulum"
-            }
+    "codeExamples": [{
+        "title": "Double Pendulum",
+        "description": "This sketch implements a double pendulum simulation.",
+        "image": "img1.jpg",
+        "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/jaH7XdzMK",
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/093_DoublePendulum/Processing/CC_093_DoublePendulum"
         }
-    ],
-    "groupLinks": [
-        {
+    }],
+    "groupLinks": [{
             "title": "References",
-            "links": [
-                {
-                    "icon": "🔴",
-                    "title": "Physics Lab Double Pendulum",
-                    "url": "https://www.myphysicslab.com/pendulum/double-pendulum-en.html",
-                    "description": "Simulation of a double pendulum."
-                }
-            ]
+            "links": [{
+                "icon": "🔴",
+                "title": "Physics Lab Double Pendulum",
+                "url": "https://www.myphysicslab.com/pendulum/double-pendulum-en.html",
+                "description": "Simulation of a double pendulum."
+            }]
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "🚂",
                     "title": "Pendulum Simulation",
                     "url": "https://www.youtube.com/watch?v=9iaEqGOh5WM",
                     "description": "This video walks through a simulation of a pendulum."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream #120",
+                    "url": "https://youtu.be/KhogNPC24eI",
+                    "description": "Live Stream with MNIST and Pendulums"
                 }
             ]
         }
