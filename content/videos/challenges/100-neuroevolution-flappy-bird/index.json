@@ -13,7 +13,7 @@
     "flappy bird"
   ],
   "canContribute": true,
-  "relatedChallenges": ["31-flappy-bird"],
+  "relatedChallenges": ["29-smart-rockets-in-p5js", "31-flappy-bird", "41-clappy-bird"],
   "timestamps": [],
   "parts": [
     {
@@ -210,6 +210,22 @@
           "title": "My Neural Networks playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
           "description": "This video series accompanies Chapter 10 of The Nature of Code: Neural Networks."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [{
+          "icon": "🔴",
+          "title": "Live Stream #132",
+          "url": "https://youtu.be/ipMekhLS2M0",
+          "description": "Live Stream with Neuroevolution Flappy Bird & p5.js in Spanish"
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #133",
+          "url": "https://youtu.be/emjv5tr-m7Q",
+          "description": "Live Stream with Neuroevolution Flappy Bird Continued"
         }
       ]
     }
