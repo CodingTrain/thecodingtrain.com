@@ -70,10 +70,10 @@
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
                 },
                 {
-                    "icon": "🎥",
-                    "title": "Livestream Archive",
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #136",
                     "url": "https://youtu.be/PAmwKVCsg54",
-                    "description": "Livestream #136: More Tensorflow.js + Fire Effect Challenge"
+                    "description": "Live Stream with More Tensorflow.js + Fire Effect Challenge"
                   }
             ]
         }

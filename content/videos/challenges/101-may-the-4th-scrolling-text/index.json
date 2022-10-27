@@ -50,6 +50,12 @@
                     "title": "Web Animations and Mo.js with Sarah Drasner",
                     "url": "https://www.youtube.com/watch?v=yRxWa8lXasI",
                     "description": "In this guest tutorial, Sarah Drasner demonstrates how to use the Mo.js library to create a smooth colorful \"burst\" animation in the browser."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream #135",
+                    "url": "https://youtu.be/ORwIZCKJA-Q",
+                    "description": "Live Stream with May 4th Challenge + TensorFlow.js Continued"
                 }
             ]
         }
