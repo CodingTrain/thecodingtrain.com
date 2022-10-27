@@ -78,19 +78,16 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "🎥",
                     "title": "Polar to Cartesian",
-                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
-                    "description": ""
+                    "url": "https://www.youtube.com/watch?v=O5wjXoFrau4",
+                    "description": "Nature of Code video on polar coordinates"
                 },
                 {
-                    "title": "Pi Day Live Stream Archive",
-                    "url": "/Streams/126.2-pi-day-continued",
-                    "description": ""
-                },
-                {
+                    "icon": "⚙️",
                     "title": "Learning Processing",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
-                    "description": ""
+                    "description": "The Coding Train \"Learning Processing\" playlist"
                 }
             ]
         }
