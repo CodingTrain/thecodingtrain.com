@@ -84,6 +84,22 @@
           "description": "3Blue1Brown video series on neural networks."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+          "icon": "🔴",
+          "title": "Live Stream Archive #118",
+          "url": "https://youtu.be/e8H588SXu6U?t=8090s",
+          "description": "Live Stream with More Neural Networks"
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #119",
+          "url": "https://youtu.be/f9vaiHoq-Fk?t=3171s",
+          "description": "Live Stream with Solving Merge Conflicts and XOR Problem"
+        }
+      ]
     }
   ]
 }
