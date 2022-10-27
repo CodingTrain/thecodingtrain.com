@@ -5,7 +5,7 @@
   "videoId": "LG8ZK-rRkXo",
   "date": "2016-04-17",
   "languages": ["Java", "Processing"],
-  "topics": ["fractal", "3d"],
+  "topics": ["fractal", "3d", "menger sponge"],
   "canContribute": true,
   "relatedChallenges": [
     "18-3d-fractal-trees",
@@ -13,7 +13,7 @@
     "126-toothpicks",
     "129-koch-fractal-snowflake",
     "168-the-mandelbulb"
-    ],
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a 10 minute Coding Challenge!" },
     { "time": "0:26", "title": "Quick math about the Menger Sponge" },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "References",
+      "title": "Videos",
       "links": [
         {
           "icon": "🎥",
