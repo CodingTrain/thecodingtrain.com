@@ -7,7 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["mitosis", "simulation"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["36-blobby"],
   "timestamps": [
     { "time": "00:00", "title": "Welcome to the challenge!" },
     { "time": "00:56", "title": "Create a Cell constructor" },
