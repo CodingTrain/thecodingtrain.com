@@ -375,7 +375,7 @@ Music from Epidemic Sound
 👾 Share Your Creation! https://thecodingtrain.com/guides/passenger-showcase-guide
 🚩 Suggest Topics: https://github.com/CodingTrain/Suggestion-Box
 💡 GitHub: https://github.com/CodingTrain
-💬 Discord: https://discord.gg/hPuGy2g
+💬 Discord: https://thecodingtrain.com/discord
 💖 Membership: http://youtube.com/thecodingtrain/join
 🛒 Store: https://standard.tv/codingtrain
 🖋️ Twitter: https://twitter.com/thecodingtrain
