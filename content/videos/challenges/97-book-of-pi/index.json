@@ -52,13 +52,24 @@
         {
             "title": "Part 2: The Book of Pi",
             "videoId": "4Ns9S-Z89-0",
-            "timestamps": []
+            "timestamps": [
+                { "time": "0:00", "title": "Hello again!" },
+                { "time": "1:10", "title": "Some refactoring and adjustments" },
+                { "time": "7:15", "title": "The font-size" },
+                { "time": "9:19", "title": "Fixing the width" },
+                { "time": "9:55", "title": "One million digits!" },
+                { "time": "12:05", "title": "Monospace font" },
+                { "time": "14:00", "title": "Let's add some margins" },
+                { "time": "14:45", "title": "Ten million digits!" },
+                { "time": "16:15", "title": "The Book of Pi" },
+                { "time": "17:00", "title": "A reading of the book while the video  dramatically fades away" }
+            ]
         }
     ],
     "codeExamples": [
         {
             "title": "Book of Pi - Part 1",
-            "description": "Code for the first part of the challenge",
+            "description": "Processing sketch that makes a PDF with digits of Pi mapped to color",
             "urls": {
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.1_Book_of_Pi_Part_1/Processing"
             }
