@@ -72,33 +72,13 @@
       ]
     },
     {
-      "title": "Videos",
-      "links": [
-        {
-          "icon": "🎥",
-          "title": "Understanding 4D -- The Tesseract",
-          "url": "https://youtu.be/iGO12Z5Lw8s",
-          "description": "How, exactly, do you rotate in 4 dimensions? "
-        },
-        {
-          "icon": "🚂",
-          "title": "3D Rendering with Rotation and Projection",
-          "url": "/challenges/112-3d-rendering-with-rotation-and-projection",
-          "description": "Can I draw and rotate a 3D cube using Processing's 2D renderer with just some math?!?! Yes!"
-        },
-        {
-          "icon": "🚂",
-          "title": "Matrix Math",
-          "url": "https://youtu.be/uSzGdfdOoG8",
-          "description": "In this video, I introduce the idea of \"Linear Algebra\" and explore the matrix math required for a simple neural network library."
-        },
-        {
-          "icon": "🚂",
-          "title": "Matrix Multiplication for 3D Rendering",
-          "url": "https://youtu.be/tzsgS19RRc8",
-          "description": "In this video, I write a function to perform matrix multiplication in Java."
-        }
-      ]
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Coding Train Live #148.2",
+        "url": "https://youtu.be/M_YNwb7UudI?t=1370s",
+        "description": "In this Live Stream, I attempt to render a 4D Hypercube in Processing."
+      }]
     }
   ]
 }
