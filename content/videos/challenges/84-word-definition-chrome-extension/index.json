@@ -1,0 +1,85 @@
+{
+  "title": "Word Definition Chrome Extension",
+  "description": "In this coding challenge, I attempt to make a chrome extension that looks up a selected word’s definition using the Wordnik API.",
+  "videoNumber": "84",
+  "videoId": "GWDx1GnxhOw",
+  "date": "2017-11-29",
+  "languages": ["javascript"],
+  "topics": ["chrome extensions", "bookmarklets", "image swap"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction!" },
+    { "time": "01:09", "title": "Creating manifest.json" },
+    { "time": "04:00", "title": "Loading the extension in Chrome" },
+    { "time": "05:06", "title": "Finding all img elements on the page" },
+    {
+      "time": "06:32",
+      "title": "Adding all the assets to web_accessible_resources"
+    },
+    { "time": "10:17", "title": "Improving the file structure" },
+    {
+      "time": "12:02",
+      "title": "Setting the src field to the image of a kitten"
+    },
+    { "time": "15:17", "title": "Error! Add folder prefix to file names" },
+    { "time": "16:24", "title": "Final Output!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Word Definition Chrome Extension",
+      "description": "A chrome extension which looks up a selected word’s definition using the Wordnik API.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/082_Image_Chrome_Extension_The_Ex-Kitten-sion/JavaScript"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔤",
+          "title": "Programming from A to Z",
+          "url": "http://shiffman.net/a2z",
+          "description": "This course focuses on programming strategies and techniques behind procedural analysis and generation of text-based data."
+        },
+        {
+          "icon": "📚",
+          "title": "chrome.extension reference",
+          "url": "https://developer.chrome.com/extensions/extension",
+          "description": "Reference for the chrome.extension API"
+        },
+        {
+          "icon": "🔠",
+          "title": "Wordnik",
+          "url": "https://www.wordnik.com/",
+          "description": "Wordnik is a website that provides a variety of services for words, including definitions, synonyms, antonyms, and more."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "My video on Cross Browser Extensions",
+          "url": "https://codingtrain.github.io/website-archive/learning/programming-with-text/11.8-cross-browser-extensions",
+          "description": "Video tutorials on regular expressions"
+        },
+        {
+          "icon": "🔌",
+          "title": "Chrome Extensions Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS",
+          "description": "Playlist on developing Chrome extensions in JavaScript"
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/h3p0U8yWrMU?t=6484",
+          "description": "Live Stream #107: Chrome Extensions Continued!"
+        }
+      ]
+    }
+  ]
+}
