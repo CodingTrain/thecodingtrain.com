@@ -30,9 +30,9 @@
   "codeExamples": [
     {
       "title": "Doodle Chrome Extension",
-      "description": "A chrome extension which replaces all images on a page with the picture of a kitten.",
+      "description": "A chrome extension which allows you to draw on top of any webpage.",
       "urls": {
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/082_Image_Chrome_Extension_The_Ex-Kitten-sion/JavaScript"
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/083_Chrome_Extension_with_p5js_Sketch/JavaScript"
       }
     }
   ],
@@ -67,7 +67,7 @@
           "icon": "🔴",
           "title": "Livestream Archive",
           "url": "https://youtu.be/y0zS83xj0g0?t=45m5s",
-          "description": "Live Stream #104.2: Chrome Extension Coding Challenges"
+          "description": "Live Stream #106.2: Chrome Extension Coding Challenges"
         }
       ]
     }
