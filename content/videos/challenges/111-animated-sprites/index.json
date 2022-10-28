@@ -61,12 +61,17 @@
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "🚂",
                     "title": "Guest Tutorial #6: The Modulo Operator with Golan Levin",
                     "url": "https://youtu.be/r5Iy3v1co0A",
                     "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live Archive #147",
+                    "url": "https://youtu.be/Sz52VkVcW5o?t=9180s",
+                    "description": "In the Live Stream, I attempt an \"animated sprites\" coding challenge."
                 }
             ]
         }

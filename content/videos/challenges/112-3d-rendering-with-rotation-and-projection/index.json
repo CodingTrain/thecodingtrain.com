@@ -63,8 +63,7 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🚂",
           "title": "Matrix Math",
           "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
@@ -75,6 +74,12 @@
           "title": "Matrix Multiplication for 3D Rendering",
           "url": "https://youtu.be/tzsgS19RRc8",
           "description": "In this video, I write a function to perform matrix multiplication in Java."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Archive #148.1",
+          "url": "https://youtu.be/v6EmLhu7C9M?t=3285s",
+          "description": "In this Live Stream, I attempt to draw 3D shapes on 2D canvas"
         }
       ]
     }
