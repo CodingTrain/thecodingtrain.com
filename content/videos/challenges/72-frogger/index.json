@@ -212,12 +212,17 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🎥",
           "title": "Video of the Gameplay",
           "url": "https://youtu.be/l9eTOaNFwKQ",
           "description": "Video about the arcade game Frogger."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Archive #96",
+          "url": "https://youtu.be/7BdfPG3peP4?t=1547s",
+          "description": "Live Stream with frogger"
         }
       ]
     }

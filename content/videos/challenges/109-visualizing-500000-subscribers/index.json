@@ -101,6 +101,15 @@
                     "description": "Community version of 'Coding Challenge 109: 500k Subscriber Visualization'."
                 }
             ]
+        },
+        {
+            "title": "Live Stream Archive",
+            "links": [{
+                "icon": "🔴",
+                "title": "Coding Train Live #144",
+                "url": "https://youtu.be/UI5c1te1MjI",
+                "description": "In this Live Stream, I create a Map Visualization of 500k Subscribers!"
+            }]
         }
     ]
 }
