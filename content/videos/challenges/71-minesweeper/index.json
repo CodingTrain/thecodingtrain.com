@@ -86,10 +86,10 @@
           "description": "You should probably watch my videos on ES6 classes instead, but if you insist on being here, I will discuss how inheritance works with prototypes in JS."
         },
         {
-          "icon": "🎥",
-          "title": "Livestream Archive",
-          "url": "https://youtu.be/zxR7KfVMGqk",
-          "description": "Livestream  #92: Minesweeper"
+          "icon": "🔴",
+          "title": "Live Stream Archive #92",
+          "url": "https://youtu.be/zxR7KfVMGqk?t=2282s",
+          "description": "Live Stream with Minesweeper"
         }
       ]
     }
