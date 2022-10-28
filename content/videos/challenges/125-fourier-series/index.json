@@ -83,6 +83,12 @@
           "title": "Polar Coordinates",
           "url": "https://www.youtube.com/watch?v=O5wjXoFrau4",
           "description": "Tutorial on Cartesian and Polar Coordinates"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 163",
+          "url": "https://youtu.be/pKyU92cza0Y",
+          "description": "Live Stream with Toothpicks and Fourier Series"
         }
       ]
     }

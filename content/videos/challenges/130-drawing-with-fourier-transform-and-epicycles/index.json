@@ -154,6 +154,12 @@
                     "title": "Epicycles, complex Fourier series and Homer Simpson's orbit",
                     "url": "https://youtu.be/qS4H6PEcCCA",
                     "description": "Mathologer video about epicycles and complex Fourier series."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Code Train Live 165",
+                    "url": "https://youtu.be/0b3R8oWffkw",
+                    "description": "live Stream with Drawing with Fourier Transform"
                 }
             ]
         }
