@@ -68,9 +68,9 @@
                 },
                 {
                     "icon": "🔴",
-                    "title": "Livestream Archive",
-                    "url": "https://youtu.be/hVSHlFjTeqg",
-                    "description": "Livestream #87.3: Timer in JavaScript, Pong and Binary Tree - Part 3"
+                    "title": "Live Stream Archive #87.3",
+                    "url": "https://youtu.be/hVSHlFjTeqg?t=1355s",
+                    "description": "Live Stream with Timer in JavaScript, Pong and Binary Tree - Part 3"
                 }
             ]
         }
