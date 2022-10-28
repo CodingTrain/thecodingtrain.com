@@ -60,6 +60,17 @@
           "description": "Tom Scott's video on Seven-Segment Displays"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 156",
+          "url": "https://youtu.be/b8RwO1k9DXc?t=7442s",
+          "description": "Live Stream with word2vec & Seven-Segment Display"
+        }
+      ]
     }
   ]
 }
