@@ -7,25 +7,45 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "generative art", "space colonization"],
   "canContribute": true,
-  "relatedChallenges": ["14-fractal-trees-recursive", "18-3d-fractal-trees", "77-recursion", "174-graphics-applesoft-basic"],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "18-3d-fractal-trees",
+    "77-recursion",
+    "174-graphics-applesoft-basic"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:34", "title": "The space colonization algorithm" },
     { "time": "3:11", "title": "Write a Tree constructor function" },
     { "time": "3:46", "title": "Write a Leaf construction function" },
     { "time": "5:03", "title": "Add a tree" },
-    { "time": "6:53", "title": "Create a branch object that has a position and a parent" },
+    {
+      "time": "6:53",
+      "title": "Create a branch object that has a position and a parent"
+    },
     { "time": "7:45", "title": "Add the root of the tree" },
     { "time": "9:26", "title": "Add a direction to the branch" },
     { "time": "10:41", "title": "Minimum and maximum distance" },
     { "time": "14:45", "title": "Add a function to add the next branch" },
     { "time": "17:35", "title": "Add a show function" },
-    { "time": "20:00", "title": "Add a grow function to determine the closest branch to each leaf" },
+    {
+      "time": "20:00",
+      "title": "Add a grow function to determine the closest branch to each leaf"
+    },
     { "time": "22:20", "title": "Mark leaves that are reached" },
-    { "time": "28:06", "title": "\"Pull\" the direction of closest branch toward the leaf" },
+    {
+      "time": "28:06",
+      "title": "\"Pull\" the direction of closest branch toward the leaf"
+    },
     { "time": "30:00", "title": "Add a count variable to the Branch variable" },
-    { "time": "32:06", "title": "Loop backwards through the leaf array to delete leaves that were reached" },
-    { "time": "33:02", "title": "Determine whether a branch was attracted to a leaf" },
+    {
+      "time": "32:06",
+      "title": "Loop backwards through the leaf array to delete leaves that were reached"
+    },
+    {
+      "time": "33:02",
+      "title": "Determine whether a branch was attracted to a leaf"
+    },
     { "time": "34:01", "title": "Average the branch's direction" },
     { "time": "34:30", "title": "Make a new branch" },
     { "time": "36:59", "title": "Reset the branches" },
@@ -69,7 +89,8 @@
     },
     {
       "title": "videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🎥",
           "title": "Algorithmic Botany Track",
           "url": "/tracks/algorithmic-botany",
@@ -78,7 +99,7 @@
         {
           "icon": "🔴",
           "title": "Live Stream #40",
-          "url": "https://youtu.be/MwLyeEWnMCY",
+          "url": "https://youtu.be/MwLyeEWnMCY?t=7899",
           "description": "Live Stream Tree Generation with Different Algorithms"
         }
       ]
