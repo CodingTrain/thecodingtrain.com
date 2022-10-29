@@ -165,8 +165,8 @@
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
                 },
                 {
-                    "icon": "🎥",
-                    "title": "Live Stream",
+                    "icon": "🔴",
+                    "title": "Coding Train Live 169",
                     "url": "https://youtu.be/7k-iJyHq7-k",
                     "description": "In this live stream: Perlin Noise Loops in Processing(Java) and JavaScript Inheritance."
                 }

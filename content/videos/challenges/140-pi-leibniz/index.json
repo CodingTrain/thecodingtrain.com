@@ -57,7 +57,13 @@
                     "title": "Pi and the Mandelbrot Set",
                     "url": "https://youtu.be/d0vY0CKYhPY",
                     "description": "Numberphile video on the Mandelbrot set and Pi"
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 172",
+                    "url": "https://youtu.be/78ZthTGcdPw?t=5795s",
+                    "description": "Live Stream with different methods of calculated Pi"
+            }   
             ]
         }
     ]

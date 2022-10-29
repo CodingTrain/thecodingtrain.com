@@ -91,6 +91,12 @@
                     "title": "Polar Coordinates",
                     "url": "https://youtu.be/O5wjXoFrau4",
                     "description": "Tutorial on Polar Coordinates in p5.js (NOC 2)"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 170",
+                    "url": "https://youtu.be/O6dsGXhD0sc?t=1755s",
+                    "description": "Live Stream with 4D OpenSimplexNoise Loops and ES6 Inheritance"
                 }
             ]
         }

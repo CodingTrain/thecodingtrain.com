@@ -67,16 +67,22 @@
             "title": "Videos",
             "links": [
                 {
-                    "icon": "📺",
-                    "title": "12 Hour Live Stream (last 4 hours sadly cut-off)",
-                    "url": "https://youtu.be/PIeKyP97EUc",
-                    "description": "12 hours approximating 10 digits of Pi with the Mandelbrot Set"
-                },
-                {
                     "icon": "🥟",
                     "title": "Pi and the Mandelbrot Set",
                     "url": "https://youtu.be/d0vY0CKYhPY",
                     "description": "Numberphile video on this topic"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 172",
+                    "url": "https://youtu.be/78ZthTGcdPw?t=7875s",
+                    "description": "Live Stream with different ways to calculate Pi"
+                },
+                {
+                    "icon": "📺",
+                    "title": "12 Hour Live Stream (last 4 hours sadly cut-off)",
+                    "url": "https://youtu.be/PIeKyP97EUc",
+                    "description": "12 hours approximating 10 digits of Pi with the Mandelbrot Set"
                 }
             ]
         }
