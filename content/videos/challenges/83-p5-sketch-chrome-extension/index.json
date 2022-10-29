@@ -12,7 +12,10 @@
     "drawing webpage"
   ],
   "canContribute": true,
-  "relatedChallenges": ["82-image-chrome-extension"],
+  "relatedChallenges": [
+    "82-image-chrome-extension",
+    "84-word-definition-chrome-extension"
+  ],
   "timestamps": [
     { "time": "00:00", "title": "Introduction to the Challenge!" },
     { "time": "00:32", "title": "manifest.json" },

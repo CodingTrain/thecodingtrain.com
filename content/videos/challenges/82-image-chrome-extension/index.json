@@ -7,7 +7,10 @@
   "languages": ["javascript"],
   "topics": ["chrome extensions", "bookmarklets", "image swap"],
   "canContribute": true,
-  "relatedChallenges": ["83-p5-sketch-chrome-extension"],
+  "relatedChallenges": [
+    "83-p5-sketch-chrome-extension",
+    "84-word-definition-chrome-extension"
+  ],
   "timestamps": [
     { "time": "00:00", "title": "Introduction!" },
     { "time": "01:09", "title": "Creating manifest.json" },
