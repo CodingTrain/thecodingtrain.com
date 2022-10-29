@@ -7,7 +7,12 @@
   "languages": ["processing"],
   "topics": ["solar system", "transformations"],
   "canContribute": true,
-  "relatedChallenges": ["8-solar-system-3d", "9-solar-system-3d-textures", "61-fractal-spirograph", "144-2d-black-hole-visualization"],
+  "relatedChallenges": [
+    "8-solar-system-3d",
+    "9-solar-system-3d-textures",
+    "61-fractal-spirograph",
+    "144-2d-black-hole-visualization"
+  ],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:39", "title": "Planet class" },
@@ -50,7 +55,7 @@
         {
           "icon": "🔴",
           "title": "Livestream Archive #34",
-          "url": "https://youtu.be/r8QMcI5qxQM",
+          "url": "https://youtu.be/r8QMcI5qxQM?t=5256s",
           "description": "Livestream with Git and GitHub Tutorials + Purple Rain and Solar System"
         }
       ]

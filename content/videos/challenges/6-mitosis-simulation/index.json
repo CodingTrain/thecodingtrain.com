@@ -39,12 +39,14 @@
   "groupLinks": [
     {
       "title": "Livestream Archive",
-      "links": [{
-        "icon": "🔴",
-        "title": "Livestream #33",
-        "url": "https://youtu.be/WpUnYfVmKdA",
-        "description": "Livestream with Space Invaders and Mitosis Simulation"
-      }]
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #33",
+          "url": "https://youtu.be/WpUnYfVmKdA?t=4390s",
+          "description": "Livestream with Space Invaders and Mitosis Simulation"
+        }
+      ]
     }
   ]
 }
