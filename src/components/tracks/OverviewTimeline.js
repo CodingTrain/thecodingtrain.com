@@ -88,6 +88,9 @@ const ChapterSection = memo(
     const isThisChapter = chapterIndex === trackPosition.chapterIndex;
     const trackPath = `/tracks/${track.slug}`;
     const [collapsed, setCollapsed] = useState(false);
+
+    const [currentPartIndex, setCurrentPartIndex] = useState(0);
+
     return (
       <ul className={css.chapterList}>
         {chapter.title && (
@@ -98,27 +101,62 @@ const ChapterSection = memo(
                 { [css.expanded]: !collapsed },
                 { [css.hasSeen]: hasSeenChapter || isThisChapter }
               )}
-              onClick={() => setCollapsed((c) => !c)}>
+              onClick={() => setCollapsed((c) => !c)}
+            >
               {chapter.title}
             </button>
           </li>
         )}
         {!collapsed &&
-          chapter.videos.map((video, index) => {
-            const { videoIndex } = trackPosition;
+          chapter.videos.map((video, videoIndex) => {
+            const { videoIndex: currentVideoIndex } = trackPosition;
             const hasSeenVideo =
-              hasSeenChapter || (isThisChapter && index <= videoIndex);
+              hasSeenChapter ||
+              (isThisChapter && videoIndex <= currentVideoIndex);
             const isLastVideo =
               (hasSeenChapter &&
-                index === chapters[chapterIndex].videos.length - 1) ||
-              (isThisChapter && index === videoIndex);
-            return (
+                videoIndex === chapters[chapterIndex].videos.length - 1) ||
+              (isThisChapter && videoIndex === currentVideoIndex);
+            const isMultiPart = video.parts?.length > 0;
+
+            return isMultiPart ? (
+              video.parts.map((part, partIndex) => {
+                const partNumber = partIndex + 1;
+                const hasSeenPart =
+                  hasSeenVideo &&
+                  (videoIndex < currentVideoIndex ||
+                    partIndex <= currentPartIndex);
+                return (
+                  <li
+                    key={`${video.slug}-part${partNumber}`}
+                    className={cn(css.videoItem, {
+                      [css.seen]: hasSeenPart,
+                      [css.last]: isLastVideo && partIndex === currentPartIndex
+                    })}
+                  >
+                    <Link
+                      to={`${trackPath}/${video.slug}`}
+                      onClick={(event) => {
+                        if (videoIndex === currentVideoIndex) {
+                          // Don't reload page if we nagivate between parts of the same challenge
+                          event.preventDefault();
+                        }
+                        setCurrentPartIndex(partIndex);
+                      }}
+                    >
+                      {video.title} - Part {partNumber}
+                    </Link>
+                  </li>
+                );
+              })
+            ) : (
               <li
                 key={video.slug}
                 className={cn(css.videoItem, {
                   [css.seen]: hasSeenVideo,
                   [css.last]: isLastVideo
-                })}>
+                })}
+              >
                 <Link to={`${trackPath}/${video.slug}`}>{video.title}</Link>
               </li>
             );
