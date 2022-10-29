@@ -17,7 +17,8 @@
     "16-l-system-fractal-trees",
     "174-graphics-applesoft-basic"
   ],
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introducing today's topic"
     },
@@ -86,18 +87,22 @@
       "title": "Thanks for watching!"
     }
   ],
-  "codeExamples": [{
-    "title": "Fractal Trees - Object Oriented",
-    "description": "An object-oriented fractal tree made in p5.js",
-    "image": "tree.png",
-    "urls": {
-      "p5": "https://editor.p5js.org/codingtrain/sketches/JDT5wrxVj",
-      "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/015_FractalTreeArray/Processing"
+  "codeExamples": [
+    {
+      "title": "Fractal Trees - Object Oriented",
+      "description": "An object-oriented fractal tree made in p5.js",
+      "image": "tree.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/JDT5wrxVj",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/015_FractalTreeArray/Processing"
+      }
     }
-  }],
-  "groupLinks": [{
+  ],
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "🌿",
           "title": "Algorithmic Botany",
           "url": "http://algorithmicbotany.org/",
@@ -113,7 +118,8 @@
     },
     {
       "title": "videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🎥",
           "title": "Algorithmic Botany Track",
           "url": "/tracks/algorithmic-botany",
@@ -122,7 +128,7 @@
         {
           "icon": "🔴",
           "title": "Live Stream Archive #40",
-          "url": "https://youtu.be/MwLyeEWnMCY",
+          "url": "https://youtu.be/MwLyeEWnMCY?t=3153s",
           "description": "Live Stream Tree Generation with Different Algorithms"
         }
       ]

@@ -7,7 +7,11 @@
   "languages": ["Processing", "Toxiclibs"],
   "topics": ["3d", "cloth", "physics", "simulation"],
   "canContribute": true,
-  "relatedChallenges": ["62-plinko-with-matterjs", "159-simple-pendulum", "160-spring-forces"],
+  "relatedChallenges": [
+    "62-plinko-with-matterjs",
+    "159-simple-pendulum",
+    "160-spring-forces"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:10", "title": "What is Verlet Physics?" },
@@ -57,12 +61,14 @@
     },
     {
       "title": "Live Stream Archive",
-      "links": [{
-        "icon": "🔴",
-        "title": "Live Stream #42",
-        "url": "https://youtu.be/nfU-NqnXn1o",
-        "description": "Live Stream with Sound in p5.js + 3D Cloth with toxiclibs"
-      }]
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #42",
+          "url": "https://youtu.be/nfU-NqnXn1o?t=8453s",
+          "description": "Live Stream with Sound in p5.js + 3D Cloth with toxiclibs"
+        }
+      ]
     }
   ]
 }
