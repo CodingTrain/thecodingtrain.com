@@ -211,13 +211,13 @@
       "links": [{
         "icon": "🔴",
         "title": "Live Stream #75: Islamic Star Patterns",
-        "url": "https://youtu.be/hCjTKCb2Cuw",
+        "url": "https://youtu.be/hCjTKCb2Cuw?t=1108s",
         "description": "In this bonus unedited live stream archive I work through visualizing Islamic Star Patterns in p5.js based on the paper."
       },
       {
         "icon": "🔴",
         "title": "Live Stream #77: More on Star Patterns",
-        "url": "https://youtu.be/qTxPqMI69aM",
+        "url": "https://youtu.be/qTxPqMI69aM?t=3107s",
         "description": "Live Stream with Earthquake Data Visualization and more on Star Patterns"
       }]
     }
