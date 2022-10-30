@@ -165,6 +165,7 @@ export const query = graphql`
         languages
         topics
         parts {
+          title
           videoId
           timestamps {
             time
@@ -181,6 +182,7 @@ export const query = graphql`
           languages
           topics
           parts {
+            title
             videoId
             timestamps {
               time
@@ -211,6 +213,7 @@ export const query = graphql`
         seconds
       }
       parts {
+        title
         videoId
         timestamps {
           time

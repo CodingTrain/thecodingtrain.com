@@ -11,8 +11,11 @@ const usePaths = (chapters, track, trackPosition) => {
     .flatMap((chapter) => chapter.videos)
     .flatMap((video) =>
       video.parts?.length > 0
-        ? video.parts.map((_, partIndex) => ({ slug: video.slug, partIndex }))
-        : [{ slug: video.slug, partIndex: 0 }]
+        ? video.parts.map((_, partIndex) => ({
+            path: `/tracks/${track.slug}/${video.slug}`,
+            partIndex
+          }))
+        : [{ path: `/tracks/${track.slug}/${video.slug}`, partIndex: 0 }]
     );
   const partIndex = useChallengePartIndex();
   const currentVideo =
@@ -20,21 +23,9 @@ const usePaths = (chapters, track, trackPosition) => {
   const currentIndex = flatTrack.findIndex(
     (video) => video.slug === currentVideo.slug && video.partIndex === partIndex
   );
-  const prevVideo = flatTrack[currentIndex - 1];
-  const nextVideo = flatTrack[currentIndex + 1];
-  const prev = prevVideo
-    ? {
-        path: `/tracks/${track.slug}/${prevVideo.slug}`,
-        partIndex: prevVideo.partIndex
-      }
-    : null;
-  const next = nextVideo
-    ? {
-        path: `/tracks/${track.slug}/${nextVideo.slug}`,
-        partIndex: nextVideo.partIndex
-      }
-    : null;
-  return [prev, next];
+  const prevVideo = flatTrack[currentIndex - 1] ?? null;
+  const nextVideo = flatTrack[currentIndex + 1] ?? null;
+  return [prevVideo, nextVideo];
 };
 
 const OverviewTimeline = memo(
