@@ -42,7 +42,7 @@
       ]
     },
     {
-      "title": "Visualizng a Binary Tree",
+      "title": "Visualizing a Binary Tree",
       "videoId": "KFEvF_ymuzY",
       "timestamps": [
         { "time": "0:00", "title": "Visualizing the Binary Tree" },
@@ -92,10 +92,10 @@
           "description": "Grokking Algorithms is a fully illustrated, friendly guide that teaches you how to apply common algorithms to the practical problems."
         },
         {
-          "icon": "🎥",
-          "title": "Livestream Archive",
-          "url": "https://youtu.be/hVSHlFjTeqg",
-          "description": "Livestream #87.3: Timer in JavaScript, Pong and Binary Tree - Part 3"
+          "icon": "🔴",
+          "title": "Coding Train Live 87",
+          "url": "https://youtu.be/hVSHlFjTeqg?t=9310s",
+          "description": "Live Stream with Timer in JavaScript, Pong, and Binary Tree"
         }
       ]
     }
