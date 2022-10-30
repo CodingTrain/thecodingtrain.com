@@ -8,48 +8,40 @@ import { usePersistScrollPosition } from '../../hooks';
 import * as css from './OverviewTimeline.module.css';
 
 const usePaths = (chapters, track, trackPosition) => {
-  let nextVideoPath;
-  let prevVideoPath = null;
-  if (
-    trackPosition.chapterIndex === chapters.length - 1 &&
-    trackPosition.videoIndex === chapters[chapters.length - 1].videos.length - 1
-  )
-    nextVideoPath = null;
-  else if (
-    trackPosition.videoIndex ===
-    chapters[trackPosition.chapterIndex].videos.length - 1
-  ) {
-    const video = chapters[trackPosition.chapterIndex + 1].videos[0];
-    nextVideoPath = `/tracks/${track.slug}/${video.slug}`;
-  } else {
-    const video =
-      chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex + 1];
-    nextVideoPath = `/tracks/${track.slug}/${video.slug}`;
-  }
-
-  if (trackPosition.chapterIndex === 0 && trackPosition.videoIndex === 0)
-    prevVideoPath = null;
-  else if (trackPosition.videoIndex === 0) {
-    const video =
-      chapters[trackPosition.chapterIndex - 1].videos[
-        chapters[trackPosition.chapterIndex - 1].videos.length - 1
-      ];
-    prevVideoPath = `/tracks/${track.slug}/${video.slug}`;
-  } else {
-    const video =
-      chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex - 1];
-    prevVideoPath = `/tracks/${track.slug}/${video.slug}`;
-  }
-  return [prevVideoPath, nextVideoPath];
+  const flatTrack = chapters
+    .flatMap((chapter) => chapter.videos)
+    .flatMap((video) =>
+      video.parts?.length > 0
+        ? video.parts.map((_, partIndex) => ({ slug: video.slug, partIndex }))
+        : [{ slug: video.slug, partIndex: 0 }]
+    );
+  const { state } = useLocation();
+  const partIndex = state?.challengePartIndex ?? 0;
+  const currentVideo =
+    chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex];
+  const currentIndex = flatTrack.findIndex(
+    (video) => video.slug === currentVideo.slug && video.partIndex === partIndex
+  );
+  const prevVideo = flatTrack[currentIndex - 1];
+  const nextVideo = flatTrack[currentIndex + 1];
+  const prev = prevVideo
+    ? {
+        path: `/tracks/${track.slug}/${prevVideo.slug}`,
+        partIndex: prevVideo.partIndex
+      }
+    : null;
+  const next = nextVideo
+    ? {
+        path: `/tracks/${track.slug}/${nextVideo.slug}`,
+        partIndex: nextVideo.partIndex
+      }
+    : null;
+  return [prev, next];
 };
 
 const OverviewTimeline = memo(
   ({ className, chapters, track, trackPosition }) => {
-    const [previousVideoPath, nextVideoPath] = usePaths(
-      chapters,
-      track,
-      trackPosition
-    );
+    const [previousVideo, nextVideo] = usePaths(chapters, track, trackPosition);
 
     const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
     return (
@@ -67,13 +59,19 @@ const OverviewTimeline = memo(
           ))}
         </div>
         <div className={css.navigation}>
-          {previousVideoPath !== null && (
-            <Link className={css.navButton} to={previousVideoPath}>
+          {previousVideo !== null && (
+            <Link
+              className={css.navButton}
+              to={previousVideo.path}
+              state={{ challengePartIndex: previousVideo.partIndex }}>
               Previous
             </Link>
           )}
-          {nextVideoPath !== null && (
-            <Link className={css.navButton} to={nextVideoPath}>
+          {nextVideo !== null && (
+            <Link
+              className={css.navButton}
+              to={nextVideo.path}
+              state={{ challengePartIndex: nextVideo.partIndex }}>
               Next
             </Link>
           )}
