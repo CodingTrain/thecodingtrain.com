@@ -33,13 +33,13 @@
     "featured": [
       "174-graphics-applesoft-basic",
       "173-snake-applesoft-basic",
-      "50-animated-circle-packing",
-      "147-chrome-dinosaur-game",
-      "78-simple-particle-system",
-      "98-quadtree",
-      "148-gift-wrapping",
-      "53-random-walker-with-vectors-and-levy-flight",
-      "17-fractal-trees-space-colonization"
+      "59-steering-behaviors",
+      "87-3d-knots",
+      "85-the-game-of-life",
+      "30-phyllotaxis",
+      "60-butterfly-generator",
+      "c1-maurer-rose",
+      "36-blobby"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
