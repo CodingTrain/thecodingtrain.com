@@ -1,9 +1,8 @@
 import React, { memo, useState } from 'react';
-import { useLocation } from '@reach/router';
 import cn from 'classnames';
 import { Link } from 'gatsby';
 
-import { usePersistScrollPosition } from '../../hooks';
+import { useChallengePartIndex, usePersistScrollPosition } from '../../hooks';
 
 import * as css from './OverviewTimeline.module.css';
 
@@ -15,8 +14,7 @@ const usePaths = (chapters, track, trackPosition) => {
         ? video.parts.map((_, partIndex) => ({ slug: video.slug, partIndex }))
         : [{ slug: video.slug, partIndex: 0 }]
     );
-  const { state } = useLocation();
-  const partIndex = state?.challengePartIndex ?? 0;
+  const partIndex = useChallengePartIndex();
   const currentVideo =
     chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex];
   const currentIndex = flatTrack.findIndex(
@@ -89,9 +87,7 @@ const ChapterSection = memo(
     const [collapsed, setCollapsed] = useState(false);
 
     const { videoIndex: currentVideoIndex } = trackPosition;
-    // This `state` variable is populated through a `Link` in this component
-    const { state } = useLocation();
-    const currentPartIndex = state?.challengePartIndex ?? 0;
+    const currentPartIndex = useChallengePartIndex();
 
     return (
       <ul className={css.chapterList}>

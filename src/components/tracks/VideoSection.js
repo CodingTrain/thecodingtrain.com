@@ -1,5 +1,4 @@
 import React, { memo, useCallback, useState, useEffect, useRef } from 'react';
-import { useLocation } from '@reach/router';
 import cn from 'classnames';
 
 import Tags from '../Tags';
@@ -9,6 +8,7 @@ import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
 
 import { filteredPath } from '../../utils';
+import { useChallengePartIndex } from '../../hooks';
 
 import * as css from './VideoSection.module.css';
 
@@ -31,9 +31,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
 
   const { title, topics, languages } = video;
 
-  // This `state` variable is populated through a `Link` in `OverviewTimeline.js`
-  const { state } = useLocation();
-  const partIndex = state?.challengePartIndex ?? 0;
+  const partIndex = useChallengePartIndex();
   const part = video.parts?.[partIndex];
   const videoId = part?.videoId ?? video.videoId;
   const timestamps = part?.timestamps ?? video.timestamps;
