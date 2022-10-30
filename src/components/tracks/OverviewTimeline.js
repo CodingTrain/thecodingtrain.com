@@ -90,6 +90,8 @@ const ChapterSection = memo(
     const trackPath = `/tracks/${track.slug}`;
     const [collapsed, setCollapsed] = useState(false);
 
+    const { videoIndex: currentVideoIndex } = trackPosition;
+    // This `state` variable is populated through a `Link` in this component
     const { state } = useLocation();
     const currentPartIndex = state?.challengePartIndex ?? 0;
 
@@ -110,7 +112,6 @@ const ChapterSection = memo(
         )}
         {!collapsed &&
           chapter.videos.map((video, videoIndex) => {
-            const { videoIndex: currentVideoIndex } = trackPosition;
             const hasSeenVideo =
               hasSeenChapter ||
               (isThisChapter && videoIndex <= currentVideoIndex);
@@ -122,23 +123,21 @@ const ChapterSection = memo(
 
             return isMultiPart ? (
               video.parts.map((part, partIndex) => {
-                const partNumber = partIndex + 1;
                 const hasSeenPart =
                   hasSeenVideo &&
                   (videoIndex < currentVideoIndex ||
                     partIndex <= currentPartIndex);
                 return (
                   <li
-                    key={`${video.slug}-part${partNumber}`}
+                    key={`${video.slug}-${partIndex}`}
                     className={cn(css.videoItem, {
                       [css.seen]: hasSeenPart,
                       [css.last]: isLastVideo && partIndex === currentPartIndex
                     })}>
                     <Link
                       to={`${trackPath}/${video.slug}`}
-                      // This state is retrieved in `VideoSection.js` using useLocation()
                       state={{ challengePartIndex: partIndex }}>
-                      {video.title} - Part {partNumber}
+                      {video.title} - Part {partIndex + 1}
                     </Link>
                   </li>
                 );
