@@ -1,4 +1,5 @@
 import React, { memo, useCallback, useState, useEffect, useRef } from 'react';
+import { useLocation } from '@reach/router';
 import cn from 'classnames';
 
 import Tags from '../Tags';
@@ -27,7 +28,16 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
 
 const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
   const chapters = track.chapters ? track.chapters : [{ videos: track.videos }];
-  const { title, videoId, topics, languages, timestamps } = video;
+
+  const { title, topics, languages } = video;
+
+  // This `state` variable is populated through a `Link` in `OverviewTimeline.js`
+  const { state } = useLocation();
+  const partIndex = state?.challengePartIndex ?? 0;
+  const part = video.parts?.[partIndex];
+  const videoId = part?.videoId ?? video.videoId;
+  const timestamps = part?.timestamps ?? video.timestamps;
+
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
     trackPosition,
     chapters,

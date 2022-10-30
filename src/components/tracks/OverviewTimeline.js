@@ -1,4 +1,5 @@
 import React, { memo, useState } from 'react';
+import { useLocation } from '@reach/router';
 import cn from 'classnames';
 import { Link } from 'gatsby';
 
@@ -89,7 +90,8 @@ const ChapterSection = memo(
     const trackPath = `/tracks/${track.slug}`;
     const [collapsed, setCollapsed] = useState(false);
 
-    const [currentPartIndex, setCurrentPartIndex] = useState(0);
+    const { state } = useLocation();
+    const currentPartIndex = state?.challengePartIndex ?? 0;
 
     return (
       <ul className={css.chapterList}>
@@ -101,8 +103,7 @@ const ChapterSection = memo(
                 { [css.expanded]: !collapsed },
                 { [css.hasSeen]: hasSeenChapter || isThisChapter }
               )}
-              onClick={() => setCollapsed((c) => !c)}
-            >
+              onClick={() => setCollapsed((c) => !c)}>
               {chapter.title}
             </button>
           </li>
@@ -132,18 +133,11 @@ const ChapterSection = memo(
                     className={cn(css.videoItem, {
                       [css.seen]: hasSeenPart,
                       [css.last]: isLastVideo && partIndex === currentPartIndex
-                    })}
-                  >
+                    })}>
                     <Link
                       to={`${trackPath}/${video.slug}`}
-                      onClick={(event) => {
-                        if (videoIndex === currentVideoIndex) {
-                          // Don't reload page if we nagivate between parts of the same challenge
-                          event.preventDefault();
-                        }
-                        setCurrentPartIndex(partIndex);
-                      }}
-                    >
+                      // This state is retrieved in `VideoSection.js` using useLocation()
+                      state={{ challengePartIndex: partIndex }}>
                       {video.title} - Part {partNumber}
                     </Link>
                   </li>
@@ -155,8 +149,7 @@ const ChapterSection = memo(
                 className={cn(css.videoItem, {
                   [css.seen]: hasSeenVideo,
                   [css.last]: isLastVideo
-                })}
-              >
+                })}>
                 <Link to={`${trackPath}/${video.slug}`}>{video.title}</Link>
               </li>
             );

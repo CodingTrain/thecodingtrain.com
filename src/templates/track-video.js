@@ -27,14 +27,6 @@ const Track = ({ pageContext, data }) => {
     videoPlaceHolderImage,
     challengePlaceholderImage
   } = data;
-
-  // Handle multi-part challenge videos
-  if (video.parts?.length > 0) {
-    const firstPart = video.parts[0];
-    video.videoId = firstPart.videoId;
-    video.timestamps = firstPart.timestamps;
-  }
-
   const contributionsPlaceholder = contributionPlaceholderImage
     ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
     : videoPlaceHolderImage
