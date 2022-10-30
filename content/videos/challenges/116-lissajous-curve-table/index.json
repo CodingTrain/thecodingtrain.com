@@ -61,8 +61,7 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🎥",
           "title": "Lissajous Curves with p5.js",
           "url": "https://youtu.be/glDU8Nsyidg",
@@ -91,6 +90,12 @@
           "title": "2D Arrays in JavaScript",
           "url": "https://www.youtube.com/watch?v=OTNpiLUSiB4",
           "description": "In this JavaScript Tutorial, I cover two-dimensional (2D) arrays in JavaScript.  I demonstrate how to create, initialize, and use the arrays with nested for loops."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 152",
+          "url": "https://youtu.be/Adk4LjmYyYg?t=732s",
+          "description": "Live Stream with Lissajous Curve Table"
         }
       ]
     }

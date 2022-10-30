@@ -7,7 +7,10 @@
   "languages": ["javascript"],
   "topics": ["chrome extensions", "bookmarklets", "image swap"],
   "canContribute": true,
-  "relatedChallenges": ["83-p5-sketch-chrome-extension"],
+  "relatedChallenges": [
+    "83-p5-sketch-chrome-extension",
+    "84-word-definition-chrome-extension"
+  ],
   "timestamps": [
     { "time": "00:00", "title": "Introduction!" },
     { "time": "01:09", "title": "Creating manifest.json" },
@@ -83,7 +86,7 @@
           "icon": "🔴",
           "title": "Livestream Archive",
           "url": "https://youtu.be/y0zS83xj0g0?t=19m5s",
-          "description": "Live Stream #104.2: Chrome Extension Coding Challenges"
+          "description": "Live Stream #106.2: Chrome Extension Coding Challenges"
         }
       ]
     }
