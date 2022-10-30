@@ -50,13 +50,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/63-texturing-cloth-simulation/showcase/contribution4.json",
-      "challenges/71-minesweeper/showcase/contribution11.json",
-      "challenges/131-bouncing-dvd-logo/showcase/contribution1.json",
-      "challenges/96-visualizing-digits-of-pi/showcase/contribution2.json",
-      "challenges/171-wave-function-collapse/showcase/contribution-1656938290.json",
-      "challenges/109-visualizing-500000-subscribers/showcase/contribution2.json"
-
+      "challenges/59-steering-behaviors/showcase/contribution-1660879829.json",
+      "challenges/110-recamans-sequence/showcase/contribution3.json",
+      "challenges/c2-collatz-conjecture/showcase/contribution11.json",
+      "challenges/65-binary-tree/showcase/contribution8.json",
+      "challenges/67-pong/showcase/contribution17.json",
+      "challenges/9-solar-system-3d-textures/showcase/contribution2.json",
+      "challenges/115-snake-game-redux/showcase/contribution3.json",
+      "challenges/160-spring-forces/showcase/contribution-1664543440.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
