@@ -74,10 +74,10 @@
           "description": "Numberphile video about toothpick patterns."
         },
         {
-          "icon": "🎥",
-          "title": "Livestream Archive",
-          "url": "https://youtu.be/pKyU92cza0Y",
-          "description": "Livestream with toothpick challenge and ukelele debut."
+          "icon": "🔴",
+          "title": "Coding Train Live 163",
+          "url": "https://youtu.be/pKyU92cza0Y?t=6250s",
+          "description": "Live Stream with Toothpicks and Fourier Series"
         }
       ]
     }

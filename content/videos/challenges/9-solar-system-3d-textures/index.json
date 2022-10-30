@@ -42,6 +42,12 @@
           "title": "Planet Texture Maps",
           "url": "http://planetpixelemporium.com",
           "description": "Planet Pixel Emporium is a collection of texture maps for planets and moons."
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         }
       ]
     },

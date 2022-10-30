@@ -99,10 +99,10 @@
           "description": "The introductory video of the series exploring the chapter on autonomous agents in Nature of Code"
         },
         {
-          "icon": "🎥",
-          "title": "Livestream Archive",
-          "url": "https://youtu.be/qtUV-DoSOpk",
-          "description": "Livestream with Flocking Simulation."
+          "icon": "🔴",
+          "title": "Coding Train Live 162",
+          "url": "https://youtu.be/qtUV-DoSOpk?t=1350s",
+          "description": "Live Stream with Flocking Simulation."
         }
       ]
     }

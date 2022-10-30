@@ -109,8 +109,7 @@
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "👁️‍🗨️",
                     "title": "The Block Collision Puzzle",
                     "url": "https://youtube.com/playlist?list=PLZHQObOWTQDMalCO_AXOC5GWsuY8bOC_Y",
@@ -127,6 +126,12 @@
                     "title": "Pi Day Prep",
                     "url": "https://youtu.be/yii2P7WVfNE",
                     "description": "Archive of the member/patron exclusive Pi Day prep livestream"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 172",
+                    "url": "https://youtu.be/78ZthTGcdPw?t=1398s",
+                    "description": "Live Stream with discussion of Pi Day Collisions code"
                 }
             ]
         }

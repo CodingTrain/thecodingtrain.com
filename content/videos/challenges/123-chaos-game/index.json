@@ -182,10 +182,10 @@
           "description": "I cover the JavaScript ES6 keyword \"const\"."
         },
         {
-          "icon": "🎥",
-          "title": "Livestream Archive",
-          "url": "https://youtu.be/v8lm5XZ2V6M",
-          "description": "Livestream with Chaos Game and Quick, Draw! Challenges."
+          "icon": "🔴",
+          "title": "Coding Train Live 161",
+          "url": "https://youtu.be/v8lm5XZ2V6M?t=1467s",
+          "description": "Live Stream with Chaos Game and Quick, Draw! Challenges."
         }
       ]
     },
