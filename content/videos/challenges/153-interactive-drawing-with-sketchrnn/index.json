@@ -80,6 +80,15 @@
           "description": "Blog post about Recurrent Neural Networks & LSTMs."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Coding Train Live 186",
+        "url": "https://youtu.be/GMaKcRkiNoM?t=4054s",
+        "description": "Live Stream with Interactive Drawing with SketchRNN"
+      }]
     }
   ]
 }
