@@ -103,7 +103,13 @@
                     "title": "My talk at 2019 eyeo Festival",
                     "url": "https://vimeo.com/354276216",
                     "description": "I live code an interactive simulation using a variety of creative coding tools including p5.js, ml5.js, and Runway."
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 182",
+                    "url": "https://youtu.be/QzRW0xzm10c?t=6744s",
+                    "description": "Live Stream with Introduction to RunwayML"
+                }   
             ]
         }
     ]
