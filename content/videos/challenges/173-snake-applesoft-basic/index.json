@@ -111,6 +111,17 @@
           "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        }
+      ]
     }
   ]
 }
