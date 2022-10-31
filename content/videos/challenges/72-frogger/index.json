@@ -203,7 +203,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🗄",
+          "icon": "🌐",
           "title": "Frogger on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Frogger",
           "description": "Wikipedia page with information and resources about the arcade game Frogger."
@@ -217,6 +217,12 @@
           "title": "Video of the Gameplay",
           "url": "https://youtu.be/l9eTOaNFwKQ",
           "description": "Video about the arcade game Frogger."
+        },
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
         },
         {
           "icon": "🔴",
