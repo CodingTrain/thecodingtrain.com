@@ -93,19 +93,25 @@
       ]
     },
     {
-      "title": "Livestream Archive",
+      "title": "Videos",
       "links": [
         {
           "icon": "🎥",
-          "title": "Livestream - Part 1",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 116.1",
           "url": "https://youtu.be/nvvjYJ2L57c?t=1379s",
-          "description": "Livestream #116.1 - Snakes & Ladders"
+          "description": "Livestream with Snakes & Ladders"
         },
          {
-          "icon": "🎥",
-          "title": "Livestream - Part 2",
+          "icon": "🔴",
+          "title": "Coding Train Live 116.2",
           "url": "https://youtu.be/1v_E18xU3ok?t=570s",
-          "description": "Livestream #116.2 - Snakes & Ladders Continued + 2048"
+          "description": "Livestream with Snakes & Ladders Continued + 2048"
         }
       ]
     }

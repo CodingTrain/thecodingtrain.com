@@ -60,14 +60,22 @@
                 "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
                 "description": "Wikipedia page with information and resources about Flappy Bird."
             }]
-        }, {
-            "title": "Live Stream Archive",
+        },
+        {
+            "title": "Videos",
             "links": [{
-                "icon": "🔴",
-                "title": "Live Stream #55",
-                "url": "https://youtu.be/eOii4P7WYbY",
-                "description": "Live Stream with Flappy Bird and Agar.io Clones"
-            }]
+                    "icon": "🎥",
+                    "title": "Video Games track",
+                    "url": "/tracks/games",
+                    "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 55",
+                    "url": "https://youtu.be/eOii4P7WYbY",
+                    "description": "Live Stream with Flappy Bird and Agar.io Clones"
+                }
+            ]
         }
     ]
 }

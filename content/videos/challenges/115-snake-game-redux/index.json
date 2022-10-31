@@ -64,6 +64,12 @@
                     "description": "Tutorial on object oriented programmign in JavaScript with ES6"
                 },
                 {
+                    "icon": "🎥",
+                    "title": "Video Games track",
+                    "url": "/tracks/games",
+                    "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+                },
+                {
                     "icon": "🔴",
                     "title": "Coding Train Live 150",
                     "url": "https://youtu.be/wTDDsOZwdQY?t=9900s",
