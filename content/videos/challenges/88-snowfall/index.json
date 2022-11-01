@@ -64,10 +64,10 @@
             "title": "Videos",
             "links": [
                  {
-                     "icon": "🎥",
-                     "title": "Livestream Archive",
-                     "url": "https://www.youtube.com/watch?v=dEWmwQMKgIk",
-                     "description": "Live Stream #112: Happy Holidays from the Coding Train!"
+                     "icon": "🔴",
+                     "title": "Coding Train Live 112",
+                     "url": "https://www.youtube.com/watch?v=dEWmwQMKgIk?t=2192s",
+                     "description": "Happy Holidays from the Coding Train!"
                  }
             ]
         }
