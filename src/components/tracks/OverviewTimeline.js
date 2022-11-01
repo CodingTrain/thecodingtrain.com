@@ -22,19 +22,9 @@ const usePaths = (chapters, track, trackPosition) => {
   );
   const prevVideo = flatTrack[currentIndex - 1];
   const nextVideo = flatTrack[currentIndex + 1];
-  const prev = prevVideo
-    ? {
-        path: `/tracks/${track.slug}/${prevVideo.slug}`,
-        partIndex: prevVideo.partIndex
-      }
-    : null;
-  const next = nextVideo
-    ? {
-        path: `/tracks/${track.slug}/${nextVideo.slug}`,
-        partIndex: nextVideo.partIndex
-      }
-    : null;
-  return [prev, next];
+  const computePath = (video) =>
+    video ? { ...video, path: `/tracks/${track.slug}/${video.slug}` } : null;
+  return [computePath(prevVideo), computePath(nextVideo)];
 };
 
 const OverviewTimeline = memo(
