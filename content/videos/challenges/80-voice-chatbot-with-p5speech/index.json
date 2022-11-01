@@ -86,9 +86,9 @@
                 },
                 {
                     "icon": "🔴",
-                    "title": "Livestream Archive",
-                    "url": "https://youtu.be/q_bXBcmfTJM",
-                    "description": "Live Stream 104: Chatbots with p5.Speech, More OOP in JS & Paperclips!"
+                    "title": "Coding Train Live 104",
+                    "url": "https://youtu.be/q_bXBcmfTJM?t=10706s",
+                    "description": "Livestream with Chatbots with p5.Speech, More OOP in JS & Paperclips!"
                 }
             ]
         }
