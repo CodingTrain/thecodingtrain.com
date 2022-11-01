@@ -1,11 +1,6 @@
-# All Aboard The Coding Train for Hacktoberfest 2022
+# The Coding Train Contributing Guide
 
-One of the major goals of The Coding Train is to provide a beginner-friendly environment for people to make pull requests, which is why we are participating in [Hacktoberfest](https://hacktoberfest.com/participation/) this year.  Hacktoberfest is DigitalOcean's annual event that encourages people to contribute to open source throughout October.
-
-Here are some key values of Hacktoberfest:
-- Everyone is welcome
-- Quantity is Fun, Quality is Key
-- Short-term action, long term impact
+One of the major goals of The Coding Train is to provide a beginner-friendly environment for people to make pull requests and contribute to projects. This guide discusses how to contribute to The Coding Train website. We encourage you to make contributions to this repository, and mistakes and confusions are always welcome. We are here to help!
 
 The Coding Train strives to be a respectful, friendly, and welcoming community. Read our [Code of Conduct](https://github.com/CodingTrain/Code-of-Conduct) to learn about what is and is not acceptable.
 
