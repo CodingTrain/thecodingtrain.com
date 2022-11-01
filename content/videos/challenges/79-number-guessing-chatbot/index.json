@@ -11,7 +11,7 @@
         "artificial intelligence", "text generator"
     ],
     "canContribute": true,
-    "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator"],
+    "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator", "80-voice-chatbot-with-p5speech"],
     "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
         { "time": "0:34", "title": "Set up p5.js ketch" },
@@ -99,9 +99,9 @@
                 },
                 {
                     "icon": "🔴",
-                    "title": "Livestream Archive",
-                    "url": "https://youtu.be/Pscq691SADc",
-                    "description": "Livestream #103 with JavaScript Objects & Chatbots with RiveScript."
+                    "title": "Coding Train Live 103",
+                    "url": "https://youtu.be/Pscq691SADc?t=5290s",
+                    "description": "Livestream with JavaScript Objects & Chatbots with RiveScript."
                 }
             ]
         }
