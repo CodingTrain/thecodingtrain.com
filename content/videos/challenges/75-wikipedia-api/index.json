@@ -58,7 +58,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🗄",
+          "icon": "🌐",
           "title": "Wikipedia API Help",
           "url": "https://www.mediawiki.org/wiki/API:Main_page",
           "description": "Webpage with documentation for the MediaWiki Action API."

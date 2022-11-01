@@ -7,7 +7,13 @@
   "languages": ["p5.js"],
   "topics": ["worley noise", "cellular texture", "tesselation", "distance"],
   "canContribute": true,
-  "relatedChallenges": ["28-metaballs", "c5-marching-squares"],
+  "relatedChallenges": [
+    "24-perlin-noise-flow-field",
+    "28-metaballs",
+    "98-quadtree",
+    "114-bubble-sort-visualization",
+    "c5-marching-squares"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "About Worley Noise" },
     { "time": "1:13", "title": "Coding Random Noise" },
@@ -34,6 +40,12 @@
     {
       "title": "References",
       "links": [
+        {
+          "icon": "🗄",
+          "title": "Worley Noise",
+          "url": "https://en.wikipedia.org/wiki/Worley_noise",
+          "description": "Wikipedia page with information and resources about Worley Noise."
+        },
         {
           "icon": "📓",
           "title": "A Cellular Texture Basis Function",
@@ -65,7 +77,7 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Coding Challenge #98.2 - Quadtree",
+          "title": "Coding Challenge #98 - Quadtree",
           "url": "https://www.youtube.com/watch?v=QQx_NmCIuCY",
           "description": "In part 2 of the Quadtree coding challenge, I query the data structure for points contained within a rectangular boundary."
         },

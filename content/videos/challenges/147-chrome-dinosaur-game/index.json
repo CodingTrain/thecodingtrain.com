@@ -74,10 +74,16 @@
           "description": "This video examines the new ml5.soundClassifier() function in the ml5.js library."
         },
         {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
           "icon": "🔴",
-          "title": "Livestream Archive",
-          "url": "hhttps://youtu.be/eRy3j1Alzko",
-          "description": "Livestream #179: Chrome Dinosaur Game + ml5 Speech Commands Model"
+          "title": "Coding Train Live 179",
+          "url": "https://youtu.be/eRy3j1Alzko?t=5887s",
+          "description": "Livestream with Chrome Dinosaur Game + ml5 Speech Commands Model"
         }
       ]
     }

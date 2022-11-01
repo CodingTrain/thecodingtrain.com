@@ -107,6 +107,12 @@
           "title": "Matrix Math",
           "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
           "description": "This video introduces the idea of Linear Algebra and explores the matrix math required for a simple neural network library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 177",
+          "url": "https://youtu.be/-6iIc6-Y-kk?t=1548s",
+          "description": "Livestream with ray-casting-2d and rendering ray-casting."
         }
       ]
     }

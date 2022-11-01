@@ -87,6 +87,12 @@
           "title": "Breadth-First Search on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Breadth-first_search",
           "description": "Wikipedia page with background and references on the breadth-first search algorithm."
+        },
+        {
+          "icon": "📘",
+          "title": "Grokking Algorithms",
+          "url": "https://www.manning.com/books/grokking-algorithms",
+          "description": "An illustrated guide for programmers and other curious people."
         }
       ]
     },

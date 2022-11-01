@@ -7,6 +7,7 @@
   "languages": ["Processing"],
   "topics": ["collatz conjecture", "modulo"],
   "canContribute": true,
+  "relatedChallenges": ["14-fractal-trees-recursive"],
   "timestamps": [
     { "time": "0:00", "title": "The Collatz Conjecture" },
     { "time": "4:10", "title": "Programming in Processing" },
@@ -37,6 +38,18 @@
           "description": "Disusson of the collatz conjecture."
         },
         {
+          "icon": "💻",
+          "title": "Collatz Graph: All Numbers Lead to One",
+          "url": "https://www.jasondavies.com/collatz-graph/",
+          "description": "Here is a graph showing the orbits of all numbers under the Collatz map with an orbit length of 19 or less."
+        },
+        {
+          "icon": "💻",
+          "title": "Trying to visualize the Collatz conjecture",
+          "url": "http://mathematica.stackexchange.com/questions/85718/trying-to-visualize-the-collatz-conjecture",
+          "description": "Discussion on stackexchange about collatz conjecture."
+        },
+        {
           "icon": "💾",
           "title": "Primitive Data Types in Java (more information about the long type)",
           "url": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html",
@@ -58,12 +71,6 @@
           "title": "Golan Levin's Modulo Operator video",
           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
           "description": "Golin Levin's modulo operator tutorial."
-        },
-        {
-          "icon": "🎥",
-          "title": "Fractal Trees Coding Challenge",
-          "url": "https://thecodingtrain.com/challenges/14-fractal-trees-recursive",
-          "description": "Implementation of fractal trees with recursion in p5.j.s"
         },
         {
           "icon": "🎥",

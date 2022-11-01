@@ -88,7 +88,7 @@
       ]
     },
     {
-      "title": "videos",
+      "title": "Videos",
       "links": [
         {
           "icon": "🎥",
@@ -99,7 +99,7 @@
         {
           "icon": "🔴",
           "title": "Live Stream #40",
-          "url": "https://youtu.be/MwLyeEWnMCY?t=7899",
+          "url": "https://youtu.be/MwLyeEWnMCY?t=7899s",
           "description": "Live Stream Tree Generation with Different Algorithms"
         }
       ]

@@ -139,7 +139,8 @@
       "description": "My visualization of the islamic star pattern using the law of sines.",
       "image": "sine.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/j-WTRIgjN"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/j-WTRIgjN",
+        "other": "https://github.com/CodingTrain/StarPatterns"
       }
     }
   ],
@@ -147,13 +148,19 @@
       "title": "References",
       "links": [
         {
+          "icon": "💻",
+          "title": "Live Demo",
+          "url": "https://codingtrain.github.io/StarPatterns/",
+          "description": "Live demo with different star patterns"
+        },
+        {
           "icon": "📐",
           "title": "Points, lines, and planes",
           "url": "http://paulbourke.net/geometry/pointlineplane/",
           "description": "Notes and algorithms dealing with points, lines, and planes."
         },
         {
-          "icon": "🔗",
+          "icon": "🌐",
           "title": "Law of Sines on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Law_of_sines",
           "description": "Wikipedia page with background and references on the law of sines."

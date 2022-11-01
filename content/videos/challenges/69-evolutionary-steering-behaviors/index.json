@@ -146,6 +146,12 @@
                     "description": "This video looks at how to delete objects from an array selectively."
                 },
                 {
+                    "icon": "🚂",
+                    "title": "My Genetic Algorithm Playlist",
+                    "url": "https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+                    "description": "This series of videos focuses on Evolutionary Computing."
+                },
+                {
                     "icon": "🔴",
                     "title": "Coding Train Live 89",
                     "url": "https://youtu.be/qzFlnX-z38U?t=2471s",
