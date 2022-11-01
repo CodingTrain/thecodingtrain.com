@@ -18,7 +18,7 @@
         { "time": "1:21", "title": "Add the P3D renderer" },
         { "time": "2:49", "title": "Use loadStrings to load the text" },
         { "time": "5:13", "title": "Use textAlign to center the text" },
-        { "time": "6:27", "title": "Use the y variable to scoll the text" },
+        { "time": "6:27", "title": "Use the y variable to scroll the text" },
         { "time": "9:33", "title": "Translate to the center" },
         { "time": "10:28", "title": "Rotate along the x axis" },
         { "time": "1228", "title": "Adjust the bounding box" },
