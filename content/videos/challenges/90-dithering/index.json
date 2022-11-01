@@ -63,13 +63,13 @@
           "description": "My Processing Tutorial on 2D Arrays."
         },
         {
-          "icon": "🔗",
+          "icon": "🌐",
           "title": "Dither on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Dither",
           "description": "Discussion of dithering."
         },
         {
-          "icon": "🔗",
+          "icon": "🌐",
           "title": "Floyd–Steinberg dithering on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering",
           "description": "Discussion of Floyd Steinberg dithering."

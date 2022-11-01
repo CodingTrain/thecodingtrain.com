@@ -72,7 +72,7 @@
         },
         {
           "time": "7:09",
-          "title": "Conclusion and possibile ways to optimize the genetic algorithm"
+          "title": "Conclusion and possible ways to optimize the genetic algorithm"
         }
       ]
     },
@@ -217,14 +217,14 @@
       "title": "Live Stream Archives",
       "links": [{
           "icon": "🔴",
-          "title": "Live Stream #132",
-          "url": "https://youtu.be/ipMekhLS2M0?t=2934",
+          "title": "Coding Train Live 132",
+          "url": "https://youtu.be/ipMekhLS2M0?t=2934s",
           "description": "Live Stream with Neuroevolution Flappy Bird & p5.js in Spanish"
         },
         {
           "icon": "🔴",
-          "title": "Live Stream #133",
-          "url": "https://youtu.be/emjv5tr-m7Q?t=1237",
+          "title": "Coding Train Live 133",
+          "url": "https://youtu.be/emjv5tr-m7Q?t=1237s",
           "description": "Live Stream with Neuroevolution Flappy Bird Continued"
         }
       ]

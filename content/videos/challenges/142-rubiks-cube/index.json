@@ -170,10 +170,16 @@
                     "description": "In this video, I write a function to perform matrix multiplication in Java."
                 },
                 {
-                    "icon": "🎥",
-                    "title": "Rubik's Cube Live Stream",
+                    "icon": "🔴",
+                    "title": "Coding Train Live 173",
+                    "url": "https://youtu.be/277611ExU9A?t=1213s",
+                    "description": "Live Stream with Rubik's Cube and Quick, Sort!"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 174",
                     "url": "https://youtu.be/GbHGGYSwVvY",
-                    "description": "Rubik's Cube Live Stream"
+                    "description": "Live Stream with Rubik's Cube, continued"
                 }
             ]
         }

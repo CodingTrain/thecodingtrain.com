@@ -13,7 +13,7 @@
     "wolfenstein 3d ray casting"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["145-ray-casting-2d", "168-the-mandelbulb"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -93,13 +93,13 @@
       ]
     },
     {
-      "title": "Videos",
+      "title": "Live Stream Archive",
       "links": [
         {
-          "icon": "🎥",
-          "title": "Coding Challenge: 2D Ray Casting",
-          "url": "https://www.youtube.com/watch?v=TOEi6T2mtHo",
-          "description": "A basic ray casting engine is implemented with line segment surfaces and vector rays. The result simulates a light source casting shadows in a 2D canvas."
+          "icon": "🔴",
+          "title": "Coding Train Live 177",
+          "url": "https://youtu.be/-6iIc6-Y-kk?t=10910s",
+          "description": "Live stream with ray-casting-2d and rendering ray-casting."
         }
       ]
     }

@@ -74,7 +74,13 @@
           "title": "ES6 Arrow Syntax",
           "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
           "description": "JavaScript tutorial on ES6 Arrow Functions"
-        }
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 180",
+          "url": "https://youtu.be/rnJgb-mYPEI?t=8107s",
+          "description": "Live Stream with Processing Java Library, Starting Computational Geometry Challenges"
+  }  
       ]
     }
   ]
