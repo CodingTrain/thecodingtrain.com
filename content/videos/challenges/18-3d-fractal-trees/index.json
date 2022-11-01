@@ -10,7 +10,8 @@
   "relatedChallenges": [
     "14-fractal-trees-recursive",
     "17-fractal-trees-space-colonization",
-    "77-recursion"
+    "77-recursion",
+    "168-the-mandelbulb"
   ],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
