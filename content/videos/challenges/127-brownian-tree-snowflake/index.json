@@ -75,13 +75,12 @@
     },
     {
       "title": "Live Stream Archive",
-      "links": [
-        {
+      "links": [{
           "icon": "🔴",
           "title": "Coding Train Live Holiday Telethon 2018",
           "url": "https://youtu.be/WACLmPBxMaw?t=2392s",
           "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
-      }
+        }
       ]
     }
   ]

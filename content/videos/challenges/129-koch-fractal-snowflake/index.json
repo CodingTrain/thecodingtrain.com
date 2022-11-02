@@ -66,6 +66,12 @@
           "title": "Vectors",
           "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/1-vectors/1-what-is-a-vector",
           "description": "What is a vector? How do they work in p5.js?"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Holiday Telethon 2018",
+          "url": "https://youtu.be/WACLmPBxMaw?t=11469s",
+          "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
     }
