@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript", "tensorflow.js"],
   "topics": ["machine learning", "xor problem"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["92-xor-problem", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:43", "title": "Architecture of model" },
@@ -66,12 +66,6 @@
         },
         {
           "icon": "🚂",
-          "title": "Coding Challenge #92: XOR Problem",
-          "url": "/challenges/92-xor-problem",
-          "description": "In this coding challenge, I use my Toy Neural Networks library to solve the XOR problem."
-        },
-        {
-          "icon": "🚂",
           "title": "ES6 Arrow Function",
           "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
           "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
@@ -87,7 +81,13 @@
           "title": "async/await",
           "url": "https://youtu.be/XO77Fib9tSI",
           "description": "This video covers the ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
-        }
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 141",
+          "url": "https://youtu.be/_wC4sn5qKQw?t=1885s",
+          "description": "Live Stream with XOR with TensorFlow.js"
+       }  
       ]
     }
   ]
