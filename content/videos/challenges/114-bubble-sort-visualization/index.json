@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": ["bubble sort algorithm"],
   "canContribute": true,
-  "relatedChallenges": ["47-pixel-sorting-in-processing"],
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "143-quicksort"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:50", "title": "What is a bubble sort?" },
