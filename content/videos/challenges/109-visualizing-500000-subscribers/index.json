@@ -10,7 +10,7 @@
         "world map"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["48-white-house-social-media-data-visualization","58-3d-earthquake-data-visualization"],
     "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
         { "time": "0:42", "title": "Describe Mappa.js" },
