@@ -234,7 +234,13 @@
           "icon": "🔴",
           "title": "Coding Train Live 96",
           "url": "https://youtu.be/7BdfPG3peP4?t=1547s",
-          "description": "Live Stream with frogger"
+          "description": "Live Stream with Frogger"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 97",
+          "url": "https://youtu.be/m9EsKBPCggk?t=4350s",
+          "description": "Live Stream with Perceptron Follow-up and Frogger Refactoring"
         }
       ]
     }
