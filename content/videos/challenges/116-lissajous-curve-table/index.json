@@ -56,6 +56,18 @@
           "title": "Lissajous Curve on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Lissajous_curve",
           "description": "Wikipedia page with information and resources about the Lissajous curve."
+        },
+        {
+          "icon": "🐦",
+          "title": "Panlepan Twitter",
+          "url": "https://twitter.com/panlepan/status/954694464697720833",
+          "description": "Tweet with Lissajous curve."
+        },
+        {
+          "icon": "🐦",
+          "title": "Julio Mulero Twitter",
+          "url": "https://twitter.com/juliomulero/status/1039456605736185856",
+          "description": "Tweet with Lissajous curve."
         }
       ]
     },
@@ -69,7 +81,7 @@
         },
         {
           "icon": "🎥",
-          "title": "Lissajous Curve",
+          "title": "Lissajous Curve by standupmaths",
           "url": "https://youtu.be/4CbPksEl51Q",
           "description": "Making a physical Lissajous curve."
         },

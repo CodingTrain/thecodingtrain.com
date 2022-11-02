@@ -7,7 +7,7 @@
   "languages": ["p5.js", "Processing"],
   "topics": ["poisson disc sampling", "Siméon Denis Poisson"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["98-quadtree", "70-nearest-neighbors-recommendation-engine", "95-approximating-the-value-of-pi"],
   "timestamps": [
     {
       "time": "0:00",
@@ -35,7 +35,7 @@
     },
     {
       "time": "19:18",
-      "title": "Checking neighbouring samples"
+      "title": "Checking neighboring samples"
     },
     {
       "time": "25:40",
@@ -89,7 +89,7 @@
         {
           "icon": "🔴",
           "title": "Live Stream #56",
-          "url": "https://youtu.be/2S0J5iiQ0nw",
+          "url": "https://youtu.be/2S0J5iiQ0nw?t=1935s",
           "description": "Live Stream with Poisson-disc-sampling and DLA."
         }
       ]
