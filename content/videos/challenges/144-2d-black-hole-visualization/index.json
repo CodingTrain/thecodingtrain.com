@@ -94,6 +94,12 @@
                     "title": "Slingshot with Gravity!",
                     "url": "https://youtu.be/RkpulcVKLRw",
                     "description": "STEM coding discussion of coding challenge from our Slingshot with Gravity series."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 176",
+                    "url": "https://youtu.be/tWyp2OWWcws?t=1192s",
+                    "description": "Live Stream Simple 2D Black Hole Simulation and NeuroEvolution with TensorFlow.js"
                 }
             ]
         }

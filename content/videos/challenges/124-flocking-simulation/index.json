@@ -7,7 +7,7 @@
   "languages": ["Processing", "p5.js"],
   "topics": ["flocking", "creative coding", "autonomous agents"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["69-evolutionary-steering-behaviors"],
   "timestamps": [
     {
       "time": "0:00",

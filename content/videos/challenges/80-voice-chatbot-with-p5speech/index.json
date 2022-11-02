@@ -13,7 +13,7 @@
         "chatbot"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["79-number-guessing-chatbot", "41-clappy-bird", "147-chrome-dinosaur-game"],
     "timestamps": [
         {"time": "0:00", "title": "Introduction!"},
         {"time": "0:54", "title": "A correction from coding challenge #79"},
@@ -86,9 +86,9 @@
                 },
                 {
                     "icon": "🔴",
-                    "title": "Livestream Archive",
-                    "url": "https://youtu.be/q_bXBcmfTJM",
-                    "description": "Live Stream 104: Chatbots with p5.Speech, More OOP in JS & Paperclips!"
+                    "title": "Coding Train Live 104",
+                    "url": "https://youtu.be/gFqBnxIm5Us?t=10706s",
+                    "description": "Livestream with Chatbots with p5.Speech, More OOP in JS & Paperclips!"
                 }
             ]
         }
