@@ -10,7 +10,7 @@
         "oop"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["88-snowfall"],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "0:58", "title": "Cite resource from opengameart.org" },

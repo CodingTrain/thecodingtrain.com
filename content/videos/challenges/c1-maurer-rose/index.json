@@ -7,6 +7,12 @@
   "languages": ["p5.js"],
   "topics": ["maurer rose", "polar coordinates"],
   "canContribute": true,
+  "relatedChallenges": [
+    "55-mathematical-rose-patterns",
+    "116-lissajous-curve-table",
+    "133-time-tables-cardioid-visualization",
+    "134-heart-curve"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Maurer Rose" },
     { "time": "3:32", "title": "Coding Starts" },
@@ -54,10 +60,10 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
-          "title": "Challenge #55: Mathematical Rose Patterns",
-          "url": "https://thecodingtrain.com/challenges/55-mathematical-rose-patterns",
-          "description": "I attempt to create rose (rhodonea) curves using trigonometry function and polar coordinates."
+          "icon": "🌱",
+          "title": "Coding Garden with CJ",
+          "url": "https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw",
+          "description": "Coding Garden YouTube channel"
         },
         {
           "icon": "🎥",
