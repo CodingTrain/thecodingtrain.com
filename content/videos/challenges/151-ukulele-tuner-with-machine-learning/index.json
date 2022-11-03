@@ -71,7 +71,13 @@
           "title": "Online Tone Generator",
           "url": "https://www.szynalski.com/tone-generator/",
           "description": "Generating sounds with specific frequencies online."
-        }
+        },
+        {
+              "icon": "🔴",
+              "title": "Coding Train Live 183",
+              "url": "https://youtu.be/1b9-O7pnUcg?t=5911s",
+              "description": "Live Stream with ml5.js Pitch Detection and Ukulele Tuner"
+        }  
       ]
     }
   ]

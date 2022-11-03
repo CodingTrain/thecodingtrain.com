@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": [],
   "canContribute": true,
-  "relatedChallenges": ["128-sketch-rnn-snowflakes"],
+  "relatedChallenges": ["77-recursion", "128-sketch-rnn-snowflakes"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -84,12 +84,12 @@
       ]
     },
     {
-      "title": "Videos",
+      "title": "Live Stream Archive",
       "links": [
         {
-          "title": "Live Stream #185",
-          "url": "https://youtu.be/5S87w8IqSHI",
-          "description": "Live Stream Archive of this challenge."
+          "title": "Coding Train Live 185",
+          "url": "https://youtu.be/5S87w8IqSHI?t=2802s",
+          "description": "Livestream of this challenge."
         }
       ]
     }
