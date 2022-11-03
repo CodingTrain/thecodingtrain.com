@@ -4,7 +4,7 @@
     "videoNumber": "1",
     "videoId": "bjULmG8fqc8",
     "date": "2016-04-13",
-    "languages": ["JavaScript", "p5.js", "Node.js"],
+    "languages": ["JavaScript", "p5.js", "node.js"],
     "topics": ["node", "sockets", "server side programming"],
     "canContribute": false,
     "timestamps": [
