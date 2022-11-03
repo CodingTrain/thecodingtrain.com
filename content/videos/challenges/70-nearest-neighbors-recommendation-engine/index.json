@@ -63,7 +63,7 @@
       "videoId": "aMtckmWAzDg",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
-        { "time": "1:14", "title": "Loop throught the titles" },
+        { "time": "1:14", "title": "Loop through the titles" },
         { "time": "3:45", "title": "Add \"not seen\" option" },
         { "time": "4:20", "title": "Predict ratings" },
         { "time": "5:10", "title": "Add the dropdowns to an array" },

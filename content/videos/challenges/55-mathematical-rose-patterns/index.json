@@ -12,7 +12,13 @@
     "trigonometry"
   ],
   "canContribute": true,
-  "relatedChallenges": ["116-lissajous-curve-table", "125-fourier-series", "133-time-tables-cardioid-visualization", "134-heart-curve", "c1-maurer-rose"],
+  "relatedChallenges": [
+    "116-lissajous-curve-table",
+    "125-fourier-series",
+    "133-time-tables-cardioid-visualization",
+    "134-heart-curve",
+    "c1-maurer-rose"
+  ],
   "timestamps": [
     {
       "time": "0:00",

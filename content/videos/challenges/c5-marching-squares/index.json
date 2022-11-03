@@ -151,21 +151,9 @@
         },
         {
           "icon": "🎥",
-          "title": "Coding Challenge #28 - Metaballs",
-          "url": "https://www.youtube.com/watch?v=ccYLb7cLB1I",
-          "description": "I show you how to code Metaballs (Isosurfaces) from scratch in Processing "
-        },
-        {
-          "icon": "🎥",
           "title": "What is OpenSimplex Noise?",
           "url": "https://www.youtube.com/watch?v=Lv9gyZZJPE0",
           "description": "Discussion of open simplex noise in processing."
-        },
-        {
-          "icon": "🎥",
-          "title": "Coding in the Cabana #4 - Worley Noise",
-          "url": "https://thecodingtrain.com/challenges/c4-worley-noise",
-          "description": "An exploration of the beauty of Worley noise."
         },
         {
           "icon": "🎥",
