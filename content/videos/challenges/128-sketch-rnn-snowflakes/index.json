@@ -76,6 +76,12 @@
           "title": "Coding Challenge #122: Quick, Draw!",
           "url": "https://youtu.be/yLuk0twx8Hc",
           "description": "In this coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \"replay\" drawings of rainbows and cats using p5.js. "
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Holiday Telethon 2018",
+          "url": "https://youtu.be/WACLmPBxMaw?t=8207s",
+          "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
     }
