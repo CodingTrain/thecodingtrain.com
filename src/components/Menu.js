@@ -26,6 +26,10 @@ const items = [
         to: '/guides'
       },
       {
+        name: 'Passenger Showcase',
+        to: '/showcase'
+      },
+      {
         name: 'Discord',
         href: '/discord'
       },
