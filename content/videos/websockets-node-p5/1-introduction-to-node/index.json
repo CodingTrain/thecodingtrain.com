@@ -1,5 +1,5 @@
 {
-    "title": "Introduction to Node - WebSockets and p5.js",
+    "title": "Introduction to Node",
     "description": "In this first video, I discuss the all the pieces required to create a shared, collaborative drawing canvas with p5.js, node, and web sockets.  I look at the basics of getting up and running with node.js.",
     "videoNumber": "1",
     "videoId": "bjULmG8fqc8",

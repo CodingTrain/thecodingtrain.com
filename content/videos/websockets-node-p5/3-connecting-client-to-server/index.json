@@ -1,5 +1,5 @@
 {
-    "title": "Connecting Client to Server with Socket.io - WebSockets and p5.js",
+    "title": "Connecting Client to Server with Socket.io",
     "description": "In this video, I look at how to add socket.io to both the node server and the client JavaScript.",
     "videoNumber": "3",
     "videoId": "HZWmrt3Jy10",

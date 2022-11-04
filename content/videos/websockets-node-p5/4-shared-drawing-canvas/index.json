@@ -1,5 +1,5 @@
 {
-    "title": "Shared Drawing Canvas - WebSockets and p5.js",
+    "title": "Shared Drawing Canvas",
     "description": "This video puts all of the pieces together: node, express, p5.js, and socket.io to show how to program a shared, collaborative drawing canvas.  How to broadcast messages between clients and the server is covered.",
     "videoNumber": "4",
     "videoId": "i6eP1Lw4gZk",
@@ -19,7 +19,7 @@
         {
             "title": "Shared Drawing Canvas",
             "description": "Link to the code for drawing in multiple shared canvases in real time",
-            "image": "shared-drawing-canvas",
+            "image": "shared-drawing-canvas.png",
             "urls": {
               "p5": "https://github.com/CodingTrain/website-archive/tree/main/Node/sockets"
             }
