@@ -38,7 +38,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
 
 export const query = graphql`
 query MyQuery {
-contributions: allContribution (limit: 100){
+contributions: allContribution {
     nodes {
       title
       source
