@@ -5,7 +5,7 @@
     "videoId": "2hhEOGXcCvg",
     "date": "2016-04-13",
     "languages": ["JavaScript", "p5.js", "node.js"],
-    "topics": ["node", "sockets", "server side programming"],
+    "topics": ["node", "sockets", "server side programming", "web servers", "express.js"],
     "canContribute": false,
     "timestamps": [
       { "time": "0:00", "title": "Introduction and discussing web servers for hosting files" },
@@ -26,7 +26,25 @@
             "description": "A web framework for Node.js."
           }
         ]
+      },
+      {
+        "title": "Videos",
+        "links": [
+          {
+            "icon": "🚄",
+            "title": "Working with Data and APIs in JavaScript",
+            "url": "/tracks/data-and-apis-in-javascript",
+            "description": "Link to tutorial track on working with data, APIs and JSON."
+          },
+          {
+            "icon": "🚂",
+            "title": "Local Server, Text Editor, JavaScript Console",
+            "url": "https://youtu.be/UCHzlUiDD10",
+            "description": "Tutorial on developing p5.js sketches and running a Python local server to host them."
+          }
+        ]
       }
+
     ]
   }
   
