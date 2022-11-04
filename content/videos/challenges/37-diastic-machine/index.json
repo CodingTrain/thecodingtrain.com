@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["poetry", "diastic machine"],
   "canContribute": true,
-  "relatedChallenges": ["39-madlibs-generator"],
+  "relatedChallenges": ["39-madlibs-generator", "42-markov-chain-name-generator"],
   "timestamps": [
     { "time": "0:06", "title": "What is a diastic machine?" },
     { "time": "2:08", "title": "Understanding via diagram" },
@@ -48,8 +48,8 @@
       "title": "Live Stream Archive",
       "links": [{
         "icon": "🔴",
-        "title": "Live Stream #59",
-        "url": "https://youtu.be/UTq0RQwnU3s",
+        "title": "Coding Train Live 59",
+        "url": "https://youtu.be/UTq0RQwnU3s?t=9285s",
         "description": "Week 1 of Programming from A to Z"
       }]
     }
