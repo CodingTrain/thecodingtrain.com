@@ -26,8 +26,21 @@
             "url": "https://nodejs.org/en/",
             "description": "An open-source, cross-platform JavaScript runtime environment."
           }
+          
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [
+          {
+            "icon": "🚂",
+            "title": "Code! Programming with p5.js",
+            "url": "/tracks/code-programming-with-p5-js",
+            "description": "Link to tutorial track on fundamentals of coding using JavaScript."
+          }
         ]
       }
+
     ]
   }
   
