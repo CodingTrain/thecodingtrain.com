@@ -1,0 +1,34 @@
+{
+    "title": "Connecting Client to Server with Socket.io - WebSockets and p5.js",
+    "description": "In this video, I look at how to add socket.io to both the node server and the client JavaScript.",
+    "videoNumber": "3",
+    "videoId": "HZWmrt3Jy10",
+    "date": "2016-04-13",
+    "languages": ["JavaScript", "p5.js", "node.js"],
+    "topics": ["node", "sockets", "server side programming", "socket.io"],
+    "canContribute": false,
+    "timestamps": [
+      { "time": "0:00", "title": "What we have done so far!" },
+      { "time": "0:20", "title": "Installing Socket.io" },
+      { "time": "1:14", "title": "Creating socket connections!" },
+      { "time": "4:36", "title": "Referencing the socket library in the client code" },
+      { "time": "7:25", "title": "Tracking every new socket connection to our web server" },
+      { "time": "8:36", "title": "A recap and outlining the next steps before we go!" } 
+    ],
+    "codeExamples": [],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "🔌",
+            "title": "Socket.io",
+            "url": "https://socket.io/",
+            "description": "A library that enables bidirectional and event-based communication between a client and a server"
+          }
+          
+        ]
+      }
+    ]
+  }
+  
