@@ -1,6 +1,6 @@
 {
     "title": "What is Node.js? - Twitter Bot Tutorial",
-    "description": "This video covers the basics of node.js.   What is node.js?  What is server-side programming?  What might you use it for and how do you get started?  Basic unix commands and working with terminal are covered.",
+    "description": "This video covers the basics of Node.js. What is Node.js? What is server-side programming? What might you use it for and how do you get started?  Basic unix commands and working with terminal are covered.",
     "videoNumber": "15.1",
     "videoId": "RF5_MPSNAtU",
     "date": "2018-10-08",
@@ -8,7 +8,14 @@
     "topics": ["twitter", "bot"],
     "canContribute": false,
     "timestamps": [
-      
+        { "time": "1:35", "title": "Servers" },
+        { "time": "4:35", "title": "Node.js - a framework for writing a custom server" },
+        { "time": "5:14", "title": "Twitter API" },
+        { "time": "7:47", "title": "How to use Node on your local computer" },
+        { "time": "8:35", "title": "Issuing commands on the terminal" },
+        { "time": "11:04", "title": "Using Node in the terminal" },
+        { "time": "12:03", "title": "Running small programs" },
+        { "time": "13:54", "title": "Connecting with the Twitter API" }
     ],
     "codeExamples": [],
     "groupLinks": [{
