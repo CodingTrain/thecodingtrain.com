@@ -10,6 +10,7 @@
       "mastodon/managing-user-events",
       "mastodon/replying-to-a-mention",
       "mastodon/what-is-node-js",
-      "mastodon/what-is-npm"
+      "mastodon/what-is-npm",
+      "workflow/5-node"
     ]
   }
