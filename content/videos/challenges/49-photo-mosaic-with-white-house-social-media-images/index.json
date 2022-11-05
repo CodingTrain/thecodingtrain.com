@@ -32,7 +32,7 @@
         { "time": "13:10", "title": "Consider the brightness of the images" },
         { "time": "14:05", "title": "Create an array of brightness values" },
         { "time": "14:20", "title": "Compute the average brightness of each image" },
-        { "time": "15:24", "title": "Store the average brigthness" },
+        { "time": "15:24", "title": "Store the average brightness" },
         { "time": "17:02", "title": "Create an array of possible brightness values" },
         { "time": "17:17", "title": "Associate values to the image with the closest average brightness" },
         { "time": "20:06", "title": "Draw images instead of rectangles" },
@@ -77,7 +77,13 @@
                     "title": "10.4: Pixels! (The Pixels Array) - Processing Tutorial",
                     "url": "https://youtu.be/EmtU0eloTlE",
                     "description": "This video covers the basics of reading from and writing to the pixels array in Processing / Java. This is foundation for all image processing and computer vision applications and examples I'll show in the rest of image and video in Processing (Java) videos."
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 71",
+                    "url": "https://youtu.be/pF0cadg2mg0?t=10548s",
+                    "description": "Livestream with Circle Packing and White House Data Visualization coding challenges"
+                 }  
             ]
         }
     ]

@@ -131,6 +131,12 @@
                     "title": "Perlin Noise song",
                     "url": "https://soundcloud.com/fl00per/perlin-noise",
                     "description": "Perlin Noise song on SoundCloud."
+                },
+                {
+                    "icon": "💻",
+                    "title": "Programming from A to Z - Markov Chains",
+                    "url": "http://shiffman.net/a2z/markov",
+                    "description": "Webpage with material from my \"Programming from A to Z\" course."
                 }
             ]
         },
@@ -139,8 +145,8 @@
             "links": [
                 {
                     "icon": "🔴",
-                    "title": "Live Stream #64",
-                    "url": "https://youtu.be/4DR0ryGSYJQ",
+                    "title": "Coding Train Live 64",
+                    "url": "https://youtu.be/4DR0ryGSYJQ?t=2423s",
                     "description": "Live Stream with N-Grams and Markov Chains to generate text algorithmically."
                 }
             ]
