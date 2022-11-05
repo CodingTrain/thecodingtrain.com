@@ -9,7 +9,7 @@
       "mastodon/streaming-api",
       "mastodon/managing-user-events",
       "mastodon/replying-to-a-mention",
-      "mastodon/what-is-node.js",
+      "mastodon/what-is-node-js",
       "mastodon/what-is-npm"
     ]
   }
