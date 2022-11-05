@@ -8,7 +8,11 @@
   "topics": ["mastodon", "dotenv"],
   "canContribute": false,
   "timestamps": [
-    
+    { "time": "0:00", "title": "Introduction: making a Mastodon Bot" },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " },
+    { "time": "0:00", "title": " " }
+
   ],
   "codeExamples": [
     {
