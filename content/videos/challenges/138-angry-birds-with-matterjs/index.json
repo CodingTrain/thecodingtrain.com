@@ -89,7 +89,13 @@
                     "title": "Phaser Game Development with Catt Small",
                     "url": "https://youtu.be/T9kOFSFvgKc",
                     "description": "Guest tutorial on Phaser Game development by Catt Small"
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 171",
+                    "url": "https://youtu.be/EvOC_vyFAiI?t=5047s",
+                    "description": "Live Stream with the Fetch function and Angry Birds"
+                }  
             ]
         }
     ]
