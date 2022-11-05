@@ -74,10 +74,10 @@
             "description": "Playlist for Session 7 of Programming from A to Z course in 2016 on Context-Free Grammars"
           },
           {
-            "icon": "🎥",
-            "title": "Livestream Archive",
-            "url": "https://youtu.be/X6IPcExkG30",
-            "description": "Live Stream 65: Context-Free-Grammar (Session 7 of Programming from A to Z)"
+            "icon": "🔴",
+            "title": "Coding Train Live 65",
+            "url": "https://youtu.be/X6IPcExkG30?t=7474s",
+            "description": "Live Stream with Context-Free-Grammar (Session 7 of Programming from A to Z)"
           }
         ]
       }

@@ -73,15 +73,9 @@
           "description": "The translate(), rotate(), push() and pop() functions are covered in this video."
         },
         {
-          "icon": "🎥",
-          "title": "Coding Challenge #127: Brownian Tree Snowflake",
-          "url": "/challenges/127-brownian-tree-snowflake",
-          "description": "A Brownian Tree Snowflake is created in Processing."
-        },
-        {
-          "icon": "🎥",
+          "icon": "🔴",
           "title": "2019 Processing Foundation Holiday Telethon",
-          "url": "https://youtu.be/3wMFd8OGI84",
+          "url": "https://youtu.be/3wMFd8OGI84?t=7031s",
           "description": "Fundraiser for the Processing Foundation"
         }
       ]

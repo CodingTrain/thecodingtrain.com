@@ -11,7 +11,12 @@
         "3d"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": [
+        "9-solar-system-3d-textures",
+        "25-spherical-geometry",
+        "48-white-house-social-media-data-visualization",
+        "109-visualizing-500000-subscribers"
+    ],
     "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
         { "time": "1:59", "title": "Mention the previous coding challenge 'Earthquake Data Visualization'" },
@@ -120,24 +125,25 @@
         },
         {
             "title": "Live Stream Archives",
-            "links": [{
-                "icon": "🔴",
-                "title": "Live Stream #77",
-                "url": "https://youtu.be/L1nHni9HMBw",
-                "description": "Live Stream with 3D Earthquake Data Visualization and Steering Behaviors."
-            },
+            "links": [
             {
                 "icon": "🔴",
-                "title": "Live Stream #78",
-                "url": "https://youtu.be/UiYb4yCsqFE",
+                "title": "Coding Train Live 78",
+                "url": "https://youtu.be/UiYb4yCsqFE?t=1238s",
                 "description": "Live Stream with More Earthquake Data Visualization"
             },
             {
                 "icon": "🔴",
-                "title": "Live Stream #79",
-                "url": "https://youtu.be/L1nHni9HMBw",
+                "title": "Coding Train Live 79",
+                "url": "https://youtu.be/L1nHni9HMBw?t=2261s",
                 "description": "Live Stream with 3D Earthquake Data Visualization & Steering Behaviors"
-              }]
+              },
+              {
+                "icon": "🔴",
+                "title": "Coding Train Live 77",
+                "url": "https://youtu.be/qTxPqMI69aM?t=5525s",
+                "description": "Live Stream with Earthquake Data Visualization and more on Star Patterns."
+            }]
         }
     ]
 }
