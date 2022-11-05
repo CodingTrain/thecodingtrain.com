@@ -8,7 +8,11 @@
     "topics": ["mastodon"],
     "canContribute": false,
     "timestamps": [
-      
+      { "time": "0:00", "title": "Listen to user events" },
+      { "time": "1:35", "title": "Rules of the space" },
+      { "time": "1:51", "title": "Create a listener" },
+      { "time": "5:09", "title": "Acting on a \"follow\" event" },
+      { "time": "6:39", "title": "Send reply message" }
     ],
     "codeExamples": [
       {
