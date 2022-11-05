@@ -121,7 +121,7 @@ const ChapterSection = memo(
                     <Link
                       to={`${trackPath}/${video.slug}`}
                       state={{ challengePartIndex: partIndex }}>
-                      {video.title} - Part {partIndex + 1}
+                      {video.title} - {part.title}
                     </Link>
                   </li>
                 );
