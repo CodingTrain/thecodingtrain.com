@@ -8,7 +8,12 @@
   "topics": ["mastodon"],
   "canContribute": false,
   "timestamps": [
-    
+    { "time": "0:00", "title": "Posting at set intervals" },
+    { "time": "1:28", "title": "Use file system package" },
+    { "time": "3:18", "title": "Template literals" },
+    { "time": "4:40", "title": "Random number bot" },
+    { "time": "7:00", "title": "Toot at regular intervals" },
+    { "time": "8:50", "title": "Spoiler text" }
   ],
   "codeExamples": [
     {

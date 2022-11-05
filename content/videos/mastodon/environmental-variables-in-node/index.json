@@ -8,11 +8,9 @@
   "topics": ["mastodon", "dotenv"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "Introduction: making a Mastodon Bot" },
-    { "time": "0:00", "title": " " },
-    { "time": "0:00", "title": " " },
-    { "time": "0:00", "title": " " }
-
+    { "time": "0:00", "title": "Hiding API credentials" },
+    { "time": "3:10", "title": "grap environmental variables" },
+    { "time": "4:51", "title": "Add .env file to gitignore" }
   ],
   "codeExamples": [
     {
