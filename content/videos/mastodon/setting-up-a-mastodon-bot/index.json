@@ -8,7 +8,13 @@
     "topics": ["Mastodonbot"],
     "canContribute": false,
     "timestamps": [
-     
+      { "time": "0:00", "title": "Introduction: making a Mastodon Bot" },
+      { "time": "2:16", "title": "Creating a new application" },
+      { "time": "6:30", "title": "Mastodon-api" },
+      { "time": "8:15", "title": "Create a new Mastodon" },
+      { "time": "10:19", "title": "Ways to Engage with Mastodon:  GET, POST, & STREAMING" },
+      { "time": "12:00", "title": "POST a new status" },
+      { "time": "13:30", "title": "Parameters" }
     ],
     "codeExamples": [
       {
