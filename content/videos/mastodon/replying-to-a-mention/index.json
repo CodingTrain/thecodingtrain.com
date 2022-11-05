@@ -8,6 +8,10 @@
     "topics": ["mastodon", "bot"],
     "canContribute": false,
     "timestamps": [
+      { "time": "0:00", "title": "Respond to a question" },
+      { "time": "1:07", "title": "Look for a \"?\"" },
+      { "time": "3:28", "title": "Create a reply" },
+      { "time": "4:48", "title": "Reply \"in_reply_to_ID\"" }
     ],
     "codeExamples": [
       {

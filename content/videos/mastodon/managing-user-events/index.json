@@ -8,6 +8,11 @@
   "topics": ["mastodon"],
   "canContribute": false,
   "timestamps": [
+    { "time": "0:00", "title": "Listening for a mention events" },
+    { "time": "1:11", "title": "Using a regular expression to respond to the content" },
+    { "time": "2:17", "title": "Favourite the post" },
+    { "time": "9:09", "title": "Reblog" },
+    { "time": "10:12", "title": "Every action has an ID" }
   ],
   "codeExamples": [
     {
