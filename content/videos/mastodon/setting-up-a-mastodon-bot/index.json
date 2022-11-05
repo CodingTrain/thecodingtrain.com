@@ -1,11 +1,11 @@
 {
-    "title": "Setting Up a Mastodon Bot?",
-    "description": "This is the first video in a new series about making a Mastodon Bot. Mastodon is a decentralized open source social media platform. ",
+    "title": "Setting Up a Mastodon Bot",
+    "description": "In this video, I set up the bot account and post a toot from node.js.",
     "videoNumber": "4.2",
     "videoId": "pY4b18JGCKE",
     "date": "2018-10-09",
     "languages": ["Node.js"],
-    "topics": ["mastodon", "Node.js"],
+    "topics": ["Mastodonbot"],
     "canContribute": false,
     "timestamps": [
      
