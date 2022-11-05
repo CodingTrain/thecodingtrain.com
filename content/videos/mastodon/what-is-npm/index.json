@@ -8,7 +8,14 @@
     "topics": ["twitter", "bot"],
     "canContribute": false,
     "timestamps": [
-
+        { "time": "0:00", "title": "What is NPM?" },
+        { "time": "1:56", "title": "The Twit package" },
+        { "time": "2:22", "title": "Installing a package" },
+        { "time": "3:06", "title": "Putting dependencies in the package.json file " },
+        { "time": "4:56", "title": "Using \"npm init\" to make the package.json file" },
+        { "time": "7:06", "title": "Using a text editor" },
+        { "time": "8:09", "title": "Finding packages" },
+        { "time": "10:57", "title": "Installing the twit package" }
     ],
     "codeExamples": [],
     "groupLinks": []
