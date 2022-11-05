@@ -1,0 +1,37 @@
+{
+    "title": "What is Node.js? - Twitter Bot Tutorial",
+    "description": "This video covers the basics of node.js.   What is node.js?  What is server-side programming?  What might you use it for and how do you get started?  Basic unix commands and working with terminal are covered.",
+    "videoNumber": "15.1",
+    "videoId": "RF5_MPSNAtU",
+    "date": "2018-10-08",
+    "languages": ["Node.js"],
+    "topics": ["twitter", "bot"],
+    "canContribute": false,
+    "timestamps": [
+      
+    ],
+    "codeExamples": [],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                    "icon": "🔗",
+                    "title": "Darius Kazemi Eyeo talk",
+                    "url": "https://vimeo.com/112289364",
+                    "description": ""
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Allison Parrish twitter bot tutorial",
+                    "url": "http://air.decontextualize.com/twitterbot/",
+                    "description": ""
+                },
+                {
+                    "icon": "",
+                    "title": "NY Magazine on bots",
+                    "url": "http://nymag.com/following/2015/11/12-weirdest-funniest-smartest-twitter-bots.html",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+  }

@@ -1,0 +1,58 @@
+{
+  "title": "Posting with setInterval()",
+  "description": "Here I make some improvements to the Mastodon Bot example including using setInterval() to schedule posts.",
+  "videoNumber": "4.4",
+  "videoId": "dHI3cUhNWRg",
+  "date": "2018-10-10",
+  "languages": ["Node.js"],
+  "topics": ["mastodon"],
+  "canContribute": false,
+  "timestamps": [
+    
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "💻",
+          "title": "The Coding Train on Mastodon",
+          "url": "",
+          "description": ""
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [{
+          "icon": "🚂",
+          "title": "ES6 Arrow Syntax",
+          "url": "https://youtu.be/mrYMzpbFz18",
+          "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
+        }
+      ]
+    }
+  ]
+}

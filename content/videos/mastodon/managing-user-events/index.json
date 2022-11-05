@@ -1,0 +1,47 @@
+{
+  "title": "Managing User Events",
+  "description": "In this video I cover user events (mentions, follows, favorites, reblogs, etc.)",
+  "videoNumber": "4.6",
+  "videoId": "yFVc-LnBrEc",
+  "date": "2018-10-11",
+  "languages": ["Node.js"],
+  "topics": ["mastodon"],
+  "canContribute": false,
+  "timestamps": [
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "💻",
+          "title": "The Coding Train on Mastodon",
+          "url": "",
+          "description": ""
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        }
+      ]
+    }
+  ]
+}

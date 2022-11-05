@@ -1,0 +1,48 @@
+{
+    "title": "Streaming API",
+    "description": "In this video, I explore the Mastodon streaming API to register user events.",
+    "videoNumber": "4.5",
+    "videoId": "4hJykkzjXYY",
+    "date": "2018-10-10",
+    "languages": ["Node.js"],
+    "topics": ["mastodon"],
+    "canContribute": false,
+    "timestamps": [
+      
+    ],
+    "codeExamples": [
+      {
+        "title": "Mastodon Bot Repo",
+        "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+        "image": "",
+        "urls": {
+          "other": "https://github.com/CodingTrain/Mastodon-Bot"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "🦏",
+            "title": "Mastodon",
+            "url": "https://mastodon.social/about",
+            "description": "Decentralized social media powered by Mastodon"
+          },
+          {
+            "icon": "💻",
+            "title": "The Coding Train on Mastodon",
+            "url": "",
+            "description": ""
+          },
+          {
+            "icon": "💻",
+            "title": "Mastodon API on npm",
+            "url": "https://www.npmjs.com/package/mastodon-api",
+            "description": "Mastodon API client for node."
+          }
+        ]
+      }
+    ]
+  }

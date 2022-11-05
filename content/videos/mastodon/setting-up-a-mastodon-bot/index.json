@@ -1,0 +1,64 @@
+{
+    "title": "Setting Up a Mastodon Bot?",
+    "description": "This is the first video in a new series about making a Mastodon Bot. Mastodon is a decentralized open source social media platform. ",
+    "videoNumber": "4.2",
+    "videoId": "pY4b18JGCKE",
+    "date": "2018-10-09",
+    "languages": ["Node.js"],
+    "topics": ["mastodon", "Node.js"],
+    "canContribute": false,
+    "timestamps": [
+     
+    ],
+    "codeExamples": [
+      {
+        "title": "Mastodon Bot Repo",
+        "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+        "image": "",
+        "urls": {
+          "other": "https://github.com/CodingTrain/Mastodon-Bot"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "🦏",
+            "title": "Mastodon",
+            "url": "https://mastodon.social/about",
+            "description": "Decentralized social media powered by Mastodon"
+          },
+          {
+            "icon": "💻",
+            "title": "The Coding Train on Mastodon",
+            "url": "",
+            "description": ""
+          },
+          {
+            "icon": "💻",
+            "title": "Mastodon API on npm",
+            "url": "https://www.npmjs.com/package/mastodon-api",
+            "description": "Mastodon API client for node."
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [{
+            "icon": "🚂",
+            "title": "Workflow - Node",
+            "url": "https://youtu.be/FjWbUK2HdCo",
+            "description": "In this video, I discuss how I use node.js and global packages (to generate p5 sketches, run a web server) as part of my workflow."
+          },
+          {
+            "icon": "🚂",
+            "title": "Workflow - Shell",
+            "url": "https://youtu.be/FnkkzgYuXUM",
+            "description": "What is a \"shell\"? In this video, I look at at \"zsh\" (instead of the default Mac OSX shell: bash)."
+          }
+        ]
+      }
+    ]
+  }

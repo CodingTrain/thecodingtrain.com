@@ -1,0 +1,57 @@
+{
+    "title": "Replying to a Mention",
+    "description": "This video covers replying to a mention from a bot.",
+    "videoNumber": "4.7",
+    "videoId": "myPWWrkq5t0",
+    "date": "2018-10-13",
+    "languages": ["Node.js"],
+    "topics": ["mastodon", "bot"],
+    "canContribute": false,
+    "timestamps": [
+    ],
+    "codeExamples": [
+      {
+        "title": "Mastodon Bot Repo",
+        "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+        "image": "",
+        "urls": {
+          "other": "https://github.com/CodingTrain/Mastodon-Bot"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "🦏",
+            "title": "Mastodon",
+            "url": "https://mastodon.social/about",
+            "description": "Decentralized social media powered by Mastodon"
+          },
+          {
+            "icon": "💻",
+            "title": "The Coding Train on Mastodon",
+            "url": "",
+            "description": ""
+          },
+          {
+            "icon": "💻",
+            "title": "Mastodon API on npm",
+            "url": "https://www.npmjs.com/package/mastodon-api",
+            "description": "Mastodon API client for node."
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [{
+            "icon": "🚂",
+            "title": "Chatbot with RiveScript",
+            "url": "https://youtu.be/wf8w1BJb9Xc",
+            "description": "In this video I cover RiveScript: a simple scripting language for chatbots with a friendly, easy to learn syntax."
+          }
+        ]
+      }
+    ]
+  }

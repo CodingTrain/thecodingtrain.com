@@ -1,0 +1,16 @@
+{
+    "title": "What is NPM? - Twitter Bot Tutorial",
+    "description": "This video covers the basics of npm (node package manager).  What is node package manager?  What are some basic commands like \"init\" and \"install\"?  How do you use a Twitter package.",
+    "videoNumber": "15.2",
+    "videoId": "s70-Vsud9Vk",
+    "date": "2015-11-12",
+    "languages": ["Node.js"],
+    "topics": ["twitter", "bot"],
+    "canContribute": false,
+    "timestamps": [
+
+    ],
+    "codeExamples": [],
+    "groupLinks": []
+
+}
