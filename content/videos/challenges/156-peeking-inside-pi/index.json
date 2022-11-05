@@ -78,6 +78,11 @@
           "title": "Server-side with Node.js",
           "url": "https://www.youtube.com/watch?v=wxbQP1LMZsw",
           "description": "Introduction to Node.js"
+        },
+        {
+          "title": "Working with Data and APIs track",
+          "url": "/tracks/data-and-apis-in-javascript",
+          "description": "This course is for aspiring developers who want to learn how to work with data in web applications."
         }
       ]
     }
