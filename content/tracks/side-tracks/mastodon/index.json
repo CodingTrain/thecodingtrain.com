@@ -2,7 +2,7 @@
     "title": "Mastodon ",
     "description": "This track covers the decentralized open source social media platform Mastodon and how to make a bot.",
     "videos": [
-      "mastodon/what-is-maastodon",
+      "mastodon/what-is-mastodon",
       "mastodon/setting-up-a-mastodon-bot",
       "mastodon/environmental-variables-in-node",
       "mastodon/posting-with-setInterval",
