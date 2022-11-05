@@ -11,7 +11,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Quadtree - Part 1",
+      "title": "Part 1",
       "videoId": "OJxEcs0w_kE",
       "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: Quadtrees" },
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "title": "Quadtree - Part 2",
+      "title": "Part 2",
       "videoId": "QQx_NmCIuCY",
       "timestamps": [
         {
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "title": "Quadtree - Part 3",
+      "title": "Part 3",
       "videoId": "z0YFFg_nBjw",
       "timestamps": [
         {
@@ -78,7 +78,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Quadtree Parts 1 & 2",
+      "title": "Quadtree - Parts 1 & 2",
       "description": "This sketch implements a quadtree structure.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/g7LnWQ42x",

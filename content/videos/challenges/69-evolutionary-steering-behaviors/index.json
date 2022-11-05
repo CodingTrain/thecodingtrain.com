@@ -17,7 +17,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Evolutionary Steering Behaviors Part 1",
+            "title": "Part 1",
             "videoId": "flxOkx0yLrY",
             "timestamps": [
                 { "time": "0:00", "title": "Introducing today's topic:  Evolutionary Steering Behavior" },
@@ -32,7 +32,7 @@
             ]
         },
         {
-            "title": "Evolutionary Steering Behaviors Part 2",
+            "title": "Part 2",
             "videoId": "XaOVH8ZSRNA",
             "timestamps": [
                 { "time": "0:00", "title": "Evolutionary Steering Behaviors--Part 2" },
@@ -47,7 +47,7 @@
             ]
         },
         {
-            "title": "Evolutionary Steering Behaviors Part 3",
+            "title": "Part 3",
             "videoId": "vZUWTlK7D2Q",
             "timestamps": [
                 { "time": "0:00", "title": "Welcome to Part 3" },
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "title": "Evolutionary Steering Behaviors Part 4",
+            "title": "Part 4",
             "videoId": "ykOcaInciBI",
             "timestamps": [
                 { "time": "0:00", "title": "Evolutionary Steering Behaviors -- Part 4" },
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "title": "Evolutionary Steering Behaviors - Part 5 (Bonus)",
+            "title": "Part 5 - Bonus",
             "videoId": "VnFF5V5DS8s",
             "timestamps": [
                 { "time": "0:00", "title": "Add a debug checkbox" },

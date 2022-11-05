@@ -14,7 +14,7 @@
     "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk"],
     "timestamps": [],
     "parts": [{
-            "title": "A* Pathfinder Algorithm - Part 1",
+            "title": "Part 1",
             "videoId": "aKYlikFAV4k",
             "timestamps": [{
                     "time": "0:00:00",
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "title": "A* Algorithm - Part 2",
+            "title": "Part 2",
             "videoId": "EaZxUCWAjb0",
             "timestamps": [{
                     "time": "0:00:00",
@@ -88,7 +88,7 @@
             ]
         },
         {
-            "title": "A* Algorithm - Part 3",
+            "title": "Part 3",
             "videoId": "jwRT4PCT6RU",
             "timestamps": [{
                     "time": "0:00:00",

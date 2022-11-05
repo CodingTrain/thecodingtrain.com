@@ -14,7 +14,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "AFINN-111 Sentiment Analysis - Part 1",
+            "title": "Part 1",
             "videoId": "uw3GbsY_Pbc",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "title": "AFINN-111 Sentiment Analysis - Part 2",
+            "title": "Part 2",
             "videoId": "VV1JmMYceJw",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },

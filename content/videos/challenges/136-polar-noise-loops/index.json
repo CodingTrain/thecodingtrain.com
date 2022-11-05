@@ -20,7 +20,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Polar Perlin Noise Loops",
+            "title": "Part 1 - Polar Perlin Noise Loops",
             "videoId": "ZI1dmHv3MeM",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce coding challenge" },
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Perlin Noise GIF Loops",
+            "title": "Part 2 - Perlin Noise GIF Loops",
             "videoId": "c6K-wJQ77yQ",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce coding challenge" },
