@@ -21,7 +21,7 @@
             "description": "Link to the code for creating a shared HTML5 canvas across multiple browser sessions.",
             "image": "shared-drawing-canvas.png",
             "urls": {
-              "p5": "https://github.com/CodingTrain/website-archive/tree/main/Node/sockets"
+              "p5": "https://github.com/CodingTrain/sockets-and-p5"
             }
           }
     ],
