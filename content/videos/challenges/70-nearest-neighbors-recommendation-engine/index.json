@@ -16,7 +16,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1",
+      "title": "Part 1 - Similarity Score Between Ratings",
       "videoId": "N8Fabn1om2k",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "title": "Part 2",
+      "title": "Part 2 - Find the Nearest Neighbors",
       "videoId": "Lo89NLmSgl0",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "title": "Part 3",
+      "title": "Part 3 - Creating the Recommendation Engine",
       "videoId": "aMtckmWAzDg",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
