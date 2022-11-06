@@ -10,7 +10,7 @@
     "relatedChallenges": ["128-sketch-rnn-snowflakes", "153-interactive-drawing-with-sketchrnn"],
     "timestamps": [],
     "parts": [{
-            "title": "Part 1",
+            "title": "Part 1 - Replay a Drawing of the Dataset",
             "videoId": "yLuk0twx8Hc",
             "timestamps": [
                 {"time": "0:00", "title": "Introducing today's topics: the Quick, Draw! dataset"},
@@ -32,7 +32,7 @@
             ]
         },
         {
-            "title": "Part 2",
+            "title": "Part 2 - Load Drawings using the Quick, Draw API",
             "videoId": "EcRK6oFddPQ",
             "timestamps": [{
                     "time": "0:00",

@@ -14,7 +14,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Part 1",
+            "title": "Part 1 - Convert the AFINN-111 list to a JSON File",
             "videoId": "uw3GbsY_Pbc",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "title": "Part 2",
+            "title": "Part 2 - Implement Sentiment Analysis",
             "videoId": "VV1JmMYceJw",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },

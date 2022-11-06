@@ -15,7 +15,7 @@
     "timestamps": [],
     "parts": [
     {
-      "title": "Part 1",
+      "title": "Part 1 - Visualizing the Sequence",
       "videoId": "DhFZfzOvNTU",
       "timestamps": [
         { "time": "0:00", "title": "Introduction!" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "title": "Part 2",
+      "title": "Part 2 - Generating Sound from the Sequence",
       "videoId": "pYnaBQgnARQ",
       "timestamps": [
         

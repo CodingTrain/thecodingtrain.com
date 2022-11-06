@@ -17,7 +17,7 @@
     "timestamps": [],
     "parts": [
     {
-      "title": "Part 1",
+      "title": "Part 1 - Image Texture on a 3D Shape",
       "videoId": "JunJzIe0hEo",
       "timestamps": [
         { "time": "0:00", "title": "Introduction!" },
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "title": "Part 2",
+      "title": "Part 2 - Textured 3D Flag with Physics",
       "videoId": "FeXnJSCFj-Q",
       "timestamps": [
         { "time": "0:00", "title": "Introduction!" },

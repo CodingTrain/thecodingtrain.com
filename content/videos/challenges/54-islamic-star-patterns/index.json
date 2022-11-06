@@ -15,7 +15,7 @@
   "relatedChallenges": ["155-kaleidoscope-snowflake"],
   "timestamps": [],
   "parts": [{
-      "title": "Part 1",
+      "title": "Part 1 - Implementing the Star Patterns",
       "videoId": "sJ6pMLp_IaI",
       "timestamps": [{
           "time": "00:00",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "title": "Part 2 - Law of Sines (Update)",
+      "title": "Part 2 - Refactoring using the Law of Sines",
       "videoId": "lobJ9gzbLo8",
       "timestamps": [{
           "time": "00:00",

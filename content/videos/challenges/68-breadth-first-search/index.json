@@ -11,7 +11,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1",
+      "title": "Part 1 - Creating a Graph",
       "videoId": "piBq7VD0ZSo",
       "timestamps": [
         {
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "title": "Part 2",
+      "title": "Part 2 - Implementing the BFS Algorithm",
       "videoId": "-he67EEM6z0",
       "timestamps": [
         { "time": "0:00", "title": "Continuation of Breadth First Search" },

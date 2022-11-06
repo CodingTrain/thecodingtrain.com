@@ -17,7 +17,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1",
+      "title": "Part 1 - Creating the Neural Network",
       "videoId": "c6y21FkaUqw",
       "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: Flappy Birds" },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "title": "Part 2",
+      "title": "Part 2 - Incorporate a Genetic Algorithm",
       "videoId": "YtRA6tqgJBc",
       "timestamps": [
         {
@@ -57,10 +57,10 @@
       ]
     },
     {
-      "title": "Part 3",
+      "title": "Part 3 - More Improvements",
       "videoId": "3lvj9jvERvs",
       "timestamps": [
-        { "time": "0:00", "title": "Part 3 of Flappy Bird--More Improvements" },
+        { "time": "0:00", "title": "Part 3 of Flappy Bird - More Improvements" },
         { "time": "0:56", "title": "Separate the game logic from the drawing" },
         {
           "time": "2:22",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "Part 4",
+      "title": "Part 4 - Incorporate Features Suggested on Github",
       "videoId": "HrvNpbnjEG8",
       "timestamps": [
         {
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "title": "Part 5",
+      "title": "Part 5 - Save/Load a Bird",
       "videoId": "U9wiMM3BqLU",
       "timestamps": [
         { "time": "0:00", "title": "Part 5 - Save/Load a Bird" },

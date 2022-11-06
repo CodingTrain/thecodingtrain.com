@@ -15,7 +15,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Part 1 - Text",
+            "title": "Part 1 - Markov Chain with Text",
             "videoId": "eGFJ8vugIWA",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "title": "Part 2 - Name Generator",
+            "title": "Part 2 - Creating a Name Generator",
             "videoId": "9r8CmofnbAQ",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },

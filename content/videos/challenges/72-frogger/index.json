@@ -18,7 +18,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1",
+      "title": "Part 1 - Creating the Frog",
       "videoId": "giXV6xErw0Y",
       "timestamps": [
         {
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "title": "Part 2 - Cars",
+      "title": "Part 2 - Adding Cars",
       "videoId": "06-ZvYmSeus",
       "timestamps": [
         {
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "title": "Part 3 - Additional elements",
+      "title": "Part 3 - Adding Logs and Safety Lanes",
       "videoId": "hk326ZHlENQ",
       "timestamps": [
         {

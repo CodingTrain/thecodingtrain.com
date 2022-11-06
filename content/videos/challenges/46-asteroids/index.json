@@ -14,7 +14,7 @@
     "timestamps": [],
     "parts": [
         {
-          "title": "Part 1",
+          "title": "Part 1 - Ship and Asteroids",
           "videoId": "hacZU523FyM",
           "timestamps": [
             { "time": "0:00", "title": "Introducing today's topic: coding the classic Atari game Asteroids" },
@@ -30,7 +30,7 @@
           ]
         },
         {
-            "title": "Part 2",
+            "title": "Part 2 - Lasers and Collision Detection",
             "videoId": "xTTuih7P0c0",
             "timestamps": [
                 { "time": "0:00", "title": "Asteroids - Part 2" },

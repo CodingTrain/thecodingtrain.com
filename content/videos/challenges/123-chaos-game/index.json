@@ -14,7 +14,7 @@
   ],
   "timestamps": [],
   "parts": [{
-      "title": "Part 1",
+      "title": "Part 1 - Visualizing the Chaos Game",
       "videoId": "7gNzMtYo9n4",
       "timestamps": [{
           "time": "0:00",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "title": "Part 2",
+      "title": "Part 2 - Refactoring the Code",
       "videoId": "A0NHGTggoOQ",
       "timestamps": [{
           "time": "0:00",
