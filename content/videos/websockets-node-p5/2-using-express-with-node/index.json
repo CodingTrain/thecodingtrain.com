@@ -31,7 +31,7 @@
         "title": "Videos",
         "links": [
           {
-            "icon": "🚄",
+            "icon": "🛤",
             "title": "Working with Data and APIs in JavaScript",
             "url": "/tracks/data-and-apis-in-javascript",
             "description": "Link to tutorial track on working with data, APIs and JSON."
