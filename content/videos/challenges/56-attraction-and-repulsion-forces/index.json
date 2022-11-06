@@ -1,0 +1,63 @@
+{
+  "title": "Attraction and Repulsion Forces",
+  "description": "In this challenge, I create a particle system and add \"attractors\" simulating attraction and repulsion forces.",
+  "videoNumber": "56",
+  "videoId": "OAcXnzRNiCY",
+  "date": "2017-02-09",
+  "languages": ["p5.js"],
+  "topics": ["forces", "vectors", "attraction repulsion"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction to the Challenge!" },
+    { "time": "02:31", "title": "Explanation of Gravitational Attraction" },
+    { "time": "05:04", "title": "Create a particle and an attractor" },
+    { "time": "07:26", "title": "Add physics to the particles" },
+    {
+      "time": "11:09",
+      "title": "Explanation of force and Newton's Second Law"
+    },
+    { "time": "13:04", "title": "Create the attraction force vector" },
+    { "time": "17:51", "title": "Fine tuning the attraction force" },
+    { "time": "19:34", "title": "Drawing the trails of the particle" },
+    { "time": "20:37", "title": "Adding multiple particles and other changes" },
+    { "time": "23:08", "title": "Adding multiple attractors" },
+    { "time": "27:13", "title": "More visual changes and emerging patterns" },
+    { "time": "32:31", "title": "Creating attractors with the mouse" },
+    { "time": "35:11", "title": "Add repulsion force" },
+    { "time": "35:55", "title": "Create alternating attractors and repellers" },
+    {
+      "time": "37:59",
+      "title": "Suggestions for improvement and tuning parameters"
+    },
+    {
+      "time": "38:30",
+      "title": "Adding repulsions when particle is close to the attractor"
+    },
+    { "time": "43:42", "title": "Wrapping up and more possibilities" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Attractions and Repulsions",
+      "description": "Demonstration simulating attraction and repulsion forces.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/6WL2O4vq0",
+        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_056_attraction_repulsion/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "T1",
+          "url": "hrt",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
