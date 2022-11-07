@@ -1,6 +1,6 @@
 {
-    "title": "Recam\u00e1n's Sequence",
-    "description": "In this coding challenge, I visualize the Recam\u00e1n\u2019s number sequence using the p5.js library and go on to generate a series of musical tones using p5.js sound.",
+    "title": "Recamán's Sequence",
+    "description": "In this coding challenge, I visualize the Recamán\u2019s number sequence using the p5.js library and go on to generate a series of musical tones using p5.js sound.",
     "videoNumber": "110",
     "videoId": "",
     "date": "2018-07-24",
@@ -15,11 +15,11 @@
     "timestamps": [],
     "parts": [
     {
-      "title": "Recam\u00e1n's Sequence - Part 1",
+      "title": "Part 1 - Visualizing the Sequence",
       "videoId": "DhFZfzOvNTU",
       "timestamps": [
         { "time": "0:00", "title": "Introduction!" },
-        { "time": "1:56", "title": "Discussing the Recam\u00e1n's Sequence" },
+        { "time": "1:56", "title": "Discussing the Recamán's Sequence" },
         { "time": "6:08", "title": "Starting to code and adding the prerequisites to generate the sequence" },
         { "time": "7:18", "title": "Writing the algorithm to generate the numbers of the sequence" },
         { "time": "8:36", "title": "Testing the algorithm" },
@@ -28,19 +28,19 @@
         { "time": "13:48", "title": "Making continuous series of arcs instead of ellipses" },
         { "time": "16:20", "title": "An exercise to pause and try for yourself!" },
         { "time": "16:50", "title": "Creating an Arc class and an array of arcs" },
-        { "time": "19:33", "title": "Scaling down the animation as we move along the Recam\u00e1n's Sequence" },
+        { "time": "19:33", "title": "Scaling down the animation as we move along the Recamán's Sequence" },
         { "time": "21:34", "title": "Scaling down by the biggest number in the sequence generated so far" },
-        { "time": "22:34", "title": "Explore the Recam\u00e1n's Sequence and share your works!" }
+        { "time": "22:34", "title": "Explore the Recamán's Sequence and share your works!" }
       ]
     },
     {
-      "title": "Recam\u00e1n's Sequence - Part 2",
+      "title": "Part 2 - Generating Sound from the Sequence",
       "videoId": "pYnaBQgnARQ",
       "timestamps": [
         
         { "time": "0:00", "title": "Welcome to the second part of the challenge!" },
         { "time": "2:19", "title": "Creating an oscillator using the p5.js sound library" },
-        { "time": "4:00", "title": "Using the numbers of the Recam\u00e1n's Sequence as the frequency of the oscillator" },
+        { "time": "4:00", "title": "Using the numbers of the Recamán's Sequence as the frequency of the oscillator" },
         { "time": "5:25", "title": "Thinking of the numbers of the sequence as keys of a piano!" },
         { "time": "7:54", "title": "Creating an envelope using the p5.js sound library" },
         { "time": "10:52", "title": "Restricting the frequency range" },
@@ -51,8 +51,8 @@
     "codeExamples": [
         {   
             "image": "recaman.png",
-            "title": "Recam\u00e1n's Sequence - Part 1",
-            "description": "The sketch visualizes the Recam\u00e1n\u2019s number sequence",
+            "title": "Recamán's Sequence - Part 1",
+            "description": "The sketch visualizes the Recamán\u2019s number sequence",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/2OSiAFU7k",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/110.1_recaman/Processing/CC_110_recaman"
@@ -60,8 +60,8 @@
         },
         {   
             "image": "recaman.png",
-            "title": "Recam\u00e1n's Sequence - Part 2",
-            "description": "The sketch uses Recam\u00e1n's Sequence to generate a series of musical tones",
+            "title": "Recamán's Sequence - Part 2",
+            "description": "The sketch uses Recamán's Sequence to generate a series of musical tones",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/2CRSf-wRL"
             }
@@ -73,15 +73,15 @@
             "links": [
                 {
                     "icon": "📘",
-                    "title": "Recam\u00e1n's Sequence on MathWorld",
+                    "title": "Recamán's Sequence on MathWorld",
                     "url": "http://mathworld.wolfram.com/RecamansSequence.html",
-                    "description": "Wolframn MathWorld's page on the Recam\u00e1n's Sequence"
+                    "description": "Wolframn MathWorld's page on the Recamán's Sequence"
                 },
                 {
                     "icon": "🔖",
-                    "title": "Recam\u00e1n's Sequence on Wikipedia",
+                    "title": "Recamán's Sequence on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/Recam%C3%A1n%27s_sequence",
-                    "description": "Wikipedia page on the Recam\u00e1n's Sequence"
+                    "description": "Wikipedia page on the Recamán's Sequence"
                 },
                 
                 {
@@ -92,9 +92,9 @@
                 },
                 {
                     "icon": "🗏",
-                    "title": "Bernardo Recam\u00e1n Santos",
+                    "title": "Bernardo Recamán Santos",
                     "url": "https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos",
-                    "description": "Wikipedia page on Bernardo Recam\u00e1n Santos in Spanish"
+                    "description": "Wikipedia page on Bernardo Recamán Santos in Spanish"
                 }
             ]
         },
@@ -103,15 +103,15 @@
             "links": [
                 {
                     "icon": "👻",
-                    "title": "The Slightly Spooky Recam\u00e1n's Sequence",
+                    "title": "The Slightly Spooky Recamán's Sequence",
                     "url": "https://youtu.be/FGC5TdIiT9U",
-                    "description": "Numberphile's video on Recam\u00e1n's Sequence"
+                    "description": "Numberphile's video on Recamán's Sequence"
                 },
                 {
                     "icon": "🎹",
-                    "title": "Recam\u00e1n's Sequence by Dale Gerdemann",
+                    "title": "Recamán's Sequence by Dale Gerdemann",
                     "url": "https://youtu.be/h3qEigSSuF0",
-                    "description": "An audio-visual representation of the Recam\u00e1n's Sequence by Dale Gerdemann using the Golden Ratio base"
+                    "description": "An audio-visual representation of the Recamán's Sequence by Dale Gerdemann using the Golden Ratio base"
                 },
                 {
                     "icon": "🚂",
@@ -123,7 +123,7 @@
                     "icon": "🔴",
                     "title": "Coding Train Live 146",
                     "url": "https://youtu.be/XXwjcxMOA8s?t=2137s",
-                    "description": "In this Live Stream, I explore Recam\u00e1n's Sequence + ml5 Image Classifier"
+                    "description": "In this Live Stream, I explore Recamán's Sequence + ml5 Image Classifier"
                 }
             ]
         }

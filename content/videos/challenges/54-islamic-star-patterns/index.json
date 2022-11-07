@@ -15,7 +15,7 @@
   "relatedChallenges": ["155-kaleidoscope-snowflake"],
   "timestamps": [],
   "parts": [{
-      "title": "Part 1: Islamic Star Patterns",
+      "title": "Part 1 - Implementing the Star Patterns",
       "videoId": "sJ6pMLp_IaI",
       "timestamps": [{
           "time": "00:00",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "title": "Part 2: Update - Law of Sines",
+      "title": "Part 2 - Refactoring using the Law of Sines",
       "videoId": "lobJ9gzbLo8",
       "timestamps": [{
           "time": "00:00",
@@ -126,7 +126,7 @@
     }
   ],
   "codeExamples": [{
-      "title": "Islamic Star Pattern - Part I",
+      "title": "Islamic Star Pattern - Part 1",
       "description": "My visualization of the Islamic star pattern.",
       "image": "islamic.jpg",
       "urls": {
@@ -135,7 +135,7 @@
       }
     },
     {
-      "title": "Islamic Star Pattern - Part II",
+      "title": "Islamic Star Pattern - Part 2",
       "description": "My visualization of the islamic star pattern using the law of sines.",
       "image": "sine.jpg",
       "urls": {

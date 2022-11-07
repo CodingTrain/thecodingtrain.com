@@ -16,7 +16,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Circle Morphing - Part 1",
+            "title": "Part 1 - Lerping Points Algorithm",
             "videoId": "u2D4sxh3MTs",
             "timestamps": [{
                     "time": "0:00",
@@ -57,11 +57,11 @@
             ]
         },
         {
-            "title": "Circle Morphing - Part 2",
+            "title": "Part 2 - Deleting Points Algorithm",
             "videoId": "0veqAiA61AU",
             "timestamps": [{
                     "time": "0:00",
-                    "title": "Introduction--we will implement another circle morphing algorithm"
+                    "title": "Introduction: we will implement another circle morphing algorithm"
                 },
                 {
                     "time": "1:30",

@@ -15,7 +15,7 @@
     "relatedChallenges": ["133-time-tables-cardioid-visualization", "135-making-a-gif-loop-in-processing"],
     "timestamps": [],
     "parts": [{
-            "title": "Heart Curve",
+            "title": "Part 1 - Heart Curve",
             "videoId": "oUBAi9xQ2X4",
             "timestamps": [{
                     "time": "0:00",
@@ -48,7 +48,7 @@
             ]
         },
         {
-            "title": "Beating Heart GIF",
+            "title": "Part 2 - Beating Heart GIF",
             "videoId": "l5I3Q1JFISE",
             "timestamps": [{
                     "time": "0:00",

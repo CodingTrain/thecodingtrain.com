@@ -14,7 +14,7 @@
   ],
   "timestamps": [],
   "parts": [{
-      "title": "The Chaos Game Part 1",
+      "title": "Part 1 - Visualizing the Chaos Game",
       "videoId": "7gNzMtYo9n4",
       "timestamps": [{
           "time": "0:00",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "title": "The Chaos Game Part 2",
+      "title": "Part 2 - Refactoring the Code",
       "videoId": "A0NHGTggoOQ",
       "timestamps": [{
           "time": "0:00",
@@ -121,7 +121,7 @@
     }
   ],
   "codeExamples": [{
-      "title": "The Chaos Game Part 1",
+      "title": "The Chaos Game - Part 1",
       "description": "My visualization of the chaos game.",
       "image": "chaos1.jpg",
       "urls": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "title": "The Chaos Game Part 2",
+      "title": "The Chaos Game - Part 2",
       "description": "Visualization of the Chaos Game with the number of seed points, probability, and percentage moved to generate other fractal patterns.",
       "image": "chaos2.jpg",
       "urls": {

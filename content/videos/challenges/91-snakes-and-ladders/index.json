@@ -11,7 +11,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1 : The Game without Snakes and Ladders",
+      "title": "Part 1 - The Grid and Game Logic",
       "videoId": "JrRO3OnWs5s",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "title": "Part 2 : Add Snakes and Ladders",
+      "title": "Part 2 - Add Snakes and Ladders",
       "videoId": "wN5Is0DjW8w",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "title": "Part 3 : Visualize the States of the Game",
+      "title": "Part 3 - Visualize the States of the Game",
       "videoId": "1Ec_-wzJCPY",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },

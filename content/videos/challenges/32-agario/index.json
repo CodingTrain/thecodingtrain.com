@@ -14,7 +14,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Agar.io - Part 1 (Basic Game Mechanics)",
+            "title": "Part 1 - Basic Game Mechanics",
             "videoId": "JXuxYMGe4KI",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
+            "title": "Part 2 - Networking with Socket.IO and Node.js",
             "videoId": "ZjVyKXp9hec",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },
@@ -97,7 +97,7 @@
     ],    
     "codeExamples": [
         {
-            "title": "Agar.io - Part 1 (Basic Game Mechanics)",
+            "title": "Agar.io - Part 1 - Basic Game Mechanics",
             "description": "This sketch implements the basic game mechanics of the game Agar.io.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/J3BZeLP02",
@@ -105,7 +105,7 @@
             }
         },
         {
-            "title": "Agar.io - Part 2 (Networking with Socket.IO and Node.js)",
+            "title": "Agar.io - Part 2 - Networking with Socket.IO and Node.js",
             "description": "This project sets up a server so that visitors are able to compete in a version of the game Agar.io.",
             "urls": {
                 "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/032.2_agar.io_sockets/Node"

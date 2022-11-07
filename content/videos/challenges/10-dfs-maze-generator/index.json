@@ -15,7 +15,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1: Creating the Cells",
+      "title": "Part 1 - Creating a Grid of Cells",
       "videoId": "HyK_Q5rrcr4",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "title": "Part 2: Visiting Neighboring Cells",
+      "title": "Part 2 - Visiting Neighboring Cells",
       "videoId": "D8UgRyRnvXU",
       "timestamps": [
         { "time": "00:00", "title": "Recap from Part 1" },
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "title": "Part 3: Removing Walls",
+      "title": "Part 3 - Removing Walls",
       "videoId": "8Ju_uxJ9v44",
       "timestamps": [
         { "time": "00:00", "title": "Recap from Part 2" },
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "title": "Part 4: Backtracking",
+      "title": "Part 4 - Backtracking",
       "videoId": "_p5IH0L63wo",
       "timestamps": [
         { "time": "00:00", "title": "Where are We so Far?" },

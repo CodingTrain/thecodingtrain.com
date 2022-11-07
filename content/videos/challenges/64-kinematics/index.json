@@ -17,7 +17,7 @@
     "timestamps": [],
   "parts": [
     {
-      "title": "Part 1: Forward Kinematics",
+      "title": "Part 1 - Forward Kinematics",
       "videoId": "xXjRlEr7AGk",
       "timestamps": [
         { "time": "0:00", "title": "Introducing today's topics: Forward Kinematics" },
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "title": "Part 2: Inverse Kinematics",
+      "title": "Part 2 - Inverse Kinematics",
       "videoId": "hbgDqyy8bIw",
       "timestamps": [
         { "time": "0:00", "title": "What is the difference between forward and inverse kinematics?" },
@@ -56,7 +56,7 @@
       ]
     },
     {
-        "title": "Part 3: Inverse Kinematics - Fixed Point",
+        "title": "Part 3 - Fixed Point",
         "videoId": "RTc6i-7N3ms",
         "timestamps": [
           { "time": "0:00", "title": "Expand the inverse kinematics example" },
@@ -69,7 +69,7 @@
         ]
       },
       {
-        "title": "Part 4: Inverse Kinematics - Multiple",
+        "title": "Part 4 - Multiple Tentacles",
         "videoId": "10st01Z0jxc",
         "timestamps": [
           { "time": "0:00", "title": "Refactoring the Code" },

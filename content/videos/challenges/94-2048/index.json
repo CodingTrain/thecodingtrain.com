@@ -11,7 +11,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "2048 - Part 1",
+      "title": "Part 1 - Grid and Sliding in One Direction Only",
       "videoId": "JSn-DJU8qf0",
       "timestamps": [
         {
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "title": "2048 - Part 2",
+      "title": "Part 2 - Sliding in all Four Directions",
       "videoId": "8f8P1i0W26E",
       "timestamps": [
         { "time": "0:00", "title": "Part 2 of 2048" },
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "title": "2048 - Part 3",
+      "title": "Part 3 - Score and Game Over State",
       "videoId": "3iYvT8TBIro",
       "timestamps": [
         { "time": "0:00", "title": "The elements we are adding to the game" },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "2048 - Part 4",
+      "title": "Part 4 - Refactoring, Colors and Game Won State",
       "videoId": "vtMKeEGpMI4",
       "timestamps": [
         { "time": "0:00", "title": "List of improvements & fixes" },
