@@ -5,7 +5,7 @@
   "videoId": "OAcXnzRNiCY",
   "date": "2017-02-09",
   "languages": ["p5.js"],
-  "topics": ["forces", "vectors", "attraction repulsion"],
+  "topics": ["forces", "vectors", "attraction repulsion", "physics"],
   "canContribute": true,
   "relatedChallenges": [],
   "timestamps": [
@@ -43,7 +43,7 @@
       "image": "",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/6WL2O4vq0",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_056_attraction_repulsion/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/056_attraction_repulsion/Processing"
       }
     }
   ],
@@ -53,9 +53,15 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "T1",
-          "url": "hrt",
-          "description": ""
+          "title": "Gravitational Attraction",
+          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/2-forces/5-gravitational-attraction",
+          "description": "Applying Newton's Law of Universal Gravitation in p5.js using vectors and forces."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #76",
+          "url": "https://youtu.be/OkkjlHTdLGI?t=4692",
+          "description": "Live Stream with Attractors, Algorithmic Roses and p5.js Coding Setups"
         }
       ]
     }
