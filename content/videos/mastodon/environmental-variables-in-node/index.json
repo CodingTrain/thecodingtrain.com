@@ -33,10 +33,10 @@
           "description": "Decentralized social media powered by Mastodon"
         },
         {
-          "icon": "💻",
+          "icon": "🐘",
           "title": "The Coding Train on Mastodon",
-          "url": "",
-          "description": ""
+          "url": "https://codingtrain.space/about",
+          "description": "Coding Train server"
         },
         {
           "icon": "💻",
