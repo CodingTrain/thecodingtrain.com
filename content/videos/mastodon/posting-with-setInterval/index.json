@@ -36,10 +36,10 @@
           "description": "Decentralized social media powered by Mastodon"
         },
         {
-          "icon": "🐘",
-          "title": "The Coding Train on Mastodon",
-          "url": "https://codingtrain.space/about",
-          "description": "Coding Train server"
+          "icon": "🤖",
+          "title": "Botsin.space server",
+          "url": "https://botsin.space/about/more",
+          "description": "Botsin.space server"
         },
         {
           "icon": "💻",
