@@ -1,0 +1,74 @@
+{
+    "title": "What is Mastodon?",
+    "description": "This is the first video in a new series about making a Mastodon Bot. Mastodon is a decentralized open source social media platform.",
+    "videoNumber": "4.1",
+    "videoId": "sKSxBd56H70",
+    "date": "2018-10-08",
+    "languages": ["Node.js"],
+    "topics": ["mastodon", "decentralization"],
+    "canContribute": false,
+    "timestamps": [
+      { "time": "0:00", "title": "Introduction: making a Mastodon Bot" },
+      { "time": "1:50", "title": "Decentralization" },
+      { "time": "6:07", "title": "federation - all instances communicate with each other" },
+      { "time": "7:12", "title": "AcitvityPub" },
+      { "time": "8:24", "title": "Choochoo.space" }
+    ],
+    "codeExamples": [
+      {
+        "title": "Mastodon Bot Repo",
+        "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+        "image": "",
+        "urls": {
+          "other": "https://github.com/CodingTrain/Mastodon-Bot"
+        }
+      }
+    ],
+    "groupLinks": [
+      {
+        "title": "References",
+        "links": [
+          {
+            "icon": "🦏",
+            "title": "Mastodon",
+            "url": "https://mastodon.social/about",
+            "description": "Decentralized social media powered by Mastodon"
+          },
+          {
+            "icon": "💻",
+            "title": "Mastodon Repository",
+            "url": " https://github.com/tootsuite/mastodon",
+            "description": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones."
+          },
+          {
+            "icon": "🗄",
+            "title": "ActivityPub on Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/ActivityPub",
+            "description": "Wikipedia page with information and resources about ActivityPub."
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "links": [{
+            "icon": "🚂",
+            "title": "What is Node.js?",
+            "url": "https://youtu.be/RF5_MPSNAtU",
+            "description": "This video covers the basics of node.js.   What is node.js?  What is server-side programming?  What might you use it for and how do you get started?"
+          },
+          {
+            "icon": "🔴",
+            "title": "Coding Train Live ",
+            "url": "https://www.youtube.com/watch?v=4L4JyWyb3oI",
+            "description": "Livestream about creating parts 1 and 2"
+          },
+          {
+            "icon": "🔴",
+            "title": "Coding Train Live ",
+            "url": "https://www.youtube.com/watch?v=rkwn-7kZzjY",
+            "description": "Livestream about creating part 3"
+          }
+        ]
+      }
+    ]
+  }
