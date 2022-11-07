@@ -10,7 +10,7 @@
         "afinn-111"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["42-markov-chain-name-generator", "48-white-house-social-media-data-visualization"],
     "timestamps": [],
     "parts": [
         {
@@ -98,8 +98,8 @@
             "links": [
                 {
                     "icon": "🔴",
-                    "title": "Livestream #68.3",
-                    "url": "https://youtu.be/lCzB9V9L8d0",
+                    "title": "Coding Train Live 68",
+                    "url": "https://youtu.be/lCzB9V9L8d0?t=2082s",
                     "description": "Livestream with Sentiment Analysis, HTTP Get and Post requests."
                 }
             ]

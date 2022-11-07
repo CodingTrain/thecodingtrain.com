@@ -101,6 +101,12 @@
                     "title": "Aaron Koblin's Sheep Market",
                     "url": "http://www.aaronkoblin.com/work/thesheepmarket/",
                     "description": "A collection of 10,000 sheep drawn by workers on Amazon's Mechanical Turk."
+                },
+                {
+                  "icon": "💻",
+                  "title": "Programming from A to Z",
+                  "url": "https://github.com/Programming-from-A-to-Z/A2Z-F16",
+                  "description": "My course on programming strategies and techniques behind procedural analysis and generation of text-based data"
                 }
             ]
         },
@@ -133,13 +139,13 @@
               {
                 "icon": "🔴",
                 "title": "Livestream #69.1",
-                "url": "https://youtu.be/nAQNmjyAUTY",
+                "url": "https://youtu.be/nAQNmjyAUTY?t=5424s",
                 "description": "Livestream with Firebase and a drawing app."
               },
               {
                 "icon": "🔴",
                 "title": "Livestream #69.2",
-                "url": "https://youtu.be/HWt2a72IZbw",
+                "url": "https://youtu.be/HWt2a72IZbw?t=439s",
                 "description": "Livestream with Firebase, a drawing app, and a Q&A."
               }
             ]
