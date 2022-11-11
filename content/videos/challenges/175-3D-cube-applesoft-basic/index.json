@@ -1,176 +1,191 @@
 {
-    "title": "AppleSoft Basic Fractal Tree",
-    "description": "Take a trip back in time and let's learn all about GR (graphics) and HGR (high resolution graphics) in AppleSoft BASIC on a restored Apple II+ computer! Can we render a fractal tree?",
-    "videoNumber": "175",
-    "videoId": "RCtqgjPE-3I",
-    "nebulaSlug": "codingtrain-coding-challenge-175-3d-rotating-cube-on-apple-ii",
-    "date": "2022-11-11",
-    "languages": ["BASIC"],
-    "topics": ["3d graphics", "1980s", "AppleII", "matrix math"],
-    "canContribute": true,
-    "relatedChallenges": [
-      "112-3d-rendering-with-rotation-and-projection",
-      "173-snake-applesoft-basic",
-      "174-graphics-applesoft-basic"
-    ],
-    "timestamps": [
-      { "time": "0:00", "title": "Today's episode looks at the future of computer graphics!" },
-      { "time": "0:39", "title": "Messages from viewers" },
-      { "time": "1:58", "title": "Editing code in Basic" },
-      {
-        "time": "3:28",
-        "title": "Using the Floppy Emu to load files"
-      },
-      { "time": "5:09", "title": "Double buffered animation" },
-      { "time": "6:55", "title": "Initialize high resoulation graphics for 2 pages" },
-      { "time": "7:42", "title": "Animating a line going across the screen" },
-      { "time": "8:50", "title": "Using CALL to clear the screen" },
-      { "time": "9:22", "title": "Switching which screen we draw to" },
-      { "time": "13:18", "title": "Explain the \"draw loop\"" },
-      { "time": "14:55", "title": "Rotate a line" },
-      { "time": "15:45", "title": "Add the points" },
-      { "time": "16:36", "title": "Add a subroutine that draws a line between arbitrary points in the points array" },
-      { "time": "17:55", "title": "Scaling the line" },
-      { "time": "20:55", "title": "The basic math behind rotations" },
-      { "time": "24:54", "title": "Apply roation math" },
-      { "time": "26:25", "title": "The signs are switched in the rotation matrix because y points down in Apple II graphics" },
-      { "time": "29:26", "title": "Increase the angle" },
-      { "time": "32:00", "title": "Erase the background" },
-      { "time": "33:17", "title": "Add a subroutine to add the points of a cube" },
-      { "time": "35:40", "title": "Add a subrountine to draw the lines" },
-      { "time": "36:46", "title": "Make it 3D by adding matrix math" },
-      { "time": "40:24", "title": "Edit code to add more points" },
-      { "time": "41:46", "title": "Connect the points to draw a cube" },
-      { "time": "43:03", "title": "We have a beautiful, 3D rotating cube!!" },
-      { "time": "43:17", "title": "Add rotation around the x-axis" },
-      { "time": "43:52", "title": "Ways to optimize the code to run faster" },
-      { "time": "44:42", "title": "Can you add perspective?" },
-      { "time": "45:08", "title": "See you next time on Coding Together!" }
-    ],
-    "codeExamples": [
-      {
-        "title": "Cube with orthographic projection",
-        "description": "AppleSoft Basic orthographic cube code",
-        "image": "img1.jpg",
-        "urls": {
-          "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/cube-ortho.a"
-        }
-      },
-      {
-        "title": "Cube with perspective projection",
-        "description": "AppleSoft Basic perspective cube code",
-        "image": "img2.jpg",
-        "urls": {
-          "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/cube-perspective.a"
-        }
-      },
-      {
-        "title": "Double buffered animation",
-        "description": "AppleSoft Basic code demonstrating double buffered animation",
-        "image": "img0.jpg",
-        "urls": {
-          "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/double-buffer.a"
-        }
+  "title": "AppleSoft Basic Fractal Tree",
+  "description": "Take a trip back in time and watch me attempt to build a 3D graphics engine in AppleSoft BASIC on a restored Apple II+ computer! Can I render a spinning cube?",
+  "videoNumber": "175",
+  "videoId": "",
+  "nebulaSlug": "codingtrain-apple-challenge-3d-cube",
+  "date": "2022-11-12",
+  "languages": ["BASIC"],
+  "topics": ["3d graphics", "1980s", "AppleII", "matrix math"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "112-3d-rendering-with-rotation-and-projection",
+    "173-snake-applesoft-basic",
+    "174-graphics-applesoft-basic"
+  ],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "The future of computer graphics!"
+    },
+    { "time": "0:39", "title": "Messages from viewers" },
+    { "time": "1:58", "title": "Editing code in BASIC" },
+    {
+      "time": "3:28",
+      "title": "Floppy Emu disk emulator"
+    },
+    { "time": "5:09", "title": "Double buffered animation" },
+    {
+      "time": "6:55",
+      "title": "Initialize high resolution graphics for 2 pages"
+    },
+    { "time": "7:42", "title": "Animating a line" },
+    { "time": "8:50", "title": "CALL to clear the screen" },
+    { "time": "9:22", "title": "Switching screens" },
+    { "time": "13:18", "title": "The \"draw loop\"" },
+    { "time": "14:55", "title": "Rotate a line" },
+    { "time": "15:45", "title": "Add points" },
+    {
+      "time": "16:36",
+      "title": "Add a subroutine that draws a line between two points"
+    },
+    { "time": "17:55", "title": "Scaling the line" },
+    { "time": "20:55", "title": "Matrix Multiplication for Rotation" },
+    { "time": "29:26", "title": "Animate rotation" },
+    { "time": "32:00", "title": "Clear background" },
+    {
+      "time": "33:17",
+      "title": "Subroutine to add the points of a cube"
+    },
+    { "time": "35:40", "title": "Subrountine to draw the lines" },
+    { "time": "36:46", "title": "Incorporating matrix math." },
+    { "time": "40:24", "title": "Edit code to add more points" },
+    { "time": "41:46", "title": "Connect the points to draw a cube" },
+    { "time": "43:03", "title": "Beautiful, 3D rotating cube!!" },
+    { "time": "43:17", "title": "x-axis rotation" },
+    { "time": "43:52", "title": "Ways to optimize the code" },
+    { "time": "44:42", "title": "Can you add perspective projection?" },
+    { "time": "45:08", "title": "See you next time on Coding Together!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "3D Rotating Cube",
+      "description": "AppleSoft BASIC code for 3D ortho cube.",
+      "image": "img1.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/cube-ortho.a"
       }
-    ],
-    "groupLinks": [
-      {
-        "title": "References",
-        "links": [
-          {
-            "icon": "✨",
-            "title": "Ad-free Extended Cut",
-            "url": "",
-            "description": "Nebula plus version is ad-free and includes additional footage "
-          },
-          {
-            "icon": "🧠",
-            "title": "What is Code?",
-            "url": "https://nebula.tv/what-is-code",
-            "description": "Class covering the fundamentals of programming on an Apple II computer!"
-          },
-          {
-            "icon": "🎶",
-            "title": "Coding Together",
-            "url": "https://soundcloud.com/user-207981744-979066415/coding-together",
-            "description": "Theme song by Will from America!"
-          }
-        ]
-      },
-      {
-        "title": "Related Videos",
-        "links": [
-          {
-            "icon": "🎥",
-            "title": "Coding Together Track",
-            "url": "/tracks/coding-together-apple-ii",
-            "description": "Coding Together with Apple ii track"
-          },
-          {
-            "icon": "🎥",
-            "title": "Polar Coordinates",
-            "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
-            "description": "Tutorial from The Nature of Code on Polar Coordinates and Trigonometry."
-          }
-        ]
-      },
-      {
-        "title": "AppleSoft BASIC",
-        "links": [
-          {
-            "icon": "🍎",
-            "title": "The AppleSoft Tutorial",
-            "url": "http://cini.classiccmp.org/pdf/Apple/The%20Applesoft%20Tutorial.pdf",
-            "description": "PDF of original AppleSoft Tutorial from Apple Computer."
-          },
-          {
-            "icon": "🍎",
-            "title": "Basic Programming Reference Manual",
-            "url": "https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Software/Languages/Applesoft%20BASIC/Manuals/Applesoft%20II%20BASIC%20Programming%20Reference%20Manual.pdf",
-            "description": "PDF of original Apple II manual and reference for AppleSoft BASIC."
-          },
-          {
-            "icon": "🪧",
-            "title": "Peeks, Pokes and Pointers",
-            "url": "https://archive.org/details/peeks-pokes-pointers",
-            "description": "1984 Apple II reference poster from Beagle Bros Micro Software"
-          }
-        ]
-      },
-      {
-        "title": "Apple II Emulators",
-        "links": [
-          {
-            "icon": "☕",
-            "title": "Applesoft BASIC in JavaScript",
-            "url": "https://www.calormen.com/jsbasic/",
-            "description": "Code Editor and JavaScript interpreter for AppleSoft BASIC."
-          },
-          {
-            "icon": "🍎",
-            "title": "Apple IIjs",
-            "url": "https://www.scullinsteel.com/apple2/",
-            "description": "Browser based Apple II emulator in JavaScript"
-          },
-          {
-            "icon": "🍎",
-            "title": "MicroM8",
-            "url": "https://paleotronic.com/software/microm8/",
-            "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
-          }
-        ]
-      },
-      {
-        "title": "Member-only Video Archive",
-        "links": [
-          {
-            "icon": "⭐️",
-            "title": "Members-only archive of recording session",
-            "url": "https://youtu.be/4yByzgGSfzQ?t=8125s",
-            "description": "Using double buffered animaation to draw a rotating 3D cube."
-          }
-        ]
+    },
+    {
+      "title": "3D Rotating Cube - Perspective",
+      "description": "AppleSoft BASIC code for 3D perspective projection cube.",
+      "image": "img2.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/cube-perspective.a"
       }
-    ]
-  }
-  
+    },
+    {
+      "title": "Double buffered animation",
+      "description": "AppleSoft Basic code demonstrating double buffered animation",
+      "image": "img0.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/double-buffer.a"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "✨",
+          "title": "Nebula",
+          "url": "https://nebula.tv/videos/codingtrain-apple-challenge-3d-cube",
+          "description": "Watch this video on Nebula ad-free!"
+        },
+        {
+          "icon": "🧠",
+          "title": "What is Code?",
+          "url": "https://nebula.tv/what-is-code",
+          "description": "Class covering the fundamentals of programming on an Apple II computer!"
+        },
+        {
+          "icon": "🎶",
+          "title": "Coding Together",
+          "url": "https://soundcloud.com/user-207981744-979066415/coding-together",
+          "description": "Theme song by Will from America!"
+        }
+      ]
+    },
+    {
+      "title": "Related Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Coding Together Track",
+          "url": "/tracks/coding-together-apple-ii",
+          "description": "Coding Together with Apple ii track"
+        },
+        {
+          "icon": "🎥",
+          "title": "Polar Coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "Tutorial from The Nature of Code on Polar Coordinates and Trigonometry."
+        },
+        {
+          "icon": "🎥",
+          "title": "3D Rendering with Rotation and Projection",
+          "url": "/challenges/112-3d-rendering-with-rotation-and-projection",
+          "description": "Rotating a 3D cube using Processing's 2D renderer and matrix transformations."
+        }
+      ]
+    },
+    {
+      "title": "AppleSoft BASIC",
+      "links": [
+        {
+          "icon": "🍎",
+          "title": "The AppleSoft Tutorial",
+          "url": "http://cini.classiccmp.org/pdf/Apple/The%20Applesoft%20Tutorial.pdf",
+          "description": "PDF of original AppleSoft Tutorial from Apple Computer."
+        },
+        {
+          "icon": "🍎",
+          "title": "Basic Programming Reference Manual",
+          "url": "https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Software/Languages/Applesoft%20BASIC/Manuals/Applesoft%20II%20BASIC%20Programming%20Reference%20Manual.pdf",
+          "description": "PDF of original Apple II manual and reference for AppleSoft BASIC."
+        },
+        {
+          "icon": "🪧",
+          "title": "Peeks, Pokes and Pointers",
+          "url": "https://archive.org/details/peeks-pokes-pointers",
+          "description": "1984 Apple II reference poster from Beagle Bros Micro Software"
+        }
+      ]
+    },
+    {
+      "title": "Apple II Emulators",
+      "links": [
+        {
+          "icon": "☕",
+          "title": "Applesoft BASIC in JavaScript",
+          "url": "https://www.calormen.com/jsbasic/",
+          "description": "Code Editor and JavaScript interpreter for AppleSoft BASIC."
+        },
+        {
+          "icon": "🍎",
+          "title": "Apple IIjs",
+          "url": "https://www.scullinsteel.com/apple2/",
+          "description": "Browser based Apple II emulator in JavaScript"
+        },
+        {
+          "icon": "🍎",
+          "title": "MicroM8",
+          "url": "https://paleotronic.com/software/microm8/",
+          "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
+        }
+      ]
+    },
+    {
+      "title": "Member-only Video Archive",
+      "links": [
+        {
+          "icon": "⭐️",
+          "title": "Members-only archive of recording session",
+          "url": "https://youtu.be/4yByzgGSfzQ?t=8125s",
+          "description": "Using double buffered animaation to draw a rotating 3D cube."
+        }
+      ]
+    }
+  ]
+}
