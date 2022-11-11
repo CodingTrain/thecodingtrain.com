@@ -177,14 +177,26 @@
       ]
     },
     {
-      "title": "Member-only Video Archive",
+      "title": "Member-only Video Archives",
       "links": [
         {
           "icon": "⭐️",
           "title": "Members-only archive of recording session",
           "url": "https://youtu.be/4yByzgGSfzQ?t=8125s",
           "description": "Using double buffered animaation to draw a rotating 3D cube."
-        }
+        },
+        {
+          "icon": "⭐️",
+          "title": "Members-only archive of recording session, continued",
+          "url": "https://youtu.be/lzAPLYApVTU?t=2854s",
+          "description": "Using double buffered animaation to draw a rotating 3D cube."
+        },
+        {
+          "icon": "⭐️",
+          "title": "Members-only archive of recording session, conclusion",
+          "url": "https://youtu.be/g7NAQyBCkZw?t=1438s",
+          "description": "Using double buffered animaation to draw a rotating 3D cube."
+        }       
       ]
     }
   ]
