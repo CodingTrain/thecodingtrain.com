@@ -1,6 +1,7 @@
 {
-    "title": "Mastodon ",
+    "title": "Mastodon",
     "description": "This track covers the decentralized open source social media platform Mastodon and how to make a bot.",
+    "playlistId": "PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ",
     "videos": [
       "mastodon/what-is-mastodon",
       "mastodon/setting-up-a-mastodon-bot",
