@@ -16,7 +16,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Nearest Neighbors Recommendation Engine - Part 1",
+      "title": "Part 1 - Similarity Score Between Ratings",
       "videoId": "N8Fabn1om2k",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "title": "Nearest Neighbors Recommendation Engine - Part 2",
+      "title": "Part 2 - Find the Nearest Neighbors",
       "videoId": "Lo89NLmSgl0",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "title": "Nearest Neighbors Recommendation Engine - Part 3",
+      "title": "Part 3 - Creating the Recommendation Engine",
       "videoId": "aMtckmWAzDg",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -83,7 +83,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Nearest Neighbors, Part 1",
+      "title": "Nearest Neighbors - Part 1",
       "description": "This sketch shows how to calculate a similarity score between two users.",
       "image": "nn1.jpg",
       "urls": {
@@ -91,7 +91,7 @@
       }
     },
     {
-      "title": "Nearest Neighbors, Part 2",
+      "title": "Nearest Neighbors - Part 2",
       "description": "This sketch iterates through all the users to find the \"nearest neigbors\" and list \"similar\" users.",
       "image": "nn2.jpg",
       "urls": {
@@ -99,7 +99,7 @@
       }
     },
     {
-      "title": "Nearest Neighbors, Part 3",
+      "title": "Nearest Neighbors - Part 3",
       "description": "This sketch uses the K-Nearest Neighbor Machine Learning algorithm to predict ratings for movies that haven't been seen yet.",
       "image": "nn3.jpg",
       "urls": {
@@ -107,7 +107,7 @@
       }
     },
     {
-      "title": "Nearest Neighbors, Part 3 with added styling",
+      "title": "Nearest Neighbors - Part 3 with added styling",
       "description": "This sketch has added styling.",
       "image": "style.jpg",
       "urls": {

@@ -25,7 +25,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Part 1: The Book of Pi",
+            "title": "Part 1 - Rendering the Digits of Pi as a Colorful PDF",
             "videoId": "tbvG9hrJxOU",
             "timestamps": [
                 { "time": "0:00", "title": "Introduction" },
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "title": "Part 2: The Book of Pi",
+            "title": "Part 2 - Rendering the Digits of Pi as Text",
             "videoId": "4Ns9S-Z89-0",
             "timestamps": [
                 { "time": "0:00", "title": "Hello again!" },

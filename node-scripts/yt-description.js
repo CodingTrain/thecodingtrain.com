@@ -350,7 +350,7 @@ function writeDescription(video) {
         const { videoNumber, challengeTitle } = challengeData.data;
         const url = challengeData.pageURL;
         description +=
-          `🚂 #${videoNumber} ${challengeTitle}: ${resolveYTLink(url)}` + '\n';
+          `🚂 ${videoNumber} ${challengeTitle}: ${resolveYTLink(url)}` + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }

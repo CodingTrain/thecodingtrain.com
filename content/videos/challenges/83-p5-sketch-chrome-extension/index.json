@@ -67,10 +67,16 @@
           "description": "This video looks at p5.js \"instance mode\"."
         },
         {
+          "icon": "🚂",
+          "title": "Chrome Extensions playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS",
+          "description": "\"Chrome Extensions\" of my Programming with Text video series"
+        },
+        {
           "icon": "🔴",
-          "title": "Livestream Archive",
+          "title": "Coding Train Live 106",
           "url": "https://youtu.be/y0zS83xj0g0?t=45m5s",
-          "description": "Live Stream #106.2: Chrome Extension Coding Challenges"
+          "description": "Live Stream with Chrome Extension Coding Challenges"
         }
       ]
     }

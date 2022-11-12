@@ -31,15 +31,15 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
+      "175-3D-cube-applesoft-basic",
       "174-graphics-applesoft-basic",
-      "173-snake-applesoft-basic",
-      "59-steering-behaviors",
-      "87-3d-knots",
-      "85-the-game-of-life",
-      "30-phyllotaxis",
-      "60-butterfly-generator",
-      "c1-maurer-rose",
-      "36-blobby"
+      "22-julia-set",
+      "24-perlin-noise-flow-field",
+      "97-book-of-pi",
+      "152-rdp-algorithm",
+      "9-solar-system-3d-textures",
+      "117-seven-segment-display",
+      "10-dfs-maze-generator"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,14 +50,15 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/59-steering-behaviors/showcase/contribution-1660879829.json",
-      "challenges/110-recamans-sequence/showcase/contribution3.json",
-      "challenges/c2-collatz-conjecture/showcase/contribution11.json",
-      "challenges/65-binary-tree/showcase/contribution8.json",
-      "challenges/67-pong/showcase/contribution17.json",
-      "challenges/9-solar-system-3d-textures/showcase/contribution2.json",
-      "challenges/115-snake-game-redux/showcase/contribution3.json",
-      "challenges/160-spring-forces/showcase/contribution-1664543440.json"
+      "challenges/117-seven-segment-display/showcase/contribution12.json",
+      "challenges/87-3d-knots/showcase/contribution2.json",
+      "challenges/147-chrome-dinosaur-game/showcase/contribution10.json",
+      "challenges/160-spring-forces/showcase/contribution2.json",
+      "challenges/19-superellipse/showcase/contribution-1656676685.json",
+      "challenges/c1-maurer-rose/showcase/contribution4.json",
+      "challenges/16-l-system-fractal-trees/showcase/contribution1.json",
+      "challenges/93-double-pendulum/showcase/contribution3.json",
+      "challenges/143-quicksort/showcase/contribution8.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",

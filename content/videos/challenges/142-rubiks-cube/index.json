@@ -16,7 +16,7 @@
     "timestamps": [
     ],
     "parts": [{
-            "title": "Rubik's Cube - Part 1",
+            "title": "Part 1 - Creating the Cube",
             "videoId": "9PGfL4t-uqE",
             "timestamps": [{
                     "time": "0:00:00",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "title": "Rubik's Cube - Part 2",
+            "title": "Part 2 - Rotating the Faces",
             "videoId": "EGmVulED_4M",
             "timestamps": [
                 {
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "title": "Rubik's Cube - Part 3",
+            "title": "Part 3 - Animating the Rotations",
             "videoId": "8U2gsbNe1Uo",
             "timestamps": [
                 {

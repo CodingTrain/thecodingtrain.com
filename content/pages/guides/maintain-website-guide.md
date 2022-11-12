@@ -76,7 +76,7 @@ When a challenge spans multiple videos, the process is a bit more... challenging
   "timestamps": [], <-- leave this empty
   "parts": [ <-- add this section
     {
-      "title": "Part 1: Islamic Star Patterns",
+      "title": "Part 1 - Implementing the Star Patterns",
       "videoId": "sJ6pMLp_IaI",
       "timestamps": [
         { "time": "00:00", "title": "Title 1" },
@@ -84,7 +84,7 @@ When a challenge spans multiple videos, the process is a bit more... challenging
       ]
     },
     {
-      "title": "Part 2: Update - Law of Sines",
+      "title": "Part 2 - Refactoring using the Law of Sines",
       "videoId": "lobJ9gzbLo8",
       "timestamps": [
         { "time": "00:00", "title": "Title 1" },
@@ -225,7 +225,7 @@ Then copy the template into the `index.json`:
   ],
   "parts": [
     {
-      "title": "Part 1: Title of 1st part (only for multi-part challenges)",
+      "title": "Part 1 - Specific Title for Part 1",
       "videoId": "YouTube video ID for Part 1",
       "timestamps": [
         { "time": "0:00", "title": "Only for multi-part challenges" },
@@ -233,7 +233,7 @@ Then copy the template into the `index.json`:
       ]
     },
     {
-      "title": "Part 2: Title of 2nd part (only for multi-part challenges)",
+      "title": "Part 2 - Specific Title for Part 2"
       "videoId": "YouTube video ID for Part 2",
       "timestamps": [
         { "time": "0:00", "title": "Title 1" },
@@ -291,7 +291,7 @@ The `"canContribute"` key sets if the passenger showcase for the video will be s
 
 The `"relatedChallenges"` key specifies an array of challenges that relate to the new video. It may be an empty array.
 
-The `"parts"` section is only needed for multi-part coding challenges. It should contain a `"title"`, the YouTube `"videoId"` and the `"timestamps"` for each part of a multi-part challenge. This section must be removed entirely for single-part challenges.
+The `"parts"` section is only needed for multi-part coding challenges. It should contain a `"title"`, the YouTube `"videoId"` and the `"timestamps"` for each part of a multi-part challenge. The `"title"` should follow this format: `"Part 1 - Part-Specific Title"`. This `"parts"` section should be removed entirely for single-part challenges. 
 
 For the `"codeExamples"` section, each code example should at least contain one URL to the code in the `"urls"` object. The keys for that object `"p5"`, `"processing"` or `"node"` reference the possible languages we support for icons, and `"other"` is a fallback option in case none of the previous ones apply.
 

@@ -10,11 +10,11 @@
         "afinn-111"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["42-markov-chain-name-generator", "48-white-house-social-media-data-visualization"],
     "timestamps": [],
     "parts": [
         {
-            "title": "AFINN-111 Sentiment Analysis - Part 1",
+            "title": "Part 1 - Convert the AFINN-111 list to a JSON File",
             "videoId": "uw3GbsY_Pbc",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "title": "AFINN-111 Sentiment Analysis - Part 2",
+            "title": "Part 2 - Implement Sentiment Analysis",
             "videoId": "VV1JmMYceJw",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce the coding challenge" },
@@ -98,8 +98,8 @@
             "links": [
                 {
                     "icon": "🔴",
-                    "title": "Livestream #68.3",
-                    "url": "https://youtu.be/lCzB9V9L8d0",
+                    "title": "Coding Train Live 68",
+                    "url": "https://youtu.be/lCzB9V9L8d0?t=2082s",
                     "description": "Livestream with Sentiment Analysis, HTTP Get and Post requests."
                 }
             ]

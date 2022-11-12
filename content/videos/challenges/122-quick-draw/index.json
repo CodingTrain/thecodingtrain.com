@@ -10,7 +10,7 @@
     "relatedChallenges": ["128-sketch-rnn-snowflakes", "153-interactive-drawing-with-sketchrnn"],
     "timestamps": [],
     "parts": [{
-            "title": "Quick, Draw! Part 1",
+            "title": "Part 1 - Replay a Drawing of the Dataset",
             "videoId": "yLuk0twx8Hc",
             "timestamps": [
                 {"time": "0:00", "title": "Introducing today's topics: the Quick, Draw! dataset"},
@@ -32,7 +32,7 @@
             ]
         },
         {
-            "title": "Quick, Draw! Part 2",
+            "title": "Part 2 - Load Drawings using the Quick, Draw API",
             "videoId": "EcRK6oFddPQ",
             "timestamps": [{
                     "time": "0:00",
@@ -62,14 +62,14 @@
         }
     ],
     "codeExamples": [{
-            "title": "Quick, Draw! Part 1",
+            "title": "Quick, Draw! - Part 1",
             "description": "This code demonstrates how to create a simple node API to \"replay\" drawings of rainbows and cats.",
             "urls": {
                 "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/122_QuickDraw_1/Node"
             }
         },
         {
-            "title": "Quick, Draw! Part 2",
+            "title": "Quick, Draw! - Part 2",
             "description": "The API is no longer available, so a JSON file with one cat is loaded instead.",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07"

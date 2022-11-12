@@ -15,7 +15,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Binary Search Tree",
+      "title": "Part 1 - Binary Search Tree",
       "videoId": "ZNH0MuQ51m4",
       "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: Binary Trees" },
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "title": "Visualizing a Binary Tree",
+      "title": "Part 2 - Visualization",
       "videoId": "KFEvF_ymuzY",
       "timestamps": [
         { "time": "0:00", "title": "Visualizing the Binary Tree" },
