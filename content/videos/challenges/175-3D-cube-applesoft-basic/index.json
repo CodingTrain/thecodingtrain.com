@@ -88,6 +88,12 @@
       "title": "References",
       "links": [
         {
+          "icon": "💾"
+          "title": "Big Mess o' Wires"
+          "url": "http://www.bigmessowires.com/floppy-emu/"
+          "description": "Floppy Emu is a floppy and hard disk emulator for classic Apple II, Macintosh, and Lisa computers."
+        },
+        {
           "icon": "✨",
           "title": "Nebula",
           "url": "https://nebula.tv/videos/codingtrain-apple-challenge-3d-cube",
@@ -133,6 +139,12 @@
     {
       "title": "AppleSoft BASIC",
       "links": [
+        {
+          "icon": "🐶",
+          "title": "Beagle Basic",
+          "url": "http://www.apple-iigs.info/doc/fichiers/BeagleBasic.pdf",
+          "description": "AppleSoft Enhancement Utility by Mark Simonsen"
+        },
         {
           "icon": "🍎",
           "title": "The AppleSoft Tutorial",
