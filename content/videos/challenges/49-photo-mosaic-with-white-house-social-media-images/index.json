@@ -1,90 +1,109 @@
 {
-    "title": "Photo Mosaic with White House Social Media Images",
-    "description": "In this coding challenge, I use a collection of Obama Administration\u2019s facebook images to create a \u201cphoto mosaic\u201d of President Obama with Processing (Java).",
-    "videoNumber": "49",
-    "videoId": "nnlAH1zDBDE",
-    "date": "2017-01-06",
-    "languages": ["java", "Processing"],
-    "topics": [
-        "pixel array",
-        "image processing"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["47-pixel-sorting-in-processing", "50-animated-circle-packing", "90-dithering"],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduce the coding challenge" },
-        { "time": "0:24", "title": "Mention the 'White House Social Media Data Visualization' coding challenge" },
-        { "time": "0:38", "title": "Introduce the dataset" },
-        { "time": "1:08", "title": "Explain the goal of the coding challenge" },
-        { "time": "1:39", "title": "Set up a Processing project" },
-        { "time": "2:00", "title": "Draw an image" },
-        { "time": "2:42", "title": "Explain how to pixelate the image" },
-        { "time": "3:00", "title": "Copy the image at a smaller scale" },
-        { "time": "4:36", "title": "Loop through the pixels of the smaller image" },
-        { "time": "5:30", "title": "Consider the color of each pixel" },
-        { "time": "6:03", "title": "Draw a larger rectangle with the same color" },
-        { "time": "7:02", "title": "List files from a local directory" },
-        { "time": "9:08", "title": "Filter files to consider only images" },
-        { "time": "11:00", "title": "Load all images" },
-        { "time": "11:42", "title": "Test code with a subset of images" },
-        { "time": "12:25", "title": "Consider the brightness of the pixels instead of color" },
-        { "time": "12:54", "title": "Explain the logic behind the mosaic" },
-        { "time": "13:10", "title": "Consider the brightness of the images" },
-        { "time": "14:05", "title": "Create an array of brightness values" },
-        { "time": "14:20", "title": "Compute the average brightness of each image" },
-        { "time": "15:24", "title": "Store the average brightness" },
-        { "time": "17:02", "title": "Create an array of possible brightness values" },
-        { "time": "17:17", "title": "Associate values to the image with the closest average brightness" },
-        { "time": "20:06", "title": "Draw images instead of rectangles" },
-        { "time": "21:11", "title": "Test code" },
-        { "time": "22:10", "title": "Explain `OutOfMemoryError`" },
-        { "time": "22:54", "title": "Sample images down" },
-        { "time": "24:52", "title": "Suggest improvements and creative possibilities" },
-        { "time": "26:40", "title": "Conclude the coding challenge" }
-    ],
-    "codeExamples": [
+  "title": "Photo Mosaic with White House Social Media Images",
+  "description": "In this coding challenge, I use a collection of Obama Administration\u2019s facebook images to create a \u201cphoto mosaic\u201d of President Obama with Processing (Java).",
+  "videoNumber": "49",
+  "videoId": "nnlAH1zDBDE",
+  "date": "2017-01-06",
+  "languages": ["java", "Processing"],
+  "topics": ["pixel array", "image processing"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "47-pixel-sorting-in-processing",
+    "50-animated-circle-packing",
+    "90-dithering"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduce the coding challenge" },
+    {
+      "time": "0:24",
+      "title": "Mention the 'White House Social Media Data Visualization' coding challenge"
+    },
+    { "time": "0:38", "title": "Introduce the dataset" },
+    { "time": "1:08", "title": "Explain the goal of the coding challenge" },
+    { "time": "1:39", "title": "Set up a Processing project" },
+    { "time": "2:00", "title": "Draw an image" },
+    { "time": "2:42", "title": "Explain how to pixelate the image" },
+    { "time": "3:00", "title": "Copy the image at a smaller scale" },
+    { "time": "4:36", "title": "Loop through the pixels of the smaller image" },
+    { "time": "5:30", "title": "Consider the color of each pixel" },
+    { "time": "6:03", "title": "Draw a larger rectangle with the same color" },
+    { "time": "7:02", "title": "List files from a local directory" },
+    { "time": "9:08", "title": "Filter files to consider only images" },
+    { "time": "11:00", "title": "Load all images" },
+    { "time": "11:42", "title": "Test code with a subset of images" },
+    {
+      "time": "12:25",
+      "title": "Consider the brightness of the pixels instead of color"
+    },
+    { "time": "12:54", "title": "Explain the logic behind the mosaic" },
+    { "time": "13:10", "title": "Consider the brightness of the images" },
+    { "time": "14:05", "title": "Create an array of brightness values" },
+    {
+      "time": "14:20",
+      "title": "Compute the average brightness of each image"
+    },
+    { "time": "15:24", "title": "Store the average brightness" },
+    {
+      "time": "17:02",
+      "title": "Create an array of possible brightness values"
+    },
+    {
+      "time": "17:17",
+      "title": "Associate values to the image with the closest average brightness"
+    },
+    { "time": "20:06", "title": "Draw images instead of rectangles" },
+    { "time": "21:11", "title": "Test code" },
+    { "time": "22:10", "title": "Explain `OutOfMemoryError`" },
+    { "time": "22:54", "title": "Sample images down" },
+    {
+      "time": "24:52",
+      "title": "Suggest improvements and creative possibilities"
+    },
+    { "time": "26:40", "title": "Conclude the coding challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Photo Mosaic with White House Social Media Images",
+      "description": "This Processing project uses a collection of Obama Administration's facebook images to create a mosaic of President Obama.",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/049_ObamaMosaic/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Photo Mosaic with White House Social Media Images",
-            "description": "This Processing project uses a collection of Obama Administration's facebook images to create a mosaic of President Obama.",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_049_ObamaMosaic/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🔗",
-                    "title": "The White House Social Media Data",
-                    "url": "https://obamawhitehouse.archives.gov/blog/2017/01/05/new-lenses-first-social-media-presidency",
-                    "description": "White House announcement accompanying the release of social media data."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "ITP 'Obamathon' Github Repo",
-                    "url": "https://github.com/ITPNYU/Obamathon/tree/master/examples/P5/TweetsByMonth",
-                    "description": "Data and source code on ITP \"Obamathon\" github repository."
-                }
-            ]
+          "icon": "🔗",
+          "title": "The White House Social Media Data",
+          "url": "https://obamawhitehouse.archives.gov/blog/2017/01/05/new-lenses-first-social-media-presidency",
+          "description": "White House announcement accompanying the release of social media data."
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🎥",
-                    "title": "10.4: Pixels! (The Pixels Array) - Processing Tutorial",
-                    "url": "https://youtu.be/EmtU0eloTlE",
-                    "description": "This video covers the basics of reading from and writing to the pixels array in Processing / Java. This is foundation for all image processing and computer vision applications and examples I'll show in the rest of image and video in Processing (Java) videos."
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Coding Train Live 71",
-                    "url": "https://youtu.be/pF0cadg2mg0?t=10548s",
-                    "description": "Livestream with Circle Packing and White House Data Visualization coding challenges"
-                 }  
-            ]
+          "icon": "🔗",
+          "title": "ITP 'Obamathon' Github Repo",
+          "url": "https://github.com/ITPNYU/Obamathon/tree/master/examples/P5/TweetsByMonth",
+          "description": "Data and source code on ITP \"Obamathon\" github repository."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "10.4: Pixels! (The Pixels Array) - Processing Tutorial",
+          "url": "https://youtu.be/EmtU0eloTlE",
+          "description": "This video covers the basics of reading from and writing to the pixels array in Processing / Java. This is foundation for all image processing and computer vision applications and examples I'll show in the rest of image and video in Processing (Java) videos."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 71",
+          "url": "https://youtu.be/pF0cadg2mg0?t=10548s",
+          "description": "Livestream with Circle Packing and White House Data Visualization coding challenges"
+        }
+      ]
+    }
+  ]
 }

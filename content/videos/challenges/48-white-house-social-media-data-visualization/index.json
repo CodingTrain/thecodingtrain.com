@@ -1,98 +1,107 @@
 {
-    "title": "White House Social Media Data Visualization",
-    "description": "In this Coding Challenge, I discuss how to use the newly released White House social media data to make simple data visualization example with p5.js.",
-    "videoNumber": "48",
-    "videoId": "UrznYJltZrU",
-    "date": "2017-01-06",
-    "languages": ["JavaScript", "p5.js"],
-    "topics": [
-        "data visualization",
-        "word count"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["109-visualizing-500000-subscribers"],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduce the coding challenge" },
-        { "time": "1:38", "title": "Describe the format of the data" },
-        { "time": "2:05", "title": "Illustrate the JSON data" },
-        { "time": "2:51", "title": "Let's code" },
-        { "time": "3:28", "title": "Load the JSON data" },
-        { "time": "5:05", "title": "Iterate through the tweets" },
-        { "time": "6:20", "title": "Count tweets by month" },
-        { "time": "7:01", "title": "Create a date object" },
-        { "time": "8:03", "title": "Describe date properties" },
-        { "time": "9:12", "title": "Create a key based on the year and month" },
-        { "time": "9:28", "title": "Explain how to count instances with an identifier" },
-        { "time": "9:54", "title": "Create an object to count tweets" },
-        { "time": "11:14", "title": "Visualize data" },
-        { "time": "11:50", "title": "Consider data chronologically" },
-        { "time": "12:40", "title": "Draw a bar for each month" },
-        { "time": "14:39", "title": "Use the count for the height of the bars" },
-        { "time": "15:22", "title": "Consider the minimum and maximum values to normalize the data" },
-        { "time": "16:40", "title": "Resize the height of the bars" },
-        { "time": "18:05", "title": "Count words in each month" },
-        { "time": "18:44", "title": "Create an object to count words" },
-        { "time": "20:00", "title": "Consider the text of all tweet" },
-        { "time": "20:21", "title": "Break the text into words" },
-        { "time": "22:32", "title": "Iterate through the words" },
-        { "time": "22:53", "title": "Count the frequency of the words" },
-        { "time": "23:56", "title": "Explain the existing code" },
-        { "time": "24:30", "title": "Examine object and word count" },
-        { "time": "25:32", "title": "Filter words" },
-        { "time": "26:37", "title": "Find the most frequent word in each month" },
-        { "time": "26:47", "title": "Mention video 'Term Frequency - Inverse Document Frequency' for an alternative analysis." },
-        { "time": "27:14", "title": "Extract the words for each month." },
-        { "time": "28:04", "title": "Iterate through the words to consider the most frequent value" },
-        { "time": "29:39", "title": "Clean up data to ignore a set of words" },
-        { "time": "31:45", "title": "Draw data to the canvas" },
-        { "time": "32:45", "title": "Summarize the coding challenge" },
-        { "time": "32:55", "title": "Test with a different dataset" },
-        { "time": "33:53", "title": "Conclude the coding challenge" }
-    ],
-    "codeExamples": [
+  "title": "White House Social Media Data Visualization",
+  "description": "In this Coding Challenge, I discuss how to use the newly released White House social media data to make simple data visualization example with p5.js.",
+  "videoNumber": "48",
+  "videoId": "UrznYJltZrU",
+  "date": "2017-01-06",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["data visualization", "word count"],
+  "canContribute": true,
+  "relatedChallenges": ["109-visualizing-500000-subscribers"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduce the coding challenge" },
+    { "time": "1:38", "title": "Describe the format of the data" },
+    { "time": "2:05", "title": "Illustrate the JSON data" },
+    { "time": "2:51", "title": "Let's code" },
+    { "time": "3:28", "title": "Load the JSON data" },
+    { "time": "5:05", "title": "Iterate through the tweets" },
+    { "time": "6:20", "title": "Count tweets by month" },
+    { "time": "7:01", "title": "Create a date object" },
+    { "time": "8:03", "title": "Describe date properties" },
+    { "time": "9:12", "title": "Create a key based on the year and month" },
+    {
+      "time": "9:28",
+      "title": "Explain how to count instances with an identifier"
+    },
+    { "time": "9:54", "title": "Create an object to count tweets" },
+    { "time": "11:14", "title": "Visualize data" },
+    { "time": "11:50", "title": "Consider data chronologically" },
+    { "time": "12:40", "title": "Draw a bar for each month" },
+    { "time": "14:39", "title": "Use the count for the height of the bars" },
+    {
+      "time": "15:22",
+      "title": "Consider the minimum and maximum values to normalize the data"
+    },
+    { "time": "16:40", "title": "Resize the height of the bars" },
+    { "time": "18:05", "title": "Count words in each month" },
+    { "time": "18:44", "title": "Create an object to count words" },
+    { "time": "20:00", "title": "Consider the text of all tweet" },
+    { "time": "20:21", "title": "Break the text into words" },
+    { "time": "22:32", "title": "Iterate through the words" },
+    { "time": "22:53", "title": "Count the frequency of the words" },
+    { "time": "23:56", "title": "Explain the existing code" },
+    { "time": "24:30", "title": "Examine object and word count" },
+    { "time": "25:32", "title": "Filter words" },
+    { "time": "26:37", "title": "Find the most frequent word in each month" },
+    {
+      "time": "26:47",
+      "title": "Mention video 'Term Frequency - Inverse Document Frequency' for an alternative analysis."
+    },
+    { "time": "27:14", "title": "Extract the words for each month." },
+    {
+      "time": "28:04",
+      "title": "Iterate through the words to consider the most frequent value"
+    },
+    { "time": "29:39", "title": "Clean up data to ignore a set of words" },
+    { "time": "31:45", "title": "Draw data to the canvas" },
+    { "time": "32:45", "title": "Summarize the coding challenge" },
+    { "time": "32:55", "title": "Test with a different dataset" },
+    { "time": "33:53", "title": "Conclude the coding challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Obamathon Word Count by Date Example",
+      "description": "This sketch highlights the words used in the tweets from the White House with a bar chart.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/adc42eDiu",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/048_TweetsByMonth/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Obamathon Word Count by Date Example",
-            "description": "This sketch highlights the words used in the tweets from the White House with a bar chart.",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/adc42eDiu",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/048_TweetsByMonth/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🔗",
-                    "title": "The White House Social Media Data",
-                    "url": "https://obamawhitehouse.archives.gov/blog/2017/01/05/new-lenses-first-social-media-presidency",
-                    "description": "White House announcement accompanying the release of social media data."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "ITP 'Obamathon' Github Repo",
-                    "url": "https://github.com/ITPNYU/Obamathon/tree/master/examples/P5/TweetsByMonth",
-                    "description": "Data and source code on ITP \"Obamathon\" github repository."
-                }
-            ]
+          "icon": "🔗",
+          "title": "The White House Social Media Data",
+          "url": "https://obamawhitehouse.archives.gov/blog/2017/01/05/new-lenses-first-social-media-presidency",
+          "description": "White House announcement accompanying the release of social media data."
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "TF-IDF",
-                    "url": "https://codingtrain.github.io/website-archive/CodingChallenges/040.3-tf-idf",
-                    "description": "In part 3 of the Word Counting Coding Challenge, I implement an algorithm known as TF-IDF (Term Frequency – Inverse Document Frequency)."
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Live Stream Archive #71",
-                    "url": "https://youtu.be/pF0cadg2mg0",
-                    "description": "Live Stream with Circle Packing and White House Date Visualization."
-                }
-            ]
+          "icon": "🔗",
+          "title": "ITP 'Obamathon' Github Repo",
+          "url": "https://github.com/ITPNYU/Obamathon/tree/master/examples/P5/TweetsByMonth",
+          "description": "Data and source code on ITP \"Obamathon\" github repository."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "TF-IDF",
+          "url": "https://youtu.be/RPMYV-eb6lI",
+          "description": "In part 3 of the Word Counting Coding Challenge, I implement an algorithm known as TF-IDF (Term Frequency – Inverse Document Frequency)."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #71",
+          "url": "https://youtu.be/pF0cadg2mg0",
+          "description": "Live Stream with Circle Packing and White House Date Visualization."
+        }
+      ]
+    }
+  ]
 }
