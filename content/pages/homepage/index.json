@@ -31,8 +31,8 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
+      "175-3D-cube-applesoft-basic",
       "174-graphics-applesoft-basic",
-      "173-snake-applesoft-basic",
       "22-julia-set",
       "24-perlin-noise-flow-field",
       "97-book-of-pi",
