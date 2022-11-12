@@ -85,6 +85,7 @@
     {
       "title": "Mandelbrot Set",
       "description": "Five color 280x192 pixel render of mandelbrot fractal in AppleSoft BASIC",
+      "image": "mandelbrot.jpg",
       "urls": {
         "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/mandelbrot.a"
       }
