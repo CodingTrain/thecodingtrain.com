@@ -7,7 +7,7 @@
   "languages": ["BASIC"],
   "topics": ["games", "1980s", "AppleII"],
   "canContribute": true,
-  "relatedChallenges": ["3-snake-game"],
+  "relatedChallenges": ["3-snake-game", "174-graphics-applesoft-basic", "175-3D-cube-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Hello from 1981!" },
     { "time": "0:35", "title": "Opening Theme" },
@@ -115,6 +115,12 @@
     {
       "title": "Videos",
       "links": [
+        {
+          "icon": "🎥",
+          "title": "Coding Together Track",
+          "url": "/tracks/coding-together-apple-ii",
+          "description": "Coding Together with Apple ii track"
+        },
         {
           "icon": "🎥",
           "title": "Video Games track",
