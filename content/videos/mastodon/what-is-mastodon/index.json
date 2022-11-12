@@ -57,14 +57,20 @@
             "description": "This video covers the basics of node.js.   What is node.js?  What is server-side programming?  What might you use it for and how do you get started?"
           },
           {
+            "icon": "🚂",
+            "title": "Mastodon Track",
+            "url": "/tracks/mastodon",
+            "description": "This track covers the decentralized open source social media platform Mastodon."
+          },
+          {
             "icon": "🔴",
-            "title": "Coding Train Live ",
+            "title": "Coding Train Live",
             "url": "https://www.youtube.com/watch?v=4L4JyWyb3oI",
             "description": "Livestream about creating parts 1 and 2"
           },
           {
             "icon": "🔴",
-            "title": "Coding Train Live ",
+            "title": "Coding Train Live",
             "url": "https://www.youtube.com/watch?v=rkwn-7kZzjY",
             "description": "Livestream about creating part 3"
           }

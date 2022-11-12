@@ -54,6 +54,12 @@
             "title": "Chatbot with RiveScript",
             "url": "https://youtu.be/wf8w1BJb9Xc",
             "description": "In this video I cover RiveScript: a simple scripting language for chatbots with a friendly, easy to learn syntax."
+          },
+          {
+            "icon": "🚂",
+            "title": "Mastodon Track",
+            "url": "/tracks/mastodon",
+            "description": "This track covers the decentralized open source social media platform Mastodon."
           }
         ]
       }

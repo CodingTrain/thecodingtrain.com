@@ -9,7 +9,7 @@
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Hiding API credentials" },
-    { "time": "3:10", "title": "grap environmental variables" },
+    { "time": "3:10", "title": "Grab environmental variables" },
     { "time": "4:51", "title": "Add .env file to gitignore" }
   ],
   "codeExamples": [
@@ -51,6 +51,15 @@
           "description": "Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [{
+        "icon": "🚂",
+        "title": "Mastodon Track",
+        "url": "/tracks/mastodon",
+        "description": "This track covers the decentralized open source social media platform Mastodon."
+      }]
     }
   ]
 }

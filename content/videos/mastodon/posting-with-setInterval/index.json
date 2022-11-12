@@ -56,6 +56,12 @@
           "title": "ES6 Arrow Syntax",
           "url": "https://youtu.be/mrYMzpbFz18",
           "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
+        },
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
         }
       ]
     }
