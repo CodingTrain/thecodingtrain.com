@@ -1,8 +1,8 @@
 {
-  "title": "AppleSoft Basic Fractal Tree",
+  "title": "AppleSoft BASIC 3D Cube",
   "description": "Take a trip back in time and watch me attempt to build a 3D graphics engine in AppleSoft BASIC on a restored Apple II+ computer! Can I render a spinning cube?",
   "videoNumber": "175",
-  "videoId": "",
+  "videoId": "PHfKCxjsmos",
   "nebulaSlug": "codingtrain-apple-challenge-3d-cube",
   "date": "2022-11-12",
   "languages": ["BASIC"],
@@ -18,7 +18,7 @@
       "time": "0:00",
       "title": "The future of computer graphics!"
     },
-    { "time": "0:39", "title": "Messages from viewers" },
+    { "time": "0:39", "title": "Viewer comments" },
     { "time": "1:58", "title": "Editing code in BASIC" },
     {
       "time": "3:28",
