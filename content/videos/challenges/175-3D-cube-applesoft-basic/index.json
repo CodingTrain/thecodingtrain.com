@@ -76,12 +76,18 @@
     },
     {
       "title": "Double buffered animation",
-      "description": "AppleSoft Basic code demonstrating double buffered animation",
+      "description": "AppleSoft BASIC code demonstrating double buffered animation",
       "image": "img0.jpg",
       "urls": {
         "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/double-buffer.a"
       }
-    }
+    },
+    {
+      "title": "Mandelbrot Set",
+      "description": "Five color 280x192 pixel render of mandelbrot fractal in AppleSoft BASIC",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/mandelbrot.a"
+      }
   ],
   "groupLinks": [
     {
