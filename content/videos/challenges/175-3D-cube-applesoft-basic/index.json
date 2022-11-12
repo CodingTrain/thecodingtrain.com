@@ -88,7 +88,8 @@
       "urls": {
         "other": "https://github.com/CodingTrain/Nebula-AppleSoft-Basic/blob/main/cube/mandelbrot.a"
       }
-  ]
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
@@ -214,7 +215,7 @@
           "title": "Session 3",
           "url": "https://youtu.be/g7NAQyBCkZw?t=1438s",
           "description": "Raw footage from recording session 3 (YouTube members subscription)."
-        }       
+        }
       ]
     }
   ]
