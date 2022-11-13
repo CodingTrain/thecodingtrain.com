@@ -34,7 +34,22 @@
         {
             "title": "Part 2: Logo Interpreter",
             "videoId": "aOqEm101fms",
-            "timestamps": []
+            "timestamps": [
+                { "time": "0:00", "title": "Introduction and recap of the first part" },
+                { "time": "2:17", "title": "To the white board!" },
+                { "time": "4:45", "title": "The parser class" },
+                { "time": "5:20", "title": "The command class" },
+                { "time": "7:10", "title": "One character at a time" },
+                { "time": "9:00", "title": "Skipping the space" },
+                { "time": "10:00", "title": "Using regular expressions" },
+                { "time": "14:55", "title": "Checking the list of commands" },
+                { "time": "17:00", "title": "The repeat command" },
+                { "time": "27:12", "title": "It works! Let's discuss why" },
+                { "time": "30:50", "title": "Execute the commands" },
+                { "time": "35:18", "title": "Testing the interpreter and debugging" },
+                { "time": "39:50", "title": "The Coding Train Logo in Logo!" },
+                { "time": "41:11", "title": "Things you can do" }
+            ]
         }
     ],
     "codeExamples": [
