@@ -13,7 +13,23 @@
         {
             "title": "Part 1: Logo Interpreter",
             "videoId": "i-k04yzfMpw",
-            "timestamps": []
+            "timestamps": [
+                { "time": "0:20", "title": "What is Logo?" },
+                { "time": "1:21", "title": "Logo commands" },
+                { "time": "2:23", "title": "Let's go!" },
+                { "time": "5:04", "title": "The turtle object" },
+                { "time": "7:14", "title": "Let's code the turtle methods" },
+                { "time": "10:39", "title": "Iterating over the tokens" },
+                { "time": "12:51", "title": "Understanding the increment operator" },
+                { "time": "14:37", "title": "A little debugging" },
+                { "time": "18:55", "title": "Found the bug!" },
+                { "time": "20:00", "title": "A look-up table" },
+                { "time": "23:44", "title": "Real-time interpretation" },
+                { "time": "26:50", "title": "Pen up and pen down" },
+                { "time": "37:54", "title": "It works!" },
+                { "time": "40:00", "title": "Ending remarks" },
+                { "time": "40:33", "title": "Thank you for watching!" }
+            ]
         },
         {
             "title": "Part 2: Logo Interpreter",
