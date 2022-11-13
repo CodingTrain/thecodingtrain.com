@@ -100,19 +100,39 @@
             "title": "Videos",
             "links": [
                 {
+                    "icon": "📓",
                     "title": "Transformation Tutorial",
                     "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
                     "description": "A coding train tutorial on push/pop and other transformations"
                 },
                 {
+                    "icon": "📐",
                     "title": "Angles and Angular Motion",
-                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.1-Angles-and-Angular-Motion",
+                    "url": "https://www.youtube.com/watch?v=qMq-zd6hguc",
                     "description": "Angles and angular motions from Nature of Code chapter 3"
                 },
                 {
+                    "icon": "🧾",
                     "title": "Angular Motion",
                     "url": "https://www.youtube.com/watch?v=i2ROE_mAhU0",
                     "description": "A revised Nature of Code video on angular motion"
+                }
+            ]
+        },
+        {
+            "title": "Live Stream Archive",
+            "links": [
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 158",
+                    "url": "https://youtu.be/flHxQpyiDNc",
+                    "description": "Logo Interpreter Live Stream Part 1"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 159",
+                    "url": "https://youtu.be/kLIHhOEPHG0",
+                    "description": "Logo Interpreter Live Stream Part 2"
                 }
             ]
         }
