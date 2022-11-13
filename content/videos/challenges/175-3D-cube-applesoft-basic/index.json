@@ -219,5 +219,16 @@
         }
       ]
     }
+  ],
+  "credits": [
+    {
+      "title": "Coding Together Theme",
+      "name": "Will from America",
+      "url": "https://twitter.com/WillfromAmerica"
+    },
+    {
+      "title": "Eye of the Tiger cover",
+      "name": "Leon from @neo"
+    }
   ]
 }
