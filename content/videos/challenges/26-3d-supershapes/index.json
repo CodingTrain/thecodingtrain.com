@@ -12,7 +12,7 @@
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:44", "title": "Reza Ali's generative art" },
     { "time": "1:04", "title": "Paul Bourke's website" },
-    { "time": "152", "title": "Constants" },
+    { "time": "1:52", "title": "Constants" },
     { "time": "4:46", "title": "Supershape function" },
     { "time": "6:58", "title": "Why do we have r1 and r2?" },
     { "time": "11:23", "title": "Work on the math" },
@@ -70,6 +70,12 @@
           "title": "Supershape track",
           "url": "/tracks/supershapes",
           "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #47",
+          "url": "https://youtu.be/m8WhMeW8jj0",
+          "description": "Live Stream with 3D Supershapes and Spherical Geometry"
         }
       ]
     }

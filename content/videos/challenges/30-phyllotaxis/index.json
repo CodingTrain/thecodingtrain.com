@@ -76,7 +76,13 @@
            "title": "Golan Levin's Modulo Operator video",
            "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
            "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
-       }
+       },
+       {
+          "icon": "🔴",
+          "title": "Live Stream Archive #54",
+          "url": "https://youtu.be/MQMJ0xWSMWE",
+          "description": "Live Stream with Phyllotaxis and More on Genetic Algorithms"
+        }
       ]
     }
   ]

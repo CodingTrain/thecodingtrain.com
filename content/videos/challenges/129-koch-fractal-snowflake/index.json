@@ -27,7 +27,7 @@
     { "time": "14:18", "title": "Use mousePressed() to get a new generation of segments" },
     { "time": "16:00", "title": "Why is the Koch curve called the \"Monster Curve\"?" },
     { "time": "19:11", "title": "Add a triangle" },
-    { "time": "20:59", "title": "Conclusion and creative possibities" },
+    { "time": "20:59", "title": "Conclusion and creative possibilities" },
     { "time": "21:47", "title": "Bonus addendum: use height of equilateral triangle to find 3rd point" }
   ],
   "codeExamples": [
@@ -66,6 +66,12 @@
           "title": "Vectors",
           "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/1-vectors/1-what-is-a-vector",
           "description": "What is a vector? How do they work in p5.js?"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Holiday Telethon 2018",
+          "url": "https://youtu.be/WACLmPBxMaw?t=11469s",
+          "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
     }

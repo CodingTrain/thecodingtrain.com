@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "tensorflow.js"],
   "topics": ["stochastic gradient descent", "polynomial regression"],
   "canContribute": true,
-  "relatedChallenges": ["104-linear-regression-with-tensorflowjs"],
+  "relatedChallenges": ["99-neural-network-color-predictor", "104-linear-regression-with-tensorflowjs", "106-xor-problem-with-tensorflowjs"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:25", "title": "Find a, b, and c" },
@@ -40,12 +40,23 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🚂",
           "title": "TensorFlow.js playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ",
           "description": "My video series on intelligence and learning with tensorflow.js"
+        },
+        {
+          "icon": "🚂",
+          "title": "Intelligence and Learning playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX",
+          "description": "Part 2 of Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 140",
+          "url": "https://youtu.be/WVZ653QYjvQ?t=1405s",
+          "description": "Live Stream with Polynomial Regression + TensorFlow.js layers API"
         }
       ]
     }

@@ -10,7 +10,7 @@
         "setInterval"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["74-clock"],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "0:52", "title": "Describe challenge" },
@@ -65,6 +65,12 @@
                     "title": "getURLParams() reference",
                     "url": "https://p5js.org/reference/#/p5/getURLParams",
                     "description": "Reference page for the p5.js function `getURLParams()`."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 87",
+                    "url": "https://youtu.be/hVSHlFjTeqg?t=1355s",
+                    "description": "Live Stream with Timer in JavaScript, Pong and Binary Tree - Part 3"
                 }
             ]
         }

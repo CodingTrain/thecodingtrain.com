@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": ["bubble sort algorithm"],
   "canContribute": true,
-  "relatedChallenges": ["47-pixel-sorting-in-processing"],
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "143-quicksort"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:50", "title": "What is a bubble sort?" },
@@ -39,6 +39,15 @@
           "description": "Paper by Mike Bostock about visualizing algorithms."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Coding Train Live 149",
+        "url": "https://youtu.be/mfOL2RIyk2c?t=12543s",
+        "description": "In this Live Stream, I cover more machine learning with ml5 and do a Bubble Sort Visualization challenge."
+      }]
     }
   ]
 }

@@ -12,10 +12,10 @@
     "law of sines"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["155-kaleidoscope-snowflake"],
   "timestamps": [],
   "parts": [{
-      "title": "Part 1: Islamic Star Patterns",
+      "title": "Part 1 - Implementing the Star Patterns",
       "videoId": "sJ6pMLp_IaI",
       "timestamps": [{
           "time": "00:00",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "title": "Part 2: Update - Law of Sines",
+      "title": "Part 2 - Refactoring using the Law of Sines",
       "videoId": "lobJ9gzbLo8",
       "timestamps": [{
           "time": "00:00",
@@ -126,7 +126,7 @@
     }
   ],
   "codeExamples": [{
-      "title": "Islamic Star Pattern - Part I",
+      "title": "Islamic Star Pattern - Part 1",
       "description": "My visualization of the Islamic star pattern.",
       "image": "islamic.jpg",
       "urls": {
@@ -135,48 +135,32 @@
       }
     },
     {
-      "title": "Islamic Star Pattern - Part II",
+      "title": "Islamic Star Pattern - Part 2",
       "description": "My visualization of the islamic star pattern using the law of sines.",
       "image": "sine.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/j-WTRIgjN"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/j-WTRIgjN",
+        "other": "https://github.com/CodingTrain/StarPatterns"
       }
     }
   ],
   "groupLinks": [{
       "title": "References",
-      "links": [{
+      "links": [
+        {
+          "icon": "💻",
+          "title": "Live Demo",
+          "url": "https://codingtrain.github.io/StarPatterns/",
+          "description": "Live demo with different star patterns"
+        },
+        {
           "icon": "📐",
           "title": "Points, lines, and planes",
           "url": "http://paulbourke.net/geometry/pointlineplane/",
           "description": "Notes and algorithms dealing with points, lines, and planes."
         },
         {
-          "icon": "💸",
-          "title": "Refugees International",
-          "url": "https://refugeerights.org/donate/",
-          "description": "Donate to Refugees International"
-        },
-        {
-          "icon": "💸",
-          "title": "National Immigration Law Center",
-          "url": "https://www.nilc.org/donate",
-          "description": "Donate to the Natioal Immigration Law Cener"
-        },
-        {
-          "icon": "💸",
-          "title": "International Rescue Committee",
-          "url": "https://www.refugeesinternational.org/donate/",
-          "description": "Donate to the International Rescue Committee"
-        },
-        {
-          "icon": "💸",
-          "title": "Urban Justice Center | Intl. Refugee Assistance Project",
-          "url": "https://help.rescue.org/donate/refugees-need-urgent-support",
-          "description": "Donate to the Urban Justice Center"
-        },
-        {
-          "icon": "🔗",
+          "icon": "🌐",
           "title": "Law of Sines on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Law_of_sines",
           "description": "Wikipedia page with background and references on the law of sines."
@@ -202,12 +186,46 @@
       ]
     },
     {
-      "title": "Live Stream Archive",
+      "title": "Links to Charities",
       "links": [{
-        "icon": "🎥",
+          "icon": "💸",
+          "title": "Refugees International",
+          "url": "https://refugeerights.org/donate/",
+          "description": "Donate to Refugees International"
+        },
+        {
+          "icon": "💸",
+          "title": "National Immigration Law Center",
+          "url": "https://www.nilc.org/donate",
+          "description": "Donate to the Natioal Immigration Law Cener"
+        },
+        {
+          "icon": "💸",
+          "title": "International Rescue Committee",
+          "url": "https://www.refugeesinternational.org/donate/",
+          "description": "Donate to the International Rescue Committee"
+        },
+        {
+          "icon": "💸",
+          "title": "Urban Justice Center | Intl. Refugee Assistance Project",
+          "url": "https://help.rescue.org/donate/refugees-need-urgent-support",
+          "description": "Donate to the Urban Justice Center"
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [{
+        "icon": "🔴",
         "title": "Live Stream #75: Islamic Star Patterns",
-        "url": "https://youtu.be/hCjTKCb2Cuw",
+        "url": "https://youtu.be/hCjTKCb2Cuw?t=1108s",
         "description": "In this bonus unedited live stream archive I work through visualizing Islamic Star Patterns in p5.js based on the paper."
+      },
+      {
+        "icon": "🔴",
+        "title": "Live Stream #77: More on Star Patterns",
+        "url": "https://youtu.be/qTxPqMI69aM?t=3107s",
+        "description": "Live Stream with Earthquake Data Visualization and more on Star Patterns"
       }]
     }
   ]

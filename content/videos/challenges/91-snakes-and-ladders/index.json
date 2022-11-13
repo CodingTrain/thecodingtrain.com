@@ -7,11 +7,11 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["snakes and ladders", "game"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["71-minesweeper", "72-frogger", "94-2048"],
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1 : The Game without Snakes and Ladders",
+      "title": "Part 1 - The Grid and Game Logic",
       "videoId": "JrRO3OnWs5s",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "title": "Part 2 : Add Snakes and Ladders",
+      "title": "Part 2 - Add Snakes and Ladders",
       "videoId": "wN5Is0DjW8w",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "title": "Part 3 : Visualize the States of the Game",
+      "title": "Part 3 - Visualize the States of the Game",
       "videoId": "1Ec_-wzJCPY",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -89,6 +89,29 @@
           "title": "Snakes and Ladders on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Snakes_and_Ladders",
           "description": "Wikipedia page for the Game of Snakes and Ladders"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 116.1",
+          "url": "https://youtu.be/nvvjYJ2L57c?t=1379s",
+          "description": "Livestream with Snakes & Ladders"
+        },
+         {
+          "icon": "🔴",
+          "title": "Coding Train Live 116.2",
+          "url": "https://youtu.be/1v_E18xU3ok?t=570s",
+          "description": "Livestream with Snakes & Ladders Continued + 2048"
         }
       ]
     }

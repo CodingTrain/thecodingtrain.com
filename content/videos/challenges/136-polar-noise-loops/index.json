@@ -20,7 +20,7 @@
     "timestamps": [],
     "parts": [
         {
-            "title": "Polar Perlin Noise Loops",
+            "title": "Part 1 - Polar Perlin Noise Loops",
             "videoId": "ZI1dmHv3MeM",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce coding challenge" },
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "title": "Perlin Noise GIF Loops",
+            "title": "Part 2 - Perlin Noise GIF Loops",
             "videoId": "c6K-wJQ77yQ",
             "timestamps": [
                 { "time": "0:00", "title": "Introduce coding challenge" },
@@ -165,9 +165,9 @@
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
                 },
                 {
-                    "icon": "🎥",
-                    "title": "Live Stream",
-                    "url": "https://youtu.be/7k-iJyHq7-k",
+                    "icon": "🔴",
+                    "title": "Coding Train Live 169",
+                    "url": "https://youtu.be/7k-iJyHq7-k?t=1345s",
                     "description": "In this live stream: Perlin Noise Loops in Processing(Java) and JavaScript Inheritance."
                 }
             ]

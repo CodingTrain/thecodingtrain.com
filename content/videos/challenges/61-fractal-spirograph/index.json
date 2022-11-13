@@ -7,7 +7,7 @@
   "languages": ["Processing", "Java"],
   "topics": ["fractal", "spirograph", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": ["55-mathematical-rose-patterns", "116-lissajous-curve-table"],
+  "relatedChallenges": ["7-solar-system-2d", "55-mathematical-rose-patterns", "116-lissajous-curve-table"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:45", "title": "Benice equation" },
@@ -66,10 +66,10 @@
           "description": "A dive into the trigonometric functions—sine, cosine, tangent."
         },
         {
-          "icon": "🎥",
-          "title": "Live Stream #81: Fractal Spirograph",
+          "icon": "🔴",
+          "title": "Live Stream Archive #81: Fractal Spirograph",
           "url": "https://youtu.be/S5Qj-JgAN-M",
-          "description": "Livestream archive for Fractal Spirograph challenge."
+          "description": "Live Stream for Fractal Spirograph challenge."
         }
       ]
     }

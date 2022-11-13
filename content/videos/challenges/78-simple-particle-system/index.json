@@ -68,6 +68,12 @@
                     "title": "Particle Systems playlist",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Z9hI4mSgx2FlE5w8zvjmEy",
                     "description": "Video lessons accompanying Chapter 4 (Particle Systems) from The Nature of Code book."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 103",
+                    "url": "https://youtu.be/Pscq691SADc?t=9582s",
+                    "description": "Live Stream with More on JavaScript Objects & Chatbots with RiveScript"
                 }
             ]
         }

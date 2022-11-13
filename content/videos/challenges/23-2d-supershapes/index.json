@@ -47,6 +47,22 @@
                     "description": "Webpage with information about the geometry and formulas for rendering supershapes."
                 }
             ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "🎥",
+                    "title": "Supershape track",
+                    "url": "/tracks/supershapes",
+                    "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #45",
+                    "url": "https://youtu.be/b_MMGJiUcbM",
+                    "description": "Live Stream with Sound Synthesis, Envelope and Supershapes"
+                }
+            ]
         }
     ]
 }

@@ -39,6 +39,7 @@
         {
             "title": "Butterfly Generator",
             "description": "This sketch draws and animates the wings of a butterfly with Perlin Noise and polar coordinates.",
+            "image": "butterfly-generator.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/tKBc2fP8r",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/060_Butterfly_Wings/Processing"
@@ -71,12 +72,16 @@
                     "title": "Trigonometry and Polar Coordinates - The Nature of Code",
                     "url": "https://youtu.be/znOBmOrtz_M",
                     "description": "This video describes the basics of trigonometry and how to use polar coordinates in Processing."
-                },
-                {
+                }, {
                     "icon": "🎥",
                     "title": "What is Perlin Noise?",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
+                }, {
+                    "icon": "🔴",
+                    "title": "Coding Train Live Archive #80",
+                    "url": "https://youtu.be/bMOv5vTC9uE?t=3431s",
+                    "description": "Live Stream with Prototypes in Javascript and Butterfly Wings Generator"
                 }
             ]
         }

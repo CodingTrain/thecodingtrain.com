@@ -1,4 +1,5 @@
 import React, { useMemo, useRef, useEffect, useState } from 'react';
+import { useLocation } from '@reach/router';
 import { passiveEventArg } from '../utils';
 
 /**
@@ -135,4 +136,16 @@ export const useIsFirstRender = () => {
   const [isFirst, setIsFirst] = useState(true);
   useEffect(() => setIsFirst(false), []);
   return isFirst;
+};
+
+/**
+ * Returns the challenge part index (0 if the challenge is not multi-part)
+ * which has been stored in the `location.state` object using the `Link.state`
+ * property.
+ * 
+ * @returns {number} challenge part index
+ */
+export const useChallengePartIndex = () => {
+  const { state } = useLocation();
+  return state?.challengePartIndex ?? 0;
 };

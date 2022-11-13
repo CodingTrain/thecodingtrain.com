@@ -1,9 +1,8 @@
 {
-    "title": "Simulating an Epidemic",
-    "url": "https://immodal.github.io/simulating-an-epidemic/",
-    "author": {
-        "name": "Nigel Chin",
-        "url": ""
-    },
-    "source": "https://github.com/Immodal/simulating-an-epidemic"
+  "title": "Simulating an Epidemic",
+  "url": "https://immodal.github.io/simulating-an-epidemic/",
+  "author": {
+    "name": "Nigel Chin"
+  },
+  "source": "https://github.com/Immodal/simulating-an-epidemic"
 }

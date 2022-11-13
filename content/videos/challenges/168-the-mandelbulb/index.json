@@ -107,6 +107,12 @@
           "title": "Mendelbulb (raymarched SDF)",
           "url": "https://youtu.be/eKUh4nkmQbc",
           "description": "Inigo Quilez's video of the Mandelbulb"
+        },
+        {
+          "icon": "🎥",
+          "title": "Supershape track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
         }
       ]
     }

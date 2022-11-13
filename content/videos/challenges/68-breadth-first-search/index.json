@@ -7,11 +7,11 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["breadth-first search algorithm", "six degrees of kevin bacon"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["65-binary-tree", "98-quadtree"],
   "timestamps": [],
   "parts": [
     {
-      "title": "Breadth-First Search Part 1",
+      "title": "Part 1 - Creating a Graph",
       "videoId": "piBq7VD0ZSo",
       "timestamps": [
         {
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "title": "Breadth-First Search Part 2",
+      "title": "Part 2 - Implementing the BFS Algorithm",
       "videoId": "-he67EEM6z0",
       "timestamps": [
         { "time": "0:00", "title": "Continuation of Breadth First Search" },
@@ -87,6 +87,12 @@
           "title": "Breadth-First Search on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Breadth-first_search",
           "description": "Wikipedia page with background and references on the breadth-first search algorithm."
+        },
+        {
+          "icon": "📘",
+          "title": "Grokking Algorithms",
+          "url": "https://www.manning.com/books/grokking-algorithms",
+          "description": "An illustrated guide for programmers and other curious people."
         }
       ]
     },
@@ -104,6 +110,12 @@
           "title": "My Video on Prototypes",
           "url": "https://www.youtube.com/watch?v=hS_WqkyUah8",
           "description": "In this video, I examine the concept of \"Prototype\" in the JavaScript programming language."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 88",
+          "url": "https://youtu.be/YUlJAu1j_UM?t=4054s",
+          "description": "Session 1 of “Intelligence and Learning and breadth-first-search"
         }
       ]
     }

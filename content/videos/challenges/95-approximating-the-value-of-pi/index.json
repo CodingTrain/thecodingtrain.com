@@ -7,7 +7,13 @@
   "languages": ["Processing"],
   "topics": ["monte carlo", "estimating pi"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "96-visualizing-digits-of-pi",
+    "140-pi-leibniz",
+    "156-peeking-inside-pi",
+    "161-estimating-pi-from-random-numbers",
+    "169-pi-in-the-sky"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Approximating PI" },
     { "time": "0:48", "title": "Suggestion from akraus53" },
@@ -45,8 +51,7 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🎥",
           "title": "STEMcoding celebrates Pi day!",
           "url": "https://www.youtube.com/playlist?list=PLISRe8GegO8TbpZK2qvOi6y0kphRI-3xw",
@@ -57,6 +62,12 @@
           "title": "Learning Processing",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
           "description": "These video lessons accompany the introduction from the Learning Processing textbook."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #126.1",
+          "url": "https://youtu.be/BOk4Dl-gw14?t=1565s",
+          "description": "Happy Pi Day! - Part 1"
         }
       ]
     }

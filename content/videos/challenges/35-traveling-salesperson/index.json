@@ -21,7 +21,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1: Traveling Salesperson (TSP)",
+      "title": "Part 1 - Traveling Salesperson (TSP)",
       "videoId": "BAejnwN4Ccw",
       "timestamps": [
         { "time": "00:00", "title": "Welcome to this coding challenge!" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "title": "Part 2: Lexicographic Order",
+      "title": "Part 2 - Lexicographic Order",
       "videoId": "goUlyp4rwiU",
       "timestamps": [
         { "time": "00:00", "title": "Introducing Part 2" },
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "title": "Part 3: TSP with Lexicographic Order",
+      "title": "Part 3 - TSP with Lexicographic Order",
       "videoId": "9Xy-LMAfglE",
       "timestamps": [
         { "time": "00:00", "title": "Introducing Part 3" },
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "title": "Part 4: TSP with Genetic Algorithm",
+      "title": "Part 4 - TSP with Genetic Algorithm",
       "videoId": "M3KTWnTrU_c",
       "timestamps": [
         { "time": "00:00", "title": "Introducing Part 4" },
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "title": "Part 5: TSP with Genetic Algorithm and Crossover",
+      "title": "Part 5 - TSP with Genetic Algorithm and Crossover",
       "videoId": "hnxn6DtLYcY",
       "timestamps": [
         { "time": "00:00", "title": "Recap from Part 4" },
@@ -165,7 +165,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Part 1: Traveling Salesperson (TSP)",
+      "title": "Part 1 - Traveling Salesperson (TSP)",
       "description": "Trying all possible paths randomly.",
       "image": "part-1-tsp.jpg",
       "urls": {
@@ -174,7 +174,7 @@
       }
     },
     {
-      "title": "Part 2: Lexicographic Order",
+      "title": "Part 2 - Lexicographic Order",
       "description": "Generating permutations in Lexicographic Order.",
       "image": "part-2-lexicographic.jpg",
       "urls": {
@@ -183,7 +183,7 @@
       }
     },
     {
-      "title": "Part 3: TSP with Lexicographic Order",
+      "title": "Part 3 - TSP with Lexicographic Order",
       "description": "Applying Lexicographic Order to solve the TSP problem.",
       "image": "part-3-tsp-lexicographic.jpg",
       "urls": {
@@ -192,7 +192,7 @@
       }
     },
     {
-      "title": "Part 4: TSP with Genetic Algorithm",
+      "title": "Part 4 - TSP with Genetic Algorithm",
       "description": "Using a Genetic Algorithm to solve the TSP problem.",
       "image": "part-4-tsp-ga.jpg",
       "urls": {
@@ -201,7 +201,7 @@
       }
     },
     {
-      "title": "Part 5: TSP with Genetic Algorithm and Crossover",
+      "title": "Part 5 - TSP with Genetic Algorithm and Crossover",
       "description": "Applying Crossover to improve the Genetic Algorithm.",
       "image": "part-5-tsp-ga-crossover.jpg",
       "urls": {
@@ -278,6 +278,22 @@
           "title": "Genetic Algorithm Playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
           "description": "A Coding Train YouTube playlist about Genetic Algorithms."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [{
+          "icon": "🔴",
+          "title": "Livestream #57",
+          "url": "https://youtu.be/r_SpBy9fQuo",
+          "description": "Livestream with Traveling Salesperson."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #90",
+          "url": "https://youtu.be/NCvdjnN9UfI",
+          "description": "Livestream with Traveling Sales Person with Genetic Algorithm"
         }
       ]
     }

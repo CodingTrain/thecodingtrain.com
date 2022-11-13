@@ -11,7 +11,7 @@
         "accretion disk"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["7-solar-system-2d", "8-solar-system-3d"],
     "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: a black hole visualization" },
         { "time": "3:25", "title": "The elements in the black hole visualization" },
@@ -94,6 +94,12 @@
                     "title": "Slingshot with Gravity!",
                     "url": "https://youtu.be/RkpulcVKLRw",
                     "description": "STEM coding discussion of coding challenge from our Slingshot with Gravity series."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 176",
+                    "url": "https://youtu.be/tWyp2OWWcws?t=1192s",
+                    "description": "Live Stream Simple 2D Black Hole Simulation and NeuroEvolution with TensorFlow.js"
                 }
             ]
         }

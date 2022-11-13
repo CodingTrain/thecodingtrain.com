@@ -7,7 +7,23 @@
   "languages": ["p5.js", "Processing"],
   "topics": ["sandpile", "cellular automaton", "grid"],
   "canContribute": true,
-  "timestamps": [],
+  "relatedChallenges": ["89-langtons-ant", "85-the-game-of-life", "102-2d-water-ripple"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:02", "title": "The \"sandpile\" algorithm" },
+    { "time": "2:28", "title": "Maximum amount of sand" },
+    { "time": "5:39", "title": "Let's Code!" },
+    { "time": "6:05", "title": "Create a 2D array of sandpiles" },
+    { "time": "6:47", "title": "Write a render function" },
+    { "time": "7:34", "title": "Assign a color based on amount of sand" },
+    { "time": "9:57", "title": "Drop a lot of sand in the middle" },
+    { "time": "11:21", "title": "Write a topple function" },
+    { "time": "16:16", "title": "Correct code to determine nextpiles" },
+    { "time": "17:04", "title": "Add rainbow colors" },
+    { "time": "18:00", "title": "Call topple multiple times in draw" },
+    { "time": "18:39", "title": "Fix edge problem" },
+    { "time": "20:47", "title": "Conclusion and creative suggestions" }
+  ],
   "codeExamples": [
     {
       "title": "Sandpiles",
@@ -15,8 +31,7 @@
       "image": "sandpiles.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/47dTVFxuB",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/107_sandpiles/Processing/CC_107_sandpiles",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/107_sandpiles"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/107_sandpiles/Processing/CC_107_sandpiles"
       }
     }
   ],
@@ -52,6 +67,12 @@
           "title": "Sandpiles",
           "url": "https://youtu.be/1MtEUErz7Gg",
           "description": "Numberphile video where Luis David Garcia-Puente discusses sandpiles, and how they produce amazing fractal zeroes."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 142",
+          "url": "https://youtu.be/_9ZerP7pGvc?t=1542s",
+          "description": "Live Stream with Sandpile and Barnsley Fern Coding Challenges"
         }
       ]
     }

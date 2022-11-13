@@ -13,47 +13,115 @@
     "129-koch-fractal-snowflake"
   ],
   "timestamps": [],
-  "parts": [
-    {
-      "title": "The Chaos Game Part 1",
+  "parts": [{
+      "title": "Part 1 - Visualizing the Chaos Game",
       "videoId": "7gNzMtYo9n4",
-      "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "1:30", "title": "How does the chaos game work?" },
-        { "time": "3:45", "title": "Let's Code!" },
-        { "time": "4:00", "title": "Add random seed points" },
-        { "time": "5:51", "title": "Play the Chaos Game" },
-        { "time": "7:39", "title": "Lerp between points" },
-        { "time": "9:07", "title": "Seed points at corners" },
-        { "time": "10:07", "title": "Add different colors" },
-        { "time": "10:29", "title": "Sierpinski triangle" },
-        { "time": "10:55", "title": "What could we change?" }
+      "timestamps": [{
+          "time": "0:00",
+          "title": "Introduction"
+        },
+        {
+          "time": "1:30",
+          "title": "How does the chaos game work?"
+        },
+        {
+          "time": "3:45",
+          "title": "Let's Code!"
+        },
+        {
+          "time": "4:00",
+          "title": "Add random seed points"
+        },
+        {
+          "time": "5:51",
+          "title": "Play the Chaos Game"
+        },
+        {
+          "time": "7:39",
+          "title": "Lerp between points"
+        },
+        {
+          "time": "9:07",
+          "title": "Seed points at corners"
+        },
+        {
+          "time": "10:07",
+          "title": "Add different colors"
+        },
+        {
+          "time": "10:29",
+          "title": "Sierpinski triangle"
+        },
+        {
+          "time": "10:55",
+          "title": "What could we change?"
+        }
       ]
     },
     {
-      "title": "The Chaos Game Part 2",
+      "title": "Part 2 - Refactoring the Code",
       "videoId": "A0NHGTggoOQ",
-      "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "1:15", "title": "Make an array called points" },
-        { "time": "2:06", "title": "Add the current point" },
-        { "time": "3:04", "title": "Show seedpoints" },
-        { "time": "3:50", "title": "Lerp between current and next" },
-        { "time": "4:29", "title": "Draw point" },
-        { "time": "4:55", "title": "reset()" },
-        { "time": "6:30", "title": "Place points around circle" },
-        { "time": "7:30", "title": "Define angle" },
-        { "time": "8:02", "title": "Make vector from angle" },
-        { "time": "9:36", "title": "Add percent variable" },
-        { "time": "11:23", "title": "Make pentagon" },
-        { "time": "12:06", "title": "Add constraint on next point" },
-        { "time": "13:20", "title": "What could you do?" }
+      "timestamps": [{
+          "time": "0:00",
+          "title": "Introduction"
+        },
+        {
+          "time": "1:15",
+          "title": "Make an array called points"
+        },
+        {
+          "time": "2:06",
+          "title": "Add the current point"
+        },
+        {
+          "time": "3:04",
+          "title": "Show seedpoints"
+        },
+        {
+          "time": "3:50",
+          "title": "Lerp between current and next"
+        },
+        {
+          "time": "4:29",
+          "title": "Draw point"
+        },
+        {
+          "time": "4:55",
+          "title": "reset()"
+        },
+        {
+          "time": "6:30",
+          "title": "Place points around circle"
+        },
+        {
+          "time": "7:30",
+          "title": "Define angle"
+        },
+        {
+          "time": "8:02",
+          "title": "Make vector from angle"
+        },
+        {
+          "time": "9:36",
+          "title": "Add percent variable"
+        },
+        {
+          "time": "11:23",
+          "title": "Make pentagon"
+        },
+        {
+          "time": "12:06",
+          "title": "Add constraint on next point"
+        },
+        {
+          "time": "13:20",
+          "title": "What could you do?"
+        }
       ]
     }
   ],
-  "codeExamples": [
-    {
-      "title": "The Chaos Game Part 1",
+  "codeExamples": [{
+      "title": "The Chaos Game - Part 1",
       "description": "My visualization of the chaos game.",
       "image": "chaos1.jpg",
       "urls": {
@@ -62,7 +130,7 @@
       }
     },
     {
-      "title": "The Chaos Game Part 2",
+      "title": "The Chaos Game - Part 2",
       "description": "Visualization of the Chaos Game with the number of seed points, probability, and percentage moved to generate other fractal patterns.",
       "image": "chaos2.jpg",
       "urls": {
@@ -71,11 +139,9 @@
       }
     }
   ],
-  "groupLinks": [
-    {
+  "groupLinks": [{
       "title": "References",
-      "links": [
-        {
+      "links": [{
           "icon": "📚",
           "title": "Algorithm Archive",
           "url": "https://www.algorithm-archive.org/",
@@ -97,8 +163,7 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🎥",
           "title": "LeoisOS",
           "url": "https://www.youtube.com/LeiosOS",
@@ -115,6 +180,46 @@
           "title": "ES6 const",
           "url": "https://www.youtube.com/watch?v=2iLVFyYwyRA",
           "description": "I cover the JavaScript ES6 keyword \"const\"."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 161",
+          "url": "https://youtu.be/v8lm5XZ2V6M?t=1467s",
+          "description": "Live Stream with Chaos Game and Quick, Draw! Challenges."
+        }
+      ]
+    },
+    {
+      "title": "Thinkercon Shoutouts",
+      "links": [{
+          "icon": "🤖",
+          "title": "DESTIN SANDLIN",
+          "url": "https://www.youtube.com/smartereveryday",
+          "description": "Smarter Every Day youtube channel"
+        },
+        {
+          "icon": "🤖",
+          "title": "HENRY REICH",
+          "url": "https://www.youtube.com/user/minutephysics",
+          "description": "minutephysics youtube channel"
+        },
+        {
+          "icon": "🤖",
+          "title": "EMILY GRASLIE",
+          "url": "https://www.youtube.com/user/thebrainscoop",
+          "description": "The Brain Scoop youtube channel"
+        },
+        {
+          "icon": "🤖",
+          "title": "SABRINA CRUZ",
+          "url": "https://www.youtube.com/nerdyandquirky",
+          "description": "Answer in Progress youtube channel"
+        },
+        {
+          "icon": "🤖",
+          "title": "ROBERT KRULWICH",
+          "url": "https://www.wnycstudios.org/shows/radiolab",
+          "description": "Radiolab prodcasts"
         }
       ]
     }

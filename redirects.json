@@ -1,5 +1,5 @@
 {
-  "/discord": "https://discord.com/invite/hPuGy2g",
+  "/discord": "https://discord.gg/codingtrain",
   "/pi2022": "https://editor.p5js.org/codingtrain/full/U11UYbgVc",
   "/colors": "https://coding-train-colors.now.sh/",
   "/wheel": "https://editor.p5js.org/kingpepe/full/n_KhX8lYC",
@@ -20,5 +20,11 @@
   "/CodingChallenges/132-fluid-simulation.html": "https://thecodingtrain.com/challenges/132-fluid-simulation",
   "/CodingChallenges/090-floyd-steinberg-dithering.html": "https://thecodingtrain.com/challenges/90-dithering",
   "/CodingChallenges/011-perlinnoiseterrain.html": "https://thecodingtrain.com/challenges/11-3d-terrain-generation-with-perlin-noise",
-  "/challenges/154-tic-tac-toe-minmax": "https://thecodingtrain.com/challenges/154-tic-tac-toe-minimax"
+  "/challenges/154-tic-tac-toe-minmax": "https://thecodingtrain.com/challenges/154-tic-tac-toe-minimax",
+  "/CodingChallenges/142.1-rubiks-cube": "https://thecodingtrain.com/challenges/142-rubiks-cube",
+  "/Tutorials/7-object-interaction/7.4-mouse-interaction.html": "https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/7-arrays/4-mouse-interaction",
+  "/beginners/p5js/": "https://thecodingtrain.com/tracks",
+  "/CodingChallenges/113-hypercube.html": "https://thecodingtrain.com/challenges/113-4d-hypercube-aka-tesseract",
+  "/CodingChallenges/003-snake-game-p5.html": "https://thecodingtrain.com/challenges/3-snake-game",
+  "/CodingChallenges/145-2d-ray-casting": "https://thecodingtrain.com/challenges/145-ray-casting-2d"  
 }

@@ -7,11 +7,18 @@
   "languages": ["Processing"],
   "topics": ["game mechanics", "frogger atari", "inheritance"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "3-snake-game",
+    "46-asteroids",
+    "67-pong",
+    "71-minesweeper",
+    "91-snakes-and-ladders",
+    "115-snake-game-redux"
+  ],
   "timestamps": [],
   "parts": [
     {
-      "title": "Frogger -- Part 1",
+      "title": "Part 1 - Creating the Frog",
       "videoId": "giXV6xErw0Y",
       "timestamps": [
         {
@@ -49,12 +56,12 @@
       ]
     },
     {
-      "title": "Frogger -- Part 2",
+      "title": "Part 2 - Adding Cars",
       "videoId": "06-ZvYmSeus",
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Part 2 -- Add cars"
+          "title": "Start of Part 2"
         },
         {
           "time": "2:41",
@@ -79,12 +86,12 @@
       ]
     },
     {
-      "title": "Frogger -- Part 3",
+      "title": "Part 3 - Adding Logs and Safety Lanes",
       "videoId": "hk326ZHlENQ",
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Part 3 - Add additional elements of Frogger"
+          "title": "Start of Part 3"
         },
         {
           "time": "0:56",
@@ -121,7 +128,7 @@
       ]
     },
     {
-      "title": "Frogger Part 4--Refactoring the code",
+      "title": "Part 4 - Refactoring the code",
       "videoId": "c6WdJltqEtM",
       "timestamps": [
         {
@@ -196,7 +203,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🗄",
+          "icon": "🌐",
           "title": "Frogger on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Frogger",
           "description": "Wikipedia page with information and resources about the arcade game Frogger."
@@ -205,12 +212,35 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🎥",
           "title": "Video of the Gameplay",
           "url": "https://youtu.be/l9eTOaNFwKQ",
           "description": "Video about the arcade game Frogger."
+        },
+        {
+          "icon": "🎥",
+          "title": "Overloading",
+          "url": "https://youtu.be/V7k5bFQbhG0",
+          "description": "This video covers the following topics: objects as data for other objects, overloading, and objects communicating with other objects."
+        },
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 96",
+          "url": "https://youtu.be/7BdfPG3peP4?t=1547s",
+          "description": "Live Stream with Frogger"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 97",
+          "url": "https://youtu.be/m9EsKBPCggk?t=4350s",
+          "description": "Live Stream with Perceptron Follow-up and Frogger Refactoring"
         }
       ]
     }

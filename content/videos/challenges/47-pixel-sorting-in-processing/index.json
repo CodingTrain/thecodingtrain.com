@@ -88,6 +88,17 @@
                     "description": "Mike Bostock's write-up on visualizing algorithms"
                 }
             ]
+        },
+        {
+            "title": "Live Stream Archive",
+            "links": [
+              {
+                "icon": "🔴",
+                "title": "Live Stream Archive #70",
+                "url": "https://youtu.be/VFnF87-JNtY",
+                "description": "Live Stream with Asteroids and Pixel Sorting."
+              }
+            ]
         }
     ]
 }

@@ -1,0 +1,82 @@
+{
+    "title": "Texturing Cloth Simulation",
+    "description": "In this two part challenge, I cover beginShape(), endShape(), and texture(), TRIANGLE_STRIP, QUAD_STRIP, and more. I combine these geometry functions with the Toxiclibs physics library to simulate a waving flag (with a unikitty image texture!)",
+    "videoNumber": "63",
+    "videoId": "",
+    "date": "2017-03-14",
+    "languages": ["Processing", "Java"],
+    "topics": [
+        "physics engine",
+        "texture 3d",
+        "toxiclibs",
+        "cloth",
+        "simulation"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["20-3d-cloth-simulation", "62-plinko-with-matterjs", "138-angry-birds-with-matterjs"],
+    "timestamps": [],
+    "parts": [
+    {
+      "title": "Part 1 - Image Texture on a 3D Shape",
+      "videoId": "JunJzIe0hEo",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction!" },
+        { "time": "1:06", "title": "Discussing image texturing" },
+        {"time": "4:29", "title": "Demonstrating the use of texture() function with code" },
+        {"time": "10:54", "title": "Rendering sets of points across lines as triangle strips" },
+        { "time": "15:56", "title": "Texturing the image of unikitty onto the triangle strips in normal mode!" },
+        { "time": "17:32", "title": "Conclusion!" }
+      ]
+    },
+    {
+      "title": "Part 2 - Textured 3D Flag with Physics",
+      "videoId": "FeXnJSCFj-Q",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction!" },
+        { "time": "1:05", "title": "Making the 3D cloth look like a flag!" },       
+        { "time": "6:50", "title": "Applying the force of wind to the flag!" },
+        { "time": "7:42", "title": "Adding 3D noise to the wind to make it inconsistent"},
+        { "time": "12:07", "title": "Rendering the flag texture as triangle strips" },
+        { "time": "18:42", "title": "Texturing the image of unikitty onto the triangle strips in normal mode" },
+        { "time": "22:08", "title": "Looking at a waving unikitty flag simulation and things you could do!" }
+      ]
+    }
+  ],
+    "codeExamples": [
+        {
+            "image": "unikitty-flag.jpg",
+            "title": "Texturing Cloth Simulation",
+            "description": "The sketch renders a \"unikitty\" flag using Toxiclibs Verlet Physics",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/063_unikitty_flag/Processing/CC_063_unikitty_flag"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {   "icon": "🗏",
+                    "title": "Toxiclibs Physics Library",
+                    "url": "http://haptic-data.com/toxiclibsjs",
+                    "description": "Documentation for the Toxiclibs library"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {   "icon": "🚂",
+                    "title": "Toxiclibs Verlet Physics",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+                    "description": "Playlist containing all of the Toxiclibs Verlet Physics tutorial videos in Processing (Java) and JavaScript with p5.js."
+                },
+                {   "icon": "🎥",
+                    "title": "Livestream Archive",
+                    "url": "https://youtu.be/xtFu66DZrBw",
+                    "description": "Livestream 86: More Inverse Kinematics + Texturing Cloth Simulation"
+                }
+            ]
+        }
+    ]
+}

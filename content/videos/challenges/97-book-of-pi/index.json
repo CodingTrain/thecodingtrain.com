@@ -1,0 +1,141 @@
+{
+    "title": "The Book of Pi",
+    "description": "In yet another \u201cPi Day\u201d coding challenge, I attempt to generate a pdf \u201cBook of Pi\u201d with the first 10 million digits of Pi mapped to color. Processing (Java) is used for this project.",
+    "videoNumber": "97",
+    "videoId": "",
+    "date": "2018-03-20",
+    "languages": ["Processing", "Java"],
+    "topics": [
+        "pi",
+        "pi day",
+        "visualization"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [
+        "21-mandelbrot-set-with-p5js",
+        "156-peeking-inside-pi",
+        "161-estimating-pi-from-random-numbers",
+        "169-pi-in-the-sky",
+        "140-pi-leibniz",
+        "141-mandelbrot-pi",
+        "139-calculating-digits-of-pi-with-collisions",
+        "96-visualizing-digits-of-pi",
+        "95-approximating-the-value-of-pi"
+    ],
+    "timestamps": [],
+    "parts": [
+        {
+            "title": "Part 1 - Rendering the Digits of Pi as a Colorful PDF",
+            "videoId": "tbvG9hrJxOU",
+            "timestamps": [
+                { "time": "0:00", "title": "Introduction" },
+                { "time": "1:40", "title": "A system to render a grid" },
+                { "time": "3:10", "title": "Representing each digit of Pi as a color" },
+                { "time": "5:10", "title": "Debugging" },
+                { "time": "6:00", "title": "Writing the digit in the grid for debugging" },
+                { "time": "8:11", "title": "The PDF Export in Processing" },
+                { "time": "10:30", "title": "How big can we make this?" },
+                { "time": "12:25", "title": "More debugging" },
+                { "time": "13:41", "title": "Trying with a larger window size" },
+                { "time": "14:45", "title": "An offscreen graphics buffer" },
+                { "time": "19:15", "title": "Out of memory!" },
+                { "time": "20:46", "title": "Using HSB mode" },
+                { "time": "23:39", "title": "Tada!" },
+                { "time": "24:06", "title": "Going back to PDF-land" },
+                { "time": "27:28", "title": "An interesting point about hue" },
+                { "time": "27:48", "title": "Rendering the million digits in PDF" },
+                { "time": "28:35", "title": "Rendering with multiple pages!" },
+                { "time": "33:20", "title": "Trying it with  10 million digits" },
+                { "time": "36:03", "title": "Thank you for watching!" }
+            ]
+        },
+        {
+            "title": "Part 2 - Rendering the Digits of Pi as Text",
+            "videoId": "4Ns9S-Z89-0",
+            "timestamps": [
+                { "time": "0:00", "title": "Hello again!" },
+                { "time": "1:10", "title": "Some refactoring and adjustments" },
+                { "time": "7:15", "title": "The font-size" },
+                { "time": "9:19", "title": "Fixing the width" },
+                { "time": "9:55", "title": "One million digits!" },
+                { "time": "12:05", "title": "Monospace font" },
+                { "time": "14:00", "title": "Let's add some margins" },
+                { "time": "14:45", "title": "Ten million digits!" },
+                { "time": "16:15", "title": "The Book of Pi" },
+                { "time": "17:00", "title": "A reading of the book while the video  dramatically fades away" }
+            ]
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Book of Pi - Part 1",
+            "description": "Processing sketch that makes a PDF with digits of Pi mapped to color",
+            "image": "book-of-pi-color.png",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.1_Book_of_Pi_Part_1/Processing"
+            }
+        },
+        {
+            "title": "Book of Pi - Part 2",
+            "description": "Processing sketch that makes the text version of the book of pi",
+            "image": "book-of-pi-text.png",
+            "urls": {
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/097.2_Book_of_Pi_Part_2/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🥧",
+                    "title": "1 Billion Digits of Pi",
+                    "url": "https://stuff.mit.edu/afs/sipb/contrib/pi/",
+                    "description": "First one billion digits of Pi"
+                },
+                {
+                    "icon": "🥟",
+                    "title": "10 Million Pi Digits",
+                    "url": "https://introcs.cs.princeton.edu/java/data/pi-10million.txt",
+                    "description": "First ten million digits of Pi"
+                },
+                {
+                    "icon": "🍰",
+                    "title": "Million Pi Digits",
+                    "url": "http://www.piday.org/million/",
+                    "description": "First one million digits of Pi"
+                },
+                {
+                    "icon": "🗒️",
+                    "title": "Pi Day Code",
+                    "url": "https://github.com/CodingTrain/Pi-Day-2018",
+                    "description": "Repo containing all the code from Pi Day 2018"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Polar to Cartesian",
+                    "url": "https://www.youtube.com/watch?v=O5wjXoFrau4",
+                    "description": "Nature of Code video on polar coordinates"
+                },
+                {
+                    "icon": "⚙️",
+                    "title": "Learning Processing",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
+                    "description": "The Coding Train \"Learning Processing\" playlist"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 126.2",
+                    "url": "https://youtu.be/QYUROUJk_Sc?t=457s",
+                    "description": "Live Stream: Happy Pi Day - Part 2"
+                }
+            ]
+        }
+    ]
+}

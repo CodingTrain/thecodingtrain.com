@@ -164,6 +164,15 @@ export const query = graphql`
         slug
         languages
         topics
+        parts {
+          title
+          videoId
+          timestamps {
+            time
+            title
+            seconds
+          }
+        }
       }
       chapters {
         title
@@ -172,6 +181,15 @@ export const query = graphql`
           slug
           languages
           topics
+          parts {
+            title
+            videoId
+            timestamps {
+              time
+              title
+              seconds
+            }
+          }
         }
       }
       cover {
@@ -193,6 +211,15 @@ export const query = graphql`
         title
         time
         seconds
+      }
+      parts {
+        title
+        videoId
+        timestamps {
+          time
+          title
+          seconds
+        }
       }
       codeExamples {
         title

@@ -11,7 +11,7 @@
         "stochastic gradient descent"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["70-nearest-neighbors-recommendation-engine", "105-polynomial-regression-with-tensorflowjs", "106-xor-problem-with-tensorflowjs"],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "1:21", "title": "What is linear regression?" },
@@ -80,6 +80,12 @@
                 },
                 {
                     "icon": "🚂",
+                    "title": "Intelligence and Learning playlist",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX",
+                    "description": "Part 2 of Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017"
+                },
+                {
+                    "icon": "🚂",
                     "title": "ES6 Arrow Function",
                     "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
                     "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
@@ -91,6 +97,16 @@
                     "description": "What is a JavaScript Promise?"
                 }
             ]
-        }
+        },
+        {
+            "title": "Live Stream Archives",
+            "links": [{
+                "icon": "🔴",
+                "title": "Coding Train Live 139",
+                "url": "https://youtu.be/NZR-N_dhK2M?t=473s",
+                "description": "Live Stream with Linear Regression with TensorFlow.js"
+              }
+            ]
+        }   
     ]
 }

@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["generative art"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["108-barnsley-fern"],
   "timestamps": [
       { "time": "0:00", "title": "What is 10Print?" },
       { "time": "2:23", "title": "Let's code it in p5.js!" },
@@ -52,6 +52,23 @@
           "title": "Sol LeWitt's Wall Drawings",
           "url": "http://massmoca.org/sol-lewitt/",
           "description": "Sol LeWitt's works in MASS MoCA"
+        },
+        {
+          "icon": "🗄",
+          "title": "PETSCII",
+          "url": "https://en.wikipedia.org/wiki/PETSCII",
+          "description": "Wikipedia page with information and resources about the character set used in Commodore Business Machines."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 101",
+          "url": "https://youtu.be/PQwfop4bewM?t=3316s",
+          "description": "Livestream with \"let\" vs \"var\", \"const\",  10 PRINT,  Wikipedia API & more! - Part 2"
         }
       ]
     }

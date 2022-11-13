@@ -53,7 +53,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🏛",
+          "icon": "🌐",
           "title": "Lévy Flight on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/L%C3%A9vy_flight",
           "description": ""
@@ -98,6 +98,12 @@
           "title": "Coding Challenge #52: Random Walker",
           "url": "/challenges/52-random-walker",
           "description": "In this Coding Challenge, I implement a Random Walker using the p5.js library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #74",
+          "url": "https://youtu.be/mrAeK43YDgw",
+          "description": "Live Stream with Processing, p5.js and more Random Walks"
         }
       ]
     }

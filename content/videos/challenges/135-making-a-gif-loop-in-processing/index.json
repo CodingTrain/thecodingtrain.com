@@ -10,7 +10,7 @@
         "EZGIF"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["136-polar-noise-loops", "137-4d-opensimplex-noise-loop"],
     "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: GIF loops" },
         { "time": "3:04", "title": "Core idea of loop" },
@@ -65,6 +65,17 @@
                     "description": "Ezgif.com is a simple online GIF maker and toolset for basic animated GIF editing."
                 }
             ]
-        }
+        },
+        {
+            "title": "Videos",
+            "links": [
+              {
+                "icon": "🔴",
+                "title": "Coding Train Live 168",
+                "url": "https://youtu.be/_xa87yl0nd4?t=6080s",
+                "description": "Live Stream with Mathematical Hearts + GIF Loops"
+              }
+            ]
+          }
     ]
 }

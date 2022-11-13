@@ -2,8 +2,7 @@
   "title": "Game of Life",
   "url": "https://alexandrunst.github.io/Game-of-Life/",
   "author": {
-      "name": "Alexandru Nastase",
-      "url": ""
+    "name": "Alexandru Nastase"
   },
   "source": "https://github.com/AlexandruNst/Game-of-Life"
 }

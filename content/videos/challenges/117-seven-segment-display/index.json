@@ -7,6 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Bitwise Operations", "Bitwise AND"],
   "canContribute": true,
+  "relatedChallenges": ["119-binary-to-decimal-conversion", "120-bit-shifting"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "1:53", "title": "Let's talk about the seven segments" },
@@ -43,11 +44,18 @@
       "title": "References",
       "links": [
         {
-          "icon": "📑",
+          "icon": " 🌐",
           "title": "Seven-segment display on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Seven-segment_display",
           "description": "Wikipedia article on seven-segment display"
+        },
+        {
+          "icon": "🐦",
+          "title": "#thisdot7segment",
+          "url": "https://twitter.com/hashtag/thisdot7segment",
+          "description": "Tweets with seven-segment implementations."
         }
+
       ]
     },
     {
@@ -58,6 +66,12 @@
           "title": "What's The Longest Word You Can Write With Seven-Segment Displays?",
           "url": "https://www.youtube.com/watch?v=zp4BMR88260",
           "description": "Tom Scott's video on Seven-Segment Displays"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 156",
+          "url": "https://youtu.be/b8RwO1k9DXc?t=7442s",
+          "description": "Live Stream with word2vec & Seven-Segment Display"
         }
       ]
     }

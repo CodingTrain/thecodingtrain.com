@@ -22,7 +22,10 @@
     { "time": "14:08", "title": "Scale the scene" },
     { "time": "14:42", "title": "Add an array list to store the data" },
     { "time": "16:00", "title": "Write an enhanced loop" },
-    { "time": "17:00", "title": "Add beginShape() and endShape() to connect the points" },
+    {
+      "time": "17:00",
+      "title": "Add beginShape() and endShape() to connect the points"
+    },
     { "time": "17:52", "title": "Change to HSB mode and add color" },
     { "time": "19:07", "title": "Add an offset" },
     { "time": "20:06", "title": "Conclusion and design possiblities" }
@@ -43,7 +46,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "📑",
+          "icon": "🌐",
           "title": "Lorenz System on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Lorenz_system",
           "description": "Wikipedia article on the Lorenz System"
@@ -75,8 +78,19 @@
         {
           "icon": "📕",
           "title": "My NOC class on Kadenze",
-          "url": "https://www.kadenze.com/courses/the-nature-of-code/info", 
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
           "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/gw_TR1tycWQ?t=2202s",
+          "description": "Livestream #38: Viewer Submitted Questions + the Lorenz System"
         }
       ]
     }

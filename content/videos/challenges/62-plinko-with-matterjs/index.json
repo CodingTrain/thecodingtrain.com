@@ -11,7 +11,7 @@
   "timestamps": [],
   "parts": [
     {
-      "title": "Plinko with Matter.js Part 1",
+      "title": "Part 1 - Particle and Plinko Objects",
       "videoId": "KakpnfDv_f0",
       "timestamps": [
         {
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "title": "Plinko with Matter.js Part 2",
+      "title": "Part 2 - Adding Gravity and Buckets",
       "videoId": "6s4MJcUyaUE",
       "timestamps": [
         { "time": "0:00", "title": "Plinko Part 2" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "title": "Plinko with Matter.js Part 3",
+      "title": "Part 3 - Randomization and Adjustments",
       "videoId": "jN-sW-SxNzk",
       "timestamps": [
         { "time": "0:00", "title": "Plinko Part 3" },
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "title": "Plinko with Matter.js Part 4",
+      "title": "Part 4 - Adding Sound Effects",
       "videoId": "CdBXmsrkaPs",
       "timestamps": [
         { "time": "0:00", "title": "Plinko Part 4" },
@@ -88,6 +88,7 @@
     {
       "title": "Plinko Simulation",
       "description": "This sketch implements a Plinko simulation.",
+      "image": "plinko.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo"
       }
@@ -125,6 +126,12 @@
           "title": "Inheritance with Prototype in JavaScript",
           "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
           "description": "In this video, I discuss how inheritance works with prototypes in JS."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #84",
+          "url": "https://youtu.be/Iu3M-X1yRFU",
+          "description": "Live Stream with Plinko with Matter.js"
         }
       ]
     }

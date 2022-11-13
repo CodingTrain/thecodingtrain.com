@@ -68,7 +68,13 @@
                     "title": "What is Perlin Noise?",
                     "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
                     "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #136",
+                    "url": "https://youtu.be/PAmwKVCsg54?t=9180s",
+                    "description": "Live Stream with More Tensorflow.js + Fire Effect Challenge"
+                  }
             ]
         }
     ]

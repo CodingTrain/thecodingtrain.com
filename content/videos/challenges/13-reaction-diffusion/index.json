@@ -7,23 +7,45 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["math", "reaction diffusion"],
   "canContribute": true,
-  "relatedChallenges": ["85-the-game-of-life", "90-dithering", "103-fire-effect"],
+  "relatedChallenges": [
+    "85-the-game-of-life",
+    "90-dithering",
+    "103-fire-effect"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "0:36", "title": "The Gray-Scott model" },
     { "time": "1:41", "title": "Key pieces of the algorithm" },
     { "time": "4:24", "title": "Convolutions" },
     { "time": "7:01", "title": "2D arrays" },
-    { "time": "9:00", "title": "The grid stores the amount of a and b chemicals across every pixel" },
-    { "time": "10:30", "title": "Create another array to store the next generation" },
+    {
+      "time": "9:00",
+      "title": "The grid stores the amount of a and b chemicals across every pixel"
+    },
+    {
+      "time": "10:30",
+      "title": "Create another array to store the next generation"
+    },
     { "time": "11:37", "title": "Dealing with the pixel array" },
-    { "time": "12:55", "title": "Set the pixel colors based on the amount of a and b" },
-    { "time": "16:14", "title": "Write a function to swap the current and next grid" },
-    { "time": "19:30", "title": "Add the reaction diffusion formulas to the code" },
+    {
+      "time": "12:55",
+      "title": "Set the pixel colors based on the amount of a and b"
+    },
+    {
+      "time": "16:14",
+      "title": "Write a function to swap the current and next grid"
+    },
+    {
+      "time": "19:30",
+      "title": "Add the reaction diffusion formulas to the code"
+    },
     { "time": "24:27", "title": "Time steps" },
     { "time": "27:29", "title": "Add the Laplace functions" },
     { "time": "33:45", "title": "Seed a whole area with b" },
-    { "time": "36:37", "title": "Recap of the code and suggestions for creative possibilities" }
+    {
+      "time": "36:37",
+      "title": "Recap of the code and suggestions for creative possibilities"
+    }
   ],
   "codeExamples": [
     {
@@ -41,13 +63,13 @@
       "title": "References",
       "links": [
         {
-		  "icon" : "📖",
+          "icon": "📖",
           "title": "Karl Sims' Reaction Diffusion Tutorial",
           "url": "http://karlsims.com/rd.html",
           "description": "A tutorial on reaction diffusion by Karl Sims."
         },
         {
-		  "icon" : "📓",
+          "icon": "📓",
           "title": "2D Array Tutorial",
           "url": "https://processing.org/tutorials/2darray/",
           "description": "A tutorial on 2D Arrays in Processing website"
@@ -55,8 +77,19 @@
         {
           "icon": "📕",
           "title": "My NOC class on Kadenze",
-          "url": "https://www.kadenze.com/courses/the-nature-of-code/info", 
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
           "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/FYRINCEDVKI?t=6697s",
+          "description": "Livestream #39: Q&A and Reaction Diffusion Algorithm"
         }
       ]
     }

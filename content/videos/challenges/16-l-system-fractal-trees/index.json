@@ -7,8 +7,13 @@
   "languages": ["JavaScript", "p5.js", "Processing"],
   "topics": ["fractal trees", "L-system"],
   "canContribute": true,
-  "relatedChallenges": ["14-fractal-trees-recursive", "123-chaos-game", "174-graphics-applesoft-basic"],
-  "timestamps": [{
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "123-chaos-game",
+    "174-graphics-applesoft-basic"
+  ],
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introducing today's topic: L-systems"
     },
@@ -61,17 +66,22 @@
       "title": "Conclusion and suggestions for your own version"
     }
   ],
-  "codeExamples": [{
-    "title": "Fractal Trees - L-System",
-    "description": "This sketch uses a L-system to generate a fractal tree",
-    "urls": {
-      "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP",
-      "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem/Processing"
+  "codeExamples": [
+    {
+      "title": "Fractal Trees - L-System",
+      "description": "This sketch uses a L-system to generate a fractal tree",
+      "image": "l-system-fractal-trees.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/016_LSystem/Processing"
+      }
     }
-  }],
-  "groupLinks": [{
+  ],
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "🔗",
           "title": "L-systems",
           "url": "https://en.wikipedia.org/wiki/L-system",
@@ -92,13 +102,21 @@
       ]
     },
     {
-      "title": "videos",
-      "links": [{
-        "icon": "🎥",
-        "title": "Algorithmic Botony Track",
-        "url": "/tracks/algorithmic-botany",
-        "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing. "
-      }]
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Algorithmic Botany Track",
+          "url": "/tracks/algorithmic-botany",
+          "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #40",
+          "url": "https://youtu.be/MwLyeEWnMCY?t=5420s",
+          "description": "Live Stream Tree Generation with Different Algorithms"
+        }
+      ]
     }
   ]
 }

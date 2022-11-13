@@ -71,6 +71,15 @@
           "description": "Article about diffusion limited aggregation."
         }
       ]
+    },
+    {
+      "title": "Livestream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Livestream #56",
+        "url": "https://youtu.be/2S0J5iiQ0nw",
+        "description": "Livestream with Poisson-disc-sampling and DLA."
+      }]
     }
   ]
 }

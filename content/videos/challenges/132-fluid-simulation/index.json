@@ -97,6 +97,12 @@
           "title": "Perlin Noise",
           "url": "/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise",
           "description": "In this video, I show you what Perlin noise is and how it can be used in creative coding"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 167",
+          "url": "https://youtu.be/_LyC2l8g0R8?t=5893s",
+          "description": "Live Stream with Bouncing DVD Logo + Fluid Simulation"
         }
       ]
     }

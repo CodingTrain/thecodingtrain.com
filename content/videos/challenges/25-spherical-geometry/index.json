@@ -136,6 +136,12 @@
         "title": "Supershape track",
         "url": "/tracks/supershapes",
         "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
+      },
+      {
+        "icon": "🔴",
+        "title": "Live Stream Archive #47",
+        "url": "https://youtu.be/m8WhMeW8jj0",
+        "description": "Livestream with 3D Supershapes and Spherical Geometry"
       }]
     }
   ]

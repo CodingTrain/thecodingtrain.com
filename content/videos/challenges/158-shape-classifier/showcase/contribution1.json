@@ -1,8 +1,7 @@
 {
-    "title": "Handwriting Digits",
-    "author": {
-        "name": "Andrew Y",
-        "url": ""
-    },
-    "url": "https://github.com/YushchenkoAndrew/template/tree/master/JS/HandwrittenDigit/"
+  "title": "Handwriting Digits",
+  "author": {
+    "name": "Andrew Y"
+  },
+  "url": "https://github.com/YushchenkoAndrew/template/tree/master/JS/HandwrittenDigit/"
 }

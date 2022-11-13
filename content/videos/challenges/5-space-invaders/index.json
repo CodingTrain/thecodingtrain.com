@@ -50,6 +50,12 @@
           "title": "Classes in JavaScript",
           "url": "https://youtu.be/T-HGdc8L-7w",
           "description": "Tutorial on classes in JavaScript"
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive #33",
+          "url": "https://youtu.be/WpUnYfVmKdA?t=1192s",
+          "description": "Livestream with Space Invaders and Mitosis Simulation"
         }
       ]
     }

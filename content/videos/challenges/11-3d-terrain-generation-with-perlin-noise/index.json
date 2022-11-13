@@ -7,7 +7,11 @@
   "languages": ["Processing"],
   "topics": ["perlin noise", "terrain generation", "procedural"],
   "canContribute": true,
-  "relatedChallenges": ["18-3d-fractal-trees", "24-perlin-noise-flow-field", "112-3d-rendering-with-rotation-and-projection"],
+  "relatedChallenges": [
+    "18-3d-fractal-trees",
+    "24-perlin-noise-flow-field",
+    "112-3d-rendering-with-rotation-and-projection"
+  ],
   "timestamps": [
     { "time": "00:00", "title": "Introduction to the Challenge" },
     { "time": "00:46", "title": "What do we need to do?" },
@@ -69,6 +73,12 @@
           "title": "What is Perlin Noise?",
           "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/perlin-noise-and-p5js-tutorial-intro",
           "description": "Tutorial on Perlin Noise in p5.js"
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream #37",
+          "url": "https://youtu.be/ELpZW62HGVs?t=1735s",
+          "description": "Live Stream with 3D Terrain Generation"
         }
       ]
     }

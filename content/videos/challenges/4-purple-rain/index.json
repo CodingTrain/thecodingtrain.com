@@ -32,5 +32,17 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #34",
+          "url": "https://youtu.be/r8QMcI5qxQM?t=3919s",
+          "description": "Live Stream with Git and GitHub Tutorials + Purple Rain and Solar System"
+        }
+      ]
+    }
+  ]
 }

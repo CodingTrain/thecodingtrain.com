@@ -14,7 +14,8 @@
         "21-mandelbrot-set-with-p5js",
         "156-peeking-inside-pi",
         "161-estimating-pi-from-random-numbers",
-        "169-pi-in-the-sky"],
+        "169-pi-in-the-sky"
+    ],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "1:22", "title": "The Leibniz method for approximating pi!" },
@@ -56,7 +57,13 @@
                     "title": "Pi and the Mandelbrot Set",
                     "url": "https://youtu.be/d0vY0CKYhPY",
                     "description": "Numberphile video on the Mandelbrot set and Pi"
-                }
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 172",
+                    "url": "https://youtu.be/78ZthTGcdPw?t=5795s",
+                    "description": "Live Stream with different methods of calculated Pi"
+            }   
             ]
         }
     ]

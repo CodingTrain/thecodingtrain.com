@@ -17,10 +17,10 @@
     "timestamps": [],
   "parts": [
     {
-      "title": "Part 1: Forward Kinematics",
+      "title": "Part 1 - Forward Kinematics",
       "videoId": "xXjRlEr7AGk",
       "timestamps": [
-        { "time": "0:00", "title": "Introducting today's topics: Forward Kinematics" },
+        { "time": "0:00", "title": "Introducing today's topics: Forward Kinematics" },
         { "time": "3:17", "title": "Create a Segment class" },
         { "time": "9:30", "title": "Add a parent" },
         { "time": "10:24", "title": "Write a second Segment constructor" },
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "title": "Part 2: Inverse Kinematics",
+      "title": "Part 2 - Inverse Kinematics",
       "videoId": "hbgDqyy8bIw",
       "timestamps": [
         { "time": "0:00", "title": "What is the difference between forward and inverse kinematics?" },
@@ -56,7 +56,7 @@
       ]
     },
     {
-        "title": "Part 3: Inverse Kinematics - Fixed Point",
+        "title": "Part 3 - Fixed Point",
         "videoId": "RTc6i-7N3ms",
         "timestamps": [
           { "time": "0:00", "title": "Expand the inverse kinematics example" },
@@ -69,7 +69,7 @@
         ]
       },
       {
-        "title": "Part 4: Inverse Kinematics - Multiple",
+        "title": "Part 4 - Multiple Tentacles",
         "videoId": "10st01Z0jxc",
         "timestamps": [
           { "time": "0:00", "title": "Refactoring the Code" },
@@ -152,6 +152,22 @@
                     "title": "Coding Math on Youtube",
                     "url": "https://www.youtube.com/user/codingmath",
                     "description": "Youtube channel for Coding Math"
+                }
+            ]
+        }, 
+        {
+            "title": "Live Stream Archives",
+            "links": [{
+                    "icon": "🔴",
+                    "title": "Live Stream #85",
+                    "url": "https://youtu.be/5itOWkmIarg",
+                    "description": "Live Stream with Forward and Inverse Kinematics"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream #86",
+                    "url": "https://youtu.be/xtFu66DZrBw",
+                    "description": "Live Stream with  More Inverse Kinematics + Texturing Cloth SimulationGenerator"
                 }
             ]
         }

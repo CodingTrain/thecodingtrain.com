@@ -1,0 +1,81 @@
+{
+    "title": "Snake Game Redux",
+    "description": "Snake Game!? Again!? Now with the p5.js Web Editor!",
+    "videoNumber": "115",
+    "videoId": "OMoVcohRgZA",
+    "date": "2018-09-12",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": ["beginners", "snake", "games", "vectors", "arrays", "object-oriented programming"],
+    "canContribute": true,
+    "relatedChallenges": ["3-snake-game", "173-snake-applesoft-basic"],
+    "timestamps": [
+        {"time": "0:00", "title": "Introducing the p5.js Web Editor!"},
+        {"time": "1:18", "title": "What is the snake game?"},
+        {"time": "2:01", "title": "Creating the Snake class"},
+        {"time": "7:55", "title": "Adding the keyboard controls"},
+        {"time": "10:56", "title": "Scaling the snake by a variable resolution"},
+        {"time": "12:50", "title": "Adding the food"},
+        {"time": "16:03", "title": "Eating the food!"},
+        {"time": "18:30", "title": "Making the snake grow on eating food"},
+        {"time": "27:48", "title": "Adding conditions for the game over state"},
+        {"time": "32:50", "title": "Playing the game and things you could do!"}
+    ],
+    "codeExamples": [
+        {
+            "title": "Snake Game Redux",
+            "image": "snake.jpg",
+            "description": "Snake Game in the web editor for p5.js",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/HkDVpSvDm",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/115_Snake_Game_Redux"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {   
+                    "icon": "🔗",
+                    "title": "p5.js",
+                    "url": "https://p5js.org/",
+                    "description": "Link to the p5.js official website"
+                },
+                {   
+                    "icon": "🖌️",
+                    "title": "The p5.js Web Editor",
+                    "url": "https://editor.p5js.org/",
+                    "description": "Link to the web editor for p5.js"
+                },
+                {   
+                    "icon": "📄",
+                    "title": "Hello p5.js Web Editor!",
+                    "url": "https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf",
+                    "description": "Article by the Processing Foundation introducing the p5.js web editor"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {   "icon": "🚂",
+                    "title": "OOP with ES6",
+                    "url": "/tracks/code-programming-with-p5-js/code/6-objects/1-intro",
+                    "description": "Tutorial on object oriented programmign in JavaScript with ES6"
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Video Games track",
+                    "url": "/tracks/games",
+                    "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 150",
+                    "url": "https://youtu.be/wTDDsOZwdQY?t=9900s",
+                    "description": "Live Stream with Coding for Total Beginners with p5.js + Snake Game Redux"
+                }
+            ]
+        }
+    ]
+}

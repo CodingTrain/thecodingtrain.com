@@ -12,7 +12,7 @@ Thank you for sharing your work in the Passenger Showcase! There are currently t
 
 <PassengerShowcaseForm />
 
-If you have questions or need any help, come board the [Coding Train Discord](https://discord.gg/6DScedrtvH) or write to help@thecodingtrain.com. This guide is in progress, and will be updated as the showcase submission process changes.
+If you have questions or need any help, come board the [Coding Train Discord](https://thecodingtrain.com/discord) or write to help@thecodingtrain.com. This guide is in progress, and will be updated as the showcase submission process changes.
 
 ## Finding the Video on GitHub
 

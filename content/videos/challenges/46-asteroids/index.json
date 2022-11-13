@@ -14,7 +14,7 @@
     "timestamps": [],
     "parts": [
         {
-          "title": "Asteroids - Part 1",
+          "title": "Part 1 - Ship and Asteroids",
           "videoId": "hacZU523FyM",
           "timestamps": [
             { "time": "0:00", "title": "Introducing today's topic: coding the classic Atari game Asteroids" },
@@ -30,7 +30,7 @@
           ]
         },
         {
-            "title": "Asteroids - Part 2",
+            "title": "Part 2 - Lasers and Collision Detection",
             "videoId": "xTTuih7P0c0",
             "timestamps": [
                 { "time": "0:00", "title": "Asteroids - Part 2" },
@@ -57,26 +57,28 @@
             }
         }
     ],
-    "groupLinks": [
-        {
+    "groupLinks": [{
             "title": "References",
-            "links": [
-                {
-                    "icon": "🔗",
-                    "title": "Asteroids on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
-                    "description": "Wikipedia page with informatin and resources about the video game Asteroids"
-                }
-            ]
+            "links": [{
+                "icon": "🌐",
+                "title": "Asteroids on Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+                "description": "Wikipedia page with information and resources about the video game Asteroids"
+            }]
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "🎥",
                     "title": "Polar Coordinates",
                     "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
                     "description": "This video covers the trigonometric functions—sine, cosine, and tangent."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #70",
+                    "url": "https://youtu.be/VFnF87-JNtY",
+                    "description": "Live Stream with Asteroids and Pixel Sorting."
                 }
             ]
         }

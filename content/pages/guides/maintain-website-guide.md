@@ -76,7 +76,7 @@ When a challenge spans multiple videos, the process is a bit more... challenging
   "timestamps": [], <-- leave this empty
   "parts": [ <-- add this section
     {
-      "title": "Part 1: Islamic Star Patterns",
+      "title": "Part 1 - Implementing the Star Patterns",
       "videoId": "sJ6pMLp_IaI",
       "timestamps": [
         { "time": "00:00", "title": "Title 1" },
@@ -84,7 +84,7 @@ When a challenge spans multiple videos, the process is a bit more... challenging
       ]
     },
     {
-      "title": "Part 2: Update - Law of Sines",
+      "title": "Part 2 - Refactoring using the Law of Sines",
       "videoId": "lobJ9gzbLo8",
       "timestamps": [
         { "time": "00:00", "title": "Title 1" },
@@ -151,12 +151,15 @@ git push --set-upstream origin branch-name
    - Some projects will have been written in languages like Python or C++ which don't, by default, lend themselves very nicely to the web. Sometimes these projects are hosted on sites where previews of the running project are available. If so, grab a screenshot of the running project to use as the thumbnail for that project. If not, the placeholder image will be used.
    - To add a thumbnail image, copy the image file into the "showcase" directory within the challenge's directory and re-name the image so that it matches the filename of the contribution's JSON file. For example, if you have a "contribution1.json" file, you should also have a "contribution1.jpg" file.  While any aspect ratio is fine (the site will resize and crop as necessary), the images will be displayed at 16:9 aspect ratio. If you able to get a "landscape" screenshot, it will look better.  The file format should be JPG or PNG, with a maximum width of 800px and file size of 500 kb.
 
-7. Check the links to the references and videos to make sure are not broken and add additional metadata.
+7. Check the links to the references and videos to make sure are not broken and add additional metadata.  Add a link (s) to any archived Live Streams associated with the challenge.
 
    - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
    - Update the "languages" property in the "index.json" file. In this instance, "languages" refers to the programming language(s) used in the challenge. For example: "p5.js", "JavaScript", "Processing", or "node.js".
    - Update the "topics" property in the "index.json" file. If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics". The tags from YouTube are pretty generic and overall too much information. Only a handful of topics are needed, so only include topics that are relevant to this specific video. If no tags were present on the YouTube page, then this may be blank - go ahead and add a couple of topics!
-   - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file. Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept.
+   - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file. Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept. 
+   - If there are multiple Live Streams associated with the challenge, add a new group `"Live Stream Archives"`. 
+
+   ![screenshot of Live Stream Archives](./maintain-website/livestream.jpg)
 
 8. Add time codes for the video.
    - The "timestamps" property in the "index.json" file may contain time codes that were pulled in from the YouTube video. If those didn't exist for the YouTube video, go ahead and add those time codes.
@@ -222,7 +225,7 @@ Then copy the template into the `index.json`:
   ],
   "parts": [
     {
-      "title": "Part 1: Title of 1st part (only for multi-part challenges)",
+      "title": "Part 1 - Specific Title for Part 1",
       "videoId": "YouTube video ID for Part 1",
       "timestamps": [
         { "time": "0:00", "title": "Only for multi-part challenges" },
@@ -230,7 +233,7 @@ Then copy the template into the `index.json`:
       ]
     },
     {
-      "title": "Part 2: Title of 2nd part (only for multi-part challenges)",
+      "title": "Part 2 - Specific Title for Part 2"
       "videoId": "YouTube video ID for Part 2",
       "timestamps": [
         { "time": "0:00", "title": "Title 1" },
@@ -288,13 +291,13 @@ The `"canContribute"` key sets if the passenger showcase for the video will be s
 
 The `"relatedChallenges"` key specifies an array of challenges that relate to the new video. It may be an empty array.
 
-The `"parts"` section is only needed for multi-part coding challenges. It should contain a `"title"`, the YouTube `"videoId"` and the `"timestamps"` for each part of a multi-part challenge. This section must be removed entirely for single-part challenges.
+The `"parts"` section is only needed for multi-part coding challenges. It should contain a `"title"`, the YouTube `"videoId"` and the `"timestamps"` for each part of a multi-part challenge. The `"title"` should follow this format: `"Part 1 - Part-Specific Title"`. This `"parts"` section should be removed entirely for single-part challenges. 
 
 For the `"codeExamples"` section, each code example should at least contain one URL to the code in the `"urls"` object. The keys for that object `"p5"`, `"processing"` or `"node"` reference the possible languages we support for icons, and `"other"` is a fallback option in case none of the previous ones apply.
 
 Also, each code example can have a thumbnail linked to it using the `"image"`key. You should also add the corresponding image to the file system, in an `images/` folder inside the video folder.
 
-For the `"groupLinks"` section, links to videos should be put in a `"Videos"` group. Links to other pages, such as Wikipedia articles, blog posts, and documentation entries should be put in a `"References"` group.
+For the `"groupLinks"` section, links to other pages, such as Wikipedia articles, blog posts, and documentation entries should be put in a `"References"` group. Links to videos should be put in a `"Videos"` group.  If there is more than one archived Live Stream associated with the challenge, create a new group called `"Live Stream Archives"`.  
 
 ### Adding video thumbnail
 
@@ -375,7 +378,7 @@ from GitHub.
 ## Troubleshooting
 
 Sometimes, things don't work like they should. If you get stuck, don't worry!
-Feel free to ask for help at any time, file an issue or come say hello in the [Coding Train Discord](https://discord.com/invite/hPuGy2g).
+Feel free to ask for help at any time, file an issue or come say hello in the [Coding Train Discord](https://thecodingtrain.com/discord).
 
 ## Adding a New Event
 

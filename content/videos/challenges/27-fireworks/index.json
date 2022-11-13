@@ -70,6 +70,17 @@
           "description": "Documentation for the PeasyCam Processing library"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #48",
+          "url": "https://youtu.be/ATWOjXdRIoo",
+          "description": "Live Stream with Computer Vision and Fireworks!"
+        }
+      ]
     }
   ]
 }

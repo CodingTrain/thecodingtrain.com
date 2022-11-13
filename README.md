@@ -8,11 +8,9 @@ This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/
 - [Gatsby](https://www.gatsbyjs.com/) to perform the static site rendering
 - [React](https://reactjs.org/) as the general JavaScript framework
 
-## Hacktoberfest 2022
-It's time for [hacktoberfest](https://hacktoberfest.com/) again this year! We welcome all the wonderful contributors coming from hacktoberfest, and we urge you to read [CONTRIBUTING.md](https://github.com/CodingTrain/thecodingtrain.com/blob/main/CONTRIBUTING.md) for more details about how you can contribute to this project. We try to be as welcoming and helpful as possible to the newcomers to open source, so please feel free to seek help when you need it. Happy hacking!
-
 ## Table of Contents
 
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)**. This page will tell you all the necessary information about contributing to this repo.
 - **[Content Structure Guide](/content/pages/guides/content-structure-guide.md)**. This guide walk you through the process of adding content to the website.
 
 ## Development info

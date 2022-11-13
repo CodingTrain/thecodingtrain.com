@@ -7,7 +7,7 @@
   "languages": ["Processing", "p5.js"],
   "topics": ["flocking", "creative coding", "autonomous agents"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["69-evolutionary-steering-behaviors"],
   "timestamps": [
     {
       "time": "0:00",
@@ -97,6 +97,12 @@
           "title": "Autonomous Steering Agents",
           "url": "https://youtu.be/P_xJMH8VvAE",
           "description": "The introductory video of the series exploring the chapter on autonomous agents in Nature of Code"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 162",
+          "url": "https://youtu.be/qtUV-DoSOpk?t=1350s",
+          "description": "Live Stream with Flocking Simulation."
         }
       ]
     }

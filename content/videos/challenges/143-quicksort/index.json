@@ -81,8 +81,7 @@
         },
         {
             "title": "Videos",
-            "links": [
-                {
+            "links": [{
                     "icon": "🎞️",
                     "title": "15 Sorting Algorithms in 6 Minutes",
                     "url": "https://youtu.be/kPRA0W1kECg",
@@ -93,6 +92,12 @@
                     "title": "async/await",
                     "url": "https://youtu.be/XO77Fib9tSI",
                     "description": "Tutorial on ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 173",
+                    "url": "https://youtu.be/277611ExU9A?t=5538s",
+                    "description": "Live Stream with Rubik's Cube and Quicksort Visualization"
                 }
             ]
         }

@@ -7,7 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["mitosis", "simulation"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["36-blobby"],
   "timestamps": [
     { "time": "00:00", "title": "Welcome to the challenge!" },
     { "time": "00:56", "title": "Create a Cell constructor" },
@@ -36,5 +36,17 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Livestream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #33",
+          "url": "https://youtu.be/WpUnYfVmKdA?t=4390s",
+          "description": "Livestream with Space Invaders and Mitosis Simulation"
+        }
+      ]
+    }
+  ]
 }

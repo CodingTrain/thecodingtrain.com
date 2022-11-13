@@ -48,6 +48,12 @@
           "icon": "🎥",
           "title": "My playlist on fractals & recursion",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #102",
+          "url": "https://youtu.be/-RvrDZd1xVw?t=5748s",
+          "description": "Intro to ES6 Classes - OOP in JavaScript"
         }
       ]
     }

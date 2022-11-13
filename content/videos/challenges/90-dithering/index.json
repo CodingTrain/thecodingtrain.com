@@ -63,13 +63,13 @@
           "description": "My Processing Tutorial on 2D Arrays."
         },
         {
-          "icon": "🔗",
+          "icon": "🌐",
           "title": "Dither on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Dither",
           "description": "Discussion of dithering."
         },
         {
-          "icon": "🔗",
+          "icon": "🌐",
           "title": "Floyd–Steinberg dithering on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering",
           "description": "Discussion of Floyd Steinberg dithering."
@@ -78,8 +78,7 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🚂",
           "title": "My Tutorial on Pixels in Processing",
           "url": "https://youtu.be/EmtU0eloTlE",
@@ -90,6 +89,12 @@
           "title": "My Video on 2D Arrays",
           "url": "https://www.youtube.com/watch?v=OTNpiLUSiB4",
           "description": "In this video, I demonstrate how to create, initialize, and use the arrays with nested for loops."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 114",
+          "url": "https://youtu.be/iCxqLVm2H3w?t=8474s",
+          "description": "Live Stream with Neural Networks Continued"
         }
       ]
     }

@@ -11,10 +11,10 @@
         "heuristic"
     ],
     "canContribute": true,
-    "relatedChallenges": ["10-dfs-maze-generator"],
+    "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk"],
     "timestamps": [],
     "parts": [{
-            "title": "A* Pathfinder Algorithm - Part 1",
+            "title": "Part 1 - Implementing the Algorithm",
             "videoId": "aKYlikFAV4k",
             "timestamps": [{
                     "time": "0:00:00",
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "title": "A* Algorithm - Part 2",
+            "title": "Part 2 - Adding Obstacles and Diagonals",
             "videoId": "EaZxUCWAjb0",
             "timestamps": [{
                     "time": "0:00:00",
@@ -88,7 +88,7 @@
             ]
         },
         {
-            "title": "A* Algorithm - Part 3",
+            "title": "Part 3 - Better Visualization",
             "videoId": "jwRT4PCT6RU",
             "timestamps": [{
                     "time": "0:00:00",
@@ -112,9 +112,11 @@
     "codeExamples": [{
         "title": "A* Algorithm",
         "description": "This sketch implements the A* Pathfinding Algorithm",
+        "image": "a-pathfinding-algorithm.png",
         "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat",
-            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar"
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar",
+            "other": "https://github.com/CodingTrain/AStar"
         }
     }],
     "groupLinks": [{
@@ -130,14 +132,20 @@
                     "title": "A* Search Algorithm on Wikipedia",
                     "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
                     "description": "Wikipedia page with background and references on the A* algorithm."
+                },
+                {
+                    "icon": "💻",
+                    "title": "Online demo",
+                    "url": "https://codingtrain.github.io/AStar/",
+                    "description": "This is a demonstration of the A* \"search\" algorithm for pathfinding on a 2D grid."
                 }
             ]
         },
         {
             "title": "Live Stream Archive",
             "links": [{
-                    "icon": "🎥",
-                    "title": "A* Livestream",
+                    "icon": "🔴",
+                    "title": "A* Livestream #72",
                     "url": "https://www.youtube.com/watch?v=S4yQYiAECnM&t=34m50s",
                     "description": "This unedited archive features the entire very long and messy debugging process!"
                 }

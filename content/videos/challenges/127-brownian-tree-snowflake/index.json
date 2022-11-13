@@ -14,6 +14,8 @@
   "relatedChallenges": [
     "34-diffusion-limited-aggregation",
     "52-random-walker",
+    "128-sketch-rnn-snowflakes",
+    "129-koch-fractal-snowflake",
     "155-kaleidoscope-snowflake"
   ],
   "timestamps": [
@@ -72,13 +74,12 @@
       ]
     },
     {
-      "title": "Videos",
-      "links": [
-        {
-          "icon": "🚂",
-          "title": "Coding Challenge: Diffusion-Limited Aggregation",
-          "url": "https://www.youtube.com/watch?v=Cl_Gjj80gPE",
-          "description": "In this Coding Challenge, I explore the \"Diffusion-Limited Aggregation\" generative algorithm. "
+      "title": "Live Stream Archive",
+      "links": [{
+          "icon": "🔴",
+          "title": "Coding Train Live Holiday Telethon 2018",
+          "url": "https://youtu.be/WACLmPBxMaw?t=2392s",
+          "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
     }

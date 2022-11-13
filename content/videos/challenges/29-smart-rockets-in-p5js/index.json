@@ -28,7 +28,8 @@
   "codeExamples": [
     {
       "title": "Smart Rockets",
-      "description": "This sketch implements a smart rocket algorithm.",
+      "description": "This sketch implements a smart rocket algorithm.", 
+      "image": "smart-rockets-in-p5js.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/o5PwECj42",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/029_SmartRockets/Processing/CC_029_SmartRockets"
@@ -44,6 +45,12 @@
           "title": "My Genetic Algorithm playlist",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
           "description": "These video lessons accompany Chapter 9 (Genetic Algorithms) from The Nature of Code book."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #53",
+          "url": "https://youtu.be/A01_aKgIeCo",
+          "description": "Live Stream with Smart Rockets, CodePen and Arguments Array in JS"
         }
       ]
     }

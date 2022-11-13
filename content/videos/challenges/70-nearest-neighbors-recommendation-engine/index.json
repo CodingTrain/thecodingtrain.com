@@ -12,11 +12,11 @@
     "associative arrays"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["98-quadtree", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
   "timestamps": [],
   "parts": [
     {
-      "title": "Nearest Neighbors Recommendation Engine - Part 1",
+      "title": "Part 1 - Similarity Score Between Ratings",
       "videoId": "N8Fabn1om2k",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "title": "Nearest Neighbors Recommendation Engine - Part 2",
+      "title": "Part 2 - Find the Nearest Neighbors",
       "videoId": "Lo89NLmSgl0",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -59,11 +59,11 @@
       ]
     },
     {
-      "title": "Nearest Neighbors Recommendation Engine - Part 3",
+      "title": "Part 3 - Creating the Recommendation Engine",
       "videoId": "aMtckmWAzDg",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
-        { "time": "1:14", "title": "Loop throught the titles" },
+        { "time": "1:14", "title": "Loop through the titles" },
         { "time": "3:45", "title": "Add \"not seen\" option" },
         { "time": "4:20", "title": "Predict ratings" },
         { "time": "5:10", "title": "Add the dropdowns to an array" },
@@ -83,7 +83,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Nearest Neighbors, Part 1",
+      "title": "Nearest Neighbors - Part 1",
       "description": "This sketch shows how to calculate a similarity score between two users.",
       "image": "nn1.jpg",
       "urls": {
@@ -91,7 +91,7 @@
       }
     },
     {
-      "title": "Nearest Neighbors, Part 2",
+      "title": "Nearest Neighbors - Part 2",
       "description": "This sketch iterates through all the users to find the \"nearest neigbors\" and list \"similar\" users.",
       "image": "nn2.jpg",
       "urls": {
@@ -99,7 +99,7 @@
       }
     },
     {
-      "title": "Nearest Neighbors, Part 3",
+      "title": "Nearest Neighbors - Part 3",
       "description": "This sketch uses the K-Nearest Neighbor Machine Learning algorithm to predict ratings for movies that haven't been seen yet.",
       "image": "nn3.jpg",
       "urls": {
@@ -107,7 +107,7 @@
       }
     },
     {
-      "title": "Nearest Neighbors, Part 3 with added styling",
+      "title": "Nearest Neighbors - Part 3 with added styling",
       "description": "This sketch has added styling.",
       "image": "style.jpg",
       "urls": {
@@ -141,6 +141,12 @@
           "title": "My Video on Associative Arrays",
           "url": "https://www.youtube.com/watch?v=_5jdE6RKxVk",
           "description": "In this video, I discuss the concept of \"associative arrays\" in JavaScript."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 91",
+          "url": "https://youtu.be/Do_Gftp_oug?t=3985s",
+          "description": "Session 3 of Intelligence and Learning"
         }
       ]
     }

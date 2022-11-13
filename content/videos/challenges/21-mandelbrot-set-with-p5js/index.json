@@ -38,7 +38,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🗄",
+          "icon": "🌐",
           "title": "Wikipedia on Mandelbrot Set",
           "url": "https://en.wikipedia.org/wiki/Mandelbrot_set",
           "description": "Discussion of the mandelbrot set."
@@ -50,6 +50,16 @@
           "description": "Mandelbrot set explorer."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+      {
+        "icon": "🔴",
+        "title": "Live Stream #43",
+        "url": "https://youtu.be/pLtViSqkPvQ",
+        "description": "Live Stream with Mandelbrot Set with p5.js"
+      }]
     }
   ]
 }
