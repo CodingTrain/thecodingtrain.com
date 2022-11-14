@@ -63,6 +63,12 @@
             "title": "Workflow - Shell",
             "url": "https://youtu.be/FnkkzgYuXUM",
             "description": "What is a \"shell\"? In this video, I look at at \"zsh\" (instead of the default Mac OSX shell: bash)."
+          },
+          {
+            "icon": "🚂",
+            "title": "Mastodon Track",
+            "url": "/tracks/mastodon",
+            "description": "This track covers the decentralized open source social media platform Mastodon."
           }
         ]
       }
