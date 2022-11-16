@@ -4,6 +4,7 @@ import cn from 'classnames';
 import Tabs from './Tabs';
 import CodeExampleList from './CodeExampleList';
 import LinkList from './LinkList';
+import CreditList from './CreditList';
 import CollapsableDescription from './CollapsableDescription';
 import * as css from './VideoInfo.module.css';
 
@@ -16,6 +17,10 @@ const useLabels = (video) => {
   labels.push('DESCRIPTION');
 
   labels = [...labels, ...video.groupLinks.map((g) => g.title.toUpperCase())];
+
+  if (video.credits && video.credits.length > 0) {
+    labels.push('CREDITS');
+  }
   return labels;
 };
 
@@ -42,6 +47,9 @@ const VideoInfo = ({ video, variant, url, placeholderImage }) => {
         {video.groupLinks.map((g, index) => (
           <LinkList links={g.links} variant={variant} key={index} />
         ))}
+        {video.credits && video.credits.length > 0 && (
+          <CreditList credits={video.credits} variant={variant} />
+        )}
       </Tabs>
     </div>
   );

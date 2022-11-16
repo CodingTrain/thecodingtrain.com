@@ -1,0 +1,31 @@
+import React, { memo } from 'react';
+import cn from 'classnames';
+
+import * as css from './CreditList.module.css';
+
+const Credit = ({ credit }) => {
+  const { name, title, url } = credit;
+
+  return (
+    <li className={css.link}>
+      <div className={css.bold}>{title}</div>
+      {name && (
+        <div className={css.description}>
+          <p>by {url ? <a href={url}>{name}</a> : name}</p>
+        </div>
+      )}
+    </li>
+  );
+};
+
+const CreditList = memo(({ className, variant, credits }) => {
+  return (
+    <ul className={cn(css.root, className, { [css[variant]]: variant })}>
+      {credits.map((credit, key) => (
+        <Credit key={key} credit={credit} />
+      ))}
+    </ul>
+  );
+});
+
+export default CreditList;

@@ -91,5 +91,19 @@
         }
       ]
     }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    },
+    {
+      "title": "Music",
+      "name": "Epidemic Sound"
+    }
   ]
 }
