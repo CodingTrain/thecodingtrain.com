@@ -19,40 +19,9 @@ const useLabels = (video) => {
   return labels;
 };
 
-const useCredits = (video) => {
-  const credits = video.credits || [];
-  return credits.map((credit) => {
-    return credit.url ? (
-      <>
-        {credit.title} by <a href={credit.url}>{credit.name}</a>
-        <br />
-      </>
-    ) : (
-      <>
-        {credit.title} by {credit.name}
-        <br />
-      </>
-    );
-  });
-};
-
 const VideoInfo = ({ video, variant, url, placeholderImage }) => {
   const labels = useLabels(video);
-  const credits = useCredits(video);
-  const descriptionContent = (
-    <>
-      {video.description}
-      {video.credits && (
-        <>
-          <br />
-          <br />
-          Credits:
-          <br />
-          {credits}
-        </>
-      )}
-    </>
-  );
+
   return (
     <div className={cn(css.root, { [css[variant]]: variant })}>
       <Tabs className={css.aboutTabs} variant={variant} labels={labels}>
@@ -67,7 +36,7 @@ const VideoInfo = ({ video, variant, url, placeholderImage }) => {
           className={css.description}
           expandedClassName={css.descriptionExpanded}
           variant={variant}
-          content={descriptionContent}
+          content={video.description}
           charLimit={150}
         />
         {video.groupLinks.map((g, index) => (
