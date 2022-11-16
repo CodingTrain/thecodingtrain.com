@@ -118,6 +118,13 @@
           "title": "Coding Together",
           "url": "https://soundcloud.com/user-207981744-979066415/coding-together",
           "description": "Theme song by Will from America!"
+        },
+       
+        {
+          "icon": "🪧",
+          "title": "Peeks, Pokes and Pointers",
+          "url": "https://archive.org/details/peeks-pokes-pointers",
+          "description": "1984 Apple II reference poster from Beagle Bros Micro Software"
         }
       ]
     },
@@ -166,17 +173,6 @@
           "description": "PDF of original Apple II manual and reference for AppleSoft BASIC."
         },
         {
-          "icon": "🪧",
-          "title": "Peeks, Pokes and Pointers",
-          "url": "https://archive.org/details/peeks-pokes-pointers",
-          "description": "1984 Apple II reference poster from Beagle Bros Micro Software"
-        }
-      ]
-    },
-    {
-      "title": "Apple II Emulators",
-      "links": [
-        {
           "icon": "☕",
           "title": "Applesoft BASIC in JavaScript",
           "url": "https://www.calormen.com/jsbasic/",
@@ -197,7 +193,7 @@
       ]
     },
     {
-      "title": "Unedited Raw Footage",
+      "title": "Raw Footage",
       "links": [
         {
           "icon": "⭐️",

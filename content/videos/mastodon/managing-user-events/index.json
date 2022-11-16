@@ -10,7 +10,7 @@
   "timestamps": [
     { "time": "0:00", "title": "Listening for a mention events" },
     { "time": "1:11", "title": "Using a regular expression to respond to the content" },
-    { "time": "2:17", "title": "Favourite the post" },
+    { "time": "2:17", "title": "Favorite the post" },
     { "time": "9:09", "title": "Reblog" },
     { "time": "10:12", "title": "Every action has an ID" }
   ],
@@ -45,6 +45,16 @@
           "title": "Mastodon API on npm",
           "url": "https://www.npmjs.com/package/mastodon-api",
           "description": "Mastodon API client for node."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [{
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
         }
       ]
     }
