@@ -103,6 +103,7 @@ exports.createVideoRelatedNode = (
       ...part,
       timestamps: timestampsWithSeconds(part.timestamps ?? [])
     }));
+
     const languages = data.languages ?? [];
     const topics = data.topics ?? [];
 
@@ -111,9 +112,7 @@ exports.createVideoRelatedNode = (
       parent: node.id,
       slug,
       languages,
-      languagesFlat: languages.join(),
       topics,
-      topicsFlat: topics.join(),
       timestamps,
       parts,
       codeExamples: (data.codeExamples ?? []).map((example) => ({
@@ -143,7 +142,7 @@ exports.createVideoRelatedNode = (
 
     for (let tag of newNode.languages) {
       const content = {
-        id: createNodeId(`--tag/${tag}`),
+        id: createNodeId(`--tag/language/${tag}`),
         parent: node.id,
         type: 'language',
         value: tag
@@ -158,7 +157,7 @@ exports.createVideoRelatedNode = (
     }
     for (let tag of newNode.topics) {
       const content = {
-        id: createNodeId(`--tag/${tag}`),
+        id: createNodeId(`--tag/topic/${tag}`),
         parent: node.id,
         type: 'topic',
         value: tag
@@ -172,41 +171,6 @@ exports.createVideoRelatedNode = (
       });
     }
   }
-};
-
-const computeTrackTags = (trackDirectory, type) => {
-  const languages = new Set();
-  const topics = new Set();
-  const trackPath = `../content/tracks/${type}/${trackDirectory}/index.json`;
-
-  let trackData;
-  try {
-    trackData = require(trackPath);
-  } catch (error) {
-    console.log(`Couldn't tag load of track ${trackPath}`);
-  }
-  if (trackData !== undefined) {
-    let videos = [];
-    if (trackData.chapters) {
-      trackData.chapters.forEach((chapter) => {
-        chapter.videos.forEach((video) => videos.push(video));
-      });
-    } else {
-      videos = trackData.videos;
-    }
-    videos = videos.map((slug) => `../content/videos/${slug}/index.json`);
-    for (let video of videos) {
-      try {
-        const videoData = require(video);
-        videoData.languages.forEach((lang) => languages.add(lang));
-        videoData.topics.forEach((topic) => topics.add(topic));
-      } catch (e) {
-        console.log(`Couldn't read tags of video ${video}`);
-      }
-    }
-  }
-
-  return [languages, topics].map((s) => [...s]);
 };
 
 const trackOrderPath = './content/tracks/index.json';
@@ -277,11 +241,6 @@ exports.createTrackRelatedNode = (
     numVideos += data.videos.length;
   }
 
-  const [languages, topics] = computeTrackTags(
-    parent.relativeDirectory,
-    trackType
-  );
-
   const order = getTrackOrder(slug, trackType);
 
   const newNode = Object.assign({}, data, {
@@ -292,10 +251,6 @@ exports.createTrackRelatedNode = (
     numVideos,
     order,
     cover: createNodeId(`cover-image/${trackType}/${slug}`),
-    languages,
-    languagesFlat: languages.join(),
-    topics,
-    topicsFlat: topics.join(),
     internal: {
       type: `Track`,
       contentDigest: createContentDigest(data)
