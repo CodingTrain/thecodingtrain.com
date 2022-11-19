@@ -36,7 +36,7 @@ const VideoInfo = ({ video, variant, url, placeholderImage }) => {
           expandedClassName={css.descriptionExpanded}
           variant={variant}
           content={video.description}
-          charLimit={150}
+          charLimit={280}
         />
         {video.groupLinks.map((g, index) => (
           <LinkList links={g.links} variant={variant} key={index} />
