@@ -1,0 +1,36 @@
+# https://play.netlify.com/redirects
+
+# SEO - 301
+
+/Guides/community-contribution-guide.html /guides/passenger-showcase-guide
+/CodingChallenges/166-ascii-image.html /challenges/166-image-to-ascii
+/CodingChallenges/ /challenges
+/CodingChallenges/149-tic-tac-toe.html /challenges/149-tic-tac-toe
+/CodingChallenges/154-tic-tac-toe-minimax.html /challenges/154-tic-tac-toe-minimax
+/CodingChallenges/167-prime-spiral.html /challenges/167-prime-spiral
+/CodingChallenges/085-the-game-of-life.html /challenges/85-the-game-of-life
+/CodingChallenges/001-starfield.html /challenges/1-starfield
+/CodingChallenges/124-flocking-boids /challenges/124-flocking-simulation
+/CodingChallenges/125-fourier-series.html /challenges/125-fourier-series
+/CodingChallenges/168-mandelbulb.html /challenges/168-the-mandelbulb
+/CodingChallenges/024-perlinnoiseflowfield.html /challenges/24-perlin-noise-flow-field
+/CodingChallenges/132-fluid-simulation.html /challenges/132-fluid-simulation
+/CodingChallenges/090-floyd-steinberg-dithering.html /challenges/90-dithering
+/CodingChallenges/011-perlinnoiseterrain.html /challenges/11-3d-terrain-generation-with-perlin-noise
+/challenges/154-tic-tac-toe-minmax /challenges/154-tic-tac-toe-minimax
+/CodingChallenges/142.1-rubiks-cube /challenges/142-rubiks-cube
+/Tutorials/7-object-interaction/7.4-mouse-interaction.html /tracks/code-programming-with-p5-js/code/7-arrays/4-mouse-interaction
+/beginners/p5js/ /tracks
+/CodingChallenges/113-hypercube.html /challenges/113-4d-hypercube-aka-tesseract
+/CodingChallenges/003-snake-game-p5.html /challenges/3-snake-game
+/CodingChallenges/145-2d-ray-casting /challenges/145-ray-casting-2d
+
+# shortcuts - 302
+
+/discord https://discord.gg/ZHydDC8sXN 302
+/pi2022 https://editor.p5js.org/codingtrain/full/U11UYbgVc 302
+/colors https://coding-train-colors.vercel.app/ 302
+/wheel https://editor.p5js.org/kingpepe/full/n_KhX8lYC 302
+/appleII /challenges/173-snake-applesoft-basic 302
+/apple2tree /challenges/174-graphics-applesoft-basic 302
+/choochoo https://curiositystream.com/?coupon=choochoo 302
