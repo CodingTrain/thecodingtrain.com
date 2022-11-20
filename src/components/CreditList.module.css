@@ -6,14 +6,9 @@
 .link {
   display: flex;
   align-items: center;
-  margin-top: -2px;
-  padding-left: var(--spacing-normal);
+  padding-left: var(--box-padding);
   border-left: var(--border);
   color: var(--gray-dark);
-
-  &:first-child {
-    border-top: var(--border);
-  }
 
   &:last-child {
     border-bottom: var(--border);
@@ -21,9 +16,9 @@
 }
 
 .description {
-  height: var(--baseline-3of4);
+  height: var(--baseline);
   padding: 0 var(--spacing-normal);
-  line-height: var(--baseline-3of4);
+  line-height: var(--baseline);
 }
 
 .bold {
@@ -34,10 +29,7 @@
   font-size: var(--maru-normal);
   display: flex;
   align-items: center;
-  & p {
-    margin: 0;
-    line-height: var(--baseline-1of3);
-  }
+
   & a {
     text-decoration: underline;
   }
