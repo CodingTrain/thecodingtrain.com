@@ -20,39 +20,14 @@
   }
 }
 
-.icon,
-.description,
-.url {
+.description {
   height: var(--baseline-3of4);
   padding: 0 var(--spacing-normal);
   line-height: var(--baseline-3of4);
 }
 
-.icon {
-  flex: 1 0 35px;
-  max-width: 35px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.url {
-  display: flex;
-  align-items: center;
-  flex: 1 0 350px;
-  overflow: hidden;
-  max-width: 350px;
-  text-decoration: underline;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  color: var(--gray-dark);
-  font-size: var(--maru-large);
-}
-
 .bold {
   font-weight: bold;
-  & p {
-    margin: 0;
-  }
 }
 
 .description {
