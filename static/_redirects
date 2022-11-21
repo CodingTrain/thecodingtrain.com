@@ -1,0 +1,36 @@
+# https://play.netlify.com/redirects
+
+# SEO - 301
+
+/Guides/community-contribution-guide.html /guides/passenger-showcase-guide 301!
+/CodingChallenges/166-ascii-image.html /challenges/166-image-to-ascii 301!
+/CodingChallenges/ /challenges 301!
+/CodingChallenges/149-tic-tac-toe.html /challenges/149-tic-tac-toe 301!
+/CodingChallenges/154-tic-tac-toe-minimax.html /challenges/154-tic-tac-toe-minimax 301!
+/CodingChallenges/167-prime-spiral.html /challenges/167-prime-spiral 301!
+/CodingChallenges/085-the-game-of-life.html /challenges/85-the-game-of-life 301!
+/CodingChallenges/001-starfield.html /challenges/1-starfield 301!
+/CodingChallenges/124-flocking-boids /challenges/124-flocking-simulation 301!
+/CodingChallenges/125-fourier-series.html /challenges/125-fourier-series 301!
+/CodingChallenges/168-mandelbulb.html /challenges/168-the-mandelbulb 301!
+/CodingChallenges/024-perlinnoiseflowfield.html /challenges/24-perlin-noise-flow-field 301!
+/CodingChallenges/132-fluid-simulation.html /challenges/132-fluid-simulation 301!
+/CodingChallenges/090-floyd-steinberg-dithering.html /challenges/90-dithering 301!
+/CodingChallenges/011-perlinnoiseterrain.html /challenges/11-3d-terrain-generation-with-perlin-noise 301!
+/challenges/154-tic-tac-toe-minmax /challenges/154-tic-tac-toe-minimax 301!
+/CodingChallenges/142.1-rubiks-cube /challenges/142-rubiks-cube 301!
+/Tutorials/7-object-interaction/7.4-mouse-interaction.html /tracks/code-programming-with-p5-js/code/7-arrays/4-mouse-interaction 301!
+/beginners/p5js/ /tracks 301!
+/CodingChallenges/113-hypercube.html /challenges/113-4d-hypercube-aka-tesseract 301!
+/CodingChallenges/003-snake-game-p5.html /challenges/3-snake-game 301!
+/CodingChallenges/145-2d-ray-casting /challenges/145-ray-casting-2d 301!
+
+# shortcuts - 302
+
+/discord https://discord.gg/ZHydDC8sXN 302!
+/pi2022 https://editor.p5js.org/codingtrain/full/U11UYbgVc 302!
+/colors https://coding-train-colors.vercel.app/ 302!
+/wheel https://editor.p5js.org/kingpepe/full/n_KhX8lYC 302!
+/appleII /challenges/173-snake-applesoft-basic 302!
+/apple2tree /challenges/174-graphics-applesoft-basic 302!
+/choochoo https://curiositystream.com/?coupon=choochoo 302!
