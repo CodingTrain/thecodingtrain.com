@@ -1,17 +1,23 @@
 import React, { Children, useState, useEffect, useRef } from 'react';
 import cn from 'classnames';
-
 import Button from './Button';
 import ShareButton from './ShareButton';
 import * as css from './Tabs.module.css';
 
 export const Tabs = ({ className, variant, labels, children }) => {
   const [active, setActive] = useState(0);
+  const [wrapped, setWrapped] = useState(false);
   const isFirstRender = useRef(true);
 
   const onClick = (value) => {
     setActive(value);
   };
+
+  useEffect(() => {
+    if (labels.length >= 5) {
+      setWrapped(true);
+    }
+  }, [labels]);
 
   useEffect(() => {
     if (!isFirstRender.current && window.innerWidth < 600) {
@@ -54,7 +60,11 @@ export const Tabs = ({ className, variant, labels, children }) => {
             </li>
           ))}
         </ul>
-        <ShareButton className={css.share} variant={variant} />
+        <ShareButton
+          wrapped={wrapped}
+          className={css.share}
+          variant={variant}
+        />
       </nav>
       {Children.toArray(children).map((child, key) => (
         <div

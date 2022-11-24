@@ -24,7 +24,12 @@ const CopyUrlToClipboard = ({ children, text, onCopy, options }) => {
   return cloneElement(elem, { onClick });
 };
 
-export const ShareButton = ({ className, variant, text = 'Copy link' }) => {
+export const ShareButton = ({
+  className,
+  variant,
+  wrapped,
+  text = 'Copy link'
+}) => {
   const [isCopied, setIsCopied] = useState(false);
 
   const onCopy = (text, res) => {
@@ -46,7 +51,12 @@ export const ShareButton = ({ className, variant, text = 'Copy link' }) => {
         <span className={css.linkIcon}>🔗</span>
         {text && <span>{text}</span>}
         {isCopied && (
-          <p className={css.copiedNotification}>Copied to clipboard!</p>
+          <p
+            className={
+              wrapped ? css.copiedNotificationWrapped : css.copiedNotification
+            }>
+            Copied to clipboard!
+          </p>
         )}
       </Button>
     </CopyUrlToClipboard>

@@ -52,6 +52,23 @@ span.linkIcon {
   color: var(--gray-dark);
 }
 
+.copiedNotificationWrapped {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 var(--box-padding);
+  top: var(--baseline-1of4);
+  right: calc(-1 * (205px + 2 * var(--box-padding)));
+  border-radius: 5px;
+  border: var(--border);
+  width: calc((200px + 2 * var(--box-padding)));
+  line-height: var(--baseline-1of2);
+  cursor: auto;
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+}
+
 /* Variants */
 
 .red {
@@ -72,6 +89,11 @@ span.linkIcon {
     border: var(--border-red);
     background-color: var(--red-light);
   }
+
+  & .copiedNotificationWrapped {
+    border: var(--border-red);
+    background-color: var(--red-light);
+  }
 }
 
 .cyan {
@@ -89,6 +111,11 @@ span.linkIcon {
   }
 
   & .copiedNotification {
+    border: var(--border-cyan);
+    background-color: var(--cyan-light);
+  }
+
+  & .copiedNotificationWrapped {
     border: var(--border-cyan);
     background-color: var(--cyan-light);
   }
