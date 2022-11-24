@@ -223,3 +223,57 @@ exports.createPages = async function ({ actions, graphql }) {
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
 };
+
+const tagResolver = async (source, context, type) => {
+  const tags = new Set();
+
+  // track.videos
+  let videoIds = source.videos ?? [];
+
+  // track.chapters.videos
+  if (source.chapters) {
+    const chapters = await context.nodeModel.getNodesByIds({
+      ids: source.chapters,
+      type: 'Chapter'
+    });
+
+    for (let chapter of chapters) {
+      if (chapter.videos) {
+        videoIds = [...videoIds, ...chapter.videos];
+      }
+    }
+  }
+
+  // fetch all video nodes we found
+  const allVideos = await context.nodeModel.getNodesByIds({
+    ids: videoIds,
+    type: 'Video'
+  });
+
+  // extract and dedupe tags
+  for (let video of allVideos) {
+    if (video[type]) {
+      video[type].forEach((v) => tags.add(v));
+    }
+  }
+
+  return [...tags];
+};
+
+exports.createResolvers = ({ createResolvers }) => {
+  const resolvers = {
+    Track: {
+      topics: {
+        type: ['String'],
+        resolve: async (source, args, context, info) =>
+          await tagResolver(source, context, 'topics')
+      },
+      languages: {
+        type: ['String'],
+        resolve: async (source, args, context, info) =>
+          await tagResolver(source, context, 'languages')
+      }
+    }
+  };
+  createResolvers(resolvers);
+};

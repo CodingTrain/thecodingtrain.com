@@ -4,7 +4,7 @@
   "videoNumber": "153",
   "videoId": "ZCXkvwLxBrA",
   "date": "2019-10-31",
-  "languages": ["ml5.js", " p5.js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["sketchRNN", "machine Learning", "Quick, Draw!"],
   "canContribute": true,
   "relatedChallenges": ["128-sketch-rnn-snowflakes", "152-rdp-algorithm"],
@@ -83,12 +83,14 @@
     },
     {
       "title": "Live Stream Archive",
-      "links": [{
-        "icon": "🔴",
-        "title": "Coding Train Live 186",
-        "url": "https://youtu.be/GMaKcRkiNoM?t=4054s",
-        "description": "Live Stream with Interactive Drawing with SketchRNN"
-      }]
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 186",
+          "url": "https://youtu.be/GMaKcRkiNoM?t=4054s",
+          "description": "Live Stream with Interactive Drawing with SketchRNN"
+        }
+      ]
     }
   ]
 }
