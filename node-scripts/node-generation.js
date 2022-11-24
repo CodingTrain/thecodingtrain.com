@@ -139,37 +139,6 @@ exports.createVideoRelatedNode = (
       }
     });
     createNode(newNode);
-
-    for (let tag of newNode.languages) {
-      const content = {
-        id: createNodeId(`--tag/language/${tag}`),
-        parent: node.id,
-        type: 'language',
-        value: tag
-      };
-      createNode({
-        ...content,
-        internal: {
-          type: 'Tag',
-          contentDigest: createContentDigest(content)
-        }
-      });
-    }
-    for (let tag of newNode.topics) {
-      const content = {
-        id: createNodeId(`--tag/topic/${tag}`),
-        parent: node.id,
-        type: 'topic',
-        value: tag
-      };
-      createNode({
-        ...content,
-        internal: {
-          type: 'Tag',
-          contentDigest: createContentDigest(content)
-        }
-      });
-    }
   }
 };
 

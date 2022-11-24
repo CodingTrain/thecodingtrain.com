@@ -242,12 +242,6 @@ type CoverImage implements Node {
   file: File! @link
 }
 
-type Tag implements Node {
-  type: String!
-  value: String!
-}
-
-
 type AboutPageInfo implements Node {
   title: String!
   description: String!
