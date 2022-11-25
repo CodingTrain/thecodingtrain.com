@@ -72,6 +72,15 @@ exports.handler = async function (event) {
     json.author.url = postInfo.authorUrl;
   }
 
+  // Including the social media handles in the JSON for future reference
+  if (postInfo.authorTwitter) {
+    json.author.twitter = postInfo.authorTwitter;
+  }
+
+  if (postInfo.authorInstagram) {
+    json.author.instagram = postInfo.authorInstagram;
+  }
+
   const jsonContent = btoa(JSON.stringify(json, null, 2));
 
   const jsonOpts = {
@@ -85,14 +94,6 @@ exports.handler = async function (event) {
       name: postInfo.authorName,
       email: postInfo.authorEmail
     };
-  }
-
-  if (postInfo.authorTwitter) {
-    json.author.twitter = postInfo.authorTwitter;
-  }
-
-  if (postInfo.authorInstagram) {
-    json.author.instagram = postInfo.authorInstagram;
   }
 
   const jsonRes = await octokit.request(
