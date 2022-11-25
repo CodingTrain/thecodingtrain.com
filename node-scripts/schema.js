@@ -12,9 +12,7 @@ interface VideoInterface implements Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
@@ -35,9 +33,7 @@ type Video implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
@@ -58,9 +54,7 @@ type Challenge implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   parts: [ChallengePart!]
@@ -81,9 +75,7 @@ type GuestTutorial implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
@@ -165,6 +157,10 @@ type Track implements Node {
   cover: CoverImage @link
   numVideos: Int!
   order: Int!
+
+  # as resolvers
+  topics: [String!]
+  languages: [String!]
 }
 
 type Talk implements Node {
@@ -175,9 +171,7 @@ type Talk implements Node {
   link: String
   cover: CoverImage @link
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
 }
 
 type Guide implements Node {
@@ -247,12 +241,6 @@ type CoverImage implements Node {
   id: ID!
   file: File! @link
 }
-
-type Tag implements Node {
-  type: String!
-  value: String!
-}
-
 
 type AboutPageInfo implements Node {
   title: String!

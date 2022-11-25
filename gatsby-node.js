@@ -25,8 +25,6 @@ const {
   createGuidePages
 } = require('./node-scripts/page-generation');
 
-const redirects = require('./redirects.json');
-
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
 
@@ -219,18 +217,63 @@ exports.onCreateNode = ({
 };
 
 exports.createPages = async function ({ actions, graphql }) {
-  const { createPage, createRedirect } = actions;
+  const { createPage } = actions;
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
+};
 
-  for (let fromPath in redirects) {
-    const toPath = redirects[fromPath];
-    await createRedirect({
-      fromPath,
-      toPath,
-      isPermanent: true
+const tagResolver = async (source, context, type) => {
+  const tags = new Set();
+
+  // track.videos
+  let videoIds = source.videos ?? [];
+
+  // track.chapters.videos
+  if (source.chapters) {
+    const chapters = await context.nodeModel.getNodesByIds({
+      ids: source.chapters,
+      type: 'Chapter'
     });
+
+    for (let chapter of chapters) {
+      if (chapter.videos) {
+        videoIds = [...videoIds, ...chapter.videos];
+      }
+    }
   }
+
+  // fetch all video nodes we found
+  const allVideos = await context.nodeModel.getNodesByIds({
+    ids: videoIds,
+    type: 'Video'
+  });
+
+  // extract and dedupe tags
+  for (let video of allVideos) {
+    if (video[type]) {
+      video[type].forEach((v) => tags.add(v));
+    }
+  }
+
+  return [...tags];
+};
+
+exports.createResolvers = ({ createResolvers }) => {
+  const resolvers = {
+    Track: {
+      topics: {
+        type: ['String'],
+        resolve: async (source, args, context, info) =>
+          await tagResolver(source, context, 'topics')
+      },
+      languages: {
+        type: ['String'],
+        resolve: async (source, args, context, info) =>
+          await tagResolver(source, context, 'languages')
+      }
+    }
+  };
+  createResolvers(resolvers);
 };

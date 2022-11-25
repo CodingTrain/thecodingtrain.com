@@ -7,7 +7,7 @@
     "languages": ["p5.js", "JavaScript"],
     "topics": ["logo", "logo interpreter", "turtle graphics"],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["16-l-system-fractal-trees", "30-phyllotaxis"],
     "timestamps": [],
     "parts": [
         {
@@ -93,6 +93,12 @@
                     "title": "Logo Tutorial",
                     "url": "http://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
                     "description": "A tutorial on Logo from Brown University"
+                },
+                {
+                    "icon": "🐢",
+                    "title": "Logo Foundation",
+                    "url": "http://el.media.mit.edu/logo-foundation/",
+                    "description": "The Logo Foundation is a nonprofit educational organization devoted to supporting educators, parents, and students in their engagement with creative computing."
                 }
             ]
         },
@@ -125,7 +131,7 @@
                 {
                     "icon": "🔴",
                     "title": "Coding Train Live 158",
-                    "url": "https://youtu.be/flHxQpyiDNc",
+                    "url": "https://youtu.be/flHxQpyiDNc?t=1377s",
                     "description": "Logo Interpreter Live Stream Part 1"
                 },
                 {

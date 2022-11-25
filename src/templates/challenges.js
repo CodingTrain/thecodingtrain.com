@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react';
 import { graphql, Link } from 'gatsby';
+import React, { Fragment } from 'react';
 
-import ItemsPage from '../components/ItemsPage';
-import Image from '../components/Image';
 import Card from '../components/challenges/Card';
+import Image from '../components/Image';
+import ItemsPage from '../components/ItemsPage';
 
-import PlayButton from '../images/playbutton.svg';
-import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
-import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
 import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
+import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
+import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
+import PlayButton from '../images/playbutton.svg';
 
 import { getReadableDate } from '../hooks';
 
@@ -19,8 +19,6 @@ const ChallengesPage = ({ data, pageContext, location }) => {
   const pageData = data.pageData.nodes[0];
   const challenges = data.challenges.nodes;
   const recentChallenge = data.recentChallenge.nodes[0];
-  const languages = data.languages.nodes.map(({ value }) => value);
-  const topics = data.topics.nodes.map(({ value }) => value);
 
   const challengesPlaceholder = data.challengePlaceholderImage
     ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
@@ -40,8 +38,6 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       SeparatorCharacter={BracketsCharacter2}
       EndPageCharacter={RainbowCharacter}
       characterOrientation="left"
-      languages={languages}
-      topics={topics}
       midSection={
         <RecentChallenge
           featuredChallengeTitle={pageData.featuredText}
@@ -53,7 +49,8 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
-      humanPageNumber={pageContext.humanPageNumber}>
+      humanPageNumber={pageContext.humanPageNumber}
+      filtersFilePath="/filters-challenges.json">
       {() =>
         challenges.length > 0 && (
           <div className={css.challenges}>
@@ -126,7 +123,7 @@ const RecentChallenge = ({
 };
 
 export const query = graphql`
-  query(
+  query (
     $skip: Int!
     $limit: Int!
     $topicRegex: String!
@@ -155,8 +152,8 @@ export const query = graphql`
     }
     challenges: allChallenge(
       filter: {
-        languagesFlat: { regex: $languageRegex }
-        topicsFlat: { regex: $topicRegex }
+        languages: { regex: $languageRegex }
+        topics: { regex: $topicRegex }
       }
       sort: { order: DESC, fields: date }
       skip: $skip
@@ -193,16 +190,6 @@ export const query = graphql`
             }
           }
         }
-      }
-    }
-    languages: allTag(filter: { type: { eq: "language" } }) {
-      nodes {
-        value
-      }
-    }
-    topics: allTag(filter: { type: { eq: "topic" } }) {
-      nodes {
-        value
       }
     }
     challengePlaceholderImage: file(
