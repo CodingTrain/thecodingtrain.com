@@ -4,7 +4,7 @@
   "videoNumber": "1.1",
   "videoId": "yNkAuWz5lnY",
   "date": "2018-08-01",
-  "languages": ["ml5", "p5js", "javascript"],
+  "languages": ["ml5", "p5.js", "JavaScript"],
   "topics": ["machine learning", "image classification", "MobileNet"],
   "canContribute": true,
   "timestamps": [

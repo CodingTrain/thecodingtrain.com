@@ -4,7 +4,7 @@
   "videoNumber": "3.2",
   "videoId": "aKgq0m1YjvQ",
   "date": "2018-08-16",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5", "p5.js"],
   "topics": ["machine learning", "feature extractor", "regression", "slider"],
   "canContribute": true,
   "timestamps": [

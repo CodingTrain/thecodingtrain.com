@@ -4,10 +4,11 @@
   "videoNumber": "7.1",
   "videoId": "OIo-DIOkNVg",
   "date": "2020-01-09",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5", "p5.js"],
   "topics": ["poseNet", "estimation", "machine learning"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -72,7 +73,8 @@
       "title": "Train a classifier"
     }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "Pose Estimation with PoseNet",
       "description": "This sketch demonstrates how to do pose estimate with PoseNet",
       "urls": {
@@ -83,13 +85,15 @@
       "title": "ml5 PoseNet Single Image Example",
       "description": "This sketch demonstrates how to use PoseNet with a single image.",
       "urls": {
-      "p5": "https://editor.p5js.org/ml5/sketches/PoseNet_image_single"
+        "p5": "https://editor.p5js.org/ml5/sketches/PoseNet_image_single"
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "Reference",
-      "links": [{
+      "links": [
+        {
           "icon": "💻",
           "title": "ml5.js PoseNet",
           "url": "https://learn.ml5js.org/#/reference/posenet",
@@ -129,7 +133,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "Hour of Code with p5.js and PoseNet",
           "url": "https://www.youtube.com/watch?v=EA3-k9mnLHs",

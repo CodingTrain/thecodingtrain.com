@@ -4,23 +4,30 @@
   "videoNumber": "1.3",
   "videoId": "QEzRxnuaZCk",
   "date": "2020-10-14",
-  "languages": ["p5js", "ml5"],
-  "topics": ["coco-ssd",  "COCO dataset", "model provenance", "data provenance", "detection box"],
+  "languages": ["p5.js", "ml5"],
+  "topics": [
+    "coco-ssd",
+    "COCO dataset",
+    "model provenance",
+    "data provenance",
+    "detection box"
+  ],
   "canContribute": true,
   "timestamps": [
-      { "time": "0:00", "title": "Introduction" },
-      { "time": "2:42", "title": "ml5.js pre-trained models" },
-      { "time": "3:03", "title": "Model and Data Provenance" },
-      { "time": "3:54", "title": "COCO Dataset" },
-      { "time": "4:47", "title": "Humans of AI" },
-      { "time": "5:11", "title": "Excavating AI" },
-      { "time": "6:00", "title": "COCO-SSD model" },
-      { "time": "6:30", "title": "Loading COCO-SSD model" },
-      { "time": "10:04", "title": "Drawing detection box and labels" },
-      { "time": "11:18", "title": "Real-time object detection on live video" },
-      { "time": "15:05", "title": "Exercise ideas" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:42", "title": "ml5.js pre-trained models" },
+    { "time": "3:03", "title": "Model and Data Provenance" },
+    { "time": "3:54", "title": "COCO Dataset" },
+    { "time": "4:47", "title": "Humans of AI" },
+    { "time": "5:11", "title": "Excavating AI" },
+    { "time": "6:00", "title": "COCO-SSD model" },
+    { "time": "6:30", "title": "Loading COCO-SSD model" },
+    { "time": "10:04", "title": "Drawing detection box and labels" },
+    { "time": "11:18", "title": "Real-time object detection on live video" },
+    { "time": "15:05", "title": "Exercise ideas" }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "Object detection (image)",
       "description": "Object detection with COCO",
       "image": "object.jpg",
@@ -43,9 +50,11 @@
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "Reference",
-      "links": [{
+      "links": [
+        {
           "icon": "🗄",
           "title": "Object Detector ml5.js Reference",
           "url": "https://github.com/ml5js/ml5-library/blob/main/docs/reference/object-detector.md",
@@ -109,7 +118,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "ml5.js Pose Estimation with PoseNet",
           "url": "https://youtu.be/",
