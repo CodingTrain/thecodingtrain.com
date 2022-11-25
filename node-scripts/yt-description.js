@@ -9,6 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const glob = require('glob');
 
 const videos = [];
 
@@ -18,20 +19,9 @@ const videos = [];
  * @param {?any[]} arrayOfFiles Array to store the parsed JSON files
  * @returns {any[]}
  */
-function findContentFilesRecursive(dir, arrayOfFiles = []) {
-  const files = fs.readdirSync(dir);
-
-  for (const file of files) {
-    if (fs.statSync(`${dir}/${file}`).isDirectory()) {
-      arrayOfFiles = findContentFilesRecursive(`${dir}/${file}`, arrayOfFiles);
-    } else {
-      if (file === 'index.json') {
-        arrayOfFiles.push(path.join(dir, '/', file));
-      }
-    }
-  }
-
-  return arrayOfFiles;
+function findContentFilesRecursive(dir) {
+  const files = glob.sync(`${dir}/**/index.json`);
+  return files;
 }
 
 /**
@@ -414,7 +404,7 @@ const sideTracks = findContentFilesRecursive('content/tracks/side-tracks')
   .filter((x) => x);
 const allTracks = [...mainTracks, ...sideTracks];
 
-(() => {
+(async () => {
   console.log('💫 Generating YouTube Descriptions 💫');
 
   const args = process.argv.slice(2);
