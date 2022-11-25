@@ -4,7 +4,7 @@
   "videoNumber": "8.1",
   "videoId": "UaKab6h9Z0I",
   "date": "2020-02-01",
-  "languages": ["ml5", "p5.js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["neural network", "pixels", "regression"],
   "canContribute": true,
   "timestamps": [

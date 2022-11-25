@@ -4,7 +4,7 @@
   "videoNumber": "1.2",
   "videoId": "D9BoBSkLvFo",
   "date": "2018-08-02",
-  "languages": ["ml5", "JavaScript"],
+  "languages": ["ml5.js", "JavaScript"],
   "topics": [
     "machine learning",
     "webcam",

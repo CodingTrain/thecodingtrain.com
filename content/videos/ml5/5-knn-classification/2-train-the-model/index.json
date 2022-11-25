@@ -4,7 +4,7 @@
   "videoNumber": "5.2",
   "videoId": "Mwo5_bUVhlA",
   "date": "2019-02-05",
-  "languages": ["ml5", "p5.js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["KNN classification", "machine learning"],
   "canContribute": true,
   "timestamps": [
