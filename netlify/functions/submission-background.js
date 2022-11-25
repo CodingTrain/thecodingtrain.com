@@ -65,7 +65,7 @@ exports.handler = async function (event) {
       name: postInfo.authorName
     },
     url: postInfo.url,
-    submittedOn: new Date().toISOString().split('T')[0]
+    submittedOn: new Date().toISOString()
   };
 
   if (postInfo.authorUrl) {
