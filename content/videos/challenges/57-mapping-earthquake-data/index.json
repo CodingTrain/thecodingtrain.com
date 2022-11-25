@@ -1,0 +1,82 @@
+{
+  "title": "Mapping Earthquake Data",
+  "description": "In this coding challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js. The map imagery is pulled from mapbox and the math demonstrated converts latitude, longitude to x,y via Web Mercator.",
+  "videoNumber": "57",
+  "videoId": "ZiYdOwOrGyc",
+  "date": "2017-02-13",
+  "languages": ["p5.js"],
+  "topics": ["earthquake data", "mapbox", "mapping", "mercator projection"],
+  "canContribute": true,
+  "relatedChallenges": ["58-3d-earthquake-data-visualization"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:51", "title": "Map Projections" },
+    { "time": "04:45", "title": "Using the Mapbox Static Map" },
+    { "time": "06:34", "title": "Adjusting the parameters to get a World Map" },
+    { "time": "08:48", "title": "Latitudes and Longitudes" },
+    { "time": "11:13", "title": "Converting Coordinates to pixel space" },
+    { "time": "16:38", "title": "Drawing a point on the map" },
+    {
+      "time": "20:39",
+      "title": "Loading and parsing earthquake data from USGS"
+    },
+    { "time": "26:05", "title": "Ideas and Suggestions" },
+    {
+      "time": "26:38",
+      "title": "Drawing the size of point based on magnitude of earthquake"
+    },
+    { "time": "32:48", "title": "More Suggestions and Wrapping Up" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mapping Earthquake Data",
+      "description": "Visualising earthquake data by mapping the position and the magnitude of earthquake.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/i0icLNOuf",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/057_Earthquake_Viz/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗺️",
+          "title": "Mapbox",
+          "url": "https://www.mapbox.com/",
+          "description": "Maps, Geocoding and Navigation APIs and SDKs"
+        },
+        {
+          "icon": "📄",
+          "title": "Web Mercator on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Web_Mercator",
+          "description": "Standard Map Projection for Web Mapping"
+        },
+        {
+          "icon": "🌍",
+          "title": "Earthquake Database",
+          "url": "http://earthquake.usgs.gov/data/",
+          "description": "USGS Realtime monitoring, station, and other various seismic data"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Working with Data and APIs",
+          "url": "/tracks/data-and-apis-in-javascript",
+          "description": "This course is for aspiring developers who want to learn how to work with data in web applications."
+        },
+        {
+          "icon": "🔣",
+          "title": "Regular Expressions Series",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w",
+          "description": "Video tutorials on regular expressions"
+        }
+      ]
+    }
+  ]
+}
