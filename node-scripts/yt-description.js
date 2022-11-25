@@ -404,7 +404,7 @@ const sideTracks = findContentFilesRecursive('content/tracks/side-tracks')
   .filter((x) => x);
 const allTracks = [...mainTracks, ...sideTracks];
 
-(async () => {
+(() => {
   console.log('💫 Generating YouTube Descriptions 💫');
 
   const args = process.argv.slice(2);
