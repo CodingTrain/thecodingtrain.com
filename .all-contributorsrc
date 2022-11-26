@@ -107,6 +107,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "laurie60",
+      "name": "laurie60",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100629314?v=4",
+      "profile": "https://github.com/laurie60",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -114,5 +123,6 @@
   "projectOwner": "CodingTrain",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

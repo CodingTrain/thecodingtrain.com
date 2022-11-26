@@ -161,7 +161,9 @@ const contribution = {
         type: 'object',
         properties: {
           name: { isRequired: true, type: 'string' },
-          url: { type: 'string' }
+          url: { type: 'string' },
+          twitter: { type: 'string' },
+          instagram: { type: 'string' }
         }
       },
       url: { type: 'string' },
