@@ -55,10 +55,6 @@
 }
 
 @media (--reduced) {
-  .description {
-    width: 100%;
-  }
-
   .red .credit,
   .cyan .credit {
     background-color: white;
