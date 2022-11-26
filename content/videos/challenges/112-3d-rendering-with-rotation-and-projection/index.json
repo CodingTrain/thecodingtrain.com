@@ -12,7 +12,11 @@
     "rotation matrix"
   ],
   "canContribute": true,
-  "relatedChallenges": ["26-3d-supershapes", "113-4d-hypercube-aka-tesseract", "142-rubiks-cube"],
+  "relatedChallenges": [
+    "26-3d-supershapes",
+    "113-4d-hypercube-aka-tesseract",
+    "142-rubiks-cube"
+  ],
   "timestamps": [
     {
       "time": "0:00",
@@ -63,7 +67,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "Matrix Math",
           "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
@@ -82,6 +87,16 @@
           "description": "In this Live Stream, I attempt to draw 3D shapes on a 2D canvas"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

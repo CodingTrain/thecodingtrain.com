@@ -7,16 +7,19 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["Binary Numbers", "math"],
   "canContribute": true,
-  "relatedChallenges": ["119-binary-to-decimal-conversion", "117-seven-segment-display"],
+  "relatedChallenges": [
+    "119-binary-to-decimal-conversion",
+    "117-seven-segment-display"
+  ],
   "timestamps": [
-      { "time": "0:00", "title": "Hello!" },
-      { "time": "1:07", "title": "What is bit-shifting?" },
-      { "time": "4:23", "title": "Let's start implementing" },
-      { "time": "6:49", "title": "A function to shift bits" },
-      { "time": "7:55", "title": "implementing decimal to binary conversion" },
-      { "time": "14:46", "title": "We can now bit shift!" },
-      { "time": "15:51", "title": "Inverting the colors" },
-      { "time": "16:59", "title": "Thank you for watching!" }
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "1:07", "title": "What is bit-shifting?" },
+    { "time": "4:23", "title": "Let's start implementing" },
+    { "time": "6:49", "title": "A function to shift bits" },
+    { "time": "7:55", "title": "implementing decimal to binary conversion" },
+    { "time": "14:46", "title": "We can now bit shift!" },
+    { "time": "15:51", "title": "Inverting the colors" },
+    { "time": "16:59", "title": "Thank you for watching!" }
   ],
   "codeExamples": [
     {
@@ -57,6 +60,16 @@
           "description": "Livestream with Binary Numbers & Bit Shifting"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

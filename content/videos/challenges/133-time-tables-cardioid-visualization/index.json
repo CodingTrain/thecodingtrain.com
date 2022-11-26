@@ -14,7 +14,12 @@
     "modulo operator"
   ],
   "canContribute": true,
-  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "116-lissajous-curve-table", "134-heart-curve", "163-bezier-curves"],
+  "relatedChallenges": [
+    "21-mandelbrot-set-with-p5js",
+    "116-lissajous-curve-table",
+    "134-heart-curve",
+    "163-bezier-curves"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:00", "title": "Simon Tiger's Processing Day presentation" },
@@ -25,9 +30,15 @@
     { "time": "6:31", "title": "Draw the points" },
     { "time": "7;48", "title": "Start with the 2-times table" },
     { "time": "8:37", "title": "Write a getVector() function" },
-    { "time": "11:00", "title": "Use modulo operator to get remainder for mapping" },
+    {
+      "time": "11:00",
+      "title": "Use modulo operator to get remainder for mapping"
+    },
     { "time": "12:28", "title": "Add PI to rotate the cardioid 180 degrees" },
-    { "time": "13:31", "title": "Animate by mapping mouseX to the total number of points" },
+    {
+      "time": "13:31",
+      "title": "Animate by mapping mouseX to the total number of points"
+    },
     { "time": "14:34", "title": "Change to 3-times table" },
     { "time": "16:19", "title": "Animate by changing the factor" },
     { "time": "16:43", "title": "Conclusion and creative possibilities" }
@@ -95,6 +106,16 @@
           "description": "Livestream with Mathematical Hearts + GIF Loops"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

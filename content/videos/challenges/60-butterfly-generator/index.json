@@ -1,89 +1,114 @@
 {
-    "title": "Butterfly Generator",
-    "description": "Inspired by Everest Pipkin\u2019s Moth Generator, I use trigonometry and perlin noise to procedurally generate butterfly wing designs with p5.js.",
-    "videoNumber": "60",
-    "videoId": "O_0fRV4MTZo",
-    "date": "2017-02-27",
-    "languages": ["JavaScript", "p5.js"],
-    "topics": [
-        "butterfly wings",
-        "perlin noise",
-        "polar coordinates"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["36-blobby", "55-mathematical-rose-patterns", "134-heart-curve", "136-polar-noise-loops"],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduce coding challenge" },
-        { "time": "0:17", "title": "Highlight project which inspires the coding challenge" },
-        { "time": "1:13", "title": "Explain symmetrical drawing and polar coordinates" },
-        { "time": "2:45", "title": "Let's code" },
-        { "time": "3:04", "title": "Draw one of the butterfly's wings" },
-        { "time": "4:09", "title": "Translate canvas to center the drawing" },
-        { "time": "4:41", "title": "Draw points" },
-        { "time": "5:25", "title": "Draw the wing with a line" },
-        { "time": "6:18", "title": "Introduce Perlin Noise" },
-        { "time": "7:08", "title": "Implement Perlin Noise" },
-        { "time": "8:23", "title": "Experiment with noise arguments" },
-        { "time": "9:06", "title": "Draw the other wing symmetrically" },
-        { "time": "10:55", "title": "Draw a continous shape" },
-        { "time": "13:20", "title": "Highlight math to draw roses with polar coordinates" },
-        { "time": "13:49", "title": "Include math in the coding challenge" },
-        { "time": "14:44", "title": "Reintroduce noise" },
-        { "time": "15:26", "title": "Experiment with different values" },
-        { "time": "16:06", "title": "Animate drawing changing the noise values" },
-        { "time": "16:45", "title": "Implement Perlin Noise in multiple dimensions" },
-        { "time": "18:00", "title": "Conclude coding challenge" },
-        { "time": "18:40", "title": "Consider comments from the chat" }
-    ],
-    "codeExamples": [
+  "title": "Butterfly Generator",
+  "description": "Inspired by Everest Pipkin\u2019s Moth Generator, I use trigonometry and perlin noise to procedurally generate butterfly wing designs with p5.js.",
+  "videoNumber": "60",
+  "videoId": "O_0fRV4MTZo",
+  "date": "2017-02-27",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["butterfly wings", "perlin noise", "polar coordinates"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "36-blobby",
+    "55-mathematical-rose-patterns",
+    "134-heart-curve",
+    "136-polar-noise-loops"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduce coding challenge" },
+    {
+      "time": "0:17",
+      "title": "Highlight project which inspires the coding challenge"
+    },
+    {
+      "time": "1:13",
+      "title": "Explain symmetrical drawing and polar coordinates"
+    },
+    { "time": "2:45", "title": "Let's code" },
+    { "time": "3:04", "title": "Draw one of the butterfly's wings" },
+    { "time": "4:09", "title": "Translate canvas to center the drawing" },
+    { "time": "4:41", "title": "Draw points" },
+    { "time": "5:25", "title": "Draw the wing with a line" },
+    { "time": "6:18", "title": "Introduce Perlin Noise" },
+    { "time": "7:08", "title": "Implement Perlin Noise" },
+    { "time": "8:23", "title": "Experiment with noise arguments" },
+    { "time": "9:06", "title": "Draw the other wing symmetrically" },
+    { "time": "10:55", "title": "Draw a continous shape" },
+    {
+      "time": "13:20",
+      "title": "Highlight math to draw roses with polar coordinates"
+    },
+    { "time": "13:49", "title": "Include math in the coding challenge" },
+    { "time": "14:44", "title": "Reintroduce noise" },
+    { "time": "15:26", "title": "Experiment with different values" },
+    { "time": "16:06", "title": "Animate drawing changing the noise values" },
+    {
+      "time": "16:45",
+      "title": "Implement Perlin Noise in multiple dimensions"
+    },
+    { "time": "18:00", "title": "Conclude coding challenge" },
+    { "time": "18:40", "title": "Consider comments from the chat" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Butterfly Generator",
+      "description": "This sketch draws and animates the wings of a butterfly with Perlin Noise and polar coordinates.",
+      "image": "butterfly-generator.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tKBc2fP8r",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/060_Butterfly_Wings/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Butterfly Generator",
-            "description": "This sketch draws and animates the wings of a butterfly with Perlin Noise and polar coordinates.",
-            "image": "butterfly-generator.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/tKBc2fP8r",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/060_Butterfly_Wings/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🖋️",
-                    "title": "Moth Generator",
-                    "url": "https://twitter.com/mothgenerator",
-                    "description": "Twitter account sharing images of moths created with an algorithm."
-                },
-                {
-                    "icon": "🗄",
-                    "title": "Rose (mathematics) on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Rose_(mathematics)",
-                    "description": "Wikipedia page with information and resources on rose in the context of mathematics."
-                }
-            ]
+          "icon": "🖋️",
+          "title": "Moth Generator",
+          "url": "https://twitter.com/mothgenerator",
+          "description": "Twitter account sharing images of moths created with an algorithm."
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🎥",
-                    "title": "Trigonometry and Polar Coordinates - The Nature of Code",
-                    "url": "https://youtu.be/znOBmOrtz_M",
-                    "description": "This video describes the basics of trigonometry and how to use polar coordinates in Processing."
-                }, {
-                    "icon": "🎥",
-                    "title": "What is Perlin Noise?",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
-                    "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
-                }, {
-                    "icon": "🔴",
-                    "title": "Coding Train Live Archive #80",
-                    "url": "https://youtu.be/bMOv5vTC9uE?t=3431s",
-                    "description": "Live Stream with Prototypes in Javascript and Butterfly Wings Generator"
-                }
-            ]
+          "icon": "🗄",
+          "title": "Rose (mathematics) on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rose_(mathematics)",
+          "description": "Wikipedia page with information and resources on rose in the context of mathematics."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Trigonometry and Polar Coordinates - The Nature of Code",
+          "url": "https://youtu.be/znOBmOrtz_M",
+          "description": "This video describes the basics of trigonometry and how to use polar coordinates in Processing."
+        },
+        {
+          "icon": "🎥",
+          "title": "What is Perlin Noise?",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+          "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Archive #80",
+          "url": "https://youtu.be/bMOv5vTC9uE?t=3431s",
+          "description": "Live Stream with Prototypes in Javascript and Butterfly Wings Generator"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

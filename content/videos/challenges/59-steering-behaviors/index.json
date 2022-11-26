@@ -1,90 +1,106 @@
 {
-    "title": "Steering Behaviors",
-    "description": "In this coding challenge, I look at extracting font path points from text in p5.js with p5.Font.textToPoints(). I render the text as particles with steering behaviors that react to the mouse.",
-    "videoNumber": "59",
-    "videoId": "4hA7G3gup-4",
-    "date": "2017-02-21",
-    "languages": ["p5.js", "JavaScript"],
-    "topics": [
-        "steering behaviors",
-        "Craig Reynolds steering",
-        "textToPoints"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["69-evolutionary-steering-behaviors", "124-flocking-simulation"],
-    "timestamps": [{
-            "time": "0:00",
-            "title": "Introduction"
-        },
+  "title": "Steering Behaviors",
+  "description": "In this coding challenge, I look at extracting font path points from text in p5.js with p5.Font.textToPoints(). I render the text as particles with steering behaviors that react to the mouse.",
+  "videoNumber": "59",
+  "videoId": "4hA7G3gup-4",
+  "date": "2017-02-21",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["steering behaviors", "Craig Reynolds steering", "textToPoints"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "69-evolutionary-steering-behaviors",
+    "124-flocking-simulation"
+  ],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "4:14",
+      "title": "textToPoints"
+    },
+    {
+      "time": "7:39",
+      "title": "Craig Reynold's steering behavior"
+    },
+    {
+      "time": "11:17",
+      "title": "vehicle.js"
+    },
+    {
+      "time": "12:07",
+      "title": "Prototypes"
+    },
+    {
+      "time": "16:14",
+      "title": "Behaviors"
+    },
+    {
+      "time": "17:53",
+      "title": "Seek function"
+    },
+    {
+      "time": "21:05",
+      "title": "Arrive function"
+    },
+    {
+      "time": "24:24",
+      "title": "Random starting points"
+    },
+    {
+      "time": "25:00",
+      "title": "Flee the mouse"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Steering Text Paths",
+      "description": "This sketch shows how to render text as particles with steering behaviors that react to the mouse.",
+      "image": "text.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/q7O2v_zqQ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "time": "4:14",
-            "title": "textToPoints"
-        },
-        {
-            "time": "7:39",
-            "title": "Craig Reynold's steering behavior"
-        },
-        {
-            "time": "11:17",
-            "title": "vehicle.js"
-        },
-        {
-            "time": "12:07",
-            "title": "Prototypes"
-        },
-        {
-            "time": "16:14",
-            "title": "Behaviors"
-        },
-        {
-            "time": "17:53",
-            "title": "Seek function"
-        },
-        {
-            "time": "21:05",
-            "title": "Arrive function"
-        },
-        {
-            "time": "24:24",
-            "title": "Random starting points"
-        },
-        {
-            "time": "25:00",
-            "title": "Flee the mouse"
+          "icon": "📓",
+          "title": "Steering Behaviors paper",
+          "url": "http://www.red3d.com/cwr/steer/",
+          "description": "This paper presents solutions for one requirement of autonomous characters in animation and games."
         }
-    ],
-    "codeExamples": [{
-        "title": "Steering Text Paths",
-        "description": "This sketch shows how to render text as particles with steering behaviors that react to the mouse.",
-        "image": "text.jpg",
-        "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/q7O2v_zqQ"
-        }
-    }],
-    "groupLinks": [{
-            "title": "References",
-            "links": [{
-                "icon": "📓",
-                "title": "Steering Behaviors paper",
-                "url": "http://www.red3d.com/cwr/steer/",
-                "description": "This paper presents solutions for one requirement of autonomous characters in animation and games."
-            }]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Nature of Code Steering Behaviors Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YHt0dtyf4uiw8tKOxQLvlW",
+          "description": "These video lessons accompany Chapter 6 (Autonomous Agents) from The Nature of Code book."
         },
         {
-            "title": "Videos",
-            "links": [{
-                    "icon": "🎥",
-                    "title": "Nature of Code Steering Behaviors Playlist",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YHt0dtyf4uiw8tKOxQLvlW",
-                    "description": "These video lessons accompany Chapter 6 (Autonomous Agents) from The Nature of Code book."
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Coding Train Live Archive #79",
-                    "url": "https://youtu.be/L1nHni9HMBw?t=6833s",
-                    "description": "Live Stream with 3D Earthquake Data Visualization & Steering Behaviors"
-                }
-            ]
+          "icon": "🔴",
+          "title": "Coding Train Live Archive #79",
+          "url": "https://youtu.be/L1nHni9HMBw?t=6833s",
+          "description": "Live Stream with 3D Earthquake Data Visualization & Steering Behaviors"
         }
-    ]
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

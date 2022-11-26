@@ -13,7 +13,11 @@
     "flappy bird"
   ],
   "canContribute": true,
-  "relatedChallenges": ["29-smart-rockets-in-p5js", "31-flappy-bird", "41-clappy-bird"],
+  "relatedChallenges": [
+    "29-smart-rockets-in-p5js",
+    "31-flappy-bird",
+    "41-clappy-bird"
+  ],
   "timestamps": [],
   "parts": [
     {
@@ -60,7 +64,10 @@
       "title": "Part 3 - More Improvements",
       "videoId": "3lvj9jvERvs",
       "timestamps": [
-        { "time": "0:00", "title": "Part 3 of Flappy Bird - More Improvements" },
+        {
+          "time": "0:00",
+          "title": "Part 3 of Flappy Bird - More Improvements"
+        },
         { "time": "0:56", "title": "Separate the game logic from the drawing" },
         {
           "time": "2:22",
@@ -215,7 +222,8 @@
     },
     {
       "title": "Live Stream Archives",
-      "links": [{
+      "links": [
+        {
           "icon": "🔴",
           "title": "Coding Train Live 132",
           "url": "https://youtu.be/ipMekhLS2M0?t=2934s",
@@ -228,6 +236,16 @@
           "description": "Live Stream with Neuroevolution Flappy Bird Continued"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -7,7 +7,11 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["genetic algorithm", "dna", "evolutionary algorithm"],
   "canContribute": true,
-  "relatedChallenges": ["69-evolutionary-steering-behaviors", "100-neuroevolution-flappy-bird", "147-chrome-dinosaur-game"],
+  "relatedChallenges": [
+    "69-evolutionary-steering-behaviors",
+    "100-neuroevolution-flappy-bird",
+    "147-chrome-dinosaur-game"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:10", "title": "Rocket object" },
@@ -28,7 +32,7 @@
   "codeExamples": [
     {
       "title": "Smart Rockets",
-      "description": "This sketch implements a smart rocket algorithm.", 
+      "description": "This sketch implements a smart rocket algorithm.",
       "image": "smart-rockets-in-p5js.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/o5PwECj42",
@@ -53,6 +57,16 @@
           "description": "Live Stream with Smart Rockets, CodePen and Arguments Array in JS"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -14,10 +14,12 @@
   "canContribute": true,
   "relatedChallenges": ["155-kaleidoscope-snowflake"],
   "timestamps": [],
-  "parts": [{
+  "parts": [
+    {
       "title": "Part 1 - Implementing the Star Patterns",
       "videoId": "sJ6pMLp_IaI",
-      "timestamps": [{
+      "timestamps": [
+        {
           "time": "00:00",
           "title": "Introduction"
         },
@@ -90,7 +92,8 @@
     {
       "title": "Part 2 - Refactoring using the Law of Sines",
       "videoId": "lobJ9gzbLo8",
-      "timestamps": [{
+      "timestamps": [
+        {
           "time": "00:00",
           "title": "Follow-up video opening"
         },
@@ -125,7 +128,8 @@
       ]
     }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "Islamic Star Pattern - Part 1",
       "description": "My visualization of the Islamic star pattern.",
       "image": "islamic.jpg",
@@ -144,7 +148,8 @@
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "References",
       "links": [
         {
@@ -187,7 +192,8 @@
     },
     {
       "title": "Links to Charities",
-      "links": [{
+      "links": [
+        {
           "icon": "💸",
           "title": "Refugees International",
           "url": "https://refugeerights.org/donate/",
@@ -215,18 +221,30 @@
     },
     {
       "title": "Live Stream Archives",
-      "links": [{
-        "icon": "🔴",
-        "title": "Live Stream #75: Islamic Star Patterns",
-        "url": "https://youtu.be/hCjTKCb2Cuw?t=1108s",
-        "description": "In this bonus unedited live stream archive I work through visualizing Islamic Star Patterns in p5.js based on the paper."
-      },
-      {
-        "icon": "🔴",
-        "title": "Live Stream #77: More on Star Patterns",
-        "url": "https://youtu.be/qTxPqMI69aM?t=3107s",
-        "description": "Live Stream with Earthquake Data Visualization and more on Star Patterns"
-      }]
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #75: Islamic Star Patterns",
+          "url": "https://youtu.be/hCjTKCb2Cuw?t=1108s",
+          "description": "In this bonus unedited live stream archive I work through visualizing Islamic Star Patterns in p5.js based on the paper."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #77: More on Star Patterns",
+          "url": "https://youtu.be/qTxPqMI69aM?t=3107s",
+          "description": "Live Stream with Earthquake Data Visualization and more on Star Patterns"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -107,13 +107,23 @@
           "url": "https://youtu.be/nvvjYJ2L57c?t=1379s",
           "description": "Livestream with Snakes & Ladders"
         },
-         {
+        {
           "icon": "🔴",
           "title": "Coding Train Live 116.2",
           "url": "https://youtu.be/1v_E18xU3ok?t=570s",
           "description": "Livestream with Snakes & Ladders Continued + 2048"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

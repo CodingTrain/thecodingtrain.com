@@ -1,68 +1,80 @@
 {
-    "title": "2D Supershapes",
-    "description": "In this coding challenge, I show you how to make 2D supershapes in p5.js.",
-    "videoNumber": "23",
-    "videoId": "ksRoh-10lak",
-    "date": "2016-06-21",
-    "languages": ["p5.js", "JavaScript"],
-    "topics": [
-        "supershape",
-        "superellipse",
-        "polar coordinates"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["19-superellipse", "25-spherical-geometry", "26-3d-supershapes","112-3d-rendering-with-rotation-and-projection"],
-    "timestamps": [
-      { "time": "0:00", "title": "Introduction" },
-      { "time": "0:26", "title": "Paul Bourke's webpage" },
-      { "time": "1:11", "title": "Polar Coordinates" },
-      { "time": "2:29", "title": "Constants" },
-      { "time": "4:35", "title": "Supershape function" },
-      { "time": "9:45", "title": "Check code" },
-      { "time": "10:18", "title": "Change constants" },
-      { "time": "10:45", "title": "Fix formula" },
-      { "time": "11:56", "title": "Change the angle increment" },
-      { "time": "13:04", "title": "Adjust m with a slider" },
-      { "time": "14:23", "title": "Animate with the sine function" }
-    ],
-    "codeExamples": [
+  "title": "2D Supershapes",
+  "description": "In this coding challenge, I show you how to make 2D supershapes in p5.js.",
+  "videoNumber": "23",
+  "videoId": "ksRoh-10lak",
+  "date": "2016-06-21",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["supershape", "superellipse", "polar coordinates"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "19-superellipse",
+    "25-spherical-geometry",
+    "26-3d-supershapes",
+    "112-3d-rendering-with-rotation-and-projection"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:26", "title": "Paul Bourke's webpage" },
+    { "time": "1:11", "title": "Polar Coordinates" },
+    { "time": "2:29", "title": "Constants" },
+    { "time": "4:35", "title": "Supershape function" },
+    { "time": "9:45", "title": "Check code" },
+    { "time": "10:18", "title": "Change constants" },
+    { "time": "10:45", "title": "Fix formula" },
+    { "time": "11:56", "title": "Change the angle increment" },
+    { "time": "13:04", "title": "Adjust m with a slider" },
+    { "time": "14:23", "title": "Animate with the sine function" }
+  ],
+  "codeExamples": [
+    {
+      "title": "2D Supershapes",
+      "description": "This sketch renders a 2D supershape.",
+      "image": "super.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_gTvNBjEu",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/023_SuperShape2D"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "2D Supershapes",
-            "description": "This sketch renders a 2D supershape.",
-            "image": "super.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/_gTvNBjEu",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/023_SuperShape2D"
-            }
+          "icon": "📓",
+          "title": "Supershapes (Superformula)",
+          "url": "http://paulbourke.net/geometry/supershape/",
+          "description": "Webpage with information about the geometry and formulas for rendering supershapes."
         }
-    ],
-    "groupLinks": [
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "📓",
-                    "title": "Supershapes (Superformula)",
-                    "url": "http://paulbourke.net/geometry/supershape/",
-                    "description": "Webpage with information about the geometry and formulas for rendering supershapes."
-                }
-            ]
+          "icon": "🎥",
+          "title": "Supershape track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
         },
         {
-            "title": "Videos",
-            "links": [{
-                    "icon": "🎥",
-                    "title": "Supershape track",
-                    "url": "/tracks/supershapes",
-                    "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Live Stream Archive #45",
-                    "url": "https://youtu.be/b_MMGJiUcbM",
-                    "description": "Live Stream with Sound Synthesis, Envelope and Supershapes"
-                }
-            ]
+          "icon": "🔴",
+          "title": "Live Stream Archive #45",
+          "url": "https://youtu.be/b_MMGJiUcbM",
+          "description": "Live Stream with Sound Synthesis, Envelope and Supershapes"
         }
-    ]
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

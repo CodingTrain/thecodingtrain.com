@@ -11,7 +11,7 @@
     "15-object-oriented-fractal-trees",
     "52-random-walker",
     "127-brownian-tree-snowflake"
-    ],
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to another Coding Challenge" },
     { "time": "1:10", "title": "The DFA algorithm" },
@@ -20,14 +20,32 @@
     { "time": "8:44", "title": "Release mulitple walkers at a time" },
     { "time": "10:11", "title": "Create a Walker object" },
     { "time": "12:39", "title": "Create an array of walkers" },
-    { "time": "13:14", "title": "Use optional arguments to initialize x and y" },
-    { "time": "15:30", "title": "Display the objects in the tree and walker arrays" },
-    { "time": "17:12", "title": "Push a walker to the tree array when it gets \"stuck\"" },
-    { "time": "19:18", "title": "Change the color of the walkers that are stuck" },
+    {
+      "time": "13:14",
+      "title": "Use optional arguments to initialize x and y"
+    },
+    {
+      "time": "15:30",
+      "title": "Display the objects in the tree and walker arrays"
+    },
+    {
+      "time": "17:12",
+      "title": "Push a walker to the tree array when it gets \"stuck\""
+    },
+    {
+      "time": "19:18",
+      "title": "Change the color of the walkers that are stuck"
+    },
     { "time": "19:47", "title": "Move the walkers multiple times per frame" },
-    { "time": "21:37", "title": "Eliminate the square root calculation to improve the rendering speed" },
+    {
+      "time": "21:37",
+      "title": "Eliminate the square root calculation to improve the rendering speed"
+    },
     { "time": "26:17", "title": "Add a random point along the edges" },
-    { "time": "28:34", "title": "Add fewer walkers with a large number of iterations" },
+    {
+      "time": "28:34",
+      "title": "Add fewer walkers with a large number of iterations"
+    },
     { "time": "29:15", "title": "Try different patterns" },
     { "time": "32:39", "title": "Different creative possibilities" },
     { "time": "36:00", "title": "Let each walker have its own radius" },
@@ -74,12 +92,24 @@
     },
     {
       "title": "Livestream Archive",
-      "links": [{
-        "icon": "🔴",
-        "title": "Livestream #56",
-        "url": "https://youtu.be/2S0J5iiQ0nw",
-        "description": "Livestream with Poisson-disc-sampling and DLA."
-      }]
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #56",
+          "url": "https://youtu.be/2S0J5iiQ0nw",
+          "description": "Livestream with Poisson-disc-sampling and DLA."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -88,8 +88,18 @@
           "title": "Coding Train Live 189",
           "url": "https://youtu.be/AkySW5uy7rU?t=1431s",
           "description": "Live Stream with Searching for Digits in Pi"
-        }  
+        }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

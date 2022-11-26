@@ -1,149 +1,180 @@
 {
-    "title": "3D Earthquake Data Visualization",
-    "description": "In this coding challenge, I follow up on the Earthquake Data Visualization challenge and create a 3D version in Processing(Java) using spherical coordinates. I also discuss some 3D vector math including the cross product.",
-    "videoNumber": "58",
-    "videoId": "dbs4IYGfAXc",
-    "date": "2017-02-20",
-    "languages": ["Processing"],
-    "topics": [
-        "data visualization",
-        "earthquake data",
-        "3d"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [
-        "9-solar-system-3d-textures",
-        "25-spherical-geometry",
-        "48-white-house-social-media-data-visualization",
-        "109-visualizing-500000-subscribers"
-    ],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduce the coding challenge" },
-        { "time": "1:59", "title": "Mention the previous coding challenge 'Earthquake Data Visualization'" },
-        { "time": "2:59", "title": "Set up Processing environment with a 3D renderer" },
-        { "time": "3:32", "title": "Draw a sphere" },
-        { "time": "4:45", "title": "Add lights to shade the sphere" },
-        { "time": "5:06", "title": "Rotate sphere around the y axis" },
-        { "time": "5:58", "title": "Place a point with a fixed longitude and latitude" },
-        { "time": "7:18", "title": "Convert longitude and latitude to an x and y location" },
-        { "time": "8:00", "title": "Describe spherical coordinates" },
-        { "time": "8:21", "title": "Find Cartesian coordinates" },
-        { "time": "10:28", "title": "Draw a box" },
-        { "time": "11:54", "title": "Load earthquake data" },
-        { "time": "12:36", "title": "Describe `.csv` dataset" },
-        { "time": "14:37", "title": "Parse data in a table" },
-        { "time": "15:04", "title": "Loop through the rows of the table" },
-        { "time": "15:55", "title": "Extract longitude, latitude and magnitude" },
-        { "time": "17:15", "title": "Use coordinates to draw boxes" },
-        { "time": "18:34", "title": "Add more data points" },
-        { "time": "19:45", "title": "Describe how to draw boxes with a different height" },
-        { "time": "22:20", "title": "Map the magnitude to the height of the boxes" },
-        { "time": "23:29", "title": "Describe how to extrude boxes from the sphere" },
-        { "time": "24:08", "title": "Implement vector math" },
-        { "time": "26:47", "title": "Introduce cross product" },
-        { "time": "29:11", "title": "Diagram cross product" },
-        { "time": "29:37", "title": "Calculate rotation axis" },
-        { "time": "30:06", "title": "Rotate boxes" },
-        { "time": "31:55", "title": "Extrude boxes from the sphere" },
-        { "time": "32:41", "title": "Re-introduce magnitude to size the boxes" },
-        { "time": "33:04", "title": "Experiment with height values" },
-        { "time": "33:35", "title": "Describe output and improvements" },
-        { "time": "34:22", "title": "Find Earth texture from NASA reference" },
-        { "time": "35:47", "title": "Load texture image" },
-        { "time": "36:18", "title": "Add the texture to the sphere" },
-        { "time": "38:12", "title": "Describe issue with the alignment of the texture" },
-        { "time": "39:42", "title": "Conclude the coding challenge" }
-    ],
-    "codeExamples": [
+  "title": "3D Earthquake Data Visualization",
+  "description": "In this coding challenge, I follow up on the Earthquake Data Visualization challenge and create a 3D version in Processing(Java) using spherical coordinates. I also discuss some 3D vector math including the cross product.",
+  "videoNumber": "58",
+  "videoId": "dbs4IYGfAXc",
+  "date": "2017-02-20",
+  "languages": ["Processing"],
+  "topics": ["data visualization", "earthquake data", "3d"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "9-solar-system-3d-textures",
+    "25-spherical-geometry",
+    "48-white-house-social-media-data-visualization",
+    "109-visualizing-500000-subscribers"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduce the coding challenge" },
+    {
+      "time": "1:59",
+      "title": "Mention the previous coding challenge 'Earthquake Data Visualization'"
+    },
+    {
+      "time": "2:59",
+      "title": "Set up Processing environment with a 3D renderer"
+    },
+    { "time": "3:32", "title": "Draw a sphere" },
+    { "time": "4:45", "title": "Add lights to shade the sphere" },
+    { "time": "5:06", "title": "Rotate sphere around the y axis" },
+    {
+      "time": "5:58",
+      "title": "Place a point with a fixed longitude and latitude"
+    },
+    {
+      "time": "7:18",
+      "title": "Convert longitude and latitude to an x and y location"
+    },
+    { "time": "8:00", "title": "Describe spherical coordinates" },
+    { "time": "8:21", "title": "Find Cartesian coordinates" },
+    { "time": "10:28", "title": "Draw a box" },
+    { "time": "11:54", "title": "Load earthquake data" },
+    { "time": "12:36", "title": "Describe `.csv` dataset" },
+    { "time": "14:37", "title": "Parse data in a table" },
+    { "time": "15:04", "title": "Loop through the rows of the table" },
+    { "time": "15:55", "title": "Extract longitude, latitude and magnitude" },
+    { "time": "17:15", "title": "Use coordinates to draw boxes" },
+    { "time": "18:34", "title": "Add more data points" },
+    {
+      "time": "19:45",
+      "title": "Describe how to draw boxes with a different height"
+    },
+    {
+      "time": "22:20",
+      "title": "Map the magnitude to the height of the boxes"
+    },
+    {
+      "time": "23:29",
+      "title": "Describe how to extrude boxes from the sphere"
+    },
+    { "time": "24:08", "title": "Implement vector math" },
+    { "time": "26:47", "title": "Introduce cross product" },
+    { "time": "29:11", "title": "Diagram cross product" },
+    { "time": "29:37", "title": "Calculate rotation axis" },
+    { "time": "30:06", "title": "Rotate boxes" },
+    { "time": "31:55", "title": "Extrude boxes from the sphere" },
+    { "time": "32:41", "title": "Re-introduce magnitude to size the boxes" },
+    { "time": "33:04", "title": "Experiment with height values" },
+    { "time": "33:35", "title": "Describe output and improvements" },
+    { "time": "34:22", "title": "Find Earth texture from NASA reference" },
+    { "time": "35:47", "title": "Load texture image" },
+    { "time": "36:18", "title": "Add the texture to the sphere" },
+    {
+      "time": "38:12",
+      "title": "Describe issue with the alignment of the texture"
+    },
+    { "time": "39:42", "title": "Conclude the coding challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "3D Earthquake Data Visualization",
+      "description": "This sketch maps earthquake data in three dimensions with spherical coordinates and vector math.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tttPKxZi",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/058_EarthQuakeViz3D/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "3D Earthquake Data Visualization",
-            "description": "This sketch maps earthquake data in three dimensions with spherical coordinates and vector math.",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/tttPKxZi",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/058_EarthQuakeViz3D/Processing"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🔗",
-                    "title": "Spherical Coordinates System on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
-                    "description": "Wikipedia page with information and resources on a spherical coordinate system."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "USGS Earthquake Data",
-                    "url": "http://earthquake.usgs.gov/data/",
-                    "description": "Realtime monitoring, station, and other various seismic data available for download. Access to data products to view and download."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Cross Product Diagram",
-                    "url": "https://de.wikipedia.org/wiki/Kreuzprodukt#/media/File:Cross_product_parallelogram.svg",
-                    "description": "Wikipedia image illustrating the cross product."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Natural Earth Texture Maps",
-                    "url": "http://www.shadedrelief.com/natural3/pages/textures.html",
-                    "description": "Texture maps of Earth."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Nasa Earth Maps",
-                    "url": "http://visibleearth.nasa.gov/view_cat.php?categoryID=1484",
-                    "description": "NASA's Visible Earth catalog of NASA images and animations of our home planet."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Euler Angle on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Euler_angles",
-                    "description": "Wikipedia page with information and resources on Euler Angle."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Quaternions and spatial rotation on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation",
-                    "description": "Wikipedia page with information and resources on quaternions and spatial rotation."
-                }
-            ]
+          "icon": "🔗",
+          "title": "Spherical Coordinates System on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
+          "description": "Wikipedia page with information and resources on a spherical coordinate system."
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🎥",
-                    "title": "Earthquake Data Visualization",
-                    "url": "https://youtu.be/ZiYdOwOrGyc",
-                    "description": "In this Coding Challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js."
-                }
-            ]
+          "icon": "🔗",
+          "title": "USGS Earthquake Data",
+          "url": "http://earthquake.usgs.gov/data/",
+          "description": "Realtime monitoring, station, and other various seismic data available for download. Access to data products to view and download."
         },
         {
-            "title": "Live Stream Archives",
-            "links": [
-            {
-                "icon": "🔴",
-                "title": "Coding Train Live 78",
-                "url": "https://youtu.be/UiYb4yCsqFE?t=1238s",
-                "description": "Live Stream with More Earthquake Data Visualization"
-            },
-            {
-                "icon": "🔴",
-                "title": "Coding Train Live 79",
-                "url": "https://youtu.be/L1nHni9HMBw?t=2261s",
-                "description": "Live Stream with 3D Earthquake Data Visualization & Steering Behaviors"
-              },
-              {
-                "icon": "🔴",
-                "title": "Coding Train Live 77",
-                "url": "https://youtu.be/qTxPqMI69aM?t=5525s",
-                "description": "Live Stream with Earthquake Data Visualization and more on Star Patterns."
-            }]
+          "icon": "🔗",
+          "title": "Cross Product Diagram",
+          "url": "https://de.wikipedia.org/wiki/Kreuzprodukt#/media/File:Cross_product_parallelogram.svg",
+          "description": "Wikipedia image illustrating the cross product."
+        },
+        {
+          "icon": "🔗",
+          "title": "Natural Earth Texture Maps",
+          "url": "http://www.shadedrelief.com/natural3/pages/textures.html",
+          "description": "Texture maps of Earth."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nasa Earth Maps",
+          "url": "http://visibleearth.nasa.gov/view_cat.php?categoryID=1484",
+          "description": "NASA's Visible Earth catalog of NASA images and animations of our home planet."
+        },
+        {
+          "icon": "🔗",
+          "title": "Euler Angle on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Euler_angles",
+          "description": "Wikipedia page with information and resources on Euler Angle."
+        },
+        {
+          "icon": "🔗",
+          "title": "Quaternions and spatial rotation on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation",
+          "description": "Wikipedia page with information and resources on quaternions and spatial rotation."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Earthquake Data Visualization",
+          "url": "https://youtu.be/ZiYdOwOrGyc",
+          "description": "In this Coding Challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 78",
+          "url": "https://youtu.be/UiYb4yCsqFE?t=1238s",
+          "description": "Live Stream with More Earthquake Data Visualization"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 79",
+          "url": "https://youtu.be/L1nHni9HMBw?t=2261s",
+          "description": "Live Stream with 3D Earthquake Data Visualization & Steering Behaviors"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 77",
+          "url": "https://youtu.be/qTxPqMI69aM?t=5525s",
+          "description": "Live Stream with Earthquake Data Visualization and more on Star Patterns."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

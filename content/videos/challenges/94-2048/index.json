@@ -7,7 +7,11 @@
   "languages": ["Javascript", "p5.js"],
   "topics": ["2048", "sliding puzzle game"],
   "canContribute": true,
-  "relatedChallenges": ["142-rubiks-cube", "149-tic-tac-toe", "165-slide-puzzle"],
+  "relatedChallenges": [
+    "142-rubiks-cube",
+    "149-tic-tac-toe",
+    "165-slide-puzzle"
+  ],
   "timestamps": [],
   "parts": [
     {
@@ -144,6 +148,16 @@
           "description": "Livestream #116.2 - Snakes & Ladders Continued + 2048"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

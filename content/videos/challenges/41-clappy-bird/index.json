@@ -7,7 +7,11 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["flappy bird", "game development", "clappy bird"],
   "canContribute": true,
-  "relatedChallenges": ["31-flappy-bird", "147-chrome-dinosaur-game", "100-neuroevolution-flappy-bird"],
+  "relatedChallenges": [
+    "31-flappy-bird",
+    "147-chrome-dinosaur-game",
+    "100-neuroevolution-flappy-bird"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "0:34", "title": "About the positioning of the pipes" },
@@ -57,12 +61,24 @@
     },
     {
       "title": "Live Stream Archive",
-      "links": [{
-        "icon": "🔴",
-        "title": "Live Stream #63",
-        "url": "https://youtu.be/bM9MfoKe9GU",
-        "description": " Sound in p5.js Continued, Clappy Bird,  and Q&A"
-      }]
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #63",
+          "url": "https://youtu.be/bM9MfoKe9GU",
+          "description": " Sound in p5.js Continued, Clappy Bird,  and Q&A"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

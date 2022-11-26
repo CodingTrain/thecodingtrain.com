@@ -9,11 +9,20 @@
   "canContribute": true,
   "relatedChallenges": ["21-mandelbrot-set-with-p5js", "168-the-mandelbulb"],
   "timestamps": [
-    { "time": "0:00", "title": "Introducing today's coding challenge: the Julia set" },
+    {
+      "time": "0:00",
+      "title": "Introducing today's coding challenge: the Julia set"
+    },
     { "time": "0:40", "title": "Review of the Mandelbrot set" },
     { "time": "4:51", "title": "The Julia set" },
-    { "time": "7:16", "title": "Adjust code to include a particular Julia set" },
-    { "time": "10:07", "title": "Use mouseX, mouseY to see all the different Julia sets" },
+    {
+      "time": "7:16",
+      "title": "Adjust code to include a particular Julia set"
+    },
+    {
+      "time": "10:07",
+      "title": "Use mouseX, mouseY to see all the different Julia sets"
+    },
     { "time": "12:30", "title": "Add sine wave to animate" },
     { "time": "14:42", "title": "Add color by changing the color mode to HSB" },
     { "time": "16:45", "title": "Use zoom to animate" },
@@ -64,6 +73,16 @@
           "description": "Live Stream with Julia Set and Sound Effects with p5.js"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -1,95 +1,98 @@
 {
-    "title": "Langton's Ant",
-    "description": "Langton's Ant is a cellular automaton that starts off with simples rules but takes on complex emergent behavior.",
-    "videoNumber": "89",
-    "videoId": "G1EgjgMo48U",
-    "date": "2018-01-08",
-    "languages": [
-        "Processing",
-        "Java"
-    ],
-    "topics": [
-        "langton's ant",
-        "cellular automata"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [
-        "85-the-game-of-life", "102-2d-water-ripple"
-    ],
-    "timestamps": [
+  "title": "Langton's Ant",
+  "description": "Langton's Ant is a cellular automaton that starts off with simples rules but takes on complex emergent behavior.",
+  "videoNumber": "89",
+  "videoId": "G1EgjgMo48U",
+  "date": "2018-01-08",
+  "languages": ["Processing", "Java"],
+  "topics": ["langton's ant", "cellular automata"],
+  "canContribute": true,
+  "relatedChallenges": ["85-the-game-of-life", "102-2d-water-ripple"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction and setup code!"
+    },
+    {
+      "time": "1:46",
+      "title": "Writing the algorithm for the motion of Langton's ant"
+    },
+    {
+      "time": "9:09",
+      "title": "Visualizing Langton's Ant"
+    },
+    {
+      "time": "12:33",
+      "title": "Debugging and testing!"
+    },
+    {
+      "time": "14:53",
+      "title": "Refactoring the code!"
+    },
+    {
+      "time": "20:06",
+      "title": "Things to try!"
+    },
+    {
+      "time": "20:46",
+      "title": "Outro!"
+    }
+  ],
+  "codeExamples": [
+    {
+      "image": "langton-ant.png",
+      "title": "Langton's Ant",
+      "description": "Implementation of Langton's Ant",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/svbAzt8sb",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/089_langtonsant/Processing/CC_089_langtonsant"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "time": "0:00",
-            "title": "Introduction and setup code!"
-        },
-        {
-            "time": "1:46",
-            "title": "Writing the algorithm for the motion of Langton's ant"
-        },
-        {
-            "time": "9:09",
-            "title": "Visualizing Langton's Ant"
-        },
-        {
-            "time": "12:33",
-            "title": "Debugging and testing!"
-        },
-        {
-            "time": "14:53",
-            "title": "Refactoring the code!"
-        },
-        {
-            "time": "20:06",
-            "title": "Things to try!"
-        },
-        {
-            "time": "20:46",
-            "title": "Outro!"
+          "icon": "📄",
+          "title": "Langton's Ant on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Langton's_ant",
+          "description": "Wikipedia page on Langton's Ant"
         }
-    ],
-    "codeExamples": [
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
         {
-            "image": "langton-ant.png",
-            "title": "Langton's Ant",
-            "description": "Implementation of Langton's Ant",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/svbAzt8sb",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/089_langtonsant/Processing/CC_089_langtonsant"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "📄",
-                    "title": "Langton's Ant on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Langton's_ant",
-                    "description": "Wikipedia page on Langton's Ant"
-                }
-            ]
+          "icon": "🚂",
+          "title": "Pixels! (Processing Tutorial)",
+          "url": "https://youtu.be/EmtU0eloTlE",
+          "description": "The Coding Train tutorial on the Pixels Array"
         },
         {
-            "title": "Videos",
-            "links": [{
-                    "icon": "🚂",
-                    "title": "Pixels! (Processing Tutorial)",
-                    "url": "https://youtu.be/EmtU0eloTlE",
-                    "description": "The Coding Train tutorial on the Pixels Array"
-                },
-                {
-                    "icon": "🐜",
-                    "title": "Langton's Ant",
-                    "url": "https://youtu.be/NWBToaXK5T0",
-                    "description": "The Numberphile video on Langton's Ant"
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Live Stream Archive #113",
-                    "url": "https://youtu.be/raFdpMUWO9Q",
-                    "description": "Live Stream with The Return of Neural Networks"
-                }
-            ]
+          "icon": "🐜",
+          "title": "Langton's Ant",
+          "url": "https://youtu.be/NWBToaXK5T0",
+          "description": "The Numberphile video on Langton's Ant"
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #113",
+          "url": "https://youtu.be/raFdpMUWO9Q",
+          "description": "Live Stream with The Return of Neural Networks"
         }
-    ]
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

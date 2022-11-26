@@ -78,7 +78,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "My Tutorial on Pixels in Processing",
           "url": "https://youtu.be/EmtU0eloTlE",
@@ -97,6 +98,16 @@
           "description": "Live Stream with Neural Networks Continued"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

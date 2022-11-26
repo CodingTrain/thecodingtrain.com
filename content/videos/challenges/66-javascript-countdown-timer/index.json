@@ -1,78 +1,85 @@
 {
-    "title": "JavaScript Countdown Timer",
-    "description": "In this video, I use the p5.js library to create a web-based countdown timer. I discuss the native JavaScript method setInterval() and well as p5\u2019s millis().",
-    "videoNumber": "66",
-    "videoId": "MLtAMg9_Svw",
-    "date": "2017-03-25",
-    "languages": ["p5.js", "JavaScript"],   
-    "topics": [
-        "countdown timer",
-        "setInterval"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["74-clock"],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:52", "title": "Describe challenge" },
-        { "time": "1:56", "title": "Let's code" },
-        { "time": "2:12", "title": "Display timer" },
-        { "time": "3:50", "title": "Decide what to display" },
-        { "time": "4:12", "title": "Introduce setInterval" },
-        { "time": "5:10", "title": "Mention requestAnimationFrame" },
-        { "time": "5:30", "title": "Increment counter with setInterval" },
-        { "time": "6:15", "title": "Count backwards" },
-        { "time": "7:38", "title": "Choose to display minutes and seconds" },
-        { "time": "8:08", "title": "Calculate minutes with floor" },
-        { "time": "9:10", "title": "Calculate seconds with modulo" },
-        { "time": "10:04", "title": "Display minutes and seconds" },
-        { "time": "10:45", "title": "Format values with nf" },
-        { "time": "11:50", "title": "Describe URL query parameters" },
-        { "time": "12:34", "title": "Get parameters with getURLparams" },
-        { "time": "13:40", "title": "Handle missing parameter" },
-        { "time": "14:43", "title": "Handle minute parameter" },
-        { "time": "15:18", "title": "Add sound" },
-        { "time": "16:22", "title": "Stop timer" },
-        { "time": "16:58", "title": "Stop interval with clearInterval" },
-        { "time": "17:18", "title": "Test timer" },
-        { "time": "17:40", "title": "Conclusion and creative possibilities" },
-        { "time": "18:10", "title": "Addendum: refine timer with millis" },
-        { "time": "18:58", "title": "Replace counter with current time" },
-        { "time": "19:49", "title": "Debugging" },
-        { "time": "20:45", "title": "Conclusion" }
-    ],
-    "codeExamples": [
+  "title": "JavaScript Countdown Timer",
+  "description": "In this video, I use the p5.js library to create a web-based countdown timer. I discuss the native JavaScript method setInterval() and well as p5\u2019s millis().",
+  "videoNumber": "66",
+  "videoId": "MLtAMg9_Svw",
+  "date": "2017-03-25",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["countdown timer", "setInterval"],
+  "canContribute": true,
+  "relatedChallenges": ["74-clock"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:52", "title": "Describe challenge" },
+    { "time": "1:56", "title": "Let's code" },
+    { "time": "2:12", "title": "Display timer" },
+    { "time": "3:50", "title": "Decide what to display" },
+    { "time": "4:12", "title": "Introduce setInterval" },
+    { "time": "5:10", "title": "Mention requestAnimationFrame" },
+    { "time": "5:30", "title": "Increment counter with setInterval" },
+    { "time": "6:15", "title": "Count backwards" },
+    { "time": "7:38", "title": "Choose to display minutes and seconds" },
+    { "time": "8:08", "title": "Calculate minutes with floor" },
+    { "time": "9:10", "title": "Calculate seconds with modulo" },
+    { "time": "10:04", "title": "Display minutes and seconds" },
+    { "time": "10:45", "title": "Format values with nf" },
+    { "time": "11:50", "title": "Describe URL query parameters" },
+    { "time": "12:34", "title": "Get parameters with getURLparams" },
+    { "time": "13:40", "title": "Handle missing parameter" },
+    { "time": "14:43", "title": "Handle minute parameter" },
+    { "time": "15:18", "title": "Add sound" },
+    { "time": "16:22", "title": "Stop timer" },
+    { "time": "16:58", "title": "Stop interval with clearInterval" },
+    { "time": "17:18", "title": "Test timer" },
+    { "time": "17:40", "title": "Conclusion and creative possibilities" },
+    { "time": "18:10", "title": "Addendum: refine timer with millis" },
+    { "time": "18:58", "title": "Replace counter with current time" },
+    { "time": "19:49", "title": "Debugging" },
+    { "time": "20:45", "title": "Conclusion" }
+  ],
+  "codeExamples": [
+    {
+      "title": "JavaScript Countdown Timer",
+      "description": "This sketch implements a countdown timer with JavaScript.",
+      "image": "javascript-countdown-timer.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ZKSNy0USh"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "JavaScript Countdown Timer",
-            "description": "This sketch implements a countdown timer with JavaScript.",
-            "image": "javascript-countdown-timer.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ZKSNy0USh"
-            }
-        }
-    ],
-    "groupLinks": [
+          "icon": "🔗",
+          "title": "millis() reference",
+          "url": "https://p5js.org/reference/#/p5/millis",
+          "description": "Reference page for the p5.js function `millis()`."
+        },
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🔗",
-                    "title": "millis() reference",
-                    "url": "https://p5js.org/reference/#/p5/millis",
-                    "description": "Reference page for the p5.js function `millis()`."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "getURLParams() reference",
-                    "url": "https://p5js.org/reference/#/p5/getURLParams",
-                    "description": "Reference page for the p5.js function `getURLParams()`."
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Coding Train Live 87",
-                    "url": "https://youtu.be/hVSHlFjTeqg?t=1355s",
-                    "description": "Live Stream with Timer in JavaScript, Pong and Binary Tree - Part 3"
-                }
-            ]
+          "icon": "🔗",
+          "title": "getURLParams() reference",
+          "url": "https://p5js.org/reference/#/p5/getURLParams",
+          "description": "Reference page for the p5.js function `getURLParams()`."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 87",
+          "url": "https://youtu.be/hVSHlFjTeqg?t=1355s",
+          "description": "Live Stream with Timer in JavaScript, Pong and Binary Tree - Part 3"
         }
-    ]
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

@@ -7,7 +7,11 @@
   "languages": ["Processing"],
   "topics": ["fluid simulation", "turbulent fluid flow"],
   "canContribute": true,
-  "relatedChallenges": ["24-perlin-noise-flow-field", "102-2d-water-ripple", "103-fire-effect"],
+  "relatedChallenges": [
+    "24-perlin-noise-flow-field",
+    "102-2d-water-ripple",
+    "103-fire-effect"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:59", "title": "Topic suggestion from deardanielxd" },
@@ -105,6 +109,16 @@
           "description": "Live Stream with Bouncing DVD Logo + Fluid Simulation"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

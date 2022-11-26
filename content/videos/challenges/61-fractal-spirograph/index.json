@@ -7,7 +7,11 @@
   "languages": ["Processing", "Java"],
   "topics": ["fractal", "spirograph", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": ["7-solar-system-2d", "55-mathematical-rose-patterns", "116-lissajous-curve-table"],
+  "relatedChallenges": [
+    "7-solar-system-2d",
+    "55-mathematical-rose-patterns",
+    "116-lissajous-curve-table"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:45", "title": "Benice equation" },
@@ -15,9 +19,18 @@
     { "time": "4:45", "title": "Polar to cartesian coordinates" },
     { "time": "5:53", "title": "Draw first circle" },
     { "time": "6:44", "title": "Add a second circle" },
-    { "time": "8:54", "title": "Use polar coordinates to find radius of second circle" },
-    { "time": "9:52", "title": "Increment the angle to rotate second circle around first circle" },
-    { "time": "11:02", "title": "Save the points of the path of the second circle" },
+    {
+      "time": "8:54",
+      "title": "Use polar coordinates to find radius of second circle"
+    },
+    {
+      "time": "9:52",
+      "title": "Increment the angle to rotate second circle around first circle"
+    },
+    {
+      "time": "11:02",
+      "title": "Save the points of the path of the second circle"
+    },
     { "time": "14:07", "title": "Add an Orbit class" },
     { "time": "16:41", "title": "Linked lists" },
     { "time": "19:01", "title": "Write an addChild() function" },
@@ -72,6 +85,16 @@
           "description": "Live Stream for Fractal Spirograph challenge."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }
