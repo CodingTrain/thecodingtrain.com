@@ -4,12 +4,15 @@
   "videoNumber": "4.6",
   "videoId": "yFVc-LnBrEc",
   "date": "2018-10-11",
-  "languages": ["Node.js"],
+  "languages": ["node.js"],
   "topics": ["mastodon"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Listening for a mention events" },
-    { "time": "1:11", "title": "Using a regular expression to respond to the content" },
+    {
+      "time": "1:11",
+      "title": "Using a regular expression to respond to the content"
+    },
     { "time": "2:17", "title": "Favorite the post" },
     { "time": "9:09", "title": "Reblog" },
     { "time": "10:12", "title": "Every action has an ID" }
@@ -50,7 +53,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "Mastodon Track",
           "url": "/tracks/mastodon",

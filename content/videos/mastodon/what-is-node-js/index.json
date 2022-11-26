@@ -1,59 +1,64 @@
 {
-    "title": "What is Node.js? - Twitter Bot Tutorial",
-    "description": "This video covers the basics of Node.js. What is Node.js? What is server-side programming? What might you use it for and how do you get started?  Basic unix commands and working with terminal are covered.",
-    "videoNumber": "15.1",
-    "videoId": "RF5_MPSNAtU",
-    "date": "2018-10-08",
-    "languages": ["Node.js"],
-    "topics": ["twitter", "bot"],
-    "canContribute": false,
-    "timestamps": [
-        { "time": "1:35", "title": "Servers" },
-        { "time": "4:35", "title": "Node.js - a framework for writing a custom server" },
-        { "time": "5:14", "title": "Twitter API" },
-        { "time": "7:47", "title": "How to use Node on your local computer" },
-        { "time": "8:35", "title": "Issuing commands on the terminal" },
-        { "time": "11:04", "title": "Using Node in the terminal" },
-        { "time": "12:03", "title": "Running small programs" },
-        { "time": "13:54", "title": "Connecting with the Twitter API" }
-    ],
-    "codeExamples": [],
-    "groupLinks": [{
-            "title": "References",
-            "links": [{
-                    "icon": "🔗",
-                    "title": "Darius Kazemi Eyeo talk",
-                    "url": "https://vimeo.com/112289364",
-                    "description": "Darius Kazemi Eyeo 2014 talk"
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Twitter Bots",
-                    "url": "http://air.decontextualize.com/twitterbot/",
-                    "description": "Allison Parrish twitter bot tutorial"
-                },
-                {
-                    "icon": "📰",
-                    "title": "NY Magazine on bots",
-                    "url": "http://nymag.com/following/2015/11/12-weirdest-funniest-smartest-twitter-bots.html",
-                    "description": "12 Weird, Excellent Twitter Bots Chosen by Twitter’s Best Bot-Makers"
-                }
-            ]
+  "title": "What is Node.js? - Twitter Bot Tutorial",
+  "description": "This video covers the basics of Node.js. What is Node.js? What is server-side programming? What might you use it for and how do you get started?  Basic unix commands and working with terminal are covered.",
+  "videoNumber": "15.1",
+  "videoId": "RF5_MPSNAtU",
+  "date": "2018-10-08",
+  "languages": ["node.js"],
+  "topics": ["twitter", "bot"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "1:35", "title": "Servers" },
+    {
+      "time": "4:35",
+      "title": "Node.js - a framework for writing a custom server"
+    },
+    { "time": "5:14", "title": "Twitter API" },
+    { "time": "7:47", "title": "How to use Node on your local computer" },
+    { "time": "8:35", "title": "Issuing commands on the terminal" },
+    { "time": "11:04", "title": "Using Node in the terminal" },
+    { "time": "12:03", "title": "Running small programs" },
+    { "time": "13:54", "title": "Connecting with the Twitter API" }
+  ],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Darius Kazemi Eyeo talk",
+          "url": "https://vimeo.com/112289364",
+          "description": "Darius Kazemi Eyeo 2014 talk"
         },
         {
-            "title": "Videos",
-            "links": [
-              {
-                "title": "Mastodon Track",
-                "url": "/tracks/mastodon",
-                "description": "This track covers the decentralized open source social media platform Mastodon."
-              },
-              {
-                "title": "Data and APIs in Javascript Track",
-                "url": "/tracks/data-and-apis-in-javascript",
-                "description": "This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with fetch() and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as draw to HTML5 canvas with p5.js. The second and third project will introduce \"full stack\" development adding server-side programming with node.js for data persistence and API authentication."
-              }
-            ]
+          "icon": "🔗",
+          "title": "Twitter Bots",
+          "url": "http://air.decontextualize.com/twitterbot/",
+          "description": "Allison Parrish twitter bot tutorial"
+        },
+        {
+          "icon": "📰",
+          "title": "NY Magazine on bots",
+          "url": "http://nymag.com/following/2015/11/12-weirdest-funniest-smartest-twitter-bots.html",
+          "description": "12 Weird, Excellent Twitter Bots Chosen by Twitter’s Best Bot-Makers"
         }
-    ]
-  }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        },
+        {
+          "title": "Data and APIs in Javascript Track",
+          "url": "/tracks/data-and-apis-in-javascript",
+          "description": "This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with fetch() and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as draw to HTML5 canvas with p5.js. The second and third project will introduce \"full stack\" development adding server-side programming with node.js for data persistence and API authentication."
+        }
+      ]
+    }
+  ]
+}

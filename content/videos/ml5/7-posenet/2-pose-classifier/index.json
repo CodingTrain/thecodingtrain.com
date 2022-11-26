@@ -4,7 +4,7 @@
   "videoNumber": "7.2",
   "videoId": "FYgYyq-xqAw",
   "date": "2020-01-15",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": [
     "pose estimation",
     "data collection",
