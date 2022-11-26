@@ -20,17 +20,15 @@
   }
 }
 
-.description {
-  height: var(--baseline);
-  padding: 0 var(--spacing-normal);
-  line-height: var(--baseline);
-}
-
 .creditTitle {
   font-weight: bold;
 }
 
 .description {
+  height: var(--baseline);
+  padding: 0 var(--spacing-normal);
+  line-height: var(--baseline);
+
   font-size: var(--maru-normal);
   display: flex;
   align-items: center;
@@ -57,15 +55,6 @@
 }
 
 @media (--reduced) {
-  .credit {
-    flex-wrap: wrap;
-  }
-
-  .url {
-    white-space: initial;
-    text-overflow: initial;
-  }
-
   .description {
     width: 100%;
   }
@@ -81,7 +70,7 @@
     display: none;
   }
   .description {
-    height: var(--baseline-2x);
+    height: var(--baseline);
     font-size: var(--maru-medium);
   }
 }
