@@ -4,7 +4,7 @@
   "videoNumber": "4.3",
   "videoId": "B8ireAeWRQk",
   "date": "2018-10-09",
-  "languages": ["Node.js"],
+  "languages": ["node.js"],
   "topics": ["mastodon", "dotenv"],
   "canContribute": false,
   "timestamps": [
@@ -54,12 +54,14 @@
     },
     {
       "title": "Videos",
-      "links": [{
-        "icon": "🚂",
-        "title": "Mastodon Track",
-        "url": "/tracks/mastodon",
-        "description": "This track covers the decentralized open source social media platform Mastodon."
-      }]
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        }
+      ]
     }
   ]
 }

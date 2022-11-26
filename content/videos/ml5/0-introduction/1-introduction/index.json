@@ -4,7 +4,7 @@
   "videoNumber": "0.1",
   "videoId": "jmznx0Q1fP0",
   "date": "2018-07-31",
-  "languages": ["p5js", "ml5", "tensorflow.js"],
+  "languages": ["p5.js", "ml5.js", "tensorflow.js"],
   "topics": ["machine learning", "ml5", "tensorflow"],
   "canContribute": true,
   "timestamps": [

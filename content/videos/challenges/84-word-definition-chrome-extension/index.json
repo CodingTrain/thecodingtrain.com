@@ -4,7 +4,7 @@
   "videoNumber": "84",
   "videoId": "GWDx1GnxhOw",
   "date": "2017-11-29",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["chrome extensions", "bookmarklets", "wordnik api", "definition"],
   "canContribute": true,
   "relatedChallenges": [

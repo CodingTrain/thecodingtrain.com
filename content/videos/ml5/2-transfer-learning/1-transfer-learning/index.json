@@ -4,7 +4,7 @@
   "videoNumber": "2.1",
   "videoId": "kRpZ5OqUY6Y",
   "date": "2018-08-13",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["image classification", "feature extractor"],
   "canContribute": true,
   "timestamps": [

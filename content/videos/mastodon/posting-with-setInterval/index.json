@@ -4,7 +4,7 @@
   "videoNumber": "4.4",
   "videoId": "dHI3cUhNWRg",
   "date": "2018-10-10",
-  "languages": ["Node.js"],
+  "languages": ["node.js"],
   "topics": ["mastodon"],
   "canContribute": false,
   "timestamps": [
@@ -51,7 +51,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "ES6 Arrow Syntax",
           "url": "https://youtu.be/mrYMzpbFz18",

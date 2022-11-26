@@ -4,7 +4,7 @@
   "videoNumber": "94",
   "videoId": "JSn-DJU8qf0",
   "date": "2018-02-26",
-  "languages": ["Javascript", "p5.js"],
+  "languages": ["JavaScript", "p5.js"],
   "topics": ["2048", "sliding puzzle game"],
   "canContribute": true,
   "relatedChallenges": [
