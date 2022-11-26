@@ -7,12 +7,18 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["shapes", "drawing", "basics"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "5:24", "title": "Javascript Versus p5.js" },
+    { "time": "12:52", "title": "The p5.js Coordinate System" },
+    { "time": "18:00", "title": "Function Parameters" },
+    { "time": "22:46", "title": "Your Assignment" }
+  ],
   "codeExamples": [
     {
       "title": "Shapes & Drawing",
       "description": "Demonstration of drawing shapes and lines in p5.js.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/HJ1WjEPwQ"
       }

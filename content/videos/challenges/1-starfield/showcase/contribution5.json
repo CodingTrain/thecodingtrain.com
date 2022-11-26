@@ -1,9 +1,8 @@
 {
-    "title": "Python Edition",
-    "url": "",
-    "author": {
-        "name": "Morel Takougang",
-        "url": "https://github.com/MorelT98"
-    },
-    "source": "https://github.com/MorelT98/coding-challenges/blob/master/001_starfield"
+  "title": "Python Edition",
+  "url": "https://github.com/MorelT98/coding-challenges/blob/master/001_starfield",
+  "author": {
+    "name": "Morel Takougang",
+    "url": "https://github.com/MorelT98"
+  }
 }

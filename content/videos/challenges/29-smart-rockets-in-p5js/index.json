@@ -1,0 +1,58 @@
+{
+  "title": "Smart Rockets in p5.js",
+  "description": "In this coding challenge, I implement a \"smart rockets\" algorithm (based on a simulation by Jer Thorp).",
+  "videoNumber": "29",
+  "videoId": "bGz7mv2vD6g",
+  "date": "2016-08-02",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["genetic algorithm", "dna", "evolutionary algorithm"],
+  "canContribute": true,
+  "relatedChallenges": ["69-evolutionary-steering-behaviors", "100-neuroevolution-flappy-bird", "147-chrome-dinosaur-game"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "3:10", "title": "Rocket object" },
+    { "time": "7:07", "title": "Population object" },
+    { "time": "10:48", "title": "DNA object" },
+    { "time": "15:09", "title": "Add target" },
+    { "time": "17:24", "title": "Evaluate function" },
+    { "time": "19:35", "title": "Mating pool" },
+    { "time": "23:26", "title": "Selection function" },
+    { "time": "25:36", "title": "Crossover function" },
+    { "time": "33:56", "title": "Is the genetic algorithm working?" },
+    { "time": "35:50", "title": "Check if rocket has reached target" },
+    { "time": "38:05", "title": "Mutation function" },
+    { "time": "40:17", "title": "Add obstacle" },
+    { "time": "43:34", "title": "Check if rocket hits canvas edges" },
+    { "time": "46:55", "title": "Conclusion and possible improvements" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Smart Rockets",
+      "description": "This sketch implements a smart rocket algorithm.", 
+      "image": "smart-rockets-in-p5js.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/o5PwECj42",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/029_SmartRockets/Processing/CC_029_SmartRockets"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "My Genetic Algorithm playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+          "description": "These video lessons accompany Chapter 9 (Genetic Algorithms) from The Nature of Code book."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #53",
+          "url": "https://youtu.be/A01_aKgIeCo",
+          "description": "Live Stream with Smart Rockets, CodePen and Arguments Array in JS"
+        }
+      ]
+    }
+  ]
+}

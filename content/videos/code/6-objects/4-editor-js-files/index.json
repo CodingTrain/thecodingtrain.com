@@ -7,12 +7,16 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "objects", "editor"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "1:20", "title": "Making a Separate JavaScript File for Classes" },
+    {"time": "2:31", "title": "The index.html File" }
+  ],
   "codeExamples": [
     {
       "title": "Adding Files in p5.js Web Editor",
       "description": "Demonstration of modularizing code into separate files in the p5.js web editor.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/vcgtnfG7"
       }

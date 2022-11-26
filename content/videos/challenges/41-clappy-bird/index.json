@@ -1,0 +1,68 @@
+{
+  "title": "Clappy Bird",
+  "description": "Sure, flappy bird is fun, but what happens if we take away the button and control the bird with clapping! Yes, it's time for Clappy Bird!",
+  "videoNumber": "41",
+  "videoId": "aKiyCeIuwn4",
+  "date": "2016-10-20",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["flappy bird", "game development", "clappy bird"],
+  "canContribute": true,
+  "relatedChallenges": ["31-flappy-bird", "147-chrome-dinosaur-game", "100-neuroevolution-flappy-bird"],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "0:34", "title": "About the positioning of the pipes" },
+    { "time": "2:10", "title": "Implementing spacing to the pipe object" },
+    {
+      "time": "3:35",
+      "title": "Moving the center of the space between the pipes to a random location"
+    },
+    { "time": "7:05", "title": "Adding a random spacing" },
+    { "time": "8:03", "title": "Implementing sound interaction " },
+    { "time": "11:31", "title": "Adjusting the threshold with a slider" },
+    {
+      "time": "14:21",
+      "title": "Adding another threshold to apply the force only once"
+    },
+    { "time": "17:02", "title": "Testing the clappy bird!" },
+    { "time": "17:50", "title": "Come up with your own ideas!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Clappy Bird",
+      "description": "A flappy bird which flaps when you clap!",
+      "image": "clappy-bird.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tL29haKoC",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/041_ClappyBird/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔊",
+          "title": "p5.sound",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js sound library reference"
+        },
+        {
+          "icon": "🗒️",
+          "title": "p5.AudioIn",
+          "url": "https://p5js.org/reference/#/p5.AudioIn",
+          "description": "p5.AudioIn object reference"
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Live Stream #63",
+        "url": "https://youtu.be/bM9MfoKe9GU",
+        "description": " Sound in p5.js Continued, Clappy Bird,  and Q&A"
+      }]
+    }
+  ]
+}

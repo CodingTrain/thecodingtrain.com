@@ -1,13 +1,14 @@
 {
   "title": "ml5.js: What is a Convolutional Neural Network Part 1",
-  "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \u201cfilters\u201d.",
+  "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \"filters\".",
   "videoNumber": "8.2",
   "videoId": "qPKsVAI_W6M",
   "date": "2020-02-14",
-  "languages": ["ml5", "p5js"],
-  "topics": ["convolutional neutral network", "machine learning"],
+  "languages": ["ml5.js", "p5.js"],
+  "topics": ["convolutional neural network", "machine learning"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -104,25 +105,31 @@
       "title": "Add a random filter"
     }
   ],
-  "codeExamples": [{
-    "title": "Convlutional Neural Network",
-    "description": "This sketch demonstrates the process of creating a convolutional layer to filter pixels.",
-    "urls": {
-      "p5": "https://editor.p5js.org/codingtrain/sketches/BN1lE-gyl"
+  "codeExamples": [
+    {
+      "title": "Convlutional Neural Network",
+      "description": "This sketch demonstrates the process of creating a convolutional layer to filter pixels.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/BN1lE-gyl"
+      }
     }
-  }],
-  "groupLinks": [{
+  ],
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
-        "icon": "💻",
-        "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
-        "url": "https://arxiv.org/abs/1704.04861",
-        "description": "Academic article abut MobileNets."
-      }]
+      "links": [
+        {
+          "icon": "💻",
+          "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "url": "https://arxiv.org/abs/1704.04861",
+          "description": "Academic article abut MobileNets."
+        }
+      ]
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "ml5.js: Train a Neural Network with Pixels as Input",
           "url": "https://www.youtube.com/watch?v=UaKab6h9Z0I",
@@ -132,7 +139,7 @@
           "icon": "🚂",
           "title": "ml5.js: Image Classification with MobileNet",
           "url": "https://www.youtube.com/watch?v=yNkAuWz5lnY",
-          "description": "In this video, I use the \u201cpre-trained\u201d MobileNet model to classify the content of an image."
+          "description": "In this video, I use the \"pre-trained\" MobileNet model to classify the content of an image."
         },
         {
           "icon": "🚂",

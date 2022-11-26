@@ -1,13 +1,14 @@
 {
   "title": "ml5.js: Save/Load Model",
-  "description": "In this video, I discuss how to save and load an image classification model (trained using the \u201cfeature extractor\u201d) in ml5.js.",
+  "description": "In this video, I discuss how to save and load an image classification model (trained using the \"feature extractor\") in ml5.js.",
   "videoNumber": "4.1",
   "videoId": "eU7gIy3xV30",
   "date": "2018-11-12",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["machine learning", "feature extractor"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -36,25 +37,31 @@
       "title": "Start Classifiying"
     }
   ],
-  "codeExamples": [{
-    "title": "Saving and loading a model in ml5",
-    "description": "This sketch demonstrates how to save and load a model in ml5.",
-    "urls": {
-      "p5": "https://editor.p5js.org/codingtrain/sketches/1g9C6OKX"
+  "codeExamples": [
+    {
+      "title": "Saving and loading a model in ml5",
+      "description": "This sketch demonstrates how to save and load a model in ml5.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/1g9C6OKX"
+      }
     }
-  }],
-  "groupLinks": [{
+  ],
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
-        "icon": "💻",
-        "title": "ml5.js",
-        "url": "https://ml5js.org/",
-        "description": "ml5 page with documentation and supporting material."
-      }]
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        }
+      ]
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "Beginners Guide to Machine Learning in JavaScript",
           "url": "https://www.youtube.com/watch?v=26uABexmOX4&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",

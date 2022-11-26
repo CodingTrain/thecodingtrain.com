@@ -1,0 +1,233 @@
+{
+  "title": "Neuroevolution Flappy Bird",
+  "description": "In this challenge, I use my JavaScript neural network library and a genetic algorithm to train an agent to play Flappy Bird.",
+  "videoNumber": "100",
+  "videoId": "c6y21FkaUqw",
+  "date": "2018-04-16",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [
+    "neural network",
+    "reinforcement learning",
+    "genetic algorithm",
+    "evolution",
+    "flappy bird"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["29-smart-rockets-in-p5js", "31-flappy-bird", "41-clappy-bird"],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Creating the Neural Network",
+      "videoId": "c6y21FkaUqw",
+      "timestamps": [
+        { "time": "0:00", "title": "Introducing today's topic: Flappy Birds" },
+        { "time": "1:44", "title": "Pieces of the Code" },
+        { "time": "4:11", "title": "Reinforcement Learning" },
+        {
+          "time": "6:45",
+          "title": "Make multiple birds that make random decisions and use a genetic alorithm"
+        },
+        {
+          "time": "7:40",
+          "title": "Each Bird object will have its own neural network \"brain\""
+        },
+        { "time": "9:40", "title": "The architecture for the neural network" },
+        { "time": "14:03", "title": "Write a think function" },
+        { "time": "16:04", "title": "Code the inputs" },
+        { "time": "19:00", "title": "Find the closest pipe" },
+        { "time": "22:22", "title": "Summary and next steps" }
+      ]
+    },
+    {
+      "title": "Part 2 - Incorporate a Genetic Algorithm",
+      "videoId": "YtRA6tqgJBc",
+      "timestamps": [
+        {
+          "time": "0:00",
+          "title": "Part 2 - Incorporate a genetic algorithm"
+        },
+        { "time": "2:00", "title": "Make a population of birds" },
+        { "time": "4:10", "title": "Delete a bird if it hits a pipe" },
+        { "time": "5:57", "title": "Write a function for the next generation" },
+        { "time": "7:58", "title": "Evaluate the fitness value for each bird" },
+        { "time": "11:55", "title": "Pick a new bird" },
+        { "time": "17:35", "title": "Write a mutate function" },
+        { "time": "21:06", "title": "Pick a new bird based on its fitness" },
+        { "time": "28:03", "title": "Conclusion and next steps" }
+      ]
+    },
+    {
+      "title": "Part 3 - More Improvements",
+      "videoId": "3lvj9jvERvs",
+      "timestamps": [
+        { "time": "0:00", "title": "Part 3 of Flappy Bird - More Improvements" },
+        { "time": "0:56", "title": "Separate the game logic from the drawing" },
+        {
+          "time": "2:22",
+          "title": "Add a slider to control the number of cycles"
+        },
+        {
+          "time": "5:38",
+          "title": "Mutate the fitness score by a random Gaussian number"
+        },
+        {
+          "time": "7:09",
+          "title": "Conclusion and possible ways to optimize the genetic algorithm"
+        }
+      ]
+    },
+    {
+      "title": "Part 4 - Incorporate Features Suggested on Github",
+      "videoId": "HrvNpbnjEG8",
+      "timestamps": [
+        {
+          "time": "0:00",
+          "title": "Part 4 - Incorporate features suggested on Github"
+        },
+        { "time": "2:27", "title": "Add y velocity to the inputs" },
+        {
+          "time": "4:37",
+          "title": "Fixing the algorithm that detects the closest pipe"
+        },
+        { "time": "7:09", "title": "Remove a bird when it hits the bottom" },
+        {
+          "time": "9:40",
+          "title": "Make game harder by decreasing the spacing between the pipes"
+        },
+        {
+          "time": "12:40",
+          "title": "Optional feature: a bird can only jump if moving down"
+        },
+        {
+          "time": "14:47",
+          "title": "Conclusion and goal of the last part of this challenge"
+        }
+      ]
+    },
+    {
+      "title": "Part 5 - Save/Load a Bird",
+      "videoId": "U9wiMM3BqLU",
+      "timestamps": [
+        { "time": "0:00", "title": "Part 5 - Save/Load a Bird" },
+        {
+          "time": "6:42",
+          "title": "Use SaveJSON to save the weights of the neural network"
+        },
+        { "time": "9:39", "title": "Save the weights of the best bird" },
+        {
+          "time": "10:41",
+          "title": "Remove genetic algorithm and load the neural network of the best bird"
+        },
+        {
+          "time": "15:23",
+          "title": "Load a \"good\" and a \"bad\" bird and compare their collisions"
+        },
+        {
+          "time": "17:28",
+          "title": "Conclusion and possibilities for refinements"
+        }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Neuroevolution Flappy Bird",
+      "description": "This sketch uses a neural network to implement the Flappy Bird game.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/wb-QHVXBq",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/100.1_NeuroEvolution_FlappyBird/Processing/CC_100_1_NeuroEvolution_FlappyBird"
+      }
+    },
+    {
+      "title": "Neuroevolution Flappy Bird - Part 5",
+      "description": "Sketch with the option to save and load the best \"bird\".",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/iyPZnViI9"
+      }
+    },
+    {
+      "title": "Flappy Bird - Improved code",
+      "description": "Sketch with the improved code",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/T_cecG2MD",
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/tree/master/examples/neuroevolution-flappybird"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "TensorFlow.js",
+          "url": "https://js.tensorflow.org/",
+          "description": "Webpage with reference materials and documentation about Tensorflow.js."
+        },
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://github.com/ml5js",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "💻",
+          "title": "JS Neural Network",
+          "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS/",
+          "description": "My neural network JavaScript library for Coding Train tutorials."
+        },
+        {
+          "icon": "💻",
+          "title": "Flappy Bird Clone",
+          "url": "https://github.com/CodingTrain/Flappy-Bird-Clone",
+          "description": "Repository with the code from Coding Challenge #31 on YouTube."
+        },
+        {
+          "icon": "💻",
+          "title": "Neuroevolution documentation",
+          "url": "https://github.com/shiffman/NOC-S18/tree/master/week10",
+          "description": "Week 10 of my Spring 2018 NOC course at ITP"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Coding Challenge #31: Flappy Bird",
+          "url": "/challenges/31-flappy-bird",
+          "description": "It's time to attempt to build a Flappy Bird clone in JavaScript with the p5.js!"
+        },
+        {
+          "icon": "🚂",
+          "title": "My Genetic Algorithm playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+          "description": "These video lessons accompany Chapter 9 (Genetic Algorithms) from The Nature of Code book."
+        },
+        {
+          "icon": "🚂",
+          "title": "My Neural Networks playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
+          "description": "This video series accompanies Chapter 10 of The Nature of Code: Neural Networks."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [{
+          "icon": "🔴",
+          "title": "Coding Train Live 132",
+          "url": "https://youtu.be/ipMekhLS2M0?t=2934s",
+          "description": "Live Stream with Neuroevolution Flappy Bird & p5.js in Spanish"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 133",
+          "url": "https://youtu.be/emjv5tr-m7Q?t=1237s",
+          "description": "Live Stream with Neuroevolution Flappy Bird Continued"
+        }
+      ]
+    }
+  ]
+}

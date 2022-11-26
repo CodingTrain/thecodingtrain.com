@@ -1,14 +1,40 @@
 {
   "title": "Floyd-Steinberg Dithering",
-  "description": "In this coding challenge, I attempt to implement the Floyd-Steinberg Dithering algorithm and create a \u201cimage stippling\u201d effect on an image (kitten, of course) using Processing.",
+  "description": "In this coding challenge, I attempt to implement the Floyd-Steinberg Dithering algorithm and create a \"image stippling\" effect on an image (kitten, of course) using Processing.",
   "videoNumber": "90",
   "videoId": "0L2n8Tg2FwI",
   "date": "2018-01-16",
   "languages": ["Processing"],
   "topics": ["dithering", "stippling", "floyd-steinberg dithering"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "50-animated-circle-packing",
+    "85-the-game-of-life",
+    "107-sandpiles"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:20", "title": "Let's start coding!" },
+    { "time": "2:44", "title": "An image is a grid of pixels" },
+    {
+      "time": "3:25",
+      "title": "Quantizing an image to reduce the number of possible colors"
+    },
+    {
+      "time": "6:24",
+      "title": "Pull the red, green, and blue values of the pixel"
+    },
+    { "time": "7:11", "title": "Quantize the r, g, b values" },
+    { "time": "8:21", "title": "Add loadPixels() and updatePixels()" },
+    { "time": "9:11", "title": "Filter the image to make it greyscale" },
+    { "time": "11:01", "title": "Add more color possibilities" },
+    { "time": "13:01", "title": "Quantization of the error" },
+    { "time": "16:01", "title": "Funnel the error" },
+    { "time": "17:10", "title": "Write an index function" },
+    { "time": "21:08", "title": "Update r, g, b values" },
+    { "time": "24:13", "title": "Deal with the edges" },
+    { "time": "26:55", "title": "Conclusion and suggstions for variations" }
+  ],
   "codeExamples": [
     {
       "title": "Dithering",
@@ -16,7 +42,7 @@
       "image": "dither.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/-YkMaf9Ea",
-        "processing": "https://github.com/CodingTrain/CodingChallenges/090_dithering/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/090_dithering/Processing"
       }
     }
   ],
@@ -37,14 +63,14 @@
           "description": "My Processing Tutorial on 2D Arrays."
         },
         {
-          "icon": "🔗",
+          "icon": "🌐",
           "title": "Dither on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Dither",
           "description": "Discussion of dithering."
         },
         {
-          "icon": "🔗",
-          "title": "Floyd\u2013Steinberg dithering on Wikipedia",
+          "icon": "🌐",
+          "title": "Floyd–Steinberg dithering on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering",
           "description": "Discussion of Floyd Steinberg dithering."
         }
@@ -52,8 +78,7 @@
     },
     {
       "title": "Videos",
-      "links": [
-        {
+      "links": [{
           "icon": "🚂",
           "title": "My Tutorial on Pixels in Processing",
           "url": "https://youtu.be/EmtU0eloTlE",
@@ -64,6 +89,12 @@
           "title": "My Video on 2D Arrays",
           "url": "https://www.youtube.com/watch?v=OTNpiLUSiB4",
           "description": "In this video, I demonstrate how to create, initialize, and use the arrays with nested for loops."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 114",
+          "url": "https://youtu.be/iCxqLVm2H3w?t=8474s",
+          "description": "Live Stream with Neural Networks Continued"
         }
       ]
     }

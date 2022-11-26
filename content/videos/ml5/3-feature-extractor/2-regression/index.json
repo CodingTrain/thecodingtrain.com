@@ -1,13 +1,14 @@
 {
   "title": "ml5.js: Feature Extractor Regression",
-  "description": "In this video, I use ml5's feature extractor and re-train the MobileNet model to output a \u201cregression\u201d controlling a slider.",
+  "description": "In this video, I use ml5's feature extractor and re-train the MobileNet model to output a \"regression\" controlling a slider.",
   "videoNumber": "3.2",
   "videoId": "aKgq0m1YjvQ",
   "date": "2018-08-16",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["machine learning", "feature extractor", "regression", "slider"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -52,7 +53,8 @@
       "title": "Where is the model running?"
     }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "Feature Extractor Regression",
       "description": "This sketch demonstrates how to retrain the MobileNet model to output regression results.",
       "urls": {
@@ -60,7 +62,8 @@
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "References",
       "links": [
         {
@@ -85,12 +88,14 @@
     },
     {
       "title": "Videos",
-      "links": [{
-        "icon": "🚂",
-        "title": "Interacting with Sliders",
-        "url": "https://www.youtube.com/watch?v=587qclhguQg",
-        "description": "This video looks at how we can add some interactivity to a webpage with sliders, buttons and text inputs to change elements in the canvas or even in the DOM using the p5.js library."
-      }]
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Interacting with Sliders",
+          "url": "https://www.youtube.com/watch?v=587qclhguQg",
+          "description": "This video looks at how we can add some interactivity to a webpage with sliders, buttons and text inputs to change elements in the canvas or even in the DOM using the p5.js library."
+        }
+      ]
     }
   ]
 }

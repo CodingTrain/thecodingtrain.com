@@ -1,0 +1,94 @@
+{
+  "title": "Image Chrome Extension - The Ex-Kitten-sion!",
+  "description": "In this coding challenge, I create a chrome extension which replaces all image on a page with the picture of a kitten.",
+  "videoNumber": "82",
+  "videoId": "8zMMOdI5SOk",
+  "date": "2017-11-16",
+  "languages": ["JavaScript"],
+  "topics": ["chrome extensions", "bookmarklets", "image swap"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "83-p5-sketch-chrome-extension",
+    "84-word-definition-chrome-extension"
+  ],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction!" },
+    { "time": "01:09", "title": "Creating manifest.json" },
+    { "time": "04:00", "title": "Loading the extension in Chrome" },
+    { "time": "05:06", "title": "Finding all img elements on the page" },
+    {
+      "time": "06:32",
+      "title": "Adding all the assets to web_accessible_resources"
+    },
+    { "time": "10:17", "title": "Improving the file structure" },
+    {
+      "time": "12:02",
+      "title": "Setting the src field to the image of a kitten"
+    },
+    { "time": "15:17", "title": "Error! Add folder prefix to file names" },
+    { "time": "16:24", "title": "Final Output!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Ex-kitten-sion Image Replacer",
+      "description": "A chrome extension which replaces all images on a page with the picture of a kitten.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/082_Image_Chrome_Extension_The_Ex-Kitten-sion/JavaScript"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔤",
+          "title": "Programming from A to Z",
+          "url": "http://shiffman.net/a2z",
+          "description": "This course focuses on programming strategies and techniques behind procedural analysis and generation of text-based data."
+        },
+        {
+          "icon": "🐱",
+          "title": "Kitten Song",
+          "url": "https://soundcloud.com/lostghbear/lostghbear-podopleloff-kittens-feat-dan-shiffman",
+          "description": "Link to the Kittens song"
+        },
+        {
+          "icon": "🌄",
+          "title": "Unsplash",
+          "url": "https://unsplash.com/",
+          "description": "Repository of free high-resolution photos."
+        },
+        {
+          "icon": "📚",
+          "title": "chrome.extension reference",
+          "url": "https://developer.chrome.com/extensions/extension",
+          "description": "Reference for the chrome.extension API"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔣",
+          "title": "Regular Expressions Series",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w",
+          "description": "Video tutorials on regular expressions"
+        },
+        {
+          "icon": "🔌",
+          "title": "Chrome Extensions Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS",
+          "description": "Playlist on developing Chrome extensions in JavaScript"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 106",
+          "url": "https://youtu.be/y0zS83xj0g0?t=19m5s",
+          "description": "Live Stream with Chrome Extension Coding Challenges"
+        }
+      ]
+    }
+  ]
+}

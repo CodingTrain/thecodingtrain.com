@@ -1,0 +1,106 @@
+{
+  "title": "XOR Problem",
+  "description": "In this coding challenge, I use my Toy Neural Networks library to solve the XOR problem.",
+  "videoNumber": "92",
+  "videoId": "188B6k_F9jU",
+  "date": "2018-02-12",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [
+    "neural network",
+    "machine learning",
+    "gradient descent",
+    "xor problem"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs", "106-xor-problem-with-tensorflowjs"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:15", "title": "Machine learning" },
+    { "time": "3:00", "title": "Supervised learning" },
+    { "time": "4:20", "title": "XOR problem" },
+    { "time": "7:07", "title": "Hidden layer" },
+    { "time": "11:49", "title": "Training data" },
+    { "time": "13:14", "title": "nn.train()" },
+    { "time": "15:14", "title": "nn.predict()" },
+    { "time": "16:26", "title": "Visualize results" },
+    { "time": "19:30", "title": "Initializing weights" },
+    { "time": "20:15", "title": "Learning rate" },
+    { "time": "22:33", "title": "Add more hidden nodes" },
+    { "time": "23:40", "title": "What's next?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "XOR Problem",
+      "description": "This sketch uses a \"toy\" neural network to solve the XOR problem.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_QGR5d0Bi",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/092_xor/Processing/CC_092_xor"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "Toy-Neural-Network-JS",
+          "url": "https://github.com/CodingTrain/Toy-Neural-Network-JS",
+          "description": "Github repo with documentation and references materials for my Toy Neural Network."
+        },
+        {
+          "icon": "💻",
+          "title": "Deeplearn.js",
+          "url": "https://deeplearnjs.org",
+          "description": "Documentation and reference materials for TensorFlow.js."
+        },
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "My Neural Networks series",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
+          "description": "This playlist accompanies Chapter 10 of The Nature of Code book."
+        },
+        {
+          "icon": "🚂",
+          "title": "My Perceptron video",
+          "url": "https://codingtrain.github.io/website-archive/more/archive/nature-of-code/10-Neural-Networks/10.2-Neural-Networks-Perceptron-Part-1",
+          "description": "In this video, I continue my machine learning series and build a simple Perceptron in Processing (Java)."
+        },
+        {
+          "icon": "🎥",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "3Blue1Brown video series on neural networks."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #119",
+          "url": "https://youtu.be/f9vaiHoq-Fk?t=3171s",
+          "description": "Live Stream with Solving Merge Conflicts and XOR Problem"
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #118",
+          "url": "https://youtu.be/e8H588SXu6U?t=8090s",
+          "description": "Live Stream with More Neural Networks"
+        }
+      ]
+    }
+  ]
+}

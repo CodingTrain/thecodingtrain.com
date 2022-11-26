@@ -1,0 +1,57 @@
+{
+  "title": "Diastic Machine",
+  "description": "The Diastic technique is a methodology and algorithm for generating found poetry from a source text. It was developed and used by poet / artist Jackson Mac Low. In this challenge, I generate diastic poems using p5.js.",
+  "videoNumber": "37",
+  "videoId": "u-HUtrpyi1c",
+  "date": "2016-09-12",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["poetry", "diastic machine"],
+  "canContribute": true,
+  "relatedChallenges": ["39-madlibs-generator", "42-markov-chain-name-generator"],
+  "timestamps": [
+    { "time": "0:06", "title": "What is a diastic machine?" },
+    { "time": "2:08", "title": "Understanding via diagram" },
+    { "time": "3:41", "title": "Let's start coding!" },
+    { "time": "3:58", "title": "Seed phrase" },
+    { "time": "5:01", "title": "Attaching an event to an element" },
+    { "time": "6:23", "title": "Load from a text file" },
+    { "time": "7:37", "title": "Implement the Diastic algorithm" },
+    { "time": "12:57", "title": "Adding the phrase to the DOM" },
+    { "time": "13:31", "title": "Looking for the next instance of a word" },
+    { "time": "14:35", "title": "Things you can fix or add!" },
+    { "time": "15:35", "title": "Have fun!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Diastic Machine",
+      "description": "A procedural poetry generation that uses a seed word or phrase",
+      "image": "diastic-machine.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/DVBg6l2Xx",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/037_diastic/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📓",
+          "title": "Jackson Mac Low on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jackson_Mac_Low",
+          "description": "Wikipedia page of Jackson Mac Low"
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Coding Train Live 59",
+        "url": "https://youtu.be/UTq0RQwnU3s?t=9285s",
+        "description": "Week 1 of Programming from A to Z"
+      }]
+    }
+  ]
+}

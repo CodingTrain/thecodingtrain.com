@@ -1,0 +1,72 @@
+{
+  "title": "Metaballs",
+  "description": "Let's code some Metaballs (aka Isosurfaces) in Processing and how to control them using the Blob Detection methodology from my computer vision tutorial!",
+  "videoNumber": "28",
+  "videoId": "ccYLb7cLB1I",
+  "date": "2016-07-15",
+  "languages": ["Processing"],
+  "topics": [
+    "computer vision",
+    "blob detection",
+    "load pixels",
+    "pixel analysis",
+    "object tracking",
+    "metaballs",
+    "isosurfaces"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["c4-worley-noise", "c5-marching-squares"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:46", "title": "What is an Isosurface?" },
+    { "time": "01:33", "title": "Code! Working with Pixels" },
+    { "time": "02:35", "title": "Make a simple Isosurface" },
+    { "time": "02:58", "title": "How to make Metaballs?" },
+    { "time": "04:36", "title": "Code! Create a Blob class" },
+    { "time": "07:43", "title": "Make the Blob move around" },
+    { "time": "09:03", "title": "Create an Array of Blobs" },
+    { "time": "10:37", "title": "Color pixels using all the Blobs" },
+    { "time": "12:19", "title": "Add more Blobs" },
+    { "time": "13:07", "title": "Make the Blobs Rainbow colored" },
+    { "time": "14:14", "title": "Example of Blob Tracking" },
+    { "time": "15:12", "title": "Combine Blob Tracking with Metaballs" },
+    { "time": "19:32", "title": "Making some adjustments" },
+    { "time": "21:07", "title": "Other ways to Move these Metaballs" },
+    { "time": "21:51", "title": "Fixing a Bug" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Metaballs",
+      "description": "Example in Processing and p5.js",
+      "image": "p5-example.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ISPozOLXW",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/028_MetaBalls/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📰",
+          "title": "Exploring Meta-balls and Isosurfaces in 2D",
+          "url": "https://www.gamedev.net/articles/programming/graphics/exploring-metaballs-and-isosurfaces-in-2d-r2556",
+          "description": "Article by Stephen Whitmore."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #50",
+          "url": "https://youtu.be/3xNv10FglGc",
+          "description": "Livestream with Loading Animation, Metaballs and 2D Arrays in JS"
+        }
+      ]
+    }
+  ]
+}

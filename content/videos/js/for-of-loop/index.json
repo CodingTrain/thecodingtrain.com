@@ -1,0 +1,17 @@
+{
+  "title": "for...of loop",
+  "description": "In this video, I explore the new JavaScript ES6 loop: \"for...of\". This style loop is useful when iterating over the elements of an array.",
+  "videoNumber": "4",
+  "videoId": "Y8sMnRQYr3c",
+  "date": "2017-12-15",
+  "languages": ["JavaScript"],
+  "topics": ["loops", "array", "for of"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Iterating through an array" },
+    { "time": "01:17", "title": "The for...of loop" },
+    { "time": "02:17", "title": "Variable naming conventions" }
+  ],
+  "codeExamples": [],
+  "groupLinks": []
+}

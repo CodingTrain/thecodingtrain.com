@@ -1,0 +1,25 @@
+{
+  "title": "const",
+  "description": "In this video, I cover the JavaScript ES6 keyword \"const.\" This is a continuation of the previous video about \"let\" and \"var.\"",
+  "videoNumber": "2",
+  "videoId": "2iLVFyYwyRA",
+  "date": "2017-09-28",
+  "languages": ["JavaScript"],
+  "topics": ["const", "es6"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "What is const?" },
+    {
+      "time": "2:00",
+      "title": "Demonstration of const with value type (numbers)"
+    },
+    {
+      "time": "2:56",
+      "title": "Demonstration of const with reference type (objects)"
+    },
+    { "time": "4:50", "title": "Using function expressions" },
+    { "time": "6:55", "title": "Arrow function syntax" }
+  ],
+  "codeExamples": [],
+  "groupLinks": []
+}

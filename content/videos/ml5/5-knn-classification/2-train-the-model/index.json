@@ -1,13 +1,14 @@
 {
   "title": "ml5.js: KNN Classification Part 2",
-  "description": "This video  series covers \u201cKNN Classification.\u201d In this second part, I train the KNN image classifier using the ml5.js library.",
+  "description": "This video  series covers \"KNN Classification.\" In this second part, I train the KNN image classifier using the ml5.js library.",
   "videoNumber": "5.2",
   "videoId": "Mwo5_bUVhlA",
   "date": "2019-02-05",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["KNN classification", "machine learning"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -64,7 +65,8 @@
       "title": "What's missing?"
     }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "KNN classification",
       "description": "This sketch demonstrates how to train the KNN image classifier.",
       "urls": {
@@ -72,9 +74,11 @@
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "💻",
           "title": "ml5.js",
           "url": "https://ml5js.org/",
@@ -84,7 +88,7 @@
           "icon": "💻",
           "title": "Machine Learning for the Web by Yining Shi",
           "url": "https://github.com/yining1023/machine-learning-for-the-web",
-          "description": "Yining Shi's page for the \u201cMachine Learning for the Web\u201d class at ITP, NYU."
+          "description": "Yining Shi's page for the \"Machine Learning for the Web\" class at ITP, NYU."
         },
         {
           "icon": "📓",
@@ -102,7 +106,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "Beginners Guide to Machine Learning in JavaScript",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",
@@ -112,7 +117,7 @@
           "icon": "🚂",
           "title": "Nearest Neighbors Recommendation Engine",
           "url": "https://www.youtube.com/watch?v=N8Fabn1om2k&t=0s",
-          "description": "In this coding challenge, I create a movie recommendation engine using the a \u201cnearest neighbor\u201d algorithm. "
+          "description": "In this coding challenge, I create a movie recommendation engine using the a \"nearest neighbor\" algorithm. "
         }
       ]
     }

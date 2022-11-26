@@ -1,15 +1,16 @@
 # Coding Train Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-This repo holds the website for thecodingtrain.com. The website is built with:
+This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
 
 - [Gatsby](https://www.gatsbyjs.com/) to perform the static site rendering
 - [React](https://reactjs.org/) as the general JavaScript framework
 
 ## Table of Contents
 
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)**. This page will tell you all the necessary information about contributing to this repo.
 - **[Content Structure Guide](/content/pages/guides/content-structure-guide.md)**. This guide walk you through the process of adding content to the website.
 
 ## Development info
@@ -33,13 +34,24 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://github.com/kfahn22"><img src="https://avatars.githubusercontent.com/u/65121394?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kathy</b></sub></a><br /><a href="#content-kfahn22" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/dipamsen"><img src="https://avatars.githubusercontent.com/u/59444569?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dipam Sen</b></sub></a><br /><a href="#content-dipamsen" title="Content">🖋</a></td>
-    <td align="center"><a href="https://denisovichdev.github.io/link-tree"><img src="https://avatars.githubusercontent.com/u/66998096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rishi</b></sub></a><br /><a href="#content-DenisovichDev" title="Content">🖋</a> <a href="#ideas-DenisovichDev" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/lobertrand"><img src="https://avatars.githubusercontent.com/u/37326143?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Loïc Bertrand</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=lobertrand" title="Code">💻</a> <a href="#content-lobertrand" title="Content">🖋</a></td>
-    <td align="center"><a href="https://denisovichdev.github.io/link-tree"><img src="https://avatars.githubusercontent.com/u/66998096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rishi</b></sub></a><br /><a href="#content-DenisovichDev" title="Content">🖋</a> <a href="#ideas-DenisovichDev" title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/kfahn22"><img src="https://avatars.githubusercontent.com/u/65121394?v=4?s=100" width="100px;" alt="Kathy"/><br /><sub><b>Kathy</b></sub></a><br /><a href="#content-kfahn22" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/dipamsen"><img src="https://avatars.githubusercontent.com/u/59444569?v=4?s=100" width="100px;" alt="Dipam Sen"/><br /><sub><b>Dipam Sen</b></sub></a><br /><a href="#content-dipamsen" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/lobertrand"><img src="https://avatars.githubusercontent.com/u/37326143?v=4?s=100" width="100px;" alt="Loïc Bertrand"/><br /><sub><b>Loïc Bertrand</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=lobertrand" title="Code">💻</a> <a href="#content-lobertrand" title="Content">🖋</a></td>
+      <td align="center"><a href="https://denisovichdev.github.io/link-tree"><img src="https://avatars.githubusercontent.com/u/66998096?v=4?s=100" width="100px;" alt="Rishi"/><br /><sub><b>Rishi</b></sub></a><br /><a href="#content-DenisovichDev" title="Content">🖋</a> <a href="#ideas-DenisovichDev" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center"><a href="https://aboutmonica.com"><img src="https://avatars.githubusercontent.com/u/6998954?v=4?s=100" width="100px;" alt="Monica Powell"/><br /><sub><b>Monica Powell</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=M0nica" title="Code">💻</a> <a href="#content-M0nica" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/btb331"><img src="https://avatars.githubusercontent.com/u/36310755?v=4?s=100" width="100px;" alt="btb331"/><br /><sub><b>btb331</b></sub></a><br /><a href="#projectManagement-btb331" title="Project Management">📆</a></td>
+      <td align="center"><a href="https://github.com/pgriffin17"><img src="https://avatars.githubusercontent.com/u/31374077?v=4?s=100" width="100px;" alt="pgriffin17"/><br /><sub><b>pgriffin17</b></sub></a><br /><a href="#content-pgriffin17" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/ArztKlein"><img src="https://avatars.githubusercontent.com/u/52363453?v=4?s=100" width="100px;" alt="ArztKlein"/><br /><sub><b>ArztKlein</b></sub></a><br /><a href="#content-ArztKlein" title="Content">🖋</a></td>
+      <td align="center"><a href="https://zoltanvolcsey.onrender.com"><img src="https://avatars.githubusercontent.com/u/41576384?v=4?s=100" width="100px;" alt="Zoltán Völcsey"/><br /><sub><b>Zoltán Völcsey</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=zvolcsey" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/alin256"><img src="https://avatars.githubusercontent.com/u/7563037?v=4?s=100" width="100px;" alt="Sergey Alyaev"/><br /><sub><b>Sergey Alyaev</b></sub></a><br /><a href="#ideas-alin256" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=alin256" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/olegon"><img src="https://avatars.githubusercontent.com/u/434364?v=4?s=100" width="100px;" alt="Leandro Gonçalves de Oliveira"/><br /><sub><b>Leandro Gonçalves de Oliveira</b></sub></a><br /><a href="#content-olegon" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/laurie60"><img src="https://avatars.githubusercontent.com/u/100629314?v=4?s=100" width="100px;" alt="laurie60"/><br /><sub><b>laurie60</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=laurie60" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->

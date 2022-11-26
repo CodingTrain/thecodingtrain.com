@@ -7,10 +7,12 @@ const btoa = require('btoa');
 //   title: "Something",
 //   image: "base64string="
 //   imageExt: "png",
-//   authorName: "Rune Madsen",
-//   authorUrl: "https://runemadsen.com",
-//   authorEmail: "rune@runemadsen.com",
-//   url: "https://runemadsen.github.io/rune.js/",
+//   authorName: "Coding Train",
+//   authorUrl: "https://thecodingtrain.com",
+//   authorEmail: "help@thecodingtrain.com",
+//   authorTwitter: "@thecodingtrain",
+//   authorInstagram: "@the.coding.train"
+//   url: "https://thecodingtrain.com/tracks",
 //   challenge: "01-test",
 // }
 
@@ -26,6 +28,10 @@ exports.handler = async function (event) {
   const jsonPath = `${showcasePath}/contribution-${unix}.json`;
   const imagePath = `${showcasePath}/contribution-${unix}.${postInfo.imageExt}`;
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+
+  if (!process.env.GITHUB_TOKEN) {
+    console.error('GitHub Token not loaded');
+  }
 
   /**
     Get the SHA of the main branch
@@ -58,11 +64,21 @@ exports.handler = async function (event) {
     author: {
       name: postInfo.authorName
     },
-    url: postInfo.url
+    url: postInfo.url,
+    submittedOn: new Date().toISOString()
   };
 
   if (postInfo.authorUrl) {
     json.author.url = postInfo.authorUrl;
+  }
+
+  // Including the social media handles in the JSON for future reference
+  if (postInfo.authorTwitter) {
+    json.author.twitter = postInfo.authorTwitter;
+  }
+
+  if (postInfo.authorInstagram) {
+    json.author.instagram = postInfo.authorInstagram;
   }
 
   const jsonContent = btoa(JSON.stringify(json, null, 2));
@@ -110,11 +126,30 @@ exports.handler = async function (event) {
     Make a PR to main
   **/
   const prRes = await octokit.request(`POST /repos/${owner}/${repo}/pulls`, {
-    title: `Passenger showcase contribution from ${postInfo.authorName}`,
-    body: 'Yay!',
+    title: `Showcase Submission for ${postInfo.challenge}`,
+    body: `Thank you ${
+      postInfo.authorName
+    } for your contribution! A member of the Coding Train team will review it shortly.
+
+* [${postInfo.title}](${postInfo.url})
+* ${
+      postInfo.authorUrl
+        ? `[${postInfo.authorName}](${postInfo.authorUrl})`
+        : postInfo.authorName
+    }
+
+![preview image](${imageRes.data.content.download_url})`,
     head: branchName,
     base: 'main'
   });
+
+  /** Add showcase label **/
+  await octokit.request(
+    `PATCH /repos/${owner}/${repo}/issues/${prRes.data.number}`,
+    {
+      labels: ['showcase']
+    }
+  );
 
   console.log('Done!');
 };

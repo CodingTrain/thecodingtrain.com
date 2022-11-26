@@ -1,5 +1,15 @@
+// Coding Train YouTube Description Generator
+
+// Usage:
+// npm run yt-desc
+// npm run yt-desc https://thecodingtrain.com/path/to/video/page
+// npm run yt-desc ./path/to/index.json
+
+// Output files are saved to `./_descriptions` directory
+
 const fs = require('fs');
 const path = require('path');
+const glob = require('glob');
 
 const videos = [];
 
@@ -9,20 +19,9 @@ const videos = [];
  * @param {?any[]} arrayOfFiles Array to store the parsed JSON files
  * @returns {any[]}
  */
-function findContentFilesRecursive(dir, arrayOfFiles = []) {
-  const files = fs.readdirSync(dir);
-
-  for (const file of files) {
-    if (fs.statSync(`${dir}/${file}`).isDirectory()) {
-      arrayOfFiles = findContentFilesRecursive(`${dir}/${file}`, arrayOfFiles);
-    } else {
-      if (file === 'index.json') {
-        arrayOfFiles.push(path.join(dir, '/', file));
-      }
-    }
-  }
-
-  return arrayOfFiles;
+function findContentFilesRecursive(dir) {
+  const files = glob.sync(`${dir}/**/index.json`);
+  return files;
 }
 
 /**
@@ -48,6 +47,7 @@ function parseTrack(track) {
     trackFolder = video.split('/').slice(0, -1);
 
     // ignore track with coding challenge videos
+    // TODO fix (only checking first video)
     if (trackFolder[0] === 'challenges') return null;
 
     videoList = parsed.videos;
@@ -62,13 +62,14 @@ function parseTrack(track) {
 }
 
 /**
- * Gets
+ * Parses index.json and pushes to videos array
+ *
+ * Note: has side effects, must be called only once per file
  * @param {string} file File to parse
- * @returns
  */
 function getVideoData(file) {
   const content = fs.readFileSync(`./${file}`, 'utf-8');
-  const parsed = JSON.parse(content);
+  const video = JSON.parse(content);
 
   const filePath = file.split(path.sep).slice(2);
   // console.log('[Parsing File]:', filePath.join('/'));
@@ -85,21 +86,53 @@ function getVideoData(file) {
     }
   }
 
-  if (!url || url.length == 0)
+  const slug = url[url.length - 1];
+
+  if (!url || url.length == 0) {
     throw new Error(
       'Something went wrong in parsing this file: ' + filePath.join('/')
     );
-  const videoData = {
-    pageURL: url.join('/'),
-    data: parsed,
-    filePath: file
-  };
-  videos.push(videoData);
-  return videoData;
+  }
+
+  if (video.parts && video.parts.length > 0) {
+    // Multipart Coding Challenge
+    // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
+
+    for (const part of video.parts) {
+      // copy all info from base object
+      const partInfo = JSON.parse(JSON.stringify(video));
+      delete partInfo.parts;
+
+      // copy videoId, title, timestamps from parts
+      partInfo.videoId = part.videoId;
+      partInfo.timestamps = part.timestamps;
+      partInfo.challengeTitle = video.title;
+      partInfo.partTitle = part.title;
+      partInfo.title = video.title + ' - ' + part.title;
+
+      const videoData = {
+        pageURL: url.join('/'),
+        data: partInfo,
+        filePath: file,
+        isMultipartChallenge: true,
+        slug: slug
+      };
+      videos.push(videoData);
+    }
+  } else {
+    video.challengeTitle = video.title;
+    const videoData = {
+      pageURL: url.join('/'),
+      data: video,
+      filePath: file,
+      slug: slug
+    };
+    videos.push(videoData);
+  }
 }
 
 /**
- * Creates and resets temporary directory
+ * Creates and resets a temporary directory
  * @param {string} dir Directory Name
  */
 function primeDirectory(dir) {
@@ -119,19 +152,37 @@ function primeDirectory(dir) {
 }
 
 /**
- * Retrieves YouTube video url from relative website path
- * @param {string} url original url
- * @returns
+ * Retrieves YouTube video/playlist url from relative website path
+ * @param {string} url original relative url
+ * @returns {string} resolved url
  */
-function getVideoURL(url) {
+function resolveYTLink(url) {
   if (/https?:\/\/.*/.test(url)) return url;
 
-  const location = url.substring(1, url.length);
+  const location = url.startsWith('/') ? url.substring(1, url.length) : url;
+  const urlchunks = location.split('/');
+  if (!['challenges', 'tracks'].includes(urlchunks[0])) {
+    // not linking to video page
+    return `https://thecodingtrain.com/${location}`;
+  }
+  if (urlchunks[0] === 'tracks' && urlchunks.length === 2) {
+    // track page
+    // try to get playlist id from track's index.json
+    const track = allTracks.find((t) => t.trackName === urlchunks[1]);
+    if (track && track.data.playlistId) {
+      const playlistId = track.data.playlistId;
+      return `https://www.youtube.com/playlist?list=${playlistId}`;
+    } else {
+      console.warn('Warning: YT Playlist not found for track:', urlchunks[1]);
+      return `https://thecodingtrain.com/${location}`;
+    }
+  }
+
   let page;
   try {
     page = videos.find((vid) => vid.pageURL === location).data;
   } catch (err) {
-    console.error('Warning: Page not found -', location);
+    console.warn('Warning: Could not resolve to YT video:', url);
     return `https://thecodingtrain.com${url}`;
   }
 
@@ -145,18 +196,25 @@ function getVideoURL(url) {
 function writeDescription(video) {
   const data = video.data;
   const pageURL = video.pageURL;
-
   let description = '';
 
   // Description
   description += `${data.description.trim()}`;
-  description += ` https://thecodingtrain.com/${pageURL}`;
+  description += ` Code: https://thecodingtrain.com/${pageURL}`;
 
   description += '\n';
 
+  // Watch on Nebula
+  const nebulaURL = `https://nebula.tv/videos/`;
+  const nebulaSlug = video.data.nebulaSlug;
+  if (nebulaSlug) {
+    description += `\n🚀 Watch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
+    description += '\n';
+  }
+
   // Code Examples:
 
-  // Github Repo Link
+  // Github Standalone Repo Link
   const repoLink = data.codeExamples
     ?.map((ex) => Object.values(ex.urls))
     .flat()
@@ -186,7 +244,24 @@ function writeDescription(video) {
   }
   if (repoLink || sketchUrls?.length > 0) description += '\n';
 
+  // Other Parts of this Coding Challenge
+
+  if (video.isMultipartChallenge) {
+    const otherParts = videos.filter(
+      (vid) => vid.slug === video.slug && vid !== video
+    );
+
+    if (otherParts.length > 0) {
+      description += '\nOther Parts of this Challenge:';
+      for (const part of otherParts) {
+        description += `\n📺 ${part.data.partTitle}: https://youtu.be/${part.data.videoId}`;
+      }
+      description += '\n';
+    }
+  }
+
   // Previous Video / Next Video / All Videos
+
   if (video.pageURL.startsWith('challenges/')) {
     const i = +video.data.videoNumber;
     const previousVideo = videos.find((vid) => vid.data.videoNumber == i - 1);
@@ -195,69 +270,79 @@ function writeDescription(video) {
     description += '\n';
 
     if (previousVideo)
-      description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
+      description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
 
     if (nextVideo)
-      description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
+      description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
     description +=
       '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
   } else {
-    const playlistIds = {
-      noc: 'PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM',
-      code: 'PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA'
-    };
-
     const path = video.pageURL.split('/');
-    for (let pl in playlistIds) {
-      if (path.includes(pl)) {
-        description += '\n';
-        const track = allTracks.find((track) => track.trackFolder.includes(pl));
-        let id = track.videoList.indexOf(path.slice(2).join('/'));
+    const videoDir = path.slice(2).join('/');
+    // Find playlist id from main track only
+    // TODO: check in side tracks as well
+    const track = mainTracks.find((track) =>
+      track.videoList.includes(videoDir)
+    );
+    if (track && track.data.playlistId) {
+      description += '\n';
+      let id = track.videoList.indexOf(videoDir);
 
-        const previousPath = track.videoList[id - 1];
-        const previousVideo = videos.find(
-          (vid) =>
-            vid.pageURL == 'tracks/' + track.trackName + '/' + previousPath
-        );
+      const previousPath = track.videoList[id - 1];
+      const previousVideo = videos.find(
+        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + previousPath
+      );
 
-        const nextPath = track.videoList[id + 1];
-        const nextVideo = videos.find(
-          (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
-        );
+      const nextPath = track.videoList[id + 1];
+      const nextVideo = videos.find(
+        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
+      );
 
-        if (previousVideo)
-          description += `🎥 Previous video: https://www.youtube.com/watch?v=${previousVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+      if (previousVideo)
+        description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=${track.data.playlistId}\n`;
 
-        if (nextVideo)
-          description += `🎥 Next video: https://www.youtube.com/watch?v=${nextVideo.data.videoId}&list=${playlistIds[pl]}\n`;
+      if (nextVideo)
+        description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=${track.data.playlistId}\n`;
 
-        description += `🎥 All videos: https://www.youtube.com/playlist?list=${playlistIds[pl]}\n`;
-      }
+      description += `🎥 All videos: https://www.youtube.com/playlist?list=${track.data.playlistId}\n`;
     }
   }
 
   // Group Links (References / Videos / ...)
+
   if (data.groupLinks) {
-    const glIcons = {
-      'Links discussed': '🔗',
-      Links: '🔗',
-      References: '🔗',
-      Videos: '🎥'
-    };
     for (let group of data.groupLinks) {
       description += `\n${group.title}:\n`;
       for (const link of group.links) {
-        link.icon = link.icon || glIcons[group.title] || '';
+        link.icon = link.icon || (group.title === 'Videos' ? '🎥' : '🔗');
         const url = link.url;
         if (/https?:\/\/.*/.test(url)) {
           // Starts with http:// or https://
-          description += `${link.icon} ${link.title}: ${url}`.trim() + '\n';
+          description += `${link.icon} ${link.title}: ${url}\n`;
         } else {
           // assume relative link in thecodingtrain.com
-          description +=
-            `${link.icon} ${link.title}: https://thecodingtrain.com${url}`.trim() +
-            '\n';
+          // try to get YT link instead of website link
+          description += `${link.icon} ${link.title}: ${resolveYTLink(url)}\n`;
         }
+      }
+    }
+  }
+
+  // Related Challenges
+
+  if (data.relatedChallenges && data.relatedChallenges.length > 0) {
+    description += `\nRelated Coding Challenges:\n`;
+    for (const challenge of data.relatedChallenges) {
+      const challengeData = videos.find(
+        (vid) => vid.pageURL === `challenges/${challenge}`
+      );
+      if (challengeData) {
+        const { videoNumber, challengeTitle } = challengeData.data;
+        const url = challengeData.pageURL;
+        description +=
+          `🚂 ${videoNumber} ${challengeTitle}: ${resolveYTLink(url)}` + '\n';
+      } else {
+        console.log(`Challenge ${challenge} not found`);
       }
     }
   }
@@ -280,10 +365,9 @@ Music from Epidemic Sound
 👾 Share Your Creation! https://thecodingtrain.com/guides/passenger-showcase-guide
 🚩 Suggest Topics: https://github.com/CodingTrain/Suggestion-Box
 💡 GitHub: https://github.com/CodingTrain
-💬 Discord: https://discord.gg/hPuGy2g
+💬 Discord: https://thecodingtrain.com/discord
 💖 Membership: http://youtube.com/thecodingtrain/join
 🛒 Store: https://standard.tv/codingtrain
-📚 Books: https://www.amazon.com/shop/thecodingtrain
 🖋️ Twitter: https://twitter.com/thecodingtrain
 📸 Instagram: https://www.instagram.com/the.coding.train/
 
@@ -298,7 +382,14 @@ Music from Epidemic Sound
 
 This description was auto-generated. If you see a problem, please open an issue: https://github.com/CodingTrain/thecodingtrain.com/issues/new`;
 
-  let filename = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  // Hashtags
+  const hashtags = [...data.topics, ...data.languages].map(
+    (tag) => '#' + tag.match(/\w+/g).join('').toLowerCase()
+  );
+  description += `\n\n${hashtags.join(' ')}`;
+
+  const videoSlug = video.slug;
+  let filename = videoSlug + '_' + data.videoId;
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
 
   return description;
@@ -324,28 +415,33 @@ const allTracks = [...mainTracks, ...sideTracks];
   const files = findContentFilesRecursive(directory);
   primeDirectory('./_descriptions');
 
+  for (const file of files) {
+    getVideoData(file);
+  }
+
   if (video) {
-    const fileName = path.join(
-      'content',
-      'videos',
-      ...video.split('/'),
-      'index.json'
-    );
-
-    for (const file of files) {
-      getVideoData(file);
+    let specifiedVideos = [];
+    try {
+      // coding train website url
+      const pathName = new URL(video).pathname;
+      specifiedVideos = videos.filter(
+        (data) => '/' + data.pageURL === pathName
+      );
+    } catch (e) {
+      // local index.json path
+      let filePath = video;
+      if (!filePath.endsWith('index.json')) filePath = filePath + '/index.json';
+      filePath = path.normalize(filePath);
+      specifiedVideos = videos.filter((data) => data.filePath === filePath);
     }
 
-    const videoInfo = videos.find((data) => data.filePath === fileName);
-
-    const description = writeDescription(videoInfo);
-    console.log('=====================================================');
-    console.log(description);
-    console.log('=====================================================');
+    for (const video of specifiedVideos) {
+      const description = writeDescription(video);
+      console.log('=====================================================');
+      console.log(description);
+      console.log('=====================================================');
+    }
   } else {
-    for (const file of files) {
-      getVideoData(file);
-    }
     videos.forEach(writeDescription);
   }
   console.log('\n✅ Wrote descriptions to  ./_descriptions/');

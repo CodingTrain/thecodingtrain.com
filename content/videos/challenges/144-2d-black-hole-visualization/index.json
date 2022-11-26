@@ -1,0 +1,107 @@
+{
+    "title": "2D Black Hole Visualization",
+    "description": "Inspired by the recent image of the Powehi m87 black hole from the Event Horizon Telescope, I visualize the behavior or light (photons) following the path of spacetime around the black hole in p5.js.",
+    "videoNumber": "144",
+    "videoId": "Iaz9TqYWUmA",
+    "date": "2019-04-26",
+    "languages": ["JavaScript", "p5.js"],
+    "topics": [
+        "black hole visualization",
+        "event horizon",
+        "accretion disk"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["7-solar-system-2d", "8-solar-system-3d"],
+    "timestamps": [
+        { "time": "0:00", "title": "Introducing today's topic: a black hole visualization" },
+        { "time": "3:25", "title": "The elements in the black hole visualization" },
+        { "time": "5:06", "title": "The event horizon" },
+        { "time": "6:35", "title": "The accretion disk" },
+        { "time": "8:35", "title": "What happens when light is traveling towards a black hole?" },
+        { "time": "9:43", "title": "The theory of relativity" },
+        { "time": "12:03", "title": "Let's Code!" },
+        { "time": "13:52", "title": "Make a black hole object" },
+        { "time": "16:57", "title": "Draw the accretion disk" },
+        { "time": "18:49", "title": "Draw an unstable photon orbit" },
+        { "time": "20:22", "title": "Create a photon class" },
+        { "time": "23:25", "title": "Add velocity to the photons" },
+        { "time": "25:46", "title": "Apply Newtonian gravitational attraction" },
+        { "time": "31:36", "title": "Add a trail to the photon" },
+        { "time": "38:17", "title": "Corrections to the code" },
+        { "time": "40:14", "title": "Add the angle of velocity for the photon" },
+        { "time": "0:00", "title": "Conclusion and suggestions for variations" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Black Hole Visualization - Newtonian Granvitational Attraction",
+            "description": "The sketch visualizes a black hole using Newtonian gravitational attraction.",
+            "image": "img1.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/2zZqSkxtj",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/144_Black_Hole_Newtonian/Processing/CC_114_Black_Hole_Newtonian"
+            }
+        },
+        {
+            "title": "Black Hole Visualization - Code with Relativistic Corrections",
+            "description": "Code with relativistic corrections.",
+            "image": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/4DvaeH0Ur"   
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "📓",
+                    "title": "Simulating a Black Hole!",
+                    "url": "https://www.asc.ohio-state.edu/orban.14/stemcoding/blackhole.html",
+                    "description": "Article on how to simulate a black hole."
+                },
+                {
+                    "icon": "🖌",
+                    "title": "How to draw a Black Hole",
+                    "url": "http://rantonels.github.io/starless/",
+                    "description": "Explanation of how to visualize a black hole."
+                },
+                {
+                    "icon": "📰",
+                    "title": "Astronomers Capture First Image of a Black Hole",
+                    "url": "https://eventhorizontelescope.org/",
+                    "description": "Announcement that the first image of a black hole has been captured."
+                },
+                {
+                    "icon": "📓",
+                    "title": "Image of a Spherical Black Hole with Thin Accretion Disk",
+                    "url": "http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1979A&A....75..228L",
+                    "description": "Technical paper about black holes."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "How to Understand the Image of a Black Hole",
+                    "url": "https://youtu.be/zUyH3XhpLTo",
+                    "description": "Veritasium video about the first image of a black hole"
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Slingshot with Gravity!",
+                    "url": "https://youtu.be/RkpulcVKLRw",
+                    "description": "STEM coding discussion of coding challenge from our Slingshot with Gravity series."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 176",
+                    "url": "https://youtu.be/tWyp2OWWcws?t=1192s",
+                    "description": "Live Stream Simple 2D Black Hole Simulation and NeuroEvolution with TensorFlow.js"
+                }
+            ]
+        }
+    ]
+}

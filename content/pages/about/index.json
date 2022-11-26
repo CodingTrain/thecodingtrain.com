@@ -36,7 +36,7 @@
           "url": "https://www.youtube.com/c/TheCodingTrain/",
           "site": "youtube"
         },
-        { "url": "https://discord.com/invite/hPuGy2g", "site": "discord" },
+        { "url": "https://thecodingtrain.com/discord", "site": "discord" },
         { "url": "https://github.com/CodingTrain", "site": "github" }
       ]
     }
@@ -70,7 +70,7 @@
           "url": "https://processingfoundation.org/"
         },
         { "name": "ml5.js", "url": "https://ml5js.org/" },
-        { "name": "Nebula", "url": "https://nebula.app/" },
+        { "name": "Nebula", "url": "https://nebula.tv/codingtrain" },
         {
           "name": "Design Systems International",
           "url": "https://designsystems.international"

@@ -1,0 +1,18 @@
+{
+  "title": "Array Functions: filter()",
+  "description": "This video covers the JavaScript Array higher order function filter().",
+  "videoNumber": "8",
+  "videoId": "qmnH5MT_luk",
+  "date": "2018-02-22",
+  "languages": ["JavaScript"],
+  "topics": ["array filter", "arrays"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "The filter function" },
+    { "time": "01:08", "title": "Demonstration of filter" },
+    { "time": "05:29", "title": "Using truthy/falsy values" },
+    { "time": "07:43", "title": "Working with strings" }
+  ],
+  "codeExamples": [],
+  "groupLinks": []
+}

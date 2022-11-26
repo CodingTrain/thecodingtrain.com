@@ -4,7 +4,7 @@
   "videoNumber": "5.3",
   "videoId": "JWsKay58Z2g",
   "date": "2019-02-07",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["machine learning", "KNN Classification"],
   "canContribute": true,
   "timestamps": [
@@ -16,16 +16,20 @@
     { "time": "10:04", "title": "Add an ellipse" },
     { "time": "15:05", "title": "Review" }
   ],
-  "codeExamples": [{
-    "title": "KNN Classification",
-    "description": "This sketch demonstrates how to train the KNN image classifier.",
-    "urls": {
-      "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL"
+  "codeExamples": [
+    {
+      "title": "KNN Classification",
+      "description": "This sketch demonstrates how to train the KNN image classifier.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL"
+      }
     }
-  }],
-  "groupLinks": [{
+  ],
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "💻",
           "title": "ml5.js",
           "url": "https://ml5js.org/",
@@ -35,7 +39,7 @@
           "icon": "💻",
           "title": "Machine Learning for the Web by Yining Shi",
           "url": "https://github.com/yining1023/machine-learning-for-the-web",
-          "description": "Yining Shi's page for the \u201cMachine Learning for the Web\u201d class at ITP, NYU."
+          "description": "Yining Shi's page for the \"Machine Learning for the Web\" class at ITP, NYU."
         },
         {
           "icon": "📓",
@@ -47,7 +51,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🚂",
           "title": "Coding Challenge #151 Ukelele Tuner",
           "url": "https://www.youtube.com/watch?v=F1OkDTUkKFo",

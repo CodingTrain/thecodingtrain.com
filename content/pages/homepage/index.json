@@ -5,7 +5,7 @@
   },
   "newToCoding": {
     "title": "New to coding?",
-    "description": "All aboard! Welcome to all beginners and code-curious individuals ready for a coding journey of self-expression and play.",
+    "description": "All aboard! Welcome to all beginners and code-curious individuals ready for a journey of self-expression and playful coding.",
     "guideCta": {
       "text": "Don't know where to start?",
       "buttonText": "getting started guide",
@@ -19,21 +19,27 @@
   },
   "tracks": {
     "title": "Tracks",
-    "description": "Streamline your learning experience and ride a Track on The Coding Train. Tracks are sequenced video tutorials that you can follow like a course syllabus.",
-    "featured": ["code-programming-with-p5-js", "algorithmic-botany"],
+    "description": "Streamline your learning experience and take a ride along a Track on The Coding Train. Tracks are collections of video tutorials that follow a sequenced curriculum.",
+    "featured": ["code-programming-with-p5-js", "git-and-github-for-poets"],
     "tracksCta": {
-      "text": "Ready to learn? Try a track for beginners and more!",
+      "text": "Ready to learn? Hop on a track for beginners and more!",
       "buttonText": "browse tracks",
       "href": "/tracks"
     }
   },
   "challenges": {
     "title": "Challenges",
-    "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics range from algorithmic art, machine learning, simulation, to generative poetry, and more.",
+    "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "173-snake-applesoft-basic",
-      "171-wave-function-collapse",
-      "166-image-to-ascii"
+      "175-3D-cube-applesoft-basic",
+      "174-graphics-applesoft-basic",
+      "165-slide-puzzle",
+      "136-polar-noise-loops",
+      "145-ray-casting-2d",
+      "103-fire-effect",
+      "35-traveling-salesperson",
+      "55-mathematical-rose-patterns",
+      "5-space-invaders"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -42,10 +48,19 @@
     }
   },
   "passengerShowcase": {
-    "title": "Passenger showcase highlight",
-    "featured": "challenges/163-bezier-curves/showcase/contribution2.json",
+    "title": "Passenger showcase highlights",
+    "featured": [
+      "challenges/121-logo-interpreter/showcase/contribution5.json",
+      "challenges/4-purple-rain/showcase/contribution17.json",
+      "challenges/163-bezier-curves/showcase/contribution5.json",
+      "challenges/111-animated-sprites/showcase/contribution4.json",
+      "challenges/120-bit-shifting/showcase/contribution1.json",
+      "challenges/126-toothpicks/showcase/contribution3.json",
+      "challenges/142-rubiks-cube/showcase/contribution11.json",
+      "challenges/145-ray-casting-2d/showcase/contribution6.json"
+    ],
     "cta": {
-      "text": "Do you want be inspired?",
+      "text": "Ready to be inspired?",
       "buttonText": "Enjoy this showcase highlight"
     }
   },
@@ -53,17 +68,7 @@
     "title": "Events",
     "comingEventsDescription": "Next Coding Train event!",
     "noEventsDescription": "Keep your eye out for events in the future!",
-    "upcoming": [
-      {
-        "title": "Wave Function Collapse Video Premiere!",
-        "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images.",
-        "date": "2022-07-03",
-        "time": "12:00PM GMT-5",
-        "host": "YouTube",
-        "type": "Premiere with live chat",
-        "url": "https://youtu.be/rI_y2GAlQFM"
-      }
-    ]
+    "upcoming": []
   },
   "support": {
     "title": "Support",
@@ -72,27 +77,32 @@
       {
         "text": "YouTube Membership",
         "href": "https://www.youtube.com/thecodingtrain/join",
-        "buttonText": "Join membership"
+        "buttonText": "Join on YouTube"
       },
       {
         "text": "Patreon",
         "href": "https://www.patreon.com/codingtrain",
-        "buttonText": "Join membership"
+        "buttonText": "Join on Patreon"
       },
       {
         "text": "GitHub Sponsorship",
         "href": "https://github.com/sponsors/shiffman",
-        "buttonText": "Join sponsorship"
+        "buttonText": "Join on GitHub"
       },
       {
         "text": "Twitch Subscription",
         "href": "https://www.twitch.tv/subs/CodingTrainChooChoo",
-        "buttonText": "Subscribe to channel"
+        "buttonText": "Subscribe on Twitch"
       },
       {
         "text": "Nature of Code Book",
         "href": "https://natureofcode.com/",
-        "buttonText": "Buy book"
+        "buttonText": "Buy the NOC book"
+      },
+      {
+        "text": "Nebula Subscription",
+        "href": "https://nebula.tv/codingtrain",
+        "buttonText": "Subscribe to Nebula"
       }
     ]
   }

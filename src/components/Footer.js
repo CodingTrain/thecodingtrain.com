@@ -40,14 +40,14 @@ const Footer = () => {
 
       <nav className={cn(css.box)} aria-labelledby="cafe-car-navigation">
         <h3 id="cafe-car-navigation">
-          <a href="https://discord.com/invite/hPuGy2g">The Cafe Car!</a>
+          <a href="https://thecodingtrain.com/discord">The Cafe Car!</a>
         </h3>
         <div className={css.action}>
           <p>
             Join the Coding Train Discord to chat with the community and get
             help with your code from the Station Managers.
           </p>
-          <a className={css.cta} href="https://discord.com/invite/hPuGy2g">
+          <a className={css.cta} href="https://thecodingtrain.com/discord">
             Join Discord now
           </a>
         </div>
@@ -93,7 +93,7 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="https://nebula.app/codingtrain" aria-label="Nebula">
+            <a href="https://nebula.tv/codingtrain" aria-label="Nebula">
               <Nebula width={30} />
               <span>Nebula</span>
             </a>
@@ -114,7 +114,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://discord.gg/codingtrain" aria-label="Discord">
+            <a href="https://thecodingtrain.com/discord" aria-label="Discord">
               <Discord width={30} />
               <span>Discord</span>
             </a>
@@ -145,7 +145,7 @@ const Footer = () => {
           </li>
           <li className={css.bold}>
             <a
-              href="https://store.nebula.app/collections/the-coding-train"
+              href="https://store.nebula.tv/collections/the-coding-train"
               {...externalLink}>
               Shop
             </a>
@@ -167,7 +167,7 @@ const Footer = () => {
             <Link to="/#passenger-showcase">Showcase</Link>
           </li>
           <li>
-            <a href="https://discord.com/invite/hPuGy2g">Discord</a>
+            <a href="https://thecodingtrain.com/discord">Discord</a>
           </li>
           <li>
             <a href="https://github.com/CodingTrain">GitHub</a>

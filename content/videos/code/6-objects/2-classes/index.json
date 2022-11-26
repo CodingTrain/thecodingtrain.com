@@ -7,12 +7,26 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "OOP", "objects"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "3:09", "title": "Encapsulation" },
+    { "time": "3:37", "title": "Using Classes as a Template for Objects" },
+    {
+      "time": "8:40",
+      "title": "The constructor() Function is the Object's Setup"
+    },
+    {
+      "time": "10:10",
+      "title": "Using \"this.\" to Declare Class Variables"
+    },
+    { "time": "12:26", "title": "Code Example" },
+    { "time": "14:50", "title": "Adding Functionality to a Class" }
+  ],
   "codeExamples": [
     {
       "title": "Classes",
       "description": "Demonstration of using a Bubble class to create multiple bubbles.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/qi7N4LWq"
       }

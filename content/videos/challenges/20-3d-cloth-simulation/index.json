@@ -1,0 +1,74 @@
+{
+  "title": "3D Cloth with Toxiclibs",
+  "description": "Boing! Using some particles and some springs with the Toxiclibs physics library, I create a 3D cloth simulation in Processing. Toxiclibs can now be downloaded from Processing's library manager.",
+  "videoNumber": "20",
+  "videoId": "jrk_lOg_pVA",
+  "date": "2016-06-09",
+  "languages": ["Processing", "Toxiclibs"],
+  "topics": ["3d", "cloth", "physics", "simulation"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "62-plinko-with-matterjs",
+    "159-simple-pendulum",
+    "160-spring-forces"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:10", "title": "What is Verlet Physics?" },
+    { "time": "1:54", "title": "Code! Create Particles" },
+    { "time": "5:27", "title": "Add Physics to the Particles" },
+    { "time": "6:17", "title": "Add Gravity" },
+    { "time": "8:41", "title": "Create Springs between Particles" },
+    { "time": "11:51", "title": "Lock Particles" },
+    { "time": "13:26", "title": "How to make a Cloth?" },
+    { "time": "14:06", "title": "Code! Create a Cloth" },
+    { "time": "20:22", "title": "Add Gravity back in" },
+    { "time": "21:30", "title": "Make it 3 dimensional" },
+    { "time": "24:06", "title": "Pin the Cloth on 4 Corners" },
+    { "time": "28:18", "title": "What you can do with Toxiclibs" },
+    { "time": "28:40", "title": "Where missing some Springs" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Cloth Simulation in 2D",
+      "description": "This sketch renders a cloth simulation in 2D using Toxiclibs.",
+      "image": "processing-p2d.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/U6n24GfsD",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/020_ClothSimulation/Processing/CC_020_Cloth2D"
+      }
+    },
+    {
+      "title": "Cloth Simulation with Processing in 3D",
+      "description": "This sketch renders a cloth simulation in 3D using Toxiclibs.",
+      "image": "processing-p3d.jpg",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/020_ClothSimulation/Processing/CC_020_Cloth3D/Processing/CC_020_Cloth3D"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📝",
+          "title": "Toxiclibs Physics Library",
+          "url": "http://haptic-data.com/toxiclibsjs",
+          "description": "Documentation for the Toxiclibs library"
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #42",
+          "url": "https://youtu.be/nfU-NqnXn1o?t=8453s",
+          "description": "Live Stream with Sound in p5.js + 3D Cloth with toxiclibs"
+        }
+      ]
+    }
+  ]
+}

@@ -37,15 +37,19 @@ const Track = ({ pageContext, data }) => {
 
   const { trackPosition, isTrackPage } = pageContext;
 
+  const trackImage = track.cover
+    ? track.cover.file.childImageSharp.gatsbyImageData
+    : contributionsPlaceholder;
+
+  const videoImage = video.cover
+    ? video.cover.file.childImageSharp.gatsbyImageData
+    : trackImage;
+
   return (
     <Layout
       title={isTrackPage ? track.title : video.title}
       description={isTrackPage ? track.description : video.description}
-      image={
-        isTrackPage && track.cover
-          ? track.cover.file.childImageSharp.gatsbyImageData
-          : contributionsPlaceholder
-      }>
+      image={isTrackPage ? trackImage : videoImage}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -141,7 +145,7 @@ const Track = ({ pageContext, data }) => {
 };
 
 export const query = graphql`
-  query(
+  query (
     $trackId: String
     $videoId: String
     $videoSlug: String
@@ -160,6 +164,15 @@ export const query = graphql`
         slug
         languages
         topics
+        parts {
+          title
+          videoId
+          timestamps {
+            time
+            title
+            seconds
+          }
+        }
       }
       chapters {
         title
@@ -168,6 +181,15 @@ export const query = graphql`
           slug
           languages
           topics
+          parts {
+            title
+            videoId
+            timestamps {
+              time
+              title
+              seconds
+            }
+          }
         }
       }
       cover {
@@ -189,6 +211,15 @@ export const query = graphql`
         title
         time
         seconds
+      }
+      parts {
+        title
+        videoId
+        timestamps {
+          time
+          title
+          seconds
+        }
       }
       codeExamples {
         title

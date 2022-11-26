@@ -1,0 +1,63 @@
+{
+    "title": "May the 4th Scrolling Text",
+    "description": "Happy Star Wars day! May the fourth be with you! In this challenge, I code the iconic text scrolling/title crawl in Processing (Java) in 15 minutes!",
+    "videoNumber": "101",
+    "videoId": "fUkF-YLLXeg",
+    "date": "2018-05-04",
+    "languages": ["Processing"],
+    "topics": [
+        "may the 4th",
+        "star wars scrolling text",
+        "title crawl"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["1-starfield"],
+    "timestamps": [
+        { "time": "0:00", "title": "Today's topic:  Scrolling Text" },
+        { "time": "0:46", "title": "Start the timer" },
+        { "time": "1:21", "title": "Add the P3D renderer" },
+        { "time": "2:49", "title": "Use loadStrings to load the text" },
+        { "time": "5:13", "title": "Use textAlign to center the text" },
+        { "time": "6:27", "title": "Use the y variable to scroll the text" },
+        { "time": "9:33", "title": "Translate to the center" },
+        { "time": "10:28", "title": "Rotate along the x axis" },
+        { "time": "1228", "title": "Adjust the bounding box" },
+        { "time": "14:36", "title": "Use the fullscreen function" },
+        { "time": "16:36", "title": "Conclusion and suggestions for variations" }
+    ],
+    "codeExamples": [
+        {
+            "title": "May the 4th Scrolling Text",
+            "description": "The sketch shows how to code scrolling text.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/YNU5kFGFo",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/101_MayThe4th/Processing/CC_101_MayThe4th"  
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Jabrils on Youtube",
+                    "url": "https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg",
+                    "description": "Jabril's Youtube channel"
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Web Animations and Mo.js with Sarah Drasner",
+                    "url": "https://www.youtube.com/watch?v=yRxWa8lXasI",
+                    "description": "In this guest tutorial, Sarah Drasner demonstrates how to use the Mo.js library to create a smooth colorful \"burst\" animation in the browser."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream #135",
+                    "url": "https://youtu.be/ORwIZCKJA-Q?t=760s",
+                    "description": "Live Stream with May 4th Challenge + TensorFlow.js Continued"
+                }
+            ]
+        }
+    ]
+}

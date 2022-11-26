@@ -31,9 +31,9 @@
       "contributions": [
         "code",
         "content"
-	   ]
-	},
-	{
+      ]
+    },
+    {
       "login": "DenisovichDev",
       "name": "Rishi",
       "avatar_url": "https://avatars.githubusercontent.com/u/66998096?v=4",
@@ -42,6 +42,80 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "M0nica",
+      "name": "Monica Powell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6998954?v=4",
+      "profile": "https://aboutmonica.com",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "btb331",
+      "name": "btb331",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36310755?v=4",
+      "profile": "https://github.com/btb331",
+      "contributions": [
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "pgriffin17",
+      "name": "pgriffin17",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31374077?v=4",
+      "profile": "https://github.com/pgriffin17",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "ArztKlein",
+      "name": "ArztKlein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52363453?v=4",
+      "profile": "https://github.com/ArztKlein",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "zvolcsey",
+      "name": "Zoltán Völcsey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41576384?v=4",
+      "profile": "https://zoltanvolcsey.onrender.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "alin256",
+      "name": "Sergey Alyaev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7563037?v=4",
+      "profile": "https://github.com/alin256",
+      "contributions": [
+        "ideas",
+        "doc"
+      ]
+    },
+    {
+      "login": "olegon",
+      "name": "Leandro Gonçalves de Oliveira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434364?v=4",
+      "profile": "https://github.com/olegon",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "laurie60",
+      "name": "laurie60",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100629314?v=4",
+      "profile": "https://github.com/laurie60",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -49,5 +123,6 @@
   "projectOwner": "CodingTrain",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

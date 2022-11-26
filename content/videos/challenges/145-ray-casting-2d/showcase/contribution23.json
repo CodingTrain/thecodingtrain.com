@@ -1,8 +1,8 @@
 {
-    "title": "Ray Casting W/ Adjustable Ray Fidelity and Mouse Easing",
-    "author": {
-        "name": "Jacob Bender",
-        "url": "https://github.com/ThatBenderGuy"
-    },
-    "source": "https://github.com/ThatBenderGuy/ProcessingRayCasting"
+  "title": "Ray Casting W/ Adjustable Ray Fidelity and Mouse Easing",
+  "url": "https://github.com/ThatBenderGuy/ProcessingRayCasting",
+  "author": {
+    "name": "Jacob Bender",
+    "url": "https://github.com/ThatBenderGuy"
+  }
 }

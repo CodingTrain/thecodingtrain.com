@@ -1,9 +1,8 @@
 {
   "title": "Swifty Menger sponge",
-  "url": "",
+  "url": "https://github.com/bobvoorneveld/Coding-Challenges/tree/master/CC002-Menger%20Sponge%20Fractal",
   "author": {
     "name": "Bob Voorneveld",
     "url": "https://www.bobvoorneveld.nl"
-  },
-  "source": "https://github.com/bobvoorneveld/Coding-Challenges/tree/master/CC002-Menger%20Sponge%20Fractal"
+  }
 }

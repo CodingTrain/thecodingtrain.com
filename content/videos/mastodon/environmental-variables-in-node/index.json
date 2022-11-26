@@ -1,0 +1,67 @@
+{
+  "title": "Environment Variables in Node with dotenv",
+  "description": "In this video, I cover the node.js \"dotenv\" package and show how to save API credentials as environment variables. ",
+  "videoNumber": "4.3",
+  "videoId": "B8ireAeWRQk",
+  "date": "2018-10-09",
+  "languages": ["node.js"],
+  "topics": ["mastodon", "dotenv"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Hiding API credentials" },
+    { "time": "3:10", "title": "Grab environmental variables" },
+    { "time": "4:51", "title": "Add .env file to gitignore" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "🤖",
+          "title": "Botsin.space server",
+          "url": "https://botsin.space/about/more",
+          "description": "Botsin.space server"
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        },
+        {
+          "icon": "💻",
+          "title": "dotenv on npm",
+          "url": "https://www.npmjs.com/package/dotenv",
+          "description": "Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        }
+      ]
+    }
+  ]
+}

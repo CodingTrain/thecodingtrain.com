@@ -5,10 +5,31 @@
   "videoId": "X8bXDKqMsXE",
   "date": "2018-12-30",
   "languages": ["Processing"],
-  "topics": ["koch curve", "fractals", "koch snowflake", "koch star"],
+  "topics": ["koch curve", "fractals", "koch snowflake"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "2-menger-sponge",
+    "14-fractal-trees-recursive",
+    "21-mandelbrot-set-with-p5js",
+    "123-chaos-game",
+    "126-toothpicks",
+    "174-graphics-applesoft-basic"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "0:36", "title": "Koch curve algorithm" },
+    { "time": "2:20", "title": "Create a Segment class" },
+    { "time": "4:40", "title": "Add an array list of segments" },
+    { "time": "5:10", "title": "Draw the segments" },
+    { "time": "8:24", "title": "Divide segment by 3" },
+    { "time": "0:00", "title": "Rotate to get the \"hat\"" },
+    { "time": "12:50", "title": "Write a function to add the children to the segments" },
+    { "time": "14:18", "title": "Use mousePressed() to get a new generation of segments" },
+    { "time": "16:00", "title": "Why is the Koch curve called the \"Monster Curve\"?" },
+    { "time": "19:11", "title": "Add a triangle" },
+    { "time": "20:59", "title": "Conclusion and creative possibilities" },
+    { "time": "21:47", "title": "Bonus addendum: use height of equilateral triangle to find 3rd point" }
+  ],
   "codeExamples": [
     {
       "title": "Koch Snowflake",
@@ -45,6 +66,12 @@
           "title": "Vectors",
           "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/1-vectors/1-what-is-a-vector",
           "description": "What is a vector? How do they work in p5.js?"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Holiday Telethon 2018",
+          "url": "https://youtu.be/WACLmPBxMaw?t=11469s",
+          "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
     }

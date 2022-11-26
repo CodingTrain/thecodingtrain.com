@@ -1,0 +1,103 @@
+{
+  "title": "Binary Tree",
+  "description": "This multi-part coding challenge is part of the first week of my course: \"Intelligence and Learning.\" Here I attempt to implement a classic data structure: The Binary Search Tree.",
+  "videoNumber": "65",
+  "videoId": "ZNH0MuQ51m4",
+  "date": "2017-03-21",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [
+    "binary search tree",
+    "data structure",
+    "intelligence and learning"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["68-breadth-first-search", "98-quadtree"],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Binary Search Tree",
+      "videoId": "ZNH0MuQ51m4",
+      "timestamps": [
+        { "time": "0:00", "title": "Introducing today's topic: Binary Trees" },
+        { "time": "1:18", "title": "Why would you use a binary tree?" },
+        { "time": "3:36", "title": "What is a data structure?" },
+        { "time": "4:47", "title": "Nodes with children" },
+        { "time": "8:27", "title": "Algorithm for how the tree is sorted" },
+        { "time": "11:36", "title": "Node object" },
+        { "time": "12:17", "title": "Tree object" },
+        {
+          "time": "12:39",
+          "title": "Use prototype to add an addNode function"
+        },
+        { "time": "18:58", "title": "Use recursion to add nodes" },
+        {
+          "time": "20:42",
+          "title": "Deal with the case when two values are equal"
+        },
+        { "time": "22:50", "title": "How do you traverse the tree?" },
+        { "time": "25:00", "title": "What does it mean to visit a node?" },
+        { "time": "27:39", "title": "Add random values" },
+        { "time": "28:58", "title": "Add a function to search the tree" },
+        { "time": "37:57", "title": "Conclusion and suggested variations" }
+      ]
+    },
+    {
+      "title": "Part 2 - Visualization",
+      "videoId": "KFEvF_ymuzY",
+      "timestamps": [
+        { "time": "0:00", "title": "Visualizing the Binary Tree" },
+        { "time": "1:15", "title": "Add a x and y position to each node" },
+        { "time": "2:46", "title": "Draw the node" },
+        { "time": "4:29", "title": "Draw a line between the nodes" },
+        {
+          "time": "7:03",
+          "title": "Conclusion and suggested visualization variations"
+        }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Binary Search Tree",
+      "description": "This sketch implements a binary tree search algorithm.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/pLFI8gCU9",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/065.1_binary_tree/Processing/CC_065_1_binary_tree"
+      }
+    },
+    {
+      "title": "Visualizing a Binary Tree",
+      "description": "This sketch visualizes a binary tree.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/UBGpfubd1",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/065.2_binary_tree_viz/Processing/CC_065_2_binary_tree_viz"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📕",
+          "title": "Intelligence and Learning (Spring 2017)",
+          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+          "description": "Syllabus for Part 2 of Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017"
+        },
+        {
+          "icon": "📘",
+          "title": "Grokking Algorithms book",
+          "url": "http://amzn.to/2mMCK7Z",
+          "description": "Grokking Algorithms is a fully illustrated, friendly guide that teaches you how to apply common algorithms to the practical problems."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 87",
+          "url": "https://youtu.be/hVSHlFjTeqg?t=9310s",
+          "description": "Live Stream with Timer in JavaScript, Pong, and Binary Tree"
+        }
+      ]
+    }
+  ]
+}

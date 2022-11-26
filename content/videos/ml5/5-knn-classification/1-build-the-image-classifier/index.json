@@ -1,13 +1,14 @@
 {
   "title": "ml5.js: KNN Classification Part 1",
-  "description": "This video covers \u201cKNN Classification.\u201d In this first part, I begin the process of building a \u201cteachable machine\u201d-style image classifier with ml5.js.",
+  "description": "This video covers \"KNN Classification.\" In this first part, I begin the process of building a \"teachable machine\"-style image classifier with ml5.js.",
   "videoNumber": "5.1",
   "videoId": "KTNqXwkLuM4",
   "date": "2019-02-04",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["knn classification", "machine learning"],
   "canContribute": true,
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction"
     },
@@ -37,7 +38,7 @@
     },
     {
       "time": "8:25",
-      "title": "logits - the \u201cfeature extractor\u201d layer"
+      "title": "logits - the \"feature extractor\" layer"
     },
     {
       "time": "10:52",
@@ -57,19 +58,23 @@
     },
     {
       "time": "14:41",
-      "title": "Using datasync to get the \u201cdigital finger print\u201d of an image"
+      "title": "Using datasync to get the \"digital finger print\" of an image"
     }
   ],
-  "codeExamples": [{
-    "title": "KNN Classification",
-    "description": "This sketch demonstrates how to train the KNN image classifier.",
-    "urls": {
-      "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL"
+  "codeExamples": [
+    {
+      "title": "KNN Classification",
+      "description": "This sketch demonstrates how to train the KNN image classifier.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL"
+      }
     }
-  }],
-  "groupLinks": [{
+  ],
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "💻",
           "title": "Teachable Machine",
           "url": "https://teachablemachine.withgoogle.com/",
@@ -79,7 +84,7 @@
           "icon": "💻",
           "title": "Machine Learning for the Web by Yining Shi",
           "url": "https://github.com/yining1023/machine-learning-for-the-web",
-          "description": "Yining Shi's page for the \u201cMachine Learning for the Web\u201d class at ITP, NYU."
+          "description": "Yining Shi's page for the \"Machine Learning for the Web\" class at ITP, NYU."
         },
         {
           "icon": "📓",
@@ -97,12 +102,14 @@
     },
     {
       "title": "Videos",
-      "links": [{
-        "icon": "🚂",
-        "title": "Beginners Guide to Machine Learning in JavaScript",
-        "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",
-        "description": "This playlist provides an introduction to developing creative coding projects with machine learning."
-      }]
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Beginners Guide to Machine Learning in JavaScript",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",
+          "description": "This playlist provides an introduction to developing creative coding projects with machine learning."
+        }
+      ]
     }
   ]
 }

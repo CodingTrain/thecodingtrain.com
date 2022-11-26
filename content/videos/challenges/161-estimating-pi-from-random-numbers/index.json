@@ -1,13 +1,13 @@
 {
-  "title": "Estimating \u03c0 from Random Numbers with Euclid's Algorithm",
-  "description": "\ud83e\udd67 Happy Pi Day 2021! This year I estimate the digits of \u03c0 with random numbers and the probability of two integers being co-prime.",
+  "title": "Estimating π from Random Numbers with Euclid's Algorithm",
+  "description": "🥧 Happy Pi Day 2021! This year I estimate the digits of π with random numbers and the probability of two integers being co-prime.",
   "videoNumber": "161",
   "videoId": "EvS_a921dBo",
   "date": "2021-03-14",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["pi day", "math", "random numbers"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["140-pi-leibniz", "156-peeking-inside-pi", "169-pi-in-the-sky"],
   "timestamps": [
     { "time": "0:00", "title": "Happy Pi Day!" },
     { "time": "1:26", "title": "Explain! What does co-prime mean?" },
@@ -30,7 +30,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Estimating \u03c0 from Random Numbers",
+      "title": "Estimating π from Random Numbers",
       "description": "Estimating the digits of Pi with random numbers",
       "image": "pi.png",
       "urls": {
@@ -38,7 +38,7 @@
       }
     },
     {
-      "title": "Estimating \u03c0 from from the digits of \u03c0",
+      "title": "Estimating π from from the digits of π",
       "description": "Estimating the digits of Pi by using the digits of Pi as random numbers",
       "image": "digits.png",
       "urls": {
@@ -81,7 +81,7 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Generating \u03c0 from 1,000 random numbers",
+          "title": "Generating π from 1,000 random numbers",
           "url": "https://youtu.be/RZBhSi_PwHU",
           "description": "Video by Stand-up Maths on estimating Pi from random numbers"
         }

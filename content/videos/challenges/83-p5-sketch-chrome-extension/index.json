@@ -1,0 +1,84 @@
+{
+  "title": "Chrome Extension with p5.js Sketch - Doodle Chrome Extension",
+  "description": "In this coding challenge, I create a Chrome Extension which adds a p5.js drawing canvas on top of any webpage you visit.",
+  "videoNumber": "83",
+  "videoId": "IXXNIcQQLU8",
+  "date": "2017-11-20",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [
+    "chrome extensions",
+    "bookmarklets",
+    "doodle canvas",
+    "drawing webpage"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [
+    "82-image-chrome-extension",
+    "84-word-definition-chrome-extension"
+  ],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction to the Challenge!" },
+    { "time": "00:32", "title": "manifest.json" },
+    { "time": "01:06", "title": "Create a regular p5 sketch (Global Mode)" },
+    {
+      "time": "03:30",
+      "title": "Include the p5.js libraries as content scripts"
+    },
+    { "time": "05:46", "title": "Finish the sketch!" },
+    { "time": "08:38", "title": "Some Improvements" },
+    { "time": "10:21", "title": "Why does this only work half of the time?" },
+    { "time": "12:18", "title": "Using Instance Mode" },
+    { "time": "16:46", "title": "Remove user select from the body" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Doodle Chrome Extension",
+      "description": "A chrome extension which allows you to draw on top of any webpage.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/083_Chrome_Extension_with_p5js_Sketch/JavaScript"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔤",
+          "title": "Programming from A to Z",
+          "url": "http://shiffman.net/a2z",
+          "description": "This course focuses on programming strategies and techniques behind procedural analysis and generation of text-based data."
+        },
+        {
+          "icon": "📄",
+          "title": "p5.js Instance Mode reference",
+          "url": "https://github.com/processing/p5.js/wiki/Global-and-instance-mode",
+          "description": "p5.js Wiki on Global and Instance Mode"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Instance Mode",
+          "url": "https://www.youtube.com/watch?v=Su792jEauZg",
+          "description": "This video looks at p5.js \"instance mode\"."
+        },
+        {
+          "icon": "🚂",
+          "title": "Chrome Extensions playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS",
+          "description": "\"Chrome Extensions\" of my Programming with Text video series"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 106",
+          "url": "https://youtu.be/y0zS83xj0g0?t=45m5s",
+          "description": "Live Stream with Chrome Extension Coding Challenges"
+        }
+      ]
+    }
+  ]
+}

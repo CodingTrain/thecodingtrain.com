@@ -10,7 +10,7 @@
     {
       "title": "Particle System Inheritance",
       "description": "Creating a confetti class that inherits methods from a parent emitter class",
-      "image": "image1.png",
+      "image": "inheritance.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/vYgv7Xagg"
       }

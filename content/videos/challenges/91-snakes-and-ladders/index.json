@@ -1,0 +1,119 @@
+{
+  "title": "Snakes & Ladders",
+  "description": "In this multi-part coding challenge, I attempt to create a simulation of the classic board game Snakes & Ladders (also known as Chutes and Ladders).",
+  "videoNumber": "91",
+  "videoId": "",
+  "date": "2018-01-29",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["snakes and ladders", "game"],
+  "canContribute": true,
+  "relatedChallenges": ["71-minesweeper", "72-frogger", "94-2048"],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - The Grid and Game Logic",
+      "videoId": "JrRO3OnWs5s",
+      "timestamps": [
+        { "time": "00:00", "title": "Introduction" },
+        { "time": "01:10", "title": "The Game of Snake & Ladders" },
+        { "time": "04:14", "title": "Code! Create Player and Tile classes" },
+        { "time": "05:21", "title": "Create a Grid of Tiles" },
+        { "time": "08:56", "title": "Make a Zig Zag Path" },
+        { "time": "12:15", "title": "Show the Tiles" },
+        { "time": "17:21", "title": "Make a Checkerboard Pattern" },
+        { "time": "18:17", "title": "Create a Player" },
+        { "time": "18:34", "title": "Roll a Die" },
+        { "time": "19:14", "title": "Show the Player" },
+        { "time": "21:20", "title": "End Condition to the Game" },
+        { "time": "22:41", "title": "The Monte-Carlo Simulation" },
+        { "time": "24:43", "title": "Compute the Average number of Rolls" },
+        { "time": "30:09", "title": "See you in Part 2!" }
+      ]
+    },
+    {
+      "title": "Part 2 - Add Snakes and Ladders",
+      "videoId": "wN5Is0DjW8w",
+      "timestamps": [
+        { "time": "00:00", "title": "Introduction" },
+        { "time": "00:44", "title": "Code! Add a Snake Manually" },
+        { "time": "05:12", "title": "Refactoring the Code" },
+        { "time": "07:20", "title": "Move Player across Snakes and Ladders" },
+        { "time": "09:15", "title": "Do some Debugging" },
+        { "time": "11:26", "title": "Coloring Snakes and Ladders differently" },
+        { "time": "12:34", "title": "Add random Snakes" },
+        { "time": "19:50", "title": "Some more Debugging" },
+        { "time": "21:29", "title": "Add random Ladders" },
+        { "time": "23:10", "title": "Fix the Order of Drawing" },
+        { "time": "24:30", "title": "Tweak Game Parameters" },
+        { "time": "25:44", "title": "See you in Part 3!" }
+      ]
+    },
+    {
+      "title": "Part 3 - Visualize the States of the Game",
+      "videoId": "1Ec_-wzJCPY",
+      "timestamps": [
+        { "time": "00:00", "title": "Introduction" },
+        { "time": "01:00", "title": "Adding States to the Game" },
+        { "time": "02:20", "title": "The ROLL State" },
+        { "time": "04:40", "title": "Highlight a Preview of the next Spot" },
+        { "time": "07:20", "title": "Do some Debugging" },
+        { "time": "09:32", "title": "The MOVE State" },
+        { "time": "11:28", "title": "Fix the Drawing of the Preview" },
+        { "time": "13:46", "title": "Find out is there is a Snadder" },
+        { "time": "17:15", "title": "The SNADDER State" },
+        { "time": "19:07", "title": "Move according to the Snadder" },
+        { "time": "20:22", "title": "Some more Debugging" },
+        { "time": "25:12", "title": "Figure out if the Game is Over" },
+        { "time": "26:28", "title": "Make the Board bigger" },
+        { "time": "28:56", "title": "Wrapping up this Coding Challenge" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "🐍 Snakes & Ladders 🪜",
+      "description": "Simulation of Snakes & Ladders in p5.js and Processing",
+      "image": "p5-example.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fxyOnKXlw",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/091_snakesladders/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌐",
+          "title": "Snakes and Ladders on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Snakes_and_Ladders",
+          "description": "Wikipedia page for the Game of Snakes and Ladders"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 116.1",
+          "url": "https://youtu.be/nvvjYJ2L57c?t=1379s",
+          "description": "Livestream with Snakes & Ladders"
+        },
+         {
+          "icon": "🔴",
+          "title": "Coding Train Live 116.2",
+          "url": "https://youtu.be/1v_E18xU3ok?t=570s",
+          "description": "Livestream with Snakes & Ladders Continued + 2048"
+        }
+      ]
+    }
+  ]
+}

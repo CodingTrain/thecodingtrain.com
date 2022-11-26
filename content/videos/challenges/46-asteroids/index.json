@@ -1,0 +1,86 @@
+{
+    "title": "Asteroids",
+    "description": "In this two part coding challenge, I use the p5.js library to create my own version of the classic Atari video game Asteroids!",
+    "videoNumber": "46",
+    "videoId": "",
+    "date": "2016-12-15",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": [
+        "Atari asteroids",
+        "polar to cartesian coordinates"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["81-circle-morphing"],
+    "timestamps": [],
+    "parts": [
+        {
+          "title": "Part 1 - Ship and Asteroids",
+          "videoId": "hacZU523FyM",
+          "timestamps": [
+            { "time": "0:00", "title": "Introducing today's topic: coding the classic Atari game Asteroids" },
+            { "time": "1:54", "title": "Create a Ship object" },
+            { "time": "5:56", "title": "Write a function to turn the ship" },
+            { "time": "9:54", "title": "Move the ship by adding velocity and acceleration vectors" },
+            { "time": "16:51", "title": "Deal with the edges of the screen" },
+            { "time": "19:32", "title": "Create an array of asteroids" },
+            { "time": "22:12", "title": "Add push and pop to save the ship's heading" },
+            { "time": "24:41", "title": "Use polar to cartesian coordinates to get the vertices on the asteroids" },
+            { "time": "27:52", "title": "Offset the vertices by a random value to create jagged asteroids" },
+            { "time": "30:05", "title": "Move the asteroids" }
+          ]
+        },
+        {
+            "title": "Part 2 - Lasers and Collision Detection",
+            "videoId": "xTTuih7P0c0",
+            "timestamps": [
+                { "time": "0:00", "title": "Asteroids - Part 2" },
+                { "time": "0:49", "title": "Add a Laser object" },
+                { "time": "7:13", "title": "Add collision detection" },
+                { "time": "11:44", "title": "Add a breakup function" },
+                { "time": "15:38", "title": "Loop through the asteroids backwards" },
+                { "time": "19:38", "title": "Use concat to add the new asteroids to the array" },
+                { "time": "22:47", "title": "Remove the asteroids if their size falls below a threshold value" },
+                { "time": "24:13", "title": "Check if the ship hits the asteroid" },
+                { "time": "26:03", "title": "Possibilities for variations" },
+                { "time": "27:00", "title": "Remove lasers that are offscreen" }
+
+            ]
+          }
+        ],
+    "codeExamples": [
+        {
+            "title": "Asteroids",
+            "description": "This sketch recreates the classic Atari video game Asteroids.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/VtYr6E4_M",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/046_Asteroids/Processing/CC_046_Asteroids"
+            }
+        }
+    ],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                "icon": "🌐",
+                "title": "Asteroids on Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+                "description": "Wikipedia page with information and resources about the video game Asteroids"
+            }]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "🎥",
+                    "title": "Polar Coordinates",
+                    "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+                    "description": "This video covers the trigonometric functions—sine, cosine, and tangent."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #70",
+                    "url": "https://youtu.be/VFnF87-JNtY",
+                    "description": "Live Stream with Asteroids and Pixel Sorting."
+                }
+            ]
+        }
+    ]
+}

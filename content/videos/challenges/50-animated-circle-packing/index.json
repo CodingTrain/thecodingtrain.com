@@ -4,18 +4,18 @@
     "videoNumber": "50",
     "videoId": "",
     "date": "2017-01-09",
-    "languages": ["processing"],
+    "languages": ["Processing"],
     "topics": [
         "load pixels",
         "circle packing",
         "processing pixels"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["47-pixel-sorting-in-processing", "49-photo-mosaic-with-white-house-social-media-images"],
     "timestamps": [],
     "parts": [
         {
-            "title": "Animated Circle Packing - Part 1",
+            "title": "Part 1 - Circle Packing and Text",
             "videoId": "QHEQuoIKgNE",
             "timestamps": [
                 { "time": "0:00", "title": "Introduction" },
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "title": "Animated Circle Packing - Part 2",
+            "title": "Part 2 - Colorful Circle Packing with an Image",
             "videoId": "ERQcYaaZ6F0",
             "timestamps": [
                 { "time": "0:00", "title": "Introduction" },
@@ -49,7 +49,7 @@
     ],
     "codeExamples": [
         {
-            "title": "Animated Cirle Packing - Text",
+            "title": "Animated Circle Packing - Text",
             "description": "This sketch shows how to use a circle packing algorithm to fill the outlines of text.",
             "image": "train.jpg",
             "urls": {
@@ -58,7 +58,7 @@
             }
         },
         {
-            "title": "Animated Cirle Packing - Image",
+            "title": "Animated Circle Packing - Image",
             "description": "This sketch demonstrates how to combine the circle packing algorithm with looking up pixel colors in an image.",
             "image": "cat.jpg",
             "urls": {
@@ -83,6 +83,17 @@
                     "url": "https://en.wikipedia.org/wiki/Circle_packing",
                     "description": "Wikipedia page with background and references on circle packing"
                 }
+            ]
+        },
+        {
+            "title": "Live Stream Archive",
+            "links": [
+              {
+                "icon": "🔴",
+                "title": "Live Stream #71",
+                "url": "https://youtu.be/pF0cadg2mg0",
+                "description": "Live Stream with Circle Packing and White House Date Visualization."
+              }
             ]
         }
     ]

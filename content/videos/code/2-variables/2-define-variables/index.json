@@ -28,7 +28,7 @@
     {
       "title": "Moving Circle",
       "description": "Demonstration of using variables to change the position of a circle.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/xPXNdPy17"
       }
@@ -36,7 +36,7 @@
     {
       "title": "Growing Circle",
       "description": "(Exercise) Demonstration of using variables to change the size of a circle.",
-      "image": "",
+      "image": "img2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC"
       }

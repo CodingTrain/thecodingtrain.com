@@ -7,7 +7,10 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["fourier", "maths"],
   "canContribute": true,
-  "relatedChallenges": ["61-fractal-spirograph"],
+  "relatedChallenges": [
+    "61-fractal-spirograph",
+    "130-drawing-with-fourier-transform-and-epicycles"
+  ],
   "timestamps": [
     {
       "time": "00:00",
@@ -32,7 +35,7 @@
       "image": "fourier.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SJ02W1OgV",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_125_Fourier_Series/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/125_Fourier_Series/Processing"
       }
     }
   ],
@@ -80,6 +83,12 @@
           "title": "Polar Coordinates",
           "url": "https://www.youtube.com/watch?v=O5wjXoFrau4",
           "description": "Tutorial on Cartesian and Polar Coordinates"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 163",
+          "url": "https://youtu.be/pKyU92cza0Y?t=2390s",
+          "description": "Live Stream with Toothpicks and Fourier Series"
         }
       ]
     }

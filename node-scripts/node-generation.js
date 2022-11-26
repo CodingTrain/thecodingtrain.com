@@ -35,8 +35,8 @@ const parseTimestamp = (timeString) => {
 
 /**
  * Add computed seconds to an array of Timestamp objets (creates a new array).
- * 
- * @param {{ time: string, title: string }[]} timestamps 
+ *
+ * @param {{ time: string, title: string }[]} timestamps
  * @returns the timestamps with computed seconds
  */
 const timestampsWithSeconds = (timestamps) => {
@@ -92,18 +92,20 @@ exports.createVideoRelatedNode = (
     // video folder so that we can get the corresponding ID's to link them
     const showcase = fs.existsSync(`${parent.dir}/showcase`)
       ? fs
-        .readdirSync(`${parent.dir}/showcase`)
-        .filter((file) => file.includes('.json'))
-        .map(
-          (file) =>
-            `${slugPrefix}${parent.relativeDirectory}/showcase/${file}`
-        )
+          .readdirSync(`${parent.dir}/showcase`)
+          .filter((file) => file.includes('.json'))
+          .map(
+            (file) =>
+              `${slugPrefix}${parent.relativeDirectory}/showcase/${file}`
+          )
       : [];
     const timestamps = timestampsWithSeconds(data.timestamps ?? []);
     const parts = (data.parts ?? []).map((part) => ({
       ...part,
       timestamps: timestampsWithSeconds(part.timestamps ?? [])
     }));
+    const languages = cleanUp(data.languages ?? []);
+    const topics = cleanUp(data.topics ?? []);
 
     const languages = cleanUp(data.languages ?? []);
     const topics = cleanUp(data.topics ?? []);
@@ -113,9 +115,7 @@ exports.createVideoRelatedNode = (
       parent: node.id,
       slug,
       languages,
-      languagesFlat: languages.join(),
       topics,
-      topicsFlat: topics.join(),
       timestamps,
       parts,
       codeExamples: (data.codeExamples ?? []).map((example) => ({
@@ -129,7 +129,8 @@ exports.createVideoRelatedNode = (
       showcase: showcase.map((file) => createNodeId(file)),
       relatedChallenges: (data.relatedChallenges ?? []).map((slug) =>
         createNodeId(
-          `--videos/${slug.includes('challenges') ? slug : `challenges/${slug}`
+          `--videos/${
+            slug.includes('challenges') ? slug : `challenges/${slug}`
           }`
         )
       ),
@@ -141,73 +142,27 @@ exports.createVideoRelatedNode = (
       }
     });
     createNode(newNode);
-
-    for (let tag of newNode.languages) {
-      const content = {
-        id: createNodeId(`--tag/${tag}`),
-        parent: node.id,
-        type: 'language',
-        value: tag
-      };
-      createNode({
-        ...content,
-        internal: {
-          type: 'Tag',
-          contentDigest: createContentDigest(content)
-        }
-      });
-    }
-    for (let tag of newNode.topics) {
-      const content = {
-        id: createNodeId(`--tag/${tag}`),
-        parent: node.id,
-        type: 'topic',
-        value: tag
-      };
-      createNode({
-        ...content,
-        internal: {
-          type: 'Tag',
-          contentDigest: createContentDigest(content)
-        }
-      });
-    }
   }
 };
 
-const computeTrackTags = (trackDirectory, type) => {
-  const languages = new Set();
-  const topics = new Set();
-  const trackPath = `../content/tracks/${type}/${trackDirectory}/index.json`;
+const trackOrderPath = './content/tracks/index.json';
 
-  let trackData;
+const getTrackOrder = (trackSlug, trackType) => {
+  if (!fs.existsSync(trackOrderPath)) return 99999;
+
   try {
-    trackData = require(trackPath);
+    const trackOrderJSON = JSON.parse(fs.readFileSync(trackOrderPath));
+
+    for (let index = 0; index < trackOrderJSON.trackOrder.length; index++) {
+      if (trackOrderJSON.trackOrder[index] === `${trackType}/${trackSlug}`)
+        return index;
+    }
   } catch (error) {
-    console.log(`Couldn't tag load of track ${trackPath}`);
-  }
-  if (trackData !== undefined) {
-    let videos = [];
-    if (trackData.chapters) {
-      trackData.chapters.forEach((chapter) => {
-        chapter.videos.forEach((video) => videos.push(video));
-      });
-    } else {
-      videos = trackData.videos;
-    }
-    videos = videos.map((slug) => `../content/videos/${slug}/index.json`);
-    for (let video of videos) {
-      try {
-        const videoData = require(video);
-        videoData.languages.forEach((lang) => languages.add(lang));
-        videoData.topics.forEach((topic) => topics.add(topic));
-      } catch (e) {
-        console.log(`Couldn't read tags of video ${video}`);
-      }
-    }
+    console.log(`Error loading track order file: ${trackOrderPath}`);
+    console.error(error);
   }
 
-  return [languages, topics].map((s) => [...s]);
+  return 99999;
 };
 
 /**
@@ -258,21 +213,16 @@ exports.createTrackRelatedNode = (
     numVideos += data.videos.length;
   }
 
-  const [languages, topics] = computeTrackTags(
-    parent.relativeDirectory,
-    trackType
-  );
+  const order = getTrackOrder(slug, trackType);
+
   const newNode = Object.assign({}, data, {
     id,
     parent: node.id,
     type,
     slug,
     numVideos,
+    order,
     cover: createNodeId(`cover-image/${trackType}/${slug}`),
-    languages,
-    languagesFlat: languages.join(),
-    topics,
-    topicsFlat: topics.join(),
     internal: {
       type: `Track`,
       contentDigest: createContentDigest(data)
@@ -282,8 +232,8 @@ exports.createTrackRelatedNode = (
         chapters.length > 0
           ? chapters.map((ch) => ch.id)
           : data.videos.map((videoSlug) =>
-            createNodeId(`--videos/${videoSlug}`)
-          )
+              createNodeId(`--videos/${videoSlug}`)
+            )
     }
   });
   createNode(newNode);
@@ -457,7 +407,9 @@ exports.createHomepageRelatedNodes = (
     },
     passengerShowcase: {
       ...data.passengerShowcase,
-      featured: createNodeId(data.passengerShowcase.featured)
+      featured: data.passengerShowcase.featured.map((showcasePath) =>
+        createNodeId(showcasePath)
+      )
     },
     internal: {
       type: `HomepageInfo`,
@@ -660,8 +612,8 @@ exports.createVideoCoverImageNode = (
   const postfixSlug = relativeDirectory.endsWith('/showcase')
     ? `/${name}`
     : relativeDirectory.endsWith('/images')
-      ? `/${name}.${extension}`
-      : '';
+    ? `/${name}.${extension}`
+    : '';
   const id = createNodeId(`cover-image/${prefixSlug}${slug}${postfixSlug}`);
   createCoverImageNode(createNode, createContentDigest, node, id);
 };

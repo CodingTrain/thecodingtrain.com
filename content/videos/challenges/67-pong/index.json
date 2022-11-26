@@ -1,0 +1,77 @@
+{
+  "title": "Pong!",
+  "description": "In this challenge, I attempt (emphasis on the word \"attempt\") to program the classic video game Pong in Processing (Java).",
+  "videoNumber": "67",
+  "videoId": "IIrC5Qcb2G4",
+  "date": "2017-03-27",
+  "languages": ["Processing"],
+  "topics": ["pong video game", "polar coordinates"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:05", "title": "Elements of Pong" },
+    { "time": "5:07", "title": "Puck class" },
+    { "time": "10:17", "title": "Paddle class" },
+    { "time": "15:15", "title": "Move the paddles" },
+    { "time": "20:29", "title": "Check if puck hits paddle" },
+    { "time": "27:08", "title": "Check puck direction" },
+    { "time": "40:56", "title": "Add score" },
+    { "time": "42:30", "title": "Add sound" },
+    { "time": "48:05", "title": "Constrain angle" },
+    { "time": "57:05", "title": "Map the angle" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Pong",
+      "description": "This sketch programs the classic game of Pong.",
+      "image": "pong.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/CKCwTIm3S",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/067_Pong/Processing/CC_067_Pong"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🗄",
+          "title": "Pong on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "description": "Wikipedia page with background and references on Pong."
+        },
+        {
+          "icon": "🏓",
+          "title": "Paddle angles drawing",
+          "url": "https://i1.wp.com/zekechan.net/wp-content/uploads/2015/07/pong-05b.png?resize=600%2C500",
+          "description": "Illustration of mapping for angles."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "My Video on Polar Coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "A dive into the trigonometric functions—sine, cosine, tangent."
+        },
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 87",
+          "url": "https://youtu.be/hVSHlFjTeqg?t=3115s",
+          "description": "Live Stream with Timer in JavaScript, Pong and Binary Tree"
+        }
+      ]
+    }
+  ]
+}

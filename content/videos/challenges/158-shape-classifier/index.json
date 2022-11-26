@@ -1,10 +1,10 @@
 {
   "title": "Shape Classifier Neural Network with ml5.js",
-  "description": "In this challenge, I demonstrate the entire process of training and deploying a machine learning classification model in JavaScript \u2013 data collection, model training, and prediction!",
+  "description": "In this challenge, I demonstrate the entire process of training and deploying a machine learning classification model in JavaScript – data collection, model training, and prediction!",
   "videoNumber": "158",
   "videoId": "3MqJzMvHE3E",
   "date": "2020-12-03",
-  "languages": ["Processing", "p5.js", "ml5"],
+  "languages": ["Processing", "p5.js", "ml5.js"],
   "topics": [
     "generating datasets",
     "loading images",
@@ -15,7 +15,7 @@
     "testing a model"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "122-quick-draw", "153-interactive-drawing-with-sketchrnn"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -194,12 +194,6 @@
           "title": "ml5.js: Save Neural Network Trained Model",
           "url": "https://www.youtube.com/watch?v=wUrg9Hjkhg0",
           "description": "This vidoe shows how to save a save a model that has been trained in ml5.js."
-        },
-        {
-          "icon": "🎥",
-          "title": "Quick, Draw! - Coding Challenge #122",
-          "url": "https://www.youtube.com/watch?v=yLuk0twx8Hc",
-          "description": "This video takes a closer look at the Quick, Draw! dataset and create a simple node API to 'replay' drawings of rainbows and cats using p5.js."
         }
       ]
     }

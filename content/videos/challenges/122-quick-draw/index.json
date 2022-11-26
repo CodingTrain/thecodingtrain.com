@@ -1,0 +1,146 @@
+{
+    "title": "Quick, Draw!",
+    "description": "In this multi-part coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \"replay\" drawings of rainbows and cats using p5.js.",
+    "videoNumber": "122",
+    "videoId": "",
+    "date": "2018-11-19",
+    "languages": ["p5.js", "node.js", "JavaScript"],
+    "topics": ["Quick, Draw!", "machine learning", "doodle classifiers", "sketchrnn"],
+    "canContribute": true,
+    "relatedChallenges": ["128-sketch-rnn-snowflakes", "153-interactive-drawing-with-sketchrnn"],
+    "timestamps": [],
+    "parts": [{
+            "title": "Part 1 - Replay a Drawing of the Dataset",
+            "videoId": "yLuk0twx8Hc",
+            "timestamps": [
+                {"time": "0:00", "title": "Introducing today's topics: the Quick, Draw! dataset"},
+                {"time": "2:48", "title": "The data is the pixel paths with timing information"},
+                {"time": "4:53", "title": "ndjson files"},
+                {"time": "6:58", "title": "Download a simplified ndjson file"},
+                {"time": "9:26", "title": "Install express and ndjson packages"},
+                {"time": "12:12", "title": "Run the server"},
+                {"time": "13:03", "title": "Make an express server"},
+                {"time": "14:45", "title": "Pick a random drawing"},
+                {"time": "16:05", "title": "Have server host a p5 sketch"},
+                {"time": "18:02", "title": "Write a function to load the drawing"},
+                {"time": "19:28", "title": "Loop through all the paths in the drawing"},
+                {"time": "24:22", "title": "Animate the drawing"},
+                {"time": "27:33", "title": "Loop through points within the strokes"},
+                {"time": "29:30", "title": "Connect the points"},
+                {"time": "32:12", "title": "Reset the strokeIndex to zero to draw a new cat"},
+                {"time": "32:22", "title": "Enjoy a whole bunch of cats!"}
+            ]
+        },
+        {
+            "title": "Part 2 - Load Drawings using the Quick, Draw API",
+            "videoId": "EcRK6oFddPQ",
+            "timestamps": [{
+                    "time": "0:00",
+                    "title": "The Quickdraw API"
+                },
+                {
+                    "time": "2:11",
+                    "title": "The API Google group is no longer available"
+                },
+                {
+                    "time": "4:11",
+                    "title": "The project page"
+                },
+                {
+                    "time": "5:20",
+                    "title": "Add the API key to the URL query string"
+                },
+                {
+                    "time": "9:00",
+                    "title": "Paste the code from Part 1"
+                },
+                {
+                    "time": "14:38",
+                    "title": "Conclusion"
+                }
+            ]
+        }
+    ],
+    "codeExamples": [{
+            "title": "Quick, Draw! - Part 1",
+            "description": "This code demonstrates how to create a simple node API to \"replay\" drawings of rainbows and cats.",
+            "urls": {
+                "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/122_QuickDraw_1/Node"
+            }
+        },
+        {
+            "title": "Quick, Draw! - Part 2",
+            "description": "The API is no longer available, so a JSON file with one cat is loaded instead.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07"
+            }
+        }
+    ],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                    "icon": "🖌",
+                    "title": "Quick, Draw! The Data",
+                    "url": "https://quickdraw.withgoogle.com/data",
+                    "description": "A draw set with over 50 million doodles."
+                },
+                {
+                    "icon": "💾",
+                    "title": "sketch-rnn",
+                    "url": "https://magenta.tensorflow.org/sketch-rnn-demo",
+                    "description": "Webpage with information and resources about the Magenta project."
+                },
+                {
+                    "icon": "💾",
+                    "title": "Quick, Draw! Web Component",
+                    "url": "https://opensource.googleblog.com/2018/11/introducing-web-component-and-data-api-for-quick-draw.html",
+                    "description": "Announcement about the Web Component and Data API for Quick, Draw!"
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Quick, Draw! API",
+                    "url": "https://github.com/googlecreativelab/quickdraw-dataset",
+                    "description": "The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "🎥",
+                    "title": "Doodle Classifier",
+                    "url": "https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ",
+                    "description": "In this series, I build a \"doodle classifier\" using the Google \"Quick, Draw!\" dataset and my JavaScript neural network library."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "What is JSON?",
+                    "url": "https://www.youtube.com/watch?v=_NFkzw6oFtQ",
+                    "description": "This video covers JSON (JavaScript Object Notation)."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Building an API with Node",
+                    "url": "https://www.youtube.com/watch?v=P-Upi9TMrBk",
+                    "description": "I cover the basic steps for building a RESTful API with Node.js. "
+                }
+            ]
+        },
+        {
+            "title": "Live Stream Archives",
+            "links": [{
+                    "icon": "🔴",
+                    "title": "Coding Train Live 160",
+                    "url": "https://youtu.be/noOFQK3tPQ?t=3966s",
+                    "description": "Live Stream with ml5 Load/Save + Quick, Draw!"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Coding Train Live 161",
+                    "url": "https://youtu.be/v8lm5XZ2V6M?t=4041s",
+                    "description": "Live Stream with Chaos Game and Quick, Draw! Challenges."
+                }
+            ]
+        }
+    ]
+}

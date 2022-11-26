@@ -1,13 +1,18 @@
 {
   "title": "Superellipse",
-  "description": "In this coding challenge, I\u2019m going to use superformulas to create a superellipse in p5.js. This is part 1 of a multi-part series on superformulas, superellipses and supershapes.",
+  "description": "In this coding challenge, I’m going to use superformulas to create a superellipse in p5.js. This is part 1 of a multi-part series on superformulas, superellipses and supershapes.",
   "videoNumber": "19",
   "videoId": "z86cx2A4_3E",
   "date": "2016-06-03",
   "languages": ["p5.js"],
   "topics": ["supershapes", "maths"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "23-2d-supershapes",
+    "25-spherical-geometry",
+    "26-3d-supershapes",
+    "112-3d-rendering-with-rotation-and-projection"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction to the Coding Challenge" },
     { "time": "0:56", "title": "Whiteboard discussion of polar coordinates" },
@@ -35,8 +40,7 @@
       "image": "superellipse.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Hk-1AMTgN",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_019_Superellipse/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_019_Superellipse"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/019_Superellipse"
       }
     }
   ],
@@ -45,14 +49,39 @@
       "title": "References",
       "links": [
         {
+          "icon": "🌐",
           "title": "Superellipse on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Superellipse",
           "description": "Wikipedia Entry on Superellipses"
         },
         {
+          "icon": "🔗",
           "title": "Supershapes",
           "url": "http://paulbourke.net/geometry/supershape/",
           "description": "Supershapes (Superformula) by Paul Bourke"
+        },
+        {
+          "icon": "📕",
+          "title": "Nature of Code class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Supershape track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #41",
+          "url": "https://youtu.be/1Yo_AYzxA-o?t=7132s",
+          "description": "Live Stream with GitHub Pages, 3D Fractal Trees and Superellipse"
         }
       ]
     }

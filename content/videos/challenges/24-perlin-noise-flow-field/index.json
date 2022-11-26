@@ -10,7 +10,7 @@
         "arrays"
     ],
     "canContribute": true,
-    "relatedChallenges": [],
+    "relatedChallenges": ["11-3d-terrain-generation-with-perlin-noise", "132-fluid-simulation", "c4-worley-noise"],
     "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "0:35", "title": "Two dimensional perlin noise" },
@@ -27,7 +27,7 @@
         { "time": "17:34", "title": "Have particles be affected by vectors" },
         { "time": "18:34", "title": "Flowfield array" },
         { "time": "21:00", "title": "Follow()" },
-        { "time": "22:56", "title": "Set magnitute of vectors" },
+        { "time": "22:56", "title": "Set magnitude of vectors" },
         { "time": "26:42", "title": "Add alpha" },
         { "time": "27:36", "title": "Store particle's previous position" },
         { "time": "27:56", "title": "Draw line between current and previous position" }
@@ -36,7 +36,7 @@
         {
             "title": "Perlin Noise flow field",
             "description": "This sketch demonstrates how to use Perlin noise to create a 2D flow.",
-            "images": "flow.jpg",
+            "image": "flow.jpg",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/vDcIAbfg7",
                 "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/024_PerlinNoiseFlowField/Processing/CC_024_PerlinNoiseFlowField"
@@ -53,6 +53,23 @@
                     "url": "https://p5js.org/reference/#/p5/noise",
                     "description": "p5.js webpage with information and documentation about noise()."
                 }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "My videos about Perlin Noise",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+                    "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #46",
+                    "url": "https://youtu.be/sor1nwNIP9A",
+                    "description": "Live Stream with Perlin Noise and Flow Fields"
+                  }
             ]
         }
     ]

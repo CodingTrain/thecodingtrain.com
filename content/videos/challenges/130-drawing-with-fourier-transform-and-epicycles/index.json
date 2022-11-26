@@ -1,0 +1,173 @@
+{
+    "title": "Drawing with Fourier Transform and Epicycles",
+    "description": "In this coding challenge, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform.",
+    "videoNumber": "130",
+    "videoId": "MY4luNgGfms",
+    "date": "2019-01-24",
+    "languages": ["JavaScript", "p5.js"],
+    "topics": [
+        "fourier transform square wave",
+        "discrete fourier transform",
+        "epicycles drawing"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["125-fourier-series"],
+    "timestamps": [],
+    "parts": [
+        {
+          "title": "Part 1 - Drawing with Fourier Transform and Epicycles",
+          "videoId": "MY4luNgGfms",
+          "timestamps": [
+            { "time": "0:00", "title": "Introducing today's topic: a Fourier transform drawing machine" },
+            { "time": "1:29", "title": "Fourier transform algorithm" },
+            { "time": "3:08", "title": "Signal processing" },
+            { "time": "5:49", "title": "Make a signal array" },
+            { "time": "12:09", "title": "Euler's formula" },
+            { "time": "15:34", "title": "Write the discrete fourier transform function" },
+            { "time": "21:50", "title": "What do we need for a circular epicycle?" },
+            { "time": "22:47", "title": "Calculate the amplitude, frequency, and phase" },
+            { "time": "26:30", "title": "Calculate amount of time to move per frame of animation" },
+            { "time": "29:44", "title": "Draw an arbitrary path for both x and y" },
+            { "time": "31:07", "title": "Write an epiCycles() function" },
+            { "time": "34:30", "title": "Have epiCycles() return a vector with an x and y" },
+            { "time": "38:59", "title": "Grab the path of the Coding Train logo" },
+            { "time": "41:38", "title": "Render the epiCycles by order of amplitude" },
+            { "time": "43:57", "title": "Conclusion and next steps" }
+          ]
+        },
+        {
+            "title": "Part 2 - Render a User-Drawn Path",
+            "videoId": "n9nfTxp_APM",
+            "timestamps": [
+                { "time": "0:00", "title": "Fourier Transform and Epicycles Part 2 - render a user-drawn path" },
+                { "time": "1:20", "title": "Create a state variable" },
+                { "time": "2:18", "title": "When the mouse is pressed, set the state as \"user\"" },
+                { "time": "4:18", "title": "Render points while the user is drawing" },
+                { "time": "6:48", "title": "Reset variables" },
+                { "time": "7:38", "title": "Fix offset" },
+                { "time": "8:38", "title": "Up next: have the inputs be complex numbers" }
+            ]
+          },
+          {
+            "title": "Part 3 - Complex Numbers",
+            "videoId": "7_vKzcgpfvU",
+            "timestamps": [
+                { "time": "0:00", "title": "Fourier Transform and Epicycles Part 3 - Complex Numbers" },
+                { "time": "4:44", "title": "Complex numbers" },
+                { "time": "6:06", "title": "Let's Code!" },
+                { "time": "8:00", "title": "Create a Complex number class" },
+                { "time": "13:37", "title": "Use \"FOIL\" to multiply complex numbers" },
+                { "time": "17:13", "title": "Write an add function to add the real components / imaginary components together" },
+                { "time": "22:02", "title": "Add a user-drawn path" },
+                { "time": "24:27", "title": "Conclusion and suggestions for variations" }
+            ]
+          }
+    ],
+    "codeExamples": [
+        {
+            "title": "Fourier Transform",
+            "description": "This sketch uses a Discrete Fourier Transform algorithm to draw the Coding Train logo.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/RfrZibjfL",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_3/Processing/CC_130_Fourier_Transform/CC_130_Fourier_Transform.pde"
+            }
+        },
+        {
+            "title": "Fourier Transform - user-drawn path",
+            "description": "This sketch renders a mouse-drawn path using a Discrete Fourier Transform algorithm.",
+            "image": "img1.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/jawHqwfda"
+            }
+        },
+        {
+            "title": "Fourier Transform - complex numbers",
+            "description": "This sketch renders a path using a DFT algorithm with complex numbers.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ldBlISrsQ",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_3/Processing/CC_130_Fourier_Transform/Complex_Number.pde"
+            }
+        },
+        {
+            "title": "Fourier Transform - user-drawn path with complex numbers",
+            "description": "This sketch renders a mouse-drawn path using a DFT algorithm with complex numbers.",
+            "image": "img1.jpg",
+            "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/sPvZsg2w4",
+            "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_3/Processing/CC_130_Fourier_Transform/CC_130_Fourier_Transform.pde"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🚂",
+                    "title": "Coding Train Logo",
+                    "url": "https://twitter.com/TomFevrier/status/1079437780466520065",
+                    "description": "Tom Fevrier Tweet with Coding Train logo"
+                },
+                {
+                    "icon": "💾",
+                    "title": "p5.FFT",
+                    "url": "https://p5js.org/reference/#/p5.FFT",
+                    "description": "p5.js documentation about the Fast Fourier Treansform algorithm."
+                },
+                {
+                    "icon": "💾",
+                    "title": "FFT on Algorithm Archive",
+                    "url": "https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html",
+                    "description": "Article about the Fourier Transform."
+                },
+                {
+                    "icon": "🗄",
+                    "title": "Discrete Fourier transform on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Discrete_Fourier_transform",
+                    "description": "Wikipedia page with information and resources about the Discrete Fourier Transform."
+                },
+                {
+                    "icon": "🗄",
+                    "title": "Complex Number on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Complex_number",
+                    "description": "Wikipedia page with information and resources about complex numbers."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "But what is the Fourier Transform? A visual introduction",
+                    "url": "https://youtu.be/spUNpyF58BY",
+                    "description": "3Blue1Brown video about Fourier series."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Fourier Analysis For The Rest Of Us",
+                    "url": "https://youtu.be/2hfoX51f6sg",
+                    "description": "GoldPlatedGoof video about Foureir analysis."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Epicycles, complex Fourier series and Homer Simpson's orbit",
+                    "url": "https://youtu.be/qS4H6PEcCCA",
+                    "description": "Mathologer video about epicycles and complex Fourier series."
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Code Train Live 165",
+                    "url": "https://youtu.be/0b3R8oWffkw?t=2657s",
+                    "description": "Live Stream with Drawing with Fourier Transform"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Code Train Live 166",
+                    "url": "https://youtu.be/-VfWfi7Goik?t=217s",
+                    "description": "Live Stream: Finish Up Fourier + ml5 KNN"
+                }
+            ]
+        }
+    ]
+}

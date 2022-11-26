@@ -1,0 +1,81 @@
+{
+    "title": "Making a GIF Loop in Processing",
+    "description": "In this tutorial, I demonstrate how to render a sketch into a perfect, looping GIF with Processing (Java).",
+    "videoNumber": "135",
+    "videoId": "nBKwCCtWlUg",
+    "date": "2019-02-19",
+    "languages": ["Processing"],
+    "topics": [
+        "GIF loop",
+        "EZGIF"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["136-polar-noise-loops", "137-4d-opensimplex-noise-loop"],
+    "timestamps": [
+        { "time": "0:00", "title": "Introducing today's topic: GIF loops" },
+        { "time": "3:04", "title": "Core idea of loop" },
+        { "time": "5:29", "title": "Sketch on paper first" },
+        { "time": "6:28", "title": "Easing functions" },
+        { "time": "9:19", "title": "Use saveFrame() to save images to a folder" },
+        { "time": "13:00", "title": "Upload images to EZGIF and stitch images together" },
+        { "time": "15:50", "title": "Create a record variable" }
+    ],
+    "codeExamples": [
+        {
+            "title": "GIF Loop",
+            "description": "This sketch demonstates how to create a looping GIF.",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/Hk6RTHBCl",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/135_GIF_Loop/Processing/CC_135_GIF_Loop"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🖌",
+                    "title": "Daily Art",
+                    "url": "http://sasj.tumblr.com/",
+                    "description": "Saskia Freeke tumblr site with daily art."
+                },
+                {
+                    "icon": "🐝",
+                    "title": "Bees & Bombs",
+                    "url": "https://beesandbombs.tumblr.com/",
+                    "description": "Bees & Bombs tumblr site."
+                },
+                {
+                    "icon": "💾",
+                    "title": "Loop Templates",
+                    "url": "https://github.com/golanlevin/LoopTemplates",
+                    "description": "Golan Levin's Github respository with templates for generating animated seamless loops in Processing, p5.js, and Processing.py."
+                },
+                {
+                    "icon": "🖌",
+                    "title": "Easing Function",
+                    "url": "https://easings.net/",
+                    "description": "Webpage with information about easing functions."
+                },
+                {
+                    "icon": "🖌",
+                    "title": "EZGIF",
+                    "url": "https://ezgif.com/",
+                    "description": "Ezgif.com is a simple online GIF maker and toolset for basic animated GIF editing."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+              {
+                "icon": "🔴",
+                "title": "Coding Train Live 168",
+                "url": "https://youtu.be/_xa87yl0nd4?t=6080s",
+                "description": "Live Stream with Mathematical Hearts + GIF Loops"
+              }
+            ]
+          }
+    ]
+}

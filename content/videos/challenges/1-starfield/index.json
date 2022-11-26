@@ -1,13 +1,13 @@
 {
   "title": "Starfield in Processing",
-  "description": "This is the first in a new series of videos. In this video I attempt to program a \u201cstar field\u201d or \u201cwarp speed\u201d visualization in Processing.",
+  "description": "This is the first in a new series of videos. In this video I attempt to program a \"star field\" or \"warp speed\" visualization in Processing.",
   "videoNumber": "1",
   "videoId": "17WoOqgXsRM",
   "date": "2016-04-12",
   "languages": ["Processing"],
-  "topics": ["space"],
+  "topics": ["space", "starfield"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["27-fireworks", "46-asteroids"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a 10 minute coding challenge" },
     { "time": "0:59", "title": "Let's create a star class" },
@@ -40,6 +40,17 @@
           "title": "Inspiration",
           "url": "https://cs.brynmawr.edu/gxk2013/examples/transformations/starfield/",
           "description": "Challenge based on code from the CS Department of Bryn Mawr College"
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #30",
+          "url": "https://youtu.be/JljMBn69fZM?t=760s",
+          "description": "Live Stream with Creating Real-Time Shared Canvas with WebSockets and Starfield"
         }
       ]
     }

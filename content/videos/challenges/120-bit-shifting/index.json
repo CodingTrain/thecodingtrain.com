@@ -8,7 +8,16 @@
   "topics": ["Binary Numbers", "math"],
   "canContribute": true,
   "relatedChallenges": ["119-binary-to-decimal-conversion", "117-seven-segment-display"],
-  "timestamps": [],
+  "timestamps": [
+      { "time": "0:00", "title": "Hello!" },
+      { "time": "1:07", "title": "What is bit-shifting?" },
+      { "time": "4:23", "title": "Let's start implementing" },
+      { "time": "6:49", "title": "A function to shift bits" },
+      { "time": "7:55", "title": "implementing decimal to binary conversion" },
+      { "time": "14:46", "title": "We can now bit shift!" },
+      { "time": "15:51", "title": "Inverting the colors" },
+      { "time": "16:59", "title": "Thank you for watching!" }
+  ],
   "codeExamples": [
     {
       "title": "Bit Shifting",
@@ -35,6 +44,17 @@
           "title": "The Modulo Operator with Golan Levin",
           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
           "description": "Golan Levin explains the the modulo operator and its applications in creative codiing"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 157",
+          "url": "https://youtu.be/jSzmac4Rri8?t=6520s",
+          "description": "Livestream with Binary Numbers & Bit Shifting"
         }
       ]
     }

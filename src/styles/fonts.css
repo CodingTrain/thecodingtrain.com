@@ -2,55 +2,107 @@
  * TODO: These files should change when we buy the real font files
  */
 
+/* GT Maru */
+
 @font-face {
   font-family: "GT Maru";
-  src: url("../fonts/GT-Maru-Regular.woff2") format("woff2");
+  src: url("../fonts/GT-Maru-Regular.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Regular.woff") format("woff");
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru";
-  src: url("../fonts/GT-Maru-Bold.woff2") format("woff2");
+  src: url("../fonts/GT-Maru-Regular-Oblique.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Regular-Oblique.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Maru";
+  src: url("../fonts/GT-Maru-Bold.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Bold.woff") format("woff");
   font-weight: bold;
   font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru";
-  src: url("../fonts/GT-Maru-Black.woff2") format("woff2");
+  src: url("../fonts/GT-Maru-Bold-Oblique.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Bold-Oblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Maru";
+  src: url("../fonts/GT-Maru-Black.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Black.woff") format("woff");
   font-weight: 900;
   font-display: swap;
 }
 
 @font-face {
+  font-family: "GT Maru";
+  src: url("../fonts/GT-Maru-Black-Oblique.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Black-Oblique.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* GT Maru Mega */
+
+@font-face {
   font-family: "GT Maru Mega";
-  src: url("../fonts/GT-Maru-Mega.woff2") format("woff2");
+  src: url("../fonts/GT-Maru-Mega-VF.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Mega-Midi.woff") format("woff");
+  font-display: swap;
+}
+
+/* GT Maru Mono */
+
+@font-face {
+  font-family: "GT Maru Mono";
+  src: url("../fonts/GT-Maru-Mono-Regular.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Mono-Regular.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Mono";
-  src: url("../fonts/GT-Maru-Mono.woff2") format("woff2");
+  src: url("../fonts/GT-Maru-Mono-Regular-Oblique.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Mono-Regular-Oblique.woff") format("woff");
+  font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Mono";
-  src: url("../fonts/GT-Maru-Mono-Bold.woff2") format("woff2");
+  src: url("../fonts/GT-Maru-Mono-Bold.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Mono-Bold.woff") format("woff");
   font-weight: bold;
   font-display: swap;
 }
 
 @font-face {
   font-family: "GT Maru Mono";
-  src: url("../fonts/GT-Maru-Mono-Black.woff2") format("woff2");
-  font-weight: 900;
+  src: url("../fonts/GT-Maru-Mono-Bold-Oblique.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Mono-Bold-Oblique.woff") format("woff");
+  font-style: italic;
+  font-weight: bold;
   font-display: swap;
 }
 
+/* GT Maru Emoji */
+
 @font-face {
   font-family: "GT Maru Emoji";
-  src: url("../fonts/GT-Maru-Emoji-Black-and-White.woff2") format("woff2");
+  src: url("../fonts/GT-Maru-Emoji-Black-and-White.woff2") format("woff2"),
+    url("../fonts/GT-Maru-Emoji-Black-and-White.woff") format("woff");
   font-display: swap;
 }

@@ -22,7 +22,9 @@ const defaultState = {
   image: '',
   authorName: '',
   authorUrl: '',
-  authorEmail: ''
+  authorEmail: '',
+  authorTwitter: '',
+  authorInstagram: ''
 };
 
 const schema = object({
@@ -32,7 +34,9 @@ const schema = object({
   image: string().required(),
   authorName: string().required().label('Your name'),
   authorUrl: string().label('Your website').url(),
-  authorEmail: string().label('Your email')
+  authorEmail: string().label('Your email'),
+  authorTwitter: string().label('Your email'),
+  authorInstagram: string().label('Your email')
 });
 
 const PassengerShowcaseForm = () => {
@@ -113,12 +117,12 @@ const PassengerShowcaseForm = () => {
           setState(defaultState);
         } else {
           setError(
-            'Something went wrong submitting your data. Please try again.'
+            'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
           );
         }
       } catch (e) {
         setError(
-          'Something went wrong submitting your data. Please try again.'
+          'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
         );
       }
     };
@@ -188,9 +192,10 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            A JPG or PNG image to be shown in the passenger showcase. The
-            image should be maximum 800 pixels wide and 500 kb in size and should visually represent your
-            work.  The image will be displayed with a 16:9 aspect ratio.
+            A JPG or PNG image to be shown in the passenger showcase. The image
+            should be maximum 800 pixels wide and 500 kb in size and should
+            visually represent your work. The image will be displayed with a
+            16:9 aspect ratio.
           </span>
         </label>
         <label>
@@ -232,6 +237,32 @@ const PassengerShowcaseForm = () => {
             Git repository.
           </span>
         </label>
+        <label>
+          Twitter
+          <input
+            type="text"
+            name="authorTwitter"
+            value={state.authorTwitter}
+            onChange={onChange}
+          />
+          <span>
+            <em>Optional</em>. We are sharing the showcase on Twitter! Please
+            leave your handle if you'd like to be tagged.
+          </span>
+        </label>
+        <label>
+          Instagram
+          <input
+            type="text"
+            name="authorInstagram"
+            value={state.authorInstagram}
+            onChange={onChange}
+          />
+          <span>
+            <em>Optional</em>. We are sharing the showcase on Instagram! Please
+            leave your handle if you'd like to be tagged.
+          </span>
+        </label>
         {error && <div className={css.error}>{error}</div>}
         {submitted && (
           <div className={css.submitted}>
@@ -239,7 +270,12 @@ const PassengerShowcaseForm = () => {
             the page in order to upload another submission.
           </div>
         )}
-        <Button onClick={onSubmit} variant="purple" disabled={submitted}>
+        <Button
+          className={css.submitBtn}
+          onClick={onSubmit}
+          variant="purple"
+          disabled={submitted}
+          rainbow>
           Submit
         </Button>
       </form>

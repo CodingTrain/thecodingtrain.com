@@ -7,16 +7,10 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["errors", "debugging", "basics"],
   "canContribute": false,
-  "timestamps": [],
-  "codeExamples": [
-    {
-      "title": "Code Comments",
-      "description": "Demonstration of Code Comments",
-      "image": "",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/H1mj3SwD7"
-      }
-    }
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:28", "title": "Error Messages" }
   ],
+  "codeExamples": [],
   "groupLinks": []
 }

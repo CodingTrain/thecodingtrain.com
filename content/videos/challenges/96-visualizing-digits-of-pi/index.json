@@ -1,0 +1,110 @@
+{
+    "title": "Visualizing the Digits of Pi",
+    "description": "In celebration of Pi Day, Let's attempt to \u201cvisualize\u201d the first one million digits of Pi.",
+    "videoNumber": "96",
+    "videoId": "WEd_UIKG-uc",
+    "date": "2018-03-19",
+    "languages": ["Java", "Processing"],
+    "topics": [
+        "pi day",
+        "pi visualization",
+        "pi"
+    ],
+    "canContribute": true,
+    "relatedChallenges": [
+        "95-approximating-the-value-of-pi",
+        "140-pi-leibniz",
+        "156-peeking-inside-pi",
+        "161-estimating-pi-from-random-numbers",
+        "169-pi-in-the-sky"
+    ],
+    "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:05", "title": "Let's get started! Loading the digits of Pi" },
+        { "time": "3:01", "title": "Converting the string to an array of integers" },
+        { "time": "4:59", "title": "Visualizing based on frequency of a digit" },
+        { "time": "8:07", "title": "Putting them in path of a circle" },
+        { "time": "9:26", "title": "Visualizing based on the next digits" },
+        { "time": "12:23", "title": "Debugging" },
+        { "time": "13:18", "title": "The point of this video" },
+        { "time": "13:40", "title": "Make your version, and share with us!" },
+        { "time": "14:11", "title": "Some randomness" },
+        { "time": "15:08", "title": "You, the viewer of this video!" }
+    ],
+    "codeExamples": [
+        {
+            "title": "Visualizing Digits of Pi",
+            "description": "A visualization of the first million digits of Pi",
+            "image": "visualizing-digits-of-pi.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/FBIJy_-2Y",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/096_Visualizing_the_Digits_of_Pi/Processing"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "📰",
+                    "title": "Washington Post Article",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2015/03/14/10-stunning-images-show-the-beauty-hidden-in-pi/?utm_term=.e232a2caa3ed",
+                    "description": "Article showing various visualization of the digits of Pi"
+                },
+                {
+                    "icon": "🎨",
+                    "title": "Pi Artwork",
+                    "url": "http://mkweb.bcgsc.ca/pi/art/",
+                    "description": "Artworks based on Pi by Martin Krzywinski"
+                },
+                {
+                    "icon": "🥧",
+                    "title": "1 Billion Digits of Pi",
+                    "url": "https://stuff.mit.edu/afs/sipb/contrib/pi/",
+                    "description": "First one billion digits of Pi"
+                },
+                {
+                    "icon": "🥟",
+                    "title": "Million Pi Digits",
+                    "url": "http://www.piday.org/million/",
+                    "description": "First on million digits of Pi"
+                },
+                {
+                    "icon": "🖋️",
+                    "title": "Pi Day Code",
+                    "url": "https://github.com/CodingTrain/PiDay",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "📔",
+                    "title": "Polar to Cartesian",
+                    "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
+                    "description": "https://www.youtube.com/watch?v=O5wjXoFrau4"
+                },
+                {
+                    "icon": "📽️",
+                    "title": "Pi is Beautiful",
+                    "url": "https://youtu.be/NPoj8lk9Fo4",
+                    "description": "Numberphile video on the beauty of Pi"
+                },
+                {
+                    "icon": "⚙️",
+                    "title": "Learning Processing",
+                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi",
+                    "description": "Coding Train playlist of Processing tutorial videos for beginners"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream Archive #126.1",
+                    "url": "https://youtu.be/BOk4Dl-gw14?t=5638s",
+                    "description": "Happy Pi Day! - Part 1"
+                }
+            ]
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
-    "title": "Maze with Ray casting in Processing",
-    "author": {
-        "name": "Adrian Carrillo",
-        "url": "https://github.com/oropher"
-    },
-    "source": "https://github.com/oropher/MazeGame"
+  "title": "Maze with Ray casting in Processing",
+  "url": "https://github.com/oropher/MazeGame",
+  "author": {
+    "name": "Adrian Carrillo",
+    "url": "https://github.com/oropher"
+  }
 }

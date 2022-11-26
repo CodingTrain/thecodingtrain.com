@@ -13,6 +13,7 @@
     "point clouds"
   ],
   "canContribute": true,
+  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "22-julia-set", "25-spherical-geometry"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing Today's Topic" },
     { "time": "1:31", "title": "The Mandelbrot set explained" },
@@ -109,15 +110,9 @@
         },
         {
           "icon": "🎥",
-          "title": "Mandelbrot Set with p5.js",
-          "url": "https://thecodingtrain.com/CodingChallenges/021-mandelbrot-p5",
-          "description": "Coding Train video on the Mandelbrot set in p5.js"
-        },
-        {
-          "icon": "🎥",
-          "title": "Spherical Geometry",
-          "url": "https://thecodingtrain.com/CodingChallenges/025-spheregeometry",
-          "description": "Coding Train video on spherical geometry"
+          "title": "Supershape track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
         }
       ]
     }

@@ -7,7 +7,11 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics"],
   "canContribute": false,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:44", "title": "Disabling Code Using //" },
+    { "time": "4:15", "title": "Crediting Your Sources" }
+  ],
   "codeExamples": [
     {
       "title": "Code Comments",

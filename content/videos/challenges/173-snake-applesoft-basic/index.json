@@ -7,7 +7,7 @@
   "languages": ["BASIC"],
   "topics": ["games", "1980s", "AppleII"],
   "canContribute": true,
-  "relatedChallenges": ["3-snake-game"],
+  "relatedChallenges": ["3-snake-game", "174-graphics-applesoft-basic", "175-3D-cube-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Hello from 1981!" },
     { "time": "0:35", "title": "Opening Theme" },
@@ -79,7 +79,7 @@
           "icon": "🍎",
           "title": "Basic Programming Reference Manual",
           "url": "https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Software/Languages/Applesoft%20BASIC/Manuals/Applesoft%20II%20BASIC%20Programming%20Reference%20Manual.pdf",
-          "description": "PDF of originan Apple II manual and reference for AppleSoft BASIC."
+          "description": "PDF of original Apple II manual and reference for AppleSoft BASIC."
         },
         {
           "icon": "🪧",
@@ -109,6 +109,23 @@
           "title": "MicroM8",
           "url": "https://paleotronic.com/software/microm8/",
           "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Coding Together Track",
+          "url": "/tracks/coding-together-apple-ii",
+          "description": "Coding Together with Apple ii track"
+        },
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
         }
       ]
     }

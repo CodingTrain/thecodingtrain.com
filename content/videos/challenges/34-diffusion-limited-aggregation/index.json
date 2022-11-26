@@ -1,0 +1,85 @@
+{
+  "title": "Diffusion-Limited Aggregation",
+  "description": "In this coding challenge, I explore the generative algorithm \"Diffusion-Limited Aggregation\". The pattern is generated from random walkers clustering around a seed (or set of seed) point(s).",
+  "videoNumber": "34",
+  "videoId": "Cl_Gjj80gPE",
+  "date": "2016-08-18",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Paul Bourke", "Diffusion-Limited Aggregation"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "15-object-oriented-fractal-trees",
+    "52-random-walker",
+    "127-brownian-tree-snowflake"
+    ],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to another Coding Challenge" },
+    { "time": "1:10", "title": "The DFA algorithm" },
+    { "time": "3:36", "title": "Create a tree array" },
+    { "time": "4:30", "title": "Create a random walker" },
+    { "time": "8:44", "title": "Release mulitple walkers at a time" },
+    { "time": "10:11", "title": "Create a Walker object" },
+    { "time": "12:39", "title": "Create an array of walkers" },
+    { "time": "13:14", "title": "Use optional arguments to initialize x and y" },
+    { "time": "15:30", "title": "Display the objects in the tree and walker arrays" },
+    { "time": "17:12", "title": "Push a walker to the tree array when it gets \"stuck\"" },
+    { "time": "19:18", "title": "Change the color of the walkers that are stuck" },
+    { "time": "19:47", "title": "Move the walkers multiple times per frame" },
+    { "time": "21:37", "title": "Eliminate the square root calculation to improve the rendering speed" },
+    { "time": "26:17", "title": "Add a random point along the edges" },
+    { "time": "28:34", "title": "Add fewer walkers with a large number of iterations" },
+    { "time": "29:15", "title": "Try different patterns" },
+    { "time": "32:39", "title": "Different creative possibilities" },
+    { "time": "36:00", "title": "Let each walker have its own radius" },
+    { "time": "41:45", "title": "Shrink the radius for each new walker" },
+    { "time": "43:30", "title": "Add a terminal condition" },
+    { "time": "44:06", "title": "Map the hue to the radius of each walker" },
+    { "time": "45:13", "title": "Thanks for watching!" },
+    { "time": "46:08", "title": "Bonus addendum: improvements to code" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Diffusion Limited Aggregation",
+      "description": "My visualization of Diffusion Limited Aggregation",
+      "image": "dfa.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/034_DLA/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "Atom Live Server Package",
+          "url": "https://atom.io/packages/atom-live-server",
+          "description": "Link to the atom-live-server package."
+        },
+        {
+          "icon": "🔗",
+          "title": "Diffusion-Limited Aggregation on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diffusion-limited_aggregation",
+          "description": "Wikipedia page with background and references on diffusion-limited aggregation."
+        },
+        {
+          "icon": "📚",
+          "title": "DLA reference",
+          "url": "http://paulbourke.net/fractals/dla/",
+          "description": "Article about diffusion limited aggregation."
+        }
+      ]
+    },
+    {
+      "title": "Livestream Archive",
+      "links": [{
+        "icon": "🔴",
+        "title": "Livestream #56",
+        "url": "https://youtu.be/2S0J5iiQ0nw",
+        "description": "Livestream with Poisson-disc-sampling and DLA."
+      }]
+    }
+  ]
+}

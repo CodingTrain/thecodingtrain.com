@@ -1,0 +1,175 @@
+{
+    "title": "Kinematics",
+    "description": "In this multi-part coding challenge, I demonstrate how to implement kinematics in Processing (Java).",
+    "videoNumber": "64",
+    "videoId": "xXjRlEr7AGk",
+    "date": "2017-03-16",
+    "languages": ["Processing"],
+    "topics": [
+        "forward kinematics",
+        "inverse kinematics",
+        "tentacle animation",
+        "linked lists",
+        "arrays"
+    ],
+    "canContribute": true,
+    "relatedChallenges": ["3-snake-game", "111-animated-sprites"],
+    "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Forward Kinematics",
+      "videoId": "xXjRlEr7AGk",
+      "timestamps": [
+        { "time": "0:00", "title": "Introducing today's topics: Forward Kinematics" },
+        { "time": "3:17", "title": "Create a Segment class" },
+        { "time": "9:30", "title": "Add a parent" },
+        { "time": "10:24", "title": "Write a second Segment constructor" },
+        { "time": "13:08", "title": "Connect the segments" },
+        { "time": "15:30", "title": "Write a wiggle function" },
+        { "time": "19:01", "title": "Update the segments own angle relative to parent's angle" },
+        { "time": "20:01", "title": "Use noise to change the angle" },
+        { "time": "21:18", "title": "Add a linked list" },
+        { "time": "24:05", "title": "Add a child" },
+        { "time": "29:00", "title": "Use a sine wave to adjust the angle" },
+        { "time": "33:26", "title": "Adjust the length of the segments" },
+        { "time": "34:06", "title": "Conclusion and next steps" }
+      ]
+    },
+    {
+      "title": "Part 2 - Inverse Kinematics",
+      "videoId": "hbgDqyy8bIw",
+      "timestamps": [
+        { "time": "0:00", "title": "What is the difference between forward and inverse kinematics?" },
+        { "time": "3:15", "title": "Let's Code!" },
+        { "time": "4:15", "title": "Segment class" },
+        { "time": "8:46", "title": "Have the segment follow the mouse" },
+        { "time": "11:12", "title": "Use heading() to find the angle" },
+        { "time": "13:17", "title": "Move the segment to the mouse" },
+        { "time": "20:30", "title": "Add a connected segment" },
+        { "time": "22:05", "title": "Segment 2 follows the mouse" },
+        { "time": "23:15", "title": "Add a linked list" },
+        { "time": "25:52", "title": "The last segement is the \"tentacle\"" },
+        { "time": "27:28", "title": "Add a child" },
+        { "time": "29:00", "title": "Overload the follow function" },
+        { "time": "34:00", "title": "Map the index to the strokeWeight of each segment" },
+        { "time": "36:00", "title": "Conclusion and suggestions for variations" }
+      ]
+    },
+    {
+        "title": "Part 3 - Fixed Point",
+        "videoId": "RTc6i-7N3ms",
+        "timestamps": [
+          { "time": "0:00", "title": "Expand the inverse kinematics example" },
+          { "time": "3:34", "title": "Create an array of tentacles" },
+          { "time": "5:40", "title": "Have last tentacle in the array follow the mouse" },
+          { "time": "6:38", "title": "Iterate through the array backwards" },
+          { "time": "9:30", "title": "Set the first tentacle at the base" },
+          { "time": "12:01", "title": "Connect the tentacles" },
+          { "time": "13:50", "title": "Conclusion and next steps" }
+        ]
+      },
+      {
+        "title": "Part 4 - Multiple Tentacles",
+        "videoId": "10st01Z0jxc",
+        "timestamps": [
+          { "time": "0:00", "title": "Refactoring the Code" },
+          { "time": "1:05", "title": "Create a Tentacle class" },
+          { "time": "4:05", "title": "Use Rename to change the name of the array to segments" },
+          { "time": "5:29", "title": "Add tentacles around a circle" },
+          { "time": "8:55", "title": "Add an \"apple\"" },
+          { "time": "10:55", "title": "Have tentacles follow the apple" },
+          { "time": "13:18", "title": "Have two tentacles \"play catch\" with the apple" },
+          { "time": "14:17", "title": "See you next time!" }
+        ]
+      }
+  ],
+    "codeExamples": [
+        {
+            "title": "Kinematics - Part 1",
+            "description": "This sketch demonstrates how to implement forward kinematics.",
+            "image": "img1.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/91Ys1PU7B",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.1_ForwardKinematics/Processing"
+            }
+        },
+        {
+            "title": "Kinematics - Part 2",
+            "description": "This sketch demonstrates how to implement inverse kinematics.",
+            "image": "img2.jpg",
+            "urls": {
+                "p5":  "https://editor.p5js.org/codingtrain/sketches/CvGJFQPLa",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.2_InverseKinematics/Processing/CC_064_2_InverseKinematics"
+            }
+        },
+        {
+            "title": "Kinematics - Part 3",
+            "description": "This sketch shows to to fix the segments to a base.",
+            "image": "img3.jpg",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.3_InverseKinematics_fixed/Processing/CC_064_3_InverseKinematics_fixed"
+            }
+        },
+        {
+            "title": "Kinematics - Part 4",
+            "description": "This sketch refactors the code to create an array of \"tentacles\".",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/bNPjMWlwV",
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/064.4_InverseKinematics_array/Processing/CC_064_4_InverseKinematics_array"
+            }
+        }
+    ],
+    "groupLinks": [
+        {
+            "title": "References",
+            "links": [
+                {
+                    "icon": "🗄",
+                    "title": "Kinematics on Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Kinematics",
+                    "description": "Wikipedia page with information and resources about kinematics."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [
+                {
+                    "icon": "🎥",
+                    "title": "Polar Coordinates",
+                    "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+                    "description": "Tutorial from The Nature of Code on Polar Coordinates and Trigonometry."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Interactive Fish Aquarium Desktop Wallpaper",
+                    "url": "https://youtu.be/Inpo9tpUMwE",
+                    "description": "Cute and swift little pink fishes float around your desktop in this entertainingly interactive and smoothly animated wallpaper."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "Coding Math on Youtube",
+                    "url": "https://www.youtube.com/user/codingmath",
+                    "description": "Youtube channel for Coding Math"
+                }
+            ]
+        }, 
+        {
+            "title": "Live Stream Archives",
+            "links": [{
+                    "icon": "🔴",
+                    "title": "Live Stream #85",
+                    "url": "https://youtu.be/5itOWkmIarg",
+                    "description": "Live Stream with Forward and Inverse Kinematics"
+                },
+                {
+                    "icon": "🔴",
+                    "title": "Live Stream #86",
+                    "url": "https://youtu.be/xtFu66DZrBw",
+                    "description": "Live Stream with  More Inverse Kinematics + Texturing Cloth SimulationGenerator"
+                }
+            ]
+        }
+    ]
+}

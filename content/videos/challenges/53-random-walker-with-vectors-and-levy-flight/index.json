@@ -1,6 +1,6 @@
 {
-  "title": "Random Walker with Vectors and L\u00e9vy Flight",
-  "description": "In this coding challenge, I simulate a \u201crandom walk\u201d with vectors in p5.js, varying the distance of each step size. This is known as a \u201cL\u00e9vy Flight\u201d (named after french mathematician Paul L\u00e9vy.)",
+  "title": "Random Walker with Vectors and Lévy Flight",
+  "description": "In this coding challenge, I simulate a \"random walk\" with vectors in p5.js, varying the distance of each step size. This is known as a \"Lévy Flight\" (named after french mathematician Paul Lévy.)",
   "videoNumber": "53",
   "videoId": "bqF9w9TTfeo",
   "date": "2017-01-31",
@@ -13,11 +13,11 @@
     "probability"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["52-random-walker", "162-self-avoiding-walk"],
   "timestamps": [
     {
       "time": "0:00",
-      "title": "Introduction to the Coding Challenge - vectors and L\u00e9vy Flight"
+      "title": "Introduction to the Coding Challenge - vectors and Lévy Flight"
     },
     { "time": "2:05", "title": "Whiteboard - vectors" },
     {
@@ -33,13 +33,13 @@
       "time": "10:39",
       "title": "Playing with step size and adding in some lines"
     },
-    { "time": "13:26", "title": "Adding in L\u00e9vy Flight" },
+    { "time": "13:26", "title": "Adding in Lévy Flight" },
     { "time": "15:30", "title": "What can you do with this?" }
   ],
   "codeExamples": [
     {
-      "title": "Random Walker with Vectors and L\u00e9vy Flight",
-      "description": "Code examples for the Random Walker with Vectors and L\u00e9vy Flight Coding Challenge",
+      "title": "Random Walker with Vectors and Lévy Flight",
+      "description": "Code examples for the Random Walker with Vectors and Lévy Flight Coding Challenge",
       "image": "random_walker_with_vectors_and_levy_flight.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/L24X90MBH",
@@ -53,8 +53,8 @@
       "title": "References",
       "links": [
         {
-          "icon": "🏛",
-          "title": "L\u00e9vy Flight on Wikipedia",
+          "icon": "🌐",
+          "title": "Lévy Flight on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/L%C3%A9vy_flight",
           "description": ""
         },
@@ -69,6 +69,18 @@
           "title": "p5.Vector p5.js Reference",
           "url": "https://p5js.org/reference/#/p5/p5.Vector",
           "description": "The p5.js Reference page for the p5.Vector class."
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info", 
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        },
+        {
+          "icon": "📕",
+          "title": "The Nature of Code GitHub (Spring 2017)",
+          "url": "https://github.com/nature-of-code/NOC-S17-1-Physics-Animation",
+          "description": "Syllabus for Part 1 of Nature of Code: \"Physics and Animation\" at ITP Spring 2017"
         }
       ]
     },
@@ -79,13 +91,19 @@
           "icon": "📽",
           "title": "My Videos on Vectors",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc",
-          "description": ""
+          "description": "These video lessons accompany Chapter 1 (Vectors) from The Nature of Code book."
         },
         {
           "icon": "📽",
           "title": "Coding Challenge #52: Random Walker",
-          "url": "https://www.youtube.com/watch?v=l__fEY1xanY",
+          "url": "/challenges/52-random-walker",
           "description": "In this Coding Challenge, I implement a Random Walker using the p5.js library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #74",
+          "url": "https://youtu.be/mrAeK43YDgw",
+          "description": "Live Stream with Processing, p5.js and more Random Walks"
         }
       ]
     }

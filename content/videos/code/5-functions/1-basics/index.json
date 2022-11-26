@@ -7,12 +7,20 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "function"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "1:03", "title": "Calling a Function Versus Defining a Function" },
+    {"time": "3:10", "title": "Modularity and Reusability" },
+    {"time": "4:42", "title": "Code Example" },
+    {"time": "6:30", "title": "Syntax of a Function" },
+    {"time": "8:20", "title": "Function Naming" },
+    {"time": "9:55", "title": "Calling Your Function" }
+  ],
   "codeExamples": [
     {
       "title": "Functions",
       "description": "Demonstration of using functions to modularize code.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/omHOuJY1"
       }

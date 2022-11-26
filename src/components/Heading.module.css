@@ -16,12 +16,14 @@
     font-family: var(--maru-mega);
     font-size: var(--maru-mega-large);
     line-height: var(--maru-mega-large-line-height);
+    font-variation-settings: "opsz" 140;
     text-transform: uppercase;
   }
   &.h2 {
     font-family: var(--maru-mega);
     font-size: var(--maru-mega-medium);
     line-height: var(--maru-mega-medium-line-height);
+    font-variation-settings: "opsz" 100;
     text-transform: uppercase;
   }
 
@@ -29,6 +31,7 @@
     font-family: var(--maru-mega);
     font-size: var(--maru-mega-small);
     line-height: var(--maru-mega-small-line-height);
+    font-variation-settings: "opsz" 90;
     text-transform: uppercase;
   }
 

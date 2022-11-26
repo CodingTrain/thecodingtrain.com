@@ -7,16 +7,37 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "constructor", "classes", "objects"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    {"time": "0:00", "title": "Introduction" },
+    {"time": "2:56", "title": "Adding Parameters to the Constructor" }
+  ],
   "codeExamples": [
     {
       "title": "Constructor Arguments",
       "description": "Demonstration of creating bubbles with different parameters.",
-      "image": "",
+      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/HZG-lnyR"
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ES6 playlist",
+          "url": "/tracks/topics-in-native-javascript",
+          "description": "Video tutorials covering various features of modern JavaScript."
+        },
+        {
+          "icon": "🚂",
+          "title": "Function Parameters and Arguments",
+          "url": "/tracks/code-programming-with-p5-js/code/5-functions/2-arguments",
+          "description": "This video looks at re-usability and functions."
+        }
+      ]
+    }
+  ]
 }
