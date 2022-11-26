@@ -7,8 +7,8 @@ const Credit = ({ credit }) => {
   const { name, title, url } = credit;
 
   return (
-    <li className={css.link}>
-      <div className={css.bold}>{title}</div>
+    <li className={css.credit}>
+      <div className={css.creditTitle}>{title}</div>
       {name && (
         <div className={css.description}>
           <p>by {url ? <a href={url}>{name}</a> : name}</p>
