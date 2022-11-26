@@ -104,8 +104,6 @@ exports.createVideoRelatedNode = (
       ...part,
       timestamps: timestampsWithSeconds(part.timestamps ?? [])
     }));
-    const languages = cleanUp(data.languages ?? []);
-    const topics = cleanUp(data.topics ?? []);
 
     const languages = cleanUp(data.languages ?? []);
     const topics = cleanUp(data.topics ?? []);

@@ -74,15 +74,3 @@ export const randomElement = (array) => {
   const index = Math.floor(Math.random() * array.length);
   return array[index];
 };
-
-export const normalizedLanguages = (language) => {
-  const lowercasedLanguage = language.toLowerCase();
-  const languages = {
-    javascript: 'JavaScript',
-    processing: 'Processing'
-  };
-
-  return languages[lowercasedLanguage]
-    ? languages[lowercasedLanguage]
-    : lowercasedLanguage;
-};

@@ -13,7 +13,6 @@ import PlayButton from '../images/playbutton.svg';
 import { getReadableDate } from '../hooks';
 
 import * as css from './challenges.module.css';
-import { normalizedLanguages } from '../utils';
 
 const ChallengesPage = ({ data, pageContext, location }) => {
   const { language, topic } = pageContext;
