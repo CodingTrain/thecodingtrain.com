@@ -10,6 +10,11 @@
   border-left: var(--border);
   color: var(--gray-dark);
 
+  &:first-child {
+    margin-top: -2px;
+    border-top: var(--border);
+  }
+
   &:last-child {
     border-bottom: var(--border);
   }
