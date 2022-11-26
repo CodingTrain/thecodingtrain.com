@@ -375,6 +375,7 @@ Music from Epidemic Sound`;
         c.url ? `${c.title} by ${c.name} (${c.url})` : `${c.title} by ${c.name}`
       )
       .join('\n')}\n`;
+    description += `Music from Epidemic Sound\n`;
   } else {
     description += `\n${defaultCredits}\n`;
   }
