@@ -16,20 +16,38 @@
   ],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
-    { "time": "1:00", "title": "The On-Line Encyclopedia of Integer Sequences" },
+    {
+      "time": "1:00",
+      "title": "The On-Line Encyclopedia of Integer Sequences"
+    },
     { "time": "2:41", "title": "Toothpick number sequence" },
     { "time": "3:36", "title": "Start Coding!" },
     { "time": "4:00", "title": "Create a toothpick class" },
-    { "time": "4:38", "title": "Each toothpick will have a length, center point, and direction" },
+    {
+      "time": "4:38",
+      "title": "Each toothpick will have a length, center point, and direction"
+    },
     { "time": "7:20", "title": "Write a show() function" },
     { "time": "8:11", "title": "Create an array list of toothpicks" },
     { "time": "9:03", "title": "Add a toothpick at the center of the canvas" },
-    { "time": "10:50", "title": "Create an array list to hold the next generation of toothpicks" },
-    { "time": "14:00", "title": "Each toothpick checks whether its end points are free" },
+    {
+      "time": "10:50",
+      "title": "Create an array list to hold the next generation of toothpicks"
+    },
+    {
+      "time": "14:00",
+      "title": "Each toothpick checks whether its end points are free"
+    },
     { "time": "19:01", "title": "Add a new toothpick at a free point" },
     { "time": "19:55", "title": "Use mousePressed() to add toothpicks" },
-    { "time": "21:32", "title": "Optimize by only checking the new toothpicks" },
-    { "time": "23:38", "title": "Dynamically adjust the scale of the toothpicks" },
+    {
+      "time": "21:32",
+      "title": "Optimize by only checking the new toothpicks"
+    },
+    {
+      "time": "23:38",
+      "title": "Dynamically adjust the scale of the toothpicks"
+    },
     { "time": "27:39", "title": "Adjust strokeWeight as scale changes" },
     { "time": "29:15", "title": "Print the sequence to the console" },
     { "time": "30:09", "title": "Other toothpick variations" },
@@ -80,6 +98,16 @@
           "description": "Live Stream with Toothpicks and Fourier Series"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

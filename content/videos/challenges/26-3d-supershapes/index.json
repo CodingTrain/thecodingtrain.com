@@ -7,7 +7,12 @@
   "languages": ["Processing"],
   "topics": ["spherical coordinates", "3D supershape"],
   "canContribute": true,
-  "relatedChallenges": ["25-spherical-geometry","112-3d-rendering-with-rotation-and-projection", "113-4d-hypercube-aka-tesseract", "168-the-mandelbulb"],
+  "relatedChallenges": [
+    "25-spherical-geometry",
+    "112-3d-rendering-with-rotation-and-projection",
+    "113-4d-hypercube-aka-tesseract",
+    "168-the-mandelbulb"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:44", "title": "Reza Ali's generative art" },
@@ -78,6 +83,16 @@
           "description": "Live Stream with 3D Supershapes and Spherical Geometry"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

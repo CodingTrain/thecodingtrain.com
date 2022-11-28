@@ -12,7 +12,11 @@
     "associative arrays"
   ],
   "canContribute": true,
-  "relatedChallenges": ["98-quadtree", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
+  "relatedChallenges": [
+    "98-quadtree",
+    "104-linear-regression-with-tensorflowjs",
+    "105-polynomial-regression-with-tensorflowjs"
+  ],
   "timestamps": [],
   "parts": [
     {
@@ -149,6 +153,16 @@
           "description": "Session 3 of Intelligence and Learning"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

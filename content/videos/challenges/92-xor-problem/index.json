@@ -12,7 +12,11 @@
     "xor problem"
   ],
   "canContribute": true,
-  "relatedChallenges": ["104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs", "106-xor-problem-with-tensorflowjs"],
+  "relatedChallenges": [
+    "104-linear-regression-with-tensorflowjs",
+    "105-polynomial-regression-with-tensorflowjs",
+    "106-xor-problem-with-tensorflowjs"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:15", "title": "Machine learning" },
@@ -101,6 +105,16 @@
           "description": "Live Stream with More Neural Networks"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

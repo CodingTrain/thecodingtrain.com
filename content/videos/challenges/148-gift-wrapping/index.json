@@ -80,8 +80,18 @@
           "title": "Coding Train Live 180",
           "url": "https://youtu.be/rnJgb-mYPEI?t=8107s",
           "description": "Live Stream with Processing Java Library, Starting Computational Geometry Challenges"
-  }  
+        }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

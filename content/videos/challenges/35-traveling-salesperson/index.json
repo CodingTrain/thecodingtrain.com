@@ -17,7 +17,12 @@
     "arrays"
   ],
   "canContribute": true,
-  "relatedChallenges": ["29-smart-rockets-in-p5js", "51-a-pathfinding-algorithm", "69-evolutionary-steering-behaviors", "70-nearest-neighbors-recommendation-engine"],
+  "relatedChallenges": [
+    "29-smart-rockets-in-p5js",
+    "51-a-pathfinding-algorithm",
+    "69-evolutionary-steering-behaviors",
+    "70-nearest-neighbors-recommendation-engine"
+  ],
   "timestamps": [],
   "parts": [
     {
@@ -283,7 +288,8 @@
     },
     {
       "title": "Live Stream Archives",
-      "links": [{
+      "links": [
+        {
           "icon": "🔴",
           "title": "Livestream #57",
           "url": "https://youtu.be/r_SpBy9fQuo",
@@ -296,6 +302,16 @@
           "description": "Livestream with Traveling Sales Person with Genetic Algorithm"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

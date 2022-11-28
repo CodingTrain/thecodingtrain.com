@@ -212,7 +212,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🎥",
           "title": "Video of the Gameplay",
           "url": "https://youtu.be/l9eTOaNFwKQ",
@@ -243,6 +244,16 @@
           "description": "Live Stream with Perceptron Follow-up and Frogger Refactoring"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

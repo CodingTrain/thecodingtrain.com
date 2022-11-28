@@ -85,6 +85,17 @@ const video = {
             }
           }
         }
+      },
+      credits: {
+        type: 'array',
+        content: {
+          type: 'object',
+          properties: {
+            title: { isRequired: true, type: 'string' },
+            name: { isRequired: true, type: 'string' },
+            url: { type: 'string' }
+          }
+        }
       }
     }
   }

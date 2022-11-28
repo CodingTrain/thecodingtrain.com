@@ -9,17 +9,35 @@
   "canContribute": true,
   "relatedChallenges": ["22-julia-set", "140-pi-leibniz", "168-the-mandelbulb"],
   "timestamps": [
-    { "time": "0:00", "title": "Introducing today's coding challenge: the Mandelbrot set" },
+    {
+      "time": "0:00",
+      "title": "Introducing today's coding challenge: the Mandelbrot set"
+    },
     { "time": "1:22", "title": "What is a complex number?" },
     { "time": "6:06", "title": "Multiplying two complex numbers" },
-    { "time": "7:51", "title": "The Mandelbrot set is all of the complex numbers that stay bounded" },
+    {
+      "time": "7:51",
+      "title": "The Mandelbrot set is all of the complex numbers that stay bounded"
+    },
     { "time": "8:40", "title": "The initial sketch sets every pixel to gray" },
-    { "time": "12:00", "title": "Calculate the real and complex components for the next generation" },
+    {
+      "time": "12:00",
+      "title": "Calculate the real and complex components for the next generation"
+    },
     { "time": "13:03", "title": "What does it mean to be bounded?" },
-    { "time": "14:58", "title": "Set the brightness based on number of iterations" },
+    {
+      "time": "14:58",
+      "title": "Set the brightness based on number of iterations"
+    },
     { "time": "16:46", "title": "Store the original values of a and b" },
-    { "time": "20:05", "title": "Set the brightness by maping to maxIterations" },
-    { "time": "21:50", "title": "Add sliders to add ability to zoom in on the Mandelbrot set" },
+    {
+      "time": "20:05",
+      "title": "Set the brightness by maping to maxIterations"
+    },
+    {
+      "time": "21:50",
+      "title": "Add sliders to add ability to zoom in on the Mandelbrot set"
+    },
     { "time": "24:58", "title": "Conclusion and suggestions for variations" }
   ],
   "codeExamples": [
@@ -54,12 +72,23 @@
     {
       "title": "Live Stream Archive",
       "links": [
-      {
-        "icon": "🔴",
-        "title": "Live Stream #43",
-        "url": "https://youtu.be/pLtViSqkPvQ",
-        "description": "Live Stream with Mandelbrot Set with p5.js"
-      }]
+        {
+          "icon": "🔴",
+          "title": "Live Stream #43",
+          "url": "https://youtu.be/pLtViSqkPvQ",
+          "description": "Live Stream with Mandelbrot Set with p5.js"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

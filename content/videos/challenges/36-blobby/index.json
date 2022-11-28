@@ -14,7 +14,12 @@
     "perlin noise"
   ],
   "canContribute": true,
-  "relatedChallenges": ["19-superellipse", "32-agario", "60-butterfly-generator", "136-polar-noise-loops"],
+  "relatedChallenges": [
+    "19-superellipse",
+    "32-agario",
+    "60-butterfly-generator",
+    "136-polar-noise-loops"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction to the Blobby challenge" },
     {
@@ -81,6 +86,16 @@
           "description": "Live Stream with Networking Agar.io, History of p5.js/Processing, and Blobby"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

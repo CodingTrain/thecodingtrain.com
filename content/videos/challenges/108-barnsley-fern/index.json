@@ -20,10 +20,22 @@
     { "time": "0:49", "title": "Discuss the algorithm" },
     { "time": "2:23", "title": "Explanation of matrix algebra" },
     { "time": "4:20", "title": "Let's Code!" },
-    { "time": "5:24", "title": "Input the transformation formula for next x and y" },
-    { "time": "7:15", "title": "Remap the values to the width and height of the canvas" },
-    { "time": "8:32", "title": "Add other transformation formulas for next x and y" },
-    { "time": "11:12", "title": "Pick a random number to choose the tranformation" },
+    {
+      "time": "5:24",
+      "title": "Input the transformation formula for next x and y"
+    },
+    {
+      "time": "7:15",
+      "title": "Remap the values to the width and height of the canvas"
+    },
+    {
+      "time": "8:32",
+      "title": "Add other transformation formulas for next x and y"
+    },
+    {
+      "time": "11:12",
+      "title": "Pick a random number to choose the tranformation"
+    },
     { "time": "12:08", "title": "Add nextPoint, drawPoint functions" },
     { "time": "13:51", "title": "Add probabilities" },
     { "time": "15:57", "title": "Update the range" },
@@ -72,6 +84,16 @@
           "description": "Live Stream with Sandpile and Barnsley Fern Coding Challenges"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

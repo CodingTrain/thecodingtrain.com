@@ -7,7 +7,11 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["recursion", "fractals", "beginners"],
   "canContribute": true,
-  "relatedChallenges": ["14-fractal-trees-recursive", "17-fractal-trees-space-colonization", "21-mandelbrot-set-with-p5js"],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "17-fractal-trees-space-colonization",
+    "21-mandelbrot-set-with-p5js"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:46", "title": "Start coding!" },
@@ -56,6 +60,16 @@
           "description": "Intro to ES6 Classes - OOP in JavaScript"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }
