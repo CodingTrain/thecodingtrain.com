@@ -14,9 +14,13 @@
   ],
   "canContribute": true,
   "relatedChallenges": [
-    "19-superellipse", "23-2d-supershapes", "26-3d-supershapes", "112-3d-rendering-with-rotation-and-projection"
+    "19-superellipse",
+    "23-2d-supershapes",
+    "26-3d-supershapes",
+    "112-3d-rendering-with-rotation-and-projection"
   ],
-  "timestamps": [{
+  "timestamps": [
+    {
       "time": "0:00",
       "title": "Introduction to the Coding Challenge"
     },
@@ -84,20 +88,23 @@
       "time": "26:30",
       "title": "Thanks for watching!"
     }
-
   ],
-  "codeExamples": [{
-    "title": "Spherical Geometry",
-    "description": "This sketch visualizes a sphere.",
-    "image": "sphere.png",
-    "urls": {
-      "p5": "https://editor.p5js.org/codingtrain/sketches/qVs1hxtc",
-      "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/025_SphereGeometry/Processing"
+  "codeExamples": [
+    {
+      "title": "Spherical Geometry",
+      "description": "This sketch visualizes a sphere.",
+      "image": "sphere.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qVs1hxtc",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/025_SphereGeometry/Processing"
+      }
     }
-  }],
-  "groupLinks": [{
+  ],
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "📝",
           "title": "Supershapes (Superformula)",
           "url": "http://paulbourke.net/geometry/supershape/",
@@ -125,24 +132,36 @@
     },
     {
       "title": "Videos",
-      "links": [{
-        "icon": "🎥",
-        "title": "My Video on Polar Coordinates",
-        "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
-        "description": "A look at the trigonometric functions—sine, cosine, tangent."
-      },
-      {
-        "icon": "🎥",
-        "title": "Supershape track",
-        "url": "/tracks/supershapes",
-        "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
-      },
-      {
-        "icon": "🔴",
-        "title": "Live Stream Archive #47",
-        "url": "https://youtu.be/m8WhMeW8jj0",
-        "description": "Livestream with 3D Supershapes and Spherical Geometry"
-      }]
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "My Video on Polar Coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "A look at the trigonometric functions—sine, cosine, tangent."
+        },
+        {
+          "icon": "🎥",
+          "title": "Supershape track",
+          "url": "/tracks/supershapes",
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #47",
+          "url": "https://youtu.be/m8WhMeW8jj0",
+          "description": "Livestream with 3D Supershapes and Spherical Geometry"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

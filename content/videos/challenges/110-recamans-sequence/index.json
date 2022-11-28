@@ -1,131 +1,185 @@
 {
-    "title": "Recamán's Sequence",
-    "description": "In this coding challenge, I visualize the Recamán\u2019s number sequence using the p5.js library and go on to generate a series of musical tones using p5.js sound.",
-    "videoNumber": "110",
-    "videoId": "",
-    "date": "2018-07-24",
-    "languages": ["p5.js", "JavaScript"],
-    "topics": [
-        "number sequence",
-        "recaman's sequence",
-        "music", "audio-visual", "visualization"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["140-pi-leibniz", "133-time-tables-cardioid-visualization", "c2-collatz-conjecture" ],
-    "timestamps": [],
-    "parts": [
+  "title": "Recamán's Sequence",
+  "description": "In this coding challenge, I visualize the Recamán\u2019s number sequence using the p5.js library and go on to generate a series of musical tones using p5.js sound.",
+  "videoNumber": "110",
+  "videoId": "",
+  "date": "2018-07-24",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": [
+    "number sequence",
+    "recaman's sequence",
+    "music",
+    "audio-visual",
+    "visualization"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [
+    "140-pi-leibniz",
+    "133-time-tables-cardioid-visualization",
+    "c2-collatz-conjecture"
+  ],
+  "timestamps": [],
+  "parts": [
     {
       "title": "Part 1 - Visualizing the Sequence",
       "videoId": "DhFZfzOvNTU",
       "timestamps": [
         { "time": "0:00", "title": "Introduction!" },
         { "time": "1:56", "title": "Discussing the Recamán's Sequence" },
-        { "time": "6:08", "title": "Starting to code and adding the prerequisites to generate the sequence" },
-        { "time": "7:18", "title": "Writing the algorithm to generate the numbers of the sequence" },
+        {
+          "time": "6:08",
+          "title": "Starting to code and adding the prerequisites to generate the sequence"
+        },
+        {
+          "time": "7:18",
+          "title": "Writing the algorithm to generate the numbers of the sequence"
+        },
         { "time": "8:36", "title": "Testing the algorithm" },
         { "time": "9:40", "title": "Adding the counter" },
         { "time": "10:44", "title": "Visualizing the algorithm!" },
-        { "time": "13:48", "title": "Making continuous series of arcs instead of ellipses" },
-        { "time": "16:20", "title": "An exercise to pause and try for yourself!" },
-        { "time": "16:50", "title": "Creating an Arc class and an array of arcs" },
-        { "time": "19:33", "title": "Scaling down the animation as we move along the Recamán's Sequence" },
-        { "time": "21:34", "title": "Scaling down by the biggest number in the sequence generated so far" },
-        { "time": "22:34", "title": "Explore the Recamán's Sequence and share your works!" }
+        {
+          "time": "13:48",
+          "title": "Making continuous series of arcs instead of ellipses"
+        },
+        {
+          "time": "16:20",
+          "title": "An exercise to pause and try for yourself!"
+        },
+        {
+          "time": "16:50",
+          "title": "Creating an Arc class and an array of arcs"
+        },
+        {
+          "time": "19:33",
+          "title": "Scaling down the animation as we move along the Recamán's Sequence"
+        },
+        {
+          "time": "21:34",
+          "title": "Scaling down by the biggest number in the sequence generated so far"
+        },
+        {
+          "time": "22:34",
+          "title": "Explore the Recamán's Sequence and share your works!"
+        }
       ]
     },
     {
       "title": "Part 2 - Generating Sound from the Sequence",
       "videoId": "pYnaBQgnARQ",
       "timestamps": [
-        
-        { "time": "0:00", "title": "Welcome to the second part of the challenge!" },
-        { "time": "2:19", "title": "Creating an oscillator using the p5.js sound library" },
-        { "time": "4:00", "title": "Using the numbers of the Recamán's Sequence as the frequency of the oscillator" },
-        { "time": "5:25", "title": "Thinking of the numbers of the sequence as keys of a piano!" },
-        { "time": "7:54", "title": "Creating an envelope using the p5.js sound library" },
+        {
+          "time": "0:00",
+          "title": "Welcome to the second part of the challenge!"
+        },
+        {
+          "time": "2:19",
+          "title": "Creating an oscillator using the p5.js sound library"
+        },
+        {
+          "time": "4:00",
+          "title": "Using the numbers of the Recamán's Sequence as the frequency of the oscillator"
+        },
+        {
+          "time": "5:25",
+          "title": "Thinking of the numbers of the sequence as keys of a piano!"
+        },
+        {
+          "time": "7:54",
+          "title": "Creating an envelope using the p5.js sound library"
+        },
         { "time": "10:52", "title": "Restricting the frequency range" },
         { "time": "14:05", "title": "Conclusion!" }
       ]
     }
   ],
-    "codeExamples": [
-        {   
-            "image": "recaman.png",
-            "title": "Recamán's Sequence - Part 1",
-            "description": "The sketch visualizes the Recamán\u2019s number sequence",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/2OSiAFU7k",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/110.1_recaman/Processing/CC_110_recaman"
-            }
-        },
-        {   
-            "image": "recaman.png",
-            "title": "Recamán's Sequence - Part 2",
-            "description": "The sketch uses Recamán's Sequence to generate a series of musical tones",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/2CRSf-wRL"
-            }
-        }
-    ],
-    "groupLinks": [
+  "codeExamples": [
+    {
+      "image": "recaman.png",
+      "title": "Recamán's Sequence - Part 1",
+      "description": "The sketch visualizes the Recamán\u2019s number sequence",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2OSiAFU7k",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/110.1_recaman/Processing/CC_110_recaman"
+      }
+    },
+    {
+      "image": "recaman.png",
+      "title": "Recamán's Sequence - Part 2",
+      "description": "The sketch uses Recamán's Sequence to generate a series of musical tones",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2CRSf-wRL"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "📘",
-                    "title": "Recamán's Sequence on MathWorld",
-                    "url": "http://mathworld.wolfram.com/RecamansSequence.html",
-                    "description": "Wolframn MathWorld's page on the Recamán's Sequence"
-                },
-                {
-                    "icon": "🔖",
-                    "title": "Recamán's Sequence on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Recam%C3%A1n%27s_sequence",
-                    "description": "Wikipedia page on the Recamán's Sequence"
-                },
-                
-                {
-                    "icon": "🗐",
-                    "title": "OEIS",
-                    "url": "http://oeis.org/",
-                    "description": "An online database of integer sequences created by Neil Sloane"
-                },
-                {
-                    "icon": "🗏",
-                    "title": "Bernardo Recamán Santos",
-                    "url": "https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos",
-                    "description": "Wikipedia page on Bernardo Recamán Santos in Spanish"
-                }
-            ]
+          "icon": "📘",
+          "title": "Recamán's Sequence on MathWorld",
+          "url": "http://mathworld.wolfram.com/RecamansSequence.html",
+          "description": "Wolframn MathWorld's page on the Recamán's Sequence"
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "👻",
-                    "title": "The Slightly Spooky Recamán's Sequence",
-                    "url": "https://youtu.be/FGC5TdIiT9U",
-                    "description": "Numberphile's video on Recamán's Sequence"
-                },
-                {
-                    "icon": "🎹",
-                    "title": "Recamán's Sequence by Dale Gerdemann",
-                    "url": "https://youtu.be/h3qEigSSuF0",
-                    "description": "An audio-visual representation of the Recamán's Sequence by Dale Gerdemann using the Golden Ratio base"
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Tutorial Playlist on p5.js Sound",
-                    "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW",
-                    "description": "Tutorial playlist by Dan Shiffman on the p5.js sound library and working with audio"
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Coding Train Live 146",
-                    "url": "https://youtu.be/XXwjcxMOA8s?t=2137s",
-                    "description": "In this Live Stream, I explore Recamán's Sequence + ml5 Image Classifier"
-                }
-            ]
+          "icon": "🔖",
+          "title": "Recamán's Sequence on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Recam%C3%A1n%27s_sequence",
+          "description": "Wikipedia page on the Recamán's Sequence"
+        },
+
+        {
+          "icon": "🗐",
+          "title": "OEIS",
+          "url": "http://oeis.org/",
+          "description": "An online database of integer sequences created by Neil Sloane"
+        },
+        {
+          "icon": "🗏",
+          "title": "Bernardo Recamán Santos",
+          "url": "https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos",
+          "description": "Wikipedia page on Bernardo Recamán Santos in Spanish"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "👻",
+          "title": "The Slightly Spooky Recamán's Sequence",
+          "url": "https://youtu.be/FGC5TdIiT9U",
+          "description": "Numberphile's video on Recamán's Sequence"
+        },
+        {
+          "icon": "🎹",
+          "title": "Recamán's Sequence by Dale Gerdemann",
+          "url": "https://youtu.be/h3qEigSSuF0",
+          "description": "An audio-visual representation of the Recamán's Sequence by Dale Gerdemann using the Golden Ratio base"
+        },
+        {
+          "icon": "🚂",
+          "title": "Tutorial Playlist on p5.js Sound",
+          "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6aFcVjlDAkkGIixw70s7jpW",
+          "description": "Tutorial playlist by Dan Shiffman on the p5.js sound library and working with audio"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 146",
+          "url": "https://youtu.be/XXwjcxMOA8s?t=2137s",
+          "description": "In this Live Stream, I explore Recamán's Sequence + ml5 Image Classifier"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

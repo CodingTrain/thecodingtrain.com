@@ -99,11 +99,22 @@
           "description": "In this video, I write a function to perform matrix multiplication in Java."
         },
         {
-        "icon": "🔴",
-        "title": "Coding Train Live 148.2",
-        "url": "https://youtu.be/M_YNwb7UudI?t=1370s",
-        "description": "In this Live Stream, I attempt to render a 4D Hypercube in Processing."
-      }]
+          "icon": "🔴",
+          "title": "Coding Train Live 148.2",
+          "url": "https://youtu.be/M_YNwb7UudI?t=1370s",
+          "description": "In this Live Stream, I attempt to render a 4D Hypercube in Processing."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

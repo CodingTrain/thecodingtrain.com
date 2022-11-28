@@ -7,7 +7,11 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["quadtree data structure", "quadtree collision detection"],
   "canContribute": true,
-  "relatedChallenges": ["65-binary-tree", "68-breadth-first-search", "72-frogger"],
+  "relatedChallenges": [
+    "65-binary-tree",
+    "68-breadth-first-search",
+    "72-frogger"
+  ],
   "timestamps": [],
   "parts": [
     {
@@ -129,6 +133,16 @@
           "description": "Live Stream with Color Predictor and Quadtree Continued"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -7,20 +7,30 @@
   "languages": ["JavaScript", "p5.js", "tabletop.js"],
   "topics": ["mad libs", "google forms", "data collecting"],
   "canContribute": true,
-  "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator", "42-markov-chain-name-generator"],
+  "relatedChallenges": [
+    "37-diastic-machine",
+    "39-madlibs-generator",
+    "42-markov-chain-name-generator"
+  ],
   "timestamps": [
-      { "time": "0:00", "title": "Introduction and what Mad Libs is" },
-      { "time": "2:15", "title": "Making the Google Form" },
-      { "time": "4:59", "title": "About getting the data into the program" },
-      { "time": "6:25", "title": "Using tabletop.js" },
-      { "time": "7:23", "title": "Getting the data from our spreadsheet" },
-      { "time": "10:43", "title": "Creating a button" },
-      { "time": "12:04", "title": "Using regular expressions to replace the blanks" },
-      { "time": "14:46", "title": "Making the callback function to replace the words" },
-      { "time": "16:50", "title": "Picking random words from the entries" },
-      { "time": "18:47", "title": "The end result" },
-      { "time": "19:15", "title": "So many possibilities to try!" },
-      { "time": "20:11", "title": "Goodbye!" }
+    { "time": "0:00", "title": "Introduction and what Mad Libs is" },
+    { "time": "2:15", "title": "Making the Google Form" },
+    { "time": "4:59", "title": "About getting the data into the program" },
+    { "time": "6:25", "title": "Using tabletop.js" },
+    { "time": "7:23", "title": "Getting the data from our spreadsheet" },
+    { "time": "10:43", "title": "Creating a button" },
+    {
+      "time": "12:04",
+      "title": "Using regular expressions to replace the blanks"
+    },
+    {
+      "time": "14:46",
+      "title": "Making the callback function to replace the words"
+    },
+    { "time": "16:50", "title": "Picking random words from the entries" },
+    { "time": "18:47", "title": "The end result" },
+    { "time": "19:15", "title": "So many possibilities to try!" },
+    { "time": "20:11", "title": "Goodbye!" }
   ],
   "codeExamples": [
     {
@@ -36,7 +46,8 @@
   "groupLinks": [
     {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "📃",
           "title": "Tabletop.js",
           "url": "https://github.com/jsoma/tabletop",
@@ -58,12 +69,24 @@
     },
     {
       "title": "Live Stream Archive",
-      "links": [{
-        "icon": "🔴",
-        "title": "Coding Train Live 61",
-        "url": "https://youtu.be/Fe1sy9fkTKQ?t=6952s",
-        "description": "Week 3 of Programming from A to Z"
-      }]
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 61",
+          "url": "https://youtu.be/Fe1sy9fkTKQ?t=6952s",
+          "description": "Week 3 of Programming from A to Z"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

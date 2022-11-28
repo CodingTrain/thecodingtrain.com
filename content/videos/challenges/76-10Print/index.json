@@ -9,16 +9,16 @@
   "canContribute": true,
   "relatedChallenges": ["108-barnsley-fern"],
   "timestamps": [
-      { "time": "0:00", "title": "What is 10Print?" },
-      { "time": "2:23", "title": "Let's code it in p5.js!" },
-      { "time": "2:56", "title": "How do you draw a forward/backward slash?" },
-      { "time": "3:31", "title": "Applying probability" },
-      { "time": "5:00", "title": "Implementing spacing and finishing touches" },
-      { "time": "5:38", "title": "Inventing your own 10Print design" },
-      { "time": "6:56", "title": "Generating a design with \"rules\"" },
-      { "time": "7:26", "title": "More things you can do" },
-      { "time": "8:12", "title": "Important correction!" },
-      { "time": "8:39", "title": "Goodbye!" }
+    { "time": "0:00", "title": "What is 10Print?" },
+    { "time": "2:23", "title": "Let's code it in p5.js!" },
+    { "time": "2:56", "title": "How do you draw a forward/backward slash?" },
+    { "time": "3:31", "title": "Applying probability" },
+    { "time": "5:00", "title": "Implementing spacing and finishing touches" },
+    { "time": "5:38", "title": "Inventing your own 10Print design" },
+    { "time": "6:56", "title": "Generating a design with \"rules\"" },
+    { "time": "7:26", "title": "More things you can do" },
+    { "time": "8:12", "title": "Important correction!" },
+    { "time": "8:39", "title": "Goodbye!" }
   ],
   "codeExamples": [
     {
@@ -71,6 +71,16 @@
           "description": "Livestream with \"let\" vs \"var\", \"const\",  10 PRINT,  Wikipedia API & more! - Part 2"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -13,10 +13,12 @@
     "129-koch-fractal-snowflake"
   ],
   "timestamps": [],
-  "parts": [{
+  "parts": [
+    {
       "title": "Part 1 - Visualizing the Chaos Game",
       "videoId": "7gNzMtYo9n4",
-      "timestamps": [{
+      "timestamps": [
+        {
           "time": "0:00",
           "title": "Introduction"
         },
@@ -61,7 +63,8 @@
     {
       "title": "Part 2 - Refactoring the Code",
       "videoId": "A0NHGTggoOQ",
-      "timestamps": [{
+      "timestamps": [
+        {
           "time": "0:00",
           "title": "Introduction"
         },
@@ -120,7 +123,8 @@
       ]
     }
   ],
-  "codeExamples": [{
+  "codeExamples": [
+    {
       "title": "The Chaos Game - Part 1",
       "description": "My visualization of the chaos game.",
       "image": "chaos1.jpg",
@@ -139,9 +143,11 @@
       }
     }
   ],
-  "groupLinks": [{
+  "groupLinks": [
+    {
       "title": "References",
-      "links": [{
+      "links": [
+        {
           "icon": "📚",
           "title": "Algorithm Archive",
           "url": "https://www.algorithm-archive.org/",
@@ -163,7 +169,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🎥",
           "title": "LeoisOS",
           "url": "https://www.youtube.com/LeiosOS",
@@ -191,7 +198,8 @@
     },
     {
       "title": "Thinkercon Shoutouts",
-      "links": [{
+      "links": [
+        {
           "icon": "🤖",
           "title": "DESTIN SANDLIN",
           "url": "https://www.youtube.com/smartereveryday",
@@ -222,6 +230,16 @@
           "description": "Radiolab prodcasts"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

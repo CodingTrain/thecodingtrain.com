@@ -15,8 +15,14 @@
     { "time": "3:15", "title": "Add a digital clock" },
     { "time": "4:55", "title": "Use arcs to visualize the time" },
     { "time": "7:05", "title": "Add angleMode()" },
-    { "time": "9:17", "title": "Map the end of the arc to the seconds, minutes, and hour" },
-    { "time": "12:07", "title": "Translate to the center of canvas and rotate by -90 degrees" },
+    {
+      "time": "9:17",
+      "title": "Map the end of the arc to the seconds, minutes, and hour"
+    },
+    {
+      "time": "12:07",
+      "title": "Translate to the center of canvas and rotate by -90 degrees"
+    },
     { "time": "15:15", "title": "Add hour, minutes, and second hands" },
     { "time": "18:57", "title": "Concluson and creative possibilities" }
   ],
@@ -65,6 +71,16 @@
           "description": "Livestream #100.2: Transformations and Clocks with p5.js - Part 2"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

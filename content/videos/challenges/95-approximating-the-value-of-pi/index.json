@@ -51,7 +51,8 @@
     },
     {
       "title": "Videos",
-      "links": [{
+      "links": [
+        {
           "icon": "🎥",
           "title": "STEMcoding celebrates Pi day!",
           "url": "https://www.youtube.com/playlist?list=PLISRe8GegO8TbpZK2qvOi6y0kphRI-3xw",
@@ -70,6 +71,16 @@
           "description": "Happy Pi Day! - Part 1"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

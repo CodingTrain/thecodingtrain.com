@@ -355,12 +355,23 @@ function writeDescription(video) {
     }
   }
 
+  // Credits
+  const defaultCredits = `Editing by Mathieu Blanchette
+Animations by Jason Heglund
+Music from Epidemic Sound`;
+  if (data.credits) {
+    description += `\n${data.credits
+      .map((c) =>
+        c.url ? `${c.title} by ${c.name} (${c.url})` : `${c.title} by ${c.name}`
+      )
+      .join('\n')}\n`;
+    description += `Music from Epidemic Sound\n`;
+  } else {
+    description += `\n${defaultCredits}\n`;
+  }
+
   // General Links
   description += `
-Editing by Mathieu Blanchette
-Animations by Jason Heglund
-Music from Epidemic Sound
-
 🚂 Website: http://thecodingtrain.com/
 👾 Share Your Creation! https://thecodingtrain.com/guides/passenger-showcase-guide
 🚩 Suggest Topics: https://github.com/CodingTrain/Suggestion-Box

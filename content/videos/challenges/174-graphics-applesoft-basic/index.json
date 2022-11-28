@@ -166,5 +166,24 @@
         }
       ]
     }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    },
+    {
+      "title": "Coding Together Theme",
+      "name": "Will from America",
+      "url": "https://twitter.com/WillfromAmerica"
+    },
+    {
+      "title": "Eye of the Tiger cover",
+      "name": "Leon from @neo"
+    }
   ]
 }

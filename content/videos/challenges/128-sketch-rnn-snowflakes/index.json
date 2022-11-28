@@ -13,7 +13,7 @@
     "129-koch-fractal-snowflake",
     "150-ai-rainbows-with-runway-and-p5js",
     "153-interactive-drawing-with-sketchrnn"
-    ],
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:55", "title": "SketchRNN" },
@@ -84,6 +84,16 @@
           "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

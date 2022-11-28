@@ -1,102 +1,110 @@
 {
-    "title": "Angry Birds with Matter.js",
-    "description": "An attempt to implement the basic mechanics of Angry Birds in JavaScript using p5.js and the matter.js physics engine.",
-    "videoNumber": "138",
-    "videoId": "TDQzoe9nslY",
-    "date": "2019-03-08",
-    "languages": [
-        "p5.js",
-        "JavaScript"
-    ],
-    "topics": [
-        "matter.js",
-        "physics engine 2D",
-        "angry birds"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [
-        "62-plinko-with-matterjs",
-        "41-clappy-bird",
-        "31-flappy-bird",
-        "20-3d-cloth-simulation",
-        "147-chrome-dinosaur-game"
-    ],
-    "timestamps": [
-        {"time": "0:00", "title": "Introduction!"},
-        {"time": "1:30", "title": "Getting started with an Object Oriented Approach"},
-        {"time": "5:08", "title": "Adding and setting up matter.js"},
-        {"time": "11:05", "title": "Adding and using the physics engine"},
-        {"time": "12:52", "title": "Making the ground static"},
-        {"time": "15:38", "title": "Adding mouse constraints to control the bird"},
-        {"time": "21:20", "title": "Adding the slingshot"},
-        {"time": "27:00", "title": "Launching the bird with the slingshot!"},
-        {"time": "30:57", "title": "Fixing bugs and things to refactor later!"},
-        {"time": "33:07", "title": "Replacing the shapes with images"},
-        {"time": "37:15", "title": "Adding restitution"},
-        {"time": "38:47", "title": "Wrapping things up and improvements to make!"}
-
-],
-    "codeExamples": [
+  "title": "Angry Birds with Matter.js",
+  "description": "An attempt to implement the basic mechanics of Angry Birds in JavaScript using p5.js and the matter.js physics engine.",
+  "videoNumber": "138",
+  "videoId": "TDQzoe9nslY",
+  "date": "2019-03-08",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["matter.js", "physics engine 2D", "angry birds"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "62-plinko-with-matterjs",
+    "41-clappy-bird",
+    "31-flappy-bird",
+    "20-3d-cloth-simulation",
+    "147-chrome-dinosaur-game"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction!" },
+    {
+      "time": "1:30",
+      "title": "Getting started with an Object Oriented Approach"
+    },
+    { "time": "5:08", "title": "Adding and setting up matter.js" },
+    { "time": "11:05", "title": "Adding and using the physics engine" },
+    { "time": "12:52", "title": "Making the ground static" },
+    {
+      "time": "15:38",
+      "title": "Adding mouse constraints to control the bird"
+    },
+    { "time": "21:20", "title": "Adding the slingshot" },
+    { "time": "27:00", "title": "Launching the bird with the slingshot!" },
+    { "time": "30:57", "title": "Fixing bugs and things to refactor later!" },
+    { "time": "33:07", "title": "Replacing the shapes with images" },
+    { "time": "37:15", "title": "Adding restitution" },
+    { "time": "38:47", "title": "Wrapping things up and improvements to make!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Angry Birds with Matter.js!",
+      "description": "Implementation of the basic mechanics of the Angry Birds game.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/UOR4nIcNS"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Angry Birds with Matter.js!",
-            "description": "Implementation of the basic mechanics of the Angry Birds game.",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/UOR4nIcNS"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🐦",
-                    "title": "Angry Birds",
-                    "url": "https://www.angrybirds.com/",
-                    "description": "The official website of the Angry Birds!"
-                },
-                {
-                    "icon": "🚒",
-                    "title": "Matter.js",
-                    "url": "http://brm.io/matter-js/",
-                    "description": "A 2D physics engine for the web"
-                }
-            ]
+          "icon": "🐦",
+          "title": "Angry Birds",
+          "url": "https://www.angrybirds.com/",
+          "description": "The official website of the Angry Birds!"
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "Matter.js Physics",
-                    "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
-                    "description": "Playlist of matter.js physics tutorial videos in JavaScript with p5.js"
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Inheritance in JavaScript",
-                    "url": "/tracks/topics-in-native-javascript/js/inheritance",
-                    "description": "Tutorial on the concept of inheritance in JavaScript"
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Inheritance in Java",
-                    "url": "https://youtu.be/e6eXD8DHc_A",
-                    "description": "Tutorial on the concept of inheritance in Java (NOC 1)"
-                },
-                {
-                    "icon": "🕹️",
-                    "title": "Phaser Game Development with Catt Small",
-                    "url": "https://youtu.be/T9kOFSFvgKc",
-                    "description": "Guest tutorial on Phaser Game development by Catt Small"
-                },
-                {
-                    "icon": "🔴",
-                    "title": "Coding Train Live 171",
-                    "url": "https://youtu.be/EvOC_vyFAiI?t=5047s",
-                    "description": "Live Stream with the Fetch function and Angry Birds"
-                }  
-            ]
+          "icon": "🚒",
+          "title": "Matter.js",
+          "url": "http://brm.io/matter-js/",
+          "description": "A 2D physics engine for the web"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Matter.js Physics",
+          "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+          "description": "Playlist of matter.js physics tutorial videos in JavaScript with p5.js"
+        },
+        {
+          "icon": "🚂",
+          "title": "Inheritance in JavaScript",
+          "url": "/tracks/topics-in-native-javascript/js/inheritance",
+          "description": "Tutorial on the concept of inheritance in JavaScript"
+        },
+        {
+          "icon": "🚂",
+          "title": "Inheritance in Java",
+          "url": "https://youtu.be/e6eXD8DHc_A",
+          "description": "Tutorial on the concept of inheritance in Java (NOC 1)"
+        },
+        {
+          "icon": "🕹️",
+          "title": "Phaser Game Development with Catt Small",
+          "url": "https://youtu.be/T9kOFSFvgKc",
+          "description": "Guest tutorial on Phaser Game development by Catt Small"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 171",
+          "url": "https://youtu.be/EvOC_vyFAiI?t=5047s",
+          "description": "Live Stream with the Fetch function and Angry Birds"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

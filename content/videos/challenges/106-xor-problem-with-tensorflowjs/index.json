@@ -7,7 +7,11 @@
   "languages": ["p5.js", "JavaScript", "tensorflow.js"],
   "topics": ["machine learning", "xor problem"],
   "canContribute": true,
-  "relatedChallenges": ["92-xor-problem", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
+  "relatedChallenges": [
+    "92-xor-problem",
+    "104-linear-regression-with-tensorflowjs",
+    "105-polynomial-regression-with-tensorflowjs"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:43", "title": "Architecture of model" },
@@ -87,8 +91,18 @@
           "title": "Coding Train Live 141",
           "url": "https://youtu.be/_wC4sn5qKQw?t=1885s",
           "description": "Live Stream with XOR with TensorFlow.js"
-       }  
+        }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

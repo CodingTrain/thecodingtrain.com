@@ -1,65 +1,82 @@
 {
-    "title": "3D Knots",
-    "description": "Getting tied up in 3D Knots in Processing is loads of fun! Thank you to Paul Bourke for the helpful reference and formulae!",
-    "videoNumber": "87",
-    "videoId": "r6YMKr1X0VA",
-    "date": "2017-12-20",
-    "languages": ["Java", "Processing"],
-    "topics": [
-        "3d rendering",
-        "3d knots",
-        "polar to cartesian coordinates"
-    ],
-    "canContribute": true,
-    "relatedChallenges": ["25-spherical-geometry", "12-lorenz-attractor", "86-cube-wave-by-bees-and-bombs"],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "1:30", "title": "Understanding the equations and spherical coordinates" },
-        { "time": "2:47", "title": "Coding starts here!" },
-        { "time": "3:44", "title": "Implementing the formulae into code" },
-        { "time": "5:03", "title": "Making the shape" },
-        { "time": "5:30", "title": "Translate to the middle" },
-        { "time": "6:21", "title": "That kinda looks like a knot!" },
-        { "time": "8:04", "title": "Making it look pretty" },
-        { "time": "8:58", "title": "Animating the knot" },
-        { "time": "10:53", "title": "Adding the color back" },
-        { "time": "12:00", "title": "Things you can try!" }
-    ],
-    "codeExamples": [
+  "title": "3D Knots",
+  "description": "Getting tied up in 3D Knots in Processing is loads of fun! Thank you to Paul Bourke for the helpful reference and formulae!",
+  "videoNumber": "87",
+  "videoId": "r6YMKr1X0VA",
+  "date": "2017-12-20",
+  "languages": ["Java", "Processing"],
+  "topics": ["3d rendering", "3d knots", "polar to cartesian coordinates"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "25-spherical-geometry",
+    "12-lorenz-attractor",
+    "86-cube-wave-by-bees-and-bombs"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    {
+      "time": "1:30",
+      "title": "Understanding the equations and spherical coordinates"
+    },
+    { "time": "2:47", "title": "Coding starts here!" },
+    { "time": "3:44", "title": "Implementing the formulae into code" },
+    { "time": "5:03", "title": "Making the shape" },
+    { "time": "5:30", "title": "Translate to the middle" },
+    { "time": "6:21", "title": "That kinda looks like a knot!" },
+    { "time": "8:04", "title": "Making it look pretty" },
+    { "time": "8:58", "title": "Animating the knot" },
+    { "time": "10:53", "title": "Adding the color back" },
+    { "time": "12:00", "title": "Things you can try!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "3D Knots",
+      "description": "An implementation of Paul Bourke's formulae for 3D knots",
+      "image": "3d-knots",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/087_3D_Knots/Processing",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fa1rAWng9"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "3D Knots",
-            "description": "An implementation of Paul Bourke's formulae for 3D knots",
-            "image": "3d-knots",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/087_3D_Knots/Processing",
-                "p5": "https://editor.p5js.org/codingtrain/sketches/fa1rAWng9"
-            }
-        }
-    ],
-    "groupLinks": [{
-            "title": "References",
-            "links": [{
-                    "icon": "📔",
-                    "title": "Knots",
-                    "url": "http://paulbourke.net/geometry/knots/",
-                    "description": "An article on knots written by Paul Bourke from 1992!"
-                },
-                {
-                    "icon": "🌐",
-                    "title": "Knot Theory",
-                    "url": "https://en.wikipedia.org/wiki/Knot_theory",
-                    "description": "Knots explained on Wikipedia."
-                }
-            ]
+          "icon": "📔",
+          "title": "Knots",
+          "url": "http://paulbourke.net/geometry/knots/",
+          "description": "An article on knots written by Paul Bourke from 1992!"
         },
         {
-            "title": "Live Stream Archive",
-            "links": [{
-                "icon": "🔴",
-                "title": "Live Stream #111",
-                "url": "https://youtu.be/Xiu8pbHtrEY",
-                "description": "Live Stream with More WebGL with p5.js!"
-            }]
+          "icon": "🌐",
+          "title": "Knot Theory",
+          "url": "https://en.wikipedia.org/wiki/Knot_theory",
+          "description": "Knots explained on Wikipedia."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #111",
+          "url": "https://youtu.be/Xiu8pbHtrEY",
+          "description": "Live Stream with More WebGL with p5.js!"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

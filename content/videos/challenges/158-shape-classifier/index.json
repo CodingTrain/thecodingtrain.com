@@ -15,7 +15,11 @@
     "testing a model"
   ],
   "canContribute": true,
-  "relatedChallenges": ["47-pixel-sorting-in-processing", "122-quick-draw", "153-interactive-drawing-with-sketchrnn"],
+  "relatedChallenges": [
+    "47-pixel-sorting-in-processing",
+    "122-quick-draw",
+    "153-interactive-drawing-with-sketchrnn"
+  ],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -196,6 +200,16 @@
           "description": "This vidoe shows how to save a save a model that has been trained in ml5.js."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

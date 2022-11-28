@@ -73,7 +73,7 @@
         {
           "icon": "📕",
           "title": "My NOC class on Kadenze",
-          "url": "https://www.kadenze.com/courses/the-nature-of-code/info", 
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
           "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
         },
         {
@@ -106,6 +106,16 @@
           "description": "Live Stream with Processing, p5.js and more Random Walks"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

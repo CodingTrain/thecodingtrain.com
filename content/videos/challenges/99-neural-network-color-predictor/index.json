@@ -7,7 +7,10 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["neural network", "color predictor", "machine learning"],
   "canContribute": true,
-  "relatedChallenges": ["104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
+  "relatedChallenges": [
+    "104-linear-regression-with-tensorflowjs",
+    "105-polynomial-regression-with-tensorflowjs"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:49", "title": "Universal Function Approximator" },
@@ -98,6 +101,16 @@
           "description": "Live Stream with Color Predictor and Quadtree Continued"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }
