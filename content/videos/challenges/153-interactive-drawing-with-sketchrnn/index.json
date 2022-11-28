@@ -5,7 +5,7 @@
   "videoId": "ZCXkvwLxBrA",
   "date": "2019-10-31",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["sketchRNN", "machine Learning", "Quick, Draw!"],
+  "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],
   "canContribute": true,
   "relatedChallenges": ["128-sketch-rnn-snowflakes", "152-rdp-algorithm"],
   "timestamps": [

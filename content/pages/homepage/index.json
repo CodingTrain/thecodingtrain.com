@@ -33,13 +33,13 @@
     "featured": [
       "175-3D-cube-applesoft-basic",
       "174-graphics-applesoft-basic",
-      "165-slide-puzzle",
-      "136-polar-noise-loops",
-      "145-ray-casting-2d",
-      "103-fire-effect",
-      "35-traveling-salesperson",
-      "55-mathematical-rose-patterns",
-      "5-space-invaders"
+      "77-recursion",
+      "101-may-the-4th-scrolling-text",
+      "134-heart-curve",
+      "170-monty-hall-problem",
+      "64-kinematics",
+      "41-clappy-bird",
+      "99-neural-network-color-predictor"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,14 +50,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/121-logo-interpreter/showcase/contribution5.json",
-      "challenges/4-purple-rain/showcase/contribution17.json",
-      "challenges/163-bezier-curves/showcase/contribution5.json",
-      "challenges/111-animated-sprites/showcase/contribution4.json",
-      "challenges/120-bit-shifting/showcase/contribution1.json",
-      "challenges/126-toothpicks/showcase/contribution3.json",
-      "challenges/142-rubiks-cube/showcase/contribution11.json",
-      "challenges/145-ray-casting-2d/showcase/contribution6.json"
+      "challenges/171-wave-function-collapse/showcase/contribution-1658070777.json",
+      "challenges/168-the-mandelbulb/showcase/contribution6.json",
+      "challenges/57-mapping-earthquake-data/showcase/contribution3.json",
+      "challenges/c4-worley-noise/showcase/contribution4.json",
+      "challenges/1-starfield/showcase/contribution7.json",
+      "challenges/5-space-invaders/showcase/contribution-1663622628.json",
+      "challenges/17-fractal-trees-space-colonization/showcase/contribution1.json",
+      "challenges/29-smart-rockets-in-p5js/showcase/contribution2.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
