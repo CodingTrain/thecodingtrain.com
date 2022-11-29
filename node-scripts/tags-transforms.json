@@ -1,6 +1,7 @@
 {
   "wordReplacements__COMMENT": "Common values to replace, applied to every topic and language. KEY: desired output. VALUE: case insensive word to be used in match regex",
   "wordReplacements": {
+    "2D": "2d",
     "3D": "3d",
     "4D": "4d",
     "WebGL": "webgl",
