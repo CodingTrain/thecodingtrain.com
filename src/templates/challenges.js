@@ -17,7 +17,7 @@ import * as css from './challenges.module.css';
 const ChallengesPage = ({ data, pageContext, location }) => {
   const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
-  const challenges = data.challenges.nodes;
+  const challenges = data.challenges;
   const recentChallenge = data.recentChallenge.nodes[0];
 
   const challengesPlaceholder = data.challengePlaceholderImage
@@ -123,12 +123,7 @@ const RecentChallenge = ({
 };
 
 export const query = graphql`
-  query (
-    $skip: Int!
-    $limit: Int!
-    $topicRegex: String!
-    $languageRegex: String!
-  ) {
+  query ($skip: Int, $limit: Int, $topic: String!, $language: String!) {
     pageData: allChallengesPageInfo {
       nodes {
         title
@@ -150,26 +145,21 @@ export const query = graphql`
         }
       }
     }
-    challenges: allChallenge(
-      filter: {
-        languages: { regex: $languageRegex }
-        topics: { regex: $topicRegex }
-      }
-      sort: { order: DESC, fields: date }
+    challenges: allChallengesFilteredByTags(
+      language: $language
+      topic: $topic
       skip: $skip
       limit: $limit
     ) {
-      nodes {
-        title
-        slug
-        description
-        date
-        videoNumber
-        cover {
-          file {
-            childImageSharp {
-              gatsbyImageData
-            }
+      title
+      slug
+      description
+      date
+      videoNumber
+      cover {
+        file {
+          childImageSharp {
+            gatsbyImageData
           }
         }
       }

@@ -24,6 +24,7 @@ const {
   createChallengesPages,
   createGuidePages
 } = require('./node-scripts/page-generation');
+const set = require('lodash/set');
 
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
@@ -260,6 +261,27 @@ const tagResolver = async (source, context, type) => {
   return [...tags];
 };
 
+const filterByTagsResolver = async (args, context, type) => {
+  const { language, topic, skip, limit } = args;
+
+  const query = {};
+
+  set(query, 'sort.order', ['DESC']);
+  set(query, 'sort.fields', ['date']);
+
+  if (language) set(query, 'filter.languages.eq', language);
+  if (topic) set(query, 'filter.topics.eq', topic);
+  if (skip) set(query, 'skip', skip);
+  if (limit) set(query, 'limit', limit);
+
+  const { entries } = await context.nodeModel.findAll({
+    type,
+    query
+  });
+
+  return entries;
+};
+
 exports.createResolvers = ({ createResolvers }) => {
   const resolvers = {
     Track: {
@@ -272,6 +294,18 @@ exports.createResolvers = ({ createResolvers }) => {
         type: ['String'],
         resolve: async (source, args, context, info) =>
           await tagResolver(source, context, 'languages')
+      }
+    },
+    Query: {
+      allTracksFilteredByTags: {
+        type: ['Track'],
+        resolve: async (source, args, context, info) =>
+          await filterByTagsResolver(args, context, 'Track')
+      },
+      allChallengesFilteredByTags: {
+        type: ['Challenge'],
+        resolve: async (source, args, context, info) =>
+          await filterByTagsResolver(args, context, 'Challenge')
       }
     }
   };

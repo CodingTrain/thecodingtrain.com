@@ -355,4 +355,9 @@ type SupportSection implements Node {
   description: String!
   options: [Cta]
 }
+
+type Query {
+  allTracksFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track] 
+  allChallengesFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge] 
+}
 `;
