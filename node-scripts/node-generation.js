@@ -1,6 +1,5 @@
 const omit = require('lodash/omit');
 const fs = require('fs');
-const { cleanUp } = require('./utils');
 
 /**
  * Transform camel case str to dash case
@@ -105,8 +104,8 @@ exports.createVideoRelatedNode = (
       timestamps: timestampsWithSeconds(part.timestamps ?? [])
     }));
 
-    const languages = cleanUp(data.languages ?? []);
-    const topics = cleanUp(data.topics ?? []);
+    const languages = data.languages ?? [];
+    const topics = data.topics ?? [];
 
     const newNode = Object.assign({}, data, {
       id: createNodeId(`--videos/${slugPrefix}${slug}`),
