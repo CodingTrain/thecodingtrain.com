@@ -10,11 +10,13 @@
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build --verbose",
+    "build-ci": "npm run tags-transforms && npm run build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",
     "testv": "jest --verbose",
-    "yt-desc": "node node-scripts/yt-description"
+    "yt-desc": "node node-scripts/yt-description",
+    "tags-transforms": "node node-scripts/tags-transforms"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -58,6 +60,7 @@
     "jest": "^27.4.5",
     "jest-extended": "^1.2.0",
     "lodash": "^4.17.21",
+    "prettier": "^2.8.0",
     "slugify": "^1.6.5",
     "svgo": "^2.8.0"
   },
