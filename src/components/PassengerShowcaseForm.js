@@ -43,7 +43,7 @@ const PassengerShowcaseForm = () => {
   const ref = useRef();
   const [state, setState] = useState(defaultState);
   const [error, setError] = useState(null);
-  const [submitted, setSubmitted] = useState(true);
+  const [submitted, setSubmitted] = useState(false);
   const [githubPRNo, setGithubPRNo] = useState(null);
 
   const data = useStaticQuery(graphql`
