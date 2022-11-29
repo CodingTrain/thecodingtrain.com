@@ -129,6 +129,7 @@ const ItemsPage = ({
           selected={selectedLanguage}
           onChange={setSelectedLanguage}
           variant={variant}
+          instanceId="languages-filter"
         />
 
         <Select
@@ -140,6 +141,7 @@ const ItemsPage = ({
           selected={selectedTopic}
           onChange={setSelectedTopic}
           variant={variant}
+          instanceId="topics-filter"
         />
       </div>
 
