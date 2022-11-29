@@ -8,8 +8,8 @@
   "topics": ["basics", "constructor", "classes", "objects"],
   "canContribute": true,
   "timestamps": [
-    {"time": "0:00", "title": "Introduction" },
-    {"time": "2:56", "title": "Adding Parameters to the Constructor" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:56", "title": "Adding Parameters to the Constructor" }
   ],
   "codeExamples": [
     {
@@ -38,6 +38,16 @@
           "description": "This video looks at re-usability and functions."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

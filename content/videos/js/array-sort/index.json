@@ -17,5 +17,15 @@
     { "time": "06:47", "title": "Sorting strings based on length" }
   ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

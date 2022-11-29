@@ -8,9 +8,9 @@
   "topics": ["arrays", "for loop"],
   "canContribute": true,
   "timestamps": [
-    {"time": "0:00", "title": "Introduction" },
-    {"time": "2:00", "title": "Using a Loop to Initialize an Argument" },
-    {"time": "5:43", "title": "Using the Index to Calculate an Argument" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:00", "title": "Using a Loop to Initialize an Argument" },
+    { "time": "5:43", "title": "Using the Index to Calculate an Argument" }
   ],
   "codeExamples": [
     {
@@ -22,5 +22,15 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

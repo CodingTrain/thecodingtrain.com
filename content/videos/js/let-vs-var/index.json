@@ -15,5 +15,15 @@
     { "time": "10:21", "title": "Block Scope (let)" }
   ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

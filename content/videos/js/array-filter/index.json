@@ -14,5 +14,15 @@
     { "time": "07:43", "title": "Working with strings" }
   ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

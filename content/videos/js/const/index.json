@@ -21,5 +21,15 @@
     { "time": "6:55", "title": "Arrow function syntax" }
   ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

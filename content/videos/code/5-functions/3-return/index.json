@@ -8,8 +8,8 @@
   "topics": ["basics", "functions", "return"],
   "canContribute": false,
   "timestamps": [
-    {"time": "0:00", "title": "Introduction" },
-    {"time": "5:35", "title": "Returning a Value" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "5:35", "title": "Returning a Value" }
   ],
   "codeExamples": [
     {
@@ -21,5 +21,15 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

@@ -1,52 +1,62 @@
 {
-    "title": "Resolving Merge Conflicts",
-    "description": "In this video, I look at how to resolve a “merge conflict” using the GitHub interface.",
-    "languages": [],
-    "topics": ["For beginners","Git","GitHub"],
-    "videoId": "JtIX3HJKwfo",
-    "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:37", "title": "What is a merge conflict" },
-        { "time": "3:01", "title": "Resolve conflicts on GitHub" },
-        { "time": "6:40", "title": "commit merge resolution" },
-        { "time": "8:10", "title": "Recap" }
-    ],
-    "codeExamples": [
+  "title": "Resolving Merge Conflicts",
+  "description": "In this video, I look at how to resolve a “merge conflict” using the GitHub interface.",
+  "languages": [],
+  "topics": ["For beginners", "Git", "GitHub"],
+  "videoId": "JtIX3HJKwfo",
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:37", "title": "What is a merge conflict" },
+    { "time": "3:01", "title": "Resolve conflicts on GitHub" },
+    { "time": "6:40", "title": "commit merge resolution" },
+    { "time": "8:10", "title": "Recap" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Toy-Neural-Network-JS",
+      "description": "GitHub repo for Neural Network JavaScript library for Coding Train tutorials",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Toy-Neural-Network-JS",
-            "description": "GitHub repo for Neural Network JavaScript library for Coding Train tutorials",
-            "urls": {
-              "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
-            }
-        }
-    ],
-    "groupLinks":[
-        {
-            "title":"References",
-            "links":[
-                {
-                    "title": "GitHub",
-                    "url": "https://github.com",
-                    "description": "GitHub homepage"
-                },
-                {
-                    "title": "GitHub Docs",
-                    "icon": "📚",
-                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
-                    "description": "Quickstart tutorial for how to get started with Git and GitHub."
-                }
-            ]
+          "title": "GitHub",
+          "url": "https://github.com",
+          "description": "GitHub homepage"
         },
         {
-            "title": "Videos",
-            "links":[
-                {
-                    "title": "CircleCI: Unit Testing and Continuous Integration",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bLqwFa52YGEHy-L1-D_Ve-",
-                    "description": "Unit testing and continuous integration in JavaScript with Jest, CircleCI, GitHub."
-                }
-            ]
+          "title": "GitHub Docs",
+          "icon": "📚",
+          "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+          "description": "Quickstart tutorial for how to get started with Git and GitHub."
         }
-    ],
-    "canContribute": false
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "CircleCI: Unit Testing and Continuous Integration",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bLqwFa52YGEHy-L1-D_Ve-",
+          "description": "Unit testing and continuous integration in JavaScript with Jest, CircleCI, GitHub."
+        }
+      ]
+    }
+  ],
+  "canContribute": false,
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

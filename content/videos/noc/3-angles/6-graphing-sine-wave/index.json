@@ -39,5 +39,15 @@
         "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba"
       }
     }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
   ]
 }

@@ -13,5 +13,15 @@
     { "time": "02:17", "title": "Variable naming conventions" }
   ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

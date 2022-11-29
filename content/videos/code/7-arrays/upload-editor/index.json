@@ -7,9 +7,9 @@
   "topics": ["web editor", "media files"],
   "canContribute": true,
   "timestamps": [
-    {"time": "0:00", "title": "Introduction" },
-    {"time": "2:15", "title": "Uploading an Image to a p5.js Sketch" },
-    {"time": "4:37", "title": "Using the preload() Function to Load an Image" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:15", "title": "Uploading an Image to a p5.js Sketch" },
+    { "time": "4:37", "title": "Using the preload() Function to Load an Image" }
   ],
   "codeExamples": [],
   "groupLinks": [
@@ -29,6 +29,16 @@
           "description": "This is part 2 of the Learning p5.js series."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }
