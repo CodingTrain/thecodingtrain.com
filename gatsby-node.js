@@ -261,13 +261,19 @@ const tagResolver = async (source, context, type) => {
   return [...tags];
 };
 
-const filterByTagsResolver = async (args, context, type) => {
+const filterByTagsResolver = async (
+  args,
+  context,
+  type,
+  sortField,
+  sortOrder
+) => {
   const { language, topic, skip, limit } = args;
 
   const query = {};
 
-  set(query, 'sort.order', ['DESC']);
-  set(query, 'sort.fields', ['date']);
+  set(query, 'sort.order', [sortOrder]);
+  set(query, 'sort.fields', [sortField]);
 
   if (language) set(query, 'filter.languages.eq', language);
   if (topic) set(query, 'filter.topics.eq', topic);
@@ -300,12 +306,12 @@ exports.createResolvers = ({ createResolvers }) => {
       tracksPaginatedFilteredByTags: {
         type: ['Track'],
         resolve: async (source, args, context, info) =>
-          await filterByTagsResolver(args, context, 'Track')
+          await filterByTagsResolver(args, context, 'Track', 'order', 'ASC')
       },
       challengesPaginatedFilteredByTags: {
         type: ['Challenge'],
         resolve: async (source, args, context, info) =>
-          await filterByTagsResolver(args, context, 'Challenge')
+          await filterByTagsResolver(args, context, 'Challenge', 'date', 'DESC')
       }
     }
   };
