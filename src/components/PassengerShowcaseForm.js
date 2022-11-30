@@ -272,10 +272,9 @@ const PassengerShowcaseForm = () => {
             Thank you for submitting to the Passenger Showcase!{' '}
             <a
               href={`https://github.com/CodingTrain/thecodingtrain.com/pull/${githubPRNo}`}>
-              Click here
+              You can follow this linked pull request on GitHub for more.
             </a>{' '}
-            to view your submission. Please refresh the page in order to upload
-            another submission.
+            Please refresh the page in order to upload another submission.
           </div>
         )}
         <Button
