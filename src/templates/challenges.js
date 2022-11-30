@@ -145,7 +145,7 @@ export const query = graphql`
         }
       }
     }
-    challenges: allChallengesFilteredByTags(
+    challenges: challengesPaginatedFilteredByTags(
       language: $language
       topic: $topic
       skip: $skip

@@ -297,12 +297,12 @@ exports.createResolvers = ({ createResolvers }) => {
       }
     },
     Query: {
-      allTracksFilteredByTags: {
+      tracksPaginatedFilteredByTags: {
         type: ['Track'],
         resolve: async (source, args, context, info) =>
           await filterByTagsResolver(args, context, 'Track')
       },
-      allChallengesFilteredByTags: {
+      challengesPaginatedFilteredByTags: {
         type: ['Challenge'],
         resolve: async (source, args, context, info) =>
           await filterByTagsResolver(args, context, 'Challenge')

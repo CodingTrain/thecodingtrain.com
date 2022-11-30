@@ -72,7 +72,7 @@ export const query = graphql`
         description
       }
     }
-    tracks: allTracksFilteredByTags(
+    tracks: tracksPaginatedFilteredByTags(
       language: $language
       topic: $topic
       skip: $skip

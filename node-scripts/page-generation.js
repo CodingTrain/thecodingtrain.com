@@ -71,9 +71,11 @@ exports.createChallengesPages = async (graphql, createPage) => {
 
   for (let language of [...languages, '']) {
     for (let topic of [...topics, '']) {
-      const { data: filteredChallenges } = await graphql(`
+      const {
+        data: { filteredChallenges }
+      } = await graphql(`
         query {
-          filteredChallenges: allChallengesFilteredByTags(language: "${language}", topic: "${topic}")  {
+          filteredChallenges: challengesPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
             id
           }
         }
@@ -81,7 +83,7 @@ exports.createChallengesPages = async (graphql, createPage) => {
 
       paginate({
         createPage,
-        items: filteredChallenges.filteredChallenges,
+        items: filteredChallenges,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/challenges/lang/${
           !language ? 'all' : toSlug(language)
@@ -136,9 +138,11 @@ exports.createTracksPages = async (graphql, createPage) => {
 
   for (let language of [...languages, '']) {
     for (let topic of [...topics, '']) {
-      const { data: filteredTracks } = await graphql(`
+      const {
+        data: { filteredTracks }
+      } = await graphql(`
       query {
-        filteredTracks: allTracksFilteredByTags(language: "${language}", topic: "${topic}")  {
+        filteredTracks: tracksPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
           id
         }
       }
@@ -146,7 +150,7 @@ exports.createTracksPages = async (graphql, createPage) => {
 
       paginate({
         createPage,
-        items: filteredTracks.filteredTracks,
+        items: filteredTracks,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/tracks/lang/${
           !language ? 'all' : toSlug(language)

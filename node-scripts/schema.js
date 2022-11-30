@@ -357,7 +357,7 @@ type SupportSection implements Node {
 }
 
 type Query {
-  allTracksFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track] 
-  allChallengesFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge] 
+  tracksPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track] 
+  challengesPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge] 
 }
 `;
