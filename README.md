@@ -1,6 +1,9 @@
 # Coding Train Website
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
@@ -15,7 +18,7 @@ This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/
 
 ## Development info
 
-When updating the website, it is helpful to run the website locally in order to quickly see the changes made. Make sure you have Node.js version `16.x` installed and then perform the following steps:
+When updating the website, it is helpful to run the website locally in order to quickly see the changes made. Make sure you have Node.js version `18.x` installed and then perform the following steps:
 
 1. Clone down the repo to your computer and `cd` into the folder
 2. Run `npm install`
