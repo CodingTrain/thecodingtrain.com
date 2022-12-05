@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
 import { graphql } from 'gatsby';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
 
 import Layout from '../components/Layout';
@@ -160,7 +159,7 @@ const useLocalImages = (images) => {
   }, [images]);
 };
 
-const Guide = ({ data }) => {
+const Guide = ({ data, children }) => {
   const { mdx, images } = data;
 
   const localImages = useLocalImages(images.nodes);
@@ -174,7 +173,7 @@ const Guide = ({ data }) => {
         className={css.breadcrumbs}
         breadcrumbs={[
           { name: 'Guides', link: `/guides` },
-          { name: mdx.frontmatter.title, link: `/guides/${mdx.slug}` }
+          { name: mdx.frontmatter.title, link: `/guides/${mdx.fields.slug}` }
         ]}
         variant="purple"
       />
@@ -203,12 +202,12 @@ const Guide = ({ data }) => {
         </nav>
       </header>
       <Spacer />
-      <MDXProvider components={components(localImages)}>
-        <div className={css.root}>
-          <MDXRenderer>{mdx.body}</MDXRenderer>
-          <div className={css.guideBottomSpacer} />
-        </div>
-      </MDXProvider>
+      <div className={css.root}>
+        <MDXProvider components={components(localImages)}>
+          {children}
+        </MDXProvider>
+        <div className={css.guideBottomSpacer} />
+      </div>
       <Spacer pattern className={css.spacer} />
     </Layout>
   );
@@ -216,9 +215,10 @@ const Guide = ({ data }) => {
 
 export const query = graphql`
   query ($slug: String!) {
-    mdx(slug: { eq: $slug }) {
-      slug
-      body
+    mdx(fields: { slug: { eq: $slug } }) {
+      fields {
+        slug
+      }
       tableOfContents
       frontmatter {
         title

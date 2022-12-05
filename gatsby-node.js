@@ -36,7 +36,7 @@ exports.onCreateNode = ({
   createContentDigest,
   getNode
 }) => {
-  const { createNode } = actions;
+  const { createNode, createNodeField } = actions;
   const { owner, mediaType } = node.internal;
   const parent = getNode(node.parent);
 
@@ -158,6 +158,13 @@ exports.onCreateNode = ({
       node,
       parent
     );
+
+    // no more slugs in mdx v2
+    createNodeField({
+      node,
+      name: 'slug',
+      value: parent.name
+    });
   } else if (
     owner === 'gatsby-source-filesystem' &&
     mediaType !== undefined &&
