@@ -213,20 +213,25 @@ const AboutPage = ({ data }) => {
               <div className={css.acknowledgementsTeam} key={index}>
                 <h3>{group.name}</h3>
                 <table>
-                  {group.people.map((person, personIndex) => (
-                    <tr key={personIndex}>
-                      <td>
-                      {person.url ? (
-                        <a target="_blank" rel="noreferrer" href={person.url}>
-                          {person.name}
-                        </a>
-                      ) : (
-                        person.name
-                      )}
-                      </td>
-                      <td>{person.role}</td>
-                    </tr>
-                  ))}
+                  <tbody>
+                    {group.people.map((person, personIndex) => (
+                      <tr key={personIndex}>
+                        <td>
+                          {person.url ? (
+                            <a
+                              target="_blank"
+                              rel="noreferrer"
+                              href={person.url}>
+                              {person.name}
+                            </a>
+                          ) : (
+                            person.name
+                          )}
+                        </td>
+                        <td>{person.role}</td>
+                      </tr>
+                    ))}
+                  </tbody>
                 </table>
               </div>
             ))}
