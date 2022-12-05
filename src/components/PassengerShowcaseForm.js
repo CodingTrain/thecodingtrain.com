@@ -48,7 +48,7 @@ const PassengerShowcaseForm = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      challenges: allChallenge(sort: { order: DESC, fields: date }) {
+      challenges: allChallenge(sort: { date: DESC }) {
         nodes {
           title
           slug
