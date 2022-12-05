@@ -17,11 +17,11 @@ module.exports = {
           require('postcss-normalize'),
           require('postcss-nesting'),
           require('postcss-custom-properties')({
-            importFrom: './src/styles/variables.css'
+            // importFrom: './src/styles/variables.css'
           }),
           require('postcss-calc')(),
           require('postcss-custom-media')({
-            importFrom: './src/styles/variables.css'
+            // importFrom: './src/styles/variables.css'
           })
         ]
       }
@@ -169,7 +169,6 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-meta-redirect`,
     'gatsby-plugin-netlify'
   ]
 };
