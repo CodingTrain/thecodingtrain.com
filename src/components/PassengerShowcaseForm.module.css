@@ -42,6 +42,10 @@
 .submitted {
   background-color: var(--purple-light);
   color: var(--purple);
+
+  & a {
+    text-decoration: underline;
+  }
 }
 
 .submitBtn:hover {

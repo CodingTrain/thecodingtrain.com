@@ -35,8 +35,8 @@ const schema = object({
   authorName: string().required().label('Your name'),
   authorUrl: string().label('Your website').url(),
   authorEmail: string().label('Your email'),
-  authorTwitter: string().label('Your email'),
-  authorInstagram: string().label('Your email')
+  authorTwitter: string().label('Twitter'),
+  authorInstagram: string().label('Instagram')
 });
 
 const PassengerShowcaseForm = () => {
@@ -44,6 +44,7 @@ const PassengerShowcaseForm = () => {
   const [state, setState] = useState(defaultState);
   const [error, setError] = useState(null);
   const [submitted, setSubmitted] = useState(false);
+  const [githubPRNo, setGithubPRNo] = useState(null);
 
   const data = useStaticQuery(graphql`
     query {
@@ -113,6 +114,8 @@ const PassengerShowcaseForm = () => {
           }
         );
         if (response.ok) {
+          const json = await response.json();
+          setGithubPRNo(json.pullRequestNo);
           setSubmitted(true);
           setState(defaultState);
         } else {
@@ -266,8 +269,12 @@ const PassengerShowcaseForm = () => {
         {error && <div className={css.error}>{error}</div>}
         {submitted && (
           <div className={css.submitted}>
-            Thank you for submitting to the Passenger Showcase! Please refresh
-            the page in order to upload another submission.
+            Thank you for submitting to the Passenger Showcase!{' '}
+            <a
+              href={`https://github.com/CodingTrain/thecodingtrain.com/pull/${githubPRNo}`}>
+              You can follow this linked pull request on GitHub for more.
+            </a>{' '}
+            Please refresh the page in order to upload another submission.
           </div>
         )}
         <Button
