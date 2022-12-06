@@ -14,7 +14,7 @@ import SquareCharacter from '../images/characters/Square_4.mini.svg';
 const TracksPage = ({ data, pageContext, location }) => {
   const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
-  const tracks = data.tracks.nodes;
+  const tracks = data.tracks;
 
   const placeholderMainTrackImage =
     data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
@@ -65,55 +65,45 @@ const TracksPage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query (
-    $skip: Int!
-    $limit: Int!
-    $topicRegex: String!
-    $languageRegex: String!
-  ) {
+  query ($skip: Int, $limit: Int, $topic: String!, $language: String!) {
     pageData: allTracksPageInfo {
       nodes {
         title
         description
       }
     }
-    tracks: allTrack(
-      filter: {
-        languages: { regex: $languageRegex }
-        topics: { regex: $topicRegex }
-      }
-      sort: { order: ASC, fields: order }
+    tracks: tracksPaginatedFilteredByTags(
+      language: $language
+      topic: $topic
       skip: $skip
       limit: $limit
     ) {
-      nodes {
-        title
+      title
+      slug
+      description
+      numVideos
+      type
+      languages
+      topics
+      videos {
         slug
-        description
-        numVideos
-        type
         languages
         topics
+        title
+      }
+      chapters {
+        title
         videos {
           slug
           languages
           topics
           title
         }
-        chapters {
-          title
-          videos {
-            slug
-            languages
-            topics
-            title
-          }
-        }
-        cover {
-          file {
-            childImageSharp {
-              gatsbyImageData
-            }
+      }
+      cover {
+        file {
+          childImageSharp {
+            gatsbyImageData
           }
         }
       }

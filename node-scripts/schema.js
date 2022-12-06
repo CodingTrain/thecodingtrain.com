@@ -355,4 +355,9 @@ type SupportSection implements Node {
   description: String!
   options: [Cta]
 }
+
+type Query {
+  tracksPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track] 
+  challengesPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge] 
+}
 `;
