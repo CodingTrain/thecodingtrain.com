@@ -15,9 +15,15 @@ export const Tabs = ({ className, variant, labels, children }) => {
   };
 
   const getNavSize = () => {
-    const newNavHeight = navRef.current.clientHeight;
-    setNavHeight(newNavHeight);
+    if (navRef.current.clientHeight) {
+      const newNavHeight = navRef.current.clientHeight;
+      setNavHeight(newNavHeight)
+    };
   };
+
+   useEffect(() => {
+    getNavSize();
+  }, []);
 
   useEffect(() => {
     window.addEventListener('resize', getNavSize);
@@ -34,7 +40,9 @@ export const Tabs = ({ className, variant, labels, children }) => {
   }, [active]);
 
   return (
+    
     <div className={cn(css.root, className, { [css[variant]]: variant })}>
+
       <nav className={css.tabs} ref={navRef}>
         <ul>
           {labels.map((label, key) => (
@@ -79,7 +87,9 @@ export const Tabs = ({ className, variant, labels, children }) => {
           {child}
         </div>
       ))}
+
     </div>
+
   );
 };
 
