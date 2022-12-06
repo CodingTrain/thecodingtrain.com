@@ -8,11 +8,11 @@
   "topics": ["arrays", "nested loop", "for loop", "objects"],
   "canContribute": true,
   "timestamps": [
-    {"time": "0:00", "title": "Introduction" },
-    {"time": "2:23", "title": "Code Example" },
-    {"time": "3:43", "title": "Assigning a Default Value to a Parameter"},
-    {"time": "7:56", "title": "Adding Object Communication" },
-    {"time": "11:55", "title": "Returning the Result of a Boolean" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:23", "title": "Code Example" },
+    { "time": "3:43", "title": "Assigning a Default Value to a Parameter" },
+    { "time": "7:56", "title": "Adding Object Communication" },
+    { "time": "11:55", "title": "Returning the Result of a Boolean" }
   ],
   "codeExamples": [
     {
@@ -24,5 +24,15 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

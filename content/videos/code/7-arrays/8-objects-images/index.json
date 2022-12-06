@@ -8,13 +8,13 @@
   "topics": ["basics", "images", "objects"],
   "canContribute": true,
   "timestamps": [
-    {"time": "0:00", "title": "Introduction" },
-    {"time": "1:19", "title": "PNG Images Allow for Transparent Pixels" },
-    {"time": "3:12", "title": "The image() Function" },
-    {"time": "6:15", "title": "Using a Loop to Load All the Images" },
-    {"time": "8:26", "title": "Using String Concatenation to Load Multiple Images" },
-    {"time": "10:00", "title": "Picking a Random Image from an Array" },
-    {"time": "14:50", "title": "Using a Template Literal to Load Multiple Images" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:19", "title": "PNG Images Allow for Transparent Pixels" },
+    { "time": "3:12", "title": "The image() Function" },
+    { "time": "6:15", "title": "Using a Loop to Load All the Images" },
+    { "time": "8:26", "title": "Using String Concatenation to Load Multiple Images" },
+    { "time": "10:00", "title": "Picking a Random Image from an Array" },
+    { "time": "14:50", "title": "Using a Template Literal to Load Multiple Images" }
   ],
   "codeExamples": [
     {
@@ -26,5 +26,15 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }
