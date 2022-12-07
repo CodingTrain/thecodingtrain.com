@@ -96,14 +96,18 @@ const components = (localImages) => ({
   p: (props) => <p className={css.paragraph} {...props} />,
   img: (props) =>
     !isValidHttpUrl(props.src) && localImages.hasOwnProperty(props.src) ? (
-      <Image
-        className={css.image}
-        image={localImages[props.src]}
-        alt={props.alt}
-        {...props}
-      />
+      <p className={css.paragraph}>
+        <Image
+          className={css.image}
+          image={localImages[props.src]}
+          alt={props.alt}
+          {...props}
+        />
+      </p>
     ) : (
-      <img className={css.image} alt={props.alt} {...props} />
+      <p className={css.paragraph}>
+        <img className={css.image} alt={props.alt} {...props} />
+      </p>
     ),
   a: ({ children, ...props }) => (
     <a className={css.a} {...props}>
