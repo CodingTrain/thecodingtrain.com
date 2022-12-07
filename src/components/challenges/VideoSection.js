@@ -101,7 +101,7 @@ const VideoSection = ({ challenge }) => {
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
-              containerClassName={css.videoWrapper}
+              className={css.videoWrapper}
               videoId={videoId}
               timestamp={timestamp}
             />

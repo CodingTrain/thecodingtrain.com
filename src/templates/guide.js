@@ -142,7 +142,7 @@ const components = (localImages) => ({
   ),
   Video: (props) => (
     <div className={css.video}>
-      <YouTubeVideo containerClassName={css.videoContainer} {...props} />
+      <YouTubeVideo className={css.videoContainer} {...props} />
     </div>
   ),
   PassengerShowcaseForm: (props) => <PassengerShowcaseForm {...props} />
