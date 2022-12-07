@@ -4,8 +4,6 @@ description: 'Guide to sharing your work with the community!'
 date: '05/04/2022'
 ---
 
-import PassengerShowcaseForm from '../../../src/components/PassengerShowcaseForm';
-
 ## Submission Form
 
 Thank you for sharing your work in the Passenger Showcase! There are currently two ways to submit your work: by using this form to upload your work, or to follow the instructions below to create a Pull Request for your project on GitHub!

@@ -16,6 +16,7 @@ import Button from '../components/Button';
 import Spacer from '../components/Spacer';
 import YouTubeVideo from '../components/YouTubeVideo';
 import Image from '../components/Image';
+import PassengerShowcaseForm from '../components/PassengerShowcaseForm';
 
 import * as css from './guide.module.css';
 
@@ -139,7 +140,8 @@ const components = (localImages) => ({
     <div className={css.video}>
       <YouTubeVideo containerClassName={css.videoContainer} {...props} />
     </div>
-  )
+  ),
+  PassengerShowcaseForm: (props) => <PassengerShowcaseForm {...props} />
 });
 
 const useLocalImages = (images) => {
