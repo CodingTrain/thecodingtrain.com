@@ -114,8 +114,6 @@ const PassengerShowcaseForm = () => {
           }
         );
         if (response.ok) {
-          const json = await response.json();
-          setGithubPRNo(json.pullRequestNo);
           setSubmitted(true);
           setState(defaultState);
         } else {
@@ -270,10 +268,12 @@ const PassengerShowcaseForm = () => {
         {submitted && (
           <div className={css.submitted}>
             Thank you for submitting to the Passenger Showcase!{' '}
-            <a
-              href={`https://github.com/CodingTrain/thecodingtrain.com/pull/${githubPRNo}`}>
-              You can follow this linked pull request on GitHub for more.
-            </a>{' '}
+            {githubPRNo && (
+              <a
+                href={`https://github.com/CodingTrain/thecodingtrain.com/pull/${githubPRNo}`}>
+                You can follow this linked pull request on GitHub for more.
+              </a>
+            )}{' '}
             Please refresh the page in order to upload another submission.
           </div>
         )}
