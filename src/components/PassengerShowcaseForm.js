@@ -44,7 +44,6 @@ const PassengerShowcaseForm = () => {
   const [state, setState] = useState(defaultState);
   const [error, setError] = useState(null);
   const [submitted, setSubmitted] = useState(false);
-  const [githubPRNo, setGithubPRNo] = useState(null);
 
   const data = useStaticQuery(graphql`
     query {
@@ -267,14 +266,8 @@ const PassengerShowcaseForm = () => {
         {error && <div className={css.error}>{error}</div>}
         {submitted && (
           <div className={css.submitted}>
-            Thank you for submitting to the Passenger Showcase!{' '}
-            {githubPRNo && (
-              <a
-                href={`https://github.com/CodingTrain/thecodingtrain.com/pull/${githubPRNo}`}>
-                You can follow this linked pull request on GitHub for more.
-              </a>
-            )}{' '}
-            Please refresh the page in order to upload another submission.
+            Thank you for submitting to the Passenger Showcase! Please refresh
+            the page in order to upload another submission.
           </div>
         )}
         <Button

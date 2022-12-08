@@ -152,9 +152,4 @@ exports.handler = async function (event) {
   );
 
   console.log('Done!');
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ success: true, pullRequestNo: prRes.data.number  }),
-  };
 };
