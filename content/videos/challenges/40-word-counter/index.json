@@ -1,11 +1,14 @@
 {
-    "title": "Word Counter in JavaScript",
-    "description": "In this coding challenge, I build a word counting (concordance) web application in JavaScript. The video demonstrates a use of associate arrays, regular expressions, and other techniques previously covered as part of \u201cProgramming from A to Z.\u201d",
+    "title": "Word Counter",
+    "description": "In this challenge, we build a word counting (concordance) application, and visualize the frequency of each word using variable font size! We also implement the TF-IDF algorithm",
     "videoNumber": "40",
-    "videoId": "unm0BLor8aE",
+    "videoId": "",
     "date": "2016-10-10",
     "languages": [],
     "topics": [
+        "word counting",
+        "visualization",
+        "tf-idf"
     ],
     "canContribute": true,
     "relatedChallenges": [],
