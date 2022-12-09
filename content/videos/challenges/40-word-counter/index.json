@@ -58,27 +58,12 @@
     ],
     "groupLinks": [
         {
-            "title": "Other Parts Of This Coding Challenge",
-            "links": [
-                {
-                    "title": "Word Counter in Processing",
-                    "url": "/challenge/040.2-wordcounts",
-                    "description": ""
-                },
-                {
-                    "title": "TF-IDF",
-                    "url": "/challenge/040.3-tf-idf",
-                    "description": ""
-                }
-            ]
-        },
-        {
             "title": "References",
             "links": [
                 {
                     "title": "ITP from Tisch School of the Arts",
                     "url": "https://tisch.nyu.edu/itp",
-                    "description": ""
+                    "description": "Website of ITP NYU"
                 }
             ]
         }
