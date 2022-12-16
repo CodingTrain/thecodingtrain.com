@@ -33,13 +33,13 @@
     "featured": [
       "175-3D-cube-applesoft-basic",
       "174-graphics-applesoft-basic",
-      "93-double-pendulum",
-      "158-shape-classifier",
-      "46-asteroids",
-      "28-metaballs",
-      "67-pong",
-      "89-langtons-ant",
-      "131-bouncing-dvd-logo"
+      "58-3d-earthquake-data-visualization",
+      "160-spring-forces",
+      "124-flocking-simulation",
+      "133-time-tables-cardioid-visualization",
+      "63-texturing-cloth-simulation",
+      "56-attraction-and-repulsion-forces",
+      "94-2048"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,14 +50,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/61-fractal-spirograph/showcase/contribution2.json",
-      "challenges/175-3D-cube-applesoft-basic/showcase/contribution-1669691185.json",
-      "challenges/55-mathematical-rose-patterns/showcase/contribution4.json",
-      "challenges/148-gift-wrapping/showcase/contribution5.json",
-      "challenges/72-frogger/showcase/contribution2.json",
-      "challenges/162-self-avoiding-walk/showcase/contribution3.json",
-      "challenges/164-slitscan/showcase/contribution1.json",
-      "challenges/12-lorenz-attractor/showcase/contribution3.json"
+      "challenges/89-langtons-ant/showcase/contribution1.json",
+      "challenges/2-menger-sponge/showcase/contribution6.json",
+      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution6.json",
+      "challenges/76-10Print/showcase/contribution36.json",
+      "challenges/108-barnsley-fern/showcase/contribution7.json",
+      "challenges/117-seven-segment-display/showcase/contribution13.json",
+      "challenges/105-polynomial-regression-with-tensorflowjs/showcase/contribution5.json",
+      "challenges/172-directional-boring/showcase/contribution-1657268461.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
