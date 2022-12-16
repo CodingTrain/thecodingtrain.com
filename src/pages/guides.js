@@ -62,7 +62,7 @@ const GuidesPage = ({ data }) => {
             <GuideCard
               title={guide.mdx.frontmatter.title}
               description={guide.mdx.frontmatter.description}
-              slug={`/guides/${guide.mdx.slug}`}
+              slug={`/guides/${guide.mdx.fields.slug}`}
               meta={guide.mdx.frontmatter.date}
               icon={'📒'}
               image={
@@ -118,7 +118,9 @@ export const query = graphql`
             description
             date
           }
-          slug
+          fields {
+            slug
+          }
         }
         cover {
           file {

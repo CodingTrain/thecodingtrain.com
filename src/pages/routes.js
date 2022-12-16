@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
               .filter((n) => n.frontmatter.title)
               .map((mdx, i) => (
                 <li key={i}>
-                  <Link to={`/guides/${mdx.slug}`}>
+                  <Link to={`/guides/${mdx.fields.slug}`}>
                     {mdx.frontmatter.title}
                   </Link>
                 </li>
@@ -79,7 +79,9 @@ export const query = graphql`
         frontmatter {
           title
         }
-        slug
+        fields {
+          slug
+        }
       }
     }
   }

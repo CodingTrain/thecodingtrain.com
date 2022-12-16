@@ -111,7 +111,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
-              containerClassName={css.videoWrapper}
+              className={css.videoWrapper}
               videoId={videoId}
               timestamp={timestamp}
             />

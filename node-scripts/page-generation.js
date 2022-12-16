@@ -261,18 +261,25 @@ exports.createGuidePages = async (graphql, createPage) => {
     query {
       mdxs: allMdx {
         nodes {
-          slug
+          fields {
+            slug
+          }
+          internal {
+            contentFilePath
+          }
         }
       }
     }
   `);
 
+  const template = require.resolve(`../src/templates/guide.js`);
+
   data.mdxs.nodes.forEach((mdx) => {
     createPage({
-      path: `guides/${mdx.slug}`,
-      component: require.resolve(`../src/templates/guide.js`),
+      path: `guides/${mdx.fields.slug}`,
+      component: `${template}?__contentFilePath=${mdx.internal.contentFilePath}`,
       context: {
-        slug: mdx.slug
+        slug: mdx.fields.slug
       }
     });
   });

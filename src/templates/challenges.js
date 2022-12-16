@@ -164,10 +164,7 @@ export const query = graphql`
         }
       }
     }
-    recentChallenge: allChallenge(
-      sort: { fields: date, order: DESC }
-      limit: 1
-    ) {
+    recentChallenge: allChallenge(sort: { date: DESC }, limit: 1) {
       nodes {
         title
         slug
