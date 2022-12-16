@@ -26,8 +26,6 @@ This will start a local server and the website will now be accessible on [localh
 **Note:** In some cases, specially when updating loaded content, you need to restart the local server with `npm run dev`.
 And in some cases that may fail because of Gatsby's cache usage. If you run `npm run clean` before `npm run dev`, that should fix it.
 
-Please note that changes to the README.md file will not trigger a Netlify build.
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
