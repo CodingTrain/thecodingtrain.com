@@ -1,3 +1,4 @@
 [build]
   command = "npm run build-ci"
+  # skip build when changes are isolated to README.md or .all-contributorsrc
   ignore = "git diff --quiet HEAD^ HEAD -- README.md -- .all-contributorsrc"
