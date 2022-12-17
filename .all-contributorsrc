@@ -126,6 +126,15 @@
         "doc",
         "content"
       ]
+    },
+    {
+      "login": "anusha-exe",
+      "name": "Anusha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68950164?v=4",
+      "profile": "https://github.com/anusha-exe",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
