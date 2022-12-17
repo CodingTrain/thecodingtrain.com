@@ -118,10 +118,20 @@
       ]
     },
     {
-      "login": "borntofrappe",
-      "name": "Gabriele Corti",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33316703?v=4",
-      "profile": "https://borntofrappe.netlify.app/",
+      "login": "skaser85",
+      "name": "Steve Kaser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28508947?v=4",
+      "profile": "https://github.com/skaser85",
+      "contributions": [
+        "doc",
+        "content"
+      ]
+    },
+    {
+      "login": "anusha-exe",
+      "name": "Anusha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68950164?v=4",
+      "profile": "https://github.com/anusha-exe",
       "contributions": [
         "content"
       ]
