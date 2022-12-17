@@ -135,6 +135,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "borntofrappe",
+      "name": "Gabriele Corti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33316703?v=4",
+      "profile": "https://borntofrappe.netlify.app/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
