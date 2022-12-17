@@ -1,7 +1,7 @@
 # Coding Train Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
@@ -52,6 +52,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/olegon"><img src="https://avatars.githubusercontent.com/u/434364?v=4?s=100" width="100px;" alt="Leandro Gonçalves de Oliveira"/><br /><sub><b>Leandro Gonçalves de Oliveira</b></sub></a><br /><a href="#content-olegon" title="Content">🖋</a></td>
       <td align="center"><a href="https://github.com/laurie60"><img src="https://avatars.githubusercontent.com/u/100629314?v=4?s=100" width="100px;" alt="laurie60"/><br /><sub><b>laurie60</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=laurie60" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/skaser85"><img src="https://avatars.githubusercontent.com/u/28508947?v=4?s=100" width="100px;" alt="Steve Kaser"/><br /><sub><b>Steve Kaser</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=skaser85" title="Documentation">📖</a> <a href="#content-skaser85" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/anusha-exe"><img src="https://avatars.githubusercontent.com/u/68950164?v=4?s=100" width="100px;" alt="Anusha"/><br /><sub><b>Anusha</b></sub></a><br /><a href="#content-anusha-exe" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
