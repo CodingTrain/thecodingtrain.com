@@ -1,7 +1,7 @@
 # Coding Train Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
@@ -56,6 +56,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center"><a href="https://borntofrappe.netlify.app/"><img src="https://avatars.githubusercontent.com/u/33316703?v=4?s=100" width="100px;" alt="Gabriele Corti"/><br /><sub><b>Gabriele Corti</b></sub></a><br /><a href="#content-borntofrappe" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/fturmel"><img src="https://avatars.githubusercontent.com/u/4009209?v=4?s=100" width="100px;" alt="Francis Turmel"/><br /><sub><b>Francis Turmel</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=fturmel" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
