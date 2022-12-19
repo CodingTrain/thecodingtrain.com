@@ -15,9 +15,13 @@
 .icon,
 .description,
 .url {
-  min-height: var(--baseline);
   padding: 0 var(--spacing-normal);
   line-height: var(--baseline);
+}
+
+.icon,
+.description {
+  height: var(--baseline);
 }
 
 .icon {
