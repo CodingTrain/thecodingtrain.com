@@ -15,8 +15,12 @@
 .icon,
 .description,
 .url {
-  height: var(--baseline);
   padding: 0 var(--spacing-normal);
+  min-height: var(--baseline);
+}
+
+.icon,
+.description {
   line-height: var(--baseline);
 }
 
@@ -75,8 +79,11 @@
   }
 
   .url {
-    text-overflow: initial;
     max-width: calc(100% - 35px);
+  }
+
+  .url a {
+    white-space: normal;
   }
 
   .description {
@@ -93,6 +100,12 @@
   .icon {
     display: none;
   }
+
+  .url {
+    max-width: 100%;
+    padding-top: calc(var(--baseline) / 2);
+  }
+
   .description {
     height: var(--baseline-2x);
     font-size: var(--maru-medium);
