@@ -17,10 +17,6 @@
 .url {
   padding: 0 var(--spacing-normal);
   min-height: var(--baseline);
-}
-
-.icon,
-.description {
   line-height: var(--baseline);
 }
 
@@ -103,7 +99,8 @@
 
   .url {
     max-width: 100%;
-    padding-top: calc(var(--baseline) / 2);
+    padding-top: 20px;
+    line-height: normal;
   }
 
   .description {
