@@ -295,6 +295,21 @@ const filterByTagsResolver = async (
   return entries;
 };
 
+const showcaseResolver = async (source, args, context, info) => {
+  const query = {};
+
+  set(query, 'filter.video.id.eq', source.id);
+  set(query, 'sort.order', ['ASC']);
+  set(query, 'sort.fields', ['name']);
+
+  const { entries } = await context.nodeModel.findAll({
+    type: 'Contribution',
+    query
+  });
+
+  return entries;
+};
+
 exports.createResolvers = ({ createResolvers }) => {
   const resolvers = {
     Track: {
@@ -307,6 +322,18 @@ exports.createResolvers = ({ createResolvers }) => {
         type: ['String'],
         resolve: async (source, args, context, info) =>
           await tagResolver(source, context, 'languages')
+      }
+    },
+    Challenge: {
+      showcase: {
+        type: ['Contribution'],
+        resolve: showcaseResolver
+      }
+    },
+    Video: {
+      showcase: {
+        type: ['Contribution'],
+        resolve: showcaseResolver
       }
     },
     Query: {
