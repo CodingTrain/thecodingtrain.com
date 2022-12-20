@@ -87,17 +87,7 @@ exports.createVideoRelatedNode = (
   } else {
     const slug = parent.relativeDirectory;
     const data = getJson(node);
-    // If folder present, it reads every contribution file present in the
-    // video folder so that we can get the corresponding ID's to link them
-    const showcase = fs.existsSync(`${parent.dir}/showcase`)
-      ? fs
-          .readdirSync(`${parent.dir}/showcase`)
-          .filter((file) => file.includes('.json'))
-          .map(
-            (file) =>
-              `${slugPrefix}${parent.relativeDirectory}/showcase/${file}`
-          )
-      : [];
+
     const timestamps = timestampsWithSeconds(data.timestamps ?? []);
     const parts = (data.parts ?? []).map((part) => ({
       ...part,
@@ -123,7 +113,6 @@ exports.createVideoRelatedNode = (
       })),
       groupLinks: data.groupLinks ?? [],
       canContribute: data.canContribute ?? schemaType === 'Challenge',
-      showcase: showcase.map((file) => createNodeId(file)),
       relatedChallenges: (data.relatedChallenges ?? []).map((slug) =>
         createNodeId(
           `--videos/${

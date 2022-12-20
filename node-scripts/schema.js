@@ -17,11 +17,13 @@ interface VideoInterface implements Node {
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+
+  # as resolver
+  showcase: [Contribution]
 }
 
 type Video implements VideoInterface & Node {
@@ -38,11 +40,13 @@ type Video implements VideoInterface & Node {
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+
+  # as resolver
+  showcase: [Contribution]
 }
 
 type Challenge implements VideoInterface & Node {
@@ -59,11 +63,13 @@ type Challenge implements VideoInterface & Node {
   codeExamples: [CodeExample!]
   parts: [ChallengePart!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+
+  # as resolver
+  showcase: [Contribution]
 }
 
 type GuestTutorial implements VideoInterface & Node {
