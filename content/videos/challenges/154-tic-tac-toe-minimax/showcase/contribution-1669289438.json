@@ -1,7 +1,7 @@
 {
   "title": "Checkers game with minimax AI, alpha-beta pruning, transposition tables, quescience search",
   "author": {
-    "name": "Marius Köppen"
+    "name": "Marius KÃ¶ppen"
   },
   "url": "https://mariuskoeppen.github.io/Checkers/",
   "submittedOn": "2022-11-24"
