@@ -296,9 +296,15 @@ const filterByTagsResolver = async (
 };
 
 const showcaseResolver = async (source, args, context, info) => {
+  const query = {};
+
+  set(query, 'filter.video.id.eq', source.id);
+  set(query, 'sort.order', ['ASC']);
+  set(query, 'sort.fields', ['name']);
+
   const { entries } = await context.nodeModel.findAll({
     type: 'Contribution',
-    query: { filter: { video: { id: { eq: source.id } } } }
+    query
   });
 
   return entries;
