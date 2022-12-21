@@ -19,6 +19,7 @@ const {
   createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
+  createSlices,
   createTrackVideoPages,
   createTracksPages,
   createChallengesPages,
@@ -225,7 +226,9 @@ exports.onCreateNode = ({
 };
 
 exports.createPages = async function ({ actions, graphql }) {
-  const { createPage } = actions;
+  const { createPage, createSlice } = actions;
+
+  await createSlices(createSlice);
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);

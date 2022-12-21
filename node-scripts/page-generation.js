@@ -16,6 +16,22 @@ const extractTags = (nodes, pluckKey) => {
 };
 
 /**
+ * Creates Gatsby slices
+ * @param {function} createSlice - Gatsby's createSlice function
+ */
+exports.createSlices = async (createSlice) => {
+  createSlice({
+    id: `TopBar`,
+    component: require.resolve(`../src/components/TopBar.js`)
+  });
+
+  createSlice({
+    id: `Footer`,
+    component: require.resolve(`../src/components/Footer.js`)
+  });
+};
+
+/**
  * Creates single Challenge pages for all loaded Challenge nodes
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function

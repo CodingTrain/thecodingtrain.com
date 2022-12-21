@@ -1,8 +1,10 @@
 import React from 'react';
+import { Slice } from 'gatsby';
 
 import Head from './Head';
-import TopBar from './TopBar';
-import Footer from './Footer';
+
+// fixes chunks order warnings
+import '../styles/styles.module.css';
 
 import '../styles/base.css';
 import '../styles/variables.css';
@@ -15,9 +17,9 @@ const Layout = ({ children, title, description, image }) => {
     <div className={css.container}>
       <Head title={title} description={description} image={image} />
       <div className={css.content}>
-        <TopBar />
+        <Slice alias="TopBar" />
         {children}
-        <Footer />
+        <Slice alias="Footer" />
       </div>
     </div>
   );
