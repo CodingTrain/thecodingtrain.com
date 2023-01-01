@@ -33,13 +33,11 @@
     "featured": [
       "175-3D-cube-applesoft-basic",
       "174-graphics-applesoft-basic",
-      "58-3d-earthquake-data-visualization",
-      "160-spring-forces",
-      "124-flocking-simulation",
-      "133-time-tables-cardioid-visualization",
-      "63-texturing-cloth-simulation",
-      "56-attraction-and-repulsion-forces",
-      "94-2048"
+      "127-brownian-tree-snowflake",
+      "128-sketch-rnn-snowflakes",
+      "129-koch-fractal-snowflake",
+      "155-kaleidoscope-snowflake",
+      "88-snowfall"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,14 +48,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/89-langtons-ant/showcase/contribution1.json",
-      "challenges/2-menger-sponge/showcase/contribution6.json",
-      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution6.json",
-      "challenges/76-10Print/showcase/contribution36.json",
-      "challenges/108-barnsley-fern/showcase/contribution7.json",
-      "challenges/117-seven-segment-display/showcase/contribution13.json",
-      "challenges/105-polynomial-regression-with-tensorflowjs/showcase/contribution5.json",
-      "challenges/172-directional-boring/showcase/contribution-1657268461.json"
+      "challenges/129-koch-fractal-snowflake/showcase/contribution4.json",
+      "challenges/127-brownian-tree-snowflake/showcase/contribution7.json",
+      "challenges/88-snowfall/showcase/contribution5.json",
+      "challenges/155-kaleidoscope-snowflake/showcase/contribution1.json",
+      "challenges/155-kaleidoscope-snowflake/showcase/contribution6.json",
+      "challenges/88-snowfall/showcase/contribution4.json",
+      "challenges/129-koch-fractal-snowflake/showcase/contribution3.json",
+      "challenges/127-brownian-tree-snowflake/showcase/contribution5.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
