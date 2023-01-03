@@ -32,7 +32,8 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "175-3D-cube-applesoft-basic",
-      "174-graphics-applesoft-basic",
+      "27-fireworks",
+      "59-steering-behaviors",
       "127-brownian-tree-snowflake",
       "128-sketch-rnn-snowflakes",
       "129-koch-fractal-snowflake",
@@ -53,9 +54,9 @@
       "challenges/88-snowfall/showcase/contribution5.json",
       "challenges/155-kaleidoscope-snowflake/showcase/contribution1.json",
       "challenges/155-kaleidoscope-snowflake/showcase/contribution6.json",
-      "challenges/88-snowfall/showcase/contribution4.json",
       "challenges/129-koch-fractal-snowflake/showcase/contribution3.json",
-      "challenges/127-brownian-tree-snowflake/showcase/contribution5.json"
+      "challenges/127-brownian-tree-snowflake/showcase/contribution5.json",
+      "challenges/27-fireworks/showcase/contribution11.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
