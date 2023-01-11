@@ -32,13 +32,14 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "175-3D-cube-applesoft-basic",
-      "27-fireworks",
-      "59-steering-behaviors",
-      "127-brownian-tree-snowflake",
-      "128-sketch-rnn-snowflakes",
-      "129-koch-fractal-snowflake",
-      "155-kaleidoscope-snowflake",
-      "88-snowfall"
+      "68-breadth-first-search",
+      "121-logo-interpreter",
+      "29-smart-rockets-in-p5js",
+      "54-islamic-star-patterns",
+      "143-quicksort",
+      "144-2d-black-hole-visualization",
+      "80-voice-chatbot-with-p5speech",
+      "119-binary-to-decimal-conversion"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -49,15 +50,15 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/129-koch-fractal-snowflake/showcase/contribution4.json",
-      "challenges/127-brownian-tree-snowflake/showcase/contribution7.json",
-      "challenges/88-snowfall/showcase/contribution5.json",
-      "challenges/155-kaleidoscope-snowflake/showcase/contribution1.json",
-      "challenges/155-kaleidoscope-snowflake/showcase/contribution6.json",
-      "challenges/129-koch-fractal-snowflake/showcase/contribution3.json",
-      "challenges/127-brownian-tree-snowflake/showcase/contribution5.json",
-      "challenges/27-fireworks/showcase/contribution11.json",
-      "challenges/59-steering-behaviors/showcase/contribution-1672613359.json"
+      "challenges/68-breadth-first-search/showcase/contribution3.json",
+      "challenges/121-logo-interpreter/showcase/contribution6.json",
+      "challenges/29-smart-rockets-in-p5js/showcase/contribution-1672174734.json",
+      "challenges/54-islamic-star-patterns/showcase/contribution-1669530254.json",
+      "challenges/143-quicksort/showcase/contribution9.json",
+      "challenges/144-2d-black-hole-visualization/showcase/contribution5.json",
+      "challenges/80-voice-chatbot-with-p5speech/showcase/contribution1.json",
+      "challenges/119-binary-to-decimal-conversion/showcase/contribution4.json",
+      "challenges/175-3D-cube-applesoft-basic/showcase/contribution-1671618081.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
