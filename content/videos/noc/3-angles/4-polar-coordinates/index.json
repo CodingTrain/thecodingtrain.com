@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "O5wjXoFrau4",
+  "date": "2021-02-06",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
@@ -80,16 +81,6 @@
           "description": "Coding challenge on Perlin noise loops with polar coordinates"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "ttz05d8DSOs",
+  "date": "2020-03-21",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -46,16 +47,6 @@
           "description": "Source code for the p5.Vector setMag method"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "DMg-WRfNB60",
+  "date": "2021-01-26",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
@@ -36,16 +37,6 @@
           "description": "Coding Train video on transformations in p5.js"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

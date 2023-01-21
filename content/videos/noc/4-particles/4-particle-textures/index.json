@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "pUhv2CA0omA",
+  "date": "2021-04-13",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -47,16 +48,6 @@
           "description": "Holiday themed Coding Challenge to animate snow with Perlin noise wind in p5.js"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "JLAc9hMtcxk",
+  "date": "2021-02-12",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -38,16 +39,6 @@
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba"
       }
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

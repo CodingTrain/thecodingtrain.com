@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "jupjuq9Jl-M",
+  "date": "2020-3-16",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
@@ -39,16 +40,6 @@
           "description": "p5 Reference page on the p5.Vector class"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

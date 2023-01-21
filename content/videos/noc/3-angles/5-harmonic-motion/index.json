@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "m463X1cqV6s",
+  "date": "2021-02-07",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
@@ -71,16 +72,6 @@
           "description": "Coding Train challenge on creating a Lissajous Curve Table in p5js"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

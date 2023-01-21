@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "wDYD3JVtOys",
+  "date": "2021-03-12",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -65,16 +66,6 @@
           "description": "Coding Train video on polymorphism in Object-Oriented Programming and JavaScript ES6"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

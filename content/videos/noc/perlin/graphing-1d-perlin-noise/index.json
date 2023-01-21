@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "y7sgcFhk6ZM",
+  "date": "2016-06-24",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -47,16 +48,6 @@
           "description": "p5.js reference for random()"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

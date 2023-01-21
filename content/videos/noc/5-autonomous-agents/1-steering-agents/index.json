@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "P_xJMH8VvAE",
+  "date": "2021-06-04",
   "timestamps": [],
   "groupLinks": [
     {
@@ -16,7 +17,7 @@
         },
         {
           "title": "Vehicles: Experiments in Synthetic Psychology (MIT Press)",
-          "url": "https://mitpress.mit.edu/books/vehicles",
+          "url": "link 2 url",
           "description": "Valentino Baitenberg's book of thought experiments on autonomous vehicles"
         },
         {
@@ -40,16 +41,6 @@
           "description": "Coding Challenge to simulate a flock using the boids algorithm"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

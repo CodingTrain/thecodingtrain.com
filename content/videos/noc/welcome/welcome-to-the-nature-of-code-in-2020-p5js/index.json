@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "70MQ-FugwbI",
+  "date": "2020-03-06",
   "timestamps": [],
   "groupLinks": [
     {
@@ -25,16 +26,6 @@
           "description": "Full Nature of Code certificate course on Kadenze"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

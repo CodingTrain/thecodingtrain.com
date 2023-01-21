@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "okfZRl4Xw-c",
+  "date": "2021-02-16",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -26,16 +27,6 @@
           "description": "Coding Train challenge on simulating a pendulum in p5js"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

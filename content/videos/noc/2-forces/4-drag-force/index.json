@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "DxFDgOYEoy8",
+  "date": "2020-04-11",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -47,16 +48,6 @@
           "description": "Link to the second chapter of the Nature of Code book"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

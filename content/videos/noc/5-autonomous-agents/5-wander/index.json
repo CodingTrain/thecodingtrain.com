@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "ujsR2vcJlLk",
+  "date": "2021-09-16",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -76,16 +77,6 @@
           "description": "Nature of Code video on using polar coordinates in p5.js"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "oXwCVDXS2Lg",
+  "date": "2021-02-02",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
@@ -57,16 +58,6 @@
           "description": "Coding challenge on making asteroids in p5.js"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

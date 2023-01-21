@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "rlZYT-uvmGQ",
+  "date": "2021-10-16",
   "timestamps": [],
   "canContribute": true,
   "codeExamples": [
@@ -44,16 +45,6 @@
           "description": "Previous Nature of Code video on using the dot product and scalar projection in p5.js"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

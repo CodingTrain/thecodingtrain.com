@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "bKEaK7WNLzM",
+  "date": "2020-03-07",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
@@ -41,16 +42,6 @@
           "description": "Video on JavaScript Classes on the Coding Train YouTube channel"
         }
       ]
-    }
-  ],
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
     }
   ]
 }

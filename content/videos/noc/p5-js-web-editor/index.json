@@ -4,16 +4,7 @@
   "languages": ["p5.js", "Python"],
   "topics": ["For beginners"],
   "videoId": "MXs1cOlidWs",
+  "date": "2018-09-06",
   "timestamps": [],
-  "canContribute": true,
-  "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+  "canContribute": true
 }
