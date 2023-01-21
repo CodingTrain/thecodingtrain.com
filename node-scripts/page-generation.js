@@ -312,3 +312,98 @@ exports.createGuidePages = async (graphql, createPage) => {
     });
   });
 };
+
+/**
+ * Creates single Challenge pages for all loaded Challenge nodes --testing out just making another set of these at a different path
+ * @param {function} graphql - Gatsby's graphql function
+ * @param {function} createPage - Gatsby's createPage function
+ */
+exports.createShowcasesPages = async (graphql, createPage) => {
+  const {
+    data: { contributions }
+  } = await graphql(`
+    query {
+      contributions: allContribution {
+        nodes {
+          id
+          title
+          video {
+            slug
+          }
+        }
+      }
+    }
+  `);
+
+  paginate({
+    createPage,
+    items: contributions.nodes,
+    itemsPerPage: ITEMS_PER_PAGE,
+    pathPrefix: '/showcases',
+    component: require.resolve(`../src/templates/showcases.js`),
+    context: {
+      topic: '',
+      topicRegex: '/.*.*/',
+      language: '',
+      languageRegex: '/.*.*/',
+      videoSlug: 'data/1-client-side/3-graphing'
+    }
+  });
+
+  const {
+    data: { languages, topics }
+  } = await graphql(`
+    query {
+      languages: allTag(filter: { type: { eq: "language" } }) {
+        nodes {
+          value
+        }
+      }
+      topics: allTag(filter: { type: { eq: "topic" } }) {
+        nodes {
+          value
+        }
+      }
+    }
+  `);
+
+  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
+    const languageRegex = `/.*${language}.*/`;
+    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
+      const topicRegex = `/.*${topic}.*/`;
+      const {
+        data: { filteredContributions }
+      } = await graphql(`
+        query {
+          filteredContributions: allContribution (
+            filter: {
+                video: { 
+                    languagesFlat: {regex: "${languageRegex}"}, 
+                    topicsFlat: {regex: "${topicRegex}"}}}
+          ) {
+            nodes {
+              id
+            }
+          }
+        }
+      `);
+
+      paginate({
+        createPage,
+        items: filteredContributions.nodes,
+        itemsPerPage: ITEMS_PER_PAGE,
+        pathPrefix: `/showcases/lang/${
+          language !== '' ? toSlug(language) : 'all'
+        }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,
+        component: require.resolve(`../src/templates/showcases.js`),
+        context: {
+          topic,
+          topicRegex,
+          language,
+          languageRegex,
+          videoSlug: 'data/1-client-side/3-graphing'
+        }
+      });
+    });
+  });
+};
