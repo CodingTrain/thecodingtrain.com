@@ -328,14 +328,23 @@ const IndexPage = ({ data }) => {
               <ButtonPanel
                 variant="purple"
                 className={css.baselineButtonPanel}
-                text={content.passengerShowcase.cta.text}
-                buttonText={content.passengerShowcase.cta.buttonText}
+                text={content.passengerShowcase.featuredCta.text}
+                buttonText={content.passengerShowcase.featuredCta.buttonText}
                 buttonLink={
                   content.passengerShowcase.featured.url ??
                   (content.passengerShowcase.featured.videoId
                     ? `https://youtu.be/${content.passengerShowcase.featured.videoId}`
                     : content.passengerShowcase.featured.source)
                 }
+                smallWrap
+                rainbow
+              />
+              <ButtonPanel
+                variant="purple"
+                className={css.baselineButtonPanel}
+                text={content.passengerShowcase.showcaseCta.text}
+                buttonText={content.passengerShowcase.showcaseCta.buttonText}
+                buttonLink={content.passengerShowcase.showcaseCta.href}
                 smallWrap
                 rainbow
               />
@@ -495,7 +504,11 @@ export const query = graphql`
       }
       passengerShowcase {
         title
-        cta {
+        featuredCta {
+          text
+          buttonText
+        }
+        showcaseCta {
           text
           buttonText
         }

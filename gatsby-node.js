@@ -23,7 +23,8 @@ const {
   createTrackVideoPages,
   createTracksPages,
   createChallengesPages,
-  createGuidePages
+  createGuidePages,
+  createShowcasePages
 } = require('./node-scripts/page-generation');
 
 const redirects = require('./redirects.json');
@@ -233,6 +234,7 @@ exports.createPages = async function ({ actions, graphql }) {
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
+  await createShowcasePages(graphql, createPage);
 
   for (let fromPath in redirects) {
     const toPath = redirects[fromPath];

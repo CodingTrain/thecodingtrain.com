@@ -312,3 +312,96 @@ exports.createGuidePages = async (graphql, createPage) => {
     });
   });
 };
+
+/**
+ * Creates single Showcase pages for all loaded Showcase nodes 
+ * @param {function} graphql - Gatsby's graphql function
+ * @param {function} createPage - Gatsby's createPage function
+ */
+exports.createShowcasePages = async (graphql, createPage) => {
+  const {
+    data: { contributions }
+  } = await graphql(`
+    query {
+      contributions: allContribution {
+        nodes {
+          id
+          title
+          video {
+            slug
+          }
+        }
+      }
+    }
+  `);
+
+  paginate({
+    createPage,
+    items: contributions.nodes,
+    itemsPerPage: ITEMS_PER_PAGE,
+    pathPrefix: '/showcase',
+    component: require.resolve(`../src/templates/showcases.js`),
+    context: {
+      topic: '',
+      topicRegex: '/.*.*/',
+      language: '',
+      languageRegex: '/.*.*/'
+    }
+  });
+
+  const {
+    data: { languages, topics }
+  } = await graphql(`
+    query {
+      languages: allTag(filter: { type: { eq: "language" } }) {
+        nodes {
+          value
+        }
+      }
+      topics: allTag(filter: { type: { eq: "topic" } }) {
+        nodes {
+          value
+        }
+      }
+    }
+  `);
+
+  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
+    const languageRegex = `/.*${language}.*/`;
+    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
+      const topicRegex = `/.*${topic}.*/`;
+      const {
+        data: { filteredContributions }
+      } = await graphql(`
+        query {
+          filteredContributions: allContribution (
+            filter: {
+                video: { 
+                    languagesFlat: {regex: "${languageRegex}"}, 
+                    topicsFlat: {regex: "${topicRegex}"}}}
+          ) {
+            nodes {
+              id
+            }
+          }
+        }
+      `);
+
+      paginate({
+        createPage,
+        items: filteredContributions.nodes,
+        itemsPerPage: ITEMS_PER_PAGE,
+        pathPrefix: `/showcase/lang/${
+          language !== '' ? toSlug(language) : 'all'
+        }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,
+        component: require.resolve(`../src/templates/showcases.js`),
+        context: {
+          topic,
+          topicRegex,
+          language,
+          languageRegex
+        }
+      });
+    });
+  });
+};
