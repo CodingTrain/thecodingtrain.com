@@ -338,7 +338,7 @@ exports.createShowcasePages = async (graphql, createPage) => {
   paginate({
     createPage,
     items: contributions.nodes,
-    itemsPerPage: ITEMS_PER_PAGE,
+    itemsPerPage: 51,
     pathPrefix: '/showcase',
     component: require.resolve(`../src/templates/showcases.js`),
     context: {
@@ -390,7 +390,7 @@ exports.createShowcasePages = async (graphql, createPage) => {
       paginate({
         createPage,
         items: filteredContributions.nodes,
-        itemsPerPage: ITEMS_PER_PAGE,
+        itemsPerPage: 51,
         pathPrefix: `/showcase/lang/${
           language !== '' ? toSlug(language) : 'all'
         }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,

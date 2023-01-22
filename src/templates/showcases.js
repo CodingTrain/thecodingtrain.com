@@ -6,8 +6,8 @@ import Image from '../components/Image';
 import Card from '../components/showcase/Card';
 
 import PlayButton from '../images/playbutton.svg';
-import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
-import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
+import DotCharacter from '../images/characters/ThisDot_7.mini.svg';
+import DotCharacter2 from '../images/characters/ThisDot_3.mini.svg';
 import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 
 import { getReadableDate } from '../hooks';
@@ -35,10 +35,10 @@ const ShowcasePage = ({ data, pageContext, location }) => {
       location={location}
       itemsPath="showcase"
       variant="purple"
-      Character={BracketsCharacter}
-      SeparatorCharacter={BracketsCharacter2}
+      Character={DotCharacter}
+      SeparatorCharacter={DotCharacter2}
       EndPageCharacter={RainbowCharacter}
-      characterOrientation="left"
+      characterOrientation="center"
       languages={languages}
       topics={topics}
       midSection={null}
@@ -56,8 +56,8 @@ const ShowcasePage = ({ data, pageContext, location }) => {
                   contribution={contribution}
                   placeholderImage={contributionsPlaceholder}
                 />
-                {i % 2 !== 1 && <div className={css.horizontalSpacer}></div>}
-                {i % 2 !== 0 && <div className={css.verticalSpacer}></div>}
+                {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
+                {i % 3 == 2 && <div className={css.verticalSpacer}></div>}
               </Fragment>
             ))}
           </div>

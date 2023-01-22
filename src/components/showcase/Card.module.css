@@ -3,9 +3,9 @@
 }
 
 .challenge {
-  width: 48%;
+  width: 32%;
   display: flex;
-  flex-basis: 48%;
+  flex-basis: 32%;
   flex-direction: column;
   font-family: var(--maru-mono);
   font-size: var(--maru-medium);
@@ -52,6 +52,8 @@
   font-weight: normal;
   font-size: var(--maru-medium);
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .authorLink {
