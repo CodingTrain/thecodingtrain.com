@@ -9,7 +9,11 @@ import { getReadableDate } from '../../hooks';
 import * as css from './Card.module.css';
 
 const Card = ({ className, contribution, placeholderImage }) => {
-  const { title, url, cover, author, video } = contribution;
+  const { title, url, cover, author, video, parent } = contribution;
+  var relativeDir = parent.parent.relativeDirectory;
+  relativeDir = relativeDir.substring(0, relativeDir.lastIndexOf("/"));
+  const challengeRegex = new RegExp("/");
+  const slug = ((relativeDir.split("/").length-1) == 0 ? `challenges/${relativeDir}` : relativeDir)
   return (
     <article className={cn(css.challenge, className)}>
       <div className={css.titleContainer}>
@@ -21,7 +25,7 @@ const Card = ({ className, contribution, placeholderImage }) => {
       <div className={css.thumb}>
         <div className={css.left}>
           <div className={css.description}>
-            <p>{author.name}</p>
+            <Link to={`/${slug}`}>{slug}</Link>
           </div>
           <p className={css.date}>
             <span>

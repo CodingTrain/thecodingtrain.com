@@ -108,6 +108,13 @@ export const query = graphql`
             }
           }
         }
+        parent {
+          parent {
+            ... on File {
+              relativeDirectory
+            }
+          }
+        }
       }
     }
     languages: allTag(filter: { type: { eq: "language" } }) {
