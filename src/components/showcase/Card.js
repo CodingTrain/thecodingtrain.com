@@ -12,8 +12,18 @@ const Card = ({ className, contribution, placeholderImage }) => {
   const { title, url, cover, author, video, parent } = contribution;
   var relativeDir = parent.parent.relativeDirectory;
   relativeDir = relativeDir.substring(0, relativeDir.lastIndexOf("/"));
-  const challengeRegex = new RegExp("/");
-  const slug = ((relativeDir.split("/").length-1) == 0 ? `challenges/${relativeDir}` : relativeDir)
+  const trackSlugs = {
+    "noc": "/tracks/the-nature-of-code-2/",
+    "ml5": "/tracks/ml5js-beginners-guide/",
+    "data": "/tracks/data-and-apis-in-javascript/",
+    "git": "/tracks/git-github-for-poets/",
+    "code": "/tracks/code-programming-with-p5-js/",
+    "js": "/tracks/topics-in-native-javascript/",
+    "more-p5": "/tracks/p5-tips-and-tricks/",
+    "workflow": "/tracks/2018-workflow/"
+    };
+  const slug = ((relativeDir.split("/").length-1) !== 0 ? `${trackSlugs[relativeDir.split("/").slice(0,1)]}${relativeDir}` : `/challenges/${relativeDir}`);
+
   return (
     <article className={cn(css.challenge, className)}>
       <div className={css.titleContainer}>
@@ -25,7 +35,7 @@ const Card = ({ className, contribution, placeholderImage }) => {
       <div className={css.thumb}>
         <div className={css.left}>
           <div className={css.description}>
-            <Link to={`/${slug}`}>{slug}</Link>
+            From <Link to={`${slug}`} className={css.videoLink}>{video.title}</Link>
           </div>
           <p className={css.date}>
             <span>
