@@ -40,6 +40,8 @@
 
 .title {
   flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
   line-height: var(--baseline-box);
@@ -49,6 +51,22 @@
   color: var(--gray-dark);
   font-weight: normal;
   font-size: var(--maru-medium);
+  overflow: hidden;
+}
+
+.authorLink {
+  flex-grow: 1;
+  padding: 0 calc(var(--box-padding) / 2);
+  color: var(--purple);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.titleLink {
+  flex-grow: 0;
+  padding: 0 calc(var(--box-padding) / 2);
+  color: var(--purple);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

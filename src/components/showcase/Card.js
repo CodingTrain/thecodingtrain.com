@@ -15,11 +15,7 @@ const Card = ({ className, contribution, placeholderImage }) => {
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
         <h3 className={css.title}>
-          {
-            <Link to={url}>
-              {title}
-            </Link>
-          }
+            <a href={url} className={css.titleLink}>{title}</a> by {(author.url ? <a href={author.url} className={css.authorLink}>{author.name}</a> : author.name)}
         </h3>
       </div>
       <div className={css.thumb}>

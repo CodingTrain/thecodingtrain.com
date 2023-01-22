@@ -511,6 +511,7 @@ export const query = graphql`
         showcaseCta {
           text
           buttonText
+          href
         }
         featured {
           title
