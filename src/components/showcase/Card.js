@@ -29,13 +29,13 @@ const Card = ({ className, contribution, placeholderImage }) => {
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
         <h3 className={css.title}>
-            <a href={url} className={css.titleLink}>{title}</a> by {(author.url ? <a href={author.url} className={css.authorLink}>{author.name}</a> : author.name)}
+            <a href={url} className={css.titleLink}>{title}</a> 
         </h3>
       </div>
       <div className={css.thumb}>
         <div className={css.left}>
           <div className={css.description}>
-            From <Link to={`${slug}`} className={css.videoLink}>{video.title}</Link>
+            Submitted to <Link to={`${slug}`} className={css.videoLink}>{video.title}</Link> by {(author.url ? <a href={author.url} className={css.authorLink}>{author.name}</a> : author.name)}
           </div>
           <p className={css.date}>
             <span>

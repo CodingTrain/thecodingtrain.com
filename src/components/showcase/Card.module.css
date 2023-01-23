@@ -56,19 +56,10 @@
   white-space: nowrap;
 }
 
-.authorLink {
-  flex-grow: 1;
-  padding: 0 calc(var(--box-padding) / 2);
-  color: var(--purple);
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
 
 .titleLink {
   flex-grow: 0;
   padding: 0 calc(var(--box-padding) / 2);
-  color: var(--purple);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -89,13 +80,25 @@
   background-color: white;
   overflow-x: hidden;
   overflow-y: auto;
+  padding: calc(var(--box-padding) / 2);
 
   & p {
     font-size: var(--maru-small);
     line-height: var(--baseline-2of5);
     padding: var(--spacing-normal);
   }
+
+  & .videoLink {
+    color: var(--purple);
+  }
+
+  & .authorLink {
+    color: var(--purple);
+    white-space: pre-wrap;
+  }
+
 }
+
 
 .date {
   color: var(--gray-dark);
