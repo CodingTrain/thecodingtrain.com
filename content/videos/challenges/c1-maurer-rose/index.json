@@ -1,12 +1,18 @@
 {
   "title": "Maurer Rose",
-  "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I code a visualization of the Maurer Rose patter in JavaScript (p5.js).",
-  "videoNumber": "C1 - Coding in the Cabana",
+  "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I code a visualization of the Maurer Rose pattern in JavaScript (p5.js).",
+  "videoNumber": "C1",
   "videoId": "4uU9lZ-HSqA",
   "date": "2019-10-11",
   "languages": ["p5.js"],
   "topics": ["maurer rose", "polar coordinates"],
   "canContribute": true,
+  "relatedChallenges": [
+    "55-mathematical-rose-patterns",
+    "116-lissajous-curve-table",
+    "133-time-tables-cardioid-visualization",
+    "134-heart-curve"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Maurer Rose" },
     { "time": "3:32", "title": "Coding Starts" },
@@ -54,10 +60,10 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
-          "title": "Challenge #55: Mathematical Rose Patterns",
-          "url": "https://thecodingtrain.com/challenges/55-mathematical-rose-patterns",
-          "description": "I attempt to create rose (rhodonea) curves using trigonometry function and polar coordinates."
+          "icon": "🌱",
+          "title": "Coding Garden with CJ",
+          "url": "https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw",
+          "description": "Coding Garden YouTube channel"
         },
         {
           "icon": "🎥",
@@ -66,6 +72,16 @@
           "description": "A dive into the trigonometric functions—sine, cosine, and tangent."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

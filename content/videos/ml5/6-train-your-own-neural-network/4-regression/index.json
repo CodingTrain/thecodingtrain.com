@@ -4,7 +4,7 @@
   "videoNumber": "6.4",
   "videoId": "fFzvwdkzr_c",
   "date": "2019-12-06",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["regression", "neural networks", "machine learning"],
   "canContribute": true,
   "timestamps": [
@@ -44,6 +44,16 @@
           "description": "Article about the release of a TensorFlow.js version of PoseNet."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

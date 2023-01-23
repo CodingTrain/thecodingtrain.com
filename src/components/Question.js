@@ -67,8 +67,8 @@ const Question = ({ variant, slug, question, answer, currentHash }) => {
           )}
           {answer.video && (
             <YouTubeVideo
-              containerClassName={css.videoContainer}
-              className={css.video}
+              className={css.videoContainer}
+              iframeClassName={css.video}
               videoId={answer.video.id}
               listId={answer.video.list}
             />

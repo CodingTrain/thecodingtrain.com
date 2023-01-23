@@ -20,14 +20,14 @@ const {
   createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
+  createSlices,
   createTrackVideoPages,
   createTracksPages,
   createChallengesPages,
   createGuidePages,
   createShowcasePages
 } = require('./node-scripts/page-generation');
-
-const redirects = require('./redirects.json');
+const set = require('lodash/set');
 
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
@@ -39,7 +39,7 @@ exports.onCreateNode = ({
   createContentDigest,
   getNode
 }) => {
-  const { createNode } = actions;
+  const { createNode, createNodeField } = actions;
   const { owner, mediaType } = node.internal;
   const parent = getNode(node.parent);
 
@@ -169,6 +169,13 @@ exports.onCreateNode = ({
       node,
       parent
     );
+
+    // no more slugs in mdx v2
+    createNodeField({
+      node,
+      name: 'slug',
+      value: parent.name
+    });
   } else if (
     owner === 'gatsby-source-filesystem' &&
     mediaType !== undefined &&
@@ -229,19 +236,132 @@ exports.onCreateNode = ({
 };
 
 exports.createPages = async function ({ actions, graphql }) {
-  const { createPage, createRedirect } = actions;
+  const { createPage, createSlice } = actions;
+
+  await createSlices(createSlice);
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
   await createShowcasePages(graphql, createPage);
+};
 
-  for (let fromPath in redirects) {
-    const toPath = redirects[fromPath];
-    await createRedirect({
-      fromPath,
-      toPath,
-      isPermanent: true
+const tagResolver = async (source, context, type) => {
+  const tags = new Set();
+
+  // track.videos
+  let videoIds = source.videos ?? [];
+
+  // track.chapters.videos
+  if (source.chapters) {
+    const chapters = await context.nodeModel.getNodesByIds({
+      ids: source.chapters,
+      type: 'Chapter'
     });
+
+    for (let chapter of chapters) {
+      if (chapter.videos) {
+        videoIds = [...videoIds, ...chapter.videos];
+      }
+    }
   }
+
+  // fetch all video nodes we found
+  const allVideos = await context.nodeModel.getNodesByIds({
+    ids: videoIds,
+    type: 'Video'
+  });
+
+  // extract and dedupe tags
+  for (let video of allVideos) {
+    if (video[type]) {
+      video[type].forEach((v) => tags.add(v));
+    }
+  }
+
+  return [...tags];
+};
+
+const filterByTagsResolver = async (
+  args,
+  context,
+  type,
+  sortField,
+  sortOrder
+) => {
+  const { language, topic, skip, limit } = args;
+
+  const query = {};
+
+  set(query, 'sort.order', [sortOrder]);
+  set(query, 'sort.fields', [sortField]);
+
+  if (language) set(query, 'filter.languages.eq', language);
+  if (topic) set(query, 'filter.topics.eq', topic);
+  if (skip) set(query, 'skip', skip);
+  if (limit) set(query, 'limit', limit);
+
+  const { entries } = await context.nodeModel.findAll({
+    type,
+    query
+  });
+
+  return entries;
+};
+
+const showcaseResolver = async (source, args, context, info) => {
+  const query = {};
+
+  set(query, 'filter.video.id.eq', source.id);
+  set(query, 'sort.order', ['ASC']);
+  set(query, 'sort.fields', ['name']);
+
+  const { entries } = await context.nodeModel.findAll({
+    type: 'Contribution',
+    query
+  });
+
+  return entries;
+};
+
+exports.createResolvers = ({ createResolvers }) => {
+  const resolvers = {
+    Track: {
+      topics: {
+        type: ['String'],
+        resolve: async (source, args, context, info) =>
+          await tagResolver(source, context, 'topics')
+      },
+      languages: {
+        type: ['String'],
+        resolve: async (source, args, context, info) =>
+          await tagResolver(source, context, 'languages')
+      }
+    },
+    Challenge: {
+      showcase: {
+        type: ['Contribution'],
+        resolve: showcaseResolver
+      }
+    },
+    Video: {
+      showcase: {
+        type: ['Contribution'],
+        resolve: showcaseResolver
+      }
+    },
+    Query: {
+      tracksPaginatedFilteredByTags: {
+        type: ['Track'],
+        resolve: async (source, args, context, info) =>
+          await filterByTagsResolver(args, context, 'Track', 'order', 'ASC')
+      },
+      challengesPaginatedFilteredByTags: {
+        type: ['Challenge'],
+        resolve: async (source, args, context, info) =>
+          await filterByTagsResolver(args, context, 'Challenge', 'date', 'DESC')
+      }
+    }
+  };
+  createResolvers(resolvers);
 };

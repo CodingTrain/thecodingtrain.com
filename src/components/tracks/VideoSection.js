@@ -8,6 +8,7 @@ import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
 
 import { filteredPath } from '../../utils';
+import { useChallengePartIndex } from '../../hooks';
 
 import * as css from './VideoSection.module.css';
 
@@ -27,7 +28,14 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
 
 const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
   const chapters = track.chapters ? track.chapters : [{ videos: track.videos }];
-  const { title, videoId, topics, languages, timestamps } = video;
+
+  const { title, topics, languages } = video;
+
+  const partIndex = useChallengePartIndex();
+  const part = video.parts?.[partIndex];
+  const videoId = part?.videoId ?? video.videoId;
+  const timestamps = part?.timestamps ?? video.timestamps;
+
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
     trackPosition,
     chapters,
@@ -103,7 +111,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
-              containerClassName={css.videoWrapper}
+              className={css.videoWrapper}
               videoId={videoId}
               timestamp={timestamp}
             />

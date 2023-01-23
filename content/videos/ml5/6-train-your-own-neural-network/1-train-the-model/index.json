@@ -1,97 +1,107 @@
 {
-    "title": "ml5.js: Train Your Own Neural Network",
-    "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js. The example demonstrated uses the mouse as input and performs classification (the assigned label is a musical note).",
-    "videoNumber": "6.1",
-    "videoId": "8HEgeAbYphA",
-    "date": "2019-11-22",
-    "languages": ["ml5", "p5js"],
-    "topics": ["neural network", "machine learning"],
-    "canContribute": true,
-    "timestamps": [
-      { "time": "0:00", "title": "Introduction" },
-      { "time": "1:42", "title": "Wekinator Project" },
-      { "time": "2:42", "title": "History of creative artists" },
-      { "time": "3:10", "title": "What is a neural network?" },
-      { "time": "5:30", "title": "Steps" },
-      { "time": "7:22", "title": "Feed forward multi-layer perceptron" },
-      { "time": "8:57", "title": "Let's Code!" },
-      { "time": "10:08", "title": "Options" },
-      { "time": "11:45", "title": "Outputs--what is the label?" },
-      { "time": "12:30", "title": "Task" },
-      { "time": "12:55", "title": "Collect training data" },
-      { "time": "13:50", "title": "Target label" },
-      { "time": "16:52", "title": "Training the model" },
-      { "time": "17:35", "title": "What is an epoch?" },
-      { "time": "18:47", "title": "Callbacks" },
-      { "time": "19:44", "title": "tfjs.vis--debug: true" },
-      { "time": "20:10", "title": "Normalizing the data" },
-      { "time": "22:33", "title": "What is loss?" },
-      { "time": "24.27", "title": "Learning rate" },
-      { "time": "25:49", "title": "Prediction" },
-      { "time": "26:09", "title": "Add state variable?" }
-    ],
-    "codeExamples": [
-      {
-        "title": "Train you own neural network",
-        "description": "This sketch demonstrates how to train your own neural network.",
-        "image": "neural_network.png",
-        "urls": {
-          "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a"
+  "title": "ml5.js: Train Your Own Neural Network",
+  "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js. The example demonstrated uses the mouse as input and performs classification (the assigned label is a musical note).",
+  "videoNumber": "6.1",
+  "videoId": "8HEgeAbYphA",
+  "date": "2019-11-22",
+  "languages": ["ml5.js", "p5.js"],
+  "topics": ["neural network", "machine learning"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:42", "title": "Wekinator Project" },
+    { "time": "2:42", "title": "History of creative artists" },
+    { "time": "3:10", "title": "What is a neural network?" },
+    { "time": "5:30", "title": "Steps" },
+    { "time": "7:22", "title": "Feed forward multi-layer perceptron" },
+    { "time": "8:57", "title": "Let's Code!" },
+    { "time": "10:08", "title": "Options" },
+    { "time": "11:45", "title": "Outputs--what is the label?" },
+    { "time": "12:30", "title": "Task" },
+    { "time": "12:55", "title": "Collect training data" },
+    { "time": "13:50", "title": "Target label" },
+    { "time": "16:52", "title": "Training the model" },
+    { "time": "17:35", "title": "What is an epoch?" },
+    { "time": "18:47", "title": "Callbacks" },
+    { "time": "19:44", "title": "tfjs.vis--debug: true" },
+    { "time": "20:10", "title": "Normalizing the data" },
+    { "time": "22:33", "title": "What is loss?" },
+    { "time": "24.27", "title": "Learning rate" },
+    { "time": "25:49", "title": "Prediction" },
+    { "time": "26:09", "title": "Add state variable?" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Train you own neural network",
+      "description": "This sketch demonstrates how to train your own neural network.",
+      "image": "neural_network.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💾",
+          "title": "ml5.js Neural Network",
+          "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "🔗",
+          "title": "Titanic Dataset",
+          "url": "https://github.com/ml5js/ml5-examples/blob/release/p5js/NeuralNetwork/NeuralNetwork_titanic/data/titanic_cleaned.csv",
+          "description": "Link to the Titanic dataset on the ml github page."
+        },
+        {
+          "icon": "💾",
+          "title": "Color Data",
+          "url": "https://github.com/ml5js/ml5-examples/blob/release/p5js/NeuralNetwork/NeuralNetwork_color_classifier/data/colorData.json",
+          "description": "Link to the color dataset on the ml github page."
+        },
+        {
+          "icon": "💾",
+          "title": "Wekinator",
+          "url": "http://www.wekinator.org/",
+          "description": "The wekinator allows anyone to use machine learning to build new musical instruments, gestural game controllers, computer vision or computer listening systems, and more."
         }
-      }
-    ],
-    "groupLinks": [
-      {
-        "title": "References",
-        "links": [
-          {
-            "icon": "💾",
-            "title": "ml5.js Neural Network",
-            "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
-            "description": "ml5 page with documentation and supporting material."
-          },
-          {
-            "icon": "🔗",
-            "title": "Titanic Dataset",
-            "url": "https://github.com/ml5js/ml5-examples/blob/release/p5js/NeuralNetwork/NeuralNetwork_titanic/data/titanic_cleaned.csv",
-            "description": "Link to the Titanic dataset on the ml github page."
-          },
-          {
-            "icon": "💾",
-            "title": "Color Data",
-            "url": "https://github.com/ml5js/ml5-examples/blob/release/p5js/NeuralNetwork/NeuralNetwork_color_classifier/data/colorData.json",
-            "description": "Link to the color dataset on the ml github page."
-          },
-          {
-            "icon": "💾",
-            "title": "Wekinator",
-            "url": "http://www.wekinator.org/",
-            "description": "The wekinator allows anyone to use machine learning to build new musical instruments, gestural game controllers, computer vision or computer listening systems, and more."
-          }
-        ]
-      },
-      {
-          "title": "Videos",
-          "links": [
-              {
-                  "icon": "🎥",
-                  "title": "Eyeo 2018 - Rebecca Fiebrink",
-                  "url": "https://vimeo.com/287094397",
-                  "description": "In this talk, Rebecca Fiebrink questions how we can use machine learning to better support fundamentally human creative activities."
-              },
-              {
-                  "icon": "🎥",
-                  "title": "This is not a theremin",
-                  "url": "https://vimeo.com/306231994",
-                  "description": "This is not a theremin--this is just an AR and interactive representation of a theremin."
-              },
-              {
-                   "icon": "🎥",
-                  "title": "But what is a Neural Network?",
-                  "url": "https://www.youtube.com/watch?v=aircAruvnKk",
-                  "description": "3blue1Brown video on neural networks."
-              }
-          ]
-      }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Eyeo 2018 - Rebecca Fiebrink",
+          "url": "https://vimeo.com/287094397",
+          "description": "In this talk, Rebecca Fiebrink questions how we can use machine learning to better support fundamentally human creative activities."
+        },
+        {
+          "icon": "🎥",
+          "title": "This is not a theremin",
+          "url": "https://vimeo.com/306231994",
+          "description": "This is not a theremin--this is just an AR and interactive representation of a theremin."
+        },
+        {
+          "icon": "🎥",
+          "title": "But what is a Neural Network?",
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+          "description": "3blue1Brown video on neural networks."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
   ]
 }

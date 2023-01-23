@@ -69,6 +69,12 @@
           "title": "floor Function Reference Page",
           "url": "https://p5js.org/reference/#/p5/floor",
           "description": "The Reference page for the floor function of p5.js library."
+        },
+        {
+          "icon": "📕",
+          "title": "The Nature of Code GitHub (Spring 2017)",
+          "url": "https://github.com/nature-of-code/NOC-S17-1-Physics-Animation",
+          "description": "Syllabus for Part 1 of Nature of Code: \"Physics and Animation\" at ITP Spring 2017"
         }
       ]
     },
@@ -80,8 +86,24 @@
           "title": "Random Walker with Vectors and Lévy Flight",
           "url": "/challenges/53-random-walker-with-vectors-and-levy-flight",
           "description": "Random walker using vectors to vary the distance of each step, and implementing Lévy Flight."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #73",
+          "url": "https://youtu.be/RDULjRLn3pk",
+          "description": "Live Stream with Random Walk"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

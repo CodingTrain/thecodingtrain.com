@@ -12,18 +12,18 @@ interface VideoInterface implements Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+
+  # as resolver
+  showcase: [Contribution]
 }
 
 type Video implements VideoInterface & Node {
@@ -35,18 +35,18 @@ type Video implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+
+  # as resolver
+  showcase: [Contribution]
 }
 
 type Challenge implements VideoInterface & Node {
@@ -58,18 +58,18 @@ type Challenge implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   codeExamples: [CodeExample!]
   parts: [ChallengePart!]
   canContribute: Boolean!
-  showcase: [Contribution!] @link
   relatedChallenges: [Challenge!] @link
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+
+  # as resolver
+  showcase: [Contribution]
 }
 
 type GuestTutorial implements VideoInterface & Node {
@@ -81,9 +81,7 @@ type GuestTutorial implements VideoInterface & Node {
   date: String
   videoNumber: String
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
   timestamps: [Timestamp!]
   parts: [ChallengePart!]
   codeExamples: [CodeExample!]
@@ -165,6 +163,10 @@ type Track implements Node {
   cover: CoverImage @link
   numVideos: Int!
   order: Int!
+
+  # as resolvers
+  topics: [String!]
+  languages: [String!]
 }
 
 type Talk implements Node {
@@ -175,9 +177,7 @@ type Talk implements Node {
   link: String
   cover: CoverImage @link
   topics: [String!]
-  topicsFlat: String!
   languages: [String!]
-  languagesFlat: String!
 }
 
 type Guide implements Node {
@@ -247,12 +247,6 @@ type CoverImage implements Node {
   id: ID!
   file: File! @link
 }
-
-type Tag implements Node {
-  type: String!
-  value: String!
-}
-
 
 type AboutPageInfo implements Node {
   title: String!
@@ -341,7 +335,7 @@ type ChallengesSection implements Node {
 
 type PassengerSection implements Node {
   title: String!
-  featured: Contribution! @link
+  featured: [Contribution!]! @link
   cta: Cta!
 }
 
@@ -366,5 +360,10 @@ type SupportSection implements Node {
   title: String!
   description: String!
   options: [Cta]
+}
+
+type Query {
+  tracksPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track] 
+  challengesPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge] 
 }
 `;

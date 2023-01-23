@@ -4,7 +4,7 @@
   "videoNumber": "4",
   "videoId": "Y8sMnRQYr3c",
   "date": "2017-12-15",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["loops", "array", "for of"],
   "canContribute": false,
   "timestamps": [
@@ -13,5 +13,15 @@
     { "time": "02:17", "title": "Variable naming conventions" }
   ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

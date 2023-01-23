@@ -4,8 +4,8 @@
   "videoNumber": "8.2",
   "videoId": "qPKsVAI_W6M",
   "date": "2020-02-14",
-  "languages": ["ml5", "p5js"],
-  "topics": ["convolutional neutral network", "machine learning"],
+  "languages": ["ml5.js", "p5.js"],
+  "topics": ["convolutional neural network", "machine learning"],
   "canContribute": true,
   "timestamps": [
     {
@@ -154,6 +154,16 @@
           "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js. Code."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

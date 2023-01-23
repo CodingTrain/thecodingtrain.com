@@ -7,7 +7,7 @@
   "languages": ["Processing", "p5.js"],
   "topics": ["flocking", "creative coding", "autonomous agents"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["69-evolutionary-steering-behaviors"],
   "timestamps": [
     {
       "time": "0:00",
@@ -49,8 +49,7 @@
       "image": "flocking.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ry4XZ8OkN",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_124_Flocking_Boids/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/124_Flocking_Boids/Processing"
       }
     }
   ],
@@ -98,8 +97,24 @@
           "title": "Autonomous Steering Agents",
           "url": "https://youtu.be/P_xJMH8VvAE",
           "description": "The introductory video of the series exploring the chapter on autonomous agents in Nature of Code"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 162",
+          "url": "https://youtu.be/qtUV-DoSOpk?t=1350s",
+          "description": "Live Stream with Flocking Simulation."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

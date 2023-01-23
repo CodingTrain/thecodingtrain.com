@@ -5,5 +5,15 @@
   "topics": ["For beginners"],
   "videoId": "MXs1cOlidWs",
   "timestamps": [],
-  "canContribute": true
+  "canContribute": true,
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

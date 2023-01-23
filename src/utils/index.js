@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import slugify from 'slugify';
 
 // so it doesn't throw if no window
@@ -68,17 +67,10 @@ export const shuffleCopy = (array) => {
   return copy;
 };
 
-/**
- * This hook will return true for the first render on the server and for the
- * first render on the client. Otherwhise, it will return false.
- *
- * This function encapsulates a hook so "rules of hooks" apply to it.
- * @see {@link https://reactjs.org/docs/hooks-rules.html}
- *
- * @return {boolean} true on the first server side and client side render
- */
-export const useIsFirstRender = () => {
-  const [isFirst, setIsFirst] = useState(true);
-  useEffect(() => setIsFirst(false), []);
-  return isFirst;
+export const randomElement = (array) => {
+  if (array.length === 0) {
+    return null;
+  }
+  const index = Math.floor(Math.random() * array.length);
+  return array[index];
 };

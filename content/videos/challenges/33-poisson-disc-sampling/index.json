@@ -4,10 +4,14 @@
   "videoNumber": "33",
   "videoId": "flQgnCUxHlw",
   "date": "2016-08-22",
-  "languages": ["p5.js", "processing"],
+  "languages": ["p5.js", "Processing"],
   "topics": ["poisson disc sampling", "Siméon Denis Poisson"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "98-quadtree",
+    "70-nearest-neighbors-recommendation-engine",
+    "95-approximating-the-value-of-pi"
+  ],
   "timestamps": [
     {
       "time": "0:00",
@@ -35,7 +39,7 @@
     },
     {
       "time": "19:18",
-      "title": "Checking neighbouring samples"
+      "title": "Checking neighboring samples"
     },
     {
       "time": "25:40",
@@ -61,8 +65,7 @@
       "image": "poisson-disc.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/4N78DFCXN",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_033_poisson_disc/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_033_poisson_disc/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/033_poisson_disc/Processing"
       }
     }
   ],
@@ -83,6 +86,27 @@
           "description": "Robert Bridson's paper on fast Poisson Disc Sampling algorithm"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #56",
+          "url": "https://youtu.be/2S0J5iiQ0nw?t=1935s",
+          "description": "Live Stream with Poisson-disc-sampling and DLA."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

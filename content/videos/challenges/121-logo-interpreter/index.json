@@ -1,0 +1,156 @@
+{
+  "title": "Logo Interpreter",
+  "description": "In this coding challenge, I discuss turtle graphics and make a Logo Interpreter in JavaScript.",
+  "videoNumber": "121",
+  "videoId": "",
+  "date": "2018-10-31",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["logo", "logo interpreter", "turtle graphics"],
+  "canContribute": true,
+  "relatedChallenges": ["16-l-system-fractal-trees", "30-phyllotaxis"],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1: Logo Interpreter",
+      "videoId": "i-k04yzfMpw",
+      "timestamps": [
+        { "time": "0:20", "title": "What is Logo?" },
+        { "time": "1:21", "title": "Logo commands" },
+        { "time": "2:23", "title": "Let's go!" },
+        { "time": "5:04", "title": "The turtle object" },
+        { "time": "7:14", "title": "Let's code the turtle methods" },
+        { "time": "10:39", "title": "Iterating over the tokens" },
+        { "time": "12:51", "title": "Understanding the increment operator" },
+        { "time": "14:37", "title": "A little debugging" },
+        { "time": "18:55", "title": "Found the bug!" },
+        { "time": "20:00", "title": "A look-up table" },
+        { "time": "23:44", "title": "Real-time interpretation" },
+        { "time": "26:50", "title": "Pen up and pen down" },
+        { "time": "37:54", "title": "It works!" },
+        { "time": "40:00", "title": "Ending remarks" },
+        { "time": "40:33", "title": "Thank you for watching!" }
+      ]
+    },
+    {
+      "title": "Part 2: Logo Interpreter",
+      "videoId": "aOqEm101fms",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction and recap of the first part" },
+        { "time": "2:17", "title": "To the white board!" },
+        { "time": "4:45", "title": "The parser class" },
+        { "time": "5:20", "title": "The command class" },
+        { "time": "7:10", "title": "One character at a time" },
+        { "time": "9:00", "title": "Skipping the space" },
+        { "time": "10:00", "title": "Using regular expressions" },
+        { "time": "14:55", "title": "Checking the list of commands" },
+        { "time": "17:00", "title": "The repeat command" },
+        { "time": "27:12", "title": "It works! Let's discuss why" },
+        { "time": "30:50", "title": "Execute the commands" },
+        { "time": "35:18", "title": "Testing the interpreter and debugging" },
+        { "time": "39:50", "title": "The Coding Train Logo in Logo!" },
+        { "time": "41:11", "title": "Things you can do" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Logo Interpreter Part 1",
+      "description": "First part of the logo interpreter implementation",
+      "image": "logo-part-1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ryTuOf3gN",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/121_Logo_1/Processing"
+      }
+    },
+    {
+      "title": "Logo Interpreter Part 2",
+      "description": "Refactored implementation of the logo interpreter with the \"repeat\" command",
+      "image": "logo-part-2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/BJqG8zhlN",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/121_Logo_2/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📁",
+          "title": "Logo Repo",
+          "url": "https://github.com/shiffman/Logo",
+          "description": "Repo for implementation of Logo in JavaScript p5"
+        },
+        {
+          "icon": "📓",
+          "title": "Logo on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Logo_(programming_language)",
+          "description": "The Wikipedia article on Logo"
+        },
+        {
+          "icon": "📝",
+          "title": "Logo Tutorial",
+          "url": "http://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
+          "description": "A tutorial on Logo from Brown University"
+        },
+        {
+          "icon": "🐢",
+          "title": "Logo Foundation",
+          "url": "http://el.media.mit.edu/logo-foundation/",
+          "description": "The Logo Foundation is a nonprofit educational organization devoted to supporting educators, parents, and students in their engagement with creative computing."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "📓",
+          "title": "Transformation Tutorial",
+          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
+          "description": "A coding train tutorial on push/pop and other transformations"
+        },
+        {
+          "icon": "📐",
+          "title": "Angles and Angular Motion",
+          "url": "https://www.youtube.com/watch?v=qMq-zd6hguc",
+          "description": "Angles and angular motions from Nature of Code chapter 3"
+        },
+        {
+          "icon": "🧾",
+          "title": "Angular Motion",
+          "url": "https://www.youtube.com/watch?v=i2ROE_mAhU0",
+          "description": "A revised Nature of Code video on angular motion"
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 158",
+          "url": "https://youtu.be/flHxQpyiDNc?t=1377s",
+          "description": "Logo Interpreter Live Stream Part 1"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 159",
+          "url": "https://youtu.be/kLIHhOEPHG0",
+          "description": "Logo Interpreter Live Stream Part 2"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

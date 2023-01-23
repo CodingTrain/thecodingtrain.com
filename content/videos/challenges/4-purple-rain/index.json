@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": ["purple rain"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["1-starfield", "27-fireworks", "169-pi-in-the-sky"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction to the challenge" },
     { "time": "00:37", "title": "Setup the sketch" },
@@ -32,5 +32,27 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #34",
+          "url": "https://youtu.be/r8QMcI5qxQM?t=3919s",
+          "description": "Live Stream with Git and GitHub Tutorials + Purple Rain and Solar System"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

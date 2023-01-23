@@ -7,7 +7,11 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["pi day", "math", "random numbers"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "140-pi-leibniz",
+    "156-peeking-inside-pi",
+    "169-pi-in-the-sky"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Happy Pi Day!" },
     { "time": "1:26", "title": "Explain! What does co-prime mean?" },
@@ -86,6 +90,16 @@
           "description": "Video by Stand-up Maths on estimating Pi from random numbers"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -1,7 +1,35 @@
 const { paginate } = require('gatsby-awesome-pagination');
 const { toSlug } = require('./utils');
+const { writeFile } = require('fs/promises');
 
 const ITEMS_PER_PAGE = 50;
+
+const extractTags = (nodes, pluckKey) => {
+  const set = new Set();
+  nodes.forEach((node) => {
+    node[pluckKey].forEach((val) => set.add(val));
+  });
+
+  return [...set].sort((a, b) => {
+    return a.localeCompare(b, 'en', { sensitivity: 'base' });
+  });
+};
+
+/**
+ * Creates Gatsby slices
+ * @param {function} createSlice - Gatsby's createSlice function
+ */
+exports.createSlices = async (createSlice) => {
+  createSlice({
+    id: `TopBar`,
+    component: require.resolve(`../src/components/TopBar.js`)
+  });
+
+  createSlice({
+    id: `Footer`,
+    component: require.resolve(`../src/components/Footer.js`)
+  });
+};
 
 /**
  * Creates single Challenge pages for all loaded Challenge nodes
@@ -17,10 +45,20 @@ exports.createChallengesPages = async (graphql, createPage) => {
         nodes {
           id
           slug
+          languages
+          topics
         }
       }
     }
   `);
+
+  const languages = extractTags(challenges.nodes, 'languages');
+  const topics = extractTags(challenges.nodes, 'topics');
+
+  await writeFile(
+    './public/filters-challenges.json',
+    JSON.stringify({ languages, topics })
+  );
 
   challenges.nodes.forEach((challenge) => {
     // Passes context variables for querying corresponding
@@ -43,68 +81,34 @@ exports.createChallengesPages = async (graphql, createPage) => {
     component: require.resolve(`../src/templates/challenges.js`),
     context: {
       topic: '',
-      topicRegex: '/.*.*/',
-      language: '',
-      languageRegex: '/.*.*/'
+      language: ''
     }
   });
 
-  const {
-    data: { languages, topics }
-  } = await graphql(`
-    query {
-      languages: allTag(filter: { type: { eq: "language" } }) {
-        nodes {
-          value
-        }
-      }
-      topics: allTag(filter: { type: { eq: "topic" } }) {
-        nodes {
-          value
-        }
-      }
-    }
-  `);
-
-  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
-    const languageRegex = `/.*${language}.*/`;
-    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
-      const topicRegex = `/.*${topic}.*/`;
+  for (let language of [...languages, '']) {
+    for (let topic of [...topics, '']) {
       const {
         data: { filteredChallenges }
       } = await graphql(`
         query {
-          filteredChallenges: allChallenge (
-            filter: {
-              languagesFlat: {regex: "${languageRegex}"}
-              topicsFlat: {regex: "${topicRegex}"}
-            }
-          ) {
-            nodes {
-              id
-              slug
-            }
+          filteredChallenges: challengesPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
+            id
           }
         }
       `);
 
       paginate({
         createPage,
-        items: filteredChallenges.nodes,
+        items: filteredChallenges,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/challenges/lang/${
-          language !== '' ? toSlug(language) : 'all'
-        }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,
+          !language ? 'all' : toSlug(language)
+        }/topic/${!topic ? 'all' : toSlug(topic)}`,
         component: require.resolve(`../src/templates/challenges.js`),
-        context: {
-          topic,
-          topicRegex,
-          language,
-          languageRegex
-        }
+        context: { topic, language }
       });
-    });
-  });
+    }
+  }
 };
 
 /**
@@ -121,10 +125,20 @@ exports.createTracksPages = async (graphql, createPage) => {
         nodes {
           id
           slug
+          languages
+          topics
         }
       }
     }
   `);
+
+  const languages = extractTags(tracks.nodes, 'languages');
+  const topics = extractTags(tracks.nodes, 'topics');
+
+  await writeFile(
+    './public/filters-tracks.json',
+    JSON.stringify({ languages, topics })
+  );
 
   paginate({
     createPage,
@@ -134,68 +148,34 @@ exports.createTracksPages = async (graphql, createPage) => {
     component: require.resolve(`../src/templates/tracks.js`),
     context: {
       topic: '',
-      topicRegex: '/.*.*/',
-      language: '',
-      languageRegex: '/.*.*/'
+      language: ''
     }
   });
 
-  const {
-    data: { languages, topics }
-  } = await graphql(`
-    query {
-      languages: allTag(filter: { type: { eq: "language" } }) {
-        nodes {
-          value
-        }
-      }
-      topics: allTag(filter: { type: { eq: "topic" } }) {
-        nodes {
-          value
-        }
-      }
-    }
-  `);
-
-  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
-    const languageRegex = `/.*${language}.*/`;
-    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
-      const topicRegex = `/.*${topic}.*/`;
+  for (let language of [...languages, '']) {
+    for (let topic of [...topics, '']) {
       const {
         data: { filteredTracks }
       } = await graphql(`
-        query {
-          filteredTracks: allTrack (
-            filter: {
-              languagesFlat: {regex: "${languageRegex}"}
-              topicsFlat: {regex: "${topicRegex}"}
-            }
-          ) {
-            nodes {
-              id
-              slug
-            }
-          }
+      query {
+        filteredTracks: tracksPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
+          id
         }
+      }
       `);
 
       paginate({
         createPage,
-        items: filteredTracks.nodes,
+        items: filteredTracks,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/tracks/lang/${
-          language !== '' ? toSlug(language) : 'all'
-        }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,
+          !language ? 'all' : toSlug(language)
+        }/topic/${!topic ? 'all' : toSlug(topic)}`,
         component: require.resolve(`../src/templates/tracks.js`),
-        context: {
-          topic,
-          topicRegex,
-          language,
-          languageRegex
-        }
+        context: { topic, language }
       });
-    });
-  });
+    }
+  }
 };
 
 /**
@@ -227,6 +207,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
       }
     }
   `);
+
   data.tracks.nodes.forEach((track) => {
     // Determine the corresponding first video of the track
     const firstVideo = track.chapters
@@ -296,18 +277,25 @@ exports.createGuidePages = async (graphql, createPage) => {
     query {
       mdxs: allMdx {
         nodes {
-          slug
+          fields {
+            slug
+          }
+          internal {
+            contentFilePath
+          }
         }
       }
     }
   `);
 
+  const template = require.resolve(`../src/templates/guide.js`);
+
   data.mdxs.nodes.forEach((mdx) => {
     createPage({
-      path: `guides/${mdx.slug}`,
-      component: require.resolve(`../src/templates/guide.js`),
+      path: `guides/${mdx.fields.slug}`,
+      component: `${template}?__contentFilePath=${mdx.internal.contentFilePath}`,
       context: {
-        slug: mdx.slug
+        slug: mdx.fields.slug
       }
     });
   });

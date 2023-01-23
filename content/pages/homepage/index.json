@@ -20,7 +20,7 @@
   "tracks": {
     "title": "Tracks",
     "description": "Streamline your learning experience and take a ride along a Track on The Coding Train. Tracks are collections of video tutorials that follow a sequenced curriculum.",
-    "featured": ["code-programming-with-p5-js", "git-github-for-poets"],
+    "featured": ["code-programming-with-p5-js", "git-and-github-for-poets"],
     "tracksCta": {
       "text": "Ready to learn? Hop on a track for beginners and more!",
       "buttonText": "browse tracks",
@@ -31,9 +31,15 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "174-graphics-applesoft-basic",
-      "171-wave-function-collapse",
-      "166-image-to-ascii"
+      "175-3D-cube-applesoft-basic",
+      "68-breadth-first-search",
+      "121-logo-interpreter",
+      "29-smart-rockets-in-p5js",
+      "54-islamic-star-patterns",
+      "143-quicksort",
+      "144-2d-black-hole-visualization",
+      "80-voice-chatbot-with-p5speech",
+      "119-binary-to-decimal-conversion"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -42,8 +48,18 @@
     }
   },
   "passengerShowcase": {
-    "title": "Passenger showcase highlight",
-    "featured": "challenges/173-snake-applesoft-basic/showcase/contribution-1661456933.json",
+    "title": "Passenger showcase highlights",
+    "featured": [
+      "challenges/68-breadth-first-search/showcase/contribution3.json",
+      "challenges/121-logo-interpreter/showcase/contribution6.json",
+      "challenges/29-smart-rockets-in-p5js/showcase/contribution-1672174734.json",
+      "challenges/54-islamic-star-patterns/showcase/contribution-1669530254.json",
+      "challenges/143-quicksort/showcase/contribution9.json",
+      "challenges/144-2d-black-hole-visualization/showcase/contribution5.json",
+      "challenges/80-voice-chatbot-with-p5speech/showcase/contribution1.json",
+      "challenges/119-binary-to-decimal-conversion/showcase/contribution4.json",
+      "challenges/175-3D-cube-applesoft-basic/showcase/contribution-1671618081.json"
+    ],
     "featuredCta": {
       "text": "Ready to be inspired?",
       "buttonText": "Enjoy this showcase highlight"
@@ -62,7 +78,7 @@
   },
   "support": {
     "title": "Support",
-    "description": "Support the Coding Train and and enjoy some perks!",
+    "description": "Support the Coding Train and enjoy some perks!",
     "options": [
       {
         "text": "YouTube Membership",

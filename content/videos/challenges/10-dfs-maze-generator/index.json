@@ -7,11 +7,15 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["maze", "recursion", "backtracking", "depth-first search"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "51-a-pathfinding-algorithm",
+    "76-10Print",
+    "171-wave-function-collapse"
+  ],
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1: Creating the Cells",
+      "title": "Part 1 - Creating a Grid of Cells",
       "videoId": "HyK_Q5rrcr4",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
@@ -24,7 +28,7 @@
       ]
     },
     {
-      "title": "Part 2: Visiting Neighboring Cells",
+      "title": "Part 2 - Visiting Neighboring Cells",
       "videoId": "D8UgRyRnvXU",
       "timestamps": [
         { "time": "00:00", "title": "Recap from Part 1" },
@@ -38,7 +42,7 @@
       ]
     },
     {
-      "title": "Part 3: Removing Walls",
+      "title": "Part 3 - Removing Walls",
       "videoId": "8Ju_uxJ9v44",
       "timestamps": [
         { "time": "00:00", "title": "Recap from Part 2" },
@@ -51,7 +55,7 @@
       ]
     },
     {
-      "title": "Part 4: Backtracking",
+      "title": "Part 4 - Backtracking",
       "videoId": "_p5IH0L63wo",
       "timestamps": [
         { "time": "00:00", "title": "Where are We so Far?" },
@@ -71,8 +75,7 @@
       "image": "p5-maze-generator.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EBkm4txSA",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/P5",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_010_Maze_DFS/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/010_Maze_DFS/Processing/CC_010_Maze_DFS"
       }
     }
   ],
@@ -87,6 +90,27 @@
           "description": "Algorithm for Maze Generators on Wikipedia."
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/nF7DVmovWr0?t=4796s",
+          "description": "Livestream with 3D Solar System and Maze Generator"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

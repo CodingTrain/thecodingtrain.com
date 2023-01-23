@@ -4,7 +4,7 @@
   "videoNumber": "12",
   "videoId": "AwyoVjVXnLk",
   "date": "2018-05-29",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["promises", "es6"],
   "canContribute": false,
   "timestamps": [
@@ -52,6 +52,16 @@
           "description": "Tutorial on ES6 Arrow Syntax"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

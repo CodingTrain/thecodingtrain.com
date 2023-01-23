@@ -13,11 +13,15 @@
     "flappy bird"
   ],
   "canContribute": true,
-  "relatedChallenges": ["31-flappy-bird"],
+  "relatedChallenges": [
+    "29-smart-rockets-in-p5js",
+    "31-flappy-bird",
+    "41-clappy-bird"
+  ],
   "timestamps": [],
   "parts": [
     {
-      "title": "Neuroevolution Flappy Bird - Part 1",
+      "title": "Part 1 - Creating the Neural Network",
       "videoId": "c6y21FkaUqw",
       "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: Flappy Birds" },
@@ -39,12 +43,12 @@
       ]
     },
     {
-      "title": "Neuroevolution Flappy Bird - Part 2",
+      "title": "Part 2 - Incorporate a Genetic Algorithm",
       "videoId": "YtRA6tqgJBc",
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Part 2 of Flappy Bird--Incorporate a genetic algorithm"
+          "title": "Part 2 - Incorporate a genetic algorithm"
         },
         { "time": "2:00", "title": "Make a population of birds" },
         { "time": "4:10", "title": "Delete a bird if it hits a pipe" },
@@ -57,10 +61,13 @@
       ]
     },
     {
-      "title": "Neuroevolution Flappy Bird - Part 3",
+      "title": "Part 3 - More Improvements",
       "videoId": "3lvj9jvERvs",
       "timestamps": [
-        { "time": "0:00", "title": "Part 3 of Flappy Bird--More Improvements" },
+        {
+          "time": "0:00",
+          "title": "Part 3 of Flappy Bird - More Improvements"
+        },
         { "time": "0:56", "title": "Separate the game logic from the drawing" },
         {
           "time": "2:22",
@@ -72,17 +79,17 @@
         },
         {
           "time": "7:09",
-          "title": "Conclusion and possibile ways to optimize the genetic algorithm"
+          "title": "Conclusion and possible ways to optimize the genetic algorithm"
         }
       ]
     },
     {
-      "title": "Neuroevolution Flappy Bird - Part 4",
+      "title": "Part 4 - Incorporate Features Suggested on Github",
       "videoId": "HrvNpbnjEG8",
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Part 4 of Flappy Bird--Incorporate features suggested on Github"
+          "title": "Part 4 - Incorporate features suggested on Github"
         },
         { "time": "2:27", "title": "Add y velocity to the inputs" },
         {
@@ -105,10 +112,10 @@
       ]
     },
     {
-      "title": "Neuroevolution Flappy Bird - Part 5",
+      "title": "Part 5 - Save/Load a Bird",
       "videoId": "U9wiMM3BqLU",
       "timestamps": [
-        { "time": "0:00", "title": "Part 5 of Flappy Bird--Save/Load a Bird" },
+        { "time": "0:00", "title": "Part 5 - Save/Load a Bird" },
         {
           "time": "6:42",
           "title": "Use SaveJSON to save the weights of the neural network"
@@ -139,7 +146,7 @@
       }
     },
     {
-      "title": "Neuroevolution Flappy Bird -- Part 5",
+      "title": "Neuroevolution Flappy Bird - Part 5",
       "description": "Sketch with the option to save and load the best \"bird\".",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/iyPZnViI9"
@@ -212,6 +219,33 @@
           "description": "This video series accompanies Chapter 10 of The Nature of Code: Neural Networks."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 132",
+          "url": "https://youtu.be/ipMekhLS2M0?t=2934s",
+          "description": "Live Stream with Neuroevolution Flappy Bird & p5.js in Spanish"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 133",
+          "url": "https://youtu.be/emjv5tr-m7Q?t=1237s",
+          "description": "Live Stream with Neuroevolution Flappy Bird Continued"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

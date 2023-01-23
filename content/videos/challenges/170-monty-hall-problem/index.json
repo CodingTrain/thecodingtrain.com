@@ -96,8 +96,24 @@
           "title": "Local Storage in Javascript",
           "url": "https://www.youtube.com/watch?v=_SRS8b4LcZ8",
           "description": "p5.js tutorial on using local storage in JavaScript"
+        },
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/mSDjPcHoMbg",
+          "description": "Livestream with Monty Hall challenge."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

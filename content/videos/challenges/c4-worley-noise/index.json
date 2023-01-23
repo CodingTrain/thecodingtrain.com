@@ -1,19 +1,19 @@
 {
   "title": "Worley Noise",
   "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I explore the beauty of Worley noise.",
-  "videoNumber": "C4 - Coding in the Cabana",
+  "videoNumber": "C4",
   "videoId": "4066MndcyCk",
   "date": "2020-04-29",
   "languages": ["p5.js"],
-  "topics": [
-    "worley",
-    "cellular texture",
-    "noise",
-    "sort",
-    "tesselation",
-    "distance"
-  ],
+  "topics": ["worley noise", "cellular texture", "tesselation", "distance"],
   "canContribute": true,
+  "relatedChallenges": [
+    "24-perlin-noise-flow-field",
+    "28-metaballs",
+    "98-quadtree",
+    "114-bubble-sort-visualization",
+    "c5-marching-squares"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "About Worley Noise" },
     { "time": "1:13", "title": "Coding Random Noise" },
@@ -21,7 +21,7 @@
     { "time": "4:57", "title": "Calculating The Distances" },
     { "time": "7:25", "title": "Coloring" },
     { "time": "8:10", "title": "Animating The Points" },
-    { "time": "10:28", "title": "TWorley Noise in 3D" },
+    { "time": "10:28", "title": "Worley Noise in 3D" },
     { "time": "14:00", "title": "Optimization Possibilities" },
     { "time": "14:49", "title": "Conclusions and Goodbyes" }
   ],
@@ -40,6 +40,12 @@
     {
       "title": "References",
       "links": [
+        {
+          "icon": "🗄",
+          "title": "Worley Noise",
+          "url": "https://en.wikipedia.org/wiki/Worley_noise",
+          "description": "Wikipedia page with information and resources about Worley Noise."
+        },
         {
           "icon": "📓",
           "title": "A Cellular Texture Basis Function",
@@ -71,7 +77,7 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Coding Challenge #98.2 - Quadtree",
+          "title": "Coding Challenge #98 - Quadtree",
           "url": "https://www.youtube.com/watch?v=QQx_NmCIuCY",
           "description": "In part 2 of the Quadtree coding challenge, I query the data structure for points contained within a rectangular boundary."
         },
@@ -96,4 +102,13 @@
       ]
     }
   ]
-}
+, "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]}

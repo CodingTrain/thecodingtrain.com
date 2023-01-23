@@ -1,75 +1,86 @@
 {
-    "title": "2D Water Ripple",
-    "description": "In this coding challenge, I attempt to simulate 2D water ripples using Processing (Java).",
-    "videoNumber": "102",
-    "videoId": "BZUdGqeOD0w",
-    "date": "2018-05-07",
-    "languages": ["processing", "p5.js"],
-    "topics": [
-        "2d water ripple",
-        "cellular automata"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [
-      { "time": "0:00", "title": "Introduction" },
-      { "time": "0:54", "title": "2D water ripples algorithm" },
-      { "time": "1:38", "title": "Let's Code" },
-      { "time": "2:14", "title": "Create a 2D Arraoy" },
-      { "time": "5:08", "title": "Find new current pixel value" },
-      { "time": "7:54", "title": "Display new pixel value" },
-      { "time": "9:31", "title": "Initialize array" },
-      { "time": "10:06", "title": "Swap buffers" },
-      { "time": "12:16", "title": "Add dampening" },
-      { "time": "12:54", "title": "Correction: subtract current value" },
-      { "time": "13:56", "title": "Add mousePressed" },
-      { "time": "15:51", "title": "Add mouseDragged" }
-    ],
-    "codeExamples": [
+  "title": "2D Water Ripple",
+  "description": "In this coding challenge, I attempt to simulate 2D water ripples using Processing (Java).",
+  "videoNumber": "102",
+  "videoId": "BZUdGqeOD0w",
+  "date": "2018-05-07",
+  "languages": ["Processing"],
+  "topics": ["2d water ripple", "cellular automata"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "24-perlin-noise-flow-field",
+    "85-the-game-of-life",
+    "103-fire-effect"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:54", "title": "2D water ripples algorithm" },
+    { "time": "1:38", "title": "Let's Code" },
+    { "time": "2:14", "title": "Create a 2D Array" },
+    { "time": "5:08", "title": "Find new current pixel value" },
+    { "time": "7:54", "title": "Display new pixel value" },
+    { "time": "9:31", "title": "Initialize array" },
+    { "time": "10:06", "title": "Swap buffers" },
+    { "time": "12:16", "title": "Add dampening" },
+    { "time": "12:54", "title": "Correction: subtract current value" },
+    { "time": "13:56", "title": "Add mousePressed" },
+    { "time": "15:51", "title": "Add mouseDragged" }
+  ],
+  "codeExamples": [
+    {
+      "title": "2D Water Ripple",
+      "description": "This sketch creates a 2D simulation of water ripples on a surface.",
+      "image": "ripples.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tYXtzNSl",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/102_WaterRipples/Processing/CC_102_WaterRipples"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "2D Water Ripple",
-            "description": "This sketch creates a 2D simulation of water ripples on a surface.",
-            "image": "ripples.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/tYXtzNSl",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/102_WaterRipples/Processing/CC_102_WaterRipples"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "📓",
-                    "title": "2D Water",
-                    "url": "https://web.archive.org/web/20160418004149/http://freespace.virgin.net/hugo.elias/graphics/x_water.htm",
-                    "description": "This article describes the algorithm to create a simulation of water ripples on a surface. "
-                },
-                {
-                    "icon": "💾",
-                    "title": "Processing",
-                    "url": "http://processing.org",
-                    "description": "Webpage with documentation and references for Processing."
-                }
-            ]
+          "icon": "📓",
+          "title": "2D Water",
+          "url": "https://web.archive.org/web/20160418004149/http://freespace.virgin.net/hugo.elias/graphics/x_water.htm",
+          "description": "This article describes the algorithm to create a simulation of water ripples on a surface. "
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "Game of Life Challenge",
-                    "url": "https://www.youtube.com/watch?v=FWSR_7kZuYg",
-                    "description": "In this coding challenge, I attempt to code Conway's Game of Life cellular automata simulation in JavaScript using the p5.js library."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Cellular Automata",
-                    "url": "https://www.youtube.com/watch?v=DKGodqDs9sA",
-                    "description": "This video introduces the concepts and algorithms behind Cellular Automata."
-                }
-            ]
+          "icon": "💾",
+          "title": "Processing",
+          "url": "http://processing.org",
+          "description": "Webpage with documentation and references for Processing."
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Cellular Automata",
+          "url": "https://www.youtube.com/watch?v=DKGodqDs9sA",
+          "description": "This video introduces the concepts and algorithms behind Cellular Automata."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/ORwIZCKJA-Q?t=7570s",
+          "description": "Livestream #135: @2:06:10 - 2D water ripples challenge"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

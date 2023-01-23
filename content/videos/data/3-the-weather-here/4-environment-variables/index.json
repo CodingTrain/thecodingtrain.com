@@ -41,7 +41,7 @@
         {
           "icon": "🚂",
           "title": "Git and GitHub for Poets",
-          "url": "/tracks/git-github-for-poets",
+          "url": "/tracks/git-and-github-for-poets",
           "description": "Tutorial on using Git and GitHub for version control."
         }
       ]
@@ -62,6 +62,16 @@
           "description": "GitHub is a online hosting service for version control using Git used for software development."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

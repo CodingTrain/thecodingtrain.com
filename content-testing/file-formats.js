@@ -85,6 +85,17 @@ const video = {
             }
           }
         }
+      },
+      credits: {
+        type: 'array',
+        content: {
+          type: 'object',
+          properties: {
+            title: { isRequired: true, type: 'string' },
+            name: { isRequired: true, type: 'string' },
+            url: { type: 'string' }
+          }
+        }
       }
     }
   }
@@ -150,7 +161,9 @@ const contribution = {
         type: 'object',
         properties: {
           name: { isRequired: true, type: 'string' },
-          url: { type: 'string' }
+          url: { type: 'string' },
+          twitter: { type: 'string' },
+          instagram: { type: 'string' }
         }
       },
       url: { type: 'string' },

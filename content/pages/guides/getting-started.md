@@ -46,7 +46,7 @@ When you have some code you want to share or publish online outside of the web e
 
 <Video videoId="BCQHnlnPusY" listId="PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV" />
 
-To learn more, take a ride on the [“Git and GitHub for Poets” track](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X). This series is a primer on version control and the difference between git software and the GitHub website.
+To learn more, take a ride on the [“Git and GitHub for Poets” track](/tracks/git-and-github-for-poets). This series is a primer on version control and the difference between git software and the GitHub website.
 
 The videos in cover terminology like branch, fork, merge, pull, push, and remote. There’s even [a friendly “playground repository”](https://github.com/CodingTrain/Rainbow-Poem) for you to make your first pull request!
 

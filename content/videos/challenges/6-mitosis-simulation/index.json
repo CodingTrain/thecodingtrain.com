@@ -7,7 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["mitosis", "simulation"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["36-blobby"],
   "timestamps": [
     { "time": "00:00", "title": "Welcome to the challenge!" },
     { "time": "00:56", "title": "Create a Cell constructor" },
@@ -32,9 +32,31 @@
       "image": "mitosis.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/K_ABj0cCt",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_006_Mitosis/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/006_Mitosis"
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "Livestream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #33",
+          "url": "https://youtu.be/WpUnYfVmKdA?t=4390s",
+          "description": "Livestream with Space Invaders and Mitosis Simulation"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "videoNumber": "13",
   "videoId": "XO77Fib9tSI",
   "date": "2018-05-30",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["async", "promises", "es8"],
   "canContribute": false,
   "timestamps": [
@@ -33,6 +33,16 @@
           "description": "async function Reference on the MDN Web Docs"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

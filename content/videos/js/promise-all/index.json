@@ -4,7 +4,7 @@
   "videoNumber": "15",
   "videoId": "01RTj1MWec0",
   "date": "2018-06-01",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["promises", "arrays"],
   "canContribute": false,
   "timestamps": [
@@ -34,6 +34,16 @@
           "description": "Promise.all() Reference on the MDN Web Docs"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -6,19 +6,20 @@ import Image from './Image';
 import * as css from './PassengerShowcasePanel.module.css';
 
 import PlayButton from '../images/playbutton.svg';
-import { shuffleCopy, useIsFirstRender } from '../utils';
+import { useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const PassengerShowcasePanel = ({
   contributions,
   placeholderImage,
   headerType = 'h2'
 }) => {
-  // First render : as many empty placeholders as there are challenges
+  // First render : as many empty contributions as there are challenges
   const [shuffledContribs, setShuffledContribs] = useState(() =>
     contributions.map(() => ({}))
   );
   useEffect(() => {
-    // Next renders : shuffled challenges on client side hydration
+    // Next renders : shuffled contributions on client side hydration
     setShuffledContribs(shuffleCopy(contributions));
   }, [contributions]);
   const isFirstRender = useIsFirstRender();

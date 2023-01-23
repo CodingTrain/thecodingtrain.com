@@ -31,19 +31,29 @@ const ItemsPage = ({
   SeparatorCharacter,
   EndPageCharacter,
   characterOrientation,
-  languages,
-  topics,
   midSection,
   children,
   showPagination,
   previousPagePath,
   humanPageNumber,
   numberOfPages,
-  nextPagePath
+  nextPagePath,
+  filtersFilePath
 }) => {
   const [expanded, setExpanded] = useState(false);
+  const [languages, setLanguages] = useState([selectedLanguage]);
+  const [topics, setTopics] = useState([selectedTopic]);
   const filtersRef = useRef();
   const shouldScroll = location.pathname.split('/').length > 2;
+
+  useEffect(() => {
+    (async () => {
+      const resp = await fetch(filtersFilePath);
+      const doc = await resp.json();
+      setLanguages(doc.languages);
+      setTopics(doc.topics);
+    })();
+  }, [filtersFilePath]);
 
   useEffect(() => {
     if (location?.state?.expanded !== undefined)
@@ -119,6 +129,7 @@ const ItemsPage = ({
           selected={selectedLanguage}
           onChange={setSelectedLanguage}
           variant={variant}
+          instanceId="languages-filter"
         />
 
         <Select
@@ -130,6 +141,7 @@ const ItemsPage = ({
           selected={selectedTopic}
           onChange={setSelectedTopic}
           variant={variant}
+          instanceId="topics-filter"
         />
       </div>
 

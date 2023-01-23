@@ -1,0 +1,79 @@
+{
+  "title": "Streaming API",
+  "description": "In this video, I explore the Mastodon streaming API to register user events.",
+  "videoNumber": "4.5",
+  "videoId": "4hJykkzjXYY",
+  "date": "2018-10-10",
+  "languages": ["node.js"],
+  "topics": ["mastodon"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Listen to user events" },
+    { "time": "1:35", "title": "Rules of the space" },
+    { "time": "1:51", "title": "Create a listener" },
+    { "time": "5:09", "title": "Acting on a \"follow\" event" },
+    { "time": "6:39", "title": "Send reply message" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "🤖",
+          "title": "Botsin.space server",
+          "url": "https://botsin.space/about/more",
+          "description": "Botsin.space server"
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        },
+        {
+          "icon": "🚂",
+          "title": "Data and APIs in Javascript Track",
+          "url": "/tracks/data-and-apis-in-javascript",
+          "description": "This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with fetch() and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as draw to HTML5 canvas with p5.js. The second and third project will introduce \"full stack\" development adding server-side programming with node.js for data persistence and API authentication."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -1,89 +1,109 @@
 {
-    "title": "Circle Packing",
-    "description": "In this multi-part coding challenge, I demonstrate how to use a circle packing algorithm.",
-    "videoNumber": "50",
-    "videoId": "",
-    "date": "2017-01-09",
-    "languages": ["processing"],
-    "topics": [
-        "load pixels",
-        "circle packing",
-        "processing pixels"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "parts": [
+  "title": "Circle Packing",
+  "description": "In this multi-part coding challenge, I demonstrate how to use a circle packing algorithm.",
+  "videoNumber": "50",
+  "videoId": "",
+  "date": "2017-01-09",
+  "languages": ["Processing"],
+  "topics": ["load pixels", "circle packing", "processing pixels"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "47-pixel-sorting-in-processing",
+    "49-photo-mosaic-with-white-house-social-media-images"
+  ],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Circle Packing and Text",
+      "videoId": "QHEQuoIKgNE",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:47", "title": "Circle Packing by Marius Watz" },
+        { "time": "1:09", "title": "Create a Circle class" },
+        { "time": "3:06", "title": "Add show()" },
+        { "time": "4:22", "title": "Create an ArrayList" },
+        { "time": "5:34", "title": "Null pointer exception" },
+        { "time": "6:26", "title": "Add a grow() function" },
+        { "time": "6:52", "title": "Add an edges() function" },
+        { "time": "9:25", "title": "Add new circles at random x, y" },
+        { "time": "10:07", "title": "Only add valid circles" },
+        { "time": "14:03", "title": "Check for overlapping circles" },
+        { "time": "16:02", "title": "Make sure circle is not checking itself" },
+        { "time": "20:53", "title": "Seed circles based on pixel color" },
+        { "time": "22:06", "title": "Read the pixels of an image" },
+        { "time": "23:30", "title": "Add circles based on brightness of pixel" }
+      ]
+    },
+    {
+      "title": "Part 2 - Colorful Circle Packing with an Image",
+      "videoId": "ERQcYaaZ6F0",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "1:10", "title": "Pull the color value from the image" },
+        { "time": "1:55", "title": "Add color variable to Circle class" },
+        { "time": "2:35", "title": "Look up pixel color" },
+        { "time": "3:58", "title": "Possible refinements" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Animated Circle Packing - Text",
+      "description": "This sketch shows how to use a circle packing algorithm to fill the outlines of text.",
+      "image": "train.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/wxGRAd4I-",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/050.1_CirclePackingAnimated/Processing/CC_050_1_B_CirclePackingAnimatedText"
+      }
+    },
+    {
+      "title": "Animated Circle Packing - Image",
+      "description": "This sketch demonstrates how to combine the circle packing algorithm with looking up pixel colors in an image.",
+      "image": "cat.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/tRpryH_um",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/050.2_CirclePackingImage/Processing/CC_050_2_CirclePackingImage"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Animated Circle Packing - Part 1",
-            "videoId": "QHEQuoIKgNE",
-            "timestamps": [
-                { "time": "0:00", "title": "Introduction" },
-                { "time": "0:47", "title": "Circle Packing by Marius Watz" },
-                { "time": "1:09", "title": "Create a Circle class" },
-                { "time": "3:06", "title": "Add show()" },
-                { "time": "4:22", "title": "Create an ArrayList" },
-                { "time": "5:34", "title": "Null pointer exception" },
-                { "time": "6:26", "title": "Add a grow() function" },
-                { "time": "6:52", "title": "Add an edges() function" },
-                { "time": "9:25", "title": "Add new circles at random x, y" },
-                { "time": "10:07", "title": "Only add valid circles" },
-                { "time": "14:03", "title": "Check for overlapping circles" },
-                { "time": "16:02", "title": "Make sure circle is not checking itself" },
-                { "time": "20:53", "title": "Seed circles based on pixel color" },
-                { "time": "22:06", "title": "Read the pixels of an image" },
-                { "time": "23:30", "title": "Add circles based on brightness of pixel" }
-            ]
+          "icon": "💻",
+          "title": "Various Circle Packing Tutorials",
+          "url": "http://julienleonard.com/tutorials.html",
+          "description": "Webpage with circle packing algorithms"
         },
         {
-            "title": "Animated Circle Packing - Part 2",
-            "videoId": "ERQcYaaZ6F0",
-            "timestamps": [
-                { "time": "0:00", "title": "Introduction" },
-                { "time": "1:10", "title": "Pull the color value from the image" },
-                { "time": "1:55", "title": "Add color variable to Circle class" },
-                { "time": "2:35", "title": "Look up pixel color" },
-                { "time": "3:58", "title": "Possible refinements" }
-            ]
+          "icon": "🗄",
+          "title": "Circle Packing on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Circle_packing",
+          "description": "Wikipedia page with background and references on circle packing"
         }
-    ],
-    "codeExamples": [
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
         {
-            "title": "Animated Cirle Packing - Text",
-            "description": "This sketch shows how to use a circle packing algorithm to fill the outlines of text.",
-            "image": "train.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/wxGRAd4I-",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/050.1_CirclePackingAnimated/Processing/CC_050_1_B_CirclePackingAnimatedText"
-            }
-        },
-        {
-            "title": "Animated Cirle Packing - Image",
-            "description": "This sketch demonstrates how to combine the circle packing algorithm with looking up pixel colors in an image.",
-            "image": "cat.jpg",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/tRpryH_um",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/050.2_CirclePackingImage/Processing/CC_050_2_CirclePackingImage"
-            }
+          "icon": "🔴",
+          "title": "Live Stream #71",
+          "url": "https://youtu.be/pF0cadg2mg0",
+          "description": "Live Stream with Circle Packing and White House Date Visualization."
         }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "💻",
-                    "title": "Various Circle Packing Tutorials",
-                    "url": "http://julienleonard.com/tutorials.html",
-                    "description": "Webpage with circle packing algorithms"
-                },
-                {
-                    "icon": "🗄",
-                    "title": "Circle Packing on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Circle_packing",
-                    "description": "Wikipedia page with background and references on circle packing"
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

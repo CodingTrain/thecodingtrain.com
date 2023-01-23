@@ -5,28 +5,55 @@
   "videoId": "JFugGF1URNo",
   "date": "2018-06-21",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "generative art", "algorithmic botany"],
+  "topics": ["fractals", "algorithmic botany"],
   "canContribute": true,
-  "timestamps": [],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "15-object-oriented-fractal-trees",
+    "16-l-system-fractal-trees",
+    "17-fractal-trees-space-colonization",
+    "18-3d-fractal-trees",
+    "174-graphics-applesoft-basic"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "0:49", "title": "Discuss the algorithm" },
+    { "time": "2:23", "title": "Explanation of matrix algebra" },
+    { "time": "4:20", "title": "Let's Code!" },
+    {
+      "time": "5:24",
+      "title": "Input the transformation formula for next x and y"
+    },
+    {
+      "time": "7:15",
+      "title": "Remap the values to the width and height of the canvas"
+    },
+    {
+      "time": "8:32",
+      "title": "Add other transformation formulas for next x and y"
+    },
+    {
+      "time": "11:12",
+      "title": "Pick a random number to choose the tranformation"
+    },
+    { "time": "12:08", "title": "Add nextPoint, drawPoint functions" },
+    { "time": "13:51", "title": "Add probabilities" },
+    { "time": "15:57", "title": "Update the range" },
+    { "time": "16:41", "title": "Thanks for watching!" }
+  ],
   "codeExamples": [
     {
       "title": "The Barnsley Fern",
-      "description": "A Barnsely Fern made with p5.js",
+      "description": "This sketch implements the algorithm for the Barnsley Fern.",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/G4V940Y8V"
-      }
-    },
-    {
-      "title": "Barnsley Fern",
-      "description": "The Barnsley Fern built in Processing",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/108_barnsley_fern/Processing"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/G4V940Y8V",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/108_barnsley_fern/Processing/CC_108_barnsley_fern"
       }
     }
   ],
   "groupLinks": [
     {
-      "title": "Links Discussed",
+      "title": "References",
       "links": [
         {
           "icon": "🌐",
@@ -34,6 +61,39 @@
           "url": "https://en.wikipedia.org/wiki/Barnsley_fern"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Algorithmic Botany Track",
+          "url": "/tracks/algorithmic-botany",
+          "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
+        },
+        {
+          "icon": "🎥",
+          "title": "Matrix Math",
+          "url": "https://youtu.be/uSzGdfdOoG8",
+          "description": "In this video, I discuss the matrix math required for a simple neural network library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 142",
+          "url": "https://youtu.be/_9ZerP7pGvc?t=4837s",
+          "description": "Live Stream with Sandpile and Barnsley Fern Coding Challenges"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

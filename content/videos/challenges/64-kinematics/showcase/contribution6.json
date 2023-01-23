@@ -1,0 +1,9 @@
+{
+    "title": "Hexapod Robot Inverse Kinematics Visualizer with Javascript",
+    "url": "https://hexapod.netlify.app",
+    "author": {
+        "name": "Mithi Sevilla",
+        "url": "https://medium.com/@mithi"
+    },
+    "source": "https://github.com/mithi/hexapod"
+}

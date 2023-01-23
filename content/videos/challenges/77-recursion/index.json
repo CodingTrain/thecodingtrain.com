@@ -3,9 +3,25 @@
   "description": "In this coding challenge, I explore the concept of recursion to create fractal patterns in JavaScript HTML5 canvas with the p5.js library.",
   "videoNumber": "77",
   "videoId": "jPsZwrV9ld0",
-  "date": "2017-05-10",
+  "date": "2017-10-05",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["recursion", "fractals", "beginner"],
+  "topics": ["recursion", "fractals", "beginners"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "17-fractal-trees-space-colonization",
+    "21-mandelbrot-set-with-p5js"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:46", "title": "Start coding!" },
+    { "time": "2:51", "title": "Write a drawCircle function" },
+    { "time": "3:37", "title": "Add recursion to the drawCircle function" },
+    { "time": "5:15", "title": "Add an exit condition" },
+    { "time": "6:58", "title": "Self-similar fractals" },
+    { "time": "10:10", "title": "Add randomness" },
+    { "time": "11:45", "title": "Have fun coding some recursive fractals" }
+  ],
   "codeExamples": [
     {
       "title": "Recursion",
@@ -13,8 +29,7 @@
       "image": "recursion.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/pseBrWaMm",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/077_Recursion/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/077_Recursion"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/077_Recursion/Processing"
       }
     }
   ],
@@ -27,21 +42,34 @@
           "title": "The Fractal Geometry of Nature",
           "description": "The essential guide that introduced fractals to the world by Benoit Mandlebrot",
           "url": "http://amzn.to/2xiVwht"
-        },
-
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
         {
           "icon": "🎥",
           "title": "My playlist on fractals & recursion",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef"
         },
-
         {
-          "icon": "🎥",
-          "title": "Fractal Tree",
-          "description": "Coding Challenge using recursion to generate fractal tree.",
-          "url": "https://youtu.be/0jjeOYMjmDU"
+          "icon": "🔴",
+          "title": "Live Stream Archive #102",
+          "url": "https://youtu.be/-RvrDZd1xVw?t=5748s",
+          "description": "Intro to ES6 Classes - OOP in JavaScript"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -7,7 +7,11 @@
   "languages": ["node.js", "p5.js", "JavaScript"],
   "topics": ["math", "pi day"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "140-pi-leibniz",
+    "161-estimating-pi-from-random-numbers",
+    "169-pi-in-the-sky"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:30", "title": "Importing Pi Into p5.js" },
@@ -73,8 +77,29 @@
           "title": "Server-side with Node.js",
           "url": "https://www.youtube.com/watch?v=wxbQP1LMZsw",
           "description": "Introduction to Node.js"
+        },
+        {
+          "title": "Working with Data and APIs track",
+          "url": "/tracks/data-and-apis-in-javascript",
+          "description": "This course is for aspiring developers who want to learn how to work with data in web applications."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 189",
+          "url": "https://youtu.be/AkySW5uy7rU?t=1431s",
+          "description": "Live Stream with Searching for Digits in Pi"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

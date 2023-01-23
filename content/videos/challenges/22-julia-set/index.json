@@ -7,8 +7,27 @@
   "languages": ["Processing"],
   "topics": ["julia set", "mandelbrot set", "fractal", "complex number"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "168-the-mandelbulb"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introducing today's coding challenge: the Julia set"
+    },
+    { "time": "0:40", "title": "Review of the Mandelbrot set" },
+    { "time": "4:51", "title": "The Julia set" },
+    {
+      "time": "7:16",
+      "title": "Adjust code to include a particular Julia set"
+    },
+    {
+      "time": "10:07",
+      "title": "Use mouseX, mouseY to see all the different Julia sets"
+    },
+    { "time": "12:30", "title": "Add sine wave to animate" },
+    { "time": "14:42", "title": "Add color by changing the color mode to HSB" },
+    { "time": "16:45", "title": "Use zoom to animate" },
+    { "time": "17:56", "title": "Thanks for watching!" }
+  ],
   "codeExamples": [
     {
       "title": "Julia Set",
@@ -25,7 +44,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🗄",
+          "icon": "🌐",
           "title": "Wikipedia on Julia Set",
           "url": "https://en.wikipedia.org/wiki/Julia_set",
           "description": "Discussion of julia set."
@@ -44,10 +63,26 @@
         {
           "icon": "🚂",
           "title": "Coding Challenge: Mandelbrot Set",
-          "url": "https://thecodingtrain.com/challenges/21-mandelbrot-set-with-p5js",
+          "url": "/challenges/21-mandelbrot-set-with-p5js",
           "description": "In this coding challenge, I program from scratch the Mandelbrot set with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #44",
+          "url": "https://youtu.be/k6OeXGzRv0c",
+          "description": "Live Stream with Julia Set and Sound Effects with p5.js"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

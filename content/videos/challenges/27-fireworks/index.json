@@ -15,7 +15,7 @@
     "particle systems"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["78-simple-particle-system"],
   "timestamps": [
     { "time": "00:00", "title": "Welcome to Another Coding Challenge!" },
     { "time": "00:35", "title": "Code! Create a Particle constructor" },
@@ -36,28 +36,20 @@
   ],
   "codeExamples": [
     {
-      "title": "2D Fireworks in p5.js",
-      "description": "Example in 2D running in the browser",
+      "title": "2D Fireworks",
+      "description": "Example of 2D fireworks",
       "image": "p5-example.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/O2M0SO-WO",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_027_FireWorks/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/027_FireWorks/Processing/CC_027_FireWorks_2D"
       }
     },
     {
-      "title": "2D Fireworks in Processing",
-      "description": "Example in 2D with Processing",
-      "image": "processing-2d-example.jpg",
-      "urls": {
-        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_027_FireWorks/Processing/CC_027_FireWorks_2D"
-      }
-    },
-    {
-      "title": "3D Fireworks in Processing",
-      "description": "Example in 3D with Processing",
+      "title": "3D Fireworks",
+      "description": "Example of 3D fireworks",
       "image": "processing-3d-example.jpg",
       "urls": {
-        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_027_FireWorks/Processing/CC_027_FireWorks_3D"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/027_FireWorks/Processing/CC_027_FireWorks_3D"
       }
     }
   ],
@@ -78,6 +70,27 @@
           "description": "Documentation for the PeasyCam Processing library"
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #48",
+          "url": "https://youtu.be/ATWOjXdRIoo",
+          "description": "Live Stream with Computer Vision and Fireworks!"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

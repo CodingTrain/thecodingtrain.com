@@ -1,0 +1,212 @@
+{
+  "title": "Markov Chain Name Generator",
+  "description": "In this multi-part coding challenge I attempt to use a Markov Chain to generate a new name for my YouTube channel.",
+  "videoNumber": "42",
+  "videoId": "",
+  "date": "2016-10-24",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["markov chain", "n-gram", "text generator"],
+  "canContribute": true,
+  "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator"],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Markov Chain with Text",
+      "videoId": "eGFJ8vugIWA",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduce the coding challenge" },
+        {
+          "time": "0:28",
+          "title": "Reference article explaining Markov chains"
+        },
+        { "time": "0:43", "title": "Explain the logic of Markov chains" },
+        { "time": "2:39", "title": "Mention possible use cases" },
+        {
+          "time": "3:06",
+          "title": "Describe the scope of the coding challenge"
+        },
+        { "time": "4:58", "title": "Explain n-grams and n-grams order" },
+        {
+          "time": "6:58",
+          "title": "Set up p5.js sketch with a string of text"
+        },
+        {
+          "time": "7:19",
+          "title": "Create an array with all possible tri-grams"
+        },
+        {
+          "time": "9:55",
+          "title": "Explain the data structure to study n-grams"
+        },
+        { "time": "11:05", "title": "Create an object of unique tri-grams" },
+        {
+          "time": "12:12",
+          "title": "Experiment with a different string of text"
+        },
+        {
+          "time": "13:15",
+          "title": "Consider the character after each tri-gram"
+        },
+        { "time": "14:30", "title": "Examine the output object" },
+        {
+          "time": "16:30",
+          "title": "Expand sketch to generate text on demand"
+        },
+        {
+          "time": "18:10",
+          "title": "Consider n-grams for an arbitrary string of text"
+        },
+        {
+          "time": "18:53",
+          "title": "Pick a random element from one of the n-grams characters"
+        },
+        {
+          "time": "20:00",
+          "title": "Repeat the process to create longer strings"
+        },
+        { "time": "21:07", "title": "Create n-grams from the current result" },
+        { "time": "22:05", "title": "Highlight output text" },
+        { "time": "22:20", "title": "Test with different input text" },
+        { "time": "23:02", "title": "Test with different arguments" },
+        { "time": "23:14", "title": "Debug n-gram logic" },
+        {
+          "time": "24:47",
+          "title": "Explain the influence of the order value"
+        },
+        { "time": "25:35", "title": "Conclude the coding challenge" }
+      ]
+    },
+    {
+      "title": "Part 2 - Creating a Name Generator",
+      "videoId": "9r8CmofnbAQ",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduce the coding challenge" },
+        {
+          "time": "0:10",
+          "title": "Mention the coding challenge 'Markov Chain Text'"
+        },
+        {
+          "time": "0:18",
+          "title": "Describe the scope of the coding challenge"
+        },
+        { "time": "0:43", "title": "Introduce dataset with name suggestions" },
+        { "time": "1:10", "title": "Load dataset" },
+        { "time": "2:12", "title": "Loop through the strings of text" },
+        { "time": "2:35", "title": "Create n-grams for the input text" },
+        { "time": "3:08", "title": "Debug loop logic" },
+        {
+          "time": "3:58",
+          "title": "Credit Python code inspiring the algorithm"
+        },
+        {
+          "time": "4:27",
+          "title": "Create an array for the beginning of the string"
+        },
+        {
+          "time": "5:24",
+          "title": "Explain the importance of repeated values"
+        },
+        { "time": "5:32", "title": "Pick a random beginning" },
+        { "time": "6:00", "title": "Experiment with different arguments" },
+        { "time": "6:57", "title": "Explore creative possibilities" },
+        { "time": "7:20", "title": "Conclude the coding challenge" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Markov Chain Text",
+      "description": "This sketch implements a Markov Chain to generate strings of text.",
+      "image": "markov-chain-text.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Y6SvoMcyH",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/042.1_markov-chain/Processing"
+      }
+    },
+    {
+      "title": "Markov Chain Name Generator",
+      "description": "This sketch applies a Markov Chain to a list of suggested keywords to generate the name for a YouTube channel.",
+      "image": "markov-chain-name-generator.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/AAgqWiJAW",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/042.2_markov-chain-names/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Google Ngram Viewer",
+          "url": "https://books.google.com/ngrams",
+          "description": "Google Books Ngram Viewer."
+        },
+        {
+          "icon": "🔗",
+          "title": "n-gram on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/N-gram",
+          "description": "Wikipedia page with information and resources on n-gram."
+        },
+        {
+          "icon": "🔗",
+          "title": "Web Trigrams",
+          "url": "http://www.chrisharrison.net/index.php/Visualizations/WebTrigrams",
+          "description": "Web Trigrams: Visualizing Google's Tri-Gram Data."
+        },
+        {
+          "icon": "🔗",
+          "title": "Generative Course Descriptions",
+          "url": "http://static.decontextualize.com/toys/next_semester?",
+          "description": "Website creating course descriptions with a generative algorithm."
+        },
+        {
+          "icon": "🔗",
+          "title": "King James Programming",
+          "url": "http://kingjamesprogramming.tumblr.com/",
+          "description": "Posts generated by a Markov chain trained on the King James Bible."
+        },
+        {
+          "icon": "🔗",
+          "title": "Markov Chains Explained",
+          "url": "http://setosa.io/ev/markov-chains/",
+          "description": "Markov Chains explained visually."
+        },
+        {
+          "icon": "🔗",
+          "title": "Perlin Noise song",
+          "url": "https://soundcloud.com/fl00per/perlin-noise",
+          "description": "Perlin Noise song on SoundCloud."
+        },
+        {
+          "icon": "💻",
+          "title": "Programming from A to Z - Markov Chains",
+          "url": "http://shiffman.net/a2z/markov",
+          "description": "Webpage with material from my \"Programming from A to Z\" course."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 64",
+          "url": "https://youtu.be/4DR0ryGSYJQ?t=2423s",
+          "description": "Live Stream with N-Grams and Markov Chains to generate text algorithmically."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

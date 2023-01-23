@@ -4,9 +4,16 @@
   "videoNumber": "128",
   "videoId": "pdaNttb7Mr8",
   "date": "2018-12-26",
-  "languages": ["ml5", "p5.js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],
   "canContribute": true,
+  "relatedChallenges": [
+    "122-quick-draw",
+    "127-brownian-tree-snowflake",
+    "129-koch-fractal-snowflake",
+    "150-ai-rainbows-with-runway-and-p5js",
+    "153-interactive-drawing-with-sketchrnn"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:55", "title": "SketchRNN" },
@@ -61,16 +68,32 @@
         {
           "icon": "🚂",
           "title": "Text Generation with LSTM and Spell with Nabil Hassein",
-          "url": "https://www.youtube.com/watch?v=xfuVcfwtEyw",
+          "url": "https://youtu.be/xfuVcfwtEyw",
           "description": "Nabil Hassein demonstrates how to train an \"LSTM\" neural network to generate text in the style of a particular author using Spell and ml5.js."
         },
         {
           "icon": "🚂",
           "title": "Coding Challenge #122: Quick, Draw!",
-          "url": "https://www.youtube.com/watch?v=yLuk0twx8Hc",
+          "url": "https://youtu.be/yLuk0twx8Hc",
           "description": "In this coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \"replay\" drawings of rainbows and cats using p5.js. "
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live Holiday Telethon 2018",
+          "url": "https://youtu.be/WACLmPBxMaw?t=8207s",
+          "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

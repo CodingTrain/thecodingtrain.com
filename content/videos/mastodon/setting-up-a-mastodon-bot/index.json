@@ -1,0 +1,90 @@
+{
+  "title": "Setting Up a Mastodon Bot",
+  "description": "In this video, I set up the bot account and post a toot from node.js.",
+  "videoNumber": "4.2",
+  "videoId": "pY4b18JGCKE",
+  "date": "2018-10-09",
+  "languages": ["node.js"],
+  "topics": ["Mastodonbot"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction: making a Mastodon Bot" },
+    { "time": "2:16", "title": "Creating a new application" },
+    { "time": "6:30", "title": "Mastodon-api" },
+    { "time": "8:15", "title": "Create a new Mastodon" },
+    {
+      "time": "10:19",
+      "title": "Ways to Engage with Mastodon:  GET, POST, & STREAMING"
+    },
+    { "time": "12:00", "title": "POST a new status" },
+    { "time": "13:30", "title": "Parameters" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "🤖",
+          "title": "Botsin.space server",
+          "url": "https://botsin.space/about/more",
+          "description": "Botsin.space server"
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Workflow - Node",
+          "url": "https://youtu.be/FjWbUK2HdCo",
+          "description": "In this video, I discuss how I use node.js and global packages (to generate p5 sketches, run a web server) as part of my workflow."
+        },
+        {
+          "icon": "🚂",
+          "title": "Workflow - Shell",
+          "url": "https://youtu.be/FnkkzgYuXUM",
+          "description": "What is a \"shell\"? In this video, I look at at \"zsh\" (instead of the default Mac OSX shell: bash)."
+        },
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

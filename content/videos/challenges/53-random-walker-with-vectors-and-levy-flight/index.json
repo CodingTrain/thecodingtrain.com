@@ -53,7 +53,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🏛",
+          "icon": "🌐",
           "title": "Lévy Flight on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/L%C3%A9vy_flight",
           "description": ""
@@ -69,6 +69,18 @@
           "title": "p5.Vector p5.js Reference",
           "url": "https://p5js.org/reference/#/p5/p5.Vector",
           "description": "The p5.js Reference page for the p5.Vector class."
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        },
+        {
+          "icon": "📕",
+          "title": "The Nature of Code GitHub (Spring 2017)",
+          "url": "https://github.com/nature-of-code/NOC-S17-1-Physics-Animation",
+          "description": "Syllabus for Part 1 of Nature of Code: \"Physics and Animation\" at ITP Spring 2017"
         }
       ]
     },
@@ -79,15 +91,31 @@
           "icon": "📽",
           "title": "My Videos on Vectors",
           "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc",
-          "description": ""
+          "description": "These video lessons accompany Chapter 1 (Vectors) from The Nature of Code book."
         },
         {
           "icon": "📽",
           "title": "Coding Challenge #52: Random Walker",
           "url": "/challenges/52-random-walker",
           "description": "In this Coding Challenge, I implement a Random Walker using the p5.js library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #74",
+          "url": "https://youtu.be/mrAeK43YDgw",
+          "description": "Live Stream with Processing, p5.js and more Random Walks"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

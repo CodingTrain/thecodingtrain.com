@@ -4,7 +4,7 @@
   "videoNumber": "7.2",
   "videoId": "FYgYyq-xqAw",
   "date": "2020-01-15",
-  "languages": ["ml5", "p5jd"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": [
     "pose estimation",
     "data collection",
@@ -101,6 +101,16 @@
           "description": "This video covers the setTimeout() function in JavaScript in the context of p5.js.  setTimeout() allows you to execute a given function at a specific time (in milliseconds.)"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

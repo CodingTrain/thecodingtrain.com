@@ -1,52 +1,62 @@
 {
-    "title": "GitHub Pages",
-    "description": "In part 8 of the Git and GitHub for Poets series, I show you how to use GitHub Pages as free web hosting.",
-    "languages": [],
-    "topics": ["For beginners","Git","GitHub"],
-    "videoId": "bFVtrlyH-kc",
-    "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "0:37", "title": "What is GitHub Pages" },
-        { "time": "2:17", "title": "Create the repo for the website" },
-        { "time": "6:42", "title": "Add the homepage" },
-        { "time": "12:12", "title": "Recap" }
-    ],
-    "codeExamples": [
+  "title": "GitHub Pages",
+  "description": "In part 8 of the Git and GitHub for Poets series, I show you how to use GitHub Pages as free web hosting.",
+  "languages": [],
+  "topics": ["For beginners", "Git", "GitHub"],
+  "videoId": "bFVtrlyH-kc",
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:37", "title": "What is GitHub Pages" },
+    { "time": "2:17", "title": "Create the repo for the website" },
+    { "time": "6:42", "title": "Add the homepage" },
+    { "time": "12:12", "title": "Recap" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Poem Website",
+      "description": "GitHub repo for the Poem Website",
+      "urls": {
+        "other": "https://github.com/CodingTrain/PoemWebsite"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Poem Website",
-            "description": "GitHub repo for the Poem Website",
-            "urls": {
-              "other": "https://github.com/CodingTrain/PoemWebsite"
-            }
-        }
-    ],
-    "groupLinks":[
-        {
-            "title":"References",
-            "links":[
-                {
-                    "title": "GitHub",
-                    "url": "https://github.com",
-                    "description": "GitHub homepage"
-                },
-                {
-                    "title": "GitHub Docs",
-                    "icon": "📚",
-                    "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
-                    "description": "Quickstart tutorial for how to get started with Git and GitHub."
-                }
-            ]
+          "title": "GitHub",
+          "url": "https://github.com",
+          "description": "GitHub homepage"
         },
         {
-            "title": "Videos",
-            "links":[
-                {
-                    "title": "HTML/CSS/DOM - p5.js",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX",
-                    "description": "Learning HTML, CSS, and how to manipulate the DOM with p5.js."
-                }
-            ]
+          "title": "GitHub Docs",
+          "icon": "📚",
+          "url": "https://docs.github.com/en/get-started/quickstart/hello-world",
+          "description": "Quickstart tutorial for how to get started with Git and GitHub."
         }
-    ],
-    "canContribute": false
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "title": "HTML/CSS/DOM - p5.js",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX",
+          "description": "Learning HTML, CSS, and how to manipulate the DOM with p5.js."
+        }
+      ]
+    }
+  ],
+  "canContribute": false,
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

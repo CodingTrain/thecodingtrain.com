@@ -1,17 +1,35 @@
 import React, { Children, useState, useEffect, useRef } from 'react';
 import cn from 'classnames';
-
 import Button from './Button';
 import ShareButton from './ShareButton';
 import * as css from './Tabs.module.css';
 
 export const Tabs = ({ className, variant, labels, children }) => {
   const [active, setActive] = useState(0);
+  const [navHeight, setNavHeight] = useState(0);
   const isFirstRender = useRef(true);
+  const navRef = useRef();
 
   const onClick = (value) => {
     setActive(value);
   };
+
+  const getNavSize = () => {
+    if (navRef.current.clientHeight) {
+      const newNavHeight = navRef.current.clientHeight;
+      setNavHeight(newNavHeight)
+    };
+  };
+
+   useEffect(() => {
+    getNavSize();
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('resize', getNavSize);
+
+    return () => window.removeEventListener('resize', getNavSize);
+  }, []);
 
   useEffect(() => {
     if (!isFirstRender.current && window.innerWidth < 600) {
@@ -24,8 +42,10 @@ export const Tabs = ({ className, variant, labels, children }) => {
   }, [active]);
 
   return (
+    
     <div className={cn(css.root, className, { [css[variant]]: variant })}>
-      <nav className={css.tabs}>
+
+      <nav className={css.tabs} ref={navRef}>
         <ul>
           {labels.map((label, key) => (
             <li
@@ -54,7 +74,11 @@ export const Tabs = ({ className, variant, labels, children }) => {
             </li>
           ))}
         </ul>
-        <ShareButton className={css.share} variant={variant} />
+        <ShareButton
+          wrapped={navHeight > 50}
+          className={css.share}
+          variant={variant}
+        />
       </nav>
       {Children.toArray(children).map((child, key) => (
         <div
@@ -65,7 +89,9 @@ export const Tabs = ({ className, variant, labels, children }) => {
           {child}
         </div>
       ))}
+
     </div>
+
   );
 };
 

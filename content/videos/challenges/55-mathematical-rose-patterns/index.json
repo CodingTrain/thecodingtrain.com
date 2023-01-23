@@ -4,7 +4,7 @@
   "videoNumber": "55",
   "videoId": "f5QBExMNB1I",
   "date": "2017-02-08",
-  "languages": ["p5.js", "JavaScript", "Processing", "Java"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": [
     "algorithmic roses",
     "mathematics roses",
@@ -12,6 +12,13 @@
     "trigonometry"
   ],
   "canContribute": true,
+  "relatedChallenges": [
+    "116-lissajous-curve-table",
+    "125-fourier-series",
+    "133-time-tables-cardioid-visualization",
+    "134-heart-curve",
+    "c1-maurer-rose"
+  ],
   "timestamps": [
     {
       "time": "0:00",
@@ -52,8 +59,7 @@
       "image": "math_rose.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/3kanFIcHd",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses/Processing/CC_055_Roses",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/055_Roses/Processing/CC_055_Roses"
       }
     }
   ],
@@ -62,12 +68,33 @@
       "title": "References",
       "links": [
         {
-          "icon": "🏛",
+          "icon": "🌐",
           "title": "Rose Mathematics on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Rose_(mathematics)",
-          "description": ""
+          "description": "Wikipedia page with information and resources about rose mathematics."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream #76",
+          "url": "https://youtu.be/OkkjlHTdLGI",
+          "description": "Live Stream with Attractors, Algorithmic Roses and p5.js Coding Setups"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

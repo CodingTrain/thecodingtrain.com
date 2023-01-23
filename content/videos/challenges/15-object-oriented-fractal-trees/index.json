@@ -12,7 +12,81 @@
     "algorithmic botany"
   ],
   "canContribute": true,
-  "timestamps": [],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "16-l-system-fractal-trees",
+    "174-graphics-applesoft-basic"
+  ],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introducing today's topic"
+    },
+    {
+      "time": "1;44",
+      "title": "Write a Branch constructor function"
+    },
+    {
+      "time": "3:00",
+      "title": "Add a single Branch object for the root of the tree"
+    },
+    {
+      "time": "5:53",
+      "title": "Add a tree array"
+    },
+    {
+      "time": "7:20",
+      "title": "Write a branch object to created 2 attached branch objects"
+    },
+    {
+      "time": "9:30",
+      "title": "Create a direction vector that points from the beginning to the end of the vector"
+    },
+    {
+      "time": "10:12",
+      "title": "Determine new end point"
+    },
+    {
+      "time": "11:00",
+      "title": "Add a new branch to the right"
+    },
+    {
+      "time": "12:00",
+      "title": "Add a new branch to the left"
+    },
+    {
+      "time": "13:00",
+      "title": "Shrink the branches"
+    },
+    {
+      "time": "14:39",
+      "title": "Push new branches to the tree when the mouse is pressed"
+    },
+    {
+      "time": "15:37",
+      "title": "Loop through the array backwards"
+    },
+    {
+      "time": "16:12",
+      "title": "Deal with duplicate branches"
+    },
+    {
+      "time": "17:31",
+      "title": "Add a jitter function"
+    },
+    {
+      "time": "19:52",
+      "title": "Add leaves at the end of the branches"
+    },
+    {
+      "time": "21:58",
+      "title": "Have the leaves fall"
+    },
+    {
+      "time": "22:45",
+      "title": "Thanks for watching!"
+    }
+  ],
   "codeExamples": [
     {
       "title": "Fractal Trees - Object Oriented",
@@ -20,10 +94,54 @@
       "image": "tree.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/JDT5wrxVj",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/015_FractalTreeArray/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/015_FractalTreeArray"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/015_FractalTreeArray/Processing"
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌿",
+          "title": "Algorithmic Botany",
+          "url": "http://algorithmicbotany.org/",
+          "description": "The website of the Biological Modeling and Visualization research group in the Department of Computer Science at the University of Calgary."
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Algorithmic Botany Track",
+          "url": "/tracks/algorithmic-botany",
+          "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #40",
+          "url": "https://youtu.be/MwLyeEWnMCY?t=3153s",
+          "description": "Live Stream Tree Generation with Different Algorithms"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

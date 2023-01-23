@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 
 import Menu from './Menu';
@@ -39,7 +39,18 @@ const longDate = (date) => {
 };
 
 const TopBar = () => {
-  const today = new Date();
+  const [date, setDate] = useState({ long: '', short: '' });
+
+  useEffect(() => {
+    // Runs client-side only, the date should not be captured at build time during SSG
+
+    const today = new Date();
+    setDate({
+      long: longDate(today),
+      short: shortDate(today)
+    });
+  }, []);
+
   return (
     <div className={css.outer}>
       <header className={css.root}>
@@ -50,8 +61,8 @@ const TopBar = () => {
         </div>
         <div className={css.clock}>🕛</div>
         <div className={css.date}>
-          <span className={css.longDate}>{longDate(today)}</span>
-          <span className={css.shortDate}>{shortDate(today)}</span>
+          <span className={css.longDate}>{date.long}</span>
+          <span className={css.shortDate}>{date.short}</span>
         </div>
         <Menu />
       </header>

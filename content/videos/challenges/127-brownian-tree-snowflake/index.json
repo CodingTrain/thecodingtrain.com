@@ -7,13 +7,43 @@
   "languages": ["Processing"],
   "topics": [
     "brownian tree snowflake",
-    "brownian snowflake",
     "snowflake generator",
     "diffusion limited aggregation"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "34-diffusion-limited-aggregation",
+    "52-random-walker",
+    "128-sketch-rnn-snowflakes",
+    "129-koch-fractal-snowflake",
+    "155-kaleidoscope-snowflake"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:51", "title": "Brownian tree" },
+    { "time": "1:46", "title": "Diffusion Limited Aggregation" },
+    { "time": "2:18", "title": "Snowflakes have a hexagonal pattern" },
+    { "time": "3:52", "title": "Create a Particle class" },
+    { "time": "4:52", "title": "Add a random walk to the particle" },
+    { "time": "6:19", "title": "Translate to the center" },
+    { "time": "7:02", "title": "Make an array of snowflakes" },
+    { "time": "8:00", "title": "Write a finished function" },
+    { "time": "9:05", "title": "Write an intersects function " },
+    { "time": "11:04", "title": "Add kaleidoscope" },
+    { "time": "13:18", "title": "Edit code to add a vector" },
+    {
+      "time": "14:00",
+      "title": "Constrain particle to a slice of the hexagon"
+    },
+    { "time": "15:52", "title": "Speed up the animation" },
+    { "time": "16:43", "title": "Improve branching" },
+    { "time": "17:33", "title": "Randomize the starting position" },
+    { "time": "18:10", "title": "Conclusion and creative possibilities" },
+    {
+      "time": "19:05",
+      "title": "Please consider supporting the Processing Foundation!"
+    }
+  ],
   "codeExamples": [
     {
       "title": "Brownian Tree Snowflake",
@@ -50,15 +80,25 @@
       ]
     },
     {
-      "title": "Videos",
+      "title": "Live Stream Archive",
       "links": [
         {
-          "icon": "🚂",
-          "title": "Coding Challenge: Diffusion-Limited Aggregation",
-          "url": "https://www.youtube.com/watch?v=Cl_Gjj80gPE",
-          "description": "In this Coding Challenge, I explore the \"Diffusion-Limited Aggregation\" generative algorithm. "
+          "icon": "🔴",
+          "title": "Coding Train Live Holiday Telethon 2018",
+          "url": "https://youtu.be/WACLmPBxMaw?t=2392s",
+          "description": "In this fundraiser, I sing holiday songs and do three snowflake coding challenges."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

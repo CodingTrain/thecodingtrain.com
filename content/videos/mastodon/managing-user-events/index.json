@@ -1,0 +1,76 @@
+{
+  "title": "Managing User Events",
+  "description": "In this video I cover user events (mentions, follows, favorites, reblogs, etc.)",
+  "videoNumber": "4.6",
+  "videoId": "yFVc-LnBrEc",
+  "date": "2018-10-11",
+  "languages": ["node.js"],
+  "topics": ["mastodon"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Listening for a mention events" },
+    {
+      "time": "1:11",
+      "title": "Using a regular expression to respond to the content"
+    },
+    { "time": "2:17", "title": "Favorite the post" },
+    { "time": "9:09", "title": "Reblog" },
+    { "time": "10:12", "title": "Every action has an ID" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "🤖",
+          "title": "Botsin.space server",
+          "url": "https://botsin.space/about/more",
+          "description": "Botsin.space server"
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

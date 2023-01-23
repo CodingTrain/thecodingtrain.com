@@ -4,7 +4,7 @@
   "videoNumber": "67",
   "videoId": "IIrC5Qcb2G4",
   "date": "2017-03-27",
-  "languages": ["processing"],
+  "languages": ["Processing"],
   "topics": ["pong video game", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [],
@@ -58,8 +58,30 @@
           "title": "My Video on Polar Coordinates",
           "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "A dive into the trigonometric functions—sine, cosine, tangent."
+        },
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 87",
+          "url": "https://youtu.be/hVSHlFjTeqg?t=3115s",
+          "description": "Live Stream with Timer in JavaScript, Pong and Binary Tree"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "videoNumber": "19",
   "videoId": "MfxBfRD0FVU",
   "date": "2019-03-01",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["inheritance", "oop"],
   "canContribute": false,
   "timestamps": [
@@ -70,6 +70,16 @@
           "description": "Tutorial on ES6 classes"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

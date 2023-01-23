@@ -1,151 +1,170 @@
 {
-    "title": "A* Pathfinding Algorithm",
-    "description": "In this multi-part coding challenge, I attempt an implementation of the A* Pathfinding Algorithm to find the optimal path between two points in a 2D grid.",
-    "videoNumber": "51",
-    "videoId": "",
-    "date": "2017-01-16",
-    "languages": ["p5.js", "javascript"],
-    "topics": [
-        "A* algorithm",
-        "pathfinding",
-        "heuristic"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [],
-    "parts": [{
-            "title": "A* Pathfinder Algorithm - Part 1",
-            "videoId": "aKYlikFAV4k",
-            "timestamps": [{
-                    "time": "0:00:00",
-                    "title": "Introduction"
-                },
-                {
-                    "time": "0:01:26",
-                    "title": "A* Pathfinder"
-                },
-                {
-                    "time": "0:09:39",
-                    "title": "Coding a Grid"
-                },
-                {
-                    "time": "0:13:09",
-                    "title": "A* Pathfinder Algorithm"
-                },
-                {
-                    "time": "0:22:07",
-                    "title": "Choosing Best Available Path"
-                },
-                {
-                    "time": "0:27:05",
-                    "title": "Finding New Nodes"
-                },
-                {
-                    "time": "0:38:30",
-                    "title": "Adding Heuristic"
-                },
-                {
-                    "time": "0:41:50",
-                    "title": "Tracing Back"
-                },
-                {
-                    "time": "0:46:49",
-                    "title": "Using Better Heuristics"
-                }
-            ]
+  "title": "A* Pathfinding Algorithm",
+  "description": "In this multi-part coding challenge, I attempt an implementation of the A* Pathfinding Algorithm to find the optimal path between two points in a 2D grid.",
+  "videoNumber": "51",
+  "videoId": "",
+  "date": "2017-01-16",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["A* algorithm", "pathfinding", "heuristic"],
+  "canContribute": true,
+  "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk"],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Implementing the Algorithm",
+      "videoId": "aKYlikFAV4k",
+      "timestamps": [
+        {
+          "time": "0:00:00",
+          "title": "Introduction"
         },
         {
-            "title": "A* Algorithm - Part 2",
-            "videoId": "EaZxUCWAjb0",
-            "timestamps": [
-                {
-                    "time": "0:00:00",
-                    "title": "Introduction"
-                },
-                {
-                    "time": "0:00:40",
-                    "title": "Adding Obstacles"
-                },
-                {
-                    "time": "0:03:12",
-                    "title": "Dealing With Dead Ends"
-                },
-                {
-                    "time": "0:05:48",
-                    "title": "Adding Diagonals"
-                },
-                {
-                    "time": "0:09:30",
-                    "title": "Ideas For Optimization"
-                },
-                {
-                    "time": "0:11:40",
-                    "title": "Fixing Bugs in The Code"
-                },
-                {
-                    "time": "0:15:39",
-                    "title": "Choo Choo We Did It!"
-                }
-            ]
+          "time": "0:01:26",
+          "title": "A* Pathfinder"
         },
         {
-            "title": "A* Algorithm - Part 3",
-            "videoId": "jwRT4PCT6RU",
-            "timestamps": [
-                    {
-                        "time": "0:00:00",
-                        "title": "Introduction"
-                    },
-                    {
-                        "time": "0:00:46",
-                        "title": "Drawing The Path"
-                    },
-                    {
-                        "time": "0:02:48",
-                        "title": "Different Visualizations"
-                    },
-                    {
-                        "time": "0:06:10",
-                        "title": "Conclusions and New Ideas"
-                    }
-            ]
-        }
-    ],
-    "codeExamples": [
-        {
-            "title": "A* Algorithm",
-            "description": "This sketch implements the A* Pathfinding Algorithm",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat",
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [{
-                    "icon": "📘",
-                    "title": "Artificial Intelligence: A Modern Approach",
-                    "url": "http://aima.cs.berkeley.edu/",
-                    "description": "Textbook on artificial intellligence."
-                },
-                {
-                    "icon": "🗄",
-                    "title": "A* Search Algorithm on Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
-                    "description": "Wikipedia page with background and references on the A* algorithm."
-                }
-            ]
+          "time": "0:09:39",
+          "title": "Coding a Grid"
         },
         {
-            "title": "Videos",
-            "links": [{
-                "icon": "🚂",
-                "title": "My Maze Generation Coding Challenge",
-                "url": "/challenges/10-dfs-maze-generator",
-                    "description": "I create a maze generator using a depth-first search algorithm with recursive backtracking."
-            }]
+          "time": "0:13:09",
+          "title": "A* Pathfinder Algorithm"
+        },
+        {
+          "time": "0:22:07",
+          "title": "Choosing Best Available Path"
+        },
+        {
+          "time": "0:27:05",
+          "title": "Finding New Nodes"
+        },
+        {
+          "time": "0:38:30",
+          "title": "Adding Heuristic"
+        },
+        {
+          "time": "0:41:50",
+          "title": "Tracing Back"
+        },
+        {
+          "time": "0:46:49",
+          "title": "Using Better Heuristics"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Part 2 - Adding Obstacles and Diagonals",
+      "videoId": "EaZxUCWAjb0",
+      "timestamps": [
+        {
+          "time": "0:00:00",
+          "title": "Introduction"
+        },
+        {
+          "time": "0:00:40",
+          "title": "Adding Obstacles"
+        },
+        {
+          "time": "0:03:12",
+          "title": "Dealing With Dead Ends"
+        },
+        {
+          "time": "0:05:48",
+          "title": "Adding Diagonals"
+        },
+        {
+          "time": "0:09:30",
+          "title": "Ideas For Optimization"
+        },
+        {
+          "time": "0:11:40",
+          "title": "Fixing Bugs in The Code"
+        },
+        {
+          "time": "0:15:39",
+          "title": "Choo Choo We Did It!"
+        }
+      ]
+    },
+    {
+      "title": "Part 3 - Better Visualization",
+      "videoId": "jwRT4PCT6RU",
+      "timestamps": [
+        {
+          "time": "0:00:00",
+          "title": "Introduction"
+        },
+        {
+          "time": "0:00:46",
+          "title": "Drawing The Path"
+        },
+        {
+          "time": "0:02:48",
+          "title": "Different Visualizations"
+        },
+        {
+          "time": "0:06:10",
+          "title": "Conclusions and New Ideas"
+        }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "A* Algorithm",
+      "description": "This sketch implements the A* Pathfinding Algorithm",
+      "image": "a-pathfinding-algorithm.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ehLjdFpat",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/051_astar/Processing/CC_051_astar",
+        "other": "https://github.com/CodingTrain/AStar"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📘",
+          "title": "Artificial Intelligence: A Modern Approach",
+          "url": "http://aima.cs.berkeley.edu/",
+          "description": "Textbook on artificial intellligence."
+        },
+        {
+          "icon": "🗄",
+          "title": "A* Search Algorithm on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
+          "description": "Wikipedia page with background and references on the A* algorithm."
+        },
+        {
+          "icon": "💻",
+          "title": "Online demo",
+          "url": "https://codingtrain.github.io/AStar/",
+          "description": "This is a demonstration of the A* \"search\" algorithm for pathfinding on a 2D grid."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "A* Livestream #72",
+          "url": "https://www.youtube.com/watch?v=S4yQYiAECnM&t=34m50s",
+          "description": "This unedited archive features the entire very long and messy debugging process!"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

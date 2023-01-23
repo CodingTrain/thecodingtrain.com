@@ -98,6 +98,70 @@
         "ideas",
         "doc"
       ]
+    },
+    {
+      "login": "olegon",
+      "name": "Leandro Gonçalves de Oliveira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434364?v=4",
+      "profile": "https://github.com/olegon",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "laurie60",
+      "name": "laurie60",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100629314?v=4",
+      "profile": "https://github.com/laurie60",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "skaser85",
+      "name": "Steve Kaser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28508947?v=4",
+      "profile": "https://github.com/skaser85",
+      "contributions": [
+        "doc",
+        "content"
+      ]
+    },
+    {
+      "login": "anusha-exe",
+      "name": "Anusha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68950164?v=4",
+      "profile": "https://github.com/anusha-exe",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "borntofrappe",
+      "name": "Gabriele Corti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33316703?v=4",
+      "profile": "https://borntofrappe.netlify.app/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "fturmel",
+      "name": "Francis Turmel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4009209?v=4",
+      "profile": "https://github.com/fturmel",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "KobeLiesenborgs",
+      "name": "Kobe Liesenborgs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31523219?v=4",
+      "profile": "https://github.com/KobeLiesenborgs",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -105,5 +169,6 @@
   "projectOwner": "CodingTrain",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

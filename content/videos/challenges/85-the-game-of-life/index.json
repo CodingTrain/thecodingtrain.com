@@ -7,7 +7,11 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["game of life", "cellular automata", "modulus"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "89-langtons-ant",
+    "107-sandpiles",
+    "102-2d-water-ripple"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:00", "title": "Generations" },
@@ -35,7 +39,7 @@
       "title": "References",
       "links": [
         {
-          "icon": "🗄",
+          "icon": "🌐",
           "title": "Conway's Game of Life on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
           "description": "Wikipedia page with background and references on Conway's Game of Life."
@@ -68,8 +72,24 @@
           "title": "The Modulo Operator with Golan Levin",
           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
           "description": "Golan Levin visits the Coding Train studio for a tutorial about the modulo operator."
+        },
+        {
+          "icon": "🎥",
+          "title": "Coding Train Live 108",
+          "url": "https://youtu.be/U8S1qDjIE2Y?t=8518s",
+          "description": "Livestream with More OOP with ES6 & The Game of Life"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

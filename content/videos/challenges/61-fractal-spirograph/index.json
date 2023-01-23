@@ -7,8 +7,45 @@
   "languages": ["Processing", "Java"],
   "topics": ["fractal", "spirograph", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "7-solar-system-2d",
+    "55-mathematical-rose-patterns",
+    "116-lissajous-curve-table"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:45", "title": "Benice equation" },
+    { "time": "3:26", "title": "The solar system coding challenge" },
+    { "time": "4:45", "title": "Polar to cartesian coordinates" },
+    { "time": "5:53", "title": "Draw first circle" },
+    { "time": "6:44", "title": "Add a second circle" },
+    {
+      "time": "8:54",
+      "title": "Use polar coordinates to find radius of second circle"
+    },
+    {
+      "time": "9:52",
+      "title": "Increment the angle to rotate second circle around first circle"
+    },
+    {
+      "time": "11:02",
+      "title": "Save the points of the path of the second circle"
+    },
+    { "time": "14:07", "title": "Add an Orbit class" },
+    { "time": "16:41", "title": "Linked lists" },
+    { "time": "19:01", "title": "Write an addChild() function" },
+    { "time": "23:20", "title": "Write a loop to add the next child" },
+    { "time": "24:47", "title": "Write an update function" },
+    { "time": "27:14", "title": "Add a speed variable" },
+    { "time": "31:23", "title": "Trace the path" },
+    { "time": "33:43", "title": "Get the formula" },
+    { "time": "34:39", "title": "Have each orbit keep track of its level" },
+    { "time": "35:27", "title": "Use the formula to calculate the speed" },
+    { "time": "40:13", "title": "Bonus addendum with improvements" },
+    { "time": "40:28", "title": "Adjust angle to have pattern point up" },
+    { "time": "41:23", "title": "Adjust resolution" },
+    { "time": "43:51", "title": "Thanks for watching!" }
+  ],
   "codeExamples": [
     {
       "title": "Fractal Spirograph",
@@ -16,8 +53,7 @@
       "image": "spirograph.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Q60oWddzr",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/061_fractal_spirograph/Processing",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/061_fractal_spirograph"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/061_fractal_spirograph/Processing"
       }
     }
   ],
@@ -41,8 +77,24 @@
           "title": "My Video on Polar Coordinates",
           "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "A dive into the trigonometric functions—sine, cosine, tangent."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #81: Fractal Spirograph",
+          "url": "https://youtu.be/S5Qj-JgAN-M",
+          "description": "Live Stream for Fractal Spirograph challenge."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

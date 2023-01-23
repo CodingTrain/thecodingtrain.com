@@ -7,7 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["space invaders", "game"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["46-asteroids", "72-frogger"],
   "timestamps": [
     { "time": "00:00", "title": "Welcome to the challenge!" },
     { "time": "00:46", "title": "Setup the sketch canvas" },
@@ -50,8 +50,24 @@
           "title": "Classes in JavaScript",
           "url": "https://youtu.be/T-HGdc8L-7w",
           "description": "Tutorial on classes in JavaScript"
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive #33",
+          "url": "https://youtu.be/WpUnYfVmKdA?t=1192s",
+          "description": "Livestream with Space Invaders and Mitosis Simulation"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

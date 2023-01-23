@@ -1,0 +1,53 @@
+{
+  "title": "Introduction to Node",
+  "description": "In this first video, I discuss the all the pieces required to create a shared, collaborative drawing canvas with p5.js, node, and web sockets.  I look at the basics of getting up and running with node.js.",
+  "videoNumber": "1",
+  "videoId": "bjULmG8fqc8",
+  "date": "2016-04-13",
+  "languages": ["JavaScript", "p5.js", "node.js"],
+  "topics": ["node", "sockets", "server side programming"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction and demonstration of end result!" },
+    { "time": "1:28", "title": "Discussing server and socket connections" },
+    { "time": "3:58", "title": "Installing Node.js" },
+    { "time": "4:20", "title": "Running Node.js from the terminal" },
+    { "time": "5:50", "title": "Running test code with Node.js" },
+    { "time": "8:55", "title": "Overview of the next steps before we go!" }
+  ],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌿",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en/",
+          "description": "An open-source, cross-platform JavaScript runtime environment."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Code! Programming with p5.js",
+          "url": "/tracks/code-programming-with-p5-js",
+          "description": "Link to tutorial track on fundamentals of coding using JavaScript."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

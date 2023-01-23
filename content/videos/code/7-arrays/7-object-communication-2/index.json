@@ -8,12 +8,12 @@
   "topics": ["arrays", "nested loop", "for loop", "objects"],
   "canContribute": true,
   "timestamps": [
-    {"time": "0:00", "title": "Introduction" },
-    {"time": "3:06", "title": "Shorthand Syntax For Every Element of an Array" },
-    {"time": "7:08", "title": "Using a Nested Loop to Check Each Element Against Every Other Element" },
-    {"time": "9:18", "title": "Make Sure That the Object Isn't Checking Itself" },
-    {"time": "15:48", "title": "The N Squared Problem" },
-    {"time": "18:30", "title": "Declaring the Variable in the For Loop" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "3:06", "title": "Shorthand Syntax For Every Element of an Array" },
+    { "time": "7:08", "title": "Using a Nested Loop to Check Each Element Against Every Other Element" },
+    { "time": "9:18", "title": "Make Sure That the Object Isn't Checking Itself" },
+    { "time": "15:48", "title": "The N Squared Problem" },
+    { "time": "18:30", "title": "Declaring the Variable in the For Loop" }
   ],
   "codeExamples": [
     {
@@ -42,6 +42,16 @@
           "description": "Tutorial on for of loop"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "title": "What is NPM? - Twitter Bot Tutorial",
+  "description": "This video covers the basics of npm (node package manager).  What is node package manager?  What are some basic commands like \"init\" and \"install\"?  How do you use a Twitter package.",
+  "videoNumber": "15.2",
+  "videoId": "s70-Vsud9Vk",
+  "date": "2015-11-12",
+  "languages": ["node.js"],
+  "topics": ["twitter", "bot"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "What is NPM?" },
+    { "time": "1:56", "title": "The Twit package" },
+    { "time": "2:22", "title": "Installing a package" },
+    {
+      "time": "3:06",
+      "title": "Putting dependencies in the package.json file "
+    },
+    {
+      "time": "4:56",
+      "title": "Using \"npm init\" to make the package.json file"
+    },
+    { "time": "7:06", "title": "Using a text editor" },
+    { "time": "8:09", "title": "Finding packages" },
+    { "time": "10:57", "title": "Installing the twit package" }
+  ],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        },
+        {
+          "icon": "🚂",
+          "title": "Data and APIs in Javascript Track",
+          "url": "/tracks/data-and-apis-in-javascript",
+          "description": "This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with fetch() and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as draw to HTML5 canvas with p5.js. The second and third project will introduce \"full stack\" development adding server-side programming with node.js for data persistence and API authentication."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

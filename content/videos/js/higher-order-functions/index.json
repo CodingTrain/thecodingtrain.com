@@ -4,7 +4,7 @@
   "videoNumber": "5",
   "videoId": "H4awPsyugS0",
   "date": "2018-02-19",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["higher order functions", "functions"],
   "canContribute": false,
   "timestamps": [
@@ -41,6 +41,16 @@
           "description": "Tutorial on Closures in JavaScript"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

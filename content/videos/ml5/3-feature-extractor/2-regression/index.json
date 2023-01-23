@@ -4,7 +4,7 @@
   "videoNumber": "3.2",
   "videoId": "aKgq0m1YjvQ",
   "date": "2018-08-16",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["machine learning", "feature extractor", "regression", "slider"],
   "canContribute": true,
   "timestamps": [
@@ -96,6 +96,16 @@
           "description": "This video looks at how we can add some interactivity to a webpage with sliders, buttons and text inputs to change elements in the canvas or even in the DOM using the p5.js library."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

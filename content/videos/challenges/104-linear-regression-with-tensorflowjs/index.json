@@ -1,96 +1,127 @@
 {
-    "title": "Linear Regression with TensorFlow.js",
-    "description": "In this challenge, I use the TensorFlow.js library to create an interactive demonstration of linear regression (with stochastic gradient descent!)",
-    "videoNumber": "104",
-    "videoId": "dLp10CFIvxI",
-    "date": "2018-05-29",
-    "languages": ["p5.js", "tensorflow.js"],
-    "topics": [
-        "tensorflow js",
-        "linear regression",
-        "stochastic gradient descent"
-    ],
-    "canContribute": true,
-    "relatedChallenges": [],
-    "timestamps": [
-        { "time": "0:00", "title": "Introduction" },
-        { "time": "1:21", "title": "What is linear regression?" },
-        { "time": "3:16", "title": "What do we need?" },
-        { "time": "3:41", "title": "Loss function" },
-        { "time": "4:48", "title": "Optimizer" },
-        { "time": "5:26", "title": "Formula for line" },
-        { "time": "8:02", "title": "Let's Code!" },
-        { "time": "8:23", "title": "Add data set -- mouse clicks" },
-        { "time": "9:16", "title": "Remap x, y to 0, 1" },
-        { "time": "12:12", "title": "Randomly initialize m and b" },
-        { "time": "13:10", "title": "tf.variable()" },
-        { "time": "13:39", "title": "predict()" },
-        { "time": "16:13", "title": "Optimizer & learning rate" },
-        { "time": "17:25", "title": "Loss function" },
-        { "time": "19:24", "title": "Minimize loss" },
-        { "time": "22:53", "title": "What is the optimizer doing?" },
-        { "time": "27:42", "title": "Visualize regression results" },
-        { "time": "32.49", "title": "dataSync()" },
-        { "time": "35:00", "title": "Adjust learning rate" },
-        { "time": "35:35", "title": "Memory management" },
-        { "time": "41:01", "title": "Improvements" }
-    ],
-    "codeExamples": [
+  "title": "Linear Regression with TensorFlow.js",
+  "description": "In this challenge, I use the TensorFlow.js library to create an interactive demonstration of linear regression (with stochastic gradient descent!)",
+  "videoNumber": "104",
+  "videoId": "dLp10CFIvxI",
+  "date": "2018-05-29",
+  "languages": ["p5.js", "tensorflow.js"],
+  "topics": [
+    "tensorflow js",
+    "linear regression",
+    "stochastic gradient descent"
+  ],
+  "canContribute": true,
+  "relatedChallenges": [
+    "70-nearest-neighbors-recommendation-engine",
+    "105-polynomial-regression-with-tensorflowjs",
+    "106-xor-problem-with-tensorflowjs"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:21", "title": "What is linear regression?" },
+    { "time": "3:16", "title": "What do we need?" },
+    { "time": "3:41", "title": "Loss function" },
+    { "time": "4:48", "title": "Optimizer" },
+    { "time": "5:26", "title": "Formula for line" },
+    { "time": "8:02", "title": "Let's Code!" },
+    { "time": "8:23", "title": "Add data set -- mouse clicks" },
+    { "time": "9:16", "title": "Remap x, y to 0, 1" },
+    { "time": "12:12", "title": "Randomly initialize m and b" },
+    { "time": "13:10", "title": "tf.variable()" },
+    { "time": "13:39", "title": "predict()" },
+    { "time": "16:13", "title": "Optimizer & learning rate" },
+    { "time": "17:25", "title": "Loss function" },
+    { "time": "19:24", "title": "Minimize loss" },
+    { "time": "22:53", "title": "What is the optimizer doing?" },
+    { "time": "27:42", "title": "Visualize regression results" },
+    { "time": "32.49", "title": "dataSync()" },
+    { "time": "35:00", "title": "Adjust learning rate" },
+    { "time": "35:35", "title": "Memory management" },
+    { "time": "41:01", "title": "Improvements" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Linear Regression",
+      "description": "This sketch creates an interactive simulation of linear regresssion.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/UtOWCSYYF"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Linear Regression",
-            "description": "This sketch creates an interactive simulation of linear regresssion.",
-            "image": "",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/UtOWCSYYF"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "💾",
-                    "title": "TensorFlow.js",
-                    "url": "https://js.tensorflow.org/",
-                    "description": "Webpage with reference materials and documentation about TensorFow.js"
-                },
-                {
-                    "icon": "🐦",
-                    "title": "Kaustubh Olpadkar's tweet",
-                    "url": "https://twitter.com/olpadkar/status/997836558131650561",
-                    "description": "Kaustubh Olpadkar's interactive simulation of linear regression with TensorFlow and p5.js"
-                }
-            ]
+          "icon": "💾",
+          "title": "TensorFlow.js",
+          "url": "https://js.tensorflow.org/",
+          "description": "Webpage with reference materials and documentation about TensorFow.js"
         },
         {
-            "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "Linear Regression with Gradient Descent",
-                    "url": "https://youtu.be/L-Lsfu4ab74",
-                    "description": "In this video I continue my Machine Learning series and attempt to explain Linear Regression with Gradient Descent."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "TensorFlow.js playlist",
-                    "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ",
-                    "description": "TensorFlow.js - Intelligence and Learning"
-                },
-                {
-                    "icon": "🚂",
-                    "title": "ES6 Arrow Function",
-                    "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
-                    "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
-                },
-                {
-                    "icon": "🚂",
-                    "title": "JavaScript Promises",
-                    "url": "https://www.youtube.com/watch?v=QO4NXhWo_NM&list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx",
-                    "description": "What is a JavaScript Promise?"
-                }
-            ]
+          "icon": "🐦",
+          "title": "Kaustubh Olpadkar's tweet",
+          "url": "https://twitter.com/olpadkar/status/997836558131650561",
+          "description": "Kaustubh Olpadkar's interactive simulation of linear regression with TensorFlow and p5.js"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Linear Regression with Gradient Descent",
+          "url": "https://youtu.be/L-Lsfu4ab74",
+          "description": "In this video I continue my Machine Learning series and attempt to explain Linear Regression with Gradient Descent."
+        },
+        {
+          "icon": "🚂",
+          "title": "TensorFlow.js playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ",
+          "description": "TensorFlow.js - Intelligence and Learning"
+        },
+        {
+          "icon": "🚂",
+          "title": "Intelligence and Learning playlist",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX",
+          "description": "Part 2 of Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017"
+        },
+        {
+          "icon": "🚂",
+          "title": "ES6 Arrow Function",
+          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
+        },
+        {
+          "icon": "🚂",
+          "title": "JavaScript Promises",
+          "url": "https://www.youtube.com/watch?v=QO4NXhWo_NM&list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx",
+          "description": "What is a JavaScript Promise?"
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 139",
+          "url": "https://youtu.be/NZR-N_dhK2M?t=473s",
+          "description": "Live Stream with Linear Regression with TensorFlow.js"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

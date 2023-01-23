@@ -4,9 +4,16 @@
   "videoNumber": "2",
   "videoId": "LG8ZK-rRkXo",
   "date": "2016-04-17",
-  "languages": ["Processing"],
-  "topics": ["fractal", "3d"],
+  "languages": ["Java", "Processing"],
+  "topics": ["fractal", "3d", "menger sponge"],
   "canContribute": true,
+  "relatedChallenges": [
+    "18-3d-fractal-trees",
+    "123-chaos-game",
+    "126-toothpicks",
+    "129-koch-fractal-snowflake",
+    "168-the-mandelbulb"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a 10 minute Coding Challenge!" },
     { "time": "0:26", "title": "Quick math about the Menger Sponge" },
@@ -38,10 +45,10 @@
     {
       "title": "Menger Sponge Fractal",
       "description": "Menger Sponge implementation in Processing and p5.js",
+      "image": "menger-sponge.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/5kcBUriAy",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_002_MengerSponge/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_002_MengerSponge"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/002_MengerSponge/Processing/CC_002_MengerSponge"
       }
     }
   ],
@@ -68,6 +75,33 @@
           "description": "Processing reference about ArrayList"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Live Stream #31",
+          "url": "https://youtu.be/Md5LIDW0RyY?t=2738",
+          "description": "Live Stream with Menger Sponger in Processing"
+        },
+        {
+          "icon": "🎥",
+          "title": "Fractals in Processing",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bXUJvjnMWGU5SmjhI-OXef",
+          "description": "My videos accompanying the Nature of Code chapter on fractals."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "videoNumber": "1",
   "videoId": "q8SHaDQdul0",
   "date": "2017-09-28",
-  "languages": ["javascript"],
+  "languages": ["JavaScript"],
   "topics": ["variables", "es6"],
   "canContribute": false,
   "timestamps": [
@@ -15,5 +15,15 @@
     { "time": "10:21", "title": "Block Scope (let)" }
   ],
   "codeExamples": [],
-  "groupLinks": []
+  "groupLinks": [],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

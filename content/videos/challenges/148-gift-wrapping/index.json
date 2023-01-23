@@ -5,11 +5,7 @@
   "videoId": "YNyULRrydVI",
   "date": "2019-07-13",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "algorithm",
-    "computational geometry",
-    "convex hull"
-  ],
+  "topics": ["algorithm", "computational geometry", "convex hull"],
   "canContribute": true,
   "relatedChallenges": [],
   "timestamps": [
@@ -37,13 +33,12 @@
   ],
   "codeExamples": [
     {
-      "title": "Git Wrapping Algorithm",
+      "title": "Gift Wrapping Algorithm",
       "description": "Animated implementation of the Gift Wrapping Algorithm",
       "image": "p5-code-example.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IVE9CxBOF",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/P5",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_148_Gift_Wrapping/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/148_Gift_Wrapping/Processing"
       }
     }
   ],
@@ -79,8 +74,24 @@
           "title": "ES6 Arrow Syntax",
           "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
           "description": "JavaScript tutorial on ES6 Arrow Functions"
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 180",
+          "url": "https://youtu.be/rnJgb-mYPEI?t=8107s",
+          "description": "Live Stream with Processing Java Library, Starting Computational Geometry Challenges"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

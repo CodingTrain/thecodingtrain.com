@@ -1,0 +1,170 @@
+{
+  "title": "Saving p5.js Drawings to Firebase",
+  "description": "In this coding challenge, I make a HTML5 canvas doodling application with p5.js. Users can save and share drawings in real-time with the Database as a Service (DBaaS) Firebase.",
+  "videoNumber": "45",
+  "videoId": "RUSvMxxm_Jo",
+  "date": "2016-12-11",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["drawing app", "firebase database"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "122-quick-draw",
+    "130-drawing-with-fourier-transform-and-epicycles"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduce the coding challenge" },
+    { "time": "0:23", "title": "Mention shared canvas tutorial" },
+    { "time": "0:42", "title": "Mention Firebase tutorial " },
+    { "time": "0:50", "title": "Set up p5.js sketch" },
+    { "time": "1:23", "title": "Consider user input" },
+    { "time": "1:50", "title": "Create an array for the path" },
+    { "time": "2:14", "title": "Store mouse coordinates" },
+    { "time": "2:38", "title": "Draw points with a loop" },
+    { "time": "3:14", "title": "Test drawing" },
+    { "time": "3:32", "title": "Refine points logic" },
+    { "time": "3:40", "title": "Consider mouse pressed and mouse released" },
+    { "time": "4:08", "title": "Create an array for the current path" },
+    { "time": "4:30", "title": "Add current path to the drawing" },
+    { "time": "5:00", "title": "Draw points with a nested loop" },
+    { "time": "5:51", "title": "Test drawing" },
+    { "time": "6:30", "title": "Add current path as the mouse is pressed" },
+    { "time": "7:00", "title": "Summarize drawing logic" },
+    { "time": "7:44", "title": "Set up HTML elements to save the drawing" },
+    { "time": "9:02", "title": "Create saveDrawing function" },
+    { "time": "9:10", "title": "Connect to Firebase" },
+    { "time": "9:24", "title": "Store drawing with an object" },
+    { "time": "10:14", "title": "Test drawing" },
+    { "time": "10:41", "title": "Fix reference to Firebase" },
+    { "time": "10:46", "title": "Fix mouse interaction" },
+    { "time": "11:35", "title": "Add callback to test Firebase" },
+    { "time": "12:25", "title": "Check data on Firebase " },
+    { "time": "13:08", "title": "Include a list of drawings" },
+    { "time": "13:30", "title": "Listen to changes on the database" },
+    { "time": "14:00", "title": "Add callback functions " },
+    { "time": "14:04", "title": "Log potential errors" },
+    { "time": "14:11", "title": "Retrieve a list of drawings" },
+    { "time": "15:50", "title": "Add HTML elements to display drawings" },
+    { "time": "16:12", "title": "List the drawings' ids" },
+    { "time": "17:00", "title": "Add anchor link elements" },
+    { "time": "17:42", "title": "Create showDrawing function" },
+    { "time": "18:05", "title": "Fix the reference of the anchor link" },
+    { "time": "18:45", "title": "Retrieve drawing from database" },
+    { "time": "19:35", "title": "Log drawing object" },
+    { "time": "20:45", "title": "Consider the object's points" },
+    { "time": "21:15", "title": "Add points to the current drawing" },
+    { "time": "22:04", "title": "Add clear button" },
+    {
+      "time": "22:45",
+      "title": "Clear drawing by resetting the array of points"
+    },
+    { "time": "23:35", "title": "Consider creative possibilities" },
+    { "time": "23:51", "title": "Avoid repeating list items" },
+    { "time": "25:32", "title": "Test drawing" },
+    { "time": "26:06", "title": "Reference Firebase documentation" },
+    { "time": "26:28", "title": "Improve showDrawing function" },
+    { "time": "27:12", "title": "Consider how to share drawing" },
+    { "time": "27:45", "title": "Create a permalink to the drawings" },
+    { "time": "28:53", "title": "Highlight URL query string" },
+    { "time": "29:10", "title": "Introduce p5 getURLParams function" },
+    { "time": "29:45", "title": "Log URL parameters" },
+    {
+      "time": "30:45",
+      "title": "Update showDrawing to optionally receive a key"
+    },
+    { "time": "31:30", "title": "Pass the key from the page's parameters" },
+    { "time": "31:48", "title": "Test permalink" },
+    { "time": "32:35", "title": "Update showDrawing to consider the input" },
+    { "time": "33:40", "title": "Summarize the coding challenge" },
+    { "time": "34:14", "title": "Conclude the coding challenge" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Saving p5.js Drawings to Firebase",
+      "description": "This project creates a HTML5 canvas doodling application with p5.js. Users can save and share drawings in real-time with the Database as a Service (DBaaS) Firebase.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/045_FirebaseSavingDrawing/P5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Firebase",
+          "url": "https://firebase.google.com/",
+          "description": "Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
+        },
+        {
+          "icon": "🔗",
+          "title": "Firebase Documentation - Read and Write",
+          "url": "https://firebase.google.com/docs/database/web/read-and-write",
+          "description": "Firebase documentation to read and write data on the web."
+        },
+        {
+          "icon": "🔗",
+          "title": "Aaron Koblin's Sheep Market",
+          "url": "http://www.aaronkoblin.com/work/thesheepmarket/",
+          "description": "A collection of 10,000 sheep drawn by workers on Amazon's Mechanical Turk."
+        },
+        {
+          "icon": "💻",
+          "title": "Programming from A to Z",
+          "url": "https://github.com/Programming-from-A-to-Z/A2Z-F16",
+          "description": "My course on programming strategies and techniques behind procedural analysis and generation of text-based data"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Web Sockets and p5.js Tutorial",
+          "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH",
+          "description": "This tutorial playlist covers how to use node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions."
+        },
+        {
+          "icon": "🎥",
+          "title": "Database as a Service with Firebase",
+          "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6agS82Le9lLCBbeaW8inATT",
+          "description": "This tutorial playlist covers how to work with a Database as a Service (DBaaS) and specifically with Firebase."
+        }
+      ]
+    },
+    {
+      "title": "Livestream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #30",
+          "url": "https://youtu.be/JljMBn69fZM",
+          "description": "Livestream with Node.js, Express.js, Socket.io and p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream #69.1",
+          "url": "https://youtu.be/nAQNmjyAUTY?t=5424s",
+          "description": "Livestream with Firebase and a drawing app."
+        },
+        {
+          "icon": "🔴",
+          "title": "Livestream #69.2",
+          "url": "https://youtu.be/HWt2a72IZbw?t=439s",
+          "description": "Livestream with Firebase, a drawing app, and a Q&A."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

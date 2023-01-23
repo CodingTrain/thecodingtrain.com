@@ -1,0 +1,76 @@
+{
+  "title": "Solar System (3D) with textures",
+  "description": "In part 3 of this coding challenge, using Processing, I add textures to the 3D objects created in part 2. The PShape class and createShape() functions are covered.",
+  "videoNumber": "9",
+  "videoId": "FGAwi7wpU8c",
+  "date": "2016-05-01",
+  "languages": ["Processing"],
+  "topics": ["solar system", "3d", "textures"],
+  "canContribute": true,
+  "relatedChallenges": ["7-solar-system-2d", "8-solar-system-3d"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    {
+      "time": "00:50",
+      "title": "Getting the planet textures from Planet Pixel Emporium"
+    },
+    { "time": "02:14", "title": "Rendering modes and PShapes" },
+    { "time": "05:37", "title": "Adding different planet textures" },
+    { "time": "08:39", "title": "Experimenting with lighting" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Solar System (3D) with Textures",
+      "description": "Demonstration of the 3D solar system with image textures.",
+      "image": "solar3d-textures.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SD8a6k6A",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/009_SolarSystemGenerator3D_texture/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "PeasyCam library",
+          "url": "http://mrfeinberg.com/peasycam/",
+          "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
+        },
+        {
+          "title": "Planet Texture Maps",
+          "url": "http://planetpixelemporium.com",
+          "description": "Planet Pixel Emporium is a collection of texture maps for planets and moons."
+        },
+        {
+          "icon": "📕",
+          "title": "My NOC class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/nF7DVmovWr0?t=3156s",
+          "description": "Livestream with 3D Solar System and Maze Generator"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

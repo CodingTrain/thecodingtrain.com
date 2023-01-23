@@ -1,0 +1,206 @@
+{
+  "title": "Polar Noise Loops",
+  "description": "In this multi-part coding challenge I show how to use a noise field and polar coordinates to create a perfect GIF loop.",
+  "videoNumber": "136",
+  "videoId": "",
+  "date": "2019-02-25",
+  "languages": ["p5.js", "Processing"],
+  "topics": ["gif loop", "perlin noise", "polar coordinates"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "36-blobby",
+    "130-drawing-with-fourier-transform-and-epicycles",
+    "134-heart-curve",
+    "135-making-a-gif-loop-in-processing"
+  ],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Polar Perlin Noise Loops",
+      "videoId": "ZI1dmHv3MeM",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduce coding challenge" },
+        { "time": "1:35", "title": "Let's code" },
+        { "time": "1:45", "title": "Recreate coding challenge 'Blobby'" },
+        { "time": "4:18", "title": "Add Perlin noise" },
+        {
+          "time": "5:25",
+          "title": "Highlight the artifact in the blobby shape"
+        },
+        { "time": "6:30", "title": "Illustrate Perlin noise in one dimension" },
+        { "time": "7:18", "title": "Explain Perlin noise in two dimensions" },
+        { "time": "8:24", "title": "Walk noise space in a loop" },
+        { "time": "9:20", "title": "Visualize noise space in two dimensions" },
+        { "time": "10:16", "title": "Implement noise in two dimensions" },
+        {
+          "time": "11:41",
+          "title": "Refine how noise values change over time"
+        },
+        { "time": "12:21", "title": "Experiment with different parameters" },
+        { "time": "14:28", "title": "Update how noise values change" },
+        { "time": "17:25", "title": "Consider creative possibilities" },
+        { "time": "19:04", "title": "Additional notes on the noise space" },
+        { "time": "19:21", "title": "Explain noise seed" },
+        { "time": "19:47", "title": "Introduce noise in higher dimensions" },
+        { "time": "21:28", "title": "Conclude coding challenge" }
+      ]
+    },
+    {
+      "title": "Part 2 - Perlin Noise GIF Loops",
+      "videoId": "c6K-wJQ77yQ",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduce coding challenge" },
+        {
+          "time": "0:16",
+          "title": "Summarize the previous coding challenge 'Polar Perlin Noise Loops'"
+        },
+        { "time": "0:40", "title": "Visualize noise loop" },
+        {
+          "time": "1:20",
+          "title": "Describe the goal of the coding challenge"
+        },
+        {
+          "time": "2:06",
+          "title": "Explain move from JavaScript to Java and Processing"
+        },
+        { "time": "2:36", "title": "Let's code" },
+        { "time": "3:03", "title": "Compute values for a noise loop" },
+        { "time": "4:19", "title": "Map values to position" },
+        { "time": "5:04", "title": "Update the challenge with suggestions" },
+        {
+          "time": "5:52",
+          "title": "Re-define the goal of the coding challenge"
+        },
+        { "time": "6:32", "title": "Find multiple noise values" },
+        { "time": "7:52", "title": "Create a NoiseLoop class" },
+        {
+          "time": "9:20",
+          "title": "Add a noise loop object to update the position"
+        },
+        {
+          "time": "9:50",
+          "title": "Define a value function to return noise values"
+        },
+        { "time": "11:54", "title": "Use noise loop to update the position" },
+        { "time": "13:00", "title": "Change how noise values are initialized" },
+        { "time": "15:00", "title": "Create a Particle class" },
+        { "time": "15:55", "title": "Add multiple particle objects" },
+        { "time": "16:47", "title": "Experiment with different parameters" },
+        { "time": "19:55", "title": "Set up looping scene" },
+        { "time": "20:22", "title": "Record Processing sketch" },
+        { "time": "20:57", "title": "Create GIF with FFmpeg" },
+        { "time": "22:50", "title": "Show GIF loop" },
+        { "time": "23:09", "title": "Mention different noise algorithms" },
+        { "time": "26:00", "title": "Conclude coding challenge" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Polar Perlin Noise Loops",
+      "description": "This sketch demonstrates how to create a blobby shape with a Perlin noise algorithm so that the beginning of the shape matches the end of the shape.",
+      "image": "polar-perlin-noise-loops.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/sy1p1vnQn",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/136_Polar_Noise_Loop_1/Processing"
+      }
+    },
+    {
+      "title": "Perlin Noise GIF Loops",
+      "description": "This sketch demonstrates how to create a GIF loop with a Perlin noise algorithm so that particles move randomly, but always end up where they started.",
+      "image": "perlin-noise-gif-loops.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/acy80YV86",
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/136_Polar_Noise_Loop_2/Processing"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🖋️",
+          "title": "\u00c9tienne Jacob's tweet",
+          "url": "https://twitter.com/i/status/1096403588069425152",
+          "description": "GIF loop where particles trace the outline of a heart."
+        },
+        {
+          "icon": "📓",
+          "title": "\u00c9tienne Jacob's Blog Post",
+          "url": "https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/",
+          "description": "Tutorial 'Drawing from noise, and then making animated loopy GIFs from there.'"
+        },
+        {
+          "icon": "🔗",
+          "title": "noise() reference",
+          "url": "https://processing.org/reference/noise_.html",
+          "description": "Reference page for the Processing function `noise()`."
+        },
+        {
+          "icon": "💻",
+          "title": "ffmpeg",
+          "url": "https://ffmpeg.org/",
+          "description": "ffmpeg page with documentation and supporting material."
+        },
+        {
+          "icon": "🗄",
+          "title": "Perlin Noise",
+          "url": "https://en.wikipedia.org/wiki/Perlin_noise",
+          "description": "Wikipedia page with information and resources on Perlin noise."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Blobby!",
+          "url": "/challenges/36-blobby",
+          "description": "In this short Coding Challenge, I demonstrate how to turn a circle (or any shape you want) into a blob and give the edges a liquidy / blobby / wobbly look."
+        },
+        {
+          "icon": "🚂",
+          "title": "Drawing with Fourier Transform and Epicycles",
+          "url": "/challenges/130-drawing-with-fourier-transform-and-epicycles",
+          "description": "In this coding challenge, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform."
+        },
+        {
+          "icon": "🚂",
+          "title": "Heart Curve",
+          "url": "/challenges/134-heart-curve",
+          "description": "Using a parametric equation from Wolfram Mathworld (and polar to cartesian coordinate transformation), I draw a heart curve in Processing (Java)."
+        },
+        {
+          "icon": "🚂",
+          "title": "GIF Loop",
+          "url": "/challenges/135-making-a-gif-loop-in-processing",
+          "description": "In this tutorial, I demonstrate how to render a sketch into a perfect, looping GIF with Processing (Java)."
+        },
+        {
+          "icon": "🎥",
+          "title": "Perlin Noise",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD",
+          "description": "A collection of videos about noise algorithms in p5.js (JavaScript) and Processing (Java)."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 169",
+          "url": "https://youtu.be/7k-iJyHq7-k?t=1345s",
+          "description": "In this live stream: Perlin Noise Loops in Processing(Java) and JavaScript Inheritance."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

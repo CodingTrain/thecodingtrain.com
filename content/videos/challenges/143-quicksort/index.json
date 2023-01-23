@@ -1,0 +1,108 @@
+{
+  "title": "Quicksort Visualization",
+  "description": "Let's try implementing a famously faster sorting algorithm: the Quicksort! And visualize the process with p5.js!",
+  "videoNumber": "143",
+  "videoId": "eqo2LxRADhU",
+  "date": "2019-04-04",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["sorting visualization", "quicksort algorithm"],
+  "canContribute": true,
+  "relatedChallenges": ["114-bubble-sort-visualization"],
+  "timestamps": [
+    {
+      "time": "0:02",
+      "title": "Introducing the Quicksort algorithm and the Big O Notation!"
+    },
+    {
+      "time": "1:19",
+      "title": "A walk-through of the Quicksort algorithm"
+    },
+    {
+      "time": "6:05",
+      "title": "Starting to code!"
+    },
+    {
+      "time": "8:12",
+      "title": "Figuring out the partition function!"
+    },
+    {
+      "time": "12:44",
+      "title": "Writing out the partition function"
+    },
+    {
+      "time": "14:11",
+      "title": "Testing and debugging the algorithm"
+    },
+    {
+      "time": "16:57",
+      "title": "Adding delays to visualize Quicksort"
+    },
+    {
+      "time": "21:12",
+      "title": "Colouring the pivot points!"
+    },
+    {
+      "time": "25:59",
+      "title": "Some more debugging and customizations!"
+    },
+    {
+      "time": "26:59",
+      "title": "Discussing partition schemes and things you could do!"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Quicksort Visualization",
+      "description": "Visualization of the Quicksort algorithm in p5.js",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/vic6Qzo-j"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📄",
+          "title": "Quicksort on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quicksort",
+          "description": "The Wikipedia page on the Quicksort sorting algorithm"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎞️",
+          "title": "15 Sorting Algorithms in 6 Minutes",
+          "url": "https://youtu.be/kPRA0W1kECg",
+          "description": "A video showing visualization and \"audibilization\" of 15 sorting algorithms"
+        },
+        {
+          "icon": "🎥",
+          "title": "async/await",
+          "url": "https://youtu.be/XO77Fib9tSI",
+          "description": "Tutorial on ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 173",
+          "url": "https://youtu.be/277611ExU9A?t=5538s",
+          "description": "Live Stream with Rubik's Cube and Quicksort Visualization"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

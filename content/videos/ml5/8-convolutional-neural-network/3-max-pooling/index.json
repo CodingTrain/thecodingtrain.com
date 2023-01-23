@@ -4,7 +4,7 @@
   "videoNumber": "8.3",
   "videoId": "pRWq_mtuppU",
   "date": "2020-02-14",
-  "languages": ["ml5", "javascript"],
+  "languages": ["ml5.js", "JavaScript"],
   "topics": ["max pooling", "convolutional neural network", "stride"],
   "canContribute": true,
   "timestamps": [
@@ -65,6 +65,16 @@
           "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \"filters\"."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

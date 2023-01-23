@@ -15,7 +15,7 @@
     "isosurfaces"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["c4-worley-noise", "c5-marching-squares"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "00:46", "title": "What is an Isosurface?" },
@@ -41,8 +41,7 @@
       "image": "p5-example.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ISPozOLXW",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_028_MetaBalls/P5",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_028_MetaBalls/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/028_MetaBalls/Processing"
       }
     }
   ],
@@ -57,6 +56,27 @@
           "description": "Article by Stephen Whitmore."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #50",
+          "url": "https://youtu.be/3xNv10FglGc",
+          "description": "Livestream with Loading Animation, Metaballs and 2D Arrays in JS"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

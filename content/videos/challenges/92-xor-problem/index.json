@@ -4,7 +4,7 @@
   "videoNumber": "92",
   "videoId": "188B6k_F9jU",
   "date": "2018-02-12",
-  "languages": ["javascript", "p5.js"],
+  "languages": ["JavaScript", "p5.js"],
   "topics": [
     "neural network",
     "machine learning",
@@ -12,7 +12,11 @@
     "xor problem"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "104-linear-regression-with-tensorflowjs",
+    "105-polynomial-regression-with-tensorflowjs",
+    "106-xor-problem-with-tensorflowjs"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:15", "title": "Machine learning" },
@@ -84,6 +88,33 @@
           "description": "3Blue1Brown video series on neural networks."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archive",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #119",
+          "url": "https://youtu.be/f9vaiHoq-Fk?t=3171s",
+          "description": "Live Stream with Solving Merge Conflicts and XOR Problem"
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #118",
+          "url": "https://youtu.be/e8H588SXu6U?t=8090s",
+          "description": "Live Stream with More Neural Networks"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

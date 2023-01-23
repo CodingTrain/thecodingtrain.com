@@ -7,10 +7,12 @@ const btoa = require('btoa');
 //   title: "Something",
 //   image: "base64string="
 //   imageExt: "png",
-//   authorName: "Rune Madsen",
-//   authorUrl: "https://runemadsen.com",
-//   authorEmail: "rune@runemadsen.com",
-//   url: "https://runemadsen.github.io/rune.js/",
+//   authorName: "Coding Train",
+//   authorUrl: "https://thecodingtrain.com",
+//   authorEmail: "help@thecodingtrain.com",
+//   authorTwitter: "@thecodingtrain",
+//   authorInstagram: "@the.coding.train"
+//   url: "https://thecodingtrain.com/tracks",
 //   challenge: "01-test",
 // }
 
@@ -63,11 +65,20 @@ exports.handler = async function (event) {
       name: postInfo.authorName
     },
     url: postInfo.url,
-    submittedOn: new Date().toISOString().split('T')[0]
+    submittedOn: new Date().toISOString()
   };
 
   if (postInfo.authorUrl) {
     json.author.url = postInfo.authorUrl;
+  }
+
+  // Including the social media handles in the JSON for future reference
+  if (postInfo.authorTwitter) {
+    json.author.twitter = postInfo.authorTwitter;
+  }
+
+  if (postInfo.authorInstagram) {
+    json.author.instagram = postInfo.authorInstagram;
   }
 
   const jsonContent = btoa(JSON.stringify(json, null, 2));

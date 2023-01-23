@@ -7,7 +7,11 @@
   "languages": ["BASIC"],
   "topics": ["games", "1980s", "AppleII"],
   "canContribute": true,
-  "relatedChallenges": ["3-snake-game"],
+  "relatedChallenges": [
+    "3-snake-game",
+    "174-graphics-applesoft-basic",
+    "175-3D-cube-applesoft-basic"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Hello from 1981!" },
     { "time": "0:35", "title": "Opening Theme" },
@@ -111,6 +115,42 @@
           "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Coding Together Track",
+          "url": "/tracks/coding-together-apple-ii",
+          "description": "Coding Together with Apple ii track"
+        },
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    },
+    {
+      "title": "Coding Together Theme",
+      "name": "Will from America",
+      "url": "https://twitter.com/WillfromAmerica"
+    },
+    {
+      "title": "Eye of the Tiger cover",
+      "name": "Leon from @neo"
     }
   ]
 }

@@ -7,7 +7,11 @@
   "languages": ["p5.js", "ml5.js", "JavaScript"],
   "topics": ["machine learning", "pitch detection", "sound", "tuner"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "41-clappy-bird",
+    "147-chrome-dinosaur-game",
+    "153-interactive-drawing-with-sketchrnn"
+  ],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:04", "title": "Import the ml5 library" },
@@ -34,8 +38,7 @@
       "description": "Tuner for the notes A, E, C and G of a ukulele",
       "image": "tuner.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_151_Ukulele_Tuner/P5"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03"
       }
     }
   ],
@@ -72,8 +75,24 @@
           "title": "Online Tone Generator",
           "url": "https://www.szynalski.com/tone-generator/",
           "description": "Generating sounds with specific frequencies online."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 183",
+          "url": "https://youtu.be/1b9-O7pnUcg?t=5911s",
+          "description": "Live Stream with ml5.js Pitch Detection and Ukulele Tuner"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

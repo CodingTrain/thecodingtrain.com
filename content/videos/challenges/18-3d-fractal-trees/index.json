@@ -7,7 +7,34 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "generative art", "3D"],
   "canContribute": true,
-  "timestamps": [],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "17-fractal-trees-space-colonization",
+    "77-recursion",
+    "168-the-mandelbulb"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:13", "title": "The algorithm" },
+    { "time": "2:39", "title": "Recap: the Leaf, Branch, and Tree objects" },
+    {
+      "time": "5:30",
+      "title": "Add a random motion to deal with leaves that are equi-distant from a branch"
+    },
+    { "time": "7:30", "title": "Map strokeWeight of branches to the index" },
+    { "time": "9:39", "title": "Create random points in a sphere" },
+    { "time": "10:15", "title": "Add P3D" },
+    { "time": "10:55", "title": "Add a PeasyCam object" },
+    { "time": "12:57", "title": "Draw ellipses at their 3D location" },
+    { "time": "14:32", "title": "Grow the tree again" },
+    { "time": "15:11", "title": "Add the z-coordinate to line" },
+    { "time": "16:34", "title": "Discussion of creative possibilities" },
+    {
+      "time": "19:01",
+      "title": "Adjust parameters to make the fractal look more \"tree-like\""
+    },
+    { "time": "22:06", "title": "Conclusion" }
+  ],
   "codeExamples": [
     {
       "title": "3D Fractal Trees",
@@ -18,5 +45,56 @@
       }
     }
   ],
-  "groupLinks": []
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌿",
+          "title": "Algorithmic Botany",
+          "url": "http://algorithmicbotany.org/",
+          "description": "Website with documentation and resources about algorithmic botony."
+        },
+        {
+          "icon": "📓",
+          "title": "Modeling Trees with a Space Colonization Algorithm",
+          "url": "http://algorithmicbotany.org/papers/colonization.egwnp2007.pdf",
+          "description": "Academic paper by Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz about the Space Colonization Algorithm."
+        },
+        {
+          "icon": "📕",
+          "title": "Nature of Code class on Kadenze",
+          "url": "https://www.kadenze.com/courses/the-nature-of-code/info",
+          "description": "This class focuses on the programming strategies and techniques behind computer simulations of natural systems."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Algorithmic Botany Track",
+          "url": "/tracks/algorithmic-botany",
+          "description": "This side track explores patterns found in nature. We'll cover how to simulate growing plants, flowers, and trees in p5.js and Processing."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream Archive #41",
+          "url": "https://youtu.be/1Yo_AYzxA-o?t=2555s",
+          "description": "Live Stream with GitHub Pages, 3D Fractal Trees and Superellipse"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
 }

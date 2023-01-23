@@ -17,11 +17,16 @@
     "arrays"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "29-smart-rockets-in-p5js",
+    "51-a-pathfinding-algorithm",
+    "69-evolutionary-steering-behaviors",
+    "70-nearest-neighbors-recommendation-engine"
+  ],
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1: Traveling Salesperson (TSP)",
+      "title": "Part 1 - Traveling Salesperson (TSP)",
       "videoId": "BAejnwN4Ccw",
       "timestamps": [
         { "time": "00:00", "title": "Welcome to this coding challenge!" },
@@ -50,7 +55,7 @@
       ]
     },
     {
-      "title": "Part 2: Lexicographic Order",
+      "title": "Part 2 - Lexicographic Order",
       "videoId": "goUlyp4rwiU",
       "timestamps": [
         { "time": "00:00", "title": "Introducing Part 2" },
@@ -71,7 +76,7 @@
       ]
     },
     {
-      "title": "Part 3: TSP with Lexicographic Order",
+      "title": "Part 3 - TSP with Lexicographic Order",
       "videoId": "9Xy-LMAfglE",
       "timestamps": [
         { "time": "00:00", "title": "Introducing Part 3" },
@@ -99,7 +104,7 @@
       ]
     },
     {
-      "title": "Part 4: TSP with Genetic Algorithm",
+      "title": "Part 4 - TSP with Genetic Algorithm",
       "videoId": "M3KTWnTrU_c",
       "timestamps": [
         { "time": "00:00", "title": "Introducing Part 4" },
@@ -132,7 +137,7 @@
       ]
     },
     {
-      "title": "Part 5: TSP with Genetic Algorithm and Crossover",
+      "title": "Part 5 - TSP with Genetic Algorithm and Crossover",
       "videoId": "hnxn6DtLYcY",
       "timestamps": [
         { "time": "00:00", "title": "Recap from Part 4" },
@@ -165,53 +170,48 @@
   ],
   "codeExamples": [
     {
-      "title": "Part 1: Traveling Salesperson (TSP)",
+      "title": "Part 1 - Traveling Salesperson (TSP)",
       "description": "Trying all possible paths randomly.",
       "image": "part-1-tsp.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/FCNAHaCqf",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.1_TSP/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.1_TSP/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.1_TSP/Processing"
       }
     },
     {
-      "title": "Part 2: Lexicographic Order",
+      "title": "Part 2 - Lexicographic Order",
       "description": "Generating permutations in Lexicographic Order.",
       "image": "part-2-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/iYxi30gbl",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.2_LexicographicOrder/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.2_LexicographicOrder/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.2_LexicographicOrder/Processing"
       }
     },
     {
-      "title": "Part 3: TSP with Lexicographic Order",
+      "title": "Part 3 - TSP with Lexicographic Order",
       "description": "Applying Lexicographic Order to solve the TSP problem.",
       "image": "part-3-tsp-lexicographic.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/bWPIkEv9s",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.3_TSP_Lexical/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.3_TSP_Lexical/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.3_TSP_Lexical/Processing"
       }
     },
     {
-      "title": "Part 4: TSP with Genetic Algorithm",
+      "title": "Part 4 - TSP with Genetic Algorithm",
       "description": "Using a Genetic Algorithm to solve the TSP problem.",
       "image": "part-4-tsp-ga.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.4_TSP_GA/Processing"
       }
     },
     {
-      "title": "Part 5: TSP with Genetic Algorithm and Crossover",
+      "title": "Part 5 - TSP with Genetic Algorithm and Crossover",
       "description": "Applying Crossover to improve the Genetic Algorithm.",
       "image": "part-5-tsp-ga-crossover.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EGjTrkkf9",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/Processing",
-        "other": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_035.4_TSP_GA/P5"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/035.4_TSP_GA/Processing"
       }
     }
   ],
@@ -285,6 +285,33 @@
           "description": "A Coding Train YouTube playlist about Genetic Algorithms."
         }
       ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream #57",
+          "url": "https://youtu.be/r_SpBy9fQuo",
+          "description": "Livestream with Traveling Salesperson."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #90",
+          "url": "https://youtu.be/NCvdjnN9UfI",
+          "description": "Livestream with Traveling Sales Person with Genetic Algorithm"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

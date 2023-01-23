@@ -4,7 +4,7 @@
   "videoNumber": "4.1",
   "videoId": "eU7gIy3xV30",
   "date": "2018-11-12",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["machine learning", "feature extractor"],
   "canContribute": true,
   "timestamps": [
@@ -74,6 +74,16 @@
           "description": "What are the neurons, why are there layers, and what is the math underlying it?"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

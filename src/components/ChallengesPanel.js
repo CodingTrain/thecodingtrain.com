@@ -5,8 +5,8 @@ import cn from 'classnames';
 import Image from './Image';
 
 import * as css from './ChallengesPanel.module.css';
-import { getReadableDate } from '../hooks';
-import { shuffleCopy, useIsFirstRender } from '../utils';
+import { getReadableDate, useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const Card = ({
   className,
@@ -82,7 +82,10 @@ const ChallengesPanel = ({
   const Header = headerType;
   const isFirstRender = useIsFirstRender();
   // First render : as many empty placeholders as there are challenges
-  const [suggestions, setSuggestions] = useState(challenges.map(() => ({})));
+  const [suggestions, setSuggestions] = useState(
+    challenges.map((_, i) => ({ videoNumber: i }))
+  );
+
   useEffect(() => {
     // Next renders : shuffled challenges on client side hydration
     setSuggestions(shuffleCopy(challenges));

@@ -1,22 +1,20 @@
-import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
+import React, { Fragment } from 'react';
 
 import ItemsPage from '../components/ItemsPage';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
 
-import SquareCharacter from '../images/characters/Square_4.mini.svg';
-import SquareCharacter2 from '../images/characters/Square_3.mini.svg';
 import AsteriskCharacter from '../images/characters/Asterik_5.mini.svg';
+import SquareCharacter2 from '../images/characters/Square_3.mini.svg';
+import SquareCharacter from '../images/characters/Square_4.mini.svg';
 
 // import * as css from './tracks.module.css';
 
 const TracksPage = ({ data, pageContext, location }) => {
   const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
-  const tracks = data.tracks.nodes;
-  const languages = data.languages.nodes.map(({ value }) => value);
-  const topics = data.topics.nodes.map(({ value }) => value);
+  const tracks = data.tracks;
 
   const placeholderMainTrackImage =
     data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
@@ -37,13 +35,12 @@ const TracksPage = ({ data, pageContext, location }) => {
       SeparatorCharacter={SquareCharacter2}
       EndPageCharacter={AsteriskCharacter}
       characterOrientation="center"
-      languages={languages}
-      topics={topics}
       showPagination={tracks.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
-      humanPageNumber={pageContext.humanPageNumber}>
+      humanPageNumber={pageContext.humanPageNumber}
+      filtersFilePath="/filters-tracks.json">
       {(filters) =>
         tracks.map((track) => (
           <Fragment key={track.slug}>
@@ -68,55 +65,45 @@ const TracksPage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query (
-    $skip: Int!
-    $limit: Int!
-    $topicRegex: String!
-    $languageRegex: String!
-  ) {
+  query ($skip: Int, $limit: Int, $topic: String!, $language: String!) {
     pageData: allTracksPageInfo {
       nodes {
         title
         description
       }
     }
-    tracks: allTrack(
-      filter: {
-        languagesFlat: { regex: $languageRegex }
-        topicsFlat: { regex: $topicRegex }
-      }
-      sort: { order: ASC, fields: order }
+    tracks: tracksPaginatedFilteredByTags(
+      language: $language
+      topic: $topic
       skip: $skip
       limit: $limit
     ) {
-      nodes {
-        title
+      title
+      slug
+      description
+      numVideos
+      type
+      languages
+      topics
+      videos {
         slug
-        description
-        numVideos
-        type
         languages
         topics
+        title
+      }
+      chapters {
+        title
         videos {
           slug
           languages
           topics
           title
         }
-        chapters {
-          title
-          videos {
-            slug
-            languages
-            topics
-            title
-          }
-        }
-        cover {
-          file {
-            childImageSharp {
-              gatsbyImageData
-            }
+      }
+      cover {
+        file {
+          childImageSharp {
+            gatsbyImageData
           }
         }
       }
@@ -137,16 +124,6 @@ export const query = graphql`
     ) {
       childImageSharp {
         gatsbyImageData
-      }
-    }
-    languages: allTag(filter: { type: { eq: "language" } }) {
-      nodes {
-        value
-      }
-    }
-    topics: allTag(filter: { type: { eq: "topic" } }) {
-      nodes {
-        value
       }
     }
   }

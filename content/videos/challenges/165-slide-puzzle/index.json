@@ -7,6 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["pixels", "arrays", "game"],
   "canContribute": true,
+  "relatedChallenges": ["94-2048", "142-rubiks-cube", "149-tic-tac-toe"],
   "timestamps": [
     { "title": "Welcome!", "time": "0:00" },
     {
@@ -115,6 +116,16 @@
           "url": "/challenges/164-slitscan"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

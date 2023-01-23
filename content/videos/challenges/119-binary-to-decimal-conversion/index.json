@@ -7,8 +7,22 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Binary Numbers", "Base Conversion", "math"],
   "canContribute": true,
-  "relatedChallenges": ["117-seven-segment-display"],
-  "timestamps": [],
+  "relatedChallenges": ["117-seven-segment-display", "120-bit-shifting"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:08", "title": "Understanding the base of a number system" },
+    {
+      "time": "6:11",
+      "title": "Built-in helper functions for base conversion in JavaScript"
+    },
+    { "time": "7:24", "title": "Let's code our own converter!" },
+    { "time": "7:52", "title": "Bits and bytes" },
+    { "time": "14:39", "title": "Making a visual representation" },
+    { "time": "22:31", "title": "Let's make this interactive!" },
+    { "time": "26:12", "title": "The ternary operator" },
+    { "time": "27:04", "title": "We did it!" },
+    { "time": "27:24", "title": "Make something creative!" }
+  ],
   "codeExamples": [
     {
       "title": "Binary to Decimal Converter",
@@ -31,6 +45,27 @@
           "description": "Documentation of the ternary operator"
         }
       ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Livestream Archive",
+          "url": "https://youtu.be/jSzmac4Rri8?t=4261s",
+          "description": "Livestream #157: Binary Numbers & Bit Shifting"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

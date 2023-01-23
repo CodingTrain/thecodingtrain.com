@@ -11,6 +11,12 @@
       "options": {
         "singleQuote": false
       }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "printWidth": 140
+      }
     }
   ]
 }

@@ -1,9 +1,8 @@
 {
-    "title": "Pong in Processing",
-    "url": "https://github.com/CleverEngage/pong",
-    "author": {
-        "name": "Abdullah Al-Sabbagh",
-        "url": ""
-    },
-    "source": "https://github.com/CleverEngage/pong"
+  "title": "Pong in Processing",
+  "url": "https://github.com/CleverEngage/pong",
+  "author": {
+    "name": "Abdullah Al-Sabbagh"
+  },
+  "source": "https://github.com/CleverEngage/pong"
 }

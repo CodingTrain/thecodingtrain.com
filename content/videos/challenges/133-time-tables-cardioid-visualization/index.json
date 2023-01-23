@@ -14,8 +14,35 @@
     "modulo operator"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [],
+  "relatedChallenges": [
+    "21-mandelbrot-set-with-p5js",
+    "116-lissajous-curve-table",
+    "134-heart-curve",
+    "163-bezier-curves"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:00", "title": "Simon Tiger's Processing Day presentation" },
+    { "time": "2:07", "title": "Discussion of the times tables calculations" },
+    { "time": "4:03", "title": "Start Coding!" },
+    { "time": "5:34", "title": "Map the point's index to an angle" },
+    { "time": "6:08", "title": "Use polar coordinates to get point location" },
+    { "time": "6:31", "title": "Draw the points" },
+    { "time": "7;48", "title": "Start with the 2-times table" },
+    { "time": "8:37", "title": "Write a getVector() function" },
+    {
+      "time": "11:00",
+      "title": "Use modulo operator to get remainder for mapping"
+    },
+    { "time": "12:28", "title": "Add PI to rotate the cardioid 180 degrees" },
+    {
+      "time": "13:31",
+      "title": "Animate by mapping mouseX to the total number of points"
+    },
+    { "time": "14:34", "title": "Change to 3-times table" },
+    { "time": "16:19", "title": "Animate by changing the factor" },
+    { "time": "16:43", "title": "Conclusion and creative possibilities" }
+  ],
   "codeExamples": [
     {
       "title": "Times Table Cartioid",
@@ -23,7 +50,7 @@
       "image": "cardioid.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/gwcGb_NPm",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_133_Times_Tables_Cardioid/Processing"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/133_Times_Tables_Cardioid/Processing"
       }
     }
   ],
@@ -62,12 +89,6 @@
         },
         {
           "icon": "🎥",
-          "title": "Mandelbrot Set",
-          "url": "https://www.youtube.com/watch?v=6z7GQewK-Ks",
-          "description": "In this coding challenge, I program the Mandelbrot set with p5.js."
-        },
-        {
-          "icon": "🎥",
           "title": "Polar Coordinates",
           "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "A dive into the trigonometric functions—sine, cosine, and tangent. "
@@ -77,8 +98,24 @@
           "title": "The Modulo Operator",
           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
           "description": "Guest tutorial by Golan Levin about the modulo operator."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 168",
+          "url": "https://youtu.be/_xa87yl0nd4?t=2077s",
+          "description": "Livestream with Mathematical Hearts + GIF Loops"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

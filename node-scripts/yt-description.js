@@ -9,6 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const glob = require('glob');
 
 const videos = [];
 
@@ -18,20 +19,9 @@ const videos = [];
  * @param {?any[]} arrayOfFiles Array to store the parsed JSON files
  * @returns {any[]}
  */
-function findContentFilesRecursive(dir, arrayOfFiles = []) {
-  const files = fs.readdirSync(dir);
-
-  for (const file of files) {
-    if (fs.statSync(`${dir}/${file}`).isDirectory()) {
-      arrayOfFiles = findContentFilesRecursive(`${dir}/${file}`, arrayOfFiles);
-    } else {
-      if (file === 'index.json') {
-        arrayOfFiles.push(path.join(dir, '/', file));
-      }
-    }
-  }
-
-  return arrayOfFiles;
+function findContentFilesRecursive(dir) {
+  const files = glob.sync(`${dir}/**/index.json`);
+  return files;
 }
 
 /**
@@ -73,11 +63,13 @@ function parseTrack(track) {
 
 /**
  * Parses index.json and pushes to videos array
+ *
+ * Note: has side effects, must be called only once per file
  * @param {string} file File to parse
  */
 function getVideoData(file) {
   const content = fs.readFileSync(`./${file}`, 'utf-8');
-  const parsed = JSON.parse(content);
+  const video = JSON.parse(content);
 
   const filePath = file.split(path.sep).slice(2);
   // console.log('[Parsing File]:', filePath.join('/'));
@@ -94,45 +86,53 @@ function getVideoData(file) {
     }
   }
 
+  const slug = url[url.length - 1];
+
   if (!url || url.length == 0) {
     throw new Error(
       'Something went wrong in parsing this file: ' + filePath.join('/')
     );
   }
 
-  if (parsed.parts && parsed.parts.length > 0) {
+  if (video.parts && video.parts.length > 0) {
     // Multipart Coding Challenge
     // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
 
-    for (const part of parsed.parts) {
+    for (const part of video.parts) {
       // copy all info from base object
-      const partInfo = JSON.parse(JSON.stringify(parsed));
+      const partInfo = JSON.parse(JSON.stringify(video));
       delete partInfo.parts;
 
       // copy videoId, title, timestamps from parts
       partInfo.videoId = part.videoId;
-      partInfo.title = parsed.title + ' - ' + part.title;
       partInfo.timestamps = part.timestamps;
+      partInfo.challengeTitle = video.title;
+      partInfo.partTitle = part.title;
+      partInfo.title = video.title + ' - ' + part.title;
 
       const videoData = {
         pageURL: url.join('/'),
         data: partInfo,
-        filePath: file
+        filePath: file,
+        isMultipartChallenge: true,
+        slug: slug
       };
       videos.push(videoData);
     }
   } else {
+    video.challengeTitle = video.title;
     const videoData = {
       pageURL: url.join('/'),
-      data: parsed,
-      filePath: file
+      data: video,
+      filePath: file,
+      slug: slug
     };
     videos.push(videoData);
   }
 }
 
 /**
- * Creates and resets temporary directory
+ * Creates and resets a temporary directory
  * @param {string} dir Directory Name
  */
 function primeDirectory(dir) {
@@ -152,19 +152,37 @@ function primeDirectory(dir) {
 }
 
 /**
- * Retrieves YouTube video url from relative website path
- * @param {string} url original url
- * @returns
+ * Retrieves YouTube video/playlist url from relative website path
+ * @param {string} url original relative url
+ * @returns {string} resolved url
  */
-function getVideoURL(url) {
+function resolveYTLink(url) {
   if (/https?:\/\/.*/.test(url)) return url;
 
-  const location = url.substring(1, url.length);
+  const location = url.startsWith('/') ? url.substring(1, url.length) : url;
+  const urlchunks = location.split('/');
+  if (!['challenges', 'tracks'].includes(urlchunks[0])) {
+    // not linking to video page
+    return `https://thecodingtrain.com/${location}`;
+  }
+  if (urlchunks[0] === 'tracks' && urlchunks.length === 2) {
+    // track page
+    // try to get playlist id from track's index.json
+    const track = allTracks.find((t) => t.trackName === urlchunks[1]);
+    if (track && track.data.playlistId) {
+      const playlistId = track.data.playlistId;
+      return `https://www.youtube.com/playlist?list=${playlistId}`;
+    } else {
+      console.warn('Warning: YT Playlist not found for track:', urlchunks[1]);
+      return `https://thecodingtrain.com/${location}`;
+    }
+  }
+
   let page;
   try {
     page = videos.find((vid) => vid.pageURL === location).data;
   } catch (err) {
-    console.error('Warning: Page not found -', location);
+    console.warn('Warning: Could not resolve to YT video:', url);
     return `https://thecodingtrain.com${url}`;
   }
 
@@ -178,7 +196,6 @@ function getVideoURL(url) {
 function writeDescription(video) {
   const data = video.data;
   const pageURL = video.pageURL;
-  const nebulaSlug = video.data.nebulaSlug;
   let description = '';
 
   // Description
@@ -187,7 +204,9 @@ function writeDescription(video) {
 
   description += '\n';
 
+  // Watch on Nebula
   const nebulaURL = `https://nebula.tv/videos/`;
+  const nebulaSlug = video.data.nebulaSlug;
   if (nebulaSlug) {
     description += `\n🚀 Watch this video ad-free on Nebula ${nebulaURL}${nebulaSlug}`;
     description += '\n';
@@ -225,7 +244,24 @@ function writeDescription(video) {
   }
   if (repoLink || sketchUrls?.length > 0) description += '\n';
 
+  // Other Parts of this Coding Challenge
+
+  if (video.isMultipartChallenge) {
+    const otherParts = videos.filter(
+      (vid) => vid.slug === video.slug && vid !== video
+    );
+
+    if (otherParts.length > 0) {
+      description += '\nOther Parts of this Challenge:';
+      for (const part of otherParts) {
+        description += `\n📺 ${part.data.partTitle}: https://youtu.be/${part.data.videoId}`;
+      }
+      description += '\n';
+    }
+  }
+
   // Previous Video / Next Video / All Videos
+
   if (video.pageURL.startsWith('challenges/')) {
     const i = +video.data.videoNumber;
     const previousVideo = videos.find((vid) => vid.data.videoNumber == i - 1);
@@ -273,6 +309,7 @@ function writeDescription(video) {
   }
 
   // Group Links (References / Videos / ...)
+
   if (data.groupLinks) {
     for (let group of data.groupLinks) {
       description += `\n${group.title}:\n`;
@@ -281,13 +318,31 @@ function writeDescription(video) {
         const url = link.url;
         if (/https?:\/\/.*/.test(url)) {
           // Starts with http:// or https://
-          description += `${link.icon} ${link.title}: ${url}`.trim() + '\n';
+          description += `${link.icon} ${link.title}: ${url}\n`;
         } else {
           // assume relative link in thecodingtrain.com
-          description +=
-            `${link.icon} ${link.title}: https://thecodingtrain.com${url}`.trim() +
-            '\n';
+          // try to get YT link instead of website link
+          description += `${link.icon} ${link.title}: ${resolveYTLink(url)}\n`;
         }
+      }
+    }
+  }
+
+  // Related Challenges
+
+  if (data.relatedChallenges && data.relatedChallenges.length > 0) {
+    description += `\nRelated Coding Challenges:\n`;
+    for (const challenge of data.relatedChallenges) {
+      const challengeData = videos.find(
+        (vid) => vid.pageURL === `challenges/${challenge}`
+      );
+      if (challengeData) {
+        const { videoNumber, challengeTitle } = challengeData.data;
+        const url = challengeData.pageURL;
+        description +=
+          `🚂 ${videoNumber} ${challengeTitle}: ${resolveYTLink(url)}` + '\n';
+      } else {
+        console.log(`Challenge ${challenge} not found`);
       }
     }
   }
@@ -300,17 +355,28 @@ function writeDescription(video) {
     }
   }
 
+  // Credits
+  const defaultCredits = `Editing by Mathieu Blanchette
+Animations by Jason Heglund
+Music from Epidemic Sound`;
+  if (data.credits) {
+    description += `\n${data.credits
+      .map((c) =>
+        c.url ? `${c.title} by ${c.name} (${c.url})` : `${c.title} by ${c.name}`
+      )
+      .join('\n')}\n`;
+    description += `Music from Epidemic Sound\n`;
+  } else {
+    description += `\n${defaultCredits}\n`;
+  }
+
   // General Links
   description += `
-Editing by Mathieu Blanchette
-Animations by Jason Heglund
-Music from Epidemic Sound
-
 🚂 Website: http://thecodingtrain.com/
 👾 Share Your Creation! https://thecodingtrain.com/guides/passenger-showcase-guide
 🚩 Suggest Topics: https://github.com/CodingTrain/Suggestion-Box
 💡 GitHub: https://github.com/CodingTrain
-💬 Discord: https://discord.gg/hPuGy2g
+💬 Discord: https://thecodingtrain.com/discord
 💖 Membership: http://youtube.com/thecodingtrain/join
 🛒 Store: https://standard.tv/codingtrain
 🖋️ Twitter: https://twitter.com/thecodingtrain
@@ -333,7 +399,7 @@ This description was auto-generated. If you see a problem, please open an issue:
   );
   description += `\n\n${hashtags.join(' ')}`;
 
-  const videoSlug = /\/((?:.(?!\/))+)$/.exec(pageURL)[1];
+  const videoSlug = video.slug;
   let filename = videoSlug + '_' + data.videoId;
   fs.writeFileSync(`_descriptions/${filename}.txt`, description);
 
@@ -387,9 +453,6 @@ const allTracks = [...mainTracks, ...sideTracks];
       console.log('=====================================================');
     }
   } else {
-    for (const file of files) {
-      getVideoData(file);
-    }
     videos.forEach(writeDescription);
   }
   console.log('\n✅ Wrote descriptions to  ./_descriptions/');

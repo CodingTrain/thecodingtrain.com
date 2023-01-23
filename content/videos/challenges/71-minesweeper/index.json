@@ -7,6 +7,13 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Games", "Prototypes", "Floodfill"],
   "canContribute": true,
+  "relatedChallenges": [
+    "3-snake-game",
+    "46-asteroids",
+    "67-pong",
+    "91-snakes-and-ladders",
+    "115-snake-game-redux"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "1:26", "title": "All aboard!" },
@@ -77,8 +84,36 @@
           "title": "Inheritance with Prototype in JS",
           "url": "https://www.youtube.com/watch?v=CpmE5twq1h0",
           "description": "You should probably watch my videos on ES6 classes instead, but if you insist on being here, I will discuss how inheritance works with prototypes in JS."
+        },
+        {
+          "icon": "🎥",
+          "title": "2D Arrays in Javascript",
+          "url": "https://youtu.be/OTNpiLUSiB4",
+          "description": "In this JavaScript Tutorial, I cover two-dimensional (2D) arrays in JavaScript."
+        },
+        {
+          "icon": "🎥",
+          "title": "Video Games track",
+          "url": "/tracks/games",
+          "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 92",
+          "url": "https://youtu.be/zxR7KfVMGqk?t=2282s",
+          "description": "Live Stream with Minesweeper"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -22,7 +22,9 @@ const defaultState = {
   image: '',
   authorName: '',
   authorUrl: '',
-  authorEmail: ''
+  authorEmail: '',
+  authorTwitter: '',
+  authorInstagram: ''
 };
 
 const schema = object({
@@ -32,7 +34,9 @@ const schema = object({
   image: string().required(),
   authorName: string().required().label('Your name'),
   authorUrl: string().label('Your website').url(),
-  authorEmail: string().label('Your email')
+  authorEmail: string().label('Your email'),
+  authorTwitter: string().label('Twitter'),
+  authorInstagram: string().label('Instagram')
 });
 
 const PassengerShowcaseForm = () => {
@@ -43,7 +47,7 @@ const PassengerShowcaseForm = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      challenges: allChallenge(sort: { order: DESC, fields: date }) {
+      challenges: allChallenge(sort: { date: DESC }) {
         nodes {
           title
           slug
@@ -113,12 +117,12 @@ const PassengerShowcaseForm = () => {
           setState(defaultState);
         } else {
           setError(
-            'Something went wrong submitting your data. Please try again.'
+            'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
           );
         }
       } catch (e) {
         setError(
-          'Something went wrong submitting your data. Please try again.'
+          'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
         );
       }
     };
@@ -231,6 +235,32 @@ const PassengerShowcaseForm = () => {
           <span>
             <em>Optional</em>. Your email address used for the submission in the
             Git repository.
+          </span>
+        </label>
+        <label>
+          Twitter
+          <input
+            type="text"
+            name="authorTwitter"
+            value={state.authorTwitter}
+            onChange={onChange}
+          />
+          <span>
+            <em>Optional</em>. We are sharing the showcase on Twitter! Please
+            leave your handle if you'd like to be tagged.
+          </span>
+        </label>
+        <label>
+          Instagram
+          <input
+            type="text"
+            name="authorInstagram"
+            value={state.authorInstagram}
+            onChange={onChange}
+          />
+          <span>
+            <em>Optional</em>. We are sharing the showcase on Instagram! Please
+            leave your handle if you'd like to be tagged.
           </span>
         </label>
         {error && <div className={css.error}>{error}</div>}

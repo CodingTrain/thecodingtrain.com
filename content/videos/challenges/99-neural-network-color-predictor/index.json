@@ -4,10 +4,13 @@
   "videoNumber": "99",
   "videoId": "KtPpoMThKUs",
   "date": "2018-04-10",
-  "languages": ["p5.js", "javascript"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": ["neural network", "color predictor", "machine learning"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "104-linear-regression-with-tensorflowjs",
+    "105-polynomial-regression-with-tensorflowjs"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:49", "title": "Universal Function Approximator" },
@@ -90,8 +93,24 @@
           "title": "Doodle Classifier",
           "url": "https://www.youtube.com/watch?v=pqY_Tn2SIVA",
           "description": "In this series, I build a \"doodle classifier\" using the Google \"Quick, Draw!\" dataset and my JavaScript neural network library."
+        },
+        {
+          "icon": "🔴",
+          "title": "Live Stream #130",
+          "url": "https://youtu.be/w1Np5meK4_Q?t=1533s",
+          "description": "Live Stream with Color Predictor and Quadtree Continued"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -76,7 +76,7 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Understanding 4D -- The Tesseract",
+          "title": "Understanding 4D - The Tesseract",
           "url": "https://youtu.be/iGO12Z5Lw8s",
           "description": "How, exactly, do you rotate in 4 dimensions? "
         },
@@ -89,7 +89,7 @@
         {
           "icon": "🚂",
           "title": "Matrix Math",
-          "url": "https://www.youtube.com/watch?v=uSzGdfdOoG8",
+          "url": "https://youtu.be/uSzGdfdOoG8",
           "description": "In this video, I introduce the idea of \"Linear Algebra\" and explore the matrix math required for a simple neural network library."
         },
         {
@@ -97,8 +97,24 @@
           "title": "Matrix Multiplication for 3D Rendering",
           "url": "https://youtu.be/tzsgS19RRc8",
           "description": "In this video, I write a function to perform matrix multiplication in Java."
+        },
+        {
+          "icon": "🔴",
+          "title": "Coding Train Live 148.2",
+          "url": "https://youtu.be/M_YNwb7UudI?t=1370s",
+          "description": "In this Live Stream, I attempt to render a 4D Hypercube in Processing."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

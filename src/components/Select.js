@@ -14,7 +14,8 @@ export const Select = ({
   onChange,
   icon,
   className,
-  variant
+  variant,
+  instanceId
 }) => {
   const opts = useMemo(() => options.map(toOption), [options]);
   const handleOnChange = (o, action) => onChange(o ? o.value : o);
@@ -38,6 +39,7 @@ export const Select = ({
             options={opts}
             defaultValue={selected ? toOption(selected) : selected}
             onChange={handleOnChange}
+            instanceId={instanceId}
           />
 
           <div className={css.itemSpacer}></div>

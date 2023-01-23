@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, graphql } from 'gatsby';
 import cn from 'classnames';
 
@@ -16,7 +16,9 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
-import { getReadableDate } from '../hooks';
+import PlayButton from '../images/playbutton.svg';
+import { getReadableDate, useIsFirstRender } from '../hooks';
+import { shuffleCopy } from '../utils';
 
 const TrackCard = ({ track, placeholderImage }) => {
   const { title, cover, date, numVideos, slug } = track;
@@ -53,6 +55,9 @@ const TrackCard = ({ track, placeholderImage }) => {
 
 const ChallengeCard = ({ challenge, placeholderImage }) => {
   const { title, cover, date, slug, videoNumber } = challenge;
+  const image = cover
+    ? cover.file.childImageSharp.gatsbyImageData
+    : placeholderImage;
   return (
     <article className={cn(css.card, css.challengeCard)}>
       <div className={css.details}>
@@ -65,22 +70,108 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
         </h3>
       </div>
       <Link to={`challenges/${slug}`}>
-        <Image
-          image={
-            cover
-              ? cover.file.childImageSharp.gatsbyImageData
-              : placeholderImage
-          }
-          pictureClassName={css.picture}
-          imgClassName={css.image}
-          alt={`"${title}" coding challenge`}
-        />
+        {image ? (
+          <Image
+            image={image}
+            pictureClassName={css.picture}
+            imgClassName={css.image}
+            alt={`"${title}" coding challenge`}
+          />
+        ) : (
+          <div className={css.noImage} />
+        )}
       </Link>
 
       <p className={css.date}>
         {date ? <time dateTime={date}> {getReadableDate(date)}</time> : ''}
       </p>
     </article>
+  );
+};
+
+const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
+  const { author, title, video, videoId, url, source } = showcase;
+  const image = showcase?.cover
+    ? showcase.cover.file.childImageSharp.gatsbyImageData
+    : placeholderImage;
+  const buttonLink =
+    url ?? (videoId ? `https://youtu.be/${videoId}` : source) ?? '';
+  const description = `Passenger showcase "${title}" from ${author?.name}`;
+
+  return (
+    <article className={css.showcase}>
+      <div className={css.left}>
+        <div className={css.details}>
+          <p className={css.videoTitle}>
+            {video?.title} {video?.source && `(${video.source})`}
+          </p>
+          <p className={css.showcaseTitle}>{title}</p>
+        </div>
+        <address className={css.author}>
+          {author && <span>by </span>}
+          {author && (
+            <span className={css.authorName}>
+              {author.url ? (
+                <a href={author.url}>{author.name}</a>
+              ) : (
+                author.name
+              )}
+            </span>
+          )}
+        </address>
+      </div>
+      <a
+        className={css.right}
+        href={buttonLink}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={description}
+      >
+        {image ? (
+          <Image
+            image={image}
+            pictureClassName={css.picture}
+            imgClassName={css.image}
+            alt={description}
+          />
+        ) : (
+          <div className={css.noImage}></div>
+        )}
+        <PlayButton width={30} className={css.playButton} />
+      </a>
+    </article>
+  );
+};
+
+const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
+  const { title: sectionTitle, cta, featured } = passengerShowcase;
+  // First render : empty placeholder
+  const [featuredShowcases, setFeaturedShowcases] = useState([{}, {}, {}]);
+  useEffect(() => {
+    // Next renders : a random passenger showcase
+    setFeaturedShowcases(shuffleCopy(featured).slice(0, 3));
+  }, [featured]);
+
+  return (
+    <section>
+      <div className={css.subheader}>
+        <Heading2 className={css.subheading} variant="purple">
+          {sectionTitle}
+        </Heading2>
+      </div>
+      <p className={css.showcaseBanner}>{cta.text}</p>
+      <Spacer className={css.verticalSpacer} pattern />
+      {featuredShowcases.map((showcase, index) => (
+        <React.Fragment key={index}>
+          <PassengerShowcaseCard
+            showcase={showcase}
+            placeholderImage={placeholderImage}
+            cta={cta}
+          />
+          {index < 2 && <Spacer className={css.verticalSpacer} pattern />}
+        </React.Fragment>
+      ))}
+    </section>
   );
 };
 
@@ -131,6 +222,14 @@ const IndexPage = ({ data }) => {
     data.challengePlaceholderImage.nodes.length > 0
       ? data.challengePlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
+  // First render : empty placeholders
+  const [featuredChallenges, setFeaturedChallenges] = useState([{}, {}, {}]);
+  // Next renders : 3 random challenges on client side hydration
+  useEffect(() => {
+    setFeaturedChallenges(shuffleCopy(content.challenges.featured).slice(0, 3));
+  }, [content.challenges.featured]);
+
+  const isFirstRender = useIsFirstRender();
   return (
     <Layout>
       <div className={css.root}>
@@ -265,104 +364,33 @@ const IndexPage = ({ data }) => {
           />
           <Spacer pattern />
           <div className={css.challenges}>
-            {content.challenges.featured.map((challenge, index) => (
+            {featuredChallenges.map((challenge, index) => (
               <React.Fragment key={index}>
                 <ChallengeCard
                   challenge={challenge}
-                  placeholderImage={challengesPlaceholder}
+                  placeholderImage={
+                    isFirstRender ? null : challengesPlaceholder
+                  }
                 />
                 {index % 3 !== 2 && (
                   <div
                     className={cn(css.horizontalSpacer, {
-                      [css.lastSpacer]:
-                        index === content.challenges.featured.length - 1
+                      [css.lastSpacer]: index === featuredChallenges.length - 1
                     })}
                   />
                 )}
-                {index % 3 !== 2 &&
-                  index !== content.challenges.featured.length - 1 && (
-                    <Spacer
-                      className={cn(css.verticalSpacer, css.mobileSpacer)}
-                      pattern
-                    />
-                  )}
-                {index % 3 === 2 &&
-                  index !== content.challenges.featured.length - 1 && (
-                    <Spacer className={css.verticalSpacer} pattern />
-                  )}
+                {index % 3 !== 2 && index !== featuredChallenges.length - 1 && (
+                  <Spacer
+                    className={cn(css.verticalSpacer, css.mobileSpacer)}
+                    pattern
+                  />
+                )}
+                {index % 3 === 2 && index !== featuredChallenges.length - 1 && (
+                  <Spacer className={css.verticalSpacer} pattern />
+                )}
               </React.Fragment>
             ))}
           </div>
-        </section>
-
-        <Spacer pattern size="x2" />
-
-        <section>
-          <article className={css.showcase}>
-            <div className={css.left}>
-              <Heading2
-                id="passenger-showcase"
-                className={css.subheading}
-                variant="purple"
-                as="h3">
-                {content.passengerShowcase.title}
-              </Heading2>
-              <div className={css.details}>
-                <p>
-                  <address>
-                    {content.passengerShowcase.featured.author.url ? (
-                      <a href={content.passengerShowcase.featured.author.url}>
-                        {content.passengerShowcase.featured.author.name}
-                      </a>
-                    ) : (
-                      content.passengerShowcase.featured.author.name
-                    )}
-                  </address>
-                </p>
-                <p>{content.passengerShowcase.featured.title}</p>
-                <p>
-                  {content.passengerShowcase.featured.video.title} (
-                  {content.passengerShowcase.featured.video.source})
-                </p>
-              </div>
-              <ButtonPanel
-                variant="purple"
-                className={css.baselineButtonPanel}
-                text={content.passengerShowcase.featuredCta.text}
-                buttonText={content.passengerShowcase.featuredCta.buttonText}
-                buttonLink={
-                  content.passengerShowcase.featured.url ??
-                  (content.passengerShowcase.featured.videoId
-                    ? `https://youtu.be/${content.passengerShowcase.featured.videoId}`
-                    : content.passengerShowcase.featured.source)
-                }
-                smallWrap
-                rainbow
-              />
-              <ButtonPanel
-                variant="purple"
-                className={css.baselineButtonPanel}
-                text={content.passengerShowcase.showcaseCta.text}
-                buttonText={content.passengerShowcase.showcaseCta.buttonText}
-                buttonLink={content.passengerShowcase.showcaseCta.href}
-                smallWrap
-                rainbow
-              />
-            </div>
-            <div className={css.right}>
-              <Image
-                image={
-                  content.passengerShowcase.featured.cover
-                    ? content.passengerShowcase.featured.cover.file
-                        .childImageSharp.gatsbyImageData
-                    : challengesPlaceholder
-                }
-                pictureClassName={css.picture}
-                imgClassName={css.image}
-                alt={`Passenger showcase "${content.passengerShowcase.featured.title}" from ${content.passengerShowcase.featured.author.name}`}
-              />
-            </div>
-          </article>
         </section>
 
         <Spacer pattern size="x2" />

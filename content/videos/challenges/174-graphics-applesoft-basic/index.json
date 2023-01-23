@@ -96,9 +96,9 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "AppleSoft Basic Snake Game",
-          "url": "/challenges/173-snake-applesoft-basic",
-          "description": "Previous Coding Together episode."
+          "title": "Coding Together Track",
+          "url": "/tracks/coding-together-apple-ii",
+          "description": "Coding Together with Apple ii track"
         },
         {
           "icon": "🎥",
@@ -165,6 +165,25 @@
           "description": "Downloadable Apple II Emulator for Windows, macOS / OSX and Linux"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    },
+    {
+      "title": "Coding Together Theme",
+      "name": "Will from America",
+      "url": "https://twitter.com/WillfromAmerica"
+    },
+    {
+      "title": "Eye of the Tiger cover",
+      "name": "Leon from @neo"
     }
   ]
 }

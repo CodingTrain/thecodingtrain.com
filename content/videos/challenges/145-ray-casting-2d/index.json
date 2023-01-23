@@ -4,7 +4,7 @@
   "videoNumber": "145",
   "videoId": "TOEi6T2mtHo",
   "date": "2019-05-08",
-  "languages": ["p5.js", "Processing"],
+  "languages": ["p5.js"],
   "topics": [
     "ray casting",
     "game development",
@@ -13,7 +13,7 @@
     "line line intersection"
   ],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["146-rendering-ray-casting"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -59,8 +59,7 @@
       "image": "raycasting_145.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Nqsq3DFv-",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting/Processing/CC_145_Ray_Casting",
-        "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/145_Ray_Casting/Processing/CC_145_Ray_Casting"
       }
     }
   ],
@@ -110,12 +109,22 @@
           "description": "This video introduces the idea of Linear Algebra and explores the matrix math required for a simple neural network library."
         },
         {
-          "icon": "🎥",
-          "title": "Coding Challenge: Rendering Ray Casting",
-          "url": "https://www.youtube.com/watch?v=vYgIKn7iDH8",
-          "description": "This video builds off of the 2D Ray Casting coding challenge to make a version of the original Wolfenstein 3D Raycasting engine and visualize the field of view of the moving particle."
+          "icon": "🔴",
+          "title": "Coding Train Live 177",
+          "url": "https://youtu.be/-6iIc6-Y-kk?t=1548s",
+          "description": "Livestream with ray-casting-2d and rendering ray-casting."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "videoNumber": "6.3",
   "videoId": "xwUrg9Hjkhg0",
   "date": "2019-12-05",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["saving data", "neural network", "machine learning"],
   "canContribute": true,
   "timestamps": [
@@ -42,6 +42,16 @@
           "description": "ml5 page with documentation and supporting material about loadint the neural network model."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

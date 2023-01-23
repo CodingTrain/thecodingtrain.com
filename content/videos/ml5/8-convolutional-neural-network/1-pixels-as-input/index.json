@@ -4,7 +4,7 @@
   "videoNumber": "8.1",
   "videoId": "UaKab6h9Z0I",
   "date": "2020-02-01",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["neural network", "pixels", "regression"],
   "canContribute": true,
   "timestamps": [
@@ -116,6 +116,16 @@
           "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \"pose\" itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

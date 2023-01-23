@@ -7,11 +7,15 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["quadtree data structure", "quadtree collision detection"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "65-binary-tree",
+    "68-breadth-first-search",
+    "72-frogger"
+  ],
   "timestamps": [],
   "parts": [
     {
-      "title": "Quadtree - Part 1",
+      "title": "Part 1 - Creating the Quadtree",
       "videoId": "OJxEcs0w_kE",
       "timestamps": [
         { "time": "0:00", "title": "Introducing today's topic: Quadtrees" },
@@ -29,12 +33,12 @@
       ]
     },
     {
-      "title": "Quadtree - Part 2",
+      "title": "Part 2 - Querying the Quadtree for Points",
       "videoId": "QQx_NmCIuCY",
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Quadtree Part 2--query the data structure for points contained within a rectangular boundary"
+          "title": "Quadtree Part 2 - Query the data structure for points contained within a rectangular boundary"
         },
         {
           "time": "1:45",
@@ -56,12 +60,12 @@
       ]
     },
     {
-      "title": "Quadtree - Part 3",
+      "title": "Part 3 - Applying the Quadtree to Particle System Collisions",
       "videoId": "z0YFFg_nBjw",
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Quadtree Part 3--apply the algorithm to particle system collisions"
+          "title": "Quadtree Part 3 - Apply the algorithm to particle system collisions"
         },
         { "time": "1:05", "title": "Start with a Particle class" },
         { "time": "2:29", "title": "Add particle checking" },
@@ -78,7 +82,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Quadtree Parts 1 & 2",
+      "title": "Quadtree - Parts 1 & 2",
       "description": "This sketch implements a quadtree structure.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/g7LnWQ42x",
@@ -114,21 +118,31 @@
       ]
     },
     {
-      "title": "Videos",
+      "title": "Live Stream Archives",
       "links": [
         {
-          "icon": "🚂",
-          "title": "Quadtrees Live Stream Archive",
-          "url": "https://youtu.be/MxnqJGwu2cc",
-          "description": "Quadtree livestream"
+          "icon": "🔴",
+          "title": "Live Stream #128",
+          "url": "https://youtu.be/MxnqJGwu2cc?t=1242s",
+          "description": "Quadtree Live Stream"
         },
         {
-          "icon": "🚂",
-          "title": "Binary Tree Coding Challenge",
-          "url": "https://www.youtube.com/watch?v=ZNH0MuQ51m4",
-          "description": "In this video, I implement a classic data structure: The Binary Search Tree."
+          "icon": "🔴",
+          "title": "Live Stream #130",
+          "url": "https://youtu.be/w1Np5meK4_Q?t=5122s",
+          "description": "Live Stream with Color Predictor and Quadtree Continued"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

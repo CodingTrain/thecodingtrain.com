@@ -4,7 +4,7 @@
   "videoNumber": "8.4",
   "videoId": "hWurN0XhzLY",
   "date": "2020-11-20",
-  "languages": ["ml5", "p5js"],
+  "languages": ["ml5.js", "p5.js"],
   "topics": ["convolutional neural network", "image classification"],
   "canContribute": true,
   "timestamps": [
@@ -111,6 +111,16 @@
           "description": "In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library."
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
     }
   ]
 }

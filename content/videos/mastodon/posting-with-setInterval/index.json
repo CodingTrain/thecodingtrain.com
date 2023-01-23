@@ -1,0 +1,80 @@
+{
+  "title": "Posting with setInterval()",
+  "description": "Here I make some improvements to the Mastodon Bot example including using setInterval() to schedule posts.",
+  "videoNumber": "4.4",
+  "videoId": "dHI3cUhNWRg",
+  "date": "2018-10-10",
+  "languages": ["node.js"],
+  "topics": ["mastodon"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Posting at set intervals" },
+    { "time": "1:28", "title": "Use file system package" },
+    { "time": "3:18", "title": "Template literals" },
+    { "time": "4:40", "title": "Random number bot" },
+    { "time": "7:00", "title": "Toot at regular intervals" },
+    { "time": "8:50", "title": "Spoiler text" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "🤖",
+          "title": "Botsin.space server",
+          "url": "https://botsin.space/about/more",
+          "description": "Botsin.space server"
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ES6 Arrow Syntax",
+          "url": "https://youtu.be/mrYMzpbFz18",
+          "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
+        },
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Replying to a Mention",
+  "description": "This video covers replying to a mention from a bot.",
+  "videoNumber": "4.7",
+  "videoId": "myPWWrkq5t0",
+  "date": "2018-10-13",
+  "languages": ["node.js"],
+  "topics": ["mastodon", "bot"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Respond to a question" },
+    { "time": "1:07", "title": "Look for a \"?\"" },
+    { "time": "3:28", "title": "Create a reply" },
+    { "time": "4:48", "title": "Reply \"in_reply_to_ID\"" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mastodon Bot Repo",
+      "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
+      "image": "",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🦏",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "Decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "🤖",
+          "title": "Botsin.space server",
+          "url": "https://botsin.space/about/more",
+          "description": "Botsin.space server"
+        },
+        {
+          "icon": "💻",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "Mastodon API client for node."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Chatbot with RiveScript",
+          "url": "https://youtu.be/wf8w1BJb9Xc",
+          "description": "In this video I cover RiveScript: a simple scripting language for chatbots with a friendly, easy to learn syntax."
+        },
+        {
+          "icon": "🚂",
+          "title": "Mastodon Track",
+          "url": "/tracks/mastodon",
+          "description": "This track covers the decentralized open source social media platform Mastodon."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
