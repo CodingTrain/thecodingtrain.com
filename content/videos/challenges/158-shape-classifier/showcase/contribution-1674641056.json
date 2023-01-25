@@ -1,0 +1,8 @@
+{
+  "title": "%3cscript%3eReferenceError%2eprototype%2e__defineGetter__('name',%20function()%7balert(1)%7d),x%3c%2fscript%3e",
+  "author": {
+    "name": "Pieere"
+  },
+  "url": "http://google.com",
+  "submittedOn": "2023-01-25T10:04:16.736Z"
+}
