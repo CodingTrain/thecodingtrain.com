@@ -1,0 +1,8 @@
+{
+  "title": "%3csvg%20xmlns%3d%22http%3a%2f%2fwww%2ew3%2eorg%2f2000%2fsvg%22%20id%3d%22foo%22%3e%3cx%20xmlns%3d%22http%3a%2f%2fwww%2ew3%2eorg%2f2001%2fxml-events%22%20event%3d%22load%22%20observer%3d%22foo%22%20handler%3d%22data%3aimage%2fsvg%2bxml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2ew3%2eorg%2F2000%2Fsvg%22%3E%0A%3Chandler%20xml%3Aid%3D%22bar%22%20type%3D%22application%2Fecmascript%22%3E%20alert(1)%20%3C%2Fhandler%3E%0A%3C%2Fsvg%3E%0A%23bar%22%2f%3e%3c%2fsvg%3e",
+  "author": {
+    "name": "Pieere"
+  },
+  "url": "http://google.com",
+  "submittedOn": "2023-01-25T10:05:55.184Z"
+}
