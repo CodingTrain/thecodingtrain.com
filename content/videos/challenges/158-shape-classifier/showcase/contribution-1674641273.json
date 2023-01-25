@@ -1,0 +1,8 @@
+{
+  "title": "%3cdiv%20id%3d%22div1%22%3e%3cinput%20value%3d%22%60%60onmouseover%3dalert(1)%22%3e%3c%2fdiv%3e%20%3cdiv%20id%3d%22div2%22%3e%3c%2fdiv%3e%3cscript%3edocument%2egetElementById(%22div2%22)%2einnerHTML%20%3d%20document%2egetElementById(%22div1%22)%2einnerHTML%3b%3c%2fscript%3e",
+  "author": {
+    "name": "Pieere"
+  },
+  "url": "http://google.com",
+  "submittedOn": "2023-01-25T10:07:53.379Z"
+}
