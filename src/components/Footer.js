@@ -33,7 +33,12 @@ const Footer = () => {
           <Logo width={250} />
         </div>
         <div className={css.train}>
-          <img src="/images/train.svg" alt="The Coding Train illustration" />
+          <img
+            src="/images/train.svg"
+            width={371}
+            height={150}
+            alt="The Coding Train illustration"
+          />
         </div>
       </div>
 
