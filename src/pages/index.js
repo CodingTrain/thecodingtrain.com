@@ -125,8 +125,7 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
         href={buttonLink}
         target="_blank"
         rel="noreferrer"
-        aria-label={description}
-      >
+        aria-label={description}>
         {image ? (
           <Image
             image={image}
@@ -153,7 +152,7 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
   }, [featured]);
 
   return (
-    <section>
+    <section id="passenger-showcase">
       <div className={css.subheader}>
         <Heading2 className={css.subheading} variant="purple">
           {sectionTitle}
