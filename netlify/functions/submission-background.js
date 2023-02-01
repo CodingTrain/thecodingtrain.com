@@ -1,12 +1,12 @@
 const { Octokit } = require('@octokit/core');
 const slugify = require('slugify');
 const btoa = require('btoa');
+const sharp = require('sharp');
 
 // event.body expected to be:
 // {
 //   title: "Something",
 //   image: "base64string="
-//   imageExt: "png",
 //   authorName: "Coding Train",
 //   authorUrl: "https://thecodingtrain.com",
 //   authorEmail: "help@thecodingtrain.com",
@@ -16,22 +16,53 @@ const btoa = require('btoa');
 //   challenge: "01-test",
 // }
 
+async function validateImage(imageBase64) {
+  const supportedImageFormatsToExtensions = new Map([
+    ['png', 'png'],
+    ['jpeg', 'jpg']
+  ]);
+
+  try {
+    const { info } = await sharp(Buffer.from(imageBase64, 'base64')).toBuffer({
+      resolveWithObject: true
+    });
+
+    const imageExtension = supportedImageFormatsToExtensions.get(info.format);
+
+    return imageExtension
+      ? { imageExtension }
+      : { error: `Unsupported image format: ${info.format}` };
+  } catch (e) {
+    return { error: "Can't decode submitted image" };
+  }
+}
+
 exports.handler = async function (event) {
   console.log('Handler called with: ', event.body);
 
-  // Shared properties
+  if (!process.env.GITHUB_TOKEN) {
+    console.error('GitHub Token not loaded');
+    return;
+  }
+
+  // parse payload
   const postInfo = JSON.parse(event.body);
+
+  // validate image and extract its extension
+  const { error, imageExtension } = await validateImage(postInfo.image);
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  // Shared properties
   const unix = Math.floor(Date.now() / 1000);
   const owner = 'CodingTrain';
   const repo = 'thecodingtrain.com';
   const showcasePath = `content/videos/challenges/${postInfo.challenge}/showcase`;
   const jsonPath = `${showcasePath}/contribution-${unix}.json`;
-  const imagePath = `${showcasePath}/contribution-${unix}.${postInfo.imageExt}`;
+  const imagePath = `${showcasePath}/contribution-${unix}.${imageExtension}`;
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-
-  if (!process.env.GITHUB_TOKEN) {
-    console.error('GitHub Token not loaded');
-  }
 
   /**
     Get the SHA of the main branch
