@@ -6,7 +6,6 @@ import cn from 'classnames';
 import * as css from './Footer.module.css';
 
 import Logo from '../images/logo.svg';
-import Train from '../images/train.svg';
 import Github from '../images/github.svg';
 import Twitch from '../images/twitch.svg';
 import Nebula from '../images/nebula.svg';
@@ -34,7 +33,12 @@ const Footer = () => {
           <Logo width={250} />
         </div>
         <div className={css.train}>
-          <Train />
+          <img
+            src="/images/train.svg"
+            width={371}
+            height={150}
+            alt="The Coding Train illustration"
+          />
         </div>
       </div>
 
