@@ -10,7 +10,8 @@ function preload() {
 }
 
 function updateNumber() {
-  const number = select('#number').value();
+  const number = Number(select('#number').value());
+  console.log(number);
   if (data[number]) {
     inputFromField = number;
     resetSketch();
