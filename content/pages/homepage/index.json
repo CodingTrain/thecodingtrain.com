@@ -32,14 +32,14 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "175-3D-cube-applesoft-basic",
-      "68-breadth-first-search",
-      "121-logo-interpreter",
-      "29-smart-rockets-in-p5js",
-      "54-islamic-star-patterns",
-      "143-quicksort",
-      "144-2d-black-hole-visualization",
-      "80-voice-chatbot-with-p5speech",
-      "119-binary-to-decimal-conversion"
+      "65-binary-tree",
+      "104-linear-regression-with-tensorflowjs",
+      "133-time-tables-cardioid-visualization",
+      "134-heart-curve",
+      "19-superellipse",
+      "132-fluid-simulation",
+      "21-mandelbrot-set-with-p5js",
+      "138-angry-birds-with-matterjs"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,15 +50,15 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/68-breadth-first-search/showcase/contribution3.json",
-      "challenges/121-logo-interpreter/showcase/contribution6.json",
-      "challenges/29-smart-rockets-in-p5js/showcase/contribution-1672174734.json",
-      "challenges/54-islamic-star-patterns/showcase/contribution-1669530254.json",
-      "challenges/143-quicksort/showcase/contribution9.json",
-      "challenges/144-2d-black-hole-visualization/showcase/contribution5.json",
-      "challenges/80-voice-chatbot-with-p5speech/showcase/contribution1.json",
-      "challenges/119-binary-to-decimal-conversion/showcase/contribution4.json",
-      "challenges/175-3D-cube-applesoft-basic/showcase/contribution-1671618081.json"
+      "challenges/138-angry-birds-with-matterjs/showcase/contribution5.json",
+      "challenges/65-binary-tree/showcase/contribution3.json",
+      "challenges/104-linear-regression-with-tensorflowjs/showcase/contribution1.json",
+      "challenges/134-heart-curve/showcase/contribution1.json",
+      "challenges/134-heart-curve/showcase/contribution6.json",
+      "challenges/19-superellipse/showcase/contribution1.json",
+      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution2.json",
+      "challenges/133-time-tables-cardioid-visualization/showcase/contribution8.json",
+      "challenges/133-time-tables-cardioid-visualization/showcase/contribution11.json"
     ],
     "featuredCta": {
       "text": "Ready to be inspired?",

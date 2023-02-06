@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { graphql } from 'gatsby';
 import { MDXProvider } from '@mdx-js/react';
+import { toSlug } from '../utils';
 
 import Layout from '../components/Layout';
 import Breadcrumbs from '../components/Breadcrumbs';
@@ -32,28 +33,16 @@ function isValidHttpUrl(string) {
   return url.protocol === 'http:' || url.protocol === 'https:';
 }
 
-const kebabCase = (string) =>
-  string
-    .replace(/([a-z])([A-Z])/g, '$1-$2')
-    .replace(/[\s_]+/g, '-')
-    .replace(/[?'!,:.]/g, '')
-    .toLowerCase();
-
 const components = (localImages) => ({
   h1: (props) => (
-    <Heading1
-      variant="purple"
-      as="h2"
-      id={kebabCase(props.children)}
-      {...props}
-    />
+    <Heading1 variant="purple" as="h2" id={toSlug(props.children)} {...props} />
   ),
   h2: (props) => (
     <Heading2
       className={css.headingBorderTop}
       variant="purple"
       as="h3"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       {...props}
     />
   ),
@@ -61,7 +50,7 @@ const components = (localImages) => ({
     <Heading3
       variant="purple"
       as="h4"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -70,7 +59,7 @@ const components = (localImages) => ({
     <Heading4
       variant="purple"
       as="h5"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -79,7 +68,7 @@ const components = (localImages) => ({
     <Heading5
       variant="purple"
       as="h6"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -88,7 +77,7 @@ const components = (localImages) => ({
     <Heading6
       variant="purple"
       as="h6"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -198,7 +187,7 @@ const Guide = ({ data, children }) => {
             </li>
             {mdx.tableOfContents.items.map((item, index) => (
               <li key={index} className={css.indexItem}>
-                <a href={item.url}>{item.title}</a>
+                <a href={'#' + toSlug(item.title)}>{item.title}</a>
               </li>
             ))}
             {mdx.tableOfContents.items.length % 2 === 1 && (
