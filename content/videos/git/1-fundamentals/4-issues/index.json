@@ -15,9 +15,7 @@
     {
       "title": "Rainbow Poem",
       "description": "GitHub repo for the Rainbow Poem",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Rainbow-Poem"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/Rainbow-Poem" }
     }
   ],
   "groupLinks": [
@@ -40,13 +38,8 @@
   ],
   "canContribute": false,
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-04-24"
 }

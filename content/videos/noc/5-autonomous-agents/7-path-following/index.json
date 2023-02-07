@@ -11,17 +11,13 @@
       "title": "Path Following",
       "description": "Making a vehicle follow a path projected from the position of the mosue",
       "image": "path.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/dqM054vBV"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/dqM054vBV" }
     },
     {
       "title": "Complex Path",
       "description": "Generating an array of vehicles that follow a loop",
       "image": "complex.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/2FFzvxwVt"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/2FFzvxwVt" }
     }
   ],
   "groupLinks": [
@@ -47,13 +43,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-10-16"
 }

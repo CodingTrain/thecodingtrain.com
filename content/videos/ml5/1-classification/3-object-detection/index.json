@@ -3,7 +3,7 @@
   "description": "I cover object detection in ml5.js with the COCO-SSD pre-trained model.",
   "videoNumber": "1.3",
   "videoId": "QEzRxnuaZCk",
-  "date": "2020-10-14",
+  "date": "2020-10-20",
   "languages": ["p5.js", "ml5.js"],
   "topics": [
     "coco-ssd",
@@ -31,23 +31,17 @@
       "title": "Object detection (image)",
       "description": "Object detection with COCO",
       "image": "object.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ZNQQx2n5o"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ZNQQx2n5o" }
     },
     {
       "title": "Object detection webcam",
       "description": "Object detection with COCO",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/VIYRpcME3"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/VIYRpcME3" }
     },
     {
       "title": "Object detection webcam persistence",
       "description": "Code example 1 description",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Vt9xeTxWJ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Vt9xeTxWJ" }
     }
   ],
   "groupLinks": [
@@ -135,13 +129,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

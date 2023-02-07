@@ -11,49 +11,37 @@
       "title": "Flee",
       "description": "Creating an agent that avoids the mouse",
       "image": "flee.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO" }
     },
     {
       "title": "Pursue",
       "description": "Adding a mover target for the pursuer to chase",
       "image": "pursue.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Lx3PJMq4m"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Lx3PJMq4m" }
     },
     {
       "title": "Evade",
       "description": "Creating an agent that avoids a mover object",
       "image": "evade.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/X3ph02Byx"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/X3ph02Byx" }
     },
     {
       "title": "Pursue Boucing Ball",
       "description": "Pursuing a ball that bounces off the edge of the canvas",
       "image": "bounce.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/itlyDq3ZB"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/itlyDq3ZB" }
     },
     {
       "title": "Pursue Wander",
       "description": "Using the wander behavior to steer the mover object",
       "image": "wander.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EEnmY04lt"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EEnmY04lt" }
     },
     {
       "title": "Pursue Slider Prediction",
       "description": "Adding a slider to control the mover object's behavior",
       "image": "slider.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/l7MgPpTUB"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/l7MgPpTUB" }
     }
   ],
   "groupLinks": [
@@ -79,13 +67,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-06-24"
 }
