@@ -11,9 +11,7 @@
       "title": "Particle System Inheritance",
       "description": "Creating a confetti class that inherits methods from a parent emitter class",
       "image": "inheritance.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/vYgv7Xagg"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/vYgv7Xagg" }
     }
   ],
   "groupLinks": [
@@ -34,13 +32,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-04-01"
 }

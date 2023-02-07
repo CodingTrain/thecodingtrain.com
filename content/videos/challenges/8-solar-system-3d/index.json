@@ -3,7 +3,7 @@
   "description": "In the second part of this coding challenge, using Processing, I take the code from the 2D Solar System and turn it three-dimensional.",
   "videoNumber": "8",
   "videoId": "dncudkelNxw",
-  "date": "2016-05-01",
+  "date": "2016-05-02",
   "languages": ["Processing"],
   "topics": ["solar system", "3d"],
   "canContribute": true,
@@ -55,13 +55,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

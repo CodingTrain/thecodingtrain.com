@@ -11,33 +11,25 @@
       "title": "Basic Polar Coordinates",
       "description": "A simple example of using polar coordinates in p5.js",
       "image": "basic.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/DHetsOfgz"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/DHetsOfgz" }
     },
     {
       "title": "Spiral",
       "description": "Using polar coordinates to draw a spiral",
       "image": "spiral.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/BnJ_4U4cr"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/BnJ_4U4cr" }
     },
     {
       "title": "Random Trail",
       "description": "Drawing a glowing trail with polar coordinates",
       "image": "trail.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/WqK-qD1vU"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/WqK-qD1vU" }
     },
     {
       "title": "Circular Shape",
       "description": "Drawing a random circular shape with polar coordinates",
       "image": "circlular.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/s10TQXDZv"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/s10TQXDZv" }
     }
   ],
   "groupLinks": [
@@ -83,13 +75,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-02-06"
 }

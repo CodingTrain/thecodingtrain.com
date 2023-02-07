@@ -11,17 +11,13 @@
       "title": "Gravitational Attraction",
       "description": "Simulating gravitational attraction between objects",
       "image": "code1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/MkLraatd"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/MkLraatd" }
     },
     {
       "title": "Attraction Exercise",
       "description": "Creating attractor objects with positive and negative gravity force",
       "image": "code2.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ImehzZuCU"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ImehzZuCU" }
     }
   ],
   "groupLinks": [
@@ -57,13 +53,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-04-23"
 }

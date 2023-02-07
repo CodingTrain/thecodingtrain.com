@@ -11,33 +11,25 @@
       "title": "Particle Emitters",
       "description": "Spawning a new particle emitter on clicking the screen",
       "image": "emitters.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/YqAxA5CYy"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/YqAxA5CYy" }
     },
     {
       "title": "Particle Emitters with Movers Exercise",
       "description": "Adding fire particle effects to an array of movers",
       "image": "movers.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/UXmqwcpRL"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/UXmqwcpRL" }
     },
     {
       "title": "Particles Following Mouse Exercise",
       "description": "Making a particle emitter that follows the mouse",
       "image": "mouse.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/1zTN6PYJg"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/1zTN6PYJg" }
     },
     {
       "title": "Particle Emitters Color Exercise",
       "description": "Clicking on the screen to make a new emitter with a random color",
       "image": "color.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/IYisp9xmJ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/IYisp9xmJ" }
     }
   ],
   "groupLinks": [
@@ -68,13 +60,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-03-12"
 }

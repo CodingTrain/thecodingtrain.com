@@ -11,25 +11,19 @@
       "title": "Texture Maker",
       "description": "Generating a new texture using p5.js",
       "image": "image.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/NS4rB1Yx-"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/NS4rB1Yx-" }
     },
     {
       "title": "Image Texture",
       "description": "Importing an external image as a texture in p5.js",
       "image": "texture.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/TTVoNt58T"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/TTVoNt58T" }
     },
     {
       "title": "Shader (WebGL)",
       "description": "Using WebGL vertex and fragment shaders in p5.js",
       "image": "shader.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EXZmcc4m_"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EXZmcc4m_" }
     }
   ],
   "groupLinks": [
@@ -50,13 +44,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-04-13"
 }

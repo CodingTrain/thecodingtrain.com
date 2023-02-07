@@ -11,43 +11,30 @@
       "title": "Sine Wave Graph Exercise",
       "description": "Graphing a static sine wave",
       "image": "sine.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EIbEYLTaZ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EIbEYLTaZ" }
     },
     {
       "title": "Playing With Period",
       "description": "Changing the period of the sine wave graph",
       "image": "period.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/SbRC-G0lU"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/SbRC-G0lU" }
     },
     {
       "title": "Graphing Wave",
       "description": "Animating a sine wave on the canvas",
       "image": "graph.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/c_S9jiXz-"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/c_S9jiXz-" }
     },
     {
       "title": "Circular Wave Exercise",
       "description": "Generating and animating a circular shape with a wavy edge",
       "image": "circular.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba" }
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-02-12"
 }
