@@ -11,9 +11,7 @@
       "title": "Angles and Rotation",
       "description": "Demonstrating rotation of a rectangle in p5.js",
       "image": "angles.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/y7ieDesyd"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/y7ieDesyd" }
     }
   ],
   "groupLinks": [
@@ -39,13 +37,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-01-26"
 }

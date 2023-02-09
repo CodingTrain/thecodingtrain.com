@@ -11,9 +11,7 @@
       "title": "Arrive",
       "description": "Using the arrive steering method to code an agent that arrives at the mouse's position",
       "image": "arrive.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/1eUnUQnwB"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/1eUnUQnwB" }
     }
   ],
   "groupLinks": [
@@ -29,13 +27,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-07-12"
 }

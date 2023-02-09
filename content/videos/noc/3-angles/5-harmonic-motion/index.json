@@ -11,49 +11,37 @@
       "title": "Basic",
       "description": "Drawing a growing circle using harmonic motion",
       "image": "basic.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Fn1feR81W"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Fn1feR81W" }
     },
     {
       "title": "Approximate Time",
       "description": "Generating oscillating motion without an exact time increment",
       "image": "basic.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/uGCYH4-PN"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/uGCYH4-PN" }
     },
     {
       "title": "Exact Time Exercise",
       "description": "Generating oscillating motion using a specific amount of milliseconds to determine the period",
       "image": "time.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/jp2B-0Wkg"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/jp2B-0Wkg" }
     },
     {
       "title": "Main",
       "description": "Drawing oscillating motion that accelerates over time",
       "image": "basic.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/MfvyVULHT"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/MfvyVULHT" }
     },
     {
       "title": "Yoyo",
       "description": "Using oscillating motion to animate a yoyo",
       "image": "yoyo.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/qBhVjZ0pn"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/qBhVjZ0pn" }
     },
     {
       "title": "2-Axes Exercise",
       "description": "Simulating oscillating motion along two axes",
       "image": "axis.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/_ir7-suNG"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/_ir7-suNG" }
     }
   ],
   "groupLinks": [
@@ -74,13 +62,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-02-07"
 }

@@ -11,17 +11,13 @@
       "title": "Angle Between",
       "description": "Calculating the angle between the mouse and a line on the canvas",
       "image": "angle.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ORP5Yx7JX"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ORP5Yx7JX" }
     },
     {
       "title": "Scalar Projection",
       "description": "Projecting a point under the mouse onto a line",
       "image": "projection.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/c4jmHLFQI"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/c4jmHLFQI" }
     }
   ],
   "groupLinks": [
@@ -72,13 +68,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-10-13"
 }

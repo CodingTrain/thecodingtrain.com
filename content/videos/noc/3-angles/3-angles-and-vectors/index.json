@@ -11,9 +11,7 @@
       "title": "Direction Pointing",
       "description": "Creating Mover objects that point in the irection they're moving",
       "image": "direction.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/9M9yQJVVc"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/9M9yQJVVc" }
     },
     {
       "title": "Vehicle",
@@ -27,9 +25,7 @@
       "title": "Asteroids Exercise",
       "description": "A spaceship with direction and thrust controls",
       "image": "asteroids.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/pXS395i0h"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/pXS395i0h" }
     }
   ],
   "groupLinks": [
@@ -60,13 +56,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-02-02"
 }

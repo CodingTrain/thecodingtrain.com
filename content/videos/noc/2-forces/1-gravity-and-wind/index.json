@@ -11,9 +11,7 @@
       "title": "Simulating Forces",
       "description": "Simulating a wind force when the mouse is pressed",
       "image": "image1.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/kYWcOmch"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/kYWcOmch" }
     }
   ],
   "groupLinks": [
@@ -34,13 +32,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-03-27"
 }
