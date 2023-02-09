@@ -55,11 +55,11 @@ const Card = ({ className, contribution, placeholderImage }) => {
           </div>
           <p className={css.date}>
             <span>
-              {submittedOn ? (
+              {submittedOn && (
                 <time dateTime={submittedOn}>
                   {getReadableDate(submittedOn)}
                 </time>
-              ) : null}
+              )}
             </span>
           </p>
         </div>
@@ -88,11 +88,11 @@ const Card = ({ className, contribution, placeholderImage }) => {
           </ExternalLink>
           <p className={css.date}>
             <span>
-              {submittedOn ? (
+              {submittedOn && (
                 <time dateTime={submittedOn}>
                   {getReadableDate(submittedOn)}
                 </time>
-              ) : null}
+              )}
             </span>
           </p>
         </div>
