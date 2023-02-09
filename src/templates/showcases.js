@@ -1,25 +1,19 @@
 import React, { Fragment } from 'react';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import ItemsPage from '../components/ItemsPage';
-import Image from '../components/Image';
 import Card from '../components/showcase/Card';
 
-import PlayButton from '../images/playbutton.svg';
 import DotCharacter from '../images/characters/ThisDot_7.mini.svg';
 import DotCharacter2 from '../images/characters/ThisDot_3.mini.svg';
 import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
-
-import { getReadableDate } from '../hooks';
 
 import * as css from './showcases.module.css';
 
 const ShowcasePage = ({ data, pageContext, location }) => {
   const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];
-  const contributions = data.contributions.nodes;
-  const languages = data.languages.nodes.map(({ value }) => value);
-  const topics = data.topics.nodes.map(({ value }) => value);
+  const contributions = data.contributions;
 
   const contributionsPlaceholder = data.challengePlaceholderImage
     ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
@@ -39,14 +33,13 @@ const ShowcasePage = ({ data, pageContext, location }) => {
       SeparatorCharacter={DotCharacter2}
       EndPageCharacter={RainbowCharacter}
       characterOrientation="center"
-      languages={languages}
-      topics={topics}
       midSection={null}
       showPagination={contributions.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
-      humanPageNumber={pageContext.humanPageNumber}>
+      humanPageNumber={pageContext.humanPageNumber}
+      filtersFilePath="/filters-contributions.json">
       {() =>
         contributions.length > 0 && (
           <div className={css.challenges}>
@@ -57,7 +50,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
                   placeholderImage={contributionsPlaceholder}
                 />
                 {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
-                {i % 3 == 2 && <div className={css.verticalSpacer}></div>}
+                {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
               </Fragment>
             ))}
           </div>
@@ -68,63 +61,40 @@ const ShowcasePage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query(
-    $skip: Int!
-    $limit: Int!
-    $topicRegex: String!
-    $languageRegex: String!
-  ) {
+  query ($skip: Int, $limit: Int, $topic: String!, $language: String!) {
     pageData: allShowcasePageInfo {
       nodes {
         title
         description
-        }
       }
-    contributions: allContribution(
-      filter: { video: {
-        languagesFlat: { regex: $languageRegex }
-        topicsFlat: { regex: $topicRegex }
-        }
-      }
-      sort: { order: DESC, fields: video___date }
+    }
+    contributions: contributionsPaginatedFilteredByTags(
+      language: $language
+      topic: $topic
       skip: $skip
       limit: $limit
     ) {
-      nodes {
-        title
+      title
+      url
+      submittedOn
+      author {
+        name
         url
-        author {
-            name
-            url
-        }
-        video {
-            title
-            date
-        }
-        cover {
-          file {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
-        }
-        parent {
-          parent {
-            ... on File {
-              relativeDirectory
-            }
-          }
+      }
+      video {
+        title
+        date
+        slug
+        track {
+          slug
         }
       }
-    }
-    languages: allTag(filter: { type: { eq: "language" } }) {
-      nodes {
-        value
-      }
-    }
-    topics: allTag(filter: { type: { eq: "topic" } }) {
-      nodes {
-        value
+      cover {
+        file {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
     challengePlaceholderImage: file(

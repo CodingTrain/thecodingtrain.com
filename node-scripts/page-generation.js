@@ -1,13 +1,15 @@
 const { paginate } = require('gatsby-awesome-pagination');
 const { toSlug } = require('./utils');
 const { writeFile } = require('fs/promises');
+const get = require('lodash/get');
 
-const ITEMS_PER_PAGE = 50;
+const ITEMS_PER_PAGE = 50; // tracks and challenges
+const SHOWCASE_ITEMS_PER_PAGE = 51; // showcase has 3 cols
 
-const extractTags = (nodes, pluckKey) => {
+const extractTags = (nodes, pluckPath) => {
   const set = new Set();
   nodes.forEach((node) => {
-    node[pluckKey].forEach((val) => set.add(val));
+    get(node, pluckPath).forEach((val) => set.add(val));
   });
 
   return [...set].sort((a, b) => {
@@ -302,7 +304,7 @@ exports.createGuidePages = async (graphql, createPage) => {
 };
 
 /**
- * Creates single Showcase pages for all loaded Showcase nodes 
+ * Creates single Showcase pages for all loaded Showcase nodes
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
@@ -317,79 +319,56 @@ exports.createShowcasePages = async (graphql, createPage) => {
           title
           video {
             slug
+            topics
+            languages
           }
         }
       }
     }
   `);
 
+  const languages = extractTags(contributions.nodes, 'video.languages');
+  const topics = extractTags(contributions.nodes, 'video.topics');
+
+  await writeFile(
+    './public/filters-contributions.json',
+    JSON.stringify({ languages, topics })
+  );
+
   paginate({
     createPage,
     items: contributions.nodes,
-    itemsPerPage: 51,
+    itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
     pathPrefix: '/showcase',
     component: require.resolve(`../src/templates/showcases.js`),
     context: {
       topic: '',
-      topicRegex: '/.*.*/',
-      language: '',
-      languageRegex: '/.*.*/'
+      language: ''
     }
   });
 
-  const {
-    data: { languages, topics }
-  } = await graphql(`
-    query {
-      languages: allTag(filter: { type: { eq: "language" } }) {
-        nodes {
-          value
-        }
-      }
-      topics: allTag(filter: { type: { eq: "topic" } }) {
-        nodes {
-          value
-        }
-      }
-    }
-  `);
-
-  [...languages.nodes, { value: '' }].forEach(async ({ value: language }) => {
-    const languageRegex = `/.*${language}.*/`;
-    [...topics.nodes, { value: '' }].forEach(async ({ value: topic }) => {
-      const topicRegex = `/.*${topic}.*/`;
+  for (let language of [...languages, '']) {
+    for (let topic of [...topics, '']) {
       const {
         data: { filteredContributions }
       } = await graphql(`
         query {
-          filteredContributions: allContribution (
-            filter: {
-                video: { 
-                    languagesFlat: {regex: "${languageRegex}"}, 
-                    topicsFlat: {regex: "${topicRegex}"}}}
-          ) {
-            nodes {
-              id
-            }
+          filteredContributions: contributionsPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
+            id
           }
         }
       `);
 
       paginate({
         createPage,
-        items: filteredContributions.nodes,
-        itemsPerPage: 51,
+        items: filteredContributions,
+        itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
         pathPrefix: `/showcase/lang/${
-          language !== '' ? toSlug(language) : 'all'
-        }/topic/${topic !== '' ? toSlug(topic) : 'all'}`,
+          !language ? 'all' : toSlug(language)
+        }/topic/${!topic ? 'all' : toSlug(topic)}`,
         component: require.resolve(`../src/templates/showcases.js`),
-        context: {
-          topic,
-          topicRegex,
-          language,
-          languageRegex
-        }
+        context: { topic, language }
       });
-    });
-  });
+    }
+  }
 };

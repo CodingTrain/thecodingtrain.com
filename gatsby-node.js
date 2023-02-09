@@ -286,18 +286,19 @@ const filterByTagsResolver = async (
   args,
   context,
   type,
-  sortField,
-  sortOrder
+  tagBasePath,
+  sortFields,
+  sortOrders
 ) => {
   const { language, topic, skip, limit } = args;
 
   const query = {};
 
-  set(query, 'sort.order', [sortOrder]);
-  set(query, 'sort.fields', [sortField]);
+  set(query, 'sort.fields', sortFields);
+  set(query, 'sort.order', sortOrders);
 
-  if (language) set(query, 'filter.languages.eq', language);
-  if (topic) set(query, 'filter.topics.eq', topic);
+  if (language) set(query, `${tagBasePath}.languages.eq`, language);
+  if (topic) set(query, `${tagBasePath}.topics.eq`, topic);
   if (skip) set(query, 'skip', skip);
   if (limit) set(query, 'limit', limit);
 
@@ -324,6 +325,57 @@ const showcaseResolver = async (source, args, context, info) => {
   return entries;
 };
 
+const videoTrackResolver = async (source, args, context, info) => {
+  // we need a pointer from a video to its parent track for the showcase page
+
+  // can we find a track that has this video in `videos`?
+  let query = {};
+  set(query, 'filter.videos.elemMatch.id.eq', source.id);
+  let track = await context.nodeModel.findOne({
+    type: 'Track',
+    query
+  });
+
+  if (track) return track;
+
+  // can we find a track that has this video in `chapters.videos`?
+  query = {};
+  set(query, 'filter.chapters.elemMatch.videos.elemMatch.id.eq', source.id);
+  track = await context.nodeModel.findOne({
+    type: 'Track',
+    query
+  });
+
+  return track;
+};
+
+const contributionSubmittedOnResolver = async (source, args, context, info) => {
+  // normalizes values to provide a stable sorting order for the showcase page
+
+  if (typeof source.submittedOn === 'string') {
+    // normalize to ISO 8601 since some dates are in `yyyy-mm-dd` format
+    return new Date(source.submittedOn).toISOString();
+  } else {
+    // the contribution doesn't have a `submittedOn` property, let's derive one for sorting purposes
+
+    // extract the sequential number from the source JSON filename
+    const [seqNumber] = source.name.match(/\d+/g);
+
+    // edge case where the sequential number is actually a timestamp yet `submittedOn` was not set
+    if (seqNumber.length > 6) return new Date(+seqNumber).toISOString();
+
+    // NOTE: not all source.video nodes are of type `Video`. They all have a `date` property though so it's OK here.
+    const { date } = await context.nodeModel.getNodeById({ id: source.video });
+    const dateObj = new Date(date);
+
+    // treat the sequential number as seconds and add them to the Coding Train video publish date
+    // ex: published date of "2017-05-18", contribution filename of "contribution16.json" -> 2017-05-18T00:00:16.000Z
+    dateObj.setSeconds(dateObj.getSeconds() + seqNumber);
+
+    return dateObj.toISOString();
+  }
+};
+
 exports.createResolvers = ({ createResolvers }) => {
   const resolvers = {
     Track: {
@@ -348,18 +400,54 @@ exports.createResolvers = ({ createResolvers }) => {
       showcase: {
         type: ['Contribution'],
         resolve: showcaseResolver
+      },
+      track: {
+        type: 'Track',
+        resolve: videoTrackResolver
+      }
+    },
+    Contribution: {
+      submittedOn: {
+        type: 'String',
+        resolve: contributionSubmittedOnResolver
       }
     },
     Query: {
       tracksPaginatedFilteredByTags: {
         type: ['Track'],
         resolve: async (source, args, context, info) =>
-          await filterByTagsResolver(args, context, 'Track', 'order', 'ASC')
+          await filterByTagsResolver(
+            args,
+            context,
+            'Track',
+            'filter',
+            ['order'],
+            ['ASC']
+          )
       },
       challengesPaginatedFilteredByTags: {
         type: ['Challenge'],
         resolve: async (source, args, context, info) =>
-          await filterByTagsResolver(args, context, 'Challenge', 'date', 'DESC')
+          await filterByTagsResolver(
+            args,
+            context,
+            'Challenge',
+            'filter',
+            ['date'],
+            ['DESC']
+          )
+      },
+      contributionsPaginatedFilteredByTags: {
+        type: ['Contribution'],
+        resolve: async (source, args, context, info) =>
+          await filterByTagsResolver(
+            args,
+            context,
+            'Contribution',
+            'filter.video',
+            ['submittedOn', 'title'],
+            ['DESC', 'ASC']
+          )
       }
     }
   };
