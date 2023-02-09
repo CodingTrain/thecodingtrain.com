@@ -8,6 +8,18 @@ import { getReadableDate } from '../../hooks';
 
 import * as css from './Card.module.css';
 
+const ExternalLink = ({ children, href, className = '' }) => {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={className}>
+      {children}
+    </a>
+  );
+};
+
 const Card = ({ className, contribution, placeholderImage }) => {
   const { title, url, submittedOn, cover, author, video } = contribution;
 
@@ -20,27 +32,23 @@ const Card = ({ className, contribution, placeholderImage }) => {
       <div className={css.titleContainer}>
         <div className={css.icon}>👁</div>
         <h3 className={css.title}>
-          <a href={url} className={css.titleLink}>
+          <ExternalLink href={url} className={css.titleLink}>
             {title}
-          </a>
+          </ExternalLink>
         </h3>
       </div>
       <div className={css.thumb}>
         <div className={css.left}>
           <div className={css.description}>
             Submitted to{' '}
-            <Link to={`${slug}`} className={css.videoLink}>
+            <Link to={slug} className={css.videoLink}>
               {video.title}
             </Link>{' '}
             by{' '}
             {author.url ? (
-              <a
-                href={author.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={css.authorLink}>
+              <ExternalLink href={author.url} className={css.authorLink}>
                 {author.name}
-              </a>
+              </ExternalLink>
             ) : (
               author.name
             )}
@@ -56,7 +64,7 @@ const Card = ({ className, contribution, placeholderImage }) => {
           </p>
         </div>
         <div className={css.right}>
-          <a href={url} target="_blank" rel="noopener noreferrer">
+          <ExternalLink href={url}>
             {cover ? (
               <Image
                 image={cover.file.childImageSharp.gatsbyImageData}
@@ -77,7 +85,7 @@ const Card = ({ className, contribution, placeholderImage }) => {
                 style={{ width: '100%', height: '100%' }}
               />
             )}
-          </a>
+          </ExternalLink>
           <p className={css.date}>
             <span>
               {submittedOn ? (
