@@ -21,7 +21,6 @@
   "dependencies": {
     "@mdx-js/react": "^2.1.5",
     "@octokit/core": "^4.1.0",
-    "btoa": "^1.2.1",
     "classnames": "^2.3.2",
     "copy-to-clipboard": "^3.3.3",
     "gatsby": "^5.2.0",
