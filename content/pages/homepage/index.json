@@ -38,8 +38,8 @@
       "14-fractal-trees-recursive",
       "150-ai-rainbows-with-runway-and-p5js",
       "70-nearest-neighbors-recommendation-engine",
-      "83-p5-sketch-chrome-extension",
-      "37-diastic-machine"
+      "81-circle-morphing",
+      "112-3d-rendering-with-rotation-and-projection"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -51,14 +51,14 @@
     "title": "Passenger showcase highlights",
     "featured": [
       "challenges/149-tic-tac-toe/showcase/contribution-1664993902.json",
-      "challenges/65-binary-tree/showcase/contribution3.json",
-      "challenges/104-linear-regression-with-tensorflowjs/showcase/contribution1.json",
-      "challenges/134-heart-curve/showcase/contribution1.json",
-      "challenges/134-heart-curve/showcase/contribution6.json",
-      "challenges/19-superellipse/showcase/contribution1.json",
-      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution2.json",
-      "challenges/133-time-tables-cardioid-visualization/showcase/contribution8.json",
-      "challenges/133-time-tables-cardioid-visualization/showcase/contribution11.json"
+      "challenges/66-javascript-countdown-timer/showcase/contribution2.json",
+      "challenges/14-fractal-trees-recursive/showcase/contribution-1673724816.json",
+      "challenges/14-fractal-trees-recursive/showcase/contribution6.json",
+      "challenges/150-ai-rainbows-with-runway-and-p5js/showcase/contribution-1660935440.json",
+      "challenges/81-circle-morphing/showcase/contribution4.json",
+      "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution-1671102871.json",
+      "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution5.json",
+      "challenges/149-tic-tac-toe/showcase/contribution1.json"
     ],
     "cta": {
       "text": "Ready to be inspired?",
