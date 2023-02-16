@@ -27,7 +27,7 @@ Data from the old website was scraped into starter templates that [reside in a G
 
 ![image](https://user-images.githubusercontent.com/28508947/172206925-5089b6ae-636a-47ba-83f7-cc75af56f164.png)
 
-3. Go to https://downgit.github.io/#/home. This website allows for a single resource from a GitHub repo to be downloaded instead of the needing to clone the entire repo.
+3. Go to https://minhaskamal.github.io/DownGit/#/home. This website allows for a single resource from a GitHub repo to be downloaded instead of the needing to clone the entire repo.
 4. Paste the URL into the text box.
 5. Click the "Download" button to download a zip file of the challenge directory to wherever your downloads go.
 
