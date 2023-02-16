@@ -32,14 +32,14 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "175-3D-cube-applesoft-basic",
-      "65-binary-tree",
-      "104-linear-regression-with-tensorflowjs",
-      "133-time-tables-cardioid-visualization",
-      "134-heart-curve",
-      "19-superellipse",
-      "132-fluid-simulation",
-      "21-mandelbrot-set-with-p5js",
-      "138-angry-birds-with-matterjs"
+      "57-mapping-earthquake-data",
+      "149-tic-tac-toe",
+      "66-javascript-countdown-timer",
+      "14-fractal-trees-recursive",
+      "150-ai-rainbows-with-runway-and-p5js",
+      "70-nearest-neighbors-recommendation-engine",
+      "83-p5-sketch-chrome-extension",
+      "37-diastic-machine"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,7 +50,7 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/138-angry-birds-with-matterjs/showcase/contribution5.json",
+      "challenges/149-tic-tac-toe/showcase/contribution-1664993902.json",
       "challenges/65-binary-tree/showcase/contribution3.json",
       "challenges/104-linear-regression-with-tensorflowjs/showcase/contribution1.json",
       "challenges/134-heart-curve/showcase/contribution1.json",
