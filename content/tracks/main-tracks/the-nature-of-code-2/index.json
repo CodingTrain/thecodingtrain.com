@@ -50,7 +50,10 @@
         "noc/3-angles/4-polar-coordinates",
         "noc/3-angles/5-harmonic-motion",
         "noc/3-angles/6-graphing-sine-wave",
-        "noc/3-angles/7-additive-waves"
+        "noc/3-angles/7-additive-waves",
+        "challenges/159-simple-pendulum",
+        "challenges/160-spring-forces"
+
       ]
     },
     {
