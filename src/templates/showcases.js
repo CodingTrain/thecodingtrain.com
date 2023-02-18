@@ -2,7 +2,9 @@ import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 
 import ItemsPage from '../components/ItemsPage';
+import ItemsPageFilters from '../components/ItemsPageFilters';
 import Card from '../components/showcase/Card';
+import Spacer from '../components/Spacer';
 
 import DotCharacter from '../images/characters/ThisDot_7.mini.svg';
 import DotCharacter2 from '../images/characters/ThisDot_3.mini.svg';
@@ -19,43 +21,49 @@ const ShowcasePage = ({ data, pageContext, location }) => {
     ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
     : null;
 
+  const variant = 'purple';
+  const itemsPath = 'showcase';
+
   return (
     <ItemsPage
       title={pageData.title}
-      selectedLanguage={language}
-      selectedTopic={topic}
       description={pageData.description}
       image={contributionsPlaceholder}
-      location={location}
-      itemsPath="showcase"
-      variant="purple"
+      itemsPath={itemsPath}
+      variant={variant}
       Character={DotCharacter}
       SeparatorCharacter={DotCharacter2}
       EndPageCharacter={RainbowCharacter}
       characterOrientation="center"
-      midSection={null}
       showPagination={contributions.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
-      humanPageNumber={pageContext.humanPageNumber}
-      filtersFilePath="/filters-contributions.json">
-      {() =>
-        contributions.length > 0 && (
-          <div className={css.challenges}>
-            {contributions.map((contribution, i) => (
-              <Fragment key={i}>
-                <Card
-                  contribution={contribution}
-                  placeholderImage={contributionsPlaceholder}
-                />
-                {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
-                {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
-              </Fragment>
-            ))}
-          </div>
-        )
-      }
+      humanPageNumber={pageContext.humanPageNumber}>
+      <ItemsPageFilters
+        selectedLanguage={language}
+        selectedTopic={topic}
+        location={location}
+        itemsPath={itemsPath}
+        filtersFilePath="/filters-contributions.json"
+        variant={variant}
+      />
+      <Spacer />
+
+      {contributions.length > 0 && (
+        <div className={css.challenges}>
+          {contributions.map((contribution, i) => (
+            <Fragment key={i}>
+              <Card
+                contribution={contribution}
+                placeholderImage={contributionsPlaceholder}
+              />
+              {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
+              {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
+            </Fragment>
+          ))}
+        </div>
+      )}
     </ItemsPage>
   );
 };
