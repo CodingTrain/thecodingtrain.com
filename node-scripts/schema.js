@@ -24,7 +24,7 @@ interface VideoInterface implements Node {
 
   # as resolver
   showcase: [Contribution]
-  track: Track
+  canonicalTrack: Track
 }
 
 type Video implements VideoInterface & Node {
@@ -48,7 +48,7 @@ type Video implements VideoInterface & Node {
 
   # as resolver
   showcase: [Contribution]
-  track: Track
+  canonicalTrack: Track
 }
 
 type Challenge implements VideoInterface & Node {
@@ -72,7 +72,7 @@ type Challenge implements VideoInterface & Node {
 
   # as resolver
   showcase: [Contribution]
-  track: Track # just to satisfy VideoInterface, will always be null
+  canonicalTrack: Track
 }
 
 type GuestTutorial implements VideoInterface & Node {
@@ -95,7 +95,7 @@ type GuestTutorial implements VideoInterface & Node {
   groupLinks: [GroupLink!]
   source: String!
 
-  track: Track # just to satisfy VideoInterface, will always be null
+  canonicalTrack: Track # just to satisfy VideoInterface, will always be null
 }
 
 type Contribution implements Node {

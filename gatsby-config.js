@@ -133,8 +133,7 @@ module.exports = {
       options: {
         name: 'showcase-page-data',
         path: './content/pages/showcase'
-      },
-      __key: 'showcase-page-data'
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',

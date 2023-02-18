@@ -23,8 +23,8 @@ const ExternalLink = ({ children, href, className = '' }) => {
 const Card = ({ className, contribution, placeholderImage }) => {
   const { title, url, submittedOn, cover, author, video } = contribution;
 
-  const slug = video.track
-    ? `/tracks/${video.track.slug}/${video.slug}`
+  const slug = video.canonicalTrack
+    ? `/tracks/${video.canonicalTrack.slug}/${video.slug}`
     : `/challenges/${video.slug}`;
 
   return (

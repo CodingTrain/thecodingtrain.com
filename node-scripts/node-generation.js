@@ -97,6 +97,11 @@ exports.createVideoRelatedNode = (
     const languages = data.languages ?? [];
     const topics = data.topics ?? [];
 
+    // note: there's also a resolver for this property if no track slug is set in source JSON
+    const canonicalTrack = data.canonicalTrack
+      ? createNodeId(`--tracks/${data.canonicalTrack}`)
+      : undefined;
+
     const newNode = Object.assign({}, data, {
       id: createNodeId(`--videos/${slugPrefix}${slug}`),
       parent: node.id,
@@ -122,6 +127,7 @@ exports.createVideoRelatedNode = (
       ),
       cover: createNodeId(`cover-image/${slugPrefix}${slug}`),
       source: `${type}s`,
+      canonicalTrack,
       internal: {
         type: schemaType,
         contentDigest: createContentDigest(data)

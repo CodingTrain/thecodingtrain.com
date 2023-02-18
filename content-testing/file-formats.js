@@ -8,6 +8,7 @@ const video = {
       videoNumber: { type: 'string' },
       videoId: { isRequired: true, type: 'string' },
       nebulaSlug: { isRequired: false, type: 'string' },
+      canonicalTrack: { type: 'string' },
       date: {
         isRequired: true,
         type: 'string'

@@ -2,6 +2,7 @@
   "title": "Node",
   "description": "In this video, I discuss how I use node.js and global packages (to generate p5 sketches, run a web server) as part of my workflow.",
   "videoId": "FjWbUK2HdCo",
+  "canonicalTrack": "2018-workflow",
   "date": "2018-09-24",
   "languages": ["node.js", "JavaScript"],
   "topics": ["npm", "workflow"],

@@ -325,28 +325,30 @@ const showcaseResolver = async (source, args, context, info) => {
   return entries;
 };
 
-const videoTrackResolver = async (source, args, context, info) => {
-  // we need a pointer from a video to its parent track for the showcase page
+const videoCanonicalTrackResolver = async (source, args, context, info) => {
+  // we need a pointer from a video to its canonical track for the showcase page
 
-  // can we find a track that has this video in `videos`?
-  let query = {};
-  set(query, 'filter.videos.elemMatch.id.eq', source.id);
-  let track = await context.nodeModel.findOne({
-    type: 'Track',
-    query
-  });
+  // challenge videos can't have a canonical track (their challenge page is canon)
+  if (source.source === 'Challenges') return;
 
-  if (track) return track;
+  // a canonical track might've been explicitly set in the Gatsby node creation phase
+  if (source.canonicalTrack) {
+    return await context.nodeModel.getNodeById({ id: source.canonicalTrack });
+  }
 
-  // can we find a track that has this video in `chapters.videos`?
-  query = {};
-  set(query, 'filter.chapters.elemMatch.videos.elemMatch.id.eq', source.id);
-  track = await context.nodeModel.findOne({
-    type: 'Track',
-    query
-  });
+  // find tracks referencing this video
+  const queries = [
+    set({}, 'filter.videos.elemMatch.id.eq', source.id),
+    set({}, 'filter.chapters.elemMatch.videos.elemMatch.id.eq', source.id)
+  ];
 
-  return track;
+  for (const query of queries) {
+    const track = await context.nodeModel.findOne({ type: 'Track', query });
+    if (track) return track;
+  }
+
+  // it shouldn't be possible to get here - non-challenge videos should have at least one track referencing them
+  return;
 };
 
 const contributionSubmittedOnResolver = async (source, args, context, info) => {
@@ -401,9 +403,9 @@ exports.createResolvers = ({ createResolvers }) => {
         type: ['Contribution'],
         resolve: showcaseResolver
       },
-      track: {
+      canonicalTrack: {
         type: 'Track',
-        resolve: videoTrackResolver
+        resolve: videoCanonicalTrackResolver
       }
     },
     Contribution: {

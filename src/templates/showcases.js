@@ -85,7 +85,7 @@ export const query = graphql`
         title
         date
         slug
-        track {
+        canonicalTrack {
           slug
         }
       }
