@@ -28,10 +28,7 @@ export const passiveEventArg = supportsPassiveEvents
   : false;
 
 export const stringValueOrAll = (str) => {
-  if (typeof str === 'string' && str !== '') {
-    return str;
-  }
-  return 'all';
+  return typeof str === 'string' && str !== '' ? str : 'all';
 };
 
 /**
@@ -44,10 +41,16 @@ export const toSlug = (path) =>
 /**
   Makes a filtered path
 **/
-export const filteredPath = (resource, language, topic) => {
-  return `/${resource}/lang/${toSlug(
-    stringValueOrAll(language)
-  )}/topic/${toSlug(stringValueOrAll(topic))}`;
+export const filteredPath = (resource, filters) => {
+  let path = `/${resource}`;
+
+  const sortedKeys = Object.keys(filters).sort();
+  for (const k of sortedKeys) {
+    const v = toSlug(stringValueOrAll(filters[k]));
+    path += `/${k}/${v}`;
+  }
+
+  return path;
 };
 
 /**

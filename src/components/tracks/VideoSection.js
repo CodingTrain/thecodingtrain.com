@@ -80,14 +80,18 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             className={css.tags}
             heading="Languages"
             items={languages}
-            linkTo={(value) => filteredPath('tracks', value, 'all')}
+            linkTo={(value) =>
+              filteredPath('tracks', { lang: value, topic: 'all' })
+            }
             headerType="h3"
           />
           <Tags
             className={css.tags}
             heading="Topics"
             items={topics}
-            linkTo={(value) => filteredPath('tracks', 'all', value)}
+            linkTo={(value) =>
+              filteredPath('tracks', { lang: 'all', topic: value })
+            }
             headerType="h3"
           />
 

@@ -45,37 +45,53 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
       humanPageNumber={pageContext.humanPageNumber}>
-      <RecentChallenge
-        featuredChallengeTitle={pageData.featuredText}
-        challenge={pageData.featuredChallenge ?? recentChallenge}
-        placeholderImage={challengesPlaceholder}
-      />
-      <Spacer />
+      <>
+        <RecentChallenge
+          featuredChallengeTitle={pageData.featuredText}
+          challenge={pageData.featuredChallenge ?? recentChallenge}
+          placeholderImage={challengesPlaceholder}
+        />
+        <Spacer />
 
-      <ItemsPageFilters
-        selectedLanguage={language}
-        selectedTopic={topic}
-        location={location}
-        itemsPath={itemsPath}
-        filtersFilePath="/filters-challenges.json"
-        variant={variant}
-      />
-      <Spacer />
+        <ItemsPageFilters
+          filters={[
+            {
+              name: 'Language',
+              icon: '⌥',
+              jsonKey: 'languages',
+              filterKey: 'lang',
+              selectedOption: language
+            },
+            {
+              name: 'Topic',
+              icon: '☆',
+              jsonKey: 'topics',
+              filterKey: 'topic',
+              selectedOption: topic
+            }
+          ]}
+          filtersFilePath="/filters-challenges.json"
+          location={location}
+          itemsPath={itemsPath}
+          variant={variant}
+        />
+        <Spacer />
 
-      {challenges.length > 0 && (
-        <div className={css.challenges}>
-          {challenges.map((challenge, i) => (
-            <Fragment key={i}>
-              <Card
-                challenge={challenge}
-                placeholderImage={challengesPlaceholder}
-              />
-              {i % 2 !== 1 && <div className={css.horizontalSpacer}></div>}
-              {i % 2 !== 0 && <div className={css.verticalSpacer}></div>}
-            </Fragment>
-          ))}
-        </div>
-      )}
+        {challenges.length > 0 && (
+          <div className={css.challenges}>
+            {challenges.map((challenge, i) => (
+              <Fragment key={i}>
+                <Card
+                  challenge={challenge}
+                  placeholderImage={challengesPlaceholder}
+                />
+                {i % 2 !== 1 && <div className={css.horizontalSpacer}></div>}
+                {i % 2 !== 0 && <div className={css.verticalSpacer}></div>}
+              </Fragment>
+            ))}
+          </div>
+        )}
+      </>
     </ItemsPage>
   );
 };

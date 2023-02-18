@@ -49,33 +49,49 @@ const TracksPage = ({ data, pageContext, location }) => {
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
       humanPageNumber={pageContext.humanPageNumber}>
-      <ItemsPageFilters
-        selectedLanguage={language}
-        selectedTopic={topic}
-        location={location}
-        itemsPath={itemsPath}
-        filtersFilePath="/filters-tracks.json"
-        variant={variant}
-      />
-      <Spacer />
-
-      {tracks.map((track) => (
-        <Fragment key={track.slug}>
-          <TrackCard
-            {...track}
-            image={
-              track.cover?.file.childImageSharp.gatsbyImageData ??
-              (track.type === 'main'
-                ? placeholderMainTrackImage
-                : placeholderSideTrackImage)
+      <>
+        <ItemsPageFilters
+          filters={[
+            {
+              name: 'Language',
+              icon: '⌥',
+              jsonKey: 'languages',
+              filterKey: 'lang',
+              selectedOption: language
+            },
+            {
+              name: 'Topic',
+              icon: '☆',
+              jsonKey: 'topics',
+              filterKey: 'topic',
+              selectedOption: topic
             }
-            path={`/tracks/${track.slug}`}
-            variant={variant}
-            filters={cardFilters}
-          />
-          <Spacer />
-        </Fragment>
-      ))}
+          ]}
+          filtersFilePath="/filters-tracks.json"
+          location={location}
+          itemsPath={itemsPath}
+          variant={variant}
+        />
+        <Spacer />
+
+        {tracks.map((track) => (
+          <Fragment key={track.slug}>
+            <TrackCard
+              {...track}
+              image={
+                track.cover?.file.childImageSharp.gatsbyImageData ??
+                (track.type === 'main'
+                  ? placeholderMainTrackImage
+                  : placeholderSideTrackImage)
+              }
+              path={`/tracks/${track.slug}`}
+              variant={variant}
+              filters={cardFilters}
+            />
+            <Spacer />
+          </Fragment>
+        ))}
+      </>
     </ItemsPage>
   );
 };

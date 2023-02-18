@@ -39,13 +39,17 @@ const Header = ({ track }) => {
             heading="Languages"
             items={languages}
             singleLine={false}
-            linkTo={(value) => filteredPath('tracks', value, 'all')}
+            linkTo={(value) =>
+              filteredPath('tracks', { lang: value, topic: 'all' })
+            }
           />
           <Tags
             heading="Topics"
             items={topics}
             singleLine={false}
-            linkTo={(value) => filteredPath('tracks', 'all', value)}
+            linkTo={(value) =>
+              filteredPath('tracks', { lang: 'all', topic: value })
+            }
           />
         </div>
       </div>

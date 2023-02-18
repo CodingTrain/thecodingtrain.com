@@ -40,30 +40,46 @@ const ShowcasePage = ({ data, pageContext, location }) => {
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
       humanPageNumber={pageContext.humanPageNumber}>
-      <ItemsPageFilters
-        selectedLanguage={language}
-        selectedTopic={topic}
-        location={location}
-        itemsPath={itemsPath}
-        filtersFilePath="/filters-contributions.json"
-        variant={variant}
-      />
-      <Spacer />
+      <>
+        <ItemsPageFilters
+          filters={[
+            {
+              name: 'Language',
+              icon: '⌥',
+              jsonKey: 'languages',
+              filterKey: 'lang',
+              selectedOption: language
+            },
+            {
+              name: 'Topic',
+              icon: '☆',
+              jsonKey: 'topics',
+              filterKey: 'topic',
+              selectedOption: topic
+            }
+          ]}
+          filtersFilePath="/filters-contributions.json"
+          location={location}
+          itemsPath={itemsPath}
+          variant={variant}
+        />
+        <Spacer />
 
-      {contributions.length > 0 && (
-        <div className={css.challenges}>
-          {contributions.map((contribution, i) => (
-            <Fragment key={i}>
-              <Card
-                contribution={contribution}
-                placeholderImage={contributionsPlaceholder}
-              />
-              {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
-              {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
-            </Fragment>
-          ))}
-        </div>
-      )}
+        {contributions.length > 0 && (
+          <div className={css.challenges}>
+            {contributions.map((contribution, i) => (
+              <Fragment key={i}>
+                <Card
+                  contribution={contribution}
+                  placeholderImage={contributionsPlaceholder}
+                />
+                {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
+                {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
+              </Fragment>
+            ))}
+          </div>
+        )}
+      </>
     </ItemsPage>
   );
 };
