@@ -44,7 +44,8 @@ const ShowcasePage = ({ data, pageContext, location }) => {
         <ItemsPageFilters
           filters={[
             {
-              name: 'Author',
+              title: 'Filter by Author',
+              placeholder: 'Pick an author to filter',
               icon: '☆',
               jsonKey: 'authors',
               filterKey: 'author',

@@ -36,23 +36,25 @@ const ItemsPageFilters = ({
 
   return (
     <div className={css.filters} ref={filtersRef}>
-      {filters.map(({ name, icon, jsonKey, filterKey, selectedOption }) => (
-        <Select
-          key={name}
-          title={`Filter by ${name}`}
-          placeholder={`Pick a ${name.toLowerCase()} to filter`}
-          icon={icon}
-          className={css.filter}
-          options={options[jsonKey]}
-          selected={selectedOption}
-          onChange={(value) => {
-            filterState[filterKey] = value;
-            navigate(filteredPath(itemsPath, filterState));
-          }}
-          variant={variant}
-          instanceId={`${name}-filter`}
-        />
-      ))}
+      {filters.map(
+        ({ title, placeholder, icon, jsonKey, filterKey, selectedOption }) => (
+          <Select
+            key={filterKey}
+            title={title}
+            placeholder={placeholder}
+            icon={icon}
+            className={css.filter}
+            options={options[jsonKey]}
+            selected={selectedOption}
+            onChange={(value) => {
+              filterState[filterKey] = value;
+              navigate(filteredPath(itemsPath, filterState));
+            }}
+            variant={variant}
+            instanceId={`${filterKey}-filter`}
+          />
+        )
+      )}
     </div>
   );
 };

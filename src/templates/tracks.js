@@ -53,14 +53,16 @@ const TracksPage = ({ data, pageContext, location }) => {
         <ItemsPageFilters
           filters={[
             {
-              name: 'Language',
+              title: 'Filter by Language',
+              placeholder: 'Pick a language to filter',
               icon: '⌥',
               jsonKey: 'languages',
               filterKey: 'lang',
               selectedOption: language
             },
             {
-              name: 'Topic',
+              title: 'Filter by Topic',
+              placeholder: 'Pick a topic to filter',
               icon: '☆',
               jsonKey: 'topics',
               filterKey: 'topic',
