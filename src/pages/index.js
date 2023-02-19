@@ -143,7 +143,7 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
 };
 
 const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
-  const { title: sectionTitle, cta, featured } = passengerShowcase;
+  const { title: sectionTitle, featuredCta, featured } = passengerShowcase;
   // First render : empty placeholder
   const [featuredShowcases, setFeaturedShowcases] = useState([{}, {}, {}]);
   useEffect(() => {
@@ -158,14 +158,14 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
           {sectionTitle}
         </Heading2>
       </div>
-      <p className={css.showcaseBanner}>{cta.text}</p>
+      <p className={css.showcaseBanner}>{featuredCta.text}</p>
       <Spacer className={css.verticalSpacer} pattern />
       {featuredShowcases.map((showcase, index) => (
         <React.Fragment key={index}>
           <PassengerShowcaseCard
             showcase={showcase}
             placeholderImage={placeholderImage}
-            cta={cta}
+            cta={featuredCta}
           />
           {index < 2 && <Spacer className={css.verticalSpacer} pattern />}
         </React.Fragment>
@@ -391,6 +391,13 @@ const IndexPage = ({ data }) => {
             ))}
           </div>
         </section>
+
+        <Spacer pattern size="x2" />
+
+        <PassengerShowcaseSection
+          passengerShowcase={content.passengerShowcase}
+          placeholderImage={isFirstRender ? null : challengesPlaceholder}
+        />
 
         <Spacer pattern size="x2" />
 
