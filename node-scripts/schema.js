@@ -373,6 +373,6 @@ type SupportSection implements Node {
 type Query {
   tracksPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track]
   challengesPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge]
-  contributionsPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Contribution]
+  contributionsPaginatedFilteredByTags(author: String, skip: Int, limit: Int): [Contribution]
 }
 `;

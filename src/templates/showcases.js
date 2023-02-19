@@ -13,7 +13,7 @@ import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 import * as css from './showcases.module.css';
 
 const ShowcasePage = ({ data, pageContext, location }) => {
-  const { language, topic } = pageContext;
+  const { author } = pageContext;
   const pageData = data.pageData.nodes[0];
   const contributions = data.contributions;
 
@@ -44,18 +44,11 @@ const ShowcasePage = ({ data, pageContext, location }) => {
         <ItemsPageFilters
           filters={[
             {
-              name: 'Language',
-              icon: '⌥',
-              jsonKey: 'languages',
-              filterKey: 'lang',
-              selectedOption: language
-            },
-            {
-              name: 'Topic',
+              name: 'Author',
               icon: '☆',
-              jsonKey: 'topics',
-              filterKey: 'topic',
-              selectedOption: topic
+              jsonKey: 'authors',
+              filterKey: 'author',
+              selectedOption: author
             }
           ]}
           filtersFilePath="/filters-contributions.json"
@@ -85,7 +78,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query ($skip: Int, $limit: Int, $topic: String!, $language: String!) {
+  query ($skip: Int, $limit: Int, $author: String!) {
     pageData: allShowcasePageInfo {
       nodes {
         title
@@ -93,8 +86,7 @@ export const query = graphql`
       }
     }
     contributions: contributionsPaginatedFilteredByTags(
-      language: $language
-      topic: $topic
+      author: $author
       skip: $skip
       limit: $limit
     ) {

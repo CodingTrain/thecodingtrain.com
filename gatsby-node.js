@@ -310,6 +310,26 @@ const filterByTagsResolver = async (
   return entries;
 };
 
+const filterByAuthorResolver = async (args, context) => {
+  const { author, skip, limit } = args;
+
+  const query = {};
+
+  set(query, 'sort.fields', ['submittedOn', 'title']);
+  set(query, 'sort.order', ['DESC', 'ASC']);
+
+  if (author) set(query, `filter.author.name.eq`, author);
+  if (skip) set(query, 'skip', skip);
+  if (limit) set(query, 'limit', limit);
+
+  const { entries } = await context.nodeModel.findAll({
+    type: 'Contribution',
+    query
+  });
+
+  return entries;
+};
+
 const showcaseResolver = async (source, args, context, info) => {
   const query = {};
 
@@ -442,14 +462,7 @@ exports.createResolvers = ({ createResolvers }) => {
       contributionsPaginatedFilteredByTags: {
         type: ['Contribution'],
         resolve: async (source, args, context, info) =>
-          await filterByTagsResolver(
-            args,
-            context,
-            'Contribution',
-            'filter.video',
-            ['submittedOn', 'title'],
-            ['DESC', 'ASC']
-          )
+          await filterByAuthorResolver(args, context)
       }
     }
   };

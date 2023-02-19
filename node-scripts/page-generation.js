@@ -9,7 +9,12 @@ const SHOWCASE_ITEMS_PER_PAGE = 51; // showcase has 3 cols
 const extractTags = (nodes, pluckPath) => {
   const set = new Set();
   nodes.forEach((node) => {
-    get(node, pluckPath).forEach((val) => set.add(val));
+    const val = get(node, pluckPath);
+    if (typeof val === 'string') {
+      set.add(val);
+    } else {
+      val.forEach((v) => set.add(v));
+    }
   });
 
   return [...set].sort((a, b) => {
@@ -316,23 +321,19 @@ exports.createShowcasePages = async (graphql, createPage) => {
       contributions: allContribution {
         nodes {
           id
-          title
-          video {
-            slug
-            topics
-            languages
+          author {
+            name
           }
         }
       }
     }
   `);
 
-  const languages = extractTags(contributions.nodes, 'video.languages');
-  const topics = extractTags(contributions.nodes, 'video.topics');
+  const authors = extractTags(contributions.nodes, 'author.name');
 
   await writeFile(
     './public/filters-contributions.json',
-    JSON.stringify({ languages, topics })
+    JSON.stringify({ authors })
   );
 
   paginate({
@@ -342,33 +343,28 @@ exports.createShowcasePages = async (graphql, createPage) => {
     pathPrefix: '/showcase',
     component: require.resolve(`../src/templates/showcases.js`),
     context: {
-      topic: '',
-      language: ''
+      author: ''
     }
   });
 
-  for (let language of [...languages, '']) {
-    for (let topic of [...topics, '']) {
-      const {
-        data: { filteredContributions }
-      } = await graphql(`
+  for (let author of [...authors, '']) {
+    const {
+      data: { filteredContributions }
+    } = await graphql(`
         query {
-          filteredContributions: contributionsPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
+          filteredContributions: contributionsPaginatedFilteredByTags(author: "${author}")  {
             id
           }
         }
       `);
 
-      paginate({
-        createPage,
-        items: filteredContributions,
-        itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
-        pathPrefix: `/showcase/lang/${
-          !language ? 'all' : toSlug(language)
-        }/topic/${!topic ? 'all' : toSlug(topic)}`,
-        component: require.resolve(`../src/templates/showcases.js`),
-        context: { topic, language }
-      });
-    }
+    paginate({
+      createPage,
+      items: filteredContributions,
+      itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
+      pathPrefix: `/showcase/author/${!author ? 'all' : toSlug(author)}`,
+      component: require.resolve(`../src/templates/showcases.js`),
+      context: { author }
+    });
   }
 };
