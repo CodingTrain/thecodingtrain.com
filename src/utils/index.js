@@ -44,7 +44,7 @@ export const toSlug = (path) =>
 export const filteredPath = (resource, filters) => {
   let path = `/${resource}`;
 
-  const sortedKeys = Object.keys(filters).sort();
+  const sortedKeys = Object.keys(filters).sort((a, b) => a.localeCompare(b));
   for (const k of sortedKeys) {
     const v = toSlug(stringValueOrAll(filters[k]));
     path += `/${k}/${v}`;
