@@ -153,3 +153,39 @@
     border-color: var(--cyan);
   }
 }
+
+.purple {
+  &.root {
+  }
+
+  & .icon {
+    color: var(--purple);
+  }
+
+  & .select {
+    color: var(--gray-dark);
+    background-color: var(--purple-light);
+  }
+
+  & .select :global(.rs__option--is-focused),
+  & .select :global(.rs__control) {
+    background-color: var(--purple-light);
+  }
+
+  & .select :global(.rs__menu-list) {
+    padding-top: 0;
+  }
+
+  & .select :global(.rs__option--is-selected) {
+    background-color: var(--purple);
+  }
+
+  & .icon,
+  & .spacer,
+  & .title,
+  & .item,
+  & .seeMore,
+  & .itemSpacer {
+    border-color: var(--purple);
+  }
+}

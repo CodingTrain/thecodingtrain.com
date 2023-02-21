@@ -131,6 +131,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'showcase-page-data',
+        path: './content/pages/showcase'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'faqs',
         path: './content/pages/faqs'
       }

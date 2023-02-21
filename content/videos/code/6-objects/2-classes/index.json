@@ -3,6 +3,7 @@
   "description": "This video introduces Object-Oriented Programming in JavaScript with ES6 classes and the p5.js library.",
   "videoNumber": "6.2",
   "videoId": "T-HGdc8L-7w",
+  "canonicalTrack": "code-programming-with-p5-js",
   "date": "2017-10-06",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "OOP", "objects"],

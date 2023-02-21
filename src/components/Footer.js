@@ -61,7 +61,7 @@ const Footer = () => {
         className={cn(css.box)}
         aria-labelledby="passenger-showcase-navigation">
         <h3 id="passenger-showcase-navigation">
-          <Link to="/#passenger-showcase">Passenger Showcase!</Link>
+          <Link to="/showcase">Passenger Showcase!</Link>
         </h3>
         <div className={css.action}>
           <p>
@@ -168,7 +168,7 @@ const Footer = () => {
         <ul>
           <li className={css.title}>Passengers</li>
           <li>
-            <Link to="/#passenger-showcase">Showcase</Link>
+            <Link to="/showcase">Showcase</Link>
           </li>
           <li>
             <a href="https://thecodingtrain.com/discord">Discord</a>

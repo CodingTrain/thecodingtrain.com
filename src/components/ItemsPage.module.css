@@ -52,14 +52,6 @@
   }
 }
 
-.filters {
-  display: flex;
-}
-
-.filter {
-  flex-basis: 50%;
-}
-
 .noItemsMessage {
   position: relative;
   display: flex;
@@ -145,14 +137,6 @@
 }
 
 @media (--medium) {
-  .filters {
-    flex-wrap: wrap;
-  }
-
-  .filter {
-    flex-basis: 100%;
-  }
-
   svg.semiColon {
     right: 0;
     height: var(--baseline-3x);

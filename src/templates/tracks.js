@@ -2,6 +2,7 @@ import { graphql } from 'gatsby';
 import React, { Fragment } from 'react';
 
 import ItemsPage from '../components/ItemsPage';
+import ItemsPageFilters from '../components/ItemsPageFilters';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
 
@@ -21,16 +22,24 @@ const TracksPage = ({ data, pageContext, location }) => {
   const placeholderSideTrackImage =
     data.placeholderSideTrackImage.childImageSharp.gatsbyImageData;
 
+  const variant = 'red';
+  const itemsPath = 'tracks';
+
+  const unfilteredValues = ['all', ''];
+  const cardFilters = {
+    isFiltered:
+      !unfilteredValues.includes(language) || !unfilteredValues.includes(topic),
+    language,
+    topic
+  };
+
   return (
     <ItemsPage
       title={pageData.title}
-      selectedLanguage={language}
-      selectedTopic={topic}
       description={pageData.description}
       image={placeholderMainTrackImage}
-      location={location}
-      itemsPath="tracks"
-      variant="red"
+      itemsPath={itemsPath}
+      variant={variant}
       Character={SquareCharacter}
       SeparatorCharacter={SquareCharacter2}
       EndPageCharacter={AsteriskCharacter}
@@ -39,10 +48,35 @@ const TracksPage = ({ data, pageContext, location }) => {
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}
-      humanPageNumber={pageContext.humanPageNumber}
-      filtersFilePath="/filters-tracks.json">
-      {(filters) =>
-        tracks.map((track) => (
+      humanPageNumber={pageContext.humanPageNumber}>
+      <>
+        <ItemsPageFilters
+          filters={[
+            {
+              title: 'Filter by Language',
+              placeholder: 'Pick a language to filter',
+              icon: '⌥',
+              jsonKey: 'languages',
+              filterKey: 'lang',
+              selectedOption: language
+            },
+            {
+              title: 'Filter by Topic',
+              placeholder: 'Pick a topic to filter',
+              icon: '☆',
+              jsonKey: 'topics',
+              filterKey: 'topic',
+              selectedOption: topic
+            }
+          ]}
+          filtersFilePath="/filters-tracks.json"
+          location={location}
+          itemsPath={itemsPath}
+          variant={variant}
+        />
+        <Spacer />
+
+        {tracks.map((track) => (
           <Fragment key={track.slug}>
             <TrackCard
               {...track}
@@ -53,13 +87,13 @@ const TracksPage = ({ data, pageContext, location }) => {
                   : placeholderSideTrackImage)
               }
               path={`/tracks/${track.slug}`}
-              variant="red"
-              filters={filters}
+              variant={variant}
+              filters={cardFilters}
             />
             <Spacer />
           </Fragment>
-        ))
-      }
+        ))}
+      </>
     </ItemsPage>
   );
 };

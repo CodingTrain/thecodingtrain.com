@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "O5wjXoFrau4",
+  "canonicalTrack": "the-nature-of-code-2",
   "canContribute": true,
   "timestamps": [],
   "codeExamples": [
