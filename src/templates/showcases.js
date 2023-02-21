@@ -60,7 +60,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
         <Spacer />
 
         {contributions.length > 0 && (
-          <div className={css.challenges}>
+          <div className={css.contributions}>
             {contributions.map((contribution, i) => (
               <Fragment key={i}>
                 <Card
@@ -69,6 +69,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
                 />
                 {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
                 {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
+                {(i % 3 === 1 && i === contributions.length - 1 ? <div className={css.horizontalSpacerLast}></div> : null)}
               </Fragment>
             ))}
           </div>

@@ -8,6 +8,8 @@ import { getReadableDate } from '../../hooks';
 
 import * as css from './Card.module.css';
 
+import PlayButton from '../../images/playbutton.svg';
+
 const ExternalLink = ({ children, href, className = '' }) => {
   return (
     <a
@@ -28,9 +30,8 @@ const Card = ({ className, contribution, placeholderImage }) => {
     : `/challenges/${video.slug}`;
 
   return (
-    <article className={cn(css.challenge, className)}>
+    <article className={cn(css.contribution, className)}>
       <div className={css.titleContainer}>
-        <div className={css.icon}>👁</div>
         <h3 className={css.title}>
           <ExternalLink href={url} className={css.titleLink}>
             {title}
@@ -38,32 +39,6 @@ const Card = ({ className, contribution, placeholderImage }) => {
         </h3>
       </div>
       <div className={css.thumb}>
-        <div className={css.left}>
-          <div className={css.description}>
-            Submitted to{' '}
-            <Link to={slug} className={css.videoLink}>
-              {video.title}
-            </Link>{' '}
-            by{' '}
-            {author.url ? (
-              <ExternalLink href={author.url} className={css.authorLink}>
-                {author.name}
-              </ExternalLink>
-            ) : (
-              author.name
-            )}
-          </div>
-          <p className={css.date}>
-            <span>
-              {submittedOn && (
-                <time dateTime={submittedOn}>
-                  {getReadableDate(submittedOn)}
-                </time>
-              )}
-            </span>
-          </p>
-        </div>
-        <div className={css.right}>
           <ExternalLink href={url}>
             {cover ? (
               <Image
@@ -82,20 +57,27 @@ const Card = ({ className, contribution, placeholderImage }) => {
             ) : (
               <div
                 aria-label={title}
+                className={css.image}
                 style={{ width: '100%', height: '100%' }}
               />
             )}
           </ExternalLink>
-          <p className={css.date}>
-            <span>
-              {submittedOn && (
-                <time dateTime={submittedOn}>
-                  {getReadableDate(submittedOn)}
-                </time>
-              )}
-            </span>
+      </div>
+      <div className={css.info}>
+          <p>
+            by{' '}
+            {author.url ? (
+              <ExternalLink href={author.url} className={css.authorLink}>
+                {author.name}
+              </ExternalLink>
+            ) : (
+              author.name
+            )}{' '}
+            From{' '}
+            <Link to={slug} className={css.videoLink}>
+              {video.title}
+            </Link>{' '}
           </p>
-        </div>
       </div>
     </article>
   );
