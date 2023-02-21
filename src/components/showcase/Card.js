@@ -4,11 +4,7 @@ import cn from 'classnames';
 
 import Image from '../Image';
 
-import { getReadableDate } from '../../hooks';
-
 import * as css from './Card.module.css';
-
-import PlayButton from '../../images/playbutton.svg';
 
 const ExternalLink = ({ children, href, className = '' }) => {
   return (
@@ -23,7 +19,7 @@ const ExternalLink = ({ children, href, className = '' }) => {
 };
 
 const Card = ({ className, contribution, placeholderImage }) => {
-  const { title, url, submittedOn, cover, author, video } = contribution;
+  const { title, url, cover, author, video } = contribution;
 
   const slug = video.canonicalTrack
     ? `/tracks/${video.canonicalTrack.slug}/${video.slug}`
@@ -39,45 +35,45 @@ const Card = ({ className, contribution, placeholderImage }) => {
         </h3>
       </div>
       <div className={css.thumb}>
-          <ExternalLink href={url}>
-            {cover ? (
-              <Image
-                image={cover.file.childImageSharp.gatsbyImageData}
-                pictureClassName={css.picture}
-                imgClassName={css.image}
-                alt={title}
-              />
-            ) : placeholderImage ? (
-              <Image
-                image={placeholderImage}
-                pictureClassName={css.picture}
-                imgClassName={css.image}
-                alt={title}
-              />
-            ) : (
-              <div
-                aria-label={title}
-                className={css.image}
-                style={{ width: '100%', height: '100%' }}
-              />
-            )}
-          </ExternalLink>
+        <ExternalLink href={url}>
+          {cover ? (
+            <Image
+              image={cover.file.childImageSharp.gatsbyImageData}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+              alt={title}
+            />
+          ) : placeholderImage ? (
+            <Image
+              image={placeholderImage}
+              pictureClassName={css.picture}
+              imgClassName={css.image}
+              alt={title}
+            />
+          ) : (
+            <div
+              aria-label={title}
+              className={css.image}
+              style={{ width: '100%', height: '100%' }}
+            />
+          )}
+        </ExternalLink>
       </div>
       <div className={css.info}>
-          <p>
-            by{' '}
-            {author.url ? (
-              <ExternalLink href={author.url} className={css.authorLink}>
-                {author.name}
-              </ExternalLink>
-            ) : (
-              author.name
-            )}{' '}
-            From{' '}
-            <Link to={slug} className={css.videoLink}>
-              {video.title}
-            </Link>{' '}
-          </p>
+        <p>
+          by{' '}
+          {author.url ? (
+            <ExternalLink href={author.url} className={css.authorLink}>
+              {author.name}
+            </ExternalLink>
+          ) : (
+            author.name
+          )}{' '}
+          From{' '}
+          <Link to={slug} className={css.videoLink}>
+            {video.title}
+          </Link>{' '}
+        </p>
       </div>
     </article>
   );
