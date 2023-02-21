@@ -357,6 +357,8 @@ exports.createShowcasePages = async (graphql, createPage) => {
     }
   });
 
+  const deferredCreatePage = makeDeferredCreatePage(createPage);
+
   for (let author of [...authors, '']) {
     const {
       data: { filteredContributions }
@@ -369,7 +371,7 @@ exports.createShowcasePages = async (graphql, createPage) => {
       `);
 
     paginate({
-      createPage,
+      createPage: deferredCreatePage,
       items: filteredContributions,
       itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
       pathPrefix: `/showcase/author/${!author ? 'all' : toSlug(author)}`,
