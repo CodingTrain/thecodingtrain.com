@@ -6,6 +6,12 @@ const get = require('lodash/get');
 const ITEMS_PER_PAGE = 50; // tracks and challenges
 const SHOWCASE_ITEMS_PER_PAGE = 51; // showcase has 3 cols
 
+const proxyCreatePage = (createPage) => (opts) => {
+  // allows us to use DSG with "gatsby-awesome-pagination" since it doesn't pass the `defer` option properly
+  opts.defer = true;
+  createPage(opts);
+};
+
 const extractTags = (nodes, pluckPath) => {
   const set = new Set();
   nodes.forEach((node) => {
@@ -92,6 +98,8 @@ exports.createChallengesPages = async (graphql, createPage) => {
     }
   });
 
+  const cp = proxyCreatePage(createPage);
+
   for (let language of [...languages, '']) {
     for (let topic of [...topics, '']) {
       const {
@@ -105,7 +113,7 @@ exports.createChallengesPages = async (graphql, createPage) => {
       `);
 
       paginate({
-        createPage,
+        createPage: cp,
         items: filteredChallenges,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/challenges/lang/${
@@ -159,6 +167,8 @@ exports.createTracksPages = async (graphql, createPage) => {
     }
   });
 
+  const cp = proxyCreatePage(createPage);
+
   for (let language of [...languages, '']) {
     for (let topic of [...topics, '']) {
       const {
@@ -172,7 +182,7 @@ exports.createTracksPages = async (graphql, createPage) => {
       `);
 
       paginate({
-        createPage,
+        createPage: cp,
         items: filteredTracks,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/tracks/lang/${
