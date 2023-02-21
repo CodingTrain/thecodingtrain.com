@@ -32,14 +32,14 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "175-3D-cube-applesoft-basic",
-      "65-binary-tree",
-      "104-linear-regression-with-tensorflowjs",
-      "133-time-tables-cardioid-visualization",
-      "134-heart-curve",
-      "19-superellipse",
-      "132-fluid-simulation",
-      "21-mandelbrot-set-with-p5js",
-      "138-angry-birds-with-matterjs"
+      "57-mapping-earthquake-data",
+      "149-tic-tac-toe",
+      "66-javascript-countdown-timer",
+      "14-fractal-trees-recursive",
+      "26-3d-supershapes",
+      "70-nearest-neighbors-recommendation-engine",
+      "81-circle-morphing",
+      "112-3d-rendering-with-rotation-and-projection"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,15 +50,15 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/138-angry-birds-with-matterjs/showcase/contribution5.json",
-      "challenges/65-binary-tree/showcase/contribution3.json",
-      "challenges/104-linear-regression-with-tensorflowjs/showcase/contribution1.json",
-      "challenges/134-heart-curve/showcase/contribution1.json",
-      "challenges/134-heart-curve/showcase/contribution6.json",
-      "challenges/19-superellipse/showcase/contribution1.json",
-      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution2.json",
-      "challenges/133-time-tables-cardioid-visualization/showcase/contribution8.json",
-      "challenges/133-time-tables-cardioid-visualization/showcase/contribution11.json"
+      "challenges/149-tic-tac-toe/showcase/contribution-1664993902.json",
+      "challenges/66-javascript-countdown-timer/showcase/contribution2.json",
+      "challenges/14-fractal-trees-recursive/showcase/contribution-1673724816.json",
+      "challenges/14-fractal-trees-recursive/showcase/contribution6.json",
+      "challenges/26-3d-supershapes/showcase/contribution1.json",
+      "challenges/81-circle-morphing/showcase/contribution4.json",
+      "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution-1671102871.json",
+      "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution5.json",
+      "challenges/149-tic-tac-toe/showcase/contribution1.json"
     ],
     "featuredCta": {
       "text": "Ready to be inspired?",
