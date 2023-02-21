@@ -26,7 +26,7 @@ const items = [
         to: '/guides'
       },
       {
-        name: 'Passenger Showcase',
+        name: 'Showcase',
         to: '/showcase'
       },
       {

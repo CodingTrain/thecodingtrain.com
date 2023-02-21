@@ -60,13 +60,9 @@
       "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution5.json",
       "challenges/149-tic-tac-toe/showcase/contribution1.json"
     ],
-    "featuredCta": {
-      "text": "Ready to be inspired?",
-      "buttonText": "Enjoy this showcase highlight"
-    },
     "showcaseCta": {
       "text": "Want to see more?",
-      "buttonText": "Browse contributions",
+      "buttonText": "Browse the full showcase",
       "href": "/showcase"
     }
   },

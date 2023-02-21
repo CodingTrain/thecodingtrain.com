@@ -143,7 +143,7 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
 };
 
 const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
-  const { title: sectionTitle, featuredCta, featured } = passengerShowcase;
+  const { title: sectionTitle, showcaseCta, featured } = passengerShowcase;
   // First render : empty placeholder
   const [featuredShowcases, setFeaturedShowcases] = useState([{}, {}, {}]);
   useEffect(() => {
@@ -158,14 +158,22 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
           {sectionTitle}
         </Heading2>
       </div>
-      <p className={css.showcaseBanner}>{featuredCta.text}</p>
+      <ButtonPanel
+        className={css.showcaseBanner}
+        variant="purple"
+        text={showcaseCta.text}
+        buttonText={showcaseCta.buttonText}
+        buttonLink={showcaseCta.href}
+        smallWrap
+        rainbow
+      />
       <Spacer className={css.verticalSpacer} pattern />
       {featuredShowcases.map((showcase, index) => (
         <React.Fragment key={index}>
           <PassengerShowcaseCard
             showcase={showcase}
             placeholderImage={placeholderImage}
-            cta={featuredCta}
+            cta={showcaseCta}
           />
           {index < 2 && <Spacer className={css.verticalSpacer} pattern />}
         </React.Fragment>
@@ -538,10 +546,6 @@ export const query = graphql`
       }
       passengerShowcase {
         title
-        featuredCta {
-          text
-          buttonText
-        }
         showcaseCta {
           text
           buttonText
