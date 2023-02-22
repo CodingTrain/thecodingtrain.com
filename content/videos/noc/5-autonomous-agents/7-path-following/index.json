@@ -4,7 +4,19 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "rlZYT-uvmGQ",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Follow along, I look at path finding!" },
+    { "time": "0:23", "title": "Code! Let's create a Path class." },
+    { "time": "1:18", "title": "Code! Now we need a follow force." },
+    { "time": "1:51", "title": "Explain! What are the steps to path following?" },
+    { "time": "5:08", "title": "Code! Step one: predict future position." },
+    { "time": "5:40", "title": "Code! Modify vectorProjection() to findProjection()." },
+    { "time": "8:12", "title": "Code! Use findProjection() and the rest of the steps." },
+    { "time": "10:30", "title": "Code! Refining the example." },
+    { "time": "11:49", "title": "Ideas? What could you create?" },
+    { "time": "13:28", "title": "Amendment! I forgot to talk about direction!" },
+    { "time": "14:43", "title": "No idea what's next but hope to see you there!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

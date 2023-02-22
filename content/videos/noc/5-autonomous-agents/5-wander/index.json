@@ -4,7 +4,20 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "ujsR2vcJlLk",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello, let's wander together." },
+    { "time": "0:25", "title": "Explain! What is wander?" },
+    { "time": "0:41", "title": "Code! Creating the wander function." },
+    { "time": "1:01", "title": "Explain! There's more to it than just a random force." },
+    { "time": "4:19", "title": "Code! Refining the wander function" },
+    { "time": "6:23", "title": "Explore! Let's take a closer look at theta." },
+    { "time": "7:38", "title": "Explore! But what about the randomness?" },
+    { "time": "10:16", "title": "Code! Adding a path to the vehicle." },
+    { "time": "12:13", "title": "Finalizing the sketch." },
+    { "time": "12:40", "title": "Explain! The displacement method described in the paper." },
+    { "time": "14:07", "title": "Ideas! What could you create?" },
+    { "time": "15:13", "title": "Thanks for joining me!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

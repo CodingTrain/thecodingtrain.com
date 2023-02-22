@@ -4,7 +4,16 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "wDYD3JVtOys",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome back!" },
+    { "time": "0:28", "title": "Code! Creating an Emitter class." },
+    { "time": "1:32", "title": "Code! Let's add update() and show()." },
+    { "time": "2:37", "title": "Code! Let's create an emitter in the sketch." },
+    { "time": "3:20", "title": "Code! How can we add particles." },
+    { "time": "4:37", "title": "Code! Many emitters!" },
+    { "time": "5:58", "title": "Ideas! Some exercises you could try." },
+    { "time": "6:41", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
