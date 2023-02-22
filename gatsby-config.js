@@ -1,6 +1,9 @@
+const postcssGlobalData = require('@csstools/postcss-global-data');
+const remarkGFM = require('remark-gfm');
+
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.thecodingtrain.com',
+    siteUrl: 'https://thecodingtrain.com',
     title: 'The Coding Train',
     description:
       'All aboard the Coding Train with Daniel Shiffman, a YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges.'
@@ -8,22 +11,19 @@ module.exports = {
   trailingSlash: 'never',
   plugins: [
     {
-      resolve: `gatsby-plugin-postcss`,
+      resolve: 'gatsby-plugin-postcss',
       options: {
         cssLoaderOptions: {
           localIdentName: '[name]-[local]-[hash:base64:3]'
         },
         postCssPlugins: [
-          require(`postcss-import`),
-          require('postcss-normalize'),
-          require('postcss-nesting'),
-          require('postcss-custom-properties')({
-            importFrom: './src/styles/variables.css'
-          }),
-          require('postcss-calc')(),
-          require('postcss-custom-media')({
-            importFrom: './src/styles/variables.css'
-          })
+          'postcss-import',
+          'postcss-normalize',
+          postcssGlobalData({ files: ['./src/styles/variables.css'] }),
+          'postcss-nesting',
+          'postcss-custom-properties',
+          'postcss-calc',
+          'postcss-custom-media'
         ]
       }
     },
@@ -32,7 +32,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve: `gatsby-transformer-json`,
+      resolve: 'gatsby-transformer-json',
       options: {
         typeName: 'Json'
       }
@@ -74,7 +74,7 @@ module.exports = {
     //   options: {
     //     name: 'guest-tutorials',
     //     path: './content/videos/guest-tutorials',
-    //     ignore: [`./**/src`]
+    //     ignore: ['./**/src']
     //   },
     // },
     {
@@ -99,11 +99,11 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        extensions: [`.mdx`, `.md`],
+        extensions: ['.mdx', '.md'],
         mdxOptions: {
-          remarkPlugins: [require(`remark-gfm`)]
+          remarkPlugins: [remarkGFM]
         }
       }
     },
