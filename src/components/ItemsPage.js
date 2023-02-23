@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, navigate } from 'gatsby';
+import { Link } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from './Layout';
@@ -85,12 +85,11 @@ const ItemsPage = ({
       ) : (
         <div className={cn(css.noItemsMessage, { [css[variant]]: variant })}>
           <p>No {title} found! </p>
-          <Button
-            variant={variant}
-            onClick={() => navigate(`/${itemsPath}/`)}
-            rainbow>
+
+          <Button variant={variant} to={`/${itemsPath}/`} rainbow>
             Reset filters
           </Button>
+
           <SemiColon className={css.semiColon} />
           <ZeroCharacter className={css.squareBrackets} />
         </div>
