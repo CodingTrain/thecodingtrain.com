@@ -61,10 +61,5 @@
     "sharp": "^0.31.3",
     "slugify": "^1.6.5",
     "svgo": "^3.0.2"
-  },
-  "overrides": {
-    "babel-plugin-lodash": {
-      "@babel/types": "7.20.7"
-    }
   }
 }
