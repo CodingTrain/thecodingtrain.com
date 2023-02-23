@@ -4,7 +4,16 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "OxHJ-o_bbzs",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "The moment you've been waiting for has arrived!" },
+    { "time": "0:17", "title": "Seek, flee, pursue, and evade." },
+    { "time": "0:41", "title": "What is the arrive behavior?" },
+    { "time": "1:01", "title": "How is arrive different from seek?" },
+    { "time": "2:27", "title": "Creating the arrive method!" },
+    { "time": "5:24", "title": "I'll refactor this now! Better variable names." },
+    { "time": "6:04", "title": "I'll refactor this now! Integrate arrive with the existing seek method." },
+    { "time": "8:14", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

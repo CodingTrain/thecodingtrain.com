@@ -4,7 +4,18 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "syR0klfncCk",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to chapter 4!" },
+    { "time": "0:24", "title": "What is a particle system?" },
+    { "time": "1:24", "title": "What do we have to code?" },
+    { "time": "2:01", "title": "Let's make a particle class!" },
+    { "time": "2:46", "title": "Adding a lifetime property." },
+    { "time": "3:41", "title": "Many particles!" },
+    { "time": "5:16", "title": "Emitting particles." },
+    { "time": "5:51", "title": "Removing finished particles from the array." },
+    { "time": "7:59", "title": "Let's make a few tweaks to this system?" },
+    { "time": "8:55", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

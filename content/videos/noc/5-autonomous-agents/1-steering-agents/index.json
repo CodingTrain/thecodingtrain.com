@@ -1,10 +1,20 @@
 {
   "title": "5.1 Steering Agents",
-  "description": "Chapter 5! Or is it 6? In this video, I discuss the concept of an autonomous agent and provide an overview of the JavaScript / p5.js coding examples to come.",
+  "description": "Welcome to Chapter 5! In this video, I discuss the concept of an autonomous agent and provide an overview of the JavaScript / p5.js coding examples to come.",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "P_xJMH8VvAE",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to Chapter 5!" },
+    { "time": "0:29", "title": "What is an autonomous agent?" },
+    { "time": "1:48", "title": "What are the three properties of an autonomous agent?" },
+    { "time": "4:03", "title": "Vehicles by Valentino Braitenberg" },
+    { "time": "5:50", "title": "Steering Behaviors For Autonomous Characters by Craig W. Reynolds" },
+    { "time": "7:03", "title": "The 3 steps of autonomous motion for a character." },
+    { "time": "8:30", "title": "What's my goal?" },
+    { "time": "8:48", "title": "Simple and Combined behaviors." },
+    { "time": "9:10", "title": "What's coming next?" }
+  ],
   "groupLinks": [
     {
       "title": "References",

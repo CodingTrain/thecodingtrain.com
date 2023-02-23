@@ -4,7 +4,16 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "DHPfoqiE4yQ",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome! What are we looking at today?" },
+    { "time": "1:01", "title": "What is scalar projection?" },
+    { "time": "3:04", "title": "How do we use dot product to find the scalar projection?" },
+    { "time": "6:13", "title": "Let's create a scalarProjection() function." },
+    { "time": "8:01", "title": "Modifying the function to be vectorProjection()." },
+    { "time": "9:42", "title": "How is this useful for path following?" },
+    { "time": "11:39", "title": "Let's see if it works for finding a point on a path?" },
+    { "time": "13:04", "title": "Thanks for watching! See you in the next video about path following." }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

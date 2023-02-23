@@ -5,7 +5,18 @@
   "topics": ["For beginners"],
   "videoId": "DMg-WRfNB60",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "0:25", "title": "Angles" },
+    { "time": "1:32", "title": "Units of measurement for an angle" },
+    { "time": "2:02", "title": "Radians" },
+    { "time": "3:32", "title": "Why is pi so important?" },
+    { "time": "5:13", "title": "Rotate by 90 degrees" },
+    { "time": "6:36", "title": "angleMode(DEGREES);" },
+    { "time": "7:26", "title": "Let's use radians" },
+    { "time": "8:56", "title": "Rotation direction" },
+    { "time": "10:32", "title": "See you in the next video!" }
+  ],
   "codeExamples": [
     {
       "title": "Angles and Rotation",

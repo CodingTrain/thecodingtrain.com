@@ -5,7 +5,17 @@
   "topics": ["For beginners"],
   "videoId": "m463X1cqV6s",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Back again!" },
+    { "time": "0:21", "title": "Why does a graph of sine look like a wave?" },
+    { "time": "2:14", "title": "Let's make a breathing circle" },
+    { "time": "4:24", "title": "Amplitude and period" },
+    { "time": "7:12", "title": "Can we make the period about one second?" },
+    { "time": "8:13", "title": "So what's frequency?" },
+    { "time": "8:51", "title": "Let's play with increment" },
+    { "time": "10:00", "title": "Map sin to y position" },
+    { "time": "10:53", "title": "What will you create?" }
+  ],
   "codeExamples": [
     {
       "title": "Basic",

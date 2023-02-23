@@ -4,7 +4,18 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "p1Ws1ZhG36g",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "1:10", "title": "What is the desired velocity for seeking?" },
+    { "time": "2:46", "title": "What is the steering force?" },
+    { "time": "5:23", "title": "Let's make a Vehicle class from Particle." },
+    { "time": "6:25", "title": "Now we need a target." },
+    { "time": "6:48", "title": "Now let's add code to the seek method!" },
+    { "time": "8:21", "title": "What can we do to make this feel a bit more realistic?" },
+    { "time": "9:16", "title": "Adding a maximum force." },
+    { "time": "10:27", "title": "Let's do a little clean up." },
+    { "time": "11:05", "title": "What could you try next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

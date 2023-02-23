@@ -4,7 +4,19 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "Q4MU7pkDYmQ",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello Again!" },
+    { "time": "0:12", "title": "What's my quest?" },
+    { "time": "1:08", "title": "30 seconds on the clock, let's add flee!" },
+    { "time": "1:35", "title": "How could we approach this in a smarter way?" },
+    { "time": "3:13", "title": "Explain! What is pursue?" },
+    { "time": "5:54", "title": "We need a the target to be a vehicle." },
+    { "time": "6:42", "title": "Let's add pursue now." },
+    { "time": "9:12", "title": "Now we can add evade!" },
+    { "time": "10:03", "title": "What if we pursue and evade?" },
+    { "time": "11:09", "title": "Let's refine the pursue example a little." },
+    { "time": "12:09", "title": "Ideas! What will you make?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
