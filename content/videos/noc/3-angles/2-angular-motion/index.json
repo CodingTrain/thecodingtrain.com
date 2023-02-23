@@ -7,12 +7,12 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Welcome Back!" },
-    { "time": "0:12", "title": "Recap! Motion using vectors" },
-    { "time": "1:12", "title": "Explain! Applying that to angles" },
-    { "time": "1:46", "title": "Code! Angular velocity" },
-    { "time": "2:38", "title": "Code! Angular acceleration" },
-    { "time": "4:52", "title": "Code! Adding angular motion to gravitational attraction" },
-    { "time": "8:04", "title": "Ideas! What could you do next?" },
+    { "time": "0:12", "title": "Motion using vectors" },
+    { "time": "1:12", "title": "Applying that to angles" },
+    { "time": "1:46", "title": "Angular velocity" },
+    { "time": "2:38", "title": "Angular acceleration" },
+    { "time": "4:52", "title": "Adding angular motion to gravitational attraction" },
+    { "time": "8:04", "title": "What could you do next?" },
     { "time": "9:16", "title": "Share what you create with me!" }
   ],
   "codeExamples": [

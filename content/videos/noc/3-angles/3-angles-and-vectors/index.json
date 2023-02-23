@@ -7,11 +7,11 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Hi again!" },
-    { "time": "0:24", "title": "Explain! How is tangent useful and heading()" },
-    { "time": "3:29", "title": "Code! Using heading()" },
-    { "time": "5:01", "title": "Explain! p5.Vector.fromAngle()" },
-    { "time": "5:47", "title": "Code! Demonstrate fromAngle()" },
-    { "time": "8:13", "title": "Ideas! What could you make?" }
+    { "time": "0:24", "title": "How is tangent useful and heading()" },
+    { "time": "3:29", "title": "Using heading()" },
+    { "time": "5:01", "title": "p5.Vector.fromAngle()" },
+    { "time": "5:47", "title": "Demonstrate fromAngle()" },
+    { "time": "8:13", "title": "What could you make?" }
   ],
   "codeExamples": [
     {
