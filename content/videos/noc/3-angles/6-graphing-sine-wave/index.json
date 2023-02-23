@@ -4,7 +4,18 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "JLAc9hMtcxk",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Good to see you again!" },
+    { "time": "0:31", "title": " Explain! How do we graph a wave?" },
+    { "time": "1:30", "title": "Code! Let's do that right now!" },
+    { "time": "3:18", "title": "Code! Let's try varying the period" },
+    { "time": "4:22", "title": "Explain! Why are we here again?" },
+    { "time": "5:05", "title": "Code! Change the starting angles" },
+    { "time": "6:52", "title": "Code! What happens if we go back to angular velocity?" },
+    { "time": "7:19", "title": "Code! Whoa! Let's use a static increment value" },
+    { "time": "8:10", "title": "Ideas! Go make something awesome!" },
+    { "time": "9:29", "title": "See you in the next video!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

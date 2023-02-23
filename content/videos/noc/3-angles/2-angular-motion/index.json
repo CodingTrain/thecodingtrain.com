@@ -5,7 +5,16 @@
   "topics": ["For beginners"],
   "videoId": "i2ROE_mAhU0",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome Back!" },
+    { "time": "0:12", "title": "Recap! Motion using vectors" },
+    { "time": "1:12", "title": "Explain! Applying that to angles" },
+    { "time": "1:46", "title": "Code! Angular velocity" },
+    { "time": "2:38", "title": "Code! Angular acceleration" },
+    { "time": "4:52", "title": "Code! Adding angular motion to gravitational attraction" },
+    { "time": "8:04", "title": "Ideas! What could you do next?" },
+    { "time": "9:16", "title": "Share what you create with me!" }
+  ],
   "codeExamples": [
     {
       "title": "Rectangle Acceleration",

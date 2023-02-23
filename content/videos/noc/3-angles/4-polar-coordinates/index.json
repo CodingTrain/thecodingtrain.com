@@ -6,7 +6,17 @@
   "videoId": "O5wjXoFrau4",
   "canonicalTrack": "the-nature-of-code-2",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "I'm so excited!" },
+    { "time": "0:11", "title": "Explain! sine, cosine, and tangent" },
+    { "time": "2:24", "title": "Explain! sin, cos, and tan again differently" },
+    { "time": "5:49", "title": "Explain! Polar coordinates" },
+    { "time": "9:03", "title": "Code! Demonstrate polar coordinates" },
+    { "time": "11:26", "title": "Code! Spiral and Randomness" },
+    { "time": "12:17", "title": "Code! Draw your own circular shape" },
+    { "time": "15:19", "title": "Ideas! What kinds of shapes can you make?" },
+    { "time": "16:02", "title": "See you in the next video!" }
+  ],
   "codeExamples": [
     {
       "title": "Basic Polar Coordinates",
