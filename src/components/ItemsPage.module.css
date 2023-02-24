@@ -68,10 +68,6 @@
     margin: 0 0 var(--baseline) 0;
   }
 
-  & a {
-    text-decoration: underline;
-  }
-
   & svg {
     position: absolute;
     height: var(--baseline-4x);
@@ -111,10 +107,6 @@
 .noItemsMessage.cyan {
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
-
-  & a {
-    color: var(--cyan);
-  }
 }
 
 .paginationNav.cyan {
@@ -125,10 +117,6 @@
 .noItemsMessage.red {
   border-bottom: var(--border-red);
   border-left: var(--border-red);
-
-  & a {
-    color: var(--red);
-  }
 }
 
 .paginationNav.red {
