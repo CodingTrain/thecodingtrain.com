@@ -4,7 +4,12 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "70MQ-FugwbI",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to The Nature of Code!" },
+    { "time": "1:48", "title": "NOC on GitHub" },
+    { "time": "2:30", "title": "Kadenze course" },
+    { "time": "2:48", "title": "The Nature of Code book" }
+  ],
   "groupLinks": [
     {
       "title": "References",
