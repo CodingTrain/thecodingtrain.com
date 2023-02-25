@@ -4,7 +4,14 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "YN8Q-QEmQ8Y",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:14", "title": "Instance functions" },
+    { "time": "2:00", "title": "Static functions" },
+    { "time": "3:20", "title": "Name-spaced functions" },
+    { "time": "4:30", "title": "Instance/Static versions of the same function" },
+    { "time": "7:09", "title": "Using the static version of a function to store the result of an operation" }
+  ],
   "canContribute": false,
   "groupLinks": [
     {

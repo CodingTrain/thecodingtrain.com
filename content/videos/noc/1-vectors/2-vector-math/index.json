@@ -7,10 +7,10 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "2:11", "title": "Vector Addition" },
+    { "time": "2:11", "title": "Vector addition" },
     { "time": "3:46", "title": "Diagram the vectors" },
     { "time": "5:46", "title": "Adding velocity to position" },
-    { "time": "6:26", "title": "Add velocity of the walker" },
+    { "time": "6:19", "title": "Add velocity to the Walker" },
     { "time": "7:30", "title": "Erase the background" },
     { "time": "9:51", "title": "Adding two p5 vectors using add()" }
   ],
