@@ -3,16 +3,11 @@
   "description": "Choo choo! In this challenge, I build on chapter 3 (Oscillating Motion) of the Nature of Code series and simulate a simple pendulum in p5.js via angular acceleration.",
   "videoNumber": "159",
   "videoId": "NBWMtlbbOag",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-159-simple-pendulum-simulation",
   "date": "2021-02-20",
   "languages": ["JavaScript", "p5.js"],
   "relatedChallenges": ["93-double-pendulum", "160-spring-forces"],
-  "topics": [
-    "pendulums",
-    "angular motion",
-    "polar coordinates",
-    "trigonometry",
-    "damping"
-  ],
+  "topics": ["pendulums", "angular motion", "polar coordinates", "trigonometry", "damping"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Choo choo!! 2021 Coding Challenge!" },

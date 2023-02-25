@@ -3,6 +3,7 @@
   "description": "In this coding challenge, I continue one of my favorite subjects: Algorithmic botany! This video covers the subject of Phyllotaxis, what it is and how it can be used to generate sunflower-like patterns inspired by nature.",
   "videoNumber": "30",
   "videoId": "KWoJgHFYWxY",
+  "nebulaSlug": "the-coding-train-coding-challenge-30-phyllotaxis",
   "date": "2016-08-03",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["algorithmic botany", "phyllotaxis", "generative art"],

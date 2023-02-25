@@ -3,6 +3,7 @@
   "description": "Let's make a slide puzzle in p5.js together! We'll be using images, nested loops, and arrays, and by the end of our journey, we'll have a fully playable game!",
   "videoNumber": "165",
   "videoId": "uQZLzhrzEs4",
+  "nebulaSlug": "codingtrain-coding-challenge-165-slide-puzzle",
   "date": "2022-02-01",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["pixels", "arrays", "game"],

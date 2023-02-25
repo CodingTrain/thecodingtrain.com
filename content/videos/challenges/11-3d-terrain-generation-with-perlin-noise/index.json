@@ -3,15 +3,12 @@
   "description": "In this coding challenge, I create a 3D procedural terrain using Perlin Noise and the beginShape() function in Processing.",
   "videoNumber": "11",
   "videoId": "IKB1hWWedMk",
+  "nebulaSlug": "the-coding-train-coding-challenge-11-3d-terrain-generation-with-perlin-noise-in-processing",
   "date": "2016-05-04",
   "languages": ["Processing"],
   "topics": ["perlin noise", "terrain generation", "procedural"],
   "canContribute": true,
-  "relatedChallenges": [
-    "18-3d-fractal-trees",
-    "24-perlin-noise-flow-field",
-    "112-3d-rendering-with-rotation-and-projection"
-  ],
+  "relatedChallenges": ["18-3d-fractal-trees", "24-perlin-noise-flow-field", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction to the Challenge" },
     { "time": "00:46", "title": "What do we need to do?" },

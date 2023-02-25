@@ -3,6 +3,7 @@
   "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I code a visualization of the Maurer Rose pattern in JavaScript (p5.js).",
   "videoNumber": "C1",
   "videoId": "4uU9lZ-HSqA",
+  "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-1-maurer-rose",
   "date": "2019-10-11",
   "languages": ["p5.js"],
   "topics": ["maurer rose", "polar coordinates"],

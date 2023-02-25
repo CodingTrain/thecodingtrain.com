@@ -3,14 +3,12 @@
   "description": "In this coding challenge, I visualize a Fourier series for a square wave in JavaScript with p5.js.",
   "videoNumber": "125",
   "videoId": "Mm2eYfj0SgA",
+  "nebulaSlug": "the-coding-train-coding-challenge-125-fourier-series",
   "date": "2018-12-19",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["fourier", "maths"],
   "canContribute": true,
-  "relatedChallenges": [
-    "61-fractal-spirograph",
-    "130-drawing-with-fourier-transform-and-epicycles"
-  ],
+  "relatedChallenges": ["61-fractal-spirograph", "130-drawing-with-fourier-transform-and-epicycles"],
   "timestamps": [
     {
       "time": "00:00",

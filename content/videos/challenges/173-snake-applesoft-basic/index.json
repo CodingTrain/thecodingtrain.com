@@ -3,15 +3,12 @@
   "description": "Take a trip back in time and let's code the Snake Game in AppleSoft BASIC on a restored Apple II+ computer! GOTO and GOSUB! Line numbers!",
   "videoNumber": "173",
   "videoId": "7r83N3c2kPw",
+  "nebulaSlug": "codingtrain-coding-challenge-173-applesoft-basic-snake-game",
   "date": "2022-08-24",
   "languages": ["BASIC"],
   "topics": ["games", "1980s", "AppleII"],
   "canContribute": true,
-  "relatedChallenges": [
-    "3-snake-game",
-    "174-graphics-applesoft-basic",
-    "175-3D-cube-applesoft-basic"
-  ],
+  "relatedChallenges": ["3-snake-game", "174-graphics-applesoft-basic", "175-3D-cube-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Hello from 1981!" },
     { "time": "0:35", "title": "Opening Theme" },

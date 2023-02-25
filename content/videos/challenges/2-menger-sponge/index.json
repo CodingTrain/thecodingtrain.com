@@ -3,17 +3,12 @@
   "description": "In this coding challenge, I attempt to code the Menger Sponge (fractals) using Processing.",
   "videoNumber": "2",
   "videoId": "LG8ZK-rRkXo",
+  "nebulaSlug": "the-coding-train-coding-challenge-2-menger-sponge-fractal",
   "date": "2016-04-17",
   "languages": ["Java", "Processing"],
   "topics": ["fractal", "3d", "menger sponge"],
   "canContribute": true,
-  "relatedChallenges": [
-    "18-3d-fractal-trees",
-    "123-chaos-game",
-    "126-toothpicks",
-    "129-koch-fractal-snowflake",
-    "168-the-mandelbulb"
-  ],
+  "relatedChallenges": ["18-3d-fractal-trees", "123-chaos-game", "126-toothpicks", "129-koch-fractal-snowflake", "168-the-mandelbulb"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a 10 minute Coding Challenge!" },
     { "time": "0:26", "title": "Quick math about the Menger Sponge" },

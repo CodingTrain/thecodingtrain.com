@@ -8,11 +8,7 @@
   "languages": ["BASIC"],
   "topics": ["3d graphics", "1980s", "AppleII", "matrix math"],
   "canContribute": true,
-  "relatedChallenges": [
-    "112-3d-rendering-with-rotation-and-projection",
-    "173-snake-applesoft-basic",
-    "174-graphics-applesoft-basic"
-  ],
+  "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection", "173-snake-applesoft-basic", "174-graphics-applesoft-basic"],
   "timestamps": [
     {
       "time": "0:00",

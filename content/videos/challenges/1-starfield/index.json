@@ -3,6 +3,7 @@
   "description": "This is the first in a new series of videos. In this video I attempt to program a \"star field\" or \"warp speed\" visualization in Processing.",
   "videoNumber": "1",
   "videoId": "17WoOqgXsRM",
+  "nebulaSlug": "the-coding-train-coding-challenge-1-starfield-in-processing",
   "date": "2016-04-12",
   "languages": ["Processing"],
   "topics": ["space", "starfield"],

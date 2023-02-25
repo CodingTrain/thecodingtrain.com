@@ -3,6 +3,7 @@
   "description": "Why do prime numbers show up as diagonals in a spiral? In this video, I create a visualization in JavaScript (p5.js) of the Ulam Spiral (aka Prime Spiral) named for Polish Mathematician Stanislav Ulan.",
   "videoNumber": "167",
   "videoId": "a35KWEjRvc0",
+  "nebulaSlug": "codingtrain-the-prime-spiral-coding-challenge-167",
   "date": "2022-02-20",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["Prime Numbers"],
