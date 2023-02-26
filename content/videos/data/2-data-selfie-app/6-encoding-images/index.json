@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js", "p5.js"],
   "topics": ["webcam", "database", "encoding"],
   "videoId": "9Rhsb3GU2Iw",
+  "nebulaSlug": "codingtrain-2-6-saving-images-and-base64-encoding-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! Let's use p5.js!" },

@@ -5,6 +5,7 @@
   "languages": ["JavaScript"],
   "topics": ["csv", "data", "string"],
   "videoId": "RfMkdvN-23o",
+  "nebulaSlug": "codingtrain-1-2-tabular-data-working-with-data-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What is CSV?" },

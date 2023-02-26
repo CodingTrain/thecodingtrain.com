@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js", "leaflet.js"],
   "topics": ["database"],
   "videoId": "r94kI6my0QQ",
+  "nebulaSlug": "codingtrain-3-3-mapping-database-entries-with-leaflet-js-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome!" },

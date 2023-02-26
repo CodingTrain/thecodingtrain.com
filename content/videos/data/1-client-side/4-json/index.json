@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": ["data", "api", "json"],
   "videoId": "uxf0--uiX0I",
+  "nebulaSlug": "codingtrain-1-4-json-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What have we done so far?" },
