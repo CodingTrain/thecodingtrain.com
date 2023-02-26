@@ -3,6 +3,7 @@
   "description": "This video introduces the idea of a boolean expression and conditional logic in programming.",
   "videoNumber": "3.1",
   "videoId": "1Osb_iGDdjk",
+  "nebulaSlug": "coding-train-3-1-introduction-to-conditional-statements-p5-js-tutorial",
   "date": "2015-09-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "boolean", "if statement"],

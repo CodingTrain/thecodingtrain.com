@@ -3,6 +3,7 @@
   "description": "This video covers what it means for a function to return a value.",
   "videoNumber": "5.3",
   "videoId": "qRnUBiTJ66Y",
+  "nebulaSlug": "coding-train-5-3-functions-and-return-p5-js-tutorial",
   "date": "2015-09-17",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "functions", "return"],

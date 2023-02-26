@@ -3,6 +3,7 @@
   "description": "Arrays and loops go together. Why? How? This video covers how to iterate over the contents of an array using a for loop.",
   "videoNumber": "7.2",
   "videoId": "RXWO3mFuW-I",
+  "nebulaSlug": "coding-train-7-2-arrays-and-loops-p5-js-tutorial",
   "date": "2015-10-02",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "for loop"],

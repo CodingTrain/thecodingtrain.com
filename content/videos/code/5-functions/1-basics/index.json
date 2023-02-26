@@ -3,6 +3,7 @@
   "description": "This video covers the basics of writing your own functions in JavaScript. What does it mean to define and call your own function? How can this make a program more modular?",
   "videoNumber": "5.1",
   "videoId": "wRHAitGzBrg",
+  "nebulaSlug": "coding-train-5-1-function-basics-p5-js-tutorial",
   "date": "2015-09-17",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "function"],

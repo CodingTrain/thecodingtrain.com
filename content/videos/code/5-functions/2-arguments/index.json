@@ -3,6 +3,7 @@
   "description": "This video looks at re-usability and functions. How does defining a function with parameters allow a function to be re-used?",
   "videoNumber": "5.2",
   "videoId": "zkc417YapfE",
+  "nebulaSlug": "coding-train-5-2-function-parameters-and-arguments-p5-js-tutorial",
   "date": "2015-09-17",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "functions", "arguments", "parameters"],

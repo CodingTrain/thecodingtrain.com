@@ -3,6 +3,7 @@
   "description": "This video covers how to determine if two circles are overlapping (intersecting) in a p5.js sketch. The functionality is demonstrated with an object-oriented approach.",
   "videoNumber": "7.6",
   "videoId": "W1-ej3Wu5zg",
+  "nebulaSlug": "coding-train-7-6-object-communication-part-1-p5-js-tutorial",
   "date": "2017-12-13",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "nested loop", "for loop", "objects"],
