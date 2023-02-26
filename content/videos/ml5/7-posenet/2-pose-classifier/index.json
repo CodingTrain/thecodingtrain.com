@@ -3,14 +3,10 @@
   "description": "VThis tutorial combines PoseNet and ml5.neuralNetwork(). I use the output of the pre-trained model (the \"pose\" itself) as the inputs to an ml5.js neural network classifier.",
   "videoNumber": "7.2",
   "videoId": "FYgYyq-xqAw",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-pose-classification-with-posenet-and-ml5-neuralnetwork",
   "date": "2020-01-15",
   "languages": ["ml5.js", "p5.js"],
-  "topics": [
-    "pose estimation",
-    "data collection",
-    "neural networks",
-    "trained model"
-  ],
+  "topics": ["pose estimation", "data collection", "neural networks", "trained model"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

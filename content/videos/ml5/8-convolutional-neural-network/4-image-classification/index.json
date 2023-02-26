@@ -3,6 +3,7 @@
   "description": "In this video, I update the previous classification example (with pixels) and incorporate a convolutional neural network in ml5.js!",
   "videoNumber": "8.4",
   "videoId": "hWurN0XhzLY",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-training-a-convolutional-neural-network-for-image-classification",
   "date": "2020-11-25",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["convolutional neural network", "image classification"],

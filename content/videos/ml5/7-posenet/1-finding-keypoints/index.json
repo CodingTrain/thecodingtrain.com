@@ -3,6 +3,7 @@
   "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using the pre-trained machine learning model PoseNet (in JavaScript with p5.js and ml5.js).",
   "videoNumber": "7.1",
   "videoId": "OIo-DIOkNVg",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-pose-estimation-with-posenet",
   "date": "2020-01-09",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["poseNet", "estimation", "machine learning"],

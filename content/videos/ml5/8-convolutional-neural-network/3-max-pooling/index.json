@@ -3,6 +3,7 @@
   "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \"max pooling.\"",
   "videoNumber": "8.3",
   "videoId": "pRWq_mtuppU",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-what-is-a-convolutional-neural-network-part-2-max-pooling",
   "date": "2020-02-24",
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["max pooling", "convolutional neural network", "stride"],

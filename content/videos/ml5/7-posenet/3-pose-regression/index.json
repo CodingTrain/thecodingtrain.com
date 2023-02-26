@@ -3,6 +3,7 @@
   "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \"pose\" itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification.",
   "videoNumber": "7.3",
   "videoId": "lob74HqHYJ0",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-pose-regression-with-posenet-and-ml5-neuralnetwork",
   "date": "2020-01-22",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["pose regression", "PoseNet", "neural networks"],
