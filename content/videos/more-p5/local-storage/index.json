@@ -3,6 +3,7 @@
   "description": "What's the easiest and quickest way to have a p5 sketch re-start from where it last left off? Local Storage!",
   "videoNumber": "Video number",
   "videoId": "_SRS8b4LcZ8",
+  "nebulaSlug": "codingtrain-local-storage-in-javascript-with-p5js",
   "date": "2022-05-04",
   "languages": ["JavaScript"],
   "topics": ["p5.js", "Storage"],
