@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "p1Ws1ZhG36g",
+  "nebulaSlug": "coding-train-52-seeking-a-target-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
     { "time": "1:10", "title": "What is the desired velocity for seeking?" },

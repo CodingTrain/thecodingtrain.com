@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "pUhv2CA0omA",
+  "nebulaSlug": "the-coding-train-yt-4-4-particle-systems-with-image-textures-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "One more particle system video!" },
     { "time": "0:57", "title": "Hopefully you'll make something neat." },

@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "Q4MU7pkDYmQ",
+  "nebulaSlug": "coding-train-53-flee-pursue-evade-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Hello Again!" },
     { "time": "0:12", "title": "What's my quest?" },

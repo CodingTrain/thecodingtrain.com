@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "DHPfoqiE4yQ",
+  "nebulaSlug": "coding-train-56-vector-dot-product-scalar-projection-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Welcome! What are we looking at today?" },
     { "time": "1:01", "title": "What is scalar projection?" },

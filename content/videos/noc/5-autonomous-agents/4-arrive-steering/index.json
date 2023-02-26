@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "OxHJ-o_bbzs",
+  "nebulaSlug": "coding-train-54-arrive-steering-behavior-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "The moment you've been waiting for has arrived!" },
     { "time": "0:17", "title": "Seek, flee, pursue, and evade." },

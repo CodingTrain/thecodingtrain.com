@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "rlZYT-uvmGQ",
+  "nebulaSlug": "coding-train-57-path-following-steering-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Follow along, I look at path finding!" },
     { "time": "0:23", "title": "Let's create a Path class." },

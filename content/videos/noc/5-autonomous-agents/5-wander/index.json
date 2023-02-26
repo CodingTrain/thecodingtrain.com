@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "ujsR2vcJlLk",
+  "nebulaSlug": "coding-train-55-wander-steering-behavior-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Hello, let's wander together." },
     { "time": "0:25", "title": "What is wander?" },

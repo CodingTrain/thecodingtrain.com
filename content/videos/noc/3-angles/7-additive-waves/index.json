@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "okfZRl4Xw-c",
+  "nebulaSlug": "the-coding-train-yt-3-7-additive-waves-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Welcome back!" },
     { "time": "0:26", "title": "How do we make a wave class?" },
