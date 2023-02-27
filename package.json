@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "The Coding Train",
-  "author": "Rune Madsen",
+  "author": "The Coding Train",
   "keywords": [
     "gatsby"
   ],
@@ -68,5 +68,6 @@
     "setupFilesAfterEnv": [
       "jest-extended/all"
     ]
-  }
+  },
+  "license": "MIT"
 }
