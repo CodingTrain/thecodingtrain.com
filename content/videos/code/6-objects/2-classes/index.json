@@ -3,7 +3,8 @@
   "description": "This video introduces Object-Oriented Programming in JavaScript with ES6 classes and the p5.js library.",
   "videoNumber": "6.2",
   "videoId": "T-HGdc8L-7w",
-  "date": "2017-6-10",
+  "canonicalTrack": "code-programming-with-p5-js",
+  "date": "2017-10-06",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "OOP", "objects"],
   "canContribute": true,
@@ -15,10 +16,7 @@
       "time": "8:40",
       "title": "The constructor() Function is the Object's Setup"
     },
-    {
-      "time": "10:10",
-      "title": "Using \"this.\" to Declare Class Variables"
-    },
+    { "time": "10:10", "title": "Using \"this.\" to Declare Class Variables" },
     { "time": "12:26", "title": "Code Example" },
     { "time": "14:50", "title": "Adding Functionality to a Class" }
   ],
@@ -27,20 +25,12 @@
       "title": "Classes",
       "description": "Demonstration of using a Bubble class to create multiple bubbles.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/qi7N4LWq"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/qi7N4LWq" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

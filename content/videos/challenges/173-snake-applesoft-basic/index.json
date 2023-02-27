@@ -3,7 +3,7 @@
   "description": "Take a trip back in time and let's code the Snake Game in AppleSoft BASIC on a restored Apple II+ computer! GOTO and GOSUB! Line numbers!",
   "videoNumber": "173",
   "videoId": "7r83N3c2kPw",
-  "date": "2022-08-23",
+  "date": "2022-08-24",
   "languages": ["BASIC"],
   "topics": ["games", "1980s", "AppleII"],
   "canContribute": true,
@@ -135,22 +135,13 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    },
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" },
     {
       "title": "Coding Together Theme",
       "name": "Will from America",
       "url": "https://twitter.com/WillfromAmerica"
     },
-    {
-      "title": "Eye of the Tiger cover",
-      "name": "Leon from @neo"
-    }
+    { "title": "Eye of the Tiger cover", "name": "Leon from @neo" }
   ]
 }

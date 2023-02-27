@@ -11,25 +11,19 @@
       "title": "Drag Force",
       "description": "Simulating different drag forces on objects",
       "image": "drag.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/5V8nSBOS"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/5V8nSBOS" }
     },
     {
       "title": "Goose and the Jello Cubes of Varying Densities",
       "description": "Play as Goose and avoid the jello cubes!",
       "image": "jello.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/O36gAqVqt"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/O36gAqVqt" }
     },
     {
       "title": "Surface Area Exercise",
       "description": "Demonstrating drag force on objects with varying surface areas",
       "image": "surface.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/hHDqBfOCt"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/hHDqBfOCt" }
     }
   ],
   "groupLinks": [
@@ -50,13 +44,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-04-11"
 }

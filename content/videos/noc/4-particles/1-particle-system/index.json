@@ -4,16 +4,25 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "syR0klfncCk",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to chapter 4!" },
+    { "time": "0:24", "title": "What is a particle system?" },
+    { "time": "1:24", "title": "What do we have to code?" },
+    { "time": "2:01", "title": "Let's make a particle class!" },
+    { "time": "2:46", "title": "Adding a lifetime property." },
+    { "time": "3:41", "title": "Many particles!" },
+    { "time": "5:16", "title": "Emitting particles." },
+    { "time": "5:51", "title": "Removing finished particles from the array." },
+    { "time": "7:59", "title": "Let's make a few tweaks to this system?" },
+    { "time": "8:55", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Particle System Simulation",
       "description": "Simulating a particle system with gravity and a single emitter",
       "image": "particle.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/QRzgzQLnQ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/QRzgzQLnQ" }
     }
   ],
   "groupLinks": [
@@ -64,13 +73,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-03-09"
 }

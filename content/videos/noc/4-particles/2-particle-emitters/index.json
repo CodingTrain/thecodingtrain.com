@@ -4,40 +4,41 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "wDYD3JVtOys",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome back!" },
+    { "time": "0:28", "title": "Creating an Emitter class." },
+    { "time": "1:32", "title": "Let's add update() and show()." },
+    { "time": "2:37", "title": "Let's create an emitter in the sketch." },
+    { "time": "3:20", "title": "How can we add particles." },
+    { "time": "4:37", "title": "Many emitters!" },
+    { "time": "5:58", "title": "Some exercises you could try." },
+    { "time": "6:41", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Particle Emitters",
       "description": "Spawning a new particle emitter on clicking the screen",
       "image": "emitters.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/YqAxA5CYy"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/YqAxA5CYy" }
     },
     {
       "title": "Particle Emitters with Movers Exercise",
       "description": "Adding fire particle effects to an array of movers",
       "image": "movers.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/UXmqwcpRL"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/UXmqwcpRL" }
     },
     {
       "title": "Particles Following Mouse Exercise",
       "description": "Making a particle emitter that follows the mouse",
       "image": "mouse.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/1zTN6PYJg"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/1zTN6PYJg" }
     },
     {
       "title": "Particle Emitters Color Exercise",
       "description": "Clicking on the screen to make a new emitter with a random color",
       "image": "color.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/IYisp9xmJ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/IYisp9xmJ" }
     }
   ],
   "groupLinks": [
@@ -68,13 +69,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-03-12"
 }

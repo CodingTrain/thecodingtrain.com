@@ -11,33 +11,25 @@
       "title": "Friction Force",
       "description": "Simulating friction on objects with weight",
       "image": "friction.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/zcTpMCpA"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zcTpMCpA" }
     },
     {
       "title": "Top Down Billiards Exercise",
       "description": "Simulating a billiards table",
       "image": "billiards.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/S3SCcnUa7"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/S3SCcnUa7" }
     },
     {
       "title": "Slope Exercise",
       "description": "Simulating objects on a sloped surface",
       "image": "slope.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/LS5FlhljG"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LS5FlhljG" }
     },
     {
       "title": "Show Vectors Exercise",
       "description": "Using arrows to show the force vectors acting on an object",
       "image": "show.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Vyg_iWNGE"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Vyg_iWNGE" }
     }
   ],
   "groupLinks": [
@@ -63,13 +55,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-04-08"
 }

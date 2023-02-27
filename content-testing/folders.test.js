@@ -20,7 +20,7 @@ const compareFolderStructure = (dir, reference, folder) => {
   if (testLocally && reference.isFolderSensitive) {
     for (let subfolder in folder.folders) {
       test(`Should this folder be here: ${folder.folders[subfolder].path}`, () =>
-        expect(subfolder).toBeOneOf(Object.keys(reference.folders)));
+        expect(Object.keys(reference.folders)).toContain(subfolder));
     }
   }
   if (testLocally) {

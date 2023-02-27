@@ -97,6 +97,11 @@ exports.createVideoRelatedNode = (
     const languages = data.languages ?? [];
     const topics = data.topics ?? [];
 
+    // note: there's also a resolver for this property if no track slug is set in source JSON
+    const canonicalTrack = data.canonicalTrack
+      ? createNodeId(`--tracks/${data.canonicalTrack}`)
+      : undefined;
+
     const newNode = Object.assign({}, data, {
       id: createNodeId(`--videos/${slugPrefix}${slug}`),
       parent: node.id,
@@ -122,6 +127,7 @@ exports.createVideoRelatedNode = (
       ),
       cover: createNodeId(`cover-image/${slugPrefix}${slug}`),
       source: `${type}s`,
+      canonicalTrack,
       internal: {
         type: schemaType,
         contentDigest: createContentDigest(data)
@@ -488,6 +494,33 @@ exports.createTracksPageRelatedNodes = (
     parent: node.id,
     internal: {
       type: `TracksPageInfo`,
+      contentDigest: createContentDigest(data)
+    }
+  });
+  createNode(newNode);
+};
+
+/**
+ * Creates Showcase Page Data nodes from JSON file node
+ * @param {function} createNode - Gatsby's createNode function
+ * @param {function} createNodeId - Gatsby's createNodeId function
+ * @param {function} createContentDigest - Gatsby's createContentDigest function
+ * @param {object} node - JSON file node
+ * @param {object} parent - Parent node of node
+ */
+exports.createShowcasePageRelatedNodes = (
+  createNode,
+  createNodeId,
+  createContentDigest,
+  node,
+  parent
+) => {
+  const data = getJson(node);
+  const newNode = Object.assign({}, data, {
+    id: createNodeId(`--showcase-page-info`),
+    parent: node.id,
+    internal: {
+      type: `ShowcasePageInfo`,
       contentDigest: createContentDigest(data)
     }
   });

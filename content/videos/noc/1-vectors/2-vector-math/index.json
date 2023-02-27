@@ -11,9 +11,7 @@
       "title": "Vector Math",
       "description": "Using vector addition to move a circle across the screen",
       "image": "image1.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/GGn5cd-z"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/GGn5cd-z" }
     }
   ],
   "groupLinks": [
@@ -34,13 +32,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-03-11"
 }

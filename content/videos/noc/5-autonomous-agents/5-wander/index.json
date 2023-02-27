@@ -4,56 +4,57 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "ujsR2vcJlLk",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello, let's wander together." },
+    { "time": "0:25", "title": "What is wander?" },
+    { "time": "0:41", "title": "Creating the wander function." },
+    { "time": "1:01", "title": "There's more to it than just a random force." },
+    { "time": "4:19", "title": "Refining the wander function" },
+    { "time": "6:23", "title": "Let's take a closer look at theta." },
+    { "time": "7:38", "title": "But what about the randomness?" },
+    { "time": "10:16", "title": "Adding a path to the vehicle." },
+    { "time": "12:13", "title": "Finalizing the sketch." },
+    { "time": "12:40", "title": "The displacement method described in the paper." },
+    { "time": "14:07", "title": "What could you create?" },
+    { "time": "15:13", "title": "Thanks for joining me!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Main",
       "description": "Using the wander steering behavior to move an vehicle",
       "image": "wander.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/LVtVlS52Q"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LVtVlS52Q" }
     },
     {
       "title": "With Sliders",
       "description": "Adding sliders to adjust the wander steering behavior",
       "image": "sliders.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/uxemh7FGc"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/uxemh7FGc" }
     },
     {
       "title": "Deleting Positions",
       "description": "Using an array to draw a trail behind the vehicle, then removing stored positions over time",
       "image": "delete.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EWHjy--Os"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EWHjy--Os" }
     },
     {
       "title": "3D",
       "description": "Implementing the wander steering behavior in 3D",
       "image": "three.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/t6sFXmVrk"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/t6sFXmVrk" }
     },
     {
       "title": "Displacement (From Paper)",
       "description": "Using the displacement variation of the wander behavior described in Reynolds' paper",
       "image": "displacement.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/VdHUvgHkm"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/VdHUvgHkm" }
     },
     {
       "title": "Perlin Noise",
       "description": "Using Perin Noise to determine the wander steering angle",
       "image": "perlin.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/XH2DtikuI"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/XH2DtikuI" }
     }
   ],
   "groupLinks": [
@@ -79,13 +80,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-09-16"
 }

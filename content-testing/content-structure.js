@@ -298,6 +298,13 @@ const contentStructure = {
           isFolderSensitive: true,
           isRequired: true
         },
+        showcase: {
+          folders: {},
+          files: {},
+          isFileSensitive: false,
+          isFolderSensitive: true,
+          isRequired: true
+        },
         404: {
           folders: {},
           files: {},

@@ -3,14 +3,17 @@
   "description": "In this video, I cover createGraphics() in p5.js in order to demonstrate how to draw some shapes with trails and some without.",
   "videoNumber": "2.6",
   "videoId": "TaluaAD9MKA",
-  "date": "2019-02-03",
+  "date": "2019-02-13",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["createGraphics"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:42", "title": "Create Two Canvases with createGraphics()" },
-    { "time": "3:45", "title": "Use clear() to Make the Extra Canvas Transparent" },
+    {
+      "time": "3:45",
+      "title": "Use clear() to Make the Extra Canvas Transparent"
+    },
     { "time": "5:00", "title": "Order of Shapes within Draw()" }
   ],
   "codeExamples": [
@@ -18,28 +21,18 @@
       "title": "Trails",
       "description": "Demonstration of using createGraphics() to overlay two different canvases.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/7RN7GFD-Y"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/7RN7GFD-Y" }
     },
     {
       "title": "Stars",
       "description": "Demonstration of using createGraphics() to overlay two different canvases.",
       "image": "img2.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/0kQ9v-bhM"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/0kQ9v-bhM" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }
