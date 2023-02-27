@@ -4,7 +4,7 @@
   "private": true,
   "description": "The Coding Train",
   "author": "The Coding Train",
-  "license": "MIT"
+  "license": "MIT",
   "keywords": [
     "gatsby"
   ],
@@ -62,11 +62,5 @@
     "sharp": "^0.31.3",
     "slugify": "^1.6.5",
     "svgo": "^3.0.2"
-  },
-  "jest": {
-    "bail": 0,
-    "setupFilesAfterEnv": [
-      "jest-extended/all"
-    ]
   }
 }
