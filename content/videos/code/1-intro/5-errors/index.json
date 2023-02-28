@@ -3,6 +3,7 @@
   "description": "In this video, I take a look at the p5.js console and error messages.",
   "videoNumber": "1.5",
   "videoId": "LuGsp5KeJMM",
+  "nebulaSlug": "coding-train-1-5-errors-console-p5-js-tutorial",
   "date": "2018-09-10",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["errors", "debugging", "basics"],

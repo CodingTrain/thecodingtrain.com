@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "YN8Q-QEmQ8Y",
+  "nebulaSlug": "the-coding-train-yt-1-4-static-functions-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:14", "title": "Instance functions" },

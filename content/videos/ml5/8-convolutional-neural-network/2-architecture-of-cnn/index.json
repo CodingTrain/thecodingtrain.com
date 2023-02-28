@@ -3,6 +3,7 @@
   "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \"filters\".",
   "videoNumber": "8.2",
   "videoId": "qPKsVAI_W6M",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-what-is-a-convolutional-neural-network-part-1-filters",
   "date": "2020-02-23",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["convolutional neural network", "machine learning"],

@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["dotenv"],
   "videoId": "17UVejOw3zA",
+  "nebulaSlug": "codingtrain-3-4-hiding-api-keys-with-environment-variables-dotenv-and-pushing-code-to-github",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! How can we hide the API key?" },

@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["deployment", "glitch", "heroku"],
   "videoId": "Rz886HkV1j4",
+  "nebulaSlug": "codingtrain-3-5-web-application-deployment-glitch-and-heroku-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome to the final video!" },

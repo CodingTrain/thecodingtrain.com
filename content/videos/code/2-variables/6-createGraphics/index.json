@@ -3,6 +3,7 @@
   "description": "In this video, I cover createGraphics() in p5.js in order to demonstrate how to draw some shapes with trails and some without.",
   "videoNumber": "2.6",
   "videoId": "TaluaAD9MKA",
+  "nebulaSlug": "coding-train-2-6-creategraphics-p5-js-tutorial",
   "date": "2019-02-13",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["createGraphics"],

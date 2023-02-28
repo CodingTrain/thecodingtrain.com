@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["api"],
   "videoId": "Tiot877orkU",
+  "nebulaSlug": "codingtrain-3-2-open-air-quality-api-in-node-js-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What do we have so far?" },

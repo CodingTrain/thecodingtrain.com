@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "WBdhAuWS6X8",
+  "nebulaSlug": "coding-train-yt-2-3-friction-force-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Welcome back!" },
     { "time": "1:00", "title": "Formula for friction" },

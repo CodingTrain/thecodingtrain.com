@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["database"],
   "videoId": "q-lUgFxwjEM",
+  "nebulaSlug": "codingtrain-2-5-database-query-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What will we do?" },

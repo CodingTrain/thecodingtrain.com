@@ -3,6 +3,7 @@
   "description": "In this video, I look at how to organize your code into multiple JavaScript files in the p5.js web editor.",
   "videoNumber": "6.4",
   "videoId": "5nf41qLeagU",
+  "nebulaSlug": "coding-train-6-4-p5-js-web-editor-adding-javascript-files",
   "date": "2018-10-05",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "objects", "editor"],

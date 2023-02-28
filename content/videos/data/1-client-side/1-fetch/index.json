@@ -5,6 +5,7 @@
   "languages": ["JavaScript"],
   "topics": ["fetch", "promises", "apis"],
   "videoId": "tc8DU14qX6I",
+  "nebulaSlug": "codingtrain-1-1-fetch-working-with-data-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What is fetch()?" },

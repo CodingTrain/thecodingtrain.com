@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "L7CECWLdTmo",
+  "nebulaSlug": "the-coding-train-yt-2-2-mass-and-acceleration-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "Welcome back!" },
     { "time": "0:43", "title": "Add a second Mover object" },

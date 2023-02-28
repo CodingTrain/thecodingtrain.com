@@ -3,6 +3,7 @@
   "description": "This video takes the sketch from the previous video on training your own ml5.js neural network, and shows how to save the data collected in a JSON file which can be loaded again later.",
   "videoNumber": "6.2",
   "videoId": "q6cwxORPDo8",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-save-neural-network-training-data",
   "date": "2019-12-05",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["neural network", "machine learning", "saving data"],

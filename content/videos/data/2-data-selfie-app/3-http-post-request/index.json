@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["fetch"],
   "videoId": "Kw5tC5nQMRY",
+  "nebulaSlug": "codingtrain-2-3-http-post-request-with-fetch-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome!" },

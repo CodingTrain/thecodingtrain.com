@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "EpgB3cNhKPM",
+  "nebulaSlug": "the-coding-train-yt-2-5-gravitational-attraction-the-nature-of-code",
   "timestamps": [
     { "time": "0:00", "title": "It's time for gravitational attraction!" },
     { "time": "1:17", "title": "Diagram the mover and attractor" },
