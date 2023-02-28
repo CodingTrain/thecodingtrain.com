@@ -5,7 +5,14 @@
   "topics": ["For beginners"],
   "videoId": "T84AWnntxZA",
   "nebulaSlug": "the-coding-train-yt-1-6-acceleration-vector-the-nature-of-code",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to the last video in Chapter 1!" },
+    { "time": "0:47", "title": "Acceleration is the change in velocity" },
+    { "time": "2:34", "title": "Motion 101 algorithm" },
+    { "time": "4:38", "title": "Limit function" },
+    { "time": "6:57", "title": "The 3 step process to add acceleration" },
+    { "time": "9:50", "title": "Suggested exercises" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

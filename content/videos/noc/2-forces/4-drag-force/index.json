@@ -5,7 +5,19 @@
   "topics": ["For beginners"],
   "videoId": "DxFDgOYEoy8",
   "nebulaSlug": "the-coding-train-yt-24-drag-force-the-nature-of-code",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:06", "title": "Formula for drag" },
+    { "time": "1:37", "title": "Direction of drag" },
+    { "time": "2:15", "title": "Density" },
+    { "time": "2:52", "title": "Surface area" },
+    { "time": "3:45", "title": "Coefficient of drag" },
+    { "time": "4:09", "title": "Simplified drag force" },
+    { "time": "4:39", "title": "Drag force is proportional to speed" },
+    { "time": "7:45", "title": "Add a rectangle with a different drag force" },
+    { "time": "9:29", "title": "Possible exercises" },
+    { "time": "10:28", "title": "See you in the next video!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

@@ -6,7 +6,16 @@
   "videoId": "bKEaK7WNLzM",
   "nebulaSlug": "the-coding-train-yt-1-1-what-is-a-vector-the-nature-of-code",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to Chapter 1!" },
+    { "time": "1:08", "title": "Scalars have magnitude" },
+    { "time": "2:09", "title": "Vectors have magnitude and direction" },
+    { "time": "3:40", "title": "Thinking of (x,y) as a vector" },
+    { "time": "9:03", "title": "createVector()" },
+    { "time": "9:34", "title": "Add vectors to the random walker code" },
+    { "time": "11:35", "title": "Create a Walker object" },
+    { "time": "14:00", "title": "Next up: start adding the foundation for a physics engine" }
+  ],
   "codeExamples": [
     {
       "title": "What is a Vector",

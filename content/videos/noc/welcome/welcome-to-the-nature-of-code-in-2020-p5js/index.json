@@ -5,7 +5,12 @@
   "topics": ["For beginners"],
   "videoId": "70MQ-FugwbI",
   "nebulaSlug": "the-coding-train-yt-welcome-to-the-nature-of-code-2-0-in-2020-p5-js",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to The Nature of Code playlist!" },
+    { "time": "1:48", "title": "NOC on GitHub" },
+    { "time": "2:30", "title": "Kadenze course" },
+    { "time": "2:48", "title": "The Nature of Code book" }
+  ],
   "groupLinks": [
     {
       "title": "References",

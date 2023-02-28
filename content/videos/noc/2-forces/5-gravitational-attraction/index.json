@@ -5,7 +5,21 @@
   "topics": ["For beginners"],
   "videoId": "EpgB3cNhKPM",
   "nebulaSlug": "the-coding-train-yt-2-5-gravitational-attraction-the-nature-of-code",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "It's time for gravitational attraction!" },
+    { "time": "1:17", "title": "Diagram the mover and attractor" },
+    { "time": "1:43", "title": "Formula for gravitational attraction" },
+    { "time": "3:51", "title": "Add an attractor" },
+    { "time": "5:00", "title": "Add an attractor class" },
+    { "time": "7:06", "title": "Revisit the diagram" },
+    { "time": "7:52", "title": "Add an attract function" },
+    { "time": "10:46", "title": "Role of distance squared" },
+    { "time": "11:52", "title": "Constrain the range of distance squared" },
+    { "time": "12:33", "title": "Give mover an inital velocity" },
+    { "time": "13:25", "title": "Give the background some alpha" },
+    { "time": "13:44", "title": "Add an array of mover objects" },
+    { "time": "15:12", "title": "Possible variations" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

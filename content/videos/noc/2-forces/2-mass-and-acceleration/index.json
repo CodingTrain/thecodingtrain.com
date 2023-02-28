@@ -5,7 +5,16 @@
   "topics": ["For beginners"],
   "videoId": "L7CECWLdTmo",
   "nebulaSlug": "the-coding-train-yt-2-2-mass-and-acceleration-the-nature-of-code",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome back!" },
+    { "time": "0:43", "title": "Add a second Mover object" },
+    { "time": "1:53", "title": "Add mass" },
+    { "time": "4:14", "title": "Use the static version of div()" },
+    { "time": "5:02", "title": "Give each mover a different mass" },
+    { "time": "6:06", "title": "Leaning Tower of Pisa experiment" },
+    { "time": "6:56", "title": "Scale gravity by mass" },
+    { "time": "7:48", "title": "Use the square root of mass to visualize the mover" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {

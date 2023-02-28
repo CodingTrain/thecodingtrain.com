@@ -6,7 +6,13 @@
   "videoId": "jupjuq9Jl-M",
   "nebulaSlug": "the-coding-train-yt-1-3-random-vectors-the-nature-of-code",
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:04", "title": "Random vector generator" },
+    { "time": "3:00", "title": "Unit vector" },
+    { "time": "3:46", "title": "random2D()" },
+    { "time": "4:35", "title": "Multiplying vectors by scalars using mult()" }
+  ],
   "codeExamples": [
     {
       "title": "Random Vector",

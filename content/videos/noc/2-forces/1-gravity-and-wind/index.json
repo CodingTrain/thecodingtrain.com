@@ -5,7 +5,19 @@
   "topics": ["For beginners"],
   "videoId": "Uibl0UE4VH8",
   "nebulaSlug": "the-coding-train-yt-2-1-simulating-forces-gravity-and-wind-the-nature-of-code",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to Chapter 2!" },
+    { "time": "0:35", "title": "Newton's First Low" },
+    { "time": "3:49", "title": "Newton's Second Law" },
+    { "time": "5:30", "title": "Euler's Integration" },
+    { "time": "8:43", "title": "Newton's Third Law" },
+    { "time": "10:29", "title": "Implement Newton's Second Law" },
+    { "time": "13:22", "title": "Add edges" },
+    { "time": "15:20", "title": "Check to see if Newton's Second Law is at play" },
+    { "time": "18:00", "title": "Calculate the net force" },
+    { "time": "21:40", "title": "Add the object's radius" },
+    { "time": "23:58", "title": "May the force be with you!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
