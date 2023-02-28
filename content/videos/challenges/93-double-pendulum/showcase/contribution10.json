@@ -1,9 +1,8 @@
 {
-    "title": "Double Pendulum with p5 and Matter.js",
-    "url": "https://dipamsen.github.io/double-pendulum-p5-matter/index.html",
-    "author": {
-        "name": "Dipam Sen",
-        "url": "http://github.com/dipamsen"
-    },
-    "source": "https://github.com/dipamsen/double-pendulum-p5-matter"
+  "title": "Double Pendulum with p5 and Matter.js",
+  "url": "https://dipamsen.github.io/double-pendulum-p5-matter/index.html",
+  "author": {
+    "name": "Dipam Sen",
+    "url": "https://github.com/dipamsen/"
+  }
 }
