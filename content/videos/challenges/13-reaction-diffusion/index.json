@@ -3,15 +3,12 @@
   "description": "In this coding challenge, I visualize a Reaction Diffusion simulation using the Gray Scott model in JavaScript (with the p5.js library).",
   "videoNumber": "13",
   "videoId": "BV9ny785UNc",
+  "nebulaSlug": "the-coding-train-coding-challenge-13-reaction-diffusion-algorithm-in-p5js",
   "date": "2016-05-26",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["math", "reaction diffusion"],
   "canContribute": true,
-  "relatedChallenges": [
-    "85-the-game-of-life",
-    "90-dithering",
-    "103-fire-effect"
-  ],
+  "relatedChallenges": ["85-the-game-of-life", "90-dithering", "103-fire-effect"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "0:36", "title": "The Gray-Scott model" },

@@ -3,6 +3,7 @@
   "description": "Happy Pi Day! To celebrate I attempt to compute the digits of Pi using the \u201ccollisions\u201d method, thanks to 3Blue1Brown for the idea!",
   "videoNumber": "139",
   "videoId": "PoW8g67XNxA",
+  "nebulaSlug": "the-coding-train-coding-challenge-139-calculating-digits-of-pi-with-collisions",
   "date": "2019-03-14",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["3blue1brown", "elastic collision", "pi day", "euler method"],

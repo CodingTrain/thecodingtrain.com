@@ -3,16 +3,12 @@
   "description": "It's finally time to attempt a Self-Avoiding Walk! In this video, I quickly visualize a simple JavaScript p5.js implementation of a self-avoiding walk. I then tackle the more complex problem of backtracking to find a solution to a space-filling self-avoiding walk.",
   "videoNumber": "162",
   "videoId": "m6-cm6GZ1iw",
+  "nebulaSlug": "coding-train-coding-challenge-162-selfavoiding-walk",
   "date": "2021-06-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["self avoiding walk", "backtracking"],
   "canContribute": true,
-  "relatedChallenges": [
-    "52-random-walker",
-    "10-dfs-maze-generator",
-    "51-a-pathfinding-algorithm",
-    "71-minesweeper"
-  ],
+  "relatedChallenges": ["52-random-walker", "10-dfs-maze-generator", "51-a-pathfinding-algorithm", "71-minesweeper"],
   "timestamps": [
     {
       "time": "0:00:00",

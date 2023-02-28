@@ -3,15 +3,12 @@
   "description": "Sure, flappy bird is fun, but what happens if we take away the button and control the bird with clapping! Yes, it's time for Clappy Bird!",
   "videoNumber": "41",
   "videoId": "aKiyCeIuwn4",
+  "nebulaSlug": "the-coding-train-coding-challenge-41-clappy-bird",
   "date": "2016-10-20",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["flappy bird", "game development", "clappy bird"],
   "canContribute": true,
-  "relatedChallenges": [
-    "31-flappy-bird",
-    "147-chrome-dinosaur-game",
-    "100-neuroevolution-flappy-bird"
-  ],
+  "relatedChallenges": ["31-flappy-bird", "147-chrome-dinosaur-game", "100-neuroevolution-flappy-bird"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "0:34", "title": "About the positioning of the pipes" },

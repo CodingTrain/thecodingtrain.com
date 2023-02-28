@@ -3,14 +3,10 @@
   "description": "In this coding challenge, I attempt to create rose (rhodonea) curves using trigonometry function and polar coordinates.",
   "videoNumber": "55",
   "videoId": "f5QBExMNB1I",
+  "nebulaSlug": "the-coding-train-coding-challenge-55-mathematical-rose-patterns",
   "date": "2017-02-08",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "algorithmic roses",
-    "mathematics roses",
-    "polar coordinates",
-    "trigonometry"
-  ],
+  "topics": ["algorithmic roses", "mathematics roses", "polar coordinates", "trigonometry"],
   "canContribute": true,
   "relatedChallenges": [
     "116-lissajous-curve-table",

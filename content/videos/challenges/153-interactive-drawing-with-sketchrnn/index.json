@@ -3,6 +3,7 @@
   "description": "This challenge uses the pre-trained SketchRNN machine learning model (available with the ml5.js library) to create a p5.js sketch that finishes a person's drawing.",
   "videoNumber": "153",
   "videoId": "ZCXkvwLxBrA",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-153-interactive-drawing-with-machine-learning-model-sketchrnn",
   "date": "2019-10-31",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],

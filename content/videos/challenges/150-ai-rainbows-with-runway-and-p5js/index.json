@@ -3,6 +3,7 @@
   "description": "In this challenge I generate rainbows using the StyleGAN Machine Learning model available in Runway ML and send the rainbows to the browser with p5.js! This challenge is based on the live coding talk from the 2019 Eyeo Festival.",
   "videoNumber": "150",
   "videoId": "vEetoBuHj8g",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-150-ai-rainbows-with-runway-and-p5-js",
   "date": "2019-08-22",
   "languages": ["runwayML", "p5.js"],
   "topics": ["styleGan", "machine learning", "latent space"],

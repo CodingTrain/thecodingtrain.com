@@ -2,15 +2,10 @@
   "title": "Islamic Star Patterns",
   "description": "In this bonus super-sized coding challenge, I work through visualizing Islamic Star Patterns in p5.js.",
   "videoNumber": "54",
-  "videoId": "sJ6pMLp_IaI",
+  "videoId": "",
   "date": "2017-02-01",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "islamic star patterns",
-    "hankins",
-    "tile pattern",
-    "law of sines"
-  ],
+  "topics": ["islamic star patterns", "hankins", "tile pattern", "law of sines"],
   "canContribute": true,
   "relatedChallenges": ["155-kaleidoscope-snowflake"],
   "timestamps": [],
@@ -18,6 +13,7 @@
     {
       "title": "Part 1 - Implementing the Star Patterns",
       "videoId": "sJ6pMLp_IaI",
+      "nebulaSlug": "the-coding-train-coding-challenge-54-1-islamic-star-patterns",
       "timestamps": [
         { "time": "00:00", "title": "Introduction" },
         { "time": "03:10", "title": "References and theory" },
@@ -50,6 +46,7 @@
     {
       "title": "Part 2 - Refactoring using the Law of Sines",
       "videoId": "lobJ9gzbLo8",
+      "nebulaSlug": "the-coding-train-coding-challenge-54-2-star-patterns-update-law-of-sines",
       "timestamps": [
         { "time": "00:00", "title": "Follow-up video opening" },
         { "time": "00:28", "title": "Community created version" },

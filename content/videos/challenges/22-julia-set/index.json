@@ -3,6 +3,7 @@
   "description": "In this coding challenge, I program the Julia Set fractal in Processing (Java).",
   "videoNumber": "22",
   "videoId": "fAsaSkmbF5s",
+  "nebulaSlug": "the-coding-train-coding-challenge-22-julia-set-in-processing",
   "date": "2016-06-16",
   "languages": ["Processing"],
   "topics": ["julia set", "mandelbrot set", "fractal", "complex number"],

@@ -3,17 +3,10 @@
   "description": "Let's code some Metaballs (aka Isosurfaces) in Processing and how to control them using the Blob Detection methodology from my computer vision tutorial!",
   "videoNumber": "28",
   "videoId": "ccYLb7cLB1I",
+  "nebulaSlug": "the-coding-train-coding-challenge-28-metaballs",
   "date": "2016-07-15",
   "languages": ["Processing"],
-  "topics": [
-    "computer vision",
-    "blob detection",
-    "load pixels",
-    "pixel analysis",
-    "object tracking",
-    "metaballs",
-    "isosurfaces"
-  ],
+  "topics": ["computer vision", "blob detection", "load pixels", "pixel analysis", "object tracking", "metaballs", "isosurfaces"],
   "canContribute": true,
   "relatedChallenges": ["c4-worley-noise", "c5-marching-squares"],
   "timestamps": [

@@ -34,6 +34,7 @@ const video = {
           properties: {
             title: { isRequired: true, type: 'string' },
             videoId: { isRequired: true, type: 'string' },
+            nebulaSlug: { isRequired: false, type: 'string' },
             timestamps: {
               type: 'array',
               content: {

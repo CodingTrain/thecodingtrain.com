@@ -3,15 +3,12 @@
   "description": "In this coding challenge, I implement a \"Poisson-disc Sampling\" algorithm to evenly (but randomly) distribute a set of seed points throughout a canvas. The algorithm is implemented in JavaScript using p5.js.",
   "videoNumber": "33",
   "videoId": "flQgnCUxHlw",
+  "nebulaSlug": "the-coding-train-coding-challenge-33-poisson-disc-sampling",
   "date": "2016-08-22",
   "languages": ["p5.js", "Processing"],
   "topics": ["poisson disc sampling", "Siméon Denis Poisson"],
   "canContribute": true,
-  "relatedChallenges": [
-    "98-quadtree",
-    "70-nearest-neighbors-recommendation-engine",
-    "95-approximating-the-value-of-pi"
-  ],
+  "relatedChallenges": ["98-quadtree", "70-nearest-neighbors-recommendation-engine", "95-approximating-the-value-of-pi"],
   "timestamps": [
     {
       "time": "0:00",

@@ -3,6 +3,7 @@
   "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I animate the path of the classic \"space filling curve\" known as the Hilbert Curve.",
   "videoNumber": "C3",
   "videoId": "dSK-MW-zuAc",
+  "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-3-hilbert-curve",
   "date": "2020-02-08",
   "languages": ["Processing"],
   "topics": ["hilbert curve", "iterative algorithm", "space-filling"],

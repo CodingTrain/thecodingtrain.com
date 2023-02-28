@@ -8,11 +8,7 @@
   "languages": ["BASIC"],
   "topics": ["fractal", "1980s", "AppleII", "bouncing ball"],
   "canContribute": true,
-  "relatedChallenges": [
-    "77-recursion",
-    "14-fractal-trees-recursive",
-    "173-snake-applesoft-basic"
-  ],
+  "relatedChallenges": ["77-recursion", "14-fractal-trees-recursive", "173-snake-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Hello from 1981!" },
     { "time": "0:16", "title": "Coding Together Theme" },

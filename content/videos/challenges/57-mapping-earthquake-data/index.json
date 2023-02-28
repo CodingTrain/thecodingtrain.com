@@ -3,6 +3,7 @@
   "description": "In this coding challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js. The map imagery is pulled from mapbox and the math demonstrated converts latitude, longitude to x,y via Web Mercator.",
   "videoNumber": "57",
   "videoId": "ZiYdOwOrGyc",
+  "nebulaSlug": "the-coding-train-coding-challenge-57-mapping-earthquake-data",
   "date": "2017-02-13",
   "languages": ["p5.js"],
   "topics": ["earthquake data", "mapbox", "mapping", "mercator projection"],
