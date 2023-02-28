@@ -4,7 +4,17 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "WBdhAuWS6X8",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome back!" },
+    { "time": "1:00", "title": "Formula for friction" },
+    { "time": "2:35", "title": "Coefficient of friction" },
+    { "time": "3:24", "title": "The Normal force" },
+    { "time": "5:33", "title": "Add a friction function" },
+    { "time": "8:22", "title": "Add an array of objects" },
+    { "time": "10:30", "title": "\"Quick and dirty\" algorithm" },
+    { "time": "11:56", "title": "Possible exercises" },
+    { "time": "13:57", "title": "Next up -- some case studies" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
