@@ -1,7 +1,9 @@
 # Coding Train Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
@@ -26,6 +28,12 @@ This will start a local server and the website will now be accessible on [localh
 
 **Note:** In some cases, specially when updating loaded content, you need to restart the local server with `npm run dev`.
 And in some cases that may fail because of Gatsby's cache usage. If you run `npm run clean` before `npm run dev`, that should fix it.
+
+## License
+
+This repository is licensed under the MIT License. See [LICENSE](./LICENSE) for more information.
+
+Please note that while the code in this repository is licensed under the MIT License, any brand and visual assets included in this repository are not covered by the license. These assets, including but not limited to images, icons, and logos, are solely intended for use on thecodingtrain.com and should not be reused or distributed without express permission. If you have any questions regarding the use of these assets, please contact help@thecodingtrain.com.
 
 ## Contributors ✨
 
