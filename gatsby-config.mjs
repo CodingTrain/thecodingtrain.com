@@ -1,7 +1,7 @@
-const postcssGlobalData = require('@csstools/postcss-global-data');
-const remarkGFM = require('remark-gfm');
+import postcssGlobalData from '@csstools/postcss-global-data';
+import remarkGFM from 'remark-gfm';
 
-module.exports = {
+export default {
   siteMetadata: {
     siteUrl: 'https://thecodingtrain.com',
     title: 'The Coding Train',

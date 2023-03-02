@@ -1,4 +1,4 @@
-const glob = require('glob');
+const { globSync } = require('glob');
 const fs = require('fs');
 
 describe('challenge videos should never have a canonicalTrack property', () => {
@@ -57,26 +57,24 @@ describe('track videos `canonicalTrack`', () => {
 // ---
 
 function getChallengeVideos() {
-  return glob.sync('content/videos/challenges/**/index.json').map((file) => {
+  return globSync('content/videos/challenges/**/index.json').map((file) => {
     const content = JSON.parse(fs.readFileSync(file));
     return [file, content];
   });
 }
 
 function getTrackVideos() {
-  return glob
-    .sync('content/videos/**/index.json', {
-      ignore: 'content/videos/challenges/**'
-    })
-    .map((file) => {
-      const content = JSON.parse(fs.readFileSync(file));
-      const slug = file.split('content/videos/')[1].split('/index.json')[0];
-      return [file, slug, content];
-    });
+  return globSync('content/videos/**/index.json', {
+    ignore: 'content/videos/challenges/**'
+  }).map((file) => {
+    const content = JSON.parse(fs.readFileSync(file));
+    const slug = file.split('content/videos/')[1].split('/index.json')[0];
+    return [file, slug, content];
+  });
 }
 
 function getTracks() {
-  const refs = glob.sync('content/tracks/**/index.json').map((file) => {
+  const refs = globSync('content/tracks/**/index.json').map((file) => {
     const content = JSON.parse(fs.readFileSync(file));
 
     // pluck out video slugs from main and side tracks for convenience

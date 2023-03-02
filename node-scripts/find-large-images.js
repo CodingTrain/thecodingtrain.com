@@ -1,13 +1,12 @@
-const glob = require('glob');
+const { globSync } = require('glob');
 const fs = require('fs');
 
-// options is optional
-glob('**/showcase/contribution*.png', {}, function (e, files) {
-  files.forEach((file) => {
-    const stats = fs.statSync(file);
-    const sizeMb = stats.size / (1024 * 1024);
-    if (sizeMb > 1) {
-      console.log(file, sizeMb);
-    }
-  });
-});
+const files = globSync('**/showcase/contribution*.png');
+
+for (const file of files) {
+  const stats = fs.statSync(file);
+  const sizeMb = stats.size / (1024 * 1024);
+  if (sizeMb > 1) {
+    console.log(file, sizeMb);
+  }
+}
