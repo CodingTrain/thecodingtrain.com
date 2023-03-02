@@ -6,6 +6,7 @@ import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import PartsTimeline from './PartsTimeline';
+import NebulaVideoLink from '../NebulaVideoLink';
 
 import { filteredPath } from '../../utils';
 
@@ -24,7 +25,7 @@ const VideoSection = ({ challenge }) => {
   const [activePart, setActivePart] = useState(
     challenge.parts?.[0] ?? challenge
   );
-  const { videoId, timestamps } = activePart;
+  const { videoId, nebulaSlug, timestamps } = activePart;
   const hasTimestamps = timestamps?.length > 0;
   const hasTimeline = hasMultiParts || hasTimestamps;
 
@@ -170,6 +171,8 @@ const VideoSection = ({ challenge }) => {
           </div>
         )}
       </div>
+
+      {nebulaSlug && <NebulaVideoLink nebulaSlug={nebulaSlug} />}
     </div>
   );
 };

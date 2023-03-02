@@ -204,6 +204,7 @@ export const query = graphql`
       title
       slug
       videoId
+      nebulaSlug
       description
       languages
       topics
@@ -215,6 +216,7 @@ export const query = graphql`
       parts {
         title
         videoId
+        nebulaSlug
         timestamps {
           time
           title

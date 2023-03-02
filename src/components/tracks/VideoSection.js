@@ -6,6 +6,7 @@ import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
+import NebulaVideoLink from '../NebulaVideoLink';
 
 import { filteredPath } from '../../utils';
 import { useChallengePartIndex } from '../../hooks';
@@ -34,6 +35,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
   const partIndex = useChallengePartIndex();
   const part = video.parts?.[partIndex];
   const videoId = part?.videoId ?? video.videoId;
+  const nebulaSlug = part?.nebulaSlug ?? video.nebulaSlug;
   const timestamps = part?.timestamps ?? video.timestamps;
 
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
@@ -178,6 +180,8 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
           </nav>
         </div>
       </div>
+
+      {nebulaSlug && <NebulaVideoLink nebulaSlug={nebulaSlug} />}
     </div>
   );
 };

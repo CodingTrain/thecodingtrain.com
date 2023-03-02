@@ -21,6 +21,7 @@ interface VideoInterface implements Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
 
   # as resolver
   showcase: [Contribution]
@@ -45,6 +46,7 @@ type Video implements VideoInterface & Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
 
   # as resolver
   showcase: [Contribution]
@@ -69,6 +71,7 @@ type Challenge implements VideoInterface & Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
 
   # as resolver
   showcase: [Contribution]
@@ -94,6 +97,7 @@ type GuestTutorial implements VideoInterface & Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
 
   canonicalTrack: Track # just to satisfy VideoInterface, will always be null
 }
@@ -121,6 +125,7 @@ type Timestamp implements Node {
 type ChallengePart implements Node {
   title: String!
   videoId: String!
+  nebulaSlug: String
   timestamps: [Timestamp!]
 }
 
