@@ -13,10 +13,6 @@
   flex-wrap: wrap;
   padding: 0 var(--box-padding);
   text-decoration: underline;
-
-  & img {
-    padding-left: 13px;
-  }
 }
 
 .text {

@@ -17,6 +17,7 @@ const NebulaVideoLink = ({ nebulaSlug }) => {
           height={22}
           alt="Nebula logo"
           placeholder="none"
+          style={{ marginLeft: '13px' }}
           imgStyle={{ transition: 'none' }}
         />
       </a>
