@@ -32,14 +32,15 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "175-3D-cube-applesoft-basic",
-      "57-mapping-earthquake-data",
-      "149-tic-tac-toe",
-      "66-javascript-countdown-timer",
-      "14-fractal-trees-recursive",
-      "26-3d-supershapes",
-      "70-nearest-neighbors-recommendation-engine",
-      "81-circle-morphing",
-      "112-3d-rendering-with-rotation-and-projection"
+      "95-approximating-the-value-of-pi",
+      "96-visualizing-digits-of-pi",
+      "97-book-of-pi",
+      "139-calculating-digits-of-pi-with-collisions",
+      "140-pi-leibniz",
+      "141-mandelbrot-pi",
+      "156-peeking-inside-pi",
+      "161-estimating-pi-from-random-numbers",
+      "169-pi-in-the-sky"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,15 +51,15 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/149-tic-tac-toe/showcase/contribution-1664993902.json",
-      "challenges/66-javascript-countdown-timer/showcase/contribution2.json",
-      "challenges/14-fractal-trees-recursive/showcase/contribution-1673724816.json",
-      "challenges/14-fractal-trees-recursive/showcase/contribution6.json",
-      "challenges/26-3d-supershapes/showcase/contribution1.json",
-      "challenges/81-circle-morphing/showcase/contribution4.json",
-      "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution-1671102871.json",
-      "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution5.json",
-      "challenges/149-tic-tac-toe/showcase/contribution1.json"
+      "challenges/95-approximating-the-value-of-pi/showcase/contribution2.json",
+      "challenges/96-visualizing-digits-of-pi/showcase/contribution1.json",
+      "challenges/97-book-of-pi/showcase/contribution2.json",
+      "challenges/139-calculating-digits-of-pi-with-collisions/showcase/contribution6.json",
+      "challenges/140-pi-leibniz/showcase/contribution4.json",
+      "challenges/141-mandelbrot-pi/showcase/contribution2.json",
+      "challenges/161-estimating-pi-from-random-numbers/showcase/contribution3.json",
+      "challenges/169-pi-in-the-sky/showcase/contribution1.json",
+      "challenges/95-approximating-the-value-of-pi/showcase/contribution4.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",

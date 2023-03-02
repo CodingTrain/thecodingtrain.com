@@ -10,9 +10,9 @@
     { "time": "1:14", "title": "Perlin noise" },
     { "time": "2:00", "title": "Procedural textures" },
     { "time": "5:04", "title": "Perlin noise values over time" },
-    { "time": "7:10", "title": "How is perlin noise generated?" },
+    { "time": "7:10", "title": "How is Perlin noise generated?" },
     { "time": "8:05", "title": "Cosine interpolation" },
-    { "time": "9:36", "title": "Adding the octives" },
+    { "time": "9:36", "title": "Adding the octaves" },
     { "time": "11:30", "title": "Thanks for watching!" }
   ],
   "codeExamples": [],
