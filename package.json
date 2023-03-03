@@ -51,11 +51,11 @@
     "react-icons": "^4.7.1",
     "react-select": "^5.7.0",
     "react-youtube": "^10.1.0",
-    "remark-gfm": "^1.0.0",
-    "yup": "^1.0.0"
+    "remark-gfm": "^3.0.1",
+    "yup": "^1.0.2"
   },
   "devDependencies": {
-    "glob": "^8.1.0",
+    "glob": "^9.1.2",
     "jest": "^29.4.3",
     "lodash": "^4.17.21",
     "prettier": "^2.8.4",

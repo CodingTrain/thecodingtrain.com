@@ -9,7 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const glob = require('glob');
+const { globSync } = require('glob');
 
 const videos = [];
 
@@ -20,7 +20,7 @@ const videos = [];
  * @returns {any[]}
  */
 function findContentFilesRecursive(dir) {
-  const files = glob.sync(`${dir}/**/index.json`);
+  const files = globSync(`${dir}/**/index.json`);
   return files;
 }
 
