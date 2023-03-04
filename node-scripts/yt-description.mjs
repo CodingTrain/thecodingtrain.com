@@ -4,12 +4,14 @@
 // npm run yt-desc
 // npm run yt-desc https://thecodingtrain.com/path/to/video/page
 // npm run yt-desc ./path/to/index.json
+// npm run yt-desc ./path/to/index.json -- -c # copy desc to clipboard
 
 // Output files are saved to `./_descriptions` directory
 
-const fs = require('fs');
-const path = require('path');
-const { globSync } = require('glob');
+import fs from 'fs';
+import path from 'path';
+import { globSync } from 'glob';
+import clipboard from 'clipboardy';
 
 const videos = [];
 
@@ -372,7 +374,7 @@ Music from Epidemic Sound`;
 
   // General Links
   description += `
-🚂 Website: http://thecodingtrain.com/
+🚂 Website: https://thecodingtrain.com/
 👾 Share Your Creation! https://thecodingtrain.com/guides/passenger-showcase-guide
 🚩 Suggest Topics: https://github.com/CodingTrain/Suggestion-Box
 💡 GitHub: https://github.com/CodingTrain
@@ -415,11 +417,12 @@ const sideTracks = findContentFilesRecursive('content/tracks/side-tracks')
   .filter((x) => x);
 const allTracks = [...mainTracks, ...sideTracks];
 
-(() => {
+(async () => {
   console.log('💫 Generating YouTube Descriptions 💫');
 
   const args = process.argv.slice(2);
-  const video = args[0];
+  const video = args.filter((arg) => !arg.startsWith('-'))[0];
+  const copyToClipboard = args.includes('-c');
 
   const directory = 'content/videos';
 
@@ -451,6 +454,15 @@ const allTracks = [...mainTracks, ...sideTracks];
       console.log('=====================================================');
       console.log(description);
       console.log('=====================================================');
+
+      if (copyToClipboard) {
+        try {
+          await clipboard.write(description);
+          console.log('\n📋 Copied to clipboard');
+        } catch (e) {
+          console.log('\n❌ Failed to copy to clipboard');
+        }
+      }
     }
   } else {
     videos.forEach(writeDescription);

@@ -16,7 +16,7 @@
     "clean": "gatsby clean",
     "test": "jest",
     "testv": "jest --verbose",
-    "yt-desc": "node node-scripts/yt-description",
+    "yt-desc": "node node-scripts/yt-description.mjs",
     "tags-transforms": "node node-scripts/tags-transforms"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "@mdx-js/react": "^2.3.0",
     "@octokit/core": "^4.2.0",
     "classnames": "^2.3.2",
+    "clipboardy": "^3.0.0",
     "copy-to-clipboard": "^3.3.3",
     "gatsby": "^5.7.0",
     "gatsby-awesome-pagination": "^0.3.8",
