@@ -18,6 +18,19 @@
             "title": "Word Counter in JavaScript",
             "videoId": "https://youtu.be/unm0BLor8aE",
             "timestamps": [
+                { "time": "0:00", "title": "Introduction" },
+                { "time": "0:50", "title": "Let's get started!" },
+                { "time": "1:30", "title": "Load the text" },
+                { "time": "2:15", "title": "Make an array of all the words" },
+                { "time": "4:00", "title": "So how do we do this? The algorithm!" },
+                { "time": "5:45", "title": "Let's implement it in code" },
+                { "time": "9:10", "title": "Ignoring numbers" },
+                { "time": "10:30", "title": "Ignoring case sensitivity" },
+                { "time": "11:00", "title": "Understanding the order in a JavaScript object" },
+                { "time": "13:15", "title": "Sorting based on the value" },
+                { "time": "18:30", "title": "Sorted list of the words based on word count" },
+                { "time": "19:30", "title": "Things you can do" },
+                { "time": "21:16", "title": "Thanks for watching!" }
             ]
         },
         {
