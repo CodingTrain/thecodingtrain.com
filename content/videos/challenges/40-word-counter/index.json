@@ -37,6 +37,15 @@
             "title": "Word Counter in Processing",
             "videoId": "https://youtu.be/fxQ0B6BkfKo",
             "timestamps": [
+                { "time": "0:00", "title": "Introduction" },
+                { "time": "0:25", "title": "Dictionary in Processing" },
+                { "time": "1:10", "title": "Load text file and split them into words" },
+                { "time": "3:10", "title": "Implementing the algorithm" },
+                { "time": "3:40", "title": "Let's look at IntDict reference" },
+                { "time": "6:10", "title": "Iterate through the array" },
+                { "time": "7:50", "title": "A little bit of debugging" },
+                { "time": "8:30", "title": "Setting the font-size according to the word count" },
+                { "time": "9:20", "title": "Thank you!" }
             ]
         },
         {
