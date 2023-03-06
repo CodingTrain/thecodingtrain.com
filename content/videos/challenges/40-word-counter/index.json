@@ -49,23 +49,23 @@
     "codeExamples": [
         {
             "title": "Part 1 - Word Counter in p5js",
-            "description": "",
+            "description": "A word counter web application written in p5.js",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/icFi8MF7N"
             }
         },
         {
             "title": "Part 2 - Word Counter in Processing",
-            "description": "",
+            "description": "A word counter visualizer in Processing",
             "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_040.1_wordcounts/P5"
+                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/040.1_wordcounts/Processing"
             }
         },
         {
             "title": "Part 3 - Implementation of TF-IDF",
-            "description": "",
+            "description": "Implementation of the tf-idf on the word counter web application",
             "urls": {
-                "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_040.1_wordcounts/Processing"
+                "p5": "https://editor.p5js.org/codingtrain/sketches/u0C4FV8sg"
             }
         }
     ],
