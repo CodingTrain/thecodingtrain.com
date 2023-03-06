@@ -77,6 +77,11 @@
                     "title": "ITP from Tisch School of the Arts",
                     "url": "https://tisch.nyu.edu/itp",
                     "description": "Website of ITP NYU"
+                },
+                {
+                    "title": "TF-IDF",
+                    "url": "https://en.wikipedia.org/wiki/Tf%E2%80%93idf",
+                    "description": "Wikipedia article on the TF-IDF algorithm"
                 }
             ]
         }
