@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "leaflet.js"],
   "topics": ["setInterval", "api", "mapping"],
   "videoId": "jKQUHGpOHqg",
+  "nebulaSlug": "codingtrain-1-6-refreshing-data-with-setinterval-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What have we done so far?" },
@@ -83,13 +84,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-05-29"
 }

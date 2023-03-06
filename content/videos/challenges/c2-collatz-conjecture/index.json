@@ -3,6 +3,7 @@
   "description": "It's the second episode of Coding in the Cabana! Here I attempt to visualize the Collatz Conjecture in Processing.",
   "videoNumber": "C2",
   "videoId": "EYLWxwo1Ed8",
+  "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-2-collatz-conjecture",
   "date": "2019-10-27",
   "languages": ["Processing"],
   "topics": ["collatz conjecture", "modulo"],

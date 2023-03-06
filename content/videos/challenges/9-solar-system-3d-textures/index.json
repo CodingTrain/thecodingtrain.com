@@ -3,7 +3,7 @@
   "description": "In part 3 of this coding challenge, using Processing, I add textures to the 3D objects created in part 2. The PShape class and createShape() functions are covered.",
   "videoNumber": "9",
   "videoId": "FGAwi7wpU8c",
-  "date": "2016-05-01",
+  "date": "2016-05-02",
   "languages": ["Processing"],
   "topics": ["solar system", "3d", "textures"],
   "canContribute": true,
@@ -64,13 +64,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

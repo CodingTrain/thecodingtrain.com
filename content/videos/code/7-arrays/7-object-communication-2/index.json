@@ -3,6 +3,7 @@
   "description": "This is a continuation of my previous video where I explore shape intersection with object-oriented programming. Here, I demonstrate how to use a nested loop to check every object's position against every other object.",
   "videoNumber": "7.7",
   "videoId": "5Q9cA0REztY",
+  "nebulaSlug": "coding-train-7-7-object-communication-part-2-p5-js-tutorial",
   "date": "2017-12-14",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["arrays", "nested loop", "for loop", "objects"],

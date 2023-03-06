@@ -3,21 +3,12 @@
   "description": "It's the Mandelbulb! What happens when you take the original fractal (The Mandelbrot Set) and extend it into 3D space. And how do you visualize it in Processing (Java) as a point cloud?",
   "videoNumber": "168",
   "videoId": "NJCiUVGiNyA",
-  "date": "2022-03-09",
+  "nebulaSlug": "codingtrain-the-mandelbulb-3d-fractal-coding-challenge-168",
+  "date": "2022-03-11",
   "languages": ["Processing"],
-  "topics": [
-    "3D",
-    "fractals",
-    "voxels",
-    "spherical coordinates",
-    "point clouds"
-  ],
+  "topics": ["3D", "fractals", "voxels", "spherical coordinates", "point clouds"],
   "canContribute": true,
-  "relatedChallenges": [
-    "21-mandelbrot-set-with-p5js",
-    "22-julia-set",
-    "25-spherical-geometry"
-  ],
+  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "22-julia-set", "25-spherical-geometry"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing Today's Topic" },
     { "time": "1:31", "title": "The Mandelbrot set explained" },
@@ -122,13 +113,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

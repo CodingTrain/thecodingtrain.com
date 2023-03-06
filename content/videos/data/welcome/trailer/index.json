@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["data", "api", "fetch"],
   "videoId": "DbcLg8nRWEg",
+  "nebulaSlug": "codingtrain-working-with-data-and-apis-in-javascript",
   "timestamps": [],
   "codeExamples": [],
   "groupLinks": [
@@ -20,13 +21,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-07-08"
 }

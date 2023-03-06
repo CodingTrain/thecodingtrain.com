@@ -3,15 +3,12 @@
   "description": "In this challenge, I attempt to create a Ukulele tuner in JavaScript using p5.js, ml5.js and the pre-trained machine learning model CREPE: A Convolutional REpresentation for Pitch Estimation. Can you make one with a more elegant and creative interface?",
   "videoNumber": "151",
   "videoId": "F1OkDTUkKFo",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-151-ukulele-tuner-with-machine-learning-pitch-detection-model",
   "date": "2019-10-03",
   "languages": ["p5.js", "ml5.js", "JavaScript"],
   "topics": ["machine learning", "pitch detection", "sound", "tuner"],
   "canContribute": true,
-  "relatedChallenges": [
-    "41-clappy-bird",
-    "147-chrome-dinosaur-game",
-    "153-interactive-drawing-with-sketchrnn"
-  ],
+  "relatedChallenges": ["41-clappy-bird", "147-chrome-dinosaur-game", "153-interactive-drawing-with-sketchrnn"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:04", "title": "Import the ml5 library" },

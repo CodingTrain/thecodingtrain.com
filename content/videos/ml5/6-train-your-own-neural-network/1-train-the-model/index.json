@@ -3,6 +3,7 @@
   "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js. The example demonstrated uses the mouse as input and performs classification (the assigned label is a musical note).",
   "videoNumber": "6.1",
   "videoId": "8HEgeAbYphA",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-train-your-own-neural-network",
   "date": "2019-11-22",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["neural network", "machine learning"],

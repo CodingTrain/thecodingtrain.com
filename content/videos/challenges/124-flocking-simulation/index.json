@@ -3,6 +3,7 @@
   "description": "In this coding challenge, I create a flocking simulation in JavaScript based on Craig Reynolds \"boids\" algorithm.",
   "videoNumber": "124",
   "videoId": "mhjuuHl6qHM",
+  "nebulaSlug": "the-coding-train-coding-challenge-124-flocking-simulation",
   "date": "2018-12-11",
   "languages": ["Processing", "p5.js"],
   "topics": ["flocking", "creative coding", "autonomous agents"],

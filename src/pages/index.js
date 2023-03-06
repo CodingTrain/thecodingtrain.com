@@ -125,8 +125,7 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
         href={buttonLink}
         target="_blank"
         rel="noreferrer"
-        aria-label={description}
-      >
+        aria-label={description}>
         {image ? (
           <Image
             image={image}
@@ -144,7 +143,7 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
 };
 
 const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
-  const { title: sectionTitle, cta, featured } = passengerShowcase;
+  const { title: sectionTitle, showcaseCta, featured } = passengerShowcase;
   // First render : empty placeholder
   const [featuredShowcases, setFeaturedShowcases] = useState([{}, {}, {}]);
   useEffect(() => {
@@ -153,20 +152,28 @@ const PassengerShowcaseSection = ({ passengerShowcase, placeholderImage }) => {
   }, [featured]);
 
   return (
-    <section>
+    <section id="passenger-showcase">
       <div className={css.subheader}>
         <Heading2 className={css.subheading} variant="purple">
           {sectionTitle}
         </Heading2>
       </div>
-      <p className={css.showcaseBanner}>{cta.text}</p>
+      <ButtonPanel
+        className={css.showcaseBanner}
+        variant="purple"
+        text={showcaseCta.text}
+        buttonText={showcaseCta.buttonText}
+        buttonLink={showcaseCta.href}
+        smallWrap
+        rainbow
+      />
       <Spacer className={css.verticalSpacer} pattern />
       {featuredShowcases.map((showcase, index) => (
         <React.Fragment key={index}>
           <PassengerShowcaseCard
             showcase={showcase}
             placeholderImage={placeholderImage}
-            cta={cta}
+            cta={showcaseCta}
           />
           {index < 2 && <Spacer className={css.verticalSpacer} pattern />}
         </React.Fragment>
@@ -539,9 +546,10 @@ export const query = graphql`
       }
       passengerShowcase {
         title
-        cta {
+        showcaseCta {
           text
           buttonText
+          href
         }
         featured {
           title

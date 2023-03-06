@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["database"],
   "videoId": "xVYa20DCUv0",
+  "nebulaSlug": "codingtrain-2-4-saving-to-a-database-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! Why do we need a Database?" },
@@ -96,13 +97,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-06-04"
 }

@@ -7,8 +7,8 @@ import cn from 'classnames';
 import * as css from './YouTubeVideo.module.css';
 
 const YouTubeVideo = ({
-  containerClassName,
   className,
+  iframeClassName,
   videoId,
   listId,
   timestamp
@@ -35,8 +35,8 @@ const YouTubeVideo = ({
   return (
     <div key={videoId}>
       <YouTube
-        containerClassName={cn(css.container, containerClassName)}
-        className={cn(css.video, className)}
+        className={cn(css.container, className)}
+        iframeClassName={cn(css.video, iframeClassName)}
         ref={youTubeVideo}
         videoId={videoId}
         opts={opts}

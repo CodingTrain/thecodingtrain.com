@@ -3,6 +3,7 @@
   "description": "The Ramer–Douglas–Peucker algorithm (aka \"iterative end-point fit algorithm\"), takes a curve composed of line segments and reduces the fidelty to a \"lower fidelity\" curve with fewer points.",
   "videoNumber": "152",
   "videoId": "nSYw9GrakjY",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-152-rdp-line-simplification-algorithm",
   "date": "2019-10-23",
   "languages": ["Processing"],
   "topics": ["Ramer-Douglas-Peuker algorithm", "recursion"],

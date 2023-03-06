@@ -27,6 +27,8 @@ export const Tabs = ({ className, variant, labels, children }) => {
 
   useEffect(() => {
     window.addEventListener('resize', getNavSize);
+
+    return () => window.removeEventListener('resize', getNavSize);
   }, []);
 
   useEffect(() => {

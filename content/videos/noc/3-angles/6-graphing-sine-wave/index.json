@@ -4,50 +4,48 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "JLAc9hMtcxk",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Good to see you again!" },
+    { "time": "0:31", "title": "How do we graph a wave?" },
+    { "time": "1:30", "title": "Let's do that right now!" },
+    { "time": "3:18", "title": "Let's try varying the period" },
+    { "time": "4:22", "title": "Why are we here again?" },
+    { "time": "5:05", "title": "Change the starting angles" },
+    { "time": "6:52", "title": "What happens if we go back to angular velocity?" },
+    { "time": "7:19", "title": "Whoa! Let's use a static increment value" },
+    { "time": "8:10", "title": "Go make something awesome!" },
+    { "time": "9:29", "title": "See you in the next video!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Sine Wave Graph Exercise",
       "description": "Graphing a static sine wave",
       "image": "sine.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EIbEYLTaZ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EIbEYLTaZ" }
     },
     {
       "title": "Playing With Period",
       "description": "Changing the period of the sine wave graph",
       "image": "period.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/SbRC-G0lU"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/SbRC-G0lU" }
     },
     {
       "title": "Graphing Wave",
       "description": "Animating a sine wave on the canvas",
       "image": "graph.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/c_S9jiXz-"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/c_S9jiXz-" }
     },
     {
       "title": "Circular Wave Exercise",
       "description": "Generating and animating a circular shape with a wavy edge",
       "image": "circular.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/mOm2Is7ba" }
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-02-12"
 }

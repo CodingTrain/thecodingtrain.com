@@ -3,6 +3,7 @@
   "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images. In this video (recorded over 3 live streams) I attempt the tiled model and explore a variety of solutions to the algorithm in JavaScript with p5.js.",
   "videoNumber": "171",
   "videoId": "rI_y2GAlQFM",
+  "nebulaSlug": "codingtrain-coding-challenge-171-wave-function-collapse",
   "date": "2022-07-03",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "generative art"],

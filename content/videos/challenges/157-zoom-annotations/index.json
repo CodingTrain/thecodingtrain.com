@@ -3,6 +3,7 @@
   "description": "Liven up your video calls with p5.js, ml5.js, Teachable Machine, and OBS Studio!",
   "videoNumber": "157",
   "videoId": "9z9mbiOZqSs",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-157-zoom-annotations-with-machine-learning-p5-js",
   "date": "2020-10-29",
   "languages": ["p5.js", "ml5.js", "JavaScript"],
   "topics": ["machine learning", "zoom", "creative code", "OBS"],

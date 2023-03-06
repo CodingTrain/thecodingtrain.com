@@ -7,6 +7,7 @@ import { useLinkParsedText } from '../hooks';
 const Link = ({ link }) => {
   const { description, title, icon, url } = link;
   const parsedDescription = useLinkParsedText(description ?? '');
+
   return (
     <li className={css.link}>
       <span className={css.icon}>{icon}</span>
@@ -20,9 +21,7 @@ const Link = ({ link }) => {
         </a>
       </div>
       {description && (
-        <div className={css.description}>
-          <p>{parsedDescription}</p>
-        </div>
+        <div className={css.description}>{parsedDescription}</div>
       )}
     </li>
   );

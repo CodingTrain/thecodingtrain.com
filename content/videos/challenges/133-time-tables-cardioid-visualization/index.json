@@ -3,23 +3,12 @@
   "description": "In this video, I visualize the \"mathematical heart\" Cardioid using times tables calculations.",
   "videoNumber": "133",
   "videoId": "bl3nc_a1nvs",
+  "nebulaSlug": "the-coding-train-coding-challenge-133-times-tables-cardioid-visualization",
   "date": "2019-02-14",
   "languages": ["Processing"],
-  "topics": [
-    "cardioid",
-    "cardioid times tables",
-    "times tables visualization",
-    "heart algorithm",
-    "polar coordinates",
-    "modulo operator"
-  ],
+  "topics": ["cardioid", "cardioid times tables", "times tables visualization", "heart algorithm", "polar coordinates", "modulo operator"],
   "canContribute": true,
-  "relatedChallenges": [
-    "21-mandelbrot-set-with-p5js",
-    "116-lissajous-curve-table",
-    "134-heart-curve",
-    "163-bezier-curves"
-  ],
+  "relatedChallenges": ["21-mandelbrot-set-with-p5js", "116-lissajous-curve-table", "134-heart-curve", "163-bezier-curves"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:00", "title": "Simon Tiger's Processing Day presentation" },

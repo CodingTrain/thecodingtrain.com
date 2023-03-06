@@ -4,6 +4,8 @@ import React, { Fragment } from 'react';
 import Card from '../components/challenges/Card';
 import Image from '../components/Image';
 import ItemsPage from '../components/ItemsPage';
+import ItemsPageFilters from '../components/ItemsPageFilters';
+import Spacer from '../components/Spacer';
 
 import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
@@ -24,35 +26,60 @@ const ChallengesPage = ({ data, pageContext, location }) => {
     ? data.challengePlaceholderImage.childImageSharp.gatsbyImageData
     : null;
 
+  const variant = 'cyan';
+  const itemsPath = 'challenges';
+
   return (
     <ItemsPage
       title={pageData.title}
-      selectedLanguage={language}
-      selectedTopic={topic}
       description={pageData.description}
       image={challengesPlaceholder}
-      location={location}
-      itemsPath="challenges"
-      variant="cyan"
+      itemsPath={itemsPath}
+      variant={variant}
       Character={BracketsCharacter}
       SeparatorCharacter={BracketsCharacter2}
       EndPageCharacter={RainbowCharacter}
       characterOrientation="left"
-      midSection={
+      showPagination={challenges.length > 0}
+      previousPagePath={pageContext.previousPagePath}
+      numberOfPages={pageContext.numberOfPages}
+      nextPagePath={pageContext.nextPagePath}
+      humanPageNumber={pageContext.humanPageNumber}>
+      <>
         <RecentChallenge
           featuredChallengeTitle={pageData.featuredText}
           challenge={pageData.featuredChallenge ?? recentChallenge}
           placeholderImage={challengesPlaceholder}
         />
-      }
-      showPagination={challenges.length > 0}
-      previousPagePath={pageContext.previousPagePath}
-      numberOfPages={pageContext.numberOfPages}
-      nextPagePath={pageContext.nextPagePath}
-      humanPageNumber={pageContext.humanPageNumber}
-      filtersFilePath="/filters-challenges.json">
-      {() =>
-        challenges.length > 0 && (
+        <Spacer />
+
+        <ItemsPageFilters
+          filters={[
+            {
+              title: 'Filter by Language',
+              placeholder: 'Pick a language to filter',
+              icon: '⌥',
+              jsonKey: 'languages',
+              filterKey: 'lang',
+              selectedOption: language
+            },
+            {
+              title: 'Filter by Topic',
+              placeholder: 'Pick a topic to filter',
+              icon: '☆',
+              jsonKey: 'topics',
+              filterKey: 'topic',
+              selectedOption: topic
+            }
+          ]}
+          filtersFilePath="/filters-challenges.json"
+          location={location}
+          itemsPath={itemsPath}
+          variant={variant}
+        />
+        <Spacer />
+
+        {challenges.length > 0 && (
           <div className={css.challenges}>
             {challenges.map((challenge, i) => (
               <Fragment key={i}>
@@ -65,8 +92,8 @@ const ChallengesPage = ({ data, pageContext, location }) => {
               </Fragment>
             ))}
           </div>
-        )
-      }
+        )}
+      </>
     </ItemsPage>
   );
 };
@@ -164,10 +191,7 @@ export const query = graphql`
         }
       }
     }
-    recentChallenge: allChallenge(
-      sort: { fields: date, order: DESC }
-      limit: 1
-    ) {
+    recentChallenge: allChallenge(sort: { date: DESC }, limit: 1) {
       nodes {
         title
         slug

@@ -3,6 +3,7 @@
   "description": "Let's make ASCII art in p5.js together! In this video, I demonstrate a variety of techniques for translating the pixels of an image into text and finish with rendering video as text ASCII characters in a DOM.",
   "videoNumber": "166",
   "videoId": "55iwMYv8tGI",
+  "nebulaSlug": "codingtrain-coding-challenge-166-image-to-ascii",
   "date": "2022-02-12",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["images", "ASCII", "DOM"],

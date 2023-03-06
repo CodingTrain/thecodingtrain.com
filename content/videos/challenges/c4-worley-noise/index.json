@@ -3,7 +3,8 @@
   "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I explore the beauty of Worley noise.",
   "videoNumber": "C4",
   "videoId": "4066MndcyCk",
-  "date": "2020-04-29",
+  "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-4-worley-noise",
+  "date": "2020-05-09",
   "languages": ["p5.js"],
   "topics": ["worley noise", "cellular texture", "tesselation", "distance"],
   "canContribute": true,
@@ -101,14 +102,9 @@
         }
       ]
     }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
-, "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]}
+}

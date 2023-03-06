@@ -47,7 +47,7 @@ const PassengerShowcaseForm = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      challenges: allChallenge(sort: { order: DESC, fields: date }) {
+      challenges: allChallenge(sort: { date: DESC }) {
         nodes {
           title
           slug
@@ -93,12 +93,7 @@ const PassengerShowcaseForm = () => {
         .replace('data:image/png;base64,', '')
         .replace('data:image/jpeg;base64,', '');
 
-      const imageSplit = state.image.split('.');
-
-      const submitState = Object.assign({}, state, {
-        image: base64,
-        imageExt: imageSplit[imageSplit.length - 1]
-      });
+      const submitState = Object.assign({}, state, { image: base64 });
 
       try {
         const response = await fetch(

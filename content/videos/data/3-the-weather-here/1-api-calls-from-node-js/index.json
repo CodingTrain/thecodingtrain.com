@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["api", "node"],
   "videoId": "ZtLVbJk7KcM",
+  "nebulaSlug": "codingtrain-3-1-api-calls-from-node-js-weather-data-from-dark-sky-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome to Module 2!" },
@@ -66,13 +67,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-06-12"
 }

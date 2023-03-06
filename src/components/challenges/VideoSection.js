@@ -61,14 +61,18 @@ const VideoSection = ({ challenge }) => {
             className={css.tags}
             heading="Languages"
             items={languages}
-            linkTo={(value) => filteredPath('challenges', value, 'all')}
+            linkTo={(value) =>
+              filteredPath('challenges', { lang: value, topic: 'all' })
+            }
             headerType="h3"
           />
           <Tags
             className={css.tags}
             heading="Topics"
             items={topics}
-            linkTo={(value) => filteredPath('challenges', 'all', value)}
+            linkTo={(value) =>
+              filteredPath('challenges', { lang: 'all', topic: value })
+            }
             headerType="h3"
           />
 
@@ -101,7 +105,7 @@ const VideoSection = ({ challenge }) => {
         <div className={css.videoContainer}>
           <div className={css.video} ref={youTubeVideoRef}>
             <YouTubeVideo
-              containerClassName={css.videoWrapper}
+              className={css.videoWrapper}
               videoId={videoId}
               timestamp={timestamp}
             />

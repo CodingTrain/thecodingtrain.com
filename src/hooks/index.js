@@ -105,7 +105,7 @@ export const usePersistScrollPosition = (key, _namespace) => {
 };
 
 export const getReadableDate = (dateString) => {
-  const [year, month, date] = dateString.split('-');
+  const [year, month, date] = dateString.split('T')[0].split('-');
   const months = {
     '01': 'jan',
     '02': 'feb',
@@ -142,7 +142,7 @@ export const useIsFirstRender = () => {
  * Returns the challenge part index (0 if the challenge is not multi-part)
  * which has been stored in the `location.state` object using the `Link.state`
  * property.
- * 
+ *
  * @returns {number} challenge part index
  */
 export const useChallengePartIndex = () => {

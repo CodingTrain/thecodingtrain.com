@@ -4,32 +4,40 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "pUhv2CA0omA",
-  "timestamps": [],
+  "nebulaSlug": "the-coding-train-yt-4-4-particle-systems-with-image-textures-the-nature-of-code",
+  "timestamps": [
+    { "time": "0:00", "title": "One more particle system video!" },
+    { "time": "0:57", "title": "Hopefully you'll make something neat." },
+    { "time": "1:25", "title": "Adding applyForce() to our particle class." },
+    { "time": "3:24", "title": "I've already made an image texture." },
+    { "time": "4:37", "title": "Adding the image texture to the sketch." },
+    { "time": "6:28", "title": "Adjusting the way the particles look." },
+    { "time": "7:17", "title": "Let's see if there's a way to improve performance." },
+    { "time": "8:58", "title": "blendMode(ADD)" },
+    { "time": "9:53", "title": "Let's try using blendMode(ADD)!" },
+    { "time": "10:36", "title": "Adding in color, yay!" },
+    { "time": "11:53", "title": "Please share what you create!" },
+    { "time": "12:22", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Texture Maker",
       "description": "Generating a new texture using p5.js",
       "image": "image.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/NS4rB1Yx-"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/NS4rB1Yx-" }
     },
     {
       "title": "Image Texture",
       "description": "Importing an external image as a texture in p5.js",
       "image": "texture.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/TTVoNt58T"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/TTVoNt58T" }
     },
     {
       "title": "Shader (WebGL)",
       "description": "Using WebGL vertex and fragment shaders in p5.js",
       "image": "shader.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EXZmcc4m_"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EXZmcc4m_" }
     }
   ],
   "groupLinks": [
@@ -50,13 +58,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-04-13"
 }

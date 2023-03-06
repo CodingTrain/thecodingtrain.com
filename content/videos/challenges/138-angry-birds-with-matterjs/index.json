@@ -3,6 +3,7 @@
   "description": "An attempt to implement the basic mechanics of Angry Birds in JavaScript using p5.js and the matter.js physics engine.",
   "videoNumber": "138",
   "videoId": "TDQzoe9nslY",
+  "nebulaSlug": "the-coding-train-coding-challenge-138-angry-birds-with-matter-js",
   "date": "2019-03-08",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["matter.js", "physics engine 2D", "angry birds"],

@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "p5.js", "node.js"],
   "topics": ["accessibility", "design"],
   "videoId": "1mnpn6q25FI",
+  "nebulaSlug": "codingtrain-2-7-project-wrap-up-accessibility-and-design-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! Some points to address" },
@@ -81,13 +82,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-06-07"
 }

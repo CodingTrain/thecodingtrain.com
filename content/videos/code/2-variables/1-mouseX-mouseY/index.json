@@ -3,6 +3,7 @@
   "description": "In this video, I introduce the concept of variables! The setup() and draw() functions are covered along with mouseX and mouseY in p5.js.",
   "videoNumber": "2.1",
   "videoId": "7A5tKW9HGoM",
+  "nebulaSlug": "coding-train-21-variables-in-p5js-mousex-mousey-p5js-tutorial",
   "date": "2021-05-19",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["mouse interaction", "basics", "variables"],

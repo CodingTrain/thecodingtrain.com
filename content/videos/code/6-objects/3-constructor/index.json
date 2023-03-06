@@ -3,6 +3,8 @@
   "description": "This video covers constructor arguments for ES6 classes and the p5.js library. This is one technique for creating multiple objects from the same class with variation.",
   "videoNumber": "6.3",
   "videoId": "rHiSsgFRgx4",
+  "nebulaSlug": "coding-train-6-3-constructor-arguments-with-classes-in-javascript-p5-js-tutorial",
+  "canonicalTrack": "code-programming-with-p5-js",
   "date": "2017-10-09",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "constructor", "classes", "objects"],

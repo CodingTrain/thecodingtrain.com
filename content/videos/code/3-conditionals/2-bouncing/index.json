@@ -3,6 +3,7 @@
   "description": "This video continues the discussion of conditional statements and looks at a classic scenario -- a circle that bounces off the edges of the canvas.",
   "videoNumber": "3.2",
   "videoId": "LO3Awjn_gyU",
+  "nebulaSlug": "coding-train-3-2-the-bouncing-ball-p5-js-tutorial",
   "date": "2015-09-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["if statement", "motion"],

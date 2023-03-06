@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["server side", "workflow", "setup"],
   "videoId": "hPbDyqzxQfU",
+  "nebulaSlug": "codingtrain-setup-everything-you-need-to-begin-the-course-working-with-data-and-apis-in-javascript",
   "timestamps": [],
   "codeExamples": [],
   "groupLinks": [
@@ -84,13 +85,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-07-09"
 }

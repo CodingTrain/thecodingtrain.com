@@ -3,6 +3,7 @@
   "description": "In this video, I cover how to define, initialize, and use your own variables for the purpose of animating p5.js sketches.",
   "videoNumber": "2.2",
   "videoId": "dRhXIIFp-ys",
+  "nebulaSlug": "coding-train-22-variables-in-p5js-define-your-own-p5js-tutorial",
   "date": "2021-05-19",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "variables"],

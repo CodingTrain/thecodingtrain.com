@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { graphql } from 'gatsby';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
+import { toSlug } from '../utils';
 
 import Layout from '../components/Layout';
 import Breadcrumbs from '../components/Breadcrumbs';
@@ -17,6 +17,7 @@ import Button from '../components/Button';
 import Spacer from '../components/Spacer';
 import YouTubeVideo from '../components/YouTubeVideo';
 import Image from '../components/Image';
+import PassengerShowcaseForm from '../components/PassengerShowcaseForm';
 
 import * as css from './guide.module.css';
 
@@ -32,28 +33,16 @@ function isValidHttpUrl(string) {
   return url.protocol === 'http:' || url.protocol === 'https:';
 }
 
-const kebabCase = (string) =>
-  string
-    .replace(/([a-z])([A-Z])/g, '$1-$2')
-    .replace(/[\s_]+/g, '-')
-    .replace(/[?'!,:.]/g, '')
-    .toLowerCase();
-
 const components = (localImages) => ({
   h1: (props) => (
-    <Heading1
-      variant="purple"
-      as="h2"
-      id={kebabCase(props.children)}
-      {...props}
-    />
+    <Heading1 variant="purple" as="h2" id={toSlug(props.children)} {...props} />
   ),
   h2: (props) => (
     <Heading2
       className={css.headingBorderTop}
       variant="purple"
       as="h3"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       {...props}
     />
   ),
@@ -61,7 +50,7 @@ const components = (localImages) => ({
     <Heading3
       variant="purple"
       as="h4"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -70,7 +59,7 @@ const components = (localImages) => ({
     <Heading4
       variant="purple"
       as="h5"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -79,7 +68,7 @@ const components = (localImages) => ({
     <Heading5
       variant="purple"
       as="h6"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -88,7 +77,7 @@ const components = (localImages) => ({
     <Heading6
       variant="purple"
       as="h6"
-      id={kebabCase(props.children)}
+      id={toSlug(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -96,14 +85,18 @@ const components = (localImages) => ({
   p: (props) => <p className={css.paragraph} {...props} />,
   img: (props) =>
     !isValidHttpUrl(props.src) && localImages.hasOwnProperty(props.src) ? (
-      <Image
-        className={css.image}
-        image={localImages[props.src]}
-        alt={props.alt}
-        {...props}
-      />
+      <p className={css.paragraph}>
+        <Image
+          className={css.image}
+          image={localImages[props.src]}
+          alt={props.alt}
+          {...props}
+        />
+      </p>
     ) : (
-      <img className={css.image} alt={props.alt} {...props} />
+      <p className={css.paragraph}>
+        <img className={css.image} alt={props.alt} {...props} />
+      </p>
     ),
   a: ({ children, ...props }) => (
     <a className={css.a} {...props}>
@@ -138,9 +131,10 @@ const components = (localImages) => ({
   ),
   Video: (props) => (
     <div className={css.video}>
-      <YouTubeVideo containerClassName={css.videoContainer} {...props} />
+      <YouTubeVideo className={css.videoContainer} {...props} />
     </div>
-  )
+  ),
+  PassengerShowcaseForm: (props) => <PassengerShowcaseForm {...props} />
 });
 
 const useLocalImages = (images) => {
@@ -160,7 +154,7 @@ const useLocalImages = (images) => {
   }, [images]);
 };
 
-const Guide = ({ data }) => {
+const Guide = ({ data, children }) => {
   const { mdx, images } = data;
 
   const localImages = useLocalImages(images.nodes);
@@ -174,7 +168,7 @@ const Guide = ({ data }) => {
         className={css.breadcrumbs}
         breadcrumbs={[
           { name: 'Guides', link: `/guides` },
-          { name: mdx.frontmatter.title, link: `/guides/${mdx.slug}` }
+          { name: mdx.frontmatter.title, link: `/guides/${mdx.fields.slug}` }
         ]}
         variant="purple"
       />
@@ -193,7 +187,7 @@ const Guide = ({ data }) => {
             </li>
             {mdx.tableOfContents.items.map((item, index) => (
               <li key={index} className={css.indexItem}>
-                <a href={item.url}>{item.title}</a>
+                <a href={'#' + toSlug(item.title)}>{item.title}</a>
               </li>
             ))}
             {mdx.tableOfContents.items.length % 2 === 1 && (
@@ -203,12 +197,12 @@ const Guide = ({ data }) => {
         </nav>
       </header>
       <Spacer />
-      <MDXProvider components={components(localImages)}>
-        <div className={css.root}>
-          <MDXRenderer>{mdx.body}</MDXRenderer>
-          <div className={css.guideBottomSpacer} />
-        </div>
-      </MDXProvider>
+      <div className={css.root}>
+        <MDXProvider components={components(localImages)}>
+          {children}
+        </MDXProvider>
+        <div className={css.guideBottomSpacer} />
+      </div>
       <Spacer pattern className={css.spacer} />
     </Layout>
   );
@@ -216,9 +210,10 @@ const Guide = ({ data }) => {
 
 export const query = graphql`
   query ($slug: String!) {
-    mdx(slug: { eq: $slug }) {
-      slug
-      body
+    mdx(fields: { slug: { eq: $slug } }) {
+      fields {
+        slug
+      }
       tableOfContents
       frontmatter {
         title

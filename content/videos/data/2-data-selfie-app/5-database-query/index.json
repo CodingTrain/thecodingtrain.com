@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["database"],
   "videoId": "q-lUgFxwjEM",
+  "nebulaSlug": "codingtrain-2-5-database-query-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What will we do?" },
@@ -39,13 +40,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-06-05"
 }

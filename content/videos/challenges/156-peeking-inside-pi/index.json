@@ -3,15 +3,12 @@
   "description": "🥧 Happy Pi Day 2020! In this challenge, I build a simple web application using p5.js and node.js to search in the first billion digits of Pi.",
   "videoNumber": "156",
   "videoId": "MEdpRYyjz_0",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-156-peeking-inside-pi",
   "date": "2020-03-14",
   "languages": ["node.js", "p5.js", "JavaScript"],
   "topics": ["math", "pi day"],
   "canContribute": true,
-  "relatedChallenges": [
-    "140-pi-leibniz",
-    "161-estimating-pi-from-random-numbers",
-    "169-pi-in-the-sky"
-  ],
+  "relatedChallenges": ["140-pi-leibniz", "161-estimating-pi-from-random-numbers", "169-pi-in-the-sky"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:30", "title": "Importing Pi Into p5.js" },

@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["geolocation", "gps"],
   "videoId": "3ls013DBcww",
+  "nebulaSlug": "codingtrain-2-2-geolocation-web-api-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome!" },
@@ -61,13 +62,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-05-31"
 }

@@ -25,8 +25,8 @@ const PassengerShowcasePanel = ({
   const isFirstRender = useIsFirstRender();
   const description =
     contributions.length > 0
-      ? 'What the Coding Train community has created based on this video'
-      : 'No contributions submitted yet!';
+      ? 'The Showcase is collection of projects created by viewers like you!'
+      : 'No showcase projects submitted yet, you could be the first!';
   const Header = headerType;
   return (
     <section className={css.root}>
@@ -47,8 +47,8 @@ const PassengerShowcasePanel = ({
       </div>
 
       <ButtonPanel
-        text="Have you completed a project? Share your work!"
-        buttonText="Submit a contribution"
+        text="Have you made something? Please share your work!"
+        buttonText="Submit to the showcase"
         buttonLink="/guides/passenger-showcase-guide"
         variant="purple"
         rainbow

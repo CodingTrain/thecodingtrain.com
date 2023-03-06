@@ -4,40 +4,43 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "WBdhAuWS6X8",
-  "timestamps": [],
+  "nebulaSlug": "coding-train-yt-2-3-friction-force-the-nature-of-code",
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome back!" },
+    { "time": "1:00", "title": "Formula for friction" },
+    { "time": "2:35", "title": "Coefficient of friction" },
+    { "time": "3:24", "title": "The Normal force" },
+    { "time": "5:33", "title": "Add a friction function" },
+    { "time": "8:22", "title": "Add an array of objects" },
+    { "time": "10:30", "title": "\"Quick and dirty\" algorithm" },
+    { "time": "11:56", "title": "Possible exercises" },
+    { "time": "13:57", "title": "Next up -- some case studies" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Friction Force",
       "description": "Simulating friction on objects with weight",
       "image": "friction.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/zcTpMCpA"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zcTpMCpA" }
     },
     {
       "title": "Top Down Billiards Exercise",
       "description": "Simulating a billiards table",
       "image": "billiards.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/S3SCcnUa7"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/S3SCcnUa7" }
     },
     {
       "title": "Slope Exercise",
       "description": "Simulating objects on a sloped surface",
       "image": "slope.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/LS5FlhljG"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LS5FlhljG" }
     },
     {
       "title": "Show Vectors Exercise",
       "description": "Using arrows to show the force vectors acting on an object",
       "image": "show.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Vyg_iWNGE"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Vyg_iWNGE" }
     }
   ],
   "groupLinks": [
@@ -63,13 +66,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-04-08"
 }

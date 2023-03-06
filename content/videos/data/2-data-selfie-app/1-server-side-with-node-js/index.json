@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "node.js"],
   "topics": ["node"],
   "videoId": "wxbQP1LMZsw",
+  "nebulaSlug": "codingtrain-2-1-server-side-with-node-js-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome to Module 2!" },
@@ -96,13 +97,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-05-30"
 }

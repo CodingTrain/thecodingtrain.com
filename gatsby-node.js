@@ -15,14 +15,17 @@ const {
   create404PageRelatedNodes,
   createTracksPageRelatedNodes,
   createChallengesPageRelatedNodes,
+  createShowcasePageRelatedNodes,
   createGuidesPageRelatedNodes,
   createAboutPageCoverImageNode
 } = require('./node-scripts/node-generation');
 const {
+  createSlices,
   createTrackVideoPages,
   createTracksPages,
   createChallengesPages,
-  createGuidePages
+  createGuidePages,
+  createShowcasePages
 } = require('./node-scripts/page-generation');
 const set = require('lodash/set');
 
@@ -36,7 +39,7 @@ exports.onCreateNode = ({
   createContentDigest,
   getNode
 }) => {
-  const { createNode } = actions;
+  const { createNode, createNodeField } = actions;
   const { owner, mediaType } = node.internal;
   const parent = getNode(node.parent);
 
@@ -131,6 +134,14 @@ exports.onCreateNode = ({
         node,
         parent
       );
+    else if (parent.sourceInstanceName === 'showcase-page-data')
+      createShowcasePageRelatedNodes(
+        createNode,
+        createNodeId,
+        createContentDigest,
+        node,
+        parent
+      );
     else if (parent.sourceInstanceName === 'challenges-page-data')
       createChallengesPageRelatedNodes(
         createNode,
@@ -158,6 +169,13 @@ exports.onCreateNode = ({
       node,
       parent
     );
+
+    // no more slugs in mdx v2
+    createNodeField({
+      node,
+      name: 'slug',
+      value: parent.name
+    });
   } else if (
     owner === 'gatsby-source-filesystem' &&
     mediaType !== undefined &&
@@ -218,11 +236,14 @@ exports.onCreateNode = ({
 };
 
 exports.createPages = async function ({ actions, graphql }) {
-  const { createPage } = actions;
+  const { createPage, createSlice } = actions;
+
+  await createSlices(createSlice);
   await createTrackVideoPages(graphql, createPage);
   await createTracksPages(graphql, createPage);
   await createChallengesPages(graphql, createPage);
   await createGuidePages(graphql, createPage);
+  await createShowcasePages(graphql, createPage);
 };
 
 const tagResolver = async (source, context, type) => {
@@ -265,18 +286,19 @@ const filterByTagsResolver = async (
   args,
   context,
   type,
-  sortField,
-  sortOrder
+  tagBasePath,
+  sortFields,
+  sortOrders
 ) => {
   const { language, topic, skip, limit } = args;
 
   const query = {};
 
-  set(query, 'sort.order', [sortOrder]);
-  set(query, 'sort.fields', [sortField]);
+  set(query, 'sort.fields', sortFields);
+  set(query, 'sort.order', sortOrders);
 
-  if (language) set(query, 'filter.languages.eq', language);
-  if (topic) set(query, 'filter.topics.eq', topic);
+  if (language) set(query, `${tagBasePath}.languages.eq`, language);
+  if (topic) set(query, `${tagBasePath}.topics.eq`, topic);
   if (skip) set(query, 'skip', skip);
   if (limit) set(query, 'limit', limit);
 
@@ -286,6 +308,94 @@ const filterByTagsResolver = async (
   });
 
   return entries;
+};
+
+const filterByAuthorResolver = async (args, context) => {
+  const { author, skip, limit } = args;
+
+  const query = {};
+
+  set(query, 'sort.fields', ['submittedOn', 'title']);
+  set(query, 'sort.order', ['DESC', 'ASC']);
+
+  if (author) set(query, `filter.author.name.eq`, author);
+  if (skip) set(query, 'skip', skip);
+  if (limit) set(query, 'limit', limit);
+
+  const { entries } = await context.nodeModel.findAll({
+    type: 'Contribution',
+    query
+  });
+
+  return entries;
+};
+
+const showcaseResolver = async (source, args, context, info) => {
+  const query = {};
+
+  set(query, 'filter.video.id.eq', source.id);
+  set(query, 'sort.order', ['ASC']);
+  set(query, 'sort.fields', ['name']);
+
+  const { entries } = await context.nodeModel.findAll({
+    type: 'Contribution',
+    query
+  });
+
+  return entries;
+};
+
+const videoCanonicalTrackResolver = async (source, args, context, info) => {
+  // we need a pointer from a video to its canonical track for the showcase page
+
+  // challenge videos can't have a canonical track (their challenge page is canon)
+  if (source.source === 'Challenges') return;
+
+  // a canonical track might've been explicitly set in the Gatsby node creation phase
+  if (source.canonicalTrack) {
+    return await context.nodeModel.getNodeById({ id: source.canonicalTrack });
+  }
+
+  // find tracks referencing this video
+  const queries = [
+    set({}, 'filter.videos.elemMatch.id.eq', source.id),
+    set({}, 'filter.chapters.elemMatch.videos.elemMatch.id.eq', source.id)
+  ];
+
+  for (const query of queries) {
+    const track = await context.nodeModel.findOne({ type: 'Track', query });
+    if (track) return track;
+  }
+
+  // it shouldn't be possible to get here - non-challenge videos should have at least one track referencing them
+  return;
+};
+
+const contributionSubmittedOnResolver = async (source, args, context, info) => {
+  // normalizes values to provide a stable sorting order for the showcase page
+
+  if (typeof source.submittedOn === 'string') {
+    // normalize to ISO 8601 since some dates are in `yyyy-mm-dd` format
+    return new Date(source.submittedOn).toISOString();
+  } else {
+    // the contribution doesn't have a `submittedOn` property, let's derive one for sorting purposes
+
+    // extract the sequential number from the source JSON filename
+    const [seqNumber] = source.name.match(/\d+/g);
+
+    // edge case where the sequential number is actually a timestamp yet `submittedOn` was not set
+    if (seqNumber.length > 6) return new Date(+seqNumber).toISOString();
+
+    // NOTE: not all source.video nodes are of type `Video`. They all have a `date` property though so it's OK here.
+    const { date } = await context.nodeModel.getNodeById({ id: source.video });
+    const dateObj = new Date(date);
+
+    // treat the sequential number as seconds and add them to the Coding Train video publish date
+    // ex: published date of "2017-05-18", contribution filename of "contribution16.json" -> 2017-05-18T00:00:16.000Z
+    dateObj.setSeconds(dateObj.getSeconds() + seqNumber);
+
+    return dateObj.toISOString();
+  }
 };
 
 exports.createResolvers = ({ createResolvers }) => {
@@ -302,16 +412,57 @@ exports.createResolvers = ({ createResolvers }) => {
           await tagResolver(source, context, 'languages')
       }
     },
+    Challenge: {
+      showcase: {
+        type: ['Contribution'],
+        resolve: showcaseResolver
+      }
+    },
+    Video: {
+      showcase: {
+        type: ['Contribution'],
+        resolve: showcaseResolver
+      },
+      canonicalTrack: {
+        type: 'Track',
+        resolve: videoCanonicalTrackResolver
+      }
+    },
+    Contribution: {
+      submittedOn: {
+        type: 'String',
+        resolve: contributionSubmittedOnResolver
+      }
+    },
     Query: {
       tracksPaginatedFilteredByTags: {
         type: ['Track'],
         resolve: async (source, args, context, info) =>
-          await filterByTagsResolver(args, context, 'Track', 'order', 'ASC')
+          await filterByTagsResolver(
+            args,
+            context,
+            'Track',
+            'filter',
+            ['order'],
+            ['ASC']
+          )
       },
       challengesPaginatedFilteredByTags: {
         type: ['Challenge'],
         resolve: async (source, args, context, info) =>
-          await filterByTagsResolver(args, context, 'Challenge', 'date', 'DESC')
+          await filterByTagsResolver(
+            args,
+            context,
+            'Challenge',
+            'filter',
+            ['date'],
+            ['DESC']
+          )
+      },
+      contributionsPaginatedFilteredByTags: {
+        type: ['Contribution'],
+        resolve: async (source, args, context, info) =>
+          await filterByAuthorResolver(args, context)
       }
     }
   };

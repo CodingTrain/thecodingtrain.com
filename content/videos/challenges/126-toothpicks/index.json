@@ -3,6 +3,7 @@
   "description": "In this coding challenge, I implement Omar Pol’s fractal toothpick sequence.",
   "videoNumber": "126",
   "videoId": "-OL_sw2MiYw",
+  "nebulaSlug": "coding-challenge-126-toothpicks",
   "date": "2018-12-21",
   "languages": ["Processing"],
   "topics": ["toothpick pattern", "fractal", "Omar Pol"],

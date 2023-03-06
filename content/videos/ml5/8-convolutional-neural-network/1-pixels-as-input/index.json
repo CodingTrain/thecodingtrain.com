@@ -3,6 +3,7 @@
   "description": "This tutorial builds on ml5.neuralNetwork() videos examining raw pixels as inputs to a neural network. This sets the stage for a discussion on convolutional neural networks.",
   "videoNumber": "8.1",
   "videoId": "UaKab6h9Z0I",
+  "nebulaSlug": "the-coding-train-yt-l5-js-train-a-neural-network-with-pixels-as-input",
   "date": "2020-02-01",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["neural network", "pixels", "regression"],

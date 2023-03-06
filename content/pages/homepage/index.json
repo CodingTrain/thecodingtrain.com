@@ -32,14 +32,15 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "175-3D-cube-applesoft-basic",
-      "174-graphics-applesoft-basic",
-      "93-double-pendulum",
-      "158-shape-classifier",
-      "46-asteroids",
-      "28-metaballs",
-      "67-pong",
-      "89-langtons-ant",
-      "131-bouncing-dvd-logo"
+      "95-approximating-the-value-of-pi",
+      "96-visualizing-digits-of-pi",
+      "97-book-of-pi",
+      "139-calculating-digits-of-pi-with-collisions",
+      "140-pi-leibniz",
+      "141-mandelbrot-pi",
+      "156-peeking-inside-pi",
+      "161-estimating-pi-from-random-numbers",
+      "169-pi-in-the-sky"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,18 +51,20 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/61-fractal-spirograph/showcase/contribution2.json",
-      "challenges/175-3D-cube-applesoft-basic/showcase/contribution-1669691185.json",
-      "challenges/55-mathematical-rose-patterns/showcase/contribution4.json",
-      "challenges/148-gift-wrapping/showcase/contribution5.json",
-      "challenges/72-frogger/showcase/contribution2.json",
-      "challenges/162-self-avoiding-walk/showcase/contribution3.json",
-      "challenges/164-slitscan/showcase/contribution1.json",
-      "challenges/12-lorenz-attractor/showcase/contribution3.json"
+      "challenges/95-approximating-the-value-of-pi/showcase/contribution2.json",
+      "challenges/96-visualizing-digits-of-pi/showcase/contribution1.json",
+      "challenges/97-book-of-pi/showcase/contribution2.json",
+      "challenges/139-calculating-digits-of-pi-with-collisions/showcase/contribution6.json",
+      "challenges/140-pi-leibniz/showcase/contribution4.json",
+      "challenges/141-mandelbrot-pi/showcase/contribution2.json",
+      "challenges/161-estimating-pi-from-random-numbers/showcase/contribution3.json",
+      "challenges/169-pi-in-the-sky/showcase/contribution1.json",
+      "challenges/95-approximating-the-value-of-pi/showcase/contribution4.json"
     ],
-    "cta": {
-      "text": "Ready to be inspired?",
-      "buttonText": "Enjoy this showcase highlight"
+    "showcaseCta": {
+      "text": "Want to see more?",
+      "buttonText": "Browse the full showcase",
+      "href": "/showcase"
     }
   },
   "events": {

@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "leaflet.js"],
   "topics": ["mapping", "geolocation"],
   "videoId": "nZaZ2dB6pow",
+  "nebulaSlug": "codingtrain-1-5-mapping-geolocation-with-leaflet-js-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What is Leaflet.js?" },
@@ -56,13 +57,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-05-27"
 }

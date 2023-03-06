@@ -4,16 +4,26 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "okfZRl4Xw-c",
-  "timestamps": [],
+  "nebulaSlug": "the-coding-train-yt-3-7-additive-waves-the-nature-of-code",
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome back!" },
+    { "time": "0:26", "title": "How do we make a wave class?" },
+    { "time": "2:02", "title": "The formula we'll use for a wave." },
+    { "time": "4:53", "title": "Let's make a wave class." },
+    { "time": "7:33", "title": "Why did we spend the time to make the wave class?" },
+    { "time": "8:08", "title": "Adding waves together!" },
+    { "time": "9:39", "title": "Let's animate it!" },
+    { "time": "10:40", "title": "A couple small improvements." },
+    { "time": "11:21", "title": "I hope you try some of these ideas!" },
+    { "time": "11:43", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Additive Waves",
       "description": "Using a Wave class to trace a moving additive wave with ellipses",
       "image": "add.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/qcRsZ_O5a"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/qcRsZ_O5a" }
     }
   ],
   "groupLinks": [
@@ -29,13 +39,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-02-16"
 }

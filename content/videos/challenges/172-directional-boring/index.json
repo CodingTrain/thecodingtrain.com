@@ -3,6 +3,7 @@
   "description": "This project is a collaboration with Grady Hillhouse at the Practical Engineering YouTube channel. This is my attempt to code a simulation of Horizontal Directional Drilling, laparoscopic surgery for the earth!",
   "videoNumber": "172",
   "videoId": "FfCBNL6lWK0",
+  "nebulaSlug": "codingtrain-coding-challenge-172-horizontal-directional-drilling",
   "date": "2022-07-05",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["engineering", "vectors"],

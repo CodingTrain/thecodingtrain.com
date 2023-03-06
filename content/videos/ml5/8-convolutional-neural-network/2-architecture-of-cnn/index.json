@@ -3,115 +3,54 @@
   "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \"filters\".",
   "videoNumber": "8.2",
   "videoId": "qPKsVAI_W6M",
-  "date": "2020-02-14",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-what-is-a-convolutional-neural-network-part-1-filters",
+  "date": "2020-02-23",
   "languages": ["ml5.js", "p5.js"],
   "topics": ["convolutional neural network", "machine learning"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "1:28",
-      "title": "Review neural networks"
-    },
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:28", "title": "Review neural networks" },
     {
       "time": "3:34",
       "title": "Flattenng the image causes a loss of information"
     },
-    {
-      "time": "4:18",
-      "title": "Convolutional layer"
-    },
-    {
-      "time": "4:37",
-      "title": "Filter"
-    },
-    {
-      "time": "5:08",
-      "title": "Gradient based learning"
-    },
-    {
-      "time": "6:21",
-      "title": "Filter is a matrix of numbers"
-    },
-    {
-      "time": "6:59",
-      "title": "Photoshop"
-    },
-    {
-      "time": "7:14",
-      "title": "Known filters draw out different features"
-    },
+    { "time": "4:18", "title": "Convolutional layer" },
+    { "time": "4:37", "title": "Filter" },
+    { "time": "5:08", "title": "Gradient based learning" },
+    { "time": "6:21", "title": "Filter is a matrix of numbers" },
+    { "time": "6:59", "title": "Photoshop" },
+    { "time": "7:14", "title": "Known filters draw out different features" },
     {
       "time": "8:59",
       "title": "Neural network learn filters that identify features"
     },
-    {
-      "time": "10:25",
-      "title": "Blurring an image"
-    },
+    { "time": "10:25", "title": "Blurring an image" },
     {
       "time": "11:12",
       "title": "Coding a convolutional neural network in p5js"
     },
-    {
-      "time": "11:56",
-      "title": "Create a filtered image"
-    },
-    {
-      "time": "13:10",
-      "title": "Ignore the edge pixels"
-    },
-    {
-      "time": "13:42",
-      "title": "Convolution function"
-    },
+    { "time": "11:56", "title": "Create a filtered image" },
+    { "time": "13:10", "title": "Ignore the edge pixels" },
+    { "time": "13:42", "title": "Convolution function" },
     {
       "time": "15:28",
       "title": "Finding the one-dimenstional look-up into matrix"
     },
-    {
-      "time": "16:16",
-      "title": "Four numbers are stored for every pixel"
-    },
-    {
-      "time": "16:36",
-      "title": "Sum r, g, b values"
-    },
-    {
-      "time": "20:46",
-      "title": "Multiply by filter"
-    },
-    {
-      "time": "22:37",
-      "title": "Get filtered pixels"
-    },
-    {
-      "time": "23:13",
-      "title": "Call loadPixels"
-    },
-    {
-      "time": "23:34",
-      "title": "Call updataPixels"
-    },
-    {
-      "time": "24:40",
-      "title": "Change the indices to find vertical edges"
-    },
-    {
-      "time": "26:11",
-      "title": "Add a random filter"
-    }
+    { "time": "16:16", "title": "Four numbers are stored for every pixel" },
+    { "time": "16:36", "title": "Sum r, g, b values" },
+    { "time": "20:46", "title": "Multiply by filter" },
+    { "time": "22:37", "title": "Get filtered pixels" },
+    { "time": "23:13", "title": "Call loadPixels" },
+    { "time": "23:34", "title": "Call updataPixels" },
+    { "time": "24:40", "title": "Change the indices to find vertical edges" },
+    { "time": "26:11", "title": "Add a random filter" }
   ],
   "codeExamples": [
     {
       "title": "Convlutional Neural Network",
       "description": "This sketch demonstrates the process of creating a convolutional layer to filter pixels.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/BN1lE-gyl"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/BN1lE-gyl" }
     }
   ],
   "groupLinks": [
@@ -157,13 +96,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

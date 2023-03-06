@@ -3,6 +3,7 @@
   "description": "In this video I discuss how color works: RGB color, fill(), stroke(), and transparency.",
   "videoNumber": "1.4",
   "videoId": "riiJTF5-N7c",
+  "nebulaSlug": "coding-train-1-4-color-p5-js-tutorial",
   "date": "2018-09-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["color", "drawing", "basics"],

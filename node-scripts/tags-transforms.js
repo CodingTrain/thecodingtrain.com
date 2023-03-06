@@ -1,4 +1,4 @@
-const glob = require('glob');
+const { globSync } = require('glob');
 const isEqual = require('lodash/isEqual');
 const prettier = require('prettier');
 const { readFileSync, writeFileSync } = require('fs');
@@ -6,7 +6,7 @@ const { memoTagsCleanup } = require('./utils');
 const { wordReplacements, tagTransforms } = require('./tags-transforms.json');
 
 const tagsCleanup = memoTagsCleanup(wordReplacements, tagTransforms);
-const paths = glob.sync('content/videos/**/index.json');
+const paths = globSync('content/videos/**/index.json');
 let count = 0;
 
 for (let path of paths) {

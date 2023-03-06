@@ -1,17 +1,40 @@
 const { paginate } = require('gatsby-awesome-pagination');
 const { toSlug } = require('./utils');
 const { writeFile } = require('fs/promises');
+const get = require('lodash/get');
 
-const ITEMS_PER_PAGE = 50;
+const ITEMS_PER_PAGE = 50; // tracks and challenges
+const SHOWCASE_ITEMS_PER_PAGE = 51; // showcase has 3 cols
 
-const extractTags = (nodes, pluckKey) => {
+const extractTags = (nodes, pluckPath) => {
   const set = new Set();
   nodes.forEach((node) => {
-    node[pluckKey].forEach((val) => set.add(val));
+    const val = get(node, pluckPath);
+    if (typeof val === 'string') {
+      set.add(val);
+    } else {
+      val.forEach((v) => set.add(v));
+    }
   });
 
   return [...set].sort((a, b) => {
     return a.localeCompare(b, 'en', { sensitivity: 'base' });
+  });
+};
+
+/**
+ * Creates Gatsby slices
+ * @param {function} createSlice - Gatsby's createSlice function
+ */
+exports.createSlices = async (createSlice) => {
+  createSlice({
+    id: `TopBar`,
+    component: require.resolve(`../src/components/TopBar.js`)
+  });
+
+  createSlice({
+    id: `Footer`,
+    component: require.resolve(`../src/components/Footer.js`)
   });
 };
 
@@ -261,19 +284,87 @@ exports.createGuidePages = async (graphql, createPage) => {
     query {
       mdxs: allMdx {
         nodes {
-          slug
+          fields {
+            slug
+          }
+          internal {
+            contentFilePath
+          }
         }
       }
     }
   `);
 
+  const template = require.resolve(`../src/templates/guide.js`);
+
   data.mdxs.nodes.forEach((mdx) => {
     createPage({
-      path: `guides/${mdx.slug}`,
-      component: require.resolve(`../src/templates/guide.js`),
+      path: `guides/${mdx.fields.slug}`,
+      component: `${template}?__contentFilePath=${mdx.internal.contentFilePath}`,
       context: {
-        slug: mdx.slug
+        slug: mdx.fields.slug
       }
     });
   });
+};
+
+/**
+ * Creates single Showcase pages for all loaded Showcase nodes
+ * @param {function} graphql - Gatsby's graphql function
+ * @param {function} createPage - Gatsby's createPage function
+ */
+exports.createShowcasePages = async (graphql, createPage) => {
+  const {
+    data: { contributions }
+  } = await graphql(`
+    query {
+      contributions: allContribution {
+        nodes {
+          id
+          author {
+            name
+          }
+        }
+      }
+    }
+  `);
+
+  const authors = extractTags(contributions.nodes, 'author.name');
+
+  await writeFile(
+    './public/filters-contributions.json',
+    JSON.stringify({ authors })
+  );
+
+  paginate({
+    createPage,
+    items: contributions.nodes,
+    itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
+    pathPrefix: '/showcase',
+    component: require.resolve(`../src/templates/showcases.js`),
+    context: {
+      author: ''
+    }
+  });
+
+  for (let author of [...authors, '']) {
+    const {
+      data: { filteredContributions }
+    } = await graphql(`
+        query {
+          filteredContributions: contributionsPaginatedFilteredByTags(author: "${author}")  {
+            id
+          }
+        }
+      `);
+
+    paginate({
+      createPage,
+      items: filteredContributions,
+      itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
+      pathPrefix: `/showcase/author/${!author ? 'all' : toSlug(author)}`,
+      component: require.resolve(`../src/templates/showcases.js`),
+      context: { author }
+    });
+  }
 };
