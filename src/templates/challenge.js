@@ -45,8 +45,6 @@ const Challenge = ({ data }) => {
       <main>
         <ChallengeVideoSection challenge={challenge} />
 
-        <div className={css.blankSep} />
-
         <VideoInfo
           video={challenge}
           variant="cyan"

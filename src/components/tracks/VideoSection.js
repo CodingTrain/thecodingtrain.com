@@ -6,7 +6,7 @@ import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
-import NebulaVideoLink from '../NebulaVideoLink';
+import NebulaVideoRow from '../NebulaVideoRow';
 
 import { filteredPath } from '../../utils';
 import { useChallengePartIndex } from '../../hooks';
@@ -28,6 +28,7 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
 };
 
 const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
+  const variant = 'red';
   const chapters = track.chapters ? track.chapters : [{ videos: track.videos }];
 
   const { title, topics, languages } = video;
@@ -97,7 +98,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             headerType="h3"
           />
 
-          <ShareButton className={css.share} variant="red" text="" />
+          <ShareButton className={css.share} variant={variant} text="" />
           <div
             className={css.timelinesToggle}
             onClick={() => setShowTimeline((v) => !v)}
@@ -162,7 +163,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
                   className={cn(css.timestampsTimeline, {
                     [css.hide]: !showTimestamps
                   })}
-                  variant="red"
+                  variant={variant}
                   timestamps={timestamps}
                   updateTimestamp={updateTimestamp}
                 />
@@ -181,7 +182,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
         </div>
       </div>
 
-      {nebulaSlug && <NebulaVideoLink nebulaSlug={nebulaSlug} />}
+      <NebulaVideoRow nebulaSlug={nebulaSlug} variant={variant} />
     </div>
   );
 };

@@ -81,8 +81,6 @@ const Track = ({ pageContext, data }) => {
           mainTitle={!isTrackPage}
         />
 
-        <div className={css.blankSep} />
-
         <VideoInfo
           video={video}
           variant="red"
