@@ -1,25 +1,24 @@
 .root {
-  display: flex;
-
   height: var(--baseline);
   border-left: var(--border);
   background: white;
-}
 
-.link {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 0 var(--box-padding);
+  padding: 0 6px;
 }
 
-.text {
-  font-size: var(--maru-small);
+.svg {
+  height: 37px;
 }
 
 @media (--small) {
   .hideRow {
     display: none;
+  }
+
+  .svg {
+    height: 27px;
   }
 }
 
