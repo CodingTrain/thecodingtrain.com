@@ -52,6 +52,18 @@
             "title": "TF-IDF",
             "videoId": "https://youtu.be/RPMYV-eb6lI",
             "timestamps": [
+                { "time": "0:00", "title": "What is TF-IDF?" },
+                { "time": "4:58", "title": "But why TF-IDF?" },
+                { "time": "6:10", "title": "Loading all the words from multiple text files" },
+                { "time": "9:00", "title": "Calculating word counts separately for one article" },
+                { "time": "10:47", "title": "Associating metadata with each word" },
+                { "time": "14:11", "title": "Implementing document frequency (DF)" },
+                { "time": "21:45", "title": "Some debugging" },
+                { "time": "24:30", "title": "refactoring the code to make it efficient" },
+                { "time": "26:55", "title": "Calculating the TF-IDF score" },
+                { "time": "29:20", "title": "Sorting the array in accordance to TF-IDF score" },
+                { "time": "30:15", "title": "What can you do with this?" },
+                { "time": "31:45", "title": "See you soon!" }
             ]
         }
     ],
