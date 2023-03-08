@@ -6,12 +6,14 @@ import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import PartsTimeline from './PartsTimeline';
+import NebulaVideoRow from '../NebulaVideoRow';
 
 import { filteredPath } from '../../utils';
 
 import * as css from './VideoSection.module.css';
 
 const VideoSection = ({ challenge }) => {
+  const variant = 'cyan';
   const { topics, languages, videoNumber, title } = challenge;
 
   const youTubeVideoRef = useRef();
@@ -24,7 +26,7 @@ const VideoSection = ({ challenge }) => {
   const [activePart, setActivePart] = useState(
     challenge.parts?.[0] ?? challenge
   );
-  const { videoId, timestamps } = activePart;
+  const { videoId, nebulaSlug, timestamps } = activePart;
   const hasTimestamps = timestamps?.length > 0;
   const hasTimeline = hasMultiParts || hasTimestamps;
 
@@ -80,7 +82,7 @@ const VideoSection = ({ challenge }) => {
             className={cn(css.share, {
               [css.onlyShare]: timestamps.length === 0
             })}
-            variant="cyan"
+            variant={variant}
             text=""
           />
           {timestamps.length > 0 && (
@@ -160,7 +162,7 @@ const VideoSection = ({ challenge }) => {
                     className={cn(css.timestampsTimeline, {
                       [css.hide]: !showTimestamps
                     })}
-                    variant="cyan"
+                    variant={variant}
                     timestamps={timestamps}
                     updateTimestamp={updateTimestamp}
                   />
@@ -170,6 +172,8 @@ const VideoSection = ({ challenge }) => {
           </div>
         )}
       </div>
+
+      <NebulaVideoRow nebulaSlug={nebulaSlug} variant={variant} />
     </div>
   );
 };
