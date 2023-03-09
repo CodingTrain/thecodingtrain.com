@@ -5,13 +5,7 @@
   "videoId": "D9BoBSkLvFo",
   "date": "2018-08-02",
   "languages": ["ml5.js", "JavaScript"],
-  "topics": [
-    "machine learning",
-    "webcam",
-    "image classification",
-    "ml5",
-    "mobilenet"
-  ],
+  "topics": ["machine learning", "webcam", "image classification", "ml5", "mobilenet"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -57,7 +51,7 @@
         {
           "icon": "💻",
           "title": "Image-Net",
-          "url": "http://image-net.org/index",
+          "url": "https://image-net.org/",
           "description": "ImageNet is an image database organized according to the WordNet hierarchy."
         }
       ]

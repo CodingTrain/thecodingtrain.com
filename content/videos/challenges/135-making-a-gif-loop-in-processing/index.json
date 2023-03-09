@@ -7,10 +7,7 @@
   "languages": ["Processing"],
   "topics": ["GIF loop", "EZGIF"],
   "canContribute": true,
-  "relatedChallenges": [
-    "136-polar-noise-loops",
-    "137-4d-opensimplex-noise-loop"
-  ],
+  "relatedChallenges": ["136-polar-noise-loops", "137-4d-opensimplex-noise-loop"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic: GIF loops" },
     { "time": "3:04", "title": "Core idea of loop" },
@@ -40,7 +37,7 @@
         {
           "icon": "🖌",
           "title": "Daily Art",
-          "url": "http://sasj.tumblr.com/",
+          "url": "https://sasj.tumblr.com/",
           "description": "Saskia Freeke tumblr site with daily art."
         },
         {

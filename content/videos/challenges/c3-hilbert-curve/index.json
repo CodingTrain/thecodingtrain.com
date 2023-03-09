@@ -24,7 +24,7 @@
       "image": "hilbert.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/LPf9PLmp",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/003_Hilbert_Curve/"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/003_hilbert_curve"
       }
     }
   ],
@@ -41,7 +41,7 @@
         {
           "icon": "🔁",
           "title": "Iterative algorithm for drawing Hilbert curve by Marcin Chwedczuk",
-          "url": "https://marcin-chwedczuk.github.io/iterative-algorithm-for-drawing-hilbert-curve",
+          "url": "https://blog.marcinchwedczuk.pl/iterative-algorithm-for-drawing-hilbert-curve",
           "description": "Discussion of iterative algorithm for drawing Hilbert curve."
         }
       ]

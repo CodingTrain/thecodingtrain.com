@@ -57,7 +57,7 @@
         {
           "icon": "🌍",
           "title": "Earthquake Database",
-          "url": "http://earthquake.usgs.gov/data/",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/data",
           "description": "USGS Realtime monitoring, station, and other various seismic data"
         }
       ]

@@ -53,13 +53,13 @@
         {
           "icon": "🎇",
           "title": "PixelPyros",
-          "url": "http://seb.ly/work/pixelpyros/",
+          "url": "https://seblee.co/projects/pixelpyros/",
           "description": "Spectacular interactive laser light installations"
         },
         {
           "icon": "🎥",
           "title": "PeasyCam Website",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "Documentation for the PeasyCam Processing library"
         }
       ]

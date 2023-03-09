@@ -5,19 +5,9 @@
   "videoId": "",
   "date": "2018-07-24",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "number sequence",
-    "recaman's sequence",
-    "music",
-    "audio-visual",
-    "visualization"
-  ],
+  "topics": ["number sequence", "recaman's sequence", "music", "audio-visual", "visualization"],
   "canContribute": true,
-  "relatedChallenges": [
-    "140-pi-leibniz",
-    "133-time-tables-cardioid-visualization",
-    "c2-collatz-conjecture"
-  ],
+  "relatedChallenges": ["140-pi-leibniz", "133-time-tables-cardioid-visualization", "c2-collatz-conjecture"],
   "timestamps": [],
   "parts": [
     {
@@ -118,7 +108,7 @@
         {
           "icon": "📘",
           "title": "Recamán's Sequence on MathWorld",
-          "url": "http://mathworld.wolfram.com/RecamansSequence.html",
+          "url": "https://mathworld.wolfram.com/RecamansSequence.html",
           "description": "Wolframn MathWorld's page on the Recamán's Sequence"
         },
         {
@@ -131,7 +121,7 @@
         {
           "icon": "🗐",
           "title": "OEIS",
-          "url": "http://oeis.org/",
+          "url": "https://oeis.org/",
           "description": "An online database of integer sequences created by Neil Sloane"
         },
         {

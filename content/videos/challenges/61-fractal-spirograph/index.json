@@ -7,11 +7,7 @@
   "languages": ["Processing", "Java"],
   "topics": ["fractal", "spirograph", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": [
-    "7-solar-system-2d",
-    "55-mathematical-rose-patterns",
-    "116-lissajous-curve-table"
-  ],
+  "relatedChallenges": ["7-solar-system-2d", "55-mathematical-rose-patterns", "116-lissajous-curve-table"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:45", "title": "Benice equation" },
@@ -64,7 +60,7 @@
         {
           "icon": "🖊",
           "title": "C.J.Chen's blog on Fractal Spirograph",
-          "url": "http://benice-equation.blogspot.ca/2012/01/fractal-spirograph.html",
+          "url": "https://benice-equation.blogspot.com/2012/01/fractal-spirograph.html",
           "description": "Fun math art (pictures) - benice equation"
         }
       ]

@@ -5,11 +5,7 @@
   "videoId": "dLp10CFIvxI",
   "date": "2018-05-29",
   "languages": ["p5.js", "tensorflow.js"],
-  "topics": [
-    "tensorflow js",
-    "linear regression",
-    "stochastic gradient descent"
-  ],
+  "topics": ["tensorflow js", "linear regression", "stochastic gradient descent"],
   "canContribute": true,
   "relatedChallenges": [
     "70-nearest-neighbors-recommendation-engine",
@@ -56,7 +52,7 @@
         {
           "icon": "💾",
           "title": "TensorFlow.js",
-          "url": "https://js.tensorflow.org/",
+          "url": "https://www.tensorflow.org/js/",
           "description": "Webpage with reference materials and documentation about TensorFow.js"
         },
         {

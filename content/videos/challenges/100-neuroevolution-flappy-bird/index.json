@@ -5,19 +5,9 @@
   "videoId": "c6y21FkaUqw",
   "date": "2018-04-16",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "neural network",
-    "reinforcement learning",
-    "genetic algorithm",
-    "evolution",
-    "flappy bird"
-  ],
+  "topics": ["neural network", "reinforcement learning", "genetic algorithm", "evolution", "flappy bird"],
   "canContribute": true,
-  "relatedChallenges": [
-    "29-smart-rockets-in-p5js",
-    "31-flappy-bird",
-    "41-clappy-bird"
-  ],
+  "relatedChallenges": ["29-smart-rockets-in-p5js", "31-flappy-bird", "41-clappy-bird"],
   "timestamps": [],
   "parts": [
     {
@@ -168,7 +158,7 @@
         {
           "icon": "💻",
           "title": "TensorFlow.js",
-          "url": "https://js.tensorflow.org/",
+          "url": "https://www.tensorflow.org/js/",
           "description": "Webpage with reference materials and documentation about Tensorflow.js."
         },
         {
@@ -192,7 +182,7 @@
         {
           "icon": "💻",
           "title": "Neuroevolution documentation",
-          "url": "https://github.com/shiffman/NOC-S18/tree/master/week10",
+          "url": "https://github.com/nature-of-code/NOC-S18/tree/master/week10",
           "description": "Week 10 of my Spring 2018 NOC course at ITP"
         }
       ]

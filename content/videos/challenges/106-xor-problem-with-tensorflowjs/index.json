@@ -7,11 +7,7 @@
   "languages": ["p5.js", "JavaScript", "tensorflow.js"],
   "topics": ["machine learning", "xor problem"],
   "canContribute": true,
-  "relatedChallenges": [
-    "92-xor-problem",
-    "104-linear-regression-with-tensorflowjs",
-    "105-polynomial-regression-with-tensorflowjs"
-  ],
+  "relatedChallenges": ["92-xor-problem", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:43", "title": "Architecture of model" },
@@ -42,7 +38,7 @@
         {
           "icon": "💻",
           "title": "TensorFlow.js",
-          "url": "https://js.tensorflow.org/",
+          "url": "https://www.tensorflow.org/js/",
           "description": "Webpage with reference materials and documentation about TensorFow.js"
         },
         {

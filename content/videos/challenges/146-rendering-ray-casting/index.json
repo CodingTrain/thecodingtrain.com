@@ -5,13 +5,7 @@
   "videoId": "vYgIKn7iDH8",
   "date": "2019-05-10",
   "languages": ["p5.js"],
-  "topics": [
-    "ray casting",
-    "game development",
-    "2d ray casting",
-    "ray marching",
-    "wolfenstein 3d ray casting"
-  ],
+  "topics": ["ray casting", "game development", "2d ray casting", "ray marching", "wolfenstein 3d ray casting"],
   "canContribute": true,
   "relatedChallenges": ["145-ray-casting-2d", "168-the-mandelbulb"],
   "timestamps": [
@@ -81,7 +75,7 @@
         {
           "icon": "🌞",
           "title": "Gustavo Pezzi's Raycast 3D",
-          "url": "http://www.gustavopezzi.com/projects/raycast3d/",
+          "url": "https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript",
           "description": "A course that teaches how to create a complete raycasting engine from scratch."
         },
         {

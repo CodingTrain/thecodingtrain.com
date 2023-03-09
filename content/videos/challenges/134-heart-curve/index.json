@@ -5,17 +5,9 @@
   "videoId": "",
   "date": "2019-02-18",
   "languages": ["Processing"],
-  "topics": [
-    "heart curve",
-    "parametric equation",
-    "polar coordinates",
-    "GIF loop"
-  ],
+  "topics": ["heart curve", "parametric equation", "polar coordinates", "GIF loop"],
   "canContribute": true,
-  "relatedChallenges": [
-    "133-time-tables-cardioid-visualization",
-    "135-making-a-gif-loop-in-processing"
-  ],
+  "relatedChallenges": ["133-time-tables-cardioid-visualization", "135-making-a-gif-loop-in-processing"],
   "timestamps": [],
   "parts": [
     {
@@ -105,13 +97,13 @@
         {
           "icon": "❤️",
           "title": "Heart Curve Formulas",
-          "url": "http://mathworld.wolfram.com/HeartCurve.html",
+          "url": "https://mathworld.wolfram.com/HeartCurve.html",
           "description": "Webpage with parametric equations for different heart curves."
         },
         {
           "icon": "🖌",
           "title": "Daily Art",
-          "url": "http://sasj.tumblr.com/",
+          "url": "https://sasj.tumblr.com/",
           "description": "Saskia Freeke tumblr site with daily art."
         },
         {
