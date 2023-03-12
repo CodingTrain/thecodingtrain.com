@@ -49,6 +49,7 @@
           "description": "A web-based tool that makes creating machine learning models fast, easy, and accessible to everyone."
         },
         {
+          "icon": "💾",
           "title": "Tensor Flow",
           "url": "https://www.tensorflow.org/js",
           "description": "A library for machine learning in JavaScript."
