@@ -2,11 +2,12 @@
   "title": "Teachable Machine 1: Image Classification",
   "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)!  Train a computer to recognize your own images, sounds, & poses. In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library. ",
   "videoNumber": "1",
+  "nebulaSlug": "the-coding-train-yt-teachable-machine-1-image-classification",
   "videoId": "kwcillcWOg0",
   "date": "2019-11-7",
   "languages": ["JavaScript", "p5.js", "ml5.js"],
   "topics": ["machine learning", "ml5","image classification"],
-  "canContribute": false,
+  "canContribute": true,
   "timestamps": [
     { "time": "0:32", "title": "Teachable Machine 2.0" },
     { "time": "1:06", "title": "Training an Image Classification model" },
@@ -63,7 +64,7 @@
         {
           "icon": "💻",
           "title": "Image-Net",
-          "url": "http://image-net.org/index",
+          "url": "http://image-net.org/",
           "description": "ImageNet is an image database organized according to the WordNet hierarchy."
         },
         {
@@ -80,13 +81,13 @@
         {
           "icon": "🚂",
           "title": "ml5.js: Transfer Learning with Feature Extractor",
-          "url": "ml5js-beginners-guide/ml5/2-transfer-learning/1-transfer-learning",
+          "url": "/tracks/ml5js-beginners-guide/ml5/2-transfer-learning/1-transfer-learning",
           "description": "Link to tutorial track on the process behind “transfer learning” with ml5's feature extractor."
         },
         {
           "icon": "🚂",
           "title": "ml5.js: Feature Extractor Classification",
-          "url": "ml5js-beginners-guide/ml5/3-feature-extractor/1-classification",
+          "url": "/tracks/ml5js-beginners-guide/ml5/3-feature-extractor/1-classification",
           "description": "Link to tutorial track on ml5's feature extractor."
         }
       ]

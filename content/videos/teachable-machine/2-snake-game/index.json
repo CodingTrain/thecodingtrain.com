@@ -2,11 +2,12 @@
   "title": "Teachable Machine 2: Snake Game",
   "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)!  Train a computer to recognize your own images, sounds, & poses. In this video, I demonstrate how to control an interaction with an image classification machine learning model to play the snake game.",
   "videoNumber": "2",
+  "nebulaSlug": "the-coding-train-yt-teachable-machine-2-snake-game",
   "videoId": "UPgxnGC8oBU",
   "date": "2019-11-08",
   "languages": ["JavaScript", "p5.js", "ml5.js"],
   "topics": ["machine learning", "ml5","snake", "game"],
-  "canContribute": false,
+  "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Review" },
     { "time": "1:07", "title": "Train the model" },
@@ -51,10 +52,6 @@
           "description": "Snake Game in the web editor for p5.js"
         }
       ]
-    },
-    {
-      "title": "Videos",
-      "links": []
     }
   ],
   "credits": [
