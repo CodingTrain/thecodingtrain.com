@@ -1,15 +1,18 @@
 {
-  "title": "",
-  "description": "",
+  "title": "Introduction",
+  "description": "Introducing a new series: How to Make a Discord bot! This video covers the tools I plan to use to create and code a Discord bot.",
   "videoNumber": "1",
-  "videoId": "",
-  "date": "",
+  "videoId": "7A-bnPlxj4k",
+  "date": "2020-11-08",
   "languages": ["JavaScript", "node.js"],
-  "topics": [""],
+  "topics": ["discord","bot"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "" },
-    { "time": "1:28", "title": "" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:28", "title": "The Coding Train Discord" },
+    { "time": "2:18", "title": "Project Overview" },
+    { "time": "7:53", "title": "Code! Installing and Using Node" },
+    { "time": "9:24", "title": "Signing Up For a Discord Account" }
   ],
   "codeExamples": [],
   "groupLinks": [
@@ -21,6 +24,30 @@
           "title": "Node.js",
           "url": "https://nodejs.org/en/",
           "description": "An open-source, cross-platform JavaScript runtime environment."
+        },
+        {
+          "icon": "🔗",
+          "title": "The Coding Train Discord",
+          "url": "https://thecodingtrain.com/discord",
+          "description": "Join the Coding Train Discord channel."
+        },
+        {
+          "icon": "🔗",
+          "title": "Discord (Website)",
+          "url": "https://discord.com/",
+          "description": "A free communication app."
+        },
+        {
+          "icon": "🔗",
+          "title": "Discord Developer Portal",
+          "url": "https://discord.com/developers/docs/intro",
+          "description": "The Discord Developer Documentation."
+        },
+        {
+          "icon": "🔗",
+          "title": "Visual Studio Code (Text Editor)",
+          "url": "https://code.visualstudio.com/",
+          "description": "A code editor made by Microsoft."
         }
       ]
     },
@@ -29,9 +56,15 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "Code! Programming with p5.js",
-          "url": "/tracks/code-programming-with-p5-js",
-          "description": "Link to tutorial track on fundamentals of coding using JavaScript."
+          "title": "Shell Workflow",
+          "url": "2018-workflow/workflow/3-shell",
+          "description": "Link to the zsh workflow video."
+        },
+        {
+          "icon": "🚂",
+          "title": "Node.js Workflow",
+          "url": "2018-workflow/workflow/5-node",
+          "description": "Link to the Node.js workflow video."
         }
       ]
     }
