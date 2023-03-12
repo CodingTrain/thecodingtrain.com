@@ -2,6 +2,7 @@
   "title": "Discord Developer Portal",
   "description": "In this video I demonstrate how use the discord developer portal to create a bot application and add it to a specific discord server using the client id.",
   "videoNumber": "2",
+  "nebulaSlug": "the-coding-train-yt-discord-bots-2-discord-developer-portal",
   "videoId": "ibtXXoMxaho",
   "date": "2020-11-08",
   "languages": ["JavaScript", "node.js"],
@@ -43,10 +44,6 @@
           "description": "Link template to add bot to a server."
         }
       ]
-    },
-    {
-      "title": "Videos",
-      "links": []
     }
   ],
   "credits": [

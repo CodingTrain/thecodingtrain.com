@@ -2,6 +2,7 @@
   "title": "Coding a Bot with discord.js",
   "description": "It's finally time to write some code! In this video, I demonstrate the very basics of coding a “hello world”-style bot with discord.js.",
   "videoNumber": "3",
+  "nebulaSlug": "the-coding-train-yt-discord-bots-3-coding-a-bot-with-discord-js",
   "videoId": "8k-zyUyuvlM",
   "date": "2020-11-09",
   "languages": ["JavaScript", "node.js","discord.js"],
@@ -69,13 +70,13 @@
         {
           "icon": "🚂",
           "title": "Server Side with Node.js",
-          "url": "data-and-apis-in-javascript/data/2-data-selfie-app/1-server-side-with-node-js",
+          "url": "/tracks/data-and-apis-in-javascript/data/2-data-selfie-app/1-server-side-with-node-js",
           "description": "Link to tutorial video on creating a web server with Node.js."
         },
         {
           "icon": "🚂",
           "title": "Hiding API Keys (dotenv)",
-          "url": "data-and-apis-in-javascript/data/3-the-weather-here/4-environment-variables",
+          "url": "/tracks/data-and-apis-in-javascript/data/3-the-weather-here/4-environment-variables",
           "description": "Link to tutorial video on how to use a dotenv file to hide sensitive information."
         },
         {

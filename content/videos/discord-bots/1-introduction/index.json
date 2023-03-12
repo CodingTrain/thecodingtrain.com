@@ -2,6 +2,7 @@
   "title": "Introduction",
   "description": "Introducing a new series: How to Make a Discord bot! This video covers the tools I plan to use to create and code a Discord bot.",
   "videoNumber": "1",
+  "nebulaSlug": "the-coding-train-yt-discord-bots-1-introduction",
   "videoId": "7A-bnPlxj4k",
   "date": "2020-11-08",
   "languages": ["JavaScript", "node.js"],
@@ -57,13 +58,13 @@
         {
           "icon": "🚂",
           "title": "Shell Workflow",
-          "url": "2018-workflow/workflow/3-shell",
+          "url": "/tracks/2018-workflow/workflow/3-shell",
           "description": "Link to the zsh workflow video."
         },
         {
           "icon": "🚂",
           "title": "Node.js Workflow",
-          "url": "2018-workflow/workflow/5-node",
+          "url": "/tracks/2018-workflow/workflow/5-node",
           "description": "Link to the Node.js workflow video."
         }
       ]

@@ -2,6 +2,7 @@
   "title": "Hiding API Keys with .env",
   "description": "In this video I demonstrate how to use the node dotenv package along with a .env file to store (and hide!) API keys outside of the source code",
   "videoNumber": "4",
+  "nebulaSlug": "the-coding-train-yt-discord-bots-4-hiding-api-keys-with-env",
   "videoId": "G2Yns7NUSq4",
   "date": "2020-12-02",
   "languages": ["JavaScript", "node.js"],
@@ -24,16 +25,7 @@
       } 
     }
   ],
-  "groupLinks": [
-    {
-      "title": "References",
-      "links": []
-    },
-    {
-      "title": "Videos",
-      "links": []
-    }
-  ],
+  "groupLinks": [],
   "credits": [
     {
       "title": "Editing",
