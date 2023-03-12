@@ -16,6 +16,7 @@
     "side-tracks/mastodon",
     "side-tracks/snowflakes",
     "side-tracks/pi-day",
-    "side-tracks/web-sockets-and-p5js"
+    "side-tracks/web-sockets-and-p5js",
+    "side-tracks/teachable-machine"
   ]
 }
