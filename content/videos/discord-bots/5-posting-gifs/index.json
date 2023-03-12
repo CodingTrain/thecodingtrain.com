@@ -43,23 +43,15 @@
         {
           "icon": "🔗",
           "title": "Tenor API Documentation",
-          "description": "",
+          "description": "How to integrate Tenor GIF search into your application.",
           "urls":{
-            "other": ""
+            "other": "https://tenor.com/gifapi/documentation#quickstart"
           }
-        },    
-        {
-          "icon": "🔗",
-          "title": "Tenor API sign up",
-          "description": "",
-          "urls":{
-            "other": ""
-          }
-        },    
+        },
         {
           "icon": "🔗",
           "title": "Axios",
-          "description": "",
+          "description": "Promise based HTTP client for the browser and node.js.",
           "urls":{
             "other": "https://github.com/axios/axios"
           }
@@ -78,14 +70,14 @@
         {
           "icon": "🚂",
           "title": "async/await",
-          "url": "",
-          "description": "."
+          "url": "/tracks/js/async-await-part-1",
+          "description": "Link to tutorial video on how to use async/await in Javascript."
         },
         {
           "icon": "🚂",
           "title": "Fetch",
-          "url": "",
-          "description": "."
+          "url": "/tracks/data-and-apis-in-javascript/data/1-fetch",
+          "description": "Link to tutorial video on how to use the fetch function."
         },
         {
           "icon": "🚂",
