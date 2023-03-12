@@ -1,39 +1,37 @@
 {
-  "title": "",
-  "description": "",
+  "title": "Hiding API Keys with .env",
+  "description": "In this video I demonstrate how to use the node dotenv package along with a .env file to store (and hide!) API keys outside of the source code",
   "videoNumber": "4",
-  "videoId": "",
-  "date": "",
+  "videoId": "G2Yns7NUSq4",
+  "date": "2020-12-02",
   "languages": ["JavaScript", "node.js"],
-  "topics": [""],
+  "topics": ["API", "env"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "" },
-    { "time": "1:28", "title": "" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:05", "title": "Environment variables" },
+    { "time": "2:11", "title": "Setup the .env file" },
+    { "time": "3:06", "title": "Calling the .env file from bot.js" },
+    { "time": "3:53", "title": "Adding the dotenv module for local development." },
+    { "time": "5:00", "title": "Possible modifications." }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Glitch",
+      "description": "All about the Coding Train Choo Choo Discord bot!",
+      "urls":{
+        "other": "https://glitch.com/~choo-choo-bot-discord"
+      } 
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
-      "links": [
-        {
-          "icon": "🌿",
-          "title": "Node.js",
-          "url": "https://nodejs.org/en/",
-          "description": "An open-source, cross-platform JavaScript runtime environment."
-        }
-      ]
+      "links": []
     },
     {
       "title": "Videos",
-      "links": [
-        {
-          "icon": "🚂",
-          "title": "Code! Programming with p5.js",
-          "url": "/tracks/code-programming-with-p5-js",
-          "description": "Link to tutorial track on fundamentals of coding using JavaScript."
-        }
-      ]
+      "links": []
     }
   ],
   "credits": [
