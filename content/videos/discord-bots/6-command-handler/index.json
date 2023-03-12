@@ -1,15 +1,29 @@
 {
-  "title": "",
-  "description": "",
+  "title": "Building a Command Handler",
+  "description": "In this video I demonstrate how to manage multiple Discord bot commands with “a command handler” built with CommonJS and require() in node.js.",
   "videoNumber": "6",
-  "videoId": "",
-  "date": "",
+  "nebulaSlug": "the-coding-train-yt-discord-bots-6-building-a-command-handler",
+  "videoId": "B60Q74FHFBQ",
+  "date": "2021-01-15",
   "languages": ["JavaScript", "node.js"],
-  "topics": [""],
+  "topics": ["discord","bot"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "" },
-    { "time": "1:28", "title": "" }
+    { "time": "0:00", "title": "Welcome Back!" },
+    { "time": "0:39", "title": "Explain! What's a command handler?" },
+    { "time": "3:03", "title": "Code! Create commands.js using gotMessage()" },
+    { "time": "5:36", "title": "Try! Let's see if it works" },
+    { "time": "6:26", "title": "Code! JavaScript files for each command" },
+    { "time": "7:59", "title": "Code! Let's see if the message a valid command" },
+    { "time": "9:27", "title": "Code! Object for looking up commands" },
+    { "time": "11:11", "title": "Try! Test to see if the system works" },
+    { "time": "12:00", "title": "Code! Call choochoo command from choochoo.js" },
+    { "time": "13:54", "title": "Try! Ahh let's see if this works" },
+    { "time": "14:04", "title": "Code! Add the gif command" },
+    { "time": "15:14", "title": "Try! Let's try running it" },
+    { "time": "15:49", "title": "Recap!" },
+    { "time": "17:00", "title": "Possible Improvements!" },
+    { "time": "17:56", "title": "What's coming next?" }
   ],
   "codeExamples": [],
   "groupLinks": [
@@ -17,10 +31,34 @@
       "title": "References",
       "links": [
         {
-          "icon": "🌿",
-          "title": "Node.js",
-          "url": "https://nodejs.org/en/",
-          "description": "An open-source, cross-platform JavaScript runtime environment."
+          "icon": "🔗",
+          "title": "Glitch",
+          "description": "All about the Coding Train Choo Choo Discord bot!",
+          "url": "https://glitch.com/~choo-choo-bot-discord"
+        },
+        {
+          "icon": "🔗",
+          "title": "discord.js Guide Command handling",
+          "url": "https://discordjs.guide/creating-your-bot/command-handling.html#command-handling",
+          "description": "Official documentation on discord.js command handling."
+        },
+        {
+          "icon": "🔗",
+          "title": "Intro Discord Bot (Coding Garden GitHub)",
+          "url": "https://github.com/CodingGarden/intro-discord-bot",
+          "description": "Code from the Coding Garden video on building a Discord bot."
+        },
+        {
+          "icon": "🔗",
+          "title": "import (Mozilla Docs)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import",
+          "description": "MDN documentation on import declaration."
+        },
+        {
+          "icon": "🔗",
+          "title": "import (Node.js v13 Docs)g",
+          "url": "https://nodejs.org/docs/latest-v13.x/api/esm.html#esm_import_statements",
+          "description": "Official Node.js v13 documentation on import statement."
         }
       ]
     },
@@ -29,9 +67,9 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "Code! Programming with p5.js",
-          "url": "/tracks/code-programming-with-p5-js",
-          "description": "Link to tutorial track on fundamentals of coding using JavaScript."
+          "title": "Coding Garden with CJ - Build a Discord bot",
+          "url": "https://www.youtube.com/watch?v=gzM7kj6gV5I&ab_channel=CodingGarden",
+          "description": "Coding Garden video on building a Discord bot."
         }
       ]
     }

@@ -36,25 +36,19 @@
           "icon": "🔗",
           "title": "Glitch",
           "description": "All about the Coding Train Choo Choo Discord bot!",
-          "urls":{
-            "other": "https://glitch.com/~choo-choo-bot-discord"
-          }
+          "url": "https://glitch.com/~choo-choo-bot-discord"
         },    
         {
           "icon": "🔗",
           "title": "Tenor API Documentation",
           "description": "How to integrate Tenor GIF search into your application.",
-          "urls":{
-            "other": "https://tenor.com/gifapi/documentation#quickstart"
-          }
+          "url": "https://tenor.com/gifapi/documentation#quickstart"
         },
         {
           "icon": "🔗",
           "title": "Axios",
           "description": "Promise based HTTP client for the browser and node.js.",
-          "urls":{
-            "other": "https://github.com/axios/axios"
-          }
+          "url": "https://github.com/axios/axios"
         }
       ]
     },
