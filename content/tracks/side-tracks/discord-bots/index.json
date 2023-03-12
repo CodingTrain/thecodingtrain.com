@@ -1,0 +1,13 @@
+{
+  "title": "Discord Bots",
+  "description": "This series will teach you how to code your very first Discord bot with node.js and discord.js.",
+  "playlistId": "PLRqwX-V7Uu6avBYxeBSwF48YhAnSn_sA4",
+  "videos": [
+    "discord-bots/1-introduction",
+    "discord-bots/2-discord-dev-portal",
+    "discord-bots/3-coding-a-bot",
+    "discord-bots/4-hiding-api-keys",
+    "discord-bots/5-posting-gifs",
+    "discord-bots/6-command-handler"
+  ]
+}

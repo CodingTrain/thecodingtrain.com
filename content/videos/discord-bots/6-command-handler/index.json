@@ -1,0 +1,49 @@
+{
+  "title": "",
+  "description": "",
+  "videoNumber": "6",
+  "videoId": "",
+  "date": "",
+  "languages": ["JavaScript", "node.js"],
+  "topics": [""],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "" },
+    { "time": "1:28", "title": "" }
+  ],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🌿",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en/",
+          "description": "An open-source, cross-platform JavaScript runtime environment."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Code! Programming with p5.js",
+          "url": "/tracks/code-programming-with-p5-js",
+          "description": "Link to tutorial track on fundamentals of coding using JavaScript."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
