@@ -64,7 +64,7 @@
         {
           "icon": "🚂",
           "title": "async/await",
-          "url": "/tracks/js/async-await-part-1",
+          "url": "/tracks/topics-in-native-javascript/js/async-await-part-1",
           "description": "Link to tutorial video on how to use async/await in Javascript."
         },
         {
