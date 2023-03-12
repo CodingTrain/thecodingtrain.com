@@ -1,26 +1,65 @@
 {
-  "title": "",
-  "description": "",
+  "title": "Coding a Bot with discord.js",
+  "description": "It's finally time to write some code! In this video, I demonstrate the very basics of coding a “hello world”-style bot with discord.js.",
   "videoNumber": "3",
-  "videoId": "",
-  "date": "",
-  "languages": ["JavaScript", "node.js"],
-  "topics": [""],
+  "videoId": "8k-zyUyuvlM",
+  "date": "2020-11-09",
+  "languages": ["JavaScript", "node.js","discord.js"],
+  "topics": ["discord","bot"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "" },
-    { "time": "1:28", "title": "" }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:36", "title": "Code! Creating a Node Application" },
+    { "time": "3:44", "title": "Code! Adding discord.js" },
+    { "time": "4:37", "title": "Code! Creating and Authenticating the Bot" },
+    { "time": "8:08", "title": "Code! Replying to Messages" },
+    { "time": "10:59", "title": "Code! Specifying a Channel" },
+    { "time": "13:28", "title": "Code! Random replies" },
+    { "time": "15:03", "title": "Other Bot Examples and Suggestions" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Glitch",
+      "description": "All about the Coding Train Choo Choo Discord bot!",
+      "urls":{
+        "other": "https://glitch.com/~choo-choo-bot-discord"
+      } 
+    },
+    {
+      "title": "Github",
+      "description": " Coding Train Example Discord Bot.",
+      "urls":{
+        "other": "https://github.com/CodingTrain/Discord-Bot-Choo-Choo"
+      } 
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
       "links": [
         {
-          "icon": "🌿",
-          "title": "Node.js",
-          "url": "https://nodejs.org/en/",
-          "description": "An open-source, cross-platform JavaScript runtime environment."
+          "icon": "🔗",
+          "title": "The Coding Train Discord",
+          "url": "https://thecodingtrain.com/discord",
+          "description": "Join the Coding Train Discord channel."
+        },
+        {
+          "icon": "🔗",
+          "title": "discord.js",
+          "url": "https://discord.js.org/",
+          "description": "A Node.js module to interact with the Discord API."
+        },
+        {
+          "icon": "🔗",
+          "title": "discord.js Guide",
+          "url": "https://discordjs.guide/",
+          "description": "The official discord.js guide."
+        },
+        {
+          "icon": "🔗",
+          "title": "DisStreamChat Bot",
+          "url": "https://www.disstreamchat.com/",
+          "description": "Bot to link your Discord with your Stream chat."
         }
       ]
     },
@@ -29,9 +68,21 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "Code! Programming with p5.js",
-          "url": "/tracks/code-programming-with-p5-js",
-          "description": "Link to tutorial track on fundamentals of coding using JavaScript."
+          "title": "Server Side with Node.js",
+          "url": "data-and-apis-in-javascript/data/2-data-selfie-app/1-server-side-with-node-js",
+          "description": "Link to tutorial video on creating a web server with Node.js."
+        },
+        {
+          "icon": "🚂",
+          "title": "Hiding API Keys (dotenv)",
+          "url": "data-and-apis-in-javascript/data/3-the-weather-here/4-environment-variables",
+          "description": "Link to tutorial video on how to use a dotenv file to hide sensitive information."
+        },
+        {
+          "icon": "🤖",
+          "title": "Building a Discord bot with Daniel Shiffman of the Coding Train",
+          "url": "https://www.youtube.com/watch?v=gzM7kj6gV5I&ab_channel=CodingGarden",
+          "description": "Coding Garden video on building a Discord bot."
         }
       ]
     }
