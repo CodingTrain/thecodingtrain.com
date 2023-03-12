@@ -47,7 +47,7 @@
         },
         {
           "title": "Coding Challenge 115: Snake Game Redux",
-          "url": "challenges/115-snake-game-redux",
+          "url": "/challenges/115-snake-game-redux",
           "description": "Snake Game in the web editor for p5.js"
         }
       ]

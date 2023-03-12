@@ -80,13 +80,13 @@
         {
           "icon": "🚂",
           "title": "ml5.js: Transfer Learning with Feature Extractor",
-          "url": "ml5/2-transfer-learning/1-transfer-learning",
+          "url": "ml5js-beginners-guide/ml5/2-transfer-learning/1-transfer-learning",
           "description": "Link to tutorial track on the process behind “transfer learning” with ml5's feature extractor."
         },
         {
           "icon": "🚂",
           "title": "ml5.js: Feature Extractor Classification",
-          "url": "ml5/3-feature-extractor/1-classification",
+          "url": "ml5js-beginners-guide/ml5/3-feature-extractor/1-classification",
           "description": "Link to tutorial track on ml5's feature extractor."
         }
       ]
