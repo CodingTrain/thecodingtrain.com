@@ -1,0 +1,61 @@
+{
+  "title": "Buffon's Needle",
+  "description": "How do toothpicks approximate the value of pi? I'll show you by coding a simulation in p5.js!",
+  "videoNumber": "173",
+  "videoId": "h5ZNcAPXxew",
+  "nebulaSlug": "codingtrain-coding-challenge-172-horizontal-directional-drilling",
+  "date": "2023-03-14",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["pi day", "pi", "buffon's needle", "buffon"],
+  "canContribute": true,
+  "relatedChallenges": ["95-approximating-the-value-of-pi", "145-ray-casting-2d"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Buffon's Needle",
+      "description": "Simple simulator code direct from video",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SuU_4PfcAI"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Buffon's Needle",
+          "url": "https://en.wikipedia.org/wiki/Buffon%27s_needle_problem",
+          "description": "Wikipedia page describing Buffon's Needle."
+        },
+        {
+          "icon": "🔗",
+          "title": "Analysis and Simulation",
+          "url": "https://mste.illinois.edu/activity/buffon/",
+          "description": "Explanation from Technology Education College of Education @ University of Illinois."
+        },
+        {
+          "icon": "🔗",
+          "title": "Pickup Sticks & Pi",
+          "url": "https://ogden.eu/pi/",
+          "description": "Simulation by Thomas Ogden"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    },
+    {
+      "title": "Pi Day Song",
+      "name": "Will from America"
+    }
+  ]
+}
