@@ -3,7 +3,7 @@
   "description": "How do toothpicks approximate the value of pi? I'll show you by coding a simulation in p5.js!",
   "videoNumber": "173",
   "videoId": "h5ZNcAPXxew",
-  "nebulaSlug": "codingtrain-coding-challenge-173-buffons-needle",
+  "nebulaSlug": "codingtrain-coding-challenge-buffons-needle",
   "date": "2023-03-14",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["pi day", "pi", "buffon's needle", "buffon"],
