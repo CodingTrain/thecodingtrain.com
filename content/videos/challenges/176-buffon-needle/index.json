@@ -17,6 +17,20 @@
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SuU_4PfcAI"
       }
+    },
+    {
+      "title": "Line Line Intersection",
+      "description": "Algorithm to test for line-line intersection",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/htO0scRB1"
+      }
+    },
+    {
+      "title": "Probability Density Function Graph",
+      "description": "Graph of the probability density function",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/eMaEGlfmu"
+      }
     }
   ],
   "groupLinks": [
