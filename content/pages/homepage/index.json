@@ -31,7 +31,7 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "175-3D-cube-applesoft-basic",
+      "176-buffon-needle",
       "95-approximating-the-value-of-pi",
       "96-visualizing-digits-of-pi",
       "97-book-of-pi",
