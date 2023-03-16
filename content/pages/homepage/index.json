@@ -32,15 +32,14 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "176-buffon-needle",
-      "95-approximating-the-value-of-pi",
-      "96-visualizing-digits-of-pi",
-      "97-book-of-pi",
-      "139-calculating-digits-of-pi-with-collisions",
-      "140-pi-leibniz",
-      "141-mandelbrot-pi",
-      "156-peeking-inside-pi",
-      "161-estimating-pi-from-random-numbers",
-      "169-pi-in-the-sky"
+      "109-visualizing-500000-subscribers",
+      "110-recamans-sequence",
+      "121-logo-interpreter",
+      "111-animated-sprites",
+      "153-interactive-drawing-with-sketchrnn",
+      "62-plinko-with-matterjs",
+      "123-chaos-game",
+      "11-3d-terrain-generation-with-perlin-noise"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -51,15 +50,15 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/95-approximating-the-value-of-pi/showcase/contribution2.json",
-      "challenges/96-visualizing-digits-of-pi/showcase/contribution1.json",
-      "challenges/97-book-of-pi/showcase/contribution2.json",
-      "challenges/139-calculating-digits-of-pi-with-collisions/showcase/contribution6.json",
-      "challenges/140-pi-leibniz/showcase/contribution4.json",
-      "challenges/141-mandelbrot-pi/showcase/contribution2.json",
-      "challenges/161-estimating-pi-from-random-numbers/showcase/contribution3.json",
-      "challenges/169-pi-in-the-sky/showcase/contribution1.json",
-      "challenges/95-approximating-the-value-of-pi/showcase/contribution4.json"
+      "challenges/176-buffon-needle/showcase/contribution-1678911249.json",
+      "challenges/176-buffon-needle/showcase/contribution1.json",
+      "challenges/109-visualizing-500000-subscribers/showcase/contribution4.json",
+      "challenges/110-recamans-sequence/showcase/contribution2.json",
+      "challenges/121-logo-interpreter/showcase/contribution2.json",
+      "challenges/159-simple-pendulum/showcase/contribution-1678158887.json",
+      "challenges/91-snakes-and-ladders/showcase/contribution1.json",
+      "challenges/11-3d-terrain-generation-with-perlin-noise/showcase/contribution11.json",
+      "challenges/123-chaos-game/showcase/contribution5.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
