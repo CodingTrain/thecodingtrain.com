@@ -97,7 +97,7 @@
         {
           "icon": "🔗",
           "title": "USGS Earthquake Data",
-          "url": "http://earthquake.usgs.gov/data/",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/data",
           "description": "Realtime monitoring, station, and other various seismic data available for download. Access to data products to view and download."
         },
         {
@@ -115,7 +115,7 @@
         {
           "icon": "🔗",
           "title": "Nasa Earth Maps",
-          "url": "http://visibleearth.nasa.gov/view_cat.php?categoryID=1484",
+          "url": "https://visibleearth.nasa.gov/collection/1484/blue-marble",
           "description": "NASA's Visible Earth catalog of NASA images and animations of our home planet."
         },
         {

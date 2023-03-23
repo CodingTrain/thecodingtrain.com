@@ -79,7 +79,7 @@
         {
           "icon": "📁",
           "title": "Logo Repo",
-          "url": "https://github.com/shiffman/Logo",
+          "url": "https://github.com/CodingTrain/Logo",
           "description": "Repo for implementation of Logo in JavaScript p5"
         },
         {
@@ -91,13 +91,13 @@
         {
           "icon": "📝",
           "title": "Logo Tutorial",
-          "url": "http://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
+          "url": "https://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
           "description": "A tutorial on Logo from Brown University"
         },
         {
           "icon": "🐢",
           "title": "Logo Foundation",
-          "url": "http://el.media.mit.edu/logo-foundation/",
+          "url": "https://el.media.mit.edu/logo-foundation/",
           "description": "The Logo Foundation is a nonprofit educational organization devoted to supporting educators, parents, and students in their engagement with creative computing."
         }
       ]

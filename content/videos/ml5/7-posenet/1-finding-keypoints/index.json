@@ -115,7 +115,7 @@
         {
           "icon": "💻",
           "title": "COCO Dataset Explorer",
-          "url": "http://cocodataset.org/#explore",
+          "url": "https://cocodataset.org/#explore",
           "description": "Webpage where you can explore the COCO dataset."
         },
         {
@@ -127,7 +127,7 @@
         {
           "icon": "📓",
           "title": "Humans of AI",
-          "url": "https://humans-of.ai/editorial",
+          "url": "https://humans-of.ai/editorial/",
           "description": "Philipp Schmitt's editorial essay on artifial intelligence and the human effort that went into creating the training dataset."
         }
       ]

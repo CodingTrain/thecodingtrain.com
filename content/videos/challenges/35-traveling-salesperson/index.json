@@ -234,37 +234,37 @@
         {
           "icon": "📝",
           "title": "Array on MDN",
-          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
           "description": "Documentation on JavaScript Arrays."
         },
         {
           "icon": "📝",
           "title": "Array.includes() on MDN",
-          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
           "description": "Documentation on the includes() method of JavaScript Arrays."
         },
         {
           "icon": "📝",
           "title": "Array.reverse() on MDN",
-          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
           "description": "Documentation on the reverse() method of JavaScript Arrays."
         },
         {
           "icon": "📝",
           "title": "ES6 Sets on MDN",
-          "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
           "description": "Documentation on ES6 Set objects in JavaScript."
         },
         {
           "icon": "💾",
           "title": "The Nature of Code Part 2",
-          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning",
           "description": "Syllabus for Part 2 of The Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017."
         },
         {
           "icon": "📕",
           "title": "The Nature of Code",
-          "url": "http://natureofcode.com/",
+          "url": "https://natureofcode.com/",
           "description": "The Nature of Code book."
         }
       ]

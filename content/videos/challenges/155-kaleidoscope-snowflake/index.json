@@ -7,11 +7,7 @@
   "languages": ["p5.js", "JavaScript", "Processing"],
   "topics": ["translations", "symmetry", "rotations", "push/pop", "drawing"],
   "canContribute": true,
-  "relatedChallenges": [
-    "127-brownian-tree-snowflake",
-    "128-sketch-rnn-snowflakes",
-    "129-koch-fractal-snowflake"
-  ],
+  "relatedChallenges": ["127-brownian-tree-snowflake", "128-sketch-rnn-snowflakes", "129-koch-fractal-snowflake"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -52,7 +48,7 @@
         {
           "icon": "💰",
           "title": "Link to donate to the Processing Foundation",
-          "url": "https://processing.org/donate",
+          "url": "https://processing.org/donate/",
           "description": "Link to donate to the Processing Foundation"
         },
         {

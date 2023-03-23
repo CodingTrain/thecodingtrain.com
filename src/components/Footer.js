@@ -111,7 +111,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="https://www.instagram.com/the.coding.train"
+              href="https://www.instagram.com/the.coding.train/"
               aria-label="Instagram">
               <Instagram width={30} />
               <span>Instagram</span>
@@ -216,7 +216,7 @@ const Footer = () => {
         <span>
           2016-{new Date().getFullYear()} The Coding Train. All rights reserved.
           Built in collaboration with{' '}
-          <a href="https://designsystems.international" {...externalLink}>
+          <a href="https://designsystems.international/" {...externalLink}>
             Design System International
           </a>
           .

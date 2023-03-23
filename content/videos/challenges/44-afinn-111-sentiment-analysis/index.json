@@ -7,10 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["sentiment analysis", "afinn-111"],
   "canContribute": true,
-  "relatedChallenges": [
-    "42-markov-chain-name-generator",
-    "48-white-house-social-media-data-visualization"
-  ],
+  "relatedChallenges": ["42-markov-chain-name-generator", "48-white-house-social-media-data-visualization"],
   "timestamps": [],
   "parts": [
     {
@@ -82,13 +79,13 @@
         {
           "icon": "🔗",
           "title": "AFINN",
-          "url": "http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010",
+          "url": "https://www2.imm.dtu.dk/pubdb/pubs/6010-full.html",
           "description": "IMM Publication Database with the AFINN word list."
         },
         {
           "icon": "🔗",
           "title": "Node.js",
-          "url": "https://nodejs.org/",
+          "url": "https://nodejs.org/en",
           "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine."
         },
         {

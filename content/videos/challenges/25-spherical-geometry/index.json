@@ -5,20 +5,9 @@
   "videoId": "RkuBWEkBrZA",
   "date": "2016-06-29",
   "languages": ["Processing"],
-  "topics": [
-    "3d supershape",
-    "spherical geometry",
-    "polar coordinates",
-    "triangle strips",
-    "3d"
-  ],
+  "topics": ["3d supershape", "spherical geometry", "polar coordinates", "triangle strips", "3d"],
   "canContribute": true,
-  "relatedChallenges": [
-    "19-superellipse",
-    "23-2d-supershapes",
-    "26-3d-supershapes",
-    "112-3d-rendering-with-rotation-and-projection"
-  ],
+  "relatedChallenges": ["19-superellipse", "23-2d-supershapes", "26-3d-supershapes", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
     {
       "time": "0:00",
@@ -113,7 +102,7 @@
         {
           "icon": "🥏",
           "title": "3D Supershapes",
-          "url": "http://www.syedrezaali.com/3d-supershapes/",
+          "url": "https://www.syedrezaali.com/3d-supershapes/",
           "description": "A collection of 3D geometries created by the superformula created in Processing,"
         },
         {
@@ -125,7 +114,7 @@
         {
           "icon": "🎥",
           "title": "Peasycam",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "Information about peasycam."
         }
       ]

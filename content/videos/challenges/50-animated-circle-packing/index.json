@@ -7,10 +7,7 @@
   "languages": ["Processing"],
   "topics": ["load pixels", "circle packing", "processing pixels"],
   "canContribute": true,
-  "relatedChallenges": [
-    "47-pixel-sorting-in-processing",
-    "49-photo-mosaic-with-white-house-social-media-images"
-  ],
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "49-photo-mosaic-with-white-house-social-media-images"],
   "timestamps": [],
   "parts": [
     {
@@ -73,7 +70,7 @@
         {
           "icon": "💻",
           "title": "Various Circle Packing Tutorials",
-          "url": "http://julienleonard.com/tutorials.html",
+          "url": "https://julienleonard.com/tutorials.html",
           "description": "Webpage with circle packing algorithms"
         },
         {

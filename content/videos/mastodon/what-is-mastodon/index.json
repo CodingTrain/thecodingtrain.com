@@ -40,7 +40,7 @@
         {
           "icon": "💻",
           "title": "Mastodon Repository",
-          "url": " https://github.com/tootsuite/mastodon",
+          "url": " https://github.com/mastodon/mastodon",
           "description": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones."
         },
         {

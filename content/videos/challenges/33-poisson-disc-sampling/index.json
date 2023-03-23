@@ -79,7 +79,7 @@
         {
           "icon": "📄",
           "title": "Paper on Fast Poisson Disc Sampling in Multiple Dimensions",
-          "url": "http://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf",
+          "url": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf",
           "description": "Robert Bridson's paper on fast Poisson Disc Sampling algorithm"
         }
       ]

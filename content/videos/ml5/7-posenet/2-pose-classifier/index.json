@@ -1,6 +1,6 @@
 {
-  "title": "ml5.js: Pose Estimation with PoseNet",
-  "description": "VThis tutorial combines PoseNet and ml5.neuralNetwork(). I use the output of the pre-trained model (the \"pose\" itself) as the inputs to an ml5.js neural network classifier.",
+  "title": "Pose Classifier with PoseNet and ml5.neuralNetwork()",
+  "description": "This tutorial combines PoseNet and ml5.neuralNetwork(). I use the output of the pre-trained model (the \"pose\" itself) as the inputs to an ml5.js neural network classifier.",
   "videoNumber": "7.2",
   "videoId": "FYgYyq-xqAw",
   "nebulaSlug": "the-coding-train-yt-ml5-js-pose-classification-with-posenet-and-ml5-neuralnetwork",
@@ -48,15 +48,15 @@
       }
     },
     {
-      "title": "Loading Data",
-      "description": "Code for loading the data.",
+      "title": "Model Training",
+      "description": "Code for training the model.",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/k-Ywq20rM9"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/-Ywq20rM9"
       }
     },
     {
-      "title": "Deploying",
-      "description": "Code for loading / deploying the trained model in the p5.js web editor.",
+      "title": "Model Deployment",
+      "description": "Code for loading and deploying the trained model.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/c5sDNr8eM"
       }

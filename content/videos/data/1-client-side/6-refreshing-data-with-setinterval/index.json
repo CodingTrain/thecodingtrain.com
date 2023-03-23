@@ -77,7 +77,7 @@
         {
           "icon": "💾",
           "title": "setInterval()",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/setInterval",
           "description": "setInterval on the MDN Web Docs"
         }
       ]
