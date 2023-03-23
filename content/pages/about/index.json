@@ -89,7 +89,7 @@
         { "name": "Kobe Liesenborgs", "role": "Discord and GitHub" },
         {
           "name": "Mathieu Blanchette",
-          "url": "https://mathieu.com",
+
           "role": "Editing and Video Production"
         }
       ]
@@ -108,8 +108,7 @@
         },
         {
           "name": "Dusk Virkus",
-          "role": "GitHub and Content Management",
-          "url": "https://dusk.com"
+          "role": "GitHub and Content Management"
         }
       ]
     }
