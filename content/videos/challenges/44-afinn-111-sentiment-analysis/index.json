@@ -85,7 +85,7 @@
         {
           "icon": "🔗",
           "title": "Node.js",
-          "url": "https://nodejs.org/en/",
+          "url": "https://nodejs.org/en",
           "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine."
         },
         {
