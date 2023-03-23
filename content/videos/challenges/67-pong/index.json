@@ -41,12 +41,6 @@
           "title": "Pong on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Pong",
           "description": "Wikipedia page with background and references on Pong."
-        },
-        {
-          "icon": "🏓",
-          "title": "Paddle angles drawing",
-          "url": "https://i1.wp.com/zekechan.net/wp-content/uploads/2015/07/pong-05b.png?resize=600%2C500",
-          "description": "Illustration of mapping for angles."
         }
       ]
     },
