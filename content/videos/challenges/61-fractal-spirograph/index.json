@@ -5,7 +5,7 @@
   "videoId": "0dwJ-bkJwDI",
   "date": "2017-02-28",
   "languages": ["Processing", "Java"],
-  "topics": ["fractal", "spirograph", "polar coordinates"],
+  "topics": ["fractals", "spirograph", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": ["7-solar-system-2d", "55-mathematical-rose-patterns", "116-lissajous-curve-table"],
   "timestamps": [
