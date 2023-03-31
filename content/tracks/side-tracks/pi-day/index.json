@@ -10,6 +10,7 @@
         "challenges/141-mandelbrot-pi",
         "challenges/156-peeking-inside-pi",
         "challenges/161-estimating-pi-from-random-numbers",
-        "challenges/169-pi-in-the-sky"
+        "challenges/169-pi-in-the-sky",
+        "challenges/176-buffon-needle"
     ]
   }
