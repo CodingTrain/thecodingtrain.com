@@ -5,7 +5,7 @@
   "videoId": "kKT0v3qhIQY",
   "date": "2016-05-31",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "tree", "generative art", "space colonization"],
+  "topics": ["fractal", "tree", "generative art", "space colonization"],
   "canContribute": true,
   "relatedChallenges": ["14-fractal-trees-recursive", "18-3d-fractal-trees", "77-recursion", "174-graphics-applesoft-basic"],
   "timestamps": [

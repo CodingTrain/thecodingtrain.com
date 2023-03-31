@@ -5,7 +5,7 @@
   "videoId": "X8bXDKqMsXE",
   "date": "2018-12-30",
   "languages": ["Processing"],
-  "topics": ["koch curve", "fractals", "koch snowflake"],
+  "topics": ["koch curve", "fractal", "koch snowflake"],
   "canContribute": true,
   "relatedChallenges": [
     "2-menger-sponge",
