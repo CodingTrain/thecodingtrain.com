@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-21-mandelbrot-set-with-p5js",
   "date": "2016-06-13",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["mandelbrot", "fractals", "complex number", "imaginary number"],
+  "topics": ["mandelbrot", "fractal", "complex number", "imaginary number"],
   "canContribute": true,
   "relatedChallenges": ["22-julia-set", "140-pi-leibniz", "168-the-mandelbulb"],
   "timestamps": [

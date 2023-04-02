@@ -5,7 +5,7 @@
   "videoId": "0jjeOYMjmDU",
   "date": "2016-05-30",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "generative art", "tree"],
+  "topics": ["fractal", "generative art", "tree"],
   "relatedChallenges": ["15-object-oriented-fractal-trees", "174-graphics-applesoft-basic"],
   "canContribute": true,
   "timestamps": [
