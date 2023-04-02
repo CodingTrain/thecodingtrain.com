@@ -63,6 +63,7 @@
     "Flappy Bird game": ["flappy bird"],
     "flood fill": ["flood fill", "floodfill"],
     "Floyd-Steinberg dithering": ["floyd-steinberg dithering"],
+    "fractal": ["fractals", "fractal"],
     "function": ["functions"],
     "games": ["game", "games", "game development"],
     "genetic algorithms": ["genetic algorithm", "genetic algorithms"],
