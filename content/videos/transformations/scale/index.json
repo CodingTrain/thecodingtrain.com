@@ -1,0 +1,32 @@
+{
+  "title": "Scale",
+  "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js. In this video I look at the `scale()` function.",
+  "videoNumber": "2",
+  "videoId": "pkHZTWOoTLM",
+  "date": "2017-09-19",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": []
+    },
+    {
+      "title": "Videos",
+      "links": []
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "More about Transformations",
+  "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js. In this video, I look a bit behind the scenes on how transformations work and where the terms \"push\" and \"pop\" come from.  I discuss the difference between a stack and a queue, rotate() vs rotateZ(), and what a \"matrix\" refers to in computer graphics.",
+  "videoNumber": "3",
+  "videoId": "IVMvq9rd8dA",
+  "date": "2017-09-20",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": []
+    },
+    {
+      "title": "Videos",
+      "links": []
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
