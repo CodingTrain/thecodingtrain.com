@@ -63,10 +63,10 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
-          "title": "Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-          "description": "The translate(), rotate(), push() and pop() functions are covered in this video."
+          "icon": "🚂",
+          "title": "Matrix Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🔴",

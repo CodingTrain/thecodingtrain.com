@@ -46,9 +46,10 @@
           "description": "Nature of Code video on gravitational attraction"
         },
         {
-          "title": "Transformations (Translate, Rotate, Push/Pop) - Part 1",
-          "url": "https://youtu.be/o9sgjuh-CBM",
-          "description": "Coding Train video on transformations in p5.js"
+          "icon": "🚂",
+          "title": "Matrix Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         }
       ]
     }
