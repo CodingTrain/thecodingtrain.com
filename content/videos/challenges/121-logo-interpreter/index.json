@@ -106,10 +106,10 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "📓",
-          "title": "Transformation Tutorial",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-          "description": "A coding train tutorial on push/pop and other transformations"
+          "icon": "🚂",
+          "title": "Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "📐",

@@ -80,9 +80,9 @@
         },
         {
           "icon": "🚂",
-          "title": "Transformations in p5.js",
-          "url": "https://youtu.be/o9sgjuh-CBM",
-          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+          "title": "Matrix Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🔴",

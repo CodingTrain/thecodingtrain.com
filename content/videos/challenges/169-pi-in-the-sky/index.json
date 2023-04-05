@@ -67,10 +67,10 @@
           "description": "Introduction video for the Code! Programming for Beginners with p5.js series"
         },
         {
-          "icon": "🎥",
-          "title": "Transformations in p5.js",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-          "description": "Coding Train video on the translate(), rotate(), push() and pop() functions to perform matrix transformations"
+          "icon": "🚂",
+          "title": "Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🎥",
