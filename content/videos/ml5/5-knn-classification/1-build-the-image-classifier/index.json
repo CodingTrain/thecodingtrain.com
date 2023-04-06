@@ -5,17 +5,11 @@
   "videoId": "KTNqXwkLuM4",
   "date": "2019-02-04",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["knn classification", "machine learning"],
+  "topics": ["KNN classification", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "1:16",
-      "title": "Teachable Machine"
-    },
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:16", "title": "Teachable Machine" },
     {
       "time": "2:22",
       "title": "Yining Shi's ml5 implementation of knn nearest neighbors"
@@ -24,38 +18,20 @@
       "time": "3:02",
       "title": "Nikhil Thorat's article on the Teachable Machine"
     },
-    {
-      "time": "3:43",
-      "title": "knn classifier"
-    },
-    {
-      "time": "4:20",
-      "title": "MobileNet model"
-    },
+    { "time": "3:43", "title": "knn classifier" },
+    { "time": "4:20", "title": "MobileNet model" },
     {
       "time": "6:42",
       "title": "Softmax: normalizes data to give probabilities"
     },
-    {
-      "time": "8:25",
-      "title": "logits - the \"feature extractor\" layer"
-    },
-    {
-      "time": "10:52",
-      "title": "Comparing two images"
-    },
-    {
-      "time": "11:35",
-      "title": "KNN nearest neighbors"
-    },
+    { "time": "8:25", "title": "logits - the \"feature extractor\" layer" },
+    { "time": "10:52", "title": "Comparing two images" },
+    { "time": "11:35", "title": "KNN nearest neighbors" },
     {
       "time": "12:35",
       "title": "Using the feature.infer function to get the logits"
     },
-    {
-      "time": "13:58",
-      "title": "tensors"
-    },
+    { "time": "13:58", "title": "tensors" },
     {
       "time": "14:41",
       "title": "Using datasync to get the \"digital finger print\" of an image"
@@ -65,9 +41,7 @@
     {
       "title": "KNN Classification",
       "description": "This sketch demonstrates how to train the KNN image classifier.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL" }
     }
   ],
   "groupLinks": [
@@ -113,13 +87,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

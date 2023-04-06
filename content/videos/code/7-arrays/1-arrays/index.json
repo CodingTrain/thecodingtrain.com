@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-7-1-what-is-an-array-p5-js-tutorial",
   "date": "2015-10-02",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["arrays", "basics"],
+  "topics": ["array", "basics"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -23,20 +23,12 @@
       "title": "Array",
       "description": "Demonstration of arrays in JavaScript.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

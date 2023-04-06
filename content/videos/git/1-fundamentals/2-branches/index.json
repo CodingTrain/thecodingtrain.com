@@ -2,7 +2,7 @@
   "title": "Branches",
   "description": "In this second video of the Git and GitHub for Poets tutorial series, we cover the concept of branches.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "oPpnCh7InLY",
   "timestamps": [
     { "time": "0:00", "title": "What are branches" },

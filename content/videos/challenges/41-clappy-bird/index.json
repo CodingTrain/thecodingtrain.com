@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-41-clappy-bird",
   "date": "2016-10-20",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["flappy bird", "game development", "clappy bird"],
+  "topics": ["Flappy Bird game", "games", "clappy bird"],
   "canContribute": true,
   "relatedChallenges": ["31-flappy-bird", "147-chrome-dinosaur-game", "100-neuroevolution-flappy-bird"],
   "timestamps": [
@@ -69,13 +69,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-train-your-own-neural-network",
   "date": "2019-11-22",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["neural network", "machine learning"],
+  "topics": ["neural network", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -36,9 +36,7 @@
       "title": "Train you own neural network",
       "description": "This sketch demonstrates how to train your own neural network.",
       "image": "neural_network.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a" }
     }
   ],
   "groupLinks": [
@@ -96,13 +94,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,13 +5,9 @@
   "videoId": "bGz7mv2vD6g",
   "date": "2016-08-02",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["genetic algorithm", "dna", "evolutionary algorithm"],
+  "topics": ["genetic algorithms", "DNA", "evolutionary algorithm"],
   "canContribute": true,
-  "relatedChallenges": [
-    "69-evolutionary-steering-behaviors",
-    "100-neuroevolution-flappy-bird",
-    "147-chrome-dinosaur-game"
-  ],
+  "relatedChallenges": ["69-evolutionary-steering-behaviors", "100-neuroevolution-flappy-bird", "147-chrome-dinosaur-game"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:10", "title": "Rocket object" },
@@ -60,13 +56,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

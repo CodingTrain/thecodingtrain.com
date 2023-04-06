@@ -5,52 +5,19 @@
   "videoId": "TOEi6T2mtHo",
   "date": "2019-05-08",
   "languages": ["p5.js"],
-  "topics": [
-    "ray casting",
-    "game development",
-    "2d ray casting",
-    "ray marching",
-    "line line intersection"
-  ],
+  "topics": ["ray casting", "games", "2D ray casting", "ray marching", "line-line intersection"],
   "canContribute": true,
   "relatedChallenges": ["146-rendering-ray-casting"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:03:34",
-      "title": "Coding Starts"
-    },
-    {
-      "time": "0:05:54",
-      "title": "Creating a Ray Class"
-    },
-    {
-      "time": "0:09:16",
-      "title": "Casting Rays And Finding Intersections"
-    },
-    {
-      "time": "0:19:56",
-      "title": "Casting Multiple Rays"
-    },
-    {
-      "time": "0:24:41",
-      "title": "Adding Collision Detection For Every Ray"
-    },
-    {
-      "time": "0:26:47",
-      "title": "Multiple Boundaries"
-    },
-    {
-      "time": "0:31:23",
-      "title": "Moving With Perlin Noise"
-    },
-    {
-      "time": "0:32:41",
-      "title": "Suggestions For Improvements"
-    }
+    { "time": "0:00:00", "title": "Introduction" },
+    { "time": "0:03:34", "title": "Coding Starts" },
+    { "time": "0:05:54", "title": "Creating a Ray Class" },
+    { "time": "0:09:16", "title": "Casting Rays And Finding Intersections" },
+    { "time": "0:19:56", "title": "Casting Multiple Rays" },
+    { "time": "0:24:41", "title": "Adding Collision Detection For Every Ray" },
+    { "time": "0:26:47", "title": "Multiple Boundaries" },
+    { "time": "0:31:23", "title": "Moving With Perlin Noise" },
+    { "time": "0:32:41", "title": "Suggestions For Improvements" }
   ],
   "codeExamples": [
     {
@@ -118,13 +85,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

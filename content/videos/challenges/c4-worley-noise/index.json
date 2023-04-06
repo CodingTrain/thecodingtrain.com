@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-4-worley-noise",
   "date": "2020-05-09",
   "languages": ["p5.js"],
-  "topics": ["worley noise", "cellular texture", "tesselation", "distance"],
+  "topics": ["Worley noise", "cellular texture", "tesselation", "distance"],
   "canContribute": true,
   "relatedChallenges": [
     "24-perlin-noise-flow-field",

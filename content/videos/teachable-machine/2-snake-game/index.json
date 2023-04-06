@@ -6,7 +6,7 @@
   "videoId": "UPgxnGC8oBU",
   "date": "2019-11-08",
   "languages": ["JavaScript", "p5.js", "ml5.js"],
-  "topics": ["machine learning", "ml5","snake", "game"],
+  "topics": ["machine learning (ML)", "ml5.js", "Snake game", "games"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Review" },
@@ -20,9 +20,7 @@
     {
       "title": "Final Code",
       "description": "Final code of the Snake Game with the Teachable Machine.",
-      "urls":{
-        "p5": "https://editor.p5js.org/codingtrain/sketches/tgHyqeGK6"
-      } 
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/tgHyqeGK6" }
     }
   ],
   "groupLinks": [
@@ -55,13 +53,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

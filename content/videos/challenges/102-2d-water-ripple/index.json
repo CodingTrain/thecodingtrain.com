@@ -5,7 +5,7 @@
   "videoId": "BZUdGqeOD0w",
   "date": "2018-05-07",
   "languages": ["Processing"],
-  "topics": ["2d water ripple", "cellular automata"],
+  "topics": ["2D water ripple", "cellular automaton"],
   "canContribute": true,
   "relatedChallenges": ["24-perlin-noise-flow-field", "85-the-game-of-life", "103-fire-effect"],
   "timestamps": [
@@ -70,13 +70,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

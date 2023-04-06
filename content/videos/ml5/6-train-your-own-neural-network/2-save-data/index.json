@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-save-neural-network-training-data",
   "date": "2019-12-05",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["neural network", "machine learning", "saving data"],
+  "topics": ["neural network", "machine learning (ML)", "saving data"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

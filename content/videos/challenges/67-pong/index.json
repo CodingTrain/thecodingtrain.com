@@ -5,7 +5,7 @@
   "videoId": "IIrC5Qcb2G4",
   "date": "2017-03-27",
   "languages": ["Processing"],
-  "topics": ["pong video game", "polar coordinates"],
+  "topics": ["Atari Pong game", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [],
   "timestamps": [
@@ -69,13 +69,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

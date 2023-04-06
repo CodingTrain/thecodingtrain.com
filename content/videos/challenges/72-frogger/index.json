@@ -5,16 +5,9 @@
   "videoId": "giXV6xErw0Y",
   "date": "2017-06-14",
   "languages": ["Processing"],
-  "topics": ["game mechanics", "frogger atari", "inheritance"],
+  "topics": ["game mechanics", "Atari Frogger game", "inheritance"],
   "canContribute": true,
-  "relatedChallenges": [
-    "3-snake-game",
-    "46-asteroids",
-    "67-pong",
-    "71-minesweeper",
-    "91-snakes-and-ladders",
-    "115-snake-game-redux"
-  ],
+  "relatedChallenges": ["3-snake-game", "46-asteroids", "67-pong", "71-minesweeper", "91-snakes-and-ladders", "115-snake-game-redux"],
   "timestamps": [],
   "parts": [
     {
@@ -25,14 +18,8 @@
           "time": "0:00",
           "title": "Introducing today's topic: the classic arcade game Frogger"
         },
-        {
-          "time": "1:43",
-          "title": "What do we need to program Frogger?"
-        },
-        {
-          "time": "4:07",
-          "title": "Make a Rectangle class"
-        },
+        { "time": "1:43", "title": "What do we need to program Frogger?" },
+        { "time": "4:07", "title": "Make a Rectangle class" },
         {
           "time": "5:36",
           "title": "Write a function that tests whether two rectangles are intersecting"
@@ -45,136 +32,70 @@
           "time": "11:29",
           "title": "Use the \"super\" key word to initialize the inherited values"
         },
-        {
-          "time": "15:54",
-          "title": "Write a function to move the frog"
-        },
-        {
-          "time": "22:41",
-          "title": "Conclusion and next steps"
-        }
+        { "time": "15:54", "title": "Write a function to move the frog" },
+        { "time": "22:41", "title": "Conclusion and next steps" }
       ]
     },
     {
       "title": "Part 2 - Adding Cars",
       "videoId": "06-ZvYmSeus",
       "timestamps": [
-        {
-          "time": "0:00",
-          "title": "Start of Part 2"
-        },
-        {
-          "time": "2:41",
-          "title": "Add speed to the car class"
-        },
-        {
-          "time": "4:27",
-          "title": "Add multiple cars"
-        },
+        { "time": "0:00", "title": "Start of Part 2" },
+        { "time": "2:41", "title": "Add speed to the car class" },
+        { "time": "4:27", "title": "Add multiple cars" },
         {
           "time": "11:48",
           "title": "Check to see whether the frog and car intersect"
         },
-        {
-          "time": "13:22",
-          "title": "Add a reset function"
-        },
-        {
-          "time": "14:36",
-          "title": "Conclusion and next steps"
-        }
+        { "time": "13:22", "title": "Add a reset function" },
+        { "time": "14:36", "title": "Conclusion and next steps" }
       ]
     },
     {
       "title": "Part 3 - Adding Logs and Safety Lanes",
       "videoId": "hk326ZHlENQ",
       "timestamps": [
-        {
-          "time": "0:00",
-          "title": "Start of Part 3"
-        },
-        {
-          "time": "0:56",
-          "title": "Have cars move in both directions"
-        },
-        {
-          "time": "2:40",
-          "title": "Add a safety lane"
-        },
+        { "time": "0:00", "title": "Start of Part 3" },
+        { "time": "0:56", "title": "Have cars move in both directions" },
+        { "time": "2:40", "title": "Add a safety lane" },
         {
           "time": "3:28",
           "title": "Add a Log class that extends the Car class"
         },
-        {
-          "time": "10:22",
-          "title": "Check if the frog is on a log"
-        },
+        { "time": "10:22", "title": "Check if the frog is on a log" },
         {
           "time": "11:53",
           "title": "Attach the frog to the log when the frog intersects the log"
         },
-        {
-          "time": "17:08",
-          "title": "Add the ability to detach frog from log"
-        },
-        {
-          "time": "19:53",
-          "title": "Constrain the frog to the window"
-        },
-        {
-          "time": "23:00",
-          "title": "Conclusion and suggesions for variations"
-        }
+        { "time": "17:08", "title": "Add the ability to detach frog from log" },
+        { "time": "19:53", "title": "Constrain the frog to the window" },
+        { "time": "23:00", "title": "Conclusion and suggesions for variations" }
       ]
     },
     {
       "title": "Part 4 - Refactoring the code",
       "videoId": "c6WdJltqEtM",
       "timestamps": [
-        {
-          "time": "0:00",
-          "title": "Today's objective: refactor the code"
-        },
-        {
-          "time": "3:15",
-          "title": "Create a Lane class"
-        },
-        {
-          "time": "4:15",
-          "title": "Rename logs and cars as Obstacles"
-        },
-        {
-          "time": "6:56",
-          "title": "Make an array of lanes"
-        },
+        { "time": "0:00", "title": "Today's objective: refactor the code" },
+        { "time": "3:15", "title": "Create a Lane class" },
+        { "time": "4:15", "title": "Rename logs and cars as Obstacles" },
+        { "time": "6:56", "title": "Make an array of lanes" },
         {
           "time": "22:35",
           "title": "Use constructor overloading to add color to the lane "
         },
-        {
-          "time": "24:30",
-          "title": "Add game play back"
-        },
+        { "time": "24:30", "title": "Add game play back" },
         {
           "time": "26:03",
           "title": "Use type to indicate whether an obstacle is a car or log"
         },
-        {
-          "time": "28:43",
-          "title": "Use type to refactor the check function"
-        },
-        {
-          "time": "31:44",
-          "title": "Detach the frog when it moves"
-        },
+        { "time": "28:43", "title": "Use type to refactor the check function" },
+        { "time": "31:44", "title": "Detach the frog when it moves" },
         {
           "time": "32:32",
           "title": "Use the lane index to register which lane the frog is in"
         },
-        {
-          "time": "35:23",
-          "title": "Conclusion and ways to contribute"
-        }
+        { "time": "35:23", "title": "Conclusion and ways to contribute" }
       ]
     }
   ],
@@ -247,13 +168,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

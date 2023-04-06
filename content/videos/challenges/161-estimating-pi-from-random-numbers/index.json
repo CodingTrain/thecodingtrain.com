@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-challenge-161-estimating-from-random-numbers-with-euclid-s-algorithm",
   "date": "2021-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["pi day", "math", "random numbers"],
+  "topics": ["Pi day", "math", "random numbers"],
   "canContribute": true,
   "relatedChallenges": ["140-pi-leibniz", "156-peeking-inside-pi", "169-pi-in-the-sky"],
   "timestamps": [
@@ -34,17 +34,13 @@
       "title": "Estimating π from Random Numbers",
       "description": "Estimating the digits of Pi with random numbers",
       "image": "pi.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS" }
     },
     {
       "title": "Estimating π from from the digits of π",
       "description": "Estimating the digits of Pi by using the digits of Pi as random numbers",
       "image": "digits.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/x0eikODKm"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/x0eikODKm" }
     }
   ],
   "groupLinks": [
@@ -90,13 +86,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenges-5-space-invaders-in-javascript-with-p5js",
   "date": "2016-04-26",
   "languages": ["p5.js"],
-  "topics": ["space invaders", "game"],
+  "topics": ["Space Invaders game", "games"],
   "canContribute": true,
   "relatedChallenges": ["46-asteroids", "72-frogger"],
   "timestamps": [
@@ -62,13 +62,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

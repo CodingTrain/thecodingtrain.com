@@ -1,11 +1,11 @@
 {
   "title": "Visualizing the Digits of Pi",
-  "description": "In celebration of Pi Day, Let's attempt to \u201cvisualize\u201d the first one million digits of Pi.",
+  "description": "In celebration of Pi Day, Let's attempt to “visualize” the first one million digits of Pi.",
   "videoNumber": "96",
   "videoId": "WEd_UIKG-uc",
   "date": "2018-03-19",
   "languages": ["Java", "Processing"],
-  "topics": ["pi day", "pi visualization", "pi"],
+  "topics": ["Pi day", "Pi visualization", "Pi"],
   "canContribute": true,
   "relatedChallenges": [
     "95-approximating-the-value-of-pi",
@@ -108,13 +108,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

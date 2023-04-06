@@ -5,7 +5,7 @@
   "videoId": "MlRlgbrAVOs",
   "date": "2018-10-15",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["Bitwise Operations", "Bitwise AND"],
+  "topics": ["bitwise operations", "bitwise AND"],
   "canContribute": true,
   "relatedChallenges": ["119-binary-to-decimal-conversion", "120-bit-shifting"],
   "timestamps": [
@@ -76,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

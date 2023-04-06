@@ -4,15 +4,27 @@
   "videoNumber": "2",
   "videoId": "2hhEOGXcCvg",
   "date": "2016-04-13",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": ["node", "sockets", "server side programming", "web servers", "express.js"],
+  "languages": ["JavaScript", "p5.js", "Node.js"],
+  "topics": ["Node.js", "sockets", "server-side programming", "web servers", "express.js"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "Introduction and discussing web servers for hosting files" },
+    {
+      "time": "0:00",
+      "title": "Introduction and discussing web servers for hosting files"
+    },
     { "time": "1:44", "title": "Setting up npm and installing Express.js" },
-    { "time": "5:49", "title": "Using Express.js to set up our server and host it on our system on a specified port" },
-    { "time": "8:08", "title": "Hosting our p5.js sketch files on the local server" },
-    { "time": "10:54", "title": "A summary and an overview of the next steps before we go!" }
+    {
+      "time": "5:49",
+      "title": "Using Express.js to set up our server and host it on our system on a specified port"
+    },
+    {
+      "time": "8:08",
+      "title": "Hosting our p5.js sketch files on the local server"
+    },
+    {
+      "time": "10:54",
+      "title": "A summary and an overview of the next steps before we go!"
+    }
   ],
   "codeExamples": [],
   "groupLinks": [
@@ -46,13 +58,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

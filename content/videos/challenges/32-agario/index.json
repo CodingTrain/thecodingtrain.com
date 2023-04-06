@@ -4,8 +4,8 @@
   "videoNumber": "32",
   "videoId": "",
   "date": "2016-08-16",
-  "languages": ["JavaScript", "node.js"],
-  "topics": ["agar.io", "websockets"],
+  "languages": ["JavaScript", "Node.js"],
+  "topics": ["agar.io", "WebSocket"],
   "canContribute": true,
   "relatedChallenges": ["36-blobby", "69-evolutionary-steering-behaviors"],
   "timestamps": [],
@@ -193,13 +193,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

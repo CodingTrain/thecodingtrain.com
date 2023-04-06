@@ -5,14 +5,9 @@
   "videoId": "8Z9FRiW2Jlc",
   "date": "2016-10-31",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["text-generator", "recursion", "grammar"],
+  "topics": ["text generator", "recursion", "grammar"],
   "canContribute": true,
-  "relatedChallenges": [
-    "16-l-system-fractal-trees",
-    "14-fractal-trees-recursive",
-    "77-recursion",
-    "39-madlibs-generator"
-  ],
+  "relatedChallenges": ["16-l-system-fractal-trees", "14-fractal-trees-recursive", "77-recursion", "39-madlibs-generator"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction!" },
     {
@@ -24,7 +19,6 @@
       "title": "Creating a recursive algorithm to generate a random sentence"
     },
     { "time": "11:51", "title": "Generating multiple random sentences" },
-
     {
       "time": "12:27",
       "title": "Creating a more intricate grammar structure using Allison Parish's examples"
@@ -37,9 +31,7 @@
       "title": "Context-Free Grammar",
       "description": "Context-Free Grammar text generator using p5.js",
       "image": "context-free-grammar.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/_ll_PYXeg"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/_ll_PYXeg" }
     }
   ],
   "groupLinks": [
@@ -97,13 +89,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

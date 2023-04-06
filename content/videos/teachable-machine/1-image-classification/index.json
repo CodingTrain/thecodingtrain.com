@@ -6,7 +6,7 @@
   "videoId": "kwcillcWOg0",
   "date": "2019-11-7",
   "languages": ["JavaScript", "p5.js", "ml5.js"],
-  "topics": ["machine learning", "ml5","image classification"],
+  "topics": ["machine learning (ML)", "ml5.js", "image classification"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:32", "title": "Teachable Machine 2.0" },
@@ -28,16 +28,12 @@
     {
       "title": "Code Template",
       "description": "Template code for the Teachable Machine.",
-      "urls":{
-        "p5": "https://editor.p5js.org/codingtrain/sketches/aRN4PS2Nm"
-      } 
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/aRN4PS2Nm" }
     },
     {
       "title": "Final Code",
       "description": "Final code of the Teachable Machine.",
-      "urls":{
-        "p5": "https://editor.p5js.org/codingtrain/sketches/PoZXqbu4v"
-      } 
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/PoZXqbu4v" }
     }
   ],
   "groupLinks": [
@@ -94,13 +90,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

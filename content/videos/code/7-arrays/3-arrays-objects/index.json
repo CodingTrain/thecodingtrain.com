@@ -6,13 +6,16 @@
   "nebulaSlug": "coding-train-7-3-arrays-of-objects-p5-js-tutorial",
   "date": "2017-10-10",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["arrays", "objects", "for loop"],
+  "topics": ["array", "objects", "for loop"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:22", "title": "Making Multiple Objects with Arrays" },
     { "time": "2:17", "title": "Using Indexes to Create Objects" },
-    { "time": "6:35", "title": "Using an Index in a Formula to Initialize Values" },
+    {
+      "time": "6:35",
+      "title": "Using an Index in a Formula to Initialize Values"
+    },
     { "time": "7:07", "title": "Using the Object's Length" },
     { "time": "10:48", "title": "Adding Objects with a Mouse Click" },
     { "time": "12:09", "title": "Pushing an Object to the End of the Array" }
@@ -22,20 +25,12 @@
       "title": "Array of Bubbles",
       "description": "Demonstration of creating new bubbles on mouse drag.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/1y_xfueO"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/1y_xfueO" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

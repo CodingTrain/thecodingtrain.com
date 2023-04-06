@@ -1,38 +1,22 @@
 {
   "title": "4D OpenSimplex Noise Loop",
-  "description": "It\u2019s groundhog day on the coding train as I demonstrate another noise loop GIF technique, this time with 4D OpenSimplex Noise in Processing (Java).",
+  "description": "It’s groundhog day on the coding train as I demonstrate another noise loop GIF technique, this time with 4D OpenSimplex Noise in Processing (Java).",
   "videoNumber": "137",
   "videoId": "3_0Ax95jIrk",
   "date": "2019-03-05",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["opensimplex noise", "4d noise", "gif loop", "polar coordinates"],
+  "topics": ["OpenSimplex noise", "4D noise", "GIF loop", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": [
-    "136-polar-noise-loops",
-    "135-making-a-gif-loop-in-processing",
-    "c5-marching-squares"
-  ],
+  "relatedChallenges": ["136-polar-noise-loops", "135-making-a-gif-loop-in-processing", "c5-marching-squares"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction!"
-    },
-    {
-      "time": "1:55",
-      "title": "Discussing gif loops"
-    },
+    { "time": "0:00", "title": "Introduction!" },
+    { "time": "1:55", "title": "Discussing gif loops" },
     {
       "time": "6:31",
       "title": "Adding polar coordinates to loop through one plane of 3D noise"
     },
-    {
-      "time": "10:45",
-      "title": "Rendering out the gif loop!"
-    },
-    {
-      "time": "12:08",
-      "title": "A non-traditional ending and things to try!"
-    }
+    { "time": "10:45", "title": "Rendering out the gif loop!" },
+    { "time": "12:08", "title": "A non-traditional ending and things to try!" }
   ],
   "codeExamples": [
     {
@@ -94,13 +78,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

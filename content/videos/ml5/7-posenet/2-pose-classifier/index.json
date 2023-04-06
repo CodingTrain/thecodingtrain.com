@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-pose-classification-with-posenet-and-ml5-neuralnetwork",
   "date": "2020-01-15",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["pose estimation", "data collection", "neural networks", "trained model"],
+  "topics": ["pose estimation", "data collection", "neural network", "trained model"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -36,30 +36,22 @@
     {
       "title": "Pose Estimation",
       "description": "This sketch contains all the steps for the Pose Classifier",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK" }
     },
     {
       "title": "Data Collection",
       "description": "Code for data collection in the p5.js Web Editor.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/kTM0Gm-1q"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/kTM0Gm-1q" }
     },
     {
       "title": "Model Training",
       "description": "Code for training the model.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/-Ywq20rM9"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/-Ywq20rM9" }
     },
     {
       "title": "Model Deployment",
       "description": "Code for loading and deploying the trained model.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/c5sDNr8eM"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/c5sDNr8eM" }
     }
   ],
   "groupLinks": [
@@ -100,13 +92,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,7 +5,7 @@
   "videoId": "dbs4IYGfAXc",
   "date": "2017-02-20",
   "languages": ["Processing"],
-  "topics": ["data visualization", "earthquake data", "3d"],
+  "topics": ["data visualization", "earthquake data", "3D"],
   "canContribute": true,
   "relatedChallenges": [
     "9-solar-system-3d-textures",
@@ -168,13 +168,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-1-maurer-rose",
   "date": "2019-10-11",
   "languages": ["p5.js"],
-  "topics": ["maurer rose", "polar coordinates"],
+  "topics": ["Maurer rose", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [
     "55-mathematical-rose-patterns",
@@ -76,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

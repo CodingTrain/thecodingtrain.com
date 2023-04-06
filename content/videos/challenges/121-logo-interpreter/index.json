@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2018-10-31",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["logo", "logo interpreter", "turtle graphics"],
+  "topics": ["Logo", "Logo interpreter", "turtle graphics"],
   "canContribute": true,
   "relatedChallenges": ["16-l-system-fractal-trees", "30-phyllotaxis"],
   "timestamps": [],
@@ -144,13 +144,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

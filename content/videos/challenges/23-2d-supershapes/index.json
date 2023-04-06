@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-23-2d-supershapes",
   "date": "2016-06-21",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["supershape", "superellipse", "polar coordinates"],
+  "topics": ["supershapes", "superellipse", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": ["19-superellipse", "25-spherical-geometry", "26-3d-supershapes", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
@@ -64,13 +64,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

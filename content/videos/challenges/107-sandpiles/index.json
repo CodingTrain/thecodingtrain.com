@@ -5,7 +5,7 @@
   "videoId": "diGjw5tghYU",
   "date": "2018-06-18",
   "languages": ["p5.js", "Processing"],
-  "topics": ["sandpile", "cellular automaton", "grid"],
+  "topics": ["sandpile model", "cellular automaton", "grid"],
   "canContribute": true,
   "relatedChallenges": ["89-langtons-ant", "85-the-game-of-life", "102-2d-water-ripple"],
   "timestamps": [
@@ -78,13 +78,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

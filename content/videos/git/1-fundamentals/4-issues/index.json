@@ -2,7 +2,7 @@
   "title": "GitHub Issues",
   "description": "In this fourth video of the Git and GitHub for Poets tutorial series, I cover the concept of GitHub Issues.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "WMykv2ZMyEQ",
   "timestamps": [
     { "time": "0:00", "title": "What are issues?" },

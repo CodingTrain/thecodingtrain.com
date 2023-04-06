@@ -4,43 +4,19 @@
   "sections": [
     {
       "title": "Getting started",
-      "questions": [
-        "learn-coding",
-        "find-video-code",
-        "find-help",
-        "share-work",
-        "livestream-notification"
-      ]
+      "questions": ["learn-coding", "find-video-code", "find-help", "share-work", "livestream-notification"]
     },
     {
       "title": "About The Coding Train",
-      "questions": [
-        "dan",
-        "suggest-topic",
-        "wallpapers",
-        "how-contribute",
-        "how-support",
-        "who-works",
-        "can-i-work"
-      ]
+      "questions": ["dan", "suggest-topic", "wallpapers", "how-contribute", "how-support", "who-works", "can-i-work"]
     },
     {
       "title": "Tools",
-      "questions": [
-        "coding-language",
-        "code-editor",
-        "how-livestream-and-record"
-      ]
+      "questions": ["coding-language", "code-editor", "how-livestream-and-record"]
     },
     {
       "title": "Glossary",
-      "questions": [
-        "track",
-        "side-track",
-        "challenge",
-        "passenger-showcase",
-        "cafe-car"
-      ]
+      "questions": ["track", "side-track", "challenge", "passenger-showcase", "cafe-car"]
     }
   ]
 }

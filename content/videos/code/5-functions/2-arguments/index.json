@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-5-2-function-parameters-and-arguments-p5-js-tutorial",
   "date": "2015-09-17",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["basics", "functions", "arguments", "parameters"],
+  "topics": ["basics", "function", "arguments", "parameters"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -21,20 +21,12 @@
       "title": "Function Parameters and Arguments",
       "description": "Demonstration of reusing functions using arguments.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/eGD-xzsw"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/eGD-xzsw" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

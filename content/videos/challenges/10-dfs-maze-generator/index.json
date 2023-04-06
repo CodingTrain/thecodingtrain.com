@@ -7,11 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["maze", "recursion", "backtracking", "depth-first search"],
   "canContribute": true,
-  "relatedChallenges": [
-    "51-a-pathfinding-algorithm",
-    "76-10Print",
-    "171-wave-function-collapse"
-  ],
+  "relatedChallenges": ["51-a-pathfinding-algorithm", "76-10Print", "171-wave-function-collapse"],
   "timestamps": [],
   "parts": [
     {

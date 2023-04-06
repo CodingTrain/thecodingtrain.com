@@ -7,10 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["steering behaviors", "Craig Reynolds steering", "textToPoints"],
   "canContribute": true,
-  "relatedChallenges": [
-    "69-evolutionary-steering-behaviors",
-    "124-flocking-simulation"
-  ],
+  "relatedChallenges": ["69-evolutionary-steering-behaviors", "124-flocking-simulation"],
   "timestamps": [
     {
       "time": "0:00",

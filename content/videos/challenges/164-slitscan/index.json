@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-slitscan-time-displacement-coding-challenge",
   "date": "2021-11-21",
   "languages": ["Processing"],
-  "topics": ["copy function", "video", "images", "slitscan"],
+  "topics": ["copy function", "video", "images", "slit-scan"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Context of this video" },
@@ -90,13 +90,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

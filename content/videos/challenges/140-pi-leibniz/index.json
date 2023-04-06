@@ -5,7 +5,7 @@
   "videoId": "uH4trBNn540",
   "date": "2019-03-18",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["leibniz formula", "pi approximation"],
+  "topics": ["Leibniz formula", "Pi approximation"],
   "canContribute": true,
   "relatedChallenges": [
     "21-mandelbrot-set-with-p5js",
@@ -65,13 +65,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

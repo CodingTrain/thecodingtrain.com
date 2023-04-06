@@ -5,7 +5,7 @@
   "videoId": "KakpnfDv_f0",
   "date": "2017-03-10",
   "languages": ["JavaScript", "p5.js", "Matter.js"],
-  "topics": ["collision detection", "matter.js", "physics engine 2d", "plinko"],
+  "topics": ["collision detection", "matter.js", "physics engine", "Plinko game"],
   "canContribute": true,
   "relatedChallenges": ["20-3d-cloth-simulation", "98-quadtree", "160-spring-forces"],
   "timestamps": [],
@@ -89,9 +89,7 @@
       "title": "Plinko Simulation",
       "description": "This sketch implements a Plinko simulation.",
       "image": "plinko.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo" }
     }
   ],
   "groupLinks": [
@@ -137,13 +135,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

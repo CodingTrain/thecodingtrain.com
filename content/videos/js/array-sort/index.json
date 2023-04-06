@@ -5,7 +5,7 @@
   "videoId": "MWD-iKzR2c8",
   "date": "2018-02-23",
   "languages": ["JavaScript"],
-  "topics": ["array sort", "arrays"],
+  "topics": ["array sort", "array"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "Sorting values" },
@@ -19,13 +19,7 @@
   "codeExamples": [],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

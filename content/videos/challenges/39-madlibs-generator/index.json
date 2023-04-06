@@ -5,7 +5,7 @@
   "videoId": "ziBO-U2_t3k",
   "date": "2016-09-26",
   "languages": ["JavaScript", "p5.js", "tabletop.js"],
-  "topics": ["mad libs", "google forms", "data collecting"],
+  "topics": ["Mad Libs game", "Google Forms", "data collecting"],
   "canContribute": true,
   "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator", "42-markov-chain-name-generator"],
   "timestamps": [
@@ -76,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

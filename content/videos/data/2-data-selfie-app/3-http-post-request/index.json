@@ -2,7 +2,7 @@
   "title": "HTTP Post Request with fetch()",
   "description": "Let's take data from the client and send it to the server. This video covers routing, JSON parsing, and HTTP POST requests with fetch().",
   "videoNumber": "2.3",
-  "languages": ["JavaScript", "node.js"],
+  "languages": ["JavaScript", "Node.js"],
   "topics": ["fetch"],
   "videoId": "Kw5tC5nQMRY",
   "nebulaSlug": "codingtrain-2-3-http-post-request-with-fetch-working-with-data-and-apis-in-javascript",

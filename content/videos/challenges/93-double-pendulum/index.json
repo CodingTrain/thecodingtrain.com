@@ -7,10 +7,7 @@
   "languages": ["Processing"],
   "topics": ["double pendulum", "pendulum harmonic motion"],
   "canContribute": true,
-  "relatedChallenges": [
-    "86-cube-wave-by-bees-and-bombs",
-    "159-simple-pendulum"
-  ],
+  "relatedChallenges": ["86-cube-wave-by-bees-and-bombs", "159-simple-pendulum"],
   "timestamps": [
     {
       "time": "0:00:00",

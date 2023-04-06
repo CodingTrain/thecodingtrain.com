@@ -5,7 +5,7 @@
   "videoId": "8zMMOdI5SOk",
   "date": "2017-11-16",
   "languages": ["JavaScript"],
-  "topics": ["chrome extensions", "bookmarklets", "image swap"],
+  "topics": ["Chrome extension", "bookmarklets", "image swap"],
   "canContribute": true,
   "relatedChallenges": ["83-p5-sketch-chrome-extension", "84-word-definition-chrome-extension"],
   "timestamps": [
@@ -89,13 +89,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

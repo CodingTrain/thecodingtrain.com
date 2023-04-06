@@ -2,7 +2,7 @@
   "title": "Querying the Database",
   "description": "It's time to start querying data from the database! For this, we create a new HTTP GET request route, make the request with the fetch() function, and search the database with find().",
   "videoNumber": "2.5",
-  "languages": ["JavaScript", "node.js"],
+  "languages": ["JavaScript", "Node.js"],
   "topics": ["database"],
   "videoId": "q-lUgFxwjEM",
   "nebulaSlug": "codingtrain-2-5-database-query-working-with-data-and-apis-in-javascript",

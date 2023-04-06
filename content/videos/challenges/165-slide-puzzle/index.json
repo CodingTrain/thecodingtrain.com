@@ -6,7 +6,7 @@
   "nebulaSlug": "codingtrain-coding-challenge-165-slide-puzzle",
   "date": "2022-02-01",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["pixels", "arrays", "game"],
+  "topics": ["pixels", "array", "games"],
   "canContribute": true,
   "relatedChallenges": ["94-2048", "142-rubiks-cube", "149-tic-tac-toe"],
   "timestamps": [

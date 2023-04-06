@@ -5,7 +5,7 @@
   "videoId": "pn2vlselv_g",
   "date": "2019-03-21",
   "languages": ["Java", "Processing"],
-  "topics": ["mandelbrot", "Mandelbrot set", "pi approximation", "fractal"],
+  "topics": ["Mandelbrot set", "Pi approximation", "fractal"],
   "canContribute": true,
   "relatedChallenges": [
     "21-mandelbrot-set-with-p5js",
@@ -83,13 +83,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }
