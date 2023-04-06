@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-20-3d-cloth-with-toxiclibs",
   "date": "2016-06-09",
   "languages": ["Processing", "Toxiclibs"],
-  "topics": ["3d", "cloth", "physics", "simulation"],
+  "topics": ["3D", "cloth", "physics", "simulation"],
   "canContribute": true,
   "relatedChallenges": ["62-plinko-with-matterjs", "159-simple-pendulum", "160-spring-forces"],
   "timestamps": [
@@ -69,13 +69,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -1,17 +1,17 @@
 {
-  "title":"Video Games",
-  "description":"This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js.",
-  "videos":[
-     "challenges/3-snake-game",
-     "challenges/5-space-invaders",
-     "challenges/31-flappy-bird",
-     "challenges/32-agario",
-     "challenges/46-asteroids",
-     "challenges/67-pong",
-     "challenges/71-minesweeper",
-     "challenges/72-frogger",
-     "challenges/115-snake-game-redux",
-     "challenges/147-chrome-dinosaur-game",
-     "challenges/174-graphics-applesoft-basic"
+  "title": "Video Games",
+  "description": "This side track is a collection of coding challenges for various (classic and new) video games in Processing (Java) or JavaScript with p5.js.",
+  "videos": [
+    "challenges/3-snake-game",
+    "challenges/5-space-invaders",
+    "challenges/31-flappy-bird",
+    "challenges/32-agario",
+    "challenges/46-asteroids",
+    "challenges/67-pong",
+    "challenges/71-minesweeper",
+    "challenges/72-frogger",
+    "challenges/115-snake-game-redux",
+    "challenges/147-chrome-dinosaur-game",
+    "challenges/174-graphics-applesoft-basic"
   ]
 }

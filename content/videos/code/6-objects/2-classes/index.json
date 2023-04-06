@@ -7,7 +7,7 @@
   "canonicalTrack": "code-programming-with-p5-js",
   "date": "2017-10-06",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["basics", "OOP", "objects"],
+  "topics": ["basics", "object-oriented programming (OOP)", "objects"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

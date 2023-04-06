@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-57-mapping-earthquake-data",
   "date": "2017-02-13",
   "languages": ["p5.js"],
-  "topics": ["earthquake data", "mapbox", "mapping", "mercator projection"],
+  "topics": ["earthquake data", "Mapbox", "mapping", "Mercator projection"],
   "canContribute": true,
   "relatedChallenges": ["58-3d-earthquake-data-visualization"],
   "timestamps": [

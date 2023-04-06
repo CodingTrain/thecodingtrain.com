@@ -3,7 +3,7 @@
   "description": "The lesson covers on refreshing new data from the ISS API and updating the HTML DOM accordingly once per second with setInterval().",
   "videoNumber": "1.6",
   "languages": ["JavaScript", "leaflet.js"],
-  "topics": ["setInterval", "api", "mapping"],
+  "topics": ["setInterval", "API", "mapping"],
   "videoId": "jKQUHGpOHqg",
   "nebulaSlug": "codingtrain-1-6-refreshing-data-with-setinterval-working-with-data-and-apis-in-javascript",
   "canContribute": true,

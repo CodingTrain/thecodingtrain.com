@@ -2,8 +2,7 @@
   "title": "Mandelbrot-Julia sets relationship explorer",
   "url": "https://jcponce.github.io/complex/mandelbrotjulia/",
   "author": {
-      "name": "Carlos Ponce",
-      "url": "https://jcponce.github.io"
+    "name": "Carlos Ponce",
+    "url": "https://jcponce.github.io"
   }
-  
 }

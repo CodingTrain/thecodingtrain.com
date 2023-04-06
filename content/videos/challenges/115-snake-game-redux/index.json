@@ -5,14 +5,7 @@
   "videoId": "OMoVcohRgZA",
   "date": "2018-09-12",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "beginners",
-    "snake",
-    "games",
-    "vectors",
-    "arrays",
-    "object-oriented programming"
-  ],
+  "topics": ["beginners", "Snake game", "games", "vectors", "array", "object-oriented programming (OOP)"],
   "canContribute": true,
   "relatedChallenges": ["3-snake-game", "173-snake-applesoft-basic"],
   "timestamps": [
@@ -87,13 +80,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2016-10-24",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["markov chain", "n-gram", "text generator"],
+  "topics": ["Markov chain", "n-gram", "text generator"],
   "canContribute": true,
   "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator"],
   "timestamps": [],
@@ -200,13 +200,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

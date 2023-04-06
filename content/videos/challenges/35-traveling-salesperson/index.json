@@ -10,11 +10,11 @@
     "permutation",
     "lexicographic ordering",
     "nature of code",
-    "genetic algorithm",
+    "genetic algorithms",
     "evolution",
     "brute force",
     "factorial",
-    "arrays"
+    "array"
   ],
   "canContribute": true,
   "relatedChallenges": [
@@ -114,10 +114,7 @@
           "time": "09:45",
           "title": "Giving each order in the population a fitness score"
         },
-        {
-          "time": "11:17",
-          "title": "Storing the order with the best fitness"
-        },
+        { "time": "11:17", "title": "Storing the order with the best fitness" },
         {
           "time": "13:17",
           "title": "Creating a new file for the Genetic Algorithm"
@@ -305,13 +302,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

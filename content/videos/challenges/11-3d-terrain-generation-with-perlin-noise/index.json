@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-11-3d-terrain-generation-with-perlin-noise-in-processing",
   "date": "2016-05-04",
   "languages": ["Processing"],
-  "topics": ["perlin noise", "terrain generation", "procedural"],
+  "topics": ["Perlin noise", "terrain generation", "procedural"],
   "canContribute": true,
   "relatedChallenges": ["18-3d-fractal-trees", "24-perlin-noise-flow-field", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
@@ -81,13 +81,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

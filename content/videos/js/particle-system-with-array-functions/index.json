@@ -5,7 +5,7 @@
   "videoId": "m9bRVQ_-DXY",
   "date": "2018-02-24",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["particle system", "arrays"],
+  "topics": ["particle system", "array"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
@@ -30,19 +30,14 @@
       "time": "14:27",
       "title": "sort() - Layering of particles depending on color"
     },
-    {
-      "time": "18:25",
-      "title": "forEach() - Iterate through particles array"
-    }
+    { "time": "18:25", "title": "forEach() - Iterate through particles array" }
   ],
   "codeExamples": [
     {
       "title": "Simple Particle System with Array Functions",
       "description": "Particle System Simulation demonstrating JS Array Functions",
       "image": "particlesystem.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/cFXgW95RZ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/cFXgW95RZ" }
     }
   ],
   "groupLinks": [
@@ -65,13 +60,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

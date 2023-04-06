@@ -6,13 +6,22 @@
   "nebulaSlug": "coding-train-7-7-object-communication-part-2-p5-js-tutorial",
   "date": "2017-12-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["arrays", "nested loop", "for loop", "objects"],
+  "topics": ["array", "nested loop", "for loop", "objects"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "3:06", "title": "Shorthand Syntax For Every Element of an Array" },
-    { "time": "7:08", "title": "Using a Nested Loop to Check Each Element Against Every Other Element" },
-    { "time": "9:18", "title": "Make Sure That the Object Isn't Checking Itself" },
+    {
+      "time": "3:06",
+      "title": "Shorthand Syntax For Every Element of an Array"
+    },
+    {
+      "time": "7:08",
+      "title": "Using a Nested Loop to Check Each Element Against Every Other Element"
+    },
+    {
+      "time": "9:18",
+      "title": "Make Sure That the Object Isn't Checking Itself"
+    },
     { "time": "15:48", "title": "The N Squared Problem" },
     { "time": "18:30", "title": "Declaring the Variable in the For Loop" }
   ],
@@ -21,9 +30,7 @@
       "title": "Checking Overlap (Multiple)",
       "description": "Demonstration of determining if any circle is overlapping any other circle.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/7SjPmXN2"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/7SjPmXN2" }
     }
   ],
   "groupLinks": [
@@ -46,13 +53,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

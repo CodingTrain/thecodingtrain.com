@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-what-are-bzier-curves",
   "date": "2021-08-22",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["beginners", "bezier curves", "lerp"],
+  "topics": ["beginners", "bezier curves", "linear interpolation (lerp)"],
   "canContribute": true,
   "relatedChallenges": ["81-circle-morphing", "133-time-tables-cardioid-visualization"],
   "timestamps": [
@@ -167,13 +167,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

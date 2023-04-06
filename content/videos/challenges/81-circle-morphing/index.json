@@ -5,12 +5,7 @@
   "videoId": "u2D4sxh3MTs",
   "date": "2017-11-01",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "Golan Levin",
-    "interpolation",
-    "circle morphing",
-    "polar coordinates"
-  ],
+  "topics": ["Golan Levin", "interpolation", "circle morphing", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": ["163-bezier-curves"],
   "timestamps": [],

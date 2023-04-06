@@ -2,7 +2,7 @@
   "title": "Forks and Pull Requests",
   "description": "In this third video of Git and GitHub for Poets, I cover the concept of forking a repository and pull requests.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "_NrSWLQsDL4",
   "timestamps": [
     { "time": "0:00", "title": "Review" },

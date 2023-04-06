@@ -5,7 +5,7 @@
   "videoId": "UcdigVaIYAk",
   "date": "2017-10-11",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["particle system", "oop"],
+  "topics": ["particle system", "object-oriented programming (OOP)"],
   "canContribute": true,
   "relatedChallenges": ["27-fireworks", "160-spring-forces"],
   "timestamps": [
@@ -76,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

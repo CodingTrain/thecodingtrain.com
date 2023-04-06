@@ -1,8 +1,8 @@
 {
   "title": "Setup",
   "description": "In this video, I outline what you need setup and ready before you begin the course Working with Data and APIs in JavaScript.",
-  "languages": ["JavaScript", "node.js"],
-  "topics": ["server side", "workflow", "setup"],
+  "languages": ["JavaScript", "Node.js"],
+  "topics": ["server-side programming", "workflow", "setup"],
   "videoId": "hPbDyqzxQfU",
   "nebulaSlug": "codingtrain-setup-everything-you-need-to-begin-the-course-working-with-data-and-apis-in-javascript",
   "timestamps": [],

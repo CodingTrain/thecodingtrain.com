@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-what-is-a-convolutional-neural-network-part-1-filters",
   "date": "2020-02-23",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["convolutional neural network", "machine learning"],
+  "topics": ["convolutional neural network", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

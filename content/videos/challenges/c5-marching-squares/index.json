@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-5-marching-squares",
   "date": "2020-07-17",
   "languages": ["Processing"],
-  "topics": ["marching squares", "metaballs", "worley noise", "isolines", "noise", "grid"],
+  "topics": ["marching squares", "metaballs", "Worley noise", "isolines", "noise", "grid"],
   "canContribute": true,
   "relatedChallenges": ["28-metaballs", "c4-worley-noise"],
   "timestamps": [

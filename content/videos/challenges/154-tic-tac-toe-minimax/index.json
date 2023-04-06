@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-challenge-154-tic-tac-toe-ai-with-minimax-algorithm",
   "date": "2019-12-11",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["beginners", "tic-tac-toe", "minimax algorithm", "games"],
+  "topics": ["beginners", "Tic-Tac-Toe game", "minimax algorithm", "games"],
   "canContribute": true,
   "relatedChallenges": ["94-2048", "149-tic-tac-toe"],
   "timestamps": [
@@ -55,7 +55,6 @@
         }
       ]
     },
-
     {
       "title": "Videos",
       "links": [
@@ -81,13 +80,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

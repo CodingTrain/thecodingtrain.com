@@ -5,7 +5,7 @@
   "videoId": "3noMeuufLZY",
   "date": "2018-07-30",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["sprite animation", "oop"],
+  "topics": ["sprite animation", "object-oriented programming (OOP)"],
   "canContribute": true,
   "relatedChallenges": ["88-snowfall"],
   "timestamps": [
@@ -78,13 +78,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

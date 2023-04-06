@@ -5,7 +5,7 @@
   "videoId": "JWsKay58Z2g",
   "date": "2019-02-07",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["machine learning", "KNN Classification"],
+  "topics": ["machine learning (ML)", "KNN classification"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -20,9 +20,7 @@
     {
       "title": "KNN Classification",
       "description": "This sketch demonstrates how to train the KNN image classifier.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL" }
     }
   ],
   "groupLinks": [
@@ -68,13 +66,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

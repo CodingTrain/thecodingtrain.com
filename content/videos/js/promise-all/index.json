@@ -5,7 +5,7 @@
   "videoId": "01RTj1MWec0",
   "date": "2018-06-01",
   "languages": ["JavaScript"],
-  "topics": ["promises", "arrays"],
+  "topics": ["promises", "array"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
@@ -18,9 +18,7 @@
       "title": "Promise.all()",
       "description": "Demonstration of Promise.all() to handle multiple promises",
       "image": "",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/75fgxfvuI"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/75fgxfvuI" }
     }
   ],
   "groupLinks": [
@@ -37,13 +35,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

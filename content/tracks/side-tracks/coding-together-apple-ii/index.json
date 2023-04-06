@@ -1,9 +1,5 @@
 {
   "title": "Coding Together on the Apple II+",
   "description": "Take a trip back in time and let's code in AppleSoft BASIC on a restored Apple II+ computer!",
-  "videos": [
-    "challenges/173-snake-applesoft-basic",
-    "challenges/174-graphics-applesoft-basic",
-    "challenges/175-3D-cube-applesoft-basic"
-  ]
+  "videos": ["challenges/173-snake-applesoft-basic", "challenges/174-graphics-applesoft-basic", "challenges/175-3D-cube-applesoft-basic"]
 }

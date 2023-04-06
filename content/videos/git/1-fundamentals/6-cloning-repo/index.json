@@ -2,7 +2,7 @@
   "title": "Cloning Repo and Push/Pull",
   "description": "In part 6 of the Git and GitHub for Poets tutorial series, I show you how to clone a repository created on the GitHub website in order to work on it locally, and then push the changes back to GitHub.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "yXT1ElMEkW8",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

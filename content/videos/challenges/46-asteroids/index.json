@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2016-12-15",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Atari asteroids", "polar to cartesian coordinates"],
+  "topics": ["Atari Asteroids game", "polar to Cartesian coordinates"],
   "canContribute": true,
   "relatedChallenges": ["81-circle-morphing"],
   "timestamps": [],
@@ -105,13 +105,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

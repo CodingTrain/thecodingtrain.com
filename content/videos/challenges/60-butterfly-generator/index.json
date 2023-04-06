@@ -1,12 +1,12 @@
 {
   "title": "Butterfly Generator",
-  "description": "Inspired by Everest Pipkin\u2019s Moth Generator, I use trigonometry and perlin noise to procedurally generate butterfly wing designs with p5.js.",
+  "description": "Inspired by Everest Pipkin’s Moth Generator, I use trigonometry and perlin noise to procedurally generate butterfly wing designs with p5.js.",
   "videoNumber": "60",
   "videoId": "O_0fRV4MTZo",
   "nebulaSlug": "the-coding-train-coding-challenge-60-butterfly-generator",
   "date": "2017-02-27",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["butterfly wings", "perlin noise", "polar coordinates"],
+  "topics": ["butterfly wings", "Perlin noise", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": ["36-blobby", "55-mathematical-rose-patterns", "134-heart-curve", "136-polar-noise-loops"],
   "timestamps": [
@@ -98,13 +98,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

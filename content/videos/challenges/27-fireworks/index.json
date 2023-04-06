@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-27-fireworks",
   "date": "2016-07-02",
   "languages": ["JavaScript", "p5.js", "Processing"],
-  "topics": ["fireworks", "nature of code", "oop", "3d", "forces", "gravity", "particle systems"],
+  "topics": ["fireworks", "nature of code", "object-oriented programming (OOP)", "3D", "forces", "gravity", "particle system"],
   "canContribute": true,
   "relatedChallenges": ["78-simple-particle-system"],
   "timestamps": [
@@ -77,13 +77,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

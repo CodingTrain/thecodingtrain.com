@@ -6,7 +6,7 @@
   "videoId": "TOrVsLklltM",
   "date": "2019-11-11",
   "languages": ["JavaScript", "p5.js", "ml5.js"],
-  "topics": ["machine learning", "ml5","sound classification", "snake", "game"],
+  "topics": ["machine learning (ML)", "ml5.js", "sound classification", "Snake game", "games"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Review" },
@@ -20,7 +20,10 @@
     { "time": "6:46", "title": "Step 2-3 Classify" },
     { "time": "7:07", "title": "Step 4 Draw the label" },
     { "time": "7:58", "title": "Test it" },
-    { "time": "8:42", "title": "Train the model on different chords of the ukulele" },
+    {
+      "time": "8:42",
+      "title": "Train the model on different chords of the ukulele"
+    },
     { "time": "9:24", "title": "Train the model on different notes" },
     { "time": "10:25", "title": "Use the last model on the Snake game" },
     { "time": "12:24", "title": "Train the model with actual words" },
@@ -30,10 +33,9 @@
     {
       "title": "Final Code",
       "description": "Final code of the Sound Classification with the Teachable Machine.",
-      "urls":{
-        "p5": "https://editor.p5js.org/codingtrain/sketches/e3nrNMG7A"
-      } 
-    }],
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/e3nrNMG7A" }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
@@ -65,13 +67,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

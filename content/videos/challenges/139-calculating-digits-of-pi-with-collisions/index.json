@@ -1,12 +1,12 @@
 {
   "title": "Calculating Digits of Pi with Collisions",
-  "description": "Happy Pi Day! To celebrate I attempt to compute the digits of Pi using the \u201ccollisions\u201d method, thanks to 3Blue1Brown for the idea!",
+  "description": "Happy Pi Day! To celebrate I attempt to compute the digits of Pi using the “collisions” method, thanks to 3Blue1Brown for the idea!",
   "videoNumber": "139",
   "videoId": "PoW8g67XNxA",
   "nebulaSlug": "the-coding-train-coding-challenge-139-calculating-digits-of-pi-with-collisions",
   "date": "2019-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["3blue1brown", "elastic collision", "pi day", "euler method"],
+  "topics": ["3Blue1Brown", "elastic collision", "Pi day", "Euler method"],
   "canContribute": true,
   "relatedChallenges": [
     "95-approximating-the-value-of-pi",
@@ -16,58 +16,29 @@
     "169-pi-in-the-sky"
   ],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction!"
-    },
-    {
-      "time": "1:51",
-      "title": "Basic code of the structure"
-    },
+    { "time": "0:00", "title": "Introduction!" },
+    { "time": "1:51", "title": "Basic code of the structure" },
     {
       "time": "7:00",
       "title": "Simulating elastic collision between two blocks"
     },
-    {
-      "time": "12:03",
-      "title": "Simulating the wall"
-    },
-    {
-      "time": "13:59",
-      "title": "Adding the clack!"
-    },
-    {
-      "time": "14:29",
-      "title": "Counting the collisions!"
-    },
-    {
-      "time": "18:09",
-      "title": "Adding timesteps to control approximation"
-    },
-    {
-      "time": "24:12",
-      "title": "Adding constraints to speed up animation"
-    },
-    {
-      "time": "26:47",
-      "title": "Watching collisions upto 11 digits of pi!"
-    },
+    { "time": "12:03", "title": "Simulating the wall" },
+    { "time": "13:59", "title": "Adding the clack!" },
+    { "time": "14:29", "title": "Counting the collisions!" },
+    { "time": "18:09", "title": "Adding timesteps to control approximation" },
+    { "time": "24:12", "title": "Adding constraints to speed up animation" },
+    { "time": "26:47", "title": "Watching collisions upto 11 digits of pi!" },
     {
       "time": "28:46",
       "title": "Other methods to simulate elastic collisions and things to try!"
     },
-    {
-      "time": "30:50",
-      "title": "Fake outro (and a special Pi Day song!)"
-    }
+    { "time": "30:50", "title": "Fake outro (and a special Pi Day song!)" }
   ],
   "codeExamples": [
     {
       "title": "Calculating Pi digits with Collisions",
       "description": "Computing the digits of Pi using elastic collisions",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/4FuKfd-LJ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/4FuKfd-LJ" }
     }
   ],
   "groupLinks": [
@@ -131,13 +102,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }
