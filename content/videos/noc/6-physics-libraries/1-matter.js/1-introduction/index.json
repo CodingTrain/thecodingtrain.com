@@ -1,0 +1,161 @@
+{
+    "title": "6.1 Introduction to Matter.js",
+    "description": "This video is an introduction to the physics engine Matter.js.",
+    "videoId": "urR596FsU68",
+    "nebulaSlug": "",
+    "date": "2017-03-07",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": ["physics engine", "matter.js"],
+    "canContribute": true,
+    "timestamps": [{
+            "time": "0:00",
+            "title": "Introduction to Matter.js"
+        },
+        {
+            "time": "1:50",
+            "title": "Simple Example"
+        },
+        {
+            "time": "2:30",
+            "title": "Getting started"
+        },
+        {
+            "time": "3:40",
+            "title": "Module aliases"
+        },
+        {
+            "time": "5:15",
+            "title": "Creating bodies in the world"
+        },
+        {
+            "time": "6:04",
+            "title": "Matter.js documentation"
+        },
+        {
+            "time": "7:51",
+            "title": "Engine.run() is deprecated"
+        },
+        {
+            "time": "8:58",
+            "title": "Use the physics engine to figure out the location of the box"
+        },
+        {
+            "time": "10:07",
+            "title": "Data tracked about the object"
+        },
+        {
+            "time": "13:13",
+            "title": "Adding a body to the world"
+        },
+        {
+            "time": "14:40",
+            "title": "Refactor code"
+        },
+        {
+            "time": "19:00",
+            "title": "Add a ground"
+        },
+        {
+            "time": "19:51",
+            "title": "Static Bodies"
+        },
+        {
+            "time": "22:23",
+            "title": "Drawing elements in a way that matches expectation of physics engine"
+        },
+        {
+            "time": "27:07",
+            "title": "Add options for friction and restitution."
+        },
+        {
+            "time": "30:42",
+            "title": "Increase thickness of the ground"
+        },
+        {
+            "time": "31:44",
+            "title": "Outro"
+        }
+    ],
+    "codeExamples": [
+        {
+            "title": "Basic implementation",
+            "description": "Basic example showing how to add boxes to the world.",
+            "image": "img1.png",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/dian0t-5j"
+            }
+        },
+        {
+            "title": "Blank p5.js Canvas",
+            "description": "Canvas with Toxiclibs physics library",
+            "image": "",
+            "urls": {
+                "p5": "https://editor.p5js.org/codingtrain/sketches/ccwlnhtji"
+            }
+        }
+    ],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                    "icon": "🔗",
+                    "title": "Nature of Code",
+                    "url": "https://nature-of-code-2nd-edition.netlify.app/",
+                    "description": "My Nature of Code book."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ToxicLibs.js",
+                    "url": "http://haptic-data.com/toxiclibsjs/",
+                    "description": "Port of ToxicLibs to javascript."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ToxicLibs Java Reference",
+                    "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+                    "description": "Documentation for the ToxicLibs libary."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Advanced Character Physics",
+                    "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
+                    "description": "The paper discusses an algorithm using Verlet integration to model a physics system."
+                }   
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                    "icon": "🚂",
+                    "title": "Toxiclibs Verlet Physics playlist",
+                    "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+                    "description": "My tutorials about the Toxiclibs Verlet Physics library"
+                },
+                {
+                    "icon": "🚂",
+                    "title": "Matter.js playlist",
+                    "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+                    "description": "My tutorials about the Matter.js physics library."
+                },
+                {
+                    "icon": "🎥",
+                    "title": "The Making of Nokia and Friends",
+                    "url": "https://www.youtube.com/watch?v=g20QOQP6kSU",
+                    "description": "Video about the making of Nokia and Friends."
+                }
+            ]
+        }
+    ],
+    "credits": [{
+            "title": "Editing",
+            "name": "Mathieu Blanchette"
+        },
+        {
+            "title": "Animations",
+            "name": "Jason Heglund"
+        },
+        {
+            "title": "Pi Day Song",
+            "name": "Will from America"
+        }
+    ]
+}
