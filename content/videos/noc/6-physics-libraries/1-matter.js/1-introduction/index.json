@@ -96,10 +96,10 @@
                 },
                 {
                     "icon": "🔗",
-                    "title": "Matter.js Documentation",
-                    "url": "",
-                    "description": ""
-                }      
+                    "title": "Matter.js",
+                    "url": "https://brm.io/matter-js/",
+                    "description": "Webpage for the matter.js physics library."
+                }
             ]
         },
         {
