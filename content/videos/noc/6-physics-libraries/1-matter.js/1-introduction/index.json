@@ -84,14 +84,6 @@
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/dian0t-5j"
             }
-        },
-        {
-            "title": "Blank p5.js Canvas",
-            "description": "Canvas with Toxiclibs physics library",
-            "image": "",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ccwlnhtji"
-            }
         }
     ],
     "groupLinks": [{
@@ -104,22 +96,10 @@
                 },
                 {
                     "icon": "🔗",
-                    "title": "ToxicLibs.js",
-                    "url": "http://haptic-data.com/toxiclibsjs/",
-                    "description": "Port of ToxicLibs to javascript."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "ToxicLibs Java Reference",
-                    "url": "https://shiffman.github.io/toxiclibs-javadocs/",
-                    "description": "Documentation for the ToxicLibs libary."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Advanced Character Physics",
-                    "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
-                    "description": "The paper discusses an algorithm using Verlet integration to model a physics system."
-                }   
+                    "title": "Matter.js Documentation",
+                    "url": "",
+                    "description": ""
+                }      
             ]
         },
         {
@@ -135,12 +115,6 @@
                     "title": "Matter.js playlist",
                     "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
                     "description": "My tutorials about the Matter.js physics library."
-                },
-                {
-                    "icon": "🎥",
-                    "title": "The Making of Nokia and Friends",
-                    "url": "https://www.youtube.com/watch?v=g20QOQP6kSU",
-                    "description": "Video about the making of Nokia and Friends."
                 }
             ]
         }

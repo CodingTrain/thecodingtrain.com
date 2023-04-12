@@ -44,61 +44,34 @@
             "urls": {
                 "p5": ""
             }
-        },
-        {
-            "title": "Blank p5.js Canvas",
-            "description": "Canvas with Toxiclibs physics library",
-            "image": "",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/ccwlnhtji"
-            }
         }
     ],
     "groupLinks": [{
-            "title": "References",
-            "links": [{
-                    "icon": "🔗",
-                    "title": "Nature of Code",
-                    "url": "https://nature-of-code-2nd-edition.netlify.app/",
-                    "description": "My Nature of Code book."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "ToxicLibs.js",
-                    "url": "http://haptic-data.com/toxiclibsjs/",
-                    "description": "Port of ToxicLibs to javascript."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "ToxicLibs Java Reference",
-                    "url": "https://shiffman.github.io/toxiclibs-javadocs/",
-                    "description": "Documentation for the ToxicLibs libary."
-                },
-                {
-                    "icon": "🔗",
-                    "title": "Advanced Character Physics",
-                    "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
-                    "description": "The paper discusses an algorithm using Verlet integration to model a physics system."
-                }   
-            ]
-        },
-        {
-            "title": "Videos",
-            "links": [{
-                    "icon": "🚂",
-                    "title": "Toxiclibs Verlet Physics playlist",
-                    "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
-                    "description": "My tutorials about the Toxiclibs Verlet Physics library"
-                },
-                {
-                    "icon": "🚂",
-                    "title": "Matter.js playlist",
-                    "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
-                    "description": "My tutorials about the Matter.js physics library."
-                }
-            ]
-        }
-    ],
+        "title": "References",
+        "links": [{
+                "icon": "🔗",
+                "title": "Nature of Code",
+                "url": "https://nature-of-code-2nd-edition.netlify.app/",
+                "description": "My Nature of Code book."
+            },
+            {
+                "icon": "🔗",
+                "title": "Matter.js",
+                "url": "https://brm.io/matter-js/",
+                "description": "Webpage for the matter.js physics library."
+            }
+        ]
+    },
+    {
+        "title": "Videos",
+        "links": [{
+            "icon": "🚂",
+            "title": "Matter.js playlist",
+            "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+            "description": "My tutorials about the Matter.js physics library."
+        }]
+    }
+],
     "credits": [{
             "title": "Editing",
             "name": "Mathieu Blanchette"
