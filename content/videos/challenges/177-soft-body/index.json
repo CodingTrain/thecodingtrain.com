@@ -62,19 +62,23 @@
         },
         {
             "time": "25:44",
-            "title": "Use beginShape() & endShape() to draw the shape"
+            "title": "Create a closed-filled shape to draw the character"
         },
         {
-            "time": "26:14",
+            "time": "26:49",
             "title": "Suggestions for variations"
         },
         {
-            "time": "26:42",
+            "time": "27:07",
             "title": "Other types of springs"
         },
         {
-            "time": "27:16",
-            "title": "Update about the Nature of Code book."
+            "time": "27:36",
+            "title": "Update about the Nature of Code book!"
+        },
+        {
+            "time": "28:56",
+            "title": "Outro"
         }
     ],
     "codeExamples": [
