@@ -149,7 +149,13 @@
                     "title": "Advanced Character Physics",
                     "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
                     "description": "The paper discusses an algorithm using Verlet integration to model a physics system."
-                }   
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Thi.ng",
+                    "url": "https://thi.ng/",
+                    "description": "Karsten Schmidt's long-term project devoted to Computational Design."
+                }      
             ]
         },
         {
