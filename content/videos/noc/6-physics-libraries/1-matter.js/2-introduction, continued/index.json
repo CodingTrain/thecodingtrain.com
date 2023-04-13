@@ -1,5 +1,5 @@
 {
-    "title": "6.2 Introduction to Matter.js, continued",
+    "title": "Introduction to Matter.js, continued",
     "description": "This video is an introduction to the physics engine Matter.js.",
     "videoId": "uITcoKpbQq4",
     "nebulaSlug": "",
@@ -79,10 +79,6 @@
         {
             "title": "Animations",
             "name": "Jason Heglund"
-        },
-        {
-            "title": "Pi Day Song",
-            "name": "Will from America"
         }
     ]
 }

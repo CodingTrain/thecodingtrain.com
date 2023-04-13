@@ -1,5 +1,5 @@
 {
-    "title": "6.5 Mouse Constraints",
+    "title": "Mouse Constraints",
     "description": "This video discusses mouse constraints.",
     "videoId": "W-ou_sVlTWk",
     "nebulaSlug": "",
@@ -95,10 +95,6 @@
         {
             "title": "Animations",
             "name": "Jason Heglund"
-        },
-        {
-            "title": "Pi Day Song",
-            "name": "Will from America"
         }
     ]
 }

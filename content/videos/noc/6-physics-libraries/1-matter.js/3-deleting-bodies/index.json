@@ -1,5 +1,5 @@
 {
-    "title": "6.3 Deleting Bodies",
+    "title": "Deleting Bodies",
     "description": "This video demonstrates how to delete bodies from the world",
     "videoId": "4HsVCLakjtQ",
     "nebulaSlug": "",
@@ -81,10 +81,6 @@
         {
             "title": "Animations",
             "name": "Jason Heglund"
-        },
-        {
-            "title": "Pi Day Song",
-            "name": "Will from America"
         }
     ]
 }
