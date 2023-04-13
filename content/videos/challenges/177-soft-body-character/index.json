@@ -1,5 +1,5 @@
 {
-    "title": "Soft Body",
+    "title": "Soft Body Character",
     "description": "",
     "videoId": "PKrvQLbyy08&t",
     "nebulaSlug": "codingtrain-coding-challenge-soft-body",
@@ -117,7 +117,7 @@
         {
             "title": "Blank Canvas",
             "description": "Canvas with Toxiclibs physics library",
-            "image": "",
+            "image": "img5.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/ccwlnhtji"
             }
