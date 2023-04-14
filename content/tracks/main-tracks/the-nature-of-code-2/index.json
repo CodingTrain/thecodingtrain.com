@@ -68,6 +68,20 @@
         "noc/5-autonomous-agents/6-scalar-projection",
         "noc/5-autonomous-agents/7-path-following"
       ]
+    },
+    {
+      "title": "Physics Libraries",
+      "videos": [
+        "noc/6-physics-libraries/1-matter.js/1-introduction",
+        "noc/6-physics-libraries/1-matter.js/2-introduction, continued",
+        "noc/6-physics-libraries/1-matter.js/3-deleting-bodies",
+        "noc/6-physics-libraries/1-matter.js/4-constraints",
+        "noc/6-physics-libraries/1-matter.js/5-mouse-constraints",
+        "noc/6-physics-libraries/2-toxicLibs/1-introduction",
+        "noc/6-physics-libraries/2-toxicLibs/2-particles-and-springs",
+        "noc/6-physics-libraries/2-toxicLibs/3-connected-systems",
+        "noc/6-physics-libraries/2-toxicLibs/4-attraction-behavior"
+      ]
     }
   ]
 }
