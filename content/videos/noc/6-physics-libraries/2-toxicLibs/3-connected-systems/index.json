@@ -1,0 +1,83 @@
+{
+    "title": "Connected Systems",
+    "description": "This video explains how to add systems of connected particles.",
+    "videoNumber": "5.15",
+    "videoId": "",
+    "nebulaSlug": "",
+    "date": "",
+    "languages": ["java"],
+    "topics": ["physics engine", "ToxicLibs"],
+    "canContribute": true,
+    "timestamps": [{
+            "time": "0:00",
+            "title": "Introduction"
+        },
+        {
+            "time": "2:05",
+            "title": "Create a skeleton"
+        },
+        {
+            "time": "2:42",
+            "title": "Examples"
+        },
+        {
+            "time": "8:03",
+            "title": "Force Directed Graphs"
+        },
+        {
+            "time": "10:47",
+            "title": "Adding more than one cluster"
+        },
+        {
+            "time": "11:36",
+            "title": "Suggestions for projects"
+        },
+        {
+            "time": "12:03",
+            "title": "Outro"
+        }
+    ],
+    "codeExamples": [{
+        "title": "Connected Systems",
+        "description": "Basic example showing how to add boxes to the world.",
+        "image": "img1.png",
+        "urls": {
+            "p5": ""
+        }
+    }],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                    "icon": "🔗",
+                    "title": "Nature of Code",
+                    "url": "https://nature-of-code-2nd-edition.netlify.app/",
+                    "description": "My Nature of Code book."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ToxicLibs",
+                    "url": "https://brm.io/matter-js/",
+                    "description": "Webpage for the matter.js physics library."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                "icon": "🚂",
+                "title": "Toxiclibs Verlet Physics playlist",
+                "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+                "description": "My tutorials about the Toxiclibs Verlet Physics library"
+            }]
+        }
+    ],
+    "credits": [{
+            "title": "Editing",
+            "name": "Mathieu Blanchette"
+        },
+        {
+            "title": "Animations",
+            "name": "Jason Heglund"
+        }
+    ]
+}
