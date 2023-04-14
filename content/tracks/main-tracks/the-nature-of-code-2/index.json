@@ -72,11 +72,11 @@
     {
       "title": "Physics Libraries",
       "videos": [
-        "noc/6-physics-libraries/1-matter.js-introduction",
-        "noc/6-physics-libraries/2-matter.js-introduction-continued",
-        "noc/6-physics-libraries/3-matter.js-deleting-bodies",
-        "noc/6-physics-libraries/4-matter.js-constraints",
-        "noc/6-physics-libraries/5-matter.js-mouse-constraints",
+        "noc/6-physics-libraries/1-matterjs-introduction",
+        "noc/6-physics-libraries/2-matterjs-introduction-continued",
+        "noc/6-physics-libraries/3-matterjs-deleting-bodies",
+        "noc/6-physics-libraries/4-matterjs-constraints",
+        "noc/6-physics-libraries/5-matterjs-mouse-constraints",
         "noc/6-physics-libraries/6-toxicLibs-introduction",
         "noc/6-physics-libraries/7-toxicLibs-particles-and-springs",
         "noc/6-physics-libraries/8-toxicLibs-connected-systems",
