@@ -41,46 +41,39 @@
             "title": "Outro"
         }
     ],
-    "codeExamples": [{
-        "title": "",
-        "description": "",
-        "image": "",
-        "urls": {
-            "p5": ""
-        }
-    }],
     "groupLinks": [{
-        "title": "References",
-        "links": [{
-                "icon": "🔗",
-                "title": "Nature of Code",
-                "url": "https://nature-of-code-2nd-edition.netlify.app/",
-                "description": "My Nature of Code book."
-            },
-            {
-                "icon": "🔗",
-                "title": "ToxicLibs",
-                "url": "https://brm.io/matter-js/",
-                "description": "Webpage for the matter.js physics library."
-            },
-            {
-                "title": "Videos",
-                "links": [{
-                    "icon": "🚂",
-                    "title": "Toxiclibs Verlet Physics playlist",
-                    "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
-                    "description": "My tutorials about the Toxiclibs Verlet Physics library"
-                }]
-            }
-        ],
-        "credits": [{
-                "title": "Editing",
-                "name": "Mathieu Blanchette"
-            },
-            {
-                "title": "Animations",
-                "name": "Jason Heglund"
-            }
-        ]
-    }]
+            "title": "References",
+            "links": [{
+                    "icon": "🔗",
+                    "title": "Nature of Code",
+                    "url": "https://nature-of-code-2nd-edition.netlify.app/",
+                    "description": "My Nature of Code book."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ToxicLibs",
+                    "url": "https://brm.io/matter-js/",
+                    "description": "Webpage for the matter.js physics library."
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "links": [{
+                "icon": "🚂",
+                "title": "Toxiclibs Verlet Physics playlist",
+                "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+                "description": "My tutorials about the Toxiclibs Verlet Physics library"
+            }]
+        }
+    ],
+    "credits": [{
+            "title": "Editing",
+            "name": "Mathieu Blanchette"
+        },
+        {
+            "title": "Animations",
+            "name": "Jason Heglund"
+        }
+    ]
 }
