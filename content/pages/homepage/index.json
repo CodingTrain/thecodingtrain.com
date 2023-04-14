@@ -31,15 +31,15 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "176-buffon-needle",
-      "49-photo-mosaic-with-white-house-social-media-images",
-      "102-2d-water-ripple",
-      "72-frogger",
-      "52-random-walker",
-      "151-ukulele-tuner-with-machine-learning",
-      "137-4d-opensimplex-noise-loop",
-      "51-a-pathfinding-algorithm",
-      "69-evolutionary-steering-behaviors"
+      "177-soft-body-character",
+      "74-clock",
+      "18-3d-fractal-trees",
+      "146-rendering-ray-casting",
+      "126-toothpicks",
+      "2-menger-sponge",
+      "162-self-avoiding-walk",
+      "c2-collatz-conjecture",
+      "48-white-house-social-media-data-visualization"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,15 +50,13 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/52-random-walker/showcase/contribution-1657103466.json",
-      "challenges/51-a-pathfinding-algorithm/showcase/contribution9.json",
-      "challenges/102-2d-water-ripple/showcase/contribution3.json",
-      "challenges/72-frogger/showcase/contribution1.json",
-      "challenges/137-4d-opensimplex-noise-loop/showcase/contribution1.json",
-      "challenges/69-evolutionary-steering-behaviors/showcase/contribution4.json",
-      "challenges/151-ukulele-tuner-with-machine-learning/showcase/contribution10.json",
-      "challenges/11-3d-terrain-generation-with-perlin-noise/showcase/contribution16.json",
-      "challenges/69-evolutionary-steering-behaviors/showcase/contribution7.json"
+      "challenges/74-clock/showcase/contribution6.json",
+      "challenges/74-clock/showcase/contribution8.json",
+      "challenges/18-3d-fractal-trees/showcase/contribution-1665505434.json",
+      "challenges/146-rendering-ray-casting/showcase/contribution6.json",
+      "challenges/126-toothpicks/showcase/contribution1.json",
+      "challenges/2-menger-sponge/showcase/contribution4.json",
+      "challenges/c2-collatz-conjecture/showcase/contribution9.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
