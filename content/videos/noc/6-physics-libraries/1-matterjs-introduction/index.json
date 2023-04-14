@@ -1,5 +1,5 @@
 {
-    "title": "Introduction to Matter.js",
+    "title": "6.1 Introduction to Matter.js",
     "description": "This video is an introduction to the physics engine Matter.js, a 2D JavaScript physics library that supports rigid body collisions and constraints. In this video I show you how to set up your code to use the library in combination with p5.js for rendering.",
     "videoNumber": "5.17",
     "videoId": "urR596FsU68",
@@ -77,16 +77,14 @@
             "title": "Outro"
         }
     ],
-    "codeExamples": [
-        {
-            "title": "Basic implementation",
-            "description": "Basic example showing how to add boxes to the world.",
-            "image": "img1.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/dian0t-5j"
-            }
+    "codeExamples": [{
+        "title": "Basic implementation",
+        "description": "Basic example showing how to add boxes to the world.",
+        "image": "img1.png",
+        "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/dian0t-5j"
         }
-    ],
+    }],
     "groupLinks": [{
             "title": "References",
             "links": [{
@@ -105,14 +103,12 @@
         },
         {
             "title": "Videos",
-            "links": [
-                {
-                    "icon": "🚂",
-                    "title": "Matter.js playlist",
-                    "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
-                    "description": "My tutorials about the Matter.js physics library."
-                }
-            ]
+            "links": [{
+                "icon": "🚂",
+                "title": "Matter.js playlist",
+                "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+                "description": "My tutorials about the Matter.js physics library."
+            }]
         }
     ],
     "credits": [{
