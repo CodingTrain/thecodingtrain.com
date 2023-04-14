@@ -2,15 +2,19 @@
     "title": "Connected Systems",
     "description": "This video explains how to add systems of connected particles.",
     "videoNumber": "5.15",
-    "videoId": "",
+    "videoId": "YskU_gJpc0c",
     "nebulaSlug": "",
-    "date": "",
+    "date": "2015-08-07",
     "languages": ["java"],
-    "topics": ["physics engine", "ToxicLibs"],
+    "topics": ["physics engine", "ToxicLibs", "force directed graph"],
     "canContribute": true,
     "timestamps": [{
             "time": "0:00",
             "title": "Introduction"
+        },
+        {
+            "time": "0:20",
+            "title": "Nokia and Friends"
         },
         {
             "time": "2:05",
@@ -18,7 +22,7 @@
         },
         {
             "time": "2:42",
-            "title": "Examples"
+            "title": "Options for connecting particles"
         },
         {
             "time": "8:03",
@@ -68,6 +72,12 @@
                 "title": "Toxiclibs Verlet Physics playlist",
                 "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
                 "description": "My tutorials about the Toxiclibs Verlet Physics library"
+            },
+            {
+                "icon": "🎥",
+                "title": "The Making of Nokia and Friends",
+                "url": "https://www.youtube.com/watch?v=g20QOQP6kSU",
+                "description": "Video about the making of Nokia and Friends."
             }]
         }
     ],
