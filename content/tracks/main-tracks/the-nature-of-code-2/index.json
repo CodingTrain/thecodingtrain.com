@@ -73,7 +73,7 @@
       "title": "Physics Libraries",
       "videos": [
         "noc/6-physics-libraries/1-matterjs-introduction",
-        "noc/6-physics-libraries/2-matterjs-intro-continued",
+        "noc/6-physics-libraries/2-matterjs-introduction-continued",
         "noc/6-physics-libraries/3-matterjs-deleting-bodies",
         "noc/6-physics-libraries/4-matterjs-constraints",
         "noc/6-physics-libraries/5-matterjs-mouse-constraints",
