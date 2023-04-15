@@ -43,10 +43,10 @@
     ],
     "codeExamples": [{
         "title": "Connected Systems",
-        "description": "Basic example showing how to add boxes to the world.",
+        "description": "This sketch shows how to connect systems of nodes",
         "image": "img1.png",
         "urls": {
-            "p5": ""
+            "p5": "https://editor.p5js.org/natureofcode/sketches/_tbPaFqVX"
         }
     }],
     "groupLinks": [{

@@ -30,7 +30,7 @@
         },
         {
             "time": "9:30",
-            "title": "Particle extends Vec2D"
+            "title": "Particle extends VerletParticleVe2D"
         },
         {
             "time": "11:43",
