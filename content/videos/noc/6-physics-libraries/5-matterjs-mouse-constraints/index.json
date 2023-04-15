@@ -53,42 +53,40 @@
             "title": "Outro"
         }
     ],
-    "codeExamples": [
+    "codeExamples": [{
+        "title": "Mouse Constraints",
+        "description": "This sketch demonstrates adding mouse constraints.",
+        "image": "img1.png",
+        "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/P8SECdBQ3"
+        }
+    }],
+    "groupLinks": [{
+            "title": "References",
+            "links": [{
+                    "icon": "🔗",
+                    "title": "Nature of Code",
+                    "url": "https://nature-of-code-2nd-edition.netlify.app/",
+                    "description": "My Nature of Code book."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "Matter.js",
+                    "url": "https://brm.io/matter-js/",
+                    "description": "Webpage for the matter.js physics library."
+                }
+            ]
+        },
         {
-            "title": "Mouse Constraints",
-            "description": "This sketch demonstrates adding mouse constraints.",
-            "image": "img1.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/P8SECdBQ3"
-            }
+            "title": "Videos",
+            "links": [{
+                "icon": "🚂",
+                "title": "Matter.js playlist",
+                "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+                "description": "My tutorials about the Matter.js physics library."
+            }]
         }
     ],
-    "groupLinks": [{
-        "title": "References",
-        "links": [{
-                "icon": "🔗",
-                "title": "Nature of Code",
-                "url": "https://nature-of-code-2nd-edition.netlify.app/",
-                "description": "My Nature of Code book."
-            },
-            {
-                "icon": "🔗",
-                "title": "Matter.js",
-                "url": "https://brm.io/matter-js/",
-                "description": "Webpage for the matter.js physics library."
-            }
-        ]
-    },
-    {
-        "title": "Videos",
-        "links": [{
-            "icon": "🚂",
-            "title": "Matter.js playlist",
-            "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
-            "description": "My tutorials about the Matter.js physics library."
-        }]
-    }
-],
     "credits": [{
             "title": "Editing",
             "name": "Mathieu Blanchette"
