@@ -173,7 +173,6 @@ const contribution = {
       },
       url: { type: 'string' },
       source: { type: 'string' },
-      videoId: { type: 'string' },
       submittedOn: { type: 'string' }
     }
   }
