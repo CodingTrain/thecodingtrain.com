@@ -8,6 +8,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["prime numbers"],
   "canContribute": true,
+  "relatedChallenges": ["c2-collatz-conjecture", "", ""],
   "timestamps": [
     { "time": "0:00", "title": "Welcome! Choo choo!" },
     { "time": "0:23", "title": "History of the Ulam Spiral" },

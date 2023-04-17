@@ -8,6 +8,7 @@
   "languages": ["Processing"],
   "topics": ["copy function", "video", "images", "slit-scan"],
   "canContribute": true,
+  "relatedChallenges": ["81-circle-morphing", "166-image-to-ascii"],
   "timestamps": [
     { "time": "0:00", "title": "Context of this video" },
     { "time": "0:55", "title": "How to use the copy function?" },
