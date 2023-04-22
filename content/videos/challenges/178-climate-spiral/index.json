@@ -25,6 +25,18 @@
       "title": "References",
       "links": [
         {
+          "icon": "🌥️",
+          "title": "National Centre for Atmospheric Science",
+          "url": "https://ncas.ac.uk",
+          "description": "Webpage for the NCAS, which is a world-leading center for atmospheric science."
+        },
+        {
+          "icon": "🌥️",
+          "title": "Ed Hawkin's website",
+          "url": "https://edhawkins.org",
+          "description": "Professor Ed Hawkin's website with different climate visualizations."
+        },
+        {
           "icon": "🌎",
           "title": "NASA Earth Observatory - Global Temperatures",
           "url": "https://earthobservatory.nasa.gov/world-of-change/global-temperatures",
