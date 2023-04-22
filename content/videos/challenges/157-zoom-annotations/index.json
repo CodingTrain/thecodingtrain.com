@@ -8,6 +8,7 @@
   "languages": ["p5.js", "ml5.js", "JavaScript"],
   "topics": ["machine learning (ML)", "Zoom", "creative code", "OBS"],
   "canContribute": true,
+  "relatedChallenges": ["147-chrome-dinosaur-game", "151-ukulele-tuner-with-machine-learning", "153-interactive-drawing-with-sketchrnn"],
   "timestamps": [
     { "time": "0:00:00", "title": "Introduction" },
     { "time": "0:01:02", "title": "Project overview and plan" },
