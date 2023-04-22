@@ -77,10 +77,7 @@
         "noc/6-physics-libraries/3-matterjs-deleting-bodies",
         "noc/6-physics-libraries/4-matterjs-constraints",
         "noc/6-physics-libraries/5-matterjs-mouse-constraints",
-        "noc/6-physics-libraries/6-toxicLibs-introduction",
-        "noc/6-physics-libraries/7-toxicLibs-particles-and-springs",
-        "noc/6-physics-libraries/8-toxicLibs-connected-systems",
-        "noc/6-physics-libraries/9-toxicLibs-attraction-behavior"
+        "challenges/177-soft-body-character"
       ]
     }
   ]
