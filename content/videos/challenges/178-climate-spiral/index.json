@@ -44,9 +44,27 @@
         },
         {
           "icon": "🌎",
+          "title": "GISS Surface Temperature Analysis (GISTEMP v4)",
+          "url": "https://data.giss.nasa.gov/gistemp/",
+          "description": ""
+        },
+        {
+          "icon": "🌎",
           "title": "GISS Surface Temperature Analysis",
           "url": "https://data.giss.nasa.gov/gistemp/faq/",
           "description": "FAQ about the GISS Surface Temperature Analysis"
+        },
+        {
+          "icon": "🌎",
+          "title": "GLOBAL SURFACE TEMPERATURE CHANGE",
+          "url": "https://pubs.giss.nasa.gov/docs/2010/2010_Hansen_ha00510u.pdf",
+          "description": "2010 paper by Hansen, et al which detals an improved uncertainty analysis for surface temperature anomalies."
+        },
+        {
+          "icon": "🌎",
+          "title": "Improvements in the GISTEMP Uncertainty Model",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522",
+          "description": "2019 paper by Lenssen, et al, et all analysis of the global temperature change"
         },
         {
           "icon": "🌊",
