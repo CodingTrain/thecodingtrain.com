@@ -79,7 +79,13 @@
       },
       {
         "icon": "🔗",
-        "title": "P5.TableRow",
+        "title": "p5.loadTable",
+        "url": "https://p5js.org/reference/#/p5/loadTable",
+        "description": "P5 documentation on the TableRow function."
+      },
+      {
+        "icon": "🔗",
+        "title": "p5.TableRow",
         "url": "https://p5js.org/reference/#/p5.TableRow",
         "description": "P5 documentation on the TableRow function."
       }]
