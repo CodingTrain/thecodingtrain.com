@@ -11,7 +11,7 @@
   "relatedChallenges": ["48-white-house-social-media-data-visualization", "58-3d-earthquake-data-visualization", "96-visualizing-digits-of-pi", "109-visualizing-500000-subscribers"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a special Earth Day Coding Challenge!" },
-    { "time": "0:36", "title": "What is a temperature anomaly?" },
+    { "time": "0:35", "title": "What is a temperature anomaly?" },
     { "time": "2:33", "title": "NASA Goddard Institute for Space Studies" },
     { "time": "3:19", "title": "Preview the data" },
     { "time": "5:18", "title": "Use loadTable to load the data" },
@@ -19,7 +19,7 @@
     { "time": "9:47", "title": "Set up the background" },
     { "time": "10:58", "title": "Polar Coordinates" },
     { "time": "12:49", "title": "Add the month labels" },
-    { "time": "16:28", "title": "Time for the data" },
+    { "time": "16:26", "title": "Time for the data" },
     { "time": "17:22", "title": "Draw the spiral" },
     { "time": "18:23", "title": "Set up global variables" },
     { "time": "19:06", "title": "Map the x, y position to the data" },
