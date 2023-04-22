@@ -7,11 +7,7 @@
   "languages": ["p5.js", "JavaScript", "Processing"],
   "topics": ["translations", "symmetry", "rotations", "push/pop", "drawing"],
   "canContribute": true,
-  "relatedChallenges": [
-    "127-brownian-tree-snowflake",
-    "128-sketch-rnn-snowflakes",
-    "129-koch-fractal-snowflake"
-  ],
+  "relatedChallenges": ["127-brownian-tree-snowflake", "128-sketch-rnn-snowflakes", "129-koch-fractal-snowflake"],
   "timestamps": [
     {
       "time": "0:00:00",
@@ -52,7 +48,7 @@
         {
           "icon": "💰",
           "title": "Link to donate to the Processing Foundation",
-          "url": "https://processing.org/donate",
+          "url": "https://processing.org/donate/",
           "description": "Link to donate to the Processing Foundation"
         },
         {
@@ -67,10 +63,10 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "🎥",
-          "title": "Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-          "description": "The translate(), rotate(), push() and pop() functions are covered in this video."
+          "icon": "🚂",
+          "title": "Matrix Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🔴",

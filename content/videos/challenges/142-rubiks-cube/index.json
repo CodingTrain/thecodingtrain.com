@@ -129,7 +129,7 @@
         {
           "icon": "📹",
           "title": "peasycam",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
         },
         {
@@ -156,10 +156,10 @@
           "description": "Code Bullet video A.I. program to solve any Rubik's cube."
         },
         {
-          "icon": "🎥",
+          "icon": "🚂",
           "title": "Matrix Transformations",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM&t=0s",
-          "description": "In this video, I cover matrix \"transformations\" using p5.js."
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🎥",

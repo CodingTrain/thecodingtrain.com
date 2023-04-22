@@ -4,8 +4,8 @@
   "videoNumber": "32",
   "videoId": "",
   "date": "2016-08-16",
-  "languages": ["JavaScript", "node.js"],
-  "topics": ["agar.io", "websockets"],
+  "languages": ["JavaScript", "Node.js"],
+  "topics": ["agar.io", "WebSocket"],
   "canContribute": true,
   "relatedChallenges": ["36-blobby", "69-evolutionary-steering-behaviors"],
   "timestamps": [],
@@ -140,19 +140,19 @@
         {
           "icon": "🔗",
           "title": "Agar.io",
-          "url": "http://agar.io",
+          "url": "https://agar.io/",
           "description": "Control your cell and eat other players to grow larger! Play with millions of players around the world and try to become the biggest cell of all!"
         },
         {
           "icon": "🔗",
           "title": "Node.js",
-          "url": "https://nodejs.org/en/",
+          "url": "https://nodejs.org/en",
           "description": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine."
         },
         {
           "icon": "🔗",
           "title": "Socket.io",
-          "url": "http://socket.io/",
+          "url": "https://socket.io/",
           "description": "Bidirectional and low-latency communication for every platform."
         }
       ]
@@ -193,13 +193,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

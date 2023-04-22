@@ -3,9 +3,10 @@
   "description": "This video takes the sketch from the previous video on training your own ml5.js neural network, and shows how to save the data collected in a JSON file which can be loaded again later.",
   "videoNumber": "6.2",
   "videoId": "q6cwxORPDo8",
-  "date": "YYYY-MM-DD",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-save-neural-network-training-data",
+  "date": "2019-12-05",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["neural network", "machine learning", "saving data"],
+  "topics": ["neural network", "machine learning (ML)", "saving data"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -22,9 +23,7 @@
     {
       "title": "Save neural network training data",
       "description": "This sketch demonstrates how to save neural network training data.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/4fxtImOMz"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/4fxtImOMz" }
     }
   ],
   "groupLinks": [
@@ -34,20 +33,14 @@
         {
           "icon": "💻",
           "title": "ml5.js Neural Network",
-          "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
+          "url": "https://learn.ml5js.org/#/reference/neural-network",
           "description": "ml5 page with documentation and supporting material about ml5.neuralNetwork."
         }
       ]
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -81,8 +81,6 @@ const Track = ({ pageContext, data }) => {
           mainTitle={!isTrackPage}
         />
 
-        <div className={css.blankSep} />
-
         <VideoInfo
           video={video}
           variant="red"
@@ -204,6 +202,7 @@ export const query = graphql`
       title
       slug
       videoId
+      nebulaSlug
       description
       languages
       topics
@@ -215,6 +214,7 @@ export const query = graphql`
       parts {
         title
         videoId
+        nebulaSlug
         timestamps {
           time
           title

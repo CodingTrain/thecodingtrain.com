@@ -4,7 +4,7 @@
   "videoNumber": "105",
   "videoId": "tIXDik5SGsI",
   "date": "2018-06-04",
-  "languages": ["JavaScript", "tensorflow.js"],
+  "languages": ["JavaScript", "TensorFlow.js"],
   "topics": ["stochastic gradient descent", "polynomial regression"],
   "canContribute": true,
   "relatedChallenges": [
@@ -25,9 +25,7 @@
     {
       "title": "Polynomial Regression",
       "description": "This sketch creates an interactive simulation of polynominal regresssion.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/UdXRZxF7e"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/UdXRZxF7e" }
     }
   ],
   "groupLinks": [
@@ -37,7 +35,7 @@
         {
           "icon": "💻",
           "title": "TensorFlow.js",
-          "url": "https://js.tensorflow.org/",
+          "url": "https://www.tensorflow.org/js/",
           "description": "Webpage with reference materials and documentation about TensorFow.js"
         }
       ]
@@ -67,13 +65,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

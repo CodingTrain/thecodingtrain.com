@@ -1,15 +1,16 @@
 {
-    "title": "Pi Day",
-    "description": "Pi, which is the ratio of a circle's circumference to its diameter, is one of the most important mathematical contants.  This track is a compilation of the many challenges I have completed to calculate Pi.",
-    "videos": [
-        "challenges/95-approximating-the-value-of-pi",
-        "challenges/96-visualizing-digits-of-pi",
-        "challenges/97-book-of-pi",
-        "challenges/139-calculating-digits-of-pi-with-collisions",
-        "challenges/140-pi-leibniz",
-        "challenges/141-mandelbrot-pi",
-        "challenges/156-peeking-inside-pi",
-        "challenges/161-estimating-pi-from-random-numbers",
-        "challenges/169-pi-in-the-sky"
-    ]
-  }
+  "title": "Pi Day",
+  "description": "Pi, which is the ratio of a circle's circumference to its diameter, is one of the most important mathematical contants.  This track is a compilation of the many challenges I have completed to calculate Pi.",
+  "videos": [
+    "challenges/95-approximating-the-value-of-pi",
+    "challenges/96-visualizing-digits-of-pi",
+    "challenges/97-book-of-pi",
+    "challenges/139-calculating-digits-of-pi-with-collisions",
+    "challenges/140-pi-leibniz",
+    "challenges/141-mandelbrot-pi",
+    "challenges/156-peeking-inside-pi",
+    "challenges/161-estimating-pi-from-random-numbers",
+    "challenges/169-pi-in-the-sky",
+    "challenges/176-buffon-needle"
+  ]
+}

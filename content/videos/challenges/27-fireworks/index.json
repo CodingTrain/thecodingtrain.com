@@ -3,17 +3,10 @@
   "description": "In this 4th of July themed coding challenge, I build an HTML5 canvas fireworks simulation from scratch using the p5.js JavaScript library. I also show how to use Processing to create 3D Fireworks.",
   "videoNumber": "27",
   "videoId": "CKeyIbT3vXI",
+  "nebulaSlug": "the-coding-train-coding-challenge-27-fireworks",
   "date": "2016-07-02",
   "languages": ["JavaScript", "p5.js", "Processing"],
-  "topics": [
-    "fireworks",
-    "nature of code",
-    "oop",
-    "3d",
-    "forces",
-    "gravity",
-    "particle systems"
-  ],
+  "topics": ["fireworks", "nature of code", "object-oriented programming (OOP)", "3D", "forces", "gravity", "particle system"],
   "canContribute": true,
   "relatedChallenges": ["78-simple-particle-system"],
   "timestamps": [
@@ -60,13 +53,13 @@
         {
           "icon": "🎇",
           "title": "PixelPyros",
-          "url": "http://seb.ly/work/pixelpyros/",
+          "url": "https://seblee.co/projects/pixelpyros/",
           "description": "Spectacular interactive laser light installations"
         },
         {
           "icon": "🎥",
           "title": "PeasyCam Website",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "Documentation for the PeasyCam Processing library"
         }
       ]
@@ -84,13 +77,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

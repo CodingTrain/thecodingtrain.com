@@ -4,26 +4,27 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "T84AWnntxZA",
-  "timestamps": [],
+  "nebulaSlug": "the-coding-train-yt-1-6-acceleration-vector-the-nature-of-code",
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to the last video in Chapter 1!" },
+    { "time": "0:47", "title": "Acceleration is the change in velocity" },
+    { "time": "2:34", "title": "Motion 101 algorithm" },
+    { "time": "4:38", "title": "Limit function" },
+    { "time": "6:57", "title": "The 3 step process to add acceleration" },
+    { "time": "9:50", "title": "Suggested exercises" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Acceleration Vector",
       "description": "Creates a mover object that chases after the mouse",
       "image": "image1.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/OjCfrdWX"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/OjCfrdWX" }
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-03-22"
 }

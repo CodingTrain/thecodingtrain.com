@@ -1,11 +1,11 @@
 {
   "title": "The Book of Pi",
-  "description": "In yet another \u201cPi Day\u201d coding challenge, I attempt to generate a pdf \u201cBook of Pi\u201d with the first 10 million digits of Pi mapped to color. Processing (Java) is used for this project.",
+  "description": "In yet another “Pi Day” coding challenge, I attempt to generate a pdf “Book of Pi” with the first 10 million digits of Pi mapped to color. Processing (Java) is used for this project.",
   "videoNumber": "97",
   "videoId": "",
   "date": "2018-03-20",
   "languages": ["Processing", "Java"],
-  "topics": ["pi", "pi day", "visualization"],
+  "topics": ["Pi", "Pi day", "visualization"],
   "canContribute": true,
   "relatedChallenges": [
     "21-mandelbrot-set-with-p5js",
@@ -105,7 +105,7 @@
         {
           "icon": "🍰",
           "title": "Million Pi Digits",
-          "url": "http://www.piday.org/million/",
+          "url": "https://www.piday.org/million/",
           "description": "First one million digits of Pi"
         },
         {
@@ -141,13 +141,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

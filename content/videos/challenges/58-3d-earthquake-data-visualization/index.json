@@ -5,7 +5,7 @@
   "videoId": "dbs4IYGfAXc",
   "date": "2017-02-20",
   "languages": ["Processing"],
-  "topics": ["data visualization", "earthquake data", "3d"],
+  "topics": ["data visualization", "earthquake data", "3D"],
   "canContribute": true,
   "relatedChallenges": [
     "9-solar-system-3d-textures",
@@ -97,7 +97,7 @@
         {
           "icon": "🔗",
           "title": "USGS Earthquake Data",
-          "url": "http://earthquake.usgs.gov/data/",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/data",
           "description": "Realtime monitoring, station, and other various seismic data available for download. Access to data products to view and download."
         },
         {
@@ -115,7 +115,7 @@
         {
           "icon": "🔗",
           "title": "Nasa Earth Maps",
-          "url": "http://visibleearth.nasa.gov/view_cat.php?categoryID=1484",
+          "url": "https://visibleearth.nasa.gov/collection/1484/blue-marble",
           "description": "NASA's Visible Earth catalog of NASA images and animations of our home planet."
         },
         {
@@ -168,13 +168,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

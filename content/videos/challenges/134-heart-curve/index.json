@@ -5,17 +5,9 @@
   "videoId": "",
   "date": "2019-02-18",
   "languages": ["Processing"],
-  "topics": [
-    "heart curve",
-    "parametric equation",
-    "polar coordinates",
-    "GIF loop"
-  ],
+  "topics": ["heart curve", "parametric equation", "polar coordinates", "GIF loop"],
   "canContribute": true,
-  "relatedChallenges": [
-    "133-time-tables-cardioid-visualization",
-    "135-making-a-gif-loop-in-processing"
-  ],
+  "relatedChallenges": ["133-time-tables-cardioid-visualization", "135-making-a-gif-loop-in-processing"],
   "timestamps": [],
   "parts": [
     {
@@ -93,7 +85,7 @@
       "description": "This sketch creates a beating heart GIF.",
       "image": "img2.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/egvieHyt0",
+        "p5": "https://editor.p5js.org/codingtrain/sketches/C0kJ-BjYW",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/134_Heart_Curve_2/Processing/CC_134_Heart_Curve_2"
       }
     }
@@ -105,13 +97,13 @@
         {
           "icon": "❤️",
           "title": "Heart Curve Formulas",
-          "url": "http://mathworld.wolfram.com/HeartCurve.html",
+          "url": "https://mathworld.wolfram.com/HeartCurve.html",
           "description": "Webpage with parametric equations for different heart curves."
         },
         {
           "icon": "🖌",
           "title": "Daily Art",
-          "url": "http://sasj.tumblr.com/",
+          "url": "https://sasj.tumblr.com/",
           "description": "Saskia Freeke tumblr site with daily art."
         },
         {

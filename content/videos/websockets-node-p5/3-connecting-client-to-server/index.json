@@ -4,16 +4,25 @@
   "videoNumber": "3",
   "videoId": "HZWmrt3Jy10",
   "date": "2016-04-13",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": ["node", "sockets", "server side programming", "socket.io"],
+  "languages": ["JavaScript", "p5.js", "Node.js"],
+  "topics": ["Node.js", "sockets", "server-side programming", "Socket.IO"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "What we have done so far!" },
     { "time": "0:20", "title": "Installing Socket.io" },
     { "time": "1:14", "title": "Creating socket connections!" },
-    { "time": "4:36", "title": "Referencing the socket library in the client code" },
-    { "time": "7:25", "title": "Tracking every new socket connection to our web server" },
-    { "time": "8:36", "title": "A recap and outlining the next steps before we go!" }
+    {
+      "time": "4:36",
+      "title": "Referencing the socket library in the client code"
+    },
+    {
+      "time": "7:25",
+      "title": "Tracking every new socket connection to our web server"
+    },
+    {
+      "time": "8:36",
+      "title": "A recap and outlining the next steps before we go!"
+    }
   ],
   "codeExamples": [],
   "groupLinks": [
@@ -30,13 +39,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

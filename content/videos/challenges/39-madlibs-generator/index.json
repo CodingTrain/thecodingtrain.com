@@ -5,13 +5,9 @@
   "videoId": "ziBO-U2_t3k",
   "date": "2016-09-26",
   "languages": ["JavaScript", "p5.js", "tabletop.js"],
-  "topics": ["mad libs", "google forms", "data collecting"],
+  "topics": ["Mad Libs game", "Google Forms", "data collecting"],
   "canContribute": true,
-  "relatedChallenges": [
-    "37-diastic-machine",
-    "39-madlibs-generator",
-    "42-markov-chain-name-generator"
-  ],
+  "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator", "42-markov-chain-name-generator"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction and what Mad Libs is" },
     { "time": "2:15", "title": "Making the Google Form" },
@@ -62,7 +58,7 @@
         {
           "icon": "💻",
           "title": "Programming from A to Z Github",
-          "url": "https://github.com/shiffman/A2Z-F16",
+          "url": "https://github.com/Programming-from-A-to-Z/A2Z-F16",
           "description": "Syllabus for my \"Programming from A to Z\" class, Fall 2016"
         }
       ]
@@ -80,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

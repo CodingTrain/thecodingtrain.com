@@ -5,18 +5,9 @@
   "videoId": "l0HoJHc-63Q",
   "date": "2019-06-18",
   "languages": ["p5.js", "ml5.js"],
-  "topics": [
-    "chrome dinosaur game",
-    "machine learning",
-    "sound classification",
-    "speech commands"
-  ],
+  "topics": ["Chrome dinosaur game", "machine learning (ML)", "sound classification", "speech commands"],
   "canContribute": true,
-  "relatedChallenges": [
-    "41-clappy-bird",
-    "31-flappy-bird",
-    "138-angry-birds-with-matterjs"
-  ],
+  "relatedChallenges": ["41-clappy-bird", "31-flappy-bird", "138-angry-birds-with-matterjs"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:56", "title": "Unicorn class" },
@@ -89,13 +80,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

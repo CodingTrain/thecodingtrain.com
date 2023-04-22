@@ -4,15 +4,24 @@
   "videoNumber": "4",
   "videoId": "i6eP1Lw4gZk",
   "date": "2016-04-13",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": ["node", "sockets", "server side programming", "express.js", "socket.io"],
+  "languages": ["JavaScript", "p5.js", "Node.js"],
+  "topics": ["Node.js", "sockets", "server-side programming", "express.js", "Socket.IO"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction!" },
     { "time": "0:33", "title": "Sending messages from the clients" },
-    { "time": "3:02", "title": "Recieving messages from the clients by the web server" },
-    { "time": "7:17", "title": "Recieving messages from the server by the clients" },
-    { "time": "8:39", "title": "Playing around with the shared drawing canvases!" },
+    {
+      "time": "3:02",
+      "title": "Recieving messages from the clients by the web server"
+    },
+    {
+      "time": "7:17",
+      "title": "Recieving messages from the server by the clients"
+    },
+    {
+      "time": "8:39",
+      "title": "Playing around with the shared drawing canvases!"
+    },
     { "time": "9:40", "title": "A full recap and conclusion!" }
   ],
   "codeExamples": [
@@ -20,20 +29,12 @@
       "title": "Shared Drawing Canvas",
       "description": "Link to the code for creating a shared HTML5 canvas across multiple browser sessions.",
       "image": "shared-drawing-canvas.png",
-      "urls": {
-        "p5": "https://github.com/CodingTrain/sockets-and-p5"
-      }
+      "urls": { "p5": "https://github.com/CodingTrain/sockets-and-p5" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

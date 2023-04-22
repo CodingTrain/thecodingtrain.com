@@ -4,24 +4,30 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "DHPfoqiE4yQ",
-  "timestamps": [],
+  "nebulaSlug": "coding-train-56-vector-dot-product-scalar-projection-the-nature-of-code",
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome! What are we looking at today?" },
+    { "time": "1:01", "title": "What is scalar projection?" },
+    { "time": "3:04", "title": "How do we use dot product to find the scalar projection?" },
+    { "time": "6:13", "title": "Let's create a scalarProjection() function." },
+    { "time": "8:01", "title": "Modifying the function to be vectorProjection()." },
+    { "time": "9:42", "title": "How is this useful for path following?" },
+    { "time": "11:39", "title": "Let's see if it works for finding a point on a path?" },
+    { "time": "13:04", "title": "Thanks for watching! See you in the next video about path following." }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Angle Between",
       "description": "Calculating the angle between the mouse and a line on the canvas",
       "image": "angle.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ORP5Yx7JX"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ORP5Yx7JX" }
     },
     {
       "title": "Scalar Projection",
       "description": "Projecting a point under the mouse onto a line",
       "image": "projection.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/c4jmHLFQI"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/c4jmHLFQI" }
     }
   ],
   "groupLinks": [
@@ -30,7 +36,7 @@
       "links": [
         {
           "title": "Path Following",
-          "url": "https://editor.p5js.org/natureofcode/sketches/SkMI894DX",
+          "url": "https://editor.p5js.org/codingtrain/sketches/f2ai9bTCt",
           "description": "Nature of Code example on making vehicles follow a path"
         },
         {
@@ -72,13 +78,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-10-13"
 }

@@ -2,7 +2,7 @@
   "title": "Resolving Merge Conflicts",
   "description": "In this video, I look at how to resolve a “merge conflict” using the GitHub interface.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "JtIX3HJKwfo",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -50,13 +50,8 @@
   ],
   "canContribute": false,
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2018-02-15"
 }

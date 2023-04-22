@@ -5,9 +5,9 @@
   "videoId": "IIrC5Qcb2G4",
   "date": "2017-03-27",
   "languages": ["Processing"],
-  "topics": ["pong video game", "polar coordinates"],
+  "topics": ["Atari Pong game", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["3-snake-game", "46-asteroids", "147-chrome-dinosaur-game"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:05", "title": "Elements of Pong" },
@@ -41,12 +41,6 @@
           "title": "Pong on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Pong",
           "description": "Wikipedia page with background and references on Pong."
-        },
-        {
-          "icon": "🏓",
-          "title": "Paddle angles drawing",
-          "url": "https://i1.wp.com/zekechan.net/wp-content/uploads/2015/07/pong-05b.png?resize=600%2C500",
-          "description": "Illustration of mapping for angles."
         }
       ]
     },
@@ -75,13 +69,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2018-10-31",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["logo", "logo interpreter", "turtle graphics"],
+  "topics": ["Logo", "Logo interpreter", "turtle graphics"],
   "canContribute": true,
   "relatedChallenges": ["16-l-system-fractal-trees", "30-phyllotaxis"],
   "timestamps": [],
@@ -79,7 +79,7 @@
         {
           "icon": "📁",
           "title": "Logo Repo",
-          "url": "https://github.com/shiffman/Logo",
+          "url": "https://github.com/CodingTrain/Logo",
           "description": "Repo for implementation of Logo in JavaScript p5"
         },
         {
@@ -91,13 +91,13 @@
         {
           "icon": "📝",
           "title": "Logo Tutorial",
-          "url": "http://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
+          "url": "https://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html",
           "description": "A tutorial on Logo from Brown University"
         },
         {
           "icon": "🐢",
           "title": "Logo Foundation",
-          "url": "http://el.media.mit.edu/logo-foundation/",
+          "url": "https://el.media.mit.edu/logo-foundation/",
           "description": "The Logo Foundation is a nonprofit educational organization devoted to supporting educators, parents, and students in their engagement with creative computing."
         }
       ]
@@ -106,10 +106,10 @@
       "title": "Videos",
       "links": [
         {
-          "icon": "📓",
-          "title": "Transformation Tutorial",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-          "description": "A coding train tutorial on push/pop and other transformations"
+          "icon": "🚂",
+          "title": "Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "📐",
@@ -144,13 +144,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

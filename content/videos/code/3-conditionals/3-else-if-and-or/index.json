@@ -3,6 +3,7 @@
   "description": "This video covers the 'else' and 'else if' control structures as well as the logical operators AND (&&) and OR (||).",
   "videoNumber": "3.3",
   "videoId": "r2S7j54I68c",
+  "nebulaSlug": "coding-train-3-3-else-and-else-if-and-and-or-p5-js-tutorial",
   "date": "2015-09-10",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "boolean", "if statement"],

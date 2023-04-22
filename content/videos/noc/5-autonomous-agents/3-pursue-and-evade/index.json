@@ -4,56 +4,57 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "Q4MU7pkDYmQ",
-  "timestamps": [],
+  "nebulaSlug": "coding-train-53-flee-pursue-evade-the-nature-of-code",
+  "timestamps": [
+    { "time": "0:00", "title": "Hello Again!" },
+    { "time": "0:12", "title": "What's my quest?" },
+    { "time": "1:08", "title": "30 seconds on the clock, let's add flee!" },
+    { "time": "1:35", "title": "How could we approach this in a smarter way?" },
+    { "time": "3:13", "title": "Explain! What is pursue?" },
+    { "time": "5:54", "title": "We need a the target to be a vehicle." },
+    { "time": "6:42", "title": "Let's add pursue now." },
+    { "time": "9:12", "title": "Now we can add evade!" },
+    { "time": "10:03", "title": "What if we pursue and evade?" },
+    { "time": "11:09", "title": "Let's refine the pursue example a little." },
+    { "time": "12:09", "title": "Ideas! What will you make?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Flee",
       "description": "Creating an agent that avoids the mouse",
       "image": "flee.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/v-VoQtETO" }
     },
     {
       "title": "Pursue",
       "description": "Adding a mover target for the pursuer to chase",
       "image": "pursue.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Lx3PJMq4m"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Lx3PJMq4m" }
     },
     {
       "title": "Evade",
       "description": "Creating an agent that avoids a mover object",
       "image": "evade.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/X3ph02Byx"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/X3ph02Byx" }
     },
     {
       "title": "Pursue Boucing Ball",
       "description": "Pursuing a ball that bounces off the edge of the canvas",
       "image": "bounce.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/itlyDq3ZB"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/itlyDq3ZB" }
     },
     {
       "title": "Pursue Wander",
       "description": "Using the wander behavior to steer the mover object",
       "image": "wander.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EEnmY04lt"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EEnmY04lt" }
     },
     {
       "title": "Pursue Slider Prediction",
       "description": "Adding a slider to control the mover object's behavior",
       "image": "slider.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/l7MgPpTUB"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/l7MgPpTUB" }
     }
   ],
   "groupLinks": [
@@ -79,13 +80,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-06-24"
 }

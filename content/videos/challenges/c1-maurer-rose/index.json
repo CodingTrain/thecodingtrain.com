@@ -3,9 +3,10 @@
   "description": "Coding in the Cabana is a series where I attempt challenges from my garden cabana in Brooklyn, NY. In this episode, I code a visualization of the Maurer Rose pattern in JavaScript (p5.js).",
   "videoNumber": "C1",
   "videoId": "4uU9lZ-HSqA",
+  "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-1-maurer-rose",
   "date": "2019-10-11",
   "languages": ["p5.js"],
-  "topics": ["maurer rose", "polar coordinates"],
+  "topics": ["Maurer rose", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [
     "55-mathematical-rose-patterns",
@@ -45,13 +46,13 @@
         {
           "icon": "📐",
           "title": "Maurer Rose Wolfram MathWorld",
-          "url": "http://mathworld.wolfram.com/MaurerRose.html",
+          "url": "https://mathworld.wolfram.com/MaurerRose.html",
           "description": "Mathematical description of the maurer rose."
         },
         {
           "icon": "📐",
           "title": "Starr Rose Wolfram MathWorld",
-          "url": "http://mathworld.wolfram.com/StarrRose.html",
+          "url": "https://mathworld.wolfram.com/StarrRose.html",
           "description": "Mathematical description of the starr rose."
         }
       ]
@@ -75,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

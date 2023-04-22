@@ -4,16 +4,23 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "ttz05d8DSOs",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to another video about vectors!" },
+    { "time": "4:57", "title": "The normalize function" },
+    { "time": "6:01", "title": "Vector notation" },
+    { "time": "6:49", "title": "The mag() function" },
+    { "time": "9:38", "title": "Normalizing a vector by dividing by magnitude" },
+    { "time": "12:12", "title": "setMag()" },
+    { "time": "12:39", "title": "Source code for the normalize function" },
+    { "time": "14:03", "title": "See you in the next video!" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Unit Vector (Normalize)",
       "description": "Creates a unit vector that points at the mouse",
       "image": "image1.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/U4ezFLIZ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/U4ezFLIZ" }
     }
   ],
   "groupLinks": [
@@ -49,13 +56,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-03-21"
 }

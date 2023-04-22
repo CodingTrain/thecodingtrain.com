@@ -7,12 +7,7 @@
   "languages": ["Processing"],
   "topics": ["solar system", "transformations"],
   "canContribute": true,
-  "relatedChallenges": [
-    "8-solar-system-3d",
-    "9-solar-system-3d-textures",
-    "61-fractal-spirograph",
-    "144-2d-black-hole-visualization"
-  ],
+  "relatedChallenges": ["8-solar-system-3d", "9-solar-system-3d-textures", "61-fractal-spirograph", "144-2d-black-hole-visualization"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:39", "title": "Planet class" },
@@ -38,7 +33,7 @@
       "image": "solar2d.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IMJv_QwXy",
-        "processing": "https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_007_SolarSystemGenerator/Processing"
+        "processing": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_007_SolarSystemGenerator/Processing"
       }
     }
   ],

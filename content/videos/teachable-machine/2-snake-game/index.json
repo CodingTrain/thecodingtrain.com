@@ -1,0 +1,59 @@
+{
+  "title": "Teachable Machine 2: Snake Game",
+  "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)!  Train a computer to recognize your own images, sounds, & poses. In this video, I demonstrate how to control an interaction with an image classification machine learning model to play the snake game.",
+  "videoNumber": "2",
+  "nebulaSlug": "the-coding-train-yt-teachable-machine-2-snake-game",
+  "videoId": "UPgxnGC8oBU",
+  "date": "2019-11-08",
+  "languages": ["JavaScript", "p5.js", "ml5.js"],
+  "topics": ["machine learning (ML)", "ml5.js", "Snake game", "games"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Review" },
+    { "time": "1:07", "title": "Train the model" },
+    { "time": "2:30", "title": "Modify the code of the snake game" },
+    { "time": "3:27", "title": "Include the ml5 library in the html" },
+    { "time": "4:40", "title": "Flip the video" },
+    { "time": "6:07", "title": "Control the snake with the labels" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Final Code",
+      "description": "Final code of the Snake Game with the Teachable Machine.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/tgHyqeGK6" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Teachable Machine",
+          "url": "https://teachablemachine.withgoogle.com/",
+          "description": "A web-based tool that makes creating machine learning models fast, easy, and accessible to everyone."
+        },
+        {
+          "icon": "💾",
+          "title": "Tensor Flow",
+          "url": "https://www.tensorflow.org/js",
+          "description": "A library for machine learning in JavaScript."
+        },
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "title": "Coding Challenge 115: Snake Game Redux",
+          "url": "/challenges/115-snake-game-redux",
+          "description": "Snake Game in the web editor for p5.js"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

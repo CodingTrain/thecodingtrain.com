@@ -45,20 +45,11 @@
     },
     {
       "title": "Functions",
-      "videos": [
-        "code/5-functions/1-basics",
-        "code/5-functions/2-arguments",
-        "code/5-functions/3-return"
-      ]
+      "videos": ["code/5-functions/1-basics", "code/5-functions/2-arguments", "code/5-functions/3-return"]
     },
     {
       "title": "Objects",
-      "videos": [
-        "code/6-objects/1-intro",
-        "code/6-objects/2-classes",
-        "code/6-objects/3-constructor",
-        "code/6-objects/4-editor-js-files"
-      ]
+      "videos": ["code/6-objects/1-intro", "code/6-objects/2-classes", "code/6-objects/3-constructor", "code/6-objects/4-editor-js-files"]
     },
     {
       "title": "Arrays",

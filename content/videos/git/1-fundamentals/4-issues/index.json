@@ -2,7 +2,7 @@
   "title": "GitHub Issues",
   "description": "In this fourth video of the Git and GitHub for Poets tutorial series, I cover the concept of GitHub Issues.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "WMykv2ZMyEQ",
   "timestamps": [
     { "time": "0:00", "title": "What are issues?" },
@@ -15,9 +15,7 @@
     {
       "title": "Rainbow Poem",
       "description": "GitHub repo for the Rainbow Poem",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Rainbow-Poem"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/Rainbow-Poem" }
     }
   ],
   "groupLinks": [
@@ -40,13 +38,8 @@
   ],
   "canContribute": false,
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-04-24"
 }

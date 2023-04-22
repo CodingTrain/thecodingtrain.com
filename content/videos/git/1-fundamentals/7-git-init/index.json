@@ -2,7 +2,7 @@
   "title": "git init and git add",
   "description": "In part 7 of Git and GitHub for Poets, I show you how to, instead of cloning a repository from GitHub, create a repository locally using the “git init” command and adding files to this repository using the “git add” command.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "9p2d-CuVlgc",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -17,9 +17,7 @@
     {
       "title": "Rainbow Dance",
       "description": "GitHub repo for the Rainbow Dance",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Rainbow-Dance"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/Rainbow-Dance" }
     }
   ],
   "groupLinks": [
@@ -48,13 +46,8 @@
   ],
   "canContribute": false,
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-05-17"
 }

@@ -6,6 +6,7 @@ import ShareButton from '../ShareButton';
 import YouTubeVideo from '../YouTubeVideo';
 import TimestampTimeline from '../TimestampTimeline';
 import OverviewTimeline from './OverviewTimeline';
+import NebulaVideoRow from '../NebulaVideoRow';
 
 import { filteredPath } from '../../utils';
 import { useChallengePartIndex } from '../../hooks';
@@ -27,6 +28,7 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
 };
 
 const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
+  const variant = 'red';
   const chapters = track.chapters ? track.chapters : [{ videos: track.videos }];
 
   const { title, topics, languages } = video;
@@ -34,6 +36,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
   const partIndex = useChallengePartIndex();
   const part = video.parts?.[partIndex];
   const videoId = part?.videoId ?? video.videoId;
+  const nebulaSlug = part?.nebulaSlug ?? video.nebulaSlug;
   const timestamps = part?.timestamps ?? video.timestamps;
 
   const [videoIndex, trackTotal] = getOverallPositionInTrack(
@@ -80,18 +83,22 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             className={css.tags}
             heading="Languages"
             items={languages}
-            linkTo={(value) => filteredPath('tracks', value, 'all')}
+            linkTo={(value) =>
+              filteredPath('tracks', { lang: value, topic: 'all' })
+            }
             headerType="h3"
           />
           <Tags
             className={css.tags}
             heading="Topics"
             items={topics}
-            linkTo={(value) => filteredPath('tracks', 'all', value)}
+            linkTo={(value) =>
+              filteredPath('tracks', { lang: 'all', topic: value })
+            }
             headerType="h3"
           />
 
-          <ShareButton className={css.share} variant="red" text="" />
+          <ShareButton className={css.share} variant={variant} text="" />
           <div
             className={css.timelinesToggle}
             onClick={() => setShowTimeline((v) => !v)}
@@ -156,7 +163,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
                   className={cn(css.timestampsTimeline, {
                     [css.hide]: !showTimestamps
                   })}
-                  variant="red"
+                  variant={variant}
                   timestamps={timestamps}
                   updateTimestamp={updateTimestamp}
                 />
@@ -174,6 +181,8 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
           </nav>
         </div>
       </div>
+
+      <NebulaVideoRow nebulaSlug={nebulaSlug} variant={variant} />
     </div>
   );
 };

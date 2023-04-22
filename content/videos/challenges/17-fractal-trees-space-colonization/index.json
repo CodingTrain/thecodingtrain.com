@@ -5,14 +5,9 @@
   "videoId": "kKT0v3qhIQY",
   "date": "2016-05-31",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "generative art", "space colonization"],
+  "topics": ["fractal", "tree", "generative art", "space colonization"],
   "canContribute": true,
-  "relatedChallenges": [
-    "14-fractal-trees-recursive",
-    "18-3d-fractal-trees",
-    "77-recursion",
-    "174-graphics-applesoft-basic"
-  ],
+  "relatedChallenges": ["14-fractal-trees-recursive", "18-3d-fractal-trees", "77-recursion", "174-graphics-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:34", "title": "The space colonization algorithm" },
@@ -76,7 +71,7 @@
         {
           "icon": "📓",
           "title": "Space Colonization Algorithm",
-          "url": "https://algorithmicbotany.org/papers/colonization.egwnp2007.html",
+          "url": "http://algorithmicbotany.org/papers/colonization.egwnp2007.html",
           "description": "by Adam Runions, Brendan Lane, and Przemyslaw Prusinkiewicz"
         },
         {

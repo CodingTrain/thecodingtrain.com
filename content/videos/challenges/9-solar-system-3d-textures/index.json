@@ -3,9 +3,9 @@
   "description": "In part 3 of this coding challenge, using Processing, I add textures to the 3D objects created in part 2. The PShape class and createShape() functions are covered.",
   "videoNumber": "9",
   "videoId": "FGAwi7wpU8c",
-  "date": "2016-05-01",
+  "date": "2016-05-02",
   "languages": ["Processing"],
-  "topics": ["solar system", "3d", "textures"],
+  "topics": ["solar system", "3D", "textures"],
   "canContribute": true,
   "relatedChallenges": ["7-solar-system-2d", "8-solar-system-3d"],
   "timestamps": [
@@ -35,7 +35,7 @@
       "links": [
         {
           "title": "PeasyCam library",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
         },
         {
@@ -64,13 +64,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

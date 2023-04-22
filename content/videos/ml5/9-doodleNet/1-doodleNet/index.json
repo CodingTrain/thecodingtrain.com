@@ -3,81 +3,40 @@
   "description": "Quick, draw! In this video, I demonstrate how to use the DoodleNet pre-trained machine learning model to classify drawings of cats, strawberries, and other common doodles in JavaScript (with p5.js and ml5.js).",
   "videoNumber": "9.1",
   "videoId": "ABN_DWnM5GQ",
-  "date": "2020-12-01",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-classifying-drawings-with-doodlenet",
+  "date": "2020-12-09",
   "languages": ["ml5.js", "JavaScript"],
-  "topics": ["DoodleNet", "machine learning", "doodle classifier"],
+  "topics": ["DoodleNet", "machine learning (ML)", "doodle classifier"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "1:35",
-      "title": "doodleClassifier"
-    },
-    {
-      "time": "3:24",
-      "title": "Console logging results"
-    },
-    {
-      "time": "4:31",
-      "title": "ResultsDiv and loop classification"
-    },
-    {
-      "time": "6:51",
-      "title": "Drawing a cat"
-    },
-    {
-      "time": "8:17",
-      "title": "Make it work with video"
-    },
-    {
-      "time": "8:59",
-      "title": "Draw a strawberry"
-    },
-    {
-      "time": "9:11",
-      "title": "Add threshold"
-    },
-    {
-      "time": "9:44",
-      "title": "Try a thicker pen"
-    },
-    {
-      "time": "10:26",
-      "title": "Threshold on/off"
-    },
-    {
-      "time": "10:51",
-      "title": "Draw a snowman"
-    },
-    {
-      "time": "11:13",
-      "title": "Wrap up!"
-    }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:35", "title": "doodleClassifier" },
+    { "time": "3:24", "title": "Console logging results" },
+    { "time": "4:31", "title": "ResultsDiv and loop classification" },
+    { "time": "6:51", "title": "Drawing a cat" },
+    { "time": "8:17", "title": "Make it work with video" },
+    { "time": "8:59", "title": "Draw a strawberry" },
+    { "time": "9:11", "title": "Add threshold" },
+    { "time": "9:44", "title": "Try a thicker pen" },
+    { "time": "10:26", "title": "Threshold on/off" },
+    { "time": "10:51", "title": "Draw a snowman" },
+    { "time": "11:13", "title": "Wrap up!" }
   ],
   "codeExamples": [
     {
       "title": "Starting Template",
       "description": "This sketch creates a doodling canvas.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/AHgkwgPdc"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/AHgkwgPdc" }
     },
     {
       "title": "Mouse",
       "description": "This sketch classifies doodles created with a mouse.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/6LLnGY1VY"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/6LLnGY1VY" }
     },
     {
       "title": "Video",
       "description": "This sketch classifies images from a webcam.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/fxFKOn3il"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/fxFKOn3il" }
     }
   ],
   "groupLinks": [
@@ -123,13 +82,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

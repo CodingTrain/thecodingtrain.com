@@ -3,10 +3,12 @@
   "description": "This project is a collaboration with Grady Hillhouse at the Practical Engineering YouTube channel. This is my attempt to code a simulation of Horizontal Directional Drilling, laparoscopic surgery for the earth!",
   "videoNumber": "172",
   "videoId": "FfCBNL6lWK0",
+  "nebulaSlug": "codingtrain-coding-challenge-172-horizontal-directional-drilling",
   "date": "2022-07-05",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["engineering", "vectors"],
   "canContribute": true,
+  "relatedChallenges": ["115-snake-game-redux", "170-monty-hall-problem"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:39", "title": "Check out Practical Engineering!" },
@@ -79,9 +81,9 @@
         },
         {
           "icon": "🚂",
-          "title": "Transformations in p5.js",
-          "url": "https://youtu.be/o9sgjuh-CBM",
-          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+          "title": "Matrix Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🔴",

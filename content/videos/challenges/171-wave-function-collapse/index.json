@@ -3,10 +3,12 @@
   "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images. In this video (recorded over 3 live streams) I attempt the tiled model and explore a variety of solutions to the algorithm in JavaScript with p5.js.",
   "videoNumber": "171",
   "videoId": "rI_y2GAlQFM",
+  "nebulaSlug": "codingtrain-coding-challenge-171-wave-function-collapse",
   "date": "2022-07-03",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "generative art"],
   "canContribute": true,
+  "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk", "165-slide-puzzle"],
   "timestamps": [
     { "time": "0:00", "title": "Day 1! Wave Function Collapse!" },
     { "time": "2:00", "title": "Entropy in Sudoku." },
@@ -195,10 +197,10 @@
           "description": "Coding Train video covering how to use higher order array functions like filter() and map() in JavaScript."
         },
         {
-          "icon": "🎥",
-          "title": "Transformations in p5.js",
-          "url": "https://youtu.be/o9sgjuh-CBM",
-          "description": "Coding Train video covering how to use translate(), rotate(), push() and pop()."
+          "icon": "🚂",
+          "title": "Matrix Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🎥",

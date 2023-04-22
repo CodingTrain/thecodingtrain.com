@@ -7,11 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["chaos game", "fractal", "seed points", "probability"],
   "canContribute": true,
-  "relatedChallenges": [
-    "2-menger-sponge",
-    "126-toothpicks",
-    "129-koch-fractal-snowflake"
-  ],
+  "relatedChallenges": ["2-menger-sponge", "126-toothpicks", "129-koch-fractal-snowflake"],
   "timestamps": [],
   "parts": [
     {
@@ -226,7 +222,7 @@
         {
           "icon": "🤖",
           "title": "ROBERT KRULWICH",
-          "url": "https://www.wnycstudios.org/shows/radiolab",
+          "url": "https://www.wnycstudios.org/people/robert-krulwich",
           "description": "Radiolab prodcasts"
         }
       ]

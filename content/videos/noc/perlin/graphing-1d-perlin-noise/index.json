@@ -4,32 +4,34 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "y7sgcFhk6ZM",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "What are we doing?" },
+    { "time": "1:20", "title": "Why are the x and y values equal?" },
+    { "time": "2:20", "title": "Using two x offset values" },
+    { "time": "5:02", "title": "Graph the values" },
+    { "time": "9:05", "title": "Add an increment variable" },
+    { "time": "9:46", "title": "Moving across the perlin noise space" },
+    { "time": "12:00", "title": "Noisy sine example" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Adding Y-axis",
       "description": "Using 1D perlin noise to generate two coordinates",
       "image": "perlin.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/nCYG2SCNq"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/nCYG2SCNq" }
     },
     {
       "title": "Noise Graph",
       "description": "Graphing 1D perlin noise",
       "image": "noise.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EZeHXBhei"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EZeHXBhei" }
     },
     {
       "title": "Noisy Sine",
       "description": "Using 1D perlin noise to create a noisy sine wave",
       "image": "sine.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/M_kuAXwV2"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/M_kuAXwV2" }
     }
   ],
   "groupLinks": [
@@ -50,13 +52,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-06-24"
 }

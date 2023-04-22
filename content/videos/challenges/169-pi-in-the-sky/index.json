@@ -5,7 +5,7 @@
   "videoId": "_H9JIwWP7HQ",
   "date": "2022-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["PI", "game", "pi day"],
+  "topics": ["Pi", "games", "Pi day"],
   "canContribute": true,
   "relatedChallenges": [
     "3-snake-game",
@@ -20,17 +20,13 @@
       "title": "Pi in the Sky",
       "description": "Full Pi in the Sky game in p5.js",
       "image": "pie.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ZZ53xKJyF"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ZZ53xKJyF" }
     },
     {
       "title": "Illustrated Version",
       "description": "Pi in the Sky game with colorful background and sprites",
       "image": "illustrated.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/U11UYbgVc"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/U11UYbgVc" }
     }
   ],
   "groupLinks": [
@@ -67,10 +63,10 @@
           "description": "Introduction video for the Code! Programming for Beginners with p5.js series"
         },
         {
-          "icon": "🎥",
-          "title": "Transformations in p5.js",
-          "url": "https://www.youtube.com/watch?v=o9sgjuh-CBM",
-          "description": "Coding Train video on the translate(), rotate(), push() and pop() functions to perform matrix transformations"
+          "icon": "🚂",
+          "title": "Transformations",
+          "url": "/tracks/transformations-in-p5",
+          "description": "In this three part tutorial, I cover matrix \"transformations\" using p5.js."
         },
         {
           "icon": "🎥",
@@ -82,13 +78,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

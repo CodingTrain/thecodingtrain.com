@@ -3,9 +3,9 @@
   "description": "This video covers the basics of Node.js. What is Node.js? What is server-side programming? What might you use it for and how do you get started?  Basic unix commands and working with terminal are covered.",
   "videoNumber": "15.1",
   "videoId": "RF5_MPSNAtU",
-  "date": "2018-10-08",
-  "languages": ["node.js"],
-  "topics": ["twitter", "bot"],
+  "date": "2015-11-12",
+  "languages": ["Node.js"],
+  "topics": ["Twitter", "bot"],
   "canContribute": false,
   "timestamps": [
     { "time": "1:35", "title": "Servers" },
@@ -40,7 +40,7 @@
         {
           "icon": "📰",
           "title": "NY Magazine on bots",
-          "url": "http://nymag.com/following/2015/11/12-weirdest-funniest-smartest-twitter-bots.html",
+          "url": "https://nymag.com/intelligencer/2015/11/12-weirdest-funniest-smartest-twitter-bots.html",
           "description": "12 Weird, Excellent Twitter Bots Chosen by Twitter’s Best Bot-Makers"
         }
       ]
@@ -62,13 +62,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

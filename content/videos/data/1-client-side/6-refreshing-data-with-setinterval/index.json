@@ -3,8 +3,9 @@
   "description": "The lesson covers on refreshing new data from the ISS API and updating the HTML DOM accordingly once per second with setInterval().",
   "videoNumber": "1.6",
   "languages": ["JavaScript", "leaflet.js"],
-  "topics": ["setInterval", "api", "mapping"],
+  "topics": ["setInterval", "API", "mapping"],
   "videoId": "jKQUHGpOHqg",
+  "nebulaSlug": "codingtrain-1-6-refreshing-data-with-setinterval-working-with-data-and-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Welcome! What have we done so far?" },
@@ -76,20 +77,15 @@
         {
           "icon": "💾",
           "title": "setInterval()",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/setInterval",
           "description": "setInterval on the MDN Web Docs"
         }
       ]
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-05-29"
 }

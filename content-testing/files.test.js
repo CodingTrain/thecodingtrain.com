@@ -18,10 +18,9 @@ const compareFilePresence = (dir, reference, folder) => {
   if (testLocally && reference.isFileSensitive) {
     for (let file in folder.files) {
       test(`Should this file be here: ${folder.files[file].path}`, () =>
-        expect(file).toBeOneOf([
-          ...Object.keys(reference.files),
-          ...fileExceptions
-        ]));
+        expect([...Object.keys(reference.files), ...fileExceptions]).toContain(
+          file
+        ));
     }
   }
   if (testLocally) {
@@ -41,7 +40,7 @@ const compareFilePresence = (dir, reference, folder) => {
             folder.files[file] !== undefined ||
               folder.files[reference.files[file].requiredAlternative] !==
                 undefined
-          ).toBeTrue());
+          ).toEqual(true));
     }
   }
   if (testLocally) {

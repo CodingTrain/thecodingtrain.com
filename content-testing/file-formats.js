@@ -8,7 +8,11 @@ const video = {
       videoNumber: { type: 'string' },
       videoId: { isRequired: true, type: 'string' },
       nebulaSlug: { isRequired: false, type: 'string' },
-      date: { type: 'string' },
+      canonicalTrack: { type: 'string' },
+      date: {
+        isRequired: true,
+        type: 'string'
+      },
       languages: { type: 'array', content: { type: 'string' } },
       topics: { type: 'array', content: { type: 'string' } },
       canContribute: { type: 'boolean' },
@@ -30,6 +34,7 @@ const video = {
           properties: {
             title: { isRequired: true, type: 'string' },
             videoId: { isRequired: true, type: 'string' },
+            nebulaSlug: { isRequired: false, type: 'string' },
             timestamps: {
               type: 'array',
               content: {

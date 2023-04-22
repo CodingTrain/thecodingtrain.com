@@ -5,7 +5,7 @@
   "videoId": "MfxBfRD0FVU",
   "date": "2019-03-01",
   "languages": ["JavaScript"],
-  "topics": ["inheritance", "oop"],
+  "topics": ["inheritance", "object-oriented programming (OOP)"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Inheritance in JavaScript" },
@@ -42,9 +42,7 @@
       "title": "Inheritance",
       "description": "Demonstration of Inheritance in OOP.",
       "image": "",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/52LIIRRCa"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/52LIIRRCa" }
     }
   ],
   "groupLinks": [
@@ -73,13 +71,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

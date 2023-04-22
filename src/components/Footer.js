@@ -61,7 +61,7 @@ const Footer = () => {
         className={cn(css.box)}
         aria-labelledby="passenger-showcase-navigation">
         <h3 id="passenger-showcase-navigation">
-          <Link to="/#passenger-showcase">Passenger Showcase!</Link>
+          <Link to="/showcase">Passenger Showcase!</Link>
         </h3>
         <div className={css.action}>
           <p>
@@ -111,7 +111,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="https://www.instagram.com/the.coding.train"
+              href="https://www.instagram.com/the.coding.train/"
               aria-label="Instagram">
               <Instagram width={30} />
               <span>Instagram</span>
@@ -168,7 +168,7 @@ const Footer = () => {
         <ul>
           <li className={css.title}>Passengers</li>
           <li>
-            <Link to="/#passenger-showcase">Showcase</Link>
+            <Link to="/showcase">Showcase</Link>
           </li>
           <li>
             <a href="https://thecodingtrain.com/discord">Discord</a>
@@ -216,7 +216,7 @@ const Footer = () => {
         <span>
           2016-{new Date().getFullYear()} The Coding Train. All rights reserved.
           Built in collaboration with{' '}
-          <a href="https://designsystems.international" {...externalLink}>
+          <a href="https://designsystems.international/" {...externalLink}>
             Design System International
           </a>
           .

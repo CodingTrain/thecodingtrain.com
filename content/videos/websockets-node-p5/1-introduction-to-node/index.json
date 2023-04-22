@@ -4,11 +4,14 @@
   "videoNumber": "1",
   "videoId": "bjULmG8fqc8",
   "date": "2016-04-13",
-  "languages": ["JavaScript", "p5.js", "node.js"],
-  "topics": ["node", "sockets", "server side programming"],
+  "languages": ["JavaScript", "p5.js", "Node.js"],
+  "topics": ["Node.js", "sockets", "server-side programming"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "Introduction and demonstration of end result!" },
+    {
+      "time": "0:00",
+      "title": "Introduction and demonstration of end result!"
+    },
     { "time": "1:28", "title": "Discussing server and socket connections" },
     { "time": "3:58", "title": "Installing Node.js" },
     { "time": "4:20", "title": "Running Node.js from the terminal" },
@@ -23,7 +26,7 @@
         {
           "icon": "🌿",
           "title": "Node.js",
-          "url": "https://nodejs.org/en/",
+          "url": "https://nodejs.org/en",
           "description": "An open-source, cross-platform JavaScript runtime environment."
         }
       ]
@@ -41,13 +44,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

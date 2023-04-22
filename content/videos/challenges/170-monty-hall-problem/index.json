@@ -3,10 +3,12 @@
   "description": "It's the Monty Hall Problem! In JavaScript! With p5.js! Yes, you really double your chances of winning by switching doors. I hope to convince you of this in this video!",
   "videoNumber": "170",
   "videoId": "0zac-cDzJwA",
+  "nebulaSlug": "codingtrain-coding-challenge-the-monty-hall-problem",
   "date": "2022-05-11",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["probability", "math", "games"],
   "canContribute": true,
+  "relatedChallenges": ["176-buffon-needle", "42-markov-chain-name-generator"],
   "timestamps": [
     { "time": "0:00", "title": "What is the Monty Hall Problem?" },
     { "time": "1:50", "title": "Solution for the Monty Hall Problem!" },

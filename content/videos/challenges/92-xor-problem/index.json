@@ -5,12 +5,7 @@
   "videoId": "188B6k_F9jU",
   "date": "2018-02-12",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "neural network",
-    "machine learning",
-    "gradient descent",
-    "xor problem"
-  ],
+  "topics": ["neural network", "machine learning (ML)", "gradient descent", "XOR problem"],
   "canContribute": true,
   "relatedChallenges": [
     "104-linear-regression-with-tensorflowjs",
@@ -54,9 +49,9 @@
         },
         {
           "icon": "💻",
-          "title": "Deeplearn.js",
-          "url": "https://deeplearnjs.org",
-          "description": "Documentation and reference materials for TensorFlow.js."
+          "title": "TensorFlow.js",
+          "url": "https://www.tensorflow.org/js/",
+          "description": "Webpage with reference materials and documentation about Tensorflow.js."
         },
         {
           "icon": "💻",
@@ -108,13 +103,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

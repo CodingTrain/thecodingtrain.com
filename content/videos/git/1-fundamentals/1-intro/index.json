@@ -2,7 +2,7 @@
   "title": "Introduction to Git and GiHub",
   "description": "In this first video of Git and GitHub for Poets, we go over the concepts of commits and repositories as well as an overview of the GitHub User Interface.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "BCQHnlnPusY",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -18,9 +18,7 @@
     {
       "title": "Rainbow Poem",
       "description": "GitHub repo for the Rainbow Poem",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Rainbow-Poem"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/Rainbow-Poem" }
     }
   ],
   "groupLinks": [
@@ -43,13 +41,8 @@
   ],
   "canContribute": false,
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-04-19"
 }

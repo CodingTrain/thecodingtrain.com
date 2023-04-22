@@ -3,9 +3,10 @@
   "description": "This is my attempt to make a Space Invaders type game in the browser with JavaScript and the p5.js library",
   "videoNumber": "5",
   "videoId": "biN3v3ef-Y0",
+  "nebulaSlug": "the-coding-train-coding-challenges-5-space-invaders-in-javascript-with-p5js",
   "date": "2016-04-26",
   "languages": ["p5.js"],
-  "topics": ["space invaders", "game"],
+  "topics": ["Space Invaders game", "games"],
   "canContribute": true,
   "relatedChallenges": ["46-asteroids", "72-frogger"],
   "timestamps": [
@@ -61,13 +62,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

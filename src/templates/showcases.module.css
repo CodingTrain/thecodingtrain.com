@@ -1,0 +1,141 @@
+.contributions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.horizontalSpacer {
+  flex-grow: 1;
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+.horizontalSpacerLast {
+  width: 32%;
+  height: var(--baseline-6x);
+  display: flex;
+  flex-basis: 32%;
+  flex-direction: column;
+  border-left: var(--border-purple);
+  border-bottom: var(--border-purple);
+}
+
+.verticalSpacer {
+  flex: 100%;
+  height: var(--baseline);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+.recentChallenge {
+  display: flex;
+  background-color: white;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  padding: 0 var(--box-padding);
+  line-height: var(--baseline-box);
+  background-color: var(--purple-light);
+  color: var(--gray-dark);
+  & p {
+    margin: 0;
+    text-transform: uppercase;
+  }
+  & .play {
+    height: calc(var(--baseline-box) - 1px);
+    display: flex;
+    align-items: center;
+  }
+  & svg {
+    fill: var(--purple);
+  }
+}
+
+.info {
+  padding: var(--box-padding);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+  height: var(--baseline-5x);
+  overflow-y: auto;
+
+  & p {
+    color: var(--gray-dark);
+  }
+}
+
+.heading {
+  font-family: var(--maru);
+  font-size: var(--maru-xlarge);
+  line-height: var(--maru-xlarge-line-height);
+  font-weight: bold;
+  color: var(--gray-dark);
+}
+
+.right {
+  flex: 1 1 34%;
+  height: var(--baseline-6x);
+  background-color: var(--gray-light);
+  border-bottom: var(--border-purple);
+  border-left: var(--border-purple);
+}
+
+.picture {
+  height: var(--baseline-6x);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (--medium) {
+  .horizontalSpacer {
+    flex: 100%;
+    height: var(--baseline);
+  }
+
+  .horizontalSpacerLast {
+    display: none;
+  }
+
+  .right {
+    flex: 1 1 50%;
+  }
+
+  .left {
+    flex: 1 1 50%;
+  }
+}
+
+@media (--reduced) {
+  .recentChallenge {
+    flex-direction: column-reverse;
+  }
+
+  .right,
+  .left {
+    flex-basis: auto;
+  }
+
+  .right {
+    height: var(--baseline-7x);
+  }
+}
+
+@media (--small) {
+  .info {
+    height: var(--baseline-6x);
+  }
+}
+
+@media (--xsmall) {
+  .right {
+    height: var(--baseline-5x);
+  }
+}

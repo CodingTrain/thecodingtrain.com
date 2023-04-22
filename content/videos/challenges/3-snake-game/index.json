@@ -3,16 +3,12 @@
   "description": "In this coding challenge, I code a p5.js version of the Snake Game.",
   "videoNumber": "3",
   "videoId": "AaGK-fj-BAM",
+  "nebulaSlug": "the-coding-train-coding-challenge-3-the-snake-game",
   "date": "2016-04-20",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["snake", "game", "vectors", "arrays"],
+  "topics": ["Snake game", "games", "vectors", "array"],
   "canContribute": true,
-  "relatedChallenges": [
-    "32-agario",
-    "72-frogger",
-    "173-snake-applesoft-basic",
-    "115-snake-game-redux"
-  ],
+  "relatedChallenges": ["32-agario", "72-frogger", "173-snake-applesoft-basic", "115-snake-game-redux"],
   "timestamps": [
     { "time": "0:00", "title": "Creating a Snake object" },
     { "time": "3:00", "title": "Adding keyboard control" },
@@ -66,13 +62,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

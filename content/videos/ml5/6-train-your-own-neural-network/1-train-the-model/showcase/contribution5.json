@@ -1,8 +1,8 @@
 {
-    "title": "Color predictor trained on a color csv file",
-    "url": "https://lemon-man125.github.io/ml5-Color-Classifier/",
-    "author": {
-      "name": "Christopher",
-      "url": "https://github.com/lemon-man125"
-    }
+  "title": "Color predictor trained on a color csv file",
+  "url": "https://lemon-man125.github.io/ml5-Color-Classifier/",
+  "author": {
+    "name": "Christopher",
+    "url": "https://github.com/lemon-man125"
   }
+}

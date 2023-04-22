@@ -3,44 +3,21 @@
   "description": "In this coding challenge, I create a flocking simulation in JavaScript based on Craig Reynolds \"boids\" algorithm.",
   "videoNumber": "124",
   "videoId": "mhjuuHl6qHM",
+  "nebulaSlug": "the-coding-train-coding-challenge-124-flocking-simulation",
   "date": "2018-12-11",
   "languages": ["Processing", "p5.js"],
-  "topics": ["flocking", "creative coding", "autonomous agents"],
+  "topics": ["flocking", "creative code", "autonomous agent"],
   "canContribute": true,
   "relatedChallenges": ["69-evolutionary-steering-behaviors"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction to flocking!"
-    },
-    {
-      "time": "2:07",
-      "title": "What are boids?"
-    },
-    {
-      "time": "2:33",
-      "title": "Creating a system of boids"
-    },
-    {
-      "time": "7:06",
-      "title": "Discussing the flocking algorithm"
-    },
-    {
-      "time": "7:38",
-      "title": "Alignment!"
-    },
-    {
-      "time": "21:48",
-      "title": "Cohesion!"
-    },
-    {
-      "time": "28:37",
-      "title": "Separation!"
-    },
-    {
-      "time": "37:00",
-      "title": "Things to try!"
-    }
+    { "time": "0:00", "title": "Introduction to flocking!" },
+    { "time": "2:07", "title": "What are boids?" },
+    { "time": "2:33", "title": "Creating a system of boids" },
+    { "time": "7:06", "title": "Discussing the flocking algorithm" },
+    { "time": "7:38", "title": "Alignment!" },
+    { "time": "21:48", "title": "Cohesion!" },
+    { "time": "28:37", "title": "Separation!" },
+    { "time": "37:00", "title": "Things to try!" }
   ],
   "codeExamples": [
     {
@@ -72,7 +49,7 @@
         {
           "icon": "📘",
           "title": "The Computational Beauty of Nature",
-          "url": "https://mitpress.mit.edu/books/computational-beauty-nature",
+          "url": "https://mitpress.mit.edu/9780262561273/the-computational-beauty-of-nature/",
           "description": ""
         }
       ]
@@ -108,13 +85,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

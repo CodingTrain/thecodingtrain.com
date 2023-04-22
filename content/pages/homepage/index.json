@@ -31,15 +31,15 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "175-3D-cube-applesoft-basic",
-      "65-binary-tree",
-      "104-linear-regression-with-tensorflowjs",
-      "133-time-tables-cardioid-visualization",
-      "134-heart-curve",
-      "19-superellipse",
-      "132-fluid-simulation",
-      "21-mandelbrot-set-with-p5js",
-      "138-angry-birds-with-matterjs"
+      "177-soft-body-character",
+      "74-clock",
+      "18-3d-fractal-trees",
+      "146-rendering-ray-casting",
+      "126-toothpicks",
+      "2-menger-sponge",
+      "162-self-avoiding-walk",
+      "c2-collatz-conjecture",
+      "48-white-house-social-media-data-visualization"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,19 +50,18 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/138-angry-birds-with-matterjs/showcase/contribution5.json",
-      "challenges/65-binary-tree/showcase/contribution3.json",
-      "challenges/104-linear-regression-with-tensorflowjs/showcase/contribution1.json",
-      "challenges/134-heart-curve/showcase/contribution1.json",
-      "challenges/134-heart-curve/showcase/contribution6.json",
-      "challenges/19-superellipse/showcase/contribution1.json",
-      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution2.json",
-      "challenges/133-time-tables-cardioid-visualization/showcase/contribution8.json",
-      "challenges/133-time-tables-cardioid-visualization/showcase/contribution11.json"
+      "challenges/74-clock/showcase/contribution6.json",
+      "challenges/74-clock/showcase/contribution8.json",
+      "challenges/18-3d-fractal-trees/showcase/contribution-1665505434.json",
+      "challenges/146-rendering-ray-casting/showcase/contribution6.json",
+      "challenges/126-toothpicks/showcase/contribution1.json",
+      "challenges/2-menger-sponge/showcase/contribution4.json",
+      "challenges/c2-collatz-conjecture/showcase/contribution9.json"
     ],
-    "cta": {
-      "text": "Ready to be inspired?",
-      "buttonText": "Enjoy this showcase highlight"
+    "showcaseCta": {
+      "text": "Want to see more?",
+      "buttonText": "Browse the full showcase",
+      "href": "/showcase"
     }
   },
   "events": {

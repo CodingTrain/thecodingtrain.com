@@ -3,6 +3,7 @@
   "description": "This video explores how to load and display images as objects with p5.js.",
   "videoNumber": "7.8",
   "videoId": "i2C1hrJMwz0",
+  "nebulaSlug": "coding-train-7-8-objects-and-images-p5-js-tutorial",
   "date": "2017-12-16",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "images", "objects"],

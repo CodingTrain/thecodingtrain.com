@@ -3,6 +3,7 @@
   "description": "In this bonus aside, I discuss coding short hand for incrementing variables ('incrementation operators').",
   "videoNumber": "2.3",
   "videoId": "T26OJGjI8qI",
+  "nebulaSlug": "coding-train-23-incrementation-operators-p5js-tutorial",
   "date": "2021-05-19",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["basics", "variables", "math"],

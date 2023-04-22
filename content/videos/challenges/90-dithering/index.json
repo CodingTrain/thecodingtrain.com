@@ -5,13 +5,9 @@
   "videoId": "0L2n8Tg2FwI",
   "date": "2018-01-16",
   "languages": ["Processing"],
-  "topics": ["dithering", "stippling", "floyd-steinberg dithering"],
+  "topics": ["dithering", "stippling", "Floyd-Steinberg dithering"],
   "canContribute": true,
-  "relatedChallenges": [
-    "50-animated-circle-packing",
-    "85-the-game-of-life",
-    "107-sandpiles"
-  ],
+  "relatedChallenges": ["50-animated-circle-packing", "85-the-game-of-life", "107-sandpiles"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:20", "title": "Let's start coding!" },
@@ -53,7 +49,7 @@
         {
           "icon": "📓",
           "title": "DHALF.txt",
-          "url": "https://github.com/SixLabors/ImageSharp/blob/master/src/ImageSharp/Processing/Processors/Dithering/DHALF.TXT",
+          "url": "https://github.com/SixLabors/ImageSharp/blob/main/src/ImageSharp/Processing/Processors/Dithering/DHALF.TXT",
           "description": "Discussion about digital halftoning and dithering."
         },
         {
@@ -101,13 +97,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

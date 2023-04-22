@@ -5,13 +5,7 @@
   "videoId": "XE3YDVdQSPo",
   "date": "2018-08-22",
   "languages": ["Processing"],
-  "topics": [
-    "3d rendering",
-    "orthographic projection",
-    "rotation matrix",
-    "4d hypercube",
-    "tesseract"
-  ],
+  "topics": ["3D rendering", "orthographic projection", "rotation matrix", "4D hypercube", "tesseract"],
   "canContribute": true,
   "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
@@ -108,13 +102,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

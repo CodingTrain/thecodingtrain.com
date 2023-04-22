@@ -3,15 +3,10 @@
   "description": "I cover object detection in ml5.js with the COCO-SSD pre-trained model.",
   "videoNumber": "1.3",
   "videoId": "QEzRxnuaZCk",
-  "date": "2020-10-14",
+  "nebulaSlug": "the-coding-train-ml5-js-object-detection-with-coco-ssd",
+  "date": "2020-10-20",
   "languages": ["p5.js", "ml5.js"],
-  "topics": [
-    "coco-ssd",
-    "COCO dataset",
-    "model provenance",
-    "data provenance",
-    "detection box"
-  ],
+  "topics": ["COCO-SSD", "COCO dataset", "model provenance", "data provenance", "detection box"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -31,23 +26,17 @@
       "title": "Object detection (image)",
       "description": "Object detection with COCO",
       "image": "object.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ZNQQx2n5o"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ZNQQx2n5o" }
     },
     {
       "title": "Object detection webcam",
       "description": "Object detection with COCO",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/VIYRpcME3"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/VIYRpcME3" }
     },
     {
       "title": "Object detection webcam persistence",
       "description": "Code example 1 description",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Vt9xeTxWJ"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Vt9xeTxWJ" }
     }
   ],
   "groupLinks": [
@@ -93,7 +82,7 @@
         {
           "icon": "💻",
           "title": "Excavating AI - The Politics of Images in Machine Learning Training Sets",
-          "url": "https://www.excavating.ai/",
+          "url": "https://excavating.ai/",
           "description": "Article by Kate Crawford and Trevor Paglen that explores why the automated interpretation of images is an inherently social and political project"
         },
         {
@@ -135,13 +124,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

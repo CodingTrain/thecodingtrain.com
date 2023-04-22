@@ -5,13 +5,7 @@
   "videoId": "D9BoBSkLvFo",
   "date": "2018-08-02",
   "languages": ["ml5.js", "JavaScript"],
-  "topics": [
-    "machine learning",
-    "webcam",
-    "image classification",
-    "ml5",
-    "mobilenet"
-  ],
+  "topics": ["machine learning (ML)", "webcam", "image classification", "ml5.js", "MobileNet"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -27,9 +21,7 @@
     {
       "title": "ml5 webcam classification",
       "description": "This sketch implements image classification with real-time video from a webcam.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JrudwwVD"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JrudwwVD" }
     }
   ],
   "groupLinks": [
@@ -57,20 +49,14 @@
         {
           "icon": "💻",
           "title": "Image-Net",
-          "url": "http://image-net.org/index",
+          "url": "https://image-net.org/",
           "description": "ImageNet is an image database organized according to the WordNet hierarchy."
         }
       ]
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,7 +5,7 @@
   "videoId": "piBq7VD0ZSo",
   "date": "2017-03-30",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["breadth-first search algorithm", "six degrees of kevin bacon"],
+  "topics": ["breadth-first search algorithm", "Six Degrees of Kevin Bacon"],
   "canContribute": true,
   "relatedChallenges": ["65-binary-tree", "98-quadtree"],
   "timestamps": [],
@@ -55,9 +55,7 @@
     {
       "title": "Breadth-First Search",
       "description": "This sketch implements the breadth first search algorithm.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/0_6EV76Qy"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/0_6EV76Qy" }
     }
   ],
   "groupLinks": [
@@ -67,7 +65,7 @@
         {
           "icon": "📕",
           "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
-          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning",
           "description": "Syllabus for Part 2 of Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017"
         },
         {
@@ -121,13 +119,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

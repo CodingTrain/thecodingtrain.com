@@ -4,16 +4,24 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "44RSr49m6LU",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Hi!" },
+    { "time": "0:27", "title": "Make particle extend p5.Vector." },
+    { "time": "1:23", "title": "Let's make a class that extends Particle." },
+    { "time": "2:52", "title": "Javascript file order matters, sometimes." },
+    { "time": "3:26", "title": "We need to use the Confetti class." },
+    { "time": "4:00", "title": "What if we want both confetti and particles." },
+    { "time": "4:32", "title": "Some exercises you could try." },
+    { "time": "4:47", "title": "When might you want to extend a class?" },
+    { "time": "5:52", "title": "What's next?" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Particle System Inheritance",
       "description": "Creating a confetti class that inherits methods from a parent emitter class",
       "image": "inheritance.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/vYgv7Xagg"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/vYgv7Xagg" }
     }
   ],
   "groupLinks": [
@@ -34,13 +42,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2021-04-01"
 }

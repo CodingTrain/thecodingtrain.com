@@ -3,15 +3,12 @@
   "description": "In this coding challenge, I use Perlin noise to create a two-dimensional flow field with the p5.js library.",
   "videoNumber": "24",
   "videoId": "BjoM9oKOAKY",
+  "nebulaSlug": "the-coding-train-coding-challenge-24-perlin-noise-flow-field",
   "date": "2016-06-27",
   "languages": ["p5.js"],
-  "topics": ["perlin noise", "arrays"],
+  "topics": ["Perlin noise", "array"],
   "canContribute": true,
-  "relatedChallenges": [
-    "11-3d-terrain-generation-with-perlin-noise",
-    "132-fluid-simulation",
-    "c4-worley-noise"
-  ],
+  "relatedChallenges": ["11-3d-terrain-generation-with-perlin-noise", "132-fluid-simulation", "c4-worley-noise"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:35", "title": "Two dimensional perlin noise" },
@@ -78,13 +75,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

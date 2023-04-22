@@ -5,13 +5,7 @@
   "videoId": "xXjRlEr7AGk",
   "date": "2017-03-16",
   "languages": ["Processing"],
-  "topics": [
-    "forward kinematics",
-    "inverse kinematics",
-    "tentacle animation",
-    "linked lists",
-    "arrays"
-  ],
+  "topics": ["forward kinematics", "inverse kinematics", "tentacle animation", "linked lists", "array"],
   "canContribute": true,
   "relatedChallenges": ["3-snake-game", "111-animated-sprites"],
   "timestamps": [],
@@ -198,13 +192,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

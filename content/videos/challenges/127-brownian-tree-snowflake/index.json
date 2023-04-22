@@ -3,13 +3,10 @@
   "description": "In this holiday coding challenge, I create a \"Brownian Tree Snowflake\" in Processing (Java). This video was recorded as part of a fundraiser for the Processing Foundation.",
   "videoNumber": "127",
   "videoId": "XUA8UREROYE",
+  "nebulaSlug": "the-coding-train-coding-challenge-127-brownian-tree-snowflake",
   "date": "2018-12-24",
   "languages": ["Processing"],
-  "topics": [
-    "brownian tree snowflake",
-    "snowflake generator",
-    "diffusion limited aggregation"
-  ],
+  "topics": ["Brownian tree snowflake", "snowflakes", "diffusion-limited aggregation"],
   "canContribute": true,
   "relatedChallenges": [
     "34-diffusion-limited-aggregation",
@@ -62,7 +59,7 @@
         {
           "icon": "💰",
           "title": "Support the Processing Foundation",
-          "url": "https://processingfoundation.org/support/",
+          "url": "https://processingfoundation.org/donate",
           "description": "Support the Processing Foundation!"
         },
         {
@@ -92,13 +89,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

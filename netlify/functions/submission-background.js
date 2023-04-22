@@ -1,6 +1,5 @@
 const { Octokit } = require('@octokit/core');
 const slugify = require('slugify');
-const btoa = require('btoa');
 const sharp = require('sharp');
 
 // event.body expected to be:
@@ -112,7 +111,8 @@ exports.handler = async function (event) {
     json.author.instagram = postInfo.authorInstagram;
   }
 
-  const jsonContent = btoa(JSON.stringify(json, null, 2));
+  const jsonString = JSON.stringify(json, null, 2);
+  const jsonContent = Buffer.from(jsonString).toString('base64');
 
   const jsonOpts = {
     branch: branchName,

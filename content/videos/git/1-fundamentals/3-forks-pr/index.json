@@ -2,7 +2,7 @@
   "title": "Forks and Pull Requests",
   "description": "In this third video of Git and GitHub for Poets, I cover the concept of forking a repository and pull requests.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "_NrSWLQsDL4",
   "timestamps": [
     { "time": "0:00", "title": "Review" },
@@ -15,9 +15,7 @@
     {
       "title": "Rainbow Poem",
       "description": "GitHub repo for the Rainbow Poem",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Rainbow-Poem"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/Rainbow-Poem" }
     }
   ],
   "groupLinks": [
@@ -40,13 +38,8 @@
   ],
   "canContribute": false,
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-04-23"
 }

@@ -2,7 +2,7 @@
   "title": "GitHub Pages",
   "description": "In part 8 of the Git and GitHub for Poets series, I show you how to use GitHub Pages as free web hosting.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "bFVtrlyH-kc",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -15,9 +15,7 @@
     {
       "title": "Poem Website",
       "description": "GitHub repo for the Poem Website",
-      "urls": {
-        "other": "https://github.com/CodingTrain/PoemWebsite"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/PoemWebsite" }
     }
   ],
   "groupLinks": [
@@ -50,13 +48,8 @@
   ],
   "canContribute": false,
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-06-02"
 }

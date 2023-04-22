@@ -4,16 +4,23 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "YcdldZ1E9gU",
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:50", "title": "Random function" },
+    { "time": "1:43", "title": "The argument to the noise function" },
+    { "time": "4:17", "title": "The noise value distribution" },
+    { "time": "5:11", "title": "Let's code!" },
+    { "time": "6:35", "title": "Mapping the noise value" },
+    { "time": "8:04", "title": "Using xoff to get new noise values" },
+    { "time": "9:05", "title": "Updating the value of xoff" }
+  ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Noise vs Random",
       "description": "Demonstration of smoothness of noise() and random().",
       "image": "",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/u6Te_XMF5"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/u6Te_XMF5" }
     }
   ],
   "groupLinks": [
@@ -34,13 +41,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2016-06-23"
 }

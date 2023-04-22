@@ -1,0 +1,73 @@
+{
+  "title": "Teachable Machine 3: Sound Classification",
+  "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)!  Train a computer to recognize your own images, sounds, & poses. In this video, I train a sound classifier and import the machine learning model into a p5.js sketch with the ml5.js library",
+  "videoNumber": "3",
+  "nebulaSlug": "the-coding-train-yt-teachable-machine-3-sound-classifiication",
+  "videoId": "TOrVsLklltM",
+  "date": "2019-11-11",
+  "languages": ["JavaScript", "p5.js", "ml5.js"],
+  "topics": ["machine learning (ML)", "ml5.js", "sound classification", "Snake game", "games"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Review" },
+    { "time": "0:34", "title": "The Audio project" },
+    { "time": "1:53", "title": "Recording background noise" },
+    { "time": "3:09", "title": "Recording our own audio" },
+    { "time": "5:09", "title": "The spectogram" },
+    { "time": "5:50", "title": "Train the model" },
+    { "time": "6:10", "title": "Modify the p5js sketch" },
+    { "time": "6:34", "title": "Step 1 Export the model" },
+    { "time": "6:46", "title": "Step 2-3 Classify" },
+    { "time": "7:07", "title": "Step 4 Draw the label" },
+    { "time": "7:58", "title": "Test it" },
+    {
+      "time": "8:42",
+      "title": "Train the model on different chords of the ukulele"
+    },
+    { "time": "9:24", "title": "Train the model on different notes" },
+    { "time": "10:25", "title": "Use the last model on the Snake game" },
+    { "time": "12:24", "title": "Train the model with actual words" },
+    { "time": "13:14", "title": "Modify the Snake game again" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Final Code",
+      "description": "Final code of the Sound Classification with the Teachable Machine.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/e3nrNMG7A" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Teachable Machine",
+          "url": "https://teachablemachine.withgoogle.com/",
+          "description": "A web-based tool that makes creating machine learning models fast, easy, and accessible to everyone."
+        },
+        {
+          "icon": "💾",
+          "title": "Tensor Flow",
+          "url": "https://www.tensorflow.org/js",
+          "description": "A library for machine learning in JavaScript."
+        },
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "📓",
+          "title": "Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition",
+          "url": "https://arxiv.org/abs/1804.03209",
+          "description": "Academic article about Speech Commands."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

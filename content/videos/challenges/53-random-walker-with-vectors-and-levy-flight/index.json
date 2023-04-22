@@ -3,15 +3,10 @@
   "description": "In this coding challenge, I simulate a \"random walk\" with vectors in p5.js, varying the distance of each step size. This is known as a \"Lévy Flight\" (named after french mathematician Paul Lévy.)",
   "videoNumber": "53",
   "videoId": "bqF9w9TTfeo",
+  "nebulaSlug": "the-coding-train-coding-challenge-53-random-walker-with-vectors-and-levy-flight",
   "date": "2017-01-31",
   "languages": ["p5.js", "JavaScript", "Processing", "Java"],
-  "topics": [
-    "random walker",
-    "levy flight",
-    "random walk",
-    "vectors",
-    "probability"
-  ],
+  "topics": ["random walk", "Lévy flight", "vectors", "probability"],
   "canContribute": true,
   "relatedChallenges": ["52-random-walker", "162-self-avoiding-walk"],
   "timestamps": [
@@ -67,7 +62,7 @@
         {
           "icon": "5️⃣",
           "title": "p5.Vector p5.js Reference",
-          "url": "https://p5js.org/reference/#/p5/p5.Vector",
+          "url": "https://p5js.org/reference/#/p5.Vector",
           "description": "The p5.js Reference page for the p5.Vector class."
         },
         {
@@ -109,13 +104,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

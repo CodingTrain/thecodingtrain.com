@@ -3,9 +3,10 @@
   "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js. The example demonstrated uses the mouse as input and performs classification (the assigned label is a musical note).",
   "videoNumber": "6.1",
   "videoId": "8HEgeAbYphA",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-train-your-own-neural-network",
   "date": "2019-11-22",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["neural network", "machine learning"],
+  "topics": ["neural network", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -35,9 +36,7 @@
       "title": "Train you own neural network",
       "description": "This sketch demonstrates how to train your own neural network.",
       "image": "neural_network.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a" }
     }
   ],
   "groupLinks": [
@@ -47,7 +46,7 @@
         {
           "icon": "💾",
           "title": "ml5.js Neural Network",
-          "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
+          "url": "https://learn.ml5js.org/#/reference/neural-network",
           "description": "ml5 page with documentation and supporting material."
         },
         {
@@ -95,13 +94,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

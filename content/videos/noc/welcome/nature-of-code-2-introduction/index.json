@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "3slqsMHKLng",
+  "nebulaSlug": "the-coding-train-yt-introduction-the-nature-of-code",
   "groupLinks": [
     {
       "title": "References",
@@ -17,13 +18,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2020-03-06"
 }

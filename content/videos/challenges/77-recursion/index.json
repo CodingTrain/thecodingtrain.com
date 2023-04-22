@@ -5,13 +5,9 @@
   "videoId": "jPsZwrV9ld0",
   "date": "2017-10-05",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["recursion", "fractals", "beginners"],
+  "topics": ["recursion", "fractal", "beginners"],
   "canContribute": true,
-  "relatedChallenges": [
-    "14-fractal-trees-recursive",
-    "17-fractal-trees-space-colonization",
-    "21-mandelbrot-set-with-p5js"
-  ],
+  "relatedChallenges": ["14-fractal-trees-recursive", "17-fractal-trees-space-colonization", "21-mandelbrot-set-with-p5js"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:46", "title": "Start coding!" },
@@ -41,7 +37,7 @@
           "icon": "📙",
           "title": "The Fractal Geometry of Nature",
           "description": "The essential guide that introduced fractals to the world by Benoit Mandlebrot",
-          "url": "http://amzn.to/2xiVwht"
+          "url": "https://amzn.to/2xiVwht"
         }
       ]
     },

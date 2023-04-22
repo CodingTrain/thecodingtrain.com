@@ -3,15 +3,12 @@
   "description": "🥧 Happy Pi Day 2020! In this challenge, I build a simple web application using p5.js and node.js to search in the first billion digits of Pi.",
   "videoNumber": "156",
   "videoId": "MEdpRYyjz_0",
+  "nebulaSlug": "the-coding-train-yt-coding-challenge-156-peeking-inside-pi",
   "date": "2020-03-14",
-  "languages": ["node.js", "p5.js", "JavaScript"],
-  "topics": ["math", "pi day"],
+  "languages": ["Node.js", "p5.js", "JavaScript"],
+  "topics": ["math", "Pi day"],
   "canContribute": true,
-  "relatedChallenges": [
-    "140-pi-leibniz",
-    "161-estimating-pi-from-random-numbers",
-    "169-pi-in-the-sky"
-  ],
+  "relatedChallenges": ["140-pi-leibniz", "161-estimating-pi-from-random-numbers", "169-pi-in-the-sky"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:30", "title": "Importing Pi Into p5.js" },
@@ -27,9 +24,7 @@
     {
       "title": "Peeking inside Pi",
       "description": "Searching a sequence of numbers in the first million digits of Pi",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/U649qYR4"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/U649qYR4" }
     },
     {
       "title": "Peeking inside Pi (Node API)",
@@ -50,7 +45,7 @@
         },
         {
           "title": "Peek in Pi",
-          "url": "http://pi.fathom.info/",
+          "url": "https://benfry.com/pi/",
           "description": "Fathom Demonstration for searching a number sequence in the first 10 million digits of Pi"
         },
         {
@@ -93,13 +88,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

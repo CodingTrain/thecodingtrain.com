@@ -3,37 +3,19 @@
   "description": "More algorithmic botany! Another way to generate a fractal tree is to consider every part of the tree an object, so that we can apply forces and attributes to all the branches and leaves and more!",
   "videoNumber": "15",
   "videoId": "fcdNSZ9IzJM",
-  "date": "2016-06-02",
+  "date": "2016-05-30",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "fractals",
-    "object-oriented programming",
-    "generative art",
-    "algorithmic botany"
-  ],
+  "topics": ["fractal", "tree", "object-oriented programming (OOP)", "generative art", "algorithmic botany"],
   "canContribute": true,
-  "relatedChallenges": [
-    "14-fractal-trees-recursive",
-    "16-l-system-fractal-trees",
-    "174-graphics-applesoft-basic"
-  ],
+  "relatedChallenges": ["14-fractal-trees-recursive", "16-l-system-fractal-trees", "174-graphics-applesoft-basic"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introducing today's topic"
-    },
-    {
-      "time": "1;44",
-      "title": "Write a Branch constructor function"
-    },
+    { "time": "0:00", "title": "Introducing today's topic" },
+    { "time": "1:44", "title": "Write a Branch constructor function" },
     {
       "time": "3:00",
       "title": "Add a single Branch object for the root of the tree"
     },
-    {
-      "time": "5:53",
-      "title": "Add a tree array"
-    },
+    { "time": "5:53", "title": "Add a tree array" },
     {
       "time": "7:20",
       "title": "Write a branch object to created 2 attached branch objects"
@@ -42,50 +24,20 @@
       "time": "9:30",
       "title": "Create a direction vector that points from the beginning to the end of the vector"
     },
-    {
-      "time": "10:12",
-      "title": "Determine new end point"
-    },
-    {
-      "time": "11:00",
-      "title": "Add a new branch to the right"
-    },
-    {
-      "time": "12:00",
-      "title": "Add a new branch to the left"
-    },
-    {
-      "time": "13:00",
-      "title": "Shrink the branches"
-    },
+    { "time": "10:12", "title": "Determine new end point" },
+    { "time": "11:00", "title": "Add a new branch to the right" },
+    { "time": "12:00", "title": "Add a new branch to the left" },
+    { "time": "13:00", "title": "Shrink the branches" },
     {
       "time": "14:39",
       "title": "Push new branches to the tree when the mouse is pressed"
     },
-    {
-      "time": "15:37",
-      "title": "Loop through the array backwards"
-    },
-    {
-      "time": "16:12",
-      "title": "Deal with duplicate branches"
-    },
-    {
-      "time": "17:31",
-      "title": "Add a jitter function"
-    },
-    {
-      "time": "19:52",
-      "title": "Add leaves at the end of the branches"
-    },
-    {
-      "time": "21:58",
-      "title": "Have the leaves fall"
-    },
-    {
-      "time": "22:45",
-      "title": "Thanks for watching!"
-    }
+    { "time": "15:37", "title": "Loop through the array backwards" },
+    { "time": "16:12", "title": "Deal with duplicate branches" },
+    { "time": "17:31", "title": "Add a jitter function" },
+    { "time": "19:52", "title": "Add leaves at the end of the branches" },
+    { "time": "21:58", "title": "Have the leaves fall" },
+    { "time": "22:45", "title": "Thanks for watching!" }
   ],
   "codeExamples": [
     {
@@ -135,13 +87,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

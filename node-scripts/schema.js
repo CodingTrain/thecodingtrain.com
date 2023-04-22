@@ -21,9 +21,11 @@ interface VideoInterface implements Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
 
   # as resolver
   showcase: [Contribution]
+  canonicalTrack: Track
 }
 
 type Video implements VideoInterface & Node {
@@ -44,9 +46,11 @@ type Video implements VideoInterface & Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
 
   # as resolver
   showcase: [Contribution]
+  canonicalTrack: Track
 }
 
 type Challenge implements VideoInterface & Node {
@@ -67,9 +71,11 @@ type Challenge implements VideoInterface & Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
 
   # as resolver
   showcase: [Contribution]
+  canonicalTrack: Track
 }
 
 type GuestTutorial implements VideoInterface & Node {
@@ -91,6 +97,9 @@ type GuestTutorial implements VideoInterface & Node {
   cover: CoverImage @link
   groupLinks: [GroupLink!]
   source: String!
+  nebulaSlug: String
+
+  canonicalTrack: Track # just to satisfy VideoInterface, will always be null
 }
 
 type Contribution implements Node {
@@ -102,6 +111,9 @@ type Contribution implements Node {
   source: String
   video: VideoInterface! @link
   cover: CoverImage @link
+
+  # as resolver
+  submittedOn: String
 }
 
 type Timestamp implements Node {
@@ -113,6 +125,7 @@ type Timestamp implements Node {
 type ChallengePart implements Node {
   title: String!
   videoId: String!
+  nebulaSlug: String
   timestamps: [Timestamp!]
 }
 
@@ -363,7 +376,8 @@ type SupportSection implements Node {
 }
 
 type Query {
-  tracksPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track] 
-  challengesPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge] 
+  tracksPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track]
+  challengesPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge]
+  contributionsPaginatedFilteredByTags(author: String, skip: Int, limit: Int): [Contribution]
 }
 `;

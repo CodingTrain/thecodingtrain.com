@@ -3,15 +3,12 @@
   "description": "This is a beginner-friendly challenge where I attempt to code a basic version of the game Tic-Tac-Toe using JavaScript and the p5.js library.",
   "videoNumber": "149",
   "videoId": "GTWrWM1UsnA",
+  "nebulaSlug": "thecodingtrain-coding-challenge-149-tic-tac-toe",
   "date": "2019-07-24",
   "languages": ["p5.js"],
-  "topics": ["beginners", "tic-tac-toe", "games"],
+  "topics": ["beginners", "Tic-Tac-Toe game", "games"],
   "canContribute": true,
-  "relatedChallenges": [
-    "77-recursion",
-    "154-tic-tac-toe-minimax",
-    "163-bezier-curves"
-  ],
+  "relatedChallenges": ["77-recursion", "154-tic-tac-toe-minimax", "163-bezier-curves"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "0:54", "title": "Start coding" },
@@ -62,13 +59,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

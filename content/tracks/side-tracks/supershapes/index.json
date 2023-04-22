@@ -1,12 +1,12 @@
 {
-    "title": "Supershapes!",
-    "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas.  While not techically a \u201csupershape\u201d, the mandelbulb is constructed in a similar manner and is a SUPER shape.",
-    "videos": [
-      "noc/3-angles/4-polar-coordinates",
-      "challenges/19-superellipse",
-      "challenges/23-2d-supershapes",
-      "challenges/25-spherical-geometry",
-      "challenges/26-3d-supershapes",
-      "challenges/168-the-mandelbulb"
-    ]
-  }
+  "title": "Supershapes!",
+  "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas.  While not techically a \u201csupershape\u201d, the mandelbulb is constructed in a similar manner and is a SUPER shape.",
+  "videos": [
+    "noc/3-angles/4-polar-coordinates",
+    "challenges/19-superellipse",
+    "challenges/23-2d-supershapes",
+    "challenges/25-spherical-geometry",
+    "challenges/26-3d-supershapes",
+    "challenges/168-the-mandelbulb"
+  ]
+}

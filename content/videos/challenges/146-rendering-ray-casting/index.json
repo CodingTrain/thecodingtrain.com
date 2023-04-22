@@ -5,52 +5,19 @@
   "videoId": "vYgIKn7iDH8",
   "date": "2019-05-10",
   "languages": ["p5.js"],
-  "topics": [
-    "ray casting",
-    "game development",
-    "2d ray casting",
-    "ray marching",
-    "wolfenstein 3d ray casting"
-  ],
+  "topics": ["ray casting", "games", "2D ray casting", "ray marching", "Wolfenstein 3D ray casting"],
   "canContribute": true,
   "relatedChallenges": ["145-ray-casting-2d", "168-the-mandelbulb"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:02:21",
-      "title": "Coding Starts"
-    },
-    {
-      "time": "0:03:15",
-      "title": "Creating The Rendering Scene"
-    },
-    {
-      "time": "0:09:22",
-      "title": "Adjusting The Perspective"
-    },
-    {
-      "time": "0:11:02",
-      "title": "Adding Rotation"
-    },
-    {
-      "time": "0:15:06",
-      "title": "Fixing The View and Brightness"
-    },
-    {
-      "time": "0:20:55",
-      "title": "Changing The Field of View Dynamically"
-    },
-    {
-      "time": "0:22:44",
-      "title": "Small Fixes and Maintenance"
-    },
-    {
-      "time": "0:27:50",
-      "title": "Suggestions For Improvements"
-    }
+    { "time": "0:00:00", "title": "Introduction" },
+    { "time": "0:02:21", "title": "Coding Starts" },
+    { "time": "0:03:15", "title": "Creating The Rendering Scene" },
+    { "time": "0:09:22", "title": "Adjusting The Perspective" },
+    { "time": "0:11:02", "title": "Adding Rotation" },
+    { "time": "0:15:06", "title": "Fixing The View and Brightness" },
+    { "time": "0:20:55", "title": "Changing The Field of View Dynamically" },
+    { "time": "0:22:44", "title": "Small Fixes and Maintenance" },
+    { "time": "0:27:50", "title": "Suggestions For Improvements" }
   ],
   "codeExamples": [
     {
@@ -81,7 +48,7 @@
         {
           "icon": "🌞",
           "title": "Gustavo Pezzi's Raycast 3D",
-          "url": "http://www.gustavopezzi.com/projects/raycast3d/",
+          "url": "https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript",
           "description": "A course that teaches how to create a complete raycasting engine from scratch."
         },
         {
@@ -105,13 +72,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

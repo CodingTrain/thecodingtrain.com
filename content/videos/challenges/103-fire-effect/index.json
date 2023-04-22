@@ -1,11 +1,11 @@
 {
   "title": "Fire Effect",
-  "description": "In this coding challenge, I implement a pixel-based \u201cfire\u201d algorithm using Processing (Java).",
+  "description": "In this coding challenge, I implement a pixel-based “fire” algorithm using Processing (Java).",
   "videoNumber": "103",
   "videoId": "X0kjv0MozuY",
   "date": "2018-05-14",
   "languages": ["Processing", "p5.js"],
-  "topics": ["fire simulation", "perlin noise"],
+  "topics": ["fire simulation", "Perlin noise"],
   "canContribute": true,
   "relatedChallenges": ["102-2d-water-ripple", "132-fluid-simulation"],
   "timestamps": [
@@ -46,7 +46,7 @@
         {
           "icon": "💾",
           "title": "Processing",
-          "url": "http://processing.org",
+          "url": "https://processing.org/",
           "description": "Webpage with documentation and references for Processing."
         }
       ]
@@ -76,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

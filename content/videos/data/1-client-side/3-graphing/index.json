@@ -5,6 +5,7 @@
   "languages": ["JavaScript", "chart.js"],
   "topics": ["data", "graph", "canvas"],
   "videoId": "5-ptp9tRApM",
+  "nebulaSlug": "codingtrain-1-3-graphing-with-chart-js-working-with-data-apis-in-javascript",
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "What have we done so far?" },
@@ -31,7 +32,7 @@
       "description": "(Exercise) Demonstration of graphing multiple datasets with Chart.js",
       "image": "graphingmultipledata.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_Exercise_multiple/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_exercise_multiple/"
       }
     },
     {
@@ -39,7 +40,7 @@
       "description": "(Exercise) Demonstration of graphing data with p5.js",
       "image": "graphingdatap5.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_Exercise_p5/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_exercise_p5/"
       }
     }
   ],
@@ -57,13 +58,8 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
-  ]
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-05-23"
 }

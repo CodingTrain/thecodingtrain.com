@@ -4,14 +4,10 @@
   "videoNumber": "106",
   "videoId": "N3ZnNa01BPM",
   "date": "2018-06-11",
-  "languages": ["p5.js", "JavaScript", "tensorflow.js"],
-  "topics": ["machine learning", "xor problem"],
+  "languages": ["p5.js", "JavaScript", "TensorFlow.js"],
+  "topics": ["machine learning (ML)", "XOR problem"],
   "canContribute": true,
-  "relatedChallenges": [
-    "92-xor-problem",
-    "104-linear-regression-with-tensorflowjs",
-    "105-polynomial-regression-with-tensorflowjs"
-  ],
+  "relatedChallenges": ["92-xor-problem", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:43", "title": "Architecture of model" },
@@ -30,9 +26,7 @@
     {
       "title": "XOR Problem",
       "description": "This sketch visualizes the outputs of a neural network solving XOR using TensorFlow.js.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ueNMC_Wh6"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ueNMC_Wh6" }
     }
   ],
   "groupLinks": [
@@ -42,7 +36,7 @@
         {
           "icon": "💻",
           "title": "TensorFlow.js",
-          "url": "https://js.tensorflow.org/",
+          "url": "https://www.tensorflow.org/js/",
           "description": "Webpage with reference materials and documentation about TensorFow.js"
         },
         {
@@ -96,13 +90,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

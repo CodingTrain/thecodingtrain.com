@@ -5,7 +5,7 @@
   "videoId": "fUkF-YLLXeg",
   "date": "2018-05-04",
   "languages": ["Processing"],
-  "topics": ["may the 4th", "star wars scrolling text", "title crawl"],
+  "topics": ["May the 4th", "Star Wars scrolling text", "title crawl"],
   "canContribute": true,
   "relatedChallenges": ["1-starfield"],
   "timestamps": [
@@ -57,13 +57,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }
