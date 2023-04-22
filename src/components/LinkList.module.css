@@ -100,9 +100,9 @@
 
   .url {
     max-width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     line-height: normal;
-    height: calc(var(--baseline) * 1.8);
+    height: var(--baseline);
   }
 
   .description {
