@@ -8,7 +8,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["data", "visualization", "data visualization", "climate spiral", "climate change"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["48-white-house-social-media-data-visualization", "58-3d-earthquake-data-visualization", "96-visualizing-digits-of-pi", "109-visualizing-500000-subscribers"],
   "timestamps": [],
   "codeExamples": [
     {
@@ -23,11 +23,43 @@
   "groupLinks": [
     {
       "title": "References",
-      "links": []
+      "links": [
+        {
+          "icon": "🌎",
+          "title": "NASA Earth Observatory - Global Temperatures",
+          "url": "https://earthobservatory.nasa.gov/world-of-change/global-temperatures",
+          "description": "Webpage with facts about global warming and the temperature anomaly."
+        },
+        {
+          "icon": "🔗",
+          "title": "Suggestion from ABohyn",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/1789",
+          "description": "Suggestion from ABohyn to recreate the \"Climate Spiral\""
+        },
+        {
+          "icon": "",
+          "title": "P5.TableRow",
+          "url": "https://p5js.org/reference/#/p5.TableRow",
+          "description": "P5 documentation on the TableRow function"
+        }
+      ]
     },
     {
       "title": "Videos",
-      "links": []
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Climate spiral visualization by climate scientist Ed Hawkins",
+          "url": "https://www.youtube.com/watch?v=jWoCXLuTIkI",
+          "description": "This visualization shows monthly global temperature anomalies."
+        },
+        {
+          "icon": "🚂",
+          "title": "Polar coordinates tutorial",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "My tutorial explaining polar coordinates."
+        }
+      ]
     }
   ],
   "credits": [
