@@ -9,7 +9,32 @@
   "topics": ["data", "visualization", "data visualization", "climate spiral", "climate change"],
   "canContribute": true,
   "relatedChallenges": ["48-white-house-social-media-data-visualization", "58-3d-earthquake-data-visualization", "96-visualizing-digits-of-pi", "109-visualizing-500000-subscribers"],
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome to a special Earth Day Coding Challenge!" },
+    { "time": "0:36", "title": "What is a temperature anomaly?" },
+    { "time": "2:33", "title": "NASA Goddard Institute for Space Studies" },
+    { "time": "3:19", "title": "Preview the data" },
+    { "time": "5:18", "title": "Use loadTable to load the data" },
+    { "time": "7:04", "title": "Inspect the data" },
+    { "time": "9:47", "title": "Set up the background" },
+    { "time": "10:58", "title": "Polar Coordinates" },
+    { "time": "12:49", "title": "Add the month labels" },
+    { "time": "16:28", "title": "Time for the data" },
+    { "time": "17:22", "title": "Draw the spiral" },
+    { "time": "18:23", "title": "Set up global variables" },
+    { "time": "19:06", "title": "Map the x, y position to the data" },
+    { "time": "20:44", "title": "Loop through all of the data" },
+    { "time": "22:31", "title": "Check for null values" },
+    { "time": "24:05", "title": "Animate the spiral" },
+    { "time": "29:02", "title": "Add color to the spiral" },
+    { "time": "30:00", "title": "Connect points with a line" },
+    { "time": "34:14", "title": "Use lerpColor() to vary color from blue to red" },
+    { "time": "37:10", "title": "Use parseFloat() to convert a string to a float" },
+    { "time": "39:04", "title": "Design improvements" },
+    { "time": "40:18", "title": "Outro" }
+
+
+  ],
   "codeExamples": [
     {
       "title": "Climate Spiral",
@@ -103,6 +128,12 @@
         "title": "Polar Coordinates",
         "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
         "description": "My tutorial explaining polar coordinates."
+      },
+      {
+        "icon": "🚂",
+        "title": "Translate, Rotate, Push/Pop",
+        "url": "/tracks/transformations-in-p5/transformations/translate-rotate-push-pop",
+        "description": "In this video I cover the functions translate(), rotate(), push() and pop()."
       }]
     }
   ],
