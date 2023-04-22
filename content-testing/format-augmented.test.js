@@ -230,26 +230,22 @@ const baseVideosSchema = strictObject({
 
 const videosSchema = baseVideosSchema.concat(
   strictObject({
-    videoNumber: videoNumberValidator
+    videoNumber: videoNumberValidator,
+    relatedChallenges: array(string().required()) // TODO ref checks
   })
 );
 
 const challengesSchema = baseVideosSchema.concat(
   strictObject({
-    // challenges require a videoNumber
     videoNumber: videoNumberValidator.required(),
-
-    // TODO ref checks
-    // TODO 11 challenges don't have relatedChallenges at the moment - track the issue and when complete we can make this `.min(1).required()`
-    // https://github.com/CodingTrain/thecodingtrain.com/issues/1005
-    relatedChallenges: array(string().required())
+    relatedChallenges: array(string().required()).min(1).required() // TODO ref checks
   })
 );
 
 const showcasesSchema = strictObject({
   title: string().required(),
   url: string().url().required(),
-  source: string().url(),
+  source: string().url(), // legacy?
   submittedOn: dateRangeValidator, // TODO should be required, but we need to backfill these dates before enforcing
   author: strictObject({
     name: string().required(),
