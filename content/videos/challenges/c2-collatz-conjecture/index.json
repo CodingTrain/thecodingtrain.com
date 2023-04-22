@@ -8,7 +8,7 @@
   "languages": ["Processing"],
   "topics": ["Collatz conjecture", "modulo operator"],
   "canContribute": true,
-  "relatedChallenges": ["14-fractal-trees-recursive"],
+  "relatedChallenges": ["14-fractal-trees-recursive", "108-barnsley-fern", "126-toothpicks"],
   "timestamps": [
     { "time": "0:00", "title": "The Collatz Conjecture" },
     { "time": "4:10", "title": "Programming in Processing" },
