@@ -31,16 +31,22 @@
           "description": "Webpage with facts about global warming and the temperature anomaly."
         },
         {
+          "icon": "🌎",
+          "title": "GISS Surface Temperature Analysis",
+          "url": "https://data.giss.nasa.gov/gistemp/faq/",
+          "description": "FAQ about the GISS Surface Temperature Analysis"
+        },
+        {
           "icon": "🔗",
           "title": "Suggestion from ABohyn",
           "url": "https://github.com/CodingTrain/Suggestion-Box/issues/1789",
           "description": "Suggestion from ABohyn to recreate the \"Climate Spiral\""
         },
         {
-          "icon": "",
+          "icon": "🔗",
           "title": "P5.TableRow",
           "url": "https://p5js.org/reference/#/p5.TableRow",
-          "description": "P5 documentation on the TableRow function"
+          "description": "P5 documentation on the TableRow function."
         }
       ]
     },
@@ -55,7 +61,7 @@
         },
         {
           "icon": "🚂",
-          "title": "Polar coordinates tutorial",
+          "title": "Polar Coordinates",
           "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "My tutorial explaining polar coordinates."
         }
