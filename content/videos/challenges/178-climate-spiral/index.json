@@ -12,26 +12,29 @@
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a special Earth Day Coding Challenge!" },
     { "time": "0:35", "title": "What is a temperature anomaly?" },
-    { "time": "2:33", "title": "NASA Goddard Institute for Space Studies" },
-    { "time": "3:19", "title": "Preview the data" },
-    { "time": "5:18", "title": "Use loadTable to load the data" },
-    { "time": "7:04", "title": "Inspect the data" },
-    { "time": "9:47", "title": "Set up the background" },
-    { "time": "10:58", "title": "Polar Coordinates" },
-    { "time": "12:49", "title": "Add the month labels" },
-    { "time": "16:26", "title": "Time for the data" },
-    { "time": "17:22", "title": "Draw the spiral" },
-    { "time": "18:23", "title": "Set up global variables" },
-    { "time": "19:06", "title": "Map the x, y position to the data" },
-    { "time": "20:44", "title": "Loop through all of the data" },
-    { "time": "22:31", "title": "Check for null values" },
-    { "time": "24:05", "title": "Animate the spiral" },
-    { "time": "29:02", "title": "Add color to the spiral" },
-    { "time": "30:00", "title": "Connect points with a line" },
-    { "time": "34:14", "title": "Use lerpColor() to vary color from blue to red" },
-    { "time": "37:10", "title": "Use parseFloat() to convert a string to a float" },
-    { "time": "39:04", "title": "Design improvements" },
-    { "time": "40:18", "title": "Outro" }
+    { "time": "2:28", "title": "NASA Goddard Institute for Space Studies website" },
+    { "time": "3:17", "title": "Preview the data" },
+    { "time": "4:34", "title": "Upload the data" },
+    { "time": "5:13", "title": "Use loadTable() to preload the data" },
+    { "time": "7:01", "title": "Check out the data" },
+    { "time": "9:28", "title": "Set up the base pattern" },
+    { "time": "10:42", "title": "Polar Coordinates" },
+    { "time": "12:36", "title": "Add the month labels" },
+    { "time": "16:11", "title": "Time for the data!" },
+    { "time": "17:05", "title": "Draw the spiral" },
+    { "time": "18:09", "title": "Set up global variables" },
+    { "time": "19:04", "title": "Map the x, y positions to the data" },
+    { "time": "20:27", "title": "Loop through all of the data" },
+    { "time": "21:57", "title": "Check for null values" },
+    { "time": "22:43", "title": "Animate the spiral" },
+    { "time": "25:17", "title": "Add one month at a time" },
+    { "time": "28:47", "title": "Add color to the spiral" },
+    { "time": "29:42", "title": "Connect the points with a line segment" },
+    { "time": "34:45", "title": "Use lerpColor() to vary color" },
+    { "time": "38:00", "title": "Use parseFloat() to convert a string to a float" },
+    { "time": "38:40", "title": "We have the climate spiral" },
+    { "time": "40:16", "title": "Suggestions for possible variations" },
+    { "time": "40:42", "title": "Outro" }
 
 
   ],
@@ -106,14 +109,21 @@
         "icon": "🔗",
         "title": "p5.loadTable",
         "url": "https://p5js.org/reference/#/p5/loadTable",
-        "description": "P5 documentation on the TableRow function."
+        "description": "p5 documentation on the TableRow function."
       },
       {
         "icon": "🔗",
         "title": "p5.TableRow",
         "url": "https://p5js.org/reference/#/p5.TableRow",
-        "description": "P5 documentation on the TableRow function."
-      }]
+        "description": "p5 documentation on the TableRow function."
+      },
+      {
+        "icon": "🔗",
+        "title": "lerpColor()",
+        "url": "https://p5js.org/reference/#/p5/lerpColor",
+        "description": "p5 documentation on the lerpColor function."
+      }
+    ]
     },
     {
       "title": "Videos",
