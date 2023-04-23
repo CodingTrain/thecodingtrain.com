@@ -27,7 +27,7 @@
     { "time": "19:44", "title": "tfjs.vis--debug: true" },
     { "time": "20:10", "title": "Normalizing the data" },
     { "time": "22:33", "title": "What is loss?" },
-    { "time": "24.27", "title": "Learning rate" },
+    { "time": "24:27", "title": "Learning rate" },
     { "time": "25:49", "title": "Prediction" },
     { "time": "26:09", "title": "Add state variable?" }
   ],
@@ -35,7 +35,6 @@
     {
       "title": "Train you own neural network",
       "description": "This sketch demonstrates how to train your own neural network.",
-      "image": "neural_network.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a" }
     }
   ],

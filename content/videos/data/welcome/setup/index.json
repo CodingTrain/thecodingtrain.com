@@ -5,6 +5,7 @@
   "topics": ["server-side programming", "workflow", "setup"],
   "videoId": "hPbDyqzxQfU",
   "nebulaSlug": "codingtrain-setup-everything-you-need-to-begin-the-course-working-with-data-and-apis-in-javascript",
+  "canContribute": false,
   "timestamps": [],
   "codeExamples": [],
   "groupLinks": [

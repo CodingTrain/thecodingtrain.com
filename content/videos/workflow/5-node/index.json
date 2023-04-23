@@ -18,15 +18,15 @@
         { "title": "npm", "url": "https://www.npmjs.com" },
         {
           "title": "p5-manager",
-          "url": " https://www.npmjs.com/package/p5-manager"
+          "url": "https://www.npmjs.com/package/p5-manager"
         },
         {
           "title": "http-server",
-          "url": " https://www.npmjs.com/package/http-server"
+          "url": "https://www.npmjs.com/package/http-server"
         },
         {
           "title": "live-server",
-          "url": " https://www.npmjs.com/package/live-server"
+          "url": "https://www.npmjs.com/package/live-server"
         }
       ]
     }
