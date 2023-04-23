@@ -3,7 +3,7 @@
   "videoNumber": "178",
   "description": "Learn to create your own climate spiral using p5.js and temperature data. Originally designed by the climate scientist Ed Hawkins, the climate spiral is a visual representation of the changing temperatures over time, illustrating the urgent need to address climate change.",
   "videoId": "rVBTxnRyOuE",
-  "nebulaSlug": "codingtrain-coding-challenge-178-climate-spiral",
+  "nebulaSlug": "codingtrain-coding-challenge-178-visualizing-data",
   "date": "2023-04-22",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["data", "visualization", "data visualization", "climate spiral", "climate change"],
