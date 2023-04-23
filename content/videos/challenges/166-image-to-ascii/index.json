@@ -8,6 +8,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["images", "ASCII", "HTML DOM"],
   "canContribute": true,
+  "relatedChallenges": ["164-slitscan", "90-dithering"],
   "timestamps": [
     { "title": "Welcome!", "time": "0:00" },
     { "title": "Introduction", "time": "0:28" },
