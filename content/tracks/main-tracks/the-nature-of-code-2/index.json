@@ -68,6 +68,17 @@
         "noc/5-autonomous-agents/6-scalar-projection",
         "noc/5-autonomous-agents/7-path-following"
       ]
+    },
+    {
+      "title": "Physics Libraries",
+      "videos": [
+        "noc/6-physics-libraries/1-matterjs-introduction",
+        "noc/6-physics-libraries/2-matterjs-introduction-continued",
+        "noc/6-physics-libraries/3-matterjs-deleting-bodies",
+        "noc/6-physics-libraries/4-matterjs-constraints",
+        "noc/6-physics-libraries/5-matterjs-mouse-constraints",
+        "challenges/177-soft-body-character"
+      ]
     }
   ]
 }
