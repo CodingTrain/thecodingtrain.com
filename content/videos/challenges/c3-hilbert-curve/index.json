@@ -8,6 +8,7 @@
   "languages": ["Processing"],
   "topics": ["Hilbert curve", "iterative algorithm", "space-filling"],
   "canContribute": true,
+  "relatedChallenges": ["162-self-avoiding-walk", "76-10Print"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:58", "title": "The Hilbert Curve" },
