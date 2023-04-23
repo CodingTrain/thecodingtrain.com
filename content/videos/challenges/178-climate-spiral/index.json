@@ -89,13 +89,13 @@
           "icon": "🌎",
           "title": "GLOBAL SURFACE TEMPERATURE CHANGE",
           "url": "https://pubs.giss.nasa.gov/docs/2010/2010_Hansen_ha00510u.pdf",
-          "description": "2010 paper by Hansen, et al. which details an improved uncertainty analysis for surface temperature anomalies."
+          "description": "2010 paper by Hansen, et al. on analysis of global surface temperature change."
         },
         {
           "icon": "🌎",
           "title": "Improvements in the GISTEMP Uncertainty Model",
           "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522",
-          "description": "2019 paper by Lenssen, et al. on analysis of the global temperature change"
+          "description": "2019 paper by Lenssen, et al. detailing a new and improved uncertainty analysis for surface temperature anomalies."
         },
         {
           "icon": "🌊",
