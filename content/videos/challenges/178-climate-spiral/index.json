@@ -3,12 +3,17 @@
   "videoNumber": "178",
   "description": "Learn to create your own climate spiral using p5.js and temperature data. Originally designed by the climate scientist Ed Hawkins, the climate spiral is a visual representation of the changing temperatures over time, illustrating the urgent need to address climate change.",
   "videoId": "rVBTxnRyOuE",
-  "nebulaSlug": "codingtrain-coding-challenge-178-climate-spiral",
+  "nebulaSlug": "codingtrain-coding-challenge-178-visualizing-data",
   "date": "2023-04-22",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["data", "visualization", "data visualization", "climate spiral", "climate change"],
   "canContribute": true,
-  "relatedChallenges": ["48-white-house-social-media-data-visualization", "58-3d-earthquake-data-visualization", "96-visualizing-digits-of-pi", "109-visualizing-500000-subscribers"],
+  "relatedChallenges": [
+    "48-white-house-social-media-data-visualization",
+    "58-3d-earthquake-data-visualization",
+    "96-visualizing-digits-of-pi",
+    "109-visualizing-500000-subscribers"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Welcome to a special Earth Day Coding Challenge!" },
     { "time": "0:35", "title": "What is a temperature anomaly?" },
@@ -35,8 +40,6 @@
     { "time": "38:40", "title": "We have the climate spiral" },
     { "time": "40:16", "title": "Suggestions for possible variations" },
     { "time": "40:42", "title": "Outro" }
-
-
   ],
   "codeExamples": [
     {
@@ -51,100 +54,103 @@
   "groupLinks": [
     {
       "title": "References",
-      "links": [{
-        "icon": "🌥️",
-        "title": "National Centre for Atmospheric Science",
-        "url": "https://ncas.ac.uk",
-        "description": "Webpage for the NCAS, which is a world-leading center for atmospheric science."
-      },
-      {
-        "icon": "🌥️",
-        "title": "Ed Hawkin's website",
-        "url": "https://edhawkins.org",
-        "description": "Professor Ed Hawkin's website with different climate visualizations."
-      },
-      {
-        "icon": "🌎",
-        "title": "NASA Earth Observatory - Global Temperatures",
-        "url": "https://earthobservatory.nasa.gov/world-of-change/global-temperatures",
-        "description": "Webpage with facts about global warming and the temperature anomaly."
-      },
-      {
-        "icon": "🌎",
-        "title": "GISS Surface Temperature Analysis (GISTEMP v4)",
-        "url": "https://data.giss.nasa.gov/gistemp/",
-        "description": ""
-      },
-      {
-        "icon": "🌎",
-        "title": "GISS Surface Temperature Analysis",
-        "url": "https://data.giss.nasa.gov/gistemp/faq/",
-        "description": "FAQ about the GISS Surface Temperature Analysis"
-      },
-      {
-        "icon": "🌎",
-        "title": "GLOBAL SURFACE TEMPERATURE CHANGE",
-        "url": "https://pubs.giss.nasa.gov/docs/2010/2010_Hansen_ha00510u.pdf",
-        "description": "2010 paper by Hansen, et al which detals an improved uncertainty analysis for surface temperature anomalies."
-      },
-      {
-        "icon": "🌎",
-        "title": "Improvements in the GISTEMP Uncertainty Model",
-        "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522",
-        "description": "2019 paper by Lenssen, et al, et all analysis of the global temperature change"
-      },
-      {
-        "icon": "🌊",
-        "title": "National Centers for Environmental Information",
-        "url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00934",
-        "description": "NOAA Global Surface Temperature Dataset, Version 4.0"
-      },
-      {
-        "icon": "🔗",
-        "title": "Suggestion from ABohyn",
-        "url": "https://github.com/CodingTrain/Suggestion-Box/issues/1789",
-        "description": "Suggestion from ABohyn to recreate the \"Climate Spiral\""
-      },
-      {
-        "icon": "🔗",
-        "title": "p5.loadTable",
-        "url": "https://p5js.org/reference/#/p5/loadTable",
-        "description": "p5 documentation on the TableRow function."
-      },
-      {
-        "icon": "🔗",
-        "title": "p5.TableRow",
-        "url": "https://p5js.org/reference/#/p5.TableRow",
-        "description": "p5 documentation on the TableRow function."
-      },
-      {
-        "icon": "🔗",
-        "title": "lerpColor()",
-        "url": "https://p5js.org/reference/#/p5/lerpColor",
-        "description": "p5 documentation on the lerpColor function."
-      }
-    ]
+      "links": [
+        {
+          "icon": "🌥️",
+          "title": "National Centre for Atmospheric Science",
+          "url": "https://ncas.ac.uk",
+          "description": "Webpage for the NCAS, which is a world-leading center for atmospheric science."
+        },
+        {
+          "icon": "🌥️",
+          "title": "Ed Hawkin's website",
+          "url": "https://edhawkins.org",
+          "description": "Professor Ed Hawkin's website with different climate visualizations."
+        },
+        {
+          "icon": "🌎",
+          "title": "NASA Earth Observatory - Global Temperatures",
+          "url": "https://earthobservatory.nasa.gov/world-of-change/global-temperatures",
+          "description": "Webpage with facts about global warming and the temperature anomaly."
+        },
+        {
+          "icon": "🌎",
+          "title": "GISS Surface Temperature Analysis (GISTEMP v4)",
+          "url": "https://data.giss.nasa.gov/gistemp/",
+          "description": "NASA GISTEMP Datasets"
+        },
+        {
+          "icon": "🌎",
+          "title": "GISS Surface Temperature Analysis FAQ",
+          "url": "https://data.giss.nasa.gov/gistemp/faq/",
+          "description": "FAQ about the GISS Surface Temperature Analysis"
+        },
+        {
+          "icon": "🌎",
+          "title": "GLOBAL SURFACE TEMPERATURE CHANGE",
+          "url": "https://pubs.giss.nasa.gov/docs/2010/2010_Hansen_ha00510u.pdf",
+          "description": "2010 paper by Hansen, et al. on analysis of global surface temperature change."
+        },
+        {
+          "icon": "🌎",
+          "title": "Improvements in the GISTEMP Uncertainty Model",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JD029522",
+          "description": "2019 paper by Lenssen, et al. detailing a new and improved uncertainty analysis for surface temperature anomalies."
+        },
+        {
+          "icon": "🌊",
+          "title": "National Centers for Environmental Information",
+          "url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00934",
+          "description": "NOAA Global Surface Temperature Dataset, Version 4.0"
+        },
+        {
+          "icon": "🔗",
+          "title": "Suggestion from ABohyn",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/1789",
+          "description": "Suggestion from ABohyn to recreate the \"Climate Spiral\""
+        },
+        {
+          "icon": "🔗",
+          "title": "p5.loadTable",
+          "url": "https://p5js.org/reference/#/p5/loadTable",
+          "description": "p5 documentation on the loadTable function."
+        },
+        {
+          "icon": "🔗",
+          "title": "p5.TableRow",
+          "url": "https://p5js.org/reference/#/p5.TableRow",
+          "description": "p5 documentation on the TableRow object."
+        },
+        {
+          "icon": "🔗",
+          "title": "lerpColor()",
+          "url": "https://p5js.org/reference/#/p5/lerpColor",
+          "description": "p5 documentation on the lerpColor function."
+        }
+      ]
     },
     {
       "title": "Videos",
-      "links": [ {
-        "icon": "🎥",
-        "title": "Climate spiral visualization by climate scientist Ed Hawkins",
-        "url": "https://www.youtube.com/watch?v=jWoCXLuTIkI",
-        "description": "This visualization shows monthly global temperature anomalies."
-      },
-      {
-        "icon": "🚂",
-        "title": "Polar Coordinates",
-        "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
-        "description": "My tutorial explaining polar coordinates."
-      },
-      {
-        "icon": "🚂",
-        "title": "Translate, Rotate, Push/Pop",
-        "url": "/tracks/transformations-in-p5/transformations/translate-rotate-push-pop",
-        "description": "In this video I cover the functions translate(), rotate(), push() and pop()."
-      }]
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Climate Spiral",
+          "url": "https://www.youtube.com/watch?v=jWoCXLuTIkI",
+          "description": "Visualization by climate scientist Ed Hawkins showing monthly global temperature anomalies."
+        },
+        {
+          "icon": "🚂",
+          "title": "Polar Coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "My tutorial explaining polar coordinates."
+        },
+        {
+          "icon": "🚂",
+          "title": "Translate, Rotate, Push/Pop",
+          "url": "/tracks/transformations-in-p5/transformations/translate-rotate-push-pop",
+          "description": "In this video I cover the functions translate(), rotate(), push() and pop()."
+        }
+      ]
     }
   ],
   "credits": [
