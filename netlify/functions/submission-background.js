@@ -111,7 +111,7 @@ exports.handler = async function (event) {
     json.author.instagram = postInfo.authorInstagram;
   }
 
-  const jsonString = JSON.stringify(json, null, 2);
+  const jsonString = JSON.stringify(json, null, 2) + '\n';
   const jsonContent = Buffer.from(jsonString).toString('base64');
 
   const jsonOpts = {
