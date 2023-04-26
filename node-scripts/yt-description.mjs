@@ -328,11 +328,11 @@ function writeDescription(video) {
     description += '\n';
 
     if (previousVideo)
-      description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=${challengePL}\n`;
+      description += `🎥 Previous: https://youtu.be/${previousVideo.data.videoId}?list=${challengePL}\n`;
 
     if (nextVideo)
-      description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=${challengePL}\n`;
-    description += `🎥 All videos: https://www.youtube.com/playlist?list=${challengePL}\n`;
+      description += `🎥 Next: https://youtu.be/${nextVideo.data.videoId}?list=${challengePL}\n`;
+    description += `🎥 All: https://www.youtube.com/playlist?list=${challengePL}\n`;
   } else {
     const path = video.pageURL.split('/');
     const videoDir = path.slice(2).join('/');
@@ -357,13 +357,13 @@ function writeDescription(video) {
         : '';
 
       if (previousVideo)
-        description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}${plId}\n`;
+        description += `🎥 Previous: https://youtu.be/${previousVideo.data.videoId}${plId}\n`;
 
       if (nextVideo)
-        description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}${plId}\n`;
+        description += `🎥 Next: https://youtu.be/${nextVideo.data.videoId}${plId}\n`;
 
       if (track.data.playlistId)
-        description += `🎥 All videos: https://www.youtube.com/playlist${plId}\n`;
+        description += `🎥 All: https://www.youtube.com/playlist${plId}\n`;
     }
   }
 
