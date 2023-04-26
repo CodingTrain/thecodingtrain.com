@@ -501,9 +501,9 @@ const allTracks = [...mainTracks, ...sideTracks];
     } catch (e) {
       // local index.json path
       let filePath = video;
-      if (!filePath.endsWith('index.json')) filePath = filePath + '/index.json';
-      filePath = path.normalize(filePath);
-      specifiedVideos = videos.filter((data) => data.filePath === filePath);
+      specifiedVideos = videos.filter((data) =>
+        data.filePath.startsWith(filePath)
+      );
     }
 
     if (specifiedVideos.length === 0) {
@@ -513,9 +513,11 @@ const allTracks = [...mainTracks, ...sideTracks];
 
     for (const video of specifiedVideos) {
       const description = writeDescription(video);
-      console.log('=====================================================');
-      console.log(description);
-      console.log('=====================================================');
+      if (specifiedVideos.length == 1) {
+        console.log('=====================================================');
+        console.log(description);
+        console.log('=====================================================');
+      }
 
       if (copyToClipboard) {
         try {
