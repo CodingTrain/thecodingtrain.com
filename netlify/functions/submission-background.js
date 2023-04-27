@@ -17,7 +17,7 @@ const crypto = require('crypto');
 //     challenge: "01-test",
 //     imageExtension: "png|jpg"
 //   },
-//   signature: "sha1=..."
+//   signature: "sha256"
 // }
 
 exports.handler = async function (event) {
