@@ -1,5 +1,6 @@
 const { Octokit } = require('@octokit/core');
 const sharp = require('sharp');
+const crypto = require('crypto');
 
 // event.body expected to be:
 // {
@@ -63,6 +64,7 @@ exports.handler = async function (event, context) {
   const owner = 'CodingTrain';
   const repo = 'thecodingtrain.com';
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+  const hmac = crypto.createHmac('sha256', process.env.GITHUB_TOKEN);
 
   /**
     Create the image blob
@@ -78,21 +80,26 @@ exports.handler = async function (event, context) {
   /**
     Pass the data to the background function
   **/
+  const payload = {
+    title: postInfo.title,
+    authorName: postInfo.authorName,
+    authorUrl: postInfo.authorUrl,
+    authorEmail: postInfo.authorEmail,
+    authorTwitter: postInfo.authorTwitter,
+    authorInstagram: postInfo.authorInstagram,
+    url: postInfo.url,
+    challenge: postInfo.challenge,
+    imageBlobSha: blobRes.data.sha,
+    imageExtension
+  };
+  const signature = hmac.update(JSON.stringify(payload)).digest('hex');
   await fetch(
     event.rawUrl.replace('submission-sync', 'submission-background'),
     {
       method: 'POST',
       body: JSON.stringify({
-        title: postInfo.title,
-        authorName: postInfo.authorName,
-        authorUrl: postInfo.authorUrl,
-        authorEmail: postInfo.authorEmail,
-        authorTwitter: postInfo.authorTwitter,
-        authorInstagram: postInfo.authorInstagram,
-        url: postInfo.url,
-        challenge: postInfo.challenge,
-        imageBlobSha: blobRes.data.sha,
-        imageExtension
+        payload,
+        signature
       }),
       headers: {
         'Content-Type': 'application/json'

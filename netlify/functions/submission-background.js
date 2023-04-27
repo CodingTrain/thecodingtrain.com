@@ -1,19 +1,23 @@
 const { Octokit } = require('@octokit/core');
 const slugify = require('slugify');
 const sharp = require('sharp');
+const crypto = require('crypto');
 
 // event.body expected to be:
 // {
-//   title: "Something",
-//   imageBlobSha: "sha",
-//   authorName: "Coding Train",
-//   authorUrl: "https://thecodingtrain.com",
-//   authorEmail: "help@thecodingtrain.com",
-//   authorTwitter: "@thecodingtrain",
-//   authorInstagram: "@the.coding.train"
-//   url: "https://thecodingtrain.com/tracks",
-//   challenge: "01-test",
-//   imageExtension: "png|jpg"
+//   payload: {
+//     title: "Something",
+//     imageBlobSha: "sha",
+//     authorName: "Coding Train",
+//     authorUrl: "https://thecodingtrain.com",
+//     authorEmail: "help@thecodingtrain.com",
+//     authorTwitter: "@thecodingtrain",
+//     authorInstagram: "@the.coding.train"
+//     url: "https://thecodingtrain.com/tracks",
+//     challenge: "01-test",
+//     imageExtension: "png|jpg"
+//   },
+//   signature: "sha1=..."
 // }
 
 exports.handler = async function (event) {
@@ -24,8 +28,15 @@ exports.handler = async function (event) {
     return;
   }
 
-  // parse payload
-  const postInfo = JSON.parse(event.body);
+  // parse payload and validate signature
+  const body = JSON.parse(event.body);
+  const postInfo = body.payload;
+  const hmac = crypto.createHmac('sha256', process.env.GITHUB_TOKEN);
+  const signature = hmac.update(JSON.stringify(postInfo)).digest('hex');
+  if (signature !== body.signature) {
+    console.error('Invalid signature');
+    return;
+  }
 
   // Shared properties
   const unix = Math.floor(Date.now() / 1000);
