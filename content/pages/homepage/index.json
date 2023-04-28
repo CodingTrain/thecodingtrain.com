@@ -33,13 +33,13 @@
     "featured": [
       "178-climate-spiral",
       "177-soft-body-character",
-      "74-clock",
-      "18-3d-fractal-trees",
-      "146-rendering-ray-casting",
-      "126-toothpicks",
-      "2-menger-sponge",
-      "162-self-avoiding-walk",
-      "c2-collatz-conjecture"
+      "34-diffusion-limited-aggregation",
+      "8-solar-system-3d",
+      "107-sandpiles",
+      "31-flappy-bird",
+      "10-dfs-maze-generator",
+      "159-simple-pendulum",
+      "47-pixel-sorting-in-processing"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,13 +50,15 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/74-clock/showcase/contribution6.json",
-      "challenges/74-clock/showcase/contribution8.json",
-      "challenges/18-3d-fractal-trees/showcase/contribution-1665505434.json",
-      "challenges/146-rendering-ray-casting/showcase/contribution6.json",
-      "challenges/126-toothpicks/showcase/contribution1.json",
-      "challenges/2-menger-sponge/showcase/contribution4.json",
-      "challenges/c2-collatz-conjecture/showcase/contribution9.json"
+      "challenges/178-climate-spiral/showcase/contribution-1682557977.json",
+      "challenges/178-climate-spiral/showcase/contribution-1682364413.json",
+      "challenges/34-diffusion-limited-aggregation/showcase/contribution1.json",
+      "challenges/8-solar-system-3d/showcase/contribution1.json",
+      "challenges/31-flappy-bird/showcase/contribution6.json",
+      "challenges/10-dfs-maze-generator/showcase/contribution-1669446174.json",
+      "challenges/159-simple-pendulum/showcase/contribution1.json",
+      "challenges/47-pixel-sorting-in-processing/showcase/contribution1.json",
+      "challenges/10-dfs-maze-generator/showcase/contribution18.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
