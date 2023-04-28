@@ -97,12 +97,10 @@ exports.handler = async function (event, context) {
     event.rawUrl.replace('submission-sync', 'submission-background'),
     {
       method: 'POST',
-      body: JSON.stringify({
-        payload,
-        signature
-      }),
+      body: JSON.stringify(payload),
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'X-Signature': signature
       }
     }
   );

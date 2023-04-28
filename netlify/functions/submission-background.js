@@ -5,20 +5,18 @@ const crypto = require('crypto');
 
 // event.body expected to be:
 // {
-//   payload: {
-//     title: "Something",
-//     imageBlobSha: "sha",
-//     authorName: "Coding Train",
-//     authorUrl: "https://thecodingtrain.com",
-//     authorEmail: "help@thecodingtrain.com",
-//     authorTwitter: "@thecodingtrain",
-//     authorInstagram: "@the.coding.train"
-//     url: "https://thecodingtrain.com/tracks",
-//     challenge: "01-test",
-//     imageExtension: "png|jpg"
-//   },
-//   signature: "sha256"
+//   title: "Something",
+//   imageBlobSha: "sha",
+//   authorName: "Coding Train",
+//   authorUrl: "https://thecodingtrain.com",
+//   authorEmail: "help@thecodingtrain.com",
+//   authorTwitter: "@thecodingtrain",
+//   authorInstagram: "@the.coding.train"
+//   url: "https://thecodingtrain.com/tracks",
+//   challenge: "01-test",
+//   imageExtension: "png|jpg"
 // }
+// X-Signature: sha256=...
 
 exports.handler = async function (event) {
   console.log('Background handler called with: ', event.body);
@@ -29,11 +27,10 @@ exports.handler = async function (event) {
   }
 
   // parse payload and validate signature
-  const body = JSON.parse(event.body);
-  const postInfo = body.payload;
+  const postInfo = JSON.parse(event.body);
   const hmac = crypto.createHmac('sha256', process.env.GITHUB_TOKEN);
   const signature = hmac.update(JSON.stringify(postInfo)).digest('hex');
-  if (signature !== body.signature) {
+  if (signature !== event.headers['x-signature']) {
     console.error('Invalid signature');
     return;
   }
