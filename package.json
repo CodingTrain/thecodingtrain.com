@@ -39,6 +39,7 @@
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-json": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
+    "node-fetch": "^2.6.9",
     "postcss": "^8.4.21",
     "postcss-calc": "^8.2.4",
     "postcss-custom-media": "^9.1.2",

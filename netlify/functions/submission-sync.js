@@ -1,6 +1,7 @@
 const { Octokit } = require('@octokit/core');
 const sharp = require('sharp');
 const crypto = require('crypto');
+const fetch = require('node-fetch');
 
 // event.body expected to be:
 // {
