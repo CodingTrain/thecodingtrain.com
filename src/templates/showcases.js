@@ -69,7 +69,9 @@ const ShowcasePage = ({ data, pageContext, location }) => {
                 />
                 {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
                 {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
-                {(i % 3 === 1 && i === contributions.length - 1 ? <div className={css.horizontalSpacerLast}></div> : null)}
+                {i % 3 === 1 && i === contributions.length - 1 ? (
+                  <div className={css.horizontalSpacerLast}></div>
+                ) : null}
               </Fragment>
             ))}
           </div>
@@ -80,7 +82,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query ($skip: Int, $limit: Int, $author: String!) {
+  query ($skip: Int, $limit: Int, $authorSlug: String!) {
     pageData: allShowcasePageInfo {
       nodes {
         title
@@ -88,7 +90,7 @@ export const query = graphql`
       }
     }
     contributions: contributionsPaginatedFilteredByTags(
-      author: $author
+      authorSlug: $authorSlug
       skip: $skip
       limit: $limit
     ) {
