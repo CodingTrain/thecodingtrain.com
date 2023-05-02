@@ -1,7 +1,7 @@
 {
   "title": "Pendulum on a cart with PID controller",
   "author": {
-    "name": "Ewoud Dronkert",
+    "name": "ednl",
     "url": "https://ednl.github.io"
   },
   "url": "https://ednl.github.io/pidcart/",
