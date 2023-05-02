@@ -343,16 +343,19 @@ exports.createShowcasePages = async (graphql, createPage) => {
     pathPrefix: '/showcase',
     component: require.resolve(`../src/templates/showcases.js`),
     context: {
-      author: ''
+      author: '',
+      authorSlug: ''
     }
   });
 
   for (let author of [...authors, '']) {
+    const authorSlug = toSlug(author);
+
     const {
       data: { filteredContributions }
     } = await graphql(`
         query {
-          filteredContributions: contributionsPaginatedFilteredByTags(author: "${author}")  {
+          filteredContributions: contributionsPaginatedFilteredByTags(authorSlug: "${authorSlug}")  {
             id
           }
         }
@@ -362,9 +365,9 @@ exports.createShowcasePages = async (graphql, createPage) => {
       createPage,
       items: filteredContributions,
       itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
-      pathPrefix: `/showcase/author/${!author ? 'all' : toSlug(author)}`,
+      pathPrefix: `/showcase/author/${!author ? 'all' : authorSlug}`,
       component: require.resolve(`../src/templates/showcases.js`),
-      context: { author }
+      context: { author, authorSlug }
     });
   }
 };
