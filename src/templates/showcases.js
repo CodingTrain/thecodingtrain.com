@@ -31,6 +31,9 @@ const ShowcasePage = ({ data, pageContext, location }) => {
       image={contributionsPlaceholder}
       itemsPath={itemsPath}
       variant={variant}
+      panelText="Add yours!"
+      panelButtonText="Submit"
+      panelButtonLink="/guides/passenger-showcase-guide"
       Character={DotCharacter}
       SeparatorCharacter={DotCharacter2}
       EndPageCharacter={RainbowCharacter}
