@@ -14,8 +14,10 @@ const Tags = memo(
     headerType = 'h2'
   }) => {
     const [showAll, setShowAll] = useState(false);
-    const visibleItems = showAll ? items : items.slice(0, 2);
+    const allowToggle = items.length > 3;
+    const visibleItems = !allowToggle || showAll ? items : items.slice(0, 2);
     const Header = headerType;
+
     return (
       <div
         className={cn(css.root, className, { [css.singleLine]: singleLine })}>
@@ -38,7 +40,7 @@ const Tags = memo(
           )
         )}
 
-        {items.length > 2 && !showAll && (
+        {allowToggle && (
           <button
             className={css.showButton}
             onClick={() => setShowAll((v) => !v)}>
