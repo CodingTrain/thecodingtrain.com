@@ -7,11 +7,13 @@ import * as css from './PassengerShowcaseForm.module.css';
 // event.body expected to be:
 // {
 //   title: "Something",
-//   image: "base64string="
-//   authorName: "Rune Madsen",
-//   authorUrl: "https://runemadsen.com",
-//   authorEmail: "rune@runemadsen.com",
-//   url: "https://runemadsen.github.io/rune.js/",
+//   image: "base64string=",
+//   authorName: "Coding Train",
+//   authorUrl: "https://thecodingtrain.com",
+//   authorEmail: "help@thecodingtrain.com",
+//   authorTwitter: "@thecodingtrain",
+//   authorInstagram: "@the.coding.train"
+//   url: "https://thecodingtrain.com/tracks",
 //   challenge: "01-test",
 // }
 
@@ -96,23 +98,22 @@ const PassengerShowcaseForm = () => {
       const submitState = Object.assign({}, state, { image: base64 });
 
       try {
-        const response = await fetch(
-          '/.netlify/functions/submission-background',
-          {
-            method: 'POST',
-            mode: 'cors',
-            cache: 'no-cache',
-            credentials: 'same-origin',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(submitState)
-          }
-        );
+        const response = await fetch('/.netlify/functions/submission-sync', {
+          method: 'POST',
+          mode: 'cors',
+          cache: 'no-cache',
+          credentials: 'same-origin',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(submitState)
+        });
+        const json = await response.json();
         if (response.ok) {
           setSubmitted(true);
           setState(defaultState);
         } else {
           setError(
-            'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
+            json.error ||
+              'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
           );
         }
       } catch (e) {

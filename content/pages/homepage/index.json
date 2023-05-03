@@ -31,15 +31,9 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "178-climate-spiral",
-      "177-soft-body-character",
       "34-diffusion-limited-aggregation",
-      "8-solar-system-3d",
-      "107-sandpiles",
-      "31-flappy-bird",
-      "10-dfs-maze-generator",
-      "159-simple-pendulum",
-      "47-pixel-sorting-in-processing"
+      "62-plinko-with-matterjs",
+      "c3-hilbert-curve"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -50,15 +44,9 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/178-climate-spiral/showcase/contribution-1682557977.json",
-      "challenges/178-climate-spiral/showcase/contribution-1682364413.json",
-      "challenges/34-diffusion-limited-aggregation/showcase/contribution1.json",
-      "challenges/8-solar-system-3d/showcase/contribution1.json",
-      "challenges/31-flappy-bird/showcase/contribution6.json",
-      "challenges/10-dfs-maze-generator/showcase/contribution-1669446174.json",
-      "challenges/159-simple-pendulum/showcase/contribution1.json",
-      "challenges/47-pixel-sorting-in-processing/showcase/contribution1.json",
-      "challenges/10-dfs-maze-generator/showcase/contribution18.json"
+      "challenges/76-10Print/showcase/contribution18.json",
+      "challenges/111-animated-sprites/showcase/contribution4.json",
+      "challenges/c2-collatz-conjecture/showcase/contribution11.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
@@ -75,8 +63,7 @@
   "support": {
     "title": "Support",
     "description": "Support the Coding Train and enjoy some perks!",
-    "options": [
-      {
+    "options": [{
         "text": "YouTube Membership",
         "href": "https://www.youtube.com/thecodingtrain/join",
         "buttonText": "Join on YouTube"
