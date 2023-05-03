@@ -14,8 +14,12 @@ const Tags = memo(
     headerType = 'h2'
   }) => {
     const [showAll, setShowAll] = useState(false);
-    const allowToggle = items.length > 3;
-    const visibleItems = !allowToggle || showAll ? items : items.slice(0, 2);
+    const truncatedSize = 2;
+    const overflowSize = items.length - truncatedSize;
+    const allowToggle = overflowSize > 1;
+    const visibleItems =
+      !allowToggle || showAll ? items : items.slice(0, truncatedSize);
+
     const Header = headerType;
 
     return (
@@ -30,12 +34,12 @@ const Tags = memo(
               to={linkTo(tag)}
               state={{ expanded: true }}>
               {tag}
-              {index !== items.length - 1 && ','}
+              {index !== visibleItems.length - 1 && ','}
             </Link>
           ) : (
             <span className={css.tag} key={tag}>
               {tag}
-              {index !== items.length - 1 && ','}
+              {index !== visibleItems.length - 1 && ','}
             </span>
           )
         )}
@@ -44,7 +48,7 @@ const Tags = memo(
           <button
             className={css.showButton}
             onClick={() => setShowAll((v) => !v)}>
-            Show {showAll ? 'less' : 'more'}
+            Show {showAll ? 'less' : `${overflowSize} more`}
           </button>
         )}
       </div>
