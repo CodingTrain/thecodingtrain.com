@@ -21,6 +21,9 @@ const ItemsPage = ({
   image,
   itemsPath,
   variant,
+  panelText = 'New to coding?',
+  panelButtonText = 'Start here',
+  panelButtonLink = '/guides/getting-started',
   Character,
   SeparatorCharacter,
   EndPageCharacter,
@@ -50,9 +53,9 @@ const ItemsPage = ({
       <PagePanel
         className={css.panel}
         description={description}
-        text="New to coding?"
-        buttonText="Start here"
-        buttonLink="/guides/getting-started"
+        text={panelText}
+        buttonText={panelButtonText}
+        buttonLink={panelButtonLink}
         variant="orange"
         bbColor={variant}
       />
