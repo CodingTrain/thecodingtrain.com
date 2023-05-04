@@ -267,11 +267,8 @@ const tagResolver = async (source, context, type) => {
     }
   }
 
-  // fetch all video nodes we found
-  const allVideos = await context.nodeModel.getNodesByIds({
-    ids: videoIds,
-    type: 'Video'
-  });
+  // fetch all video nodes we found (node types can be Video or Challenge)
+  const allVideos = await context.nodeModel.getNodesByIds({ ids: videoIds });
 
   // extract and dedupe tags
   for (let video of allVideos) {

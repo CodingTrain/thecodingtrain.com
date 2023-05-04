@@ -13,13 +13,20 @@ const Tags = memo(
     linkTo,
     headerType = 'h2'
   }) => {
-    const [showAll, setShowAll] = useState(false);
-    const visibleItems = showAll ? items : items.slice(0, 2);
+    const [truncate, setTruncate] = useState(true);
+    const truncateSize = 2;
+    const overflowSize = items.length - truncateSize;
+    const showToggle = overflowSize > 1;
+    const visibleItems =
+      showToggle && truncate ? items.slice(0, truncateSize) : items;
+
     const Header = headerType;
+
     return (
       <div
         className={cn(css.root, className, { [css.singleLine]: singleLine })}>
         <Header className={css.tagHeading}>{heading}</Header>
+
         {visibleItems.map((tag, index) =>
           linkTo ? (
             <Link
@@ -38,11 +45,11 @@ const Tags = memo(
           )
         )}
 
-        {items.length > 2 && !showAll && (
+        {showToggle && (
           <button
             className={css.showButton}
-            onClick={() => setShowAll((v) => !v)}>
-            Show {showAll ? 'less' : 'more'}
+            onClick={() => setTruncate((v) => !v)}>
+            {truncate ? `and ${overflowSize} more` : 'show less'}
           </button>
         )}
       </div>
