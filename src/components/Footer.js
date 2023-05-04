@@ -194,17 +194,15 @@ const Footer = () => {
               YouTube Member
             </a>
             ,{' '}
-            <a
-              href="https://subs.twitch.tv/codingtrainchoochoo"
-              {...externalLink}>
-              Twitch Subscriber
+            <a href="https://www.patreon.com/codingtrain" {...externalLink}>
+              Patreon Supporter
             </a>
             , or{' '}
             <a href="https://github.com/sponsors/shiffman" {...externalLink}>
-              GitHub sponsor
+              GitHub Sponsor
             </a>
             ! For questions about rewards and perks, write us an{' '}
-            <a href="mailto:membership@thecodingtrain.com" {...externalLink}>
+            <a href="mailto:help@thecodingtrain.com" {...externalLink}>
               email
             </a>
             .
