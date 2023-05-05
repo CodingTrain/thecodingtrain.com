@@ -12,6 +12,7 @@ import GuideCard from '../components/GuideCard';
 import DotCharacter from '../images/characters/ThisDot_5.mini.svg';
 import DotCharacter2 from '../images/characters/ThisDot_6.mini.svg';
 import MouseCharacter from '../images/characters/WheelstheMouse_3.mini.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 
 import * as css from '../styles/pages/guides.module.css';
 
@@ -41,6 +42,7 @@ const GuidesPage = ({ data }) => {
         buttonText="Start here"
         buttonLink="/guides/getting-started"
         variant="orange"
+        Character={TriangleCharacter}
         bbColor="orange"
       />
 
