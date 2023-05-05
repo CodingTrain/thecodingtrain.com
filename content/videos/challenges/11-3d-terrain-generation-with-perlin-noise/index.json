@@ -1,6 +1,6 @@
 {
-  "title": "3D Terrain Generation with Perlin Noise in Processing",
-  "description": "In this coding challenge, I create a 3D procedural terrain using Perlin Noise and the beginShape() function in Processing.",
+  "title": "3D Terrain Generation with Perlin Noise",
+  "description": "Let's fly to new heights with a 3D terrain coding challenge! Using Perlin Noise and beginShape() + endShape() with triangle strips, I'll guide you through visualizing a 3D procedural terrain in Processing.",
   "videoNumber": "11",
   "videoId": "IKB1hWWedMk",
   "nebulaSlug": "the-coding-train-coding-challenge-11-3d-terrain-generation-with-perlin-noise-in-processing",
