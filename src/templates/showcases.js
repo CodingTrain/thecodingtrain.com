@@ -9,6 +9,7 @@ import Spacer from '../components/Spacer';
 import DotCharacter from '../images/characters/ThisDot_7.mini.svg';
 import DotCharacter2 from '../images/characters/ThisDot_3.mini.svg';
 import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
+import DotCharacter3 from '../images/characters/ThisDot_6.mini.svg';
 
 import * as css from './showcases.module.css';
 
@@ -34,6 +35,8 @@ const ShowcasePage = ({ data, pageContext, location }) => {
       panelText="Add yours!"
       panelButtonText="Submit"
       panelButtonLink="/guides/passenger-showcase-guide"
+      panelVariant="purple"
+      panelCharacter={DotCharacter3}
       Character={DotCharacter}
       SeparatorCharacter={DotCharacter2}
       EndPageCharacter={RainbowCharacter}

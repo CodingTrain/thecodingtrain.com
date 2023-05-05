@@ -14,6 +14,7 @@ import * as css from './ItemsPage.module.css';
 import SemiColon from '../images/characters/SemiColon_3.mini.svg';
 import ZeroCharacter from '../images/characters/Zero_4.mini.svg';
 import ZeroCharacter2 from '../images/characters/Zero_3.mini.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 
 const ItemsPage = ({
   title,
@@ -24,6 +25,8 @@ const ItemsPage = ({
   panelText = 'New to coding?',
   panelButtonText = 'Start here',
   panelButtonLink = '/guides/getting-started',
+  panelVariant = 'orange',
+  panelCharacter = TriangleCharacter,
   Character,
   SeparatorCharacter,
   EndPageCharacter,
@@ -56,7 +59,8 @@ const ItemsPage = ({
         text={panelText}
         buttonText={panelButtonText}
         buttonLink={panelButtonLink}
-        variant="orange"
+        variant={panelVariant}
+        Character={panelCharacter}
         bbColor={variant}
       />
       <CharacterSpacer
