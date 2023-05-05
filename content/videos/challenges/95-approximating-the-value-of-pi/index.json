@@ -5,7 +5,7 @@
   "videoId": "5cNnf_7e92Q",
   "date": "2018-03-14",
   "languages": ["Processing"],
-  "topics": ["Monte Carlo simulation", "estimating Pi"],
+  "topics": ["Monte Carlo simulation", "Pi day", "Pi approximation"],
   "canContribute": true,
   "relatedChallenges": [
     "96-visualizing-digits-of-pi",
@@ -28,6 +28,7 @@
     {
       "title": "Approximating the Value of PI",
       "description": "This sketch uses a \"monte carlo\" method to approximate the value of PI.",
+      "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/bv_LWXvU5",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/095_Approximating_Pi/Processing/CC_095_Approximating_Pi"
