@@ -23,6 +23,9 @@ const GuidesPage = ({ data }) => {
     data.guidesPlaceholderImage.nodes.length > 0
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
+
+  const variant = 'purple';
+
   return (
     <Layout
       title={pageData.title}
@@ -30,7 +33,7 @@ const GuidesPage = ({ data }) => {
       image={guidesPlaceholderImage}>
       <Spacer />
       <header className={css.header}>
-        <Heading1 className={css.heading} variant="purple">
+        <Heading1 className={css.heading} variant={variant}>
           Guides
         </Heading1>
         <div className={css.character}>{<DotCharacter />}</div>
@@ -48,7 +51,7 @@ const GuidesPage = ({ data }) => {
 
       <CharacterSpacer
         className={css.sep}
-        variant="purple"
+        variant={variant}
         size="x2"
         side="right"
         offset={0.75}
@@ -71,7 +74,7 @@ const GuidesPage = ({ data }) => {
                 guide.cover?.file?.childImageSharp?.gatsbyImageData ??
                 guidesPlaceholderImage
               }
-              variant="purple"
+              variant={variant}
             />
             {i % 2 === 0 && (
               <div
