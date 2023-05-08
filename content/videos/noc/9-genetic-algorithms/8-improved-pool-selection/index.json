@@ -1,9 +1,9 @@
 {
-    "title": "Genetic Algorithm: Improved Pool Selection",
+    "title": "9.8 Improved Pool Selection",
     "description": "In this video, I look at yet another technique for \"pool selection\" -- how to pick an item randomly from an array with a non-uniform distribution, i.e. some elements have higher probability of being picked than others. I use this same method in my Traveling Salesperson coding challenge, but it can be applied more broadly.",
     "videoId": "ETphJASzYes",
     "date": "2016-05-03",
-    "languages": ["p5.js", "processing"],
+    "languages": ["p5.js"],
     "topics": ["pool selection", "probability"],
     "canContribute": true,
     "relatedChallenges": ["35-traveling-salesperson"],

@@ -1,5 +1,5 @@
 {
-    "title": "Genetic Algorithm: Pool Selection",
+    "title": "9.7 Pool Selection",
     "description": "In this Genetic Algorithm video, I discuss improvements and strategies for \"pool selection\" (such as rejection sampling / monte carlo simulation) to pick \"parents\" based on probabilities mapped to their fitness score.",
     "videoId": "816ayuhDo0E",
     "date": "2016-08-05",
@@ -54,11 +54,13 @@
             "description": "My Nature of Code book."
             },
             {
+                "icon": "🔗",
                 "title": "Genetic Algorithm: Random Pool Selection",
                 "url": "https://github.com/CodingTrain/Suggestion-Box/issues/119",
                 "description": "Algorithm suggested by sinclairzx81"
             },
             {
+                "icon": "🔗",
                 "title": "Rejection Sampling",
                 "url": "https://en.wikipedia.org/wiki/Rejection_sampling",
                 "description": "Wikipedia page with information about rejection sampling."

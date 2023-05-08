@@ -1,5 +1,5 @@
 {
-    "title": "Genetic Algorithm: Looking at Code",
+    "title": "9.4 Looking at Code",
     "description": "In part 4 of the series on Genetic Algorithm, I finally look at code! Using p5.js (and Processing / Java in the addendum), I implement the Shakespeare Monkey genetic algorithm example in JavaScript.",
     "videoId": "jv3CgDN9sc",
     "date": "2016-07-31",

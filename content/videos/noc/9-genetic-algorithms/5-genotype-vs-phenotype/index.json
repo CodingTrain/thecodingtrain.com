@@ -1,9 +1,9 @@
 {
-    "title": "Genetic Algorithm: Fitness, Genotype vs Phenotype",
+    "title": "9.5 Fitness, Genotype vs Phenotype",
     "description": "In part 5 of my genetic algorithm series I discuss how you can adapt the algorithm for your own creative project. The key pieces are designing and implementing a custom \"fitness function\" as well as how you choose to encode your DNA (genotype vs phenotype). ",
     "videoId": "_of6UVV4HGo",
     "date": "2016-08-01",
-    "languages": ["p5.js", "processing"],
+    "languages": ["p5.js"],
     "topics": ["genotype", "phenotype"],
     "canContribute": true,
     "relatedChallenges": ["", ""],
@@ -44,9 +44,10 @@
     "groupLinks": [{
         "title": "References",
         "links": [{
-                "title": "Link 1 title",
-                "url": "link 1 url",
-                "description": "description of content linked"
+            "icon": "🔗",
+            "title": "Nature of Code",
+            "url": "https://nature-of-code-2nd-edition.netlify.app/",
+            "description": "My Nature of Code book."
             },
             {
                 "icon": "🔗",
@@ -55,6 +56,7 @@
                 "description": "Computation Intelligence Car Evolution Using Box2D Physics (v3.2)"
             },
             {
+                "icon": "🔗",
                 "title": "Genetic Programming Mona Lisa",
                 "url": "https://rogerjohansson.blog/2008/12/07/genetic-programming-evolution-of-mona-lisa/",
                 "description": "A program that uses genetic programming to evolve the Mona Lisa."
@@ -65,9 +67,11 @@
         "title": "Videos",
         "links": [
             {
+
                 "title": "Videos",
                 "links": [
                   {
+                    "icon": "🚂",
                     "title": "Autonomous Agents and Steering",
                     "url": "/noc/5-autonomous-agents/1-steering-agents",
                     "description": "This video introduces the concepts of autonomous agents and provides an overview of implementing Craig Reynolds steering behaviors in Processing."

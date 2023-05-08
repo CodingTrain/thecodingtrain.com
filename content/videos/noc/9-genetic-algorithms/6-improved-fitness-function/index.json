@@ -1,9 +1,9 @@
 {
-    "title": "Genetic Algorithm: Improved Fitness Function",
+    "title": "9.6 Improved Fitness Function",
     "description": "In this video I look at strategies for improving the genetic algorithm's fitness function to improve efficiency and accuracy.",
     "videoId": "HzaLIO9dLbA",
     "date": "2016-08-05",
-    "languages": ["p5.js", "processing"],
+    "languages": ["p5.js"],
     "topics": ["fitness function", "topic2"],
     "canContribute": true,
     "relatedChallenges": ["29-smart-rockets-in-p5js"],
@@ -38,14 +38,6 @@
             "image": "image1.png",
             "urls": {
                 "p5": "https://editor.p5js.org/codingtrain/sketches/xkrHRPSKM"
-            }
-        },
-        {
-            "title": "Code example 2 title",
-            "description": "Code example 2 description",
-            "image": "image2.png",
-            "urls": {
-                "other": "url to other source, like GitHub"
             }
         }
     ],

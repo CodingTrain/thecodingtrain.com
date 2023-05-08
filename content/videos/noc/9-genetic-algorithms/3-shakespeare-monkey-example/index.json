@@ -1,9 +1,9 @@
 {
-    "title": "Genetic Algorithm: Shakespeare Monkey Example",
+    "title": "9.3 Shakespeare Monkey Example",
     "description": "Part 3 of the Genetic Algorithm series is dedicated to the Shakespeare Monkey Example. In this video, I use the evolutionary concepts from the previous video to compute a problem that a brute force algorithm wouldn't be able to solve. ",
     "videoId": "nrKjSeoc7fc",
     "date": "2016-07-30",
-    "languages": ["p5.js", "processing"],
+    "languages": ["p5.js"],
     "topics": ["mutation rate", "population"],
     "canContribute": true,
     "relatedChallenges": ["", ""],

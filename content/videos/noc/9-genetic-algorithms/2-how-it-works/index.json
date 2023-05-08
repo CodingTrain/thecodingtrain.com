@@ -1,9 +1,9 @@
 {
-    "title": "Genetic Algorithm: How it works",
+    "title": "9.2 How it works",
     "description": "In part 2 of this genetic algorithm series, I explain how the concepts behind Darwinian Natural Selection are applied to a computational evolutionary algorithm.",
-    "videoId": "YouTube video ID",
+    "videoId": "RxTfc4JLYKs",
     "date": "2016-07-29",
-    "languages": ["p5.js", "processing"],
+    "languages": ["p5.js"],
     "topics": ["darwinian selection", "genetic algorithm"],
     "canContribute": true,
     "relatedChallenges": ["", ""],
