@@ -6,7 +6,7 @@
     "languages": ["p5.js"],
     "topics": ["pool selection", "probability"],
     "canContribute": true,
-    "relatedChallenges": ["35-traveling-salesperson"],
+    "relatedChallenges": ["35-traveling-salesperson", "95-approximating-the-value-of-pi"],
     "timestamps": [{
             "time": "0:00",
             "title": "Hello"
@@ -49,11 +49,11 @@
         }
     ],
     "codeExamples": [{
-            "title": "",
-            "description": "",
-            "image": "",
+            "title": "Improved Pool Selection",
+            "description": "This sketch demonstrates another technique for pool selection.",
+            "image": "image1.png",
             "urls": {
-                "p5": ""
+                "p5": "https://editor.p5js.org/codingtrain/sketches/eBrC90hCl"
             }
         }
     ],
