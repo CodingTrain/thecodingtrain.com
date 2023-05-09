@@ -81,6 +81,21 @@
       ]
     },
     {
+      "title": "Cellular Automata",
+      "videos": [
+        "challenges/85-the-game-of-life"
+      ]
+    },
+    {
+      "title": "Fractals",
+      "videos": [
+        "challenges/77-recursion",
+        "challenges/14-fractal-trees-recursive",
+        "challenges/15-object-oriented-fractal-trees",
+        "challenges/16-l-system-fractal-trees"
+      ]
+    },
+    {
       "title": "Genetic Algorithms",
       "videos": [
         "noc/9-genetic-algorithms/1-introduction",
