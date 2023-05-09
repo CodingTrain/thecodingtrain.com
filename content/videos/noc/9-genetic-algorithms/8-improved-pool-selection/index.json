@@ -67,11 +67,13 @@
                 "description": "My Nature of Code book."
             },
             {
+                "icon": "🔗",
                 "title": "Even Better GA Selection Pool Algorithm",
                 "url": "https://github.com/CodingTrain/Suggestion-Box/issues/146",
                 "description": "Discussion from Spectrum about a better GA selection algorithm"
             },
             {
+                "icon": "🔗",
                 "title": "Genetic Algorithm: Random Pool Selection",
                 "url": "https://github.com/CodingTrain/Suggestion-Box/issues/119",
                 "description": "Algorithm suggested by sinclairzx81"
