@@ -81,22 +81,6 @@
       ]
     },
     {
-      "title": "Cellular Automata",
-      "videos": [
-        "85-the-game-of-life",
-        "123-chaos-game"
-      ]
-    },
-    {
-      "title": "Fractals",
-      "videos": [
-        "21-mandelbrot-set-with-p5js",
-        "22-julia-set",
-        "129-koch-fractal-snowflake",
-        "168-the-mandelbulb"
-      ]
-    },
-    {
       "title": "Genetic Algorithms",
       "videos": [
         "noc/9-genetic-algorithms/1-introduction",
