@@ -6,7 +6,7 @@
   "languages": ["p5.js"],
   "topics": ["genetic algorithm", "selection pool", "probability"],
   "canContribute": true,
-  "relatedChallenges": ["interactive selection", "Karl Sims", "fitness"],
+  "relatedChallenges": [""],
   "timestamps": [
     {
       "time": "0:00",
