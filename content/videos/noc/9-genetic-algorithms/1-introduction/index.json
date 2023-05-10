@@ -6,7 +6,7 @@
   "languages": ["p5.js", "processing"],
   "topics": ["genetic algorithm", "evolutionary computing"],
   "canContribute": true,
-  "relatedChallenges": ["", ""],
+  "relatedChallenges": [],
   "timestamps": [
     {
       "time": "0:00",
