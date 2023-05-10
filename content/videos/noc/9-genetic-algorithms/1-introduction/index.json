@@ -5,7 +5,7 @@
   "date": "2016-07-29",
   "languages": ["p5.js", "processing"],
   "topics": ["genetic algorithm", "evolutionary computing"],
-  "canContribute": true,
+  "canContribute": false,
   "relatedChallenges": [],
   "timestamps": [
     {
