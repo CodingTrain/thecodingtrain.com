@@ -1,0 +1,69 @@
+{
+  "title": "9.6 Improved Fitness Function",
+  "description": "In this video I look at strategies for improving the genetic algorithm's fitness function to improve efficiency and accuracy.",
+  "videoId": "HzaLIO9dLbA",
+  "date": "2016-08-05",
+  "languages": ["p5.js"],
+  "topics": ["fitness function", "topic2"],
+  "canContribute": true,
+  "relatedChallenges": ["29-smart-rockets-in-p5js"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello and welcome back!"
+    },
+    {
+      "time": "0:50",
+      "title": "Let's talk about the fitness function."
+    },
+    {
+      "time": "2:44",
+      "title": "Exponential fitness!"
+    },
+    {
+      "time": "3:17",
+      "title": "Let's try squared fitness."
+    },
+    {
+      "time": "4:12",
+      "title": "More power!!"
+    },
+    {
+      "time": "4:38",
+      "title": "Could you improve the smart rockets example?"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Shakespeare Improved Fitness",
+      "description": "Demonstration of using a genetic algorithm to perform a search",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xkrHRPSKM"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

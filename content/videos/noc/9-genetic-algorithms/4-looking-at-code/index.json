@@ -1,0 +1,95 @@
+{
+  "title": "9.4 Looking at Code",
+  "description": "In part 4 of the series on Genetic Algorithm, I finally look at code! Using p5.js (and Processing / Java in the addendum), I implement the Shakespeare Monkey genetic algorithm example in JavaScript.",
+  "videoId": "-jv3CgDN9sc",
+  "date": "2016-07-31",
+  "languages": ["p5.js", "processing"],
+  "topics": ["fitness", "matting pool", "crossover", "mutation"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Welcome!"
+    },
+    {
+      "time": "1:14",
+      "title": "Code organization"
+    },
+    {
+      "time": "2:41",
+      "title": "Creating the population"
+    },
+    {
+      "time": "5:54",
+      "title": "Calculating fitness"
+    },
+    {
+      "time": "8:40",
+      "title": "Picking the parents"
+    },
+    {
+      "time": "12:58",
+      "title": "Making a mating pool"
+    },
+    {
+      "time": "15:45",
+      "title": "Making a new generation"
+    },
+    {
+      "time": "17:15",
+      "title": "Crossover and mutation."
+    },
+    {
+      "time": "19:09",
+      "title": "That's everything."
+    },
+    {
+      "time": "20:27",
+      "title": "What could you create?"
+    },
+    {
+      "time": "21:30",
+      "title": "Processing code!"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Evolving Shakespeare",
+      "description": "Demonstration of using a genetic algorithm to perform a search",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/PqRSmKLQU"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Ascii Table",
+          "url": "https://www.asciitable.com",
+          "description": "American Standard Code for Information Interchange table"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
