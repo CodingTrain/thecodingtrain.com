@@ -32,7 +32,7 @@ const ItemsPage = ({
   EndPageCharacter,
   characterOrientation,
   children,
-  showPagination,
+  //
   previousPagePath,
   humanPageNumber,
   numberOfPages,
@@ -75,7 +75,7 @@ const ItemsPage = ({
 
       {children}
 
-      {showPagination ? (
+      {numberOfPages > 0 ? (
         <nav className={cn(css.paginationNav, { [css[variant]]: variant })}>
           <span>
             {previousPagePath && (
@@ -101,6 +101,7 @@ const ItemsPage = ({
           <ZeroCharacter className={css.squareBrackets} />
         </div>
       )}
+
       <Spacer pattern className={css.spacer} />
       <CharacterSpacer
         className={css.sep}

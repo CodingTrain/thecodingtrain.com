@@ -34,7 +34,7 @@ const GuidesPage = ({ data }) => {
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>
-          Guides
+          {pageData.title}
         </Heading1>
         <div className={css.character}>{<DotCharacter />}</div>
       </header>

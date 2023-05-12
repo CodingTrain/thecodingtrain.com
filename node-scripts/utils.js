@@ -1,8 +1,3 @@
-const slugify = require('slugify');
-
-const toSlug = (path) =>
-  slugify(path, { lower: true, trim: true }).replace('.', '-');
-
 const memoTagsCleanup = (wordReplacements, tagTransforms) => {
   const wordReplacementsMap = new Map();
   for (let [key, value] of Object.entries(wordReplacements)) {
@@ -61,6 +56,5 @@ const memoTagsCleanup = (wordReplacements, tagTransforms) => {
 };
 
 module.exports = {
-  toSlug,
   memoTagsCleanup
 };
