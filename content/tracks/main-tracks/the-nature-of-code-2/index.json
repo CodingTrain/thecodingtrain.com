@@ -79,6 +79,34 @@
         "noc/6-physics-libraries/5-matterjs-mouse-constraints",
         "challenges/177-soft-body-character"
       ]
+    },
+    {
+      "title": "Cellular Automata",
+      "videos": ["challenges/85-the-game-of-life"]
+    },
+    {
+      "title": "Fractals",
+      "videos": [
+        "challenges/77-recursion",
+        "challenges/14-fractal-trees-recursive",
+        "challenges/15-object-oriented-fractal-trees",
+        "challenges/16-l-system-fractal-trees"
+      ]
+    },
+    {
+      "title": "Genetic Algorithms",
+      "videos": [
+        "noc/9-genetic-algorithms/1-introduction",
+        "noc/9-genetic-algorithms/2-how-it-works",
+        "noc/9-genetic-algorithms/3-shakespeare-monkey-example",
+        "noc/9-genetic-algorithms/4-looking-at-code",
+        "noc/9-genetic-algorithms/5-genotype-vs-phenotype",
+        "noc/9-genetic-algorithms/6-improved-fitness-function",
+        "noc/9-genetic-algorithms/7-pool-selection",
+        "noc/9-genetic-algorithms/8-improved-pool-selection",
+        "noc/9-genetic-algorithms/9-interactive-selection",
+        "noc/9-genetic-algorithms/10-continuous-evolutionary-systems"
+      ]
     }
   ]
 }

@@ -195,7 +195,7 @@ exports.createTrackRelatedNode = (
         ),
         internal: {
           type: `Chapter`,
-          contentDigest: createContentDigest(data)
+          contentDigest: createContentDigest(chapter)
         }
       });
       chapters.push(newNode);

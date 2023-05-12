@@ -1,7 +1,6 @@
 {
   "title": "Local Storage in JavaScript with p5.js",
   "description": "What's the easiest and quickest way to have a p5 sketch re-start from where it last left off? Local Storage!",
-  "videoNumber": "Video number",
   "videoId": "_SRS8b4LcZ8",
   "nebulaSlug": "codingtrain-local-storage-in-javascript-with-p5js",
   "date": "2022-05-04",
@@ -21,7 +20,6 @@
     {
       "title": "Local Storage",
       "description": "Preserving the color of the sketch when reloading",
-      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/R-Z_q_4c3"
       }
@@ -29,7 +27,6 @@
     {
       "title": "Local Storage w/ Canvas",
       "description": "A drawable canvas that remembers what was drawn after reloading",
-      "image": "image2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/cLOmL8Td0"
       }

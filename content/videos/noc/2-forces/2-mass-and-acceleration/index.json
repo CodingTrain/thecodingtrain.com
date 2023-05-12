@@ -20,7 +20,6 @@
     {
       "title": "Mass & Forces",
       "description": "Simulating forces on objects with mass",
-      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/cDzEUXbjLD"
       }

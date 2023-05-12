@@ -158,6 +158,9 @@ type CodeUrls implements Node {
 type Author implements Node {
   name: String!
   url: String
+
+  # as resolver
+  nameSlug: String! 
 }
 
 type Chapter implements Node {
@@ -378,6 +381,6 @@ type SupportSection implements Node {
 type Query {
   tracksPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Track]
   challengesPaginatedFilteredByTags(language: String, topic: String, skip: Int, limit: Int): [Challenge]
-  contributionsPaginatedFilteredByTags(author: String, skip: Int, limit: Int): [Contribution]
+  contributionsPaginatedFilteredByTags(authorSlug: String, skip: Int, limit: Int): [Contribution]
 }
 `;

@@ -1,0 +1,97 @@
+{
+  "title": "9.8 Improved Pool Selection",
+  "description": "In this video, I look at yet another technique for \"pool selection\" -- how to pick an item randomly from an array with a non-uniform distribution, i.e. some elements have higher probability of being picked than others. I use this same method in my Traveling Salesperson coding challenge, but it can be applied more broadly.",
+  "videoId": "ETphJASzYes",
+  "date": "2016-05-03",
+  "languages": ["p5.js"],
+  "topics": ["pool selection", "probability"],
+  "canContribute": true,
+  "relatedChallenges": ["35-traveling-salesperson", "95-approximating-the-value-of-pi"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello"
+    },
+    {
+      "time": "5:52",
+      "title": "Explain improved algorithm"
+    },
+    {
+      "time": "7:20",
+      "title": "Github issues"
+    },
+    {
+      "time": "8:01",
+      "title": "Start coding"
+    },
+    {
+      "time": "8:41",
+      "title": "Normalize the fruit score"
+    },
+    {
+      "time": "10:44",
+      "title": "Pick a fruit randomly according to its probablity"
+    },
+    {
+      "time": "12:13",
+      "title": "Diagram the algorithm"
+    },
+    {
+      "time": "15:50",
+      "title": "Verify the algorithm works"
+    },
+    {
+      "time": "17:48",
+      "title": "Advantages of the algorithm"
+    },
+    {
+      "time": "18:16",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Improved Pool Selection",
+      "description": "This sketch demonstrates another technique for pool selection.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/eBrC90hCl"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Even Better GA Selection Pool Algorithm",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/146",
+          "description": "Discussion from Spectrum about a better GA selection algorithm"
+        },
+        {
+          "icon": "🔗",
+          "title": "Genetic Algorithm: Random Pool Selection",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/119",
+          "description": "Algorithm suggested by sinclairzx81"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

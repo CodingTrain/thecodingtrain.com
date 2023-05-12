@@ -39,7 +39,7 @@ describe('track videos `canonicalTrack`', () => {
 
   describe('canonicalTrack requirement', () => {
     for (const [videoPath, videoSlug, content] of trackVideos) {
-      const trackRefs = getTracksReferingToVideo(tracks, videoSlug);
+      const trackRefs = getTracksReferringToVideo(tracks, videoSlug);
 
       if (trackRefs.length > 1) {
         test(`video is referenced by ${trackRefs.length} tracks but doesn't have a canonicalTrack property ${videoPath} | Tracks: ${trackRefs}`, () => {
@@ -94,7 +94,7 @@ function getTracks() {
   return m;
 }
 
-function getTracksReferingToVideo(tracks, videoSlug) {
+function getTracksReferringToVideo(tracks, videoSlug) {
   const res = [];
   tracks.forEach(([path, content, videoSlugs], trackSlug) => {
     if (videoSlugs.includes(videoSlug)) {

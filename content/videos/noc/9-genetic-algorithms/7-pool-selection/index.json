@@ -1,0 +1,85 @@
+{
+  "title": "9.7 Pool Selection",
+  "description": "In this Genetic Algorithm video, I discuss improvements and strategies for \"pool selection\" (such as rejection sampling / monte carlo simulation) to pick \"parents\" based on probabilities mapped to their fitness score.",
+  "videoId": "816ayuhDo0E",
+  "date": "2016-08-05",
+  "languages": ["p5.js"],
+  "topics": ["pool selection", "accept reject"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello and welcome!"
+    },
+    {
+      "time": "0:25",
+      "title": "Let's talk about my algorithm for selection."
+    },
+    {
+      "time": "2:02",
+      "title": "Rejection sampling (accept reject)."
+    },
+    {
+      "time": "5:00",
+      "title": "Let's look at a accept reject example in processing."
+    },
+    {
+      "time": "7:17",
+      "title": "Let's make an acceptReject() function!"
+    },
+    {
+      "time": "12:31",
+      "title": "There's a few things we need to fix."
+    },
+    {
+      "time": "15:52",
+      "title": "Thanks for watching!"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Shakespeare Pool selection",
+      "description": "Demonstration of using a genetic algorithm to perform a search",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/6-rGiDsPD"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Genetic Algorithm: Random Pool Selection",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/119",
+          "description": "Algorithm suggested by sinclairzx81"
+        },
+        {
+          "icon": "🔗",
+          "title": "Rejection Sampling",
+          "url": "https://en.wikipedia.org/wiki/Rejection_sampling",
+          "description": "Wikipedia page with information about rejection sampling."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

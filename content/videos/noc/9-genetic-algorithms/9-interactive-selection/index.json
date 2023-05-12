@@ -1,0 +1,73 @@
+{
+  "title": "9.9 Interactive Selection",
+  "description": "In this genetic algorithms video, I discuss a technique known as \"interactive selection\" where the algorithm's fitness function is calculated based on user / viewer interaction.",
+  "videoId": "Zy_obitkyOE",
+  "date": "2016-08-09",
+  "languages": ["p5.js"],
+  "topics": ["genetic algorithm", "selection pool", "probability"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Welcome to another genetic algorithm video"
+    },
+    {
+      "time": "0:56",
+      "title": "Main design elements"
+    },
+    {
+      "time": "3:00",
+      "title": "Simple example"
+    },
+    {
+      "time": "4:00",
+      "title": "\"Rollover\" interaction to increment fitness values"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Interactive Selection",
+      "description": "This sketch demonstrates using interactive selction to increment the fitness values",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/natureofcode/sketches/dUeAaapkQ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Karl Sims Galapagos Interactive Exhibit",
+          "url": "http://www.karlsims.com/galapagos/",
+          "description": "Galápagos is an interactive media installation that allows visitors to \"evolve\" 3D animated forms."
+        },
+        {
+          "icon": "🔗",
+          "title": "Artificial Evolution for Computer Graphics",
+          "url": "http://www.karlsims.com/papers/siggraph91.html",
+          "description": "This paper describes how evolutionary techniques of variation and selection can be used to create complex simulated structures, textures, and motions for use in computer graphics and animation."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

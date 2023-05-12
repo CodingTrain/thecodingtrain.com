@@ -28,7 +28,7 @@
     {
       "title": "3D Knots",
       "description": "An implementation of Paul Bourke's formulae for 3D knots",
-      "image": "3d-knots",
+      "image": "3d-knots.png",
       "urls": {
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/087_3D_Knots/Processing",
         "p5": "https://editor.p5js.org/codingtrain/sketches/fa1rAWng9"

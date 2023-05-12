@@ -5,6 +5,7 @@
   "topics": ["For beginners"],
   "videoId": "P_xJMH8VvAE",
   "nebulaSlug": "coding-train-51-autonomous-steering-agents-introduction-the-nature-of-code",
+  "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Welcome to Chapter 5!" },
     { "time": "0:29", "title": "What is an autonomous agent?" },

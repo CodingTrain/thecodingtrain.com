@@ -28,6 +28,7 @@ const {
   createShowcasePages
 } = require('./node-scripts/page-generation');
 const set = require('lodash/set');
+const { toSlug } = require('./node-scripts/utils');
 
 exports.createSchemaCustomization = ({ actions }) =>
   actions.createTypes(schema);
@@ -266,11 +267,8 @@ const tagResolver = async (source, context, type) => {
     }
   }
 
-  // fetch all video nodes we found
-  const allVideos = await context.nodeModel.getNodesByIds({
-    ids: videoIds,
-    type: 'Video'
-  });
+  // fetch all video nodes we found (node types can be Video or Challenge)
+  const allVideos = await context.nodeModel.getNodesByIds({ ids: videoIds });
 
   // extract and dedupe tags
   for (let video of allVideos) {
@@ -310,15 +308,15 @@ const filterByTagsResolver = async (
   return entries;
 };
 
-const filterByAuthorResolver = async (args, context) => {
-  const { author, skip, limit } = args;
+const filterByAuthorSlugResolver = async (args, context) => {
+  const { authorSlug, skip, limit } = args;
 
   const query = {};
 
   set(query, 'sort.fields', ['submittedOn', 'title']);
   set(query, 'sort.order', ['DESC', 'ASC']);
 
-  if (author) set(query, `filter.author.name.eq`, author);
+  if (authorSlug) set(query, `filter.author.nameSlug.eq`, authorSlug);
   if (skip) set(query, 'skip', skip);
   if (limit) set(query, 'limit', limit);
 
@@ -434,6 +432,12 @@ exports.createResolvers = ({ createResolvers }) => {
         resolve: contributionSubmittedOnResolver
       }
     },
+    Author: {
+      nameSlug: {
+        type: 'String',
+        resolve: (source) => toSlug(source.name)
+      }
+    },
     Query: {
       tracksPaginatedFilteredByTags: {
         type: ['Track'],
@@ -462,7 +466,7 @@ exports.createResolvers = ({ createResolvers }) => {
       contributionsPaginatedFilteredByTags: {
         type: ['Contribution'],
         resolve: async (source, args, context, info) =>
-          await filterByAuthorResolver(args, context)
+          await filterByAuthorSlugResolver(args, context)
       }
     }
   };

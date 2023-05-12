@@ -45,6 +45,7 @@
     {
       "title": "The Barnsley Fern",
       "description": "This sketch implements the algorithm for the Barnsley Fern.",
+      "image": "fern.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/G4V940Y8V",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/108_barnsley_fern/Processing/CC_108_barnsley_fern"

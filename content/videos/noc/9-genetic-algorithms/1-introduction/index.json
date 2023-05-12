@@ -1,0 +1,65 @@
+{
+  "title": "9.1 Introduction",
+  "description": "Welcome to part 1 of a new series of videos focused on Evolutionary Computing, and more specifically, Genetic Algorithms. In this tutorial, I introduce the concept of a genetic algorithm, how it can be used to approach \"search\" problems and how it relates to brute force algorithms.",
+  "videoId": "9zfeTw-uFCw",
+  "date": "2016-07-29",
+  "languages": ["p5.js", "processing"],
+  "topics": ["genetic algorithm", "evolutionary computing"],
+  "canContribute": false,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello and welcome!"
+    },
+    {
+      "time": "1:16",
+      "title": "What is Evolutionary Computing?"
+    },
+    {
+      "time": "2:55",
+      "title": "Shakespeare Monkeys Problem"
+    },
+    {
+      "time": "3:48",
+      "title": "Brute Force Search"
+    },
+    {
+      "time": "8:33",
+      "title": "Exploring BoxCar 2D"
+    },
+    {
+      "time": "10:44",
+      "title": "What am I going to cover in future videos?"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Boxcar2D",
+          "url": "http://boxcar2d.com",
+          "description": "Computation Intelligence Car Evolution Using Box2D Physics (v3.2)"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
