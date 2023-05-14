@@ -54,7 +54,8 @@ export const paginate = ({
   component,
   context
 }) => {
-  const numberOfPages = Math.ceil(itemsTotal / itemsPerPage);
+  // always at least one page (so we can display the filters reset page state when no results instead of 404)
+  const numberOfPages = Math.max(1, Math.ceil(itemsTotal / itemsPerPage));
 
   const paginatePath = (i) => {
     if (i < 0 || i >= numberOfPages) return;

@@ -45,6 +45,7 @@ const TracksPage = ({ data, pageContext, location }) => {
       EndPageCharacter={AsteriskCharacter}
       characterOrientation="center"
       //
+      showPagination={tracks.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}

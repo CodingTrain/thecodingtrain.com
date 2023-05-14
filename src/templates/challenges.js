@@ -41,6 +41,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       EndPageCharacter={RainbowCharacter}
       characterOrientation="left"
       //
+      showPagination={challenges.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
       nextPagePath={pageContext.nextPagePath}

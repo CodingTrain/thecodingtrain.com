@@ -33,6 +33,7 @@ const ItemsPage = ({
   characterOrientation,
   children,
   //
+  showPagination,
   previousPagePath,
   humanPageNumber,
   numberOfPages,
@@ -75,7 +76,7 @@ const ItemsPage = ({
 
       {children}
 
-      {numberOfPages > 0 ? (
+      {showPagination ? (
         <nav className={cn(css.paginationNav, { [css[variant]]: variant })}>
           <span>
             {previousPagePath && (
