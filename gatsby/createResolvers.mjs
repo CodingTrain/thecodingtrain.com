@@ -154,16 +154,13 @@ const contributionSubmittedOnResolver = async (source, args, context, info) => {
     // extract the sequential number from the source JSON filename
     const [seqNumber] = source.name.match(/\d+/g);
 
-    // edge case where the sequential number is actually a timestamp yet `submittedOn` was not set
-    if (seqNumber.length > 6) return new Date(+seqNumber).toISOString();
-
     // NOTE: not all source.video nodes are of type `Video`. They all have a `date` property though so it's OK here.
     const { date } = await context.nodeModel.getNodeById({ id: source.video });
     const dateObj = new Date(date);
 
     // treat the sequential number as seconds and add them to the Coding Train video publish date
     // ex: published date of "2017-05-18", contribution filename of "contribution16.json" -> 2017-05-18T00:00:16.000Z
-    dateObj.setSeconds(dateObj.getSeconds() + seqNumber);
+    dateObj.setSeconds(dateObj.getSeconds() + Number(seqNumber));
 
     return dateObj.toISOString();
   }
