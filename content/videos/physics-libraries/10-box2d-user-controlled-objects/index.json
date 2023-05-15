@@ -53,6 +53,14 @@
           "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/YzFpEGdsl"
           }
+        },
+        {
+          "title": "Kinematic Test",
+          "description": "This sketch shows how to move objects with a mouse joint.",
+          "image": "image1.png",
+          "urls": {
+            "pprocessing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/KinematicTest"
+          }
         }
       ],
     "groupLinks": [

@@ -43,7 +43,8 @@
           "description": "This sketch shows how to bind two bodies with a distance joint.",
           "image": "image1.png",
           "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/z81mVmgqG"
+            "p5": "https://editor.p5js.org/codingtrain/sketches/z81mVmgqG",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_6_DistanceJoint"
           }
         }
       ],

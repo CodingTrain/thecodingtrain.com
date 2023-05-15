@@ -43,7 +43,8 @@
           "description": "This sketch shows how to bind two bodies with a revolute joint.",
           "image": "image1.png",
           "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/Yavir3em0"
+            "p5": "https://editor.p5js.org/codingtrain/sketches/Yavir3em0",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_7_RevoluteJoint"
           }
         }
       ],
