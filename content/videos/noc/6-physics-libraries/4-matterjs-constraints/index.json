@@ -8,6 +8,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["physics engine", "matter.js"],
   "canContribute": true,
+  "canonicalTrack": "the-nature-of-code-2",
   "timestamps": [
     {
       "time": "0:00",
