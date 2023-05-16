@@ -33,7 +33,7 @@
     {
       "title": "Attraction Apply Force",
       "description": "This sketch shows how to add forces.",
-      "image": "image1.png",
+      "image": "example1.png",
       "urls": {
         "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/Exercise_5_10_AttractionApplyForce"
       }
