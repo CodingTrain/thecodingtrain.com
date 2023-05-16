@@ -41,6 +41,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
       SeparatorCharacter={DotCharacter2}
       EndPageCharacter={RainbowCharacter}
       characterOrientation="center"
+      //
       showPagination={contributions.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}

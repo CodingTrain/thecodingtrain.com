@@ -32,6 +32,7 @@ const ItemsPage = ({
   EndPageCharacter,
   characterOrientation,
   children,
+  //
   showPagination,
   previousPagePath,
   humanPageNumber,
@@ -101,6 +102,7 @@ const ItemsPage = ({
           <ZeroCharacter className={css.squareBrackets} />
         </div>
       )}
+
       <Spacer pattern className={css.spacer} />
       <CharacterSpacer
         className={css.sep}
