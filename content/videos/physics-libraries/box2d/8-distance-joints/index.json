@@ -39,7 +39,7 @@
   ],
   "codeExamples": [
     {
-      "title": "",
+      "title": "Distance Joints",
       "description": "This sketch shows how to bind two bodies with a distance joint.",
       "image": "image1.png",
       "urls": {
