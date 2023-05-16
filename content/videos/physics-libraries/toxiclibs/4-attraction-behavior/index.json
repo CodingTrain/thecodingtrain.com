@@ -5,7 +5,7 @@
     "nebulaSlug": "",
     "date": "2015-07-08",
     "languages": ["java"],
-    "topics": ["physics engine", "ToxicLibs"],
+    "topics": ["physics engine", "ToxicLibs", "attraction"],
     "canContribute": true,
     "timestamps": [{
             "time": "0:00",
