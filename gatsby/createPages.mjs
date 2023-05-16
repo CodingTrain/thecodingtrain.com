@@ -1,40 +1,23 @@
-const { paginate } = require('gatsby-awesome-pagination');
-const { toSlug } = require('./utils');
-const { writeFile } = require('fs/promises');
-const get = require('lodash/get');
+import path from 'node:path';
+import { writeFile } from 'node:fs/promises';
+import { toSlug, paginate, extractTags } from './utils.mjs';
 
 const ITEMS_PER_PAGE = 50; // tracks and challenges
 const SHOWCASE_ITEMS_PER_PAGE = 51; // showcase has 3 cols
-
-const extractTags = (nodes, pluckPath) => {
-  const set = new Set();
-  nodes.forEach((node) => {
-    const val = get(node, pluckPath);
-    if (typeof val === 'string') {
-      set.add(val);
-    } else {
-      val.forEach((v) => set.add(v));
-    }
-  });
-
-  return [...set].sort((a, b) => {
-    return a.localeCompare(b, 'en', { sensitivity: 'base' });
-  });
-};
 
 /**
  * Creates Gatsby slices
  * @param {function} createSlice - Gatsby's createSlice function
  */
-exports.createSlices = async (createSlice) => {
+const createSlices = async (createSlice) => {
   createSlice({
     id: `TopBar`,
-    component: require.resolve(`../src/components/TopBar.js`)
+    component: path.resolve(`./src/components/TopBar.js`)
   });
 
   createSlice({
     id: `Footer`,
-    component: require.resolve(`../src/components/Footer.js`)
+    component: path.resolve(`./src/components/Footer.js`)
   });
 };
 
@@ -43,7 +26,7 @@ exports.createSlices = async (createSlice) => {
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createChallengesPages = async (graphql, createPage) => {
+const createChallengesPages = async (graphql, createPage) => {
   const {
     data: { challenges }
   } = await graphql(`
@@ -72,7 +55,7 @@ exports.createChallengesPages = async (graphql, createPage) => {
     // challenge, contributions and images in front-end
     createPage({
       path: `challenges/${challenge.slug}`,
-      component: require.resolve(`../src/templates/challenge.js`),
+      component: path.resolve(`./src/templates/challenge.js`),
       context: {
         id: challenge.id,
         slug: challenge.slug
@@ -80,12 +63,14 @@ exports.createChallengesPages = async (graphql, createPage) => {
     });
   });
 
+  const component = path.resolve(`./src/templates/challenges.js`);
+
   paginate({
     createPage,
-    items: challenges.nodes,
+    itemsTotal: challenges.nodes.length,
     itemsPerPage: ITEMS_PER_PAGE,
     pathPrefix: '/challenges',
-    component: require.resolve(`../src/templates/challenges.js`),
+    component,
     context: {
       topic: '',
       language: ''
@@ -106,12 +91,12 @@ exports.createChallengesPages = async (graphql, createPage) => {
 
       paginate({
         createPage,
-        items: filteredChallenges,
+        itemsTotal: filteredChallenges.length,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/challenges/lang/${
           !language ? 'all' : toSlug(language)
         }/topic/${!topic ? 'all' : toSlug(topic)}`,
-        component: require.resolve(`../src/templates/challenges.js`),
+        component,
         context: { topic, language }
       });
     }
@@ -123,7 +108,9 @@ exports.createChallengesPages = async (graphql, createPage) => {
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createTracksPages = async (graphql, createPage) => {
+const createTracksPages = async (graphql, createPage) => {
+  const component = path.resolve(`./src/templates/tracks.js`);
+
   const {
     data: { tracks }
   } = await graphql(`
@@ -149,10 +136,10 @@ exports.createTracksPages = async (graphql, createPage) => {
 
   paginate({
     createPage,
-    items: tracks.nodes,
+    itemsTotal: tracks.nodes.length,
     itemsPerPage: ITEMS_PER_PAGE,
     pathPrefix: '/tracks',
-    component: require.resolve(`../src/templates/tracks.js`),
+    component,
     context: {
       topic: '',
       language: ''
@@ -164,21 +151,21 @@ exports.createTracksPages = async (graphql, createPage) => {
       const {
         data: { filteredTracks }
       } = await graphql(`
-      query {
-        filteredTracks: tracksPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
-          id
+        query {
+          filteredTracks: tracksPaginatedFilteredByTags(language: "${language}", topic: "${topic}")  {
+            id
+          }
         }
-      }
       `);
 
       paginate({
         createPage,
-        items: filteredTracks,
+        itemsTotal: filteredTracks.length,
         itemsPerPage: ITEMS_PER_PAGE,
         pathPrefix: `/tracks/lang/${
           !language ? 'all' : toSlug(language)
         }/topic/${!topic ? 'all' : toSlug(topic)}`,
-        component: require.resolve(`../src/templates/tracks.js`),
+        component,
         context: { topic, language }
       });
     }
@@ -190,7 +177,9 @@ exports.createTracksPages = async (graphql, createPage) => {
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createTrackVideoPages = async (graphql, createPage) => {
+const createTrackVideoPages = async (graphql, createPage) => {
+  const component = path.resolve(`./src/templates/track-video.js`);
+
   const { data } = await graphql(`
     query {
       tracks: allTrack {
@@ -222,10 +211,9 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
       : track.videos[0];
 
     // Create track intro page with first video
-
     createPage({
       path: `tracks/${track.slug}`,
-      component: require.resolve(`../src/templates/track-video.js`),
+      component,
       context: {
         isTrackPage: true,
         trackId: track.id,
@@ -235,6 +223,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         trackPosition: { chapterIndex: 0, videoIndex: 0 }
       }
     });
+
     // For a main track, each video has it's own URL and page
     // Context is passed so that front-end correctly loads related data
     if (track.chapters) {
@@ -242,14 +231,14 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
         chapter.videos.forEach((video, videoIndex) => {
           createPage({
             path: `tracks/${track.slug}/${video.slug}`,
-            component: require.resolve(`../src/templates/track-video.js`),
+            component,
             context: {
               isTrackPage: false,
               trackId: track.id,
               videoId: video.id,
               videoSlug: video.slug,
               source: video.source,
-              trackPosition: { chapterIndex, videoIndex: videoIndex }
+              trackPosition: { chapterIndex, videoIndex }
             }
           });
         });
@@ -259,7 +248,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
       track.videos.forEach((video, videoIndex) => {
         createPage({
           path: `tracks/${track.slug}/${video.slug}`,
-          component: require.resolve(`../src/templates/track-video.js`),
+          component,
           context: {
             isTrackPage: false,
             trackId: track.id,
@@ -279,7 +268,7 @@ exports.createTrackVideoPages = async (graphql, createPage) => {
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createGuidePages = async (graphql, createPage) => {
+const createGuidePages = async (graphql, createPage) => {
   const { data } = await graphql(`
     query {
       mdxs: allMdx {
@@ -295,7 +284,7 @@ exports.createGuidePages = async (graphql, createPage) => {
     }
   `);
 
-  const template = require.resolve(`../src/templates/guide.js`);
+  const template = path.resolve(`./src/templates/guide.js`);
 
   data.mdxs.nodes.forEach((mdx) => {
     createPage({
@@ -313,7 +302,9 @@ exports.createGuidePages = async (graphql, createPage) => {
  * @param {function} graphql - Gatsby's graphql function
  * @param {function} createPage - Gatsby's createPage function
  */
-exports.createShowcasePages = async (graphql, createPage) => {
+const createShowcasePages = async (graphql, createPage) => {
+  const component = path.resolve(`./src/templates/showcases.js`);
+
   const {
     data: { contributions }
   } = await graphql(`
@@ -338,10 +329,10 @@ exports.createShowcasePages = async (graphql, createPage) => {
 
   paginate({
     createPage,
-    items: contributions.nodes,
+    itemsTotal: contributions.nodes.length,
     itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
     pathPrefix: '/showcase',
-    component: require.resolve(`../src/templates/showcases.js`),
+    component,
     context: {
       author: '',
       authorSlug: ''
@@ -363,11 +354,25 @@ exports.createShowcasePages = async (graphql, createPage) => {
 
     paginate({
       createPage,
-      items: filteredContributions,
+      itemsTotal: filteredContributions.length,
       itemsPerPage: SHOWCASE_ITEMS_PER_PAGE,
       pathPrefix: `/showcase/author/${!author ? 'all' : authorSlug}`,
-      component: require.resolve(`../src/templates/showcases.js`),
+      component,
       context: { author, authorSlug }
     });
   }
+};
+
+// ---
+
+export const createPages = async function ({ actions, graphql }) {
+  const { createPage, createSlice } = actions;
+
+  await createSlices(createSlice);
+
+  await createTrackVideoPages(graphql, createPage);
+  await createTracksPages(graphql, createPage);
+  await createChallengesPages(graphql, createPage);
+  await createGuidePages(graphql, createPage);
+  await createShowcasePages(graphql, createPage);
 };

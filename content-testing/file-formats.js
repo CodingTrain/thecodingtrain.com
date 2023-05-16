@@ -222,31 +222,6 @@ const faq = {
   }
 };
 
-const talk = {
-  name: 'talk',
-  init: {
-    type: 'object',
-    properties: {
-      title: {
-        isRequired: true,
-        type: 'string'
-      },
-      meta: {
-        isRequired: true,
-        type: 'string'
-      },
-      description: {
-        isRequired: true,
-        type: 'string'
-      },
-      link: {
-        isRequired: true,
-        type: 'string'
-      }
-    }
-  }
-};
-
 const collaborators = {
   name: 'collaborators',
   init: {
@@ -279,6 +254,5 @@ module.exports = {
   contribution,
   faq,
   faqPage,
-  talk,
   collaborators
 };

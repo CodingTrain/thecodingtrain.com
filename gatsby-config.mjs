@@ -47,19 +47,9 @@ export default {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'pages',
-        path: './src/pages/'
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
         name: 'videos',
         path: './content/videos',
-        ignore: [
-          './**/videos/challenges/**/*'
-          // './**/videos/guest-tutorials/**/*'
-        ]
+        ignore: ['./**/videos/challenges/**/*']
       }
     },
     {
@@ -69,14 +59,6 @@ export default {
         path: './content/videos/challenges'
       }
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'guest-tutorials',
-    //     path: './content/videos/guest-tutorials',
-    //     ignore: ['./**/src']
-    //   },
-    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -89,6 +71,13 @@ export default {
       options: {
         name: 'side-tracks',
         path: './content/tracks/side-tracks'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'tracks-order',
+        path: './content/tracks/index.json'
       }
     },
     {
