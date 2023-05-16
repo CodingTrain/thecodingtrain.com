@@ -1,7 +1,6 @@
 {
-    "title": "6.8 ToxicLibs - Connected Systems",
+    "title": "ToxicLibs - Connected Systems",
     "description": "This video explains how to add systems of connected particles.",
-    "videoNumber": "5.15",
     "videoId": "YskU_gJpc0c",
     "nebulaSlug": "",
     "date": "2015-08-07",
@@ -42,11 +41,21 @@
         }
     ],
     "codeExamples": [{
-        "title": "Connected Systems",
-        "description": "This sketch shows how to connect systems of nodes",
+        "title": "Simple Cluster",
+        "description": "This sketch shows how to create a simple cluster",
         "image": "img1.png",
         "urls": {
-            "p5": "https://editor.p5js.org/natureofcode/sketches/_tbPaFqVX"
+            "p5": "https://editor.p5js.org/natureofcode/sketches/_tbPaFqVX",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/toxiclibs/NOC_5_12_SimpleCluster"
+        }
+    },
+    {
+        "title": "Force Directed Graph",
+        "description": "This sketch shows how to connect systems of nodes",
+        "image": "img2.png",
+        "urls": {
+            "p5": "",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/toxiclibs/Exercise_5_15_ForceDirectedGraph"
         }
     }],
     "groupLinks": [{
@@ -59,9 +68,15 @@
                 },
                 {
                     "icon": "🔗",
-                    "title": "ToxicLibs",
-                    "url": "https://brm.io/matter-js/",
-                    "description": "Webpage for the matter.js physics library."
+                    "title": "ToxicLibs.js",
+                    "url": "http://haptic-data.com/toxiclibsjs/",
+                    "description": "Port of ToxicLibs to javascript."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ToxicLibs Java Reference",
+                    "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+                    "description": "Documentation for the ToxicLibs libary."
                 }
             ]
         },

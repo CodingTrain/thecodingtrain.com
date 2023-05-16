@@ -1,12 +1,11 @@
 {
-    "title": "6.7 ToxicLibs - Particles and Springs",
+    "title": "ToxicLibs - Particles and Springs",
     "description": "This video explains how to use particles and springs to create bodies using the ToxicLibs libary.",
-    "videoNumber": "5.14",
     "videoId": "3v7SsOdxxww",
     "nebulaSlug": "",
     "date": "2015-08-07",
     "languages": ["java"],
-    "topics": ["physics engine", "ToxicLibs"],
+    "topics": ["physics engine", "ToxicLibs", "springs"],
     "canContribute": true,
     "timestamps": [{
             "time": "0:00",
@@ -56,9 +55,10 @@
     "codeExamples": [{
         "title": "Particles and Springs",
         "description": "Basic example showing how to add boxes to the world.",
-        "image": "img1.png",
+        "image": "image1.png",
         "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/TTLci4292"
+            "p5": "https://editor.p5js.org/codingtrain/sketches/TTLci4292",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/blob/master/chp05_physicslibraries/toxiclibs/NOC_5_10_SimpleSpring/NOC_5_10_SimpleSpring.pde"
         }
     }],
     "groupLinks": [{
@@ -71,9 +71,15 @@
                 },
                 {
                     "icon": "🔗",
-                    "title": "ToxicLibs",
-                    "url": "https://brm.io/matter-js/",
-                    "description": "Webpage for the matter.js physics library."
+                    "title": "ToxicLibs.js",
+                    "url": "http://haptic-data.com/toxiclibsjs/",
+                    "description": "Port of ToxicLibs to javascript."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ToxicLibs Java Reference",
+                    "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+                    "description": "Documentation for the ToxicLibs libary."
                 }
             ]
         },

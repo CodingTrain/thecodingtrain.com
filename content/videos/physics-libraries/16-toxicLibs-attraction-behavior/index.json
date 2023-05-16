@@ -1,7 +1,6 @@
 {
-    "title": "6.9 ToxicLibs - Attraction Behavior",
+    "title": "ToxicLibs - Attraction Behavior",
     "description": "This video explains how to add an attraction behavior to a particle.",
-    "videoNumber": "5.16",
     "videoId": "hSU19ICZVk4",
     "nebulaSlug": "",
     "date": "2015-07-08",
@@ -42,7 +41,8 @@
         "description": "This sketch shows how to add an attraction behavior.",
         "image": "img1.png",
         "urls": {
-            "p5": "https://editor.p5js.org/natureofcode/sketches/tjIs8XaXP"
+            "p5": "https://editor.p5js.org/natureofcode/sketches/tjIs8XaXP",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/toxiclibs/NOC_5_13_AttractRepel"
         }
     }],
     "groupLinks": [{
@@ -55,9 +55,15 @@
                 },
                 {
                     "icon": "🔗",
-                    "title": "ToxicLibs",
-                    "url": "https://brm.io/matter-js/",
-                    "description": "Webpage for the matter.js physics library."
+                    "title": "ToxicLibs.js",
+                    "url": "http://haptic-data.com/toxiclibsjs/",
+                    "description": "Port of ToxicLibs to javascript."
+                },
+                {
+                    "icon": "🔗",
+                    "title": "ToxicLibs Java Reference",
+                    "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+                    "description": "Documentation for the ToxicLibs libary."
                 }
             ]
         },
