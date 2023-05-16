@@ -51,7 +51,8 @@
           "description": "This sketch shows how to move objects with a mouse joint.",
           "image": "image1.png",
           "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/YzFpEGdsl"
+            "p5": "https://editor.p5js.org/codingtrain/sketches/YzFpEGdsl",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_8_MouseJoint"
           }
         },
         {
@@ -59,7 +60,7 @@
           "description": "This sketch shows how to move objects with a mouse joint.",
           "image": "image1.png",
           "urls": {
-            "pprocessing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/KinematicTest"
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/KinematicTest"
           }
         }
       ],

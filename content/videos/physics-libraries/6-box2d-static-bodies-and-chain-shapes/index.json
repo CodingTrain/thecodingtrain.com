@@ -71,7 +71,8 @@
           "description": "This sketch shows how to add static bodies to the Box2d world.",
           "image": "image1.png",
           "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/PnwZTyi5l"
+            "p5": "https://editor.p5js.org/codingtrain/sketches/PnwZTyi5l",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_2_Boxes"
           }
         },
         {
@@ -79,7 +80,8 @@
             "description": "This sketch shows how to add chain shapes bodies to the Box2d world.",
             "image": "image2.png",
             "urls": {
-              "p5": "https://editor.p5js.org/codingtrain/sketches/hSYvXedWB"
+              "p5": "https://editor.p5js.org/codingtrain/sketches/hSYvXedWB",
+              "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_3_ChainShape_Simple"
             }
           }
       ],

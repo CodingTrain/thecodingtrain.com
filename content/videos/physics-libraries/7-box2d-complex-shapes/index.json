@@ -51,7 +51,8 @@
           "description": "This sketch shows how to add polygon bodies to the Box2d world.",
           "image": "image1.png",
           "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/hiAzkgd8N"
+            "p5": "https://editor.p5js.org/codingtrain/sketches/hiAzkgd8N",
+            "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_4_Polygons"
           }
         },
         {
@@ -59,7 +60,8 @@
             "description": "This sketch shows how to add multi-shape bodies to the Box2d world.",
             "image": "image2.png",
             "urls": {
-              "p5": "https://editor.p5js.org/codingtrain/sketches/ssItBjtrF"
+              "p5": "https://editor.p5js.org/codingtrain/sketches/ssItBjtrF",
+              "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes"
             }
           }
       ],
