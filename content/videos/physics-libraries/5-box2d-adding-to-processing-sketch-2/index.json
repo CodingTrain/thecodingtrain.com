@@ -87,6 +87,12 @@
           },
           {
             "icon": "🔗",
+            "title": "Nature of Code Processing Examples",
+            "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+            "description": "Processing examples for NOC book."
+          },
+          {
+            "icon": "🔗",
             "title": "Box2D",
             "url": "https://box2d.org",
             "description": "A 2D Physics Engine for Games"
