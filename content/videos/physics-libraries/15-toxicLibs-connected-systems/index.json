@@ -5,8 +5,9 @@
     "nebulaSlug": "",
     "date": "2015-08-07",
     "languages": ["java"],
-    "topics": ["physics engine", "ToxicLibs", "force directed graph"],
+    "topics": ["physics engine", "ToxicLibs", "cluster", "force directed graph"],
     "canContribute": true,
+    "relatedChallenges": ["20-3d-cloth-simulation", "63-texturing-cloth-simulation", "177-soft-body-character"],
     "timestamps": [{
             "time": "0:00",
             "title": "Introduction"
@@ -54,7 +55,7 @@
         "description": "This sketch shows how to connect systems of nodes",
         "image": "img2.png",
         "urls": {
-            "p5": "",
+            "p5": "https://editor.p5js.org/natureofcode/sketches/WexUSx7dN",
             "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/toxiclibs/Exercise_5_15_ForceDirectedGraph"
         }
     }],
