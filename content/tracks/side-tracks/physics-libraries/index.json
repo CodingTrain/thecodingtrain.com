@@ -8,14 +8,14 @@
     "noc/6-physics-libraries/4-matterjs-constraints",
     "noc/6-physics-libraries/5-matterjs-mouse-constraints",
     "challenges/62-plinko-with-matterjs",
-    "challenges/138-angry-birds-with-matterjs"
+    "challenges/138-angry-birds-with-matterjs",
     "physics-libraries/toxiclibs/1-introduction",
     "physics-libraries/toxiclibs/2-particles-and-springs",
     "physics-libraries/toxiclibs/3-connected-systems",
     "physics-libraries/toxiclibs/4-attraction-behavior",
-    "challenges/20-3d-cloth-simulation"
+    "challenges/20-3d-cloth-simulation",
     "challenges/63-texturing-cloth-simulation",
-    "challenges/177-soft-body-character"
+    "challenges/177-soft-body-character",
     "physics-libraries/box2d/1-introduction",
     "physics-libraries/box2d/2-central-elements",
     "physics-libraries/box2d/3-coordinate-and-vectors",
