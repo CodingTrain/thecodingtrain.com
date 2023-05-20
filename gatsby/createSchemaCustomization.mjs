@@ -82,7 +82,6 @@ const schema = /* GraphQL */ `
     name: String!
     author: Author!
     url: String
-    videoId: String
     video: VideoInterface! @link
     cover: CoverImage @link
 

@@ -90,7 +90,7 @@ const ChallengeCard = ({ challenge, placeholderImage }) => {
 };
 
 const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
-  const { author, title, video, videoId, url, source } = showcase;
+  const { author, title, video, url } = showcase;
   const image = showcase?.cover
     ? showcase.cover.file.childImageSharp.gatsbyImageData
     : placeholderImage;
