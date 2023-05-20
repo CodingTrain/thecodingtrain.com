@@ -94,8 +94,7 @@ const PassengerShowcaseCard = ({ showcase, placeholderImage, cta }) => {
   const image = showcase?.cover
     ? showcase.cover.file.childImageSharp.gatsbyImageData
     : placeholderImage;
-  const buttonLink =
-    url ?? (videoId ? `https://youtu.be/${videoId}` : source) ?? '';
+  const buttonLink = url ?? '';
   const description = `Passenger showcase "${title}" from ${author?.name}`;
 
   return (
@@ -554,8 +553,6 @@ export const query = graphql`
         featured {
           title
           url
-          videoId
-          source
           author {
             name
             url
