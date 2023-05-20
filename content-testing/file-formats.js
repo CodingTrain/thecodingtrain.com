@@ -171,8 +171,7 @@ const contribution = {
           instagram: { type: 'string' }
         }
       },
-      url: { type: 'string' },
-      source: { type: 'string' },
+      url: { isRequired: true, type: 'string' },
       submittedOn: { type: 'string' }
     }
   }
