@@ -245,7 +245,6 @@ const challengesSchema = baseVideosSchema.concat(
 const showcasesSchema = strictObject({
   title: string().required(),
   url: string().url().required(),
-  source: string().url(), // legacy?
   submittedOn: dateRangeValidator, // TODO should be required, but we need to backfill these dates before enforcing
   author: strictObject({
     name: string().required(),

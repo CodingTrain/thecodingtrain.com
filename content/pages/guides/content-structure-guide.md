@@ -193,13 +193,11 @@ All Passenger Showcase Contributions' should have metadata files (`video-slug/sh
     "name": "Author name",
     "url": "Author url to own website or GitHub"
   },
-  "url": "URL to live code of contribution",
-  "videoId": "YouTube video ID to video of contribution",
-  "source": "URL to source code of contribution"
+  "url": "URL to live code of contribution"
 }
 ```
 
-As for required properties: `"title"`, `"author: {"name"}"` are required, and either `"url"`, `"videoId"` or `"source"` is expected.
+As for required properties: `"title"`, `"author: {"name"}"`, `"url"` are required.
 
 ### Images
 
