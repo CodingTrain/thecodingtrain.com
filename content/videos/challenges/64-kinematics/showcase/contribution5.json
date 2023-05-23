@@ -1,6 +1,6 @@
 {
   "title": "Hexapod Robot Simulator and Inverse Kinematics Solver",
-  "url": "https://hexapod-robot-simulator.herokuapp.com/",
+  "url": "https://hexapod.netlify.app/",
   "author": {
     "name": "Mithi Sevilla",
     "url": "https://mithi.github.io/robotics-blog/"
