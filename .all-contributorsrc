@@ -162,6 +162,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "simon-tiger",
+      "name": "Simon Tiger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21979673?v=4",
+      "profile": "https://simontiger.com",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
