@@ -8,14 +8,14 @@ export const toSlug = (path) => {
 };
 
 export const createDefaults = (type, node) => {
-  const contentDigest = createContentDigest(
-    omit(node, ['id', 'children', 'parent', 'internal'])
-  );
+  // remove Gatsby node internals
+  const strippedNode = omit(node, ['id', 'children', 'parent', 'internal']);
 
   return {
-    ...node,
+    ...strippedNode,
+
     parent: node.id,
-    internal: { type, contentDigest }
+    internal: { type, contentDigest: createContentDigest(strippedNode) }
   };
 };
 
