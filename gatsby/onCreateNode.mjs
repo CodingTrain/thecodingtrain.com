@@ -337,12 +337,15 @@ const create404PageRelatedNodes = ({ createNode, createNodeId, node }) => {
  * Helper function to create CoverImage node from image file node
  */
 const createCoverImageNodeHelper = (createNode, fileNode, id) => {
-  const newNode = {
-    ...createDefaults('CoverImage', fileNode),
+  const { internal } = createDefaults('CoverImage', fileNode);
 
+  const newNode = {
     id,
-    file: fileNode.id
+    parent: fileNode.id,
+    file: fileNode.id,
+    internal
   };
+
   createNode(newNode);
 };
 
