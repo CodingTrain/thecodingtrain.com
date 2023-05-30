@@ -1,0 +1,83 @@
+{
+  "title": "Box2D - Applying forces",
+  "description": "This video demonstrates how to apply forces to objects in Box2D.  Simple wind and gravitational attraction are demonstrated.",
+  "videoId": "bJJbQIoJeFc",
+  "date": "2015-08-06",
+  "languages": ["processing"],
+  "topics": ["box2d", "physics engine", "revolute joint"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello again"
+    },
+    {
+      "time": "0:32",
+      "title": "We can apply force to bodies"
+    },
+    {
+      "time": "2:48",
+      "title": "Where do we want to apply the force?"
+    },
+    {
+      "time": "4:14",
+      "title": "Look at the code example"
+    },
+    {
+      "time": "7:45",
+      "title": "Things you can try"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Attraction Apply Force",
+      "description": "This sketch shows how to add forces.",
+      "image": "example1.png",
+      "urls": {
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/Exercise_5_10_AttractionApplyForce"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "Nature of Code, first edition."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nature of Code Processing Examples",
+          "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+          "description": "Processing examples for NOC book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Box2D",
+          "url": "https://box2d.org",
+          "description": "A 2D Physics Engine for Games"
+        },
+        {
+          "icon": "🔗",
+          "title": "JBox2d",
+          "url": "https://github.com/jbox2d/jbox2d",
+          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
