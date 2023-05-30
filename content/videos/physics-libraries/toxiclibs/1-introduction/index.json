@@ -1,0 +1,90 @@
+{
+  "title": "ToxicLibs - Introduction",
+  "description": "This video is an introduction to the ToxicLibs Verlet Physics Libary.",
+  "videoId": "E67e0RX-7Ew",
+  "nebulaSlug": "",
+  "date": "2015-08-07",
+  "languages": ["java"],
+  "topics": ["physics engine", "ToxicLibs"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "2:12",
+      "title": "Desirable features in a physics library"
+    },
+    {
+      "time": "5:43",
+      "title": "Deciding which physics library to use"
+    },
+    {
+      "time": "6:33",
+      "title": "Mesh example"
+    },
+    {
+      "time": "8:18",
+      "title": "Euler integraton"
+    },
+    {
+      "time": "10:03",
+      "title": "Forces"
+    },
+    {
+      "time": "13:54",
+      "title": "Adding ToxicLibs to your Processing sketch"
+    },
+    {
+      "time": "14:32",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs.js",
+          "url": "http://haptic-data.com/toxiclibsjs/",
+          "description": "Port of ToxicLibs to javascript."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs Java Reference",
+          "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+          "description": "Documentation for the ToxicLibs libary."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Toxiclibs Verlet Physics playlist",
+          "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+          "description": "My tutorials about the Toxiclibs Verlet Physics library"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

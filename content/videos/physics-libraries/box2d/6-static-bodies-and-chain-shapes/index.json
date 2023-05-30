@@ -1,0 +1,97 @@
+{
+  "title": "Box2D - Static Bodies and Chain Shapes in Box2D",
+  "description": "This video covers things that don't move in Box2D.",
+  "videoId": "oBcv_P_YDrw",
+  "date": "2015-08-06",
+  "languages": ["processing"],
+  "topics": ["box2d", "physics engine"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello again"
+    },
+    {
+      "time": "2:18",
+      "title": "Chain shapes"
+    },
+    {
+      "time": "3:44",
+      "title": "Add an array of vertices"
+    },
+    {
+      "time": "4:50",
+      "title": "Look at a code example"
+    },
+    {
+      "time": "7:05",
+      "title": "Possible exercises"
+    },
+    {
+      "time": "7:50",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Static Bodies",
+      "description": "This sketch shows how to add static bodies to the Box2d world.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/PnwZTyi5l",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_2_Boxes"
+      }
+    },
+    {
+      "title": "Chain Shapes",
+      "description": "This sketch shows how to add chain shapes bodies to the Box2d world.",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/hSYvXedWB",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_3_ChainShape_Simple"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "Nature of Code, first edition."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nature of Code Processing Examples",
+          "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+          "description": "Processing examples for NOC book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Box2D",
+          "url": "https://box2d.org",
+          "description": "A 2D Physics Engine for Games"
+        },
+        {
+          "icon": "🔗",
+          "title": "JBox2d",
+          "url": "https://github.com/jbox2d/jbox2d",
+          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

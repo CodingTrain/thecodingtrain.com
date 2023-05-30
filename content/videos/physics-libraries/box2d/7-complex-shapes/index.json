@@ -1,0 +1,109 @@
+{
+  "title": "Box2D - Complex Shapes",
+  "description": "This video covers how to create shapes beyond rectangles and circles in Box2D using PolygonShape and by attaching multiple shapes to one body.",
+  "videoId": "V95dzuDw0Jg",
+  "date": "2015-08-06",
+  "languages": ["processing"],
+  "topics": ["box2d", "physics engine"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "2:51",
+      "title": "Custom Polygon"
+    },
+    {
+      "time": "3:54",
+      "title": "Convex shapes only"
+    },
+    {
+      "time": "5:05",
+      "title": "Box2d expects vertices in clockwise order"
+    },
+    {
+      "time": "6:05",
+      "title": "Look at example"
+    },
+    {
+      "time": "7:25",
+      "title": "Multiple shapes"
+    },
+    {
+      "time": "9:04",
+      "title": "Look at code"
+    },
+    {
+      "time": "10:59",
+      "title": "CreateFixture"
+    },
+    {
+      "time": "11:44",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Polygon Bodies",
+      "description": "This sketch shows how to add polygon bodies to the Box2d world.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/hiAzkgd8N",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_4_Polygons"
+      }
+    },
+    {
+      "title": "Multi-shape Bodies",
+      "description": "This sketch shows how to add multi-shape bodies to the Box2d world.",
+      "image": "image2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ssItBjtrF",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "Nature of Code, first edition."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nature of Code Processing Examples",
+          "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+          "description": "Processing examples for NOC book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Box2D",
+          "url": "https://box2d.org",
+          "description": "A 2D Physics Engine for Games"
+        },
+        {
+          "icon": "🔗",
+          "title": "JBox2d",
+          "url": "https://github.com/jbox2d/jbox2d",
+          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
