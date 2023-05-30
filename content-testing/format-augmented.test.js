@@ -8,7 +8,7 @@ const { object, string, number, date, boolean, array } = require('yup');
 
 const strictObject = (o) => object(o).strict().noUnknown();
 
-const earliest = new Date(2015, 8, 1);
+const earliest = new Date(2015, 1, 1);
 const now = new Date();
 
 const dateRangeValidator = string().test(

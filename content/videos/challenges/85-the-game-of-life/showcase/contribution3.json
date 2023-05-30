@@ -1,8 +1,9 @@
 {
   "title": "Colorful Game of Life",
-  "url": "https://conways-colorful-game-of-life.herokuapp.com/",
+  "url": "https://github.com/jamiejamiebobamie/Conway-sGameofLife",
   "author": {
-    "name": "Jamie McCrory"
+    "name": "Jamie McCrory",
+    "url": "https://github.com/jamiejamiebobamie"
   },
   "submittedOn": "2019-01-04T16:13:04.000Z"
 }
