@@ -7,7 +7,7 @@
   "languages": ["Processing", "Java"],
   "topics": ["physics engine", "texture 3D", "Toxiclibs", "cloth", "simulation"],
   "canContribute": true,
-  "relatedChallenges": ["20-3d-cloth-simulation", "62-plinko-with-matterjs", "138-angry-birds-with-matterjs"],
+  "relatedChallenges": ["20-3d-cloth-simulation", "62-plinko-with-matterjs", "138-angry-birds-with-matterjs", "177-soft-body-character"],
   "timestamps": [],
   "parts": [
     {

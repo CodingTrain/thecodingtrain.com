@@ -1,0 +1,100 @@
+{
+  "title": "Box2D - Collision Events",
+  "description": "This video demonstrates how to listen for collisions and trigger events at the moment of collision in Box2D.",
+  "videoId": "pJ_M_fACtB8",
+  "date": "2015-08-06",
+  "languages": ["processing"],
+  "topics": ["box2d", "physics engine", "collision events"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hi"
+    },
+    {
+      "time": "1:33",
+      "title": "Listening for collision events"
+    },
+    {
+      "time": "2:39",
+      "title": "Enable collision listening"
+    },
+    {
+      "time": "6:00",
+      "title": "Box2d will tell use which fixtures/bodies have collided"
+    },
+    {
+      "time": "7:11",
+      "title": "We need to know which particle is associated with the body"
+    },
+    {
+      "time": "7:59",
+      "title": "setUserData() and getUserData()"
+    },
+    {
+      "time": "9:34",
+      "title": "Look at the code example"
+    },
+    {
+      "time": "10:14",
+      "title": "Determine what kind of object has collided"
+    },
+    {
+      "time": "12:10",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Collisions",
+      "description": "This sketch shows how to listen for and react to collison events.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/lIwDeySmP",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_9_CollisionListening"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "Nature of Code, first edition."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nature of Code Processing Examples",
+          "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+          "description": "Processing examples for NOC book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Box2D",
+          "url": "https://box2d.org",
+          "description": "A 2D Physics Engine for Games"
+        },
+        {
+          "icon": "🔗",
+          "title": "JBox2d",
+          "url": "https://github.com/jbox2d/jbox2d",
+          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
