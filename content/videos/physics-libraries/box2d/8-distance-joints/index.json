@@ -1,0 +1,92 @@
+{
+  "title": "Box2D - Distance Joints",
+  "description": "This video shows how to create a distance joint.",
+  "videoId": "4LYvltd07hk",
+  "date": "2015-08-06",
+  "languages": ["processing"],
+  "topics": ["box2d", "physics engine"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello again"
+    },
+    {
+      "time": "1:39",
+      "title": "Distance joint"
+    },
+    {
+      "time": "3:59",
+      "title": "The joint parameters"
+    },
+    {
+      "time": "6:24",
+      "title": "Look at the code example"
+    },
+    {
+      "time": "7:42",
+      "title": "Pair class"
+    },
+    {
+      "time": "11:22",
+      "title": "Outro"
+    },
+    {
+      "time": "11:41",
+      "title": "Bridge example"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Distance Joints",
+      "description": "This sketch shows how to bind two bodies with a distance joint.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/z81mVmgqG",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_6_DistanceJoint"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "Nature of Code, first edition."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nature of Code Processing Examples",
+          "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+          "description": "Processing examples for NOC book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Box2D",
+          "url": "https://box2d.org",
+          "description": "A 2D Physics Engine for Games"
+        },
+        {
+          "icon": "🔗",
+          "title": "JBox2d",
+          "url": "https://github.com/jbox2d/jbox2d",
+          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
