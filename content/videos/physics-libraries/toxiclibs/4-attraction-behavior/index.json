@@ -1,0 +1,97 @@
+{
+  "title": "ToxicLibs - Attraction Behavior",
+  "description": "This video explains how to add an attraction behavior to a particle.",
+  "videoId": "hSU19ICZVk4",
+  "nebulaSlug": "",
+  "date": "2015-07-08",
+  "languages": ["java"],
+  "topics": ["physics engine", "ToxicLibs", "attraction"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:56",
+      "title": "Assign an attraction behavior to a particle"
+    },
+    {
+      "time": "2:45",
+      "title": "Strength of attraction"
+    },
+    {
+      "time": "3:45",
+      "title": "Faking collision-like behavior"
+    },
+    {
+      "time": "6:39",
+      "title": "Adding a new attraction behavior"
+    },
+    {
+      "time": "7:14",
+      "title": "The key word \"this\""
+    },
+    {
+      "time": "9:57",
+      "title": "Suggested exercises"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Attraction Behavior",
+      "description": "This sketch shows how to add an attraction behavior.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/natureofcode/sketches/tjIs8XaXP",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/toxiclibs/NOC_5_13_AttractRepel"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs.js",
+          "url": "http://haptic-data.com/toxiclibsjs/",
+          "description": "Port of ToxicLibs to javascript."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs Java Reference",
+          "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+          "description": "Documentation for the ToxicLibs libary."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Toxiclibs Verlet Physics playlist",
+          "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+          "description": "My tutorials about the Toxiclibs Verlet Physics library"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
