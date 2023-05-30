@@ -1,0 +1,113 @@
+{
+  "title": "ToxicLibs - Particles and Springs",
+  "description": "This video explains how to use particles and springs to create bodies using the ToxicLibs libary.",
+  "videoId": "3v7SsOdxxww",
+  "nebulaSlug": "",
+  "date": "2015-08-07",
+  "languages": ["java"],
+  "topics": ["physics engine", "ToxicLibs", "springs"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:23",
+      "title": "Elements of the world"
+    },
+    {
+      "time": "3:56",
+      "title": "Vector classes in ToxicLibs"
+    },
+    {
+      "time": "5:08",
+      "title": "Making the elements"
+    },
+    {
+      "time": "6:58",
+      "title": "Inheritance in ToxicLibs"
+    },
+    {
+      "time": "9:30",
+      "title": "Particle extends VerletParticleVe2D"
+    },
+    {
+      "time": "11:43",
+      "title": "Gravity behavior"
+    },
+    {
+      "time": "12:37",
+      "title": "Springs"
+    },
+    {
+      "time": "15:56",
+      "title": "Lock()"
+    },
+    {
+      "time": "16:37",
+      "title": "Updating the physics engine"
+    },
+    {
+      "time": "17:23",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Particles and Springs",
+      "description": "Basic example showing how to add boxes to the world.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/TTLci4292",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/blob/master/chp05_physicslibraries/toxiclibs/NOC_5_10_SimpleSpring/NOC_5_10_SimpleSpring.pde"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs.js",
+          "url": "http://haptic-data.com/toxiclibsjs/",
+          "description": "Port of ToxicLibs to javascript."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs Java Reference",
+          "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+          "description": "Documentation for the ToxicLibs libary."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Toxiclibs Verlet Physics playlist",
+          "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+          "description": "My tutorials about the Toxiclibs Verlet Physics library"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
