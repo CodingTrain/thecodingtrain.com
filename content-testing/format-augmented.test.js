@@ -82,7 +82,7 @@ const videoNumberValidator = string().test(
 const timestampRegex = /^(?:[0-4]:)?[0-5]?\d:[0-5]?\d$/;
 const timestampValidator = string().test(
   'timestamps',
-  'A timstamp should be in the `mm:ss` or `h:mm:ss` format',
+  'A timestamp should be in the `mm:ss` or `h:mm:ss` format',
   (value) => {
     if (!value) return true;
     return timestampRegex.test(value);
@@ -271,15 +271,20 @@ const rules = {
 // validate JSON files against schemas
 
 for (const [label, [paths, schema]] of Object.entries(rules)) {
-  describe(label, () => {
-    test.each(paths)('%s', (path) => {
-      const obj = JSON.parse(readFileSync(path));
+  describe.each(paths)(`${label} › %s`, (path) => {
+    const obj = JSON.parse(readFileSync(path));
 
-      try {
-        schema.validateSync(obj, { context: { filepath: path } });
-      } catch (e) {
-        expect([e.message, e.params.originalValue]).toBeUndefined();
+    try {
+      schema.validateSync(obj, {
+        abortEarly: false,
+        context: { filepath: path }
+      });
+    } catch (e) {
+      for (const err of e.inner) {
+        test(err.message, () => {
+          expect(err.params.originalValue).not.toBe(err.params.originalValue);
+        });
       }
-    });
+    }
   });
 }
