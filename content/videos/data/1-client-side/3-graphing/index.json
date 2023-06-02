@@ -32,7 +32,7 @@
       "description": "(Exercise) Demonstration of graphing multiple datasets with Chart.js",
       "image": "graphingmultipledata.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_Exercise_multiple/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_exercise_multiple/"
       }
     },
     {
@@ -40,7 +40,7 @@
       "description": "(Exercise) Demonstration of graphing data with p5.js",
       "image": "graphingdatap5.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_Exercise_p5/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module1/02_graphing_data_exercise_p5/"
       }
     }
   ],

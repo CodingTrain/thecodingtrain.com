@@ -1,10 +1,9 @@
 {
-    "title": "Ray casting with Processing",
-   
-    "author": {
-        "name": "Kent Pirma",
-        "url": "https://www.kentpirma.eu/"
-    },
-    "url": "https://youtu.be/igKRMz--BuM",
-    "source": "https://github.com/internet8/RaycastingEngine"
+  "title": "Ray casting with Processing",
+  "author": {
+    "name": "Kent Pirma",
+    "url": "https://www.kentpirma.eu/"
+  },
+  "url": "https://youtu.be/igKRMz--BuM",
+  "submittedOn": "2019-11-06T02:44:43.000Z"
 }

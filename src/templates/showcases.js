@@ -9,6 +9,7 @@ import Spacer from '../components/Spacer';
 import DotCharacter from '../images/characters/ThisDot_7.mini.svg';
 import DotCharacter2 from '../images/characters/ThisDot_3.mini.svg';
 import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
+import DotCharacter3 from '../images/characters/ThisDot_6.mini.svg';
 
 import * as css from './showcases.module.css';
 
@@ -31,10 +32,16 @@ const ShowcasePage = ({ data, pageContext, location }) => {
       image={contributionsPlaceholder}
       itemsPath={itemsPath}
       variant={variant}
+      panelText="Add yours!"
+      panelButtonText="Submit"
+      panelButtonLink="/guides/passenger-showcase-guide"
+      panelVariant="purple"
+      panelCharacter={DotCharacter3}
       Character={DotCharacter}
       SeparatorCharacter={DotCharacter2}
       EndPageCharacter={RainbowCharacter}
       characterOrientation="center"
+      //
       showPagination={contributions.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}
@@ -69,7 +76,9 @@ const ShowcasePage = ({ data, pageContext, location }) => {
                 />
                 {i % 3 !== 2 && <div className={css.horizontalSpacer}></div>}
                 {i % 3 === 2 && <div className={css.verticalSpacer}></div>}
-                {(i % 3 === 1 && i === contributions.length - 1 ? <div className={css.horizontalSpacerLast}></div> : null)}
+                {i % 3 === 1 && i === contributions.length - 1 ? (
+                  <div className={css.horizontalSpacerLast}></div>
+                ) : null}
               </Fragment>
             ))}
           </div>
@@ -80,7 +89,7 @@ const ShowcasePage = ({ data, pageContext, location }) => {
 };
 
 export const query = graphql`
-  query ($skip: Int, $limit: Int, $author: String!) {
+  query ($skip: Int, $limit: Int, $authorSlug: String!) {
     pageData: allShowcasePageInfo {
       nodes {
         title
@@ -88,7 +97,7 @@ export const query = graphql`
       }
     }
     contributions: contributionsPaginatedFilteredByTags(
-      author: $author
+      authorSlug: $authorSlug
       skip: $skip
       limit: $limit
     ) {

@@ -1,0 +1,117 @@
+{
+  "title": "ToxicLibs - Connected Systems",
+  "description": "This video explains how to add systems of connected particles.",
+  "videoId": "YskU_gJpc0c",
+  "nebulaSlug": "",
+  "date": "2015-08-07",
+  "languages": ["java"],
+  "topics": ["physics engine", "ToxicLibs", "cluster", "force directed graph"],
+  "canContribute": true,
+  "relatedChallenges": ["20-3d-cloth-simulation", "63-texturing-cloth-simulation", "177-soft-body-character"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:20",
+      "title": "Nokia and Friends"
+    },
+    {
+      "time": "2:05",
+      "title": "Create a skeleton"
+    },
+    {
+      "time": "2:42",
+      "title": "Options for connecting particles"
+    },
+    {
+      "time": "8:03",
+      "title": "Force Directed Graphs"
+    },
+    {
+      "time": "10:47",
+      "title": "Adding more than one cluster"
+    },
+    {
+      "time": "11:36",
+      "title": "Suggestions for projects"
+    },
+    {
+      "time": "12:03",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Simple Cluster",
+      "description": "This sketch shows how to create a simple cluster",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/natureofcode/sketches/_tbPaFqVX",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/toxiclibs/NOC_5_12_SimpleCluster"
+      }
+    },
+    {
+      "title": "Force Directed Graph",
+      "description": "This sketch shows how to connect systems of nodes",
+      "image": "img2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/natureofcode/sketches/WexUSx7dN",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/toxiclibs/Exercise_5_15_ForceDirectedGraph"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs.js",
+          "url": "http://haptic-data.com/toxiclibsjs/",
+          "description": "Port of ToxicLibs to javascript."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs Java Reference",
+          "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+          "description": "Documentation for the ToxicLibs libary."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Toxiclibs Verlet Physics playlist",
+          "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+          "description": "My tutorials about the Toxiclibs Verlet Physics library"
+        },
+        {
+          "icon": "🎥",
+          "title": "The Making of Nokia and Friends",
+          "url": "https://www.youtube.com/watch?v=g20QOQP6kSU",
+          "description": "Video about the making of Nokia and Friends."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

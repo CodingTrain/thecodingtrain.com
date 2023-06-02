@@ -5,13 +5,9 @@
   "videoId": "BZUdGqeOD0w",
   "date": "2018-05-07",
   "languages": ["Processing"],
-  "topics": ["2d water ripple", "cellular automata"],
+  "topics": ["2D water ripple", "cellular automaton"],
   "canContribute": true,
-  "relatedChallenges": [
-    "24-perlin-noise-flow-field",
-    "85-the-game-of-life",
-    "103-fire-effect"
-  ],
+  "relatedChallenges": ["24-perlin-noise-flow-field", "85-the-game-of-life", "103-fire-effect"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:54", "title": "2D water ripples algorithm" },
@@ -50,7 +46,7 @@
         {
           "icon": "💾",
           "title": "Processing",
-          "url": "http://processing.org",
+          "url": "https://processing.org/",
           "description": "Webpage with documentation and references for Processing."
         }
       ]
@@ -74,13 +70,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

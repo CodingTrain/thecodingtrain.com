@@ -126,6 +126,10 @@
 .tags {
   line-height: var(--baseline-1of3);
   font-size: var(--maru-xsmall);
+
+  & a {
+    margin-right: var(--spacing-xsmall);
+  }
 }
 
 .filterHeading,

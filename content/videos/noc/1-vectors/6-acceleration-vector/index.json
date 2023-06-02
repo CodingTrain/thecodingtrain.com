@@ -18,7 +18,6 @@
     {
       "title": "Acceleration Vector",
       "description": "Creates a mover object that chases after the mouse",
-      "image": "image1.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/OjCfrdWX" }
     }
   ],

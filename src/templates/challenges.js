@@ -40,6 +40,7 @@ const ChallengesPage = ({ data, pageContext, location }) => {
       SeparatorCharacter={BracketsCharacter2}
       EndPageCharacter={RainbowCharacter}
       characterOrientation="left"
+      //
       showPagination={challenges.length > 0}
       previousPagePath={pageContext.previousPagePath}
       numberOfPages={pageContext.numberOfPages}

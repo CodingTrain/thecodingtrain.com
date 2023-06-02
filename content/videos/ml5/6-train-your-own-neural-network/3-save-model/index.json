@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-ml5-save-neural-network-trained-model",
   "date": "2019-12-05",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["saving data", "neural network", "machine learning"],
+  "topics": ["saving data", "neural network", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -21,9 +21,7 @@
     {
       "title": "Saving your model",
       "description": "The sketch shows how to save and load your trained model.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/RxDbDKGiG"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/RxDbDKGiG" }
     }
   ],
   "groupLinks": [
@@ -33,26 +31,20 @@
         {
           "icon": "💻",
           "title": "ml5.js Neural Network .save()",
-          "url": "https://learn.ml5js.org/docs/#/reference/neural-network?id=save",
+          "url": "https://learn.ml5js.org/#/reference/neural-network?id=save",
           "description": "ml5 page with documentation and supporting material about save the neural network model."
         },
         {
           "icon": "💻",
           "title": "ml5.js Neural Network .load()",
-          "url": "https://learn.ml5js.org/docs/#/reference/neural-network?id=load",
+          "url": "https://learn.ml5js.org/#/reference/neural-network?id=load",
           "description": "ml5 page with documentation and supporting material about loadint the neural network model."
         }
       ]
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

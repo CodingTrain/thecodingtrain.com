@@ -1,11 +1,11 @@
 {
-    "title": "Web Sockets and p5.js",
-    "playlistId": "PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH",
-    "description": "Video tutorials covering how to use node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions.",
-    "videos": [
-      "websockets-node-p5/1-introduction-to-node",
-      "websockets-node-p5/2-using-express-with-node",
-      "websockets-node-p5/3-connecting-client-to-server",
-      "websockets-node-p5/4-shared-drawing-canvas"
-    ]
-  }
+  "title": "Web Sockets and p5.js",
+  "playlistId": "PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH",
+  "description": "Video tutorials covering how to use node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions.",
+  "videos": [
+    "websockets-node-p5/1-introduction-to-node",
+    "websockets-node-p5/2-using-express-with-node",
+    "websockets-node-p5/3-connecting-client-to-server",
+    "websockets-node-p5/4-shared-drawing-canvas"
+  ]
+}

@@ -1,17 +1,17 @@
 {
-    "title": "Mastodon",
-    "description": "This track covers the decentralized open source social media platform Mastodon and how to make a bot.",
-    "playlistId": "PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ",
-    "videos": [
-      "mastodon/what-is-mastodon",
-      "mastodon/setting-up-a-mastodon-bot",
-      "mastodon/environmental-variables-in-node",
-      "mastodon/posting-with-setInterval",
-      "mastodon/streaming-api",
-      "mastodon/managing-user-events",
-      "mastodon/replying-to-a-mention",
-      "mastodon/what-is-node-js",
-      "mastodon/what-is-npm",
-      "workflow/5-node"
-    ]
-  }
+  "title": "Mastodon",
+  "description": "This track covers the decentralized open source social media platform Mastodon and how to make a bot.",
+  "playlistId": "PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ",
+  "videos": [
+    "mastodon/what-is-mastodon",
+    "mastodon/setting-up-a-mastodon-bot",
+    "mastodon/environmental-variables-in-node",
+    "mastodon/posting-with-setInterval",
+    "mastodon/streaming-api",
+    "mastodon/managing-user-events",
+    "mastodon/replying-to-a-mention",
+    "mastodon/what-is-node-js",
+    "mastodon/what-is-npm",
+    "workflow/5-node"
+  ]
+}

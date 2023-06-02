@@ -13,7 +13,7 @@
       "links": [
         {
           "title": "Processing",
-          "url": "https://processing.com"
+          "url": "https://processing.org/"
         },
         {
           "title": "p5.js Web Editor",
@@ -33,7 +33,7 @@
         },
         {
           "title": "Node",
-          "url": "https://nodejs.org"
+          "url": "https://nodejs.org/en"
         },
         {
           "title": "npm",
@@ -41,15 +41,15 @@
         },
         {
           "title": "p5-manager",
-          "url": " https://www.npmjs.com/package/p5-manager"
+          "url": "https://www.npmjs.com/package/p5-manager"
         },
         {
           "title": "http-server",
-          "url": " https://www.npmjs.com/package/http-server"
+          "url": "https://www.npmjs.com/package/http-server"
         },
         {
           "title": "live-server",
-          "url": " https://www.npmjs.com/package/live-server"
+          "url": "https://www.npmjs.com/package/live-server"
         },
         {
           "title": "virtualenv",

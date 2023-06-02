@@ -1,9 +1,9 @@
 {
-    "title": "Asteroids",
-    "url": "https://zlyfer.net/sites/games/asteroids/",
-    "author": {
-        "name": "Frederik Shull",
-        "url": "https://zlyfer.net"
-    },
-    "source": "https://github.com/zlyfer/asteroids"
+  "title": "Asteroids",
+  "url": "https://zlyfer.net/sites/games/asteroids/",
+  "author": {
+    "name": "Frederik Shull",
+    "url": "https://zlyfer.net"
+  },
+  "submittedOn": "2019-08-02T11:11:59.000Z"
 }

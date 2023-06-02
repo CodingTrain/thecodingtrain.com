@@ -5,12 +5,9 @@
   "videoId": "8zMMOdI5SOk",
   "date": "2017-11-16",
   "languages": ["JavaScript"],
-  "topics": ["chrome extensions", "bookmarklets", "image swap"],
+  "topics": ["Chrome extension", "bookmarklets", "image swap"],
   "canContribute": true,
-  "relatedChallenges": [
-    "83-p5-sketch-chrome-extension",
-    "84-word-definition-chrome-extension"
-  ],
+  "relatedChallenges": ["83-p5-sketch-chrome-extension", "84-word-definition-chrome-extension"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction!" },
     { "time": "01:09", "title": "Creating manifest.json" },
@@ -44,7 +41,7 @@
         {
           "icon": "🔤",
           "title": "Programming from A to Z",
-          "url": "http://shiffman.net/a2z",
+          "url": "https://shiffman.net/a2z/",
           "description": "This course focuses on programming strategies and techniques behind procedural analysis and generation of text-based data."
         },
         {
@@ -62,7 +59,7 @@
         {
           "icon": "📚",
           "title": "chrome.extension reference",
-          "url": "https://developer.chrome.com/extensions/extension",
+          "url": "https://developer.chrome.com/docs/extensions/reference/extension/",
           "description": "Reference for the chrome.extension API"
         }
       ]
@@ -92,13 +89,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

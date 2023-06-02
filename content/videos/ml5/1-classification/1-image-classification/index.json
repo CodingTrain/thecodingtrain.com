@@ -5,7 +5,7 @@
   "videoId": "yNkAuWz5lnY",
   "date": "2018-08-01",
   "languages": ["ml5.js", "p5.js", "JavaScript"],
-  "topics": ["machine learning", "image classification", "MobileNet"],
+  "topics": ["machine learning (ML)", "image classification", "MobileNet"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -23,9 +23,7 @@
     {
       "title": "Image classification",
       "description": "This sketch uses MobileNet to label an image.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/qFZF7iDe"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/qFZF7iDe" }
     }
   ],
   "groupLinks": [
@@ -41,7 +39,7 @@
         {
           "icon": "💻",
           "title": "Image-Net",
-          "url": "http://image-net.org/index",
+          "url": "https://image-net.org/",
           "description": "ImageNet is an image database organized according to the WordNet hierarchy."
         },
         {
@@ -71,13 +69,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

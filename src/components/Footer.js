@@ -111,7 +111,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="https://www.instagram.com/the.coding.train"
+              href="https://www.instagram.com/the.coding.train/"
               aria-label="Instagram">
               <Instagram width={30} />
               <span>Instagram</span>
@@ -194,17 +194,15 @@ const Footer = () => {
               YouTube Member
             </a>
             ,{' '}
-            <a
-              href="https://subs.twitch.tv/codingtrainchoochoo"
-              {...externalLink}>
-              Twitch Subscriber
+            <a href="https://www.patreon.com/codingtrain" {...externalLink}>
+              Patreon Supporter
             </a>
             , or{' '}
             <a href="https://github.com/sponsors/shiffman" {...externalLink}>
-              GitHub sponsor
+              GitHub Sponsor
             </a>
             ! For questions about rewards and perks, write us an{' '}
-            <a href="mailto:membership@thecodingtrain.com" {...externalLink}>
+            <a href="mailto:help@thecodingtrain.com" {...externalLink}>
               email
             </a>
             .
@@ -216,7 +214,7 @@ const Footer = () => {
         <span>
           2016-{new Date().getFullYear()} The Coding Train. All rights reserved.
           Built in collaboration with{' '}
-          <a href="https://designsystems.international" {...externalLink}>
+          <a href="https://designsystems.international/" {...externalLink}>
             Design System International
           </a>
           .

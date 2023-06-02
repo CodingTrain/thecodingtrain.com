@@ -23,6 +23,7 @@ import TrackVideoSection from '../components/tracks/VideoSection';
 import Tabs from '../components/Tabs';
 import Question from '../components/Question';
 import TrackCard from '../components/tracks/Card';
+import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 
 import * as css from '../styles/pages/components.module.css';
 import {
@@ -275,7 +276,8 @@ const ComponentsPage = ({ data }) => {
         text="New to coding?"
         buttonText="Start here"
         buttonLink="#"
-        variant="purple"
+        variant="orange"
+        Character={TriangleCharacter}
         bbColor="red"
       />
       <TrackVideoSection

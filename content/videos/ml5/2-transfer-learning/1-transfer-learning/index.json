@@ -65,7 +65,7 @@
         {
           "icon": "💻",
           "title": "Image-Net",
-          "url": "http://image-net.org/index",
+          "url": "https://image-net.org/",
           "description": "ImageNet is an image database organized according to the WordNet hierarchy."
         }
       ]

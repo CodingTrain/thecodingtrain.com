@@ -5,6 +5,7 @@
   "topics": ["For beginners"],
   "videoId": "P_xJMH8VvAE",
   "nebulaSlug": "coding-train-51-autonomous-steering-agents-introduction-the-nature-of-code",
+  "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Welcome to Chapter 5!" },
     { "time": "0:29", "title": "What is an autonomous agent?" },
@@ -27,7 +28,7 @@
         },
         {
           "title": "Vehicles: Experiments in Synthetic Psychology (MIT Press)",
-          "url": "https://mitpress.mit.edu/books/vehicles",
+          "url": "https://mitpress.mit.edu/9780262521123/vehicles/",
           "description": "Valentino Baitenberg's book of thought experiments on autonomous vehicles"
         },
         {

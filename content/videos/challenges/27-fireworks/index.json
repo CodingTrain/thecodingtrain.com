@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-27-fireworks",
   "date": "2016-07-02",
   "languages": ["JavaScript", "p5.js", "Processing"],
-  "topics": ["fireworks", "nature of code", "oop", "3d", "forces", "gravity", "particle systems"],
+  "topics": ["fireworks", "nature of code", "object-oriented programming (OOP)", "3D", "forces", "gravity", "particle system"],
   "canContribute": true,
   "relatedChallenges": ["78-simple-particle-system"],
   "timestamps": [
@@ -24,7 +24,7 @@
     { "time": "22:46", "title": "Get rid of Fireworks when they're Done" },
     { "time": "24:30", "title": "Add a Trail and Color to Fireworks" },
     { "time": "27:51", "title": "Back to Processing, making it 3D!" },
-    { "time": "29:83", "title": "Rotate the Scene with PeasyCam" },
+    { "time": "29:52", "title": "Rotate the Scene with PeasyCam" },
     { "time": "32:13", "title": "Start Fireworks at a Random Z Location" }
   ],
   "codeExamples": [
@@ -53,13 +53,13 @@
         {
           "icon": "🎇",
           "title": "PixelPyros",
-          "url": "http://seb.ly/work/pixelpyros/",
+          "url": "https://seblee.co/projects/pixelpyros/",
           "description": "Spectacular interactive laser light installations"
         },
         {
           "icon": "🎥",
           "title": "PeasyCam Website",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "Documentation for the PeasyCam Processing library"
         }
       ]
@@ -77,13 +77,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

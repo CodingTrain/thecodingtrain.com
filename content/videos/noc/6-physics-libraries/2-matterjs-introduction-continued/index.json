@@ -1,0 +1,92 @@
+{
+  "title": "6.2 Matter.js - Introduction, continued",
+  "description": "This video is a continuation of the introduction to Matter.js.",
+  "videoNumber": "5.18",
+  "videoId": "uITcoKpbQq4",
+  "nebulaSlug": "",
+  "date": "2017-03-07",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["physics engine", "matter.js"],
+  "canContribute": false,
+  "canonicalTrack": "the-nature-of-code-2",
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:16",
+      "title": "Make a boundary object"
+    },
+    {
+      "time": "4:19",
+      "title": "Demonstrate the problem with the boundary in the previous video"
+    },
+    {
+      "time": "7:21",
+      "title": "Set the angle of the boundary"
+    },
+    {
+      "time": "8:16",
+      "title": "Add more boundaries"
+    },
+    {
+      "time": "12:19",
+      "title": "Change the rectangles to circles"
+    },
+    {
+      "time": "15:07",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Angled Static Bodies with Circles",
+      "description": "This sketch visualizes circles interacting with angled boundaries.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/DOqF83CzT"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Matter.js",
+          "url": "https://brm.io/matter-js/",
+          "description": "Webpage for the matter.js physics library."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Matter.js playlist",
+          "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+          "description": "My tutorials about the Matter.js physics library."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

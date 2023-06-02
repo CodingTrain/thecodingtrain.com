@@ -5,7 +5,7 @@
   "videoId": "5cNnf_7e92Q",
   "date": "2018-03-14",
   "languages": ["Processing"],
-  "topics": ["monte carlo", "estimating pi"],
+  "topics": ["Monte Carlo simulation", "Pi day", "Pi approximation"],
   "canContribute": true,
   "relatedChallenges": [
     "96-visualizing-digits-of-pi",
@@ -19,10 +19,7 @@
     { "time": "0:48", "title": "Suggestion from akraus53" },
     { "time": "1:43", "title": "Methodology" },
     { "time": "7:31", "title": "Let's code!" },
-    {
-      "time": "13:30",
-      "title": "Determine number of \"darts\" in the circle"
-    },
+    { "time": "13:30", "title": "Determine number of \"darts\" in the circle" },
     { "time": "18:20", "title": "Casting to doubles to increase precision" },
     { "time": "22:07", "title": "Keep track of current best estimate" },
     { "time": "26:30", "title": "Suggestions and conclusion" }
@@ -31,6 +28,7 @@
     {
       "title": "Approximating the Value of PI",
       "description": "This sketch uses a \"monte carlo\" method to approximate the value of PI.",
+      "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/bv_LWXvU5",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/095_Approximating_Pi/Processing/CC_095_Approximating_Pi"
@@ -44,7 +42,7 @@
         {
           "icon": "🥧",
           "title": "Million Pi Digits",
-          "url": "http://www.piday.org/million/",
+          "url": "https://www.piday.org/million/",
           "description": "List of the first million digits of pi (π) "
         }
       ]
@@ -74,13 +72,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

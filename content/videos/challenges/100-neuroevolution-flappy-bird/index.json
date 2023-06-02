@@ -5,19 +5,9 @@
   "videoId": "c6y21FkaUqw",
   "date": "2018-04-16",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "neural network",
-    "reinforcement learning",
-    "genetic algorithm",
-    "evolution",
-    "flappy bird"
-  ],
+  "topics": ["neural network", "reinforcement learning", "genetic algorithms", "evolution", "Flappy Bird game"],
   "canContribute": true,
-  "relatedChallenges": [
-    "29-smart-rockets-in-p5js",
-    "31-flappy-bird",
-    "41-clappy-bird"
-  ],
+  "relatedChallenges": ["29-smart-rockets-in-p5js", "31-flappy-bird", "41-clappy-bird"],
   "timestamps": [],
   "parts": [
     {
@@ -46,10 +36,7 @@
       "title": "Part 2 - Incorporate a Genetic Algorithm",
       "videoId": "YtRA6tqgJBc",
       "timestamps": [
-        {
-          "time": "0:00",
-          "title": "Part 2 - Incorporate a genetic algorithm"
-        },
+        { "time": "0:00", "title": "Part 2 - Incorporate a genetic algorithm" },
         { "time": "2:00", "title": "Make a population of birds" },
         { "time": "4:10", "title": "Delete a bird if it hits a pipe" },
         { "time": "5:57", "title": "Write a function for the next generation" },
@@ -148,9 +135,7 @@
     {
       "title": "Neuroevolution Flappy Bird - Part 5",
       "description": "Sketch with the option to save and load the best \"bird\".",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/iyPZnViI9"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/iyPZnViI9" }
     },
     {
       "title": "Flappy Bird - Improved code",
@@ -168,7 +153,7 @@
         {
           "icon": "💻",
           "title": "TensorFlow.js",
-          "url": "https://js.tensorflow.org/",
+          "url": "https://www.tensorflow.org/js/",
           "description": "Webpage with reference materials and documentation about Tensorflow.js."
         },
         {
@@ -192,7 +177,7 @@
         {
           "icon": "💻",
           "title": "Neuroevolution documentation",
-          "url": "https://github.com/shiffman/NOC-S18/tree/master/week10",
+          "url": "https://github.com/nature-of-code/NOC-S18/tree/master/week10",
           "description": "Week 10 of my Spring 2018 NOC course at ITP"
         }
       ]
@@ -239,13 +224,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

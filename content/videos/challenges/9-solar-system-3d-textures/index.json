@@ -5,7 +5,7 @@
   "videoId": "FGAwi7wpU8c",
   "date": "2016-05-02",
   "languages": ["Processing"],
-  "topics": ["solar system", "3d", "textures"],
+  "topics": ["solar system", "3D", "textures"],
   "canContribute": true,
   "relatedChallenges": ["7-solar-system-2d", "8-solar-system-3d"],
   "timestamps": [
@@ -35,7 +35,7 @@
       "links": [
         {
           "title": "PeasyCam library",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "PeasyCam provides a dead-simple mouse-driven camera for Processing."
         },
         {

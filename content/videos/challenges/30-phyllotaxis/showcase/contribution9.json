@@ -1,9 +1,9 @@
 {
-    "title": "Interactive Animated 2D Phyllotaxis in JavaScript",
-    "author": {
-        "name": "Elizabeth Hudnott",
-        "url": "https://github.com/ElizabethHudnott"
-    },
-    "url": "https://mathematical-art.github.io/?gen=phyllotaxis",
-    "source": "https://github.com/mathematical-art/mathematical-art.github.io/tree/master/sketch"
+  "title": "Interactive Animated 2D Phyllotaxis in JavaScript",
+  "author": {
+    "name": "Elizabeth Hudnott",
+    "url": "https://github.com/ElizabethHudnott"
+  },
+  "url": "https://mathematical-art.github.io/?gen=phyllotaxis",
+  "submittedOn": "2020-04-30T14:36:44.000Z"
 }

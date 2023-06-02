@@ -171,9 +171,7 @@ const contribution = {
           instagram: { type: 'string' }
         }
       },
-      url: { type: 'string' },
-      source: { type: 'string' },
-      videoId: { type: 'string' },
+      url: { isRequired: true, type: 'string' },
       submittedOn: { type: 'string' }
     }
   }
@@ -223,31 +221,6 @@ const faq = {
   }
 };
 
-const talk = {
-  name: 'talk',
-  init: {
-    type: 'object',
-    properties: {
-      title: {
-        isRequired: true,
-        type: 'string'
-      },
-      meta: {
-        isRequired: true,
-        type: 'string'
-      },
-      description: {
-        isRequired: true,
-        type: 'string'
-      },
-      link: {
-        isRequired: true,
-        type: 'string'
-      }
-    }
-  }
-};
-
 const collaborators = {
   name: 'collaborators',
   init: {
@@ -280,6 +253,5 @@ module.exports = {
   contribution,
   faq,
   faqPage,
-  talk,
   collaborators
 };

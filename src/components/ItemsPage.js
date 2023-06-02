@@ -14,6 +14,7 @@ import * as css from './ItemsPage.module.css';
 import SemiColon from '../images/characters/SemiColon_3.mini.svg';
 import ZeroCharacter from '../images/characters/Zero_4.mini.svg';
 import ZeroCharacter2 from '../images/characters/Zero_3.mini.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 
 const ItemsPage = ({
   title,
@@ -21,11 +22,17 @@ const ItemsPage = ({
   image,
   itemsPath,
   variant,
+  panelText = 'New to coding?',
+  panelButtonText = 'Start here',
+  panelButtonLink = '/guides/getting-started',
+  panelVariant = 'orange',
+  panelCharacter = TriangleCharacter,
   Character,
   SeparatorCharacter,
   EndPageCharacter,
   characterOrientation,
   children,
+  //
   showPagination,
   previousPagePath,
   humanPageNumber,
@@ -50,10 +57,11 @@ const ItemsPage = ({
       <PagePanel
         className={css.panel}
         description={description}
-        text="New to coding?"
-        buttonText="Start here"
-        buttonLink="/guides/getting-started"
-        variant="orange"
+        text={panelText}
+        buttonText={panelButtonText}
+        buttonLink={panelButtonLink}
+        variant={panelVariant}
+        Character={panelCharacter}
         bbColor={variant}
       />
       <CharacterSpacer
@@ -94,6 +102,7 @@ const ItemsPage = ({
           <ZeroCharacter className={css.squareBrackets} />
         </div>
       )}
+
       <Spacer pattern className={css.spacer} />
       <CharacterSpacer
         className={css.sep}

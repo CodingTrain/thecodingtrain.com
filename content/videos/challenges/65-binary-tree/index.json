@@ -5,11 +5,7 @@
   "videoId": "ZNH0MuQ51m4",
   "date": "2017-03-21",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "binary search tree",
-    "data structure",
-    "intelligence and learning"
-  ],
+  "topics": ["tree", "binary search", "data structure", "intelligence and learning"],
   "canContribute": true,
   "relatedChallenges": ["68-breadth-first-search", "98-quadtree"],
   "timestamps": [],
@@ -82,13 +78,13 @@
         {
           "icon": "📕",
           "title": "Intelligence and Learning (Spring 2017)",
-          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning",
           "description": "Syllabus for Part 2 of Nature of Code: \"Intelligence and Learning\" at ITP Spring 2017"
         },
         {
           "icon": "📘",
           "title": "Grokking Algorithms book",
-          "url": "http://amzn.to/2mMCK7Z",
+          "url": "https://amzn.to/2mMCK7Z",
           "description": "Grokking Algorithms is a fully illustrated, friendly guide that teaches you how to apply common algorithms to the practical problems."
         },
         {

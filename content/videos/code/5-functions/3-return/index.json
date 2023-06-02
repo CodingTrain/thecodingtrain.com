@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-5-3-functions-and-return-p5-js-tutorial",
   "date": "2015-09-17",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["basics", "functions", "return"],
+  "topics": ["basics", "function", "return"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -17,20 +17,12 @@
       "title": "Returning a value",
       "description": "Demonstration of converting miles to kilometers using a function.",
       "image": "",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/twpIiI-v"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/twpIiI-v" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

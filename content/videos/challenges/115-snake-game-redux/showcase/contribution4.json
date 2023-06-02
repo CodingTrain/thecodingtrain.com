@@ -1,8 +1,9 @@
 {
-    "title": "Snake Game",
-    "url": "https://old.zlyfer.net/sites/games/snake/",
-    "author": {
-        "name": "Frederik Shull",
-        "url": "https://github.com/zlyfer"
-    }
+  "title": "Snake Game",
+  "url": "https://old.zlyfer.net/sites/games/snake/",
+  "author": {
+    "name": "Frederik Shull",
+    "url": "https://github.com/zlyfer"
+  },
+  "submittedOn": "2019-08-02T11:11:29.000Z"
 }

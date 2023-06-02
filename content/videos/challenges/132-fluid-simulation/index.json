@@ -7,11 +7,7 @@
   "languages": ["Processing"],
   "topics": ["fluid simulation", "turbulent fluid flow"],
   "canContribute": true,
-  "relatedChallenges": [
-    "24-perlin-noise-flow-field",
-    "102-2d-water-ripple",
-    "103-fire-effect"
-  ],
+  "relatedChallenges": ["24-perlin-noise-flow-field", "102-2d-water-ripple", "103-fire-effect"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:59", "title": "Topic suggestion from deardanielxd" },
@@ -52,19 +48,19 @@
         {
           "icon": "💾",
           "title": "GitHub Issue",
-          "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/178",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/178",
           "description": "Topic suggestion from deardanielxd"
         },
         {
           "icon": "💻",
           "title": "Real-Time Fluid Dynamics for Games",
-          "url": "http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf",
+          "url": "https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf",
           "description": "Paper by Jos Stam which presents an implementation of a fluid dynamics solver for game engines."
         },
         {
           "icon": "💻",
           "title": "MSAFluid",
-          "url": "https://www.memo.tv/msafluid/",
+          "url": "https://www.memo.tv/works/msafluid/",
           "description": "A simple to use opensource C++ / Java / AS3 library (with examples) for openFrameworks, Cinder, Processing and Flash."
         },
         {

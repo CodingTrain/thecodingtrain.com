@@ -1,8 +1,9 @@
 {
-    "title": "Guess my number, chat",
-    "url": "https://gypsydangerous.github.io/number-guessing-bot/",
-    "author": {
-        "name": "David",
-        "url": "https://github.com/GypsyDangerous"
-    }
+  "title": "Guess my number, chat",
+  "url": "https://gypsydangerous.github.io/number-guessing-bot/",
+  "author": {
+    "name": "David Snyder",
+    "url": "https://github.com/GypsyDangerous"
+  },
+  "submittedOn": "2019-10-07T00:43:23.000Z"
 }

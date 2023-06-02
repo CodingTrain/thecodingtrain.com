@@ -1,12 +1,12 @@
 {
-  "title": "ml5.js: Pose Estimation with PoseNet",
-  "description": "VThis tutorial combines PoseNet and ml5.neuralNetwork(). I use the output of the pre-trained model (the \"pose\" itself) as the inputs to an ml5.js neural network classifier.",
+  "title": "Pose Classifier with PoseNet and ml5.neuralNetwork()",
+  "description": "This tutorial combines PoseNet and ml5.neuralNetwork(). I use the output of the pre-trained model (the \"pose\" itself) as the inputs to an ml5.js neural network classifier.",
   "videoNumber": "7.2",
   "videoId": "FYgYyq-xqAw",
   "nebulaSlug": "the-coding-train-yt-ml5-js-pose-classification-with-posenet-and-ml5-neuralnetwork",
   "date": "2020-01-15",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["pose estimation", "data collection", "neural networks", "trained model"],
+  "topics": ["pose estimation", "data collection", "neural network", "trained model"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -36,30 +36,22 @@
     {
       "title": "Pose Estimation",
       "description": "This sketch contains all the steps for the Pose Classifier",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK" }
     },
     {
       "title": "Data Collection",
       "description": "Code for data collection in the p5.js Web Editor.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/kTM0Gm-1q"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/kTM0Gm-1q" }
     },
     {
-      "title": "Loading Data",
-      "description": "Code for loading the data.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/k-Ywq20rM9"
-      }
+      "title": "Model Training",
+      "description": "Code for training the model.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/-Ywq20rM9" }
     },
     {
-      "title": "Deploying",
-      "description": "Code for loading / deploying the trained model in the p5.js web editor.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/c5sDNr8eM"
-      }
+      "title": "Model Deployment",
+      "description": "Code for loading and deploying the trained model.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/c5sDNr8eM" }
     }
   ],
   "groupLinks": [
@@ -100,13 +92,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

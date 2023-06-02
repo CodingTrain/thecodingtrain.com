@@ -1,0 +1,73 @@
+{
+  "title": "9.3 Shakespeare Monkey Example",
+  "description": "Part 3 of the Genetic Algorithm series is dedicated to the Shakespeare Monkey Example. In this video, I use the evolutionary concepts from the previous video to compute a problem that a brute force algorithm wouldn't be able to solve. ",
+  "videoId": "nrKjSeoc7fc",
+  "date": "2016-07-30",
+  "languages": ["p5.js"],
+  "topics": ["mutation rate", "population"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello!"
+    },
+    {
+      "time": "0:53",
+      "title": "Exploring the interface of this sketch."
+    },
+    {
+      "time": "2:16",
+      "title": "How about unicorn?"
+    },
+    {
+      "time": "2:42",
+      "title": "Let's change the mutation rate to be 0."
+    },
+    {
+      "time": "3:28",
+      "title": "What play around with the population?"
+    },
+    {
+      "time": "6:36",
+      "title": "Is a larger mutation rate better?"
+    },
+    {
+      "time": "7:24",
+      "title": "What's next?"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Shakespeare monkey example",
+      "description": "Demonstration of using a genetic algorithm to perform a search",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/GUZKUFxKo"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

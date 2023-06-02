@@ -1,8 +1,9 @@
 {
-	"title": "Lorenz attractor with particles",
-	"author":{
-		"name": "Juan Carlos Ponce Campuzano",
-		"url": "https://jcponce.github.io/"
-	},
-	"url": "https://jcponce.github.io/calculus/velfields/Lorenz/"
+  "title": "Lorenz attractor with particles",
+  "author": {
+    "name": "Juan Carlos Ponce Campuzano",
+    "url": "https://jcponce.github.io/"
+  },
+  "url": "https://jcponce.github.io/calculus/velfields/Lorenz/",
+  "submittedOn": "2019-07-28T12:01:33.000Z"
 }

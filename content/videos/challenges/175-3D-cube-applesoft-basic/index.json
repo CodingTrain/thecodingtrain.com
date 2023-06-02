@@ -6,20 +6,14 @@
   "nebulaSlug": "codingtrain-apple-challenge-3d-cube",
   "date": "2022-11-12",
   "languages": ["BASIC"],
-  "topics": ["3d graphics", "1980s", "AppleII", "matrix math"],
+  "topics": ["3D graphics", "1980s", "Apple II", "matrix math"],
   "canContribute": true,
   "relatedChallenges": ["112-3d-rendering-with-rotation-and-projection", "173-snake-applesoft-basic", "174-graphics-applesoft-basic"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "The future of computer graphics!"
-    },
+    { "time": "0:00", "title": "The future of computer graphics!" },
     { "time": "0:39", "title": "Viewer comments" },
     { "time": "1:58", "title": "Editing code in BASIC" },
-    {
-      "time": "3:28",
-      "title": "Floppy Emu disk emulator"
-    },
+    { "time": "3:28", "title": "Floppy Emu disk emulator" },
     { "time": "5:09", "title": "Double buffered animation" },
     {
       "time": "6:55",
@@ -39,10 +33,7 @@
     { "time": "20:55", "title": "Matrix Multiplication for Rotation" },
     { "time": "29:26", "title": "Animate rotation" },
     { "time": "32:00", "title": "Clear background" },
-    {
-      "time": "33:17",
-      "title": "Subroutine to add the points of a cube"
-    },
+    { "time": "33:17", "title": "Subroutine to add the points of a cube" },
     { "time": "35:40", "title": "Subroutine to draw the lines" },
     { "time": "36:46", "title": "Incorporating matrix math." },
     { "time": "40:24", "title": "Edit code to add more points" },
@@ -98,12 +89,6 @@
           "description": "Floppy Emu is a floppy and hard disk emulator for classic Apple II, Macintosh, and Lisa computers."
         },
         {
-          "icon": "✨",
-          "title": "Nebula",
-          "url": "https://nebula.tv/videos/codingtrain-apple-challenge-3d-cube",
-          "description": "Watch this video on Nebula ad-free!"
-        },
-        {
           "icon": "🧠",
           "title": "What is Code?",
           "url": "https://nebula.tv/what-is-code",
@@ -115,7 +100,6 @@
           "url": "https://soundcloud.com/user-207981744-979066415/coding-together",
           "description": "Theme song by Will from America!"
         },
-
         {
           "icon": "🪧",
           "title": "Peeks, Pokes and Pointers",
@@ -213,22 +197,13 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    },
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" },
     {
       "title": "Coding Together Theme",
       "name": "Will from America",
       "url": "https://twitter.com/WillfromAmerica"
     },
-    {
-      "title": "Eye of the Tiger cover",
-      "name": "Leon from @neo"
-    }
+    { "title": "Eye of the Tiger cover", "name": "Leon from @neo" }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "question": "I watched a video, how do I find the code for it?",
   "answer": {
-    "text": "All videos on The Coding Train each have a page on this website that includes links to the source code. Well, they should, that is! We’re still working through building the site and there might be a few that are missing. Take a look at the YouTube video description and look for a link to thecodingtrain.com. If it’s not there, please [file an issue on GitHub with a link to the  YouTube video with missing code](https://github.com/CodingTrain/website/issues/new)."
+    "text": "All videos on The Coding Train each have a page on this website that includes links to the source code. Well, they should, that is! We’re still working through building the site and there might be a few that are missing. Take a look at the YouTube video description and look for a link to thecodingtrain.com. If it’s not there, please [file an issue on GitHub with a link to the YouTube video with missing code](https://github.com/CodingTrain/thecodingtrain.com/issues/new)."
   }
 }

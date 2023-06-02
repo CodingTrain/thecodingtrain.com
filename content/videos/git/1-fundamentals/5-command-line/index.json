@@ -2,7 +2,7 @@
   "title": "Intro to the Command Line",
   "description": "In this fifth part of the Git and GitHub for Poets tutorial series, I give you a brief introduction to the Command Line and show you some of the most often used commands.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "oK8EvVeVltE",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

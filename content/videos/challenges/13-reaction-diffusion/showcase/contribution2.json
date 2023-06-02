@@ -1,7 +1,8 @@
 {
-    "title": "C++/SFML/CUDA version with varying rates and reaction types",
-    "author": {
-        "name": "Solidsilver"
-    },
-    "url": "https://github.com/Solidsilver/PDEProj/tree/master/Numerics"
+  "title": "C++/SFML/CUDA version with varying rates and reaction types",
+  "author": {
+    "name": "Solidsilver"
+  },
+  "url": "https://github.com/Solidsilver/PDEProj/tree/master/Numerics",
+  "submittedOn": "2020-03-14T21:30:44.000Z"
 }

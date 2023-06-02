@@ -22,10 +22,7 @@
     },
     {
       "title": "Feature Extractor",
-      "videos": [
-        "ml5/3-feature-extractor/1-classification",
-        "ml5/3-feature-extractor/2-regression"
-      ]
+      "videos": ["ml5/3-feature-extractor/1-classification", "ml5/3-feature-extractor/2-regression"]
     },
     {
       "title": "Save and Load the Model",
@@ -50,11 +47,7 @@
     },
     {
       "title": "PoseNet",
-      "videos": [
-        "ml5/7-posenet/1-finding-keypoints",
-        "ml5/7-posenet/2-pose-classifier",
-        "ml5/7-posenet/3-pose-regression"
-      ]
+      "videos": ["ml5/7-posenet/1-finding-keypoints", "ml5/7-posenet/2-pose-classifier", "ml5/7-posenet/3-pose-regression"]
     },
     {
       "title": "Convolutional Neural Network",

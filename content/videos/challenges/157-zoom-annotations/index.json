@@ -6,58 +6,27 @@
   "nebulaSlug": "the-coding-train-yt-coding-challenge-157-zoom-annotations-with-machine-learning-p5-js",
   "date": "2020-10-29",
   "languages": ["p5.js", "ml5.js", "JavaScript"],
-  "topics": ["machine learning", "zoom", "creative code", "OBS"],
+  "topics": ["machine learning (ML)", "Zoom", "creative code", "OBS"],
   "canContribute": true,
+  "relatedChallenges": ["147-chrome-dinosaur-game", "151-ukulele-tuner-with-machine-learning", "153-interactive-drawing-with-sketchrnn"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:01:02",
-      "title": "Project overview and plan"
-    },
-    {
-      "time": "0:03:43",
-      "title": "Teachable Machine model training"
-    },
-    {
-      "time": "0:05:58",
-      "title": "Code! Importing the model"
-    },
-    {
-      "time": "0:07:08",
-      "title": "Code! Displaying annotations"
-    },
-    {
-      "time": "0:08:58",
-      "title": "Code! Debouncing, fading out"
-    },
-    {
-      "time": "0:11:20",
-      "title": "Open Broadcast Studio Virtual Camera"
-    },
-    {
-      "time": "0:14:33",
-      "title": "Finalizing layout in OBS for Zoom"
-    },
-    {
-      "time": "0:18:14",
-      "title": "Reviewing all the steps"
-    },
-    {
-      "time": "0:19:47",
-      "title": "Further ideas and how to share your own!"
-    }
+    { "time": "0:00:00", "title": "Introduction" },
+    { "time": "0:01:02", "title": "Project overview and plan" },
+    { "time": "0:03:43", "title": "Teachable Machine model training" },
+    { "time": "0:05:58", "title": "Code! Importing the model" },
+    { "time": "0:07:08", "title": "Code! Displaying annotations" },
+    { "time": "0:08:58", "title": "Code! Debouncing, fading out" },
+    { "time": "0:11:20", "title": "Open Broadcast Studio Virtual Camera" },
+    { "time": "0:14:33", "title": "Finalizing layout in OBS for Zoom" },
+    { "time": "0:18:14", "title": "Reviewing all the steps" },
+    { "time": "0:19:47", "title": "Further ideas and how to share your own!" }
   ],
   "codeExamples": [
     {
       "title": "Zoom Annotations Basic - p5 Web Editor",
       "description": "The video implements zoom annotaions with p5.js, ml5.s, Teachable Machine and OBS Studio.",
       "image": "zoom.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/EaioB_iJs"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EaioB_iJs" }
     }
   ],
   "groupLinks": [
@@ -73,7 +42,7 @@
         {
           "icon": "🎥",
           "title": "Snap Lens Studio",
-          "url": "https://lensstudio.snapchat.com/",
+          "url": "https://ar.snap.com/lens-studio",
           "description": "Lens Studio is a powerful application designed for artists and developers to build augmented reality experiences for hundreds of millions of Snapchatters."
         },
         {
@@ -121,13 +90,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

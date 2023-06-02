@@ -6,38 +6,17 @@
   "nebulaSlug": "the-coding-train-coding-challenge-31-flappy-bird",
   "date": "2016-08-10",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["flappy bird"],
+  "topics": ["Flappy Bird game"],
   "canContribute": true,
   "relatedChallenges": ["41-clappy-bird", "100-neuroevolution-flappy-bird", "147-chrome-dinosaur-game"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Flappy Bird"
-    },
-    {
-      "time": "0:00:51",
-      "title": "Creating a Bird Object"
-    },
-    {
-      "time": "0:02:38",
-      "title": "Adding Simple Physics"
-    },
-    {
-      "time": "0:06:25",
-      "title": "Moving Up"
-    },
-    {
-      "time": "0:08:13",
-      "title": "Adding Obstacles"
-    },
-    {
-      "time": "0:16:02",
-      "title": "Collision Detection"
-    },
-    {
-      "time": "0:19:45",
-      "title": "Finishing The Game"
-    }
+    { "time": "0:00:00", "title": "Flappy Bird" },
+    { "time": "0:00:51", "title": "Creating a Bird Object" },
+    { "time": "0:02:38", "title": "Adding Simple Physics" },
+    { "time": "0:06:25", "title": "Moving Up" },
+    { "time": "0:08:13", "title": "Adding Obstacles" },
+    { "time": "0:16:02", "title": "Collision Detection" },
+    { "time": "0:19:45", "title": "Finishing The Game" }
   ],
   "codeExamples": [
     {
@@ -81,13 +60,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

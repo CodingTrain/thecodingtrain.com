@@ -6,8 +6,9 @@
   "nebulaSlug": "codingtrain-the-prime-spiral-coding-challenge-167",
   "date": "2022-02-20",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Prime Numbers"],
+  "topics": ["prime numbers"],
   "canContribute": true,
+  "relatedChallenges": ["c2-collatz-conjecture", "c3-hilbert-curve"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome! Choo choo!" },
     { "time": "0:23", "title": "History of the Ulam Spiral" },
@@ -28,41 +29,31 @@
       "title": "Prime (Ulam) Spiral",
       "description": "Visualisation of the Prime Spiral",
       "image": "primespiral.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/0Ud-XsaYb"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/0Ud-XsaYb" }
     },
     {
       "title": "Number Spiral",
       "description": "Demo of displaying numbers in a spiral pattern",
       "image": "numberspiral.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Zs65bV-Al"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Zs65bV-Al" }
     },
     {
       "title": "Prime vs Random Spiral",
       "description": "Visual comparison of a prime spiral and a random spiral pattern",
       "image": "comparison.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/3np1hBlXD"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/3np1hBlXD" }
     },
     {
       "title": "Shapes & Color",
       "description": "Prime Spiral visualised with various colorful shapes",
       "image": "shapesandcolor.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/mCvvSKpZ5"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/mCvvSKpZ5" }
     },
     {
       "title": "Incorporating 3D",
       "description": "Prime Spiral visualised with 3D shapes",
       "image": "3dspiral.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/-eX078HZ5"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/-eX078HZ5" }
     }
   ],
   "groupLinks": [
@@ -84,7 +75,7 @@
         {
           "icon": "📓",
           "title": "An Observation on the Distribution of Primes, M. Stein and S. M. Ulam",
-          "url": "https://doi.org/10.2307/2314055",
+          "url": "https://www.jstor.org/stable/2314055",
           "description": "An article on the distribution of prie numbers"
         },
         {
@@ -119,13 +110,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

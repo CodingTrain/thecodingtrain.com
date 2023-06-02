@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-4-worley-noise",
   "date": "2020-05-09",
   "languages": ["p5.js"],
-  "topics": ["worley noise", "cellular texture", "tesselation", "distance"],
+  "topics": ["Worley noise", "cellular texture", "tesselation", "distance"],
   "canContribute": true,
   "relatedChallenges": [
     "24-perlin-noise-flow-field",
@@ -33,7 +33,7 @@
       "image": "worley.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/QsiCWVczZ",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main//004_Worley_Noise/"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/004_worley_noise"
       }
     }
   ],
@@ -91,7 +91,7 @@
         {
           "icon": "🎥",
           "title": "Coding Challenge #114 - Bubble Sort Visualization",
-          "url": " https://www.youtube.com/watch?v=67k3I2GxTH8",
+          "url": "https://www.youtube.com/watch?v=67k3I2GxTH8",
           "description": "I visualize a \"bubble sort\" algorithm in Processing (Java)."
         },
         {

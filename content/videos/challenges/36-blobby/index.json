@@ -5,21 +5,9 @@
   "videoId": "rX5p-QRP6R4",
   "date": "2016-09-02",
   "languages": ["p5.js", "JavaScript", "Processing", "Java"],
-  "topics": [
-    "superformulas",
-    "superellipse",
-    "beginShape",
-    "endShape",
-    "vertex",
-    "perlin noise"
-  ],
+  "topics": ["superformulas", "superellipse", "beginShape", "endShape", "vertex", "Perlin noise"],
   "canContribute": true,
-  "relatedChallenges": [
-    "19-superellipse",
-    "32-agario",
-    "60-butterfly-generator",
-    "136-polar-noise-loops"
-  ],
+  "relatedChallenges": ["19-superellipse", "32-agario", "60-butterfly-generator", "136-polar-noise-loops"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction to the Blobby challenge" },
     {
@@ -89,13 +77,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

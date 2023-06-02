@@ -5,7 +5,7 @@
   "videoId": "H4awPsyugS0",
   "date": "2018-02-19",
   "languages": ["JavaScript"],
-  "topics": ["higher order functions", "functions"],
+  "topics": ["higher order functions", "function"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "What is a Higher Order Function?" },
@@ -18,10 +18,7 @@
       "time": "08:31",
       "title": "Demonstration of an HOF creating and returning a function"
     },
-    {
-      "time": "12:20",
-      "title": "Using the arrow syntax"
-    }
+    { "time": "12:20", "title": "Using the arrow syntax" }
   ],
   "codeExamples": [],
   "groupLinks": [
@@ -44,13 +41,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

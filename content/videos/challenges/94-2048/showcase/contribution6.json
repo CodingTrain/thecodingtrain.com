@@ -1,9 +1,9 @@
 {
-    "title": "2048 using p5js with animation and settings",
-    "url": "https://github.com/cacowen/2048",
-    "author": {
-        "name": "Chris Cowen",
-        "url": "https://github.com/cacowen/"
-    },
-    "source": "https://github.com/cacowen/2048"
+  "title": "2048 using p5js with animation and settings",
+  "url": "https://github.com/cacowen/2048",
+  "author": {
+    "name": "Chris Cowen",
+    "url": "https://github.com/cacowen/"
+  },
+  "submittedOn": "2018-03-11T01:33:06.000Z"
 }

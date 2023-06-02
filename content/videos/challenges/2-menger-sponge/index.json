@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-2-menger-sponge-fractal",
   "date": "2016-04-17",
   "languages": ["Java", "Processing"],
-  "topics": ["fractal", "3d", "menger sponge"],
+  "topics": ["fractal", "3D", "Menger sponge"],
   "canContribute": true,
   "relatedChallenges": ["18-3d-fractal-trees", "123-chaos-game", "126-toothpicks", "129-koch-fractal-snowflake", "168-the-mandelbulb"],
   "timestamps": [
@@ -23,10 +23,7 @@
       "time": "6:53",
       "title": "Modeling the Menger Sponge as an ArrayList of Boxes"
     },
-    {
-      "time": "7:41",
-      "title": "Generating the next iteration on mouse click"
-    },
+    { "time": "7:41", "title": "Generating the next iteration on mouse click" },
     { "time": "9:47", "title": "Bonus time! Adding 2 more minutes 😜" },
     {
       "time": "10:03",
@@ -60,7 +57,7 @@
         {
           "icon": "🇵",
           "title": "P3D Tutorial",
-          "url": "https://processing.org/tutorials/p3d/",
+          "url": "https://processing.org/tutorials/p3d",
           "description": "Processing reference on using the P3D renderer"
         },
         {
@@ -90,13 +87,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

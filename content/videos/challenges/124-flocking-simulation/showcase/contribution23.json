@@ -1,8 +1,9 @@
 {
-    "title": "Pixi JS boids with color gradient",
-    "url": "https://github.com/loguek/flocking-pixi",
-    "author": {
-        "name": "Kevin Logue",
-        "url": "https://github.com/loguek"
-    }
+  "title": "Pixi JS boids with color gradient",
+  "url": "https://github.com/loguek/flocking-pixi",
+  "author": {
+    "name": "Kevin Logue",
+    "url": "https://github.com/loguek"
+  },
+  "submittedOn": "2020-06-05T14:14:49.000Z"
 }

@@ -5,25 +5,16 @@
   "videoId": "GWDx1GnxhOw",
   "date": "2017-11-29",
   "languages": ["JavaScript"],
-  "topics": ["chrome extensions", "bookmarklets", "wordnik api", "definition"],
+  "topics": ["Chrome extension", "bookmarklets", "Wordnik API", "definition"],
   "canContribute": true,
-  "relatedChallenges": [
-    "82-image-chrome-extension",
-    "83-p5-sketch-chrome-extension"
-  ],
+  "relatedChallenges": ["82-image-chrome-extension", "83-p5-sketch-chrome-extension"],
   "timestamps": [
-    {
-      "time": "00:00",
-      "title": "Welcome to a Coding Challenge!"
-    },
+    { "time": "00:00", "title": "Welcome to a Coding Challenge!" },
     {
       "time": "00:53",
       "title": "Content Script, Background Script and Pop-ups"
     },
-    {
-      "time": "04:08",
-      "title": "Get the selected text in the Content Script"
-    },
+    { "time": "04:08", "title": "Get the selected text in the Content Script" },
     {
       "time": "07:34",
       "title": "Send the selected text to the Background Script"
@@ -48,10 +39,7 @@
       "time": "15:04",
       "title": "Get the definition of the word from the Wordnik API"
     },
-    {
-      "time": "23:23",
-      "title": "Final Output and adding Styles"
-    }
+    { "time": "23:23", "title": "Final Output and adding Styles" }
   ],
   "codeExamples": [
     {
@@ -69,13 +57,13 @@
         {
           "icon": "🔤",
           "title": "Programming from A to Z",
-          "url": "http://shiffman.net/a2z",
+          "url": "https://shiffman.net/a2z/",
           "description": "This course focuses on programming strategies and techniques behind procedural analysis and generation of text-based data."
         },
         {
           "icon": "📚",
           "title": "chrome.extension reference",
-          "url": "https://developer.chrome.com/extensions/extension",
+          "url": "https://developer.chrome.com/docs/extensions/reference/extension/",
           "description": "Reference for the chrome.extension API"
         },
         {
@@ -111,13 +99,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

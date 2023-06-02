@@ -6,23 +6,27 @@
   "nebulaSlug": "coding-train-7-4-mouse-interaction-with-objects-p5-js-tutorial",
   "date": "2017-10-16",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["arrays", "for loop", "objects"],
+  "topics": ["array", "for loop", "objects"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:12", "title": "Registering an Event" },
-    { "time": "8:05", "title": "Using dist() to Determine Whether the Mouse is Over an Object" },
+    {
+      "time": "8:05",
+      "title": "Using dist() to Determine Whether the Mouse is Over an Object"
+    },
     { "time": "10:54", "title": "Using Global Versus Local Variables" },
-    { "time": "12:46", "title": "Adding Properties to an Object with a Mouse Click" }
+    {
+      "time": "12:46",
+      "title": "Adding Properties to an Object with a Mouse Click"
+    }
   ],
   "codeExamples": [
     {
       "title": "Highlight Bubble",
       "description": "Demonstration of highlighting a bubble when it is clicked.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/lE4ypFpI"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/lE4ypFpI" }
     }
   ],
   "groupLinks": [
@@ -39,13 +43,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

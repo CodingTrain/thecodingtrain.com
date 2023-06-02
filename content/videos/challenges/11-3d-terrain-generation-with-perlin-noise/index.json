@@ -1,12 +1,12 @@
 {
-  "title": "3D Terrain Generation with Perlin Noise in Processing",
-  "description": "In this coding challenge, I create a 3D procedural terrain using Perlin Noise and the beginShape() function in Processing.",
+  "title": "3D Terrain Generation with Perlin Noise",
+  "description": "Let's fly to new heights with a 3D terrain coding challenge! Using Perlin Noise and beginShape() + endShape() with triangle strips, I'll guide you through visualizing a 3D procedural terrain in Processing.",
   "videoNumber": "11",
   "videoId": "IKB1hWWedMk",
   "nebulaSlug": "the-coding-train-coding-challenge-11-3d-terrain-generation-with-perlin-noise-in-processing",
   "date": "2016-05-04",
   "languages": ["Processing"],
-  "topics": ["perlin noise", "terrain generation", "procedural"],
+  "topics": ["Perlin noise", "terrain generation", "procedural"],
   "canContribute": true,
   "relatedChallenges": ["18-3d-fractal-trees", "24-perlin-noise-flow-field", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
@@ -68,7 +68,7 @@
         {
           "icon": "🚂",
           "title": "What is Perlin Noise?",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/perlin-noise-and-p5js-tutorial-intro",
+          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise",
           "description": "Tutorial on Perlin Noise in p5.js"
         },
         {
@@ -81,13 +81,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

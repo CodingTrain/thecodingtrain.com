@@ -1,0 +1,96 @@
+{
+  "title": "Teachable Machine 1: Image Classification",
+  "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)!  Train a computer to recognize your own images, sounds, & poses. In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library. ",
+  "videoNumber": "1",
+  "nebulaSlug": "the-coding-train-yt-teachable-machine-1-image-classification",
+  "videoId": "kwcillcWOg0",
+  "date": "2019-11-07",
+  "languages": ["JavaScript", "p5.js", "ml5.js"],
+  "topics": ["machine learning (ML)", "ml5.js", "image classification"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:32", "title": "Teachable Machine 2.0" },
+    { "time": "1:06", "title": "Training an Image Classification model" },
+    { "time": "3:11", "title": "Train model" },
+    { "time": "3:21", "title": "High-level overview" },
+    { "time": "5:10", "title": "Save your data" },
+    { "time": "6:58", "title": "Train the model" },
+    { "time": "7:30", "title": "Save the model" },
+    { "time": "8:57", "title": "Coding" },
+    { "time": "10:31", "title": "Step 1 Load the model" },
+    { "time": "11:19", "title": "Step 2 Classify" },
+    { "time": "12:44", "title": "Step 3 Get the classification" },
+    { "time": "14:48", "title": "Step 4 Draw the label" },
+    { "time": "18:34", "title": "The sound classifier" },
+    { "time": "19:19", "title": "Train a model that can be a game controller" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Code Template",
+      "description": "Template code for the Teachable Machine.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/aRN4PS2Nm" }
+    },
+    {
+      "title": "Final Code",
+      "description": "Final code of the Teachable Machine.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/PoZXqbu4v" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "Teachable Machine",
+          "url": "https://teachablemachine.withgoogle.com/",
+          "description": "A web-based tool that makes creating machine learning models fast, easy, and accessible to everyone."
+        },
+        {
+          "icon": "💾",
+          "title": "Tensor Flow",
+          "url": "https://www.tensorflow.org/js",
+          "description": "A library for machine learning in JavaScript."
+        },
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "💻",
+          "title": "Image-Net",
+          "url": "https://image-net.org/",
+          "description": "ImageNet is an image database organized according to the WordNet hierarchy."
+        },
+        {
+          "icon": "📓",
+          "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "url": "https://arxiv.org/abs/1704.04861",
+          "description": "Academic article about MobileNets."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ml5.js: Transfer Learning with Feature Extractor",
+          "url": "/tracks/ml5js-beginners-guide/ml5/2-transfer-learning/1-transfer-learning",
+          "description": "Link to tutorial track on the process behind “transfer learning” with ml5's feature extractor."
+        },
+        {
+          "icon": "🚂",
+          "title": "ml5.js: Feature Extractor Classification",
+          "url": "/tracks/ml5js-beginners-guide/ml5/3-feature-extractor/1-classification",
+          "description": "Link to tutorial track on ml5's feature extractor."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

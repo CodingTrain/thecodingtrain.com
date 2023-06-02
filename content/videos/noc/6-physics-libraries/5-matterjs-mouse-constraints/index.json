@@ -1,0 +1,107 @@
+{
+  "title": "6.5 Matter.js - Mouse Constraints",
+  "description": "This video explains how a add a mouse constraint to the world.",
+  "videoNumber": "5.21",
+  "videoId": "W-ou_sVlTWk",
+  "nebulaSlug": "",
+  "date": "2017-03-09",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["physics engine", "matter.js"],
+  "canContribute": true,
+  "canonicalTrack": "the-nature-of-code-2",
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Welcome to one more video about Matter.js!"
+    },
+    {
+      "time": "1:07",
+      "title": "MouseConstraints"
+    },
+    {
+      "time": "2:13",
+      "title": "Adding options"
+    },
+    {
+      "time": "3:27",
+      "title": "Attach mouse to the canvas"
+    },
+    {
+      "time": "5:07",
+      "title": "Add the mouseConstraint to the world"
+    },
+    {
+      "time": "5:39",
+      "title": "Issues with the PixelRatio"
+    },
+    {
+      "time": "7:46",
+      "title": "Draw something with mouseClicked()"
+    },
+    {
+      "time": "8:58",
+      "title": "Use the physics engine to figure out the location of the box"
+    },
+    {
+      "time": "10:46",
+      "title": "Adjust for the offset"
+    },
+    {
+      "time": "11:52",
+      "title": "Issues with using circles in a physics engine"
+    },
+    {
+      "time": "13:00",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mouse Constraints",
+      "description": "This sketch demonstrates adding mouse constraints.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/P8SECdBQ3"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Matter.js",
+          "url": "https://brm.io/matter-js/",
+          "description": "Webpage for the matter.js physics library."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Matter.js playlist",
+          "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+          "description": "My tutorials about the Matter.js physics library."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

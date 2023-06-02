@@ -6,81 +6,31 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-pose-estimation-with-posenet",
   "date": "2020-01-09",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["poseNet", "estimation", "machine learning"],
+  "topics": ["PoseNet", "estimation", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "1:05",
-      "title": "Keypoints on PoseNet skeleton"
-    },
-    {
-      "time": "1:40",
-      "title": "Important questions to ask about ML models"
-    },
-    {
-      "time": "2:07",
-      "title": "COCO"
-    },
-    {
-      "time": "2:33",
-      "title": "Real-time HumanPose Estimation"
-    },
-    {
-      "time": "2:53",
-      "title": "Humans of AI"
-    },
-    {
-      "time": "3:00",
-      "title": "Let's Code"
-    },
-    {
-      "time": "3:38",
-      "title": "poseNet()"
-    },
-    {
-      "time": "3:55",
-      "title": "Documentation"
-    },
-    {
-      "time": "4:28",
-      "title": "Setting a pose event"
-    },
-    {
-      "time": "5:53",
-      "title": "Score"
-    },
-    {
-      "time": "7:20",
-      "title": "Daniel the red-nosed coder."
-    },
-    {
-      "time": "8:58",
-      "title": "Estimating distance from camera"
-    },
-    {
-      "time": "10:00",
-      "title": "Keypoints array"
-    },
-    {
-      "time": "11:19",
-      "title": "Skeleton"
-    },
-    {
-      "time": "12:55",
-      "title": "Train a classifier"
-    }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:05", "title": "Keypoints on PoseNet skeleton" },
+    { "time": "1:40", "title": "Important questions to ask about ML models" },
+    { "time": "2:07", "title": "COCO" },
+    { "time": "2:33", "title": "Real-time HumanPose Estimation" },
+    { "time": "2:53", "title": "Humans of AI" },
+    { "time": "3:00", "title": "Let's Code" },
+    { "time": "3:38", "title": "poseNet()" },
+    { "time": "3:55", "title": "Documentation" },
+    { "time": "4:28", "title": "Setting a pose event" },
+    { "time": "5:53", "title": "Score" },
+    { "time": "7:20", "title": "Daniel the red-nosed coder." },
+    { "time": "8:58", "title": "Estimating distance from camera" },
+    { "time": "10:00", "title": "Keypoints array" },
+    { "time": "11:19", "title": "Skeleton" },
+    { "time": "12:55", "title": "Train a classifier" }
   ],
   "codeExamples": [
     {
       "title": "Pose Estimation with PoseNet",
       "description": "This sketch demonstrates how to do pose estimate with PoseNet",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ULA97pJXR"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ULA97pJXR" }
     },
     {
       "title": "ml5 PoseNet Single Image Example",
@@ -115,7 +65,7 @@
         {
           "icon": "💻",
           "title": "COCO Dataset Explorer",
-          "url": "http://cocodataset.org/#explore",
+          "url": "https://cocodataset.org/#explore",
           "description": "Webpage where you can explore the COCO dataset."
         },
         {
@@ -127,7 +77,7 @@
         {
           "icon": "📓",
           "title": "Humans of AI",
-          "url": "https://humans-of.ai/editorial",
+          "url": "https://humans-of.ai/editorial/",
           "description": "Philipp Schmitt's editorial essay on artifial intelligence and the human effort that went into creating the training dataset."
         }
       ]
@@ -151,13 +101,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

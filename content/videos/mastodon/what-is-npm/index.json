@@ -4,8 +4,8 @@
   "videoNumber": "15.2",
   "videoId": "s70-Vsud9Vk",
   "date": "2015-11-12",
-  "languages": ["node.js"],
-  "topics": ["twitter", "bot"],
+  "languages": ["Node.js"],
+  "topics": ["Twitter", "bot"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "What is NPM?" },
@@ -44,13 +44,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

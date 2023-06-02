@@ -1,8 +1,9 @@
 {
-    "title": "In P5.js with boolean `antState` that also effects the direction of the ant",
-    "url": "https://omareq.github.io/langtons-ant/",
-    "author": {
-        "name": "omareq",
-        "url": "https://github.com/omareq"
-    }
+  "title": "In P5.js with boolean `antState` that also effects the direction of the ant",
+  "url": "https://omareq.github.io/langtons-ant/",
+  "author": {
+    "name": "Omar Essilfie-Quaye",
+    "url": "https://github.com/omareq"
+  },
+  "submittedOn": "2018-01-21T23:07:14.000Z"
 }

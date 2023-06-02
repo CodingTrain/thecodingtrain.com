@@ -5,12 +5,9 @@
   "videoId": "KtPpoMThKUs",
   "date": "2018-04-10",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["neural network", "color predictor", "machine learning"],
+  "topics": ["neural network", "color predictor", "machine learning (ML)"],
   "canContribute": true,
-  "relatedChallenges": [
-    "104-linear-regression-with-tensorflowjs",
-    "105-polynomial-regression-with-tensorflowjs"
-  ],
+  "relatedChallenges": ["104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:49", "title": "Universal Function Approximator" },
@@ -26,9 +23,7 @@
     {
       "title": "Color Predictor",
       "description": "This sketch uses my neural network library to create a \"color predictor.\".",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Kcspm0WPN"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Kcspm0WPN" }
     }
   ],
   "groupLinks": [
@@ -38,7 +33,7 @@
         {
           "icon": "💻",
           "title": "TensorFlow.js",
-          "url": "https://js.tensorflow.org/",
+          "url": "https://www.tensorflow.org/js/",
           "description": "Webpage with reference materials and documentation about Tensorflow.js."
         },
         {
@@ -104,13 +99,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

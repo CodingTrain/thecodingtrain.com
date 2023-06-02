@@ -7,7 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["forces", "vectors", "attraction repulsion", "physics"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["78-simple-particle-system", "159-simple-pendulum", "160-spring-forces"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction to the Challenge!" },
     { "time": "02:31", "title": "Explanation of Gravitational Attraction" },

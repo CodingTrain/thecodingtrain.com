@@ -7,7 +7,7 @@
   "date": "2021-02-20",
   "languages": ["JavaScript", "p5.js"],
   "relatedChallenges": ["93-double-pendulum", "160-spring-forces"],
-  "topics": ["pendulums", "angular motion", "polar coordinates", "trigonometry", "damping"],
+  "topics": ["pendulum", "angular motion", "polar coordinates", "trigonometry", "damping"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Choo choo!! 2021 Coding Challenge!" },
@@ -79,9 +79,9 @@
       "links": [
         {
           "icon": "📕",
-          "title": "Nature of Code Playlist",
-          "url": "https://thecodingtrain.com/learning/nature-of-code/",
-          "description": "This playlist accompanies the Nature of Code book."
+          "title": "Nature of Code track",
+          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2",
+          "description": "This track accompanies the Nature of Code book."
         },
         {
           "icon": "⎇",

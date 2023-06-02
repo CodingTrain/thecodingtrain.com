@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-classifying-drawings-with-doodlenet",
   "date": "2020-12-09",
   "languages": ["ml5.js", "JavaScript"],
-  "topics": ["DoodleNet", "machine learning", "doodle classifier"],
+  "topics": ["DoodleNet", "machine learning (ML)", "doodle classifier"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

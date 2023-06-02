@@ -5,12 +5,7 @@
   "videoId": "RPz75gcHj18",
   "date": "2017-09-25",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "web crawler",
-    "wikipedia api",
-    "regular expressions",
-    "load json"
-  ],
+  "topics": ["web crawler", "Wikipedia API", "regular expressions (regex)", "load JSON"],
   "canContribute": true,
   "relatedChallenges": ["84-word-definition-chrome-extension"],
   "timestamps": [
@@ -48,9 +43,7 @@
     {
       "title": "Wikipedia web crawler",
       "description": "This sketch implements a Wikipedia web crawler",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/A4u07unm5"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/A4u07unm5" }
     }
   ],
   "groupLinks": [
@@ -90,13 +83,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -1,0 +1,73 @@
+{
+  "title": "9.10 Continuous Evolutionary System",
+  "description": "In this video, I apply the Genetic Algorithm to an \"Ecosystem Simulation\", a system which models biological life more closely, where elements live and die continuously evolving over time.",
+  "videoId": "Sx_l2GxBC5w",
+  "date": "2016-08-11",
+  "languages": ["p5.js"],
+  "topics": ["genetic algorithms", "ecosystem simulation"],
+  "canContribute": true,
+  "relatedChallenges": ["29-smart-rockets-in-p5js", "69-evolutionary-steering-behaviors"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Welcome to one more video about genetic algorithms!"
+    },
+    {
+      "time": "0:56",
+      "title": "Comparison to real world"
+    },
+    {
+      "time": "2:11",
+      "title": "Explain system of \"Bloops\""
+    },
+    {
+      "time": "4:42",
+      "title": "How does genetic information get passed on?"
+    },
+    {
+      "time": "6:23",
+      "title": "Things to think about"
+    },
+    {
+      "time": "7:17",
+      "title": "No fitness function -- survival of the \"survivors\""
+    },
+    {
+      "time": "7:41",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Evolutionary Bloops",
+      "description": "This sketch creates an evolutionary system that evolves Bloops.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/natureofcode/sketches/1HDlp_tKF"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

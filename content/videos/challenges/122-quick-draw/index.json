@@ -4,18 +4,10 @@
   "videoNumber": "122",
   "videoId": "",
   "date": "2018-11-19",
-  "languages": ["p5.js", "node.js", "JavaScript"],
-  "topics": [
-    "Quick, Draw!",
-    "machine learning",
-    "doodle classifiers",
-    "sketchrnn"
-  ],
+  "languages": ["p5.js", "Node.js", "JavaScript"],
+  "topics": ["Quick, Draw! game", "machine learning (ML)", "doodle classifiers", "sketch-RNN"],
   "canContribute": true,
-  "relatedChallenges": [
-    "128-sketch-rnn-snowflakes",
-    "153-interactive-drawing-with-sketchrnn"
-  ],
+  "relatedChallenges": ["128-sketch-rnn-snowflakes", "153-interactive-drawing-with-sketchrnn"],
   "timestamps": [],
   "parts": [
     {
@@ -56,30 +48,15 @@
       "title": "Part 2 - Load Drawings using the Quick, Draw API",
       "videoId": "EcRK6oFddPQ",
       "timestamps": [
-        {
-          "time": "0:00",
-          "title": "The Quickdraw API"
-        },
+        { "time": "0:00", "title": "The Quickdraw API" },
         {
           "time": "2:11",
           "title": "The API Google group is no longer available"
         },
-        {
-          "time": "4:11",
-          "title": "The project page"
-        },
-        {
-          "time": "5:20",
-          "title": "Add the API key to the URL query string"
-        },
-        {
-          "time": "9:00",
-          "title": "Paste the code from Part 1"
-        },
-        {
-          "time": "14:38",
-          "title": "Conclusion"
-        }
+        { "time": "4:11", "title": "The project page" },
+        { "time": "5:20", "title": "Add the API key to the URL query string" },
+        { "time": "9:00", "title": "Paste the code from Part 1" },
+        { "time": "14:38", "title": "Conclusion" }
       ]
     }
   ],
@@ -94,9 +71,7 @@
     {
       "title": "Quick, Draw! - Part 2",
       "description": "The API is no longer available, so a JSON file with one cat is loaded instead.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/HyRPosF07" }
     }
   ],
   "groupLinks": [
@@ -171,13 +146,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

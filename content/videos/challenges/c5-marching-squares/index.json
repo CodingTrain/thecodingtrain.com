@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-5-marching-squares",
   "date": "2020-07-17",
   "languages": ["Processing"],
-  "topics": ["marching squares", "metaballs", "worley noise", "isolines", "noise", "grid"],
+  "topics": ["marching squares", "metaballs", "Worley noise", "isolines", "noise", "grid"],
   "canContribute": true,
   "relatedChallenges": ["28-metaballs", "c4-worley-noise"],
   "timestamps": [
@@ -26,7 +26,7 @@
       "image": "color.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/hERGV3q_u",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main//005_marching_squares/Processing_color"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/marching_squares_color"
       }
     },
     {
@@ -35,16 +35,16 @@
       "image": "worley.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/JzvYF8WwT",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_worley"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/marching_squares_worley"
       }
     },
     {
       "title": "Image",
-      "description": "Visualization of marching squares with a image.",
+      "description": "Visualization of marching squares with an image.",
       "image": "image.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/qThqi4OfJ",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_image"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/marching_squares_image"
       }
     },
     {
@@ -53,7 +53,7 @@
       "image": "webcam.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0XAj0DRD2",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_webcam"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/marching_squares_webcam"
       }
     },
     {
@@ -62,7 +62,7 @@
       "image": "metaballs.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/wwB-AA4i-",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_metaballs"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/metaballs"
       }
     },
     {
@@ -77,7 +77,7 @@
       "image": "interpolation.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/hEB4588QC",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_metaballs_interpolation"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/marching_squares_metaballs_interpolation"
       }
     },
     {
@@ -86,7 +86,7 @@
       "image": "opensimplex.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/18cjVoAX1",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/Processing_simplex_interpolation/sketch_marching_squares_simplex_noise_interpolation"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/005_marching_squares/marching_squares_simplex_noise_interpolation"
       }
     }
   ],
@@ -103,7 +103,7 @@
         {
           "icon": "📓",
           "title": "Metaballs and Marching Squares",
-          "url": "http://jamie-wong.com/2014/08/19/metaballs-and-marching-squares/",
+          "url": "https://jamie-wong.com/2014/08/19/metaballs-and-marching-squares/",
           "description": "Jamie Wong's discussion of metaballs and marching squares."
         },
         {
@@ -150,7 +150,7 @@
         {
           "icon": "🎥",
           "title": "2D Noise - Perlin Noise and p5.js Tutorial",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/perlin-noise-and-p5js-tutorial-intro",
+          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise",
           "description": "I show you what Perlin noise is and how it can be used in creative coding."
         }
       ]

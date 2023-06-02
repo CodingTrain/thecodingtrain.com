@@ -5,13 +5,7 @@
   "videoId": "flxOkx0yLrY",
   "date": "2017-04-18",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "genetic algorithms",
-    "steering behaviors",
-    "seek function",
-    "autonomous agent",
-    "evolution"
-  ],
+  "topics": ["genetic algorithms", "steering behaviors", "seek function", "autonomous agent", "evolution"],
   "canContribute": true,
   "relatedChallenges": ["59-steering-behaviors", "124-flocking-simulation"],
   "timestamps": [],
@@ -125,13 +119,13 @@
         {
           "icon": "📕",
           "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
-          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning",
           "description": "Syllabus for Part 2 of Nature of Code: \u201cIntelligence and Learning\u201d at ITP Spring 2017"
         },
         {
           "icon": "📕",
           "title": "Nature of Code",
-          "url": "http://natureofcode.com/",
+          "url": "https://natureofcode.com/",
           "description": "My Nature of Code book."
         },
         {

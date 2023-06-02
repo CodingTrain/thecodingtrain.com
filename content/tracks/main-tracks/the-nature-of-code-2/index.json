@@ -6,18 +6,11 @@
   "chapters": [
     {
       "title": "Welcome",
-      "videos": [
-        "noc/welcome/welcome-to-the-nature-of-code-in-2020-p5js",
-        "noc/welcome/nature-of-code-2-introduction"
-      ]
+      "videos": ["noc/welcome/welcome-to-the-nature-of-code-in-2020-p5js", "noc/welcome/nature-of-code-2-introduction"]
     },
     {
       "title": "Perlin Noise and p5.js Tutorial",
-      "videos": [
-        "noc/perlin/intro-to-perlin-noise",
-        "noc/perlin/noise-vs-random",
-        "noc/perlin/graphing-1d-perlin-noise"
-      ]
+      "videos": ["noc/perlin/intro-to-perlin-noise", "noc/perlin/noise-vs-random", "noc/perlin/graphing-1d-perlin-noise"]
     },
     {
       "title": "Vectors",
@@ -53,7 +46,6 @@
         "noc/3-angles/7-additive-waves",
         "challenges/159-simple-pendulum",
         "challenges/160-spring-forces"
-
       ]
     },
     {
@@ -75,6 +67,45 @@
         "noc/5-autonomous-agents/5-wander",
         "noc/5-autonomous-agents/6-scalar-projection",
         "noc/5-autonomous-agents/7-path-following"
+      ]
+    },
+    {
+      "title": "Physics Libraries",
+      "videos": [
+        "noc/6-physics-libraries/1-matterjs-introduction",
+        "noc/6-physics-libraries/2-matterjs-introduction-continued",
+        "noc/6-physics-libraries/3-matterjs-deleting-bodies",
+        "noc/6-physics-libraries/4-matterjs-constraints",
+        "noc/6-physics-libraries/5-matterjs-mouse-constraints",
+        "challenges/177-soft-body-character"
+      ]
+    },
+    {
+      "title": "Cellular Automata",
+      "videos": ["challenges/85-the-game-of-life"]
+    },
+    {
+      "title": "Fractals",
+      "videos": [
+        "challenges/77-recursion",
+        "challenges/14-fractal-trees-recursive",
+        "challenges/15-object-oriented-fractal-trees",
+        "challenges/16-l-system-fractal-trees"
+      ]
+    },
+    {
+      "title": "Genetic Algorithms",
+      "videos": [
+        "noc/9-genetic-algorithms/1-introduction",
+        "noc/9-genetic-algorithms/2-how-it-works",
+        "noc/9-genetic-algorithms/3-shakespeare-monkey-example",
+        "noc/9-genetic-algorithms/4-looking-at-code",
+        "noc/9-genetic-algorithms/5-genotype-vs-phenotype",
+        "noc/9-genetic-algorithms/6-improved-fitness-function",
+        "noc/9-genetic-algorithms/7-pool-selection",
+        "noc/9-genetic-algorithms/8-improved-pool-selection",
+        "noc/9-genetic-algorithms/9-interactive-selection",
+        "noc/9-genetic-algorithms/10-continuous-evolutionary-systems"
       ]
     }
   ]

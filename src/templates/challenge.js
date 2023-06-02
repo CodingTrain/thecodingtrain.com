@@ -45,8 +45,6 @@ const Challenge = ({ data }) => {
       <main>
         <ChallengeVideoSection challenge={challenge} />
 
-        <div className={css.blankSep} />
-
         <VideoInfo
           video={challenge}
           variant="cyan"
@@ -108,6 +106,7 @@ export const query = graphql`
       title
       slug
       videoId
+      nebulaSlug
       description
       languages
       topics
@@ -120,6 +119,7 @@ export const query = graphql`
       parts {
         title
         videoId
+        nebulaSlug
         timestamps {
           title
           time

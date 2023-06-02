@@ -1,10 +1,11 @@
 {
   "title": "Setup",
   "description": "In this video, I outline what you need setup and ready before you begin the course Working with Data and APIs in JavaScript.",
-  "languages": ["JavaScript", "node.js"],
-  "topics": ["server side", "workflow", "setup"],
+  "languages": ["JavaScript", "Node.js"],
+  "topics": ["server-side programming", "workflow", "setup"],
   "videoId": "hPbDyqzxQfU",
   "nebulaSlug": "codingtrain-setup-everything-you-need-to-begin-the-course-working-with-data-and-apis-in-javascript",
+  "canContribute": false,
   "timestamps": [],
   "codeExamples": [],
   "groupLinks": [
@@ -13,7 +14,7 @@
       "links": [
         {
           "title": "Node.js",
-          "url": "https://nodejs.org/en/",
+          "url": "https://nodejs.org/en",
           "description": "Node.js is a JavaScript runtime which allows you to run JavaScript code on your computer."
         },
         {
@@ -28,7 +29,7 @@
         },
         {
           "title": "Brackets",
-          "url": "http://brackets.io",
+          "url": "https://brackets.io/",
           "description": "Brackets is a source code editor with a primary focus on web development."
         },
         {
@@ -58,7 +59,7 @@
         },
         {
           "title": "iTerm",
-          "url": "https://www.iterm2.com/",
+          "url": "https://iterm2.com/",
           "description": "iTerm is a replacement for Terminal for MacOS."
         },
         {

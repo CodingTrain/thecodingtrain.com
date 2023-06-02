@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-34-diffusion-limited-aggregation",
   "date": "2016-08-18",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Paul Bourke", "Diffusion-Limited Aggregation"],
+  "topics": ["Paul Bourke", "fractal", "diffusion-limited aggregation"],
   "canContribute": true,
   "relatedChallenges": ["15-object-oriented-fractal-trees", "52-random-walker", "127-brownian-tree-snowflake"],
   "timestamps": [
@@ -100,13 +100,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

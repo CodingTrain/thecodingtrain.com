@@ -5,7 +5,7 @@
   "videoId": "pdaNttb7Mr8",
   "date": "2018-12-26",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],
+  "topics": ["sketch-RNN", "machine learning (ML)", "Quick, Draw! game"],
   "canContribute": true,
   "relatedChallenges": [
     "122-quick-draw",
@@ -26,16 +26,14 @@
     { "time": "14:02", "title": "Pen up or down" },
     { "time": "16:45", "title": "Check for pen ending" },
     { "time": "18:25", "title": "Snowflakes!" },
-    { "time": "19;46", "title": "Scaling the snowflakes" }
+    { "time": "19:46", "title": "Scaling the snowflakes" }
   ],
   "codeExamples": [
     {
       "title": "SketchRNN snowflakes",
       "description": "This sketch uses sketchRNN to generate snowflakes.",
       "image": "snowflake.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/B1NHS00xE"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/B1NHS00xE" }
     }
   ],
   "groupLinks": [
@@ -45,7 +43,7 @@
         {
           "icon": "💸",
           "title": "Support the Processing Foundation",
-          "url": "https://processingfoundation.org/support/",
+          "url": "https://processingfoundation.org/donate",
           "description": "Donate to the Processing Foundation!"
         },
         {
@@ -87,13 +85,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

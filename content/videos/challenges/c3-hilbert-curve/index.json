@@ -6,8 +6,9 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-3-hilbert-curve",
   "date": "2020-02-08",
   "languages": ["Processing"],
-  "topics": ["hilbert curve", "iterative algorithm", "space-filling"],
+  "topics": ["Hilbert curve", "iterative algorithm", "space-filling"],
   "canContribute": true,
+  "relatedChallenges": ["162-self-avoiding-walk", "76-10Print"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:58", "title": "The Hilbert Curve" },
@@ -24,7 +25,7 @@
       "image": "hilbert.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/LPf9PLmp",
-        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/003_Hilbert_Curve/"
+        "processing": "https://github.com/CodingTrain/Coding-in-the-Cabana/tree/main/003_hilbert_curve"
       }
     }
   ],
@@ -41,7 +42,7 @@
         {
           "icon": "🔁",
           "title": "Iterative algorithm for drawing Hilbert curve by Marcin Chwedczuk",
-          "url": "https://marcin-chwedczuk.github.io/iterative-algorithm-for-drawing-hilbert-curve",
+          "url": "https://blog.marcinchwedczuk.pl/iterative-algorithm-for-drawing-hilbert-curve",
           "description": "Discussion of iterative algorithm for drawing Hilbert curve."
         }
       ]
@@ -59,13 +60,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

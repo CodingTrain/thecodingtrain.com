@@ -5,7 +5,7 @@
   "videoId": "JFugGF1URNo",
   "date": "2018-06-21",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "algorithmic botany"],
+  "topics": ["fractal", "tree", "algorithmic botany"],
   "canContribute": true,
   "relatedChallenges": [
     "14-fractal-trees-recursive",
@@ -45,6 +45,7 @@
     {
       "title": "The Barnsley Fern",
       "description": "This sketch implements the algorithm for the Barnsley Fern.",
+      "image": "fern.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/G4V940Y8V",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/108_barnsley_fern/Processing/CC_108_barnsley_fern"

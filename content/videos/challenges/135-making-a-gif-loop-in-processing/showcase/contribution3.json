@@ -1,9 +1,9 @@
 {
-    "title": "MIDI controlled gif loop",
-    "url": "https://github.com/decrecementofeliz/processing-midibus",
-    "author": {
-        "name": "Pilar Mera",
-        "url": "https://github.com/decrecementofeliz"
-    },
-    "source": "https://github.com/decrecementofeliz/processing-midibus/blob/main/processing-midi.gif"
+  "title": "MIDI controlled gif loop",
+  "url": "https://github.com/decrecementofeliz/processing-midibus",
+  "author": {
+    "name": "Pilar Mera",
+    "url": "https://github.com/decrecementofeliz"
+  },
+  "submittedOn": "2019-03-05T09:57:08.000Z"
 }

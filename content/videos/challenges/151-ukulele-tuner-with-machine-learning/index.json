@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-challenge-151-ukulele-tuner-with-machine-learning-pitch-detection-model",
   "date": "2019-10-03",
   "languages": ["p5.js", "ml5.js", "JavaScript"],
-  "topics": ["machine learning", "pitch detection", "sound", "tuner"],
+  "topics": ["machine learning (ML)", "pitch detection", "sound", "tuner"],
   "canContribute": true,
   "relatedChallenges": ["41-clappy-bird", "147-chrome-dinosaur-game", "153-interactive-drawing-with-sketchrnn"],
   "timestamps": [
@@ -34,9 +34,7 @@
       "title": "Ukulele Tuner in p5.js",
       "description": "Tuner for the notes A, E, C and G of a ukulele",
       "image": "tuner.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/8io2zvT03" }
     }
   ],
   "groupLinks": [
@@ -83,13 +81,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

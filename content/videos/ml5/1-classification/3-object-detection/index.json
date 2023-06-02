@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-ml5-js-object-detection-with-coco-ssd",
   "date": "2020-10-20",
   "languages": ["p5.js", "ml5.js"],
-  "topics": ["coco-ssd", "COCO dataset", "model provenance", "data provenance", "detection box"],
+  "topics": ["COCO-SSD", "COCO dataset", "model provenance", "data provenance", "detection box"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -82,7 +82,7 @@
         {
           "icon": "💻",
           "title": "Excavating AI - The Politics of Images in Machine Learning Training Sets",
-          "url": "https://www.excavating.ai/",
+          "url": "https://excavating.ai/",
           "description": "Article by Kate Crawford and Trevor Paglen that explores why the automated interpretation of images is an inherently social and political project"
         },
         {

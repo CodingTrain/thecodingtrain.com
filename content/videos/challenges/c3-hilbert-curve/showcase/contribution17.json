@@ -1,8 +1,9 @@
 {
-    "title": "Hilbert curve: a 'matrix' approach",
-    "url": "https://jckimgit.github.io/p5jsSimulations/hilbert",
-    "author": {
-      "name": "Jae-Cheol Kim",
-      "url": "https://jckimgit.github.io/p5jsSimulations/"
-    }
-  }
+  "title": "Hilbert curve: a 'matrix' approach",
+  "url": "https://jckimgit.github.io/p5jsSimulations/hilbert",
+  "author": {
+    "name": "Jae-Cheol Kim",
+    "url": "https://jckimgit.github.io/p5jsSimulations/"
+  },
+  "submittedOn": "2020-04-08T11:09:59.000Z"
+}

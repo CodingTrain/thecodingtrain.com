@@ -1,0 +1,58 @@
+{
+  "title": "The Pixel Array",
+  "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js.",
+  "videoId": "nMUMZ5YRxHI",
+  "nebulaSlug": "",
+  "date": "2016-03-16",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "pixel array"],
+  "canContribute": true,
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "2:17", "title": "The pixel array" },
+    { "time": "3:48", "title": "R, G, B values" },
+    { "time": "6:26", "title": "The formula for getting the numerical pixel on the screen" },
+    { "time": "7:43", "title": "loadPixels and updatePixels" },
+    { "time": "10:00", "title": "Using a nexted loop to change every pixel" },
+    { "time": "13:00", "title": "Using pixelDensity() to deal with high density displays" },
+    { "time": "14:21", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Pixel Array",
+      "description": "The sketch demonstrates how to load and update pixels.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/A92PDk-1z"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "loadPixels",
+          "url": "https://p5js.org/reference/#/p5/loadPixels",
+          "description": "p5 reference entry on the loadPixels() function"
+        },
+        {
+          "title": "updatePixels",
+          "url": "https://p5js.org/reference/#/p5/updatePixels",
+          "description": "p5 reference entry on the updatePixels() function"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -1,23 +1,13 @@
 {
   "title": "Recamán's Sequence",
-  "description": "In this coding challenge, I visualize the Recamán\u2019s number sequence using the p5.js library and go on to generate a series of musical tones using p5.js sound.",
+  "description": "In this coding challenge, I visualize the Recamán’s number sequence using the p5.js library and go on to generate a series of musical tones using p5.js sound.",
   "videoNumber": "110",
   "videoId": "",
   "date": "2018-07-24",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "number sequence",
-    "recaman's sequence",
-    "music",
-    "audio-visual",
-    "visualization"
-  ],
+  "topics": ["number sequence", "Recamán's sequence", "music", "audio-visual", "visualization"],
   "canContribute": true,
-  "relatedChallenges": [
-    "140-pi-leibniz",
-    "133-time-tables-cardioid-visualization",
-    "c2-collatz-conjecture"
-  ],
+  "relatedChallenges": ["140-pi-leibniz", "133-time-tables-cardioid-visualization", "c2-collatz-conjecture"],
   "timestamps": [],
   "parts": [
     {
@@ -96,7 +86,7 @@
     {
       "image": "recaman.png",
       "title": "Recamán's Sequence - Part 1",
-      "description": "The sketch visualizes the Recamán\u2019s number sequence",
+      "description": "The sketch visualizes the Recamán’s number sequence",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/2OSiAFU7k",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/110.1_recaman/Processing/CC_110_recaman"
@@ -106,9 +96,7 @@
       "image": "recaman.png",
       "title": "Recamán's Sequence - Part 2",
       "description": "The sketch uses Recamán's Sequence to generate a series of musical tones",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/2CRSf-wRL"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/2CRSf-wRL" }
     }
   ],
   "groupLinks": [
@@ -118,7 +106,7 @@
         {
           "icon": "📘",
           "title": "Recamán's Sequence on MathWorld",
-          "url": "http://mathworld.wolfram.com/RecamansSequence.html",
+          "url": "https://mathworld.wolfram.com/RecamansSequence.html",
           "description": "Wolframn MathWorld's page on the Recamán's Sequence"
         },
         {
@@ -127,11 +115,10 @@
           "url": "https://en.wikipedia.org/wiki/Recam%C3%A1n%27s_sequence",
           "description": "Wikipedia page on the Recamán's Sequence"
         },
-
         {
           "icon": "🗐",
           "title": "OEIS",
-          "url": "http://oeis.org/",
+          "url": "https://oeis.org/",
           "description": "An online database of integer sequences created by Neil Sloane"
         },
         {
@@ -173,13 +160,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

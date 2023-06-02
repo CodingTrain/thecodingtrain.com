@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-52-random-walker",
   "date": "2017-01-27",
   "languages": ["p5.js", "JavaScript", "Processing", "Java"],
-  "topics": ["random", "floor", "random walker"],
+  "topics": ["random", "floor", "random walk"],
   "canContribute": true,
   "relatedChallenges": ["53-random-walker-with-vectors-and-levy-flight", "162-self-avoiding-walk"],
   "timestamps": [
@@ -95,13 +95,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

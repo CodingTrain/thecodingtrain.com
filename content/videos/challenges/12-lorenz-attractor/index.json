@@ -5,7 +5,7 @@
   "videoId": "f0lkz2gSsIk",
   "date": "2016-05-06",
   "languages": ["Processing", "Java"],
-  "topics": ["math", "lorenz attractor"],
+  "topics": ["math", "Lorenz attractor"],
   "canContribute": true,
   "relatedChallenges": ["13-reaction-diffusion", "160-spring-forces"],
   "timestamps": [
@@ -60,7 +60,7 @@
         {
           "icon": "📚",
           "title": "PeasyCam library",
-          "url": "http://mrfeinberg.com/peasycam",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "A library that provides mouse-driven camera to Processing"
         },
         {
@@ -96,13 +96,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,7 +5,7 @@
   "videoId": "qmnH5MT_luk",
   "date": "2018-02-22",
   "languages": ["JavaScript"],
-  "topics": ["array filter", "arrays"],
+  "topics": ["array filter", "array"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "The filter function" },
@@ -16,13 +16,7 @@
   "codeExamples": [],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

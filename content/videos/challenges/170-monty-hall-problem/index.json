@@ -8,6 +8,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["probability", "math", "games"],
   "canContribute": true,
+  "relatedChallenges": ["176-buffon-needle", "42-markov-chain-name-generator"],
   "timestamps": [
     { "time": "0:00", "title": "What is the Monty Hall Problem?" },
     { "time": "1:50", "title": "Solution for the Monty Hall Problem!" },

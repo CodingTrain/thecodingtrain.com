@@ -1,8 +1,9 @@
 {
-    "title": "Port of the algorithm to an R package",
-    "url": "https://github.com/jannikbuhr/hilbeRt#example",
-    "author": {
-      "name": "Jannik Buhr",
-      "url": "https://jmbuhr.de/"
-    }
-  }
+  "title": "Port of the algorithm to an R package",
+  "url": "https://github.com/jannikbuhr/hilbeRt#example",
+  "author": {
+    "name": "Jannik Buhr",
+    "url": "https://jmbuhr.de/"
+  },
+  "submittedOn": "2020-06-12T11:57:42.000Z"
+}

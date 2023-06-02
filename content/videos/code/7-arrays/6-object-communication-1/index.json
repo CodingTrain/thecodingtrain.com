@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-7-6-object-communication-part-1-p5-js-tutorial",
   "date": "2017-12-13",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["arrays", "nested loop", "for loop", "objects"],
+  "topics": ["array", "nested loop", "for loop", "objects"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -20,20 +20,12 @@
       "title": "Checking Overlap",
       "description": "Demonstration of determining if two circles are overlapping.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/OG-_2K16"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/OG-_2K16" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

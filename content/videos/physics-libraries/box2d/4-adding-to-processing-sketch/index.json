@@ -1,0 +1,91 @@
+{
+  "title": "Box2D - Adding the library to a Processing Sketch Part 1",
+  "description": "This video covers the basics of adding Box2D to a Processing sketch.",
+  "videoId": "lmYLmcFuj2s",
+  "date": "2015-08-06",
+  "languages": ["processing"],
+  "topics": ["box2d", "physics engine"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:56",
+      "title": "Box objects"
+    },
+    {
+      "time": "3:16",
+      "title": "Initalizing a Box2D body"
+    },
+    {
+      "time": "6:23",
+      "title": "Creating a shape for the body"
+    },
+    {
+      "time": "7:49",
+      "title": "Fixtures"
+    },
+    {
+      "time": "9:04",
+      "title": "Putting it all together"
+    },
+    {
+      "time": "9:52",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Adding Box2d to a Processing sketch",
+      "description": "This sketch demonstrates how how to add Box2d to a Processing sketch.",
+      "image": "image1.png",
+      "urls": {
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/blob/master/chp05_physicslibraries/box2d/NOC_5_2_Boxes/Boundary.pde"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "Nature of Code, first edition."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nature of Code Processing Examples",
+          "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+          "description": "Processing examples for NOC book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Box2D",
+          "url": "https://box2d.org",
+          "description": "A 2D Physics Engine for Games"
+        },
+        {
+          "icon": "🔗",
+          "title": "JBox2d",
+          "url": "https://github.com/jbox2d/jbox2d",
+          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

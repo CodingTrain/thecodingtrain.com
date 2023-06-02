@@ -5,12 +5,9 @@
   "videoId": "oCBlwsY8sR4",
   "date": "2018-10-25",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Binary Numbers", "math"],
+  "topics": ["binary numbers", "math"],
   "canContribute": true,
-  "relatedChallenges": [
-    "119-binary-to-decimal-conversion",
-    "117-seven-segment-display"
-  ],
+  "relatedChallenges": ["119-binary-to-decimal-conversion", "117-seven-segment-display"],
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
     { "time": "1:07", "title": "What is bit-shifting?" },
@@ -63,13 +60,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

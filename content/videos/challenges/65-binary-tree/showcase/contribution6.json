@@ -1,9 +1,9 @@
 {
-    "title": "Interactive Binary tree creater",
-    "url": "https://bst.netlify.com",
-    "author": {
-        "name": "Tushar Upadhyay",
-        "url": "https://github.com/tushar-upadhyay"
-    },
-    "source": "https://github.com/tushar-upadhyay/Binary-search-tree-visualization"
+  "title": "Interactive Binary tree creater",
+  "url": "https://bst.netlify.app/",
+  "author": {
+    "name": "Tushar Upadhyay",
+    "url": "https://github.com/tushar-upadhyay"
+  },
+  "submittedOn": "2020-04-11T09:35:58.000Z"
 }

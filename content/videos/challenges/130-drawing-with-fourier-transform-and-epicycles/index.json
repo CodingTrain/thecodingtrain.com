@@ -5,11 +5,7 @@
   "videoId": "MY4luNgGfms",
   "date": "2019-01-24",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "fourier transform square wave",
-    "discrete fourier transform",
-    "epicycles drawing"
-  ],
+  "topics": ["Fourier transform square wave", "discrete Fourier transform", "epicycles drawing"],
   "canContribute": true,
   "relatedChallenges": ["125-fourier-series"],
   "timestamps": [],
@@ -118,9 +114,7 @@
       "title": "Fourier Transform - user-drawn path",
       "description": "This sketch renders a mouse-drawn path using a Discrete Fourier Transform algorithm.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/jawHqwfda"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/jawHqwfda" }
     },
     {
       "title": "Fourier Transform - complex numbers",
@@ -213,13 +207,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

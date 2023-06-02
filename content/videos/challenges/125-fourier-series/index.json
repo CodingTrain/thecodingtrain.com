@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-125-fourier-series",
   "date": "2018-12-19",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["fourier", "maths"],
+  "topics": ["Fourier", "maths"],
   "canContribute": true,
   "relatedChallenges": ["61-fractal-spirograph", "130-drawing-with-fourier-transform-and-epicycles"],
   "timestamps": [
@@ -50,7 +50,7 @@
         {
           "icon": "📄",
           "title": "Purrier Series (Meow) and Making Images Speak",
-          "url": "http://bilimneguzellan.net/purrier-series-meow-and-making-images-speak/",
+          "url": "https://bilimneguzellan.net/en/purrier-series-meow-and-making-images-speak/",
           "description": "Article on the Fourier Series"
         },
         {
@@ -92,13 +92,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -6,7 +6,7 @@
   "nebulaSlug": "thecodingtrain-coding-challenge-149-tic-tac-toe",
   "date": "2019-07-24",
   "languages": ["p5.js"],
-  "topics": ["beginners", "tic-tac-toe", "games"],
+  "topics": ["beginners", "Tic-Tac-Toe game", "games"],
   "canContribute": true,
   "relatedChallenges": ["77-recursion", "154-tic-tac-toe-minimax", "163-bezier-curves"],
   "timestamps": [
@@ -59,13 +59,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

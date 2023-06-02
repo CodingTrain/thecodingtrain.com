@@ -5,18 +5,9 @@
   "videoId": "",
   "date": "2017-05-09",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "nearest neighbors",
-    "similarity score",
-    "Euclidean distance",
-    "associative arrays"
-  ],
+  "topics": ["nearest neighbors", "similarity score", "Euclidean distance", "associative arrays"],
   "canContribute": true,
-  "relatedChallenges": [
-    "98-quadtree",
-    "104-linear-regression-with-tensorflowjs",
-    "105-polynomial-regression-with-tensorflowjs"
-  ],
+  "relatedChallenges": ["98-quadtree", "104-linear-regression-with-tensorflowjs", "105-polynomial-regression-with-tensorflowjs"],
   "timestamps": [],
   "parts": [
     {
@@ -126,13 +117,13 @@
         {
           "icon": "📕",
           "title": "The Nature of Code Part 2 (Spring 2017) - Intelligence and Learning",
-          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning",
           "description": "Syllabus for my Spring 2017 ITP Intelligence and Learning course."
         },
         {
           "icon": "📓",
           "title": "Notes on Pearson's correlation coefficient",
-          "url": "https://github.com/shiffman/NOC-S17-2-Intelligence-Learning/wiki/Glossary:-Statistics#correlation",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/wiki/Glossary:-Statistics#correlation",
           "description": "Glossary of statistics terms."
         }
       ]

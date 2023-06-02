@@ -5,14 +5,9 @@
   "videoId": "JcopTKXt8L8",
   "date": "2016-06-02",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["fractals", "generative art", "3D"],
+  "topics": ["fractal", "generative art", "3D", "tree"],
   "canContribute": true,
-  "relatedChallenges": [
-    "14-fractal-trees-recursive",
-    "17-fractal-trees-space-colonization",
-    "77-recursion",
-    "168-the-mandelbulb"
-  ],
+  "relatedChallenges": ["14-fractal-trees-recursive", "17-fractal-trees-space-colonization", "77-recursion", "168-the-mandelbulb"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:13", "title": "The algorithm" },

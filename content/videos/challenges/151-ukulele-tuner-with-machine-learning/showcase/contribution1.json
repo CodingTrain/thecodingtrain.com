@@ -1,9 +1,9 @@
 {
   "title": "Afinador - An experimental Guitar/Bass/Anything Tuner webapp",
-  "url": "https://afinador.herokuapp.com/",
+  "url": "https://github.com/lucianotonet/afinador",
   "author": {
     "name": "Luciano Tonet",
-    "url": "https://github.com/tonetlds"
+    "url": "https://github.com/lucianotonet"
   },
-  "source": "https://github.com/tonetlds/afinador"
+  "submittedOn": "2019-10-07T16:26:42.000Z"
 }

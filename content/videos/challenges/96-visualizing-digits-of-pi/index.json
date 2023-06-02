@@ -1,11 +1,11 @@
 {
   "title": "Visualizing the Digits of Pi",
-  "description": "In celebration of Pi Day, Let's attempt to \u201cvisualize\u201d the first one million digits of Pi.",
+  "description": "In celebration of Pi Day, Let's attempt to “visualize” the first one million digits of Pi.",
   "videoNumber": "96",
   "videoId": "WEd_UIKG-uc",
   "date": "2018-03-19",
   "languages": ["Java", "Processing"],
-  "topics": ["pi day", "pi visualization", "pi"],
+  "topics": ["Pi day", "Pi visualization", "Pi"],
   "canContribute": true,
   "relatedChallenges": [
     "95-approximating-the-value-of-pi",
@@ -66,13 +66,13 @@
         {
           "icon": "🥟",
           "title": "Million Pi Digits",
-          "url": "http://www.piday.org/million/",
+          "url": "https://www.piday.org/million/",
           "description": "First on million digits of Pi"
         },
         {
           "icon": "🖋️",
           "title": "Pi Day Code",
-          "url": "https://github.com/CodingTrain/PiDay",
+          "url": "https://github.com/CodingTrain/Pi-Day-2018",
           "description": ""
         }
       ]
@@ -82,9 +82,9 @@
       "links": [
         {
           "icon": "📔",
-          "title": "Polar to Cartesian",
-          "url": "https://youtu.be//more/archive/nature-of-code/3-Oscillation/3.2-Trigonometry-and-Polar-Coordinates",
-          "description": "https://www.youtube.com/watch?v=O5wjXoFrau4"
+          "title": "Polar Coordinates",
+          "url": "https://youtu.be/O5wjXoFrau4",
+          "description": "Nature of Code video on polar coordinates"
         },
         {
           "icon": "📽️",
@@ -108,13 +108,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

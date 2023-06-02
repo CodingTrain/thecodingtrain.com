@@ -6,8 +6,9 @@
   "nebulaSlug": "coding-train-slitscan-time-displacement-coding-challenge",
   "date": "2021-11-21",
   "languages": ["Processing"],
-  "topics": ["copy function", "video", "images", "slitscan"],
+  "topics": ["copy function", "video", "images", "slit-scan"],
   "canContribute": true,
+  "relatedChallenges": ["81-circle-morphing", "166-image-to-ascii"],
   "timestamps": [
     { "time": "0:00", "title": "Context of this video" },
     { "time": "0:55", "title": "How to use the copy function?" },
@@ -90,13 +91,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

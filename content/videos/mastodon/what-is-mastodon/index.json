@@ -4,8 +4,8 @@
   "videoNumber": "4.1",
   "videoId": "sKSxBd56H70",
   "date": "2018-10-08",
-  "languages": ["node.js"],
-  "topics": ["mastodon", "decentralization"],
+  "languages": ["Node.js"],
+  "topics": ["Mastodon", "decentralization"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Introduction: making a Mastodon Bot" },
@@ -22,9 +22,7 @@
       "title": "Mastodon Bot Repo",
       "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
       "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Mastodon-Bot"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/Mastodon-Bot" }
     }
   ],
   "groupLinks": [
@@ -40,7 +38,7 @@
         {
           "icon": "💻",
           "title": "Mastodon Repository",
-          "url": " https://github.com/tootsuite/mastodon",
+          "url": "https://github.com/mastodon/mastodon",
           "description": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones."
         },
         {
@@ -82,13 +80,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

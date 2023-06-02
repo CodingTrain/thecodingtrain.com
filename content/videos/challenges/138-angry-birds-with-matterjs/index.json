@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-138-angry-birds-with-matter-js",
   "date": "2019-03-08",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["matter.js", "physics engine 2D", "angry birds"],
+  "topics": ["matter.js", "physics engine", "Angry Birds game"],
   "canContribute": true,
   "relatedChallenges": [
     "62-plinko-with-matterjs",
@@ -39,9 +39,7 @@
     {
       "title": "Angry Birds with Matter.js!",
       "description": "Implementation of the basic mechanics of the Angry Birds game.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/UOR4nIcNS"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/UOR4nIcNS" }
     }
   ],
   "groupLinks": [
@@ -57,7 +55,7 @@
         {
           "icon": "🚒",
           "title": "Matter.js",
-          "url": "http://brm.io/matter-js/",
+          "url": "https://brm.io/matter-js/",
           "description": "A 2D physics engine for the web"
         }
       ]
@@ -99,13 +97,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

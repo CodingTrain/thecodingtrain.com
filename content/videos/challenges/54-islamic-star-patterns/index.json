@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2017-02-01",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["islamic star patterns", "hankins", "tile pattern", "law of sines"],
+  "topics": ["Islamic star patterns", "Hankin's method", "tile pattern", "law of sines"],
   "canContribute": true,
   "relatedChallenges": ["155-kaleidoscope-snowflake"],
   "timestamps": [],
@@ -116,7 +116,7 @@
         {
           "icon": "📓",
           "title": "University of Waterloo's Star Patterns Paper",
-          "url": "http://www.cgl.uwaterloo.ca/csk/projects/starpatterns/",
+          "url": "https://cs.uwaterloo.ca/~csk/publications/Papers/kaplan_2000.pdf",
           "description": "University of Waterloo's Star Patterns Paper"
         }
       ]
@@ -133,13 +133,13 @@
         {
           "icon": "💸",
           "title": "National Immigration Law Center",
-          "url": "https://www.nilc.org/donate",
+          "url": "https://www.nilc.org/give/",
           "description": "Donate to the Natioal Immigration Law Cener"
         },
         {
           "icon": "💸",
           "title": "International Rescue Committee",
-          "url": "https://www.refugeesinternational.org/donate/",
+          "url": "https://www.refugeesinternational.org/#donate",
           "description": "Donate to the International Rescue Committee"
         },
         {

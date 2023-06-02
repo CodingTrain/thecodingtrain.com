@@ -19,7 +19,6 @@
     {
       "title": "Vector Math",
       "description": "Using vector addition to move a circle across the screen",
-      "image": "image1.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/GGn5cd-z" }
     }
   ],

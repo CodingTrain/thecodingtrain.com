@@ -6,50 +6,20 @@
   "nebulaSlug": "the-coding-train-yt-coding-challenge-152-rdp-line-simplification-algorithm",
   "date": "2019-10-23",
   "languages": ["Processing"],
-  "topics": ["Ramer-Douglas-Peuker algorithm", "recursion"],
+  "topics": ["Ramer-Douglas-Peucker algorithm", "recursion"],
   "canContribute": true,
   "relatedChallenges": ["77-recursion", "128-sketch-rnn-snowflakes"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:02:19",
-      "title": "Initial Curve in processing"
-    },
-    {
-      "time": "0:04:39",
-      "title": "What is the algorithm?"
-    },
-    {
-      "time": "0:08:48",
-      "title": "Starting the implementation"
-    },
-    {
-      "time": "0:17:03",
-      "title": "Making it recursive"
-    },
-    {
-      "time": "0:20:41",
-      "title": "Fixing mistakes"
-    },
-    {
-      "time": "0:21:39",
-      "title": "Calculating distances"
-    },
-    {
-      "time": "0:24:47",
-      "title": "Correcting order"
-    },
-    {
-      "time": "0:25:13",
-      "title": "Animating the algorithm"
-    },
-    {
-      "time": "0:27:03",
-      "title": "What will you create?"
-    }
+    { "time": "0:00:00", "title": "Introduction" },
+    { "time": "0:02:19", "title": "Initial Curve in processing" },
+    { "time": "0:04:39", "title": "What is the algorithm?" },
+    { "time": "0:08:48", "title": "Starting the implementation" },
+    { "time": "0:17:03", "title": "Making it recursive" },
+    { "time": "0:20:41", "title": "Fixing mistakes" },
+    { "time": "0:21:39", "title": "Calculating distances" },
+    { "time": "0:24:47", "title": "Correcting order" },
+    { "time": "0:25:13", "title": "Animating the algorithm" },
+    { "time": "0:27:03", "title": "What will you create?" }
   ],
   "codeExamples": [
     {
@@ -98,13 +68,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

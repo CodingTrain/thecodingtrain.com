@@ -1,0 +1,101 @@
+{
+  "title": "Buffon's Needle",
+  "description": "How do toothpicks approximate the value of pi? I'll show you by coding a simulation in p5.js!",
+  "videoNumber": "176",
+  "videoId": "h5ZNcAPXxew",
+  "nebulaSlug": "codingtrain-coding-challenge-buffons-needle",
+  "date": "2023-03-14",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Pi day", "Pi", "buffon's needle", "buffon"],
+  "canContribute": true,
+  "relatedChallenges": ["95-approximating-the-value-of-pi", "126-toothpicks", "145-ray-casting-2d"],
+  "timestamps": [
+    { "time": "0:00", "title": "Happy Pi Day 2023!" },
+    { "time": "0:45", "title": "Introduce Buffon's Needle" },
+    { "time": "1:40", "title": "Unpack the math" },
+    { "time": "4:40", "title": "Let toothpick fall at an angle" },
+    {
+      "time": "7:08",
+      "title": "The probability that the toothpick crosses the border"
+    },
+    { "time": "7:27", "title": "Uniform probability density function" },
+    { "time": "8:12", "title": "Illustrate the probablity with a graph" },
+    { "time": "10:49", "title": "Approximating the value of Pi" },
+    { "time": "11:11", "title": "Calculating the area under the curve" },
+    { "time": "12:48", "title": "Resources for Buffon's Needle" },
+    { "time": "13:28", "title": "Start Coding" },
+    { "time": "13:53", "title": "Draw vertical lines" },
+    { "time": "14:20", "title": "Add a toothpick" },
+    { "time": "15:02", "title": "Draw background in setup" },
+    { "time": "15:57", "title": "We have to use the built-in value of Pi" },
+    { "time": "17:00", "title": "Find the closest column" },
+    {
+      "time": "17:22",
+      "title": "Determine if the toothpick intersects the column"
+    },
+    { "time": "18:10", "title": "Rotate the line relative to the y-axis" },
+    { "time": "18:50", "title": "Draw the toothpick as a vertical line" },
+    { "time": "19:40", "title": "Improve the visuals" },
+    {
+      "time": "20:48",
+      "title": "Approximate the value of Pi using the probility that a toothpick intersects a column"
+    },
+    { "time": "23:45", "title": "Suggestions for variations" },
+    {
+      "time": "24:08",
+      "title": "New Passenger Showcase page on the Coding Train website"
+    },
+    { "time": "24:27", "title": "See you next year for Pi Day 2024!" },
+    { "time": "24:38", "title": "Easter egg" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Buffon's Needle",
+      "description": "Simple simulator code direct from video",
+      "image": "img1.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zqytzJAZN" }
+    },
+    {
+      "title": "Line Line Intersection",
+      "description": "Algorithm to test for line-line intersection",
+      "image": "img2.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/htO0scRB1" }
+    },
+    {
+      "title": "Probability Density Function Graph",
+      "description": "Graph of the probability density function",
+      "image": "img3.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/eMaEGlfmu" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Buffon's Needle",
+          "url": "https://en.wikipedia.org/wiki/Buffon%27s_needle_problem",
+          "description": "Wikipedia page describing Buffon's Needle."
+        },
+        {
+          "icon": "🔗",
+          "title": "Analysis and Simulation",
+          "url": "https://mste.illinois.edu/activity/buffon/",
+          "description": "Explanation from Technology Education College of Education @ University of Illinois."
+        },
+        {
+          "icon": "🔗",
+          "title": "Pickup Sticks & Pi",
+          "url": "https://ogden.eu/pi/",
+          "description": "Simulation by Thomas Ogden"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" },
+    { "title": "Pi Day Song", "name": "Will from America" }
+  ]
+}

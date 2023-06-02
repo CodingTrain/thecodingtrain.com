@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-6-1-introduction-to-object-oriented-programming-with-es6-p5-js-tutorial",
   "date": "2017-10-06",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["objects", "OOP", "classes"],
+  "topics": ["objects", "object-oriented programming (OOP)", "classes"],
   "canContribute": false,
   "timestamps": [],
   "codeExamples": [],
@@ -24,13 +24,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -6,90 +6,43 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-pose-regression-with-posenet-and-ml5-neuralnetwork",
   "date": "2020-01-22",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["pose regression", "PoseNet", "neural networks"],
+  "topics": ["pose regression", "PoseNet", "neural network"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:51",
-      "title": "Review"
-    },
-    {
-      "time": "2:30",
-      "title": "Control color"
-    },
-    {
-      "time": "3:30",
-      "title": "Adjust configuration of neural network"
-    },
-    {
-      "time": "5:21",
-      "title": "Async and await"
-    },
-    {
-      "time": "7:05",
-      "title": "Target color replaces target label"
-    },
-    {
-      "time": "8:42",
-      "title": "Collect data"
-    },
-    {
-      "time": "10:36",
-      "title": "Save the data"
-    },
-    {
-      "time": "10:48",
-      "title": "Look at the json file"
-    },
-    {
-      "time": "11:33",
-      "title": "Train the model"
-    },
-    {
-      "time": "12:52",
-      "title": "Load the model"
-    },
-    {
-      "time": "13:20",
-      "title": "predict color"
-    },
-    {
-      "time": "15:28",
-      "title": "Add r, g, b sliders"
-    }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:51", "title": "Review" },
+    { "time": "2:30", "title": "Control color" },
+    { "time": "3:30", "title": "Adjust configuration of neural network" },
+    { "time": "5:21", "title": "Async and await" },
+    { "time": "7:05", "title": "Target color replaces target label" },
+    { "time": "8:42", "title": "Collect data" },
+    { "time": "10:36", "title": "Save the data" },
+    { "time": "10:48", "title": "Look at the json file" },
+    { "time": "11:33", "title": "Train the model" },
+    { "time": "12:52", "title": "Load the model" },
+    { "time": "13:20", "title": "predict color" },
+    { "time": "15:28", "title": "Add r, g, b sliders" }
   ],
   "codeExamples": [
     {
       "title": "Pose Regression",
       "description": "Code for running a regression using the Posenet data.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JI_j-PiLk"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JI_j-PiLk" }
     },
     {
       "title": "Data Collection",
       "description": "Code for data collection",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/Fe1ZNKw1Z"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Fe1ZNKw1Z" }
     },
     {
       "title": "Loading Data",
       "description": "Code for loading the data.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/KLrIligVq"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/KLrIligVq" }
     },
     {
       "title": "Deploying",
       "description": "Code for deplying the trained model.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/nejAYCA6N"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/nejAYCA6N" }
     }
   ],
   "groupLinks": [
@@ -124,13 +77,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

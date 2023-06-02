@@ -5,12 +5,9 @@
   "videoId": "RUSvMxxm_Jo",
   "date": "2016-12-11",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["drawing app", "firebase database"],
+  "topics": ["drawing app", "Firebase database"],
   "canContribute": true,
-  "relatedChallenges": [
-    "122-quick-draw",
-    "130-drawing-with-fourier-transform-and-epicycles"
-  ],
+  "relatedChallenges": ["122-quick-draw", "130-drawing-with-fourier-transform-and-epicycles"],
   "timestamps": [
     { "time": "0:00", "title": "Introduce the coding challenge" },
     { "time": "0:23", "title": "Mention shared canvas tutorial" },
@@ -158,13 +155,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

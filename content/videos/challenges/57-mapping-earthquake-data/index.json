@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-57-mapping-earthquake-data",
   "date": "2017-02-13",
   "languages": ["p5.js"],
-  "topics": ["earthquake data", "mapbox", "mapping", "mercator projection"],
+  "topics": ["earthquake data", "Mapbox", "mapping", "Mercator projection"],
   "canContribute": true,
   "relatedChallenges": ["58-3d-earthquake-data-visualization"],
   "timestamps": [
@@ -57,7 +57,7 @@
         {
           "icon": "🌍",
           "title": "Earthquake Database",
-          "url": "http://earthquake.usgs.gov/data/",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/data",
           "description": "USGS Realtime monitoring, station, and other various seismic data"
         }
       ]
@@ -79,5 +79,9 @@
         }
       ]
     }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

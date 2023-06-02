@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-22-julia-set-in-processing",
   "date": "2016-06-16",
   "languages": ["Processing"],
-  "topics": ["julia set", "mandelbrot set", "fractal", "complex number"],
+  "topics": ["Julia set", "Mandelbrot set", "fractal", "complex number"],
   "canContribute": true,
   "relatedChallenges": ["21-mandelbrot-set-with-p5js", "168-the-mandelbulb"],
   "timestamps": [
@@ -77,13 +77,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

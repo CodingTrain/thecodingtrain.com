@@ -5,18 +5,9 @@
   "videoId": "p4Iz0XJY-Qk",
   "date": "2018-08-21",
   "languages": ["Processing"],
-  "topics": [
-    "3d rendering",
-    "projection matrix",
-    "perspective projection",
-    "rotation matrix"
-  ],
+  "topics": ["3D rendering", "projection matrix", "perspective projection", "rotation matrix"],
   "canContribute": true,
-  "relatedChallenges": [
-    "26-3d-supershapes",
-    "113-4d-hypercube-aka-tesseract",
-    "142-rubiks-cube"
-  ],
+  "relatedChallenges": ["26-3d-supershapes", "113-4d-hypercube-aka-tesseract", "142-rubiks-cube"],
   "timestamps": [
     {
       "time": "0:00",
@@ -90,13 +81,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

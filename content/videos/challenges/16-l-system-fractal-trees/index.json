@@ -5,13 +5,9 @@
   "videoId": "E1B4UoSQMFw",
   "date": "2016-05-31",
   "languages": ["JavaScript", "p5.js", "Processing"],
-  "topics": ["fractal trees", "L-system"],
+  "topics": ["L-system", "fractal", "tree"],
   "canContribute": true,
-  "relatedChallenges": [
-    "14-fractal-trees-recursive",
-    "123-chaos-game",
-    "174-graphics-applesoft-basic"
-  ],
+  "relatedChallenges": ["14-fractal-trees-recursive", "123-chaos-game", "174-graphics-applesoft-basic"],
   "timestamps": [
     {
       "time": "0:00",

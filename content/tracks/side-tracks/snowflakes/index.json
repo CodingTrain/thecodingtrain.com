@@ -1,12 +1,11 @@
 {
-    "title": "Snowflakes!",
-    "description": "This track is a compilation of the many Snowflakes challenges that I have done during my annual fundraiser for the Processing Foundation.  Donations can be made at https://processing.org/donate.  Thank you!",
-    "videos": [
-      "challenges/88-snowfall",
-      "challenges/127-brownian-tree-snowflake",
-      "challenges/128-sketch-rnn-snowflakes",
-      "challenges/129-koch-fractal-snowflake",
-      "challenges/155-kaleidoscope-snowflake"
-    ]
-  }
-  
+  "title": "Snowflakes!",
+  "description": "This track is a compilation of the many Snowflakes challenges that I have done during my annual fundraiser for the Processing Foundation.  Donations can be made at https://processing.org/donate/.  Thank you!",
+  "videos": [
+    "challenges/88-snowfall",
+    "challenges/127-brownian-tree-snowflake",
+    "challenges/128-sketch-rnn-snowflakes",
+    "challenges/129-koch-fractal-snowflake",
+    "challenges/155-kaleidoscope-snowflake"
+  ]
+}

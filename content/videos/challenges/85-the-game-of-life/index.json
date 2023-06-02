@@ -5,13 +5,9 @@
   "videoId": "FWSR_7kZuYg",
   "date": "2017-12-11",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["game of life", "cellular automata", "modulus"],
+  "topics": ["Conway's Game of Life", "cellular automaton", "modulo operator"],
   "canContribute": true,
-  "relatedChallenges": [
-    "89-langtons-ant",
-    "107-sandpiles",
-    "102-2d-water-ripple"
-  ],
+  "relatedChallenges": ["89-langtons-ant", "107-sandpiles", "102-2d-water-ripple"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:00", "title": "Generations" },
@@ -27,7 +23,6 @@
     {
       "title": "The Game of Life",
       "description": "The sketch implements the Game of Life cellular automata simulation.",
-      "image": "img1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/UtSMCB1zv",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/085_The_Game_of_Life/Processing/CC_085_The_Game_of_Life"
@@ -83,13 +78,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }
