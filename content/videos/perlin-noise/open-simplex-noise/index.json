@@ -1,10 +1,11 @@
 {
-  "title": "I.7: What is OpenSimplex Noise?",
+  "title": "What is OpenSimplex Noise?",
   "description": "Simplex Noise (2001) is an improvement on \"classic\" Perlin noise (1983). I discuss a bit of the history of noise algorithms and show how to use the Java source code for Open Simplex Noise in Processing.",
-  "languages": ["JavaScript", "p5.js"],
+  "languages": ["Processng"],
   "topics": ["For beginners"],
   "videoId": "Lv9gyZZJPE0",
   "canContribute": true,
+  "relatedChallenges": ["136-polar-noise-loops", "137-4d-opensimplex-noise-loop", "c4-worley-noise"],
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "1:19", "title": "Perlin noise" },
