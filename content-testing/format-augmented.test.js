@@ -288,3 +288,6 @@ for (const [label, [paths, schema]] of Object.entries(rules)) {
     }
   });
 }
+
+// We need to always have at least one test block in a Jest file
+test('', () => {});
