@@ -12,13 +12,13 @@ Thank you for considering supporting the Coding Train! We’ve recently made som
 
 The membership levels are now simplified to 2 tiers across all platforms: “Passenger” and “Conductor”.
 
-### _Passengers $5 / month_
+### Passengers $5 / month
 
 - Discord channels to chug along with The Coding Train team and other members
 - An annual mailing of the Coding Train sticker pack
 - Periodic “behind the scenes” live streams and Q&A session in the engine room
 
-### _Conductors $10 or more / month_
+### Conductors $10 or more / month
 
 - Everything in Passenger tier + mystery gift annually
 
