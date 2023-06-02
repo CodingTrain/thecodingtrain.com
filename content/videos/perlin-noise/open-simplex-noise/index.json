@@ -1,0 +1,65 @@
+{
+  "title": "I.7: What is OpenSimplex Noise?",
+  "description": "Simplex Noise (2001) is an improvement on \"classic\" Perlin noise (1983). I discuss a bit of the history of noise algorithms and show how to use the Java source code for Open Simplex Noise in Processing.",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["For beginners"],
+  "videoId": "Lv9gyZZJPE0",
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "1:19", "title": "Perlin noise" },
+    { "time": "3:11", "title": "Directional artifacts" },
+    { "time": "3:54", "title": "Simplectic geometry" },
+    { "time": "6:17", "title": "Open simplex noise" },
+    { "time": "7:40", "title": "Update the processing sketch" },
+    { "time": "12:00", "title": "Create an open simplex noise object" },
+    { "time": "13:09", "title": "Eval function" },
+    { "time": "14:00", "title": "Cast result to a float" },
+    { "time": "15:09", "title": "Map the noise to the range of color values" },
+    { "time": "15:52", "title": "Change the parameters to get different visual effects" },
+    { "time": "17:16", "title": "Outro" }
+  ],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Perlin Noise",
+          "url": "https://en.wikipedia.org/wiki/Perlin_noise",
+          "description": "Wikipedia page describing perlin noise"
+        },
+        {
+          "icon": "🔗",
+          "title": "Gradient Noise",
+          "url": "https://en.wikipedia.org/wiki/Gradient_noise",
+           "description": "Wikipedia page describing gradient noise"
+        },
+        {
+          "icon": "🔗",
+          "title": "Simplex Noise",
+          "url": "https://en.wikipedia.org/wiki/Simplex_noise",
+           "description": "Wikipedia page describing simplex noise"
+        },
+        {
+          "icon": "🔗",
+          "title": "Simplex Noise Demystified",
+          "url": "https://www.researchgate.net/publication/216813608_Simplex_noise_demystified",
+           "description": "Paper by Stefan Gustavson discussing simplex noise"
+        },
+        {
+          "icon": "🔗",
+          "title": "Etienne Jacob",
+          "url": "https://necessary-disorder.tumblr.com",
+           "description": "Etienne Jacob tumlr"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "date": "2019-03-04"
+}
