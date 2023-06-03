@@ -104,7 +104,7 @@
           "icon": "🎥",
           "title": "The Pixel Array",
           "description": "Tutorial on Pixel Manipulation in p5.js",
-          "url": "https://youtu.be/nMUMZ5YRxHI"
+          "url": "/tracks/p5-tips-and-tricks/more-p5/pixel-array"
         },
         {
           "icon": "🎥",
@@ -116,7 +116,7 @@
           "icon": "🎥",
           "title": "p5.js Web Editor - Uploading Media Files",
           "description": "Tutorial on uploading external files to the p5.js Web Editor",
-          "url": "https://youtu.be/rO6M5hj0V-o"
+          "url": "/tracks/code-programming-with-p5-js/code/7-arrays/upload-editor"
         }
       ]
     }

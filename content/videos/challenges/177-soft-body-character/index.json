@@ -106,13 +106,13 @@
         {
           "icon": "🚂",
           "title": "Toxiclibs Verlet Physics playlist",
-          "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+          "url": "/tracks/physics-libraries/physics-libraries/toxiclibs/1-introduction",
           "description": "My tutorials about the Toxiclibs Verlet Physics library"
         },
         {
           "icon": "🚂",
           "title": "Matter.js playlist",
-          "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+          "url": "/tracks/the-nature-of-code-2/noc/6-physics-libraries/1-matterjs-introduction",
           "description": "My tutorials about the Matter.js physics library."
         },
         {

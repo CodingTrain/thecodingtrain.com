@@ -65,12 +65,12 @@
       "links": [
         {
           "title": "ES6 Arrow Function",
-          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
           "description": "JavaScript tutorial on ES6 Arrow Functions"
         },
         {
           "title": "Server-side with Node.js",
-          "url": "https://www.youtube.com/watch?v=wxbQP1LMZsw",
+          "url": "/tracks/data-and-apis-in-javascript/data/2-data-selfie-app/1-server-side-with-node-js",
           "description": "Introduction to Node.js"
         },
         {

@@ -63,7 +63,7 @@
       "links": [
         {
           "title": "Introduction to Object-Oriented Programming with ES6",
-          "url": "https://www.youtube.com/watch?v=xG2Vbnv0wvg",
+          "url": "/tracks/code-programming-with-p5-js/code/6-objects/1-intro",
           "description": "Coding Train video on object-oriented programming in p5.js"
         }
       ]

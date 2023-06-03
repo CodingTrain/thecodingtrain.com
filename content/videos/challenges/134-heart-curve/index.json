@@ -138,7 +138,7 @@
         {
           "icon": "🎥",
           "title": "Drawing with Fourier Transform and Epicycles",
-          "url": "https://www.youtube.com/watch?v=MY4luNgGfms",
+          "url": "/challenges/130-drawing-with-fourier-transform-and-epicycles",
           "description": "In this video, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform."
         },
         {

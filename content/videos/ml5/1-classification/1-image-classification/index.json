@@ -62,7 +62,7 @@
         {
           "icon": "🚂",
           "title": "ES6 Promises",
-          "url": "https://www.youtube.com/watch?v=QO4NXhWo_NM",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-1",
           "description": "What is a JavaScript Promise?"
         }
       ]

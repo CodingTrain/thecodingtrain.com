@@ -94,7 +94,7 @@
         {
           "icon": "🚂",
           "title": "Teachable Machine: Image Classification",
-          "url": "https://www.youtube.com/watch?v=kwcillcWOg0",
+          "url": "/tracks/teachable-machine/teachable-machine/1-image-classification",
           "description": "In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library."
         }
       ]

@@ -126,7 +126,7 @@
         {
           "icon": "🎥",
           "title": "filter() - Array Functions",
-          "url": "https://www.youtube.com/watch?v=qmnH5MT_luk",
+          "url": "/tracks/topics-in-native-javascript/js/array-filter",
           "description": "This video covers the JavaScript Array higher order function filter()."
         },
         {

@@ -40,12 +40,12 @@
       "links": [
         {
           "title": "Coding Challenge 52 - Random Walker",
-          "url": "https://www.youtube.com/watch?v=l__fEY1xanY",
+          "url": "/challenges/52-random-walker",
           "description": "Random Walker Coding Challenge on the Coding Train YouTube channel"
         },
         {
           "title": "Classes in JavaScript with ES6",
-          "url": "https://www.youtube.com/watch?v=T-HGdc8L-7w",
+          "url": "/tracks/code-programming-with-p5-js/code/6-objects/2-classes",
           "description": "Video on JavaScript Classes on the Coding Train YouTube channel"
         }
       ]

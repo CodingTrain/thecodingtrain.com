@@ -163,7 +163,7 @@
         {
           "icon": "🚂",
           "title": "Collaborative p5.js Sketches Channel",
-          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH",
+          "url": "/tracks/web-sockets-and-p5js",
           "description": "My playlist which covers how to use node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions."
         },
         {
