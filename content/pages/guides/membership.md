@@ -41,7 +41,7 @@ If you're an existing member and missed any past rewards, please contact us at *
 
 ## Why these changes?
 
-After trying various membership models, we found the train was breaking down and often late. The support truly keeps the engines running here but we haven’t been able to support the current membership system adequately. However, we think that one annual mailing for those who are members rather than piecemeal things is something we can manage! At its core, being a member is about supporting the community, so thank you riding along and being a part of the community - Choo Choo!
+After trying various membership models, we found the train was breaking down and often late. The support truly keeps the engines running here but we haven’t been able to support the current membership system adequately. However, we think that one annual mailing for those who are members rather than piecemeal things is something we can manage! At its core, being a member is about supporting the community, so thank you for riding along and being a part of the community - Choo Choo!
 
 ## How do you get access to the member Discord?
 
