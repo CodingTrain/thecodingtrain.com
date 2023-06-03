@@ -25,6 +25,12 @@
     {
       "title": "References",
       "links": [
+         {
+          "icon": "🔗",
+          "title": "OpenSimplex2",
+          "url": "https://github.com/KdotJPG/OpenSimplex2/blob/master/_old/java/legacy/OpenSimplex.java",
+          "description": "Github repo with open source openSimplex noise code."
+        },
         {
           "icon": "🔗",
           "title": "Perlin Noise",
@@ -52,8 +58,8 @@
         {
           "icon": "🔗",
           "title": "Etienne Jacob",
-          "url": "https://necessary-disorder.tumblr.com",
-           "description": "Etienne Jacob tumlr"
+          "url": "https://bleuje.github.io/",
+           "description": "Etienne Jacob website"
         }
       ]
     }
