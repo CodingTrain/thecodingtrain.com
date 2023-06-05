@@ -112,6 +112,7 @@
 
 .list {
   margin: 0;
+  max-width: 800px;
   border-left: var(--border);
   padding: var(--box-padding);
   padding-left: calc(2 * var(--box-padding));
