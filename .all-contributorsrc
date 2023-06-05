@@ -171,6 +171,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "you",
+      "name": "you",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57100752?v=4",
+      "profile": "https://github.com/you",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -179,5 +188,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
