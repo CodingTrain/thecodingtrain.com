@@ -29,7 +29,13 @@
           "icon": "🔗",
           "title": "OpenSimplex2",
           "url": "https://github.com/KdotJPG/OpenSimplex2/blob/master/_old/java/legacy/OpenSimplex.java",
-          "description": "Github repo with open source openSimplex noise code."
+          "description": "Github repo with legacy OpenSimplex code used in tutorial."
+        },
+        {
+          "icon": "🔗",
+          "title": "OpenSimplex2",
+          "url": "https://github.com/KdotJPG/OpenSimplex2",
+          "description": "Github repo with open source OpenSimplex noise code."
         },
         {
           "icon": "🔗",
