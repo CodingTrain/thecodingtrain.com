@@ -27,6 +27,12 @@
       "links": [
          {
           "icon": "🔗",
+          "title": "Perlin Noise",
+          "url": "https://web.archive.org/web/20160530124230/http://freespace.virgin.net/hugo.elias/models/m_perlin.htm",
+          "description": "Archived article about perlin noise."
+        },
+         {
+          "icon": "🔗",
           "title": "OpenSimplex2",
           "url": "https://github.com/KdotJPG/OpenSimplex2/blob/master/_old/java/legacy/OpenSimplex.java",
           "description": "Github repo with legacy OpenSimplex code used in tutorial."
