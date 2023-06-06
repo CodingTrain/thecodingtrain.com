@@ -5,6 +5,7 @@
   "topics": ["For beginners"],
   "videoId": "Qf4dIN99e2w",
   "canContribute": false,
+  "canonicalTrack": "the-nature-of-code-2",
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
     { "time": "0:45", "title": "Random() and noise()" },
