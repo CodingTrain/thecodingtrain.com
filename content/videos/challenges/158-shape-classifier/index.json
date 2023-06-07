@@ -9,7 +9,7 @@
   "topics": [
     "generating datasets",
     "loading images",
-    "neural networks",
+    "neural network",
     "training a model",
     "test training",
     "prediction",
@@ -18,74 +18,26 @@
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "122-quick-draw", "153-interactive-drawing-with-sketchrnn"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:01:33",
-      "title": "Generating the dataset in Processing"
-    },
-    {
-      "time": "0:05:50",
-      "title": "Loading images in p5.js"
-    },
-    {
-      "time": "0:08:34",
-      "title": "Create a ml5 neural network"
-    },
-    {
-      "time": "0:10:54",
-      "title": "Adding the data"
-    },
-    {
-      "time": "0:12:39",
-      "title": "About training the model"
-    },
-    {
-      "time": "0:13:53",
-      "title": "Test training"
-    },
-    {
-      "time": "0:15:21",
-      "title": "Training with full dataset"
-    },
-    {
-      "time": "0:16:44",
-      "title": "Improving the dataset"
-    },
-    {
-      "time": "0:18:20",
-      "title": "Saved model"
-    },
-    {
-      "time": "0:19:01",
-      "title": "Separate sketch for prediction"
-    },
-    {
-      "time": "0:19:40",
-      "title": "Loading the model"
-    },
+    { "time": "0:00:00", "title": "Introduction" },
+    { "time": "0:01:33", "title": "Generating the dataset in Processing" },
+    { "time": "0:05:50", "title": "Loading images in p5.js" },
+    { "time": "0:08:34", "title": "Create a ml5 neural network" },
+    { "time": "0:10:54", "title": "Adding the data" },
+    { "time": "0:12:39", "title": "About training the model" },
+    { "time": "0:13:53", "title": "Test training" },
+    { "time": "0:15:21", "title": "Training with full dataset" },
+    { "time": "0:16:44", "title": "Improving the dataset" },
+    { "time": "0:18:20", "title": "Saved model" },
+    { "time": "0:19:01", "title": "Separate sketch for prediction" },
+    { "time": "0:19:40", "title": "Loading the model" },
     {
       "time": "0:21:13",
       "title": "Testing the model with shapes drawn in p5.js"
     },
-    {
-      "time": "0:24:41",
-      "title": "Mouse drawn shapes"
-    },
-    {
-      "time": "0:31:01",
-      "title": "Using a webcam and a notebook"
-    },
-    {
-      "time": "0:33:49",
-      "title": "Wrap up"
-    },
-    {
-      "time": "0:34:33",
-      "title": "What's next?"
-    }
+    { "time": "0:24:41", "title": "Mouse drawn shapes" },
+    { "time": "0:31:01", "title": "Using a webcam and a notebook" },
+    { "time": "0:33:49", "title": "Wrap up" },
+    { "time": "0:34:33", "title": "What's next?" }
   ],
   "codeExamples": [
     {
@@ -108,17 +60,13 @@
       "title": "Shape Classifier (Mouse)",
       "description": "Demonstration of a shape classifier with shapes drawn on the canvas",
       "image": "mouse.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/JgLVfCS4E"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JgLVfCS4E" }
     },
     {
       "title": "Shape Classifier (Webcam)",
       "description": "Demonstration of a shape classifier from webcam input",
       "image": "webcam.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/2hZGBkqqq"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/2hZGBkqqq" }
     }
   ],
   "groupLinks": [
@@ -200,13 +148,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

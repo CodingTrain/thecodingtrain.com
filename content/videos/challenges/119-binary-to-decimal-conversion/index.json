@@ -5,7 +5,7 @@
   "videoId": "meGcdIoTYgw",
   "date": "2018-10-23",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["Binary Numbers", "Base Conversion", "math"],
+  "topics": ["binary numbers", "base conversion", "math"],
   "canContribute": true,
   "relatedChallenges": ["117-seven-segment-display", "120-bit-shifting"],
   "timestamps": [
@@ -59,13 +59,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

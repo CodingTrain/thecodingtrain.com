@@ -12,6 +12,7 @@ import GuideCard from '../components/GuideCard';
 import DotCharacter from '../images/characters/ThisDot_5.mini.svg';
 import DotCharacter2 from '../images/characters/ThisDot_6.mini.svg';
 import MouseCharacter from '../images/characters/WheelstheMouse_3.mini.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 
 import * as css from '../styles/pages/guides.module.css';
 
@@ -22,6 +23,9 @@ const GuidesPage = ({ data }) => {
     data.guidesPlaceholderImage.nodes.length > 0
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
       : null;
+
+  const variant = 'purple';
+
   return (
     <Layout
       title={pageData.title}
@@ -29,8 +33,8 @@ const GuidesPage = ({ data }) => {
       image={guidesPlaceholderImage}>
       <Spacer />
       <header className={css.header}>
-        <Heading1 className={css.heading} variant="purple">
-          Guides
+        <Heading1 className={css.heading} variant={variant}>
+          {pageData.title}
         </Heading1>
         <div className={css.character}>{<DotCharacter />}</div>
       </header>
@@ -41,12 +45,13 @@ const GuidesPage = ({ data }) => {
         buttonText="Start here"
         buttonLink="/guides/getting-started"
         variant="orange"
+        Character={TriangleCharacter}
         bbColor="orange"
       />
 
       <CharacterSpacer
         className={css.sep}
-        variant="purple"
+        variant={variant}
         size="x2"
         side="right"
         offset={0.75}
@@ -69,7 +74,7 @@ const GuidesPage = ({ data }) => {
                 guide.cover?.file?.childImageSharp?.gatsbyImageData ??
                 guidesPlaceholderImage
               }
-              variant="purple"
+              variant={variant}
             />
             {i % 2 === 0 && (
               <div

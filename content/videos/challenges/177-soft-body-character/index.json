@@ -1,0 +1,137 @@
+{
+  "title": "Soft Body Character",
+  "videoNumber": "177",
+  "description": "Embark on a squishy adventure as I attempt to create a soft body physics simulation for a character with toxiclibs.js and p5.js!",
+  "videoId": "IxdGyqhppis",
+  "nebulaSlug": "codingtrain-coding-challenge-177-soft-body-character",
+  "date": "2023-04-13",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["soft body", "Toxiclibs", "verlet physics"],
+  "canContribute": true,
+  "relatedChallenges": ["20-3d-cloth-simulation", "63-texturing-cloth-simulation"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:51", "title": "Physics libraries" },
+    { "time": "5:30", "title": "Elements in ToxicLibs" },
+    { "time": "5:47", "title": "Start coding" },
+    { "time": "7:04", "title": "Object destructuring" },
+    { "time": "8:10", "title": "Add gravity" },
+    { "time": "9:00", "title": "Adding elements to the world" },
+    { "time": "10:35", "title": "Updating the physics world" },
+    { "time": "11:40", "title": "Adding a spring" },
+    { "time": "15:23", "title": "Refactor code" },
+    { "time": "18:07", "title": "Inheritance" },
+    { "time": "18:57", "title": "Super class" },
+    { "time": "23:31", "title": "Spring length" },
+    {
+      "time": "25:44",
+      "title": "Create a closed-filled shape to draw the character"
+    },
+    { "time": "26:49", "title": "Suggestions for variations" },
+    { "time": "27:07", "title": "Other types of springs" },
+    { "time": "27:36", "title": "Update about the Nature of Code book!" },
+    { "time": "28:56", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Soft Body Character",
+      "description": "The sketches demonstrates how to create a basic character using ToxicLibs.",
+      "image": "img1.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/2PInK4yQ2" }
+    },
+    {
+      "title": "Soft Body Character Enhanced",
+      "description": "This sketch demonstrates how to enhance a basic character.",
+      "image": "img2.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/6hhdl9omt" }
+    },
+    {
+      "title": "Soft Body Dancing Skeleton",
+      "description": "This sketch demonstrates how to create a basic skeleton.",
+      "image": "img3.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/dg1wrHrpg" }
+    },
+    {
+      "title": "Soft Body Letters",
+      "description": "This sketch demonstrates how to use a font path to create soft body letters.",
+      "image": "img4.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/8MyUnoi13" }
+    },
+    {
+      "title": "Blank Canvas",
+      "description": "Canvas with Toxiclibs physics library",
+      "image": "img5.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ccwlnhtji" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs.js",
+          "url": "http://haptic-data.com/toxiclibsjs/",
+          "description": "Port of ToxicLibs to javascript."
+        },
+        {
+          "icon": "🔗",
+          "title": "ToxicLibs Java Reference",
+          "url": "https://shiffman.github.io/toxiclibs-javadocs/",
+          "description": "Documentation for the ToxicLibs libary."
+        },
+        {
+          "icon": "🔗",
+          "title": "Advanced Character Physics",
+          "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15462-s13/www/lec_slides/Jakobsen.pdf",
+          "description": "The paper discusses an algorithm using Verlet integration to model a physics system."
+        },
+        {
+          "icon": "🔗",
+          "title": "Thi.ng",
+          "url": "https://thi.ng/",
+          "description": "Karsten Schmidt's long-term project devoted to Computational Design."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Toxiclibs Verlet Physics playlist",
+          "url": "https://www.youtube.com/watch?v=E67e0RX-7Ew&list=PLRqwX-V7Uu6aiaU4s30tXvUmwGMlb9UUS",
+          "description": "My tutorials about the Toxiclibs Verlet Physics library"
+        },
+        {
+          "icon": "🚂",
+          "title": "Matter.js playlist",
+          "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+          "description": "My tutorials about the Matter.js physics library."
+        },
+        {
+          "icon": "🎥",
+          "title": "Physics of JellyCar",
+          "url": "https://youtu.be/3OmkehAJoyo",
+          "description": "The videos explains the elements used to create a 2D physics simulation like JellyCar."
+        },
+        {
+          "icon": "🎥",
+          "title": "The Making of Nokia and Friends",
+          "url": "https://www.youtube.com/watch?v=g20QOQP6kSU",
+          "description": "Video about the making of Nokia and Friends."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

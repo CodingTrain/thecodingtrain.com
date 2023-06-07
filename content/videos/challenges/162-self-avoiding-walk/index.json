@@ -6,34 +6,19 @@
   "nebulaSlug": "coding-train-coding-challenge-162-selfavoiding-walk",
   "date": "2021-06-10",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["self avoiding walk", "backtracking"],
+  "topics": ["self-avoiding walk", "backtracking"],
   "canContribute": true,
   "relatedChallenges": ["52-random-walker", "10-dfs-maze-generator", "51-a-pathfinding-algorithm", "71-minesweeper"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Choo choo! Welcome!"
-    },
-    {
-      "time": "0:01:05",
-      "title": "Explain! How can we go about this?"
-    },
-    {
-      "time": "0:02:29",
-      "title": "Code! Let's add a visited grid."
-    },
+    { "time": "0:00:00", "title": "Choo choo! Welcome!" },
+    { "time": "0:01:05", "title": "Explain! How can we go about this?" },
+    { "time": "0:02:29", "title": "Code! Let's add a visited grid." },
     {
       "time": "0:06:25",
       "title": "Code! What are the options for movement now?"
     },
-    {
-      "time": "0:10:34",
-      "title": "Code! Let's check the edges."
-    },
-    {
-      "time": "0:12:34",
-      "title": "I could stop here but wait."
-    },
+    { "time": "0:10:34", "title": "Code! Let's check the edges." },
+    { "time": "0:12:34", "title": "I could stop here but wait." },
     {
       "time": "0:13:30",
       "title": "Explain! How can we think about backtracking?"
@@ -42,22 +27,10 @@
       "time": "0:15:15",
       "title": "Code! Let's make a spot class and a path variable."
     },
-    {
-      "time": "0:24:23",
-      "title": "Code! Now backtracking!"
-    },
-    {
-      "time": "0:29:38",
-      "title": "Whoops! Copying allOptions was a mistake."
-    },
-    {
-      "time": "0:31:19",
-      "title": "Code! Maybe we need an end condition."
-    },
-    {
-      "time": "0:32:09",
-      "title": "Yay! It worked."
-    },
+    { "time": "0:24:23", "title": "Code! Now backtracking!" },
+    { "time": "0:29:38", "title": "Whoops! Copying allOptions was a mistake." },
+    { "time": "0:31:19", "title": "Code! Maybe we need an end condition." },
+    { "time": "0:32:09", "title": "Yay! It worked." },
     {
       "time": "0:32:22",
       "title": "This could take awhile. Could it be improved?"
@@ -68,9 +41,7 @@
       "title": "Basic Self Avoiding Walk - p5 Web Editor",
       "description": "The basic implementation from the video",
       "image": "basic.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/2_4gyDD_9"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/2_4gyDD_9" }
     },
     {
       "title": "Backtracking",
@@ -186,13 +157,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

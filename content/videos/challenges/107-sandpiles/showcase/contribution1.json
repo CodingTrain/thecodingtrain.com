@@ -1,9 +1,9 @@
 {
-    "title": "Sandpiles JavaScript implementation",
-    "author": {
-        "name": "Niels Vadot",
-        "url": "https://nielsvadot.design/"
-    },
-    "url": "https://ninivert.github.io/Sandpiles/",
-    "source": "https://github.com/ninivert/Sandpiles"
+  "title": "Sandpiles JavaScript implementation",
+  "author": {
+    "name": "Niels Vadot",
+    "url": "https://nielsvadot.design/"
+  },
+  "url": "https://ninivert.github.io/Sandpiles/",
+  "submittedOn": "2018-08-26T21:08:40.000Z"
 }

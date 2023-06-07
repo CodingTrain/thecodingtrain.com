@@ -29,7 +29,7 @@
       "links": [
         { "url": "https://twitter.com/thecodingtrain", "site": "twitter" },
         {
-          "url": "https://www.instagram.com/the.coding.train",
+          "url": "https://www.instagram.com/the.coding.train/",
           "site": "instagram"
         },
         {
@@ -47,7 +47,7 @@
       "title": "What is Code?",
       "description": "A class on Nebula all about the fundamentals of computer programming on a 1980s Apple II+ computer.",
       "thumbnail": "nebula-2.jpg",
-      "url": "http://nebulaclasses.com/codingtrain"
+      "url": "https://nebula.tv/what-is-code"
     },
     {
       "title": "Coding Train Theme",
@@ -73,7 +73,7 @@
         { "name": "Nebula", "url": "https://nebula.tv/codingtrain" },
         {
           "name": "Design Systems International",
-          "url": "https://designsystems.international"
+          "url": "https://designsystems.international/"
         }
       ]
     },
@@ -89,14 +89,14 @@
         { "name": "Kobe Liesenborgs", "role": "Discord and GitHub" },
         {
           "name": "Mathieu Blanchette",
-          "url": "https://mathieu.com",
+
           "role": "Editing and Video Production"
         }
       ]
     },
     {
       "name": "Moderators",
-      "people": []
+      "people": [{ "name": "noob_dev54" }, { "name": "Sorin Curescu" }]
     },
     {
       "name": "Team Alumni",
@@ -108,8 +108,7 @@
         },
         {
           "name": "Dusk Virkus",
-          "role": "GitHub and Content Management",
-          "url": "https://dusk.com"
+          "role": "GitHub and Content Management"
         }
       ]
     }

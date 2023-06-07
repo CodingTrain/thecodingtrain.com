@@ -17,7 +17,7 @@
     { "time": "5:34", "title": "Map the point's index to an angle" },
     { "time": "6:08", "title": "Use polar coordinates to get point location" },
     { "time": "6:31", "title": "Draw the points" },
-    { "time": "7;48", "title": "Start with the 2-times table" },
+    { "time": "7:48", "title": "Start with the 2-times table" },
     { "time": "8:37", "title": "Write a getVector() function" },
     {
       "time": "11:00",
@@ -56,7 +56,7 @@
         {
           "icon": "📝",
           "title": "Rainbow Topics suggestion from Eduardddd",
-          "url": "https://github.com/CodingTrain/Rainbow-Topics/issues/1036",
+          "url": "https://github.com/CodingTrain/Suggestion-Box/issues/1036",
           "description": "Coding Train suggestion box"
         }
       ]

@@ -5,7 +5,7 @@
   "videoId": "-LFjnY1PEDA",
   "date": "2018-02-21",
   "languages": ["JavaScript"],
-  "topics": ["array reduce", "arrays"],
+  "topics": ["array reduce", "array"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "What is reduce()?" },
@@ -30,13 +30,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

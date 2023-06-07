@@ -11,7 +11,7 @@
   "relatedChallenges": ["20-3d-cloth-simulation", "78-simple-particle-system", "93-double-pendulum", "159-simple-pendulum"],
   "timestamps": [
     {
-      "time": "0.00",
+      "time": "0:00",
       "title": "Choo choo!! Springs Coding Challenge!"
     },
     {
@@ -134,7 +134,7 @@
         {
           "icon": "💾",
           "title": "toxiclibs.js",
-          "url": "http://www.haptic-data.com/toxiclibsjs/"
+          "url": "http://haptic-data.com/toxiclibsjs"
         },
         {
           "icon": "💾",

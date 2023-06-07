@@ -4,8 +4,8 @@
   "videoNumber": "15.1",
   "videoId": "RF5_MPSNAtU",
   "date": "2015-11-12",
-  "languages": ["node.js"],
-  "topics": ["twitter", "bot"],
+  "languages": ["Node.js"],
+  "topics": ["Twitter", "bot"],
   "canContribute": false,
   "timestamps": [
     { "time": "1:35", "title": "Servers" },
@@ -40,7 +40,7 @@
         {
           "icon": "📰",
           "title": "NY Magazine on bots",
-          "url": "http://nymag.com/following/2015/11/12-weirdest-funniest-smartest-twitter-bots.html",
+          "url": "https://nymag.com/intelligencer/2015/11/12-weirdest-funniest-smartest-twitter-bots.html",
           "description": "12 Weird, Excellent Twitter Bots Chosen by Twitter’s Best Bot-Makers"
         }
       ]

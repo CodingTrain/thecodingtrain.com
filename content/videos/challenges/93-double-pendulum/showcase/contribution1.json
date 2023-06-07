@@ -1,9 +1,9 @@
 {
-    "title": "p5.js Double Pendulum with drag+drop and sliders",
-    "url": "https://donwilson.github.io/p5-double-pendulum/",
-    "author": {
-        "name": "Don Wilson",
-        "url": "https://pyxol.com"
-    },
-    "source": "https://github.com/donwilson/p5-double-pendulum"
+  "title": "p5.js Double Pendulum with drag+drop and sliders",
+  "url": "https://donwilson.github.io/p5-double-pendulum/",
+  "author": {
+    "name": "Don Wilson",
+    "url": "https://pyxol.com"
+  },
+  "submittedOn": "2018-02-13T21:34:06.000Z"
 }

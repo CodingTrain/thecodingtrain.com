@@ -1,7 +1,8 @@
 {
-    "title": "Leibniz - Display average of last 2 iterations, an extension of Shiffman's p5 code.",
-    "author": {
-        "name": "George Campbell"
-    },
-    "url": "https://pi-leibniz.now.sh/src/"
+  "title": "Leibniz - Display average of last 2 iterations, an extension of Shiffman's p5 code.",
+  "author": {
+    "name": "George Campbell"
+  },
+  "url": "https://pi-leibniz.now.sh/src/",
+  "submittedOn": "2019-03-18T20:33:33.000Z"
 }

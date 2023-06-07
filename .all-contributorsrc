@@ -162,6 +162,24 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "simon-tiger",
+      "name": "Simon Tiger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21979673?v=4",
+      "profile": "https://simontiger.com",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "kaitabuchi314",
+      "name": "kaitabuchi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93952418?v=4",
+      "profile": "https://kaitab.net/",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -170,5 +188,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }

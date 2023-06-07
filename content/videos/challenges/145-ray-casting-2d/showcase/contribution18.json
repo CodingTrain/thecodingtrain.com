@@ -1,10 +1,9 @@
 {
-    "title": "Ray casting with pygame",
-    
-    "author": {
-        "name": "Nate Plamondon",
-        "url": "https://github.com/meznak"
-    },
-    "url": "https://youtu.be/JoYN-UGypSg",
-    "source": "https://github.com/meznak/ray_cast"
+  "title": "Ray casting with pygame",
+  "author": {
+    "name": "Nate Plamondon",
+    "url": "https://github.com/meznak"
+  },
+  "url": "https://youtu.be/JoYN-UGypSg",
+  "submittedOn": "2019-09-09T17:11:26.000Z"
 }

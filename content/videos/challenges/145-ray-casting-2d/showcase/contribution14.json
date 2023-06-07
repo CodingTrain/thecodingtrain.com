@@ -1,9 +1,8 @@
 {
-    "title": "Minor optimisation ray.js to better suit math being done",
-    "author": {
-        "name": "Damien Porter",
-        "url": "mailto:damo67@gmail.com"
-    },
-    "url": "https://github.com/Damo676767/Random-Pieces-of-Code/blob/master/ray.js",
-    "source": "https://github.com/Damo676767/Random-Pieces-of-Code/blob/master/ray.js"
+  "title": "Minor optimisation ray.js to better suit math being done",
+  "author": {
+    "name": "Damien Porter"
+  },
+  "url": "https://github.com/Damo676767/Random-Pieces-of-Code/blob/master/ray.js",
+  "submittedOn": "2019-07-04T16:53:12.000Z"
 }

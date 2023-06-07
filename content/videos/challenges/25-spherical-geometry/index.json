@@ -5,89 +5,33 @@
   "videoId": "RkuBWEkBrZA",
   "date": "2016-06-29",
   "languages": ["Processing"],
-  "topics": [
-    "3d supershape",
-    "spherical geometry",
-    "polar coordinates",
-    "triangle strips",
-    "3d"
-  ],
+  "topics": ["3D supershape", "spherical geometry", "polar coordinates", "triangle strips", "3D"],
   "canContribute": true,
-  "relatedChallenges": [
-    "19-superellipse",
-    "23-2d-supershapes",
-    "26-3d-supershapes",
-    "112-3d-rendering-with-rotation-and-projection"
-  ],
+  "relatedChallenges": ["19-superellipse", "23-2d-supershapes", "26-3d-supershapes", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction to the Coding Challenge"
-    },
-    {
-      "time": "0:43",
-      "title": "The 3D Processing primitive sphere()"
-    },
-    {
-      "time": "1:48",
-      "title": "Triangle strips"
-    },
-    {
-      "time": "2:55",
-      "title": "Latitude and longitude"
-    },
-    {
-      "time": "4:11",
-      "title": "Angle of rotation"
-    },
-    {
-      "time": "5:53",
-      "title": "The resolution of the sphere"
-    },
+    { "time": "0:00", "title": "Introduction to the Coding Challenge" },
+    { "time": "0:43", "title": "The 3D Processing primitive sphere()" },
+    { "time": "1:48", "title": "Triangle strips" },
+    { "time": "2:55", "title": "Latitude and longitude" },
+    { "time": "4:11", "title": "Angle of rotation" },
+    { "time": "5:53", "title": "The resolution of the sphere" },
     {
       "time": "7:20",
       "title": "Map the latitude and longitude to the points on the sphere"
     },
-    {
-      "time": "11:33",
-      "title": "Add a PeasyCam object"
-    },
-    {
-      "time": "13:28",
-      "title": "Meshing the sphere"
-    },
-    {
-      "time": "14:53",
-      "title": "Add a 2D array to store the vertices"
-    },
-    {
-      "time": "17:28",
-      "title": "Add triangle strips"
-    },
-    {
-      "time": "19:57",
-      "title": "Adjust code to fix the gaps"
-    },
-    {
-      "time": "21:00",
-      "title": "Alternate colors to add strips"
-    },
-    {
-      "time": "22:19",
-      "title": "Add HSB mode to add rainbow colors"
-    },
+    { "time": "11:33", "title": "Add a PeasyCam object" },
+    { "time": "13:28", "title": "Meshing the sphere" },
+    { "time": "14:53", "title": "Add a 2D array to store the vertices" },
+    { "time": "17:28", "title": "Add triangle strips" },
+    { "time": "19:57", "title": "Adjust code to fix the gaps" },
+    { "time": "21:00", "title": "Alternate colors to add strips" },
+    { "time": "22:19", "title": "Add HSB mode to add rainbow colors" },
     {
       "time": "23:37",
       "title": "Add some randomness to animate a \"jiggling\" sphere"
     },
-    {
-      "time": "24:55",
-      "title": "Bonus addendum: updated rainbow bands"
-    },
-    {
-      "time": "26:30",
-      "title": "Thanks for watching!"
-    }
+    { "time": "24:55", "title": "Bonus addendum: updated rainbow bands" },
+    { "time": "26:30", "title": "Thanks for watching!" }
   ],
   "codeExamples": [
     {
@@ -113,7 +57,7 @@
         {
           "icon": "🥏",
           "title": "3D Supershapes",
-          "url": "http://www.syedrezaali.com/3d-supershapes/",
+          "url": "https://www.syedrezaali.com/3d-supershapes/",
           "description": "A collection of 3D geometries created by the superformula created in Processing,"
         },
         {
@@ -125,7 +69,7 @@
         {
           "icon": "🎥",
           "title": "Peasycam",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "Information about peasycam."
         }
       ]
@@ -155,13 +99,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

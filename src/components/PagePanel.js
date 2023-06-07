@@ -4,11 +4,15 @@ import cn from 'classnames';
 
 import * as css from './PagePanel.module.css';
 
-import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
-
 const PagePanel = (props) => {
-  const { description, bbColor, variant, className, ...buttonPanelProps } =
-    props;
+  const {
+    description,
+    bbColor,
+    variant,
+    className,
+    Character,
+    ...buttonPanelProps
+  } = props;
   return (
     <aside
       className={cn(css.root, className, {
@@ -19,7 +23,7 @@ const PagePanel = (props) => {
         <p>{description}</p>
       </div>
       <div className={css.cta}>
-        <TriangleCharacter className={css.ctaIcon} />
+        <Character className={css.ctaIcon} />
 
         <ButtonPanel
           className={css.buttonPanel}

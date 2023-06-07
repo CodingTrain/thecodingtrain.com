@@ -6,54 +6,24 @@
   "nebulaSlug": "the-coding-train-coding-challenge-33-poisson-disc-sampling",
   "date": "2016-08-22",
   "languages": ["p5.js", "Processing"],
-  "topics": ["poisson disc sampling", "Siméon Denis Poisson"],
+  "topics": ["Poisson disc sampling", "Siméon Denis Poisson"],
   "canContribute": true,
   "relatedChallenges": ["98-quadtree", "70-nearest-neighbors-recommendation-engine", "95-approximating-the-value-of-pi"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction to Poisson Disc Sampling!"
-    },
-    {
-      "time": "1:30",
-      "title": "Starting to code!"
-    },
-    {
-      "time": "3:00",
-      "title": "Creating a 2D background grid"
-    },
+    { "time": "0:00", "title": "Introduction to Poisson Disc Sampling!" },
+    { "time": "1:30", "title": "Starting to code!" },
+    { "time": "3:00", "title": "Creating a 2D background grid" },
     {
       "time": "6:52",
       "title": "Inserting initial sample into a random position in the grid"
     },
-    {
-      "time": "10:25",
-      "title": "Creating an active list of points"
-    },
-    {
-      "time": "14:40",
-      "title": "Generating up to k points"
-    },
-    {
-      "time": "19:18",
-      "title": "Checking neighboring samples"
-    },
-    {
-      "time": "25:40",
-      "title": "Removing inactive points from list"
-    },
-    {
-      "time": "27:30",
-      "title": "Debugging"
-    },
-    {
-      "time": "36:50",
-      "title": "Playing with the code!"
-    },
-    {
-      "time": "41:25",
-      "title": "Things you can do!"
-    }
+    { "time": "10:25", "title": "Creating an active list of points" },
+    { "time": "14:40", "title": "Generating up to k points" },
+    { "time": "19:18", "title": "Checking neighboring samples" },
+    { "time": "25:40", "title": "Removing inactive points from list" },
+    { "time": "27:30", "title": "Debugging" },
+    { "time": "36:50", "title": "Playing with the code!" },
+    { "time": "41:25", "title": "Things you can do!" }
   ],
   "codeExamples": [
     {
@@ -79,7 +49,7 @@
         {
           "icon": "📄",
           "title": "Paper on Fast Poisson Disc Sampling in Multiple Dimensions",
-          "url": "http://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf",
+          "url": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf",
           "description": "Robert Bridson's paper on fast Poisson Disc Sampling algorithm"
         }
       ]
@@ -97,13 +67,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

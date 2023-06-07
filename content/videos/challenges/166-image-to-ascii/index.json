@@ -6,8 +6,9 @@
   "nebulaSlug": "codingtrain-coding-challenge-166-image-to-ascii",
   "date": "2022-02-12",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["images", "ASCII", "DOM"],
+  "topics": ["images", "ASCII", "HTML DOM"],
   "canContribute": true,
+  "relatedChallenges": ["164-slitscan", "90-dithering"],
   "timestamps": [
     { "title": "Welcome!", "time": "0:00" },
     { "title": "Introduction", "time": "0:28" },
@@ -27,41 +28,31 @@
       "title": "ASCII Video",
       "description": "ASCII Art from Live Camera Feed",
       "image": "video.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/KTVfEcpWx" }
     },
     {
       "title": "ASCII Image Canvas",
       "description": "ASCII Art from an Image (with canvas)",
       "image": "imagecanvas.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/r4ApYWpH_" }
     },
     {
       "title": "ASCII Image DOM",
       "description": "ASCII Art from an Image (with DOM elements)",
       "image": "image_dom.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ytK7J7d5j" }
     },
     {
       "title": "ASCII Text",
       "description": "ASCII Art from specified text",
       "image": "text.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LNBpdYQHP" }
     },
     {
       "title": "ASCII Image Weather API",
       "description": "ASCII Art with text from Weather API",
       "image": "weather.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4" }
     }
   ],
   "groupLinks": [
@@ -131,13 +122,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

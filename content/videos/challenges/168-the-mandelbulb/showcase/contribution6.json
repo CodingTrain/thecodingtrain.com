@@ -1,8 +1,9 @@
 {
-"title": "Three.js (React) Mandelbulb Port using Web Worker",
-    "author": {
-      "name": "Joseph Horton",
-      "url": "https://hort.onl"
-    },
-    "url": "https://mandelbulb-three-r3f.vercel.app/"
+  "title": "Three.js (React) Mandelbulb Port using Web Worker",
+  "author": {
+    "name": "Joseph Horton",
+    "url": "https://hort.onl"
+  },
+  "url": "https://mandelbulb-three-r3f.vercel.app/",
+  "submittedOn": "2022-05-16T19:27:51.000Z"
 }

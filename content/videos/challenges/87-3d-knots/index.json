@@ -5,13 +5,9 @@
   "videoId": "r6YMKr1X0VA",
   "date": "2017-12-20",
   "languages": ["Java", "Processing"],
-  "topics": ["3d rendering", "3d knots", "polar to cartesian coordinates"],
+  "topics": ["3D rendering", "3D knots", "polar to Cartesian coordinates"],
   "canContribute": true,
-  "relatedChallenges": [
-    "25-spherical-geometry",
-    "12-lorenz-attractor",
-    "55-mathematical-rose-patterns"
-  ],
+  "relatedChallenges": ["25-spherical-geometry", "12-lorenz-attractor", "55-mathematical-rose-patterns"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     {
@@ -32,7 +28,7 @@
     {
       "title": "3D Knots",
       "description": "An implementation of Paul Bourke's formulae for 3D knots",
-      "image": "3d-knots",
+      "image": "3d-knots.png",
       "urls": {
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/087_3D_Knots/Processing",
         "p5": "https://editor.p5js.org/codingtrain/sketches/fa1rAWng9"
@@ -70,13 +66,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2018-01-29",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["snakes and ladders", "game"],
+  "topics": ["Snakes & ladders game", "games"],
   "canContribute": true,
   "relatedChallenges": ["71-minesweeper", "72-frogger", "94-2048"],
   "timestamps": [],
@@ -117,13 +117,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

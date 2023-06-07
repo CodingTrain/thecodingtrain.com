@@ -2,7 +2,7 @@
   "title": "Introduction to Git and GiHub",
   "description": "In this first video of Git and GitHub for Poets, we go over the concepts of commits and repositories as well as an overview of the GitHub User Interface.",
   "languages": [],
-  "topics": ["For beginners", "Git", "GitHub"],
+  "topics": ["For beginners", "git", "GitHub"],
   "videoId": "BCQHnlnPusY",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },

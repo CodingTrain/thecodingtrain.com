@@ -5,7 +5,7 @@
   "videoId": "--6eyLO78CY",
   "date": "2018-10-03",
   "languages": ["Processing"],
-  "topics": ["lissajous curve", "polar coordinates"],
+  "topics": ["Lissajous curve", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [
     "55-mathematical-rose-patterns",
@@ -126,13 +126,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

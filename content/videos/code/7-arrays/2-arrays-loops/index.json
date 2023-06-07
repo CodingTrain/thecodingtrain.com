@@ -6,7 +6,7 @@
   "nebulaSlug": "coding-train-7-2-arrays-and-loops-p5-js-tutorial",
   "date": "2015-10-02",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["arrays", "for loop"],
+  "topics": ["array", "for loop"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -18,20 +18,12 @@
       "title": "Iterating over an array",
       "description": "Demonstration of going through every element in an array.",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/ZnPevren"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ZnPevren" }
     }
   ],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

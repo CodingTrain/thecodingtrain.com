@@ -1,0 +1,35 @@
+{
+  "title": "Scale",
+  "description": "In this video I look at the scale() function.",
+  "videoNumber": "2",
+  "videoId": "pkHZTWOoTLM",
+  "date": "2017-09-19",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["transformations", "scale"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:53", "title": "Scale" },
+    { "time": "04:25", "title": "Using different values" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Demonstration of scale()",
+      "description": "p5 sketch demonstrating the scale() function.",
+      "image": "scale.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/gIftx7ZYh"
+      }
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

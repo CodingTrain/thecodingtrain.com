@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-24-perlin-noise-flow-field",
   "date": "2016-06-27",
   "languages": ["p5.js"],
-  "topics": ["perlin noise", "arrays"],
+  "topics": ["Perlin noise", "array"],
   "canContribute": true,
   "relatedChallenges": ["11-3d-terrain-generation-with-perlin-noise", "132-fluid-simulation", "c4-worley-noise"],
   "timestamps": [
@@ -75,13 +75,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

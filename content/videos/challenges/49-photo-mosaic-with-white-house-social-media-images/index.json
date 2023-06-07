@@ -7,11 +7,7 @@
   "languages": ["Java", "Processing"],
   "topics": ["pixel array", "image processing"],
   "canContribute": true,
-  "relatedChallenges": [
-    "47-pixel-sorting-in-processing",
-    "50-animated-circle-packing",
-    "90-dithering"
-  ],
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "50-animated-circle-packing", "90-dithering"],
   "timestamps": [
     { "time": "0:00", "title": "Introduce the coding challenge" },
     {

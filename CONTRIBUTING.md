@@ -2,7 +2,7 @@
 
 One of the major goals of The Coding Train is to provide a beginner-friendly environment for people to make pull requests and contribute to projects. This guide discusses how to contribute to The Coding Train website. We encourage you to make contributions to this repository, and mistakes and confusions are always welcome. We are here to help!
 
-The Coding Train strives to be a respectful, friendly, and welcoming community. Read our [Code of Conduct](https://github.com/CodingTrain/Code-of-Conduct) to learn about what is and is not acceptable.
+The Coding Train strives to be a respectful, friendly, and welcoming community. Read our [Code of Conduct](https://github.com/CodingTrain/thecodingtrain.com/blob/main/CODE_OF_CONDUCT.md) to learn about what is and is not acceptable.
 
 ## Guide For Newer Contributors
 

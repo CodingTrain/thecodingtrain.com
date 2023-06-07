@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "70MQ-FugwbI",
+  "canContribute": false,
   "nebulaSlug": "the-coding-train-yt-welcome-to-the-nature-of-code-2-0-in-2020-p5-js",
   "timestamps": [
     { "time": "0:00", "title": "Welcome to The Nature of Code playlist!" },

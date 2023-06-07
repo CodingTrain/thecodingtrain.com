@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-challenge-153-interactive-drawing-with-machine-learning-model-sketchrnn",
   "date": "2019-10-31",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["sketchRNN", "machine learning", "Quick, Draw!"],
+  "topics": ["sketch-RNN", "machine learning (ML)", "Quick, Draw! game"],
   "canContribute": true,
   "relatedChallenges": ["128-sketch-rnn-snowflakes", "152-rdp-algorithm"],
   "timestamps": [
@@ -35,9 +35,7 @@
       "title": "SketchRNN",
       "description": "This sketch uses a pre-trained SketchRNN model to finish a user drawing",
       "image": "catPig.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/hcumr-aua"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/hcumr-aua" }
     }
   ],
   "groupLinks": [
@@ -95,13 +93,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

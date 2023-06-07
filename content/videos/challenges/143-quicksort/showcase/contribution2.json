@@ -1,8 +1,9 @@
 {
-    "title": "General Sorting Visualization done in C++ with OpenGL and SFML",
-    "url": "https://github.com/vypxl/sortviz",
-    "author": {
-        "name": "vypxl",
-        "url": "https://github.com/vypxl"
-    }
+  "title": "General Sorting Visualization done in C++ with OpenGL and SFML",
+  "url": "https://github.com/vypxl/sortviz",
+  "author": {
+    "name": "vypxl",
+    "url": "https://github.com/vypxl"
+  },
+  "submittedOn": "2019-04-08T01:08:09.000Z"
 }

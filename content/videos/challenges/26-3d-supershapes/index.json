@@ -50,7 +50,7 @@
         {
           "icon": "🏮",
           "title": "3D Supershapes",
-          "url": "http://www.syedrezaali.com/3d-supershapes/",
+          "url": "https://www.syedrezaali.com/3d-supershapes/",
           "description": "Revi Ali's website with 3D geometries created by the superformula."
         },
         {
@@ -62,7 +62,7 @@
         {
           "icon": "🎥",
           "title": "Peasycam",
-          "url": "http://mrfeinberg.com/peasycam/",
+          "url": "https://mrfeinberg.com/peasycam/",
           "description": "Webpage with documentation about PeasyCam, a simple mouse-driven camera for Processing."
         }
       ]

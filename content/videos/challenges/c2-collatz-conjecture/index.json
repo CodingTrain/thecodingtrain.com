@@ -6,9 +6,9 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-2-collatz-conjecture",
   "date": "2019-10-27",
   "languages": ["Processing"],
-  "topics": ["collatz conjecture", "modulo"],
+  "topics": ["Collatz conjecture", "modulo operator"],
   "canContribute": true,
-  "relatedChallenges": ["14-fractal-trees-recursive"],
+  "relatedChallenges": ["14-fractal-trees-recursive", "108-barnsley-fern", "126-toothpicks"],
   "timestamps": [
     { "time": "0:00", "title": "The Collatz Conjecture" },
     { "time": "4:10", "title": "Programming in Processing" },
@@ -47,7 +47,7 @@
         {
           "icon": "💻",
           "title": "Trying to visualize the Collatz conjecture",
-          "url": "http://mathematica.stackexchange.com/questions/85718/trying-to-visualize-the-collatz-conjecture",
+          "url": "https://mathematica.stackexchange.com/questions/85718/trying-to-visualize-the-collatz-conjecture",
           "description": "Discussion on stackexchange about collatz conjecture."
         },
         {
@@ -83,13 +83,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

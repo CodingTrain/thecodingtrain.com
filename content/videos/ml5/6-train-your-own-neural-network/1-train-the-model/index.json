@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-ml5-js-train-your-own-neural-network",
   "date": "2019-11-22",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["neural network", "machine learning"],
+  "topics": ["neural network", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -27,7 +27,7 @@
     { "time": "19:44", "title": "tfjs.vis--debug: true" },
     { "time": "20:10", "title": "Normalizing the data" },
     { "time": "22:33", "title": "What is loss?" },
-    { "time": "24.27", "title": "Learning rate" },
+    { "time": "24:27", "title": "Learning rate" },
     { "time": "25:49", "title": "Prediction" },
     { "time": "26:09", "title": "Add state variable?" }
   ],
@@ -35,10 +35,7 @@
     {
       "title": "Train you own neural network",
       "description": "This sketch demonstrates how to train your own neural network.",
-      "image": "neural_network.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zwGahux8a" }
     }
   ],
   "groupLinks": [
@@ -48,7 +45,7 @@
         {
           "icon": "💾",
           "title": "ml5.js Neural Network",
-          "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
+          "url": "https://learn.ml5js.org/#/reference/neural-network",
           "description": "ml5 page with documentation and supporting material."
         },
         {
@@ -96,13 +93,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

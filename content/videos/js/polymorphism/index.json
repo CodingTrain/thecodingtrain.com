@@ -5,7 +5,7 @@
   "videoId": "8a5BkwuZRK0",
   "date": "2019-03-01",
   "languages": ["JavaScript"],
-  "topics": ["polymorphism", "oop", "classes"],
+  "topics": ["polymorphism", "object-oriented programming (OOP)", "classes"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
@@ -28,9 +28,7 @@
       "title": "Polymorphism",
       "description": "Demonstration of Polymorphism",
       "image": "",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/7MhdISflX"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/7MhdISflX" }
     }
   ],
   "groupLinks": [
@@ -76,13 +74,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

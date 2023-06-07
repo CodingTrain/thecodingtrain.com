@@ -5,7 +5,7 @@
   "videoId": "cl-mHFCGzYk",
   "date": "2017-12-25",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["snowfall", "snowflake", "perlin noise", "wind", "christmas"],
+  "topics": ["snowfall", "snowflakes", "Perlin noise", "wind", "Christmas"],
   "canContribute": true,
   "relatedChallenges": [
     "128-sketch-rnn-snowflakes",
@@ -67,13 +67,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-coding-challenge-127-brownian-tree-snowflake",
   "date": "2018-12-24",
   "languages": ["Processing"],
-  "topics": ["brownian tree snowflake", "snowflake generator", "diffusion limited aggregation"],
+  "topics": ["Brownian tree snowflake", "snowflakes", "diffusion-limited aggregation"],
   "canContribute": true,
   "relatedChallenges": [
     "34-diffusion-limited-aggregation",
@@ -45,7 +45,7 @@
     {
       "title": "Brownian Tree Snowflake",
       "description": "My visualization of the Brownian tree snowflake.",
-      "image": "brownian.jpeg",
+      "image": "brownian.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SJcAeCpgE",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/127_Snowflake_Brownian/Processing"
@@ -59,7 +59,7 @@
         {
           "icon": "💰",
           "title": "Support the Processing Foundation",
-          "url": "https://processingfoundation.org/support/",
+          "url": "https://processingfoundation.org/donate",
           "description": "Support the Processing Foundation!"
         },
         {
@@ -89,13 +89,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

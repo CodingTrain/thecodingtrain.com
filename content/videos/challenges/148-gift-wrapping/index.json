@@ -7,7 +7,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["algorithm", "computational geometry", "convex hull"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["114-bubble-sort-visualization", "143-quicksort"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "00:47", "title": "What is a Convex Hull?" },

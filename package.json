@@ -17,7 +17,8 @@
     "test": "jest",
     "testv": "jest --verbose",
     "yt-desc": "node node-scripts/yt-description.mjs",
-    "tags-transforms": "node node-scripts/tags-transforms"
+    "tags-transforms": "node node-scripts/tags-transforms",
+    "formatc": "prettier \"content/**/*.json\" --write"
   },
   "dependencies": {
     "@csstools/postcss-global-data": "^1.0.3",
@@ -27,7 +28,7 @@
     "clipboardy": "^3.0.0",
     "copy-to-clipboard": "^3.3.3",
     "gatsby": "^5.7.0",
-    "gatsby-awesome-pagination": "^0.3.8",
+    "gatsby-core-utils": "^4.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-mdx": "^5.7.0",
     "gatsby-plugin-netlify": "^5.1.0",

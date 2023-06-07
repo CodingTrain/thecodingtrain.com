@@ -5,13 +5,9 @@
   "videoId": "0dwJ-bkJwDI",
   "date": "2017-02-28",
   "languages": ["Processing", "Java"],
-  "topics": ["fractal", "spirograph", "polar coordinates"],
+  "topics": ["fractal", "Spirograph", "polar coordinates"],
   "canContribute": true,
-  "relatedChallenges": [
-    "7-solar-system-2d",
-    "55-mathematical-rose-patterns",
-    "116-lissajous-curve-table"
-  ],
+  "relatedChallenges": ["7-solar-system-2d", "55-mathematical-rose-patterns", "116-lissajous-curve-table"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:45", "title": "Benice equation" },
@@ -64,7 +60,7 @@
         {
           "icon": "🖊",
           "title": "C.J.Chen's blog on Fractal Spirograph",
-          "url": "http://benice-equation.blogspot.ca/2012/01/fractal-spirograph.html",
+          "url": "https://benice-equation.blogspot.com/2012/01/fractal-spirograph.html",
           "description": "Fun math art (pictures) - benice equation"
         }
       ]
@@ -88,13 +84,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -19,7 +19,6 @@
     {
       "title": "Unit Vector (Normalize)",
       "description": "Creates a unit vector that points at the mouse",
-      "image": "image1.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/U4ezFLIZ" }
     }
   ],

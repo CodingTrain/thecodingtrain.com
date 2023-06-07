@@ -5,61 +5,26 @@
   "videoId": "aKgq0m1YjvQ",
   "date": "2018-08-16",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["machine learning", "feature extractor", "regression", "slider"],
+  "topics": ["machine learning (ML)", "feature extractor", "regression", "slider"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "1:09",
-      "title": "Regression"
-    },
-    {
-      "time": "2:30",
-      "title": "Gene Kogan examples"
-    },
-    {
-      "time": "2:43",
-      "title": "Start Coding!"
-    },
-    {
-      "time": "3:21",
-      "title": "addSlider"
-    },
-    {
-      "time": "5:59",
-      "title": "addImage button"
-    },
-    {
-      "time": "6:52",
-      "title": "Change code to from classify to predict"
-    },
-    {
-      "time": "7:59",
-      "title": "Add examples"
-    },
-    {
-      "time": "8:14",
-      "title": "Train the model"
-    },
-    {
-      "time": "8:48",
-      "title": "Add a rectangle"
-    },
-    {
-      "time": "10:47",
-      "title": "Where is the model running?"
-    }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:09", "title": "Regression" },
+    { "time": "2:30", "title": "Gene Kogan examples" },
+    { "time": "2:43", "title": "Start Coding!" },
+    { "time": "3:21", "title": "addSlider" },
+    { "time": "5:59", "title": "addImage button" },
+    { "time": "6:52", "title": "Change code to from classify to predict" },
+    { "time": "7:59", "title": "Add examples" },
+    { "time": "8:14", "title": "Train the model" },
+    { "time": "8:48", "title": "Add a rectangle" },
+    { "time": "10:47", "title": "Where is the model running?" }
   ],
   "codeExamples": [
     {
       "title": "Feature Extractor Regression",
       "description": "This sketch demonstrates how to retrain the MobileNet model to output regression results.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/psUcQBPf"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/psUcQBPf" }
     }
   ],
   "groupLinks": [
@@ -99,13 +64,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

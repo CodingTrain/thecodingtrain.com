@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-1-maurer-rose",
   "date": "2019-10-11",
   "languages": ["p5.js"],
-  "topics": ["maurer rose", "polar coordinates"],
+  "topics": ["Maurer rose", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [
     "55-mathematical-rose-patterns",
@@ -20,7 +20,7 @@
     { "time": "5:44", "title": "Maurer Rose Algorithm" },
     { "time": "8:30", "title": "Visualizing With a Rose Pattern" },
     { "time": "10:05", "title": "Adding a Slider" },
-    { "time": "10:52 ", "title": "New ideas And Goodbyes" }
+    { "time": "10:52", "title": "New ideas And Goodbyes" }
   ],
   "codeExamples": [
     {
@@ -46,13 +46,13 @@
         {
           "icon": "📐",
           "title": "Maurer Rose Wolfram MathWorld",
-          "url": "http://mathworld.wolfram.com/MaurerRose.html",
+          "url": "https://mathworld.wolfram.com/MaurerRose.html",
           "description": "Mathematical description of the maurer rose."
         },
         {
           "icon": "📐",
           "title": "Starr Rose Wolfram MathWorld",
-          "url": "http://mathworld.wolfram.com/StarrRose.html",
+          "url": "https://mathworld.wolfram.com/StarrRose.html",
           "description": "Mathematical description of the starr rose."
         }
       ]
@@ -76,13 +76,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

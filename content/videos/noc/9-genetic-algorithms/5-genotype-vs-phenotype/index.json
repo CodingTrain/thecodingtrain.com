@@ -1,0 +1,92 @@
+{
+  "title": "9.5 Fitness, Genotype vs Phenotype",
+  "description": "In part 5 of my genetic algorithm series I discuss how you can adapt the algorithm for your own creative project. The key pieces are designing and implementing a custom \"fitness function\" as well as how you choose to encode your DNA (genotype vs phenotype). ",
+  "videoId": "_of6UVV4HGo",
+  "date": "2016-08-01",
+  "languages": ["p5.js"],
+  "topics": ["genotype", "phenotype"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Welcome back!"
+    },
+    {
+      "time": "1:00",
+      "title": "Let's look at some examples."
+    },
+    {
+      "time": "3:19",
+      "title": "The two places you'll have to change."
+    },
+    {
+      "time": "4:45",
+      "title": "Genotype vs phenotype."
+    },
+    {
+      "time": "7:23",
+      "title": "Case study: smart rockets sketch."
+    },
+    {
+      "time": "13:55",
+      "title": "How will you make something?"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Smart Rockets",
+      "description": "Smart Rockets with Genetic Algorithms",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/BOTCxBDbO"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Boxcar2D",
+          "url": "http://boxcar2d.com",
+          "description": "Computation Intelligence Car Evolution Using Box2D Physics (v3.2)"
+        },
+        {
+          "icon": "🔗",
+          "title": "Genetic Programming Mona Lisa",
+          "url": "https://rogerjohansson.blog/2008/12/07/genetic-programming-evolution-of-mona-lisa/",
+          "description": "A program that uses genetic programming to evolve the Mona Lisa."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Autonomous Agents and Steering",
+          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/5-autonomous-agents/1-steering-agents",
+          "description": "This video introduces the concepts of autonomous agents and provides an overview of implementing Craig Reynolds steering behaviors in Processing."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

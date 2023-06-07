@@ -2,3 +2,6 @@
   command = "npm run build-ci"
   # skip build when changes are isolated to README.md or .all-contributorsrc
   ignore = "git diff --quiet HEAD^ HEAD ':(exclude)README.md' ':(exclude).all-contributorsrc' "
+[dev]
+  framework = "gatsby"
+  targetPort = 8000

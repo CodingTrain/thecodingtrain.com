@@ -5,12 +5,9 @@
   "videoId": "",
   "date": "2016-12-01",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["sentiment analysis", "afinn-111"],
+  "topics": ["sentiment analysis", "AFINN-111"],
   "canContribute": true,
-  "relatedChallenges": [
-    "42-markov-chain-name-generator",
-    "48-white-house-social-media-data-visualization"
-  ],
+  "relatedChallenges": ["42-markov-chain-name-generator", "48-white-house-social-media-data-visualization"],
   "timestamps": [],
   "parts": [
     {
@@ -70,9 +67,7 @@
     {
       "title": "AFINN-111 Sentiment Analysis",
       "description": "This sketch implements sentiment analysis using the AFINN-111 word list.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/aNeMdpy-b"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/aNeMdpy-b" }
     }
   ],
   "groupLinks": [
@@ -82,13 +77,13 @@
         {
           "icon": "🔗",
           "title": "AFINN",
-          "url": "http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010",
+          "url": "https://www2.imm.dtu.dk/pubdb/pubs/6010-full.html",
           "description": "IMM Publication Database with the AFINN word list."
         },
         {
           "icon": "🔗",
           "title": "Node.js",
-          "url": "https://nodejs.org/",
+          "url": "https://nodejs.org/en",
           "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine."
         },
         {
@@ -112,13 +107,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

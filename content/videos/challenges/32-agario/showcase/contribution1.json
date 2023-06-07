@@ -1,8 +1,9 @@
 {
-    "title": "Agario Online Remix",
-    "url": "https://agario-online-mult-remix.herokuapp.com/",
-    "author": {
-        "name": "Arnaud Godet",
-        "url": "https://github.com/Godeta"
-    }
+  "title": "Agario Online Remix",
+  "url": "https://github.com/Godeta/Agario_JS_multi",
+  "author": {
+    "name": "Arnaud Godet",
+    "url": "https://github.com/Godeta"
+  },
+  "submittedOn": "2020-10-12T02:34:58.000Z"
 }

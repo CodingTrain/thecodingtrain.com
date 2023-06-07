@@ -5,7 +5,7 @@
   "videoId": "fFzvwdkzr_c",
   "date": "2019-12-06",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["regression", "neural networks", "machine learning"],
+  "topics": ["regression", "neural network", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
@@ -22,9 +22,7 @@
     {
       "title": "Neural Network Regression",
       "description": "This sketch demonstrates how to train your own neural network to run a regression.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/aw7R9aSkh"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/aw7R9aSkh" }
     }
   ],
   "groupLinks": [
@@ -34,7 +32,7 @@
         {
           "icon": "💻",
           "title": "ml5.js Neural Network",
-          "url": "https://learn.ml5js.org/docs/#/reference/neural-network",
+          "url": "https://learn.ml5js.org/#/reference/neural-network",
           "description": "ml5 page with documentation and supporting material about ml5.neuralNetwork."
         },
         {
@@ -47,13 +45,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

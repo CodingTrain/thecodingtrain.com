@@ -1,0 +1,107 @@
+{
+  "title": "Box2D - User Controlled Objects: Mouse Joint and Kinematic Type",
+  "description": "This video shows demonstrates how to move objects in Box2D manually through the use of a mouse joint or a kinematic body type.",
+  "videoId": "Ubfqc983jN8",
+  "date": "2015-08-06",
+  "languages": ["processing"],
+  "topics": ["box2d", "physics engine", "mousse joint", "kinematic type"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello again"
+    },
+    {
+      "time": "1:52",
+      "title": "Using a mouse joint to move objects"
+    },
+    {
+      "time": "3:31",
+      "title": "GroundBody"
+    },
+    {
+      "time": "4:55",
+      "title": "Creating and destroying the mouse joint"
+    },
+    {
+      "time": "6:05",
+      "title": "Setting the target"
+    },
+    {
+      "time": "6:49",
+      "title": "Look at example code"
+    },
+    {
+      "time": "10:40",
+      "title": "Kinematic type objects"
+    },
+    {
+      "time": "12:28",
+      "title": "Things you can try"
+    },
+    {
+      "time": "12:53",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mouse Joints",
+      "description": "This sketch shows how to move objects with a mouse joint.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/YzFpEGdsl",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_8_MouseJoint"
+      }
+    },
+    {
+      "title": "Kinematic Test",
+      "description": "Basic example of controlling an object with our own motion (by attaching a MouseJoint)",
+      "urls": {
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/KinematicTest"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "Nature of Code, first edition."
+        },
+        {
+          "icon": "🔗",
+          "title": "Nature of Code Processing Examples",
+          "url": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp05_physicslibraries/box2d/NOC_5_5_MultiShapes",
+          "description": "Processing examples for NOC book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Box2D",
+          "url": "https://box2d.org",
+          "description": "A 2D Physics Engine for Games"
+        },
+        {
+          "icon": "🔗",
+          "title": "JBox2d",
+          "url": "https://github.com/jbox2d/jbox2d",
+          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

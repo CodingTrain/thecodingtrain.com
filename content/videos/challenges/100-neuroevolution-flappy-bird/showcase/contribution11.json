@@ -1,9 +1,9 @@
 {
-    "title": "NEAT library in Python - neatpy",
-    "url": "https://pypi.org/project/neatpy/",
-    "author": {
-        "name": "reddragonnm",
-        "url": "https://github.com/reddragonnm"
-    },
-    "source": "https://github.com/reddragonnm/neatpy"
+  "title": "NEAT library in Python - neatpy",
+  "url": "https://pypi.org/project/neatpy/",
+  "author": {
+    "name": "reddragonnm",
+    "url": "https://github.com/reddragonnm"
+  },
+  "submittedOn": "2021-02-05T10:37:35.000Z"
 }

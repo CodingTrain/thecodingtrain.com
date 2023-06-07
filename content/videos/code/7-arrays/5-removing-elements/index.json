@@ -6,12 +6,15 @@
   "nebulaSlug": "coding-train-7-5-removing-objects-from-arrays-p5-js-tutorial",
   "date": "2017-10-17",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["arrays", "for loop", "objects"],
+  "topics": ["array", "for loop", "objects"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "3:51", "title": "Mozilla Documentation about Arrays" },
-    { "time": "5:30", "title": "Using splice() to Delete an Object From an Array" },
+    {
+      "time": "5:30",
+      "title": "Using splice() to Delete an Object From an Array"
+    },
     { "time": "6:34", "title": "Code Example" },
     { "time": "15:00", "title": "Iterating Through the Array Backwards" }
   ],
@@ -20,17 +23,13 @@
       "title": "Removing Objects from Arrays",
       "description": "Demonstration of Removing Objects from Arrays",
       "image": "img1.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/smC4Jedi"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/smC4Jedi" }
     },
     {
       "title": "Trail",
       "description": "Demonstration of Trail",
       "image": "img2.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/9Ve9S6Mx"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/9Ve9S6Mx" }
     }
   ],
   "groupLinks": [
@@ -58,13 +57,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

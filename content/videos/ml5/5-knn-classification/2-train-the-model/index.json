@@ -5,73 +5,32 @@
   "videoId": "Mwo5_bUVhlA",
   "date": "2019-02-05",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["KNN classification", "machine learning"],
+  "topics": ["KNN classification", "machine learning (ML)"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
+    { "time": "0:00", "title": "Introduction" },
     {
       "time": "0:31",
       "title": "Tensors: an object which can house N dimensional data"
     },
-    {
-      "time": "1:50",
-      "title": "Create a ml5 model"
-    },
-    {
-      "time": "2:34",
-      "title": "KNN classification"
-    },
-    {
-      "time": "6:42",
-      "title": "Multi-dimensional inference"
-    },
-    {
-      "time": "7:54",
-      "title": "Cosine similarity"
-    },
-    {
-      "time": "8:43",
-      "title": "addExample() funciton"
-    },
-    {
-      "time": "9:14",
-      "title": "Let's Code!"
-    },
-    {
-      "time": "12:16",
-      "title": "Add an async function GotResult()"
-    },
-    {
-      "time": "14;10",
-      "title": "Handle the error"
-    },
-    {
-      "time": "14:35",
-      "title": "Train the model"
-    },
-    {
-      "time": "15:18",
-      "title": "Distance calculation done in real time"
-    },
-    {
-      "time": "17:58",
-      "title": "goClassify function"
-    },
-    {
-      "time": "20:20",
-      "title": "What's missing?"
-    }
+    { "time": "1:50", "title": "Create a ml5 model" },
+    { "time": "2:34", "title": "KNN classification" },
+    { "time": "6:42", "title": "Multi-dimensional inference" },
+    { "time": "7:54", "title": "Cosine similarity" },
+    { "time": "8:43", "title": "addExample() funciton" },
+    { "time": "9:14", "title": "Let's Code!" },
+    { "time": "12:16", "title": "Add an async function GotResult()" },
+    { "time": "14:10", "title": "Handle the error" },
+    { "time": "14:35", "title": "Train the model" },
+    { "time": "15:18", "title": "Distance calculation done in real time" },
+    { "time": "17:58", "title": "goClassify function" },
+    { "time": "20:20", "title": "What's missing?" }
   ],
   "codeExamples": [
     {
       "title": "KNN classification",
       "description": "This sketch demonstrates how to train the KNN image classifier.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/RERqlwJL" }
     }
   ],
   "groupLinks": [
@@ -123,13 +82,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -5,38 +5,20 @@
   "videoId": "G1EgjgMo48U",
   "date": "2018-01-08",
   "languages": ["Processing", "Java"],
-  "topics": ["langton's ant", "cellular automata"],
+  "topics": ["Langton's ant", "cellular automaton"],
   "canContribute": true,
   "relatedChallenges": ["85-the-game-of-life", "102-2d-water-ripple"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction and setup code!"
-    },
+    { "time": "0:00", "title": "Introduction and setup code!" },
     {
       "time": "1:46",
       "title": "Writing the algorithm for the motion of Langton's ant"
     },
-    {
-      "time": "9:09",
-      "title": "Visualizing Langton's Ant"
-    },
-    {
-      "time": "12:33",
-      "title": "Debugging and testing!"
-    },
-    {
-      "time": "14:53",
-      "title": "Refactoring the code!"
-    },
-    {
-      "time": "20:06",
-      "title": "Things to try!"
-    },
-    {
-      "time": "20:46",
-      "title": "Outro!"
-    }
+    { "time": "9:09", "title": "Visualizing Langton's Ant" },
+    { "time": "12:33", "title": "Debugging and testing!" },
+    { "time": "14:53", "title": "Refactoring the code!" },
+    { "time": "20:06", "title": "Things to try!" },
+    { "time": "20:46", "title": "Outro!" }
   ],
   "codeExamples": [
     {
@@ -86,13 +68,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

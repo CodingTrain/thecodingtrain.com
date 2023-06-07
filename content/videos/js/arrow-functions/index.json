@@ -5,7 +5,7 @@
   "videoId": "mrYMzpbFz18",
   "date": "2017-10-30",
   "languages": ["JavaScript"],
-  "topics": ["functions", "es6", "arrow functions"],
+  "topics": ["function", "es6", "arrow functions"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "The arrow syntax" },
@@ -16,13 +16,7 @@
   "codeExamples": [],
   "groupLinks": [],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

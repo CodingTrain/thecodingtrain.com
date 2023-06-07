@@ -5,17 +5,9 @@
   "videoId": "IXXNIcQQLU8",
   "date": "2017-11-20",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "chrome extensions",
-    "bookmarklets",
-    "doodle canvas",
-    "drawing webpage"
-  ],
+  "topics": ["Chrome extension", "bookmarklets", "doodle canvas", "drawing webpage"],
   "canContribute": true,
-  "relatedChallenges": [
-    "82-image-chrome-extension",
-    "84-word-definition-chrome-extension"
-  ],
+  "relatedChallenges": ["82-image-chrome-extension", "84-word-definition-chrome-extension"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction to the Challenge!" },
     { "time": "00:32", "title": "manifest.json" },
@@ -46,7 +38,7 @@
         {
           "icon": "🔤",
           "title": "Programming from A to Z",
-          "url": "http://shiffman.net/a2z",
+          "url": "https://shiffman.net/a2z/",
           "description": "This course focuses on programming strategies and techniques behind procedural analysis and generation of text-based data."
         },
         {
@@ -82,13 +74,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

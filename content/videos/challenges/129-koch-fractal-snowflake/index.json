@@ -5,7 +5,7 @@
   "videoId": "X8bXDKqMsXE",
   "date": "2018-12-30",
   "languages": ["Processing"],
-  "topics": ["koch curve", "fractals", "koch snowflake"],
+  "topics": ["Koch snowflake", "fractal"],
   "canContribute": true,
   "relatedChallenges": [
     "2-menger-sponge",
@@ -59,7 +59,7 @@
         {
           "icon": "💰",
           "title": "Support the Processing Foundation",
-          "url": "https://processingfoundation.org/support/",
+          "url": "https://processingfoundation.org/donate",
           "description": "Support the Processing Foundation."
         },
         {
@@ -89,13 +89,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

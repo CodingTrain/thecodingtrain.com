@@ -1,0 +1,132 @@
+{
+  "title": "6.1 Matter.js - Introduction",
+  "description": "This video is an introduction to the Matter.js, a 2D JavaScript physics library that supports rigid body collisions and constraints. In this video I show you how to set up your code to use the library in combination with p5.js for rendering.",
+  "videoNumber": "5.17",
+  "videoId": "urR596FsU68",
+  "nebulaSlug": "",
+  "date": "2017-03-07",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["physics engine", "matter.js"],
+  "canonicalTrack": "the-nature-of-code-2",
+  "canContribute": false,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction to Matter.js"
+    },
+    {
+      "time": "1:50",
+      "title": "Simple Example"
+    },
+    {
+      "time": "2:30",
+      "title": "Getting started"
+    },
+    {
+      "time": "3:40",
+      "title": "Module aliases"
+    },
+    {
+      "time": "5:15",
+      "title": "Creating bodies in the world"
+    },
+    {
+      "time": "6:04",
+      "title": "Matter.js documentation"
+    },
+    {
+      "time": "7:51",
+      "title": "Engine.run() is deprecated"
+    },
+    {
+      "time": "8:58",
+      "title": "Use the physics engine to figure out the location of the box"
+    },
+    {
+      "time": "10:07",
+      "title": "Data tracked about the object"
+    },
+    {
+      "time": "13:13",
+      "title": "Adding a body to the world"
+    },
+    {
+      "time": "14:40",
+      "title": "Refactor code"
+    },
+    {
+      "time": "19:00",
+      "title": "Add a ground"
+    },
+    {
+      "time": "19:51",
+      "title": "Static Bodies"
+    },
+    {
+      "time": "22:23",
+      "title": "Drawing elements in a way that matches expectation of physics engine"
+    },
+    {
+      "time": "27:07",
+      "title": "Add options for friction and restitution."
+    },
+    {
+      "time": "30:42",
+      "title": "Increase thickness of the ground"
+    },
+    {
+      "time": "31:44",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Basic implementation",
+      "description": "Basic example showing how to add boxes to the world.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/dian0t-5j"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Matter.js",
+          "url": "https://brm.io/matter-js/",
+          "description": "Webpage for the matter.js physics library."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Matter.js playlist",
+          "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+          "description": "My tutorials about the Matter.js physics library."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

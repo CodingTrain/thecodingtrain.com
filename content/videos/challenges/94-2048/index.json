@@ -5,13 +5,9 @@
   "videoId": "JSn-DJU8qf0",
   "date": "2018-02-26",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["2048", "sliding puzzle game"],
+  "topics": ["2048 game", "sliding puzzle game"],
   "canContribute": true,
-  "relatedChallenges": [
-    "142-rubiks-cube",
-    "149-tic-tac-toe",
-    "165-slide-puzzle"
-  ],
+  "relatedChallenges": ["142-rubiks-cube", "149-tic-tac-toe", "165-slide-puzzle"],
   "timestamps": [],
   "parts": [
     {
@@ -151,13 +147,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

@@ -101,56 +101,6 @@ const contentStructure = {
           isFolderSensitive: true,
           isRequired: false
         }
-        // 'guest-tutorials': {
-        //   folders: {
-        //     '': {
-        //       folders: {
-        //         showcase: {
-        //           files: {
-        //             '': { isRequired: false, jsonFormat: contributionFormat }
-        //           },
-        //           folder: {},
-        //           isRequired: false,
-        //           isFileSensitive: false,
-        //           isFolderSensitive: true
-        //         },
-        // images: {
-        //   files: {},
-        //   folder: {},
-        //   isRequired: false,
-        //   isFileSensitive: false,
-        //   isFolderSensitive: true
-        // }
-        //       },
-        //       files: {
-        //         'index.json': {
-        //           isRequired: true,
-        //           jsonFormat: videoFormat,
-        //           slugReferences: videoSlugReferences
-        //         },
-        //         'index.jpg': { isRequired: false },
-        //         'index.png': { isRequired: false }
-        //       },
-        //       canBeRecursive: true,
-        //       isFileSensitive: true,
-        //       isFolderSensitive: true,
-        //       isRequired: false
-        //     }
-        //   },
-        //   files: {
-        //     'placeholder.png': {
-        //       isRequired: true,
-        //       requiredAlternative: 'placeholder.jpg'
-        //     },
-        //     'placeholder.jpg': {
-        //       isRequired: true,
-        //       requiredAlternative: 'placeholder.png'
-        //     }
-        //   },
-        //   isFileSensitive: true,
-        //   isFolderSensitive: false,
-        //   isRequired: true
-        // }
       },
       files: {
         'placeholder.png': {

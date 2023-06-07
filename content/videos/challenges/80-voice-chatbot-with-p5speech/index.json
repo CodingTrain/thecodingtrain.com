@@ -5,19 +5,9 @@
   "videoId": "iFTgphKCP9U",
   "date": "2017-10-23",
   "languages": ["p5.js", "JavaScript", "RiveScript"],
-  "topics": [
-    "pattern matching",
-    "artificial intelligence",
-    "speech recognition",
-    "speech-to-text",
-    "chatbot"
-  ],
+  "topics": ["pattern matching", "artificial intelligence", "speech recognition", "speech-to-text", "chatbot"],
   "canContribute": true,
-  "relatedChallenges": [
-    "79-number-guessing-chatbot",
-    "41-clappy-bird",
-    "147-chrome-dinosaur-game"
-  ],
+  "relatedChallenges": ["79-number-guessing-chatbot", "41-clappy-bird", "147-chrome-dinosaur-game"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction!" },
     { "time": "0:54", "title": "A correction from coding challenge #79" },
@@ -74,7 +64,7 @@
         {
           "icon": "🌐",
           "title": "NYU Ability Project",
-          "url": "http://ability.nyu.edu/",
+          "url": "https://wp.nyu.edu/ability/",
           "description": "A project that fosters research in the area of ability and creates open source and multidisciplinary projects."
         }
       ]
@@ -85,7 +75,7 @@
         {
           "icon": "🎞️",
           "title": "Playlist on Programming with Text",
-          "url": "/learning/programming-with-text",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YrbSJBg32eTzUU50E2B8Ch",
           "description": "A playlist of all tutorials and coding challenges from the Programming with Text series"
         },
         {

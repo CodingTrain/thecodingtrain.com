@@ -1,8 +1,9 @@
 {
-    "title": "Snake Game, custom canvas sizing based on window size, better UI",
-    "url": "https://github.com/ricoloic/snake-game",
-    "author": {
-        "name": "Lo\u00efc Rico",
-        "url": "https://github.com/ricoloic"
-    }
+  "title": "Snake Game, custom canvas sizing based on window size, better UI",
+  "url": "https://github.com/ricoloic/snake-game",
+  "author": {
+    "name": "Loïc Rico",
+    "url": "https://github.com/ricoloic"
+  },
+  "submittedOn": "2021-06-16T05:23:50.000Z"
 }

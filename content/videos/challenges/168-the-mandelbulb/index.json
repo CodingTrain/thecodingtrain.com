@@ -6,7 +6,7 @@
   "nebulaSlug": "codingtrain-the-mandelbulb-3d-fractal-coding-challenge-168",
   "date": "2022-03-11",
   "languages": ["Processing"],
-  "topics": ["3D", "fractals", "voxels", "spherical coordinates", "point clouds"],
+  "topics": ["3D", "fractal", "voxels", "spherical coordinates", "point clouds"],
   "canContribute": true,
   "relatedChallenges": ["21-mandelbrot-set-with-p5js", "22-julia-set", "25-spherical-geometry"],
   "timestamps": [

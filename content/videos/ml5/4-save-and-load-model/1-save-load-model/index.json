@@ -5,45 +5,22 @@
   "videoId": "eU7gIy3xV30",
   "date": "2018-11-12",
   "languages": ["ml5.js", "p5.js"],
-  "topics": ["machine learning", "feature extractor"],
+  "topics": ["machine learning (ML)", "feature extractor"],
   "canContribute": true,
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:22",
-      "title": "Saving and loading the feature extractor"
-    },
-    {
-      "time": "3:41",
-      "title": "The model.json and model.weights.bin files"
-    },
-    {
-      "time": "4:03",
-      "title": "What are we saving?"
-    },
-    {
-      "time": "7:15",
-      "title": "Let's look at the files."
-    },
-    {
-      "time": "8:16",
-      "title": "Load the mobileNet model"
-    },
-    {
-      "time": "10:38",
-      "title": "Start Classifiying"
-    }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:22", "title": "Saving and loading the feature extractor" },
+    { "time": "3:41", "title": "The model.json and model.weights.bin files" },
+    { "time": "4:03", "title": "What are we saving?" },
+    { "time": "7:15", "title": "Let's look at the files." },
+    { "time": "8:16", "title": "Load the mobileNet model" },
+    { "time": "10:38", "title": "Start Classifiying" }
   ],
   "codeExamples": [
     {
       "title": "Saving and loading a model in ml5",
       "description": "This sketch demonstrates how to save and load a model in ml5.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/1g9C6OKX"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/1g9C6OKX" }
     }
   ],
   "groupLinks": [
@@ -77,13 +54,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

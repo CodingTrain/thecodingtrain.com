@@ -7,12 +7,7 @@
   "languages": ["p5.js"],
   "topics": ["supershapes", "maths"],
   "canContribute": true,
-  "relatedChallenges": [
-    "23-2d-supershapes",
-    "25-spherical-geometry",
-    "26-3d-supershapes",
-    "112-3d-rendering-with-rotation-and-projection"
-  ],
+  "relatedChallenges": ["23-2d-supershapes", "25-spherical-geometry", "26-3d-supershapes", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction to the Coding Challenge" },
     { "time": "0:56", "title": "Whiteboard discussion of polar coordinates" },

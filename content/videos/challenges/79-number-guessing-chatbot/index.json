@@ -5,18 +5,9 @@
   "videoId": "zGe1m_bLOFk",
   "date": "2017-10-13",
   "languages": ["JavaScript", "p5.js", "RiveScript"],
-  "topics": [
-    "pattern matching",
-    "chatbot",
-    "artificial intelligence",
-    "text generator"
-  ],
+  "topics": ["pattern matching", "chatbot", "artificial intelligence", "text generator"],
   "canContribute": true,
-  "relatedChallenges": [
-    "37-diastic-machine",
-    "39-madlibs-generator",
-    "80-voice-chatbot-with-p5speech"
-  ],
+  "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator", "80-voice-chatbot-with-p5speech"],
   "timestamps": [
     { "time": "0:00", "title": "Introduce the coding challenge" },
     { "time": "0:34", "title": "Set up p5.js ketch" },

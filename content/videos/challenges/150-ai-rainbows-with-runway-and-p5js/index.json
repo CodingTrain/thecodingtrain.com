@@ -5,8 +5,8 @@
   "videoId": "vEetoBuHj8g",
   "nebulaSlug": "the-coding-train-yt-coding-challenge-150-ai-rainbows-with-runway-and-p5-js",
   "date": "2019-08-22",
-  "languages": ["runwayML", "p5.js"],
-  "topics": ["styleGan", "machine learning", "latent space"],
+  "languages": ["RunwayML", "p5.js"],
+  "topics": ["StyleGAN", "machine learning (ML)", "latent space"],
   "canContribute": true,
   "relatedChallenges": [
     "122-quick-draw",
@@ -38,9 +38,7 @@
       "title": "AI Rainbows",
       "description": "This sketch shows how to generate rainbows using the  StyleGAN Machine Learning model.",
       "image": "rainbow.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/K6l0JbS6u"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/K6l0JbS6u" }
     }
   ],
   "groupLinks": [
@@ -55,9 +53,9 @@
         },
         {
           "icon": "💻",
-          "title": "RunwayML download page",
-          "url": "https://runwayml.com/download/",
-          "description": "Download page for RunwayML."
+          "title": "RunwayML website",
+          "url": "https://runwayml.com/",
+          "description": "Website for RunwayML."
         },
         {
           "icon": "💻",
@@ -110,13 +108,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

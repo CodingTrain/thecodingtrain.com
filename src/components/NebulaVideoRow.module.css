@@ -1,0 +1,34 @@
+.root {
+  height: var(--baseline);
+  border-left: var(--border);
+  background: white;
+
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+}
+
+.svg {
+  height: 37px;
+  width: auto;
+}
+
+@media (--small) {
+  .hideRow {
+    display: none;
+  }
+
+  .svg {
+    height: 27px;
+  }
+}
+
+/* variants */
+
+.red {
+  border-bottom: var(--border-red);
+}
+
+.cyan {
+  border-bottom: var(--border-cyan);
+}

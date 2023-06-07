@@ -6,17 +6,14 @@
   "nebulaSlug": "codingtrain-coding-challenge-174-fractal-tree-on-apple-ii",
   "date": "2022-09-12",
   "languages": ["BASIC"],
-  "topics": ["fractal", "1980s", "AppleII", "bouncing ball"],
+  "topics": ["fractal", "1980s", "Apple II", "bouncing ball"],
   "canContribute": true,
   "relatedChallenges": ["77-recursion", "14-fractal-trees-recursive", "173-snake-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Hello from 1981!" },
     { "time": "0:16", "title": "Coding Together Theme" },
     { "time": "1:10", "title": "Getting started" },
-    {
-      "time": "1:30",
-      "title": "Graphics Mode (GR)"
-    },
+    { "time": "1:30", "title": "Graphics Mode (GR)" },
     { "time": "1:56", "title": "Apple II+ Screen Capture" },
     { "time": "2:08", "title": "Plotting Points and Lines" },
     { "time": "3:33", "title": "Bouncing Ball" },
@@ -67,12 +64,6 @@
     {
       "title": "References",
       "links": [
-        {
-          "icon": "✨",
-          "title": "Ad-free Extended Cut",
-          "url": "https://nebula.tv/videos/codingtrain-coding-challenge-174-fractal-tree-on-apple-ii",
-          "description": "Nebula plus version is ad-free and includes additional footage about color in GR and HGR modes."
-        },
         {
           "icon": "🧠",
           "title": "What is Code?",
@@ -164,22 +155,13 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    },
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" },
     {
       "title": "Coding Together Theme",
       "name": "Will from America",
       "url": "https://twitter.com/WillfromAmerica"
     },
-    {
-      "title": "Eye of the Tiger cover",
-      "name": "Leon from @neo"
-    }
+    { "title": "Eye of the Tiger cover", "name": "Leon from @neo" }
   ]
 }

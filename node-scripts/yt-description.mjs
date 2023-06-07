@@ -36,59 +36,85 @@ function parseTrack(track) {
   const content = fs.readFileSync(`./${track}`, 'utf-8');
   const parsed = JSON.parse(content);
 
-  let trackFolder, videoList;
+  let trackFolder, videoList, videoDirs;
   if (parsed.chapters) {
     // Main Track
-    let video = parsed.chapters[0].videos[0];
-    trackFolder = video.split('/').slice(0, -2);
+    videoDirs = parsed.chapters
+      .map((chap) =>
+        chap.videos.map((video) => video.split('/').slice(0, -1).join('/'))
+      )
+      .flat()
+      .filter((dir) => dir !== 'challenges');
 
     videoList = parsed.chapters.map((chap) => chap.videos).flat();
   } else {
     // Side Track
-    let video = parsed.videos[0];
-    trackFolder = video.split('/').slice(0, -1);
-
-    // ignore track with coding challenge videos
-    // TODO fix (only checking first video)
-    if (trackFolder[0] === 'challenges') return null;
+    videoDirs = parsed.videos
+      .map((video) => video.split('/').slice(0, -1).join('/'))
+      .filter((dir) => dir !== 'challenges');
 
     videoList = parsed.videos;
   }
 
+  if (videoDirs.length == 0) {
+    // ignore tracks with only challenges
+    return null;
+  } else if (videoDirs.length == 1) {
+    trackFolder = videoDirs[0];
+  } else {
+    // find max used directory
+    trackFolder = findMaxOccurences(videoDirs);
+  }
+
   return {
     trackName,
-    trackFolder: trackFolder.join('/'),
+    trackFolder,
     videoList,
     data: parsed
   };
 }
 
 /**
- * Parses index.json and pushes to videos array
- *
- * Note: has side effects, must be called only once per file
+ * Parses index.json and returns an array
  * @param {string} file File to parse
  */
 function getVideoData(file) {
+  const videoList = [];
   const content = fs.readFileSync(`./${file}`, 'utf-8');
   const video = JSON.parse(content);
 
   const filePath = file.split(path.sep).slice(2);
+  const videoPath = filePath.slice(0, -1).join('/');
   // console.log('[Parsing File]:', filePath.join('/'));
-  let url;
+  let url, canonicalTrack;
 
   if (filePath[0] === 'challenges') {
-    url = filePath.slice(0, 2);
+    url = filePath.slice(0, 2).join('/');
   } else {
-    for (let track of allTracks) {
-      if (filePath.join('/').includes(track.trackFolder)) {
-        url = ['tracks', track.trackName, ...filePath.slice(0, -1)];
-        break;
+    if (video.canonicalTrack) {
+      canonicalTrack = video.canonicalTrack;
+      url = ['tracks', video.canonicalTrack, videoPath].join('/');
+    } else {
+      for (let track of allTracks) {
+        if (track.videoList.includes(videoPath)) {
+          canonicalTrack = track.trackName;
+          url = ['tracks', track.trackName, videoPath].join('/');
+          break;
+        }
       }
     }
   }
 
-  const slug = url[url.length - 1];
+  if (!url) {
+    console.log(
+      '⚠️  Warning: Could not find this video: ' +
+        videoPath +
+        ' in any track or challenge!'
+    );
+    return [];
+  }
+
+  const slug = url.split('/').at(-1);
 
   if (!url || url.length == 0) {
     throw new Error(
@@ -113,24 +139,27 @@ function getVideoData(file) {
       partInfo.title = video.title + ' - ' + part.title;
 
       const videoData = {
-        pageURL: url.join('/'),
+        pageURL: url,
         data: partInfo,
         filePath: file,
         isMultipartChallenge: true,
+        canonicalTrack,
         slug: slug
       };
-      videos.push(videoData);
+      videoList.push(videoData);
     }
   } else {
     video.challengeTitle = video.title;
     const videoData = {
-      pageURL: url.join('/'),
+      pageURL: url,
       data: video,
       filePath: file,
+      canonicalTrack,
       slug: slug
     };
-    videos.push(videoData);
+    videoList.push(videoData);
   }
+  return videoList;
 }
 
 /**
@@ -153,12 +182,13 @@ function primeDirectory(dir) {
   });
 }
 
+const playlistWarnings = new Set();
 /**
  * Retrieves YouTube video/playlist url from relative website path
  * @param {string} url original relative url
  * @returns {string} resolved url
  */
-function resolveYTLink(url) {
+function resolveCTLink(url) {
   if (/https?:\/\/.*/.test(url)) return url;
 
   const location = url.startsWith('/') ? url.substring(1, url.length) : url;
@@ -175,7 +205,13 @@ function resolveYTLink(url) {
       const playlistId = track.data.playlistId;
       return `https://www.youtube.com/playlist?list=${playlistId}`;
     } else {
-      console.warn('Warning: YT Playlist not found for track:', urlchunks[1]);
+      if (!playlistWarnings.has(urlchunks[1])) {
+        console.warn(
+          '⚠️  Warning: YT Playlist not found for track:',
+          urlchunks[1]
+        );
+        playlistWarnings.add(urlchunks[1]);
+      }
       return `https://thecodingtrain.com/${location}`;
     }
   }
@@ -184,11 +220,30 @@ function resolveYTLink(url) {
   try {
     page = videos.find((vid) => vid.pageURL === location).data;
   } catch (err) {
-    console.warn('Warning: Could not resolve to YT video:', url);
+    console.warn('⚠️  Warning: Could not resolve to YT video:', url);
     return `https://thecodingtrain.com${url}`;
   }
 
   return `https://youtu.be/${page.videoId}`;
+}
+
+/**
+ * Finds the most occuring item in an array
+ * @param {string[]} arr array of items
+ */
+function findMaxOccurences(arr) {
+  const counts = {};
+  for (const item of arr) {
+    if (counts[item]) {
+      counts[item]++;
+    } else {
+      counts[item] = 1;
+    }
+  }
+  const max = Object.keys(counts).reduce((a, b) =>
+    counts[a] > counts[b] ? a : b
+  );
+  return max;
 }
 
 /**
@@ -268,25 +323,23 @@ function writeDescription(video) {
     const i = +video.data.videoNumber;
     const previousVideo = videos.find((vid) => vid.data.videoNumber == i - 1);
     const nextVideo = videos.find((vid) => vid.data.videoNumber == i + 1);
+    const challengePL = 'PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH';
 
     description += '\n';
 
     if (previousVideo)
-      description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
+      description += `🎥 Previous: https://youtu.be/${previousVideo.data.videoId}?list=${challengePL}\n`;
 
     if (nextVideo)
-      description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n`;
-    description +=
-      '🎥 All videos: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH\n';
+      description += `🎥 Next: https://youtu.be/${nextVideo.data.videoId}?list=${challengePL}\n`;
+    description += `🎥 All: https://www.youtube.com/playlist?list=${challengePL}\n`;
   } else {
     const path = video.pageURL.split('/');
     const videoDir = path.slice(2).join('/');
-    // Find playlist id from main track only
-    // TODO: check in side tracks as well
-    const track = mainTracks.find((track) =>
-      track.videoList.includes(videoDir)
-    );
-    if (track && track.data.playlistId) {
+
+    const track = allTracks.find((t) => t.trackName === video.canonicalTrack);
+
+    if (track) {
       description += '\n';
       let id = track.videoList.indexOf(videoDir);
 
@@ -299,14 +352,18 @@ function writeDescription(video) {
       const nextVideo = videos.find(
         (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
       );
+      const plId = track.data.playlistId
+        ? `?list=${track.data.playlistId}`
+        : '';
 
       if (previousVideo)
-        description += `🎥 Previous video: https://youtu.be/${previousVideo.data.videoId}?list=${track.data.playlistId}\n`;
+        description += `🎥 Previous: https://youtu.be/${previousVideo.data.videoId}${plId}\n`;
 
       if (nextVideo)
-        description += `🎥 Next video: https://youtu.be/${nextVideo.data.videoId}?list=${track.data.playlistId}\n`;
+        description += `🎥 Next: https://youtu.be/${nextVideo.data.videoId}${plId}\n`;
 
-      description += `🎥 All videos: https://www.youtube.com/playlist?list=${track.data.playlistId}\n`;
+      if (track.data.playlistId)
+        description += `🎥 All: https://www.youtube.com/playlist${plId}\n`;
     }
   }
 
@@ -324,7 +381,7 @@ function writeDescription(video) {
         } else {
           // assume relative link in thecodingtrain.com
           // try to get YT link instead of website link
-          description += `${link.icon} ${link.title}: ${resolveYTLink(url)}\n`;
+          description += `${link.icon} ${link.title}: ${resolveCTLink(url)}\n`;
         }
       }
     }
@@ -342,7 +399,7 @@ function writeDescription(video) {
         const { videoNumber, challengeTitle } = challengeData.data;
         const url = challengeData.pageURL;
         description +=
-          `🚂 ${videoNumber} ${challengeTitle}: ${resolveYTLink(url)}` + '\n';
+          `🚂 ${videoNumber} ${challengeTitle}: ${resolveCTLink(url)}` + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }
@@ -430,7 +487,7 @@ const allTracks = [...mainTracks, ...sideTracks];
   primeDirectory('./_descriptions');
 
   for (const file of files) {
-    getVideoData(file);
+    videos.push(...getVideoData(file));
   }
 
   if (video) {
@@ -444,16 +501,23 @@ const allTracks = [...mainTracks, ...sideTracks];
     } catch (e) {
       // local index.json path
       let filePath = video;
-      if (!filePath.endsWith('index.json')) filePath = filePath + '/index.json';
-      filePath = path.normalize(filePath);
-      specifiedVideos = videos.filter((data) => data.filePath === filePath);
+      specifiedVideos = videos.filter((data) =>
+        data.filePath.startsWith(filePath)
+      );
+    }
+
+    if (specifiedVideos.length === 0) {
+      console.log(`❌ No video found for ${video}`);
+      return;
     }
 
     for (const video of specifiedVideos) {
       const description = writeDescription(video);
-      console.log('=====================================================');
-      console.log(description);
-      console.log('=====================================================');
+      if (specifiedVideos.length == 1) {
+        console.log('=====================================================');
+        console.log(description);
+        console.log('=====================================================');
+      }
 
       if (copyToClipboard) {
         try {

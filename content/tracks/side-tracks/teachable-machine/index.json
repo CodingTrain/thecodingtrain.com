@@ -1,0 +1,6 @@
+{
+  "title": "Teachable Machine",
+  "description": "In these videos I demonstrate how to train image and sound classification machine learning models and deploy those models to a web application using the p5.js and ml5.js JavaScript libraries.",
+  "playlistId": "PLRqwX-V7Uu6aJwX0rFP-7ccA6ivsPDsK5",
+  "videos": ["teachable-machine/1-image-classification", "teachable-machine/2-snake-game", "teachable-machine/3-sound-classification"]
+}

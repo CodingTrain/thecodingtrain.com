@@ -1,0 +1,56 @@
+{
+  "title": "Translate, Rotate, Push/Pop",
+  "description": "In this video I cover the functions translate(), rotate(), push() and pop().",
+  "videoNumber": "1",
+  "videoId": "o9sgjuh-CBM",
+  "date": "2017-09-18",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["transformations", "translate", "rotate"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "03:00", "title": "Translate" },
+    { "time": "08:10", "title": "Angles" },
+    { "time": "10:45", "title": "Rotate" },
+    { "time": "20:15", "title": "Push and Pop" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Spinning Rectangles",
+      "description": "Code example from the video.",
+      "image": "rotate.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HbW7TMPZM"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🌎",
+          "title": "Solar System Simulation",
+          "url": "/challenges/7-solar-system-2d",
+          "description": "Coding Challenge 7: Solar System Simulation using matrix transformations"
+        },
+        {
+          "icon": "🚂",
+          "title": "Angles and Rotation",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/1-angles-and-rotation",
+          "description": "Nature of Code video on angle measurements and rotations in p5.js"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

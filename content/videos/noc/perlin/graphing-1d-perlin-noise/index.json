@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "y7sgcFhk6ZM",
+  "canonicalTrack": "the-nature-of-code-2",
   "timestamps": [
     { "time": "0:00", "title": "What are we doing?" },
     { "time": "1:20", "title": "Why are the x and y values equal?" },
@@ -11,7 +12,7 @@
     { "time": "5:02", "title": "Graph the values" },
     { "time": "9:05", "title": "Add an increment variable" },
     { "time": "9:46", "title": "Moving across the perlin noise space" },
-    { "time": "12:00", "title": "Noisy sine example"}
+    { "time": "12:00", "title": "Noisy sine example" }
   ],
   "canContribute": true,
   "codeExamples": [

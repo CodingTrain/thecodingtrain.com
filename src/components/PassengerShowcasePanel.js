@@ -68,11 +68,7 @@ const Contribution = ({
   const image = cover
     ? contribution.cover.file.childImageSharp.gatsbyImageData
     : placeholderImage;
-  const url =
-    contribution.url ??
-    (contribution.videoId
-      ? `https://youtu.be/${contribution.videoId}`
-      : contribution.source);
+  const url = contribution.url;
   const Header = headerType;
   return (
     <article className={css.contrib}>

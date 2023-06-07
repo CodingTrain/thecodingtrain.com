@@ -5,21 +5,12 @@
   "videoId": "fcdNSZ9IzJM",
   "date": "2016-05-30",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [
-    "fractals",
-    "object-oriented programming",
-    "generative art",
-    "algorithmic botany"
-  ],
+  "topics": ["fractal", "tree", "object-oriented programming (OOP)", "generative art", "algorithmic botany"],
   "canContribute": true,
-  "relatedChallenges": [
-    "14-fractal-trees-recursive",
-    "16-l-system-fractal-trees",
-    "174-graphics-applesoft-basic"
-  ],
+  "relatedChallenges": ["14-fractal-trees-recursive", "16-l-system-fractal-trees", "174-graphics-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
-    { "time": "1;44", "title": "Write a Branch constructor function" },
+    { "time": "1:44", "title": "Write a Branch constructor function" },
     {
       "time": "3:00",
       "title": "Add a single Branch object for the root of the tree"

@@ -1,8 +1,9 @@
 {
-	"title":  "Lorenz-Atractor-Resolume-Arena-Plugin",
-	"author":{
-		"name" : "Alejo Cortiñaz",
-		"url": "https://www.instagram.com/alejo_rgb/?hl=es-la"
-	},
-	"url": "https://github.com/alejoRGB/Lorenz-Atractor-Resolume-Arena-Plugin"
+  "title": "Lorenz-Atractor-Resolume-Arena-Plugin",
+  "author": {
+    "name": "Alejo Cortiñaz",
+    "url": "https://www.instagram.com/alejo_rgb/?hl=es-la"
+  },
+  "url": "https://github.com/alejoRGB/Lorenz-Atractor-Resolume-Arena-Plugin",
+  "submittedOn": "2020-05-22T05:44:28.000Z"
 }

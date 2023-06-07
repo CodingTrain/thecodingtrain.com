@@ -3,7 +3,7 @@
   "description": "This video is client-side only and covers the web fetch() API, loading image data and focusing on handling asynchronous events with Promises (async / await).",
   "videoNumber": "1.1",
   "languages": ["JavaScript"],
-  "topics": ["fetch", "promises", "apis"],
+  "topics": ["fetch", "promises", "API"],
   "videoId": "tc8DU14qX6I",
   "nebulaSlug": "codingtrain-1-1-fetch-working-with-data-apis-in-javascript",
   "canContribute": true,

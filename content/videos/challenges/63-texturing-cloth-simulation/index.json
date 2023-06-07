@@ -5,19 +5,9 @@
   "videoId": "",
   "date": "2017-03-14",
   "languages": ["Processing", "Java"],
-  "topics": [
-    "physics engine",
-    "texture 3d",
-    "toxiclibs",
-    "cloth",
-    "simulation"
-  ],
+  "topics": ["physics engine", "texture 3D", "Toxiclibs", "cloth", "simulation"],
   "canContribute": true,
-  "relatedChallenges": [
-    "20-3d-cloth-simulation",
-    "62-plinko-with-matterjs",
-    "138-angry-birds-with-matterjs"
-  ],
+  "relatedChallenges": ["20-3d-cloth-simulation", "62-plinko-with-matterjs", "138-angry-birds-with-matterjs", "177-soft-body-character"],
   "timestamps": [],
   "parts": [
     {
@@ -108,13 +98,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

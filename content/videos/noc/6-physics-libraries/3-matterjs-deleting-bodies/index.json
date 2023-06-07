@@ -1,0 +1,96 @@
+{
+  "title": "6.3 Matter.js - Deleting Bodies",
+  "description": "This video demonstrates how to delete bodies from the world",
+  "videoNumber": "5.19",
+  "videoId": "4HsVCLakjtQ",
+  "nebulaSlug": "",
+  "date": "2017-03-08",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["physics engine", "matter.js"],
+  "canContribute": true,
+  "canonicalTrack": "the-nature-of-code-2",
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Welcome back!"
+    },
+    {
+      "time": "0:52",
+      "title": "Add a new circle every frame"
+    },
+    {
+      "time": "1:31",
+      "title": "Remove a circle if it is offscreen"
+    },
+    {
+      "time": "4:03",
+      "title": "Discuss the flaw in the code"
+    },
+    {
+      "time": "5:15",
+      "title": "Loop through the array backwards"
+    },
+    {
+      "time": "6:06",
+      "title": "Removing bodies from the world"
+    },
+    {
+      "time": "9:55",
+      "title": "Remove the body from the world before calling slice()"
+    },
+    {
+      "time": "11:08",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Deleting Bodies",
+      "description": "This sketch demonstrates how to remove a body from the world",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fbNLnk1Nn"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Nature of Code",
+          "url": "https://nature-of-code-2nd-edition.netlify.app/",
+          "description": "My Nature of Code book."
+        },
+        {
+          "icon": "🔗",
+          "title": "Matter.js",
+          "url": "https://brm.io/matter-js/",
+          "description": "Webpage for the matter.js physics library."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Matter.js playlist",
+          "url": "https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_",
+          "description": "My tutorials about the Matter.js physics library."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

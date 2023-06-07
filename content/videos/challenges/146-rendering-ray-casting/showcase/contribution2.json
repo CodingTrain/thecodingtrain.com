@@ -1,9 +1,9 @@
 {
-    "title": "Wolfenstein 3D style raycasting with randomly generated mazes (p5.js)",
-    "author": {
-        "name": "Ben (quillaja)",
-        "url": "https://github.com/quillaja"
-    },
-    "url": "http://www.quillaja.net/raymaze/sketch.html",
-    "source": "https://github.com/quillaja/raymaze"
+  "title": "Wolfenstein 3D style raycasting with randomly generated mazes (p5.js)",
+  "author": {
+    "name": "Ben (quillaja)",
+    "url": "https://github.com/quillaja"
+  },
+  "url": "http://quillaja.net/raymaze/sketch.html",
+  "submittedOn": "2019-05-10T14:12:44.000Z"
 }

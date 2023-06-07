@@ -5,13 +5,9 @@
   "videoId": "KakpnfDv_f0",
   "date": "2017-03-10",
   "languages": ["JavaScript", "p5.js", "Matter.js"],
-  "topics": ["collision detection", "matter.js", "physics engine 2d", "plinko"],
+  "topics": ["collision detection", "matter.js", "physics engine", "Plinko game"],
   "canContribute": true,
-  "relatedChallenges": [
-    "20-3d-cloth-simulation",
-    "98-quadtree",
-    "160-spring-forces"
-  ],
+  "relatedChallenges": ["20-3d-cloth-simulation", "98-quadtree", "160-spring-forces"],
   "timestamps": [],
   "parts": [
     {
@@ -93,9 +89,7 @@
       "title": "Plinko Simulation",
       "description": "This sketch implements a Plinko simulation.",
       "image": "plinko.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo"
-      }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/wAe_oPVHo" }
     }
   ],
   "groupLinks": [
@@ -105,13 +99,13 @@
         {
           "icon": "🏓",
           "title": "Matter.js",
-          "url": "http://brm.io/matter-js/",
+          "url": "https://brm.io/matter-js/",
           "description": "Webpage with documentation about the Physics engine Matter.js."
         },
         {
           "icon": "💰",
           "title": "What is Plinko?",
-          "url": "http://priceisright.wikia.com/wiki/Plinko",
+          "url": "https://priceisright.fandom.com/wiki/Plinko",
           "description": "Webpage with description of Plinko--the most popular pricing game ever on \"The Price is Right\"."
         }
       ]
@@ -141,13 +135,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

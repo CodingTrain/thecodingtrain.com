@@ -2,7 +2,7 @@
   "title": "Saving to a Database",
   "description": "It's time to add a database! Let's learn why databases are important. For this video, I'll start by using NeDB for the Data Selfie App.",
   "videoNumber": "2.4",
-  "languages": ["JavaScript", "node.js"],
+  "languages": ["JavaScript", "Node.js"],
   "topics": ["database"],
   "videoId": "xVYa20DCUv0",
   "nebulaSlug": "codingtrain-2-4-saving-to-a-database-working-with-data-and-apis-in-javascript",

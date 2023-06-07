@@ -5,34 +5,16 @@
   "videoId": "H81Tdrmz2LA",
   "date": "2017-12-28",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["webgl", "simple harmonic motion", "3d", "bees and bombs"],
+  "topics": ["WebGL", "simple harmonic motion", "3D", "BeesandBombs"],
   "canContribute": true,
   "relatedChallenges": ["87-3d-knots", "135-making-a-gif-loop-in-processing"],
   "timestamps": [
-    {
-      "time": "0:00:00",
-      "title": "Coding Cube Wave by Bees and Bombs"
-    },
-    {
-      "time": "0:02:41",
-      "title": "Applying Oscillation"
-    },
-    {
-      "time": "0:07:43",
-      "title": "Moving to 3D"
-    },
-    {
-      "time": "0:11:33",
-      "title": "Adding Perspectives and Movement"
-    },
-    {
-      "time": "0:23:25",
-      "title": "Applying an Offset"
-    },
-    {
-      "time": "0:28:32",
-      "title": "Final wave and suggestion for improvements"
-    }
+    { "time": "0:00:00", "title": "Coding Cube Wave by Bees and Bombs" },
+    { "time": "0:02:41", "title": "Applying Oscillation" },
+    { "time": "0:07:43", "title": "Moving to 3D" },
+    { "time": "0:11:33", "title": "Adding Perspectives and Movement" },
+    { "time": "0:23:25", "title": "Applying an Offset" },
+    { "time": "0:28:32", "title": "Final wave and suggestion for improvements" }
   ],
   "codeExamples": [
     {
@@ -88,13 +70,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

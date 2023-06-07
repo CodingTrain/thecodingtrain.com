@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2019-02-25",
   "languages": ["p5.js", "Processing"],
-  "topics": ["gif loop", "perlin noise", "polar coordinates"],
+  "topics": ["GIF loop", "Perlin noise", "polar coordinates"],
   "canContribute": true,
   "relatedChallenges": [
     "36-blobby",
@@ -121,13 +121,13 @@
       "links": [
         {
           "icon": "🖋️",
-          "title": "\u00c9tienne Jacob's tweet",
+          "title": "Étienne Jacob's tweet",
           "url": "https://twitter.com/i/status/1096403588069425152",
           "description": "GIF loop where particles trace the outline of a heart."
         },
         {
           "icon": "📓",
-          "title": "\u00c9tienne Jacob's Blog Post",
+          "title": "Étienne Jacob's Blog Post",
           "url": "https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/",
           "description": "Tutorial 'Drawing from noise, and then making animated loopy GIFs from there.'"
         },
@@ -194,13 +194,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }

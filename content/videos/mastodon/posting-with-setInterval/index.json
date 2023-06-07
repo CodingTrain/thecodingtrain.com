@@ -4,8 +4,8 @@
   "videoNumber": "4.4",
   "videoId": "dHI3cUhNWRg",
   "date": "2018-10-10",
-  "languages": ["node.js"],
-  "topics": ["mastodon"],
+  "languages": ["Node.js"],
+  "topics": ["Mastodon"],
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Posting at set intervals" },
@@ -20,9 +20,7 @@
       "title": "Mastodon Bot Repo",
       "description": "Bot for mastodon created by Daniel Shiffman on Coding Train",
       "image": "",
-      "urls": {
-        "other": "https://github.com/CodingTrain/Mastodon-Bot"
-      }
+      "urls": { "other": "https://github.com/CodingTrain/Mastodon-Bot" }
     }
   ],
   "groupLinks": [
@@ -38,7 +36,7 @@
         {
           "icon": "🤖",
           "title": "Botsin.space server",
-          "url": "https://botsin.space/about/more",
+          "url": "https://botsin.space/about",
           "description": "Botsin.space server"
         },
         {
@@ -68,13 +66,7 @@
     }
   ],
   "credits": [
-    {
-      "title": "Editing",
-      "name": "Mathieu Blanchette"
-    },
-    {
-      "title": "Animations",
-      "name": "Jason Heglund"
-    }
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
   ]
 }
