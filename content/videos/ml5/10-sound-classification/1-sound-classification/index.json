@@ -1,0 +1,62 @@
+{
+  "title": "ml5.js:  Sound Classification",
+  "description": "This video examines the new ml5.soundClassifier() function in the ml5.js library.",
+  "videoNumber": "10.1",
+  "videoId": "cO4UP2dX944",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-classifying-drawings-with-doodlenet",
+  "date": "2019-06-21",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["sound classification", "machine learning (ML)"],
+  "canContribute": true,
+  "relatedChallenges": ["147-chrome-dinosaur-game", "151-ukulele-tuner-with-machine-learning"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:36", "title": "Speech Command Recognizer" },
+    { "time": "3:36", "title": "Visualizing sound with spectograms" },
+    { "time": "5:28", "title": "Using the ml5 library" },
+    { "time": "6:47", "title": "Load the SoundClassifier" },
+    { "time": "7:46", "title": "Use the SpeechCommands18w model" },
+    { "time": "8:15", "title": "Add a callback" },
+    { "time": "8:55", "title": "Write a gotResults function" },
+    { "time": "9:54", "title": "Browser permission to access the microphone" },
+    { "time": "11:15", "title": "Set the probability threshold to 0.95;" },
+    { "time": "12:41", "title": "Add a dom element" },
+    { "time": "13:49", "title": "Things you can try" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Sound Classifier sketch",
+      "description": "This sketch demonstrates how to use the ml5 sound classifier",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/yjtv-rAxF" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "",
+          "url": "https://learn.ml5js.org/#/reference/sound-classifier",
+          "description": "ml5 webpage with documentation about the SoundClassifier model."
+        },
+        {
+          "icon": "🔗",
+          "title": "Speech Command Recognizer",
+          "url": "https://github.com/tensorflow/tfjs-models/tree/master/speech-commands",
+          "description": "tfjs-models github page with information about the speech command recognizer model"
+        },
+        {
+          "icon": "🔗",
+          "title": "Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition",
+          "url": "https://arxiv.org/pdf/1804.03209.pdf",
+          "description": "Paper by Pete Warden about the Speech Commands dataset."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
