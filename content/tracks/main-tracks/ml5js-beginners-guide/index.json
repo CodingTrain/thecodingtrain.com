@@ -61,6 +61,10 @@
     {
       "title": "DoodleNet",
       "videos": ["ml5/9-doodleNet/1-doodleNet"]
-    }
+    },
+     {
+       "title": "Sound Classification",
+       "videos": ["ml5/10-sound-classification/1-sound-classification"]
+     }
   ]
 }
