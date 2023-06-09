@@ -3,7 +3,7 @@
   "description": "This video examines the new ml5.soundClassifier() function in the ml5.js library.",
   "videoNumber": "10.1",
   "videoId": "cO4UP2dX944",
-  "nebulaSlug": "the-coding-train-yt-ml5-js-classifying-drawings-with-doodlenet",
+  "nebulaSlug": "",
   "date": "2019-06-21",
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["sound classification", "machine learning (ML)"],
@@ -21,7 +21,7 @@
     { "time": "9:54", "title": "Browser permission to access the microphone" },
     { "time": "11:15", "title": "Set the probability threshold to 0.95;" },
     { "time": "12:41", "title": "Add a dom element" },
-    { "time": "13:49", "title": "Things you can try" }
+    { "time": "13:49", "title": "Suggestions for ways to use the sound classifier" }
   ],
   "codeExamples": [
     {
@@ -36,7 +36,7 @@
       "links": [
         {
           "icon": "🔗",
-          "title": "",
+          "title": "ml5 documentation on the Sound Classifer",
           "url": "https://learn.ml5js.org/#/reference/sound-classifier",
           "description": "ml5 webpage with documentation about the SoundClassifier model."
         },
