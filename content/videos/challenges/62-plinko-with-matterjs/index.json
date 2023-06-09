@@ -116,7 +116,7 @@
         {
           "icon": "🚂",
           "title": "Introduction to Matter.js",
-          "url": "https://www.youtube.com/watch?v=urR596FsU68",
+          "url": "/tracks/the-nature-of-code-2/noc/6-physics-libraries/1-matterjs-introduction",
           "description": "This video is an introduction to the physics engine Matter.js, a 2D JavaScript physics library that supports rigid body collisions and constraints."
         },
         {

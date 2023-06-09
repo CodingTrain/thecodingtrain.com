@@ -79,25 +79,25 @@
         {
           "icon": "🎥",
           "title": "Coding Challenge #98 - Quadtree",
-          "url": "https://www.youtube.com/watch?v=QQx_NmCIuCY",
+          "url": "/challenges/98-quadtree",
           "description": "In part 2 of the Quadtree coding challenge, I query the data structure for points contained within a rectangular boundary."
         },
         {
           "icon": "🎥",
           "title": "Coding Challenge #24: Perlin Noise Flow Field",
-          "url": "https://www.youtube.com/watch?v=BjoM9oKOAKY",
+          "url": "/challenges/24-perlin-noise-flow-field",
           "description": "I use Perlin noise to create a two-dimensional flow field with the p5.js library."
         },
         {
           "icon": "🎥",
           "title": "Coding Challenge #114 - Bubble Sort Visualization",
-          "url": "https://www.youtube.com/watch?v=67k3I2GxTH8",
+          "url": "/challenges/114-bubble-sort-visualization",
           "description": "I visualize a \"bubble sort\" algorithm in Processing (Java)."
         },
         {
           "icon": "🎥",
           "title": "Coding Challenge #143 - Quicksort Visualization",
-          "url": "https://www.youtube.com/watch?v=eqo2LxRADhU",
+          "url": "/challenges/143-quicksort",
           "description": "I implement a Quicksort algorithm in JavaScript visualize the sorting with p5.js."
         }
       ]

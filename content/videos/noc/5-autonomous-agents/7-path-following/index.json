@@ -49,7 +49,7 @@
       "links": [
         {
           "title": "Scalar Projection",
-          "url": "https://youtu.be/DHPfoqiE4yQ",
+          "url": "/tracks/the-nature-of-code-2/noc/5-autonomous-agents/6-scalar-projection",
           "description": "Previous Nature of Code video on using the dot product and scalar projection in p5.js"
         }
       ]

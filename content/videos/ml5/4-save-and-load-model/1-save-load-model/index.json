@@ -41,7 +41,7 @@
         {
           "icon": "🚂",
           "title": "Beginners Guide to Machine Learning in JavaScript",
-          "url": "https://www.youtube.com/watch?v=26uABexmOX4&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",
+          "url": "/tracks/ml5js-beginners-guide",
           "description": "This playlist provides an introduction to developing creative coding projects with machine learning. The theory and application of machine learning algorithms is demonstrated in JavaScript using the p5.js and ml5.js libraries. "
         },
         {

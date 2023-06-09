@@ -60,12 +60,12 @@
       "links": [
         {
           "title": "Gravitational Attraction",
-          "url": "https://youtu.be/EpgB3cNhKPM",
+          "url": "/tracks/the-nature-of-code-2/noc/2-forces/5-gravitational-attraction",
           "description": "Nature of Code video on using vectors and forces to simulate gravitational attraction"
         },
         {
           "title": "Angles and Vectors",
-          "url": "https://youtu.be/oXwCVDXS2Lg",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/3-angles-and-vectors",
           "description": "Nature of Code video on calculating direction vectors in p5.js"
         }
       ]

@@ -56,19 +56,19 @@
         {
           "icon": "🚂",
           "title": "ml5.js: What is a Convolutional Neural Network Part 2 - Max Pooling",
-          "url": "https://www.youtube.com/watch?v=pRWq_mtuppU",
+          "url": "/tracks/ml5js-beginners-guide/ml5/8-convolutional-neural-network/3-max-pooling",
           "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \"max pooling.\""
         },
         {
           "icon": "🚂",
           "title": "ml5.js: Train a Neural Network with Pixels",
-          "url": "https://www.youtube.com/watch?v=UaKab6h9Z0I",
+          "url": "/tracks/ml5js-beginners-guide/ml5/8-convolutional-neural-network/1-pixels-as-input",
           "description": "This tutorial builds on ml5.neuralNetwork() videos examining raw pixels as inputs to a neural network. This sets the stage for a discussion on convolutional neural networks."
         },
         {
           "icon": "🚂",
           "title": "Teachable Machine 1: Image Classification",
-          "url": "https://www.youtube.com/watch?v=kwcillcWOg0",
+          "url": "/tracks/teachable-machine/teachable-machine/1-image-classification",
           "description": "In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library."
         }
       ]

@@ -57,13 +57,13 @@
         {
           "icon": "🚂",
           "title": "Workflow - Node",
-          "url": "https://youtu.be/FjWbUK2HdCo",
+          "url": "/tracks/2018-workflow/workflow/5-node",
           "description": "In this video, I discuss how I use node.js and global packages (to generate p5 sketches, run a web server) as part of my workflow."
         },
         {
           "icon": "🚂",
           "title": "Workflow - Shell",
-          "url": "https://youtu.be/FnkkzgYuXUM",
+          "url": "/tracks/2018-workflow/workflow/3-shell",
           "description": "What is a \"shell\"? In this video, I look at at \"zsh\" (instead of the default Mac OSX shell: bash)."
         },
         {

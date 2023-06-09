@@ -138,7 +138,7 @@
         {
           "icon": "🎥",
           "title": "Earthquake Data Visualization",
-          "url": "https://youtu.be/ZiYdOwOrGyc",
+          "url": "/challenges/57-mapping-earthquake-data",
           "description": "In this Coding Challenge, I visualize earthquake data from the USGS by mapping the latitude, longitude and the magnitude of earthquakes with p5.js."
         }
       ]

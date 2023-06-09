@@ -46,12 +46,12 @@
       "links": [
         {
           "title": "Purple Rain",
-          "url": "https://www.youtube.com/watch?v=KkyIDI6rQJI",
+          "url": "/challenges/4-purple-rain",
           "description": "Coding Challenge to animate purple rain in Processing"
         },
         {
           "title": "Snowfall",
-          "url": "https://www.youtube.com/watch?v=cl-mHFCGzYk",
+          "url": "/challenges/88-snowfall",
           "description": "Holiday themed Coding Challenge to animate snow with Perlin noise wind in p5.js"
         }
       ]

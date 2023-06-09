@@ -85,13 +85,13 @@
         {
           "icon": "🚂",
           "title": "ES6 Arrow Function",
-          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
           "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
         },
         {
           "icon": "🚂",
           "title": "JavaScript Promises",
-          "url": "https://www.youtube.com/watch?v=QO4NXhWo_NM&list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-1",
           "description": "What is a JavaScript Promise?"
         }
       ]

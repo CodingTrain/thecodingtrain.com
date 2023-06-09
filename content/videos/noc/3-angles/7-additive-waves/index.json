@@ -32,7 +32,7 @@
       "links": [
         {
           "title": "Simple Pendulum Simulation",
-          "url": "https://youtu.be/NBWMtlbbOag",
+          "url": "/challenges/159-simple-pendulum",
           "description": "Coding Train challenge on simulating a pendulum in p5js"
         }
       ]

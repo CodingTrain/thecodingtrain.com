@@ -72,7 +72,7 @@
         {
           "icon": "🚂",
           "title": "Coding Challenge #122: Quick, Draw!",
-          "url": "https://youtu.be/yLuk0twx8Hc",
+          "url": "/challenges/122-quick-draw",
           "description": "In this coding challenge, I take a closer look at the Quick, Draw! dataset and create a simple node API to \"replay\" drawings of rainbows and cats using p5.js. "
         },
         {

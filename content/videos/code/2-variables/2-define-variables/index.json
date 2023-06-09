@@ -50,7 +50,7 @@
         {
           "icon": "🚂",
           "title": "let vs var",
-          "url": "https://youtu.be/q8SHaDQdul0",
+          "url": "/tracks/topics-in-native-javascript/js/let-vs-var",
           "description": "Tutorial on different ways to declare a variable."
         }
       ]
