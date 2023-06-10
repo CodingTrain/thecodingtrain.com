@@ -13,7 +13,8 @@
       "videos": [
         "ml5/1-classification/1-image-classification",
         "ml5/1-classification/2-webcam-classification",
-        "ml5/1-classification/3-object-detection"
+        "ml5/1-classification/3-object-detection",
+        "ml5/9-doodleNet/1-doodleNet"
       ]
     },
     {
@@ -57,10 +58,6 @@
         "ml5/8-convolutional-neural-network/3-max-pooling",
         "ml5/8-convolutional-neural-network/4-image-classification"
       ]
-    },
-    {
-      "title": "DoodleNet",
-      "videos": ["ml5/9-doodleNet/1-doodleNet"]
     },
     {
       "title": "Sound Classification",
