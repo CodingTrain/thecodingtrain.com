@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Pose Regression with PoseNet and ml5.neuralNetwork()",
+  "title": "Pose Regression with PoseNet and ml5.neuralNetwork()",
   "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \"pose\" itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification.",
   "videoNumber": "7.3",
   "videoId": "lob74HqHYJ0",
@@ -63,7 +63,7 @@
         },
         {
           "icon": "🚂",
-          "title": "ml5.js: Train Your Own Neural Network",
+          "title": "Train Your Own Neural Network",
           "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/1-train-the-model",
           "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js"
         },

@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Save Neural Network Training Data",
+  "title": "Save Neural Network Training Data",
   "description": "This video takes the sketch from the previous video on training your own ml5.js neural network, and shows how to save the data collected in a JSON file which can be loaded again later.",
   "videoNumber": "6.2",
   "videoId": "q6cwxORPDo8",

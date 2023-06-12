@@ -72,7 +72,7 @@
         },
         {
           "icon": "🚂",
-          "title": "ml5.js: Train Your Own Neural Network",
+          "title": "Train Your Own Neural Network",
           "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/1-train-the-model",
           "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js"
         },

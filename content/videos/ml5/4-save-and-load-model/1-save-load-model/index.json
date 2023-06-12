@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Save/Load Model",
+  "title": "Save/Load Model",
   "description": "In this video, I discuss how to save and load an image classification model (trained using the \"feature extractor\") in ml5.js.",
   "videoNumber": "4.1",
   "videoId": "eU7gIy3xV30",
@@ -45,7 +45,7 @@
           "description": "This playlist provides an introduction to developing creative coding projects with machine learning. The theory and application of machine learning algorithms is demonstrated in JavaScript using the p5.js and ml5.js libraries. "
         },
         {
-          "icon": "",
+          "icon": "🎥",
           "title": "3Blue1Brown on Neural Networks",
           "url": "https://www.youtube.com/watch?v=aircAruvnKk",
           "description": "What are the neurons, why are there layers, and what is the math underlying it?"
