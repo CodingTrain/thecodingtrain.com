@@ -34,7 +34,7 @@ You might have noticed that the number of live streams and new videos have slowe
 You can support the Coding Train through any of the following platforms. Each may offer extra platform-specific perks (like emoji badges on YouTube), but everyone will get the rewards listed above!
 
 - [YouTube Ticket Office](https://youtube.com/thecodingtrain/join)
-- [GitHub Ticket Booth](https://github.com/sponsors/CodingTrain)
+- [GitHub Ticket Booth](https://github.com/sponsors/codingtrain)
 - [Patreon Ticket Counter](https://www.patreon.com/codingtrain)
 - [Twitch Ticket Stand](https://www.twitch.tv/subs/CodingTrainChooChoo) (_currently out of service, but might reopen!_)
 
