@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Pose Estimation with PoseNet",
+  "title": "Pose Estimation with PoseNet",
   "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using the pre-trained machine learning model PoseNet (in JavaScript with p5.js and ml5.js).",
   "videoNumber": "7.1",
   "videoId": "OIo-DIOkNVg",

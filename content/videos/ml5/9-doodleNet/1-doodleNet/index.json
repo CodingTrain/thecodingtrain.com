@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Classifying Drawings with DoodleNet",
+  "title": "Classifying Drawings with DoodleNet",
   "description": "Quick, draw! In this video, I demonstrate how to use the DoodleNet pre-trained machine learning model to classify drawings of cats, strawberries, and other common doodles in JavaScript (with p5.js and ml5.js).",
   "videoNumber": "9.1",
   "videoId": "ABN_DWnM5GQ",

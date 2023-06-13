@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Training a Convolutional Neural Network for Image Classification",
+  "title": "Training a Convolutional Neural Network for Image Classification",
   "description": "In this video, I update the previous classification example (with pixels) and incorporate a convolutional neural network in ml5.js!",
   "videoNumber": "8.4",
   "videoId": "hWurN0XhzLY",
@@ -55,13 +55,13 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "ml5.js: What is a Convolutional Neural Network Part 2 - Max Pooling",
+          "title": "What is a Convolutional Neural Network Part 2 - Max Pooling",
           "url": "/tracks/ml5js-beginners-guide/ml5/8-convolutional-neural-network/3-max-pooling",
           "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \"max pooling.\""
         },
         {
           "icon": "🚂",
-          "title": "ml5.js: Train a Neural Network with Pixels",
+          "title": "Train a Neural Network with Pixels",
           "url": "/tracks/ml5js-beginners-guide/ml5/8-convolutional-neural-network/1-pixels-as-input",
           "description": "This tutorial builds on ml5.neuralNetwork() videos examining raw pixels as inputs to a neural network. This sets the stage for a discussion on convolutional neural networks."
         },

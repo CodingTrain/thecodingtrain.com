@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Feature Extractor Regression",
+  "title": "Feature Extractor Regression",
   "description": "In this video, I use ml5's feature extractor and re-train the MobileNet model to output a \"regression\" controlling a slider.",
   "videoNumber": "3.2",
   "videoId": "aKgq0m1YjvQ",
