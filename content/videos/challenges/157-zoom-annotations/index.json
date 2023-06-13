@@ -37,7 +37,7 @@
           "icon": "🤚",
           "title": "Comic-Book Style Video Lens",
           "url": "https://twitter.com/cameronhunter/status/1305667539922550784",
-          "description": " A video lens that uses hand gestures to show comic-book style messages."
+          "description": "A video lens that uses hand gestures to show comic-book style messages."
         },
         {
           "icon": "🎥",
@@ -83,8 +83,8 @@
         {
           "icon": "🎥",
           "title": "Teachable Machine 1: Image Classification",
-          "url": "https://www.youtube.com/watch?v=kwcillcWOg0",
-          "description": " This video demonstrates the implementation of an image classifier and imports the machine learning model into a p5.js sketch with the ml5.js library. "
+          "url": "/tracks/teachable-machine/teachable-machine/1-image-classification",
+          "description": "This video demonstrates the implementation of an image classifier and imports the machine learning model into a p5.js sketch with the ml5.js library. "
         }
       ]
     }

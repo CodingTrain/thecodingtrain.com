@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "YcdldZ1E9gU",
+  "canonicalTrack": "the-nature-of-code-2",
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:50", "title": "Random function" },
