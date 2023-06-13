@@ -30,12 +30,12 @@
       "links": [
         {
           "title": "Inheritance in JavaScript",
-          "url": "https://youtu.be/MfxBfRD0FVU",
+          "url": "/tracks/topics-in-native-javascript/js/inheritance",
           "description": "Coding Train video on inheritance in Object-Oriented Programming and JavaScript ES6"
         },
         {
           "title": "Polymorphism in JavaScript",
-          "url": "https://youtu.be/8a5BkwuZRK0",
+          "url": "/tracks/topics-in-native-javascript/js/polymorphism",
           "description": "Coding Train video on polymorphism in Object-Oriented Programming and JavaScript ES6"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Neural Network Regression",
+  "title": "Neural Network Regression",
   "description": "In this video I cover how to train a neural network to perform a \"regression\" task (rather than classification). The result is a continuous numerical output (frequency value) instead of a categorical one (specific note).",
   "videoNumber": "6.4",
   "videoId": "fFzvwdkzr_c",

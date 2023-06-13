@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: What is a Convolutional Neural Network Part 2 - Max Pooling",
+  "title": "What is a Convolutional Neural Network Part 2 - Max Pooling",
   "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \"max pooling.\"",
   "videoNumber": "8.3",
   "videoId": "pRWq_mtuppU",
@@ -59,8 +59,8 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "ml5.js: What is a Convolutional Neural Network Part 1",
-          "url": "https://www.youtube.com/watch?v=qPKsVAI_W6M",
+          "title": "What is a Convolutional Neural Network Part 1",
+          "url": "/tracks/ml5js-beginners-guide/ml5/8-convolutional-neural-network/2-architecture-of-cnn",
           "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \"filters\"."
         }
       ]

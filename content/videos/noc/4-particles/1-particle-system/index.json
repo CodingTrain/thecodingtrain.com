@@ -41,32 +41,32 @@
       "links": [
         {
           "title": "Simple Particle System",
-          "url": "https://youtu.be/UcdigVaIYAk",
+          "url": "/challenges/78-simple-particle-system",
           "description": "Coding Challenge to make a smoke effect particle system"
         },
         {
           "title": "Simulating Forces",
-          "url": "https://youtu.be/Uibl0UE4VH8",
+          "url": "/tracks/the-nature-of-code-2/noc/2-forces/1-gravity-and-wind",
           "description": "Nature of Code video on applying gravity and wind to a mover object"
         },
         {
           "title": "Arrays of Objects",
-          "url": "https://youtu.be/fBqaA7zRO58",
+          "url": "/tracks/code-programming-with-p5-js/code/7-arrays/3-arrays-objects",
           "description": "Code! Programming with p5.js video on using ES6 classes and for loops to make an array of objects"
         },
         {
           "title": "Fireworks!",
-          "url": "https://youtu.be/CKeyIbT3vXI",
+          "url": "/challenges/27-fireworks",
           "description": "July 4th themed Coding Challenge to build a fireworks simulation in p5.js and Processing"
         },
         {
           "title": "Array Functions: filter()",
-          "url": "https://youtu.be/qmnH5MT_luk",
+          "url": "/tracks/topics-in-native-javascript/js/array-filter",
           "description": "Coding Train video on the filter() function in JavaScript"
         },
         {
           "title": "Removing Objects from Arrays",
-          "url": "https://youtu.be/tA_ZgruFF9k",
+          "url": "/tracks/code-programming-with-p5-js/code/7-arrays/5-removing-elements",
           "description": "Code! Programming with p5.js video on removing objects from arrays"
         }
       ]

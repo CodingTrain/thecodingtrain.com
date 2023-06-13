@@ -83,7 +83,7 @@
         {
           "icon": "🎥",
           "title": "async/await",
-          "url": "https://youtu.be/XO77Fib9tSI",
+          "url": "/tracks/topics-in-native-javascript/js/async-await-part-1",
           "description": "Tutorial on ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
         },
         {

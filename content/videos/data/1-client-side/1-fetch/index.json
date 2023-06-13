@@ -54,13 +54,13 @@
         {
           "icon": "🎥",
           "title": "Promises",
-          "url": "https://youtu.be/QO4NXhWo_NM",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-1",
           "description": "Tutorial on Promises in JavaScript"
         },
         {
           "icon": "🎥",
           "title": "Async/Await",
-          "url": "https://youtu.be/XO77Fib9tSI",
+          "url": "/tracks/topics-in-native-javascript/js/async-await-part-1",
           "description": "Tutorial on Async/Await keywords in JavaScript"
         }
       ]

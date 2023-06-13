@@ -31,27 +31,27 @@
       "links": [
         {
           "title": "Introduction",
-          "url": "https://www.youtube.com/watch?v=BCQHnlnPusY",
+          "url": "/tracks/git-and-github-for-poets/git/1-fundamentals/1-intro",
           "description": "Introduction to the Git & GitHub for Poets playlist"
         },
         {
           "title": "Branches",
-          "url": "https://www.youtube.com/watch?v=oPpnCh7InLY",
+          "url": "/tracks/git-and-github-for-poets/git/1-fundamentals/2-branches",
           "description": "Git & GitHub for Poets video on branches"
         },
         {
           "title": "Forks & Pull Requests",
-          "url": "https://www.youtube.com/watch?v=_NrSWLQsDL4",
+          "url": "/tracks/git-and-github-for-poets/git/1-fundamentals/3-forks-pr",
           "description": "Git & GitHub for Poets video on using forks and pull requests"
         },
         {
           "title": "Cloning Repo & Push/Pull",
-          "url": "https://www.youtube.com/watch?v=yXT1ElMEkW8",
+          "url": "/tracks/git-and-github-for-poets/git/1-fundamentals/6-cloning-repo",
           "description": "Git & GitHub for Poets video on cloning and pushing/pulling from repos"
         },
         {
           "title": "Workflow - Visual Studio Code",
-          "url": "https://www.youtube.com/watch?v=yJw0SyKO9IU",
+          "url": "/tracks/2018-workflow/workflow/2-visual-studio-code",
           "description": "Coding Train Video on working in Visual Studio Code"
         }
       ]

@@ -39,7 +39,7 @@
         {
           "icon": "🚂",
           "title": "Simple Particle System Coding Challenge",
-          "url": "https://www.youtube.com/watch?v=UcdigVaIYAk",
+          "url": "/challenges/78-simple-particle-system",
           "description": "In this coding challenge, I explore the concept of a simple particle system and attempt to create a smoke effect with the p5.js library."
         }
       ]

@@ -61,12 +61,12 @@
       "links": [
         {
           "title": "3D Rendering with Rotation and Projection",
-          "url": "https://youtu.be/p4Iz0XJY-Qk",
+          "url": "/challenges/112-3d-rendering-with-rotation-and-projection",
           "description": "Coding Challenge to render a 3D cube in 2D using rotation and projection matrices in Processing"
         },
         {
           "title": "Unit Vector (Normalize)",
-          "url": "https://youtu.be/ttz05d8DSOs",
+          "url": "/tracks/the-nature-of-code-2/noc/1-vectors/5-unit-vector",
           "description": "Nature of Code video on the unit vector concept and how to normalize vectors in p5.js"
         },
         {

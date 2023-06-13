@@ -56,12 +56,12 @@
       "links": [
         {
           "title": "Acceleration Vector",
-          "url": "https://youtu.be/T84AWnntxZA",
+          "url": "/tracks/the-nature-of-code-2/noc/1-vectors/6-acceleration-vector",
           "description": "Coding Train video on adding an acceleration vector to a Mover object"
         },
         {
           "title": "Attraction and Repulsion Forces",
-          "url": "https://youtu.be/OAcXnzRNiCY",
+          "url": "/challenges/56-attraction-and-repulsion-forces",
           "description": "Coding challenge on attraction and repulsion forces"
         }
       ]

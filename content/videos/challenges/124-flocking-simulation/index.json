@@ -66,13 +66,13 @@
         {
           "icon": "➡️",
           "title": "Vectors - The Nature of Code",
-          "url": "https://youtu.be/bKEaK7WNLzM",
+          "url": "/tracks/the-nature-of-code-2/noc/1-vectors/1-what-is-a-vector",
           "description": "The first video from the Vector series in The Nature of Code (2020) playlist"
         },
         {
           "icon": "🪂",
           "title": "Autonomous Steering Agents",
-          "url": "https://youtu.be/P_xJMH8VvAE",
+          "url": "/tracks/the-nature-of-code-2/noc/5-autonomous-agents/1-steering-agents",
           "description": "The introductory video of the series exploring the chapter on autonomous agents in Nature of Code"
         },
         {
