@@ -38,7 +38,7 @@ You can support the Coding Train through any of the following platforms. Each ma
 - [Patreon Ticket Counter](https://www.patreon.com/codingtrain)
 - [Twitch Ticket Stand](https://www.twitch.tv/subs/CodingTrainChooChoo) (_currently out of service, but might reopen!_)
 
-Your sticker pack and mystery gift will be dispatched once a year, all together. Keep an eye on the members-only Discord channels for announcements and instructions on where to send your goodies. Climb aboard to receive the first mailing this summer 2023!
+Your sticker pack and mystery gift will be dispatched once a year, all together. Keep an eye on the members-only Discord channels for announcements and instructions on how to receive your goodies. Climb aboard to receive the first mailing this summer 2023!
 
 ## What does this mean for existing members?
 
