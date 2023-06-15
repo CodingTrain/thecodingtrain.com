@@ -6,13 +6,19 @@
   "date": "2017-12-27",
   "languages": ["WebGL", "camera", "perspective"],
   "topics": ["webgl"],
-  "canContribute": false,
+  "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:02", "title": "Camera properties" },
     { "time": "02:54", "title": "Camera is an artifician concept to create illusion of movement" },
     { "time": "03:38", "title": "Add the camera to the sketch" },
-    { "time": "09:40", "title": "" }
+    { "time": "04:00", "title": "The default position of the camera" },
+    { "time": "06:17", "title": "The \"look at\" location" },
+    { "time": "07:04", "title": "Make a shaky camera" },
+    { "time": "08:05", "title": "Perspective--field of view, clipping plane, and aspect ratio" },
+    { "time": "12:59", "title": "Orthographic projection" },
+    { "time": "18:32", "title": "The clipping plane is relative to the camera" },
+    { "time": "19:16", "title": "Outro" }
   ],
   "groupLinks": [
     {
