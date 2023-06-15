@@ -1,0 +1,58 @@
+{
+  "title": "Camera and Perspective",
+  "description": "In this video about p5.js and WebGL I discuss how the camera(), perspective(), and ortho() functions work in 3D.",
+  "videoNumber": "",
+  "videoId": "BW3D9WwalQE",
+  "date": "2017-12-27",
+  "languages": ["WebGL", "camera", "perspective"],
+  "topics": ["webgl"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:02", "title": "Camera properties" },
+    { "time": "02:54", "title": "Camera is an artifician concept to create illusion of movement" },
+    { "time": "03:38", "title": "Add the camera to the sketch" },
+    { "time": "09:40", "title": "" }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "three.js",
+          "description": "Documentation for three.js",
+          "url": "https://threejs.org"
+        },
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Documentation for all p5.js functions",
+          "url": "https://p5js.org/reference/"
+        },
+        {
+          "icon": "🔗",
+          "title": "The Book of Shaders",
+          "description": "This is a gentle step-by-step guide through the abstract and complex universe of Fragment Shaders",
+          "url": "https://thebookofshaders.com"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
