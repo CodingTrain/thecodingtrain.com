@@ -7,6 +7,7 @@
   "languages": ["WebGL", "p5.js"],
   "topics": ["webgl", "3D geometries"],
   "canContribute": true,
+  "relatedChallenges": ["25-spherical-geometry", "26-3d-supershapes"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:25", "title": "Wireframes" },

@@ -6,7 +6,8 @@
   "date": "2017-12-26",
   "languages": ["WebGL", "p5.js"],
   "topics": ["webgl", "texture"],
-  "canContribute": false,
+  "canContribute": true,
+  "relatedChallenges": ["50-animated-circle-packing", "164-slitscan"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:25", "title": "Texturing with an image" },

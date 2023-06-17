@@ -7,6 +7,7 @@
   "languages": ["WebGL", "camera", "perspective"],
   "topics": ["webgl"],
   "canContribute": true,
+  "relatedChallenges": ["86-cube-wave-by-bees-and-bombs", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:02", "title": "Camera properties" },
