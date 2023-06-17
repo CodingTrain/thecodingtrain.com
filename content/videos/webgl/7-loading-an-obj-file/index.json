@@ -1,18 +1,19 @@
 {
-  "title": "",
-  "description": "",
+  "title": "Loading OBJ Model",
+  "description": "In this video I demonstrate how to load an OBJ model in a p5.js sketch using the WebGL renderer.",
   "videoNumber": "",
-  "videoId": "",
-  "date": "2017-12-30",
+  "videoId": "FUI7HEEz9B0",
+  "date": "2018-1-2",
   "languages": ["WebGL", "p5.js"],
   "topics": ["webgl", "obj file"],
   "canContribute": true,
   "timestamps": [
-    { "time": "00:00", "title": "Introduction" },
-    { "time": "00:47", "title": "" },
-    { "time": "03:35", "title": "" },
-    { "time": "05:37", "title": "" },
-    { "time": "09:40", "title": "" }
+    { "time": "00:00", "title": "Hello" },
+    { "time": "01:35", "title": "LoadModel()" },
+    { "time": "02:50", "title": "Load the train obj file" },
+    { "time": "04:10", "title": "It is important to understand the model's internal coordinate system." },
+    { "time": "05:36", "title": "Add a normal material" },
+    { "time": "06:30", "title": "Outro" }
   ],
   "groupLinks": [
     {
