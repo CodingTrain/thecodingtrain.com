@@ -24,7 +24,7 @@
   "codeExamples": [
     {
       "title": "Adding an image as texture",
-      "description": "The sketch demonstrates how to add texture to to an image with an image.",
+      "description": "The sketch demonstrates how to add texture to an image with an image.",
       "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/OCrcEHyuLw"
