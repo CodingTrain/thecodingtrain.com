@@ -7,7 +7,7 @@
   "languages": ["WebGL", "p5.js"],
   "topics": ["webgl", "custom geometries"],
   "canContribute": true,
-  "relatedChallenges": ["63-texturing-cloth-simulation"],
+  "relatedChallenges": ["63-texturing-cloth-simulation", "25-spherical-geometry", "26-3d-supershapes"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "00:48", "title": "Use beginShape(), endShape(), and vertex() to create custom shape" },
@@ -22,9 +22,9 @@
     {
       "title": "Custom shape",
       "description": "The sketch demonstrates how to add a custom shape.",
-      "image": "img1.jpg",
+      "image": "img1.png",
       "urls": {
-        "p5": ""
+        "p5": "https://editor.p5js.org/codingtrain/sketches/jcL7sTdgp"
       }
     }
   ],

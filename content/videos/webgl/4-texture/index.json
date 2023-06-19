@@ -15,9 +15,9 @@
     { "time": "02:29", "title": "Preload a kitten image" },
     { "time": "03:04", "title": "Texture with the image" },
     { "time": "03:53", "title": "Try other shapes" },
-    { "time": "05:07", "title": "Use createCapture to a video source" },
-    { "time": "07:37", "title": "Add a plane at bottom" },
-    { "time": "08:03", "title": "Translate and rotate plane" },
+    { "time": "05:07", "title": "Use createCapture to add a video source" },
+    { "time": "07:37", "title": "Add a plane at the bottom of the canvas" },
+    { "time": "08:03", "title": "Translate and rotate the plane" },
     { "time": "09:24", "title": "Add a direction light" },
     { "time": "10:05", "title": "Outro" }
   ],
@@ -25,15 +25,15 @@
     {
       "title": "Adding an image as texture",
       "description": "The sketch demonstrates how to texture a shape with an image",
-      "image": "img1.jpg",
+      "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/OCrcEHyuLw"
       }
     },
     {
       "title": "Using video to add texture",
-      "description": "The sketch demonstrates how to texture a shape with the video",
-      "image": "img1.jpg",
+      "description": "The sketch demonstrates how to texture a shape with a video feed.",
+      "image": "img2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/xTpnARe5_"
       }

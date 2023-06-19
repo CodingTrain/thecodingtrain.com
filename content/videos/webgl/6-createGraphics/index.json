@@ -1,6 +1,6 @@
 {
   "title": "createGraphics() as WebGL Texture",
-  "description": "In this video about p5.js and WebGL, I discuss how a graphics context created with via createGraphics() can be applied as a texture to 3D geometry. This is especially useful for rendering text in 3D.",
+  "description": "In this video about p5.js and WebGL, I discuss how a graphics context created with createGraphics() can be applied as a texture to 3D geometry. This is especially useful for rendering text in 3D.",
   "videoNumber": "",
   "videoId": "3tTZlTq4Cxs",
   "date": "2017-12-30",
@@ -12,7 +12,7 @@
     { "time": "00:00", "title": "Introduction" },
     { "time": "02:05", "title": "Add a graphics object" },
     { "time": "02:37", "title": "Graphics context is transparent" },
-    { "time": "03:20", "title": "Draw on graphics objects" },
+    { "time": "03:20", "title": "Draw on graphics object" },
     { "time": "03:58", "title": "Rendering text in 3D" },
     { "time": "08:37", "title": "Graphics object does not need to be square" },
     { "time": "10:00", "title": "Outro" }
@@ -21,7 +21,7 @@
     {
       "title": "Using a graphics object to add texture",
       "description": "The sketch demonstrates how to add text to a shape in WEBGL.",
-      "image": "img1.jpg",
+      "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Dm6AF-mOE"
       }
@@ -29,7 +29,7 @@
     {
       "title": "Using text as texture",
       "description": "The sketch demonstrates how to add text to a shape in WEBGL.",
-      "image": "img1.jpg",
+      "image": "img2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/niiwRMKlo"
       }

@@ -11,23 +11,41 @@
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
     { "time": "01:02", "title": "Camera properties" },
-    { "time": "02:54", "title": "Camera is an artifician concept to create illusion of movement" },
+    { "time": "02:54", "title": "Camera is an artificial concept to create illusion of movement" },
     { "time": "03:38", "title": "Add the camera to the sketch" },
     { "time": "04:00", "title": "The default position of the camera" },
     { "time": "06:17", "title": "The \"look at\" location" },
     { "time": "07:04", "title": "Make a shaky camera" },
     { "time": "08:05", "title": "Perspective--field of view, clipping plane, and aspect ratio" },
+    { "time": "11:02", "title": "Experiment with field of view" },
     { "time": "12:59", "title": "Orthographic projection" },
+    { "time": "14:26", "title": "Demonstrate with more boxes" },
     { "time": "18:32", "title": "The clipping plane is relative to the camera" },
     { "time": "19:16", "title": "Outro" }
   ],
   "codeExamples": [
     {
-      "title": "Loading a model",
-      "description": "The sketch demonstrates how to add a custom shape.",
-      "image": "img1.jpg",
+      "title": "Camera",
+      "description": "This sketch demonstates how the camera interacts with the scene.",
+      "image": "img1.png",
       "urls": {
-        "p5": ""
+        "p5": "https://editor.p5js.org/codingtrain/sketches/qXjZDCEsz"
+      }
+    },
+    {
+      "title": "Perspective",
+      "description": "This sketch illustrates perspective.",
+      "image": "img2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ehXQR2obf"
+      }
+    },
+    {
+      "title": "Orthographic Projection",
+      "description": "This sketch demonstates orthographic projection.",
+      "image": "img3.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/rzXV1dYan"
       }
     }
   ],
