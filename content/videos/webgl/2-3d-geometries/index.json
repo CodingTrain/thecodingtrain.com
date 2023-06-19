@@ -16,8 +16,18 @@
     { "time": "05:35", "title": "3D Primatives" },
     { "time": "07:20", "title": "Use translate to move 3D primatives" },
     { "time": "9:00", "title": "Use mouseX to translate change z-axis" },
-    { "time": "10:51", "title": "Texames on the p5.js website" },
+    { "time": "10:51", "title": "3D Primatives on the p5.js website" },
     { "time": "11:15", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Loading a model",
+      "description": "The sketch demonstrates how to add a custom shape.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_mw9Hiwk6"
+      }
+    }
   ],
   "groupLinks": [
     {

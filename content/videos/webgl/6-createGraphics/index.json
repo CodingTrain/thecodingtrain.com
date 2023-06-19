@@ -7,12 +7,33 @@
   "languages": ["WebGL", "p5.js"],
   "topics": ["webgl", "createGraphics"],
   "canContribute": true,
+  "relatedChallenges": ["14-fractal-trees-recursive"],
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
-    { "time": "00:47", "title": "" },
-    { "time": "03:35", "title": "" },
-    { "time": "05:37", "title": "" },
-    { "time": "09:40", "title": "" }
+    { "time": "02:05", "title": "Add a graphics object" },
+    { "time": "02:37", "title": "Graphics context is transparent" },
+    { "time": "03:20", "title": "Draw on graphics objects" },
+    { "time": "03:58", "title": "Rendering text in 3D" },
+    { "time": "08:37", "title": "Graphics object does not need to be square" },
+    { "time": "10:00", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Using a graphics object to add texture",
+      "description": "The sketch demonstrates how to add text to a shape in WEBGL.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Dm6AF-mOE"
+      }
+    },
+    {
+      "title": "Using text as texture",
+      "description": "The sketch demonstrates how to add text to a shape in WEBGL.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/niiwRMKlo"
+      }
+    }
   ],
   "groupLinks": [
     {
@@ -29,6 +50,17 @@
           "title": "p5.js Reference",
           "description": "Documentation for all p5.js functions",
           "url": "https://p5js.org/reference/"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "CreateGraphics()",
+          "description": "Tutorial on CreateGRaphics",
+          "url": "tracks/code-programming-with-p5-js/code/2-variables/6-createGraphics"
         }
       ]
     }

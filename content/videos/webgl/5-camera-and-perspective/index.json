@@ -21,6 +21,16 @@
     { "time": "18:32", "title": "The clipping plane is relative to the camera" },
     { "time": "19:16", "title": "Outro" }
   ],
+  "codeExamples": [
+    {
+      "title": "Loading a model",
+      "description": "The sketch demonstrates how to add a custom shape.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": ""
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "Reference",

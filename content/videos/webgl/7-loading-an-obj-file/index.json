@@ -15,6 +15,16 @@
     { "time": "05:36", "title": "Add a normal material" },
     { "time": "06:30", "title": "Outro" }
   ],
+  "codeExamples": [
+    {
+      "title": "Loading a obj model",
+      "description": "The sketch demonstrates how to load a obj model.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/H6d2vuxXm"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "Reference",

@@ -18,6 +18,16 @@
     { "time": "12:55", "title": "Illustration using the mouse" },
     { "time": "15:00", "title": "Basic material is fill" }
   ],
+  "codeExamples": [
+    {
+      "title": "Light and Material",
+      "description": "The sketch demonstrates how to add a custom shape.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cPrSUDhYS"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "Reference",
