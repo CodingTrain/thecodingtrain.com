@@ -1,6 +1,6 @@
 {
   "title": "Light and Material",
-  "description": "In this video, I investigate lights and materials in the p5.js WebGL 3D renderer. Functions covered are: ambientMaterial(), normalMaterial(), fill(), ambientLight(), directionalLight(), pointLight().  Use can also now use lights(), which places an ambient and directional light in the scene",
+  "description": "In this video, I investigate lights and materials in the p5.js WebGL 3D renderer. Functions covered are: ambientMaterial(), normalMaterial(), fill(), ambientLight(), directionalLight(), and pointLight().  Use can also now use lights(), which places an ambient and directional light in the scene",
   "videoNumber": "",
   "videoId": "k2FguXvqp60",
   "date": "2017-12-22",

@@ -20,7 +20,7 @@
   "codeExamples": [
     {
       "title": "Using a graphics object to add texture",
-      "description": "The sketch demonstrates how to add text to a shape in WEBGL.",
+      "description": "The sketch demonstrates how to use a graphics object to add texture.",
       "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Dm6AF-mOE"
