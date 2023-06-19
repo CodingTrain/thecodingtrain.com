@@ -3,7 +3,7 @@
   "description": "In this video I discuss how to use beginShape(), endShape() and vertex() to create custom shapes in p5.js / WebGL.",
   "videoNumber": "",
   "videoId": "DZlw-IS5OkI",
-  "date": "2018-1-03",
+  "date": "2018-01-03",
   "languages": ["WebGL", "p5.js"],
   "topics": ["webgl", "custom geometries"],
   "canContribute": true,

@@ -3,7 +3,7 @@
   "description": "In this video I demonstrate how to load an OBJ model in a p5.js sketch using the WebGL renderer.",
   "videoNumber": "",
   "videoId": "FUI7HEEz9B0",
-  "date": "2018-1-2",
+  "date": "2018-01-02",
   "languages": ["WebGL", "p5.js"],
   "topics": ["webgl", "obj file"],
   "canContribute": true,
