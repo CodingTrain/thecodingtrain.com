@@ -30,7 +30,14 @@
   "challenges": {
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
-    "featured": ["61-fractal-spirograph", "68-breadth-first-search", "154-tic-tac-toe-minimax", "6-mitosis-simulation", "130-drawing-with-fourier-transform-and-epicycles", "47-pixel-sorting-in-processing"],
+    "featured": [
+      "1-starfield",
+      "114-bubble-sort-visualization",
+      "90-dithering",
+      "164-slitscan",
+      "115-snake-game-redux",
+      "34-diffusion-limited-aggregation"
+    ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
       "buttonText": "browse challenges",
@@ -40,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "data/3-the-weather-here/5-web-application-deployment/showcase/contribution-1682882920.json",
-      "challenges/114-bubble-sort-visualization/showcase/contribution-1684979151.json",
-      "challenges/154-tic-tac-toe-minimax/showcase/contribution19.json",
-      "challenges/6-mitosis-simulation/showcase/contribution5.json",
-      "challenges/130-drawing-with-fourier-transform-and-epicycles/showcase/contribution-1685389113.json",
-      "challenges/154-tic-tac-toe-minimax/showcase/contribution4.json",
-      "challenges/130-drawing-with-fourier-transform-and-epicycles/showcase/contribution10.json",
-      "challenges/124-flocking-simulation/showcase/contribution-1684610695.json"
+      "challenges/1-starfield/showcase/contribution-1684502562.json",
+      "challenges/1-starfield/showcase/contribution23.json",
+      "challenges/90-dithering/showcase/contribution6.json",
+      "challenges/115-snake-game-redux/showcase/contribution-1685461721.json",
+      "challenges/168-the-mandelbulb/showcase/contribution-1686049208.json",
+      "challenges/10-dfs-maze-generator/showcase/contribution-1687204145.json",
+      "challenges/76-10Print/showcase/contribution-1686572361.json",
+      "challenges/1-starfield/showcase/contribution21.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
