@@ -1,0 +1,14 @@
+{
+  "title": "WebGL",
+  "description": "This side track contains tutorials about WebGL.",
+  "videos": [
+    "webgl/1-introduction",
+    "webgl/2-3d-geometries",
+    "webgl/3-light-and-material",
+    "webgl/4-texture",
+    "webgl/5-camera-and-perspective",
+    "webgl/6-createGraphics",
+    "webgl/7-loading-an-obj-file",
+    "webgl/8-3d-custom-shapes"
+  ]
+}
