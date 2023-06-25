@@ -1,125 +1,124 @@
 {
-    "title": "Word Counter",
-    "description": "In this challenge, we build a word counting (concordance) application, and visualize the frequency of each word using variable font size! We also implement the TF-IDF algorithm",
-    "videoNumber": "40",
-    "videoId": "",
-    "date": "2016-10-10",
-    "languages": ["p5.js", "Processing", "JavaScript", "Java"],
-    "topics": [
-        "word counting",
-        "visualization",
-        "tf-idf"
-    ],
-    "credits": [
-        { "title": "Editing", "name": "Mathieu Blanchette" },
-        { "title": "Animations", "name": "Jason Heglund" }
-    ],
-    "canContribute": true,
-    "relatedChallenges": [
-        "44-afinn-111-sentiment-analysis",
-        "43-context-free-grammar",
-        "42-markov-chain-name-generator",
-        "39-madlibs-generator",
-        "37-diastic-machine",
-        "48-white-house-social-media-data-visualization",
-        "84-word-definition-chrome-extension",
-        "75-wikipedia-api"
-    ],
-    "timestamps": [],
-    "parts": [
+  "title": "Word Counter",
+  "description": "In this challenge, we build a word counting (concordance) application, and visualize the frequency of each word using variable font size! We also implement the TF-IDF algorithm",
+  "videoNumber": "40",
+  "videoId": "",
+  "date": "2016-10-10",
+  "languages": ["p5.js", "Processing", "JavaScript", "Java"],
+  "topics": ["word counting", "visualization", "tf-idf"],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ],
+  "canContribute": true,
+  "relatedChallenges": [
+    "44-afinn-111-sentiment-analysis",
+    "43-context-free-grammar",
+    "42-markov-chain-name-generator",
+    "39-madlibs-generator",
+    "37-diastic-machine",
+    "48-white-house-social-media-data-visualization",
+    "84-word-definition-chrome-extension",
+    "75-wikipedia-api"
+  ],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Word Counter in JavaScript",
+      "videoId": "unm0BLor8aE",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:50", "title": "Let's get started!" },
+        { "time": "1:30", "title": "Load the text" },
+        { "time": "2:15", "title": "Make an array of all the words" },
+        { "time": "4:00", "title": "So how do we do this? The algorithm!" },
+        { "time": "5:45", "title": "Let's implement it in code" },
+        { "time": "9:10", "title": "Ignoring numbers" },
+        { "time": "10:30", "title": "Ignoring case sensitivity" },
+        { "time": "11:00", "title": "Understanding the order in a JavaScript object" },
+        { "time": "13:15", "title": "Sorting based on the value" },
+        { "time": "18:30", "title": "Sorted list of the words based on word count" },
+        { "time": "19:30", "title": "Things you can do" },
+        { "time": "21:16", "title": "Thanks for watching!" }
+      ]
+    },
+    {
+      "title": "Word Counter in Processing",
+      "videoId": "fxQ0B6BkfKo",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:25", "title": "Dictionary in Processing" },
+        { "time": "1:10", "title": "Load text file and split them into words" },
+        { "time": "3:10", "title": "Implementing the algorithm" },
+        { "time": "3:40", "title": "Let's look at IntDict reference" },
+        { "time": "6:10", "title": "Iterate through the array" },
+        { "time": "7:50", "title": "A little bit of debugging" },
+        { "time": "8:30", "title": "Setting the font-size according to the word count" },
+        { "time": "9:20", "title": "Thank you!" }
+      ]
+    },
+    {
+      "title": "TF-IDF",
+      "videoId": "RPMYV-eb6lI",
+      "timestamps": [
+        { "time": "0:00", "title": "What is TF-IDF?" },
+        { "time": "4:58", "title": "But why TF-IDF?" },
+        { "time": "6:10", "title": "Loading all the words from multiple text files" },
+        { "time": "9:00", "title": "Calculating word counts separately for one article" },
+        { "time": "10:47", "title": "Associating metadata with each word" },
+        { "time": "14:11", "title": "Implementing document frequency (DF)" },
+        { "time": "21:45", "title": "Some debugging" },
+        { "time": "24:30", "title": "refactoring the code to make it efficient" },
+        { "time": "26:55", "title": "Calculating the TF-IDF score" },
+        { "time": "29:20", "title": "Sorting the array in accordance to TF-IDF score" },
+        { "time": "30:15", "title": "What can you do with this?" },
+        { "time": "31:45", "title": "See you soon!" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Part 1 - Word Counter in p5js",
+      "description": "A word counter web application written in p5.js",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/icFi8MF7N"
+      }
+    },
+    {
+      "title": "Part 2 - Word Counter in Processing",
+      "description": "A word counter visualizer in Processing",
+      "image": "img2.png",
+      "urls": {
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/040.1_wordcounts/Processing"
+      }
+    },
+    {
+      "title": "Part 3 - Implementation of TF-IDF",
+      "description": "Implementation of the tf-idf on the word counter web application",
+      "image": "img3.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/u0C4FV8sg"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "title": "Word Counter in JavaScript",
-            "videoId": "unm0BLor8aE",
-            "timestamps": [
-                { "time": "0:00", "title": "Introduction" },
-                { "time": "0:50", "title": "Let's get started!" },
-                { "time": "1:30", "title": "Load the text" },
-                { "time": "2:15", "title": "Make an array of all the words" },
-                { "time": "4:00", "title": "So how do we do this? The algorithm!" },
-                { "time": "5:45", "title": "Let's implement it in code" },
-                { "time": "9:10", "title": "Ignoring numbers" },
-                { "time": "10:30", "title": "Ignoring case sensitivity" },
-                { "time": "11:00", "title": "Understanding the order in a JavaScript object" },
-                { "time": "13:15", "title": "Sorting based on the value" },
-                { "time": "18:30", "title": "Sorted list of the words based on word count" },
-                { "time": "19:30", "title": "Things you can do" },
-                { "time": "21:16", "title": "Thanks for watching!" }
-            ]
+          "icon": "🎓",
+          "title": "ITP from Tisch School of the Arts",
+          "url": "https://tisch.nyu.edu/itp",
+          "description": "Website of ITP NYU"
         },
         {
-            "title": "Word Counter in Processing",
-            "videoId": "fxQ0B6BkfKo",
-            "timestamps": [
-                { "time": "0:00", "title": "Introduction" },
-                { "time": "0:25", "title": "Dictionary in Processing" },
-                { "time": "1:10", "title": "Load text file and split them into words" },
-                { "time": "3:10", "title": "Implementing the algorithm" },
-                { "time": "3:40", "title": "Let's look at IntDict reference" },
-                { "time": "6:10", "title": "Iterate through the array" },
-                { "time": "7:50", "title": "A little bit of debugging" },
-                { "time": "8:30", "title": "Setting the font-size according to the word count" },
-                { "time": "9:20", "title": "Thank you!" }
-            ]
-        },
-        {
-            "title": "TF-IDF",
-            "videoId": "RPMYV-eb6lI",
-            "timestamps": [
-                { "time": "0:00", "title": "What is TF-IDF?" },
-                { "time": "4:58", "title": "But why TF-IDF?" },
-                { "time": "6:10", "title": "Loading all the words from multiple text files" },
-                { "time": "9:00", "title": "Calculating word counts separately for one article" },
-                { "time": "10:47", "title": "Associating metadata with each word" },
-                { "time": "14:11", "title": "Implementing document frequency (DF)" },
-                { "time": "21:45", "title": "Some debugging" },
-                { "time": "24:30", "title": "refactoring the code to make it efficient" },
-                { "time": "26:55", "title": "Calculating the TF-IDF score" },
-                { "time": "29:20", "title": "Sorting the array in accordance to TF-IDF score" },
-                { "time": "30:15", "title": "What can you do with this?" },
-                { "time": "31:45", "title": "See you soon!" }
-            ]
+          "icon": "🗒️",
+          "title": "TF-IDF",
+          "url": "https://en.wikipedia.org/wiki/Tf%E2%80%93idf",
+          "description": "Wikipedia article on the TF-IDF algorithm"
         }
-    ],
-    "codeExamples": [
-        {
-            "title": "Part 1 - Word Counter in p5js",
-            "description": "A word counter web application written in p5.js",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/icFi8MF7N"
-            }
-        },
-        {
-            "title": "Part 2 - Word Counter in Processing",
-            "description": "A word counter visualizer in Processing",
-            "urls": {
-                "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/040.1_wordcounts/Processing"
-            }
-        },
-        {
-            "title": "Part 3 - Implementation of TF-IDF",
-            "description": "Implementation of the tf-idf on the word counter web application",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/u0C4FV8sg"
-            }
-        }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "icon": "🎓",
-                    "title": "ITP from Tisch School of the Arts",
-                    "url": "https://tisch.nyu.edu/itp",
-                    "description": "Website of ITP NYU"
-                },
-                {
-                    "icon": "🗒️",
-                    "title": "TF-IDF",
-                    "url": "https://en.wikipedia.org/wiki/Tf%E2%80%93idf",
-                    "description": "Wikipedia article on the TF-IDF algorithm"
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
