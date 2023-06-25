@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Image Classification with MobileNet",
+  "title": "Image Classification with MobileNet",
   "description": "In this video, I use the \"pre-trained\" MobileNet model to classify the content of an image.",
   "videoNumber": "1.1",
   "videoId": "yNkAuWz5lnY",
@@ -62,7 +62,7 @@
         {
           "icon": "🚂",
           "title": "ES6 Promises",
-          "url": "https://www.youtube.com/watch?v=QO4NXhWo_NM",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-1",
           "description": "What is a JavaScript Promise?"
         }
       ]

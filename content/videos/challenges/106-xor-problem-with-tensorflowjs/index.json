@@ -65,7 +65,7 @@
         {
           "icon": "🚂",
           "title": "ES6 Arrow Function",
-          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
           "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
         },
         {
@@ -77,7 +77,7 @@
         {
           "icon": "🚂",
           "title": "async/await",
-          "url": "https://youtu.be/XO77Fib9tSI",
+          "url": "/tracks/topics-in-native-javascript/js/async-await-part-1",
           "description": "This video covers the ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
         },
         {

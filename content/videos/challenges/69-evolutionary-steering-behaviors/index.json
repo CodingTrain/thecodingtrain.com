@@ -148,7 +148,7 @@
         {
           "icon": "🚂",
           "title": "My Video on Autonomous Agents and Steering",
-          "url": "https://www.youtube.com/watch?v=P_xJMH8VvAE",
+          "url": "/tracks/the-nature-of-code-2/noc/5-autonomous-agents/1-steering-agents",
           "description": "In this video, I discuss the concept of an autonomous agent."
         },
         {
@@ -166,7 +166,7 @@
         {
           "icon": "🚂",
           "title": "My Genetic Algorithm Playlist",
-          "url": "https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV",
+          "url": "/tracks/the-nature-of-code-2/noc/9-genetic-algorithms/1-introduction",
           "description": "This series of videos focuses on Evolutionary Computing."
         },
         {

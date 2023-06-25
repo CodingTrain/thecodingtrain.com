@@ -18,6 +18,10 @@
     "side-tracks/snowflakes",
     "side-tracks/pi-day",
     "side-tracks/web-sockets-and-p5js",
-    "side-tracks/teachable-machine"
+    "side-tracks/teachable-machine",
+    "side-tracks/transformations-in-p5",
+    "side-tracks/physics-libraries",
+    "side-tracks/noise",
+    "side-tracks/webgl"
   ]
 }

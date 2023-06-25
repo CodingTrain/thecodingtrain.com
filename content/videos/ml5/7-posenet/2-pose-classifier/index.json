@@ -61,25 +61,25 @@
         {
           "icon": "🚂",
           "title": "ml5.js Pose Estimation with PoseNet",
-          "url": "https://www.youtube.com/watch?v=OIo-DIOkNVg",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-posenet/1-finding-keypoints",
           "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using the pre-trained machine learning model PoseNet (in JavaScript with p5.js and ml5.js)."
         },
         {
           "icon": "🚂",
           "title": "ml5: Neural Network Regression",
-          "url": "https://www.youtube.com/watch?v=fFzvwdkzr_c",
+          "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/4-regression",
           "description": "In this video I cover how to train a neural network to perform a \"regression\" task (rather than classification)."
         },
         {
           "icon": "🚂",
-          "title": "ml5.js: Train Your Own Neural Network",
-          "url": "https://www.youtube.com/watch?v=8HEgeAbYphA",
+          "title": "Train Your Own Neural Network",
+          "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/1-train-the-model",
           "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js"
         },
         {
           "icon": "🚂",
           "title": "Teachable Machine",
-          "url": "https://www.youtube.com/results?search_query=the+coding+train+teachable+machine",
+          "url": "/tracks/teachable-machine",
           "description": "In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library. "
         },
         {

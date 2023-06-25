@@ -53,7 +53,7 @@
         {
           "icon": "🚂",
           "title": "ES6 Arrow Syntax",
-          "url": "https://youtu.be/mrYMzpbFz18",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
           "description": "In this video, I cover anonymous functions with the arrow syntax in ES6 JavaScript."
         },
         {

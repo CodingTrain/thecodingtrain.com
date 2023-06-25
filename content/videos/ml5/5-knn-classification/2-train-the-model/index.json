@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: KNN Classification Part 2",
+  "title": "KNN Classification Part 2",
   "description": "This video  series covers \"KNN Classification.\" In this second part, I train the KNN image classifier using the ml5.js library.",
   "videoNumber": "5.2",
   "videoId": "Mwo5_bUVhlA",
@@ -69,7 +69,7 @@
         {
           "icon": "🚂",
           "title": "Beginners Guide to Machine Learning in JavaScript",
-          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",
+          "url": "/tracks/ml5js-beginners-guide",
           "description": "This playlist provides an introduction to developing creative coding projects with machine learning."
         },
         {

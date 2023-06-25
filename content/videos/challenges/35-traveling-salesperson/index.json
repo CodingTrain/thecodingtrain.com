@@ -272,7 +272,7 @@
         {
           "icon": "🎥",
           "title": "Improved Pool Selection",
-          "url": "https://www.youtube.com/watch?v=ETphJASzYes&list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX&index=23",
+          "url": "/tracks/the-nature-of-code-2/noc/9-genetic-algorithms/8-improved-pool-selection",
           "description": "How to pick an item randomly from an array with a non-uniform distribution."
         },
         {

@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: Save Neural Network Trained Model",
+  "title": "Save Neural Network Trained Model",
   "description": "Here I show how you to save a model that has been trained in ml5.js. You can then load (aka \"deploy\") that model later (\"pre-trained model\") in another sketch!",
   "videoNumber": "6.3",
   "videoId": "wUrg9Hjkhg0",

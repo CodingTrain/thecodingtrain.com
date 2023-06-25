@@ -181,19 +181,19 @@
         {
           "icon": "🎥",
           "title": "Pixel Array",
-          "url": "https://youtu.be/nMUMZ5YRxHI",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/pixel-array",
           "description": "Coding Train video with explanation of tracking 2D grid in 1D array (for pixels)."
         },
         {
           "icon": "🎥",
           "title": "Arrow Function",
-          "url": "https://youtu.be/mrYMzpbFz18",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
           "description": "Coding Train video covering JavaScript arrow (=>) function."
         },
         {
           "icon": "🎥",
           "title": "Higher Order Array Functions",
-          "url": "https://youtu.be/H4awPsyugS0",
+          "url": "/tracks/topics-in-native-javascript/js/higher-order-functions",
           "description": "Coding Train video covering how to use higher order array functions like filter() and map() in JavaScript."
         },
         {

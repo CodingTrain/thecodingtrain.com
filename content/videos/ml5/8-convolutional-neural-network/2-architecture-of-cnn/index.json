@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: What is a Convolutional Neural Network Part 1",
+  "title": "What is a Convolutional Neural Network Part 1",
   "description": "This video covers the architecture of a Convolutional Neural Network, focusing on the concept of \"filters\".",
   "videoNumber": "8.2",
   "videoId": "qPKsVAI_W6M",
@@ -70,14 +70,14 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "ml5.js: Train a Neural Network with Pixels as Input",
-          "url": "https://www.youtube.com/watch?v=UaKab6h9Z0I",
+          "title": "Train a Neural Network with Pixels as Input",
+          "url": "/tracks/ml5js-beginners-guide/ml5/8-convolutional-neural-network/1-pixels-as-input",
           "description": "This tutorial builds on ml5.neuralNetwork() videos examining raw pixels as inputs to a neural network. This sets the stage for a discussion on convolutional neural networks."
         },
         {
           "icon": "🚂",
-          "title": "ml5.js: Image Classification with MobileNet",
-          "url": "https://www.youtube.com/watch?v=yNkAuWz5lnY",
+          "title": "Image Classification with MobileNet",
+          "url": "/tracks/ml5js-beginners-guide/ml5/1-classification/1-image-classification",
           "description": "In this video, I use the \"pre-trained\" MobileNet model to classify the content of an image."
         },
         {
@@ -89,7 +89,7 @@
         {
           "icon": "🚂",
           "title": "The Pixel Array",
-          "url": "https://www.youtube.com/watch?v=nMUMZ5YRxHI",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/pixel-array",
           "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js. Code."
         }
       ]

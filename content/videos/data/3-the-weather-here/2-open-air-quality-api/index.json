@@ -45,13 +45,13 @@
         {
           "icon": "🚂",
           "title": "Promise.all",
-          "url": "https://youtu.be/01RTj1MWec0",
+          "url": "/tracks/topics-in-native-javascript/js/promise-all",
           "description": "Tutorial on Promise.all"
         },
         {
           "icon": "🚂",
           "title": "try/catch",
-          "url": "https://youtu.be/BztW_u6HDbs",
+          "url": "/tracks/topics-in-native-javascript/js/try-catch",
           "description": "Tutorial on try...catch statements"
         }
       ]
