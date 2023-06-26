@@ -30,11 +30,9 @@ const Question = ({ variant, slug, question, answer, currentHash }) => {
         [css[variant]]: css[variant],
         [css.open]: open
       })}>
-      <div
+      <button
         className={css.summary}
         onClick={() => setOpen(!open)}
-        onKeyPress={(e) => e.key === 'Enter' && setOpen(!open)}
-        role="button"
         tabIndex="0">
         <Open className={cn(css.icon, { [css.rotateIcon]: open })} />
         <h3>{question}</h3>
@@ -46,7 +44,8 @@ const Question = ({ variant, slug, question, answer, currentHash }) => {
             #
           </a>
         )}
-      </div>
+      </button>
+
       {open && (
         <div className={css.answer}>
           {answerMainText}
