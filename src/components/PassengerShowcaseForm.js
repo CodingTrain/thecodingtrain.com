@@ -18,7 +18,7 @@ import * as css from './PassengerShowcaseForm.module.css';
 // }
 
 const defaultState = {
-  category: '',
+  track: '',
   video: '',
   title: '',
   url: '',
@@ -31,7 +31,7 @@ const defaultState = {
 };
 
 const schema = object({
-  category: string().required(),
+  track: string().required(),
   video: string().required(),
   title: string().required(),
   url: string().required().url(),
@@ -131,10 +131,10 @@ const PassengerShowcaseForm = () => {
 
   const onChange = (e) => {
     setError(null);
-    if (e.target.name === 'category') {
+    if (e.target.name === 'track') {
       setState(
         Object.assign({}, state, {
-          category: e.target.value,
+          track: e.target.value,
           video: ''
         })
       );
@@ -210,9 +210,9 @@ const PassengerShowcaseForm = () => {
     <div className={css.root}>
       <form onSubmit={onSubmit} className={css.form}>
         <label>
-          Category
-          <select name="category" value={state.category} onChange={onChange}>
-            <option value="">Select a category</option>
+          Track
+          <select name="track" value={state.track} onChange={onChange}>
+            <option value="">Select a track</option>
             {data.map((node) => {
               let label = node.title;
               if (label.length > 50) {
@@ -226,7 +226,7 @@ const PassengerShowcaseForm = () => {
             })}
           </select>
           <span>
-            Select the category you are submitting to the passenger showcase.
+            Select the track you are submitting to the passenger showcase.
           </span>
         </label>
         <label>
@@ -234,7 +234,7 @@ const PassengerShowcaseForm = () => {
           <select name="video" value={state.video} onChange={onChange}>
             <option value="">Select a video</option>
             {(
-              data.find((track) => track.slug === state.category)?.videos || []
+              data.find((track) => track.slug === state.track)?.videos || []
             ).map((node) => {
               let label = node.title;
               if (label.length > 50) {
