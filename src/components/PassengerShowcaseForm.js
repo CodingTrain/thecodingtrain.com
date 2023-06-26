@@ -14,7 +14,8 @@ import * as css from './PassengerShowcaseForm.module.css';
 //   authorTwitter: "@thecodingtrain",
 //   authorInstagram: "@the.coding.train"
 //   url: "https://thecodingtrain.com/tracks",
-//   challenge: "01-test",
+//   track: "challenges",
+//   video: "01-starfield",
 // }
 
 const defaultState = {
@@ -43,7 +44,7 @@ const schema = object({
   authorInstagram: string().label('Instagram')
 });
 
-function useVideos() {
+function useVideosWithShowcase() {
   const data = useStaticQuery(graphql`
     query {
       challenges: allChallenge(sort: { date: DESC }) {
@@ -96,7 +97,6 @@ function useVideos() {
       return track;
     })
     .map((track) => {
-      console.log(structuredClone(track));
       // filter out videos that can't be contributed to
       track.videos = track.videos.filter((video) => video.canContribute);
       // keep only videos that belong to this track
@@ -127,7 +127,7 @@ const PassengerShowcaseForm = () => {
   const [error, setError] = useState(null);
   const [submitted, setSubmitted] = useState(false);
 
-  const data = useVideos();
+  const data = useVideosWithShowcase();
 
   const onChange = (e) => {
     setError(null);
@@ -175,7 +175,6 @@ const PassengerShowcaseForm = () => {
         .replace('data:image/jpeg;base64,', '');
 
       const submitState = Object.assign({}, state, { image: base64 });
-      console.log(submitState);
       try {
         const response = await fetch('/.netlify/functions/submission-sync', {
           method: 'POST',

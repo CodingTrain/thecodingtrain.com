@@ -13,7 +13,7 @@ const crypto = require('crypto');
 //   authorTwitter: "@thecodingtrain",
 //   authorInstagram: "@the.coding.train"
 //   url: "https://thecodingtrain.com/tracks",
-//   challenge: "01-test",
+//   videoDir: "challenges/01-test",
 //   imageExtension: "png|jpg"
 // }
 // X-Signature: sha256=...
@@ -39,7 +39,7 @@ exports.handler = async function (event) {
   const unix = Math.floor(Date.now() / 1000);
   const owner = 'CodingTrain';
   const repo = 'thecodingtrain.com';
-  const showcasePath = `content/videos/challenges/${postInfo.challenge}/showcase`;
+  const showcasePath = `content/videos/${postInfo.videoDir}/showcase`;
   const jsonPath = `${showcasePath}/contribution-${unix}.json`;
   const imagePath = `${showcasePath}/contribution-${unix}.${postInfo.imageExtension}`;
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
@@ -150,7 +150,7 @@ exports.handler = async function (event) {
   **/
   const imgUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${commitRes.data.sha}/${imagePath}`;
   const prRes = await octokit.request(`POST /repos/${owner}/${repo}/pulls`, {
-    title: `Showcase Submission for ${postInfo.challenge}`,
+    title: `Showcase Submission for ${postInfo.videoDir}`,
     body: `Thank you ${
       postInfo.authorName
     } for your contribution! A member of the Coding Train team will review it shortly.
