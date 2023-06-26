@@ -55,21 +55,11 @@ function useVideosWithShowcase() {
         }
       }
       tracks: allTrack {
-        edges {
-          node {
+        nodes {
+          title
+          slug
+          chapters {
             title
-            slug
-            chapters {
-              title
-              videos {
-                title
-                slug
-                canContribute
-                canonicalTrack {
-                  slug
-                }
-              }
-            }
             videos {
               title
               slug
@@ -79,30 +69,36 @@ function useVideosWithShowcase() {
               }
             }
           }
+          videos {
+            title
+            slug
+            canContribute
+            canonicalTrack {
+              slug
+            }
+          }
         }
       }
     }
   `);
 
-  const tracks = data.tracks.edges
-    .map((edge) => edge.node)
+  const tracks = data.tracks.nodes
     .map((track) => {
       // gather all videos from chapters (main track)
       if (!track.videos && track.chapters) {
-        track.videos = track.chapters.reduce((acc, chapter) => {
-          return acc.concat(chapter.videos);
-        }, []);
+        track.videos = track.chapters.flatMap((chapter) => chapter.videos);
       }
       delete track.chapters;
       return track;
     })
     .map((track) => {
-      // filter out videos that can't be contributed to
-      track.videos = track.videos.filter((video) => video.canContribute);
+      // keep only videos that can be contributed to
       // keep only videos that belong to this track
       track.videos = track.videos.filter(
-        (video) => video.canonicalTrack?.slug === track.slug
+        (video) =>
+          video.canContribute && video.canonicalTrack?.slug === track.slug
       );
+
       return track;
     })
     .filter((track) => track.videos.length > 0);
