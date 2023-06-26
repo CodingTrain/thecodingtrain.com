@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { object, string } from 'yup';
 import Button from './Button';
@@ -44,7 +44,7 @@ const schema = object({
   authorInstagram: string().label('Instagram')
 });
 
-function useVideosWithShowcase() {
+const useVideosWithShowcase = function () {
   const data = useStaticQuery(graphql`
     query {
       challenges: allChallenge(sort: { date: DESC }) {
@@ -82,40 +82,42 @@ function useVideosWithShowcase() {
     }
   `);
 
-  const tracks = data.tracks.nodes
-    .map((track) => {
-      // gather all videos from chapters (main track)
-      if (!track.videos && track.chapters) {
-        track.videos = track.chapters.flatMap((chapter) => chapter.videos);
-      }
-      delete track.chapters;
-      return track;
-    })
-    .map((track) => {
-      // keep only videos that can be contributed to
-      // keep only videos that belong to this track
-      track.videos = track.videos.filter(
-        (video) =>
-          video.canContribute && video.canonicalTrack?.slug === track.slug
-      );
+  return useMemo(() => {
+    const tracks = data.tracks.nodes
+      .map((track) => {
+        // gather all videos from chapters (main track)
+        if (!track.videos && track.chapters) {
+          track.videos = track.chapters.flatMap((chapter) => chapter.videos);
+        }
+        delete track.chapters;
+        return track;
+      })
+      .map((track) => {
+        // keep only videos that can be contributed to
+        // keep only videos that belong to this track
+        track.videos = track.videos.filter(
+          (video) =>
+            video.canContribute && video.canonicalTrack?.slug === track.slug
+        );
 
-      return track;
-    })
-    .filter((track) => track.videos.length > 0);
+        return track;
+      })
+      .filter((track) => track.videos.length > 0);
 
-  // create a "challenges track"
-  const challengesTrack = {
-    title: 'Coding Challenges',
-    slug: 'challenges',
-    videos: data.challenges.nodes.map((node) => {
-      return {
-        title: `#${node.videoNumber} ${node.title}`,
-        slug: node.slug
-      };
-    })
-  };
-  return [challengesTrack, ...tracks];
-}
+    // create a "challenges track"
+    const challengesTrack = {
+      title: 'Coding Challenges',
+      slug: 'challenges',
+      videos: data.challenges.nodes.map((node) => {
+        return {
+          title: `#${node.videoNumber} ${node.title}`,
+          slug: node.slug
+        };
+      })
+    };
+    return [challengesTrack, ...tracks];
+  }, [data]);
+};
 
 const PassengerShowcaseForm = () => {
   const ref = useRef();
