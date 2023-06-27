@@ -18,15 +18,7 @@ import * as css from '../styles/pages/guides.module.css';
 
 const GuidesPage = ({ data }) => {
   const pageData = data.pageData.nodes[0];
-
-  const guides = data.guides.nodes
-    .filter((n) => n.mdx.frontmatter.title)
-    .sort(
-      (a, b) =>
-        new Date(b.mdx.frontmatter.date).getTime() -
-        new Date(a.mdx.frontmatter.date).getTime()
-    );
-
+  const guides = data.guides.nodes.filter((n) => n.mdx.frontmatter.title);
   const guidesPlaceholderImage =
     data.guidesPlaceholderImage.nodes.length > 0
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
