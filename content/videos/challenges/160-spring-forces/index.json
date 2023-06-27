@@ -149,13 +149,13 @@
         {
           "icon": "🎥",
           "title": "Texturing Cloth Simulation",
-          "url": "https://youtu.be/JunJzIe0hEo",
+          "url": "/challenges/63-texturing-cloth-simulation",
           "description": "Coding Train Challenge #63 video on cloth simulation."
         },
         {
           "icon": "🎥",
           "title": "Simple Particle System",
-          "url": "https://youtu.be/UcdigVaIYAk",
+          "url": "/challenges/78-simple-particle-system",
           "description": "Coding Train video on a Challenge #78 on creating a basic particle system."
         }
       ]

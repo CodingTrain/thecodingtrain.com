@@ -1,0 +1,57 @@
+{
+  "title": "Loading OBJ Model",
+  "description": "In this video I demonstrate how to load an OBJ model in a p5.js sketch using the WebGL renderer.",
+  "videoNumber": "",
+  "videoId": "FUI7HEEz9B0",
+  "date": "2018-01-02",
+  "languages": ["WebGL", "p5.js"],
+  "topics": ["webgl", "obj file"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Hello" },
+    { "time": "01:35", "title": "LoadModel()" },
+    { "time": "02:50", "title": "Load the train obj file" },
+    { "time": "04:10", "title": "It is important to understand the model's internal coordinate system." },
+    { "time": "05:36", "title": "Add a normal material" },
+    { "time": "06:30", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Loading a obj model",
+      "description": "The sketch demonstrates how to load a obj model.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/H6d2vuxXm"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Documentation for all p5.js functions",
+          "url": "https://p5js.org/reference/"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

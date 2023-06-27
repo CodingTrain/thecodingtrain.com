@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js: KNN Classification Part 3",
+  "title": "KNN Classification Part 3",
   "description": "In this last part, I demonstrate how to save and load the KNN Classification model. (The code linked below will work with 0.2.1 of ml5 and will be updated when the new 0.2.2 release comes out.)",
   "videoNumber": "5.3",
   "videoId": "JWsKay58Z2g",
@@ -53,13 +53,13 @@
         {
           "icon": "🚂",
           "title": "Coding Challenge #151 Ukelele Tuner",
-          "url": "https://www.youtube.com/watch?v=F1OkDTUkKFo",
+          "url": "/challenges/151-ukulele-tuner-with-machine-learning",
           "description": "In this challenge, I attempt to create a Ukulele tuner in JavaScript using p5.js, ml5.js and the pre-trained machine learning model CREPE: A Convolutional Representation for Pitch Estimation."
         },
         {
           "icon": "🚂",
           "title": "Beginners Guide to Machine Learning in JavaScript",
-          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",
+          "url": "/tracks/ml5js-beginners-guide",
           "description": "This playlist provides an introduction to developing creative coding projects with machine learning."
         }
       ]

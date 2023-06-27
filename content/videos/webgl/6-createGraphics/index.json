@@ -1,0 +1,78 @@
+{
+  "title": "createGraphics() as WebGL Texture",
+  "description": "In this video about p5.js and WebGL, I discuss how a graphics context created with createGraphics() can be applied as a texture to 3D geometry. This is especially useful for rendering text in 3D.",
+  "videoNumber": "",
+  "videoId": "3tTZlTq4Cxs",
+  "date": "2017-12-30",
+  "languages": ["WebGL", "p5.js"],
+  "topics": ["webgl", "createGraphics"],
+  "canContribute": true,
+  "relatedChallenges": ["14-fractal-trees-recursive"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "02:05", "title": "Add a graphics object" },
+    { "time": "02:37", "title": "Graphics context is transparent" },
+    { "time": "03:20", "title": "Draw on graphics object" },
+    { "time": "03:58", "title": "Rendering text in 3D" },
+    { "time": "08:37", "title": "Graphics object does not need to be square" },
+    { "time": "10:00", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Using a graphics object to add texture",
+      "description": "The sketch demonstrates how to use a graphics object to add texture.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Dm6AF-mOE"
+      }
+    },
+    {
+      "title": "Using text as texture",
+      "description": "The sketch demonstrates how to add text to a shape in WEBGL.",
+      "image": "img2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/niiwRMKlo"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Documentation for all p5.js functions",
+          "url": "https://p5js.org/reference/"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "CreateGraphics()",
+          "description": "Tutorial on CreateGRaphics",
+          "url": "/tracks/code/2-variables/6-createGraphics"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

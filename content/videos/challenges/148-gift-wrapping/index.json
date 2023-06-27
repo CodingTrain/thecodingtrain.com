@@ -72,7 +72,7 @@
         {
           "icon": "🎥",
           "title": "ES6 Arrow Syntax",
-          "url": "https://www.youtube.com/watch?v=mrYMzpbFz18",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
           "description": "JavaScript tutorial on ES6 Arrow Functions"
         },
         {

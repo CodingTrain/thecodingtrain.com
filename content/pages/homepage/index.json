@@ -30,7 +30,14 @@
   "challenges": {
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
-    "featured": ["34-diffusion-limited-aggregation", "26-3d-supershapes", "c3-hilbert-curve"],
+    "featured": [
+      "1-starfield",
+      "114-bubble-sort-visualization",
+      "90-dithering",
+      "164-slitscan",
+      "115-snake-game-redux",
+      "34-diffusion-limited-aggregation"
+    ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
       "buttonText": "browse challenges",
@@ -40,9 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/76-10Print/showcase/contribution18.json",
-      "challenges/111-animated-sprites/showcase/contribution4.json",
-      "challenges/c2-collatz-conjecture/showcase/contribution11.json"
+      "challenges/1-starfield/showcase/contribution-1684502562.json",
+      "challenges/1-starfield/showcase/contribution23.json",
+      "challenges/90-dithering/showcase/contribution6.json",
+      "challenges/115-snake-game-redux/showcase/contribution-1685461721.json",
+      "challenges/168-the-mandelbulb/showcase/contribution-1686049208.json",
+      "challenges/10-dfs-maze-generator/showcase/contribution-1687204145.json",
+      "challenges/76-10Print/showcase/contribution-1686572361.json",
+      "challenges/1-starfield/showcase/contribution21.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",

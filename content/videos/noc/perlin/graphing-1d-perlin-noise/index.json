@@ -4,6 +4,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "y7sgcFhk6ZM",
+  "canonicalTrack": "the-nature-of-code-2",
   "timestamps": [
     { "time": "0:00", "title": "What are we doing?" },
     { "time": "1:20", "title": "Why are the x and y values equal?" },

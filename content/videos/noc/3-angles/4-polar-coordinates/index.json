@@ -2,7 +2,7 @@
   "title": "3.4 Polar Coordinates",
   "description": "It’s finally time to dive into the trigonometric functions—sine, cosine, tangent—and take a close look at thinking in polar coordinates with p5.js!",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["For beginners"],
+  "topics": ["For beginners", "polar coordinates", "polar to Cartesian coordinates"],
   "videoId": "O5wjXoFrau4",
   "canonicalTrack": "the-nature-of-code-2",
   "canContribute": true,
@@ -69,17 +69,17 @@
       "links": [
         {
           "title": "3.1 Angles and Rotation",
-          "url": "https://youtu.be/DMg-WRfNB60",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/1-angles-and-rotation",
           "description": "Nature of Code video on angles and rotation"
         },
         {
           "title": "Asteroids with p5.js",
-          "url": "https://youtu.be/hacZU523FyM",
+          "url": "/challenges/46-asteroids",
           "description": "Coding challenge on making asteroids in p5.js"
         },
         {
           "title": "Polar Perlin Noise Loops",
-          "url": "https://youtu.be/ZI1dmHv3MeM",
+          "url": "/challenges/136-polar-noise-loops",
           "description": "Coding challenge on Perlin noise loops with polar coordinates"
         }
       ]

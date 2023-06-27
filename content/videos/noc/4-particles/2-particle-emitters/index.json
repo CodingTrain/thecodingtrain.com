@@ -47,22 +47,22 @@
       "links": [
         {
           "title": "Angles and Rotation",
-          "url": "https://youtu.be/DMg-WRfNB60",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/1-angles-and-rotation",
           "description": "Nature of Code video on the basics of angles and rotation in p5.js"
         },
         {
           "title": "Fireworks!",
-          "url": "https://youtu.be/CKeyIbT3vXI",
+          "url": "/challenges/27-fireworks",
           "description": "July 4th themed Coding Challenge to build a fireworks simulation in p5.js and Processing"
         },
         {
           "title": "Inheritance in JavaScript",
-          "url": "https://youtu.be/MfxBfRD0FVU",
+          "url": "/tracks/topics-in-native-javascript/js/inheritance",
           "description": "Coding Train video on inheritance in Object-Oriented Programming and JavaScript ES6"
         },
         {
           "title": "Polymorphism in JavaScript",
-          "url": "https://youtu.be/8a5BkwuZRK0",
+          "url": "/tracks/topics-in-native-javascript/js/polymorphism",
           "description": "Coding Train video on polymorphism in Object-Oriented Programming and JavaScript ES6"
         }
       ]

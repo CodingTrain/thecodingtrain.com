@@ -1,0 +1,71 @@
+{
+  "title": "3D Custom Shapes",
+  "description": "In this video I discuss how to use beginShape(), endShape() and vertex() to create custom shapes in p5.js / WebGL.",
+  "videoNumber": "",
+  "videoId": "DZlw-IS5OkI",
+  "date": "2018-01-03",
+  "languages": ["WebGL", "p5.js"],
+  "topics": ["webgl", "custom geometries"],
+  "canContribute": true,
+  "relatedChallenges": ["63-texturing-cloth-simulation", "25-spherical-geometry", "26-3d-supershapes"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:48", "title": "Use beginShape(), endShape(), and vertex() to create custom shape" },
+    { "time": "01:12", "title": "Make a quad" },
+    { "time": "04:50", "title": "Add pixel coordinates to the vertices" },
+    { "time": "06:04", "title": "Now you use textureMode(normal) instead of ambientLight()" },
+    { "time": "06:26", "title": "Change the dimensions of the quad" },
+    { "time": "07:30", "title": "Flip the pixels" },
+    { "time": "08:46", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Custom shape",
+      "description": "The sketch demonstrates how to add a custom shape.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/jcL7sTdgp"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Custom Shapes - p5.js",
+          "url": "https://p5js.org/reference/"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Custom Shapes in p5.js",
+          "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using beginShape(), endShape(), vertex(), and curveVertex().",
+          "url": "https://www.youtube.com/watch?v=76fiD5DvzeQ"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
