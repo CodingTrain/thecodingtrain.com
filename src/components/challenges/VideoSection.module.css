@@ -272,6 +272,7 @@
     transform: rotate(-45deg);
     width: 10px;
     height: 10px;
+    margin-left: -5px;
     border-left: 1.5px solid var(--cyan);
     border-bottom: 1.5px solid var(--cyan);
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import classnames from 'classnames';
+import cn from 'classnames';
 import * as css from './Button.module.css';
 
 export const Button = ({
@@ -15,7 +15,7 @@ export const Button = ({
   rainbow,
   ...otherProps
 }) => {
-  const classes = classnames(css.root, className, {
+  const classes = cn(css.root, className, {
     [css[variant]]: css[variant],
     [css.rainbow]: rainbow
   });

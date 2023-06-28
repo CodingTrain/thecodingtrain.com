@@ -4,8 +4,8 @@
   "videoNumber": "",
   "videoId": "DZlw-IS5OkI",
   "date": "2018-01-03",
-  "languages": ["WebGL", "p5.js"],
-  "topics": ["webgl", "custom geometries"],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "custom geometries"],
   "canContribute": true,
   "relatedChallenges": ["63-texturing-cloth-simulation", "25-spherical-geometry", "26-3d-supershapes"],
   "timestamps": [

@@ -5,7 +5,7 @@
   "nebulaSlug": "codingtrain-local-storage-in-javascript-with-p5js",
   "date": "2022-05-04",
   "languages": ["JavaScript"],
-  "topics": ["p5.js", "Storage"],
+  "topics": ["p5.js", "storage"],
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Hello! What is Local Storage?" },

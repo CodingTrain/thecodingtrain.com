@@ -4,8 +4,8 @@
   "videoNumber": "",
   "videoId": "3tTZlTq4Cxs",
   "date": "2017-12-30",
-  "languages": ["WebGL", "p5.js"],
-  "topics": ["webgl", "createGraphics"],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "createGraphics"],
   "canContribute": true,
   "relatedChallenges": ["14-fractal-trees-recursive"],
   "timestamps": [

@@ -4,8 +4,8 @@
   "videoNumber": "",
   "videoId": "O1mYw-3Wl_Q",
   "date": "2017-12-26",
-  "languages": ["WebGL", "p5.js"],
-  "topics": ["webgl", "texture"],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "texture"],
   "canContribute": true,
   "relatedChallenges": ["50-animated-circle-packing", "164-slitscan"],
   "timestamps": [

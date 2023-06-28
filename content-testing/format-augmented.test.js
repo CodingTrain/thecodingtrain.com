@@ -8,6 +8,81 @@ const { object, string, number, date, boolean, array } = require('yup');
 
 const strictObject = (o) => object(o).strict().noUnknown();
 
+const uniqueArray = (v) =>
+  array(v).test((value, ctx) => {
+    if (!value) return true;
+    if (new Set(value).size === value.length) return true;
+
+    // find dupe values to improve error message
+    const seen = new Set();
+    const dupes = new Set();
+    for (const v of value) {
+      seen.has(v) ? dupes.add(v) : seen.add(v);
+    }
+
+    const message = `Array values must be unique, ${dupes.size} dupe${
+      dupes.size > 1 ? 's' : ''
+    } found: ${[...dupes].join(', ')}`;
+
+    return ctx.createError({ message });
+  });
+
+const strictRefsArray = (v, refSet) =>
+  uniqueArray(v).test((value, ctx) => {
+    if (!value) return true;
+    if (refSet.size === value.length) return true;
+
+    // find missing ref(s)
+    const missing = [];
+    refSet.forEach((v) => {
+      if (value.indexOf(v) === -1) missing.push(v);
+    });
+
+    // it's possible that we had dupes, we let the `uniqueArray` test handle the error
+    if (missing.length === 0) return true;
+
+    const message = `Reference array is missing ${missing.length} reference${
+      missing.length > 1 ? 's' : ''
+    }: ${missing.join(', ')}`;
+
+    return ctx.createError({ message });
+  });
+
+const guidesRefs = new Set(
+  globSync('content/pages/guides/*.md')
+    // only keep markdown files with frontmatter, the other ones are internal documentation
+    .filter((f) => readFileSync(f).toString('utf-8').startsWith('---\n'))
+    .map((f) => path.parse(f).name)
+);
+
+const tracksRefs = new Set(
+  globSync('content/tracks/*/*/index.json').map((f) => {
+    const parts = f.split('/');
+    return `${parts[parts.length - 3]}/${parts[parts.length - 2]}`;
+  })
+);
+
+const challengesRefs = new Set(
+  globSync('content/videos/challenges/*/index.json').map((f) => {
+    const parts = f.split('/');
+    return parts[parts.length - 2];
+  })
+);
+
+const makeRefValidator = (refName, refSet) =>
+  string().test(
+    `${refName} reference`,
+    `Should be a valid ${refName} reference`,
+    (value) => {
+      if (!value) return true;
+      return refSet.has(value);
+    }
+  );
+
+const guidesRefValidator = makeRefValidator('guide', guidesRefs);
+const tracksRefValidator = makeRefValidator('track', tracksRefs);
+const challengesRefValidator = makeRefValidator('challenge', challengesRefs);
+
 const earliest = new Date(2015, 1, 1);
 const now = new Date();
 
@@ -231,14 +306,16 @@ const baseVideosSchema = strictObject({
 const videosSchema = baseVideosSchema.concat(
   strictObject({
     videoNumber: videoNumberValidator,
-    relatedChallenges: array(string().required()) // TODO ref checks
+    relatedChallenges: uniqueArray(challengesRefValidator.required())
   })
 );
 
 const challengesSchema = baseVideosSchema.concat(
   strictObject({
     videoNumber: videoNumberValidator.required(),
-    relatedChallenges: array(string().required()).min(1).required() // TODO ref checks
+    relatedChallenges: uniqueArray(challengesRefValidator.required())
+      .min(1)
+      .required()
   })
 );
 
@@ -254,6 +331,23 @@ const showcasesSchema = strictObject({
   }).required()
 });
 
+const guidesPageSchema = strictObject({
+  title: string().required(),
+  description: string().required(),
+
+  guidesOrder: strictRefsArray(
+    guidesRefValidator.required(),
+    guidesRefs
+  ).required()
+});
+
+const tracksIndexSchema = strictObject({
+  trackOrder: strictRefsArray(
+    tracksRefValidator.required(),
+    tracksRefs
+  ).required()
+});
+
 // associate JSON files to schemas
 
 const videoPaths = globSync('content/videos/**/index.json', {
@@ -261,11 +355,15 @@ const videoPaths = globSync('content/videos/**/index.json', {
 });
 const challengesPaths = globSync('content/videos/challenges/**/index.json');
 const showcasesPaths = globSync('content/videos/**/showcase/*.json');
+const guidesPagePath = ['content/pages/guides/index.json'];
+const tracksIndexPath = ['content/tracks/index.json'];
 
 const rules = {
   videos: [videoPaths, videosSchema],
   challenges: [challengesPaths, challengesSchema],
-  showcases: [showcasesPaths, showcasesSchema]
+  showcases: [showcasesPaths, showcasesSchema],
+  'guides page': [guidesPagePath, guidesPageSchema],
+  'tracks index': [tracksIndexPath, tracksIndexSchema]
 };
 
 // validate JSON files against schemas

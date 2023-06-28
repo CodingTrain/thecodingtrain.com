@@ -1,7 +1,7 @@
 ---
 title: 'Passenger Showcase Guide'
 description: 'Guide to sharing your work with the community!'
-date: '05/04/2022'
+date: '2022-05-04'
 ---
 
 ## Submission Form
