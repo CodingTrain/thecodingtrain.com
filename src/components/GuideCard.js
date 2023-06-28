@@ -10,7 +10,6 @@ import * as css from './GuideCard.module.css';
 const GuideCard = ({
   title,
   slug,
-  link,
   meta,
   icon = '📒',
   description,
@@ -22,7 +21,7 @@ const GuideCard = ({
       <div className={css.top}>
         <div className={css.icon}>{icon}</div>
         <h2>
-          {link ? <a href={link}>{title}</a> : <Link to={slug}>{title}</Link>}
+          <Link to={slug}>{title}</Link>
         </h2>
       </div>
       <div className={css.bottom}>
@@ -31,7 +30,7 @@ const GuideCard = ({
           <ButtonPanel
             className={css.meta}
             text={meta}
-            buttonLink={link ?? slug}
+            buttonLink={slug}
             buttonText="Read"
             variant={variant}
             rainbow
@@ -42,7 +41,7 @@ const GuideCard = ({
           <ButtonPanel
             className={css.meta}
             text={meta}
-            buttonLink={link ?? slug}
+            buttonLink={slug}
             buttonText="Read"
             variant={variant}
             rainbow

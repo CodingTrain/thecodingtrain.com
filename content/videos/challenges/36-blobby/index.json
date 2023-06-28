@@ -4,7 +4,7 @@
   "videoNumber": "36",
   "videoId": "rX5p-QRP6R4",
   "date": "2016-09-02",
-  "languages": ["p5.js", "JavaScript", "Processing", "Java"],
+  "languages": ["p5.js", "JavaScript"],
   "topics": ["superformulas", "superellipse", "beginShape", "endShape", "vertex", "Perlin noise"],
   "canContribute": true,
   "relatedChallenges": ["19-superellipse", "32-agario", "60-butterfly-generator", "136-polar-noise-loops"],

@@ -1,97 +1,103 @@
-import React, { Children, useState, useEffect, useRef } from 'react';
+import React, { Children, useState, useRef, useEffect } from 'react';
 import cn from 'classnames';
 import Button from './Button';
 import ShareButton from './ShareButton';
+
 import * as css from './Tabs.module.css';
 
 export const Tabs = ({ className, variant, labels, children }) => {
-  const [active, setActive] = useState(0);
-  const [navHeight, setNavHeight] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [wrapShareButton, setWrapShareButton] = useState(false);
   const isFirstRender = useRef(true);
+  const tabsRefs = labels.map(useRef);
   const navRef = useRef();
 
-  const onClick = (value) => {
-    setActive(value);
-  };
+  useEffect(() => {
+    if (!navRef.current) return;
 
-  const getNavSize = () => {
-    if (navRef.current.clientHeight) {
-      const newNavHeight = navRef.current.clientHeight;
-      setNavHeight(newNavHeight)
+    const onResize = () => {
+      const hasShareButtonWrapped = navRef.current.clientHeight > 50;
+      setWrapShareButton(hasShareButtonWrapped);
     };
-  };
 
-   useEffect(() => {
-    getNavSize();
-  }, []);
+    // wait for css layout wrap before reading height (takes a few frames on page load)
+    let timeoutId = setTimeout(() => {
+      onResize();
+      timeoutId = undefined;
+    }, 200);
+
+    window.addEventListener('resize', onResize);
+
+    return () => {
+      if (timeoutId) clearTimeout(timeoutId);
+      window.removeEventListener('resize', onResize);
+    };
+  }, [navRef]);
 
   useEffect(() => {
-    window.addEventListener('resize', getNavSize);
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
 
-    return () => window.removeEventListener('resize', getNavSize);
-  }, []);
-
-  useEffect(() => {
-    if (!isFirstRender.current && window.innerWidth < 600) {
-      const tab = document.getElementById(`#component-tab-${active}`);
+    if (window.innerWidth < 600) {
+      const tab = tabsRefs[activeIndex].current;
       tab.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-    if (isFirstRender) {
-      isFirstRender.current = false;
-    }
-  }, [active]);
+  }, [activeIndex, tabsRefs]);
 
   return (
-    
     <div className={cn(css.root, className, { [css[variant]]: variant })}>
-
       <nav className={css.tabs} ref={navRef}>
         <ul>
-          {labels.map((label, key) => (
+          {labels.map((label, index) => (
             <li
-              id={`#component-tab-${key}`}
+              ref={tabsRefs[index]}
               className={cn({
-                [css.next]: key > active
+                [css.next]: index > activeIndex
               })}
-              key={key}>
+              key={index}>
               <Button
                 className={cn(css.tab, {
-                  [css.active]: key === active
+                  [css.active]: index === activeIndex
                 })}
-                onClick={() => onClick(key)}
-                onKeyDown={() => onClick(key)}>
+                onClick={() => setActiveIndex(index)}>
                 {label}
               </Button>
             </li>
           ))}
-          {Children.toArray(children).map((child, key) => (
+
+          {/* inlined tab content (mobile/vertical accordion) */}
+          {Children.toArray(children).map((child, index) => (
             <li
               className={cn(css.componentTab, {
-                [css.activeComponentTab]: key === active
+                [css.activeComponentTab]: index === activeIndex
               })}
-              key={key}>
+              key={index}>
               {child}
             </li>
           ))}
         </ul>
+
         <ShareButton
-          wrapped={navHeight > 50}
+          wrapped={wrapShareButton}
           className={css.share}
           variant={variant}
+          text="Copy link"
         />
       </nav>
-      {Children.toArray(children).map((child, key) => (
+
+      {/* tab content (desktop view) */}
+      {Children.toArray(children).map((child, index) => (
         <div
           className={cn(css.component, {
-            [css.activeComponent]: key === active
+            [css.activeComponent]: index === activeIndex
           })}
-          key={key}>
+          key={index}>
           {child}
         </div>
       ))}
-
     </div>
-
   );
 };
 
