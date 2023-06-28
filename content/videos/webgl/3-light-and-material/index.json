@@ -4,8 +4,8 @@
   "videoNumber": "",
   "videoId": "k2FguXvqp60",
   "date": "2017-12-22",
-  "languages": ["WebGL", "p5.js"],
-  "topics": ["webgl", "lighting", "materials"],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "lighting", "materials"],
   "canContribute": true,
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },

@@ -4,8 +4,8 @@
   "videoNumber": "",
   "videoId": "BW3D9WwalQE",
   "date": "2017-12-27",
-  "languages": ["WebGL", "camera", "perspective"],
-  "topics": ["webgl"],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "camera", "perspective"],
   "canContribute": true,
   "relatedChallenges": ["86-cube-wave-by-bees-and-bombs", "112-3d-rendering-with-rotation-and-projection"],
   "timestamps": [
