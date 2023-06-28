@@ -2,6 +2,8 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import cn from 'classnames';
 
+import { getReadableDate } from '../hooks';
+
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1 } from '../components/Heading';
@@ -17,8 +19,16 @@ import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
 import * as css from '../styles/pages/guides.module.css';
 
 const GuidesPage = ({ data }) => {
-  const pageData = data.pageData.nodes[0];
-  const guides = data.guides.nodes.filter((n) => n.mdx.frontmatter.title);
+  const { title, description, guidesOrder } = data.pageData.nodes[0];
+
+  const guides = data.guides.nodes
+    .filter((n) => n.mdx.frontmatter.title)
+    .sort((a, b) => {
+      const indexA = guidesOrder.indexOf(a.mdx.fields.slug);
+      const indexB = guidesOrder.indexOf(b.mdx.fields.slug);
+      return indexA - indexB;
+    });
+
   const guidesPlaceholderImage =
     data.guidesPlaceholderImage.nodes.length > 0
       ? data.guidesPlaceholderImage.nodes[0].childImageSharp.gatsbyImageData
@@ -28,19 +38,19 @@ const GuidesPage = ({ data }) => {
 
   return (
     <Layout
-      title={pageData.title}
-      description={pageData.description}
+      title={title}
+      description={description}
       image={guidesPlaceholderImage}>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>
-          {pageData.title}
+          {title}
         </Heading1>
         <div className={css.character}>{<DotCharacter />}</div>
       </header>
       <PagePanel
         className={css.panel}
-        description={pageData.description}
+        description={description}
         text="New to coding?"
         buttonText="Start here"
         buttonLink="/guides/getting-started"
@@ -68,7 +78,7 @@ const GuidesPage = ({ data }) => {
               title={guide.mdx.frontmatter.title}
               description={guide.mdx.frontmatter.description}
               slug={`/guides/${guide.mdx.fields.slug}`}
-              meta={guide.mdx.frontmatter.date}
+              meta={getReadableDate(guide.mdx.frontmatter.date)}
               icon={'📒'}
               image={
                 guide.cover?.file?.childImageSharp?.gatsbyImageData ??
@@ -113,6 +123,7 @@ export const query = graphql`
       nodes {
         title
         description
+        guidesOrder
       }
     }
     guides: allGuide {
