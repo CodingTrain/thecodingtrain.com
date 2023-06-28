@@ -83,21 +83,17 @@ const VideoSection = ({ challenge }) => {
               [css.onlyShare]: timestamps.length === 0
             })}
             variant={variant}
-            text=""
           />
+
           {timestamps.length > 0 && (
-            <div
+            <button
               className={css.timelinesToggle}
               onClick={() => setShowTimeline((v) => !v)}
-              onKeyPress={(e) =>
-                e.key === 'Enter' && setShowTimeline((v) => !v)
-              }
-              role="button"
               tabIndex="0"
               aria-label="Toggle timeline">
               <span className={css.back}>Back</span>
               <span className={css.arrow}> </span>
-            </div>
+            </button>
           )}
         </div>
       </header>
