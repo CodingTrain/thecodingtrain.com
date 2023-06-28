@@ -1,7 +1,7 @@
 ---
 title: 'Maintaining the website'
 description: 'Guide on adding content to the site'
-date: '06/08/2022'
+date: '2022-06-08'
 ---
 
 You want to help with integrating new content into the site? Great to hear that! Now let’s see how you can help:

@@ -1,7 +1,7 @@
 ---
 title: 'Get Started Guide'
 description: 'Guide with simple tips to get started into coding!'
-date: '04/19/2022'
+date: '2022-04-19'
 ---
 
 ## Welcome!

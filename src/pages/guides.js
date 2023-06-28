@@ -2,6 +2,8 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import cn from 'classnames';
 
+import { getReadableDate } from '../hooks';
+
 import Layout from '../components/Layout';
 import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1 } from '../components/Heading';
@@ -76,7 +78,7 @@ const GuidesPage = ({ data }) => {
               title={guide.mdx.frontmatter.title}
               description={guide.mdx.frontmatter.description}
               slug={`/guides/${guide.mdx.fields.slug}`}
-              meta={guide.mdx.frontmatter.date}
+              meta={getReadableDate(guide.mdx.frontmatter.date)}
               icon={'📒'}
               image={
                 guide.cover?.file?.childImageSharp?.gatsbyImageData ??
