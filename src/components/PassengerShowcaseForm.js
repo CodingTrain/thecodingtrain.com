@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { object, string } from 'yup';
 import Button from './Button';
@@ -14,11 +14,13 @@ import * as css from './PassengerShowcaseForm.module.css';
 //   authorTwitter: "@thecodingtrain",
 //   authorInstagram: "@the.coding.train"
 //   url: "https://thecodingtrain.com/tracks",
-//   challenge: "01-test",
+//   track: "challenges",
+//   video: "01-starfield",
 // }
 
 const defaultState = {
-  challenge: '',
+  track: '',
+  video: '',
   title: '',
   url: '',
   image: '',
@@ -30,7 +32,8 @@ const defaultState = {
 };
 
 const schema = object({
-  challenge: string().required(),
+  track: string().required(),
+  video: string().required(),
   title: string().required(),
   url: string().required().url(),
   image: string().required(),
@@ -41,12 +44,7 @@ const schema = object({
   authorInstagram: string().label('Instagram')
 });
 
-const PassengerShowcaseForm = () => {
-  const ref = useRef();
-  const [state, setState] = useState(defaultState);
-  const [error, setError] = useState(null);
-  const [submitted, setSubmitted] = useState(false);
-
+const useVideosWithShowcase = function () {
   const data = useStaticQuery(graphql`
     query {
       challenges: allChallenge(sort: { date: DESC }) {
@@ -56,11 +54,90 @@ const PassengerShowcaseForm = () => {
           videoNumber
         }
       }
+      tracks: allTrack {
+        nodes {
+          title
+          slug
+          chapters {
+            title
+            videos {
+              title
+              slug
+              canContribute
+              canonicalTrack {
+                slug
+              }
+            }
+          }
+          videos {
+            title
+            slug
+            canContribute
+            canonicalTrack {
+              slug
+            }
+          }
+        }
+      }
     }
   `);
 
+  return useMemo(() => {
+    const tracks = data.tracks.nodes
+      .map((track) => {
+        // gather all videos from chapters (main track)
+        if (!track.videos && track.chapters) {
+          track.videos = track.chapters.flatMap((chapter) => chapter.videos);
+        }
+        delete track.chapters;
+        return track;
+      })
+      .map((track) => {
+        // keep only videos that can be contributed to
+        // keep only videos that belong to this track
+        track.videos = track.videos.filter(
+          (video) =>
+            video.canContribute && video.canonicalTrack?.slug === track.slug
+        );
+
+        return track;
+      })
+      .filter((track) => track.videos.length > 0);
+
+    // create a "challenges track"
+    const challengesTrack = {
+      title: 'Coding Challenges',
+      slug: 'challenges',
+      videos: data.challenges.nodes.map((node) => {
+        return {
+          title: `#${node.videoNumber} ${node.title}`,
+          slug: node.slug
+        };
+      })
+    };
+    return [challengesTrack, ...tracks];
+  }, [data]);
+};
+
+const PassengerShowcaseForm = () => {
+  const ref = useRef();
+  const [state, setState] = useState(defaultState);
+  const [error, setError] = useState(null);
+  const [submitted, setSubmitted] = useState(false);
+
+  const data = useVideosWithShowcase();
+
   const onChange = (e) => {
     setError(null);
+    if (e.target.name === 'track') {
+      setState(
+        Object.assign({}, state, {
+          track: e.target.value,
+          video: ''
+        })
+      );
+      return;
+    }
     setState(Object.assign({}, state, { [e.target.name]: e.target.value }));
   };
 
@@ -96,7 +173,6 @@ const PassengerShowcaseForm = () => {
         .replace('data:image/jpeg;base64,', '');
 
       const submitState = Object.assign({}, state, { image: base64 });
-
       try {
         const response = await fetch('/.netlify/functions/submission-sync', {
           method: 'POST',
@@ -131,11 +207,11 @@ const PassengerShowcaseForm = () => {
     <div className={css.root}>
       <form onSubmit={onSubmit} className={css.form}>
         <label>
-          Challenge
-          <select name="challenge" value={state.challenge} onChange={onChange}>
-            <option value="">Select a challenge</option>
-            {data.challenges.nodes.map((node) => {
-              let label = `#${node.videoNumber} ${node.title}`;
+          Track
+          <select name="track" value={state.track} onChange={onChange}>
+            <option value="">Select a track</option>
+            {data.map((node) => {
+              let label = node.title;
               if (label.length > 50) {
                 label = label.substring(0, 50) + '...';
               }
@@ -147,7 +223,29 @@ const PassengerShowcaseForm = () => {
             })}
           </select>
           <span>
-            Select the challenge you are submitting to the passenger showcase.
+            Select the track you are submitting to the passenger showcase.
+          </span>
+        </label>
+        <label>
+          Video
+          <select name="video" value={state.video} onChange={onChange}>
+            <option value="">Select a video</option>
+            {(
+              data.find((track) => track.slug === state.track)?.videos || []
+            ).map((node) => {
+              let label = node.title;
+              if (label.length > 50) {
+                label = label.substring(0, 50) + '...';
+              }
+              return (
+                <option value={node.slug} key={node.slug}>
+                  {label}
+                </option>
+              );
+            })}
+          </select>
+          <span>
+            Select the video you are submitting to the passenger showcase.
           </span>
         </label>
         <label>

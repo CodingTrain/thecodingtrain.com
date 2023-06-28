@@ -12,7 +12,8 @@ const crypto = require('crypto');
 //   authorTwitter: "@thecodingtrain",
 //   authorInstagram: "@the.coding.train"
 //   url: "https://thecodingtrain.com/tracks",
-//   challenge: "01-test",
+//   track: "challenges",
+//   video: "01-starfield",
 // }
 
 async function validateImage(imageBase64) {
@@ -88,7 +89,10 @@ exports.handler = async function (event, context) {
     authorTwitter: postInfo.authorTwitter,
     authorInstagram: postInfo.authorInstagram,
     url: postInfo.url,
-    challenge: postInfo.challenge,
+    videoDir:
+      postInfo.track === 'challenges'
+        ? `challenges/${postInfo.video}`
+        : postInfo.video,
     imageBlobSha: blobRes.data.sha,
     imageExtension
   };
