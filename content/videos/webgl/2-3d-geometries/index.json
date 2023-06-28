@@ -4,8 +4,8 @@
   "videoNumber": "",
   "videoId": "6TPVoB4uQCU",
   "date": "2017-12-19",
-  "languages": ["WebGL", "p5.js"],
-  "topics": ["webgl", "3D geometries"],
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "3D geometries"],
   "canContribute": true,
   "relatedChallenges": ["25-spherical-geometry", "26-3d-supershapes"],
   "timestamps": [

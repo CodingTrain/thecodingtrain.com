@@ -3,7 +3,7 @@
   "description": "Let's figure out how to deploy your project to a server so that people can access it and use it. We will check out two hosting options: Heroku and Glitch.",
   "videoNumber": "3.5",
   "languages": ["JavaScript", "Node.js"],
-  "topics": ["deployment", "glitch", "Heroku"],
+  "topics": ["deployment", "Glitch", "Heroku"],
   "videoId": "Rz886HkV1j4",
   "nebulaSlug": "codingtrain-3-5-web-application-deployment-glitch-and-heroku-working-with-data-and-apis-in-javascript",
   "canContribute": true,
