@@ -26,7 +26,7 @@ The membership levels are now simplified to 2 tiers across all platforms: “Pas
 
 You might have noticed that the number of live streams and new videos have slowed down in 2023. That's because I'm busy laying the tracks for the new version of the Nature of Code book. By supporting The Coding Train, you're also powering this project! And who knows, this book might be your mystery gift for 2024 when it's hot off the presses!
 
-- [Nature of Code in progress](https://nature-of-code-2nd-edition.netlify.app/)
+- [Nature of Code book in progress](https://nature-of-code-2nd-edition.netlify.app/)
 - [Nature of Code GitHub Repo](https://github.com/nature-of-code/noc-book-2023)
 
 ## How can I get my ticket?
