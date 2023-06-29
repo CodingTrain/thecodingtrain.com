@@ -33,16 +33,27 @@ function isValidHttpUrl(string) {
   return url.protocol === 'http:' || url.protocol === 'https:';
 }
 
+function makeId(val) {
+  if (typeof val === 'string') return toSlug(val);
+
+  // If the markdown source was stylized, we may get a mix of React elements and strings and need to drill down to extract a string
+  if (Array.isArray(val)) {
+    return val.map(makeId).join('-');
+  } else {
+    return makeId(val?.props?.children ?? '');
+  }
+}
+
 const components = (localImages) => ({
   h1: (props) => (
-    <Heading1 variant="purple" as="h2" id={toSlug(props.children)} {...props} />
+    <Heading1 variant="purple" as="h2" id={makeId(props.children)} {...props} />
   ),
   h2: (props) => (
     <Heading2
       className={css.headingBorderTop}
       variant="purple"
       as="h3"
-      id={toSlug(props.children)}
+      id={makeId(props.children)}
       {...props}
     />
   ),
@@ -50,7 +61,7 @@ const components = (localImages) => ({
     <Heading3
       variant="purple"
       as="h4"
-      id={toSlug(props.children)}
+      id={makeId(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -59,7 +70,7 @@ const components = (localImages) => ({
     <Heading4
       variant="purple"
       as="h5"
-      id={toSlug(props.children)}
+      id={makeId(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -68,7 +79,7 @@ const components = (localImages) => ({
     <Heading5
       variant="purple"
       as="h6"
-      id={toSlug(props.children)}
+      id={makeId(props.children)}
       borderBottom={false}
       {...props}
     />
@@ -77,7 +88,7 @@ const components = (localImages) => ({
     <Heading6
       variant="purple"
       as="h6"
-      id={toSlug(props.children)}
+      id={makeId(props.children)}
       borderBottom={false}
       {...props}
     />

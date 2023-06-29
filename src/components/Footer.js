@@ -198,7 +198,7 @@ const Footer = () => {
               Patreon Supporter
             </a>
             , or{' '}
-            <a href="https://github.com/sponsors/shiffman" {...externalLink}>
+            <a href="https://github.com/sponsors/codingtrain" {...externalLink}>
               GitHub Sponsor
             </a>
             ! For questions about rewards and perks, write us an{' '}
