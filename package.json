@@ -26,7 +26,6 @@
     "@octokit/core": "^4.2.0",
     "classnames": "^2.3.2",
     "clipboardy": "^3.0.0",
-    "copy-to-clipboard": "^3.3.3",
     "gatsby": "^5.7.0",
     "gatsby-core-utils": "^4.7.0",
     "gatsby-plugin-image": "^3.7.0",

@@ -1,0 +1,52 @@
+{
+  "title": "Introduction to WebGL in p5.js - WebGL and p5.js Tutorial",
+  "description": "This is the first video in a playlist about the WEBGL renderer in the  p5.js library. I discuss 3D rendering in the browser and the current state of capabilities in p5.js WEBGL.",
+  "videoNumber": "",
+  "videoId": "nqiKWXUX-o8",
+  "date": "2017-12-18",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:47", "title": "What is WebGL" },
+    { "time": "03:35", "title": "three.js" },
+    { "time": "05:37", "title": "Enabling 3D context" },
+    { "time": "09:40", "title": "Rendering context" }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "three.js",
+          "description": "Documentation for three.js",
+          "url": "https://threejs.org"
+        },
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Documentation for all p5.js functions",
+          "url": "https://p5js.org/reference/"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

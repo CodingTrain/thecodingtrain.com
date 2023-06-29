@@ -4,10 +4,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 0px;
-  height: var(--baseline-box);
+  height: var(--baseline);
   padding: 0 var(--box-padding);
   cursor: pointer;
   line-height: var(--baseline);
+  user-select: none;
 
   & svg {
     stroke: var(--gray-dark);
@@ -30,9 +31,6 @@ span.linkIcon {
   & span {
     font-weight: 600;
   }
-  & svg path {
-    stroke-width: 2px;
-  }
 }
 
 .copiedNotification {
@@ -42,45 +40,26 @@ span.linkIcon {
   margin: 0;
   padding: 0 var(--box-padding);
   top: var(--baseline-1of4);
-  left: calc(-1 * (205px + 2 * var(--box-padding)));
   border-radius: 5px;
   border: var(--border);
-  width: calc((200px + 2 * var(--box-padding)));
+  width: calc(200px + 2 * var(--box-padding));
   line-height: var(--baseline-1of2);
   cursor: auto;
   background-color: var(--gray-light);
   color: var(--gray-dark);
 }
 
-.copiedNotificationWrapped {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0 var(--box-padding);
-  top: var(--baseline-1of4);
-  right: calc(-1 * (205px + 2 * var(--box-padding)));
-  border-radius: 5px;
-  border: var(--border);
-  width: calc((200px + 2 * var(--box-padding)));
-  line-height: var(--baseline-1of2);
-  cursor: auto;
-  background-color: var(--gray-light);
-  color: var(--gray-dark);
+.copiedNotificationLeft {
+  left: calc(-1 * (5px + 200px + 2 * var(--box-padding)));
+}
+
+.copiedNotificationRight {
+  right: calc(-1 * (5px + 200px + 2 * var(--box-padding)));
 }
 
 /* Variants */
 
 .red {
-  & svg {
-    & path {
-      stroke: var(--red);
-    }
-    & path + path {
-      fill: var(--red);
-    }
-  }
-
   & span {
     color: var(--red);
   }
@@ -89,33 +68,14 @@ span.linkIcon {
     border: var(--border-red);
     background-color: var(--red-light);
   }
-
-  & .copiedNotificationWrapped {
-    border: var(--border-red);
-    background-color: var(--red-light);
-  }
 }
 
 .cyan {
-  & svg {
-    & path {
-      stroke: var(--cyan);
-    }
-    & path + path {
-      fill: var(--cyan);
-    }
-  }
-
   & span {
     color: var(--cyan);
   }
 
   & .copiedNotification {
-    border: var(--border-cyan);
-    background-color: var(--cyan-light);
-  }
-
-  & .copiedNotificationWrapped {
     border: var(--border-cyan);
     background-color: var(--cyan-light);
   }

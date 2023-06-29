@@ -98,12 +98,11 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             headerType="h3"
           />
 
-          <ShareButton className={css.share} variant={variant} text="" />
-          <div
+          <ShareButton className={css.share} variant={variant} />
+
+          <button
             className={css.timelinesToggle}
             onClick={() => setShowTimeline((v) => !v)}
-            onKeyPress={(e) => e.key === 'Enter' && setShowTimeline((v) => !v)}
-            role="button"
             tabIndex="0"
             aria-label="Toggle timeline">
             <span className={css.back}>Back</span>
@@ -111,7 +110,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
             <span className={css.progress}>
               {videoIndex} / {trackTotal}{' '}
             </span>
-          </div>
+          </button>
         </div>
       </header>
       <div className={css.videoPlayer}>

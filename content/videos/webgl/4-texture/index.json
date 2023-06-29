@@ -1,0 +1,71 @@
+{
+  "title": "Texture",
+  "description": "In this video, I cover textures in 3D using the p5.js WebGL renderer.",
+  "videoNumber": "",
+  "videoId": "O1mYw-3Wl_Q",
+  "date": "2017-12-26",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "texture"],
+  "canContribute": true,
+  "relatedChallenges": ["50-animated-circle-packing", "164-slitscan"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:25", "title": "Texturing with an image" },
+    { "time": "01:49", "title": "Make a plane" },
+    { "time": "02:29", "title": "Preload a kitten image" },
+    { "time": "03:04", "title": "Texture with the image" },
+    { "time": "03:53", "title": "Try other shapes" },
+    { "time": "05:07", "title": "Use createCapture to add a video source" },
+    { "time": "07:37", "title": "Add a plane at the bottom of the canvas" },
+    { "time": "08:03", "title": "Translate and rotate the plane" },
+    { "time": "09:24", "title": "Add a direction light" },
+    { "time": "10:05", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Adding an image as texture",
+      "description": "The sketch demonstrates how to texture a shape with an image.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/OCrcEHyuLw"
+      }
+    },
+    {
+      "title": "Using video to add texture",
+      "description": "The sketch demonstrates how to texture a shape with a video feed.",
+      "image": "img2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xTpnARe5_"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Documentation for all p5.js functions",
+          "url": "https://p5js.org/reference/"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

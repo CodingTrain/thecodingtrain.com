@@ -1,0 +1,61 @@
+{
+  "title": "3D Geometries",
+  "description": "In this video about p5.js and WebGL I cover 3D geometry and primitive shapes.",
+  "videoNumber": "",
+  "videoId": "6TPVoB4uQCU",
+  "date": "2017-12-19",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "3D geometries"],
+  "canContribute": true,
+  "relatedChallenges": ["25-spherical-geometry", "26-3d-supershapes"],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "01:25", "title": "Wireframes" },
+    { "time": "02:00", "title": "How can you prove you are in 3D?" },
+    { "time": "03:04", "title": "Rotating in 3D" },
+    { "time": "05:35", "title": "3D primitives" },
+    { "time": "07:20", "title": "Use translate to move 3D primitives" },
+    { "time": "9:00", "title": "Use mouseX to translate along the z-axis" },
+    { "time": "10:51", "title": "3D primitives on the p5.js website" },
+    { "time": "11:15", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Adding a 3D primitive",
+      "description": "The sketch shows how to add a p5 primitive shape.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_mw9Hiwk6"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Documentation for all p5.js functions",
+          "url": "https://p5js.org/reference/"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

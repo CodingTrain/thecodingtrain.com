@@ -1,0 +1,60 @@
+{
+  "title": "Light and Material",
+  "description": "In this video, I investigate lights and materials in the p5.js WebGL 3D renderer. Functions covered are: ambientMaterial(), normalMaterial(), fill(), ambientLight(), directionalLight(), and pointLight().  Use can also now use lights(), which places an ambient and directional light in the scene",
+  "videoNumber": "",
+  "videoId": "k2FguXvqp60",
+  "date": "2017-12-22",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["WebGL", "lighting", "materials"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:45", "title": "Material is the \"skin\" of 3D object" },
+    { "time": "03:05", "title": "Normal materials" },
+    { "time": "05:00", "title": "Ambient materials reflect light" },
+    { "time": "07:32", "title": "Ambient light shines everywhere" },
+    { "time": "07:54", "title": "Point lights add shadow" },
+    { "time": "10:51", "title": "Directional light comes from a given direction" },
+    { "time": "12:55", "title": "Illustration using the mouse" },
+    { "time": "15:00", "title": "Basic material is fill" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Light and Material",
+      "description": "The sketch demonstrates how to add light and materials.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cPrSUDhYS"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Reference",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Getting started with WebGL in p5",
+          "description": "Tutorial on getting started in WebGL",
+          "url": "https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5"
+        },
+        {
+          "icon": "⭐",
+          "title": "p5.js Reference",
+          "description": "Documentation for all p5.js functions",
+          "url": "https://p5js.org/reference/"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
