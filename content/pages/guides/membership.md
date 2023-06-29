@@ -1,7 +1,7 @@
 ---
 title: 'Membership Guide'
 description: 'Your ticket to The Coding Train Membership Program!'
-date: '06/02/2023'
+date: '2023-06-28'
 ---
 
 ## All aboard!
