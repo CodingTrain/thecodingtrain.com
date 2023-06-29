@@ -1,7 +1,10 @@
 import React, { useState, useRef, useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { object, string } from 'yup';
+import { useLocation } from '@reach/router';
+
 import Button from './Button';
+
 import * as css from './PassengerShowcaseForm.module.css';
 
 // event.body expected to be:
@@ -120,8 +123,13 @@ const useVideosWithShowcase = function () {
 };
 
 const PassengerShowcaseForm = () => {
+  const location = useLocation();
   const ref = useRef();
-  const [state, setState] = useState(defaultState);
+  const [state, setState] = useState({
+    ...defaultState,
+    track: location.state?.track ?? '',
+    video: location.state?.video ?? ''
+  });
   const [error, setError] = useState(null);
   const [submitted, setSubmitted] = useState(false);
 

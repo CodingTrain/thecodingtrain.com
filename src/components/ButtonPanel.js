@@ -12,7 +12,8 @@ const ButtonPanel = ({
   variant,
   className,
   smallWrap,
-  rainbow
+  rainbow,
+  buttonState
 }) => {
   return (
     <div
@@ -23,6 +24,7 @@ const ButtonPanel = ({
       {text && <p>{text}</p>}
       <div className={css.buttonContainer}>
         <Button
+          state={buttonState}
           variant={variant}
           rainbow={rainbow}
           {...{ [buttonLink.startsWith('/') ? 'to' : 'href']: buttonLink }}>
