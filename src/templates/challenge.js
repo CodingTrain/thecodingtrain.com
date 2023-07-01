@@ -67,6 +67,7 @@ const Challenge = ({ data }) => {
       <PassengerShowcasePanel
         contributions={challenge.showcase}
         placeholderImage={contributionsPlaceholder}
+        submitButtonState={{ track: 'challenges', video: challenge.slug }}
       />
 
       {challenge.relatedChallenges.length > 0 && (

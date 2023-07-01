@@ -27,11 +27,13 @@ const Track = ({ pageContext, data }) => {
     videoPlaceHolderImage,
     challengePlaceholderImage
   } = data;
+
   const contributionsPlaceholder = contributionPlaceholderImage
     ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
     : videoPlaceHolderImage
     ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
     : null;
+
   const challengesPlaceholder =
     challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
@@ -105,6 +107,10 @@ const Track = ({ pageContext, data }) => {
             contributions={video.showcase}
             placeholderImage={contributionsPlaceholder}
             headerType={isTrackPage ? 'h3' : 'h2'}
+            submitButtonState={{
+              track: video.canonicalTrack?.slug ?? 'challenges',
+              video: video.slug
+            }}
           />
         </>
       )}
@@ -201,6 +207,9 @@ export const query = graphql`
     video: videoInterface(id: { eq: $videoId }) {
       title
       slug
+      canonicalTrack {
+        slug
+      }
       videoId
       nebulaSlug
       description

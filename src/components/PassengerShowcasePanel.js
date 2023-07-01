@@ -12,7 +12,8 @@ import { shuffleCopy } from '../utils';
 const PassengerShowcasePanel = ({
   contributions,
   placeholderImage,
-  headerType = 'h2'
+  headerType = 'h2',
+  submitButtonState
 }) => {
   // First render : as many empty contributions as there are challenges
   const [shuffledContribs, setShuffledContribs] = useState(() =>
@@ -28,6 +29,7 @@ const PassengerShowcasePanel = ({
       ? 'The Showcase is collection of projects created by viewers like you!'
       : 'No showcase projects submitted yet, you could be the first!';
   const Header = headerType;
+
   return (
     <section className={css.root}>
       <div className={css.titleBox}>
@@ -50,6 +52,7 @@ const PassengerShowcasePanel = ({
         text="Have you made something? Please share your work!"
         buttonText="Submit to the showcase"
         buttonLink="/guides/passenger-showcase-guide"
+        buttonState={submitButtonState}
         variant="purple"
         rainbow
         className={css.showcasePanel}
@@ -70,6 +73,7 @@ const Contribution = ({
     : placeholderImage;
   const url = contribution.url;
   const Header = headerType;
+
   return (
     <article className={css.contrib}>
       <a className={css.title} href={url} target="_blank" rel="noreferrer">
