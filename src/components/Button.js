@@ -13,6 +13,7 @@ export const Button = ({
   children,
   disabled,
   rainbow,
+  state,
   ...otherProps
 }) => {
   const classes = cn(css.root, className, {
@@ -21,7 +22,7 @@ export const Button = ({
   });
 
   return to ? (
-    <Link to={to} className={classes}>
+    <Link to={to} className={classes} state={state}>
       {children}
     </Link>
   ) : href ? (
