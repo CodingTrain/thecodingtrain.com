@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "1-starfield",
-      "114-bubble-sort-visualization",
-      "90-dithering",
-      "164-slitscan",
-      "115-snake-game-redux",
-      "34-diffusion-limited-aggregation"
+      "76-10Print",
+      "86-cube-wave-by-bees-and-bombs",
+      "13-reaction-diffusion",
+      "135-making-a-gif-loop-in-processing",
+      "25-spherical-geometry",
+      "40-word-counter"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/1-starfield/showcase/contribution-1684502562.json",
-      "challenges/1-starfield/showcase/contribution23.json",
-      "challenges/90-dithering/showcase/contribution6.json",
-      "challenges/115-snake-game-redux/showcase/contribution-1685461721.json",
-      "challenges/168-the-mandelbulb/showcase/contribution-1686049208.json",
-      "challenges/10-dfs-maze-generator/showcase/contribution-1687204145.json",
-      "challenges/76-10Print/showcase/contribution-1686572361.json",
-      "challenges/1-starfield/showcase/contribution21.json"
+      "code/7-arrays/7-object-communication-2/showcase/contribution-1688462658.json",
+      "challenges/136-polar-noise-loops/showcase/contribution14.json",
+      "challenges/59-steering-behaviors/showcase/contribution-1688128225.json",
+      "challenges/171-wave-function-collapse/showcase/contribution-1688140264.json",
+      "challenges/13-reaction-diffusion/showcase/contribution4.json",
+      "challenges/13-reaction-diffusion/showcase/contribution7.json",
+      "challenges/13-reaction-diffusion/showcase/contribution5.json",
+      "challenges/86-cube-wave-by-bees-and-bombs/showcase/contribution9.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
