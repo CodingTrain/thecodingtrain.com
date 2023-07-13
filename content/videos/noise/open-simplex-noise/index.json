@@ -1,5 +1,6 @@
 {
   "title": "What is OpenSimplex noise?",
+  "date": "2019-03-04",
   "description": "Simplex Noise (2001) is an improvement on \"classic\" Perlin noise (1983). I discuss a bit of the history of noise algorithms and show how to use the Java source code for OpenSimplex Noise in Processing.",
   "languages": ["Processing", "Java"],
   "topics": ["For beginners", "noise", "OpenSimplex noise", "simplex noise", "Perlin noise"],
@@ -79,6 +80,5 @@
   "credits": [
     { "title": "Editing", "name": "Mathieu Blanchette" },
     { "title": "Animations", "name": "Jason Heglund" }
-  ],
-  "date": "2019-03-04"
+  ]
 }
