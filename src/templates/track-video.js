@@ -256,6 +256,11 @@ export const query = graphql`
           description
         }
       }
+      credits {
+        title
+        name
+        url
+      }
       canContribute
       showcase {
         title
