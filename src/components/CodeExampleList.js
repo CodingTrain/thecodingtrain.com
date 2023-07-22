@@ -92,20 +92,23 @@ const CodeExample = ({ example, placeholderImage }) => {
   );
 };
 
-const CodeExampleList = memo(
-  ({ className, variant, examples, placeholderImage }) => {
-    return (
-      <ul className={cn(css.root, className, { [css[variant]]: variant })}>
-        {examples.map((example, key) => (
-          <CodeExample
-            example={example}
-            key={key}
-            placeholderImage={placeholderImage}
-          />
-        ))}
-      </ul>
-    );
-  }
-);
+const CodeExampleList = ({
+  className,
+  variant,
+  examples,
+  placeholderImage
+}) => {
+  return (
+    <ul className={cn(css.root, className, { [css[variant]]: variant })}>
+      {examples.map((example, key) => (
+        <CodeExample
+          example={example}
+          key={key}
+          placeholderImage={placeholderImage}
+        />
+      ))}
+    </ul>
+  );
+};
 
-export default CodeExampleList;
+export default memo(CodeExampleList);
