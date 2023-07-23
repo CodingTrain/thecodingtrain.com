@@ -1,0 +1,34 @@
+{
+  "title": "2D Arrays in JavaScript",
+  "description": "In this JavaScript tutorial, I cover two-dimensional (2D) arrays in JavaScript. I demonstrate how to create, initialize, and use the arrays with nested for loops.",
+  "videoId": "OTNpiLUSiB4",
+  "date": "2016-07-18",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["2d arrays", "array", "for loop"],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "2D Array in Processing",
+          "url": "https://www.processing.org/tutorials/2darray/",
+          "description": "Dan's 2D Array in Processing tutorial"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
