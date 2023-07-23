@@ -84,7 +84,7 @@
         {
           "icon": "🚂",
           "title": "My Video on 2D Arrays",
-          "url": "https://www.youtube.com/watch?v=OTNpiLUSiB4",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/2d-arrays",
           "description": "In this video, I demonstrate how to create, initialize, and use the arrays with nested for loops."
         },
         {

@@ -61,7 +61,7 @@
         {
           "icon": "🎥",
           "title": "ml5.js Sound Classification",
-          "url": "https://youtu.be/cO4UP2dX944",
+          "url": "/tracks/ml5js-beginners-guide/ml5/10-sound-classification/1-sound-classification",
           "description": "This video examines the new ml5.soundClassifier() function in the ml5.js library."
         },
         {
