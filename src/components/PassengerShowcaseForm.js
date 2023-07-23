@@ -239,7 +239,7 @@ const PassengerShowcaseForm = () => {
           <select name="video" value={state.video} onChange={onChange}>
             <option value="">Select a video</option>
 
-            {(selectedTrack?.chapters || []).map((node) => (
+            {selectedTrack?.chapters?.map((node) => (
               <optgroup label={node.title}>
                 {node.videos.map((video) => {
                   let label = video.title;
@@ -255,7 +255,7 @@ const PassengerShowcaseForm = () => {
               </optgroup>
             ))}
 
-            {(selectedTrack?.videos || []).map((node) => {
+            {selectedTrack?.videos?.map((node) => {
               let label = node.title;
               if (label.length > 50) {
                 label = label.substring(0, 50) + '...';
