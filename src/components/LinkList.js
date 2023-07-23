@@ -27,7 +27,7 @@ const Link = ({ link }) => {
   );
 };
 
-const LinkList = memo(({ className, variant, links }) => {
+const LinkList = ({ className, variant, links }) => {
   return (
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
       {links.map((link, key) => (
@@ -35,6 +35,6 @@ const LinkList = memo(({ className, variant, links }) => {
       ))}
     </ul>
   );
-});
+};
 
-export default LinkList;
+export default memo(LinkList);

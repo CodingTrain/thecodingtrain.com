@@ -27,47 +27,45 @@ const usePaths = (chapters, track, trackPosition) => {
   return [computePath(prevVideo), computePath(nextVideo)];
 };
 
-const OverviewTimeline = memo(
-  ({ className, chapters, track, trackPosition }) => {
-    const [previousVideo, nextVideo] = usePaths(chapters, track, trackPosition);
+const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
+  const [previousVideo, nextVideo] = usePaths(chapters, track, trackPosition);
 
-    const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
-    return (
-      <div className={cn(css.root, className)}>
-        <div className={css.overviewTimeline} ref={timelineRef}>
-          {chapters.map((chapter, index) => (
-            <ChapterSection
-              key={index}
-              chapter={chapter}
-              chapterIndex={index}
-              chapters={chapters}
-              track={track}
-              trackPosition={trackPosition}
-            />
-          ))}
-        </div>
-        <div className={css.navigation}>
-          {previousVideo !== null && (
-            <Link
-              className={css.navButton}
-              to={previousVideo.path}
-              state={{ challengePartIndex: previousVideo.partIndex }}>
-              Previous
-            </Link>
-          )}
-          {nextVideo !== null && (
-            <Link
-              className={css.navButton}
-              to={nextVideo.path}
-              state={{ challengePartIndex: nextVideo.partIndex }}>
-              Next
-            </Link>
-          )}
-        </div>
+  const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
+  return (
+    <div className={cn(css.root, className)}>
+      <div className={css.overviewTimeline} ref={timelineRef}>
+        {chapters.map((chapter, index) => (
+          <ChapterSection
+            key={index}
+            chapter={chapter}
+            chapterIndex={index}
+            chapters={chapters}
+            track={track}
+            trackPosition={trackPosition}
+          />
+        ))}
       </div>
-    );
-  }
-);
+      <div className={css.navigation}>
+        {previousVideo !== null && (
+          <Link
+            className={css.navButton}
+            to={previousVideo.path}
+            state={{ challengePartIndex: previousVideo.partIndex }}>
+            Previous
+          </Link>
+        )}
+        {nextVideo !== null && (
+          <Link
+            className={css.navButton}
+            to={nextVideo.path}
+            state={{ challengePartIndex: nextVideo.partIndex }}>
+            Next
+          </Link>
+        )}
+      </div>
+    </div>
+  );
+};
 
 const ChapterSection = memo(
   ({ chapter, chapterIndex, chapters, track, trackPosition }) => {

@@ -21,6 +21,7 @@ const schema = /* GraphQL */ `
     groupLinks: [GroupLink!]
     source: String!
     nebulaSlug: String
+    credits: [Credit!]!
 
     # as resolver
     showcase: [Contribution]
@@ -46,6 +47,7 @@ const schema = /* GraphQL */ `
     groupLinks: [GroupLink!]
     source: String!
     nebulaSlug: String
+    credits: [Credit!]!
 
     # as resolver
     showcase: [Contribution]
@@ -71,10 +73,17 @@ const schema = /* GraphQL */ `
     groupLinks: [GroupLink!]
     source: String!
     nebulaSlug: String
+    credits: [Credit!]!
 
     # as resolver
     showcase: [Contribution]
     canonicalTrack: Track
+  }
+
+  type Credit {
+    title: String!
+    name: String!
+    url: String
   }
 
   type Contribution implements Node {

@@ -18,7 +18,7 @@ const Credit = ({ credit }) => {
   );
 };
 
-const CreditList = memo(({ className, variant, credits }) => {
+const CreditList = ({ className, variant, credits }) => {
   return (
     <ul className={cn(css.root, className, { [css[variant]]: variant })}>
       {credits.map((credit, key) => (
@@ -26,6 +26,6 @@ const CreditList = memo(({ className, variant, credits }) => {
       ))}
     </ul>
   );
-});
+};
 
-export default CreditList;
+export default memo(CreditList);

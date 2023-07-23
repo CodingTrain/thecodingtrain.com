@@ -4,7 +4,7 @@ import cn from 'classnames';
 import * as css from './PartsTimeline.module.css';
 import { Link } from 'gatsby';
 
-const PartsTimeline = memo(({ className, parts, onPartChange }) => {
+const PartsTimeline = ({ className, parts, onPartChange }) => {
   const [currentPartIndex, setCurrentPartIndex] = useState(0);
 
   const updatePartIndex = (index) => {
@@ -61,6 +61,6 @@ const PartsTimeline = memo(({ className, parts, onPartChange }) => {
       </div>
     </div>
   );
-});
+};
 
 export default memo(PartsTimeline);
