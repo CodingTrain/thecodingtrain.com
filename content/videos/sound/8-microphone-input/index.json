@@ -1,0 +1,64 @@
+{
+  "title": "Microphone Input",
+  "description": "In this video, I demonstrate how to use your system microphone as an input to a sketch, controlling elements withe volume.",
+  "videoId": "q2IDNkUws-A",
+  "nebulaSlug": "",
+  "date": "2016-10-17",
+  "languages": ["p5.js"],
+  "topics": ["sound", "microphone input"],
+  "canContribute": true,
+  "relatedChallenges": ["147-chrome-dinosaur-game"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:03",
+      "title": "AudioIn()"
+    },
+    {
+      "time": "2:54",
+      "title": "Create a mic variable"
+    },
+    {
+      "time": "4:14",
+      "title": "getLevel()"
+    },
+    {
+      "time": "4:53",
+      "title": "The volume numbers are very small"
+    },
+    {
+      "time": "5:22",
+      "title": "Use the sound level to visualize an ellipse"
+    },
+    {
+      "time": "6:47",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

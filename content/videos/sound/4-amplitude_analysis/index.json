@@ -1,0 +1,59 @@
+{
+  "title": "Amplitude Analysis",
+  "description": "In this video, I show how to analyze the amplitude (i.e. volume) of a song (any sound input) to control elements of a p5.js sketch.",
+  "videoId": "NCCHQwNAN6Y",
+  "nebulaSlug": "",
+  "date": "2016-06-09",
+  "languages": ["p5.js"],
+  "topics": ["sound", "amplitude"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello"
+    },
+    {
+      "time": "0:26",
+      "title": "Add a play button after the song is loaded"
+    },
+    {
+      "time": "2:52",
+      "title": "p5.amplitude()"
+    },
+    {
+      "time": "3:50",
+      "title": "getLevel()"
+    },
+    {
+      "time": "5:12",
+      "title": "Make size of ellipse responsive to volume."
+    },
+    {
+      "time": "6:13",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Sound Visualization: Graphing Amplitude",
+  "description": "In this video, I use the getLevel() function from the p5.js Sound Library to graph the amplitude (volume) over time.",
+  "videoId": "jEwAMgcCgOA",
+  "nebulaSlug": "",
+  "date": "2016-10-17",
+  "languages": ["p5.js"],
+  "topics": ["sound visualization"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:54",
+      "title": "Use preload() to load the song"
+    },
+    {
+      "time": "3:20",
+      "title": "Create an amplitude object"
+    },
+    {
+      "time": "4:31",
+      "title": "Graph the volume level"
+    },
+    {
+      "time": "6:11",
+      "title": "Visualize the volume array"
+    },
+    {
+      "time": "7:34",
+      "title": "Draw as a continuous line"
+    },
+    {
+      "time": "8:04",
+      "title": "Remove old values"
+    },
+    {
+      "time": "9:00",
+      "title": "Center the graph"
+    },
+    {
+      "time": "12:53",
+      "title": "Translate to center and shift by current volume"
+    },
+    {
+      "time": "13:16",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "getLevel()",
+          "url": "https://p5js.org/reference/#/p5.Amplitude/getLevel",
+          "description": "p5 reference for getLevel()"
+        },
+        {
+          "icon": "🔗",
+          "title": "this.dot song",
+          "url": "https://soundcloud.com/kristianpedersen/this-dot-feat-daniel-shiffman",
+          "description": "this.dot sound by Kristian Pedersen"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

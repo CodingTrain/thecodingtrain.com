@@ -1,0 +1,59 @@
+{
+  "title": "Play and Pause Button",
+  "description": "In Part 2 of the Sound with p5.js series, I show you how to add a button to the DOM capable of playing and stopping the playback of a sound file.",
+  "videoId": "YcezEwOXun4",
+  "nebulaSlug": "",
+  "date": "2016-06-07",
+  "languages": ["p5.js"],
+  "topics": ["sound", "mp3"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:25",
+      "title": "There must be a reference to the p5.Sound library"
+    },
+    {
+      "time": "1:38",
+      "title": "Add a button to start/stop song"
+    },
+    {
+      "time": "2:03",
+      "title": "Write a function that will control the playback of the song"
+    },
+    {
+      "time": "5:50",
+      "title": "stop() versus pause()"
+    },
+    {
+      "time": "6:00",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
