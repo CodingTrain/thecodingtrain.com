@@ -88,24 +88,22 @@ const useVideosWithShowcase = function () {
   return useMemo(() => {
     const tracks = data.tracks.nodes
       .map((track) => {
-        // gather all videos from chapters (main track)
-        if (!track.videos && track.chapters) {
-          track.videos = track.chapters.flatMap((chapter) => chapter.videos);
-        }
-        delete track.chapters;
-        return track;
-      })
-      .map((track) => {
         // keep only videos that can be contributed to
         // keep only videos that belong to this track
-        track.videos = track.videos.filter(
-          (video) =>
-            video.canContribute && video.canonicalTrack?.slug === track.slug
-        );
+        const videoFilter = (video) =>
+          video.canContribute && video.canonicalTrack?.slug === track.slug;
+
+        track.videos = track.videos?.filter(videoFilter);
+        track.chapters = track.chapters
+          ?.map((chapter) => {
+            chapter.videos = chapter.videos.filter(videoFilter);
+            return chapter;
+          })
+          .filter((chapter) => chapter.videos.length);
 
         return track;
       })
-      .filter((track) => track.videos.length > 0);
+      .filter((track) => track.videos?.length || track.chapters?.length);
 
     // create a "challenges track"
     const challengesTrack = {
@@ -211,6 +209,8 @@ const PassengerShowcaseForm = () => {
     };
   };
 
+  const selectedTrack = data.find((track) => track.slug === state.track);
+
   return (
     <div className={css.root}>
       <form onSubmit={onSubmit} className={css.form}>
@@ -238,9 +238,24 @@ const PassengerShowcaseForm = () => {
           Video
           <select name="video" value={state.video} onChange={onChange}>
             <option value="">Select a video</option>
-            {(
-              data.find((track) => track.slug === state.track)?.videos || []
-            ).map((node) => {
+
+            {selectedTrack?.chapters?.map((node) => (
+              <optgroup label={node.title}>
+                {node.videos.map((video) => {
+                  let label = video.title;
+                  if (label.length > 50) {
+                    label = label.substring(0, 50) + '...';
+                  }
+                  return (
+                    <option value={video.slug} key={video.slug}>
+                      {label}
+                    </option>
+                  );
+                })}
+              </optgroup>
+            ))}
+
+            {selectedTrack?.videos?.map((node) => {
               let label = node.title;
               if (label.length > 50) {
                 label = label.substring(0, 50) + '...';
