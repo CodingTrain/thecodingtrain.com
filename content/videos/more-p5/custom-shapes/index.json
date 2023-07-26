@@ -7,7 +7,16 @@
   "topics": ["custom shapes", "beginShape", "endShape", "vertex", "curveVertex"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Custom Shapes",
+      "description": "Demonstration of drawing custom shapes",
+      "image": "custom-shapes.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/vE4Flwxh5"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

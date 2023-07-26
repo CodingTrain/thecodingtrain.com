@@ -7,7 +7,16 @@
   "topics": ["2d arrays", "array", "for loop"],
   "canContribute": true,
   "timestamps": [],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "2D Arrays",
+      "description": "Demonstration of using 2D arrays",
+      "image": "2d-arrays.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cOPZYGNSx"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
