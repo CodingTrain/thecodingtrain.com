@@ -53,6 +53,7 @@
     {
       "title": "Graphing Amplitude",
       "description": "This sketch shows how to use the getLevel() function to graph the amplitude (volume) over time.",
+      "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/F0ZnzjvJC"
       }
