@@ -33,6 +33,15 @@
       "title": "Outro"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Amplitude Analysis",
+      "description": "This sketch shows how to analyze the amplitude (i.e. volume) of a song (any sound input) to control elements of a p5.js sketch.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/QdROT5Nvr"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

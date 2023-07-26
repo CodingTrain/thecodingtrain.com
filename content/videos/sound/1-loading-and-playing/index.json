@@ -49,6 +49,15 @@
       "title": "Outro"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Play Song",
+      "description": "This sketch shows how to load a sound file and play it in the browser.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/yjCG9FncG"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
@@ -68,7 +77,7 @@
         {
           "icon": "🔗",
           "title": "Just Like a Rainbow by the Columbians",
-          "url": "https://freemusicarchive.org/music/The_Columbians/Antique_Phonograph_Music_Program_08252015/Just_Like_A_Rainbow",
+          "url": "https://github.com/CodingTrain/website-archive/blob/main/Tutorials/P5JS/p5.js_sound/17.1_playSong/rainbow.mp3",
           "description": "Song downloaded from freemusicarchiv.org."
         }
       ]

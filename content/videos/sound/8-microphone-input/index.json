@@ -38,6 +38,15 @@
       "title": "Outro"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Microphone Input",
+      "description": "This sketch shows how to use your system microphone as an input to a sketch, controlling elements withe volume.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/goeU3RUbU"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

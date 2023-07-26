@@ -33,6 +33,15 @@
       "title": "Outro"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Play and Pause Button",
+      "description": "This sketch shows how to add a button to the DOM capable of playing and stopping the playback of a sound file.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/3Z_lRpu2y"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
@@ -42,6 +51,12 @@
           "title": "p5.sound library",
           "url": "https://p5js.org/reference/#/libraries/p5.sound",
           "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "Just Like a Rainbow by the Columbians",
+          "url": "https://github.com/CodingTrain/website-archive/blob/main/Tutorials/P5JS/p5.js_sound/17.1_playSong/rainbow.mp3",
+          "description": "Song downloaded from freemusicarchiv.org."
         }
       ]
     }

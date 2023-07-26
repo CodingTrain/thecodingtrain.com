@@ -57,6 +57,15 @@
       "title": "Epilogue"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Sound Synthesis",
+      "description": "This sketch shows how to use the p5.js oscillator to create new sounds.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/QQzHOnXPQ"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

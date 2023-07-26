@@ -33,6 +33,15 @@
       "title": "Outro"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Radial Graph",
+      "description": "This sketch shows how to graph the amplitude (volume) values of a song in as a radial (circular) graph, using trigonometry and polar coordinates.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xe3uKLkl-"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

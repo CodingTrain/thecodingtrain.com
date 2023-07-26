@@ -41,6 +41,15 @@
       "title": "Addendum"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "ASDR Envelope",
+      "description": "This sketch shows how to customize the synthesized sounds created in the previous video.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/XE5faG2vz"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

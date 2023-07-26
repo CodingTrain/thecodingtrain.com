@@ -50,6 +50,15 @@
       "title": "Outro"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Adding Sound Effects",
+      "description": "This sketch shows how to add sound effects to your sketches.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Pbj1Qs1S-"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",

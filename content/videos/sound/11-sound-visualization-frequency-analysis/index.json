@@ -1,6 +1,6 @@
 {
   "title": "Sound Visualization: Frequency Analysis with FFT",
-  "description": "In this video, I use the p5.FFT object to analyze the frequencies (spectrum array) of a sound file.  I create a \"graphic equalizer\" like visualization. ",
+  "description": "In this video, I use the p5.FFT object to analyze the frequencies (spectrum array) of a sound file.  I create a \"graphic equalizer\" like visualization.",
   "videoId": "2O3nm0Nvbi4",
   "nebulaSlug": "",
   "date": "2016-10-19",
@@ -84,6 +84,15 @@
     {
       "time": "16:52",
       "title": "Suggestions for possibile variations"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Frequency Analysis with FFT",
+      "description": "This sketch use the p5.FFT object to analyze the frequencies (spectrum array) of a sound file.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IYB_UgWab"
+      }
     }
   ],
   "groupLinks": [
