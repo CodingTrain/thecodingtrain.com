@@ -90,6 +90,7 @@
     {
       "title": "Frequency Analysis with FFT",
       "description": "This sketch use the p5.FFT object to analyze the frequencies (spectrum array) of a sound file.",
+      "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IYB_UgWab"
       }
