@@ -35,12 +35,10 @@
   ],
   "codeExamples": [
     {
-      "title": "Starfield",
-      "description": "Animated visualization of a starfield (2D rendering)",
-      "image": "starfield.jpg",
+      "title": "Timing, Jumps, and Cues",
+      "description": "This sketch shows how to add cues and jump to different points of time in a sound file in the browser",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/4ln5hPM4Y",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/001_StarField/Processing/CC_001_StarField"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SP-vZu94H"
       }
     }
   ],
