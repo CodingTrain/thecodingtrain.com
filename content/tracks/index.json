@@ -21,6 +21,7 @@
     "side-tracks/teachable-machine",
     "side-tracks/physics-libraries",
     "side-tracks/noise",
-    "side-tracks/webgl"
+    "side-tracks/webgl",
+    "side-tracks/sound"
   ]
 }
