@@ -6,7 +6,15 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["custom shapes", "beginShape", "endShape", "vertex", "curveVertex"],
   "canContribute": true,
-  "timestamps": [],
+  "relatedChallenges": ["36-blobby"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:57", "title": "What is a custom shape?" },
+    { "time": "3:01", "title": "Code example" },
+    { "time": "5:29", "title": "Using an algorithm to choose the vertices" },
+    { "time": "9:37", "title": "Drawing custom curves" },
+    { "time": "16:57", "title": "Recap" }
+  ],
   "codeExamples": [
     {
       "title": "Custom Shapes",
@@ -23,7 +31,7 @@
       "links": [
         {
           "icon": "🔗",
-          "title": "Catmull-Rom",
+          "title": "Catmull-Rom spline",
           "url": "https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline",
           "description": "Catmull-Rom on Wikipedia"
         },
@@ -32,6 +40,12 @@
           "title": "Programming Design Systems",
           "url": "https://programmingdesignsystems.com/introduction/",
           "description": "Rune Madsen's Programming Design Systems"
+        },
+        {
+          "icon": "☁️",
+          "title": "Community Clouds",
+          "url": "https://github.com/CodingTrain/CommunityClouds",
+          "description": "Cloud Designs by the Coding Train Community"
         }
       ]
     },
