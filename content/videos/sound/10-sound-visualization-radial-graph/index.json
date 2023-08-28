@@ -1,0 +1,92 @@
+{
+  "title": "Sound Visualization: Radial Graph",
+  "description": "In this video, I graph the amplitude (volume) values of a song in as a radial (circular) graph, using trigonometry and polar coordinates.",
+  "videoId": "h_aTgOl9J5I",
+  "nebulaSlug": "",
+  "date": "2016-10-18",
+  "languages": ["p5.js"],
+  "topics": ["sound visualization", "radial graph"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:26",
+      "title": "Wrap the graph around a circle"
+    },
+    {
+      "time": "0:51",
+      "title": "Simplify the code"
+    },
+    {
+      "time": "1:44",
+      "title": "Polar to cartesian coordinates"
+    },
+    {
+      "time": "2:47",
+      "title": "Let r be a function of volume"
+    },
+    {
+      "time": "3:23",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Radial Graph",
+      "description": "This sketch shows how to graph the amplitude (volume) values of a song in as a radial (circular) graph, using trigonometry and polar coordinates.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xe3uKLkl-"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "getLevel()",
+          "url": "https://p5js.org/reference/#/p5.Amplitude/getLevel",
+          "description": "p5 reference for getLevel()"
+        },
+        {
+          "icon": "🔗",
+          "title": "this.dot song",
+          "url": "https://soundcloud.com/kristianpedersen/this-dot-feat-daniel-shiffman",
+          "description": "This.dot sound"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Polar Coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "My tutorial about polar coordinates."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

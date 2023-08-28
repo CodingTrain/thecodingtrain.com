@@ -1,0 +1,74 @@
+{
+  "title": "Play and Pause Button",
+  "description": "In Part 2 of the Sound with p5.js series, I show you how to add a button to the DOM capable of playing and stopping the playback of a sound file.",
+  "videoId": "YcezEwOXun4",
+  "nebulaSlug": "",
+  "date": "2016-06-07",
+  "languages": ["p5.js"],
+  "topics": ["sound", "mp3"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:25",
+      "title": "There must be a reference to the p5.Sound library"
+    },
+    {
+      "time": "1:38",
+      "title": "Add a button to start/stop song"
+    },
+    {
+      "time": "2:03",
+      "title": "Write a function that will control the playback of the song"
+    },
+    {
+      "time": "5:50",
+      "title": "stop() versus pause()"
+    },
+    {
+      "time": "6:00",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Play and Pause Button",
+      "description": "This sketch shows how to add a button to the DOM capable of playing and stopping the playback of a sound file.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/3Z_lRpu2y"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "Just Like a Rainbow by the Columbians",
+          "url": "https://github.com/CodingTrain/website-archive/blob/main/Tutorials/P5JS/p5.js_sound/17.1_playSong/rainbow.mp3",
+          "description": "Song downloaded from freemusicarchiv.org."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

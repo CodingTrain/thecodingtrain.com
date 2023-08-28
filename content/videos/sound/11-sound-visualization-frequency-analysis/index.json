@@ -1,0 +1,134 @@
+{
+  "title": "Sound Visualization: Frequency Analysis with FFT",
+  "description": "In this video, I use the p5.FFT object to analyze the frequencies (spectrum array) of a sound file.  I create a \"graphic equalizer\" like visualization.",
+  "videoId": "2O3nm0Nvbi4",
+  "nebulaSlug": "",
+  "date": "2016-10-19",
+  "languages": ["p5.js"],
+  "topics": ["sound visualization", "frequency analysis", "FFT"],
+  "canContribute": true,
+  "relatedChallenges": ["11-3d-terrain-generation-with-perlin-noise", "125-fourier-series", "136-polar-noise-loops"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:43",
+      "title": "p5.FFT object"
+    },
+    {
+      "time": "1:27",
+      "title": "Wikipedia page about FFT"
+    },
+    {
+      "time": "1:59",
+      "title": "Explain the algorithm"
+    },
+    {
+      "time": "2:34",
+      "title": "Amplitude at different frequency levels"
+    },
+    {
+      "time": "2:57",
+      "title": "Bins must be a power of 2"
+    },
+    {
+      "time": "3:23",
+      "title": "Add a p5.FFT object to sketch"
+    },
+    {
+      "time": "4:16",
+      "title": "Use analyse() to get the amplitude values along the frequency domain."
+    },
+    {
+      "time": "4:56",
+      "title": "Default length of array is 1024 bins"
+    },
+    {
+      "time": "6:16",
+      "title": "Loop through the array"
+    },
+    {
+      "time": "7:23",
+      "title": "Values range between 0 and 255"
+    },
+    {
+      "time": "8:50",
+      "title": "Reduce the number of bins to 64"
+    },
+    {
+      "time": "9:24",
+      "title": "Space out the lines"
+    },
+    {
+      "time": "9:59",
+      "title": "Change the lines to rectangles"
+    },
+    {
+      "time": "11:02",
+      "title": "Add the smoothing - default is 0.8"
+    },
+    {
+      "time": "12:59",
+      "title": "Change to a circle"
+    },
+    {
+      "time": "14:47",
+      "title": "Adjust mapping to get full circle"
+    },
+    {
+      "time": "16:19",
+      "title": "Draw lines from the center"
+    },
+    {
+      "time": "16:52",
+      "title": "Suggestions for possibile variations"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Frequency Analysis with FFT",
+      "description": "This sketch use the p5.FFT object to analyze the frequencies (spectrum array) of a sound file.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IYB_UgWab"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "p5.FFT",
+          "url": "https://p5js.org/reference/#/p5.FFT",
+          "description": "p5 reference for FFT (Fast Fourier Transform)"
+        },
+        {
+          "icon": "🔗",
+          "title": "this.dot song",
+          "url": "https://soundcloud.com/kristianpedersen/this-dot-feat-daniel-shiffman",
+          "description": "This.dot sound"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

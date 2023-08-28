@@ -1,0 +1,104 @@
+{
+  "title": "Sound Synthesis",
+  "description": "In part 6 of the Sound with p5.js series, I show you how to use the p5.js oscillator to create new sounds.",
+  "videoId": "Bk8rLzzSink",
+  "nebulaSlug": "",
+  "date": "2016-06-18",
+  "languages": ["p5.js"],
+  "topics": ["sound synthsis"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:17",
+      "title": "Sound waves"
+    },
+    {
+      "time": "2:14",
+      "title": "Amplitude"
+    },
+    {
+      "time": "2:48",
+      "title": "Period"
+    },
+    {
+      "time": "3:22",
+      "title": "Frequency"
+    },
+    {
+      "time": "4:41",
+      "title": "Create a p5.Oscillator"
+    },
+    {
+      "time": "6:56",
+      "title": "Use setType() to set the wave type"
+    },
+    {
+      "time": "8:19",
+      "title": "Order of operations"
+    },
+    {
+      "time": "11:18",
+      "title": "Fading in the sound"
+    },
+    {
+      "time": "14:17",
+      "title": "Try a triangle wave"
+    },
+    {
+      "time": "14:31",
+      "title": "Things you can try"
+    },
+    {
+      "time": "15:00",
+      "title": "Epilogue"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Sound Synthesis",
+      "description": "This sketch shows how to use the p5.js oscillator to create new sounds.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/QQzHOnXPQ"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "Graph of different wave forms",
+          "url": "https://en.wikipedia.org/wiki/Sawtooth_wave#/media/File:Waveforms.svg",
+          "description": "Graph of sine, square, triangle, and sawtooth waveforms"
+        },
+        {
+          "icon": "🔗",
+          "title": "p5.Oscillator",
+          "url": "https://p5js.org/reference/#/p5.Oscillator",
+          "description": "Reference materials for p5.Oscillator"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

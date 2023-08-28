@@ -1,0 +1,76 @@
+{
+  "title": "ADSR Envelope",
+  "description": "In this video, I cover the subject of ADSR Envelope and how to customize the synthesized sounds created in the previous video.",
+  "videoId": "wUSva_BnedA",
+  "nebulaSlug": "",
+  "date": "2016-06-20",
+  "languages": ["p5.js"],
+  "topics": ["sound", "adsr envelope"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:33",
+      "title": "ADSR envelope"
+    },
+    {
+      "time": "1:38",
+      "title": "Stages: Attack, Decay, Sustain, Release"
+    },
+    {
+      "time": "5:16",
+      "title": "p5.Env()"
+    },
+    {
+      "time": "6:17",
+      "title": "Connect env to the waveform"
+    },
+    {
+      "time": "8:15",
+      "title": "Things you could try"
+    },
+    {
+      "time": "8:55",
+      "title": "tone.js"
+    },
+    {
+      "time": "9:35",
+      "title": "Addendum"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "ASDR Envelope",
+      "description": "This sketch shows how to customize the synthesized sounds created in the previous video.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/XE5faG2vz"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

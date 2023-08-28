@@ -1,0 +1,96 @@
+{
+  "title": "Loading and Playing",
+  "description": "In this video series, I discuss the p5.js sound library to work with audio. In this first part, I demonstrate how to load a sound file and play it in the browser.",
+  "videoId": "Pn1g1wjxl_0",
+  "nebulaSlug": "",
+  "date": "2016-06-07",
+  "languages": ["p5.js"],
+  "topics": ["sound", "mp3"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:02",
+      "title": "loading a mp3 file with loadSound()"
+    },
+    {
+      "time": "3:57",
+      "title": "Use preload to load the sound file"
+    },
+    {
+      "time": "6:57",
+      "title": "setVolume"
+    },
+    {
+      "time": "7:36",
+      "title": "Add a slider to control volume"
+    },
+    {
+      "time": "9:34",
+      "title": "Adding a callback"
+    },
+    {
+      "time": "12:26",
+      "title": "Manipulating the sound"
+    },
+    {
+      "time": "13:34",
+      "title": "Rate is the speed at which the song is playing"
+    },
+    {
+      "time": "15:18",
+      "title": "pan()  determines whether you can hear the sound in the left/right speaker"
+    },
+    {
+      "time": "16:43",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Play Song",
+      "description": "This sketch shows how to load a sound file and play it in the browser.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/yjCG9FncG"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "Visualizing Music with p5.js",
+          "url": "https://github.com/therewasaguy/p5-music-viz",
+          "description": "Resources from Jason Sigal, the creator of the p5 sound library."
+        },
+        {
+          "icon": "🔗",
+          "title": "Just Like a Rainbow by the Columbians",
+          "url": "https://github.com/CodingTrain/website-archive/blob/main/Tutorials/P5JS/p5.js_sound/17.1_playSong/rainbow.mp3",
+          "description": "Song downloaded from freemusicarchiv.org."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

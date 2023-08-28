@@ -1,0 +1,17 @@
+{
+  "title": "Sound",
+  "description": "This side track contains tutorials about the p5.Sound library.",
+  "videos": [
+    "sound/1-loading-and-playing",
+    "sound/2-pause-and-play-button",
+    "sound/3-timing-jumps-cues",
+    "sound/4-amplitude_analysis",
+    "sound/5-adding-sound-effects",
+    "sound/6-sound-synthesis",
+    "sound/7-adsr-envelope",
+    "sound/8-microphone-input",
+    "sound/9-sound-visualization",
+    "sound/10-sound-visualization-radial-graph",
+    "sound/11-sound-visualization-frequency-analysis"
+  ]
+}

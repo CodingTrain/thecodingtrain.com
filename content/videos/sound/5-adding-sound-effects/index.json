@@ -1,0 +1,92 @@
+{
+  "title": "Adding Sound Effects",
+  "description": "In this video, I show how to add sound effects to your sketches.",
+  "videoId": "40Me1-yAtTc",
+  "nebulaSlug": "",
+  "date": "2016-06-17",
+  "languages": ["p5.js"],
+  "topics": ["sound effects"],
+  "canContribute": true,
+  "relatedChallenges": ["3-snake-game", "115-snake-game-redux"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:25",
+      "title": "Sound effects package"
+    },
+    {
+      "time": "4:21",
+      "title": "Add a sound effect when the snake eats food"
+    },
+    {
+      "time": "5:42",
+      "title": "Add a sound effect when the game starts over"
+    },
+    {
+      "time": "9:44",
+      "title": "playMode()"
+    },
+    {
+      "time": "11:47",
+      "title": "Add some background music"
+    },
+    {
+      "time": "13:04",
+      "title": "Change the speed of the game when food is eaten"
+    },
+    {
+      "time": "14:58",
+      "title": "Map the frame rate to the rate of the music"
+    },
+    {
+      "time": "16:39",
+      "title": "Increment music rate by a small amount"
+    },
+    {
+      "time": "17:41",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Adding Sound Effects",
+      "description": "This sketch shows how to add sound effects to your sketches.",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Pbj1Qs1S-"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "p5.sound library",
+          "url": "https://p5js.org/reference/#/libraries/p5.sound",
+          "description": "p5.js reference for the sound library"
+        },
+        {
+          "icon": "🔗",
+          "title": "Open Game Art",
+          "url": "https://opengameart.org",
+          "description": "Website with free art and sound effects."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
