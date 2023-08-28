@@ -53,7 +53,7 @@
           "icon": "🚂",
           "title": "Custom Shapes in p5.js",
           "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using beginShape(), endShape(), vertex(), and curveVertex().",
-          "url": "https://www.youtube.com/watch?v=76fiD5DvzeQ"
+          "url": "/tracks/p5-tips-and-tricks/more-p5/custom-shapes"
         }
       ]
     }

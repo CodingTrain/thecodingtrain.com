@@ -1,0 +1,74 @@
+{
+  "title": "Custom Shapes",
+  "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using, `beginShape()`, `endShape()`, `vertex()` and `curveVertex()`. Special thanks to Rune Madsen's Programming Design Systems!",
+  "videoId": "76fiD5DvzeQ",
+  "date": "2017-09-27",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["custom shapes", "beginShape", "endShape", "vertex", "curveVertex"],
+  "canContribute": true,
+  "relatedChallenges": ["36-blobby"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:57", "title": "What is a custom shape?" },
+    { "time": "3:01", "title": "Code example" },
+    { "time": "5:29", "title": "Using an algorithm to choose the vertices" },
+    { "time": "9:37", "title": "Drawing custom curves" },
+    { "time": "16:57", "title": "Recap" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Custom Shapes",
+      "description": "Demonstration of drawing custom shapes",
+      "image": "custom-shapes.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/vE4Flwxh5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Catmull-Rom spline",
+          "url": "https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline",
+          "description": "Catmull-Rom on Wikipedia"
+        },
+        {
+          "icon": "🎨",
+          "title": "Programming Design Systems",
+          "url": "https://programmingdesignsystems.com/introduction/",
+          "description": "Rune Madsen's Programming Design Systems"
+        },
+        {
+          "icon": "☁️",
+          "title": "Community Clouds",
+          "url": "https://github.com/CodingTrain/CommunityClouds",
+          "description": "Cloud Designs by the Coding Train Community"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Polar to Cartesian Coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "This video takes a look at polar and cartesian coordinates."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

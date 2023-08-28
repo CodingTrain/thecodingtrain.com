@@ -1,5 +1,5 @@
 {
   "title": "p5 Tips & Tricks",
   "description": "A collection of tips and tricks that might come in handy when working in p5.",
-  "videos": ["more-p5/local-storage", "more-p5/github-pages-hosting", "more-p5/pixel-array"]
+  "videos": ["more-p5/local-storage", "more-p5/github-pages-hosting", "more-p5/pixel-array", "more-p5/custom-shapes", "more-p5/2d-arrays"]
 }

@@ -92,7 +92,7 @@
         {
           "icon": "🚂",
           "title": "TF-IDF",
-          "url": "https://youtu.be/RPMYV-eb6lI",
+          "url": "/challenges/40-word-counter",
           "description": "In part 3 of the Word Counting Coding Challenge, I implement an algorithm known as TF-IDF (Term Frequency – Inverse Document Frequency)."
         },
         {
