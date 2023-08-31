@@ -1,0 +1,42 @@
+{
+  "title": "Matrix Class Improvements",
+  "description": "In this video, I make small improvements to the Matrix class for th upcoming neural network example. Those improvements are: static methods, a \"print\" method, and a \"map\" method.",
+  "videoId": "HuZbYEn8AvY",
+  "nebulaSlug": "",
+  "date": "2018-01-15",
+  "languages": ["processing"],
+  "topics": ["matrix algebra"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Backpropagation Part 5",
+  "description": "In this video, I implement the formulas for \"gradient descent\" and adjust the weights in the train() function of my \"toy\" JavaScript neural network library.",
+  "videoId": "qB2nwJxNVxM",
+  "nebulaSlug": "",
+  "date": "2018-02-06",
+  "languages": [],
+  "topics": ["neural network", "backpropagation"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

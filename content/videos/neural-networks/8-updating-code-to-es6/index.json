@@ -1,0 +1,42 @@
+{
+  "title": "Updating Code to ES6",
+  "description": "In this video, I update the matrix.js file to use ES6 classes.",
+  "videoId": "puWqNBFDMMk",
+  "nebulaSlug": "",
+  "date": "2018-01-9",
+  "languages": ["processing"],
+  "topics": ["matrix algebra", "es6"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

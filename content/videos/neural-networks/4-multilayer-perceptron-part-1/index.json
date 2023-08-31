@@ -1,0 +1,42 @@
+{
+  "title": "Multilayer Perceptron Part 1",
+  "description": "In this video, I move beyond the Simple Perceptron and discuss what happens when you build multiple layers of interconnected perceptrons (\"fully-connected network\") for machine learning.",
+  "videoId": "u5GAVdLQyIg",
+  "nebulaSlug": "",
+  "date": "2017-06-27",
+  "languages": ["processing"],
+  "topics": ["neural networks", "perceptron"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

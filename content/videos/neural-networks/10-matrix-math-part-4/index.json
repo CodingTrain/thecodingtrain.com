@@ -1,0 +1,42 @@
+{
+  "title": "Matrix Math Part 4",
+  "description": "In this 4th part, I implement a transpose() function for a matrix.",
+  "videoId": "nAz9AA_pQUQ",
+  "nebulaSlug": "",
+  "date": "2018-01-10",
+  "languages": ["processing"],
+  "topics": ["matrix algebra"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

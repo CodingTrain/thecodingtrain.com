@@ -1,0 +1,42 @@
+{
+  "title": "Backpropagation Part 5",
+  "description": "In this video, I implement the formulas for \"gradient descent\" and adjust the bias in the train() function of my \"toy\" JavaScript neural network library. I also test the library with a simple XOR dataset.",
+  "videoId": "tlqinMNM4xs",
+  "nebulaSlug": "",
+  "date": "2018-02-07",
+  "languages": [],
+  "topics": ["neural network", "backpropagation", "XOR"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

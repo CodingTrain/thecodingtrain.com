@@ -1,0 +1,42 @@
+{
+  "title": "Matrix Math Part 1",
+  "description": "This video is a continuation of my first Matrix Math video where I implement in JavaScript the math operations that I need in order to create my own simple neural network library.",
+  "videoId": "uSzGdfdOoG8",
+  "nebulaSlug": "",
+  "date": "2017-07-2",
+  "languages": ["processing"],
+  "topics": ["neural networks", "matrix algebra"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Multilayer Perceptron Part 2",
+  "description": "This video follows up on the previous Multilayer Perceptron video.",
+  "videoId": "IlmNhFxre0w",
+  "nebulaSlug": "",
+  "date": "2017-06-30",
+  "languages": ["processing"],
+  "topics": ["neural networks", "perceptron"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

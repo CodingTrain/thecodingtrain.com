@@ -1,0 +1,42 @@
+{
+  "title": "Feedforward Algorithm Part 2",
+  "description": "This video is a continuation of the Feedforward algorithm video. In this part, I implement the code for the algorithm in a NeuralNetwork class written in JavaScript.",
+  "videoId": "MPmLWsHzPlU",
+  "nebulaSlug": "",
+  "date": "2018-01-22",
+  "languages": ["javascript"],
+  "topics": ["neural network", "feedforward"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    },
+    {
+      "time": "",
+      "title": ""
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
