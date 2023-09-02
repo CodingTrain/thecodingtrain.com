@@ -13,20 +13,56 @@
       "title": "Introduction"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "1:35",
+      "title": "Review neural network structure"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "8:24",
+      "title": "Weight Matrix"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "15:43",
+      "title": "Hidden layer"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "16:15",
+      "title": "Bias"
+    },
+    {
+      "time": "18:45",
+      "title": "Sigmoid activation function"
+    },
+    {
+      "time": "21:23",
+      "title": "Output layer"
+    },
+    {
+      "time": "26:13",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+       "links": [
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        }
+      ]
     }
   ],
   "credits": [

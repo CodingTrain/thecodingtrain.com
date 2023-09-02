@@ -1,11 +1,11 @@
 {
-  "title": "Matrix Product",
-  "description": "In this video, I implement matrix multiplication (\"matrix product\").",
-  "videoId": "NgZAIkDcPkI",
+  "title": "Matrix Math Part 4",
+  "description": "In this 4th part, I implement a transpose() function for a matrix.",
+  "videoId": "nAz9AA_pQUQ",
   "nebulaSlug": "",
-  "date": "2018-01-9",
+  "date": "2018-01-10",
   "languages": ["processing"],
-  "topics": ["matrix algebra", "matrix product"],
+  "topics": ["matrix algebra"],
   "canContribute": true,
   "timestamps": [
     {
@@ -13,35 +13,23 @@
       "title": "Introduction"
     },
     {
-      "time": "1:20",
-      "title": "Matrix Product"
+      "time": "1:00",
+      "title": "Add code for transpose"
     },
     {
-      "time": "4:40",
-      "title": "Dot notation"
-    },
-    {
-      "time": "5:48",
-      "title": "Columns of A must be equal to rows of B"
-    },
-    {
-      "time": "9:57",
-      "title": "Add code for matrix product"
-    },
-    {
-      "time": "19:40",
+      "time": "2:56",
       "title": "Test code"
     },
     {
-      "time": "26:03",
-      "title": "Outro"
+      "time": "4:05",
+      "title": "Feed forward algorithm"
     },
     {
-      "time": "27:40",
-      "title": "Transpose"
+      "time": "",
+      "title": ""
     }
   ],
-   "groupLinks": [
+  "groupLinks": [
     {
       "title": "References",
       "links": [
@@ -73,6 +61,12 @@
           "title": "Essence of linear algebra",
           "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
           "description": "Videos by 3Blue1Brown on linear algebra."
+        },
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
         }
       ]
     }

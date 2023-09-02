@@ -13,20 +13,72 @@
       "title": "Introduction"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "5:19",
+      "title": "Static methods"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "7:50",
+      "title": "Mozilla documentation"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "9:12",
+      "title": "Add print function"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "15:56",
+      "title": "Apply a function to every element of the matrix"
+    },
+     {
+      "time": "20:33",
+      "title": "Outro"
+    }
+  ],
+   "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Brendan Fortuner's Linear algebra cheat sheet for deep learning",
+          "url": "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
+          "description": "Beginner’s guide to commonly used operations."
+        },
+         {
+          "icon": "🔗",
+          "title": "Static methods on MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static",
+          "description": "Mozilla documentation on static methods."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Khan Academy's Linear Algebra class",
+          "url": "https://www.khanacademy.org/math/linear-algebra",
+          "description": "Khan Academy's Linear Algebra tutorial"
+        },
+        {
+          "icon": "🔗",
+          "title": "Essence of linear algebra",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "description": "Videos by 3Blue1Brown on linear algebra."
+        },
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        }
+      ]
     }
   ],
   "credits": [

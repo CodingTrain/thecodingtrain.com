@@ -13,20 +13,90 @@
       "title": "Introduction"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "1:08",
+      "title": "Define objective"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "3:07",
+      "title": "add weight matrices"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "4:48",
+      "title": "Add random weights"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "5:41",
+      "title": "Add the bias"
+    },
+    {
+      "time": "7:14",
+      "title": "Generate the hidden outputs"
+    },
+    {
+      "time": "9:10",
+      "title": "Add a function to create a matrix object from an array"
+    },
+    {
+      "time": "12:11",
+      "title": "Add a sigmoid function"
+    },
+    {
+      "time": "13:32",
+      "title": "Generate the outputs"
+    },
+    {
+      "time": "15:02",
+      "title": "Write a toArray() function"
+    },
+    {
+      "time": "18:57",
+      "title": "Train function"
+    },
+    {
+      "time": "19:17",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Math.exp()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/exp",
+          "description": "Mozilla documentation for math.exp()"
+        },
+        {
+          "icon": "🔗",
+          "title": "Sigmoid function",
+          "url": "https://en.wikipedia.org/wiki/Sigmoid_function",
+          "description": "Wikipedia entry on the sigmoid function."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+       "links": [
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        }
+      ]
     }
   ],
   "credits": [
