@@ -37,7 +37,16 @@
       "title": "Outro"
     }
   ],
-   "groupLinks": [
+  "codeExamples": [
+    {
+      "title": "Toy Neural Network",
+      "description": "Github repo with code for toy neural network.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
+      }
+    }
+  ],
+  "groupLinks": [
     {
       "title": "References",
       "links": [
@@ -63,7 +72,7 @@
     },
     {
       "title": "Videos",
-       "links": [
+      "links": [
         {
           "icon": "🔗",
           "title": "Mathematics of Gradient Descent - Intelligence and Learning",

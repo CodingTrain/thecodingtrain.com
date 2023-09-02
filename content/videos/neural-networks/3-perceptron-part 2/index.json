@@ -41,7 +41,17 @@
       "title": "Outro"
     }
   ],
-   "groupLinks": [
+  "codeExamples": [
+    {
+      "title": "Perceptron",
+      "description": "This sketch trains a perceptron to predict whether a point is above or below a line.",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/natureofcode/sketches/sMozIaMCW"
+      }
+    }
+  ],
+  "groupLinks": [
     {
       "title": "References",
       "links": [

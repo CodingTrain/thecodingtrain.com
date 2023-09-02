@@ -49,6 +49,45 @@
       "title": "Outro"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Toy Neural Network",
+      "description": "Github repo with code for toy neural network.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Tensorflow.js",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Documentation for Tensorflow.js (formerly deeplearn.js)."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        }
+      ]
+    }
+  ],
   "credits": [
     {
       "title": "Editing",

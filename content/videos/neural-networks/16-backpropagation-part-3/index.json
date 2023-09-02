@@ -24,7 +24,7 @@
       "time": "7:59",
       "title": "Resources"
     },
-     {
+    {
       "time": "9:40",
       "title": "Updating the estimated parameters of a line"
     },
@@ -35,6 +35,15 @@
     {
       "time": "19:50",
       "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Toy Neural Network",
+      "description": "Github repo with code for toy neural network.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
+      }
     }
   ],
   "groupLinks": [
@@ -75,7 +84,7 @@
     },
     {
       "title": "Videos",
-       "links": [
+      "links": [
         {
           "icon": "🔗",
           "title": "Mathematics of Gradient Descent - Intelligence and Learning",

@@ -28,12 +28,21 @@
       "time": "15:56",
       "title": "Apply a function to every element of the matrix"
     },
-     {
+    {
       "time": "20:33",
       "title": "Outro"
     }
   ],
-   "groupLinks": [
+  "codeExamples": [
+    {
+      "title": "Matrix library",
+      "description": "Github repo with code for matrix library.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/blob/master/lib/matrix.js"
+      }
+    }
+  ],
+  "groupLinks": [
     {
       "title": "References",
       "links": [

@@ -41,6 +41,15 @@
       "title": "Transpose"
     }
   ],
+  "codeExamples": [
+    {
+      "title": "Matrix library",
+      "description": "Github repo with code for matrix library.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/blob/master/lib/matrix.js"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
