@@ -49,7 +49,7 @@
           "url": "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
           "description": "Beginner’s guide to commonly used operations."
         },
-         {
+        {
           "icon": "🔗",
           "title": "Static methods on MDN",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static",

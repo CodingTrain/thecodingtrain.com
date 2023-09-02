@@ -4,8 +4,8 @@
   "videoId": "nAz9AA_pQUQ",
   "nebulaSlug": "",
   "date": "2018-01-10",
-  "languages": ["processing"],
-  "topics": ["matrix algebra"],
+  "languages": ["Javascript"],
+  "topics": ["matrix algebra", "transpose"],
   "canContribute": true,
   "timestamps": [
     {

@@ -4,7 +4,7 @@
   "videoId": "r2-P1Fi1g60",
   "nebulaSlug": "",
   "date": "2018-01-23",
-  "languages": [],
+  "languages": ["Javascript"],
   "topics": ["neural network", "backpropagation"],
   "canContribute": true,
   "timestamps": [
@@ -13,20 +13,78 @@
       "title": "Introduction"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "2:00",
+      "title": "Calculate the output errors"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "4:41",
+      "title": "Add static subtract function"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "10:11",
+      "title": "Caculate the hidden errors"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "13:48",
+      "title": "The transpose of the weight matrix"
+    },
+    {
+      "time": "18:09",
+      "title": "Outro"
+    }
+  ],
+   "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Tensorflow.js",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Documentation for Tensorflow.js (formerly deeplearn.js)."
+        },
+        {
+          "icon": "🔗",
+          "title": "Sigmoid function",
+          "url": "https://en.wikipedia.org/wiki/Sigmoid_function",
+          "description": "Wikipedia entry on the sigmoid function."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+       "links": [
+        {
+          "icon": "🔗",
+          "title": "Mathematics of Gradient Descent - Intelligence and Learning",
+          "url": "https://www.youtube.com/watch?v=jc2IthslyzM",
+          "description": "My tutorial on the mathematics behind Linear Regression with Gradient Descent."
+        },
+        {
+          "icon": "🔗",
+          "title": "Essence of linear algebra",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "description": "Videos by 3Blue1Brown on linear algebra."
+        },
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        },
+        {
+          "icon": "🔗",
+          "title": "Gradient Descent",
+          "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+          "description": "Video by 3Blue1Brown that explains how neural networks learn."
+        }
+      ]
     }
   ],
   "credits": [

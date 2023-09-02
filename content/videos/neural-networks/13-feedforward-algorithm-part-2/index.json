@@ -4,8 +4,8 @@
   "videoId": "MPmLWsHzPlU",
   "nebulaSlug": "",
   "date": "2018-01-22",
-  "languages": ["javascript"],
-  "topics": ["neural network", "feedforward"],
+  "languages": ["Javascript"],
+  "topics": ["neural network", "feedforward", "Sigmoid function", "activation function"],
   "canContribute": true,
   "timestamps": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "time": "3:07",
-      "title": "add weight matrices"
+      "title": "Add weight matrices"
     },
     {
       "time": "4:48",
