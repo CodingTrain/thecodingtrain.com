@@ -3,7 +3,7 @@
   "description": "In this video, I introduce the idea of \"Linear Algebra\" and explore the matrix math required for a simple neural network library.",
   "videoId": "n6q9D2wd1bE",
   "nebulaSlug": "",
-  "date": "2017-07-3",
+  "date": "2017-07-03",
   "languages": ["Javascript"],
   "topics": ["neural networks", "matrix algebra"],
   "canContribute": true,

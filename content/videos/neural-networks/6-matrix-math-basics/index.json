@@ -3,7 +3,7 @@
   "description": "This video is a continuation of my first Matrix Math video where I implement in JavaScript the math operations that I need in order to create my own simple neural network library.",
   "videoId": "uSzGdfdOoG8",
   "nebulaSlug": "",
-  "date": "2017-07-2",
+  "date": "2017-07-02",
   "languages": ["Javascript"],
   "topics": ["neural networks", "matrix algebra"],
   "canContribute": true,

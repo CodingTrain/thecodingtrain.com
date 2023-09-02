@@ -3,7 +3,7 @@
   "description": "In this video, I implement matrix multiplication (\"matrix product\").",
   "videoId": "NgZAIkDcPkI",
   "nebulaSlug": "",
-  "date": "2018-01-9",
+  "date": "2018-01-09",
   "languages": ["JavaScript"],
   "topics": ["matrix algebra", "matrix product"],
   "canContribute": true,
@@ -41,7 +41,7 @@
       "title": "Transpose"
     }
   ],
-   "groupLinks": [
+  "groupLinks": [
     {
       "title": "References",
       "links": [

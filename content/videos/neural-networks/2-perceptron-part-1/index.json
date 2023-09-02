@@ -3,7 +3,7 @@
   "description": "In this video, I continue my machine learning series and build a simple Perceptron in Processing.",
   "videoId": "ntKn5TPHHAk",
   "nebulaSlug": "",
-  "date": "2017-06-8",
+  "date": "2017-06-08",
   "languages": ["Processing"],
   "topics": ["neural networks", "perceptron"],
   "canContribute": true,
@@ -60,7 +60,7 @@
       "time": "31:00",
       "title": "Learning rate"
     },
-     {
+    {
       "time": "38:06",
       "title": "Train one point at a time"
     },
@@ -73,7 +73,7 @@
       "title": "Thanks for watching!"
     }
   ],
-   "groupLinks": [
+  "groupLinks": [
     {
       "title": "References",
       "links": [

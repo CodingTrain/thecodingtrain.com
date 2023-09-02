@@ -3,7 +3,7 @@
   "description": "In this video, I update the matrix.js file to use ES6 classes.",
   "videoId": "puWqNBFDMMk",
   "nebulaSlug": "",
-  "date": "2018-01-9",
+  "date": "2018-01-09",
   "languages": ["Javascript"],
   "topics": ["matrix algebra", "es6"],
   "canContribute": true,
@@ -43,7 +43,7 @@
         {
           "icon": "🔗",
           "title": "Classes in ES6",
-          "url": "content/videos/code/6-objects/2-classes",
+          "url": "/tracks/code/6-objects/2-classes",
           "description": "This video introduces Object-Oriented Programming in JavaScript with ES6 classes and the p5.js library."
         }
       ]

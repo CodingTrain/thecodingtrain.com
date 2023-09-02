@@ -1,6 +1,6 @@
 {
   "title": "Neural Networks",
-  "description": "This side track contains tutorials neutral networks and matrix algebra.",
+  "description": "This side track contains tutorials about neural networks and matrix algebra.",
   "videos": [
     "neural-networks/1-introduction",
     "neural-networks/2-perceptron-part-1",
