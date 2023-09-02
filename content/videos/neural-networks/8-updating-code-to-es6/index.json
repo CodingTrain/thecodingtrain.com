@@ -13,20 +13,40 @@
       "title": "Introduction"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "1:32",
+      "title": "Update neural network to be a class"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "4:29",
+      "title": "Array functions"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "6:00",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        }
+      ]
     },
     {
-      "time": "",
-      "title": ""
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Classes in ES6",
+          "url": "content/videos/code/6-objects/2-classes",
+          "description": "This video introduces Object-Oriented Programming in JavaScript with ES6 classes and the p5.js library."
+        }
+      ]
     }
   ],
   "credits": [
