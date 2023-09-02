@@ -4,7 +4,7 @@
   "videoId": "IlmNhFxre0w",
   "nebulaSlug": "",
   "date": "2017-06-30",
-  "languages": ["processing"],
+  "languages": ["JavaScript"],
   "topics": ["neural networks", "multilayer perceptron", "linear algebra"],
   "canContribute": true,
   "timestamps": [
@@ -30,7 +30,7 @@
     },
     {
       "time": "8:56",
-      "title": "Feed forward process"
+      "title": "Feedforward process"
     },
     {
       "time": "12:19",

@@ -4,7 +4,7 @@
   "videoId": "tlqinMNM4xs",
   "nebulaSlug": "",
   "date": "2018-02-07",
-  "languages": [],
+  "languages": ["JavaScript"],
   "topics": ["neural network", "backpropagation", "XOR"],
   "canContribute": true,
   "timestamps": [
@@ -13,20 +13,40 @@
       "title": "Introduction"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "0:14",
+      "title": "Fix some mixtakes"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "2:29",
+      "title": "Add the deltas for the bias"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "3:54",
+      "title": "Adjust the bias by its deltas"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "5:57",
+      "title": "Stochastic gradient descent"
+    },
+    {
+      "time": "7:26",
+      "title": "Architecture for XOR problem"
+    },
+    {
+      "time": "8:15",
+      "title": "Training data"
+    },
+    {
+      "time": "13:05",
+      "title": "Randomize the training data"
+    },
+    {
+      "time": "13:38",
+      "title": "Start training"
+    },
+    {
+      "time": "14:19",
+      "title": "Outro"
     }
   ],
   "credits": [

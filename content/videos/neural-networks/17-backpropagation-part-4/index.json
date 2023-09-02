@@ -4,8 +4,8 @@
   "videoId": "qB2nwJxNVxM",
   "nebulaSlug": "",
   "date": "2018-02-06",
-  "languages": ["Javascript"],
-  "topics": ["neural network", "backpropagation"],
+  "languages": ["JavaScript"],
+  "topics": ["neural network", "backpropagation", "gradient descent"],
   "canContribute": true,
   "timestamps": [
     {
@@ -13,20 +13,66 @@
       "title": "Introduction"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "3:02",
+      "title": "Calculate gradients"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "6:29",
+      "title": "Add learning rate"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "7:11",
+      "title": "Calculate deltas"
     },
     {
-      "time": "",
-      "title": ""
+      "time": "9:56",
+      "title": "Deal with the hidden layer"
+    },
+    {
+      "time": "13:57",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Tensorflow.js",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Documentation for Tensorflow.js (formerly deeplearn.js)."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+       "links": [
+        {
+          "icon": "🔗",
+          "title": "Mathematics of Gradient Descent - Intelligence and Learning",
+          "url": "https://www.youtube.com/watch?v=jc2IthslyzM",
+          "description": "My tutorial on the mathematics behind Linear Regression with Gradient Descent."
+        },
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        },
+        {
+          "icon": "🔗",
+          "title": "Gradient Descent",
+          "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+          "description": "Video by 3Blue1Brown that explains how neural networks learn."
+        }
+      ]
     }
   ],
   "credits": [
