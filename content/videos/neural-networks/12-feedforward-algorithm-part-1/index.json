@@ -59,6 +59,12 @@
           "title": "Intelligence and Learning",
           "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
           "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Make Your Own Neural Network",
+          "url": "https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G",
+          "description": "Reference book by Tariq Rashid"
         }
       ]
     },

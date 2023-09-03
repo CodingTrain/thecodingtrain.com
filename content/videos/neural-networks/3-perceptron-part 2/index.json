@@ -7,6 +7,7 @@
   "languages": ["Processing"],
   "topics": ["neural networks", "perceptron"],
   "canContribute": true,
+  "relatedChallenges": ["104-linear-regression-with-tensorflowjs"],
   "timestamps": [
     {
       "time": "0:00",
@@ -47,7 +48,8 @@
       "description": "This sketch trains a perceptron to predict whether a point is above or below a line.",
       "image": "img.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/natureofcode/sketches/sMozIaMCW"
+        "p5": "https://editor.p5js.org/natureofcode/sketches/sMozIaMCW",
+        "processing": "https://github.com/nature-of-code/noc-examples-processing/tree/master/chp10_nn/NOC_10_01_SimplePerceptron"
       }
     }
   ],

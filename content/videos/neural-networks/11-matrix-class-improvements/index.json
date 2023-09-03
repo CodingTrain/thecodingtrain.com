@@ -1,12 +1,13 @@
 {
   "title": "Matrix Class Improvements",
-  "description": "In this video, I make small improvements to the Matrix class for th upcoming neural network example. Those improvements are: static methods, a \"print\" method, and a \"map\" method.",
+  "description": "In this video, I make small improvements to the Matrix class for the upcoming neural network example. Those improvements are: static methods, a \"print\" method, and a \"map\" method.",
   "videoId": "HuZbYEn8AvY",
   "nebulaSlug": "",
   "date": "2018-01-15",
   "languages": ["JavaScript"],
   "topics": ["matrix algebra"],
   "canContribute": true,
+  "relatedChallenges": ["113-4d-hypercube-aka-tesseract"],
   "timestamps": [
     {
       "time": "0:00",

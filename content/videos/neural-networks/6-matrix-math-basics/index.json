@@ -1,6 +1,6 @@
 {
   "title": "Matrix Math - Basics",
-  "description": "This video is a continuation of my first Matrix Math video where I implement in JavaScript the math operations that I need in order to create my own simple neural network library.",
+  "description": "In this video, I introduce the idea of \"Linear Algebra\" and explore the matrix math required for a simple neural network library.",
   "videoId": "uSzGdfdOoG8",
   "nebulaSlug": "",
   "date": "2017-07-02",
@@ -31,10 +31,6 @@
     {
       "time": "8:29",
       "title": "What is a matrix?"
-    },
-    {
-      "time": "9:09",
-      "title": "Scalar operations"
     },
     {
       "time": "10:45",

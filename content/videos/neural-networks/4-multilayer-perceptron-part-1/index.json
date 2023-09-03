@@ -7,6 +7,7 @@
   "languages": ["JavaScript"],
   "topics": ["neural networks", "perceptron"],
   "canContribute": true,
+  "relatedChallenges": ["105-polynomial-regression-with-tensorflowjs", "92-xor-problem"],
   "timestamps": [
     {
       "time": "0:00",
@@ -33,7 +34,7 @@
       "title": "Outro"
     }
   ],
-   "groupLinks": [
+  "groupLinks": [
     {
       "title": "References",
       "links": [
