@@ -107,6 +107,10 @@
         "noc/9-genetic-algorithms/9-interactive-selection",
         "noc/9-genetic-algorithms/10-continuous-evolutionary-systems"
       ]
+    },
+    {
+      "title": "Neural Networks",
+      "videos": ["neural-networks/2-perceptron-part-1", "neural-networks/3-perceptron-part 2", "challenges/92-xor-problem"]
     }
   ]
 }
