@@ -7,6 +7,7 @@
   "languages": ["JavaScript"],
   "topics": ["neural networks", "multilayer perceptron", "linear algebra"],
   "canContribute": true,
+  "canonicalTrack": "neural-networks",
   "timestamps": [
     {
       "time": "0:00",
@@ -49,7 +50,7 @@
       "title": "Outro"
     }
   ],
-   "groupLinks": [
+  "groupLinks": [
     {
       "title": "References",
       "links": [
