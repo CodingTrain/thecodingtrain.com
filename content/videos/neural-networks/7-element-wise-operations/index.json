@@ -1,0 +1,91 @@
+{
+  "title": "Matrix Math - Element-wise operations",
+  "description": "In this video, I continue my discussion of linear algebra.",
+  "videoId": "n6q9D2wd1bE",
+  "nebulaSlug": "",
+  "date": "2017-07-03",
+  "languages": ["Javascript"],
+  "topics": ["neural networks", "matrix algebra"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:20",
+      "title": "console.table(array)"
+    },
+    {
+      "time": "2:40",
+      "title": "Element-wise operations"
+    },
+    {
+      "time": "3:24",
+      "title": "Matrices must have the same dimension for element-wise addition"
+    },
+    {
+      "time": "6:05",
+      "title": "instanceof"
+    },
+    {
+      "time": "13:00",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Matrix library",
+      "description": "Github repo with code for matrix library.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/blob/master/lib/matrix.js"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Brendan Fortuner's Linear algebra cheat sheet for deep learning",
+          "url": "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
+          "description": "Beginner’s guide to commonly used operations."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Khan Academy's Linear Algebra class",
+          "url": "https://www.khanacademy.org/math/linear-algebra",
+          "description": "Khan Academy's Linear Algebra tutorial"
+        },
+        {
+          "icon": "🔗",
+          "title": "Essence of linear algebra",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "description": "Videos by 3Blue1Brown on linear algebra."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

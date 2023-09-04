@@ -1,0 +1,117 @@
+{
+  "title": "Perceptron Part 1",
+  "description": "In this video, I continue my machine learning series and build a simple Perceptron in Processing.",
+  "videoId": "ntKn5TPHHAk",
+  "nebulaSlug": "",
+  "date": "2017-06-08",
+  "languages": ["Processing"],
+  "topics": ["neural networks", "perceptron"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:54",
+      "title": "What is a perceptron?"
+    },
+    {
+      "time": "3:17",
+      "title": "Classify whether a point is above/below a line"
+    },
+    {
+      "time": "5:25",
+      "title": "Supervised learning"
+    },
+    {
+      "time": "7:55",
+      "title": "Activation functions"
+    },
+    {
+      "time": "10:22",
+      "title": "Initalizing the weights"
+    },
+    {
+      "time": "11:39",
+      "title": "Perceptron class"
+    },
+    {
+      "time": "13:19",
+      "title": "Guess function"
+    },
+    {
+      "time": "18:55",
+      "title": "Create a dataset"
+    },
+    {
+      "time": "23:10",
+      "title": "Supervised learning"
+    },
+    {
+      "time": "25:16",
+      "title": "Updating weights"
+    },
+    {
+      "time": "28:33",
+      "title": "Training"
+    },
+    {
+      "time": "31:00",
+      "title": "Learning rate"
+    },
+    {
+      "time": "38:06",
+      "title": "Train one point at a time"
+    },
+    {
+      "time": "41:35",
+      "title": "Bias"
+    },
+    {
+      "time": "44:24",
+      "title": "Thanks for watching!"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Make Your Own Neural Network",
+          "url": "https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G",
+          "description": "Reference book by Tariq Rashid"
+        },
+        {
+          "icon": "🔗",
+          "title": "Perceptrons",
+          "url": "https://www.amazon.com/Perceptrons-Introduction-Computational-Geometry-Expanded/dp/0262631113",
+          "description": "Reference book on perceptrons by Marvin Minsky."
+        },
+        {
+          "icon": "🔗",
+          "title": "Perceptron",
+          "url": "https://en.wikipedia.org/wiki/Perceptron",
+          "description": "Wikipedia entry on the Perceptron."
+        },
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

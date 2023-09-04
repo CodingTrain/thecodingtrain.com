@@ -1,0 +1,99 @@
+{
+  "title": "Matrix Product",
+  "description": "In this video, I implement matrix multiplication (\"matrix product\").",
+  "videoId": "NgZAIkDcPkI",
+  "nebulaSlug": "",
+  "date": "2018-01-09",
+  "languages": ["JavaScript"],
+  "topics": ["matrix algebra", "matrix product"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:20",
+      "title": "Matrix Product"
+    },
+    {
+      "time": "4:40",
+      "title": "Dot notation"
+    },
+    {
+      "time": "5:48",
+      "title": "Columns of A must be equal to rows of B"
+    },
+    {
+      "time": "9:57",
+      "title": "Add code for matrix product"
+    },
+    {
+      "time": "19:40",
+      "title": "Test code"
+    },
+    {
+      "time": "26:03",
+      "title": "Outro"
+    },
+    {
+      "time": "27:40",
+      "title": "Transpose"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Matrix library",
+      "description": "Github repo with code for matrix library.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/blob/master/lib/matrix.js"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Brendan Fortuner's Linear algebra cheat sheet for deep learning",
+          "url": "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
+          "description": "Beginner’s guide to commonly used operations."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Khan Academy's Linear Algebra class",
+          "url": "https://www.khanacademy.org/math/linear-algebra",
+          "description": "Khan Academy's Linear Algebra tutorial"
+        },
+        {
+          "icon": "🔗",
+          "title": "Essence of linear algebra",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "description": "Videos by 3Blue1Brown on linear algebra."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

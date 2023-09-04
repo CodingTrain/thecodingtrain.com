@@ -1,0 +1,137 @@
+{
+  "title": "Backpropagation Part 3",
+  "description": "In this video, I discuss how \"gradient descent\" can be used to adjust the weights during back propagation in my \"toy\" JavaScript neural network library.",
+  "videoId": "8H2ODPNxEgA",
+  "nebulaSlug": "",
+  "date": "2018-02-05",
+  "languages": ["JavaScript"],
+  "topics": ["neural network", "backpropagation", "gradient descent"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:56",
+      "title": "Review"
+    },
+    {
+      "time": "3:23",
+      "title": "Train / test data"
+    },
+    {
+      "time": "7:59",
+      "title": "Resources"
+    },
+    {
+      "time": "9:40",
+      "title": "Updating the estimated parameters of a line"
+    },
+    {
+      "time": "12:22",
+      "title": "Calculate the change in weights"
+    },
+    {
+      "time": "19:50",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Toy Neural Network",
+      "description": "Github repo with code for toy neural network.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Make Your Own Neural Network",
+          "url": "https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G",
+          "description": "Reference book by Tariq Rashid"
+        },
+        {
+          "icon": "🔗",
+          "title": "Tensorflow.js",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Documentation for Tensorflow.js (formerly deeplearn.js)."
+        },
+        {
+          "icon": "🔗",
+          "title": "Backpropagation",
+          "url": "https://en.wikipedia.org/wiki/Backpropagation",
+          "description": "Wikipedia entry on Backpropagation."
+        },
+        {
+          "icon": "🔗",
+          "title": "ml4a",
+          "url": "https://github.com/ml4a",
+          "description": "Machine learning for artists."
+        },
+        {
+          "icon": "🔗",
+          "title": "matrixmultiplication.xyz",
+          "url": "http://matrixmultiplication.xyz",
+          "description": "Matrix multiplier tool."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Mathematics of Gradient Descent - Intelligence and Learning",
+          "url": "https://www.youtube.com/watch?v=jc2IthslyzM",
+          "description": "My tutorial on the mathematics behind Linear Regression with Gradient Descent."
+        },
+        {
+          "icon": "🔗",
+          "title": "Linear Regression with Gradient Descent - Intelligence and Learning",
+          "url": "https://www.youtube.com/watch?v=L-Lsfu4ab74",
+          "description": "In this video I continue my Machine Learning series and attempt to explain Linear Regression with Gradient Descent."
+        },
+        {
+          "icon": "🔗",
+          "title": "Essence of linear algebra",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "description": "Videos by 3Blue1Brown on linear algebra."
+        },
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        },
+        {
+          "icon": "🔗",
+          "title": "Gradient Descent",
+          "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+          "description": "Video by 3Blue1Brown that explains how neural networks learn."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

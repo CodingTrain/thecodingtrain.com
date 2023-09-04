@@ -1,0 +1,121 @@
+{
+  "title": "Feedforward Algorithm Part 2",
+  "description": "This video is a continuation of the Feedforward algorithm video. In this part, I implement the code for the algorithm in a NeuralNetwork class written in JavaScript.",
+  "videoId": "MPmLWsHzPlU",
+  "nebulaSlug": "",
+  "date": "2018-01-22",
+  "languages": ["JavaScript"],
+  "topics": ["neural network", "feedforward", "Sigmoid function", "activation function"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:08",
+      "title": "Define objective"
+    },
+    {
+      "time": "3:07",
+      "title": "Add weight matrices"
+    },
+    {
+      "time": "4:48",
+      "title": "Add random weights"
+    },
+    {
+      "time": "5:41",
+      "title": "Add the bias"
+    },
+    {
+      "time": "7:14",
+      "title": "Generate the hidden outputs"
+    },
+    {
+      "time": "9:10",
+      "title": "Add a function to create a matrix object from an array"
+    },
+    {
+      "time": "12:11",
+      "title": "Add a sigmoid function"
+    },
+    {
+      "time": "13:32",
+      "title": "Generate the outputs"
+    },
+    {
+      "time": "15:02",
+      "title": "Write a toArray() function"
+    },
+    {
+      "time": "18:57",
+      "title": "Train function"
+    },
+    {
+      "time": "19:17",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Toy Neural Network",
+      "description": "Github repo with code for toy neural network.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Make Your Own Neural Network",
+          "url": "https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G",
+          "description": "Reference book by Tariq Rashid"
+        },
+        {
+          "icon": "🔗",
+          "title": "Math.exp()",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/exp",
+          "description": "Mozilla documentation for math.exp()"
+        },
+        {
+          "icon": "🔗",
+          "title": "Sigmoid function",
+          "url": "https://en.wikipedia.org/wiki/Sigmoid_function",
+          "description": "Wikipedia entry on the sigmoid function."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

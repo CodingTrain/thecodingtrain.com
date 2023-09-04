@@ -1,0 +1,119 @@
+{
+  "title": "Matrix Math - Basics",
+  "description": "In this video, I introduce the idea of \"Linear Algebra\" and explore the matrix math required for a simple neural network library.",
+  "videoId": "uSzGdfdOoG8",
+  "nebulaSlug": "",
+  "date": "2017-07-02",
+  "languages": ["Javascript"],
+  "topics": ["neural networks", "matrix algebra"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Hello!"
+    },
+    {
+      "time": "2:19",
+      "title": "Vectors and Matrices"
+    },
+    {
+      "time": "4:00",
+      "title": "Scalar operations"
+    },
+    {
+      "time": "4:22",
+      "title": "Element-wise operations"
+    },
+    {
+      "time": "5:23",
+      "title": "Dot Product"
+    },
+    {
+      "time": "8:29",
+      "title": "What is a matrix?"
+    },
+    {
+      "time": "10:45",
+      "title": "Write a matrix function"
+    },
+    {
+      "time": "12:30",
+      "title": "Initialize the values"
+    },
+    {
+      "time": "14:56",
+      "title": "Add functions for scalar operations"
+    },
+    {
+      "time": "17:24",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Matrix library",
+      "description": "Github repo with code for matrix library.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/blob/master/lib/matrix.js"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Brendan Fortuner's Linear algebra cheat sheet for deep learning",
+          "url": "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
+          "description": "Beginner’s guide to commonly used operations."
+        },
+        {
+          "icon": "🔗",
+          "title": "Math.js",
+          "url": "https://mathjs.org",
+          "description": "Math.js is an extensive math library for JavaScript and Node.js."
+        },
+        {
+          "icon": "🔗",
+          "title": "GPU.js",
+          "url": "https://gpu.rocks/#/",
+          "description": "GPU accelerated JavaScript."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Khan Academy's Linear Algebra class",
+          "url": "https://www.khanacademy.org/math/linear-algebra",
+          "description": "Khan Academy's Linear Algebra tutorial"
+        },
+        {
+          "icon": "🔗",
+          "title": "Essence of linear algebra",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "description": "Videos by 3Blue1Brown on linear algebra."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

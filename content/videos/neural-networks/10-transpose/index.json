@@ -1,0 +1,93 @@
+{
+  "title": "Matrix Math Part 4",
+  "description": "In this 4th part, I implement a transpose() function for a matrix.",
+  "videoId": "nAz9AA_pQUQ",
+  "nebulaSlug": "",
+  "date": "2018-01-10",
+  "languages": ["JavaScript"],
+  "topics": ["matrix algebra", "transpose"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:00",
+      "title": "Add code for transpose"
+    },
+    {
+      "time": "2:56",
+      "title": "Test code"
+    },
+    {
+      "time": "4:05",
+      "title": "Feed forward algorithm"
+    },
+    {
+      "time": "4:19",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Matrix library",
+      "description": "Github repo with code for matrix library.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS/blob/master/lib/matrix.js"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        },
+        {
+          "icon": "🔗",
+          "title": "Brendan Fortuner's Linear algebra cheat sheet for deep learning",
+          "url": "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
+          "description": "Beginner’s guide to commonly used operations."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Khan Academy's Linear Algebra class",
+          "url": "https://www.khanacademy.org/math/linear-algebra",
+          "description": "Khan Academy's Linear Algebra tutorial"
+        },
+        {
+          "icon": "🔗",
+          "title": "Essence of linear algebra",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+          "description": "Videos by 3Blue1Brown on linear algebra."
+        },
+        {
+          "icon": "🔗",
+          "title": "Neural Networks",
+          "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "description": "Videos by 3Blue1Brown that explain the basics of neural networks."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

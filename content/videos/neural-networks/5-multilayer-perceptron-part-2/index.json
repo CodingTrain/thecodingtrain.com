@@ -1,0 +1,93 @@
+{
+  "title": "Multilayer Perceptron Part 2",
+  "description": "This video follows up on the previous Multilayer Perceptron video.",
+  "videoId": "IlmNhFxre0w",
+  "nebulaSlug": "",
+  "date": "2017-06-30",
+  "languages": ["JavaScript"],
+  "topics": ["neural networks", "multilayer perceptron", "linear algebra"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:21",
+      "title": "Design for the neural network library"
+    },
+    {
+      "time": "3:39",
+      "title": "Fully connected network"
+    },
+    {
+      "time": "6:05",
+      "title": "Create a neural network"
+    },
+    {
+      "time": "7:40",
+      "title": "Shape of data"
+    },
+    {
+      "time": "8:56",
+      "title": "Feedforward process"
+    },
+    {
+      "time": "12:19",
+      "title": "Normalizing the data"
+    },
+    {
+      "time": "15:32",
+      "title": "Weights matrix"
+    },
+    {
+      "time": "18:21",
+      "title": "Linear algebra"
+    },
+    {
+      "time": "20:51",
+      "title": "Outro"
+    }
+  ],
+   "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Make Your Own Neural Network",
+          "url": "https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G",
+          "description": "Reference book by Tariq Rashid"
+        },
+        {
+          "icon": "🔗",
+          "title": "Perceptrons",
+          "url": "https://www.amazon.com/Perceptrons-Introduction-Computational-Geometry-Expanded/dp/0262631113",
+          "description": "Reference book on perceptrons by Marvin Minsky."
+        },
+        {
+          "icon": "🔗",
+          "title": "Perceptron",
+          "url": "https://en.wikipedia.org/wiki/Perceptron",
+          "description": "Wikipedia entry on the Perceptron."
+        },
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

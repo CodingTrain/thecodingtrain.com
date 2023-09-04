@@ -1,0 +1,62 @@
+{
+  "title": "Updating Code to ES6",
+  "description": "In this video, I update the matrix.js file to use ES6 classes.",
+  "videoId": "puWqNBFDMMk",
+  "nebulaSlug": "",
+  "date": "2018-01-09",
+  "languages": ["Javascript"],
+  "topics": ["matrix algebra", "es6"],
+  "canContribute": true,
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:32",
+      "title": "Update neural network to be a class"
+    },
+    {
+      "time": "4:29",
+      "title": "Array functions"
+    },
+    {
+      "time": "6:00",
+      "title": "Outro"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Intelligence and Learning",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
+          "description": "Course materials for my Intelligence and Learning class."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Classes in ES6",
+          "url": "/tracks/code/6-objects/2-classes",
+          "description": "This video introduces Object-Oriented Programming in JavaScript with ES6 classes and the p5.js library."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
