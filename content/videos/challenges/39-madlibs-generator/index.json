@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js", "tabletop.js"],
   "topics": ["Mad Libs game", "Google Forms", "data collecting"],
   "canContribute": true,
-  "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator", "42-markov-chain-name-generator"],
+  "relatedChallenges": ["37-diastic-machine", "38-word-interactor", "42-markov-chain-name-generator"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction and what Mad Libs is" },
     { "time": "2:15", "title": "Making the Google Form" },
