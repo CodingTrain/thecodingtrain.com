@@ -16,7 +16,7 @@
     { "time": "5:08", "title": "Put span elements in a paragraph" },
     { "time": "6:40", "title": "Rebuild with original punctuation" },
     { "time": "8:19", "title": "Use a regular expression to apply styling" },
-    { "time": "10:34", "title": "Add a moouse-over event listener" },
+    { "time": "10:34", "title": "Add a mouse-over event listener" },
     { "time": "15:00", "title": "Use \"this\" keyword to interact with a word" },
     { "time": "16:43", "title": "What could you do?" },
     { "time": "17:15", "title": "Outro" }
