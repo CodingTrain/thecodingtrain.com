@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "code/2-variables/4-random/showcase/contribution-1689997214.json",
-      "code/4-loops/2-nested/showcase/contribution-1688862737.json",
-      "challenges/56-attraction-and-repulsion-forces/showcase/contribution-1690216577.json",
-      "challenges/3-snake-game/showcase/contribution1.json",
-      "challenges/45-p5js-firebase-drawings/showcase/contribution1.json",
-      "challenges/108-barnsley-fern/showcase/contribution3.json",
-      "challenges/16-l-system-fractal-trees/showcase/contribution2.json",
-      "challenges/71-minesweeper/showcase/contribution1.json"
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1693521000.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1693502214.json",
+      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution-1693059733.json",
+      "code/3-conditionals/3-else-if-and-or/showcase/contribution-1691437439.json",
+      "",
+      "",
+      "",
+      ""
     ],
     "showcaseCta": {
       "text": "Want to see more?",
