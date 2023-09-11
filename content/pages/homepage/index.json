@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "3-snake-game",
-      "16-l-system-fractal-trees",
-      "108-barnsley-fern",
-      "71-minesweeper",
-      "23-2d-supershapes",
-      "45-p5js-firebase-drawings"
+      "48-white-house-social-media-data-visualization",
+      "100-neuroevolution-flappy-bird",
+      "92-xor-problem",
+      "20-3d-cloth-simulation",
+      "15-object-oriented-fractal-trees",
+      "40-word-counter"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "code/2-variables/4-random/showcase/contribution-1689997214.json",
-      "code/4-loops/2-nested/showcase/contribution-1688862737.json",
-      "challenges/56-attraction-and-repulsion-forces/showcase/contribution-1690216577.json",
-      "challenges/3-snake-game/showcase/contribution1.json",
-      "challenges/45-p5js-firebase-drawings/showcase/contribution1.json",
-      "challenges/108-barnsley-fern/showcase/contribution3.json",
-      "challenges/16-l-system-fractal-trees/showcase/contribution2.json",
-      "challenges/71-minesweeper/showcase/contribution1.json"
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1693521000.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1693502214.json",
+      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution-1693059733.json",
+      "code/3-conditionals/3-else-if-and-or/showcase/contribution-1691437439.json",
+      "challenges/177-soft-body-character/showcase/contribution-1694003438.json",
+      "challenges/146-rendering-ray-casting/showcase/contribution-1693078454.json",
+      "physics-libraries/toxiclibs/1-introduction/showcase/contribution-1691583970.json",
+      "challenges/100-neuroevolution-flappy-bird/showcase/contribution13.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
