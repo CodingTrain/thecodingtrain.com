@@ -1,0 +1,69 @@
+{
+  "title": "Word Interactor",
+  "description": "In this coding challenge, I make something called a \"Word Interactor\" using regular expressions, JavaScript, and the p5.js library for DOM manipulation.",
+  "videoNumber": "38",
+  "videoId": "AKuW48WeNMA",
+  "date": "2016-09-20",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["regular expressions", "dom elements", "regular expressions"],
+  "canContribute": true,
+  "relatedChallenges": ["37-diastic-machine", "39-madlibs-generator", "42-markov-chain-name-generator"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:42", "title": "Split text into separate words" },
+    { "time": "2:08", "title": "Add delimiter" },
+    { "time": "3:30", "title": "Create a span element for each word" },
+    { "time": "5:08", "title": "Put span elements in a paragraph" },
+    { "time": "6:40", "title": "Rebuild with original punctuation" },
+    { "time": "8:19", "title": "Use a regular expression to apply styling" },
+    { "time": "10:34", "title": "Add a mouse-over event listener" },
+    { "time": "15:00", "title": "Use \"this\" keyword to interact with a word" },
+    { "time": "16:43", "title": "What could you do?" },
+    { "time": "17:15", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Word Interactor",
+      "description": "The sketch shows how to manipulate dom elements.",
+      "image": "img.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Jr3zCQw-9"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Regular Expressions",
+          "url": "https://en.wikipedia.org/wiki/Regular_expression",
+          "description": "Wikipedia entry on regular expressions."
+        },
+        {
+          "icon": "🔗",
+          "title": "MDN's Regular Expressions Reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions",
+          "description": "MDN's Regular Expressions Reference"
+        },
+        {
+          "icon": "🔗",
+          "title": "Book Mastering Regular Expressions",
+          "url": "http://shop.oreilly.com/product/9780596528126.do",
+          "description": "Book about regular expressions."
+        },
+        {
+          "icon": "🔗",
+          "title": "ITP from Tisch School of the Arts",
+          "url": "https://tisch.nyu.edu/itp",
+          "description": "Website for the Interactive Telecommunications Program."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
