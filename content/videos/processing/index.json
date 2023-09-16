@@ -1,0 +1,74 @@
+{
+  "title": "Learning Processing",
+  "description": "Choo choo! Welcome aboard to the world of creative coding! Join me in this beginner-friendly video series and choo-choo-choose to embark on an exciting journey with Processing, a versatile and artist-friendly programming language and environment. Whether you're an absolute beginner or have some experience already, my goal is to inspire and empower you to unleash your creativity through coding. Processing is your gateway to making art, animations, and interactive experiences. No prior experience is required—just curiosity and a desire to create!",
+  "videoId": "2VLaIr5Ckbs",
+  "nebulaSlug": "codingtrain-beginners-guide-to-creative-coding-with-processing-full-course",
+  "date": "2023-10-01",
+  "languages": ["Processing", "Java"],
+  "topics": [
+    "For beginners",
+    "shapes",
+    "drawing",
+    "basics",
+    "color",
+    "errors",
+    "debugging",
+    "mouse interaction",
+    "variables",
+    "math",
+    "random",
+    "boolean",
+    "if statement",
+    "motion",
+    "for loop",
+    "grid",
+    "function",
+    "arguments",
+    "parameters",
+    "return",
+    "objects",
+    "object-oriented programming (OOP)",
+    "classes",
+    "constructor",
+    "array",
+    "nested loop",
+    "images"
+  ],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00:00", "title": "INTRODUCTION" },
+    { "time": "0:18:00", "title": "DRAWING WITH CODE" },
+    { "time": "1:05:10", "title": "FLOW" },
+    { "time": "1:30:01", "title": "VARIABLES" },
+    { "time": "2:03:16", "title": "CONDITIONALS" },
+    { "time": "2:50:25", "title": "LOOPS" },
+    { "time": "3:12:59", "title": "ARRAYS" },
+    { "time": "3:40:59", "title": "FUNCTIONS" },
+    { "time": "4:03:00", "title": "CLASSES AND OBJECTS" },
+    { "time": "4:56:50", "title": "CONFETTI PROJECT" },
+    { "time": "5:03:45", "title": "CONCLUSION" }
+  ],
+  "groupLinks": [
+    {
+      "title": "Links",
+      "links": [
+        {
+          "icon": "📄",
+          "title": "References and Code examples",
+          "url": "https://github.com/CodingTrain/Creative-Coding-Processing-Full-Course",
+          "description": "GitHub repository with all the code examples and references for this course."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
