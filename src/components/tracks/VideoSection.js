@@ -30,6 +30,8 @@ const getOverallPositionInTrack = (trackPosition, chapters) => {
 const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
   const variant = 'red';
   const chapters = track.chapters ? track.chapters : [{ videos: track.videos }];
+  const hasSingleVideo =
+    chapters.length === 1 && chapters[0].videos.length === 1;
 
   const { title, topics, languages } = video;
 
@@ -47,7 +49,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
 
   const [showTimeline, setShowTimeline] = useState(false);
   const youTubeVideoRef = useRef();
-  const [showTimestamps, setShowTimestamps] = useState(false);
+  const [showTimestamps, setShowTimestamps] = useState(hasSingleVideo);
   const [timestamp, setTimestamp] = useState();
 
   const Header = mainTitle ? 'h1' : 'h2';
@@ -129,18 +131,20 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
           })}>
           <nav className={css.timelinesContent}>
             <div className={css.tabs}>
-              <div
-                className={cn(css.tab, {
-                  [css.selected]: !showTimestamps,
-                  [css.clickable]: timestamps.length > 0
-                })}>
-                <button
-                  onClick={() =>
-                    timestamps.length > 0 && setShowTimestamps(false)
-                  }>
-                  track stops
-                </button>
-              </div>
+              {!hasSingleVideo && (
+                <div
+                  className={cn(css.tab, {
+                    [css.selected]: !showTimestamps,
+                    [css.clickable]: timestamps.length > 0
+                  })}>
+                  <button
+                    onClick={() =>
+                      timestamps.length > 0 && setShowTimestamps(false)
+                    }>
+                    track stops
+                  </button>
+                </div>
+              )}
               {timestamps.length > 0 && (
                 <div
                   className={cn(css.tab, {
@@ -167,15 +171,16 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
                   updateTimestamp={updateTimestamp}
                 />
               )}
-
-              <OverviewTimeline
-                className={cn(css.overviewTimeline, {
-                  [css.hide]: showTimestamps
-                })}
-                chapters={chapters}
-                track={track}
-                trackPosition={trackPosition}
-              />
+              {!hasSingleVideo && (
+                <OverviewTimeline
+                  className={cn(css.overviewTimeline, {
+                    [css.hide]: showTimestamps
+                  })}
+                  chapters={chapters}
+                  track={track}
+                  trackPosition={trackPosition}
+                />
+              )}
             </div>
           </nav>
         </div>
