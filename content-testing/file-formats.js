@@ -172,7 +172,7 @@ const contribution = {
         }
       },
       url: { isRequired: true, type: 'string' },
-      submittedOn: { type: 'string' }
+      submittedOn: { isRequired: true, type: 'string' }
     }
   }
 };
