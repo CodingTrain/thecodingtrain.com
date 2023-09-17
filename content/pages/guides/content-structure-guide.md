@@ -1,6 +1,6 @@
 # Content structure guide for The Coding Train team
 
-_Last update: June 7th 2022_
+_Last update: September 17th 2023_
 
 On december 3rd 2021, we decided to start adding real content to this project. This guide serves as starting point to understand how the workflow feels and if the content structure may need to be changed.
 
@@ -76,6 +76,8 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
   "videoNumber": "Video number",
   "videoId": "YouTube video ID",
   "date": "YYYY-MM-DD",
+  "nebulaSlug": "codingtrain-nebula-slug",
+  "canonicalTrack": "track-slug",
   "languages": ["language1", "language2"],
   "topics": ["topic1", "topic2"],
   "canContribute": true,
@@ -121,6 +123,13 @@ Each video's metadata file (`video-slug/index.json`) is a JSON file. Each file h
         }
       ]
     }
+  ],
+  "credits": [
+    {
+      "title": "Credit 1 title",
+      "name": "Credit 1 name",
+      "url": "Credit 1 url (optional)"
+    }
   ]
 }
 ```
@@ -142,6 +151,14 @@ These are specially important for challenge videos, and this value rendered alon
 
 This property makes reference to video ID found at the end of a YouTube video link. Only the ID is the value expected here, not the whole YouTube URL.
 
+#### Nebula slug
+
+This property is used to reference the corresponding video in the Nebula platform. Displayed on the webpage under the video as "Watch on Nebula".
+
+#### Canonical track
+
+Required for videos that are part of more than one track (except challenges). It references the track slug that is considered the main parent track for the video.
+
 #### Languages and topics
 
 These work as tags for the videos from which they can be filtered. Languages relates to the used coding languages in the video, and topics to specific themes being worked on. There's no limit on how many languages and topics can be specified on each video, but often one or two should be appropriate.
@@ -156,7 +173,7 @@ This property let's us disable the intention for users to send contributions for
 
 This property let's us link challenges to a specific video in any way you see fit. It's an array of slugs, which should match the path slug of a challenge (relative to `content/videos/challenges`) to correctly reference it.
 
-If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only the first two will be shown in the page currently.
+If it's not defined or is left empty, then no challenge panel is shown in the corresponding video page. Multiple slugs can be added, but only two will be shown in the page, chosen randomly.
 
 #### Code examples
 
@@ -172,15 +189,19 @@ If `"codeExamples"` isn't set, it will default to an empty array.
 
 Group links are an abstraction for specifying related groups of links that relate or are mentioned to the video.
 
-It may contain URLs that go outside of The Coding Train site, in which cases the URL should be the full web URL, or it may be for an internal resource in The Coding Train site. For the later, the URL should be the sub-path in the site for that resource that starts with `/`.
+It may contain URLs that go outside of The Coding Train site, in which cases the URL should be the full web URL, or it may be for an internal resource in The Coding Train site. For the latter, the URL should be the sub-path in the site for that resource that starts with `/`.
 
 The `"description"` and `"icon"` properties are optional, but `"title"` and `"url"` are required.
 
-For now, `"icon"` expects a short emoji string that relates to the link.
+`"icon"` expects a short emoji string that relates to the link.
 
 `"description"` on the other hand can be a long-ish string that describes the link or something about it. It may also contain MD style urls that will be parsed, so it may also contain anchor links related to the link. For example: `"By [Dan Shiffman](https://shiffman.net/) and [DSI](https://designsystems.international/)!"`.
 
 If `"groupLinks"` isn't set, it will default to an empty array.
+
+#### Credits
+
+Credits reference people or organizations that contributed to the video in some way. It is displayed on the website on a separate tab, formatted as `<title> by <name:url>)`.
 
 ### Video's Passenger Showcase
 
@@ -191,13 +212,16 @@ All Passenger Showcase Contributions' should have metadata files (`video-slug/sh
   "title": "Contribution title",
   "author": {
     "name": "Author name",
-    "url": "Author url to own website or GitHub"
+    "url": "Author url to own website or GitHub",
+    "twitter": "Author Twitter handle",
+    "instagram": "Author Instagram handle"
   },
-  "url": "URL to live code of contribution"
+  "url": "URL to live code of contribution",
+  "submittedOn": "YYYY-MM-DD or ISO 8601"
 }
 ```
 
-As for required properties: `"title"`, `"author: {"name"}"`, `"url"` are required.
+As for required properties: `"title"`, `"author: {"name"}"`, `"url"`, `"submittedOn"` are required.
 
 ### Images
 
