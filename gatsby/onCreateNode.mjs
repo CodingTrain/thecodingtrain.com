@@ -24,6 +24,7 @@ const createVideoRelatedNode = ({
       id: createNodeId(`${slugPrefix}${parent.relativePath}`),
       name: parent.name,
       author: { ...node.author, nameSlug: toSlug(node.author.name) },
+      submittedOn: new Date(node.submittedOn).toISOString(),
       video: createNodeId(
         `--videos/${slugPrefix}${parent.relativeDirectory.replace(
           '/showcase',
