@@ -91,11 +91,9 @@ const schema = /* GraphQL */ `
     name: String!
     author: Author!
     url: String
+    submittedOn: String
     video: VideoInterface! @link
     cover: CoverImage @link
-
-    # as resolver
-    submittedOn: String
   }
 
   type Timestamp implements Node {
