@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "48-white-house-social-media-data-visualization",
-      "100-neuroevolution-flappy-bird",
-      "92-xor-problem",
-      "20-3d-cloth-simulation",
-      "15-object-oriented-fractal-trees",
-      "40-word-counter"
+      "38-word-interactor",
+      "79-number-guessing-chatbot",
+      "107-sandpiles",
+      "120-bit-shifting",
+      "105-polynomial-regression-with-tensorflowjs",
+      "7-solar-system-2d"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "code/1-intro/3-shapes-drawing/showcase/contribution-1693521000.json",
-      "code/1-intro/3-shapes-drawing/showcase/contribution-1693502214.json",
-      "challenges/21-mandelbrot-set-with-p5js/showcase/contribution-1693059733.json",
-      "code/3-conditionals/3-else-if-and-or/showcase/contribution-1691437439.json",
-      "challenges/177-soft-body-character/showcase/contribution-1694003438.json",
-      "challenges/146-rendering-ray-casting/showcase/contribution-1693078454.json",
-      "physics-libraries/toxiclibs/1-introduction/showcase/contribution-1691583970.json",
-      "challenges/100-neuroevolution-flappy-bird/showcase/contribution13.json"
+      "sound/9-sound-visualization/showcase/contribution-1695081999.json",
+      "code/7-arrays/8-objects-images/showcase/contribution-1694689361.json",
+      "challenges/174-graphics-applesoft-basic/showcase/contribution-1694928290.json",
+      "challenges/114-bubble-sort-visualization/showcase/contribution-1694665797.json",
+      "",
+      "",
+      "",
+      ""
     ],
     "showcaseCta": {
       "text": "Want to see more?",
