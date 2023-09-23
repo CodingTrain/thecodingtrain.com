@@ -5,7 +5,7 @@
   "videoId": "5cNnf_7e92Q",
   "date": "2018-03-14",
   "languages": ["Processing"],
-  "topics": ["Monte Carlo simulation", "Pi day", "Pi approximation"],
+  "topics": ["Monte Carlo simulation", "Pi day", "Pi approximation", "Pi"],
   "canContribute": true,
   "relatedChallenges": [
     "96-visualizing-digits-of-pi",

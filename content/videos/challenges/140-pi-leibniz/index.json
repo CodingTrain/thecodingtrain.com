@@ -5,7 +5,7 @@
   "videoId": "uH4trBNn540",
   "date": "2019-03-18",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Leibniz formula", "Pi approximation"],
+  "topics": ["Leibniz formula", "Pi approximation", "Pi", "Pi day"],
   "canContribute": true,
   "relatedChallenges": [
     "21-mandelbrot-set-with-p5js",
