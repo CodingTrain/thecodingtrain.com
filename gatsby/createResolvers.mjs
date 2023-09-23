@@ -68,13 +68,7 @@ const filterByTagsResolver = async (
     });
 
     entries = [...entries].sort((a, b) => {
-      let aIndex = trackOrder.indexOf(`${a.type}-tracks/${a.slug}`);
-      aIndex = aIndex > -1 ? aIndex : 9999;
-
-      let bIndex = trackOrder.indexOf(`${b.type}-tracks/${b.slug}`);
-      bIndex = bIndex > -1 ? bIndex : 9999;
-
-      return aIndex - bIndex;
+      return trackOrder.indexOf(a.slug) - trackOrder.indexOf(b.slug);
     });
   }
 

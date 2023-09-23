@@ -32,7 +32,7 @@
         { "time": "22:11", "title": "Adjust the similarity score" },
         { "time": "24:14", "title": "Deal with null values" },
         {
-          "time": "24:14",
+          "time": "25:38",
           "title": "What's next: list the most similar users"
         },
         { "time": "26:36", "title": "Pearson's correlation" }
