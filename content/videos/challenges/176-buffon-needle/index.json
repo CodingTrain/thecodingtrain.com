@@ -6,7 +6,7 @@
   "nebulaSlug": "codingtrain-coding-challenge-buffons-needle",
   "date": "2023-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Pi day", "Pi", "Buffon's needle", "Buffon"],
+  "topics": ["Pi day", "Pi", "Buffon's needle", "Buffon", "Pi approximation"],
   "canContribute": true,
   "relatedChallenges": ["95-approximating-the-value-of-pi", "126-toothpicks", "145-ray-casting-2d"],
   "timestamps": [

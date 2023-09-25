@@ -5,7 +5,7 @@
   "videoId": "WEd_UIKG-uc",
   "date": "2018-03-19",
   "languages": ["Java", "Processing"],
-  "topics": ["Pi day", "Pi visualization", "Pi"],
+  "topics": ["Pi day", "visualization", "Pi"],
   "canContribute": true,
   "relatedChallenges": [
     "95-approximating-the-value-of-pi",
