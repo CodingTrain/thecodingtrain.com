@@ -1,6 +1,6 @@
 {
   "title": "Wave Function Collapse",
-  "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images. In this video (recorded over 3 live streams) I attempt the tiled model and explore a variety of solutions to the algorithm in JavaScript with p5.js.",
+  "description": "Straight out of quantum mechanics, Wave Function Collapse is an algorithm for procedural generation of images. In this video (recorded over 3 live streams) I attempt the tiled model and explore a variety of solutions to the algorithm in JavaScript with p5.js. Also, check out WFC's predecessor: Model Synthesis (more info below).",
   "videoNumber": "171",
   "videoId": "rI_y2GAlQFM",
   "nebulaSlug": "codingtrain-coding-challenge-171-wave-function-collapse",
@@ -66,6 +66,12 @@
           "title": "Wave Function Collapse Algorithm",
           "url": "https://github.com/mxgmn/WaveFunctionCollapse",
           "description": "The original GitHub repository from mxgmn for the Wave Function Collapse algorithm."
+        },
+        {
+          "icon": "🗄",
+          "title": "Model Synthesis",
+          "url": "https://paulmerrell.org/model-synthesis/",
+          "description": "Paul Merrell's 2009 PhD Thesis that is a predecessor to WFC."
         },
         {
           "icon": "📣",

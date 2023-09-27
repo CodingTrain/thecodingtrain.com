@@ -142,30 +142,6 @@ const videoCanonicalTrackResolver = async (source, args, context, info) => {
   return;
 };
 
-const contributionSubmittedOnResolver = async (source, args, context, info) => {
-  // normalizes values to provide a stable sorting order for the showcase page
-
-  if (typeof source.submittedOn === 'string') {
-    // normalize to ISO 8601 since some dates are in `yyyy-mm-dd` format
-    return new Date(source.submittedOn).toISOString();
-  } else {
-    // the contribution doesn't have a `submittedOn` property, let's derive one for sorting purposes
-
-    // extract the sequential number from the source JSON filename
-    const [seqNumber] = source.name.match(/\d+/g);
-
-    // NOTE: not all source.video nodes are of type `Video`. They all have a `date` property though so it's OK here.
-    const { date } = await context.nodeModel.getNodeById({ id: source.video });
-    const dateObj = new Date(date);
-
-    // treat the sequential number as seconds and add them to the Coding Train video publish date
-    // ex: published date of "2017-05-18", contribution filename of "contribution16.json" -> 2017-05-18T00:00:16.000Z
-    dateObj.setSeconds(dateObj.getSeconds() + Number(seqNumber));
-
-    return dateObj.toISOString();
-  }
-};
-
 // ---
 
 export const createResolvers = ({ createResolvers }) => {
@@ -196,12 +172,6 @@ export const createResolvers = ({ createResolvers }) => {
       canonicalTrack: {
         type: 'Track',
         resolve: videoCanonicalTrackResolver
-      }
-    },
-    Contribution: {
-      submittedOn: {
-        type: 'String',
-        resolve: contributionSubmittedOnResolver
       }
     },
     Query: {
