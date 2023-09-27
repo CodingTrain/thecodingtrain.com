@@ -423,7 +423,7 @@ The homepage is composed of seven sections. Each of them gets populated with the
 
 Most of them contain `"title"` and `"description"` properties to edit the corresponding header and description. A bunch of them have specific CTA sections which's text can also be found as objects in the corresponding section.
 
-The tracks, challenges and passenger showcase sections have a specific set of featured content that can also be edited by adding or removing slugs to the corresponding content. The slugs are defined in a similar fashion as tracks define which videos compose them.
+The tracks, challenges and passenger showcase sections have a specific set of featured content that can also be edited by adding or removing slugs to the corresponding content. The slugs are defined in a similar fashion as tracks define which videos compose them. Three of the challenges and showcases will be shown on the homepage, randomly chosen (shuffles on page load).
 
 The events sections can show the information of any number of upcoming events. Each event should be defined inside the array associated to the `"upcoming"` property, and should look like the following structure:
 

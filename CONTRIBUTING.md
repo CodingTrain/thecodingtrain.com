@@ -29,8 +29,7 @@ Here are the types of contributions we are looking for:
 
    - “Main Tracks” are sequenced video tutorials that you can follow like a course syllabus. Most of the main tracks are already ported on the site.
    - “Side Tracks” are collections of related videos but don’t necessarily need to be watched in order. Is there a collection of videos that go together well that you'd want to be able to share via a single URL? You are welcome to propose and curate side tracks for the website!
-   - Tracks are defined inside `content/tracks/[main|side]-tracks/` in their respective folders, containing an `index.json` file and a cover image (`index.jpg` or `index.png`). The `index.json` file contains the metadata for the track, including the title, description, and the list of videos in the track. Tracks reference the videos inside `content/videos/`.
-   - Check out the [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/content/pages/guides/content-structure-guide.md) for more information on the content structure.
+   - Check out the [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/content/pages/guides/content-structure-guide.md) for more information on the content structure for tracks.
 
 3. More!
    - You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
