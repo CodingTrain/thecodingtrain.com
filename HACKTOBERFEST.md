@@ -9,10 +9,10 @@ This Hacktoberfest, here are the ways you can contribute to The Coding Train:
 2. **Curate content for the website**
 
    - Add a new side track to the site! Side Tracks are collections of related videos but don’t necessarily need to be watched in order. Is there a collection of videos that go together? You are welcome to propose and curate tracks for the website!
-   - Fix typos and errors in existing metadata. (`topics`, `languages`, `timestamps`)
+   - Fix typos and errors in existing metadata for videos. (`topics`, `languages`, `timestamps`)
    - For more information on the content structure for tracks and videos, check out the [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/CODE_OF_CONDUCT.md).
 
-3. Remix the Coding Train Logo!
+3. **Remix the Coding Train Logo!**
 
    - Check out https://github.com/CodingTrain/Coding-Train-Logo.
 
