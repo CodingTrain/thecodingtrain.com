@@ -21,8 +21,7 @@ This Hacktoberfest, here are the ways you can contribute to The Coding Train:
    - You can contribute to other [Coding Train repositories](https://github.com/CodingTrain/) as well. You will need to ask for the Pull Request to be accepted for Hacktoberfest to count it towards your progress.
 
 ## Guide For Newer Contributors
-
-Get an overview of the project in [README](https://github.com/CodingTrain/thecodingtrain.com#readme). If you are new to open source contributions, here are some useful resources that can help you get started:
+If you are new to open source contributions, here are some useful resources that can help you get started:
 
 - [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV): A Coding Train video series for Git and GitHub beginners.
 - [Collaborating With Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests): A GitHub guide on pull requests.
