@@ -37,16 +37,16 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00:00", "title": "INTRODUCTION" },
-    { "time": "0:18:00", "title": "DRAWING WITH CODE" },
-    { "time": "1:05:10", "title": "FLOW" },
-    { "time": "1:30:01", "title": "VARIABLES" },
-    { "time": "2:03:16", "title": "CONDITIONALS" },
-    { "time": "2:50:25", "title": "LOOPS" },
-    { "time": "3:12:59", "title": "ARRAYS" },
-    { "time": "3:40:59", "title": "FUNCTIONS" },
-    { "time": "4:03:00", "title": "CLASSES AND OBJECTS" },
-    { "time": "4:56:50", "title": "CONFETTI PROJECT" },
-    { "time": "5:03:45", "title": "CONCLUSION" }
+    { "time": "0:17:30", "title": "DRAWING WITH CODE" },
+    { "time": "1:04:39", "title": "FLOW" },
+    { "time": "1:29:31", "title": "VARIABLES" },
+    { "time": "2:02:46", "title": "CONDITIONALS" },
+    { "time": "2:50:01", "title": "LOOPS" },
+    { "time": "3:12:29", "title": "ARRAYS" },
+    { "time": "3:40:29", "title": "FUNCTIONS" },
+    { "time": "4:02:30", "title": "CLASSES AND OBJECTS" },
+    { "time": "4:56:20", "title": "CONFETTI PROJECT" },
+    { "time": "5:03:15", "title": "CONCLUSION" }
   ],
   "groupLinks": [
     {
