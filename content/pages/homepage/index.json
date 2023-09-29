@@ -20,7 +20,7 @@
   "tracks": {
     "title": "Tracks",
     "description": "Streamline your learning experience and take a ride along a Track on The Coding Train. Tracks are collections of video tutorials that follow a sequenced curriculum.",
-    "featured": ["code-programming-with-p5-js", "git-and-github-for-poets"],
+    "featured": ["learning-processing", "code-programming-with-p5-js"],
     "tracksCta": {
       "text": "Ready to learn? Hop on a track for beginners and more!",
       "buttonText": "browse tracks",
