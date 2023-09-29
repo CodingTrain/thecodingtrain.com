@@ -5,7 +5,7 @@
   "videoId": "pn2vlselv_g",
   "date": "2019-03-21",
   "languages": ["Java", "Processing"],
-  "topics": ["Mandelbrot set", "Pi approximation", "fractal"],
+  "topics": ["Mandelbrot set", "Pi approximation", "fractal", "Pi", "Pi day"],
   "canContribute": true,
   "relatedChallenges": [
     "21-mandelbrot-set-with-p5js",
