@@ -153,8 +153,8 @@ const videoNumberValidator = string().test(
   }
 );
 
-// 00:00 to 59:59, 0:00:00 to 4:59:59 - optional leading zeros for minutes and seconds
-const timestampRegex = /^(?:[0-4]:)?[0-5]?\d:[0-5]?\d$/;
+// 00:00 to 59:59, 0:00:00 to 9:59:59 - optional leading zeros for minutes and seconds
+const timestampRegex = /^(?:[0-9]:)?[0-5]?\d:[0-5]?\d$/;
 const timestampValidator = string().test(
   'timestamps',
   'A timestamp should be in the `mm:ss` or `h:mm:ss` format',
