@@ -31,7 +31,9 @@ const TrackCard = ({ track, placeholderImage }) => {
           <Link to={`tracks/${slug}`}>{title}</Link>
         </h3>
 
-        <div className={css.numVideos}>{numVideos} videos</div>
+        <div className={css.numVideos}>
+          {numVideos} video{numVideos > 1 ? 's' : ''}
+        </div>
       </div>
       <Link to={`tracks/${slug}`}>
         <Image
