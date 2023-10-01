@@ -1,7 +1,9 @@
 # Coding Train Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
@@ -12,7 +14,8 @@ This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/
 ## Table of Contents
 
 - **[CONTRIBUTING.md](./CONTRIBUTING.md)**. This page will tell you all the necessary information about contributing to this repo.
-- **[Content Structure Guide](/content/pages/guides/content-structure-guide.md)**. This guide walk you through the process of adding content to the website.
+- **[Content Structure Guide](/content/pages/guides/content-structure-guide.md)**. This guide walks you through the process of adding content to the website.
+- **[HACKTOBERFEST.md](./HACKTOBERFEST.md)**. Here for Hacktoberfest? This guide lists out all the ways to contribute to the Coding Train for Hacktoberfest.
 
 ## Development info
 

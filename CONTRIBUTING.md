@@ -6,39 +6,33 @@ The Coding Train strives to be a respectful, friendly, and welcoming community. 
 
 ## Guide For Newer Contributors
 
-Get an overview of the project in [README](https://github.com/CodingTrain/thecodingtrain.com#readme). If you are new to open source contributions, here are some useful guides that can help you get started:
+Get an overview of the project in [README](https://github.com/CodingTrain/thecodingtrain.com#readme). If you are new to open source contributions, here are some useful resources that can help you get started:
 
 - [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV): A Coding Train video series for Git and GitHub beginners.
 - [Collaborating With Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests): A GitHub guide on pull requests.
-
-## Contributing to Coding Train
-
-Here are the types of contributions we are looking for this month:
-
-1. Share your creative work inspired by a coding challenge or tutorial in the showcase!
-
-   - You can find more information about submitting a showcase in the [Passenger Showcase Guide](http://thecodingtrain.com/guides/passenger-showcase-guide)
-
-2. Create a page for a Coding Challenge video! (https://github.com/CodingTrain/thecodingtrain.com/issues/155)
-
-   - Head to the [spreadsheet tracking challenges](https://docs.google.com/spreadsheets/d/1zt8KquMZN_j2-j4ezMsgeq-sRrgoCEAROwFS6LTS8oQ/edit#gid=1236591781) and sign up.
-   - For instructions, read the [Maintaining the website guide](https://thecodingtrain.com/guides/maintain-website-guide) on how to create a challenge page on the new website.
-   - Note: If you are unable to complete the page, please add a note and remove your name from the spreadsheet.
-
-3. Add Related Challenges! (https://github.com/CodingTrain/thecodingtrain.com/issues/262)
-
-   - The `"relatedChallenges"` property specifies a list of challenges to be featured as suggested on the video page.
-   - If it is an empty array and there are any coding challenges in the `"video"` section of the json file, those challenge(s) can be added to the field.
-   - You can find the JSON files for challenges in `/content/videos/challenges`.
-
-4. More!
-   - You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
 
 ### Getting Started
 
 Here is a guide to the content structure of the website to help you through the process of contributing.
 
 - [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/content/pages/guides/content-structure-guide.md)
+
+## Contributing to Coding Train
+
+Here are the types of contributions we are looking for:
+
+1. Share your creative work inspired by a coding challenge or tutorial in the showcase!
+
+   - You can submit your showcase with the [Passenger Showcase Form](http://thecodingtrain.com/submit)
+
+2. Add a new track to the site! (https://github.com/CodingTrain/thecodingtrain.com/issues/279)
+
+   - “Main Tracks” are sequenced video tutorials that you can follow like a course syllabus. Most of the main tracks are already ported on the site.
+   - “Side Tracks” are collections of related videos but don’t necessarily need to be watched in order. Is there a collection of videos that go together well that you'd want to be able to share via a single URL? You are welcome to propose and curate side tracks for the website!
+   - Check out the [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/content/pages/guides/content-structure-guide.md) for more information on the content structure for tracks.
+
+3. More!
+   - You can find more things to [work on listed in issues](https://github.com/CodingTrain/thecodingtrain.com/issues).
 
 ### Issues
 
