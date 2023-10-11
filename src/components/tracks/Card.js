@@ -18,10 +18,12 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
   const [expanded, setExpanded] = useState(false);
   const canExpand = allVideos.length > 6;
   const videos = expanded || !canExpand ? allVideos : allVideos.slice(0, 6);
+
   return (
     <section>
       <div className={css.filterHeading}>
-        {allVideos.length} videos within this track match the filter.
+        {allVideos.length} video{allVideos.length > 1 ? 's' : ''} within this
+        track match the filter.
       </div>
       <div className={css.filteredResults}>
         {videos.map((v, i) => (
@@ -113,7 +115,9 @@ const Card = ({
             <h3 className={css.smallTitle}>{title}</h3>
             <div className={css.icon}>👁</div>
             <div className={css.trackType}>{trackType}</div>
-            <div className={css.numVideos}>{numVideos} videos</div>
+            <div className={css.numVideos}>
+              {numVideos} video{numVideos > 1 ? 's' : ''}
+            </div>
           </div>
           <Image
             image={image}

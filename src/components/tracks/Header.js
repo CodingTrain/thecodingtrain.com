@@ -31,7 +31,7 @@ const Header = ({ track }) => {
                     }`
                   ]
                 : []),
-              `${numVideos} videos`
+              `${numVideos} video${numVideos > 1 ? 's' : ''}`
             ]}
             singleLine={false}
           />
