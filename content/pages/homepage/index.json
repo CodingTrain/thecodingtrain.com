@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "38-word-interactor",
-      "79-number-guessing-chatbot",
-      "107-sandpiles",
-      "120-bit-shifting",
-      "105-polynomial-regression-with-tensorflowjs",
-      "7-solar-system-2d"
+      "8-solar-system-3d",
+      "76-10Print",
+      "32-agario",
+      "c2-collatz-conjecture",
+      "c5-marching-squares",
+      "171-wave-function-collapse"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "sound/9-sound-visualization/showcase/contribution-1695081999.json",
-      "code/7-arrays/8-objects-images/showcase/contribution-1694689361.json",
-      "challenges/174-graphics-applesoft-basic/showcase/contribution-1694928290.json",
-      "challenges/114-bubble-sort-visualization/showcase/contribution-1694665797.json",
-      "challenges/c2-collatz-conjecture/showcase/contribution-1695412383.json",
-      "code/4-loops/2-nested/showcase/contribution-1695395852.json",
-      "challenges/7-solar-system-2d/showcase/contribution2.json",
-      "challenges/112-3d-rendering-with-rotation-and-projection/showcase/contribution-1693955434.json"
+      "challenges/78-simple-particle-system/showcase/contribution-1696242955.json",
+      "challenges/173-snake-applesoft-basic/showcase/contribution-1696743428.json",
+      "challenges/132-fluid-simulation/showcase/contribution-1695519134.json",
+      "challenges/76-10Print/showcase/contribution-1672212742.json",
+      "challenges/8-solar-system-3d/showcase/contribution2.json",
+      "challenges/c2-collatz-conjecture/showcase/contribution-1687717743.json",
+      "data/1-client-side/1-fetch/showcase/contribution2.json",
+      "challenges/171-wave-function-collapse/showcase/contribution-1695477746.png"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
