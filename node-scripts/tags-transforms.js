@@ -1,35 +1,38 @@
-const { globSync } = require('glob');
+const { glob } = require('glob');
 const isEqual = require('lodash/isEqual');
 const prettier = require('prettier');
-const { readFileSync, writeFileSync } = require('fs');
+const { readFile, writeFile } = require('fs/promises');
 const { memoTagsCleanup } = require('./utils');
 const { wordReplacements, tagTransforms } = require('./tags-transforms.json');
 
 const tagsCleanup = memoTagsCleanup(wordReplacements, tagTransforms);
-const paths = globSync('content/videos/**/index.json');
-let count = 0;
 
-for (let path of paths) {
-  const raw = readFileSync(path);
-  const o = JSON.parse(raw);
+(async () => {
+  const paths = await glob('content/videos/**/index.json');
+  let count = 0;
 
-  const languages = tagsCleanup(o.languages);
-  const topics = tagsCleanup(o.topics);
+  for (const path of paths) {
+    const raw = await readFile(path);
+    const o = JSON.parse(raw);
 
-  if (!isEqual(languages, o.languages) || !isEqual(topics, o.topics)) {
-    o.languages = languages;
-    o.topics = topics;
+    const languages = tagsCleanup(o.languages);
+    const topics = tagsCleanup(o.topics);
 
-    const udpatedSource = prettier.format(JSON.stringify(o), {
-      parser: 'json'
-    });
+    if (!isEqual(languages, o.languages) || !isEqual(topics, o.topics)) {
+      o.languages = languages;
+      o.topics = topics;
 
-    writeFileSync(path, udpatedSource);
+      const udpatedSource = await prettier.format(JSON.stringify(o), {
+        parser: 'json'
+      });
 
-    count++;
+      await writeFile(path, udpatedSource);
+
+      count++;
+    }
   }
-}
 
-console.log(
-  `${count} of ${paths.length} video JSON files were modified to transform language and topic tags`
-);
+  console.log(
+    `${count} of ${paths.length} video JSON files were modified to transform language and topic tags`
+  );
+})();
