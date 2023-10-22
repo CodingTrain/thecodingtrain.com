@@ -229,14 +229,35 @@ const timestampsArrayValidator = array(
   return true;
 });
 
+const relativeLinks = {
+  '/tracks': slugs.tracksWithChaptersOrVideos,
+  '/challenges': slugs.challenges,
+  '/guides': slugs.guides,
+  '/showcase': new Set(),
+  '/faq': new Set()
+};
+
 const urlOrRelativeLinkValidator = string().test(
   'URL or relative link',
   'Should be a valid URL or relative link`',
   (value) => {
     if (!value) return true;
 
+    // external links
     const isUrl = string().url().isValidSync(value);
-    return isUrl || value.startsWith('/');
+    if (isUrl) return true;
+
+    // relative links
+    const parts = value.split('/');
+    const prefix = parts[1];
+
+    const slugSet = relativeLinks[`/${prefix}`];
+    if (!slugSet) return false;
+
+    const slug = parts.slice(2).join('/');
+    if (!slug || slugSet.has(slug)) return true;
+
+    return false;
   }
 );
 

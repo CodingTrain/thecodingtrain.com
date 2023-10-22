@@ -105,7 +105,7 @@ const baseVideosSchema = strictObject({
       links: array(
         strictObject({
           title: string().required(),
-          url: urlOrRelativeLinkValidator.required(), // TODO ref check instead of regex pattern matching for internal links?
+          url: urlOrRelativeLinkValidator.required(),
           icon: string(),
           description: string()
         }).required()
