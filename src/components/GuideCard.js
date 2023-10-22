@@ -37,7 +37,9 @@ const GuideCard = ({
           />
         </div>
         <div className={css.right}>
-          <Image image={image} imgClassName={css.img} />
+          <Link to={slug}>
+            <Image image={image} imgClassName={css.img} />
+          </Link>
           <ButtonPanel
             className={css.meta}
             text={meta}

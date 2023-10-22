@@ -240,7 +240,7 @@ const PassengerShowcaseForm = () => {
             <option value="">Select a video</option>
 
             {selectedTrack?.chapters?.map((node) => (
-              <optgroup label={node.title}>
+              <optgroup label={node.title} key={node.title}>
                 {node.videos.map((video) => {
                   let label = video.title;
                   if (label.length > 50) {
