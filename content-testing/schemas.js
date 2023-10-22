@@ -283,6 +283,51 @@ const tracksSchema = strictObject({
   return true;
 });
 
+const socialGroup = strictObject({
+  title: string().required(),
+  links: array(
+    strictObject({
+      url: string().url().required(),
+      site: string()
+        .oneOf(['twitter', 'discord', 'instagram', 'youtube', 'github'])
+        .required()
+    })
+  ).required()
+});
+
+const pageAboutSchema = strictObject({
+  title: string().required(),
+  description: string().required(),
+  covers: array(string()).min(1).required(),
+  coversDescription: string().required(),
+  personalSocials: array(socialGroup).required(),
+  secondaryTitle: string().required(),
+  secondaryDescription: string().required(),
+  siteSocials: array(socialGroup).required(),
+  featuredTitle: string().required(),
+  featured: array(
+    strictObject({
+      title: string().required(),
+      description: string().required(),
+      thumbnail: string().required(),
+      url: string().url().required()
+    })
+  ).required(),
+  acknowledgementsText: string().required(),
+  acknowledgements: array(
+    strictObject({
+      name: string().required(),
+      people: array(
+        strictObject({
+          name: string().required(),
+          role: string(),
+          url: string().url()
+        })
+      ).required()
+    })
+  ).required()
+});
+
 module.exports = {
   videos: videosSchema,
   challenges: challengesSchema,
@@ -293,5 +338,6 @@ module.exports = {
   pageGuides: pageGuidesSchema,
   pageHome: pageHomeSchema,
   pageFaqs: pageFaqsSchema,
+  pageAbout: pageAboutSchema,
   tracksIndex: tracksIndexSchema
 };

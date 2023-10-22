@@ -24,6 +24,7 @@ const paths = {
   pageGuides: ['content/pages/guides/index.json'],
   pageHome: ['content/pages/homepage/index.json'],
   pageFaqs: ['content/pages/faqs/index.json'],
+  pageAbout: ['content/pages/about/index.json'],
   tracksIndex: ['content/tracks/index.json']
 };
 
