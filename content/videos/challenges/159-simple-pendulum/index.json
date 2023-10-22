@@ -80,7 +80,7 @@
         {
           "icon": "📕",
           "title": "Nature of Code track",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2",
+          "url": "/tracks/the-nature-of-code-2",
           "description": "This track accompanies the Nature of Code book."
         },
         {
@@ -109,13 +109,13 @@
         {
           "icon": "🎥",
           "title": "Polar Coordinates - Nature of Code",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "This video explores the trigonometric functions—sine, cosine, and tangent"
         },
         {
           "icon": "🎥",
           "title": "3.2 Angular Motion - Nature of Code",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/3-angles/2-angular-motion",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/2-angular-motion",
           "description": "This video explains how to apply the concepts of vector motion to angles (scalar!)."
         },
         {

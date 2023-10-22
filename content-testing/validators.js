@@ -240,8 +240,14 @@ const relativeLinks = {
 const urlOrRelativeLinkValidator = string().test(
   'URL or relative link',
   'Should be a valid URL or relative link`',
-  (value) => {
+  (value, context) => {
     if (!value) return true;
+
+    if (value.startsWith('https://thecodingtrain.com/')) {
+      return context.createError({
+        message: `This link should be relative instead of absolute`
+      });
+    }
 
     // external links
     const isUrl = string().url().isValidSync(value);
