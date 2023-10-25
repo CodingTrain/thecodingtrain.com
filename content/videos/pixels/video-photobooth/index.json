@@ -13,6 +13,7 @@
     {
       "title": "Video Photobooth",
       "description": "The sketch demonstrates how save and display a sequence of video frames .",
+      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/xBs9FR9JE"
       }

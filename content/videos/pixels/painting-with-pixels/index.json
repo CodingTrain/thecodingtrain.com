@@ -13,6 +13,7 @@
     {
       "title": "Painting with Pixels Array",
       "description": "The sketch demonstrates how to use get() to color shapes from video pixels.",
+      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0tRpxGdaq"
       }

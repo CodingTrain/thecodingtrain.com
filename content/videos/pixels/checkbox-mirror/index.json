@@ -13,6 +13,7 @@
     {
       "title": "Checkbox Mirror",
       "description": "The sketch creates an abstract brightness mirror using DOM elements!",
+      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/InloDe5YE"
       }

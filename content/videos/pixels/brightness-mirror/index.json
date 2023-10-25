@@ -13,6 +13,7 @@
     {
       "title": "Brightness Mirror",
       "description": "Abstract video mirror with squares",
+      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/nFOs57gVh"
       }
