@@ -8,7 +8,44 @@
   "topics": ["p5.js", "pixel array"],
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
-  "timestamps": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:21",
+      "title": "createCapture(VIDEO)"
+    },
+    {
+      "time": "3:00",
+      "title": "Using a local code editor (I now use Video Studio Code)"
+    },
+    {
+      "time": "4:02",
+      "title": "Manipulating dom elements"
+    },
+    {
+      "time": "5:33",
+      "title": "Use image() to add the video to the canvas"
+    },
+    {
+      "time": "6:49",
+      "title": "Adjust width with mouseX"
+    },
+    {
+      "time": "7:20",
+      "title": "Hide the video dom element"
+    },
+    {
+      "time": "7:52",
+      "title": "Camera permissions"
+    },
+    {
+      "time": "9:57",
+      "title": "Outro"
+    }
+  ],
   "codeExamples": [
     {
       "title": "Painting with Pixels Array",
@@ -32,6 +69,17 @@
           "title": "updatePixels",
           "url": "https://p5js.org/reference/#/p5/updatePixels",
           "description": "p5 reference entry on the updatePixels() function"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Visual Studio Code",
+          "url": "/tracks/2018-workflow/workflow/2-visual-studio-code",
+          "description": "This video examines the code editor: Visual Studio Code."
         }
       ]
     }
