@@ -1,0 +1,12 @@
+{
+  "title": "pixels",
+  "description": "A collection of videos working with pixels in p5.js and Processing.",
+  "videos": [
+    "pixels/createCapture",
+    "pixels/video-photobooth",
+    "more-p5/pixel-array",
+    "pixels/brightness-mirror",
+    "pixels/checkbox-mirror",
+    "pixels/painting-with-pixels"
+  ]
+}

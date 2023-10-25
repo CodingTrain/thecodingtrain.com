@@ -1,0 +1,39 @@
+{
+  "title": "The Pixel Array",
+  "description": "This video looks at how to save a history of images from a live camera in p5.js / JavaScript.  I first look at saving a single snapshot, followed by an array of images.  The video ends with a \"Muybridge\" style animation of motion.",
+  "videoId": "oLiaUEKsRws",
+  "nebulaSlug": "",
+  "date": "2016-03-31",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "video"],
+  "canContribute": true,
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Video Photobooth",
+      "description": "The sketch demonstrates how save and display a sequence of video frames .",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xBs9FR9JE"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "createCapture",
+          "url": "https://p5js.org/reference/#/p5/createCapture",
+          "description": "createCapture() reference"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    }
+  ]
+}

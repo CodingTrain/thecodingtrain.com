@@ -7,7 +7,6 @@
   "languages": ["JavaScript"],
   "topics": ["p5.js", "pixel array"],
   "canContribute": true,
-  "canonicalTrack": "pixels",
   "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
@@ -23,7 +22,6 @@
     {
       "title": "Pixel Array",
       "description": "The sketch demonstrates how to load and update pixels.",
-      "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/A92PDk-1z"
       }

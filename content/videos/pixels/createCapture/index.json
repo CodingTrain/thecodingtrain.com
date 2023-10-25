@@ -1,0 +1,39 @@
+{
+  "title": "Live Video and createCapture",
+  "description": "This video covers the createCapture() function.",
+  "videoId": "bkGf4fEHKak",
+  "nebulaSlug": "",
+  "date": "2016-03-31",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "video"],
+  "canContribute": true,
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "createCapture",
+      "description": "This example demonstrates how to get a live image from camera.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/A5NO0q7j7"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "image()",
+          "url": "https://p5js.org/reference/#/p5/image",
+          "description": "p5 reference entry on the image()"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    }
+  ]
+}
