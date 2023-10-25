@@ -1,0 +1,45 @@
+{
+  "title": "Brightness Mirror",
+  "description": "This video looks at how to create an abstract mirror in a p5.js canvas based on the brightness values of the pixels from live video.",
+  "videoId": "rNqaw8LT2ZU",
+  "nebulaSlug": "",
+  "date": "2016-03-31",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "pixel array"],
+  "canContribute": true,
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Brightness Mirror",
+      "description": "Abstract video mirror with squares",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/nFOs57gVh"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "loadPixels",
+          "url": "https://p5js.org/reference/#/p5/loadPixels",
+          "description": "p5 reference entry on the loadPixels() function"
+        },
+        {
+          "title": "updatePixels",
+          "url": "https://p5js.org/reference/#/p5/updatePixels",
+          "description": "p5 reference entry on the updatePixels() function"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    }
+  ]
+}

@@ -1,32 +1,47 @@
 {
   "title": "Physics Libraries",
-  "description": "Tutorials on the Matter.js, Toxiclibs, and Box2d physics libraries",
-  "videos": [
-    "noc/6-physics-libraries/1-matterjs-introduction",
-    "noc/6-physics-libraries/2-matterjs-introduction-continued",
-    "noc/6-physics-libraries/3-matterjs-deleting-bodies",
-    "noc/6-physics-libraries/4-matterjs-constraints",
-    "noc/6-physics-libraries/5-matterjs-mouse-constraints",
-    "challenges/62-plinko-with-matterjs",
-    "challenges/138-angry-birds-with-matterjs",
-    "physics-libraries/toxiclibs/1-introduction",
-    "physics-libraries/toxiclibs/2-particles-and-springs",
-    "physics-libraries/toxiclibs/3-connected-systems",
-    "physics-libraries/toxiclibs/4-attraction-behavior",
-    "challenges/20-3d-cloth-simulation",
-    "challenges/63-texturing-cloth-simulation",
-    "challenges/177-soft-body-character",
-    "physics-libraries/box2d/1-introduction",
-    "physics-libraries/box2d/2-central-elements",
-    "physics-libraries/box2d/3-coordinate-and-vectors",
-    "physics-libraries/box2d/4-adding-to-processing-sketch",
-    "physics-libraries/box2d/5-adding-to-processing-sketch-2",
-    "physics-libraries/box2d/6-static-bodies-and-chain-shapes",
-    "physics-libraries/box2d/7-complex-shapes",
-    "physics-libraries/box2d/8-distance-joints",
-    "physics-libraries/box2d/9-revolute-joints",
-    "physics-libraries/box2d/10-user-controlled-objects",
-    "physics-libraries/box2d/11-apply-forces",
-    "physics-libraries/box2d/12-collision-events"
+  "description": "Tutorials on the Matter.js, Toxiclibs, and Box2D physics libraries",
+  "chapters": [
+    {
+      "title": "Matter.js",
+      "videos": [
+        "noc/6-physics-libraries/1-matterjs-introduction",
+        "noc/6-physics-libraries/2-matterjs-introduction-continued",
+        "noc/6-physics-libraries/3-matterjs-deleting-bodies",
+        "noc/6-physics-libraries/4-matterjs-constraints",
+        "noc/6-physics-libraries/5-matterjs-mouse-constraints",
+        "challenges/62-plinko-with-matterjs",
+        "challenges/138-angry-birds-with-matterjs"
+      ]
+    },
+    {
+      "title": "Toxiclibs",
+      "videos": [
+        "physics-libraries/toxiclibs/1-introduction",
+        "physics-libraries/toxiclibs/2-particles-and-springs",
+        "physics-libraries/toxiclibs/3-connected-systems",
+        "physics-libraries/toxiclibs/4-attraction-behavior",
+        "challenges/20-3d-cloth-simulation",
+        "challenges/63-texturing-cloth-simulation",
+        "challenges/177-soft-body-character"
+      ]
+    },
+    {
+      "title": "Box2D",
+      "videos": [
+        "physics-libraries/box2d/1-introduction",
+        "physics-libraries/box2d/2-central-elements",
+        "physics-libraries/box2d/3-coordinate-and-vectors",
+        "physics-libraries/box2d/4-adding-to-processing-sketch",
+        "physics-libraries/box2d/5-adding-to-processing-sketch-2",
+        "physics-libraries/box2d/6-static-bodies-and-chain-shapes",
+        "physics-libraries/box2d/7-complex-shapes",
+        "physics-libraries/box2d/8-distance-joints",
+        "physics-libraries/box2d/9-revolute-joints",
+        "physics-libraries/box2d/10-user-controlled-objects",
+        "physics-libraries/box2d/11-apply-forces",
+        "physics-libraries/box2d/12-collision-events"
+      ]
+    }
   ]
 }

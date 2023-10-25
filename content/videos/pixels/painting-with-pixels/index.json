@@ -1,0 +1,47 @@
+{
+  "title": "Painting Pixels",
+  "description": "This video looks at how to make a painting from a live video source by reading the pixels to color shapes moving around a p5.js canvas.",
+  "videoId": "0V3uYA1hafk",
+  "nebulaSlug": "",
+  "date": "2016-04-06",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "pixel array"],
+  "canContribute": true,
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "timestamps": [
+   
+  ],
+  "codeExamples": [
+    {
+      "title": "Painting with Pixels Array",
+      "description": "The sketch demonstrates how to use get() to color shapes from video pixels.",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/0tRpxGdaq"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "loadPixels",
+          "url": "https://p5js.org/reference/#/p5/loadPixels",
+          "description": "p5 reference entry on the loadPixels() function"
+        },
+        {
+          "title": "updatePixels",
+          "url": "https://p5js.org/reference/#/p5/updatePixels",
+          "description": "p5 reference entry on the updatePixels() function"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    }
+  ]
+}

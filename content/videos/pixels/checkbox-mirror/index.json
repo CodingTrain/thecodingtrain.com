@@ -1,0 +1,45 @@
+{
+  "title": "Checkbox Mirror",
+  "description": "This video looks at how to read the pixels from a live video and alter DOM elements (checkboxes) to create an abstract mirror.",
+  "videoId": "m1G6WBvrOBE",
+  "nebulaSlug": "",
+  "date": "2016-03-31",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "pixel array"],
+  "canContribute": true,
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Checkbox Mirror",
+      "description": "The sketch creates an abstract brightness mirror using DOM elements!",
+      "image": "image1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/InloDe5YE"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "loadPixels",
+          "url": "https://p5js.org/reference/#/p5/loadPixels",
+          "description": "p5 reference entry on the loadPixels() function"
+        },
+        {
+          "title": "updatePixels",
+          "url": "https://p5js.org/reference/#/p5/updatePixels",
+          "description": "p5 reference entry on the updatePixels() function"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    }
+  ]
+}

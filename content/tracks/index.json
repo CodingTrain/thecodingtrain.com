@@ -24,6 +24,7 @@
     "topics-in-native-javascript",
     "transformations-in-p5",
     "web-sockets-and-p5js",
-    "webgl"
+    "webgl",
+    "pixels"
   ]
 }
