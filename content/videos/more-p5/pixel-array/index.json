@@ -7,6 +7,7 @@
   "languages": ["JavaScript"],
   "topics": ["p5.js", "pixel array"],
   "canContribute": true,
+  "canonicalTrack": "pixels",
   "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },

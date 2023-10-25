@@ -24,6 +24,7 @@
     "side-tracks/topics-in-native-javascript",
     "side-tracks/transformations-in-p5",
     "side-tracks/web-sockets-and-p5js",
-    "side-tracks/webgl"
+    "side-tracks/webgl",
+    "side-tracks/pixels"
   ]
 }
