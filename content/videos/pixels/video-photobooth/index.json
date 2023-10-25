@@ -1,5 +1,5 @@
 {
-  "title": "The Pixel Array",
+  "title": "Video Photobooth",
   "description": "This video looks at how to save a history of images from a live camera in p5.js / JavaScript.  I first look at saving a single snapshot, followed by an array of images.  The video ends with a \"Muybridge\" style animation of motion.",
   "videoId": "oLiaUEKsRws",
   "nebulaSlug": "",
