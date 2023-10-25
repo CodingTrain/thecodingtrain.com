@@ -41,29 +41,6 @@ const toSlug = {
   challenges: (p) => p.split('/').at(-2)
 };
 
-const tracksSlugs = new Set();
-for (const p of paths.tracks) {
-  const slug = toSlug.tracks(p);
-  if (tracksSlugs.has(slug)) {
-    throw new Error(
-      `A main and side track share the slug "${slug}". Rename one of their content directories to resolve the conflict.`
-    );
-  }
-  tracksSlugs.add(slug);
-}
-
-// generate all valid track paths, including deeplinks to chapters and videos
-const tracksWithChaptersOrVideosSlugs = new Set(tracksSlugs);
-paths.tracks.forEach((p) => {
-  const o = JSON.parse(readFileSync(p));
-  const chaptersOrVideos = o.videos ?? o.chapters.flatMap((c) => c.videos);
-
-  const slug = toSlug.tracks(p);
-  chaptersOrVideos.forEach((c) => {
-    tracksWithChaptersOrVideosSlugs.add(`${slug}/${c}`);
-  });
-});
-
 /**
  * Slug sets
  * @type {Object.<string, Set<string>>}
@@ -75,8 +52,19 @@ const slugs = {
       .filter((p) => readFileSync(p).toString('utf-8').startsWith('---\n'))
       .map(toSlug.guides)
   ),
-  tracks: tracksSlugs,
-  tracksWithChaptersOrVideos: tracksWithChaptersOrVideosSlugs,
+  tracks: (() => {
+    const slugs = new Set();
+    for (const p of paths.tracks) {
+      const slug = toSlug.tracks(p);
+      if (slugs.has(slug)) {
+        throw new Error(
+          `A main and side track share the slug "${slug}". Rename one of their content directories to resolve the conflict.`
+        );
+      }
+      slugs.add(slug);
+    }
+    return slugs;
+  })(),
   showcases: new Set(paths.showcases.map(toSlug.showcases)),
   faqs: new Set(paths.faqs.map(toSlug.faqs)),
   challenges: new Set(paths.challenges.map(toSlug.challenges)),

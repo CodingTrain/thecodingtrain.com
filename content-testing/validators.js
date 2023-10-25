@@ -1,5 +1,6 @@
 const { object, string, array } = require('yup');
-const { toSlug, slugs } = require('./content');
+const { toSlug, slugs, paths } = require('./content');
+const { readFileSync } = require('node:fs');
 
 // --- extensions to yup
 
@@ -236,12 +237,26 @@ const timestampsArrayValidator = array(
   return true;
 });
 
+// generate all valid track paths, including deeplinks to chapters and videos
+const tracksWithChaptersOrVideosSlugs = new Set(slugs.tracks);
+paths.tracks.forEach((p) => {
+  const o = JSON.parse(readFileSync(p));
+  const chaptersOrVideos = o.videos ?? o.chapters.flatMap((c) => c.videos);
+
+  const slug = toSlug.tracks(p);
+  chaptersOrVideos.forEach((c) => {
+    tracksWithChaptersOrVideosSlugs.add(`${slug}/${c}`);
+  });
+});
+
+// Reminder: filters, pagination, and URI fragments are not taken into account
 const relativeLinks = {
-  '/tracks': slugs.tracksWithChaptersOrVideos,
+  '/tracks': tracksWithChaptersOrVideosSlugs,
   '/challenges': slugs.challenges,
   '/guides': slugs.guides,
   '/showcase': new Set(),
-  '/faq': new Set()
+  '/faq': new Set(),
+  '/about': new Set()
 };
 
 const urlOrRelativeLinkValidator = string().test(
