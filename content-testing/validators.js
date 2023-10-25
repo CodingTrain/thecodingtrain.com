@@ -207,6 +207,13 @@ const timestampsArrayValidator = array(
 ).test((values, context) => {
   if (!values) return true;
 
+  // first timestamp validation
+  if (values.length > 0 && timestampToSeconds(values[0].time) !== 0) {
+    return context.createError({
+      message: 'The first timestamp should be `0:00`'
+    });
+  }
+
   // sequential timestamps
   let errors = [];
   let previousTime = -1;
