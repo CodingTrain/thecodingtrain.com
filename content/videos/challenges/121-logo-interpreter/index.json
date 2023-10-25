@@ -14,6 +14,7 @@
       "title": "Part 1: Logo Interpreter",
       "videoId": "i-k04yzfMpw",
       "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
         { "time": "0:20", "title": "What is Logo?" },
         { "time": "1:21", "title": "Logo commands" },
         { "time": "2:23", "title": "Let's go!" },

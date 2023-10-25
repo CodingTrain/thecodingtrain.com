@@ -9,6 +9,7 @@
   "canContribute": true,
   "relatedChallenges": ["39-madlibs-generator", "42-markov-chain-name-generator"],
   "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
     { "time": "0:06", "title": "What is a diastic machine?" },
     { "time": "2:08", "title": "Understanding via diagram" },
     { "time": "3:41", "title": "Let's start coding!" },
