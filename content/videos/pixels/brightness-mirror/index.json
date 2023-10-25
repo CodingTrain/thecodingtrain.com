@@ -1,6 +1,6 @@
 {
-  "title": "Checkbox Mirror",
-  "description": "This video looks at how to read the pixels from a live video and alter DOM elements (checkboxes) to create an abstract mirror.",
+  "title": "Brightness Mirror",
+  "description": "This video looks at how to create an abstract mirror in a p5.js canvas based on the brightness values of the pixels from live video.",
   "videoId": "rNqaw8LT2ZU",
   "nebulaSlug": "",
   "date": "2016-03-31",
