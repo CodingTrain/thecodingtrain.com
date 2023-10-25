@@ -1,0 +1,41 @@
+{
+  "title": "Mastodon Fractal Tree Bot",
+  "description": "In part 1 of this coding challenge, I create a node.js Mastodon bot that posts images (fractal trees) generated with Processing code. In part 2, I revise the node.js Mastodon bot to post images (fractal trees) in response to user mentions.",
+  "videoId": "luxczHFn1rU",
+  "videoNumber": "118",
+  "date": "2018-10-16",
+  "languages": ["Processing", "JavaScript", "Java", "Node.js"],
+  "topics": ["Mastodon", "bots", "fractals"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - ?",
+      "videoId": "luxczHFn1rU",
+      "timestamps": [{ "time": "0:00", "title": "Introduction" }]
+    },
+    {
+      "title": "Part 2 - ?",
+      "videoId": "PUPWPjjkNqQ",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:30", "title": "Change the code" },
+        { "time": "1:00", "title": "Why Mastodon" },
+        { "time": "1:40", "title": "Streaming API" },
+        { "time": "2:50", "title": "Looking up previous code" },
+        { "time": "4:00", "title": "Adding new code" },
+        { "time": "6:00", "title": "Regular expressions" },
+        { "time": "10:00", "title": "Testing" },
+        { "time": "11:00", "title": "Adding an angle" },
+        { "time": "13:00", "title": "Adding arguments" }
+      ]
+    }
+  ],
+  "codeExamples": [],
+  "groupLinks": [],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
