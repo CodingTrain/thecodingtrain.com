@@ -208,29 +208,56 @@ const timestampsArrayValidator = array(
 ).test((values, context) => {
   if (!values) return true;
 
-  // first timestamp validation
+  // Per https://support.google.com/youtube/answer/9884579?hl=en
+
+  // At least 3 timestamps are required
+  if (values.length > 0 && values.length < 3) {
+    return context.createError({
+      message: 'At least 3 timestamps are required'
+    });
+  }
+
+  // first timestamp should be `0:00`
   if (values.length > 0 && timestampToSeconds(values[0].time) !== 0) {
     return context.createError({
       message: 'The first timestamp should be `0:00`'
     });
   }
 
-  // sequential timestamps
-  let errors = [];
+  // Timestamps should be sequential and at least 10 seconds apart from each other
+  const sequenceErrors = [];
+  const lengthErrors = [];
   let previousTime = -1;
 
   for (const value of values) {
     const currentTime = timestampToSeconds(value.time);
-    if (currentTime <= previousTime) errors.push(value);
+
+    if (currentTime <= previousTime) sequenceErrors.push(value);
+    if (currentTime > 0 && currentTime - previousTime < 10)
+      lengthErrors.push(value);
+
     previousTime = currentTime;
   }
 
-  if (errors.length > 0) {
-    const details = errors.map((v) => `${v.time} - ${v.title}`).join(' | ');
-    const plural = errors.length > 1 ? 's are' : ' is';
+  if (sequenceErrors.length > 0) {
+    const details = sequenceErrors
+      .map((v) => `${v.time} - ${v.title}`)
+      .join(' | ');
+    const plural = sequenceErrors.length > 1 ? 's are' : ' is';
 
     return context.createError({
-      message: `${errors.length} timestamp${plural} not in sequential order | ${details}`
+      message: `${sequenceErrors.length} timestamp${plural} not in sequential order | ${details}`
+    });
+  }
+
+  if (lengthErrors.length > 0) {
+    const details = lengthErrors
+      .map((v) => `${v.time} - ${v.title}`)
+      .join(' | ');
+    const plural = lengthErrors.length > 1 ? 's are' : ' is';
+
+    return context.createError({
+      message: `${lengthErrors.length} timestamp${plural} are less than 10 seconds after the previous one | ${details}`
     });
   }
 

@@ -38,7 +38,7 @@ const baseVideosSchema = strictObject({
       title: string().required(),
       videoId: youtubeIdValidator.required(),
       nebulaSlug: nonUrlStringValidator,
-      timestamps: timestampsArrayValidator.min(1).required()
+      timestamps: timestampsArrayValidator.required()
     }).required()
   ).min(2), // if we need parts, should have at least 2
 
