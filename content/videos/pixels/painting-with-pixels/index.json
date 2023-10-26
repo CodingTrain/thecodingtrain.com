@@ -7,9 +7,44 @@
   "languages": ["JavaScript"],
   "topics": ["p5.js", "pixel array"],
   "canContribute": true,
-  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "relatedChallenges": ["52-random-walker", "78-simple-particle-system", "47-pixel-sorting-in-processing", "102-2d-water-ripple"],
   "timestamps": [
-   
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:31",
+      "title": "Add a random particle moving around the canvas"
+    },
+    {
+      "time": "2:51",
+      "title": "Get the particle color from the video"
+    },
+    {
+      "time": "3:45",
+      "title": "Scale down the pixel values"
+    },
+    {
+      "time": "6:25",
+      "title": "Color the pixel with R, G, B values from the video"
+    },
+    {
+      "time": "7:05",
+      "title": "Add more particles"
+    },
+    {
+      "time": "8:16",
+      "title": "Improvements"
+    },
+    {
+      "time": "10:51",
+      "title": "Additional things you could try"
+    },
+    {
+      "time": "13:20",
+      "title": "Outro"
+    }
   ],
   "codeExamples": [
     {
@@ -34,6 +69,11 @@
           "title": "updatePixels",
           "url": "https://p5js.org/reference/#/p5/updatePixels",
           "description": "p5 reference entry on the updatePixels() function"
+        },
+        {
+          "title": "lerpColor",
+          "url": "https://p5js.org/reference/#/p5/lerpColor",
+          "description": "p5 reference entry on the lerpColor() function"
         }
       ]
     }
