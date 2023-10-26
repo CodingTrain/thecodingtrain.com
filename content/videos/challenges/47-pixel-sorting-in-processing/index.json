@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-47-pixel-sorting-in-processing",
   "date": "2016-12-21",
   "languages": ["Processing", "Java"],
-  "topics": ["pixel sorting", "selection sort"],
+  "topics": ["pixel sorting", "selection sort", "pixels"],
   "canContribute": true,
   "relatedChallenges": ["114-bubble-sort-visualization"],
   "timestamps": [

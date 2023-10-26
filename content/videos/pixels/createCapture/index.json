@@ -5,7 +5,7 @@
   "nebulaSlug": "",
   "date": "2016-03-31",
   "languages": ["JavaScript"],
-  "topics": ["p5.js", "video", "createCapture"],
+  "topics": ["p5.js", "video", "createCapture", "pixels"],
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple", "166-image-to-ascii"],
   "timestamps": [

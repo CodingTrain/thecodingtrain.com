@@ -5,7 +5,7 @@
   "videoId": "X0kjv0MozuY",
   "date": "2018-05-14",
   "languages": ["Processing", "p5.js"],
-  "topics": ["fire simulation", "Perlin noise"],
+  "topics": ["fire simulation", "Perlin noise", "pixels"],
   "canContribute": true,
   "relatedChallenges": ["102-2d-water-ripple", "132-fluid-simulation"],
   "timestamps": [
