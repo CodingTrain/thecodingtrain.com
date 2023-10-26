@@ -5,7 +5,7 @@
   "nebulaSlug": "",
   "date": "2016-03-31",
   "languages": ["JavaScript"],
-  "topics": ["p5.js", "video", "Muybridge animation"],
+  "topics": ["p5.js", "video", "Muybridge animation", "pixels"],
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "83-p5-sketch-chrome-extension"],
   "timestamps": [

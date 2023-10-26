@@ -5,7 +5,7 @@
   "videoId": "nnlAH1zDBDE",
   "date": "2017-01-06",
   "languages": ["Java", "Processing"],
-  "topics": ["pixel array", "image processing"],
+  "topics": ["pixel array", "image processing", "pixels"],
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "50-animated-circle-packing", "90-dithering"],
   "timestamps": [
