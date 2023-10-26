@@ -1,0 +1,90 @@
+{
+  "title": "Slit-Scan Video",
+  "description": "This video covers how to program a \"slit-scan\" effect in p5.js.",
+  "videoId": "YqVbuMPIRwY",
+  "nebulaSlug": "",
+  "date": "2016-04-16",
+  "languages": ["JavaScript"],
+  "topics": ["p5.js", "video", "slit-scan"],
+  "canContribute": true,
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "164-slitscan", "166-image-to-ascii"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:06",
+      "title": "Diagram the slit-scanning effect"
+    },
+    {
+      "time": "3:20",
+      "title": "Starting coding"
+    },
+    {
+      "time": "4:08",
+      "title": "copy() function"
+    },
+    {
+      "time": "7:20",
+      "title": "Load the video pixels"
+    },
+    {
+      "time": "8:10",
+      "title": "Move the column of pixels across the canvas"
+    },
+    {
+      "time": "8:39",
+      "title": "Move background to setup"
+    },
+    {
+      "time": "9:22",
+      "title": "Reset value of x so animation continues"
+    },
+    {
+      "time": "9:35",
+      "title": "Variations you could try"
+    },
+    {
+      "time": "10:50",
+      "title": "Outro"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Slit-Scan video",
+      "description": "The sketch demonstrates how create a slit-scan effect.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/f_M7gry32"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "title": "createCapture",
+          "url": "https://p5js.org/reference/#/p5/createCapture",
+          "description": "Reference for p5.js createCapture() function."
+        },
+        {
+          "title": "copy",
+          "url": "https://p5js.org/reference/#/p5/copy",
+          "description": "Reference for p5.js copy() function."
+        },
+        {
+          "title": "Catalogue of Slit-Scan Video Artworks and Research",
+          "url": "http://www.flong.com/archive/texts/lists/slit_scan/index.html",
+          "description": "Golin Levin's Informal Catalogue of Slit-Scan Video Artworks and Research"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    }
+  ]
+}

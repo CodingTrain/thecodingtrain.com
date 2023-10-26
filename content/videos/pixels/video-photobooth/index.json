@@ -5,9 +5,9 @@
   "nebulaSlug": "",
   "date": "2016-03-31",
   "languages": ["JavaScript"],
-  "topics": ["p5.js", "video"],
+  "topics": ["p5.js", "video", "Muybridge animation"],
   "canContribute": true,
-  "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "relatedChallenges": ["47-pixel-sorting-in-processing", "83-p5-sketch-chrome-extension"],
   "timestamps": [
     {
       "time": "0:00",
@@ -81,9 +81,9 @@
       "title": "References",
       "links": [
         {
-          "title": "createCapture",
+          "title": "createCapture()",
           "url": "https://p5js.org/reference/#/p5/createCapture",
-          "description": "createCapture() reference"
+          "description": "p5 reference entry on the createCapture() function."
         },
         {
           "title": "Eadweard Muybridge",

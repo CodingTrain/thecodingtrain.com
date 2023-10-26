@@ -7,6 +7,7 @@
     "more-p5/pixel-array",
     "pixels/brightness-mirror",
     "pixels/checkbox-mirror",
-    "pixels/painting-with-pixels"
+    "pixels/painting-with-pixels",
+    "pixels/slit-scan"
   ]
 }
