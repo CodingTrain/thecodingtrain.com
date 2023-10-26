@@ -74,6 +74,11 @@
           "title": "lerpColor",
           "url": "https://p5js.org/reference/#/p5/lerpColor",
           "description": "p5 reference entry on the lerpColor() function"
+        },
+        {
+          "title": "Swarm",
+          "url": "https://history.siggraph.org/experience/swarm-by-shiffman/",
+          "description": "Link to overview of my video installation."
         }
       ]
     }
