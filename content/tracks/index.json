@@ -10,21 +10,21 @@
     "side-tracks/algorithmic-botany",
     "side-tracks/coding-in-the-cabana",
     "side-tracks/coding-together-apple-ii",
-    "side-tracks/games",
     "side-tracks/mastodon",
     "side-tracks/neural-networks",
     "side-tracks/noise",
     "side-tracks/p5-tips-and-tricks",
     "side-tracks/physics-libraries",
     "side-tracks/pi-day",
+    "side-tracks/pixels",
     "side-tracks/snowflakes",
     "side-tracks/sound",
     "side-tracks/supershapes",
     "side-tracks/teachable-machine",
     "side-tracks/topics-in-native-javascript",
     "side-tracks/transformations-in-p5",
+    "side-tracks/games",
     "side-tracks/web-sockets-and-p5js",
-    "side-tracks/webgl",
-    "side-tracks/pixels"
+    "side-tracks/webgl"
   ]
 }
