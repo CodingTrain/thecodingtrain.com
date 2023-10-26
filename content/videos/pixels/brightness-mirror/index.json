@@ -78,7 +78,7 @@
         {
           "icon": "🎥",
           "title": "map()",
-          "url": "tracks/code-programming-with-p5-jscode/2-variables/5-map",
+          "url": "/tracks/code-programming-with-p5-js/code/2-variables/5-map",
           "description": "This video covers the map() function in p5.js -- how to take a value from a given range and map it to a new range."
         }
       ]
