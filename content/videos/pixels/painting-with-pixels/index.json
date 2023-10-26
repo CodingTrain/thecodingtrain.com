@@ -7,7 +7,7 @@
   "languages": ["JavaScript"],
   "topics": ["p5.js", "pixel array"],
   "canContribute": true,
-  "relatedChallenges": ["52-random-walker", "78-simple-particle-system", "47-pixel-sorting-in-processing", "102-2d-water-ripple"],
+  "relatedChallenges": ["52-random-walker", "50-animated-circle-packing", "78-simple-particle-system", "90-dithering", "102-2d-water-ripple", "132-fluid-simulation"],
   "timestamps": [
     {
       "time": "0:00",
