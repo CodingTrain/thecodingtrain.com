@@ -8,7 +8,64 @@
   "topics": ["p5.js", "pixel array"],
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
-  "timestamps": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:03",
+      "title": "Thresholds"
+    },
+    {
+      "time": "2:39",
+      "title": "Add a slider"
+    },
+    {
+      "time": "3:12",
+      "title": "Assign the value of the slider to the threshold"
+    },
+    {
+      "time": "4:49",
+      "title": "Add checkboxes"
+    },
+    {
+      "time": "6:35",
+      "title": "Hard code the video size"
+    },
+    {
+      "time": "8:18",
+      "title": "Add the checkboxes to a div"
+    },
+    {
+      "time": "8:53",
+      "title": "Edit the html"
+    },
+    {
+      "time": "10:00",
+      "title": "Add styling to the div"
+    },
+    {
+      "time": "11:03",
+      "title": "Add linebreaks"
+    },
+    {
+      "time": "13:31",
+      "title": "Add an array to keep track of checkboxes"
+    },
+    {
+      "time": "14:31",
+      "title": "Use the threshold to check/uncheck the boxes"
+    },
+    {
+      "time": "15:22",
+      "title": "Create an index for the checked boxes"
+    },
+    {
+      "time": "17:20",
+      "title": "Outro"
+    }
+  ],
   "codeExamples": [
     {
       "title": "Checkbox Mirror",
@@ -23,6 +80,11 @@
     {
       "title": "References",
       "links": [
+        {
+          "title": "createCheckbox",
+          "url": "https://p5js.org/reference/#/p5/createCheckbox",
+          "description": "p5 reference entry on the createCheckbox() function"
+        },
         {
           "title": "loadPixels",
           "url": "https://p5js.org/reference/#/p5/loadPixels",

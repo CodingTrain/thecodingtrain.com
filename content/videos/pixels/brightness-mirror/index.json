@@ -8,7 +8,44 @@
   "topics": ["p5.js", "pixel array"],
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "102-2d-water-ripple"],
-  "timestamps": [],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "1:23",
+      "title": "Loading the video's pixels"
+    },
+    {
+      "time": "3:35",
+      "title": "Brightness value of the pixels"
+    },
+    {
+      "time": "4:25",
+      "title": "Discuss performance issues"
+    },
+    {
+      "time": "6:04",
+      "title": "Add a vScale variable"
+    },
+    {
+      "time": "7:16",
+      "title": "Draw a rectangle for every pixel"
+    },
+    {
+      "time": "10:00",
+      "title": "Map pixel size to the video brightness"
+    },
+    {
+      "time": "12:26",
+      "title": "Mirror the video image"
+    },
+    {
+      "time": "13:39",
+      "title": "Outro"
+    }
+  ],
   "codeExamples": [
     {
       "title": "Brightness Mirror",
@@ -32,6 +69,17 @@
           "title": "updatePixels",
           "url": "https://p5js.org/reference/#/p5/updatePixels",
           "description": "p5 reference entry on the updatePixels() function"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "map()",
+          "url": "/tracks/code-programming-with-p5-js/code/2-variables/5-map",
+          "description": "This video covers the map() function in p5.js -- how to take a value from a given range and map it to a new range."
         }
       ]
     }
