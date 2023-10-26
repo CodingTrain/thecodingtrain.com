@@ -8,6 +8,9 @@
     "pixels/brightness-mirror",
     "pixels/checkbox-mirror",
     "pixels/painting-with-pixels",
-    "pixels/slit-scan"
+    "pixels/slit-scan",
+    "challenges/47-pixel-sorting-in-processing",
+    "challenges/102-2d-water-ripple",
+    "challenges/103-fire-effect"
   ]
 }
