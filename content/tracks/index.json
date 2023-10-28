@@ -10,21 +10,21 @@
     "algorithmic-botany",
     "coding-in-the-cabana",
     "coding-together-apple-ii",
-    "games",
     "mastodon",
     "neural-networks",
     "noise",
     "p5-tips-and-tricks",
     "physics-libraries",
     "pi-day",
+    "pixels",
     "snowflakes",
     "sound",
     "supershapes",
     "teachable-machine",
     "topics-in-native-javascript",
     "transformations-in-p5",
+    "games",
     "web-sockets-and-p5js",
-    "webgl",
-    "pixels"
+    "webgl"
   ]
 }
