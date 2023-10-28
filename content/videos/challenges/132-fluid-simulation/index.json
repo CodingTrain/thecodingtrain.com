@@ -5,7 +5,7 @@
   "videoId": "alhpH6ECFvQ",
   "date": "2019-02-12",
   "languages": ["Processing"],
-  "topics": ["fluid simulation", "turbulent fluid flow"],
+  "topics": ["fluid simulation", "turbulent fluid flow", "pixels"],
   "canContribute": true,
   "relatedChallenges": ["24-perlin-noise-flow-field", "102-2d-water-ripple", "103-fire-effect"],
   "timestamps": [

@@ -5,7 +5,7 @@
   "videoId": "BZUdGqeOD0w",
   "date": "2018-05-07",
   "languages": ["Processing"],
-  "topics": ["2D water ripple", "cellular automaton"],
+  "topics": ["2D water ripple", "cellular automaton", "pixels"],
   "canContribute": true,
   "relatedChallenges": ["24-perlin-noise-flow-field", "85-the-game-of-life", "103-fire-effect"],
   "timestamps": [
