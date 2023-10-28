@@ -257,7 +257,7 @@ const timestampsArrayValidator = array(
     const plural = lengthErrors.length > 1 ? 's are' : ' is';
 
     return context.createError({
-      message: `${lengthErrors.length} timestamp${plural} are less than 10 seconds after the previous one | ${details}`
+      message: `${lengthErrors.length} timestamp${plural} less than 10 seconds after the previous one | ${details}`
     });
   }
 
