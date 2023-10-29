@@ -1,5 +1,5 @@
 {
-  "title": "pixels",
+  "title": "Pixels",
   "description": "Take a ride along the Pixels track and explore pixels with p5.js and Processing. In this track, I demonstrate how to work with real-time live video, using tint() to change colors and copy() to takes snapshots. I also explore how the pixel array works. I create examples of \"software\" mirrors that draw pixels as shapes or use DOM elements. I demonstrate how to create a \"painting\" with particles smearing colors from pixels, and build a slitscan effect.",
   "videos": [
     "pixels/createCapture",
