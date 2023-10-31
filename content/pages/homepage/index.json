@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "8-solar-system-3d",
-      "76-10Print",
-      "32-agario",
-      "c2-collatz-conjecture",
-      "c5-marching-squares",
-      "171-wave-function-collapse"
+      "13-reaction-diffusion",
+      "63-texturing-cloth-simulation",
+      "114-bubble-sort-visualization",
+      "56-attraction-and-repulsion-forces",
+      "163-bezier-curves",
+      "132-fluid-simulation"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/78-simple-particle-system/showcase/contribution-1696242955.json",
-      "challenges/173-snake-applesoft-basic/showcase/contribution-1696743428.json",
-      "challenges/132-fluid-simulation/showcase/contribution-1695519134.json",
-      "challenges/76-10Print/showcase/contribution-1672212742.json",
-      "challenges/8-solar-system-3d/showcase/contribution2.json",
-      "challenges/c2-collatz-conjecture/showcase/contribution-1687717743.json",
-      "data/1-client-side/1-fetch/showcase/contribution2.json",
-      "challenges/171-wave-function-collapse/showcase/contribution-1695477746.json"
+      "noc/3-angles/7-additive-waves/showcase/contribution-1698291255.json",
+      "challenges/164-slitscan/showcase/contribution2.json",
+      "ml5/5-knn-classification/2-train-the-model/showcase/contribution-1697896465.json",
+      "webgl/2-3d-geometries/showcase/contribution1.json",
+      "challenges/159-simple-pendulum/showcase/contribution-1698149682.json",
+      "challenges/163-bezier-curves/showcase/contribution9.json",
+      "challenges/163-bezier-curves/showcase/contribution8.json",
+      "challenges/56-attraction-and-repulsion-forces/showcase/contribution4.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
