@@ -11,7 +11,10 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "2:56", "title": "Adding Parameters to the Constructor" }
+    { "time": "1:35", "title": "Passing Arguments to a class constructor" },
+    { "time": "2:56", "title": "Adding Parameters to the Constructor" },
+    { "time": "4:02", "title": "Parameter naming conventions" },
+    { "time": "6:26", "title": "Summary" }
   ],
   "codeExamples": [
     {

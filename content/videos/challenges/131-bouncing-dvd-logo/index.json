@@ -6,26 +6,18 @@
   "nebulaSlug": "the-coding-train-coding-challenge-131-bouncing-dvd-logo",
   "date": "2019-02-08",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["p5.js", "beginners"],
+  "topics": ["p5.js", "beginners", "bouncing ball"],
   "canContribute": true,
   "relatedChallenges": ["67-pong", "174-graphics-applesoft-basic"],
   "timestamps": [
     { "time": "0:00", "title": "Introduce the coding challenge" },
     { "time": "0:52", "title": "Describe bouncing DVD logo" },
-    { "time": "1:07", "title": "Reference connected video" },
     { "time": "1:24", "title": "Whiteboard the concepts behind the challenge" },
     { "time": "3:03", "title": "Let's code" },
-    { "time": "3:12", "title": "Introduce the p5.js web editor" },
     { "time": "3:28", "title": "Track the x and y coordinates" },
-    {
-      "time": "4:33",
-      "title": "Consider the rate of change in the x and y dimensions"
-    },
+    { "time": "4:33", "title": "Consider the rate of change in the x and y dimensions" },
     { "time": "5:44", "title": "Test movement" },
-    {
-      "time": "6:15",
-      "title": "Bounce a rectangle against the right and bottom edge"
-    },
+    { "time": "6:15", "title": "Bounce a rectangle against the right and bottom edge" },
     { "time": "7:30", "title": "Consider the rectangle's width and height" },
     { "time": "8:12", "title": "Bounce the rectangle against all edges " },
     { "time": "9:00", "title": "Debug existing code" },
@@ -83,7 +75,7 @@
           "icon": "🎥",
           "title": "How I Learned to Code My Own Game",
           "url": "https://youtu.be/s12npdDmGUc",
-          "description": "This month, I learned to code my own game from scratch! I used Javascript and the P5 library to learn to code a browser based game."
+          "description": "This month, I learned to code my own game from scratch! I used Javascript and the P5 library to learn to code a browser based game. By [Mike Boyd](https://www.youtube.com/@MikeBoyd)"
         },
         {
           "icon": "🔴",

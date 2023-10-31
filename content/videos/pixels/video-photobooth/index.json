@@ -9,62 +9,20 @@
   "canContribute": true,
   "relatedChallenges": ["47-pixel-sorting-in-processing", "83-p5-sketch-chrome-extension"],
   "timestamps": [
-    {
-      "time": "0:00",
-      "title": "Introduction"
-    },
-    {
-      "time": "0:47",
-      "title": "Add a button"
-    },
-    {
-      "time": "1:40",
-      "title": "Binding an event to a mouse press"
-    },
-    {
-      "time": "3:48",
-      "title": "get() function"
-    },
-    {
-      "time": "4:44",
-      "title": "Add an array to hold the video history"
-    },
-    {
-      "time": "5:43",
-      "title": "Push a copy of the video to the array"
-    },
-    {
-      "time": "6:53",
-      "title": "Chrome developer console"
-    },
-    {
-      "time": "7:31",
-      "title": "Add a loop to draw the snapshots to the canvas"
-    },
-    {
-      "time": "10:30",
-      "title": "Can we add animation?"
-    },
-    {
-      "time": "11:30",
-      "title": "Add a ready event"
-    },
-    {
-      "time": "12:43",
-      "title": "Limit the size of the array"
-    },
-    {
-      "time": "15:48",
-      "title": "Use modulo to offset the images"
-    },
-    {
-      "time": "17:30",
-      "title": "Why is the animation working?"
-    },
-    {
-      "time": "17:30",
-      "title": "Outro"
-    }
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:47", "title": "Add a button" },
+    { "time": "1:40", "title": "Binding an event to a mouse press" },
+    { "time": "3:48", "title": "get() function" },
+    { "time": "4:44", "title": "Add an array to hold the video history" },
+    { "time": "5:43", "title": "Push a copy of the video to the array" },
+    { "time": "6:53", "title": "Chrome developer console" },
+    { "time": "7:31", "title": "Add a loop to draw the snapshots to the canvas" },
+    { "time": "10:30", "title": "Can we add animation?" },
+    { "time": "11:30", "title": "Add a ready event" },
+    { "time": "12:43", "title": "Limit the size of the array" },
+    { "time": "15:48", "title": "Use modulo to offset the images" },
+    { "time": "17:30", "title": "Why is the animation working?" },
+    { "time": "21:15", "title": "Outro" }
   ],
   "codeExamples": [
     {
