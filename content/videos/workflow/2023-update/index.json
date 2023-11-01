@@ -10,7 +10,7 @@
   "codeExamples": [
     {
       "title": "Shell commands and settings",
-      "description": "GitHub Wiki page will documentation of everything covered in video.",
+      "description": "GitHub Wiki page with documentation of everything covered in the video.",
       "image": "mac-terminal.png",
       "urls": {
         "other": "https://github.com/CodingTrain/Discord-Bot-Examples/wiki/Workflow:-Terminal,-Shell,-Node,-VSCode"
@@ -24,13 +24,13 @@
         {
           "icon": "📊",
           "title": "Working with Data and APIs",
-          "url": "https://thecodingtrain.com/tracks/data-and-apis-in-javascript",
+          "url": "/tracks/data-and-apis-in-javascript",
           "description": "A series of videos focused on working with APIs, fetching data, and displaying it using node.js and p5.js."
         },
         {
           "icon": "📜",
           "title": "Git and GitHub for Poets",
-          "url": "https://thecodingtrain.com/tracks/2018-workflow",
+          "url": "/tracks/2018-workflow",
           "description": "An introduction to the basics of Git and GitHub."
         }
       ]
