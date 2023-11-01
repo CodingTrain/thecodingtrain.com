@@ -1,6 +1,6 @@
 {
   "title": "Workflow: Terminal, Shell, Node.js, VSCode",
-  "description": "This video covers tools and configurations to set up a  JavaScript development environmnt with Node.js, Visual Studio Code, and shell/terminal access. This is step 1 along the way to creating your own Discord Bot!",
+  "description": "This video covers tools and configurations to set up a JavaScript development environment with Node.js, Visual Studio Code, and shell/terminal access. This is step 1 along the way to creating your own Discord Bot!",
   "videoId": "46WOuOrMwTQ",
   "nebulaSlug": "codingtrain-workflow-terminal-shell-nodejs-vscode",
   "date": "2023-11-01",
