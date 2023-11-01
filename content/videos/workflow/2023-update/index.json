@@ -7,6 +7,15 @@
   "topics": ["node.js", "shell", "unix", "terminal", "nvm", "vscode", "editor", "workflow"],
   "canContribute": false,
   "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Shell commands and settings",
+      "description": "GitHub Wiki page will documentation of everything covered in video.",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Discord-Bot-Examples/wiki/Workflow:-Terminal,-Shell,-Node,-VSCode"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "Related Videos",
