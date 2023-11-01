@@ -12,13 +12,13 @@
       "title": "Related Videos",
       "links": [
         {
-          "icon": "🎥",
+          "icon": "📊",
           "title": "Working with Data and APIs",
           "url": "https://thecodingtrain.com/tracks/data-and-apis-in-javascript",
           "description": "A series of videos focused on working with APIs, fetching data, and displaying it using node.js and p5.js."
         },
         {
-          "icon": "🎥",
+          "icon": "📜",
           "title": "Git and GitHub for Poets",
           "url": "https://thecodingtrain.com/tracks/2018-workflow",
           "description": "An introduction to the basics of Git and GitHub."
@@ -32,7 +32,7 @@
           "icon": "🐚",
           "title": "Z Shell",
           "url": "https://zsh.sourceforge.io/",
-          "description": "A command line interface, the default shell for mac os"
+          "description": "A command line interface, the default shell for macOS"
         },
         {
           "icon": "🌈",
@@ -65,7 +65,7 @@
         },
         {
           "icon": "🪟",
-          "title": "NVM for windows",
+          "title": "NVM for Windows",
           "url": "https://github.com/coreybutler/nvm-windows",
           "description": "A version manager for Windows users to manage and install different Node.js versions."
         }
