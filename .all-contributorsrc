@@ -180,6 +180,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "kvashchuka",
+      "name": "Anna Kvashchuk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12686827?v=4",
+      "profile": "https://github.com/kvashchuka",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
