@@ -1,9 +1,7 @@
 # Coding Train Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
@@ -69,6 +67,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/KobeLiesenborgs"><img src="https://avatars.githubusercontent.com/u/31523219?v=4?s=100" width="100px;" alt="Kobe Liesenborgs"/><br /><sub><b>Kobe Liesenborgs</b></sub></a><br /><a href="#content-KobeLiesenborgs" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://simontiger.com"><img src="https://avatars.githubusercontent.com/u/21979673?v=4?s=100" width="100px;" alt="Simon Tiger"/><br /><sub><b>Simon Tiger</b></sub></a><br /><a href="#ideas-simon-tiger" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://kaitab.net/"><img src="https://avatars.githubusercontent.com/u/93952418?v=4?s=100" width="100px;" alt="kaitabuchi"/><br /><sub><b>kaitabuchi</b></sub></a><br /><a href="#ideas-kaitabuchi314" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kvashchuka"><img src="https://avatars.githubusercontent.com/u/12686827?v=4?s=100" width="100px;" alt="Anna Kvashchuk"/><br /><sub><b>Anna Kvashchuk</b></sub></a><br /><a href="https://github.com/CodingTrain/thecodingtrain.com/commits?author=kvashchuka" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
