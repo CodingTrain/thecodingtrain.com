@@ -1,0 +1,102 @@
+{
+  "title": "Workflow: Terminal, Shell, Node.js, VSCode",
+  "description": "This video covers tools and configurations to set up a  JavaScript development environmnt with Node.js, Visual Studio Code, and shell/terminal access. This is step 1 along the way to creating your own Discord Bot!",
+  "videoId": "46WOuOrMwTQ",
+  "date": "2023-11-01",
+  "languages": ["JavaScript"],
+  "topics": ["node.js", "shell", "unix", "terminal", "nvm", "vscode", "editor", "workflow"],
+  "canContribute": false,
+  "timestamps": [],
+  "groupLinks": [
+    {
+      "title": "Related Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Working with Data and APIs",
+          "url": "https://thecodingtrain.com/tracks/data-and-apis-in-javascript",
+          "description": "A series of videos focused on working with APIs, fetching data, and displaying it using node.js and p5.js."
+        },
+        {
+          "icon": "🎥",
+          "title": "Git and GitHub for Poets",
+          "url": "https://thecodingtrain.com/tracks/2018-workflow",
+          "description": "An introduction to the basics of Git and GitHub."
+        }
+      ]
+    },
+    {
+      "title": "Terminal and Shell",
+      "links": [
+        {
+          "icon": "🐚",
+          "title": "Z Shell",
+          "url": "https://zsh.sourceforge.io/",
+          "description": "A command line interface, the default shell for mac os"
+        },
+        {
+          "icon": "🌈",
+          "title": "Oh My Zsh",
+          "url": "https://github.com/ohmyzsh/ohmyzsh",
+          "description": "A delightful, colorful community-driven theme for Zsh."
+        },
+        {
+          "icon": "💪",
+          "title": "curl",
+          "url": "https://curl.se/",
+          "description": "Command-line tool used for transferring data using various network protocols."
+        }
+      ]
+    },
+    {
+      "title": "Node.js",
+      "links": [
+        {
+          "icon": "👾",
+          "title": "Node.js",
+          "url": "https://nodejs.org/",
+          "description": "Node.js website, a JavaScript runtime."
+        },
+        {
+          "icon": "⚙️",
+          "title": "NVM",
+          "url": "https://github.com/nvm-sh/nvm",
+          "description": "GitHub repo for 'node version manager', tool to manage multiple active Node.js versions."
+        },
+        {
+          "icon": "🪟",
+          "title": "NVM for windows",
+          "url": "https://github.com/coreybutler/nvm-windows",
+          "description": "A version manager for Windows users to manage and install different Node.js versions."
+        }
+      ]
+    },
+    {
+      "title": "VSCode",
+      "links": [
+        {
+          "icon": "🆚",
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/",
+          "description": "Download the code editor VSCode at their website."
+        },
+        {
+          "icon": "🌈",
+          "title": "Prettier Extension",
+          "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+          "description": "Code formatter that supports multiple languages and integrates with VSCode."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
