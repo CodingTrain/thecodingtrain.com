@@ -16,7 +16,12 @@ If you have questions or need any help, come board the [Coding Train Discord](ht
 
 If you choose not to use the form above, you can also submit a Pull Request on GitHub. The first step is to associate your submission with a specific video. Don't worry too much if you aren't sure, just pick wherever you think it fits best! If your work relates to multiple videos just pick one!
 
-On the [GitHub repo homepage](https://github.com/CodingTrain/thecodingtrain.com), click the button in the upper left-hand corner where it says `main`. Type in the name of a branch (you can make this up!) and create the branch! In the example below I'm calling it `dan-showcase-submission`.
+First, you will need to [fork the repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository). On the [GitHub repo homepage](https://github.com/CodingTrain/thecodingtrain.com), click the button `Fork` in the upper-right corner. You will be prompted to the `Create a new fork` window, press `Create fork` in the bottom of the page. Now, you will have a fork of the original repo. 
+
+![Fork button](./passenger-showcase/fork.png)
+
+Second, create a branch in your fork by clicking a button in the upper left-hand corner where it says `main`. 
+Type in the name of a branch (you can make this up!) and create the branch! In the example below, I'm calling it `dan-showcase-submission`.
 
 ![Branches dropdown](./passenger-showcase/branches.png)
 
