@@ -10,6 +10,9 @@
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
+    { "time": "0:37", "title": "What does it mean to return a value?" },
+    { "time": "2:08", "title": "Syntax" },
+    { "time": "3:13", "title": "Code example" },
     { "time": "5:35", "title": "Returning a Value" }
   ],
   "codeExamples": [

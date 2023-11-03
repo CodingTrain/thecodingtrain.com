@@ -44,7 +44,7 @@
         {
           "icon": "🚂",
           "title": "Gravitational Attraction",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/2-forces/5-gravitational-attraction",
+          "url": "/tracks/the-nature-of-code-2/noc/2-forces/5-gravitational-attraction",
           "description": "Applying gravitation force between two objects in code."
         },
         {

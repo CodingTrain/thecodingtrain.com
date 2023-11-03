@@ -33,18 +33,14 @@
       "title": "Part 2 - Implement Sentiment Analysis",
       "videoId": "VV1JmMYceJw",
       "timestamps": [
-        { "time": "0:00", "title": "Introduce the coding challenge" },
-        { "time": "0:08", "title": "Load `.json` file" },
+        { "time": "0:00", "title": "Load `.json` file" },
         { "time": "0:35", "title": "Add markup to receive input text" },
         { "time": "2:15", "title": "Track `textarea` in JavaScript" },
         { "time": "3:39", "title": "Split text with a regular expression" },
         { "time": "5:05", "title": "Consider the `textarea` value" },
         { "time": "5:42", "title": "Iterate through the array of words" },
         { "time": "5:57", "title": "Consider word capitalization" },
-        {
-          "time": "6:30",
-          "title": "Check if the AFINN list includes the word"
-        },
+        { "time": "6:30", "title": "Check if the AFINN list includes the word" },
         { "time": "7:48", "title": "Increase score counter" },
         { "time": "8:00", "title": "Add markup to display values" },
         { "time": "8:30", "title": "Display score" },
@@ -55,10 +51,7 @@
         { "time": "12:00", "title": "Test with different inputs" },
         { "time": "13:03", "title": "Compute the total score" },
         { "time": "14:12", "title": "Summarize the coding challenge" },
-        {
-          "time": "14:35",
-          "title": "Highlight issue with the specific technique"
-        },
+        { "time": "14:35", "title": "Highlight issue with the specific technique" },
         { "time": "16:00", "title": "Conclude the coding challenge" }
       ]
     }

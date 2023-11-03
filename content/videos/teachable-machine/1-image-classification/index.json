@@ -9,6 +9,7 @@
   "topics": ["machine learning (ML)", "ml5.js", "image classification"],
   "canContribute": true,
   "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
     { "time": "0:32", "title": "Teachable Machine 2.0" },
     { "time": "1:06", "title": "Training an Image Classification model" },
     { "time": "3:11", "title": "Train model" },

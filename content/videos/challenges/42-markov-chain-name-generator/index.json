@@ -15,64 +15,28 @@
       "videoId": "eGFJ8vugIWA",
       "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
-        {
-          "time": "0:28",
-          "title": "Reference article explaining Markov chains"
-        },
+        { "time": "0:28", "title": "Reference article explaining Markov chains" },
         { "time": "0:43", "title": "Explain the logic of Markov chains" },
         { "time": "2:39", "title": "Mention possible use cases" },
-        {
-          "time": "3:06",
-          "title": "Describe the scope of the coding challenge"
-        },
+        { "time": "3:06", "title": "Describe the scope of the coding challenge" },
         { "time": "4:58", "title": "Explain n-grams and n-grams order" },
-        {
-          "time": "6:58",
-          "title": "Set up p5.js sketch with a string of text"
-        },
-        {
-          "time": "7:19",
-          "title": "Create an array with all possible tri-grams"
-        },
-        {
-          "time": "9:55",
-          "title": "Explain the data structure to study n-grams"
-        },
+        { "time": "6:58", "title": "Set up p5.js sketch with a string of text" },
+        { "time": "7:19", "title": "Create an array with all possible tri-grams" },
+        { "time": "9:55", "title": "Explain the data structure to study n-grams" },
         { "time": "11:05", "title": "Create an object of unique tri-grams" },
-        {
-          "time": "12:12",
-          "title": "Experiment with a different string of text"
-        },
-        {
-          "time": "13:15",
-          "title": "Consider the character after each tri-gram"
-        },
+        { "time": "12:12", "title": "Experiment with a different string of text" },
+        { "time": "13:15", "title": "Consider the character after each tri-gram" },
         { "time": "14:30", "title": "Examine the output object" },
-        {
-          "time": "16:30",
-          "title": "Expand sketch to generate text on demand"
-        },
-        {
-          "time": "18:10",
-          "title": "Consider n-grams for an arbitrary string of text"
-        },
-        {
-          "time": "18:53",
-          "title": "Pick a random element from one of the n-grams characters"
-        },
-        {
-          "time": "20:00",
-          "title": "Repeat the process to create longer strings"
-        },
+        { "time": "16:30", "title": "Expand sketch to generate text on demand" },
+        { "time": "18:10", "title": "Consider n-grams for an arbitrary string of text" },
+        { "time": "18:53", "title": "Pick a random element from one of the n-grams characters" },
+        { "time": "20:00", "title": "Repeat the process to create longer strings" },
         { "time": "21:07", "title": "Create n-grams from the current result" },
         { "time": "22:05", "title": "Highlight output text" },
         { "time": "22:20", "title": "Test with different input text" },
         { "time": "23:02", "title": "Test with different arguments" },
         { "time": "23:14", "title": "Debug n-gram logic" },
-        {
-          "time": "24:47",
-          "title": "Explain the influence of the order value"
-        },
+        { "time": "24:47", "title": "Explain the influence of the order value" },
         { "time": "25:35", "title": "Conclude the coding challenge" }
       ]
     },
@@ -81,31 +45,13 @@
       "videoId": "9r8CmofnbAQ",
       "timestamps": [
         { "time": "0:00", "title": "Introduce the coding challenge" },
-        {
-          "time": "0:10",
-          "title": "Mention the coding challenge 'Markov Chain Text'"
-        },
-        {
-          "time": "0:18",
-          "title": "Describe the scope of the coding challenge"
-        },
         { "time": "0:43", "title": "Introduce dataset with name suggestions" },
         { "time": "1:10", "title": "Load dataset" },
         { "time": "2:12", "title": "Loop through the strings of text" },
         { "time": "2:35", "title": "Create n-grams for the input text" },
         { "time": "3:08", "title": "Debug loop logic" },
-        {
-          "time": "3:58",
-          "title": "Credit Python code inspiring the algorithm"
-        },
-        {
-          "time": "4:27",
-          "title": "Create an array for the beginning of the string"
-        },
-        {
-          "time": "5:24",
-          "title": "Explain the importance of repeated values"
-        },
+        { "time": "3:58", "title": "Credit Python code inspiring the algorithm" },
+        { "time": "4:27", "title": "Create an array for the beginning of the string" },
         { "time": "5:32", "title": "Pick a random beginning" },
         { "time": "6:00", "title": "Experiment with different arguments" },
         { "time": "6:57", "title": "Explore creative possibilities" },

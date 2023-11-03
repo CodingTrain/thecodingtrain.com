@@ -8,6 +8,8 @@
   "topics": ["Twitter", "bot"],
   "canContribute": false,
   "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:32", "title": "Node.js and command line basics" },
     { "time": "1:35", "title": "Servers" },
     {
       "time": "4:35",
