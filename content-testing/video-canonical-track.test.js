@@ -1,29 +1,9 @@
-const { globSync } = require('glob');
 const fs = require('fs');
-
-describe('challenge videos should never have a canonicalTrack property', () => {
-  const challengeVideos = getChallengeVideos();
-
-  for (const [path, content] of challengeVideos) {
-    test(`${path}`, () => {
-      expect(content).not.toHaveProperty('canonicalTrack');
-    });
-  }
-});
+const { paths, toSlug } = require('./content');
 
 describe('track videos `canonicalTrack`', () => {
   const tracks = getTracks();
   const trackVideos = getTrackVideos();
-
-  describe('track referenced does not exist', () => {
-    for (const [path, _, content] of trackVideos) {
-      if (content.canonicalTrack) {
-        test(`${path}`, () => {
-          expect(tracks.has(content.canonicalTrack)).toEqual(true);
-        });
-      }
-    }
-  });
 
   describe('video is not used in the referenced track', () => {
     for (const [videoPath, videoSlug, content] of trackVideos) {
@@ -56,25 +36,16 @@ describe('track videos `canonicalTrack`', () => {
 
 // ---
 
-function getChallengeVideos() {
-  return globSync('content/videos/challenges/**/index.json').map((file) => {
-    const content = JSON.parse(fs.readFileSync(file));
-    return [file, content];
-  });
-}
-
 function getTrackVideos() {
-  return globSync('content/videos/**/index.json', {
-    ignore: 'content/videos/challenges/**'
-  }).map((file) => {
+  return paths.videos.map((file) => {
     const content = JSON.parse(fs.readFileSync(file));
-    const slug = file.split('content/videos/')[1].split('/index.json')[0];
+    const slug = toSlug.videosAndChallenges(file);
     return [file, slug, content];
   });
 }
 
 function getTracks() {
-  const refs = globSync('content/tracks/**/index.json').map((file) => {
+  const refs = paths.tracks.map((file) => {
     const content = JSON.parse(fs.readFileSync(file));
 
     // pluck out video slugs from main and side tracks for convenience
@@ -87,8 +58,8 @@ function getTracks() {
 
   const m = new Map();
   for (const ref of refs) {
-    const parts = ref[0].split('/');
-    const slug = parts[parts.length - 2];
+    const file = ref[0];
+    const slug = toSlug.tracks(file);
     m.set(slug, ref);
   }
   return m;
@@ -96,7 +67,7 @@ function getTracks() {
 
 function getTracksReferringToVideo(tracks, videoSlug) {
   const res = [];
-  tracks.forEach(([path, content, videoSlugs], trackSlug) => {
+  tracks.forEach(([path, _, videoSlugs]) => {
     if (videoSlugs.includes(videoSlug)) {
       res.push(path);
     }

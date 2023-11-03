@@ -14,12 +14,8 @@
     { "time": "1:45", "title": "Show sprite sheet" },
     { "time": "2:57", "title": "Show sprites' coordinates" },
     { "time": "3:15", "title": "Let's code" },
-    { "time": "3:18", "title": "Draw entire sprite sheet" },
     { "time": "5:18", "title": "Draw individual sprites" },
-    {
-      "time": "7:46",
-      "title": "Draw different sprites with the modulo operator"
-    },
+    { "time": "7:46", "title": "Draw different sprites with the modulo operator" },
     { "time": "9:02", "title": "Create a Sprite class" },
     { "time": "10:54", "title": "Define the show function" },
     { "time": "11:45", "title": "Define the animate function" },

@@ -69,7 +69,7 @@
         {
           "icon": "🎥",
           "title": "Polar Coordinates - p5.js Tutorial",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
           "description": "A dive into the trigonometric functions—sine, cosine, and tangent."
         }
       ]

@@ -68,7 +68,7 @@
         {
           "icon": "🚂",
           "title": "What is Perlin Noise?",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise",
+          "url": "/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise",
           "description": "Tutorial on Perlin Noise in p5.js"
         },
         {

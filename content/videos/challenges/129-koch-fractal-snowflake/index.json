@@ -22,7 +22,7 @@
     { "time": "4:40", "title": "Add an array list of segments" },
     { "time": "5:10", "title": "Draw the segments" },
     { "time": "8:24", "title": "Divide segment by 3" },
-    { "time": "0:00", "title": "Rotate to get the \"hat\"" },
+    { "time": "10:16", "title": "Rotate to get the \"hat\"" },
     {
       "time": "12:50",
       "title": "Write a function to add the children to the segments"
@@ -76,7 +76,7 @@
         {
           "icon": "🎥",
           "title": "Vectors",
-          "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/1-vectors/1-what-is-a-vector",
+          "url": "/tracks/the-nature-of-code-2/noc/1-vectors/1-what-is-a-vector",
           "description": "What is a vector? How do they work in p5.js?"
         },
         {

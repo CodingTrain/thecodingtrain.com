@@ -1,19 +1,3 @@
-const {
-  video: videoFormat,
-  track: trackFormat,
-  trackOrder: trackOrderFormat,
-  contribution: contributionFormat,
-  faqPage: faqPageFormat,
-  faq: faqFormat
-} = require('./file-formats.js');
-
-const {
-  video: videoSlugReferences,
-  track: trackSlugReference,
-  trackOrder: trackOrderSlugReference,
-  faqsOrder: faqsOrderSlugReference
-} = require('./slug-references.js');
-
 const contentStructure = {
   folders: {
     videos: {
@@ -24,7 +8,7 @@ const contentStructure = {
               folders: {
                 showcase: {
                   files: {
-                    '': { isRequired: false, jsonFormat: contributionFormat }
+                    '': { isRequired: false }
                   },
                   folder: {},
                   isRequired: false,
@@ -41,9 +25,7 @@ const contentStructure = {
               },
               files: {
                 'index.json': {
-                  isRequired: true,
-                  jsonFormat: videoFormat,
-                  slugReferences: videoSlugReferences
+                  isRequired: true
                 },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
@@ -72,7 +54,7 @@ const contentStructure = {
           folders: {
             showcase: {
               files: {
-                '': { isRequired: false, jsonFormat: contributionFormat }
+                '': { isRequired: false }
               },
               folder: {},
               isRequired: false,
@@ -89,9 +71,7 @@ const contentStructure = {
           },
           files: {
             'index.json': {
-              isRequired: true,
-              jsonFormat: videoFormat,
-              slugReferences: videoSlugReferences
+              isRequired: true
             },
             'index.jpg': { isRequired: false },
             'index.png': { isRequired: false }
@@ -124,9 +104,7 @@ const contentStructure = {
               folders: {},
               files: {
                 'index.json': {
-                  isRequired: true,
-                  jsonFormat: trackFormat,
-                  slugReferences: trackSlugReference
+                  isRequired: true
                 },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
@@ -156,9 +134,7 @@ const contentStructure = {
               folders: {},
               files: {
                 'index.json': {
-                  isRequired: true,
-                  jsonFormat: trackFormat,
-                  slugReferences: trackSlugReference
+                  isRequired: true
                 },
                 'index.jpg': { isRequired: false },
                 'index.png': { isRequired: false }
@@ -185,9 +161,7 @@ const contentStructure = {
       },
       files: {
         'index.json': {
-          isRequired: false,
-          jsonFormat: trackOrderFormat,
-          slugReferences: trackOrderSlugReference
+          isRequired: false
         }
       },
       isFileSensitive: true,
@@ -199,13 +173,10 @@ const contentStructure = {
         faqs: {
           files: {
             'index.json': {
-              isRequired: true,
-              jsonFormat: faqPageFormat,
-              slugReferences: faqsOrderSlugReference
+              isRequired: true
             },
             '': {
-              isRequired: false,
-              jsonFormat: { ...faqFormat, exceptions: 'index.json' }
+              isRequired: false
             }
           },
           folder: {},

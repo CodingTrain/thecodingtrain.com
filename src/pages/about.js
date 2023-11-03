@@ -228,7 +228,7 @@ const AboutPage = ({ data }) => {
                             person.name
                           )}
                         </td>
-                        <td>{person.role}</td>
+                        {person.role && <td>{person.role}</td>}
                       </tr>
                     ))}
                   </tbody>

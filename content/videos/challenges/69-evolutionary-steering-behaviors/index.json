@@ -91,7 +91,8 @@
       "title": "Part 5 - Bonus! Adding a Debug Checkbox",
       "videoId": "VnFF5V5DS8s",
       "timestamps": [
-        { "time": "0:00", "title": "Add a debug checkbox" },
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:21", "title": "Add a debug checkbox" },
         { "time": "2:39", "title": "Creative visualizations" }
       ]
     }
@@ -147,19 +148,19 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "My Video on Autonomous Agents and Steering",
+          "title": "Autonomous Agents and Steering",
           "url": "/tracks/the-nature-of-code-2/noc/5-autonomous-agents/1-steering-agents",
           "description": "In this video, I discuss the concept of an autonomous agent."
         },
         {
           "icon": "🚂",
-          "title": "My Video on Vectors in p5.js",
+          "title": "Vectors in p5.js",
           "url": "https://www.youtube.com/watch?v=vqE8DMfOajk",
           "description": "This video looks at how an object can store a history of positions."
         },
         {
           "icon": "🚂",
-          "title": "My Video on How to go Through an Array Backwards",
+          "title": "How to go Through an Array Backwards",
           "url": "https://youtu.be/HXOD_XDA-KU",
           "description": "This video looks at how to delete objects from an array selectively."
         },
@@ -168,6 +169,12 @@
           "title": "My Genetic Algorithm Playlist",
           "url": "/tracks/the-nature-of-code-2/noc/9-genetic-algorithms/1-introduction",
           "description": "This series of videos focuses on Evolutionary Computing."
+        },
+        {
+          "icon": "🚂",
+          "title": "Working with DOM in p5.js",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX",
+          "description": "Tutorial series on basics of HTML, CSS and manipulating the DOM with p5.js."
         },
         {
           "icon": "🔴",

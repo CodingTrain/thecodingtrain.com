@@ -10,9 +10,8 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "4:00", "title": "Draw Loop is Refreshing the Canvas" },
-    { "time": "4:07", "title": "For Loop Does a Repeated task" },
-    { "time": "4:30", "title": "Nested Loops" }
+    { "time": "0:45", "title": "Distinction between draw loop and a for loop" },
+    { "time": "4:25", "title": "Nested Loops" }
   ],
   "codeExamples": [
     {

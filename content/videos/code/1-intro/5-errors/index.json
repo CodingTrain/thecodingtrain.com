@@ -10,7 +10,8 @@
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "2:28", "title": "Error Messages" }
+    { "time": "0:36", "title": "Console" },
+    { "time": "2:00", "title": "Error Messages" }
   ],
   "codeExamples": [],
   "groupLinks": [],
