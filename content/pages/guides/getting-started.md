@@ -1,7 +1,7 @@
 ---
-title: 'Get Started Guide'
+title: 'Getting Started Guide'
 description: 'Guide with simple tips to get started into coding!'
-date: '2022-04-19'
+date: '2023-11-03'
 ---
 
 ## Welcome!
@@ -12,17 +12,17 @@ If you’re new to coding, getting started can feel overwhelming, hopefully this
 
 There are two main tracks you can follow for total and complete beginners.
 
+### Creative Coding for Beginners - Full Course!
+
+<Video videoId="4JzDttgdILQ" />
+
+The [Learning Processing Track](/tracks/learning-processing) is the newest beginner series on the Coding Train! It covers all of the fundamentals of computer programming (variables, conditionals, loops, functions, objects, arrays) in Java with Processing.
+
 ### Code! Programming with p5.js
 
 <Video videoId="HerCR8bw_GE" listId="PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"/>
 
 The [Code! Programming with p5.js Track](/tracks/code-programming-with-p5-js) focuses on the fundamentals of computer programming (variables, conditionals, iteration, functions & objects) with JavaScript.
-
-### Learning Processing
-
-<Video videoId="2VLaIr5Ckbs" list="PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e"/>
-
-The [Learning Processing Track](https://youtube.com/playlist?list=PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e) was recorded over 10 years ago in 2012 (!!) but the concepts and syntax remain the same today. It follows the textbook [Learning Processing](http://learningprocessing.com/) to walk you through all the basics of coding in Java with Processing.
 
 ## Languages
 
@@ -34,9 +34,9 @@ If you are interested in learning web development, p5.js is a way to get started
 
 ## Tools
 
-<Video videoId="gJa6wri8YNQ" listId="PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X"/>
+<Video videoId="46WOuOrMwTQ" />
 
-For a beginner, I recommend the [p5.js web editor](https://editor.p5js.org/), it’s probably the most used coding environment! You can also explore a downloadable text editor like [Visual Studio Code](https://code.visualstudio.com/). I cover all of these elements in [my 2018 workflow series](/tracks/2018-workflow). If you are using Processing, it comes [with its own development environment](https://processing.org/download)! There are many text editors out there – feel free to use whichever makes your coding experience comfortable!
+For a beginner, I recommend the [p5.js web editor](https://editor.p5js.org/), it’s probably the most used coding environment! If you are using Processing, it comes [with its own development environment](https://processing.org/download)! You can also explore a downloadable text editor like [Visual Studio Code](https://code.visualstudio.com/) for either! I cover tools beyond p5.js and Processing in [my 2023 workflow video](/tracks/2018-workflow/workflow/2023-update). There are many text editors out there – feel free to use whichever makes your coding experience comfortable!
 
 ## Version Control
 
