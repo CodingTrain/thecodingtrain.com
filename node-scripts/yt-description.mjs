@@ -17,6 +17,50 @@ import clipboard from 'clipboardy';
 const videos = [];
 
 /**
+ * @typedef {object} VideoInfo
+ * @property {string} title
+ * @property {string} description
+ * @property {string} videoNumber
+ * @property {string} videoId
+ * @property {string} date
+ * @property {string[]} languages
+ * @property {string} nebulaSlug
+ * @property {string[]} topics
+ * @property {boolean} canContribute
+ * @property {string[]} relatedChallenges
+ * @property {{time: number, title: string}[]} timestamps
+ * @property {{time: number, title: string}[]} corrections
+ * @property {{title: string, description: string, image: string, urls: object}[]} codeExamples
+ * @property {{title: string, links: {title: string, url: string, description: string}[]}[]} groupLinks
+ */
+
+/**
+ * A Coding Train Video
+ */
+class Video {
+  constructor(
+    data,
+    parentTracks,
+    urls,
+    filePath,
+    canonicalTrack,
+    slug,
+    canonicalURL,
+    isMultipartChallenge = false
+  ) {
+    /** @type {VideoInfo} */
+    this.data = data;
+    this.parentTracks = parentTracks;
+    this.urls = urls;
+    this.filePath = filePath;
+    this.canonicalTrack = canonicalTrack;
+    this.slug = slug;
+    this.canonicalURL = canonicalURL;
+    this.isMultipartChallenge = isMultipartChallenge;
+  }
+}
+
+/**
  * Searches for `index.json` files in a given directory and returns an array of parsed files.
  * @param {string} dir Name of directory to search for files
  * @param {?any[]} arrayOfFiles Array to store the parsed JSON files
@@ -82,31 +126,48 @@ function parseTrack(track) {
 function getVideoData(file) {
   const videoList = [];
   const content = fs.readFileSync(`./${file}`, 'utf-8');
-  const video = JSON.parse(content);
+  const videoData = JSON.parse(content);
 
   const filePath = file.split(path.sep).slice(2);
   const videoPath = filePath.slice(0, -1).join('/');
   // console.log('[Parsing File]:', filePath.join('/'));
-  let url, canonicalTrack;
+  let urls = [],
+    canonicalTrack,
+    canonicalURL;
+  const parentTracks = [];
 
   if (filePath[0] === 'challenges') {
-    url = filePath.slice(0, 2).join('/');
+    urls.push(filePath.slice(0, 2).join('/'));
+    canonicalURL = urls[0];
+    for (let track of allTracks) {
+      if (track.videoList.includes(videoPath)) {
+        urls.push(['tracks', track.trackName, videoPath].join('/'));
+        parentTracks.push(track.trackName);
+      }
+    }
   } else {
-    if (video.canonicalTrack) {
-      canonicalTrack = video.canonicalTrack;
-      url = ['tracks', video.canonicalTrack, videoPath].join('/');
+    if (videoData.canonicalTrack) {
+      canonicalTrack = videoData.canonicalTrack;
+      canonicalURL = ['tracks', canonicalTrack, videoPath].join('/');
+      for (let track of allTracks) {
+        if (track.videoList.includes(videoPath)) {
+          urls.push(['tracks', track.trackName, videoPath].join('/'));
+          parentTracks.push(track.trackName);
+        }
+      }
     } else {
       for (let track of allTracks) {
         if (track.videoList.includes(videoPath)) {
           canonicalTrack = track.trackName;
-          url = ['tracks', track.trackName, videoPath].join('/');
-          break;
+          urls.push(['tracks', track.trackName, videoPath].join('/'));
+          parentTracks.push(track.trackName);
         }
       }
+      canonicalURL = urls[0];
     }
   }
 
-  if (!url) {
+  if (urls.length == 0) {
     console.log(
       '⚠️  Warning: Could not find this video: ' +
         videoPath +
@@ -115,50 +176,50 @@ function getVideoData(file) {
     return [];
   }
 
-  const slug = url.split('/').at(-1);
+  const slug = urls[0].split('/').at(-1);
 
-  if (!url || url.length == 0) {
-    throw new Error(
-      'Something went wrong in parsing this file: ' + filePath.join('/')
-    );
-  }
-
-  if (video.parts && video.parts.length > 0) {
+  if (videoData.parts && videoData.parts.length > 0) {
     // Multipart Coding Challenge
     // https://github.com/CodingTrain/thecodingtrain.com/issues/420#issuecomment-1218529904
 
-    for (const part of video.parts) {
+    for (const part of videoData.parts) {
       // copy all info from base object
-      const partInfo = JSON.parse(JSON.stringify(video));
+      const partInfo = JSON.parse(JSON.stringify(videoData));
       delete partInfo.parts;
 
       // copy videoId, title, timestamps from parts
       partInfo.videoId = part.videoId;
       partInfo.timestamps = part.timestamps;
-      partInfo.challengeTitle = video.title;
+      partInfo.challengeTitle = videoData.title;
       partInfo.partTitle = part.title;
-      partInfo.title = video.title + ' - ' + part.title;
+      partInfo.title = videoData.title + ' - ' + part.title;
 
-      const videoData = {
-        pageURL: url,
-        data: partInfo,
-        filePath: file,
-        isMultipartChallenge: true,
+      const video = new Video(
+        partInfo,
+        parentTracks,
+        urls,
+        file,
         canonicalTrack,
-        slug: slug
-      };
-      videoList.push(videoData);
+        slug,
+        canonicalURL,
+        true
+      );
+
+      videoList.push(video);
     }
   } else {
-    video.challengeTitle = video.title;
-    const videoData = {
-      pageURL: url,
-      data: video,
-      filePath: file,
+    videoData.challengeTitle = videoData.title;
+    const video = new Video(
+      videoData,
+      parentTracks,
+      urls,
+      file,
       canonicalTrack,
-      slug: slug
-    };
-    videoList.push(videoData);
+      slug,
+      canonicalURL
+    );
+
+    videoList.push(video);
   }
   return videoList;
 }
@@ -219,7 +280,7 @@ function resolveCTLink(url) {
 
   let page;
   try {
-    page = videos.find((vid) => vid.pageURL === location).data;
+    page = videos.find((vid) => vid.urls.includes(location)).data;
   } catch (err) {
     console.warn('⚠️  Warning: Could not resolve to YT video:', url);
     return `https://thecodingtrain.com${url}`;
@@ -273,7 +334,7 @@ function findMaxOccurences(arr) {
  */
 function writeDescription(video) {
   const data = video.data;
-  const pageURL = video.pageURL;
+  const pageURL = video.canonicalURL;
   let description = '';
 
   // Description
@@ -340,7 +401,7 @@ function writeDescription(video) {
 
   // Previous Video / Next Video / All Videos
 
-  if (video.pageURL.startsWith('challenges/')) {
+  if (video.canonicalURL.startsWith('challenges/')) {
     const i = +video.data.videoNumber;
     const previousVideo = videos.find((vid) => vid.data.videoNumber == i - 1);
     const nextVideo = videos.find((vid) => vid.data.videoNumber == i + 1);
@@ -355,7 +416,7 @@ function writeDescription(video) {
       description += `🎥 Next: https://youtu.be/${nextVideo.data.videoId}?list=${challengePL}\n`;
     description += `🎥 All: https://www.youtube.com/playlist?list=${challengePL}\n`;
   } else {
-    const path = video.pageURL.split('/');
+    const path = video.canonicalURL.split('/');
     const videoDir = path.slice(2).join('/');
 
     const track = allTracks.find((t) => t.trackName === video.canonicalTrack);
@@ -365,13 +426,13 @@ function writeDescription(video) {
       let id = track.videoList.indexOf(videoDir);
 
       const previousPath = track.videoList[id - 1];
-      const previousVideo = videos.find(
-        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + previousPath
+      const previousVideo = videos.find((vid) =>
+        vid.urls.includes('tracks/' + track.trackName + '/' + previousPath)
       );
 
       const nextPath = track.videoList[id + 1];
-      const nextVideo = videos.find(
-        (vid) => vid.pageURL == 'tracks/' + track.trackName + '/' + nextPath
+      const nextVideo = videos.find((vid) =>
+        vid.urls.includes('tracks/' + track.trackName + '/' + nextPath)
       );
       const plId = track.data.playlistId
         ? `?list=${track.data.playlistId}`
@@ -413,12 +474,12 @@ function writeDescription(video) {
   if (data.relatedChallenges && data.relatedChallenges.length > 0) {
     description += `\nRelated Coding Challenges:\n`;
     for (const challenge of data.relatedChallenges) {
-      const challengeData = videos.find(
-        (vid) => vid.pageURL === `challenges/${challenge}`
+      const challengeData = videos.find((vid) =>
+        vid.urls.includes(`challenges/${challenge}`)
       );
       if (challengeData) {
         const { videoNumber, challengeTitle } = challengeData.data;
-        const url = challengeData.pageURL;
+        const url = challengeData.canonicalURL;
         description +=
           `🚂 ${videoNumber} ${challengeTitle}: ${resolveCTLink(url)}` + '\n';
       } else {
@@ -526,9 +587,7 @@ const allTracks = [...mainTracks, ...sideTracks];
       const url = new URL(video);
       if (url.hostname == 'thecodingtrain.com') {
         const pathName = url.pathname;
-        specifiedVideos = videos.filter(
-          (data) => '/' + data.pageURL === pathName
-        );
+        specifiedVideos = videos.filter((data) => data.urls.includes(pathName));
       } else {
         const video = resolveYTLink(url);
         if (video) {
