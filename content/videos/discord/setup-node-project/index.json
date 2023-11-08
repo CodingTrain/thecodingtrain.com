@@ -1,0 +1,67 @@
+{
+  "title": "How to Setup a Node.js Project",
+  "description": "...",
+  "videoId": "wM3TEvQn2hw",
+  "nebulaSlug": "",
+  "date": "2023-11-09",
+  "canContribute": false,
+  "languages": ["JavaScript", "Node.js"],
+  "topics": ["Node.js"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:47", "title": "Running JavaScript code with Node" },
+    { "time": "3:04", "title": "Creating a Node project" },
+    { "time": "7:24", "title": "Using built-in Node modules" },
+    { "time": "11:51", "title": "Installing and using third party packages" },
+    { "time": "18:26", "title": "Working with existing Node projects" },
+    { "time": "24:02", "title": "Summary" }
+  ],
+  "codeExamples": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📂",
+          "title": "fs module",
+          "url": "https://nodejs.org/api/fs.html",
+          "description": "Node.js documentation for the file system module"
+        },
+        {
+          "icon": "📦",
+          "title": "npm registry",
+          "url": "https://www.npmjs.com/",
+          "description": "A collection of open source packages for Node.js"
+        },
+        {
+          "icon": "🐮",
+          "title": "cowsay package",
+          "url": "https://www.npmjs.com/package/cowsay",
+          "description": "A node package that generates ASCII art of a cow saying a message"
+        },
+        {
+          "icon": "🖼️",
+          "title": "canvas package",
+          "url": "https://www.npmjs.com/package/canvas",
+          "description": "A node package for generating images using the Canvas API"
+        },
+        {
+          "icon": "🤖",
+          "title": "Discord Bot Examples",
+          "url": "https://github.com/CodingTrain/Discord-Bot-Examples/",
+          "description": "Repository of example Discord bots using discord.js"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
