@@ -16,7 +16,15 @@
     { "time": "18:26", "title": "Working with existing Node projects" },
     { "time": "24:02", "title": "Summary" }
   ],
-  "codeExamples": [],
+  "codeExamples": [
+    {
+      "title": "Example Project",
+      "description": "Demo for setting up a Node project",
+      "urls": {
+        "node": "https://github.com/CodingTrain/node-project-demo"
+      }
+    }
+  ],
   "groupLinks": [
     {
       "title": "References",
