@@ -2,7 +2,7 @@
   "title": "How to Setup a Node.js Project",
   "description": "Learn how to set up a Node.js project, run JavaScript code outside the browser, and use npm for package management!",
   "videoId": "wM3TEvQn2hw",
-  "nebulaSlug": "",
+  "nebulaSlug": "codingtrain-how-to-setup-a-nodejs-project",
   "date": "2023-11-08",
   "canContribute": false,
   "languages": ["JavaScript", "Node.js"],
