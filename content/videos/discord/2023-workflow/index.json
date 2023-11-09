@@ -4,6 +4,7 @@
   "videoId": "46WOuOrMwTQ",
   "nebulaSlug": "codingtrain-workflow-terminal-shell-nodejs-vscode",
   "date": "2023-11-01",
+  "canonicalTrack": "discord-bots",
   "languages": ["JavaScript"],
   "topics": ["node.js", "shell", "unix", "terminal", "nvm", "vscode", "editor", "workflow"],
   "canContribute": false,
