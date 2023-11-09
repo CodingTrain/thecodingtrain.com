@@ -13,6 +13,7 @@ const {
   youtubePlaylistIdValidator,
   videoNumberValidator,
   timestampsArrayValidator,
+  correctionsArrayValidator,
   urlOrRelativeLinkValidator
 } = require('./validators');
 
@@ -43,6 +44,8 @@ const baseVideosSchema = strictObject({
   ).min(2), // if we need parts, should have at least 2
 
   timestamps: timestampsArrayValidator.required(),
+
+  corrections: correctionsArrayValidator,
 
   codeExamples: array(
     strictObject({

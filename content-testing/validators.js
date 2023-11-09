@@ -264,6 +264,42 @@ const timestampsArrayValidator = array(
   return true;
 });
 
+const correctionsArrayValidator = array(
+  strictObject({
+    time: timestampValidator.required(),
+    title: string().required()
+  }).required()
+).test((values, context) => {
+  if (!values) return true;
+
+  // Per https://support.google.com/youtube/answer/57404
+
+  // Timestamps should be sequential
+  const sequenceErrors = [];
+  let previousTime = -1;
+
+  for (const value of values) {
+    const currentTime = timestampToSeconds(value.time);
+
+    if (currentTime <= previousTime) sequenceErrors.push(value);
+
+    previousTime = currentTime;
+  }
+
+  if (sequenceErrors.length > 0) {
+    const details = sequenceErrors
+      .map((v) => `${v.time} - ${v.title}`)
+      .join(' | ');
+    const plural = sequenceErrors.length > 1 ? 's are' : ' is';
+
+    return context.createError({
+      message: `${sequenceErrors.length} correction${plural} not in sequential order | ${details}`
+    });
+  }
+
+  return true;
+});
+
 // generate all valid track paths, including deeplinks to chapters and videos
 const tracksWithChaptersOrVideosSlugs = new Set(slugs.tracks);
 paths.tracks.forEach((p) => {
@@ -330,5 +366,6 @@ module.exports = {
   youtubePlaylistIdValidator,
   videoNumberValidator,
   timestampsArrayValidator,
+  correctionsArrayValidator,
   urlOrRelativeLinkValidator
 };

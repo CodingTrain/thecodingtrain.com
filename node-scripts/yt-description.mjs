@@ -3,8 +3,9 @@
 // Usage:
 // npm run yt-desc
 // npm run yt-desc https://thecodingtrain.com/path/to/video/page
+// npm run yt-desc https://youtube.com/watch?v=videoId
 // npm run yt-desc ./path/to/index.json
-// npm run yt-desc ./path/to/index.json -- -c # copy desc to clipboard
+// npm run yt-desc ./path/to/index.json -- -c # copy to clipboard
 
 // Output files are saved to `./_descriptions` directory
 
@@ -228,6 +229,26 @@ function resolveCTLink(url) {
 }
 
 /**
+ * Retrieves Coding Train video for a given YT link
+ * @param {URL} url YT video url
+ * @returns {video} video object
+ */
+function resolveYTLink(url) {
+  // youtube.com or youtu.be
+  if (
+    url.hostname.includes('youtube.com') ||
+    url.hostname.includes('youtu.be')
+  ) {
+    const videoId = url.searchParams.get('v') || url.pathname.slice(1);
+    const video = videos.find((vid) => vid.data.videoId === videoId);
+    if (video) {
+      return video;
+    }
+  }
+  return null;
+}
+
+/**
  * Finds the most occuring item in an array
  * @param {string[]} arr array of items
  */
@@ -414,6 +435,14 @@ function writeDescription(video) {
     }
   }
 
+  // Corrections
+  if (data.corrections && data.corrections.length > 0) {
+    description += '\nCorrections: \n';
+    for (const correction of data.corrections) {
+      description += `${correction.time} ${correction.title}\n`;
+    }
+  }
+
   // Credits
   const defaultCredits = `Editing by Mathieu Blanchette
 Animations by Jason Heglund
@@ -479,7 +508,7 @@ const allTracks = [...mainTracks, ...sideTracks];
 
   const args = process.argv.slice(2);
   const video = args.filter((arg) => !arg.startsWith('-'))[0];
-  const copyToClipboard = args.includes('-c');
+  const copyToClipboard = args.includes('-c') || args.includes('--copy');
 
   const directory = 'content/videos';
 
@@ -494,10 +523,21 @@ const allTracks = [...mainTracks, ...sideTracks];
     let specifiedVideos = [];
     try {
       // coding train website url
-      const pathName = new URL(video).pathname;
-      specifiedVideos = videos.filter(
-        (data) => '/' + data.pageURL === pathName
-      );
+      const url = new URL(video);
+      if (url.hostname == 'thecodingtrain.com') {
+        const pathName = url.pathname;
+        specifiedVideos = videos.filter(
+          (data) => '/' + data.pageURL === pathName
+        );
+      } else {
+        const video = resolveYTLink(url);
+        if (video) {
+          specifiedVideos = [video];
+        } else {
+          console.log('❌ Could not find video for', url.href);
+          return;
+        }
+      }
     } catch (e) {
       // local index.json path
       let filePath = video;

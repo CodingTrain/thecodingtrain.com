@@ -53,6 +53,12 @@
       "title": "Outro"
     }
   ],
+  "corrections": [
+    {
+      "time": "02:40",
+      "title": "This old example is not using classes in JavaScript. Check the accompanying code for an updated version!"
+    }
+  ],
   "codeExamples": [
     {
       "title": "Painting with Pixels Array",
