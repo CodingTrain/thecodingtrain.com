@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "13-reaction-diffusion",
-      "63-texturing-cloth-simulation",
-      "114-bubble-sort-visualization",
-      "56-attraction-and-repulsion-forces",
-      "163-bezier-curves",
-      "132-fluid-simulation"
+      "158-shape-classifier",
+      "14-fractal-trees-recursive",
+      "126-toothpicks",
+      "81-circle-morphing",
+      "c3-hilbert-curve",
+      "85-the-game-of-life"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "noc/3-angles/7-additive-waves/showcase/contribution-1698291255.json",
-      "challenges/164-slitscan/showcase/contribution2.json",
-      "ml5/5-knn-classification/2-train-the-model/showcase/contribution-1697896465.json",
-      "webgl/2-3d-geometries/showcase/contribution1.json",
-      "challenges/159-simple-pendulum/showcase/contribution-1698149682.json",
-      "challenges/163-bezier-curves/showcase/contribution9.json",
-      "challenges/163-bezier-curves/showcase/contribution8.json",
-      "challenges/56-attraction-and-repulsion-forces/showcase/contribution4.json"
+      "challenges/169-pi-in-the-sky/showcase/contribution-1698399425.json",
+      "challenges/24-perlin-noise-flow-field/showcase/contribution-1698628556.json",
+      "challenges/109-visualizing-500000-subscribers/showcase/contribution5.json",
+      "challenges/59-steering-behaviors/showcase/contribution-1698660164.json",
+      "noc/3-angles/7-additive-waves/showcase/contribution-1698963792.json",
+      "noc/perlin/graphing-1d-perlin-noise/showcase/contribution-1699035422.json",
+      "challenges/94-2048/showcase/contribution-1699402833.json",
+      "code/3-conditionals/2-bouncing/showcase/contribution-1699207494.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
