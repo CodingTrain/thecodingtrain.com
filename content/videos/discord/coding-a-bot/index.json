@@ -2,8 +2,8 @@
   "title": "Coding a Discord Bot",
   "description": "Learn to create a Discord bot using Discord.js in Node.js. This video walks through setting up a node project, creating a Discord application, and writing code for authentication, slash commands, and bot interaction.",
   "videoId": "AvQcTjB3gPg",
-  "nebulaSlug": "",
-  "date": "2023-11-11",
+  "nebulaSlug": "codingtrain-how-to-make-a-discord-bot-in-javascript",
+  "date": "2023-11-13",
   "canContribute": false,
   "languages": ["JavaScript", "Node.js", "discord.js"],
   "topics": ["discord bots"],
@@ -17,13 +17,22 @@
     { "time": "12:47", "title": "Code! Getting the bot to log into Discord" },
     { "time": "18:16", "title": "Creating a slash command" },
     { "time": "24:00", "title": "Deploying the slash command" },
-    { "time": "25:53", "title": "Listening for the command interaction and executing the command" },
+    {
+      "time": "25:53",
+      "title": "Listening for the command interaction and executing the command"
+    },
     { "time": "30:08", "title": "How Discord bots communicate with Discord" },
     { "time": "32:00", "title": "Discord.JS documentation" }
   ],
   "corrections": [
-    { "time": "15:45", "title": "Intents describe what events your bot will receive and what it has access to. The guilds intent is required so discord.js can internally populate it's cache to limit it's API calls to Discord." },
-    { "time": "23:49", "title": "Using ./ means the import will be relative to the file that the import is made in. Without it the import would be absolute meaning it would be from the root of your Node.JS project" }
+    {
+      "time": "15:45",
+      "title": "Intents describe what events your bot will receive and what it has access to. The guilds intent is required so discord.js can internally populate it's cache to limit it's API calls to Discord."
+    },
+    {
+      "time": "23:49",
+      "title": "Using ./ means the import will be relative to the file that the import is made in. Without it the import would be absolute meaning it would be from the root of your Node.JS project"
+    }
   ],
   "codeExamples": [
     {
