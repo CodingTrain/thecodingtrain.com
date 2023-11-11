@@ -1,6 +1,6 @@
 {
   "title": "Coding a Discord Bot",
-  "description": "Learn how to create a Discord bot using discord.js and Node.js",
+  "description": "Learn to create a Discord bot using Discord.js in Node.js. This video walks through setting up a node project, creating a Discord application, and writing code for authentication, slash commands, and bot interaction.",
   "videoId": "AvQcTjB3gPg",
   "nebulaSlug": "",
   "date": "2023-11-11",
