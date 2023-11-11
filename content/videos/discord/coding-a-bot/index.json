@@ -1,0 +1,67 @@
+{
+  "title": "Coding a Discord Bot",
+  "description": "",
+  "videoId": "Cv9KLtbHpjY",
+  "nebulaSlug": "",
+  "date": "2023-11-11",
+  "canContribute": false,
+  "languages": ["JavaScript", "Node.js", "discord.js"],
+  "topics": ["discord bots"],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Coding a Discord Bot",
+      "description": "Code and instructions for creating a Discord bot using discord.js",
+      "urls": {
+        "node": "https://github.com/CodingTrain/Discord-Bot-Examples/tree/main/01-discordjs"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🤖",
+          "title": "Discord Developer Portal",
+          "url": "https://discord.com/developers/applications",
+          "description": "Applications page in the Discord Developer Portal"
+        },
+        {
+          "icon": "📃",
+          "title": "Discord API Documentation",
+          "url": "https://discord.com/developers/docs/reference",
+          "description": "Documentation for the Discord API"
+        },
+        {
+          "icon": "🎨",
+          "title": "Discord.js",
+          "url": "https://discord.js.org/",
+          "description": "A powerful package for interacting with the Discord API"
+        },
+        {
+          "icon": "📄",
+          "title": "Discord.js Guide",
+          "url": "https://discordjs.guide/",
+          "description": "The official guide for discord.js, created and maintained by core members of its community."
+        },
+        {
+          "icon": "💾",
+          "title": "Discord Gateway Intents",
+          "url": "https://github.com/CodingTrain/Discord-Bot-Examples/wiki/Discord-GatewayIntents-explained/",
+          "description": "A wiki page explaining Discord Gateway Intents"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
