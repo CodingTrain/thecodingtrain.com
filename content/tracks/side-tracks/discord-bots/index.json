@@ -1,5 +1,5 @@
 {
   "title": "Discord Bots!",
-  "description": "...",
+  "description": "Learn to create a Discord bot using Discord.js in Node.js!",
   "videos": ["discord/2023-workflow", "discord/setup-node-project", "discord/coding-a-bot"]
 }
