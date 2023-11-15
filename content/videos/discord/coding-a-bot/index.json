@@ -88,7 +88,7 @@
         {
           "icon": "🚂",
           "title": "async/await",
-          "url": "tracks/topics-in-native-javascript/js/async-await-part-1",
+          "url": "/tracks/topics-in-native-javascript/js/async-await-part-1",
           "description": "Working with Promises in asynchronous JavaScript"
         }
       ]
