@@ -17,10 +17,7 @@
     { "time": "12:47", "title": "Code! Getting the bot to log into Discord" },
     { "time": "18:16", "title": "Creating a slash command" },
     { "time": "24:00", "title": "Deploying the slash command" },
-    {
-      "time": "25:53",
-      "title": "Listening for the command interaction and executing the command"
-    },
+    { "time": "25:53", "title": "Listening for the command interaction and executing the command" },
     { "time": "30:08", "title": "How Discord bots communicate with Discord" },
     { "time": "32:00", "title": "Discord.JS documentation" }
   ],
@@ -76,6 +73,23 @@
           "title": "Discord Gateway Intents",
           "url": "https://github.com/CodingTrain/Discord-Bot-Examples/wiki/Discord-GatewayIntents-explained/",
           "description": "A wiki page explaining Discord Gateway Intents"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Hiding API keys with .env",
+          "url": "/tracks/data-and-apis-in-javascript/data/3-the-weather-here/4-environment-variables",
+          "description": "Using dotenv to hide API keys"
+        },
+        {
+          "icon": "🚂",
+          "title": "async/await",
+          "url": "/tracks/topics-in-native-javascript/js/async-await-part-1",
+          "description": "Working with Promises in asynchronous JavaScript"
         }
       ]
     }
