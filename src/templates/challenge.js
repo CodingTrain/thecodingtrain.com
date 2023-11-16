@@ -18,19 +18,21 @@ import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
 import SemiColonCharacter from '../images/characters/SemiColon_2.mini.svg';
 
 const Challenge = ({ data }) => {
-  const { challenge, contributionPlaceholderImage, challengePlaceholderImage } =
+  const { challenge, coverImage, challengePlaceholderImage } =
     data;
+  // generic placeholder for challenge videos, collage of screenshots of challenge thumbnails
   const challengesPlaceholder = challengePlaceholderImage
     ? challengePlaceholderImage.childImageSharp.gatsbyImageData
     : null;
-  const contributionsPlaceholder = contributionPlaceholderImage
-    ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
+  // cover image for the challenge, fallbacks to placeholder
+  const cover = coverImage
+    ? coverImage.childImageSharp.gatsbyImageData
     : challengesPlaceholder;
   return (
     <Layout
       title={challenge.title}
       description={challenge.description}
-      image={contributionsPlaceholder}>
+      image={cover}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -49,7 +51,7 @@ const Challenge = ({ data }) => {
           video={challenge}
           variant="cyan"
           url={`/challenges/${challenge.slug}`}
-          placeholderImage={contributionsPlaceholder}
+          placeholderImage={cover}
         />
       </main>
 
@@ -66,7 +68,8 @@ const Challenge = ({ data }) => {
 
       <PassengerShowcasePanel
         contributions={challenge.showcase}
-        placeholderImage={contributionsPlaceholder}
+        // fallback to challenge cover image if no showcase cover image exists
+        placeholderImage={cover}
         submitButtonState={{ track: 'challenges', video: challenge.slug }}
       />
 
@@ -190,7 +193,7 @@ export const query = graphql`
         }
       }
     }
-    contributionPlaceholderImage: file(
+    coverImage: file(
       sourceInstanceName: { eq: "challenges" }
       extension: { in: ["jpg", "png"] }
       relativeDirectory: { eq: $slug }

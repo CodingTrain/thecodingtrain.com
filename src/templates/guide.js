@@ -166,15 +166,20 @@ const useLocalImages = (images) => {
 };
 
 const Guide = ({ data, children }) => {
-  const { mdx, images } = data;
+  const { mdx, images, coverImage } = data;
 
   const localImages = useLocalImages(images.nodes);
+
+  // cover image for the guide, falls back to final placeholder image
+  const guideCover = coverImage
+    ? coverImage.childImageSharp.gatsbyImageData
+    : localImages['placeholder.png'];
 
   return (
     <Layout
       title={mdx.frontmatter.title}
       description={mdx.frontmatter.description}
-      image={localImages['placeholder.png']}>
+      image={guideCover}>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -241,6 +246,15 @@ export const query = graphql`
             gatsbyImageData
           }
         }
+      }
+    }
+    coverImage: file(
+      sourceInstanceName: { eq: "guides" }
+      extension: { in: ["jpg", "png"] }
+      name: { eq: $slug }
+    ) {
+      childImageSharp {
+        gatsbyImageData
       }
     }
   }

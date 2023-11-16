@@ -23,29 +23,32 @@ const Track = ({ pageContext, data }) => {
   const {
     track,
     video,
-    contributionPlaceholderImage,
+    coverImage,
     videoPlaceHolderImage,
     challengePlaceholderImage
   } = data;
 
-  const contributionsPlaceholder = contributionPlaceholderImage
-    ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
+  // cover image for the video, falls back to final placeholder image
+  // used as a placeholder for showcase
+  const contributionPlaceholder = coverImage
+    ? coverImage.childImageSharp.gatsbyImageData
     : videoPlaceHolderImage
     ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
     : null;
 
+  // generic placeholder for challenge videos, collage of screenshots of challenge thumbnails
   const challengesPlaceholder =
     challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
-  const { trackPosition, isTrackPage } = pageContext;
-
+  // cover image for the track, falls back to video cover image and then to final placeholder image
   const trackImage = track.cover
     ? track.cover.file.childImageSharp.gatsbyImageData
-    : contributionsPlaceholder;
+    : contributionPlaceholder;
 
-  const videoImage = video.cover
-    ? video.cover.file.childImageSharp.gatsbyImageData
-    : trackImage;
+  // cover image for the video, falls back to track cover image
+  const videoImage = contributionPlaceholder ? contributionPlaceholder : trackImage;
+
+  const { trackPosition, isTrackPage } = pageContext;
 
   return (
     <Layout
@@ -105,7 +108,7 @@ const Track = ({ pageContext, data }) => {
 
           <PassengerShowcasePanel
             contributions={video.showcase}
-            placeholderImage={contributionsPlaceholder}
+            placeholderImage={contributionPlaceholder}
             headerType={isTrackPage ? 'h3' : 'h2'}
             submitButtonState={{
               track: video.canonicalTrack?.slug ?? 'challenges',
@@ -294,7 +297,7 @@ export const query = graphql`
         }
       }
     }
-    contributionPlaceholderImage: file(
+    coverImage: file(
       sourceInstanceName: { eq: $source }
       extension: { in: ["jpg", "png"] }
       relativeDirectory: { eq: $videoSlug }
