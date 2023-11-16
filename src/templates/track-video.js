@@ -28,9 +28,17 @@ const Track = ({ pageContext, data }) => {
     challengePlaceholderImage
   } = data;
 
+  const placeholderMainTrackImage =
+    data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
+  const placeholderSideTrackImage =
+    data.placeholderSideTrackImage.childImageSharp.gatsbyImageData;
+  const trackPlaceholder =
+    track.type === 'main'
+      ? placeholderMainTrackImage
+      : placeholderSideTrackImage;
+
   // cover image for the video, falls back to final placeholder image
-  // used as a placeholder for showcase
-  const contributionsPlaceholder = coverImage
+  const videoCover = coverImage
     ? coverImage.childImageSharp.gatsbyImageData
     : videoPlaceHolderImage
     ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
@@ -40,13 +48,15 @@ const Track = ({ pageContext, data }) => {
   const challengesPlaceholder =
     challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
-  // cover image for the track, falls back to video cover image and then to final placeholder image
+  // cover image for the track, falls back to track placeholder image
   const trackImage = track.cover
     ? track.cover.file.childImageSharp.gatsbyImageData
-    : contributionsPlaceholder;
+    : trackPlaceholder;
 
   // cover image for the video, falls back to track cover image
-  const videoImage = contributionsPlaceholder ? contributionsPlaceholder : trackImage;
+  const videoImage = coverImage
+    ? coverImage.childImageSharp.gatsbyImageData
+    : trackImage;
 
   const { trackPosition, isTrackPage } = pageContext;
 
@@ -108,7 +118,7 @@ const Track = ({ pageContext, data }) => {
 
           <PassengerShowcasePanel
             contributions={video.showcase}
-            placeholderImage={contributionsPlaceholder}
+            placeholderImage={videoCover}
             headerType={isTrackPage ? 'h3' : 'h2'}
             submitButtonState={{
               track: video.canonicalTrack?.slug ?? 'challenges',
@@ -321,6 +331,24 @@ export const query = graphql`
       sourceInstanceName: { eq: "challenges" }
       extension: { in: ["jpg", "png"] }
       relativeDirectory: { eq: "" }
+      name: { eq: "placeholder" }
+    ) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+    placeholderMainTrackImage: file(
+      sourceInstanceName: { eq: "main-tracks" }
+      extension: { in: ["jpg", "png"] }
+      name: { eq: "placeholder" }
+    ) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+    placeholderSideTrackImage: file(
+      sourceInstanceName: { eq: "side-tracks" }
+      extension: { in: ["jpg", "png"] }
       name: { eq: "placeholder" }
     ) {
       childImageSharp {
