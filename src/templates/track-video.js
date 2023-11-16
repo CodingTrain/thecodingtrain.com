@@ -30,7 +30,7 @@ const Track = ({ pageContext, data }) => {
 
   // cover image for the video, falls back to final placeholder image
   // used as a placeholder for showcase
-  const contributionPlaceholder = coverImage
+  const contributionsPlaceholder = coverImage
     ? coverImage.childImageSharp.gatsbyImageData
     : videoPlaceHolderImage
     ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
@@ -43,10 +43,10 @@ const Track = ({ pageContext, data }) => {
   // cover image for the track, falls back to video cover image and then to final placeholder image
   const trackImage = track.cover
     ? track.cover.file.childImageSharp.gatsbyImageData
-    : contributionPlaceholder;
+    : contributionsPlaceholder;
 
   // cover image for the video, falls back to track cover image
-  const videoImage = contributionPlaceholder ? contributionPlaceholder : trackImage;
+  const videoImage = contributionsPlaceholder ? contributionsPlaceholder : trackImage;
 
   const { trackPosition, isTrackPage } = pageContext;
 
@@ -108,7 +108,7 @@ const Track = ({ pageContext, data }) => {
 
           <PassengerShowcasePanel
             contributions={video.showcase}
-            placeholderImage={contributionPlaceholder}
+            placeholderImage={contributionsPlaceholder}
             headerType={isTrackPage ? 'h3' : 'h2'}
             submitButtonState={{
               track: video.canonicalTrack?.slug ?? 'challenges',
