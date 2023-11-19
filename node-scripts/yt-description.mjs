@@ -381,7 +381,27 @@ function writeDescription(video) {
       description += `\n🕹️ p5.js Web Editor Sketch: ${sketchUrls[0].urls.p5}`;
     }
   }
-  if (repoLink || sketchUrls?.length > 0) description += '\n';
+
+  // Other Code Examples
+  const otherCodeExamples = data.codeExamples?.filter(
+    (ex) => !ex.urls.p5 && !ex.urls.github
+  );
+  const getURL = (urls) =>
+    urls.p5 || urls.processing || urls.node || urls.other;
+  if (otherCodeExamples && otherCodeExamples.length > 0) {
+    if (otherCodeExamples.length > 1) {
+      if (sketchUrls?.length > 0 || repoLink) description += '\n';
+      description += '\nCode Examples:';
+      for (const ex of otherCodeExamples) {
+        description += `\n💻 ${ex.title}: ${getURL(ex.urls)}`;
+      }
+    } else {
+      const ex = otherCodeExamples[0];
+      description += `\n💻 Code Example: ${getURL(ex.urls)}`;
+    }
+  }
+  if (repoLink || sketchUrls?.length > 0 || otherCodeExamples?.length > 0)
+    description += '\n';
 
   // Other Parts of this Coding Challenge
 
@@ -470,7 +490,6 @@ function writeDescription(video) {
   }
 
   // Related Challenges
-
   if (data.relatedChallenges && data.relatedChallenges.length > 0) {
     description += `\nRelated Coding Challenges:\n`;
     for (const challenge of data.relatedChallenges) {
@@ -587,7 +606,9 @@ const allTracks = [...mainTracks, ...sideTracks];
       const url = new URL(video);
       if (url.hostname == 'thecodingtrain.com') {
         const pathName = url.pathname;
-        specifiedVideos = videos.filter((data) => data.urls.includes(pathName));
+        specifiedVideos = videos.filter((data) =>
+          data.urls.includes(pathName.slice(1))
+        );
       } else {
         const video = resolveYTLink(url);
         if (video) {
