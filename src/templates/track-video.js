@@ -23,29 +23,43 @@ const Track = ({ pageContext, data }) => {
   const {
     track,
     video,
-    contributionPlaceholderImage,
+    coverImage,
     videoPlaceHolderImage,
     challengePlaceholderImage
   } = data;
 
-  const contributionsPlaceholder = contributionPlaceholderImage
-    ? contributionPlaceholderImage.childImageSharp.gatsbyImageData
+  const placeholderMainTrackImage =
+    data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
+  const placeholderSideTrackImage =
+    data.placeholderSideTrackImage.childImageSharp.gatsbyImageData;
+  const trackPlaceholder =
+    track.type === 'main'
+      ? placeholderMainTrackImage
+      : placeholderSideTrackImage;
+
+  // cover image for the video, falls back to final placeholder image
+  // (used as placeholder for contributions)
+  const contributionsPlaceholder = coverImage
+    ? coverImage.childImageSharp.gatsbyImageData
     : videoPlaceHolderImage
     ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
     : null;
 
+  // generic placeholder for challenge videos, collage of screenshots of challenge thumbnails
   const challengesPlaceholder =
     challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
-  const { trackPosition, isTrackPage } = pageContext;
-
+  // cover image for the track, falls back to track placeholder image
   const trackImage = track.cover
     ? track.cover.file.childImageSharp.gatsbyImageData
-    : contributionsPlaceholder;
+    : trackPlaceholder;
 
-  const videoImage = video.cover
-    ? video.cover.file.childImageSharp.gatsbyImageData
+  // cover image for the video, falls back to track cover image
+  const videoImage = coverImage
+    ? coverImage.childImageSharp.gatsbyImageData
     : trackImage;
+
+  const { trackPosition, isTrackPage } = pageContext;
 
   return (
     <Layout
@@ -294,7 +308,7 @@ export const query = graphql`
         }
       }
     }
-    contributionPlaceholderImage: file(
+    coverImage: file(
       sourceInstanceName: { eq: $source }
       extension: { in: ["jpg", "png"] }
       relativeDirectory: { eq: $videoSlug }
@@ -318,6 +332,24 @@ export const query = graphql`
       sourceInstanceName: { eq: "challenges" }
       extension: { in: ["jpg", "png"] }
       relativeDirectory: { eq: "" }
+      name: { eq: "placeholder" }
+    ) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+    placeholderMainTrackImage: file(
+      sourceInstanceName: { eq: "main-tracks" }
+      extension: { in: ["jpg", "png"] }
+      name: { eq: "placeholder" }
+    ) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+    placeholderSideTrackImage: file(
+      sourceInstanceName: { eq: "side-tracks" }
+      extension: { in: ["jpg", "png"] }
       name: { eq: "placeholder" }
     ) {
       childImageSharp {
