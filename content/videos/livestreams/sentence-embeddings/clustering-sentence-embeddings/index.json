@@ -1,0 +1,75 @@
+{
+  "title": "Sentence Embeddings with transformers.js and umap",
+  "description": "In this video, I cover the node.js \"dotenv\" package and show how to save API credentials as environment variables. ",
+  "videoNumber": "4.3",
+  "videoId": "1mwguqeEz8c",
+  "date": "2023-12-4",
+  "languages": ["Transformers.js"],
+  "topics": ["transformers", "embeddings"],
+  "canContribute": false,
+  "timestamps": [
+    { "time": "0:00", "title": "Livestream starts" },
+    { "time": "6:10", "title": "Welcome" },
+    { "time": "10:46", "title": "Programming with text" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Umap3 - Loading Embeddings",
+      "description": "",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/AebzAbSpU" }
+    },
+    {
+      "title": "Umap1 - Random Embeddings",
+      "description": "",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/9CpF5OVy4" }
+    },
+    {
+      "title": "Save Embeddings JSON",
+      "description": "Github repo with informatiand and resources about saving embeddings",
+      "image": "",
+      "urls": { "other": "https://github.com/Programming-from-A-to-Z/Save-Embeddings-JSON" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Embeddings",
+          "url": "https://github.com/Programming-from-A-to-Z/A2Z-F23/tree/main/08-embeddings",
+          "description": "Course materials for Embeddings from Programming-from-A-to-Z"
+        },
+        {
+          "icon": "",
+          "title": "Replicate",
+          "url": "https://replicate.com",
+          "description": "Replicate website"
+        },
+        {
+          "icon": "",
+          "title": "",
+          "url": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "",
+          "url": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
