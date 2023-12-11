@@ -8,14 +8,19 @@
   "topics": ["transformers", "embeddings"],
   "canContribute": false,
   "timestamps": [
-    { "time": "0:00", "title": "Livestream starts" },
-    { "time": "6:10", "title": "Welcome" },
-    { "time": "10:46", "title": "Programming with text" },
-    { "time": "20:55", "title": "save embeddigs.json repo" },
-    { "time": "31:29", "title": "What is an embedding?" },
-    { "time": "38:45", "title": "Feature extraction" },
-    { "time": "47:31", "title": "Retrieval augmented Generation" },
-    { "time": "57:42", "title": "Transformers.js and ONNX" }
+    { "time": "0:00:00", "title": "Livestream starts" },
+    { "time": "0:06:10", "title": "Welcome" },
+    { "time": "0:10:46", "title": "Programming with text" },
+    { "time": "0:20:55", "title": "save embeddigs.json repo" },
+    { "time": "0:31:29", "title": "What is an embedding?" },
+    { "time": "0:38:45", "title": "Feature extraction" },
+    { "time": "0:47:31", "title": "Retrieval augmented Generation" },
+    { "time": "0:57:42", "title": "Transformers.js and ONNX" },
+    { "time": "0:59:22", "title": "Initialize new node project" },
+    { "time": "1:02:05", "title": "Pipelines" },
+    { "time": "1:04:15", "title": "Load model function" },
+    { "time": "1:08:03", "title": "Remove async" },
+    { "time": "1:11:29", "title": "Corpora" }
   ],
   "codeExamples": [
     {
@@ -112,6 +117,18 @@
           "title": "ONNX Runtime",
           "url": "https://onnxruntime.ai/docs/tutorials/web/",
           "description": "Tutorial that explains how to run a machine learning model in the brower using ONNX."
+        },
+        {
+          "icon": "",
+          "title": "Corpora",
+          "url": "https://github.com/dariusk/corpora",
+          "description": "Corpora is a repository of JSON files."
+        },
+        {
+          "icon": "",
+          "title": "tv_shows.json",
+          "url": "https://github.com/dariusk/corpora/blob/master/data/film-tv/tv_shows.json",
+          "description": "JSON file with a list of 1000 tv shows"
         }
       ]
     },
