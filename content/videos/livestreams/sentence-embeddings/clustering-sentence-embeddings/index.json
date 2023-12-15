@@ -6,7 +6,8 @@
   "date": "2023-12-04",
   "languages": ["Transformers.js"],
   "topics": ["transformers", "embeddings", "retrieval augmented generation", "umap"],
-  "canContribute": false,
+  "canContribute": true,
+  "relatedChallenges": ["39-madlibs-generator", "37-diastic-machine", "44-afinn-111-sentiment-analysis"],
   "timestamps": [
     { "time": "0:00:00", "title": "Livestream starts" },
     { "time": "0:06:10", "title": "Welcome" },
@@ -165,9 +166,15 @@
         },
         {
           "icon": "🚂",
+          "title": "What is word2vec? - Programming with Text",
+          "url": "https://www.youtube.com/watch?v=LSS_bos_TPI",
+          "description": "In this tutorial, I explain word embeddings and the machine learning model word2vec."
+        },
+        {
+          "icon": "🚂",
           "title": "Introduction to Regular Expressions",
           "url": "https://www.youtube.com/watch?v=7DG3kCDx53c",
-          "description": "My video about Regular Expressions."
+          "description": "In this video I introduce Regular Expressions: what are they and how are they used."
         },
         {
           "icon": "🚂",
