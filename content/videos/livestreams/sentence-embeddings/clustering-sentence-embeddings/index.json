@@ -3,7 +3,7 @@
   "description": "In the livestream, I demonstrate how to visualize sentence embeddings with transfomers.js and umap",
   "videoNumber": "",
   "videoId": "1mwguqeEz8c",
-  "date": "2023-12-4",
+  "date": "2023-12-04",
   "languages": ["Transformers.js"],
   "topics": ["transformers", "embeddings", "retrieval augmented generation", "umap"],
   "canContribute": false,
@@ -11,7 +11,7 @@
     { "time": "0:00:00", "title": "Livestream starts" },
     { "time": "0:06:10", "title": "Welcome" },
     { "time": "0:10:46", "title": "Programming with text" },
-    { "time": "0:20:55", "title": "save embeddigs.json repo" },
+    { "time": "0:20:55", "title": "save embeddings.json repo" },
     { "time": "0:31:29", "title": "What is an embedding?" },
     { "time": "0:38:45", "title": "Feature extraction" },
     { "time": "0:47:31", "title": "Retrieval Augmented Generation" },
@@ -26,7 +26,7 @@
     { "time": "1:49:03", "title": "umap.js" },
     { "time": "1:54:30", "title": "umap parameters" },
     { "time": "2:00:51", "title": "Visualize umap results" },
-    { "time": "2:07:71", "title": "Step through one cycle of the algorithm" },
+    { "time": "2:07:41", "title": "Step through one cycle of the algorithm" },
     { "time": "2:14:56", "title": "Add raw embeddings json data" },
     { "time": "2:17:47", "title": "Change circles to text" },
     { "time": "2:24:46", "title": "Things you can try" },
@@ -99,13 +99,13 @@
           "description": "Paper proposing C-Pack"
         },
         {
-          "icon": "",
+          "icon": "🔗",
           "title": "bge-large-en-v1.5 demo",
           "url": "https://replicate.com/nateraw/bge-large-en-v1.5",
           "description": "bge-large-en-v1.5 demo on Replicate"
         },
         {
-          "icon": "",
+          "icon": "🔗",
           "title": "bge-large-en-v1.5",
           "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
           "description": "Model card about bge-large-en-v1.5 on Hugging Face"
@@ -160,7 +160,7 @@
         {
           "icon": "🚂",
           "title": "How to Set up A Node Project",
-          "url": "content/videos/discord/setup-node-project",
+          "url": "/tracks/discord-bots/discord/setup-node-project",
           "description": "My tutorial about setting up a Node project."
         },
         {
