@@ -77,13 +77,13 @@
         {
           "icon": "🔗",
           "title": "UMAP-js Github Repo",
-          "url": "https://github.com/PAIR-code/UMAP-js",
+          "url": "https://github.com/PAIR-code/umap-js",
           "description": "JavaScript implementation of UMAP"
         },
         {
           "icon": "🔗",
           "title": "Understanding UMAP",
-          "url": "https://pair-code.github.io/understanding-UMAP",
+          "url": "https://pair-code.github.io/understanding-umap",
           "description": "Article by Coenen and Pearce about UMAP."
         },
         {
