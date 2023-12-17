@@ -125,7 +125,6 @@ const baseVideosSchema = strictObject({
       url: string().url()
     }).required()
   )
-    .min(1)
     .required()
 });
 

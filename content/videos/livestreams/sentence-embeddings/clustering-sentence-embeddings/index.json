@@ -1,11 +1,10 @@
 {
-  "title": "Sentence Embeddings with transformers.js and umap",
-  "description": "In the livestream, I demonstrate how to visualize sentence embeddings with transfomers.js and umap",
-  "videoNumber": "",
+  "title": "Sentence Embeddings with transformers.js and UMAP",
+  "description": "In the livestream, I demonstrate how to visualize sentence embeddings with transfomers.js and UMAP",
   "videoId": "1mwguqeEz8c",
   "date": "2023-12-04",
   "languages": ["Transformers.js"],
-  "topics": ["transformers", "embeddings", "retrieval augmented generation", "umap"],
+  "topics": ["transformers", "embeddings", "retrieval augmented generation", "UMAP"],
   "canContribute": true,
   "relatedChallenges": ["39-madlibs-generator", "37-diastic-machine", "44-afinn-111-sentiment-analysis"],
   "timestamps": [
@@ -24,9 +23,9 @@
     { "time": "1:11:29", "title": "Find a dataset on Corpora" },
     { "time": "1:15:14", "title": "Get embeddings" },
     { "time": "1:30:51", "title": "Embedding projector" },
-    { "time": "1:49:03", "title": "umap.js" },
-    { "time": "1:54:30", "title": "umap parameters" },
-    { "time": "2:00:51", "title": "Visualize umap results" },
+    { "time": "1:49:03", "title": "UMAP.js" },
+    { "time": "1:54:30", "title": "UMAP parameters" },
+    { "time": "2:00:51", "title": "Visualize UMAP results" },
     { "time": "2:07:41", "title": "Step through one cycle of the algorithm" },
     { "time": "2:14:56", "title": "Add raw embeddings json data" },
     { "time": "2:17:47", "title": "Change circles to text" },
@@ -35,26 +34,26 @@
   ],
   "codeExamples": [
     {
-      "title": "Umap - P5 function name embeddings",
-      "description": "Visualize the P5 functionname embeddings",
+      "title": "UMAP - p5 function name embeddings",
+      "description": "Visualize the p5 functionname embeddings",
       "image": "p5.jpg",
       "urls": { "p5": "https://editor.p5js.org/a2zitp/sketches/p63QTp0Sd" }
     },
     {
-      "title": "Umap - random embeddings",
-      "description": "Visualizing the umap with random data",
+      "title": "UMAP - random embeddings",
+      "description": "Visualizing the UMAP with random data",
       "image": "umap1.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/9CpF5OVy4" }
     },
     {
-      "title": "Umap - tv show embeddings",
-      "description": "Visualize the tv embeddings",
+      "title": "UMAP - TV show embeddings",
+      "description": "Visualize the TV embeddings",
       "image": "umap3.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/AebzAbSpU" }
     },
     {
       "title": "Save Embeddings JSON",
-      "description": "Github repo with informatiand and resources about saving embeddings",
+      "description": "Github repo with information and resources about saving embeddings",
       "image": "",
       "urls": { "other": "https://github.com/Programming-from-A-to-Z/Save-Embeddings-JSON" }
     }
@@ -77,14 +76,14 @@
         },
         {
           "icon": "🔗",
-          "title": "umap-js Github Repo",
-          "url": "https://github.com/PAIR-code/umap-js",
-          "description": "umap-js Github repo"
+          "title": "UMAP-js Github Repo",
+          "url": "https://github.com/PAIR-code/UMAP-js",
+          "description": "JavaScript implementation of UMAP"
         },
         {
           "icon": "🔗",
           "title": "Understanding UMAP",
-          "url": "https://pair-code.github.io/understanding-umap",
+          "url": "https://pair-code.github.io/understanding-UMAP",
           "description": "Article by Coenen and Pearce about UMAP."
         },
         {
@@ -137,15 +136,15 @@
         },
         {
           "icon": "🔗",
-          "title": "tv_shows.json",
+          "title": "TV Shows Data",
           "url": "https://github.com/dariusk/corpora/blob/master/data/film-tv/tv_shows.json",
-          "description": "JSON file with a list of 1000 tv shows"
+          "description": "JSON file with a list of 1000 TV shows from [Corpora](https://github.com/dariusk/corpora)."
         },
         {
           "icon": "🔗",
           "title": "TV show embeddings",
           "url": "https://raw.githubusercontent.com/CodingTrain/Embeddings-Live/main/tv-embeddings.json",
-          "description": "tv show embeddings"
+          "description": "TV show embeddings JSON"
         },
         {
           "icon": "🔗",
@@ -185,8 +184,5 @@
       ]
     }
   ],
-  "credits": [
-    { "title": "Editing", "name": "Mathieu Blanchette" },
-    { "title": "Animations", "name": "Jason Heglund" }
-  ]
+  "credits": []
 }
