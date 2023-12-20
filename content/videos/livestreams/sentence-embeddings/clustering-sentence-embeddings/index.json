@@ -1,0 +1,188 @@
+{
+  "title": "Sentence Embeddings with transformers.js and UMAP",
+  "description": "In the livestream, I demonstrate how to visualize sentence embeddings with transfomers.js and UMAP",
+  "videoId": "1mwguqeEz8c",
+  "date": "2023-12-04",
+  "languages": ["Transformers.js"],
+  "topics": ["transformers", "embeddings", "retrieval augmented generation", "UMAP"],
+  "canContribute": true,
+  "relatedChallenges": ["39-madlibs-generator", "37-diastic-machine", "44-afinn-111-sentiment-analysis"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Livestream starts" },
+    { "time": "0:06:10", "title": "Welcome" },
+    { "time": "0:10:46", "title": "Programming with text" },
+    { "time": "0:20:55", "title": "save embeddings.json repo" },
+    { "time": "0:31:29", "title": "What is an embedding?" },
+    { "time": "0:38:45", "title": "Feature extraction" },
+    { "time": "0:47:31", "title": "Retrieval Augmented Generation" },
+    { "time": "0:57:42", "title": "Transformers.js and ONNX" },
+    { "time": "0:59:22", "title": "Initialize new node project" },
+    { "time": "1:02:05", "title": "Pipelines" },
+    { "time": "1:04:15", "title": "Load model function" },
+    { "time": "1:08:03", "title": "Remove async" },
+    { "time": "1:11:29", "title": "Find a dataset on Corpora" },
+    { "time": "1:15:14", "title": "Get embeddings" },
+    { "time": "1:30:51", "title": "Embedding projector" },
+    { "time": "1:49:03", "title": "UMAP.js" },
+    { "time": "1:54:30", "title": "UMAP parameters" },
+    { "time": "2:00:51", "title": "Visualize UMAP results" },
+    { "time": "2:07:41", "title": "Step through one cycle of the algorithm" },
+    { "time": "2:14:56", "title": "Add raw embeddings json data" },
+    { "time": "2:17:47", "title": "Change circles to text" },
+    { "time": "2:24:46", "title": "Things you can try" },
+    { "time": "2:25:23", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "UMAP - p5 function name embeddings",
+      "description": "Visualize the p5 functionname embeddings",
+      "image": "p5.jpg",
+      "urls": { "p5": "https://editor.p5js.org/a2zitp/sketches/p63QTp0Sd" }
+    },
+    {
+      "title": "UMAP - random embeddings",
+      "description": "Visualizing the UMAP with random data",
+      "image": "umap1.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/9CpF5OVy4" }
+    },
+    {
+      "title": "UMAP - TV show embeddings",
+      "description": "Visualize the TV embeddings",
+      "image": "umap3.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/AebzAbSpU" }
+    },
+    {
+      "title": "Save Embeddings JSON",
+      "description": "Github repo with information and resources about saving embeddings",
+      "image": "",
+      "urls": { "other": "https://github.com/Programming-from-A-to-Z/Save-Embeddings-JSON" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Embeddings",
+          "url": "https://github.com/Programming-from-A-to-Z/A2Z-F23/tree/main/08-embeddings",
+          "description": "Course materials for Embeddings from Programming-from-A-to-Z"
+        },
+        {
+          "icon": "🔗",
+          "title": "Transformers.js",
+          "url": "https://huggingface.co/docs/transformers.js/index",
+          "description": "Reference for Transformers.js on Hugging Face"
+        },
+        {
+          "icon": "🔗",
+          "title": "UMAP-js Github Repo",
+          "url": "https://github.com/PAIR-code/umap-js",
+          "description": "JavaScript implementation of UMAP"
+        },
+        {
+          "icon": "🔗",
+          "title": "Understanding UMAP",
+          "url": "https://pair-code.github.io/understanding-umap",
+          "description": "Article by Coenen and Pearce about UMAP."
+        },
+        {
+          "icon": "🔗",
+          "title": "RAG for Nature of Code",
+          "url": "https://huggingface.co/spaces/lilacai/nature-of-code",
+          "description": "Hugging Face space by lilacai for RAG-NOC"
+        },
+        {
+          "icon": "🔗",
+          "title": "C-Pack: Packaged Resources To Advance General Chinese Embedding",
+          "url": "https://arxiv.org/pdf/2309.07597.pdf",
+          "description": "Paper proposing C-Pack"
+        },
+        {
+          "icon": "🔗",
+          "title": "bge-large-en-v1.5 demo",
+          "url": "https://replicate.com/nateraw/bge-large-en-v1.5",
+          "description": "bge-large-en-v1.5 demo on Replicate"
+        },
+        {
+          "icon": "🔗",
+          "title": "bge-large-en-v1.5",
+          "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+          "description": "Model card about bge-large-en-v1.5 on Hugging Face"
+        },
+        {
+          "icon": "🔗",
+          "title": "ml5",
+          "url": "https://ml5js.org",
+          "description": "Website with information and resources about the ml5 library."
+        },
+        {
+          "icon": "🔗",
+          "title": "tensorflow.js",
+          "url": "https://www.tensorflow.org/js",
+          "description": "Website with information and resources about the tensorflow.js library."
+        },
+        {
+          "icon": "🔗",
+          "title": "ONNX Runtime",
+          "url": "https://onnxruntime.ai/docs/tutorials/web/",
+          "description": "Tutorial that explains how to run a machine learning model in the brower using ONNX."
+        },
+        {
+          "icon": "🔗",
+          "title": "Corpora",
+          "url": "https://github.com/dariusk/corpora",
+          "description": "Corpora is a repository of JSON files."
+        },
+        {
+          "icon": "🔗",
+          "title": "TV Shows Data",
+          "url": "https://github.com/dariusk/corpora/blob/master/data/film-tv/tv_shows.json",
+          "description": "JSON file with a list of 1000 TV shows from [Corpora](https://github.com/dariusk/corpora)."
+        },
+        {
+          "icon": "🔗",
+          "title": "TV show embeddings",
+          "url": "https://raw.githubusercontent.com/CodingTrain/Embeddings-Live/main/tv-embeddings.json",
+          "description": "TV show embeddings JSON"
+        },
+        {
+          "icon": "🔗",
+          "title": "Embedding projector",
+          "url": "https://projector.tensorflow.org",
+          "description": "Website to visualize text embeddings"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "How to Set up A Node Project",
+          "url": "/tracks/discord-bots/discord/setup-node-project",
+          "description": "My tutorial about setting up a Node project."
+        },
+        {
+          "icon": "🚂",
+          "title": "What is word2vec? - Programming with Text",
+          "url": "https://www.youtube.com/watch?v=LSS_bos_TPI",
+          "description": "In this tutorial, I explain word embeddings and the machine learning model word2vec."
+        },
+        {
+          "icon": "🚂",
+          "title": "Introduction to Regular Expressions",
+          "url": "https://www.youtube.com/watch?v=7DG3kCDx53c",
+          "description": "In this video I introduce Regular Expressions: what are they and how are they used."
+        },
+        {
+          "icon": "🚂",
+          "title": "Exploring Transformers.js Embeddings and Other Updates",
+          "url": "https://www.youtube.com/watch?v=RmFqv7Ehi1I",
+          "description": "Livestream exploring Transformers.js"
+        }
+      ]
+    }
+  ],
+  "credits": []
+}
