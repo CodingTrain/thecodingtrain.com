@@ -1,32 +1,32 @@
 {
-  "title": "Genuary",
-  "description": "",
-  "videoId": "",
-  "date": "2023-1-04",
-  "languages": ["P5.js", "processing"],
+  "title": "Genuary 2023 Speed Run!",
+  "description": "My speed run through all of the Genuary 2023 prompts.",
+  "videoId": "QyGG15J9bAc",
+  "date": "2023-1-30",
+  "languages": ["Javascript", "Processing"],
   "topics": ["Genuary"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": ["14-fractal-trees-recursive", "135-making-a-gif-loop-in-processing"],
   "timestamps": [
     { "time": "0:00:00", "title": "Livestream starts" },
     { "time": "0:20:14", "title": "Timer starts" },
     { "time": "0:20:32", "title": "Genuary 1 - Perfect GIF loop" },
-    { "time": "0:25:24", "title": "Made in 10 minutes" },
-    { "time": "0:32:13", "title": "Glitch Art" },
-    { "time": "0:40:35", "title": "Intersections" },
-    { "time": "0:46:45", "title": "Debug View" },
-    { "time": "0:50:00", "title": "Steal Like an Artist" },
-    { "time": "0:55:25", "title": "Sample a color palette from your favorite movie/album cover" },
-    { "time": "1:00:18", "title": "Signed Distance Functions" },
-    { "time": "1:08:12", "title": "Plants" },
-    { "time": "1:16:01", "title": "Generative Music" },
-    { "time": "1:21:48", "title": "Suprematism" },
-    { "time": "1:33:30", "title": "Tessellation" },
-    { "time": "1:41:25", "title": "Something you’ve always wanted to learn" },
-    { "time": "1:53:21", "title": "Aesemic" },
-    { "time": "2:02:18", "title": "Sine Waves" },
-    { "time": "2:04:16", "title": "Reflection of a reflection" },
-    { "time": "2:13:44", "title": "A grid inside a grid inside a grid" },
+    { "time": "0:25:24", "title": "Genuary 2 - Made in 10 minutes" },
+    { "time": "0:32:13", "title": "Genuary 3 - Glitch Art" },
+    { "time": "0:40:35", "title": "Genuary 4 - Intersections" },
+    { "time": "0:46:45", "title": "Genuary 5 - Debug View" },
+    { "time": "0:50:00", "title": "Genuary 6 - Steal Like an Artist" },
+    { "time": "0:55:25", "title": "Genuary 7 - Sample a color palette from your favorite movie/album cover" },
+    { "time": "1:00:18", "title": "Genuary 8 - Signed Distance Functions" },
+    { "time": "1:08:12", "title": "Genuary 9 - Plants" },
+    { "time": "1:16:01", "title": "Genuary 10 - Generative Music" },
+    { "time": "1:21:48", "title": "Genuary 11 - Suprematism" },
+    { "time": "1:33:30", "title": "Genuary 12 - Tessellation" },
+    { "time": "1:41:25", "title": "Genuary 13 - Something you’ve always wanted to learn" },
+    { "time": "1:53:21", "title": "Genuary 14 - Aesemic" },
+    { "time": "2:02:18", "title": "Genuary 15 - Sine Waves" },
+    { "time": "2:04:16", "title": "Genuary 16 - Reflection of a reflection" },
+    { "time": "2:13:44", "title": "Genuary 17 - A grid inside a grid inside a grid" },
     { "time": "2:21:25", "title": "Genuary 18 - Definitely not a grid" },
     { "time": "2:22:10", "title": "Genuary 19 - Black and white" },
     { "time": "2:25:25", "title": "Genuary 20 - Art Deco" },
@@ -44,9 +44,9 @@
   ],
   "codeExamples": [
     {
-      "title": "Genuary Repo",
-      "description": "Respository with Genuary code",
-      "image": "p5.jpg",
+      "title": "Genuary Repository",
+      "description": "Respository with the code from the Genuary speed run",
+      "image": "genuary.jpg",
       "urls": { "other": "https://github.com/CodingTrain/Genuary-2023" }
     }
   ],
@@ -67,18 +67,6 @@
           "description": "Genuary 2024"
         }
       ]
-    },
-    {
-      "title": "Videos",
-      "links": [
-        {
-          "icon": "🚂",
-          "title": "How to Set up A Node Project",
-          "url": "/tracks/discord-bots/discord/setup-node-project",
-          "description": "My tutorial about setting up a Node project."
-        }
-      ],
-      "credits": []
     }
   ]
 }
