@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "24-perlin-noise-flow-field",
-      "117-seven-segment-display",
-      "5-space-invaders",
-      "155-kaleidoscope-snowflake",
-      "131-bouncing-dvd-logo",
-      "22-julia-set"
+      "127-brownian-tree-snowflake",
+      "89-langtons-ant",
+      "98-quadtree",
+      "70-nearest-neighbors-recommendation-engine",
+      "81-circle-morphing",
+      "138-angry-birds-with-matterjs"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "code/1-intro/3-shapes-drawing/showcase/contribution-1702042634.json",
-      "code/1-intro/3-shapes-drawing/showcase/contribution-1701696733.json",
-      "challenges/22-julia-set/showcase/contribution-1701426179.json",
-      "challenges/85-the-game-of-life/showcase/contribution-1701184885.json",
-      "challenges/131-bouncing-dvd-logo/showcase/contribution2.json",
-      "challenges/155-kaleidoscope-snowflake/showcase/contribution7.json",
-      "challenges/24-perlin-noise-flow-field/showcase/contribution-1692911455.json",
-      "challenges/5-space-invaders/showcase/contribution12.json"
+      "challenges/165-slide-puzzle/showcase/contribution-1702127765.json",
+      "noc/4-particles/1-particle-system/showcase/contribution-1702183228.json",
+      "noc/1-vectors/6-acceleration-vector/showcase/contribution-1702810017.json",
+      "challenges/81-circle-morphing/showcase/contribution3.json",
+      "challenges/127-brownian-tree-snowflake/showcase/contribution7.json",
+      "challenges/138-angry-birds-with-matterjs/showcase/contribution2.json",
+      "challenges/89-langtons-ant/showcase/contribution5.json",
+      ""
     ],
     "showcaseCta": {
       "text": "Want to see more?",
