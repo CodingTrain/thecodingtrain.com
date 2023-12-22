@@ -1,8 +1,8 @@
 {
-  "title": "Genuary 2023 Speed Run!",
+  "title": "Genuary 2023 Speed Run",
   "description": "My speed run through all of the Genuary 2023 prompts.",
   "videoId": "QyGG15J9bAc",
-  "date": "2023-1-30",
+  "date": "2023-01-30",
   "languages": ["Javascript", "Processing"],
   "topics": ["Genuary"],
   "canContribute": true,
@@ -68,5 +68,6 @@
         }
       ]
     }
-  ]
+  ],
+  "credits": []
 }
