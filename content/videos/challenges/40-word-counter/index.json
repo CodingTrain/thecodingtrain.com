@@ -5,7 +5,7 @@
   "videoId": "",
   "date": "2016-10-10",
   "languages": ["p5.js", "Processing", "JavaScript", "Java"],
-  "topics": ["word counting", "visualization"],
+  "topics": ["word counting", "visualization", "tf-idf"],
   "credits": [
     { "title": "Editing", "name": "Mathieu Blanchette" },
     { "title": "Animations", "name": "Jason Heglund" }
