@@ -11,6 +11,8 @@
   display: flex;
   padding: 0;
   cursor: pointer;
+  border-bottom: var(--border-red-light);
+  border-top: var(--border-red-light);
   & span {
     display: flex;
     align-items: center;
