@@ -11,8 +11,12 @@
   display: flex;
   padding: 0;
   cursor: pointer;
-  border-bottom: var(--border-red-light);
-  border-top: var(--border-red-light);
+  
+  &:first-child {
+    /* border-top will be set by the variant */
+    border-top: none !important;
+  }
+
   & span {
     display: flex;
     align-items: center;
@@ -68,6 +72,10 @@
   & .time {
     color: var(--red);
   }
+
+  & .timestamp {
+    border-top: var(--border-red-light);
+  }
 }
 
 .cyan {
@@ -82,6 +90,10 @@
 
   & .time {
     color: var(--cyan);
+  }
+
+  & .timestamp {
+    border-top: var(--border-cyan-light);
   }
 }
 

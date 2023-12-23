@@ -150,6 +150,8 @@
   color: var(--red);
   font-size: var(--maru-small);
   font-family: var(--maru-mono);
+
+  background-color: white;
 }
 
 .overviewTimeline.hide,

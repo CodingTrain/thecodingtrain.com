@@ -150,8 +150,7 @@
   font-size: var(--maru-small);
   font-family: var(--maru-mono);
 
-  background-color: #fffcfc;
-  background-color: var(--red-lightest);
+  background-color: white;
 }
 
 .partTimeline.hide,
