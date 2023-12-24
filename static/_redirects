@@ -49,8 +49,10 @@
 /hof /tracks/topics-in-native-javascript/js/higher-order-functions 302!
 /webgl /tracks/webgl 302!
 /pursuit /tracks/the-nature-of-code-2/noc/5-autonomous-agents/3-pursue-and-evade 302!
-/2darray /tracks/p5-tips-and-tricks/more-p5/2d-arrays 302!
+/2d-array /tracks/p5-tips-and-tricks/more-p5/2d-arrays 302!
 /quadtree /challenges/98-quadtree 302!
-/toy-neural-network /tracks/neural-networks 302!
+/neural-network /tracks/neural-networks 302!
 /pose-classifier /tracks/ml5js-beginners-guide/ml5/7-posenet/2-pose-classifier 302!
 /raycasting /challenges/145-ray-casting-2d 302!
+/p5js /tracks/code-programming-with-p5-js 302!
+/processing /tracks/learning-processing 302!
