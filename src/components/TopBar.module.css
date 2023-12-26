@@ -19,6 +19,10 @@
   padding: 0 var(--box-padding);
 }
 
+.newLogo {
+  width: 40px;
+}
+
 .clock {
   font-family: var(--maru-emoji);
   font-size: var(--maru-emoji-normal);

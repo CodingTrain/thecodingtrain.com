@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 
 import Menu from './Menu';
+import NewLogo from '../images/new-logo.svg';
 
 import * as css from './TopBar.module.css';
 
@@ -56,7 +57,7 @@ const TopBar = () => {
       <header className={css.root}>
         <div className={css.logo}>
           <Link to="/" aria-label="Go to homepage">
-            <Logo width={250} />
+            <NewLogo className={css.newLogo} />
           </Link>
         </div>
         <div className={css.clock}>🕛</div>
