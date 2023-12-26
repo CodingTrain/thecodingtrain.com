@@ -57,7 +57,7 @@ const TopBar = () => {
       <header className={css.root}>
         <div className={css.logo}>
           <Link to="/" aria-label="Go to homepage">
-            <NewLogo className={css.newLogo} />
+            <NewLogo className={css.logoSvg} />
           </Link>
         </div>
         <div className={css.clock}>🕛</div>
