@@ -1,10 +1,10 @@
 {
-  "title": "Climate Spiral",
+  "title": "Wolfram CA",
   "videoNumber": "179",
   "description": "",
   "videoId": "vB2GdRFHdoo",
   "nebulaSlug": "",
-  "date": "2023-04-22",
+  "date": "2023-01-09",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wolfram-ca", "binary to decimal conversion", "Sierpinski triangle"],
   "canContribute": true,
@@ -30,14 +30,14 @@
         "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
       }
     },
-     {
-       "title": "Wolfram CA - color",
-       "description": "",
-       "image": "img.jpg",
-       "urls": {
-         "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
-       }
-     }
+    {
+      "title": "Wolfram CA - color",
+      "description": "",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
+      }
+    }
   ],
   "groupLinks": [
     {
