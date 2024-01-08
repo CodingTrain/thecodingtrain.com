@@ -25,11 +25,19 @@
     {
       "title": "Wolfram CA",
       "description": "",
-      "image": "imgg.jpg",
+      "image": "img.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
       }
-    }
+    },
+     {
+       "title": "Wolfram CA - color",
+       "description": "",
+       "image": "img.jpg",
+       "urls": {
+         "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
+       }
+     }
   ],
   "groupLinks": [
     {
