@@ -1,23 +1,28 @@
 {
   "title": "Decade of Code Fundraiser",
   "description": "Livestream to celebrate and raise funds for 10 years of the Processing Foundation Fellowships",
-  "videoId": "",
+  "videoId": "0OLMf81BeNU",
   "date": "2024-01-7",
   "languages": ["Javascript", "Processing"],
   "topics": ["Processing"],
   "canContribute": true,
-  "relatedChallenges": ["78-simple-particle-system", ""],
+  "relatedChallenges": ["78-simple-particle-system"],
   "timestamps": [
     { "time": "0:00:00", "title": "Count down starts" },
     { "time": "0:05:00", "title": "Welcome to the livestream" },
     { "time": "0:08:10", "title": "Introduce Raphael de Courville" },
     { "time": "0:11:08", "title": "Processing Foundation" },
-    { "time": "0:20:10", "title": "Video" },
+    { "time": "0:20:10", "title": "Start video" },
     { "time": "0:25:40", "title": "Merch for donations" },
     { "time": "0:28:54", "title": "Wallpapers" },
     { "time": "0:42:39", "title": "Live Preview for VSC" },
     { "time": "0:43:39", "title": "Live Share" },
-    { "time": "0:46:57", "title": "Console output" }
+    { "time": "0:46:57", "title": "Console output" },
+    { "time": "0:51:21", "title": "Decide what to code" },
+    { "time": "0:59:26", "title": "Start coding" },
+    { "time": "2:22:59", "title": "Contributing your version" },
+    { "time": "2:26:39", "title": "Logo-Animations" },
+    { "time": "2:31:04", "title": "Outro" }
   ],
   "codeExamples": [
     {
