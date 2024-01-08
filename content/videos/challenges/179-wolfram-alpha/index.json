@@ -1,0 +1,63 @@
+{
+  "title": "Climate Spiral",
+  "videoNumber": "179",
+  "description": "",
+  "videoId": "vB2GdRFHdoo",
+  "nebulaSlug": "",
+  "date": "2023-04-22",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["wolfram-ca", "binary to decimal conversion", "Sierpinski triangle"],
+  "canContribute": true,
+  "relatedChallenges": ["85-the-game-of-life", "123-chaos-game", "119-binary-to-decimal-conversion"],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello" },
+    { "time": "2:09", "title": "Elementary cellular automata" },
+    { "time": "5:41", "title": "Rule set" },
+    { "time": "7:52", "title": "Next generation" },
+    { "time": "10:35", "title": "Stacking the generations" },
+    { "time": "14:25", "title": "Sierpinski triangle" },
+    { "time": "16:45", "title": "Rule categories" },
+    { "time": "19:19", "title": "Add wrap-around" },
+    { "time": "20:37", "title": "Suggestions for variations" },
+    { "time": "21:07", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Wolfram CA",
+      "description": "",
+      "image": "imgg.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Wolfram Science",
+          "url": "https://www.wolframscience.com",
+          "description": "Wolfram Science website"
+        },
+        {
+          "icon": "🔗",
+          "title": "Elementary Cellular Automaton",
+          "url": "https://mathworld.wolfram.com/ElementaryCellularAutomaton.html",
+          "description": "Wolfram MathWorld page on elementary cellular automaton."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
