@@ -37,6 +37,14 @@
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/1w8yOaaDS"
       }
+    },
+    {
+      "title": "Wolfram CA - scroll",
+      "description": "Implementation of scrolling Wolfram CA",
+      "image": "img3.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/u6ALWY0Kt"
+      }
     }
   ],
   "groupLinks": [
