@@ -1,0 +1,79 @@
+{
+  "title": "Decade of Code Fundraiser",
+  "description": "Livestream to celebrate and raise funds for 10 years of the Processing Foundation Fellowships",
+  "videoId": "0OLMf81BeNU",
+  "date": "2024-01-07",
+  "languages": ["Javascript"],
+  "topics": ["Processing Foundation", "particle system", "translate", "push and pop"],
+  "canContribute": true,
+  "relatedChallenges": ["78-simple-particle-system"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Count down starts" },
+    { "time": "0:05:00", "title": "Welcome to the livestream" },
+    { "time": "0:08:10", "title": "Introduce Raphael de Courville" },
+    { "time": "0:11:08", "title": "Processing Foundation" },
+    { "time": "0:20:10", "title": "Start video" },
+    { "time": "0:25:40", "title": "Merch for donations" },
+    { "time": "0:28:54", "title": "Wallpapers" },
+    { "time": "0:42:39", "title": "Live Preview for VSC" },
+    { "time": "0:43:39", "title": "Live Share" },
+    { "time": "0:46:57", "title": "Console output" },
+    { "time": "0:51:21", "title": "Decide what to code" },
+    { "time": "0:59:26", "title": "Start coding" },
+    { "time": "2:22:59", "title": "Contributing your version" },
+    { "time": "2:26:39", "title": "Logo-Animations" },
+    { "time": "2:31:04", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Coding Train logo with birbs",
+      "description": "Animated Coding Train logo with birbs",
+      "image": "img.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/IxNfhHxJ3" }
+    },
+    {
+      "title": "Logo Animation Repo",
+      "description": "My repository with animations using the Coding Train logo",
+      "image": "",
+      "urls": { "other": "https://github.com/CodingTrain/Logo-Animations" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Decade of Code Fundraiser",
+          "url": "https://donorbox.org/to-the-power-of-10",
+          "description": "Fundraiser in celebration of the 10th anniversary of the Processing Foundation Fellowship Program."
+        },
+        {
+          "icon": "🔗",
+          "title": "Meet our 2023 Processing Fellows!",
+          "url": "https://medium.com/@ProcessingOrg/meet-our-2023-processing-fellows-6433037145bd",
+          "description": "Introduction to the 2023 Processing Fellows."
+        },
+        {
+          "icon": "🔗",
+          "title": "Processing Foundation's 2023 Impact Report",
+          "url": "https://processingfoundation.report/",
+          "description": "The 2023 Impact Report celebrates a decade of growth and achievements."
+        },
+        {
+          "icon": "🔗",
+          "title": "sableraph",
+          "url": "https://www.twitch.tv/sableraph",
+          "description": "Raphael de Courville's Twitch channel"
+        },
+        {
+          "icon": "🔗",
+          "title": "Anna Carreras's website",
+          "url": "https://www.annacarreras.com",
+          "description": "Anna Carreras's website"
+        }
+      ]
+    }
+  ],
+  "credits": []
+}
