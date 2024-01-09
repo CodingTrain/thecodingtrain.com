@@ -10,16 +10,16 @@
   "canContribute": true,
   "relatedChallenges": ["85-the-game-of-life", "123-chaos-game", "119-binary-to-decimal-conversion"],
   "timestamps": [
-    { "time": "0:00", "title": "Hello" },
-    { "time": "2:09", "title": "Elementary cellular automata" },
-    { "time": "5:41", "title": "Rule set" },
-    { "time": "7:52", "title": "Next generation" },
-    { "time": "10:35", "title": "Stacking the generations" },
-    { "time": "14:25", "title": "Sierpinski triangle" },
-    { "time": "16:45", "title": "Rule categories" },
-    { "time": "19:19", "title": "Add wrap-around" },
-    { "time": "20:37", "title": "Suggestions for variations" },
-    { "time": "21:07", "title": "Outro" }
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "2:09", "title": "What is an elementary cellular automata?" },
+    { "time": "5:41", "title": "Explaining the rulesets" },
+    { "time": "7:52", "title": "Caluclating the next generation." },
+    { "time": "10:35", "title": "Visualizing the CA" },
+    { "time": "14:25", "title": "Rule 90" },
+    { "time": "16:45", "title": "Wolfram Classification." },
+    { "time": "19:19", "title": "Adding wrap-around" },
+    { "time": "20:37", "title": "Suggestions for variations!" },
+    { "time": "21:07", "title": "Goodbye!" }
   ],
   "codeExamples": [
     {
