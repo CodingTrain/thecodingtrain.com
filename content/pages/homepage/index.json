@@ -31,7 +31,7 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "127-brownian-tree-snowflake",
+      "179-wolfram-ca",
       "89-langtons-ant",
       "98-quadtree",
       "70-nearest-neighbors-recommendation-engine",

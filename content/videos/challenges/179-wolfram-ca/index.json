@@ -1,0 +1,99 @@
+{
+  "title": "Wolfram CA",
+  "videoNumber": "179",
+  "description": "How is nature hidden in a pile of 0s and 1s? Let's find out by coding a p5.js visualization of the Wolfram Elementary Cellular Automaton!",
+  "videoId": "Ggxt06qSAe4",
+  "nebulaSlug": "git codingtrain-wolfram-elementary-ca",
+  "date": "2023-01-09",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["nature of code", "wolfram", "ca", "cellular automata", "binary to decimal conversion", "Sierpinski triangle"],
+  "canContribute": true,
+  "relatedChallenges": ["85-the-game-of-life", "123-chaos-game", "119-binary-to-decimal-conversion"],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "2:09", "title": "What is an elementary cellular automata?" },
+    { "time": "5:41", "title": "Explaining the rulesets" },
+    { "time": "7:52", "title": "Calculating the next generation." },
+    { "time": "10:35", "title": "Visualizing the CA" },
+    { "time": "14:25", "title": "Rule 90" },
+    { "time": "16:45", "title": "Wolfram Classification." },
+    { "time": "19:19", "title": "Adding wrap-around" },
+    { "time": "20:37", "title": "Suggestions for variations!" },
+    { "time": "21:07", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Wolfram Cellular Automata",
+      "description": "Implementation of the Wolfram CA",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
+      }
+    },
+    {
+      "title": "Wolfram CA with color",
+      "description": "Implementation of Wolfram CA with colors",
+      "image": "img2.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/1w8yOaaDS"
+      }
+    },
+    {
+      "title": "Wolfram CA infinite scroll",
+      "description": "Implementation of scrolling Wolfram CA",
+      "image": "img3.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/u6ALWY0Kt"
+      }
+    },
+    {
+      "title": "3D Grid",
+      "description": "Visual Demonstration of a 3D grid of cells.",
+      "image": "img4.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/m4XoXiWOa"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "A New Kind of Science",
+          "url": "https://www.wolframscience.com/nks/",
+          "description": "The online version of the book by Stephen Wolfram."
+        },
+        {
+          "icon": "🔗",
+          "title": "Elementary Cellular Automaton",
+          "url": "https://mathworld.wolfram.com/ElementaryCellularAutomaton.html",
+          "description": "Wolfram MathWorld page on elementary cellular automaton."
+        },
+        {
+          "icon": "🔗",
+          "title": "Pre-Order Nature of Code",
+          "url": "https://nostarch.com/nature-code",
+          "description": "Pre-order the Nature of Code book from No Starch Press."
+        },
+        {
+          "icon": "🔗",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "The online version of the Nature of Code book."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
