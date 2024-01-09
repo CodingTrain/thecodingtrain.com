@@ -16,7 +16,11 @@
 }
 
 .logo {
-  padding: 0 var(--box-padding);
+  padding: 0 var(--spacing-normal);
+}
+
+.logoSvg {
+  height: 32px;
 }
 
 .clock {
@@ -74,6 +78,12 @@
     z-index: 100;
     width: calc(100% - 2 * var(--container-spacing-horizontal));
     border-right: var(--border);
+  }
+}
+
+@media (--small) {
+  .logoSvg {
+    height: 28px;
   }
 }
 
