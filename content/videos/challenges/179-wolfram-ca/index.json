@@ -4,7 +4,7 @@
   "description": "How is nature hidden in a pile of 0s and 1s? Let's find out by coding a p5.js visualization of the Wolfram Elementary Cellular Automaton!",
   "videoId": "Ggxt06qSAe4",
   "nebulaSlug": "codingtrain-wolfram-elementary-ca",
-  "date": "2023-01-09",
+  "date": "2024-01-09",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["nature of code", "wolfram", "ca", "cellular automata", "binary to decimal conversion", "Sierpinski triangle"],
   "canContribute": true,
