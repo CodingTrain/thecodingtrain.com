@@ -53,15 +53,27 @@
       "links": [
         {
           "icon": "🔗",
-          "title": "Wolfram Science",
-          "url": "https://www.wolframscience.com",
-          "description": "Wolfram Science website"
+          "title": "A New Kind of Science",
+          "url": "https://www.wolframscience.com/nks/",
+          "description": "The online version of the book by Stephen Wolfram."
         },
         {
           "icon": "🔗",
           "title": "Elementary Cellular Automaton",
           "url": "https://mathworld.wolfram.com/ElementaryCellularAutomaton.html",
           "description": "Wolfram MathWorld page on elementary cellular automaton."
+        },
+        {
+          "icon": "🔗",
+          "title": "Pre-Order Nature of Code",
+          "url": "https://nostarch.com/nature-code",
+          "description": "Pre-order the Nature of Code book from No Starch Press."
+        },
+        {
+          "icon": "🔗",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com",
+          "description": "The online version of the Nature of Code book."
         }
       ]
     }
