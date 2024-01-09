@@ -2,11 +2,11 @@
   "title": "Wolfram CA",
   "videoNumber": "179",
   "description": "",
-  "videoId": "vB2GdRFHdoo",
+  "videoId": "Ggxt06qSAe4",
   "nebulaSlug": "",
   "date": "2023-01-09",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["wolfram-ca", "binary to decimal conversion", "Sierpinski triangle"],
+  "topics": ["nature of code", "wolfram", "ca", "cellular automata", "binary to decimal conversion", "Sierpinski triangle"],
   "canContribute": true,
   "relatedChallenges": ["85-the-game-of-life", "123-chaos-game", "119-binary-to-decimal-conversion"],
   "timestamps": [
@@ -23,27 +23,35 @@
   ],
   "codeExamples": [
     {
-      "title": "Wolfram CA",
-      "description": "Implementation of Wolfram CA",
+      "title": "Wolfram Cellular Automata",
+      "description": "Implementation of the Wolfram CA",
       "image": "img.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
       }
     },
     {
-      "title": "Wolfram CA - color",
-      "description": "Implementation of Wolfram CA with color",
+      "title": "Wolfram CA with color",
+      "description": "Implementation of Wolfram CA with colors",
       "image": "img2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/1w8yOaaDS"
       }
     },
     {
-      "title": "Wolfram CA - scroll",
+      "title": "Wolfram CA infinite scroll",
       "description": "Implementation of scrolling Wolfram CA",
       "image": "img3.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/u6ALWY0Kt"
+      }
+    },
+    {
+      "title": "3D Grid",
+      "description": "Visual Demonstration of a 3D grid of cells.",
+      "image": "img4.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/m4XoXiWOa"
       }
     }
   ],
