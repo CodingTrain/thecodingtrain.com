@@ -24,7 +24,7 @@
   "codeExamples": [
     {
       "title": "Wolfram CA",
-      "description": "",
+      "description": "Implementation of Wolfram CA",
       "image": "img.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
@@ -32,10 +32,10 @@
     },
     {
       "title": "Wolfram CA - color",
-      "description": "",
-      "image": "img.jpg",
+      "description": "Implementation of Wolfram CA with color",
+      "image": "img2.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/IE77UYZ-G"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/1w8yOaaDS"
       }
     }
   ],
