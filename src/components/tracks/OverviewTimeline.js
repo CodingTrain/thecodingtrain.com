@@ -80,7 +80,7 @@ const ChapterSection = memo(
     return (
       <ul className={css.chapterList}>
         {chapter.title && (
-          <li>
+          <li className={css.chapterListItem}>
             <button
               className={cn(
                 css.chapterTitle,
@@ -112,7 +112,7 @@ const ChapterSection = memo(
                 return (
                   <li
                     key={`${video.slug}-${partIndex}`}
-                    className={cn(css.videoItem, {
+                    className={cn(css.videoItem, css.chapterListItem, {
                       [css.seen]: hasSeenPart,
                       [css.last]: isLastVideo && partIndex === currentPartIndex
                     })}>
@@ -127,7 +127,7 @@ const ChapterSection = memo(
             ) : (
               <li
                 key={video.slug}
-                className={cn(css.videoItem, {
+                className={cn(css.videoItem, css.chapterListItem, {
                   [css.seen]: hasSeenVideo,
                   [css.last]: isLastVideo
                 })}>
