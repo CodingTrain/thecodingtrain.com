@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "179-wolfram-ca",
-      "89-langtons-ant",
-      "98-quadtree",
-      "70-nearest-neighbors-recommendation-engine",
-      "81-circle-morphing",
-      "138-angry-birds-with-matterjs"
+      "166-image-to-ascii",
+      "9-solar-system-3d-textures",
+      "172-directional-boring",
+      "88-snowfall",
+      "168-the-mandelbulb"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/165-slide-puzzle/showcase/contribution-1702127765.json",
-      "noc/4-particles/1-particle-system/showcase/contribution-1702183228.json",
-      "noc/1-vectors/6-acceleration-vector/showcase/contribution-1702810017.json",
-      "challenges/81-circle-morphing/showcase/contribution3.json",
-      "challenges/127-brownian-tree-snowflake/showcase/contribution7.json",
-      "challenges/138-angry-birds-with-matterjs/showcase/contribution2.json",
-      "challenges/89-langtons-ant/showcase/contribution5.json",
-      "challenges/98-quadtree/showcase/contribution4.json"
+      "challenges/179-wolfram-ca/showcase/contribution-1704907774.json",
+      "challenges/74-clock/showcase/contribution-1704833946.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1705011054.json",
+      "challenges/179-wolfram-ca/showcase/contribution-1704942050.json",
+      "challenges/175-3D-cube-applesoft-basic/showcase/contribution-1703961794.json",
+      "challenges/12-lorenz-attractor/showcase/contribution-1704227203.json",
+      "teachable-machine/1-image-classification/showcase/contribution-1704314075.json",
+      "challenges/16-l-system-fractal-trees/showcase/contribution-1704817685.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
