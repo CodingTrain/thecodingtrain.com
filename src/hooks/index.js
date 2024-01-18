@@ -143,9 +143,13 @@ export const useIsFirstRender = () => {
  * which has been stored in the `location.state` object using the `Link.state`
  * property.
  *
+ * @param totalParts {number} total number of parts of the challenge (1 if the
+ * challenge is not multi-part)
+ * 
  * @returns {number} challenge part index
  */
-export const useChallengePartIndex = () => {
-  const { state } = useLocation();
-  return state?.challengePartIndex ?? 0;
+export const useChallengePartIndex = (totalParts) => {
+  const { hash } = useLocation();
+  const [match, partNumberStr] = hash.match(/#part-([1-9][0-9]*)/) || [false];
+  return match ? Math.min(parseInt(partNumberStr), totalParts) - 1 : 0;
 };

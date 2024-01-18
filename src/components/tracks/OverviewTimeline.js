@@ -11,24 +11,43 @@ const usePaths = (chapters, track, trackPosition) => {
     .flatMap((chapter) => chapter.videos)
     .flatMap((video) =>
       video.parts?.length > 0
-        ? video.parts.map((_, partIndex) => ({ slug: video.slug, partIndex }))
-        : [{ slug: video.slug, partIndex: 0 }]
+        ? video.parts.map((_, partIndex) => ({
+            slug: video.slug,
+            partIndex,
+            isMultiPart: true
+          }))
+        : [{ slug: video.slug, partIndex: 0, isMultiPart: false }]
     );
-  const partIndex = useChallengePartIndex();
   const currentVideo =
     chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex];
+  const totalParts = flatTrack.filter(
+    (video) => video.slug === currentVideo.slug
+  ).length;
+  const partIndex = useChallengePartIndex(totalParts);
   const currentIndex = flatTrack.findIndex(
     (video) => video.slug === currentVideo.slug && video.partIndex === partIndex
   );
   const prevVideo = flatTrack[currentIndex - 1];
   const nextVideo = flatTrack[currentIndex + 1];
-  const computePath = (video) =>
-    video ? { ...video, path: `/tracks/${track.slug}/${video.slug}` } : null;
-  return [computePath(prevVideo), computePath(nextVideo)];
+  const computePath = (video) => {
+    if (video) {
+      const hash = video.isMultiPart ? `#part-${video.partIndex + 1}` : '';
+      return {
+        ...video,
+        path: `/tracks/${track.slug}/${video.slug}${hash}`
+      };
+    }
+    return null;
+  };
+  return [computePath(prevVideo), computePath(nextVideo), partIndex];
 };
 
 const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
-  const [previousVideo, nextVideo] = usePaths(chapters, track, trackPosition);
+  const [previousVideo, nextVideo, currentPartIndex] = usePaths(
+    chapters,
+    track,
+    trackPosition
+  );
 
   const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
   return (
@@ -42,23 +61,18 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
             chapters={chapters}
             track={track}
             trackPosition={trackPosition}
+            currentPartIndex={currentPartIndex}
           />
         ))}
       </div>
       <div className={css.navigation}>
         {previousVideo !== null && (
-          <Link
-            className={css.navButton}
-            to={previousVideo.path}
-            state={{ challengePartIndex: previousVideo.partIndex }}>
+          <Link className={css.navButton} to={previousVideo.path}>
             Previous
           </Link>
         )}
         {nextVideo !== null && (
-          <Link
-            className={css.navButton}
-            to={nextVideo.path}
-            state={{ challengePartIndex: nextVideo.partIndex }}>
+          <Link className={css.navButton} to={nextVideo.path}>
             Next
           </Link>
         )}
@@ -68,14 +82,20 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
 };
 
 const ChapterSection = memo(
-  ({ chapter, chapterIndex, chapters, track, trackPosition }) => {
+  ({
+    chapter,
+    chapterIndex,
+    chapters,
+    track,
+    trackPosition,
+    currentPartIndex
+  }) => {
     const hasSeenChapter = chapterIndex < trackPosition.chapterIndex;
     const isThisChapter = chapterIndex === trackPosition.chapterIndex;
     const trackPath = `/tracks/${track.slug}`;
     const [collapsed, setCollapsed] = useState(false);
 
     const { videoIndex: currentVideoIndex } = trackPosition;
-    const currentPartIndex = useChallengePartIndex();
 
     return (
       <ul className={css.chapterList}>
@@ -117,8 +137,7 @@ const ChapterSection = memo(
                       [css.last]: isLastVideo && partIndex === currentPartIndex
                     })}>
                     <Link
-                      to={`${trackPath}/${video.slug}`}
-                      state={{ challengePartIndex: partIndex }}>
+                      to={`${trackPath}/${video.slug}#part-${partIndex + 1}`}>
                       {video.title} - {part.title}
                     </Link>
                   </li>
