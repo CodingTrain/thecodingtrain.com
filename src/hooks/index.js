@@ -139,9 +139,13 @@ export const useIsFirstRender = () => {
 };
 
 /**
- * Returns the challenge part index (0 if the challenge is not multi-part)
- * which has been stored in the `location.state` object using the `Link.state`
- * property.
+ * If the current URL (and hash value) corresponds to a part from a multi-part
+ * coding challenge (within a challenge page or a track page), this hook returns
+ * the zero-based index of this part, else it returns 0.
+ *
+ * The hash value should look like `#part-3`. If the part number if larger than
+ * the `totalParts` parameter, the returned index corresponds to the last part
+ * of the challenge (`totalParts - 1`).
  *
  * @param totalParts {number} total number of parts of the challenge (1 if the
  * challenge is not multi-part)

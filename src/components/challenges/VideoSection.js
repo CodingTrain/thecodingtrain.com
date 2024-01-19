@@ -24,7 +24,7 @@ const VideoSection = ({ challenge }) => {
   const hasMultiParts = challenge.parts?.length > 0;
   const [showTimestamps, setShowTimestamps] = useState(!hasMultiParts);
 
-  const activePartIndex = useChallengePartIndex(challenge.parts?.length ?? 1);
+  const activePartIndex = useChallengePartIndex(challenge.parts?.length || 1);
   const activePart = challenge.parts?.[activePartIndex] ?? challenge;
   const { videoId, nebulaSlug, timestamps } = activePart;
   const hasTimestamps = timestamps?.length > 0;
