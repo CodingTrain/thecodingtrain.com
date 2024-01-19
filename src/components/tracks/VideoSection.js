@@ -37,6 +37,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
 
   const totalParts = video.parts?.length || 1;
   const partIndex = useChallengePartIndex(totalParts);
+  trackPosition = { ...trackPosition, partIndex };
   const part = video.parts?.[partIndex];
   const videoId = part?.videoId ?? video.videoId;
   const nebulaSlug = part?.nebulaSlug ?? video.nebulaSlug;

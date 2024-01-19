@@ -2,7 +2,7 @@ import React, { memo, useState } from 'react';
 import cn from 'classnames';
 import { Link } from 'gatsby';
 
-import { useChallengePartIndex, usePersistScrollPosition } from '../../hooks';
+import { usePersistScrollPosition } from '../../hooks';
 
 import * as css from './OverviewTimeline.module.css';
 
@@ -20,12 +20,10 @@ const usePaths = (chapters, track, trackPosition) => {
     );
   const currentVideo =
     chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex];
-  const totalParts = flatTrack.filter(
-    (video) => video.slug === currentVideo.slug
-  ).length;
-  const partIndex = useChallengePartIndex(totalParts);
   const currentIndex = flatTrack.findIndex(
-    (video) => video.slug === currentVideo.slug && video.partIndex === partIndex
+    (video) =>
+      video.slug === currentVideo.slug &&
+      video.partIndex === trackPosition.partIndex
   );
   const prevVideo = flatTrack[currentIndex - 1];
   const nextVideo = flatTrack[currentIndex + 1];
@@ -39,15 +37,11 @@ const usePaths = (chapters, track, trackPosition) => {
     }
     return null;
   };
-  return [computePath(prevVideo), computePath(nextVideo), partIndex];
+  return [computePath(prevVideo), computePath(nextVideo)];
 };
 
 const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
-  const [previousVideo, nextVideo, currentPartIndex] = usePaths(
-    chapters,
-    track,
-    trackPosition
-  );
+  const [previousVideo, nextVideo] = usePaths(chapters, track, trackPosition);
 
   const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
   return (
@@ -61,7 +55,6 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
             chapters={chapters}
             track={track}
             trackPosition={trackPosition}
-            currentPartIndex={currentPartIndex}
           />
         ))}
       </div>
@@ -82,14 +75,7 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
 };
 
 const ChapterSection = memo(
-  ({
-    chapter,
-    chapterIndex,
-    chapters,
-    track,
-    trackPosition,
-    currentPartIndex
-  }) => {
+  ({ chapter, chapterIndex, chapters, track, trackPosition }) => {
     const hasSeenChapter = chapterIndex < trackPosition.chapterIndex;
     const isThisChapter = chapterIndex === trackPosition.chapterIndex;
     const trackPath = `/tracks/${track.slug}`;
@@ -125,6 +111,7 @@ const ChapterSection = memo(
 
             return isMultiPart ? (
               video.parts.map((part, partIndex) => {
+                const currentPartIndex = trackPosition.partIndex;
                 const hasSeenPart =
                   hasSeenVideo &&
                   (videoIndex < currentVideoIndex ||
