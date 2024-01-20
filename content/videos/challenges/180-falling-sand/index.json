@@ -8,21 +8,17 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["pixels", "simulation", "fluid simulation", "sandpile model", "generative art"],
   "canContribute": true,
-  "relatedChallenges": ["85-the-game-of-life", "107-sandpiles", "132-fluid-simulation", "102-2d-water-ripple"],
+  "relatedChallenges": ["179-wolfram-ca", "85-the-game-of-life", "107-sandpiles", "132-fluid-simulation", "102-2d-water-ripple"],
   "timestamps": [
-    { "time": "0:00", "title": "Playing with sand" },
-    { "time": "0:15", "title": "Introduction and references" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "" }
+    { "time": "0:00", "title": "Introduction and references" },
+    { "time": "2:10", "title": "About cellular automata" },
+    { "time": "2:47", "title": "The rules for a sand simulation" },
+    { "time": "3:36", "title": "Code! Creating a grid" },
+    { "time": "5:04", "title": "Animating a falling grain of sand" },
+    { "time": "7:32", "title": "About matrix columns and rows" },
+    { "time": "7:58", "title": "Let's account for the bottom edge" },
+    { "time": "9:09", "title": "Adding mouse interaction" },
+    { "time": "9:42", "title": "More sophisticated sand behavior" }
   ],
   "codeExamples": [
     {
@@ -66,6 +62,18 @@
           "title": "Noita 1.0 Launch Trailer by Nolla Games",
           "url": "https://www.youtube.com/watch?v=0cDkmQ0F0Jw",
           "description": "A Game built on top of the Falling Everything engine"
+        },
+        {
+          "icon": "🚂",
+          "title": "Elementary Cellular Automata",
+          "url": "/challenges/179-wolfram-ca",
+          "description": "My previous coding challenge about cellular automata."
+        },
+        {
+          "icon": "🚂",
+          "title": "The Game of Life",
+          "url": "/challenges/85-the-game-of-life",
+          "description": "My coding challenge about John Conway's Game of Life."
         }
       ]
     }
