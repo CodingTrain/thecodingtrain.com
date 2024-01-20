@@ -1,0 +1,82 @@
+{
+  "title": "Falling Sand",
+  "videoNumber": "180",
+  "description": "It's Genuary 2024! Watch as I attempt to build a falling sand simulation in p5.js using a grid of pixels and simple rules.",
+  "videoId": "L4u7Zy_b868",
+  "nebulaSlug": "codingtrain-coding-challenge-180-falling-sand",
+  "date": "2024-01-21",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["pixels", "simulation", "fluid simulation", "sandpile model", "generative art"],
+  "canContribute": true,
+  "relatedChallenges": ["85-the-game-of-life", "107-sandpiles", "132-fluid-simulation", "102-2d-water-ripple"],
+  "timestamps": [
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "" }
+  ],
+  "codeExamples": [
+    {
+      "title": "",
+      "description": "",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/???"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Genuary",
+          "url": "https://genuary.art/",
+          "description": "A month of generative art in January"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Noita 1.0 Launch Trailer by Nolla Games",
+          "url": "https://www.youtube.com/watch?v=0cDkmQ0F0Jw",
+          "description": "A Game built on top of the Falling Everything engine"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Sandspiel by Max Bittker",
+          "url": "https://sandspiel.club/",
+          "description": "A world of sand, water, fire and smoke made out of pixels"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
