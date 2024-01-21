@@ -69,6 +69,12 @@
           "title": "Making a falling sand simulator by Jason McGhee",
           "url": "https://jason.today/falling-sand",
           "description": "Tutorial about making the same kind of simulation with 5p.js"
+        },
+        {
+          "icon": "📕",
+          "title": "The Nature of Code by Daniel Shiffman",
+          "url": "https://natureofcode.com/",
+          "description": "A book about simulating the natural world with physics simulations"
         }
       ]
     },
