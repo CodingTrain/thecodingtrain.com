@@ -148,6 +148,7 @@ const VideoSection = ({ challenge }) => {
                     })}
                     parts={challenge.parts}
                     currentPartIndex={activePartIndex}
+                    onSelection={() => setShowTimeline(false)}
                   />
                 )}
                 {hasTimestamps && (

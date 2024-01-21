@@ -40,7 +40,13 @@ const usePaths = (chapters, track, trackPosition) => {
   return [computePath(prevVideo), computePath(nextVideo)];
 };
 
-const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
+const OverviewTimeline = ({
+  className,
+  chapters,
+  track,
+  trackPosition,
+  onSelection = () => {}
+}) => {
   const [previousVideo, nextVideo] = usePaths(chapters, track, trackPosition);
 
   const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
@@ -55,17 +61,24 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
             chapters={chapters}
             track={track}
             trackPosition={trackPosition}
+            onSelection={onSelection}
           />
         ))}
       </div>
       <div className={css.navigation}>
         {previousVideo !== null && (
-          <Link className={css.navButton} to={previousVideo.path}>
+          <Link
+            className={css.navButton}
+            to={previousVideo.path}
+            onClick={onSelection}>
             Previous
           </Link>
         )}
         {nextVideo !== null && (
-          <Link className={css.navButton} to={nextVideo.path}>
+          <Link
+            className={css.navButton}
+            to={nextVideo.path}
+            onClick={onSelection}>
             Next
           </Link>
         )}
@@ -75,7 +88,7 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
 };
 
 const ChapterSection = memo(
-  ({ chapter, chapterIndex, chapters, track, trackPosition }) => {
+  ({ chapter, chapterIndex, chapters, track, trackPosition, onSelection }) => {
     const hasSeenChapter = chapterIndex < trackPosition.chapterIndex;
     const isThisChapter = chapterIndex === trackPosition.chapterIndex;
     const trackPath = `/tracks/${track.slug}`;
@@ -124,7 +137,8 @@ const ChapterSection = memo(
                       [css.last]: isLastVideo && partIndex === currentPartIndex
                     })}>
                     <Link
-                      to={`${trackPath}/${video.slug}#part-${partIndex + 1}`}>
+                      to={`${trackPath}/${video.slug}#part-${partIndex + 1}`}
+                      onClick={onSelection}>
                       {video.title} - {part.title}
                     </Link>
                   </li>
@@ -137,7 +151,9 @@ const ChapterSection = memo(
                   [css.seen]: hasSeenVideo,
                   [css.last]: isLastVideo
                 })}>
-                <Link to={`${trackPath}/${video.slug}`}>{video.title}</Link>
+                <Link to={`${trackPath}/${video.slug}`} onClick={onSelection}>
+                  {video.title}
+                </Link>
               </li>
             );
           })}
