@@ -32,9 +32,17 @@
   ],
   "codeExamples": [
     {
-      "title": "",
-      "description": "",
-      "image": "",
+      "title": "Falling Sand Simulation",
+      "description": "Implementation of a Falling Sand Simulation",
+      "image": "p5-example.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/???"
+      }
+    },
+    {
+      "title": "Falling Sand with Gravity",
+      "description": "Same Simulation but with Gravitational Acceleration",
+      "image": "p5-example-gravity.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/???"
       }
