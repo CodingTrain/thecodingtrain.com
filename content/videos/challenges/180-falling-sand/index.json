@@ -18,7 +18,17 @@
     { "time": "7:32", "title": "About matrix columns and rows" },
     { "time": "7:58", "title": "Let's account for the bottom edge" },
     { "time": "9:09", "title": "Adding mouse interaction" },
-    { "time": "9:42", "title": "More sophisticated sand behavior" }
+    { "time": "9:42", "title": "More sophisticated sand behavior" },
+    { "time": "10:43", "title": "Oops! Some errors to fix" },
+    { "time": "11:30", "title": "Adding randomness" },
+    { "time": "12:26", "title": "Handling left and right edges" },
+    { "time": "14:00", "title": "Checking if mouse is within the canvas" },
+    { "time": "14:40", "title": "Making it more efficient" },
+    { "time": "14:56", "title": "More space and more sand" },
+    { "time": "16:55", "title": "Adding some color!" },
+    { "time": "18:54", "title": "Challenge complete! Let's do some refactoring" },
+    { "time": "20:58", "title": "How could we add gravity?" },
+    { "time": "21:57", "title": "Wrapping up" }
   ],
   "codeExamples": [
     {
