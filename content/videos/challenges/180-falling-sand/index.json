@@ -1,0 +1,115 @@
+{
+  "title": "Falling Sand",
+  "videoNumber": "180",
+  "description": "It's Genuary 2024! Watch as I attempt to build a falling sand simulation in p5.js using a grid of pixels and simple rules.",
+  "videoId": "L4u7Zy_b868",
+  "nebulaSlug": "codingtrain-coding-challenge-180-falling-sand",
+  "date": "2024-01-21",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["pixels", "simulation", "fluid simulation", "sandpile model", "generative art"],
+  "canContribute": true,
+  "relatedChallenges": ["179-wolfram-ca", "85-the-game-of-life", "107-sandpiles", "132-fluid-simulation", "102-2d-water-ripple"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction and references" },
+    { "time": "2:10", "title": "About cellular automata" },
+    { "time": "2:47", "title": "The rules for a sand simulation" },
+    { "time": "3:36", "title": "Code! Creating a grid" },
+    { "time": "5:04", "title": "Animating a falling grain of sand" },
+    { "time": "7:32", "title": "About matrix columns and rows" },
+    { "time": "8:04", "title": "Let's account for the bottom edge" },
+    { "time": "9:09", "title": "Adding mouse interaction" },
+    { "time": "9:42", "title": "More sophisticated sand behavior" },
+    { "time": "10:43", "title": "Oops! Some errors to fix" },
+    { "time": "11:30", "title": "Adding randomness" },
+    { "time": "12:26", "title": "Handling left and right edges" },
+    { "time": "14:00", "title": "Checking if mouse is within the canvas" },
+    { "time": "14:40", "title": "Making it more efficient" },
+    { "time": "14:56", "title": "More space and more sand" },
+    { "time": "16:55", "title": "Adding some color!" },
+    { "time": "18:54", "title": "Challenge complete! Let's do some refactoring" },
+    { "time": "20:58", "title": "How could we add gravity?" },
+    { "time": "21:57", "title": "Wrapping up" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Falling Sand Simulation",
+      "description": "Implementation of a Falling Sand Simulation",
+      "image": "p5-example.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/AoH40T6fV"
+      }
+    },
+    {
+      "title": "Falling Sand with Gravity",
+      "description": "Same Simulation but with Gravitational Acceleration",
+      "image": "p5-example-gravity.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Ij5i7a3w4"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Genuary",
+          "url": "https://genuary.art/",
+          "description": "A month of generative art in January"
+        },
+        {
+          "icon": "🔗",
+          "title": "Sandspiel by Max Bittker",
+          "url": "https://sandspiel.club/",
+          "description": "A world of sand, water, fire and smoke made out of pixels"
+        },
+        {
+          "icon": "🔗",
+          "title": "Making a falling sand simulator by Jason McGhee",
+          "url": "https://jason.today/falling-sand",
+          "description": "Tutorial about making the same kind of simulation with 5p.js"
+        },
+        {
+          "icon": "📕",
+          "title": "The Nature of Code by Daniel Shiffman",
+          "url": "https://natureofcode.com/",
+          "description": "A book about simulating the natural world with physics simulations"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Noita 1.0 Launch Trailer by Nolla Games",
+          "url": "https://www.youtube.com/watch?v=0cDkmQ0F0Jw",
+          "description": "A Game built on top of the Falling Everything engine"
+        },
+        {
+          "icon": "🚂",
+          "title": "Wolfram CA",
+          "url": "/challenges/179-wolfram-ca",
+          "description": "My previous coding challenge about cellular automata."
+        },
+        {
+          "icon": "🚂",
+          "title": "The Game of Life",
+          "url": "/challenges/85-the-game-of-life",
+          "description": "My coding challenge about John Conway's Game of Life."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
