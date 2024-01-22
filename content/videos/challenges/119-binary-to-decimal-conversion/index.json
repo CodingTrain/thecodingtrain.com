@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["binary numbers", "base conversion", "math"],
   "canContribute": true,
-  "relatedChallenges": ["117-seven-segment-display", "120-bit-shifting"],
+  "relatedChallenges": ["117-seven-segment-display", "120-bit-shifting", "179-wolfram-ca"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:08", "title": "Understanding the base of a number system" },

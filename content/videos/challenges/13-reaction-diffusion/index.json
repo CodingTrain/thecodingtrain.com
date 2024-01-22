@@ -8,7 +8,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["math", "reaction diffusion"],
   "canContribute": true,
-  "relatedChallenges": ["85-the-game-of-life", "90-dithering", "103-fire-effect"],
+  "relatedChallenges": ["85-the-game-of-life", "90-dithering", "103-fire-effect", "180-falling-sand", "179-wolfram-ca"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "0:36", "title": "The Gray-Scott model" },

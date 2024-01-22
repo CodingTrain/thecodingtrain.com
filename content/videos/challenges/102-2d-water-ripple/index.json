@@ -7,7 +7,7 @@
   "languages": ["Processing"],
   "topics": ["2D water ripple", "cellular automaton", "pixels"],
   "canContribute": true,
-  "relatedChallenges": ["24-perlin-noise-flow-field", "85-the-game-of-life", "103-fire-effect"],
+  "relatedChallenges": ["24-perlin-noise-flow-field", "85-the-game-of-life", "103-fire-effect", "179-wolfram-ca", "180-falling-sand"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:54", "title": "2D water ripples algorithm" },

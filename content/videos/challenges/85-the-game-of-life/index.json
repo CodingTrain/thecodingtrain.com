@@ -7,7 +7,7 @@
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Conway's Game of Life", "cellular automaton", "modulo operator"],
   "canContribute": true,
-  "relatedChallenges": ["89-langtons-ant", "107-sandpiles", "102-2d-water-ripple"],
+  "relatedChallenges": ["89-langtons-ant", "107-sandpiles", "102-2d-water-ripple", "179-wolfram-ca", "180-falling-sand"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:00", "title": "Generations" },

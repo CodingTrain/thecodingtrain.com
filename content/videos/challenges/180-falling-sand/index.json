@@ -6,7 +6,7 @@
   "nebulaSlug": "codingtrain-coding-challenge-180-falling-sand",
   "date": "2024-01-21",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["pixels", "simulation", "fluid simulation", "sandpile model", "generative art"],
+  "topics": ["pixels", "simulation", "falling sand", "fluid simulation", "sandpile model", "generative art"],
   "canContribute": true,
   "relatedChallenges": ["179-wolfram-ca", "85-the-game-of-life", "107-sandpiles", "132-fluid-simulation", "102-2d-water-ripple"],
   "timestamps": [
@@ -32,7 +32,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Falling Sand Simulation",
+      "title": "Falling Sand",
       "description": "Implementation of a Falling Sand Simulation",
       "image": "p5-example.jpg",
       "urls": {
@@ -66,9 +66,9 @@
         },
         {
           "icon": "🔗",
-          "title": "Making a falling sand simulator by Jason McGhee",
+          "title": "Making a falling sand simulator",
           "url": "https://jason.today/falling-sand",
-          "description": "Tutorial about making the same kind of simulation with 5p.js"
+          "description": "Tutorial about making the same kind of simulation with p5.js by Jason McGhee"
         },
         {
           "icon": "📕",
