@@ -13,7 +13,9 @@
     "78-simple-particle-system",
     "90-dithering",
     "102-2d-water-ripple",
-    "132-fluid-simulation"
+    "132-fluid-simulation",
+    "179-wolfram-ca",
+    "180-falling-sand"
   ],
   "timestamps": [
     {

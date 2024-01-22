@@ -7,7 +7,7 @@
   "languages": ["p5.js", "Processing"],
   "topics": ["sandpile model", "cellular automaton", "grid"],
   "canContribute": true,
-  "relatedChallenges": ["89-langtons-ant", "85-the-game-of-life", "102-2d-water-ripple"],
+  "relatedChallenges": ["89-langtons-ant", "85-the-game-of-life", "102-2d-water-ripple", "180-falling-sand"],
   "timestamps": [
     { "time": "0:00", "title": "Introducing today's topic" },
     { "time": "1:02", "title": "The \"sandpile\" algorithm" },
