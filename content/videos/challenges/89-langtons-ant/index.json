@@ -7,7 +7,7 @@
   "languages": ["Processing", "Java"],
   "topics": ["Langton's ant", "cellular automaton"],
   "canContribute": true,
-  "relatedChallenges": ["85-the-game-of-life", "102-2d-water-ripple"],
+  "relatedChallenges": ["85-the-game-of-life", "102-2d-water-ripple", "179-wolfram-ca", "180-falling-sand"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction and setup code!" },
     {
