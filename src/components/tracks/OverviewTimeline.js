@@ -3,6 +3,7 @@ import cn from 'classnames';
 import { Link } from 'gatsby';
 
 import { usePersistScrollPosition } from '../../hooks';
+import { buildPartHash } from '../../utils';
 
 import * as css from './OverviewTimeline.module.css';
 
@@ -29,7 +30,7 @@ const usePaths = (chapters, track, trackPosition) => {
   const nextVideo = flatTrack[currentIndex + 1];
   const computePath = (video) => {
     if (video) {
-      const hash = video.isMultiPart ? `#part-${video.partIndex + 1}` : '';
+      const hash = video.isMultiPart ? buildPartHash(video.partIndex) : '';
       return {
         ...video,
         path: `/tracks/${track.slug}/${video.slug}${hash}`
@@ -137,7 +138,9 @@ const ChapterSection = memo(
                       [css.last]: isLastVideo && partIndex === currentPartIndex
                     })}>
                     <Link
-                      to={`${trackPath}/${video.slug}#part-${partIndex + 1}`}
+                      to={`${trackPath}/${video.slug}${buildPartHash(
+                        partIndex
+                      )}`}
                       onClick={onSelection}>
                       {video.title} - {part.title}
                     </Link>

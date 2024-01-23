@@ -3,6 +3,7 @@ import cn from 'classnames';
 
 import * as css from './PartsTimeline.module.css';
 import { Link } from 'gatsby';
+import { buildPartHash } from '../../utils';
 
 const PartsTimeline = ({
   className,
@@ -21,7 +22,7 @@ const PartsTimeline = ({
                 [css.seen]: index <= currentPartIndex,
                 [css.last]: index === currentPartIndex
               })}>
-              <Link to={`#part-${index + 1}`} onClick={onSelection}>
+              <Link to={buildPartHash(index)} onClick={onSelection}>
                 {part.title}
               </Link>
             </li>
@@ -31,7 +32,7 @@ const PartsTimeline = ({
       <div className={css.navigation}>
         {currentPartIndex > 0 && (
           <Link
-            to={`#part-${currentPartIndex}`}
+            to={buildPartHash(currentPartIndex - 1)}
             className={css.navButton}
             onClick={onSelection}>
             Previous
@@ -39,7 +40,7 @@ const PartsTimeline = ({
         )}
         {currentPartIndex < parts.length - 1 && (
           <Link
-            to={`#part-${currentPartIndex + 2}`}
+            to={buildPartHash(currentPartIndex + 1)}
             className={css.navButton}
             onClick={onSelection}>
             Next

@@ -139,21 +139,27 @@ export const useIsFirstRender = () => {
 };
 
 /**
- * If the current URL (and hash value) corresponds to a part from a multi-part
- * coding challenge (within a challenge page or a track page), this hook returns
- * the zero-based index of this part, else it returns 0.
+ * If the current URL hash value (fragment) matches a part number (from a
+ * multi-part coding challenge), this hook returns the zero-based index of this
+ * part.
  *
- * The hash value should look like `#part-3`. If the part number if larger than
- * the `totalParts` parameter, the returned index corresponds to the last part
- * of the challenge (`totalParts - 1`).
+ * If the hash value doesn't match the format `#part-{partNumber}` where
+ * `0 <= partNumber <= partsCount`, this hook returns 0.
  *
- * @param totalParts {number} total number of parts of the challenge (1 if the
- * challenge is not multi-part)
- * 
+ * @param partsCount {number} total number of parts of the challenge (1 if
+ * the challenge is not multi-part)
+ *
  * @returns {number} challenge part index
+ *
+ * @example
+ * with hash "#part-1", useChallengePartIndex(3) === 0
+ * with hash "#part-3", useChallengePartIndex(3) === 2
+ * with hash "#part-8", useChallengePartIndex(2) === 0;
+ * with hash "#part-abc", useChallengePartIndex(3) === 0
  */
-export const useChallengePartIndex = (totalParts) => {
+export const useChallengePartIndex = (partsCount) => {
   const { hash } = useLocation();
   const [match, partNumberStr] = hash.match(/#part-([1-9][0-9]*)/) || [false];
-  return match ? Math.min(parseInt(partNumberStr), totalParts) - 1 : 0;
+  const partIndex = match ? parseInt(partNumberStr) - 1 : 0;
+  return partIndex < partsCount ? partIndex : 0;
 };
