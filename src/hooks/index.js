@@ -144,7 +144,7 @@ export const useIsFirstRender = () => {
  * part.
  *
  * If the hash value doesn't match the format `#part-{partNumber}` where
- * `0 <= partNumber <= partsCount`, this hook returns 0.
+ * `1 <= partNumber <= partsCount`, this hook returns 0.
  *
  * @param partsCount {number} total number of parts of the challenge (1 if
  * the challenge is not multi-part)
