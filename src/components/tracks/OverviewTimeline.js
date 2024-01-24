@@ -12,12 +12,8 @@ const usePaths = (chapters, track, trackPosition) => {
     .flatMap((chapter) => chapter.videos)
     .flatMap((video) =>
       video.parts?.length > 0
-        ? video.parts.map((_, partIndex) => ({
-            slug: video.slug,
-            partIndex,
-            isMultiPart: true
-          }))
-        : [{ slug: video.slug, partIndex: 0, isMultiPart: false }]
+        ? video.parts.map((_, partIndex) => ({ slug: video.slug, partIndex }))
+        : [{ slug: video.slug, partIndex: 0 }]
     );
   const currentVideo =
     chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex];
@@ -30,7 +26,7 @@ const usePaths = (chapters, track, trackPosition) => {
   const nextVideo = flatTrack[currentIndex + 1];
   const computePath = (video) => {
     if (video) {
-      const hash = video.isMultiPart ? buildPartHash(video.partIndex) : '';
+      const hash = buildPartHash(video.partIndex);
       return {
         ...video,
         path: `/tracks/${track.slug}/${video.slug}${hash}`
