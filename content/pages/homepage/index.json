@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "179-wolfram-ca",
-      "166-image-to-ascii",
+      "129-koch-fractal-snowflake",
       "180-falling-sand",
-      "172-directional-boring",
-      "88-snowfall",
-      "168-the-mandelbulb"
+      "57-mapping-earthquake-data",
+      "30-phyllotaxis",
+      "167-prime-spiral"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/179-wolfram-ca/showcase/contribution-1704907774.json",
-      "challenges/74-clock/showcase/contribution-1704833946.json",
-      "code/1-intro/3-shapes-drawing/showcase/contribution-1705011054.json",
-      "challenges/179-wolfram-ca/showcase/contribution-1704942050.json",
-      "challenges/175-3D-cube-applesoft-basic/showcase/contribution-1703961794.json",
-      "challenges/12-lorenz-attractor/showcase/contribution-1704227203.json",
-      "teachable-machine/1-image-classification/showcase/contribution-1704314075.json",
-      "challenges/16-l-system-fractal-trees/showcase/contribution-1704817685.json"
+      "challenges/180-falling-sand/showcase/contribution-1705970332.json",
+      "challenges/180-falling-sand/showcase/contribution-1706083856.json",
+      "challenges/180-falling-sand/showcase/contribution-1706253551705.json",
+      "challenges/2-menger-sponge/showcase/contribution-1705675065.json",
+      "challenges/179-wolfram-ca/showcase/contribution-1705618081.json",
+      "challenges/168-the-mandelbulb/showcase/contribution-1705865118.json",
+      "noc/4-particles/2-particle-emitters/showcase/contribution-1705947346.json",
+      "challenges/93-double-pendulum/showcase/contribution-1706098095.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
