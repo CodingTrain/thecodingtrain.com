@@ -77,3 +77,17 @@ export const randomElement = (array) => {
   const index = Math.floor(Math.random() * array.length);
   return array[index];
 };
+
+/**
+ * Creates a URL hash value (fragment) refering to a specific part of a
+ * multi-part coding challenge. Part 1 of a challenge has no hash value.
+ *
+ * @param partIndex {number} Zero-based part index
+ *
+ * @example
+ * buildPartHash(0) === ""
+ * buildPartHash(1) === "#part-2"
+ */
+export const buildPartHash = (partIndex) => {
+  return partIndex > 0 ? `#part-${partIndex + 1}` : '';
+};

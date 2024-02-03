@@ -139,13 +139,27 @@ export const useIsFirstRender = () => {
 };
 
 /**
- * Returns the challenge part index (0 if the challenge is not multi-part)
- * which has been stored in the `location.state` object using the `Link.state`
- * property.
+ * If the current URL hash value (fragment) matches a part number (from a
+ * multi-part coding challenge), this hook returns the zero-based index of this
+ * part.
+ *
+ * If the hash value doesn't match the format `#part-{partNumber}` where
+ * `1 <= partNumber <= partsCount`, this hook returns 0.
+ *
+ * @param partsCount {number} total number of parts of the challenge (1 if
+ * the challenge is not multi-part)
  *
  * @returns {number} challenge part index
+ *
+ * @example
+ * with hash "#part-1", useChallengePartIndex(3) === 0
+ * with hash "#part-3", useChallengePartIndex(3) === 2
+ * with hash "#part-8", useChallengePartIndex(2) === 0;
+ * with hash "#part-abc", useChallengePartIndex(3) === 0
  */
-export const useChallengePartIndex = () => {
-  const { state } = useLocation();
-  return state?.challengePartIndex ?? 0;
+export const useChallengePartIndex = (partsCount) => {
+  const { hash } = useLocation();
+  const [match, partNumberStr] = hash.match(/#part-([1-9][0-9]*)/) || [false];
+  const partIndex = match ? parseInt(partNumberStr) - 1 : 0;
+  return partIndex < partsCount ? partIndex : 0;
 };

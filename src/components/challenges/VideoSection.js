@@ -9,6 +9,7 @@ import PartsTimeline from './PartsTimeline';
 import NebulaVideoRow from '../NebulaVideoRow';
 
 import { filteredPath } from '../../utils';
+import { useChallengePartIndex } from '../../hooks';
 
 import * as css from './VideoSection.module.css';
 
@@ -23,9 +24,8 @@ const VideoSection = ({ challenge }) => {
   const hasMultiParts = challenge.parts?.length > 0;
   const [showTimestamps, setShowTimestamps] = useState(!hasMultiParts);
 
-  const [activePart, setActivePart] = useState(
-    challenge.parts?.[0] ?? challenge
-  );
+  const activePartIndex = useChallengePartIndex(challenge.parts?.length || 1);
+  const activePart = challenge.parts?.[activePartIndex] ?? challenge;
   const { videoId, nebulaSlug, timestamps } = activePart;
   const hasTimestamps = timestamps?.length > 0;
   const hasTimeline = hasMultiParts || hasTimestamps;
@@ -147,10 +147,8 @@ const VideoSection = ({ challenge }) => {
                       [css.hide]: showTimestamps
                     })}
                     parts={challenge.parts}
-                    onPartChange={(part) => {
-                      setActivePart(part);
-                      setShowTimeline(false);
-                    }}
+                    currentPartIndex={activePartIndex}
+                    onSelection={() => setShowTimeline(false)}
                   />
                 )}
                 {hasTimestamps && (

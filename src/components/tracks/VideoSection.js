@@ -35,7 +35,8 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
 
   const { title, topics, languages } = video;
 
-  const partIndex = useChallengePartIndex();
+  const partIndex = useChallengePartIndex(video.parts?.length || 1);
+  trackPosition = { ...trackPosition, partIndex };
   const part = video.parts?.[partIndex];
   const videoId = part?.videoId ?? video.videoId;
   const nebulaSlug = part?.nebulaSlug ?? video.nebulaSlug;
@@ -179,6 +180,7 @@ const VideoSection = ({ track, video, trackPosition, mainTitle }) => {
                   chapters={chapters}
                   track={track}
                   trackPosition={trackPosition}
+                  onSelection={() => setShowTimeline(false)}
                 />
               )}
             </div>

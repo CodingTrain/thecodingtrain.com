@@ -1,17 +1,16 @@
-import React, { memo, useState } from 'react';
+import React, { memo } from 'react';
 import cn from 'classnames';
 
 import * as css from './PartsTimeline.module.css';
 import { Link } from 'gatsby';
+import { buildPartHash } from '../../utils';
 
-const PartsTimeline = ({ className, parts, onPartChange }) => {
-  const [currentPartIndex, setCurrentPartIndex] = useState(0);
-
-  const updatePartIndex = (index) => {
-    onPartChange(parts[index]);
-    setCurrentPartIndex(index);
-  };
-
+const PartsTimeline = ({
+  className,
+  parts,
+  currentPartIndex,
+  onSelection = () => {}
+}) => {
   return (
     <div className={cn(css.root, className)}>
       <div className={css.partsTimeline}>
@@ -23,12 +22,7 @@ const PartsTimeline = ({ className, parts, onPartChange }) => {
                 [css.seen]: index <= currentPartIndex,
                 [css.last]: index === currentPartIndex
               })}>
-              <Link
-                to="#"
-                onClick={(event) => {
-                  event.preventDefault();
-                  updatePartIndex(index);
-                }}>
+              <Link to={buildPartHash(index)} onClick={onSelection}>
                 {part.title}
               </Link>
             </li>
@@ -38,23 +32,17 @@ const PartsTimeline = ({ className, parts, onPartChange }) => {
       <div className={css.navigation}>
         {currentPartIndex > 0 && (
           <Link
-            to="#"
+            to={buildPartHash(currentPartIndex - 1)}
             className={css.navButton}
-            onClick={(event) => {
-              event.preventDefault();
-              updatePartIndex(currentPartIndex - 1);
-            }}>
+            onClick={onSelection}>
             Previous
           </Link>
         )}
         {currentPartIndex < parts.length - 1 && (
           <Link
-            to="#"
+            to={buildPartHash(currentPartIndex + 1)}
             className={css.navButton}
-            onClick={(event) => {
-              event.preventDefault();
-              updatePartIndex(currentPartIndex + 1);
-            }}>
+            onClick={onSelection}>
             Next
           </Link>
         )}

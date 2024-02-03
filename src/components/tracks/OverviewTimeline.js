@@ -2,7 +2,8 @@ import React, { memo, useState } from 'react';
 import cn from 'classnames';
 import { Link } from 'gatsby';
 
-import { useChallengePartIndex, usePersistScrollPosition } from '../../hooks';
+import { usePersistScrollPosition } from '../../hooks';
+import { buildPartHash } from '../../utils';
 
 import * as css from './OverviewTimeline.module.css';
 
@@ -14,20 +15,35 @@ const usePaths = (chapters, track, trackPosition) => {
         ? video.parts.map((_, partIndex) => ({ slug: video.slug, partIndex }))
         : [{ slug: video.slug, partIndex: 0 }]
     );
-  const partIndex = useChallengePartIndex();
   const currentVideo =
     chapters[trackPosition.chapterIndex].videos[trackPosition.videoIndex];
   const currentIndex = flatTrack.findIndex(
-    (video) => video.slug === currentVideo.slug && video.partIndex === partIndex
+    (video) =>
+      video.slug === currentVideo.slug &&
+      video.partIndex === trackPosition.partIndex
   );
   const prevVideo = flatTrack[currentIndex - 1];
   const nextVideo = flatTrack[currentIndex + 1];
-  const computePath = (video) =>
-    video ? { ...video, path: `/tracks/${track.slug}/${video.slug}` } : null;
+  const computePath = (video) => {
+    if (video) {
+      const hash = buildPartHash(video.partIndex);
+      return {
+        ...video,
+        path: `/tracks/${track.slug}/${video.slug}${hash}`
+      };
+    }
+    return null;
+  };
   return [computePath(prevVideo), computePath(nextVideo)];
 };
 
-const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
+const OverviewTimeline = ({
+  className,
+  chapters,
+  track,
+  trackPosition,
+  onSelection = () => {}
+}) => {
   const [previousVideo, nextVideo] = usePaths(chapters, track, trackPosition);
 
   const timelineRef = usePersistScrollPosition(track.slug, 'tracks');
@@ -42,6 +58,7 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
             chapters={chapters}
             track={track}
             trackPosition={trackPosition}
+            onSelection={onSelection}
           />
         ))}
       </div>
@@ -50,7 +67,7 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
           <Link
             className={css.navButton}
             to={previousVideo.path}
-            state={{ challengePartIndex: previousVideo.partIndex }}>
+            onClick={onSelection}>
             Previous
           </Link>
         )}
@@ -58,7 +75,7 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
           <Link
             className={css.navButton}
             to={nextVideo.path}
-            state={{ challengePartIndex: nextVideo.partIndex }}>
+            onClick={onSelection}>
             Next
           </Link>
         )}
@@ -68,14 +85,13 @@ const OverviewTimeline = ({ className, chapters, track, trackPosition }) => {
 };
 
 const ChapterSection = memo(
-  ({ chapter, chapterIndex, chapters, track, trackPosition }) => {
+  ({ chapter, chapterIndex, chapters, track, trackPosition, onSelection }) => {
     const hasSeenChapter = chapterIndex < trackPosition.chapterIndex;
     const isThisChapter = chapterIndex === trackPosition.chapterIndex;
     const trackPath = `/tracks/${track.slug}`;
     const [collapsed, setCollapsed] = useState(false);
 
     const { videoIndex: currentVideoIndex } = trackPosition;
-    const currentPartIndex = useChallengePartIndex();
 
     return (
       <ul className={css.chapterList}>
@@ -105,6 +121,7 @@ const ChapterSection = memo(
 
             return isMultiPart ? (
               video.parts.map((part, partIndex) => {
+                const currentPartIndex = trackPosition.partIndex;
                 const hasSeenPart =
                   hasSeenVideo &&
                   (videoIndex < currentVideoIndex ||
@@ -117,8 +134,10 @@ const ChapterSection = memo(
                       [css.last]: isLastVideo && partIndex === currentPartIndex
                     })}>
                     <Link
-                      to={`${trackPath}/${video.slug}`}
-                      state={{ challengePartIndex: partIndex }}>
+                      to={`${trackPath}/${video.slug}${buildPartHash(
+                        partIndex
+                      )}`}
+                      onClick={onSelection}>
                       {video.title} - {part.title}
                     </Link>
                   </li>
@@ -131,7 +150,9 @@ const ChapterSection = memo(
                   [css.seen]: hasSeenVideo,
                   [css.last]: isLastVideo
                 })}>
-                <Link to={`${trackPath}/${video.slug}`}>{video.title}</Link>
+                <Link to={`${trackPath}/${video.slug}`} onClick={onSelection}>
+                  {video.title}
+                </Link>
               </li>
             );
           })}
