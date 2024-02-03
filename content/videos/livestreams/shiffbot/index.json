@@ -1,0 +1,118 @@
+{
+  "title": "I, Robot",
+  "description": "In this live episode of the Coding Train I share ShiffBot, review your showcase submissions, and create a node.js and p5.js example for the Gemini large language model API.",
+  "videoId": "ORe-c1crRcE",
+  "date": "2024-02-02",
+  "languages": ["Javascript"],
+  "topics": ["Gemini API", "ShiffBot", "node", "Genuary 2024"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "42-markov-chain-name-generator",
+    "79-number-guessing-chatbot",
+    "80-voice-chatbot-with-p5speech",
+    "179-wolfram-ca",
+    "180-falling-sand"
+  ],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Count down starts" },
+    { "time": "0:09:09", "title": "Welcome to the livestream!" },
+    { "time": "0:20:06", "title": "ShiffBot" },
+    { "time": "0:30:47", "title": "Demo ShiffBot" },
+    { "time": "0:59:19", "title": "Intermission" },
+    { "time": "1:05:25", "title": "Back from intermission" },
+    { "time": "1:08:58", "title": "Review showcases" },
+    { "time": "1:40:10", "title": "Genuary 2024" },
+    { "time": "1:42:10", "title": "Working with the Gemini API" },
+    { "time": "1:55:05", "title": "Host a p5.js sketch" },
+    { "time": "1:59:57", "title": "Connect the node.js express server to p5" },
+    { "time": "2:07:03", "title": "Multi-turn conversations" },
+    { "time": "2:18:59", "title": "Next steps" },
+    { "time": "2:23:17", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "p5-Gemini Bot Demo",
+      "description": "My repository with the code for the p5-Gemini bot demo",
+      "urls": { "other": "https://github.com/CodingTrain/p5-gemini/tree/main" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "ShiffBot",
+          "url": "https://shiffbot.withgoogle.com",
+          "description": "Google website where you can learn about Shiffbot."
+        },
+        {
+          "icon": "🔗",
+          "title": "Blog post on the development of ShiffBot",
+          "url": "https://developers.googleblog.com/2024/01/how-its-made-learning-through-shiffbot-powered-by-gemini-api.html",
+          "description": "Exploring AI x Learning through ShiffBot, an AI experiment powered by the Gemini API"
+        },
+        {
+          "icon": "🔗",
+          "title": "Gemini API",
+          "url": "https://ai.google.dev",
+          "description": "Google's largest and most capable AI model."
+        },
+        {
+          "icon": "🔗",
+          "title": "Documentation on the Gemini API",
+          "url": "https://ai.google.dev/tutorials/ai-studio_quickstart",
+          "description": "Quick start guide for the Gemini API."
+        },
+        {
+          "icon": "🔗",
+          "title": "Coding Train tiktok",
+          "url": "https://www.tiktok.com/@codingtrain",
+          "description": "My Genuary 2024 submissions"
+        },
+        {
+          "icon": "🔗",
+          "title": "Express",
+          "url": "https://expressjs.com",
+          "description": "Fast, unopinionated, minimalist web framework for Node.js."
+        },
+        {
+          "icon": "🔗",
+          "title": "sableraph",
+          "url": "https://www.twitch.tv/sableraph",
+          "description": "Raphael de Courville's Twitch channel"
+        },
+        {
+          "icon": "🔗",
+          "title": "CodingGarden",
+          "url": "https://www.twitch.tv/codinggarden",
+          "description": "CJ's Twitch channel"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Teacher x Large Language Models | Google Lab Sessions",
+          "url": "https://www.youtube.com/watch?v=FBFcNPa36m8",
+          "description": "Video about ShiffBot, an AI tool that helps you learn to code in p5.js without just giving you the answers."
+        },
+        {
+          "icon": "🎥",
+          "title": "How to Set Up a Node.js Project",
+          "url": "/tracks/discord-bots/discord/setup-node-project",
+          "description": "Learn how to set up a Node.js project, run JavaScript code outside the browser, and use npm for package management."
+        },
+        {
+          "icon": "🎥",
+          "title": "fetch()",
+          "url": "/tracks/data-and-apis-in-javascript/data/1-client-side/1-fetch",
+          "description": "This video is client-side only and covers the web fetch() API."
+        }
+      ]
+    }
+  ],
+  "credits": []
+}

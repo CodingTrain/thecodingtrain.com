@@ -1,5 +1,10 @@
 {
   "title": "Coding Train Live!",
   "description": "This side track is a collection of select livestreams.",
-  "videos": ["livestreams/decade-of-code", "livestreams/sentence-embeddings/clustering-sentence-embeddings", "livestreams/genuary"]
+  "videos": [
+    "livestreams/shiffbot",
+    "livestreams/decade-of-code",
+    "livestreams/sentence-embeddings/clustering-sentence-embeddings",
+    "livestreams/genuary"
+  ]
 }
