@@ -48,15 +48,15 @@
         },
         {
           "icon": "🔗",
-          "title": "Documentation on the Gemini API",
-          "url": "https://ai.google.dev/tutorials/ai-studio_quickstart",
-          "description": "Quick start guide for the Gemini API."
+          "title": "Gemini API",
+          "url": "https://ai.google.dev",
+          "description": "Google's largest and most capable AI model."
         },
         {
           "icon": "🔗",
-          "title": "Gemini API",
-          "url": "https://ai.google.dev",
-          "description": ""
+          "title": "Documentation on the Gemini API",
+          "url": "https://ai.google.dev/tutorials/ai-studio_quickstart",
+          "description": "Quick start guide for the Gemini API."
         },
         {
           "icon": "🔗",
@@ -75,6 +75,12 @@
           "title": "sableraph",
           "url": "https://www.twitch.tv/sableraph",
           "description": "Raphael de Courville's Twitch channel"
+        },
+        {
+          "icon": "🔗",
+          "title": "CodingGarden",
+          "url": "https://www.twitch.tv/codinggarden",
+          "description": "CJ's Twitch channel"
         }
       ]
     },
