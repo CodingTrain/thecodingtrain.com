@@ -1,12 +1,18 @@
 {
   "title": "I, Robot",
-  "description": "Livestream discussing ShiffBot and reviewing your showcase submissions",
+  "description": "Livestream discussing ShiffBot, reviewing your showcase submissions, and coding a bot.",
   "videoId": "ORe-c1crRcE",
   "date": "2024-02-02",
   "languages": ["Javascript"],
   "topics": ["Gemini API", "ShiffBot", "node", "Genuary 2024"],
   "canContribute": true,
-  "relatedChallenges": ["179-wolfram-ca", "180-falling-sand"],
+  "relatedChallenges": [
+    "42-markov-chain-name-generator",
+    "79-number-guessing-chatbot",
+    "80-voice-chatbot-with-p5speech",
+    "179-wolfram-ca",
+    "180-falling-sand"
+  ],
   "timestamps": [
     { "time": "0:00:00", "title": "Count down starts" },
     { "time": "0:09:09", "title": "Welcome to the livestream!" },
@@ -18,7 +24,7 @@
     { "time": "1:40:10", "title": "Genuary 2024" },
     { "time": "1:42:10", "title": "Coding a bot" },
     { "time": "1:55:05", "title": "Hook bot to p5" },
-    { "time": "1:59:57", "title": "Create a route on the node server to receive a message from p5" },
+    { "time": "1:59:57", "title": "Connect the server to p5" },
     { "time": "2:07:03", "title": "Multi-turn conversations" },
     { "time": "2:18:59", "title": "Next steps" },
     { "time": "2:23:17", "title": "Outro" }
