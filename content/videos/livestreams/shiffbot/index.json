@@ -1,6 +1,6 @@
 {
   "title": "I, Robot",
-  "description": "Livestream discussing ShiffBot, reviewing your showcase submissions, and coding a bot.",
+  "description": "In this live episode of the Coding Train I share ShiffBot, review your showcase submissions, and create a node.js and p5.js example for the Gemini large language model API.",
   "videoId": "ORe-c1crRcE",
   "date": "2024-02-02",
   "languages": ["Javascript"],
@@ -22,9 +22,9 @@
     { "time": "1:05:25", "title": "Back from intermission" },
     { "time": "1:08:58", "title": "Review showcases" },
     { "time": "1:40:10", "title": "Genuary 2024" },
-    { "time": "1:42:10", "title": "Coding a bot" },
-    { "time": "1:55:05", "title": "Hook bot to p5" },
-    { "time": "1:59:57", "title": "Connect the server to p5" },
+    { "time": "1:42:10", "title": "Working with the Gemini API" },
+    { "time": "1:55:05", "title": "Host a p5.js sketch" },
+    { "time": "1:59:57", "title": "Connect the node.js express server to p5" },
     { "time": "2:07:03", "title": "Multi-turn conversations" },
     { "time": "2:18:59", "title": "Next steps" },
     { "time": "2:23:17", "title": "Outro" }
