@@ -82,7 +82,7 @@
     },
     {
       "title": "Cellular Automata",
-      "videos": ["challenges/85-the-game-of-life"]
+      "videos": ["challenges/85-the-game-of-life", "challenges/179-wolfram-ca"]
     },
     {
       "title": "Fractals",
