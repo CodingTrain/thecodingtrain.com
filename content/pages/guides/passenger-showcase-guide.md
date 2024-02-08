@@ -6,7 +6,12 @@ date: '2022-05-04'
 
 ## Submission Form
 
-Thank you for sharing your work in the Passenger Showcase! There are currently two ways to submit your work: by using this form to upload your work, or to follow the instructions below to create a Pull Request for your project on GitHub!
+Thank you for sharing your work in the Passenger Showcase! The Passenger Showcase is a community collection that lives on the Coding Train website, but also is featured periodically during Coding Train live streams as well as on other Coding Train social media spaces!
+
+There are currently two ways to submit your work:
+
+1. Use the form below to share your work.
+2. Follow the instructions below to create a pull request to add your project manually.
 
 <PassengerShowcaseForm />
 
@@ -16,11 +21,11 @@ If you have questions or need any help, come board the [Coding Train Discord](ht
 
 If you choose not to use the form above, you can also submit a Pull Request on GitHub. The first step is to associate your submission with a specific video. Don't worry too much if you aren't sure, just pick wherever you think it fits best! If your work relates to multiple videos just pick one!
 
-First, you will need to [fork the repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository). On the [GitHub repo homepage](https://github.com/CodingTrain/thecodingtrain.com), click the button `Fork` in the upper-right corner. You will be prompted to the `Create a new fork` window, press `Create fork` in the bottom of the page. Now, you will have a fork of the original repo. 
+First, you will need to [fork the repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository). On the [GitHub repo homepage](https://github.com/CodingTrain/thecodingtrain.com), click the button `Fork` in the upper-right corner. You will be prompted to the `Create a new fork` window, press `Create fork` in the bottom of the page. Now, you will have a fork of the original repo.
 
 ![Fork button](./passenger-showcase/fork.png)
 
-Second, create a branch in your fork by clicking a button in the upper left-hand corner where it says `main`. 
+Second, create a branch in your fork by clicking a button in the upper left-hand corner where it says `main`.
 Type in the name of a branch (you can make this up!) and create the branch! In the example below, I'm calling it `dan-showcase-submission`.
 
 ![Branches dropdown](./passenger-showcase/branches.png)
@@ -64,7 +69,9 @@ All showcase submissions should include a thumbnail preview image! While any asp
 
 ## Submitting a Pull Request
 
-[Return to the main branch](https://github.com/CodingTrain/thecodingtrain.com/tree/main), and select "Compare & pull request" (or go to the “Pull requests” tab and create a pull request by selecting "New pull request", then "compare: main" and choosing `your-branch-name` from the dropdown)
+[Return to the main branch](https://github.com/CodingTrain/thecodingtrain.com/tree/main), and select "Compare & pull request" (or go to the “Pull requests” tab and create a pull request by selecting "New pull request", then "compare: main" and choosing `your-branch-name` from the dropdown).
+
+If you would like to opt out of having your work featured on social media, please note in the comments field of your pull request.
 
 ![Uploading thumbnail](./passenger-showcase/pullrequest1.png)
 ![Uploading thumbnail](./passenger-showcase/pullrequest2.png)

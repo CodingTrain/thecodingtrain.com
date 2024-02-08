@@ -294,8 +294,8 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            A link to either the source code (p5.js editor, GitHub) or a video
-            (YouTube, Vimeo).
+            A link to any kind of documentation of your project (blog post,
+            p5.js editor sketch, GitHub repo, video).
           </span>
         </label>
         <label>
@@ -350,8 +350,9 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            <em>Optional</em>. Your email address used for the submission in the
-            Git repository.
+            <em>Optional</em>. Your email address (This is not stored, but
+            rather used to match your GitHub account and assign commits for the
+            submission.)
           </span>
         </label>
         <label>
@@ -363,8 +364,9 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            <em>Optional</em>. We are sharing the showcase on Twitter! Please
-            leave your handle if you'd like to be tagged.
+            <em>Optional</em>. We are not currently featuring the showcase on
+            Twitter/X, but feel free to leave your handle if you’d like to be
+            tagged and credited if and when we do.
           </span>
         </label>
         <label>
@@ -376,8 +378,8 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            <em>Optional</em>. We are sharing the showcase on Instagram! Please
-            leave your handle if you'd like to be tagged.
+            <em>Optional</em>. We are featuring the showcase on Instagram!
+            Please leave your handle if you’d like to be tagged and credited!
           </span>
         </label>
         {error && <div className={css.error}>{error}</div>}
