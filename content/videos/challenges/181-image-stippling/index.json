@@ -6,10 +6,29 @@
   "nebulaSlug": "codingtrain-coding-challenge-181-image-stippling",
   "date": "2024-02-22",
   "languages": ["p5.js", "JavaScript"],
-  "topics": [],
+  "topics": ["daulanay triangulation", "image stippling", "voronoi", "sweep algorithm", "Lloyd's algorithm"],
   "canContribute": true,
-  "relatedChallenges": [],
-  "timestamps": [{ "time": "0:00", "title": "Hello!" }],
+  "relatedChallenges": ["c4-worley-noise", "33-poisson-disc-sampling"],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "0:37", "title": "Delaunay triangulation" },
+    { "time": "2:31", "title": "d3-daulanay" },
+    { "time": "2:49", "title": "Start coding" },
+    { "time": "6:38", "title": "Explain the voronoi diagram" },
+    { "time": "9:17", "title": "Call the voronoi function on the delaunay object" },
+    { "time": "10:25", "title": "Things you could try with the Voronoi diagram" },
+    { "time": "10:56", "title": "Lloyd's alorithm" },
+    { "time": "12:07", "title": "Calculate the centroid of each polygon" },
+    { "time": "13:00", "title": "Convert generator to an array" },
+    { "time": "15:30", "title": "Calculate the area of a polygon" },
+    { "time": "16:45", "title": "Calculate the centroid x and y" },
+    { "time": "18:47", "title": "Stippling" },
+    { "time": "19:45", "title": "Draw dots based on brightness value of pixel in an image" },
+    { "time": "21:50", "title": "Find the weighted centroid" },
+    { "time": "24:51", "title": "Use delaunay.find(i,j) to find the index of the centroid" },
+    { "time": "27:52", "title": "Possible visualizations" },
+    { "time": "28:47", "title": "Outro" }
+  ],
   "codeExamples": [
     {
       "title": "Weighted Voronoi Stippling",
@@ -23,11 +42,49 @@
   "groupLinks": [
     {
       "title": "References",
-      "links": []
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "d3-delaunay",
+          "url": "https://d3js.org/d3-delaunay",
+          "description": "Documentation for d3-delaunay"
+        },
+        {
+          "icon": "🔗",
+          "title": "Weighted Voronoi Stippling",
+          "url": "https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf",
+          "description": "Paper explaining how to generate stipple drawings from grayscale images using weighted centroidal Voronoi diagrams."
+        },
+        {
+          "icon": "🔗",
+          "title": "Lloyd's algorithm",
+          "url": "https://en.wikipedia.org/wiki/Lloyd%27s_algorithm",
+          "description": "Wikipedia page discussing Lloyd's algorthm."
+        },
+        {
+          "icon": "🔗",
+          "title": "Calculating The Area And Centroid Of A Polygon",
+          "url": "https://lexrent.eu/wp-content/uploads/torza/artikel_groep_sub_2_docs/BYZ_3_Polygon-Area-and-Centroid.pdf",
+          "description": "Paper by Paul Bourke that explains how to calculate the area and centroid of a polygon."
+        },
+        {
+          "icon": "🔗",
+          "title": "Stippling",
+          "url": "https://en.wikipedia.org/wiki/Stippling",
+          "description": "Wikipedia page discussing stippling."
+        }
+      ]
     },
     {
       "title": "Videos",
-      "links": []
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Pxiel Array",
+          "url": "/tracks/pixels/more-p5/pixel-array",
+          "description": "his video looks at how to access the pixels of an HTML5 canvas in p5.js."
+        }
+      ]
     }
   ],
   "credits": [
