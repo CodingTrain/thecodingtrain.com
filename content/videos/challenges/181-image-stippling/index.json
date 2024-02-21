@@ -1,0 +1,43 @@
+{
+  "title": "Weighted Voronoi Stippling",
+  "videoNumber": "181",
+  "description": "TBD",
+  "videoId": "TBD",
+  "nebulaSlug": "codingtrain-coding-challenge-181-image-stippling",
+  "date": "2024-02-22",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": [],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [{ "time": "0:00", "title": "Hello!" }],
+  "codeExamples": [
+    {
+      "title": "Weighted Voronoi Stippling",
+      "description": "TBD",
+      "image": "gloria_stipple.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/AoH40T6fV"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": []
+    },
+    {
+      "title": "Videos",
+      "links": []
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
