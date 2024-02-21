@@ -6,7 +6,7 @@
   "nebulaSlug": "codingtrain-coding-challenge-181-image-stippling",
   "date": "2024-02-22",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["daulanay triangulation", "image stippling", "voronoi", "sweep algorithm", "Lloyd's algorithm"],
+  "topics": ["Delaunay triangulation", "image stippling", "voronoi", "sweep algorithm", "Lloyd's algorithm"],
   "canContribute": true,
   "relatedChallenges": ["c4-worley-noise", "33-poisson-disc-sampling"],
   "timestamps": [
