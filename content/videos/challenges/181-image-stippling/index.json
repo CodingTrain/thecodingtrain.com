@@ -12,7 +12,7 @@
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
     { "time": "0:37", "title": "Delaunay triangulation" },
-    { "time": "2:31", "title": "d3-daulanay" },
+    { "time": "2:31", "title": "d3-delaunay" },
     { "time": "2:49", "title": "Start coding" },
     { "time": "6:38", "title": "Explain the voronoi diagram" },
     { "time": "9:17", "title": "Call the voronoi function on the delaunay object" },
