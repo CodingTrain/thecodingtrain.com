@@ -32,10 +32,58 @@
   "codeExamples": [
     {
       "title": "Weighted Voronoi Stippling",
-      "description": "TBD",
+      "description": "Implementation of weighted voronoi stippling.",
       "image": "gloria_stipple.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/AoH40T6fV"
+      }
+    },
+    {
+      "title": "Circumcircle",
+      "description": "Sketch visualizing a circumcircle.",
+      "image": "1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/eJnSI84Tw"
+      }
+    },
+    {
+      "title": "CC 181: Voronoi Bouncing Points",
+      "description": "Implementation of voroni showing points moving.",
+      "image": "2.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/GpeT1W8X1"
+      }
+    },
+    {
+      "title": "CC 181: Voronoi Phyllotaxis",
+      "description": "Implementation of voroni with the phyllotaxis algorithm.",
+      "image": "3.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ydiZeUK8R"
+      }
+    },
+    {
+      "title": "CC 181: Voronoi Area Mapped to Color",
+      "description": "Sketch demonstrating how to map voronoi area to color.",
+      "image": "4.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/opmU_UQqg"
+      }
+    },
+    {
+      "title": "CC 181 Weighted Stippling - Abstract Pattern",
+      "description": "Implementation of weighted stippling on an image generating from noise.",
+      "image": "5.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9ntWWLXqA"
+      }
+    },
+    {
+      "title": "CC 181 Weighted Stippling - video",
+      "description": "Implementation of voroni stippling on video.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/bH_LhAYG3"
       }
     }
   ],
@@ -80,9 +128,9 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "Pxiel Array",
+          "title": "Pixel Array",
           "url": "/tracks/pixels/more-p5/pixel-array",
-          "description": "his video looks at how to access the pixels of an HTML5 canvas in p5.js."
+          "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js."
         }
       ]
     }
