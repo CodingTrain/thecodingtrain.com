@@ -39,10 +39,18 @@
     },
     {
       "title": "Circumcircle",
-      "description": "How to calculate the circumricle for a triangle.",
+      "description": "How to calculate the circumcircle for a triangle.",
       "image": "1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/eJnSI84Tw"
+      }
+    },
+    {
+      "title": "Delaunay Triangulation",
+      "description": "Visualization the delaunay triangulation with d3-delaunay.",
+      "image": "triangulation.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fuQz_-FnA"
       }
     },
     {
@@ -67,6 +75,22 @@
       "image": "4.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/opmU_UQqg"
+      }
+    },
+    {
+      "title": "Lloyd's relaxation",
+      "description": "Implementation of Lloyd's relaxation algorithm.",
+      "image": "lloyd.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/04sgsAcNu"
+      }
+    },
+    {
+      "title": "Weighted Stippling - Size and Color",
+      "description": "Stippling with RGB dots and size tied to brightness.",
+      "image": "size-color.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_HTZUBPld"
       }
     },
     {
@@ -104,21 +128,51 @@
         },
         {
           "icon": "🔗",
+          "title": "Sweep Line Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Sweep_line_algorithm",
+          "description": "Wikipedia page about a sweep line or sweep surface algorithm to solve computational geometry problems in Euclidean space."
+        },
+        {
+          "icon": "🔗",
           "title": "Lloyd's algorithm",
           "url": "https://en.wikipedia.org/wiki/Lloyd%27s_algorithm",
           "description": "Wikipedia page discussing Lloyd's algorthm."
         },
         {
           "icon": "🔗",
-          "title": "Calculating The Area And Centroid Of A Polygon",
-          "url": "https://lexrent.eu/wp-content/uploads/torza/artikel_groep_sub_2_docs/BYZ_3_Polygon-Area-and-Centroid.pdf",
-          "description": "Paper by Paul Bourke that explains how to calculate the area and centroid of a polygon."
+          "title": "Polygons and meshes by Paul Bourke",
+          "url": "https://paulbourke.net/geometry/polygonmesh/",
+          "description": "Notes and algorithms dealing with polygons and meshes, includes Calculating the area and centroid of a polygon (1988)"
+        },
+        {
+          "icon": "🎨",
+          "title": "Pablo Jurado Ruiz",
+          "url": "https://www.instagram.com/pablojuradoruiz/",
+          "description": "Artist Pablo Jurado Ruiz's Instagram."
         },
         {
           "icon": "🔗",
           "title": "Stippling",
           "url": "https://en.wikipedia.org/wiki/Stippling",
-          "description": "Wikipedia page discussing stippling."
+          "description": "Wikipedia page about the stippling art process."
+        },
+        {
+          "icon": "🔗",
+          "title": "Voronoi Diagram",
+          "url": "https://en.wikipedia.org/wiki/Voronoi_diagram",
+          "description": "Wikipedia page about the Voronoi diagram."
+        },
+        {
+          "icon": "🔗",
+          "title": "Delaunay Triangulation",
+          "url": "https://en.wikipedia.org/wiki/Delaunay_triangulation",
+          "description": "Wikipedia page about the Delaunay triangulation."
+        },
+        {
+          "icon": "🔗",
+          "title": "Mike Bostock's Voronoi Stippling",
+          "url": "https://observablehq.com/@mbostock/voronoi-stippling",
+          "description": "Mike Bostock's observable notebook on voronoi stippling with d3.js."
         }
       ]
     },
