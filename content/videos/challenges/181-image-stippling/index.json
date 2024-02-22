@@ -1,7 +1,7 @@
 {
   "title": "Weighted Voronoi Stippling",
   "videoNumber": "181",
-  "description": "Stippling is an artistic technique that uses numerous dots to craft an image. In this coding challenge I attempt to implement a weighted Voronoi stippling algorithm with p5.js along with the Delaunay triangulation package from the d3.js library.",
+  "description": "Stippling is an artistic technique that uses numerous dots to craft an image. In this coding challenge I attempt to implement a weighted Voronoi stippling algorithm with p5.js along with the Delaunay triangulation package from d3.js.",
   "videoId": "Bxdt6T_1qgc",
   "nebulaSlug": "codingtrain-coding-challenge-181-weighted-voronoi-stippling",
   "date": "2024-02-22",
