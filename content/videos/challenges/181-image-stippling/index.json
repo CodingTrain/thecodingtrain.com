@@ -1,7 +1,7 @@
 {
   "title": "Weighted Voronoi Stippling",
   "videoNumber": "181",
-  "description": "TBD",
+  "description": "Stippling refers to the process of creating an image from a collection of many dots. In this coding challenge I attempt to implement a weighted voronoi stippling algorithm with p5.js and the delaunay triangulation d3.js package.",
   "videoId": "Bxdt6T_1qgc",
   "nebulaSlug": "codingtrain-coding-challenge-181-image-stippling",
   "date": "2024-02-22",
@@ -11,23 +11,22 @@
   "relatedChallenges": ["c4-worley-noise", "33-poisson-disc-sampling"],
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
-    { "time": "0:37", "title": "Delaunay triangulation" },
-    { "time": "2:31", "title": "d3-delaunay" },
-    { "time": "2:49", "title": "Start coding" },
-    { "time": "6:38", "title": "Explain the voronoi diagram" },
-    { "time": "9:17", "title": "Call the voronoi function on the delaunay object" },
+    { "time": "0:37", "title": "What is a delaunay triangulation?" },
+    { "time": "2:31", "title": "d3-delaunay package" },
+    { "time": "2:49", "title": "Coding the delaunay triangulation." },
+    { "time": "6:38", "title": "What is a voronoi diagram?" },
+    { "time": "9:17", "title": "voronoi function on the delaunay object" },
     { "time": "10:25", "title": "Things you could try with the Voronoi diagram" },
-    { "time": "10:56", "title": "Lloyd's alorithm" },
-    { "time": "12:07", "title": "Calculate the centroid of each polygon" },
-    { "time": "13:00", "title": "Convert generator to an array" },
+    { "time": "10:56", "title": "Lloyd's \"relaxation\" algorithm" },
+    { "time": "12:07", "title": "Calculate the average of a polygon's vertices" },
     { "time": "15:30", "title": "Calculate the area of a polygon" },
-    { "time": "16:45", "title": "Calculate the centroid x and y" },
-    { "time": "18:47", "title": "Stippling" },
-    { "time": "19:45", "title": "Draw dots based on brightness value of pixel in an image" },
-    { "time": "21:50", "title": "Find the weighted centroid" },
-    { "time": "24:51", "title": "Use delaunay.find(i,j) to find the index of the centroid" },
-    { "time": "27:52", "title": "Possible visualizations" },
-    { "time": "28:47", "title": "Outro" }
+    { "time": "16:45", "title": "Calculate the proper centroid of a polygon" },
+    { "time": "18:47", "title": "What is stippling?" },
+    { "time": "19:45", "title": "Draw dots based on brightness value of pixel" },
+    { "time": "21:50", "title": "Calculate a weighted centroid" },
+    { "time": "24:51", "title": "Using delaunay.find()" },
+    { "time": "27:52", "title": "Ideas for you to try!" },
+    { "time": "28:47", "title": "Goodbye!" }
   ],
   "codeExamples": [
     {
@@ -40,50 +39,50 @@
     },
     {
       "title": "Circumcircle",
-      "description": "Sketch visualizing a circumcircle.",
+      "description": "How to calculate the circumricle for a triangle.",
       "image": "1.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/eJnSI84Tw"
       }
     },
     {
-      "title": "CC 181: Voronoi Bouncing Points",
-      "description": "Implementation of voroni showing points moving.",
+      "title": "Voronoi Diagram",
+      "description": "Calculating and drawing the voronoi diagram (with moving points).",
       "image": "2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/GpeT1W8X1"
       }
     },
     {
-      "title": "CC 181: Voronoi Phyllotaxis",
-      "description": "Implementation of voroni with the phyllotaxis algorithm.",
+      "title": "Voronoi Phyllotaxis",
+      "description": "Voronoini diagram with seed points calculated by phyllotaxis.",
       "image": "3.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ydiZeUK8R"
       }
     },
     {
-      "title": "CC 181: Voronoi Area Mapped to Color",
-      "description": "Sketch demonstrating how to map voronoi area to color.",
+      "title": "Voronoi Diagram colored by area",
+      "description": "Sketch demonstrating how to map area of a polygon to color.",
       "image": "4.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/opmU_UQqg"
       }
     },
     {
-      "title": "CC 181 Weighted Stippling - Abstract Pattern",
-      "description": "Implementation of weighted stippling on an image generating from noise.",
+      "title": "Weighted Stippling - Abstract Pattern",
+      "description": "Implementation of weighted stippling on an image generated from perlin noise.",
       "image": "5.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/9ntWWLXqA"
       }
     },
     {
-      "title": "CC 181 Weighted Stippling - video",
-      "description": "Implementation of voroni stippling on video.",
-      "image": "",
+      "title": "Weighted Stippling - video",
+      "description": "Implementation of applying weighted voronoi stippling algorithm to a moving image.",
+      "image": "6.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/bH_LhAYG3"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/7TKSgi16z"
       }
     }
   ],
