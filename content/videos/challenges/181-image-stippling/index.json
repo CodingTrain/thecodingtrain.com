@@ -1,20 +1,20 @@
 {
   "title": "Weighted Voronoi Stippling",
   "videoNumber": "181",
-  "description": "Stippling is an artistic technique that uses numerous dots to craft an image. In this coding challenge I attempt to implement a weighted Voronoi stippling algorithm with p5.js along with the Delaunay triangulation package from the d3.js.",
+  "description": "Stippling is an artistic technique that uses numerous dots to craft an image. In this coding challenge I attempt to implement a weighted Voronoi stippling algorithm with p5.js along with the Delaunay triangulation package from d3.js.",
   "videoId": "Bxdt6T_1qgc",
   "nebulaSlug": "codingtrain-coding-challenge-181-weighted-voronoi-stippling",
   "date": "2024-02-22",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Delaunay triangulation", "image stippling", "voronoi", "sweep algorithm", "Lloyd's algorithm"],
+  "topics": ["Delaunay triangulation", "image stippling", "Voronoi", "sweep algorithm", "Lloyd's algorithm"],
   "canContribute": true,
   "relatedChallenges": ["c4-worley-noise", "33-poisson-disc-sampling"],
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
-    { "time": "0:37", "title": "What is a delaunay triangulation?" },
+    { "time": "0:37", "title": "What is a Delaunay triangulation?" },
     { "time": "2:31", "title": "d3-delaunay package" },
     { "time": "2:49", "title": "Coding the delaunay triangulation." },
-    { "time": "6:38", "title": "What is a voronoi diagram?" },
+    { "time": "6:38", "title": "What is a Voronoi diagram?" },
     { "time": "9:17", "title": "voronoi function on the delaunay object" },
     { "time": "10:25", "title": "Things you could try with the Voronoi diagram" },
     { "time": "10:56", "title": "Lloyd's \"relaxation\" algorithm" },
@@ -47,7 +47,7 @@
     },
     {
       "title": "Delaunay Triangulation",
-      "description": "Visualization the delaunay triangulation with d3-delaunay.",
+      "description": "Visualization the Delaunay triangulation with d3-delaunay.",
       "image": "triangulation.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/fuQz_-FnA"
@@ -55,7 +55,7 @@
     },
     {
       "title": "Voronoi Diagram",
-      "description": "Calculating and drawing the voronoi diagram (with moving points).",
+      "description": "Calculating and drawing the Voronoi diagram (with moving points).",
       "image": "2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/GpeT1W8X1"
@@ -102,8 +102,8 @@
       }
     },
     {
-      "title": "Weighted Stippling - video",
-      "description": "Implementation of applying weighted voronoi stippling algorithm to a moving image.",
+      "title": "Weighted Stippling - Video",
+      "description": "Implementation of applying weighted Voronoi stippling algorithm to a moving image.",
       "image": "6.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/7TKSgi16z"
@@ -142,7 +142,7 @@
           "icon": "🔗",
           "title": "Polygons and meshes by Paul Bourke",
           "url": "https://paulbourke.net/geometry/polygonmesh/",
-          "description": "Notes and algorithms dealing with polygons and meshes, includes Calculating the area and centroid of a polygon (1988)"
+          "description": "Notes and algorithms dealing with polygons and meshes, includes calculating the area and centroid of a polygon (1988)"
         },
         {
           "icon": "🎨",
@@ -172,7 +172,7 @@
           "icon": "🔗",
           "title": "Mike Bostock's Voronoi Stippling",
           "url": "https://observablehq.com/@mbostock/voronoi-stippling",
-          "description": "Mike Bostock's observable notebook on voronoi stippling with d3.js."
+          "description": "Mike Bostock's observable notebook on Voronoi stippling with d3.js."
         }
       ]
     },
