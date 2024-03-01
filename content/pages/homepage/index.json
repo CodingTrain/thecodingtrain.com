@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "179-wolfram-ca",
-      "110-recamans-sequence",
-      "180-falling-sand",
-      "143-quicksort",
+      "161-estimating-pi-from-random-numbers",
+      "136-polar-noise-loops",
+      "60-butterfly-generator",
+      "171-wave-function-collapse",
       "181-image-stippling",
-      "55-mathematical-rose-patterns"
+      "33-poisson-disc-sampling"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/69-evolutionary-steering-behaviors/showcase/contribution-1707318008.json",
-      "challenges/180-falling-sand/showcase/contribution-1706810742.json",
-      "challenges/179-wolfram-ca/showcase/contribution-1706879678.json",
-      "noc/4-particles/4-particle-textures/showcase/contribution-1707077744.json",
-      "code/5-functions/2-arguments/showcase/contribution-1706850822.json",
-      "challenges/179-wolfram-ca/showcase/contribution-1706381798.json",
-      "challenges/180-falling-sand/showcase/contribution-1706464495.json",
-      "code/2-variables/4-random/showcase/contribution-1706739968.json"
+      "noc/5-autonomous-agents/7-path-following/showcase/contribution-1708678867.json",
+      "challenges/85-the-game-of-life/showcase/contribution-1708266339.json",
+      "challenges/181-image-stippling/showcase/contribution-1708645693.json",
+      "challenges/181-image-stippling/showcase/contribution-1708741408.json",
+      "challenges/1-starfield/showcase/contribution-1707601780.json",
+      "challenges/96-visualizing-digits-of-pi/showcase/contribution-1704069433.json",
+      "challenges/179-wolfram-ca/showcase/contribution-1708445472.json",
+      "challenges/65-binary-tree/showcase/contribution-1707699188.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
