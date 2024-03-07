@@ -362,7 +362,7 @@ const PassengerShowcaseForm = () => {
           <input
             type="radio"
             name="socialPermission"
-            value="true"
+            value={true}
             checked={state.socialPermission === true}
             onChange={onChange}
           />
@@ -373,7 +373,7 @@ const PassengerShowcaseForm = () => {
           <input
             type="radio"
             name="socialPermission"
-            value="false"
+            value={false}
             checked={state.socialPermission === false}
             onChange={onChange}
           />
