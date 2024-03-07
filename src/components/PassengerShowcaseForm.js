@@ -146,6 +146,12 @@ const PassengerShowcaseForm = () => {
       );
       return;
     }
+    if (e.target.name === 'socialPermission') {
+      setState(
+        Object.assign({}, state, { [e.target.name]: e.target.value == 'true' })
+      );
+      return;
+    }
     setState(Object.assign({}, state, { [e.target.name]: e.target.value }));
   };
 
@@ -357,27 +363,29 @@ const PassengerShowcaseForm = () => {
             submission.)
           </span>
         </label>
+        <label>Social media permission</label>
         <label>
-          Social media permission
-          <input
-            type="radio"
-            name="socialPermission"
-            value={true}
-            checked={state.socialPermission === true}
-            onChange={onChange}
-          />
-          <span>
+          <span className={css.radioLabel}>
+            <input
+              type="radio"
+              name="socialPermission"
+              value="true"
+              checked={state.socialPermission}
+              onChange={onChange}
+            />
             The Cafe Car: You have my permission to share this project to other
             Coding Train social media platforms!
           </span>
-          <input
-            type="radio"
-            name="socialPermission"
-            value={false}
-            checked={state.socialPermission === false}
-            onChange={onChange}
-          />
-          <span>
+        </label>
+        <label>
+          <span className={css.radioLabel}>
+            <input
+              type="radio"
+              name="socialPermission"
+              value="false"
+              checked={!state.socialPermission}
+              onChange={onChange}
+            />
             By private carriage: I prefer this project to be featured on the
             Coding Train website only.
           </span>
