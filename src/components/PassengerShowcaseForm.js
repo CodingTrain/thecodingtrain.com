@@ -19,6 +19,7 @@ import * as css from './PassengerShowcaseForm.module.css';
 //   url: "https://thecodingtrain.com/tracks",
 //   track: "challenges",
 //   video: "01-starfield",
+//   socialPermission: true
 // }
 
 const defaultState = {
@@ -46,7 +47,7 @@ const schema = object({
   authorEmail: string().label('Your email'),
   authorTwitter: string().label('Twitter'),
   authorInstagram: string().label('Instagram'),
-  socialPermission: boolean().default(true)
+  socialPermission: boolean().required()
 });
 
 const useVideosWithShowcase = function () {
