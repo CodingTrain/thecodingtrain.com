@@ -1,0 +1,201 @@
+{
+  "title": "Weighted Voronoi Stippling",
+  "videoNumber": "181",
+  "description": "Stippling is an artistic technique that uses numerous dots to craft an image. In this coding challenge I attempt to implement a weighted Voronoi stippling algorithm with p5.js along with the Delaunay triangulation package from d3.js.",
+  "videoId": "Bxdt6T_1qgc",
+  "nebulaSlug": "codingtrain-coding-challenge-181-weighted-voronoi-stippling",
+  "date": "2024-02-22",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Delaunay triangulation", "image stippling", "Voronoi", "sweep algorithm", "Lloyd's algorithm"],
+  "canContribute": true,
+  "relatedChallenges": ["c4-worley-noise", "33-poisson-disc-sampling"],
+  "timestamps": [
+    { "time": "0:00", "title": "Hello!" },
+    { "time": "0:37", "title": "What is a Delaunay triangulation?" },
+    { "time": "2:31", "title": "d3-delaunay package" },
+    { "time": "2:49", "title": "Coding the delaunay triangulation." },
+    { "time": "6:38", "title": "What is a Voronoi diagram?" },
+    { "time": "9:17", "title": "voronoi function on the delaunay object" },
+    { "time": "10:25", "title": "Things you could try with the Voronoi diagram" },
+    { "time": "10:56", "title": "Lloyd's \"relaxation\" algorithm" },
+    { "time": "12:07", "title": "Calculate the average of a polygon's vertices" },
+    { "time": "15:30", "title": "Calculate the area of a polygon" },
+    { "time": "16:45", "title": "Calculate the proper centroid of a polygon" },
+    { "time": "18:47", "title": "What is stippling?" },
+    { "time": "19:45", "title": "Draw dots based on brightness value of pixel" },
+    { "time": "21:50", "title": "Calculate a weighted centroid" },
+    { "time": "24:51", "title": "Using delaunay.find()" },
+    { "time": "27:52", "title": "Ideas for you to try!" },
+    { "time": "28:47", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Weighted Voronoi Stippling",
+      "description": "Implementation of weighted voronoi stippling.",
+      "image": "gloria_stipple.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Z_YV25_4G"
+      }
+    },
+    {
+      "title": "Circumcircle",
+      "description": "How to calculate the circumcircle for a triangle.",
+      "image": "1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/eJnSI84Tw"
+      }
+    },
+    {
+      "title": "Delaunay Triangulation",
+      "description": "Visualization the Delaunay triangulation with d3-delaunay.",
+      "image": "triangulation.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fuQz_-FnA"
+      }
+    },
+    {
+      "title": "Voronoi Diagram",
+      "description": "Calculating and drawing the Voronoi diagram (with moving points).",
+      "image": "2.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/GpeT1W8X1"
+      }
+    },
+    {
+      "title": "Voronoi Phyllotaxis",
+      "description": "Voronoini diagram with seed points calculated by phyllotaxis.",
+      "image": "3.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ydiZeUK8R"
+      }
+    },
+    {
+      "title": "Voronoi Diagram colored by area",
+      "description": "Sketch demonstrating how to map area of a polygon to color.",
+      "image": "4.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/opmU_UQqg"
+      }
+    },
+    {
+      "title": "Lloyd's relaxation",
+      "description": "Implementation of Lloyd's relaxation algorithm.",
+      "image": "lloyd.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/04sgsAcNu"
+      }
+    },
+    {
+      "title": "Weighted Stippling - Size and Color",
+      "description": "Stippling with RGB dots and size tied to brightness.",
+      "image": "size-color.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_HTZUBPld"
+      }
+    },
+    {
+      "title": "Weighted Stippling - Abstract Pattern",
+      "description": "Implementation of weighted stippling on an image generated from perlin noise.",
+      "image": "5.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9ntWWLXqA"
+      }
+    },
+    {
+      "title": "Weighted Stippling - Video",
+      "description": "Implementation of applying weighted Voronoi stippling algorithm to a moving image.",
+      "image": "6.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/7TKSgi16z"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "d3-delaunay",
+          "url": "https://d3js.org/d3-delaunay",
+          "description": "Documentation for d3-delaunay"
+        },
+        {
+          "icon": "🔗",
+          "title": "Weighted Voronoi Stippling",
+          "url": "https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf",
+          "description": "Paper explaining how to generate stipple drawings from grayscale images using weighted centroidal Voronoi diagrams."
+        },
+        {
+          "icon": "🔗",
+          "title": "Sweep Line Algorithm",
+          "url": "https://en.wikipedia.org/wiki/Sweep_line_algorithm",
+          "description": "Wikipedia page about a sweep line or sweep surface algorithm to solve computational geometry problems in Euclidean space."
+        },
+        {
+          "icon": "🔗",
+          "title": "Lloyd's algorithm",
+          "url": "https://en.wikipedia.org/wiki/Lloyd%27s_algorithm",
+          "description": "Wikipedia page discussing Lloyd's algorthm."
+        },
+        {
+          "icon": "🔗",
+          "title": "Polygons and meshes by Paul Bourke",
+          "url": "https://paulbourke.net/geometry/polygonmesh/",
+          "description": "Notes and algorithms dealing with polygons and meshes, includes calculating the area and centroid of a polygon (1988)"
+        },
+        {
+          "icon": "🎨",
+          "title": "Pablo Jurado Ruiz",
+          "url": "https://www.instagram.com/pablojuradoruiz/",
+          "description": "Artist Pablo Jurado Ruiz's Instagram."
+        },
+        {
+          "icon": "🔗",
+          "title": "Stippling",
+          "url": "https://en.wikipedia.org/wiki/Stippling",
+          "description": "Wikipedia page about the stippling art process."
+        },
+        {
+          "icon": "🔗",
+          "title": "Voronoi Diagram",
+          "url": "https://en.wikipedia.org/wiki/Voronoi_diagram",
+          "description": "Wikipedia page about the Voronoi diagram."
+        },
+        {
+          "icon": "🔗",
+          "title": "Delaunay Triangulation",
+          "url": "https://en.wikipedia.org/wiki/Delaunay_triangulation",
+          "description": "Wikipedia page about the Delaunay triangulation."
+        },
+        {
+          "icon": "🔗",
+          "title": "Mike Bostock's Voronoi Stippling",
+          "url": "https://observablehq.com/@mbostock/voronoi-stippling",
+          "description": "Mike Bostock's observable notebook on Voronoi stippling with d3.js."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Pixel Array",
+          "url": "/tracks/pixels/more-p5/pixel-array",
+          "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "179-wolfram-ca",
-      "129-koch-fractal-snowflake",
-      "180-falling-sand",
-      "57-mapping-earthquake-data",
-      "30-phyllotaxis",
-      "167-prime-spiral"
+      "161-estimating-pi-from-random-numbers",
+      "136-polar-noise-loops",
+      "60-butterfly-generator",
+      "171-wave-function-collapse",
+      "181-image-stippling",
+      "33-poisson-disc-sampling"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/180-falling-sand/showcase/contribution-1705970332.json",
-      "challenges/180-falling-sand/showcase/contribution-1706083856.json",
-      "challenges/180-falling-sand/showcase/contribution-1706253551705.json",
-      "challenges/2-menger-sponge/showcase/contribution-1705675065.json",
-      "challenges/179-wolfram-ca/showcase/contribution-1705618081.json",
-      "challenges/168-the-mandelbulb/showcase/contribution-1705865118.json",
-      "noc/4-particles/2-particle-emitters/showcase/contribution-1705947346.json",
-      "challenges/93-double-pendulum/showcase/contribution-1706098095.json"
+      "noc/5-autonomous-agents/7-path-following/showcase/contribution-1708678867.json",
+      "challenges/85-the-game-of-life/showcase/contribution-1708266339.json",
+      "challenges/181-image-stippling/showcase/contribution-1708645693.json",
+      "challenges/181-image-stippling/showcase/contribution-1708741408.json",
+      "challenges/1-starfield/showcase/contribution-1707601780.json",
+      "challenges/96-visualizing-digits-of-pi/showcase/contribution-1704069433.json",
+      "challenges/179-wolfram-ca/showcase/contribution-1708445472.json",
+      "challenges/65-binary-tree/showcase/contribution-1707699188.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
