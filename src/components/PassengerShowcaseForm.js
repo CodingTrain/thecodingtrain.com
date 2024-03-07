@@ -1,6 +1,6 @@
 import React, { useState, useRef, useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { object, string } from 'yup';
+import { object, string, boolean } from 'yup';
 import { useLocation } from '@reach/router';
 
 import Button from './Button';
@@ -31,7 +31,8 @@ const defaultState = {
   authorUrl: '',
   authorEmail: '',
   authorTwitter: '',
-  authorInstagram: ''
+  authorInstagram: '',
+  socialPermission: true
 };
 
 const schema = object({
@@ -44,7 +45,8 @@ const schema = object({
   authorUrl: string().label('Your website').url(),
   authorEmail: string().label('Your email'),
   authorTwitter: string().label('Twitter'),
-  authorInstagram: string().label('Instagram')
+  authorInstagram: string().label('Instagram'),
+  socialPermission: boolean().default(true)
 });
 
 const useVideosWithShowcase = function () {
@@ -353,6 +355,31 @@ const PassengerShowcaseForm = () => {
             <em>Optional</em>. Your email address (This is not stored, but
             rather used to match your GitHub account and assign commits for the
             submission.)
+          </span>
+        </label>
+        <label>
+          Social media permission
+          <input
+            type="radio"
+            name="socialPermission"
+            value="true"
+            checked={state.socialPermission === true}
+            onChange={onChange}
+          />
+          <span>
+            The Cafe Car: You have my permission to share this project to other
+            Coding Train social media platforms!
+          </span>
+          <input
+            type="radio"
+            name="socialPermission"
+            value="false"
+            checked={state.socialPermission === false}
+            onChange={onChange}
+          />
+          <span>
+            By private carriage: I prefer this project to be featured on the
+            Coding Train website only.
           </span>
         </label>
         <label>
