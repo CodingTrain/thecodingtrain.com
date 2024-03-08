@@ -14,7 +14,8 @@ const crypto = require('crypto');
 //   authorInstagram: "@the.coding.train"
 //   url: "https://thecodingtrain.com/tracks",
 //   videoDir: "challenges/01-test",
-//   imageExtension: "png|jpg"
+//   imageExtension: "png|jpg",
+//   socialPermission: true
 // }
 // X-Signature: sha256=...
 
@@ -75,6 +76,10 @@ exports.handler = async function (event) {
 
   if (postInfo.authorInstagram) {
     json.author.instagram = postInfo.authorInstagram;
+  }
+
+  if ('socialPermission' in postInfo) {
+    json.socialPermission = postInfo.socialPermission;
   }
 
   const jsonString = JSON.stringify(json, null, 2) + '\n';

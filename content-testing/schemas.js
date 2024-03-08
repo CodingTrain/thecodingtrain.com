@@ -124,8 +124,7 @@ const baseVideosSchema = strictObject({
       name: string().required(),
       url: string().url()
     }).required()
-  )
-    .required()
+  ).required()
 });
 
 const videosSchema = baseVideosSchema.concat(
@@ -149,6 +148,7 @@ const showcasesSchema = strictObject({
   title: string().required(),
   url: string().url().required(),
   submittedOn: dateRangeValidator.required(),
+  socialPermission: boolean().default(true),
   author: strictObject({
     name: string().required(),
     url: string().url(),

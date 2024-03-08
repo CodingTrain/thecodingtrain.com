@@ -15,6 +15,14 @@
     max-width: 500px;
     font-size: var(--maru-small);
     line-height: 17px;
+
+    &.radio-label {
+      /* display: inline; */
+      margin-right: var(--spacing-small);
+      color: var(--black);
+      font-size: var(--maru-medium);
+      max-width: 500px;
+    }
   }
 }
 
@@ -28,6 +36,12 @@
   min-width: 500px;
   border: 1px solid black;
   padding: var(--spacing-small);
+}
+
+.form input[type="radio"] {
+  display: inline;
+  margin-right: var(--spacing-small);
+  -webkit-appearance: radio;
 }
 
 .error,

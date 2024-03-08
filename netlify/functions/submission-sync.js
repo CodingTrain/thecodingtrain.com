@@ -14,6 +14,7 @@ const crypto = require('crypto');
 //   url: "https://thecodingtrain.com/tracks",
 //   track: "challenges",
 //   video: "01-starfield",
+//   socialPermission: true
 // }
 
 async function validateImage(imageBase64) {
@@ -89,6 +90,7 @@ exports.handler = async function (event, context) {
     authorTwitter: postInfo.authorTwitter,
     authorInstagram: postInfo.authorInstagram,
     url: postInfo.url,
+    socialPermission: postInfo.socialPermission,
     videoDir:
       postInfo.track === 'challenges'
         ? `challenges/${postInfo.video}`

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { object, string } from 'yup';
+import { object, string, boolean } from 'yup';
 import { useLocation } from '@reach/router';
 
 import Button from './Button';
@@ -19,6 +19,7 @@ import * as css from './PassengerShowcaseForm.module.css';
 //   url: "https://thecodingtrain.com/tracks",
 //   track: "challenges",
 //   video: "01-starfield",
+//   socialPermission: true
 // }
 
 const defaultState = {
@@ -31,7 +32,8 @@ const defaultState = {
   authorUrl: '',
   authorEmail: '',
   authorTwitter: '',
-  authorInstagram: ''
+  authorInstagram: '',
+  socialPermission: true
 };
 
 const schema = object({
@@ -44,7 +46,8 @@ const schema = object({
   authorUrl: string().label('Your website').url(),
   authorEmail: string().label('Your email'),
   authorTwitter: string().label('Twitter'),
-  authorInstagram: string().label('Instagram')
+  authorInstagram: string().label('Instagram'),
+  socialPermission: boolean().required()
 });
 
 const useVideosWithShowcase = function () {
@@ -141,6 +144,12 @@ const PassengerShowcaseForm = () => {
           track: e.target.value,
           video: ''
         })
+      );
+      return;
+    }
+    if (e.target.name === 'socialPermission') {
+      setState(
+        Object.assign({}, state, { [e.target.name]: e.target.value == 'true' })
       );
       return;
     }
@@ -294,8 +303,8 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            A link to either the source code (p5.js editor, GitHub) or a video
-            (YouTube, Vimeo).
+            A link to any kind of documentation of your project (blog post,
+            p5.js editor sketch, GitHub repo, video).
           </span>
         </label>
         <label>
@@ -350,8 +359,36 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            <em>Optional</em>. Your email address used for the submission in the
-            Git repository.
+            <em>Optional</em>. Your email address (This is not stored, but
+            rather used to match your GitHub account and assign commits for the
+            submission.)
+          </span>
+        </label>
+        <label>Social media permission</label>
+        <label>
+          <span className={css.radioLabel}>
+            <input
+              type="radio"
+              name="socialPermission"
+              value="true"
+              checked={state.socialPermission}
+              onChange={onChange}
+            />
+            The Cafe Car: You have my permission to share this project to other
+            Coding Train social media platforms!
+          </span>
+        </label>
+        <label>
+          <span className={css.radioLabel}>
+            <input
+              type="radio"
+              name="socialPermission"
+              value="false"
+              checked={!state.socialPermission}
+              onChange={onChange}
+            />
+            By private carriage: I prefer this project to be featured on the
+            Coding Train website only.
           </span>
         </label>
         <label>
@@ -363,8 +400,9 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            <em>Optional</em>. We are sharing the showcase on Twitter! Please
-            leave your handle if you'd like to be tagged.
+            <em>Optional</em>. We are not currently featuring the showcase on
+            Twitter/X, but feel free to leave your handle if you’d like to be
+            tagged and credited if and when we do.
           </span>
         </label>
         <label>
@@ -376,8 +414,8 @@ const PassengerShowcaseForm = () => {
             onChange={onChange}
           />
           <span>
-            <em>Optional</em>. We are sharing the showcase on Instagram! Please
-            leave your handle if you'd like to be tagged.
+            <em>Optional</em>. We are featuring the showcase on Instagram!
+            Please leave your handle if you’d like to be tagged and credited!
           </span>
         </label>
         {error && <div className={css.error}>{error}</div>}
