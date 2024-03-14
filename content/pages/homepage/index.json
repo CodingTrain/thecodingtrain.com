@@ -31,7 +31,7 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "161-estimating-pi-from-random-numbers",
+      "182-apollonian-gasket",
       "136-polar-noise-loops",
       "60-butterfly-generator",
       "171-wave-function-collapse",
