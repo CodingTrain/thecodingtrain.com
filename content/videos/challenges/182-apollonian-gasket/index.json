@@ -1,0 +1,43 @@
+{
+  "title": "Apollonian Gaskey",
+  "videoNumber": "182",
+  "description": "",
+  "videoId": "",
+  "nebulaSlug": "",
+  "date": "2024-03-14",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": [],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "Apollonian Gaskey",
+      "description": "Implementation of traditional apollonian gasket fractal.",
+      "image": "gasket1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/zrq8KHXnO"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": []
+    },
+    {
+      "title": "Videos",
+      "links": []
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
