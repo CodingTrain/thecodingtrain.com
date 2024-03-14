@@ -6,9 +6,12 @@
   "nebulaSlug": "",
   "date": "2024-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Apollonian Gasket", "PI", "circle packing", "complex numbers", "curvature", "Descartes Theorem"],
+  "topics": ["Apollonian Gasket", "Pi", "circle packing", "complex numbers", "curvature", "Descartes Theorem"],
   "canContribute": true,
   "relatedChallenges": [
+    "21-mandelbrot-set-with-p5js",
+    "22-julia-set",
+    "77-recursion",
     "50-animated-circle-packing",
     "95-approximating-the-value-of-pi",
     "96-visualizing-digits-of-pi",
@@ -77,10 +80,6 @@
           "description": "Wikipedia page describing the Problem of Apollonius."
         }
       ]
-    },
-    {
-      "title": "Videos",
-      "links": []
     }
   ],
   "credits": [
