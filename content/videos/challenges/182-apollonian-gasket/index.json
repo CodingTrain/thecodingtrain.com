@@ -37,6 +37,14 @@
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/zrq8KHXnO"
       }
+    },
+    {
+      "title": "Colorful Recursive Gaskets in Gaskets",
+      "description": "Adding color and recursive drawing gaskets inside gaskets.",
+      "image": "gasket2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/leBpmVwaM"
+      }
     }
   ],
   "groupLinks": [
