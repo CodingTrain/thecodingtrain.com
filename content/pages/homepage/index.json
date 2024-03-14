@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "161-estimating-pi-from-random-numbers",
-      "136-polar-noise-loops",
-      "60-butterfly-generator",
-      "171-wave-function-collapse",
+      "42-markov-chain-name-generator",
+      "139-calculating-digits-of-pi-with-collisions",
+      "14-fractal-trees-recursive",
+      "124-flocking-simulation",
       "181-image-stippling",
-      "33-poisson-disc-sampling"
+      "c3-hilbert-curve"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -48,8 +48,8 @@
     "title": "Passenger showcase highlights",
     "featured": [
       "challenges/181-image-stippling/showcase/contribution-1709767594.json",
-      "",
-      "",
+      "code/5-functions/1-basics/showcase/contribution-1709532529.json",
+      "challenges/12-lorenz-attractor/showcase/contribution6.json",
       "",
       "",
       "",
