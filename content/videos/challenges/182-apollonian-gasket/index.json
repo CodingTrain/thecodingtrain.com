@@ -1,14 +1,17 @@
 {
-  "title": "Apollonian Gaskey",
+  "title": "Apollonian Gasket",
   "videoNumber": "182",
   "description": "",
   "videoId": "",
   "nebulaSlug": "",
   "date": "2024-03-14",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["Apollonian Gasket", "PI", "circle packing", "complex numbers", "curvature", "Descartes Theorem"],
+  "topics": ["Apollonian Gasket", "Pi", "circle packing", "complex numbers", "curvature", "Descartes Theorem"],
   "canContribute": true,
   "relatedChallenges": [
+    "21-mandelbrot-set-with-p5js",
+    "22-julia-set",
+    "77-recursion",
     "50-animated-circle-packing",
     "95-approximating-the-value-of-pi",
     "96-visualizing-digits-of-pi",
@@ -48,6 +51,14 @@
       "image": "gasket1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/zrq8KHXnO"
+      }
+    },
+    {
+      "title": "Colorful Recursive Gaskets in Gaskets",
+      "description": "Adding color and recursive drawing gaskets inside gaskets.",
+      "image": "gasket2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/leBpmVwaM"
       }
     }
   ],
@@ -122,10 +133,6 @@
           "description": "Javascript library implementing math operations for complex numbers."
         }
       ]
-    },
-    {
-      "title": "Videos",
-      "links": []
     }
   ],
   "credits": [
