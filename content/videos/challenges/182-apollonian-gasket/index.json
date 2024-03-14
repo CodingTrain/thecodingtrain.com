@@ -1,8 +1,8 @@
 {
   "title": "Apollonian Gasket",
   "videoNumber": "182",
-  "description": "",
-  "videoId": "",
+  "description": "Happy Pi Day 2024! In this video, I attempt to create an Apollonian Gasket using the Descartes Circle Theorem and complex numbers. So many circles!",
+  "videoId": "6UlGLB_jiCs",
   "nebulaSlug": "",
   "date": "2024-03-14",
   "languages": ["p5.js", "JavaScript"],
