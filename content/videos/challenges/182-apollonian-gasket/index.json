@@ -1,0 +1,148 @@
+{
+  "title": "Apollonian Gasket",
+  "videoNumber": "182",
+  "description": "Happy Pi Day 2024! In this video, I attempt to create an Apollonian Gasket using the Descartes Circle Theorem and complex numbers. So many circles!",
+  "videoId": "6UlGLB_jiCs",
+  "nebulaSlug": "codingtrain-coding-challenge-182-apollonian-gasket",
+  "date": "2024-03-14",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Apollonian Gasket", "Pi", "circle packing", "complex numbers", "curvature", "Descartes Theorem"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "21-mandelbrot-set-with-p5js",
+    "22-julia-set",
+    "77-recursion",
+    "50-animated-circle-packing",
+    "95-approximating-the-value-of-pi",
+    "96-visualizing-digits-of-pi",
+    "97-book-of-pi",
+    "139-calculating-digits-of-pi-with-collisions",
+    "140-pi-leibniz",
+    "141-mandelbrot-pi",
+    "169-pi-in-the-sky",
+    "176-buffon-needle"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Happy PI Day!!" },
+    { "time": "1:40", "title": "References" },
+    { "time": "3:22", "title": "Describe the Apollonian problem" },
+    { "time": "5:51", "title": "Curvature" },
+    { "time": "10:08", "title": "Start coding!" },
+    { "time": "11:53", "title": "Write a function to find the fourth curvature" },
+    { "time": "15:31", "title": "Complex numbers" },
+    { "time": "21:11", "title": "Create a complex number class" },
+    { "time": "22:52", "title": "Square root of -1" },
+    { "time": "25:32", "title": "Square root of a complex number" },
+    { "time": "27:57", "title": "Implement complex Descartes theorem" },
+    { "time": "33:50", "title": "Make the circles in the complexDescartes function" },
+    { "time": "36:26", "title": "Use an array to add recursion" },
+    { "time": "41:04", "title": "Validate the circles" },
+    { "time": "42:35", "title": "Check if all 4 circles are tangent" },
+    { "time": "48:04", "title": "Stop adding circles when radius falls below a threshold" },
+    { "time": "49:20", "title": "Implement arbirtary arrangement of circles" },
+    { "time": "53:14", "title": "Debug" },
+    { "time": "55:32", "title": "Possible variations" },
+    { "time": "56:34", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Apollonian Gasket",
+      "description": "Implementation of traditional apollonian gasket fractal.",
+      "image": "gasket1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/zrq8KHXnO"
+      }
+    },
+    {
+      "title": "Colorful Recursive Gaskets in Gaskets",
+      "description": "Adding color and recursively drawing gaskets inside gaskets.",
+      "image": "gasket2.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/leBpmVwaM"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Apollonian Gasket",
+          "url": "https://en.wikipedia.org/wiki/Apollonian_gasket",
+          "description": "Wikipedia page about the Apollonian Gasket."
+        },
+        {
+          "icon": "🔗",
+          "title": "A Tisket, a Tasket, an Apollonian Gasket",
+          "url": "https://www.americanscientist.org/article/a-tisket-a-tasket-an-apollonian-gasket",
+          "description": "Article by Dana Mackenzie about the Apollonian gasket "
+        },
+        {
+          "icon": "🔗",
+          "title": "Apollonian Gaskets",
+          "url": "https://mathlesstraveled.com/2016/04/27/apollonian-gaskets/",
+          "description": "Blog post about Apollonian Gaskets."
+        },
+        {
+          "icon": "🔗",
+          "title": "Beyond the Descartes Circle Theorem",
+          "url": "https://arxiv.org/pdf/math/0101066.pdf",
+          "description": "Paper about the Descartes circle theorem by Jeffrey C. Lagarias, Colin L. Mallows, and Allan R. Wilks."
+        },
+        {
+          "icon": "🔗",
+          "title": "The Kiss Precise",
+          "url": "https://www.nature.com/articles/1371021a0#preview",
+          "description": "Poem by Frederick Soddy about the Apollonian Gasket"
+        },
+        {
+          "icon": "🔗",
+          "title": "Frederick Soddy",
+          "url": "https://en.wikipedia.org/wiki/Frederick_Soddy",
+          "description": "Wikipedia page about Frederick Soddy."
+        },
+        {
+          "icon": "🔗",
+          "title": "Problem of Apollonius",
+          "url": "https://en.wikipedia.org/wiki/Problem_of_Apollonius",
+          "description": "Wikipedia page describing the Problem of Apollonius."
+        },
+        {
+          "icon": "🔗",
+          "title": "Four Proofs of a Generalization of the Descartes Circle Theorem",
+          "url": "https://www.jstor.org/stable/2316373",
+          "description": "Proof of Descartes Circle Theorem"
+        },
+        {
+          "icon": "🔗",
+          "title": "Beyond the Descartes Circle Theorem",
+          "url": "https://arxiv.org/pdf/math/0101066.pdf",
+          "description": "Paper by Jeffrey C. Lagarias, Colin L. Mallows, and Allan R. Wilks about the complex Descartes Theorem."
+        },
+        {
+          "icon": "🔗",
+          "title": "Descartes' theorem",
+          "url": "https://en.wikipedia.org/wiki/Descartes%27_theorem",
+          "description": "Wikipedia page about the Descartes theorem."
+        },
+        {
+          "icon": "🔗",
+          "title": "Complex.js",
+          "url": "https://www.npmjs.com/package/complex.js",
+          "description": "Javascript library implementing math operations for complex numbers."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
