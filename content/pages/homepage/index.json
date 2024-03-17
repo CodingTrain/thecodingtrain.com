@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "182-apollonian-gasket",
-      "136-polar-noise-loops",
-      "60-butterfly-generator",
-      "171-wave-function-collapse",
-      "181-image-stippling",
-      "33-poisson-disc-sampling"
+      "42-markov-chain-name-generator",
+      "139-calculating-digits-of-pi-with-collisions",
+      "14-fractal-trees-recursive",
+      "124-flocking-simulation",
+      "c3-hilbert-curve"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "noc/5-autonomous-agents/7-path-following/showcase/contribution-1708678867.json",
-      "challenges/85-the-game-of-life/showcase/contribution-1708266339.json",
-      "challenges/181-image-stippling/showcase/contribution-1708645693.json",
-      "challenges/181-image-stippling/showcase/contribution-1708741408.json",
-      "challenges/1-starfield/showcase/contribution-1707601780.json",
-      "challenges/96-visualizing-digits-of-pi/showcase/contribution-1704069433.json",
-      "challenges/179-wolfram-ca/showcase/contribution-1708445472.json",
-      "challenges/65-binary-tree/showcase/contribution-1707699188.json"
+      "challenges/181-image-stippling/showcase/contribution-1709767594.json",
+      "code/5-functions/1-basics/showcase/contribution-1709532529.json",
+      "challenges/12-lorenz-attractor/showcase/contribution6.json",
+      "webgl/2-3d-geometries/showcase/contribution-1710194815.json",
+      "challenges/c1-maurer-rose/showcase/contribution-1710195131.json",
+      "challenges/182-apollonian-gasket/showcase/contribution-1710583324.json",
+      "challenges/182-apollonian-gasket/showcase/contribution-1710588878.json",
+      "challenges/130-drawing-with-fourier-transform-and-epicycles/showcase/contribution-1710564498.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
