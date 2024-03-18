@@ -4,7 +4,7 @@
   "videoId": "AvQcTjB3gPg",
   "nebulaSlug": "codingtrain-how-to-make-a-discord-bot-in-javascript",
   "date": "2023-11-11",
-  "canContribute": false,
+  "canContribute": true,
   "languages": ["JavaScript", "Node.js", "discord.js"],
   "topics": ["discord bots"],
   "timestamps": [
