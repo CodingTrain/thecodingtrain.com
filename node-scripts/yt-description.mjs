@@ -476,14 +476,23 @@ function writeDescription(video) {
       description += `\n${group.title}:\n`;
       for (const link of group.links) {
         link.icon = link.icon || (group.title === 'Videos' ? '🎥' : '🔗');
-        const url = link.url;
-        if (/https?:\/\/.*/.test(url)) {
+        let url;
+        if (/https?:\/\/.*/.test(link.url)) {
           // Starts with http:// or https://
-          description += `${link.icon} ${link.title}: ${url}\n`;
+          url = link.url;
         } else {
           // assume relative link in thecodingtrain.com
           // try to get YT link instead of website link
-          description += `${link.icon} ${link.title}: ${resolveCTLink(url)}\n`;
+          url = resolveCTLink(link.url);
+        }
+        // if it's a youtube link, don't add the title (#1280)
+        if (
+          new URL(url).hostname.includes('youtube') ||
+          new URL(url).hostname.includes('youtu.be')
+        ) {
+          description += `${link.icon} ${url}\n`;
+        } else {
+          description += `${link.icon} ${link.title} ${url}\n`;
         }
       }
     }
@@ -499,8 +508,7 @@ function writeDescription(video) {
       if (challengeData) {
         const { videoNumber, challengeTitle } = challengeData.data;
         const url = challengeData.canonicalURL;
-        description +=
-          `🚂 ${videoNumber} ${challengeTitle}: ${resolveCTLink(url)}` + '\n';
+        description += `🚂 CC${videoNumber} ${resolveCTLink(url)}` + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }
