@@ -383,11 +383,14 @@ function writeDescription(video) {
   }
 
   // Other Code Examples
-  const otherCodeExamples = data.codeExamples?.filter(
-    (ex) => !ex.urls.p5 && !ex.urls.github
-  );
   const getURL = (urls) =>
     urls.p5 || urls.processing || urls.node || urls.other;
+  const otherCodeExamples = data.codeExamples?.filter(
+    (ex) =>
+      !ex.urls.p5 &&
+      getURL(ex.urls) !== repoLink &&
+      !sketchUrls.includes(getURL(ex.urls))
+  );
   if (otherCodeExamples && otherCodeExamples.length > 0) {
     if (otherCodeExamples.length > 1) {
       if (sketchUrls?.length > 0 || repoLink) description += '\n';

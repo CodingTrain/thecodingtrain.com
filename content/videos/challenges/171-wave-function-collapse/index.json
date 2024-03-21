@@ -47,7 +47,7 @@
       "description": "GitHub repo for expanded and corrected WFC PCB board example.",
       "image": "wfc.jpg",
       "urls": {
-        "github": "https://github.com/CodingTrain/Wave-Function-Collapse"
+        "other": "https://github.com/CodingTrain/Wave-Function-Collapse"
       }
     }
   ],
