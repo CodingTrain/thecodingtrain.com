@@ -413,7 +413,7 @@ function writeDescription(video) {
     if (otherParts.length > 0) {
       description += '\nOther Parts of this Challenge:';
       for (const part of otherParts) {
-        description += `\n📺 ${part.data.partTitle}: https://youtu.be/${part.data.videoId}`;
+        description += `\n📺 https://youtu.be/${part.data.videoId}`;
       }
       description += '\n';
     }
@@ -506,9 +506,8 @@ function writeDescription(video) {
         vid.urls.includes(`challenges/${challenge}`)
       );
       if (challengeData) {
-        const { videoNumber, challengeTitle } = challengeData.data;
         const url = challengeData.canonicalURL;
-        description += `🚂 CC${videoNumber} ${resolveCTLink(url)}` + '\n';
+        description += `🚂 ${resolveCTLink(url)}` + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }
@@ -558,8 +557,8 @@ Music from Epidemic Sound`;
 🖋️ Twitter: https://twitter.com/thecodingtrain
 📸 Instagram: https://www.instagram.com/the.coding.train/
 
-🎥 Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
-🎥 Intro to Programming: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
+🎥 https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
+🎥 https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
 
 🔗 p5.js: https://p5js.org
 🔗 p5.js Web Editor: https://editor.p5js.org/
