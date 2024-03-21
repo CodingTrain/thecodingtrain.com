@@ -492,7 +492,7 @@ function writeDescription(video) {
         ) {
           description += `${link.icon} ${url}\n`;
         } else {
-          description += `${link.icon} ${link.title} ${url}\n`;
+          description += `${link.icon} ${link.title}: ${url}\n`;
         }
       }
     }
