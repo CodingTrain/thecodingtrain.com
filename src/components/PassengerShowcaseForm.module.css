@@ -65,3 +65,14 @@
 .submitBtn:hover {
   cursor: pointer;
 }
+
+@media (--xsmall) {
+
+  .form input[type="text"],
+  .form input[type="file"],
+  .form input[type="email"],
+  .form select {
+    min-width: 250px;
+    max-width: 350px;
+  }
+}
