@@ -1,0 +1,73 @@
+{
+  "title": "Creative Coding AI Agent",
+  "description": "In this live episode of the Coding Train, I start workin on a VSC extension for a creative coding AI agent.",
+  "videoId": "https://www.youtube.com/watch?v=-_ivRdVjjzA",
+  "date": "2024-03-24",
+  "languages": ["Javascript"],
+  "topics": ["AI agent", "VSC extension", "node"],
+  "canContribute": true,
+  "relatedChallenges": ["179-wolfram-ca", "182-apollonian-gasket"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Count down starts" },
+    { "time": "0:06:50", "title": "Welcome to the livestream!" },
+    { "time": "0:18:12", "title": "Agenda" },
+    { "time": "0:19:42", "title": "ShiffBot" },
+    { "time": "0:23:01", "title": "NOC" },
+    { "time": "0:28:32", "title": "Instgram" },
+    { "time": "0:37:54", "title": "Nebula" },
+    { "time": "0:39:47", "title": "Discord updates" },
+    { "time": "0:48:51", "title": "Start working on VSC extension" },
+    { "time": "2:00:37", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Bizarro-Devin Github Repository",
+      "description": "My repository with the code for the p5-Gemini bot demo",
+      "urls": { "other": "https://github.com/CodingTrain/Bizarro-Devin" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "ShiffBot",
+          "url": "https://shiffbot.withgoogle.com",
+          "description": "Google website where you can learn about Shiffbot."
+        },
+        {
+          "icon": "🔗",
+          "title": "Hello World Minimal Sample",
+          "url": "https://github.com/microsoft/vscode-extension-samples/tree/main/helloworld-minimal-sample",
+          "description": "This is a minimal version of the VSC Hello World Sample."
+        },
+        {
+          "icon": "🔗",
+          "title": "Your First Extension",
+          "url": "https://code.visualstudio.com/api/get-started/your-first-extension",
+          "description": "Tutorial about the fundamental concepts for building VSC extensions."
+        },
+        {
+          "icon": "🔗",
+          "title": "Stand up Maths",
+          "url": "https://www.youtube.com/@standupmaths",
+          "description": "Matt Parker's YouTube channel"
+        },
+        {
+          "icon": "🔗",
+          "title": "sableraph",
+          "url": "https://www.twitch.tv/sableraph",
+          "description": "Raphael de Courville's Twitch channel"
+        },
+        {
+          "icon": "🔗",
+          "title": "Patt Vira YouTube channel",
+          "url": "https://www.youtube.com/@pattvira",
+          "description": "Patt Vira's YouTube channel"
+        }
+      ]
+    }
+  ],
+  "credits": []
+}
