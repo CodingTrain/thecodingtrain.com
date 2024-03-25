@@ -1,6 +1,6 @@
 {
   "title": "Creative Coding AI Agent",
-  "description": "In this live episode of the Coding Train, I start workin on a VSC extension for a creative coding AI agent.",
+  "description": "In this live episode of the Coding Train, I start working on a VSC extension for a creative coding AI agent.",
   "videoId": "https://www.youtube.com/watch?v=-_ivRdVjjzA",
   "date": "2024-03-24",
   "languages": ["Javascript"],
@@ -22,7 +22,7 @@
   "codeExamples": [
     {
       "title": "Bizarro-Devin Github Repository",
-      "description": "My repository with the code for the p5-Gemini bot demo",
+      "description": "My repository with the code for Bizarro-Devin",
       "urls": { "other": "https://github.com/CodingTrain/Bizarro-Devin" }
     }
   ],
@@ -32,21 +32,27 @@
       "links": [
         {
           "icon": "🔗",
+          "title": "The Nature of Code",
+          "url": "https://nostarch.com/nature-code",
+          "description": "Website where you can pre-order The Nature of Code."
+        },
+        {
+          "icon": "🔗",
           "title": "ShiffBot",
           "url": "https://shiffbot.withgoogle.com",
           "description": "Google website where you can learn about Shiffbot."
         },
         {
           "icon": "🔗",
-          "title": "Hello World Minimal Sample",
-          "url": "https://github.com/microsoft/vscode-extension-samples/tree/main/helloworld-minimal-sample",
-          "description": "This is a minimal version of the VSC Hello World Sample."
-        },
-        {
-          "icon": "🔗",
           "title": "Your First Extension",
           "url": "https://code.visualstudio.com/api/get-started/your-first-extension",
           "description": "Tutorial about the fundamental concepts for building VSC extensions."
+        },
+        {
+          "icon": "🔗",
+          "title": "Hello World Minimal Sample",
+          "url": "https://github.com/microsoft/vscode-extension-samples/tree/main/helloworld-minimal-sample",
+          "description": "This is a minimal version of the VSC Hello World Sample."
         },
         {
           "icon": "🔗",
