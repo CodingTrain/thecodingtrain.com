@@ -383,11 +383,14 @@ function writeDescription(video) {
   }
 
   // Other Code Examples
-  const otherCodeExamples = data.codeExamples?.filter(
-    (ex) => !ex.urls.p5 && !ex.urls.github
-  );
   const getURL = (urls) =>
     urls.p5 || urls.processing || urls.node || urls.other;
+  const otherCodeExamples = data.codeExamples?.filter(
+    (ex) =>
+      !ex.urls.p5 &&
+      getURL(ex.urls) !== repoLink &&
+      !sketchUrls.includes(getURL(ex.urls))
+  );
   if (otherCodeExamples && otherCodeExamples.length > 0) {
     if (otherCodeExamples.length > 1) {
       if (sketchUrls?.length > 0 || repoLink) description += '\n';
@@ -413,7 +416,7 @@ function writeDescription(video) {
     if (otherParts.length > 0) {
       description += '\nOther Parts of this Challenge:';
       for (const part of otherParts) {
-        description += `\n📺 ${part.data.partTitle}: https://youtu.be/${part.data.videoId}`;
+        description += `\n📺 https://youtu.be/${part.data.videoId}`;
       }
       description += '\n';
     }
@@ -476,14 +479,23 @@ function writeDescription(video) {
       description += `\n${group.title}:\n`;
       for (const link of group.links) {
         link.icon = link.icon || (group.title === 'Videos' ? '🎥' : '🔗');
-        const url = link.url;
-        if (/https?:\/\/.*/.test(url)) {
+        let url;
+        if (/https?:\/\/.*/.test(link.url)) {
           // Starts with http:// or https://
-          description += `${link.icon} ${link.title}: ${url}\n`;
+          url = link.url;
         } else {
           // assume relative link in thecodingtrain.com
           // try to get YT link instead of website link
-          description += `${link.icon} ${link.title}: ${resolveCTLink(url)}\n`;
+          url = resolveCTLink(link.url);
+        }
+        // if it's a youtube link, don't add the title (#1280)
+        if (
+          new URL(url).hostname.includes('youtube') ||
+          new URL(url).hostname.includes('youtu.be')
+        ) {
+          description += `${link.icon} ${url}\n`;
+        } else {
+          description += `${link.icon} ${link.title}: ${url}\n`;
         }
       }
     }
@@ -497,10 +509,8 @@ function writeDescription(video) {
         vid.urls.includes(`challenges/${challenge}`)
       );
       if (challengeData) {
-        const { videoNumber, challengeTitle } = challengeData.data;
         const url = challengeData.canonicalURL;
-        description +=
-          `🚂 ${videoNumber} ${challengeTitle}: ${resolveCTLink(url)}` + '\n';
+        description += `🚂 ${resolveCTLink(url)}` + '\n';
       } else {
         console.log(`Challenge ${challenge} not found`);
       }
@@ -550,8 +560,8 @@ Music from Epidemic Sound`;
 🖋️ Twitter: https://twitter.com/thecodingtrain
 📸 Instagram: https://www.instagram.com/the.coding.train/
 
-🎥 Coding Challenges: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
-🎥 Intro to Programming: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
+🎥 https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
+🎥 https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
 
 🔗 p5.js: https://p5js.org
 🔗 p5.js Web Editor: https://editor.p5js.org/
