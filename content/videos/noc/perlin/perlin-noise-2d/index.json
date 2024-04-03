@@ -1,69 +1,49 @@
 {
-    "title": "Video title",
-    "description": "Video description",
-    "videoNumber": "Video number",
-    "videoId": "YouTube video ID",
-    "date": "YYYY-MM-DD",
-    "languages": ["language1", "language2"],
-    "topics": ["topic1", "topic2"],
+    "title": "I.5: Perlin Noise in Two Dimensions (p5.js)",
+    "description": "In the fifth part of my Perlin Noise Tutorial, I demonstrate how to use two-dimensional Perlin noise in a p5.js sketch.",
+    "videoId": "ikwNrFvnL3g",
+    "date": "2016-06-24",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": ["For beginners"],
     "canContribute": true,
-    "relatedChallenges": ["number-challenge-1", "number-challenge-2"],
     "timestamps": [
-      { "time": "0:00", "title": "Title 1" },
-      { "time": "1:26", "title": "Title 2" },
-      { "time": "3:40", "title": "Title 3" }
+      { "time": "0:26", "title": "Graph of Perlin Noise in One Dimension" },
+      { "time": "3:49", "title": "Pixel Array" },
+      { "time": "6:48", "title": "Perlin Noise" }
     ],
-    "parts": [
-      {
-        "title": "Part 1 - Specific Title for Part 1",
-        "videoId": "YouTube video ID for Part 1",
-        "timestamps": [
-          { "time": "0:00", "title": "Only for multi-part challenges" },
-          { "time": "1:26", "title": "Remove this 'parts' section for single-part challenges" }
-        ]
-      },
-      {
-        "title": "Part 2 - Specific Title for Part 2"
-        "videoId": "YouTube video ID for Part 2",
-        "timestamps": [
-          { "time": "0:00", "title": "Title 1" },
-          { "time": "1:26", "title": "Title 2" }
-        ]
-      }
-    ],
+    
     "codeExamples": [
       {
-        "title": "Code example 1 title",
-        "description": "Code example 1 description",
-        "image": "image1.png",
+        "title": "Perlin Noise in 2D",
+        "description": "Using 2D perlin noise to create a 2D noise field",
+        "image": "perlin2d.png",
         "urls": {
-          "p5": "url to p5 editor or code",
-          "processing": "url to processing sketch",
-          "other": "url to other source, like GitHub"
-        }
-      },
-      {
-        "title": "Code example 2 title",
-        "description": "Code example 2 description",
-        "image": "image2.png",
-        "urls": {
-          "other": "url to other source, like GitHub"
-        }
+          "p5": "https://editor.p5js.org/codingtrain/sketches/2_hBcOBrF" }
       }
     ],
     "groupLinks": [
       {
-        "title": "Group of links title",
+        "title": "References",
         "links": [
           {
-            "title": "Link 1 title",
-            "url": "link 1 url",
-            "description": "description of content linked"
+            "title": "noise()",
+            "url": "https://p5js.org/reference/#/p5/noise",
+            "description": "p5.js reference for noise()"
           },
           {
-            "title": "Link 2 title",
-            "url": "link 2 url",
-            "description": "description of content linked"
+            "title": "andom()",
+            "url": "https://p5js.org/reference/#/p5/random",
+            "description": "p5.js reference for random()"
+          },
+          {
+            "title": "The Nature of Code",
+            "url": "https://natureofcode.com/",
+            "description": "The Nature of Code - online book by Daniel Shiffman"
+          },
+          {
+            "title": "The Nature of Code Examples p5.js",
+            "url": "https://github.com/nature-of-code/noc-examples-p5.js",
+            "description": "Repository for example p5.js code from the Nature of Code book"
           }
         ]
       }
