@@ -1,0 +1,36 @@
+{
+    "title": "I.6: Perlin Noise Detail in p5.js",
+    "description": "In Part I.6 of the Perlin Noise Tutorial, I look at the p5.js function noiseDetail() how it can be used to alter the results Perlin noise function. The concepts of octaves and falloff are explained.",
+    "videoId": "D1BBj2VaBl4",
+    "date": "2016-06-26",
+    "languages": ["p5.js", "JavaScript"],
+    "topics": ["For beginners"],
+    "canContribute": true,
+    "timestamps": [
+      { "time": "0:23", "title": "The Noise Algorithm" },
+      { "time": "1:07", "title": "Visualization of Perla Noise in Two Dimensions" },
+      { "time": "1:31", "title": "Noise Detail Function" }
+    ],
+    "groupLinks": [
+      {
+        "title": "Group of links title",
+        "links": [
+          {
+            "title": "The Nature of Code",
+            "url": "https://natureofcode.com/",
+            "description": "The Nature of Code - online book by Daniel Shiffman"
+          },
+          {
+            "title": "Link 2 title",
+            "url": "link 2 url",
+            "description": "description of content linked"
+          },
+          {
+              "title": "The Nature of Code Examples p5.js",
+              "url": "https://github.com/nature-of-code/noc-examples-p5.js",
+              "description": "Repository for example p5.js code from the Nature of Code book"
+          }
+        ]
+      }
+    ]
+  }
