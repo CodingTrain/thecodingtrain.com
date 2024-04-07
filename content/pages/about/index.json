@@ -82,6 +82,7 @@
       "people": [
         { "name": "Chloe Desaulles", "role": "Projects and Research" },
         { "name": "David Snyder", "role": "Discord and GitHub" },
+        { "name": "Muntasir", "role": "Discord Manager" },
         { "name": "Elizabeth Perez", "role": "Content Designer" },
         { "name": "Jason Heglund", "role": "Illustrations and Animations" },
         { "name": "Karen Abe", "role": "Social Media" },
@@ -94,7 +95,13 @@
     },
     {
       "name": "Moderators",
-      "people": [{ "name": "noob_dev54" }, { "name": "Sorin Curescu" }]
+      "people": [
+        { "name": "Sorin Curescu" },
+        { "name": "Alca" },
+        { "name": "Kwichmann" },
+        { "name": "SolarLiner" },
+        { "name": "Yofou" }
+      ]
     },
     {
       "name": "Team Alumni",
