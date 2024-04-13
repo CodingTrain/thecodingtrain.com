@@ -90,6 +90,7 @@
   justify-content: center;
   height: var(--baseline-3x);
   background: white;
+  background-color: var(--background-color);
   color: var(--gray-dark);
   border-bottom: var(--border);
   border-left: var(--border);
@@ -97,6 +98,7 @@
     display: inline-flex;
     justify-content: center;
     width: 100px;
+    color: var(--text-color);
     height: var(--baseline);
     line-height: var(--baseline);
   }

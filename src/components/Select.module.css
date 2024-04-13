@@ -37,6 +37,7 @@
 .title {
   line-height: var(--baseline-box);
   padding-left: var(--box-padding);
+  color: var(--text-color);
 
   & h2 {
     margin: 0;
@@ -50,6 +51,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: calc(100% - var(--baseline));
+  background-color: red;
 }
 
 .select {
@@ -170,6 +172,7 @@
   & .select :global(.rs__option--is-focused),
   & .select :global(.rs__control) {
     background-color: var(--purple-light);
+    color: var(--text-color);
   }
 
   & .select :global(.rs__menu-list) {

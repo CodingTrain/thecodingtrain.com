@@ -34,7 +34,6 @@
   white-space: nowrap;
 }
 
-
 .titleLink {
   flex-grow: 0;
   padding: 0 calc(var(--box-padding) / 2);
@@ -42,6 +41,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-decoration: underline;
+  color: var(--text-color);
 }
 
 .thumb {
@@ -49,8 +49,8 @@
   flex: 100%;
   height: var(--baseline-4x);
   background-color: var(--gray-light);
-    flex-direction: column;
-    overflow: hidden;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .info {
@@ -67,11 +67,12 @@
 
   & p {
     border-bottom: none;
-    color: var(--gray-dark);
+    /* color: var(--gray-dark); */
+    color: var(--text-color);
     text-transform: uppercase;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding: 0 calc(var(--box-padding) / 2);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 calc(var(--box-padding) / 2);
   }
 
   & svg {
