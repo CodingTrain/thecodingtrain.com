@@ -37,7 +37,9 @@
   --border: var(--border-cyan);
   --background-color: var(--cyan-light);
 }
-
+.title {
+  color: var(--text-color);
+}
 .icon {
   border-right: var(--border);
   border-bottom: var(--border);
@@ -96,7 +98,8 @@
   text-overflow: ellipsis;
   border-bottom: var(--border);
   border-left: var(--border);
-  background-color: white;
+  /* background-color: white; */
+  color: var(--text-color);
 }
 
 .left .meta {

@@ -20,7 +20,7 @@ const GuideCard = ({
     <article className={cn(css.root, css[variant])}>
       <div className={css.top}>
         <div className={css.icon}>{icon}</div>
-        <h2>
+        <h2 className={css.title}>
           <Link to={slug}>{title}</Link>
         </h2>
       </div>
