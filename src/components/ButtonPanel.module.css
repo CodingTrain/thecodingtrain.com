@@ -15,7 +15,8 @@
     overflow: hidden;
     margin: 0 var(--spacing-normal) 0 0;
     text-transform: uppercase;
-    color: var(--gray-dark);
+    /* color: var(--gray-dark); */
+    color: var(--text-color);
   }
 }
 

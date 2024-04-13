@@ -47,6 +47,7 @@
     justify-content: center;
     align-items: stretch;
     width: 100%;
+    color: var(--text-color);
   }
 
   & .left {
@@ -79,6 +80,7 @@
     margin: 0;
     padding: 0 var(--box-padding);
     max-width: 60%;
+    color: var(--text-color);
   }
 }
 
@@ -124,6 +126,7 @@
   font-size: var(--maru-large);
   display: flex;
   line-height: var(--baseline-box);
+  color: var(--text-color);
 }
 
 .card .smallTitle {
@@ -207,14 +210,16 @@
 
 .trackCard .date {
   background-color: var(--red-light);
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
   border-bottom: var(--border-red);
   border-left: var(--border-red);
 }
 
 .challengeCard .date {
   background-color: var(--cyan-light);
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
 }
@@ -252,18 +257,20 @@
   height: var(--baseline-3x);
   border-left: var(--border);
   border-bottom: var(--border-purple);
-  background: white;
+  /* background: white; */
+  color: var(--text-color);
 
-  & p, & address {
+  & p,
+  & address {
     margin: 0;
     padding: 0 var(--box-padding);
-    color: var(--gray-dark);
+    /* color: var(--gray-dark); */
   }
 
   & .videoTitle {
     text-transform: uppercase;
     font-size: var(--maru-normal);
-    color: var(--gray-mid);
+    /* color: var(--gray-mid); */
   }
 
   & .showcaseTitle {
@@ -271,13 +278,15 @@
     font-size: var(--maru-xlarge);
     line-height: var(--maru-xlarge-line-height);
     font-weight: bold;
+    /* color: var(--text-color); */
   }
 }
 
 .showcase .author {
   font-family: var(--maru-mono);
   font-style: normal;
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
   padding: 0 var(--box-padding);
   margin: 0;
   line-height: var(--baseline-box);
@@ -329,14 +338,16 @@
   border-left: var(--border-pink);
   line-height: var(--baseline-box);
   font-size: var(--maru-large);
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
   background-color: var(--pink-tint);
   text-transform: uppercase;
 }
 
 .event {
   display: flex;
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
   & p {
     margin: 0;
   }

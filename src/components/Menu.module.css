@@ -13,7 +13,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   background-color: var(--gray-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .menu {
@@ -30,7 +30,7 @@
 
   & a,
   & span {
-    color: var(--gray-dark);
+    color: var(--text-color);
     border-left: var(--border);
     border-bottom: var(--border);
     display: block;
