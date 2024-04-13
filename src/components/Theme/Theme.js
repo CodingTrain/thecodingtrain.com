@@ -90,12 +90,12 @@ const lightTheme = [
 
 const darkTheme = [
   '--text-color: #f0f0f0',
-  '--html-bg-color: #1e1d20',
+  '--background-color: #1e1d20',
   '--gray-dark: #1f1f1f',
   '--gray-mid: #b3b3b3',
   '--gray-light: #2d2d2d',
-  '--gray-light-hover: #404040',
 
+  '--gray-light-hover: #404040',
   '--cyan: #00b2d6',
   '--cyan-light: #003f4d',
 

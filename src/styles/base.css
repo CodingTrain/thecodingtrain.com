@@ -5,6 +5,9 @@ body {
   padding: 0;
   scroll-padding-top: calc(3 * var(--baseline));
 }
+html {
+  background-color: var(--background-color);
+}
 
 body {
   font-family: var(--maru);

@@ -241,7 +241,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <div className={css.root}>
-        <Spacer background="white" />
+        <Spacer background="var(--background-color)" />
 
         <HomepageScene
           title={content.header.title}
