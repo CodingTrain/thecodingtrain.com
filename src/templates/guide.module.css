@@ -1,10 +1,10 @@
 .root {
-  background-color: white;
+  background-color: var(--background-color);
   border-bottom: var(--border);
 }
 
 .spacer {
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .guideBottomSpacer {
@@ -59,7 +59,8 @@
 .itemSpacer {
   flex-basis: 50%;
   background-color: var(--purple-light);
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
 }
 
 .headingBorderTop {
@@ -73,6 +74,7 @@
   border-left: var(--border);
   font-size: var(--maru-medium);
   line-height: var(--maru-medium-line-height);
+  color: var(--text-color);
 }
 
 .blockquote {
@@ -191,7 +193,8 @@
 
 .th {
   background-color: var(--purple-light);
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
 }
 
 .breakSpacer {
