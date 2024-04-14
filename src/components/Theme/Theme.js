@@ -85,7 +85,9 @@ const lightTheme = [
   '--purple-light: #f0e1f3',
   '--red: #f16164',
   '--red-light: #fff3f3',
-  '--red-lightest: #fffcfc'
+  '--red-lightest: #fffcfc',
+
+  '--linear-gradient-on-card: linear-gradient(0deg,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0) 100%)'
 ];
 
 const darkTheme = [
@@ -111,5 +113,7 @@ const darkTheme = [
 
   '--red: #d1414c',
   '--red-light: #3f1519',
-  '--red-lightest: #1e1d20'
+  '--red-lightest: #1e1d20',
+
+  '--linear-gradient-on-card: linear-gradient(0deg,rgba(0, 0, 0, 0.842) 30%,rgba(255, 255, 255, 0) 100%)'
 ];
