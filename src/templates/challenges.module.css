@@ -18,7 +18,7 @@
 
 .recentChallenge {
   display: flex;
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .left {
@@ -36,7 +36,8 @@
   padding: 0 var(--box-padding);
   line-height: var(--baseline-box);
   background-color: var(--cyan-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
+
   & p {
     margin: 0;
     text-transform: uppercase;
@@ -59,7 +60,7 @@
   overflow-y: auto;
 
   & p {
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 }
 
@@ -68,7 +69,7 @@
   font-size: var(--maru-xlarge);
   line-height: var(--maru-xlarge-line-height);
   font-weight: bold;
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .right {
