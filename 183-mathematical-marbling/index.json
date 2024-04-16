@@ -1,0 +1,68 @@
+{
+  "title": "Mathematical Marbling",
+  "videoNumber": "183",
+  "description": "",
+  "videoId": "",
+  "nebulaSlug": "codingtrain-coding-challenge-183-mathematical-marbling",
+  "date": "2024-04-00",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["mathematical marbling"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "19-superellipse",
+    "56-attraction-and-repulsion-forces",
+    "124-flocking-simulation",
+    "132-fluid-simulation",
+    "177-soft-body-character"
+  ],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:00", "title": "" },
+    { "time": "0:00", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mathematical Marbling",
+      "description": "Implementation of mathematical marbling",
+      "image": "img1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fsw-rJrpr"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Digital Marbling",
+          "url": "https://blog.amandaghassaei.com/2022/10/25/digital-marbling/",
+          "description": "Blog post about digital marbling by Amanda Ghassaei."
+        },
+        {
+          "icon": "🔗",
+          "title": "The Mathematics of Marbling",
+          "url": "https://people.csail.mit.edu/jaffer/Marbling/Mathematics",
+          "description": "Article that discusses the mathematics of marbling."
+        },
+        {
+          "icon": "🔗",
+          "title": "",
+          "url": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
