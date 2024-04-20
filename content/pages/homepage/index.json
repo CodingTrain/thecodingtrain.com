@@ -46,7 +46,16 @@
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
-    "featured": ["", "", "", "", "", "", "", ""],
+    "featured": [
+      "code/2-variables/5-map/showcase/contribution-1713120295.json",
+      "180-falling-sand/showcase/contribution-1713541543.json",
+      "noc/4-particles/2-particle-emitters/showcase/contribution-1711836756.json",
+      "90-dithering",
+      "challenges/4-purple-rain/showcase/contribution-1687374037.json",
+      "challenges/171-wave-function-collapse/showcase/contribution-1688140264.json",
+      "",
+      ""
+    ],
     "showcaseCta": {
       "text": "Want to see more?",
       "buttonText": "Browse the full showcase",
