@@ -82,21 +82,27 @@
       "people": [
         { "name": "Chloe Desaulles", "role": "Projects and Research" },
         { "name": "David Snyder", "role": "Discord and GitHub" },
+        { "name": "Muntasir (noobdev54)", "role": "Discord Manager" },
         { "name": "Elizabeth Perez", "role": "Content Designer" },
         { "name": "Jason Heglund", "role": "Illustrations and Animations" },
-        { "name": "Katie Chan", "role": "Social Media and Community" },
-        { "name": "Kline Gareth", "role": "Website Content Development" },
-        { "name": "Kobe Liesenborgs", "role": "Discord and GitHub" },
+        { "name": "Karen Abe", "role": "Social Media" },
         {
           "name": "Mathieu Blanchette",
-
           "role": "Editing and Video Production"
-        }
+        },
+        { "name": "Melissa Rodriguez", "role": "Projects and Research" }
       ]
     },
     {
       "name": "Moderators",
-      "people": [{ "name": "noob_dev54" }, { "name": "Sorin Curescu" }]
+      "people": [
+        { "name": "Sorin Curescu" },
+        { "name": "Alca" },
+        { "name": "Kwichmann" },
+        { "name": "SolarLiner" },
+        { "name": "Nathan (Yofou)" },
+        { "name": "Lincoln (Link)" }
+      ]
     },
     {
       "name": "Team Alumni",
@@ -106,6 +112,9 @@
           "role": "Social Media and Community",
           "url": "https://cyberwitch666.com/"
         },
+        { "name": "Katie Chan", "role": "Social Media and Community" },
+        { "name": "Kline Gareth", "role": "Website Content Development" },
+        { "name": "Kobe Liesenborgs", "role": "Discord and GitHub" },
         {
           "name": "Dusk Virkus",
           "role": "GitHub and Content Management"
