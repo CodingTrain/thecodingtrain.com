@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build --verbose",
-    "build-ci": "npm run tags-transforms && npm run build",
+    "build-ci": "node node-scripts/generate-challenges-redirects && npm run tags-transforms && npm run build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",

@@ -27,7 +27,6 @@
 
 # shortcuts - 302
 
-
 /flock-view https://editor.p5js.org/codingtrain/sketches/fFNCIQw4e 302!
 /decade https://donorbox.org/to-the-power-of-10 302!
 /noc https://nostarch.com/nature-code 302!
@@ -62,7 +61,7 @@
 /p5js /tracks/code-programming-with-p5-js 302!
 /processing /tracks/learning-processing 302!
 /genuary1 https://editor.p5js.org/codingtrain/sketches/vN8EEr59I 302!
-/particles https://thecodingtrain.com/challenges/78-simple-particle-system 302!
-/ca https://thecodingtrain.com/challenges/179-wolfram-ca 302!
-/182 https://thecodingtrain.com/challenges/182-apollonian-gasket 302!
-/180 https://thecodingtrain.com/challenges/180-falling-sand 302!
+/particles /challenges/78-simple-particle-system 302!
+/ca /challenges/179-wolfram-ca 302!
+
+# challenges shortcuts will be appended to this file at build time as /{videoNumber} -> /challenges/{slug}
