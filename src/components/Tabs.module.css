@@ -29,7 +29,8 @@
   cursor: pointer;
   font-family: var(--maru-mono);
   text-transform: none;
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
   user-select: none;
 }
 
@@ -73,7 +74,7 @@
   & .tab:hover,
   & .active {
     background-color: var(--red-light);
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 }
 
@@ -91,7 +92,8 @@
   & .tab:hover,
   & .active {
     background-color: var(--cyan-light);
-    color: var(--gray-dark);
+    /* color: var(--gray-dark); */
+    color: var(--text-color);
   }
 }
 
@@ -150,6 +152,7 @@
 
   .share {
     display: none;
+    background-color: var(--background-color);
   }
 }
 

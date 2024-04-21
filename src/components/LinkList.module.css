@@ -9,7 +9,7 @@
   border-top: var(--border);
   border-bottom: var(--border);
   border-left: var(--border);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .icon,
@@ -36,7 +36,7 @@
   text-decoration: underline;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: var(--gray-dark);
+  color: var(--text-color);
   font-size: var(--maru-large);
 }
 
@@ -89,7 +89,7 @@
 
   .red .link,
   .cyan .link {
-    background-color: white;
+    background-color: var(--background-color);
   }
 }
 

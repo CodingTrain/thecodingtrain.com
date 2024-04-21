@@ -1,8 +1,7 @@
 .root {
   height: var(--baseline);
   border-left: var(--border);
-  background: white;
-
+  background-color: var(--background-color);
   display: flex;
   align-items: center;
   padding: 0 6px;

@@ -46,7 +46,7 @@ span.linkIcon {
   line-height: var(--baseline-1of2);
   cursor: auto;
   background-color: var(--gray-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .copiedNotificationLeft {

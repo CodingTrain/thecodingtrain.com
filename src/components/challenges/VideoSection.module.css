@@ -68,6 +68,7 @@
 
 .share {
   display: none;
+  background-color: var(--background-color);
 }
 
 .video {
@@ -124,7 +125,7 @@
     font-family: var(--maru-mono);
     font-size: var(--maru-medium);
     color: var(--cyan);
-    background-color: white;
+    background-color: var(--background-color);
     text-transform: uppercase;
   }
 
@@ -195,7 +196,7 @@
   .share {
     display: block;
     border-bottom: var(--border-cyan);
-    background: white;
+    background-color: var(--background-color);
   }
 
   .share.onlyShare {

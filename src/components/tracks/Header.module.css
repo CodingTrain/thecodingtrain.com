@@ -14,7 +14,7 @@
   border-left: var(--border);
   border-bottom: var(--border);
   padding: 0 var(--box-padding);
-  background: white;
+  background-color: var(--background-color);
   font-size: 52px;
   line-height: var(--baseline);
   text-transform: uppercase;
@@ -25,16 +25,18 @@
   display: flex;
   border-left: var(--border);
   border-bottom: var(--border-red);
-  background: white;
+  background-color: var(--background-color);
   font-family: var(--maru-mono);
-  color: var(--gray-dark);
+  /* color: var(--gray-dark); */
+  color: var(--text-color);
 }
 
 .description {
   flex-basis: 70%;
   height: var(--baseline-box-5x);
   padding: 0 7% 0 var(--box-padding);
-  background: white;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-size: var(--maru-medium);
 
   & p {
@@ -54,7 +56,7 @@
   height: var(--baseline-box-4x);
   overflow-y: auto;
   padding: 0 var(--box-padding);
-  background: white;
+  background-color: var(--background-color);
   font-family: var(--maru-mono);
   font-size: var(--maru-medium);
   line-height: var(--baseline-1of2);
