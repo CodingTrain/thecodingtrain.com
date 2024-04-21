@@ -48,13 +48,13 @@
     "title": "Passenger showcase highlights",
     "featured": [
       "code/2-variables/5-map/showcase/contribution-1713120295.json",
-      "180-falling-sand/showcase/contribution-1713541543.json",
+      "challenges/180-falling-sand/showcase/contribution-1713541543.json",
       "noc/4-particles/2-particle-emitters/showcase/contribution-1711836756.json",
-      "90-dithering",
+      "challenges/90-dithering/showcase/contribution-1711892032.json",
       "challenges/4-purple-rain/showcase/contribution-1687374037.json",
       "challenges/171-wave-function-collapse/showcase/contribution-1688140264.json",
-      "",
-      ""
+      "challenges/78-simple-particle-system/showcase/contribution-1711487937.json",
+      "webgl/2-3d-geometries/showcase/contribution-1710194669.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
