@@ -118,6 +118,7 @@
   border-left: var(--border);
   padding: var(--box-padding);
   padding-left: calc(2 * var(--box-padding));
+  color: var(--text-color);
 
   & .paragraph {
     border-left: none;
@@ -154,6 +155,7 @@
   border-right: var(--border);
   padding: var(--box-padding);
   background-color: var(--gray-light);
+  color: var(--text-color);
 }
 
 .table {
