@@ -18,7 +18,7 @@
 .tag {
   font-family: var(--maru-mono);
   display: inline-block;
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .singleLine {
