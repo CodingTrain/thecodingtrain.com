@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "182-apollonian-gasket",
-      "145-ray-casting-2d",
-      "50-animated-circle-packing",
-      "35-traveling-salesperson",
-      "c4-worley-noise",
-      "165-slide-puzzle"
+      "17-fractal-trees-space-colonization",
+      "173-snake-applesoft-basic",
+      "83-p5-sketch-chrome-extension",
+      "78-simple-particle-system",
+      "87-3d-knots"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/182-apollonian-gasket/showcase/contribution-1711110753.json",
-      "challenges/182-apollonian-gasket/showcase/contribution-1711767675.json",
-      "challenges/182-apollonian-gasket/showcase/contribution-1711308188.json",
-      "challenges/166-image-to-ascii/showcase/contribution-1711741187.json",
-      "challenges/154-tic-tac-toe-minimax/showcase/contribution-1710990124.json",
-      "challenges/96-visualizing-digits-of-pi/showcase/contribution-1711590403.json",
-      "challenges/52-random-walker/showcase/contribution-1710758696.json",
-      "challenges/179-wolfram-ca/showcase/contribution-1710949601.json"
+      "code/2-variables/5-map/showcase/contribution-1713120295.json",
+      "challenges/180-falling-sand/showcase/contribution-1713541543.json",
+      "noc/4-particles/2-particle-emitters/showcase/contribution-1711836756.json",
+      "challenges/90-dithering/showcase/contribution-1711892032.json",
+      "challenges/4-purple-rain/showcase/contribution-1687374037.json",
+      "challenges/171-wave-function-collapse/showcase/contribution-1688140264.json",
+      "challenges/43-context-free-grammar/showcase/contribution1.json",
+      "webgl/2-3d-geometries/showcase/contribution-1710194669.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
