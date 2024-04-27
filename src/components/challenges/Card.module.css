@@ -79,7 +79,7 @@
 }
 
 .date {
-  color: var(--gray-dark);
+  color: var(--text-color);
   background-color: var(--cyan-light);
   border-bottom: var(--border-cyan);
   border-left: var(--border-cyan);
@@ -88,7 +88,7 @@
 
   & span {
     border-bottom: none;
-    color: var(--gray-dark);
+    color: var(--text-color);
     text-transform: uppercase;
   }
 

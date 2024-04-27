@@ -12,7 +12,7 @@
   height: var(--baseline);
   border-left: var(--border);
   border-bottom: var(--border-cyan);
-  background: white;
+  background: var(--background-color);
 }
 
 @media (--small) {

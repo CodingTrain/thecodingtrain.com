@@ -14,7 +14,7 @@
   height: var(--baseline-2x);
   border-bottom: var(--border-cyan);
   border-left: var(--border);
-  background: white;
+  background: var(--background-color);
 }
 
 .title h1 {
