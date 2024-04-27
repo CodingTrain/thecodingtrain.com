@@ -171,6 +171,7 @@
     border-right: var(--border);
     width: calc(100% - (var(--box-padding) * 2));
     margin: 0 var(--box-padding);
+    color: var(--text-color);
   }
 }
 
