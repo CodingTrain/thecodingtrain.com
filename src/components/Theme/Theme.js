@@ -69,6 +69,8 @@ export default function ThemeProvider({ children }) {
 // styles
 const lightTheme = [
   '--text-color: #000000',
+  '--background-color: #ffffff',
+
   '--gray-dark: #3c3c3c',
   '--gray-mid: #666666',
   '--gray-light: #ededed',
@@ -76,13 +78,17 @@ const lightTheme = [
 
   '--cyan: #2dc5f4',
   '--cyan-light: #eefbff',
+
   '--pink: #f063a4',
   '--pink-light: #ffebf4',
   '--pink-tint: #fff7fa',
+
   '--orange: #f89e4f',
   '--orange-light: #fff1e5',
+
   '--purple: #9253a1',
   '--purple-light: #f0e1f3',
+
   '--red: #f16164',
   '--red-light: #fff3f3',
   '--red-lightest: #fffcfc',
@@ -93,6 +99,7 @@ const lightTheme = [
 const darkTheme = [
   '--text-color: #f0f0f0',
   '--background-color: #1e1d20',
+
   '--gray-dark: #1f1f1f',
   '--gray-mid: #b3b3b3',
   '--gray-light: #2d2d2d',
