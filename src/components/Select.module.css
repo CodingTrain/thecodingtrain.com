@@ -51,7 +51,6 @@
   flex-direction: column;
   justify-content: space-between;
   height: calc(100% - var(--baseline));
-  background-color: red;
 }
 
 .select {
@@ -75,6 +74,8 @@
 
 .select :global(.rs__menu) {
   border-radius: 0;
+  color: var(--text-color) !important;
+  background-color: var(--background-color);
 }
 
 .select :global(.rs__menu-list) {
@@ -98,12 +99,13 @@
   }
 
   & .select {
-    color: var(--gray-dark);
+    color: var(--text-color);
     background-color: var(--red-light);
   }
   & .select :global(.rs__option--is-focused),
   & .select :global(.rs__control) {
     background-color: var(--red-light);
+    color: var(--text-color);
   }
   & .select :global(.rs__option--is-selected) {
     background-color: var(--red);
@@ -129,13 +131,14 @@
   }
 
   & .select {
-    color: var(--gray-dark);
+    color: var(--text-color);
     background-color: var(--cyan-light);
   }
 
   & .select :global(.rs__option--is-focused),
   & .select :global(.rs__control) {
     background-color: var(--cyan-light);
+    color: var(--text-color);
   }
 
   & .select :global(.rs__menu-list) {
@@ -165,7 +168,7 @@
   }
 
   & .select {
-    color: var(--gray-dark);
+    color: var(--text-color);
     background-color: var(--purple-light);
   }
 

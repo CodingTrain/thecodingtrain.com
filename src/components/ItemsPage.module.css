@@ -62,10 +62,11 @@
   border-bottom: var(--border);
   border-left: var(--border);
   height: var(--baseline-6x);
-  background-color: white;
+  background-color: var(--background-color);
 
   & p {
     margin: 0 0 var(--baseline) 0;
+    color: var(--text-color);
   }
 
   & svg {
