@@ -63,5 +63,6 @@
 /genuary1 https://editor.p5js.org/codingtrain/sketches/vN8EEr59I 302!
 /particles /challenges/78-simple-particle-system 302!
 /ca /challenges/179-wolfram-ca 302!
+/noise /tracks/noise 302!
 
 # challenges shortcuts will be appended to this file at build time as /{videoNumber} -> /challenges/{slug}
