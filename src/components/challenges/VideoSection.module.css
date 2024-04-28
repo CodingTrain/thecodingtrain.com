@@ -131,7 +131,7 @@
 
   & button:hover {
     background-color: var(--cyan-light);
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 }
 
@@ -141,7 +141,7 @@
 
 .selected button {
   background-color: var(--cyan-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 /* Timeline section */
@@ -246,7 +246,7 @@
     background: var(--cyan-light);
     cursor: pointer;
     font-size: var(--maru-small);
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 
   .timelinesToggle:hover {

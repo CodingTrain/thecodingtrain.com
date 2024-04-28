@@ -132,7 +132,7 @@
 
   & button:hover {
     background-color: var(--red-light);
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 }
 
@@ -244,7 +244,7 @@
     background: var(--red-light);
     cursor: pointer;
     font-size: var(--maru-small);
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 
   .timelinesToggle:hover {
