@@ -99,6 +99,7 @@
 .top,
 .meta {
   border-top: var(--border);
+  color: var(--text-color);
 }
 
 .right,
@@ -192,6 +193,7 @@
   max-height: var(--baseline-box-5x);
   overflow: hidden;
   text-overflow: ellipsis;
+  color: var(--text-color);
   background-color: var(--background-color);
 }
 
@@ -205,7 +207,7 @@
   margin-top: 0;
   height: var(--baseline);
   flex: 0 0 var(--baseline);
-  color: var(--color);
+  color: var(--text-color);
   background-color: var(--background-color);
   height: 100%;
   padding: 0 var(--spacing-xsmall) 0 var(--spacing-normal);

@@ -15,6 +15,7 @@
 
 .aboutRow {
   display: flex;
+  color: var(--text-color);
   @media (--reduced) {
     flex-direction: column-reverse;
   }
@@ -69,6 +70,7 @@
   padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   overflow: hidden;
   font-family: var(--maru);
+  color: var(--text-color);
 
   & p {
     margin: 0;
@@ -104,7 +106,7 @@
 
 .links {
   background-color: var(--purple-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .socialRow {
@@ -138,6 +140,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--text-color);
   &:not(:first-child) {
     border-left: var(--border-purple);
   }
@@ -194,6 +197,7 @@
   padding-left: var(--box-padding);
   border-left: var(--border);
   border-bottom: var(--border-purple);
+  color: var(--text-color);
 
   & p {
     max-width: 700px;
@@ -205,7 +209,7 @@
 .acknowledgementsList {
   border-left: var(--border-purple);
   background-color: var(--purple-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
   border-bottom: var(--border-purple);
   display: flex;
   flex-wrap: wrap;
@@ -224,9 +228,9 @@
     line-height: var(--baseline-2of3);
   }
 
-  &  td {
+  & td {
     padding: 0 var(--spacing-normal);
-  } 
+  }
 
   & a {
     text-decoration: underline;
