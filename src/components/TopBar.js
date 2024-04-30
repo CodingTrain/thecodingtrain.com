@@ -6,8 +6,6 @@ import NewLogo from '../images/new-logo.svg';
 
 import * as css from './TopBar.module.css';
 
-import Logo from '../images/logo.svg';
-
 const suffix = (day) => {
   if (day === '11' || day === '12' || day === '13') return 'th';
   switch (day[day.length - 1]) {

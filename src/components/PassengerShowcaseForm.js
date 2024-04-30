@@ -149,7 +149,7 @@ const PassengerShowcaseForm = () => {
     }
     if (e.target.name === 'socialPermission') {
       setState(
-        Object.assign({}, state, { [e.target.name]: e.target.value == 'true' })
+        Object.assign({}, state, { [e.target.name]: e.target.value === 'true' })
       );
       return;
     }
@@ -364,8 +364,8 @@ const PassengerShowcaseForm = () => {
             submission.)
           </span>
         </label>
-        <label>Social media permission</label>
         <label>
+          Social media permission
           <span className={css.radioLabel}>
             <input
               type="radio"
