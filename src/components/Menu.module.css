@@ -29,7 +29,8 @@
   position: relative;
 
   & a,
-  & span {
+  & span,
+  & button {
     color: var(--text-color);
     border-left: var(--border);
     border-bottom: var(--border);
@@ -37,6 +38,12 @@
     text-decoration: none;
     padding: 0 var(--box-padding);
     line-height: var(--baseline-box);
+    width: 100%;
+  }
+
+  & button:hover {
+    background-color: var(--gray-light-hover);
+    cursor: pointer;
   }
 
   & a:hover {
@@ -116,7 +123,8 @@
       border-right: var(--border);
 
       & a,
-      & span {
+      & span,
+      & button {
         text-align: left;
         border-left: var(--border);
       }
@@ -161,9 +169,18 @@
   }
 }
 
-.modeToggle {
-  display: "flex";
-  align-items: "center";
-  gap: 8px;
-  height: "100%";
+.darkThemeButton {
+  display: none !important;
+}
+
+.lightThemeButton {
+  display: block !important;
+}
+
+:global(html.dark) .darkThemeButton {
+  display: block !important;
+}
+
+:global(html.dark) .lightThemeButton {
+  display: none !important;
 }

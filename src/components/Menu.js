@@ -1,7 +1,6 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import cn from 'classnames';
-import { ThemeContext } from './Theme/Theme';
 
 import * as css from './Menu.module.css';
 
@@ -48,9 +47,6 @@ const items = [
 
 const Menu = () => {
   const [expanded, setExpanded] = useState(false);
-  const { toggle, dark } = useContext(ThemeContext);
-  const ModeIcon = dark ? MdOutlineDarkMode : MdOutlineLightMode;
-  const modeLabel = dark ? ' Dark Mode' : ' Light Mode';
 
   return (
     <nav className={css.root}>
@@ -62,26 +58,34 @@ const Menu = () => {
       </button>
 
       <ul className={cn(css.menu, { [css.expanded]: expanded })}>
-        {/* Added Dark Mode Toggle */}
+        {/* Theme toggle */}
         <li className={css.item}>
-          <span
-            role="button" // Role attribute
-            tabIndex="0" // Make it focusable
-            onClick={toggle}
-            onKeyDown={(event) => {
-              // Keyboard event
-              if (event.key === 'Enter' || event.key === ' ') {
-                toggle();
-              }
-            }}
-            className={css.modeToggle}>
-            <ModeIcon
+          <button
+            className={css.lightThemeButton}
+            title="Switch to dark mode"
+            onClick={() => {
+              document.documentElement.classList.add('dark');
+              localStorage.theme = 'dark';
+            }}>
+            <MdOutlineLightMode size={expanded ? 16 : 24} />
+            {expanded && ' LIGHT MODE'}
+          </button>
+          <button
+            className={css.darkThemeButton}
+            title="Switch to light mode"
+            onClick={() => {
+              document.documentElement.classList.remove('dark');
+              localStorage.theme = 'light';
+            }}>
+            <MdOutlineDarkMode
               size={expanded ? 16 : 24}
-              color={dark ? 'rgba(255, 255, 255, 0.8)' : undefined}
+              color="rgba(255, 255, 255, 0.8)"
             />
-            {expanded && modeLabel}
-          </span>
+            {expanded && ' DARK MODE'}
+          </button>
         </li>
+
+        {/* Nav */}
         {items.map((item, i) => (
           <li
             key={i}
