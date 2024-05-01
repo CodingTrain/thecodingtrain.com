@@ -90,6 +90,12 @@
 .select :global(.rs__single-value) {
   color: var(--text-color);
 }
+.select :global(.rs__input) {
+  color: var(--text-color);
+}
+.select :global(.rs__input-container) {
+  color: var(--text-color);
+}
 
 .itemSpacer {
   flex: 1 0 0;
