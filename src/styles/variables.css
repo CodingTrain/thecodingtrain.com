@@ -111,6 +111,7 @@
   --border-red-light: 1px solid rgba(255, 0, 0, 0.1);
   --border-orange: 1px solid var(--orange);
   --border-cyan: 1px solid var(--cyan);
+  --border-cyan-light: 1px solid rgba(0, 128, 128, 0.1);
   --border-pink: 1px solid var(--pink);
 
   --box-padding: 25px;
