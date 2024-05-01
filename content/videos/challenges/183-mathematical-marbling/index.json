@@ -8,12 +8,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["mathematical marbling"],
   "canContribute": true,
-  "relatedChallenges": [
-    "56-attraction-and-repulsion-forces",
-    "124-flocking-simulation",
-    "132-fluid-simulation",
-    "177-soft-body-character"
-  ],
+  "relatedChallenges": ["56-attraction-and-repulsion-forces", "124-flocking-simulation", "132-fluid-simulation", "177-soft-body-character"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:47", "title": "Mathematical Marbling" },
@@ -97,7 +92,7 @@
     {
       "title": "Marbling Raster Pixels - Video",
       "description": "This example demonstrates adding marbling to video.",
-      "image": "",
+      "image": "video.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/kVyT302xf"
       }
@@ -113,7 +108,7 @@
     {
       "title": "handPose Marbling",
       "description": "This example demonstrates adding ink drops using ml5.handPose.",
-      "image": "",
+      "image": "handPose.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/EwQhSqGK5"
       }
