@@ -17,16 +17,98 @@
   ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "0:00", "title": "" },
-    { "time": "0:00", "title": "Outro" }
+    { "time": "1:47", "title": "Mathematical Marbling" },
+    { "time": "2:16", "title": "Explain approach" },
+    { "time": "3:20", "title": "Start Coding" },
+    { "time": "4:20", "title": "Dropping paint" },
+    { "time": "7:03", "title": "Add the circle vertices using polar coordinates" },
+    { "time": "10:57", "title": "Add a marble function" },
+    { "time": "13:24", "title": "Refine the algorithm" },
+    { "time": "16:45", "title": "Add a tine function" },
+    { "time": "19:46", "title": "Circle detail" },
+    { "time": "24:50", "title": "Generalize the tine function" },
+    { "time": "29:43", "title": "Possible variations" },
+    { "time": "31:45", "title": "Outro" }
   ],
   "codeExamples": [
     {
       "title": "Mathematical Marbling",
       "description": "Implementation of mathematical marbling",
-      "image": "img1.png",
+      "image": "marble.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/fsw-rJrpr"
+      }
+    },
+    {
+      "title": "Marbling Phyllotaxis",
+      "description": "Adding ink drops using phyllotaxis.",
+      "image": "phyllotaxis.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xoK1M7K3-"
+      }
+    },
+    {
+      "title": "Marbling Mouse",
+      "description": "This example demonstrates interactivity adding the ink.",
+      "image": "mouse.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/GlQ8BqbZ2"
+      }
+    },
+    {
+      "title": "Marbling Color",
+      "description": "This example demonstrates adding a color palette.",
+      "image": "palette.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ONPlawNRq"
+      }
+    },
+    {
+      "title": "Marbling Combs",
+      "description": "This example demonstrates adding a tineLine.",
+      "image": "tines.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/kUPncgjvO"
+      }
+    },
+    {
+      "title": "Marbling Raster Pixels",
+      "description": "This example demonstrates marbling by raster-rendering the pixels.",
+      "image": "raster.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/5b29Taght"
+      }
+    },
+    {
+      "title": "Marbling Raster Pixels - Image",
+      "description": "This example demonstrates adding marbling to video.",
+      "image": "image.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/nb5hSYsgX"
+      }
+    },
+    {
+      "title": "Marbling Raster Pixels - Video",
+      "description": "This example demonstrates adding marbling to video.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/kVyT302xf"
+      }
+    },
+    {
+      "title": "Marbling Color - animate ink",
+      "description": "This example demonstrates animating the addition of ink drops",
+      "image": "animate.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HtEtm1vii"
+      }
+    },
+    {
+      "title": "handPose Marbling",
+      "description": "This example demonstrates adding ink drops using ml5.handPose.",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EwQhSqGK5"
       }
     }
   ],
@@ -34,6 +116,18 @@
     {
       "title": "References",
       "links": [
+        {
+          "icon": "🔗",
+          "title": "Paper Marbling",
+          "url": "https://en.wikipedia.org/wiki/Paper_marbling",
+          "description": "Wikipedia article discussing the history and process of paper marbling."
+        },
+        {
+          "icon": "🔗",
+          "title": "Tokutaro Yagi",
+          "url": "https://suminagashi.com/meet-the-artisan-tokutaro-yagi/",
+          "description": "Article about Suminagashi master Tokutaro Yagi."
+        },
         {
           "icon": "🔗",
           "title": "Digital Marbling",
@@ -45,12 +139,23 @@
           "title": "The Mathematics of Marbling",
           "url": "https://people.csail.mit.edu/jaffer/Marbling/Mathematics",
           "description": "Article that discusses the mathematics of marbling."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "The Hydrodynamics of Marbling Art",
+          "url": "https://www.youtube.com/watch?v=yzlPvtDmtAE",
+          "description": "Video by the American Physical Society showcasing examples of traditional marbling patterns."
         },
         {
-          "icon": "🔗",
-          "title": "",
-          "url": "",
-          "description": ""
+          "icon": "🎥",
+          "title": "Polar Coordinates - p5.js Tutorial",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "A dive into the trigonometric functions—sine, cosine, and tangent."
         }
       ]
     }
