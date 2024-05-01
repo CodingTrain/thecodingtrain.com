@@ -4,12 +4,11 @@
   "description": "",
   "videoId": "",
   "nebulaSlug": "codingtrain-coding-challenge-183-mathematical-marbling",
-  "date": "2024-04-00",
+  "date": "2024-05-02",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["mathematical marbling"],
   "canContribute": true,
   "relatedChallenges": [
-    "19-superellipse",
     "56-attraction-and-repulsion-forces",
     "124-flocking-simulation",
     "132-fluid-simulation",
@@ -37,6 +36,14 @@
       "image": "marble.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/fsw-rJrpr"
+      }
+    },
+    {
+      "title": "Dodecahedron",
+      "description": "Code example for rendering a dodecahedron.",
+      "image": "dodecahedron.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/frIcGeI8l"
       }
     },
     {
