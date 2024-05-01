@@ -82,6 +82,15 @@
   padding-top: 0;
 }
 
+.select :global(.rs__placeholder) {
+  color: var(--text-color);
+  filter: opacity(60%);
+}
+
+.select :global(.rs__single-value) {
+  color: var(--text-color);
+}
+
 .itemSpacer {
   flex: 1 0 0;
   margin-top: -1px;
