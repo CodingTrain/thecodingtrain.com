@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "183-mathematical-marbling",
-      "145-ray-casting-2d",
-      "50-animated-circle-packing",
-      "35-traveling-salesperson",
-      "c4-worley-noise",
-      "165-slide-puzzle"
+      "17-fractal-trees-space-colonization",
+      "173-snake-applesoft-basic",
+      "83-p5-sketch-chrome-extension",
+      "78-simple-particle-system",
+      "87-3d-knots"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
