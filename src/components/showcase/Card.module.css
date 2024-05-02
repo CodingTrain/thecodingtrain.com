@@ -67,7 +67,6 @@
 
   & p {
     border-bottom: none;
-    /* color: var(--gray-dark); */
     color: var(--text-color);
     text-transform: uppercase;
     text-overflow: ellipsis;

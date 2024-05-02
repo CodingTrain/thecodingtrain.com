@@ -60,8 +60,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0;
-  color: var(--text-color);
-
+    color: var(--text-color);
   }
 }
 

@@ -59,7 +59,6 @@
 .itemSpacer {
   flex-basis: 50%;
   background-color: var(--purple-light);
-  /* color: var(--gray-dark); */
   color: var(--text-color);
 }
 
@@ -196,13 +195,11 @@
 
 .th {
   background-color: var(--purple-light);
-  /* color: var(--gray-dark); */
   color: var(--text-color);
 }
 
 .breakSpacer {
   border-top: var(--border);
-  /* border: none; */
 }
 
 @media (--small) {

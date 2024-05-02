@@ -27,7 +27,6 @@
   border-bottom: var(--border-red);
   background-color: var(--background-color);
   font-family: var(--maru-mono);
-  /* color: var(--gray-dark); */
   color: var(--text-color);
 }
 

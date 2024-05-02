@@ -15,7 +15,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    /* color: var(--gray-dark); */
     color: var(--text-color);
   }
 }

@@ -5,7 +5,6 @@
   border-left: var(--border);
   border-bottom: var(--border);
   font-family: var(--maru-mono);
-  /* color: var(--gray-dark); */
   color: var(--text-color);
 }
 
@@ -53,7 +52,6 @@
       position: absolute;
       left: calc(-1.5 * var(--box-padding));
       content: "\2022";
-      /* color: var(--gray-dark); */
       color: var(--text-color);
       display: inline-block;
       width: var(--box-padding);

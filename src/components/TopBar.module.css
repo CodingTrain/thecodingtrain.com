@@ -4,7 +4,6 @@
   position: relative;
   justify-content: space-between;
   background-color: var(--gray-light);
-  /* color: var(--gray-dark); */
   color: var(--text-color);
 }
 
