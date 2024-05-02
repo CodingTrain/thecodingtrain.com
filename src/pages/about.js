@@ -17,20 +17,22 @@ import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
 import ChooChooCharacter from '../images/characters/ChooChooBot_1.mini.svg';
 import TriangleCharacter from '../images/characters/Triangle_3.mini.svg';
 
-import Github from '../images/github.svg';
-import Twitter from '../images/twitter.svg';
-import YouTube from '../images/youtube.svg';
-import Discord from '../images/discord.svg';
-import Instagram from '../images/instagram.svg';
+import {
+  FaGithub,
+  FaTwitter,
+  FaDiscord,
+  FaYoutube,
+  FaInstagram
+} from 'react-icons/fa6';
 
 import * as css from '../styles/pages/about.module.css';
 
 const socialIcons = {
-  twitter: () => <Twitter className={css.socialIcon} />,
-  discord: () => <Discord className={css.socialIcon} />,
-  instagram: () => <Instagram className={css.socialIcon} />,
-  youtube: () => <YouTube className={css.socialIcon} />,
-  github: () => <Github className={css.socialIcon} />
+  twitter: () => <FaTwitter className={css.socialIcon} size={30} />,
+  discord: () => <FaDiscord className={css.socialIcon} size={30} />,
+  instagram: () => <FaInstagram className={css.socialIcon} size={30} />,
+  youtube: () => <FaYoutube className={css.socialIcon} size={30} />,
+  github: () => <FaGithub className={css.socialIcon} size={30} />
 };
 
 const SocialIcon = ({ site }) => {
