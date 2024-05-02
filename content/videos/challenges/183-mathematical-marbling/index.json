@@ -1,7 +1,7 @@
 {
   "title": "Mathematical Marbling",
   "videoNumber": "183",
-  "description": "In this coding challenge, I attempt to simulate the artistic process of paper marbling. The algorithm is based on the paper 'Mathematical Marbling' by S. Lu, A. Jaffer, X. Jin, H. Zhao, and X. Mao. The code is written in JavaScript using the p5.js library.",
+  "description": "All aboard as I attempt to simulate the artistic process of paper marbling. The algorithm is based on the paper 'Mathematical Marbling' by S. Lu, A. Jaffer, X. Jin, H. Zhao, and X. Mao. The code is written in JavaScript using the p5.js library.",
   "videoId": "p7IGZTjC008",
   "nebulaSlug": "codingtrain-coding-challenge-183-paper-marbling-simulation",
   "date": "2024-05-02",
