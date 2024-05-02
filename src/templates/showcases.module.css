@@ -29,7 +29,7 @@
 
 .recentChallenge {
   display: flex;
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .bottom {
