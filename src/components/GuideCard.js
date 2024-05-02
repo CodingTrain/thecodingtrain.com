@@ -1,23 +1,16 @@
 import React, { memo } from 'react';
 import { Link } from 'gatsby';
-import cn from 'classnames';
 
 import ButtonPanel from './ButtonPanel';
 import Image from './Image';
 
 import * as css from './GuideCard.module.css';
 
-const GuideCard = ({
-  title,
-  slug,
-  meta,
-  icon = '📒',
-  description,
-  image,
-  variant
-}) => {
+const GuideCard = ({ title, slug, meta, icon = '📒', description, image }) => {
+  // TODO refactor this to use a single ButtonPanel instance?
+
   return (
-    <article className={cn(css.root, css[variant])}>
+    <article className={css.root}>
       <div className={css.top}>
         <div className={css.icon}>{icon}</div>
         <h2 className={css.title}>
@@ -32,7 +25,7 @@ const GuideCard = ({
             text={meta}
             buttonLink={slug}
             buttonText="Read"
-            variant={variant}
+            variant="purple"
             rainbow
           />
         </div>
@@ -45,7 +38,7 @@ const GuideCard = ({
             text={meta}
             buttonLink={slug}
             buttonText="Read"
-            variant={variant}
+            variant="purple"
             rainbow
           />
         </div>

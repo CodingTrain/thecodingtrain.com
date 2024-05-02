@@ -84,7 +84,6 @@ const GuidesPage = ({ data }) => {
                 guide.cover?.file?.childImageSharp?.gatsbyImageData ??
                 guidesPlaceholderImage
               }
-              variant={variant}
             />
             {i % 2 === 0 && (
               <div
