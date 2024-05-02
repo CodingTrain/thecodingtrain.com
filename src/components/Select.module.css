@@ -82,19 +82,16 @@
   padding-top: 0;
 }
 
-.select :global(.rs__placeholder) {
-  color: var(--text-color);
-  filter: opacity(60%);
-}
+.select {
+  & :global(.rs__placeholder) {
+    color: var(--text-color);
+    filter: opacity(60%);
+  }
 
-.select :global(.rs__single-value) {
-  color: var(--text-color);
-}
-.select :global(.rs__input) {
-  color: var(--text-color);
-}
-.select :global(.rs__input-container) {
-  color: var(--text-color);
+  & :global(.rs__single-value),
+  & :global(.rs__input-container) {
+    color: var(--text-color);
+  }
 }
 
 .itemSpacer {
