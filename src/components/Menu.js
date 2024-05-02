@@ -48,6 +48,13 @@ const items = [
 const Menu = () => {
   const [expanded, setExpanded] = useState(false);
 
+  function setTheme(theme) {
+    setExpanded(false);
+
+    localStorage.theme = theme;
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+  }
+
   return (
     <nav className={css.root}>
       <button
@@ -63,20 +70,14 @@ const Menu = () => {
           <button
             className={css.lightThemeButton}
             title="Switch to dark mode"
-            onClick={() => {
-              document.documentElement.classList.add('dark');
-              localStorage.theme = 'dark';
-            }}>
+            onClick={() => setTheme('dark')}>
             <MdOutlineLightMode size={expanded ? 16 : 24} />
             {expanded && ' LIGHT MODE'}
           </button>
           <button
             className={css.darkThemeButton}
             title="Switch to light mode"
-            onClick={() => {
-              document.documentElement.classList.remove('dark');
-              localStorage.theme = 'light';
-            }}>
+            onClick={() => setTheme('light')}>
             <MdOutlineDarkMode
               size={expanded ? 16 : 24}
               color="rgba(255, 255, 255, 0.8)"
