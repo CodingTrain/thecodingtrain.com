@@ -89,20 +89,23 @@
   height: var(--baseline-1of2);
   width: var(--baseline-1of2);
   & path {
-    fill: var(--gray-dark);
+    fill: var(--text-color);
   }
 }
 
 .node {
   height: var(--baseline-1of2);
   width: var(--baseline-1of2);
+  & path {
+    fill: var(--text-color);
+  }
 }
 
 .processing {
   height: var(--baseline-1of3);
   width: var(--baseline-1of3);
   & path {
-    stroke: var(--gray-dark);
+    stroke: var(--text-color);
   }
 }
 
