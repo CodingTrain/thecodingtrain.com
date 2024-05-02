@@ -1,0 +1,181 @@
+{
+  "title": "Mathematical Marbling",
+  "videoNumber": "183",
+  "description": "All aboard as I attempt to simulate the artistic process of paper marbling. The algorithm is based on the paper 'Mathematical Marbling' by S. Lu, A. Jaffer, X. Jin, H. Zhao, and X. Mao. The code is written in JavaScript using the p5.js library.",
+  "videoId": "p7IGZTjC008",
+  "nebulaSlug": "codingtrain-coding-challenge-183-paper-marbling-simulation",
+  "date": "2024-05-02",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["mathematical marbling", "fluid simulation"],
+  "canContribute": true,
+  "relatedChallenges": ["56-attraction-and-repulsion-forces", "102-2d-water-ripple", "132-fluid-simulation", "177-soft-body-character"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:47", "title": "Mathematical Marbling" },
+    { "time": "2:16", "title": "Explain approach" },
+    { "time": "3:20", "title": "Start Coding" },
+    { "time": "4:20", "title": "Dropping paint" },
+    { "time": "7:03", "title": "Add the circle vertices using polar coordinates" },
+    { "time": "10:57", "title": "Add a marble function" },
+    { "time": "13:24", "title": "Refine the algorithm" },
+    { "time": "16:45", "title": "Add a tine function" },
+    { "time": "19:46", "title": "Circle detail" },
+    { "time": "24:50", "title": "Generalize the tine function" },
+    { "time": "29:43", "title": "Possible variations" },
+    { "time": "31:45", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Mathematical Marbling",
+      "description": "Implementation of mathematical marbling",
+      "image": "marble.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/fsw-rJrpr"
+      }
+    },
+    {
+      "title": "Dodecahedron",
+      "description": "Code example for rendering a dodecahedron.",
+      "image": "dodecahedron.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/frIcGeI8l"
+      }
+    },
+    {
+      "title": "Marbling Phyllotaxis",
+      "description": "Adding ink drops using phyllotaxis.",
+      "image": "phyllotaxis.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/xoK1M7K3-"
+      }
+    },
+    {
+      "title": "Marbling Mouse",
+      "description": "This example demonstrates interactivity adding the ink.",
+      "image": "mouse.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/GlQ8BqbZ2"
+      }
+    },
+    {
+      "title": "Marbling Color",
+      "description": "This example demonstrates adding a color palette.",
+      "image": "palette.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ONPlawNRq"
+      }
+    },
+    {
+      "title": "Marbling Combs",
+      "description": "This example demonstrates adding tine lines.",
+      "image": "tines.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/kUPncgjvO"
+      }
+    },
+    {
+      "title": "Marbling Raster Pixels",
+      "description": "This example demonstrates marbling by raster-rendering the pixels.",
+      "image": "raster.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/5b29Taght"
+      }
+    },
+    {
+      "title": "Marbling Raster Pixels - Image",
+      "description": "This example demonstrates marbling the pixels of an image.",
+      "image": "image.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/nb5hSYsgX"
+      }
+    },
+    {
+      "title": "Marbling Raster Pixels - Video",
+      "description": "This example demonstrates marbling the pixels of a video.",
+      "image": "video.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/kVyT302xf"
+      }
+    },
+    {
+      "title": "Marbling Color - animate ink",
+      "description": "This example demonstrates animating the addition of ink drops",
+      "image": "animate.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/HtEtm1vii"
+      }
+    },
+    {
+      "title": "handPose Marbling",
+      "description": "This example demonstrates adding ink drops using ml5.handPose.",
+      "image": "handPose.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/EwQhSqGK5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Paper Marbling",
+          "url": "https://en.wikipedia.org/wiki/Paper_marbling",
+          "description": "Wikipedia article discussing the history and process of paper marbling."
+        },
+        {
+          "icon": "🔗",
+          "title": "Tokutaro Yagi",
+          "url": "https://suminagashi.com/meet-the-artisan-tokutaro-yagi/",
+          "description": "Article about Suminagashi master Tokutaro Yagi."
+        },
+        {
+          "icon": "🔗",
+          "title": "Digital Marbling",
+          "url": "https://blog.amandaghassaei.com/2022/10/25/digital-marbling/",
+          "description": "Blog post about digital marbling by Amanda Ghassaei."
+        },
+        {
+          "icon": "📄",
+          "title": "Mathematical Marbling",
+          "url": "https://doi.org/10.1109/MCG.2011.51",
+          "description": "S. Lu, A. Jaffer, X. Jin, H. Zhao and X. Mao, in IEEE Computer Graphics and Applications, vol. 32, no. 6, pp. 26-35, Nov.-Dec. 2012"
+        },
+        {
+          "icon": "🔗",
+          "title": "Mathematical Marbling",
+          "url": "https://people.csail.mit.edu/jaffer/Marbling/",
+          "description": "Posts that cover algorithms and mathematics of simulating paper marbling."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "The Hydrodynamics of Marbling Art",
+          "url": "https://gfm.aps.org/meetings/dfd-2023/649b3ad8199e4c137897831b",
+          "description": "Y. Sun, J. W. M. Bush, S. E. Spagnolie, and C. H. Rycroft, APS Division of Fluid Dynamics Gallery of Fluid Motion, V0002 (2023). (doi:10.1103/APS.DFD.2023.GFM.V0002)"
+        },
+        {
+          "icon": "🎥",
+          "title": "Polar Coordinates - p5.js Tutorial",
+          "url": "/tracks/the-nature-of-code-2/noc/3-angles/4-polar-coordinates",
+          "description": "A dive into the trigonometric functions—sine, cosine, and tangent."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
