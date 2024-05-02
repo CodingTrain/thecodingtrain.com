@@ -1,14 +1,14 @@
 {
   "title": "Mathematical Marbling",
   "videoNumber": "183",
-  "description": "Mathematical Marbling!",
-  "videoId": "",
+  "description": "In this coding challenge, I attempt to simulate the artistic process of paper marbling. The algorithm is based on the paper 'Mathematical Marbling' by S. Lu, A. Jaffer, X. Jin, H. Zhao, and X. Mao. The code is written in JavaScript using the p5.js library.",
+  "videoId": "p7IGZTjC008",
   "nebulaSlug": "codingtrain-coding-challenge-183-mathematical-marbling",
-  "date": "2024-05-01",
+  "date": "2024-05-02",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["mathematical marbling"],
+  "topics": ["mathematical marbling", "fluid simulation"],
   "canContribute": true,
-  "relatedChallenges": ["56-attraction-and-repulsion-forces", "124-flocking-simulation", "132-fluid-simulation", "177-soft-body-character"],
+  "relatedChallenges": ["56-attraction-and-repulsion-forces", "102-2d-water-ripple", "132-fluid-simulation", "177-soft-body-character"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "1:47", "title": "Mathematical Marbling" },
@@ -67,7 +67,7 @@
     },
     {
       "title": "Marbling Combs",
-      "description": "This example demonstrates adding a tineLine.",
+      "description": "This example demonstrates adding tine lines.",
       "image": "tines.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/kUPncgjvO"
@@ -83,7 +83,7 @@
     },
     {
       "title": "Marbling Raster Pixels - Image",
-      "description": "This example demonstrates adding marbling to video.",
+      "description": "This example demonstrates marbling the pixels of an image.",
       "image": "image.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/nb5hSYsgX"
@@ -91,7 +91,7 @@
     },
     {
       "title": "Marbling Raster Pixels - Video",
-      "description": "This example demonstrates adding marbling to video.",
+      "description": "This example demonstrates marbling the pixels of a video.",
       "image": "video.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/kVyT302xf"
@@ -137,10 +137,16 @@
           "description": "Blog post about digital marbling by Amanda Ghassaei."
         },
         {
+          "icon": "📄",
+          "title": "Mathematical Marbling",
+          "url": "https://doi.org/10.1109/MCG.2011.51",
+          "description": "S. Lu, A. Jaffer, X. Jin, H. Zhao and X. Mao, in IEEE Computer Graphics and Applications, vol. 32, no. 6, pp. 26-35, Nov.-Dec. 2012"
+        },
+        {
           "icon": "🔗",
-          "title": "The Mathematics of Marbling",
-          "url": "https://people.csail.mit.edu/jaffer/Marbling/Mathematics",
-          "description": "Article that discusses the mathematics of marbling."
+          "title": "Mathematical Marbling",
+          "url": "https://people.csail.mit.edu/jaffer/Marbling/",
+          "description": "Posts that cover algorithms and mathematics of simulating paper marbling."
         }
       ]
     },
