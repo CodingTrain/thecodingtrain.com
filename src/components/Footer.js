@@ -15,7 +15,7 @@ import {
   FaYoutube,
   FaInstagram
 } from 'react-icons/fa6';
-import { IoStar } from 'react-icons/io5';
+import { IoStarSharp } from 'react-icons/io5';
 
 import { cols } from '../styles/styles.module.css';
 
@@ -86,7 +86,7 @@ const Footer = () => {
             <a
               href="https://www.youtube.com/c/TheCodingTrain/"
               aria-label="Youtube">
-              <FaYoutube size={30} color="var(--text-color)" />
+              <FaYoutube size={30} />
               <span>Youtube</span>
             </a>
           </li>
@@ -94,27 +94,20 @@ const Footer = () => {
             <a
               href="https://www.twitch.tv/codingtrainchoochoo"
               aria-label="Twitch">
-              <FaTwitch size={30} color="var(--text-color)" />
+              <FaTwitch size={30} />
               <span>Twitch</span>
             </a>
           </li>
 
           <li>
             <a href="https://nebula.tv/codingtrain" aria-label="Nebula">
-              {/* <Nebula width={30} /> */}
-              <IoStar
-                size={30}
-                color="var(--text-color)"
-                style={{
-                  rotate: '45deg'
-                }}
-              />
+              <IoStarSharp size={30} style={{ transform: 'scaleY(-1)' }} />
               <span>Nebula</span>
             </a>
           </li>
           <li>
             <a href="https://twitter.com/thecodingtrain" aria-label="Twitter">
-              <FaTwitter size={30} color="var(--text-color)" />
+              <FaTwitter size={30} />
               <span>Twitter</span>
             </a>
           </li>
@@ -123,19 +116,19 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/the.coding.train/"
               aria-label="Instagram">
-              <FaInstagram size={30} color="var(--text-color)" />
+              <FaInstagram size={30} />
               <span>Instagram</span>
             </a>
           </li>
           <li>
             <a href="https://thecodingtrain.com/discord" aria-label="Discord">
-              <FaDiscord size={30} color="var(--text-color)" />
+              <FaDiscord size={30} />
               <span>Discord</span>
             </a>
           </li>
           <li>
             <a href="https://github.com/CodingTrain" aria-label="GitHub">
-              <FaGithub size={30} color="var(--text-color)" />
+              <FaGithub size={30} />
               <span>GitHub</span>
             </a>
           </li>
