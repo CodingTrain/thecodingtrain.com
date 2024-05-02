@@ -1,65 +1,69 @@
 {
-    "title": "I.5: Perlin Noise in Two Dimensions (p5.js)",
-    "description": "In the fifth part of my Perlin Noise Tutorial, I demonstrate how to use two-dimensional Perlin noise in a p5.js sketch.",
-    "videoId": "ikwNrFvnL3g",
-    "date": "2016-06-24",
-    "languages": [
-        "p5.js",
-        "JavaScript"
-    ],
-    "topics": [
-        "For beginners"
-    ],
-    "canContribute": true,
-    "timestamps": [
+  "title": "I.5: Perlin Noise in Two Dimensions (p5.js)",
+  "description": "In the fifth part of my Perlin Noise Tutorial, I demonstrate how to use two-dimensional Perlin noise in a p5.js sketch.",
+  "videoId": "ikwNrFvnL3g",
+  "date": "2016-06-24",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["For beginners"],
+  "canContribute": true,
+  "relatedChallenges": ["136-polar-noise-loops", "137-4d-opensimplex-noise-loop", "c4-worley-noise"],
+  "timestamps": [
+    {
+      "time": "0:00",
+      "title": "Introduction"
+    },
+    {
+      "time": "0:26",
+      "title": "Graph of Perlin Noise in One Dimension"
+    },
+    {
+      "time": "3:49",
+      "title": "Pixel Array"
+    },
+    {
+      "time": "6:48",
+      "title": "Perlin Noise"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Perlin Noise in 2D",
+      "description": "Using 2D perlin noise to create a 2D noise field",
+      "image": "perlin2d.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2_hBcOBrF"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
         {
-            "time": "0:26",
-            "title": "Graph of Perlin Noise in One Dimension"
+          "title": "noise()",
+          "url": "https://p5js.org/reference/#/p5/noise",
+          "description": "p5.js reference for noise()"
         },
         {
-            "time": "3:49",
-            "title": "Pixel Array"
+          "title": "random()",
+          "url": "https://p5js.org/reference/#/p5/random",
+          "description": "p5.js reference for random()"
         },
         {
-            "time": "6:48",
-            "title": "Perlin Noise"
-        }
-    ],
-    "codeExamples": [
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "The Nature of Code - online book by Daniel Shiffman"
+        },
         {
-            "title": "Perlin Noise in 2D",
-            "description": "Using 2D perlin noise to create a 2D noise field",
-            "image": "perlin2d.png",
-            "urls": {
-                "p5": "https://editor.p5js.org/codingtrain/sketches/2_hBcOBrF"
-            }
+          "title": "The Nature of Code Examples p5.js",
+          "url": "https://github.com/nature-of-code/noc-examples-p5.js",
+          "description": "Repository for example p5.js code from the Nature of Code book"
         }
-    ],
-    "groupLinks": [
-        {
-            "title": "References",
-            "links": [
-                {
-                    "title": "noise()",
-                    "url": "https://p5js.org/reference/#/p5/noise",
-                    "description": "p5.js reference for noise()"
-                },
-                {
-                    "title": "random()",
-                    "url": "https://p5js.org/reference/#/p5/random",
-                    "description": "p5.js reference for random()"
-                },
-                {
-                    "title": "The Nature of Code",
-                    "url": "https://natureofcode.com/",
-                    "description": "The Nature of Code - online book by Daniel Shiffman"
-                },
-                {
-                    "title": "The Nature of Code Examples p5.js",
-                    "url": "https://github.com/nature-of-code/noc-examples-p5.js",
-                    "description": "Repository for example p5.js code from the Nature of Code book"
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
 }
