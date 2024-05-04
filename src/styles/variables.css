@@ -86,7 +86,7 @@
   --spacing-large: 60px;
   --spacing-xlarge: 100px;
 
-  --text-color: #000000;
+  --text-color: #000000cb;
   --background-color: #ffffff;
   --linear-gradient-on-card: linear-gradient(
     0deg,
@@ -221,7 +221,7 @@
 
 /* Dark theme */
 html.dark {
-  --text-color: #f0f0f0;
+  --text-color: #f0f0f0da;
   --background-color: #1e1d20;
   --linear-gradient-on-card: linear-gradient(
     0deg,
@@ -244,7 +244,7 @@ html.dark {
   --orange: #d97f26;
   --orange-light: #3a2410;
 
-  --purple: #7c3b82;
+  --purple: #9253a1;
   --purple-light: #2c0e2f;
 
   --red: #d1414c;
