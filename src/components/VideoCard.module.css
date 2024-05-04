@@ -77,7 +77,7 @@
     width: 100%;
   }
 }
-/* GAP */
+
 .gap {
   flex: 0 0 var(--baseline-box);
 
