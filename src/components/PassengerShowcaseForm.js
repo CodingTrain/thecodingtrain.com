@@ -364,8 +364,8 @@ const PassengerShowcaseForm = () => {
             submission.)
           </span>
         </label>
+        <label>Social media permission</label>
         <label>
-          Social media permission
           <span className={css.radioLabel}>
             <input
               type="radio"
