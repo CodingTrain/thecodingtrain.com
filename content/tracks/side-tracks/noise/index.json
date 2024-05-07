@@ -2,9 +2,11 @@
   "title": "Noise",
   "description": "This track contains my tutorials on perlin and simplex noise.",
   "videos": [
-    "noc/perlin/graphing-1d-perlin-noise",
     "noc/perlin/intro-to-perlin-noise",
     "noc/perlin/noise-vs-random",
+    "noc/perlin/graphing-1d-perlin-noise",
+    "noc/perlin/perlin-noise-2d",
+    "noc/perlin/perlin-noise-detail",
     "noise/open-simplex-noise",
     "challenges/136-polar-noise-loops",
     "challenges/137-4d-opensimplex-noise-loop",
