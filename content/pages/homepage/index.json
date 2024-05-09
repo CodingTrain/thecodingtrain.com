@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "183-mathematical-marbling",
-      "17-fractal-trees-space-colonization",
-      "173-snake-applesoft-basic",
-      "83-p5-sketch-chrome-extension",
-      "78-simple-particle-system",
-      "87-3d-knots"
+      "41-clappy-bird",
+      "148-gift-wrapping",
+      "58-3d-earthquake-data-visualization",
+      "101-may-the-4th-scrolling-text",
+      "cc1-maurer-rose"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "code/2-variables/5-map/showcase/contribution-1713120295.json",
-      "challenges/180-falling-sand/showcase/contribution-1713541543.json",
-      "noc/4-particles/2-particle-emitters/showcase/contribution-1711836756.json",
-      "challenges/90-dithering/showcase/contribution-1711892032.json",
-      "challenges/4-purple-rain/showcase/contribution-1687374037.json",
-      "challenges/171-wave-function-collapse/showcase/contribution-1688140264.json",
-      "challenges/43-context-free-grammar/showcase/contribution1.json",
-      "webgl/2-3d-geometries/showcase/contribution-1710194669.json"
+      "challenges/183-mathematical-marbling/showcase/contribution-1714718039.json",
+      "challenges/183-mathematical-marbling/showcase/contribution-1715194171.json",
+      "challenges/78-simple-particle-system/showcase/contribution-1714737129.json",
+      "challenges/30-phyllotaxis/showcase/contribution-1714237829.json",
+      "physics-libraries/box2d/3-coordinate-and-vectors/showcase/contribution-1714548437.json",
+      "noc/3-angles/4-polar-coordinates/showcase/contribution-1714998108.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1713756411.json",
+      "challenges/181-image-stippling/showcase/contribution-1714302429.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
