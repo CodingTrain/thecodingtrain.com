@@ -14,7 +14,7 @@
   height: var(--baseline-2x);
   border-bottom: var(--border-red);
   border-left: var(--border);
-  background: white;
+  background-color: var(--background-color);
 }
 
 .title h1,
@@ -69,6 +69,7 @@
 
 .share {
   display: none;
+  background-color: var(--background-color);
 }
 
 .video {
@@ -125,23 +126,24 @@
     font-family: var(--maru-mono);
     font-size: var(--maru-medium);
     color: var(--red);
-    background-color: white;
+    background-color: var(--background-color);
     text-transform: uppercase;
   }
 
   & button:hover {
     background-color: var(--red-light);
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 }
 
 .clickable button {
   cursor: pointer;
+  background-color: var(--background-color);
 }
 
 .selected button {
   background-color: var(--red-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 /* Timeline section */
@@ -199,7 +201,7 @@
   .share {
     display: block;
     border-bottom: var(--border-red);
-    background: white;
+    background-color: var(--background-color);
   }
 
   .videoWrapper {
@@ -229,7 +231,7 @@
     width: 100vw;
     padding: 0 var(--container-spacing-horizontal);
     z-index: 100;
-    background: white;
+    background: var(--background-color);
   }
 
   .timelinesToggle {
@@ -242,7 +244,7 @@
     background: var(--red-light);
     cursor: pointer;
     font-size: var(--maru-small);
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 
   .timelinesToggle:hover {
@@ -261,10 +263,12 @@
     width: 60px;
     display: flex;
     justify-content: center;
+    color: var(--text-color);
   }
 
   .back {
     display: none;
+    color: var(--text-color);
   }
 
   .arrow:before {

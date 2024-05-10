@@ -149,7 +149,7 @@ const PassengerShowcaseForm = () => {
     }
     if (e.target.name === 'socialPermission') {
       setState(
-        Object.assign({}, state, { [e.target.name]: e.target.value == 'true' })
+        Object.assign({}, state, { [e.target.name]: e.target.value === 'true' })
       );
       return;
     }

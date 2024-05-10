@@ -1,10 +1,10 @@
 .root {
-  background-color: white;
+  background-color: var(--background-color);
   border-bottom: var(--border);
 }
 
 .spacer {
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .guideBottomSpacer {
@@ -59,7 +59,7 @@
 .itemSpacer {
   flex-basis: 50%;
   background-color: var(--purple-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .headingBorderTop {
@@ -73,6 +73,7 @@
   border-left: var(--border);
   font-size: var(--maru-medium);
   line-height: var(--maru-medium-line-height);
+  color: var(--text-color);
 }
 
 .blockquote {
@@ -116,6 +117,7 @@
   border-left: var(--border);
   padding: var(--box-padding);
   padding-left: calc(2 * var(--box-padding));
+  color: var(--text-color);
 
   & .paragraph {
     border-left: none;
@@ -152,6 +154,7 @@
   border-right: var(--border);
   padding: var(--box-padding);
   background-color: var(--gray-light);
+  color: var(--text-color);
 }
 
 .table {
@@ -167,6 +170,7 @@
     border-right: var(--border);
     width: calc(100% - (var(--box-padding) * 2));
     margin: 0 var(--box-padding);
+    color: var(--text-color);
   }
 }
 
@@ -191,12 +195,11 @@
 
 .th {
   background-color: var(--purple-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .breakSpacer {
   border-top: var(--border);
-  /* border: none; */
 }
 
 @media (--small) {

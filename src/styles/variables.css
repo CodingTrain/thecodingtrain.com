@@ -86,6 +86,14 @@
   --spacing-large: 60px;
   --spacing-xlarge: 100px;
 
+  --text-color: #000000cb;
+  --background-color: #ffffff;
+  --linear-gradient-on-card: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
   --gray-dark: #3c3c3c;
   --gray-mid: #666666;
   --gray-light: #ededed;
@@ -209,4 +217,37 @@
     --timeline-spacing: 10px;
     --timeline-dot: 12px;
   }
+}
+
+/* Dark theme */
+html.dark {
+  --text-color: #f0f0f0da;
+  --background-color: #1e1d20;
+  --linear-gradient-on-card: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.842) 30%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  --gray-dark: #1f1f1f;
+  --gray-mid: #b3b3b3;
+  --gray-light: #2d2d2d;
+  --gray-light-hover: #404040;
+
+  --cyan: #00b2d6;
+  --cyan-light: #003f4d;
+
+  --pink: #e6005c;
+  --pink-light: #3a0018;
+  --pink-tint: #2a001a;
+
+  --orange: #d97f26;
+  --orange-light: #3a2410;
+
+  --purple: #9253a1;
+  --purple-light: #2c0e2f;
+
+  --red: #d1414c;
+  --red-light: #3f1519;
+  --red-lightest: #1e1d20;
 }

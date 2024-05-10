@@ -1,7 +1,7 @@
 .root {
   display: flex;
-  color: var(--gray-dark);
-  background-color: white;
+  background-color: var(--background-color);
+  color: var(--text-color);
   height: var(--baseline-8x);
 }
 
@@ -59,11 +59,7 @@
 }
 
 .fadeText {
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 30%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: var(--linear-gradient-on-card);
   position: absolute;
   left: 1px;
   right: 0;
@@ -139,6 +135,7 @@
   height: var(--baseline);
   padding: 0 var(--box-padding);
   line-height: var(--baseline);
+  color: var(--text-color);
 }
 
 .expand {
@@ -161,7 +158,7 @@
   height: var(--baseline);
   padding: 0 var(--box-padding);
   background: var(--red-light);
-  color: var(--gray-dark);
+  color: var(--text-color);
   font-size: var(--maru-normal);
   line-height: var(--maru-normal-line-height);
   & * + * {

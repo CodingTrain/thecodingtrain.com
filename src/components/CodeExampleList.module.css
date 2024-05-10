@@ -44,6 +44,7 @@
   flex-shrink: 0;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: var(--text-color);
 }
 
 .description {
@@ -52,6 +53,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   padding-right: var(--space);
+  color: var(--text-color);
 }
 
 .icon {
@@ -73,13 +75,13 @@
     text-decoration: underline;
     text-transform: lowercase;
     white-space: nowrap;
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
   & .linkIcon {
     font-family: var(--maru-emoji);
     font-size: var(--maru-emoji-normal);
     text-decoration: none;
-    color: var(--gray-dark);
+    color: var(--text-color);
   }
 }
 
@@ -87,20 +89,23 @@
   height: var(--baseline-1of2);
   width: var(--baseline-1of2);
   & path {
-    fill: var(--gray-dark);
+    fill: var(--text-color);
   }
 }
 
 .node {
   height: var(--baseline-1of2);
   width: var(--baseline-1of2);
+  & path {
+    fill: var(--text-color);
+  }
 }
 
 .processing {
   height: var(--baseline-1of3);
   width: var(--baseline-1of3);
   & path {
-    stroke: var(--gray-dark);
+    stroke: var(--text-color);
   }
 }
 
@@ -123,7 +128,7 @@
 @media (--reduced) {
   .red .example,
   .cyan .example {
-    background-color: white;
+    background-color: var(--background-color);
   }
 
   .description {

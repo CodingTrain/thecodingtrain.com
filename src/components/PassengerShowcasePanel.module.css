@@ -12,7 +12,7 @@
   border-left: var(--border-purple);
   border-bottom: var(--border-purple);
   text-transform: uppercase;
-  color: var(--gray-dark);
+  color: var(--text-color);
   background-color: var(--purple-light);
 
   & * {
@@ -62,7 +62,7 @@
 }
 
 .title {
-  color: var(--gray-dark);
+  color: var(--text-color);
   text-transform: uppercase;
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
@@ -81,7 +81,7 @@
 
 .author {
   margin: 0;
-  color: var(--gray-dark);
+  color: var(--text-color);
   border-bottom: var(--border-purple);
   border-left: var(--border-purple);
   min-height: var(--baseline);

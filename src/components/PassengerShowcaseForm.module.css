@@ -7,6 +7,7 @@
   display: block;
   margin-bottom: var(--spacing-normal);
   font-size: var(--maru-xlarge);
+  color: var(--text-color);
 
   & span {
     color: var(--gray-mid);
@@ -19,7 +20,7 @@
     &.radio-label {
       /* display: inline; */
       margin-right: var(--spacing-small);
-      color: var(--black);
+      color: var(--text-color);
       font-size: var(--maru-medium);
       max-width: 500px;
     }
@@ -34,8 +35,9 @@
   margin-top: var(--spacing-xsmall);
   font-size: var(--maru-medium);
   min-width: 500px;
-  border: 1px solid black;
+  border: 1px solid var(--text-color);
   padding: var(--spacing-small);
+  color: var(--text-color);
 }
 
 .form input[type="radio"] {

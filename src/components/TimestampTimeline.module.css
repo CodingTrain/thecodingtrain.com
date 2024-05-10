@@ -45,7 +45,7 @@
   flex-grow: 1;
   line-height: var(--baseline-1of4);
   text-align: left;
-  color: var(--gray-dark);
+  color: var(--text-color);
 }
 
 .message {

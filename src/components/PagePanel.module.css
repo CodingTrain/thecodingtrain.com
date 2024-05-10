@@ -11,6 +11,7 @@
 .description {
   padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   flex-basis: 700px;
+  color: var(--text-color);
 
   & p {
     margin: 0;

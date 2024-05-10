@@ -62,10 +62,11 @@
   border-bottom: var(--border);
   border-left: var(--border);
   height: var(--baseline-6x);
-  background-color: white;
+  background-color: var(--background-color);
 
   & p {
     margin: 0 0 var(--baseline) 0;
+    color: var(--text-color);
   }
 
   & svg {
@@ -90,6 +91,7 @@
   justify-content: center;
   height: var(--baseline-3x);
   background: white;
+  background-color: var(--background-color);
   color: var(--gray-dark);
   border-bottom: var(--border);
   border-left: var(--border);
@@ -97,6 +99,7 @@
     display: inline-flex;
     justify-content: center;
     width: 100px;
+    color: var(--text-color);
     height: var(--baseline);
     line-height: var(--baseline);
   }

@@ -8,7 +8,7 @@
   align-items: center;
   padding-left: var(--box-padding);
   border-left: var(--border);
-  color: var(--gray-dark);
+  color: var(--text-color);
 
   &:first-child {
     margin-top: -2px;
@@ -57,7 +57,7 @@
 @media (--reduced) {
   .red .credit,
   .cyan .credit {
-    background-color: white;
+    background-color: var(--background-color);
   }
 }
 

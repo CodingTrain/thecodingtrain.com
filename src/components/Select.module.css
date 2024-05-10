@@ -37,6 +37,7 @@
 .title {
   line-height: var(--baseline-box);
   padding-left: var(--box-padding);
+  color: var(--text-color);
 
   & h2 {
     margin: 0;
@@ -73,10 +74,24 @@
 
 .select :global(.rs__menu) {
   border-radius: 0;
+  color: var(--text-color) !important;
+  background-color: var(--background-color);
 }
 
 .select :global(.rs__menu-list) {
   padding-top: 0;
+}
+
+.select {
+  & :global(.rs__placeholder) {
+    color: var(--text-color);
+    filter: opacity(60%);
+  }
+
+  & :global(.rs__single-value),
+  & :global(.rs__input-container) {
+    color: var(--text-color);
+  }
 }
 
 .itemSpacer {
@@ -96,12 +111,13 @@
   }
 
   & .select {
-    color: var(--gray-dark);
+    color: var(--text-color);
     background-color: var(--red-light);
   }
   & .select :global(.rs__option--is-focused),
   & .select :global(.rs__control) {
     background-color: var(--red-light);
+    color: var(--text-color);
   }
   & .select :global(.rs__option--is-selected) {
     background-color: var(--red);
@@ -127,13 +143,14 @@
   }
 
   & .select {
-    color: var(--gray-dark);
+    color: var(--text-color);
     background-color: var(--cyan-light);
   }
 
   & .select :global(.rs__option--is-focused),
   & .select :global(.rs__control) {
     background-color: var(--cyan-light);
+    color: var(--text-color);
   }
 
   & .select :global(.rs__menu-list) {
@@ -163,13 +180,14 @@
   }
 
   & .select {
-    color: var(--gray-dark);
+    color: var(--text-color);
     background-color: var(--purple-light);
   }
 
   & .select :global(.rs__option--is-focused),
   & .select :global(.rs__control) {
     background-color: var(--purple-light);
+    color: var(--text-color);
   }
 
   & .select :global(.rs__menu-list) {

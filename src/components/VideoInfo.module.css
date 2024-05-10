@@ -12,7 +12,7 @@
   border-bottom: var(--border);
   font-size: var(--maru-medium);
   font-family: var(--maru-mono);
-  color: var(--gray-dark);
+  color: var(--text-color);
   & p {
     width: 75%;
     padding: 0 var(--box-padding);

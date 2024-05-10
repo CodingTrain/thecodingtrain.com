@@ -37,6 +37,7 @@
   margin: 0;
   max-width: 600px;
   padding: 0 var(--box-padding);
+  color: var(--text-color);
 }
 
 .train {

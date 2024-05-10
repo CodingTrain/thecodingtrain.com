@@ -33,7 +33,7 @@
   border-bottom: var(--border);
   padding: var(--baseline-3of5) var(--spacing-normal) 0 var(--box-padding);
   font-size: var(--font-reduced);
-  color: var(--gray-dark);
+  color: var(--text-color);
 
   & p {
     flex-basis: 700px;
@@ -46,7 +46,7 @@
 }
 
 .sections {
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .title {
@@ -56,7 +56,7 @@
   font-size: var(--font-reduced);
   font-family: var(--maru);
   font-weight: 600;
-  color: var(--gray-dark);
+  color: var(--text-color);
   border-left: var(--border);
   border-bottom: var(--border);
   border-bottom-color: var(--pink);
