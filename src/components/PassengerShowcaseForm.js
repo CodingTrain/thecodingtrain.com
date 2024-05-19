@@ -132,7 +132,7 @@ const PassengerShowcaseForm = () => {
     video: location.state?.video ?? ''
   });
   const [error, setError] = useState(null);
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState('not-submitted'); // not-submitted, waiting, submitted
 
   const data = useVideosWithShowcase();
 
@@ -158,12 +158,14 @@ const PassengerShowcaseForm = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
+    setSubmitted('waiting');
 
     // Check that everything has been filled out
     try {
       await schema.validate(state, { strict: true });
     } catch (e) {
       setError(e.toString().replace('ValidationError: ', ''));
+      setSubmitted('not-submitted');
       return;
     }
 
@@ -176,6 +178,7 @@ const PassengerShowcaseForm = () => {
       setError(
         'The uploaded image is larger than 500kb. Please upload a JPG or PNG that is maximum 800 pixels wide and 500kb in size.'
       );
+      setSubmitted('not-submitted');
       return;
     }
 
@@ -199,22 +202,25 @@ const PassengerShowcaseForm = () => {
         });
         const json = await response.json();
         if (response.ok) {
-          setSubmitted(true);
+          setSubmitted('submitted');
           setState(defaultState);
         } else {
           setError(
             json.error ||
               'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
           );
+          setSubmitted('not-submitted');
         }
       } catch (e) {
         setError(
           'Oh no! The train broke down. Please contact help@thecodingtrain.com to report the malfunction!'
         );
+        setSubmitted('not-submitted');
       }
     };
     reader.onerror = function (error) {
       setError('Something went wrong parsing your image.');
+      setSubmitted('not-submitted');
     };
   };
 
@@ -419,7 +425,7 @@ const PassengerShowcaseForm = () => {
           </span>
         </label>
         {error && <div className={css.error}>{error}</div>}
-        {submitted && (
+        {submitted === 'submitted' && (
           <div className={css.submitted}>
             Thank you for submitting to the Passenger Showcase! Please refresh
             the page in order to upload another submission.
@@ -429,7 +435,7 @@ const PassengerShowcaseForm = () => {
           className={css.submitBtn}
           onClick={onSubmit}
           variant="purple"
-          disabled={submitted}
+          disabled={submitted !== 'not-submitted'}
           rainbow>
           Submit
         </Button>
