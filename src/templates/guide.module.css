@@ -214,6 +214,12 @@
   .videoContainer {
     padding-bottom: var(--baseline-box-7x);
   }
+  .table {
+    & table {
+      table-layout: fixed;
+      text-wrap: wrap;
+    }
+  }
 }
 
 @media (--xsmall) {
@@ -222,5 +228,11 @@
   }
   .itemSpacer {
     display: none;
+  }
+  .table {
+    & table {
+      table-layout: fixed;
+      text-wrap: wrap;
+    }
   }
 }
