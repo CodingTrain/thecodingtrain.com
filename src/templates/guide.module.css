@@ -189,6 +189,10 @@
   padding: 0 var(--spacing-xsmall);
 }
 
+.td:not(:first-child) {
+  word-break: break-word;
+}
+
 .tr:last-child .td {
   border-bottom: none;
 }
@@ -214,12 +218,6 @@
   .videoContainer {
     padding-bottom: var(--baseline-box-7x);
   }
-  .table {
-    & table {
-      table-layout: fixed;
-      text-wrap: wrap;
-    }
-  }
 }
 
 @media (--xsmall) {
@@ -228,11 +226,5 @@
   }
   .itemSpacer {
     display: none;
-  }
-  .table {
-    & table {
-      table-layout: fixed;
-      text-wrap: wrap;
-    }
   }
 }
