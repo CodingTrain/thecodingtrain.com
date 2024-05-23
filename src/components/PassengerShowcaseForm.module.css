@@ -38,6 +38,7 @@
   border: 1px solid var(--text-color);
   padding: var(--spacing-small);
   color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .form input[type="radio"] {
