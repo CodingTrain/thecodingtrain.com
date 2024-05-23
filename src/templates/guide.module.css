@@ -189,6 +189,10 @@
   padding: 0 var(--spacing-xsmall);
 }
 
+.td:not(:first-child) {
+  word-break: break-word;
+}
+
 .tr:last-child .td {
   border-bottom: none;
 }
