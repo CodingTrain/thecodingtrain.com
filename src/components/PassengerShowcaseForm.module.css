@@ -64,6 +64,6 @@
   }
 }
 
-.submitBtn:hover {
+.submitBtn:hover:not([disabled]) {
   cursor: pointer;
 }

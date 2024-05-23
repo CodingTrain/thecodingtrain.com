@@ -137,11 +137,16 @@ button.rainbow.cyan {
   transition: background-position 1s ease-out;
 }
 
-.rainbow.red:hover,
-.rainbow.orange:hover,
-.rainbow.purple:hover,
-.rainbow.pink:hover,
-.rainbow.cyan:hover {
+.rainbow.red:hover:not([disabled]),
+.rainbow.orange:hover:not([disabled]),
+.rainbow.purple:hover:not([disabled]),
+.rainbow.pink:hover:not([disabled]),
+.rainbow.cyan:hover:not([disabled]) {
   background-position: left bottom;
   transition: background-position 4s ease-out;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
