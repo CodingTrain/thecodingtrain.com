@@ -76,6 +76,7 @@ const Head = ({ title, description, image }) => {
       <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       <link rel="icon" href="/favicon.ico" sizes="any" />
 
+      {/* Open Graph */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={siteUrl} />
       <meta property="og:title" content={title ?? defaultTitle} />
@@ -85,14 +86,14 @@ const Head = ({ title, description, image }) => {
       />
       <meta property="og:image" content={`${siteUrl}${metaImage}`} />
 
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={siteUrl} />
-      <meta property="twitter:title" content={title ?? defaultTitle} />
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title ?? defaultTitle} />
       <meta
-        property="twitter:description"
+        name="twitter:description"
         content={description ?? defaultDescription}
       />
-      <meta property="twitter:image" content={`${siteUrl}${metaImage}`} />
+      <meta name="twitter:image" content={`${siteUrl}${metaImage}`} />
 
       {/* Theme toggle bootstrap */}
       <script>{`
