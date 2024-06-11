@@ -108,7 +108,7 @@ function parseTrack(track) {
     trackFolder = videoDirs[0];
   } else {
     // find max used directory
-    trackFolder = findMaxOccurences(videoDirs);
+    trackFolder = findMaxOccurrences(videoDirs);
   }
 
   return {
@@ -310,10 +310,10 @@ function resolveYTLink(url) {
 }
 
 /**
- * Finds the most occuring item in an array
+ * Finds the most occurring item in an array
  * @param {string[]} arr array of items
  */
-function findMaxOccurences(arr) {
+function findMaxOccurrences(arr) {
   const counts = {};
   for (const item of arr) {
     if (counts[item]) {
