@@ -1,6 +1,6 @@
 {
   "title": "Microphone Input",
-  "description": "In this video, I demonstrate how to use your system microphone as an input to a sketch, controlling elements withe volume.",
+  "description": "In this video, I demonstrate how to use your system microphone as an input to a sketch, controlling elements with the volume.",
   "videoId": "q2IDNkUws-A",
   "nebulaSlug": "",
   "date": "2016-10-17",
@@ -41,7 +41,7 @@
   "codeExamples": [
     {
       "title": "Microphone Input",
-      "description": "This sketch shows how to use your system microphone as an input to a sketch, controlling elements withe volume.",
+      "description": "This sketch shows how to use your system microphone as an input to a sketch, controlling elements with the volume.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/goeU3RUbU"
       }

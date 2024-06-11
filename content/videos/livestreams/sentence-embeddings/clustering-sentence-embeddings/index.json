@@ -1,6 +1,6 @@
 {
   "title": "Sentence Embeddings with transformers.js and UMAP",
-  "description": "In the livestream, I demonstrate how to visualize sentence embeddings with transfomers.js and UMAP",
+  "description": "In the livestream, I demonstrate how to visualize sentence embeddings with transformers.js and UMAP",
   "videoId": "1mwguqeEz8c",
   "date": "2023-12-04",
   "languages": ["Transformers.js"],
@@ -126,7 +126,7 @@
           "icon": "🔗",
           "title": "ONNX Runtime",
           "url": "https://onnxruntime.ai/docs/tutorials/web/",
-          "description": "Tutorial that explains how to run a machine learning model in the brower using ONNX."
+          "description": "Tutorial that explains how to run a machine learning model in the browser using ONNX."
         },
         {
           "icon": "🔗",

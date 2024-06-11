@@ -27,8 +27,8 @@
     { "time": "1:00:40", "title": "Day 3! Dealing with asymmetrical tiles" },
     { "time": "1:01:56", "title": "Assigning index values to edges." },
     { "time": "1:06:53", "title": "Incorporating edges into code." },
-    { "time": "1:10:05", "title": "Change adjacency for assymetry" },
-    { "time": "1:12:06", "title": "First assymetric WFC image!" },
+    { "time": "1:10:05", "title": "Change adjacency for asymmetry" },
+    { "time": "1:12:06", "title": "First asymmetric WFC image!" },
     { "time": "1:12:40", "title": "Restart if no valid cell found." },
     { "time": "1:15:48", "title": "Next steps!" },
     { "time": "1:18:05", "title": "Thanks for watching!" }
@@ -89,13 +89,13 @@
           "icon": "🐞",
           "title": "Encoding tiles symmetry and rotation #14",
           "url": "https://github.com/CodingTrain/Wave-Function-Collapse/issues/14",
-          "description": "Garazbolg's GitHub issue describing a solution for assymmetric tiles."
+          "description": "Garazbolg's GitHub issue describing a solution for asymmetric tiles."
         },
         {
           "icon": "🐞",
           "title": "The issue with asymmetric tiles and an easy solution #16",
           "url": "https://github.com/CodingTrain/Wave-Function-Collapse/issues/16",
-          "description": "Telemako's GitHub issue describing a solution for assymmetric tiles."
+          "description": "Telemako's GitHub issue describing a solution for asymmetric tiles."
         },
         {
           "icon": "🗄",

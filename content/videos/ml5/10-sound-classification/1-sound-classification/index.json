@@ -36,7 +36,7 @@
       "links": [
         {
           "icon": "🔗",
-          "title": "ml5 documentation on the Sound Classifer",
+          "title": "ml5 documentation on the Sound Classifier",
           "url": "https://learn.ml5js.org/#/reference/sound-classifier",
           "description": "ml5 webpage with documentation about the SoundClassifier model."
         },
