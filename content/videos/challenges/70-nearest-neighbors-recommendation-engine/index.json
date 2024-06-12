@@ -16,7 +16,7 @@
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
         { "time": "1:50", "title": "Nearest neighbor" },
-        { "time": "2:44", "title": "Euclidian distance" },
+        { "time": "2:44", "title": "Euclidean distance" },
         { "time": "6:28", "title": "Load the data" },
         { "time": "7:27", "title": "Create drop down menus" },
         {
@@ -43,7 +43,7 @@
       "videoId": "Lo89NLmSgl0",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
-        { "time": "1:01", "title": "euclidianDistance()" },
+        { "time": "1:01", "title": "euclideanDistance()" },
         { "time": "1:44", "title": "Similarity score" },
         { "time": "1:58", "title": "NearestNeighbors()" },
         { "time": "2:51", "title": "Check similarity scores" },
@@ -65,7 +65,7 @@
         { "time": "7:57", "title": "Change \"not seen\" to null" },
         {
           "time": "9:38",
-          "title": "Change euclidianDistance() to receive user object"
+          "title": "Change euclideanDistance() to receive user object"
         },
         { "time": "13:03", "title": "Format similarity score" },
         { "time": "18:06", "title": "Predict star rating" },
@@ -87,7 +87,7 @@
     },
     {
       "title": "Nearest Neighbors - Part 2",
-      "description": "This sketch iterates through all the users to find the \"nearest neigbors\" and list \"similar\" users.",
+      "description": "This sketch iterates through all the users to find the \"nearest neighbors\" and list \"similar\" users.",
       "image": "nn2.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0tBrSEhTg"

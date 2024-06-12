@@ -51,7 +51,7 @@
         { "time": "20:30", "title": "Add a connected segment" },
         { "time": "22:05", "title": "Segment 2 follows the mouse" },
         { "time": "23:15", "title": "Add a linked list" },
-        { "time": "25:52", "title": "The last segement is the \"tentacle\"" },
+        { "time": "25:52", "title": "The last segment is the \"tentacle\"" },
         { "time": "27:28", "title": "Add a child" },
         { "time": "29:00", "title": "Overload the follow function" },
         {

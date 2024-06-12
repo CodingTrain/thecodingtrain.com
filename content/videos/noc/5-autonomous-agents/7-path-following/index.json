@@ -22,7 +22,7 @@
   "codeExamples": [
     {
       "title": "Path Following",
-      "description": "Making a vehicle follow a path projected from the position of the mosue",
+      "description": "Making a vehicle follow a path projected from the position of the mouse",
       "image": "path.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/dqM054vBV" }
     },

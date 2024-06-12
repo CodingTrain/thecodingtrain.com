@@ -31,7 +31,7 @@
   "codeExamples": [
     {
       "title": "Seven-Segment Display",
-      "description": "Implimentation of a seven-segment display",
+      "description": "Implementation of a seven-segment display",
       "image": "seven-segment-display.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/O25p3JYxT",

@@ -1,6 +1,6 @@
 {
   "title": "Pi Day",
-  "description": "Pi, which is the ratio of a circle's circumference to its diameter, is one of the most important mathematical contants.  This track is a compilation of the many challenges I have completed to calculate Pi.",
+  "description": "Pi, which is the ratio of a circle's circumference to its diameter, is one of the most important mathematical constants. This track is a compilation of the many challenges I have completed to calculate Pi.",
   "videos": [
     "challenges/95-approximating-the-value-of-pi",
     "challenges/96-visualizing-digits-of-pi",

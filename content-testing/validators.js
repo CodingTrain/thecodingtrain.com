@@ -87,7 +87,7 @@ const dateRangeValidator = string().test(
   (value, context) => {
     if (!value) return true;
 
-    // yup is too leniant with `.date()` and allows broken string date formats
+    // yup is too lenient with `.date()` and allows broken string date formats
     // we only want to allow `yyyy-mm-dd` or a full ISO 8601 date in UTC
     // see https://github.com/jquense/yup/blob/master/src/util/isodate.js
 

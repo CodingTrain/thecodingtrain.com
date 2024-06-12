@@ -22,11 +22,11 @@ const tagsCleanup = memoTagsCleanup(wordReplacements, tagTransforms);
       o.languages = languages;
       o.topics = topics;
 
-      const udpatedSource = await prettier.format(JSON.stringify(o), {
+      const updatedSource = await prettier.format(JSON.stringify(o), {
         parser: 'json'
       });
 
-      await writeFile(path, udpatedSource);
+      await writeFile(path, updatedSource);
 
       count++;
     }

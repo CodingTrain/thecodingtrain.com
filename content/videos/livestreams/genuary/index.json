@@ -45,7 +45,7 @@
   "codeExamples": [
     {
       "title": "Genuary Repository",
-      "description": "Respository with the code from the Genuary speed run",
+      "description": "Repository with the code from the Genuary speed run",
       "image": "genuary.jpg",
       "urls": { "other": "https://github.com/CodingTrain/Genuary-2023" }
     }

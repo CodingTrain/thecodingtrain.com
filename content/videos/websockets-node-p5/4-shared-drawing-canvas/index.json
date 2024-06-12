@@ -12,11 +12,11 @@
     { "time": "0:33", "title": "Sending messages from the clients" },
     {
       "time": "3:02",
-      "title": "Recieving messages from the clients by the web server"
+      "title": "Receiving messages from the clients by the web server"
     },
     {
       "time": "7:17",
-      "title": "Recieving messages from the server by the clients"
+      "title": "Receiving messages from the server by the clients"
     },
     {
       "time": "8:39",

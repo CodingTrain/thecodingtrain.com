@@ -38,7 +38,7 @@
   "codeExamples": [
     {
       "title": "Linear Regression",
-      "description": "This sketch creates an interactive simulation of linear regresssion.",
+      "description": "This sketch creates an interactive simulation of linear regression.",
       "image": "",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/UtOWCSYYF" }
     }

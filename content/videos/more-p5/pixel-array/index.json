@@ -15,7 +15,7 @@
     { "time": "3:48", "title": "R, G, B values" },
     { "time": "6:26", "title": "The formula for getting the numerical pixel on the screen" },
     { "time": "7:43", "title": "loadPixels and updatePixels" },
-    { "time": "10:00", "title": "Using a nexted loop to change every pixel" },
+    { "time": "10:00", "title": "Using a nested loop to change every pixel" },
     { "time": "13:00", "title": "Using pixelDensity() to deal with high density displays" },
     { "time": "14:21", "title": "Outro" }
   ],

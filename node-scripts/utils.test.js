@@ -65,7 +65,7 @@ describe('memoTagsCleanup()', () => {
 
   it('transforms individual common key words', () => {
     expect(tagsCleanup(['3d'])).toStrictEqual(['3D']);
-    expect(tagsCleanup(['3d at begining'])).toStrictEqual(['3D at begining']);
+    expect(tagsCleanup(['3d at beginning'])).toStrictEqual(['3D at beginning']);
     expect(tagsCleanup(['middle 3d keyword'])).toStrictEqual([
       'middle 3D keyword'
     ]);

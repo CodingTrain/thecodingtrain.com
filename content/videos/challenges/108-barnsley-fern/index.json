@@ -34,7 +34,7 @@
     },
     {
       "time": "11:12",
-      "title": "Pick a random number to choose the tranformation"
+      "title": "Pick a random number to choose the transformation"
     },
     { "time": "12:08", "title": "Add nextPoint, drawPoint functions" },
     { "time": "13:51", "title": "Add probabilities" },
