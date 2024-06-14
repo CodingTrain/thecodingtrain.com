@@ -17,6 +17,7 @@
     "test": "jest",
     "testv": "jest --verbose",
     "yt-desc": "node node-scripts/yt-description.mjs",
+    "update-yt": "node node-scripts/update-yt.mjs",
     "tags-transforms": "node node-scripts/tags-transforms",
     "formatc": "prettier \"content/**/*.json\" --write"
   },
@@ -57,6 +58,9 @@
   },
   "devDependencies": {
     "glob": "^10.3.10",
+    "google-auth-library": "^9.11.0",
+    "googleapis": "^140.0.0",
+    "inquirer": "^9.2.23",
     "jest": "^29.7.0",
     "lodash": "^4.17.21",
     "prettier": "^3.0.3",
