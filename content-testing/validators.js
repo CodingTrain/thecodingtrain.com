@@ -319,7 +319,8 @@ const relativeLinks = {
   '/guides': slugs.guides,
   '/showcase': new Set(),
   '/faq': new Set(),
-  '/about': new Set()
+  '/about': new Set(),
+  '/discord': new Set()
 };
 
 const urlOrRelativeLinkValidator = string().test(
