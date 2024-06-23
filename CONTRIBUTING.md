@@ -23,7 +23,7 @@ Here are the types of contributions we are looking for:
 
 1. Share your creative work inspired by a coding challenge or tutorial in the showcase!
 
-   - You can submit your showcase with the [Passenger Showcase Form](http://thecodingtrain.com/submit)
+   - You can submit your showcase with the [Passenger Showcase Form](https://thecodingtrain.com/submit)
 
 2. Add a new track to the site! (https://github.com/CodingTrain/thecodingtrain.com/issues/279)
 

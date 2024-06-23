@@ -1,10 +1,7 @@
 {
   "question": "Where can I find help with my code?",
   "answer": {
-    "text": "We have a friendly and helpful community in the [Coding Train Discord](https://thecodingtrain.com/discord), which has a number of help channels. You can also visit [The Processing Foundation's forum](https://discourse.processing.org/), a great place to ask specific questions related to Processing and p5.js.",
-    "list": [
-      "[The Coding Train's Discord](https://thecodingtrain.com/discord)",
-      "[The Processing Foundation's Forum](https://discourse.processing.org/)"
-    ]
+    "text": "We have a friendly and helpful community in the [Coding Train Discord](/discord), which has a number of help channels. You can also visit [The Processing Foundation's forum](https://discourse.processing.org/), a great place to ask specific questions related to Processing and p5.js.",
+    "list": ["[The Coding Train's Discord](/discord)", "[The Processing Foundation's Forum](https://discourse.processing.org/)"]
   }
 }

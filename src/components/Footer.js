@@ -47,14 +47,14 @@ const Footer = () => {
 
       <nav className={cn(css.box)} aria-labelledby="cafe-car-navigation">
         <h3 id="cafe-car-navigation">
-          <a href="https://thecodingtrain.com/discord">The Cafe Car!</a>
+          <a href="/discord">The Cafe Car!</a>
         </h3>
         <div className={css.action}>
           <p>
             Join the Coding Train Discord to chat with the community and get
             help with your code from the Station Managers.
           </p>
-          <a className={css.cta} href="https://thecodingtrain.com/discord">
+          <a className={css.cta} href="/discord">
             Join Discord now
           </a>
         </div>
@@ -121,7 +121,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://thecodingtrain.com/discord" aria-label="Discord">
+            <a href="/discord" aria-label="Discord">
               <FaDiscord size={30} />
               <span>Discord</span>
             </a>
@@ -174,7 +174,7 @@ const Footer = () => {
             <Link to="/showcase">Showcase</Link>
           </li>
           <li>
-            <a href="https://thecodingtrain.com/discord">Discord</a>
+            <a href="/discord">Discord</a>
           </li>
           <li>
             <a href="https://github.com/CodingTrain">GitHub</a>

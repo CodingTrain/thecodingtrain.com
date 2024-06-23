@@ -153,7 +153,7 @@ git push --set-upstream origin branch-name
 
 7. Check the links to the references and videos to make sure are not broken and add additional metadata. Add a link (s) to any archived Live Streams associated with the challenge.
 
-   - For accessibilty and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
+   - For accessibility and for general clarity, ensure that all "description" properties in the index.json file as well as the contribution JSON files are filled in with at least 1 sentence.
    - Update the "languages" property in the "index.json" file. In this instance, "languages" refers to the programming language(s) used in the challenge. For example: "p5.js", "JavaScript", "Processing", or "node.js".
    - Update the "topics" property in the "index.json" file. If any tags were present on the YouTube page of the challenge, those would have been brought over by the web scraper and included as "topics". The tags from YouTube are pretty generic and overall too much information. Only a handful of topics are needed, so only include topics that are relevant to this specific video. If no tags were present on the YouTube page, then this may be blank - go ahead and add a couple of topics!
    - Use the Description on the YouTube video for additional links to add as "References" or "Videos" in the "groupLinks" property in the "index.json" file. Also, add in links to Wikipedia about whatever concept is being discussed, or links to p5.js or Processing documentation about any special functions that are used in the video, or links to whatever other resource may help to further explain a concept.
@@ -378,7 +378,7 @@ from GitHub.
 ## Troubleshooting
 
 Sometimes, things don't work like they should. If you get stuck, don't worry!
-Feel free to ask for help at any time, file an issue or come say hello in the [Coding Train Discord](https://thecodingtrain.com/discord).
+Feel free to ask for help at any time, file an issue or come say hello in the [Coding Train Discord](/discord).
 
 ## Adding a New Event
 
