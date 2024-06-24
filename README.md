@@ -17,7 +17,7 @@ This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/
 
 ## Development info
 
-When updating the website, it is helpful to run the website locally in order to quickly see the changes made. Make sure you have Node.js version `18.x` installed and then perform the following steps:
+When updating the website, it is helpful to run the website locally in order to quickly see the changes made. Make sure you have Node.js version `20.x` installed and then perform the following steps:
 
 1. Clone down the repo to your computer and `cd` into the folder
 2. Run `npm install`

@@ -49,4 +49,4 @@ To find an issue that you want to fix, scan through the list. You may find that 
 
 ### Development Environment
 
-Make sure you have Node.js version `18.x` as well as npm installed. You can find how to test your changes locally [here](https://github.com/CodingTrain/thecodingtrain.com#development-info).
+Make sure you have Node.js version `20.x` as well as npm installed. You can find how to test your changes locally [here](https://github.com/CodingTrain/thecodingtrain.com#development-info).
