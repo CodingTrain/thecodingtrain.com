@@ -23,7 +23,7 @@
   "codeExamples": [
     {
       "title": "GIF Loop",
-      "description": "This sketch demonstates how to create a looping GIF.",
+      "description": "This sketch demonstrates how to create a looping GIF.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/Hk6RTHBCl",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/135_GIF_Loop/Processing/CC_135_GIF_Loop"
@@ -50,7 +50,7 @@
           "icon": "💾",
           "title": "Loop Templates",
           "url": "https://github.com/golanlevin/LoopTemplates",
-          "description": "Golan Levin's Github respository with templates for generating animated seamless loops in Processing, p5.js, and Processing.py."
+          "description": "Golan Levin's Github repository with templates for generating animated seamless loops in Processing, p5.js, and Processing.py."
         },
         {
           "icon": "🖌",

@@ -1,13 +1,15 @@
 # Coding Train Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repo holds the website for [thecodingtrain.com](https://thecodingtrain.com/). The website is built with:
 
 - [Gatsby](https://www.gatsbyjs.com/) to perform the static site rendering
-- [React](https://reactjs.org/) as the general JavaScript framework
+- [React](https://react.dev/) as the general JavaScript framework
 
 ## Table of Contents
 

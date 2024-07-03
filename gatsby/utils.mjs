@@ -35,7 +35,7 @@ const timestampToSeconds = (timestamp) => {
 };
 
 /**
- * Add computed seconds to an array of Timestamp objets (creates a new array).
+ * Add computed seconds to an array of Timestamp objects (creates a new array).
  * @param {{ time: string }[]} timestamps
  * @returns {{ time: string, seconds: number }[]} the timestamps with computed seconds
  */

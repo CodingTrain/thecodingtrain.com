@@ -24,7 +24,7 @@
   "codeExamples": [
     {
       "title": "Zoom Annotations Basic - p5 Web Editor",
-      "description": "The video implements zoom annotaions with p5.js, ml5.s, Teachable Machine and OBS Studio.",
+      "description": "The video implements zoom annotations with p5.js, ml5.s, Teachable Machine and OBS Studio.",
       "image": "zoom.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EaioB_iJs" }
     }

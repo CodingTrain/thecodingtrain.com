@@ -29,7 +29,7 @@
   ],
   "codeExamples": [
     {
-      "title": "Tic tac toe wth Minimax",
+      "title": "Tic tac toe with Minimax",
       "description": "A tic tac toe AI with the Minimax algorithm",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/0zyUhZdJD",

@@ -10,11 +10,11 @@
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:33", "title": "Gene Kogan's examples" },
-    { "time": "1:22", "title": "feature extractor documentaiton page" },
+    { "time": "1:22", "title": "feature extractor documentation page" },
     { "time": "1:50", "title": "Let's code!" },
     { "time": "3:55", "title": "Training our own labels" },
     { "time": "4:22", "title": "addImage() and label" },
-    { "time": "7:02", "title": "Apply a trainig set" },
+    { "time": "7:02", "title": "Apply a training set" },
     { "time": "8:49", "title": "classifier.train()" },
     { "time": "9:40", "title": "loss/cost function" },
     { "time": "12:15", "title": "When do you stop training?" },

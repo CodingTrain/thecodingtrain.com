@@ -39,7 +39,7 @@
     { "time": "41:04", "title": "Validate the circles" },
     { "time": "42:35", "title": "Check if all 4 circles are tangent" },
     { "time": "48:04", "title": "Stop adding circles when radius falls below a threshold" },
-    { "time": "49:20", "title": "Implement arbirtary arrangement of circles" },
+    { "time": "49:20", "title": "Implement arbitrary arrangement of circles" },
     { "time": "53:14", "title": "Debug" },
     { "time": "55:32", "title": "Possible variations" },
     { "time": "56:34", "title": "Outro" }

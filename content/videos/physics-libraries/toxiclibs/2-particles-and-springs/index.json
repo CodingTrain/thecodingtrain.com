@@ -1,6 +1,6 @@
 {
   "title": "ToxicLibs - Particles and Springs",
-  "description": "This video explains how to use particles and springs to create bodies using the ToxicLibs libary.",
+  "description": "This video explains how to use particles and springs to create bodies using the ToxicLibs library.",
   "videoId": "3v7SsOdxxww",
   "nebulaSlug": "",
   "date": "2015-08-07",
@@ -84,7 +84,7 @@
           "icon": "🔗",
           "title": "ToxicLibs Java Reference",
           "url": "https://shiffman.github.io/toxiclibs-javadocs/",
-          "description": "Documentation for the ToxicLibs libary."
+          "description": "Documentation for the ToxicLibs library."
         }
       ]
     },

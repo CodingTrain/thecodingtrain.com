@@ -14,7 +14,7 @@
     { "time": "1:10", "title": "The DFA algorithm" },
     { "time": "3:36", "title": "Create a tree array" },
     { "time": "4:30", "title": "Create a random walker" },
-    { "time": "8:44", "title": "Release mulitple walkers at a time" },
+    { "time": "8:44", "title": "Release multiple walkers at a time" },
     { "time": "10:11", "title": "Create a Walker object" },
     { "time": "12:39", "title": "Create an array of walkers" },
     {

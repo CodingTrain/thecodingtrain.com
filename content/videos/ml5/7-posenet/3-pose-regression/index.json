@@ -41,7 +41,7 @@
     },
     {
       "title": "Deploying",
-      "description": "Code for deplying the trained model.",
+      "description": "Code for deploying the trained model.",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/nejAYCA6N" }
     }
   ],

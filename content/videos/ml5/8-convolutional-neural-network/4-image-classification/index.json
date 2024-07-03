@@ -13,7 +13,7 @@
     { "time": "0:45", "title": "Errors in previous video" },
     { "time": "1:46", "title": "Review training with pixels" },
     { "time": "2:37", "title": "Update to the ml library" },
-    { "time": "2:53", "title": "Specifiy the task: image classification" },
+    { "time": "2:53", "title": "Specify the task: image classification" },
     { "time": "3:31", "title": "Specify the characteristics of the data" },
     { "time": "5:11", "title": "Adjust addExample function" },
     { "time": "7:11", "title": "Train the model" },

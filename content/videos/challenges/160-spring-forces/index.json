@@ -91,7 +91,7 @@
     },
     {
       "title": "Spring Vector",
-      "description": "Implemention with a vector.",
+      "description": "Implementation with a vector.",
       "image": "springvector.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/_A2pm_SSg",
@@ -100,7 +100,7 @@
     },
     {
       "title": "Spring OOP",
-      "description": "Implemention with OOP.",
+      "description": "Implementation with OOP.",
       "image": "springOOP.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/9BAoEn4Po",
@@ -109,7 +109,7 @@
     },
     {
       "title": "Soft Spring",
-      "description": "Implemention with a soft spring",
+      "description": "Implementation with a soft spring",
       "image": "softspring.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/S5dY7qjxP",

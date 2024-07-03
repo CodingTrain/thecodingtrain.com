@@ -28,7 +28,7 @@
   "codeExamples": [
     {
       "title": "Interactive Selection",
-      "description": "This sketch demonstrates using interactive selction to increment the fitness values",
+      "description": "This sketch demonstrates using interactive selection to increment the fitness values",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/natureofcode/sketches/dUeAaapkQ"

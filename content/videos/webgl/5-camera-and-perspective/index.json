@@ -26,7 +26,7 @@
   "codeExamples": [
     {
       "title": "Camera",
-      "description": "This sketch demonstates how the camera interacts with the scene.",
+      "description": "This sketch demonstrates how the camera interacts with the scene.",
       "image": "img1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/qXjZDCEsz"
@@ -42,7 +42,7 @@
     },
     {
       "title": "Orthographic Projection",
-      "description": "This sketch demonstates orthographic projection.",
+      "description": "This sketch demonstrates orthographic projection.",
       "image": "img3.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/rzXV1dYan"

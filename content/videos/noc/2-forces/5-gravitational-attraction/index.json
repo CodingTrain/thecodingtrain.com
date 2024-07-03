@@ -15,7 +15,7 @@
     { "time": "7:52", "title": "Add an attract function" },
     { "time": "10:46", "title": "Role of distance squared" },
     { "time": "11:52", "title": "Constrain the range of distance squared" },
-    { "time": "12:33", "title": "Give mover an inital velocity" },
+    { "time": "12:33", "title": "Give mover an initial velocity" },
     { "time": "13:25", "title": "Give the background some alpha" },
     { "time": "13:44", "title": "Add an array of mover objects" },
     { "time": "15:12", "title": "Possible variations" }

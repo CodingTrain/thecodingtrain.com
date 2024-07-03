@@ -6,7 +6,7 @@
   "nebulaSlug": "the-coding-train-yt-coding-in-the-cabana-4-worley-noise",
   "date": "2020-05-09",
   "languages": ["p5.js"],
-  "topics": ["Worley noise", "cellular texture", "tesselation", "distance"],
+  "topics": ["Worley noise", "cellular texture", "tessellation", "distance"],
   "canContribute": true,
   "relatedChallenges": [
     "24-perlin-noise-flow-field",
@@ -69,7 +69,7 @@
           "icon": "💾",
           "title": "saveFrame() (Processing Reference)",
           "url": "https://processing.org/reference/saveFrame_.html",
-          "description": "Reference on saveFram()."
+          "description": "Reference on saveFrame()."
         }
       ]
     },

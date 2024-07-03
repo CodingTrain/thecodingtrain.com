@@ -73,7 +73,7 @@
     },
     {
       "title": "Metaballs Interpolation",
-      "description": "Visualization of marching squares with metaballs iterpolation.",
+      "description": "Visualization of marching squares with metaballs interpolation.",
       "image": "interpolation.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/hEB4588QC",
