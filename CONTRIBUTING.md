@@ -23,7 +23,7 @@ Here are the types of contributions we are looking for:
 
 1. Share your creative work inspired by a coding challenge or tutorial in the showcase!
 
-   - You can submit your showcase with the [Passenger Showcase Form](http://thecodingtrain.com/submit)
+   - You can submit your showcase with the [Passenger Showcase Form](https://thecodingtrain.com/submit)
 
 2. Add a new track to the site! (https://github.com/CodingTrain/thecodingtrain.com/issues/279)
 
@@ -49,4 +49,4 @@ To find an issue that you want to fix, scan through the list. You may find that 
 
 ### Development Environment
 
-Make sure you have Node.js version `18.x` as well as npm installed. You can find how to test your changes locally [here](https://github.com/CodingTrain/thecodingtrain.com#development-info).
+Make sure you have Node.js version `20.x` as well as npm installed. You can find how to test your changes locally [here](https://github.com/CodingTrain/thecodingtrain.com#development-info).
