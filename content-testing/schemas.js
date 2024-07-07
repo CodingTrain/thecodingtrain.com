@@ -289,7 +289,7 @@ const socialGroup = strictObject({
   title: string().required(),
   links: array(
     strictObject({
-      url: string().url().required(),
+      url: urlOrRelativeLinkValidator.required(),
       site: string()
         .oneOf(['twitter', 'discord', 'instagram', 'youtube', 'github'])
         .required()
