@@ -28,34 +28,49 @@ for (const jsonPath of paths.videos) {
     fs.rmSync(path.join(baseDir, filename), { force: true });
   });
 
-  const { videoId } = JSON.parse(fs.readFileSync(jsonPath));
-
-  console.log(videoId);
+  const video = JSON.parse(fs.readFileSync(jsonPath));
+  const isMultiPart = !!video.parts;
+  let videoId = isMultiPart ? video.parts[0].videoId : video.videoId;
 
   // download thumbnail from YouTube CDN
-  const thumbnailPaths = [
-    `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`, // highest resolution (might not be available for 720p videos)
-    `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` // fallback
+  const thumbnailResolutions = [
+    'maxresdefault', // 1280x720 - may not be available for 720p videos
+    'sddefault', // 640x480
+    'hqdefault', // 480x360
+    'mqdefault', // 320x180
+    'default' // 120x90
   ];
 
   let buffer;
-  for (const thumbnailPath of thumbnailPaths) {
+  let resolution;
+  for (const thumbnailResolution of thumbnailResolutions) {
+    resolution = thumbnailResolution;
+
+    // const thumbnailPath = `https://img.youtube.com/vi_webp/${videoId}/${resolution}.webp`;
+    const thumbnailPath = `https://img.youtube.com/vi/${videoId}/${resolution}.jpg`;
     buffer = await getImage(thumbnailPath);
     if (buffer) break;
 
-    console.warn(`Failed to download ${thumbnailPath}`);
+    console.warn(
+      videoId,
+      `🟠`,
+      resolution,
+      `| missing, trying lower resolution...`
+    );
   }
 
   if (!buffer) {
     console.error(
-      `Failed to locate a thumbnail for ${videoId} - process aborted.`
+      `🔴 Failed to locate a thumbnail for ${videoId} - process aborted.`
     );
     process.exit(1);
   }
+
+  console.log(videoId, '🟢', resolution, '\n');
 
   // write file to disk
   fs.writeFileSync(path.join(baseDir, 'index.jpg'), buffer);
 
   // sleep for a bit to avoid spamming / getting blocked
-  await sleep(100 + Math.random() * 500);
+  await sleep(100 + Math.random() * 300);
 }
