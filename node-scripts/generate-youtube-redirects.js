@@ -52,4 +52,6 @@ fs.writeFileSync(
   JSON.stringify(redirects)
 );
 
-console.log(`${Object.keys(redirects).length} YouTube redirects we generated.`);
+console.log(
+  `${Object.keys(redirects).length} YouTube redirects were generated.`
+);
