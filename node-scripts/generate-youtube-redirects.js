@@ -1,8 +1,8 @@
 const fs = require('node:fs');
 const { paths, toSlug } = require('../content-testing/content');
 
-// Generates a JSON file with mappings of YouTube video IDS to their challenge or track URL
-// Priotity: challenge > canonicalTrack > track
+// Generates a JSON file that maps YouTube IDs to their challenge or track URL
+// Priority: challenge > canonical track > track
 
 const redirects = {};
 
