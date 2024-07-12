@@ -4,7 +4,7 @@
   "description": "What happens when two circles collide in a p5.js canvas? In this video, I examine the math and implement idealized elastic collisions in a physics simulation. This video supplements the Nature of Code book series in Chapter 6 which uses 3rd party physics libraries to handle collisions rather than a direct implementation.",
   "videoId": "dJNFPv9Mj-Y",
   "nebulaSlug": "codingtrain-coding-challenge-184-elastic-collisions",
-  "date": "2024-07-13",
+  "date": "2024-07-12",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["collisions", "physics simulation"],
   "canContribute": true,
