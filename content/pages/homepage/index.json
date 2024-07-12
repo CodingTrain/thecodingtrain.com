@@ -31,7 +31,7 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "183-mathematical-marbling",
+      "184-elastic-collisions",
       "64-kinematics",
       "125-fourier-series",
       "28-metaballs",
