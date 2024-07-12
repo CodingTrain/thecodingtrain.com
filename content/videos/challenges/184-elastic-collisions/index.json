@@ -52,6 +52,12 @@
         {
           "icon": "🔗",
           "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "The Nature of Code book (2024 p5.js edition)"
+        },
+        {
+          "icon": "🔗",
+          "title": "Pre-order The Nature of Code",
           "url": "https://nostarch.com/nature-code",
           "description": "The Nature of Code book (2024 p5.js edition) is now available for pre-order!"
         },
