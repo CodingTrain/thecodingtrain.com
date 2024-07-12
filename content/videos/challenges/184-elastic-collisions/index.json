@@ -63,15 +63,15 @@
         },
         {
           "icon": "🔗",
-          "title": "",
-          "url": "",
-          "description": ""
+          "title": "2-Dimensional Elastic Collisions without Trigonometry",
+          "url": "https://www.vobarian.com/collisions/2dcollisions2.pdf",
+          "description": "Introduction to solving collisions without complicated trigonometry."
         },
         {
           "icon": "🔗",
-          "title": "",
-          "url": "",
-          "description": ""
+          "title": "Elastic Collisions",
+          "url": "https://dipamsen.github.io/notebook/collisions.pdf",
+          "description": "Dipam Sen's paper on elastic collisions"
         }
       ]
     }
