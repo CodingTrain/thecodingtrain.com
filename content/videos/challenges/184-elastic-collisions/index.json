@@ -6,7 +6,7 @@
   "nebulaSlug": "codingtrain-coding-challenge-184-elastic-collisions",
   "date": "2024-07-12",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["elastic collisions", "physic's simulation"],
+  "topics": ["elastic collisions", "physics simulation"],
   "canContribute": true,
   "relatedChallenges": ["67-pong", "98-quadtree", "139-calculating-digits-of-pi-with-collisions", "176-buffon-needle"],
   "timestamps": [
