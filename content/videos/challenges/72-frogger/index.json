@@ -2,7 +2,7 @@
   "title": "Frogger",
   "description": "In this multi-part challenge, I create a simplified version of the classic Atari video game Frogger in Processing (Java).",
   "videoNumber": "72",
-  "videoId": "giXV6xErw0Y",
+  "videoId": "",
   "date": "2017-06-14",
   "languages": ["Processing"],
   "topics": ["game mechanics", "Atari Frogger game", "inheritance"],

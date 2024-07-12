@@ -2,7 +2,7 @@
   "title": "Neuroevolution Flappy Bird",
   "description": "In this challenge, I use my JavaScript neural network library and a genetic algorithm to train an agent to play Flappy Bird.",
   "videoNumber": "100",
-  "videoId": "c6y21FkaUqw",
+  "videoId": "",
   "date": "2018-04-16",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["neural network", "reinforcement learning", "genetic algorithms", "evolution", "Flappy Bird game"],
