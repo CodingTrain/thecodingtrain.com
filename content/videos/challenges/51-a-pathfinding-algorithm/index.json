@@ -2,7 +2,6 @@
   "title": "A* Pathfinding Algorithm",
   "description": "In this multi-part coding challenge, I attempt an implementation of the A* Pathfinding Algorithm to find the optimal path between two points in a 2D grid.",
   "videoNumber": "51",
-  "videoId": "",
   "date": "2017-01-16",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["A* algorithm", "pathfinding", "heuristic"],

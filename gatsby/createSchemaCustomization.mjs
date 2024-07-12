@@ -6,7 +6,7 @@ const schema = /* GraphQL */ `
     id: ID!
     title: String!
     slug: String!
-    videoId: String!
+    videoId: String
     description: String!
     date: String
     videoNumber: String
@@ -32,7 +32,7 @@ const schema = /* GraphQL */ `
     id: ID!
     title: String!
     slug: String!
-    videoId: String!
+    videoId: String
     description: String!
     date: String
     videoNumber: String
@@ -58,7 +58,7 @@ const schema = /* GraphQL */ `
     id: ID!
     title: String!
     slug: String!
-    videoId: String!
+    videoId: String
     description: String!
     date: String
     videoNumber: String

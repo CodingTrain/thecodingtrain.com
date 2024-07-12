@@ -2,7 +2,6 @@
   "title": "Traveling Salesperson",
   "description": "In Part 1 of this multi-part coding challenge, I introduce the classic computer science problem of the Traveling Salesperson (TSP) and discuss the pitfalls with a brute force solution. In Part 2, I discuss Lexicographic Ordering and demonstrate one algorithm to iterate over all the permutations of an array. In Part 3, I apply this algorithm to a brute-force solution of the TSP problem. Every single route permutation is checked one by one. In Part 4, I attempt to create a solution to the TSP problem with a genetic algorithm, and then I add a “crossover” algorithm in Part 5.",
   "videoNumber": "35",
-  "videoId": "",
   "date": "2016-08-24",
   "languages": ["p5.js"],
   "topics": [

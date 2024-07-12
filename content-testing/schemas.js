@@ -27,7 +27,7 @@ const baseVideosSchema = strictObject({
       ? schema.test(
           'videoId and parts conflict',
           'Top-level "videoId" should not be defined if "parts" exist',
-          (value) => !value
+          (value) => value === undefined
         )
       : schema.required();
   }),

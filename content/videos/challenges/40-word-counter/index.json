@@ -2,7 +2,6 @@
   "title": "Word Counter",
   "description": "In this challenge, we build a word counting (concordance) application, and visualize the frequency of each word using variable font size! We also implement the TF-IDF algorithm",
   "videoNumber": "40",
-  "videoId": "",
   "date": "2016-10-10",
   "languages": ["p5.js", "Processing", "JavaScript", "Java"],
   "topics": ["word counting", "visualization", "tf-idf"],

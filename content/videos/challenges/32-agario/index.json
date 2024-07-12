@@ -2,7 +2,6 @@
   "title": "Agar.io",
   "description": "In this multi-part coding challenge, I create a clone of the multiplayer online game Agar.io with JavaScript, node.js and websockets.",
   "videoNumber": "32",
-  "videoId": "",
   "date": "2016-08-16",
   "languages": ["JavaScript", "Node.js"],
   "topics": ["agar.io", "WebSocket"],
