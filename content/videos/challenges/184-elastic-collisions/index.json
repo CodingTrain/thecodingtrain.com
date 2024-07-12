@@ -50,13 +50,13 @@
       "title": "References",
       "links": [
         {
-          "icon": "🔗",
+          "icon": "📕",
           "title": "The Nature of Code",
           "url": "https://natureofcode.com/",
           "description": "The Nature of Code book (2024 p5.js edition)"
         },
         {
-          "icon": "🔗",
+          "icon": "🛒",
           "title": "Pre-order The Nature of Code",
           "url": "https://nostarch.com/nature-code",
           "description": "The Nature of Code book (2024 p5.js edition) is now available for pre-order!"
@@ -68,16 +68,16 @@
           "description": "Wikipedia article discussing elastic collisions."
         },
         {
-          "icon": "🔗",
+          "icon": "📃",
           "title": "2-Dimensional Elastic Collisions without Trigonometry",
           "url": "https://www.vobarian.com/collisions/2dcollisions2.pdf",
           "description": "Introduction to solving collisions without complicated trigonometry."
         },
         {
-          "icon": "🔗",
-          "title": "Elastic Collisions",
+          "icon": "📃",
+          "title": "Elastic Collisions Formula Derivation",
           "url": "https://dipamsen.github.io/notebook/collisions.pdf",
-          "description": "Dipam Sen's paper on elastic collisions"
+          "description": "Explanation and derivation for formula of elastic collisions, by Dipam Sen."
         }
       ]
     }
