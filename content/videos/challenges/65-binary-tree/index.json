@@ -2,7 +2,6 @@
   "title": "Binary Tree",
   "description": "This multi-part coding challenge is part of the first week of my course: \"Intelligence and Learning.\" Here I attempt to implement a classic data structure: The Binary Search Tree.",
   "videoNumber": "65",
-  "videoId": "ZNH0MuQ51m4",
   "date": "2017-03-21",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["tree", "binary search", "data structure", "intelligence and learning"],

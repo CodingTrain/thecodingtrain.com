@@ -2,7 +2,6 @@
   "title": "Asteroids",
   "description": "In this two part coding challenge, I use the p5.js library to create my own version of the classic Atari video game Asteroids!",
   "videoNumber": "46",
-  "videoId": "",
   "date": "2016-12-15",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["Atari Asteroids game", "polar to Cartesian coordinates"],

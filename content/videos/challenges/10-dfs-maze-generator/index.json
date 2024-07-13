@@ -2,7 +2,6 @@
   "title": "Maze Generator",
   "description": "Choo choo! In this multi-part coding challenge, I create a maze generator using a depth-first search algorithm with recursive backtracking. The idea is to walk through a grid of cells, removing walls as we go to build a maze.",
   "videoNumber": "10",
-  "videoId": "",
   "date": "2016-05-02",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["maze", "recursion", "backtracking", "depth-first search"],

@@ -2,7 +2,6 @@
   "title": "The Book of Pi",
   "description": "In yet another “Pi Day” coding challenge, I attempt to generate a pdf “Book of Pi” with the first 10 million digits of Pi mapped to color. Processing (Java) is used for this project.",
   "videoNumber": "97",
-  "videoId": "",
   "date": "2018-03-20",
   "languages": ["Processing", "Java"],
   "topics": ["Pi", "Pi day", "visualization"],

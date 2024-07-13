@@ -2,7 +2,6 @@
   "title": "Drawing with Fourier Transform and Epicycles",
   "description": "In this coding challenge, I implement the Discrete Fourier Transform algorithm in JavaScript and render a drawing using epicycles derived from the transform.",
   "videoNumber": "130",
-  "videoId": "MY4luNgGfms",
   "date": "2019-01-24",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["Fourier transform square wave", "discrete Fourier transform", "epicycles drawing"],

@@ -2,7 +2,6 @@
   "title": "Plinko with Matter.js",
   "description": "I love all things random and chance so why not make a Plink simulation with the matter.js physics engine and p5.js!",
   "videoNumber": "62",
-  "videoId": "KakpnfDv_f0",
   "date": "2017-03-10",
   "languages": ["JavaScript", "p5.js", "Matter.js"],
   "topics": ["collision detection", "matter.js", "physics engine", "Plinko game"],

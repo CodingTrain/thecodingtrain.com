@@ -2,7 +2,6 @@
   "title": "Breadth-First Search",
   "description": "In this two part challenge, I implement the Breadth-First Search algorithm in JavaScript. My demo application is \"6 Degrees of Kevin Bacon\" (finding the closest relationship between Kevin Bacon and another actor).",
   "videoNumber": "68",
-  "videoId": "piBq7VD0ZSo",
   "date": "2017-03-30",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["breadth-first search algorithm", "Six Degrees of Kevin Bacon"],
