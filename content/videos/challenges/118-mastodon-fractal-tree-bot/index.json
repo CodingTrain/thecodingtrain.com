@@ -1,22 +1,41 @@
 {
   "title": "Mastodon Fractal Tree Bot",
   "description": "In part 1 of this coding challenge, I create a node.js Mastodon bot that posts images (fractal trees) generated with Processing code. In part 2, I revise the node.js Mastodon bot to post images (fractal trees) in response to user mentions.",
-  "videoId": "luxczHFn1rU",
   "videoNumber": "118",
   "date": "2018-10-16",
-  "languages": ["Processing", "JavaScript", "Java", "Node.js"],
+  "languages": ["Processing", "JavaScript", "Java", "Node.js", "command-line interface (CLI)"],
   "topics": ["Mastodon", "bots", "fractals"],
   "canContribute": true,
-  "relatedChallenges": [],
+  "relatedChallenges": [
+    "174-graphics-applesoft-basic",
+    "14-fractal-trees-recursive",
+    "15-object-oriented-fractal-trees",
+    "18-3d-fractal-trees"
+  ],
   "timestamps": [],
   "parts": [
     {
-      "title": "Part 1 - ?",
+      "title": "Part 1 - Creating fractal tree images and posting them with a Mastodon bot",
       "videoId": "luxczHFn1rU",
-      "timestamps": [{ "time": "0:00", "title": "Introduction" }]
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:52", "title": "Inspiration for the challenge" },
+        { "time": "1:06", "title": "Generate a random fractal tree image with Processing" },
+        { "time": "2:48", "title": "How can Node.js and Processing communicate?" },
+        { "time": "3:50", "title": "Calling a Processing sketch from the command line" },
+        { "time": "6:10", "title": "Using Node.js to execute the sketch" },
+        { "time": "9:00", "title": "Async with promises" },
+        { "time": "11:57", "title": "Reading stdout value" },
+        { "time": "13:50", "title": "Use `mastodon-api` to POST the image" },
+        { "time": "21:40", "title": "Refactor promises chain to async/await" },
+        { "time": "25:20", "title": "Reference the image in a new status" },
+        { "time": "30:07", "title": "Extract the angle value from stdout" },
+        { "time": "33:00", "title": "Make the bot post at a predetermined interval" },
+        { "time": "36:30", "title": "Hosting and Part 2 tutorial teaser" }
+      ]
     },
     {
-      "title": "Part 2 - ?",
+      "title": "Part 2 - Revising the bot to reply to user mentions",
       "videoId": "PUPWPjjkNqQ",
       "timestamps": [
         { "time": "0:00", "title": "Introduction" },
@@ -32,8 +51,64 @@
       ]
     }
   ],
-  "codeExamples": [],
-  "groupLinks": [],
+  "codeExamples": [
+    {
+      "title": "Source code",
+      "description": "Mastodon bot and fractal tree generator source code",
+      "urls": {
+        "node": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Lowpoly Bot",
+          "url": "https://twitter.com/lowpolybot",
+          "description": ""
+        },
+        {
+          "icon": "🔗",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en",
+          "description": ""
+        },
+        {
+          "icon": "🔗",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": ""
+        },
+        {
+          "icon": "🔗",
+          "title": "The Coding Train on Mastodon",
+          "url": "https://mastodon.social/@codingtrain@choochoo.space",
+          "description": ""
+        },
+        {
+          "icon": "🔗",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": ""
+        },
+        {
+          "icon": "🎥",
+          "title": "What is Mastodon?",
+          "url": "/tracks/mastodon/mastodon/what-is-mastodon",
+          "description": ""
+        },
+        {
+          "icon": "🔗",
+          "title": "The 'procesing-java' command",
+          "url": "https://github.com/processing/processing/wiki/Command-Line",
+          "description": "Running Processing sketches from the command line"
+        }
+      ]
+    }
+  ],
   "credits": [
     { "title": "Editing", "name": "Mathieu Blanchette" },
     { "title": "Animations", "name": "Jason Heglund" }
