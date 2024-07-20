@@ -1,0 +1,93 @@
+{
+  "title": "Acrostic",
+  "description": "In this coding challenge, I create an acrostic generator with the Wordnik API and p5.js. This challenge is part of my \"Programming with Text\" series.",
+  "videoNumber": "73",
+  "videoId": "jwoK5WKVXGw",
+  "date": "2017-09-11",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["Wordnik API", "acrostic", "text", "DOM elements", "poetry"],
+  "canContribute": true,
+  "relatedChallenges": ["37-diastic-machine", "84-word-definition-chrome-extension"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:25", "title": "What is an acrostic?" },
+    { "time": "2:45", "title": "On to the code" },
+    { "time": "3:00", "title": "Creating HTML DOM elements" },
+    { "time": "4:15", "title": "noCanvas()" },
+    { "time": "5:10", "title": "Selecting DOM elements with the p5.js select() function" },
+    { "time": "6:47", "title": "Writing the mousePressed() button handler" },
+    { "time": "7:19", "title": "Getting the word from the input element" },
+    { "time": "8:46", "title": "Creating a div element for each letter" },
+    { "time": "10:16", "title": "Using the Wordnik API to get a list of words" },
+    { "time": "17:18", "title": "Get a list of words for each letter" },
+    { "time": "18:09", "title": "Dealing with async requests and out-of-order responses" },
+    { "time": "20:26", "title": "Picking random words from the lists" },
+    { "time": "22:01", "title": "Put the words in the correct divs" },
+    { "time": "25:24", "title": "Wrapping up and variation ideas" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Source code",
+      "description": "The source code for the acrostic generator.",
+      "urls": {
+        "p5": "https://github.com/CodingTrain/website-archive/tree/main/CodingChallenges/CC_073_Acrostic/P5"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "ECMAScript on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript"
+        },
+        {
+          "icon": "🔗",
+          "title": "Fun Fun Function YouTube Channel",
+          "url": "https://www.youtube.com/@funfunfunction"
+        },
+        {
+          "icon": "🔗",
+          "title": "Wordnik",
+          "url": "https://www.wordnik.com/"
+        },
+        {
+          "icon": "🔗",
+          "title": "Acrostic on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acrostic"
+        },
+        {
+          "icon": "🔗",
+          "title": "Programming from A to Z on GitHub",
+          "url": "https://github.com/Programming-from-A-to-Z"
+        },
+        {
+          "icon": "🔗",
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/download"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "FunFunFunction's video on let/var/const",
+          "url": "https://youtu.be/sjyJBL5fkp8"
+        },
+        {
+          "icon": "🎥",
+          "title": "My Video on Closures",
+          "url": "https://youtu.be/-jysK0nlz7A"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
