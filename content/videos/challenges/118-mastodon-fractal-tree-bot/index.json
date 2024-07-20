@@ -67,38 +67,28 @@
         {
           "icon": "🔗",
           "title": "Lowpoly Bot",
-          "url": "https://twitter.com/lowpolybot",
-          "description": ""
+          "url": "https://twitter.com/lowpolybot"
         },
         {
           "icon": "🔗",
           "title": "Node.js",
-          "url": "https://nodejs.org/en",
-          "description": ""
+          "url": "https://nodejs.org/en"
         },
         {
           "icon": "🔗",
           "title": "Mastodon",
-          "url": "https://mastodon.social/about",
-          "description": ""
-        },
-        {
-          "icon": "🔗",
-          "title": "The Coding Train on Mastodon",
-          "url": "https://mastodon.social/@codingtrain@choochoo.space",
-          "description": ""
+          "url": "https://mastodon.social/about"
         },
         {
           "icon": "🔗",
           "title": "Mastodon API on npm",
           "url": "https://www.npmjs.com/package/mastodon-api",
-          "description": ""
+          "description": "A Mastodon API Client for node"
         },
         {
           "icon": "🎥",
           "title": "What is Mastodon?",
-          "url": "/tracks/mastodon/mastodon/what-is-mastodon",
-          "description": ""
+          "url": "/tracks/mastodon/mastodon/what-is-mastodon"
         },
         {
           "icon": "🔗",
