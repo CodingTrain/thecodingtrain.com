@@ -27,8 +27,15 @@
   ],
   "codeExamples": [
     {
-      "title": "Source code",
-      "description": "The source code for the acrostic generator.",
+      "title": "Updated source code",
+      "description": "An updated version of the challenge using the Datamuse API.",
+      "urls": {
+        "p5": "https://editor.p5js.org/kfahn/sketches/1-UXfIl9b"
+      }
+    },
+    {
+      "title": "Original source code",
+      "description": "Note that the Wordnik 'word search' API endpoint is not currently available.",
       "urls": {
         "p5": "https://github.com/CodingTrain/Coding-Challenges/tree/main/073_Acrostic/P5"
       }
@@ -55,13 +62,18 @@
         },
         {
           "icon": "🔗",
+          "title": "Datamuse word search API",
+          "url": "https://www.datamuse.com/api/"
+        },
+        {
+          "icon": "🔗",
           "title": "Acrostic on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Acrostic"
         },
         {
           "icon": "🔗",
-          "title": "Programming from A to Z on GitHub",
-          "url": "https://github.com/Programming-from-A-to-Z"
+          "title": "Programming from A to Z course",
+          "url": "https://shiffman-archive.netlify.app/a2z/"
         },
         {
           "icon": "🔗",
