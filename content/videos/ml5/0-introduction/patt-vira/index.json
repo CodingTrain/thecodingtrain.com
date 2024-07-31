@@ -1,0 +1,81 @@
+{
+  "title": "ml5.js 1.0 and Patt Vira Guest Conductor",
+  "description": "The ml5.js library recently celebrated it's 1.0 release! In this video, I provide a brief overview of the new release and cover the basics of the FaceMesh model. Guest Conductor Patt Vira then takes over and demonstrates how to build a creative visualization controlled by your face!",
+  "videoNumber": "0.2",
+  "videoId": "2h8VArJ3gnQ",
+  "date": "2024-07-31",
+  "languages": ["p5.js", "ml5.js"],
+  "topics": ["machine learning", "ml5.js", "facemesh", "guest conductor"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introducing Patt Vira!" },
+    { "time": "1:08", "title": "What is ml5.js?" },
+    { "time": "2:00", "title": "The Nature of Code book" },
+    { "time": "2:12", "title": "ml5.js overview" },
+    { "time": "4:27", "title": "Importing the ml5.js library" },
+    { "time": "5:38", "title": "How to use the FaceMesh model" },
+    { "time": "18:34", "title": "Guest Conductor Patt Vira!" },
+    { "time": "54:14", "title": "Thanks for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "FaceMesh (Lips)",
+      "description": "This sketch demonstrates the basics of the FaceMesh model.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LdEmvXdGI" },
+      "image": "images/lips.jpg"
+    },
+    {
+      "title": "Interactive Kinect Type",
+      "description": "Guest Conductor Patt Vira's sketch!",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/CITZ-7eyA" },
+      "image": "images/kinect-type.jpg"
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Patt Vira",
+          "url": "https://ml5js.org/",
+          "description": "Patt Vira's YouTube channel. Make Art with Code!"
+        },
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "The new ml5.js website!"
+        },
+        {
+          "icon": "🏕",
+          "title": "ITP Camp",
+          "url": "https://tisch.nyu.edu/itp/camp",
+          "description": "The ITP Camp website."
+        },
+        {
+          "icon": "💻",
+          "title": "Tensorflow.js",
+          "url": "https://www.tensorflow.org/js",
+          "description": "The ml5.js is built on top of Tensorflow.js."
+        },
+        {
+          "icon": "📕",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "Read and pre-order my new Nature of Code book!"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": []
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Patt Vira and Mathieu Blanchette" },
+    { "title": "ml5.js slides", "name": "Micaelle Lages and the ml5.js team" },
+    { "title": "ITP Camp workshop photos", "name": "Parth Pawar, Chienn Tai, Alan Ren" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
