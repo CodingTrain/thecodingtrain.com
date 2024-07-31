@@ -22,13 +22,13 @@
       "title": "FaceMesh (Lips)",
       "description": "This sketch demonstrates the basics of the FaceMesh model.",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LdEmvXdGI" },
-      "image": "images/lips.jpg"
+      "image": "lips.jpg"
     },
     {
       "title": "Interactive Kinect Type",
       "description": "Guest Conductor Patt Vira's sketch!",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/CITZ-7eyA" },
-      "image": "images/kinect-type.jpg"
+      "image": "kinetic-type.jpg"
     }
   ],
   "groupLinks": [
@@ -66,10 +66,6 @@
           "description": "Read and pre-order my new Nature of Code book!"
         }
       ]
-    },
-    {
-      "title": "Videos",
-      "links": []
     }
   ],
   "credits": [
