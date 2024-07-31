@@ -1,5 +1,5 @@
 {
-  "title": "ml5.js 1.0 and Patt Vira Guest Conductor",
+  "title": "ml5.js 1.0 and Guest Conductor Patt Vira",
   "description": "The ml5.js library recently celebrated it's 1.0 release! In this video, I provide an overview of the new release and cover how to use the FaceMesh model. Guest Conductor Patt Vira (http://youtube.com/@PattVira) takes over and demonstrates how to build a creative kinetic type visualization controlled by your mouth!",
   "videoNumber": "0.2",
   "videoId": "2h8VArJ3gnQ",
@@ -40,6 +40,12 @@
           "title": "Patt Vira",
           "url": "http://youtube.com/@PattVira",
           "description": "Patt Vira's YouTube channel. Make Art with Code!"
+        },
+        {
+          "icon": "🎥",
+          "title": "Interview with me!",
+          "url": "https://youtu.be/X4XMhpRFKvU",
+          "description": "Patt Vira hosts an interview with me on her channel!"
         },
         {
           "icon": "💻",
