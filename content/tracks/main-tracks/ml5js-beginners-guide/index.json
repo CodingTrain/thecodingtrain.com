@@ -6,7 +6,7 @@
   "chapters": [
     {
       "title": "Introduction",
-      "videos": ["ml5/0-introduction/1-introduction"]
+      "videos": ["ml5/0-introduction/1-introduction", "ml5/0-introduction/patt-vira"]
     },
     {
       "title": "Classification",
