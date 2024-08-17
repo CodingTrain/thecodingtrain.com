@@ -8,7 +8,13 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["fractals", "dragon curve", "Nature of Code"],
   "canContribute": true,
-  "relatedChallenges": ["14-fractal-trees-recursive", "16-l-system-fractal-trees", "77-recursion", "c3-hilbert-curve"],
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "16-l-system-fractal-trees",
+    "77-recursion",
+    "121-logo-interpreter",
+    "c3-hilbert-curve"
+  ],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:36", "title": "The Nature of Code book" },
