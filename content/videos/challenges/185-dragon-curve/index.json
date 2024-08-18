@@ -1,8 +1,8 @@
 {
   "title": "Dragon Curve",
   "videoNumber": "185",
-  "description": "",
-  "videoId": "",
+  "description": "The Dragon Curve fractal is created by repeatedly folding a strip of paper in half, then unfolding it to form a curve. In this challenge, I attempt to code an animation of the Dragon Curve forming with p5.js in JavaScript.",
+  "videoId": "MazpwQNdJYQ",
   "nebulaSlug": "codingtrain-coding-challenge-184-dragon-curve",
   "date": "2024-08-18",
   "languages": ["p5.js", "JavaScript"],
@@ -16,12 +16,12 @@
     "c3-hilbert-curve"
   ],
   "timestamps": [
-    { "time": "0:00", "title": "Introduction" },
-    { "time": "0:36", "title": "The Nature of Code book" },
-    { "time": "1:43", "title": "Explain algorithm" },
-    { "time": "3:38", "title": "Start coding" },
-    { "time": "5:05", "title": "Write rotate function" },
-    { "time": "7:05", "title": "Rotate all the segments" },
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:36", "title": "The Nature of Code book" },
+    { "time": "01:43", "title": "Explain algorithm" },
+    { "time": "03:38", "title": "Start coding" },
+    { "time": "05:05", "title": "Write rotate function" },
+    { "time": "07:05", "title": "Rotate all the segments" },
     { "time": "11:30", "title": "We have the dragon curve!" },
     { "time": "12:00", "title": "Add animation" },
     { "time": "16:31", "title": "Add the starting positions for a and b" },
@@ -31,7 +31,7 @@
     { "time": "26:44", "title": "Target zoom" },
     { "time": "28:57", "title": "Challenge complete!" },
     { "time": "29:57", "title": "What can you do?" },
-    { "time": "30:250", "title": "Outro" }
+    { "time": "30:25", "title": "Outro" }
   ],
   "codeExamples": [
     {
@@ -92,6 +92,12 @@
     {
       "title": "Videos",
       "links": [
+        {
+          "icon": "🎥",
+          "title": "Unfolding the Dragon.",
+          "url": "https://youtu.be/UBuPWdSbyf8",
+          "description": "Dragon Curve unfolding animation rendered in Cinema 4D."
+        },
         {
           "icon": "🎥",
           "title": "Dragon Curve - Numberphile",
