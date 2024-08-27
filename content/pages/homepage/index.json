@@ -46,7 +46,16 @@
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
-     "featured": ["challenges/184-elastic-collisions/showcase/contribution-1720963615.json", "challenges/184-elastic-collisions/showcase/contribution-1720958474.json", "noc/4-particles/4-particle-textures/showcase/contribution-1721161051.json", "physics-libraries/box2d/12-collision-events/showcase/contribution-1722000424.json", "challenges/14-fractal-trees-recursive/showcase/contribution-1723666252.json", "challenges/10-dfs-maze-generator/showcase/contribution-1720952091.json", "challenges/184-elastic-collisions/showcase/contribution-1721016798.json", "challenges/100-neuroevolution-flappy-bird/showcase/contribution-1720945862.json"],
+    "featured": [
+      "challenges/184-elastic-collisions/showcase/contribution-1720963615.json",
+      "challenges/184-elastic-collisions/showcase/contribution-1720958474.json",
+      "noc/4-particles/4-particle-textures/showcase/contribution-1721161051.json",
+      "physics-libraries/box2d/12-collision-events/showcase/contribution-1722000424.json",
+      "challenges/14-fractal-trees-recursive/showcase/contribution-1723666252.json",
+      "challenges/10-dfs-maze-generator/showcase/contribution-1720952091.json",
+      "challenges/184-elastic-collisions/showcase/contribution-1721016798.json",
+      "challenges/100-neuroevolution-flappy-bird/showcase/contribution-1720945862.json"
+    ],
     "showcaseCta": {
       "text": "Want to see more?",
       "buttonText": "Browse the full showcase",
@@ -57,7 +66,17 @@
     "title": "Events",
     "comingEventsDescription": "Next Coding Train event!",
     "noEventsDescription": "Keep your eye out for events in the future!",
-    "upcoming": []
+    "upcoming": [
+      {
+        "title": "Nature of Code Book",
+        "description": "Join us to celebrate the release of Dan Shiffman’s book, Nature of Code! This event features a “live” coding challenge and book signing by Dan, followed by audio and visual live coding performances by artists in the creative coding community. Come get your signed copy of the book, fun coding train merch, and be one with nature (of code)!",
+        "date": "2024-09-07",
+        "time": "19:00",
+        "host": "Wonderville and The Coding Train",
+        "type": "In person! 21+",
+        "url": "https://www.wonderville.nyc/events/nature-of-code-book-party"
+      }
+    ]
   },
   "support": {
     "title": "Support",
