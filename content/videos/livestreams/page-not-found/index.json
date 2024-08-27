@@ -1,0 +1,52 @@
+{
+  "title": "\"404\" Page Not Found",
+  "description": "Let's build a \"404 Page Not Found\" page for The Nature of Code website!",
+  "videoId": "vfeUb7w8Hr8",
+  "date": "2024-08-15",
+  "languages": ["Javascript"],
+  "topics": ["The Nature of Code", "steering behaviors"],
+  "canContribute": true,
+  "relatedChallenges": ["59-steering-behaviors"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Count down starts" },
+    { "time": "0:08:00", "title": "Livestream starts" },
+    { "time": "0:19:50", "title": "Annual mailing" },
+    { "time": "0:20:45", "title": "NOC website" },
+    { "time": "0:21:38", "title": "Discount" },
+    { "time": "0:22:52", "title": "Purchase options" },
+    { "time": "1:09:54", "title": "404 Error page" },
+    { "time": "1:17:28", "title": "Start coding" },
+    { "time": "1:27:14", "title": "Add mouse interaction" },
+    { "time": "2:23:17", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "404 NOC Page",
+      "description": "404 page using steering behavior",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ZcZjrgQHr"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📕",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "The Nature of Code book (2024 p5.js edition)"
+        },
+        {
+          "icon": "🛒",
+          "title": "Nature of Code shop",
+          "url": "https://store.natureofcode.com/products/the-nature-of-code",
+          "description": "The Nature of Code book (2024 p5.js edition) is now available for purchase!"
+        }
+      ]
+    }
+  ],
+  "credits": []
+}

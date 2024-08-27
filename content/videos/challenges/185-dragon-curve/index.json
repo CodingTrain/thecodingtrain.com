@@ -1,0 +1,120 @@
+{
+  "title": "Dragon Curve",
+  "videoNumber": "185",
+  "description": "The Dragon Curve fractal is created by repeatedly folding a strip of paper in half, then unfolding it to form a curve. In this challenge, I attempt to code an animation of the Dragon Curve forming with p5.js in JavaScript.",
+  "videoId": "MazpwQNdJYQ",
+  "nebulaSlug": "codingtrain-coding-challenge-184-dragon-curve",
+  "date": "2024-08-18",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["fractals", "dragon curve", "Nature of Code"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "14-fractal-trees-recursive",
+    "16-l-system-fractal-trees",
+    "77-recursion",
+    "121-logo-interpreter",
+    "c3-hilbert-curve"
+  ],
+  "timestamps": [
+    { "time": "00:00", "title": "Introduction" },
+    { "time": "00:36", "title": "The Nature of Code book" },
+    { "time": "01:43", "title": "Explain algorithm" },
+    { "time": "03:38", "title": "Start coding" },
+    { "time": "05:05", "title": "Write rotate function" },
+    { "time": "07:05", "title": "Rotate all the segments" },
+    { "time": "11:30", "title": "We have the dragon curve!" },
+    { "time": "12:00", "title": "Add animation" },
+    { "time": "16:31", "title": "Add the starting positions for a and b" },
+    { "time": "21:43", "title": "Scale the lines" },
+    { "time": "24:08", "title": "Add a nextGeneration() function" },
+    { "time": "25:16", "title": "The reduction ratio" },
+    { "time": "26:44", "title": "Target zoom" },
+    { "time": "28:57", "title": "Challenge complete!" },
+    { "time": "29:57", "title": "What can you do?" },
+    { "time": "30:25", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Dragon curve animation",
+      "description": "Animation of the dragon curve.",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/LXDsoCSZs"
+      }
+    },
+    {
+      "title": "Dragon curve color variation",
+      "description": "Dragon curve with color rendered with an L-system",
+      "image": "img2.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/7nNd-f7iY"
+      }
+    },
+    {
+      "title": "Dragon curve noise variation",
+      "description": "Dragon curve with random noise",
+      "image": "img3.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/7r7ZIE4dc"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📕",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "The Nature of Code book (2024 p5.js edition)"
+        },
+        {
+          "icon": "🛒",
+          "title": "Nature of Code shop",
+          "url": "https://store.natureofcode.com/products/the-nature-of-code",
+          "description": "The Nature of Code book (2024 p5.js edition) is now available for purchase!"
+        },
+        {
+          "icon": "🔗",
+          "title": "Dragon Curve",
+          "url": "https://en.wikipedia.org/wiki/Dragon_curve",
+          "description": "Wikipedia page discussing the construction and properties of the Dragon curve."
+        },
+        {
+          "icon": "🔗",
+          "title": "concat() function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+          "description": "Reference for the concat function."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Unfolding the Dragon.",
+          "url": "https://youtu.be/UBuPWdSbyf8",
+          "description": "Dragon Curve unfolding animation rendered in Cinema 4D."
+        },
+        {
+          "icon": "🎥",
+          "title": "Dragon Curve - Numberphile",
+          "url": "https://www.youtube.com/watch?v=wCyC-K_PnRY",
+          "description": "Beautiful Dragon Curves, Fractals and Jurassic Park. Featuring Rob Eastaway."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
