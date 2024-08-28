@@ -2,7 +2,6 @@
   "title": "Rubik's Cube",
   "description": "Can I build an interactive 3D Rubik's cube in Processing? Yes! Someday I hope to return to this project and add an AI solver!",
   "videoNumber": "142",
-  "videoId": "",
   "date": "2019-04-01",
   "languages": ["Processing"],
   "topics": ["Rubik's cube", "rotation matrix", "peasyCam", "simulation"],

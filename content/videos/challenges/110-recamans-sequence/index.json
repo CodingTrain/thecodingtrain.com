@@ -2,7 +2,6 @@
   "title": "Recamán's Sequence",
   "description": "In this coding challenge, I visualize the Recamán’s number sequence using the p5.js library and go on to generate a series of musical tones using p5.js sound.",
   "videoNumber": "110",
-  "videoId": "",
   "date": "2018-07-24",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["number sequence", "Recamán's sequence", "music", "audio-visual", "visualization"],

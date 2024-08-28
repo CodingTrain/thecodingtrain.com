@@ -21,9 +21,15 @@ const baseVideosSchema = strictObject({
   title: string().required(),
   description: string().required(),
 
-  videoId: youtubeIdValidator.when(['parts'], (parts, schema) => {
+  videoId: youtubeIdValidator.when('parts', ([parts], schema) => {
     // videoId required if the `parts` array is missing or empty
-    return parts && parts.length > 0 ? schema : schema.required();
+    return parts && parts.length > 0
+      ? schema.test(
+          'videoId and parts conflict',
+          'Top-level "videoId" should not be defined if "parts" exist',
+          (value) => value === undefined
+        )
+      : schema.required();
   }),
 
   nebulaSlug: nonUrlStringValidator,
@@ -289,7 +295,7 @@ const socialGroup = strictObject({
   title: string().required(),
   links: array(
     strictObject({
-      url: string().url().required(),
+      url: urlOrRelativeLinkValidator.required(),
       site: string()
         .oneOf(['twitter', 'discord', 'instagram', 'youtube', 'github'])
         .required()

@@ -2,7 +2,6 @@
   "title": "Logo Interpreter",
   "description": "In this coding challenge, I discuss turtle graphics and make a Logo Interpreter in JavaScript.",
   "videoNumber": "121",
-  "videoId": "",
   "date": "2018-10-31",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["Logo", "Logo interpreter", "turtle graphics"],

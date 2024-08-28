@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "183-mathematical-marbling",
-      "41-clappy-bird",
-      "148-gift-wrapping",
-      "58-3d-earthquake-data-visualization",
-      "101-may-the-4th-scrolling-text",
-      "c1-maurer-rose"
+      "185-dragon-curve",
+      "175-3D-cube-applesoft-basic",
+      "160-spring-forces",
+      "113-4d-hypercube-aka-tesseract",
+      "99-neural-network-color-predictor",
+      "85-the-game-of-life"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -46,16 +46,7 @@
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
-    "featured": [
-      "challenges/183-mathematical-marbling/showcase/contribution-1714718039.json",
-      "challenges/183-mathematical-marbling/showcase/contribution-1715194171.json",
-      "challenges/78-simple-particle-system/showcase/contribution-1714737129.json",
-      "challenges/30-phyllotaxis/showcase/contribution-1714237829.json",
-      "physics-libraries/box2d/3-coordinate-and-vectors/showcase/contribution-1714548437.json",
-      "noc/3-angles/4-polar-coordinates/showcase/contribution-1714998108.json",
-      "code/1-intro/3-shapes-drawing/showcase/contribution-1713756411.json",
-      "challenges/181-image-stippling/showcase/contribution-1714302429.json"
-    ],
+     "featured": ["challenges/184-elastic-collisions/showcase/contribution-1720963615.json", "challenges/184-elastic-collisions/showcase/contribution-1720958474.json", "noc/4-particles/4-particle-textures/showcase/contribution-1721161051.json", "physics-libraries/box2d/12-collision-events/showcase/contribution-1722000424.json", "challenges/14-fractal-trees-recursive/showcase/contribution-1723666252.json", "challenges/10-dfs-maze-generator/showcase/contribution-1720952091.json", "challenges/184-elastic-collisions/showcase/contribution-1721016798.json", "challenges/100-neuroevolution-flappy-bird/showcase/contribution-1720945862.json"],
     "showcaseCta": {
       "text": "Want to see more?",
       "buttonText": "Browse the full showcase",

@@ -2,7 +2,6 @@
   "title": "Heart Curve",
   "description": "In this multi-part challenge, I use a parametric equation (from Wolfram Mathworld) to draw a heart curve in Processing (Java).",
   "videoNumber": "134",
-  "videoId": "",
   "date": "2019-02-18",
   "languages": ["Processing"],
   "topics": ["heart curve", "parametric equation", "polar coordinates", "GIF loop"],

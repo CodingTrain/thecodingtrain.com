@@ -2,7 +2,6 @@
   "title": "Snakes & Ladders",
   "description": "In this multi-part coding challenge, I attempt to create a simulation of the classic board game Snakes & Ladders (also known as Chutes and Ladders).",
   "videoNumber": "91",
-  "videoId": "",
   "date": "2018-01-29",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["Snakes & ladders game", "games"],

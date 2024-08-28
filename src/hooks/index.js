@@ -1,6 +1,5 @@
 import React, { useMemo, useRef, useEffect, useState } from 'react';
 import { useLocation } from '@reach/router';
-import { passiveEventArg } from '../utils';
 
 /**
  * Takes an array of images nodes and makes a hashed object based on their names
@@ -94,10 +93,11 @@ export const usePersistScrollPosition = (key, _namespace) => {
     }
 
     lastKey = key;
-    current.addEventListener('scroll', onScroll, passiveEventArg);
+
+    current.addEventListener('scroll', onScroll, { passive: true });
 
     return () => {
-      current.removeEventListener('scroll', onScroll, passiveEventArg);
+      current.removeEventListener('scroll', onScroll);
     };
   }, [key, namespace]);
 
@@ -125,7 +125,7 @@ export const getReadableDate = (dateString) => {
 
 /**
  * This hook will return true for the first render on the server and for the
- * first render on the client. Otherwhise, it will return false.
+ * first render on the client. Otherwise, it will return false.
  *
  * This function encapsulates a hook so "rules of hooks" apply to it.
  * @see {@link https://reactjs.org/docs/hooks-rules.html}

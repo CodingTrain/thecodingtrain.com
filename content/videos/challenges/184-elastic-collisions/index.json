@@ -1,0 +1,95 @@
+{
+  "title": "Elastic Collisions",
+  "videoNumber": "184",
+  "description": "What happens when two circles collide in a p5.js canvas? In this video, I examine the math and implement idealized elastic collisions in a JavaScript physics simulation. This video supplements the Nature of Code book series in Chapter 6 which uses 3rd party physics libraries to handle collisions rather than a direct implementation.",
+  "videoId": "dJNFPv9Mj-Y",
+  "nebulaSlug": "codingtrain-coding-challenge-184-elastic-collisions",
+  "date": "2024-07-12",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["collisions", "physics simulation", "collision detection"],
+  "canContribute": true,
+  "relatedChallenges": ["67-pong", "98-quadtree", "139-calculating-digits-of-pi-with-collisions", "176-buffon-needle"],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:20", "title": "The Nature of Code book" },
+    { "time": "1:22", "title": "Review background material" },
+    { "time": "4:15", "title": "Collision Resolution" },
+    { "time": "5:42", "title": "Start Coding" },
+    { "time": "8:48", "title": "Add collide() function" },
+    { "time": "10:17", "title": "Momentum and kinetic energy" },
+    { "time": "14:15", "title": "Line of impact" },
+    { "time": "16:44", "title": "Add the formulas" },
+    { "time": "21:25", "title": "Simplify the code" },
+    { "time": "22:57", "title": "Check for overlap" },
+    { "time": "24:31", "title": "Check the particle's kinetic enery" },
+    { "time": "25:48", "title": "Fix error" },
+    { "time": "27:30", "title": "Add more particles" },
+    { "time": "30:11", "title": "Optimizations" },
+    { "time": "30:50", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Elastic Collisions",
+      "description": "Implementation of elastic collisions",
+      "image": "img1.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/3DrBb8LCp"
+      }
+    },
+    {
+      "title": "Elastic Collisions - Quadtree",
+      "description": "Optimization with quadtree algorithm",
+      "image": "img2.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/z8n19RFz9"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📕",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "The Nature of Code book (2024 p5.js edition)"
+        },
+        {
+          "icon": "🛒",
+          "title": "Pre-order The Nature of Code",
+          "url": "https://nostarch.com/nature-code",
+          "description": "The Nature of Code book (2024 p5.js edition) is now available for pre-order!"
+        },
+        {
+          "icon": "🔗",
+          "title": "Elastic Collision",
+          "url": "https://en.wikipedia.org/wiki/Elastic_collision",
+          "description": "Wikipedia article discussing elastic collisions."
+        },
+        {
+          "icon": "📃",
+          "title": "2-Dimensional Elastic Collisions without Trigonometry",
+          "url": "https://www.vobarian.com/collisions/2dcollisions2.pdf",
+          "description": "Introduction to solving collisions without complicated trigonometry."
+        },
+        {
+          "icon": "📃",
+          "title": "Elastic Collisions Formula Derivation",
+          "url": "https://dipamsen.github.io/notebook/collisions.pdf",
+          "description": "Explanation and derivation for formula of elastic collisions, by Dipam Sen."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}

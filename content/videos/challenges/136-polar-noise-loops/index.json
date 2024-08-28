@@ -2,7 +2,6 @@
   "title": "Polar Noise Loops",
   "description": "In this multi-part coding challenge I show how to use a noise field and polar coordinates to create a perfect GIF loop.",
   "videoNumber": "136",
-  "videoId": "",
   "date": "2019-02-25",
   "languages": ["p5.js", "Processing"],
   "topics": ["GIF loop", "Perlin noise", "polar coordinates"],
