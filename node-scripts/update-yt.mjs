@@ -35,6 +35,7 @@ import inquirer from 'inquirer';
 const SCOPES = ['https://www.googleapis.com/auth/youtube'];
 const TOKEN_DIR = 'google-credentials/';
 const TOKEN_PATH = TOKEN_DIR + 'credentials.json';
+const CLIENT_PATH = TOKEN_DIR + 'client_secret.json';
 const OAuth2 = google.auth.OAuth2;
 
 /**
@@ -150,16 +151,14 @@ async function updateYTDesc(videoId, newDescription, service) {
 
 // Load client secrets from a local file.
 async function main() {
-  let content;
+  let credentials;
   try {
-    content = await fs.promises.readFile(
-      'google-credentials/client_secret.json'
-    );
+    credentials = await fs.promises.readFile(CLIENT_PATH);
   } catch (err) {
     console.log('Error loading client secret file: ' + err);
     return;
   }
-  const auth = await authorize(JSON.parse(content));
+  const auth = await authorize(JSON.parse(credentials));
 
   const service = google.youtube({
     version: 'v3',
