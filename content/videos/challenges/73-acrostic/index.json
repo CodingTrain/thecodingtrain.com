@@ -29,6 +29,7 @@
     {
       "title": "Updated source code",
       "description": "An updated version of the challenge using the Datamuse API.",
+      "image": "img.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/48yinqNpT"
       }
