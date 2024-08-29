@@ -37,6 +37,7 @@
     {
       "title": "Original source code",
       "description": "Note that the Wordnik 'word search' API endpoint is not currently available.",
+      "image": "img.jpg",
       "urls": {
         "p5": "https://github.com/CodingTrain/Coding-Challenges/tree/main/073_Acrostic/P5"
       }
