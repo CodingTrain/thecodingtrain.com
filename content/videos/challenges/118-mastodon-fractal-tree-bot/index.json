@@ -67,17 +67,20 @@
         {
           "icon": "🔗",
           "title": "Lowpoly Bot",
-          "url": "https://twitter.com/lowpolybot"
+          "url": "https://twitter.com/lowpolybot",
+          "description": "A Twitter bot by @Quasimondo that creates random low-polygon versions of pictures it receives."
         },
         {
           "icon": "🔗",
           "title": "Node.js",
-          "url": "https://nodejs.org/en"
+          "url": "https://nodejs.org/en",
+          "description": "Documentation about Node.js, a open-source JavaScript runtime environment."
         },
         {
           "icon": "🔗",
           "title": "Mastodon",
-          "url": "https://mastodon.social/about"
+          "url": "https://mastodon.social/about",
+          "description": "A decentralized social media powered by Mastodon"
         },
         {
           "icon": "🔗",
@@ -86,15 +89,21 @@
           "description": "A Mastodon API Client for node"
         },
         {
-          "icon": "🎥",
-          "title": "What is Mastodon?",
-          "url": "/tracks/mastodon/mastodon/what-is-mastodon"
-        },
-        {
           "icon": "🔗",
           "title": "The 'procesing-java' command",
           "url": "https://github.com/processing/processing/wiki/Command-Line",
           "description": "Running Processing sketches from the command line"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "What is Mastodon?",
+          "url": "/tracks/mastodon/mastodon/what-is-mastodon",
+          "description": "My track on the social media API Mastodon."
         }
       ]
     }
