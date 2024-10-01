@@ -4,7 +4,7 @@ This Hacktoberfest, here are the ways you can contribute to The Coding Train:
 
 ## Share your creative work on the Passenger Showcase
 
-This is a great option if you are new to open source contributions. For your submission to count towards Hacktoberfest, you must manually create a Pull Request to the website repository. You can follow along with the [Passenger Showcase Guide](https://thecodingtrain.com/guides/passenger-showcase-guide) (scroll down below the form to "Finding the Video on Github) to create your Pull Request. Here are some additional resources that can help you get started:
+This is a great option if you are new to open source contributions. For your submission to count towards Hacktoberfest, you must manually create a Pull Request to the website repository. You can follow along with the [Passenger Showcase Guide](https://thecodingtrain.com/guides/passenger-showcase-guide) (scroll down below the form to "Finding the Video on Github") to create your Pull Request. Here are some additional resources that can help you get started:
 
 - [Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV): A Coding Train video series for Git and GitHub beginners.
 - [Collaborating With Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests): A GitHub guide on pull requests.
