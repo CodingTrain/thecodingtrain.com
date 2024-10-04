@@ -24,7 +24,7 @@
     {
       "title": "Image Classification with Webcam",
       "description": "Continuous image classification with webcam feed.",
-      "image": "imgaes/webcam.png",
+      "image": "images/webcam.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/r9LjJqaw6" }
     },
     {
