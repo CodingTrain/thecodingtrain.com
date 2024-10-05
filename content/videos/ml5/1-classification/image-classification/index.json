@@ -18,31 +18,31 @@
     {
       "title": "Image Classification",
       "description": "Simple image classification using MobileNet.",
-      "image": "images/simple.png",
+      "image": "simple.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/A2W-0ayI5" }
     },
     {
       "title": "Image Classification with Webcam",
       "description": "Continuous image classification with webcam feed.",
-      "image": "images/webcam.png",
+      "image": "webcam.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/r9LjJqaw6" }
     },
     {
       "title": "Image Classification - Drag and Drop",
       "description": "Drag and drop an image in the canvas to classify it.",
-      "image": "images/drag.png",
+      "image": "drag.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/v1sAlvSHR" }
     },
     {
       "title": "Image Classification - Display label and confidence",
       "description": "Displays the label and confidence of the classification.",
-      "image": "images/conf.png",
+      "image": "conf.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/7zA6_MlIo" }
     },
     {
       "title": "Image Classification - Tint",
       "description": "Tints the image with a color based on the confidence.",
-      "image": "images/tint.png",
+      "image": "tint.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/uHN5htRpC" }
     }
   ],
