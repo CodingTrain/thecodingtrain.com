@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "185-dragon-curve",
-      "175-3D-cube-applesoft-basic",
-      "160-spring-forces",
-      "113-4d-hypercube-aka-tesseract",
-      "99-neural-network-color-predictor",
-      "85-the-game-of-life"
+      "36-blobby",
+      "46-asteroids",
+      "53-random-walker-with-vectors-and-levy-flight",
+      "67-pong",
+      "77-recursion"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
