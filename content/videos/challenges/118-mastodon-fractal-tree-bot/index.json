@@ -1,0 +1,115 @@
+{
+  "title": "Mastodon Fractal Tree Bot",
+  "description": "In part 1 of this coding challenge, I create a node.js Mastodon bot that posts images (fractal trees) generated with Processing code. In part 2, I revise the node.js Mastodon bot to post images (fractal trees) in response to user mentions.",
+  "videoNumber": "118",
+  "date": "2018-10-16",
+  "languages": ["Processing", "JavaScript", "Java", "Node.js", "command-line interface (CLI)"],
+  "topics": ["Mastodon", "bots", "fractals"],
+  "canContribute": true,
+  "relatedChallenges": [
+    "174-graphics-applesoft-basic",
+    "14-fractal-trees-recursive",
+    "15-object-oriented-fractal-trees",
+    "18-3d-fractal-trees"
+  ],
+  "timestamps": [],
+  "parts": [
+    {
+      "title": "Part 1 - Creating fractal tree images and posting them with a Mastodon bot",
+      "videoId": "luxczHFn1rU",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:52", "title": "Inspiration for the challenge" },
+        { "time": "1:06", "title": "Generate a random fractal tree image with Processing" },
+        { "time": "2:48", "title": "How can Node.js and Processing communicate?" },
+        { "time": "3:50", "title": "Calling a Processing sketch from the command line" },
+        { "time": "6:10", "title": "Using Node.js to execute the sketch" },
+        { "time": "9:00", "title": "Async with promises" },
+        { "time": "11:57", "title": "Reading stdout value" },
+        { "time": "13:50", "title": "Use `mastodon-api` to POST the image" },
+        { "time": "21:40", "title": "Refactor promises chain to async/await" },
+        { "time": "25:20", "title": "Reference the image in a new status" },
+        { "time": "30:07", "title": "Extract the angle value from stdout" },
+        { "time": "33:00", "title": "Make the bot post at a predetermined interval" },
+        { "time": "36:30", "title": "Hosting and Part 2 tutorial teaser" }
+      ]
+    },
+    {
+      "title": "Part 2 - Revising the bot to reply to user mentions",
+      "videoId": "PUPWPjjkNqQ",
+      "timestamps": [
+        { "time": "0:00", "title": "Introduction" },
+        { "time": "0:30", "title": "Change the code" },
+        { "time": "1:00", "title": "Why Mastodon" },
+        { "time": "1:40", "title": "Streaming API" },
+        { "time": "2:50", "title": "Looking up previous code" },
+        { "time": "4:00", "title": "Adding new code" },
+        { "time": "6:00", "title": "Regular expressions" },
+        { "time": "10:00", "title": "Testing" },
+        { "time": "11:00", "title": "Adding an angle" },
+        { "time": "13:00", "title": "Adding arguments" }
+      ]
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Source code",
+      "description": "Mastodon bot and fractal tree generator source code",
+      "urls": {
+        "node": "https://github.com/CodingTrain/Mastodon-Bot"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Lowpoly Bot",
+          "url": "https://twitter.com/lowpolybot",
+          "description": "A Twitter bot by @Quasimondo that creates random low-polygon versions of pictures it receives."
+        },
+        {
+          "icon": "🔗",
+          "title": "Node.js",
+          "url": "https://nodejs.org/en",
+          "description": "Documentation about Node.js, a open-source JavaScript runtime environment."
+        },
+        {
+          "icon": "🔗",
+          "title": "Mastodon",
+          "url": "https://mastodon.social/about",
+          "description": "A decentralized social media powered by Mastodon"
+        },
+        {
+          "icon": "🔗",
+          "title": "Mastodon API on npm",
+          "url": "https://www.npmjs.com/package/mastodon-api",
+          "description": "A Mastodon API Client for node"
+        },
+        {
+          "icon": "🔗",
+          "title": "The 'procesing-java' command",
+          "url": "https://github.com/processing/processing/wiki/Command-Line",
+          "description": "Running Processing sketches from the command line"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "What is Mastodon?",
+          "url": "/tracks/mastodon/mastodon/what-is-mastodon",
+          "description": "My track on the social media API Mastodon."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
