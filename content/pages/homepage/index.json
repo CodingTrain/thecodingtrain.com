@@ -20,7 +20,7 @@
   "tracks": {
     "title": "Tracks",
     "description": "Streamline your learning experience and take a ride along a Track on The Coding Train. Tracks are collections of video tutorials that follow a sequenced curriculum.",
-    "featured": ["learning-processing", "code-programming-with-p5-js"],
+    "featured": ["ml5js-beginners-guide", "code-programming-with-p5-js"],
     "tracksCta": {
       "text": "Ready to learn? Hop on a track for beginners and more!",
       "buttonText": "browse tracks",
@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "185-dragon-curve",
-      "36-blobby",
-      "46-asteroids",
-      "53-random-walker-with-vectors-and-levy-flight",
-      "67-pong",
-      "77-recursion"
+      "152-rdp-algorithm",
+      "158-shape-classifier",
+      "174-graphics-applesoft-basic",
+      "27-fireworks",
+      "19-superellipse"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "code/7-arrays/5-removing-elements/showcase/contribution-1724448350.json",
-      "challenges/185-dragon-curve/showcase/contribution-1724142201.json",
-      "challenges/185-dragon-curve/showcase/contribution-1724059990.json",
-      "challenges/185-dragon-curve/showcase/contribution-1724115513.json",
-      "challenges/184-elastic-collisions/showcase/contribution-1723892814.json",
-      "challenges/185-dragon-curve/showcase/contribution-1724172518.json",
-      "challenges/24-perlin-noise-flow-field/showcase/contribution-1725204487.json",
-      "code/2-variables/4-random/showcase/contribution-1725221639.json"
+      "challenges/24-perlin-noise-flow-field/showcase/contribution-1727893468.json",
+      "noc/3-angles/4-polar-coordinates/showcase/contribution-1727766867.json",
+      "code/7-arrays/8-objects-images/showcase/contribution-1726937451.json",
+      "challenges/14-fractal-trees-recursive/showcase/contribution-1726000914.json",
+      "challenges/85-the-game-of-life/showcase/contribution-1727724456.json",
+      "transformations/translate-rotate-push-pop/showcase/contribution-1727809803.json",
+      "challenges/163-bezier-curves/showcase/contribution2.json",
+      "challenges/124-flocking-simulation/showcase/contribution26.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
@@ -66,17 +66,7 @@
     "title": "Events",
     "comingEventsDescription": "Next Coding Train event!",
     "noEventsDescription": "Keep your eye out for events in the future!",
-    "upcoming": [
-      {
-        "title": "Nature of Code Book Party",
-        "description": "Join us to celebrate the release Nature of Code! This event features a “live” coding challenge + audio and visual live coding performances. Come get your signed copy of the book!",
-        "date": "2024-09-07",
-        "time": "7:30pm",
-        "host": "Wonderville and The Coding Train",
-        "type": "In person! 21+",
-        "url": "https://www.wonderville.nyc/events/nature-of-code-book-party"
-      }
-    ]
+    "upcoming": []
   },
   "support": {
     "title": "Support",
