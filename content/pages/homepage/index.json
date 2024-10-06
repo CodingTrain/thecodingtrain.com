@@ -66,17 +66,7 @@
     "title": "Events",
     "comingEventsDescription": "Next Coding Train event!",
     "noEventsDescription": "Keep your eye out for events in the future!",
-    "upcoming": [
-      {
-        "title": "Nature of Code Book",
-        "description": "Join us to celebrate the release of Dan Shiffman’s book, Nature of Code! This event features a “live” coding challenge and book signing by Dan, followed by audio and visual live coding performances by artists in the creative coding community. Come get your signed copy of the book, fun coding train merch, and be one with nature (of code)!",
-        "date": "2024-09-07",
-        "time": "19:00",
-        "host": "Wonderville and The Coding Train",
-        "type": "In person! 21+",
-        "url": "https://www.wonderville.nyc/events/nature-of-code-book-party"
-      }
-    ]
+    "upcoming": []
   },
   "support": {
     "title": "Support",
