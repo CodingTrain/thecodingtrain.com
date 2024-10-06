@@ -12,6 +12,7 @@
     "mastodon/replying-to-a-mention",
     "mastodon/what-is-node-js",
     "mastodon/what-is-npm",
-    "workflow/5-node"
+    "workflow/5-node",
+    "challenges/118-mastodon-fractal-tree-bot"
   ]
 }

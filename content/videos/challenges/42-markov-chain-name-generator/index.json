@@ -127,7 +127,7 @@
         {
           "icon": "💻",
           "title": "Programming from A to Z - Markov Chains",
-          "url": "https://shiffman.net/a2z/markov/",
+          "url": "https://shiffman-archive.netlify.app/a2z/markov/",
           "description": "Webpage with material from my \"Programming from A to Z\" course."
         }
       ]
