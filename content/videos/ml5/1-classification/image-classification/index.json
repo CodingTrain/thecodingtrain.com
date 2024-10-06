@@ -1,8 +1,8 @@
 {
   "title": "Image Classification",
-  "description": "This video updates the Image Classifier video using real-time video in the browser using ml5.js 1.0",
-  "videoId": "qvbU2ncAqMU",
-  "date": "2024-04-11",
+  "description": "This video covers image classification in ml5.js 1.0. I demonstrate both the default MobileNet model as well as how to train your own classifier with transfer leraning and teachable machine.",
+  "videoId": "pbjR20eTLVs",
+  "date": "2024-10-06",
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["machine learning (ML)", "webcam", "image classification", "ml5.js", "MobileNet"],
   "canContribute": true,
