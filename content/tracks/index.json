@@ -27,6 +27,7 @@
     "transformations-in-p5",
     "games",
     "web-sockets-and-p5js",
-    "webgl"
+    "webgl",
+    "archive"
   ]
 }

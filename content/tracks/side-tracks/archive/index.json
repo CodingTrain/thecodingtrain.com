@@ -1,0 +1,5 @@
+{
+  "title": "Archived Videos",
+  "description": "Folder for archived videos",
+  "videos": ["archive/1-image-classification", "archive/2-webcam-classification"]
+}

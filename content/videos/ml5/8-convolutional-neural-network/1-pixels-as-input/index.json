@@ -95,7 +95,7 @@
         {
           "icon": "🚂",
           "title": "Image Classification with MobileNet",
-          "url": "/tracks/ml5js-beginners-guide/ml5/1-classification/1-image-classification",
+          "url": "/tracks/ml5js-beginners-guide/ml5/1-classification/image-classification",
           "description": "In this video, I use the \"pre-trained\" MobileNet model to classify the content of an image."
         },
         {

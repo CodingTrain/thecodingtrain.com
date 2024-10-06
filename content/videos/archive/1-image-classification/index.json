@@ -1,6 +1,6 @@
 {
   "title": "Image Classification with MobileNet",
-  "description": "In this video, I use the \"pre-trained\" MobileNet model to classify the content of an image.",
+  "description": "This video covers the Image Classifier in ml5.js v0.12.2 which has now been deprecated. There is a new version of the video in the Beginner's Guide to Machine Learning in JavaScript track.",
   "videoNumber": "1.1",
   "videoId": "yNkAuWz5lnY",
   "date": "2018-08-01",
@@ -53,6 +53,12 @@
     {
       "title": "Videos",
       "links": [
+        {
+          "icon": "💻",
+          "title": "Image Classification",
+          "url": "/tracks/ml5js-beginners-guide/ml5/1-classification/image-classification",
+          "description": "New video about image classification with updated syntax."
+        },
         {
           "icon": "🚂",
           "title": "Workflow",
