@@ -1,6 +1,6 @@
 {
   "title": "Image Classification",
-  "description": "",
+  "description": "This video updates the Image Classifier video using real-time video in the browser using ml5.js 1.0",
   "videoId": "qvbU2ncAqMU",
   "date": "2024-04-11",
   "languages": ["ml5.js", "JavaScript"],
