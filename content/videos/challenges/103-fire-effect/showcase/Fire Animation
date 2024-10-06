@@ -1,0 +1,256 @@
+// PROJECT 1 - CALIFORNIA WILDFIRE SIMULATION
+// September 2024
+//Code for the Wildfire Class
+
+int numForests = (int)random(6, 9);
+int humidity = (int)random(0, 100);
+int temperature = (int)random(40, 100);
+
+// A list to store all the Forests in the simulation
+Forest[] forests = new Forest[numForests];
+
+void setup() {
+  size(1000, 1000);
+  frameRate(1); 
+  background(237, 222, 183);
+
+  textSize(50);
+  fill(47, 111, 163);
+  text("Albert's Wildfire Simulation", 210, 60);
+
+  textSize(30);
+  fill(0);
+  text("Humidity: " + humidity + " %", 300, 130);
+  text("Temperature: " + temperature + " °F", 500, 130);
+
+  for (int i = 0; i < numForests; i++) {
+    forests[i] = new Forest(random(0, width - 175), random(185, height - 175), 175, 175);
+  }
+}
+
+void updateSimulation() {
+  for (int i = 0; i < numForests; i++) {
+    forests[i].update();
+  }
+}
+
+void draw() {
+  background(237, 222, 183); // Clear background each frame
+
+  // Display title and conditions
+  textSize(50);
+  fill(47, 111, 163);
+  text("Albert's Wildfire Simulation", 210, 60);
+
+  textSize(30);
+  fill(0);
+  text("Humidity: " + humidity + " %", 300, 130);
+  text("Temperature: " + temperature + " °F", 500, 130);
+
+  // Draw and update forests
+  for (int i = 0; i < numForests; i++) {
+    forests[i].draw();
+  }
+
+  updateSimulation();
+}
+
+//Code for the Forest Class
+
+class Forest {
+  float x, y;
+  float l, w;
+  
+  
+  int numTrees = (int)random(20,35);
+
+  Tree[] trees = new Tree[numTrees];
+  
+  Forest(float x, float y, float l, float w) {
+    this.x = x;
+    this.y = y;
+    this.l = l;
+    this.w = w;
+    
+    for (int i=0; i<numTrees; i++) {
+      trees[i] = new Tree(random(x,x+w),random(y,y+l),20);
+    }
+    
+    
+  }
+      
+    // draw method where i loop through the array of trees and call the draw method on each tree
+  void draw() {
+  for (int i=0; i<numTrees; i++) {
+    trees[i].draw();
+  }
+ 
+  
+  }
+  
+  double distance(Tree t1, Tree t2) {
+    return Math.sqrt(Math.pow(t1.x-t2.x,2)+Math.pow(t1.y-t2.y,2));
+  }
+  
+  void update() {
+  for (int i=0; i<numTrees; i++) {
+    trees[i].update();
+    if (trees[i].burning) {
+      for (int j=0; j<numTrees; j++) {
+        if (distance(trees[i],trees[j])<30) {
+          if (humidity<50 && temperature<70) {
+            trees[j].catchFire();
+          }
+          
+          else if (humidity>50 || temperature>70) {
+            trees[j].catchFireWhenHumidORHot();
+          }
+          
+          else if (humidity>50 && temperature>70) {
+            trees[j].catchFireWhenHumidANDHot();
+          }
+          
+          
+        }
+      }
+    }
+  }
+  
+  
+}
+}
+
+//Code for the Tree Class
+
+//Pretty did all the fire animation in my tree class
+
+class Tree {
+  float x, y;    // Position
+  float r;       // Size (radius)
+  boolean healthy, burning, dead;  // States
+  int burning_time;  // Time to burn before dying
+  int death_time = 13;  // Arbitrary burn time
+  
+  // instance variables that I need for flame animation
+  float flameOffset; //this variable is supposed to control the vertical movement, the flickering, ofd the flame
+  color flameColor; //just determines the color of the flame
+  
+  Tree(float tempX, float tempY, float tempR) {
+    x = tempX;
+    y = tempY;
+    r = tempR;
+    burning_time = 0;
+    
+    // 10% chance of being burning initially
+    burning = random(0, 10) < 1;
+    
+    // Initially, no tree is dead
+    dead = false;
+    
+    // Initialize flame properties
+    flameOffset = 0;
+    flameColor = color(255, 100, 0); // Initial flame color
+  }
+  
+  // Updates the status of this tree
+  void update() { 
+    if (dead) {  
+      return;
+    }
+   
+    if (burning) {
+      burning_time++;
+      
+      if (burning_time > 7 && burning_time < 10) {
+        if (random(2) < 1) {
+          burning = false;
+        }
+      }
+      
+      if (burning_time > 10) {
+        if (random(4) < 3) {
+          burning = false;
+        }
+      }
+    }   
+    else {
+      if (burning_time > 0) {
+        burning_time--;
+      }
+    } 
+     
+    if (burning_time > death_time) {
+      dead = true;
+    }
+    
+    // ANIMATING THE FLAME
+    if (burning) {
+      flameOffset = sin(frameCount * 0.1) * 5; //after some googling, I found that you can actually use the math trig function sin to help in processing animation. 
+      //sin's smoothly changing value was the easiest way I found to simulate the smooth movement of the flame's height.
+      flameColor = color(
+        255, 
+        (int)(random(100, 255)), 
+        0
+      ); // Varying the color between yellow and red
+    }
+  }
+
+  void catchFire() {
+    if (!dead) {
+      if (random(2) < 1) {
+        burning = true;
+      }
+    }
+  }
+  
+  void catchFireWhenHumidORHot() {
+    if (!dead) {
+      if (random(3) > 1) {
+        burning = true;
+      }
+    }
+  }
+  
+  void catchFireWhenHumidANDHot() {
+    if (!dead) {
+      if (random(5) > 1) {
+        burning = true;
+      }
+    }
+  }
+  
+  void draw() {
+    noStroke();
+    
+    // Draw the tree trunk or base
+    fill(34, 139, 34); // Default healthy tree color
+    if (dead) {
+      fill(105, 105, 105); // Dead tree color
+    } 
+    else if (burning) {
+      fill(255, 0, 0); // Initial burning color
+    }
+    ellipse(x, y, r, r);
+    
+    // Draw animated flame if burning
+    if (burning && !dead) {
+      pushMatrix(); //function that I found that basically saves the current drawing on the screen like a bookmark
+      translate(x, y - r / 2); //function to position the flame above the tree - I found it was easiest to use this function and draw each flame 
+      noStroke();
+      fill(flameColor);
+      
+      // Draw multiple flickering flames
+      for (int i = 0; i < 3; i++) {
+        float angle = random(TWO_PI); //the angle determines the direction of each flame
+        float size = random(5, 10);
+        float px = cos(angle) * size; //by multiplying the cos of the angle by the size I can spread the flames in all directions around the tree's center
+        float py = sin(angle) * size + flameOffset; 
+        ellipse(px, py, size, size * 1.5); //drawing each flame as an ellipse
+      }
+      
+      popMatrix(); //function that I found that works with pushMatrix(). when popMatrix is called, it reverts back to the drawing that was on the screen when I called pushMatrix()
+      //When animating the fire, one of the biggest troubles that I ran into was not letting the animated fire affect the drawing of the other shapes and texts. 
+      //Using the pushMatrix and popMatrix functions was one of the easiest ways I found to make the fire animation only affect the burning trees and nothing else
+    }
+  }
+}
