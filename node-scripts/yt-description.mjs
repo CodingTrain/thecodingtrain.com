@@ -4,8 +4,8 @@
 // npm run yt-desc
 // npm run yt-desc https://thecodingtrain.com/path/to/video/page
 // npm run yt-desc https://youtube.com/watch?v=videoId
-// npm run yt-desc ./path/to/index.json
-// npm run yt-desc ./path/to/index.json -- -c # copy to clipboard
+// npm run yt-desc path/to/index.json # path starts with content/videos
+// npm run yt-desc path/to/index.json -- -c # copy to clipboard
 
 // Output files are saved to `./_descriptions` directory
 
@@ -63,7 +63,6 @@ class Video {
 /**
  * Searches for `index.json` files in a given directory and returns an array of parsed files.
  * @param {string} dir Name of directory to search for files
- * @param {?any[]} arrayOfFiles Array to store the parsed JSON files
  * @returns {any[]}
  */
 function findContentFilesRecursive(dir) {
@@ -661,5 +660,22 @@ const allTracks = [...mainTracks, ...sideTracks];
   } else {
     videos.forEach(writeDescription);
   }
+  const metadata = {
+    videos: videos.map((v) => ({
+      title: v.data.title,
+      videoId: v.data.videoId,
+      slug: v.slug,
+      canonicalTrack: v.canonicalTrack,
+      canonicalURL: v.canonicalURL
+    })),
+    tracks: allTracks.map((t) => ({
+      slug: t.trackName,
+      title: t.data.title
+    }))
+  };
+  fs.writeFileSync(
+    './_descriptions/metadata.json',
+    JSON.stringify(metadata, null, 2)
+  );
   console.log('\n✅ Wrote descriptions to  ./_descriptions/');
 })();
