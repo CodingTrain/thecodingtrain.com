@@ -15,6 +15,7 @@ import {
   FaYoutube,
   FaInstagram
 } from 'react-icons/fa6';
+import { PiXLogoBold } from "react-icons/pi";
 import { IoStarSharp } from 'react-icons/io5';
 
 import { cols } from '../styles/styles.module.css';
@@ -107,7 +108,7 @@ const Footer = () => {
           </li>
           <li>
             <a href="https://twitter.com/thecodingtrain" aria-label="Twitter">
-              <FaTwitter size={30} />
+              <PiXLogoBold size={30} />
               <span>Twitter</span>
             </a>
           </li>
