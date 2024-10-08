@@ -1,7 +1,8 @@
 {
   "title": "Image Classification",
-  "description": "This video covers image classification in ml5.js 1.0. I demonstrate both the default MobileNet model as well as how to train your own classifier with transfer leraning and teachable machine.",
+  "description": "This video covers image classification in ml5.js 1.0. I demonstrate both the default MobileNet model as well as how to train your own classifier with transfer learning and teachable machine.",
   "videoId": "pbjR20eTLVs",
+  "nebulaSlug": "codingtrain-image-classification-with-ml5js",
   "date": "2024-10-06",
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["machine learning (ML)", "webcam", "image classification", "ml5.js", "MobileNet"],
