@@ -6,7 +6,7 @@ import YouTubeVideo from './YouTubeVideo';
 
 import * as css from './Question.module.css';
 
-import Open from '../images/open.svg';
+import Open from '../images/open.mini.svg';
 
 import { useLinkParsedText } from '../hooks';
 

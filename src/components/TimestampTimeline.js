@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
-import PlayButton from '../images/playbutton-filled.svg';
+import PlayButton from '../images/playbutton-filled.mini.svg';
 
 import * as css from './TimestampTimeline.module.css';
 

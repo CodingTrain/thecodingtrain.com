@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 
 import Menu from './Menu';
-import NewLogo from '../images/new-logo.svg';
+import NewLogo from '../images/new-logo.mini.svg';
 
 import * as css from './TopBar.module.css';
 

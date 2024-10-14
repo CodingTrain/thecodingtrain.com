@@ -12,7 +12,7 @@ import { filteredPath } from '../../utils';
 import * as css from './Card.module.css';
 import { pattern } from '../../styles/styles.module.css';
 
-import PlayButton from '../../images/playbutton.svg';
+import PlayButton from '../../images/playbutton.mini.svg';
 
 const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
   const [expanded, setExpanded] = useState(false);

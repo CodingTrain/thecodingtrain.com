@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import cn from 'classnames';
 
 import Image from './Image';
-import Play from '../images/play.svg';
+import Play from '../images/play.mini.svg';
 
 import * as css from './VideoCard.module.css';
 
