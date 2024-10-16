@@ -1,5 +1,5 @@
 {
-  "title": "Beginner's Guide to Machine Learning in JavaScript Trailer",
+  "title": "Trailer",
   "description": "This playlist provides an introduction to developing creative coding projects with machine learning. The theory and application of machine learning algorithms is demonstrated in JavaScript using the p5.js and ml5.js libraries.\n\nLearning Objectives:\n\nDevelop an intuition for and high level understanding of core machine learning concepts and algorithms, including supervised learning, unsupervised learning, reinforcement learning, transfer learning, classification, and regression.\n\nBe able to apply machine learning algorithms to real-time interaction in media art projects using pre-trained models and “transfer learning” in JavaScript and related tools.\n\nLearn how to collect a custom dataset to train a machine learning model and Understand how to use a machine learning model to generate media: words, sound, and images.",
   "videoNumber": "0.0",
   "videoId": "26uABexmOX4",
