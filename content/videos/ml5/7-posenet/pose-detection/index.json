@@ -39,7 +39,7 @@
     },
     {
       "title": "BodyPose - More Parts",
-      "description": "Sketch demonstrating use of BodyPose model with lerp.",
+      "description": "Sketch demonstrating shapes drawn at multiple keypoints.",
       "image": "parts.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/uPd6s2iVO" }
     },
