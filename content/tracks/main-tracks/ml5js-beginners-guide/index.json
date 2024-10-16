@@ -47,7 +47,7 @@
     },
     {
       "title": "PoseNet",
-      "videos": ["ml5/7-posenet/1-finding-keypoints", "ml5/7-posenet/2-pose-classifier", "ml5/7-posenet/3-pose-regression"]
+      "videos": ["ml5/7-posenet/pose-detection", "ml5/7-posenet/2-pose-classifier", "ml5/7-posenet/3-pose-regression"]
     },
     {
       "title": "Convolutional Neural Network",
