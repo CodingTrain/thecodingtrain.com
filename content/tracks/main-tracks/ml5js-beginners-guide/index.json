@@ -43,7 +43,7 @@
     },
     {
       "title": "BodyPose",
-      "videos": ["ml5/7-posenet/pose-detection", "ml5/7-posenet/2-pose-classifier", "ml5/7-posenet/3-pose-regression"]
+      "videos": ["ml5/7-bodypose/pose-detection", "ml5/7-bodypose/2-pose-classifier", "ml5/7-bodypose/3-pose-regression"]
     },
     {
       "title": "FaceMesh",
