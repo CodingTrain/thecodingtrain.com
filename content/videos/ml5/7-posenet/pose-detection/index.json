@@ -1,0 +1,129 @@
+{
+  "title": "Pose Detection",
+  "description": "Strike a pose! In this video, I explore the BodyPose model in ml5.js with MoveNet and BlazePose, showing how to track body keypoints and visualize 'skeleton' connections using live video.",
+  "videoId": "T99fNXTUUaQ",
+  "date": "2024-10-16",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "MoveNet", "BlazePose"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:45", "title": "BodyPose model" },
+    { "time": "3:28", "title": "Coco Dataset" },
+    { "time": "4:04", "title": "Projects that use pose detection" },
+    { "time": "5:49", "title": "Start coding" },
+    { "time": "8:58", "title": "Keypoint index values" },
+    { "time": "15:39", "title": "Connections between the keypoints" },
+    { "time": "17:57", "title": "Adding p5.distance()" },
+    { "time": "19:39", "title": "BlazePose" },
+    { "time": "20:56", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "BodyPose - single image",
+      "description": "Sketch demonstrating use of BodyPose model with an image.",
+      "image": "image.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/WQrffEIsJ" }
+    },
+    {
+      "title": "BodyPose - Nose",
+      "description": "Sketch demonstrating use of BodyPose model with a circle drawn at the nose keypoint.",
+      "image": "nose.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/AWrwZ_rSv" }
+    },
+    {
+      "title": "BodyPose - Nose with Lerp",
+      "description": "Sketch demonstrating use of BodyPose model with lerp.",
+      "image": "lerp.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/9O6KbYyiX" }
+    },
+    {
+      "title": "BodyPose - More Parts",
+      "description": "Sketch demonstrating shapes drawn at multiple keypoints.",
+      "image": "parts.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/uPd6s2iVO" }
+    },
+    {
+      "title": "BodyPose - Hat",
+      "description": "Sketch demonstrating how to place and rotate a shape on the body according to keypoint positions.",
+      "image": "hat.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/e_vqrMWcL" }
+    },
+    {
+      "title": "BodyPose - 3D BlazePose",
+      "description": "Sketch demonstrating use of the 3D BlazePose model.",
+      "image": "blazePose.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ftALPDieT" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "🏫",
+          "title": "Introduction to Machine Learning for the Arts",
+          "url": "https://github.com/ml5js/Intro-ML-Arts-IMA-F24",
+          "description": "Syllabus for ITP IMA course on Machine Learning."
+        },
+        {
+          "icon": "💻",
+          "title": "Common objects in Context Dataset",
+          "url": "https://cocodataset.org/#home",
+          "description": "COCO is a large-scale object detection, segmentation, and captioning dataset."
+        },
+        {
+          "icon": "🏫",
+          "title": "Humans of AI",
+          "url": "https://humans-of.ai",
+          "description": "Humans of AI by artist Phillip Schmitt seeks to bring attention to the images used to train AI models."
+        },
+        {
+          "icon": "💻",
+          "title": "Next-Generation Pose Detection with MoveNet and TensorFlow.js",
+          "url": "https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html",
+          "description": "Blog post by Ronny Votel and Na Li introducing MoveNet."
+        },
+        {
+          "icon": "📄",
+          "title": "BlazePose: On-device Real-time Body Pose tracking",
+          "url": "https://arxiv.org/pdf/2006.10204",
+          "description": "Academic paper introducing the BlazePose model."
+        },
+        {
+          "icon": "💃",
+          "title": "PoseNet Sketchbook",
+          "url": "https://googlecreativelab.github.io/posenet-sketchbook/",
+          "description": "PoseNet Sketchbook is a collection of open source, interactive web experiments by Maya Man"
+        },
+        {
+          "icon": "🏅",
+          "title": "Olympic Form",
+          "url": "https://charstiles.github.io/olympicForm/",
+          "description": "Letters made out of Olympians during the Paris 2024 Olympics"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Processing / p5.js Tutorial: What is lerp? (Linear Interpolation)",
+          "url": "https://www.youtube.com/watch?v=8uLVnM36XUc",
+          "description": "My tutorial on the lerp function."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
