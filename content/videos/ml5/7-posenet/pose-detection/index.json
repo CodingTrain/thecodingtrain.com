@@ -45,7 +45,7 @@
     },
     {
       "title": "BodyPose - Hat",
-      "description": "Sketch demonstrating how to use BodyPose model to add fun effects to video.",
+      "description": "Sketch demonstrating how to place and rotate a shape on the body according to keypoint positions.",
       "image": "hat.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/e_vqrMWcL" }
     },
