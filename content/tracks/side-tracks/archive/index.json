@@ -1,5 +1,5 @@
 {
   "title": "Archived Videos",
   "description": "Folder for archived videos",
-  "videos": ["archive/1-image-classification", "archive/2-webcam-classification"]
+  "videos": ["archive/ml5/1-image-classification", "archive/ml5/2-webcam-classification", "archive/ml5/1-finding-keypoints"]
 }

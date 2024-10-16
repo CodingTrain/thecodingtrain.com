@@ -52,7 +52,7 @@
         {
           "icon": "🚂",
           "title": "ml5.js Pose Estimation with PoseNet",
-          "url": "/tracks/ml5js-beginners-guide/ml5/7-posenet/1-finding-keypoints",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-posenet/pose-detection",
           "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using the pre-trained machine learning model PoseNet (in JavaScript with p5.js and ml5.js)."
         },
         {
