@@ -1,6 +1,6 @@
 {
   "title": "Pose Detection",
-  "description": "This video covers pose detection in ml5.js 1.0 using both the MoveNet model and BlazePose model.",
+  "description": "Strike a pose! In this video, I explore the BodyPose model in ml5.js with MoveNet and BlazePose, showing how to track body keypoints and visualize 'skeleton' connections using live video.",
   "videoId": "T99fNXTUUaQ",
   "date": "2024-10-16",
   "languages": ["ml5.js", "JavaScript"],
