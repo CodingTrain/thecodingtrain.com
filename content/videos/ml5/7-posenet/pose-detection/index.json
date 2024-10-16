@@ -10,7 +10,7 @@
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:45", "title": "BodyPose model" },
     { "time": "3:28", "title": "Coco Dataset" },
-    { "time": "4:04", "title": "Projects that use MoveNet" },
+    { "time": "4:04", "title": "Projects that use pose detection" },
     { "time": "5:49", "title": "Start coding" },
     { "time": "8:58", "title": "Keypoint index values" },
     { "time": "15:39", "title": "Connections between the keypoints" },
@@ -106,7 +106,7 @@
           "icon": "📄",
           "title": "Olympic Form",
           "url": "https://charstiles.github.io/olympicForm/",
-          "description": ""
+          "description": "Letters made out of Olympians during the Paris 2024 Olympics"
         }
       ]
     },
