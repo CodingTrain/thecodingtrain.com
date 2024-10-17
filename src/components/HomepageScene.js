@@ -4,10 +4,10 @@ import cn from 'classnames';
 import { Heading1 } from '../components/Heading';
 import Spacer from './Spacer';
 
-import Train from '../images/characters/homepage.svg';
-import TrainTrack from '../images/tracks.svg';
-import Sun from '../images/sun.svg';
-import Cloud from '../images/cloud.svg';
+import Train from '../images/characters/homepage.mini.svg';
+import TrainTrack from '../images/tracks.mini.svg';
+import Sun from '../images/sun.mini.svg';
+import Cloud from '../images/cloud.mini.svg';
 
 import SemiColonCharacter from '../images/characters/SemiColon_hello.mini.svg';
 

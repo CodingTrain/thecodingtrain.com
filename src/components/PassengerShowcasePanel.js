@@ -5,7 +5,7 @@ import Image from './Image';
 
 import * as css from './PassengerShowcasePanel.module.css';
 
-import PlayButton from '../images/playbutton.svg';
+import PlayButton from '../images/playbutton.mini.svg';
 import { useIsFirstRender } from '../hooks';
 import { shuffleCopy } from '../utils';
 
