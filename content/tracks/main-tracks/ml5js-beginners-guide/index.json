@@ -1,20 +1,16 @@
 {
-  "title": "A Beginner's Guide to Machine Learning in JavaScript",
+  "title": "A Beginner's Guide to Machine Learning in JavaScript with ml5.js",
   "date": "2018-07-31",
   "playlistId": "PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y",
   "description": "Welcome to \u201cA Beginner's Guide to Machine Learning in JavaScript\u201d! In this series, I'll teach the concepts behind machine learning using the ml5.js library.",
   "chapters": [
     {
       "title": "Introduction",
-      "videos": ["ml5/0-introduction/1-introduction", "ml5/0-introduction/patt-vira"]
+      "videos": ["ml5/0-introduction/0-trailer", "ml5/0-introduction/1-introduction"]
     },
     {
       "title": "Classification",
-      "videos": [
-        "ml5/1-classification/image-classification",
-        "ml5/1-classification/3-object-detection",
-        "ml5/9-doodleNet/1-doodleNet"
-      ]
+      "videos": ["ml5/1-classification/image-classification", "ml5/1-classification/3-object-detection", "ml5/9-doodleNet/1-doodleNet"]
     },
     {
       "title": "Transfer Learning",
@@ -46,8 +42,12 @@
       ]
     },
     {
-      "title": "PoseNet",
-      "videos": ["ml5/7-posenet/pose-detection", "ml5/7-posenet/2-pose-classifier", "ml5/7-posenet/3-pose-regression"]
+      "title": "BodyPose",
+      "videos": ["ml5/7-bodypose/pose-detection", "ml5/7-bodypose/2-pose-classifier", "ml5/7-bodypose/3-pose-regression"]
+    },
+    {
+      "title": "FaceMesh",
+      "videos": ["ml5/0-introduction/patt-vira"]
     },
     {
       "title": "Convolutional Neural Network",

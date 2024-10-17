@@ -111,7 +111,7 @@
         {
           "icon": "🚂",
           "title": "Pose Estimation with PoseNet",
-          "url": "/tracks/ml5js-beginners-guide/ml5/7-posenet/pose-detection",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
           "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using the pre-trained machine learning model PoseNet."
         },
         {

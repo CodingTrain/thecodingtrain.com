@@ -4,4 +4,4 @@ public
 .DS_Store
 _descriptions
 .netlify
-google-credentials/
+google-credentials
