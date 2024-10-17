@@ -116,9 +116,9 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Processing / p5.js Tutorial: What is lerp? (Linear Interpolation)",
+          "title": "What is lerp? (Linear Interpolation)",
           "url": "https://www.youtube.com/watch?v=8uLVnM36XUc",
-          "description": "My tutorial on the lerp function."
+          "description": "Demonstrates lerp() in Processing and p5.js"
         }
       ]
     }
