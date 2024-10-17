@@ -69,9 +69,9 @@
         },
         {
           "icon": "🏫",
-          "title": "Introduction to Machine Learning for the Arts",
+          "title": "Introduction to ML for the Arts",
           "url": "https://github.com/ml5js/Intro-ML-Arts-IMA-F24",
-          "description": "Syllabus for ITP IMA course on Machine Learning."
+          "description": "Syllabus for ITP IMA course on Machine Learning for the Arts."
         },
         {
           "icon": "💻",
@@ -87,15 +87,15 @@
         },
         {
           "icon": "💻",
-          "title": "Next-Generation Pose Detection with MoveNet and TensorFlow.js",
+          "title": "Next-Generation Pose Detection",
           "url": "https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html",
-          "description": "Blog post by Ronny Votel and Na Li introducing MoveNet."
+          "description": "Post about MoveNet and TensorFlow.js by Ronny Votel and Na Li."
         },
         {
           "icon": "📄",
-          "title": "BlazePose: On-device Real-time Body Pose tracking",
+          "title": "BlazePose Paper",
           "url": "https://arxiv.org/pdf/2006.10204",
-          "description": "Academic paper introducing the BlazePose model."
+          "description": "On-device Real-time Body Pose tracking."
         },
         {
           "icon": "💃",
