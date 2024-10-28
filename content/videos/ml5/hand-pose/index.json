@@ -1,9 +1,9 @@
 {
-  "title": "Hand Pose",
+  "title": "Hand Pose Detection with ml5.js",
   "description": "Hand Pose video",
   "videoId": "vfNHdVbE-l4",
   "nebulaSlug": "",
-  "date": "2024-10-29",
+  "date": "2024-10-28",
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "HandPose"],
   "canContribute": true,
@@ -33,7 +33,7 @@
     },
     {
       "title": "Simple painting",
-      "description": "Sketch demonstrating drawing using mouseX, mouseY, previous X, and previousY.",
+      "description": "Sketch demonstrating drawing using mouseX, mouseY, pmouseX, pmouseY.",
       "image": "",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/3VcKxx_GY" }
     },
@@ -64,25 +64,25 @@
           "icon": "💻",
           "title": "ml5.js",
           "url": "https://ml5js.org/",
-          "description": "ml5 page with documentation and supporting material."
+          "description": "ml5.js website with model documentation and other supporting material."
         },
         {
           "icon": "🏫",
           "title": "Introduction to ML for the Arts",
           "url": "https://github.com/ml5js/Intro-ML-Arts-IMA-F24",
-          "description": "Syllabus for ITP IMA course on Machine Learning for the Arts."
+          "description": "Syllabus for ITP/IMA course."
         },
         {
           "icon": "🏫",
-          "title": "Jack B. Du's Instragram",
+          "title": "Jack B. Du's Instagram",
           "url": "https://www.instagram.com/jackbdu/",
-          "description": "Researcher and professor @nyutisch"
+          "description": "Jack B. Du is an artist and researcher whose work explores the poetic possibilities of code in both analog and digital forms."
         },
         {
           "icon": "💻",
           "title": "On-Device, Real-Time Hand Tracking with MediaPipe",
           "url": "https://research.google/blog/on-device-real-time-hand-tracking-with-mediapipe/",
-          "description": "Blog introducing Hand Tracking."
+          "description": "Google Research blog post covering the technical details of the HandPose model."
         }
       ]
     }
