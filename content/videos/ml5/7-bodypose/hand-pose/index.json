@@ -1,0 +1,94 @@
+{
+  "title": "Hand Pose",
+  "description": "Hand Pose video",
+  "videoId": "vfNHdVbE-l4",
+  "nebulaSlug": "",
+  "date": "2024-10-29",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "HandPose"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:48", "title": "Creative Inspiration" },
+    { "time": "3:52", "title": "Adapt code to HandPose" },
+    { "time": "7:05", "title": "Use the index and thumb keypoints to draw" },
+    { "time": "10:19", "title": "Add a layer using createGraphics()" },
+    { "time": "12:01", "title": "Use clear() to make the layer pixels transparent" },
+    { "time": "12:40", "title": "Draw a line by connecting the hand subsequent hand positions" },
+    { "time": "14:29", "title": "What Can you do?" },
+    { "time": "15:27", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "HandPose - Keypoints",
+      "description": "Sketch demonstrating use of HandPose model to find finger keypoints.",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/o5wnL6esQ" }
+    },
+    {
+      "title": "HandPose - Painting",
+      "description": "Sketch demonstrating use of HandPose model to draw using index finger and thumb keypoints.",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LCEHJm6PA" }
+    },
+    {
+      "title": "Simple painting",
+      "description": "Sketch demonstrating drawing using mouseX, mouseY, previous X, and previousY.",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/3VcKxx_GY" }
+    },
+    {
+      "title": "HandPose Painting - StrokeWeight",
+      "description": "Sketch demonstrating how to use the hand keypoints to adjust strokeWeight.",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/-C3Og5Wzs" }
+    },
+    {
+      "title": "HandPose Painting - Color",
+      "description": "Sketch demonstrating how to use the hand keypoints to adjust color.",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/InzaVXI-R" }
+    },
+    {
+      "title": "HandPose - Thumbs up or Thumbs Down",
+      "description": "Sketch demonstrating how recognize gestures based on the relative positions of the hand keypoints",
+      "image": "",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/0_qPHtsF_" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "🏫",
+          "title": "Introduction to ML for the Arts",
+          "url": "https://github.com/ml5js/Intro-ML-Arts-IMA-F24",
+          "description": "Syllabus for ITP IMA course on Machine Learning for the Arts."
+        },
+        {
+          "icon": "🏫",
+          "title": "Jack B. Du's Instragram",
+          "url": "https://www.instagram.com/jackbdu/",
+          "description": "Researcher and professor @nyutisch"
+        },
+        {
+          "icon": "💻",
+          "title": "On-Device, Real-Time Hand Tracking with MediaPipe",
+          "url": "https://research.google/blog/on-device-real-time-hand-tracking-with-mediapipe/",
+          "description": "Blog introducing Hand Tracking."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
