@@ -9,14 +9,15 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "0:48", "title": "Creative Inspiration" },
-    { "time": "3:52", "title": "Adapt code to HandPose" },
-    { "time": "7:05", "title": "Use the index and thumb keypoints to draw" },
+    { "time": "1:23", "title": "Technical background of the model" },
+    { "time": "3:52", "title": "Convert BodyPose to HandPose" },
+    { "time": "5:54", "title": "Detecting more than one hand" },
+    { "time": "6:14", "title": "Detecting handedness (left or right)" },
+    { "time": "6:51", "title": "Creating a painting sketch with index and thumb" },
     { "time": "10:19", "title": "Add a layer using createGraphics()" },
-    { "time": "12:01", "title": "Use clear() to make the layer pixels transparent" },
-    { "time": "12:40", "title": "Draw a line by connecting the hand subsequent hand positions" },
-    { "time": "14:29", "title": "What Can you do?" },
-    { "time": "15:27", "title": "Outro" }
+    { "time": "12:40", "title": "Storing previous hand position to draw a line" },
+    { "time": "14:17", "title": "Exercise ideas for you!" },
+    { "time": "15:27", "title": "Goodbye!" }
   ],
   "codeExamples": [
     {
