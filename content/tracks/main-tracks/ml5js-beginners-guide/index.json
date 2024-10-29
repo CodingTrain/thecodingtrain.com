@@ -33,21 +33,19 @@
       ]
     },
     {
+      "title": "Landmark Detection",
+      "videos": ["ml5/7-bodypose/pose-detection", "ml5/hand-pose", "ml5/0-introduction/patt-vira"]
+    },
+    {
       "title": "Train Your Own Neural Network",
       "videos": [
         "ml5/6-train-your-own-neural-network/1-train-the-model",
         "ml5/6-train-your-own-neural-network/2-save-data",
         "ml5/6-train-your-own-neural-network/3-save-model",
-        "ml5/6-train-your-own-neural-network/4-regression"
+        "ml5/6-train-your-own-neural-network/4-regression",
+        "ml5/7-bodypose/2-pose-classifier",
+        "ml5/7-bodypose/3-pose-regression"
       ]
-    },
-    {
-      "title": "BodyPose",
-      "videos": ["ml5/7-bodypose/pose-detection", "ml5/7-bodypose/2-pose-classifier", "ml5/7-bodypose/3-pose-regression"]
-    },
-    {
-      "title": "FaceMesh",
-      "videos": ["ml5/0-introduction/patt-vira"]
     },
     {
       "title": "Convolutional Neural Network",

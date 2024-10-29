@@ -1,0 +1,113 @@
+{
+  "title": "Hand Pose Detection with ml5.js",
+  "description": "In this video, I explore the HandPose model using ml5.js. I'll demonstrate how to track hand keypoints and create an interactive painting sketch using gestures.",
+  "videoId": "vfNHdVbE-l4",
+  "nebulaSlug": "codingtrain-hand-pose-detection-with-ml5js",
+  "date": "2024-10-27",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "HandPose"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:23", "title": "Technical background of the model" },
+    { "time": "3:52", "title": "Convert BodyPose to HandPose" },
+    { "time": "5:54", "title": "Detecting more than one hand" },
+    { "time": "6:14", "title": "Detecting handedness (left or right)" },
+    { "time": "6:51", "title": "Creating a painting sketch with index and thumb" },
+    { "time": "10:19", "title": "Add a layer using createGraphics()" },
+    { "time": "12:40", "title": "Storing previous hand position to draw a line" },
+    { "time": "14:17", "title": "Exercise ideas for you!" },
+    { "time": "15:27", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "HandPose - Keypoints",
+      "description": "This sketch demonstrates how to render all of the 21 keypoints detected by the handPose model.",
+      "image": "handpose-keypoints.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/o5wnL6esQ" }
+    },
+    {
+      "title": "HandPose - Painting",
+      "description": "This sketch demonstrates how to draw using the index finger tip and thumb tip keypoints.",
+      "image": "handpose-drawing.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LCEHJm6PA" }
+    },
+    {
+      "title": "Simple painting",
+      "description": "This sketch demonstrates drawing with mouseX, mouseY, pmouseX, pmouseY.",
+      "image": "simple-painting.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/3VcKxx_GY" }
+    },
+    {
+      "title": "HandPose Painting - Stroke Weight",
+      "description": "This sketch demonstrates how to change the stroke weight with the left hand.",
+      "image": "painting-stroke-weight.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/-C3Og5Wzs" }
+    },
+    {
+      "title": "HandPose Painting - Color",
+      "description": "This sketch demonstrates how to change colors with left hand taps.",
+      "image": "painting-color.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/InzaVXI-R" }
+    },
+    {
+      "title": "HandPose - Thumbs up or Thumbs Down",
+      "description": "This sketch demonstrates how to recognize a gesture based on the relative positions of two keypoints.",
+      "image": "thumbs-up.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/0_qPHtsF_" }
+    },
+    {
+      "title": "HandPose - Particles",
+      "description": "This sketch demonstrates how to emit particles from the keypoints of the hand.",
+      "image": "handpose-particles.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/t7l5pYDDI" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5.js website with model documentation and other supporting material."
+        },
+        {
+          "icon": "🏫",
+          "title": "Introduction to ML for the Arts",
+          "url": "https://github.com/ml5js/Intro-ML-Arts-IMA-F24",
+          "description": "Syllabus for ITP/IMA course."
+        },
+        {
+          "icon": "📺",
+          "title": "Jack B. Du's YouTube channel",
+          "url": "https://www.youtube.com/channel/UCUP34ETx7nvIbd4ypkR02hg",
+          "description": "Jack's coding tutorials, experiments, and more!"
+        },
+        {
+          "icon": "🎨",
+          "title": "Jack B. Du's Instagram",
+          "url": "https://www.instagram.com/jackbdu/",
+          "description": "Jack B. Du is an artist and researcher whose work explores the poetic possibilities of code in both analog and digital forms."
+        },
+        {
+          "icon": "💻",
+          "title": "On-Device, Real-Time Hand Tracking with MediaPipe",
+          "url": "https://research.google/blog/on-device-real-time-hand-tracking-with-mediapipe/",
+          "description": "Google Research blog post covering the technical details of the HandPose model."
+        },
+        {
+          "icon": "📄",
+          "title": "3D Hand Pose with MediaPipe and TensorFlow.js",
+          "url": "https://blog.tensorflow.org/2021/11/3D-handpose.html",
+          "description": "Tensorflow Blog post covering the 2021 updates to hand detection model."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
