@@ -2,7 +2,7 @@
   "title": "Hand Pose Detection with ml5.js",
   "description": "In this video, I explore the HandPose model using ml5.js. I'll demonstrate how to track hand keypoints and create an interactive painting sketch using gestures.",
   "videoId": "vfNHdVbE-l4",
-  "nebulaSlug": "",
+  "nebulaSlug": "codingtrain-hand-pose-detection-with-ml5js",
   "date": "2024-10-27",
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "HandPose"],
