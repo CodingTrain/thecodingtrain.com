@@ -60,7 +60,7 @@
       "title": "HandPose - Particles",
       "description": "This sketch demonstrates how to emit particles from the keypoints of the hand.",
       "image": "handpose-particles.png",
-      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/0_qPHtsF_" }
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/t7l5pYDDI" }
     }
   ],
   "groupLinks": [
@@ -80,16 +80,16 @@
           "description": "Syllabus for ITP/IMA course."
         },
         {
-          "icon": "🎨",
-          "title": "Jack B. Du's Instagram",
-          "url": "https://www.instagram.com/jackbdu/",
-          "description": "Jack B. Du is an artist and researcher whose work explores the poetic possibilities of code in both analog and digital forms."
-        },
-        {
           "icon": "📺",
           "title": "Jack B. Du's YouTube channel",
           "url": "https://www.youtube.com/channel/UCUP34ETx7nvIbd4ypkR02hg",
           "description": "Jack's coding tutorials, experiments, and more!"
+        },
+        {
+          "icon": "🎨",
+          "title": "Jack B. Du's Instagram",
+          "url": "https://www.instagram.com/jackbdu/",
+          "description": "Jack B. Du is an artist and researcher whose work explores the poetic possibilities of code in both analog and digital forms."
         },
         {
           "icon": "💻",
