@@ -80,10 +80,16 @@
           "description": "Syllabus for ITP/IMA course."
         },
         {
-          "icon": "🏫",
+          "icon": "🎨",
           "title": "Jack B. Du's Instagram",
           "url": "https://www.instagram.com/jackbdu/",
           "description": "Jack B. Du is an artist and researcher whose work explores the poetic possibilities of code in both analog and digital forms."
+        },
+        {
+          "icon": "📺",
+          "title": "Jack B. Du's YouTube channel",
+          "url": "https://www.youtube.com/channel/UCUP34ETx7nvIbd4ypkR02hg",
+          "description": "Jack's coding tutorials, experiments, and more!"
         },
         {
           "icon": "💻",
