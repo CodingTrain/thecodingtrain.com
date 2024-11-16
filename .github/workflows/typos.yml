@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check spelling of markdown and JSON files in content directory
+      - name: Check spelling in content directory
         uses: crate-ci/typos@master
         with:
-          files: ./content/**/*.{md,json}
+          files: ./content
