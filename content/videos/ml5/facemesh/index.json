@@ -1,0 +1,155 @@
+{
+  "title": "Face Mesh with ml5.js",
+  "description": "In this video, I explore the FaceMesh model using ml5.js. I demonstrate how to track all 468 face landmark positions as well as texture map an image onto the triangular mesh with uv coordinates.",
+  "videoId": "R5UZsIwPbJA",
+  "nebulaSlug": "codingtrain-facemesh-with-ml5js",
+  "date": "2024-11-16",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "face mesh", "ml5.js", "texture", "uv coordinates"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:15", "title": "Technical background for the model" },
+    { "time": "2:30", "title": "Related projects and inspiration." },
+    { "time": "3:01", "title": "Adapting handpose example to facemesh." },
+    { "time": "5:29", "title": "Keypoints and parts of the facemesh." },
+    { "time": "11:28", "title": "Face bounding box." },
+    { "time": "13:36", "title": "What is a mesh? Rendering the triangles" },
+    { "time": "21:19", "title": "Texturing mapping with UV coordinates" },
+    { "time": "30:48", "title": "FaceMesh in 3D" },
+    { "time": "31:10", "title": "Goodbye!" }
+  ],
+  "relatedChallenges": ["181-image-stippling", "63-texturing-cloth-simulation"],
+  "codeExamples": [
+    {
+      "title": "FaceMesh - Keypoints",
+      "description": "This sketch demonstrates how to render all of the 468 keypoints detected by the FaceMesh model.",
+      "image": "facemesh-keypoints.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/KHm9CI2RJ" }
+    },
+    {
+      "title": "FaceMesh - Part",
+      "description": "This sketch demonstrates how to render the keypoints of a specific part of the FaceMesh model.",
+      "image": "facemesh-part.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/HaGkT63qG" }
+    },
+    {
+      "title": "FaceMesh - Custom List (Lips)",
+      "description": "This sketch demonstrates how to render the keypoints of custom list of keypoints like the lip contours.",
+      "image": "facemesh-lips.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/CYL9bQtvc" }
+    },
+    {
+      "title": "FaceMesh - Centered Face",
+      "description": "This sketch demonstrates how to use the bounding box of the detected face to center the face in the canvas.",
+      "image": "facemesh-box.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/DGEuFKf87" }
+    },
+    {
+      "title": "FaceMesh - Triangles",
+      "description": "This sketch demonstrates how to render the triangular mesh of the FaceMesh model.",
+      "image": "facemesh-triangles.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EjIrb89WY" }
+    },
+    {
+      "title": "FaceMesh - Texture Map",
+      "description": "This sketch demonstrates how to texture map an image onto the FaceMesh triangles.",
+      "image": "facemesh-mask.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zUKp9n4MW" }
+    },
+    {
+      "title": "FaceMesh - 3D",
+      "description": "This sketch demonstrates how to render the face mesh in 3D.",
+      "image": "facemesh-3d.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zUKp9n4MW" }
+    },
+    {
+      "title": "FaceMesh - Blow Bubbles",
+      "description": "This sketch demonstrates how to emit particles when the mouth is open.",
+      "image": "facemesh-bubbles.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Mf74RjP92" }
+    },
+    {
+      "title": "FaceMesh - Stretch and Skew",
+      "description": "This sketch demonstrates how to distort the facemesh triangles with a sine wave.",
+      "image": "facemesh-distort.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/tS6bxPzmE" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5.js website with model documentation and other supporting material."
+        },
+        {
+          "icon": "🎹",
+          "title": "Mouth Controlled Synteszier",
+          "url": "https://jackbdu.com/blog/mouth-controlled-synthesizer/",
+          "description": "Jack B. Du's interactive synthesizer controlled by mouth movements"
+        },
+        {
+          "icon": "📄",
+          "title": "Face and hand tracking in the browser with MediaPipe and TensorFlow.js",
+          "url": "https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html",
+          "description": "Google Research blog post covering the technical details of the Face and hand tracking models."
+        },
+        {
+          "icon": "📄",
+          "title": "Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs",
+          "url": "https://arxiv.org/pdf/1907.06724",
+          "description": "Paper describing the method for inferring 3D mesh representation of a human face from single camera input."
+        },
+        {
+          "icon": "📄",
+          "title": "Face Mesh Model Card",
+          "url": "https://drive.google.com/file/d/1VFC_wIpw4O7xBOiTgUldl79d9LA-LsnA/view",
+          "description": "Model card for the Face Mesh model with information on the model's intended use, training data, and more."
+        },
+        {
+          "icon": "▵",
+          "title": "Face Mesh UV Keypoints Map",
+          "url": "https://developers.google.com/static/ml-kit/vision/face-mesh-detection/images/uv_unwrap_full.png",
+          "description": "Diagram with all keypoints labeled and mapped to the UV coordinates of the Face Mesh model."
+        },
+        {
+          "icon": "📄",
+          "title": "Destructuring Assignment",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+          "description": "MDN Web Docs reference for JavaScript destructuring syntax."
+        },
+        {
+          "icon": "☁️",
+          "title": "Clouds From Plane Window",
+          "url": "https://en.wikipedia.org/wiki/File:Cloud_From_Plane_Window.jpg",
+          "description": "Creative Commons image from a plane window used in the texture mapping example."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Interactive Dandelion",
+          "url": "https://youtu.be/FlBRSIz5AcQ",
+          "description": "Patt Vira's interactive dandelion project using ml5.js and p5.js."
+        },
+        {
+          "icon": "🚂",
+          "title": "The Pixel Array",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/pixel-array",
+          "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

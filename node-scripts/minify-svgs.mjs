@@ -12,6 +12,7 @@ const config = {
       name: 'preset-default',
       params: {
         overrides: {
+          removeViewBox: false,
           inlineStyles: {
             onlyMatchedOnce: false
           }
