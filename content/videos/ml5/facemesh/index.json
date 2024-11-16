@@ -7,7 +7,18 @@
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["machine learning (ML)", "face mesh", "ml5.js", "texture", "uv coordinates"],
   "canContribute": true,
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "1:15", "title": "Technical background for the model" },
+    { "time": "2:30", "title": "Related projects and inspiration." },
+    { "time": "3:01", "title": "Adapting handpose example to facemesh." },
+    { "time": "5:29", "title": "Keypoints and parts of the facemesh." },
+    { "time": "11:28", "title": "Face bounding box." },
+    { "time": "13:36", "title": "What is a mesh? Rendering the triangles" },
+    { "time": "21:19", "title": "Texturing mapping with UV coordinates" },
+    { "time": "30:48", "title": "FaceMesh in 3D" },
+    { "time": "31:10", "title": "Goodbye!" }
+  ],
   "relatedChallenges": ["181-image-stippling", "63-texturing-cloth-simulation"],
   "codeExamples": [
     {
