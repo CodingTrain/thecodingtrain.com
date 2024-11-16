@@ -8,6 +8,7 @@
   "topics": ["machine learning (ML)", "face mesh", "ml5.js", "texture", "uv coordinates"],
   "canContribute": true,
   "timestamps": [],
+  "relatedChallenges": ["181-image-stippling", "63-texturing-cloth-simulation"],
   "codeExamples": [
     {
       "title": "FaceMesh - Keypoints",
@@ -91,6 +92,47 @@
           "title": "Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs",
           "url": "https://arxiv.org/pdf/1907.06724",
           "description": "Paper describing the method for inferring 3D mesh representation of a human face from single camera input."
+        },
+        {
+          "icon": "📄",
+          "title": "Face Mesh Model Card",
+          "url": "https://drive.google.com/file/d/1VFC_wIpw4O7xBOiTgUldl79d9LA-LsnA/view",
+          "description": "Model card for the Face Mesh model with information on the model's intended use, training data, and more."
+        },
+        {
+          "icon": "▵",
+          "title": "Face Mesh UV Keypoints Map",
+          "url": "https://developers.google.com/static/ml-kit/vision/face-mesh-detection/images/uv_unwrap_full.png",
+          "description": "Diagram with all keypoints labeled and mapped to the UV coordinates of the Face Mesh model."
+        },
+        {
+          "icon": "📄",
+          "title": "Destructuring Assignment",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+          "description": "MDN Web Docs reference for JavaScript destructuring syntax."
+        },
+        {
+          "icon": "☁️",
+          "title": "Clouds From Plane Window",
+          "url": "https://en.wikipedia.org/wiki/File:Cloud_From_Plane_Window.jpg",
+          "description": "Creative Commons image from a plane window used in the texture mapping example."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Interactive Dandelion",
+          "url": "https://youtu.be/FlBRSIz5AcQ",
+          "description": "Patt Vira's interactive dandelion project using ml5.js and p5.js."
+        },
+        {
+          "icon": "🚂",
+          "title": "The Pixel Array",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/pixel-array",
+          "description": "This video looks at how to access the pixels of an HTML5 canvas in p5.js."
         }
       ]
     }
