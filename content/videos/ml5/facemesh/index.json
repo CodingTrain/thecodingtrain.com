@@ -14,6 +14,54 @@
       "description": "This sketch demonstrates how to render all of the 468 keypoints detected by the FaceMesh model.",
       "image": "facemesh-keypoints.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/KHm9CI2RJ" }
+    },
+    {
+      "title": "FaceMesh - Part",
+      "description": "This sketch demonstrates how to render the keypoints of a specific part of the FaceMesh model.",
+      "image": "facemesh-part.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/HaGkT63qG" }
+    },
+    {
+      "title": "FaceMesh - Custom List (Lips)",
+      "description": "This sketch demonstrates how to render the keypoints of custom list of keypoints like the lip contours.",
+      "image": "facemesh-lips.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/CYL9bQtvc" }
+    },
+    {
+      "title": "FaceMesh - Centered Face",
+      "description": "This sketch demonstrates how to use the bounding box of the detected face to center the face in the canvas.",
+      "image": "facemesh-box.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/DGEuFKf87" }
+    },
+    {
+      "title": "FaceMesh - Triangles",
+      "description": "This sketch demonstrates how to render the triangular mesh of the FaceMesh model.",
+      "image": "facemesh-triangles.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EjIrb89WY" }
+    },
+    {
+      "title": "FaceMesh - Texture Map",
+      "description": "This sketch demonstrates how to texture map an image onto the FaceMesh triangles.",
+      "image": "facemesh-mask.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zUKp9n4MW" }
+    },
+    {
+      "title": "FaceMesh - 3D",
+      "description": "This sketch demonstrates how to render the face mesh in 3D.",
+      "image": "facemesh-3d.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/zUKp9n4MW" }
+    },
+    {
+      "title": "FaceMesh - Blow Bubbles",
+      "description": "This sketch demonstrates how to emit particles when the mouth is open.",
+      "image": "facemesh-bubbles.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Mf74RjP92" }
+    },
+    {
+      "title": "FaceMesh - Stretch and Skew",
+      "description": "This sketch demonstrates how to distort the facemesh triangles with a sine wave.",
+      "image": "facemesh-distort.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/tS6bxPzmE" }
     }
   ],
   "groupLinks": [
