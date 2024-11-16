@@ -1,0 +1,54 @@
+{
+  "title": "Face Mesh with ml5.js",
+  "description": "In this video, I explore the FaceMesh model using ml5.js. I demonstrate how to track all 468 face landmark positions as well as texture map an image onto the triangular mesh with uv coordinates.",
+  "videoId": "R5UZsIwPbJA",
+  "nebulaSlug": "codingtrain-facemesh-with-ml5js",
+  "date": "2024-11-16",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "face mesh", "ml5.js", "texture", "uv coordinates"],
+  "canContribute": true,
+  "timestamps": [],
+  "codeExamples": [
+    {
+      "title": "FaceMesh - Keypoints",
+      "description": "This sketch demonstrates how to render all of the 468 keypoints detected by the FaceMesh model.",
+      "image": "facemesh-keypoints.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/KHm9CI2RJ" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5.js website with model documentation and other supporting material."
+        },
+        {
+          "icon": "🎹",
+          "title": "Mouth Controlled Synteszier",
+          "url": "https://jackbdu.com/blog/mouth-controlled-synthesizer/",
+          "description": "Jack B. Du's interactive synthesizer controlled by mouth movements"
+        },
+        {
+          "icon": "📄",
+          "title": "Face and hand tracking in the browser with MediaPipe and TensorFlow.js",
+          "url": "https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html",
+          "description": "Google Research blog post covering the technical details of the Face and hand tracking models."
+        },
+        {
+          "icon": "📄",
+          "title": "Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs",
+          "url": "https://arxiv.org/pdf/1907.06724",
+          "description": "Paper describing the method for inferring 3D mesh representation of a human face from single camera input."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
