@@ -1,0 +1,10 @@
+[default]
+extend-ignore-re = [
+  # don't spellcheck the values of these JSON keys
+  '"(name|videoId|url|instagram)": ".*"',
+
+  # false positives
+  'Jason Sigal',
+  'Thi\.ng',
+  'Shure Lavalier',
+]

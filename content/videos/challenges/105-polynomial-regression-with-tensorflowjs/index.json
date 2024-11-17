@@ -24,7 +24,7 @@
   "codeExamples": [
     {
       "title": "Polynomial Regression",
-      "description": "This sketch creates an interactive simulation of polynominal regression.",
+      "description": "This sketch creates an interactive simulation of polynomial regression.",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/UdXRZxF7e" }
     }
   ],
