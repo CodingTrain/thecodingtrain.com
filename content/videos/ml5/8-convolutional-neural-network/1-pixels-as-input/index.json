@@ -95,7 +95,7 @@
         {
           "icon": "🚂",
           "title": "Image Classification with MobileNet",
-          "url": "/tracks/ml5js-beginners-guide/ml5/1-classification/1-image-classification",
+          "url": "/tracks/ml5js-beginners-guide/ml5/1-classification/image-classification",
           "description": "In this video, I use the \"pre-trained\" MobileNet model to classify the content of an image."
         },
         {
@@ -113,7 +113,7 @@
         {
           "icon": "🚂",
           "title": "Pose Regression with PoseNet and ml5.neuralNetwork()",
-          "url": "/tracks/ml5js-beginners-guide/ml5/7-posenet/3-pose-regression",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/3-pose-regression",
           "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \"pose\" itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification."
         }
       ]

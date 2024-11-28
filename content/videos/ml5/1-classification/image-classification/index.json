@@ -1,0 +1,115 @@
+{
+  "title": "Image Classification",
+  "description": "This video covers image classification in ml5.js 1.0. I demonstrate both the default MobileNet model as well as how to train your own classifier with transfer learning and teachable machine.",
+  "videoId": "pbjR20eTLVs",
+  "nebulaSlug": "codingtrain-image-classification-with-ml5js",
+  "date": "2024-10-06",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "webcam", "image classification", "ml5.js", "MobileNet"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:30", "title": "What is MobileNet?" },
+    { "time": "4:53", "title": "What is ImageNet?" },
+    { "time": "10:32", "title": "ml5.js Classifier Code!" },
+    { "time": "21:19", "title": "Incorporating Live Video" },
+    { "time": "24:51", "title": "Training your own model" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Image Classification",
+      "description": "Simple image classification using MobileNet.",
+      "image": "simple.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/A2W-0ayI5" }
+    },
+    {
+      "title": "Image Classification with Webcam",
+      "description": "Continuous image classification with webcam feed.",
+      "image": "webcam.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/r9LjJqaw6" }
+    },
+    {
+      "title": "Image Classification - Drag and Drop",
+      "description": "Drag and drop an image in the canvas to classify it.",
+      "image": "drag.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/v1sAlvSHR" }
+    },
+    {
+      "title": "Image Classification - Display label and confidence",
+      "description": "Displays the label and confidence of the classification.",
+      "image": "conf.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/7zA6_MlIo" }
+    },
+    {
+      "title": "Image Classification - Tint",
+      "description": "Tints the image with a color based on the confidence.",
+      "image": "tint.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/uHN5htRpC" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "🏫",
+          "title": "Introduction to Machine Learning for the Arts",
+          "url": "https://github.com/ml5js/Intro-ML-Arts-IMA-F24",
+          "description": "Syllabus for ITP IMA course on Machine Learning."
+        },
+        {
+          "icon": "📄",
+          "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "url": "https://arxiv.org/abs/1704.04861",
+          "description": "Original paper on MobileNet."
+        },
+        {
+          "icon": "💻",
+          "title": "Tensorflow.js port of MobileNet",
+          "url": "https://github.com/tensorflow/tfjs-models/tree/master/mobilenet",
+          "description": "Repository with the Tensorflow.js MobileNet model."
+        },
+        {
+          "icon": "💻",
+          "title": "Image-Net",
+          "url": "https://image-net.org/",
+          "description": "ImageNet is an image database organized according to the WordNet hierarchy."
+        },
+        {
+          "icon": "🎤",
+          "title": "How we teach computers to understand pictures",
+          "url": "https://www.youtube.com/watch?v=40riCqvRoMs",
+          "description": "Fei-Fei Li's TED talk on ImageNet."
+        },
+        {
+          "icon": "🌐",
+          "title": "Excavating AI: The Politics of Images in Machine Learning Training Sets",
+          "url": "https://excavating.ai/",
+          "description": "About bias in ImageNet data set."
+        },
+        {
+          "icon": "🖼️",
+          "title": "ml5 ImageClassifier",
+          "url": "https://docs.ml5js.org/#/reference/image-classifier",
+          "description": "ml5.js documentation on ImageClassifier."
+        },
+        {
+          "icon": "📱",
+          "title": "Teachable Machine",
+          "url": "https://teachablemachine.withgoogle.com/",
+          "description": "Google's Teachable Machine."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

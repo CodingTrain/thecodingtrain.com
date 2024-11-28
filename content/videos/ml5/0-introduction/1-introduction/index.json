@@ -1,5 +1,5 @@
 {
-  "title": "A Beginner's Guide to Machine Learning with ml5.js",
+  "title": "Introduction",
   "description": "Welcome to \"A Beginner's Guide to Machine Learning in JavaScript\"! In this series, I'll teach the concepts behind machine learning using the ml5.js library.",
   "videoNumber": "0.1",
   "videoId": "jmznx0Q1fP0",
@@ -10,14 +10,14 @@
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:00", "title": "What is machine learning?" },
-    { "time": "6:00", "title": "What is ML5?" },
+    { "time": "6:00", "title": "What is ml5.js?" },
     { "time": "11:45", "title": "Tensorflow" },
     {
       "time": "14:30",
       "title": "Neural networks, pretrained models, and data sets"
     },
-    { "time": "16:50", "title": "MobilNet" },
-    { "time": "18:06", "title": "ML5.org" },
+    { "time": "16:50", "title": "MobileNet" },
+    { "time": "18:06", "title": "The ml5.js website" },
     { "time": "20:34", "title": "Attributions" }
   ],
   "groupLinks": [

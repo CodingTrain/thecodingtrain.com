@@ -1,0 +1,19 @@
+name: Content typos tests
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check spelling in content directory
+        uses: crate-ci/typos@master
+        with:
+          files: ./content

@@ -13,7 +13,7 @@ const NebulaVideoRow = ({ nebulaSlug, variant }) => {
           rel="noopener noreferrer">
           <img
             className={css.svg}
-            src="/images/nebula-button.svg"
+            src="/images/nebula-button.mini.svg"
             alt="Nebula logo"
           />
         </a>

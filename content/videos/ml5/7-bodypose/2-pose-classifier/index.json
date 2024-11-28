@@ -1,0 +1,98 @@
+{
+  "title": "Pose Classifier with PoseNet and ml5.neuralNetwork()",
+  "description": "This tutorial combines PoseNet and ml5.neuralNetwork(). I use the output of the pre-trained model (the \"pose\" itself) as the inputs to an ml5.js neural network classifier.",
+  "videoNumber": "7.2",
+  "videoId": "FYgYyq-xqAw",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-pose-classification-with-posenet-and-ml5-neuralnetwork",
+  "date": "2020-01-15",
+  "languages": ["ml5.js", "p5.js"],
+  "topics": ["pose estimation", "data collection", "neural network", "trained model", "PoseNet"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:31", "title": "Mirroring the image" },
+    { "time": "1:26", "title": "Prerequisite videos" },
+    { "time": "2:08", "title": "Create brain" },
+    { "time": "2:27", "title": "Options" },
+    { "time": "4:12", "title": "Add training data" },
+    { "time": "4:45", "title": "Google's Teachable Machine" },
+    { "time": "5:46", "title": "Add the state variable" },
+    { "time": "7:10", "title": "addData function" },
+    { "time": "8:02", "title": "Flatten the data" },
+    { "time": "8:30", "title": "Target" },
+    { "time": "9:39", "title": "Set time out" },
+    { "time": "9:59", "title": "Collecting the data" },
+    { "time": "10:21", "title": "State Machine" },
+    { "time": "10:44", "title": "Correction: need if statement" },
+    { "time": "11:45", "title": "Save the data" },
+    { "time": "12:30", "title": "Let's look at the json file" },
+    { "time": "13:45", "title": "Upload data to sketch" },
+    { "time": "14:24", "title": "Load data" },
+    { "time": "15:41", "title": "Normalize the data" },
+    { "time": "16:29", "title": "Upload model" },
+    { "time": "16:56", "title": "Load the trained model" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Pose Estimation",
+      "description": "This sketch contains all the steps for the Pose Classifier",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK" }
+    },
+    {
+      "title": "Data Collection",
+      "description": "Code for data collection in the p5.js Web Editor.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/kTM0Gm-1q" }
+    },
+    {
+      "title": "Model Training",
+      "description": "Code for training the model.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/-Ywq20rM9" }
+    },
+    {
+      "title": "Model Deployment",
+      "description": "Code for loading and deploying the trained model.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/c5sDNr8eM" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ml5.js Pose Estimation",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
+          "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using BodyPose (in JavaScript with p5.js and ml5.js)."
+        },
+        {
+          "icon": "🚂",
+          "title": "ml5: Neural Network Regression",
+          "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/4-regression",
+          "description": "In this video I cover how to train a neural network to perform a \"regression\" task (rather than classification)."
+        },
+        {
+          "icon": "🚂",
+          "title": "Train Your Own Neural Network",
+          "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/1-train-the-model",
+          "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js"
+        },
+        {
+          "icon": "🚂",
+          "title": "Teachable Machine",
+          "url": "/tracks/teachable-machine",
+          "description": "In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library. "
+        },
+        {
+          "icon": "🚂",
+          "title": "JavaScript setTimeout() Function",
+          "url": "https://www.youtube.com/watch?v=nGfTjA8qNDA",
+          "description": "This video covers the setTimeout() function in JavaScript in the context of p5.js.  setTimeout() allows you to execute a given function at a specific time (in milliseconds.)"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

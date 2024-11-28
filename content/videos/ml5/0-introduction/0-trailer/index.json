@@ -1,0 +1,45 @@
+{
+  "title": "Trailer",
+  "description": "This playlist provides an introduction to developing creative coding projects with machine learning. The theory and application of machine learning algorithms is demonstrated in JavaScript using the p5.js and ml5.js libraries.\n\nLearning Objectives:\n\nDevelop an intuition for and high level understanding of core machine learning concepts and algorithms, including supervised learning, unsupervised learning, reinforcement learning, transfer learning, classification, and regression.\n\nBe able to apply machine learning algorithms to real-time interaction in media art projects using pre-trained models and “transfer learning” in JavaScript and related tools.\n\nLearn how to collect a custom dataset to train a machine learning model and Understand how to use a machine learning model to generate media: words, sound, and images.",
+  "videoNumber": "0.0",
+  "videoId": "26uABexmOX4",
+  "date": "2022-03-03",
+  "languages": ["p5.js", "ml5.js"],
+  "topics": ["machine learning (ML)", "ml5.js"],
+  "canContribute": true,
+  "timestamps": [],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "Reference material for the ml5 library."
+        },
+        {
+          "icon": "📕",
+          "title": "Intelligence and Learning Class",
+          "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week3-classification-regression",
+          "description": "Nature of Code github page with resources about intelligence learning"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Code! Programming with p5.js",
+          "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+          "description": "Learn all the basics of code (variables, conditionals, loops, objects, arrays) in JavaScript with p5.js!."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

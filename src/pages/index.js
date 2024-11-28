@@ -16,7 +16,7 @@ import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
-import PlayButton from '../images/playbutton.svg';
+import PlayButton from '../images/playbutton.mini.svg';
 import { getReadableDate, useIsFirstRender } from '../hooks';
 import { shuffleCopy } from '../utils';
 

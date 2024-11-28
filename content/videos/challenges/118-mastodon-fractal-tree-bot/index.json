@@ -90,7 +90,7 @@
         },
         {
           "icon": "🔗",
-          "title": "The 'procesing-java' command",
+          "title": "The 'processing-java' command",
           "url": "https://github.com/processing/processing/wiki/Command-Line",
           "description": "Running Processing sketches from the command line"
         }

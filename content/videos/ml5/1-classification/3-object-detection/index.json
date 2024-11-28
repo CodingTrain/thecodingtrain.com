@@ -77,7 +77,7 @@
           "icon": "💻",
           "title": "Humans of AI (Editorial Essay)",
           "url": "https://humans-of.ai/editorial/",
-          "description": "Philipp Schmitt's editorial essay on artifial intelligence and the human effort that went into creating the training dataset."
+          "description": "Philipp Schmitt's editorial essay on artificial intelligence and the human effort that went into creating the training dataset."
         },
         {
           "icon": "💻",
@@ -111,7 +111,7 @@
         {
           "icon": "🚂",
           "title": "Pose Estimation with PoseNet",
-          "url": "/tracks/ml5js-beginners-guide/ml5/7-posenet/1-finding-keypoints",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
           "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using the pre-trained machine learning model PoseNet."
         },
         {

@@ -1,0 +1,83 @@
+{
+  "title": "Pose Regression with PoseNet and ml5.neuralNetwork()",
+  "description": "This tutorial builds on the previous video combining PoseNet and ml5.neuralNetwork(). Once again, the output of the pre-trained model (the \"pose\" itself) is the input to an ml5.js neural network. However, this time the final output is a regression (3 continuous values) instead of classification.",
+  "videoNumber": "7.3",
+  "videoId": "lob74HqHYJ0",
+  "nebulaSlug": "the-coding-train-yt-ml5-js-pose-regression-with-posenet-and-ml5-neuralnetwork",
+  "date": "2020-01-22",
+  "languages": ["ml5.js", "p5.js"],
+  "topics": ["pose regression", "PoseNet", "neural network"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "0:51", "title": "Review" },
+    { "time": "2:30", "title": "Control color" },
+    { "time": "3:30", "title": "Adjust configuration of neural network" },
+    { "time": "5:21", "title": "Async and await" },
+    { "time": "7:05", "title": "Target color replaces target label" },
+    { "time": "8:42", "title": "Collect data" },
+    { "time": "10:36", "title": "Save the data" },
+    { "time": "10:48", "title": "Look at the json file" },
+    { "time": "11:33", "title": "Train the model" },
+    { "time": "12:52", "title": "Load the model" },
+    { "time": "13:20", "title": "predict color" },
+    { "time": "15:28", "title": "Add r, g, b sliders" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Pose Regression",
+      "description": "Code for running a regression using the Posenet data.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JI_j-PiLk" }
+    },
+    {
+      "title": "Data Collection",
+      "description": "Code for data collection",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Fe1ZNKw1Z" }
+    },
+    {
+      "title": "Loading Data",
+      "description": "Code for loading the data.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/KLrIligVq" }
+    },
+    {
+      "title": "Deploying",
+      "description": "Code for deploying the trained model.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/nejAYCA6N" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ml5.js Pose Estimation",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
+          "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using BodyPose (in JavaScript with p5.js and ml5.js)."
+        },
+        {
+          "icon": "🚂",
+          "title": "ml5: Neural Network Regression",
+          "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/4-regression",
+          "description": "In this video I cover how to train a neural network to perform a \"regression\" task (rather than classification)."
+        },
+        {
+          "icon": "🚂",
+          "title": "Train Your Own Neural Network",
+          "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/1-train-the-model",
+          "description": "This video covers how to train a neural network machine learning model with real-time interactive data in ml5.js"
+        },
+        {
+          "icon": "🚂",
+          "title": "async/await",
+          "url": "/tracks/topics-in-native-javascript/js/async-await-part-1",
+          "description": "This video covers the new ES8 \"async\" and \"await\" keywords for writing asynchronous functions in JavaScript."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}

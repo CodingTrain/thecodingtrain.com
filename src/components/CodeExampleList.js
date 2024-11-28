@@ -5,9 +5,9 @@ import Image from './Image';
 
 import * as css from './CodeExampleList.module.css';
 
-import NodeIcon from '../images/node-icon.svg';
-import P5Icon from '../images/p5js-icon.svg';
-import ProcessingLogo from '../images/processing-icon.svg';
+import NodeIcon from '../images/node-icon.mini.svg';
+import P5Icon from '../images/p5js-icon.mini.svg';
+import ProcessingLogo from '../images/processing-icon.mini.svg';
 
 const icons = {
   p5: () => <P5Icon className={css.p5} />,
