@@ -52,13 +52,13 @@
         {
           "icon": "🚂",
           "title": "Custom Shapes",
-          "url": "tracks/more-p5/custom-shapes",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/custom-shapes",
           "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using, `beginShape()`, `endShape()`, `vertex()` and `curveVertex()."
         },
          {
            "icon": "🚂",
            "title": "Translate, Rotate, Push/Pop",
-           "url": "tracks/transformations/translate-rotate-push-pop",
+           "url": "/tracks/transformations-in-p5/transformations/translate-rotate-push-pop",
            "description": "In this video I cover the functions translate(), rotate(), push() and pop()."
          }
       ]
