@@ -1,0 +1,71 @@
+{
+  "title": "3D Pose Estimation with ml5.js",
+  "description": "Strike a pose! In this video, I exsubstitute the Movenet model to BlazePose, showing how to track body keypoints and visualize 'skeleton' connections using recorded video.",
+  "videoId": "",
+  "nebulaSlug": "",
+  "date": "2024-12-2",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "MoveNet", "BlazePose"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:00", "title": "Change to the BlazePose model" },
+    { "time": "2:37", "title": "x, y, z values are real world measurements" },
+    { "time": "4:30", "title": "Replace live camera feed with recorded video" },
+    { "time": "5:49", "title": "Render using p5 WEBGL renderer" },
+    { "time": "7:48", "title": "Use scale() to expand range of x, y, z values" },
+    { "time": "9:00", "title": "Add floor" },
+    { "time": "9:58", "title": "Rotate scene" },
+    { "time": "11:24", "title": "Use orbitControl() to rotate scene" },
+    { "time": "12:22", "title": "Translate to point" },
+    { "time": "13:42", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "BlazePose Lerp",
+      "description": "Sketch demonstrating use of BlazePose model with lerp smoothing.",
+      "image": "image.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JMhDRpcxi_" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js",
+          "url": "https://ml5js.org/",
+          "description": "ml5 page with documentation and supporting material."
+        },
+        {
+          "icon": "📄",
+          "title": "BlazePose Paper",
+          "url": "https://arxiv.org/pdf/2006.10204",
+          "description": "On-device Real-time Body Pose tracking."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Custom Shapes",
+          "url": "tracks/more-p5/custom-shapes",
+          "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using, `beginShape()`, `endShape()`, `vertex()` and `curveVertex()."
+        },
+         {
+           "icon": "🚂",
+           "title": "Translate, Rotate, Push/Pop",
+           "url": "tracks/transformations/translate-rotate-push-pop",
+           "description": "In this video I cover the functions translate(), rotate(), push() and pop()."
+         }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
