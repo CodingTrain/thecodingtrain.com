@@ -3,7 +3,7 @@
   "description": "Strike a pose! In this video, I exsubstitute the Movenet model to BlazePose, showing how to track body keypoints and visualize 'skeleton' connections using recorded video.",
   "videoId": "",
   "nebulaSlug": "",
-  "date": "2024-12-2",
+  "date": "2024-12-1",
   "languages": ["ml5.js", "JavaScript"],
   "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "MoveNet", "BlazePose"],
   "canContribute": true,
