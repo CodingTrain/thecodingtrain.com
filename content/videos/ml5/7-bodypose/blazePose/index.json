@@ -1,6 +1,6 @@
 {
   "title": "3D Pose Estimation with ml5.js",
-  "description": "Strike a pose! In this video, I exsubstitute the Movenet model to BlazePose, showing how to track body keypoints and visualize 'skeleton' connections using recorded video.",
+  "description": "In this video, I substitute the MoveNet model with the BlazePose model, showing how to track #D body keypoints and visualize 'skeleton' connections using recorded video.",
   "videoId": "",
   "nebulaSlug": "",
   "date": "2024-12-1",
