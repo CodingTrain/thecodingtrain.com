@@ -34,7 +34,7 @@
     },
     {
       "title": "Landmark Detection",
-      "videos": ["ml5/7-bodypose/pose-detection", "ml5/hand-pose", "ml5/facemesh", "ml5/0-introduction/patt-vira"]
+      "videos": ["ml5/7-bodypose/pose-detection", "ml5/7-bodypose/blazePose", "ml5/hand-pose", "ml5/facemesh", "ml5/0-introduction/patt-vira"]
     },
     {
       "title": "Train Your Own Neural Network",
