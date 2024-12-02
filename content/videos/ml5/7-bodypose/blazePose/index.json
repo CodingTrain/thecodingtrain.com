@@ -1,0 +1,95 @@
+{
+  "title": "3D Pose Estimation with ml5.js",
+  "description": "Building on BodyPose in ml5.js, this video explores the 3D capabilities of the BlazePose model, visualizing poses in a 3D space using WEBGL in p5.js.",
+  "videoId": "IF414I26_K8",
+  "nebulaSlug": "codingtrain-3d-pose-estimation-with-ml5js",
+  "date": "2024-12-01",
+  "languages": ["ml5.js", "JavaScript"],
+  "topics": ["machine learning (ML)", "webcam", "pose detection", "ml5.js", "MoveNet", "BlazePose"],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Introduction" },
+    { "time": "2:00", "title": "Incorporating BlazePose model" },
+    { "time": "2:37", "title": "What are the xyz values?" },
+    { "time": "4:30", "title": "Replace live camera with recorded video." },
+    { "time": "5:49", "title": "Render with p5.js WEBGL" },
+    { "time": "7:48", "title": "Use scale() to expand range of xyz values" },
+    { "time": "9:00", "title": "Creating 3D scene" },
+    { "time": "9:58", "title": "Rotating scene." },
+    { "time": "11:24", "title": "Using orbitControl()" },
+    { "time": "12:22", "title": "Using 3D shapes" },
+    { "time": "13:42", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "BlazePose 3D",
+      "description": "Sketch demonstrating use of BlazePose model with 3D keypoints.",
+      "image": "blazepose.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/ftALPDieT" }
+    },
+    {
+      "title": "BlazePose Lerp",
+      "description": "Sketch demonstrating linear interpolation of 3D keypoints.",
+      "image": "blazepose_lerp.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JMhDRpcxi_" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "ml5.js: BodyPose",
+          "url": "https://docs.ml5js.org/#/reference/bodypose",
+          "description": "ml5.js documentation on BodyPose models."
+        },
+        {
+          "icon": "📄",
+          "title": "On-device, Real-time Body Pose Tracking with MediaPipe BlazePose",
+          "url": "https://research.google/blog/on-device-real-time-body-pose-tracking-with-mediapipe-blazepose/",
+          "description": "Google Research blog post on the BlazePose model."
+        },
+        {
+          "icon": "📄",
+          "title": "3D Pose Detection with MediaPipe BlazePose GHUM and TensorFlow.js",
+          "url": "https://blog.tensorflow.org/2021/08/3d-pose-detection-with-mediapipe-blazepose-ghum-tfjs.html",
+          "description": "TensorFlow blog post on the BlazePose GHUM model."
+        },
+        {
+          "icon": "📄",
+          "title": "BlazePose GHUM Holistic:",
+          "url": "https://arxiv.org/pdf/2206.11678",
+          "description": "Research paper covering real-time 3D human landmarks and pose estimation."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ml5.js Pose Estimation",
+          "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
+          "description": "Previous video covering BodyPose in ml5.js focusing on the MoveNet model."
+        },
+        {
+          "icon": "🚂",
+          "title": "Custom Shapes",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/custom-shapes",
+          "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using, `beginShape()`, `endShape()`, `vertex()` and `curveVertex()."
+        },
+        {
+          "icon": "🚂",
+          "title": "Translate, Rotate, Push/Pop",
+          "url": "/tracks/transformations-in-p5/transformations/translate-rotate-push-pop",
+          "description": "In this video I cover the functions translate(), rotate(), push() and pop()."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
