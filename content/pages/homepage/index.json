@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "c5-marching-squares",
-      "178-climate-spiral",
-      "164-slitscan",
-      "162-self-avoiding-walk",
-      "154-tic-tac-toe-minimax",
-      "144-2d-black-hole-visualization"
+      "4-purple-rain",
+      "51-a-pathfinding-algorithm",
+      "94-2048",
+      "103-fire-effect",
+      "119-binary-to-decimal-conversion",
+      "91-snakes-and-ladders"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "ml5/hand-pose/showcase/contribution-1731262868.json",
-      "ml5/1-classification/3-object-detection/showcase/contribution-1729685832.json",
-      "ml5/0-introduction/patt-vira/showcase/contribution-1730433918.json",
-      "webgl/2-3d-geometries/showcase/contribution-1728536881.json",
-      "challenges/130-drawing-with-fourier-transform-and-epicycles/showcase/contribution-1728408172.json",
-      "challenges/98-quadtree/showcase/contribution-1729184725.json",
-      "noc/1-vectors/2-vector-math/showcase/contribution-1728692489.json",
-      "transformations/translate-rotate-push-pop/showcase/contribution-1730631464.json"
+      "ml5/7-bodypose/pose-detection/showcase/contribution-1733094893.json",
+      "challenges/171-wave-function-collapse/showcase/contribution-1731965151.json",
+      "challenges/13-reaction-diffusion/showcase/contribution-1732903159.json",
+      "challenges/13-reaction-diffusion/showcase/contribution-1731867047.json",
+      "challenges/10-dfs-maze-generator/showcase/contribution-1731984639.json",
+      "ml5/facemesh/showcase/contribution-1732412552.json",
+      "challenges/179-wolfram-ca/showcase/contribution-1733011003.json",
+      "challenges/124-flocking-simulation/showcase/contribution-1731880553.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
