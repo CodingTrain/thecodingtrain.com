@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { useIsFirstRender } from '../hooks';
 
 import cn from 'classnames';
 
@@ -25,6 +26,9 @@ const externalLink = {
 };
 
 const Footer = () => {
+  const isFirstRender = useIsFirstRender();
+  const currentYear = isFirstRender ? undefined : new Date().getFullYear();
+
   return (
     <footer className={cn(cols, css.root)}>
       <div className={css.logoMobile}>
@@ -215,8 +219,8 @@ const Footer = () => {
 
       <div className={css.copyright}>
         <span>
-          2016-{new Date().getFullYear()} The Coding Train. All rights reserved.
-          Built in collaboration with{' '}
+          2016-{currentYear} The Coding Train. All rights reserved. Built in
+          collaboration with{' '}
           <a href="https://designsystems.international/" {...externalLink}>
             Design System International
           </a>
