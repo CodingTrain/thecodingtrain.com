@@ -3,10 +3,10 @@
   "videoNumber": "186",
   "description": "",
   "videoId": "",
-  "nebulaSlug": "codingtrain-coding-challenge-186-overlapping-model",
+  "nebulaSlug": "codingtrain-coding-challenge-186-wfc-overlapping-model",
   "date": "2025-01-28",
   "languages": ["p5.js", "JavaScript"],
-  "topics": ["waave function collapse", "overlapping model", "procedural generation"],
+  "topics": ["wave function collapse", "overlapping model", "procedural generation"],
   "canContribute": true,
   "relatedChallenges": ["171-wave-function-collapse"],
   "timestamps": [
