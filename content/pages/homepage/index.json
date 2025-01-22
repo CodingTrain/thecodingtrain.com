@@ -32,11 +32,11 @@
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
       "4-purple-rain",
-      "51-a-pathfinding-algorithm",
-      "94-2048",
-      "103-fire-effect",
-      "119-binary-to-decimal-conversion",
-      "91-snakes-and-ladders"
+      "152-rdp-algorithm",
+      "171-wave-function-collapse",
+      "178-climate-spiral",
+      "47-pixel-sorting-in-processing",
+      "97-book-of-pi"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "ml5/7-bodypose/pose-detection/showcase/contribution-1733094893.json",
-      "challenges/171-wave-function-collapse/showcase/contribution-1731965151.json",
-      "challenges/13-reaction-diffusion/showcase/contribution-1732903159.json",
-      "challenges/13-reaction-diffusion/showcase/contribution-1731867047.json",
-      "challenges/10-dfs-maze-generator/showcase/contribution-1731984639.json",
-      "ml5/facemesh/showcase/contribution-1732412552.json",
-      "challenges/179-wolfram-ca/showcase/contribution-1733011003.json",
-      "challenges/124-flocking-simulation/showcase/contribution-1731880553.json"
+      "challenges/154-tic-tac-toe-minimax/showcase/contribution-1737396234.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1737286903.json",
+      "challenges/124-flocking-simulation/showcase/contribution-1737209485.json",
+      "challenges/59-steering-behaviors/showcase/contribution-1736695034.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1734321071.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1733988727.json",
+      "code/3-conditionals/2-bouncing/showcase/contribution-1735921385.json",
+      "challenges/124-flocking-simulation/showcase/contribution-1733291718.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
