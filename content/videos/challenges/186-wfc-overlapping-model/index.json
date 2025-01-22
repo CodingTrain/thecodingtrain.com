@@ -1,0 +1,181 @@
+{
+  "title": "Wave Function Collapse - Overlapping Model",
+  "videoNumber": "186",
+  "description": "",
+  "videoId": "",
+  "nebulaSlug": "codingtrain-coding-challenge-186-overlapping-model",
+  "date": "2025-01-28",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["waave function collapse", "overlapping model", "procedural generation"],
+  "canContribute": true,
+  "relatedChallenges": ["171-wave-function-collapse"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Introduction" },
+    { "time": "0:01:12", "title": "The Nature of Code" },
+    { "time": "0:02:20", "title": "References" },
+    { "time": "0:08:19", "title": "Write a function to extract tiles from a source image" },
+    { "time": "0:14:32", "title": "Write a function to copy tiles" },
+    { "time": "0:21:30", "title": "Add a list of allowed adjacencies to the Tile object" },
+    { "time": "0:24:34", "title": "Write an overlapping() function" },
+    { "time": "0:32:20", "title": "Look at the first tile's neighbors" },
+    { "time": "0:43:30", "title": "Add Cell class" },
+    { "time": "0:44:15", "title": "Add a grid of Cells" },
+    { "time": "0:46:21", "title": "Retrieve previous WFC code" },
+    { "time": "0:50:50", "title": "Write a reduceEntropy() function" },
+    { "time": "0:55:56", "title": "Add a function to render the center pixel" },
+    { "time": "0:58:05", "title": "Filter by valid options" },
+    { "time": "1:01:57", "title": "Use recursion to reduce entropy" },
+    { "time": "1:05:32", "title": "Add depth of recursion" },
+    { "time": "1:06:32", "title": "We have WFC!" },
+    { "time": "1:09:42", "title": "Fix mistake" },
+    { "time": "1:11:26", "title": "Start refactoring code" },
+    { "time": "1:18:41", "title": "Add console.log if alogrithm gets stuck" },
+    { "time": "1:21:38", "title": "Optimizations" },
+    { "time": "1:26:28", "title": "Discuss redundant tiles" },
+    { "time": "1:28:30", "title": "Rotations and Reflections" },
+    { "time": "1:29:39", "title": "Additional performance optimizations" },
+    { "time": "1:31:40", "title": "Outro" }
+  ],
+  "codeExamples": [
+    {
+      "title": "WFC Overlapping",
+      "description": "",
+      "image": "1.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/PX0Hn6TF8"
+      }
+    },
+    {
+      "title": "WFC Overlapping - Shannon entropy",
+      "description": "",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/PX0Hn6TF8"
+      }
+    },
+    {
+      "title": "WFC Overlapping - Rotations and Reflections",
+      "description": "",
+      "image": "",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/z_N2TVjRH"
+      }
+    },
+      {
+        "title": "WFC Overlapping - Restart",
+        "description": "",
+        "image": "",
+        "urls": {
+          "p5": "https://editor.p5js.org/codingtrain/sketches/2sV4KtcoD"
+        }
+      },
+        {
+          "title": "WFC Overlapping - Refactored",
+          "description": "",
+          "image": "",
+          "urls": {
+            "p5": "https://editor.p5js.org/codingtrain/sketches/paJcuQLI0"
+          }
+        }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📕",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "The Nature of Code book (2024 p5.js edition)"
+        },
+        {
+          "icon": "🛒",
+          "title": "Nature of Code shop",
+          "url": "https://store.natureofcode.com/products/the-nature-of-code",
+          "description": "The Nature of Code book (2024 p5.js edition) is now available for purchase!"
+        },
+        {
+          "icon": "🗄",
+          "title": "Wave Function Collapse Algorithm",
+          "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+          "description": "The original GitHub repository from mxgmn for the Wave Function Collapse algorithm."
+        },
+        {
+          "icon": "🗄",
+          "title": "Model Synthesis",
+          "url": "https://paulmerrell.org/model-synthesis/",
+          "description": "Paul Merrell's 2009 PhD Thesis that is a predecessor to WFC."
+        },
+        {
+          "icon": "🗄",
+          "title": "Procedural Generation with Wave Function Collapse",
+          "url": "https://www.gridbugs.org/wave-function-collapse/",
+          "description": "Article on using WFC for procedural generation."
+        },
+        {
+          "icon": "🔗",
+          "title": "p5 copy()",
+          "url": "https://p5js.org/reference/p5/copy/",
+          "description": "Reference for the copy function"
+        },
+        {
+          "icon": "🔗",
+          "title": "Github issue RE console.log problem",
+          "url": "https://github.com/processing/p5.js-web-editor/issues/3178",
+          "description": "Cannot console.log objects having circular references."
+        },
+        {
+          "icon": "🔗",
+          "title": "concat() function",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+          "description": "Reference for the concat function."
+        },
+        {
+          "icon": "🔗",
+          "title": "randomSeed()",
+          "url": "https://p5js.org/reference/p5/randomSeed/",
+          "description": "Reference for the randomSeed function"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "Pixel Array",
+          "url": "/tracks/p5-tips-and-tricks/more-p5/pixel-array",
+          "description": "Coding Train video with explanation of tracking 2D grid in 1D array (for pixels)."
+        },
+        {
+          "icon": "🎥",
+          "title": "Modulo Operator",
+          "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
+          "description": "Golan Levin explains what modulus means and its applications in creative coding with p5.js and Processing."
+        },
+        {
+          "icon": "🎥",
+          "title": "Array Functions: filter() - Topics of JavaScript/ES6",
+          "url": "/tracks/side-tracks/topics-in-native-javascript/js/array-filter",
+          "description": "This video covers the JavaScript Array higher order function filter()."
+        },
+        {
+          "icon": "🎥",
+          "title": "Arrow Function",
+          "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
+          "description": "Coding Train video covering JavaScript arrow (=>) function."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "title": "Editing",
+      "name": "Mathieu Blanchette"
+    },
+    {
+      "title": "Animations",
+      "name": "Jason Heglund"
+    }
+  ]
+}
