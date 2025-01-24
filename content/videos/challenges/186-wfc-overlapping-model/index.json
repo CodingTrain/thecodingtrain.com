@@ -39,7 +39,7 @@
   "codeExamples": [
     {
       "title": "WFC Overlapping",
-      "description": "",
+      "description": "The sketch implements the overlapping model.",
       "image": "1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/PX0Hn6TF8"
@@ -47,32 +47,32 @@
     },
     {
       "title": "WFC Overlapping - Shannon entropy",
-      "description": "",
-      "image": "",
+      "description": "This sketch adds Shannon entropy.",
+      "image": "1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/PX0Hn6TF8"
       }
     },
     {
       "title": "WFC Overlapping - Rotations and Reflections",
-      "description": "",
-      "image": "",
+      "description": "This sketch adds tile rotations and reflections",
+      "image": "1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/z_N2TVjRH"
       }
     },
       {
         "title": "WFC Overlapping - Restart",
-        "description": "",
-        "image": "",
+        "description": "This sketch restarts WFC if there are no more valid choices.",
+        "image": "1.png",
         "urls": {
           "p5": "https://editor.p5js.org/codingtrain/sketches/2sV4KtcoD"
         }
       },
         {
           "title": "WFC Overlapping - Refactored",
-          "description": "",
-          "image": "",
+          "description": "This sketch refactors the code and adds performance enhancements.",
+          "image": "1.png",
           "urls": {
             "p5": "https://editor.p5js.org/codingtrain/sketches/paJcuQLI0"
           }
@@ -162,7 +162,7 @@
         {
           "icon": "🎥",
           "title": "Array Functions: filter() - Topics of JavaScript/ES6",
-          "url": "/tracks/side-tracks/topics-in-native-javascript/js/array-filter",
+          "url": "/tracks/topics-in-native-javascript/js/array-filter",
           "description": "This video covers the JavaScript Array higher order function filter()."
         },
         {
