@@ -8,7 +8,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "overlapping model", "procedural generation"],
   "canContribute": true,
-  "relatedChallenges": ["171-wave-function-collapse"],
+  "relatedChallenges": ["10-dfs-maze-generator",  "165-slide-puzzle", "171-wave-function-collapse"],
   "timestamps": [
     { "time": "0:00:00", "title": "Introduction" },
     { "time": "0:01:12", "title": "The Nature of Code book!" },
