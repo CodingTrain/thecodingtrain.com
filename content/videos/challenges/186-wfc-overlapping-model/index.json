@@ -1,9 +1,9 @@
 {
-  "title": "Wave Function Collapse - Overlapping Model",
+  "title": "Wave Function Collapse: Overlapping Model",
   "videoNumber": "186",
-  "description": "",
-  "videoId": "",
-  "nebulaSlug": "codingtrain-coding-challenge-186-wfc-overlapping-model",
+  "description": "Wave Function Collapse is an algorithm for procedural image generation. In this long overdue follow-up to my tiled model video, I dive into the overlapping model, coding it step by step (complete with struggles and messy debugging interludes) in JavaScript with p5.js.",
+  "videoId": "5iSAvzU2WYY",
+  "nebulaSlug": "codingtrain-coding-challenge-186-wave-function-collapse",
   "date": "2025-01-28",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "overlapping model", "procedural generation"],
@@ -11,106 +11,87 @@
   "relatedChallenges": ["171-wave-function-collapse"],
   "timestamps": [
     { "time": "0:00:00", "title": "Introduction" },
-    { "time": "0:01:12", "title": "The Nature of Code" },
-    { "time": "0:02:20", "title": "References" },
-    { "time": "0:08:19", "title": "Write a function to extract tiles from a source image" },
-    { "time": "0:14:32", "title": "Write a function to copy tiles" },
-    { "time": "0:21:30", "title": "Add a list of allowed adjacencies to the Tile object" },
-    { "time": "0:24:34", "title": "Write an overlapping() function" },
-    { "time": "0:32:20", "title": "Look at the first tile's neighbors" },
-    { "time": "0:43:30", "title": "Add a Cell class" },
-    { "time": "0:44:15", "title": "Add a grid of Cells" },
-    { "time": "0:46:21", "title": "Retrieve previous WFC code" },
-    { "time": "0:50:50", "title": "Write a reduceEntropy() function" },
-    { "time": "0:55:56", "title": "Add a function to render the center pixel" },
-    { "time": "0:58:05", "title": "Filter by the valid options" },
-    { "time": "1:01:57", "title": "Use recursion to reduce entropy" },
-    { "time": "1:05:32", "title": "Add depth of recursion" },
-    { "time": "1:06:32", "title": "We have WFC!" },
-    { "time": "1:09:42", "title": "Fix mistake" },
-    { "time": "1:11:26", "title": "Start refactoring code" },
-    { "time": "1:18:41", "title": "Add a console.log if alogrithm gets stuck" },
-    { "time": "1:21:38", "title": "Optimizations" },
-    { "time": "1:26:28", "title": "Discuss redundant tiles" },
-    { "time": "1:28:30", "title": "Rotations and Reflections" },
+    { "time": "0:01:12", "title": "The Nature of Code book!" },
+    { "time": "0:02:20", "title": "WFC Resources and References" },
+    { "time": "0:08:19", "title": "Extracting tiles from a source image" },
+    { "time": "0:21:30", "title": "Calculating adjacency rules for tiles" },
+    { "time": "0:24:34", "title": "Checking for overlapping pixel colors" },
+    { "time": "0:32:20", "title": "Debugging tile adjacencies" },
+    { "time": "0:43:30", "title": "Creating a Cell class" },
+    { "time": "0:46:21", "title": "Incorporate code from WFC tile model" },
+    { "time": "0:50:50", "title": "Reduce entropy of neighboring tiles" },
+    { "time": "0:55:56", "title": "Rendering the center pixel for each tile" },
+    { "time": "0:58:05", "title": "Cross checking valid tile options" },
+    { "time": "1:01:57", "title": "Recursive entropy reduction" },
+    { "time": "1:05:32", "title": "Limit recursion depth" },
+    { "time": "1:06:32", "title": "Challenge complete?" },
+    { "time": "1:08:26", "title": "Bugs found between Day 1 and Day 2" },
+    { "time": "1:09:13", "title": "Starting Day 2" },
+    { "time": "1:10:02", "title": "Correcting pixel color if statement" },
+    { "time": "1:11:16", "title": "Refactoring redundant code" },
+    { "time": "1:17:26", "title": "Running out of tile options" },
+    { "time": "1:21:24", "title": "Optimizing the code" },
+    { "time": "1:23:47", "title": "Rendering average pixel color of remaining tile options" },
+    { "time": "1:26:23", "title": "How to handle redundant tiles?" },
+    { "time": "1:28:30", "title": "More tiles with rotations and reflections" },
     { "time": "1:29:39", "title": "Additional performance optimizations" },
-    { "time": "1:31:40", "title": "Outro" }
+    { "time": "1:31:40", "title": "Thanks for watching!" }
   ],
   "codeExamples": [
     {
-      "title": "WFC Overlapping",
-      "description": "The sketch implements the overlapping model.",
-      "image": "1.png",
+      "title": "Wave Function Collapse: Overlapping Model",
+      "description": "Unoptimized code exactly matching the video.",
+      "image": "wfc.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SI0c2D_tQ"
+      }
+    },
+    {
+      "title": "WFC Overlapping Model Refactored",
+      "description": "Refactored code with optimizations.",
+      "image": "wfc_refactored.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2sV4KtcoD"
+      }
+    },
+    {
+      "title": "WFC Overlapping Model: Shannon entropy",
+      "description": "This sketch counts tile frequency and incorporates entropy formula.",
+      "image": "wfc_entropy.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/PX0Hn6TF8"
       }
     },
     {
-      "title": "WFC Overlapping - Shannon entropy",
-      "description": "This sketch adds Shannon entropy.",
-      "image": "1.png",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/PX0Hn6TF8"
-      }
-    },
-    {
-      "title": "WFC Overlapping - Rotations and Reflections",
+      "title": "WFC Overlapping Model: More tiles!",
       "description": "This sketch adds tile rotations and reflections",
-      "image": "1.png",
+      "image": "wfc_rot_reflect.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/z_N2TVjRH"
       }
-    },
-      {
-        "title": "WFC Overlapping - Restart",
-        "description": "This sketch restarts WFC if there are no more valid choices.",
-        "image": "1.png",
-        "urls": {
-          "p5": "https://editor.p5js.org/codingtrain/sketches/2sV4KtcoD"
-        }
-      },
-        {
-          "title": "WFC Overlapping - Refactored",
-          "description": "This sketch refactors the code and adds performance enhancements.",
-          "image": "1.png",
-          "urls": {
-            "p5": "https://editor.p5js.org/codingtrain/sketches/paJcuQLI0"
-          }
-        }
+    }
   ],
   "groupLinks": [
     {
       "title": "References",
       "links": [
         {
-          "icon": "📕",
-          "title": "The Nature of Code",
-          "url": "https://natureofcode.com/",
-          "description": "The Nature of Code book (2024 p5.js edition)"
-        },
-        {
-          "icon": "🛒",
-          "title": "Nature of Code shop",
-          "url": "https://store.natureofcode.com/products/the-nature-of-code",
-          "description": "The Nature of Code book (2024 p5.js edition) is now available for purchase!"
-        },
-        {
           "icon": "🗄",
-          "title": "Wave Function Collapse Algorithm",
+          "title": "Wave Function Collapse GitHub Repo",
           "url": "https://github.com/mxgmn/WaveFunctionCollapse",
-          "description": "The original GitHub repository from mxgmn for the Wave Function Collapse algorithm."
+          "description": "Maxim Gumin's source code and documentation for Wave Function Collapse."
         },
         {
           "icon": "🗄",
           "title": "Model Synthesis",
           "url": "https://paulmerrell.org/model-synthesis/",
-          "description": "Paul Merrell's 2009 PhD Thesis that is a predecessor to WFC."
+          "description": "Documentation of Paul Merrell's work on Model Synthesis."
         },
         {
           "icon": "🗄",
           "title": "Procedural Generation with Wave Function Collapse",
           "url": "https://www.gridbugs.org/wave-function-collapse/",
-          "description": "Article on using WFC for procedural generation."
+          "description": "Wave Function Collapse overlapping model algorithm walk through."
         },
         {
           "icon": "🗄",
@@ -120,27 +101,27 @@
         },
         {
           "icon": "🔗",
-          "title": "p5 copy()",
+          "title": "p5.js copy()",
           "url": "https://p5js.org/reference/p5/copy/",
-          "description": "Reference for the copy function"
+          "description": "p5.js reference page for copy() function"
         },
         {
           "icon": "🔗",
-          "title": "Github issue RE console.log problem",
+          "title": "p5.js web editor console log GitHub issue",
           "url": "https://github.com/processing/p5.js-web-editor/issues/3178",
-          "description": "Cannot console.log objects having circular references."
+          "description": "Issue discussing console.log and objects with circular references."
         },
         {
           "icon": "🔗",
-          "title": "concat() function",
+          "title": "JavaScript concat() method",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
-          "description": "Reference for the concat function."
+          "description": "JavaScript documentation for array concat() method."
         },
         {
           "icon": "🔗",
-          "title": "randomSeed()",
+          "title": "p5.js randomSeed()",
           "url": "https://p5js.org/reference/p5/randomSeed/",
-          "description": "Reference for the randomSeed function"
+          "description": "p5.js reference page for randomSeed() function"
         }
       ]
     },
@@ -151,25 +132,60 @@
           "icon": "🎥",
           "title": "Pixel Array",
           "url": "/tracks/p5-tips-and-tricks/more-p5/pixel-array",
-          "description": "Coding Train video with explanation of tracking 2D grid in 1D array (for pixels)."
+          "description": "Video tutorial on how to work with pixel array in p5.js."
         },
         {
           "icon": "🎥",
           "title": "Modulo Operator",
           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
-          "description": "Golan Levin explains what modulus means and its applications in creative coding with p5.js and Processing."
+          "description": "Video tutorial with Golan Levin explaining modulo operator."
         },
         {
           "icon": "🎥",
           "title": "Array Functions: filter() - Topics of JavaScript/ES6",
           "url": "/tracks/topics-in-native-javascript/js/array-filter",
-          "description": "This video covers the JavaScript Array higher order function filter()."
+          "description": "Video tutorial on higher order array function filter()."
         },
         {
           "icon": "🎥",
           "title": "Arrow Function",
           "url": "/tracks/topics-in-native-javascript/js/arrow-functions",
-          "description": "Coding Train video covering JavaScript arrow (=>) function."
+          "description": "Video tutorial on JavaScript arrow notation."
+        }
+      ]
+    },
+    {
+      "title": "Creative Works Featured",
+      "links": [
+        {
+          "icon": "🎨",
+          "title": "Townscaper",
+          "url": "https://www.townscapergame.com/",
+          "description": "Created by Oskar Stålberg, 3D WFC system that creates cute little houses, arches, stairways, bridges and lush backyards."
+        },
+        {
+          "icon": "🎨",
+          "title": "unity-wave-function-collapse",
+          "url": "https://selfsame.itch.io/unitywfc",
+          "description": "A fork of Wave Function Collapse with tools for the Unity Game engine by @ExUtumno."
+        },
+        {
+          "icon": "🎨",
+          "title": "Super Mario WFC",
+          "url": "https://observablehq.com/@makio135/super-mario-wfc",
+          "description": "Generating variations of Super Mario Bros worlds with Wave Function Collapse."
+        },
+        {
+          "icon": "🎨",
+          "title": "Zelda WFC",
+          "url": "https://observablehq.com/@makio135/zelda-wfc",
+          "description": "Generating variations of Zelda maps with Wave Function Collapse."
+        },
+        {
+          "icon": "🎨",
+          "title": "Infinite procedurally generated city",
+          "url": "https://marian42.de/article/wfc/",
+          "description": "a game where you walk through an infinite city that is procedurally generated as you walk."
         }
       ]
     }
