@@ -8,7 +8,7 @@
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "generative art"],
   "canContribute": true,
-  "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk", "165-slide-puzzle"],
+  "relatedChallenges": ["10-dfs-maze-generator", "162-self-avoiding-walk", "165-slide-puzzle", "186-wfc-overlapping-model"],
   "timestamps": [
     { "time": "0:00", "title": "Day 1! Wave Function Collapse!" },
     { "time": "2:00", "title": "Entropy in Sudoku." },
