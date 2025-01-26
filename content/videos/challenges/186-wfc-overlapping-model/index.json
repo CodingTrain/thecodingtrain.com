@@ -4,7 +4,7 @@
   "description": "Wave Function Collapse is an algorithm for procedural image generation. In this long overdue follow-up to my tiled model video, I dive into the overlapping model, coding it step by step (complete with struggles and messy debugging interludes) in JavaScript with p5.js.",
   "videoId": "5iSAvzU2WYY",
   "nebulaSlug": "codingtrain-coding-challenge-186-wave-function-collapse",
-  "date": "2025-01-25",
+  "date": "2025-01-26",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["wave function collapse", "overlapping model", "procedural generation"],
   "canContribute": true,
