@@ -40,7 +40,7 @@
   "codeExamples": [
     {
       "title": "Wave Function Collapse: Overlapping Model",
-      "description": "Unoptimized code exactly matching the video.",
+      "description": "Raw code exactly matching the video.",
       "image": "wfc.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SI0c2D_tQ"
@@ -67,7 +67,16 @@
       "description": "This sketch adds tile rotations and reflections",
       "image": "wfc_rot_reflect.png",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/z_N2TVjRH"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/z_N2TVjRH",
+        "processing": "https://github.com/CodingTrain/Wave-Function-Collapse/tree/main/Processing/WFC_Overlapping_Model"
+      }
+    },
+    {
+      "title": "Wave Function Collapse - More!",
+      "description": "GitHub repo for expanded and optimized Wave Function Collapse Code.",
+      "image": "wfc.png",
+      "urls": {
+        "other": "https://github.com/CodingTrain/Wave-Function-Collapse"
       }
     }
   ],

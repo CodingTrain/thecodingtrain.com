@@ -39,12 +39,13 @@
       "description": "WFC PCB board generation pattern.",
       "image": "wfc.jpg",
       "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/_kbz6Xq7l"
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_kbz6Xq7l",
+        "processing": "https://github.com/CodingTrain/Wave-Function-Collapse/tree/main/Processing/WFC_Tiled_Model"
       }
     },
     {
-      "title": "Wave Function Collapse - Expanded",
-      "description": "GitHub repo for expanded and corrected WFC PCB board example.",
+      "title": "Wave Function Collapse - More!",
+      "description": "GitHub repo for expanded and optimized Wave Function Collapse Code.",
       "image": "wfc.jpg",
       "urls": {
         "other": "https://github.com/CodingTrain/Wave-Function-Collapse"
