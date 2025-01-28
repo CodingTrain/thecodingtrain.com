@@ -72,6 +72,15 @@
       }
     },
     {
+      "title": "WFC Overlapping Model: View Extracted tiles",
+      "description": "This sketch provides the code to view the tiles extracted from the source image.",
+      "image": "wfc_view.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/_7Pa8986g",
+        "processing": ""
+      }
+    },
+    {
       "title": "Wave Function Collapse - More!",
       "description": "GitHub repo for expanded and optimized Wave Function Collapse Code.",
       "image": "wfc.png",
