@@ -2,7 +2,7 @@
   "title": "Genuary 2025 Speed Run",
   "description": "My speed run through all of the Genuary 2025 prompts.",
   "videoId": "c1BPd8omBro",
-  "date": "2025-02-4",
+  "date": "2025-02-04",
   "languages": ["Javascript", "Processing"],
   "topics": ["Genuary"],
   "canContribute": true,
@@ -61,12 +61,12 @@
       "title": "Genuary 12 - Subdivision"
     },
     {
-      "time": "1:39:14",
-      "title": "Genuary 13 - Triangles and nothing else"
-    },
-    {
       "time": "1:35:15",
       "title": "Genuary 14 - Pure black and white. No gray"
+    },
+    {
+      "time": "1:39:14",
+      "title": "Genuary 13 - Triangles and nothing else"
     },
     {
       "time": "1:48:59",
