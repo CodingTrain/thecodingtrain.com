@@ -1,9 +1,9 @@
 {
   "title": "Genuary 2025 Speed Run",
-  "description": "My speed run through all of the Genuary 2025 prompts.",
+  "description": "Speed run through all of the Genuary 2025 prompts.",
   "videoId": "c1BPd8omBro",
   "date": "2025-02-04",
-  "languages": ["Javascript", "Processing"],
+  "languages": ["JavaScript", "Processing"],
   "topics": ["Genuary"],
   "canContribute": true,
   "relatedChallenges": ["54-islamic-star-patterns", "137-4d-opensimplex-noise-loop"],
