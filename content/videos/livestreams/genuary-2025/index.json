@@ -1,0 +1,176 @@
+{
+  "title": "Genuary 2025 Speed Run",
+  "description": "Speed run through all of the Genuary 2025 prompts.",
+  "videoId": "c1BPd8omBro",
+  "date": "2025-02-04",
+  "languages": ["JavaScript", "Processing"],
+  "topics": ["Genuary"],
+  "canContribute": true,
+  "relatedChallenges": ["54-islamic-star-patterns", "137-4d-opensimplex-noise-loop"],
+  "timestamps": [
+    {
+      "time": "0:00:00",
+      "title": "Livestream starts"
+    },
+    {
+      "time": "0:31:21",
+      "title": "Genuary 1 - Vertical or horizontal lines only"
+    },
+    {
+      "time": "0:39:54",
+      "title": "Genuary 2 - Layers upon layers upon layers"
+    },
+    {
+      "time": "0:49:52",
+      "title": "Genuary 3 - Exactly 42 lines of code"
+    },
+    {
+      "time": "0:53:42",
+      "title": "Genuary 4 - Black on black"
+    },
+    {
+      "time": "0:58:20",
+      "title": "Genuary 5 - Isometric Art (No vanishing points)"
+    },
+    {
+      "time": "1:03:00",
+      "title": "Genuary 6 - Make a landscape using only primitive shapes"
+    },
+    {
+      "time": "1:06:59",
+      "title": "Genuary 7 - Use software that is not intended to create art or images"
+    },
+    {
+      "time": "1:10:01",
+      "title": "Genuary 8 - Draw one million of something"
+    },
+    {
+      "time": "1:17:12",
+      "title": "Genuary 9 - The textile design patterns of public transport seating"
+    },
+    {
+      "time": "1:25:07",
+      "title": "Genuary 10 - You can only use TAU in your code, no other number allowed"
+    },
+    {
+      "time": "1:26:28",
+      "title": "Genuary 11 - Impossible day"
+    },
+    {
+      "time": "1:30:58",
+      "title": "Genuary 12 - Subdivision"
+    },
+    {
+      "time": "1:35:15",
+      "title": "Genuary 14 - Pure black and white. No gray"
+    },
+    {
+      "time": "1:39:14",
+      "title": "Genuary 13 - Triangles and nothing else"
+    },
+    {
+      "time": "1:48:59",
+      "title": "Genuary 15 - Design a rug"
+    },
+    {
+      "time": "1:56:36",
+      "title": "Genuary 16 - Generative palette"
+    },
+    {
+      "time": "2:01:52",
+      "title": "Genuary 17 - What happens if pi=4?"
+    },
+    {
+      "time": "2:23:42",
+      "title": "Genuary 18 - What does wind look like?"
+    },
+    {
+      "time": "2:29:09",
+      "title": "Genuary 19 - Op Art"
+    },
+    {
+      "time": "2:31:46",
+      "title": "Genuary 20 - Generative Architecture"
+    },
+    {
+      "time": "2:36:25",
+      "title": "Genuary 21 - Create a collision detection system (no libraries allowed)"
+    },
+    {
+      "time": "2:40:19",
+      "title": "Genuary 22 - Gradients only"
+    },
+    {
+      "time": "2:43:33",
+      "title": "Genuary 23 - Inspired by brutalism"
+    },
+    {
+      "time": "2:48:12",
+      "title": "Genuary 24 - Geometric art - use either a circle, rectangle, or triangle"
+    },
+    {
+      "time": "2:52:27",
+      "title": "Genuary 25 - One line that may or may not intersect itself"
+    },
+    {
+      "time": "2:54:58",
+      "title": "Genuary 26 - Symmetry"
+    },
+    {
+      "time": "2:58:48",
+      "title": "Genuary 27 - Make something interesting with no randomness or noise or trig "
+    },
+    {
+      "time": "3:02:59",
+      "title": "Genuary 28 - Infinite Scroll"
+    },
+    {
+      "time": "3:07:00",
+      "title": "Genuary 29 - Grid-based graphic design"
+    },
+    {
+      "time": "3:10:25",
+      "title": "Genuary 30 - Abstract map"
+    },
+    {
+      "time": "3:14:11",
+      "title": "Genuary 31 - Pixel sorting"
+    }
+  ],
+  "codeExamples": [
+    {
+      "title": "Genuary 2025 Repository",
+      "description": "Repository with links to the p5 sketches from the Genuary speed run",
+      "image": "genuary.jpg",
+      "urls": {
+        "other": "https://github.com/CodingTrain/genuary-2025"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Genuary 2025",
+          "url": "https://genuary.art/prompts#",
+          "description": "Genuary 2023 Prompts"
+        },
+         {
+          "icon": "🔗",
+          "title": "Genuary 2024",
+          "url": "https://genuary.art/2024/",
+          "description": "Genuary 2024"
+        },
+        {
+          "icon": "🔗",
+          "title": "Genuary 2023",
+          "url": "https://genuary.art/2023/",
+          "description": "Genuary 2023 Prompts"
+        }
+      ]
+    }
+  ],
+  "credits": []
+}
