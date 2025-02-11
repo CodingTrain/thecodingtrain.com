@@ -1,16 +1,16 @@
 {
   "title": "Genuary 2025 Speed Run",
-  "description": "Speed run through all of the Genuary 2025 prompts.",
+  "description": "What is Genuary if not 31 generative art prompts to be completed all in one sitting in February?!",
   "videoId": "c1BPd8omBro",
   "date": "2025-02-04",
-  "languages": ["JavaScript", "Processing"],
+  "languages": ["JavaScript", "p5.js"],
   "topics": ["Genuary"],
   "canContribute": true,
   "relatedChallenges": ["54-islamic-star-patterns", "137-4d-opensimplex-noise-loop"],
   "timestamps": [
     {
       "time": "0:00:00",
-      "title": "Livestream starts"
+      "title": "Welcome!"
     },
     {
       "time": "0:31:21",
@@ -139,8 +139,8 @@
   ],
   "codeExamples": [
     {
-      "title": "Genuary 2025 Repository",
-      "description": "Repository with links to the p5 sketches from the Genuary speed run",
+      "title": "Genuary 2025 Source Repository",
+      "description": "All the code for the Genuary 2025 speed run.",
       "image": "genuary.jpg",
       "urls": {
         "other": "https://github.com/CodingTrain/genuary-2025"
@@ -155,19 +155,7 @@
           "icon": "🔗",
           "title": "Genuary 2025",
           "url": "https://genuary.art/prompts#",
-          "description": "Genuary 2023 Prompts"
-        },
-         {
-          "icon": "🔗",
-          "title": "Genuary 2024",
-          "url": "https://genuary.art/2024/",
-          "description": "Genuary 2024"
-        },
-        {
-          "icon": "🔗",
-          "title": "Genuary 2023",
-          "url": "https://genuary.art/2023/",
-          "description": "Genuary 2023 Prompts"
+          "description": "The website and prompts for Genuary 2025"
         }
       ]
     }
