@@ -39,7 +39,7 @@
     {
       "title": "Circular Shape",
       "description": "Drawing a random circular shape with polar coordinates",
-      "image": "circlular.jpg",
+      "image": "circular.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/s10TQXDZv" }
     }
   ],
