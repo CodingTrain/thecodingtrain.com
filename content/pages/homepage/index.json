@@ -46,7 +46,16 @@
   },
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
-    "featured": ["challenges/180-falling-sand/showcase/contribution-1737847017.json", "noc/3-angles/2-angular-motion/showcase/contribution3.json", "challenges/132-fluid-simulation/showcase/contribution-1738435173.json", "ml5/facemesh/showcase/contribution-1738942214.json", "challenges/124-flocking-simulation/showcase/contribution-1739457137.json", "challenges/171-wave-function-collapse/showcase/contribution-1739280032.json", "code/7-arrays/6-object-communication-1/showcase/contribution-1739223031.json", "challenges/24-perlin-noise-flow-field/showcase/contribution-1738274677.json"],
+    "featured": [
+      "challenges/180-falling-sand/showcase/contribution-1737847017.json",
+      "noc/3-angles/2-angular-motion/showcase/contribution3.json",
+      "challenges/132-fluid-simulation/showcase/contribution-1738435173.json",
+      "ml5/facemesh/showcase/contribution-1738942214.json",
+      "challenges/124-flocking-simulation/showcase/contribution-1739457137.json",
+      "challenges/171-wave-function-collapse/showcase/contribution-1739280032.json",
+      "code/7-arrays/6-object-communication-1/showcase/contribution-1739223031.json",
+      "challenges/24-perlin-noise-flow-field/showcase/contribution-1738274677.json"
+    ],
     "showcaseCta": {
       "text": "Want to see more?",
       "buttonText": "Browse the full showcase",
