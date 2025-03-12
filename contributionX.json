@@ -1,0 +1,33 @@
+float x = 10; //declares and initialises the value of the variable x
+float y = 10; //declares and initialises the value of the variable y
+float gap = 20; //declares and initialises the value of the variable gap (boxes' width and height)
+
+
+void setup() {
+  size(640, 380);
+}
+
+void draw() {
+  background(0);
+
+  for (x = 10; x < width; x = x + gap) { //this outer loop moves the position of x across the canvas
+
+    for (y = 10; y < height; y = y + gap) { // this inner loop draws boxes at (x,y) for each row.
+
+      stroke(255);
+      strokeWeight(2);
+      fill(255, 0, 0);
+      ellipseMode(CENTER); // the arcs are positioned based on their centre
+
+      float r = random(0, 1); // there is 50% probability that r can be less or greater than 0.5
+      if (r < 0.5) {
+        arc(x, y, gap, gap, -HALF_PI, -HALF_PI + PI); // draws an arc at position coordinate(x,y), with the width and height of the ellipse, starting at position clockwise at position 12 pmand stopping at 6pm
+      } else {
+        stroke(255, 255, 0);
+        fill(0, 0, 255);
+        arc(x, y, gap, gap, HALF_PI, HALF_PI + PI); // draws an arc starting a position 6 pm and stopping at 12 pm
+      }
+    }
+    noLoop(); // after first execution processing stops repeating the draw
+  }
+}
