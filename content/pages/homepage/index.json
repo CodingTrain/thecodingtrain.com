@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "186-wfc-overlapping-model",
-      "176-buffon-needle",
-      "177-soft-body-character",
-      "144-2d-black-hole-visualization",
-      "72-frogger",
-      "54-islamic-star-patterns"
+      "19-superellipse",
+      "91-snakes-and-ladders",
+      "52-random-walker",
+      "119-binary-to-decimal-conversion",
+      "c2-collatz-conjecture",
+      "174-graphics-applesoft-basic"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "challenges/180-falling-sand/showcase/contribution-1737847017.json",
-      "noc/3-angles/2-angular-motion/showcase/contribution3.json",
-      "challenges/132-fluid-simulation/showcase/contribution-1738435173.json",
-      "ml5/facemesh/showcase/contribution-1738942214.json",
-      "challenges/124-flocking-simulation/showcase/contribution-1739457137.json",
-      "challenges/171-wave-function-collapse/showcase/contribution-1739280032.json",
-      "code/7-arrays/6-object-communication-1/showcase/contribution-1739223031.json",
-      "challenges/24-perlin-noise-flow-field/showcase/contribution-1738274677.json"
+      "code/3-conditionals/2-bouncing/showcase/contribution-1752260811.json",
+      "noc/2-forces/5-gravitational-attraction/showcase/contribution-1746447155.json",
+      "code/4-loops/2-nested/showcase/contribution-1746843124.json",
+      "challenges/129-koch-fractal-snowflake/showcase/contribution-1747493673.json",
+      "challenges/181-image-stippling/showcase/contribution-1752998310.json",
+      "code/2-variables/4-random/showcase/contribution-1743291900.json",
+      "challenges/85-the-game-of-life/showcase/contribution-1743285345.json",
+      "code/2-variables/5-map/showcase/contribution-1752360760.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
