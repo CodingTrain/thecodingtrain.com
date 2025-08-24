@@ -54,13 +54,19 @@
           "icon": "📖",
           "title": "p5.js 2.0 Beta",
           "url": "https://beta.p5js.org/",
-          "description": "The official beta website for p5.js 2.0 with updated references and examples."
+          "description": "The beta website for p5.js 2.0 with updated references and examples."
         },
         {
           "icon": "📖",
-          "title": "p5.js 2.0 Update",
+          "title": "p5.js 2.0",
           "url": "https://github.com/processing/p5.js/issues/7488",
           "description": "p5.js GitHub issue: Beta, Timeline, and Compatibility Addons"
+        },
+        {
+          "icon": "📖",
+          "title": "p5.js 2.0: You Are Here & How to Contribute!",
+          "url": "https://github.com/processing/p5.js/issues/7488",
+          "description": "p5.js Discourse thread on the 2.0 release."
         },
         {
           "icon": "🏛️",
