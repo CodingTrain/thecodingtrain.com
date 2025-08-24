@@ -1,0 +1,91 @@
+{
+  "title": "Robot Controllers Part 1: PID (with Dr. Christian Hubicki)",
+  "description": "In this live stream, Dr. Christian Hubicki and I team up to build a PID Controller, first in python and then in p5.js! We apply the controller to the classic 'cart pole' problem, attempting to balance an inverted pendulum.",
+  "videoId": "k5_P_e27-Wk",
+  "date": "2022-07-16",
+  "languages": ["Python", "p5.js", "matter.js"],
+  "topics": ["robotics", "PID controller", "p5.js", "python", "simulation", "physics", "robot control", "matter.js", "cart pole"],
+  "canContribute": true,
+  "relatedChallenges": ["138-angry-birds-with-matterjs", "62-plinko-with-matterjs"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Waiting to Start" },
+    { "time": "0:04:38", "title": "Welcome!" },
+    { "time": "0:07:30", "title": "Introducing Dr. Christian Hubicki" },
+    { "time": "0:09:49", "title": "Christian's Introductory Presentation" },
+    { "time": "0:14:48", "title": "How to Follow Along" },
+    { "time": "0:16:22", "title": "PID Controller Lecture" },
+    { "time": "0:44:09", "title": "Coding in Python!" },
+    { "time": "1:23:58", "title": "Introducing p5.js and matter.js" },
+    { "time": "1:37:18", "title": "Coding in p5.js!" },
+    { "time": "2:48:30", "title": "It works!" },
+    { "time": "2:49:19", "title": "Wrapping up and next steps" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Base Python Code",
+      "description": "The starter Python code in a Deepnote notebook.",
+      "image": "cart-pole.jpg",
+      "urls": { "other": "https://tinyurl.com/cart-pole" }
+    },
+    {
+      "title": "Final Python Code",
+      "description": "The final Python code with the completed PID controller.",
+      "image": "cart-pole.jpg",
+      "urls": { "other": "https://tinyurl.com/cartpole-control" }
+    },
+    {
+      "title": "PID Controller",
+      "description": "The p5.js and matter.js implementation of the balancing robot.",
+      "image": "cart-pole.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/sB1glTRe7" }
+    },
+    {
+      "title": "PID Controller",
+      "description": "The full GitHub repository for this project, including the interactive p5.js demo.",
+      "image": "cart-pole.jpg",
+      "urls": { "other": "https://github.com/CodingTrain/Robot-Controllers" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Dr. Christian Hubicki",
+          "description": "Assistant Professor of Robotics at FAMU-FSU College of Engineering.",
+          "url": "https://www.christianhubicki.com/"
+        },
+        {
+          "icon": "🤖",
+          "title": "Optimal Robotics Laboratory",
+          "url": "https://www.optimalroboticslab.com/",
+          "description": "Dr. Christian Hubicki's lab at FAMU-FSU College of Engineering."
+        },
+        {
+          "icon": "▶️",
+          "title": "YouTube",
+          "url": "https://www.youtube.com/channel/UCqSfzxT0dcpEPMtVguwzATg",
+          "description": "Dr. Hubicki's YouTube channel."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Robot Controllers Part 2",
+          "url": "/tracks/livestreams/livestreams/robot-controller-2",
+          "description": "The second part of this series, where we coded a simulation of a hopping robot."
+        },
+        {
+          "icon": "🚂",
+          "title": "Introduction to Matter.js",
+          "url": "/tracks/the-nature-of-code-2/noc/6-physics-libraries/1-matterjs-introduction",
+          "description": "This video is an introduction to the physics engine Matter.js, a 2D JavaScript physics library that supports rigid body collisions and constraints."
+        }
+      ]
+    }
+  ]
+}
