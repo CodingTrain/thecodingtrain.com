@@ -1,0 +1,86 @@
+{
+  "title": "p5.js 2.0 with Kit Kuksenok",
+  "description": "In this livestream, I'm joined by Kit Kuksenok, the p5.js Project Lead from the Processing Foundation! Kit gives an overview of the p5.js 2.0 beta, demonstrating new features like variable fonts, asynchronous loading, text to contours, and 3D text extrusion. We also discuss the timeline for the official release and how the community can get involved and provide feedback.",
+  "videoId": "1KqQeqZ3R9Y",
+  "date": "2025-08-15",
+  "languages": ["p5.js"],
+  "topics": ["p5.js", "variable fonts"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Waiting to Start" },
+    { "time": "0:05:24", "title": "Welcome to The Coding Train!" },
+    { "time": "0:09:46", "title": "Introducing Kit, p5.js Project Lead" },
+    { "time": "0:12:48", "title": "Getting Involved with p5.js & Processing Foundation" },
+    { "time": "0:16:39", "title": "What's Happening with p5.js 2.0?" },
+    { "time": "0:20:39", "title": "How to Start Using the 2.0 Beta in the Web Editor" },
+    { "time": "0:22:39", "title": "New Typography Features: Variable Fonts" },
+    { "time": "0:24:20", "title": "Asynchronous Loading with async/await" },
+    { "time": "0:27:39", "title": "New API: textToContours()" },
+    { "time": "0:32:00", "title": "Extruding Text in 3D with textToModel()" },
+    { "time": "0:33:39", "title": "Discussion: deltaTime() vs frameCount" },
+    { "time": "0:36:40", "title": "Question: Does text contouring work with other languages?" },
+    { "time": "0:42:39", "title": "Overview of Breaking Changes & Compatibility" },
+    { "time": "0:45:30", "title": "Discussion: Library Management Tab" },
+    { "time": "0:51:30", "title": "Discussion: SVG Support in p5.js" },
+    { "time": "0:52:39", "title": "How to Give Feedback & Get Involved with 2.0" },
+    { "time": "1:01:46", "title": "Wrapping Up" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Variable Fonts Demo",
+      "description": "A p5.js sketch demonstrating the use of variable fonts to animate text weight, one of the new features in version 2.0.",
+      "image": "[PLACEHOLDER IMAGE]",
+      "urls": { "p5": "[PLACEHOLDER URL]" }
+    },
+    {
+      "title": "Text to Contours and 3D Model Demo",
+      "description": "This sketch showcases the textToContours() and textToModel() functions for creating 2D and 3D geometry from text.",
+      "image": "[PLACEHOLDER IMAGE]",
+      "urls": { "p5": "[PLACEHOLDER URL]" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🎨",
+          "title": "Kit Kuksenok",
+          "url": "https://xnze.ro/",
+          "description": "Kit is a Berlin-based artist, writer, and coder, and the current p5.js Project Lead."
+        },
+        {
+          "icon": "📖",
+          "title": "p5.js 2.0 Beta",
+          "url": "https://beta.p5js.org/",
+          "description": "The official beta website for p5.js 2.0 with updated references and examples."
+        },
+        {
+          "icon": "📖",
+          "title": "2.0 Compatibility & Transition",
+          "url": "https://github.com/processing/p5.js/wiki/p5.js-2.0-Compatibility-and-Transition",
+          "description": "Guide on breaking changes and how to transition sketches from v1.x to v2.0."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Processing Foundation",
+          "url": "https://processingfoundation.org/",
+          "description": "The non-profit organization responsible for the p5.js and Processing software projects."
+        },
+        {
+          "icon": "💬",
+          "title": "p5.js on Discord",
+          "url": "https://discord.gg/SHQ8dH25r9",
+          "description": "The official Discord server for the p5.js community."
+        },
+        {
+          "icon": "💬",
+          "title": "Processing Foundation Discourse",
+          "url": "https://discourse.processing.org/",
+          "description": "The official forum for Processing, p5.js, and related projects."
+        }
+      ]
+    }
+  ]
+}

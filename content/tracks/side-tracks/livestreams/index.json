@@ -2,6 +2,7 @@
   "title": "Coding Train Live!",
   "description": "This side track is a collection of select livestreams.",
   "videos": [
+    "livestreams/p5js-2.0",
     "livestreams/genuary-2025",
     "livestreams/page-not-found",
     "livestreams/creative_coding_ai_agent",
