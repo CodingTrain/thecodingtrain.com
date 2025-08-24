@@ -1,7 +1,7 @@
 {
   "title": "Robot Controllers Part 1: PID (with Dr. Christian Hubicki)",
   "description": "In this live stream, Dr. Christian Hubicki and I team up to build a PID Controller, first in python and then in p5.js! We apply the controller to the classic 'cart pole' problem, attempting to balance an inverted pendulum.",
-  "videoId": "k5_P_e27-Wk",
+  "videoId": "fWQWX9-8_sA",
   "date": "2022-07-16",
   "canonicalTrack": "robot-controllers",
   "languages": ["Python", "p5.js", "matter.js"],
