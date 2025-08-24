@@ -10,12 +10,13 @@
     "algorithmic-botany",
     "coding-in-the-cabana",
     "coding-together-apple-ii",
-    "mastodon",
+    "robot-controllers",
     "discord-bots",
+    "p5-tips-and-tricks",
+    "transformations-in-p5",
     "livestreams",
     "neural-networks",
     "noise",
-    "p5-tips-and-tricks",
     "physics-libraries",
     "pi-day",
     "pixels",
@@ -24,10 +25,10 @@
     "supershapes",
     "teachable-machine",
     "topics-in-native-javascript",
-    "transformations-in-p5",
     "games",
     "web-sockets-and-p5js",
     "webgl",
+    "mastodon",
     "archive"
   ]
 }
