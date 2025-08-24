@@ -1,0 +1,114 @@
+{
+  "title": "Robot Controllers Part 2: Raibert Hopper (with Dr. Christian Hubicki",
+  "description": "In this livestream, I'm rejoined by Dr. Christian Hubicki to continue our series on robot controllers. Dr. Hubicki gives a presentation on the history of legged robots (like ASIMO and Boston Dynamics) and the principles behind the Raibert Hopper. Then, we attempt to implement a 1D hopping robot simulation in p5.js using a PID controller.",
+  "videoId": "3FeySIv-gFM",
+  "canonicalTrack": "robot-controllers",
+  "date": "2025-08-24",
+  "languages": ["p5.js", "MATLAB"],
+  "topics": ["robotics", "p5.js", "PID controller", "Raibert hopper", "simulation", "physics", "legged locomotion", "robot control"],
+  "canContribute": true,
+  "relatedChallenges": ["160-spring-forces"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Waiting to Start" },
+    { "time": "0:05:17", "title": "Welcome to The Coding Train" },
+    { "time": "0:08:35", "title": "Revisiting Part 1 from 2022" },
+    { "time": "0:10:13", "title": "Introducing Dr. Christian Hubicki" },
+    { "time": "0:20:10", "title": "Dr. Hubicki's Presentation: How to Make a Robot Hop" },
+    { "time": "0:24:00", "title": "History of Legged Locomotion: Safety vs. Agility" },
+    { "time": "0:27:09", "title": "The 'Safety First' Approach (ZMP, ASIMO)" },
+    { "time": "0:30:34", "title": "The 'Agility First' Approach (Mark Raibert, Boston Dynamics)" },
+    { "time": "0:38:17", "title": "Whiteboard Explanation: PID Controllers" },
+    { "time": "0:51:30", "title": "Whiteboard Explanation: The Raibert Hopper Controller" },
+    { "time": "0:58:07", "title": "Transition to Coding in p5.js" },
+    { "time": "1:03:04", "title": "Connecting to Nature of Code and Steering Behaviors" },
+    { "time": "1:10:40", "title": "Starting with the p5.js Spring Simulation Code" },
+    { "time": "1:24:27", "title": "Implementing Hopping Phases (Stance vs. Flight)" },
+    { "time": "1:48:01", "title": "Implementing the PID Controller for Hopping Height" },
+    { "time": "2:09:59", "title": "Reviewing a Pre-made, Working 1D Hopper Example" },
+    { "time": "2:16:40", "title": "Previewing a 2D Hopper Starter Code" },
+    { "time": "2:23:04", "title": "Where to Find Dr. Christian Hubicki" },
+    { "time": "2:24:53", "title": "What's Next for The Coding Train" },
+    { "time": "2:29:43", "title": "Outro and Goodbyes" }
+  ],
+  "codeExamples": [
+    {
+      "title": "1D Raibert Hopper",
+      "description": "The p5.js sketch for a 1D hopping robot that we coded together during the livestream.",
+      "image": "1d-hopper-a.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/CjfAtvdGx" }
+    },
+    {
+      "title": "1D Raibert Hopper",
+      "description": "A organized and commented p5.js implementation of the 1D Raibert hopper controller.",
+      "image": "1d-hopper-b.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EYOfSWBaF" }
+    },
+    {
+      "title": "1D Spring Simulation",
+      "description": "The starter code for the 1D spring simulation used at the beginning of the coding session.",
+      "image": "1d-spring.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EhhzPIB-h" }
+    },
+    {
+      "title": "2D Hopper",
+      "description": "A starter p5.js sketch for a 2D hopper, ready for a controller to be implemented.",
+      "image": "2d-hopper.jpg",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/W_hxT-8ST" }
+    },
+    {
+      "title": "MATLAB Raibert Hopper",
+      "description": "A MATLAB implementation by Dr. Christian Hubicki.",
+      "image": "matlab-hopper.png",
+      "urls": { "other": "https://gist.github.com/shiffman/9eea780b9cada3725887d26ed174d49e" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "🔗",
+          "title": "Dr. Christian Hubicki's",
+          "url": "https://www.christianhubicki.com/",
+          "description": "Dr. Hubicki's personal website."
+        },
+        {
+          "icon": "🤖",
+          "title": "Optimal Robotics Lab",
+          "url": "https://www.optimalroboticslab.com/",
+          "description": "The research group run by Dr. Christian Hubicki at the FAMU-FSU College of Engineering."
+        },
+        {
+          "icon": "📖",
+          "title": "The Nature of Code",
+          "url": "https://natureofcode.com/",
+          "description": "My book on simulating natural systems, which covers concepts like vectors, forces, and springs."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Robot Controllers Part 1",
+          "url": "/tracks/robot-controllers/robot-controllers/robot-controller-1",
+          "description": "The first part of this series, where we coded a simulation of an inverted pendulum on a cart."
+        },
+        {
+          "icon": "🚂",
+          "title": "Steering Behaviors",
+          "url": "/tracks/the-nature-of-code-2/noc/5-autonomous-agents/1-steering-agents",
+          "description": "This video covers steering behaviors, which are algorithms for autonomous agents to navigate their environment."
+        },
+        {
+          "icon": "🚂",
+          "title": "Scalar Projection",
+          "url": "/tracks/the-nature-of-code-2/noc/5-autonomous-agents/6-scalar-projection",
+          "description": "This video covers scalar projection, used in the spring damping code."
+        }
+      ]
+    }
+  ],
+  "credits": []
+}

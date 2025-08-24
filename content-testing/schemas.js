@@ -130,7 +130,7 @@ const baseVideosSchema = strictObject({
       name: string().required(),
       url: string().url()
     }).required()
-  ).required()
+  )
 });
 
 const videosSchema = baseVideosSchema.concat(
