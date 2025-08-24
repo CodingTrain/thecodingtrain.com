@@ -58,9 +58,9 @@
         },
         {
           "icon": "📖",
-          "title": "2.0 Compatibility & Transition",
-          "url": "https://github.com/processing/p5.js/wiki/p5.js-2.0-Compatibility-and-Transition",
-          "description": "Guide on breaking changes and how to transition sketches from v1.x to v2.0."
+          "title": "p5.js 2.0 Update",
+          "url": "https://github.com/processing/p5.js/issues/7488",
+          "description": "p5.js GitHub issue: Beta, Timeline, and Compatibility Addons"
         },
         {
           "icon": "🏛️",
