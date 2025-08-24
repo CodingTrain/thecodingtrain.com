@@ -53,6 +53,12 @@
       "description": "A starter p5.js sketch for a 2D hopper, ready for a controller to be implemented.",
       "image": "2d-hopper.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/W_hxT-8ST" }
+    },
+    {
+      "title": "MATLAB Raibert Hopper",
+      "description": "A MATLAB implementation by Dr. Christian Hubicki.",
+      "image": "matlab-hopper.png",
+      "urls": { "other": "https://gist.github.com/shiffman/9eea780b9cada3725887d26ed174d49e" }
     }
   ],
   "groupLinks": [
