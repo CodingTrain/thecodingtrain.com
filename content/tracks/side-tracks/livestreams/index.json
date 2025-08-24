@@ -2,6 +2,8 @@
   "title": "Coding Train Live!",
   "description": "This side track is a collection of select livestreams.",
   "videos": [
+    "robot-controllers/robot-controller-1",
+    "robot-controllers/robot-controller-2",
     "livestreams/genuary-2025",
     "livestreams/page-not-found",
     "livestreams/creative_coding_ai_agent",
