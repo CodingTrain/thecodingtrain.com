@@ -85,6 +85,18 @@
           "title": "Processing Foundation Discourse",
           "url": "https://discourse.processing.org/",
           "description": "The official forum for Processing, p5.js, and related projects."
+        },
+        {
+          "icon": "💬",
+          "title": "Multilingual Typography & Text Experiments with p5.js 2.0",
+          "url": "https://openprocessing.org/curation/89576",
+          "description": "A special curation exploring the new multilingual and typography features in p5.js 2.0."
+        },
+        {
+          "icon": "💬",
+          "title": "#WCCChallenge",
+          "url": "https://openprocessing.org/curation/78544",
+          "description": "The Weekly Creative Code Challenge is a friendly jam for generative artists and creative coders created by Raphael de Courville."
         }
       ]
     }
