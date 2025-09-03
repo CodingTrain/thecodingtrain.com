@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "code/3-conditionals/2-bouncing/showcase/contribution-1752260811.json",
-      "noc/2-forces/5-gravitational-attraction/showcase/contribution-1746447155.json",
-      "code/4-loops/2-nested/showcase/contribution-1746843124.json",
-      "challenges/129-koch-fractal-snowflake/showcase/contribution-1747493673.json",
-      "challenges/181-image-stippling/showcase/contribution-1752998310.json",
-      "code/2-variables/4-random/showcase/contribution-1743291900.json",
-      "challenges/85-the-game-of-life/showcase/contribution-1743285345.json",
-      "code/2-variables/5-map/showcase/contribution-1752360760.json"
+      "robot-controllers/robot-controller-2/showcase/contribution-1756392056.json",
+      "code/5-functions/2-arguments/showcase/contribution-1755856636.json",
+      "code/6-objects/2-classes/showcase/contribution-1755503836.json",
+      "code/3-conditionals/4-boolean/showcase/contribution-1753738275.json",
+      "webgl/2-3d-geometries/showcase/contribution-1752482723.json",
+      "challenges/52-random-walker/showcase/contribution-1755284675.json",
+      "challenges/15-object-oriented-fractal-trees/showcase/contribution-1752683789.json",
+      "code/2-variables/4-random/showcase/contribution-1754907099.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
