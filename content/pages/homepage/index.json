@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "19-superellipse",
-      "91-snakes-and-ladders",
-      "52-random-walker",
-      "119-binary-to-decimal-conversion",
-      "c2-collatz-conjecture",
-      "174-graphics-applesoft-basic"
+      "164-slitscan",
+      "159-simple-pendulum",
+      "149-tic-tac-toe",
+      "120-bit-shifting",
+      "111-animated-sprites",
+      "69-evolutionary-steering-behaviors"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
