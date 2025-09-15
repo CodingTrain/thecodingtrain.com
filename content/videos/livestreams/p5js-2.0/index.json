@@ -28,16 +28,10 @@
   ],
   "codeExamples": [
     {
-      "title": "Variable Fonts Demo",
-      "description": "A p5.js sketch demonstrating the use of variable fonts to animate text weight, one of the new features in version 2.0.",
-      "image": "[PLACEHOLDER IMAGE]",
-      "urls": { "p5": "[PLACEHOLDER URL]" }
-    },
-    {
-      "title": "Text to Contours and 3D Model Demo",
-      "description": "This sketch showcases the textToContours() and textToModel() functions for creating 2D and 3D geometry from text.",
-      "image": "[PLACEHOLDER IMAGE]",
-      "urls": { "p5": "[PLACEHOLDER URL]" }
+      "title": "p5.js 2.0 Fonts Demo",
+      "description": "A p5.js sketch demonstrating the use of variable fonts, textToContours() and textToModel().",
+      "image": "fonts.png",
+      "urls": { "p5": "https://editor.p5js.org/ksen0/sketches/cevvPvWar" }
     }
   ],
   "groupLinks": [
