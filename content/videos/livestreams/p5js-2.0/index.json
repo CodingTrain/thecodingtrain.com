@@ -7,6 +7,7 @@
   "topics": ["p5.js", "variable fonts"],
   "canContribute": true,
   "relatedChallenges": [],
+  "canonicalTrack": "livestreams",
   "timestamps": [
     { "time": "0:00:00", "title": "Waiting to Start" },
     { "time": "0:05:24", "title": "Welcome to The Coding Train!" },
