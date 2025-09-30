@@ -24,16 +24,19 @@
     {
       "title": "p5.js 2 - async and await",
       "description": "Basic example of loading an image with async and await.",
+      "image": "choochoo.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Q6S38g0rS" }
     },
     {
       "title": "p5.js 2 - loading animation",
       "description": "How to use a custom async function to load data without blocking draw.",
+      "image": "loading.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JLIxyHrkn" }
     },
     {
       "title": "p5.js 2 - loading in a sequence",
       "description": "How to load data with sequential calls with await.",
+      "image": "dog.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/lQxT7PTKC" }
     }
   ],
