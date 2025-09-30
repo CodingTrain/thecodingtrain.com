@@ -1,0 +1,89 @@
+{
+  "title": "p5.js 2.0: async and await",
+  "description": "This video tackles one of the bigger changes in p5.js 2: loading data with async and await! Fear not, I'll cover how to transition from preload and callbacks in p5.js 1.0 to using promises with async/await in 2.0.",
+  "videoId": "0Ad5Frf8NBM",
+  "date": "2025-09-29",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["async/await", "promises", "p5.js 2", "preload", "callbacks"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00:00", "title": "p5.js 2.0!" },
+    { "time": "0:03:00", "title": "Switching versions in the web editor" },
+    { "time": "0:05:02", "title": "Loading with p5.js 1" },
+    { "time": "0:06:11", "title": "Synchronous vs Asynchronous Code" },
+    { "time": "0:08:37", "title": "Promises!" },
+    { "time": "0:11:29", "title": "switching from preload to async setup()" },
+    { "time": "0:13:57", "title": "Loading with callbacks in p5.js 1.0" },
+    { "time": "0:17:15", "title": "Sequencing loading data in p5.js 1.0" },
+    { "time": "0:19:26", "title": "Sequencing with async and await in p5.js 2.0" },
+    { "time": "0:20:09", "title": "Creating a custom Async Function" },
+    { "time": "0:22:13", "title": "Thank you for watching!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "p5.js 2 - async and await",
+      "description": "Basic example of loading an image with async and await.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Q6S38g0rS" }
+    },
+    {
+      "title": "p5.js 2 - loading animation",
+      "description": "How to use a custom async function to load data without blocking draw.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JLIxyHrkn" }
+    },
+    {
+      "title": "p5.js 2 - loading in a sequence",
+      "description": "How to load data with sequential calls with await.",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/lQxT7PTKC" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📖",
+          "title": "p5.js 2.0 Beta",
+          "url": "https://beta.p5js.org/",
+          "description": "The beta website for p5.js 2.0 with updated references and examples."
+        },
+        {
+          "icon": "📖",
+          "title": "p5.js 2.0",
+          "url": "https://github.com/processing/p5.js/issues/7488",
+          "description": "p5.js GitHub issue: Beta, Timeline, and Compatibility Addons"
+        },
+        {
+          "icon": "📖",
+          "title": "p5.js 2.0: You Are Here & How to Contribute!",
+          "url": "https://discourse.processing.org/t/dev-updates-p5-js-2-0-you-are-here-how-to-contribute/46130",
+          "description": "p5.js Discourse thread on the 2.0 release."
+        },
+        {
+          "icon": "🎨",
+          "title": "Dog API",
+          "url": "https://dog.ceo/dog-api/",
+          "description": "A public API for dog images used in the examples."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Promises Part 1",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-1",
+          "description": "Learn more about JavaScript Promises in depth."
+        },
+        {
+          "icon": "🚂",
+          "title": "Promises Part 2",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-2",
+          "description": "Continue learning about JavaScript Promises."
+        }
+      ]
+    }
+  ],
+  "credits": []
+}
