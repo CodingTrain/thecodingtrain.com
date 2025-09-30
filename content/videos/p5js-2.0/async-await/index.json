@@ -2,6 +2,7 @@
   "title": "p5.js 2.0: async and await",
   "description": "This video tackles one of the bigger changes in p5.js 2: loading data with async and await! Fear not, I'll cover how to transition from preload and callbacks in p5.js 1.0 to using promises with async/await in 2.0.",
   "videoId": "0Ad5Frf8NBM",
+  "nebulaSlug": "codingtrain-p5js-20-async-and-await",
   "date": "2025-09-29",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["async/await", "promises", "p5.js 2", "preload", "callbacks"],
