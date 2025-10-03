@@ -1,5 +1,5 @@
 {
   "title": "p5.js 2.0",
   "description": "A collection of videos exploring the new features and capabilities introduced in p5.js 2.0, including loading with async and await, fonts and typography, custom shapes and curves, and more!",
-  "videos": ["p5js-2.0/async-await", "livestreams/p5js-2.0"]
+  "videos": ["p5js-2.0/async-await", "p5js-2.0/loading-data", "livestreams/p5js-2.0"]
 }

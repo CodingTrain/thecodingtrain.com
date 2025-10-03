@@ -1,0 +1,106 @@
+{
+  "title": "p5.js 2.0: Loading Data (Images, APIs, JSON)",
+  "description": "This video covers how to load external assets like images, JSON files, and data from APIs into your p5.js 2.0 sketches. Learn the fundamentals of asynchronous operations in p5.js using Promises with async/await.",
+  "videoId": "25omXt_OjD4",
+  "nebulaSlug": "codingtrain-how-to-load-data-with-p5js-20",
+  "date": "2025-10-03",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["async/await", "promises", "p5.js 2", "loading images", "API", "JSON", "Promise.all"],
+  "canContribute": true,
+  "relatedChallenges": [],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Hello!" },
+    { "time": "0:00:54", "title": "How to Load an Image in p5.js" },
+    { "time": "0:02:16", "title": "Asynchronous Code: promises, async, and await" },
+    { "time": "0:04:10", "title": "Common Mistakes to Avoid" },
+    { "time": "0:05:51", "title": "Loading Data from a Live API" },
+    { "time": "0:08:21", "title": "Loading Multiple Items in a Sequence" },
+    { "time": "0:09:12", "title": "Creating a Custom Loading Animation" },
+    { "time": "0:13:39", "title": "Faster Parallel Loading with Promise.all()" },
+    { "time": "0:16:48", "title": "Challenge for you!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Loading a Single Image",
+      "description": "A basic example of loading an image into a p5.js 2.0 sketch using async and await in setup().",
+      "image": "choochoo.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/NPKPIYhBR" }
+    },
+    {
+      "title": "Sequential Loading",
+      "description": "Demonstrates JSON from the Dog API and then loading an image from the JSON.",
+      "image": "dogs1.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/lQxT7PTKC" }
+    },
+    {
+      "title": "API and Loading Animation",
+      "description": "Demonstrates loading JSON from the Dog API and then creating a loading bar while fetching multiple images.",
+      "image": "dogs2.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/M_NGGyqr4" }
+    },
+    {
+      "title": "Parallel Loading with Promise.all",
+      "description": "An example showing how to load multiple images in parallel for better performance using Promise.all().",
+      "image": "kittens1.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/MgrJuSvJt" }
+    },
+    {
+      "title": "Loading images with placeholders exercise",
+      "description": "A demonstration of loading images from an array of files, displaying a placeholder while each image loads.",
+      "image": "kittens2.png",
+      "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Ur6plDyKK" }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📖",
+          "title": "p5.js 2.0 Beta",
+          "url": "https://beta.p5js.org/",
+          "description": "The beta website for p5.js 2.0 with updated references and examples."
+        },
+        {
+          "icon": "📖",
+          "title": "Promise.all",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all",
+          "description": "MDN documentation on Promise.all for handling multiple promises in parallel."
+        },
+        {
+          "icon": "🎨",
+          "title": "Dog API",
+          "url": "https://dog.ceo/dog-api/",
+          "description": "A public API for dog images used in the examples."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "p5.js 2.0: async and await",
+          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
+          "description": "How to transition from p5.js 1.0 to 2.0 with async and await."
+        },
+        {
+          "icon": "🚂",
+          "title": "Promises Part 1",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-1",
+          "description": "Learn more about JavaScript Promises in depth."
+        },
+        {
+          "icon": "🚂",
+          "title": "Promises Part 2",
+          "url": "/tracks/topics-in-native-javascript/js/promises-part-2",
+          "description": "Continue learning about JavaScript Promises."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
