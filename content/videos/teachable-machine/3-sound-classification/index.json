@@ -2,7 +2,7 @@
   "title": "Teachable Machine 3: Sound Classification",
   "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)!  Train a computer to recognize your own images, sounds, & poses. In this video, I train a sound classifier and import the machine learning model into a p5.js sketch with the ml5.js library",
   "videoNumber": "3",
-  "nebulaSlug": "the-coding-train-yt-teachable-machine-3-sound-classifiication",
+  "nebulaSlug": "the-coding-train-yt-teachable-machine-3-sound-classification",
   "videoId": "TOrVsLklltM",
   "date": "2019-11-11",
   "languages": ["JavaScript", "p5.js", "ml5.js"],
