@@ -76,6 +76,12 @@
       "links": [
         {
           "icon": "🚂",
+          "title": "Loading Data with p5.js 2.0",
+          "url": "/tracks/p5js-2.0/p5js-2.0/loading-data",
+          "description": "Learn more about loading data in p5.js 2.0."
+        },
+        {
+          "icon": "🚂",
           "title": "Promises Part 1",
           "url": "/tracks/topics-in-native-javascript/js/promises-part-1",
           "description": "Learn more about JavaScript Promises in depth."
@@ -89,5 +95,8 @@
       ]
     }
   ],
-  "credits": []
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
 }
