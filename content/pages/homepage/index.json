@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "164-slitscan",
-      "159-simple-pendulum",
-      "149-tic-tac-toe",
-      "120-bit-shifting",
-      "111-animated-sprites",
-      "69-evolutionary-steering-behaviors"
+      "11-3d-terrain-generation-with-perlin-noise",
+      "27-fireworks",
+      "49-photo-mosaic-with-white-house-social-media-images",
+      "109-visualizing-500000-subscribers",
+      "c5-marching-squares",
+      "146-rendering-ray-casting"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "robot-controllers/robot-controller-2/showcase/contribution-1756392056.json",
-      "code/5-functions/2-arguments/showcase/contribution-1755856636.json",
-      "code/6-objects/2-classes/showcase/contribution-1755503836.json",
-      "code/3-conditionals/4-boolean/showcase/contribution-1753738275.json",
-      "webgl/2-3d-geometries/showcase/contribution-1752482723.json",
-      "challenges/52-random-walker/showcase/contribution-1755284675.json",
-      "challenges/15-object-oriented-fractal-trees/showcase/contribution-1752683789.json",
-      "code/2-variables/4-random/showcase/contribution-1754907099.json"
+      "challenges/182-apollonian-gasket/showcase/contribution-1759437109.json",
+      "code/7-arrays/6-object-communication-1/showcase/contribution-1759856331.json",
+      "challenges/145-ray-casting-2d/showcase/contribution-1759839401.json",
+      "code/7-arrays/5-removing-elements/showcase/contribution-1756652444.json",
+      "challenges/119-binary-to-decimal-conversion/showcase/contribution-1756678732.json",
+      "challenges/180-falling-sand/showcase/contribution-1756678486.json",
+      "code/3-conditionals/4-boolean/showcase/contribution-1758653305.json",
+      "challenges/171-wave-function-collapse/showcase/contribution-1743446782.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
