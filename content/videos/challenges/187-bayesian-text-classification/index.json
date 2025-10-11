@@ -36,12 +36,14 @@
     {
       "title": "Text Classifier - Initial Version",
       "description": "Raw (but corrected) version in p5.js web editor.",
+      "image": "classify.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/RZ8a1z4DN"
       }
     },
     {
       "title": "Text Classifier - Refactored Version",
+      "image": "classify.png",
       "description": "Refactored version with better structure and comments.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/P3ngrAANX",
@@ -51,6 +53,7 @@
     {
       "title": "Text Classifier - File Loading Version",
       "description": "Version that loads training data from three novels (romance, horror, sci-fi).",
+      "image": "classifyfiles.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/WowR2Q9xg"
       }
