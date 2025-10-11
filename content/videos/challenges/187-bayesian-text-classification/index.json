@@ -20,18 +20,17 @@
   "relatedChallenges": ["40-word-counter", "42-markov-chain-name-generator"],
   "timestamps": [
     { "time": "0:00:00", "title": "Hello!" },
-    { "time": "0:03:37", "title": "Explaining Bayes' Theorem" },
+    { "time": "0:03:34", "title": "Explaining Bayes' Theorem" },
     { "time": "0:12:07", "title": "What is Naive Bayes?" },
-    { "time": "0:13:48", "title": "Setting up the Classifier in p5.js" },
-    { "time": "0:15:41", "title": "Coding the Word Counting Algorithm" },
-    { "time": "0:21:22", "title": "Training the Classifier with Data" },
-    { "time": "0:22:14", "title": "Coding the Classify Function" },
-    { "time": "0:25:20", "title": "Refactoring the Data Structure" },
+    { "time": "0:13:49", "title": "Setting up the Classifier in p5.js" },
+    { "time": "0:15:41", "title": "Coding the train() function " },
+    { "time": "0:22:14", "title": "Coding the classify() Function" },
+    { "time": "0:24:45", "title": "Revising the train() function" },
     { "time": "0:29:06", "title": "Implementing Probability Calculations" },
     { "time": "0:33:24", "title": "Laplacian (Additive) Smoothing" },
-    { "time": "0:42:21", "title": "Ignoring the Denominator (Normalization)" },
+    { "time": "0:42:21", "title": "Ignoring the enominator (Normalization)" },
     { "time": "0:45:36", "title": "Quick User Interface" },
-    { "time": "0:49:42", "title": "Final thoughts" }
+    { "time": "0:49:42", "title": "Final thoughts and next steps." }
   ],
   "codeExamples": [
     {
