@@ -1,0 +1,131 @@
+{
+  "title": "Introduction to Transformers.js",
+  "description": "Welcome to a new series all about working with machine learning models in JavaScript in the browser using the Transformers.js library! In this introduction, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples.",
+  "videoNumber": "1",
+  "videoId": "KR61bXsPlLU",
+  "nebulaSlug": "codingtrain-what-is-transformersjs",
+  "date": "2025-10-24",
+  "languages": ["JavaScript", "p5.js", "Transformers.js"],
+  "topics": [
+    "machine learning",
+    "Transformers.js",
+    "Hugging Face",
+    "sentiment analysis",
+    "language detection",
+    "natural language processing",
+    "pipeline API",
+    "async/await",
+    "ES6 modules"
+  ],
+  "canContribute": true,
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "2:01", "title": "Why JavaScript and not Python?" },
+    { "time": "3:06", "title": "What is Hugging Face?" },
+    { "time": "4:03", "title": "Transformers.js Documentation" },
+    { "time": "4:18", "title": "Pipeline API" },
+    { "time": "5:05", "title": "import syntax and ES6 modules" },
+    { "time": "8:38", "title": "Object Destructuring" },
+    { "time": "11:33", "title": "Creating a Pipeline" },
+    { "time": "13:18", "title": "Sentiment Analysis Example" },
+    { "time": "18:56", "title": "Tasks and Models on Hugging Face" },
+    { "time": "20:20", "title": "Language Detection Example" },
+    { "time": "22:29", "title": "Device: WebGPU, CPU and more" },
+    { "time": "24:32", "title": "Data Types and Quantization" },
+    { "time": "28:00", "title": "See you next time!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Sentiment Analysis",
+      "description": "Sentiment analysis with color-coded results using Transformers.js pipeline.",
+      "image": "sentiment.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/JaXqVSHxM"
+      }
+    },
+    {
+      "title": "Language Detection",
+      "description": "Detect the language of input text using a text classification model.",
+      "image": "language.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/VmS9V6-0o"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "💻",
+          "title": "Transformers.js Documentation",
+          "url": "https://huggingface.co/docs/transformers.js",
+          "description": "Official documentation for the Transformers.js library."
+        },
+        {
+          "icon": "🤗",
+          "title": "Hugging Face",
+          "url": "https://huggingface.co/",
+          "description": "Platform for sharing machine learning models, datasets, and spaces."
+        },
+        {
+          "icon": "🤗",
+          "title": "Hugging Face Models",
+          "url": "https://huggingface.co/models?library=transformers.js",
+          "description": "Browse all models compatible with Transformers.js."
+        },
+        {
+          "icon": "🤗",
+          "title": "Xenova on Hugging Face",
+          "url": "https://huggingface.co/Xenova",
+          "description": "Creator of Transformers.js."
+        },
+        {
+          "icon": "🤗",
+          "title": "Whisper Web",
+          "url": "https://huggingface.co/spaces/Xenova/whisper-web",
+          "description": "Speech recognition demo using Whisper model in the browser."
+        },
+        {
+          "icon": "💻",
+          "title": "p5.js 2.0 reference",
+          "url": "https://beta.p5js.org/",
+          "description": "p5.js version 2.0 with support for async/await."
+        },
+        {
+          "icon": "📓",
+          "title": "ES6 Modules",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+          "description": "MDN documentation on JavaScript modules and import/export."
+        },
+        {
+          "icon": "📓",
+          "title": "Quantization",
+          "url": "https://huggingface.co/docs/optimum/concept_guides/quantization",
+          "description": "Understanding model quantization and precision levels."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "ml5.js Beginner's Guide",
+          "url": "/tracks/ml5js-beginners-guide",
+          "description": "My series on machine learning with ml5.js and TensorFlow.js."
+        },
+        {
+          "icon": "🚂",
+          "title": "p5.js 2.0: async and await",
+          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
+          "description": "Learn about asynchronous programming in p5.js 2.0."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
