@@ -3,7 +3,7 @@
   "description": "Welcome to a new series all about working with machine learning models in JavaScript in the browser using the Transformers.js library! In this introduction, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples.",
   "videoNumber": "1",
   "videoId": "KR61bXsPlLU",
-  "nebulaSlug": "codingtrain-what-is-transformersjs",
+  "nebulaSlug": "codingtrain-machine-learning-in-the-browser",
   "date": "2025-10-24",
   "languages": ["JavaScript", "p5.js", "Transformers.js"],
   "topics": [
