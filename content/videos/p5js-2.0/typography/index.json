@@ -1,0 +1,181 @@
+{
+  "title": "p5.js 2.0: Typography and Fonts",
+  "description": "Let's explore new typography features in p5.js 2.0! In this video, I cover how to work with variable fonts, convert text to 3D models with textModel(), extract contours with textContours(), and control the detail of your typography with sampleFactor and simplifyThreshold.",
+  "videoId": "d0GgzjCFWq0",
+  "nebulaSlug": "codingtrain-p5js-20-typography",
+  "date": "2026-03-22",
+  "languages": ["p5.js", "JavaScript"],
+  "topics": ["typography", "fonts", "text", "p5.js 2", "variable fonts", "3D text", "text contours"],
+  "canContribute": true,
+  "relatedChallenges": ["59-steering-behaviors"],
+  "timestamps": [
+    { "time": "0:00", "title": "Welcome!" },
+    { "time": "0:49", "title": "Finding Fonts (Google Fonts)" },
+    { "time": "1:01", "title": "Loading Fonts with Async/Await" },
+    { "time": "2:30", "title": "Variable Fonts" },
+    { "time": "3:17", "title": "textWeight()" },
+    { "time": "4:03", "title": "Animated Text Weight" },
+    { "time": "4:31", "title": "Coding Challenge 59 - Steering Behaviors" },
+    { "time": "5:15", "title": "textContours() Introduction" },
+    { "time": "6:00", "title": "sampleFactor and simplifyThreshold" },
+    { "time": "9:00", "title": "sampleFactor Explained" },
+    { "time": "12:00", "title": "simplifyThreshold Explained" },
+    { "time": "14:00", "title": "Updating Challenge 59 to p5.js 2.0" },
+    { "time": "15:00", "title": "Angle Property of Contours" },
+    { "time": "17:00", "title": "textModel() for 3D Text" },
+    { "time": "19:00", "title": "Extrude Option" },
+    { "time": "20:11", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Variable Font Weights",
+      "description": "Explore using variable fonts with different weights in p5.js 2.0.",
+      "image": "weight.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9SZYb2vX3"
+      }
+    },
+    {
+      "title": "textContours()",
+      "description": "Extract contours from text characters using the new textContours() function.",
+      "image": "contours.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/ffDf3LmKi"
+      }
+    },
+    {
+      "title": "textModel() - 3D Text",
+      "description": "Create 3D text models with the textModel() function in p5.js 2.0.",
+      "image": "model.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Z4DkmlvyM"
+      }
+    },
+    {
+      "title": "Coding Challenge 59 - p5.js 2.0",
+      "description": "Steering behaviors coding challenge updated for p5.js 2.0 with new typography features.",
+      "image": "steering.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cetWD9rvY"
+      }
+    },
+    {
+      "title": "One Letter, Two Contours",
+      "description": "Demonstrating how a single letter can have multiple contours.",
+      "image": "oneandtwo.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/2xr1TAmXK"
+      }
+    },
+    {
+      "title": "sampleFactor Diagram",
+      "description": "Visual diagram showing how the sampleFactor parameter affects text rendering.",
+      "image": "samplefactor.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/c23YgfIhC"
+      }
+    },
+    {
+      "title": "simplifyThreshold Demo",
+      "description": "Working example demonstrating the simplifyThreshold parameter for text contours.",
+      "image": "simplifythreshold.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/9_CnA7lrl"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📖",
+          "title": "p5.js 2.0: You Are Here & How to Contribute!",
+          "url": "https://discourse.processing.org/t/dev-updates-p5-js-2-0-you-are-here-how-to-contribute/46130",
+          "description": "p5.js Discourse thread on the 2.0 release."
+        },
+        {
+          "icon": "🔤",
+          "title": "Google Fonts",
+          "url": "https://fonts.google.com",
+          "description": "Find and use web fonts in your p5.js sketches"
+        },
+        {
+          "icon": "🐞",
+          "title": "Typography questions and possible bugs (Issue #8177)",
+          "url": "https://github.com/processing/p5.js/issues/8177",
+          "description": "Discussion about bugs and questions related to this video."
+        },
+        {
+          "icon": "🐞",
+          "title": "Reference errors: textToContours() and textToModel() (Issue #8623)",
+          "url": "https://github.com/processing/p5.js/issues/8623",
+          "description": "Discussion about p5.js typography reference errors."
+        },
+        {
+          "icon": "📖",
+          "title": "loadFont() Reference",
+          "url": "https://beta.p5js.org/reference/p5/loadFont/",
+          "description": "Documentation for loading fonts in p5.js 2.0"
+        },
+        {
+          "icon": "📖",
+          "title": "textWeight() Reference",
+          "url": "https://beta.p5js.org/reference/p5/textWeight",
+          "description": "Documentation for the textWeight() function"
+        },
+        {
+          "icon": "📖",
+          "title": "textContours() Reference",
+          "url": "https://beta.p5js.org/reference/p5/textContours",
+          "description": "Documentation for the textContours() function"
+        },
+        {
+          "icon": "📖",
+          "title": "textModel() Reference",
+          "url": "https://beta.p5js.org/reference/p5/textModel",
+          "description": "Documentation for the textModel() function"
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🎥",
+          "title": "p5.js 2.0 with Kit Kuksenok",
+          "url": "/tracks/livestreams/livestreams/p5js-2.0",
+          "description": "Livestream featuring Kit Kuksenok demonstrating p5.js 2.0 typography features"
+        },
+        {
+          "icon": "🚂",
+          "title": "p5.js 2.0: Async and Await",
+          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
+          "description": "Learn about async/await in p5.js 2.0"
+        },
+        {
+          "icon": "🚂",
+          "title": "p5.js 2.0: Loading Data",
+          "url": "/tracks/p5js-2.0/p5js-2.0/loading-data",
+          "description": "Loading data and assets in p5.js 2.0"
+        },
+        {
+          "icon": "🚂",
+          "title": "Translate, Rotate, Push/Pop",
+          "url": "/tracks/transformations-in-p5/transformations/translate-rotate-push-pop",
+          "description": "Learn about transformations in p5.js"
+        },
+        {
+          "icon": "🎯",
+          "title": "Coding Challenge #59: Steering Behaviors",
+          "url": "/challenges/59-steering-behaviors",
+          "description": "Original steering behaviors challenge, updated for p5.js 2.0 in this video"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
