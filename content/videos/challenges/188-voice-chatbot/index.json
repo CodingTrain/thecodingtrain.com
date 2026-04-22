@@ -70,15 +70,45 @@
         },
         {
           "icon": "📓",
-          "title": "Open Meural Network Exchange",
+          "title": "Open Neural Network Exchange",
           "url": "https://onnx.ai",
           "description": "ONNX facilitates greater interoperability in the AI tools community."
         },
         {
-          "icon": "",
+          "icon": "📓",
           "title": "Onnx-community Whisper-tiny.en model",
           "url": "https://huggingface.co/onnx-community/whisper-tiny.en",
-          "description": ""
+          "description": "Model card for Whisper-tiny.en."
+        },
+        {
+          "icon": "📓",
+          "title": "Xenova",
+          "url": "https://github.com/xenova",
+          "description": "Github repo for Joshua Lochner, the creator of transformers.js."
+        },
+        {
+          "icon": "📓",
+          "title": "Transformers.js",
+          "url": "https://huggingface.co/docs/transformers.js/installation",
+          "description": "Installation page for Transformers.js."
+        },
+        {
+          "icon": "📓",
+          "title": "Announcing the new p5.sound.js library!",
+          "url": "https://medium.com/processing-foundation/announcing-the-new-p5-sound-js-library-42efc154bed0",
+          "description": "Article discussing the latest version of p5.sound.js."
+        },
+        {
+          "icon": "📓",
+          "title": "getUserMedia() documentation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia",
+          "description": "Documentation about getting the sound from the mic."
+        },
+        {
+          "icon": "📓",
+          "title": "MediaRecorder() documentation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder",
+          "description": "Documentation about the MediaRecorder object."
         },
         {
           "icon": "📓",
@@ -98,31 +128,23 @@
           "url": "https://www.rivescript.com",
           "description": "RiveScript is a simple scripting language for chatbots."
         },
-
         {
-          "icon": "",
+          "icon": "📓",
           "title": "SmolLM3",
           "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
           "description": "Model card for SmolLM3"
         },
-
         {
-          "icon": "",
-          "title": "Xenova",
-          "url": "https://github.com/xenova",
-          "description": "Github repo for Joshua Lochner, the creator of transformers.js."
-        },
-        {
-          "icon": "",
-          "title": "Transformers.js",
-          "url": "https://huggingface.co/docs/transformers.js/index",
-          "description": ""
-        },
-        {
-          "icon": "",
+          "icon": "📓",
           "title": "Running models on WebGPU",
           "url": "https://huggingface.co/docs/transformers.js/guides/webgpu",
-          "description": ""
+          "description": "Documentation about running models on the webGPU."
+        },
+        {
+          "icon": "📓",
+          "title": "Using quantized models (dtypes)",
+          "url": "https://huggingface.co/docs/transformers.js/v3.8.1/guides/dtypes",
+          "description": "Documentation about available quantization options."
         }
       ]
     },
