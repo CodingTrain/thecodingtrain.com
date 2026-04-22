@@ -1,0 +1,112 @@
+{
+  "title": "Voice Chatbot",
+  "description": "In this coding challenge, ...",
+  "videoNumber": "188",
+  "videoId": "",
+  "date": "2026-04-20",
+  "nebulaSlug": "codingtrain-coding-challenge-188-voice-chatbot",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [
+    "chatbot",
+    "Rivescript",
+    "LLMS",
+    "Agents"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["", ""],
+  "timestamps": [
+  
+  ],
+  "codeExamples": [
+    {
+      "title": "Therapy Bot",
+      "description": "Basic chatbot",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/37LFEPUVV"
+      }
+    },
+    {
+      "title": "Number Guessing Bot",
+      "image": "number_bot.jpg",
+      "description": "Voice bot that listens for a number and gives feedback.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/AJw7zMN9q"
+      }
+    },
+    {
+      "title": "LLM Chatbot",
+      "description": "This chatbot has been prompted to only reply with random numbers.",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/RHhT9I4Nm"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📓",
+          "title": "Rivescript",
+          "url": "https://www.rivescript.com",
+          "description": "RiveScript is a simple scripting language for chatbots."
+        },
+        {
+          "icon": "",
+          "title": "Onnx-community Whisper-tiny.en model",
+          "url": "https://huggingface.co/onnx-community/whisper-tiny.en",
+          "description": ""
+        },
+        {
+          "icon": "",
+          "title": "Xenova",
+          "url": "https://huggingface.co/Xenova",
+          "description": ""
+        },
+         {
+           "icon": "",
+           "title": "Transformers.js",
+           "url": "https://huggingface.co/docs/transformers.js/index",
+           "description": ""
+         },
+          {
+            "icon": "",
+            "title": "Running models on WebGPU",
+            "url": "https://huggingface.co/docs/transformers.js/guides/webgpu",
+            "description": ""
+          }
+       
+      ]
+    },
+
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Voice chatbot with p5speech",
+          "url": "/challenges/80-voice-chatbot-with-p5speech",
+          "description": "This challenge is a continuation of the number guessing chatbot. In this version, I add the p5.Speech library for a voice interface."
+        }
+       
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Full Live Stream",
+          "url": "",
+          "description": "Complete unedited live stream showing the development process with all mistakes and problem-solving."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
