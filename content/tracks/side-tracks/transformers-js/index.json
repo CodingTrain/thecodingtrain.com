@@ -1,0 +1,5 @@
+{
+  "title": "Transformers.js",
+  "description": "A series exploring machine learning in JavaScript using Transformers.js! Learn how to run models hosted on Hugging Face directly in the browser with p5.js.",
+  "videos": ["transformers-js/introduction"]
+}
