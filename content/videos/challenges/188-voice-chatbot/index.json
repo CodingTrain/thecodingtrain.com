@@ -16,7 +16,7 @@
     "AI"
   ],
   "canContribute": true,
-  "relatedChallenges": ["42-markov-chain-name-generator", "c43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
+  "relatedChallenges": ["42-markov-chain-name-generator", "43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
   "timestamps": [
   
   ],
@@ -161,7 +161,7 @@
          {
            "icon": "🚂",
            "title": "What is Transformers.js",
-           "url": "https://www.youtube.com/watch?v=KR61bXsPlLU",
+           "url": "/tracks/transformers-js/transformers-js/introduction",
            "description": "In this video, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples."
          }
        
