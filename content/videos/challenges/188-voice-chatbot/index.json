@@ -10,10 +10,13 @@
     "chatbot",
     "Rivescript",
     "LLMS",
-    "Agents"
+    "Agents",
+    "AI",
+    "text-to-speech",
+    "speech-to-text"
   ],
   "canContribute": true,
-  "relatedChallenges": ["", ""],
+  "relatedChallenges": ["42-markov-chain-name-generator", "c43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
   "timestamps": [
   
   ],
@@ -49,9 +52,27 @@
       "links": [
         {
           "icon": "📓",
-          "title": "Rivescript",
-          "url": "https://www.rivescript.com",
-          "description": "RiveScript is a simple scripting language for chatbots."
+          "title": "p5.2 Reference",
+          "url": "https://beta.p5js.org",
+          "description": "Reference page for the beta version of p5.2."
+        },
+        {
+          "icon": "📓",
+          "title": "Introducing Whisper",
+          "url": "https://cdn.openai.com/papers/whisper.pdf",
+          "description": "Paper introducing the Whisper model."
+        },
+        {
+          "icon": "📓",
+          "title": "Model Cards for Model Reporting",
+          "url": "https://arxiv.org/abs/1810.03993",
+          "description": "In this paper, the authors propose a framework for model cards to encourage transparency on model reporting."
+        },
+        {
+          "icon": "📓",
+          "title": "Open Meural Network Exchange",
+          "url": "https://onnx.ai",
+          "description": "ONNX facilitates greater interoperability in the AI tools community."
         },
         {
           "icon": "",
@@ -60,24 +81,49 @@
           "description": ""
         },
         {
+          "icon": "📓",
+          "title": "Kokoro Repo",
+          "url": "https://github.com/hexgrad/kokoro",
+          "description": "Github repo for the Kokoro speech-to-text model."
+        },
+        {
+          "icon": "📓",
+          "title": "KokoroTTS Model",
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+          "description": "Model card for the Kokoro-82M on Hugging Face."
+        },
+        {
+          "icon": "📓",
+          "title": "Rivescript",
+          "url": "https://www.rivescript.com",
+          "description": "RiveScript is a simple scripting language for chatbots."
+        },
+
+        {
+          "icon": "",
+          "title": "SmolLM3",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+          "description": "Model card for SmolLM3"
+        },
+
+        {
           "icon": "",
           "title": "Xenova",
-          "url": "https://huggingface.co/Xenova",
+          "url": "https://github.com/xenova",
+          "description": "Github repo for Joshua Lochner, the creator of transformers.js."
+        },
+        {
+          "icon": "",
+          "title": "Transformers.js",
+          "url": "https://huggingface.co/docs/transformers.js/index",
           "description": ""
         },
-         {
-           "icon": "",
-           "title": "Transformers.js",
-           "url": "https://huggingface.co/docs/transformers.js/index",
-           "description": ""
-         },
-          {
-            "icon": "",
-            "title": "Running models on WebGPU",
-            "url": "https://huggingface.co/docs/transformers.js/guides/webgpu",
-            "description": ""
-          }
-       
+        {
+          "icon": "",
+          "title": "Running models on WebGPU",
+          "url": "https://huggingface.co/docs/transformers.js/guides/webgpu",
+          "description": ""
+        }
       ]
     },
 
@@ -86,9 +132,27 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "Voice chatbot with p5speech",
-          "url": "/challenges/80-voice-chatbot-with-p5speech",
-          "description": "This challenge is a continuation of the number guessing chatbot. In this version, I add the p5.Speech library for a voice interface."
+          "title": "p5.js 2.0 async and await",
+          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
+          "description": "This video discusses loading data with async and await."
+        },
+         {
+           "icon": "🚂",
+           "title": "What is Transformers.js",
+           "url": "https://www.youtube.com/watch?v=KR61bXsPlLU",
+           "description": "In this video, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples."
+         }
+       
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "p5.js 2.0 async and await",
+          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
+          "description": "This video discusses loading data with async and await."
         }
        
       ]
@@ -99,7 +163,7 @@
         {
           "icon": "🔴",
           "title": "Full Live Stream",
-          "url": "",
+          "url": "https://www.youtube.com/watch?v=KRDJAHArqaw",
           "description": "Complete unedited live stream showing the development process with all mistakes and problem-solving."
         }
       ]
