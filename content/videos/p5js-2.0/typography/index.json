@@ -2,7 +2,7 @@
   "title": "p5.js 2.0: Typography and Fonts",
   "description": "Let's explore new typography features in p5.js 2.0! In this video, I cover how to work with variable fonts, convert text to 3D models with textModel(), extract contours with textContours(), and control the detail of your typography with sampleFactor and simplifyThreshold.",
   "videoId": "d0GgzjCFWq0",
-  "nebulaSlug": "codingtrain-p5js-20-typography",
+  "nebulaSlug": "codingtrain-what-the-font",
   "date": "2026-03-22",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["typography", "fonts", "text", "p5.js 2", "variable fonts", "3D text", "text contours"],
