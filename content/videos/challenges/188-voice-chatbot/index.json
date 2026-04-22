@@ -22,6 +22,30 @@
   ],
   "codeExamples": [
     {
+      "title": "Graph Waveform of Recording",
+      "description": "The sketch graphs the waveform from mic input.",
+      "image": "waveform.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cck49wDub"
+      }
+    },
+    {
+      "title": "Real Time Waveform",
+      "description": "The sketch graphs the waveform from mic input in real time.",
+      "image": "realtime.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/aaRIT-x6a"
+      }
+    },
+    {
+      "title": "Loading bars",
+      "description": "The sketch graphs loading bars for the models.",
+      "image": "loading_bars.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/E9Ob3x8eJ"
+      }
+    },
+    {
       "title": "Therapy Bot",
       "description": "Basic chatbot",
       "image": "img.jpg",
