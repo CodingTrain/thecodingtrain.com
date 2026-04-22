@@ -7,13 +7,13 @@
   "nebulaSlug": "codingtrain-coding-challenge-188-voice-chatbot",
   "languages": ["JavaScript", "p5.js"],
   "topics": [
+    "text-to-speech",
+    "speech-to-text",
     "chatbot",
     "Rivescript",
     "LLMS",
     "Agents",
-    "AI",
-    "text-to-speech",
-    "speech-to-text"
+    "AI"
   ],
   "canContribute": true,
   "relatedChallenges": ["42-markov-chain-name-generator", "c43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
