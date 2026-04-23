@@ -1,0 +1,125 @@
+{
+  "title": "Bayesian Text Classification",
+  "description": "In this coding challenge, I struggle my way through implementing a Naive Bayes text classifier in JavaScript using p5.js. I explain Bayes' theorem, demonstrate word frequency analysis, implement Laplacian smoothing, and build a working sentiment classifier that runs entirely in the browser.",
+  "videoNumber": "187",
+  "videoId": "g3-PXyF8U70",
+  "date": "2025-10-11",
+  "nebulaSlug": "codingtrain-coding-challenge-187-bayes-classifier",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": [
+    "Bayes theorem",
+    "text classification",
+    "naive Bayes",
+    "sentiment analysis",
+    "natural language processing",
+    "machine learning",
+    "word frequency",
+    "Laplacian smoothing"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["40-word-counter", "42-markov-chain-name-generator"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Hello!" },
+    { "time": "0:03:34", "title": "Explaining Bayes' Theorem" },
+    { "time": "0:12:07", "title": "What is Naive Bayes?" },
+    { "time": "0:13:49", "title": "Setting up the Classifier in p5.js" },
+    { "time": "0:15:41", "title": "Coding the train() function " },
+    { "time": "0:22:14", "title": "Coding the classify() Function" },
+    { "time": "0:24:45", "title": "Revising the train() function" },
+    { "time": "0:29:06", "title": "Implementing Probability Calculations" },
+    { "time": "0:33:24", "title": "Laplacian (Additive) Smoothing" },
+    { "time": "0:42:21", "title": "Ignoring the enominator (Normalization)" },
+    { "time": "0:45:36", "title": "Quick User Interface" },
+    { "time": "0:49:42", "title": "Final thoughts and next steps." }
+  ],
+  "codeExamples": [
+    {
+      "title": "Text Classifier - Initial Version",
+      "description": "Raw (but corrected) version in p5.js web editor.",
+      "image": "classify.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/RZ8a1z4DN"
+      }
+    },
+    {
+      "title": "Text Classifier - Refactored Version",
+      "image": "classify.png",
+      "description": "Refactored version with better structure and comments.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/P3ngrAANX",
+        "other": "https://github.com/Programming-from-A-to-Z/bayes-classifier-js"
+      }
+    },
+    {
+      "title": "Text Classifier - File Loading Version",
+      "description": "Version that loads training data from three novels (romance, horror, sci-fi).",
+      "image": "classifyfiles.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/WowR2Q9xg"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📓",
+          "title": "Naive Bayes Classifier",
+          "url": "https://en.wikipedia.org/wiki/Naive_Bayes_classifier",
+          "description": "Wikipedia article explaining naive Bayes classification algorithms."
+        },
+        {
+          "icon": "📓",
+          "title": "Laplacian Smoothing",
+          "url": "https://en.wikipedia.org/wiki/Additive_smoothing",
+          "description": "Wikipedia article about additive (Laplacian) smoothing technique."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Word Counting",
+          "url": "/challenges/40-word-counter",
+          "description": "Video series on text analysis and word counting fundamentals."
+        },
+        {
+          "icon": "🚂",
+          "title": "Regular Expressions",
+          "url": "https://youtu.be/7DG3kCDx53c?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w",
+          "description": "Video series covering regular expressions for text processing."
+        },
+        {
+          "icon": "📺",
+          "title": "Bayes theorem, the geometry of changing beliefs",
+          "url": "https://youtu.be/HZGCoVF3YvM",
+          "description": "Visual explanation of Bayes' theorem with geometric visualization from 3Blue1Brown."
+        },
+        {
+          "icon": "🚂",
+          "title": "p5.js 2.0: async and await",
+          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
+          "description": "Asynchronous programming in p5.js using async and await."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Full Live Stream",
+          "url": "https://youtube.com/live/TsBDm0P0qaA",
+          "description": "Complete unedited live stream showing the development process with all mistakes and problem-solving."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
