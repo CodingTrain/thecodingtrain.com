@@ -1,6 +1,6 @@
 {
   "title": "Voice Chatbot",
-  "description": "In this coding challenge, ...",
+  "description": "In this coding challenge, I build a conversational voice chatbot entirely in the browser with p5.js. I combine three pieces: speech-to-text with OpenAI's Whisper model, text-to-speech with Kokoro TTS, and a \"brain\" for the bot. I also explore the transformers.js pipeline API and the Web Audio API. For the bot's brain, I start with a simple ELIZA-style therapist, then incorporate a RiveScript number-guessing game, and finally a local LLM.",
   "videoNumber": "188",
   "videoId": "",
   "date": "2026-04-20",
@@ -9,7 +9,29 @@
   "topics": ["text-to-speech", "speech-to-text", "chatbot", "Rivescript", "LLMS", "Agents", "AI"],
   "canContribute": true,
   "relatedChallenges": ["42-markov-chain-name-generator", "43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
-  "timestamps": [],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Hello!" },
+    { "time": "0:00:35", "title": "Mapping out the pieces: speech-to-text, text-to-speech, and the brain" },
+    { "time": "0:01:07", "title": "Thoughts on AI and creative exploration" },
+    { "time": "0:02:44", "title": "Choosing the tools: Whisper and Kokoro TTS" },
+    { "time": "0:04:06", "title": "Building a push-to-talk UI in p5.js" },
+    { "time": "0:04:51", "title": "Finding models on Hugging Face with Transformers.js" },
+    { "time": "0:05:36", "title": "About the Whisper model and model cards" },
+    { "time": "0:06:55", "title": "Loading the Whisper pipeline in p5.js" },
+    { "time": "0:09:04", "title": "Accessing the microphone with getUserMedia" },
+    { "time": "0:10:44", "title": "Capturing audio with MediaRecorder" },
+    { "time": "0:12:05", "title": "Processing audio chunks into a waveform" },
+    { "time": "0:15:55", "title": "Speech-to-text working!" },
+    { "time": "0:16:36", "title": "Building the chatbot brain (ELIZA-style therapist)" },
+    { "time": "0:18:50", "title": "Setting up Kokoro TTS for text-to-speech" },
+    { "time": "0:21:07", "title": "Playing synthesized audio with AudioBufferSource" },
+    { "time": "0:23:41", "title": "Text-to-speech working!" },
+    { "time": "0:25:32", "title": "Handling playback events" },
+    { "time": "0:26:56", "title": "Swapping in a RiveScript number-guessing brain" },
+    { "time": "0:31:22", "title": "Adding a language model (SmolLM2) as the brain" },
+    { "time": "0:38:33", "title": "Final demo: the random number chatbot" },
+    { "time": "0:39:03", "title": "Outro" }
+  ],
   "codeExamples": [
     {
       "title": "Graph Waveform of Recording",
