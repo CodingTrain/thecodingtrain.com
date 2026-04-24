@@ -6,20 +6,10 @@
   "date": "2026-04-20",
   "nebulaSlug": "codingtrain-coding-challenge-188-voice-chatbot",
   "languages": ["JavaScript", "p5.js"],
-  "topics": [
-    "text-to-speech",
-    "speech-to-text",
-    "chatbot",
-    "Rivescript",
-    "LLMS",
-    "Agents",
-    "AI"
-  ],
+  "topics": ["text-to-speech", "speech-to-text", "chatbot", "Rivescript", "LLMS", "Agents", "AI"],
   "canContribute": true,
   "relatedChallenges": ["42-markov-chain-name-generator", "43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
-  "timestamps": [
-  
-  ],
+  "timestamps": [],
   "codeExamples": [
     {
       "title": "Graph Waveform of Recording",
@@ -148,6 +138,12 @@
         },
         {
           "icon": "📓",
+          "title": "ELIZA",
+          "url": "https://en.wikipedia.org/wiki/ELIZA",
+          "description": "Wikipedia article about the early natural language processing program ELIZA."
+        },
+        {
+          "icon": "📓",
           "title": "Rivescript",
           "url": "https://www.rivescript.com",
           "description": "RiveScript is a simple scripting language for chatbots."
@@ -182,13 +178,12 @@
           "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
           "description": "This video discusses loading data with async and await."
         },
-         {
-           "icon": "🚂",
-           "title": "What is Transformers.js",
-           "url": "/tracks/transformers-js/transformers-js/introduction",
-           "description": "In this video, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples."
-         }
-       
+        {
+          "icon": "🚂",
+          "title": "What is Transformers.js",
+          "url": "/tracks/transformers-js/transformers-js/introduction",
+          "description": "In this video, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples."
+        }
       ]
     },
     {
@@ -200,7 +195,6 @@
           "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
           "description": "This video discusses loading data with async and await."
         }
-       
       ]
     },
     {
