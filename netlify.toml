@@ -5,3 +5,8 @@
 [dev]
   framework = "gatsby"
   targetPort = 8000
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "strict-origin-when-cross-origin"
