@@ -2,11 +2,11 @@
   "title": "Voice Chatbot",
   "description": "In this coding challenge, I build a conversational voice chatbot entirely in the browser with p5.js. I combine three pieces: speech-to-text with OpenAI's Whisper model, text-to-speech with Kokoro TTS, and a \"brain\" for the bot. I also explore the transformers.js pipeline API and the Web Audio API. For the bot's brain, I start with a simple ELIZA-style therapist, then incorporate a RiveScript number-guessing game, and finally a local LLM.",
   "videoNumber": "188",
-  "videoId": "",
-  "date": "2026-04-20",
+  "videoId": "s2jm2Z22ibA",
+  "date": "2026-04-27",
   "nebulaSlug": "codingtrain-coding-challenge-188-voice-chatbot",
   "languages": ["JavaScript", "p5.js"],
-  "topics": ["text-to-speech", "speech-to-text", "chatbot", "Rivescript", "LLMS", "Agents", "AI"],
+  "topics": ["text-to-speech", "speech-to-text", "chatbot", "Rivescript", "LLMS", "Agents", "AI", "transformers.js", "Web Audio API"],
   "canContribute": true,
   "relatedChallenges": ["42-markov-chain-name-generator", "43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
   "timestamps": [
@@ -30,12 +30,44 @@
     { "time": "0:26:56", "title": "Swapping in a RiveScript number-guessing brain" },
     { "time": "0:31:22", "title": "Adding a language model (SmolLM2) as the brain" },
     { "time": "0:38:33", "title": "Final demo: the random number chatbot" },
-    { "time": "0:39:03", "title": "Outro" }
+    { "time": "0:39:03", "title": "Goodbye!" }
   ],
   "codeExamples": [
     {
-      "title": "Graph Waveform of Recording",
-      "description": "The sketch graphs the waveform from mic input.",
+      "title": "LLM Chatbot",
+      "description": "This final voice chatbot, prompted to only reply with random numbers.",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/RHhT9I4Nm"
+      }
+    },
+    {
+      "title": "Number Guessing Bot",
+      "image": "number_bot.jpg",
+      "description": "Voice chatbot that uses RiveScript to play a number-guessing game.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/AJw7zMN9q"
+      }
+    },
+    {
+      "title": "Therapy Bot",
+      "description": "Started voice chatbot with an ELIZA-style therapist brain.",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/37LFEPUVV"
+      }
+    },
+    {
+      "title": "Model Loading Bars",
+      "description": "The voice chatbot that displays loading bars for the models.",
+      "image": "loading_bars.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/E9Ob3x8eJ"
+      }
+    },
+    {
+      "title": "Waveform of Recording",
+      "description": "The sketch graphs a waveform from recorded mic input.",
       "image": "waveform.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/cck49wDub"
@@ -43,42 +75,10 @@
     },
     {
       "title": "Real Time Waveform",
-      "description": "The sketch graphs the waveform from mic input in real time.",
+      "description": "The sketch graphs a waveform from mic input in real time.",
       "image": "realtime.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/aaRIT-x6a"
-      }
-    },
-    {
-      "title": "Loading bars",
-      "description": "The sketch graphs loading bars for the models.",
-      "image": "loading_bars.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/E9Ob3x8eJ"
-      }
-    },
-    {
-      "title": "Therapy Bot",
-      "description": "Basic chatbot",
-      "image": "img.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/37LFEPUVV"
-      }
-    },
-    {
-      "title": "Number Guessing Bot",
-      "image": "number_bot.jpg",
-      "description": "Voice bot that listens for a number and gives feedback.",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/AJw7zMN9q"
-      }
-    },
-    {
-      "title": "LLM Chatbot",
-      "description": "This chatbot has been prompted to only reply with random numbers.",
-      "image": "img.jpg",
-      "urls": {
-        "p5": "https://editor.p5js.org/codingtrain/sketches/RHhT9I4Nm"
       }
     }
   ],
@@ -90,7 +90,7 @@
           "icon": "📓",
           "title": "p5.2 Reference",
           "url": "https://beta.p5js.org",
-          "description": "Reference page for the beta version of p5.2."
+          "description": "Reference page for the beta version of p5.js 2.0"
         },
         {
           "icon": "📓",
@@ -205,17 +205,6 @@
           "title": "What is Transformers.js",
           "url": "/tracks/transformers-js/transformers-js/introduction",
           "description": "In this video, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples."
-        }
-      ]
-    },
-    {
-      "title": "Videos",
-      "links": [
-        {
-          "icon": "🚂",
-          "title": "p5.js 2.0 async and await",
-          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
-          "description": "This video discusses loading data with async and await."
         }
       ]
     },
