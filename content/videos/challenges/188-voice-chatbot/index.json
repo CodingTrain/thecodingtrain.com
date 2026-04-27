@@ -1,0 +1,227 @@
+{
+  "title": "Voice Chatbot",
+  "description": "In this coding challenge, I build a conversational voice chatbot entirely in the browser with p5.js. I combine three pieces: speech-to-text with OpenAI's Whisper model, text-to-speech with Kokoro TTS, and a \"brain\" for the bot. I also explore the transformers.js pipeline API and the Web Audio API. For the bot's brain, I start with a simple ELIZA-style therapist, then incorporate a RiveScript number-guessing game, and finally a local LLM.",
+  "videoNumber": "188",
+  "videoId": "s2jm2Z22ibA",
+  "date": "2026-04-27",
+  "nebulaSlug": "codingtrain-coding-challenge-188-voice-chatbot",
+  "languages": ["JavaScript", "p5.js"],
+  "topics": ["text-to-speech", "speech-to-text", "chatbot", "Rivescript", "LLMS", "Agents", "AI", "transformers.js", "Web Audio API"],
+  "canContribute": true,
+  "relatedChallenges": ["42-markov-chain-name-generator", "43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Hello!" },
+    { "time": "0:00:35", "title": "Mapping out the pieces: speech-to-text, text-to-speech, and the brain" },
+    { "time": "0:01:07", "title": "Thoughts on AI and creative exploration" },
+    { "time": "0:02:44", "title": "Choosing the tools: Whisper and Kokoro TTS" },
+    { "time": "0:04:06", "title": "Building a push-to-talk UI in p5.js" },
+    { "time": "0:04:51", "title": "Finding models on Hugging Face with Transformers.js" },
+    { "time": "0:05:36", "title": "About the Whisper model and model cards" },
+    { "time": "0:06:55", "title": "Loading the Whisper pipeline in p5.js" },
+    { "time": "0:09:04", "title": "Accessing the microphone with getUserMedia" },
+    { "time": "0:10:44", "title": "Capturing audio with MediaRecorder" },
+    { "time": "0:12:05", "title": "Processing audio chunks into a waveform" },
+    { "time": "0:15:55", "title": "Speech-to-text working!" },
+    { "time": "0:16:36", "title": "Building the chatbot brain (ELIZA-style therapist)" },
+    { "time": "0:18:50", "title": "Setting up Kokoro TTS for text-to-speech" },
+    { "time": "0:21:07", "title": "Playing synthesized audio with AudioBufferSource" },
+    { "time": "0:23:41", "title": "Text-to-speech working!" },
+    { "time": "0:25:32", "title": "Handling playback events" },
+    { "time": "0:26:56", "title": "Swapping in a RiveScript number-guessing brain" },
+    { "time": "0:31:22", "title": "Adding a language model (SmolLM2) as the brain" },
+    { "time": "0:38:33", "title": "Final demo: the random number chatbot" },
+    { "time": "0:39:03", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "LLM Chatbot",
+      "description": "This final voice chatbot, prompted to only reply with random numbers.",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/RHhT9I4Nm"
+      }
+    },
+    {
+      "title": "Number Guessing Bot",
+      "image": "number_bot.jpg",
+      "description": "Voice chatbot that uses RiveScript to play a number-guessing game.",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/AJw7zMN9q"
+      }
+    },
+    {
+      "title": "Therapy Bot",
+      "description": "Started voice chatbot with an ELIZA-style therapist brain.",
+      "image": "img.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/37LFEPUVV"
+      }
+    },
+    {
+      "title": "Model Loading Bars",
+      "description": "The voice chatbot that displays loading bars for the models.",
+      "image": "loading_bars.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/E9Ob3x8eJ"
+      }
+    },
+    {
+      "title": "Waveform of Recording",
+      "description": "The sketch graphs a waveform from recorded mic input.",
+      "image": "waveform.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/cck49wDub"
+      }
+    },
+    {
+      "title": "Real Time Waveform",
+      "description": "The sketch graphs a waveform from mic input in real time.",
+      "image": "realtime.jpg",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/aaRIT-x6a"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📓",
+          "title": "p5.2 Reference",
+          "url": "https://beta.p5js.org",
+          "description": "Reference page for the beta version of p5.js 2.0"
+        },
+        {
+          "icon": "📓",
+          "title": "Introducing Whisper",
+          "url": "https://cdn.openai.com/papers/whisper.pdf",
+          "description": "Paper introducing the Whisper model."
+        },
+        {
+          "icon": "📓",
+          "title": "Model Cards for Model Reporting",
+          "url": "https://arxiv.org/abs/1810.03993",
+          "description": "In this paper, the authors propose a framework for model cards to encourage transparency on model reporting."
+        },
+        {
+          "icon": "📓",
+          "title": "Open Neural Network Exchange",
+          "url": "https://onnx.ai",
+          "description": "ONNX facilitates greater interoperability in the AI tools community."
+        },
+        {
+          "icon": "📓",
+          "title": "Onnx-community Whisper-tiny.en model",
+          "url": "https://huggingface.co/onnx-community/whisper-tiny.en",
+          "description": "Model card for Whisper-tiny.en."
+        },
+        {
+          "icon": "📓",
+          "title": "Xenova",
+          "url": "https://github.com/xenova",
+          "description": "Github repo for Joshua Lochner, the creator of transformers.js."
+        },
+        {
+          "icon": "📓",
+          "title": "Transformers.js",
+          "url": "https://huggingface.co/docs/transformers.js/installation",
+          "description": "Installation page for Transformers.js."
+        },
+        {
+          "icon": "📓",
+          "title": "Announcing the new p5.sound.js library!",
+          "url": "https://medium.com/processing-foundation/announcing-the-new-p5-sound-js-library-42efc154bed0",
+          "description": "Article discussing the latest version of p5.sound.js."
+        },
+        {
+          "icon": "📓",
+          "title": "getUserMedia() documentation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia",
+          "description": "Documentation about getting the sound from the mic."
+        },
+        {
+          "icon": "📓",
+          "title": "MediaRecorder() documentation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder",
+          "description": "Documentation about the MediaRecorder object."
+        },
+        {
+          "icon": "📓",
+          "title": "Kokoro Repo",
+          "url": "https://github.com/hexgrad/kokoro",
+          "description": "Github repo for the Kokoro speech-to-text model."
+        },
+        {
+          "icon": "📓",
+          "title": "KokoroTTS Model",
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+          "description": "Model card for the Kokoro-82M on Hugging Face."
+        },
+        {
+          "icon": "📓",
+          "title": "ELIZA",
+          "url": "https://en.wikipedia.org/wiki/ELIZA",
+          "description": "Wikipedia article about the early natural language processing program ELIZA."
+        },
+        {
+          "icon": "📓",
+          "title": "Rivescript",
+          "url": "https://www.rivescript.com",
+          "description": "RiveScript is a simple scripting language for chatbots."
+        },
+        {
+          "icon": "📓",
+          "title": "SmolLM3",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+          "description": "Model card for SmolLM3"
+        },
+        {
+          "icon": "📓",
+          "title": "Running models on WebGPU",
+          "url": "https://huggingface.co/docs/transformers.js/guides/webgpu",
+          "description": "Documentation about running models on the webGPU."
+        },
+        {
+          "icon": "📓",
+          "title": "Using quantized models (dtypes)",
+          "url": "https://huggingface.co/docs/transformers.js/v3.8.1/guides/dtypes",
+          "description": "Documentation about available quantization options."
+        }
+      ]
+    },
+
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "p5.js 2.0 async and await",
+          "url": "/tracks/p5js-2.0/p5js-2.0/async-await",
+          "description": "This video discusses loading data with async and await."
+        },
+        {
+          "icon": "🚂",
+          "title": "What is Transformers.js",
+          "url": "/tracks/transformers-js/transformers-js/introduction",
+          "description": "In this video, I cover what Transformers.js is, how to load it into a p5.js sketch, explain the pipeline API, and demonstrate sentiment analysis and language detection examples."
+        }
+      ]
+    },
+    {
+      "title": "Live Stream Archives",
+      "links": [
+        {
+          "icon": "🔴",
+          "title": "Full Live Stream",
+          "url": "https://www.youtube.com/watch?v=KRDJAHArqaw",
+          "description": "Complete unedited live stream showing the development process with all mistakes and problem-solving."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
