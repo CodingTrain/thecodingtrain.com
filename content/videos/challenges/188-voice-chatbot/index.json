@@ -5,7 +5,7 @@
   "videoId": "s2jm2Z22ibA",
   "date": "2026-04-27",
   "nebulaSlug": "codingtrain-coding-challenge-188-voice-chatbot",
-  "languages": ["JavaScript", "p5.js"],
+  "languages": ["JavaScript", "p5.js", "transformers.js"],
   "topics": ["text-to-speech", "speech-to-text", "chatbot", "Rivescript", "LLMS", "Agents", "AI", "transformers.js", "Web Audio API"],
   "canContribute": true,
   "relatedChallenges": ["42-markov-chain-name-generator", "43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
