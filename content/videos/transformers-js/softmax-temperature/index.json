@@ -26,7 +26,7 @@
   "canContribute": true,
   "relatedChallenges": ["42-markov-chain-name-generator", "188-voice-chatbot"],
   "timestamps": [
-    { "time": "0:00:00", "title": "Introduction" },
+    { "time": "0:00:00", "title": "Hello!" },
     { "time": "0:02:50", "title": "Markov chains as language models" },
     { "time": "0:07:48", "title": "From logits to probabilities" },
     { "time": "0:10:47", "title": "The softmax formula" },
@@ -36,7 +36,7 @@
     { "time": "0:23:02", "title": "Applying softmax and temperature to the Markov chain" },
     { "time": "0:28:01", "title": "Temperature with a Transformers.js language model" },
     { "time": "0:31:55", "title": "Top-K and Top-P sampling" },
-    { "time": "0:33:38", "title": "Wrap up" }
+    { "time": "0:33:38", "title": "Goodbye!" }
   ],
   "codeExamples": [
     {
@@ -96,12 +96,6 @@
         },
         {
           "icon": "📓",
-          "title": "Teachable Machine",
-          "url": "https://teachablemachine.withgoogle.com/",
-          "description": "Google's Teachable Machine for training image, sound, and pose models."
-        },
-        {
-          "icon": "📓",
           "title": "Euler's number on Wikipedia",
           "url": "https://en.wikipedia.org/wiki/E_(mathematical_constant)",
           "description": "Wikipedia article on Euler's number (e ≈ 2.718)."
@@ -126,9 +120,9 @@
         },
         {
           "icon": "📕",
-          "title": "Nature of Code",
-          "url": "https://natureofcode.com/",
-          "description": "Book covering randomness, weighted selection, and evolutionary computing."
+          "title": "Nature of Code: Genetic Algorithms",
+          "url": "https://natureofcode.com/genetic-algorithms/",
+          "description": "Chapter of book that covers randomness, weighted selection, and evolutionary computing."
         }
       ]
     },
@@ -139,7 +133,7 @@
           "icon": "🚂",
           "title": "Introduction to Transformers.js",
           "url": "/tracks/transformers-js/transformers-js/introduction",
-          "description": "First video in this series covering how to load and use Transformers.js."
+          "description": "First video in this series covering how to load and use transformers.js."
         },
         {
           "icon": "🚂",
@@ -155,9 +149,9 @@
         },
         {
           "icon": "🚂",
-          "title": "ml5.js Beginner's Guide",
-          "url": "/tracks/ml5js-beginners-guide",
-          "description": "Series on machine learning with ml5.js including image classification."
+          "title": "Teachable Machine: Image Classification",
+          "url": "/tracks/teachable-machine/teachable-machine/1-image-classification",
+          "description": "Train an image classifier with Teachable Machine and use it in p5.js with ml5.js."
         }
       ]
     }
