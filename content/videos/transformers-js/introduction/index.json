@@ -5,10 +5,10 @@
   "videoId": "KR61bXsPlLU",
   "nebulaSlug": "codingtrain-machine-learning-in-the-browser",
   "date": "2025-10-24",
-  "languages": ["JavaScript", "p5.js", "Transformers.js"],
+  "languages": ["JavaScript", "p5.js", "transformers.js"],
   "topics": [
     "machine learning",
-    "Transformers.js",
+    "transformers.js",
     "Hugging Face",
     "sentiment analysis",
     "language detection",

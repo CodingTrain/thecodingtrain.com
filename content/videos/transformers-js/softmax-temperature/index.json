@@ -1,0 +1,163 @@
+{
+  "title": "Softmax and Temperature",
+  "description": "In this video, I explain the softmax function and the concept of temperature in the context of language models and neural networks. I start by revisiting the Markov chain coding challenge, then break down how softmax converts raw neural network outputs (logits) into probabilities, and how temperature can be used to adjust those probabilities making outputs more random (higher temperature) or more deterministic (lower temperature). I also briefly cover top-K and top-P sampling. Everything is demonstrated with p5.js sketches and a transformers.js language model running in the browser.",
+  "videoNumber": "2",
+  "videoId": "t_QuHSwB0HY",
+  "nebulaSlug": "codingtrain-softmax-and-temperature-explained",
+  "date": "2026-08-01",
+  "languages": ["JavaScript", "p5.js", "transformers.js"],
+  "topics": [
+    "softmax",
+    "temperature",
+    "language models",
+    "machine learning",
+    "transformers.js",
+    "Markov chain",
+    "n-gram",
+    "logits",
+    "probability",
+    "weighted selection",
+    "sampling",
+    "top-K",
+    "top-P",
+    "neural networks",
+    "Euler's number"
+  ],
+  "canContribute": true,
+  "relatedChallenges": ["42-markov-chain-name-generator", "188-voice-chatbot"],
+  "timestamps": [
+    { "time": "0:00:00", "title": "Hello!" },
+    { "time": "0:02:50", "title": "Markov chains as language models" },
+    { "time": "0:07:48", "title": "From logits to probabilities" },
+    { "time": "0:10:47", "title": "The softmax formula" },
+    { "time": "0:14:18", "title": "Implementing softmax in p5.js" },
+    { "time": "0:15:59", "title": "Weighted selection (sampling)" },
+    { "time": "0:20:20", "title": "Temperature" },
+    { "time": "0:23:02", "title": "Applying softmax and temperature to the Markov chain" },
+    { "time": "0:28:01", "title": "Temperature with a Transformers.js language model" },
+    { "time": "0:31:55", "title": "Top-K and Top-P sampling" },
+    { "time": "0:33:38", "title": "Goodbye!" }
+  ],
+  "codeExamples": [
+    {
+      "title": "Softmax and Temperature Visualization",
+      "description": "Interactive visualization of softmax probabilities with a temperature slider.",
+      "image": "softmax-temp-viz.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/Fgo4KHbge"
+      }
+    },
+    {
+      "title": "Markov Chain with Temperature",
+      "description": "Updated Markov chain name generator using weighted selection and temperature.",
+      "image": "markov.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/SXqlv6-zI"
+      }
+    },
+    {
+      "title": "Markov Chain with Softmax and Temperature",
+      "description": "Demonstrating Markov chain name generator with softmax.",
+      "image": "markov.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/WNvGNuJHD"
+      }
+    },
+    {
+      "title": "LLM with Temperature",
+      "description": "Language model text generation with adjustable temperature using Transformers.js.",
+      "image": "llm.png",
+      "urls": {
+        "p5": "https://editor.p5js.org/codingtrain/sketches/36caiecXD"
+      }
+    }
+  ],
+  "groupLinks": [
+    {
+      "title": "References",
+      "links": [
+        {
+          "icon": "📓",
+          "title": "Softmax function on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Softmax_function",
+          "description": "Wikipedia article on the softmax function."
+        },
+        {
+          "icon": "📓",
+          "title": "Markov Chains explained visually",
+          "url": "https://setosa.io/ev/markov-chains/",
+          "description": "Interactive visual explanation of Markov chains by Victor Powell."
+        },
+        {
+          "icon": "📓",
+          "title": "Web Trigrams by Chris Harrison",
+          "url": "https://www.chrisharrison.net/index.php/Visualizations/WebTrigrams",
+          "description": "Visualization of Google's tri-gram data showing word frequency relationships."
+        },
+        {
+          "icon": "📓",
+          "title": "Euler's number on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/E_(mathematical_constant)",
+          "description": "Wikipedia article on Euler's number (e ≈ 2.718)."
+        },
+        {
+          "icon": "📓",
+          "title": "p5.js exp() reference",
+          "url": "https://p5js.org/reference/p5/exp/",
+          "description": "p5.js reference for the exp() function (Euler's number raised to a power)."
+        },
+        {
+          "icon": "💻",
+          "title": "Transformers.js Documentation",
+          "url": "https://huggingface.co/docs/transformers.js",
+          "description": "Official documentation for the Transformers.js library."
+        },
+        {
+          "icon": "🤗",
+          "title": "SmolLM2 1.7B on Hugging Face",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B",
+          "description": "The language model used in the demo."
+        },
+        {
+          "icon": "📕",
+          "title": "Nature of Code: Genetic Algorithms",
+          "url": "https://natureofcode.com/genetic-algorithms/",
+          "description": "Chapter of book that covers randomness, weighted selection, and evolutionary computing."
+        }
+      ]
+    },
+    {
+      "title": "Videos",
+      "links": [
+        {
+          "icon": "🚂",
+          "title": "Introduction to Transformers.js",
+          "url": "/tracks/transformers-js/transformers-js/introduction",
+          "description": "First video in this series covering how to load and use transformers.js."
+        },
+        {
+          "icon": "🚂",
+          "title": "Coding Challenge #42: Markov Chain Name Generator",
+          "url": "/challenges/42-markov-chain-name-generator",
+          "description": "The original Markov chain coding challenge revisited in this video."
+        },
+        {
+          "icon": "🚂",
+          "title": "Weighted Selection",
+          "url": "/tracks/the-nature-of-code-2/noc/9-genetic-algorithms/8-improved-pool-selection",
+          "description": "Video explaining the weighted selection algorithm used for sampling."
+        },
+        {
+          "icon": "🚂",
+          "title": "Teachable Machine: Image Classification",
+          "url": "/tracks/teachable-machine/teachable-machine/1-image-classification",
+          "description": "Train an image classifier with Teachable Machine and use it in p5.js with ml5.js."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    { "title": "Editing", "name": "Mathieu Blanchette" },
+    { "title": "Animations", "name": "Jason Heglund" }
+  ]
+}
