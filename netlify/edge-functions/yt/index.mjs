@@ -1,5 +1,5 @@
 // The JSON lookup gets generated at build time, do not manually edit. See `node-scripts/generate-youtube-redirects.js`
-import redirects from './redirects.json' assert { type: 'json' };
+import redirects from './redirects.json' with { type: 'json' };
 
 export default async (request) => {
   const url = new URL(request.url);
