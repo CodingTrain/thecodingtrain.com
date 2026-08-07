@@ -145,14 +145,6 @@ export default {
         path: './content/pages/404'
       }
     },
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rules: {
-          include: './src/images'
-        }
-      }
-    },
     'gatsby-plugin-netlify'
   ]
 };
