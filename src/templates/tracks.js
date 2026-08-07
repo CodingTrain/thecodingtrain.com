@@ -6,9 +6,9 @@ import ItemsPageFilters from '../components/ItemsPageFilters';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
 
-import AsteriskCharacter from '../images/characters/Asterik_5.mini.svg';
-import SquareCharacter2 from '../images/characters/Square_3.mini.svg';
-import SquareCharacter from '../images/characters/Square_4.mini.svg';
+import AsteriskCharacter from '../images/characters/Asterik_5.svg';
+import SquareCharacter2 from '../images/characters/Square_3.svg';
+import SquareCharacter from '../images/characters/Square_4.svg';
 
 // import * as css from './tracks.module.css';
 

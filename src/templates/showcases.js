@@ -6,10 +6,10 @@ import ItemsPageFilters from '../components/ItemsPageFilters';
 import Card from '../components/showcase/Card';
 import Spacer from '../components/Spacer';
 
-import DotCharacter from '../images/characters/ThisDot_7.mini.svg';
-import DotCharacter2 from '../images/characters/ThisDot_3.mini.svg';
-import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
-import DotCharacter3 from '../images/characters/ThisDot_6.mini.svg';
+import DotCharacter from '../images/characters/ThisDot_7.svg';
+import DotCharacter2 from '../images/characters/ThisDot_3.svg';
+import RainbowCharacter from '../images/characters/Rainbow_1.svg';
+import DotCharacter3 from '../images/characters/ThisDot_6.svg';
 
 import * as css from './showcases.module.css';
 

@@ -11,10 +11,10 @@ import PagePanel from '../components/PagePanel';
 import Spacer from '../components/Spacer';
 import GuideCard from '../components/GuideCard';
 
-import DotCharacter from '../images/characters/ThisDot_5.mini.svg';
-import DotCharacter2 from '../images/characters/ThisDot_6.mini.svg';
-import MouseCharacter from '../images/characters/WheelstheMouse_3.mini.svg';
-import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
+import DotCharacter from '../images/characters/ThisDot_5.svg';
+import DotCharacter2 from '../images/characters/ThisDot_6.svg';
+import MouseCharacter from '../images/characters/WheelstheMouse_3.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.svg';
 
 import * as css from '../styles/pages/guides.module.css';
 

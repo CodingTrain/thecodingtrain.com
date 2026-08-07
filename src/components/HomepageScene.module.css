@@ -1,8 +1,6 @@
 .header {
   position: relative;
   height: var(--baseline-9x);
-  background-color: var(--pink-tint);
-  background: var(--pink-tint);
   background: linear-gradient(
     0deg,
     transparent 0%,
@@ -44,6 +42,7 @@
   position: absolute;
   bottom: 13px;
   right: 0;
+  width: auto;
   height: var(--baseline-6x);
 }
 

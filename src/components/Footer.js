@@ -6,7 +6,8 @@ import cn from 'classnames';
 
 import * as css from './Footer.module.css';
 
-import Logo from '../images/logo.mini.svg';
+import Logo from '../images/logo.svg';
+import trainSvgUrl from '../images/train.svg?url';
 
 import {
   FaGithub,
@@ -41,7 +42,7 @@ const Footer = () => {
         </div>
         <div className={css.train}>
           <img
-            src="/images/train.mini.svg"
+            src={trainSvgUrl}
             width={371}
             height={150}
             alt="The Coding Train illustration"

@@ -9,14 +9,14 @@ import HomepageScene from '../components/HomepageScene';
 import Spacer from '../components/Spacer';
 import Image from '../components/Image';
 
-import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
-import BracketsCharacter from '../images/characters/SquareBrackets_2.mini.svg';
-import SquareCharacter from '../images/characters/Square_4.mini.svg';
-import SemiColonCharacter from '../images/characters/SemiColon_1.mini.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.svg';
+import BracketsCharacter from '../images/characters/SquareBrackets_2.svg';
+import SquareCharacter from '../images/characters/Square_4.svg';
+import SemiColonCharacter from '../images/characters/SemiColon_1.svg';
 
 import * as css from '../styles/pages/index.module.css';
 import Button from '../components/Button';
-import PlayButton from '../images/playbutton.mini.svg';
+import PlayButton from '../images/playbutton.svg';
 import { getReadableDate, useIsFirstRender } from '../hooks';
 import { shuffleCopy } from '../utils';
 

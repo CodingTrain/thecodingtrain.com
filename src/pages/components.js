@@ -23,7 +23,7 @@ import TrackVideoSection from '../components/tracks/VideoSection';
 import Tabs from '../components/Tabs';
 import Question from '../components/Question';
 import TrackCard from '../components/tracks/Card';
-import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.svg';
 
 import * as css from '../styles/pages/components.module.css';
 import {

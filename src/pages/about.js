@@ -11,11 +11,11 @@ import Image from '../components/Image';
 
 import { useLinkParsedText } from '../hooks';
 
-import PiRainbow from '../images/characters/PiRainbow.mini.svg';
-import TrainIcon from '../images/characters/TrainRainbow.mini.svg';
-import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
-import ChooChooCharacter from '../images/characters/ChooChooBot_1.mini.svg';
-import TriangleCharacter from '../images/characters/Triangle_3.mini.svg';
+import PiRainbow from '../images/characters/PiRainbow.svg';
+import TrainIcon from '../images/characters/TrainRainbow.svg';
+import RainbowCharacter from '../images/characters/Rainbow_1.svg';
+import ChooChooCharacter from '../images/characters/ChooChooBot_1.svg';
+import TriangleCharacter from '../images/characters/Triangle_3.svg';
 
 import {
   FaGithub,
