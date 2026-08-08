@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
@@ -28,15 +29,6 @@ const Track = ({ pageContext, data }) => {
     challengePlaceholderImage
   } = data;
 
-  const placeholderMainTrackImage =
-    data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
-  const placeholderSideTrackImage =
-    data.placeholderSideTrackImage.childImageSharp.gatsbyImageData;
-  const trackPlaceholder =
-    track.type === 'main'
-      ? placeholderMainTrackImage
-      : placeholderSideTrackImage;
-
   // cover image for the video, falls back to final placeholder image
   // (used as placeholder for contributions)
   const contributionsPlaceholder = coverImage
@@ -49,23 +41,10 @@ const Track = ({ pageContext, data }) => {
   const challengesPlaceholder =
     challengePlaceholderImage.childImageSharp.gatsbyImageData;
 
-  // cover image for the track, falls back to track placeholder image
-  const trackImage = track.cover
-    ? track.cover.file.childImageSharp.gatsbyImageData
-    : trackPlaceholder;
-
-  // cover image for the video, falls back to track cover image
-  const videoImage = coverImage
-    ? coverImage.childImageSharp.gatsbyImageData
-    : trackImage;
-
   const { trackPosition, isTrackPage } = pageContext;
 
   return (
-    <Layout
-      title={isTrackPage ? track.title : video.title}
-      description={isTrackPage ? track.description : video.description}
-      image={isTrackPage ? trackImage : videoImage}>
+    <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -358,5 +337,25 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data, pageContext }) => {
+  const { track, video, coverImage } = data;
+  const trackPlaceholder =
+    track.type === 'main'
+      ? data.placeholderMainTrackImage.childImageSharp.gatsbyImageData
+      : data.placeholderSideTrackImage.childImageSharp.gatsbyImageData;
+  const trackImage =
+    track.cover?.file.childImageSharp.gatsbyImageData ?? trackPlaceholder;
+  const videoImage = coverImage?.childImageSharp.gatsbyImageData ?? trackImage;
+  const { isTrackPage } = pageContext;
+
+  return (
+    <Seo
+      title={isTrackPage ? track.title : video.title}
+      description={isTrackPage ? track.description : video.description}
+      image={isTrackPage ? trackImage : videoImage}
+    />
+  );
+};
 
 export default Track;

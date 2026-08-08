@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 
 import ItemsPage from '../components/ItemsPage';
+import Seo from '../components/Seo';
 import ItemsPageFilters from '../components/ItemsPageFilters';
 import Card from '../components/showcase/Card';
 import Spacer from '../components/Spacer';
@@ -29,7 +30,6 @@ const ShowcasePage = ({ data, pageContext, location }) => {
     <ItemsPage
       title={pageData.title}
       description={pageData.description}
-      image={contributionsPlaceholder}
       itemsPath={itemsPath}
       variant={variant}
       panelText="Add yours!"
@@ -136,5 +136,12 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { title, description } = data.pageData.nodes[0];
+  const image = data.challengePlaceholderImage?.childImageSharp.gatsbyImageData;
+
+  return <Seo title={title} description={description} image={image} />;
+};
 
 export default ShowcasePage;

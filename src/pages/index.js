@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 import { Heading2 } from '../components/Heading';
 import ButtonPanel from '../components/ButtonPanel';
 import HomepageScene from '../components/HomepageScene';
@@ -639,5 +640,7 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = () => <Seo />;
 
 export default IndexPage;

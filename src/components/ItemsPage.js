@@ -19,7 +19,6 @@ import TriangleCharacter from '../images/characters/Triangle_6.svg';
 const ItemsPage = ({
   title,
   description,
-  image,
   itemsPath,
   variant,
   panelText = 'New to coding?',
@@ -40,7 +39,7 @@ const ItemsPage = ({
   nextPagePath
 }) => {
   return (
-    <Layout title={title} description={description} image={image}>
+    <Layout>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>

@@ -2,6 +2,7 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 import { Heading1 } from '../components/Heading';
 import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
@@ -16,7 +17,7 @@ import * as css from './404.module.css';
 const NotFoundPage = ({ data }) => {
   const { title, description, links } = data.pageData.nodes[0];
   return (
-    <Layout title={title} description={description}>
+    <Layout>
       <Spacer />
 
       <header className={css.header}>
@@ -70,5 +71,10 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { title, description } = data.pageData.nodes[0];
+  return <Seo title={title} description={description} />;
+};
 
 export default NotFoundPage;

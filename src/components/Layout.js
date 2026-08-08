@@ -1,8 +1,6 @@
 import React from 'react';
 import { Slice } from 'gatsby';
 
-import Head from './Head';
-
 // fixes chunks order warnings
 import '../styles/styles.module.css';
 
@@ -12,10 +10,9 @@ import '../styles/fonts.css';
 
 import * as css from './Layout.module.css';
 
-const Layout = ({ children, title, description, image }) => {
+const Layout = ({ children }) => {
   return (
     <div className={css.container}>
-      <Head title={title} description={description} image={image} />
       <div className={css.content}>
         <Slice alias="TopBar" />
         {children}

@@ -2,6 +2,7 @@ import { graphql } from 'gatsby';
 import React, { Fragment } from 'react';
 
 import ItemsPage from '../components/ItemsPage';
+import Seo from '../components/Seo';
 import ItemsPageFilters from '../components/ItemsPageFilters';
 import Spacer from '../components/Spacer';
 import TrackCard from '../components/tracks/Card';
@@ -35,7 +36,6 @@ const TracksPage = ({ data, pageContext, location }) => {
     <ItemsPage
       title={pageData.title}
       description={pageData.description}
-      image={placeholderMainTrackImage}
       itemsPath={itemsPath}
       variant={variant}
       Character={SquareCharacter}
@@ -161,5 +161,12 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { title, description } = data.pageData.nodes[0];
+  const image = data.placeholderMainTrackImage.childImageSharp.gatsbyImageData;
+
+  return <Seo title={title} description={description} image={image} />;
+};
 
 export default TracksPage;

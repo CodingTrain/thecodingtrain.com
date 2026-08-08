@@ -3,6 +3,8 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
+
 import CharacterSpacer from '../components/CharacterSpacer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import PassengerShowcasePanel from '../components/PassengerShowcasePanel';
@@ -28,10 +30,7 @@ const Challenge = ({ data }) => {
     ? coverImage.childImageSharp.gatsbyImageData
     : challengesPlaceholder;
   return (
-    <Layout
-      title={challenge.title}
-      description={challenge.description}
-      image={cover}>
+    <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -214,5 +213,20 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { challenge, coverImage, challengePlaceholderImage } = data;
+  const image =
+    coverImage?.childImageSharp.gatsbyImageData ??
+    challengePlaceholderImage?.childImageSharp.gatsbyImageData;
+
+  return (
+    <Seo
+      title={challenge.title}
+      description={challenge.description}
+      image={image}
+    />
+  );
+};
 
 export default Challenge;

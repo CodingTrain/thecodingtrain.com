@@ -2,6 +2,7 @@ import { graphql, Link } from 'gatsby';
 import React, { Fragment } from 'react';
 
 import Card from '../components/challenges/Card';
+import Seo from '../components/Seo';
 import Image from '../components/Image';
 import ItemsPage from '../components/ItemsPage';
 import ItemsPageFilters from '../components/ItemsPageFilters';
@@ -33,7 +34,6 @@ const ChallengesPage = ({ data, pageContext, location }) => {
     <ItemsPage
       title={pageData.title}
       description={pageData.description}
-      image={challengesPlaceholder}
       itemsPath={itemsPath}
       variant={variant}
       Character={BracketsCharacter}
@@ -219,5 +219,12 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { title, description } = data.pageData.nodes[0];
+  const image = data.challengePlaceholderImage?.childImageSharp.gatsbyImageData;
+
+  return <Seo title={title} description={description} image={image} />;
+};
 
 export default ChallengesPage;

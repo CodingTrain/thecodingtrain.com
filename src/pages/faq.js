@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
+
 import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1 } from '../components/Heading';
 import Spacer from '../components/Spacer';
@@ -21,7 +23,7 @@ const FAQPage = ({ data, location }) => {
   const currentHash = location.hash;
   const parsedDescription = useLinkParsedText(description);
   return (
-    <Layout title={title} description={description}>
+    <Layout>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant="pink">
@@ -109,5 +111,10 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { title, description } = data.page.nodes[0];
+  return <Seo title={title} description={description} />;
+};
 
 export default FAQPage;

@@ -1,8 +1,8 @@
-import React, { memo } from 'react';
-import { Helmet } from 'react-helmet';
+import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { getSrc } from 'gatsby-plugin-image';
 
-const Head = ({ title, description, image }) => {
+const Seo = ({ title, description, image }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -37,20 +37,17 @@ const Head = ({ title, description, image }) => {
       }
     }
   } = data;
-  const metaImage = (
-    image ?? data.coverImage.nodes[0].childImageSharp.gatsbyImageData
-  ).images.fallback.src;
+
+  const metaTitle = title ?? defaultTitle;
+  const metaDescription = description ?? defaultDescription;
+  const metaImage =
+    getSrc(image) ?? getSrc(data.coverImage.nodes[0].childImageSharp);
+
   return (
-    <Helmet
-      htmlAttributes={{
-        lang: 'en'
-      }}
-      defaultTitle={defaultTitle}
-      titleTemplate={`%s / ${defaultTitle}`}>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <title>{title}</title>
-      <meta name="description" content={description ?? defaultDescription} />
+    <>
+      <html lang="en" />
+      <title>{title ? `${title} / ${defaultTitle}` : defaultTitle}</title>
+      <meta name="description" content={metaDescription} />
 
       <link
         rel="apple-touch-icon"
@@ -79,20 +76,14 @@ const Head = ({ title, description, image }) => {
       {/* Open Graph */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={siteUrl} />
-      <meta property="og:title" content={title ?? defaultTitle} />
-      <meta
-        property="og:description"
-        content={description ?? defaultDescription}
-      />
+      <meta property="og:title" content={metaTitle} />
+      <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={`${siteUrl}${metaImage}`} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title ?? defaultTitle} />
-      <meta
-        name="twitter:description"
-        content={description ?? defaultDescription}
-      />
+      <meta name="twitter:title" content={metaTitle} />
+      <meta name="twitter:description" content={metaDescription} />
       <meta name="twitter:image" content={`${siteUrl}${metaImage}`} />
 
       {/* Theme toggle bootstrap */}
@@ -103,8 +94,8 @@ const Head = ({ title, description, image }) => {
           document.documentElement.classList.remove('dark');
         }
       `}</script>
-    </Helmet>
+    </>
   );
 };
 
-export default memo(Head);
+export default Seo;
