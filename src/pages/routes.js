@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
-import * as css from '../styles/pages/routes.module.css';
+import * as css from './routes.module.css';
 
 const IndexPage = ({ data }) => {
   return (

@@ -16,7 +16,7 @@ import DotCharacter2 from '../images/characters/ThisDot_6.svg';
 import MouseCharacter from '../images/characters/WheelstheMouse_3.svg';
 import TriangleCharacter from '../images/characters/Triangle_6.svg';
 
-import * as css from '../styles/pages/guides.module.css';
+import * as css from './guides.module.css';
 
 const GuidesPage = ({ data }) => {
   const { title, description, guidesOrder } = data.pageData.nodes[0];

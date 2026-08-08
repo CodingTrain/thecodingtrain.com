@@ -25,7 +25,7 @@ import {
   FaInstagram
 } from 'react-icons/fa6';
 
-import * as css from '../styles/pages/about.module.css';
+import * as css from './about.module.css';
 
 const socialIcons = {
   twitter: () => <FaTwitter className={css.socialIcon} size={30} />,

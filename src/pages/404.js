@@ -11,7 +11,7 @@ import SceneCharacter1 from '../images/characters/Equals_4.svg';
 import SceneCharacter2 from '../images/characters/Square_6.svg';
 import SceneCharacter3 from '../images/characters/ThisDot_8.svg';
 
-import * as css from '../styles/pages/404.module.css';
+import * as css from './404.module.css';
 
 const NotFoundPage = ({ data }) => {
   const { title, description, links } = data.pageData.nodes[0];

@@ -25,7 +25,7 @@ import Question from '../components/Question';
 import TrackCard from '../components/tracks/Card';
 import TriangleCharacter from '../images/characters/Triangle_6.svg';
 
-import * as css from '../styles/pages/components.module.css';
+import * as css from './components.module.css';
 import {
   cols,
   col,

@@ -14,7 +14,7 @@ import BracketsCharacter from '../images/characters/SquareBrackets_2.svg';
 import SquareCharacter from '../images/characters/Square_4.svg';
 import SemiColonCharacter from '../images/characters/SemiColon_1.svg';
 
-import * as css from '../styles/pages/index.module.css';
+import * as css from './index.module.css';
 import Button from '../components/Button';
 import PlayButton from '../images/playbutton.svg';
 import { getReadableDate, useIsFirstRender } from '../hooks';

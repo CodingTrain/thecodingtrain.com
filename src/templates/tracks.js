@@ -10,8 +10,6 @@ import AsteriskCharacter from '../images/characters/Asterik_5.svg';
 import SquareCharacter2 from '../images/characters/Square_3.svg';
 import SquareCharacter from '../images/characters/Square_4.svg';
 
-// import * as css from './tracks.module.css';
-
 const TracksPage = ({ data, pageContext, location }) => {
   const { language, topic } = pageContext;
   const pageData = data.pageData.nodes[0];

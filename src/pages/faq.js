@@ -14,7 +14,7 @@ import BracketsCharacter2 from '../images/characters/CurlyBrackets_2.svg';
 import BracketsCharacter3 from '../images/characters/CurlyBrackets_1.svg';
 import BracketsCharacter4 from '../images/characters/CurlyBrackets_4.svg';
 
-import * as css from '../styles/pages/faq.module.css';
+import * as css from './faq.module.css';
 
 const FAQPage = ({ data, location }) => {
   const { title, description, sections } = data.page.nodes[0];
