@@ -1,9 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 import * as css from './Button.module.css';
 
+/**
+ * @typedef {Object} ButtonProps
+ * @property {string} [className] Additional CSS classes.
+ * @property {string} [to] Internal Gatsby destination.
+ * @property {string} [href] External link destination.
+ * @property {'red' | 'orange' | 'purple' | 'cyan' | 'pink'} [variant] Color variant.
+ * @property {React.MouseEventHandler<HTMLButtonElement>} [onClick] Button click handler.
+ * @property {React.ReactNode} [children] Button contents.
+ * @property {boolean} [disabled] Whether the button is disabled.
+ * @property {boolean} [rainbow] Whether to show the rainbow treatment.
+ * @property {Object} [state] State passed to an internal Gatsby link.
+ */
+
+/**
+ * @param {ButtonProps & React.HTMLAttributes<HTMLElement>} props
+ * @returns {React.ReactElement}
+ */
 export const Button = ({
   className,
   to,
@@ -16,8 +32,7 @@ export const Button = ({
   state,
   ...otherProps
 }) => {
-  const classes = cn(css.root, className, {
-    [css[variant]]: css[variant],
+  const classes = cn(css.root, className, variant && css[variant], {
     [css.rainbow]: rainbow
   });
 
@@ -38,16 +53,6 @@ export const Button = ({
       {children}
     </button>
   );
-};
-
-Button.propTypes = {
-  variant: PropTypes.oneOf(['red', 'orange', 'purple', 'cyan', 'pink']),
-  className: PropTypes.string,
-  to: PropTypes.string,
-  href: PropTypes.string,
-  onClick: PropTypes.func,
-  disabled: PropTypes.bool,
-  rainbow: PropTypes.bool
 };
 
 export default Button;

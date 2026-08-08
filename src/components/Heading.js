@@ -1,9 +1,24 @@
 import React, { memo } from 'react';
-import PropTypes from 'prop-types';
 import cn from 'classnames';
 
 import * as css from './Heading.module.css';
 
+/**
+ * @typedef {Object} HeadingProps
+ * @property {React.ReactNode} [children] Heading contents.
+ * @property {'purple' | 'red' | 'orange' | 'cyan' | 'pink'} [variant] Color variant.
+ * @property {boolean} [borderBottom] Whether to show the bottom border.
+ * @property {boolean} [fill] Whether to use the filled style.
+ * @property {'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'} [tag] Heading element to render.
+ * @property {'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'} [as] Heading level to use for styling.
+ * @property {string} [className] Additional CSS classes.
+ * @property {string} [id] Heading ID.
+ */
+
+/**
+ * @param {HeadingProps} props
+ * @returns {React.ReactElement}
+ */
 const Heading = (props) => {
   const {
     children,
@@ -16,7 +31,8 @@ const Heading = (props) => {
     id
   } = props;
 
-  const Tag = `${tag}`;
+  const Tag = tag;
+
   return (
     <div
       className={cn(css.root, className, css[variant], [css[`${as || tag}`]], {
@@ -34,21 +50,3 @@ export const Heading3 = memo((props) => <Heading tag="h3" {...props} />);
 export const Heading4 = memo((props) => <Heading tag="h4" {...props} />);
 export const Heading5 = memo((props) => <Heading tag="h5" {...props} />);
 export const Heading6 = memo((props) => <Heading tag="h6" {...props} />);
-
-const TAGS = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
-
-const COLORS = ['purple', 'red', 'orange', 'cyan', 'pink'];
-const propTypes = {
-  tag: PropTypes.oneOf(TAGS),
-  as: PropTypes.oneOf(TAGS),
-  fill: PropTypes.bool,
-  variant: PropTypes.oneOf(COLORS)
-};
-Heading.propTypes = { ...propTypes, tag: PropTypes.oneOf(TAGS).isRequired };
-
-Heading1.propTypes = propTypes;
-Heading2.propTypes = propTypes;
-Heading3.propTypes = propTypes;
-Heading4.propTypes = propTypes;
-Heading5.propTypes = propTypes;
-Heading6.propTypes = propTypes;
