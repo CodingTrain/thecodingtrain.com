@@ -11,10 +11,10 @@ import Button from './Button';
 
 import * as css from './ItemsPage.module.css';
 
-import SemiColon from '../images/characters/SemiColon_3.mini.svg';
-import ZeroCharacter from '../images/characters/Zero_4.mini.svg';
-import ZeroCharacter2 from '../images/characters/Zero_3.mini.svg';
-import TriangleCharacter from '../images/characters/Triangle_6.mini.svg';
+import SemiColon from '../images/characters/SemiColon_3.svg';
+import ZeroCharacter from '../images/characters/Zero_4.svg';
+import ZeroCharacter2 from '../images/characters/Zero_3.svg';
+import TriangleCharacter from '../images/characters/Triangle_6.svg';
 
 const ItemsPage = ({
   title,

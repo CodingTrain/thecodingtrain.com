@@ -7,10 +7,10 @@ import ItemsPage from '../components/ItemsPage';
 import ItemsPageFilters from '../components/ItemsPageFilters';
 import Spacer from '../components/Spacer';
 
-import RainbowCharacter from '../images/characters/Rainbow_1.mini.svg';
-import BracketsCharacter2 from '../images/characters/SquareBrackets_2.mini.svg';
-import BracketsCharacter from '../images/characters/SquareBrackets_4.mini.svg';
-import PlayButton from '../images/playbutton.mini.svg';
+import RainbowCharacter from '../images/characters/Rainbow_1.svg';
+import BracketsCharacter2 from '../images/characters/SquareBrackets_2.svg';
+import BracketsCharacter from '../images/characters/SquareBrackets_4.svg';
+import PlayButton from '../images/playbutton.svg';
 
 import { getReadableDate } from '../hooks';
 

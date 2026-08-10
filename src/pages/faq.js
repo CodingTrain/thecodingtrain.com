@@ -9,10 +9,10 @@ import Question from '../components/Question';
 
 import { useLinkParsedText } from '../hooks';
 
-import BracketsCharacter1 from '../images/characters/CurlyBrackets_3.mini.svg';
-import BracketsCharacter2 from '../images/characters/CurlyBrackets_2.mini.svg';
-import BracketsCharacter3 from '../images/characters/CurlyBrackets_1.mini.svg';
-import BracketsCharacter4 from '../images/characters/CurlyBrackets_4.mini.svg';
+import BracketsCharacter1 from '../images/characters/CurlyBrackets_3.svg';
+import BracketsCharacter2 from '../images/characters/CurlyBrackets_2.svg';
+import BracketsCharacter3 from '../images/characters/CurlyBrackets_1.svg';
+import BracketsCharacter4 from '../images/characters/CurlyBrackets_4.svg';
 
 import * as css from '../styles/pages/faq.module.css';
 

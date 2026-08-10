@@ -4,12 +4,11 @@ import cn from 'classnames';
 import { Heading1 } from '../components/Heading';
 import Spacer from './Spacer';
 
-import Train from '../images/characters/homepage.mini.svg';
-import TrainTrack from '../images/tracks.mini.svg';
-import Sun from '../images/sun.mini.svg';
-import Cloud from '../images/cloud.mini.svg';
-
-import SemiColonCharacter from '../images/characters/SemiColon_hello.mini.svg';
+import trainSvgUrl from '../images/characters/homepage.svg?url'; // heavy asset, don't inline it
+import SemiColonCharacter from '../images/characters/SemiColon_hello.svg';
+import Cloud from '../images/cloud.svg';
+import Sun from '../images/sun.svg';
+import TrainTrack from '../images/tracks.svg';
 
 import * as css from './HomepageScene.module.css';
 
@@ -30,7 +29,7 @@ const HomepageScene = ({ title, description }) => {
           {title}
         </Heading1>
 
-        <Train className={css.train} />
+        <img className={css.train} src={trainSvgUrl} alt="" />
         <TrainTrack className={css.trainTrack} />
         <p className={css.paragraph}>{description}</p>
       </header>

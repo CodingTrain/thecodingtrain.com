@@ -14,10 +14,10 @@ import TrackChallengesPanel from '../components/ChallengesPanel';
 import * as css from './track-video.module.css';
 import { pattern } from '../styles/styles.module.css';
 
-import SquareCharacter from '../images/characters/Square_1.mini.svg';
-import DotCharacter from '../images/characters/ThisDot_2.mini.svg';
-import PiCharacter from '../images/characters/PiGuy_2.mini.svg';
-import Asterisk from '../images/characters/Asterik_2.mini.svg';
+import SquareCharacter from '../images/characters/Square_1.svg';
+import DotCharacter from '../images/characters/ThisDot_2.svg';
+import PiCharacter from '../images/characters/PiGuy_2.svg';
+import Asterisk from '../images/characters/Asterik_2.svg';
 
 const Track = ({ pageContext, data }) => {
   const {
@@ -42,8 +42,8 @@ const Track = ({ pageContext, data }) => {
   const contributionsPlaceholder = coverImage
     ? coverImage.childImageSharp.gatsbyImageData
     : videoPlaceHolderImage
-    ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
-    : null;
+      ? videoPlaceHolderImage.childImageSharp.gatsbyImageData
+      : null;
 
   // generic placeholder for challenge videos, collage of screenshots of challenge thumbnails
   const challengesPlaceholder =

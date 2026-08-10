@@ -6,10 +6,10 @@ import { Heading1 } from '../components/Heading';
 import ButtonPanel from '../components/ButtonPanel';
 import Spacer from '../components/Spacer';
 
-import SemiColonCharacter from '../images/characters/SemiColon_4.mini.svg';
-import SceneCharacter1 from '../images/characters/Equals_4.mini.svg';
-import SceneCharacter2 from '../images/characters/Square_6.mini.svg';
-import SceneCharacter3 from '../images/characters/ThisDot_8.mini.svg';
+import SemiColonCharacter from '../images/characters/SemiColon_4.svg';
+import SceneCharacter1 from '../images/characters/Equals_4.svg';
+import SceneCharacter2 from '../images/characters/Square_6.svg';
+import SceneCharacter3 from '../images/characters/ThisDot_8.svg';
 
 import * as css from '../styles/pages/404.module.css';
 

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import cn from 'classnames';
 
-import DefaultCharacter from '../images/characters/Triangle_4.mini.svg';
+import DefaultCharacter from '../images/characters/Triangle_4.svg';
 
 import * as css from './CharacterSpacer.module.css';
 
