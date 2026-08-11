@@ -64,6 +64,11 @@
     "slugify": "^1.6.9",
     "svgo": "^4.0.2"
   },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom",
+    "sharp": "$sharp"
+  },
   "allowScripts": {
     "sharp": true
   }
