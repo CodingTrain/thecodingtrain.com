@@ -28,16 +28,6 @@
   }
 }
 
-.tags.singleLine {
-  margin-top: 0;
-}
-
-@media (--reduced) {
-  .tags {
-    display: none;
-  }
-}
-
 .showButton {
   cursor: pointer;
   font-size: inherit;

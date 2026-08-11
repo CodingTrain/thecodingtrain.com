@@ -20,7 +20,7 @@ import * as css from './Button.module.css';
  * @param {ButtonProps & React.HTMLAttributes<HTMLElement>} props
  * @returns {React.ReactElement}
  */
-export const Button = ({
+const Button = ({
   className,
   to,
   href,

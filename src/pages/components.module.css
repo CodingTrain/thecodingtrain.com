@@ -4,12 +4,6 @@
   line-height: var(--baseline-box);
 }
 
-.pattern {
-  border-left: var(--border);
-  border-bottom: var(--border);
-  height: var(--baseline);
-}
-
 .spacing {
   padding: var(--spacing-normal);
 }

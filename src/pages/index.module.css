@@ -2,14 +2,6 @@
   margin: 0;
 }
 
-.routesLink {
-  margin: 0;
-  padding: 0 var(--box-padding);
-  line-height: var(--baseline-box);
-  border-bottom: var(--border);
-  border-left: var(--border);
-}
-
 .subheader {
   display: flex;
   justify-content: space-between;
@@ -19,10 +11,6 @@
 
 .subheading {
   flex-grow: 1;
-}
-
-.sep {
-  display: none;
 }
 
 .character {
@@ -431,13 +419,6 @@
   flex-grow: 1;
   & p {
     max-width: 100%;
-  }
-}
-
-@media (--large) {
-  .train {
-    height: var(--baseline-5x);
-    width: 600px;
   }
 }
 

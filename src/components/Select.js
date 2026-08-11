@@ -4,7 +4,7 @@ import cn from 'classnames';
 
 import * as css from './Select.module.css';
 
-export const Select = ({
+const Select = ({
   title,
   options,
   selected,

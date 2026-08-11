@@ -289,10 +289,6 @@
     height: var(--baseline-1of5);
   }
 
-  .subheader {
-    overflow: hidden;
-  }
-
   .paragraph {
     overflow: hidden;
   }

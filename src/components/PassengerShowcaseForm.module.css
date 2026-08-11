@@ -17,7 +17,7 @@
     font-size: var(--maru-small);
     line-height: 17px;
 
-    &.radio-label {
+    &.radioLabel {
       /* display: inline; */
       margin-right: var(--spacing-small);
       color: var(--text-color);

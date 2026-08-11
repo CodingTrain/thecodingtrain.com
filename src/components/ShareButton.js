@@ -5,7 +5,7 @@ import Button from './Button';
 
 import * as css from './ShareButton.module.css';
 
-export const ShareButton = ({ className, variant, wrapped, text }) => {
+const ShareButton = ({ className, variant, wrapped, text }) => {
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopy = async () => {

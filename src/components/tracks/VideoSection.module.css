@@ -53,12 +53,6 @@
   position: relative;
 }
 
-.spacer {
-  flex-basis: 15%;
-  border-left: var(--border);
-  border-bottom: var(--border-cyan);
-}
-
 /* Video section */
 
 .videoContainer {
@@ -79,14 +73,6 @@
 
 .videoWrapper {
   padding-bottom: var(--baseline-box-11x);
-}
-
-.youtube {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /* Timeline section */
@@ -173,10 +159,6 @@
 
   .timelineContainer {
     flex-basis: 40%;
-  }
-
-  .spacer {
-    display: none;
   }
 }
 
