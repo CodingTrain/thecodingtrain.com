@@ -89,7 +89,7 @@ const Challenge = ({ data }) => {
         </>
       )}
 
-      <div className={cn(pattern, css.pattern)} />
+      <div className={cn(pattern, css.challengePattern)} />
       <CharacterSpacer
         className={css.sep}
         size="x4"
