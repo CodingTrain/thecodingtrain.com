@@ -63,5 +63,8 @@
     "sharp": "^0.35.3",
     "slugify": "^1.6.9",
     "svgo": "^4.0.2"
+  },
+  "allowScripts": {
+    "sharp": true
   }
 }
