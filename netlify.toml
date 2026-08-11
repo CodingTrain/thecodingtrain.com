@@ -3,9 +3,6 @@
   # skip build when changes are isolated to README.md or .all-contributorsrc
   ignore = "git diff --quiet HEAD^ HEAD ':(exclude)README.md' ':(exclude).all-contributorsrc' "
 
-[build.environment]
-  NODE_OPTIONS = "--max-old-space-size=4096"
-
 [dev]
   framework = "gatsby"
   targetPort = 8000
