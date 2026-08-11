@@ -1,9 +1,5 @@
 import slugify from 'slugify';
 
-export const stringValueOrAll = (str) => {
-  return typeof str === 'string' && str !== '' ? str : 'all';
-};
-
 /**
   This function has to match the one in node-scripts/utils
   SSR broke when trying to share the same code.
@@ -11,16 +7,26 @@ export const stringValueOrAll = (str) => {
 export const toSlug = (path) =>
   slugify(path, { lower: true, trim: true }).replace('.', '-');
 
+const stringValueOrAll = (str) => {
+  return typeof str === 'string' && str !== '' ? str : 'all';
+};
+
 /**
   Makes a filtered path
 **/
 export const filteredPath = (resource, filters) => {
   let path = `/${resource}`;
 
+  if (
+    Object.values(filters).every((value) => stringValueOrAll(value) === 'all')
+  ) {
+    return path;
+  }
+
   const sortedKeys = Object.keys(filters).sort((a, b) => a.localeCompare(b));
-  for (const k of sortedKeys) {
-    const v = toSlug(stringValueOrAll(filters[k]));
-    path += `/${k}/${v}`;
+  for (const key of sortedKeys) {
+    const value = toSlug(stringValueOrAll(filters[key]));
+    path += `/${key}/${value}`;
   }
 
   return path;
