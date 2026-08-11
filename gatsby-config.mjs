@@ -143,7 +143,6 @@ export default {
         name: '404-page-data',
         path: './content/pages/404'
       }
-    },
-    'gatsby-plugin-netlify'
+    }
   ]
 };

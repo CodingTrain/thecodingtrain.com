@@ -31,7 +31,6 @@
     "gatsby-core-utils": "^4.16.0",
     "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-mdx": "^5.16.0",
-    "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-postcss": "^6.16.0",
     "gatsby-plugin-sharp": "^5.16.0",
     "gatsby-source-filesystem": "^5.16.0",
