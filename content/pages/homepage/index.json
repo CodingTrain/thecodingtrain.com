@@ -31,12 +31,12 @@
     "title": "Challenges",
     "description": "Watch Dan take on Coding Challenges in p5.js and Processing. The challenge topics include algorithmic art, machine learning, simulation, generative poetry, and more.",
     "featured": [
-      "c1-maurer-rose",
-      "171-wave-function-collapse",
+      "15-object-oriented-fractal-trees",
+      "29-smart-rockets-in-p5js",
       "188-voice-chatbot",
-      "116-lissajous-curve-table",
+      "61-fractal-spirograph",
       "108-barnsley-fern",
-      "31-flappy-bird"
+      "179-wolfram-ca"
     ],
     "challengesCta": {
       "text": "ready to explore? try a challenge!",
@@ -47,14 +47,14 @@
   "passengerShowcase": {
     "title": "Passenger showcase highlights",
     "featured": [
-      "noc/perlin/perlin-noise-2d/showcase/contribution-1772933208.json",
+      "ml5/hand-pose/showcase/contribution2.json",
+      "code/1-intro/3-shapes-drawing/showcase/contribution-1779979123.json",
+      "challenges/14-fractal-trees-recursive/showcase/contribution-18032026173652234.json",
+      "code/7-arrays/7-object-communication-2/showcase/contribution-1773375418.json",
+      "code/2-variables/1-mouseX-mouseY/showcase/contribution-1770377735.json",
+      "challenges/179-wolfram-ca/showcase/contribution-1771609871.json",
       "challenges/24-perlin-noise-flow-field/showcase/contribution-1771770542.json",
-      "code/1-intro/3-shapes-drawing/showcase/contribution-1767708774.json",
-      "challenges/c2-collatz-conjecture/showcase/contribution-1765757484.json",
-      "challenges/17-fractal-trees-space-colonization/showcase/contribution-1762460928.json",
-      "p5js-2.0/async-await/showcase/contribution-1761434263.json",
-      "code/7-arrays/4-mouse-interaction/showcase/contribution-1773358210.json",
-      "code/3-conditionals/4-boolean/showcase/contribution-1768741945.json"
+      "challenges/154-tic-tac-toe-minimax/showcase/contribution-1782435813.json"
     ],
     "showcaseCta": {
       "text": "Want to see more?",
