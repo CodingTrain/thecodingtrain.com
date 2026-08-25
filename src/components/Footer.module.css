@@ -95,21 +95,6 @@
   }
 }
 
-.bottom {
-  display: flex;
-  font-size: var(--maru-medium);
-  font-family: var(--maru-mono);
-  justify-content: space-between;
-  border-left: var(--border);
-  border-bottom: var(--border);
-
-  & span {
-    line-height: var(--baseline);
-    display: block;
-    font-weight: 600;
-  }
-}
-
 .socialLinks,
 .navBox {
   padding-top: var(--spacing-small);
@@ -173,10 +158,6 @@
 .copyright {
   border-left: var(--border);
   border-bottom: var(--border);
-}
-
-.image {
-  opacity: 0.75;
 }
 
 .copyright {

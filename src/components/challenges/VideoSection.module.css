@@ -80,14 +80,6 @@
   padding-bottom: var(--baseline-box-11x);
 }
 
-.youtube {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 /* Timeline section */
 
 .timelineContainer {
@@ -304,10 +296,6 @@
   .unCollapsed .arrow:before {
     transform: rotate(135deg);
     top: calc(50% - 3px);
-  }
-
-  .unCollapsed .progress {
-    display: none;
   }
 
   .unCollapsed .tabs,

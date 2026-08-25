@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 import { Heading2 } from '../components/Heading';
 import ButtonPanel from '../components/ButtonPanel';
 import HomepageScene from '../components/HomepageScene';
@@ -14,7 +15,7 @@ import BracketsCharacter from '../images/characters/SquareBrackets_2.svg';
 import SquareCharacter from '../images/characters/Square_4.svg';
 import SemiColonCharacter from '../images/characters/SemiColon_1.svg';
 
-import * as css from '../styles/pages/index.module.css';
+import * as css from './index.module.css';
 import Button from '../components/Button';
 import PlayButton from '../images/playbutton.svg';
 import { getReadableDate, useIsFirstRender } from '../hooks';
@@ -639,5 +640,7 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = () => <Seo />;
 
 export default IndexPage;

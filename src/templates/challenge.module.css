@@ -1,4 +1,4 @@
-.pattern {
+.challengePattern {
   border-left: var(--border);
   border-bottom: var(--border);
   height: var(--baseline);
@@ -30,7 +30,7 @@
     border-left: var(--border);
   }
 
-  .pattern {
+  .challengePattern {
     display: none;
   }
 

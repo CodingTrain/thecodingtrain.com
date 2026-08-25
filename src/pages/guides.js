@@ -5,6 +5,7 @@ import cn from 'classnames';
 import { getReadableDate } from '../hooks';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1 } from '../components/Heading';
 import PagePanel from '../components/PagePanel';
@@ -16,7 +17,7 @@ import DotCharacter2 from '../images/characters/ThisDot_6.svg';
 import MouseCharacter from '../images/characters/WheelstheMouse_3.svg';
 import TriangleCharacter from '../images/characters/Triangle_6.svg';
 
-import * as css from '../styles/pages/guides.module.css';
+import * as css from './guides.module.css';
 
 const GuidesPage = ({ data }) => {
   const { title, description, guidesOrder } = data.pageData.nodes[0];
@@ -37,10 +38,7 @@ const GuidesPage = ({ data }) => {
   const variant = 'purple';
 
   return (
-    <Layout
-      title={title}
-      description={description}
-      image={guidesPlaceholderImage}>
+    <Layout>
       <Spacer />
       <header className={css.header}>
         <Heading1 className={css.heading} variant={variant}>
@@ -162,5 +160,13 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { title, description } = data.pageData.nodes[0];
+  const image =
+    data.guidesPlaceholderImage.nodes[0]?.childImageSharp.gatsbyImageData;
+
+  return <Seo title={title} description={description} image={image} />;
+};
 
 export default GuidesPage;

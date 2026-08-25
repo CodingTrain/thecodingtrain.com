@@ -4,6 +4,7 @@ import { MDXProvider } from '@mdx-js/react';
 import { toSlug } from '../utils';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 import Breadcrumbs from '../components/Breadcrumbs';
 import {
   Heading1,
@@ -166,20 +167,12 @@ const useLocalImages = (images) => {
 };
 
 const Guide = ({ data, children }) => {
-  const { mdx, images, coverImage } = data;
+  const { mdx, images } = data;
 
   const localImages = useLocalImages(images.nodes);
 
-  // cover image for the guide, falls back to final placeholder image
-  const guideCover = coverImage
-    ? coverImage.childImageSharp.gatsbyImageData
-    : localImages['placeholder.png'];
-
   return (
-    <Layout
-      title={mdx.frontmatter.title}
-      description={mdx.frontmatter.description}
-      image={guideCover}>
+    <Layout>
       <Breadcrumbs
         className={css.breadcrumbs}
         breadcrumbs={[
@@ -259,5 +252,17 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const { title, description } = data.mdx.frontmatter;
+  const placeholderImage = data.images.nodes.find(
+    ({ file }) => file.relativePath === 'placeholder.png'
+  );
+  const image =
+    data.coverImage?.childImageSharp.gatsbyImageData ??
+    placeholderImage?.file.childImageSharp.gatsbyImageData;
+
+  return <Seo title={title} description={description} image={image} />;
+};
 
 export default Guide;

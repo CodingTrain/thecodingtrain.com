@@ -4,6 +4,7 @@ import { getImage } from 'gatsby-plugin-image';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 
 import Breadcrumbs from '../components/Breadcrumbs';
 import {
@@ -25,7 +26,7 @@ import Question from '../components/Question';
 import TrackCard from '../components/tracks/Card';
 import TriangleCharacter from '../images/characters/Triangle_6.svg';
 
-import * as css from '../styles/pages/components.module.css';
+import * as css from './components.module.css';
 import {
   cols,
   col,
@@ -386,5 +387,7 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = () => <Seo title="Debug Component Reference" />;
 
 export default ComponentsPage;

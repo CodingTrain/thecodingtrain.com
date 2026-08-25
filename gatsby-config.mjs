@@ -28,7 +28,6 @@ export default {
       }
     },
     'gatsby-plugin-image',
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -144,7 +143,6 @@ export default {
         name: '404-page-data',
         path: './content/pages/404'
       }
-    },
-    'gatsby-plugin-netlify'
+    }
   ]
 };

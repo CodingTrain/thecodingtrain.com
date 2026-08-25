@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 import CharacterSpacer from '../components/CharacterSpacer';
 import { Heading1, Heading2 } from '../components/Heading';
 import Spacer from '../components/Spacer';
@@ -25,7 +26,7 @@ import {
   FaInstagram
 } from 'react-icons/fa6';
 
-import * as css from '../styles/pages/about.module.css';
+import * as css from './about.module.css';
 
 const socialIcons = {
   twitter: () => <FaTwitter className={css.socialIcon} size={30} />,
@@ -98,7 +99,7 @@ const AboutPage = ({ data }) => {
   const secondaryCover = content.covers[1].file.childImageSharp.gatsbyImageData;
 
   return (
-    <Layout title="About" description={secondaryDescription} image={mainCover}>
+    <Layout>
       <Spacer />
 
       <header className={css.row}>
@@ -311,5 +312,18 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const content = data.content.nodes[0];
+  const image = content.covers[0].file.childImageSharp.gatsbyImageData;
+
+  return (
+    <Seo
+      title="About"
+      description={content.secondaryDescription}
+      image={image}
+    />
+  );
+};
 
 export default AboutPage;

@@ -3,8 +3,9 @@ import { graphql } from 'gatsby';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 
-import * as css from '../styles/pages/routes.module.css';
+import * as css from './routes.module.css';
 
 const IndexPage = ({ data }) => {
   return (
@@ -86,5 +87,7 @@ export const query = graphql`
     }
   }
 `;
+
+export const Head = () => <Seo title="Debug Route Index" />;
 
 export default IndexPage;
