@@ -156,7 +156,7 @@ const Footer = () => {
             <Link to="/about">About</Link>
           </li>
           <li className={css.bold}>
-            <a href="https://store.natureofcode.com/" {...externalLink}>
+            <a href="/store" {...externalLink}>
               Shop
             </a>
           </li>

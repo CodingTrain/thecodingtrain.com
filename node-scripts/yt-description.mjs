@@ -555,7 +555,7 @@ Music from Epidemic Sound`;
 💡 GitHub: https://github.com/CodingTrain
 💬 Discord: https://thecodingtrain.com/discord
 💖 Membership: http://youtube.com/thecodingtrain/join
-🛒 Store: https://store.natureofcode.com/
+🛒 Store: https://thecodingtrain.com/store
 🖋️ Twitter: https://twitter.com/thecodingtrain
 📸 Instagram: https://www.instagram.com/the.coding.train/
 
