@@ -1,6 +1,6 @@
 {
   "title": "Environment Variables in Node with dotenv",
-  "description": "In this video, I cover the node.js \"dotenv\" package and show how to save API credentials as environment variables. ",
+  "description": "In this video, I cover the Node.js \"dotenv\" package and show how to save API credentials as environment variables. ",
   "videoNumber": "4.3",
   "videoId": "B8ireAeWRQk",
   "date": "2018-10-09",

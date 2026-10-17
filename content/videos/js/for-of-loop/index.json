@@ -1,6 +1,6 @@
 {
   "title": "for...of loop",
-  "description": "In this video, I explore the new JavaScript ES6 loop: \"for...of\". This style loop is useful when iterating over the elements of an array.",
+  "description": "In this video, I explore the new JavaScript ES6 loop: \"for...of\". This style of loop is useful when iterating over the elements of an array.",
   "videoNumber": "4",
   "videoId": "Y8sMnRQYr3c",
   "date": "2017-12-15",

@@ -1,6 +1,6 @@
 {
   "title": "Hiding API Keys with Environment Variables (dotenv) and Pushing Code to GitHub",
-  "description": "In this lesson, we will address how to can hide an API key using environment variables and open source the code on GitHub.",
+  "description": "In this lesson, we will address how to hide an API key using environment variables and open source the code on GitHub.",
   "videoNumber": "3.4",
   "languages": ["JavaScript", "Node.js"],
   "topics": ["dotenv"],
@@ -60,7 +60,7 @@
           "icon": "📦",
           "title": "GitHub",
           "url": "https://github.com/",
-          "description": "GitHub is a online hosting service for version control using Git used for software development."
+          "description": "GitHub is an online hosting service for version control using Git used for software development."
         }
       ]
     }

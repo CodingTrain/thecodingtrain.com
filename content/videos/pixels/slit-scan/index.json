@@ -53,7 +53,7 @@
   "codeExamples": [
     {
       "title": "Slit-Scan video",
-      "description": "The sketch demonstrates how create a slit-scan effect.",
+      "description": "The sketch demonstrates how to create a slit-scan effect.",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/f_M7gry32"

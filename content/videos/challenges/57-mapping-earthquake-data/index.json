@@ -31,7 +31,7 @@
   "codeExamples": [
     {
       "title": "Mapping Earthquake Data",
-      "description": "Visualising earthquake data by mapping the position and the magnitude of earthquake.",
+      "description": "Visualising earthquake data by mapping the positions and magnitudes of earthquakes.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/i0icLNOuf",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/057_Earthquake_Viz/Processing"

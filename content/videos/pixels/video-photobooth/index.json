@@ -1,6 +1,6 @@
 {
   "title": "Video Photobooth",
-  "description": "This video looks at how to save a history of images from a live camera in p5.js / JavaScript.  I first look at saving a single snapshot, followed by an array of images.  The video ends with a \"Muybridge\" style animation of motion.",
+  "description": "This video looks at how to save a history of images from a live camera in p5.js / JavaScript. I first look at saving a single snapshot, followed by an array of images. The video ends with a \"Muybridge\" style animation of motion.",
   "videoId": "oLiaUEKsRws",
   "nebulaSlug": "",
   "date": "2016-03-31",
@@ -27,7 +27,7 @@
   "codeExamples": [
     {
       "title": "Video Photobooth",
-      "description": "The sketch demonstrates how save and display a sequence of video frames .",
+      "description": "The sketch demonstrates how to save and display a sequence of video frames.",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/xBs9FR9JE"
@@ -46,7 +46,7 @@
         {
           "title": "Eadweard Muybridge",
           "url": "https://www.sfmoma.org/artist/eadweard_muybridge/",
-          "description": "Background material on Eadweard Muybridge, a pioneer in the field of of photographic studies of motion."
+          "description": "Background material on Eadweard Muybridge, a pioneer in the field of photographic studies of motion."
         }
       ]
     },

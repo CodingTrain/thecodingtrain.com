@@ -22,7 +22,7 @@
     { "time": "2:13", "title": "Input source" },
     { "time": "2:24", "title": "Run remotely" },
     { "time": "3:04", "title": "Latent space" },
-    { "time": "4:04", "title": "Network tab:  HTTP request" },
+    { "time": "4:04", "title": "Network tab: HTTP request" },
     { "time": "5:00", "title": "Let's Code!" },
     { "time": "5:39", "title": "generateRainbow()" },
     { "time": "8:54", "title": "vector" },
@@ -36,7 +36,7 @@
   "codeExamples": [
     {
       "title": "AI Rainbows",
-      "description": "This sketch shows how to generate rainbows using the  StyleGAN Machine Learning model.",
+      "description": "This sketch shows how to generate rainbows using the StyleGAN Machine Learning model.",
       "image": "rainbow.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/K6l0JbS6u" }
     }

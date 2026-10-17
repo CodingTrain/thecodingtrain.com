@@ -1,6 +1,6 @@
 {
   "title": "Setting Up a Mastodon Bot",
-  "description": "In this video, I set up the bot account and post a toot from node.js.",
+  "description": "In this video, I set up the bot account and post a toot from Node.js.",
   "videoNumber": "4.2",
   "videoId": "pY4b18JGCKE",
   "date": "2018-10-09",
@@ -14,7 +14,7 @@
     { "time": "8:15", "title": "Create a new Mastodon" },
     {
       "time": "10:19",
-      "title": "Ways to Engage with Mastodon:  GET, POST, & STREAMING"
+      "title": "Ways to Engage with Mastodon: GET, POST, & STREAMING"
     },
     { "time": "12:00", "title": "POST a new status" },
     { "time": "13:30", "title": "Parameters" }
@@ -58,13 +58,13 @@
           "icon": "🚂",
           "title": "Workflow - Node",
           "url": "/tracks/2018-workflow/workflow/5-node",
-          "description": "In this video, I discuss how I use node.js and global packages (to generate p5 sketches, run a web server) as part of my workflow."
+          "description": "In this video, I discuss how I use Node.js and global packages (to generate p5 sketches, run a web server) as part of my workflow."
         },
         {
           "icon": "🚂",
           "title": "Workflow - Shell",
           "url": "/tracks/2018-workflow/workflow/3-shell",
-          "description": "What is a \"shell\"? In this video, I look at at \"zsh\" (instead of the default Mac OSX shell: bash)."
+          "description": "What is a \"shell\"? In this video, I look at \"zsh\" (instead of the default Mac OSX shell: bash)."
         },
         {
           "icon": "🚂",

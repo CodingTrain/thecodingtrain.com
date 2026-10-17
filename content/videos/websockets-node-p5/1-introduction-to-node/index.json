@@ -1,6 +1,6 @@
 {
   "title": "Introduction to Node",
-  "description": "In this first video, I discuss the all the pieces required to create a shared, collaborative drawing canvas with p5.js, node, and web sockets.  I look at the basics of getting up and running with node.js.",
+  "description": "In this first video, I discuss all the pieces required to create a shared, collaborative drawing canvas with p5.js, node, and web sockets. I look at the basics of getting up and running with Node.js.",
   "videoNumber": "1",
   "videoId": "bjULmG8fqc8",
   "date": "2016-04-13",

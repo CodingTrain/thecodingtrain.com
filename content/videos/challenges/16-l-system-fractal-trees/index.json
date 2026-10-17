@@ -65,7 +65,7 @@
   "codeExamples": [
     {
       "title": "Fractal Trees - L-System",
-      "description": "This sketch uses a L-system to generate a fractal tree",
+      "description": "This sketch uses an L-system to generate a fractal tree",
       "image": "l-system-fractal-trees.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/QmTx-Y_UP",

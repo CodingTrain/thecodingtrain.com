@@ -1,6 +1,6 @@
 {
   "title": "I.4: Graphing 1D Perlin Noise",
-  "description": "In Part I.4 of my Perlin Noise Tutorial, I graph the values of one-dimensional perlin noise and compare to randomness.",
+  "description": "In Part I.4 of my Perlin Noise Tutorial, I graph the values of one-dimensional Perlin noise and compare to randomness.",
   "languages": ["JavaScript", "p5.js"],
   "topics": ["For beginners"],
   "videoId": "y7sgcFhk6ZM",
@@ -11,26 +11,26 @@
     { "time": "2:20", "title": "Using two x offset values" },
     { "time": "5:02", "title": "Graph the values" },
     { "time": "9:05", "title": "Add an increment variable" },
-    { "time": "9:46", "title": "Moving across the perlin noise space" },
+    { "time": "9:46", "title": "Moving across the Perlin noise space" },
     { "time": "12:00", "title": "Noisy sine example" }
   ],
   "canContribute": true,
   "codeExamples": [
     {
       "title": "Adding Y-axis",
-      "description": "Using 1D perlin noise to generate two coordinates",
+      "description": "Using 1D Perlin noise to generate two coordinates",
       "image": "perlin.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/nCYG2SCNq" }
     },
     {
       "title": "Noise Graph",
-      "description": "Graphing 1D perlin noise",
+      "description": "Graphing 1D Perlin noise",
       "image": "noise.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EZeHXBhei" }
     },
     {
       "title": "Noisy Sine",
-      "description": "Using 1D perlin noise to create a noisy sine wave",
+      "description": "Using 1D Perlin noise to create a noisy sine wave",
       "image": "sine.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/M_kuAXwV2" }
     }

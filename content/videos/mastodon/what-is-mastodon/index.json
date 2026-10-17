@@ -1,6 +1,6 @@
 {
   "title": "What is Mastodon?",
-  "description": "This is the first video in a new series about making a Mastodon Bot. Mastodon is a decentralized open source social media platform.  Please note that the server choochoo.space which I discussed in this video is no longer available. To find a server, visit [https://joinmastodon.org/servers](joinmastodon.org). ",
+  "description": "This is the first video in a new series about making a Mastodon Bot. Mastodon is a decentralized open source social media platform. Please note that the server choochoo.space which I discussed in this video is no longer available. To find a server, visit [Mastodon server directory](https://joinmastodon.org/servers). ",
   "videoNumber": "4.1",
   "videoId": "sKSxBd56H70",
   "date": "2018-10-08",
@@ -56,7 +56,7 @@
           "icon": "🚂",
           "title": "What is Node.js?",
           "url": "/tracks/mastodon/mastodon/what-is-node-js",
-          "description": "This video covers the basics of node.js.   What is node.js?  What is server-side programming?  What might you use it for and how do you get started?"
+          "description": "This video covers the basics of Node.js. What is Node.js? What is server-side programming? What might you use it for and how do you get started?"
         },
         {
           "icon": "🚂",

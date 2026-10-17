@@ -37,7 +37,7 @@
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/FiOG6uajS" }
     },
     {
-      "title": "Estimating π from from the digits of π",
+      "title": "Estimating π from the digits of π",
       "description": "Estimating the digits of Pi by using the digits of Pi as random numbers",
       "image": "digits.png",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/x0eikODKm" }

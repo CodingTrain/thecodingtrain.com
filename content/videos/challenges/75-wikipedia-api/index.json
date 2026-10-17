@@ -25,7 +25,7 @@
     { "time": "12:28", "title": "Retrieve the content using the content URL" },
     {
       "time": "14:58",
-      "title": "Look at the json file with the Chrome extension Json formator"
+      "title": "Look at the json file with the Chrome extension JSON Formatter"
     },
     { "time": "16:37", "title": "Use the key to get the page Id" },
     {
@@ -71,13 +71,13 @@
           "icon": "🚂",
           "title": "My Videos on Regular Expressions",
           "url": "https://www.youtube.com/watch?v=7DG3kCDx53c",
-          "description": "In this video I introduce Regular Expressions.  What are they and how are they used?"
+          "description": "In this video I introduce Regular Expressions. What are they and how are they used?"
         },
         {
           "icon": "🔴",
           "title": "Coding Train Live 101",
           "url": "https://youtu.be/PQwfop4bewM?t=5024s",
-          "description": "Livestream with \"let\" vs \"var\", \"const\",  10 PRINT,  Wikipedia API & more! - Part 2"
+          "description": "Livestream with \"let\" vs \"var\", \"const\", 10 PRINT, Wikipedia API & more! - Part 2"
         }
       ]
     }

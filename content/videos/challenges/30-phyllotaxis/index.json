@@ -37,7 +37,7 @@
   "codeExamples": [
     {
       "title": "Phyllotaxis",
-      "description": "This sketch generates a sunflower-like pattern using algorithmic botony.",
+      "description": "This sketch generates a sunflower-like pattern using algorithmic botany.",
       "image": "phyllotaxis.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/CehY0jsLV",
@@ -59,7 +59,7 @@
           "icon": "📘",
           "title": "Algorithmic Botany - Phyllotaxis",
           "url": "http://algorithmicbotany.org/papers/abop/abop-ch4.pdf",
-          "description": "Discussion of algorithmic botony."
+          "description": "Discussion of algorithmic botany."
         }
       ]
     },

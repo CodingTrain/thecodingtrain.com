@@ -37,13 +37,13 @@
           "icon": "📝",
           "title": "Ternary Operator",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
-          "description": "Decumentation of the ternary operator"
+          "description": "Documentation of the ternary operator"
         },
         {
           "icon": "📽",
           "title": "The Modulo Operator with Golan Levin",
           "url": "https://www.youtube.com/watch?v=r5Iy3v1co0A",
-          "description": "Golan Levin explains the the modulo operator and its applications in creative codiing"
+          "description": "Golan Levin explains the modulo operator and its applications in creative coding"
         }
       ]
     },
