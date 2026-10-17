@@ -1,6 +1,6 @@
 {
   "title": "Incrementation Operators",
-  "description": "In this bonus aside, I discuss coding short hand for incrementing variables ('incrementation operators').",
+  "description": "In this bonus aside, I discuss coding shorthand for incrementing variables ('incrementation operators').",
   "videoNumber": "2.3",
   "videoId": "T26OJGjI8qI",
   "nebulaSlug": "coding-train-23-incrementation-operators-p5js-tutorial",
@@ -10,7 +10,7 @@
   "canContribute": false,
   "timestamps": [
     { "time": "0:00", "title": "Hello!" },
-    { "time": "0:38", "title": "What is coding short hand?" },
+    { "time": "0:38", "title": "What is coding shorthand?" },
     { "time": "1:28", "title": "What does += mean?" },
     { "time": "2:10", "title": "What does ++ do?" },
     { "time": "2:55", "title": "But what about minus, times, and divide?" },

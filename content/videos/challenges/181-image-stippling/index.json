@@ -47,7 +47,7 @@
     },
     {
       "title": "Delaunay Triangulation",
-      "description": "Visualization the Delaunay triangulation with d3-delaunay.",
+      "description": "Visualizing the Delaunay triangulation with d3-delaunay.",
       "image": "triangulation.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/fuQz_-FnA"
@@ -63,7 +63,7 @@
     },
     {
       "title": "Voronoi Phyllotaxis",
-      "description": "Voronoini diagram with seed points calculated by phyllotaxis.",
+      "description": "Voronoi diagram with seed points calculated by phyllotaxis.",
       "image": "3.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ydiZeUK8R"
@@ -95,7 +95,7 @@
     },
     {
       "title": "Weighted Stippling - Abstract Pattern",
-      "description": "Implementation of weighted stippling on an image generated from perlin noise.",
+      "description": "Implementation of weighted stippling on an image generated from Perlin noise.",
       "image": "5.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/9ntWWLXqA"

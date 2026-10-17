@@ -20,8 +20,8 @@
   ],
   "codeExamples": [
     {
-      "title": "Hillbert Curve",
-      "description": "Visualization of the Hillbert Curve in processing.",
+      "title": "Hilbert Curve",
+      "description": "Visualization of the Hilbert Curve in processing.",
       "image": "hilbert.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/LPf9PLmp",

@@ -52,7 +52,7 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "Coding Challenge #151 Ukelele Tuner",
+          "title": "Coding Challenge #151 Ukulele Tuner",
           "url": "/challenges/151-ukulele-tuner-with-machine-learning",
           "description": "In this challenge, I attempt to create a Ukulele tuner in JavaScript using p5.js, ml5.js and the pre-trained machine learning model CREPE: A Convolutional Representation for Pitch Estimation."
         },

@@ -13,7 +13,7 @@
     { "time": "1:28", "title": "Review neural networks" },
     {
       "time": "3:34",
-      "title": "Flattenng the image causes a loss of information"
+      "title": "Flattening the image causes a loss of information"
     },
     { "time": "4:18", "title": "Convolutional layer" },
     { "time": "4:37", "title": "Filter" },
@@ -42,13 +42,13 @@
     { "time": "20:46", "title": "Multiply by filter" },
     { "time": "22:37", "title": "Get filtered pixels" },
     { "time": "23:13", "title": "Call loadPixels" },
-    { "time": "23:34", "title": "Call updataPixels" },
+    { "time": "23:34", "title": "Call updatePixels" },
     { "time": "24:40", "title": "Change the indices to find vertical edges" },
     { "time": "26:11", "title": "Add a random filter" }
   ],
   "codeExamples": [
     {
-      "title": "Convlutional Neural Network",
+      "title": "Convolutional Neural Network",
       "description": "This sketch demonstrates the process of creating a convolutional layer to filter pixels.",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/BN1lE-gyl" }
     }

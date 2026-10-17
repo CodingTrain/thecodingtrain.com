@@ -1,6 +1,6 @@
 {
   "title": "Shared Drawing Canvas",
-  "description": "This video puts all of the pieces together: node, express, p5.js, and socket.io to show how to program a shared, collaborative drawing canvas.  How to broadcast messages between clients and the server is covered.",
+  "description": "This video puts all of the pieces together: node, express, p5.js, and socket.io to show how to program a shared, collaborative drawing canvas. How to broadcast messages between clients and the server is covered.",
   "videoNumber": "4",
   "videoId": "i6eP1Lw4gZk",
   "date": "2016-04-13",

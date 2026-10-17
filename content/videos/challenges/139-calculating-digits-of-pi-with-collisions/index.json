@@ -27,7 +27,7 @@
     { "time": "14:29", "title": "Counting the collisions!" },
     { "time": "18:09", "title": "Adding timesteps to control approximation" },
     { "time": "24:12", "title": "Adding constraints to speed up animation" },
-    { "time": "26:47", "title": "Watching collisions upto 11 digits of pi!" },
+    { "time": "26:47", "title": "Watching collisions up to 11 digits of pi!" },
     {
       "time": "28:46",
       "title": "Other methods to simulate elastic collisions and things to try!"

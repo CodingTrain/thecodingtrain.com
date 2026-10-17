@@ -1,6 +1,6 @@
 {
   "title": "Floyd-Steinberg Dithering",
-  "description": "In this coding challenge, I attempt to implement the Floyd-Steinberg Dithering algorithm and create a \"image stippling\" effect on an image (kitten, of course) using Processing.",
+  "description": "In this coding challenge, I attempt to implement the Floyd-Steinberg Dithering algorithm and create an \"image stippling\" effect on an image (kitten, of course) using Processing.",
   "videoNumber": "90",
   "videoId": "0L2n8Tg2FwI",
   "date": "2018-01-16",
@@ -29,7 +29,7 @@
     { "time": "17:10", "title": "Write an index function" },
     { "time": "21:08", "title": "Update r, g, b values" },
     { "time": "24:13", "title": "Deal with the edges" },
-    { "time": "26:55", "title": "Conclusion and suggstions for variations" }
+    { "time": "26:55", "title": "Conclusion and suggestions for variations" }
   ],
   "codeExamples": [
     {

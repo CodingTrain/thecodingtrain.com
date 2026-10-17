@@ -15,7 +15,7 @@
     },
     {
       "time": "0:14",
-      "title": "Fix some mixtakes"
+      "title": "Fix some mistakes"
     },
     {
       "time": "2:29",
@@ -53,7 +53,7 @@
   "codeExamples": [
     {
       "title": "Toy Neural Network",
-      "description": "Github repo with code for toy neural network.",
+      "description": "GitHub repo with code for toy neural network.",
       "urls": {
         "other": "https://github.com/CodingTrain/Toy-Neural-Network-JS"
       }
@@ -77,9 +77,9 @@
         },
         {
           "icon": "🔗",
-          "title": "Tensorflow.js",
+          "title": "TensorFlow.js",
           "url": "https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week4-neural-networks",
-          "description": "Documentation for Tensorflow.js (formerly deeplearn.js)."
+          "description": "Documentation for TensorFlow.js (formerly deeplearn.js)."
         }
       ]
     },

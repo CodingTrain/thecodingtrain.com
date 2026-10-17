@@ -1,6 +1,6 @@
 {
   "title": "Box2D - User Controlled Objects: Mouse Joint and Kinematic Type",
-  "description": "This video shows demonstrates how to move objects in Box2D manually through the use of a mouse joint or a kinematic body type.",
+  "description": "This video demonstrates how to move objects in Box2D manually through the use of a mouse joint or a kinematic body type.",
   "videoId": "Ubfqc983jN8",
   "date": "2015-08-06",
   "languages": ["processing"],
@@ -89,7 +89,7 @@
           "icon": "🔗",
           "title": "JBox2d",
           "url": "https://github.com/jbox2d/jbox2d",
-          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+          "description": "GitHub repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2D."
         }
       ]
     }

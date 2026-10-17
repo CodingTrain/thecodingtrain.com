@@ -39,8 +39,8 @@
   ],
   "codeExamples": [
     {
-      "title": "Adding Box2d to a Processing sketch",
-      "description": "This sketch demonstrates how how to add Box2d to a Processing sketch.",
+      "title": "Adding Box2D to a Processing sketch",
+      "description": "This sketch demonstrates how to add Box2D to a Processing sketch.",
       "image": "image1.png",
       "urls": {
         "processing": "https://github.com/nature-of-code/noc-examples-processing/blob/master/chp05_physicslibraries/box2d/NOC_5_2_Boxes/Boundary.pde"
@@ -73,7 +73,7 @@
           "icon": "🔗",
           "title": "JBox2d",
           "url": "https://github.com/jbox2d/jbox2d",
-          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+          "description": "GitHub repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2D."
         }
       ]
     }

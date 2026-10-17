@@ -1,6 +1,6 @@
 {
   "title": "Blobby!",
-  "description": "In this coding challenge, I simulate a blob-like shape with wobbly edges using beginShape(), endShape(), polar coordinates, and perlin noise.",
+  "description": "In this coding challenge, I simulate a blob-like shape with wobbly edges using beginShape(), endShape(), polar coordinates, and Perlin noise.",
   "videoNumber": "36",
   "videoId": "rX5p-QRP6R4",
   "date": "2016-09-02",
@@ -65,7 +65,7 @@
           "icon": "🎥",
           "title": "Supershapes track",
           "url": "/tracks/supershapes",
-          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas.."
+          "description": "This side track is a collection of videos related to supershapes that use spherical coordinates and superformulas."
         },
         {
           "icon": "🔴",

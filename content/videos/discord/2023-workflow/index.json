@@ -1,12 +1,12 @@
 {
-  "title": "Workflow: Terminal, Shell, Node.js, VSCode",
+  "title": "Workflow: Terminal, Shell, Node.js, VS Code",
   "description": "This video covers tools and configurations to set up a JavaScript development environment with Node.js, Visual Studio Code, and shell/terminal access. This is step 1 along the way to creating your own Discord Bot!",
   "videoId": "46WOuOrMwTQ",
   "nebulaSlug": "codingtrain-workflow-terminal-shell-nodejs-vscode",
   "date": "2023-11-01",
   "canonicalTrack": "discord-bots",
   "languages": ["JavaScript"],
-  "topics": ["node.js", "shell", "unix", "terminal", "nvm", "vscode", "editor", "workflow"],
+  "topics": ["Node.js", "shell", "unix", "terminal", "nvm", "vscode", "editor", "workflow"],
   "canContribute": false,
   "timestamps": [
     { "time": "00:00", "title": "Introduction" },
@@ -43,7 +43,7 @@
           "icon": "📊",
           "title": "Working with Data and APIs",
           "url": "/tracks/data-and-apis-in-javascript",
-          "description": "A series of videos focused on working with APIs, fetching data, and displaying it using node.js and p5.js."
+          "description": "A series of videos focused on working with APIs, fetching data, and displaying it using Node.js and p5.js."
         },
         {
           "icon": "📜",
@@ -100,19 +100,19 @@
       ]
     },
     {
-      "title": "VSCode",
+      "title": "VS Code",
       "links": [
         {
           "icon": "🆚",
           "title": "Visual Studio Code",
           "url": "https://code.visualstudio.com/",
-          "description": "Download the code editor VSCode at their website."
+          "description": "Download the code editor VS Code at their website."
         },
         {
           "icon": "🌈",
           "title": "Prettier Extension",
           "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
-          "description": "Code formatter that supports multiple languages and integrates with VSCode."
+          "description": "Code formatter that supports multiple languages and integrates with VS Code."
         }
       ]
     }

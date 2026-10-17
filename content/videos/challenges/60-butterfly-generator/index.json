@@ -1,6 +1,6 @@
 {
   "title": "Butterfly Generator",
-  "description": "Inspired by Everest Pipkin’s Moth Generator, I use trigonometry and perlin noise to procedurally generate butterfly wing designs with p5.js.",
+  "description": "Inspired by Everest Pipkin’s Moth Generator, I use trigonometry and Perlin noise to procedurally generate butterfly wing designs with p5.js.",
   "videoNumber": "60",
   "videoId": "O_0fRV4MTZo",
   "nebulaSlug": "the-coding-train-coding-challenge-60-butterfly-generator",
@@ -92,7 +92,7 @@
           "icon": "🔴",
           "title": "Coding Train Live Archive #80",
           "url": "https://youtu.be/bMOv5vTC9uE?t=3431s",
-          "description": "Live Stream with Prototypes in Javascript and Butterfly Wings Generator"
+          "description": "Live Stream with Prototypes in JavaScript and Butterfly Wings Generator"
         }
       ]
     }

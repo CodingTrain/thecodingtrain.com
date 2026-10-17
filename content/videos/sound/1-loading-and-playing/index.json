@@ -42,7 +42,7 @@
     },
     {
       "time": "15:18",
-      "title": "pan()  determines whether you can hear the sound in the left/right speaker"
+      "title": "pan() determines whether you can hear the sound in the left/right speaker"
     },
     {
       "time": "16:43",
@@ -78,7 +78,7 @@
           "icon": "🔗",
           "title": "Just Like a Rainbow by the Columbians",
           "url": "https://github.com/CodingTrain/website-archive/blob/main/Tutorials/P5JS/p5.js_sound/17.1_playSong/rainbow.mp3",
-          "description": "Song downloaded from freemusicarchiv.org."
+          "description": "Song downloaded from freemusicarchive.org."
         }
       ]
     }

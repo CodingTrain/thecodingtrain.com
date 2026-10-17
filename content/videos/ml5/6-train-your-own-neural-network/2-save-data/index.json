@@ -10,7 +10,7 @@
   "canContribute": true,
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
-    { "time": "1:46", "title": "Saving the data versus savng the model" },
+    { "time": "1:46", "title": "Saving the data versus saving the model" },
     { "time": "3:35", "title": "saveData()" },
     { "time": "5:30", "title": "Train the model" },
     { "time": "6:47", "title": "Adding saved data to p5 sketch" },

@@ -1,6 +1,6 @@
 {
   "title": "KNN Classification Part 2",
-  "description": "This video  series covers \"KNN Classification.\" In this second part, I train the KNN image classifier using the ml5.js library.",
+  "description": "This video series covers \"KNN Classification.\" In this second part, I train the KNN image classifier using the ml5.js library.",
   "videoNumber": "5.2",
   "videoId": "Mwo5_bUVhlA",
   "date": "2019-02-05",
@@ -59,7 +59,7 @@
           "icon": "💻",
           "title": "Webcam PacMan",
           "url": "https://storage.googleapis.com/tfjs-examples/webcam-transfer-learning/dist/index.html",
-          "description": "Tensorflow.js example of transfer learning with PacMan."
+          "description": "TensorFlow.js example of transfer learning with PacMan."
         }
       ]
     },
@@ -76,7 +76,7 @@
           "icon": "🚂",
           "title": "Nearest Neighbors Recommendation Engine",
           "url": "https://www.youtube.com/watch?v=N8Fabn1om2k&t=0s",
-          "description": "In this coding challenge, I create a movie recommendation engine using the a \"nearest neighbor\" algorithm. "
+          "description": "In this coding challenge, I create a movie recommendation engine using the \"nearest neighbor\" algorithm. "
         }
       ]
     }

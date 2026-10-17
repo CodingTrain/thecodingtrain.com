@@ -1,6 +1,6 @@
 {
   "title": "Sound",
-  "description": "This side track contains tutorials about the p5.Sound library.",
+  "description": "This side track contains tutorials about the p5.sound library.",
   "videos": [
     "sound/1-loading-and-playing",
     "sound/2-pause-and-play-button",

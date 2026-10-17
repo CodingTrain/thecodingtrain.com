@@ -28,7 +28,7 @@
     { "time": "0:24:45", "title": "Revising the train() function" },
     { "time": "0:29:06", "title": "Implementing Probability Calculations" },
     { "time": "0:33:24", "title": "Laplacian (Additive) Smoothing" },
-    { "time": "0:42:21", "title": "Ignoring the enominator (Normalization)" },
+    { "time": "0:42:21", "title": "Ignoring the denominator (Normalization)" },
     { "time": "0:45:36", "title": "Quick User Interface" },
     { "time": "0:49:42", "title": "Final thoughts and next steps." }
   ],

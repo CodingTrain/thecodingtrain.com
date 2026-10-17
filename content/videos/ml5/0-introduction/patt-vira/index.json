@@ -1,6 +1,6 @@
 {
   "title": "ml5.js 1.0 and Guest Conductor Patt Vira",
-  "description": "The ml5.js library recently celebrated it's 1.0 release! In this video, I provide an overview of the new release and cover how to use the FaceMesh model. Guest Conductor Patt Vira (http://youtube.com/@PattVira) takes over and demonstrates how to build a creative kinetic type visualization controlled by your mouth!",
+  "description": "The ml5.js library recently celebrated its 1.0 release! In this video, I provide an overview of the new release and cover how to use the FaceMesh model. Guest Conductor Patt Vira (http://youtube.com/@PattVira) takes over and demonstrates how to build a creative kinetic type visualization controlled by your mouth!",
   "videoNumber": "0.2",
   "videoId": "2h8VArJ3gnQ",
   "date": "2024-07-31",
@@ -61,9 +61,9 @@
         },
         {
           "icon": "💻",
-          "title": "Tensorflow.js",
+          "title": "TensorFlow.js",
           "url": "https://www.tensorflow.org/js",
-          "description": "The ml5.js is built on top of Tensorflow.js."
+          "description": "The ml5.js is built on top of TensorFlow.js."
         },
         {
           "icon": "📕",

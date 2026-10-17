@@ -98,7 +98,7 @@
           "icon": "🎥",
           "title": "Coding Challenge #143 - Quicksort Visualization",
           "url": "/challenges/143-quicksort",
-          "description": "I implement a Quicksort algorithm in JavaScript visualize the sorting with p5.js."
+          "description": "I implement a Quicksort algorithm in JavaScript and visualize the sorting with p5.js."
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "title": "Photo Mosaic with White House Social Media Images",
-  "description": "In this coding challenge, I use a collection of Obama Administration\u2019s facebook images to create a \u201cphoto mosaic\u201d of President Obama with Processing (Java).",
+  "description": "In this coding challenge, I use a collection of the Obama Administration’s facebook images to create a “photo mosaic” of President Obama with Processing (Java).",
   "videoNumber": "49",
   "videoId": "nnlAH1zDBDE",
   "date": "2017-01-06",
@@ -60,7 +60,7 @@
   "codeExamples": [
     {
       "title": "Photo Mosaic with White House Social Media Images",
-      "description": "This Processing project uses a collection of Obama Administration's facebook images to create a mosaic of President Obama.",
+      "description": "This Processing project uses a collection of the Obama Administration's facebook images to create a mosaic of President Obama.",
       "urls": {
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/049_ObamaMosaic/Processing"
       }
@@ -78,9 +78,9 @@
         },
         {
           "icon": "🔗",
-          "title": "ITP 'Obamathon' Github Repo",
+          "title": "ITP 'Obamathon' GitHub Repo",
           "url": "https://github.com/ITPNYU/Obamathon/tree/master/examples/P5/TweetsByMonth",
-          "description": "Data and source code on ITP \"Obamathon\" github repository."
+          "description": "Data and source code on ITP \"Obamathon\" GitHub repository."
         }
       ]
     },
@@ -91,7 +91,7 @@
           "icon": "🎥",
           "title": "10.4: Pixels! (The Pixels Array) - Processing Tutorial",
           "url": "https://youtu.be/EmtU0eloTlE",
-          "description": "This video covers the basics of reading from and writing to the pixels array in Processing / Java. This is foundation for all image processing and computer vision applications and examples I'll show in the rest of image and video in Processing (Java) videos."
+          "description": "This video covers the basics of reading from and writing to the pixels array in Processing / Java. This is the foundation for the image processing and computer vision examples in the rest of the Processing video series."
         },
         {
           "icon": "🔴",

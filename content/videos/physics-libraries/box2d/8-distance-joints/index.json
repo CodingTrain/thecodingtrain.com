@@ -74,7 +74,7 @@
           "icon": "🔗",
           "title": "JBox2d",
           "url": "https://github.com/jbox2d/jbox2d",
-          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+          "description": "GitHub repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2D."
         }
       ]
     }

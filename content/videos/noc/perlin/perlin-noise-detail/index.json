@@ -1,14 +1,12 @@
 {
   "title": "I.6: Perlin Noise Detail in p5.js",
-  "description": "In Part I.6 of the Perlin Noise Tutorial, I look at the p5.js function noiseDetail() how it can be used to alter the results Perlin noise function. The concepts of octaves and falloff are explained.",
+  "description": "In Part I.6 of the Perlin Noise Tutorial, I explain how noiseDetail() changes the output of the Perlin noise function, including the roles of octaves and falloff.",
   "videoId": "D1BBj2VaBl4",
   "date": "2016-06-26",
   "languages": ["p5.js", "JavaScript"],
   "topics": ["For beginners"],
   "canContribute": true,
-  "relatedChallenges": [
-    "136-polar-noise-loops", "137-4d-opensimplex-noise-loop", "c4-worley-noise"
-  ],
+  "relatedChallenges": ["136-polar-noise-loops", "137-4d-opensimplex-noise-loop", "c4-worley-noise"],
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:23", "title": "The Noise Algorithm" },

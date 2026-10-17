@@ -101,7 +101,7 @@
           "icon": "📄",
           "title": "3D Hand Pose with MediaPipe and TensorFlow.js",
           "url": "https://blog.tensorflow.org/2021/11/3D-handpose.html",
-          "description": "Tensorflow Blog post covering the 2021 updates to hand detection model."
+          "description": "TensorFlow Blog post covering the 2021 updates to hand detection model."
         }
       ]
     }
