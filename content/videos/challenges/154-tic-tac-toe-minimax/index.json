@@ -1,6 +1,6 @@
 {
   "title": "Tic Tac Toe AI with Minimax Algorithm",
-  "description": "In this challenge I take the Tic Tac Toe game from coding challenge #149 and add an AI opponent for a human player by implenenting the Minimax algorithm.",
+  "description": "In this challenge I take the Tic Tac Toe game from coding challenge #149 and add an AI opponent for a human player by implementing the Minimax algorithm.",
   "videoNumber": "154",
   "videoId": "trKjYdBASyQ",
   "nebulaSlug": "coding-challenge-154-tic-tac-toe-ai-with-minimax-algorithm",

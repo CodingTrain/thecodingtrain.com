@@ -24,7 +24,7 @@
   "codeExamples": [
     {
       "title": "Diastic Machine",
-      "description": "A procedural poetry generation that uses a seed word or phrase",
+      "description": "A procedural poetry generator that uses a seed word or phrase",
       "image": "diastic-machine.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/DVBg6l2Xx",

@@ -26,7 +26,7 @@
   "codeExamples": [
     {
       "title": "Pose Regression",
-      "description": "Code for running a regression using the Posenet data.",
+      "description": "Code for running a regression using the PoseNet data.",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/JI_j-PiLk" }
     },
     {
@@ -53,7 +53,7 @@
           "icon": "🚂",
           "title": "ml5.js Pose Estimation",
           "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
-          "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using BodyPose (in JavaScript with p5.js and ml5.js)."
+          "description": "In this video I cover pose estimation: finding the keypoints of a person's pose and skeleton using BodyPose (in JavaScript with p5.js and ml5.js)."
         },
         {
           "icon": "🚂",

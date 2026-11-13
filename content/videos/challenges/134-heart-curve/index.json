@@ -1,6 +1,6 @@
 {
   "title": "Heart Curve",
-  "description": "In this multi-part challenge, I use a parametric equation (from Wolfram Mathworld) to draw a heart curve in Processing (Java).",
+  "description": "In this multi-part challenge, I use a parametric equation (from Wolfram MathWorld) to draw a heart curve in Processing (Java).",
   "videoNumber": "134",
   "date": "2019-02-18",
   "languages": ["Processing"],
@@ -49,7 +49,7 @@
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Bonus Video:  Make a GIF loop of the heart"
+          "title": "Bonus Video: Make a GIF loop of the heart"
         },
         {
           "time": "0:33",
@@ -115,7 +115,7 @@
           "icon": "💾",
           "title": "Loop Templates",
           "url": "https://github.com/golanlevin/LoopTemplates",
-          "description": "Golan Levin's Github repository with templates for generating animated seamless loops in Processing, p5.js, and Processing.py."
+          "description": "Golan Levin's GitHub repository with templates for generating animated seamless loops in Processing, p5.js, and Processing.py."
         },
         {
           "icon": "💾",

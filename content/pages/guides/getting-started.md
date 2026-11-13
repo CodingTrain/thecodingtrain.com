@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started Guide'
-description: 'Guide with simple tips to get started into coding!'
+description: 'Guide with simple tips to get started with coding!'
 date: '2023-11-03'
 ---
 
@@ -10,7 +10,7 @@ If you’re new to coding, getting started can feel overwhelming, hopefully this
 
 ## Start Learning and Coding!
 
-There are two main tracks you can follow for total and complete beginners.
+There are two main tracks for complete beginners.
 
 ### Creative Coding for Beginners - Full Course!
 
@@ -48,7 +48,7 @@ When you have some code you want to share or publish online outside of the web e
 
 To learn more, take a ride on the [“Git and GitHub for Poets” track](/tracks/git-and-github-for-poets). This series is a primer on version control and the difference between git software and the GitHub website.
 
-The videos in cover terminology like branch, fork, merge, pull, push, and remote. There’s even [a friendly “playground repository”](https://github.com/CodingTrain/Rainbow-Poem) for you to make your first pull request!
+The videos cover terminology like branch, fork, merge, pull, push, and remote. There’s even [a friendly “playground repository”](https://github.com/CodingTrain/Rainbow-Poem) for you to make your first pull request!
 
 <Video videoId="_sLgRBrZh6o" listId="PLRqwX-V7Uu6Zu_uqEA6NqhLzKLACwU74X"/>
 

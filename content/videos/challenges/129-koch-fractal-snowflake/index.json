@@ -45,7 +45,7 @@
   "codeExamples": [
     {
       "title": "Koch Snowflake",
-      "description": "This sketch visalizes the Koch snowflake.",
+      "description": "This sketch visualizes the Koch snowflake.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SJHcVCAgN",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/129_Koch_Snowflake/Processing"

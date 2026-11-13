@@ -57,7 +57,7 @@
   "codeExamples": [
     {
       "title": "Toothpicks",
-      "description": "My viualization of Omar Pol’s fractal toothpick sequence.",
+      "description": "My visualization of Omar Pol’s fractal toothpick sequence.",
       "image": "toothpick.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/SJMl3u5xN",

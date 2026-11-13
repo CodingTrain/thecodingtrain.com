@@ -22,7 +22,7 @@
     },
     {
       "time": "5:05",
-      "title": "Box2d expects vertices in clockwise order"
+      "title": "Box2D expects vertices in clockwise order"
     },
     {
       "time": "6:05",
@@ -48,7 +48,7 @@
   "codeExamples": [
     {
       "title": "Polygon Bodies",
-      "description": "This sketch shows how to add polygon bodies to the Box2d world.",
+      "description": "This sketch shows how to add polygon bodies to the Box2D world.",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/hiAzkgd8N",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Multi-shape Bodies",
-      "description": "This sketch shows how to add multi-shape bodies to the Box2d world.",
+      "description": "This sketch shows how to add multi-shape bodies to the Box2D world.",
       "image": "image2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/ssItBjtrF",
@@ -91,7 +91,7 @@
           "icon": "🔗",
           "title": "JBox2d",
           "url": "https://github.com/jbox2d/jbox2d",
-          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+          "description": "GitHub repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2D."
         }
       ]
     }

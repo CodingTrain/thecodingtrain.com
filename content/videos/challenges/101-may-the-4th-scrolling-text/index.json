@@ -9,7 +9,7 @@
   "canContribute": true,
   "relatedChallenges": ["1-starfield"],
   "timestamps": [
-    { "time": "0:00", "title": "Today's topic:  Scrolling Text" },
+    { "time": "0:00", "title": "Today's topic: Scrolling Text" },
     { "time": "0:46", "title": "Start the timer" },
     { "time": "1:21", "title": "Add the P3D renderer" },
     { "time": "2:49", "title": "Use loadStrings to load the text" },
@@ -37,9 +37,9 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Jabrils on Youtube",
+          "title": "Jabrils on YouTube",
           "url": "https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg",
-          "description": "Jabril's Youtube channel"
+          "description": "Jabril's YouTube channel"
         },
         {
           "icon": "🎥",

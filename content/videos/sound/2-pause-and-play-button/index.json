@@ -14,7 +14,7 @@
     },
     {
       "time": "0:25",
-      "title": "There must be a reference to the p5.Sound library"
+      "title": "There must be a reference to the p5.sound library"
     },
     {
       "time": "1:38",
@@ -56,7 +56,7 @@
           "icon": "🔗",
           "title": "Just Like a Rainbow by the Columbians",
           "url": "https://github.com/CodingTrain/website-archive/blob/main/Tutorials/P5JS/p5.js_sound/17.1_playSong/rainbow.mp3",
-          "description": "Song downloaded from freemusicarchiv.org."
+          "description": "Song downloaded from freemusicarchive.org."
         }
       ]
     }

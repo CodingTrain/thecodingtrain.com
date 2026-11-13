@@ -1,6 +1,6 @@
 {
   "title": "Box2D - Applying forces",
-  "description": "This video demonstrates how to apply forces to objects in Box2D.  Simple wind and gravitational attraction are demonstrated.",
+  "description": "This video demonstrates how to apply forces to objects in Box2D. Simple wind and gravitational attraction are demonstrated.",
   "videoId": "bJJbQIoJeFc",
   "date": "2015-08-06",
   "languages": ["processing"],
@@ -65,7 +65,7 @@
           "icon": "🔗",
           "title": "JBox2d",
           "url": "https://github.com/jbox2d/jbox2d",
-          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+          "description": "GitHub repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2D."
         }
       ]
     }

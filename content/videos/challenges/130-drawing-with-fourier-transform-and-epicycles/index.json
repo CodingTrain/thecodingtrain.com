@@ -147,7 +147,7 @@
           "icon": "💾",
           "title": "p5.FFT",
           "url": "https://p5js.org/reference/#/p5.FFT",
-          "description": "p5.js documentation about the Fast Fourier Treansform algorithm."
+          "description": "p5.js documentation about the Fast Fourier Transform algorithm."
         },
         {
           "icon": "💾",
@@ -182,7 +182,7 @@
           "icon": "🎥",
           "title": "Fourier Analysis For The Rest Of Us",
           "url": "https://youtu.be/2hfoX51f6sg",
-          "description": "GoldPlatedGoof video about Foureir analysis."
+          "description": "GoldPlatedGoof video about Fourier analysis."
         },
         {
           "icon": "🎥",

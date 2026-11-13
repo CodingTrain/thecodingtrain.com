@@ -3,7 +3,7 @@
   "description": "Let's build a \"404 Page Not Found\" page for The Nature of Code website!",
   "videoId": "vfeUb7w8Hr8",
   "date": "2024-08-15",
-  "languages": ["Javascript"],
+  "languages": ["JavaScript"],
   "topics": ["The Nature of Code", "steering behaviors"],
   "canContribute": true,
   "relatedChallenges": ["59-steering-behaviors"],

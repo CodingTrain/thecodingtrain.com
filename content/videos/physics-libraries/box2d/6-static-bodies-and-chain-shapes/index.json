@@ -36,7 +36,7 @@
   "codeExamples": [
     {
       "title": "Static Bodies",
-      "description": "This sketch shows how to add static bodies to the Box2d world.",
+      "description": "This sketch shows how to add static bodies to the Box2D world.",
       "image": "image1.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/PnwZTyi5l",
@@ -45,7 +45,7 @@
     },
     {
       "title": "Chain Shapes",
-      "description": "This sketch shows how to add chain shapes bodies to the Box2d world.",
+      "description": "This sketch shows how to add bodies with chain shapes to the Box2D world.",
       "image": "image2.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/hSYvXedWB",
@@ -79,7 +79,7 @@
           "icon": "🔗",
           "title": "JBox2d",
           "url": "https://github.com/jbox2d/jbox2d",
-          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+          "description": "GitHub repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2D."
         }
       ]
     }

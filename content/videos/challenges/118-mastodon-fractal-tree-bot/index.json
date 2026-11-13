@@ -1,6 +1,6 @@
 {
   "title": "Mastodon Fractal Tree Bot",
-  "description": "In part 1 of this coding challenge, I create a node.js Mastodon bot that posts images (fractal trees) generated with Processing code. In part 2, I revise the node.js Mastodon bot to post images (fractal trees) in response to user mentions.",
+  "description": "In part 1 of this coding challenge, I create a Node.js Mastodon bot that posts images (fractal trees) generated with Processing code. In part 2, I revise the Node.js Mastodon bot to post images (fractal trees) in response to user mentions.",
   "videoNumber": "118",
   "date": "2018-10-16",
   "languages": ["Processing", "JavaScript", "Java", "Node.js", "command-line interface (CLI)"],
@@ -74,7 +74,7 @@
           "icon": "🔗",
           "title": "Node.js",
           "url": "https://nodejs.org/en",
-          "description": "Documentation about Node.js, a open-source JavaScript runtime environment."
+          "description": "Documentation about Node.js, an open-source JavaScript runtime environment."
         },
         {
           "icon": "🔗",

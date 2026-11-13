@@ -70,12 +70,12 @@
       ]
     },
     {
-      "title": "Part 4 - Incorporate Features Suggested on Github",
+      "title": "Part 4 - Incorporate Features Suggested on GitHub",
       "videoId": "HrvNpbnjEG8",
       "timestamps": [
         {
           "time": "0:00",
-          "title": "Part 4 - Incorporate features suggested on Github"
+          "title": "Part 4 - Incorporate features suggested on GitHub"
         },
         { "time": "2:27", "title": "Add y velocity to the inputs" },
         {
@@ -153,7 +153,7 @@
           "icon": "💻",
           "title": "TensorFlow.js",
           "url": "https://www.tensorflow.org/js/",
-          "description": "Webpage with reference materials and documentation about Tensorflow.js."
+          "description": "Webpage with reference materials and documentation about TensorFlow.js."
         },
         {
           "icon": "💻",
@@ -188,7 +188,7 @@
           "icon": "🚂",
           "title": "Coding Challenge #31: Flappy Bird",
           "url": "/challenges/31-flappy-bird",
-          "description": "It's time to attempt to build a Flappy Bird clone in JavaScript with the p5.js!"
+          "description": "It's time to attempt to build a Flappy Bird clone in JavaScript with the p5.js library!"
         },
         {
           "icon": "🚂",

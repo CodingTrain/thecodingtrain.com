@@ -25,7 +25,7 @@
     { "time": "36:19", "title": "Time set function" },
     { "time": "38:58", "title": "Render the density" },
     { "time": "44:10", "title": "Add fade" },
-    { "time": "46:40", "title": "Add perlin noise" },
+    { "time": "46:40", "title": "Add Perlin noise" },
     { "time": "48:00", "title": "Add Pvector" },
     { "time": "50:35", "title": "Recap and next steps" },
     { "time": "52:22", "title": "Adjustments to code" }

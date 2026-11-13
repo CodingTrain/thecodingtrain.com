@@ -1,6 +1,6 @@
 {
   "title": "Box2D - Introduction",
-  "description": "This video is an introduction to a tutorial series on the physics engine Box2D.  The programming language is Java (with the jbox2d port).  The Box2D for Processing library is demonstrated.  In the video it's called the old name: \"PBox2D\" ",
+  "description": "This video is an introduction to a tutorial series on the physics engine Box2D. The programming language is Java (with the jbox2d port). The Box2D for Processing library is demonstrated. In the video it's called the old name: \"PBox2D\" ",
   "videoId": "MsRROjQJxuo",
   "date": "2015-08-06",
   "languages": ["processing"],
@@ -18,7 +18,7 @@
     },
     {
       "time": "5:15",
-      "title": "When would you not want to use Box2d?"
+      "title": "When would you not want to use Box2D?"
     },
     {
       "time": "9:11",
@@ -55,7 +55,7 @@
           "icon": "🔗",
           "title": "JBox2d",
           "url": "https://github.com/jbox2d/jbox2d",
-          "description": "Github repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2d."
+          "description": "GitHub repo for JBox2d, which is a Java port of the C++ physics engines LiquidFun and Box2D."
         }
       ]
     }

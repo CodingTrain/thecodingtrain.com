@@ -1,5 +1,5 @@
 {
-  "title": "Robot Controllers Part 2: Raibert Hopper (with Dr. Christian Hubicki",
+  "title": "Robot Controllers Part 2: Raibert Hopper (with Dr. Christian Hubicki)",
   "description": "In this livestream, I'm rejoined by Dr. Christian Hubicki to continue our series on robot controllers. Dr. Hubicki gives a presentation on the history of legged robots (like ASIMO and Boston Dynamics) and the principles behind the Raibert Hopper. Then, we attempt to implement a 1D hopping robot simulation in p5.js using a PID controller.",
   "videoId": "3FeySIv-gFM",
   "canonicalTrack": "robot-controllers",
@@ -39,7 +39,7 @@
     },
     {
       "title": "1D Raibert Hopper",
-      "description": "A organized and commented p5.js implementation of the 1D Raibert hopper controller.",
+      "description": "An organized and commented p5.js implementation of the 1D Raibert hopper controller.",
       "image": "1d-hopper-b.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/EYOfSWBaF" }
     },

@@ -53,7 +53,7 @@
     },
     {
       "title": "Save Embeddings JSON",
-      "description": "Github repo with information and resources about saving embeddings",
+      "description": "GitHub repo with information and resources about saving embeddings",
       "image": "",
       "urls": { "other": "https://github.com/Programming-from-A-to-Z/Save-Embeddings-JSON" }
     }
@@ -76,7 +76,7 @@
         },
         {
           "icon": "🔗",
-          "title": "UMAP-js Github Repo",
+          "title": "UMAP-js GitHub Repo",
           "url": "https://github.com/PAIR-code/umap-js",
           "description": "JavaScript implementation of UMAP"
         },
@@ -118,9 +118,9 @@
         },
         {
           "icon": "🔗",
-          "title": "tensorflow.js",
+          "title": "TensorFlow.js",
           "url": "https://www.tensorflow.org/js",
-          "description": "Website with information and resources about the tensorflow.js library."
+          "description": "Website with information and resources about the TensorFlow.js library."
         },
         {
           "icon": "🔗",

@@ -121,7 +121,7 @@
     },
     {
       "title": "Kinematics - Part 3",
-      "description": "This sketch shows to to fix the segments to a base.",
+      "description": "This sketch shows how to fix the segments to a base.",
       "image": "img3.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/p8hH8INCv",
@@ -166,9 +166,9 @@
         },
         {
           "icon": "🎥",
-          "title": "Coding Math on Youtube",
+          "title": "Coding Math on YouTube",
           "url": "https://www.youtube.com/user/codingmath",
-          "description": "Youtube channel for Coding Math"
+          "description": "YouTube channel for Coding Math"
         }
       ]
     },
@@ -185,7 +185,7 @@
           "icon": "🔴",
           "title": "Live Stream #86",
           "url": "https://youtu.be/xtFu66DZrBw",
-          "description": "Live Stream with  More Inverse Kinematics + Texturing Cloth SimulationGenerator"
+          "description": "Live Stream with More Inverse Kinematics + Texturing Cloth SimulationGenerator"
         }
       ]
     }

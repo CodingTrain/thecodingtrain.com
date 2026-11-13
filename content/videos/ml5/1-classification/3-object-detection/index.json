@@ -87,9 +87,9 @@
         },
         {
           "icon": "💻",
-          "title": "Object Detection (coco-ssd) Model on tensorflow.js Models GitHub Repository",
+          "title": "Object Detection (coco-ssd) Model on TensorFlow.js Models GitHub Repository",
           "url": "https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd",
-          "description": "Object Detection (coco-ssd) Model on tensorflow.js Models GitHub Repository."
+          "description": "Object Detection (coco-ssd) Model on TensorFlow.js Models GitHub Repository."
         },
         {
           "icon": "💻",
@@ -112,7 +112,7 @@
           "icon": "🚂",
           "title": "Pose Estimation with PoseNet",
           "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
-          "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using the pre-trained machine learning model PoseNet."
+          "description": "In this video I cover pose estimation: finding the keypoints of a person's pose and skeleton using the pre-trained machine learning model PoseNet."
         },
         {
           "icon": "🚂",

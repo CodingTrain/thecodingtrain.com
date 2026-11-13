@@ -62,7 +62,7 @@
           "icon": "🚂",
           "title": "ml5.js Pose Estimation",
           "url": "/tracks/ml5js-beginners-guide/ml5/7-bodypose/pose-detection",
-          "description": "In this video I cover pose estimation: finding the keypoints of person's pose and skeleton using BodyPose (in JavaScript with p5.js and ml5.js)."
+          "description": "In this video I cover pose estimation: finding the keypoints of a person's pose and skeleton using BodyPose (in JavaScript with p5.js and ml5.js)."
         },
         {
           "icon": "🚂",
@@ -86,7 +86,7 @@
           "icon": "🚂",
           "title": "JavaScript setTimeout() Function",
           "url": "https://www.youtube.com/watch?v=nGfTjA8qNDA",
-          "description": "This video covers the setTimeout() function in JavaScript in the context of p5.js.  setTimeout() allows you to execute a given function at a specific time (in milliseconds.)"
+          "description": "This video covers the setTimeout() function in JavaScript in the context of p5.js. setTimeout() allows you to execute a given function at a specific time (in milliseconds.)"
         }
       ]
     }

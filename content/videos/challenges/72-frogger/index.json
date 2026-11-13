@@ -68,7 +68,7 @@
         },
         { "time": "17:08", "title": "Add the ability to detach frog from log" },
         { "time": "19:53", "title": "Constrain the frog to the window" },
-        { "time": "23:00", "title": "Conclusion and suggesions for variations" }
+        { "time": "23:00", "title": "Conclusion and suggestions for variations" }
       ]
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "title": "Frogger - Refactored",
-      "description": "The refactored code for the Frogger game.  The p5.js sketch is from the Frogger repo.",
+      "description": "The refactored code for the Frogger game. The p5.js sketch is from the Frogger repo.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/C8gqXQ3Qd",
         "processing": "https://github.com/CodingTrain/Coding-Challenges/tree/main/072_Frogger/Processing/CC_072_Frogger_refactored",

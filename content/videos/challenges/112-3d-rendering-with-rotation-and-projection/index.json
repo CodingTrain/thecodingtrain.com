@@ -11,7 +11,7 @@
   "timestamps": [
     {
       "time": "0:00",
-      "title": "Introducing today's topic:  3D rendering in 2D"
+      "title": "Introducing today's topic: 3D rendering in 2D"
     },
     { "time": "2:08", "title": "Let's begin coding!" },
     { "time": "7:50", "title": "Add a projection matrix" },
