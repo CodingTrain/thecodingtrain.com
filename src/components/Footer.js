@@ -156,9 +156,7 @@ const Footer = () => {
             <Link to="/about">About</Link>
           </li>
           <li className={css.bold}>
-            <a
-              href="https://store.nebula.tv/collections/the-coding-train"
-              {...externalLink}>
+            <a href="/store" {...externalLink}>
               Shop
             </a>
           </li>
