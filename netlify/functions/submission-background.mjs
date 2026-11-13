@@ -1,9 +1,8 @@
-const { Octokit } = require('@octokit/core');
-const slugify = require('slugify');
-const sharp = require('sharp');
-const crypto = require('crypto');
+import { Octokit } from '@octokit/core';
+import crypto from 'node:crypto';
+import slugify from 'slugify';
 
-// event.body expected to be:
+// Request JSON body expected to be:
 // {
 //   title: "Something",
 //   imageBlobSha: "sha",
@@ -19,8 +18,8 @@ const crypto = require('crypto');
 // }
 // X-Signature: sha256=...
 
-exports.handler = async function (event) {
-  console.log('Background handler called with: ', event.body);
+export default async (request) => {
+  console.log('Background handler called');
 
   if (!process.env.GITHUB_TOKEN) {
     console.error('GitHub Token not loaded');
@@ -28,10 +27,10 @@ exports.handler = async function (event) {
   }
 
   // parse payload and validate signature
-  const postInfo = JSON.parse(event.body);
+  const postInfo = await request.json();
   const hmac = crypto.createHmac('sha256', process.env.GITHUB_TOKEN);
   const signature = hmac.update(JSON.stringify(postInfo)).digest('hex');
-  if (signature !== event.headers['x-signature']) {
+  if (signature !== request.headers.get('x-signature')) {
     console.error('Invalid signature');
     return;
   }
@@ -181,4 +180,8 @@ exports.handler = async function (event) {
   );
 
   console.log('Done!');
+};
+
+export const config = {
+  background: true
 };

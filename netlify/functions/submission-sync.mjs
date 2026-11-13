@@ -1,8 +1,8 @@
-const { Octokit } = require('@octokit/core');
-const sharp = require('sharp');
-const crypto = require('crypto');
+import { Octokit } from '@octokit/core';
+import sharp from 'sharp';
+import crypto from 'node:crypto';
 
-// event.body expected to be:
+// Request JSON body expected to be:
 // {
 //   title: "Something",
 //   image: "base64string=",
@@ -38,28 +38,22 @@ async function validateImage(imageBase64) {
   }
 }
 
-exports.handler = async function (event, context) {
-  console.log('Sync handler called with', event.body);
+export default async (request) => {
+  console.log('Sync handler called');
 
   if (!process.env.GITHUB_TOKEN) {
     console.error('GitHub Token not loaded');
-    return {
-      statusCode: 500,
-      body: JSON.stringify({})
-    };
+    return Response.json({}, { status: 500 });
   }
 
   // parse payload
-  const postInfo = JSON.parse(event.body);
+  const postInfo = await request.json();
 
   // validate image and extract its extension
   const { error, imageExtension } = await validateImage(postInfo.image);
   if (error) {
     console.error(error);
-    return {
-      statusCode: 400,
-      body: JSON.stringify({ error })
-    };
+    return Response.json({ error }, { status: 400 });
   }
 
   // Shared properties
@@ -99,8 +93,8 @@ exports.handler = async function (event, context) {
     imageExtension
   };
   const signature = hmac.update(JSON.stringify(payload)).digest('hex');
-  await fetch(
-    event.rawUrl.replace('submission-sync', 'submission-background'),
+  const backgroundResponse = await fetch(
+    new URL('/.netlify/functions/submission-background', request.url),
     {
       method: 'POST',
       body: JSON.stringify(payload),
@@ -111,10 +105,13 @@ exports.handler = async function (event, context) {
     }
   );
 
-  return {
-    statusCode: 200,
-    body: JSON.stringify({
-      status: 'success'
-    })
-  };
+  if (!backgroundResponse.ok) {
+    console.error('Background invocation failed:', backgroundResponse.status);
+    return Response.json(
+      { error: 'Could not start submission processing' },
+      { status: 502 }
+    );
+  }
+
+  return Response.json({ status: 'success' });
 };
