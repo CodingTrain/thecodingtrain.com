@@ -1,6 +1,6 @@
 {
   "title": "let vs var",
-  "description": "In this video, I cover the \"let\" keyword in ES6 JavaScript. I discuss the differences between \"let\" and \"var\" (block scope vs. functional scope).",
+  "description": "In this video, I cover the \"let\" keyword in ES6 JavaScript. I discuss the differences between \"let\" and \"var\" (block scope vs. function scope).",
   "videoNumber": "1",
   "videoId": "q8SHaDQdul0",
   "date": "2017-09-28",

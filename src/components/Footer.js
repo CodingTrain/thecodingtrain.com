@@ -90,9 +90,9 @@ const Footer = () => {
           <li>
             <a
               href="https://www.youtube.com/c/TheCodingTrain/"
-              aria-label="Youtube">
+              aria-label="YouTube">
               <FaYoutube size={30} />
-              <span>Youtube</span>
+              <span>YouTube</span>
             </a>
           </li>
           <li>
@@ -223,7 +223,7 @@ const Footer = () => {
           2016-{currentYear} The Coding Train. All rights reserved. Built in
           collaboration with{' '}
           <a href="https://designsystems.international/" {...externalLink}>
-            Design System International
+            Design Systems International
           </a>
           .
         </span>

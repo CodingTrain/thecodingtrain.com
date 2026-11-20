@@ -59,11 +59,11 @@ const ComponentsPage = ({ data }) => {
       <div className={cn(css.box, css.spacing)}>
         <p className={textMedium}>
           <strong>Text Medium</strong> Can the unpredictable evolutionary and
-          emergent properties of nature be captured insoftware?
+          emergent properties of nature be captured in software?
         </p>
         <p className={textNormal}>
           <strong>Text Normal</strong> Can understanding the mathematical
-          principles behind the physical world world help to create digital
+          principles behind the physical world help to create digital
           worlds?{' '}
         </p>
         <p className={textSmall}>

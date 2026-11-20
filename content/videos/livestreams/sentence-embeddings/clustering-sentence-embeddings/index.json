@@ -35,7 +35,7 @@
   "codeExamples": [
     {
       "title": "UMAP - p5 function name embeddings",
-      "description": "Visualize the p5 functionname embeddings",
+      "description": "Visualize the p5 function name embeddings",
       "image": "p5.jpg",
       "urls": { "p5": "https://editor.p5js.org/a2zitp/sketches/p63QTp0Sd" }
     },

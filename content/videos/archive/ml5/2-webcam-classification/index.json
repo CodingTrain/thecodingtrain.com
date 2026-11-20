@@ -1,6 +1,6 @@
 {
   "title": "Webcam Image Classification",
-  "description": "This video covers image classifier with MobileNet using real-time video in ml5.js v0.12.2 which has now been deprecated. There is a new version of the video in the Beginner's Guide to Machine Learning in JavaScript track.",
+  "description": "This video covers image classification with MobileNet using real-time video in ml5.js v0.12.2 which has now been deprecated. There is a new version of the video in the Beginner's Guide to Machine Learning in JavaScript track.",
   "videoNumber": "1.2",
   "videoId": "D9BoBSkLvFo",
   "date": "2018-08-02",

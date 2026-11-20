@@ -22,8 +22,9 @@ const FilteredVideosSection = ({ videos: allVideos, trackSlug }) => {
   return (
     <section>
       <div className={css.filterHeading}>
-        {allVideos.length} video{allVideos.length > 1 ? 's' : ''} within this
-        track match the filter.
+        {allVideos.length === 1
+          ? '1 video within this track matches the filter.'
+          : `${allVideos.length} videos within this track match the filter.`}
       </div>
       <div className={css.filteredResults}>
         {videos.map((v, i) => (
