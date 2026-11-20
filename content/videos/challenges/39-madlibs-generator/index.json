@@ -1,6 +1,6 @@
 {
   "title": "Mad Libs Generator",
-  "description": "In this coding challenge, I make a Mad Libs web application using p5.js and tabletop.js (a JavaScript library for connecting to google sheet data.)",
+  "description": "In this coding challenge, I make a Mad Libs web application using p5.js and tabletop.js (a JavaScript library for connecting to Google Sheets data).",
   "videoNumber": "39",
   "videoId": "ziBO-U2_t3k",
   "date": "2016-09-26",
@@ -31,7 +31,7 @@
   "codeExamples": [
     {
       "title": "Mad Libs Generator",
-      "description": "A Mad Libs generator connected to a Google Sheet data",
+      "description": "A Mad Libs generator connected to data in a Google Sheet",
       "image": "madlibs-generator.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/8gVGg0VR3",
@@ -57,7 +57,7 @@
         },
         {
           "icon": "💻",
-          "title": "Programming from A to Z Github",
+          "title": "Programming from A to Z GitHub",
           "url": "https://github.com/Programming-from-A-to-Z/A2Z-F16",
           "description": "Syllabus for my \"Programming from A to Z\" class, Fall 2016"
         }

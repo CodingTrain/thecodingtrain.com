@@ -13,7 +13,4 @@ This is a great option if you are new to open source contributions. For your sub
 
 If you are an experienced contributor, consider adding a new side track to the site! Side Tracks are collections of related videos but don’t necessarily need to be watched in order. Please read through the existing issues to see which tracks have been requested. If you are interested in adding a track, please leave a comment in the issue before you start.
 
- For more information on the content structure for tracks and videos, check out the [Content Structure Guide](https://github.com/CodingTrain/thecodingtrain.com/blob/main/CODE_OF_CONDUCT.md).
-
-
-
+For more information on the content structure for tracks and videos, check out the [Content Structure Guide](./content/pages/guides/content-structure-guide.md).

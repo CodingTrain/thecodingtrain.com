@@ -12,7 +12,7 @@
   "timestamps": [
     { "time": "0:00", "title": "Introduction" },
     { "time": "0:36", "title": "Speech Command Recognizer" },
-    { "time": "3:36", "title": "Visualizing sound with spectograms" },
+    { "time": "3:36", "title": "Visualizing sound with spectrograms" },
     { "time": "5:28", "title": "Using the ml5 library" },
     { "time": "6:47", "title": "Load the SoundClassifier" },
     { "time": "7:46", "title": "Use the SpeechCommands18w model" },
@@ -44,7 +44,7 @@
           "icon": "🔗",
           "title": "Speech Command Recognizer",
           "url": "https://github.com/tensorflow/tfjs-models/tree/master/speech-commands",
-          "description": "tfjs-models github page with information about the speech command recognizer model"
+          "description": "tfjs-models GitHub page with information about the speech command recognizer model"
         },
         {
           "icon": "🔗",

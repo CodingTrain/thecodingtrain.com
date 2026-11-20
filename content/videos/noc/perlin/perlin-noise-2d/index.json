@@ -28,7 +28,7 @@
   "codeExamples": [
     {
       "title": "Perlin Noise in 2D",
-      "description": "Using 2D perlin noise to create a 2D noise field",
+      "description": "Using 2D Perlin noise to create a 2D noise field",
       "image": "perlin2d.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/2_hBcOBrF"

@@ -13,7 +13,7 @@
     { "time": "0:54", "title": "A correction from coding challenge #79" },
     {
       "time": "1:35",
-      "title": "Writing a script for the chatbot in RiverScript"
+      "title": "Writing a script for the chatbot in RiveScript"
     },
     {
       "time": "5:47",
@@ -33,7 +33,7 @@
   "codeExamples": [
     {
       "title": "Voice Chatbot with p5.Speech",
-      "description": "This sketch adds voice interface to a chatbot",
+      "description": "This sketch adds a voice interface to a chatbot",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/QcY2Z36mJ"
       }
@@ -51,7 +51,7 @@
         },
         {
           "icon": "🔗",
-          "title": "RiveScript on Github",
+          "title": "RiveScript on GitHub",
           "url": "https://github.com/aichaos/rivescript-js",
           "description": "A RiveScript interpreter for JavaScript."
         },

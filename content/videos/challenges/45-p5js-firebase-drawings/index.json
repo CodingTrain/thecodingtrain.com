@@ -1,6 +1,6 @@
 {
   "title": "Saving p5.js Drawings to Firebase",
-  "description": "In this coding challenge, I make a HTML5 canvas doodling application with p5.js. Users can save and share drawings in real-time with the Database as a Service (DBaaS) Firebase.",
+  "description": "In this coding challenge, I make an HTML5 canvas doodling application with p5.js. Users can save and share drawings in real-time with the Database as a Service (DBaaS) Firebase.",
   "videoNumber": "45",
   "videoId": "RUSvMxxm_Jo",
   "date": "2016-12-11",
@@ -70,7 +70,7 @@
   "codeExamples": [
     {
       "title": "Saving p5.js Drawings to Firebase",
-      "description": "This project creates a HTML5 canvas doodling application with p5.js. Users can save and share drawings in real-time with the Database as a Service (DBaaS) Firebase.",
+      "description": "This project creates an HTML5 canvas doodling application with p5.js. Users can save and share drawings in real-time with the Database as a Service (DBaaS) Firebase.",
       "urls": {
         "other": "https://github.com/CodingTrain/Coding-Challenges/tree/main/045_FirebaseSavingDrawing/P5"
       }
@@ -113,7 +113,7 @@
           "icon": "🎥",
           "title": "Web Sockets and p5.js Tutorial",
           "url": "https://youtube.com/playlist?list=PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH",
-          "description": "This tutorial playlist covers how to use node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions."
+          "description": "This tutorial playlist covers how to use Node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions."
         },
         {
           "icon": "🎥",

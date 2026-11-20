@@ -1,6 +1,6 @@
 {
   "title": "Agar.io",
-  "description": "In this multi-part coding challenge, I create a clone of the multiplayer online game Agar.io with JavaScript, node.js and websockets.",
+  "description": "In this multi-part coding challenge, I create a clone of the multiplayer online game Agar.io with JavaScript, Node.js and websockets.",
   "videoNumber": "32",
   "date": "2016-08-16",
   "languages": ["JavaScript", "Node.js"],
@@ -61,7 +61,7 @@
         },
         {
           "time": "0:52",
-          "title": "Mention tutorial on node.js and web sockets"
+          "title": "Mention tutorial on Node.js and web sockets"
         },
         { "time": "1:22", "title": "Sketch client-server communication" },
         { "time": "3:00", "title": "Set up a node server" },
@@ -163,7 +163,7 @@
           "icon": "🚂",
           "title": "Collaborative p5.js Sketches Channel",
           "url": "/tracks/web-sockets-and-p5js",
-          "description": "My playlist which covers how to use node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions."
+          "description": "My playlist which covers how to use Node.js, p5.js, and socket.io (websockets) to create a shared HTML5 canvas across multiple browser sessions."
         },
         {
           "icon": "🎥",

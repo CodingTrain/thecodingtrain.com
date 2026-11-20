@@ -1,6 +1,6 @@
 {
   "title": "Teachable Machine 1: Image Classification",
-  "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)!  Train a computer to recognize your own images, sounds, & poses. In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library. ",
+  "description": "Introducing Teachable Machine 2.0 (from Google Creative Lab)! Train a computer to recognize your own images, sounds, & poses. In this video, I train an image classifier and import the machine learning model into a p5.js sketch with the ml5.js library.",
   "videoNumber": "1",
   "nebulaSlug": "the-coding-train-yt-teachable-machine-1-image-classification",
   "videoId": "kwcillcWOg0",

@@ -24,7 +24,7 @@
   "corrections": [
     {
       "time": "15:45",
-      "title": "Intents describe what events your bot will receive and what it has access to. The guilds intent is required so discord.js can internally populate it's cache to limit it's API calls to Discord."
+      "title": "Intents describe what events your bot will receive and what it has access to. The guilds intent is required so discord.js can internally populate its cache to limit its API calls to Discord."
     },
     {
       "time": "23:49",

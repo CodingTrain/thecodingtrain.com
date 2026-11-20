@@ -101,7 +101,7 @@
           "icon": "✏️",
           "title": "DoodleNet (GitHub)",
           "url": "https://github.com/yining1023/doodleNet",
-          "description": "A series of experiments about Doodle Classifier(a Convolutional Neural Network) using tensorflow.js and tensorflow. "
+          "description": "A series of experiments about Doodle Classifier(a Convolutional Neural Network) using TensorFlow.js and TensorFlow. "
         }
       ]
     },
@@ -142,7 +142,7 @@
           "icon": "🎥",
           "title": "ml5.js: Save Neural Network Trained Model",
           "url": "/tracks/ml5js-beginners-guide/ml5/6-train-your-own-neural-network/3-save-model",
-          "description": "This video shows how to save a save a model that has been trained in ml5.js."
+          "description": "This video shows how to save a model that has been trained in ml5.js."
         }
       ]
     }

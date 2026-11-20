@@ -352,7 +352,7 @@ function writeDescription(video) {
 
   // Code Examples:
 
-  // Github Standalone Repo Link
+  // GitHub Standalone Repo Link
   const repoLink = data.codeExamples
     ?.map((ex) => Object.values(ex.urls))
     .flat()
@@ -362,7 +362,7 @@ function writeDescription(video) {
         !url.slice(31).includes('/')
     );
   if (repoLink) {
-    description += `\n💻 Github Repo: ${repoLink}`;
+    description += `\n💻 GitHub Repo: ${repoLink}`;
   }
 
   // Web Editor Links

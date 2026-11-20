@@ -71,9 +71,9 @@
         },
         {
           "icon": "💻",
-          "title": "Tensorflow.js port of MobileNet",
+          "title": "TensorFlow.js port of MobileNet",
           "url": "https://github.com/tensorflow/tfjs-models/tree/master/mobilenet",
-          "description": "Repository with the Tensorflow.js MobileNet model."
+          "description": "Repository with the TensorFlow.js MobileNet model."
         },
         {
           "icon": "💻",

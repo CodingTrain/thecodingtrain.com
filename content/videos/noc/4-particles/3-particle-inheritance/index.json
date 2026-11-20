@@ -8,7 +8,7 @@
     { "time": "0:00", "title": "Hi!" },
     { "time": "0:27", "title": "Make particle extend p5.Vector." },
     { "time": "1:23", "title": "Let's make a class that extends Particle." },
-    { "time": "2:52", "title": "Javascript file order matters, sometimes." },
+    { "time": "2:52", "title": "JavaScript file order matters, sometimes." },
     { "time": "3:26", "title": "We need to use the Confetti class." },
     { "time": "4:00", "title": "What if we want both confetti and particles." },
     { "time": "4:32", "title": "Some exercises you could try." },

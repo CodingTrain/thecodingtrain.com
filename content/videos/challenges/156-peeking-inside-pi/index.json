@@ -1,6 +1,6 @@
 {
   "title": "Peeking Inside Pi",
-  "description": "🥧 Happy Pi Day 2020! In this challenge, I build a simple web application using p5.js and node.js to search in the first billion digits of Pi.",
+  "description": "🥧 Happy Pi Day 2020! In this challenge, I build a simple web application using p5.js and Node.js to search in the first billion digits of Pi.",
   "videoNumber": "156",
   "videoId": "MEdpRYyjz_0",
   "nebulaSlug": "the-coding-train-yt-coding-challenge-156-peeking-inside-pi",
@@ -13,7 +13,7 @@
     { "time": "0:00", "title": "Introduction" },
     { "time": "2:30", "title": "Importing Pi Into p5.js" },
     { "time": "3:37", "title": "Searching Numbers in Pi" },
-    { "time": "7:09", "title": "IndexOf Function" },
+    { "time": "7:09", "title": "The indexOf() Method" },
     { "time": "13:13", "title": "Importing 1GB File" },
     { "time": "16:38", "title": "Dividing the Data into Read Streams" },
     { "time": "18:25", "title": "Searching 1 Billion Digits" },

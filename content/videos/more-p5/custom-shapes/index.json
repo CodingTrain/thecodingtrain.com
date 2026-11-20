@@ -1,6 +1,6 @@
 {
   "title": "Custom Shapes",
-  "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using, `beginShape()`, `endShape()`, `vertex()` and `curveVertex()`. Special thanks to Rune Madsen's Programming Design Systems!",
+  "description": "In this video, I look at how to draw \"custom\" shapes in p5.js, using `beginShape()`, `endShape()`, `vertex()` and `curveVertex()`. Special thanks to Rune Madsen's Programming Design Systems!",
   "videoId": "76fiD5DvzeQ",
   "date": "2017-09-27",
   "languages": ["JavaScript", "p5.js"],

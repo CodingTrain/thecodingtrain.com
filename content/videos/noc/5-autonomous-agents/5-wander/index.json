@@ -23,7 +23,7 @@
   "codeExamples": [
     {
       "title": "Main",
-      "description": "Using the wander steering behavior to move an vehicle",
+      "description": "Using the wander steering behavior to move a vehicle",
       "image": "wander.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/LVtVlS52Q" }
     },
@@ -53,7 +53,7 @@
     },
     {
       "title": "Perlin Noise",
-      "description": "Using Perin Noise to determine the wander steering angle",
+      "description": "Using Perlin noise to determine the wander steering angle",
       "image": "perlin.jpg",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/XH2DtikuI" }
     }

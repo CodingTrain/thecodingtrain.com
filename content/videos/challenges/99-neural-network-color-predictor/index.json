@@ -22,7 +22,7 @@
   "codeExamples": [
     {
       "title": "Color Predictor",
-      "description": "This sketch uses my neural network library to create a \"color predictor.\".",
+      "description": "This sketch uses my neural network library to create a \"color predictor.\"",
       "urls": { "p5": "https://editor.p5js.org/codingtrain/sketches/Kcspm0WPN" }
     }
   ],
@@ -34,7 +34,7 @@
           "icon": "💻",
           "title": "TensorFlow.js",
           "url": "https://www.tensorflow.org/js/",
-          "description": "Webpage with reference materials and documentation about Tensorflow.js."
+          "description": "Webpage with reference materials and documentation about TensorFlow.js."
         },
         {
           "icon": "💻",
@@ -61,9 +61,9 @@
         },
         {
           "icon": "🎥",
-          "title": "Jabril on Youtube",
+          "title": "Jabril on YouTube",
           "url": "https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg",
-          "description": "Jabril's Youtube channel."
+          "description": "Jabril's YouTube channel."
         },
         {
           "icon": "🚂",

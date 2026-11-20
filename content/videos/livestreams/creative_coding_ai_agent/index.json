@@ -1,10 +1,10 @@
 {
   "title": "Creative Coding AI Agent",
-  "description": "In this live episode of the Coding Train, I start working on a VSC extension for a creative coding AI agent.",
+  "description": "In this live episode of the Coding Train, I start working on a VS Code extension for a creative coding AI agent.",
   "videoId": "-_ivRdVjjzA",
   "date": "2024-03-24",
-  "languages": ["Javascript"],
-  "topics": ["AI agent", "VSC extension", "node"],
+  "languages": ["JavaScript"],
+  "topics": ["AI agent", "VS Code extension", "node"],
   "canContribute": true,
   "relatedChallenges": ["179-wolfram-ca", "182-apollonian-gasket"],
   "timestamps": [
@@ -13,15 +13,15 @@
     { "time": "0:18:12", "title": "Agenda" },
     { "time": "0:19:42", "title": "ShiffBot" },
     { "time": "0:23:01", "title": "NOC" },
-    { "time": "0:28:32", "title": "Instgram" },
+    { "time": "0:28:32", "title": "Instagram" },
     { "time": "0:37:54", "title": "Nebula" },
     { "time": "0:39:47", "title": "Discord updates" },
-    { "time": "0:48:51", "title": "Start working on VSC extension" },
+    { "time": "0:48:51", "title": "Start working on VS Code extension" },
     { "time": "2:00:37", "title": "Outro" }
   ],
   "codeExamples": [
     {
-      "title": "Bizarro-Devin Github Repository",
+      "title": "Bizarro-Devin GitHub Repository",
       "description": "My repository with the code for Bizarro-Devin",
       "urls": { "other": "https://github.com/CodingTrain/Bizarro-Devin" }
     }
@@ -46,13 +46,13 @@
           "icon": "🔗",
           "title": "Your First Extension",
           "url": "https://code.visualstudio.com/api/get-started/your-first-extension",
-          "description": "Tutorial about the fundamental concepts for building VSC extensions."
+          "description": "Tutorial about the fundamental concepts for building VS Code extensions."
         },
         {
           "icon": "🔗",
           "title": "Hello World Minimal Sample",
           "url": "https://github.com/microsoft/vscode-extension-samples/tree/main/helloworld-minimal-sample",
-          "description": "This is a minimal version of the VSC Hello World Sample."
+          "description": "This is a minimal version of the VS Code Hello World Sample."
         },
         {
           "icon": "🔗",

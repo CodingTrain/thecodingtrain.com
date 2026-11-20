@@ -1,6 +1,6 @@
 {
   "title": "JavaScript Countdown Timer",
-  "description": "In this video, I use the p5.js library to create a web-based countdown timer. I discuss the native JavaScript method setInterval() and well as p5\u2019s millis().",
+  "description": "In this video, I use the p5.js library to create a web-based countdown timer. I discuss the native JavaScript method setInterval() as well as p5’s millis().",
   "videoNumber": "66",
   "videoId": "MLtAMg9_Svw",
   "date": "2017-03-25",

@@ -15,7 +15,7 @@
     { "time": "4:31", "title": "Defining the cells" },
     {
       "time": "11:03",
-      "title": "Let's make a show() function using object protypes!"
+      "title": "Let's make a show() function using object prototypes!"
     },
     { "time": "17:30", "title": "Checking if mouse is inside a grid" },
     { "time": "20:15", "title": "Revealing the cells after clicking" },
@@ -81,7 +81,7 @@
         },
         {
           "icon": "🎥",
-          "title": "2D Arrays in Javascript",
+          "title": "2D Arrays in JavaScript",
           "url": "/tracks/p5-tips-and-tricks/more-p5/2d-arrays",
           "description": "In this JavaScript Tutorial, I cover two-dimensional (2D) arrays in JavaScript."
         },

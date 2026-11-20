@@ -1,6 +1,6 @@
 {
   "title": "Noise",
-  "description": "This track contains my tutorials on perlin and simplex noise.",
+  "description": "This track contains my tutorials on Perlin and simplex noise.",
   "videos": [
     "noc/perlin/intro-to-perlin-noise",
     "noc/perlin/noise-vs-random",

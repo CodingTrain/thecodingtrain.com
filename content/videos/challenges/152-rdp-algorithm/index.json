@@ -1,6 +1,6 @@
 {
   "title": "RDP Algorithm",
-  "description": "The Ramer–Douglas–Peucker algorithm (aka \"iterative end-point fit algorithm\"), takes a curve composed of line segments and reduces the fidelty to a \"lower fidelity\" curve with fewer points.",
+  "description": "The Ramer–Douglas–Peucker algorithm (aka \"iterative end-point fit algorithm\") takes a curve composed of line segments and reduces the fidelity to a \"lower fidelity\" curve with fewer points.",
   "videoNumber": "152",
   "videoId": "nSYw9GrakjY",
   "nebulaSlug": "the-coding-train-yt-coding-challenge-152-rdp-line-simplification-algorithm",
@@ -43,8 +43,8 @@
         },
         {
           "icon": "📚",
-          "title": "Nature of Code Chapter 6",
-          "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
+          "title": "Path Following in The Nature of Code",
+          "url": "https://natureofcode.com/autonomous-agents/#path-following",
           "description": "Detailed explanation of path following and scalar projection from Nature of Code text."
         },
         {

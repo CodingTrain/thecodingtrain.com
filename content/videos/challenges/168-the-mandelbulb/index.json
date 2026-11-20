@@ -1,6 +1,6 @@
 {
   "title": "The Mandelbulb",
-  "description": "It's the Mandelbulb! What happens when you take the original fractal (The Mandelbrot Set) and extend it into 3D space. And how do you visualize it in Processing (Java) as a point cloud?",
+  "description": "It's the Mandelbulb! What happens when you take the original fractal (The Mandelbrot Set) and extend it into 3D space? And how do you visualize it in Processing (Java) as a point cloud?",
   "videoNumber": "168",
   "videoId": "NJCiUVGiNyA",
   "nebulaSlug": "codingtrain-the-mandelbulb-3d-fractal-coding-challenge-168",
@@ -99,7 +99,7 @@
       "links": [
         {
           "icon": "🎥",
-          "title": "Mendelbulb (raymarched SDF)",
+          "title": "Mandelbulb (raymarched SDF)",
           "url": "https://youtu.be/eKUh4nkmQbc",
           "description": "Inigo Quilez's video of the Mandelbulb"
         },

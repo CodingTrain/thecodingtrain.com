@@ -1,6 +1,6 @@
 {
   "title": "The Prime (Ulam) Spiral",
-  "description": "Why do prime numbers show up as diagonals in a spiral? In this video, I create a visualization in JavaScript (p5.js) of the Ulam Spiral (aka Prime Spiral) named for Polish Mathematician Stanislav Ulan.",
+  "description": "Why do prime numbers show up as diagonals in a spiral? In this video, I create a visualization in JavaScript (p5.js) of the Ulam Spiral (aka Prime Spiral) named for Polish mathematician Stanislaw Ulam.",
   "videoNumber": "167",
   "videoId": "a35KWEjRvc0",
   "nebulaSlug": "codingtrain-the-prime-spiral-coding-challenge-167",
@@ -76,7 +76,7 @@
           "icon": "📓",
           "title": "An Observation on the Distribution of Primes, M. Stein and S. M. Ulam",
           "url": "https://www.jstor.org/stable/2314055",
-          "description": "An article on the distribution of prie numbers"
+          "description": "An article on the distribution of prime numbers"
         },
         {
           "icon": "🗄",

@@ -233,7 +233,7 @@ Then copy the template into the `index.json`:
       ]
     },
     {
-      "title": "Part 2 - Specific Title for Part 2"
+      "title": "Part 2 - Specific Title for Part 2",
       "videoId": "YouTube video ID for Part 2",
       "timestamps": [
         { "time": "0:00", "title": "Title 1" },

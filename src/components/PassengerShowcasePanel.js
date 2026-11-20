@@ -26,7 +26,7 @@ const PassengerShowcasePanel = ({
   const isFirstRender = useIsFirstRender();
   const description =
     contributions.length > 0
-      ? 'The Showcase is collection of projects created by viewers like you!'
+      ? 'The Showcase is a collection of projects created by viewers like you!'
       : 'No showcase projects submitted yet, you could be the first!';
   const Header = headerType;
 

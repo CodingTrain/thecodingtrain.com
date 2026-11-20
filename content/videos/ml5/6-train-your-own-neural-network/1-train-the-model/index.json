@@ -52,13 +52,13 @@
           "icon": "🔗",
           "title": "Titanic Dataset",
           "url": "https://github.com/ml5js/ml5-examples/blob/release/p5js/NeuralNetwork/NeuralNetwork_titanic/data/titanic_cleaned.csv",
-          "description": "Link to the Titanic dataset on the ml github page."
+          "description": "Link to the Titanic dataset on the ml GitHub page."
         },
         {
           "icon": "💾",
           "title": "Color Data",
           "url": "https://github.com/ml5js/ml5-examples/blob/release/p5js/NeuralNetwork/NeuralNetwork_color_classifier/data/colorData.json",
-          "description": "Link to the color dataset on the ml github page."
+          "description": "Link to the color dataset on the ml GitHub page."
         },
         {
           "icon": "💾",

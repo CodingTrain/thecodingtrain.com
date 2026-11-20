@@ -58,8 +58,8 @@
       "links": [
         {
           "icon": "🚂",
-          "title": "CreateGraphics()",
-          "description": "Tutorial on CreateGRaphics",
+          "title": "createGraphics()",
+          "description": "Tutorial on createGraphics()",
           "url": "/tracks/code-programming-with-p5-js/code/2-variables/6-createGraphics"
         }
       ]

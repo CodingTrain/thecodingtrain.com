@@ -95,7 +95,7 @@
         },
         {
           "icon": "🎥",
-          "title": "Local Storage in Javascript",
+          "title": "Local Storage in JavaScript",
           "url": "/tracks/p5-tips-and-tricks/more-p5/local-storage",
           "description": "p5.js tutorial on using local storage in JavaScript"
         },

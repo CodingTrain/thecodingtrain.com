@@ -1,6 +1,6 @@
 {
   "title": "Timing, Jumps, and Cues",
-  "description": "In this video, I cover how to working with \"timing\" and audio in the p5.js sound library.  I look at how to add cues and jump to different points of time in a sound file in the browser",
+  "description": "In this video, I cover how to work with \"timing\" and audio in the p5.js sound library. I look at how to add cues and jump to different points of time in a sound file in the browser",
   "videoId": "SfA5CghXw18",
   "nebulaSlug": "",
   "date": "2016-06-08",

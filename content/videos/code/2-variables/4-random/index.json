@@ -45,7 +45,7 @@
     },
     {
       "title": "Painting Exercise 1",
-      "description": "Painting program where the color and stroke is randomly changed upon mouse click.",
+      "description": "Painting program where the color and stroke are randomly changed upon mouse click.",
       "image": "img3.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/stERy5a1D"
@@ -53,7 +53,7 @@
     },
     {
       "title": "Painting Exercise 2",
-      "description": "Painting program where the color and stroke is randomly changed every frame.",
+      "description": "Painting program where the color and stroke are randomly changed every frame.",
       "image": "img4.jpg",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/IyyJ1QYKh"

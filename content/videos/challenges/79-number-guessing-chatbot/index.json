@@ -1,6 +1,6 @@
 {
   "title": "Number Guessing Chatbot",
-  "description": "In this coding challenge I attempt to create a chatbot that plays a number guessing game. I use the RiveScript along the JavaScript library p5.js.",
+  "description": "In this coding challenge I attempt to create a chatbot that plays a number guessing game. I use RiveScript alongside the JavaScript library p5.js.",
   "videoNumber": "79",
   "videoId": "zGe1m_bLOFk",
   "date": "2017-10-13",
@@ -71,7 +71,7 @@
         },
         {
           "icon": "🔗",
-          "title": "RiveScript on Github",
+          "title": "RiveScript on GitHub",
           "url": "https://github.com/aichaos/rivescript-js",
           "description": "A RiveScript interpreter for JavaScript."
         }

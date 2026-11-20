@@ -8,7 +8,7 @@
   "canonicalTrack": "the-nature-of-code-2",
   "timestamps": [
     { "time": "0:00", "title": "Welcome!" },
-    { "time": "0:45", "title": "Random() and noise()" },
+    { "time": "0:45", "title": "random() and noise()" },
     { "time": "1:14", "title": "Perlin noise" },
     { "time": "2:00", "title": "Procedural textures" },
     { "time": "5:04", "title": "Perlin noise values over time" },

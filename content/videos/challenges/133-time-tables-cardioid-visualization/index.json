@@ -34,8 +34,8 @@
   ],
   "codeExamples": [
     {
-      "title": "Times Table Cartioid",
-      "description": "This sketch visualizes the times table cartioid.",
+      "title": "Times Table Cardioid",
+      "description": "This sketch visualizes the times table cardioid.",
       "image": "cardioid.png",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/gwcGb_NPm",

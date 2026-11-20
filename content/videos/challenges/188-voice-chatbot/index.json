@@ -6,7 +6,7 @@
   "date": "2026-04-27",
   "nebulaSlug": "codingtrain-coding-challenge-188-voice-chatbot",
   "languages": ["JavaScript", "p5.js", "transformers.js"],
-  "topics": ["text-to-speech", "speech-to-text", "chatbot", "Rivescript", "LLMS", "Agents", "AI", "transformers.js", "Web Audio API"],
+  "topics": ["text-to-speech", "speech-to-text", "chatbot", "RiveScript", "LLMs", "Agents", "AI", "transformers.js", "Web Audio API"],
   "canContribute": true,
   "relatedChallenges": ["42-markov-chain-name-generator", "43-context-free-grammar", "80-voice-chatbot-with-p5speech"],
   "timestamps": [
@@ -120,7 +120,7 @@
           "icon": "📓",
           "title": "Xenova",
           "url": "https://github.com/xenova",
-          "description": "Github repo for Joshua Lochner, the creator of transformers.js."
+          "description": "GitHub repo for Joshua Lochner, the creator of transformers.js."
         },
         {
           "icon": "📓",
@@ -150,7 +150,7 @@
           "icon": "📓",
           "title": "Kokoro Repo",
           "url": "https://github.com/hexgrad/kokoro",
-          "description": "Github repo for the Kokoro speech-to-text model."
+          "description": "GitHub repo for the Kokoro speech-to-text model."
         },
         {
           "icon": "📓",
@@ -166,7 +166,7 @@
         },
         {
           "icon": "📓",
-          "title": "Rivescript",
+          "title": "RiveScript",
           "url": "https://www.rivescript.com",
           "description": "RiveScript is a simple scripting language for chatbots."
         },

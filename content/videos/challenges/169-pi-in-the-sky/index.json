@@ -47,7 +47,7 @@
         {
           "icon": "🎥",
           "title": "The Snake Game",
-          "url": "https://youtube.com/watch?v=iFuR97YcSLM",
+          "url": "/challenges/3-snake-game",
           "description": "Coding Challenge to make the Snake Game in p5.js"
         },
         {

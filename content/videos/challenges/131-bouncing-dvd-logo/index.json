@@ -1,6 +1,6 @@
 {
   "title": "Bouncing DVD Logo",
-  "description": "In this coding challenge, I simulate the \u201cBouncing DVD Logo\u201d meme in JavaScript with p5.js.",
+  "description": "In this coding challenge, I simulate the “Bouncing DVD Logo” meme in JavaScript with p5.js.",
   "videoNumber": "131",
   "videoId": "0j86zuqqTlQ",
   "nebulaSlug": "the-coding-train-coding-challenge-131-bouncing-dvd-logo",
@@ -75,7 +75,7 @@
           "icon": "🎥",
           "title": "How I Learned to Code My Own Game",
           "url": "https://youtu.be/s12npdDmGUc",
-          "description": "This month, I learned to code my own game from scratch! I used Javascript and the P5 library to learn to code a browser based game. By [Mike Boyd](https://www.youtube.com/@MikeBoyd)"
+          "description": "This month, I learned to code my own game from scratch! I used JavaScript and the P5 library to learn to code a browser based game. By [Mike Boyd](https://www.youtube.com/@MikeBoyd)"
         },
         {
           "icon": "🔴",

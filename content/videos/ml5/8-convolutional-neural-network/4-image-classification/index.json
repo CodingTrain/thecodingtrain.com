@@ -17,7 +17,7 @@
     { "time": "3:31", "title": "Specify the characteristics of the data" },
     { "time": "5:11", "title": "Adjust addExample function" },
     { "time": "7:11", "title": "Train the model" },
-    { "time": "8:09", "title": "Debugging:  loss is not decreasing" },
+    { "time": "8:09", "title": "Debugging: loss is not decreasing" },
     { "time": "8:53", "title": "normalizeData()" },
     {
       "time": "10:07",
@@ -57,7 +57,7 @@
           "icon": "🚂",
           "title": "What is a Convolutional Neural Network Part 2 - Max Pooling",
           "url": "/tracks/ml5js-beginners-guide/ml5/8-convolutional-neural-network/3-max-pooling",
-          "description": "Part 2 of this video on Convolutional Neural Networks covers on the concept of \"max pooling.\""
+          "description": "Part 2 of this video on Convolutional Neural Networks covers the concept of \"max pooling.\""
         },
         {
           "icon": "🚂",

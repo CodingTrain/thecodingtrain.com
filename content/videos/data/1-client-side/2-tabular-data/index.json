@@ -44,7 +44,7 @@
           "icon": "🌈",
           "title": "Rainbow CSV",
           "url": "https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv",
-          "description": "VSCode extension that colour-formats CSV files"
+          "description": "VS Code extension that colour-formats CSV files"
         },
         {
           "icon": "💾",
