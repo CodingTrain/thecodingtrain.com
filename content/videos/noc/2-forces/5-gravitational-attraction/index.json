@@ -45,9 +45,9 @@
           "description": "Wikipedia entry on Newton's law of universal gravitation"
         },
         {
-          "title": "2.9 Gravitational Attraction",
-          "url": "https://natureofcode.com/book/chapter-2-forces/#29-gravitational-attraction",
-          "description": "Link to chapter 2.9 of the Nature of Code book"
+          "title": "Gravitational Attraction in The Nature of Code",
+          "url": "https://natureofcode.com/forces/#gravitational-attraction",
+          "description": "The Nature of Code section on gravitational attraction"
         }
       ]
     },

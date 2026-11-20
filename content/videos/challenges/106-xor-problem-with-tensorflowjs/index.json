@@ -17,7 +17,7 @@
     { "time": "17:23", "title": "model.predict()" },
     { "time": "23:34", "title": "Input data" },
     { "time": "29:00", "title": "Train the model" },
-    { "time": "36:54", "title": "Shuffle training dta" },
+    { "time": "36:54", "title": "Shuffle training data" },
     { "time": "38:02", "title": "Memory management" },
     { "time": "40:08", "title": "Draw output" },
     { "time": "45:32", "title": "Train()" }

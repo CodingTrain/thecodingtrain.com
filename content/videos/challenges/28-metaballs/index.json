@@ -1,6 +1,6 @@
 {
   "title": "Metaballs",
-  "description": "Let's code some Metaballs (aka Isosurfaces) in Processing and how to control them using the Blob Detection methodology from my computer vision tutorial!",
+  "description": "Let's code some Metaballs (aka Isosurfaces) in Processing and see how to control them using the Blob Detection methodology from my computer vision tutorial!",
   "videoNumber": "28",
   "videoId": "ccYLb7cLB1I",
   "nebulaSlug": "the-coding-train-coding-challenge-28-metaballs",

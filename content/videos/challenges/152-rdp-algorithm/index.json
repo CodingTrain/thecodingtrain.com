@@ -43,8 +43,8 @@
         },
         {
           "icon": "📚",
-          "title": "Nature of Code Chapter 6",
-          "url": "https://natureofcode.com/book/chapter-6-autonomous-agents/",
+          "title": "Path Following in The Nature of Code",
+          "url": "https://natureofcode.com/autonomous-agents/#path-following",
           "description": "Detailed explanation of path following and scalar projection from Nature of Code text."
         },
         {

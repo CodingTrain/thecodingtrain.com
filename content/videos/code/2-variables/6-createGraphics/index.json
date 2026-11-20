@@ -15,7 +15,7 @@
       "time": "3:45",
       "title": "Use clear() to Make the Extra Canvas Transparent"
     },
-    { "time": "5:00", "title": "Order of Shapes within Draw()" }
+    { "time": "5:00", "title": "Order of Shapes within draw()" }
   ],
   "codeExamples": [
     {

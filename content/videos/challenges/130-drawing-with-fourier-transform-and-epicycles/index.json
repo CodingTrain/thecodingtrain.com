@@ -106,7 +106,7 @@
       "description": "This sketch uses a Discrete Fourier Transform algorithm to draw the Coding Train logo.",
       "urls": {
         "p5": "https://editor.p5js.org/codingtrain/sketches/RfrZibjfL",
-        "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_3/Processing/CC_130_Fourier_Transform/CC_130_Fourier_Transform.pde"
+        "processing": "https://github.com/CodingTrain/Coding-Challenges/blob/main/130_Fourier_Transform_1/Processing/CC_130_Fourier_Transform/CC_130_Fourier_Transform.pde"
       }
     },
     {

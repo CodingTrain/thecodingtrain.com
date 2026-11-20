@@ -1,5 +1,5 @@
 {
-  "title": "HTTP Post Request with fetch()",
+  "title": "HTTP POST Request with fetch()",
   "description": "Let's take data from the client and send it to the server. This video covers routing, JSON parsing, and HTTP POST requests with fetch().",
   "videoNumber": "2.3",
   "languages": ["JavaScript", "Node.js"],
@@ -22,7 +22,7 @@
       "description": "Demonstration of Routing in Express and making a POST request from the client.",
       "image": "postrequest.png",
       "urls": {
-        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/exercise_04_array_button/"
+        "other": "https://github.com/CodingTrain/Intro-to-Data-APIs-JS/tree/source/module2/03_post_request/"
       }
     },
     {
